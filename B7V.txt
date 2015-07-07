@@ -1,0 +1,324 @@
+B7V
+
+Garrison94 does not list a B7V anchor standard, and MK73 does not
+list a B7V dagger standard.
+
+HD 21071 appears to be the best standard available, however its colors
+are slightly bluer, and it appears to be a bit hotter, than most B7V
+stars in the Hipparcos catalog. This may be traced to the fact that
+MK43 did not list a B7V standard, the only B7V standard in Johnson &
+Morgan (1953) [alf Leo] was later considered B8V in most work, MK73
+then did not list a B7V dagger standard, and the current MK78/Gray
+standard (HD 21071) has only been in use since the late 1970s. Houk
+did not list a B7V standard in the Michigan Spectral Survey, and that
+survey provided many of the types for the Hipparcos catalog.  So the
+definition of B7V - initially undefined, then poorly defined (arguably
+twice) - has migrated a bit over the years. The mean values I list are
+leaned towards the majority of B7Vs in the Hipparcos catalog (and the
+secondary standard 49 Eri), and not so much the hotter/bluer primary
+standard HD 21071.
+
+JM53 standard:        alf Leo - B7V
+Lesh68 standard:      49 Eri  - B7V
+Cowley72 standard:    alf Leo - B7V
+MK78 standard:        HD 21071 (= HR 1029 = HL 675) - B7V
+Keenan85 standard:    HD 21071 (= "BS 1029" = HR 1029) - B7V
+GrayNstars standards: HD 21071 (= HR 1029) - B7V
+	   	      alf Leo - B7V
+
+All dereddenings done via Q-method in this file have been updated with
+the revised calibration (10/17/2011).
+
+B-V(B7V)  = -0.144 ; prim. stan. HD 21071 (EEM dereddened via Q-method)
+B-V(B7V)  =  -0.14  ; Bessell79
+B-V(B7V)  =  -0.13  ; JohnsonMorgan53, Fitzgerald70, SchmidtKaler82
+B-V(B7V)  = -0.128 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
+B-V(B7V)  = -0.127 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
+B-V(B7V)  =  -0.12  ; Morgan53, Johnson63, Johnson66
+B-V(B7V)  = -0.112 ; deprecated standard alf Leo
+B-V(B7V)  =  -0.11  ; KenyonHartmann95 
+=> adopt (B-V)(B7V)  = -0.128 
+
+U-B(B7V)  = -0.365 ; deprecated standard alf Leo
+U-B(B7V)  = -0.41  ; Bessell98
+U-B(B7V)  = -0.42  ; Johnson63, Johnson66
+U-B(B7V)  = -0.43  ; Fitzgerald70, Schmidt-Kaler82 
+U-B(B7V)  = -0.455 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
+U-B(B7V)  = -0.459 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
+U-B(B7V)  = -0.530 ; pri. stan. HD 21071 (EEM dereddened via Q-method)
+=> adopt (U-B)(B7V)  = -0.459 ***
+=> adopt     Q(B7V)  = -0.367 (=(U-B)-0.72*(B-V) = -0.459 - 0.72*-0.128)
+=> adopt (V-I)(B7V)  = -0.132
+=> adopt (V-R)(B7V)  = -0.058
+=> adopt (R-I)(B7V)  = -0.075
+=> adopt (V-J)(B7V)  = -0.244
+=> adopt (V-H)(B7V)  = -0.321
+=> adopt (V-Ks)(B7V) = -0.325
+=> adopt (H-Ks)(B7V) = -0.004
+=> adopt (J-H)(B7V)  = -0.077
+=> adopt (K-W1)(B7V) =  0.035
+
+V-I(B7V)  = -0.120 ; Bessell78
+
+R-I(B7V)  = -0.070 ; Bessell79
+
+Teff(B7V) =   11940 K ; Bertone04[ATLAS]
+Teff(B7V) =  12357 K ; deprecated standard alf Leo
+Teff(B7V) =   12600 K ; GrayCorbally94
+Teff(B7V) =   12735 K ; Bessell98
+Teff(B7V) =   12764 K ; Flower96 Teff for B-V=-0.13
+Teff(B7V) =   12915 K ; Theodossiou90
+Teff(B7V) =   13000 K ; Crowther97/Fig.3 
+Teff(B7V) =   13000 K ; Bessell79
+Teff(B7V) =   13000 K ; GrayCorbally09
+Teff(B7V) =   13000 K ; Bohm-Vitense81
+Teff(B7V) =   13000 K ; Schmidt-Kaler82
+Teff(B7V) =   13132 K ; B-V=-0.128 => Teff(Napiwotski93)
+Teff(B7V) =   13224 K ; U-B=-0.459 => Teff(Bessell98,logg=4.2)
+Teff(B7V) =   13831 K ; B-V=-0.128 => Teff(Bessell98,logg=4.2)
+Teff(B7V) =  13850 K ; Chavez95 (+-150K)
+Teff(B7V) = 13931 K ; sec. stan. 49 Eri (median Teff)
+Teff(B7V) = 14024 K ; EEM median of 82 published Teffs for B7V stars
+Teff(B7V) = 14911 K ; prim. stan. HD 21071 (median Teff)
+=> adopt Teff(B7V) = 14000K (logT = 4.146)
+
+[EEM 12/1/2012: there seems little reason to quote a median Teff to
+better precision as there is disagreement at the +-1000K level among
+the only three B7V standards that I've found in the literature. 14000K
+is close to the median Teff for 82 stars with literature Teffs and B7V
+classifications, so I will go with that value.]
+
+Mv(B7V) = 0.19 mag ; Upper Sco MS Mv for B-V=-0.128
+Mv(B7V) =  -0.11 mag ; ONC MS Mv for B-V=-0.128
+Mv(B7V) =   -0.39 mag ; pri. stan. HD 21071 (see below) 
+Mv(B7V) =    -0.4  mag ; GrayCorbally09
+Mv(B7V) =     -0.4  mag ; HD 87901 (Jaschek98)
+Mv(B7V) =    -0.57 mag ; weak stan. alf Leo (see below)
+Mv(B7V) =   -0.6  mag ; Schmidt-Kaler82
+Mv(B7V) =  -0.67 mag ; Wegner07
+Mv(B7V) = -1.78 mag ; sec. stan. 49 Eri (see below)
+=> adopt Mv(B7V) = -0.4 mag
+
+BCv(B7V) = -1.180 mag ; Flower96(Teff=14000K)
+BCv(B7V) = -1.140 mag ; Code76(Teff=14000K)
+BCv(B7V) = -1.070 mag ; Bessell98(ATLAS9,logg=4.0,Teff=14000K)
+BCv(B7V) = -1.041 mag ; Balona94(Teff=14000K)
+BCv(B7V) = -1.021 mag ; Bertone04(ATLAS,T=14000K)
+BCv(B7V) = -0.89  mag ; Schmidt-Kaler82(BCv=-1.02 + 0.13) 
+BCv(B7V) = -0.64  mag ; Bertone04[ATLAS,T=11940K,from their study]
+=> adopt BCv(B7V) = -1.07 mag
+
+logL(B7V) = 2.49 dex ; Mv=-0.4, BCv=-1.07 => Mbol = -1.47
+=> adopt logL(B7V) = 2.49 dex
+=> adopt Mbol(B7V) = -1.47 mag
+
+Mass(B7V) = 4.106+-0.044 Msun ; Eclipsing binary GG Lup A (Torres10)
+Mass(B7V) = 3.92 Msun ; Ekers15 ML calibration for logL=
+Mass(B7V) = 3.89 Msun ; EEM Teff vs. Mass fit for binaries (Teff=13900K)
+Mass(B7V) = 3.88 Msun ; EEM logL vs. Mass fit for binaries (logL=2.46)
+Mass(B7V) = 3.84 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-0.4)
+Mass(B7V) = 3.38 Msun ; Harmanec88
+=> adopt Mass(B7V) = 3.9 Msun
+
+# No Standard
+
+MK43, Garrison67, Cowley69, Hiltner69, MK73, Houk75, Garrison77,
+Garrison79, and GrayAtlas do not list a B7V standard. GarrisonGray94 only
+cover B8-B9, so no B7 standard is listed. 
+
+# Primary Standards
+
+HD 21071 = HR 1029 = Cl Melotte 20 675 (alpha Per cluster)
+  B7V: Heckman58(B7),Morgan71,MK78,Jaschek78,Abt78(B7Vsn),Keenan85,Garcia89,GarrisonGray94
+  B5: Petrie69,Cannon
+  B5IV: Lesh68
+  B6V: Roman50,Jaschek64
+
+  Appears to be a decent standard; consistently B7V after Morgan71
+  M91: V=6.070+-0.014, B-V=-0.076+-0.005, U-B=-0.483+-0.012 => updated
+  Q-method (10/17/2011) => (B-V)o=-0.144, (U-B)o=-0.530, E(B-V)=
+  0.068, Av=0.221.  Dereddening the Hauck97 ubvy data using Castelli91
+  dereddening, I find: E(b-y) = 0.083. alpha Per cluster d=177 pc =>
+  plx = 5.65 assumed => Mv = -0.39.  Teffs: 14211K(U-Bo=>Bessell98),
+  14759K(Hauck97=>Napiwotski93 cal.),
+  15062K(Hauck97=>BalonaShobbrook84 cal.), 15118K(Hauck97=>Balona94
+  cal.) => median Teff = 14911K.
+   
+  It appears that HD 21071 is slightly hotter than most B7V stars. 
+  It could be due to the fact that Houk started the MSS survey
+  before this star was considered a MK standard.  
+
+# Secondary Standard
+
+49 Eri = HD 29335 = HR 1469
+  B7V: Slettebak55,Jaschek64,Kennedy83(Lesh68(stan))
+  B5: Cannon
+  B8IV: Houk99 
+
+  Houk99 says vsini=120 km/s.  Slettebak and Lesh both agree B7V. M91:
+  V=5.307, B-V=-0.128, U-B=-0.455 => updated Q-method (10/17/2011) =>
+  negligible reddening E(B-V) = -0.003, i.e. can considered UBV colors
+  unreddened.  Lesh68 B7V standard. Dereddening Hauck97 ubvy
+  photometry using Castelli91, I find: E(b-y) = 0.055. vanLeeuwen07
+  plx = 3.83+-0.35 mas => D = 261+-24 pc => Mv = -1.78 +- 0.20
+  mag. Pretty far distance to be negligibly reddened, but this appears
+  to be directed in the general direction of the bet CMa "tunnel" of
+  low extinction.  Teffs: 13711+-150K(Huang10), 13816K(Hauck97
+  phot.=>Napiwotzki93 calib.), 14046K(Hauck97 phot.=>Balona94 calib.),
+  14065K(Hauck97 phot.=>BalonaShobbrook84 beta calib.)  => median Teff
+  = 13931K.  logg=4.268+-0.020(Huang10). vsini=62+-13km/s.
+
+# Deprecated standard
+
+HD 87901 = Alf Leo = Regulus = 32 Leo = HR 3982 = GJ 9316A
+  B7V: JM53,Osawa59,Jaschek64(major. are B7V),Cowley72(stan),Jaschek78(Murphy69),Garcia89,Garrison96(B7Vn)
+  B8IVn: Gray03 
+  B8III: Williams36
+  B8V: MK43,GarrisonGray94(B8Vnn),Palmer68(B8Vn),Cannon(B8)
+
+  Oscillates between B7V and B8V in the literature (both Garrison &
+  Gray have called it both B7V and B8V.  Cannon then MK43 called it
+  B8V, then JM53 called it B7V and it was B7V in most literature until
+  Garrison and Gray considered it a B8V again.  Probably not a great
+  choice of standard given the changes in published type for this
+  star. Definitely cooler than the other B7V standards, so B8V might
+  be more appropriate anyway. vanLeeuwen07 plx = 41.13+-0.35 mas, Mv =
+  -0.57 mag (so probably negligibly reddened!). The only B7V star in
+  the Hipparcos catalog within 100 pc. B-V = -0.087+-0.015 mag =>
+  somewhat redder than the other B7V standards. Mermilliod91:
+  V=1.357+-0.013, B-V=-0.112+-0.005, U-B=-0.365+-0.011 (revised
+  Q-method suggests E(B-V)=0.00). Hauck97 photometry dereddened
+  following Castelli91 => (b-y)0=-0.111, c0=0.698, E(b-y)=0.074,
+  Av=0.326. Teffs: 11535K(Zorec09), 11949K(Hauck97
+  phot.=>BalonaShobbrook84 beta calib.), 11962K(Gray03),
+  12254K(Hauck97 phot.=>Balona94 calibration), 12357K(Hauck97
+  phot.=>Napiwotzki93 calibration), 12360K(Gerbaldi01),
+  12540K(LeBorgne03), 12862+-200K(Wu11), 14231+-314K(vanBelle09) =>
+  median Teff = 12357K.  logg=3.56(Gray03),
+  4.05+-0.09(Wu11). [M/H]=0.00(Gray03), [Fe/H]=0.21+-0.09(Wu11).
+
+# Other Stars
+
+alf Gru
+  B7Vn: Garrison96
+  Ranges from B5-B7 in the other literature
+
+pi Cet = HD 17081
+  B7V: Slettebak55, Lesh68, Cucchiaro77, 
+  B7IV: GarrisonGray94
+  B6IV: Zorec09
+  B6III: deVacoulears57
+
+  3 B7V classifications in Skiff compendium (2012), but some other B6
+  and B7 classifications of differing luminosity class as well.
+
+HD 18537 = HR 890
+  B7V: Roman50, Slettebak63, Abt83
+  B7: Petrie69
+  B7III: Lesh68
+  B7IV: Slettebak55
+  B6IV/V: Berger62, 
+  B5V: Berger58
+  B8V: Wilson50
+  B5/7III: Maury1897
+
+  3 B7V classifications and 3 other B7s, but a mixed bag, and no
+  recent classifications. Member of alpha Persei cluster. Proper
+  motion is roughtly consistent with alpha Per membership.
+
+Stars in Skiff compendium (2012) with at least 3 classifications as B7V or variant:
+
+HD 23363 
+1972AJ.....77..750C 
+1977A&AS...30...71C 
+1994AJ....107.1556G 
+
+HD 32273
+1969AJ.....74.1082M
+1994AJ....107.1556G
+1995ApJS...99..135A
+
+HD 36760
+1971ApJ...169..529S 
+1976AJ.....81..537G 
+1977PASP...89..797A 
+
+HD 36898
+1976AJ.....81..537G 
+1977PASP...89..797A 
+2004ApJS..155..175A 
+
+72 Ori = HD 43153
+ 5 references all listing B7V, but I'm having a problem with SIMBAD's
+ bibcodes as referenced by Skiff's catalog. I will come back to this
+ and list the actual references later. Teffs:
+ 13263K(Heacox79,LeBorgne03).  logg=4.30(Heacox79,LeBorgne03),
+ [Fe/H]=-0.50(Heacox79,LeBorgne03).
+
+HD 56306
+1969AJ.....74.1082M  
+1974AJ.....79.1022C  
+1999A&AS..137..451G  
+
+HD 62893
+1966PASP...78..301F 
+1969ApJ...157..313H 
+1975PASP...87..823L 
+
+HD 73837
+1965MNRAS.129..411B 
+1975MSS...C01....0H 
+1984ApL....24...37L 
+
+HD 139891
+1963ApJ...138..118S  
+1959ApJ...130..159O  
+1972AJ.....77..750C  
+
+HD 142250
+1958ApJ...128..533B  
+1961MNRAS.122..325M  
+1968ApJ...151.1043S  
+
+HD 147932
+1979PASP...91..176A  
+1983ApJ...272..182A  
+1986ApJ...304..688A  
+
+9 Vul
+1954ApJ...119..146S 
+1959ApJ...130..159O 
+1972ApJ...175..453M 
+
+HD 202862
+1970MmRAS..72..233H  
+1972AJ.....77..750C  
+1999A&AS..137..451G  
+
+HD 204770
+1950ApJ...111..221W 
+1968ApJS...17..371L 
+1977A&AS...30...71C 
+
+HD 208095
+1963ApJ...138..118S  
+1969AJ.....74.1082M  
+1983ApJ...272..182A  
+
+HD 210129
+1955ApJS....2..195R 
+1972AJ.....77..750C 
+1980A&AS...40..207C 
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+O9.7V
+
+Garrison94 lists the B0V anchor as Ups Ori (= HD 36512).
+However Sota11 considers Tau Sco as the B0V standard, and
+Ups Ori as an O9.7V star. 
+
+Unfortunately there have been some subtle shifts at the OB boundary:
+
+        MK43  JM53  Walborn72 MK73  MK78 Keenan85  Walborn90 Garrison94 Garrison96 Sota11
+HD93027 ...   ...   O9.5V     ...   ...  ...       O9.5V     ...        ...        O9.5IV
+Sig_Ori O9.5V O9.5V ...       O9.5V ...  ...       ...       ...        ...        ...    
+Ups_Ori ...   B0V   B0V       B0V   ...  ...       B0V       B0V        ...        O9.7V     
+Tau_Sco B0V   B0V   B0.2V     B0V   B0V  B0V       B0.2V     ...        B0V        B0V   
+HD2083  ...   ...   ...       ...   ...  ...       ...       ...        ...        B0.2V 
+HD36960 ...   ...   B0.5V     ...   ...  ...       B0.5V     ...        ...        B0.5V  
+Bet_Sco B0.5V B0.5V ...       ...   ...  ...       ...       ...        B0.5V      ...   
+
+Teff(O9.7V) = 33400 +- 200 K ; ups Ori (Nieva14; adopting Mota revised SpT)
+
+
+# Primary Standard
+
+HD 36512 = ups Ori = HR 1855
+ *O9.7V: Sota11(standard)
+  B0V: Jaschek78(JM53),Jaschek64(all but one),Lesh68(stan),Walborn71,Walborn72,MK73,Abt77(B0Vs),Garcia89,Walborn90,Garrison94,Houk99(Garrison),Russeil07
+  B0.5V: Lesh68(stan)
+  B3: Cannon
+
+  Considered B0V standard in many publications and by Walborn90 and
+  Garrison94, but now considered O9.7V standard by Sota11 (Walborn is
+  coauthor), and it does appear to be somewhat hotter than other B0V
+  stars [these are the only reason I've deprecated this now as a B0V
+  standard and simply adopted O9.7V].  Teffs: 31500K(Philip80),
+  31500K(Kilian94), 31560K(Cunha94), 31622K(Brown94),
+  31812K(Paunzen05), 32200K(LeBorgne03), 32340+-2200K(Zorec09),
+  32533K(U-Bo=>Bessell98), 32900K(Sokolov95) => median Teff ~
+  32000K. logg=4.13(LeBorgne03), [Fe/H]=0.25(LeBorgne03).
+
+  Ups Ori has the third bluest B-V in Johnson66's compilation of UBV
+  photometry, and the 2nd bluest U-B, so it could be useful for
+  defining the sequence of intrinsic UBV colors of hot stars. M91:
+  V=4.618+-0.013, B-V=-0.264+-0.007, U-B=-1.068+-0.008.  V=4.62
+  (Johnson66), V=4.618+-0.013 (Mermilliod91), B-V=-0.26 (Johnson66),
+  B-V=-0.264+-0.007 (Mermilliod91), U-B=-1.07 (Johnson66),
+  U-B=-1.068+-0.008 (Mermilliod91). logN_HI[cm^-2] = 20.35+-0.10
+  (Shull85; from Lyman alpha absorption). Adopting the Savage & Mathis
+  (1979) logNH/E(B-V) = 4.8e21 atoms/cm^2/mag, the Shull85 logN_HI
+  value translates to E(B-V) = 0.047. So (B-V)o = (B-V)obs - E(B-V) =
+  -0.264 - 0.047 = -0.311. Then E(U-B) = 0.72*E(B-V) = 0.72*0.047 =
+  0.034 mag. So (U-B)o = (U-B)obs - E(U-B) = -1.068 - 0.034 = -1.102
+  mag.
+  
+  10/8/2011: Using revised Q-method calibration on Mermilliod91 colors
+  (B-V=-0.264+-0.007, U-B=-1.068+-0.008) => (B-V)o = -0.310, (U-B)o =
+  -1.100, E(B-V) = 0.046, Av=0.146 mag. 
+
+  Vanleeuwen07 plx = 1.14+-0.25 mas => 877+-202 pc. I adopt D = 400 pc
+  as typical distance to Ori OB1.  The star is out of the plane and
+  not particularly fast moving, so it is doubtful that it is much
+  beyond Ori OB1, and is likely ~300-500 pc. Star seems to be
+  associated with Ori OB1, but it is not among the belt or sword stars
+  - it is a couple degrees SW of the Orion Nebula Cluster (ONC), but
+  it does not share the motion of the hot stars near it. It could be a
+  "slow" runaway star from the belt or sword region of Ori OB1. Its U
+  and W motion are discrepent compared to the ONC (deltaU ~ +13 km/s,
+  deltaW ~ -4 km/s). More work would be needed to test this idea.
+
+  Adopting d=400 pc, then Mv ~ -3.54, logL ~ 4.47 dex. 

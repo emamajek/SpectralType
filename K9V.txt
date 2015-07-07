@@ -1,0 +1,91 @@
+K9V
+
+JM53, Houk75, KeenanMcNeil76, Keenan85, Keenan85, Kirkpatrick91,
+Henry02 do not list any K9V standards.  Skiff08 does not flag any
+stars as K9V MK standards.
+
+Pecaut13 standard:     HIP 3261 [K9V following Gray06]
+
+Keenan84 does not list K9 as a full subtype like K5 and M0, and "other
+possible subdivisions are utilized only for interpolation whenever we
+think that we can classify accurately enough to justify their
+use. Thus when we call a star G3 we mean only that it is closer to G2
+than to G5."
+
+Gray01/03/06 classify 13 stars are K9V, and 11 have useful BVI colors
+in HIP. The brightest are HIP 8768 (V=8.89) and HIP 63833
+(V=9.05). Median HIP colors:
+
+<B-V>(K9V) = 1.418 (+-0.016 sem, +-0.040 stdev; N=11)
+<V-I>(K9V) = 1.735 (+-0.039 sem, +-0.103 stdev; N=11)
+<B-I>(K9V) = 3.156 (+-0.057 sem, +-0.144 stdev; N=11)
+The K9V star with median B-I color is HIP 3261 (V=10.58)
+
+<B-V>(K9V) =  1.37  ; Fitzgerald70
+(B-V)(K9V) =  1.38  ; 1 ARICNS K8V star
+(B-V)(K9V) =  1.40  ; interpolated between K7V (1.34) and M0V (1.43)
+<B-V>(K9V) = 1.418 ; 11 Gray03/06 K9V stars (+-0.016 sem, +-0.040 stdev)
+(B-V)(K9V) =  1.44  ; B-V for Gray03/06 star with median B-I: GJ 1016 
+=> adopt (B-V)(K9V)  = 1.418 ***
+=> adopt (U-B)(K9V)  = 1.198 
+=> adopt (V-I)(K9V)  = 1.802
+=> adopt (V-R)(K9V)  = 0.900
+=> adopt (R-I)(K9V)  = 0.901
+=> adopt (V-J)(K9V)  = 2.907
+=> adopt (V-H)(K9V)  = 3.531
+=> adopt (V-Ks)(K9V) = 3.728
+=> adopt (H-Ks)(K9V) = 0.197
+=> adopt (J-H)(K9V)  = 0.624
+=> adopt (K-W1)(K9V) = 0.081 
+
+Teff(K9V) = 3731 K ; Casagrande08 Teff calibration for V-Ks=3.728
+Teff(K9V) = 3812 K ; vanBelle09 Teff calibration for V-Ks=3.728
+Teff(K9V) = 3861 K ; mean photometric Teff
+Teff(K9V) = 3880 K ; interp K7V (4050K) and M0V (3850K) for V-K=3.728
+Teff(K9V) = 3887 K ; diBenedetto98 Teff calibration for V-Ks=3.728
+Teff(K9V) = 3946 K ; Ramirez05 Teff calibration for B-V=1.418
+Teff(K9V) = 3970 K ; GJ 1016 (Morales08)
+Teff(K9V) = 4248 K ; Biazzo07 Teff calibration for B-V=1.418
+=> adopt Teff(K9V) = 3880 K (logT = 3.589)
+
+Mv(K9V)  = 8.78 mag ; Wegner07
+Mv(K9V)  = 8.91 mag ; V-K=3.728 => EEM fit to Reid CNS3 data
+Mv(K9V)  = 8.98 mag ; B-V=1.418 => Mv(Wright05)
+Mv(K9V)  = 9.02 mag ; interp K7V-M0V for V-K=3.728
+Mv(K9V)  = 9.02 mag ; V-K=3.728 => Mv(JohnsonApps09)
+=> adopt Mv(K9V) = 9.02 mag 
+=> adopt M_Ks(K9V) = 5.292 mag
+
+BCv(K9V) = -1.211 mag ; interp K7V-M0V for V-K=3.728
+BCv(K9V) = -1.310 mag ; Flower96(Teff=3880K)
+BCv(K9V) = -1.121 mag ; Bessell98(ATLAS9,logg=4.5,Teff=3880K)
+BCv(K9V) = -1.084 mag ; EEM fit to Casagrande06/08/10 (Teff=3880K)
+=> adopt BCv(K9V) = -1.211 mag
+
+logL(K9V) = -1.221 dex ; Mv=9.02, BCv=-1.211 => Mbol = 7.809
+=> adopt logL(K9V) = -1.221 dex
+=> adopt Mbol(K9V) =  7.809 mag
+
+Mass(K9V) = 0.56 Msun ; EEM Teff vs. Mass fit for binaries (Teff=3860K)
+Mass(K9V) = 0.566 Msun ; Eker15 calibration for logL=-1.221
+Mass(K9V) = 0.58 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.25)
+Mass(K9V) = 0.58 Msun ; Mv=8.96 => HenryMcCarthy93 calibration
+Mass(K9V) = 0.61 Msun ; M_Ks=5.23 => Delfosse10 calibration
+Mass(K9V) = 0.66 Msun ; EEM Mv vs. Mass fit for binaries (Mv=8.96)
+=> adopt Mass(K9V) = 0.58 Msun
+
+# Standard
+
+GJ 1016 = HIP 3261 = CD-34_239 = LTT_377 = G269-17
+  K9V: Gray06,Pecaut13
+  K7V: Hawley97 (a rare K7?), Reid04
+
+  There appear to be no K9V standard stars in the literature before
+  2013.  PecautMamajek13 adopted HIP 3261 as their K9V standard based
+  on Gray06's classification and an intermediate appearance of the red
+  spectrum between that of GJ 673 (K7V) and GJ 701 (M0V) [HIP 111288
+  was adopted as K8V standard; Gray06].  Gliese91 lists only "k"
+  type. U-B=1.170 (M91), B-V = 1.440 (M91), plx = 51.2+-2.2 (HIP2),
+  B-V=1.432 (HIP), V-I=1.75+-0.03 (HIP), Ks=6.884+-0.007 (2M)
+  V=10.597+-0.05 (M91), (V-Ks) = 3.713 +- 0.05: Hamuy94
+  spectrophotometric standard?  Teff(Morales+2008) = 3970K.

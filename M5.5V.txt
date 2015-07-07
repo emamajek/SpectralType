@@ -1,0 +1,250 @@
+M5.5V
+
+Kirkpatrick(in GrayCorbally09) calls GJ 1245AC as the primary M5.5V
+standard.  But the star is a 0.1" binary (delta(V)=2.5 mag), and
+Reid04 calls component C a M7.0V.
+
+G 208-44AB = GJ 1245AC has remained a M5.5V standard, but recent authors
+(Kirkpatrick) consider G 208-45 an M6V. Note that K91 does not list any
+M5.5V standards from Boeshaar76. 
+
+KeenanMcNeil76 standard: G208-44 - M5.5eV
+Keenan80 standard:       G208-44 - M5.5Ve
+Keenan83 standard:       G208-44 - M5.5Ve
+Boeshaar85 standards:    G208-44AB - M5.5V
+                         G208-45 - M5.5V
+Keenan88 standard:	 G208-44 - M5.5Ve 
+Keenan89 standard:	 G208-44 - M5.5Ve
+Kirkpatrick91 standards: G208-44 (=GJ 1245AC) (pri. standard)
+	      		 GJ 65A - M5.5V  (pri. standard)
+			 LHS3339 - M5.5V (sec. standard)
+
+In my opinion, probably the best (brightest, and known to be single)
+M5V standard would be Proxima Centauri (GJ 551). It is not clear why
+it has not been previously mentioned as a standard.
+
+According to RECONS list, Prox Cen (GJ 551; J1429-6240) is the closest
+M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
+(J00006-0732).
+
+B-V(M5.5V) = 1.94 ; Bessell91 "old disk"
+B-V(M5.5V) = 1.90 ; pri. stan. G208-44
+
+V-R(M5.5V) = 1.69 ; Bessell91 "old disk"
+
+R-I(M5.5V) = 2.06 ; Bessell91 "old disk"
+
+V-I(M5.5V) = 3.75 ; Bessell91 "old disk"
+V-I(M5.5V) = 3.65 ; Hawley96
+
+V-K(M5.5V)  =  6.71 ; Bessell91 "old disk"
+V-K(M5.5V)  = 6.73  ; Proxima Centauri (see below)
+V-Ks(M5.5V) = 6.621 ; halfway between M5V(5.942) and M6V(7.30)
+V-Ks(M5.5V) = 6.556 ; pri. stan. G208-44
+V-K(M5.5V)  =  6.4  ; Hawley96
+=> adopt (V-Ks)(M5.5V) = 6.621 ***
+
+=> adopt (U-B)(M5.5V)  = 1.502
+=> adopt (B-V)(M5.5V)  = 1.961
+=> adopt (V-I)(M5.5V)  = 3.732
+=> adopt (V-R)(M5.5V)  = 1.696 
+=> adopt (R-I)(M5.5V)  = 2.036
+=> adopt (V-J)(M5.5V)  = 5.700
+=> adopt (V-H)(M5.5V)  = 6.288
+=> adopt (H-Ks)(M5.5V) = 0.333
+=> adopt (J-H)(M5.5V)  = 0.588
+
+Teff(M5.5V) = 2727 +- 12 K ; Pecaut13 (GJ 551 = Proxima Cen.)
+Teff(M5.5V) = 2800 K ; Rajpurohit13(N=4)
+Teff(M5.5V) =  2900 K ; Bessell91 "old disk"
+Teff(M5.5V) = 3042+-117 K ; Prox Cen (Segranson03 VLTI)
+Teff(M5.5V) = 3054+-79  K ; Boyajian12b (N=1)
+=> adopt Teff(M5.5V) = 3000 K (logT = 3.477)
+
+Note: see dichotomy in Teff (~200K) from SED fit (Rajpurohit)
+vs. interferometric methods (Boyajian, Segranson). Proxima is somewhat
+metal rich ([Fe/H] = 0.19), so its Teff is probably hotter than the
+typical solar metallicity M5.5.
+
+BCv(M5.5V) = -4.24 ; deprecated standard LHS 3339 (derived using Dahn02)
+BCv(M5.5V) = -3.831 +- 0.024 ; GJ 551 = Proxima Cen (Pecaut13) 
+BCv(M5.5V) = -3.83 ; Bessell91("old disk"; BCv = (V-I)-BC_I)
+BCv(M5.5V) = -3.77 ; deprecated standard GJ 65AB (Leggett96)
+BCv(M5.5V) = -3.780 +- 0.028 ; GJ 551 = Proxima Cen (VOSA SED fit, see below)
+BCv(M5.5V) = -3.75 ; BC_K=2.87 and V-Ks=6.621 
+=> 
+
+BC_K(M5.5V) = 2.90  ; deprecated standard GJ 65AB (Leggett96)
+BC_K(M5.5V) = 2.865 ; deprecated standard LHS 3339 (derived using Dahn02)
+BC_K(M5.5V) = 2.841 ; GJ 551 = Proxima Cen (VOSA SED fit, see below; assume V-Ks=6.621 for mean M5.5V)
+=> adopt BC_K(M5.5V) = 2.87
+
+Mv(M5.5V)   = 15.79 ; EEM polynomial fit to MS data
+Mv(M5.5V)   = 15.76 ; EEM polynomial fit to Reid CNS3 data
+Mv(M5.5V)   = 15.69 ; JohnsonApps09 calibration for V-Ks=6.62
+Mv(M5.5V)   = 15.64 ; Dieterich14 calibration for V-Ks=6.62
+Mv(M5.5V)   = 15.59 ; Henry04 calibration for V-Ks=6.62 
+Mv(M5.5V)   = 15.42 ; Finch14 calibration for V-Ks=6.62 
+
+M_Ks(M5.5V) = 9.17 ; EEM polynomial to MS data for V-Ks=6.62
+M_Ks(M5.5V) = 9.14 ; EEM polynomial fit to Reid CNS3 data
+M_Ks(M5.5V) = 9.07 ; JohnsonApps09 calibration for V-Ks=6.62
+M_Ks(M5.5V) = 9.02 ; Dieterich14 calibration for V-Ks=6.62
+M_Ks(M5.5V) = 8.97 ; Henry04 calibration for V-Ks=6.62
+M_Ks(M5.5V) = 8.80 ; Finch14 calibration for V-Ks=6.62
+=> adopt M_Ks(M5.5V) = 9.02  
+
+logL(M5.5V) = -2.54 ; deprecated standard GJ 65AB (Leggett96,unresolved)
+
+Rad(M5.5V)  = 0.1410 +- 0.0070 Rsun ; Boyajian12b (N=1)
+
+Mass(M5.5V) = 0.14 +-0.03  Msun ; pri. stan. G208-44 (Belikov95)
+Mass(M5.5V) = 0.129+-0.010 Msun ; pri. stan. G208-44 (Jenkins09)
+
+# Primary Standards
+
+GJ 1245AC = G 208-44 = LHS 3494 = NLTT 48414
+ *M5.5V: Boeshaar85,Keenan88,Keenan89,Gliese91,Kirkpatrick91(pri),Hawley97,Henry02(M5.5VJ),Geballe02,Reid04,Kirkpatrick(GrayCorbally09)
+  M5+V: Boeshaar76
+  M6V: Rodono80,McCarthy88
+
+  Hawley97 says AC is a 0.1" binary with delta Vmag=2.5. Reid04 calls
+  C a M7.0V Notes on the G 208-44/5 binary and confusing nomenclature:
+  Worley96 shows its a 7.8-11.0" binary, PA ~ 93-98 (epoch 1966-1978).
+  G208-045 =GJ 1245B =LHS 3495(fainter, higher RA, same Dec; Giclas,
+  Luyten).  G208-044A =GJ 1245A =LHS 3494(brighter, Keenan89 says
+  M5.5Ve).  G208-044B =GJ 1245C.  It appears that G208-044AB = GJ
+  1245AC. V=13.410(Mermilliod91;G208-44),
+  B-V=1.900(Mermilliod91;G208-44), J=7.791(2MASS),
+  H=7.194+-0.016(2MASS), Ks=6.854+-0.016(2MASS).  V-Ks = 6.556. Teff =
+  2695K(Jenkins09), 4064K(Wright11). Both Teffs are probably
+  significantly in error. Plx = 212.0+-4.3 mas (Gliese91),
+  220.2+-1.5 mas (Harrington93; Dupuy12). 
+
+
+# Secondary Standards
+
+GJ 1002 = LHS 2 = G 158-27 = NLTT 248 
+ *M5.5V: Bessell91,Henry94,Hawley97,Henry02
+  M5-M5.5: Boeshaar76(stan)
+
+GJ 1061 = LHS 1565 = LFT 295 = LTT 1702 = LP 995-46 = L 372-58
+ *M5.5V: Henry97,Hawley97,Henry02
+
+  Henry97 reports: M5.5V with V=13.03 at d=3.7 pc, 20th closest star
+  at the time.
+
+GJ 1286 = LHS 546 = G 157-77 
+ *M5.5V: Henry94,Hawley97,Henry02
+
+# Deprecated Standards
+
+GJ 65A = G 768-26A = StKM 2-145 = BL Cet = LHS 9
+ *M5.5V: Joy74, Bessell91, Kirkpatrick91(pri),Hawley97,Henry02
+  M6-V: Boeshaar76(combined A&B according to Kirkpatrick91),Boeshaar94(both AB).
+
+  Washington Double Star catalog lists GJ 65 (WDS 01388-1758 = LDS
+  838) as a 2.1" binary as of epoch 2010, with V mags of 12.7(A) and
+  13.2(B). The companion (GJ 65B, LHS 10) is the infamous star "UV
+  Ceti".  Joy74, Kirkpatrick91, and Henry02 call consider the pair of
+  stars A & B to be M5.5V and M6.0V, respectively. Reid04 lists GJ
+  65AB as M5.5V, but lists B as a M5.5V also. So most experts consider
+  A & B to be ~0.5 subtype different, and they are ~0.5 mag different
+  in V magnitude. It's not obvious that such a system is optimal for
+  use as a standard star(s), especially if one is not blessed with <1"
+  seeing. Geyer88 estimates parallax = 375+-4 mas. The 2MASS JHK and
+  Mermilliod91 UBV photometry for GJ 65AB is unresolved. Leggett96
+  models both together, with flux 1.31e-11 W/m^2, logL=-2.54,
+  mbol=8.23, Mbol=11.09, BCv=-3.77, BC_K=2.90.
+
+GJ 1245B = G 208-45 = LHS 3495 = NLTT 48415
+ *M6V: Rodono80,McCarthy88,Kirkpatrick91(pri),Kirkpatrick93,Geballe02
+  M5.5V: Boeshaar85(dM5.5),Reid04
+
+GJ 905 = LHS 549 = G 190-42 = G 171-10 = HH And = Ross 248 = NLTT 57692
+ *M5.5V: Henry94,Henry02
+  M5V: Boeshaar76(stan;M5e),Hawley97
+
+GJ 473AB = Wolf 424 = LHS 333 = LFT 923 = FL Vir = Ci 20 716 = G 12-43 = G 60-14
+ *M5.5V: Boeshaar76,Henry92,Henry94(M5.5VJ),Boeshaar94(dM5.5),Henry02(M5.5VJ)
+  M5V: Hawley97(for A)
+
+  Hawley97 says its a 0.8" binary with delta Vmag = 0.3. It is not
+  obvious to me that a known barely-resolved binary should be a strong
+  spectral standard star. Henry, Johnson, McCarthy, & Kirkpatrick
+  (1992) studied the Wolf 424 system in detail: spectrum very similar
+  to Gl 65A (M5.5V), and masses of 0.12-0.15 Msun for A, and 0.11-0.12
+  Msun for B, and M_K(A) = 8.46+-0.10, M_K(B) =
+  8.91+-0.15. delta(mags): delta(J) = 0.13+-0.04, delta(H) =
+  0.20+-0.12 (Henry92), delta(K) = 0.45+-0.24 (Henry92).
+
+GJ 1116AB = LHS 2076/7 = G 9-38AB = LP 426-40 = EI Cnc (A)
+ *M5.5V: Henry94(M5.5VJ),Henry02(M5.5VJ)
+  M5.5V+M5.5V: Hawley97
+  Reid04 says that the unresolved binary GJ 1116B is a M5.5V
+
+GJ 2005ABCD = LHS 1070 = LP 881-64 = LNTT 1292
+ *M5.5V: Henry94(M5.5VJ),Hawley97,Henry02(M5.5VJ),Reid04
+
+  Rajpurohit11 (http://adsabs.harvard.edu/abs/2011sf2a.conf..339R)
+  reports this system as a (M5.5-M6)+(M8.5)+(M9.5-M9), with Teffs of
+  2900, 2500, 2400 K using BT-Settl models, respectively, and Teff =
+  2900, 2600, 2500 K using MARCS models.
+
+GJ 4037 = LHS 3339 = LP 102-320 = NLTT 45700
+ *M5.5V: Kirkpatrick91(sec)
+  M6V: Geballe02
+  M5V: Reid04
+
+  Dahn02 derives: plx=46.4+-1.1 mas ((m-M)=1.67+-0.05), V=17.98+-0.02,
+  R=16.20+-0.020, I=14.03+-0.01, K=10.78+-0.03, M_J = 10.05, BC_J =
+  2.02, Mbol = 12.07, R = 0.1308 Rsun, Teff = 2957+-70K. Hence, mbol =
+  13.74, and BCv = 13.74 - 17.98 = -4.24, BC_K = 13.74 - 10.875 =
+  2.87. V=17.90(Lepine05), V=17.98(Gliese91, vanAltena95),
+  V=17.43(Salim03), J=11.819+-0.023(2MASS), H = 11.227+-0.023(2MASS),
+  Ks=10.875+-0.016(2MASS).
+
+GJ 412B = LHS 39 = WX UMa = G 176-12 = LFT 758 = LTT 12977
+ *M5.5V: Henry94,Henry02
+  M6V: Hawley97
+  M5Ve: Bessell91
+
+  Teff = 2700K (Casagrande08), 2800K (Leggett00)
+
+# Proposed Standard
+
+GJ 551 = Prox Cen = LHS 49
+ *M5.5V: Boeshaar76(M5.5e),Bessell91,Henry97,Hawley97,Henry02,Kirkpatrick(unpub.,DwarfArchive)
+  M6Ve: Torres06
+
+  Buscombe95 mentions it as M5.3Ve, but doesn't cite the primary
+  source. Segransan03 VLTI study reports: M = 0.123+-0.006 Msun, R =
+  0.145+-0.011 Rsun, Teff=3042+-117 K, logg=5.20+-0.23 dex.  Teffs:
+  2727+-12K(Pecaut13), 3042+-117K(Segranson03). J=5.357+-0.023(2MASS),
+  H=4.835+-0.057(2MASS), Ks=4.384+-0.033(2MASS, grade 'E').
+  B-V=1.886+-0.019(Mermilliod91), U-B=1.485+-0.055(Mermilliod91),
+  V=11.111+-0.022(Mermilliod91).  V-J=5.754+-0.032. V-Ks =
+  6.727+-0.040 (note that this is indeed roughly halfway between M5V
+  median [5.942] and M6V median [7.300], and is roughly what one would
+  predict for a typical star based on the V-J color -- the predicted
+  V-K color would be 6.68.). mbol = 7.331+-0.017 (see SED fit below). 
+
+  VOSA SED fit: Input photometry:
+  Generic/Bessell.U      14.482  0.055  --- --- Mermilliod91
+  Generic/Bessell.B      12.997  0.019  --- --- Mermilliod91
+  TYCHO/TYCHO.V          11.187  0.069  --- --- HIP
+  Generic/Bessell.V      11.111  0.022  --- --- Mermilliod91
+  Hipparcos/Hipparcos.Hp 10.7613 0.0038 --- --- Mermilliod91
+  Generic/Johnson.R       8.680  0.05   --- --- Morel78
+  Generic/Bessell.I       7.491  0.03   --- --- HIP
+  2MASS/2MASS.J           5.357  0.023  --- --- 2M
+  2MASS/2MASS.H           4.835  0.057  --- --- 2M
+  WISE/WISE.W2            3.779  0.131  --- --- WISE
+  WISE/WISE.W3            3.838  0.015  --- --- WISE
+  WISE/WISE.W4            3.688  0.025  --- --- WISE
+  Best fit SED: 
+  BT-Settl 2900K logg=6 [M/H]=-0.5, alpha=0.2, chi^2=1.985e2: Fbol = 2.984e-8 4.675e-10 erg/s/cm^2: mbol = 7.33078 0.017012 mag 
+  BCv = mbol - V = (7.331 +- 0.017) - (11.111+-0.022) = -3.780 +- 0.028 
+  BCj = mbol - J = (7.331 +- 0.017) - (5.357+-0.023)  = +1.974 +- 0.029 
+
+

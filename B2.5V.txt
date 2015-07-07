@@ -1,0 +1,235 @@
+B2.5V
+
+Garrison94 does not list a B2.5V anchor standard, but MK73 lists
+sig Sgr as the B2.5V dagger standard. 
+
+Lesh68 standard:        HD 36779 - B2.5V 
+Walborn71 standard:     HD 214432 - B2.5V (but B3V elsewhere)
+MK73 dagger standard:   sig Sgr - B2.5V
+Houk75 standard:        sig Sgr - B2.5V (primary standard)
+MK78 standard:          HD 37016 (= HR 1891) - B2.5V
+Garrison79 standard:    sig Sgr - B2.5V
+Walborn90 standard:     HD 148605 - B2.5V (but B2V elsewhere) 
+GrayAtlas standard:     HD 37016 (=HR 1891) - B2.5V (and HR 1851 - B2Vh)
+GrayNstars standard:    HD 37016 (=HR 1891) - B2.5V 
+
+"h" after luminosity class indicates "He-rich"
+
+Skiff08 lists one B2.5V standard: HD 37016 (B2.5V; MK78)
+
+None of the B2.5V standards has an excellent pedigree.
+
+All Q-method calculations in this file have been updated using
+revised calibration (10/9/2011).
+
+B-V(B2.5V) = -0.221  ; EEM dereddened weak standard sig Sgr via Q-method
+B-V(B2.5V) = -0.22   ;  Fitzgerald70
+B-V(B2.5V) = -0.198  ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
+
+U-B(B2.5V) = -0.72   ; Fitzgerald70
+U-B(B2.5V) = -0.732  ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
+U-B(B2.5V) = -0.812  ; EEM dereddened weak stan. sig Sgr via Q-method
+=> adopt (U-B)(B2.5V)  = -0.732 ***
+=> adopt (B-V)(B2.5V)  = -0.198
+=> adopt     Q(B2.5V)  = -0.589 (=(U-B)-0.72*(B-V) = -0.732 - 0.72*-0.198)
+=> adopt (V-I)(B2.5V)  = -0.210
+=> adopt (V-R)(B2.5V)  = -0.087
+=> adopt (R-I)(B2.5V)  = -0.111 
+=> adopt (V-J)(B2.5V)  = -0.413
+=> adopt (V-H)(B2.5V)  = -0.518
+=> adopt (V-Ks)(B2.5V) = -0.544
+=> adopt (H-Ks)(B2.5V) = -0.026
+=> adopt (J-H)(B2.5V)  = -0.105
+=> adopt (K-W1)(B2.5V) =  0.036
+
+Teff(B2.5V) =  21108 K ; deprecated standard HD 36779 (median Teff)
+Teff(B2.5V) =  20200 K ; Bohm-Vitense81
+Teff(B2.5V) =  19748 K ; B-V=-0.198 => Teff(Bessell98,logg=4.3)
+Teff(B2.5V) = 19150 K ; sec. stan. sig Sgr (median Teff)
+Teff(B2.5V) =  19095 K ; deprecated standard HD 214432 (median Teff)
+Teff(B2.5V) =  19000 K ; Crowther97/Fig.3
+Teff(B2.5V) = 18372 K ; Q=-0.589 => Nieva13 calibration  
+Teff(B2.5V) = 18277 K ; EEM N=85 Teffs
+Teff(B2.5V) =  18087 K ; U-B=-0.732 => Teff(Bessell98)
+Teff(B2.5V) = 18068 K ; pri. stan. HD 37016 (median Teff)
+Teff(B2.5V) =  18074 K ; B-V=-0.198 => Teff(Napiwotski93)
+=> adopt Teff(B2.5V) = 18500 K (logT = 4.267)
+
+BCv(B2.5V) = -1.702 mag ; Bertone04(Teff=18500K)
+BCv(B2.5V) =  -1.761 mag ; Balona94(Teff=18500K)
+BCv(B2.5V) = -1.761 mag ; LanzHubeny03/07(Teff=18500K)
+BCv(B2.5V) =  -1.781 mag ; Bessell98(Teff=18500K)
+BCv(B2.5V) = -1.787 mag ; Nieva13(Teff=18500K)
+BCv(B2.5V) =  -1.834 mag ; Flower96(Teff=18500K)
+BCv(B2.5V) = -1.857 mag ; Code76(Teff=18500K)
+=> adopt BCv(B2.5V) = -1.78 mag
+
+Mv(B2.5V) = -1.29 mag ; Upper Sco main sequence (B-V=-0.198, rms +-0.39 mag)
+Mv(B2.5V) = -1.36 mag ; ONC main sequence (B-V=-0.198, rms +-0.48 mag)
+Mv(B2.5V) = -1.4  mag ; halfway between B2V (Mv=-1.7) and B3V (Mv=-1.1)
+Mv(B2.5V) = -2.02 mag ; pri. stan. HD 37016 if at 420 pc
+Mv(B2.5V) = -2.14 mag ; sec. stan. sig Sgr
+Mv(B2.5V) = -2.34 mag ; Wegner07
+=> adopt Mv(B2.5V) = -1.4 mag
+
+logL(B2.5V) = 3.17 dex ; Mv=-1.4, BCv=-1.78 => Mbol = -3.18
+=> adopt logL(B2.5V) = 3.17 dex
+=> adopt Mbol(B2.5V) = -3.18 mag
+
+Mass(B2.5V) = 5.83 Msun ; EEM fit of logL vs. Mass to binaries (logL=3.10)
+Mass(B2.5V) = 5.982+-0.035 Msun ; Eclipsing binary CV Vel B (Torres10)
+Mass(B2.5V) = 5.99 Msun ; EEM fit of logT vs. Mass to binaries (Teff=18500K)
+Mass(B2.5V) = 6.086+-0.044 Msun ; Eclipsing binary CV Vel A (Torres10)
+Mass(B2.5V) = 6.05 Msun ; Bertelli09 tracks (Z=0.017,Y=0.27) for Teff=18500K,logL=3.10
+Mass(B2.5V) = 7.20 Msun ; Harmanec88
+Mass(B2.5V) = 7.42+-0.16 Msun ; Eclipsing binary V1388 Ori A (actually "B2.5IV-V"; Torres10)
+=> adopt Mass(B2.5V) = 6.1 Msun
+
+logg(B2.5V) = 4.13 dex ; Bertelli09 tracks (Z=0.017,Y=0.27) for Teff=18500K,logL=3.10 (no rotation)
+log(age/yr)(B2.5V) = 7.38 dex ; Bertelli09 tracks (Z=0.017,Y=0.27) for Teff=18500K,logL=3.10 Msun
+
+# No Standard
+
+Keenan85 does not list a B2.5V standard. 
+
+# Primary Standards
+
+HD 37016 = HR 1891 = HIP 26234
+ *B2.5V: Lesh68(in Jaschek78),MK78(stan),GrayAtlas
+  B2IV: Schild71
+  B2V: Abt77
+  B3V: Sharpless52,Jaschek64
+  B0: Cannon
+  B9III/IV: Houk99
+
+  0.4" binary in Ori OB1. Not a great pedigree other than the B2.5V
+  standard in MK78, but most of the other classifications pre-date the
+  MK78 atlas. I pick this one over Sigma Sgr since it was used in MK78
+  (Sigma Sgr listed in MK73). Another unusual case of an O or early-B
+  star being classified as a late B evolved star in Houk's
+  survey. Cousins71: V=6.250, B-V=-0.145, U-B=-0.68. Q-method
+  (11/25/2012) => (B-V)o=-0.192, (U-B)o=-0.713, E(B-V)=0.047,
+  Av=0.153.  Hauck97 photometry dereddened following Castelli91:
+  (b-y)o=-0.111, c0=0.248, E(b-y)=0.050.  Teffs: 17579K(EEM,Hauck97
+  phot.=>Napiwotzki93), 17657K(U-Bo=>Bessell98), 18478K(EEM,Hauck97
+  phot=>BalonaShobbrook84 calibration), 18508K(EEM,Hauck97 phot. =>
+  Balona94) => median Teff = 18068K. If it is at 420 pc (typical 
+  Ori OB1 distance), then Mv = -2.02. 
+
+# Secondary Standard
+
+HD 175191 = sig Sgr = HR 7121 = HIP 92855
+ *B2.5V: MK73,Garrison79(stan),Houk82
+  B2V: Cowley72(stan)
+  B3IV: Hiltner69
+  B3: Cannon
+  B4IV: Buscombe60,Morris61,Buscombe69
+
+  Jaschek64 shows B3IV-V,B3V,B4IV,B4V, however most classifications
+  predate MK73 (and post-MK73 consider it B2.5V). Having 3 "B4IV"
+  classifications scares me a bit regarding considering this an
+  authoritative B2.5V standard. Parallax = 14.32+-0.29 mas (van
+  Leeuwen07), hence it can be considered most likely
+  unreddened. Q-method (10/9/2011): M91: V=2.078+-0.034,
+  (B-V)=-0.213+-0.017, (U-B)=-0.749+-0.011 => (B-V)o = -0.221, (U-B)o
+  = -0.812, E(B-V)=0.000. Hauck97 photometry dereddened following
+  Castelli91 => (b-y)o=-0.110, c0=0.217, E(b-y)=0.019, Av=0.082.
+  Teffs: 18606K(EEM, Hauck97 phot.=>Napiwotzki93 calibration),
+  18890+-1150K(Zorec09), 19125K(EEM, Hauck97 phot.=>Balona94
+  calibration), 19171K(EEM, Hauck97 phot.=>BalonaShobbrook84 beta
+  calibration), 20061K(U-Bo=>Bessell98), 20400K(Snow94) => median Teff
+  = 19150K. For V=2.078, plx=14.32, Av=0, then Mv = -2.14. 
+
+# Deprecated Standards
+
+HD 214432
+ *B2.5V((n)): Walborn71,Levato76(B2.5V)
+  B3V: BlaauwMorgan53,Jaschek64(all)
+  B3: Cannon
+
+  Mostly B3V, but Walborn71 calls B2.5V. Not listed in Walborn90.
+  Hauck97 photometry dereddened following Castelli91: (b-y)o=-0.111,
+  c0=0.221, E(b-y)=0.060, Av=0.262.  Teffs: 17787K(EEM,Hauck97
+  phot.=>Napiwotzki93 calibration), 19095K(EEM,Hauck97
+  phot.=>BalonaShobbrook84 beta calibration), 19099K(EEM,Hauck97
+  phot.=>Balona94 calibration) => median Teff = 19095K.
+
+HD 148605 = 22 Sco = HR 6141
+ *B2V: Jaschek64(all),Thacheray67(B2Vn),Lesh68(stan),Slettebak68,Hiltner69(stan),MK73,Houk,Garrison77(stan),Jaschek78(Garrison67),Garrison79(stan),Kennedy83(all),GrayAtlas
+  B2.5V: Walborn90
+  B3V: Houk88
+  B3: Cannon
+
+  Long, rich history as B2V standard, but Walborn90 calls it
+  B2.5V. I've decided to deprecate this star as a standard due to this
+  one outlier expert classification. Mermilliod91: V=4.782+-0.007,
+  B-V=-0.125+-0.020, U-B=-0.728+-0.026 => updated Q-method calibration
+  (10/9/2011) => (B-V)o=-0.216, (U-B)o=-0.793, E(B-V)= 0.091,
+  Av=0.294.
+
+HD 36779 = HR 1873
+ *B2.5V: Lesh68(stan),Schild71
+  B2/3IV/V: Houk99
+  B3V: Sharpless52,Abt77
+
+  Jaschek64 split been B2V and B3V (and visual binary flag).  Only
+  considered standard by Lesh68, and no one since. Huelamo00 lists the
+  star as a Lindroos binary (B2.5V+K5IV) with separation 27.5".
+  Hauck97 photometry dereddened following Castelli91: (b-y)o=-0.111,
+  c0=0.132, E(b-y)=0.040, Av=0.173.  Cousins71: V=6.200+-0.010,
+  B-V=-0.170+-0.011, U-B=-0.80. Q-method => (B-V)o=-0.231,
+  (U-B)o=-0.844, E(B-V)=0.061, Av=0.198.  Teffs: 20047K(EEM, Hauck97
+  phot.=>Napiwotzki93 calibration), 20400K(Snow94),
+  20934K(U-Bo=>Bessell98), 21281K(Gerbaldi01), 21359K(EEM,Hauck97
+  phot.=>Balona94 calibration), 21423K(EEM,Hauck97
+  phot.=>BalonaShobbrook84 beta calibration) => median Teff = 21108K.
+
+# Variant 
+
+HD 36485 = HR 1851 = del Ori C (companion ("ft")) (V=6.9)
+  B2V: Morgan55,Murphy69,MK78(B2Vh),Houk99(Warren)
+ *B2Vh: MK78,GrayAtlas
+  B2IV-V: Lesh68
+  B2.5V: Levato75
+  B3V: Berger58
+  B4IV: Abt83
+  B6: Wilson50
+
+  "h" is helium? V=6.9 star 52" North comp to V=2.5 O9 star HD
+  36486. Some dispersion in the published types. MK78 lsts "B2Vh"
+  standard of "del Ori(ft) = HR 1851". 
+
+# Other Stars
+
+Alf Pav = HD 193924 = HR 7790 = Peacock
+ *B2.5V: Houk75(Hiltner69),Garrison96
+  B2IV: Jaschek78(Levato75)
+  B3IV: Wood55,Jaschek64(all)
+  B3V: Gahm83
+  B3: Cannon
+
+  Never proposed as standard, and not a good candidate to be one
+  either.  One of 4 B2.5V stars mentioned in Garrison96's table "The
+  Brightest Stars".
+
+Zet CMa = HD 44402 = HR 2282 = Phurud
+ *B2.5V: Buscombe69,Garrison96,Houk(Garrison96)
+  B2.5IV: Jaschek78(Hiltner69)
+  B3V: Jaschek64(most)
+  B3: Cannon
+
+  Never proposed as standard, and doesn't appear to be a good
+  candidate to be one. One of 4 B2.5V stars mentioned in Garrison96's
+  table "The Brightest Stars".
+
+alf Sco B = Antares B
+  B2.5V: Garrison96
+
+  V=5.37, 3" from Antares. One of 4 B2.5V stars mentioned in
+  Garrison96's table "The Brightest Stars". 
+
+Hiltner69 classified 24 stars as B2.5V, with the brightest HR 5812
+(V=3.7).
+
+Garrison96 classified 4 of the brightest stars (or their companions)
+as B2.5V (or variant): zet CMa, bet Mus B, alf Sco B, alf Pav.

@@ -1,0 +1,117 @@
+M8.5V
+
+Kirkpatrick(in GrayCorbally09) lists TVLM 513-46546 as the primary
+M8.5V standard, and cites Kirkpatrick95 as the reference.
+
+Kirkpatrick91:      	     GJ 569B - M8.5V (primary standard)
+Kirkpatrick95:               TVLM 513-46546 - M8.5V 
+Henry04:                     SCR 1845-6357 (primary standard)
+Kirkpatrick(GrayCorbally09): TVLM 513-46546 (primary standard)
+
+RECONS list shows SCR 1845-6357A as the nearest M8.5V star, followed
+by DENIS J1048-3956.
+
+ReinersBasri09 finds that the mean kinematic age of nearby M7-M9.5 stars is 3.1 Gyr. 
+
+V-Ks(M8.5V) = 8.781 ; halfway M8V(8.714) and M9V(8.847)
+V-Ks(M8.5V) = 8.88  ; non-stan. DENIS J1048-3956 (Burgasser14)
+V-Ks(M8.5V) = 8.892 ; sec. stan. SCR 1845-6357
+V-Ks(M8.5V) = 9.10  ; non-stan. LSR J1835+3259 (Burgasser14)
+=> adopt (V-Ks)(M8.5V) = 8.9
+
+(Ks-L')(M8.5V) = 0.398 ; Dupuy12 polynomial
+
+Teff(M8.5V) = 2500 K ; halfway between M8V(2600K) and M9V(2400K)
+Teff(M8.5V) =  2441 K ; Golimowski04
+Teff(M8.5V) =  2400 K ; non. stan. SDSS J2255-0034 (single Teff from Golimowki04)
+Teff(M8.5V) =  2300 K ; pri. stan. TVLM 513-46546 (single Teff from Golimowski04)
+=> adopt Teff(M8.5V) = 2500 K (logT = 3.398)
+
+BC_K(M8.5V) = 3.18+-0.07 ; non. stan. SDSS J2255-0034 (Golimowski04)
+BC_K(M8.5V) = 3.16+-0.07 ; pri. stan. TVLM 513-46546 (Golimowski04)
+BC_K(M8.5V) = 3.122 ; Golimowski04
+=> adopt BC_K(M8.5V) = 3.16 mag 
+
+BCv(M8.5V) = -5.62 ; BC_K=3.16, V-K=8.781
+=> adopt BCv(M8.5V) = -5.62 mag
+
+M_Ks(M8.5V) = 10.58 ; SCR 1845-6357AB (Burgasser14)
+M_Ks(M8.5V) = 10.46 ; Dupuy12 mean 
+M_Ks(M8.5V) = 10.44 ; DENIS J1048-3956 (Burgasser14)
+M_Ks(M8.5V) = 10.41 ; LSR J1835+3259 (Burgasser14)
+M_Ks(M8.5V) =  9.94 ; Dupuy12 polynomial
+=> adopt M_Ks(M8.5V) = 10.44 
+
+logL(M8.5V) = -3.50+-0.14 ; non. stan. SDSS J2255-0034 (Golimowski04)
+logL(M8.5V) = -3.54  ; M_Ks + BC_Ks = 10.44 + 3.16 = Mbol = 13.60
+logL(M8.5V) = -3.59+-0.02 ; pri. stan. TVLM 513-46546 (Golimowski04)
+=> adopt logL(M8.5V) = -3.54 dex 
+
+# No Standards
+
+Boeshaar85 and Kirkpatrick97 do not list an M8.5V standard
+
+# Primary Standard
+
+TVLM 513-46546 = 2MASSI J1501081+225001 = WISEP J150108.17+225001.4 
+ *M8.5V: Kirkpatrick95,Henry02
+
+  Not listed by Hawley97 or Reid04.  The only M8.5V standard listed by
+  Henry02. I=15.09(Tinney93), R-I=2.36(Tinney93),
+  K=10.77(Tinney93). 2MASS: J=11.866+-0.022, H=11.181+-0.030,
+  Ks=10.706+-0.024. In SDSS DR8 &
+  WISE. Mbol=13.73+-0.08(Golimowski04), BC_K=3.16+-0.07(Golimowski04),
+  logL=-3.59+-0.02(Golimowski04,Berger06). plx=94.4+-0.60(Dahn02). Teffs:
+  2300K(Golimowski04).
+
+# Secondary Standard
+
+SCR 1845-6357 =  2MASS J18450541-6357475 = DENIS-P J184504.9-635747 
+  M8.5V: Henry04(pri. stan.),Winters11
+
+  Has T6 dwarf companion SCR 1845-6357B at separation 1.2" (discovered
+  by Biller). RECONS list shows this to be the nearest M8.5V. V =
+  17.40 (Winters11), R = 14.99(Winters11), I = 12.46(Winters11), J =
+  9.544+-0.023(2MASS), H = 8.967+-0.027(2MASS), Ks =
+  8.508+-0.020(2MASS). V-Ks = 17.40 - 8.508 = 8.892. plx =
+  259.45+-1.11 mas (Henry06). There are ROSAT and XMM X-ray detection
+  within ~1', which may be SCR 1845-6357.
+
+# Deprecated Standards
+
+GJ 569Bab 
+  M8.5V: HenryKirkpatrick90,Kirkpatrick91
+
+  Presumably the reason this star was dropped as the primary standard
+  between Kirkpatrick91 and Kirkpatrick(GrayCorbally09) is its
+  binarity?  GJ 569B was first reported by Forrest, Skrutskie, & Shore
+  (1998). Henry & Kirkpatrick (1990) "conclude that the spectrum of Gl
+  569B from 6320 to 9170 A indicates that it is hotter than LHS
+  2924. Gl 569B falls between VB 10 [M8V] and LHS 2924 [M9V] in
+  spectral characteristics... We assign Gl 569B a spectral type of
+  M8.5."
+
+# Non-Standards
+
+PSS 1458+2839 = 2MASS J14582453+2839580
+  M8.5V: Kirkpatrick(unpub.,DwarfArchives)
+
+HB 2115-4518 = 2MASS J21183174-4505522
+  M8.5V: Kirkpatrick(unpub.,DwarfArchives)
+
+HB 2126-4459 = 2MASS J21300862-4446278
+  M8.5V: Kirkpatrick(unpub.,DwarfArchives)
+
+CTI 012657.5+280202
+  M8.5V: Kirkpatrick92(PhD)
+
+ESO 207-61 = 2MASS J07075327-4900503
+  M8.5V: Kirkpatrick(unpub.,DwarfArchives)
+
+TVLM 262-111511 
+  M8.5V: Kirkpatrick(unpub.,DwarfArchives)
+
+SDSS J2255-0034 = SDSS J225529.09-003433.4
+  M8.5: Geballe02(Golimowski04)
+
+  plx=16.19+-2.59mas(Vrba04). Teff: 2400K(Golimowski04)

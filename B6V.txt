@@ -1,0 +1,162 @@
+B6V
+
+Garrison94 does not list a B6V anchor standard, and MK73 does not list
+a B6V dagger standard. MK73 does list 19 Tau as a B6IV dagger
+standard, however.
+
+JM53 standards:       19 Tau & 30 Sex (= bet Sex) - B6V
+Garrison67 standard:  19 Tau - B6V
+Lesh68 standard:     bet Sex - B6V
+Cowley69 standard:    19 Tau - B6V
+Houk75 standard:     HR 2360 - B6V (secondary standard - adopted from Hiltner69)
+
+Dereddening calculations using Q-method in this file have been updated
+using the new calibration (10/10/2011).
+
+B-V(B6V) = -0.124  ; prim. stan. HD 45796 (EEM dereddened)
+B-V(B6V) = -0.139  ; prim. stan. bet Sex (EEM dereddened via Q-method))
+B-V(B6V) = -0.14   ; Morgan53, Johnson63, Johnson66, Garrison67
+B-V(B6V) = -0.14   ; Fitzgerald70
+B-V(B6V) = -0.142  ; dereddened B-V for 34 HIP B6V stars (Q-method,E(B-V)<0.1)
+B-V(B6V) = -0.15   ; SchmidtKaler82
+B-V(B6V) = -0.15   ; weak stan. 19 Tau (Pleiad)
+=> adopt (B-V)(B6V)  = -0.140 
+
+U-B(B6V) = -0.447  ; sec. stan. HD 45796 (EEM dereddened via Q-method)
+U-B(B6V) =  -0.49  ; Johnson63, Johnson66, Fitzgerald70
+U-B(B6V) =  -0.50  ; Bessell98, Schmidt-Kaler82
+U-B(B6V) = -0.504  ; pri. stan. bet Sex (EEM dereddened via Q-method)
+U-B(B6V) = -0.521  ; EEM dereddened N=34 HIP B6V stars (Q-method,E(B-V)<0.1)
+=> adopt (U-B)(B6V)  = -0.504 ***
+=> adopt     Q(B6V)  = -0.403 (=(U-B)-0.72*(B-V) = -0.504 - 0.72*-0.140)
+=> adopt (V-I)(B6V)  = -0.144
+=> adopt (V-R)(B6V)  = -0.062
+=> adopt (R-I)(B6V)  = -0.082
+=> adopt (V-J)(B6V)  = -0.270
+=> adopt (V-H)(B6V)  = -0.351
+=> adopt (V-Ks)(B6V) = -0.358
+=> adopt (H-Ks)(B6V) = -0.007
+=> adopt (J-H)(B6V)  = -0.081
+=> adopt (K-W1)(B6V) =  0.035
+
+Teff(B6V) =  13090 K ; Bertone04[ATLAS]
+Teff(B6V) =  13197 K ; Flower96 Teff for B-V = -0.14
+Teff(B6V) =  13777 K ; B-V=-0.14 => Teff(Napiwotzki93)
+Teff(B6V) =  13827 K ; U-B=-0.504 => Teff(Bessell98)
+Teff(B6V) = 13849 K  ; sec. stan. HD 45796 (median Teff)
+Teff(B6V) =  13932 K ; Bessell98
+Teff(B6V) =  14000 K ; Crowther97/Fig.3 
+Teff(B6V) =  14000 K ; interp. (B5V-B7V) GrayCorbally09
+Teff(B6V) =  14000 K ; Schmidt-Kaler82 
+Teff(B6V) =  14100 K ; Bohm-Vitense81
+Teff(B6V) =  14340 K ; Theodossiou90
+Teff(B6V) = 14533 K  ; pri. stan. bet Sex (median Teff)
+Teff(B6V) =  14550 K ; Chavez95 (+150-100K)
+Teff(B6V) =  14791 K ; B-V=-0.14 => Teff(Bessell98,logg=4.3)
+Teff(B6V) = 14850 K ; EEM from 95 published Teffs for B6V stars
+=> adopt Teff(B6V) = 14500 K (logT = 4.162)
+
+Mv(B6V) = -0.02 mag ; Upper Sco MS Mv for B-V=-0.140
+Mv(B6V) =  -0.1  mag ; HD 90994 (Jaschek98)
+Mv(B6V) =   -0.31 mag ; ONC MS Mv for B-V=-0.140
+Mv(B6V) =    -0.40 mag ; pri. stan. bet Sex (see below)
+Mv(B6V) =    -0.49 mag ; pri. stan. HD 45796 (see below)
+Mv(B6V) =    -0.89 mag ; Wegner07
+Mv(B6V) =   -0.9  mag ; HD 23338 (Jaschek98)
+Mv(B6V) =  -0.9  mag ; GrayCorbally09
+Mv(B6V) = -0.9  mag ; Schmidt-Kaler82 
+=> adopt Mv(B6V) = -0.5 mag 
+
+BCv(B6V) = -1.247 mag ; Code76(Teff=14500K)
+BCv(B6V) = -1.226 mag ; Flower96(Teff=14500K)
+BCv(B6V) = -1.156 mag ; Bessell98(ATLAS9,logg=4.0,Teff=14500K)
+BCv(B6V) = -1.131 mag ; Balona94(Teff=14500K)
+BCv(B6V) = -1.106 mag ; Bertone04[ATLAS,Teff=14500K]
+BCv(B6V) = -1.08  mag ; Schmidt-Kaler82(BCv=-1.21+0.13 offset)
+=> adopt BCv(B6V) = -1.16 mag
+
+logL(B6V) = 2.57 dex ; Mv=-0.5, BCv=-1.16 mag => Mbol = -1.66
+=> adopt logL(B6V) = 2.57 dex
+=> adopt Mbol(B6V) = -1.66 mag
+
+Mass(B6V) = 3.80 Msun ; Harmanec88
+Mass(B6V) = 3.921+-0.045 Msun ; Eclipsing binary zet Phe (Torres10)
+Mass(B6V) = 3.93 Msun ; EEM Teff vs. Mass fit for binaries (Teff=14000K)
+Mass(B6V) = 3.99 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-0.5)
+Mass(B6V) = 4.08 Msun ; EEM logL vs. Mass fit for binaries (logL=2.54)
+Mass(B6V) = 4.11 Msun ; Ekers15 ML calibration for logL=2.55
+Mass(B6V) = 4.739+-0.072 Msun ; Eclipsing binary U Oph B (Torres10)
+=> adopt Mass(B6V) = 4.0 Msun
+
+# No standard
+
+MK43, Hiltner69, Cowley72, MK73, Garrison77, MK78, Garrison79,
+Keenan85, GrayAtlas, & GrayNstars do not list B6V standard.
+Skiff08 did not flag any B6V stars as standards.
+
+Although Garrison77 does not list a B6V standard, they classify 3
+stars as B6V.  The brightest are HD 152909 (V=6.6; B6V) and HD 112999
+(V=7.4; B6V).
+
+# Primary Standards
+
+bet Sex = HD 90994 = 30 Sex = HR 4119
+ *B6V: JM53(stan),Jaschek64(most),Kennedy83(Lesh68(stan))
+  B5: Cannon
+  B5IV/V: Houk99
+
+  Most recent classification is Lesh68.  V=5.071, B-V=-0.139,
+  U=B=-0.504 (Mermilliod91) => updated Q-method (10/10/2011) => find
+  exactly negligible reddening (E(B-V)=-0.002) with and (B-V)o=-0.137,
+  (U-B)o=-0.501, E(B-V)=Av=0.00.  vanLeeuwen07 plx = 8.06+-0.36 mas =>
+  Mv = -0.40+-0.10 mag. Hauck97 photometry dereddened using
+  Castelli91: (b-y)0=-0.110, c0=0.472, E(b-y)=0.048, Av=0.208.  Teffs:
+  14065K(U-Bo=>Bessell98), 14343K(Hauck97 phot.=>Napiwotski93 cal.),
+  14533K(Hauck97 phot.=>Balona94 cal.), 14561K(Hauck97
+  phot.=>BalonaShobbrook84 cal.), 15272K(Philip80) => median Teff =
+  14533K.
+
+# Secondary Standard
+
+HD 45796 = HR 2360 
+ *B6V: Jaschek78(Hiltner69),Houk(sec.standard),Houk75,Kennedy83(Hiltner69)
+  B5: Cannon
+
+  At least Hiltner69 & Houk agree on B6V type. I call it a secondary
+  standard as no one else (e.g. Morgan, Johnson, etc.) considered it a
+  standard. V=6.262, B-V=-0.141, U-B=-0.460 (Mermilliod 1991) =>
+  revised Q-method (10/10/2011) => find negligible reddening
+  (E(B-V)=-0.017) => assume E(B-V) = Av = 0.00, so star "dereddens" to
+  sequence at (B-V)o = -0.124, (U-B)o = -0.447.  Teff = 14400 K
+  (Philip80). vanLeeuwen07 plx = 4.46+-0.35 mas => Mv = -0.49+-0.17
+  mag. Hauck97 photometry dereddened using Castelli91: (b-y)o=-0.109,
+  c0=0.526, E(b-y)=0.047, Av=0.205.  Teffs: 13076K(U-Bo=>Bessell98),
+  13649K(Hauck97 phot.=>Napiwotski93), 13849K(Hauck97
+  phot.=>BalonaShobbrook84 beta calib.), 13889K(Hauck97
+  phot.=>Balona94), 14400K(Philip80) => median Teff = 13849K.
+
+# Deprecated Standard
+
+19 Tau = HD 23338 = HR 1145 = HIP 17531 = Taygeta (a Pleiad)
+  B6V: JM53(stan),Mendoza56,Cowley69(stan),Jaschek78(Herbig55)
+ *B6IV: Kennedy83(all),MK73(dagger),Lesh68
+  B5: Cannon
+
+  Skiff09 comments that Cannon18 uses Taygeta as B5 standard for HD
+  types!  Skiff09 lists no published types after MK73. (B-V)o=-0.15,
+  V=4.30 => Mv=-1.3. From my eye the Pleiades "turnoff" is at V=3.8.
+  Taygete is the bluest MS B-star, just fainter than the terminal MS
+  (but still "MS"). But best considered "B6IV" due to MK73?
+
+# Other Stars
+
+Gray01/03/06 lists one B6V star: HIP 109268 (=HD 209952, alf Gru), but all of
+its other published types are B5V and B7IV. 
+
+HD 142165 = HR 5906 
+  *B6V: Bertiau58,Slettebak68
+   B6IVn: Garrison67,Hiltner69
+
+   Upper Sco member. All published subtypes are "B6" either "V" or "IVn".
+
+

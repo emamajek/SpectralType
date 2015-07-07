@@ -1,0 +1,107 @@
+K8V
+
+JM53, Houk75, KeenanMcNeil76, Keenan85, Keenan99,
+Kirkpatrick91,Houk,Henry02 do not list any K8V standards.  Skiff08
+does not flag any stars as K8V MK standards.
+
+Pecaut13 standard:    HIP 111288 - K8V k [following Gray06]
+
+Keenan84 does not list K8 as a full subtype like K5 and M0, and "other
+possible subdivisions are utilized only for interpolation whenever we
+think that we can classify accurately enough to justify their
+use. Thus when we call a star G3 we mean only that it is closer to G2
+than to G5."
+
+Gray01/03/06 classify 25 stars as K8V, 23 of which have useful BVI
+colors in HIP. The nearest (plx=205mas) and brightest (V=6.6) is HIP
+49908 (GJ 380), but it has been called K7V by most others, so is
+unsuitable as a candidate standard. The median colors for the Gray06
+K8Vs are: 
+<B-V>(K8V) = 1.382 (+-0.009 sem, +-0.048 stdev; N=23)
+<V-I>(K8V) = 1.608 (+-0.035 sem, +-0.179 stdev; N=23)
+
+The two stars bracketing the median B-I colors are HIP 111288 (= StKM
+2-1622; only other reference is K7V in Stephenson86) and HIP 82834
+(=HD 152606; only other reference is K4/5V q=3 in Houk82)
+
+(B-V)(K8V) = 1.360 (+-0.039 sem,+-0.061 stdev); med. for 4 ARICNS K8V stars
+(B-V)(K8V) = 1.37  ; interpolated B-V between K7V (1.34) and M0V (1.43)
+<B-V>(K8V) = 1.382 ; 23 Gray03/06 K8V stars (+-0.009 sem, +-0.048 stdev)
+=> adopt (B-V)(K8V)  = 1.382 ***
+=> adopt (U-B)(K8V)  = 1.213
+=> adopt (V-I)(K8V)  = 1.671
+=> adopt (V-R)(K8V)  = 0.859
+=> adopt (R-I)(K8V)  = 0.812
+=> adopt (V-J)(K8V)  = 2.743
+=> adopt (V-H)(K8V)  = 3.373
+=> adopt (V-Ks)(K8V) = 3.554
+=> adopt (H-Ks)(K8V) = 0.181
+=> adopt (J-H)(K8V)  = 0.630
+=> adopt (K-W1)(K8V) = 0.069 
+
+Teff(K8V) = 3863 K ; Casagrande08 Teff calibration for V-Ks=3.554
+Teff(K8V) = 3896 K ; vanBelle09 Teff calibration for V-Ks=3.554
+Teff(K8V) = 3955 K ; diBenedetto98 Teff calibration for V-Ks=3.554
+Teff(K8V) = 3964 K ; mean photometric Teff
+Teff(K8V) = 3970 K ; interp K7V (4050K) and M0V (3850K) for V-K=3.554
+Teff(K8V) = 4003 K ; Ramirez05 Teff calibration for B-V=1.382
+Teff(K8V) = 4039 +- 23 K ; Pecaut13 (GJ 380)
+Teff(K8V) = 4284 K ; Biazzo07 Teff calibration for B-V=1.382
+=> adopt Teff(K8V) = 3970 K (logT = 3.599)
+
+Mv(K8V)  =  8.40  mag ; Wegner07
+Mv(K8V)  = 8.562 mag ; V-K=3.554 => EEM fit to Reid CNS3 data
+Mv(K8V)  = 8.60  mag ; B-V=1.382 => Mv(Wright05)
+Mv(K8V)  = 8.63  mag ; interp K7V-M0V for V-K=3.554
+Mv(K8V)  = 8.635 mag ; V-K=3.554 => Mv(JohnsonApps09)
+=> adopt Mv(K8V)   = 8.63 mag 
+=> adopt M_Ks(K8V) = 5.076 mag 
+
+BCv(K8V) =  -1.304 mag ; Masana06(Teff=4000K)
+BCv(K8V) =  -1.111 mag ; Flower96(Teff=4000K)
+BCv(K8V) = -1.073 mag ; interp K7V-M0V for V-K=3.554
+BCv(K8V) = -1.056 +- 0.02 ; non-standard GJ 380 (Pecaut13)
+BCv(K8V) =  -1.003 mag ; Bessell98(ATLAS9,logg=4.5,Teff=4000K)
+BCv(K8V) =  -0.973 mag ; EEM fit to Casagrande06/08/10 (Teff=4000K)
+BCv(K8V) =  -0.957 mag ; Bertone04(ATLAS,Teff=4000K)
+=> adopt BCv(K8V) = -1.073 mag
+
+logL(K8V) = -1.121 dex ; Mv=8.63, BCv=-1.073 => Mbol = 7.557
+=> adopt logL(K8V) = -1.121 dex
+=> adopt Mbol(K8V) =  7.557 mag
+
+Mass(K8V) = 0.59 Msun ; EEM Teff vs. Mass fit for binaries (Teff=3960K)
+Mass(K8V) = 0.594 Msun ; Eker15 calibration for logL=-1.121
+Mass(K8V) = 0.61 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.14)
+Mass(K8V) = 0.61 Msun ; Mv=8.60 => HenryMcCarthy93 calibration
+Mass(K8V) = 0.65 Msun ; M_Ks=5.05 => Delfosse10 calibration
+Mass(K8V) = 0.68 Msun ; EEM Mv vs. Mass fit for binaries (Mv=8.60)
+=> adopt Mass(K8V) = 0.61 Msun
+
+# Standard
+
+HIP 111288 = StKM 2-1622 = TYC 6391-1169-1 (J2232-2059)
+ *K8Vk: Gray06,Pecaut13
+  K7V: Stephenson86
+
+  There appear to be no K8V standard stars before 2013. Reid04 lists
+  the star, but does not give a SpT. V=11.01, Ks = 7.491+-0.017 (2M),
+  (V-Ks) = 3.52 (I find <V-Ks>(K8V) ~ 3.55, so its (V-Ks) is
+  indistinguishable from the K8V mean). In PecautMamajek13, we show
+  that its red optical spectrum is intermediate between a K7V and M0V
+  standards (clearly closer to the K7V standard GJ 673), and adopt HIP
+  111288 as a K8V standard.
+
+# Rejected Candidate Standard
+
+GJ 380 = HD 88230 = HIP 49908 = LHS 280 
+  K7V: Popper56,Wilson62,Boeshaar76,Sato90,Kirkpatrick91(pri),Henry02
+  K8V: Gray03
+  K6Ve Fe-1: Keenan89
+  M0V: Adams26,Joy74
+  K9Ve: Jaschek78(Cowley67)
+  K5V: Cannon(K5),Hawley97
+
+  Too many investigators have classified this as K7V, with only Gray03
+  calling it K8V.
+

@@ -1,0 +1,93 @@
+L5V
+
+Hawley02 standard: 2MASS 1507-1627 - L5V
+
+(Rc-Ic)(L5V) = 2.41  ; 2M1507 (see below)
+(Rc-Ic)(L5V) = 2.395 ; N=4 L5Vs in Liebert06 (+-0.022 sem, +-0.045 rms)
+=> adopt (R-I)(L5V) = 2.395 
+
+(V-Rc)(L5V) = 3.22 ; 2M1507 (see below) 	
+(V-Rc)(L5V) = 3.530 ; GJ 1001BC (see below)
+
+(V-Ic)(L5V)    = 5.62  ; 2M1507 (see below)
+(V-I_Bes)(L5V) = 6.010 ; GJ 1001BC 
+
+(V-J)(L5V)  =  9.31 ; 2M1507 (see below)
+(V-J)(L5V)  =  9.661 ; GJ 1001BC
+
+(V-H)(L5V)  = 10.24 ; 2M1507 (see below)
+(V-H)(L5V)  = 10.715 ; GJ 1001BC
+
+(V-Ks)(L5V) = 10.82 ; 2M1507 (see below)
+(V-Ks)(L5V) = 11.374 ; GJ 1001BC
+
+<J-Ks>(L5V) = 1.74   ; Faherty09
+(J-Ks)(L5V) = 1.53 (+-0.23 rms; N=7) ; Schmidt14
+
+(i-z)(L5V)  = 2.13 (+-0.06 rms; N=5) ; Schmidt14
+(i-J)(L5V)  = 4.88 (+-0.09 rms; N=5) ; Schmidt14
+(i-Ks)(L5V) = 6.40 (+-0.25 rms; N=5) ; Schmidt14
+(z-J)(L5V)  = 2.82 (+-0.11 rms; N=6) ; Schmidt14
+(J-H)(L5V)  = 0.95 (+-0.17 rms; N=7) ; Schmidt14
+(H-Ks)(L5V) = 0.60 (+-0.08 rms; N=8) ; Schmidt14
+(Ks-W1)(L5V)= 0.61 (+-0.14 rms; N=7) ; Schmidt14
+(W1-W2)(L5V)= 0.30 (+-0.12 rms; N=8) ; Schmidt14
+
+Teff(L5V) = 1700K ; 2M 1507 (see below)
+Teff(L5V) = 1725K ; GJ1001BC (Deiterich14)
+
+BC_K(L5V)  = 3.342 mag ; Golimowksi04
+BC_Ks(L5V) = 3.37  mag ; Schmidt14 (rms = 0.04)  
+
+# Examples
+
+2MASS J15074769-1627386 = 2M_1507-1627 
+	L5: Reid00,Cruz03,Reid06(opt),Reid08,Schmidt07,Faherty09(opt)
+	L5.5: Knapp04(IR),Kirkpatrick05,Faherty09(IR)
+
+	plx=144.08+-2.05(Costa06), plx=136.4+-0.4(Dahn02),
+	V=22.136+-0.1:(Costa06), V=22.9+-0.5(Dahn02),
+	Rc=18.928+-0.097(Costa06), Rc=18.919+-0.013(Liebert06),
+	Ic=16.579+-0.079(Costa06), Ic=16.512+-0.006(Liebert06),
+	J=12.830+-0.027(2M), H=11.895+-0.024(2M),
+	Ks=11.312+-0.026(2M), K=11.40+-0.02(Dahn02).
+	Rc-Ic=2.407(Liebert06), V-Rc=3.22+-0.11(Costa06,Liebert06),
+	V-Ic=5.62+-0.11(Costa06,Liebert06), V-J=9.31+-0.11(Costa06,2M)
+	V-H=10.24+-0.11(Costa06,2M) V-K=10.82+-0.11(Costa06,2M).
+	Teffs: 1629K(Vrba04), 1703K(Dahn02), 1750K(Golimowski04) =>
+	adopt Teff = 1700 K.  Liebert06 lists the star twice, it
+	appears that the photometry was analyzed in two different
+	sets, I list the values from the set with smaller
+	uncertainties. logL = -4.23 (Antonova13).
+
+GJ 1001BC =  LHS 102BC = WDS 00046-4044 BC
+   L4.5+L4.5: Reid08(#2)
+   L4.5: Knapp04(cited by Leggett10)
+  *L5+L5: Reid08(#1)   
+   L5: Kirkpatrick05, Patten06
+
+   (J2000) 00:04:34.86-40:44:06.3 (Stauffer10). GJ 1001A is M3.5 star
+   (Gliese91). Tokovinin08 lists the triple as a 0.26+0.06+0.06 Msun
+   system. WDS lists separation 0.1".  Reid08 splits BC into "Ba" (B)
+   having SpT=L4.5, J=13.82, J-H=0.95, J-Ks=0.65 and "Bb" (C) having
+   SpT=L4.5, J=13.90, J-H=0.95, J-Ks=0.65. In another table in the
+   same reference, Reid08 lists the pair as "L5 & L5". Reid06 lists
+   masses of 0.070 & 0.069 Msun if 1 Gyr, and 0.078 and 0.078 Msun if
+   3 Gyr. Given that Vtan ~ 100 km/s, I'll wager the system is older
+   than 3 Gyr. Knapp04 lists Z-J=1.61 for unresolved BC. plx =
+   76.86+-3.97 mas (Henry06), 77.02+-2.07 mas (Dieterich14).  Dupuy12
+   lists photometry for B of: J=13.813+-0.034, H=12.735+-0.032,
+   Ks=12.100+-0.035; and C of: J=13.913+-0.036, H=12.885+-0.034,
+   Ks=12.200+-0.037. Unresolved 2MASS photometry of BC:
+   J=13.109+-0.024, H=12.055+-0.026, Ks=11.396+-0.026 (AAA
+   flag). Dieterich14 lists unresolved photometry of BC of:
+   V=22.77+-0.025, R=19.24+-0.045, I=16.76+-0.012. Unresolved colors
+   of BC: V-Ks= 22.77-11.396 = 11.374 +- 0.036, V-J = 9.661 +- 0.035,
+   V-H = 10.715 +- 0.036, V-R = 3.530+-0.052, V-I = 6.01 +-
+   0.028. Patten06 lists unresolved Spitzer IRAC photometry of [3.6] =
+   10.36+-0.01, [4.5] = 10.47+-0.01, [5.8] = 10.14+-0.03, [8.0] =
+   10.13+-0.02. Leggett10 lists unresolved MKO Ymag = 14.32+-0.10 from
+   Hewett06.  logL = -4.049+-0.048 (Dieterich14), Rad = 0.105+-0.005
+   (Deiterich14).  Teff = 1725+-21K (Deiterich14).
+
+

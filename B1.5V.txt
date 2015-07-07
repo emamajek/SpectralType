@@ -1,0 +1,176 @@
+B1.5V
+
+Garrison94 does not list a B1.5V anchor standard, and MK73 does not
+list a B1.5V dagger standard.
+
+There is little agreement on which stars to use for B1.5V standards.
+None of the proposed standards originally were classified B1.5V before
+being considered standards. It appears that the standards themselves
+are a bit hotter and bluer than the mean colors for the majority of
+B1.5V in the literature.
+
+Garrison67 standard: Cl* NGC 2244 JOHN 10 - B1.5V [from Morgan65]
+Lesh68 standard:     HD 215191 - B1.5V
+Walborn71 standard:  HD 154445 - B1.5V
+Walborn90 standard:  HD 36959 - B1.5V
+
+Tough to say what might be the best standard - none have long pedigree
+as B1.5V standard. HD 154445 may be best as its on the Walborn system,
+and it appears to be single.
+
+All Q-method calculations in this file have been updated with the most
+recent calibration (10/9/2011).
+
+B-V(B1.5V) = -0.265  ; EEM dereddened pri. stan. HD 154445 (via Q method)
+B-V(B1.5V) = -0.261  ; EEM dereddened sec. stan. HD 36959 (via Q method)
+B-V(B1.5V) =  -0.25   ; Fitzgerald70, Morgan71(halfway_B1-B2), JohnsonBorgman63
+B-V(B1.5V) = -0.240  ; EEM dereddened N=9 HIP B1.5V stars (Q method,E(B-V)<0.1)
+=> adopt (B-V)(B1.5V) = -0.252 (based on adopted U-B=-0.91)
+
+U-B(B1.5V) = -0.954  ; EEM dereddened pri. stan. HD 154445 (via Q-method) 
+U-B(B1.5V) = -0.941  ; EEM dereddened sec. stan. HD 36959 (via Q-method)
+U-B(B1.5V) =  -0.91   ; Bessell98, JohnsonBorgman63
+U-B(B1.5V) = -0.872  ; EEM dereddened 17 HIP B1.5V stars (via Q-method)
+U-B(B1.5V) =  -0.895  ; Johnson63 (interp. between B1V-B2V)
+U-B(B1.5V) =  -0.88   ; Fitzgerald70
+=> adopt (U-B)(B1.5V)  = -0.91  ***
+=> adopt     Q(B1.5V)  = -0.730 (=(U-B)-0.72*(B-V) = -0.91 - 0.72*-0.25)
+=> adopt (V-I)(B1.5V)  = -0.281
+=> adopt (V-R)(B1.5V)  = -0.115
+=> adopt (R-I)(B1.5V)  = -0.168 
+=> adopt (V-J)(B1.5V)  = -0.572
+=> adopt (V-H)(B1.5V)  = -0.703
+=> adopt (V-Ks)(B1.5V) = -0.752
+=> adopt (H-Ks)(B1.5V) = -0.047
+=> adopt (J-H)(B1.5V)  = -0.132
+
+Teff(B1.5V) = 21584 K ; N=9 B1.5V from Brown94 
+Teff(B1.5V) = 21630 K ; EEM N=51 Teffs
+Teff(B1.5V) =   21787 K ; N=21 B1.5V from Philip80 (Jaschek78 SpTs)
+Teff(B1.5V) =   22948 K ; U-B=-0.91 => Teff(Bessell98)
+Teff(B1.5V) =   23000 K ; Bohm-Vitense81
+Teff(B1.5V) =   23400 K ; Chavez95 (+700-400K)
+Teff(B1.5V) =   23516 K ; interp. B1V and B2V Teffs as f(B-V) for B-V=-0.25
+Teff(B1.5V) = 24000 K ; non-standard HD 37744 (Nieva14)
+Teff(B1.5V) =   24400 K ; Bessell98
+Teff(B1.5V) = 24575 K ; Q=-0.730 => Nieva13 calibration 
+Teff(B1.5V) = 24627 K ; sec. stan. HD 36959 (median Teff)
+Teff(B1.5V) = 24918 K ; pri. stan. HD 154445 (median Teff)
+Teff(B1.5V) =   25000 K ; Crowther97/Fig.3 
+Teff(B1.5V) =   25087 K ; B-V=-0.25 => Teff(Napiwotzki93)
+Teff(B1.5V) =   25340 K ; Theodossiou90 
+Teff(B1.5V) =   25881 K ; B-V=-0.25 => Teff(Bessell98,logg=4.3)
+Teff(B1.5V) = 26100 K ; non-standard HD 36969 (Nieva14)
+=> adopt Teff(B1.5V) = 24500 K (logT = 4.389)
+
+BCv(B1.5V) = -2.430 ; Bertone04 (ATLAS, Teff=24500K)
+BCv(B1.5V) = -2.435 ; LanzHubeny03/07 (Teff=24500K)
+BCv(B1.5V) = -2.438 ; Nieva13(Teff=24500K)
+BCv(B1.5V) = -2.454 ; Code76 (Teff=24500K)
+BCv(B1.5V) =  -2.462 ; Balona94 (Teff=24500K)
+BCv(B1.5V) =  -2.471 ; Bessell98 (Teff=24500K)
+BCv(B1.5V) =  -2.477 ; Flower96 (Teff=24500K)
+=> adopt BCv(B1.5V) = -2.44 mag
+
+Mv(B1.5V) = -3.42 mag ; pri. stan. HD 154445 (see below)
+Mv(B1.5V) = -2.89 mag ; Upper Sco main sequence (B-V=-0.25, rms +-0.39 mag)
+Mv(B1.5V) = -2.88 mag ; Wegner07
+Mv(B1.5V) = -2.81 mag ; Russeil03
+Mv(B1.5V) = -2.58 mag ; sec. stan. HD 36959 (see below, in ONC)
+Mv(B1.5V) = -2.50 mag ; ONC main sequence (B-V=-0.25, rms +-0.48 mag)
+=> adopt Mv(B1.5V) = -2.8 mag 
+
+logL(B1.5V) = 4.00 dex ; Mv = -2.8, BCv=-2.44 => Mbol = -5.24
+=> adopt logL(B1.5V) = 4.00 dex
+=> adopt Mbol(B1.5V) = -5.24 mag 
+
+Mass(B1.5V) = 10.19 Msun ; EEM Teff vs. Mass fit for binaries (Teff=25000K)
+Mass(B1.5V) = 10.14 Msun ; Ekers15 ML calibration for logL=3.98
+Mass(B1.5V) =  9.85 Msun ; EEM logL vs. Mass fit for binaries (logL=3.89)
+Mass(B1.5V) =  9.73 Msun ; Harmanec88
+Mass(B1.5V) =  9.59+-0.27 Msun ; Eclipsing binary V1034 Sco B (Torres10)
+Mass(B1.5V) =  9.53 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-2.6)
+Mass(B1.5V) =  8.49 Msun ; Eclipsing binary mu01 Sco (vanAnterwerpen09)
+=> adopt Mass(B1.5V) = 10 Msun 
+
+# No Standard
+
+Houk75 and Keenan85 do not list a B1.5V standard
+
+# Primary Standard
+
+HD 154445 = HR 6353 = HIP 83635 
+ *B1.5V: Walborn71(stan),Walborn72
+  B1V: Morgan55,Feast57(B1V:),Jaschek64(all),Houk99(from SIMBAD)
+
+  No new published classifications after Walborn72.  No sign of
+  binarity from Vizier search. V=5.620+-0.010 (Mermilliod91),
+  Cousins71 lists B-V=0.155, U-B=-0.65 => updated Q-method calibration
+  (10/9/2011) => (B-V)o = -0.265, E(B-V) = 0.420, (U-B)o = -0.954,
+  Av=1.363. Plx = 2.92+-0.46 mas => D = 342+-55 pc => Mv = -3.42+-0.34
+  mag (but no statistical correction for poor parallax).  Hauck97
+  photometry dereddened following Castelli91: (b-y)o=-0.132, c0=0.027,
+  E(b-y)=0.314, Av=1.375 mag.  Teffs: 24515K(U-Bo=>Bessell98),
+  24545K(EEM,Hauck97 phot. => Balona94 calibration),
+  24918K(EEM,Hauck97 beta phot.=>BalonaShobbrook84 calibration),
+  24945K(EEM,Hauck97 phot.=>Napiwotzki93 calibration),
+  25200K(Philip80) => median Teff = 24918K.
+
+# Secondary Standard
+
+HD 36959 = HR 1886 
+ *B1.5V: Walborn90(stan)
+  B1V: Sharpless52,Morgan55,Jaschek64(all),Lesh68,Houk99(Garrison type),Abt77
+
+  Jaschek64 lists a mix of B0 and B1 temp types.  V=5.6 mag, but has
+  V=8.8 mag companion 0.55" away. Bright B1V standard star HD 36960 is
+  36" away. Strangely *all* publshed types before Walborn90 considered
+  the star B1V, but Walborn90 considered it a B1.5V
+  standard. Johnson66 lists V=5.67.  Cousins71 lists B-V = -0.220, U-B
+  = -0.91 => Q = (U-B) - 0.72*(B-V) = -0.7516 => updated Q-method
+  (10/9/2011) => (B-V)o = -0.261, E(B-V)=0.041, (U-B)o = -0.941,
+  Av=0.133. Shull85 reports logN_HI = 20.40+-0.10, so using Savage &
+  Mathis (1979) relation logN_HI/E(B-V) = 4.8e21 atoms/cm^2/mag, then
+  E(B-V) = 0.052. Then (B-V)o = (B-V) - E(B-V) = -0.220 - 0.052 =
+  -0.272, and (U-B)o = (U-B) - 0.72*E(B-V) = -0.91 - 0.72*0.052 =
+  -0.947.   vanLeeuwen07 plx = 1.21+-0.41 mas. In Orion Nebula
+  Cluster, so adopt mean plx = 2.38+-0.03 mas (Menten+2007,Kraus+2007,
+  Hirota+2007,Jeffries+2007) => Mv = -2.58+-0.03 mag. Hauck97 photometry
+  dereddened following Castelli91: (b-y)o=-0.110, co=0.036, E(b-y)=0.018,
+  Av=0.080 mag.  
+
+  Teffs: 23301K(EEM, Hauck97 phot. => Napiwotzki93 calibration),
+  24208K(U-Bo=>Bessell98), 24547K(Brown94; but Brown94 classifies it
+  as B1V variable), 24620K(EEM, Hauck97 beta phot.=>BalonaShobbrook84
+  calibration), 24635K(EEM, Hauck97 phot.=>Balona94 calibration),
+  24890K(Cunha94), 25100K(Kaufer94), 25380K(Gies92) => median Teff =
+  24627K.
+
+# Deprecated Standard
+
+HD 215191
+ *B1.5V: Lesh68(stan),Levato76
+  B1V: Blaauw53,Jaschek64(all)
+  B2IV: Zorec09
+
+  All classifications B1-B2 range, but not consistent enough to
+  consider a good standard star.
+
+HD 259105 = Cl* NGC 2244 JOHN 10 = NGC 2244 128 = BD+05_1281
+ *B1.5V: Morgan65,Garrison67(stan),Perez87
+  B1V: Johnson62,Massey95,Vrancken97
+  B2V: Hoag59
+
+  Garrison67 adopted JOHN 10 as B1.5V standard from Morgan65's B0V-B2V
+  main sequence stars for NGC 2244. All classifications in B1-B2
+  range, but not consistent enough to probably consider as a standard
+  star.
+
+# Other Stars
+
+The brightest star classified by Morgan55 as B1.5V is HD 151890 (V=3.0).
+
+The brightest star classified by Hiltner69 as B1.5V is HR 4942 (V=4.3)
+and HR 5440 (B1.5Vn; V=2.3).
+
+There are no B1.5V stars in Garrison96's table "The Brightest Stars".

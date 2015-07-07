@@ -1,0 +1,135 @@
+O5V
+
+HD 46150 appears to be the O5V primary standard. 
+
+MK43 standard:        Zet Pup   - O5 (no luminosity class, from Plaskett 1922)
+Abt68 standard:       HD 46150  - O5 (no luminosity class)
+Hiltner69 standard:   HD 164794 = 9 Sgr - O5V
+Walborn71 standard:   HD 46150  - O5V((f))
+MK73 dagger standard: HD 46150  - O5 (no luminosity class; dagger standard), and
+                      Zet Pup   - O5f (dagger standard)
+Garrison77 standard:  HD 46150  - O5V
+MK78 standard:        HD 46150  - O5V
+Keenan85 standard:    HD 46150  - O5V
+Garcia89 standard:    HD 46150  - O5V
+Walborn90 standard:   HD 46150  - O5V((f))
+GrayAtlas standard:   HD 46150  - O5V
+
+Skiff08 lists only one O5V standard: HD 46150 (MK78)
+
+B-V(O5V)  = -0.33   ; SchmidtKaler82
+B-V(O5V)  = -0.32   ; Johnson63, Johnson66, Fitzgerald70, Morgan71
+B-V(O5V)  = -0.296  ; EEM dereddened primary standard HD 46150
+B-V(O5V)  = -0.28   ; Martins06
+=> adopt B-V(O5V) = -0.303 [using EEM U-B/B-V fit, and U-B=-1.14]
+
+U-B(O5V)  = -1.110  ; EEM dereddened primary standard HD 46150
+U-B(O5V)  = -1.14   ; Martins06
+U-B(O5V)  = -1.14   ; Johnson66
+U-B(O5V)  = -1.15   ; Johnson63
+U-B(O5V)  = -1.19   ; Bessell98
+U-B(O5V)  = -1.19   ; Fitzgerald70
+U-B(O5V)  = -1.19   ; Schmidt-Kaler82
+=> adopt U-B(O5V) = -1.14
+
+Teff(O5V) =  40300 K ; Bohm-Vitense81
+Teff(O5V) = 40500 K ; non-stan. HD 15629 (Repolust04)
+Teff(O5V) = 40862 K ; Martins05(Obs. scale), GrayCorbally09
+Teff(O5V) = 41000 K ; Massey05(Milky Way)
+Teff(O5V) = 41540 K ; Martins05(Theoretical scale)
+Teff(O5V) =  43000 K ; Bessell98
+Teff(O5V) =  43000 K ; Crowther97/Fig.3 
+Teff(O5V) = 43150 K ; pri. stan. HD 46150 (median Teff)
+Teff(O5V) =  44500 K ; Schmidt-Kaler82
+Teff(O5V) = 47034 K ; EEM N=6 Teffs
+=> adopt Teff(O5V) = 41500 K (logTeff = 4.618)
+
+Mv(O5V) = -5.7  mag ; Schmidt-Kaler82
+Mv(O5V) = -5.5  mag ; GrayCorbally09
+Mv(O5V) = -5.50 mag ; non-stan. HD 15629 (Repolust04)
+Mv(O5V) = -5.48 mag ; pri. stan. HD 46150 (Martins11)
+Mv(O5V) = -5.41 mag ; Russeil03
+Mv(O5V) = -5.21 mag ; Martins05
+Mv(O5V) = -5.10 mag ; Wegner07
+=> adopt Mv(O5V) = -5.4 mag 
+
+BCv(O5V) = -4.27  mag ; Schmidt-Kaler82(BCv=-4.40 + 0.13 offset)
+BCv(O5V) = -3.82  mag ; Martins05(Theoretical scale)
+BCv(O5V) = -3.785 mag ; LanzHubeny03(Teff=41000K,Z/Zsun=1)
+BCv(O5V) = -3.78  mag ; Martins05(Obs. scale)
+=> adopt BCv(O5V) = -3.80 mag 
+
+logL(O5V) = 5.50 ; Martins05(Obs. scale)
+logL(O5V) = 5.51 ; Martins05(Theoretical scale)
+logL(O5V) = 5.58 ; Mv=-5.4, BCv=-3.80 => Mbol = -9.20
+logL(O5V) = 5.60 ; non-stan. HD 15629 (Repolust04)
+=> adopt logL(O5V) = 5.58 dex
+=> adopt Mbol(O5V) = -9.20 mag 
+
+Mass(O5V) = 30.4 Msun ; non-stan. HD 15629 (Repolust04)
+Mass(O5V) = 31.98 Msun ; EEM Teff vs. Mass fit for binaries (Teff=41000K)
+=> adopt Mass(O5V) ~ 31 Msun ?
+
+logg(O5V) = 3.70 dex ; non-stan. HD 15629 (Repolust04)
+
+# No Standards
+
+GrayNstars does not list an O5V standard.
+
+# Primary Standard
+
+HD 46150 = Cl* NGC 2244 John 2
+  O5: Morgan65,Abt68,MK73(dagger)
+  O5V: Garrison77(stan),MK78(stan),Keenan85,Garcia89,GrayAtlas,Abt08
+  O5V((f)): Walborn71(stan),Walborn72,Walborn73,Bisiacchi76,Walborn90,Walborn02
+  O5V((f))z: Martins11
+  O5.5((f)): Conti74,Conti77
+  O6: JM53
+  B5Iab: Houk99
+
+  Morgan65 classified the star as "O5" and it has been a primary
+  standard since.  M91: V=6.745, B-V=0.129+-0.008, U-B=-0.834+-0.012
+  => QBV => (B-V)o=-0.296, (U-B)o=-1.110, E(B-V)=0.425, Teff=32752 but
+  the reddening is significant...  Not clear why the Houk type is so
+  different.  Excellent agreement on "O5" temperature type and dwarf
+  luminosity class.  Adopt "O5V((f))" from
+  Walborn71,Walborn72,Walborn73,Walborn90,Walborn02.
+  
+  Teffs: 42000K(Martins11), 44300K(Snow94) => median Teff = 43150K. 
+
+
+# Secondary Standards
+
+HD 93204
+  O5V((f)): Walborn73
+
+# Deprecated Standard
+
+HD 164794 = 9 Sgr
+  O5V: Jaschek78(Hiltner69(Stan))
+  O5: Morgan53,Morgan55,Jaschek64(most),Hiltner65
+  O6: Houk88
+  O7: Weaver53
+  O4V: Bisiachhi82
+  O4((f)): Walborn72,Walborn73,Conti74
+  O4f: Conti71,Conti73,Conti73
+  Jaschek64 mostly O5, with a O6 and O7
+  Hiltner69 used as O5V standard, but doesn't have the best pedigree now
+
+# Other Stars
+HD 66811 = Zet Pup = HR 3165 
+  O5: MK43,MK73(dagger)
+  O5If: MK78
+  O3f: Heap77
+  O4fe: Conti74,Conti77
+  O4If: Bisiacchi76
+  O4I(n)f: Walborn72
+  O4f: Conti71
+  O5Ik: Buscombe69
+  O5f: Morgan55,Hiltner69
+  O5f/WN7: Smith55
+  O6/7III: Zorec09
+  Never considered a "O5V" standard. MK78 considers "O5If" standard. 
+
+Walborn72 classifies three stars as O5V or variant: HD 15629
+(O5V((f))), HD 192281 (O5Vn((f))p), and HD 46150 (O5V((f))).

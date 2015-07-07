@@ -1,0 +1,230 @@
+O9.5V
+
+Garrison94 does not list a O9.5V anchor standard, but MK73 lists sig Ori 
+as the O9.5V dagger standard. 
+
+Unfortunately sig Ori is a tight (0".7) binary, so its not clear that it
+should be considered the best available standard. 
+
+I list HD 93027 and AE Aur as the best available "O9.5V" standards,
+and zet Oph as the best "O9.5Vn" standard. 
+
+MK43 standard:        sig Ori  - O9.5V
+     		      zet Oph  - O9.5V
+JM53 standard:        sig Ori  - O9.5V
+     		      zet Oph  - O9.5V 
+		      HD 34078 - O9.5V
+Lesh68 standard:      sig Ori  - O9.5V 
+Walborn71 standard:   AE Aur   - O9.5V 
+MK73 dagger standard: sig Ori  - O9.5V
+Houk75 standard:      sig Ori  - O9.5V (primary standard) 
+Walborn90 standard:   HD 93027 - O9.5V 
+
+Garcia89 lists 3 O9.5V MK standards: AE Aur, Sig Ori, Zet Oph
+Skiff08 flags only one star as O9.5V standard: HD 37468 = Sig Ori (MK73)
+
+All Q-method dereddenings in this file have been updated with the new
+calibration (10/8/2011).
+
+B-V(O9.5V)  = -0.308  ; EEM dereddened pri. stan. zet Oph (Q-method)
+B-V(O9.5V)  = -0.305  ; EEM dereddened pri. stan. HD 93207 (Q-method)
+B-V(O9.5V)  = -0.305  ; EEM dereddened pri. stan. AE Aur (Q-method)
+B-V(O9.5V)  = -0.30   ; Johnson63, Johnson66, Fitzgerald70, Morgan71
+B-V(O9.5V)  = -0.295  ; EEM dereddened O9.5V mu Col (see below)
+B-V(O9.5V)  = -0.26   ; Martins06
+
+U-B(O9.5V)  = -1.083  ; EEM dereddened sec. stan. HD 93027 (Q-method)*
+U-B(O9.5V)  = -1.085  ; EEM dereddened pri. stan. AE Aur (Q-method)*
+U-B(O9.5V)  = -1.09   ; Martins06
+U-B(O9.5V)  = -1.094  ; EEM dereddened pri. stan. zet Oph (Q-method)*
+U-B(O9.5V)  = -1.10   ; Johnson63, Johnson66, Fitzgerald70
+U-B(O9.5V)  = -1.11   ; Bessell98
+=> adopt (U-B)(O9.5V) = -1.087 *** 
+=> adopt (B-V)(O9.5V) = -0.312
+=> adopt   Q(O9.5V) = -0.862 (=(U-B)-0.72*(B-V) = -1.087 - 0.72*-0.312)
+=> adopt (V-K)(O9.5V) = -0.977
+=> adopt (V-J)(O9.5V) = -0.747
+=> adopt (V-H)(O9.5V) = -0.908
+=> adopt (H-K)(O9.5V) = -0.069
+=> adopt (J-H)(O9.5V) = -0.161
+=> adopt (V-I)(O9.5V) = -0.361
+
+Teff(O9.5V) =   30488 K ; Martins05(theo. scale)
+Teff(O9.5V) = 30605 K ; weak standard Sig Ori (only Teff from Zorec09)*
+Teff(O9.5V) =   30750 K ; Massey05(Milky Way)
+Teff(O9.5V) =   30850 K ; Bessell98
+Teff(O9.5V) =   31000 K ; Crowther97/Fig.3 
+Teff(O9.5V) = 31206 K ; EEM N=22 Teffs*
+Teff(O9.5V) = 31368 K ; sec. stan. HD 93027*
+Teff(O9.5V) =   31382 K ; U-B=-1.085 => Teff(Bessell98)
+Teff(O9.5V) =   31600 K ; Bohm-Vitense81
+Teff(O9.5V) =   31884 K ; Martins05(obs. scale),GrayCorbally09
+Teff(O9.5V) = 32000 K ; pri. stan. zet Oph (median Teff, large scatter!)*
+Teff(O9.5V) =   32750 K ; halfway between O9V(34000K) and B0V(31500K). 
+Teff(O9.5V) =   32830 K ; Theodossiou90 
+Teff(O9.5V) = 32955 K ; Q=-0.862 => Nieva13 calibration 
+Teff(O9.5V) = 34840 K ; pri. stan. AE Aur (median Teff)*
+=> adopt Teff(O9.5V) = 32000 K
+
+Mv(O9.5V) = -4.28 mag ; Wegner07
+Mv(O9.5V) =  -4.22 mag ; Garmany92 (O9.5V,IV)
+Mv(O9.5V) = -4.2  mag ; Russeil03
+Mv(O9.5V) = -4.19 mag ; HD 46202 (in NGC 2244; Martins11)
+Mv(O9.5V) = -4.1  mag ; GrayCorbally09
+Mv(O9.5V) = -3.93 mag ; pri. stan. HD 93027 (see below)
+Mv(O9.5V) = -3.9  mag ; halfway between O9V (-4.0) and B0V (-3.8)
+Mv(O9.5V) = -3.90 mag ; Martins05
+Mv(O9.5V) = -3.73 mag ; pri. stan. zet Oph (see below)
+=> adopt Mv(O9.5V) = -4.1 mag
+
+BCv(O9.5V) =  -2.91  mag ; Martins05(theo. scale)
+BCv(O9.5V) = -3.011 mag ; LanzHubeny03(Teff=32000K,Z/Zsun=1)
+BCv(O9.5V) = -3.04  mag ; Martins05(obs. scale)
+BCv(O9.5V) = -3.050 mag ; Bessell98(ATLAS,logg=4.0,Teff=32000K)
+BCv(O9.5V) = -3.056 mag ; Balona94(Teff=32000K)
+BCv(O9.5V) = -3.058 mag ; Nieva13(Teff=32000K)
+BCv(O9.5V) = -3.060 mag ; Code76(Teff=32000K)
+BCv(O9.5V) =  -3.173 mag ; Flower96(Teff=32000K)
+=> adopt BCv(O9.5V) = -3.05 mag
+
+
+logL(O9.5V) = 4.58 dex ; pri. stan. zet Oph (see below)
+logL(O9.5V) = 4.62 dex ; Martins05(theo. scale)
+logL(O9.5V) = 4.66 dex ; pri. stan. HD 93027 (see below)
+logL(O9.5V) = 4.68 dex ; Martins05(obs. scale)
+logL(O9.5V) = 4.76 dex ; Mv=-4.1, BCv=-3.05 => Mbol = -7.15
+logL(O9.5V) = 4.85 dex ; HD 46202 (Martins11)
+=> adopt logL(O9.5V) = 4.76 dex
+=> adopt Mbol(O9.5V) = -7.15 mag
+
+Mass(O9.5V) = 16.27+-0.33 Msun ; Eclipsing binary V478 Cyg B (Torres10)
+Mass(O9.5V) = 16.62+-0.33 Msun ; Eclipsing binary V478 Cyg A (Torres10)
+Mass(O9.5V) = 17.16 Msun ; EEM Teff vs. Mass fit for binaries (Teff=32000K)
+Mass(O9.5V) = 17.62 Msun ; EEM logL vs. Mass fit for binaries (logL=4.70)
+Mass(O9.5V) = 18.17 Msun ; Ekers15 ML calibration for logL=4.67
+Mass(O9.5V) = 18.63 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-3.9)
+Mass(O9.5V) = 20.0  Msun ; mean HRD position, Bertelli09 tracks
+=> adopt Mass(O9.5V) = 18 Msun
+
+# No standard
+
+Hiltner69, Garrison77, MK78, & Keenan85 do not list a O9.5V standard
+
+# Primary Standards
+
+HD 149757 = zet Oph = HR 6175
+ *O9.5V: MK43,JM53,Morgan55,Jaschek64(nearly all),Slettebak82,Garcia89,Garrison96(O9.5Vn),Houk99(Garrison96,O9.5Vn)
+  O9.5Vnn: Lesh68
+  O9V(e): Conti74
+  O9.5IV: Negueruela04
+  O9III: Herrero92
+  O9V: Garmany82
+  B0: Cannon
+  B0.5Ve: Levenhagen06
+
+  The only O9.5Vn class in Garrison96's table "The Brightest Stars" in
+  the 1996 Observer's Handbook. Runaway O-star from Sco-Cen (indeed,
+  the only O-type star associated with Sco-Cen), and as such the
+  nearest O-type dwarf.  M91: V=2.567+-0.005, B-V=0.017+-0.007,
+  U-B=-0.861+-0.006 => updated Q-method calibration (10/8/2011) =>
+  (B-V)o=-0.308, (U-B)o=-1.094, E(B-V)=0.325, Av=1.048. Yet another
+  Levenhagen06 spectral type at odds with nearly all others. Adopt
+  "O9.5Vn" for Zet Oph. This is the nearest O-type dwarf and the one
+  with the best individual trigonometric parallax (vanLeeuwen07: plx =
+  8.91+-0.20 mas => D = 112+-3 pc). Mv = -3.73, logL = 4.58 dex.
+
+  Teff = 26378K(Fremat05#1), 27000+-650K(Levenhagen06),
+  28797+-729K(Fremat#2), 29242K(Chauville01), 32000K(Repolust04),
+  32000+-2000K(Marcolino09), 32059K(U-Bo=>Bessell98),
+  32750+-1000K(Fitzpatrick07), 33262+-836K(Wu11) => median Teff =
+  32000K (but with large scatter!). log(g) = 3.85(Reolust04),
+  4.00+-0.10(Levenhagen06), 4.00(Chauville01),
+  4.00+-0.31(Fitzpatrick07).
+
+HD 34078 = AE Aur = HR 1712
+ *O9.5V: JM53,Jaschek64(all),Lesh68,Conti71,Walborn71(stan),Walborn72,Walborn73,Jaschek78(Morgan55),Garcia89
+  O9.5III:Abt85
+  B0p: Cannon
+
+  M91: V=5.956+-0.015, B-V=0.225+-0.005, U-B=-0.704+-0.015 => updated
+  Q-method calibration (10/8/2011) => (B-V)o=-0.305, (U-B)o=-1.085,
+  E(B-V)=0.530, Av=1.716. There is no hint from the literature that AE
+  Aur is binary - indeed it is a famous runaway star, and has a very
+  well-defined RV for an O-type star (+56.7+-0.7 km/s; Kharchenko07).
+  I adopt "O9.5V" based on JM53 and Walborn papers.
+
+  Teffs: 31057+-1696K(Koleva12), 31382K(U-Bo=>Bessell98),
+  32750+-1000K(Fitzpatrick07), 34745K(Prugniel#3),
+  34781K(Prugniel07#2), 34900K(Snow94), 36000K(Prugniel07#1),
+  36210K(Prugniel07#4), 35994K(Prugniel07#5) => median Teff =
+  34840K. log(g) = 3.54(Koleva12), 4.02(Prugniel07).
+
+# Secondary Standard
+
+HD 93027 = TYC 8957-482-1 (J1043-6008)
+ *O9.5V: Jaschek78(Walborn72),Walborn73,Walborn90(stan)
+  O9.5IV: Levato81
+  O9V: Massey01
+  B3: Cannon,Houk75
+
+  M91: V=8.720+-0.000, B-V=-0.015+-0.019, U-B=-0.875+-0.019 => revised
+  Q-method calibration (10/8/2011) => (B-V)o=-0.305, (U-B)o=-1.083,
+  E(B-V)=0.290, Av=0.935. Adopt "O9.5V" from Walborn90. Not in HIP,
+  but in Tycho. In Carina region, in Collinder 228 (D = 2201 pc,
+  Dias+2001 catalog). For this distance, Mv ~ -3.93, logL ~
+  4.66. Teffs: 31236K(U-Bo=>Bessell98), 31500K(Povich11) => median
+  Teff= 31368K. I've only considered this a secondary standard since
+  it did not have use as a O9.5V standard before Walborn's papers.
+
+# Deprecated Standard 
+
+HD 37468 = sig Ori = HR 1931
+  O9.5V: Houk,MK43,Sharpless52,JM53,Jaschek64(all),Lesh68,MK73,Bisiachhi82,Garcia89,Houk99(Garrison),Zorec09
+  O9.5V SB: Morgan55
+  O9V+B0.5V: Edwards76
+  B0: Cannon
+
+  M91: V=3.795+-0.021, B-V=-0.241+-0.008, U-B=-1.022+-0.013 => updated
+  Q-method calibration (10/8/2011) => (B-V)o=-0.299, (U-B)o=-1.064,
+  E(B-V)=0.058, Av=0.187. Spectroscopic binary. 0".7 away. Adopt
+  "O9.5V" from MK43, JM53, and MK73. I can't find a Walborn
+  classification. Unfortunately the companion is bright enough to make
+  an effect (Edwards76 called it O9V+B0.5V!). logN_NI = 20.52+-0.09
+  (Bohlin85), 20.56+-0.07 (Schull85), adopt logNH = 20.54. Then
+  adopting Savage & Mathis (1979) logNH/E(B-V) = 4.8e21
+  atoms/cm^2/mag, then E(B-V) = 0.072.  Then (B-V)o = (B-V) - E(B-V) =
+  -0.241 - 0.072 = -0.313, and (U-B)o = (U-B) - 0.72*E(B-V) = -1.022 -
+  0.72*0.060 = -1.074. Teffs: 29939K(U-Bo=>Bessell98), 31270+-2130K(Zorec09) =>
+  median Teff = 30605K. 
+
+# Other Stars
+
+Lesh68 classified four stars as O9.5V or variant: HD 34078, 37041,
+37468, 149757.
+
+Walborn72 classified two stars as O9.5V: HD 34078 & HD 93027.
+
+Mu Col = HD 38666 
+  O9.5V: Bidelman48, Morgan55, Buscombe69, Walborn73
+  O9.5IV: Hiltner69
+  O9V: Conti71, Conti74, Bisiacchi82
+  O8.5V: Bisiacchi76
+  B1IV/V: Houk
+
+  This star is of some significance as it has the bluest B-V in
+  Johnson 1966's compilation of UBV photometry, so it may be
+  instructive for estimating the intrinsic B-V colors of late O
+  stars. B-V = -0.281+-0.006 (Mermilliod91), B-V=-0.28 (Johnson66),
+  B-V = -0.274+-0.013 (HIP), U-B=-1.077+-0.064 (Mermilliod91), V =
+  5.169+-0.004 (Mermilliod91), V=5.18 (HIP), V-I = -0.30+-0.03
+  (HIP). Johnson66 does not list a U-B magnitude.  There are three
+  spectroscopic estimates of the hydrogen column density towards mu
+  Col from Lyman alpha absorption: logN_HI[cm^-2] = 19.90+-0.10
+  (York76), 20.04+-0.07 (Shull85), 19.85+-0.09 (Bohlin75). If we take
+  the median value (N_HI = 19.9 cm^-2), and the conversion from
+  N_(HI+H2)/E(B-V) from Savage & Mathis 1979 (5.8e21 atoms/cm^2; and
+  assuming negligble H2), I estimate E(B-V) = 0.0137 mag. This would
+  suggest that mu Col's intrinsic color is (B-V)o = (B-V)obs - E(B-V)
+  = -0.281 - 0.0137 = -0.295.  Combining Mermilliod91 averaged colors
+  with the updated Q-method calibration (10/8/2011), I estimate (B-V)o
+  = -0.310, (U-B)o = -1.102, E(B-V)=0.036, Av=0.116.

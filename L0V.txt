@@ -1,0 +1,48 @@
+L0V
+
+Hawley02 standard:  2MASS J0345+2540 
+
+Teff(L0V) = 2250 K 
+
+Rc-Ic(L0V)  = 1.895 ; 2M23101846-1759090 Liebert07
+
+<J-Ks>(L0V)  = 1.31  ; Faherty09
+(J-Ks)(L0V)  = 1.20 (+-0.17 rms) ; Schmidt14 
+
+(i-z)(L0V)   = 1.82 (+-0.10 rms) ; Schmidt14
+(i-J)(L0V)   = 4.22 (+-0.21 rms) ; Schmidt14
+(i-Ks)(L0V)  = 5.44 (+-0.29 rms) ; Schmidt14
+(z-J)(L0V)   = 2.37 (+-0.15 rms) ; Schmidt14
+(J-H)(L0V)   = 0.74 (+-0.16 rms) ; Schmidt14
+(H-Ks)(L0V)  = 0.46 (+-0.16 rms) ; Schmidt
+(Ks-W1)(L0V) = 0.32 (+-0.14 rms) ; Schmidt14
+(W1-W2)(L0V) = 0.27 (+-0.07 rms) ; Schmidt14
+(W2-W3)(L0V) = 0.44 (+-0.11 rms) ; Schmidt14
+
+BC_K(L0V)    = 3.205 mag ; Golimowksi04
+BC_Ks(L0V)   = 3.26  mag ; Schmidt14 (rms = 0.15) 
+
+# Examples
+
+2M_0345+2540
+   L0V: Hawley02(stan)
+
+   V=22.01+-0.08(Dahn02), K=12.62+-0.02(Dahn02), V-K=9.39.
+
+# Trends
+
+I fit the following rough linear trend in V-K vs. spectral type using
+VK photometry from Dahn02 (bracketed to V-K colors for M8 and M9
+dwarfs):
+
+V-K = 9.2680143e0 + 2.9292857*(SpT_Ltype)
+
+Where M9=-1, L0=0. Range M8 to L3. 
+L0:   V-K=9.27
+L0.5: V-K=9.41
+L1:   V-K=9.56
+L1.5: V-K=9.71
+L2:   V-K=9.85
+L2.5: V-K=10.00 
+L3:   V-K=10.15
+Should round these to ~0.1 mag precision. 
