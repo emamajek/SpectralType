@@ -2,92 +2,172 @@ O3V
 
 There are no O3V anchor (Garrison94) or dagger (MK73) standards.
 
-HDE 303308 *used to be* the O3V primary standard, but
-it appears now that HD 64568 is. 
-
 Walborn90 standard:  HDE 303308 O3V((f))
 Walborn02 standards: HD 64568 O3V((f*)), LH 10-3058 O3V((f*))
+Sota11 standard:     HD 64568 
+
+HD 64568 is the only O3V dwarf in the Sota14 GOSSS (Galactic O-Star Spectroscopic Survey ; Vizier /III/274/main), the only O3V star and earliest dwarf subtype in Holgado20.
+
+Walborn71 defined O3 from 4 Carina Nebula stars.
+Walborn82 discusses the O3 class in detail.
+Walborn02 further bifurcates O3 into O2 and O3.5 also, and states "HD 64568 and LH 10-3058 now redefine spectral type O3 V((f*))."
+
+Walborn02 also lists Sk-71_51, P1163, P1311, & ST_5-52 as examples of O3V((f*))
 
 Skiff08 does not flag any stars as O3V standards.
 
-B-V(O3V)  = -0.28     ; Martins06
-=> adopt B-V(O3V) = -0.308 [using EEM U-B/B-V fit, and U-B=-1.16]
+B-V(O3V)  = -0.28  ; Martins06
+B-V(O3V)  = -0.330 ; pri. stan. HD 64568 (Q-method)
+B-V(O3V)  = -0.331 ; U-B=-1.18 from trend/Q-method
+=> adopt (B-V)(O3V) = -0.33 [updated 2/7/2020]
 
 U-B(O3V)  = -1.16 ; Martins06
+U-B(O3V)  = -1.178 ; pri. stan. HD 64568 (Q-method)
 U-B(O3V)  = -1.22 ; Bessell98
 U-B(O3V)  = -1.22 ; Schmidt-Kaler82
-=> adopt U-B(O3V) = -1.16 
+=> adopt (U-B)(O3V) = -1.175 [updated 2/7/2020]
 
-Teff(O3V) =  52500 K   ; Schmidt-Kaler82
-Teff(O3V) =  50000 K   ; Bessell98
-Teff(O3V) =  50000 K   ; Crowther97/Fig.3 
-Teff(O3V) = 46500 K   ; Massey05(Milky Way)
-Teff(O3V) = 46500 K   ; non-stan. HD 93128 (Repolust04)
-Teff(O3V) = 46000 K   ; non-stan. HD 93250 (Repolust04)
-Teff(O3V) = 44852 K   ; Martins05(Obs. scale), adopted by GrayCorbally09
-Teff(O3V) = 44616 K   ; Martins05(Theoretical scale)
-=> adopt Teff(O3V) = 46000 K (logTeff = 4.663)
+Teff(O3V) =   52500 K  ; Schmidt-Kaler82
+Teff(O3V) =   50000 K  ; Bessell98
+Teff(O3V) =   50000 K  ; Crowther97/Fig.3
+Teff(O3V) =  46500 K   ; Massey05(Milky Way)
+Teff(O3V) =   46500 K  ; non-stan. HD 93128 (Repolust04)
+Teff(O3V) =   46000 K  ; non-stan. HD 93250 (Repolust04)
+Teff(O3V) = 45900 K   ; pri. stan. HD 64568 (large scatter)
+Teff(O3V) =  44852 K   ; Martins05(Obs. scale), adopted by GrayCorbally09
+Teff(O3V) =  44616 K   ; Martins05(Theoretical scale)
+Teff(O3V) =  44520 K   ; Holgado18(extrapolation past O4V)
+=> adopt Teff(O3V) = 44900 K (logTeff = 4.652) [updated 2/9/2020]
+=> adopt Teff(O3V) = 45900 K (logTeff = 4.662) [updated 11/15/2022]
 
-Mv(O3V)   = -6.14 mag ; non-stan. HD 93250 (Repolust04)
-Mv(O3V)   = -6.0  mag ; Schmidt-Kaler82
-Mv(O3V)   = -5.79 mag ; Martins05
-Mv(O3V)   = -5.7+-0.2 mag ; Walborn02 (n=7 O2-O3V((f*)) stars
+
+Mv(O3V)   =  -6.14 mag ; non-stan. HD 93250 (Repolust04)
+Mv(O3V)   =  -6.0  mag ; Schmidt-Kaler82
+Mv(O3V)   = -5.86 mag ; Martins06/obs.scale
+Mv(O3V)   = -5.85 mag ; Martins06/theor.scale
+Mv(O3V)   = -5.80 mag ; Bowen08
+Mv(O3V)   = -5.79 mag ; Martins05 (stdev=0.4 mag)
+Mv(O3V)   = -5.767 mag ; EEM trend for O dwarfs
+Mv(O3V)   = -5.7 +-0.2 mag ; Walborn02 (n=7 O2-O3V((f*)) stars
+Mv(O3V)   = -5.688 mag ; EEM trend for O dwarfs logL=5.784, BCv=-4.03
 Mv(O3V)   = -5.65 mag ; Russeil03
 Mv(O3V)   = -5.6  mag ; GrayCorbally09
-Mv(O3V)   = -5.24 mag ; non-stan. HD 93128 (Repolust04)
-=> adopt Mv(O3V) = -5.7 mag 
+Mv(O3V)   = -5.26+-0.17 mag ; pri. stan. HD 64568 (seems significantly fainter than trend?)
+=> adopt Mv(O3V) = -5.8 mag [updated 2/7/2020]
 
 BCv(O3V)  =  -4.62  mag ; Schmidt-Kaler82(BCv=-4.75 + 0.13 offset)
-BCv(O3V)  =  -4.386 mag ; Flower96(Teff=46000K)
-BCv(O3V)  = -4.093 mag ; LanzHubeny03(Teff=46000K,Z/Zsun=1)
-BCv(O3V)  = -4.05  mag ; Martins05(Obs. scale)
-BCv(O3V)  = -4.03  mag ; Martins05(Theoretical scale)
-BCv(O3V)  =  -3.726 mag ; Balona94(Teff=46000K)
-=> adopt BCv(O3V) = -4.05 mag 
+BCv(O3V)  =  -4.290 mag ; Flower96(Teff=44900K,set so BCv(5772K)=-0.085)
+BCv(O3V)  = -4.156 mag ; Chen19 PARSEC Teff=44900K,solar,logg=3.75
+BCv(O3V)  = -4.05  mag ; Martins05(obs.scale)
+BCv(O3V)  = -4.03  mag ; Martins05(theor.scale)
+BCv(O3V)  = -4.013 mag ; LanzHubeny03(Teff=44900K,Z/Zsun=1)
+BCv(O3V)  = -3.99  mag ; Martins06(obs.scale)
+BCv(O3V)  = -3.97  mag ; Martins06(theor.scale)
+BCv(O3V)  =  -3.664 mag ; Balona94(Teff=44900K,set so BCv(5772K)=-0.085]
+=> adopt BCv(O3V) = -4.01 [updated 2/9/2020]
 
-logL(O3V) =  5.66 dex ; non-stan. HD 93128 (Repolust04)
-logL(O3V) =  5.80 dex ; Mv=-5.7, BCv=-4.05
-logL(O3V) =  6.01 dex ; non-stan. HD 93250 (Repolust04)
-=> adopt logL(O3V) = 5.80 dex
-=> adopt Mbol(O3V) = -9.75 mag
+logL(O3V) =  5.66  dex ; non-stan. HD 93128 (Repolust04)
+logL(O3V) =  5.784 dex ; EEM trend for O dwarfs
+logL(O3V) =  5.820 dex ; Mv=-5.8, BCv=-4.01, Mbol=-9.810
+logL(O3V) =  5.834 dex ; Martins05
+logL(O3V) =  6.01  dex ; non-stan. HD 93250 (Repolust04)
+=> adopt logL(O3V) =  5.820 dex [updated 2/9/2020]
+=> adopt Mbol(O3V) = -9.810 mag [updated 2/9/2020]
 
-logg(O3V) = 4.00 dex ; non-stan. HD 93128 (Repolust04)
-logg(O3V) = 3.95 dex ; non-stan. HD 93250 (Repolust04) 
-=> adopt logg(O3V) ~ 4.0 
+logg(O3V) =  4.00 dex ; non-stan. HD 93128 (Repolust04)
+logg(O3V) =  3.95 dex ; non-stan. HD 93250 (Repolust04)
+logg(O3V) =  3.921+-0.15 (stdev) ; Martins05
+logg(O3V) = 3.92 ; pri. stan. HD 64568 (see below)
+logg(O3V) =  3.75 dex ; Holgardo18
+=> adopt logg(O3V) = 3.9 dex [updated 11/15/2022]
+
+Rad(O3V) = 15.9   Rsun ; HD93250/Repolust04
+Rad(O3V) = 13.687 Rsun ; Martins05 (Teff=44853K,logL=5.834)
+Rad(O3V) = 13.4326 Rsun ; Teff=44900, logL=5.820
+Rad(O3V) = 10.4   Rsun ; HD93128/Repolust04
+=> adopt Rad(O3V) = 13.433 Rsun [updated 2/9/2020]
+
+Mass(O3V) =  56.0+-4.0 Msun ; HD93205A Weidner10
+Mass(O3V) = 57.95 Msun      ; Martins05/obs. Teff scale 
+Mass(O3V) = 58.34 Msun      ; Martins05/theo. Teff scale
+Mass(O3V) = 59.0 Msun       ; MIST/Choi16 solar tracks for logT=4.652,logL=5.82
+Mass(O3V) =  65+8-7 Msun    ; Weidner10
+=> adopt Mass(O3V) = 59 Msun [updated 4/16/2022]
 
 # No Standards
 
 MK78 and Keenan85 does not list an O3V standard (or earlier; only O4V and later).
 
 # Primary Standards
-HD 64568
+
+HD 64568 = NGC 2467 77 = HD 64568a
   O3V(f*): Walborn82
-  O3V((f*)): Walborn02
+  O3V((f*)): Walborn02,Markova11
+ *O3V((f*))z: Soto14,Holgado20("weak He I lines")
   O4((f)): Garrison77
   O5:: MacConnell76
   O5: Crampton71,Loden65
   O5/6: Houk88
-  Star was consistently called O3V (variant) by Walborn82 and Walborn02.
-
+  
+  Star in NGC 2467 region, apparently ejected from Haffner 18 cluster
+  - with HD 64315AB [O5.5Vz+O7V; 1262" away] ejected in the opposite
+  direction (Maiz-Appelaniz18).  Consistently classified O3V (variant)
+  by Walborn82 and Walborn02, and is the only O3V (or variant) in
+  Soto14 GOSSS survey.  Appears to be binary and is referred to as HD
+  64568a in Markova18.  V=9.397+-0.018(Mermilliod91),
+  V=9.380+-0.006(Hauck97), B-V=0.071+-0.020(Mermilliod91),
+  U-B=-0.895+-0.029(Mermilliod91). G=9.312+-0.003(GaiaEDR3).  G-V =
+  9.312 - 9.397 = -0.085 (ignoring extinction).  V-I=0.07+-0.00(HIP)
+  [estimate; but does not appear to be Cousins Ic reported anywhere].
+  QBV method by EEM => (B-V)o=-0.330, (U-B)o=-1.178, E(B-V)=0.401,
+  Av=1.294.  Dereddening Paunzen15 ubvy\beta photometry => using
+  Castelli91: (b-y)0=-0.128, c0=-0.190, E(b-y)=0.261, Av=1.101 =>
+  using Shobbrook83: (b-y)0=-0.130, c0=-0.190, E(b-y)=0.263, Av=1.153.
+  It appears that (b-y)0 doesn't vary much between ~O3V and ~O7.5V,
+  and is not useful for Teff estimates in this regime.
+  MaizAppelaniz18 estimates Av=1.388+-0.018 and monochromatic
+  reddneing E(4405-5495) = 0.373+-0.007 and which traces E(B-V) very
+  well in this regime for hot stars (Fig.5 of MaizAppelaniz18).
+  Reddening estimates: E(B-V)=0.32+-0.02(Bowen08),
+  E(B-V)=0.355(Hauck97 ubvy\beta dered using Castelli91,
+  E(B-V)=Av/3.1), E(B-V)=0.3601+-0.0686(Stassun19/TIC),
+  E(B-V)=0.37(Savage85), E(B-V)=0.372(Hauck97 ubvy\beta dered using
+  Shobbrook83, E(B-V)=Av/3.1), E(B-V)~E(4405-5495)=0.373+-0.007,
+  E(B-V)=0.38(Friedemann92), E(B-V)=0.40(Heiles00), E(B-V)=0.401(see
+  previous UBV estimate) => Adopt the values from MaizApellaniz18:
+  0.373+-0.007, Av=1.388+-0.018, which is consistent with the other
+  estimates.  plx=0.1367+-0.0386mas(GaiaDR2).
+  plx=0.2241+-0.0177mas(GaiaEDR3); note that cluster Haffner_19 has
+  plx=0.169+-0.010mas(Cantat-Gaudin20),
+  plx=0.236+-0.011mas(MaizAppelaniz18).  Adopt plx=0.2241+-0.0177mas
+  from GaiaEDR3, consistent with Haffner_18 group parallax from
+  MaizApellaniz18 => Mv=-5.26+-0.17 [previously I had used
+  Mv=-6.22+-0.61!]  Teffs: 41000+-2000K(Garcia04),
+  44900+-1700K(Williams11), 46900+-1000K(Holgado20),
+  48000+-15000K(Markova18) => <Teff> = 45900K(large scatter).  loggs:
+  3.9+-0.2(Garcia04), 3.91+-0.08(William11), 3.93+-0.06(Holgado20),
+  4.00+-0.10(Markova18) => <logg> = 3.92.  Rad=11.5Rsun(Markova18).
+  logL=5.80(Markova18).  plx=0.2241+-0.0177(GaiaEDR3).  V=9.397,
+  plx=0.2241mas, Av=1.294 => Mv=-5.15+-0.17.
+  
 # Secondary Standard
+
 LH 10-3058 
   O3V((f*)): Walborn02
 
-# Weak Standard
+# Deprecated Standard
+
 HDE 303308 = Cl* Trumpler 16 MJ 480
   O3V: Walborn71, Garmany82(Humphreys78),
   O3V((f)): Walborn73,Walborn90,Massey93
   O3: Conti77
+  O4V((f)): Alexander16(near 4100A)
+  O4V((f+)): Walborn02
+  O4V((fc)): Walborn10
+ *O4.5V((fc)): Sota14
   O5: Vijapurkar93
-  O3V((f+)): Walborn04
-  Walborn02 redefined this star from an O3V
-  to a primary O4V standard!
+  O5/6V: Alexander16(near 4400A)
 
-# Others
-Walborn02 also lists Sk-71_51, P1163, P1311, & ST_5-52
-as examples of O3V((f*))
-
-Walborn71 defined O3 from 4 Carina Nebula stars.
-Walborn82 discusses the O3 class in detail.
-Walborn02 further bifurcates O3 into O2 and O3.5 also.
-
+  Walborn02 redefined this star from an O3V standard (Walborn73,Walborn90) 
+  to a primary O4V standard (Walborn02).
+  

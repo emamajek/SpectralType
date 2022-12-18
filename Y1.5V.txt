@@ -1,0 +1,29 @@
+Y1.5V
+
+Teff(Y1.5V) ~  300 K ; WISE J1828+2650 Dupuy13 #9
+Teff(Y1.5V) ~  325 K ; Leggett15*
+Teff(Y1.5V) = 326 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(Y1.5V) =  342 K ; interp Y1V(360K)-Y4V(250K)
+=> adopt Teff(Y1.5V) = 325 K (logT=2.512) [updated 2/2/2021]
+
+M_J(MKO)(Y1V)   = 22.7  ; Y1V adopted
+M_J(MKO)(Y1.5V) = 23.15 ; halfway Y1V-Y2V
+M_J(MKO)(Y2V)   = 23.6  ; Y2V adopted
+M_J(MKO)(Y1.5V) ~ 25    ; Leggett15 Fig. 3 (eyeball trend)
+=> adopt M_J(MKO)(Y1.5V) = 23.2 [updated 12/2/2020]
+
+M_Ks(Y1.5V) = 22.87 ; interp Y0V-Y2V
+=> adopt M_Ks(Y1.5V) = 22.9 [updated 12/5/2020]
+
+W1-W2(Y1.5V) = 4.41 ; Kirkpatrick19 polynomial
+
+
+# Standards
+
+Y1.5 "standard" (if it could be called that yet?)
+WISE J182831.08+265037.7
+  Y1.5: Leggett15
+  >=Y2: Beichman14
+  
+  * "The binary explanation of W1828 [only Y1.5 in Leggett15] would
+  imply that it consists of a pair of 300 < Teff K < 350 brown dwarfs."

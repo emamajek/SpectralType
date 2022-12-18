@@ -1,14 +1,22 @@
 M9V
 
 Kirkpatrick(in GrayCorbally09) call LHS 2924 the primary M9V standard.
+The early samples of M9Vs in Kirkpatrick95 include LHS 2065, BRI
+1222-1222, LHS 2924, TVLM 868-110639.
 
-HenryKirkpatrick90:          LHS 2924 - M9V 
-Kirkpatrick91:               LHS 2924 - M9V (primary standard)
+Boeshaar85 standard:         LHS 2924 - M9V 
+HenryKirkpatrick90 standard: LHS 2924 - M9V 
+Kirkpatrick91 standards:     LHS 2924 - M9V (primary standard)
 		             LHS 2065 - M9V (secondary standard)
-Kirkpatrick97:               LHS 2065 - M9V
-Hawley02 standard:           2MASS J0251+2521 - M9V 
-Henry04:                     LP 944-020 - M9.0V (primary standard)
+Kirkpatrick97 standard:      LHS 2065 - M9V
+Kirkpatrick99 standard:      2MASSW J1239+2029 - M9V
+Hawley02 standard:           2MASS J0251+2521 - M9V
+Henry02 standard:	     LHS 2065 - M9V
+			     [Henry02 has LP 944-020 as ">M9V" standard] 
+Henry04 standard:            LP 944-020 - M9.0V (primary standard)
 Kirkpatrick(GrayCorbally09): LHS 2924 - M9V (primary standard)
+Kirkpatrick10 standard:      LHS 2924 - M9V (opt.,near-IR stan.)
+Kirkpatrick16 standard:	     LHS 2065 - M9V 
 
 Skiff08 does not flag any stars as M9V MK standards. 
 
@@ -18,122 +26,289 @@ ReinersBasri09 finds that the mean kinematic age of nearby M7-M9.5
 stars is 3.1 Gyr.
 
 (V-Rc)(M9V)    = 2.00  ; sec. stan. LHS 2065 (Bessell91)
-(V-Rc)(M9V)    = 2.34  ; non-standard TVLM 513-46546 
 
 (Rc-Ic)(M9V)   = 2.472 ; N=5 M9V *s in Liebert06 (+-0.023 sem, +-0.052 stdev) 
 => adopt (R-I)(M9V)  = 2.472
 => adopt (V-R)(M9V)  = 1.893 (from R-I=2.472 and V-I=4.37)
 [go through Henry04 Table 2 to get independent estimate]
 
-(V-Ic)(M9V)    = 4.36  ; sec. standard LHS 2065 
+(V-Ic)(M9V)    =  4.07  ; SSS2307-5009 (Dieterich14)
 (V-Ic)(M9V)    = 4.37  ; pri. standard LHS 2924 (see below)
-(V-Ic)(M9V)    = 4.398 ; non-standard BRI 0021-0214 (see below)
-(V-Ic)(M9V)    = 4.71  ; non-standard TVLM 513-46546
-=> adopt (V-Ic)(M9V) = 4.37  
+(V-Ic)(M9V)    = 4.398 ; exemplar BRI 0021-0214 (see below)
+(V-Ic)(M9V)    = 4.48  ; sec. standard LHS 2065 (Dieterich14)
+(V-Ic)(M9V)    =  4.61  ; 2MA1501+2250 (Dieterich14)
+(V-Ic)(M9V)    = 4.625 ; from color sequence for V-Ks=9.00
+(V-Ic)(M9V)    = 4.66  ; trend Dieterich14 SpT vs V-Ic
+(V-Ic)(M9V)    = 4.69  ; sec. stan. LP 944-20  
+(V-Ic)(M9V)    =  4.81  ; BRI1222-1222 (Dieterich14)
+(V-Ic)(M9V)    =  4.92  ; SSS2356-3426 (Dieterich14)
+(V-Ic)(M9V)    =  5.18  ; SIP2045-6332 (Dieterich14)
+=> adopt (V-Ic)(M9V) = 4.66 [updated 7/4/2020]
 
-(V-Ks)(M9V)    =  8.285 ; non-standard ESO 207-61 (Henry04)
-(V-Ks)(M9V)    =  8.836 ; pri. stan. LHS 2924
-(V-Ks)(M9V)    =  8.858 ; sec. stan. LHS 2065 
-(V-Ks)(M9V)    =  8.881 ; non-standard BRI 0021-0214 
+(B-V)(M9V)     = 2.17 ; linear fit to Leggett92 (B-V=0.8367+0.2852*V-I, V-I=4.66)
+=> adopt (B-V)(M9V) = 2.17 [updated 7/5/2020]
+
+(V-Ks)(M9V)    =  8.285 ; non-stan. ESO 207-61 (Henry04)
+(V-Ks)(M9V)    =  8.84  ; non-stan.  SSS2356-3426 
+(V-Ks)(M9V)    = 8.858  ; sec. stan. LHS 2065 
+(V-Ks)(M9V)    =  8.882 ; non-stan. LP 647-13
+(V-Ks)(M9V)    = 8.896  ; pri. stan. LHS 2924
+(V-Ks)(M9V)    =  8.92  ; non-stan. 2MA1501+2250 
 <V-K_CIT>(M9V) =   9.0  ; Beuermann06
-(V-Ks)(M9V)    =  9.16 ; non-stan. TVLM 513-46546
-(V-Ks)(M9V)    =  9.15 ; sec. stan. LP944-20 (Burgasser14)
-=> adopt (V-Ks)(M9V) = 8.85 ***
-=> adopt (V-J)(M9V)  = 7.702 
-=> adopt (V-H)(M9V)  = 8.389
-=> adopt (I-Ks)(M9V) = 4.482 
-=> adopt (J-Ks)(M9V) = 1.145
+(V-Ks)(M9V)    =  9.00  ; non-stan. RG0050-2722
+(V-Ks)(M9V)    =  9.06  ; non-stan. BRI1222-1222
+(V-Ks)(M9V)    =  9.07  ; trend fit to Dahn17 for M9V
+(V-Ks)(M9V)    =  9.08  ; non-stan. LHS4039C 
+(V-Ks)(M9V)    = 9.09   ; smoothed fit to Dieterich SpT vs V-Ks
+(V-Ks)(M9V)    =  9.12  ; non-stan. SSS2307-5009 
+(V-Ks)(M9V)    = 9.15   ; sec. stan. LP944-20 (Burgasser14)
+(V-Ks)(M9V)    =  9.271 ; non-stan. BRI 0021-0214
+(V-Ks)(M9V)    =  9.94  ; non-stan. SIP2045-6332
+=> adopt (V-Ks)(M9V) = 9.00  [updated 10/20/2019]
+=> adopt (V-J)(M9V)  = 7.702 [need to double check] 
+=> adopt (V-H)(M9V)  = 8.389 [need to double check] 
+=> adopt (I-Ks)(M9V) = 4.482 [need to double check] 
+=> adopt (J-Ks)(M9V) = 1.145 [need to double check]
 
-(J-H)(M9V)  = 0.749 ; EEM: 2MASS colors of 5 M9Vs in DwarfArchives 
-=> adopt (J-H)(M9V)  = 0.749
+(G-Ks)(M9V) =   5.760 ; exemplar BRI 1222-1222
+(G-Ks)(M9V) =  5.886  ; pri. stan. LHS 2924
+(G-Ks)(M9V) =   5.891 ; exemplar  TVLM 868-110639
+(G-Ks)(M9V) = 5.90   ; M_G=16.3, M_Ks=10.4 
+(G-Ks)(M9V) =  5.917  ; sec. stan. LP 944-20
+(G-Ks)(M9V) =   5.924 ; exemplar LP 647-13 
+(G-Ks)(M9V) =  5.967  ; sec. stan. LHS 2065
+=> adopt (G-Ks)(M9V) = 5.90 [updated 12/26/2020; M_G=16.30, M_Ks=10.40]
 
-(H-Ks)(M9V)    = 0.43 (+-0.16 rms) ; Schmidt14 [EEM: mean is much bluer than M9V standards]
+(J-H)(M9V)  =  0.68 (+-0.15 rms) ; Schmidt14
+(J-H)(M8.5V)=  0.69 ; adopted
+(J-H)(M9V)  =  0.70 (+-0.08 rms) ; West08
+(J-H)(M9V)  = 0.705 ; trend SIMBAD d<30pc M9Vs
+(J-H)(M9V)  = 0.723 (+-0.009 sem,+-0.024 stdev) ; N=9 M9V Cruz03
+(J-H)(M9V)  = 0.749 ; EEM: 2MASS colors of 5 M9Vs in DwarfArchives
+(J-H)(M9.5V)=  0.75 ; adopted
+=> adopt (J-H)(M9V) = 0.72 [updated 8/6/2020]
+
 (H-Ks)(M9V)    = 0.481 ; EEM: 2MASS colors of 5 M9Vs in DwarfArchives
-<H-K_CIT>(M9V) = 0.47 ; Beuermann06
-=> adopt (H-Ks)(M9V) = 0.481 
+(H-Ks)(M9V)    = 0.478 ; trend of Dieterich14 data for V-Ks=9.00
+<H-K_CIT>(M9V) = 0.47  ; Beuermann06
+(H-Ks)(M9V)    = 0.470(+-0.08 rms) ; trend SIMBAD d<30pc M9-L dwarfs
+(H-Ks)(M9V)    = 0.464(+-0.010 sem,+-0.029 stdev) ; N=9 M9V Cruz03
+(H-Ks)(M9V)    = 0.43 (+-0.16 rms) ; Schmidt14 [EEM: mean much bluer than M9V standards]
+(H-Ks)(M9V)    = 0.42 (+-0.06 rms) ; West08
+=> adopt (H-Ks)(M9V) = 0.47 [last updated 8/6/2020]
 
-(J-Ks)(M9V)    = 1.12 (+-0.17 rms) ; Schmidt14
 (J-Ks)(M9V)    = 1.230 ; EEM: 2MASS colors of 5 M9Vs in DwarfArchives
-<J-Ks>(M9V)    = 1.20  ; Faherty09
+(J-Ks)(M9V)    = 1.20  ; Faherty09
+(J-Ks)(M9V)    = 1.191 (+-0.013 sem,+-0.034 stdev) ; N=9 M9V Cruz03
+(J-Ks)(M9V)    = 1.12 (+-0.17 rms) ; Schmidt14
 <J-K_CIT>(M9V) = 1.12 ; Beuermann06
 
-(i-z)(M9V)   = 1.66 (+-0.14 rms) ; Schmidt14
+(r-i)(M9V)   = 1.901 (+-0.05 rms) ; West05 fit for (V-Ic)=4.66
+(r-i)(M9V)   = 2.81  (+-0.21 rms) ; West08
+
 (i-J)(M9V)   = 3.79 (+-0.29 rms) ; Schmidt14
+
 (i-Ks)(M9V)  = 4.91 (+-0.35 rms) ; Schmidt14
-(z-J)(M9V)   = 2.14 (+-0.17 rms) ; Schmidt14
-(J-H)(M9V)   = 0.68 (+-0.15 rms) ; Schmidt14
+
+(i-z)(M9V)   = 1.818 ; poly fit to d<75pc SIMBAD M dwarfs for G-Ks=5.90
+(i-z)(M9V)   = 1.76 (+-0.08 rms) ; West08
+(i-z)(M9V)   = 1.66 (+-0.14 rms) ; Schmidt14
+=> adopt (i-z)(M9V) = 1.82 [updated 12/27/2021]
+
+(z-J)(M9V)   = 2.360 (+-0.053 rms) ; poly fit to d<50pc SIMBAD M dwarfs for G-Ks=5.90
+(z-J)(M9V)   = 2.25  (+-0.09 rms)  ; West08 
+(z-J)(M9V)   = 2.14  (+-0.17 rms)  ; Schmidt14
+=> adopt (z-J)(M9V) = 2.36 [updated 12/27/2021]
+
 (Ks-L')(M9V) = 0.441  	         ; Dupuy12 polynomial
+
 (Ks-W1)(M9V) = 0.25 (+-0.25 rms) ; Schmidt14
+(Ks-W1)(M9V) = 0.313 ; pri. stan. LHS2924/WISE
+(Ks-W1)(M9V) = 0.316 ; pri. stan. LHS2924/allWISE
+(Ks-W1)(M9V) = 0.318 ; sec. stan. LHS2065/allWISE
+(Ks-W1)(M9V) = 0.323 ; Dupuy12 trend 
+(Ks-W1)(M9V) = 0.327 ; sec. stan. LHS2065/WISE
+(Ks-W1)(M9V) = 0.339 ; fit to Winters15 data for V-Ks=9.0
+(Ks-W1)(M9V) = 0.342 ; Dupuy12 median (N=6, d<60pc)
+(Ks-W1)(M9V) = 0.363 ; Avenhaus12 for V-Ks=9.0
+=> adopt (Ks-W1)(M9V) = 0.33 [updated 12/28/2019]
+
+
 (W1-W2)(M9V) = 0.24 (+-0.27 rms) ; Schmidt14
 (W2-W3)(M9V) = 0.42 (+-0.16 rms) ; Schmidt14
 
-Mv(M9V) = 19.30 ; sec. stan. LHS 2065 (Burgasser14)
-Mv(M9V) = 19.36 ; non-stan LP 647-13 (Burgasser14)
-Mv(M9V) = 19.36 ; <M_Ks> + <V-Ks> = 10.51 + 8.85
-Mv(M9V) = 19.37 ; pri. stan. LHS 2924
-Mv(M9V) = 19.66 ; sec. stan. LP 944-20 (Burgasser14)
-=> adopt Mv(M9V) = 19.36 mag
+(Bp-Rp)(M9V) =  4.48  ; Kiman19 
+(Bp-Rp)(M9V) = 4.7495 ; LHS_2065  sec. stan.
+(Bp-Rp)(M9V) = 4.7679 ; LHS_2924  pri. stan.
+(Bp-Rp)(M9V) = 4.7890 ; LP_647-13 ter. stan.
+(Bp-Rp)(M9V) = 5.0466 ; LP_944-20 sec. stan.
+(Bp-Rp)(M9V) = 5.0596 ;  2MASS_J03341218-4953322  M9V
+(Bp-Rp)(M9V) = 5.1039 ;  2MASS_J11592743-5247188  M9Ve
+=> adopt (Bp-Rp)(M9V) = 4.78 [updated 11/18/2020]
 
-M_Ks(M9V) = 10.24 ; Dupuy12 polynomial
-M_Ks(M9V) = 10.30 ; pri. stan. LHS 2065 (Burgasser14) 
-M_Ks(M9V) = 10.44 ; non-stan. 1RXS J1159-5247 (Bugasser14)
-M_Ks(M9V) = 10.51 ; sec. stan. LP 944-20
-M_Ks(M9V) = 10.52 ; non-stan LP 647-13 (Bugasser14)
-M_Ks(M9V) = 10.53 ; pri. stan. LHS2924
-M_Ks(M9V) = 10.57 ; Dupuy12 mean 
-M_Ks(M9V) = 10.80 ; non-stan LEHPM 1-3396 (Burgasser14)
-=> adopt M_Ks(M9V) = 10.51 mag ***
+(G-Rp)(M9V) = 1.5754 ; LHS_2065  sec. stan.
+(G-Rp)(M9V) = 1.5817 ; LP_647-13 ter. stan.
+(G-Rp)(M9V) = 1.5922 ; LP_944-20 sec. stan. 
+(G-Rp)(M9V) = 1.5932 ; LHS_2924  pri. stan.
+(G-Rp)(M9V) = 1.595  ; M6.5-L2 color trend 
+(G-Rp)(M9V) =  1.6012 ; 2MASS_J03341218-4953322  M9V
+(G-Rp)(M9V) =  1.6090 ; 2MASS_J11592743-5247188  M9Ve
+(G-Rp)(M9V) =  1.619  ; Reyle18 polynomial
+(G-Rp)(M9V) =   1.63  ; Kiman19 
+=> adopt (G-Rp)(M9V) = 1.595 [updated 11/18/2020]
+=> adopt (Bp-G)(M9V) = 3.185 [updated 11/18/2020; Bp-Rp=4.78, G-Rp=1.59]
+
+(Bp-G)(M9V) = 3.1741 ; LHS_2065 
+(Bp-G)(M9V) = 3.1747 ; LHS_2924 
+(Bp-G)(M9V) = 3.2072 ; LP_647-13 
+(Bp-G)(M9V) = 3.4544 ; LP_944-20
+
+(G-V)(M9V) = -3.2346 ; sec. stan. LP_944-20
+(G-V)(M9V) =  -3.07   ; trinomial fit through late Ms
+(G-V)(M9V) = -3.0313 ; sec. stan. LHS_2065
+(G-V)(M9V) =  -2.971  ; median M9V d<60pc (N=9) in SIMBAD (likely biased blue?)
+(G-V)(M9V) = -2.9585 ; ter. stan. LP_647-13  
+(G-V)(M9V) = -2.9501 ; pri. stan. LHS_2924
+=> adopt (G-V)(M9V) = -3.00 [updated 12/26/2020]
+
+M_G(M9V)    =   15.26  ; Kiman19 
+M_G(M9V)    =   15.543 ; Reyle18 polynomial
+M_G(M9V)    =   15.58  ; SSSPM J1444-2019 (sdM9)
+M_G(M9V)    =   15.80  ; trend for late Ms & early Ls within 20pc
+M_G(M9V)    =  15.93   ; exemplar BRI 1222-1222
+M_G(M9V)    =  15.96   ; exemplar TVLM 868-110639
+M_G(M9V)    =   16.09  ; Smart19 (N=17; rms=0.36)
+M_G(M9V)    =   16.12  ; LEHPM 3396 (DENIS J033411.3-495333)
+M_G(M9V)    =  16.13   ; median among nearest 10 M9Vs in SIMBAD
+M_G(M9V)    =   16.15  ; 2MASS J11592743-5247188 (1RXS_J115928.5-524717)
+M_G(M9V)    = 16.20   ; trend SIMBAD d<10pc sample
+M_G(M9V)    = 16.22   ; sec. stan. LHS 2065 = LP 666-9
+M_G(M9V)    =  16.23   ; exemplar LP 647-13
+M_G(M9V)    = 16.30   ; (G-Ks)=5.9, M_Ks=10.4 
+M_G(M9V)    =   16.32  ; 2MASS J16154245+0546400
+M_G(M9V)    = 16.43   ; sec. stan. LP 944-20 
+M_G(M9V)    = 16.43   ; pri. stan. LHS 2924 = LP 271-25
+M_G(M9V)    =   16.59  ; ** BUG 5A
+=> adopt M_G(M9V) = 16.30 [updated 12/27/2021]
+
+[EEM 12/26/2020: trend for standards & exemplars:
+M_G = 4.8745 + 1.09861*M_K => G-Ks = 4.8745 + 0.0986*M_K
+
+M_J(M9V)    = 11.124 ; Reyle18 polynomial
+M_H(M9V)    = 10.413 ; Reyle18 polynomial
+M_Ks(M9V)   =  9.949 ; Reyle18 polynomial
+
+(G-J)(M9V)  =  4.575 ; Reyle18 polynomial
+(J-Ks)(M9V) =  1.133 ; Reyle18 polynomial
+
+Mv(M9V) = 19.15  ; sec. stan. LHS 2065 (Burgasser14)
+Mv(M9V) = 19.19  ; exemplar LP 647-13 
+Mv(M9V) =  19.27  ; EEM fit for Mdwarfs for V-Ks=9.00 (rms=0.48)
+Mv(M9V) =  19.29 ; Kirkpatrick94
+Mv(M9V) =  19.33  ; Dieterich14 calibration for V-Ks=9.00 (rms=0.25)
+Mv(M9V) = 19.37  ; pri. stan. LHS 2924
+Mv(M9V) =  19.42  ; median Mv from Dieterich14 (N=9 M9V stars)
+Mv(M9V) = 19.66  ; sec. stan. LP 944-20 (Burgasser14)
+=> adopt Mv(M9V) = 19.4 mag [last updated 10/18/2019; M_Ks=10.40, V-Ks=9.00]
+
+M_Ks(M9V) =   10.05  ; V* DY Psc
+M_Ks(M9V) =  10.07   ; exemplar TVLM 868-110639
+M_Ks(M9V) =  10.17   ; exemplar BRI 1222-1222
+M_Ks(M9V) =  10.24   ; Dupuy12 polynomial
+M_Ks(M9V) =  10.25  ; sec. stan. LHS 2065 
+M_Ks(M9V) =   10.27 ; EEM fit to Dieterich14 for V-Ks=9.00
+M_Ks(M9V) =  10.30 ; exemplar LP 647-13
+M_Ks(M9V) =  10.33 ; Deiterich14 calibration for V-Ks=9.00
+M_Ks(M9V) =  10.38 ; median SIMBAD <60pc M9V N=4
+M_Ks(M9V) = 10.40  ; M_G=16.28, Mv=19.28
+M_Ks(M9V) =   10.44 ; 1RXS J115928.5-524717 (single classification)
+M_Ks(M9V) =  10.51  ; sec. stan. LP 944-20
+M_Ks(M9V) =  10.51  ; median M_Ks for Dieterich14 N=9 M9Vs
+M_Ks(M9V) =  10.54  ; pri. stan. LHS 2924 = LP 271-25
+M_Ks(M9V) =   10.57 ; Dupuy12 mean
+M_Ks(M9V) =   10.65 ; LEHPM 3396 (single M9 classification)                 
+M_Ks(M9V) =   10.86 ; SSSPM J1444-2019 (sdM9) [note brightest M9 in G, dimmest in K!]
+=> adopt M_Ks(M9V) = 10.40 mag [updated 12/26/2020; Mv=19.40, V-Ks=9.00]
+
+[EEM 12/26/2020: adopting M_Ks=10.4 =>trend=> M_G=16.28 => G-Ks=5.88, for G-V=-3.0 => Mv=19.28]
 
 Teff(M9V)  =   2578 K ; RojasAyala12(mean N=1 M9V stars)
+Teff(M9V)  =  2480 K ; Dupuy17(Lyon model scale)
+Teff(M9V)  =  2470 K ; Dupuy17(SaumonMarley08 scale)
 Teff(M9V)  = 2450 K ; pri. stan. LHS 2924 (recent median)
 Teff(M9V)  =   2438 K ; mean photometric Teff
-Teff(M9V)  = 2420 K ; sec. stan. LHS 2065 (recent median)
-Teff(M9V)  =  2396 K ; Golimowski04 
+Teff(M9V)  = 2400 K ; Rajpurohit18 N=1 M9V stars
+Teff(M9V)  = 2398 K ; median N=9 M9V Teffs from Dieterich14 ***
+Teff(M9V)  =   2396 K ; Golimowski04
+Teff(M9V)  = 2395 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(M9V)  = 2380 K ; empirical L-R relation, for logL=-3.520
+Teff(M9V)  = 2359 K ; sec. stan. LHS 2065 (recent median)
+Teff(M9V)  = 2300 K ; Cifuentes20 <Teff> for CARMENES M9V(N=7)
 Teff(M9V)  = 2281 K ; EEM N=25 Teffs
 Teff(M9V)  =  2123 K ; non. stan. LP 944-20 (median Teff)
-=> adopt Teff(M9V) = 2450 K (logT = 3.389)
+=> adopt Teff(M9V) = 2380 K (logT = 3.377) [updated 11/3/2019]
 
 BCv(M9V) = -4.867 mag ; EEM fit to Casagrande data for Teff=2350K
-BCv(M9V) = -5.687 mag ; BC_K = 3.16, V-K=8.847
-BCv(M9V) = -5.68  mag ; sec. stan. LHS 2065 (Leggett01)
-=> adopt BCv(M9V) = -5.687 mag
+BCv(M9V) = -5.641 mag ; sec. stan. LHS 2065 (Leggett01 using IAU2015 scale)
+BCv(M9V) = -5.86  mag ; BC_Ks = 3.14, V-Ks=9.00
+BCv(M9V) = -6.053 mag ; LP 944-20 (Leggett01 using IAU2015 scale)
+=> adopt BCv(M9V) = -5.86 mag [updated 11/3/2019; BC_Ks=3.14, V-Ks=9.00]
 
-BC_K(M9V) = 3.21+-0.07 ; sec. stan. LHS 2065 (Golimowski04)
-BC_K(M9V) = 3.18  mag ; sec. stan. LHS 2065 (Leggett01)
-BC_K(M9V) = 3.158 mag ; Leggett01 polynomial for I-K=4.482
-BC_K(M9V) = 3.149 mag ; Golimowki04(SpT function)
-BC_Ks(M9V)= 3.12  mag ; Schmidt14 (rms = 0.04)
-BC_K(M9V) = 3.103 mag ; Leggett01 polynomial for J-K=1.145
-=> adopt BC_K(M9V) = 3.16 mag 
+BC_K(M9V) =  3.21+-0.07 ; sec. stan. LHS 2065 (Golimowski04)
+BC_K(M9V) =  3.183 mag  ; non-stan. BRI 0021-0214 (Leggett01, IAU2015 scale)
+BC_K(M9V) = 3.158 mag  ; Leggett01 polynomial for I-K=4.482
+BC_K(M9V) = 3.157 mag  ; sec. stan. LHS 2065 (Leggett01, IAU2015 scale)
+BC_K(M9V) =  3.149 mag  ; Golimowki04(SpT function)
+BC_Ks(M9V)= 3.14  mag  ; interp M6V-L1V for V-Ks=9.00
+BC_Ks(M9V)= 3.12  mag  ; Schmidt14 (rms = 0.04)
+BC_K(M9V) = 3.103 mag  ; Leggett01 polynomial for J-K=1.145
+BC_Ks(M9V)= 3.099 mag  ; Filipazzo15 (field)
+BC_Ks(M9V)= 3.099 mag  ; sec. stan. LP 944-20 (Leggett01 on IAU2015 scale)
+=> adopt BC_K(M9V) = 3.14 mag [updated 11/3/2019]
 
 logL(M9V) =  -3.77 ; non-standard LP 944-20 (Leggett01)
-logL(M9V) = -3.566 ; M_Ks=10.51, BC_K=3.16 => Mbol = 13.67
+logL(M9V) = -3.542 ; median (N=9) logL for M9Vs from Dieterich14
+logL(M9V) = -3.520 ; M_Ks=10.40, BC_K=3.14 => Mbol = 13.540
 logL(M9V) =  -3.49+-0.02 ; sec. stan. LHS 2065 (Golimowski04)
 logL(M9V) =  -3.49 ; sec. stan. LHS 2065 (Leggett01)
-=> adopt logL(M9V) = -3.57 dex
-=> adopt Mbol(M9V) = 13.67 mag
+logL(M9V) =  -3.48 ; sec. stan. LHS 2065 (Pineda21)
+=> adopt logL(M9V) = -3.520 dex [updated 4/17/2020]
+=> adopt Mbol(M9V) = 13.540 mag [updated 4/17/2020]
 
-Mass(M9V) = 0.065 Msun ; M_Ks=10.41 => EEM fit to M_Ks vs. Mass data from Dupuy10
-=> adopt Mass(M9V) = 0.065 Msun 
+Mass(M9V) = 0.082 Msun  ; sec. stan. LHS 2065 (Pineda21)
+Mass(M9V) = 0.079+-0.020 Msun ; GJ 2005C (Benedict16)
+Mass(M9V) = 0.0787 Msun ; Mann18 calib for M_Ks=10.40
+=> adopt Mass(M9V) = 0.079 Msun [updated 11/3/2019]
+
+Rad(M9V) = 0.1001 Rsun ; median (N=9) M9V radius from Dieterich14
+Rad(M9V) = 0.1022 Rsun ; logL=-3.520, Teff=2380
+Rad(M9V) = 0.113+-0.006 Rsun ; sec. stan. LHS 2065 (Pineda21)
+=> adopt Rad(M9V) = 0.102 Rsun [updated 11/3/2019]
 
 # Primary Standard
 
-LHS 2924 = L 271-25 = GJ 3849 = NN 3849 (J1426+3324)
- *M9V: Boeshaar85(dM9),GiampapaLiebert86,HenryKirkpatrick90,Kirkpatrick91(pri),Kirkpatrick93,Boeshaar94(dM9),Hawley97(M9c),ReidGizis05(M9.0Ve),Kirkpatrick(GrayCorbally09)(pri),Kirkpatrick10
+LHS 2924 = LP 271-25 = GJ 3849 = NN 3849 = 2MASS J14284323+3310391
+ *M9V: Boeshaar85(dM9),GiampapaLiebert86,HenryKirkpatrick90,Kirkpatrick91(pri),Kirkpatrick93,Boeshaar94(dM9),Hawley97(M9c),ReidGizis05(M9.0Ve),Kirkpatrick(GrayCorbally09)(pri),Kirkpatrick10,Leggett10(M9+-0.5)
   M7V: Bessell91
   L0: Schmidt10
 
   Kirkpatrick91 calls LHS 2924 the primary M9 dwarf standard, and
   cites GiampapaLiebert86 and Boeshaar85. Discussed at length in
-  Probst & Liebert (1983, ApJ, 274, 245).
-  plx=90.8+-1.3(Dahn02,Monet92), V=19.58(Leggett92,Monet02),
-  V=19.58+-0.04(Dahn02), V=19.74(Bessell91,Gliese91,vanAltena95),
+  Probst & Liebert (1983, ApJ, 274, 245).  Dahn17 presents latest
+  greatest VI photometry: V=19.64+-0.05, Ic=15.21+-0.03.
+  plx=90.8+-1.3(Dahn02,Monet92), plx=90.9962+-0.1271mas(gaiaDR2),
+  G=16.6299+-0.0006(GaiaDR2), V=19.53(Lepine05),
+  V=19.58(Leggett92,Monet02), V=19.58+-0.04(Dahn02),
+  V=19.74(Bessell91,Gliese91,vanAltena95,Winters19),
   I=15.3(Bessell91), V-I=4.44(Bessell91),
   V-I=4.37(Monet92,Leggett92,Kirkpatrick95), K_CIT=10.67(Leggett92),
   (V-Ks)_CIT=8.91(Leggett92), K-L'(MKO)=0.65(Leggett92),
   J=11.990+-0.021(2MASS), H=11.225+-0.029(2MASS0,
-  K=10.744+-0.024(2MASS), (V-Ks)=8.836(Leggett92,2MASS),
-  Mv=19.37+-0.03(Leggett92, Dahn02),
+  Ks=10.744+-0.024(2MASS), WISE: W1=10.431+-0.023, W2=10.168+-0.020,
+  W3=9.677+-0.030.  allWISE: W1=10.428+-0.022, W2=10.162+-0.020,
+  W3=9.646+-0.036.  Ks-W1=0.313(WISE), Ks-W1=0.316(allWISE).
+  (V-Ic)=4.43, (V-Ks) = 19.64 - 10.744 = 8.896(Dahn17,2MASS).
+  Mv=19.37+-0.03(Leggett92, Dahn02), M_G=16.425+-0.003(GaiaDR2),
   M_Ks=10.534+-0.039(2MASS,Dahn02). LHS2924 is a JHK photometric
   standard for MKO system: J=11.885+-0.013(Leggett06),
   H=11.251+-0.010(Leggett06),
@@ -144,108 +319,149 @@ LHS 2924 = L 271-25 = GJ 3849 = NN 3849 (J1426+3324)
   2367K(Dahn02*), 2437K(Bessell93), 2450K(Basri00*),
   2492K(Rojas-Ayala12*), 2550K(Lyubchik12*,average),
   2600K(Pavlenko02*), 2625K(Kirkpatrick93). Recent average is ~2450K.
-   
+  (G-Ks)=5.886, M_G=16.425, M_Ks=10.539. 
+  
 # Secondary Standard
 
-LHS 2065 = GJ 3517 = 2MASS J08533619-0329321
- *M9V: Kirpatrick91(pri),Kirkpatrick97(stan),Leggett01,Henry02,Henry04,ReidGizis05(M9.0Ve),Leggett10,Kirkpatrick11
+LHS 2065 = GJ 3517 = LP 666-9 = 2MASS J08533619-0329321 = NLTT 20475
+ *M9V: Kirpatrick91(pri),Kirkpatrick97(stan),Leggett01,Henry02,Henry04,ReidGizis05(M9.0Ve),Leggett10,Kirkpatrick11,Kirkpatrick16(stan)
   M7Ve: Bessel91
 
-  Not listed in Hawley97,Reid04.  plx=117.3+-1.5
-  mas(Monet92,vanAltena95), V=18.80(Leggett92), V =
-  18.80+-0.03(Dahn02), V=18.74(Bessell91,Henry04),
+  Not listed in Hawley97,Reid04. plx=115.3036+-0.1132mas(GaiaDR2),
+  plx=117.3+-1.5 mas(Monet92,vanAltena95), G=15.9087+-0.0012(GaiaDR2),
+  V=18.80(Leggett92), V = 18.80+-0.03(Dahn02),
+  V=18.74(Bessell91,Henry04), V=18.94(Dieterich14),
   Rc=16.74(Bessell91,Henry04), V-R=2.00(Bessell91),
   Ic=14.54(Bessell91,Henry04),
   V-I=4.36(Leggett92,Monet92,Leggett01,Kirkpatrick95),
   V-I=4.20(Bessell91), I=14.44(Leggett01), K_CIT=9.98(Leggett92),
-  (V-Ks)_CIT=8.82(Leggett92), V-Ks = 8.80(Henry04), J=11.212+-0.026(2MASS),
-  H=10.469+-0.026(Leggett92), Ks=9.942+-0.024(2MASS),
-  (V-Ks)=8.858(Leggett92,2MASS), Mv=19.15+-0.03(Monet92),
-  M_Ks=10.288+-0.037(Monet92,2MASS).  BC_K = 3.18 (Leggett01). mbol =
-  13.12 (Leggett01), bolometric flux = 1.45e-13 W/m^2 (Leggett01). BCv
-  = BC_K - (V-K) = 3.18 - (18.80-9.94) = 3.18 - 8.86 = -5.68 (not both
-  BC_K and K mag are on UKIRT system, but cancel out). Patten06 lists
-  Spitzer IRAC photometry of [3.6] = 9.41+-0.02, [4.5]=9.39+-0.03,
-  [5.8]=9.22+-0.01, [8.0] = 9.13+-0.01.  Teffs: 2050K(Casagrande08),
-  2100K(Leggett01*), 2150K(Tinney93), 2250K(Irwin91),
-  2400K(Golimowski04*), 2420K(Gautier07*), 2441K(Dahn02*),
-  2453K(Bessell93), 2564K(RojasAyala12*) => recent median is
-  Teff=2420K.
+  (V-Ks)_CIT=8.82(Leggett92), V-Ks = 8.80(Henry04),
+  J=11.212+-0.026(2MASS), H=10.469+-0.026(Leggett92),
+  Ks=9.942+-0.024(2MASS).  WISE: W1=9.615+-0.024, W2=9.382+-0.020,
+  W3=8.928+-0.026.  AllWISE: W1=9.624+-0.023, W2=9.381+-0.020,
+  W3=8.967+-0.028.  (Ks-W1)=0.327(WISE), (Ks-W1)=0.318(allWISE).
+  (V-Ks)=8.858(Leggett92,2MASS), M_G=16.22(GaiaDR2),
+  Mv=19.15+-0.04(Monet92,Dahn02), M_Ks=10.288+-0.037(Monet92,2MASS).
+  BC_K = 3.18 (Leggett01). Leggett01: fbol = 1.45e-13 W/m^2 => mbol =
+  13.099 mag => BC_Ks = 13.099 - 9.942 = 3.157 => BCv = 13.099 - 18.74
+  = -5.641.  Patten06 lists Spitzer IRAC photometry of [3.6] =
+  9.41+-0.02, [4.5]=9.39+-0.03, [5.8]=9.22+-0.01, [8.0] = 9.13+-0.01.
+  Teffs: 2050K(Casagrande08), 2100K(Leggett01*), 2150K(Tinney93),
+  2250K(Irwin91), 2317+56-61K(Pineda21), 2400K(Golimowski04*),
+  2420K(Gautier07*), 2441K(Dahn02*), 2453K(Bessell93),
+  2564K(RojasAyala12*) => recent median is Teff=2359K.  (G-Ks)=5.967,
+  M_G=16.218, M_Ks=10.251.  Pineda21: Lum=(0.1271+-0.0007)e31 erg/s =>
+  0.000332Lsun => logL=-3.4788. Mass=0.082+-0.002Msun(Pineda21),
+  Rad=0.113+-0.006Rsun(Pineda21),
+  
 
 LP 944-20 = BRI 0337-3535
- *M9V: Tinney98,Kirkpatrick99(footnote#8),Kirkpatrick(unpub.,DwarfArchives),Henry04
+ *M9V: Tinney98,Kirkpatrick99(footnote#8),Kirkpatrick(unpub.,DwarfArchives),Leggett01,Geballe02,Henry04
   M9.5V: Reid04
 
-  But this seems way too low for an M9V. Leggett01 lists M-m=1.51,
-  I=14.16, I-J=3.48, J-H=0.70, H-K=0.45, K=9.53, K-L'=0.81 (JHKL' on
-  UKIRT-IRCAM3 system, I is Cousins).  
-  V=19.2:(Ribas03),
-  V=18.70+-0.026(Dieterich14), 
-  Rc=16.39+-0.007(Dieterich14),
-  Ic=14.01+-0.011(Dieterich14), 
-  Ic=14.16+-0.03(Dahn02,Leggett01), 
-  J=10.725+-0.021(2MASS),
-  J=10.700(Kirkpatrick97),
-  H=10.017+-0.021(2MASS), 
-  H=10.030(Kirkpatrick97),
-  K=9.52+-0.03(Dahn02),
-  K=9.52(Kirkpatrick97), 
-  K=9.58(Tinney96), 
-  Ks=9.548+-0.023(2MASS), 
-  J-H=0.70+-0.04(Dahn02),
-  H-K=0.50+-0.04(Dahn02). 
+  155.7590+-0.0991mas(GaiaDR2), G=15.4654+-0.0009(GaiaDR2) => M_G =
+  16.428+-0.002.  Leggett01 lists M-m=1.51, I=14.16, I-J=3.48,
+  J-H=0.70, H-K=0.45, K=9.53, K-L'=0.81 (JHKL' on UKIRT-IRCAM3 system,
+  I is Cousins).  V=19.2:(Ribas03), V=18.70+-0.026(Dieterich14),
+  Rc=16.39+-0.007(Dieterich14), Ic=14.01+-0.011(Dieterich14),
+  V-Ic=4.69(Dieterich14), Ic=14.16+-0.03(Dahn02,Leggett01),
+  J=10.725+-0.021(2MASS), J=10.700(Kirkpatrick97),
+  H=10.017+-0.021(2MASS), H=10.030(Kirkpatrick97),
+  K=9.52+-0.03(Dahn02), K=9.52(Kirkpatrick97), K=9.58(Tinney96),
+  Ks=9.548+-0.023(2MASS), J-H=0.70+-0.04(Dahn02),
+  H-K=0.50+-0.04(Dahn02).  Plx=201.4+-4.2 mas (Tinney96, Dahn02),
+  Plx=155.89+-1.03 mas (Dieterich14; d=6.41+-0.04 pc). Leggett01: fbol
+  = 2.20e-13 W/m^2 => mbol = 12.647 (IAU2015 scale) => BC_Ks = 12.647
+  - 9.548 = 3.099 => BCv = 12.647 - 18.70 = -6.053. BC_Ks =
+  3.21+-0.07(Ribas03). V-Ks = 18.70 - 9.548 = 9.152.  Ribas03
+  estimates logL=-3.79+-0.04, and predicts masses of 0.049-0.055 Msun
+  (due to its young inferred age). Dieterich14 estimates
+  logL=-3.579+-0.010 dex, radius 0.101+-0.006 Rsun. Dieterich14
+  photometry and parallax consistent with Mv=19.664+-0.030,
+  M_J=11.689+-0.025, M_Ks=10.512+-0.027.  Teffs: 1764K(Jenkins09),
+  2100+-100K(Leggett01), 2123K(Gautier07), 2138+-68K(Dahn02),
+  2312+-71K(Dieterich14), 2400K(Basri00) => median Teff = 2123K.
+  (G-Ks)=5.917, M_G=16.427, M_Ks=10.510. 
 
-  Plx=201.4+-4.2 mas (Tinney96, Dahn02), Plx=155.89+-1.03 mas
-  (Dieterich14; d=6.41+-0.04 pc). Leggett01 estimates flux = 2.20e-13
-  W/m^2, m_bol=12.67, BC_K=3.14, logL=-3.77. BC_Ks =
-  3.21+-0.07(Ribas03). V-Ks = 19.2 - 9.548 = 9.652.  Ribas03 estimates
-  logL=-3.79+-0.04, and predicts masses of 0.049-0.055 Msun (due to
-  its young inferred age). Dieterich14 estimates logL=-3.579+-0.010
-  dex, radius 0.101+-0.006 Rsun. Dieterich14 photometry and parallax
-  consistent with Mv=19.664+-0.030, M_J=11.689+-0.025,
-  M_Ks=10.512+-0.027.
+# Exemplars
 
-  Teffs: 1764K(Jenkins09), 2100+-100K(Leggett01), 2123K(Gautier07),
-  2138+-68K(Dahn02), 2312+-71K(Dieterich14), 2400K(Basri00) => median
-  Teff = 2123K
+LP 647-13 = 2MASS J01095117-0343264 = NLTT 3868
+  M9V: Cruz02(M9e),Cruz03,Reid03,Lodieu05,Cruz07,Schmidt07,Reiners09,Faherty09
 
-# Other Stars
+  Not considered a standard star in any publications, but all
+  published types appear to be in agreement on M9V. Its G-Ks colors
+  are similar to the 3 standards, and is M_Ks and M_G values are right
+  in the middle of the distribution of the M9V standards & exemplars.
+  plx = 97.55+-2.04mas(Weinberger16), plx=94.3979+-0.3180mas(GaiaDR2),
+  G=16.3515+-0.0019(GaiaDR2), Vmag = 19.31(Winters15),
+  Vmag=18.65(Salim03). J=11.694+-0.021, H=10.931+-0.026,
+  Ks=10.428+-0.025(2MASS). V-Ks = 19.31 - 10.428 = 8.882.  M_G =
+  16.23(GaiaDR2), Mv = 19.19(Winters15,GaiaDR2).  (G-Ks)=5.924,
+  M_G=16.227, M_Ks=10.303.
 
-BRI 0021-0214 = DY Psc = 2MASS J00242463-0158201
-  M9.0V: Henry04
-  M9.5: Leggett01, Geballe02,Lodieu05
+TVLM 868-110639 = 2MASS J15101685-0241078
+  M7.5e: Martin94
+  M8Ve: Geballe02
+ *M9V: Kirkpatrick95,Kirkpatrick97,Henry04,Kirkpatrick11
+  M9.3: BardalezGagliuffi14 
 
-  V=19.42(Reid04), Rc=17.301+-0.006(Liebert06),
-  Ic=15.022+-0.003(Liebert06).  J=11.992+-0.035(2MASS),
-  H=11.084+-0.022(2MASS), Ks=10.539+-0.023(2MASS).  Henry04 didn't
-  list a Vmag, but Rc=17.42, Ic=15.16 from Dahn02.  Adopting Vmag from
-  Reid04 and Ic from Liebert06, V-Ic = 4.398. Adopting Vmag from
-  Reid04 and Ks from 2MASS: V-Ks = 8.881. Leggett06 reports MKO JHK
-  photometry (it is a standard). Note that the colors are almost identical
-  to the M9V standards. 
-  Teff=2284K(Gautier07)
-
-BRI 1222-1222
-  M9V: Kirkpatrick95,Kirkpatrick97
-
-  Teff=2496+-100K(Dahn02)
-
-TVLM 868-110639
-  M9V: Kirkpatrick95,Kirkpatrick97,Henry04
-
+  G=17.2383+-0.0024(GaiaDR2), 
   Ic=15.79(Tinney93, Tinney95,vanAltena95,Henry04), I=15.8(Martin94),
   Y=13.494+-0.002(UKIDSS, Lawrence12), J=12.614+-0.023(2MASS),
   H=11.842+-0.022(2MASS), Ks=11.347+-0.021(2MASS).
-  Teff=1975K(Tinney93), 2451+-112K(Dahn02).
+  Teff=1975K(Tinney93), 2451+-112K(Dahn02). plx=55.4340+-0.3516mas(GaiaDR2).
+  (G-Ks)=5.891, M_G=15.957, M_Ks=10.066.
 
-TVLM 513-46546
-  M9.0V: Henry04
+BRI 1222-1222 = 2MASSI J1224522-123835 = BR B1222-1221
+  M8Ve: Gizis02
+  M8.5: BardalezGagliuffi14(near-IR,SpeX)
+ *M9V: Kirkpatrick95,Kirkpatrick97,Gizis00(M9e),Burgasser15
 
-  V=19.87(Henry04), Rc=17.53(Henry04), Ic=15.16(Henry04),
-  J=11.866+-0.022(2MASS), H=11.181+-0.030(2MASS),
-  Ks=10.706+-0.024(2MASS). V-Rc = 19.87 - 17.53 = 2.34.  V-Ic = 19.87
-  - 15.16 = 4.71.  V-Ks = 19.87 - 10.706 = 9.16.  plx = 94.5+-0.6 mas
-  (Henry04).  Teff=2404K(Gautier07)
+  Teff=2496+-100K(Dahn02). GaiaEDR3: plx=57.9715+-0.1233mas,
+  G=17.113316+-0.003166. G-Ks=5.76, M_G=15.934, M_Ks=10.174.
+
+# Other Stars
+
+2MASS J14112131-2119503 = DENIS J141121.2-211950 = 2MASSI J1411213-211950
+  M8: Gagne14(near-IR)
+  M8.5\beta: Gagne15("INT-G")
+ *M9V: Cruz03,Kendall04,Cruz07,Schmidt07,Reiners09,Gagne14(optical),Burgasser15
+
+  Appears to be a young/pre-MS star or brown dwarf but does not belong
+  to any known young associations, and Gagne flags it as a \beta
+  (lower surface gravity). BANYAN Sigma gives 99.9% membership to
+  "field", i.e. <0.1% belonging to any of the known young groups
+  within 150 pc. Its absolute magnitude (M_G=13.645) is ~2.5 mag
+  brighter than typical M9Vs (M_G ~ 16.2)! So this is clearly an
+  unusual, probably young, low surface gravity object and its
+  properties not typical for M8 or M9 field dwarfs.  No published V
+  magnitude. GaiaEDR3: plx=21.9267+-0.2437mas, G=16.940441 0.004578,
+  E(BP/RP)=1.942, Bp-Rp=5.301646, Bp-G=3.655367,
+  G-Rp=1.646279. J=12.437+-0.022, H=11.826+-0.027,
+  Ks=11.330+-0.021. M_G=13.645, M_Ks=8.035, G-Ks=5.610.  Teffs:
+  2600+-200K(Gagne15). RV=-0.8+-3.0km/s(Reidel17).  Fbol=4.59e-11
+  mW/m2, EW(Halpha)=-5.98A(emission)(Schmidt17).
+  
+BRI 0021-0214 = DY Psc = 2MASS J00242463-0158201
+ *M9.0V: Henry04
+  M9.5: Leggett01,Geballe02,Lodieu05,Dieterich14
+
+  V=19.42(Reid04), V=19.81+-0.031(Dieterich14),
+  Rc=17.47+-0.015(Dieterich14), Rc=17.301+-0.006(Liebert06),
+  Ic=15.15+-0.012(Dieterich15), Ic=15.022+-0.003(Liebert06),
+  I=15.07(vanAltena95).  J=11.992+-0.035(2MASS),
+  H=11.084+-0.022(2MASS), Ks=10.539+-0.023(2MASS).  Henry04 didn't
+  list a Vmag, but Rc=17.42, Ic=15.16 from Dahn02.  Adopting Vmag from
+  Reid04 and Ic from Liebert06, V-Ic = 4.398. Adopting Vmag from
+  Dieterich14 and Ks from 2MASS: V-Ks = 9.271. Leggett06 reports MKO
+  JHK photometry (it is a standard). Note that the colors are almost
+  identical to the M9V standards. plx = 82.5+-3.4 mas (VanAltena95),
+  80.71+-0.95mas(Weinberger16).
+  Mv=19.345+-0.040(Dieterich14,Weinberger16),
+  M_Ks=10.074+-0.034(2MASS,Weinberger16), Teff=2284K(Gautier07).
+  Leggett01: fbol = 8.17e-14 W/m2 => mbol = 13.722 (IAU2015 scale) =>
+  BC_Ks = 13.722 - 10.539 = 3.183, BCv = 13.722 - 19.81 = -6.088.
+
 
 2M 0140+27 = 2MASS J01400263+2701505 = LSPM J0140+2701 = binary ALP 5 (sep=31.8")
   M8.5: Allen07
@@ -258,7 +474,7 @@ TVLM 513-46546
   (Lepin05). Teff=2753K(Rice10)
 
 ESO 207-61 (J070753.3-490050)
-  M9V: Henry04
+ *M9V: Henry04
   M8.5V: Kirkpatrick11,Lodieu05(M8.5e)
 
   Henry04 lists V=20.39, Rc=18.63, Ic=16.23.  V=20.39
@@ -266,7 +482,31 @@ ESO 207-61 (J070753.3-490050)
   "Hipparcos", which is nonsense). J=13.228+-0.026(2MASS),
   H=12.538+-0.030(2MASS), Ks=12.105+-0.024(2MASS). plx = 54.10+-4.50
   (Dupuy12,Tinney96). Adopting V=20.39 and 2MASS K: V-K=8.285.
+  Mv = 19.06 (Jenkins09,Tinney96), M_Ks=10.771+-0.182(Tinney96,2MASS).
 
+SSSPM J1444-2019 = WISEA J144418.19-201945.6
+  d/sdM7: BardalezGagliuffi14(near-IR)
+  sdM9: Scholz04(Faherty09,"sdM9.0")
+  M9.0: BardalezGagliuffi14(SpeX)
+  sdL0: Kirkpatrick16(optical & near-IR)
+
+  SIMBAD default spectral type listed as "M9.0VI:".  Metal-poor, high
+  velocity M9 first characterized by Scholz04 (2004A&A...428L..25S).
+  Scholz04: "We present the discovery of a new extreme high proper
+  motion object (∼3.5arcsec/year) which we classify as an ultracool
+  subdwarf with [M/H]~-0.5. It has a formal spectral type of sdM9 but
+  also shows L-type features: while the VO bands are completely
+  absent, it exhibits extremely strong TiO absorption in its optical
+  spectrum. With a radial velocity of about -160km/s and a rough
+  distance estimate of 16-24pc, it is likely one of the nearest halo
+  members crossing the Solar neighbourhood with a heliocentric space
+  velocity of (U,V,W)=(-244,-256,-100)±(32,77,6)km/s." GaiaEDR3:
+  plx=58.1427+-0.1227mas, G=16.652800 0.003277. J=12.546+-0.026,
+  H=12.142+-0.026, Ks=11.933+-0.026.  (G-Ks)=4.719, M_G=15.583,
+  M_Ks=10.864. Combination of M_G and M_Ks is deviant (M_G is about
+  0.6 mag too bright given the M_Ks).
+  
+  
 # Comments
 
 The only M9V stars in the dwarf archive
@@ -279,3 +519,19 @@ July 2013 are:
 2MASS J14284323+3310391 = LHS 2924 (pri. standard, see above; Henry90)
 2MASS J15101685-0241078 = TVLM 868-110639 (Kirkpatrick95)
 
+# V-K vs. Mv
+V-Ks  Mv    M_Ks
+8.285 19.06 10.771+-0.182 ; non-standard ESO 207-61 (Henry04)
+8.836 19.37 10.534+-0.039 ; pri. stan. LHS 2924
+8.84                      ; non-stan.  SSS2356-3426 
+8.858 19.15 10.288+-0.037 ; sec. stan. LHS 2065 (Dieterich14 has 9.00)
+8.92                      ; non-stan. 2MA1501+2250 
+9.00                      ; non-stan. RG0050-2722
+9.06                      ; non-stan. BRI1222-1222 
+9.08                      ; non-stan. LHS4039C 
+9.12                      ; non-stan. SSS2307-5009 
+9.152 19.66 10.512+-0.027 ; sec. stan. LP944-20 (Burgasser14)
+9.271 19.35 10.074+-0.034 ; non-stan. BRI 0021-0214 
+9.94                      ; non-stan. SIP2045-6332 
+
+adopt V-Ks=9.00

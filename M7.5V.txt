@@ -1,57 +1,372 @@
 M7.5V
 
 Kirkpatrick(in GrayCorbally09) list LHS 2632 as the primary M7.5V
-standard.  This is the first mention of any M7.5V standard that I have
-seen in the literature.
+standard. However its absolute magnitudes seem unusually bright and its colors very blue compared to locus
+of where you'd expect M7.5V among M7V and M8V standards.
 
-Henry04:                       LHS 132 - M7.5V (primary standard)
-Kirkpatrick(GrayCorbally09):   LHS 2632 - M7.5V (primary standard)
+Henry04 standard:            LHS 132 - M7.5V (primary standard)
+Kirkpatrick(GrayCorbally09): LHS 2632 - M7.5V (primary standard)
 
-ReinersBasri09 finds that the mean kinematic age of nearby M7-M9.5 stars is 3.1 Gyr. 
+ReinersBasri09 finds that the mean kinematic age of nearby M7-M9.5 stars is 3.1 Gyr.
+Kirkpatrick's DwarfArchives lists 8 M7.5V stars. 
 
-(V-R)(M7.5V)   = 2.1: ; Bessell91 "old disk"
-(R-I)(M7.5V)   = 2.2: ; Bessell91 "old disk"
-(V-I)(M7.5V)   = 4.3: ; Bessell91 "old disk"
-(V-K)(M7.5V)   = 9.0: ; Bessell91 "old disk"
+(V-R)(M7.5V)   = 2.1:  ; Bessell91 "old disk"
+(R-I)(M7.5V)   = 2.2:  ; Bessell91 "old disk"
+
+(V-Ic)(M7.5V)  = 4.24  ; pri. stan. LHS 2632 (Winters19)
+(V-I)(M7.5V)   = 4.3:  ; Bessell91 "old disk"
+(V-Ic)(M7.5V)  = 4.55  ; LHS 2021
+(V-Ic)(M7.5V)  = 4.57  ; trend Dieterich14 SpT vs. V-Ic
+(V-Ic)(M7.5V)  = 4.71  ; sec. stan. LHS 132
+=> adopt (V-Ic)(M7.5V) = 4.57 [updated 7/4/2020]
+
+(B-V)(M7.5V)   = 2.14 ; linear fit to Leggett92 (B-V=0.8367+0.2852*V-I, V-I=4.57)
+=> adopt (B-V)(M7.5V) = 2.14 [updated 7/5/2020]
+
+(G-J)(M7.5V)   = 3.607 ; Bentley18/interp
+(G-Ks)(M7.5V)  = 4.543 ; Bentley18/interp
+(Ks-W2)(M7.5V) = 0.449 ; Bentley18/interp
+(W1-W2)(M7.5V) = 0.235 ; Bentley18/interp
+
+(Ks-W1)(M7.5V) = 0.215 ; Bentley18/interp
+(Ks-W1)(M7.5V) = 0.251 ; fit to Winters15 data for V-Ks=8.400
+(Ks-W1)(M7.5V) = 0.259 ; Dupuy12 median (N=9, d<50pc)
+(Ks-W1)(M7.5V) = 0.268 ; Dupuy12 trend 
+(Ks-W1)(M7.5V) = 0.273 ; Avenhaus12 for V-Ks=8.40
+=> adopt (Ks-W1)(M7.5V) = 0.26 [updated 12/28/2019]
+
+(V-K)(M7.5V)   =    9.0: ; Bessell91 "old disk"
+(V-Ks)(M7.5V)  = 8.495 ; exemplar 2MASS J15242475+2925318
+(V-Ks)(M7.5V)  = 8.461 ; sec. stan. LHS 132
+(V-Ks)(M7.5V)  =   8.45  ; non-standard LHS 2021
+(V-Ks)(M7.5V)  =   8.438 ; non-standard LHS 1367
+(V-Ks)(M7.5V)  = 8.33 ; interp M6.5V(V-Ks=7.60)-M8V(V-Ks=8.70)
+(V-Ks)(M7.5V)  = 8.35 ; halfway M7V(8.00),M8V(8.70)
+(V-Ks)(M7.5V)  =  8.18  ; smoothed fit to Dieterich SpT vs V-Ks
+(V-Ks)(M7.5V)  =  8.14  ; trend fit to Dahn17 for M7.5V
+(V-Ks)(M7.5V)  = 7.701 ; pri. stan. LHS 2632 [note how blue! appears atypical]
+(V-Ks)(M7.5V)  =   7.46  ; non-standard LHS 2645 
+=> adopt (V-Ks)(M7.5V) = 8.35 [updated 12/26/2020]
+=> adopt (G-Ks)(M7.5V) = 5.28 [updated 12/27/2021; V-Ks=8.35, G-V=-3.07]
+
+=> adopt (V-J)(M7.5V)  = 7.378
+=> adopt (V-H)(M7.5V)  = 8.028
+
+(G-Ks)(M7.5V) = 5.016 ; pri. stan. LHS 2632 = LP 321-222
+(G-Ks)(M7.5V) =  5.15  ; exemplar 2MASS J15242475+2925318 = LSPM J1524+2925
+(G-Ks)(M7.5V) =  5.223 ; exemplar 2MASS J22215313+1158222
+(G-Ks)(M7.5V) = 5.28  ; V-Ks=8.35, G-V=-3.07 (M_G=15.09, Mv=18.16)
+(G-Ks)(M7.5V) = 5.299 ; sec. stan. LHS 132 = LP 938-71
+=> adopt (G-Ks)(M7.5V) = 5.17 [updated 12/26/2020]
+
+(G-V)(M7.5V) = -3.1617 ; LHS_132
+(G-V)(M7.5V) = -3.15   ; M_G - Mv (median values seem well-defined
+(G-V)(M7.5V) = -3.09   ; trinomial trend through late Ms
+(G-V)(M7.5V) = -3.07   ; M_G=15.09, Mv=18.16
+(G-V)(M7.5V) = -2.67   ; pri. stan. LHS 2632 = LP 321-222 
+=> adopt (G-V)(M7.5V) = -3.07 [updated 12/26/2020]
+
+
+(r-i)(M7.5V) = 1.927 (+-0.05 rms) ; West05 fit for (V-Ic)=4.57
+
+(i-z)(M7.5V) = 1.599 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=5.28
+=> adopt (i-z)(M7.5V) = 1.60 [updated 12/27/2021]
+
+(z-J)(M7.5V) = 2.002 (+-0.053 rms) ; poly fit to SIMBAD d<50pc M dwarfs for G-Ks=5.17
+=> adopt (z-J)(M7.5V) = 2.00 [updated 12/27/2021]
+
 (Ks-L')(M7.5V) = 0.335 ; Dupuy12 polynomial
 
-Teff(M7.5V) = 2650 K ; halfway between M7V(2700K) and M8V(2600K)
-Teff(M7.5V) =  2600 K ; Rajpurohit13(N=5)
-Teff(M7.5V) =  2548 K ; Golimowski04
-Teff(M7.5V) =  2450 K ; Bessell91 "old disk"
-=> adopt Teff(M7.5V) = 2650 K (logT = 3.423)
+(J-Ks)(M7.5V)  = 1.061+-0.032 ; sec. stan. LHS 132
+(J-Ks)(M7.5V)  = 1.060(+-0.021 sem,+-0.051 stdev) ; N=9 Cruz03 M7.5V
+(J-Ks)(M7.5V)  = 1.018+-0.029 ; pri. stan. LHS 2632
+=> adopt (J-Ks)(M7.5V) = 1.04
 
-BCv(M7.5V) = -5.8 ; Bessell91("old disk"; BCv = (V-I)-BC_I)
+(J-H)(M7.5V)   = 0.644(+-0.012 sem,+-0.027 stdev) ; N=9 Cruz03 M7.5V 
+(J-H)(M7.5V)   = 0.644+-0.031 ; pri. stan. LHS 2632
+(J-H)(M7.5V)   = 0.650        ; trend for V-Ks=8.35
+(J-H)(M7.5V)   = 0.651+-0.034 ; sec. stan. LHS 132
+=> adopt (J-H)(M7.5V)  = 0.650 [updated 1/15/2021]
 
-BC_K(M7.5V) = 3.074 ; Golimowski04
+(H-Ks)(M7.5V)  = 0.423 ; trend of Dieterich14 for V-Ks=8.4
+(H-Ks)(M7.5V)  = 0.410+-0.032 ; sec. stan. LHS 132
+(H-Ks)(M7.5V)  = 0.407(+-0.014 sem,+-0.047 stdev) ; N=9 Cruz03 M7.5V 
+(H-Ks)(M7.5V)  = 0.374+-0.029 ; pri. stan. LHS 2632
+=> (H-Ks)(M7.5V) = 0.42 [last updated 5/5/2017]
 
-M_Ks(M7.5V) = 9.68  ; Dupuy12 polynomial
-M_Ks(M7.5V) = 9.61  ; Dupuy12 mean
+(Bp-Rp)(M7.5V) =  4.3737 ; LHS_2632 pri. stan.
+(Bp-Rp)(M7.5V) =  4.6580 ; 2MASS J22215313+1158222 exemplar 
+(Bp-Rp)(M7.5V) =  4.6617 ; 2MASS J15242475+2925318 exemplar
+(Bp-Rp)(M7.5V) = 4.719  ; M5-M8.5 color trend 
+(Bp-Rp)(M7.5V) =  4.9580 ; LHS_132 sec. stan.
+=> adopt (Bp-Rp)(M7.5V) = 4.72 [updated 11/18/2020]
+
+(G-Rp)(M7.5V) = 1.4986 ; LHS_2632 pri. stan.
+(G-Rp)(M7V)   =  1.52     ; M7V mean
+(G-Rp)(M7.5V) = 1.5274 ; 2MASS J15242475+2925318 exemplar
+(G-Rp)(M7.5V) = 1.5549 ; 2MASS J22215313+1158222 exemplar
+(G-Rp)(M7.5V) = 1.555  ; M0V-M9V color trend 
+(G-Rp)(M7.5V) = 1.5673 ; LHS_132 sec. stan. 
+(G-Rp)(M8V)   =  1.57     ; M8V mean
+=> adopt (G-Rp)(M7.5V) = 1.55 [updated 12/10/2020]
+
+(Bp-G)(M7.5V) = 2.8751 ; LHS_2632
+(Bp-G)(M7.5V) = 3.1031 ; 2MASS J22215313+1158222 exemplar 
+(Bp-G)(M7.5V) = 3.17   ; Bp-Rp=4.72, G-Rp=1.55
+(Bp-G)(M7.5V) = 3.3907 ; LHS_132
+=> adopt (Bp-G)(M7.5V) = 3.17 [updated 11/18/2020; Bp-Rp=4.72, G-Rp=1.55]
+
+
+Teff(M7.5V) = 2748 K ; Dupuy17(SaumonMarley08 scale)
+Teff(M7.5V) = 2723 K ; Dupuy17(Lyon model scale)
+Teff(M7.5V) = 2620 K ; empirical L-R relation, for logL=-3.236
+Teff(M7.5V) = 2630 K ; Mann15 [Fe/H]=0.0 radius for M_K=9.8
+Teff(M7.5V) = 2611 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(M7.5V) = 2600 K ; non-stan. LHS 1367
+Teff(M7.5V) = 2600 K ; Rajpurohit13(N=5)
+Teff(M7.5V) = 2600 K ; Cifuentes20 <Teff> for CARMENES M7.5V(N=5)
+Teff(M7.5V) = 2600 K ; pri. stan. LHS 2632 (Rajpurohit13)
+Teff(M7.5V) = 2598 K ; non-stan. LP 851-346 (Dieterich14)
+Teff(M7.5V) =   2548 K ; Golimowski04
+Teff(M7.5V) = 2513 K ; sec. stan. LHS 132 (Dieterich14)
+Teff(M7.5V) =   2450 K ; Bessell91 "old disk"
+=> adopt Teff(M7.5V) = 2630 K (logT = 3.420) [updated 4/9/2020]
+
+BCv(M7.5V) = -5.8  ; Bessell91("old disk"; BCv = (V-I)-BC_I)
+BCv(M7.5V) = -5.32 ; BC_K=3.03, V-Ks=8.35
+=> adopt BCv(M7.5V) = -5.32 [adopted 1/15/2021] 
+
+BC_K(M7.5V) =  3.092 ; non-standard 2MASS J22215313+1158222 (see below)
+BC_K(M7.5V) =  3.074 ; Golimowski04
+BC_K(M7.5V) = 3.03  ; trend for mid/late-M dwarfs
+BC_K(M7.5V) =  2.991 ; non-standard LHS 2645 (see below)
+BC_K(M7.5V) =  2.989 ; pri. stan. LHS 2632 (see below)
+BC_K(M7.5V) =  2.931 ; sec. stan. LHS 132 (see below)
+BC_K(M7.5V) =  2.923 ; non-standard 2MASS J15242475+2925318 (see below)
+=> adopt BC_K(M7.5V) = 3.03 [updated 11/3/2019]
+
+Mv(M7.5V)   = 18.25 ; Dieterich14 calibration for V-Ks=8.35
+Mv(M7.5V)   =   18.23 ; non-stan. LHS 2021
+Mv(M7.5V)   =   18.21 ; non-stan. LHS 1367
+Mv(M7.5V)   = 18.16 ; halfway M7V(Mv=17.70)-M8V(Mv=18.62)
+Mv(M7.5V)   = 18.10 ; sec. stan. LHS 132 
+Mv(M7.5V)   =   17.17 ; non-stan. LHS 2645
+Mv(M7.5V)   = 16.99 ; pri. stan. LHS 2632 = LP 321-222 
+=> adopt Mv(M7.5V)   = 18.16 [updated 12/28/2020] (V-Ks=8.35, M_Ks=9.81)
+=> adopt M_Ks(M7.5V) =  9.81 [updated 12/26/2020] (V-Ks=8.35, Mv=18.16)
+=> adopt M_G(M7.5V)  = 15.09 [updated 12/28/2020] (Mv=18.16, G-V=-3.07)
+
+M_G(M7.5V) =   14.64 ; LP 229-30 
+M_G(M7.5V) =   14.72 ; LSR J1524+2925
+M_G(M7.5V) =   14.93 ; LP 851-346
+M_G(M7.5V) =   14.96 ; SCR J1546-5534
+M_G(M7.5V) =   14.98 ; LP 655-48
+M_G(M7.5V) =  15.05 ; nearest 10 M7.5Vs in SIMBAD median
+M_G(M7.5V) = 15.085 ; halfway between M7V(M_G=14.72) and M8V(15.45)
+M_G(M7.5V) =   15.12 ; LP 485-17
+M_G(M7.5V) =   15.17 ; TRAPPIST-1
+M_G(M7.5V) =   15.17 ; LP 888-18
+M_G(M7.5V) =  15.22 ; trend SIMBAD d<10pc sample
+M_G(M7.5V) =   15.34 ; LP 135-272
+M_G(M7.5V) =   15.91 ; LP 388-55
+
+M_Ks(M7.5V) =   9.94  ; Dieterich14 calibration for V-Ks=8.4
+M_Ks(M7.5V) =   9.93  ; EEM fit to Dieterich+14 for V-Ks=8.4
+M_Ks(M7.5V) =  9.83  ; exemplar 2MASS J22215313+1158222
+M_Ks(M7.5V) = 9.81  ; halfway M7V(M_Ks=9.70)-M8V(M_Ks=9.92)
+M_Ks(M7.5V) =   9.78  ; non-stan. LHS 2021
+M_Ks(M7.5V) =   9.78  ; non-stan. LHS 1367 
+M_Ks(M7.5V) =   9.75  ; EEM fit to Reid CNS3 data
+M_Ks(M7.5V) =  9.73  ; mean for standards+exemplars
+M_Ks(M7.5V) =   9.68 ; Dupuy12 polynomial
+M_Ks(M7.5V) =  9.64  ; sec. stan. LHS 132
+M_Ks(M7.5V) =  9.62  ; exemplar 2MASS J15242475+2925318
+M_Ks(M7.5V) =   9.61 ; Dupuy12 mean
+M_Ks(M7.5V) =  9.54  ; non-stan. LHS 2645
+M_Ks(M7.5V) = 9.29   ; pri. stan. LHS 2632 = LP 321-222 
+
+logL(M7.5V) = -3.240 dex ; M_Ks=9.81, BC_Ks=3.03, Mbol=12.84
+=> adopt logL(M7.5V) = -3.240 [adopted 12/28/2020]
+=> adopt Mbol(M7.5V) = 12.840 [adopted 12/28/2020]
+
+Rad(M7.5V) =  0.1156 Rsun ; Mann15 trend M_Ks=9.80, [Fe/H]=0.0
+Rad(M7.5V) = 0.1155 Rsun ; logL=-3.240, Teff=2630K
+Rad(M7.5V) =  0.1175 Rsun ; Rabus19 trend for Teff=2620K [cool edge of relation 2600K]
+Rad(M7.5V) =  0.125 Rsun ; LP851-346 Dieterich14
+=> adopt Rad(M7.5V) = 0.116 Rsun [adopted 12/28/2020]
+
+Mass(M7.5V) = 0.0876 Msun ; Mann18 calib. for M_Ks=9.81
+Mass(M7.5V) = 0.088  Msun ; Benedict16 calibration for M_Ks=9.78
+=> adopt Mass(M7.5V) = 0.088 Msun [updated 11/15/2021]
 
 # No Standards
+
 Boeshaar85, Kirkpatrick91, Kirkpatrick97, Henry02 do not list an M7.5V standard
 
-# Primary Standards
-
-LHS 2632 
-  M7.5V: Kirkpatrick(GrayCorbally09)(pri)
+# Primary Standard
+ 
+LHS 2632 = LP 321-222 = 2MASS J12465176+3148104 = NLTT 31871
   M5.0V: ReidGizis05
+  M6.5V: Gizis00
+  M7: Kirkpatrick93,Jenkins09(M7.0)
+ *M7.5V: Kirkpatrick92,Kirkpatrick95,[Basri06,Schmidt07,Cruz07,Faherty09,Reiners09],Kirkpatrick(GrayCorbally09)(pri)
 
-  Kirkpatrick(www.dwarfarchive.org) cites Kirkpatrick(1992;PhD Thesis)
-  as the source for this classification. It is surprising that the
-  Kirkpatrick and ReidGizis types disagree by a whopping 2.5
-  subtypes?!  Skiff09 MK catalog only lists the ReidGizis05 type.
+  Note that the ones in brackets: it isn't clear whether any of these
+  were new/checked classifications, they may have just been citing
+  Kirkpatrick95.  Kirkpatrick(www.dwarfarchive.org) cites
+  Kirkpatrick(1992;PhD Thesis) as the source for this classification,
+  but it disagrees with his 1993 published classification. It is
+  surprising that the Kirkpatrick and ReidGizis types disagree by a
+  2.5 subtypes?  Skiff MK catalog only lists the ReidGizis05 type as
+  of 3/2016. I would like to see better agreement among the types, but
+  Kirkpatrick did claim this is a primary standard in GrayCorbally09,
+  so I retain it as a primary standard for now. Proper motion is
+  ~0.8"/yr (Lepine05). Is 23" away from a 14th mag star. I can find no
+  reliable UBVRI photometry for this star. V=18.89(Lepine05, no
+  uncertainty), V=18.91(Winters19), V=19.15(Smart10),
+  R=16.80(Smart10,transformed from GSC2.3, so probably poor),
+  I=14.76(Smart10), J=12.227+-0.022(2MASS), H=11.583+-0.022(2MASS),
+  Ks=11.209+-0.019(2MASS), J-Ks=1.018+-0.029, J-H=0.644+-0.031,
+  H-Ks=0.374+-0.029. mbol =
+  14.198(Pecaut13,JHKs relation) => BC_Ks=2.989.  plx = 53.3+-2.3 mas
+  (Smart10) => Dist = 18.76+-0.81 pc. GaiaEDR3: plx=41.3832+-0.1021mas,
+  G=16.236963 0.003006, E(BP/RP)=1.727, Bp-Rp=4.386515, Bp-G=2.886478,
+  G-Rp=1.500036.  (G-Ks)=5.016, M_G=14.309, M_Ks=9.293.  G-V = 16.237
+  - 18.91 = -2.673. V-Ks = 18.91 - 11.209 = 7.701. Mv=16.99. 
+
+# Secondary Standard
 
 LHS 132 = LP 938-71 = NLTT 938-71 = 2MASS J01025100-3737438
  *M7.5V: Henry04(pri. stan.)
-  M8: Reid08, Reyle06(M8.0e), Schmidt07
+  M8: Reid08, Reyle06(M8.0e), Schmidt07, Rajpurohit13, Dieterich14(Reyle06)
 
-  J = 11.130+-0.023(2MASS), H = 10.479+-0.024(2MASS), Ks=
-  10.069+-0.021(2MASS), W1 = 9.844+-0.024(WISE), W2 =
-  9.607+-0.021(WISE), W3=9.294+-0.029(WISE). Faherty09 lists d =
+  The star has no reliable published UB photometry. I'm only leaving
+  it in as a secondary standard rather than deprecated since there are
+  no other M7.5V standards available, and Henry04 claimed it was a
+  M7.5V primary standard (but multiple subsequent papers have called
+  it M8). However its V-Ks color and Mv/M_Ks absolute magnitudes are
+  typical for M7.5V among other stars of the same classification.
+  V=18.53+-0.021(Dieterich14), Rc=16.30+-0.008(Dieterich14),
+  R=17.14(Rajpurohit13), Ic=13.82("converted";Dieterich14),
+  V-Ic=4.71(Dieterich14), I=13.83(Rajpurohit13).  J =
+  11.130+-0.023(2MASS), H = 10.479+-0.024(2MASS), Ks=
+  10.069+-0.021(2MASS), J-Ks=1.061+-0.032(2MASS),
+  J-H=0.651+-0.034(2MASS), H-Ks=0.410+-0.032(2MASS), W1 =
+  9.844+-0.024(WISE), W2 = 9.607+-0.021(WISE),
+  W3=9.294+-0.029(WISE). V-Ks = 8.461(Dieterich14,2MASS).
+  mbol=13.00+-0.03 (JHK=>Pecaut13) => BC_Ks=2.931. Faherty09 lists d =
   12.20+-0.40 pc, cites Costa05. Vtan = 85.6+-2.9 km/s, so this is
-  almost certainly a very old star. 
+  almost certainly a very old star.  Teff=2513+-29K(Dieterich14),
+  2600K(Rajpurohit13). logL=-3.194+-0.030(Dieterich14),
+  Rad=0.133+-0.0056(Dieterich14),Proper motion
+  1.5"/yr. Plx=81.95+-2.73(Costa05). Mv=18.10+-0.08
+  (V=18.53+-0.021,plx=81.95+-2.73mas),
+  M_Ks=9.64+-0.08(Ks=10.069+-0.021,plx=81.95+-2.73mas).
+  (G-Ks)=5.299, M_G=15.087, M_Ks=9.788. 
+
+# Exemplars
+
+2MASS J15242475+2925318 = LSPM J1524+2925 = WISEP J152424.72+292525.2
+ *M7.5V: Reid02(Kirkpatrick97?),Gizis00(Crossfield14 references Gizis00?),Kirkpatrick11,Kirkpatrick(DwarfArchive,unpublished). 
+
+  Reid02 lists M7.5 and cites Kirkpatrick97, but the star does not
+  appear in that paper.  Crossfield14 references Gizis+2000, but the
+  star does not appear in either of the Gizis+2000 papers. SIMBAD
+  shows no references to the star before Reid02.  V=17.97(NOMAD),
+  V=18.23+-0.29(GSC2.3), V=18.65(Lepine05), J=11.206+-0.022(2MASS),
+  H=10.535+-0.021(2MASS), Ks=10.155+-0.015(2MASS),
+  V-Ks=18.65-10.155=8.495(Lepine05,2MASS), mbol =
+  13.078+-0.026(JHK=>Pecaut13), BC_Ks = 13.078-10.155 = 2.923.  plx =
+  78.3+-4.4mas (Dittman14), Mv=18.12(Lepine05,Dittman14),
+  M_Ks=9.62+-0.12 (2MASS,Dittman14).  GaiaDR2: plx =
+  76.4976+-0.0857mas, G=15.3051+-0.0006, E(BR/RP)=1.780, Bp-Rp=4.6617,
+  Bp-G=3.1343, G-Rp=1.5274. (G-Ks)=5.15, M_G=14.723, M_Ks=9.573. 
+  
+2MASS J22215313+1158222
+  M7e: West08
+ *M7.5: Allen07,Kirkpatrick10
+  M8e: West11
+
+  V=17.97(NOMAD), J=13.402+-0.025(2MASS), H=12.755+-0.026(2MASS),
+  Ks=12.361+-0.028(2MASS), V-Ks=5.609 (not clear if NOMAD Vmag is OK,
+  prob. not), mbol = 15.453+-0.010(JHK=>Pecaut13), BC_Ks = 15.453 -
+  12.361 = 3.092. Poor V photometry.  GaiaDR2: plx=31.1794+-0.2498mas,
+  G=17.5837+-0.0022, E(BR/RP)=1.826, Bp-Rp=4.6580, Bp-G=3.1031,
+  G-Rp=1.5549 => M_G=15.05, Mv=15.44:, M_Ks=9.83. (G-Ks)=5.223. 
+
+# Other Stars
+
+LHS 2645 = 2MASS J12531240+4034038 = LP 218-8
+  M7: Kirkpatrick93,Reid05(M7Ve),West08(M7e),Hilton10,West11(M7e)
+ *M7.5V: Kirkpatrick92(DwarfArchive),Kirkpatrick95,Schmidt07,Faherty09,Reiners09,McLean12,Kirkpatrick10,Desphande13
+
+  One of two M7.5Vs in Kirkpatrick95(other being LHS 2632). 
+  Teff: 2487K(Jenkins09). V=18.43(Salim03), V=18.80(Jenkins09),
+  V=18.90(Lepine05), J=12.185+-0.019(2MASS), H=11.545+-0.022(2MASS),
+  Ks=11.162+-0.019(2MASS), V-Ks=7.64(Jenkins09,2MASS),
+  mbol=14.153+-0.005(JHK=>Pecaut13) => BC_Ks = 14.153 - 11.162 =
+  2.991. plx = 47.3+-11.7mas(Finch16,URAT) => 21.1+-5.6
+  pc. Dist=17.5+-1.7pc(Deshpande13,spectrophotometric).
+  Mv=17.17(V=18.80,plx=47.3mas),
+  M_Ks=9.54+-0.54(Ks=11.162+-0.019,plx=47.3+-11.7mas).
+
+LHS 2021 = SDSS J083032.37+094712.7 = 2MASS J08303256+0947153 = L 485-17
+  M6.5: Costa06(Dupuy12)
+ *M7.5Ve: Henry04,Faherty09(M7.5)
+  M8: Schmidt07,Reid08,Carson11,Kirkpatrick(DwarfArchives,unpublished)
+  M9e: West11
+
+  plx=63.67+-1.15mas(Riedel10). V-Ks=8.45(Hosey15). V=19.21(Hosey15),
+  R=16.94(Hosey15), I=14.66(Hosey15), J=11.890+-0.022(2MASS),
+  H=11.165+-0.021(2MASS), Ks=10.756+-0.023(2MASS). Mv=18.23
+  (V=19.21,plx=63.67mas), M_Ks=9.78+-0.05(Ks=10.756+-0.023,
+  plx=63.67+-1.15mas).
+
+LHS 1367 = 2MASS J02150802-3040011 = L 885-35
+ *M7.5V: Kirkpatrick(DwarfArchive,unpublished)
+  M8e: Reyle06,Faherty09(M8),Antonova13(M8),Rajpurohit13
+
+  Teff=2600K(Rajpurohit13). V=18.98(Winters15), R=16.70(Winters15),
+  I=14.23(Winters15), J=11.617+-0.026(2MASS), H=10.953+-0.024(2MASS),
+  Ks=10.542+-0.023(2MASS),
+  V-Ks=8.438. plx=70.26+-1.23mas(Weinberger16).
+  Mv=18.21(V=18.98,plx=70.26mas),
+  M_Ks=9.78+-0.04(Ks=10.542,plx=70.26).  
+  
+LP 789-23 = 2MASS J10063197-1653266
+ *M7.5V: Cruz03(Liebert06,+-0.5 subtype), Reid03(M7.5Ve),Cruz07,Schmidt07
+  M7.0: Crifo05,Rajpurot13(M7)
+
+  Rc=16.875+-0.005, Ic=14.573+-0.003, (R-I)c=2.302(Liebert06).  Teff =
+  2700K(Rajpurohit13).
+
+LP 655-48 = 2MASS J04402325-0530082 = DENIS-P J0440231-053009
+   M6.0: Cruz02,Gagne14,Alonso-Floriano15
+   M6.5Ve: Reidel14
+  *M7V: Cruz03,Henry04(M7Ve),Schmidt07,Cruz07,Despande12,Crossfield14
+   M7.5Ve: McCaughrean02,Lodieu05,Crifo05,Phan-Bao17
+
+   Not great agreement on subtype, but median subtype is ~M7.0V.
+   V=17.86(Casagrande08), V-Rc=1.910(Casagrande08),
+   V-Ic=4.230(Casagrande08). plx=102.30+-1.02mas(Weinberger16).
+   V-Ks=8.24(Hosey15). Teffs: 2250+-118K(Casagrande08),
+   2600K(Rajpurohit13). mbol = 12.845(Casagrande08)
+
+TRAPPIST-1 = 2MASS J23062928-0502285
+ *M7.5e: Gizis00,Reid07(M7.5)
+  M7.5(opt),M8(near-IR),M7.5(adopted): Best18
+  M8.0: Reiners09
+  M8: Burgasser15
+
+  BurgasserMamajek17 shows V-Ks color is more like M7.5V, but
+  near-IR spectra are more like M8. (V-Ks)=8.45, Mv=18.27, M_Ks=9.81. 
 
 
-
-
+# V-Ks vs. Mv
+V-Ks  Mv     M_Ks      SpT(M) 
+8.495 18.12  9.62+-0.12 7.5 2MASS_J15242475+2925318 (Exemplar)
+8.461 18.10  9.64+-0.08 7.5 LHS 132 (sec. stan.)
+8.45  18.23  9.78+-0.05 7.5 LHS 2021
+8.438 18.21  9.78+-0.04 7.5 LHS 1367
+7.94  17.78  9.84+-0.10 7.5 LHS 2632 (pri. stan.)
+7.64  17.17  9.54       7.5 LHS 2645 

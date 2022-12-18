@@ -1,0 +1,65 @@
+T1.5V
+
+SIMBAD lists only one T1.5V within 10pc: WISE J203042.79+074934.7 	
+
+Teff(T1.5V) = 1200 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(T1.5V) = 1227 K ; Kirkpatrick20 (Table 13 polynomial)
+
+M_J(T1.5V) =  14.11 ; PSO_1505-2853 calc using Kirkpatrick20 (plx=42.5mas)
+M_J(T1.5V) =  14.28 ; 2MASS_0949-1545 calc using Kirkpatrick20 (plx=42.22mas)
+M_J(T1.5V) = 14.31  ; exemplar WISE_2030+0749 calc using Kirkpatrick20 (plx=103.9664mas)
+M_J(T1.5V) = 14.517 ; EEM fit to L/T dwarfs d<25pc
+M_J(T1.5V) =  14.94 ; WISE_0111-5053 calc using Kirkpatrick20 (plx=57.3mas)
+M_J(T1.5V) =  15.06 ; SDSS_0909+6525 calc using Kirkpatrick20 (plx=63.9mas)
+M_J(T1.5V) =  15.29 ; 2MASS_2139+0220 calc using Kirkpatrick20 (plx=101.5mas)
+=> adopt M_J(T1.5V) = 14.52 [updated 12/30/2020]
+
+M_J(MKO)(T1.5V) = 14.13 ; WISE_2030+0749 calc using Kirkpatrick20 (plx=103.9664mas)
+M_J(MKO)(T1.5V) = 14.56 ; WISE_0111-5053 calc using Kirkpatrick20 (plx=57.3mas)
+M_J(MKO)(T1.5V) = 14.68 ; 2MASS_2139+0220 calc using Kirkpatrick20 (plx=101.5mas)
+
+(J(MKO)-J)(T1.5V) = -0.61 +- 0.05 ; 2MASS_2139+0220
+(J(MKO)-J)(T1.5V) = -0.38 +- 0.12 ; WISE__0111-5053
+(J(MKO)-J)(T1.5V) = -0.36 +- 0.12 ; 2MASS_0949-1545
+(J(MKO)-J)(T1.5V) = -0.27 +- 0.08 ; PSO___1505-2853
+(J(MKO)-J)(T1.5V) = -0.18 +- 0.03 ; WISE__2030+0749
+
+M_K(MKO)(T1.5V) = 13.20 ; PSO_1505-2853 calc using Kirkpatrick20 (plx=42.5mas)
+M_K(MKO)(T1.5V) = 13.33 ; 2MASS_0949-1545 calc using Kirkpatrick20 (plx=42.22mas)
+
+M_Ks(T1.5V) =  12.93 ; PSO_1505-2853 calc using Kirkpatrick20 (plx=42.5mas)
+M_Ks(T1.5V) =  13.22 ; 2MASS_0949-1545 calc using Kirkpatrick20 (plx=42.22mas)
+M_Ks(T1.5V) =  13.33 ; WISE_0111-5053 calc using Kirkpatrick20 (plx=57.3mas)
+M_Ks(T1.5V) = 13.37  ; fit to Kirkpatrick20 L7-T3 dwarfs
+M_Ks(T1.5V) = 13.38  ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(T1.5V) = 13.40 ; exemplar WISE_2030+0749 calc using Kirkpatrick20 (plx=103.9664mas) 
+M_Ks(T1.5V) =  13.61 ; 2MASS_2139+0220 calc using Kirkpatrick20 (plx=101.5mas)
+M_Ks(T1.5V) =  14.20 ; SDSS_0909+6525 calc using Kirkpatrick20 (plx=63.9mas)
+=> adopt M_Ks(T1.5V) = 13.37 [updated 12/30/2020]
+
+(K(MKO)-Ks)(T1.5V) = 0.11 +- 0.17 ; 2MASS_0949-1545 11.5
+(K(MKO)-Ks)(T1.5V) = 0.27 +- 0.13 ; PSO___1505-2853 11.5
+=> adopt (K(MKO)-Ks)(T1.5V) ~ 0.2 [updated 11/26/2020]
+
+M_G(T1.5V) = 20.22 ; exemplar WISE J203042.79+074934.7
+
+(G-Ks)(T1.5V) = 6.842 ; exemplar WISE J203042.79+074934.7 
+
+BC_K(T1.5V) = 3.027 ; Filipazzo15 field M6V-T8V calibration
+
+# Exemplar
+
+WISE J203042.79+074934.7 = 2MASS J20304235+0749358 = PSO J307.6784+07.8263
+ *T1.5: Mace14(near-IR,Best18)
+
+  Very nearby T dwarf (9.7pc) and only one with T1.5 as default type
+  in SIMBAD within 10pc.  J=14.227+-0.029(2M), H=13.435+-0.033(2M),
+  Ks=13.319+-0.039(2M).  GaiaEDR3: plx=102.7966+-0.8009mas,
+  G=20.160710+-0.012496, E(BP/RP)=2.418, Bp-Rp=3.221901,
+  Bp-G=1.416195, G-Rp=1.805706.  => M_G=20.22+-0.02,
+  M_J=14.287+-0.034, M_Ks=13.379+-0.043, G-Ks = 20.161 - 13.319 =
+  6.842.
+
+
+   
+   

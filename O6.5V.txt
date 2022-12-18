@@ -5,33 +5,79 @@ The primary standard is HD 93146 (Walborn72,Walborn73,Walborn90)
 Garrison94 does not list an O6.5V anchor standard, and MK73 does not
 list a O6.5V dagger standard.
 
+Walborn72 classified 9 stars as O6.5V, including HD 93146 and HD 42088.
+
+Conti71 classified four stars as O6.5V, with the brightest being HD 42088 (V=7.6).
+
+Walborn72 standard: HD 93146 - O6.5V
+Walborn73 standard: HD 93146 - O6.5V
+Walborn90 standard: HD 93146 - O6.5V
+Sota11 standards:   HD 91572 - O6.5V
+       		    HD 12993 - O6.5V 
+
+(B-V)(O6.5V) = -0.319 ; interp 
+=> adopt (B-V)(O6.5V) = -0.319 [updated 2/7/2020]
+
+(U-B)(O6.5V) = -1.135 ; interp
+=> adopt (U-B)(O6.5V) = -1.135 [updated 2/7/2020]
+
+Teff(O6.5V) =  39964 K ; non. stan. HD 199579 median
+Teff(O6.5V) = 38905 K ; Simon-Diaz17 median for O6V (N=3)
+Teff(O6.5V) = 38850 K ; Holgado18
+Teff(O6.5V) = 38000 K ; Holgado20 N=13 O6.5V variants
+Teff(O6.5V) = 38460 K ; Simon-Diaz14 linear fit for O6.5V
+Teff(O6.5V) =  38300 K ; EEM trend for O dwarfs 1/2020 **
 Teff(O6.5V) = 37870 K ; Martins05(obs. scale),GrayCorbally09
-Teff(O6.5V) = 37500 K ; non-stan. NGC 346 MPG 356 (Heap06) & Heap06 adopted for O6.5V
-Teff(O6.5V) = 37000 K ; Massey05(Milky Way)
-Teff(O6.5V) = 36826 K ; Martins05(theo. scale)
-=> adopt Teff(O6.5V) = 37300 K
+Teff(O6.5V) =  37500 K ; non-stan. NGC 346 MPG 356 (Heap06) & Heap06 adopted for O6.5V
+Teff(O6.5V) =  37000 K ; Massey05(Milky Way)
+Teff(O6.5V) =  36826 K ; Martins05(theo. scale)
+=> adopt Teff(O6.5V) = 38300 K (logT = 4.583) [updated 1/20/2020]
+=> adopt Teff(O6.5V) = 38000 K (logT = 4.580) [updated 11/15/2022]
+
 
 Mv(O6.5V) = -5.3 mag  ; GrayCorbally09
+Mv(O6.5V) = -5.05 mag ; Bowen08
 Mv(O6.5V) = -5.0 mag  ; Russeil03
-Mv(O6.5V) = -4.885 mag ; Wegner07 (halfway between O6V and O7V)
+Mv(O6.5V) = -5.0 mag  ; Conti71(V)
+Mv(O6.5V) = -4.96 mag ; EEM trend for O6.5V
+Mv(O6.5V) =  -4.885 mag ; Wegner07 (halfway between O6V and O7V)
 Mv(O6.5V) = -4.86 mag ; Garmany92
-Mv(O6.5V) = -4.77 mag ; Martins05 
-=> adopt Mv(O6.5V) = -4.9 mag 
+Mv(O6.5V) = -4.85 mag ; Martins06/theor.scale
+Mv(O6.5V) = -4.84 mag ; Martins06/obs.scale
+Mv(O6.5V) = -4.77 mag ; Martins05
+Mv(O6.5V) = -4.5  mag ; Conti71(ZAMS)
+=> adopt Mv(O6.5V) = -4.95 mag [updated 2/8/2020]
 
-BCv(O6.5V) = -3.701 mag ; Flower96(Teff=37300K)
-BCv(O6.5V) = -3.55 mag ; Martins05(obs. scale)
-BCv(O6.5V) = -3.47 mag ; Martins05(theo. scale)
-BCv(O6.5V) = -3.464 mag ; Bessell98(Teff=37300K)
-BCv(O6.5V) = -3.449 mag ; median BCv scale for Teff=37400K
-BCv(O6.5V) = -3.434 mag ; LanzHubeny03/07(Teff=37300K)
-BCv(O6.5V) = -3.359 mag ; Balona94(Teff=37300K)
-=> adopt BCv(O6.5V) = -3.45 mag
+BCv(O6.5V) =   -3.767 mag ; Flower96(Teff=38300K),set so BCv(5772K)=-0.085)
+BCv(O6.5V) =  -3.55  mag ; Martins05(obs.scale)
+BCv(O6.5V) =   -3.522 mag ; Bessell98(Teff=38300K),set so BCv(5772K)=-0.085)
+BCv(O6.5V) =  -3.515 mag ; LanzHubeny03/07(Teff=38300K)
+BCv(O6.5V) = -3.49  mag ; EEM interp O6V(-3.57),O7V(-3.41)
+BCv(O6.5V) =  -3.48  mag ; Martins06(obs.scale)
+BCv(O6.5V) =  -3.47  mag ; Martins05(theor.scale)
+BCv(O6.5V) =  -3.40  mag ; Martins06(theor.scale)
+BCv(O6.5V) =   -3.386 mag ; Balona94(Teff=38300K),set so BCv(5772K)=-0.085)
+=> adopt BCv(O6.5V) = -3.49 [updated 1/31/2020]
 
-logL(O6.5V) = 5.24 dex ; Mv=-4.9, BCv=-3.45 => Mbol = -8.35
-logL(O6.5V) = 5.23 dex ; Martins05(obs. scale)
-logL(O6.5V) = 5.20 dex ; Martins05(theo. scale)
-=> adopt logL(O6.5V) = 5.24 dex
-=> adopt Mbol(06.5V) = -8.35 mag
+logL(O6.5V) = 5.272 dex ; Mv=-4.95, BCv=-3.49 => Mbol=-8.440
+logL(O6.5V) = 5.239 dex ; EEM trend for O dwarf
+logL(O6.5V) = 5.23  dex ; Martins05(obs. scale)
+logL(O6.5V) = 5.20  dex ; Martins05(theo. scale)
+=> adopt logL(O6.5V) =  5.272 dex [updated 2/8/2020]
+=> adopt Mbol(O6.5V) = -8.440 mag [updated 2/8/2020]
+
+logg(O6.5V) = 3.82 dex ; Holgado18
+logg(O6.5V) = 3.87 dex ; Holgado20 median N=13 O6.5V variants
+=> adopt logg(O6.5V) = 3.85 dex [updated 11/15/2022]
+
+Rad(O6.5V) = 9.8232 Rsun ; logL=5.272, Teff=38300K
+Rad(O6.5V) = 9.542 Rsun ; Martins05 (Teff=37871K,logL=5.227)
+=> adopt Rad(O6.5V) = 9.823 Rsun [updated 2/8/2020]
+
+Mass(O6.5V) = 30.0+-1.0 Msun ; LS1135A (Weidner10)
+Mass(O6.5V) = 30+-6 Msun ; Weidner10
+Mass(O6.5V) = 31.6 Msun  ; MIST/Choi16 solar tracks for logT=4.272,logL=4.272
+=> adopt Mass(O6.5V) = 31 Msun [updated 4/16/2022]
 
 # No Standards
 
@@ -44,6 +90,7 @@ HD 93146 (in Collinder 228 cluster)
   O6.5V((f)): Walborn73,Walborn90(stan)
   O6V: Levato81
   B: Cannon,Houk75
+  
   Primary O6.5V((f)) standard in Walborn90, arguably the best standard.
 
 # Secondary Standards
@@ -51,15 +98,92 @@ HD 93146 (in Collinder 228 cluster)
 HD 165052
   O6.5V(n)((f)): Walborn73
 
-# Candidate Standard?
+# Other Stars
 
 HD 42088
   O6.5V: Conti71,Walborn72
+  
   Conti & Walborn agree on O6.5V type
 
-# Other Stars
-Walborn72 classified 9 stars as O6.5V, including HD 93146 and HD
-42088.
+HD 199579 = HR 8023 = BD+44_3639 (in Cyg OB7) J2056+4455
+  O6: Johnson53,Morgan65(O6 SB),Lesh68(sec.stan),Jaschek64(all)
+  O6V: Walborn72,MK78(stan),Garmany82,Keenan85,Garcia89
+  O6V((f)): Walborn73,Walborn90
+  O6.5V: Bisiacchi82
+ *O6.5V((f))z: Sota11,Holgado20
+  O6.5III: Conti71
+  Oe5: Cannon
 
-Conti71 classified four stars as O6.5V, with the brightest being HD
-42088 (V=7.6).
+  Was O6V standard for quite a while, however more recently Holgado20
+  classifies it later (O6.5V). M91: V=5.959, B-V=0.045+-0.004,
+  U-B=-0.852+-0.002 => QBV => (B-V)o=-0.312, (U-B)o=-1.108,
+  E(B-V)=0.357, Av=1.151. Teff=30297 again, reddening significant.
+  Fitzpatrick07 lists E(B-V)=0.33+-0.01. Good agreement between
+  Johnson, Lesh, Garmany, Keenan, Walborn, MK78.  Williams01
+  (2001ApJ...548..425W) finds that HD 199579 has a B1V/B2V companion
+  with delta(Vmag)=2.5+-0.3 mag, mass ratio M2/M1=4+-1, and period =
+  48.52 days. plx=1.0633+-0.0589(GaiaDR2). Mv=-5.06.  Teffs:
+  32930K(Daflon07), 39500+-800K(Holgado20), 39928K(Prugniel07#1),
+  40000K(Fitzpatrick07), 40446K(Katz11), 40595K(Prugniel07#2) =>
+  <Teff> = 39964K.
+
+BD+62_424
+  O6.5V(n)((f)): Holgado20
+
+  Teff=38700+-700K(Holgado20), logg=3.80+-0.10(Holgado20)
+
+HD 242935A
+  O6.5V((f))z: Holgado20
+
+  Teff=38700+-900K(Holgado20), logg>3.98(Holgado20)
+
+HDE 227018
+  O6.5V((f))z: Holgado20
+
+  Teff=38700+-800K(Holgado20), logg=3.85+-0.15(Holgado20)
+
+HD 305532
+  O6.5V((f))z: Holgado20
+
+  Teff=39300+-800K(Holgado20), logg=3.84+-0.07(Holgado20)
+
+BD+61_411
+  O6.5V((f))z: Holgado20
+
+  Teff=38800+-1000K(Holgado20), logg=3.99+-0.18(Holgado20)
+
+HD 344784
+  O6.5V((f))z: Holgado20
+
+  Teff=38900+-600K(Holgado20), logg=3.90+-0.06(Holgado20)
+
+HD 228841
+  O6.5Vn((f)): Holgado20
+
+  Teff=37700+-1400K(Holgado20), logg=3.88+-0.13(Holgado20)
+
+HD 91572
+  O6.5V((f))z: Holgado20
+
+  Teff=38800+-500K(Holgado20), logg=3.84+-0.08(Holgado20)
+
+HD 167633
+  O6.5V((f)): Holgado20
+
+  Teff=38000+-800K(Holgado20), logg=3.72+-0.07(Holgado20)
+
+HD 12993
+  O6.5V((f)) Nstr: Holgado20
+
+  Teff=39200+-600K(Holgado20), logg=3.89+-0.07(Holgado20)
+
+ALS 12370
+  O6.5Vnn((f)): Holgado20
+
+  Teff=39000+-1800K(Holgado20), logg=4.12+-0.20(Holgado20)
+
+HD 326775
+  O6.5V(n)((f))z: Holgado20
+
+  Teff=39400+-1300K(Holgado20), logg=3.87+-0.14(Holgado20)
+

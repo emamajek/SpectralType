@@ -2,15 +2,39 @@ M3V
 
 GJ 752A appears to be the best M3V standard. Unfortunately, it is a
 bit hotter and bluer than the rest of the M3V standards and
-M3V-classified field stars.
+M3V-classified field stars. Note that some standards are classified as "M3-V", and
+following KeenanMcNeil76, "M3-V" should be translated as "M2.75V".
 
-According to KeenanMcNeil76 "M3-V" should be translated as "M2.75V"
+Jao18 reports a gap in the color-mag diagram for M dwarfs using the GaiaDR2 data ("the gap progresses
+from M_G~ 10.09 in the G_BP−G_RP=2.35–2.40 bin to ∼10.24 in the 2.55–2.60 bin."
+If one looks at the cumulative distribution of absolute magnitudes M_G for stars within the 10 pc in the Gaia-CNS
+catalog, the gap is sizeable (~0.29 mag) and bounded by: 
+M_G = 10.13 (GJ 251 M3V   standard; Teff=3448+-60K, R=0.358+-0.013Rsun, M=0.352+-0.035Msun; Mann15) and
+M_G = 10.42 (GJ 581 M2.5V standard; Teff=3395+-60K, R=0.311+-0.012Rsun, M=0.292+-0.029Msun; Mann15).
+JaoFeiden20 tags the gap at M_G ~ 10.3 and shows its color dependence (brighter at blue end, stretching approximately
+from (Bp-Rp=2.3,M_G=10.0) to (Bp-Rp=2.7,M_G=10.3). This 0.29 mag empty gap in M_G stands out among the 10pc
+sample as the 0.1 mag M_G bins brighter (10.03-10.13) and fainter (10.42-10.52) than those limits contain
+10 and 4 stars, respectively.
+
+Note that Rabus19 points out a discontinuity in the region Teff=3200K-3340K where M dwarf
+radii 0.18 to 0.42 Rsun. M3V (mean Teff ~ 3440K) is just hotward of this region, although some
+of the cooler M3Vs may be in this overlap region. As seen below, the measured radii for the
+M3V standards and exemplars span ~0.32-0.47 Rsun. I adopt the Mann15 [Fe/H]=0.0 radius for
+M_K=6.5 to guide estimation of the mean HRD point.
+
+Mode of absolute magnitude distribution [7/12/2022]: Among the SIMBAD stars within 20pc with default Gaia G mags
+& parallaxes, the mode of the distribution of absolute G magnitudes (M_G) appears to be near ~M3-M3.5V.
+The densest absolute magnitude range is peaked at M_G=10.5145 (with LP_783-1 = LHS 1935 appearing at the peak). There
+are 23 stars with M_G between 10.50-10.53 within 20 pc! 
+
+
 
 Boeshaar76 standard:            GJ 752A - M3V 
 KeenanMcNeil76 standard:        G 5-43  - M3V 
 Keenan80 standard:              GJ 752A (=HD 180617) - M3-V
 Keenan83 standard:              GJ 752A (=HD 180617) - M3-V 
-Boeshaar85 standard:            GJ 725A - M3V
+Boeshaar85 standard:            GJ 725A (=HD 180617) - M3V
+Keenan85 standard:              GJ 752A (=HD 180617) - M3-V
 Keenan88 standard:              GJ 752A (=HD 180617) - M3-V
 Keenan89 standard:              GJ 752A (=HD 180617) - M3-V
 Kirkpatrick91 standard:         GJ 352AB - M3V (primary stan.)
@@ -20,6 +44,8 @@ Kirkpatrick91 standard:         GJ 352AB - M3V (primary stan.)
 				GJ 725A - M3V (primary stan.)
                                 GJ 22B - M3V (secondary stan.)
 				GJ 569A - M3V (secondary stan.)
+Kirkpatrick94 standard:		GJ 725A (=HD 173739) - M3V
+	      			GJ 22B (BD+66 34B) - M3V
 Hawley02 standard:              GJ 251 - M3V 
 Henry02 standards:              GJ 22B - M3.0V (cites McCarthy91)
 				GJ 109 - M3.0V (cites Henry94) 
@@ -33,14 +59,22 @@ Henry02 standards:              GJ 22B - M3.0V (cites McCarthy91)
 				GJ 752A - M3.0V (cites Kirkpatrick91)
 				GJ 860A - M3.0V (cites Henry94)
 Kirkpatrick(in GrayCorbally09): GJ 752A - M3V
-Pecaut13 standard:              GJ 752A - M3-V 
+Kirkpatrick10                   GJ 752A - M3V (optical,near-IR)
+Pecaut13 standard:              GJ 752A - M3-V
+Kirkpatrick16 standard:  	GJ 436 (=Ross 905) - M3V
 
 Boeshaar76 and Kirkpatrick91 agree on M3V for two: GJ 436 & 752A
 
 GJ 752A is probably the best, although JM53 called it M3.5V and
 Keenan88 called it M3-V. I give more weight than the others as it is
 only one that both Joy, Boeshaar, & Kirkpatrick all called M3V, and
-Keenan had it within 0.25 type (M3-V).
+Keenan had it within 0.25 type (M3-V). Note that it is bluer and
+brighter than the other M3V "standards", so it could be considered
+"M3-V" compared to the swarm.
+
+Adams26 (1926ApJ....64..225A) classified 7 dwarfs with types "M3", but only one is considered a M3V
+standard in recent literature - GJ 860A (Kruger 60A = HD 239960 = BD+56 2783) - while the rest have M0V
+through M2.5V modern classifications.
 
 There is general agreement between Kirkpatrick/Henry & Hawley/Reid for
 M3V types for GJ 102 and GJ 860A plus a few unresolved binaries, but
@@ -63,27 +97,34 @@ standard (following Kirkpatrick), but I'm not quite content with any
 of the other M3V standards. For the time being, I'll stick with GJ
 752A.
 
-<B-V>(M3V) = 1.464 ; primary stan. GJ 752A 
+
+<B-V>(M3V) = 1.464 ; pri. stan. GJ 752A 
 <B-V>(M3V) =  1.47  ; Fitzgerald70
-(B-V)(M3V) = 1.480 ; deprecated standard GJ 569A
-(B-V)(M3V) = 1.485 ; GJ 661A ; M3.0V in RECONS list of nearest 100 *s
+(B-V)(M3V) =  1.480 ; deprecated standard GJ 569A
+(B-V)(M3V) =  1.485 ; GJ 661A ; M3.0V in RECONS list of nearest 100 *s
 (B-V)(M3V) =  1.49  ; Vyssotsky63
 (B-V)(M3V) =  1.49  ; JohnsonMorgan53
-(B-V)(M3V) = 1.504 ; secondary standard GJ 725A 
-(B-V)(M3V) = 1.505 ; tertiary standard GJ 687 
+(B-V)(M3V) = 1.493 ; sec. stan. GJ 436
+(B-V)(M3V) = 1.504 ; sec. stan. GJ 725A 
+(B-V)(M3V) = 1.505 ; ter. stan. GJ 687 
 (B-V)(M3V) =  1.51  ; SchmidtKaler82
+(B-V)(M3V) = 1.525 ; median SIMBAD M3V d<25pc (N=177)
 (B-V)(M3V) = 1.527 (+-0.008 sem,+-0.053 stdev); med. for 25 ARICNS M3V stars
+(B-V)(M3V) = 1.54 ; median among M3V stars among 100 nearest (see below)
+(B-V)(M3V) = 1.543 ; Koen10 d<25pc median M3V
 <B-V>(M3V) =  1.55  ; Johnson66
 (B-V)(M3V) =  1.55  ; KenyonHartmann95
 (B-V)(M3V) =  1.55  ; Bessell91 "old disk"
 (B-V)(M3V) =  1.55  ; Leggett92 "young disk"
+(B-V)(M3V) = 1.550 ; ter. stan. GJ 109
 <B-V>(M3V) = 1.557 ; 8 Gray03/06 M3Vs (+-0.021 sem, +-0.070 stdev)
 <B-V>(M3V) =  1.577 ; ShayaOlling11
-(B-V)(M3V) = 1.58  ; GJ 251 ; M3.0V in RECONS list
-(B-V)(M3V) = 1.600 ; GJ 581 ; M3.0V in RECONS list
-(B-V)(M3V) = 1.613 ; GJ 860A ; M3.0V in RECONS list (but B-V unresolved)
-(B-V)(M3V) = 1.660 ; GJ 693 ; M3.0V in RECONS list 
-
+(B-V)(M3V) =  1.58  ; GJ 251 ; M3.0V in RECONS list
+(B-V)(M3V) =  1.582 ; exemplar GJ 3459 = LHS 1935 = LP 783-1 
+(B-V)(M3V) =  1.600 ; GJ 581 ; M3.0V in RECONS list
+(B-V)(M3V) =  1.613 ; GJ 860A ; M3.0V in RECONS list (but B-V unresolved)
+(B-V)(M3V) =  1.660 ; GJ 693 ; M3.0V in RECONS list 
+=> adopt (B-V)(M3V) = 1.53 [updated 7/5/2020]
 
 <U-B>(M3V) = 1.15 ; Johnson66
 (U-B)(M3V) = 1.10 ; JohnsonMorgan53
@@ -93,10 +134,22 @@ of the other M3V standards. For the time being, I'll stick with GJ
 
 (R-I)(M3V) = 1.37  ; Bessell91 "old disk"
 
+(G-J)(M3V)   = 2.564 ; Bentley18
+(G-Ks)(M3V)  = 3.416 ; Bentley18
+(Ks-W2)(M3V) = 0.294 ; Bentley18
+(W1-W2)(M3V) = 0.146 ; Bentley18
+
+(Ks-W1)(M3V) = 0.159 ; fit to Winters15 data for V-Ks=4.60
+(Ks-W1)(M3V) = 0.148 ; Bentley18
+(Ks-W1)(M3V) = 0.140 ; Avenhaus12 for V-Ks=4.60
+(Ks-W1)(M3V) = 0.130 ; Best18
+=> adopt (Ks-W1)(M3V) = 0.15 [updated 12/29/2019]
+
 <V-I>(M3V) = 2.32  ; GJ 752A pri. stan.
 (V-I)(M3V) = 2.40  ; Leggett92 "young disk"
 <V-I>(M3V) = 2.449 (+-0.128 sem, +-0.399 stdev; Gray01/03/06 N=8)
 (V-I)(M3V) = 2.47  ; Bessell91 "old disk"
+(V-I)(M3V) = 2.483 ; exemplar GJ 3459 = LHS 1935 = LP 783-1 
 (V-I)(M3V) = 2.5   ; Hawley96
 <V-I>(M3V) = 2.94  ; Johnson66
 
@@ -108,23 +161,27 @@ of the other M3V standards. For the time being, I'll stick with GJ
 (V-Ks)(M3V)    = 4.447 ; pri. stan. GJ 752A 
 (V-Ks)(M3V)    = 4.472 ; sec. stan. GJ 725A 
 (V-Ks)(M3V)    =  4.56  ; deprecated standard GJ 352 A
-(V-K)(M3V)     =   4.57  ; Johnson66
+(V-K)(M3V)     =  4.57  ; Johnson66
+(V-Ks)(M3V)    = 4.58   ; mean of pri. stan. and 3 sec. standards (+-0.055 s.e.m, +-0.12 st.dev) 
 (V-Ks)(M3V)    = 4.597 ; sec. stan. GJ 436
-(V-K_CIT)(M3V) =   4.60  ; Beuermann06
-(V-K_CIT)(M3V) =   4.60  ; Leggett92 "young disk"
+(V-K_CIT)(M3V) =  4.60  ; Beuermann06
+(V-K_CIT)(M3V) =  4.60  ; Leggett92 "young disk"
 (V-Ks)(M3V)    = 4.62  ; ter. stan. GJ 687 
-(V-Ks)(M3V)    = 4.634 ; sec. stan. GJ 109 
-(V-K)(M3V)     =   4.65  ; Bessell91 "old disk"
-(V-K)(M3V)     =   4.7   ; Hawley96
+(V-Ks)(M3V)    = 4.634 ; ter. stan. GJ 109
+(V-Ks)(M3V)    = 4.649 ; exemplar GJ 3459 = LHS 1935 = LP 783-1 
+(V-K)(M3V)     =  4.65  ; Bessell91 "old disk"
+(V-K)(M3V)     =  4.7   ; Hawley96
+(V-Ks)(M3V)    = 4.735 ; exemplar GJ 581 = Wolf 562 
 (V-Ks)(M3V)    = 4.745 ; sec. stan. GJ 251
 (V-Ks)(M3V)    =  5.025 ; deprecated standard GJ 628
 (V-Ks)(M3V)    =  6.11  ; deprecated standard GJ 22B
 => adopt (V-Ks)(M3V) = 4.60 ***
 
-[EEM 12/24/2012: there seems to be an unusually large scatter
-in V-Ks colors among M3V "standards".]
+[EEM 4/27/2017: there seems to be an unusually large scatter in V-Ks
+colors among M3V "standards". I've simply rounded the mean V-Ks color
+of the primary and secondary standards (4.58+-0.055) to V-Ks=4.60, and
+adopted that.]
 
-=> adopt (B-V)(M3V)  = 1.544 
 => adopt (U-B)(M3V)  = 1.181
 => adopt (V-I)(M3V)  = 2.420
 => adopt (V-R)(M3V)  = 1.079
@@ -136,138 +193,267 @@ in V-Ks colors among M3V "standards".]
 => adopt (K-W1)(M3V) = 0.122
 => adopt (J-Ks)(M3V) = 0.831  
 => adopt (I-Ks)(M3V) = 2.180
-=> adopt (K-W1)(M3V) = 0.122  
 
 <J-K_CIT>(M3V) = 0.85 ; Beuermann06
 
 <H-K_CIT>(M3V) = 0.23 ; Beuermann06
 
-Teff(M3V) =  3231 K ; mean photometric Teff
-Teff(M3V) =  3276 K ; median Teff for 48 Teffs for M3V stars (EEM)
-Teff(M3V) = 3300 K ; Rajpurohit13 (N=9)
-Teff(M3V) =   3300 K ; Johnson66
-Teff(M3V) = 3316 +- 12 K ; Pecaut13 (pri. stan. GJ 752A)
-Teff(M3V) = 3320 +- 14 K ; Pecaut13 (ter. stan. GJ 687)
-Teff(M3V) =   3350 K ; Bessell91 "old disk"
-Teff(M3V) = 3373 K ; RojasAyala12(mean N=29 M3V stars)
-Teff(M3V) = 3377 +- 18 K ; Pecaut13 (sec. stan. GJ 436)
-Teff(M3V) = 3380 K ; pri. stan. GJ 752A median Teff
-Teff(M3V) = 3390 K ; sec. stan. GJ 109 median Teff
-Teff(M3V) =  3400 K ; deprecated standard GJ 251 median Teff
-Teff(M3V) = 3410 K ; sec. stan. GJ 436 adopted Teff
-Teff(M3V) =  3412 +- 54 K ; Boyajian12b (N=3)
-Teff(M3V) = 3416 +- 54 K ; non-standard GJ 436 (vonBraun12)
-Teff(M3V) =  3423 +- 62 K ; Lepine12 
-Teff(M3V) = 3451 K ; sec. stan. GJ 725A 
-Teff(M3V) =   3470 K ; Schmidt-Kaler82
-Teff(M3V) = 3473 K ; Boyajian12 calibration V-K=4.60, [Fe/H]=0.0
-Teff(M3V) = 3489 K ; ter. stan. GJ 687 
-Teff(M3V) =   3493 K ; deprecated standard GJ 860A median Teff
-Teff(M3V) =   3636 K ; deprecated standard GJ 569A median Teff
-=> adopt Teff(M3V) = 3400 K (logT = 3.531)
+(Bp-Rp)(M3V) =  2.1965 ; HD_225213     M3V
+(Bp-Rp)(M3V) =  2.2911 ; BD+16_2708    M3V
+(Bp-Rp)(M3V) =  2.3201 ; CD-45_5378    M3V
+(Bp-Rp)(M3V) =  2.3634 ; Ross_695      M3V
+(Bp-Rp)(M3V) = 2.3816 ; GJ_752A pri. stan.
+(Bp-Rp)(M3V) =  2.4008 ; BD-18_359     M3V
+(Bp-Rp)(M3V) = 2.4551 ; GJ_725A sec. stan.
+(Bp-Rp)(M3V) = 2.4574 ; GJ_436  sec. stan.
+(Bp-Rp)(M3V) = 2.46   ; Kiman19 
+(Bp-Rp)(M3V) =  2.4646 ; Ross_318      M3V
+(Bp-Rp)(M3V) =  2.4657 ; CD-46_11540   M3V
+(Bp-Rp)(M3V) =  2.4902 ; G_262-15      M3V
+(Bp-Rp)(M3V) =  2.4931 ; CD-37_10765A  M3V
+(Bp-Rp)(M3V) =  2.4980 ; CD-51_6859    M3V(e)
+(Bp-Rp)(M3V) = 2.5041 ; GJ_109  ter. stan.
+(Bp-Rp)(M3V) = 2.5259 ; GJ_687  sec. stan.
+(Bp-Rp)(M3V) =  2.5421 ; CD-40_5404    M3V
+(Bp-Rp)(M3V) =  2.5466 ; BD-05_5715    M3V
+(Bp-Rp)(M3V) =  2.5493 ; CD-30_731     M3V
+(Bp-Rp)(M3V) = 2.565  ; median d<10pc N=27 
+(Bp-Rp)(M3V) = 2.5646 ; GJ_251  sec. stan.
+(Bp-Rp)(M3V) = 2.5684 ; GJ_581  exemplar 
+(Bp-Rp)(M3V) =  2.5749 ; BD+20_2465    M3Ve
+(Bp-Rp)(M3V) =  2.6029 ; LP_776-46     M3V
+(Bp-Rp)(M3V) =  2.6109 ; L_768-119     M3V
+(Bp-Rp)(M3V) =  2.6245 ; BD+66_34B     M3V
+(Bp-Rp)(M3V) =  2.6317 ; CD-44_3045B   M3.0V
+(Bp-Rp)(M3V) =  2.6755 ; LP_399-68     M3V
+(Bp-Rp)(M3V) =  2.7176 ; CD-44_3045B   M3.0V
+(Bp-Rp)(M3V) =  2.7390 ; BD-12_4523    M3V
+=> adopt (Bp-Rp)(M3V) = 2.50 [updated 7/10/2020]
 
-[EEM 4/17/2013: 3400K agrees well with recent estimates by
- RojasAyalas12, Boyajian12, Pecaut13, and Lepine, and agrees well with
- median/adopted Teffs for standards GJ 752A and GJ
- 436. Casagrande08-derived Teffs are lower (~3250K).]
+(G-Rp)(M3V) = 1.1037 ; GJ_752A  sec. stan. 
+(G-Rp)(M3V) = 1.1116 ; GJ_436   sec. stan.
+(G-Rp)(M3V) = 1.1148 ; GJ_725A  pri. stan.
+(G-Rp)(M3V) = 1.1227 ; GJ_109   ter. stan.
+(G-Rp)(M3V) = 1.140  ; d<10pc median (N=28)
+(G-Rp)(M3V) = 1.1416 ; GJ_687   sec. stan.
+(G-Rp)(M3V) = 1.1418 ; GJ_251   sec. stan.
+(G-Rp)(M3V) = 1.1434 ; GJ_581   exemplar
+(G-Rp)(M3V) = 1.144  ; color trend M0V-M9V 
+(G-Rp)(M3V) =  1.16  ; Kiman19 
+=> adopt (G-Rp)(M3V) = 1.13 [updated 11/18/2020]
+=> adopt (Bp-G)(M3V) = 1.37 [updated 11/18/2020; Bp-Rp=2.50, G-Rp=1.13]
 
-BCv(M3V) =   -1.686 mag ; EEM fit to Casagrande08 data for Teff=3400K
-BCv(M3V) =  -1.847 mag ; deprecated standard GJ 569A (see notes)
-BCv(M3V) = -1.872 mag ; non-standard GJ 436 (Pecaut13)
-BCv(M3V) =  -1.886 mag ; Pecaut13(V-K=4.60)
-BCv(M3V) = -1.897 +- 0.019 mag ; pri. stan. GJ 725A (Pecaut13)
-BCv(M3V) = -1.949 mag ; ter. stan. GJ 687 (Pecaut13)
-BCv(M3V) = -1.950 mag ; BC_K=2.65 and V-K=4.60
-BCv(M3V) =  -1.962 mag ; pri. stan. GJ 752A (see notes). 
-BCv(M3V) =  -2.012 mag ; deprecated standard GJ 352 A
-BCv(M3V) =    -2.02  mag ; Schmidt-Kaler82(BCv=-2.15 + 0.13 offset)
-BCv(M3V) =    -2.03  mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
-BCv(M3V) =  -2.039 mag ; sec. stan. GJ 725A (see notes below)
-BCv(M3V) = -2.10 mag ; BC_K = 2.50, V-Ks = 4.60
-BCv(M3V) =  -2.108 mag ; sec. stan. GJ 109 (see notes below)
-BCv(M3V) =  -2.248 mag ; sec. stan. GJ 251 (see notes below)
-BCv(M3V) =   -2.509 mag ; deprecated stan. GJ 628 (see notes below)
-BCv(M3V) =    -2.672 mag ; Flower96(Teff=3400K)
-=> adopt BCv(M3V) = -1.93 mag 
+(Bp-G)(M3V) = 1.31 ; Kiman19 
 
-[EEM 4/24/2013: using BC_K=2.67 and V-K=4.60]
+M_G(M3V) =   9.239   ; GJ_752A  pri. stan. 
+M_G(M3V) =   9.61295 ; L 49-19                      
+M_G(M3V) =   9.81435 ; HD 155876                     
+M_G(M3V) =   9.8386  ; CD-37 10765A                  
+M_G(M3V) =   9.88473 ; G 262-15
+M_G(M3V) =   9.97    ; Kiman19 
+M_G(M3V) =  10.0339 ; V* VX Ari                     
+M_G(M3V) =  10.0411 ; CD-46 11540
+M_G(M3V) = 10.05   ; Mv=11.15, G-V=-1.10 
+M_G(M3V) = 10.06   ; trend d<20pc SIMBAD for V-Ks=4.60
+M_G(M3V) =  10.1152 ; HD 173739                     
+M_G(M3V) =  10.1212 ; HD 265866
+M_G(M3V) = 10.231  ; trend d<10pc SIMBAD
+M_G(M3V) =  10.4146 ; BD-07 4003                    
+M_G(M3V) =  10.4465 ; G 207-16
+M_G(M3V) =  10.5145 ; exemplar GJ 3459 = LHS 1935 = LP 783-1 
+M_G(M3V) =  10.6234 ; BD-12 4523                    
+M_G(M3V) =  10.6254 ; HD 239960A                    
+M_G(M3V) =   10.8428 ; CD-44 3045B                  
+M_G(M3V) =   10.8871 ; CD-44 3045A                   
+M_G(M3V) =   11.4505 ; LP 399-68
 
-BC_K(M3V) =  2.433 ; sec. stan. GJ 725A
-BC_K(M3V) =  2.485 ; pri. stan. GJ 752A
-BC_K(M3V) =  2.497 ; sec. stan. GJ 251
-BC_K(M3V) =  2.499 ; ter. stan. GJ 687 
-BC_K(M3V) =  2.516 ; deprecated standard GJ 628
-BC_K(M3V) =  2.526 ; sec. stan. GJ 109
-BC_K(M3V) =  2.533 ; deprecated standard GJ 569A
-BC_K(M3V) =  2.543 ; deprecated standard GJ 352A
-BC_K(M3V) =  2.550 ; sec. stan. GJ 436
-BC_K(M3V) = 2.575 +- 0.024 ; sec. stan. GJ 725A (Pecaut13) [mbol = 7.007+-0.014, Ks=4.432+-0.020]
-BC_K(M3V) = 2.625 ; Leggett01 polynomial for J-K=0.831
-BC_K(M3V) = 2.654 ; Leggett01 polynomial for I-K=2.180 
-BC_K(M3V) = 2.683 +- 0.023 ; ter. stan. GJ 687 (Pecaut13) [mbol = 7.231+-0.010, Ks=4.548+-0.021]
-BC_K(M3V) = 2.705 +- 0.019 ; non-standard GJ 436 (Pecaut13) [mbol = 8.778+-0.011, Ks=6.073+-0.016] 
-BC_K(M3V) = 2.714 ; Pecaut13(V-K=4.60)
-=> adopt BC_K(M3V) = 2.67
+(G-V)(M3V) = -1.1585 ; GJ_436 
+(G-V)(M3V) = -1.1225 ; GJ_687
+(G-V)(M3V) = -1.111  ; polynomial fit to SIMBAD d<25pc M dwarfs
+(G-V)(M3V) = -1.1025 ; GJ_109
+(G-V)(M3V) = -1.095  ; G-V trend for M3V for V-Ks=4.6 (SIMBAD d<20pc)
+(G-V)(M3V) = -1.0828 ; GJ_251  
+(G-V)(M3V) = -1.0546 ; GJ_725A 
+(G-V)(M3V) = -1.0174 ; GJ_752A
+=> adopt (G-V)(M3V)  = -1.10 [updated 11/1/2020]
+=> adopt (G-Ks)(M3V) = 4.60 + -1.10 = 3.50 [updated 11/1/2020]
 
-Mv(M3V) =   10.23 ; deprecated stan. GJ 569A 
+(g-r)(M3V) = 1.46 ; Covey07
+
+(r-i)(M3V) = 1.21  (+-0.16 rms) ; West08
+(r-i)(M3V) = 1.212 (+-0.05 rms) ; West05 fit for (V-Ic)=2.42
+=> adopt (r-i)(M3V) = 1.21 [updated 12/27/2021]
+
+(i-z)(M3V) = 0.65 (+-0.08; rms) ; West08
+
+(z-J)(M3V) = 1.37  (+-0.17  rms) ; West08
+(z-J)(M3V) = 1.456 (+-0.028 rms) ; poly fit to d<100pc GCNS for G-Ks=3.50
+
+Mv(M3V) =    10.23 ; deprecated stan. GJ 569A 
 Mv(M3V) =  10.28 ; pri. stan. GJ 752A
-Mv(M3V) =   10.32 ; Wegner07
-Mv(M3V) =   10.4  ; Schmidt-Kaler82
-Mv(M3V) =   10.46 ; deprecated stan.  GJ 22B
+Mv(M3V) =    10.32 ; Wegner07
+Mv(M3V) =    10.4  ; Schmidt-Kaler82
+Mv(M3V) =    10.46 ; deprecated stan.  GJ 22B
 Mv(M3V) =  10.64 ; sec. stan. GJ 436
-Mv(M3V) =   10.71 ; deprecated stan. GJ 352 A
+Mv(M3V) =  10.69 ; EEM fit to Winters+2015 data
+Mv(M3V) =    10.71 ; deprecated stan. GJ 352 A
+Mv(M3V) =  10.71 ; Koen10 d<25pc median M3V 
+Mv(M3V) =    10.84 ; Kirkpatrick94
 Mv(M3V) =  10.87 ; ter. stan. GJ 687
-Mv(M3V) = 11.14 ; M_Ks=6.54, V-K=4.60  
+Mv(M3V) =  10.89 ; EEM fit to Jao2016 data for V-K=4.60
+Mv(M3V) = 11.15 ; M_Ks=6.55, V-K=4.60
+Mv(M3V) = 11.15 ; M_G=10.05, G-V=-1.10
 Mv(M3V) =  11.16 ; sec. stan. GJ 725A
-Mv(M3V) = 11.17 ; JohnsonApps09 calibration for V-K=4.60
-Mv(M3V) =  11.22 ; sec. stan. GJ 109 
-Mv(M3V) = 11.23 ; Henry04 calirbation for V-K=4.60
-Mv(M3V) =  11.28 ; sec. stan. GJ 251
-Mv(M3V) =   11.5  ; Reid04
-Mv(M3V) =   11.66 ; Henry94
-Mv(M3V) =   11.94 ; deprecated stan. GJ 628
-=> adopt Mv(M3V) = 11.14 mag 
+Mv(M3V) =  11.17 ; JohnsonApps09 calibration for V-K=4.60
+Mv(M3V) =  11.18 ; median SIMBAD M3V d<25pc (N=177)
+Mv(M3V) =  11.22 ; tert. stan. GJ 109 
+Mv(M3V) =  11.23 ; Henry04 calirbation for V-K=4.60
+Mv(M3V) =   11.28 ; sec. stan. GJ 251
+Mv(M3V) =    11.5  ; Reid04
+Mv(M3V) =    11.66 ; Henry94
+Mv(M3V) =    11.94 ; deprecated stan. GJ 628
+=> adopt Mv(M3V)   = 11.15 mag [updated 11/15/2021] (M_Ks=6.55, V-Ks=4.60)
+=> adopt M_G(M3V)  = 10.05 mag [updated 11/15/2021] (Mv=11.15, G-V=-1.10)
+=> adopt M_Ks(M3V) =  6.55 mag [updated 11/15/2021] (Mv=11.15, V-Ks=4.60)
 
-[4/25/2013: calculated from M_Ks=6.54, V-K=4.60]
-
-M_Ks(M3V) = 5.83  ; pri. standard GJ 752A
+M_Ks(M3V) =  5.83  ; pri. standard GJ 752A
 M_Ks(M3V) =   5.85  ; deprecated standard GJ 569A 
-M_Ks(M3V) = 6.043 ; sec. standard GJ 436
+M_Ks(M3V) =  6.043 ; sec. standard GJ 436
 M_Ks(M3V) =   6.15  ; deprecated standard GJ 352A
-M_Ks(M3V) = 6.27  ; ter. standard GJ 687 
+M_Ks(M3V) =  6.27  ; ter. standard GJ 687
+M_Ks(M3V) =  6.29  ; EEM fit to Jao+2016 data for V-Ks=4.60
 M_Ks(M3V) =   6.36  ; deprecated standard GJ 22B 
-M_Ks(M3V) = 6.54  ; sec. standard GJ 251
-M_Ks(M3V) = 6.541 ; V-K=4.60 => JohnsonApps2009 calibration [Fe/H]=0.00
-M_Ks(M3V) = 6.58  ; sec. standard GJ 109 
-M_Ks(M3V) = 6.63  ; V-K=4.60 => Henry04 calibration
-M_Ks(M3V) = 6.69  ; sec. standard GJ 725A
-M_Ks(M3V) =   6.91 ; deprecated standard GJ 628
-=> adopt M_Ks(M3V) = 6.54 mag 
+M_Ks(M3V) =  6.50  ; V-K=4.60 => EEM fit to Winters+2015 data 
+M_Ks(M3V) =  6.51  ; V-K=4.60 => Finch14
+M_Ks(M3V) =  6.54  ; sec. standard GJ 251
+M_Ks(M3V) = 6.55  ; Mv=11.15, V-Ks=4.60 
+M_Ks(M3V) =  6.57  ; V-K=4.60 => JohnsonApps2009 calibration [Fe/H]=0.00
+M_Ks(M3V) =  6.58  ; ter. standard GJ 109 
+M_Ks(M3V) =  6.63  ; V-K=4.60 => Henry04 calibration
+M_Ks(M3V) =  6.69  ; sec. standard GJ 725A
+M_Ks(M3V) =   6.91  ; deprecated standard GJ 628
+M_Ks(M3V) =  6.97  ; exemplar GJ 3459 = LHS 1935 = LP 783-1 
+
+
+Teff(M3V) =   3231 K ; mean photometric Teff
+Teff(M3V) =   3276 K ; median Teff for 48 Teffs for M3V stars (EEM)
+Teff(M3V) =   3300 K ; Rajpurohit13 (N=9)
+Teff(M3V) =   3300 K ; Johnson66
+Teff(M3V) =   3316 +- 12 K ; Pecaut13 (pri. stan. GJ 752A)
+Teff(M3V) =   3320 +- 14 K ; Pecaut13 (ter. stan. GJ 687)
+Teff(M3V) =  3332 K ; Morrell19 <Teff> for stars w/i +-0.05 mag of M_Ks=6.50
+Teff(M3V) =   3344 K ; deprecated stan. GJ 628
+Teff(M3V) =   3350 K ; Bessell91 "old disk"
+Teff(M3V) =  3373 K ; RojasAyala12(mean N=29 M3V stars)
+Teff(M3V) =   3377 +- 18 K ; Pecaut13 (sec. stan. GJ 436)
+Teff(M3V) =  3382 K ; Rajpurohit18(mean for N=38 M3Vs)
+Teff(M3V) =  3390 K ; ter. stan. GJ 109
+Teff(M3V) =  3402 K ; exemplar GJ 3459 = LHS 1935 = LP 783-1 (peak M_G)
+Teff(M3V) =  3405 K ; sec. stan. GJ 251
+Teff(M3V) =  3410 K ; Rad=0.367Rsun using Mann15 calib for M_Ks=6.55, [Fe/H]=0.0
+Teff(M3V) =  3410 K ; exemplar GJ 581 
+Teff(M3V) =  3412 +- 54 K ; Boyajian12b (N=3)
+Teff(M3V) =  3415 K ; smooth Teff(SpT) trend
+Teff(M3V) =   3416 +- 54 K ; non-standard GJ 436 (vonBraun12)
+Teff(M3V) =   3423 +- 62 K ; Lepine12
+Teff(M3V) =  3427 K ; empirical L-R relation, for logL=-1.788
+Teff(M3V) =  3451 K ; sec. stan. GJ 725A
+Teff(M3V) =  3456 K ; Passegger18 median Teff for CARMENES M3.0Vs(N=48)
+Teff(M3V) =   3470 K ; Schmidt-Kaler82
+Teff(M3V) =   3473 K ; Boyajian12 calibration V-K=4.60, [Fe/H]=0.0
+Teff(M3V) =  3477 K ; sec. stan. GJ 436 
+Teff(M3V) =  3489 K ; ter. stan. GJ 687 
+Teff(M3V) =   3493 K ; deprecated standard GJ 860A median Teff
+Teff(M3V) =  3558 K ; pri. stan. GJ 752A
+Teff(M3V) =   3636 K ; deprecated standard GJ 569A median Teff
+=> adopt Teff(M3V) = 3430 K (logT = 3.535) [updated 7/17/2020]
+
+BCv(M3V) =    -1.686 mag ; EEM fit to Casagrande08 data for Teff=3400K
+BCv(M3V) =   -1.847 mag ; deprecated standard GJ 569A (see notes)
+BCv(M3V) =  -1.872 mag ; non-standard GJ 436 (Pecaut13)
+BCv(M3V) =   -1.886 mag ; Pecaut13(V-K=4.60)
+BCv(M3V) =  -1.897 +- 0.019 mag ; pri. stan. GJ 725A (Pecaut13)
+BCv(M3V) = -1.930 mag ; Mann15(V-J=3.769)
+BCv(M3V) =  -1.949 mag ; ter. stan. GJ 687 (Pecaut13)
+BCv(M3V) =   -1.962 mag ; pri. stan. GJ 752A (see notes)
+BCv(M3V) = -1.93 mag ; BC_K = 2.67, V-Ks = 4.60
+BCv(M3V) = -1.983 mag ; Casagrande18(Teff=3420K,logg=4.5)
+BCv(M3V) =   -2.012 mag ; deprecated standard GJ 352 A
+BCv(M3V) =     -2.02  mag ; Schmidt-Kaler82(BCv=-2.15 + 0.13 offset)
+BCv(M3V) =     -2.03  mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
+BCv(M3V) =   -2.033 mag ; exemplar GJ 581 = Wolf 562 
+BCv(M3V) =   -2.039 mag ; sec. stan. GJ 725A (see notes below)
+BCv(M3V) =   -2.108 mag ; ter. stan. GJ 109 (see notes below)
+BCv(M3V) =   -2.248 mag ; sec. stan. GJ 251 (see notes below)
+BCv(M3V) =    -2.509 mag ; deprecated stan. GJ 628 (see notes below)
+BCv(M3V) =     -2.672 mag ; Flower96(Teff=3400K)
+=> adopt BCv(M3V) = -1.93 mag [updated 11/3/2019, BC_K=2.67, V-K=4.60]
+
+BC_K(M3V) =   2.433 ; sec. stan. GJ 725A
+BC_K(M3V) =   2.485 ; pri. stan. GJ 752A
+BC_K(M3V) =   2.497 ; sec. stan. GJ 251
+BC_K(M3V) =   2.499 ; ter. stan. GJ 687 
+BC_K(M3V) =   2.516 ; deprecated standard GJ 628
+BC_K(M3V) =   2.526 ; tert. stan. GJ 109
+BC_K(M3V) =   2.533 ; deprecated standard GJ 569A
+BC_K(M3V) =   2.543 ; deprecated standard GJ 352A
+BC_K(M3V) =   2.550 ; sec. stan. GJ 436
+BC_K(M3V) =  2.575 +- 0.024 ; sec. stan. GJ 725A (Pecaut13) [mbol = 7.007+-0.014, Ks=4.432+-0.020]
+BC_K(M3V) = 2.617 ; Casagrande18(BCv=-1.983,Teff=3420K) w/V-Ks=4.60
+BC_K(M3V) =  2.625 ; Leggett01 polynomial for J-K=0.831
+BC_K(M3V) =  2.654 ; Leggett01 polynomial for I-K=2.180
+BC_Ks(M3V)= 2.664 ; Morrell19 trend for G-Ks=3.50
+BC_K(M3V) = 2.678 ; Mann15(V-J=3.769)
+BC_K(M3V) =  2.683 +- 0.023 ; ter. stan. GJ 687 (Pecaut13) [mbol = 7.231+-0.010, Ks=4.548+-0.021]
+BC_Ks(M3V)= 2.702 ; exemplar GJ 581 = Wolf 562 
+BC_K(M3V) =  2.705 +- 0.019 ; non-standard GJ 436 (Pecaut13) [mbol = 8.778+-0.011, Ks=6.073+-0.016] 
+BC_K(M3V) =  2.714 ; Pecaut13(V-K=4.60)
+=> adopt BC_K(M3V) = 2.66 [updated 11/15/2021]
 
 logL(M3V) =  -1.43 dex ; pri. stan. GJ 752A 
 logL(M3V) =   -1.46 dex ; deprecated stan. GJ 569A
 logL(M3V) =  -1.54 dex ; sec. stan. GJ 436 
 logL(M3V) =  -1.58 dex ; ter. stan. GJ 687
-logL(M3V) = -1.782 dex ; Mv=11.14 & BCv=-1.93 => Mbol=9.210
-logL(M3V) = -1.782 dex ; M_Ks=6.54 & BC_Ks=2.67 => Mbol=9.210
 logL(M3V) =  -1.75 dex ; sec. stan. GJ 725A 
-logL(M3V) =  -1.76 dex ; sec. stan. GJ 109 
+logL(M3V) =  -1.76 dex ; ter. stan. GJ 109
+logL(M3V) = -1.770 dex ; Morrell19 trend for logL for M_Ks=6.50 
+logL(M3V) = -1.788 dex ; M_Ks=6.55 & BC_Ks=2.66 => Mbol=9.210
 logL(M3V) =   -1.88 dex ; deprecated stan. GJ 628
-=> adopt logL(M3V) = -1.782 dex
-=> adopt Mbol(M3V) =  9.210 mag 
+logL(M3V) =   -1.92 dex ; exemplar GJ 581 = Wolf 562 (Pineda21)
+logL(M3V) =   -1.96 dex ; deprecated stan. GJ 628 (Pineda21)
+=> adopt logL(M3V) = -1.788 dex [updated 11/15/2021]
+=> adopt Mbol(M3V) =  9.210 mag [updated 11/15/2021]
 
-Mass(M3V) = 0.31 Msun ; deprecated standard GJ 22B (MSC)
-Mass(M3V) = 0.35 Msun ; Mv=11.16 => HenryMcCarthy93 calibration
-Mass(M3V) = 0.35 Msun ; M_Ks=6.50 => Delfosse10 calibration
-Mass(M3V) = 0.43 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.77)
-Mass(M3V) = 0.43 Msun ; EEM Teff vs. Mass fit for binaries (Teff=3400K)
-Mass(M3V) = 0.434 Msun ; Eker15 calibration for logL=-1.782
-Mass(M3V) = 0.507+0.071-0.062 ; non-stan. GJ 436 (vonBraun12)
-Mass(M3V) = 0.54 Msun ; EEM Mv vs. Mass fit for binaries (Mv=11.17)
-=> adopt Mass(M3V) = 0.43 Msun
+Mass(M3V) = 0.214+-0.001 Msun ; GJ747A (Benedict16)
+Mass(M3V) = 0.268+-0.020 Msun ; GJ860A (Benedict16)
+Mass(M3V) =  0.304 Msun ; deprecated stan. GJ 628 (Pineda21)
+Mass(M3V) =  0.305 Msun ; exemplar GJ 3459 = LHS 1935 = LP 783-1
+Mass(M3V) =  0.31 Msun ; deprecated standard GJ 22B (MSC)
+Mass(M3V) =  0.330 Msun ; Benedict16 calib. for Mv=11.10 
+Mass(M3V) =  0.35 Msun ; Mv=11.16 => HenryMcCarthy93 calibration
+Mass(M3V) = 0.355 Msun ; M_Ks=6.55 => Mann18 calibration
+Mass(M3V) = 0.390 Msun ; M_Ks=6.55 => Benedict16 calibration
+Mass(M3V) = 0.398 Msun ; Eker18 calibration for logL=-1.788
+Mass(M3V) =  0.43 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.77)
+Mass(M3V) =  0.432 Msun ; Eker15 calibration for logL=-1.788
+Mass(M3V) =  0.507+0.071-0.062 ; non-stan. GJ 436 (vonBraun12)
+Mass(M3V) =  0.54 Msun ; EEM Mv vs. Mass fit for binaries (Mv=11.17)
+=> adopt Mass(M3V) = 0.36 Msun [updated 7/17/2020] 
 
-Rad(M3V) = 0.4097 +- 0.0075 Rsun ; Boyajian12b (N=3) 
-Rad(M3V) = 0.455 +- 0.018 Rsun ; non-stan. GJ 436 (vonBraun12)
+Rad(M3V) =  0.310 Rsun          ; exemplar GJ 581 (Pineda21)
+Rad(M3V) =  0.319 Rsun          ; exemplar GJ 628 (Pineda21)
+Rad(M3V) =  0.322+-0.005   Rsun ; exemplar GJ 581 = Wolf 562 
+Rad(M3V) =  0.356+-0.004   Rsun ; sec. stan. GJ 725A = LHS 58 (Yee17)
+Rad(M3V) =  0.358+-0.013   Rsun ; sec. stan. GJ 251 = HD 265866 (Yee17)
+Rad(M3V) = 0.36146         Rsun ; logL=-1.788, Teff=3430K
+Rad(M3V) =  0.364+-0.014   Rsun ; ter. stan. GJ 109 = LHS 1439 (Yee17)
+Rad(M3V) = 0.367          Rsun ; Mann15 trend M_Ks=6.55, [Fe/H]=0.0
+Rad(M3V) = 0.392          Rsun ; Rabus19 trend for Teff=3440K
+Rad(M3V) =  0.4097+-0.0075 Rsun ; Boyajian12b (N=3)
+Rad(M3V) =  0.418+-0.007   Rsun ; sec. stan. GJ 687 = HIP 86162 (Yee17)
+Rad(M3V) =  0.455+-0.018   Rsun ; sec. stan. GJ 436 (Yee17)
+Rad(M3V) =  0.474+-0.016   Rsun ; pri. stan. GJ 752A (Yee17)
+=> adopt Rad(M3V) = 0.361 Rsun [updated 12/28/2020]
 
 # No Standards
 
@@ -277,48 +463,46 @@ Houk75 lists no standards later than M2V.
 # Primary Standards
 
 GJ 752A = HD 180617 = LHS 473 = Wolf 1055 = V1428 Aql = HIP 94761 (J1916+0510)
- *M3V: Lee47(M3),Joy74,Boeshaar76(stan),Boeshaar85(dM3),Kirkpatrick91(pri),Henry94,Boeshaar94,Henry02,Kirkpatrick(GrayCorbally09)
-  M3-V: Keenan88
-  M3.5V: JM53
-  M2.5V: Hawley97
+  M1V: Newton14(near-IR for GJ752AB)
   M2III: Houk99(q=3)
+  M2.5V: Hawley97,Lepine13
+  M2.6V: Mann15
+  M3-V: Keenan85,Keenan88
+ *M3V: Lee47(M3),Joy74,Boeshaar76(stan),Boeshaar85(dM3),Kirkpatrick91(pri),Kirkpatrick94,Henry94,Boeshaar94,Henry02,Kirkpatrick(GrayCorbally09),Kirkpatrick10(opt.,near-IR),Gaidos14(M3)
+  M3.5V: JM53
 
   Continuity as M3V standard from Boeshaar, Kirkpatrick, & Henry, and
   Kirkpatrick considers this the primary standard.  Unfortunately 3
   expert classifiers have it +-0.5 subtype different from M3V
-  (e.g. JohnsonMorgan53, Keenan88, Hawley97), but it appears to be the
-  best available.  GJ 752B is ~75" away (Lepine07).  V=9.12(HIP),
-  B-V=1.464+-0.005(HIP), V-I=2.32+-0.00(HIP), R-I=1.29(Delfosse98),
-  J=5.583+-0.030(2MASS), H=4.929+-0.027, Ks=4.673+-0.020(2MASS),
-  V-J=3.537(HIP & 2MASS), (V-Ks)=4.447(HIP & 2MASS).  mbol =
-  7.158+-0.022 using 2MASS JHKs and Casagrande08 calibration => BCv =
-  mbol - V = 7.158 - 9.12 = -1.962, BC_Ks = 2.485.  Plx = 170.36+-1.00
-  mas => Mv = 10.28, M_Ks = 5.83+-0.02, Mbol = 8.32+-0.03, logL =
-  -1.43+-0.01. Teffs: 3240K(Berriman92), 3250K(ReidHawley05),
-  3300K(Reid84), 3368K(Berger06#1), 3390K(Berger06#2), 3475K(Tsuji96),
-  3343K(Casagrande08), 3789K(RojasAyala12) => median Teff ~ 3380 K.
+  (e.g. JohnsonMorgan53, Keenan88, Hawley97), and Newton15 considers
+  it M1V(!) in the near-IR, but it appears to be the best
+  available. It is also a bit bluer and brighter than all the other
+  M3V "standards", so it might be best considered M3-V? Companion GJ
+  752B (M8V standard) is ~75" away (Lepine07).  V=9.12(HIP),
+  V=9.115(Koen10), B-V=1.464+-0.005(HIP), B-V=1.515(Koen10),
+  U-B=1.138(Koen10), V-Ic=2.333(Koen10), V-I=2.32+-0.00(HIP),
+  V-Rc=1.039(Koen10), R-I=1.29(Delfosse98), J=5.583+-0.030(2MASS),
+  H=4.929+-0.027, Ks=4.673+-0.020(2MASS), V-J=3.537(HIP & 2MASS),
+  (V-Ks)=4.447(HIP & 2MASS).  mbol = 7.158+-0.022 using 2MASS JHKs and
+  Casagrande08 calibration => BCv = mbol - V = 7.158 - 9.12 = -1.962,
+  BC_Ks = 2.485.  Plx = 170.36+-1.00 mas => Mv = 10.28, M_Ks =
+  5.83+-0.02, Mbol = 8.32+-0.03, logL = -1.43+-0.01.  Teffs:
+  3425K(Stelzer13), 3510K(Houdebine16), 3500K(Rajopurohit18),
+  3500K(Lepine13), 3557K(Gaidos14), 3558+-60K(Mann15#1),
+  3559K(Muirhead18), 3619+-34K(Mann15#2), 3680+-70K(Gaidos14),
+  3789K(RojasAyala12) => median Teff = 3558 K.
+  R=0.457+-0.010Rsun(Mann15#2), R=0.474+-0.016Rsun(Mann15#1),
+  M=0.475+-0.047Msun(Mann15#1), M=0.488+-0.011Msun(Mann15#2),
+  [Fe/H]=0.10+-0.08(Mann15), [Fe/H]=0.06+-0.12(Newton14).
+  Rad=0.474+-0.016Rsun(Yee17). GaiaDR2: plx=169.1590+-0.0520,
+  M_G=8.0976+-0.0011, E(BR/RP)=1.403, Bp-Rp=2.3816, Bp-G=1.2779,
+  G-Rp=1.1037.  M_G=9.239+-0.001, M_Ks=5.814+-0.020, Mv=10.26.
 
 # Secondary Standards
 
-GJ 109 = LHS 1439 = NLTT 8817 = LTT 10844 = HIP 12781 = VX Ari = Ross 556 (J0233+2455) 
- *M3V: Lee47, Bidelman85, Henry94, Henry02
-  M2V: Vyssotsky56, Stephenson86
-  M3.5V: Joy74
-
-  In DwarfArchives, Kirkpatrick cites Henry94.
-  V=10.595+-0.009(Mermilliod91), B-V=1.550+-0.000(Mermilliod91),
-  U-B=1.110(Mermilliod91), J=6.752+-0.018(2MASS),
-  H=6.197+-0.017(2MASS), Ks=5.961+-0.021(2MASS). (V-Ks) = 10.595 -
-  5.961 = 4.634.  Plx = 133.16+-2.26 mas (vanLeeuwen07) => Mv =
-  11.22+-0.04, M_Ks = 6.58+-0.04. Using Casagrande08 calibration and
-  2MASS JHK photometry => mbol = 8.487+-0.021 => Mbol = 9.11 => logL =
-  -1.75 => BCv = mbol - V = 8.487 - 10.595 = -2.108, BC_K = mbol - Ks
-  = 2.526.  Teffs: 3228K(Jenkins09), 3238K(V-K=>Casagrande08),
-  3390K(Morales08), 3462K(Koleva12), 3487K(V-K=>Mozurkewich03) =>
-  median Teff = 3390K.
-
 GJ 251 = HD 265866 = Wolf 294 = G 087-012 = LHS 1879 = HIP 33226
- *M3V: Lee47(M3),Kirkpatrick91(pri),Henry94,Hawley97,Henry02,Hawley02(stan)
+ *M3V: Lee47(M3),Kirkpatrick91(pri),Henry94,Hawley97,Henry02,Hawley02(stan),Gaidos14(M3),Newton14(near-IR)
+  M3.2: Mann15
   M3.5V: Joy74,Boeshaar76(stan)
   M4V: Stephenson86,Jenkins09
   M5: Roth51,Vyssotsky56
@@ -338,15 +522,19 @@ GJ 251 = HD 265866 = Wolf 294 = G 087-012 = LHS 1879 = HIP 33226
   Vmag from Weis93 (close to median of published values), V-Ks = 10.02
   - 5.275 = 4.745. Plx = 179.01 +- 1.60 mas (vanLeeuwen07) => Mv =
   11.28, M_Ks = 6.54, Mbol = 9.04, logL=-1.72.  Mass = 0.372+-0.002
-  Msun(Jenkins09). Teffs: 3245K(Jenkins09), 3400K(Frasca09),
-  3477+-11K(Wu11), 5511K(Valdes04; typo?!) => adopt Teff = 3400K.
+  Msun(Jenkins09). Teffs: 3318K(Stelzer13), 3389+-68K(Gaidos14),
+  3400K(Frasca09), 3400K(Rajopurohit18) 3401K(Gaidos14),
+  3410+-100K(Houdebine16), 3448+-60K(Mann15#1), 3477+-11K(Wu11),
+  3487+-31K(Mann15#2), 3500K(Rojas-Ayala12) => adopt Teff = 3405K.
+  [Fe/H]=-0.02+-0.08(Mann15). R=0.349+-0.008Rsun(Mann15),
+  M=0.365+-0.009Msun(Mann15). Rad=0.358+-0.013Rsun(Yee17). 
 
 GJ 436 = Ross 905 = HIP 57087 = DO 14469 = G 120-068 = LHS 310 = NLTT 28288
- *M3V: Boeshaar76,Bidelman85,Kirkpatrick91(pri),Henry02
-  M2.5V: Hawley97,Reid04
-  M2V: Vyssotsky56,Stephenson86
-  M3.5V: Joy74
   M0: Lee47
+  M2V: Vyssotsky56,Stephenson86
+  M2.5V: Hawley97,Reid04,Terrien15,Alonso-Floriano15
+ *M3V: Boeshaar76,Bidelman85,Kirkpatrick91(pri),Henry02,RojasAyala12,Lepine13,Newton14,Gaidos14,Mann15
+  M3.5V: Joy74
 
   Has hot Neptune transiting companion GJ 436b.
   B=12.179+-0.01(UCAC4), V=10.613+-0.01(UCAC4), V=10.65(Weis93),
@@ -360,14 +548,21 @@ GJ 436 = Ross 905 = HIP 57087 = DO 14469 = G 120-068 = LHS 310 = NLTT 28288
   98.61+-2.33(vanLeeuwen07) => Mv = 10.64, M_Ks = 6.043, Mbol =
   8.593+-0.052, logL = -1.54+-0.02. BCv = mbol - V = 8.623 - 10.67 =
   -2.047, BC_Ks = mbol - Ks = 8.623 - 6.073 = Teffs:
-  3253K(V-K=>Casagrande08 calib.), 3410K(Morales08), 4002K(Butler06,
-  using Flower96 B-V calib.) => adopt Teff = 3410K.  Sozetti06 lists
-  probability 89% thin disk, 11% thick disk star.
+  3253K(V-K=>Casagrande08 calib.), 3410K(Morales08),
+  3416+-53K(Boyajian12), 3469+-17K(RojasAyala12),
+  3477+-81K(Newton15#2), 3479+-60K(Mann15#1), 3520+-66K(Newton15#1),
+  3584+-39K(Mann15#2), 4002K(Butler06,using Flower96 B-V calib.)  =>
+  adopt Teff = 3477K.  Sozetti06 lists probability 89% thin disk, 11%
+  thick disk
+  star. logL=-1.59+-0.05(Newton15). [Fe/H]=0.00(Newton15#1),
+  [Fe/H]=-0.04(Newton15#2). M=0.447+-0.015Msun(Mann15),
+  R=0.420+-0.014Rsun(Mann15).
 
 GJ 725A = LHS 58 = HD 173739 = DO 36465 = ADS 11632 A = BD+59_1915A = G 227-46 = G 229-13 = HIP 91768
- *M3V: Turnshek85,Bidelman85,Anosova87,Kirkpatrick91(pri),Henry94,Hawley97,Henry02,Geballe02,Henry(RECONS)
-  M4V: Lee47,Joy74
+  M2V: Newton14(near-IR)
   M2/5V: Vyssotsky46
+ *M3V: Turnshek85,Bidelman85,Anosova87,Kirkpatrick91(pri),Henry94,Hawley97,Henry02,Geballe02,Henry(RECONS),Mann15(M3.0)
+  M4V: Lee47,Joy74
 
   Kirkpatrick, Henry, Hawley agree on M3V. Kirkpatrick in
   DwarfArchives lists the GJ 725 system as M3V+M3.5V and cites
@@ -382,27 +577,32 @@ GJ 725A = LHS 58 = HD 173739 = DO 36465 = ADS 11632 A = BD+59_1915A = G 227-46 =
   derives parallaxes for GJ 725 A and B: plx(A)=280.18+-2.18mas,
   plx(B)=289.48+-3.21 => weighted mean parallax = 283.12 +- 1.80 mas
   => D = 3.53+-0.02 pc.  Mv(A) = 11.16+-0.02, M_Ks(A) = 6.69 +- 0.02,
-  Mbol(A) = 9.10+-0.06, logL = -1.75. Teffs:
-  3276K(Jenkins09), 3400K(Frasca09), 3450K(Kirkpatrick93),
-  3451K(Cenarro01), 3481+-10K(Wu11), 3620K(Zboril98),
-  3680K(RojasAyala12) => median Teff = 3451K.
+  Mbol(A) = 9.10+-0.06, logL = -1.75. Teffs: 3276K(Jenkins09),
+  3318K(Stelzer13), 3375+-81K(Newton15#2), 3400K(Frasca09),
+  3417+-17K(Newton15#1), 3441K(Mann15#1), 3450K(Kirkpatrick93),
+  3451K(Cenarro01), 3481+-10K(Wu11), 3517+-22K(Mann15#2),
+  3620K(Zboril98), 3680K(RojasAyala12) => median Teff = 3445K.
+  R=0.351+-0.013Rsun(Mann15#1), R=0.334+-0.006Rsun(Mann15#2),
+  R=0.352+-0.030Rsun(Newton15#2), R=0.356+-0.004Rsun(Newton15#1),
+  M=0.334+-0.033Msun(Mann15#1), M=0.349+-0.008Msun(Mann15#2),
+  logL=-1.82+-0.05(Newton15#2), logL=-1.8033+-0.0052(Newton15#1),
+  [Fe/H]=-0.23+-0.08(Mann15), [Fe/H]=-0.60+-0.15(Newton14).
+  Boyajian12 lists tetLD=0.937+-0.008mas. Boyajian12+HIP2(wt.mean) =>
+  Rad=0.356Rsun. Rad=0.356+-0.004Rsun(Yee17). 
 
 # Tertiary Standard
 
-GJ 687 = HIP 86162 = BD+68_946 = DO 35853 = G 240-063 = LFT 1364 = LHS 450 
- *M3V: Adams35,Luyten79,Bidelman85,Henry94,Hawley97,Henry02
-  M4V: Adams26,Joy74
-  M3.5V: JM53(non-stan.)
+GJ 687 = HIP 86162 = BD+68_946 = DO 35853 = G 240-063 = LFT 1364 = LHS 450
   M2: Lee47
+ *M3V: Adams35,Luyten79,Bidelman85,Kirkpatrick94,Henry94,Hawley97,Henry02,Dieterich12,Reiners12,Lepine13,Gaidos14,Newton14(near-IR),Alonso-Floriano15
+  M3.5V: JM53(non-stan.)
+  M4V: Adams26,Joy74
   M5V: Vyssotsky52
 
-  I knock this one down to tertiary as JM53 listed a slightly
-  different type, and it did not explicitly appear in any of the
-  Kirkpatrick lists.  WDS lists BC component at separation 302" away,
-  however it is not clear whether it is physical. V=9.15(HIP),
-  V=9.17(Weis93), B-V=1.505+-0.013(HIP), B-V=1.47(Weis93),
-  V-R=1.26(Weis93), R-I=1.11(Weis93),
-  V-I=2.11+-0.10(HIP). J=5.335+-0.021(2MASS), H =
+  WDS lists BC component at separation 302" away, however it is not
+  clear whether it is physical. V=9.15(HIP), V=9.17(Weis93),
+  B-V=1.505+-0.013(HIP), B-V=1.47(Weis93), V-R=1.26(Weis93),
+  R-I=1.11(Weis93), V-I=2.11+-0.10(HIP). J=5.335+-0.021(2MASS), H =
   4.766+-0.033(2MASS,flag='E'), Ks = 4.548+-0.021(2MASS).  Hence V-Ks
   = 9.15 - 4.548 = 4.602. Using Casagrande08 relations, the 2MASS JHK
   photometry is consistent with mbol = 6.967 +- 0.020, hence BCv =
@@ -413,36 +613,71 @@ GJ 687 = HIP 86162 = BD+68_946 = DO 35853 = G 240-063 = LFT 1364 = LHS 450
   Teff = 3489 K. Radius = 0.372+-0.008 Rsun(Masana06). BC_K =
   2.499+-0.054(Masana06).  BCv = -2.103+-0.072(Masana06). Nidever02
   quotes GJ 687 as being a very stable RV star (rms < 100 m/s over ~3
-  years), so unlikely to be an unresolved binary star.
+  years), so unlikely to be an unresolved binary
+  star. [Fe/H]=-0.14+-0.12(Newton14). Boyajian12 lists tetLD=0.859+-0.014mas.
+  plx=219.7807+-0.0324mas(GaiaDR2). Boyajian12+GaiaDR2 => Rad=0.420Rsun. 
+
+GJ 109 = LHS 1439 = NLTT 8817 = LTT 10844 = HIP 12781 = VX Ari = Ross 556 (J0233+2455)
+  M2V: Vyssotsky56,Stephenson86
+ *M3V: Lee47,Bidelman85,Henry94,Reid15,Henry02,Lurie13(M3),Newton14,Gaidos14(M3),Mann15(M3)
+  M3.5V: Joy74
+  M4: Luyten45
+
+  Not considered a standard in Kirkpatrick91, but has been
+  ubiquitously considered M3V since Henr94. In DwarfArchives,
+  Kirkpatrick cites Henry94.  V=10.595+-0.009(Mermilliod91),
+  B-V=1.550+-0.000(Mermilliod91), U-B=1.110(Mermilliod91),
+  J=6.752+-0.018(2MASS), H=6.197+-0.017(2MASS),
+  Ks=5.961+-0.021(2MASS). (V-Ks) = 10.595 - 5.961 = 4.634.  Plx =
+  133.16+-2.26 mas (vanLeeuwen07) => Mv = 11.22+-0.04, M_Ks =
+  6.58+-0.04. Using Casagrande08 calibration and 2MASS JHK photometry
+  => mbol = 8.487+-0.021 => Mbol = 9.11 => logL = -1.75 => BCv = mbol
+  - V = 8.487 - 10.595 = -2.108, BC_K = mbol - Ks = 2.526.  Teffs:
+  3228K(Jenkins09), 3238K(V-K=>Casagrande08), 3390K(Morales08),
+  3462K(Koleva12), 3487K(V-K=>Mozurkewich03) => median Teff = 3390K.
+  Rad=0.364+-0.014Rsun(Yee17).
 
 # Deprecated Standards
 
 GJ 860A = Kruger 60A = HD 239960 = BD+56_2783  = DO Cep (J2227+5741) 
- *M3V: Adams26,Neckel58(M3),Christy69,Bidelman85,Kirkpatrick92PhD,Henry94,Hawley97,Henry02,Tamazian06,Kirkpatrick12(Kirkpatrick92)
+ *M3V: Adams26,Neckel58(M3),Christy69,Bidelman85,Kirkpatrick92PhD,Kirkpatrick94,Henry94,Hawley97,Henry02,Tamazian06,Kirkpatrick12(Kirkpatrick92), Royas-Ayala12(K-band,jointAB)
   M3.5V: Joy74,KeenanMcNeil76(stan)
   M5: Nassau54
 
-  Close binary, may not be best choice of standard?  KeenanMcNeil76
-  type differs by 0.5 subtype from most recent classifications by
-  Henry and Hawley. Kirkpatrick12 cites Kirkpatrick92 (PhD thesis) and
-  calls the GJ 860 AB system as M3V + M4V.  Binary: 3.4" binary with
-  V=11.30 star GJ 860B (see "M4V" file).  V=9.85(Gliese91),
-  V=9.81(Tycho), B-V=1.62(Gliese91), U-B=1.23(Gliese91).  HIP V, B-V,
-  and V-I are for unresolved GJ 860AB, and GJ 860 is unresolved in
-  2MASS. Significantly redder in B-V than GJ752A (B-V = 1.62
-  vs. 1.464, respectively). Teffs: 3152K(Jenkins09),
+  Close binary (3.5"), may not be best choice of standard?  Only one
+  of the Adams26 (1926ApJ....64..225A) "M3" stars that survives as
+  modern M3V standard.  KeenanMcNeil76 type differs by 0.5 subtype
+  from most recent classifications by Henry and Hawley. Kirkpatrick12
+  cites Kirkpatrick92 (PhD thesis) and calls the GJ 860 AB system as
+  M3V + M4V.  Binary: 3.4" binary with V=11.30 star GJ 860B (see "M4V"
+  file).  V=9.85(Gliese91), V=9.81(Tycho), B-V=1.62(Gliese91),
+  U-B=1.23(Gliese91).  HIP V (V(AB)=9.59), B-V, and V-I are for
+  unresolved GJ 860AB, and GJ 860 is unresolved in
+  2MASS. V(AB)=9.587+-0.015(Mermilliod91).  Gliese91 resolves as
+  V(A)=9.85, V(B)=11.30, i.e. del(V)=1.45.  Significantly redder in
+  B-V than GJ752A (B-V = 1.62 vs. 1.464, respectively). GaiaDR3
+  resolves G(A)=8.669386, G(B)=9.980165, del(G)=1.31. HIP CCDM lists
+  Hp(A)=9.795+-0.012, Hp(B)=11.406+-0.050 =>
+  delta(Hp)=1.611+-0.051. Adopting delta(V)=1.45 from Gliese91, and
+  adopting V(AB)=9.587+-0.015 from Mermillid91, then V(A)=9.841,
+  V(B)=11.291, i.e. within 0.01 mag of Gliese91.  WDS lists
+  mag(A)=9.930, mag(B)=11.41, which looks suspiciously close to V.
+  plx=249.94+-1.87mas(vanLeeuwen07). Teffs: 3152K(Jenkins09),
   3464K(RojasAyala12,for AB), 3521K(Wright11), 3620K(Zboril98) =>>
-  median Teff = 3493K. [Fe/H]=-0.25(Zboril98).
+  median Teff = 3493K. [Fe/H]=-0.25(Zboril98).  HRD position: V=9.841,
+  plx=249.94 => Mv=11.83, and adopting BCv=-1.93 => Mbol=9.90,
+  logL=-2.064.
 
 GJ 22B = BD+66_34B = LHS 115 = HIP 2552 B = CCDM 00325+6714 B = 2MASS J00322979+6714043 
- *M3V: McCarthy91,Kirkpatrick91(sec),Hawley97,Henry02
+ *M3V: McCarthy91,Kirkpatrick91(sec),Kirkpatrick94,Hawley97,Henry02,Royas-Ayala12(K-band)
   M3.5: Bidelman85
 
-  I only demote this standard star based on its close binarity.  Few
-  classifications, but agreement among Kirkpatrick, Henry, & Hawley
-  papers.  According to WDS the GJ 22 binary was 2.3" separation in
-  1923, but 4.0" in 2010, and lists mag1=10.62, mag2=12.20
-  (delta(mag)=1.58). J=7.172+-0.085(2MASS), H=6.538+-0.090(2MASS),
+  I only demote this standard star based on its close binarity (4").
+  Few classifications, but agreement among Kirkpatrick, Henry, &
+  Hawley papers.  According to WDS the GJ 22 binary was 2.3"
+  separation in 1923, but 4.0" in 2010, and lists mag1=10.62,
+  mag2=12.20 (delta(mag)=1.58). 2MASS photometry is relatively
+  poor. J=7.172+-0.085(2MASS), H=6.538+-0.090(2MASS),
   Ks=6.377+-0.061(2MASS). Interestingly, the 2MASS delta(J)=0.35,
   delta(K)=0.34 but ~2 mags at V. Mermilliod91 UBV photometry is
   unresolved for AB: V(ABC)=10.312+-0.025, B-V(ABC)=1.501+-0.045,
@@ -456,11 +691,11 @@ GJ 22B = BD+66_34B = LHS 115 = HIP 2552 B = CCDM 00325+6714 B = 2MASS J00322979+
   for M3V?  2MASS counterpart confirmed by Stauffer10 (Ks=6.377). Plx
   = 99.35+-2.17 mas (vanLeeuwen07) => Mv = 10.46, M_Ks = 6.36+-0.08.
 
-GJ 352 AB = LHS 2151 = LFT 656 = HIP 46706 
+GJ 352 AB = LHS 2151 = LFT 656 = HIP 46706
+  M2V: Vyssotsky43
+  M2.5V: Walker83
  *M3V: Bidelman85(M3), Stephenson86, Kirkpatrick91(pri),Hawley97(for A only),Henry02(M3VJ)
   M3+V: Boeshaar76
-  M2.5V: Walker83
-  M2V: Vyssotsky43
 
   Unresolved binary: WDS reports sep 0.6" (epoch 1942) and 0.70"
   (epoch 2010), mag1=10.74, mag2=10.94. Hipparcos reports
@@ -483,17 +718,19 @@ GJ 352 AB = LHS 2151 = LFT 656 = HIP 46706
   8.698+-0.015, hence BCv = mbol - V = 8.698 - 10.71 = -2.012, BC_Ks =
   8.698 - 6.155 = 2.543.
 
-GJ 569A = CE Boo = G 136-28 = NLTT 38745 = HIP 72944 
- *M3V: Stephenson86,Henry90,Kirkpatrick91(sec)
-  M2.5V: HenryKirkpatrick90
-  M2Ve: Lee47(M2),Joy74,Hawley97
+GJ 569A = CE Boo = G 136-28 = NLTT 38745 = HIP 72944
   M0V: Vyssotsky46
+  M1:V: Alonso-Floriano15
+  M2Ve: Lee47(M2),Joy74,Hawley97,Lepine13,Gaidos14(M2)
+  M2.5V: HenryKirkpatrick90
+ *M3V: Stephenson86,Henry90,Kirkpatrick91(sec),Newton14(near-IR)
 
-  Unfortunately only Kirkpatrick91 considered it a M3V standard, and
-  Hawley called it M2. It seems a bit hotter and bluer than the other
-  M3V standards. Gl 569Bab system is 5.72" away, which is a
-  M8.5V+M9.0V pair.  U = 12.86(Koen10), B = 11.686(Koen10),
-  V=10.150(Koen10), V = 10.20(Gliese91, Mermilliod91),
+  Surprisingly wide range of types among modern classifiers (M1-M3
+  over the past 3 decades). Unfortunately only Kirkpatrick91
+  considered it a M3V standard, and Hawley called it M2. It seems a
+  bit hotter and bluer than the other M3V standards. Gl 569Bab system
+  is 5.72" away, which is a M8.5V+M9.0V pair.  U = 12.86(Koen10), B =
+  11.686(Koen10), V=10.150(Koen10), V = 10.20(Gliese91, Mermilliod91),
   B-V=1.480(Mermilliod91, Gliese91), U-B = 1.150(Mermilliod91,
   Gliese91), R = 9.116(Koen10), I = 7.872(Koen10), J = 6.693(Koen10),
   J = 6.633+-0.023(2MASS), H = 5.922(Koen10), H=5.990+-0.021(2MASS), K
@@ -503,14 +740,21 @@ GJ 569A = CE Boo = G 136-28 = NLTT 38745 = HIP 72944
   = mbol - Ks = 8.303 - 5.770 = 2.533. Plx = 103.59 +- 1.72 mas
   (vanLeeuwen07) => Mv = 10.23, M_Ks = 5.85+-0.04, Mbol = 8.38 +-
   0.04, logL = -1.46+-0.02. Mass: 0.48 Msun(Donati08),
-  0.499+-0.028(Jenkins09). Teffs: 3345K(Jenkins09), 3540K(Morales08),
-  3732K(Wright11), 3780K(Zboril98) => median Teff = 3636K.  Madsen02
+  0.499+-0.028(Jenkins09). Teffs:
+  3345K(Jenkins09),
+  3372+-12K(Rabus19),
+  3540K(Morales08),
+  3732K(Wright11),
+  3780K(Zboril98) => median Teff = 3636K.  Madsen02
   includes GJ 569 (HIP 72944) in the Ursa Major cluster.  Nidever02
   finds GJ 569A to be RV stable to <100 m/s over ~4 years.
+  Rabus19 reports: tetLD=0.661+-0.014mas, fbol=(1.882+-0.068)e-8 erg/s/cm2,
+  Rad = 0.306+-0.007Rsun, Teff=3372+-12K. 
 
 GJ 628 = Wolf 1061 = V2306 Oph = LHS 419 = BD-12_4523 = HIP 80824
- *M3.0V: Henry94,Henry02
-  M3.5V: Hawley97 
+ *M3.0V: Henry94,Kirkpatrick94,Henry02,Royas-Ayala12(K-band)
+  M3.5V: Hawley97
+  M4: Gaidos14
   M4.5V: Joy74,Walker83
   M5V: Adams26
 
@@ -528,8 +772,10 @@ GJ 628 = Wolf 1061 = V2306 Oph = LHS 419 = BD-12_4523 = HIP 80824
   7.591+-0.024, and hence BCv = mbol - V = 7.591 - 10.100 = -2.509,
   BC_Ks = 7.591 - 5.075 = 2.516.  Plx = 232.98+-1.60mas(VanLeeuwen07)
   => Mv = 11.94+-0.02, M_Ks = 6.91+-0.03, Mbol = 9.43+-0.03, logL =
-  -1.88+-0.01.  Teffs: 3097K(Jenkins09), 3380K(RojasAyala12),
-  3570K(Zboril98) => median Teff = 3380K.
+  -1.88+-0.01.  Teffs: 3097K(Jenkins09), 3307+36-38K(Pineda21),
+  3380K(RojasAyala12), 3570K(Zboril98) => median Teff =
+  3344K. Lum=(4.209+0.038-0.037)e31 erg/s(Pineda21) =>
+  Lum=0.0109953Lsun => logL=-1.95879.
 
 GJ 661 AB = HD 155876 = DO 35634
  *M3VJ: Henry94(J),Henry02(J),Gray03(M3V)
@@ -538,21 +784,147 @@ GJ 661 AB = HD 155876 = DO 35634
 
   Unresolved binary.
 
-G 5-43 = LHS 1554 = Gl 143.3 = CNS3 633
+G 5-43 = LHS 1554 = Gl 143.3 = CNS3 633 = 2MASS J03314712+1419194
+  M2: Hawley97,Gaidos14
+ *M2.5: Lepine13
   M3V: KeenanMcNeil76(stan)
- *M2: Hawley97
   sdM3: Eggen65
 
   Was the M3V standard according to KeenanMcNeil76, but apparently
   abandoned after that (Keenan80 and later editions didn't list it as
   a standard, and Boeshaar, Kirkpatrick, Henry, and others didn't use
   it as a standard either). Appears to have fallen into disuse as a
-  standard.
+  standard. Gaidos and Lepine subsequently estimated earlier types.
+  Gaidos14 estimates metallicity [Fe/H]=-0.05+-0.12 dex.  Hawley
+  estimates space velocity: U,V,W = +45,-52,-19 which suggests an old
+  star. I estimate P(thin) = 79%, P(thick)=21%, P(halo)=0.15%.  So
+  this is likely to be a ~solar composition, old thin disk star.
+  V=12.263(Koen10), B-V=1.583(Koen10), U-B=1.279(Koen10),
+  V-Rc=1.053(Koen10), V-Ic=2.310(Koen10).
 
-# Non-standard stars
+GJ 388 = AD Leo = Gam Leo C = BD+20_2465 = StKM 2-626 
+  M2V: Stephenson86
+ *M3V: Kirkpatrick94,Henry94,Hawley97,Newton14(stan)
+  M3.5V: Joy74(M3Ve),Bidelman85(M3.5)
+  M4Vae: Keenan85(M4V),Keenan99
+  M4.5:V: Johnson53
+  M5Ve: Vyssotsky56
 
-GJ 436 = Ross 905 = LHS 310 = StKM 2-754 (planet host)
- *M3.0V: Henry02
-  M3: Stephenson85,Mukai90
-  M2V: STephenson86
-  M3.5V: Joy74
+  Poor agreement among classifications, anywhere from M2 to
+  M5. Henry94 - using Kirkpatrick91 standards - class it M3V. In
+  Jacoby84 atlas as M4.5eV. Malkov12 lists it as a binary with period
+  26.5 years, a=0.1109", e=0.60. Leggett96 derives: flux = 3.12e-11
+  W/m^2, logL=-1.64, mbol=7.29, Mbol=8.85, BCv=-2.03,
+  BC_K=2.68. V=9.421+-0.017(Mermilliod91),
+  B-V=1.544+-0.009(Mermilliod91), U-B=1.075+-0.019(Mermilliod91),
+  J=5.449+-0.027(2MASS), H=4.843+-0.020(2MASS,flag=E),
+  Ks=4.593+-0.017(2MASS). V-Ks=4.828(Mermilliod91,2MASS).
+
+# Exemplars
+
+GJ 581 = Wolf 562 = LHS 394 = BD-7 4003 = LTT 6112 = MCC 159 = 2MASS J15192689-0743200
+  M2V:   Newton14(near-IR)
+  M2.5V: Henry94,Henry02
+ *M3V:   Bidelman85(M3),Stephenson86,Hawley97,Reiners12,Dieterich12,Lurie14
+  M3.2:  Mann15
+  M3.5V: Walker83
+  M4V: Joy74
+
+  Henry group changed type from M2.5V (Henry94,Henry02) to M3V
+  (Dieterich12,Lurie14), and since others have classified it anywhere
+  between M2 to M3.2, I've dropped it as an M2.5V standard but adopted
+  it as a M3V exemplar.  Exoplanet host star. Teff=3395+-60K(Mann15),
+  3424+42-43K(Pineda21) => <Teff> = 3410K.
+  [Fe/H]=-0.15+-0.08(Mann15), -0.07+-0.12(Newton14). Mermilliod91:
+  V=10.572+-0.009, B-V=1.601+-0.009,
+  U-B=1.205+-0.013. Kmag=5.837+-0.023(2MASS).  Rabus19 reports:
+  tetLD=0.476+-0.007mas, fbol=(0.967+-0.039)e-8 erg/s/cm2 (=> mbol =
+  8.539+-0.044 IAU2015 scale), Rad=0.322+-0.005Rsun, Teff=3366+-28K,
+  BCv = mbol - V = 8.539 - 10.572 = -2.033. BC_Ks = mbol - Ks = 8.539
+  - 5.837 = 2.702. V-Ks = 10.572 - 5.837 = 4.735.  G=9.4110 0.0012,
+  Bp-Rp=2.5684, Bp-G=1.4250, G-Rp=1.1434.  Pineda21:
+  Lum=(4.562+-0.037)e31 erg/s => 0.0119175Lsun => logL=-1.924.
+  Mass=0.307+-0.007Msun(Pineda21), Rad=0.310+-0.008Rsun(Pineda21),
+  
+
+
+
+GJ 3459 = LHS 1935 = LP 783-1 = L 672-9 = HIP 37217 = NLTT 18223 =  2MASS J07384089-2113276
+ *M3V: Reid95,Reid04(M3.0),Gaidos14(M3),1983nssl.conf..365M
+  sdM3: Houdebine16
+  sdM3.3: Houdebine19
+  M3.1: Mann15
+  M3.4+-0.7: Sebastian21
+  M2: Stephenson75
+
+  This star stands out as having the absolute G magnitude among SIMBAD
+  stars within 20pc that was in the middle of the tightest
+  concentration of M_G values, and it also has pretty good agreement
+  on M3 subtype.  The densest absolute magnitude range is peaked at
+  M_G=10.5145 (with LP_783-1 = LHS 1935 appearing at the peak). There
+  are 23 stars with M_G between 10.50-10.53 within 20 pc (out of 2602
+  objects)!  Koen10 reports: V=11.712, B-V=1.582, U-B=1.222,
+  V-Rc=1.096, V-Ic=2.483. Ks= 7.063+-0.023(2MASS) => V-Ks = 11.712 -
+  7.063 = 7.649. Teffs: 3236+-52K(Casagrande08), 3300K(Cifuentes21),
+  3358+-60K(Mann15), 3385+-63K(Muirhed18), 3402+-21K(Houdebine19)
+  3406+-61K(Gaidos14), 3426+-51K(Schweitzer19), 3446+-19K(Fouque18),
+  3661(3484-3915)K(GaiaDR2) => <Teff> = 3402K.  Radius:
+  0.3150+-0.0160Rsun(Mann15), 0.318+-0.013Rsun(Muirhead18),
+  0.32+-0.04Rsun(Sebastian21), 0.3262+-0.0101Rsun(Cifuentes20).  Mass:
+  0.290+-0.029Msun(Mann15), 0.29+-0.01Msun(Sebastian21),
+  0.319-0.014Msun(Muirhead18), 0.3201+-0.1043Msun(Cifuentes20) =>
+  <Mass> = 0.305Msun.  Metallicities: [Fe/H]=-0.18+-0.08(Mann15).
+  M_G=10.5145, M_Ks=6.967. 
+ 	
+
+### OTHER STARS
+
+L 98-59 = TOI-175 = 2MASS J08180763-6818468 = NLTT 19357 = 
+  M2: Gaidos14
+  M2.5V: Henry18 
+ *M3+-1V: Kostov19
+  M3.4+-0.6: Sebastien21
+
+  Low metallicity M3V - now a famous nearby exoplanet host star
+  (Kostov19) with multiple transiting planets.
+  B=13.289+-0.027(APASS/DR9), V=11.71(Henry18),
+  V=11.685+-0.017(APASS/DR9), R=10.61(Henry18), I=9.25(Henry18),
+  J=7.933+-0.027(2MASS), H=7.359+-0.049(2MASS), Ks=7.101+-0.018(2MASS)
+  => V-Ks = 11.71 - 7.101 = 4.609 (basically right near median for
+  M3Vs).  plx=94.2664+-0.0155mas(GaiaEDR3),
+  plx=101.81+-2.37mas(Henry18) => Mv = 11.58+-0.01, M_Ks = 6.98+-0.02.
+  Teffs: 3245(3218-3257)K(Anders19), 3308+-105K(Sebastien21),
+  3367+-150K(Kostov19), 3400+-92K(Kunder17#1), 3412+-49K(Cloutier19),
+  3415+-135K(Demangeon21) , 3426+-61K(Gaidos14),
+  3429+-157K(Stassun19), 3469+-68K(Muirhead18), 3477K(Kunder17#2),
+  3786(3564-4031)K(GaiaDR2), Mass: 0.273+-0.030(Demangeon21),
+  0.29+-0.01Msun(Sebastien21), 0.30Msun(Kervella22),
+  0.3007+-0.0123Msun(EEM calc using Ks, plx(GaiaEDR3),
+  [Fe/H](Demangeon21)), 0.311+-0.004Msun(Muirhead18),
+  0.3124+-0.0032Msun(Cloutier19), 0.313+-0.014Msun(Kostov19),
+  0.33+-0.06Msun(Gaidos14).  fbol=2.99±0.18×10−9 erg s−1
+  cm−2(Kostov19) => mbol = 9.813+-0.065 mag (IAU2015 scale).  Lum:
+  L=0.0113+-0.0006Lsun(Kostov19), L=0.015+-0.005Lsun(Gaidos14),
+  L=0.01128+-0.00042Lsun(Demangeon21) => logL=-1.9477+-0.0162.  [Fe/H]
+  = -0.5+-0.5(Kostov19), -0.46+-0.26(Demangeon21). Using VKs
+  calibration for M dwarfs, I find that the star is about 0.39 mag
+  below the solar metallicity sequence: [Fe/H]=-0.27(JohnsonApps09
+  calibration), -0.48(SchlaufmanLaughlin10 calibration).
+
+
+###
+
+M3Vs among nearest 100 systems
+              
+GJ_687_   M3V  2002AJ....123.2002H NA    NA   
+GJ_752_A_ M3V  1991ApJS...77..417K 1.499 1.146
+GJ_661_A_ M3V  2002AJ....123.2002H 1.502 1.010 (unresolved bin.)
+GJ_661_B_ M3V  2002AJ....123.2002H 1.502 1.010 (unresolved bin.)
+GJ_570_C_ M3:V 2012ApJ...753..156K 1.519 1.213
+GJ_725_A_ M3V  1991ApJS...77..417K 1.537 1.104
+GJ_388_   M3V  1994AJ....108.1437H 1.544 1.075
+GJ_251_   M3V  1991ApJS...77..417K 1.585 1.218
+GJ_628_   M3V  2002AJ....123.2002H 1.595 1.183
+GJ_644_B_ M3:V 2012ApJ...753..156K 1.596 1.078 (unresolved bin.)
+GJ_860_A_ M3V  2002AJ....123.2002H 1.648 1.272 (unresolved bin.)
+=> (B-V)(M3V) = 1.54, (U-B)(M3V)=1.17 

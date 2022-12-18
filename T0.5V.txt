@@ -1,0 +1,30 @@
+T0.5V
+
+Teff(T0.5V) = 1231 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(T0.5V) = 1246 K ; Kirkpatrick20 (Table 13 polynomial)
+
+M_J(T0V) = 14.734 ; EEM fit to L/T dwarfs d<25pc
+
+M_Ks(T0.5V) =  12.45 ; WISE_1809-0448 calc using Kirkpatrick20 (plx=49.2mas)
+M_Ks(T0.5V) = 13.21  ; fit to Kirkpatrick20 L7-T3 dwarfs
+M_Ks(T0.5V) = 13.21  ; Luhman16B 
+M_Ks(T0.5V) = 13.21  ; trend to L/T dwarfs in notes (1/2021)
+=> adopt M_Ks(T0.5V) = 13.21 [updated 12/30/2020]
+
+# Examples
+
+Luhman 16B = WISE J104915.57−531906.1B
+   T0: Lodieu15(T0+-1) 
+  *T0.5: Burgasser13(T0.5+-1; Burgasser14,Faherty14 cites as T0.5+-0.5)
+
+   T dwarf companion to famous L/T binary at 2pc discovered by
+   Luhman13(2013ApJ...767L...1L), and a flux-reversal binary which
+   switches which component is brighter between J and K band.
+   Faherty14 estimates B to be only ~30K cooler (1310+-30K for A,
+   1280+-75K for B). logL = -4.68+-0.13(Lodieu15).
+   J=11.40+-0.05(Burgasser14,2MASS sys.),
+   H=10.34+-0.05(Burgasser14,2MASS sys.),
+   Ks=9.71+-0.10(Burgasser14,2MASS sys.).
+   plx=500.51+-0.11mas(Sahlmann15) => M_J=14.897+-0.050.
+   M_Ks=13.207+-0.100. Teff(B): 1261+-55K(Kirkpatrick20),
+   1280+-75K(Faherty14), 1320+185-135K(Lodieu15) => <Teff> = 1280K.

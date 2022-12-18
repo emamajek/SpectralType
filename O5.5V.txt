@@ -1,33 +1,122 @@
 O5.5V
 
+Sota11 standard: HD 93204 - O5.5V 
+
 MK73,MK78,Garrison94,Walborn90 do not list any O5.5V standards.
 
 Walborn72 classified one star as a O5.5V variant: HD 14434
 (O5.5Vn((f))p; V=8.5mag).
 
-Teff(O5.5V) = 39500 K ; Massey05(Milky Way)
-Teff(O5.5V) = 39865 K ; Martins05(Obs. scale), GrayCorbally09
-Teff(O5.5V) = 40062 K ; Martins05(Theo. scale)
-Teff(O5.5V) = 44000 K ; HD 48099-1 (Martins11)
-=> adopt Teff(O5.5V) = 40000K (logTeff = 4.602)
+(B-V)(O5.5V) = -0.322 ; interp 
+=> adopt (B-V)(O5.5V) = -0.322 [updated 2/7/2020]
+
+(U-B)(O5.5V) = -1.145 ; interp
+=> adopt (U-B)(O5.5V) = -1.145 [updated 2/7/2020]
+
+Teff(O5.5V) =  39500 K ; Massey05(Milky Way)
+Teff(O5.5V) =  39865 K ; Martins05(Obs. scale), GrayCorbally09
+Teff(O5.5V) = 39972 K ; Simon-Diaz14 linear fit for O5.5V
+Teff(O5.5V) = 40000 K ; exemplar HD 93204
+Teff(O5.5V) =  40062 K ; Martins05(Theo. scale)
+Teff(O5.5V) = 40400 K ; Holgado20 median Teff N=5 O5.5Vs
+Teff(O5.5V) = 40470 K ; Holgado18
+Teff(O5.5V) = 40500 K ; EEM trend for O dwarfs 1/2020
+Teff(O5.5V) =  44000 K ; HD 48099-1 (Martins11)
+=> adopt Teff(O5.5V) = 40500K (logTeff = 4.607) [updated 1/20/2020]
+=> adopt Teff(O5.5V) = 40400K (logTeff = 4.606) [updated 11/15/2020]
 
 Mv(O5.5V) = -5.4  mag ; interp. from GrayCorbally09
 Mv(O5.5V) = -5.39 mag ; HD 48099-1 (Mon OB2 member; Martins11)
-Mv(O5.5V) = -5.2 mag ; roughly interpolating O5V (-5.4) and O6V (-5.1)as f(Teff)
+Mv(O5.5V) = -5.35 mag ; Bowen08
+Mv(O5.5V) = -5.22 mag ; EEM trend for O dwarfs
+Mv(O5.5V) = -5.2  mag ; Conti71(ZAMS)
+Mv(O5.5V) = -5.2  mag ; roughly interpolating O5V (-5.4) and O6V (-5.1)as f(Teff)
+Mv(O5.5V) = -5.14 mag ; Martins06/obs.scale
+Mv(O5.5V) = -5.12 mag ; Martins06/theor.scale
 Mv(O5.5V) = -5.07 mag ; Martins05(both Theo. & Obs. scale)
 Mv(O5.5V) = -5.0  mag ; Wegner07(halfway between O5V and O6V)
-=> adopt Mv(O5.5V) = -5.2 mag
+Mv(O5.5V) = -4.91 mag ; exemplar HD 93204
+=> adopt Mv(O5.5V) = -5.2 mag [updated 2/8/2020]
 
-BCv(O5.5V) = -3.49 mag ; Balona94(Teff=40000K)
-BCv(O5.5V) = -3.65 mag ; LanzHubeny03/07(Teff=40000K)
-BCv(O5.5V) = -3.70 mag ; Martins05(Obs. scale)
-BCv(O5.5V) = -3.71 mag ; Martins05(Theo. scale)
-BCv(O5.5V) = -3.93 mag ; Flower96(Teff=40000K)
-=> adopt BCv(O5.5V) = -3.70 mag 
+BCv(O5.5V) =   -3.487 mag ; Balona94(Teff=40500K),set so BCv(5772K)=-0.085
+BCv(O5.5V) =  -3.64  mag ; Martins06(obs.scale)
+BCv(O5.5V) =  -3.65  mag ; Martins06(theor.scale)
+BCv(O5.5V) = -3.665 mag ; EEM interp O5V(-3.76),O6V(-3.57)
+BCv(O5.5V) =  -3.689 mag ; LanzHubeny03/07(Teff=40500K)
+BCv(O5.5V) =  -3.70  mag ; Martins05(obs.scale)
+BCv(O5.5V) =  -3.71  mag ; Martins05(theor.scale)
+BCv(O5.5V) =   -3.954 mag ; Flower96(Teff=40500K),set so BCv(5772K)=-0.085
+=> adopt BCv(O5.5V) = -3.67 [updated 1/31/2020]
 
-logL(O5.5V) = 5.41 dex ; Martins05(Obs. & Theo. scale)
-logL(O5.5V) = 5.65 dex ; HD 48099-1 (Martins11)
-logL(O5.5V) = 5.46 dex ; Mv=-5.2, BCv=-3.70 => Mbol = -8.90
-=> adopt logL(O5.5V) = 5.46 dex
-=> adopt Mbol(O5.5V) = -8.90 mag
+logL(O5.5V) = 5.41  dex ; Martins05(Obs. & Theo. scale)
+logL(O5.5V) = 5.432 dex ; EEM trend for O dwarfs O5.5V
+logL(O5.5V) = 5.444 dex ; Mv=-5.2, BCv=-3.67 => Mbol = -8.870
+logL(O5.5V) = 5.65  dex ; HD 48099-1 (Martins11)
+=> adopt logL(O5.5V) =  5.444 dex [updated 2/8/2020]
+=> adopt Mbol(O5.5V) = -8.870 mag [updated 2/8/2020]
 
+logg(O5.5V) =  3.80 dex ; Holgado18
+logg(O5.5V) = 3.92 dex ; Holgado20 median N=4 values
+=> adopt logg(O5.5V) = 3.9 dex [updated 11/15/2022]
+
+Rad(O5.5V) = 10.7088 Rsun ; Teff=40500K, logL=5.444
+Rad(O5.5V) = 10.558 Rsun ; Martins05 (Teff=39866K,logL=5.404)
+=> adopt Rad(O5.5V) =  10.709 Rsun [updated 2/8/2020]
+
+Mass(O5.5V) = 21.67 Msun     ; exemplar HD 93204 (Albacete-Colombo18).
+Mass(O5.5V) = 30.0+-1.0 Msun ; FO15A Weidner10
+Mass(O5.5V) = 37.8 Msun      ; MIST/Choi16 solar tracks for logT=4.607,logL=5.44
+Mass(O5.5V) = 39+7-6 Msun    ; Weidner10
+=> adopt Mass(O5.5V) = 38 Msun [updated 4/16/2022]
+
+# Exemplar
+
+HD 93204
+  O5V((f)): Walborn73,Walborn02
+  O5.5V(fc): Walborn10
+ *O5.5V((f)): Sota14,Holgado20
+  O6V((f)): Markova11
+  O6/7V: Alexander18
+
+  It appears that Walborn and subsequent authors moved this star 0.5-1
+  subtype later than originally classified (O5V).
+  V=8.440+-0.019(Mermilliod91), B-V=0.099+-0.010(Mermilliod91),
+  U-B=-0.884+-0.005(Mermilliod91) => QBV => (B-V)o=-0.333,
+  (U-B)o=-1.188, E(B-V)=0.432, Av=1.392. E(B-V)=0.41(Savage01),
+  E(B-V)=0.43(Snow94). Av=1.611+-0.032(MaizApellaniz18). plx=0.4486+-0.0378mas(GaiaDR2).
+  Mv=-4.912.  Teffs: 39200+-700K(Holgado20), 40000+-2000K(Garcia04),
+  40000K(Povich11), 44300K(Snow94), 44000+-2000K(NebotGomez-Moran18)
+  => <Teff>=40000K. logg=3.75+-0.06(Holgado20). Mass=42.0Msun(Snow94),
+  Mass=21.67Msun(Albacete-Colombo18).
+
+# Other Stars
+
+HD 305525
+  O5.5V((f))z: Holgado20
+
+  Teff=40400+-1500K(Holgado20), logg>3.89(Holgado20).
+
+BD+60_134
+  O5.5V(n)((f)): Holgado20
+
+  Teff=40700+-1800K(Holgado20), logg=3.95+-0.20(Holgado20)
+
+BD-14_5040
+  O5.5V(n)((f)): Holgado20
+
+  Teff=40400+-2300K(Holgado20), logg=3.96+-0.23(Holgado20)
+
+NGC 6611 175
+
+DH Cep
+
+HD 14434 
+
+HD 48099
+
+HD 64315
+
+
+# Notes
+
+Holgado20 classified 4 stars as O5.5V or variant: HD 305525, BD+60_134, BD-14_5040, HD 93204. 

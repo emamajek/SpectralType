@@ -1,0 +1,83 @@
+Y4V
+
+Kirkpatrick20 adopts Y4 for WISE J0855−0714, the coolest object, in
+their Table A1 (and defining the red/cool end of their polynomial fits).
+As it is the only Y4 in the literature, it is de facto standard for now. 
+
+Teff(Y4V) = 225-250K ; WISE J0855-0714 (ZapateroOsorio16)
+Teff(Y4V) = 250+-50K ; WISE J0855-0714 (Kirkpatrick20)
+Teff(Y4V) = 250+-10K ; WISE J0855-0714 (Leggett17)
+Teff(Y4V) = 250 K    ; WISE J0855-0714 (Leggett15)
+=> adopt Teff(Y4V) = 250 K (logT = 2.398) [updated 2/2/2021]
+
+H-W2(Y4V) = 10.13+-0.24 ; WISE J0855-0714 Kirkpatrick19
+
+IRACch1-IRACch2(Y4V) = 3.55+-0.07 ; WISE J0855-0714 Kirkpatrick19
+
+W1-W2(Y4V) = 6.12 ; Kirkpatrick19 polynomial
+=> adopt (W1-W2)(Y4V) = 6.1 [updated 12/5/2020]
+
+M_J(MKO)(Y4V) = 28.2123 ; WISE_0855-0714 24.0 calc using Kirkpatrick20 (plx=439.0mas)
+=> adopt M_J(Y4V) = 28.2 [updated 12/5/2020]
+
+M_H(Y4V) = 27.04+-0.24 ; WISE J0855-0714 Kirkpatrick19
+=> adopt M_H(Y4V) = 27.0 [updated 12/5/2020]
+
+M_W1(Y4V) = 20.53 ; WISE J0855-0714 (see below)
+=> adopt M_W1(Y4V) = 20.5 [updated 12/5/2020]
+
+M_W2(Y4V)      = 17.07       ; WISE J0855-0714 (see below)
+M_IRACch2(Y4V) = 17.13+-0.02 ; WISE J0855-0714 Kirkpatrick19
+=> adopt M_W2(Y4V) = 17.1 [updated 12/5/2020]
+
+logL(Y4V) = -8.57 ; WISE J0855-0714 ZapateroOsorio16
+
+Mbol(Y4V) = 26.17 ; WISE J0855-0714 ZapateroOsorio16 on IAU2015 scale
+
+# Exemplars
+
+WISE J0855-0714 = WISE J085510.83-071442.5
+  [Y4]: Kirkpatrick20(IR)
+  >=Y4: Kirkpatrick19
+  >Y2: Leggett15 
+
+  plx=439.0+-2.4mas(Kirkpatrick20) => Dist = 2.278+-0.012 pc.  WISE
+  J0855 discovered by Luhman14 (2014ApJ...786L..18L) "Discovery of a
+  ∼250 K brown dwarf at 2 pc from the Sun."  Leggett15: "There is no
+  spectrum of W0855, and it has been assigned a type >Y2 in the
+  literature based on the type assigned to W1828 (e.g., Tinney et
+  al. 2014). Here we assign a nominal spectral type of Y2 to W0855 for
+  plotting purposes". Leggett17: "Neither cloudy nor cloud-free models
+  reproduce the near-infrared photometry for the Teff= 250K Y dwarf
+  W0855" and "We find that W0855 likely has a mass of 1.5-8 Jupiter
+  masses and age age of 0.3-6 Gyr".  Kirkpatrick19 assigned "[>=Y4]"
+  but plotted it as Y4 in their fits: "0855−0714: Given the fact that
+  the absolute H and ch2 magnitudes of this object (27.04±0.24 and
+  17.13±0.02 mag, respectively) are much fainter, and the H–W2 and
+  ch1−ch2 colors (10.13±0.24 and 3.55±0.07 mag, respectively) much
+  redder, than that of the other Y dwarfs typed as late as >=Y2, this
+  object has been assigned a temporary spectral type of >=Y4."
+  Kirkpatrick20: "Later types than this [Y1.5] have only one
+  representative per bin – WISE 1828+2650 at Y2 and WISE 0855−0714 at
+  a type presumably later than that – so completeness limits cannot
+  yet be determined." Luhman16 tabulates photometry in Table3.  9
+  W2[4.5] measurements, median <W2> = 13.86 => M_W2 = 17.07(using
+  Kirkpatrick20 plx). 4 W1[3.6] measurements, median <W1> = 17.32 =>
+  M_W1 = 20.53.  Zapatero-Osorio16 reports HST observations and shows
+  SED (Fig.2): "We measured 26.31±0.10 and 23.22±0.35mag in F110W and
+  CH4-off (Vega system)" and ""remains unresolved in the HST images
+  that have a spatial resolution of 0.22". "If J0855−0714 has the age
+  of the Sun, it would be a≈ 5MJup free-floating planetary-mass
+  object." J=25.0+0.33-0.53(Faherty14) => M_J=28.2(using Kirkpatrick20
+  plx). Teffs: 250+-50K(Kirkpatrick20), 250K(Leggett15).  W1 =
+  16.231+-0.064, W=13.704+-0.033 => Zapatero-Osorio16: Teff=225-250K,
+  logg=5.0(!), logL=-8.57+-0.06 (=> Mbol = 26.165 on IAU2015 scale),
+  2-10Mjup for age 1-12 Gyr. Radii for the logL measured by
+  Zapatero-Osorio: Rad(225K) = 0.03414 Rsun = 0.3322 Rjup ; Rad(250K)
+  = 0.02765 Rsun = 0.269 Rjup.  EEM: note that for solar composition,
+  the Sonora 2018 tracks predict logL = -8.6 => 0.5-2.5 MJup between
+  ages of 0.97-10.29 Gyr, with Teff=126K(!), logg=3.11-3.80,
+  R=0.1033-0.1046 Rsun. However there is considerable uncertainty in the
+  bolometric flux and hence the luminosity. Luhman did not quote luminosity
+  after SED analysis. 
+

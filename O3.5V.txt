@@ -4,10 +4,64 @@ There are no O3.5V anchor (Garrison94) or dagger (MK73) standards.
 
 Walborn02 defined the O3.5V type. 
 
-Walborn02 primary standards: HD 93128 (O3.5V), HD 93129B (O3.5V).
+Walborn02 standards: HD 93128 (O3.5V), HD 93129B (O3.5V) - both primary standards
+Sota11 standard:     HD 93128 (O3.5V) 
+
+Holgado20 classified two stars as O3.5V variants: HD 93128 and HD 93129B. 
+
+U-B(O3.5V) = -1.052 ; pri. stan. HD 93129B (Q-method)
+U-B(O3.5V) = -1.147 ; pri. stan. HD 93128 (Q-method)
+U-B(O3.5V) = -1.17  ; interp
+U-B(O3.5V) = -1.185 ; exemplar HD 93205 (Q-method)
+=> adopt (U-B)(O3.5V) = -1.17 [updated 2/7/2020]
+
+B-V(O3.5V) = -0.322 ; pri. stan. HD 93128 (Q-method)
+B-V(O3.5V) = -0.328 ; U-B=-1.17 trend/Q-method
+=> adopt (B-V)(O3.5V) = -0.328 [updated 2/7/2020]
+
+Teff(O3.5V) = 43710 K ; Holgado18
+Teff(O3.5V) = 43856 K ; Martins05
+Teff(O3.5V) = 44100 K ; EEM trend for O dwarfs **
+Teff(O3.5V) = 48500 K ; Holgado20 (N=2 O3.5Vs but both "z" - HD 93128 49300K, HD 93129B 47700K)
+=> adopt Teff(O3.5V) = 44100 K (logTeff = 4.644) [updated 1/20/2020]
+
+logg(O3.5V) = 3.76 dex ; Holgado18
+logg(O3.5V) = 3.99+-0.08 dex ; pri. stan. HD 93129B Holgado20
+logg(O3.5V) = 4.09+-0.16 dex ; pri. stan. HD 93128 Holgado20
+=> adopt logg(O3.5V) = 4.0 dex [updated 11/15/2022]
+
+BCv(O3.5V) =  -3.986 mag ; Martins05
+BCv(O3.5V) = -3.96  mag ; EEM interp O3V(-4.03),O4V(-3.89)
+BCv(O3.5V) =  -3.93  mag ; Martins06(theor.scale)
+BCv(O3.5V) =  -3.928 mag [Teff=43710K; last updated 8/3/2018, adjusted so that BCv(5772K)=-0.08]
+BCv(O3.5V) =  -3.92  mag ; Martins05(obs.scale)
+=> adopt BCv(O3.5V) = -3.96 [updated 1/31/2020]
+
+logL(O3.5V) = 5.736 dex ; EEM trend for O dwarfs
+logL(O3.5V) = 5.750 dex ; Martins05
+logL(O3.5V) = 5.760 dex ; Mv=-5.70, BCv=-3.96 => Mbol=-9.66
+=> adopt logL(O3.5V) =  5.760 dex [updated 2/8/2020]
+=> adopt Mbol(O3.5V) = -9.660 mag [updated 2/8/2020]
+
+Mv(O3.5V) = -5.648 mag ; Martins05
+Mv(O3.5V) = -5.670 mag ; EEM trend for O dwarfs
+Mv(O3.5V) = -5.705 mag ; Martins06/theor.scale
+Mv(O3.5V) = -5.715 mag ; Martins06/interp.scale
+Mv(O3.5V) = -5.76  mag ; pri. stan. HD 93128 
+=> adopt Mv(O3.5V) = -5.70 [updated 2/7/2020]
+
+Rad(O3.5V) = 12.9950 Rsun ; logL=5.760, Teff=44100K
+Rad(O3.5V) = 12.985 Rsun ; Martins05 (Teff=43856K,logL=5.750)
+=> adopt Rad(O3.5V) = 12.995 Rsun [updated 2/8/2020]
+
+Mass(O3.5V) = 54.7 Msun   ; MIST/Choi16 solar tracks for logT=4.644,logL=5.76
+Mass(O3.5V) = 59+7-6 Msun ; Weidner10
+=> adopt Mass(O3.5V) = 55 Msun [updated 4/16/2022]
 
 # Primary Standards
-HD 93128
+
+HD 93128 = Cl Trumpler 14 2 = Cl* Trumpler 14 MJ 157 = 2MASS J10435441-5932574
+ *O3.5V((fc))z: Sota14,Holgado20
   O3.5V((f+)): Walborn02
   O3V((f)): Walborn72
   O4V: Vijapurkar93
@@ -15,19 +69,47 @@ HD 93128
   O3((f)): Conti77
   Of:: Houk75
 
+  In Trumpler 14 region in Car OB1.  Schull19 estimates unreddened
+  Vo=6.532, Av=2.243.  Mermilliod91: V=8.817+-0.033, B-V=0.247+-0.005,
+  U-B=-0.740. Using Q-method, I get: (B-V)o=-0.322, (U-B)o=-1.147,
+  E(B-V)=0.569, Av=1.841 for standard Rv(Cox00 calibration). Using
+  GaiaDR2 astrometry for 29 O-stars in CarOB1, Schull19 estimates mean
+  distance 2.87+-0.73 pc (photometric distance 2.60+-0.28 kpc).
+  2.87kpc => (m-M)o=12.289, plx=0.348mas.  For Vo=6.532, D=2.87kpc =>
+  Mv=-5.76. Teffs: 49300+-2200K(Holgado20). logg=4.09+-0.16(Holgado20). 
+
 HD 93129B
   O3.5V((f+)): Walborn02
+  O3.5V((f)): Sota14
+ *O3.5V((f))z: MaizAppelaniz16,Holgado20
   O3V((f)): Walborn73
+  
+  Secondary to a O2If* primary (HD 93129A) 2.8" away.
+  V=10.745+-0.055, B-V=0.290+-0.030, U-B=-0.630+-0.020(Mermilliod91) =>
+  Q-method(1/2020) => (B-V)o=-0.295, (U-B)o=-1.052, E(B-V)=0.585, Av=1.897.
+  Teffs: 47700+-1800K(Holgado20). logg=3.99+-0.08(Holgado20). 
 
-# Others
-HD 93205
-  O3.5V((f+)): Walborn02
+# Exemplars
+
+HD 93205 = LS 1849
+  O3.5V((f+))+O8V: Walborn02
+ *O3.5V((f))+O8V: Sota14
   O3V+O8V: Morrell01
   O3+O8:: Conti76
+  O3: Conti77
+  O3V: Walborn71
+
+  V=7.748+-0.004, B-V=0.062+-0.015, U-B=-0.908+-0.004(Mermilliod91)
+  => Q-method(1/2020) => (B-V)o=-0.332, (U-B)o=-1.185, E(B-V)=0.394,
+  Av=1.270. 
+
+# Other Stars
 
 HD 93250
   O3.5V((f+))+O8V: Walborn02
   O3V((f)): Walborn71
   O3: Conti77
+ *O4IV(fc): MaizAppelaniz16
+  O4III(fc): Sota14
   O5: Morgan55
   O6/7: Houk75

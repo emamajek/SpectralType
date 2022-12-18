@@ -1,0 +1,63 @@
+Y0.5V
+
+Although there don't seem to be any declared Y0.5V standards,
+WISE 1541-2250 is probably the de facto standard
+
+Teff(Y0.5V) =  350 K ; Dupuy13 (WISEP J1541-2250)
+Teff(Y1V)   =   360 K ; adopted
+Teff(Y0.5V) =  364 K ; WISE_0825+2805 (Kirkpatrick19; plx=155.8+-2.4mas)
+Teff(Y0.5V) =  ~375 K [350-400K] ; Schneider15/WISE1405+5534
+Teff(Y0.5V) =  376 K ; WISE J082507.35+280548.5 (Kirkpatrick20)
+Teff(Y0.5V) =  400 K ; Schneider15/WISE0825+2805
+Teff(Y0.5V) =  402 K ; WISE_1405+5534 (Kirkpatrick19; plx=157.9+-3.1mas)
+Teff(Y0.5V) =  412 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(Y0V)   =   450 K ; adopted
+=> adopt Teff(Y0.5V) = 400 K (logT=2.602) [updated 2/2/2021]
+
+M_J(Y0.5V) > 20.57 ; WISE_0825+2805 calc using Kirkpatrick20 (plx=152.6mas)
+
+M_J(MKO)(Y0V)   =   20.15 ; Y0V adopted
+M_J(MKO)(Y0.5V) >  20.34  ; CWISE_0321+6932 calc using Kirkpatrick20 (plx=68.5mas)
+M_J(MKO)(Y0.5V) = 21.43  ; halfway Y0V-Y1V
+M_J(Y0.5V)      ~ 22     ;  Leggett15 Fig. 3 (eyeball trend)
+M_J(MKO)(Y0.5V) = 22.06  ; WISE_1405+5534 calc using Kirkpatrick20 (plx=158.2mas)
+M_J(MKO)(Y0.5V) = 22.39  ; Tinney14 (N=1) [apparently WISE J014807.25-720258.7]
+M_J(MKO)(Y1V)   =   22.7  ; Y1V adopted
+M_J(MKO)(Y0.5V) =  23.32  ; WISE_0825+2805 calc using Kirkpatrick20 (plx=152.6mas)
+=> adopt M_J(MKO)(Y0.5V) = 22.0 [updated 12/5/2020]
+
+M_Ks value is upper limit
+M_Ks(Y0.5V) > 19.11 ; WISE_0825+2805 calc using Kirkpatrick20(plx=152.6mas)
+M_Ks(Y0.5V) = 21.62 ; interp Y0V-Y2V
+=> adopt M_Ks(Y0.5V) = 21.6 [updated 12/5/2020]
+
+W1-W2(Y0.5V) = 3.89 ; Kirkpatrick19 polynomial
+
+M_W2(Y0.5V) = 15.20 ; Tinney14 (N=1; apparently WISE J014807.25-720258.7)
+
+# Exemplars
+
+WISE J1541-2250 = WISEPA J154151.66−225025.2 = WISE J154151.65−225024.9
+  Y0.5: Kirkpatrick12
+
+  The only Y0.5 in the Kirkpatrick12 survey. (W1-W2)=2.49+-0.18, the
+  only Y dwarf in Kirkpatrick12 with measured W1-W2 (not lower limit),
+  and (H-W2) > 6.0.  W1=16.74+-0.17(Kirkpatrick12),
+  W2=14.25+-0.06(Kirkpatrick12). Kirkpatrick12: "This also means that
+  WISE 1541−2250, which has a slightly broader J-band peak [than Y1
+  standard WISE 0350-5658], should be re-typed from Y0 to Y0.5."
+
+WISE J082507.35+280548.5
+  Y0.5: Schneider15,Kirkpatrick20
+
+  plx=152.6+-2.0mas(Kirkpatrick20). Teff=376+-88K(Kirkpatrick20).
+
+# Others
+  
+WISE J140518.32+553421.3
+  Y0.5: Schneider15
+  Y0.5(pec?): Kirkpatrick20
+
+  plx=158.2+-2.6mas(Kirkpatrick20), Teff=411+-88K(Kirkpatrick20).
+
+

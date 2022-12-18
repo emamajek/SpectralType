@@ -14,63 +14,114 @@ Keenan85 standard:    HD 46150  - O5V
 Garcia89 standard:    HD 46150  - O5V
 Walborn90 standard:   HD 46150  - O5V((f))
 GrayAtlas standard:   HD 46150  - O5V
+Sota11 standards:     HD 46150  - O5V
+       		      HDE 319699 - O5V 
 
 Skiff08 lists only one O5V standard: HD 46150 (MK78)
 
-B-V(O5V)  = -0.33   ; SchmidtKaler82
-B-V(O5V)  = -0.32   ; Johnson63, Johnson66, Fitzgerald70, Morgan71
-B-V(O5V)  = -0.296  ; EEM dereddened primary standard HD 46150
-B-V(O5V)  = -0.28   ; Martins06
-=> adopt B-V(O5V) = -0.303 [using EEM U-B/B-V fit, and U-B=-1.14]
+Walborn72 classifies three stars as O5V or variant: HD 15629 (O5V((f))), HD 192281 (O5Vn((f))p), and HD 46150 (O5V((f))).
 
-U-B(O5V)  = -1.110  ; EEM dereddened primary standard HD 46150
+Holgado20 classifies three stars as O5V or variant: HDE 319699, HD 46150, HD 256725A.
+
+B-V(O5V)  = -0.33   ; SchmidtKaler82
+B-V(O5V)  = -0.323  ; U-B=-1.15 trend/Q-method
+B-V(O5V)  = -0.325  ; pri. stan. HD 46150 
+B-V(O5V)  = -0.32   ; Johnson58,Johnson63,Johnson66,Fitzgerald70,Morgan71
+B-V(O5V)  = -0.28   ; Martins06
+=> adopt (B-V)(O5V) = -0.323 [updated 2/7/2020]
+
 U-B(O5V)  = -1.14   ; Martins06
 U-B(O5V)  = -1.14   ; Johnson66
-U-B(O5V)  = -1.15   ; Johnson63
+U-B(O5V)  = -1.15   ; Johnson58,Johnson63
+U-B(O5V)  = -1.157  ; pri. stan. HD 46150 (Q-method)
 U-B(O5V)  = -1.19   ; Bessell98
 U-B(O5V)  = -1.19   ; Fitzgerald70
 U-B(O5V)  = -1.19   ; Schmidt-Kaler82
-=> adopt U-B(O5V) = -1.14
+=> adopt (U-B)(O5V) = -1.15  [updated 2/7/2020]
+=> adopt Q(O5V)     = -0.921 [updated 2/7/2020]
+
+(g-r)(O5V) = -0.62 ; Covey07 interp O5V -0.62 to O9V -0.62
 
 Teff(O5V) =  40300 K ; Bohm-Vitense81
-Teff(O5V) = 40500 K ; non-stan. HD 15629 (Repolust04)
+Teff(O5V) =  40500 K ; non-stan. HD 15629 (Repolust04)
+Teff(O5V) = 40728 K ; Simon-Diaz14 linear fit for O5V
+Teff(O5V) = 40738 K ; Simon-Diaz17 median for O5V (N=1; HD46150)
 Teff(O5V) = 40862 K ; Martins05(Obs. scale), GrayCorbally09
 Teff(O5V) = 41000 K ; Massey05(Milky Way)
+Teff(O5V) = 41200 K ; Holgado20 (N=3 O5Vs, all 41100K or 41200K)
+Teff(O5V) = 41280 K ; Holgado18
+Teff(O5V) = 41400 K ; EEM trend for O dwarfs 1/2020 **
 Teff(O5V) = 41540 K ; Martins05(Theoretical scale)
+Teff(O5V) = 41550 K ; pri. stan. HD 46150 (median Teff)
 Teff(O5V) =  43000 K ; Bessell98
 Teff(O5V) =  43000 K ; Crowther97/Fig.3 
-Teff(O5V) = 43150 K ; pri. stan. HD 46150 (median Teff)
 Teff(O5V) =  44500 K ; Schmidt-Kaler82
-Teff(O5V) = 47034 K ; EEM N=6 Teffs
-=> adopt Teff(O5V) = 41500 K (logTeff = 4.618)
+Teff(O5V) =  47034 K ; EEM N=6 Teffs
+=> adopt Teff(O5V) = 41400 K (logTeff = 4.617) [updated 1/20/2020]
+=> adopt Teff(O5V) = 41200 K (logTeff = 4.615) [updated 11/15/2022]
 
-Mv(O5V) = -5.7  mag ; Schmidt-Kaler82
+
+(G-V)(O5V) =  0.014 ; HIP_31130 O5V((f))z V=6.784 G=6.7308 E(B-V)=0.468
+(G-V)(O5V) =  0.011 ; HIP_32067 O5V((f))z+O9:V V=6.348 G=6.3301 E(B-V)=0.198
+=> adopt (G-V)(O5V) = 0.01 [updated 10/22/2022]
+
+Mv(O5V) =  -5.7  mag ; Schmidt-Kaler82
+Mv(O5V) = -5.67 mas ; pri. stan. HD 46150 (see below)
+Mv(O5V) = -5.6  mag ; Conti71(ZAMS)
+Mv(O5V) =  -5.51 mag ; HIP_31130 O5V((f))z plx=0.678 mas, Vmag=6.784,E(B-V)=0.468 (GaiaDR3)
 Mv(O5V) = -5.5  mag ; GrayCorbally09
 Mv(O5V) = -5.50 mag ; non-stan. HD 15629 (Repolust04)
+Mv(O5V) = -5.50 mag ; Bowen08
 Mv(O5V) = -5.48 mag ; pri. stan. HD 46150 (Martins11)
 Mv(O5V) = -5.41 mag ; Russeil03
+Mv(O5V) = -5.34 mag ; EEM trend for O dwarfs
+Mv(O5V) = -5.300 mag ; EEM logL/Teff trend for O dwarfs
+Mv(O5V) = -5.27 mag ; Martins06/obs.scale
+Mv(O5V) = -5.27 mag ; Martins06/theor.scale
 Mv(O5V) = -5.21 mag ; Martins05
-Mv(O5V) = -5.10 mag ; Wegner07
-=> adopt Mv(O5V) = -5.4 mag 
+Mv(O5V) =  -5.10 mag ; Wegner07
+Mv(O5V) =  -4.75 mag ; HIP_32067 O5V((f))z+O9:V plx=0.800 mas, Vmag=6.348,E(B-V)=0.198 (GaiaDR3)
+=> adopt Mv(O5V) = -5.35 mag [updated 2/8/2020]
 
-BCv(O5V) = -4.27  mag ; Schmidt-Kaler82(BCv=-4.40 + 0.13 offset)
-BCv(O5V) = -3.82  mag ; Martins05(Theoretical scale)
-BCv(O5V) = -3.785 mag ; LanzHubeny03(Teff=41000K,Z/Zsun=1)
-BCv(O5V) = -3.78  mag ; Martins05(Obs. scale)
-=> adopt BCv(O5V) = -3.80 mag 
+BCv(O5V) =  -4.27  mag ; Schmidt-Kaler82(BCv=-4.40 + 0.13 offset)
+BCv(O5V) =  -4.027 mag ; Flower96(Teff=41400K, set so BCv(5772K)=-0.085)
+BCv(O5V) = -3.894 mag ; Chen19 PARSEC Teff=41400K,solar,logg=3.75
+BCv(O5V) = -3.82  mag ; Martins05(theor.scale)
+BCv(O5V) = -3.76  mag ; Martins06(theor.scale)
+BCv(O5V) = -3.758 mag ; LanzHubeny03(Teff=41400K,Z/Zsun=1)
+BCv(O5V) = -3.78  mag ; Martins05(obs.scale)
+BCv(O5V) = -3.71  mag ; Martins06(obs.scale)
+BCv(O5V) =  -3.526 mag ; Balona94(Teff=41400K, set so BCv(5772K)=-0.085)
+=> adopt BCv(O5V) = -3.76 [updated 1/31/2020]
 
-logL(O5V) = 5.50 ; Martins05(Obs. scale)
-logL(O5V) = 5.51 ; Martins05(Theoretical scale)
-logL(O5V) = 5.58 ; Mv=-5.4, BCv=-3.80 => Mbol = -9.20
-logL(O5V) = 5.60 ; non-stan. HD 15629 (Repolust04)
-=> adopt logL(O5V) = 5.58 dex
-=> adopt Mbol(O5V) = -9.20 mag 
+logL(O5V) = 5.50  ; Martins05(Obs. scale)
+logL(O5V) = 5.51  ; Martins05(Theoretical scale)
+logL(O5V) = 5.521 ; logL/Teff trend for O dwarfs for Teff=41300K
+logL(O5V) = 5.540 ; Mv=-5.35, BCv=-3.76 => Mbol = -9.110
+logL(O5V) = 5.60  ; non-stan. HD 15629 (Repolust04)
+=> adopt logL(O5V) =  5.540 dex [updated 2/8/2020]
+=> adopt Mbol(O5V) = -9.110 mag [updated 2/8/2020]
 
-Mass(O5V) = 30.4 Msun ; non-stan. HD 15629 (Repolust04)
-Mass(O5V) = 31.98 Msun ; EEM Teff vs. Mass fit for binaries (Teff=41000K)
-=> adopt Mass(O5V) ~ 31 Msun ?
+Mass(O5V) =  30.4 Msun  ; non-stan. HD 15629 (Repolust04)
+Mass(O5V) = 31.98 Msun  ; EEM Teff vs. Mass fit for binaries (Teff=41000K)
+Mass(O5V) = 37.28 Msun  ; Martins05/theo. Teff scale
+Mass(O5V) = 38.08 Msun  ; Martins05/obs. Teff scale 
+Mass(O5V) = 42.96 Msun  ; MIST/Choi16 solar tracks for logT=4.617,logL=5.540
+Mass(O5V) = 44+7-6 Msun ; Weidner10
+=> adopt Mass(O5V) = 43 Msun [updated 4/16/2022]
 
-logg(O5V) = 3.70 dex ; non-stan. HD 15629 (Repolust04)
+logg(O5V) =  3.70 dex   ; non-stan. HD 15629 (Repolust04)
+logg(O5V) = 3.79 dex   ; Holgado18
+logg(O5V) = 3.81+-0.04 ; pri. stan. HD 46150 Holgado20
+logg(O5V) =  3.91+-0.07 ; HDE 319699 Holgado20
+logg(O5V) = 3.919+-0.15 (stdev) ; Martins05
+logg(O5V) =  3.94+-0.11 ; HD256725A Holgado20
+=> adopt logg(O5V) = 3.85 dex [updated 11/15/2022]
+
+Rad(O5V) = 12.8    Rsun ; HD15629/Repolust04
+Rad(O5V) = 11.4460 Rsun ; logL=5.540, Teff= 41400K
+Rad(O5V) = 11.112  Rsun ; Martins05 (Teff=40863K,logL=5.492)
+=> adopt Rad(O5V) = 11.446 Rsun [updated 2/8/2020]
 
 # No Standards
 
@@ -82,41 +133,55 @@ HD 46150 = Cl* NGC 2244 John 2
   O5: Morgan65,Abt68,MK73(dagger)
   O5V: Garrison77(stan),MK78(stan),Keenan85,Garcia89,GrayAtlas,Abt08
   O5V((f)): Walborn71(stan),Walborn72,Walborn73,Bisiacchi76,Walborn90,Walborn02
-  O5V((f))z: Martins11
+ *O5V((f))z: Martins11,Sota11,Holgado20
   O5.5((f)): Conti74,Conti77
   O6: JM53
   B5Iab: Houk99
 
-  Morgan65 classified the star as "O5" and it has been a primary
-  standard since.  M91: V=6.745, B-V=0.129+-0.008, U-B=-0.834+-0.012
-  => QBV => (B-V)o=-0.296, (U-B)o=-1.110, E(B-V)=0.425, Teff=32752 but
-  the reddening is significant...  Not clear why the Houk type is so
-  different.  Excellent agreement on "O5" temperature type and dwarf
-  luminosity class.  Adopt "O5V((f))" from
-  Walborn71,Walborn72,Walborn73,Walborn90,Walborn02.
-  
-  Teffs: 42000K(Martins11), 44300K(Snow94) => median Teff = 43150K. 
+  NGC 2244 member classified by Morgan65 as "O5" and it has been a
+  primary standard since.  M91: V=6.745, B-V=0.129+-0.008,
+  U-B=-0.834+-0.012 => QBV => (B-V)o=-0.325, (U-B)o=-1.157,
+  E(B-V)=0.424, Av=1.465.  plx= 0.6263+-0.0788mas(GaiaDR2), however it
+  is NGC2244 member and Cantat-Gaudin18 estimate D=1548.8pc(mode) =>
+  plx=0.646mas, (m-M)o=10.950. E(B-V)=0.45+-0.03(Fan17),
+  Av=1.444+-0.019(MaizApellaniz18) => Mv=-5.72.
+  Mv=-5.5(Snow94). V=6.745, plx=0.646mas, Av=1.465 => Mv =
+  -5.67. logL=3.98(Simon-Diaz17).  Teffs: 40738K(Simon-Diaz17),
+  41100+-500K(Holgado20), 42000K(Martins11), 44300K(Snow94) => <Teff>
+  = 41550K. logg=3.81+-0.04(Holgado20).
 
-
-# Secondary Standards
-
-HD 93204
-  O5V((f)): Walborn73
 
 # Deprecated Standard
 
+HD 93204
+  O5V((f)): Walborn73,Walborn02
+  O5.5V(fc): Walborn10
+ *O5.5V((f)): Sota14
+  O6V((f)): Markova11
+  O6/7V: Alexander18
+
+  It appears that Walborn and subsequent authors moved this star 0.5-1
+  subtype later.  V=8.440+-0.019(Mermilliod91),
+  B-V=0.099+-0.010(Mermilliod91), U-B==0.884+-0.005(Mermilliod91).
+  E(B-V)=0.41(Savage01),
+  Av=1.611+-0.032(MaizApellaniz18). plx=0.4486+-0.0378mas(GaiaDR2).
+  Mv=-4.912.
+ 
 HD 164794 = 9 Sgr
+  O4V: Bisiachhi82
+ *O4((f))z: Sota14
+  O4((f)): Walborn72,Walborn73,Conti74,Maiz-Apellaniz16
+  O4f: Conti71,Conti73,Conti73
   O5V: Jaschek78(Hiltner69(Stan))
   O5: Morgan53,Morgan55,Jaschek64(most),Hiltner65
   O6: Houk88
   O7: Weaver53
-  O4V: Bisiachhi82
-  O4((f)): Walborn72,Walborn73,Conti74
-  O4f: Conti71,Conti73,Conti73
-  Jaschek64 mostly O5, with a O6 and O7
-  Hiltner69 used as O5V standard, but doesn't have the best pedigree now
+
+  Hiltner69 used as O5V standard, but recent types have converged on
+  O4V subtype.
 
 # Other Stars
+
 HD 66811 = Zet Pup = HR 3165 
   O5: MK43,MK73(dagger)
   O5If: MK78
@@ -129,7 +194,17 @@ HD 66811 = Zet Pup = HR 3165
   O5f: Morgan55,Hiltner69
   O5f/WN7: Smith55
   O6/7III: Zorec09
-  Never considered a "O5V" standard. MK78 considers "O5If" standard. 
+  
+  Never considered a "O5V" standard. MK78 considers "O5If" standard.
 
-Walborn72 classifies three stars as O5V or variant: HD 15629
-(O5V((f))), HD 192281 (O5Vn((f))p), and HD 46150 (O5V((f))).
+HD 256725A
+  O5V((fc)): Holgado20
+
+  Teff=41200+-1000K(Holgado20), logg=3.94+-0.11(Holgado20)
+
+HD 319699
+  O5V((fc)): Holgado20
+
+  Teff=41200+-800K(Holgado20), logg=3.91+-0.07(Holgado20)
+
+

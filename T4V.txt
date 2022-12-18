@@ -1,0 +1,48 @@
+T4V
+
+Standards:
+Burgasser06 stans: 2MASS J22541892+3123498 T4 (primary standard)
+
+Teff(T4V) = 1100 K ; Filipazzo15 M6V-T9V field calibration 
+Teff(T4V) = 1172 K ; Dupuy17(SaumonMarley08 model scale)
+Teff(T4V) = 1178 K ; Dupuy17(Lyon model scale)
+Teff(T4V) = 1182 K ; Kirkpatrick20 (Table 13 polynomial)
+=> adopt Teff(T4V) = 1180 K (logT = 3.072) [updated 12/26/2020]
+
+I've focused on 2MASS_2254+3123, which has the median M_J
+M_J(T4V) =  14.26 ; WISE_0819-0335 calc using Kirkpatrick20 (plx=71.36mas)
+M_J(T4V) =  14.53 ; 2MASS_2151-4853 calc using Kirkpatrick20 (plx=57.46mas)
+M_J(T4V) = 14.55  ; 2MASS_2254+3123 calc using Kirkpatrick20 (plx=72.mas)
+M_J(T4V) =  14.99 ; WISE_1400-3850 calc using Kirkpatrick20 (plx=61.7mas)
+M_J(T4V) =  15.32 ; SDSS_1214+6316 calc using Kirkpatrick20 (plx=55.8mas)
+=> adopt M_J(T4V) = 14.55 [updated 12/5/2020] (M_J(MKO) = 14.29, (J(MKO)-J)(T4V) = -0.26)
+
+M_J(MKO)(T4V) =  14.047 ; WISE_0819-0335 calc using Kirkpatrick20 (plx=71.36mas)
+M_J(MKO)(T4V) =  14.236 ; 2MASS_2151-4853 calc using Kirkpatrick20 (plx=57.46mas)
+M_J(MKO)(T4V) = 14.286  ; 2MASS_2254+3123 calc using Kirkpatrick20 (plx=72.mas)
+M_J(MKO)(T4V) =  14.831 ; WISE_1400-3850 calc using Kirkpatrick20 (plx=61.7mas)
+=> adopt M_J(MKO) = 14.29 [updated 12/5/2020] (M_J=14.55, (J(MKO)-J)(T4V) = -0.26)
+
+(J(MKO)-J)(T4V) =  -0.29 +- 0.07 ; 2MASS_2151-4853 14.0
+(J(MKO)-J)(T4V) = -0.26 +- 0.05  ; 2MASS_2254+3123 14.0
+(J(MKO)-J)(T4V) =  -0.21 +- 0.04 ; WISE_0819-0335 14.0
+(J(MKO)-J)(T4V) =  -0.16 +- 0.10 ; WISE_1400-3850 14.0
+=> adopt (J(MKO)-J)(T4V) = -0.26 [updated 12/5/2020]
+
+M_K(MKO)(T4V) = 14.22 ; 2MASS_2151-4853 calc using Kirkpatrick20 (plx=57.46mas)
+
+M_Ks(T3V) = 13.52  ; T3V adopted
+M_Ks(T4V) =  13.87 ; WISE_0819-0335 calc using Kirkpatrick20 (plx=71.36mas)
+M_Ks(T4V) =  14.14 ; 2MASS_2151-4853 calc using Kirkpatrick20 (plx=57.46mas)
+M_Ks(T4V) =  14.19 ; 2MASS_2254+3123 calc using Kirkpatrick20 (plx=72.mas)
+M_Ks(T4V) =  14.61 ; SDSS_1214+6316 calc using Kirkpatrick20 (plx=55.8mas)
+M_Ks(T5V) = 14.8   ; T5V adopted
+M_Ks(T4V) =  14.88 ; WISE_1400-3850 calc using Kirkpatrick20 (plx=61.7mas)
+=> adopt M_Ks(T4V) = 14.2 [updated 12/5/2020]
+
+(K(MKO)-Ks)(T4V) = 0.08 +- 0.18 ; 2MASS_2151-4853
+
+BC_Ks(T4V) = 2.804 ; Filipazzo15 (field) [denser trend through L/T]
+BC_Ks(T4V) = 2.481 ; Looper08
+=> adopt BC_Ks(T4V) = 2.80 [updated 11/1/2019]
+

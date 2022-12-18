@@ -5,24 +5,140 @@ M9.5V standard, and cites Kirkpatrick95 and Kirkpatrick99.
 
 ReinersBasri09 finds that the mean kinematic age of nearby M7-M9.5 stars is 3.1 Gyr. 
 
-V-Ic = 4.49+-0.10 ; pri. stan. BRI 0021-0214 (see below)
-V-Ks = 8.97+-0.10 ; pri. stan. BRI 0021-0214 (see below)
+(V-Ic) = 4.73  ; trend Dieterich14 SpT vs. V-I
+(V-Ic) = 4.788 ; pri. stan. BRI 0021-0214 (see below)
+=> adopt (V-Ic)(M9.5V) = 4.73 [updated 7/4/2020]
 
-Teff(M9.5V) = 2425 K ; pri. stan. BRI 0021-0214 (median Teff)
-Teff(M9.5V) = 2351 K ; Golimowski04
-=> adopt Teff(M9.5V) ~ 2400 K (logT ~ 3.380)
+V-Rc = 2.51       ; pri. stan. BRI 0021-0214 (see below)
 
-BC_K = 3.17  ; pri. stan. BRI 0021-0214 (Leggett01,UKIRT-IRCAM3)
-BC_K = 3.177 ; Golimowski04
-=> adopt BC_K(M9.5V) = 3.17 
+(Bp-Rp)(M9.5V) = 4.8600 ; BRI_0021-0214 GaiaDR2
+=> adopt (Bp-Rp)(M9.5V) = 4.86 [updated 12/10/2018]
+
+(G-Rp)(M9.5V) = 1.6024 ; BRI_0021-0214 GaiaDR2
+(G-Rp)(M9.5V) = 1.612  ; M6.5-L2 color trend 
+=> adopt (G-Rp)(M9.5V) = 1.61 [updated 11/18/2020]
+
+(Bp-G)(M9.5V) = 3.2576 ; BRI_0021-0214
+=> adopt (Bp-G)(M9.5V) = 3.26 [updated 12/10/2018]
+
+(G-V)(M9.5V) = -3.2143 ; BRI_0021-0214
+(G-V)(M9.5V) = -3.10   ; trinomial trend through late Ms
+=> adopt (G-V)(M9.5V) = -3.10 [updated 12/10/2018]
+
+(V-Ks)(M9.5V) = 9.31 ; LEHPM1-0494B (Dieterich14)
+(V-Ks)(M9.5V) = 9.29 ; smoothed fit to Dieterich SpT vs V-Ks
+(V-Ks)(M9.5V) = 9.29 ; trend fit to Dahn17 for M9.5V
+(V-Ks)(M9.5V) = 9.27 ; pri. stan. BRI 0021-0214 (Dieterich14)
+=> adopt (V-Ks)(M9.5V) = 9.30 [updated 8/17/2020]
+
+(G-Ks)(M9.5V) =  5.796 ; exemplar G 216-7B = 2MASS J22373255+3922398
+(G-Ks)(M9.5V) =  5.845 ; exemplar WISE J072003.20-084651.2 = Scholz's Star
+(G-Ks)(M9.5V) =  5.915 ; exemplar 2MASSW J0109216+294925
+(G-Ks)(M9.5V) = 5.96   ; M_G=16.44, M_Ks=10.48
+(G-Ks)(M9.5V) =  6.008 ; exemplar 2MASS J22341394+2359559 
+(G-Ks)(M9.5V) =  6.01  ; interp M9V(5.90)-L0V(6.12)
+(G-Ks)(M9.5V) =  6.057 ; pri. stan. BRI 0021-0214
+=> adopt (G-Ks)(M9.5V) = 5.96 [updated 12/27/2021]
+
+(r-i)(M9.5V) = 1.877 (+-0.05 rms) ; West05 fit for (V-Ic)=4.73
+
+(i-z)(M9.5V) = 1.821 ; poly fit to SIMBAD d<75pc M dwarfs for G-Ks=5.96
+=> adopt (i-z)(M9.5V) = 1.82 [updated 12/27/2021]
+
+(z-J)(M9.5V) = 2.391 (+-0.053 rms) ; poly fit to d<50pc SIMBAD M dwarfs for G-Ks=5.96
+=> adopt (z-J)(M9.5V) = 2.39 [updated 12/27/2021]
+
+(J-H)(M9.5V)  = 0.808(+-0.031 sem,+-0.048 stdev) ; N=4 M9.5V Cruz03
+(J-H)(L0V)    =  0.76             ; adopted for L0V
+(J-H)(M9.5V)  = 0.745(+-0.07 rms) ; SIMBAD trend for M9.5V d<30pc
+(J-H)(M9V)    =  0.72             ; adopted for M9V
+=> adopt (J-H)(M9.5V) = 0.745 [last updated 8/6/2020]
+
+(H-Ks)(M9.5V) = 0.547(+-0.018 sem,+-0.028 stdev) ; N=4 M9.5V Cruz03
+(H-Ks)(M9.5V) = 0.505 ; trend of Dieterich14 data for V-Ks=9.3
+(H-Ks)(M9.5V) = 0.487 ; trend SIMBAD d<30pc M9-L dwarfs
+=> adopt (H-Ks)(M9.5V) = 0.50 [last updated 8/6/2020]
+
+(J-Ks)(M9.5V) = 1.352(+-0.041 sem,+-0.066 stdev) ; N=4 M9.5V Cruz03
+(J-Ks)(M9.5V) = 1.331(+-0.040 sem,+-0.112 stdev) ; N=9 M9.5V Faherty09
+=> adopt (J-Ks)(M9.5V) = 1.331 [last updated 9/6/2017]
+
+(Ks-W1)(M9.5V) = 0.343 ; Dupuy12 trend
+(Ks-W1)(M9.5V) = 0.414 ; Dupuy12 median (N=3;d<50pc)
+=> adopt (Ks-W1)(M9.5V) = 0.35 [updated 12/28/2019]
+
+Mv(M9.5V) =  19.10 ; exemplar WISE J072003.20-084651.2 = Scholz's Star      
+Mv(M9.5V) =  19.33 ; pri. stan. BRI0021-0214
+Mv(M9.5V) =  19.61 ; LEHPM1-0494B
+Mv(M9.5V) =  19.75 ; EEM fit to Dieterich14 V-Ks=9.30
+Mv(M9.5V) = 19.78 ; V-Ks=9.3, M_Ks=10.48
+Mv(M9.5V) =  19.83 ; Dieterich14 calib V-Ks=9.30
+=> adopt Mv(M9.5V)   = 19.78 [updated 12/27/2021; M_Ks=10.48, V-Ks=9.3]
+=> adopt M_G(M9.5V)  = 16.44 [updated 12/27/2021; M_Ks=10.48, G-Ks=5.96]
+=> adopt M_Ks(M9.5V) = 10.48 [updated 12/27/2021; V-Ks=9.3, Mv=19.78]
+
+M_G(M9.5V) =  16.11 ; pri. stan. BRI 0021-0214 = V* DY Psc
+M_G(M9.5V) =  16.12 ; exemplar PC 0025+0447 (large uncertainty +-0.17)
+M_G(M9.5V) = 16.13 ; trend for d<20pc late Ms/early Ls
+M_G(M9.5V) =  16.16 ; exemplar WISE J072003.20-084651.2 = Scholz's Star      
+M_G(M9.5V) =  16.36 ; exemplar G 216-7B = 2MASS J22373255+3922398
+M_G(M9.5V) = 16.42 ; trend SIMBAD d<10pc sample
+M_G(M9.5V) = 16.44 ; (G-Ks)=5.96, M_Ks=10.48
+M_G(M9.5V) = 16.44 ; median for the d<20pc M9.5Vs in SIMBAD
+M_G(M9.5V) =  16.51 ; 2MASS J22341394+2359559       
+M_G(M9.5V) =  16.59 ; 2MASSW J0109216+294925
+
+Note that the standard & exemplars have trend:
+M_G = 9.0557 + 0.70024*M_Ks (rms = 0.098 mag)
+
+M_Ks(M9.5V) =  10.03   ; exemplar PC 0025+0447 (large errors +-0.17)
+M_Ks(M9.5V) =  10.05   ; pri. stan. BRI0021-0214 = DY Psc
+M_Ks(M9.5V) =   10.30  ; LEHPM1-0494B
+M_Ks(M9.5V) =  10.32   ; exemplar Scholz's star = WISE J072003.20-084651.2  
+M_Ks(M9.5V) =  10.45   ; EEM fit to Dieterich14 V-Ks=9.30
+M_Ks(M9.5V) = 10.475  ; halfway M_Ks=10.4(M9V) and M_Ks=10.57(L0V)
+M_Ks(M9.5V) =   10.50  ; 2MASS J22341394+2359559 (single M9.5e classification;Gizis00)     
+M_Ks(M9.5V) =  10.53   ; Dieterich14 calib (V-K=9.3, Mv=19.83)
+M_Ks(M9.5V) =   10.55  ; median for SIMBAD M9.5 (d<25pc)
+M_Ks(M9.5V) =  10.57   ; exemplar G 216-7B                     
+M_Ks(M9.5V) =   10.67  ; 2MASSW J0109216+294925 (single M9.5 classification; Gizis00)
+
+Teff(M9.5V) =   2495 K ; pri. stan. BRI 0021-0214 (Berger06)
+Teff(M9.5V) =   2425 K ; pri. stan. BRI 0021-0214 (Golimowski04)
+Teff(M9.5V) =  2403 K ; Dupuy17(Lyon model scale)
+Teff(M9.5V) =  2383 K ; Dupuy17(SaumonMarley08 scale)
+Teff(M9.5V) =   2351 K ; Golimowski04
+Teff(M9.5V) = 2331 K ; empirical L-R relation, for logL=-3.572
+Teff(M9.5V) =  2322 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(M9.5V) =  2315 K ; pri. stan. BRI 0021-0214 (Dieterich14)
+Teff(M9.5V) =  2305 K ; LEHPM1-0494B (Dieterich14)
+Teff(M9.5V) =  2298 K ; interp M9V(V-Ks=9.0,2380K)-L0V(V-Ks=9.4,2270K)
+Teff(M9.5V) =   2225 K ; Cifuentes20 <Teff> for CARMENES(N=2)
+=> adopt Teff(M9.5V) = 2330 K (logT = 3.368) [updated 11/15/2021]
+
+BC_Ks(M9.5V) = 3.127 ; Filipazzo15 (field)
+BC_K(M9.5V)  = 3.17  ; pri. stan. BRI 0021-0214 (Leggett01,UKIRT-IRCAM3)
+BC_K(M9.5V)  = 3.17  ; interp M6V-L1V for V-Ks=9.30 
+BC_K(M9.5V)  =  3.177 ; Golimowski04
+=> adopt BC_K(M9.5V) = 3.17 [updated 11/3/2019]
 
 BCv = -5.77 +-0.10 ; pri. stan. BRI 0021-0214 (see below)
-BCv = -5.80 ; BC_K=3.17, V-K=8.97 
-=> adopt BCv(M9.5V) = -5.80 
+BCv = -6.13 ; BC_K=3.17, V-K=9.30
+=> adopt BCv(M9.5V) = -6.13 [updated 11/3/2019] 
 
-logL = -3.43 dex ; pri. stan. BRI 0021-0214 (Leggett01)
-logL = -3.45+-0.03 dex ; pri. stan. BRI 0021-0214 (Golimowski04; Mbol=13.37+-0.10 
-=> logL(M9.5V) = -3.45 dex 
+logL(M9.5V) = -3.43 dex ; pri. stan. BRI 0021-0214 (Leggett01)
+logL(M9.5V) = -3.45+-0.03 dex ; pri. stan. BRI 0021-0214 (Golimowski04; Mbol=13.37+-0.10
+logL(M9.5V) = -3.505 dex ; pri. stan. BRI0021-0214 (Deiterich14)
+logL(M9.5V) = -3.506 dex ; LEHPN1-0494B (Dieterich14) 
+logL(M9.5V) = -3.572 dex ; M_Ks=10.5, BC_Ks=3.17, Mbol = 13.670
+=> adopt logL(M9.5V) = -3.572 dex [updated 1/15/2021]
+=> adopt Mbol(M9.5V) = 13.670 mag [updated 1/15/2021]
+
+Mass(M9.5V) = 0.0777 Msun ; Mann18 calib. for M_Ks=10.50
+=> adopt Mass(M9.5V) = 0.078 Msun [updated 11/15/2021]
+
+Rad(M9.5V) = 0.0987 Rsun ; Teff=2350K, logL=-3.572
+=> adopt Rad(M9.5V) = 0.099 Rsun [updated 11/3/2019]
 
 # No Standards
 
@@ -30,11 +146,13 @@ Boeshaar85 does not list any standards later than dM9 (LHS 2924)
 
 # Primary Standard
 
-BRI 0021-0214 = 2MASS J00242463-0158201 = DY Psc = NLTT 1261 = LP 585-86
- *M9.5V: Kirkpatrick99,Reid99,Leggett01,Geballe02,Lodieu05,Kirkpatrick(GrayCorbally09)(pri),Liebert06(+-0.5subtype). 
-  >=M9.5V: Kirkpatrick95("tenative classification")
-  M9+V: Tinney98
+BRI 0021-0214 = DY Psc = 2MASS J00242463-0158201 = NLTT 1261 = LP 585-86
   M9.0V: Henry04
+  M9+V: Tinney98
+ *M9.5V: Kirkpatrick99(footnote#8),Reid99,Leggett01,Geballe02,Lodieu05,Kirkpatrick(GrayCorbally09)(pri),Liebert06(+-0.5subtype). 
+  >=M9.5V: Kirkpatrick95("tenative classification")
+  L0: Koen17
+  L0.5: BardalezGagliuffi14(near-IR)
 
   SIMBAD note: "The name LP 585-86 is used for two different stars in
   NLTT catalogue (Vizier I/98) : the first one is at pos J2000 00 24
@@ -50,38 +168,83 @@ BRI 0021-0214 = 2MASS J00242463-0158201 = DY Psc = NLTT 1261 = LP 585-86
   11.754+-0.007, H=11.082+-0.001, K=10.500+-0.008. 2MASS photometry:
   J=11.922+-0.035, H=11.084+-0.022, Ks=10.539+-0.023
   (Cutri03). Leibert06 lists Cousins Rc=17.301+-0.006,
-  Ic=15.022+-0.003, (R-I)c = 2.279. Patten06 lists IRAC photometry of
-  [3.6]=9.94+-0.03, [4.5]=9.91+-0.03, [5.8]=9.72+-0.01,
-  [8.0]=9.55+-0.01. Vmag=19.60 (Jenkins09), Vmag=19.42 (Reid04),
-  Vmag=20.0 (Glebock05), Vmag=19.19 (Salim03) => adopt Vmag =
-  19.51+-0.09 (Jenkins09,Reid04). SDSS DR8 reports: u = 22.520+-0.304,
-  g = 21.070+-0.045, r = 18.677+-0.010, i = 16.182+-0.005, z =
-  14.370+-0.004. WISE photometry: W1=10.166+-0.024, W2=9.900+-0.019,
-  W3=9.412+-0.039.  Derived colors: V-Ks =
-  (19.51+-0.09)-(10.539+-0.023) = 8.97+-0.10.  V-Ic =
-  (19.51+-0.09)-(15.022+-0.003) = 4.49+-0.10.  BCv = mbol - V = 13.74
-  - 19.51(+-0.09) = -5.77+-0.10. Teffs: 2092K(Jenkins09),
-  2425K(Golimowski04), 2495K(Berger06) => median Teff = 2425K.  Mass =
-  0.103+-0.031 Msun(Jenkins09).
+  Ic=15.022+-0.003, (R-I)c = 2.279, V-Rc = 19.81 - 17.301 =
+  2.51. Patten06 lists IRAC photometry of [3.6]=9.94+-0.03,
+  [4.5]=9.91+-0.03, [5.8]=9.72+-0.01,
+  [8.0]=9.55+-0.01. Vmag=19.60(Jenkins09), Vmag=19.42(Reid04),
+  Vmag=20.0(Glebock05), Vmag=19.19(Salim03),
+  Vmag=19.81+-0.031(Dieterich14,CTIO),
+  Vmag=20.01+-0.051(Dieterich14,SOAR) => adopt Vmag = 19.81. SDSS DR8
+  reports: u = 22.520+-0.304, g = 21.070+-0.045, r = 18.677+-0.010, i
+  = 16.182+-0.005, z = 14.370+-0.004. WISE photometry:
+  W1=10.166+-0.024, W2=9.900+-0.019, W3=9.412+-0.039.  Derived colors:
+  V-Ks = 19.81-10.539 = 9.271.  V-Ic = 19.81-15.022=4.788.  plx =
+  79.9653 0.2212 mas (GaiaDR2). M_Ks=10.054+-0.024, Mv =
+  19.325. Teffs: 2092K(Jenkins09), 2315K(Dieterich14),
+  2425K(Golimowski04), 2495K(Berger06) => Teff=2425K.  Mass =
+  0.103+-0.031 Msun(Jenkins09). (G-Ks)=6.057, M_G=16.111, M_Ks=10.054. 
 
-# Candidate Secondary Standard
+# Exemplars
 
-PC 0025+0447
-
- *M9.5V: Kirkpatrick92(M9.5pecV),Kirkpatrick95("tenative classification"),Kirkpatrick99(M9.5V(pec))
+PC 0025+0447 = 2MASS J00274197+0503417  
+ *M9.5V: Kirkpatrick92(M9.5pecV),Kirkpatrick93(M9.5e),Kirkpatrick95("tenative classification"),Kirkpatrick99(M9.5V(pec),footnote#8),Gagne14(optical)
+  M9:: Graham92
+  M9{gamma}: Gagne15("low-gravity")
+  L0: Gagne15(IR),Martin17
 
   Kirkpatrick97 considered PC 0025+0447 a M9.5V star in their
   discussion. Kirkpatrick99 consider PC0025+0447 a M9.5V(peculiar) in
   footnote #8 of their paper. It is not explicitly listed as a
   secondary standard in the literature, but given the continuity of
   its classification by Kirkpatrick, it would seem to be an OK M9.5V
-  secondary standard.
+  secondary standard. Very similar absolute magnitudes to primary
+  standard BRI 0021-0214, but both are systematically brighter than the others.  plx = 13.24+-1.56 mas(Dahn17),
+  10.40+-0.80mas(Liu16). Unfortunately no parallax in either Gaia DR2
+  or EDR3. J=16.189+-0.093(2MASS), H=15.288+-0.099(2MASS),
+  Ks=14.964+-0.115(2MASS), K=14.94+-0.01(Skrzypek16,UKIDSS) =>
+  M_K=10.03+-0.17(Skrzypek16,Liu16).  Gaia EDR3: G=21.0307+-0.0182,
+  but no colors. M_G=16.12+-0.17(GaiaEDR3,Liu16).
 
-# Other Stars
+G 216-7B = 2MASS J22373255+3922398 = KIR 5B = WDS J22375+3923C
+  M9.5V: Kirkpatrick01,Cruz03
 
-LP 944-20 = BRI 0337-3535
-  M9.5V: Reid04
-  M9V: Kirkpatrick99,Kirkpatrick(unpub.,DwarfArchives)
+  This is a third component with two M3.5 stars situated 33" away.
+  Deacon14 lists this object as "G216-7C", and although it is the "C"
+  component to the WDS entry (J22376+3923), it is "G216-7B".
+  Kirkpatrick01: "G216-7B lies very close to the hydrogen-burning
+  limit".  Gaia EDR3: 47.6442+-0.1372mas, G=17.945925+-0.003048,
+  E(BP/RP)=1.777, Bp-Rp=4.503721, Bp-G=2.969297, G-Rp=1.534424.
+  (G-Ks)=5.796, M_G=16.363, M_Ks=10.567.
 
-  Kirkpatrick99 considers LP944-20 a M9V in footnote #8 of their paper. 
+WISE J072003.20-084651.2 = Scholz's Star = 2MASS J07200325-0846499 
+  M8.5-M9: Ivanov15(optical)
+  M9.0+-0.7: Burgasser15(near-IR)
+ *M9.5: Burgasser15(optical)
+  M9.8: BardalezGagliuffi14
+  L0+-1: Ivanov15(near-IR)
+
+  Scholz's star - recently discovered M/L-boundary dwarf + mid-T dwarf
+  binary which passed close to Sun ~80kya. Burgasser15 classifies the
+  companion as T5, and says it only contributes 2% of the combined
+  light in H-band.  Burgasser15(Table7) lists the primary as the only
+  M9.5 within 10 pc.  plx=147.1+1.1-1.2mas(Dupuy19).
+  B=20.778+-0.140(Ivanov15), V=18.266+-0.096(Ivanov15),
+  R=15.838+-0.031(Ivanov15).  Burgasser estimates
+  delta(K)=4.7+-0.4. K(A)=9.479+-0.019(Dupuy19). M=99+-6
+  Msun(Dupuy19).  fbol = (2.18+-0.07)e-10 erg/s/cm2. Gaia EDR3:
+  G=15.324036+-0.003086, E(BP/RP)=1.781, Bp-Rp=4.886625,
+  Bp-G=3.341318, G-Rp=1.545307. Assuming all the V and G-band light is
+  from A: (G-K)_A = 15.324 - 9.479 = 5.845, M_G(A)=16.16+-0.02,
+  M_K(A)=10.32+-0.03, Mv(A)=19.10+-0.10.
+
+2MASSW J0109216+294925
+  M9.5: Gizis00
+
+  G-Ks=5.915, M_G=16.585, M_Ks=10.670. 
+
+2MASS J22341394+2359559
+  M9.5e: Gizis00
+
+  G-Ks=6.008, M_G=16.511, M_Ks=10.503.
+
 

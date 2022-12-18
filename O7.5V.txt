@@ -1,65 +1,9 @@
 O7.5V
 
-There are no known O7.5V standards, including in Walborn90
+Sota11 standards: HD 319703A - O7.5V
+       		  HD 152590 - O7.5V
 
-HIP contains only one O7.5V star: HIP 30496 = HD 44811. 
-
-B-V(O7.5V)  = -0.31   ; Fitzgerald70
-B-V(O7.5V)  = -0.291  ; EEM dereddened HD 44811
-
-U-B(O7.5V)  = -1.16   ; Fitzgerald70
-U-B(O7.5V)  = -1.155  ; EEM dereddened HD 44811
-
-Teff(O7.5V) = 34419 K ; Martins05(theo. scale)
-Teff(O7.5V) = 34750 K ; Massey05(Milky Way)
-Teff(O7.5V) = 35874 K ; Martins05(obs. scale),GrayCorbally09
-Teff(O7.5V) = 37500 K ; Crowther97/Fig.3 
-=> adopt Teff(O7.5V) = 35000 K
-
-Mv(O7.5V) = -4.88  mag ; Russeil03
-Mv(O7.5V) = -4.835 mag ; Wegner07 (halfway between O7V and O8V)
-Mv(O7.5V) = -4.8   mag ; GrayCorbally09
-Mv(O7.5V) = -4.6  mag ; halfway between O7V (-4.8) and O8V (-4.4)
-Mv(O7.5V) = -4.55  mag ; Garmany92 (O7.5V,IV)
-Mv(O7.5V) = -4.48  mag ; Martins05
-=> adopt Mv(O7.5V) = -4.6 mag 
-
-BCv(O7.5V) =  -3.491 mag ; Flower96 calibration for (Teff=35000K)
-BCv(O7.5V) = -3.39  mag ; Martins05(obs. scale)
-BCv(O7.5V) = -3.280 mag ; Bessell98 calibration for (Teff=35000K)
-BCv(O7.5V) = -3.27  mag ; Martins05(obs. scale)
-BCv(O7.5V) = -3.240 mag ; LanzHubeny03/07 calibration (Teff=35000K)
-BCv(O7.5V) =  -3.237 mag ; Balona94 calibration (Teff=35000K)
-=> adopt BCv(O7.5V) = -3.27 mag
-
-logL = 5.05 dex ; Mv=-4.6, BCv=-3.27  => Mbol = -7.87
-logL = 5.05 dex ; Martins05(obs. scale)
-logL = 5.00 dex ; Martins05(theo. scale)
-=> adopt logL(O7.5V) = 5.05 dex 
-=> adopt Mbol(O7.5V) = -7.87 mag
-
-# No Standards
-
-MK73, MK78, Walborn90, Garrison94 do not list O7.5V standards.
-
-# Candidate Standard?
-
-HD 53975 = BD-12_1788
-  O7.5V: Conti71,Walborn72
-  O8: Morgan55,Lesh68,Jaschek64(all)
-  O7V: Bisiacchi76,Bisiacchi82
-  B7IAB/B: Houk88
-  B5p: Cannon
-  Never mentioned as a standard. But at least agreement between Conti & Walborn.
-
-# Other Stars
-
-HD 152590 
-  O7.5V: Walborn72
-  O7V: Garrison77
-  O7: Jaschek78(Schild69)
-  O8: Houk78
-  B5: Cannon
+HIP contains only one O7.5V star: HIP 30496 = HD 44811.
 
 Morgan55 classified three stars as O7.5V or variant: HD 44811 (O7.5V;
 V=8.4), HD 194334 (O7.5V; V=8.8) and HD 165921 (O7.5V:nn; V=7.3).
@@ -68,3 +12,180 @@ Conti71 classified three stars as O7.5V or variant: HD 53975 (O7.5V;
 V=6.5), HD 46573 (O7.5Vf; V=8.0) and HD 171589 (O7.5Vf; V=8.3).
 
 Walborn72 classified two stars as O7.5V: HD 53975 and HD 152590.
+
+Holgado20 classifies 11 stars as O7.5V variants. 
+
+B-V(O7.5V)  = -0.321  ; exemplar HD 152590
+B-V(O7.5V)  = -0.317  ; U-B=-1.125 trend Q-method
+B-V(O7.5V)  = -0.314  ; exemplar HD 53975
+B-V(O7.5V)  = -0.31   ; Fitzgerald70
+B-V(O7.5V)  = -0.291  ; EEM dereddened HD 44811
+=> adopt (B-V)(O7.5V) = -0.317 [updated 2/7/2020]
+
+U-B(O7.5V)  = -1.16   ; Fitzgerald70
+U-B(O7.5V)  = -1.155  ; EEM dereddened HD 44811
+U-B(O7.5V)  = -1.143  ; exemplar HD 152590
+U-B(O7.5V)  = -1.125  ; interp O3-O9V
+U-B(O7.5V)  = -1.116  ; exemplar HD 53975
+=> adopt (U-B)(O7.5V) = -1.125 [updated 2/7/2020]
+
+Teff(O7.5V) =  34419 K ; Martins05(theo. scale)
+Teff(O7.5V) =  34750 K ; Massey05(Milky Way)
+Teff(O7.5V) =  35874 K ; Martins05(obs. scale),GrayCorbally09
+Teff(O7.5V) =  36100 K ; EEM trend for O dwarfs 1/2020 **
+Teff(O7.5V) = 36728 K ; Simon-Diaz17 median for O7.5V (N=4)
+Teff(O7.5V) = 36800 K ; exemplar HD 53975 (Holgado20)
+Teff(O7.5V) = 36947 K ; Simon-Diaz14 linear fit for O7.5V
+Teff(O7.5V) = 37230 K ; Holgado18
+Teff(O7.5V) = 37300 K ; Holgado20 N=11 O7.5V variants
+Teff(O7.5V) =  37500 K ; Crowther97/Fig.3
+Teff(O7.5V) =  37900 K ; O7V adopted
+Teff(O7.5V) = 38000 K ; exemplar HD 152590 (Holgado20)
+=> adopt Teff(O7.5V) = 36100 K (logT = 4.558) [updated 1/20/2020]
+=> adopt Teff(O7.5V) = 37200 K (logT = 4.571) [updated 11/15/2022]
+
+Mv(O7.5V) = -4.88  mag ; Russeil03
+Mv(O7.5V) = -4.835 mag ; Wegner07 (halfway between O7V and O8V)
+Mv(O7.5V) = -4.8   mag ; GrayCorbally09
+Mv(O7.5V) = -4.75  mag ; Bowen08
+Mv(O7.5V) = -4.68  mag ; EEM trend for O7.5V
+Mv(O7.5V) = -4.6   mag ; halfway between O7V (-4.8) and O8V (-4.4)
+Mv(O7.5V) = -4.6   mag ; Conti71(V)
+Mv(O7.5V) = -4.56  mag ; Martins06/obs.scale
+Mv(O7.5V) = -4.55  mag ; Martins06/theor.scale
+Mv(O7.5V) = -4.55  mag ; Garmany92 (O7.5V,IV)
+Mv(O7.5V) = -4.48  mag ; Martins05
+Mv(O7.5V) = -4.1   mag ; Conti71(ZAMS)
+=> adopt Mv(O7.5V) = -4.65 mag [updated 2/8/2020]
+
+BCv(O7.5V) =   -3.570 mag ; Flower96 calibration for (Teff=36100K)
+BCv(O7.5V) =  -3.39  mag ; Martins05(obs.scale)
+BCv(O7.5V) =  -3.346 mag ; Bessell98 calibration for (Teff=36100K)
+BCv(O7.5V) =  -3.334 mag ; LanzHubeny03/07 calibration (Teff=36100K)
+BCv(O7.5V) = -3.325 mag ; EEM interp O7V(-3.41),O8V(-3.24)
+BCv(O7.5V) =  -3.32  mag ; Martins06(obs.scale)
+BCv(O7.5V) =   -3.275 mag ; Balona94 calibration (Teff=36100K)
+BCv(O7.5V) =  -3.27  mag ; Martins05(obs.scale)
+BCv(O7.5V) =  -3.20  mag ; Martins06(theor.scale)
+=> adopt BCv(O7.5V) = -3.33 [updated 1/31/2020]
+
+logL(O7.5V) = 5.088 dex ; Mv=-4.65, BCv=-3.33 => Mbol = -7.980
+logL(O7.5V) = 5.05  dex ; Martins05(obs. scale)
+logL(O7.5V) = 5.040 dex ; EEM O dwarf trend for O7.5V
+logL(O7.5V) = 5.00  dex ; Martins05(theo. scale)
+=> adopt logL(O7.5V) =  5.088 dex [updated 2/8/2020]
+=> adopt Mbol(O7.5V) = -7.980 mag [updated 2/8/2020]
+
+logg(O7.5V) = 3.84 dex ; Holgado18
+logg(O7.5V) = 3.91 dex ; Holgado20 N=11 O7.5V and variants
+logg(O7.5V) = 3.91+-0.06 dex ; exemplar HD 53975 (Holgado20)
+logg(O7.5V) = 3.92+-0.07 dex ; exemplar HD 152590 (Holgado20)
+=> adopt logg(O7.5V) = 3.9 dex [updated 11/15/2022]
+
+Rad(O7.5V) = 8.9462 Rsun ; Teff=36100K, logL=5.088
+Rad(O7.5V) = 8.639 Rsun ; Martins05 (Teff=35876K,logL=5.047)
+=> adopt Rad(O7.5V) = 8.946 Rsun [updated 2/8/2020]
+
+Mass(O7.5V) = 25+7-5 Msun ; Weidner10
+Mass(O7.5V) = 26.06 Msun  ; MIST/Choi16 solar tracks for logT=4.558,logL=5.088
+=> adopt Mass(O7.5V) = 26 Msun [updated 4/16/2022]
+
+# No Standards
+
+MK73, MK78, Walborn90, Garrison94 do not list O7.5V standards.
+
+# Exemplars
+
+HD 152590
+   O7V: Garrison77,Schild69(O7)
+  *O7.5Vz: Sota14,Holgado20
+   O7.5V: Walborn72,Mathys88
+   O8: Houk78
+
+   V=8.454+-0.023, B-V=0.135+-0.014, U-B=-0.817+-0.011(Mermillio91) =>
+   Q-method(1/2020) => (B-V)o=-0.321, (U-B)o=-1.143, E(B-V)=0.456, Av=1.473.
+   Teffs: 38000+-500K(Holgado20), logg=3.92+-0.07(Holgado20). 
+
+HD 53975 = BD-12_1788
+   O7V: Bisiacchi76,Bisacchi82
+   O7.5V: Conti71,Walborn72
+  *O7.5Vz: Sota11,Holgado20
+   O8: Morgan55,Lesh68,Claria74
+   B7Iab/Ib: Houk88(apparently erroneous)
+   B5p: Cannon
+
+   V=6.473+-0.016, B-V=-0.099+-0.005, U-B=-0.963+-0.016(Mermilliod91)
+   => Q-method(1/2020) => (B-V)o=-0.314, (U-B)o=-1.116, E(B-V)=0.215,
+   Av=0.693. Teff=36800+-500K(Holgado20), logg=3.91+-0.06(Holgado20). 
+
+# Other Stars
+
+HD 35619
+   O7.5V((f)): Holgado20
+
+   Teff=37700+-600K(Holgado20), logg=3.94+-0.12(Holgado20).
+
+HD 411997
+   O7.5Vn((f)): Holgado20
+
+   Teff=35800+-500K(Holgado20), logg=3.75+-0.05(Holgado20).
+
+HD 99546
+   O7.5V((f)) Nstr: Holgado20
+
+   Teff=37000+-500K(Holgado20), logg=3.71+-0.05(Holgado20).
+
+HD 155806
+  *O7.5V((f))(e): Maiz-Apellaniz16
+   O7.5V((f))z(e): Sota14
+   O7.5IIIe: Conti73,Conti74,Negueruela04
+   O7.5Ve: Bisiacchi82
+   O7.5V[n]e: Walborn73
+   O7.5((f)): Mathys88
+   O8IIIe: Garrison77
+   O8Ve: Hiltner69
+   O8e: Weaver53
+   O9: Houk82
+
+   Emission lines. There are some other pre-1970 classifications. Good
+   agreement on O7.5 subtype in recent decades. V=5.525+-0.008,
+   B-V=0.005+-0.008, U-B=-0.965+-0.014(Mermilliod91).  Q-method =>
+   (B-V)o=-0.336, (U-B)o=-1.202, E(B-V)=0.341, Av=1.097 (perhaps
+   corrupted by the emission lines).
+
+HD 164492
+   O7.5Vz: Holgado20
+
+   Teff=38600+-600K(Holgado20), logg=4.00+-0.10(Holgado20).
+
+HD 168461
+   O7.5V((f)) Nstr: Holgado20
+
+   Teff=36000+-1200K(Holgado20), logg=3.81+-0.16(Holgado20)
+
+HD 168504
+   O7.5V(n)z: Holgado20
+
+  Teff=37300+-700K(Holgado20), logg=3.84+-0.07(Holgado20)
+  
+HDE 338916
+   O7.5Vz: Holgado20
+
+   Teff=37800+-800K(Holgado20), logg=4.02+-0.12(Holgado20)
+
+HDE 344777
+   O7.5Vz: Holgado20
+
+   Teff=35800+-800K(Holgado20), logg=3.62+-0.12(Holgado20)
+
+BD+33_1025A
+   O7.5V(n)z: Holgado20
+
+   Teff=38400+-1000K(Holgado20), logg>4.01(Holgado20).
+
+BD+60 513
+
+HD 35619
+
+HD 46573
+

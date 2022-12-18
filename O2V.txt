@@ -6,11 +6,34 @@ Walborn02 defined the O2V class with BI 253.
 
 Skiff08 did not flag any stars as O2V standards.
 
+Teff(O2V) = 50906 K ; Weidner10
+
+Mv(O2V) = -6.09 ; Martins05 (SpT vs Mv linear trend; stdev = 0.45 mag)
+
+logg(O2V) = 3.922+-0.15 ; Martins05
+
+Mass(O2V) = 83+9-23 Msun (Weidner10)
+
 # Primary Standard
+
 BI 253
-  B2V((f*)): Walborn02
+  O2V((f*)): Walborn02
 
 # Others
-P871
-  B2V((f*)): Walborn02
 
+P871
+  O2V((f*)): Walborn02
+
+# Notes
+
+Hoglado20 made an interesting observation regarding the HRD positions for early O-type stars: "The most striking feature in both diagrams is the almost complete absence of stars in the mass range between ∼30 and 70 M⊙ to the left the 2 Myr isochrone (or below, in the Kiel diagram). There is a clear offset, which increases with mass, between the theoretical ZAMS and the location of the O-type stars in these diagrams. This trend disappears for stars with ∼85 M⊙, where stars much closer to the ZAMS are found."
+
+Holgado20 Table D.1: Parameter models values to define a proxy of the shape of the gap near the ZAMS
+Mass_at_ZAMS[M⊙] logTeff logg logL/Lsun
+25               4.59    4.28  4.86
+30               4.60    4.10  5.19
+60               4.65    3.97  5.76
+85               4.71    4.19  5.98
+
+
+ 

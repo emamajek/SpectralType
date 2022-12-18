@@ -1,0 +1,82 @@
+Y1V
+
+Standards:
+Kirkpatrick12: WISE 0350-5658 - "tenative Y1 spectral standard"
+
+Teff(Y1V) =    325 K ; WISE J1828+2650 Dupuy13 #9
+Teff(Y1V) = ~325 K ; Schneider15/WISE0350-5658   standard
+Teff(Y1V) =    350 K ; Leggett15
+Teff(Y1V) =  350+-25 K ; Leggett16/W0350  standard
+Teff(Y1V) =   ~350 K [300-400] K ; Schneider15/WISE2354
+Teff(Y1V) =  355 K ; WISE_0350-5658 (Kirkpatrick19; plx=174.6+-2.6mas)  standard
+Teff(Y1V) =  368 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(Y1V) =   374 K ; WISE_2354+0240 (Kirkpatrick19; plx=124.1+-4.9mas)
+Teff(Y1V) =   ~375 K [350-400] K ; Schneider15/WISE0647-6232
+Teff(Y1V) =   381 K ; WISE_0647-6232 (Kirkpatrick19; plx=100.3+-2.4mas)
+Teff(Y1V) =  388 K ; pri. stan. WISE J035000.32-565830.2 (Kirkpatrick20)  standard
+Teff(Y1V) =   395 K ; WISE_1541-2250 (Kirkpatrick19; plx=167.1+-2.3mas)
+Teff(Y1V) =   398 K ; WISE_0535-7500 (Kirkpatrick19; plx=66.4+-2.4mas)
+Teff(Y1V) =   400 K ; Schneider15/WISE1541-2250
+=> adopt Teff(Y1V) = 360 K (logT = 2.556) [updated 2/2/2021]
+
+M_J(MKO)(Y1V) >  19.93 ; WISE_1930-2059 calc using Kirkpatrick20 (plx=106.3mas)
+M_J(MKO)(Y1V) >  20.37 ; CWISE_0940+5233 calc using Kirkpatrick20 (plx=66.4mas)
+M_J(MKO)(Y1V) >  20.43 ; CWISE_2230+2549 calc using Kirkpatrick20 (plx=71.3mas)
+M_J(MKO)(Y1V) = 20.53  ; WISE_0503-5648 calc using Kirkpatrick20 (plx=98.3mas)
+M_J(MKO)(Y1V) >  20.67 ; CWISE_0402-2651 calc using Kirkpatrick20 (plx=116.4mas)
+M_J(MKO)(Y1V) >  20.90 ; CWISE_1935-1546 calc using Kirkpatrick20 (plx=69.3mas)
+M_J(MKO)(Y1V) >  21.13 ; CWISE_0238-1332 calc using Kirkpatrick20 (plx=85.8mas)
+M_J(MKO)(Y1V) = 21.31  ; WISE_0535-7500 calc using Kirkpatrick20 (plx=68.7mas)
+M_J(MKO)(Y1V) = 21.74  ; CWISE_2256+4002 calc using Kirkpatrick20 (plx=101.8mas)
+M_J(MKO)(Y1V) = 22.18 (+-0.76 rms) ; Tinney14 M_J(MKO) N=2
+M_J(MKO)(Y1V) >  22.26 ; CWISE_1446-2317 calc using Kirkpatrick20 (plx=95.6mas)
+M_J(MKO)(Y1V) = 22.74  ; WISE_1541-2250 calc using Kirkpatrick20 (plx=166.9mas)
+M_J(MKO)(Y1V) = 22.84  ; WISE_0647-6232 calc using Kirkpatrick20 (plx=99.5mas)
+M_J(Y1V)      ~ 23     ; Leggett15 Fig. 3 (eyeball trend)
+M_J(MKO)(Y1V) = 23.41  ; WISE_0350-5658 calc using Kirkpatrick20 (plx=176.4mas)
+M_J(MKO)(Y1V) = 23.65  ; WISE_2354+0240 calc using Kirkpatrick20 (plx=130.6mas)
+M_J(MKO)(Y1V) >  26.69 ; WISE_0830+2837 calc using Kirkpatrick20 (plx=90.6mas)
+=> adopt M_J(MKO)(Y1V) = 22.7 [updated 12/5/2020]
+
+M_Ks values are all upper limits at this point
+M_Ks(Y1V) > 17.20 ; CWISE_1935-1546 calc using Kirkpatrick20 (plx=69.3mas)
+M_Ks(Y1V) > 17.76 ; CWISE_1446-2317 calc using Kirkpatrick20 (plx=95.6mas)
+M_Ks(Y1V) > 17.99 ; CWISE_0238-1332 calc using Kirkpatrick20 (plx=85.8mas)
+M_Ks(Y1V) > 18.21 ; WISE_1930-2059 calc using Kirkpatrick20 (plx=106.3mas)
+M_Ks(Y1V) > 18.74 ; CWISE_0402-2651 calc using Kirkpatrick20(plx=116.4mas)
+M_K(Y1V)  = 22.24 ; interp Y0V-Y2V
+=> adopt M_Ks(Y1V) = 22.2 [updated 12/5/2020]
+
+(J(MKO)-K(MKO) = 0.5 ; M_J(MKO)=22.7, M_K=22.2
+=> adopt (J(MKO)-J(MKO)) = 0.5 [updated 12/5/2020]
+
+W1-W2(Y1V) = 4.14 ; Kirkpatrick19 polynomial
+
+M_W2(Y1V) = 14.78 (+-0.77; rms) ; Tinney14 
+
+
+# Standard
+
+WISE J035000.32-565830.2 = WISE J0350-5658
+ *Y1: Kirkpatrick12(stan,Leggett16),Schneider15(stan),Kirkpatrick20
+
+  Kirkpatrick12: "The plot shown in Figure 6 suggests that the J-band
+  peak of WISE 0350−5658 is sufficiently narrower than WISE 1738+2732
+  that it should be typed a full subclass later. We therefore propose
+  WISE 0350−5658 to be the tentative Y1 spectral standard, despite its
+  southerly declination, until other Y1 dwarfs are identified."
+  Teffs: 350+-25K(Leggett16), 388+-88K(Kirkpatrick2),
+  logg=4.00+-0.25(Leggett16), plx=176.4+-2.3mas(Kirkpatrick20).
+  Mass=3-9Mjup(Leggett16), Age=0.3-3Gyr(Leggett16).
+
+  
+# Examples of Y Dwarfs
+
+WISE J035000.32-565830.2   Y1     (Kirkpatrick12, standard in Schnedier15)
+WISE J053516.80-750024.9   >=Y1:  (Kirkpatrick12), Y1 (Leggett15)
+WISE J064723.23-623235.5   Y1     (Kirkpatrick13)
+WD 0806-66B                (Y?)   (Kirkpatrick13), Y1 (Leggett15)
+WISE J154151.65−225024.9   Y1     (Schneider15)
+WISE J235402.77+024015.0   Y1     (Schneider15)
+CWISEP J040235.55-265145.4 [>=Y1] (Kirkpatrick20)
+WISEPA J041022.71+150248.5 Y0     (Kirkpatrick20)
