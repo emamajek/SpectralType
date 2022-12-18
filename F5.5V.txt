@@ -1,0 +1,198 @@
+FF5.5V
+
+There are no F5.5V standards, but one occasionally sees nearby dwarf
+stars typed as F5.5V (mostly by Gray03 & Gray06).  If one looks at the
+stars classified F5.5V within 50pc in xHIP (mostly classified by
+Gray06 within one by Gray03 and one random from SIMBAD), it is
+apparent that most of the stars classified F5.5V end up being metal
+poor. Perhaps this was due to some quirk in the choice of
+standards. For whatever reason, simply looking at the mean/median
+properties of F5.5V for nearby dwarfs wont give a useful value for
+solar composition.
+
+(B-V)(F5.5V) = 0.489 ; HIP_73850 F5.5V [Fe/H]=-0.01                     
+(B-V)(F6V)   =   0.484
+(B-V)(F5.5V) = 0.480 ; HIP_56445 F5.5V [Fe/H]=+0.03                     
+(B-V)(F5.5V) = 0.48  ; HIP 103673 Gray06 F5.5V, metal-poor
+(B-V)(F5.5V) = 0.479 ; HIP_84489 F5.5V [Fe/H]=-0.13                     
+(B-V)(F5.5V) = 0.476 ; xHIP F5.5V d<50pc trend for [Fe/H]=0.00
+(B-V)(F5.5V) = 0.470 ; HIP_20781 F5.5V [Fe/H]=-0.14   
+(B-V)(F5.5V) = 0.469 ; HIP_66139 F5.5V [Fe/H]=-0.14                     
+(B-V)(F5.5V) = 0.460 ; HIP_64407 F5.5V [Fe/H]=-0.12                     
+(B-V)(F5.5V) = 0.457 ; HIP_20630 F5.5V [Fe/H]=+0.00                     
+(B-V)(F5.5V) = 0.452 ; exemplar HR 4455
+(B-V)(F5V)   =   0.44
+=> adopt (B-V)(F5.5V) = 0.475 [updated 9/26/2020]
+
+Teff(F5V)   =  6570K
+Teff(F5.5V) =  6465K ; halfway F5V-F6V
+Teff(F5.5V) =  6460K ; exemplar HR 4455 = HD 100563
+Teff(F5.5V) = 6423K ; PASTEL Teff vs. [Fe/H] trend for Gray03/06 F5.5V (see below)
+Teff(F5.5V) = 6415K ; Gray03/06 F5.5Vs median from TIC9/Stassun19 (N=13)
+Teff(F5.5V) = 6408K ; see below, trend for solar metallicity
+Teff(F6V)   =   6360K ; adopted 
+=> adopt Teff(F5.5V) = 6410 K (logT=3.807) [updated 9/26/2020]
+[EEM 9/26/2020: 6410K consistent with smooth B-V vs. Teff trend among F dwarfs]
+
+=> adopt (U-B)(F5.5V)   = -0.027
+=> adopt (B-V)(F5.5V)   =  0.462
+=> adopt (Bt-Vt)(F5.5V) =  0.481
+=> adopt (V-Ic)(F5.5V)  =  0.532
+=> adopt (V-Rc)(F5.5V)  =  0.265
+=> adopt (Rc-Ic)(F5.5V) =  0.267
+=> adopt (V-J)(F5.5V)   =  0.894
+=> adopt (V-H)(F5.5V)   =  1.081
+=> adopt (V-Ks)(F5.5V)  =  1.136
+=> adopt (H-Ks)(F5.5V)  =  0.055
+=> adopt (J-H)(F5.5V)   =  0.186
+=> adopt (Ks-W1)(F5.5V) =  0.028
+=> adopt (V-Hp)(F5.5V)  = -0.103
+=> adopt (W1-W2)(F5.5V) = -0.032
+=> adopt (W1-W3)(F5.5V) = -0.045
+=> adopt (W1-W4)(F5.5V) = -0.010
+=> adopt (Bp-Rp)(F5.5V) = 0.614
+=> adopt (Bp-G)(F5.5V)  = 0.238
+=> adopt (G-Rp)(F5.5V)  = 0.378
+
+(G-V)(F5.5V) = -0.136 ; trend for screened late F dwarfs for B-V=0.475 (see 10/24/2020 notes in F5V.txt)
+
+(g-r)(F5.5V) = 0.318 ; Jordi06 (V-R)=>(g-r) for V-R=0.265
+(g-r)(F5.5V) = 0.282 ; Bilir05 (B-V)=>(g-r) for B-V=0.475
+(g-r)(F5.5V) = 0.27  ; Covey07
+=> adopt (g-r)(F5.5V) = 0.28 [updated 10/10/2020]
+
+BCv(F5.5V) = -0.047 ; EEM fit to Casagrande06/08/10(Teff=6450K, set so BCv(5772K)=-0.085
+BCv(F5.5V) = -0.033 ; Code76(Teff=6450K, set so BCv(5772K)=-0.085)
+BCv(F5.5V) = -0.026 ; Casagrande18(logg=4.5,Teff=6450K, set so BCv(5772K)=-0.085)
+BCv(F5.5V) = -0.022 ; Bessell98(Teff=6450K,logg=4.5, set so BCv(5772K)=-0.085)
+BCv(F5.5V) = -0.021 ; Masana06(Teff=6450K, set so BCv(5772K)=-0.085)
+BCv(F5.5V) = -0.001 ; Flower96(Teff=6450K, set so BCv(5772K)=-0.085)
+BCv(F5.5V) = +0.029 ; Bertone94(ATLAS,Teff=6450K)
+BCv(F5.5V) = +0.039 ; Balona94(Teff=6450K, set so BCv(5772K)=-0.085)
+=> adopt BCv(F5.5V) = -0.025 [updated 9/20/2019, adjusted so that BCv(5772K)=-0.085]
+
+Mv(F5.5V) =  3.41 ; F dwarf trend standards/exemplars
+Mv(F5.5V) =  3.53 ; d<60pc SIMBAD F5.5V (N=12)
+Mv(F5.5V) = 3.53 ; linear fit to Gray01/03/06 dwarf sequence (d<50pc) for B-V=0.46
+Mv(F5.5V) = 3.52 ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.46
+Mv(F5.5V) =  3.54 ; Wright04 MS for B-V=0.46
+Mv(F5.5V) = 3.61 ; xHIP F5.5V d<50pc trend for [Fe/H]=0.0 (see below)
+Mv(F5.5V) =  3.61 ; EEM fit to FGK d<25pc for B-V=0.46
+Mv(F5.5V) =  3.62 ; exemplar HR 4455 = HD 100563
+=> adopt Mv(F5.5V)   = 3.53  [updated 9/26/2020]
+=> adopt M_G(F5.5V)  = 3.394 [updated 12/10/2020] (Mv=3.53, G-V=-0.136)
+=> adopt M_Ks(F5.5V) = 2.394 [updated 12/30/2020] (Mv=3.53, V-Ks=1.136)
+
+logL(F5.5V) = 0.466 dex; Mv=3.60, BCv=-0.025 => Mbol = 3.575
+=> adopt logL(F5.5V) = 0.466 dex [update 9/20/2019]
+=> adopt Mbol(F5.5V) = 3.575 mag [update 9/20/2019]
+
+Rad(F5.5V) = 1.432 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=6450K)
+Rad(F5.5V) = 1.416 Rsun ; Gray03/06 F5.5Vs median from TIC9/Stassun19 (N=11)
+Rad(F5.5V) = 1.369 Rsun ; Teff=6450K, logL=0.466
+=> adopt Rad(F5.5V) = 1.369 Rsun [updated 9/26/2019]
+
+
+# Exemplar
+
+HR 4455 = HD 100563 (V=5.8; J1134+0303)
+  F4V: Cowley76
+  F5V: Adams35
+ *F5.5V: Gray06
+  F6V: Cowley79
+  F6+V: Gray03
+  F7V: Harlan74
+
+  The only one of the Gray06 F5.5V stars with near-solar metallicity
+  ([Fe/H] = 0.12 (Boesgaard86), -0.02+-0.10 (Chen00), 0.06+-0.08
+  (Sitnova15)).  plx = 36.9527+-0.0817 mas
+  (GaiaDR2). V=5.778+-0.017(Mermilliod91),
+  B-V=0.452+-0.017(Mermilliod91), U-B=0.005+-0.009(Mermilliod91).  Mv
+  = 3.616+-0.018(HIP,GaiaDR2).  PASTEL values: <Teff> = 6460K(N=5),
+  <logg>=4.31(N=3), [Fe/H]=+0.06(N=3).
+
+HD 43042 = 71 Ori = HR 2220
+  F5IV: Maury1897,Cowley76
+ *F5.5IV-V: Gray03
+  F6V: Roman55(lines strong),Harlan69,Bidelman85
+  F6IV/V: Adams35
+
+# Other Stars
+
+HD 199623 = HR 8027
+  F5IV-V: Malaroda75
+  F5/6V: Houk78
+ *F5.5V: Gray06
+  F6V: 1953AnHar.119....1H,DeVaucouleurs57
+  F8Vm-1: Gray89
+  F8V: Evans66
+
+  PASTEL compendium: <[Fe/H]> = -0.37 (N=3), Teff=6260K(N=4), logg=4.27(N=3)
+
+# NOTES
+
+For 22 published Teffs from PASTEL compendium, one finds following trend for F5.5V
+stars from Gray03 and Gray06:
+Teff = 6408K + 315*[Fe/H]  (rms = 62K)
+
+F5.5V stars within 50pc in xHIP:
+[Fe/H]  B-V    eB-V    Mv    HIP#  SpT
+ 0.03   0.480  0.005   3.59  56445 F5.5V                     
+ 0.00   0.457  0.004   3.55  20630 F5.5V                     
+-0.01   0.489  0.008   3.75  73850 F5.5V                     
+-0.12   0.460  0.000   2.39  64407 F5.5V                     
+-0.13   0.479  0.007   3.60  84489 F5.5V                     
+-0.14   0.469  0.006   3.63  66139 F5.5V                     
+-0.14   0.470  0.006   3.50  20781 F5.5V                     
+-0.18   0.460  0.017   3.13  32765 F5.5V                     
+-0.24   0.438  0.005   3.76  33705 F5.5V_Fe-0.7 CH-0.4       
+-0.29   0.455  0.026   3.08  23941 F5.5V_Fe-0.7              
+-0.33   0.480  0.017   3.52 103673 F5.5V                     
+-0.35   0.429  0.005   3.49  32500 F5.5V_Fe-1.0 CH-0.6       
+
+Trends:
+(B-V) = 0.4759 + 0.07631*[Fe/H]  (rms=0.016)
+   Mv = 3.6093 + 0.61915*[Fe/H]  (rms=0.214;clipped 1)
+
+Metallicity & Teff data from PASTEL for Gray03/06 F5.5V stars
+#[Fe/H]  Teff ID_          ref  
+ -0.500  6296 HD_33256_    2007A&A...465..271R
+ -0.490  6300 HD_33256_    1989A&A...208..171G
+ -0.430  6300 HD_33256_    1991A&A...244..425Z
+ -0.320  6397 HD_33256_    1996A&A...314..191G
+ -0.340  6400 HD_33256_    1992ApJ...387..170F
+ -0.240  6406 HD_33256_    2014A&A...562A..71B
+ -0.330  6421 HD_33256_    2013ApJ...764...78R
+ -0.280  6421 HD_33256_    2017AJ....153...21L
+ -0.300  6427 HD_33256_    2003A&A...410..527B
+ -0.270  6433 HD_33256_    2018AJ....155..111L
+ -0.300  6442 HD_33256_    1993A&A...275..101E
+ -0.150  6347 HD_114378_   2004A&A...420..183A
+ -0.230  6365 HD_114378_   2005AJ....129.1063L
+ -0.230  6365 HD_114378_   2006AJ....131.3069L
+ -0.090  6391 HD_114378_   2017AJ....153...21L
+ -0.230  6406 HD_114378_   2013ApJ...764...78R
+ -0.240  6386 HD_50223_    1996A&A...314..191G
+ -0.200  6460 HD_50223_    1993A&A...275..101E
+  0.120  6380 HD_100563_   1986ApJ...303..724B
+ -0.020  6423 HD_100563_   2000A&AS..141..491C
+  0.060  6460 HD_100563_   2015ApJ...808..148S
+  0.150  6516 HD_100563_   2018AJ....155..111L
+  0.150  6538 HD_100563_   2017AJ....153...21L
+ -0.030  4941 HD_114642_   1966AnAp...29..593H
+ -0.240  6296 HD_114642_   1990ApJ...354..310B
+ -0.200  6301 HD_114642_   1996A&A...314..191G
+ -0.210  6375 HD_114642_   2013ApJ...764...78R
+ -0.170  6375 HD_114642_   1993A&A...275..101E
+ -0.120  6434 HD_114642_   2005PASJ...57...27T
+ -0.150  6462 HD_114642_   1984A&A...136...65A
+  0.120  6425 HD_133469_   2018AJ....155..111L
+ -0.110  6265 HD_155974_   1999A&A...348..487R
+ -0.170  6275 HD_155974_   2005ApJS..159..141V
+ -0.200  6282 HD_155974_   2006MNRAS.370..163B
+ -0.190  6309 HD_155974_   1990ApJ...354..310B
+ -0.320  6246 HD_199623_   2004A&A...425..187T
+ -0.370  6246 HD_199623_   1996A&A...314..191G
+ -0.370  6285 HD_199623_   1993A&A...275..101E
+Trend: 
+Teff = 6423K + 242*[Fe/H] (rms=64K)

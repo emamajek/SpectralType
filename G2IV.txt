@@ -4,24 +4,43 @@ phi Vir appears to be the best G2IV standard.
 
 JM53, MK73, and Houk88 do not list a G2IV standard.
 
+MK43 standard:         mu Cnc - G2IV
+     		       lam Aur - G2IV-V 
 Turnshek85 standard:   phi Vir (=HR 5409 = HD 126868) - G2IV
 Keenan89 standards:    phi Vir (=HR 5409 = HD 126868) - G2IV
-	 	       HD 196755 - G2IV 
+	 	       kap Del (=HD 196755) - G2IV 
 		       42 Cap (=HD 206301) - G2IV
 		       HD 217014 - G2IV
 		       HD 31966  - G2IV-V Fe-1 
 GrayNstars standards:  phi Vir (=HR 5409 = HD 126868) - G2IV 
-                       kap Del (=HR 7896) - G2IV 
-
-B-V(G2IV) = 0.689 ; pri. stan. phi Vir
-
-V-I(G2IV) = 0.73  ; pri. stan. phi Vir
-
-Mv(G2IV)  = 2.01  ; pri. stan. phi Vir
+                       kap Del (=HR 7896) - G2IV
 
 Among Gray03 and Gray06 stars within 40 pc: 
 B-V(G2IV) = 0.652 (+-0.016 sem, +-0.027 stdev; N=3)
 V-I(G2IV) = 0.713 (+-0.015 sem, +-0.025 stdev; N=3)
+
+(B-V)(G2IV) = 0.672 ; ter. stan. 42 Cap = HD 206301 
+(B-V)(G2IV) = 0.689 ; pri. stan. phi Vir
+(B-V)(G2IV) = 0.690 ; poly fit to FGK subgiant standards & exemplars
+(B-V)(G2IV) = 0.702 ; sec. stan. kap Del
+=> (B-V)(G2IV) = 0.69 [updated 1/28/2022]
+
+V-I(G2IV) = 0.73  ; pri. stan. phi Vir
+
+Teff(G2IV) =  5707 K ; deprecated stan. 42 Cap
+Teff(G2IV) = 5661 K ; sec. stan. kap Vel (see below)
+Teff(G2IV) = 5589 K ; pri. stan. phi Vir (see below)
+=> adopt Teff(G2IV) = 5620 K [last updated 7/15/2017]
+
+Mv(G2IV) =  1.987 ; pri. stan. G2IV *_phi_Vir_ plx=26.88 mas, Vmag=4.840
+Mv(G2IV) =  2.39  ; ter. stan. 42 Cap = HD 206301 plx=27.86 mas, Vmag=5.18
+Mv(G2IV) =  2.68  ; sec. stan. kap Del = HD 196755
+Mv(G2IV) = 3.0   ; GrayCorbally09  
+Mv(G2IV) = 3.01  ; quadratic trend G0IV-K2IV standards+exemplars (for G2IV)
+Mv(G2IV) =   3.235 ; G2IV+G2IV HD_202582__ plx=23.39 mas, Vmag=6.39
+Mv(G2IV) =  3.68 ; HD_30562 
+=> adopt Mv(G2IV) = 3.01 [updated 1/28/2022]
+
 
 # Primary Standards
 
@@ -43,40 +62,77 @@ phi Vir = HD 126868 = HR 5409 (J1428-0213, V=4.8)
   U-B=0.204+-0.004(Mermilliod91), V=4.835+-0.003(Tycho=>Johnson),
   V-I=0.73+-0.02(HIP), plx=24.15mas(i.e. nearby and
   unreddened). Companion is 5 magnitudes fainter than A, hence
-  unresolved colors are largely unaffected by B.
+  unresolved colors are largely unaffected by B. PASTEL values: <Teff>
+  = 5589K (N=3), <[Fe/H]> = -0.04 (N=2).
 
-# Deprecated Standards
-
-42 Cap = HD 206301 = HR 8283 = HIP 107095
-  G2IV: Keenan89,Jaschek78(Roman52(lines strong)),Jaschek64(all)
-  G2V: Gray89
-  G1IV: Gray06
-  G5: Cannon
-
-  B-V=0.672, revised HIP => Mv=2.55, 2.38 mag above MS. 
+# Secondary Standards
 
 kap Del = HD 196755 = HR 7896 
- *G2IV: Harlan74,Keenan89
+ *G2IV: Adams35(G2IV/V),Harlan74,Keenan89(stan),1957ArA.....2...55O
   G5IV: Jaschek64(most),Roman55,Roman52
   G5: Cannon
+  G4: Bidelman85
   G3V: Abt85
   G0IV-V: Lutz77
 
-  B-V=0.702. revised HIP => Mv=2.68, 2.4 mag above MS. 
-  Star has oscillated between G0 and G5. 
+  B-V=0.702. revised HIP => Mv=2.68, 2.4 mag above MS.  Star has
+  oscillated between G0 and G5. PASTEL values: <Teff>=5661K(N=7),
+  <[Fe/H]>=0.00(N=6).
 
-HD 217014 = HR 8729 = 51 Peg
- *G2V: Gray01
-  G2IV: Keenan89
+# Tertiary Standard
+
+42 Cap = HD 206301 = HR 8283 = HIP 107095 = BY Cap (RS CVn variable?)
+ *G2IV: Keenan89(stan),Jaschek78(Roman52(lines strong))
+  G2V: Gray89
+  G1IV: Gray06
+  G1V: Adams35
+  G5: Cannon
+
+  SIMBAD says its a RS CVn.  V=5.16(HIP), B-V=0.672+-0.003(HIP),
+  V-Ic=0.73+-0.04(HIP).  plx=27.8625+-0.1503mas(GaiaEDR3) => Mv=2.39.
+  PASTEL 2 Teffs: 5682+-70K(Chen00), 5732+-80K(Casagrande11) =>
+  5707K. logg=3.98+-0.10(Chen00), [Fe/H]=-0.04+-0.10(Chen00).  vsini =
+  4.8 km/s (Glebocki05).
+
+# Deprecated Standard
+
+HD 217014 = 51 Peg = HR 8729.
+ *G2V: Bidelman85,Gray01,Gray06(G2V+),1957ArA.....2...55O 
+  G2IV: Keenan89(stan)
+  G2.5IVa: Keenan80
   G5V: Cowley79,Jaschek78(Harlan70)
   G3V: Gray03
   G4V: Stebbins57
   G0: Cannon
 
-  Famous planet host, whose evolutionary status I recalled discussed
-  in an IAU circular after the planet was found in 1995.
+  Famous metal-rich planet host with hot Jupiter discovered in 1995.
   B-V=0.666. Revised HIP data => Mv=4.48, so 0.41 mag above MS.
   Temperature types are in G0-G5 range. Clearly a dwarf, only
   considered subgiant by Keenan89. Do not recommend as a standard.
+  Basically a metal-rich G2V. PASTEL median values: <Teff> = 5773K
+  (N=33), <[Fe/H]> = 0.19 (N=25).
   
-  
+# Other Stars
+
+HR 8531 Aa = HD 212330 = GJ 857 = HIP 110649
+  F9V: Malaroda75
+  G0: 1932PLicO..18....1M
+ *G2IV-V: Gray06
+  G3IV: Houk75V: 
+  G8V: 1966ArA.....3..501L
+
+  Only listed here as it is one of the oldest thin disk stars in the
+  solar neighborhood, as pointed out by Fuhrmann17.
+  plx=48.8901+-0.1153 mas. PASTEL: <Teff>=5653K(N=11),
+  <logg>=4.14(N=8), <[Fe/H]>=-0.02(N=8).  Age=7.9Gyr(Bryden06),
+  8.08Gyr(Kospal09), 7.90Gyr(Gaspar13), 7.0(6.2-8.0)Gyr(Valenti05),
+  8.08(7.72-8.48)Gyr(Takeda07), 7.90(5.3-8.59)Gyr(Casagrande11),
+  7.90(6.48-8.75)Gyr(Casagrande11#2), 7.91Gyr(Vican12),
+  8.4(7.8-9.0)Gyr(Holmberg09). Fuhrmann17: "70 Vir– along with HR 7845A
+  and HR8531Aa – is one of the three Population I subgiants of the
+  survey, which provide the solid 8 Gyr formation time-scale of this
+  population."
+
+HD 74811
+  G2IV: Heard56,Harlan69
+

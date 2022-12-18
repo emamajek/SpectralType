@@ -31,42 +31,77 @@ GrayNstars standards:	 bet LMi - G9III
 GrayCorbally10 standard: del Phe - G9III
 			 bet LMi - G9III
 
+(J-H)(G9III) = 0.541 ; smoothed relation from giants in Skiff compendium w/i 15 deg of NGP, 2MASS photometry AAA flags
+=> adopt (J-H)(G9III)  = 0.541 [updated 10/30/2020]
+
+(H-Ks)(G9III) = 0.115 ; smoothed relation from giants in Skiff compendium w/i 15 deg of NGP, 2MASS photometry AAA flags
+=> adopt (H-Ks)(G9III) = 0.115 [updated 10/30/2020]
+
+(B-V)(G9III)  = 0.908 ; HIP 51233 G9III 1989ApJS...71..245K
+(B-V)(G9III)  = 0.932 ; HIP 37740 G9III 2008ApJS..176..216A
+(B-V)(G9III)  = 0.950 ; HIP 94779 G9III 1989ApJS...71..245K
+(B-V)(G9III)  = 0.952 ; HIP 20885 G9III_Fe-0.5 1989ApJS...71..245K
+(B-V)(G9III)  = 0.990 ; HIP 94376 G9III 1989ApJS...71..245K
+(B-V)(G9III)  = 0.991 ; HIP 37826 G9III 2008ApJS..176..216A
+(B-V)(G9IIIb) =  1.012 ; HIP 93683 G9IIIb 1989ApJS...71..245K
+(B-V)(G9IIIb) =  1.024 ; HIP 36046 G9IIIb 1989ApJS...71..245K
+(B-V)(G9IIIb) =  1.033 ; HIP 37504 G9IIIb 1989ApJS...71..245K
+(B-V)(G9III)  = 1.083 ; HIP 42911 G9III 2008ApJS..176..216A
+=> adopt (B-V)(G9III)  = 0.95 [updated 10/30/2020]
+=> adopt (B-V)(G9IIIb) = 1.02 [updated 10/30/2020]
+
+Mv(G9III) = 0.39 ; HIP 37740 G9III 2008ApJS..176..216A
+Mv(G9III) = 0.46 ; HIP 20885 G9III_Fe-0.5 1989ApJS...71..245K
+Mv(G9III) =  0.57 ; HIP 93683 G9IIIb 1989ApJS...71..245K
+Mv(G9III) = 0.69 ; HIP 94376 G9III 1989ApJS...71..245K
+Mv(G9III) =  0.75 ; HIP 37504 G9IIIb 1989ApJS...71..245K
+Mv(G9III) = 0.83 ; HIP 51233 G9III 1989ApJS...71..245K
+Mv(G9III) = 0.90 ; HIP 94779 G9III 1989ApJS...71..245K
+Mv(G9III) = 0.93 ; HIP 42911 G9III 2008ApJS..176..216A
+Mv(G9III) =  0.94 ; HIP 36046 G9IIIb 1989ApJS...71..245K
+Mv(G9III) = 1.08 ; HIP 37826 G9III 2008ApJS..176..216A
+=> adopt Mv(G9IIIb) = 0.8 [updated 10/30/2020]
+=> adopt Mv(G9III)  = 0.8 [updated 10/30/2020]
+
+Teff(G9III) = 4937K ; pri stan del Dra/HIP 94376 daSilva15
+=> adopt Teff(G9III) = 4940K [updated 10/30/2020]
+
 # No standards
 
-MK43, JM53, and Houk do not list any G9III standards. 
+MK43, JM53, and Houk do not list any G9III standards.
 
 # Primary standard
 
 HD 222093 (J2337-1303; V=5.7)
-    G9III: Keenan89
+   *G9III: Keenan89
     G9IIIb: Abt85
     K0III: Cowley79,Houk88
     G6III: Wilson50
 
 del Dra = HR 7310 = HD 180711 (J1912+6739; V=3.07)
-    G9III: MK43,Roman52(lines weak),MK73(dagger),Keenan89
+   *G9III: MK43,Roman52(lines weak),MK73(dagger),Keenan89
     G7III: Roman50
     G8III: Adams35
 
 kap Cyg = HR 7328 = HD 181276 (J1917+5322; V=3.77)
-    G9III: MK73(dagger),Keenan89
+   *G9III: MK73(dagger),Keenan89
     G8III: Adams35,MK43
     K0III: Roman52(lines strong)
     
 iot Gem = HR 2821 = HD 58207 (J0725+2747; V=3.79)
-    G9IIIb: MK73(dagger),Keenan89,Keenan99
+   *G9IIIb: MK73(dagger),Keenan89,Keenan99
     G9III+: GreensteinKeenan58
     G8III: MK43
     G7III: Adams35
     K0III: Roman52(lines weak)
     
+# Variant
+
 kap Aur = 44 Aur = HD 43039 (J0615+2929; V=4.3)
-    G8.5IIIb: Keenan99
+   *G8.5IIIb: Keenan99
     G9IIIb: GrayNstars
     G8III: Roman52(lines weak),Roman55,Jaschek64(all)
     K0III: Spinrad69
-
-# Variant
 
 bet Sge = HR 7488 = HD 185958 (V=4.37)
     G9IIIa CN 2: MK73(dagger)
@@ -102,3 +137,13 @@ del Phe = HR 440 = HD 9362 (J0131-4904; V=3.9)
    K0III: Cowley79
    G8II: Harlan74
    G8III: Adams35
+
+# Other Stars
+
+del Crt = HD 98430 
+   G8III-IV: Roman52
+  *G9III_CH0.5: Keenan89
+   K0III: Adams35,1955MmMtS..12....1W
+
+
+

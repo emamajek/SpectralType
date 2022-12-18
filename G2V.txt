@@ -3,6 +3,19 @@ G2V
 Garrison94 calls Sun the G2V anchor standard, and MK73 calls Sun
 (actually Jupiter IV spectrum) as the G2V dagger standard.
 
+There are numerous stars in the literature considered 'solar twins'.
+Although most are not considered spectral type standard stars (some
+are, e.g. 18 Sco), their properties are useful for constraining the
+Sun-as-a-star parameters that may be difficult to measure from Earth
+(e.g. Sun's estimated visible/IR colors).  Although some are lacking
+modern spectral types (some have few if any, or some low quality one
+from low-res spectra from photographic plates from >5 decades ago),
+their combination of parameters (Teff/logg/[Fe/H]) measured with high
+SNR, high res spectra are so close to that of the Sun that they should
+probably be considered G2Vs. I list several of them below under separate
+category of 'solar twins'.
+
+MK43 standard:        lam Aur - G2IV-V 
 JM53 standard:        Sun - G2V 
       		      16 Cyg(pr) (= 16 Cyg A) - G2V
 		      HR 483 (= HD 10307) - G2V
@@ -20,18 +33,23 @@ Keenan83 standard:    Sun - G2V
 		      18 Sco - G2Va
                       VB 64 (=HD 28099) - G2+V [Hyades member]
 Keenan85 standard:    Sun - G2V
+                      9 Cet (=HD 1835) - G2V
+		      VB 64 (=HD 28099) - G2+V [Hyades member]
+		      HD 76151 (=HR 3538) - G2V
+		      18 Sco (=HD 146233) - G2Va
 Keenan88 standard:    Sun - G2V
                       HD 76151 - G2V
                       xi UMa B - G2V
-                      18 Sco - G2Va
+                      18 Sco (=HD 146233) - G2Va
                       HD 45184 - G2Va
 Gray89 standard:      Sun [Jupiter IV] - G2V 
-Keenan89 standard:    HD 28099 (=VB 64) - G2+V
+Keenan89 standard:    VB 64 (=HD 28099) - G2+V
                       HD 45184 (=HR 2318) - G2Va
                       HD 76151 (=HR 3538) - G2V
                       xi UMa B (=HD 98230) - G2V
                       18 Sco - G2Va
-Garrison94 anchor:    Sun 
+Strassmeier90 stan:   Sun(sky) - G2V
+Garrison94 anchor:    Sun - G2V 
 Keenan99 standards:   HD 45184 (=HR 2318) - G2 Va (primary standard)
 		      HD 76151 (=HR 3538) - G2 V (primary standard) 
 		      HD 2141 - G2 V (secondary standard)
@@ -83,35 +101,48 @@ on average than Gray's G2Vs):
 <V-Vt>(G2V)  =-0.071 (+-0.001 sem, +-0.015 stdev; N=223) 
 <B-K>(G2V)   = 2.118 (+-0.009 sem, +-0.118 stdev; N=223)
 
+(B-V)(G2V) =  0.543 ; BakisEker22 
 <B-V>(G2V) = 0.617 ; 223 HIP d<75pc (+-0.003 sem, +-0.032 stdev) (mostly Houk types)
 (B-V)(G2V) =  0.62  ; KenyonHartmann95
 (B-V)(G2V) = 0.623 (+-0.010 sem,+0.033 stdev); 35 ARICNS G2V stars
 (B-V)(G2V) = 0.626 ; ter. stan. HD 45184
-(B-V)(G2V) = 0.626 ; ter. stan. HD 2141
 (B-V)(G2V) =  0.63  ; Fitzgerald70, Morgan71
 (B-V)(G2V) =  0.63  ; SchmidtKaler82
+(B-V)(G2V) =  0.633 ; non-stan. alf Cen A 
 (B-V)(G2V) =  0.64  ; JohnsonMorgan53
+(B-V)(G2V) = 0.64  ; median CATSUP d<30pc (N=29)
+(B-V)(G2V) = 0.640 ; solar twin HD 216008 = HIP 112730   
+(B-V)(G2V) = 0.640 ; median SIMBAD G2V d<25pc (N=21)
+(B-V)(G2V) = 0.642 ; solar twin HD 195034 = HIP 100963
+(B-V)(G2V) = 0.647 ; solar twin HD 101364 = HIP 56948
 <B-V>(G2V) = 0.647 ; 48 Gray01/03/06 G2V (+-0.003 sem, +-0.035 stdev)
+(B-V)(G2V) = 0.647 ; solar twin HD 88072 = HIP 49756
 (B-V)(G2V) =  0.65  ; Johnson66
+(B-V)(G2V) = 0.650 ; trend among standards and solar twins below, interp to [Fe/H]=0.00
 (B-V)(G2V) = 0.652 ; sec. stan. 18 Sco 
 (B-V)(G2V) = 0.653 ; pri. stan. Sun (Ramirez12 color)
 (B-V)(G2V) = 0.655 ; Keenan G2V standard xi UMa B
+(B-V)(G2V) = 0.656 ; solar twin HD 138573 = HIP 76114
 (B-V)(G2V) = 0.660 ; ter. stan. HD 44594 
-(B-V)(G2V) = 0.661 ; sec. stan. HD 76151 
-=> adopt (B-V)(G2V)  = 0.650 ***
+(B-V)(G2V) = 0.661 ; sec. stan. HD 76151
+(B-V)(G2V) = 0.665 ; solar twin HD 124523 = HIP 69645
+=> adopt (B-V)(G2V)  = 0.650 *** [updated 10/10/2020]
 
-I've decided to adopt B-V(G2V) = B-V(Sun) = 0.65. See notes at:
+[EEM update 5/18/2017; I've decided to adopt B-V(G2V) = B-V(Sun) =
+0.650. See notes at:
 http://www.pas.rochester.edu/~emamajek/sun.txt. This value is well
 supported by the new precise estimate of the solar colors by Ramirez
 et al. (2012), and the median colors of G2V field stars classified by
-Gray and collaborators.
+Gray and collaborators. 10/10/2020 update: trend of standards and
+solar twins below interp to [Fe/H]=0.00 also yields 0.650, i.e. it is
+repeatable. No need to update colors. ]
 
 It is possible that the use of HD 76151 as a G2V standard is what
 has skewed the mean B-V for G2V stars in the Gray Nstars sample
 to be somewhat redder than that for the other standards. 
 
 => adopt (U-B)(G2V)  = 0.133
-=> adopt (V-I)(G2V)  = 0.713
+=> adopt (V-I)(G2V)  = 0.710
 => adopt (V-R)(G2V)  = 0.363
 => adopt (R-I)(G2V)  = 0.350
 => adopt (V-J)(G2V)  = 1.199
@@ -119,62 +150,157 @@ to be somewhat redder than that for the other standards.
 => adopt (V-Ks)(G2V) = 1.564
 => adopt (H-Ks)(G2V) = 0.073
 => adopt (J-H)(G2V)  = 0.293
-=> adopt (K-W1)(G2V) = 0.028
+
+
+
+(G-V)(G2V) =  -0.140 ; from trend for B-V=0.650
+(G-V)(G2V) = -0.151 ; median for Kervella19 d<25pc G2V sample
+(G-V)(G2V) =   -0.154 ; HD 207129 PM* G2V
+(G-V)(G2V) =   -0.156 ; HD 76151 PM* G2V
+(G-V)(G2V) =   -0.160 ; HD 189567 PM* G2V
+(G-V)(G2V) = -0.160 ; solar twin HD 101364 = HIP 56948
+(G-V)(G2V) = -0.162 ; G dwarf trend for G2V 
+(G-V)(G2V) = -0.164 ; ter. stan. HD 76151 (corrected)
+(G-V)(G2V) =   -0.164 ; HD 181321 PM* G2V
+(G-V)(G2V) =   -0.165 ; HD 38858 PM* G2V
+(G-V)(G2V) =   -0.166 ; HD 12846 PM* G2V
+(G-V)(G2V) =   -0.167 ; HD 190771 PM* G2V
+(G-V)(G2V) =   -0.167 ; HD 199288 PM* G2VFe-1.0
+(G-V)(G2V) = -0.167 ; solar twin HD 88072 = HIP 49756
+(G-V)(G2V) = -0.167 ; solar twin HD 216008 = HIP 112730
+(G-V)(G2V) = -0.168 ; solar twin HD 195034 = HIP 100963
+(G-V)(G2V) =   -0.169 ; HD 102365 PM* G2V
+(G-V)(G2V) = -0.174 ; solar twin HD 124523 = HIP 69645
+(G-V)(G2V) = -0.175 ; solar twin HD 138573 = HIP 76114
+(G-V)(G2V) =   -0.177 ; HD 210918 PM* G2V
+(G-V)(G2V) =   -0.205 ; HD 76932 PM* G2VFe-1.8CH-1
+=> adopt (G-V)(G2V) = -0.165 [updated 11/1/2020]
+
+
+(Bp-Rp)(G2V) = 0.8364 ; solar twin HD 124523 = HIP 69645
+(Bp-Rp)(G2V) = 0.829  ; ter. stan. HD 76151 (corrected)
+(Bp-Rp)(G2V) = 0.8237 ; solar twin HD 138573 = HIP 76114
+(Bp-Rp)(G2V )= 0.823  ; color trend for B-V=0.650
+(Bp-Rp)(G2V) = 0.8156 ; solar twin HD 101364 = HIP 56948
+(Bp-Rp)(G2V) = 0.814  ; solar twin HD 88072  = HIP 49756
+(Bp-Rp)(G2V) = 0.8121 ; solar twin HD 216008 = HIP 112730
+(Bp-Rp)(G2V) = 0.8117 ; solar twin HD 195034 = HIP 100963
+(Bp-Rp)(G2V) =  0.8085  ; HD_98618
+(Bp-Rp)(G2V) =  0.8081  ; 18_Sco
+(Bp-Rp)(G2V) =  0.867   ; Evans18 trend for V-I= 0.710
+=> adopt (Bp-Rp)(G2V) = 0.815 [updated 11/22/2020]
+
+(Bp-G)(G2V) =  0.3435  ; HD_98618
+(Bp-G)(G2V) =  0.3456  ; HD_216008
+(Bp-G)(G2V) =  0.3461  ; HD_101364
+(Bp-G)(G2V) =  0.3486  ; HD_195034
+(Bp-G)(G2V) = 0.349    ; Bp-Rp=0.815, G-Rp=0.466
+(Bp-G)(G2V) =  0.3511  ; HD_88072
+(Bp-G)(G2V) =  0.3547  ; HD_124523
+(Bp-G)(G2V) =  0.3574  ; HD_138573
+(Bp-G)(G2V) =  0.3637  ; HD_76151
+(Bp-G)(G2V) =  0.365   ; color trend for B-V=0.65
+(Bp-G)(G2V) =  0.3720  ; 18_Sco
+=> adopt (Bp-G)(G2V) = 0.349 [updated 11/22/2020]
+
+(G-Rp)(G2V)  =  0.4361  ; 18_Sco
+(G-Rp)(G2V)  = 0.462  ; solar twin HD 88072 = HIP 49756
+(G-Rp)(G2V)  = 0.4630 ; solar twin HD 195034 = HIP 100963
+(G-Rp)(G2V)  =  0.4656  ; HD_76151
+(G-Rp)(G2V)  = 0.4663 ; solar twin HD 138573 = HIP 76114
+(G-Rp)(G2V)  = 0.4665 ; solar twin HD 216008 = HIP 112730
+(G-Rp)(G2V)  = 0.4695 ; solar twin HD 101364 = HIP 56948
+(G-Rp)(G2V)  = 0.478  ; ter. stan. HD 76151 (corrected)
+(G-Rp)(G2V)  = 0.4817 ; solar twin HD 124523 = HIP 69645
+(G-Rp)(G2V)  = 0.488  ; color trend for B-V=0.65 
+=> adopt (G-Rp)(G2V) = 0.466 [updated 11/22/2020]
+
+(Ks-W1)(G2V) = 0.061 ; EEM trend for d<30pc for B-V=0.65
+=> adopt (Ks-W1)(G2V) = 0.061 [updated 12/29/2019]
 
 (U-B)(G2V)   = 0.100 ; HIP d<75pc S/N>8 G2V N=107 (Mermilliod91 photometry)
 (U-B)(G2V)   = 0.158 ; Ramirez05 color for Sun (+-0.009; line-depth ratios)
 (U-B)(G2V)   = 0.16  ; Johnson66 
 (U-B)(G2V)   = 0.16  ; JohnsonMorgan53
 
+(V-Ks)(G2V)  =  1.511          ; solar twin HD 195034 = HIP 100963
+(V-Ks)(G2V)  =  1.515          ; solar twin HD 101364 = HIP 56948
+(V-K)(G2V)   =   1.539 +- 0.025 ; B-V vs. V-K(Ducati/Johnson) for XHIP d<50pc G Vs (-0.1<[Fe/H]<0.1) for B-V=0.650
+(V-Ks)(G2V)  =  1.541          ; solar twin HD 216008 = HIP 112730
 (V-Ks)(G2V)  = 1.545 +- 0.02  ; Rieke08 (NStars interp to 5778K)
-(V-Ks)(G2V)  = 1.560 +- 0.008 ; pri. stan. Sun (Casagrande11)  
-(V-Ks)(G2V)  = 1.564          ; V-Ks vs. B-V polynomial fit for B-V = 0.65
-(V-Ks)(G2V)  = 1.571 +- 0.007 (+-0.035 1sig) ; 23 Gray06 "G2 V" stars
+(V-Ks)(G2V)  =  1.547          ; solar twin HD 88072 = HIP 49756
+(V-Ks)(G2V)  = 1.548 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G Vs (-0.1<[Fe/H]<0.1) for B-V=0.650
+(V-Ks)(G2V)  =  1.552 +- 0.024 ; ter. stan. HD 76151 
+(V-Ks)(G2V)  = 1.560 +- 0.008  ; pri. stan. Sun (Casagrande11)  
+(V-Ks)(G2V)  = 1.564           ; V-Ks vs. B-V polynomial fit for B-V = 0.65
+(V-Ks)(G2V)  =  1.570          ; solar twin HD 138573 = HIP 76114
+(V-Ks)(G2V)  =  1.571 +- 0.007 (+-0.035 1sig) ; 23 Gray06 "G2 V" stars
+
+(g-r)(G2V) = 0.474 ; Jordi06 (V-R)=>(g-r) for V-R=0.363
+(g-r)(G2V) = 0.479 ; Bilir05 (B-V)=>(g-r) for B-V=0.650
+=> adopt (g-r)(G2V) = 0.476 [updated 10/10/2020]
 
 Teff(G2V) =   5710 K ; GrayCorbally94
 Teff(G2V) = 5748 K ; 23 Teffs for "G2 V" stars in Gray06
 Teff(G2V) =   5750 K ; GrayCorbally09
+Teff(G2V) = 5700 K ; Teff from smoothed SpT(Teff) trend
+Teff(G2V) = 5760 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for B-V=0.65
 Teff(G2V) = 5772+-1 K ; Sun (Mamajek12)
-Teff(G2V) = 5773 K ; sec. stan. HD 76151 median Teff
+Teff(G2V) = 5780 K ; sec. stan. HD 76151 (PASTEL/Soubiran22 <Teff>)
 Teff(G2V) =   5784 K ; Boyajian12
-Teff(G2V) = 5789 K ; sec. stan. HD 146223 (18 Sco) median Teff
+Teff(G2V) = 5785 K ; sec. stan. HD 146233 (18 Sco) (PASTEL/Soubiran22 <Teff>)
 Teff(G2V) = 5819 K ; ter. stan. HD 44594 median Teff
-Teff(G2V) = 5828 K ; sec. stan. HD 45184 median Teff
+Teff(G2V) =   5859 K ; deprecated stan. HD 45184 
 Teff(G2V) =   5860 K ; Schmidt-Kaler82
-=> adopt Teff(G2V) = 5770 K (logT = 3.761) ***
+=> adopt Teff(G2V) = 5770 K (logT = 3.761) [last updated 11/22/2018]
 
 I have calibrated the BCv scales of
 Code76,Balona94,Flower96,Schmidt-Kaler82,Casagrande06/08/10 to
- precisely BCv = -0.07 for Teff=5778 K and/or G2V
-=> adopt BCv(G2V) = -0.07 mag 
+ precisely BCv = -0.085 for Teff=5772 K and/or G2V, calibrated
+ to Casagrande18 BC data but calibrated to IAU2015 system.
+BCv(G2V) = -0.085 mag ; Casagrande18(Teff=5772K,logg=4.5,IAU2015 system)
+BCv(G2V) = -0.085 mag ; exemplar alf Cen A (see below)
+BCv(G2V) = -0.090 mag ; Chen19 PARSEC Teff=5772K,logg=4.5,solar (predicted Mv(Sun)=4.82975)
+so may recalibrate the other BC values
+=> adopt BCv(G2V) = -0.085 mag [last updated 8/29/2019]
 
-Mv(G2V)  = 4.07 mag ; Wegner07 
-Mv(G2V)  = 4.7  mag ; Schmidt-Kaler82
-Mv(G2V)  = 4.7  mag ; GrayCorbally09
+Note that Bakis & Eker (2022; https://arxiv.org/abs/2208.04110) recently list values for G2V stars BCv(G2V)=+0.078, Teff(G2V)=5888K, and (B-V)o=0.543, all of which appear to be severely at odds with real values for G2V stars like the Sun. Real Sun-like G2V stars have (B-V) ~ +0.65 (see tabluated values for G2V standards and solar twins above), and the typical Teff for G2V standard stars and solar twins is unsurprisingly that of the Sun (~5772K; again, see compilation of G2V standards and solar twins above).  Their BCv(G2V) value appears to be off by ~0.16 mag if used in conjunction with IAU 2015 scale, and would lead to systematically incorrect bolometric luminosities. The Bakis & Eker BCv(G2V) value, when combined with the equation for BC values (BC_band = Mbol - M_band) and the IAU 2015 Resolution nominal Sun
+values (absolute Mbol=4.74, apparent mbol=-26.832) would lead to *predictions* of the Sun's absolute Johnson V magnitude to be Mv = 4.662 (= 4.74 - 0.078 = Mbol - BCv) and apparent Johnson V magnitude to be V = -26.91 (= -26.832 - 0.078 = mbol - BCv). Compare these predictions to the estimated solar values from Torres10/2010AJ....140.1158T (V_sun = -26.76+-0.03, Mv_sun = 4.81+-0.03), i.e. they are off by ~0.15 magnitude! So I would not recommend adopting the Bakis & Eker (2022) BCs at this time as they seem to have a large systematic (~0.15-0.16 mag) for Sun-like stars. 
+
+
+Mv(G2V)  =  4.07 mag ; Wegner07 [highly discrepent]
+Mv(G2V)  =  4.7  mag ; Schmidt-Kaler82
+Mv(G2V)  =  4.7  mag ; GrayCorbally09
+Mv(G2V)  = 4.78 mag ; median SIMBAD G2V d<25pc (N=21)
 Mv(G2V)  = 4.79 mag ; B-V=0.650 => Mv(Wright05)
-=> adopt Mv(G2V) = 4.79 mag 
+Mv(G2V)  = 4.79 mag ; median XHIP G2V d<20pc 
+Mv(G2V)  = 4.80 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.65
+Mv(G2V)  = 4.81 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.653
+Mv(G2V)  = 4.825 mag ; Sun for Mbol=4.74(IAU2015), BCv=-0.085. 
+Mv(G2V)  = 4.83 mag ; B-V=0.650 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(G2V)  = 4.85 mag ; CATSUP -0.1 < [Fe/H] < 0.1 d<30pc for B-V=0.650
+Mv(G2V)  = 4.90 mag ; V-Ks=1.56 for EEM poly fit to SIMBAD d<25pc (1/2022) (M_Ks=3.34)
+=> adopt Mv(G2V)   = 4.80  mag [updated 9/26/2020]
+=> adopt M_G(G2V)  = 4.635 mag [updated 12/10/2020] (Mv=4.80, G-V=-0.165)
+=> adopt M_Ks(G2V) = 3.236 mag [updated 12/30/2020] (Mv=4.80, V-Ks=1.564)
 
-[EEM comment: this seems strange that Wegner07's average Mv for G2V
-stars is so different from that of the Wright05 trend, the average
-values from Schmidt-Kaler and Gray & Corbally, and the Mv for the
-Sun. Presumably the Wegner07 values should be discounted heavily, at
-least amongst the G stars.]
-
-logL(G2V) = 0.014 dex ; Mv=4.79, BCv=-0.07 => Mbol = 4.72
+logL(G2V) = 0.010 dex ; Mv=4.80, BCv=-0.085 => Mbol = 4.715
 logL(G2V) = 0.000 dex ; Sun
-=> adopt logL(G2V) = 0.01 dex 
-=> adopt Mbol(G2V) = 4.72 mag
+=> adopt logL(G2V) = 0.010 dex [last updated 9/26/2020]
+=> adopt Mbol(G2V) = 4.715 mag [last updated 9/26/2020]
 
-Mass(G2V) = 1.14 Msun ; EEM Teff vs. Mass fit for binaries (Teff=5778K)
-Mass(G2V) = 1.02 Msun ; EEM logL vs. Mass fit for binaries (logL=0.03)
-Mass(G2V) = 1.02 Msun ; EEM Mv vs. Mass fit for binaries (Mv=4.74)
-Mass(G2V) = 1.017 Msun ; Ekers15 ML calibration for logL=
-Mass(G2V) = 1.00 Msun ; pri. stan. Sun
-Mass(G2V) = 0.98 Msun ; sec. stan. 18 Sco
-=> adopt Mass(G2V) = 1.02 Msun
+Rad(G2V) = 1.012 Rsun ; logL = 0.010, Teff=5770K
+=> adopt Rad(G2V) = 1.012 Rsun [updated 9/26/2020]
+
+Mass(G2V) = 1.009 Msun ; EEM fit to ML for logL=0.00
+Mass(G2V) = 1.003 Msun ; Eker18 ML calibration for logL=0.00
+Mass(G2V) = 1.00  Msun ; pri. stan. Sun
+Mass(G2V) = 0.98  Msun ; sec. stan. 18 Sco
+=> adopt Mass(G2V) = 1.00 Msun [updated 9/26/2019]
 
 logg(G2V) = 4.47 ; N=23 loggs for Gray06 "G2 V" stars
-logg(G2V) = 4.44 ; Sun 
+logg(G2V) = 4.44 ; Sun
+logg(G2V) = 4.43 ; pri. stan. 18 Sco (PASTEL/Soubiran22)
 
 ### No Standards
 
@@ -182,16 +308,16 @@ MK43 and Wilson62 do not list a G2V standard.
 
 ### Primary Standard
 
-Sun
-  G2V: JM53,Morgan65,Morgan71,MK73(moon,dagger),Keenan76,Keenan80,Keenan83,Keenan85,Keenan91,Garrison94,GrayNstars,GrayCorbally14
+Sun = GJ 0 
+ *G2V: JM53,Morgan65,Morgan71,MK73(moon,dagger),Keenan76,Keenan80,Keenan83,Keenan85,Strassmeier90,Keenan91,Garrison94,GrayNstars,GrayCorbally14
 
   G2V anchor standard according to Garrison94. Just don't stare at
   it. Authors usually mention using a spectrum of either the moon or
   one of Jupiter's satellites.  For discussion on spectral type of
-  Sun, see Keenan 1991 (PASP, 103, 642) and Morgan & Keenan 1939
-  (PASP, 51, 355). While the integrated spectrum of the Sun is G2V,
-  spectra of different regions of the Sun from the center to the limb
-  yield ~G1 through K0: Morgan & Keenan (1939):
+  Sun, see Keenan 1991 (PASP, 103, 642; 1991PASP..103..642K) and
+  Morgan & Keenan 1939 (PASP, 51, 355). While the integrated spectrum
+  of the Sun is G2V, spectra of different regions of the Sun from the
+  center to the limb yield ~G1 through K0: Morgan & Keenan (1939):
   http://adsabs.harvard.edu/abs/1939PASP...51..355M. Keenan91 reported
   time series spectroscopy of the solar spectrum, and found that
   "Although these observations do not rule out the possibility that
@@ -202,57 +328,238 @@ Sun
   spectrum (Kurucz84 solar flux atlas smoothed to 1.8A resolution) as
   "G2V" when the S/N > 20. At S/N=10, it classified the Sun as G3V
   (Quality=good) and at S/N=5 was able to discern F8-G8V
-  (Quality=Fair-poor). Modern estimate of Teff (5772K) is derived in
-  Mamajek12.
+  (Quality=Fair-poor). IAU (2015) Nominal solar values: Teff=5772K,
+  Rad=695700km, irradiance(1au)=1361 W/m2, Mbol=4.74, mbol=-26.832.
+  Chen19 PARSEC Teff=5772K, solar mix, logg=4.44 => Mv(Sun) = 4.830(predicted),
+  BCv=-0.090(Maiz-Appellanix06 calibration)
 
 ### Secondary Standards
 
-HD 146223 = HR 6060 = 18 Sco
- *G2V: Harlan74, Cowley79, KeenanYorka85(G2Va),Keenan88(G2Va, stan), Gray03
+HD 146233 = HR 6060 = 18 Sco = HIP 79672 
   G1V: Adams35, Cowley67
+ *G2V: Harlan74, Cowley79, KeenanYorka85(G2Va),Keenan88(G2Va, stan), Gray03
   G3: Bidelman85
 
   Well-studied "solar twin", and as such can probably be considered a
-  strong secondary G2V standard. B-V = 0.652+-0.009 (HIP). PASTEL
-  catalog of metallicity values has 13 published values, and median
-  <[Fe/H]> = +0.028 +- 0.005, and <Teff> = 5789+-9 K. Mass = 0.98 Msun
-  (Holmberg07).
+  strong secondary G2V standard. V=5.49(HIP), V=5.49(Johnson66),
+  V=5.495+-0.012(Cousins71), V=5.500(Hauck97),
+  V=5.496+-0.006(Hauck97*), V=5.503+-0.015(Mermilliod91),
+  V=5.497314(GaiaDR3/synth) [in great agreement with measured],
+  Bt=6.298+-0.005(HIP), Vt=5.562+-0.004(HIP), Bt-Vt=0.736+-0.006(HIP),
+  B-V=0.652+-0.009(HIP,Mermillioid91), B-V=0.65(Johnson66),
+  B-V=0.645+-0.006(Cousins71), U-B=0.17(Johnson66),
+  U-B=0.18(Cousins71), U-B=0.174+-0.017(Mermilliod91),
+  V-Ic=0.69+-0.02(HIP), Hp=5.6265+-0.0005(HIP). PASTEL median
+  parameters: Teff = 5795+-9K, [Fe/H]=0.037+-0.007, logg=4.44+-0.01,
+  so star is only 23+-9K hotter and 0.037+-0.007 dex more metal-rich,
+  so remarkably close to the Sun. PASTEL 2022 (Soubiran22) averages:
+  Teff=5785+-12K(N=43), logg=4.43+-0.02(N=37), [Fe/H]=0.03+-0.01(N=36),
+  hence the Teff and logg is statistically indistinguishable from Sun, and
+  the metallicity is only 3sigma higher, but basically ~solar. 
+  plx = 71.94+-0.37mas(HIP2),
+  plx=70.7675+-0.1119mas(GaiaDR2), plx=70.7371+-0.0631mas(GaiaDR3) =>
+  Dist=14.1335+-0.0126 pc, (m-M)o=0.751+-0.002. GaiaDR2: G=5.3026 0.0018 =>
+  corrected Gcor=5.331, E(BR/RP)=1.157, Bp-Rp=0.8081, Bp-G=0.3720,
+  G-Rp=0.4361 => corrected via Evans18 (Bp-Rp)(corr)=0.808,
+  (Bp-G)(corr)=0.343, (G-Rp)(corr)=0.465. Unfortunately all the 2MASS
+  photometry is corrupted (flags C and D).  WISE bands 1 and 2 bad in
+  2012 & 2013 catalogs, but W3=3.994+-0.013(Cutri13),
+  W4=3.956+-0.024(Cutri13).  SED fit and luminosity: using VOSA to fit
+  to 25 photometric datapoints, the best fit SED I could derive was
+  (ignoring 2MASS JHKs(poor), IRAS 60/100um): BT-Settl-CIFIST model
+  with Av=0(constrained), Teff=5600K, logg=4, [M/H]=0,
+  log(L/Lsun)=0.0402+-0.0021 dex, L=1.097+-0.005234 Lsun (surprisingly
+  small error of 0.48%, i.e. probably unrealistically smaller than
+  absolute spectrophotometry calibration ~<1-1.5%).
 
 ### Tertiary Standards
 
 HD 76151 = HR 3538
- *G2V: Keenan88,Keenan99,Gray01,GrayNstars(stan)
+ *G2V: Keenan85,Keenan88,Keenan99,Gray01,GrayNstars(stan)
+  G3V: Popper43,Joy47,Keenan80,Keenan83
   G3/5V: Houk99(q=2)
   G5V: Harlan74
-  G3V: Popper43,Joy47
 
-  At least Keenan & Gray agree. B-V = 0.661+-0.012(HIP),
-  B-V=0.666+-0.013(Mermilliod91), U-B=0.212+-0.014(Mermilliod91),
-  V=5.999+-0.010(Mermilliod91).  Very well-studied spectroscopically.
-  Soubiran10 PASTEL catalog lists 19 Teffs: median Teff = 5773K.
-  PASTELL lists 16 published [Fe/H] values: median [Fe/H] = 0.08.  So
-  essentially identical Teff as Sun, and just slightly metal-rich. Not
-  in Washington Double Star catalog, and in Nidever02 as stable RV
-  star (rms < 100 m/s).
+  At least Keenan & Gray agree, although Keenan switched it from G3V
+  (1983) to G2V (1985), then retained it as G2V in later works. B-V =
+  0.661+-0.012(HIP), B-V=0.666+-0.013(Mermilliod91),
+  U-B=0.212+-0.014(Mermilliod91), V=5.999+-0.010(Mermilliod91),
+  V=5.999(Hauck90), V=6.01(HIP), V=6.008+-0.005(Hauck97).  Very
+  well-studied spectroscopically. Not in Washington Double Star
+  catalog, and in Nidever02 as stable RV star (rms < 100
+  m/s). PASTEL/Soubiran22 mean values: Teff=5780+-9K(N=32),
+  logg=4.49+-0.02(N=27), [Fe/H]=+0.10+-0.01(N=28), so Teff is
+  statisticaly indistinguishable from Sun (5772), and the star is just
+  slightly more higher surface gravity (+0.05 dex) and metal-rich
+  (+0.10 dex).  2MASS JHK flags are EDA. J=4.871+-0.037(flag=E,2MASS),
+  H=4.625+-0.276(flag=D,2MASS), Ks=4.456+-0.023(flag=A,2MASS).  V-Ks =
+  (6.008+-0.005) - (4.456+-0.023) = 1.552+-0.024.  GaiaDR2:
+  plx=59.3469+-0.0447mas, G=5.8315+-0.0007, E(BR/RP)=1.179,
+  Bp-Rp=0.8293, Bp-G=0.3637, G-Rp=0.4656 => corrected via Evans18 =>
+  G(corr)= 5.844, Bp(corr)=6.195, Rp(corr)=5.366, (Bp-Rp)(corr)=0.829,
+  (Bp-G)(corr)=0.351, (G-Rp)(corr)=0.478. G-V = 5.844 - 6.008 =
+  -0.164.
 
-HD 2141 = HIP 2014 = 2MASS J00253278-1608003
-  *G2V: Keenan89,Keenan99(not in Keenan88)
-   G3V: Houk88
-   G1V: McNeil86(by McNeil)
-   G2IV-V: McNeil86(by Keenan)
+### Select Solar Twins
 
-   McNeil86 notes "metallic lines very slightly weak?".  No published
-   spectroscopic metallicities, at least in any Vizier-queryable
-   tables. I knock this down to a tertiary standard based on how
-   poorly studied the star is compared to the other standards, but I
-   don't see a reason to drop it all together.  V=8.890(Mermilliod91),
-   V=8.89(HIP), B-V=0.647+-0.010(HIP), B-V=0.630(Mermilliod91),
-   U-B=0.160(Mermilliod91). plx = 8.57+-0.91 mas(van Leeuwen07), so
-   the star may not necessarily have negligible reddening.  Teffs:
-   5727+115-94K(Ammons06), 6079K(Bailer-Jones11).  Both are
-   photometric Teff estimates.
+These are stars with combinations of Teff, logg, [Fe/H] which are
+almost identical to that of the Sun. i.e. Teff typically within tens
+of K, logg and metallicity within hundreds of a dex. They do not
+always have modern spectral types (some are faint, V ~ 7 or 8). 
+
+HD 88072 = HIP 49756
+  G3V: Gray03
+  G5V: Houk99
+
+  Classified G3V by Gray but its Teff/[Fe/H]/logg are among the
+  closest to that of the Sun among any solar twin (and age, rotation,
+  activity very simlar as well): Casali20 Teff=5786+-3K,
+  logg=4.428+-0.009, [Fe/H]=+0.030+-0.003, Age = 4.7+-0.62 Gyr.
+  V=7.52(TYC), V=7.55(HIP), V=7.542(Pickles10,SEDfit),
+  V=7.544+-0.002(Hauck97), B-V=0.647+-0.003(HIP),
+  B-V=0.671+-0.018(TYC), V-Ic=0.71+-0.00(HIP), Hp=7.6745+-0.0011(HIP),
+  J=6.376+-0.020(2M), H=6.077+-0.033(2M), Ks=5.997+-0.020(2M) => V-Ks
+  = 7.544 - 5.997 = 1.547.  vsini=1.5+-0.5km/s(Marsden15),
+  Prot=25d(Isaacson10), logR'HK=-4.993(Isaacson10).
+  GaiaDR2: plx=27.8187+-0.0529mas, no need to correct photometry:
+  G=7.3767+-0.0003, E(BR/RP)=1.183, Bp-Rp=0.8135, Bp-G=0.3511, G-Rp=0.4623.
+  G-V = 7.3767 - 7.544 = -0.167. 
+
+HD 98618 = HIP 55459 
+  G5V: Roman49
+ *G2V: Pickles10(template)
+ 
+  Melendez06 wrote paper just on this star as a solar twin
+  (https://iopscience.iop.org/article/10.1086/503898/pdf): "We show
+  that HD98618 is the second-closest solar twin and that the
+  fundamental parameters of both HD 98618 and 18 Sco are very similar
+  (within a few percent) to the host star of our solar system".
+  V=7.65(HIP), V=7.658(Hauck97), B-V=0.642+-0.007(HIP), V-Ic=0.71+-0.01(HIP).
+  2MASS: J=6.448+-0.029(2MASS,q=A), H=6.142+-0.046(2MASS,q=A),
+  Ks=6.061+-0.020(2MASS,q=A), V-Ks = 7.658 - 6.061 = 1.597.  
+  Ramirez12: Teff=5835K, logg=4.39, [Fe/H]=0.030+=0.022.  Most
+  precise: Spina16: Teff=5845+-10K, logg=4.42+-0.03,
+  [Fe/H]=+0.05+-0.01.  PASTEL: <Teff>=5731K(N=8), <[Fe/H]>=+0.04(N=6),
+  <logg>=4.375(N=6). 2
+
+HD 101364 = HIP 56948 = TYC 4392-272-1 = 2MASS J11402848+6900306
+  G0V: 1926MeUpp..11....1L
+  G5: 1956PMcCO..13a....B	
+
+  Solar twin in Melendez07 (2007ApJ...669L..89M).  Tokovinin18 lists
+  companion B 923.5" away. Slightly less active than Sun:
+  log'RHK=-4.97(Radick18). V=8.67(HIP), V=8.70(TYC), V=8.673(Hauck97),
+  B-V=0.630+-0.014(TYC), B-V=0.647+-0.014(HIP), V-Ic=0.71+-0.01(HIP),
+  J=7.477+-0.019(2M), H=7.202+-0.026(2M), Ks=7.158+-0.018(2M), V-Ks =
+  8.673 - 7.158 = 1.515.  plx=15.68+-0.67mas(HIP2). GaiaDR2:
+  plx=16.6642+-0.0313mas, no correction to photometry needed,
+  G=8.5135+-0.0002, E(BR/RP)=1.190, Bp-Rp=0.8156, Bp-G=0.3461,
+  G-Rp=0.4695.  G-V = 8.5135 - 8.673 = -0.1595.  PASTEL: <Teff> =
+  5793K(N=6), <logg>=4.465(N=4), <[Fe/H]>=+0.02(N=4).  Spina16 seems
+  to be best available: Teff=5793+-6K, [Fe/H]=+0.02+-0.000,
+  logg=4.47+-0.02.
+
+HD 124523 = HIP 69645 = LTT 5588 = TYC 7812-898-1 = 2MASS J14151500-4248167
+  G8V+G: Houk78. 
+
+  One of the 3 stars with parameters closest to the Sun in Casali20,
+  who lists Teff=5752+-3K, logg=4.458+-0.008, [Fe/H]=-0.022+-0.004,
+  age=4.4+-0.62Gyr. Spina18 lists: Teff=5751+-3K, logg=4.435+-0.01,
+  [Fe/H]=-0.026+-0.004.  V=9.41(HIP), V=9.47(TYC), V=9.423(Hauck97),
+  B-V=0.665+-0.004(HIP), B-V=0.649+-0.031(TYC), V-Ic=0.73+-0.00(HIP),
+  J=8.218+-0.023(2M), H=7.879+-0.034(2M), Ks=7.855+-0.024(2M), V-Ks =
+  9.423 - 7.855 = 1.568.  plx=12.29+-1.44mas(HIP2). GaiaDR2:
+  plx=12.3616+-0.0643mas, G=9.2485+-0.0004, E(BR/RP)=1.193,
+  Bp-Rp=0.8364, Bp-G=0.3547, G-Rp=0.4817, G-V = 9.2485 - 9.423 =
+  -0.1745. PASTEL: <Teff> = 5743K(N=5), <logg>=4.437(N=4),
+  <[Fe/H]>==-0.028(N=4).
+
+HD 138573 = HIP 76114 = SPOCS 660 = TYC 932-962-1 = BD+11_2816
+  G0: 1948IzKry...2..103A
+  G5IV-V: Harlan69
+  wG5V: Pickles10(SEDfit)
+
+  Best solar twin in survey of Mahdi16
+  (https://www.aanda.org/articles/aa/full_html/2016/03/aa27472-15/aa27472-15.html),
+  with Teff=5757+-10K, logg=4.42+-0.01, [Fe/H]=-0.015+-0.03.  However,
+  King05 said "While certainly solar-type stars, HIP 76114* and 77718
+  are a few percent less massive, significantly older, and metal-poor
+  compared to the Sun; they are neither good solar twin candidates nor
+  solar analogs providing a look at the Sun at some other point in its
+  evolution". While slightly cooler by ~40K than the Sun, the other
+  metallicity measurements have median in line with Mahdi16: [Fe/H] ~
+  -0.015.  Spina18: Teff=5740+-3K, lgog=4.41+-0.01,
+  [Fe/H]=-0.024+-0.003.  Age = 6.6+-0.3Gyr(Lorenzo-Oliveira18),
+  logR'HK = -4.957+-0.001(Meunier17), -5.00(Wright04), Prot =
+  26.0d(Wright04).  V=7.22(HIP), V=7.23(TYC), V=7.232+-0.002(Hauck97),
+  B-V=0.656+-0.007(HIP), V-I=0.72+-0.01(HIP), J=6.027+-0.021(2M),
+  H=5.742+-0.026(2M), Ks=5.662+-0.017(2M), V-Ks = 7.232 - 5.662 =
+  1.570.  PASTEL: <Teff>=5747K(N=10), <logg>=4.42(N=8),
+  <[Fe/H]>=-0.015(N=9).  GaiaDR2: plx= 33.2950 0.0585mas, no
+  correction needed to G,Bp,Rp: G=7.0566+-0.0003, Bp-Rp=0.8237,
+  Bp-G=0.3574, G-Rp=0.4663. G-V = 7.0566 - 7.232 = -0.1754.
+
+HD 195034 = HIP 100963 = LTT 15980 = NLTT 49310 = SAO 88711 = SPOCS 3145 = TYC 1644-1157-1 
+  G2V: Hinkel17(assigned based on solar twin status in YanaGalarza16)
+  G5: HD
+
+  Solar twin according to Yana Galarza16(2016A&A...589A..17Y).
+  YanaGalarza16: Teff=5818+-4K, logg=4.49+-0.01, [Fe/H]=-0.003+-0.004,
+  mass=1.03+0.02-0.01 Msun, age 2.0+-0.4 Gyr.  V=7.09(HIP),
+  V=7.090(Hauck97), V=7.10(TYC), B-V=0.642+-0.009(HIP),
+  B-V=0.626+-0.009(TYC), V-Ic=0.71+-0.01(HIP), J=5.901+-0.029(2M),
+  H=5.632+-0.021(2M), Ks=5.579+-0.018(2M), V-Ks = 7.09 - 5.579 =
+  1.511. PASTEL: <Teff> = 5812K(N=8), <logg>=4.485(N=8),
+  <[Fe/H]>=0.00(N=8).  Mixed signals on youth/activity:
+  logR'HK=-4.96(Wright04), Prot=23.0d(Wright04), logR'HK= -4.930
+  ..-4.653(Pace13), vsini=10.0km/s(White07). GaiaDR2:
+  plx=35.5142+-0.0571mas, no correction needed to G/Bp/Rp:
+  G=6.9223+-0.0002, E(BR/RP)=Bp-Rp=0.8117, Bp-G=0.3486, G-Rp=0.4630.
+  G-V = 6.9223 - 7.090 = -0.1677.
+
+ HD 216008 = HIP 112730 
+  G2/3V: Houk82
+  
+  Among the 3 solar twins with parameters most similar to the Sun in
+  Casali20.  Casali20: Teff=5797+-9K, [Fe/H]=-0.030+-0.007,
+  logg=4.409+-0.026, age=5.9+-1.11Gyr. Activity also similar to Sun:
+  logR'HK=-4.90(Henry96). PASTEL: <Teff>=5822K(N=3),
+  logg=4.38(N=1,Sousa11), [Fe/H]=-0.04+-0.05(Sousa11).  Teffs:
+  5750K(GaiaDR2#1), 5765K(Aguilera-Gomez18),
+  5773K(Sousa11,Adibekyan12,Carretta13,DelgadoMena14,Suarez-Andres17,
+  Suarez-Andres18,CostaSilva20), 5797K(Casali20),
+  5819+-23K(Stevens17), 5822K(Netopil17), 5822K(GaiaDR2#2),
+  5822K(Casagrande11), 5848K(Stassun18), 5923K(Masana06) => adopt
+  Casali20 (5797+-9K).  V=8.21(HIP), V=8.21(TYC),
+  V=8.215+-0.000(Hauck97), B-V=0.640+-0.001(HIP),
+  B-V=0.660+-0.014(TYC), V-I=0.70+-0.00(HIP), J=7.058+-0.018(2M),
+  H=6.809+-0.040(2M), Ks=6.674+-0.024(2M), V-Ks = 8.215 - 6.674 =
+  1.541.  plx=19.45+-0.73mas(HIP2). GaiaDR2: plx=19.2503+-0.0505mas,
+  G=8.0477+-0.0004, E(BR/RP)=1.188, Bp-Rp=0.8121, Bp-G=0.3456,
+  G-Rp=0.4665. G-V = 8.0477 - 8.215 = -0.1673.
 
 ### Deprecated Standards or Variants
+
+HD 2141 = HIP 2014 = 2MASS J00253278-1608003
+   G2V: Keenan89,Keenan99(not in Keenan88)
+   G3V: Houk88
+   G1V: McNeil86(by McNeil)
+  *G2IV-V: McNeil86(by Keenan)
+
+   Not particularly well-studied star that appears to be a subgiant
+   rather than dwarf. 
+   The TIC(Stassun19) estimates logg=3.9492+-0.0789 and
+   Rad=1.797+-0.089, so this star would appear to be somewhat evolved,
+   as suggested in McNeil86.  McNeil86 notes "metallic lines very
+   slightly weak?".  No published spectroscopic metallicities, at
+   least in any Vizier-queryable tables. V=8.890(Mermilliod91), V=8.89(HIP),
+   B-V=0.647+-0.010(HIP), B-V=0.630(Mermilliod91),
+   U-B=0.160(Mermilliod91). plx = 8.57+-0.91 mas(van Leeuwen07), plx
+   =8.5864+-0.0538(GaiaDR2), so the star may not necessarily have
+   negligible reddening. Assuming negligible reddening Mv =3.56, so
+   the star is ~1.3 mag above MS. Teffs: 5727+115-94K(Ammons06),
+   5819+-127.5K(Stassun19), 6079K(Bailer-Jones11).  Both are
+   photometric Teff estimates, no PASTEL spectroscopic parameters.
 
 HD 44594 = HR 2290 = HIP 30104 
    G2Va: Keenan89,Keenan99(not in Keenan88)
@@ -282,13 +589,10 @@ HD 44594 = HR 2290 = HIP 30104
    [Fe/H]=0.04+-0.07(Bond06), 0.15+-0.01(Sousa08),
    0.15+-0.03(Valenti05), so slightly metal-rich.
 
-
 HD 45184 = HR 2318 = GJ 3394
-   G2Va: Keenan88,Keenan99
+   G0V: Boss37(G0),Oblak82(photometric)
   *G1.5V: Gray06
-   G2V: Houk82
-   G0: Boss37
-   G0V: Oblak82(photometric)
+   G2Va: Houk82(G2V),Keenan88,Keenan99
 
    I've deprecated this standard since Gray06 recently classified 0.5
    subtype earlier, and other authors have reported hotter types (note
@@ -300,12 +604,14 @@ HD 45184 = HR 2318 = GJ 3394
    5820+-70K(Bensby03,Morel04,Feltzing07), 5828+-51K(Masana06),
    5841K(Gray06), 5863+-63K(Casagrande11)
    5869+-14K(Sousa08,DelgadoMena10,Adibekyan12), 5962K(Marsakov95) =>
-   median Teff = 5828K.
+   median Teff = 5828K.  PASTEL/Soubiran22 mean values:
+   Teff=5859+-13K(N=18), logg=4.43+-0.03(N=14),
+   [Fe/H]=+0.06+-0.02(N=14).
 
 HD 98230B = xi UMa B = HR 4374
+   G0V: Adams35,Keenan85
   *G2V: Keenan88 
-   G0V: Adams35
-  
+
    From Tycho-2 photometry, I estimate (B-V) = 0.655+-0.014. Photometry
    not separated in Mermilliod91. 1" pair with xi UMa A, a F8.5V
    standard. Tight binary, so probably not the best choice of standard.
@@ -337,12 +643,12 @@ HD 141004 = lam Ser = HR 5868 = GJ 598
    from MK73 to Keenan88 and to Gray, and G0 seems consistent with the
    B-V color.  B-V = 0.604+-0.008 (HIP).
 
-HD 28099 = BD+16_601 = V911 Tau:
-   G6V: Morgan65
-   G8V: Perraud62	
+HD 28099 = VB 64 = BD+16_601 = V911 Tau:
+   G0V: Ramberg41,Jacoby84
+  *G2+V: Keenan85,Keenan89("H&K slightly weak")
    G4V: Adams35
-  *G2+V: Keenan89("H&K slightly weak")
-   G0V: Ramberg41, Jacoby84
+   G6V: Morgan65
+   G8V: Perraud62
 
    One of two Hyads classified G6V by Morgan65. I should be surprised
    that Morgan called it G6V and Keenan calls it G2+V, but given the
@@ -360,19 +666,161 @@ HD 28099 = BD+16_601 = V911 Tau:
    range of published types, this star should probably not be be
    considered a standard.
 
-### Others
+### Exemplars
 
-Alf Cen A = GJ 559 A = HIP 71683 = HD 128620 = HR 5459
-  G2V: Woods55,Garrison96,Houk75(Garrison),Gray06
+Note that these are stars with good agreement in the literature on G2V
+types, but they are not necessarily 'solar twins', i.e. their gravity,
+[Fe/H] may differ a bit from solar but their low/medium resolution
+spectra match the Sun and other G2V standards better than those of
+other types.
+
+alf Cen A = GJ 559 A = HIP 71683 = HD 128620 = HR 5459
+  G0: HD
   G1: Luyten79(LHS)
-  G0: HD 
+ *G2V: Woods55,Garrison96,Houk75(Garrison),Ayres76,Kamper78,Garrison96,Gray06
   G4V: Adams35
 
   There are surprisingly few published classifications for Alf Cen A.
-  Good agreement on G2V. The star is slightly hotter and more
-  metal-rich than the Sun. Among 21 published Teffs in the Soubiran10
-  catalog, the median Teff = 5793K, i.e. only ~20K hotter than
-  Sun. Among 20 published metallicities in the Soubiran10 catalog, the
-  median [Fe/H] is 0.21 (rms ~ 0.06 dex, sem = 0.01 dex).
+  Good agreement on G2V. Garrison96 lists alf Cen A as the only other
+  very bright star besides the Sun (among the brightest ~300 stars
+  with V<3.55mag) to be classified G2V. The star is negligble hotter
+  but more metal-rich than the Sun. PASTEL compilation (queried
+  5/18/2017) has mean Teff = 5786+-14 K(N=22), [Fe/H] =
+  0.22+-0.01(N=18), logg=4.32+-0.01(N=18). Recent values with small
+  uncertainties are provided by Heiter15: Teff=5792+-16K,
+  logg=4.31+-0.01. So this is basically a metal-rich solar "twin",
+  with solar Teff (within uncertainties), and slightly lower surface
+  gravity. Bessell83
+  (http://articles.adsabs.harvard.edu/full/1983PASP...95..480B) quotes
+  V(A) = 0.003, B-V(A)=0.633, V-R(A)=0.362, R-I(A)=0.331,
+  V-I(A)=0.639. There is suprisingly some debate on the parallax for
+  the alf Cen system at the ~few mas level: Pourbaix16:
+  743+-1.3mas(Pourbaix16).  Angular diameter:
+  tet_LD(A)=8.502+-0.038mas(0.43% unc.; Kervella17). For
+  plx=747.17+-0.61mas, Kervella19 derives R_A=1.2234+-0.0053 Rsun, but
+  with Pourbaix16 plx I get slightly larger: 1.2303Rsun.
+  fbol(A)=(27.16+-0.27)e-9 W/m2 (Boyajian13) => mbol=-0.082+-0.011(IAU2015)
+  => BCv = mbol - V = (-0.082+-0.011)-(0.003) = -0.085.
+
+HD 217014 = HR 8729 = 51 Peg
+  G0: Cannon
+ *G2V: Bidelman85,Gray01,Gray06(G2V+),1957ArA.....2...55O 
+  G2IV: Keenan89(stan)
+  G2.5IVa: Keenan80
+  G3V: Gray03
+  G4V: Stebbins57
+  G5V: Cowley79,Jaschek78(Harlan70)
+
+  Famous planet host, whose evolutionary status I recalled discussed
+  in an IAU circular after the planet was found in 1995.  Basically a
+  metal-rich G2V star with nearly identical Teff to Sun, and
+  spectroscopic logg consistent with dwarf.  V=5.456+-0.004(Hauck97),
+  V=5.45(HIP), V=5.467+-0.020(Mermilliod91),
+  B-V=0.665+-0.012(Mermilliod91), B-V=0.666+-0.007(HIP),
+  U-B=0.233+-0.028(Mermilliod91), V-Ic=0.69+-0.01(HIP). Revised HIP
+  data => Mv=4.48, so 0.41 mag above MS.  Temperature types are in
+  G0-G5 range. Clearly a dwarf, only considered subgiant by
+  Keenan89. PASTEL median values: <Teff> = 5773K (N=33),
+  <[Fe/H]>=+0.19(N=33), <logg>=4.33(N=37), i.e.. 2MASS JH poor but
+  good flag=A for Ks: Ks=3.911+-0.021(2MASS,q=A).
+
+
+# Other Stars
 
 Morgan65 did not classify any Hyads as G2V.
+  
+HR 4523 = HD 102365 = HIP 57443 = GJ 442A = LHS 311 
+  G2V: Gray06
+  G2.5III: Keenan00
+ *G3V: Keenan89(non-stan)
+  G3/5V: Houk82
+  G4V: Adams35
+  G5V: Evans57
+  G6: Bidelman85
+
+  Remarkably poor agreement on spectral type, perhaps due to being
+  somewhat metal poor ([Fe/H] ~ -0.3). Gray06 classifies it as G2V,
+  but it appears to be ~150K cooler than Sun. Strangely, Keenan89
+  lists it as non-standard star of G3V, but then the 'final' version
+  of Keenan's table posted after his passing
+  (http://www.astronomy.ohio-state.edu/MKCool/mkcat.html) lists it as
+  "G2.5III" (which it had to be obvious that this high pm star at 9pc
+  was not a giant?). Reported to have an exoplanet HD102365b
+  (Tinney11). Has M4V companion 23" away
+  (Henry02). V=4.890+-0.011(Mermilliod91),
+  B-V=0.665+-0.005(Mermilliod91), U-B=0.100+-0.000(Mermilliod91).  plx
+  = 107.6210+-0.1636 mas(GaiaDR2) => Mv = 5.049+-0.011 mag, so clearly
+  on the main sequence and not a giant as classified by Keenan89.  The
+  color and absolute magnitude suggest that the star is just a tad
+  cooler and dimmer than the Sun. PASTEL published values: <Teff> =
+  5623K(N=18), <[Fe/H]> = -0.29(N=13), <logg> = 4.46(N=13).
+
+HR 7569 = HD 187923
+  G0V: Harlan69
+ *G2V: Roman55
+  G3: Bidelman85
+
+  Only listed it as it was one of the coolest evolved stars (logg<4.1)
+  in CATSUP, after the thin disk star 70 Vir and thick disk star HR
+  173(HD 3795).  Still assessing whether this is very old thin disk or
+  thick disk, but I think from the combination of kinematics and
+  abundances that it is likely to be a "hamr" star (Adebakian13) or
+  'intermediate disc' star (Fuhrmann17)?  PASTEL: <Teff> =
+  5706K(N=14), <logg>=4.05(N=8), <[Fe/H]>=-0.125(N=10). Isaacson10:
+  logR'HK=-5.0150, 1.08 mag above MS, Age:
+  8.1(6.8-10.1)Gyr(Valenit05), 9.60(9.04-10.20)Gyr(Takeda07),
+  8.8(8.2-9.5)Gyr(Brewer16), 10.20(6.19-10.95)Gyr(Casagrande11),
+  10.30(6.77-11.09)Gyr(Casagrande11#2), 8.52Gyr(Luck17/Bertelli94),
+  9.00Gyr(Luck17#2/Dotter08), 11.38Gyr(Luck17#3/BASTI),
+  9.63Gyr(Luck17/average), 10.9(10.0-11.8)Gyr(Holmberg09).
+  [Mg/Fe]=0.216(Borkova05,Cenarro09), [a/Fe]=0.14(Casagrande11),
+  [a/Fe]=0.22(Lee11), [a/Fe]=0.121,0.131(Lee11#2).  Using xHIP UVW,
+  and Bensby14, I estimate P(thin)=90.8%, P(thick)=8.9%,
+  P(halo)=3e-3%, P(Hercules)=0.32%.
+
+HD 9986
+ *G2V: Gray03
+  G5V: Harlan70
+
+  Gray03 considered the star a 'solar twin'.
+
+HD 145825
+  G1V: Houk82
+ *G2V: Gray06
+  G3V: Torres06
+
+HD 195564 = HR 7845
+ *G2V: Abt85,Gray03
+  G2.5IV: Keenan80,Keenan89
+  G3V: Adams35
+
+HD 196141
+ *G2V: Gray06,Torres06
+  G3V: Houk78
+
+HD 20619
+  G1.5V: Keenan89
+  G2V: Wilson50,Gray03
+
+HD 38858
+ *G2V: Gray03,Harlan81
+  G4V: Wilson50
+  G4IV-V: 1966ZfA....64..269A
+
+HD 88084
+ *G2V: Schild71,Gray06
+
+HD 136352 = HR 5699 = nu02 Lup
+  G2V: Evans57,Bidelman85(G2)
+ *G2-V: Gray06
+  G3/5V: Houk78
+  G5: Moore32
+
+  Bright(V=5.7), nearby G dwarf. High velocity, may be thick disk.  3
+  exoplanets discovered via RV with HARPS (Mayor11), and then shown to
+  be transiting (Kane20,Delrez21).
+
+
+
+
+

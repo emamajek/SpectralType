@@ -15,23 +15,31 @@ the median B-V color of the G7Vs in the Gray et al. papers.
 
 Houk does not treat G7 as a full type.
 
+(B-V)(G7V) = 0.742 ; median SIMBAD G7V d<25pc (N=4)
 (B-V)(G7V) = 0.737 (+-0.023 sem,+-0.040 stdev); 3 ARICNS G7V stars
 <B-V>(G7V) =  0.73  ; Fitzgerald70
 <B-V>(G7V) = 0.728 ; 6 HIP d<75pc (+-0.015 sem, +-0.032 stdev)
+(B-V)(G7V) = 0.72 ; exemplar HD 131156 = Xi Boo A
+(B-V)(G7V) = 0.714 ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1)
+(B-V)(G7V) = 0.713 ; interp G5V(B-V=0.68),G8V(B-V=0.73)
 (B-V)(G7V) =  0.71  ; KenyonHartmann95
 <B-V>(G7V) = 0.709 ; 33 Gray01/03/06 G7V (+-0.005 sem, +-0.030 stdev)
-(B-V)(G7V) = 0.703 ; well-agreed upon (but non-stan.) G7V star HD 111395 
-=> adopt (B-V)(G7V)  = 0.713***
-=> adopt (U-B)(G7V)  = 0.243
-=> adopt (V-I)(G7V)  = 0.766
-=> adopt (V-R)(G7V)  = 0.393
-=> adopt (R-I)(G7V)  = 0.373
-=> adopt (V-J)(G7V)  = 1.304
-=> adopt (V-H)(G7V)  = 1.632
-=> adopt (V-Ks)(G7V) = 1.712
-=> adopt (H-Ks)(G7V) = 0.080
-=> adopt (J-H)(G7V)  = 0.329
-=> adopt (K-W1)(G7V) = 0.028
+(B-V)(G7V) = 0.705 ; median CATSUP d<30pc (N=8)
+(B-V)(G7V) = 0.703 ; exemplar HD 111395
+(B-V)(G7V) = 0.684 ; exemplar HD 24206
+=> adopt (B-V)(G7V)  = 0.710*** [last updated 8/29/2019]
+=> adopt (U-B)(G7V)  = 0.237
+=> adopt (V-I)(G7V)  = 0.764
+=> adopt (V-R)(G7V)  = 0.391
+=> adopt (R-I)(G7V)  = 0.372
+=> adopt (V-J)(G7V)  = 1.299
+=> adopt (V-H)(G7V)  = 1.626
+=> adopt (H-Ks)(G7V) = 0.079
+=> adopt (J-H)(G7V)  = 0.327
+
+(V-Ks)(G7V) =  1.683 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.710
+(V-Ks)(G7V) = 1.705 ; MS trend for B-V=0.710
+=> adopt (V-Ks)(G7V) = 1.705 [updated 6/5/2021]
 
 Gray01/03/06 list 33 nearby G7V stars. Median HIP colors:
 <B-V>(G7V) = 0.709 (+-0.005 sem, +-0.030 stdev; N=33)
@@ -52,38 +60,104 @@ and within 1 mag of the MS (N=6):
 
 (U-B)(G7V)   = 0.224 ; HIP d<75pc S/N>8 G7V N=8 (Mermilliod91 photometry)
 
+(Ks-W1)(G7V) = 0.064 ; EEM trend for d<30pc for B-V=0.710
+=> adopt (Ks-W1)(G7V) = 0.064 [updated 12/29/2019]
+
+(Bp-Rp)(G7V) =  0.8691  ; HD_24206
+(Bp-Rp)(G7V) = 0.87     ; Bp-G=0.38, G-Rp=0.49 
+(Bp-Rp)(G7V) =  0.8719  ; HD_111395
+(Bp-Rp)(G7V) =  0.884   ; color trend for B-V=0.71
+(Bp-Rp)(G7V) =  0.8880  ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1) [Gaia EDR3]
+(Bp-Rp)(G7V) =  0.9128  ; HD_131156
+(Bp-Rp)(G7V) =  0.929   ; Evans18 trend for V-I= 0.764
+=> adopt (Bp-Rp)(G7V) = 0.87 [updated 11/22/2020]
+
+(Bp-G)(G7V) =  0.3559  ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1)
+(Bp-G)(G7V) =  0.370   ; color trend for B-V=0.71
+(Bp-G)(G7V) =  0.3739  ; HD_24206
+(Bp-G)(G7V) = 0.38     ; Bp-Rp=0.87, G-Rp=0.49
+(Bp-G)(G7V) =  0.3806  ; HD_111395
+(Bp-G)(G7V) =  0.4547  ; HD_131156
+=> adopt (Bp-G)(G7V) = 0.38 [updated 11/22/2020]
+
+(G-Rp)(G7V) =  0.4581  ; HD_131156
+(G-Rp)(G7V) = 0.49     ; Bp-Rp=0.87, Bp-G=0.38
+(G-Rp)(G7V) =  0.4913  ; HD_111395
+(G-Rp)(G7V) =  0.4953  ; HD_24206
+(G-Rp)(G7V) =  0.515   ; color trend for B-V=0.71
+(G-Rp)(G7V) =  0.5320  ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1)
+=> adopt (G-Rp)(G7V) = 0.49 [updated 11/22/2020]
+
+(G-V)(G7V) =   -0.260 ; HD 105631 PM* G7V
+(G-V)(G7V) =  -0.223 ; HD 122676 PM* G7V
+(G-V)(G7V) =  -0.195 ; HD 61033 PM* G7V(e)
+(G-V)(G7V) =  -0.194 ; HD 24206 PM* G7V
+(G-V)(G7V) = -0.194 ; G dwarf trend for G7V
+(G-V)(G7V) =  -0.193 ; * alf Men G7V
+(G-V)(G7V) =  -0.187 ; * ksi Boo G7Ve
+(G-V)(G7V) =  -0.180 ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1) [GaiaEDR3]
+(G-V)(G7V) =  -0.180 ; HD 32778 PM* G7VFe-1.4CH-1.2
+(G-V)(G7V) =  -0.177 ; HD 128674 PM* G7V
+(G-V)(G7V) =  -0.172 ; HD 24496 PM* G7V
+(G-V)(G7V) =   -0.079 ; HD 28255B PM* G7V
+=> adopt (G-V)(G7V) = -0.194 [updated 11/1/2020]
+
+(g-r)(G7V) = 0.519 ; Jordi06 (V-R)=>(g-r) for V-R=0.391
+(g-r)(G7V) = 0.543 ; Covey07 interp G5V-G8V
+(g-r)(G7V) = 0.546 ; Bilir05 (B-V)=>(g-r) for B-V=0.710
+=> adopt (g-r)(G7V) = 0.54 [updated 10/10/2020]
+
 Teff(G7V) =  5432 K ; Boyajian12
 Teff(G7V) =  5480 K ; GrayCorbally09
 Teff(G7V) = 5509 K ; Napiwotzki93 Teff calibration for B-V=0.713
-Teff(G7V) = 5517 K ; mean photometric Teff (checked 12/5/2012)
 Teff(G7V) =  5523 K ; GrayCorbally94 interp. (G5V-G8V)
 Teff(G7V) = 5533 K ; median Teff for 86 published Teffs for G7V stars (EEM)
+Teff(G7V) = 5542 K ; Teff from smoothed SpT(Teff) trend
+Teff(G7V) = 5545 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for B-V=0.72
+Teff(G7V) = 5548 K ; Teff(B-V=0.71) interp G5V-G8V
 Teff(G7V) = 5561 K ; Casagrande10 Teff calibration for B-V=0.713
+Teff(G7V) = 5587 K ; exemplar HD 43834 = HR 2261 = alf Men ([Fe/H] ~ +0.1)
 Teff(G7V) = 5589 K ; Biazzo07 Teff calibration for B-V=0.713
-Teff(G7V) =  5637 K ; candidate standard HD 111395 median Teff
-=> adopt Teff(G7V) = 5530 K (logT = 3.743)
+Teff(G7V) = 5636 K ; exemplar HD 111395 (see  below)
+Teff(G7V) = 5663 K ; exemplar HD 24206 (see below)
+=> adopt Teff(G7V) = 5550 K (logT = 3.744) [updated 8/29/2019]
 
-BCv(G7V) = -0.123 mag ; EEM fit to Casagrande06/08/10 (Teff=5520K)
-BCv(G7V) = -0.121 mag ; Flower96(Teff=5520K)
-BCv(G7V) = -0.121 mag ; Bertone04(Teff=5520,ATLAS)
-BCv(G7V) = -0.117 mag ; Masana06(Teff=5520K)
-BCv(G7V) = -0.108 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5520K)
-=> adopt BCv(G7V) = -0.121 mag (+-0.006 rms)
+BCv(G7V) = -0.132 mag ; EEM fit to Casagrande06/08/10 (Teff=5550K)
+BCv(G7V) = -0.132 mag ; Bertone04(Teff=5550K,ATLAS)
+BCv(G7V) = -0.130 mag ; Flower96(Teff=5550K)
+BCv(G7V) = -0.126 mag ; Masana06(Teff=5550K)
+BCv(G7V) = -0.121 mag ; Casagrande18(Teff=5550K,logg=4.5)
+BCv(G7V) = -0.120 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5550K)
+=> adopt BCv(G7V) = -0.125 mag [last updated 8/29/2019, on scale where BCv(5772K)=-0.085]
 
-Mv(G7V)  = 5.5  mag ; GrayCorbally09
-Mv(G7V)  = 5.18 mag ; B-V=0.713 => Mv(Wright05)
-Mv(G7V)  = 4.83 mag ; Wegner07
-=> adopt Mv(G7V) = 5.18 mag 
+Mv(G7V)  =  5.58 mag ; exemplar HD 131156 = Xi Boo A 
+Mv(G7V)  =   5.5  mag ; GrayCorbally09
+Mv(G7V)  = 5.30 mag ; median SIMBAD G7V d<25pc (N=4)
+Mv(G7V)  = 5.20 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=0.710
+Mv(G7V)  =  5.19 mag ; exemplar HD 24206
+Mv(G7V)  = 5.17 mag ; B-V=0.720 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(G7V)  = 5.16 mag ; B-V=0.720 => Mv(Wright05)
+Mv(G7V)  = 5.15 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.71
+Mv(G7V)  =  5.12 mag ; median XHIP G7V d<20pc 
+Mv(G7V)  =  5.15 mag ; exemplar HD 111395
+Mv(G7V)  =  5.03 mag ; exemplar HD 43834 = HR 2261 = alf Men 
+Mv(G7V)  =   4.83 mag ; Wegner07
+=> adopt Mv(G7V)   = 5.20 mag  [updated 9/26/2019]
+=> adopt M_G(G7V)  = 5.006 mag [updated 12/10/2020] (Mv=5.2, G-V=-0.194)
+=> adopt M_Ks(G7V) = 3.495 mag [updated 12/30/2020] (Mv=5.2, V-Ks=1.705)
 
-logL(G7V) = -0.122 dex ; Mv=5.18, BCv=-0.12 => Mbol = 5.060
-=> adopt logL(G7V) = -0.12 dex
-=> adopt Mbol(G7V) =  5.06 mag
+logL(G7V) = -0.134 dex ; Mv=5.2, BCv=-0.125 => Mbol = 5.075
+=> adopt logL(G7V) = -0.134 dex [last updated 9/26/2019] 
+=> adopt Mbol(G7V) =  5.075 mag [last updated 9/26/2019]
 
-Mass(G7V) = 1.06 Msun ; EEM Teff vs. Mass fit for binaries (Teff=5520K)
-Mass(G7V) = 0.96 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.18)
-Mass(G7V) = 0.955 Msun ; Eker15 calibration for logL=-0.12
-Mass(G7V) = 0.95 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.13)
-=> adopt Mass(G7V) = 0.96 Msun
+Rad(G7V) = 0.927 Rsun ; logL=-0.134, Teff=5550K
+=> adopt Rad(G7V) = 0.927 Rsun [updated 9/26/2019]
+
+Mass(G7V) = 0.955 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.2)
+Mass(G7V) = 0.950 Msun ; Eker15 ML calibration for logL=-0.134
+Mass(G7V) = 0.950 Msun ; Eker18 ML calibration for logL=-0.134
+Mass(G7V) = 0.946 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.134)
+=> adopt Mass(G7V) = 0.95 Msun [updated 10/23/2019]
 
 
 # No Standards
@@ -92,13 +166,12 @@ JM53, Wilson62, Morgan65, MK73, Houk75, KeenanMcNeil76, Keenan85,
 Corbally86, Keenan99, GrayNstars do not list a G7V standard. Skiff08
 does not flag any stars as G7V MK standards.
 
-# Candidate Standard?
+# Exemplar
 
-HD 111395 = HIP 62523 (J1248+2450): 
- *G7V: Morgan53,Stebbins56,Jaschek64(all),Jaschek78(Morgan53),Kennedy83(all),Gray03
+HD 111395 = HIP 62523 (J1248+2450):
+  G5V: Cannon(G5),Harlan70,Schild73
   G6V: Adams35
-  G5: Cannon
-  G5V: Harlan70,Schild73
+ *G7V: Morgan53,Stebbins56,Jaschek64(all),Jaschek78(Morgan53),Kennedy83(all),Gray03
   K1IV: Keenan40
 
   Not considered a standard star in the literature, however it is at
@@ -106,10 +179,67 @@ HD 111395 = HIP 62523 (J1248+2450):
   (even if the star was not listed amongst Keenan's compilations of
   standards). Morgan53 lists only one G7V star: HD
   111395. V=6.29(HIP), Vmag=6.31(Johnson66), B-V=0.70(Johnson66),
-  B-V=0.703+-0.002(HIP), U-B=0.25(Johnson66). PASTEL catalog
-  (Soubiran05) lists 6 Teffs: <Teff> = 5637 +- 12 K (s.e.median), and
-  5 [Fe/H]: <[Fe/H]> = +0.107 +- 0.010 (s.e.median), so only slightly
-  higher Z than solar.
+  B-V=0.703+-0.002(HIP), U-B=0.25(Johnson66). PASTEL mean parameters:
+  Teff=5636+-11K, [Fe/H]=0.104+-0.007, logg=4.54+-0.03.
+
+HD 24206 = HIP 18097
+  G5V: Adams35
+ *G7V: Gray03
+  G8V: 1927MeUpp..28....1L
+
+  Picked this star as it is nearby (d<30pc) G7V (modern type by Gray)
+  of solarish metallicity (closest to solar among CATSUP d<30pc
+  stars).  WDS lists it as a 0.1" binary of equal magnitude (OCC 838),
+  but I see no evidence from published RV or astrometric data that
+  this is a tight stellar binary, and absolute magnitude places it
+  right on the main sequence?  V=7.57(HIP), B-V=0.684+-0.002(HIP),
+  V-I=0.74+-0.00(HIP), J = 6.320+-0.026(2MASS), H =
+  5.971+-0.018(2MASS), Ks=5.918+-0.021(2MASS), V-Ks =
+  1.652(HIP,2MASS), PASTEL: <Teff> = 5663K(N=4),
+  logg=4.50+-0.20(N=1;Mishenina04), [Fe/H]=-0.08+-0.10(N=1;
+  Mishenina04). CATSUP lists [Fe/H] = -0.04+-0.04.  plx =
+  33.4459+-0.0432(GaiaDR2) => Mv = 5.19+-0.01.
+
+HD 131156 = Xi Boo A = HR 5544 = GJ 566 (J1451+1906)
+  G5: Adams35(G5V),Bidelman85,1955ApJ...121..337S(G5e)
+  G6+V: Keenan41
+ *G7V: Levato78(G7Ve),Gray03
+  G8V: MK43(stan),JM53,Wilson62(stan,JM53),Houk,Abt81
+  K0V: Morgan38
+ 
+  B-V=0.733+-0.005 (CCDM Tycho=>Johnson photometry, EEM). As Gray's
+  more recent classifications are more reliant on Keenan's 1980s-era
+  standards, it appears that Gray03 considers Xi Boo A to be ~1
+  subtype earlier than 61 UMa. As 61 UMa is an anchor standard that
+  has survived from MK1943 through Keenan's 1980s works, we keep 61
+  UMa as the primary G8V standard, and now consider Xi Boo A to be
+  deprecated. PASTEL medians: <Teff>=5500K(N=20), [Fe/H]=-0.15(N=18),
+  <logg>=4.54(N=17). Ramirez13 provides accurate values with small
+  uncertainties: Teff=5458+-73K, logg=4.54+-0.03, [Fe/H]=-0.15+-0.05.
+  Binary with K5V companion B (sep~5"): Mermilliod91 lists
+  V(A)=4.720+-0.000, B-V(A)=0.720+-0.000, V(B)=6.947+-0.029,
+  B-V(B)=1.104+-0.083. GaiaDR2 lists parallaxes for A
+  (148.5195+-0.2436mas) and B(148.2131+-0.0464mas).  Mv(A)=5.58.
+
+HD 43834 = HR 2261 = alf Men = GJ 231
+  G5V: Evans57(Gliese91)
+  G6V: Moore32(G6),Houk75,Hoffleit91
+ *G7V: Gray06
+  G9V: 1943HarCi.449....1H
+
+  Well studied nearby asteroseismology target (Chontos20:
+  https://arxiv.org/abs/2012.10797), and binary with M dwarf companion
+  3" away (mag1=5.09, mag2=10.1).  Chontos20: M(A) = 0.964+-0.045
+  Msun, R(A)=0.960+-0.016Rsun, Teff=5569+-62K, age =
+  6.2+-1.4(stat)+-0.6(syst) Gyr, Activity cycle period 13.1+-1.1 yr.
+  PASTEL: <Teff> = 5587K(N=17), <logg>=4.47(N=15), <[Fe/H]> =
+  +0.105(N=15).  V=5.08(HIP), V=5.08+-0.01(Mermilliod91),
+  B-V=0.714+-0.015(HIP), B-V=0.720+-0.000(Mermilliod91),
+  V-I=0.75+-0.02(HIP), U-B=0.324+-0.008(Mermilliod91). Gaia EDR3:
+  plx=97.9158+-0.0573mas.  G(cor)=4.900(Vizier).
+  Mv=5.034+-0.01(Mermilliod91,GaiaEDR3), M_G=4.854(GaiaEDR3,corr).
+  G - V = 4.900 - 5.08 = -0.18. 
+
 
 # Other Stars
 
@@ -121,13 +251,9 @@ Skiff08 has HD stars with multiple G7V classifications: HD 107760,
 HD 107760 = BD+74 493
   G7V: Keenan53,Roman55
   G3e+G9/K0e: Greenstein57
+  
   Spectroscopic binary G3e+G9/K0e (Greenstein57) with joint type G7V
 
-HD 131156 = Xi Boo A = HR 5544 = GJ 566
-  G8V: MK43,Roman49,JM53,Wilson57,Jaschek64(all),Houk,Abt81
-  G7V: Gray03
-  G5: Cannon,Struve55(G5e)
-  G8V standard
 
 HD 190067: 
   G8V: Wilson62,Kennedy83(Harlan81)
@@ -137,4 +263,23 @@ HD 190067:
 HD 223498
   G7V: Adams35,Roman55
   G5V: Nassau47,Houk99
+
+HD 201247B
+  G7V: Gray06(G7V(k)), Torres06(G7V)
+  F: Houk75
+  
+  4" binary, primary is G5V. Teff: 5570+-80K(Casagrande11) - only one
+  in PASTEL.
+
+HD 13531 = V451 And
+ *G7V: Gray03
+  G0V: Montes01
+  G0: HD type
+
+  Active star, Period = 7.52 day, logR'HK=-4.497 (Gray03).  VSX
+  reports amplitude of 0.03 mag. Montes01 considers part of Castor
+  (group is likely unphysical). V=7.35(HIP), B-V=0.700+-0.015(HIP),
+  V-I=0.75+-0.01(HIP), J=6.067+-0.019, H=5.749+-0.018(2MASS),
+  Ks=5.665+-0.018(2MASS), V-Ks = 7.35 - 5.665 = 1.685.  Teff =
+  5621+-44K(Marsden14)
 

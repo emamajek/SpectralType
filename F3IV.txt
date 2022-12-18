@@ -5,21 +5,42 @@ MorganAbt72 standard: HR 8071 (=HD 200723) - F3IV
 Cowley76 standard:    HR 8071 - F3IV
 GrayNstars standard:  HR 1566 - F3IV
 
-For Hipparcos stars within 75pc with parallax S/N > 8 (N=):
-<B-V>( stdev)
-<V-I>( stdev)
-<V-J>( stdev)
-<V-H>( stdev)
-<V-Ks>( stdev)
-<J-H>( stdev)
-<H-K>( stdev)
+(B-V)(F3IV) = 0.371(+-0.010 sem,+-0.037 stdev) ; SIMBAD median F3IV d<75pc,V<6.5(N=9)
+(B-V)(F3IV) = 0.376 ; ter. stan. HD 200723 = HR 8071 
+(B-V)(F3IV) = 0.391 ; exemplar HD 153229 = HR 6302
+=> adopt (B-V)(F3IV) = 0.37 [updated 2/3/2022]
+
+Mv(F3IV) = 1.20 ; ter. stan. HD 200723 = HR 8071 
+Mv(F3IV) = 1.9  ; GrayCorbally09
+Mv(F3IV) = 2.50(+-0.12 sem,+-0.38 stdev) ; SIMBAD median F3IV d<75pc,V<6.5(N=9)
+Mv(F3IV) = 2.97 ; exemplar HD 153229 = HR 6302 (0.1 mag above MS!)
+[all the F3IVs in SIMBAD at d<75pc have 2.02 < Mv < 2.88]
 
 # No standard
 
 There are no F3IV standards in JM53, MK73, Cowley74,Houk88, Garcia89, nor
 anchor points in Garrison94.
 
-# Weak Standards
+# Tertiary Standard
+
+HD 200723 = HR 8071 = HIP 103963
+  F0V: Adams35
+  F2: Cannon
+  F2III: Wilson60,Gray01
+  F2IV: 1969RGOB..155...21J
+ *F3IV: Morgan72(stan.),Cowley76(standard),Grenier99
+  F5III: Harlan74
+
+  Called tertiary standard since did not appear as a standard in the
+  main compilations, and even Morgan himself did not include in
+  e.g. JM53, MK73, MK78, and Gray and Garrison did not repeat as
+  standards later.  Gray disagrees with Morgan on temp and lum
+  subtype.  V=6.34(HIP), B-V=0.390+-0.006(HIP), V-Ic=0.46+-0.01(HIP).
+  E(B-V)=0.0069+-0.0024(Stassun19/TICv8), E(B-V)=0.014(Kervella19) =>
+  Av ~ 0.04.  (B-V)o = 0.390 - 0.014 = 0.376.  plx=9.5265+-0.0171mas
+  (GaiaEDR3) => Mv=1.20, ~1.80 mag above MS.
+
+# Deprecated Standards
 
 HD 31236 = HR 1566 = Cl Melotte 25 126 (J0454+1929)
   F3IV: Cowley76
@@ -27,6 +48,7 @@ HD 31236 = HR 1566 = Cl Melotte 25 126 (J0454+1929)
   F1V(n): Gray01 
   F1V: Abt95
   F0: Cannon
+  
   Emailed R. Gray regarding this star -- Nstars webpage lists it 
   as F3IV, but it is F0 or F1 in most other papers. 
   
@@ -35,11 +57,22 @@ HR 2811 = HD 57749
   F0: Cannon
   F2III: Houk99,Wilson52
 
-HR 8071 = HD 200723 
-  F3IV: Jaschek78(Morgan72(stan.)),Cowley76(standard),Grenier99
-  F5III: Harlan74
-  F2: Cannon
-  F2III: Gray01
-  Using revised HIP data, I find that the star is 1.66 mag above MS
-  (Mv=1.42), B-V=0.39. Gray disagrees with Morgan on temp and lum subtype. 
+# Exemplars
+
+HD 153229 = HR 6302 = HIP 83090 
+ *F3IV: Malaroda75,GrayGarrison89
+  F3V: Cowley76
+
+  V=6.48(HIP), B-V=0.391+-0.005(HIP), V-Ic=0.46+-0.01(HIP).
+  plx=19.8570+-0.0250mas(GaiaEDR3) => Mv=2.97 => 0.12 mag above MS.
+
+# Other Stars
+
+HD 96202 = HR 4314
+  F1: 1932PLicO..18....1M	
+ *F3IV: Malaroda75,Abt81
+  F3IV/V: Houk8
+  F4IV: 1953AnHar.119....1H
+  F4V: Adams35
+
 

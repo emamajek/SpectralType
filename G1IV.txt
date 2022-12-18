@@ -20,15 +20,63 @@ Among Gray03 and Gray06 stars within 40 pc:
 B-V(G1IV) = 0.653 (+-0.020 sem, +-0.028 stdev; N=2)
 V-I(G1IV) = 0.715 (+-0.015 sem, +-0.021 stdev; N=2)
 
+(B-V)(G1V) = 0.642 ; exemplar mu Cnc = HD 67228
+(B-V)(G1V) = 0.651 ; poly fit to FGK subgiant standards & exemplars
+=> adopt (B-V)(G1V) = 0.65 [updated 1/28/2022]
 
-# Weak Standard
+Mv(G1IV) = 2.9   ; GrayCorbally09 
+Mv(G1IV) = 2.95  ; quadratic trend G0IV-K2IV standards+exemplars (for G1IV)
+Mv(G1IV) = 3.434 ; exemplar G1IVb mu Cnc = HD 67228
+Mv(G1IV) = 3.46  ; exemplar G1IV bet Hyi = HD 2151 
+=> Mv(G1IV) = 2.95 [updated 1/28/2022]
 
-Zet Her
-   G0IV: MK43,Keenan80,Keenan89,Barry70(G0IVb,uv metals weak),Stephenson69
+Teff(G1IV) = 5766 K ; deprecated stan. zet Her
+Teff(G1IV) = 5790 K ; halfway between G0IV (5950K) & G2IV (5620K) Teffs
+Teff(G1IV) = 5824 K ; exemplar mu Cnc = HD 67228 
+Teff(G1IV) = 5848 K ; exemplar bet Hyi 
+=> adopt Teff(G1IV) = 5790 K [last updated 7/15/2017]
+
+# Deprecated Standard
+
+zet Her = HD 150680 = HR 6212 
+  *G0IV: Maury1897,MK43,Stephenson69,Barry70(G0IVb,uv metals weak),Keenan80,Keenan89(stan),
+   G0:   Bidelman85
+   G0V:  Adams35
    G2IV: Gray01
-   G1IV: MK73,Abt81(standard)
-   G3IV: Houk88
+   G1IV: MK73(dagger),Abt81(standard)
+   G3IV: Houk88(lists as G1IV standard, but calls G3IV)
    F9IV+G7V: Edwards76
-   G0: Cannon
-   1.5" binary
-   This star was also adopted as a G3IV standard by Houk!
+
+   1.5" binary. This star is what gives spectral types a bad name.
+   Struve54 calls companion K0V. PASTEL lists 15 published Teff
+   values: <Teff> = 5766 K.  11 published [Fe/H] values: <[Fe/H]> =
+   0.01.
+
+# Exemplars
+
+bet Hyi = HD 2151 = HR 98 = HIP 2021 
+  F9V: Gray89
+  G0:  Cannon18(HD standard)
+  G0V: Gray06
+ *G1IV: 1937AnHar.105...45H,Woods55,Houk75(Garrison)
+  G2IV: Evans57
+
+  Appears to be slightly metal poor, definitely evolved with most
+  authors publishing logg ~ 4.0. B-V=2.82(HIP), B-V=0.618+-0.008(HIP),
+  V-I=0.68+-0.02(HIP). plx=134.07+-0.11(HIP2) => Mv=3.457 (1.13 mag
+  above MS).  PASTEL compendium: <Teff> = 5848K(N=26),
+  <logg>=3.997(N=21), [Fe/H]=-0.125(N=22).  Best: Jofre14:
+  Teff=5873+-45K, logg=3.98+-0.02, [Fe/H]=-0.04+-0.01.  Ramirez13:
+  Teff=5819+-54K, logg=3.95+-0.02, [Fe/H]=-0.13+-0.05.  VOSA v7.0 SED
+  fitting with Av=0 and logg=4.0: BT-Settl-AGSS2009 model Teff=5900K,
+  Lum=3.473+-0.052Lsun, logL=+0.5407+-0.0065, [M/H]=+0.5.
+
+mu Cnc = HD 67228 = mu02 Cnc = HR 3176 = HIP 39780 = 10 Cnc 
+ *G1IVb: Keenan80,Keenan89
+  G2IV: MK43,Gray03
+  G2IV-V: Harlan69
+  G3V: Adams35
+
+  V=5.30(HIP), B-V=0.642+-0.005(HIP), V-I=0.71+-0.00(HIP).
+  plx=41.9916+-0.0841mas(GaiaEDR3) => Mv=3.416.  PASTEL:
+  <Teff>=5824K(N=18), <logg>=3.97(N=12), <[Fe/H]>=+0.14(N=13).

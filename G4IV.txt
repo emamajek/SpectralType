@@ -1,6 +1,8 @@
 G4IV
 
 There appears to be no good normal G4IV standards. 24 UMa is weird.
+There aren't stars with default type G4IV in SIMBAD within 50 pc, so this subtype
+is exceedingly rarre. 
 
 MK73 standard:       24 UMa (= HR 3771) - G4III-IV.
 GrayNstars standard: 24 UMa (= HR 3771) - G4IV
@@ -9,11 +11,21 @@ Among Gray03 and Gray06 stars within 40 pc (only HIP 64408):
 B-V(G4IV) = 0.693 (N=1)
 V-I(G4IV) = 0.730 (N=2)
 
+(B-V)(G4IV) = 0.751 ; poly fit to FGK subgiant standards & exemplars
+=> adopt (B-V)(G4IV) = 0.75 [updated 1/28/2022]
+
+Mv(G4IV) = 3.08  ; quadratic trend G0IV-K2IV standards+exemplars (for G4IV)
+Mv(G4IV) = 3.1   ; GrayCorbally09 
+=> adopt Mv(G4IV) = 3.08 [updated 1/28/2022]
+
+Teff(G4IV) = 5567 K ; interp between G2IV (5620K) and G5IV (5540K)
+=> adopt Teff(G4IV) = 5570 K [last updated 5/15/2017]
+
 # No standards
 
 JM53, Houk88, and Keenan89 do not list a G4IV standard.
 
-# Weak Standard
+# Deprecated Standard
 
 24 UMa = DK UMa = HD 82210 = HR 3771 (J0934+6949; V=4.6) 
   *G9V_Fe-0.7: Gray03
@@ -33,4 +45,5 @@ JM53, Houk88, and Keenan89 do not list a G4IV standard.
    variable period in GCVS with period 0.92 day. X-ray bright (Lx=
    10^29.9 erg/s) and Vsini = 4.9 km/s (Maggio+90). GrayNstars lists
    it as a G4IV standard, but Gray03 lists G9V_Fe-0.7.  Probably not
-   recommended for use as a standard.
+   recommended for use as a standard. PASTEL values: <Teff> = 5281K
+   (N=2), <[Fe/H]> = -0.34 (N=1; 1990ApJS...74.1075M).

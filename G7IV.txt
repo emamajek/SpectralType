@@ -2,24 +2,80 @@ G7IV
 
 JM53, MK73, and Houk88 do not list a G7IV standard.
 
-Keenan89 lists HD 20618 as a G7IV standard, plus a variant: HD 182572
-(G7IV Hdel1).
+Keenan89 lists HD 20618 as a G7IV standard, plus a variant: HD 182572 (G7IV Hdel1).
 
-For primary standard 59 Ari (nearby and unreddened star):
-B-V = 0.860+-0.015
-V-I = 0.880+-0.040 
+There are no G7IV stars in the Gray03 and Gray06 surveys. SIMBAD has
+only 3 G7IV stars within 75 pc: 59 Ari(B-V=0.856,Mv=1.86), 55
+Vir(B-V=0.87,Mv=2.45), HD 140901(B-V=0.72, Mv=5.09)
 
-There are no G7IV stars in the Gray03 and Gray06 surveys. 
+(B-V)(G7IV) = 0.761 ; var. stan. HD 182572 = 31 Aql
+(B-V)(G7IV) = 0.814 ; poly fit to FGK subgiant standards & exemplars
+(B-V)(G7IV) = 0.86  ; pri. stan. HD 20618 = 59 Ari
+(B-V)(G7IV) = 0.862 ; exemplar HD 114946 = 55 Vir
+=> adopt (B-V)(G7IV) = 0.82 [updated 1/28/2022] (note: wide dispersion)
 
-# Standard
-HD 20618 = HR 995 = 59 Ari  (J0319+2704)
-  G6IV: GrayNstars
-  G7IV: Keenan89(stan)
-  G8IV: Jaschek78(Harlan69)
+(V-Ic)(G7IV) = 0.88 ; pri. stan. HD 20618 = 59 Ari
+
+Teff(G7IV) = 5615 K ; variant stan. 31 Aql (very metal-rich)
+
+Mv(G7IV) =  1.85 ; pri. stan. HD 20618 = 59 Ari
+Mv(G7IV) =  2.45 ; exemplar 55_Vir_ plx=26.73 mas
+Mv(G7IV) =   3.08 ; quadratic trend G0IV-K2IV standards+exemplars (for G7IV)
+Mv(G7IV) =   3.2  ; GrayCorbally09 
+Mv(G7IV) =   4.30 ; var. stan. HD 182572 = 31 Aql
+=> adopt Mv(G7IV) = 3.08 [updated 1/28/2022]
+
+# Primary Standard
+
+HD 20618 = HR 995 = 59 Ari = HR 995 = HIP 15514
   G5IV: Adams35
   G5: Cannon
-  GrayNstars website lists 59 Ari as "G6IV" standard, however no
-  one else has classified the star as this subtype. 
-  Parallax=15.88mas(63 pc; should be unreddened).
-  B-V=0.860+-0.015(HIP), V-I=0.88+-0.04(HIP), 
-  saturated in 2MASS. 
+  G6IV: GrayNstars
+ *G7IV: Keenan89(stan)
+  G8IV: Jaschek78(Harlan69)
+  
+  GrayNstars website lists 59 Ari as "G6IV" standard, however no one
+  else has classified the star as this subtype. Not a great string of
+  use, but best available. No PASTEL Teffs or [Fe/H].
+  Parallax=15.88mas(63 pc; should be unreddened).  V=5.91(HIP),
+  B-V=0.860+-0.015(HIP), V-I=0.88+-0.04(HIP), saturated in 2MASS.
+  plx=15.3970+-0.0621mas(GaiaDR2) => Mv=1.85.
+
+# Variant Standard
+
+HD 182572 = 31 Aql = HR 7373  (V=5.2)
+  K0IV: Keenan41
+  G8IV Hdel1: Keenan80
+  G8IV-V: Schmitt71
+  G8IV: Roman52(CN strong),Keenan55("some strong lines"), Roman55
+ *G7IV Hdel1: Keenan89(stan)
+  G7V: Adams35
+  G6: Bidelman85
+  G5III: 1966ArA.....3..501L
+  G5V: Lindblad22
+
+  4 Keenan classifications, all different - settled on G7IV Hdel1.
+  V=5.17(HIP), B-V=0.761+-0.018(HIP),
+  V-I=0.75+-0.07(HIP). plx=67.0153+-0.0657mas(GaiaEDR3) => Mv=4.30.
+  PASTEL: <Teff> = 5615 K (N=30), <[Fe/H]> = 0.39 (N=18).
+
+# Exemplar
+
+HD 114946 = 55 Vir = HIP 64577 
+  G6V: Adams35
+ *G7IV: Keenan89(non-stan)
+  G8IV: Henry00
+  G9IV: Gray06
+  
+  V=5.31(HIP), B-V=0.862+-0.018(HIP), V-I=0.91+-0.02(HIP).
+  plx=26.7289+-0.1418mas(GaiaDR2) => Mv=2.45.
+
+# Other Stars
+
+psi Cnc = HR 3191 = HD 67767 = HIP 40023
+  G6IV/V: Adams35
+  G7V: Cowley79
+  G8IV: Harlan69
+
+  Adopt G7IV? Mv=2.65, delta(Mv)=-3.15, clearly evolved. 
+

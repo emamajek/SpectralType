@@ -1,20 +1,29 @@
 G2.5V
 
-Keenan80 standard: 70 Vir (=HD 117176) - G2.5Va (but later G4V in Keenan88!)
-Keenan83 standard: psi Ser (=HD 140538) - G2.5V 
+Keenan80 standard: 70 Vir (=HD 117176)   - G2.5Va (but later G4V in Keenan88!)
+Keenan83 standard: psi Ser (=HD 140538)  - G2.5V 
 	           16 Cyg B (=HD 186427= "16 Cyg fol") - G2.5V
-Keenan88 standard: 9 Cet (=HD 1835) - G2.5V
-                   psi Ser (HD 140538) - G2.5V
-                   58 Eri (=HD 30495) - G2.5IV-V
-Keenan89 standard: 9 Cet (=HD 1835) - G2.5V
-                   psi Ser (HD 140538) - G2.5V
+Keenan85 standard: zet^1 Ret (=HD 20766) - G2.5V Fe 1 hdel 1
+                   58 Eri (=HD 30495)    - G2.5V
+		   psi Ser (=HD 140538)  - G2.5V
+Keenan88 standard: 9 Cet (=HD 1835)      - G2.5V
+                   psi Ser (HD 140538)   - G2.5V
+                   58 Eri (=HD 30495)    - G2.5IV-V
+Keenan89 standard: 9 Cet (=HD 1835)      - G2.5V
+                   psi Ser (HD 140538)   - G2.5V
                    zet^1 Ret (=HD 20766) - G2.5V Hdel1
-                   58 Eri (=HD 30495) - G2.5IV-V
+                   58 Eri (=HD 30495)    - G2.5IV-V
+
+Teff(G2.5V) = 5739 K ; Teff from smoothed SpT(Teff) trend
+=> adopt Teff(G2.5V) = 5740 K (logTeff = 3.759) [updated 10/27/2017]
+
+BCv(G2.5V) = -0.086 [last updated 8/3/2018, on scale where BCv(5772K)=-0.08]
                 
 # Standard
 
 HD 1835 = 9 Cet = BE Cet = HR 88 = GJ 17.3 = GJ 9012
-  G2.5V: Keenan88(stan),Keenan99
+  G2V: Keenan85
+  G2.5V: Keenan88(stan),Keenan89,Keenan99
   G2V m+0.25: Gray89
   G5V CH-0.5: Gray06
 
@@ -22,7 +31,7 @@ HD 1835 = 9 Cet = BE Cet = HR 88 = GJ 17.3 = GJ 9012
   Probably not a good standard. 
 
 HD 140538 = psi Ser = HR 5853
-  G2.5V: Keenan88
+  G2.5V: Keenan85,Keenan88
 
   No Teff estimates
 
@@ -61,8 +70,10 @@ HD 186427 = 16_Cyg_B = HR 7504 = GJ 765.1B (J1941+5031)
 # Variant
 
 HD 20766 = zet^1 Ret = HR 1006
-  G2.5V H delta1 : Keenan99
+  G2.5V Fe1 Hdel1 : Keenan85
+ *G2.5V H delta1 : Keenan99
 
-HD 30495 = 58 Eri 
-  G2.5V-IV: Keenan88(stan)
+HD 30495 = 58 Eri
+  G2.5V: Keenan85
+ *G2.5V-IV: Keenan88(stan),Keenan89
 

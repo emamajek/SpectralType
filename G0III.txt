@@ -27,6 +27,19 @@ GrayCorbally10 standard: 81 Psc (=psi^3 Psc = HR 339) - G0III
 Gray01 classifies three stars as G0III or variant: HD 6903 (G0IIIa),
 HD 72779 (G0III), and HD 111812 (G0III).
 
+(J-H)(G0III) = 0.323 ; smoothed relation from giants in Skiff compendium w/i 15 deg of NGP, 2MASS photometry AAA flags
+(J-H)(G0III) = 0.355 (+-0.018 sem, +-0.118 stdev) ; N=57 G0III from Skiff compendium w/i 15deg of NGP, 2MASS photometry AAA flags
+=> adopt (J-H)(G0III) = 0.323 [updated 10/30/2020]
+
+(H-Ks)(G0III) = 0.083 (+-0.004 sem, +-0.035 stdev) ; N=57 G0III from Skiff compendium w/i 15deg of NGP, 2MASS photometry AAA flags
+=> adopt (H-Ks)(G0III) = 0.083 [updated 10/30/2020]
+
+B-V(G0III) = 0.671 ; pri. stan. 31 Com
+B-V(G0III) = 0.697 ; pri. stan. psi03 Psc (could be slightly reddened)
+=> adopt B-V(G0III) = 0.67 [updated 10/30/2020]
+
+Mv(G0III) = 0.18 ; pri. stan. 31 Com
+
 # No standards
 
 Garrison94 does not list a G0III anchor standard. 
@@ -38,7 +51,10 @@ Garrison94 does not list a G0III anchor standard.
   G0IIIp: Turnshek85(stan),Keenan89(H & K weak)
   F8III: Bouw81
 
-  Adopt "G0III" from MK78, MK73, JM53. 
+  Adopt "G0III" from MK78, MK73, JM53. V=4.93(HIP),
+  B-V=0.681+-0.014(HIP), B-V=0.671+-0.005(Mermilliod91),
+  U-B=0.199+-0.004(Mermilliod91), V-I=0.70+-0.03(HIP). Mv=0.18,
+  delta(Mv)=-4.81mag, plx=11.22+-0.23mas; likely negligible reddened.
 
 psi^3 Psc = 81 Psc = HR 339
  *G0IIIa: Gray01
@@ -49,9 +65,11 @@ psi^3 Psc = 81 Psc = HR 339
   Considered "G0III" by nearly everyone, but F9III by Keenan89. Part
   of the nebulous F9/G0 boundary between Morgan and Keenan's works. I
   adopt "G0IIIa" from Gray01 (following Morgan/Gray/Garrison/Corbally)
-  vs. Keenan's "F9IIIa".
+  vs. Keenan's "F9IIIa". V=5.57(HIP), B-V=0.697+-0.006(HIP),
+  V-I=0.75+-0.04(HIP). plx=8.66+-0.27mas(vanLeeuwen07); can't assume
+  negligibly reddened.
 
-# Weak standard
+# Deprecated standard
 
 eps Hya = HD 74874 (J0856+0625; V=3.4)
    *G5III+A8IV: Edwards76(combined "G3III")

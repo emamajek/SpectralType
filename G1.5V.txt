@@ -7,6 +7,11 @@ Keenan80 standard:     HD 10307 - G1.5V
 Keenan83 standard:     HD 10307 - G1.5V
 		       lam Aur (=HD 34411) - G1.5IV-V Fe-1 
 		       16 Cyg A (=HD 186508= "16 Cyg prec") - G1.5Vb
+Keenan85 standard:     HD 10307 - G1.5V
+                       HD 20619 - G1.5V
+		       lam Aur (=HD 34411) - G1.5IV-V Fe-1
+		       35 Leo (=HD 89010) - G1.5IV-V
+		       16 Cyg A (=HD 186408= "16 Cyg prec") - G1.5Vb
 Keenan88 standards:    16 Cyg A (=HD 186508= "16 Cyg prec") - G1.5Vb 
                        HD 10307 - G1.5V
                        HD 53705 - G1.5V
@@ -21,26 +26,41 @@ Keenan99 standards:    HD 20619 - G1.5V
                        HD 53705 - G1.5V
 GrayNstars standard:   16 Cyg A - G1.5V
 
+Teff(G1.5V) = 5806 K ; Teff from smoothed SpT(Teff) trend
 Teff(G1.5V) = 5813 K ; stan. 16 Cyg A (Ramirez11)
 Teff(G1.5V) = 5826 K ; halfway between G2V(5772K,Sun) and G1V(5880K adopted)
 Teff(G1.5V) = 5839+-42 K ; stan. 16 Cyg A (White13, CHARA)
-=> adopt Teff(G1.5V) = 5830K 
+=> adopt Teff(G1.5V) = 5830K (logTeff= 3.866) [updated 10/27/2017]
+
+BCv(G1.5V) = -0.071 [last updated 8/3/2018, on scale where BCv(5772K)=-0.08]
 
 # Standards
 
-HD 186408 = 16 Cyg A
- *G1.5Vb: Keenan83,Keenan88,Keenan89,GrayNstars
+HD 186408 = 16 Cyg A = HR 7503 = "16 Cyg prec."
+ *G1.5Vb: Keenan89
+  G1.5V: Keenan83,Keenan85,Keenan88,GrayNstars,Gray01,Gray03
+  G2V: JM53
+  G2Vab: Barry70
+  G2.5V: Stebbins57
+  G3V: Adams35,Opolski57,Keenan80
 
-  Teffs: 
-  5813+-18K(Ramirez11), 
-  5839+-42K(White13,CHARA)
+  Has M4.5V companion C or Ab 3.2" away (TRN4; 7 mag fainter), and of
+  course 16 Cyg B 40" away.  PASTEL: <Teff> = 5793K(N=40).
+  <logg>=4.28(N=29), <[Fe/H]>=0.09(N=30). Brewer16 numbers are near middle
+  of published values here: 5778K, logg=4.28, [Fe/H]=0.09.
+  Age = 7.0+-0.3 Gyr(Judge17). 
 
 HD 10307 = HR 483 
-  G1.5V: Keenan88
+ *G1.5V: Keenan85,Keenan88
 
 HD 20619
-  G1.5V: Keenan99
+  G1.5V: Keenan85,Keenan99
 
 HD 53705 = HR 2667
   G1.5V: Keenan99
 
+HD 34411
+  G1.5IV-V Fe-1: Keenan85G
+
+HD 89010
+  G1.5IV-V: Keenan85

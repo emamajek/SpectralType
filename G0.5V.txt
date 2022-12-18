@@ -2,25 +2,33 @@ G0.5V
 
 Keenan80 standard:   HD 84737 (=HR 3881) - G0.5Va
 Keenan83 standard:   del Tri (=HD 13974) - G0.5V
-		                HD 84737 (=HR 3881) - G0.5Va
+		     HD 84737 (=HR 3881) - G0.5Va
+Keenan85 standard:   del Tri (=HD 13974) - G0.5V
+                     HD 84737 (=HR 3881) - G0.5Va
 Keenan89 standard:   del Tri (=HD 13974) - G0.5V Fe-0.5
-                                HD 84737 (=HR 3881) - G0.5Va
+                     HD 84737 (=HR 3881) - G0.5Va
 Keenan99 standards:  HD 84737 (prim. stan.) - G0.5Va
-                                 del Tri (=HD 13974) - G0.5 V Fe-0.5 (prim. stan)
+                     del Tri (=HD 13974) - G0.5 V Fe-0.5 (prim. stan)
+
+Teff(G0.5V) = 5888 K; Teff from smoothed SpT(Teff) trend
+=> adopt Teff(G0.5V) = 5890 K [updated 10/27/2017]
+
+BCv(G0.5V) = -0.063 [last updated 8/3/2018, on scale where BCv(5772K)=-0.08]
+
 
 # Primary Standards
 
 HD 84737 = HR 3881
-  G0.5Va: Keenan80,Keenan83,Keenan89,Keenan99(prim.)
+ *G0.5Va: Keenan80,Keenan83,Keenan85,Keenan89,Keenan99(prim.)
   G0V: MK43,Gray01
 
 # Variant
 
 del Tri = HR 660 = HD 13974
-  G0V: Maury1897(G0IV/V),Adams35,Keenan41,MK43,Ljunggren61,Keenan80,Bidelman85(G0),Gray01
-  G0.5V: Keenan83
-*G0.5V Fe-0.5: Keenan89
   F9V: Abt85
+  G0V: Maury1897(G0IV/V),Adams35,Keenan41,MK43,Ljunggren61,Keenan80,Bidelman85(G0),Gray01
+  G0.5V: Keenan83,Keenan85
+ *G0.5V Fe-0.5: Keenan89
 
   One of the G0V standards with the longest history and continuity,
   but Keenan89 switched subtype in his last compilation.
@@ -28,3 +36,16 @@ del Tri = HR 660 = HD 13974
   E(b-y)=0.02(Gray01). PASTEL compilation shows that most metallicity
   estimates are between [Fe/H] ~ -0.5 and -0.2, so clearly metal poor.  
   WDS shows is tight binary. 
+
+# Other Stars
+
+HD 72905 = HR 3391 = pi01 UMa = BD+65_643
+  F8: 1926MeUpp..11....1L
+  G0V: Adams35,Roman49
+ *G0.5V: Gray01
+  G1.5Vb: Barry70
+  G1V: Levato78
+  G8III: Maury1897(SKiff comments: "possibly pi.02 UMa?")
+
+  Bright(V=5.6), nearby G dwarf.
+

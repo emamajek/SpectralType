@@ -16,23 +16,42 @@ The two Gray et al. G9V stars with identical median B-I colors are HIP
 
 Keenan80 standard:  HD 158614 (=HR 6516) - G9-IV-V Hdel1
 
+(B-V)(G9V) = 0.745 ; HD 27250 Hyad (Morgan65)
+(B-V)(G9V) = 0.755 ; HD 225261 exemplar
+(B-V)(G9V) = 0.758 ; HD 27732 Hyad (Morgan65)
 <B-V>(G9V) =  0.76  ; Fitzgerald70
-(B-V)(G9V) = 0.775 ; halfway between G8V (0.737) and K0V (0.81). 
+(B-V)(G9V) = 0.767 ; HD 145958 A exemplar
+(B-V)(G9V) = 0.768 ; interp G8V(B-V=0.730),K1V(B-V=0.845)
+(B-V)(G9V) = 0.773 ; HD 82443 exemplar
+(B-V)(G9V) = 0.775 ; median CATSUP d<30pc G9Vs (N=39)
 (B-V)(G9V) =  0.775 ; Schmidt-Kaler82(halfway G8V-K0V)
-<B-V>(G9V) = 0.777 (+-0.005 sem, +-0.031 stdev); 77 Gray01/03/06 G9V 
+(B-V)(G9V) = 0.776 ; HD 4747 exemplar
+<B-V>(G9V) = 0.777 (+-0.005 sem, +-0.031 stdev); 77 Gray01/03/06 G9V
+(B-V)(G9V) = 0.780 ; HD 116442 exemplar
+(B-V)(G9V) = 0.796 ; HD 195987 exemplar
+(B-V)(G9V) = 0.799 ; HD 164922 exemplar
+(B-V)(G9V) = 0.800 ; median SIMBAD G9V d<25pc (N=20)
+(B-V)(G9V) = 0.804 ; HD 116956 exemplar
+(B-V)(G9V) = 0.810 ; HD 191499 exemplar
 <B-V>(G9V) = 0.818 (+-0.027 sem, +-0.092 stdev); 14 HIP d<75 pc G9V stars
 (B-V)(G9V) = 0.836 (+-0.036 sem, +-0.072 stdev); 7 ARICNS3 G9V stars
-=> adopt (B-V)(G9V)  = 0.777 ***
-=> adopt (U-B)(G9V)  = 0.358 
-=> adopt (V-I)(G9V)  = 0.820
-=> adopt (V-R)(G9V)  = 0.423
-=> adopt (R-I)(G9V)  = 0.396
-=> adopt (V-J)(G9V)  = 1.409
-=> adopt (V-H)(G9V)  = 1.774
-=> adopt (V-Ks)(G9V) = 1.861
+=> adopt (B-V)(G9V)  = 0.775 *** [updated 8/29/2019]
+=> adopt (U-B)(G9V)  = 0.354
+=> adopt (V-I)(G9V)  = 0.821
+=> adopt (V-R)(G9V)  = 0.424
+=> adopt (R-I)(G9V)  = 0.397
+=> adopt (V-J)(G9V)  = 1.406
+=> adopt (V-H)(G9V)  = 1.770
+=> adopt (V-Ks)(G9V) = 1.857
 => adopt (H-Ks)(G9V) = 0.087
-=> adopt (J-H)(G9V)  = 0.365
-=> adopt (K-W1)(G9V) = 0.029 
+=> adopt (J-H)(G9V)  = 0.364
+=> adopt (V-Hp)(G9V) = -0.143
+=> adopt (W1-W2)(G9V)= -0.060
+=> adopt (W1-W3)(G9V)= -0.038
+=> adopt (W1-W4)(G9V)= -0.018 [last updated 8/25/2017]
+
+
+(V-Ks)(G9V) = 1.821 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.775
 
 In the Gray01/03/06 catalogs, there are 77 nearby G9V stars. Median HIP colors:
 <B-V>(G9V) = 0.777 (+-0.005 sem, +-0.031 stdev; N=77)
@@ -51,45 +70,116 @@ and within 1 mag of the MS (N=14):
 <V-Vt>(G9V)  =-0.085 (+-0.006 sem, +-0.027 stdev; N=14) 
 <B-K>(G9V)   = 2.839 (+-0.104 sem, +-0.328 stdev; N=14)
 
+(G-V)(G9V) =  -0.232 ; * 49 Ser G9V
+(G-V)(G9V) =  -0.225 ; HD 116442 PM* G9V
+(G-V)(G9V) =  -0.220 ; * 41 Ara G9V
+(G-V)(G9V) =  -0.210 ; HD 205536 PM* G9V
+(G-V)(G9V) = -0.210 ; G dwarf trend for G9V 
+(G-V)(G9V) =  -0.208 ; HD 159062 PM* G9V_Fe-0.8
+(G-V)(G9V) =  -0.207 ; HD 12051 PM* G9V
+(G-V)(G9V) =  -0.207 ; smoothed fit for f(SpT)
+(G-V)(G9V) =  -0.205 ; polynomial fit for f(B-V)
+(G-V)(G9V) =  -0.204 ; HD 164922 PM* G9V
+(G-V)(G9V) =  -0.198 ; HD 53143 PM* G9V
+(G-V)(G9V) =  -0.180 ; HD 136923 PM* G9V
+(G-V)(G9V) =  -0.180 ; HD 139813 PM* G9V
+=> adopt (G-V)(G9V) = -0.210 [updated 11/1/2020]
+
+(Ks-W1)(G9V) = 0.067 ; EEM trend for d<30pc for B-V=0.775
+=> adopt (Ks-W1)(G9V) = 0.067 [updated 12/29/2019]
+
+(Bp-Rp)(G9V) =  0.9244  ; HD_145958_A
+(Bp-Rp)(G9V) =  0.9437  ; HD_135204
+(Bp-Rp)(G9V) = 0.95    ; Bp-G=0.42, G-Rp=0.53
+(Bp-Rp)(G9V) =  0.950   ; color trend for B-V=0.775
+(Bp-Rp)(G9V) =  0.9543  ; HD_156274
+(Bp-Rp)(G9V) =  0.9582  ; HD_4747
+(Bp-Rp)(G9V) =  0.9848  ; HD_82443
+=> adopt (Bp-Rp)(G9V) = 0.95 [updated 11/15/2020]
+
+(Bp-G)(G9V) =  0.4017  ; HD_145958_A
+(Bp-G)(G9V) =  0.404   ; color trend for B-V=0.775
+(Bp-G)(G9V) =  0.4165  ; HD_135204
+(Bp-G)(G9V) = 0.42    ; Bp-Rp=0.95, G-Rp=0.53
+(Bp-G)(G9V) =  0.4205  ; HD_4747
+(Bp-G)(G9V) =  0.4406  ; HD_82443
+(Bp-G)(G9V) =  0.4527  ; HD_156274
+=> adopt (Bp-G)(G9V) = 0.42 [updated 11/15/2020]
+
+(G-Rp)(G9V) =  0.5016  ; HD_156274
+(G-Rp)(G9V) =  0.5227  ; HD_145958_A
+(G-Rp)(G9V) =  0.5273  ; HD_135204
+(G-Rp)(G9V) = 0.53    ; Bp-Rp=0.95, Bp-G=0.42 
+(G-Rp)(G9V) =  0.5377  ; HD_4747
+(G-Rp)(G9V) =  0.5441  ; HD_82443
+(G-Rp)(G9V) =  0.545   ; color trend for B-V=0.775
+=> adopt (G-Rp)(G9V) = 0.53 [updated 11/15/2020]
+
 (U-B)(G9V)   = 0.379 ; HIP d<75pc S/N>8 G9V N=14 (Mermilliod91 photometry)
 
-Teff(G9V) = 5280 K  ; Ramirez05 Teff calibration for B-V=0.777
-Teff(G9V) = 5323 K  ; Napiwotzki93 Teff calibration for B-V=0.777
-Teff(G9V) = 5334 K  ; mean photometric Teff (checked 12/5/2012)
+(g-r)(G9V) = 0.572 ; Jordi06 (V-R)=>(g-r) for V-R=0.424
+(g-r)(G9V) = 0.595 ; Covey07 interp G8V-K0V
+(g-r)(G9V) = 0.619 ; Bilir05 (B-V)=>(g-r) for B-V=0.775
+=> adopt (g-r)(G9V) = 0.60 [updated 10/10/2020]
+
+Teff(G9V) =  5280 K ; Ramirez05 Teff calibration for B-V=0.777
+Teff(G9V) = 5300 K  ; exemplar HD 82443 
+Teff(G9V) =  5323 K ; Napiwotzki93 Teff calibration for B-V=0.777
 Teff(G9V) = 5335 K  ; median Teff for 163 published Teffs for G9V stars (EEM)
+Teff(G9V) = 5340 K  ; mean photometric Teff (checked 8/25/2017)
 Teff(G9V) =  5350 K ; GrayCorbally09
 Teff(G9V) = 5364 +- 21 K ; Pecaut13 (GJ 764)
 Teff(G9V) =  5365 K ; GrayCorbally94 halfway between G8V and K0V
 Teff(G9V) = 5382 K  ; Casagrande10 Teff calibration for B-V=0.777
+Teff(G9V) = 5387 K  ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for B-V=0.775
+Teff(G9V) = 5390 K  ; exemplar HD 4747 
 Teff(G9V) =  5393 K ; halfway between G8V and K0V median Teffs
 Teff(G9V) = 5395 K  ; Pecaut13 (GJ 75)
+Teff(G9V) = 5405 K  ; Teff from smoothed SpT(Teff) trend
 Teff(G9V) =  5410 K ; Schmidt-Kaler82 halfway between G8V-K0V
+Teff(G9V) = 5413 K  ; exemplar HD 135204 
 Teff(G9V) =  5414 K ; Boyajian12
-Teff(G9V) = 5426 K  ; Biazzo07 Teff calibration for B-V=0.777
-=> adopt Teff(G9V) = 5340 K (logT = 3.72754)
+Teff(G9V) =  5426 K  ; Biazzo07 Teff calibration for B-V=0.777
+=> adopt Teff(G9V) = 5380 K (logT = 3.731) [updated 8/29/2019]
 
-BCv(G9V) = -0.180 mag ; EEM fit to Casagrande06/08/10 (Teff=5340K)
-BCv(G9V) = -0.172 mag ; Flower96(Teff=5340K)
-BCv(G9V) = -0.165 mag ; Masana06(Teff=5340K)
-BCv(G9V) = -0.157 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5340K)
-BCv(G9V) = -0.154 mag ; Bertone04(Teff=5340K,ATLAS)
-=> adopt BCv(G9V) = -0.165 mag (+-0.01 rms)
+BCv(G9V) = -0.181 mag ; EEM fit to Casagrande06/08/10 (Teff=5380K)
+BCv(G9V) = -0.174 mag ; Flower96(Teff=5380K)
+BCv(G9V) = -0.168 mag ; Masana06(Teff=5380K)
+BCv(G9V) = -0.161 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5380K)
+BCv(G9V) = -0.160 mag ; Bertone04(Teff=5380K,ATLAS)
+BCv(G9V) = -0.159 mag ; Casagrande18(Teff=5380K,logg=4.5)
+=> adopt BCv(G9V) = -0.160 mag [last updated 8/29/2019, on scale where BCv(5772K)=-0.085]
 
-Mv(G9V)  = 5.7  mag ; GrayCorbally09
-Mv(G9V)  = 5.7  mag ; Schmidt-Kaler82(halfway G8V-K0V)
-Mv(G9V)  = 5.55 mag ; B-V=0.777 => Mv(Wright05)
-Mv(G9V)  = 5.14 mag ; Wegner07
-=> adopt Mv(G9V) = 5.55 mag 
+Mv(G9V)  =  6.17 mag ; exemplar HD 135204 A & B
+Mv(G9V)  =  5.83 mag ; exemplar HR 6416 A = HD 156274
+Mv(G9V)  =  5.79 mag ; exemplar HD 4747
+Mv(G9V)  =  5.79 mag ; median XHIP G9V d<20pc
+Mv(G9V)  =  5.72 mag ; exemplar HD 82443
+Mv(G9V)  =   5.7  mag ; GrayCorbally09
+Mv(G9V)  =   5.7  mag ; Schmidt-Kaler82(halfway G8V-K0V)
+Mv(G9V)  =  5.59 mag ; B-V=0.775 => CATSUP trend for d<30pc dwarfs
+Mv(G9V)  =  5.54 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=0.775
+Mv(G9V)  =  5.53 mag ; B-V=0.775 => Mv(Wright05)
+Mv(G9V)  = 5.51 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.775
+Mv(G9V)  =  5.51 mag ; B-V=0.775 => EEM fit to SIMBAD dwarfs d<25pc 
+Mv(G9V)  =  5.51 mag ; median SIMBAD G9V d<25pc (N=20)
+Mv(G9V)  =   5.14 mag ; Wegner07
+=> adopt Mv(G9V)   = 5.55  mag [updated 9/26/2019]
+=> adopt M_G(G9V)  = 5.34  mag [updated 12/10/2020] (Mv=5.55, G-V=-0.21)
+=> adopt M_Ks(G9V) = 3.693 mag [updated 12/30/2020] (Mv=5.55, V-Ks=1.857)
 
-logL(G9V) = -0.252 dex ; Mv=5.55, BCv=-0.165 => Mbol = 5.385
-=> adopt logL(G9V) = -0.252 dex
-=> adopt Mbol(G9V) =  5.385 mag 
+logL(G9V) = -0.260 dex ; Mv=5.55, BCv=-0.160 => Mbol = 5.390
+=> adopt logL(G9V) = -0.260 dex [updated 9/26/2019]
+=> adopt Mbol(G9V) =  5.390 mag [updated 9/26/2019]
 
-Mass(G9V) = 1.00 Msun ; EEM Teff vs. Mass fit for binaries (Teff=5340K)
-Mass(G9V) = 0.91 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.55)
-Mass(G9V) = 0.898 Msun ; Eker15 calibration for logL=-0.252
-Mass(G9V) = 0.89 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.26)
-=> adopt Mass(G9V) = 0.90 Msun
+Rad(G9V) = 0.853 Rsun ; Teff=5380K, logL=-0.26
+=> adopt Rad(G9V) = 0.853 Rsun [updated 8/29/2019]
+
+Mass(G9V) = 0.912 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.55)
+Mass(G9V) = 0.904 Msun ; Eker18 calibration for logL=-0.260
+Mass(G9V) = 0.895 Msun ; Eker15 calibration for logL=-0.260
+Mass(G9V) = 0.893 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.260)
+=> adopt Mass(G9V) = 0.90 Msun [updated 10/23/2019]
 
 # No standards
 
@@ -103,7 +193,7 @@ JM53, Wilson62, Morgan65, Houk75, KeenanMcNeil76, Keenan85,
 Corbally86, and GrayNstars do not have a G9V standard.  Skiff08 did
 not flag any stars as G9V MK standards.
 
-# Weak Standards
+# Deprecated Standards
 
 HD 18907: 
   G9:V: Keenan89,Keenan99
@@ -114,59 +204,234 @@ HD 18907:
   star appears to be inappropriate for use as a standard for pop I
   stars.
 
-# Candidate Standards?
+# Exemplars
 
-HD 29231 = HIP 21327 
- *G9V: Gray06
-  G8V: Houk82,Gliese91
+HD 82443 = DX Leo = GJ 354.1 A = GJ 9301 A = HIP 46843 = WDS J09327+2659A
+ *G9V: Adams35,1953UppAn...3h....W,Gray03(G9V(k))
+  K0V: Henry95
+  K1V(k): Gray06
+
+  65" binary (LDS 3903) with M5.5V star B. Star is chromospherically
+  active star in Mt. Wilson survey, and discussed extensively in
+  Henry95(1995AJ....110.2926H, Sec. 6.16). Henry95 tabulates published
+  photometry - with V ranging from V=6.98(Sturch72) to
+  V=7.032(Rufener76), B-V=0.77(Argue63) to 0.776(Sturch72), and
+  U-B=0.33(Argue63) to 0.347(Sturch72).  Prot =
+  5.43+-0.03day(Henry95), V-mag amplitudes varied from 0.03 to 0.08
+  mag over 4 seasons (average Vamp=0.06mag). Messina99
+  (1999A&A...347..249M) also wrote separate paper on the star's
+  activity, and reported activity cycle of 3.89yr.  The star's youth
+  is supported by strong Li absorption (EW(Li6707) = 200+-12 mA;
+  Bischoff20).  V=7.001+-0.014(Mermilliod91),
+  B-V=0.773+-0.005(Mermilliod91), U-B=0.336+-0.009(Mermilliod91).
+  PASTEL median values: <Teff>=5300K(N=5), logg=4.45(N=5),
+  [Fe/H]=-0.12(N=5).  plx = 55.3165+-0.0595mas(GaiaDR2), G=
+  6.8312+-0.0020, Bp=7.2718+-0.0073, Rp=6.2870+-0.0075, E(BR/RP)=1.192
+  (negligible excess), Bp-Rp=0.9848, Bp-G=0.4406, G-Rp=0.5441. G-V =
+  6.8312 - 7.001 = -0.1698.  Mv =
+  5.715+-0.014(Mermilliod91,GaiaDR2). Additional comments: Average RV
+  = 8.25+-0.07 km/s (Henry95). Sapozhnikov20 uses Gaia DR2 astrometry
+  to estimate separation(AB) = 65.01" = 1175.3 au, 3D separation
+  4045.9 au. The difference in proper motion between A and B
+  translates to a difference in velocity of only 0.338 km/s. Kral17
+  lists it as a debris disk star with L_IR/L* = 5.10e-5.  Ages:
+  51.9+-23.1 Myr (Tetzlaff11), 250+-50 Myr (Meshkat17). Variously
+  called member of Local Association (Montes01). See notes on HD
+  82443B in M5.5V.txt.
+
+HD 4747 = GJ 36
+  G7V: Adams35
+  G8/K0V: Houk88
+ *G9V: Gray06,Bidelman85(G9),Yoss79
+  K0V: Wilson62
+
+  Good agreement between Gray06, Bidelman85, Houk88, Yoss79.
+  B-V=0.776+-0.009(Mermilliod91), V=7.158+-0.009(Mermilliod91),
+  U-B=0.308+-0.044(Mermilliod91). PASTEL median values: <Teff>=5390K
+  (N=5), logg=4.56(N=2), [Fe/H]=-0.215(N=2). Mv=5.79. 
+
+HD 145958 A
+ *G9V: Abt81,Bidelman85(G9),Gray03
+  K0V: Adams35,Struve55(K0)
+
+  4" pair with HD 145958 B, classified G8+V by Gray03 or G9V by Abt81.
+  So Abt81 considered the pair to have identical spectral types G9V.
+  Mermilliod91 photometry is for unresolved pair: B-V=0.763+-0.005.
+  Tycho photometry for A is consistent with B-V=0.767+-0.013.
+  Mv(AB)=4.82.
+
+41 Ara A = HR 6416 A = HD 156274 = GJ 666 A = LHS 444 = HIP 84720  (V=5.5)
+  G8V: Evans57
+  G8/K0V: Houk78, BSC/Hoffleit91("G8-K0V")
+ *G9V: Corbally84
+  K0V: 1943HarCi.449....1H,Bidelman85(K0)
+
+  Brighter of 10.6" pair (B is ~M0V).  V=5.557+-0.033(Mermilliod91),
+  B-V=0.777+-0.005(Mermilliod91), U-B=0.357+-0.005(Mermilliod91).
+  GaiaDR2 parallaxes of 120.1791+-0.4767mas(A), 113.8158 0.1227mas(B).
+  plx = 113.61 0.69mas(HIP2). Mv=5.834+-0.036(Mermilliod91,HIP2).
+
+HD 135204 = LHS 393 
+  G8V: Adams35,Keenan53,Abt81
+  G8/K0V: Houk99
+ *G9V: Gray03
+  K0V: Roman55,Cowley67,Bidelman85(K0)
+
+  WDS lists it as equal brightness 0.1" binary (mag1=mag2=7.4).
+  PASTEL: <Teff>=5413K(N=10), <logg>=4.335(N=6), <[Fe/H]>=-0.11(N=7).
+  V=6.601+-0.012(Mermilliod91), B-V=0.767+-0.010(Mermilliod91).  For
+  delta(V)=0.0, V(A)=V(B)=7.35. plx=57.9400+-0.0584mas(GaiaDR2) =>
+  Mv(A)=Mv(B)=6.17.
+
+# Other Stars
+
+HD 195987
+ *G9V: Adams35,Roman55,Gray03
+  K0V: Malmquist60,Ljunggren61,Bidelman85(K0)
+  K0IV: Yoss61
+
+  Nearly evenly split, and may be best considered a "G9.5V",
+  consistent with the slightly redder B-V compared to the other G9Vs.
+  V=7.08(HIP), B-V=0.796+-0.007(HIP).
+
+HD 27250
+  G7: Wilson48
+  G8: Wilson62
+ *G9V: Morgan65
+
+  One of two Morgan65 Hyads classified G9V. B-V=0.745(HIP), whereas
+  B-V(G8V)=0.75 and B-V(K0V)=0.83.
+
+HD 27732
+  G7: Wilson48
+  G8: Wilson62
+ *G9V: Morgan65
+
+  One of two Morgan65 Hyads classified G9V. B-V=0.758(HIP), whereas
+  B-V(G8V)=0.75 and B-V(K0V)=0.83. Mv=5.33. 
+
+HD 29231 = HIP 21327
   G5: Cannon
+  G8V: Houk82,Gliese91
+ *G9V: Gray06
 
   Tied for median B-I color among Gray01/03/06 G9V stars. 
   Gray06 lists [M/H]=0.04,logg=4.42, Teff=5353. dMv=-0.17 mag. 
   So a fairly normal G9V dwarf. J0434-3539 (southern)
 
-HD 42250 = HIP 29761 
- *G9V: Gray03
+HD 42250 = HIP 29761
+  G5: Cannon
   G7V: Adams35
-  G5: Cannon 
+ *G9V: Gray03
 
   Tied for median B-I color among Gray01/03/06 G9V stars. 
   Gray03 lists [M/H]=0.10,logg=4.35, Teff=5367. dMv=-0.16 mag. 
   So a fairly normal G9V dwarf. J0616+7047 (northern)
-  Latham02 lists as SB1, but Nidever02 lists as RV rms < 100 m/s. 
+  Latham02 lists as SB1, but Nidever02 lists as RV rms < 100 m/s.
 
-HD 4747 = GJ 36
- *G9V: Gray06, Bidelman85(G9), Yoss79
-  G8/K0V: Houk88
-  K0V: Wilson62
-  G2V: Adams35
+HD 79096 = 81 Cnc = pi01 Cnc = BD+15 2003 = GJ 337 
+  G5IV: 2000AbaOB..75...93C
+  G7V: Adams35
+ *G8V: Harlan69,Cowley79,Abt81,Bidelman85(G8)
+  G9V: Cowley69,Gray03
+  K0V: Nassau55
 
-  Good agreement between Gray06, Bidelman85, Houk88, Yoss79. 
+  6th brightest "G9V" in Bright Star Catalog, but probably the only
+  real dwarf among them. WDS 0.2" equal brightness SB2 binary whose
+  glorious history is told in Griffin82^2 (1982Obs...102..217G;
+  P=984+-7d, estimates masses 1.0 and 0.9 Msun).  Orbit has semi-major
+  axis 0.126" but was split with "eyepiece interferometer" by
+  Finsen59. 43" pair with L8+T0 brown dwarf binary GJ 337CD = 2MASS
+  J09121469+1459396.  Mv=4.95(xHIP). V=6.500+-0.013(Mermilliod91),
+  V(A)=7.20(WDS), V(B)=7.20(WDS), B-V=0.731+-0.006(Mermilliod91). For
+  delta(V)=0.0(WDS) => V(A)=V(B)=7.25.
+  plx=49.1493+-0.3467mas(GaiaDR2) => Mv(A)=Mv(B)=5.71+-0.02.
 
-# Other Stars
+HD 116442
+  *G9V: Gray03, Abt08
+   K0: Struve55
 
-Morgan65 classified 2 Hyads as G9V: HD 27250 (B-V=0.745) & 27732.
+   Just two classifications as G9V. V=7.060(Mermilliod91),
+   B-V=0.780(Mermilliod91), U-B=0.380(Mermilliod91).  Pair with HD
+   116443 (26" away), which is K2V (Gray03) or K1V (Abt08).
+
+HD 164922
+   G8V: Wilson62,Abt04
+  *G9V: Abt81,Gray03
+   K0V: Adams35,Roman55,Bidelman85(K0)
+   K1V: Nassau47
+
+   V=7.015+-0.019(Mermilliod91), B-V=0.799+-0.005(Mermilliod91),
+   U-B=0.468+-0.007(Mermilliod91).
+
+HD 191499
+  *G9V: Adams35,Gray03
+   K0V: Lindblad34,1953UppAn...3h....W, 
+
+   V=7.560+-0.063(Mermilliod91), B-V=0.810+-0.018(Mermilliod91).
 
 HD 225261 = HIP 400
-  G9V: Gray03,Jaschek78(Yoss61)
+ *G9V: Gray03,Jaschek78(Yoss61)
   G5: Cannon
 
   From Skiff09, all (only 2) published MK types agree on G9V.
-  B-V = 0.755 (HIP), whereas B-V(G8V)=0.75 and B-V(K0V)=0.83. 
+  B-V=0.755(HIP), whereas B-V(G8V)=0.75 and B-V(K0V)=0.83. 
 
-HD 27250 
-  G9V: Morgan65
-  G8: Wilson62
-  G7: Wilson48
+HD 116956 = HIP 65515 
+ *G9V: Gray03
+  G9IV-V: Yoss61
 
-  Hyad. B-V=0.745 (HIP), whereas B-V(G8V)=0.75 and B-V(K0V)=0.83.
+  V=7.29(HIP), B-V=0.804+-0.011(HIP). PASTEL compendium:
+  <Teff> = 5366K(N=6), logg=4.55(N=5), [Fe/H]=0.08(N=5). 
 
-HD 27732
-  G9V: Morgan65
-  G8: Wilson62
-  G7: Wilson48 
+HR 1232 =
+  G9V: Wilson50
+ *K0/1III: Houk99
 
-  Hyad. B-V=0.758 (HIP), whereas B-V(G8V)=0.75 and B-V(K0V)=0.83. 
+  2nd brightest G9V in Bright Star Catalog (although brightest is an
+  RS CVn system), but spectroscopic loggs are consistent with giant.
+  PASTEL: <Teff>=4929K(N=4), <logg>=3.23(N=4), <[Fe/H]>=+0.06(N=4).
 
+HD 90125 = HR 4085 = HIP 50939 
+  G9V: Abt81
+  K0: Cannon
+ *K0/1III: Houk99
 
+  3rd brightest "G9V" in Bright Star Catalog, but like the brighter
+  two, also appears to be evolved (giant).  Binary or triple in WDS,
+  with closest companion B at 13.5" separation (mag=13.5).  PASTEL:
+  <Teff>=4803K(N=3), <logg>=2.93(N=2), <[Fe/H]>=-0.11(N=2).
 
+HD 156826 = HR 6439
+  G5: Cannon
+  G8V: Cowley79
+ *G8IV: Harlan74
+  G8.5IV: Buscombe95
+  G9V: Evans66
+  K0V: Houk
+
+  4th brightest "G9V" in Bright Star Catalog, but appears to be
+  evolved metal-poor star.  Faint companion 120" away in WDS (TOK
+  311).  PASTEL: <Teff>=5150K(N=5), <logg>=3.60(N=4),
+  <[Fe/H]>=-0.235(N=4).
+
+HD 54563 = HR 2692 = HIP 34608
+  G7V: Adams35(Peat64,"dG7";Abt72,"DG7";Wilson53,"dG7")
+  G8V: Harlan69
+  G9V: Cowley67(Hoffleit91)
+  "(K2V) WLS": Buscombe95
+
+  5th brightest "G9V" in Bright Star Catalog, but appears to be
+  evolved metal-poor. PASTEL: <Teff>=4960K(N=6), <logg>=3.455(N=6),
+  <[Fe/H]>=-0.40(N=6).
+
+HD 148614 = HR 6516  
+  G5V: Abt81 
+  G6: Bidelman85
+  G6V: Adams35
+  G7IV-V: Stephenson69
+  G8V: Wilson62
+  G8IV: 1966ArA.....3..501L
+  G8IV-V: Roman52,Harlan74
+  G9-IV-V_Hdel1: Keenan80,Keenan89
+  

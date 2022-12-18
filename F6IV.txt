@@ -1,17 +1,42 @@
-FF6IV
+F6IV
 
-JM53 standards:        alf Tri, 40 Leo, tet UMa - F6IV
+MK43 standard:         sig02 UMa - F6IV
+     		       tau Boo - F6IV
+		       tet Boo - F6IV
+		       gam Ser - F6IV
+		       xi Peg  - F6III-IV 
+JM53 standards:        alf Tri - F6IV
+                       40 Leo  - F6IV
+		       tet UMa - F6IV
 Morgan71 standard:     alf Tri - F6IV
 MorganAbt72 standards: alf Tri - F6IV
                        HR 4843 - F6IV
 MK73 standard:         alf Tri - F6IV
-Cowley74 standards:    alf Tri, 40 Leo - F6IV
-Cowley76 standards:    alf Tri, 40 Leo, HR 4843 - F6IV
+Cowley74 standards:    alf Tri - F6IV
+                       40 Leo  - F6IV
+Cowley76 standards:    alf Tri - F6IV
+                       40 Leo  - F6IV
+		       HR 4843 - F6IV
 GrayNstars standard:   alf Tri - F6IV
+
+(B-V)(F6IV) = 0.449 ; exemplar HD 133484 = HR 5612
+(B-V)(F6IV) = 0.469 ; poly fit to FGKIV standards & exemplars
+(B-V)(F6IV) = 0.471(+-0.016 sem,+-0.033 stdev) ; SIMBAD median F6IV d<75pc,V<6.5(N=6)
+(B-V)(F6IV) = 0.473 ; var. stan. 40 Leo = HD 89449 (F6IV-V)
+(B-V)(F6IV) = 0.488 ; pri. stan. alf Tri = HD 11443
+=> adopt (B-V)(F6IV) = 0.47 [updated 2/3/2022]
+
+Mv(F6IV) = 1.98 ; pri. stan. alf Tri = HD 11443
+Mv(F6IV) =  2.2 ; GrayCorbally09
+Mv(F6IV) = 2.29(+-0.17 sem,+-0.47 stdev) ; SIMBAD median F6IV d<75pc,V<6.5(N=6)
+Mv(F6IV) = 2.71 ; exemplar HD 133484 = HR 5612
+Mv(F6IV) = 3.16 ; var. stan. 40 Leo = HD 89449 (F6IV-V)
+
+Teff(F6IV) = 6321K ; pri. stan. alf Tri (~solar metallicity)
 
 # Primary Standard
 
-alf Tri = HR 544 = HD 11443 (J0153+2934; V=3.4)
+alf Tri = HR 544 = HD 11443 = HIP 8796 (J0153+2934; V=3.4)
  *F6IV: JM53,MK73,Cowley74(stan),Gray01,Gray03
   F7IVab: Barry70(uv metals weak)
   F5III: MK43,Abt09
@@ -20,28 +45,103 @@ alf Tri = HR 544 = HD 11443 (J0153+2934; V=3.4)
 
   Adopt "F6IV" from JM53 and MK73. Listed as F6IV standard by JM53,
   MK73, Morgan71, MorganAbt72, Cowley74, GrayNStars, Houk.
+  V=3.42(HIP), B-V=0.488+-0.009(HIP),
+  V-I=0.55+-0.03(HIP). plx=51.50+-0.23(HIP2) => Mv=1.98.
+  logg=3.91(Balachandran90), [Fe/H]=0.00(Balachandran90). Teffs:
+  6288K(Balachandran90), 6321+-57K(Blackwell98),
+  6400+-80K(Casagrande11) => Teff=6321K.
 
-# Secondary Standard 
+# Variant Standard 
 
-HD 89449 = HR 4054 = 40 Leo (J1019+1928)
+40 Leo = HD 89449 = HR 4054 = HIP 50564 (J1019+1928)
   F6IV: Jaschek78(JM53),Jaschek64(most),Cowley74(stan)
-  F6IV-V: Gray03
+ *F6IV-V: Gray03
   F6IVb: Barry70(uv metals strong)
   F6V: Roman50
   F5: Cannon
-  Very good agreement on F6 subtype. 
-  Using revised HIP data, I find the star to be 0.36 mag above
-  MS (Mv=3.13), B-V = 0.452 mag. Adequate "F6IV" standard. 
-  Only listed as a standard in JM53. 
 
-# Weak standard
+  Star is ~0.47 mag above MS for its color. 
+  V=4.79(HIP), B-V=0.452+-0.006(HIP), B-V=0.473+-0.003(TYC), V-I=0.53+-0.03(HIP).
+  plx=47.1255+-0.1679mas(GaiaEDR3) => Mv=3.16.
+  PASTEL: <Teff>=6486K(N=3), <logg>=4.13(N=3),
+  <[Fe/H]>=0.12(N=3).
+
+# Exemplars
+
+HD 133484 = HR 5612 = HIP 73637 
+  F5IV-V: Cowley79
+ *F6IV: Cowley76,Harlan81
+  
+  V=6.59(HIP), B-V=0.449+-0.005(HIP), V-Ic=0.52+-0.01(HIP).
+  plx=16.7819+-0.1221mas(GaiaEDR3) => Mv=2.71 => 0.75 mag above MS.
+  
+# Deprecated Standards
+
 HD 82328 = HR 3775 = HIP 46853 = tet UMa 
   F6IV: JM53,Slettebak55,Jaschek64(most),Abt81
   F6III-IV: Keenan53
   F6III: MK43
   F7V: Abt09
   F7IVab: Barry70
-  F5.5IV-V: Gray03
+ *F5.5IV-V: Gray03
   F8p: Cannon
+  
   Not great agreement. F5.5-F7 and III through IV in the post-JM53 literature. 
-  B-V=0.475, Mv=2.52, dMv = -1.12. So it appears to be evolved. 
+  B-V=0.475, Mv=2.52, dMv = -1.12. So it appears to be evolved.
+
+tau Boo = HD 120136 = HR 5185 = HIP 67275 
+  F6: Bidelman85
+  F6V: Adams35,Morgan38
+  F6IV: MK43,Moore50
+  F7V: J53,Cowley76,Abt81
+ *F7IV-V: Gray01
+
+HD 126660 = tet Boo = HIP 70497 = HR 5404 = GJ 549A
+  F5: Bidelman85
+  F6IV: MK43 
+  F6V: Bouigue59
+ *F7V: JM53,Barry70(uv metals vweak),Cowley76(stan),Gray01
+  F7II-III: Bouw81 (unlikely given its Mv)
+
+  Spectroscopic parameters suggest it is approximately solar and
+  dwarfish gravity.  No Houk type. VSX lists it as variable with
+  Vmax=4.02, Vmin=4.07.  11th magnitude companion B 70" away in
+  Washington Double Star catalog.  B-V(HIP)=0.497+-0.005, V=4.04(HIP),
+  V-I=0.59+-0.12(HIP).  plx=68.82+-0.14mas(HIP2) => Mv=3.23 (~0.57 mag
+  above MS).  PASTEL: <Teff> = 6280K(N=11), <logg>=4.29(N=5),
+  <[Fe/H]>=-0.02(N=5).
+
+sig02 UMa = HD 78154 = HR 3616
+  F4V: Adams35,Westerlund53
+  F5V: Moore50 
+  F6IV: MK43
+  F6V-IV: Cowley76
+  F7V: Abt81
+
+# Other Stars
+
+WASP-18 = HD 10069 
+  F6IV/V: Houk78
+ *F6V: [surface gravity and HRD position clearly show it to be dwarf]
+
+  plx= 8.0694+-0.0241mas(GaiaDR2).  Binary: CPM companion 26" away.
+  V=9.270(Mermilliod91,Cousins62), V=9.28(HIP)),
+  B-V=0.490(Mermilliod91,Cousins62).  2MASS: J=8.409+-0.018(2MASS),
+  Ks=8.131+-0.027(2MASS).  Prot=0.891369d(Oelkers18),
+  vsini=10.9+-0.7km/s(Doyle13), vsini=11.9+-1.2km/s(Torres12),
+  Mass=1.28+-0.09Msun(Doyle13),1.23+-0.08Msun(Mortier13),
+  1.37+-0.09Msun(Mortier13#2). Rad=1.29+-0.16Rsun(Doyle13).
+  Teff=6226K(Brewer16),6368+-66K(Torres12),6526+-69K(Santos13,Mortier13).
+  PASTEL: <Teff>=6400K(N=5), <logg>=4.32(N=5), <[Fe/H]>=0.14(N=5).
+  Teff is indeed typical for F6 stars.
+  E(B-V)=0.002(Kervella19,STILISM). Assuming Av=0, Mv=3.80.  Wright04
+  main sequence for B-V=0.49 => Mv=3.74, so this star is really on MS
+  (also I get Mv=3.82 for FGK trend for d<25 pc stars for this
+  B-V). This agrees with dwarf spectroscopic gravities:
+  logg=4.37+-0.03(Torres12), logg=4.32+-0.09(Doyle13),
+  logg=4.73+-0.08(Mortier13), logg=4.24+-0.17(Soto18).  Companion:
+  Gaia DR2 4931352153572401152. G=20.9168, plx=
+  9.4338+-1.5237mas(GaiaDR2) => M_G = 15.79+-0.35 (~M8.5). If you
+  adopt plx for WASP-18, then M_G = 15.45 (~M8) But colors weird:
+  Bp-Rp=1.8716, Bp-G=0.0801, G-Rp=1.7915.
+

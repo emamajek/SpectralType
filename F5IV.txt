@@ -1,7 +1,9 @@
-F5IV.txt
+F5IV
 
-There do not appear to be any good "pure" F5IV standards. 
+There do not appear to be any good "pure" F5IV standards that lasted. 
 
+MK43 standard:        alf CMi (Procyon) - F5IV
+     		      110 Her           - F5IV 
 MorganAbt72 standard: 48 Gem (HR 2706)  - F5IV
 Cowley76 standard:    48 Gem (HR 2706)  - F5IV
 MK78 standard:        48 Gem (HR 2706)  - F5III-IV 
@@ -12,38 +14,94 @@ GrayAtlas standard:   48 Gem (HR 2706)  - F5III-IV
 GrayNstars lists HR2706 as their F5IV-III CTIO, DSO, and Steward
 Obs. standard, and Procyon as their F5V-IV CTIO and DSO standard.
 
-For Hipparcos stars within 75pc with parallax S/N > 8 (N=):
-<B-V>( stdev)
-<V-I>( stdev)
-<V-J>( stdev)
-<V-H>( stdev)
-<V-Ks>( stdev)
-<J-H>( stdev)
-<H-K>( stdev)
+(B-V)(F5IV) = 0.394 ; var. stan. F5III-IV 48 Gem = HR 2706
+(B-V)(F5IV) = 0.416 ; poly fit to FGKIV standards & exemplars
+(B-V)(F5IV) = 0.428(+-0.010 sem,+-0.025 stdev) ; SIMBAD median F5IV d<75pc,V<6.5(N=12)
+(B-V)(F5IV) = 0.432 ; var. stan. F5IV-V alf CMi = Procyon = HD 61421
+=> adopt (B-V)(F5IV) = 0.43 [updated 2/3/2022]
+
+Mv(F5IV) =  0.66 ; var. stan. F5III-IV 48 Gem = HR 2706
+Mv(F5IV) = 2.1   ; GrayCorbally09
+Mv(F5IV) = 2.23(+-0.23 sem,+-0.67 stdev) ; SIMBAD median F5IV d<75pc,V<6.5(N=12)
+Mv(F5IV) =  2.67 ; var. stan. F5IV-V alf CMi = Procyon = HD 61421
+Mv(F5IV) =  2.79 ; var. stan. F5IV-V HD 162003 = psi01 Dra A 
+=> adopt Mv(F5IV) = 1.7 mag [updated 1/22/2022]
+
+<Teff>(F5IV) = 6815K ; variant stan. 48 Gem F5III-IV
+<Teff>(F5IV) = 6586K ; variant stan. alf CMi F5IV-V ([Fe/H]~0,logg=4.0)
+<Teff>(F5IV) = 6483K ; variant stan. HD 162003 = psi01 Dra A F5IV-V ([Fe/H]~0,logg=4.0)
+=> adopt <Teff>(F5IV) = 6700 K [updated 1/28/2022]
 
 # No standards
 JM53, MK73, Cowley74, and Houk88 do not list F5IV standards. 
 
-# Standards
+# Variant Standards 
 
-
-# Variant 
-
-48 Gem = HR 2706 (J0712+2408)
-  F5III-IV: MK78, Gray01
+48 Gem = HR 2706 = HIP 34819 (J0712+2408)
+ *F5III-IV: MK78,Gray01
   F5IV: Morgan72(stan)
   F4III: Wilson50
   F5III: Harlan69,Cowley76(standard)
   F4II-III: Bouw81
   F5: Cannon
-  Considered "F5IV" standard by Morgan72, but III by everyone else. 
-  I'd adopt MK78 and Gray01's "F5III-IV" 
+  
+  Considered "F5IV" standard by Morgan72, but III by everyone else.
+  I'd adopt MK78 and Gray01's "F5III-IV". PASTEL: 2 published Teffs:
+  <[Fe/H]> = 6815K. V=5.85(HIP), B-V=0.397+-0.004(HIP),
+  V-I=0.46+-0.00(HIP). plx=9.2055+-0.0769mas(GaiaEDR3).
+  E(B-V)=0.0017+-0.0035(Stassun19,panstarrs),
+  E(B-V)=0.017(Casagrande11), E(B-V)=0.003(Kervella22) => adopt
+  E(B-V)=0.003, Av=0.010. (B-V)o = 0.397 - 0.003 = 0.394. Mv=0.66
+  (2.47 mag above MS).
 
-Alf CMi = Procyon = HD 61421 = HR 2943 (J0739+0514)
+alf CMi = Procyon = HD 61421 = HR 2943 (J0739+0514)
+  F5: Cannon
   F5IV: MK43 
-  F5IV-V: JM53,MK78,Gray01,Gray03
+ *F5IV-V: JM53,MK78,Gray01,Gray03
   F5V: Cowley76
   F4V: Paunzen01
-  F5: Cannon
-  Nice thing about Procyon as a F5IV-V standard is most agree on F5 subtype.
-  Excellent "F5IV-V" standard.  
+
+  Famous fabulous F star: Nearest F-type star and brightest F star (if
+  V=-0.72 Canopus is classified A9II).  DQZ white dwarf companion
+  Procyon B is 10.34 mag fainter (V=10.80; WDS), so contributes
+  negligibly to visible/near-IR flux. Solarish metallicity and appears
+  to be just leaving the main sequence (~0.7 mag above MS). PASTEL:
+  <Teff> = 6586K(N=54), <[Fe/H]> = -0.015(N=44) <logg>=4.00(N=38).
+  V=0.40(HIP), B-V=0.432+-0.015(HIP),
+  V-I=0.49+-0.02(HIP). plx=284.56+-1.26mas(HIP2) => Mv=2.67 (0.69 mag
+  above MS).
+
+# Variant Exemplar
+
+HD 162003 = psi01 Dra A = HR 6636 = HIP 86614
+  F5/6IV: Berger62
+  F5IV: Slettebak63,Abt85
+ *F5IV-V: Slettebak55,Gray01
+  F5V: Adams35,Roman50,Cowley76
+  F6: Bidleman85
+
+  Parameters seem to be near twin of Procyon A.  V=4.57(HIP),
+  B-V=0.434+-0.004(HIP), V-Ic=0.50+-0.00(HIP).
+  plx=43.95+-0.8625mas(GaiaEDR3) => Mv=2.79 => 0.59 mag above MS.
+  PASTEL: <Teff>=6483K(N=8), <logg>=4.03(N=5), <[Fe/H]>=-0.01(N=5).
+
+# Deprecated Standards
+
+HD 173667 = 110 Her = HR 7061 = HIP 92043 = GJ 725.2 = GJ 9635
+  F3V: Adams35
+  F5V: Wilson50,Bouw81
+  F5IV: Maury1897,MK43
+  F5III: 1978A&AS...35...75C
+ *F5.5IV-V: Gray01
+  F6V: Morgan38,JM53,Cowley76(stan),Jaschek78
+  F6: Bidelman85
+  F7IVb: Barry70(uv metals wk) 
+ 
+  No Houk type. Clearly somewhat evolved as it is 0.91 mag above MS
+  with logg~4.0. B-V(HIP)=0.483, Vmag=4.19, Mv=2.79, dMv=-0.91,
+  par=52.4+-0.6 mas. PASTEL: <logg>=3.98(N=13).
+
+# Other Stars
+
+HD 206901 = kap Peg = HR 8315
+

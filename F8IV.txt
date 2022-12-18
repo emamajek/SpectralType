@@ -1,32 +1,94 @@
-FF8IV
+F8IV
 
+MK43 standard:     50 And [ups Peg] - HD 9826 - F8IV
+     		   tet Dra - F8IV 
 JM53 standard:     ups Peg (= HR 8905 = HD 220657) - F8IV
 Cowley74 standard: ups Peg (= HR 8905 = HD 220657) - F8IV
 Houk75 standard:   ups Peg (= HR 8905 = HD 220657) - F8IV (primary standard)
 Cowley76 standard: ups Peg (= HR 8905 = HD 220657) - F8IV
-MK78 standard:     HR 8732 - F3III-IV 
+MK78 standard:     HR 8732 - F3III-IV
+
+(B-V)(F8IV) = 0.518(+-0.012 sem,+-0.024 stdev) ; SIMBAD median F8IV d<75pc,V<6.5(N=5)
+(B-V)(F8IV) = 0.528 ; pri. stan. tet Dra = HD 144284 ([Fe/H]~+0.2)
+(B-V)(F8IV) = 0.537 ; poly fit to FGKIV standards & exemplars
+(B-V)(F8IV) = 0.54  ; exemplar 5 Ser = HD 136202
+(B-V)(F8IV) = 0.582 ; variant standard F8III-IV HD 217096 = HR 8732 
+=> adopt (B-V)(F8IV) = 0.53 [updated 1/28/2022]
+
+Teff(F8IV) = 6163K ; pri. stan. tet Dra = HD 144284 ([Fe/H]~+0.2)
+
+Mv(F8IV) = 1.94 ; variant stan. HD 217096 = HR 8732
+Mv(F8IV) = 2.21 ; 10_Ari_A (1 of 5 SIMBAD F8IVs w/i 75pc)
+Mv(F8IV) = 2.24 ; HD 57006 (1 of 5 SIMBAD F8IVs w/i 75pc)
+Mv(F8IV) = 2.30 ; HD 138525 (1 of 5 SIMBAD F8IVs w/i 75pc)
+Mv(F8IV) = 2.40 ; pri. stan. tet Dra = HD 144284 ([Fe/H]~+0.2)
+Mv(F8IV) =  2.4 ; GrayCorbally09
+[gap]
+Mv(F8IV) = 3.04 ; exemplar 5 Ser = HD 136202
+Mv(F8IV) = 3.59 ; HD 47415 (1 of 5 SIMBAD F8IVs w/i 75pc)
+Mv(F8IV) = 3.73 ; HD 45588 (1 of 5 SIMBAD F8IVs w/i 75pc)
+=> adopt Mv(F8IV) = 2.4 [updated 2/3/2022] 
 
 # No Standard
 
 MorganAbt72 and MK73 do not list a F8IV standard.
 
-# Standard
+# Primary Standard
 
-HD 220657 = HR 8905 = HIP 115623 = ups Peg (J2325+2324, V=4.4)
-  F8III: MK43,MK78,Gray01
+tet Dra = HD 144284 = HR 5986 = HIP 78527 
+  F7V: Cowley76
+  F7IV/V: Adams35
+  F8: Bidelman85
+  F8III: Keenan41
+ *F8IV: MK43
+  F8IV-V: JM53
+  F9V: Abt09
+
+  Not a terribly strong pedigree for a standard, but reasonably good
+  agreement on F8 subtype, and it is clearly too luminous to be a
+  dwarf and too dim to be a giant, so... subgiant (original
+  MorganKeenan43 type seems right). VSX lists variability from TESS:
+  P=3.07d, ellipsoid variable?  V=4.01(HIP), B-V=0.528+-0.013(HIP),
+  V-I=0.55+-0.03(HIP).  plx=47.54+-0.12mas(HIP2) => Mv=2.40 (1.60 mag
+  above MS).  PASTEL: logg=4.13(Balachandran90), logg=3.79(Luck17),
+  <Teff>=6163K(N=10), <[Fe/H]>=+0.20(N=3).  Precise IRFM Teff from
+  Blackwell98: Teff=6138+-31K.
+
+# Deprecated Standard
+
+ups Peg = HD 220657 = HR 8905 = HIP 115623 = 50 And (J2325+2324, V=4.4)
+ *F8III: MK43(50 And),MK78,Gray01
   F8IV: Cowley74(stan),Cowley76(stan),Houk88(JM53),Jaschek64(most),Jaschek78(JM53)
   G0: Cannon
   G0IV: Barry70(uv metals weak)
-  B-V=0.617, Mv=0.83, dMv=-3.75. 
+
+  Clearly too luminous to be dwarf or subgiant; giant seems appropriate. 
   Gone from F8III (MK43) => F8IV (JM53) => F8III (MK78,Gray01).
-  F8-something, probably "F8III" is most appropriate. 
+  B-V=0.617, Mv=0.83, dMv=-3.75.
 
-# Variant
+# Variant Standard
 
-HR 8732 
-  F8III-IV: MK78,Gray89
+HD 217096 = HR 8732 = HIP 8732
+  F7V: Houk82
+ *F8III-IV: MK78,Gray89
   F8IV-V: Malaroda75
   G3IV: Evans64
-  Probably OK to adopt MK78 and Gray89's "F8III-IV"
+    
+  V=6.15(HIP), B-V=0.582+-0.006(HIP), V-Ic=0.62+-0.07(HIP).
+  plx=14.4047+-0.0266mas(GaiaEDR3) => Mv=1.94. 2.41 mag above MS. 
+  
+# Exemplars 
 
+5 Ser = HD 136202 = HR 5694 = LHS 3059 = HIP 74975
+  F6V: Adams35
+  F8: Bidelman85
+  F8III-IV: Keenan53
+ *F8IV: Roman50,Gray01
+  F8IV-V: JM53,Roman55
+  F8V: Harlan74,Abt81
+  F9V: Cowley76
 
+  Primary of 11" pair, B is K4. V=5.04(HIP), B-V=0.540+-0.000(HIP),
+  V-Ic=0.61+-0.02(HIP). plx=39.7954+-0.0807mas(GaiaEDR3) => Mv=3.04 =>
+  1.04 mag above MS.
+  

@@ -2,6 +2,8 @@ G5IV
 
 Garrison94 lists mu Her as the G5IV anchor standard.
 
+MK43 standard:        70 Vir - G5IV-V
+     		      mu Her (=HD 161797) - G5IV 
 JM53 standard:	      mu Her (=HD 161797) - G5IV
 MK73 dagger standard: mu Her (=HD 161797) - G5IV
 Keenan89 standard:    mu Her (=HD 161797) - G5IV
@@ -15,16 +17,73 @@ Among Gray03 and Gray06 stars within 40 pc (only HIP 42430 & 98066):
 B-V(G5IV) = 0.734 (+- 0.014 sem, +- 0.020 stdev; N=2)
 V-I(G5IV) = 0.760 (+- 0.030 sem, +- 0.042 stdev; N=2)
 
+(B-V)(G5IV) = 0.750 ; pri. stan. HD 161797 = mu Her
+(B-V)(G5IV) = 0.757 ; sec. stan. HD 188376 = ome Sgr
+(B-V)(G5IV) = 0.774 ; poly fit to FGK subgiant standards & exemplars
+=> adopt (B-V)(G5IV) = 0.76 [updated 1/28/2022]
+
+G5IV stars w/i 60pc in SIMBAD (using SIMBAD plx, spt):
+Mv(G5IV) = 2.853 ; sec. stan. * ome Sgr (plx =  42.72 mas,V= 4.70)             
+Mv(G5IV) =  2.993 ; HD 164507 (plx =  22.01 mas,V= 6.28)
+Mv(G5IV) = 3.09  ; quadratic trend G0IV-K2IV standards+exemplars (for G5IV)
+Mv(G5IV) = 3.2   ; GrayCorbally09 
+Mv(G5IV) =  3.775 ; HD 26729  (plx =  18.50 mas,V= 7.44)               
+Mv(G5IV) = 3.821 ; pri. stan. * mu. Her (plx = 120.33 mas,V= 3.42)               
+Mv(G5IV) =  3.955 ; HD 225155 (plx =  18.33 mas,V= 7.64)
+=> adopt Mv(G5IV) = 3.09 mag [adopted 1/28/2022]
+
+Note that Sandage16 limits subgiants to a box in absolute mag space for G0-K2
+and 1.6 < Mv < 3.4, but mu Her (Mv=3.82) has been considered subgiant since 1930s
+and Garrison94 considers it an anchor standard. 
+
+Teff(G5IV) = 5530 K ; pri. stan. mu Her
+Teff(G5IV) = 5524 K ; sec. stan. ome Sgr
+=> adopt Teff(G5IV) = 5530 K [updated 11/20/2019]
+
 # Primary Standards
 
-HD 161797 = HR 6623 = Mu Her (J1636+4244, V=3.4)
-  G5IV: MK43,Roman55(lines weak),Keenan89,Gray01,GrayNstars,Cannon(G5),Jaschek64(most)
-  Has a 35" companion which itself is binary (BC: M4V,V=9.8)
-  B-V=0.750, revised HIP => Mv=3.82, 1.57 mag above MS.
+HD 161797 = mu Her = HR 6623 = HIP 86974 (J1636+4244, V=3.4)
+  G4IV/V: Adams35
+ *G5IV: Keenan41,MK43,Roman52(lines weak),Keenan53(G5V+),Keenan89,Garrison94(anchor),Gray01,GrayNstars,Cannon(G5),Jaschek64(most)
+  G5.5V: Morgan38
+  G8III: 1897AnHar..28....1M
 
-HD 188376 = HR 7597 = ome Sgr = HIP 98066 (J1955-2617,V=4.7)
-  G5IV: Keenan89
-  G3/5III: Houk82
+  One of only four subgiant (IV) anchor standards (Garrison94): eta
+  Boo (G0IV), mu Her (G5IV), bet Aql (G8IV), gam Cep (K1IV).
+  Sandage16 mentions mu Her as one of the "six extreme subgiants with
+  large trigonometric parallaxes... could be said to define a subgiant
+  sequence". Has a 35" companion which itself is binary (BC:
+  M4V,V=9.8).  V=3.42(HIP), B-V=0.750+-0.015(HIP),
+  V-Ic=0.71+-0.02(HIP).  plx=119.9248+-0.1543mas(GaiaEDR3) => Mv=3.82.
+  PASTEL values: <Teff> = 5529K(N=22), <[Fe/H]>=0.24(N=20),
+  <logg>=3.975(N=22).
+
+# Secondary Standard
+
+HD 188376 = ome Sgr = HR 7597 = HIP 98066 (J1955-2617,V=4.7)
+  G3/5III: Houk82(#1)
+  G4IV: 1937AnHar.105...45H
+ *G5IV: Keenan89,Gray06
   G5: Cannon
-  Houk82 notes; "HR 7597; *OMEGA SGR; OR POSSIBLY COMPOSITE G6/8 III + EARLY G"
-  B-V=0.757 (Mermilliod91)
+  G5V: Adams35
+  G6/8III+G: Houk82(#2)
+  G8: Bidelman85
+  K0V: 1966ArA.....3..501L
+  
+  Houk82 notes; "HR 7597; *OMEGA SGR; OR POSSIBLY COMPOSITE G6/8 III +
+  EARLY G". V=4.70(HIP), B-V=0.748+-0.015(HIP),
+  B-V=0.757+-0.004(Mermilliod91), V-I=0.79(HIP).
+  plx=42.7159+-0.5538mas(GaiaDR2) => Mv=2.85.  PASTEL compendium:
+  <Teff> = 5524K(N=6), <logg>=3.82(N=4), <[Fe/H]>=0.025(N=4).
+
+# Other stars
+
+HD 143120
+  G5IV: Evans59,Houk78
+  G7IV: Lu83
+
+HD 157347
+  G3V: Gray03 
+  G5V: Harlan74
+  G5IV: Evans64,Cowley79
+
