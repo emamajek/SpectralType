@@ -1,2 +1,121 @@
+K6.5V
 
-Henry02 does not list a K6.5V standard. 
+Henry02 does not list a K6.5V standard. Gray06 classified 11 stars as K6.5V - none
+have published Teffs in PASTEL compendium. 
+
+Teff(K7V)   =  4070K ; K7V adopted
+Teff(K6.5V) = 4090K ; non-standard GJ 826.1/HD 203040
+Teff(K6.5V) = 4175K ; non-standard GJ 9646/HD 178445 
+Teff(K6.5V) = 4190K ; smooth Teff(SpT) trend
+Teff(K6.5V) = 4200K ; non-standard GJ 146/HD 22496
+Teff(K6.5V) = 4230K ; non-standard GJ 45/HD 5633
+Teff(K6V)   =  4230K ; K6V adopted
+=> Teff(K6.5V) = 4190K (logT = 3.622); updated 5/18/2019
+
+(B-V)(K6V)   =  1.240 ; adopted
+(B-V)(K6.5V) = 1.30  ; median Hinkel17 (N=8, all Gray06!)
+(B-V)(K6.5V) = 1.312 ; Gray06 K6.5V stars (N=8; +-0.009 sem, +-0.030 rms)
+(B-V)(K6.5V) = 1.314 ; non-standard GJ 146
+(B-V)(K6.5V) = 1.32  ; non-standard GJ 45/HD 5633
+(B-V)(K6.5V) = 1.322 ; non-standard GJ 9646/HD 178445  
+(B-V)(K7V)   =  1.330 ; adopted
+(B-V)(K6.5V) = 1.35  ; non-standard GJ 826.1/HD 203040
+=> adopt (B-V)(K6.5V) = 1.31 [updated 5/18/2018]
+
+(G-V)(K6V)   = -0.50  ; adopted for K6V
+(G-V)(K6V)   = -0.556 ; interp K6V(B-V=1.24,G-V=-0.50),K7V(B-V=1.34,G-V=-0.58)
+(G-V)(K6.5V) = -0.568 ; SIMBAD d<20pc trend for V-Ks=3.288
+(G-V)(K7V)   = -0.58  ; adopted for K7V
+=> adopt (G-V)(K6.5V) = -0.56 [updated 11/1/2020]
+
+(Bp-Rp)(K6V)=1.58 ; K6V mean
+(Bp-Rp)(K7V)=1.71 ; K7V mean
+=> adopt (Bp-Rp)(K6.5V)=1.64 [updated 3/1/2019]
+
+(G-Rp)(K6V)= 0.79; K6V mean
+(G-Rp)(K7V)= 0.87; K7V mean
+=> adopt (G-Rp)(K6.5V) = 0.83 [updated 3/1/2019]
+=> adopt (Bp-G)(K6.5V) = 0.81 [updated 3/1/2019; Bp-Rp=1.64, G-Rp=0.83]
+
+(V-Ks)(K6.5V) = 3.223 ; trend for K dwarf standards+exemplars
+(V-Ks)(K6.5V) = 3.252 ; non-standard GJ 146/HD 22496
+(V-Ks)(K6.5V) = 3.303 ; non-standard GJ 9646/HD 178445
+(V-Ks)(K6.5V) = 3.399 ; non-standard GJ 826.1/HD 203040 
+
+Mv(K6.5V) = 7.92 ; non-standard GJ 146/HD 22496
+
+I've just interpolated properties here based on the properties of the
+better populated K6V and K7V types, adjusting for the mean B-V from
+the Gray06 K6.5V stars.
+
+#SpT   Teff  logT   BCv    Mv    logL  B-V    Bt-Vt  V-G    U-B     V-Rc   V-Ic    V-Ks    J-H     H-K     Ks-W1   W1-W2  W1-W3  W1-W4  Msun  logAge b-y     M_J    M_Ks   Mbol i-z  z-Y  R_Rsun  #SpT
+K6.5V  4190  3.622 -0.92   8.01 -0.96  1.310  1.491  0.672  1.213   0.796  1.505   3.288   0.613   0.159   0.055   ...    ...    ...    0.66  ...    ...     5.56   4.78   7.09 ...  ...  0.656   K6.5V
+
+
+# Non-standards
+
+GJ 146 = HD 22496 = LHS 1563 = HIP 16711 (J0335-4825; V=8.6)
+   K5V: Luyten45(K5),Montes01
+   K5/M0V: Houk78
+   K5.9V: Houdebine16(dK5.9)
+  *K6.5V(k): Gray06
+   K7V: Eggen61,Upgren72,Bidelman85(K7:)
+
+   Median type is Gray06's K6.5V, mean is K6.2+-0.3. V=8.57(HIP),
+   V=8.590+-0.032(Mermilliod91).  B-V=1.314+-0.009(Mermilliod91),
+   U-B=1.240(Mermilliod91).  J=6.122+-0.020(2MASS),
+   H=5.493+-0.029(2MASS), Ks=5.338+-0.018(2MASS).  V-Ks = 8.59 - 5.338
+   = 3.252.  Teff=4136+-12K(Franchini14), 4150+-100K(Houdebine16#2),
+   Teff=4172K(Hinekl17), 4220+-50K(Houdebine#2), 4250K(Morales08),
+   4260K(Houdebine16#3) => <Teff> ~
+   4200K. [M/H]=0.11+-0.05(Franchini14), [Fe/H]=-0.25(Houdebine16).
+   logL=-0.89(Hinkel17). VSX list it as variable star NSV 1203, with
+   variability of 0.7 mag? B-V and V-Ks is close to mean for K6.5V.
+   plx = 73.5244+-0.0387mas(GaiaDR2). Mv =
+   7.92+-0.03(Mermilliod91,GaiaDR2), within 0.1 mag of mean for
+   K6.5Vs.
+    
+GJ 9646 = Gl 747.3 = HD 178445 = HIP 94225
+   K5/M0V: Houk78
+   K6.0V: Houdebine16(dK6.0)
+  *K6.5V: Gray06
+   K7V: Evans64,Upgren72,Bidelman85,Gliese91
+
+   V=9.36(HIP), V=9.363+-0.007(Mermilliod91),
+   B-V=1.322+-0.017(Mermilliod91), U-B=1.245+-0.146(Mermilliod91).
+   J=6.846+-0.021(2MASS), H=6.207+-0.024(2MASS),
+   Ks=6.060+-0.024(2MASS), V-Ks = 9.363 - 6.060 = 3.303.  Teffs:
+   4130+-100K(Houdebine16#1), 4170K(Morales08), 4180K(Houdebine16#3),
+   4203+-70K(Houdebine16#2) => <Teff> = 4175K. [Fe/H] =
+   -0.25(Houdebine16).
+
+GJ 826.1 = HD 203040 = LHS 3657 = StKM 2-1513 = UGP 520
+   K5V: Bidelman86
+   K5.1V: Houdebine16
+   K6V: Adams35
+  *K6.5Vk: Gray06
+   K7: Bidelman85
+   M0V: Vyssotsky46,Upgren72,Joy74
+
+   Mean published type K6.7+-0.4.  V=9.12(Mermilliod91),
+   B-V=1.35(Mermilliod91), U-B=1.26(Mermilliod91),
+   J=6.541+-0.020(2MASS), H=5.905+-0.034(2MASS),
+   Ks=5.721+-0.018(2MASS), V-Ks = 9.12 - 5.721 = 3.399.  Teffs:
+   4030+-242K(Yee17), 4089K(Hinkel17), 4090+-100K(Houdebine16#1,#3),
+   4243+-111K(Houdebine16#2) => <Teff> = 4090K.  [Fe/H] =
+   -0.28(Houdebine16), [Fe/H]=-0.05+-0.10(Yee17).
+   
+GJ 45 = HD 5633 (J0057-6214)
+   K5: Luyten79
+   K5.7V: Houdebine16(dK5.7)
+  *K6.5V(k): Gray06
+   K7V: Evans66(K7Ve),Woolley70(K7),Gliese91
+   M0V: Upgren72,Houk75
+
+   V=9.482(Koen10), B-V=1.320(Koen10), U-B=1.256(Koen10),
+   V-Rc=0.806(Koen10), V-Ic=1.493(Koen10), J=7.081+-0.026(2MASS),
+   H=6.486+-0.036(2MASS), Ks=6.284+-0.020(2MASS), V-Ks = 9.482 - 6.284
+   = 3.198. Teffs: 3874K(Leger15), 4191K(Hinkel17),
+   4210+-100K(Houdebine16#1), 4250K(Morales08),
+   4252+-62K(Houdebine16#2), 4340K(Houdebine16#3) =>
+   4230K. [Fe/H]=-0.25(Houdebine16).

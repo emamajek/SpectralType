@@ -1,20 +1,31 @@
 K0IV
 
-JM53 standard:         del Eri (=HD 23249) - K0IV
-                       eta Cep (=HD 198149) - K0IV
-                       HD 89862 (HIP 50892) - non-standard K0IV
-MK73 dagger standard:  eta Ser (=HR 6869) - K0III-IV
+MK43 standard:        del Eri (=HD 23249) - K0IV
+     		      eta Cep (=HD 198149) - K0IV 
+     		      46 LMi - K0III-IV
+		      eta Ser - K0III-IV
+JM53 standard:        del Eri (=HD 23249) - K0IV
+                      eta Cep (=HD 198149) - K0IV
+                      HD 89862 (HIP 50892) - non-standard K0IV
+MK73 dagger standard: eta Ser (=HR 6869) - K0III-IV
+Houk88 standard:      del Eri (=HR 1136 = HD 23249) - K0IV (from JM53)
+Keenan89 standard:    eta Cep (=HD 198149) - K0IV 
+                      HD 23249 - K0+IV
+GrayNstars:           eta Cep (=HD 198149) - K0IV
 
-Keenan89 standard:     HD 198149 - K0IV 
-                       HD 23249 - K0+IV
-Houk88 standard:       del Eri (=HR 1136 = HD 23249) - K0IV (from JM53)
-
-GrayNstars use Eta Cep as their K0IV Steward Obs. and DSO standard. 
+eta Cep (K0IV), del Eri (K0+IV), omi Col are the brightest K0IVs in
+the Bright Star Catalog 5th ed. (Hoffliet91)
 
 From Hipparcos (1997) stars classified as "K0IV" within 75 pc:
 <B-V>(K0IV) = 0.906 (+-0.017 sem, +-0.077 stdev; N=35)
 <Mv>(K0IV)  = 3.417 (+-0.236 sem, +-1.512 stdev; N=35)
 (obviously mix of Mv ~ 5-6 MS stars, but mostly Mv ~ 1.6-4 true subgiants)
+
+Plotting the distributions of absolute magnitudes for K-type stars in
+XHIP, the minimum in the absolute magnitudes separation K dwarfs from
+subgiants appears near Mv ~ 4.2, so stars intrinsically fainter than
+this should probably be clipped as misclassified dwarfs.
+
 Only 27 of these are more than a 1 mag above the Wright04 main sequence.
 Among these:
 <B-V>(K0IV,delta(Mv)<-1) = 0.931 (+- 0.015 sem, +-0.075 stdev; N=27)
@@ -35,36 +46,157 @@ For Hipparcos stars within 75pc with parallax S/N > 8 (N=16):
 <Bt-Vt>(K0IV)= 1.019 (+-0.024 sem, +-0.065 stdev)
 <V-Vt>(K0IV) =-0.092 (+-0.008 sem, +-0.026 stdev)
 
+Teff(K0IV) =  4916 K ; var. stan. eta Ser (K0III-IV)
+Teff(K0IV) = 4974 K ; pri. stan. eta Cep (see below)
+Teff(K0IV) =  5051 K ; var. stan. HD 23249 (see below)
+Teff(K0IV) = 5108 K ; exemplar HD 22713 = 21 Eri (see below)
+=> adopt Teff(K0IV) = 4970 K [last updated 7/15/2017]
+
+(B-V)(K0IV) = 0.898 ; median for 8 XHIP K0IV stars d<50pc (eta Cep & HIP 2422 define middle)
+(B-V)(K0IV) =  0.901 ; exemplar HD 177389 = HIP 94150
+(B-V)(K0IV) = 0.912 ; pri. stan. eta Cep = HD 198149
+(B-V)(K0IV) = 0.915 ; K0+IV variant stan. del Eri = HD 23249 
+(B-V)(K0IV) =  0.921 ; exemplar HD 22713 = 21 Eri
+(B-V)(K0IV) = 0.924 ; poly fit to FGK subgiant standards & exemplars
+(B-V)(K0IV)  = 0.9241 ; variant stan. K0III-IV HD 168723 = eta Ser
+(B-V)(K0IV) = 0.946(+-0.021 sem,+-0.060 stdev) ; SIMBAD median K0IV d<75pc, V<6.5(N=10)
+=> adopt (B-V)(K0IV) = 0.92 [updated 2/32/2022]
+
+Mv(K0IV) =  3.74 ; K0+IV variant stan. del Eri = HD 23249 
+Mv(K0IV) =  3.27 ; exemplar HD 22713 = 21 Eri
+Mv(K0IV) = 3.2   ; GrayCorbally09 
+Mv(K0IV) = 2.96  ; quadratic trend G0IV-K2IV standards+exemplars (for K0IV)
+Mv(K0IV) =  2.64 ; pri. stan. eta Cep = HD 198149 
+Mv(K0IV) =  2.47 ; exemplar HD 177389 = HIP 94150
+Mv(K0IV) = 2.38(+-0.24 sem,+-0.62 stdev) ; SIMBAD median K0IV d<75pc, V<6.5(N=10)
+Mv(K0IV) =   1.89 ; variant stan. K0III-IV HD 168723 = eta Ser 
+=> adopt Mv(K0IV) = 2.96 [updated 1/28/2022]
+
+Note: Sandage16 bounds the subgiants as 1.6 < Mv < 3.4 and types between G2 to K4,
+based on Mt. Wilson work from Adams35 and Stromberg30
+
 
 # Primary Standard
-HD 198149 = HR 7957 = Eta Cep = GJ 807 = BD+61 2050 = LHS 3578 (J2045+6150)
-  K0IV: MK43,Jaschek78(JM53),Jaschek64(most),Cannon(K0),Keenan89,Gray03
-  K0III-IV: Roman52
-  Best standard, but far north. 
 
-# Candidate Secondary Standard
+HD 198149 = eta Cep = HR 7957 = GJ 807 = HIP 102422 = LHS 3578 (J2045+6150)
+  G7IV: Adams35
+  G8IV: Lindblad22,Bidelman85(G8)
+  G9.5IV-V: Morgan38
+ *K0IV: Keenan41,MK43,JM53,Keenan53,Jaschek64(most),Cannon(K0),Keenan89,Gray03
+  K0III-IV: Roman52
+  
+  Best standard, but far north. In the XHIP catalog, it is also the
+  nearest K0IV star. PASTEL: <Teff> = 4988 K (N=24), <[Fe/H]> = -0.13
+  (N=11). Most precise recent values: Teff=5003+-15K, logg=3.42+-0.06,
+  [Fe/H]=-0.13+-0.02(Niedzielski16).  V=3.41(HIP),
+  V=3.420+-0.013(Mermilliod91), B-V=0.912+-0.002(HIP),
+  V-I=0.94+-0.04(HIP).  plx=70.10+-0.11mas(HIP2),
+  plx=69.6638+-0.2998mas(GaiaDR2) => Mv=2.64(HIP2).
+
+# Variant Standard
+
+HD 23249 = del Eri = 23 Eri = HR 1136 = GJ 150 = Rana (J0343-0945, V=3.5)
+  G9: Bidelman85
+  K0IV: Adams35,MK43,Moore50
+ *K0+IV: Keenan80,Keenan89
+  K1IV: Keenan41,Moorer50,Gray03
+  K1III-IV: Gray06
+  K2IV: Ljunggren66
+    
+  Was mislabeled in SIMBAD for years as RS CVn-type, but this appears
+  to be due to photometric campaign in 1980s that used eps Eri (itself
+  an an active fast-rotating star) as photometric standard. So there
+  is zero evidence to support RS CVn/chromosperically active binary
+  status for del Eri. vsini<2 km/s apparently, from Glebocki+00
+  catalog. B-V=0.915 (negligibly redder than primary standard eta
+  Cep), revised HIP data => Mv=3.74, 2.50 mag above MS. PASTEL: <Teff>
+  = 5051 K (N=22), <[Fe/H]> = 0.13.
+
+HD 168723 = eta Ser = HR 6869 (V=3.26)
+  G8: Bidleman85
+  G8III/IV: Adams35
+  G8IV: Roman52(lines weak)
+  G9IV: Morgan38
+ *K0III-IV: MK43,MK73(dagger),Keenan80,Keenan89,Gray03
+  K0IV: Moore50,1966ArA.....3..501L
+  K1IV: Keenan41
+
+  V=3.23(HIP), B-V=0.941+-0.006(HIP),
+  V-I=0.96+-0.02(HIP). plx=53.93+-0.18mas(HIP2) => Mv=1.89.  PASTEL:
+  <Teff>=4930K(N=27), <[Fe/H]>=-0.19(N=23), <logg>=3.08(N=23).
+
+HD 28 = 33 Psc 
+  K0IV: Adams35
+ *K0III-IV: Keenan89
+  K0IIIb_CN-0.5: Keenan80
+  K1III: Roman52
+
+  Sandage16 lists as one of the original 90 Mt. Wilson subgiants.
+  Mv=1.63.
+
+# Standards
+
+46 LMi
+  K0III-IV: MK43
+
+
+# Exemplar
+
 HD 89862 (J1023+5631, V=8.2)
-  K0IV: JM53(non-stan.),Jaschek64(all)
+ *K0IV: JM53(non-stan.),Jaschek64(all)
   K0III-IV: Jaschek78(Yoss61)
   K0V: Popper43
   K0: Cannon
-  Everyone seems to agree on "K0" subtype. 
-  B-V=0.938, revised HIP data => Mv=3.05, 3.28 mag above MS,
-  at base of giant branch. Not truly a standard. 
+  
+  Everyone seems to agree on "K0" subtype, but not considered a
+  standard by anyone.  B-V=0.938, revised HIP data => Mv=3.05, 3.28
+  mag above MS, at base of giant branch. No PASTEL data.
 
-# Weak Standard
-HD 23249 = HR 1136 = Del Eri = 23 Eri = GJ 150 (J0343-0945, V=3.5)
-  K0IV: MK43,Moore50
-  K0+IV: Keenan89
-  K1IV: Gray03 
-  SIMBAD calls RS CVn, but does not have CABS number. vsini<2 km/s
-  apparently, from Glebocki+00 catalog. X-ray source. Another migrating "standard".
-  B-V=0.915, revised HIP data => Mv=3.74, 2.50 mag above MS. 
+HD 177389 = HIP 94150
+  G4: Moore32
+  G8/K0III/IV: Houk75
+ *K0IV: Gray06
+  K0III: 1943HarCi.449....1H
 
-# Variant
+  V=5.31(HIP), B-V=0.901+-0.001(HIP), V-I=0.90+-0.00(HIP).
+  plx=27.0405+-0.0890mas(GaiaDR2) => Mv=2.47.  PASTEL: <Teff> =
+  5061K(N=3), <logg>=3.49(N=3), <[Fe/H]>=-0.05(N=3).
 
-eta Ser = HR 6869 = HD 168723 (V=3.26)
-    K0III-IV: MK73(dagger)
+HD 22713 = 21 Eri = HR 1111 = HIP 17027 
+ *K0IV: Houk99
+  K1V: Adams35
+  K2III: Harlan81 (Skiff comment: "dwarf, not giant")
+
+  V=5.97(HIP), B-V=0.921+-0.004(HIP), V-I=0.94+-0.04(HIP).
+  plx=28.7688+-0.0506mas(GaiaDR2) => Mv=3.27.  PASTEL: <Teff> =
+  5108K(N=2), <logg>=3.73(N=2), <[Fe/H]>=+0.055(N=2).
+
+HD 171627 = HIP 91273
+ *K0IV: 1943HarCi.449....1H,McCuskey64,Houk82
+  K1V: Evans57
+
+# Other Stars
+
+HD 191026 = HIP 99031
+  G3V: Adams35
+  G5V: 1932MeUpp..55....1S,1952UppAn...3e....S
+  G8V: Malmquist60
+  G8IV: Annear53,Ljunggren61
+ *G8.5IVa: Keenan89
+  G9IV: 1972AbaOB..43..109W, Bidelman85(G9)
+  K0IV: Roman55,Gray03
+  K1IV: 1962JO.....45...57B
+
+HD 191026 = 27 Cyg = HR 7689
+  G8V: 1960UppAn...4h...1M
+  G8IV: Adams35,1961UppAn...4j...1L
+ *G8.5IVa: Keenan89(non-stan)
+  G9: Bidelman85
+  G9IV: 1972AbaOB..43..109W
+  K0IV: Roman55,Gray03
+  K1IV: 1962JO.....45...57B
+
+  Not good agreement on types! 
 
 # COMMENTS ON COLORS OF K SUBGIANTS VS. K DWARFS
 
@@ -78,6 +210,11 @@ For individual subtypes:
 <(B-V)K1IV> - <(B-V)K1V> =  0.004+-0.016 (stdev=0.037; N=7)
 <(B-V)K2IV> - <(B-V)K2V> =  0.006+-0.002 (stdev=0.002; N=2)
 <(B-V)K3IV> - <(B-V)K3V> = -0.013+-0.026 (stdev=0.045; N=3)
+
+Conclusion: Mean B-V color differences between subgiants and dwarfs of
+a given K class *subtype* are negligible. [later note: need to reevaluate as
+it is clear that many spectral type IV objects in literature among early
+Ks are misclassified dwarfs, which are much more numerous]
 
 B-V   SpT (B-V)V (B-V)-(B-V)V
 0.870  K0  0.816  0.054
@@ -100,3 +237,6 @@ B-V   SpT (B-V)V (B-V)-(B-V)V
 1.000  K3  0.990  0.01
 1.005  K3  0.990  0.015
 1.080  K5  1.134  -0.054
+
+
+

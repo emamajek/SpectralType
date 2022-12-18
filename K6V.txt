@@ -2,14 +2,13 @@ K6V
 
 GJ 529 appears to be the primary standard. 
 
-K6V is usually not considered a full subtype.  Keenan84 does not list
-K6 as a full subtype like K5 and M0, and "other possible subdivisions
-are utilized only for interpolation whenever we think that we can
-classify accurately enough to justify their use. Thus when we call a
-star G3 we mean only that it is closer to G2 than to G5."
-
-One could probably construct a plausible K6V template
-using the mean of 61 Cyg A (K5V) and B (K7V). 
+K6V is often not considered a full subtype.  Keenan84 does not list K6
+as a full subtype like K5 and M0, and "other possible subdivisions are
+utilized only for interpolation whenever we think that we can classify
+accurately enough to justify their use. Thus when we call a star G3 we
+mean only that it is closer to G2 than to G5."  Joy47 used K6 as a
+single subtype step between K5 and M0 (and no K7/K8/K9).  Kuiper42
+used all ten subdivisions for type K, including K6.
 
 Keenan88 standard:    Gl 529 (=HD 120467) - K6Va
 Keenan89 standards:   Gl 529 (=HD 120467) - K6Va
@@ -27,100 +26,501 @@ There is only one K6V star in the Hipparcos catalog within 75 pc,
 parallax S/N > 8 and within 1 mag of the main sequence (HIP 6290),
 with B-V(K6V)=1.340.
 
-(B-V)(K6V) = 1.34  ; only HIP K6V star (HIP 6290)
-<B-V>(K6V) = 1.30  ; 1 Hyad from Wilson62(N=1)
-(B-V)(K6V) = 1.257 ; Keenan K6Va standard GJ 529 
-<B-V>(K6V) = 1.242 ; Gray01/03/06 K6V (+-0.008 sem, +-0.059 stdev)
-(B-V)(K6V) = 1.24  ; Schmidt-Kaler82 halfway between K5V(1.15) & K7V(1.33)
-(B-V)(K6V) = 1.235 ; halfway between K5V (1.13) and K7V (1.34)
-(B-V)(K6V) = 1.160 (+-0.085 sem,+-0.148 stdev); 3 ARICNS K6V stars
-=> adopt (B-V)(K6V)  = 1.257 ***
-=> adopt (U-B)(K6V)  = 1.199 
-=> adopt (V-I)(K6V)  = 1.448
-=> adopt (V-R)(K6V)  = 0.771
-=> adopt (R-I)(K6V)  = 0.676
-=> adopt (V-J)(K6V)  = 2.434
-=> adopt (V-H)(K6V)  = 3.039
-=> adopt (V-Ks)(K6V) = 3.190
-=> adopt (H-Ks)(K6V) = 0.151
-=> adopt (J-H)(K6V)  = 0.605
-=> adopt (K-W1)(K6V) = 0.051
+Upgren72 classified only 2 stars as K6V: UGP 39 (a late K/M binary)
+and UGP 539. Neither seems to be a good exemplar of the subtype as
+there seems to be little agreement on classification among other
+classifiers.
 
-Gray01/03/06 list 50 nearby K6V stars with useful HIP colors:. 
-<B-V>(K6V) = 1.242 (+-0.008 sem, +-0.059 stdev; N=50)
-<V-I>(K6V) = 1.391 (+-0.018 sem, +-0.114 stdev; N=50)
+(B-V)(K6V) =   1.30  ; 1 Hyad from Wilson62(N=1)
+(B-V)(K6V) = 1.286 ; median Koen10 d<25pc K6V 
+(B-V)(K6V) = 1.271 ; median SIMBAD K6V d<25pc (N=38)
+(B-V)(K6V) = 1.27  ; median for N=36 K6Vs within 30pc (Hinkel17)
+(B-V)(K6V) = 1.261 ; pri. stan. GJ 529
+(B-V)(K6V) = 1.253 ; exemplar HIP 11739 = BD-20 470
+(B-V)(K6V) = 1.242 ; Gray01/03/06 K6V (+-0.008 sem, +-0.059 stdev)
+(B-V)(K6V) = 1.24  ; exemplar HD 72928
+(B-V)(K6V) =   1.24  ; Schmidt-Kaler82 halfway between K5V(1.15) & K7V(1.33)
+(B-V)(K6V) = 1.237 ; exemplar GJ 412.3 = GJ 9347
+(B-V)(K6V) = 1.232 ; exemplar GJ 249 
+(B-V)(K6V) = 1.229 ; exemplar GJ 818
+(B-V)(K6V) = 1.194 ; exemplar GJ 39
+(B-V)(K6V) =  1.160 (+-0.085 sem,+-0.148 stdev); 3 ARICNS K6V stars
 
-Teff(K6V) = 4441 K ; Biazzo07 Teff calibration for B-V=1.257
-Teff(K6V) = 4339 K ; Casagrande10 Teff calibration for B-V=1.257
-Teff(K6V) =  4320 K ; median of 17 published Teffs for K6V stars
-Teff(K6V) =  4252 K ; mean photometric Teff
-Teff(K6V) = 4213 K ; Ramirez05 Teff calibration for B-V=1.257
-Teff(K6V) =  4205 K ; Schmidt-Kaler82 halfway between K5V(4350) and K7V(4060)
-Teff(K6V) = 4200 K ; pri. stan. GJ 529 (median, but metal rich!)
-Teff(K6V) = 4200 K ; interp (V-K=3.19) for K5V(V-K=2.835,T=4450K) and K7V(V-K=3.407,T=4050K)
-Teff(K6V) = 4185 K ; Ramirez05 Teff calibration for V-Ks=3.190
-Teff(K6V) = 4134 K ; diBenedetto98 Teff calibration for V-Ks=3.190
-Teff(K6V) = 4097 K ; vanBelle09 Teff calibration for V-Ks=3.190
-=> adopt Teff(K6V) = 4200 K (logT = 3.623)
+=> adopt (B-V)(K6V)   = 1.24 *** [last updated 8/13/2020]
+=> adopt (Bt-Vt)(K6V) = 1.439 
+=> adopt (U-B)(K6V)   = 1.184
+=> adopt (V-R)(K6V)   = 0.759
+=> adopt (R-I)(K6V)   = 0.662
+=> adopt (V-J)(K6V)   = 2.395
+=> adopt (V-H)(K6V)   = 2.995
+=> adopt (H-Ks)(K6V)  = 0.148
+=> adopt (J-H)(K6V)   = 0.601
+=> adopt (V-Hp)(K6V)  = -0.114
+=> adopt (Bp-Rp)(K6V) = 1.565
+=> adopt (Bp-G)(K6V)  = 0.759
+=> adopt (G-Rp)(K6V)  = 0.818
 
-Mv(K6V) = 7.38 mag ; pri. stan. HD 120467 (see below)
-Mv(K6V) =  7.63 mag ; Wegner07
-Mv(K6V) = 7.68 mag ; B-V=1.257 => Mv(Wright05)
-Mv(K6V) =  7.75 mag ; Schmidt-Kaler82 halfway between K5V(7.4) and K7V(8.1)
-Mv(K6V) = 7.88 mag ; V-K=3.19 => EEM fit to Reid CNS3 data
-Mv(K6V) = 7.89 mag ; V-K=3.19 => Mv(JohnsonApps09)
-Mv(K6V) =  8.29 mag ; Henry94 relation
-=> adopt Mv(K6V) = 7.88 mag 
-=> adopt M_Ks(K6V) = 4.69 mag 
+(Ks-W1)(K6V) = 0.101 ; EEM trend for d<30pc for B-V=1.24
+=> adopt (Ks-W1)(K6V) = 0.101 [updated 12/29/2019]
 
-BCv(K6V) = -0.959 mag ; Masana06(Teff=4200K)
-BCv(K6V) = -0.854 mag ; Flower96(Teff=4200K)
-BCv(K6V) = -0.818 mag ; Bessell98(ATLAS9,logg=4.5,Teff=4200K)
-BCv(K6V) = -0.809 mag ; EEM fit to Casagrande06/08/10 data (Teff=4200K)
+(V-Ks)(K5V) =   2.88 ; adopted K5V
+(V-Ks)(K6V) =  2.985 ; exemplar GJ 39 
+(V-Ks)(K6V) =  2.992 ; exemplar GJ 818
+(V-Ks)(K6V) = 3.00   ; pri. stan. GJ 529
+(V-Ks)(K6V) = 3.05   ; trend for K6V standard/exemplars [Fe/H] vs. V-Ks (for [Fe/H]=0.0)
+(V-Ks)(K6V) =  3.075 ; exemplar HIP 11739 = BD-20 470 
+(V-Ks)(K6V) =  3.083 ; exemplar GJ 249
+(V-Ks)(K6V) = 3.089  ; trend for K dwarf standards/exemplars
+(V-Ks)(K6V) = 3.115  ; halfway K5V(2.88),K7V(3.35)
+(V-Ks)(K6V) = 3.143  ; trend for B-V=1.24
+(V-Ks)(K6V) =  3.188 ; exemplar GJ 412.3 = GJ 9347
+(V-Ks)(K6V) =  3.217 ; exemplar HD 72928
+(V-Ks)(K7V) =   3.35 ; adopted K7V 
+=> adopt (V-Ks)(K6V) = 3.08 [updated 12/15/2020]
+=> adopt (G-Ks)(K6V) = 2.57 = (3.08 + -0.51) [updated 12/23/2020]
+
+(Bp-Rp)(K5V) =   1.45 ; K5V  mean
+(Bp-Rp)(K6V) = 1.4925 ; exemplar GJ 39
+(Bp-Rp)(K6V) = 1.5067 ; exemplar GJ 818 
+(Bp-Rp)(K6V) = 1.5187 ; pri. stan. GJ 529
+(Bp-Rp)(K6V) = 1.5306 ; exemplar GJ 249
+(Bp-Rp)(K6V) = 1.5430 ; exemplar HIP 11739 = BD-20 470 
+(Bp-Rp)(K6V) = 1.5786 ; exemplar GJ 412.3 = GJ 9347
+(Bp-Rp)(K6V) = 1.591  ; exemplar HD 72928 
+(Bp-Rp)(K7V) =   1.71 ; K7V mean
+=> adopt (Bp-Rp)(K6V) = 1.53 [updated 8/13/2020]
+
+(G-Rp)(K5V) =   0.74  ; K5V mean
+(G-Rp)(K6V) =  0.7816 ; exemplar GJ 39
+(G-Rp)(K6V) =  0.7883 ; exemplar GJ 818 
+(G-Rp)(K6V) =  0.7917 ; pri. stan. GJ 529
+(G-Rp)(K6V) =  0.7947 ; exemplar GJ 249
+(G-Rp)(K6V) =  0.8013 ; exemplar HIP 11739 = BD-20 470 
+(G-Rp)(K6V) =  0.8213 ; exemplar GJ 412.3 = GJ 9347
+(G-Rp)(K6V) =  0.8220 ; exemplar HD 72928 
+(G-Rp)(K7V) =   0.87  ; K7V mean
+=> adopt (G-Rp)(K6V) = 0.795 [updated 8/13/2020]
+=> adopt (Bp-G)(K6V) = 0.735 [updated 8/13/2020; Bp-Rp=1.53, G-Rp=0.795]
+
+
+(G-V)(K6V) =  -0.461  ; exemplar GJ 818 
+(G-V)(K6V) = -0.467  ; from color fit for B-V=1.24
+(G-V)(K6V) =  -0.4677 ; exemplar GJ 39
+(G-V)(K6V) = -0.477  ; pri. stan. GJ_529
+(G-V)(K6V) = -0.478  ; V-Ic vs G-V from Pancino22 for V-Ic=1.420
+(G-V)(K6V) = -0.486  ; trend for SIMBAD d<20pc for V-Ks=3.08
+(G-V)(K6V) = -0.490  ; B-V vs G-V from Pancino22 for B-V=1.240
+(G-V)(K6V) = -0.512  ; interp K5V(B-V=1.15,G-V=-0.45),K7V(B-V=1.34,G-V=-0.58) for B-V=1.24
+(G-V)(K6V) =  -0.520  ; exemplar GJ 412.3 = GJ 9347
+(G-V)(K6V) =  -0.533  ; exemplar GJ 249
+(G-V)(K6V) =  -0.537  ; exemplar HIP 11739 = BD-20 470 
+(G-V)(K6V) =  -0.5648 ; exemplar HD 72928
+=> adopt (G-V)(K6V) = -0.49 [updated 11/15/2022]
+=> adopt (G-Ks)(K6V) = 7.15 - 4.56 = 2.59 [updated 11/15/2022]
+
+(V-Ic)(K6V) =  1.20  ; exemplar HD 72928 
+(V-Ic)(K6V) =  1.32  ; exemplar GJ 39
+(V-Ic)(K6V) =  1.36  ; exemplar GJ 818
+(V-Ic)(K6V) =  1.39  ; exemplar GJ 249 
+(V-Ic)(K6V) = 1.391 (+-0.018 sem, +-0.114 stdev; N=50) Gray01/03/06
+(V-Ic)(K6V) = 1.40  ; pri. stan. GJ 529 
+(V-Ic)(K6V) =  1.42  ; exemplar HIP 11739 = BD-20 470 
+(V-Ic)(K6V) = 1.420 ; trend, from B-V=1.24
+(V-Ic)(K6V) = 1.445 (+-0.018 sem, +-0.084 stdev; N=17) Koen10
+(V-Ic)(K6V) =  1.47  ; exemplar GJ 412.3 = GJ 9347
+=> adopt (V-Ic)(K6V) = 1.42 [updated 11/15/2022]
+
+(g-r)(K6V) = 1.108 ; Jordi06 (V-R)=>(g-r) for V-R=0.759
+(g-r)(K6V) = 1.142 ; Bilir05 (B-V)=>(g-r) for B-V=1.240
+(g-r)(K6V) = 1.26  ; Covey07 interp K5V-K7V
+=> adopt (g-r)(K6V) = 1.14 [updated 10/10/2020]
+
+Teff(K6V) =  4444 K ; exemplar GJ 818 median
+Teff(K6V) = 4356 K ; pri. stan. GJ 529 (median, but metal rich!)
+Teff(K6V) =  4342 K ; exemplar GJ 39 median
+Teff(K6V) = 4320 K ; median of 17 published Teffs for K6V stars
+Teff(K6V) ~ 4300 K ; trend of [Fe/H] vs. Teff for standard+exemplars
+Teff(K6V) =  4285 K ; exemplar HIP 11739 = BD-20 470 
+Teff(K6V) = 4273 K ; smooth Teff(SpT) trend
+Teff(K6V) =  4271 K ; exemplar GJ 412.3A = GJ 9347 
+Teff(K6V) = 4270 K ; interp K5V(T=4440K)and K7V(T=4100K)
+Teff(K6V) =  4257 K ; exemplar HD 72928
+Teff(K6V) = 4232 K ; Morrell19 Teff for stars w/i +-0.1 mag of M_Ks=4.58
+Teff(K6V) =  4224 K ; exemplar GJ 249 = HD 49601 ([Fe/H] ~ -0.15)
+Teff(K6V) =  4223 K ; Boyajian12 calibration for V-Ks=3.08 
+Teff(K6V) =   4205 K ; Schmidt-Kaler82 halfway between K5V(4350) and K7V(4060)
+Teff(K6V) =  4030 K ; deprecated stan. GJ 380
+=> adopt Teff(K6V) = 4300 K (logT = 3.633) [updated 12/15/2020]
+
+Mv(K6V) =  7.15 mag ; exemplar GJ 412.3 = GJ 9347
+Mv(K6V) =  7.38 mag ; exemplar GJ 818
+Mv(K6V) =  7.42 mag ; pri. stan. GJ 529
+Mv(K6V) = 7.48 mag ; trend for standards & exemplars: Mv=7.044+0.35014*(B-V)(rms=0.19mag) for B-V=1.24
+Mv(K6V) =   7.49 mag ; exemplar GJ 39
+Mv(K6V) = 7.53 mag  ; [Fe/H] vs. Mv for standards+exemplars for [Fe/H]=0.0
+Mv(K6V) = 7.55 mag  ; M_G=7.04, G-V=-0.51
+Mv(K6V) = 7.59 mag  ; B-V=1.24 => Mv(Wright05)
+Mv(K6V) = 7.59 mag  ; exemplar HD 72928
+Mv(K6V) = 7.60 mag  ; M_Ks=4.5, V-Ks=3.1 (from [Fe/H] vs. M_Ks trend for [Fe/H]=0.0)
+Mv(K6V) = 7.62 mag  ; smoothed trend for K dwarfs V-Ks vs. Mv for V-Ks=3.08
+Mv(K6V) =    7.63 mag ; Wegner07
+Mv(K6V) =  7.64 mag ; exemplar GJ 249
+Mv(K6V) = 7.64 mag ; smooth fit to K/M sequence for V-Ks=3.08
+Mv(K6V) =  7.64 mag ; exemplar HIP 11739 = BD-20 470 
+Mv(K6V) =   7.66 mag ; B-V=1.24 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(K6V) =   7.68 mag ; V-K=3.08 => Mv(JohnsonApps09)
+Mv(K6V) =  7.68 mag ; SIMBAD d<20pc trend for K dwarfs for V-Ks=3.08 
+Mv(K6V) =   7.69 mag ; interp K5V (B-V=1.15,7.28), K7V (B-V=1.34, Mv=8.15) for B-V=1.24
+Mv(K6V) =   7.69 mag ; V-K=3.08 => EEM fit to Reid CNS3 data
+Mv(K6V) =   7.72 mag ; V-K=3.08 => EEM fit to Jao16
+Mv(K6V) =    7.75 mag ; Schmidt-Kaler82 halfway between K5V(7.4) and K7V(8.1)
+Mv(K6V) =   7.75 mag ; EEM fit to well-defined K4V-K7V trend d<25pc
+Mv(K6V) =   7.76 mag ; median Koen10 d<25pc K6V 
+Mv(K6V) =   7.86 mag ; median SIMBAD K6V d<25pc (N=38)
+Mv(K6V) =    8.29 mag ; Henry94 relation
+=> adopt Mv(K6V)   = 7.64 mag [updated 3/2/2021] (M_Ks=4.56, V-Ks=3.08)
+=> adopt M_G(K6V)  = 7.15 mag [updated 11/15/2022] (Mv=7.64, G-V=-0.49)
+=> adopt M_Ks(K6V) = 4.56 mag [updated 3/2/2021] (Mv=7.64, V-Ks=3.08)
+
+M_G(K6V) =   6.633 ; exemplar GJ 412.3 = GJ 9347
+M_G(K6V) =  6.922 ; exemplar GJ 818 
+M_G(K6V) =  6.943 ; pri. stan. GJ 529 
+M_G(K6V) =  7.020 ; exemplar GJ 39 
+M_G(K6V) =  7.027 ; exemplar HD 72928
+M_G(K6V) = 7.04  ; trend [Fe/H] vs. M_G for [Fe/H]=0.0
+M_G(K6V) =  7.102 ; exemplar GJ 249
+M_G(K6V) =  7.105 ; exemplar HIP 11739 = BD-20 470 
+ 
+M_Ks(K6V) =  4.67 ; median K6V d<25pc N=34
+M_Ks(K6V) =  4.60 ; SIMBAD d<20pc trend for K dwarfs for V-Ks=3.08
+M_Ks(K6V) =  4.57 ; exemplar HIP 11739 = BD-20 470
+M_Ks(K6V) =  4.54 ; exemplar GJ 249 = HD 49601
+M_Ks(K6V) = 4.51 ; trend for exemplars for [Fe/H]=0.0
+M_Ks(K6V) =  4.50 ; exemplar GJ 39 = HD 4913
+M_Ks(K6V) =  4.42 ; pri. stan. GJ 529 = HD 120467
+M_Ks(K6V) =  4.42 ; exemplar GJ 818 = HD 200779
+M_Ks(K6V) =  4.37 ; exemplar HD 72928 = StKM 1-709
+M_Ks(K6V) =   3.96 ; exemplar GJ 412.3A = GJ 9347 (binary?)
+
+BCv(K6V) =  -0.839 mag ; Masana06(Teff=4300K, set so BCv(5772K)=-0.085)
+BCv(K6V) = -0.767 mag ; Flower96(Teff=4300K, set so BCv(5772K)=-0.085)
+BCv(K6V) = -0.748 mag ; EEM fit to Casagrande06/08/10 data (Teff=4300K, set so BCv(5772K)=-0.085)
+BCv(K6V) = -0.751 mag ; Morrelli19 calib for G-Ks=2.57 & adopting V-Ks=3.08
+BCv(K6V) = -0.745 mag ; Bessell98(ATLAS9,logg=4.5,Teff=4300K, set so BCv(5772K)=-0.085)
+BCv(K6V) = -0.743 mag ; Casagrande18(Teff=4300K,logg=4.5, set so BCv(5772K)=-0.085)
+BCv(K6V) =  -0.686 mag ; Bertone04(ATLAS,Teff=4300K, set so BCv(5772K)=-0.085)
 BCv(K6V) =  -0.735 mag ; Schmidt-Kaler82 halfway K5V(-0.72) & K7V(-1.01) + 0.13 offset
-BCv(K6V) = -0.770 mag ; Bertone04(ATLAS,Teff=4200K)
-=> adopt BCv(K6V) = -0.818 mag (+-0.072 mag rms systematic)
+=> adopt BCv(K6V) = -0.75 mag [updated 12/23/2020; adjusted so that BCv(5772K)=-0.085]
 
-logL(K6V) = -0.923 dex ; Mv=7.88, BCv=-0.818 => Mbol = 7.062
-=> adopt logL(K6V) = -0.923 dex
-=> adopt Mbol(K6V) =  7.062 mag 
+BC_Ks(K6V) = 2.329 mag ; Morrelli19 for G-Ks=2.57 
 
-Mass(K6V) = 0.72 Msun ; EEM Mv vs. Mass fit for binaries (Mv=7.88)
-Mass(K6V) = 0.72 Msun ; M_Ks=4.69 => Delfosse10 calibration
-Mass(K6V) = 0.69 Msun ; EEM Teff vs. Mass fit for binaries (Teff=4300K)
-Mass(K6V) = 0.66 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.96)
-Mass(K6V) = 0.65 Msun ; Eker15 calibration for logL=-0.923
-=> adopt Mass(K6V) = 0.70 Msun
+logL(K6V) = -0.860 dex ; Mv=7.64, BCv=-0.75 => Mbol = 6.890
+=> adopt logL(K6V) = -0.860 dex [updated 3/2/2021]
+=> adopt Mbol(K6V) =  6.890 mag [updated 3/2/2021]
+
+Rad(K6V) = 0.76 +- 0.06 Rsun ; exemplar GJ 818 
+Rad(K6V) = 0.6756       Rsun ; logL=-0.852, Teff=4300K 
+=> adopt Rad(K6V) = 0.669 Rsun [updated 3/2/2021]
+
+Mass(K6V) =  0.751 Msun ; Delfosse10 calibration for M_Ks=4.56
+Mass(K6V) =  0.691 Msun ; EEM Mv vs. Mass fit for binaries (Mv=7.64)
+Mass(K6V) =  0.690 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.860)
+Mass(K6V) = 0.683 Msun ; Eker18 calibration for logL=-0.86
+Mass(K6V) =  0.673 Msun ; Eker15 calibration for logL=-0.86
+Mass(K6V) = 0.663 Msun ; Mann18 calib for M_Ks=4.56
+=> adopt Mass(K6V) = 0.68 Msun [updated 3/2/2021]
+
 
 # No Standard
 
 JM53, Wilson62, Houk75, KeenanMcNeil76, Keenan85, Corbally86,
 Kirkpatrick91, GrayNstars, Henry02 do not list any K6V standard.
 
-# Standard
+# Primary Standard
 
-GJ 529 = HD 120467 = BD-21_3781 = HIP 67487 (J1349-2206)
-  K6V: Adams35,Cowley67,Keenan88(K6Va),Keenan89(K6Va)
-  K5.5V(k) : Gray06
-  K5V: Upgren72,Stephenson86,Bidelman85(Kuiper,K5)
+GJ 529 = HD 120467 = BD-21_3781 = HIP 67487 = LHS 363 (J1349-2206)
   K4V: Popper43
+  K5V: Upgren72,Stephenson86,Bidelman85(Kuiper,K5)
+  K5.5V(k) : Gray06
+ *K6V: Adams35,Cowley67,Keenan88(K6Va),Keenan89(K6Va)
   M0V: Joy74
 
-  B-V = 1.257+-0.026 (HIP), Mv=7.38 (calc with HIP2 plx). So the B-V
-  is close to the median of Gray+'s K6Vs. [Fe/H] = 0.23+-0.06
-  (Ramirez12), [Fe/H]=0.24 (Luck05).  Teff = 4356+-43 K
-  (Gonzalez-Hernandez09), 4200K (Luck05), 4197K (Schroder09),
-  4149+-85K(Ramirez12) => median Teff= 4200K. Keenan88 and Keenan89
-  considered it a K6V standard, but Gray06 considered it K5.5V(k)
-  rather than K6V.  Ramirez05 calls it thick disk.
+  Keenan88 and Keenan89 considered it a K6V standard, but Gray06
+  considered it K5.5V(k) rather than K6V.  B-V is close to the median
+  of Gray+'s K6Vs. Metal-rich (Fe/H]~+0.24) and ~0.30 mag above the
+  Wright04 MS.  Ramirez05 calls it thick disk.
+  V=8.161+-0.025(Mermilliod91), V=8.16(HIP), B-V =1.257+-0.026(HIP),
+  B-V=1.261(Koen10), B-V=1.264+-0.017(Mermilliod91),
+  V-I=1.40+-0.02(HIP), U-B=1.239+-0.097(Mermilliod91).
+  J=5.919+-0.019(2MASS), H=5.323+-0.023(2MASS),
+  Ks=5.160+-0.020(2MASS), V-Ks = 8.16 - 5.160 = 3.00 (HIP,2MASS).
+  PASTEL medians: <Teff> = 4356K(N=5), <logg>=4.5(N=2, Luck05,06),
+  <[Fe/H]>=0.24(N=2, Luck05,06). GaiaDR2: plx=71.1199+-0.0843mas,
+  G=7.6831+-0.0005, Bp-Rp=1.5187, Bp-G=0.7270,
+  G-Rp=0.7917. M_G=6.943+-0.003, Mv=7.42+-0.01, M_Ks=4.42+-0.02.  G-V
+  = 7.6831-8.16 = -0.477.
 
-# Variant
+# Exemplars
 
-GJ 380 = HD 88230 = LHS 280 
-  K7V: Popper56,Wilson62,Boeshaar76,Sato90,Kirkpatrick91(pri),Henry02
-  K8V: Gray03
-  K6Ve Fe-1: Keenan89
-  M0V: Adams26,Joy74
-  K9Ve: Jaschek78(Cowley67)
+GJ 39 = HD 4913 = HIP 3998 = StKM 2-74 
+  K6-V: Gray03
+ *K6V: Houdebine11,Stephenson86,Bidelman85(K6),Joy48
+  M0V: Vyssotsky43
+
+  12" binary, confirmed to be comoving, codistant in GaiaDR2.
+  Companion is G=15.33 compared to G=8.75 for primary. Stands out has
+  having 5 K6V classifications (if you include Gray03 K6-V).
+  V=9.22(HIP), V=9.224+-0.012(Mermilliod91), B-V=1.194+-0.004(HIP),
+  B-V=1.197+-0.004(Mermilliod91), U-B=1.161+-0.014(Mermilliod91),
+  V-I=1.32+-0.01(HIP). J=6.952+-0.021(2MASS), H= 6.380+-0.016(2MASS),
+  Ks=6.239+-0.021(2MASS), V-Ks = 9.224 - 6.239 =
+  2.985(Mermilliod91,2MASS).  Teffs: 4122+-70K(Houdebine12),
+  4342K(Mishehina12) => <Teff> = 4232K.  [Fe/H]=0.05(Mishenina12),
+  [FE/H]=0.12(Mishenina08) => <[Fe/H]> ~ +0.08. logg=4.40(Mishenina12). GaiaDR2:
+  G=8.7563+-0.0004, Bp-Rp=1.4925, Bp-G=0.7109, G-Rp=0.7816.  GaiaDR2:
+  plx=44.9546+-0.0530, G=8.7563+-0.0004, E(BR/RP)=1.256, Bp-Rp=1.4925,
+  Bp-G=0.7109, G-Rp=0.7816. G-V = 8.7563-9.224 =
+  -0.4677. M_G=7.020+-0.003, Mv=7.488+-0.012, M_Ks=4.503+-0.021. 
+
+GJ 818 = HD 200779 = Lalande 40844 = G 25-16 = ENG 80A = LHS 3624
+  M0V: Vysottsky56
+  K7V: Roman55
+ *K6V: Adams14,Adams35,Gray03
+  K5V: Stephenson86
+  K4: Bidelman85
+
+  Adams & Pease (1914) listed the 10 stars of the lowest luminosity
+  known at the time.  1 was a white dwarf, 1 was Lalande 40844
+  (GJ818), and the rest were Ma, Mb types. V=8.298+-0.016(Mermilliod91),
+  V=8.27(HIP), B-V=1.229+-0.014(Mermilliod91), B-V=1.119+-0.015(HIP),
+  V-I=1.36+-0.02(HIP), U-B=1.177+-0.022(Mermilliod91),
+  J=6.040+-0.023(2MASS), H=5.485+-0.027(2MASS),
+  Ks=5.306+-0.024(2MASS), V-Ks=2.992+-0.029.  plx =
+  66.4656+-0.0394mas(GaiaDR2), Mv=7.41+-0.02(Mermilliod91,
+  GaiaDR2). PASTEL: median Teff = 4444K (N=6), logg=4.3 (N=4),
+  [Fe/H]=0.05 (N=4). GaiaDR2: plx=66.4656+-0.0394mas,
+  G=7.8095+-0.0003, E(BR/RP)=1.259, Bp-Rp=1.5067, Bp-G=0.7184, G-Rp=0.7883.
+  Mv=7.383+-0.010, M_G=6.922+-0.001, M_Ks=4.419+-0.024.
+  G-V=7.8095 - 8.27 = -0.461. 
+
+HD 72928 = StKM 1-709 = UGP 185
+  K5V: Houk88
+  K5.9: Houdebine19(dK5.9 "Subdwarf?")
+ *K6V(k): Gray06,Stephenson86(K6)
+  K6.3: Houdebine16(dK6.3)
+  K7V: Upgren72
+
+  Houdebine19 lists two components A and B for HIP42108 but the system
+  is NOT mentioned as binary anywhere else, notably not in WDS or
+  SB9. Absolute magnitude is typical for K6Vs, but Houdebine16 labels it "subdwarf?"
+  and estimates low metallicities of [Fe/H] ~ -0.4. 
+  V=10.28(HIP,Mermilliod91), B-V=1.240+-0.015(HIP),
+  V-I=1.20+-0.01(HIP), Ks=7.063+-0.023(2MASS), V-Ks= 10.28 - 7.063 =
+  3.217.  Teffs: 4150K(Houdebine16#1), 4160+-10K(Houdebine16#2),
+  4230K(Morrell19), 4234K(GaiaDR2), 4280K(Houdebine19/A),
+  4291K(Houdebine19/B), 4451K(Stevens17), 4643K(Stassun18) => <Teff> =
+  4257K. Metallicities: [M/H]=-0.463(Houdebine16#2),
+  [Fe/H]=-0.37(Houdebine16), [Fe/H]=0.0(GaiaDR2) => adopt <[Fe/H]> ~ -0.37.  Mv=7.59, M_Ks=4.37.
+  GaiaDR2: plx=28.9916+-0.1167mas(GaiaDR2), G=9.7152+-0.0004, E(BR/RP)=1.269, Bp-Rp=1.5911,
+  Bp-G=0.7690, G-Rp=0.8220. G-V=9.7152-10.28 = -0.5648. M_G=7.027+-0.009,
+  Mv=7.591+-0.013, M_Ks=4.374+-0.025. Rad=0.571Rsun(Houdebine16). 
+
+GJ 412.3A = GJ 9347 = HIP 54418 = LHS 6197 = LTT 4101 = CD-27 7881 = UGP 252
+  K5: Bidelman85
+  dK5.6: Houdebine16
+ *K6V(k): Gray06
+  dK2.2: Houdebine19
+  K7V: Upgren72
+
+  Houdebine19 lists Gl 412.3A and B and assigns identical parameters
+  "Binary?".  Likely unresolved binary as the Gaia DR2 parallax error
+  seems high (0.3mas), Kervella19 detects perturbation between Gaia
+  and Hipparcos of dV/dt=3757+-100 m/s, and it is seems to be couple
+  tenths mag above MS.  V=9.32(HIP), V=9.321+-0.010(Mermilliod91),
+  B-V=1.237+-0.010(HIP), B-V=1.243+-0.016(Mermilliod91),
+  U-B=1.178+-0.006(Mermilliod91), V-Ic=1.47+-0.01(HIP),
+  Ks=6.133+-0.018(2MASS), V-Ks = 9.321 - 6.133 = 3.188. GaiaDR2:
+  plx=36.8377+-0.3025mas, G=8.8013+-0.0003, E(BR/RP)=1.273,
+  Bp-Rp=1.5786, Bp-G=0.7573, G-Rp=0.8213.  Mv=7.15,
+  M_G=6.633+-0.018. M_Ks=3.964+-0.025. G-V = 8.8013 - 9.321 = -0.520.
+  Teffs: 4220+-100K(Houdebine16), 4250K(GaiaDR2#1), 4260+-100K(Bai19),
+  4263+-76K(Houdebine16#2), 4271+-38K(Masana06,Stassun19),
+  4321K(GaiaDR2#2), 4345+-12K(Stevens17), 4370K(Houdebine16#3),
+  4375K(Favata97) => <Teff>=4271K. [Fe/H] = -0.25(Houdebine16),
+  [M/H]=-0.215(Houdebine16#2), [Fe/H]=-0.03+-0.19(Favata97),
+  [Fe/H]=0.0(GaiaDR2) => adopt [Fe/H] ~ -0.2.  Rad =
+  0.634Rsun(Houdebine16).
+
+GJ 249 = HD 49601 = HIP 32919 = LHS 1874 = LTT 11932 = 2MASS J06513242+4722050
+  K5: Bidelman85,Luo18(#1,LAMOST)
+  dK5.2: Houdebine16
+ *K6V: Joy47,Gray06
+  K7: Luo18(#2,LAMOST)
+  K8V: Vyssotksy52
+  M1: Lee47
+
+  V=8.95(HIP,Tycho), V=8.99+-0.01(Mermilliod91),
+  B-V=1.232+-0.004(HIP), B-V=1.235+-0.005(Mermilliod91),
+  U-B=1.160(Mermilliod91), V-Ic=1.39+-0.00(HIP),
+  Ks=5.897+-0.017(2MASS), V-Ks = 8.98 - 5.897 = 3.083. GaiaDR2:
+  plx=53.5873 0.0377mas, G= 8.4570 0.0005, E(BR/RP)=1.258,
+  Bp-Rp=1.5306, Bp-G=0.7360, G-Rp=0.7947.  Mv=7.635+-0.010,
+  M_Ks=4.542+-0.017, M_G=7.102+-0.002. G-V = 8.4570 - 8.99 = -0.533.
+  Teffs: 4000K(GaiaDR2#1), 4101K(Anders19),
+  4170+-108K(Luo18#1,Luo19#1), 4197+-21K(Wu11),
+  4198+-113K(Luo18#2,Luo19#2), 4224+-60K(Luo16,LAMOST).
+  4265K(GaiaDR2#2), 4282+-121K(Stassun19), 4294+-100K(Houdebine16#1),
+  4321+-27K(Houdebine16#2), 4462+-13K(Stevens17) => <Teff> = 4224K.
+  [Fe/H] = -0.178+-0.100(Luo18#1,Luo19#1), -0.17+-0.06(Wu11),
+  -0.112+-0.120(Luo16), +0.012+-0.106(Luo18#2,Luo19#2) => <[Fe/H]> ~
+  -0.14.  Star is only 0.06mag below MS of Wright04.
+
+HIP 11739 = BD-20 470 = LP 770-35 = UGP 38 = StKM 2-218 = 2MASS J02313078-2001415
+  K5V: Stephenson86
+ *K6V(k): Gray06
+  K7V: Upgren72
+
+  V=10.24(HIP), B-V=1.253+-0.012(HIP), V-I=1.42+-0.02(HIP),
+  Ks=7.165+-0.020(2MASS) => V-Ks = 10.24 - 7.165 = 3.075.  plx =
+  30.2371+-0.0560mas(GaiaDR2), Mv=7.64, M_Ks=4.57.  GaiaDR2:
+  plx=30.2371+-0.0560, G=9.7027 0.0006, E(BR/RP)=1.261, Bp-Rp=1.5430,
+  Bp-G=0.7417, G-Rp=0.8013. M_G=7.105+-0.004, Mv=7.643+-0.011,
+  M_Ks=4.568+-0.020, G-V=10.24-9.7027=-0.5373. Teffs:
+  4000K(GaiaDR2#1), 4210K(GaiaDR2#2), 4263+-128K(Stassun19),
+  4306+-59K(Bai19), 4312K(Anders19), 4397+-9K(Stevens17) =>
+  <Teff>=4285K. [Fe/H]=0.0(GaiaDR2; but assumes logg=3.0!)
+
+# Depricated Standard
+
+GJ 380 = HD 88230 = LHS 280
   K5V: Cannon(K5),Hawley97
-  Keenan89 lists it as K6Ve Fe-1 standard. 
+  K6Ve Fe-1: Keenan89
+ *K7V: Popper56,Wilson62,Boeshaar76,Sato90,Kirkpatrick91(pri),Henry02
+  K8V: Gray03
+  K9Ve: Jaschek78(Cowley67)
+  M0V: Adams26,JM53(non-stan,"dM0"),Joy74
+
+  Keenan89 lists it as K6Ve Fe-1 standard. PASTEL median: <Teff> =
+  4030K(N=8), <logg>=4.505(N=2), two metallicities:
+  [Fe/H]=-0.03+-0.18(Woolf05), 0.28(Oinas77).
+
+# Other Stars
+
+HD 35650 = HIP 25283 = RBS 646 = CPD-39 657 = CD-39 1951 = SAO 195825 =
+  K2: Cannon18
+ *K6Vke: Gray06,Torres06(K6V)
+
+  AB Dor Moving Group member.  V=9.079(Koen10), B-V=1.286(Koen10),
+  U-B=1.175(Koen10), V-Rc=0.786(Koen10),
+  V-Ic=1.458(Koen10). J=6.702+-0.018, H=6.105+-0.026, Ks=5.921+-0.018.
+  GaiaDR2: plx=57.2104+-0.0281mas, G=8.5263+-0.0011, E(BR/RP)=1.260,
+  Bp-Rp=1.5717, Bp-G=0.7632, G-Rp=0.8085. Mv=7.866+-0.01,
+  M_G=7.314+-0.001, M_Ks=4.708+-0.018. G-V = 8.5263-9.079 = -0.553.
+  V-Ks=9.079-5.921 = 3.158.
+
+GJ 898 = HD 221503 = HIP 116215  = BD-17 6769 = StKM 2-1742 = UGP 611 = G 273-68
+  K5V: Stephenson86,Bidelman85(K5),Upgren72,Joy49
+ *K6Vk: Gray06,Torres06(K6V)
+  K8V: Munch44
+  M0Vp: Vyssotsky56
+
+  V=8.59(HIP), B-V=1.290+-0.010(HIP), V-I=1.47+-0.02(HIP),
+  Ks=5.473+-0.016(2MASS), V-Ks = 8.59 - 5.473 = 3.117.  Teffs:
+  4205K(GaiaDR2), Has WDS designation (J23328-1651A), however I can
+  find no evidence of a B component. Maybe related to GJ 897AB (HIP
+  116191)?  GJ 898 has pm=+341, -219 mas/yr (GaiaDR2), while GJ897 has
+  pm=+352,-216 mas/yr (Tycho-2) or +350,-218 mas/yr (PPMX).  So GJ897
+  does appear to be a CPM system at separation 339".  GaiaDR2:
+  68.6979+-0.0581mas, G=8.0816 0.0008, E(BR/RP)=1.265, Bp-Rp=1.5850,
+  Bp-G=0.7686, G-Rp=0.8164.  M_G=7.266+-0.002, Mv=7.775+-0.010,
+  M_Ks=4.658+-0.016. G-V = 8.0816 - 8.59 = 
+
+GJ 370 = HD 85512 = LHS 2201 = HIP 48331 = 2MASS J09510700-4330097
+  K5V: Evans57,Upgren72,Bidelman85(K5)
+ *K6V(k): Gray06
+  M0V: Houk78
+
+  PASTEL compendium medians: <Teff> = 4433K (N=7), logg=4.39(N=3),
+  [Fe/H] = -0.26(N=3). V=7.636+-0.023(Mermilliod91), V=7.67(HIP),
+  B-V=1.150+-0.023(Mermilliod91), B-V=1.156+-0.012(HIP),
+  U-B=1.095+-0.024(Mermilliod91),
+  V-I=1.34+-0.01. J=5.451+-0.018(2MASS), Ks=4.717+-0.021(2MASS).  V-K
+  = 7.67 - 4.717 = 2.953. GaiaDR2: plx=88.6158+-0.0406mas,
+  G=7.1873+-0.0003, E(BR/RP)=1.251, Bp-Rp=1.4640, Bp-G=0.6953, G-Rp=0.7687.
+  M_G=6.925+-0.001, Mv=7.374+-0.023, M_Ks=4.455+-0.021. 
+
+CD-49 3617 = GJ 308.3 
+  K5.2: Houdibine19
+  K5/7: Stephenson75
+  K6V(k): Gray06
+
+HIP 1044 = CD-45 35 = Smethells 155 = UGP 2 = 2MASS J00130257-4510362 
+  K5: SpencerJones39
+ *K6V(k): Gray06
+  K7V: Upgren72
+  M0V: Smethells74
+
+  V=10.74(HIP),Ks=7.567+-0.026(2MASS), V-Ks=3.173,
+  B-V=1.308+-0.002(HIP). plx=25.7249+-0.0388mas(GaiaDR2). Mv=7.79,
+  M_Ks=4.62. Appears to be significantly redder than other K6V
+  standards and two other classifications since 70s (Upgren,
+  Smethells) place it later than K6V - so I've not included it as an
+  exemplar.
+
+HIP 108020 = UGP 539 = Smethells 92
+  K6V: Upgren72
+ *K6.5V: Gray06
+  K7V: Smethells92
+
+  One of only two stars classified K6V by Upgren72.
+
+GJ 546 = HIP 70218 = BD+30 2512 = StKM 2-1041
+  K4/5V: Stephenson86
+  K5V: Wilson62
+ *K6V: Gray03
+  K7: Bidelman85
+  K8V(e): Cowley67
+  M0V: Adams26,Lee47,Vyssotksy52(M0Vp)
+  M0.5V: Joy74
+
+  Remarkable wide array of published types from K4 to M0.5.  One of
+  only two stars classified by Cowley67 as K8V.  Published metallicity
+  estimates are all over the place: [Fe/H] = 0.21(Luck17),
+  -0.06(Gonzalez-Hernandez09), -0.21(Houdebine16),
+  [M/H]=-0.22(Houdebine19), [M/H]=-0.253(Houdebine16),
+  -1.50(Alonso96).  Velocity vector: U,V,W = -23.4, -51.7, -19.0
+  km/s(Ridel17) seems disk-like.
+  
+HIP 13886 = CD-55 624 = CPD-55 479 = UGP 48 = 2MASS J02584910-5448152
+  K5V: Upgren72
+  K6V: Torres06
+ *K6+Vk: Gray06
+
+  Is a companion TYC source TYC 8492-1451-2. 
+
+GJ 186 = HUP 23516 = CD-23 2363 = CPD-23 683 = UGP 104 = StKM 2-401 = BEU 7 = MCC 113
+  K5V: Upgren72,Stephenson86(K5:V)
+ *K6V: Gray06
+  K7: Bidelman85
+  M0V: Vyssotsky46
+  M0.5V: Joy74
+  
+HD 34751A = HIP 24783 = MCC 114 = UGP 110 = DON 101A = BD-21 1131 = WDS J05189-2124A
+  K3/5V: Houk88
+  K5V: Upgren72
+ *K6Vk: Gray06
+  K7V: Reid95
+  M0V: Joy74
+
+  M3.5Ve companion at 5". 
+    
+GJ 9714 = HD 199981 = HIP 103768 = CD-33 15343 = LTT 8325 = UGP 511
+  K5V: Upgren72,Houk82
+ *K6V(k): Gray06
+  M0V: Vyssotsky56
+
+HD 17230
+ *K6V: Gray03
+  K6/7V: Stephenson86
+  K8V: Vyssotsky56
+

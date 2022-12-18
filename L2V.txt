@@ -1,11 +1,114 @@
 L2V
 
-Hawley02 standard:   Kelu 1 - L2V
+Kirkpatrick99 standard:            Kelu-1 - L2V
+Hawley02 standard:                 Kelu-1 - L2V
+Kirkpatrick05 standard:            Kelu-1 (J13054019-2541059) - L2V ("optical anchor")
+Reid08 standard:                   Kelu-1 (2MASS J13054019-2541059) - L2 (pri. stan.)
+                                   2MASS J08472872-1532372 - L2 (sec. stan.)
+Kirkpatrick09(GrayCorbally) stan.: Kelu-1 (2MASS J13054019-2541059) (primary optical standard)
+Kirkpatrick10 standard:            Kelu-1AB (2MASS J13054019−2541059) - L2V (near-IR standard)
 
-Teff(L2V) = 2200 K
+Teff(L2V) = 2058 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-4.552
+Teff(L2V) = 2054 K ; Dupuy17(Lyon model scale)
+Teff(L2V) = 1994 K ; Dupuy17(SaumonMarley08 scale)
+Teff(L2V) = 1964 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L2V) = 1959 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L2V) = 1850 K ; Cifuentes20 <Teff> for CARMENES L2V(N=15)
+=> adopt Teff(L2V) = 2060 K (logT = 3.314) [updated 4/17/2020]
+
+(V-Ks)(L2V) =  9.49 ; 2MASS J11553952-3727350 (Henry18)
+(V-Ks)(L2V) =  9.77 ; trend fit to Dahn17 for L2V
+(V-Ks)(L2V) =  9.87 ; 2MA0847-1532 (Dieterich14)
+(V-Ks)(L2V) =  9.88 ; smoothed trend to V-Ks vs. SpT Dieterich14 data
+(V-Ks)(L2V) = 10.02 ; 2MASS_J13054019-2541059 L2+L3.5 (Dahn17)
+(V-Ks)(L2V) = 10.28 ; Kelu1AB
+=> adopt (V-Ks)(L2V) = 9.90 [updated 8/17/2020]
+
+(V-I)(L2V) = 4.39 ; pri. stan. Kelu-1 (Dieterich14,Johnson-Cousins)
+(V-I)(L2V) = 5.15 ; 2M0847-1532 (Dieterich14,Johnson-Cousins)
+(V-I)(L2V) = 5.23 ; pri. stan. Kelu-1 (Dieterich14, Bessell)
+=> adopt (V-Ic)(L2V) = 5.2 [updated 7/4/2020]
+
+(J-H)(L2V) = 0.890 (+-0.14 rms); SIMBAD d<30pc trend for Ldwarfs
+=> adopt (J-H)(L2V) = 0.89 [updated 8/6/2020]
+
+(H-Ks)(L2V) = 0.576 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+=> adopt (H-Ks)(L2V) = 0.58 [updated 8/6/2020]
+
+(Bp-Rp)(L2V) = 4.6487  ; pri. stan. Kelu-1
+
+(Bp-G)(L2V)  = 2.7788  ; pri. stan. Kelu-1
+
+(G-Rp)(L2V)  = 1.8699  ; pri. stan. Kelu-1
+(G-Rp)(L2V)  = 1.70    ; Kiman19
+
+(G-V)(L2V)   = -3.1124 ; pri. stan. Kelu-1
+
+
+M_G(L2V) = 16.8397 ; 2MASS J10452400-0149576        
+M_G(L2V) = 17.1079 ; 2MUCD 20388
+M_G(L2V) =  17.11  ; Kiman19
+M_G(L2V) = 17.1443 ; 2MUCD 20870
+M_G(L2V) = 17.21   ; trend for d<20pc late Ms/early Ls
+M_G(L2V) = 17.2169 ; 2MASS J04455387-3048204
+M_G(L2V) = 17.238  ; Reyle18 polynomial
+M_G(L2V) = 17.2638 ; SSPM J0829-1309
+M_G(L2V) = 17.27   ; median for d<25pc L2s in SIMBAD
+M_G(L2V) = 17.2831 ; 2MASS J11553952-3727350
+M_G(L2V) = 17.313  ; pri. stan. Kelu-1
+M_G(L2V) = 17.6035 ; 2MASS J21041491-1037369        
+M_G(L2V) = 17.7866 ; 2MASS J05085506+3319272        
+M_G(L2V) = 18.2242 ; 2MASS J04041807+4127398        
+M_G(L2V) = 18.2408 ; 2MASS J13482456-4227441       
+M_G(L2V) = 18.7977 ; 2MASS J17392515+2454421
+=> adopt M_G(L2V) = 17.3 [adopted 4/17/2020]
+
+
+M_J(L2V)    = 12.312 ; Reyle18 polynomial
+M_J(L2V)    = 12.474 ; EEM fit to L/T dwarfs d<25pc
+=> adopt M_J(L2V) = 12.47 [updated 12/30/2020]
+
+
+M_H(L2V)    = 11.481 ; Reyle18 polynomial
+
+(G-Rp)(L2V) =  1.706 ; Reyle18 polynomial
+(G-J)(L2V)  =  4.899 ; Reyle18 polynomial
+(J-Ks)(L2V) =  1.324 ; Reyle18 polynomial
+
+Mv(L2V) = 20.9  ; V-Ks=10.0, M_Ks=10.9
+Mv(L2V) = 20.78 ; 2MA0847-1532 (Dieterich14)
+Mv(L2V) = 20.61 ; Kelu1AB (Dieterich14)
+Mv(L2V) = 20.43 ; Kelu1 (see below)
+=> adopt Mv(L2V) = 20.9 [updated 11/3/2019; V-Ks=10.0, M_Ks=10.9]
+
+M_Ks(L2V) =  10.33   ; Kelu1AB (Dieterich14)
+M_Ks(L2V) =  10.5823 ; 2MUCD 20870                   
+M_Ks(L2V) =  10.6217 ; 2MASS J10452400-0149576
+M_Ks(L2V) =  10.91   ; 2MA0847-1532 (Dieterich14)
+M_Ks(L2V) = 10.92   ; EEM fit to Dieterich14 trend V-Ks=10.0
+M_Ks(L2V) =  10.921  ; Reyle18 polynomial
+M_Ks(L2V) =  10.9359 ; 2MUCD 20388                   
+M_Ks(L2V) =  10.9359 ; 2MASS J04455387-3048204       
+M_Ks(L2V) =  10.9578 ; SSSPM J0829-1309
+M_Ks(L2V) = 11.00   ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
+M_Ks(L2V) = 11.01   ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L2V) = 11.03   ; median for 10 nearest L2s in SIMBAD
+M_Ks(L2V) =  11.0981 ; 2MASS J11553952-3727350 (V-Ks=9.49see below)      
+M_Ks(L2V) =  11.1925 ; 2MASS J21041491-1037369       
+M_Ks(L2V) =  11.2436 ; 2MASS J05085506+3319272       
+M_Ks(L2V) =  11.3732 ; 2MASS J04041807+4127398       
+M_Ks(L2V) =  11.4418 ; 2MASS J13482456-4227441 
+=> adopt M_Ks(L2V) = 11.00 [updated 12/30/2020]
+
+Mass(L2V) = 0.0753 Msun ; Mann18 calib for M_Ks=10.9
+=> adopt Mass(L2V) = 0.075 Msun [updated 11/3/2019]
 
 (R-I)(L2V) = 2.348 ; N=3 L2Vs in Liebert06 (+-0.070 sem, +-0.121 stdev)
 => adopt (R-I)(L2V) = 2.348 
+
+(H-Ks)(L2V)  = 0.56 (+-0.14 rms; N=25) ; Schmidt14
+(H-Ks)(L2V)  = 0.57 ; trend of Dieterich14 data for V-Ks=10.0
+=> adopt (H-Ks)(L2V) = 0.57
 
 <J-Ks>(L2V)  = 1.52  ; Faherty09
 (J-Ks)(L2V)  = 1.45 (+-0.17 rms; N=23) ; Schmidt14
@@ -15,26 +118,56 @@ Teff(L2V) = 2200 K
 (i-Ks)(L2V)  = 5.83 (+-0.12 rms; N=7) ; Schmidt14
 (z-J)(L2V)   = 2.59 (+-0.10 rms; N=14) ; Schmidt14
 (J-H)(L2V)   = 0.89 (+-0.13 rms; N=25) ; Schmidt14
-(H-Ks)(L2V)  = 0.56 (+-0.14 rms; N=25) ; Schmidt14
+
 (Ks-W1)(L2V) = 0.44 (+-0.10 rms; N=22) ; Schmidt14
+(Ks-W1)(L2V) = 0.477 ; Dupuy12 trend
+(Ks-W1)(L2V) = 0.571 ; Dupuy12 N=1
+=> adopt (Ks-W1)(L2V) = 0.47 [updated 12/28/2019]
+
 (W1-W2)(L2V) = 0.27 (+-0.06 rms; N=26) ; Schmidt14
 
+BC_Ks(L2V) = 3.264 mag ; Filipazzo15 (field)
+BC_Ks(L2V) = 3.282 mag ; Looper08 
+BC_K(L2V)  = 3.303 mag ; Golimowksi04
+BC_Ks(L2V) = 3.34  mag ; Schmidt14 (rms = 0.12)
+=> adopt BC_Ks(L2V) = 3.28 [updated 11/3/2019]
 
+logL(L2V) = -3.816 dex ; M_Ks=11.0, BC_Ks=3.28, MBol=14.28
+=> adopt logL(L2V) = -3.816 [updated 4/17/2020]
+=> adopt Mbol(L2V) = 14.280 [updated 4/17/2020]
 
-BC_K(L2V)    = 3.303 mag ; Golimowksi04
-BC_Ks(L2V)   = 3.34  mag ; Schmidt14 (rms = 0.12) 
+Rad(L2V) = 0.09703 Rsun ; logL=-3.816, Teff=2060K
+=> adopt Rad(L2V) = 0.0970 Rsun [updated 4/17/2020]
 
 
 Published Teffs for L1 and L2 dwarfs are nearly indistinguishable.
 
-# Examples
+# Primary Standard
 
-Kelu-1
-  L2V: Hawley02(stan)
+Kelu-1AB = 2MASS J13054019-2541059
+  L2V: Hawley02(stan),Kirkpatrick05(opt.anchor),Kirkpatrick09(pri.opt.stan.),Dieterich14(L2J)
 
-  V=21.77+-0.15(Dahn02), 11.80+-0.03(Dahn02).  V-K=9.97
+  V=21.77+-0.15(Dahn02), V=21.26(Dieterich14), Ic=16.87(Dieterich14),
+  V=22.03(Dieterich14,Bessell), I=16.80(Dieterich14,Bessell),
+  11.80+-0.03(Dahn02).  V-K=9.97.  V-Ic=4.39(Dieterich14,Cousins),
+  V-I=5.23(Dieterich14,Bessell), plx = 53.8492 0.7107 mas
+  (GaiaDR2). G=18.6576 0.0078, Bp = 21.4364 0.1679, Rp = 16.7877
+  0.0129, E(BR-RP) = 2.441, Bp-Rp=4.6487, Bp-G=2.7788, G-Rp=1.8699.
+  G-V = 18.6576 - 21.77 = -3.1124.  Mv = 20.426 0.153 mag
+  (Dahn02,DR2), M_G = 17.313 0.030 (DR2).
+
+# Others
 
 2M_1726+15
-	V=24.49+-0.26(Dahn02).
 
+  V=24.49+-0.26(Dahn02).
 
+2MASS J11553952-3727350 = 2MUCD 20431 
+ *L2e: Gizis02(Reid08)
+  L2.5: BardalezGagliuffi14(near-IR)
+  L3: Burgasser15
+
+  Nearby L dwarf (d=11.8pc). V=20.95(Henry18), Rc=18.38(Henry18),
+  Ic=16.17(Henry18), J=12.811+-0.024(2M), H=12.040+-0.026(2M),
+  Ks=11.462+-0.021(2M), V-Ks = 20.95 - 11.462 = 9.488.  GaiaDR2:
+  plx=84.5693+-0.1867mas. Mv=20.59, M_Ks=11.098+-0.022. 

@@ -1,6 +1,8 @@
 K3III
 
-alf Sct is probably the best southernly accessible K3III standard. 
+alf Sct is probably the best southernly accessible K3III standard.
+Looking at the distribution of spectral types for giants in xHIP for d<50pc, it appears
+that there is a huge drop off in numbers between K2III (common) and K3III (very rare).
 
 MK43 standards:		         del And - K3III-IV [in text, K3III on plates]
 				 alf Hya - K3III
@@ -36,6 +38,35 @@ Keenan89 standards:		 chi Oct (=HD 164461) - K3III
 				 HD 221246 - K3III
 GrayNstars standard:		 39 Cyg - K3III
 
+(J-H)(K3III) = 0.602 ; smoothed relation from giants in Skiff compendium w/i 15 deg of NGP, 2MASS photometry AAA flags
+=> adopt (J-H)(K3III)  = 0.602 [updated 10/30/2020]
+
+(H-Ks)(K3III) = 0.150 ; smoothed relation from giants in Skiff compendium w/i 15 deg of NGP, 2MASS photometry AAA flags
+=> adopt (H-Ks)(K3III) = 0.150 [updated 10/30/2020]
+
+(B-V)(K3III) = 1.268 ; HIP 3092 K3III 2003AJ....126.2048G
+(B-V)(K3III) = 1.298 ; pri. stan. rho Boo = HR 5429
+(B-V)(K3III) = 1.332 ; pri. stan. alf Sct = HR 6973 
+(B-V)(K3III) = 1.371 ; mean for N=5 K3III stars in Sloan15
+=> adopt (B-V)(K3III) = 1.37 [updated 10/30/2020]
+
+(V-Ks)(K3III) = 2.64 ; SIMBAD K3III (N=18) d<200pc, E(B-V)<=0.01 mag (rms=0.25mag)
+(V-K)(K3III)  = 2.92 ; pri. stan. rho Boo = HR 5429 (Johnson V-K)
+(V-Ks)(K3III) = 3.11 ; pri. stan. alf Sct = HR 6973  
+=> adopt (V-Ks)(K3III) = 2.64 [updated 11/3/2022]
+
+Mv(K3III) = 0.07 ; pri. stan. rho Boo = HR 5429
+Mv(K3III) = 0.07 ; pri. stan. alf Sct = HR 6973
+Mv(K3III) =  0.72 ; HIP 3092 K3III 2003AJ....126.2048G
+Mv(K3III) =  0.89 ; median K3III XHIP d<75pc
+=> adopt Mv(K3III) = 0.07 [updated 11/5/2022]
+
+Teff(K3III) =  4475 K ; sec. stan. chi Oct (see below)
+Teff(K3III) = 4278 K ; pri. stan. rho Boo (see below)
+Teff(K3III) = 4259 K ; pri. stan. alf Sct (see below)
+=> adopt Teff(K3III) = 4270 K (logTeff=3.630) [updated 11/5/2022]
+
+
 # No standard
 
 GrayCorbally10 do not list a K3III standard. 
@@ -43,13 +74,34 @@ GrayCorbally10 do not list a K3III standard.
 # Primary standards
 
 rho Boo = HR 5429 = HD 127665 (J1431+3022; V=3.57)
-    K3III: Adams35,MK43,Moore50,JM53,Deutsch69(stan),MK73(dagger)
+   *K3III: Adams35,MK43,Moore50,JM53,Deutsch69(stan),MK73(dagger)
     K3IIIb: Keenan81
     K3-III: Keenan89
 
-alf Sct = HD 171443 = HR 6973 (J1835-0814; V=3.8)
-    K3III: MK43,Moore50,Roman55,Deutsch69(stan),Keenan89(stan),Houk99
+    plx=19.8550+-0.1587mas(GaiaDR3), i.e. nearby and negligibly
+    reddened.  PASTEL values (Soubiran22): Teff=4278+-18K(N=9),
+    logg=1.94+-0.27(N=4), [Fe/H]=-0.17+-0.03(N=4).
+    V=3.581+-0.009(Mermilliod91), B-V=1.298+-0.007(Mermilliod91),
+    U-B=1.444+-0.006(Mermilliod91). 2MASS photometry Qflg=DBC:
+    Ks=0.756+-0.172(q=3). K=0.66(Johnson66) =>
+    V-K=2.921(Johnson). W1=2.791+-0.025(WISE), W=1.725+-0.015(WISE),
+    W3=0.499+-0.013(WISE), W4=0.554+-0.010(WISE). V-J=2.18(Ducati02),
+    V-K=2.99(Ducati02). Mv=0.07+-0.02.
+
+alf Sct = HR 6973 = HD 171443 (J1835-0814; V=3.8)
+   *K3III: MK43,Moore50,Roman55,Deutsch69(stan),Keenan89(stan),Houk99
     K2III: Schmitt71(CN strong),Bidelman85
+
+    plx=17.6952+-0.1911mas(GaiaDR3), so reddening negligible:
+    E(B-V)=0.002(Kervella22, STILISM) - adopt Av~0.006. PASTEL
+    compendium means from Soubiran22: Teff=4250+-22K(N=6),
+    logg=1.87+-0.26(N=3),
+    [Fe/H]=-0.07+-0.06(N=4). V=3.838+-0.013(Mermilliod91),
+    B-V=1.334+-0.006(Mermilliod91), U-B=1.529+-0.010(Mermilliod91).
+    2MASS photometry flags=DDD, all errors
+    <0.26mag. K=0.87(TwoMicronSkySurvey), Ks=0.73(Pickles10, SED
+    fit). V-Ks(estimated) = 3.838 - 0.73 = 3.108.  Mv=0.07+-0.03.
+    
 
 # Secondary standard
 
@@ -59,10 +111,13 @@ chi Oct = HR 6721 = HD 164461 (J1854-8736; V=5.4)
     K3II: Evans57
     K0: Cannon
 
+    Teff = 4475+-84 K (Stevens17). One wildly wrong Teff in PASTEL
+    compendium from Adelman93. 
+
 # Weak standard
 
 mu Aql = 6 Aql = HR 7990 = HD 198743 (V=4.7)
-   K3IIIb: Keenan76(via Garcia89)
+    K3IIIb: Keenan76(via Garcia89)
 
 alf Tuc = HD 211416 = HR 8502 (J2218-6015; V=2.9)
     K3III: LandyDessyKeenan66,Houk75,Keenan89
@@ -82,14 +137,14 @@ gam And
 
 alf Hya = HD 81797 = Alphard (J0927-0839; V=2.0)
     K3III: MK43
-    K3IIIa: Keenan63,Keenan89
+   *K3IIIa: Keenan63,Keenan89
     K3IIIab: Landi Dessy & Keenan66 
     K3II-III: Wilson57,Deutch69(stan)
     K4III: Stebbins56
     K4II-III: Moore50
 
     Not used as a standard after Deutsch69, but Keenan retained
-    as "K3" giant throughout MK43-Keenan89. Adopt "K3IIIa" from Keenan89
+    as "K3" giant throughout MK43-Keenan89. Adopt "K3IIIa" from Keenan89.
 
 51 And (J0137+4837; V=3.6)
     K3-III CN0.5: Keenan89 

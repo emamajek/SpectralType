@@ -1,0 +1,67 @@
+L7.5V
+
+Kirkpatrick09(GrayCorbally): 2MASS J08251968+2115521 - L7.5 (primary optical standard)
+
+(J-H)(L7.5V)  = 1.151 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
+=> adopt (J-H)(L7.5V) = 1.15 [updated 8/6/2020]
+
+(H-Ks)(L7.5V)= 0.638 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+=> adopt (H-Ks)(L7.5V) = 0.638 [updated 8/6/2020]
+
+Teff(L7.5V) = 1310 K ; Luhman16A (see below)
+Teff(L7.5V) = 1367 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L7.5V) = 1377 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L7.5V) = 1400 K ; Cifuentes20 <Teff> for CARMENES L7.5V(N=1)
+=> adopt Teff(L7.5V) = 1380K (logT = 3.140) [updated 12/26/2020]
+
+M_J(L7.5V) = 14.499 ; EEM fit to L/T dwarfs d<25pc
+M_J(L7.5V) = 15.18  ; exemplar Luhman16A
+
+M_K(MKO)(L7.5V)=13.0902 ; Gl_584C   7.5 calc using Kirkpatrick20 (plx=55.98mas)
+
+M_Ks(L7.5V)=  11.7496 ; DENIS_2252-1730 7.5 calc using Kirkpatrick20 (plx=59.1461mas)
+M_Ks(L7.5V)=  12.3416 ; WISE_1049-5319 7.5 calc using Kirkpatrick20 (plx=501.557mas)
+M_Ks(L7.5V)= 12.64    ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
+M_Ks(L7.5V)= 12.64    ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L7.5V)=  12.7796 ; LHS_2397aB  7.5 calc using Kirkpatrick20 (plx=69.4903mas)
+M_Ks(L7.5V)=  12.7946 ; SDSS_1520+3546 7.5 calc using Kirkpatrick20 (plx=57.4mas)
+M_Ks(L7.5V)=  12.911  ; 2MASS_2325+4251 7.5 calc using Kirkpatrick20 (plx=67.6385mas)
+M_Ks(L7.5V)=  12.9466 ; WISE_1800+0134 7.5 calc using Kirkpatrick20 (plx=127.4450mas)
+M_Ks(L7.5V)=  12.96   ; exemplar Luhman 16A 
+M_Ks(L7.5V)=  13.0902 ; Gl_584C   7.5 calc using Kirkpatrick20 (plx=55.98mas)
+=> adopt M_Ks(L7.5V) = 12.64 [adopted 12/30/2020]
+
+logL(L7.5V) = -4.67 ; Luhman 16A (Faherty14)
+
+# Exemplar 
+
+Luhman 16A = WISE J104915.57−531906.1A
+   L6/7.5: Lodieu15
+  *L7.5: Burgasser13(L7.5+-0.9,Faherty14 cites L7.5+-0.5),Kirkpatrick20(near-IR)
+   L8: Luhman13(L8+-1),Kniazev13(L8+-1),Kirkpatrick20(opt.)
+   L8.8: Luhman14
+
+   Famous nearby L/T binary at 2pc discovered by
+   Luhman13(2013ApJ...767L...1L), and a flux-reversal binary which
+   switches which component is brighter between J and K band.
+   Remarkably, Lodieu15 finds that A & B have essentially identical
+   luminoisities and statistically similar Teffs, despite the 2+
+   subtype differences. Faherty14 estimates B to be only ~30K cooler (1310+-30K for A,
+   1280+-75K for B). 
+   logL=-4.66+-0.08(Lodieu15).  
+   G=16.9317+-0.0053(GaiaDR2), 
+   J_MKO=11.53+-0.04(Burgasser13),
+   J=11.68+-0.05(Burgasser15,2MASS sys.),
+   H_MKO=10.37+-0.04(Burgasser13),
+   H=10.31+-0.05(Burgasser15,2MASS sys.),
+   K_MKO=9.44+-0.07(Burgasser13),
+   Ks=9.46+-0.08(Burgasser15,2MASS sys.)
+   plx=500.51+-0.11mas(Sahlmann15) =>
+   M_J = 15.177+-0.050, 
+   M_Ks = 12.957+-0.080.
+   Teff=1305_180-135K(Lodieu15), 1310+-30K(Faherty14), 1334+-58K(Kirkpatrick20) =>
+   <Teff> = 1310K. 
+   
+# Examples
+
+   

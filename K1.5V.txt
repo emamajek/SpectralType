@@ -1,12 +1,158 @@
 K1.5V
 
-Arguably, there is no good K1.5V standard. 
+Arguably, there is no good K1.5V standard. The Skiff MK compendium
+shows that there are no stars with multiple independent K1.5V
+classifications.  Gray06 classified 9 stars as K1.5V or variant,
+the B-V colors for which show remarkably tight scatter.
 
-# Weak Standard
-HD 13445 = HR 637
-  K1.5V: Keenan89,Keenan99
-  K1V: Gray06,Houk78
+Keenan99 standard: HD 13445 (HR 637) - K1.5V 
+
+(B-V)(K1.5V) = 0.820 ; deprecated stan. HD 13445
+(B-V)(K1.5V) = 0.859 ; N=9 Gray06 K1.5V stars (+-0.003 sem, +-0.009 rms)
+(B-V)(K1.5V) = 0.887 ; exemplar HD 205390 = GJ 833 = HIP 106696
+=> adopt (B-V)(K1.5V)   = 0.860 ; updated 2/22/2019
+=> adopt (U-B)(K1.5V)   = 0.530
+=> adopt (Bt-Vt)(K1.5V) = 1.000
+=> adopt (V-Ic)(K1.5V)  = 0.910
+=> adopt (V-Rc)(K1.5V)  = 0.476
+=> adopt (R-Ic)(K1.5V)  = 0.434
+=> adopt (V-J)(K1.5V)   = 1.560
+=> adopt (V-H)(K1.5V)   = 1.973
+=> adopt (V-Ks)(K1.5V)  = 2.069
+=> adopt (H-Ks)(K1.5V)  = 0.096
+=> adopt (J-H)(K1.5V)   = 0.413
+=> adopt (Ks-W1)(K1.5V) = 0.030
+=> adopt (V-Hp)(K1.5V)  = -0.144
+=> adopt (W1-W2)(K1.5V) = -0.063
+=> adopt (W1-W4)(K1.5V) = -0.016
+=> adopt (G-J)(K1.5V)   = 1.341
+=> adopt (G-Ks)(K1.5V)  = 1.850
+
+(G-V)(K1.5V) =  -0.285 ; HD 13445 PM* K1.5V
+(G-V)(K1.5V) = -0.265 ; interpolated between K1V-K2V 
+(G-V)(K1.5V) = -0.255 ; HD 85390 PM* K1.5V
+(G-V)(K1V)   = -0.253 ; smoothed fit f(SpT) G9V-M0V
+(G-V)(K1.5V) = -0.250 ; trend SIMBAD d<20pc for V-Ks=2.069
+(G-V)(K1.5V) =  -0.229 ; HD 119782 PM* K1.5Vk:
+=> adopt (G-V)(K1.5V) = -0.255 [updated 9/21/2021]
+
+(Bp-Rp)(K1.5V) = 1.0470  *_36_Oph_B  K1.5V(k)
+(Bp-Rp)(K1.5V) = 1.050   fit for V-Ks=2.069
+=> adopt (Bp-Rp)(K1.5V) = 1.05 [updated 7/17/2020]
+
+(G-Rp)(K1V)   = 0.56   ; K1V mean
+(G-Rp)(K1.5V) = 0.5820 ; *_36_Oph_B  K1.5V(k)
+(G-Rp)(K1.5V) = 0.592  ; fit for V-Ks=2.069
+(G-Rp)(K2V)   = 0.62   ; K2V mean
+=> adopt (G-Rp)(K1.5V) = 0.59 [updated 7/17/2020]
+=> adopt (Bp-G)(K1.5V) = 0.46 [updated 3/1/2019; Bp-Rp=1.05, G-Rp=0.59]
+
+Teff(K1.5V) = 5038K ; non-stan. HD 205390/GJ833
+Teff(K1.5V) = 5140K ; trend [Fe/H] vs. Teff (PASTEL compend.) for 25 Teffs/[Fe/H] pairs for Gray06 K1.5V stars (see below)
+=> adopt Teff(K1.5V) = 5140K [updated 9/26/2019]
+
+BCv(K1.5V) = -0.270 ; Casagrande08 calib for Teff=5140K, set so BCv(5772K)=-0.085
+BCv(K1.5V) = -0.253 ; Flower96 calib for Teff=5140K, set so BCv(5772K)=-0.085
+BCv(K1.5V) = -0.244 ; Masana06 calib for Teff=5140K, set so BCv(5772K)=-0.085
+BCv(K1.5V) = -0.237 ; Bessell98 calib for Teff=5140K, set so BCv(5772K)=-0.085
+BCv(K1.5V) = -0.230 ; Casagrande18 calib for Teff=5140K, set so BCv(5772K)=-0.085
+BCv(K1.5V) = -0.209 ; Bertone04 calib for Teff=5140K, set so BCv(5772K)=-0.085
+=> adopt BCv(K1.5V) = -0.24 [updated 9/26/2019, adjusted so that BCv(5772K)=-0.085]
+
+Mv(K1.5V) =  5.94 ; trend for FGK d<25pc SIMBAD for B-V=0.86
+Mv(K1.5V) = 5.95 ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.860
+Mv(K1.5V) =  5.96 ; deprecated stan. HD 13445 
+Mv(K1.5V) =  5.97 ; B-V=0.589, Wright04 calib
+Mv(K1.5V) =  6.33 ; exemplar HD 205390/GJ833/HIP106696
+=> adopt Mv(K1.5V)  = 5.95  [updated 9/26/2019]
+=> adopt M_G(K1.5V) = 5.695 [updated 12/10/2020] (Mv=5.95, G-V=-0.255)
+
+M_G(K1.5V) = 5.841 ; SIMBAD d<20pc trend for V-Ks=2.069
+
+=> adopt M_Ks(K1.5V) = 3.884 [updated 9/26/2019; Mv=5.95, V-Ks=2.066, last updated 8/2/2018]
+
+logL(K1.5V) = -0.388 ; Mv=5.95, BCv=-0.24, Mbol = 5.710
+=> adopt logL(K1.5V) = -0.388 [updated 9/26/2019]
+=> adopt Mbol(K1.5V) =  5.710 [updated 9/26/2019]
+
+Rad(K1.5V) = 0.807 Rsun ; logL=-0.388, Teff=5140K
+=> adopt Rad(K1.5V) = 0.807 Rsun [updated 9/26/2019]
+
+# Deprecated Standard
+
+HD 13445 = HR 637 = LHS 13
   K0V: Evans57
-  Only Keenan considered this a K1.5V, with all other authors 
-  classifying it earlier. 
+ *K1V: 1943HarCi.449....1H,Gray06,Houk78
+  K1.5V: Keenan89,Keenan99
+
+  Only Keenan considered this a K1.5V, with all other authors
+  classifying it earlier.  White dwarf companion (GJ 82B) of type DQ6
+  is ~2" away, probably contaminating the photometry. V=6.12(HIP),
+  B-V=0.812+-0.015(HIP), B-V=0.820+-0.004(Mermilliod91),
+  V-Ic=0.88+-0.02(HIP).  PASTEL compendium: <Teff> = 5190K(N=13),
+  [Fe/H] ~ -0.2, logg ~ 4.6-4.7. Mv=5.96. 
+
+# Exemplar
+
+HD 205390 = GJ 833 = HIP 106696 
+   K1V: Torres06
+  *K1.5V: Gray06
+   K2V: Evans57,Houk78
+
+   All types in K1-K2 range. Not in WDS. V=7.136+-0.005(Mermilliod91),
+   B-V=0.884+-0.005(Mermilliod91), B-V=0.887(Koen10), U-B=0.552+-0.207(Mermilliod91),
+   J=5.518+-0.035(2MASS), H=5.137+-0.053(2MASS),
+   Ks=4.970+-0.021(2MASS). PASTEL median Teff = 5038K(N=3),
+   [Fe/H]=-0.17+-0.03(Valenti05), logg=4.62+-0.06(Valenti05).
+   Mv=6.33+-0.02(Koen10).
+
+HD 205390
+   K1V: Torres06
+  *K1.5V: Gray06
+   K2V: Evans57,Houk78
+
+HD 17925 = HR 857
+   K0V: Joy47
+   K1V: Popper42,Munch44,Houk88
+   K1/2V: West72('mean of two')
+  *K1.5V(k): Gray06
+   K2V: Wilson62,
+   K3: Bidelman85
+
+# Other Stars
+
+36 Oph B = HR 6401 = HD 155885
+   G8V:: 1943HarCi.449....1H
+   K0V: 1923LicOB..10..169L(K0),Abt84,Corbally84
+  *K1Ve: Evans59, Bidelman85(K1)
+   K1.5V(k): Gray06
+   K2:III:: Houk82
+   K3V: Adams35
+
+   Not good agreement on type. Median is K1V. Mermilliod91 only
+   provides unresolved/combined B-V=0.859+-0.007, V=4.323+-0.015,
+   U-B=0.494+-0.017. Corbally84 provides resolved photometry:
+   V=5.11, B-V=0.86, U-B=0.53. 
+
+HD 177996 = GJ 4096 = HIP 94050 
+  *K1V: Evans61(K1Ve),Houk78,Lu83,Torres06
+   K1.5V(k): Gray06
+
+HD 92945 = GJ 3615 = V419 Hya = HIP 52462
+   K1V: Houk82,Torres06
+  *K1.5V(k): Gray06
+
+   Li-rich (EW(Li)=138mA;Torres06). V=7.75(Mermilliod91),
+   B-V=0.89(Mermilliod91), U-B=0.56(Mermilliod91).
+
+HD 6569 = UGP 16
+   K1V: Houk88,Torres06
+   K2V: Upgren72,McNeil86
+
+   Evenly split, adopt K1.5V.
+
+# Notes
+
+Querying the 9 Gray06 K1.5V stars through PASTEL compendium, and fitting to the Teffs, I find:
+Teff(K1.5V) = 5140K + 1.9003e2*[Fe/H]  ; rms = 63K
 

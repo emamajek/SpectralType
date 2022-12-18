@@ -1,35 +1,195 @@
 L0V
 
-Hawley02 standard:  2MASS J0345+2540 
+L dwarf standard stars (optical) were first defined in Kirkpatrick99, and near-IR standards were defined in Kirkpatrick10.
 
-Teff(L0V) = 2250 K 
+Kirkpatrick99 standard:      2MASP J0345432+254023 - L0
+Hawley02 standard:           2MASS J0345+2540 - L0
+Kirkpatrick05 standard:      2MASP J0345432+254023 - L0 ("optical anchor")
+Reid08 standard:             2MASS J03454316+2540233 - L0 (pri. stan.)
+                             2MASS J17312974+2721233 (LSPM J1731+2721) - L0 (sec. stan.)
+Kirkpatrick09(GrayCorbally): 2MASS J03454316+2540233 - L0 (primary optical standard)
+Kirkpatrick10 standard:      2MASS J03454316+2540233 - L0 (near-IR standard)
+
+Teff(L0V) =  2329 K ; Dupuy17(Lyon model scale)
+Teff(L0V) =  2299 K ; Dupuy17(SaumonMarley08 scale)
+Teff(L0V) = 2299 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-3.616
+Teff(L0V) =  2275 K ; Cifuentes20 <Teff> for CARMENES L0V(N=13)
+Teff(L0V) =  2249 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L0V) =  2238 K ; Kirkpatrick20 Table 13 polynomial
+=> adopt Teff(L0V) = 2300 K (logT = 3.362) [updated 1/15/2021]
+
+(V-Ks)(L0V) =  5.71 ; 2MASS_J10130734-1356204 usdL0 (Dahn17)
+(V-Ks)(L0V) =  9.25 ; DEN0652-2534
+(V-Ks)(L0V) =  9.33 ; 2MASS_J02281101+2537380 L0 (Dahn17)
+(V-Ks)(L0V) = 9.34 ; pri. stan. 2MASS_J03454316+2540233 L0 (Dahn17) pri. stan.
+(V-Ks)(L0V) = 9.44 ; smoothed fit to Dieterich SpT vs V-Ks
+(V-Ks)(L0V) = 9.45 ; trend fit to Dahn17 for L0V
+(V-Ks)(L0V) = 9.49 ; smoothed trend among L-type Dieterich14 objects
+(V-Ks)(L0V) =  9.58 ; 2MA0746+2000AB
+=> adopt (V-Ks)(L0V) = 9.40 [updated 8/17/2020]
+
+(G-Ks)(L0V) = 6.1167 ; pri. stan. 2MASS_J03454316+2540233
+=> adopt (G-Ks)(L0V) = 6.12 [updated 12/26/2020]
 
 Rc-Ic(L0V)  = 1.895 ; 2M23101846-1759090 Liebert07
 
-<J-Ks>(L0V)  = 1.31  ; Faherty09
-(J-Ks)(L0V)  = 1.20 (+-0.17 rms) ; Schmidt14 
+(V-I)(L0V) = 4.85 ; trend Dieterich14 SpT vs. V-I
+(V-I)(L0V) = 4.92 ; DENIS J0652-2534 (Dieterich14)
+=> adopt (V-I)(L0V) = 4.85 [updated 7/4/2020]
 
+(J-H)(L0V)   =  0.74 (+-0.16 rms) ; Schmidt14
+(J-H)(M9.5V) = 0.74  ; adopted
+(J-H)(L0V)   = 0.748 (+-0.14 rms) ; SIMBAD d<30pc trend for Ldwarfs
+(J-H)(L0V)   = 0.77  (+-0.06 rms) ; West08
+(J-H)(L0.5V) = 0.78  ; adopted
+(J-H)(L0V)   =  0.843 (+-0.033 sem,+-0.046 stdev) ; N=2 L0V Cruz03
+=> adopt (J-H)(L0V) = 0.76 [updated 1/15/2021]
+
+(H-Ks)(L0V)  = 0.539 (+-0.001 sem,+-0.004 stdev) ; N=2 L0V Cruz03
+(H-Ks)(L0V)  = 0.519 ; trend of Dieterich14 for V-Ks=9.45
+(H-Ks)(L0V)  = 0.505 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L0V)  = 0.50  (+-0.04 rms); West08
+=> adopt (H-Ks)(L0V) = 0.51 [last updated 8/6/2020]
+
+(J-Ks)(L0V)  = 1.382 (+-0.032 sem,+-0.045 stdev) ; N=2 L0V Cruz03
+(J-Ks)(L0V)  = 1.31  ; Faherty09
+(J-Ks)(L0V)  = 1.20 (+-0.17 rms) ; Schmidt14
+
+(r-i)(L0V)   = 2.49 (+-0.09 rms) ; West08
+
+(i-z)(L0V)   = 1.84 (+-0.06 rms) ; West08
 (i-z)(L0V)   = 1.82 (+-0.10 rms) ; Schmidt14
+
 (i-J)(L0V)   = 4.22 (+-0.21 rms) ; Schmidt14
+
 (i-Ks)(L0V)  = 5.44 (+-0.29 rms) ; Schmidt14
+
+(z-J)(L0V)   = 2.45 (+-0.11 rms) ; West08 
 (z-J)(L0V)   = 2.37 (+-0.15 rms) ; Schmidt14
-(J-H)(L0V)   = 0.74 (+-0.16 rms) ; Schmidt14
+
 (H-Ks)(L0V)  = 0.46 (+-0.16 rms) ; Schmidt
+
 (Ks-W1)(L0V) = 0.32 (+-0.14 rms) ; Schmidt14
+(Ks-W1)(L0V) = 0.366 ; Dupuy12 trend
+=> adopt (Ks-W1)(L0V) = 0.36 [updated 12/28/2019]
+
 (W1-W2)(L0V) = 0.27 (+-0.07 rms) ; Schmidt14
 (W2-W3)(L0V) = 0.44 (+-0.11 rms) ; Schmidt14
 
-BC_K(L0V)    = 3.205 mag ; Golimowksi04
-BC_Ks(L0V)   = 3.26  mag ; Schmidt14 (rms = 0.15) 
+M_J(L0V)    = 11.542 ; Reyle18 polynomial
+M_J(L0V)    = 11.761 ; EEM fit to L/T dwarfs d<25pc
+=> adopt M_J(L0V) = 11.76 [updated 12/30/2020]
 
-# Examples
+M_H(L0V)    = 10.783 ; Reyle18 polynomial
 
-2M_0345+2540
-   L0V: Hawley02(stan)
+(Bp-Rp)(L0V) =  4.0183 ; pri. stan. 2M 0345+2540
 
-   V=22.01+-0.08(Dahn02), K=12.62+-0.02(Dahn02), V-K=9.39.
+(G-Rp)(L0V) =  1.67   ; Kiman19
+(G-Rp)(L0V) =  1.648  ; Reyle18 polynomial
+(G-Rp)(L0V) =  1.636  ; M6.5-L2 color trend 
+(G-Rp)(L0V) =  1.6099 ; pri. stan. 2M 0345+2540
+=> adopt (G-Rp)(L0V) = 1.64 [updated 11/18/2020]
 
-# Trends
+(Bp-G)(L0V)  =  2.4084 ; pri. stan. 2M 0345+2540
+
+(G-J)(L0V)  =  4.683 ; Reyle18 polynomial
+(J-Ks)(L0V) =  1.197 ; Reyle18 polynomial
+
+M_G(L0V) =  15.1141 ; G 239-25B
+M_G(L0V) =   16.11  ; Kiman19
+M_G(L0V) =  15.6406 ; 2MUCD 20333
+M_G(L0V) =  16.148  ; Reyle18 polynomial
+M_G(L0V) = 16.41   ; trend for d<20pc late Ms & early Ls
+M_G(L0V) =  16.4187 ; LSPM J1731+2721               
+M_G(L0V) =  16.4461 ; 2MASS J15485834-1636018      
+M_G(L0V) =  16.5574 ; 2MASS J17565620-4805096       
+M_G(L0V) =  16.5614 ; 2MASS J03140344+1603056       
+M_G(L0V) =  16.6702 ; 2MASS J08593854+6341355       
+M_G(L0V) =  16.6798 ; Cl* Melotte 22 KPNO 2
+M_G(L0V) = 16.68   ; pri. stan. 2M 0345+2540 (see below)
+M_G(L0V) =  16.6975 ; 2MASS J12043036+3212595       
+M_G(L0V) =  16.966  ; 2MASS J15525906+2948485 
+=> adopt M_G(L0V) = 16.6 [adopted 7/6/2020]
+
+Mv(L0V) =  20.00 ; EEM fit to Dieterich14 data (V-Ks=9.45)
+Mv(L0V) = 19.97 ; M_Ks=10.57, V-Ks=9.4 
+Mv(L0V) =  19.88 ; pri. stan. 2M 0345+2540 (see below)
+Mv(L0V) =  19.79 ; DEN0652-2534 (Dieterich14)
+Mv(L0V) =  19.61 ; 2MA0746+2000AB (Dieterich14)
+=> adopt Mv(L0V) = 19.97 [updated 1/15/2021; V-Ks=9.4, M_Ks=10.57]
+
+(G-V)(L0V)   = -3.1984 ; pri. stan. 2M 0345+2540
+(G-V)(L0V)   = -3.37   ; M_G - Mv = 16.57 - 20.0
+=> adopt (G-V)(L0V) = -3.37 [updated 1/15/2021]
+
+M_Ks(L0V) =   7.87 ; Gaia_1831-0732 calc using Kirkpatrick20
+M_Ks(L0V) =   9.76 ; 2MUCD 20333
+M_Ks(L0V) =  10.03 ; 2MA0746+2000AB (Dieterich14)
+M_Ks(L0V) =  10.11 ; G 239-25B
+M_Ks(L0V) =  10.28 ; Reyle18 polynomial
+M_Ks(L0V) =  10.30 ; LSPM_1735+2634B calc using Kirkpatrick20
+M_Ks(L0V) = 10.44 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L0V) =  10.47 ; 2MASS J15525906+2948485
+M_Ks(L0V) = 10.53 ; fit to SIMBAD L/T dwarfs d<25pc (12/2020)
+M_Ks(L0V) =  10.53 ; LSPM J1731+2721
+M_Ks(L0V) =  10.54 ; DEN0652-2534 (Dieterich14)
+M_Ks(L0V) = 10.55 ; EEM fit to Dieterich14 data (V-Ks=9.45)
+M_Ks(L0V) =  10.56 ; 2MASS J17565620-4805096       
+M_Ks(L0V) =  10.57 ; 2MASS J03140344+1603056
+M_Ks(L0V) = 10.57 ; pri. stan. 2MASS J03454316+2540233       
+M_Ks(L0V) =  10.59 ; 2MASS J12043036+3212595
+M_Ks(L0V) = 10.63 ; Dieterich14 calib (V-Ks=9.45)
+M_Ks(L0V) =  10.66 ; 2MASS J08593854+6341355 
+=> adopt M_Ks(L0V) = 10.57 [updated 1/15/2021; V-Ks=9.40, Mv=19.90]
+
+M_K(MKO)(L0V)=10.1066 ; G_239-25B calc using Kirkpatrick20
+M_K(MKO)(L0V)=10.2806 ; LSPM_1735+2634B calc using Kirkpatrick20
+M_K(MKO)(L0V)= 8.8118 ; Gaia_1831-0732 calc using Kirkpatrick20
+
+BC_Ks(L0V) = 3.157 mag ; Filipazzo15 (field)
+BC_Ks(L0V) =  3.198 mag ; interp M6V-L1V for V-Ks=9.45
+BC_K(L0V)  = 3.205 mag ; Golimowski04
+BC_Ks(L0V) = 3.221 mag ; Looper08 
+BC_Ks(L0V) = 3.26  mag ; Schmidt14 (rms = 0.15)
+=> adopt BC_Ks(L0V) = 3.21 [updated 1/15/2021]
+
+logL(L0V) = -3.616 dex ; M_Ks=10.57, BC_Ks=3.21 => Mbol=13.780
+=> adopt logL(L0V) = -3.616 [updated 1/15/2021]
+=> adopt Mbol(L0V) = 13.780 [updated 1/15/2021]
+
+Mass(L0V) = 0.0772 Msun ; Mann18 calib for M_Ks=10.57
+=> adopt Mass(L0V) = 0.077 Msun [updated 11/15/2021]
+
+Rad(L0V) = 0.0980 Rsun ; logL=-3.616, Teff=2300K
+=> adopt Rad(L0V) = 0.0980 Rsun [updated 1/15/2021]
+
+# Standards
+
+2MASS J03454316+2540233 = 2M 0345+2540 = 2MASP J0345432+254023 = V1226 Tau = Cl* Melotte 22 KPNO 2
+   >M10V: Kirkpatrick97
+  *L0V: Hawley02(stan),Kirkpatrick05(opt.anchor),Schneider14(near-IR)
+   L1:: Geballe02
+
+   "coolest isolated dwarf yet discovered" as of Kirkpatrick97, and
+   was assigned >M10V - then assigned L0 and considered the optical
+   anchor standard.  Hyad at d=27pc? pm = -94, -42 mas/yr.
+   V=22.01+-0.08(Dahn02), I=17.36(2006IBVS.5721....1K),
+   K=12.62+-0.02(Dahn02), V-K=9.39, J=13.997+-0.027(2MASS),
+   H=13.211+-0.030(2MASS), Ks=12.672+-0.024(2MASS), V-Ks = 22.01 -
+   12.672 = 9.338.  G =18.8116+-0.0040(GaiaDR2), Bp =
+   21.2200+-0.3426(GaiaDR2), Rp = 17.2017+-0.0096(GaiaDR2),
+   E(BR/RP)=1.956, Bp-Rp=4.0183, Bp-G=2.4084, G-Rp=1.6099.  G-V =
+   18.8116 - 22.01 = -3.1984.  plx = 37.4595 0.4188 mas
+   (GaiaDR2). GaiaEDR3: plx=37.8948+-0.2637mas, G=18.788708+-0.004105,
+   E(BP/RP)=1.895, Bp-Rp=3.629707, Bp-G=2.060488, G-Rp=1.569220. Mv =
+   19.878+-0.084(Dahn02,DR2), M_G = 16.679 0.025 (GaiaDR2). Calc using
+   GaiaEDR3: (G-Ks)=6.1167, M_G=16.682+-0.015, M_Ks=10.565+-0.028.
+   
+# General Notes on L Dwarfs 
+
+Note that early Ls appear to be rare among the nearest hundreds of
+objects.  Remarkably, the Kirkpatrick12 8pc sample has NO objects
+between M9V (LP 944-20, GJ 2005C) and L5 (2MASSW J1507476-162738).
 
 I fit the following rough linear trend in V-K vs. spectral type using
 VK photometry from Dahn02 (bracketed to V-K colors for M8 and M9
@@ -46,3 +206,132 @@ L2:   V-K=9.85
 L2.5: V-K=10.00 
 L3:   V-K=10.15
 Should round these to ~0.1 mag precision. 
+
+
+For the BT-SETTL isochrones, the radii of L dwarfs at age 3 Gyr vary little:
+https://phoenix.ens-lyon.fr/Grids/BT-Settl/CIFIST2011_2015/
+
+M/Ms  Teff  logL  log(g) R(Gcm)  M_J     M_H     M_Ks    Rsun        logRsun    logT      logM 
+0.060 1313 -4.70  5.33   6.07    14.513  13.539  13.340  0.0872503  -1.05923    3.11826  -1.22185
+0.070 1650 -4.27  5.37   6.30    14.039  12.824  12.006  0.0905563  -1.04308    3.21748  -1.1549
+0.072 1793 -4.11  5.37   6.38    13.233  12.266  11.652  0.0917062  -1.0376     3.25358  -1.14267
+0.090 2644 -3.25  5.28   7.90    10.755  10.168  9.881   0.113555   -0.944795   3.42226  -1.04576
+0.100 2810 -3.06  5.24   8.72    10.340  9.747   9.460   0.125341   -0.901906   3.44871  -1.00000
+0.200 3261 -2.32  5.06   15.23   8.659   8.065   7.811   0.218916   -0.659722   3.51335  -0.69897
+0.300 3416 -1.97  4.97   20.70   7.854   7.249   7.005   0.297542   -0.526452   3.53352  -0.522879
+0.400 3520 -1.71  4.88   26.32   7.235   6.617   6.380   0.378324   -0.422136   3.54654  -0.39794
+0.500 3679 -1.45  4.80   32.56   6.630   5.987   5.763   0.468018   -0.329738   3.56573  -0.30103
+0.600 3974 -1.15  4.71   39.21   5.997   5.312   5.128   0.563605   -0.249025   3.59923  -0.221849
+0.700 4407 -0.85  4.66   45.13   5.365   4.712   4.581   0.648699   -0.187957   3.64414  -0.154902
+0.800 4859 -0.57  4.61   51.25   4.794   4.273   4.169   0.736668   -0.132728   3.68655  -0.09691
+0.900 5270 -0.31  4.54   58.79   4.271   3.853   3.766   0.845048   -0.0731185  3.72181  -0.0457575
+1.000 5661 -0.06  4.46   67.79   3.778   3.439   3.366   0.974414   -0.0112564  3.75289  0.000000
+1.100 5974 0.17   4.36   80.15   3.284   3.003   2.935   1.15208    0.0614815   3.77627  0.0413927
+1.200 6191 0.39   4.24   95.81   2.815   2.568   2.504   1.37717    0.138989    3.79176  0.0791812
+1.300 6177 0.56   4.10   117.25  2.383   2.136   2.071   1.68535    0.226691    3.79078  0.113943
+
+For 1313K-2644K (across L type range)
+log(R/Rsun) = 1.1915407022689783d-02 + 4.4366281505955235d-1*logL + 4.5924490307723498d-02*(logL)^2
+
+(G-Ks) = Gaia G (DR2) and 2MASS Ks - CMD for SIMBAD d<25pc entries:
+(G-Ks) M_Ks 
+5.002  10.1121  L0               G_239-25B                 
+5.89   10.5287  L0               LSPM_J1731+2721           
+5.994  10.5674  L0               2MASS_J03140344+1603056   
+6.109  10.0077  L0 +L1.5          LSPM_J0746+2000          
+
+5.947  11.1866  L1               2MASS_J09211410-2104446   
+6.205  10.7751  L1               2MASS_J18071593+5015316   
+6.391  10.5276  L1 V              LSPM_J0602+3910          
+
+6.083  10.8876  L1.5             2MASS_J16452211-1319516   
+
+5.909  10.7789  L1.6 V            2MASS_J15551573-0956055  
+5.857  10.901   L1.7 V            2MASSI_J1300425+191235   
+
+6.185  11.0981  L2 e              2MASS_J11553952-3727350  
+6.306  10.9578  L2               SSSPM_J0829-1309          
+
+6.419  11.1085  L2.5             2MASS_J05233822-1403022   
+
+6.628  11.4029  L3               2MASSW_J1506544+132106    
+6.65   11.3403  L3               2MASS_J04013766+2849529   
+6.762  11.0463  L3 +L6.5          2MASS_J07003664+3157266  
+6.958  11.2936  L3               2MASS_J10132597-7842551   
+
+6.461  11.3505  L3.5             LSPM_J0036+1821           
+6.691  11.5685  L3.5             DENIS_J145407.8-660447    
+7.128  11.8948  L3.5 +L6.5        2MASS_J06523073+4710348  
+
+6.862  11.4721  L4 pec            2MASS_J05002100+0330501  
+7.175  11.4398  L4               2MASS_J14252798-3650229   
+
+6.635  11.5207  L4.5             2MASS_J18000116-1559235   
+6.765  12.3528  L4.5             2MASS_J04390101-2353083   
+7.347  11.7101  L4.5 V            2MASSW_J2224438-015852   
+
+6.219  12.2723  L5               2MASS_J14162408+1348263   
+6.651  12.0022  L5 V              2MASS_J05395200-0059019  
+6.657  11.9674  L5 V              2MASSW_J1507476-162738   
+6.683  11.6141  L5 .0V            2MASS_J12035812+0015500  
+6.957  10.9675  L5 +L5            L_362-29                 
+7.034  11.7943  L5                2MASS_J18212815+1414010  
+8.057  11.726   L5 gamma          2MASS_J03552337+1133437  
+
+6.445  12.0215  L5.5             2MASS_J17502484-0016151   
+7.152  11.9469  L5.5             2MASS_J14482563+1031590   
+
+7.079  12.9612  L6               2MASSW_J1036530-344138    
+
+7.126  12.0871  L6.5 +T2          2MASSI_J0423485-041403   
+7.247  12.154   L6.5              2MASS_J06244595-4521548  
+7.327  11.845   L6.5              2MASS_J08354256-0819237  
+7.366  11.757   L6.5              2MASS_J01443536-0716142  
+
+7.101  12.6903  L7                2MASS_J19251275+0700362  
+7.137  13.0744  L7 ::             2MASS_J03400942-6724051  
+7.46   12.8206  L7                2MASSI_J0318540-342129   
+7.504  12.2253  L7 V              2MASS_J08575849+5708514  
+8.058  12.2195  L7                2MASSW_J2148162+400359   
+
+7.131  12.9477  L7.5             WISEP_J180026.60+013453.1 
+7.42   12.8521  L7.5 V            2MASSI_J0825196+211552   
+
+6.85   12.8523  L8               2MASS_J09083803+5032088   
+7.204  12.915   L8               2MASSI_J2325453+425148    
+7.286  12.9147  L8               2MASS_J14053729+8350248   
+
+7.066  12.9309  L8.5             2MASS_J02572581-3105523   
+
+7.052  13.1203  L9               DENIS_J025503.3-470049    
+7.096  13.1517  L9               2MASS_J06073908+2429574
+
+
+###
+
+Using SIMBAD L/T dwarfs d<25pc (12/30/2020), I fit the following polynomial
+
+M_J(2MASS) = sum(a_n * x^n)  where x is L subtype (L0 = 0, T9.5=19.5) rms=0.37mag
+a0 =   1.1761438561818357e+001
+a1 =   2.6942341651479301e-001
+a2 =   1.7037640702527501e-001
+a3 =  -1.0858200912647488e-001
+a4 =   2.9319638924181272e-002
+a5 =  -3.8854023394830758e-003
+a6 =   2.6468821031881370e-004
+a7 =  -8.9323184102355968e-006
+a8 =   1.1872145888484479e-007
+(note that for each bright outlier at a given type, the faintest outlier was also clipped, but only 0 or 1 each)
+While I looked at the trend between L0 and T2, the completeness of photometric data and parallaxes appears
+to be affecting the trend fainter than ~T3. 
+
+M_Ks(2MASS) = sum(a_n * x^n)  where x is L subtype (L0 = 0, T7.5=27.5) rms=0.28mag (between L0-T7.5)
+a0= 1.0528564772733834e+001
+a1= 2.5159895651814790e-001
+a2= -2.2881611648565864e-002
+a3=  9.3804973640946483e-003
+a4= -1.0079605466415120e-003
+a5= 3.2481502407196869e-005
+ 
+
+

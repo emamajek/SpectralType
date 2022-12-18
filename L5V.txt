@@ -1,6 +1,12 @@
 L5V
 
-Hawley02 standard: 2MASS 1507-1627 - L5V
+Kirkpatrick99 standard:      DENIS-P J1228.2-1547 - L5V
+Hawley02 standard:           2MASS 1507-1627 - L5V
+Kirkpatrick05 standard:      DENIS-P J1228.2-1547 - L5V ("optical anchor")
+Reid08 standard:             2MASS J12281523-1547342 (DENIS-P J1228.2-1547) - L5 (pri. stan.)
+                             2MASS J15074769-1627386 - L5 (sec. stan.)
+Kirkpatrick09(GrayCorbally): 2MASS J12281523-1547342 (=DENIS-P J1228.2-1547) - L5 (primary optical standard)
+Kirkpatrick10 standard:      2MASS J08350622+1953050 - L5V (near-IR standard)
 
 (Rc-Ic)(L5V) = 2.41  ; 2M1507 (see below)
 (Rc-Ic)(L5V) = 2.395 ; N=4 L5Vs in Liebert06 (+-0.022 sem, +-0.045 rms)
@@ -18,8 +24,10 @@ Hawley02 standard: 2MASS 1507-1627 - L5V
 (V-H)(L5V)  = 10.24 ; 2M1507 (see below)
 (V-H)(L5V)  = 10.715 ; GJ 1001BC
 
-(V-Ks)(L5V) = 10.82 ; 2M1507 (see below)
+(V-Ks)(L5V) = 10.82  ; 2M1507 (see below)
 (V-Ks)(L5V) = 11.374 ; GJ 1001BC
+(V-Ks)(L5V) = 11.834 ; 2MASS J08354256-0819237 (see below)
+=> adopt (V-Ks)(L5V) = 11.1 [updated 8/17/2020]
 
 <J-Ks>(L5V) = 1.74   ; Faherty09
 (J-Ks)(L5V) = 1.53 (+-0.23 rms; N=7) ; Schmidt14
@@ -28,37 +36,108 @@ Hawley02 standard: 2MASS 1507-1627 - L5V
 (i-J)(L5V)  = 4.88 (+-0.09 rms; N=5) ; Schmidt14
 (i-Ks)(L5V) = 6.40 (+-0.25 rms; N=5) ; Schmidt14
 (z-J)(L5V)  = 2.82 (+-0.11 rms; N=6) ; Schmidt14
-(J-H)(L5V)  = 0.95 (+-0.17 rms; N=7) ; Schmidt14
 (H-Ks)(L5V) = 0.60 (+-0.08 rms; N=8) ; Schmidt14
+
+(J-H)(L5V)  = 0.95 (+-0.17 rms; N=7) ; Schmidt14
+(J-H)(L5V)  = 1.020 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
+=> adopt (J-H)(L5V) = 1.02 [updated 8/6/2020]
+
+(H-Ks)(L5V)= 0.648 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+=> adopt (H-Ks)(L5V) = 0.648 [updated 8/6/2020]
+
 (Ks-W1)(L5V)= 0.61 (+-0.14 rms; N=7) ; Schmidt14
+(Ks-W1)(L5V)= 0.685 ; Dupuy12 median N=5 d<50pc
+(Ks-W1)(L5V)= 0.72  ; Dupuy12 trend
+=> adopt (Ks-W1)(L5V) = 0.68 [updated 12/28/2019]
+
 (W1-W2)(L5V)= 0.30 (+-0.12 rms; N=8) ; Schmidt14
 
-Teff(L5V) = 1700K ; 2M 1507 (see below)
-Teff(L5V) = 1725K ; GJ1001BC (Deiterich14)
+M_G(L5V) = 18.053  ; 2MASS J11263991-5003550        
+M_G(L5V) = 18.2478 ; 2MASSW J1004392-333518       
+M_G(L5V) = 18.2595 ; 2MASS J14540797-6604476       
+M_G(L5V) = 18.2971 ; 2MASS J12035812+0015500       
+M_G(L5V) = 18.4665 ; 2MASS J17502484-0016151
+M_G(L5V) = 18.48   ; median SIMBAD d<25pc nearest 10 L5s
+M_G(L5V) = 18.4913 ; 2MASS J14162408+1348263       
+M_G(L5V) = 18.6244 ; 2MASSW J1507476-162738        
+M_G(L5V) = 18.6532 ; 2MASS J05395200-0059019       
+M_G(L5V) = 18.8283 ; 2MASS J18212815+1414010
+M_G(L5V) = 18.938  ; Reyle18 polynomial
+M_G(L5V) = 19.0577 ; 2MASS J21373742+0808463
+=> adopt M_G(L5V) = 18.5 [adopted 4/17/2020]
 
-BC_K(L5V)  = 3.342 mag ; Golimowksi04
-BC_Ks(L5V) = 3.37  mag ; Schmidt14 (rms = 0.04)  
+M_J(L5V)    = 13.588 ; Reyle18 polynomial
+M_J(L5V)    = 13.462 ; EEM fit to L/T dwarfs d<25pc
+=> adopt M_J(L5V) = 13.46 [updated 12/30/2020]
+
+M_H(L5V)    = 12.709 ; Reyle18 polynomial
+
+(G-Rp)(L5V) =  1.822 ; Reyle18 polynomial
+(G-J)(L5V)  =  5.331 ; Reyle18 polynomial
+(J-Ks)(L5V) =  1.578 ; Reyle18 polynomial
+
+M_Ks(L5V) =  11.5568 ; 2MASSW J1004392-333518       
+M_Ks(L5V) =  11.5685 ; 2MASS J14540797-6604476       
+M_Ks(L5V) =  11.6141 ; 2MASS J12035812+0015500       
+M_Ks(L5V) =  11.778  ; 2MASS J11263991-5003550        
+M_Ks(L5V) =  11.7943 ; 2MASS J18212815+1414010
+M_Ks(L5V) =  11.840  ; 2MASS J08354256-0819237 (V-Ks=11.834)
+M_Ks(L5V) = 11.86   ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
+M_Ks(L5V) = 11.88   ; median among nearest 10 L5s in SIMBAD
+M_Ks(L5V) = 11.90   ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L5V) =  11.9674 ; 2MASSW J1507476-162738        
+M_Ks(L5V) =  12.0022 ; 2MASS J05395200-0059019       
+M_Ks(L5V) =  12.0215 ; 2MASS J17502484-0016151       
+M_Ks(L5V) =  12.1187 ; 2MASS J21373742+0808463
+M_Ks(L5V) =   12.133  ; Reyle18 polynomial
+M_Ks(L5V) =  12.2723 ; 2MASS J14162408+1348263
+=> adopt M_Ks(L5V) = 11.87 [updated 12/30/2020]
+
+Teff(L5V) = 1581 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L5V) = 1614 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L5V) = 1627 K ; Dupuy17(SaumonMarley08 scale)
+Teff(L5V) = 1700 K ; 2M 1507 (see below)
+Teff(L5V) = 1700 K ; Cifuentes20 <Teff> for CARMENES L5V(N=6)
+Teff(L5V) = 1710 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-4.196
+Teff(L5V) = 1712 K ; Dupuy17(Lyon model scale)
+Teff(L5V) = 1725 K ; GJ1001BC (Deiterich14)
+Teff(L5V) = 1754 K ; 2MASS J08354256-0819237 (Kirkpatrick20)
+=> adopt Teff(L5V) = 1710 K (logT = 3.233) [updated 4/17/2020]
+
+BC_Ks(L5V) = 3.315 mag ; Filipazzo15 (field)
+BC_Ks(L5V) = 3.331 mag ; Looper08 
+BC_K(L5V)  =  3.342 mag ; Golimowksi04
+BC_Ks(L5V) = 3.37  mag ; Schmidt14 (rms = 0.04)
+=> adopt BC_Ks(L5V) = 3.33 mag [updated 11/1/2019]
+
+logL(L5V) = -4.196 ; M_Ks=11.90, BC_Ks=3.33, Mbol=15.23
+=> adopt logL(L5V) = -4.196 [updated 4/17/2020]
+=> adopt Mbol(L5V) = 15.230 [updated 4/17/2020]
+
+Rad(L5V) = 0.09092 Rsun ; logL=-4.196, Teff=1710K
+=> adopt Rad(L5V) = 0.0909 Rsun [updated 4/17/2020]
+
 
 # Examples
 
 2MASS J15074769-1627386 = 2M_1507-1627 
-	L5: Reid00,Cruz03,Reid06(opt),Reid08,Schmidt07,Faherty09(opt)
-	L5.5: Knapp04(IR),Kirkpatrick05,Faherty09(IR)
+   L5: Reid00,Cruz03,Reid06(opt),Reid08,Schmidt07,Faherty09(opt)
+   L5.5: Knapp04(IR),Kirkpatrick05,Faherty09(IR)
 
-	plx=144.08+-2.05(Costa06), plx=136.4+-0.4(Dahn02),
-	V=22.136+-0.1:(Costa06), V=22.9+-0.5(Dahn02),
-	Rc=18.928+-0.097(Costa06), Rc=18.919+-0.013(Liebert06),
-	Ic=16.579+-0.079(Costa06), Ic=16.512+-0.006(Liebert06),
-	J=12.830+-0.027(2M), H=11.895+-0.024(2M),
-	Ks=11.312+-0.026(2M), K=11.40+-0.02(Dahn02).
-	Rc-Ic=2.407(Liebert06), V-Rc=3.22+-0.11(Costa06,Liebert06),
-	V-Ic=5.62+-0.11(Costa06,Liebert06), V-J=9.31+-0.11(Costa06,2M)
-	V-H=10.24+-0.11(Costa06,2M) V-K=10.82+-0.11(Costa06,2M).
-	Teffs: 1629K(Vrba04), 1703K(Dahn02), 1750K(Golimowski04) =>
-	adopt Teff = 1700 K.  Liebert06 lists the star twice, it
-	appears that the photometry was analyzed in two different
-	sets, I list the values from the set with smaller
-	uncertainties. logL = -4.23 (Antonova13).
+   plx=144.08+-2.05(Costa06), plx=136.4+-0.4(Dahn02),
+   V=22.136+-0.1:(Costa06), V=22.9+-0.5(Dahn02),
+   Rc=18.928+-0.097(Costa06), Rc=18.919+-0.013(Liebert06),
+   Ic=16.579+-0.079(Costa06), Ic=16.512+-0.006(Liebert06),
+   J=12.830+-0.027(2M), H=11.895+-0.024(2M),
+   Ks=11.312+-0.026(2M), K=11.40+-0.02(Dahn02).
+   Rc-Ic=2.407(Liebert06), V-Rc=3.22+-0.11(Costa06,Liebert06),
+   V-Ic=5.62+-0.11(Costa06,Liebert06), V-J=9.31+-0.11(Costa06,2M)
+   V-H=10.24+-0.11(Costa06,2M) V-K=10.82+-0.11(Costa06,2M).
+   Teffs: 1629K(Vrba04), 1703K(Dahn02), 1750K(Golimowski04) =>
+   adopt Teff = 1700 K.  Liebert06 lists the star twice, it
+   appears that the photometry was analyzed in two different
+   sets, I list the values from the set with smaller
+   uncertainties. logL = -4.23 (Antonova13).
 
 GJ 1001BC =  LHS 102BC = WDS 00046-4044 BC
    L4.5+L4.5: Reid08(#2)
@@ -89,5 +168,16 @@ GJ 1001BC =  LHS 102BC = WDS 00046-4044 BC
    10.13+-0.02. Leggett10 lists unresolved MKO Ymag = 14.32+-0.10 from
    Hewett06.  logL = -4.049+-0.048 (Dieterich14), Rad = 0.105+-0.005
    (Deiterich14).  Teff = 1725+-21K (Deiterich14).
+
+2MASS J08354256-0819237 = V488 Hya = 2MASS J0835-0819 = 2MUCD 10742 
+   L4pec: Best18
+  *L5: Cruz03(Kirkpatrick20,opt.),Kirkpatrick20(near-IR)
+   L6.5: Schneider14(Burgasser10,near-IR)
+
+   V=22.97(Henry18), Ks=11.136+-0.021(2MASS), V-Ks=11.834.
+   GaiaEDR3: plx=138.3147+-0.2145, Rp=16.847, but no Gmag.
+   Mv=23.67, M_Ks=11.840+-0.021. Teff=1754+-112K(Kirkpatrick20).
+
+
 
 

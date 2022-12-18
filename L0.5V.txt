@@ -1,7 +1,108 @@
+L0.5V
 
-# 
-2M_0746+20
-	V=19.87+-0.06(Dahn02), K=10.49+-0.03(Dahn02).
-   	V-K=9.38.
+Kirkpatrick99 listed only one L0.5V: 2MASSW J0147334]345311
+
+Kirkpatrick09(GrayCobrally): 2MASS J07464256+2000321 - L0.5V (primary optical standard)
+
+Teff(L0.5V) = 2257 K ; Dupuy17(Lyon model scale)
+Teff(L0.5V) = 2250 K ; Cifuentes20 <Teff> for CARMENES L0V(N=7)
+Teff(L0.5V) = 2218 K ; Dupuy17(SaumonMarley08 scale)
+Teff(L0.5V) = 2175 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L0.5V) = 2166 K ; Kirkpatrick20 Table 13 polynomial
+=> adopt Teff(L0.5V) = 2220 K (logT = 3.346) [updated 1/15/2021]
+
+V-Ks(L0.5V) = 9.82 ; 2MA0451-3402 (Dieterich14)
+V-Ks(L0.5V) = 9.64 ; 2MA1705-0516AB (Dieterich14)
+V-Ks(L0.5V) = 9.57 ; EEM fit to Dieterich14 data (V-Ks=9.45)
+V-Ks(L0.5V) = 9.56 ; trend fit to Dahn17 for L0.5V
+V-Ks(L0.5V) = 9.56 ; 2MA0428-2253 (Dieterich14)
+V-Ks(L0.5V) = 9.38 ; 2MASS J0746425+200032 (see below)
+V-Ks(L0.5V) = 9.11 ; 2MASS J17073334+4301304 L0.5 Dahn17
+=> adopt (V-Ks)(L0.5V) = 9.55 [updated 8/17/2020]
+
+(G-Ks)(L0.5V) = 6.221 ; pri. stan. 2MASS J07464256+2000321
+(G-Ks)(L0.5V) = 6.275 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
+=> adopt (G-Ks)(L0.5V) = 6.25 [updated 12/26/2020]
+
+(V-I)(L0.5V) = 4.89 ; 2M0428-2253 (Dieterich14)
+(V-I)(L0.5V) = 5.00 ; 2M1705-0516AB (Dieterich14)
+(V-I)(L0.5V) = 5.05 ; trend Dieterich14 SpT vs. V-I
+(V-I)(L0.5V) = 5.27 ; 2M0451-3402 (Dieterich14)
+=> adopt (V-Ic)(L0.5V) = 5.05 [updated 7/4/2020]
+
+(J-H)(L0.5V)   = 0.780 (+-0.14 rms); SIMBAD d<30pc trend for Ldwarfs
+=> adopt (J-H)(L0.5V) = 0.78 [updated 8/6/2020]
+
+(H-Ks)(L0.5V)  = 0.524 ; trend SIMBAD d<30pc L dwarfs
+=> adopt (H-Ks)(L0.5V) = 0.52 [updated 8/6/2020]
+
+(Bp-Rp)(L0.5V) = 5.0518  ; pri. stan. 2MASS J07464256+2000321
+(Bp-G)(L0.5V)  = 3.3703  ; pri. stan. 2MASS J07464256+2000321
+(G-Rp)(L0.5V)  = 1.6815  ; pri. stan. 2MASS J07464256+2000321
+(G-V)(L0.5V)   = -3.2929 ; pri. stan. 2MASS J07464256+2000321
+
+Mv(L0.5V) =  20.49 ; 2MA1705-0516AB (Dieterich14)
+Mv(L0.5V) =  20.37 ; 2MA0428-2253 (Dieterich14)
+Mv(L0.5V) = 20.3  ; V-Ks=9.6, M_Ks=10.7
+Mv(L0.5V) =  19.61 ; 2MA0451-3402 (Dieterich14)
+=> adopt Mv(L0.5V) = 20.3 [last updated 4/27/2017; V-Ks=9.6,M_Ks=10.7]
+
+M_G(L0.5V) = 16.33 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
+M_G(L0.5V) = 16.65 ; trend for d<20pc late Ms/early Ls
+
+M_J(L0.5V) = 11.927 ; EEM fit to L/T dwarfs d<25pc
+
+M_Ks(L0.5V) =  10.05 ; 2MA1705-0516AB (Dieterich14)
+M_Ks(L0.5V) =  10.06 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
+M_Ks(L0.5V) = 10.60 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L0.5V) = 10.65 ; fit to SIMBAD L/T dwarfs d<25pc (12/2020)
+M_Ks(L0.5V) =  10.67 ; 2MA0428-2253 (Dieterich14)
+M_Ks(L0.5V) = 10.73 ; EEM fit to Dieterich14 for V-Ks=9.60
+M_Ks(L0.5V) =  10.73 ; 2MA0451-3402 (Dieterich14)
+=> adopt M_Ks(L0.5V) = 10.65 [last updated 12/30/2020]
+
+# Primary Standard
+
+2M_0746+20 = 2MASS J07464256+2000321 = LSPM J0746+2000 
+  *L0.5: Kirkpatrick09(pri.stan.)
+
+   V=19.87+-0.06(Dahn02), K=10.49+-0.03(Dahn02).  V-K=9.38, J-H=0.743,
+   H-Ks=0.512, J-Ks=1.255(Cruz03). GaiaDR2: No Gaia DR2 parallax, G =
+   16.5771 0.0049, Bp = 19.9474 0.0748, Rp = 14.8955 0.0102, E(BR/RP)
+   = 2.038, Bp-Rp=5.0518, Bp-G=3.3703, G-Rp=1.6815 (GaiaDR2). G-V =
+   16.5771 - 19.87 = -3.2929. Gaia EDR3: no Gaia EDR3 parallax,
+   G=16.689, E(Bp/Rp)=2.155, Bp-Rp=4.9525, Bp-G=3.1988, G-Rp=1.7537.
+   WISE: W1=10.125 0.022, W2= 9.864 0.021, W3=9.448 0.040, W4 upper
+   limit (8.813). AllWISE: W1=10.137 0.023, W2=9.870 0.020, W3=9.402
+   0.042, W4 upper limit (8.865). 2MASS: J=11.759+-0.020,
+   H=11.007+-0.022, Ks=10.468+-0.022. (G-Ks) = 16.689 - 10.468 = 6.221.
+
+# Exemplar
+
+2MASSW J0147334+345311 = 2MASS J01473248+3453528 = WISEP J014733.46+345310.5
+  L1.0: BardalezGagliuffi14(near-IR)
+  
+  Only L0.5V in original L dwarf sequence paper by Kirkpatrick99.
+  Faint companion B to star A ~40" away (M3.5), and WDS lists another
+  faint companion to "B" (2MASSW J0147334+345311) which is said to be
+  a background M giant (GaiaEDR3 confirms).  GaiaEDR3:
+  plx=19.8035+-0.5098mas, G=19.848597 0.006555, E(BP/RP)=1.946,
+  Bp-G=3.615547, Bp-G=2.018162, G-Rp=1.597385. J=14.946+-0.039(2M),
+  H=14.162+-0.041(2M), Ks=13.574+-0.038(2M). G-Ks = 6.275, M_G=16.332,
+  M_Ks=10.058+-0.068.
+
+  36" away from a M3.5V dwarf in Riaz06. 
+
+# Others 
+
+2MASS J0428-2253
+   L0.5: Dieterich14
+
+   V=21.68+-0.050, R=19.18+-0.025, I=16.79+-0.017(Dieterich14),
+   Teff=2212+-57K(Dieterich14).
+
+
+
+
 
 

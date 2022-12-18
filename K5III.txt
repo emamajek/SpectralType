@@ -32,20 +32,34 @@ GrayNstars standards:		 gam Dra (=HD 164058) - K5III
 				 alf Tau (=HR 1457)   - K5III
 GrayCorbally10 standard:         gam Dra (=HD 164058) - K5III
 
+(J-H)(K5III) = 0.652 (+-0.030 sem, +-0.105 stdev) ; N=21 K5III from Skiff compendium w/i 15deg of NGP, 2MASS photometry AAA flags
+=> adopt (J-H)(K5III)  = 0.652 [updated 10/30/2020]
+
+(H-Ks)(K5III) = 0.173 (+-0.014 sem, +-0.055 stdev) ; N=21 K5III from Skiff compendium w/i 15deg of NGP, 2MASS photometry AAA flags
+(H-Ks)(K5III) = 0.170 ; smoothed relation from giants in Skiff compendium w/i 15 deg of NGP, 2MASS photometry AAA flags
+=> adopt (H-Ks)(K5III) = 0.170 [updated 10/30/2020]
+
+
+(B-V)(K5III) = 1.498 ; mean for N=5 K5III stars in Sloan15
+(B-V)(K5III) = 1.521 ; HIP 87833 K5III 1989ApJS...71..245K
+(B-V)(K5III) = 1.538 ; HIP 21421 K5III 2006AJ....132..161G
+=> adopt (B-V)(K5III) = 1.52 [updated 10/30/2020]
+
 Teff(K5III) = 3873 K  ; sec. stan. alf Tau (K5+III)
 Teff(K5III) = 3930 K  ; pri. stan. gam Dra (K5III)
 Teff(K5III) = 4046: K ; pri. stan. N Vel (K5III)
-=> adopt Teff(K5III) = 3930 K. 
+=> adopt Teff(K5III) = 3930K [updated 10/30/2020]
 
 logg(K5III) = 1.93 ; pri. stan. N Vel (see below)
 logg(K5III) = 1.57 ; pri. stan. gam Dra (see below)
 logg(K5III) = 1.34 ; sec. stan. alf Tau (K5+III; see below)
-=> adopt logg(K5III) = 1.6 
+=> adopt logg(K5III) = 1.6 [updated 10/30/2020]
 
-Mv(K5+III) = -0.69 ; sec. stan. alf Tau (K5+III; see below)
-Mv(K5III)  = -1.14 ; pri. stan. gam Dra (see below)
+Mv(K5+III) = -0.69 ; sec. stan. alf Tau = HIP 21421 (K5+III; see below)
+Mv(K5III)  = -1.14 ; pri. stan. gam Dra = HIP 87833 (see below)
 Mv(K5III)  = -1.19 ; pri. stan. N Vel (see below)
-=> adopt Mv(K5III) = -1.14 mag 
+
+=> adopt Mv(K5III) = -1.14 mag [updated 10/30/2020]
 
 # No standard
 
@@ -94,17 +108,25 @@ gam Dra = HR 6705 = HD 164058 = Etamin (J1756+5129; V=2.23)
     1.55 (McWilliam90), 1.60 (Oinas77), 1.55 (Lambert81) => <logg> =
     1.57. [Fe/H] =0.12 (Prugniel07). Mv = -1.069 (Katz11).
 
-# Secondary Standard
+# Depreciated Standards
 
 alf Tau = HR 1457 = HD 29139 (J0435+1630; V=0.86)
-   *K5+III: Keenan89(stan)
+   *K5.5III: Keenan94
+    K5+III: Keenan89(stan)
     K5III: JM53,Deutsch69(stan),MK73(dagger),Houk(stan),Turnshek85(stan)
 
+    Keenan94(1994ASPC...60...15K): "It can be understood easily,
+    howver, that as we narrow the bins into which the stars are
+    sorted, any one star may find itself outside the bounds of its
+    original type. This happened to alf Tau, which was originally
+    defined as K5 III, thought it always seemed just a shade later
+    than the average K5 giant. With the introduction of bins of
+    half-type or quarter-type width, it now falls into type K5.5 III."
     Vmag = 0.867+-0.017 (Mermilliod91), B-V = 1.538+-0.008
     (Mermilliod91), U-B=1.900+-0.022 (Mermilliod91). HIP2 parallax =
     48.94+-0.77 mas => D = 20.4+-0.3 pc. The Mermilliod91 Vmag and
-    HIP2 parallax are consistent with Mv = -0.69 +- 0.04 mag.
-    2MASS photometry is blasted (+-0.2 mag errors). Teff = 3880 K
+    HIP2 parallax are consistent with Mv = -0.69 +- 0.04 mag.  2MASS
+    photometry is blasted (+-0.2 mag errors). Teff = 3880 K
     (Prugniel07#1), 3886 K (Prugniel07#2), 3800 K
     (Fernandez-Villacanas90), 3850 K (Mallik98), 3866 K (Alonso99),
     3875 K (Luck95), 3883 K (Ramirez05), 3891 K (Melendez08), 3910 K
@@ -114,8 +136,6 @@ alf Tau = HR 1457 = HD 29139 (J0435+1630; V=0.86)
     (Melendez08), 1.59 (McWilliam90), 1.70 (Hekker07) => <logg> = 1.34
     +- 0.24 dex.  [Fe/H] estimates: -0.13 (Prugniel#1), 0.05
     (Prugniel#2).
-
-# Weak standard:
 
 alf Lyn = HD 80493
     K5+III: Deutsch69(stan)

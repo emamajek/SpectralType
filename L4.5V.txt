@@ -1,5 +1,7 @@
 L4.5V
 
+Kirkpatrick09(GrayCorbally): 2MASS J22244381-0158521 - L4.5 (primary optical standard)
+
 V-R(L4.5V) = 3.53 ; GJ1001BC (see below)
 V-R(L4.5V) = 3.56 ; 2M1224 (see below)
 V-R(L4.5V) = 3.64 ; 2M1126 (see below)
@@ -10,12 +12,41 @@ V-I(L4.5V) = 6.05 ; 2M1224 (see below)
 V-I(L4.5V) = 6.24 ; 2M1126 (see below)
 => adopt V-I(L4.5V) = 6.05
 
+(J-H)(L4.5V) = 1.010 ; (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
+=> adopt (J-H)(L4.5V) = 1.01 [updated 8/6/2020]
+
+(H-Ks)(L4.5V)= 0.641 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+=> adopt (H-Ks)(L4.5V) = 0.641 [updated 8/6/2020]
+
+
 V-Ks(L4.5V) = 11.80 ; 2M2224 (see below)
 V-Ks(L4.5V) = 11.37 ; GJ1001BC (see below)
 V-Ks(L4.5V) = 10.92 ; 2M1126 (see below)
-=> adopt V-Ks(L4.5V) = 11.37 
+V-Ks(L4.5V) = 10.75 ; smoothed trend to V-Ks vs. SpT Dieterich14 data
+V-Ks(L4.5V) =  9.73 ; 2MASS_J17502484-0016151 L4.5
+=> adopt (V-Ks)(L4.5V) = 10.9 [updated 8/17/2020]
 
-logL(L4.5V) = -4.05 ; GJ1001B & C (assuming equal lum)
+M_Ks(L4.5V) =  10.80 ; GJ1001BC  (Dieterich14)/unresolved binary
+M_Ks(L4.5V) =  11.51 ; EEM calib to Dieterich14 data
+M_Ks(L4.5V) = 11.70 ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
+M_Ks(L4.5V) =  11.70 ; 2MASS 1126-5003 (Dieterich14)
+M_Ks(L4.5V) =  11.71 ; 2MASS 2224-0158 (Dieterich14)
+M_Ks(L4.5V) = 11.74 ; trend to L/T dwarfs in notes (1/2021)
+=> adopt M_Ks(L4.5V) = 11.70 [updated 12/30/2020]
+
+Mv(L4.5V) = 22.17 ; GJ1001BC (Dieterich14)
+Mv(L4.5V) = 22.62 ; 2MA1126-5003 (Dieterich14)
+Mv(L4.5V) = 22.90 ; V-Ks=11.2, M_Ks=11.7
+Mv(L4.5V) = 23.51 ; 2MA2224-0158 (Dieterich14)
+=> adopt Mv(L4.5V) = 22.9
+
+Teff(L4.5V) = 1636 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L4.5V) = 1650 K ; Cifuentes20 <Teff> for CARMENES L4.5V(N=1)
+Teff(L4.5V) = 1667 K ; Kirkpatrick20 (Table 13 polynomial)
+=> adopt Teff(L4.5V) = 1650K (logT = 3.217) [updated 12/26/2020]
+
+logL(L4.5V) = -4.049+-0.048 ; GJ1001BC (Dieterich14)
+
 
 # Examples
 

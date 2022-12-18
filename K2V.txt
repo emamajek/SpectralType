@@ -1,11 +1,14 @@
-K2V 
+KK2V 
 
 Garrison94 lists eps Eri (= HD 22049) as the K2V anchor standard,
-but MK73 does not list a K2V dagger standard. 
+but MK73 does not list a K2V dagger standard.
+
+Oddly, all the standards and best examplars appear to be subsolar ([Fe/H] ~ -0.4 to -0.04),
+which needs to be accounted for when estimating typical properties for solar composition stars. 
 
 eps Eri and HD 109011 appear to be the best standards.
 
-MK43 standards:       eps Eri (=HD 22049) & S222 - K2V
+MK43 standards:       eps Eri (=HD 22049) & S222 (HR 222?) - K2V
 JM53 standards:       eps Eri (=HD 22049) - K2V 
                       HD 109011 - K2V
 Wilson62 standards:   eps Eri (=HD 22049) - K2V [from JM53]
@@ -21,11 +24,14 @@ Keenan83 standard:    eps Eri (=HD 22049) - K2V
 Turnshek85 standard:  eps Eri (=HD 22049) - K2V
 Keenan85 standard:    eps Eri (=HD 22049) - K2V
 	 	      HD 109011 - K2V
+		      HD 184467 - K2-V
 Keenan88 standard:    HD 109011 - K2V
                       HD 184467 - K2V
 Keenan89 standards:   eps Eri (=HD 22049) - K2V
                       HD 109011 - K2V
                       HD 184467 - K2V
+Strassmeier90 stan:   HD 166620 (=HR 6806) - K2V
+Keenan99 standard:    eps Eri (=HD 22049) - K2V
 GrayNstars standards: eps Eri (=HD 22049) - K2V
                       HD 166620 (=HR 6806) - K2V
                       HD 184467 - K2V
@@ -38,30 +44,95 @@ Skiff08 flags three stars as K2V MK standards, all from Keenan89: HD
 <B-V>(K2V) = 0.928 ; 174 HIP d<75pc S/N>8 (+-0.006 sem, +-0.057 stdev)
 <B-V>(K2V) =  0.92  ; Fitzgerald70
 (B-V)(K2V) =  0.92  ; Johnson66
+(B-V)(K2V) = 0.916 ; median SIMBAD K2V d<25pc (N=38)
 (B-V)(K2V) =  0.91  ; SchmidtKaler82
 <B-V>(K2V) = 0.910 [+-0.012 sem,+-0.051 stdev]; med. for 36 K2V stars ARICNS
+(B-V)(K2V) = 0.895 ; Koen10 d<25pc median K2V
 <B-V>(K2V) = 0.89  ; Hyades; Wilson62(N=11)
+(B-V)(K2V) = 0.890 ; tert. stan. HD 4628
 (B-V)(K2V) =  0.89  ; KenyonHartmann95
+(B-V)(K2V) = 0.887 ; exemplar HD 68475
 (B-V)(K2V) = 0.881 ; prim. stan. eps Eri
 <B-V>(K2V) =  0.88  ; Bessell79
 <B-V>(K2V) = 0.878 ; 69 Gray 01/03/06 (+-0.006 sem, +-0.033 stdev)
-(B-V)(K2V) = 0.876 ; sec. stan. HR 6806
-=> adopt (B-V)(K2V)  = 0.893 ***
-=> adopt (U-B)(K2V)  = 0.600 
-=> adopt (V-I)(K2V)  = 0.929
-=> adopt (V-R)(K2V)  = 0.487
-=> adopt (R-I)(K2V)  = 0.442 
-=> adopt (V-J)(K2V)  = 1.623
-=> adopt (V-H)(K2V)  = 2.056
-=> adopt (V-Ks)(K2V) = 2.155
-=> adopt (H-Ks)(K2V) = 0.099
-=> adopt (J-H)(K2V)  = 0.432
-=> adopt (K-W1)(K2V) = 0.031 
+(B-V)(K2V) = 0.876 ; ter. stan. HR 6806/HD 166620
+(B-V)(K2V) = 0.87  ; CATSUP d<30pc median (Hinkel17)
+(B-V)(K2V) = 0.870 ; exemplar HD 13808
+(B-V)(K2V) =  0.87 ; Strassmeier90
+(B-V)(K2V) = 0.861 ; exemplar HD 170657
+(B-V)(K2V) = 0.854 ; exemplar HD 3222
+=> adopt (B-V)(K2V)  = 0.884 *** [updated 8/29/2019] 
+=> adopt (U-B)(K2V)  = 0.581 
+=> adopt (V-I)(K2V)  = 0.937
+=> adopt (V-R)(K2V)  = 0.492
+=> adopt (R-I)(K2V)  = 0.445 
+=> adopt (V-J)(K2V)  = 1.606
+=> adopt (V-H)(K2V)  = 2.034
+=> adopt (V-Ks)(K2V) = 2.132
+=> adopt (H-Ks)(K2V) = 0.098
+=> adopt (J-H)(K2V)  = 0.427
+=> adopt (V-Hp)(K2V) = -0.144
+=> adopt (W1-W3)(K2V)= -0.037
+=> adopt (W1-W4)(K2V)= -0.009
+=> adopt (Bp-G)(K2V) = 0.497
+
+(Ks-W1)(K2V) = 0.073 ; EEM trend for d<30pc for B-V=0.884
+=> adopt (Ks-W1)(K2V) = 0.073 [updated 12/29/2019]
+
+(G-V)(K2V) =  -0.375 ; HD 115404A PM* K2V
+(G-V)(K2V) =  -0.357 ; GJ_144
+(G-V)(K2V) =  -0.349 ; GJ_1160
+(G-V)(K2V) = -0.323  ; sec. stan. HD 109011
+(G-V)(K2V) =  -0.321 ; HD 183870 PM* K2V
+(G-V)(K2V) =  -0.304 ; HD 23189 PM* K2V
+(G-V)(K2V) =  -0.301 ; HR_222  
+(G-V)(K2V) =  -0.285 ; HR_6806
+(G-V)(K2V) =  -0.282 ; HD 3765 PM* K2V
+(G-V)(K2V) =  -0.280 ; HD 166620 PM* K2V
+(G-V)(K2V) =  -0.276 ; HD 23356 PM* K2V
+(G-V)(K2V) =  -0.272 ; HD 144628 PM* K2V
+(G-V)(K2V) = -0.271  ; smoothed fit f(SpT) G9V-M0V
+(G-V)(K2V) = -0.266  ; B-V vs G-V trend Pancino22 for B-V=0.884
+(G-V)(K2V) =  -0.265 ; HD 220339 PM* K2V
+(G-V)(K2V) = -0.263  ; trend d<20pc for V-Ks=2.132
+(G-V)(K2V) =  -0.262 ; HD 170657 PM* K2V
+(G-V)(K2V) =  -0.261 ; HD 116443 PM* K2V
+(G-V)(K2V) =  -0.261 ; HD 23484 PM* K2V
+(G-V)(K2V) = -0.254  ; color fit for B-V=0.884
+(G-V)(K2V) =  -0.253 ; HD 30876 PM* K2V
+(G-V)(K2V) = -0.249  ; pri. stan. eps Eri (corrected)
+(G-V)(K2V) =  -0.246 ; * 36 Oph K2V
+(G-V)(K2V) =  -0.244 ; HD 67199 PM* K2Vk:
+(G-V)(K2V) =  -0.236 ; HD 73667 PM* K2V
+(G-V)(K2V) = -0.239  ; V-Ic vs G-V trend Pancinco22 for V-Ic=0.944
+(G-V)(K2V) =  -0.181 ; * p Eri A K2V
+(G-V)(K2V) =  -0.174 ; * p Eri B K2V
+=> adopt (G-V)(K2V) = -0.26 [updated 11/15/2022]
+
+(Bp-Rp)(K2V)=1.0575  ; *_p_Eri_A  K2V
+(Bp-Rp)(K2V)=1.079   ; fit for V-Ks=2.132
+(Bp-Rp)(K2V)=1.0931  ; *_p_Eri_B  K2V
+(Bp-Rp)(K2V)=1.1101  ; HD_4628    K2V
+(Bp-Rp)(K2V)=1.1962  ; *_eps_Eri  K2V(k)
+=> adopt (Bp-Rp)(K2V) = 1.10 [last updated 3/1/2019]
+
+(G-Rp)(K2V)= 0.581   ; fit for V-Ks=2.132
+(G-Rp)(K2V)= 0.5859  ; *_p_Eri_A  K2V
+(G-Rp)(K2V)= 0.6051  ; *_p_Eri_B  K2V
+(G-Rp)(K2V)= 0.6191  ; HD_4628    K2V
+(G-Rp)(K2V)= 0.6707  ; *_eps_Eri  K2V(k)
+=> adopt (G-Rp)(K2V) = 0.62 [last updated 3/1/2019]
+=> adopt (Bp-G)(K2V) = 0.48 [last updated 3/1/2019; Bp-Rp=1.10, G-Rp=0.62]
 
 <V-Ic>(K2V) = 0.923 (+-0.005 sem, +-0.039 stdev; N=69)
-<V-Ic>(K2V) = 0.93 ; Bessell79
+<V-Ic>(K2V) = 0.93  ; Bessell79
+(V-Ic)(K2V) = 0.93  ; sec. stan. 109011 = NO UMa
+(V-Ic)(K2V) = 0.937 ; dwarf trend B-V vs V-Ic for B-V=0.884
+(V-Ic)(K2V) = 0.944 ; pri. stan. eps Eri
 <V-Ic>(K2V) = 0.972 (+-0.007 sem, +-0.060 stdev; HIP d<75pc S/N>8 N=174)
+=> adopt (V-Ic)(K2V) = 0.94 [updated 11/15/2022]
 
+(V-Rc)(k2V) = 0.504 ; pri. stan. eps Eri 
 <R-Ic>(K2V) = 0.43 ; Bessell79
 
 <V-J>(K2V)   = 1.669 (+-0.009 sem, +-0.108 stdev; HIP d<75pc S/N>8 N=174)
@@ -76,50 +147,118 @@ Skiff08 flags three stars as K2V MK standards, all from Keenan89: HD
 (U-B)(K2V)   = 0.645 ; HIP d<75pc S/N>8 K2V N=138 (Mermilliod91 photometry)
 (U-B)(K2V)   = 0.68  ; Johnson66
 
-Teff(K2V) =  4900 K ; Schmidt-Kaler82
-Teff(K2V) =  4940 K ; GrayCorbally09
-Teff(K2V) = 4972 K ; Ramirez05 Teff calibration for B-V=0.893
-Teff(K2V) =  5000 K ; Bessell79
-Teff(K2V) =  5010 K ; GrayCorbally94
-Teff(K2V) =  5013 +- 14 K ; Boyajian12b (N=2)
-Teff(K2V) = 5015 K ; Napiwotzki93 Teff calibration for B-V=0.893
-Teff(K2V) = 5035 K ; mean photometric Teff
-Teff(K2V) = 5043 K ; EEM N=269 Teffs
-Teff(K2V) = 5077 +- 35 K ; pri. stan. Eps Eri (Boyajian12)
-Teff(K2V) = 5085 K ; Casagrande10 Teff calibration for B-V=0.893
-Teff(K2V) = 5086 K ; pri. stan. eps Eri median Teff
-Teff(K2V) = 5097 +- 19 K ; pri. stan. Eps Eri (GJ 144) (Pecaut13)
-Teff(K2V) = 5143 K ; Biazzo07 Teff calibration for B-V=0.893
-=> adopt Teff(K2V) = 5080 K (logT = 3.706)
+(g-r)(K2V) = 0.681 ; Jordi06 pop I (V-R)=>(g-r) for V-R=0.492
+(g-r)(K2V) = 0.742 ; Bilir05 (B-V)=>(g-r) for B-V=0.884
+(g-r)(K2V) = 0.78  ; Covey07
+=> adopt (g-r)(K2V) = 0.74 [updated 10/10/2020]
 
-BCv(K2V) = -0.282 mag ; EEM fit to Casagrande06/08/10 (Teff=5080K)
+Teff(K2V) =   4900 K ; Schmidt-Kaler82
+Teff(K2V) =   4940 K ; GrayCorbally09
+Teff(K2V) =  4950 K ; ter. stan. HD 4628
+Teff(K2V) =  4999 K ; exemplar HD 3222
+Teff(K2V) =   5000 K ; Bessell79
+Teff(K2V) =   5010 K ; GrayCorbally94
+Teff(K2V) =  5010 K ; smoothed Teff(SpT) trend
+Teff(K2V) =  5012 K ; ter. stan. HD 166620 (see below)
+Teff(K2V) =   5013 +- 14 K ; Boyajian12b (N=2)
+Teff(K2V) =   5020 K ; EB V2154 Cyg B (BrightTorres17) [Fe/H]=-0.17, 2.2Gyr
+Teff(K2V) =  5022 K ; exemplar HD 68475
+Teff(K2V) =  5035 K ; mean photometric Teff
+Teff(K2V) =  5043 K ; EEM N=269 Teffs
+Teff(K2V) =  5060 K ; CATSUP d<30pc median (Hinkel17; N=32)
+Teff(K2V) =  5078 K ; exemplar HD 13808 
+Teff(K2V) =  5086 K ; pri. stan. eps Eri (see below)
+Teff(K2V) = 5100 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for B-V=0.884
+Teff(K2V) = 5107 K ; Teff trend extrapolated to [Fe/H]=0.0 for standards and exemplars
+Teff(K2V) =  5108 K ; exemplar HD 170657
+Teff(K2V) =  5207 K ; sec. stan. HD 109011/NO UMa (see below, single value)
+=> adopt Teff(K2V) = 5100 K (logT = 3.708) [updated 9/4/2020]
+[Note: all the standards and exemplars (thus far) are subsolar metallicities ranging
+from [Fe/H] ~ -0.4 to -0.04, so the Teff estimates for these are biased to one side
+
+BCv(K2V) = -0.296 mag ; EEM fit to Casagrande06/08/10 (Teff=5080K)
 BCv(K2V) =  -0.290 mag ; Schmidt-Kaler82(BCv=-0.42 + 0.13 offset)
-BCv(K2V) = -0.262 mag ; Flower96(Teff=5080K)
-BCv(K2V) = -0.253 mag ; Masana06(Teff=5080K)
+BCv(K2V) = -0.276 mag ; Flower96(Teff=5080K)
 BCv(K2V) = -0.269 +- 0.018 mag ; pri. stan. Eps Eri (Pecaut13)
-BCv(K2V) = -0.244 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5080K)
-BCv(K2V) = -0.208 mag ; Bertone04(ATLAS,Teff=5080K)
-=> adopt BCv(K2V) = -0.253 mag (+-0.028 mag rms systematic)
+BCv(K2V) = -0.267 mag ; Masana06(Teff=5080K)
+BCv(K2V) = -0.259 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5080K)
+BCv(K2V) = -0.252 mag ; Casagrande18(Teff=5080K,logg=4.5)
+BCv(K2V) = -0.222 mag ; Bertone04(ATLAS,Teff=5080K)
+BCv(K2V) = -0.221 mag ; pri. stan. HD 22049 = eps Eri (calc using Rains20)
+=> adopt BCv(K2V) = -0.26 mag [last updated 8/29/2019 adjusted so that BCv(5772K)=-0.085]
 
-Mv(K2V)  = 6.4   mag ; Schmidt-Kaler82
-Mv(K2V)  = 6.3   mag ; GrayCorbally09
-Mv(K2V)  = 6.233 mag ; V-K=2.155 => EEM fit to Reid CNS3 data
-Mv(K2V)  = 6.14  mag ; B-V=0.893 => Mv(Wright05)
-Mv(K2V)  = 6.09  mag ; Wegner07
-Mv(K2V)  = 5.9   mag ; Reid04
-=> adopt Mv(K2V) = 6.19 mag 
+Mv(K2V)  =    6.4  mag ; Schmidt-Kaler82
+Mv(K2V)  =   6.39  mag ; exemplar HD 10360 = p Eri B 
+Mv(K2V)  =   6.38  mag ; ter. stan. HD 4628
+Mv(K2V)  =    6.3  mag ; GrayCorbally09
+Mv(K2V)  =   6.25  mag ; median SIMBAD K2V d<25pc (N=38)
+Mv(K2V)  =   6.24  mag ; exemplar HD 10361 = p Eri A
+Mv(K2V)  =   6.22  mag ; exemplar HD 3222 
+Mv(K2V)  =   6.217 mag ; M_Ks=4.085 (d<25pc K2V); V-Ks=2.132
+Mv(K2V)  =   6.20  mag ; V-K=2.132 => EEM fit to Reid CNS3 data
+Mv(K2V)  =   6.20  mag ; exemplar HD 170657
+Mv(K2V)  =   6.18  mag ; pri. stan. eps Eri
+Mv(K2V)  =   6.17  mag ; ter. stan. HD 166620
+Mv(K2V)  =  6.17  mag ; SIMBAD d<20pc trend for Kdwarfs for V-Ks=2.132 (M_Ks=4.04)
+Mv(K2V)  =  6.16  mag ; V-K=2.132 => EEM fit to Jao16
+Mv(K2V)  =  6.16  mag ; median Mv K2V d<20pc XHIP
+Mv(K2V)  =   6.13  mag ; exemplar HD 68475
+Mv(K2V)  =  6.11  mag ; extrapolate for [Fe/H]=0.0 using Mv for standards & exemplars
+Mv(K2V)  =  6.09  mag ; B-V=0.884 => Mv(Wright05)
+Mv(K2V)  =    6.09 mag ; Wegner07
+Mv(K2V)  =   6.08  mag ; sec. stan. HD 109011
+Mv(K2V)  = 6.07 mag   ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=0.884
+Mv(K2V)  = 6.07 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.884
+Mv(K2V)  =   6.07  mag ; exemplar HD 13808
+Mv(K2V)  =  6.05  mag ; Koen10 d<25pc median K2V 
+Mv(K2V)  =  6.05  mag ; B-V=0.884 => EEM fit to SIMBAD dwarfs d<25pc 
+Mv(K2V)  =    5.9  mag ; Reid04
+=> adopt Mv(K2V)   = 6.07  mag [updated 12/15/2020] 
+=> adopt M_G(K2V)  = 5.81  mag [updated 11/15/2022] (Mv=6.07, G-V=-0.26)
+=> adopt M_Ks(K2V) = 3.938 mag [updated 12/15/2020] (Mv=6.07, V-Ks=2.132)
 
-logL(K2V) = -0.473 dex ; Mv=6.19, BCv=-0.253 => Mbol = 5.937
-=> adopt logL(K2V) = -0.473 dex
-=> adopt Mbol(K2V) =  5.937 mag 
+M_G(K2V) = 5.943 ; SIMBAD d<20pc trend for V-Ks=2.132
 
-Mass(K2V) = 0.91 Msun ; EEM Teff vs. Mass fit for binaries (Teff=5040K)
-Mass(K2V) = 0.85 Msun ; EEM Mv vs. Mass fit for binaries (Mv=6.19)
-Mass(K2V) = 0.81 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.47)
-Mass(K2V) = 0.808 Msun ; Eker15 calibration for logL=-0.473
-=> adopt Mass(K2V) = 0.82 Msun
+M_Ks(K2V) = 4.08 ; median K2V d<25pc (N=24)
 
-Rad(K2V) = 0.7152 +- 0.0006 Rsun ; Boyajian12b (N=2)
+logL(K2V) = -0.278+-0.065 ; ecl. binary ASAS_J045304-0700.4A (Helminiak11)
+logL(K2V) = -0.310+-0.053 ; ecl. binary EPIC 219511354A in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
+logL(K2V) = -0.428 dex ; Mv=6.07, BCv=-0.26 => Mbol = 5.810
+logL(K2V) = -0.49  dex ; pri. stan. HD 22049 = eps Eri (young <1 Gyr star)
+=> adopt logL(K2V) = -0.428 dex [updated 9/26/2020]
+=> adopt Mbol(K2V) =  5.810 mag [updated 9/26/2020]
+
+Mass(K2V) = 0.912+-0.013 Msun ; ecl. binary EPIC 219511354A in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
+Mass(K2V) = 0.847 Msun ; EEM Mv vs. Mass fit for binaries (Mv=6.17)
+Mass(K2V) = 0.834 Msun ; NO UMa (UMa member, dynamical mass, Kiefer18)
+Mass(K2V) = 0.8338+-0.0036 Msun ; ecl. binary ASAS_J045304-0700.4A (Helminiak11)
+Mass(K2V) = 0.831 Msun ; Eker18 calibration for logL=-0.468
+Mass(K2V) = 0.813 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.468)
+Mass(K2V) = 0.810 Msun ; Eker15 calibration for logL=-0.468
+Mass(K2V) = 0.7542+-0.0059 Msun ; ecl. binary V2154 Cyg B (BrightTorres17) [Fe/H]=-0.17, 2.2Gyr
+Mass(K2V) = 0.748 Msun ; Mann18 calib for M_Ks=4.058 
+=> adopt Mass(K2V) = 0.82 Msun [updated 10/23/2019]
+
+Rad(K2V) =  0.694 Rsun ; ter. stan. HD 4628 = HR 222
+Rad(K2V) =  0.695 +- 0.004 Rsun ; ter. stan. HD 4628 (Yee17)
+Rad(K2V) =  0.7152 +- 0.0006 Rsun ; Boyajian12b (N=2)
+Rad(K2V) =  0.7232+-0.0091 Rsun ; V2154 Cyg B (BrightTorres17) [Fe/H]=-0.17, 2.2Gyr
+Rad(K2V) =  0.738 +- 0.003 Rsun ; pri. stan. eps Eri (Rains20)
+Rad(K2V) =  0.749 +- 0.049 Rsun ; ter. stan. HD 4628 (Stassun19)
+Rad(K2V) =  0.755 +- 0.038 Rsun ; pri. stan. eps Eri (Stassun19)
+Rad(K2V) =  0.760 +- 0.040 Rsun ; exemplar HD 170657 (Yee17)
+Rad(K2V) =  0.764 +- 0.056 Rsun ; exemplar HD 170657 (Stassun19)
+Rad(K2V) =  0.769 +- 0.052 Rsun ; exemplar HD 3222 (Stassun19) 
+Rad(K2V) =  0.771 +- 0.043 Rsun ; sec. stan. HD 109011 (Stassun19)
+Rad(K2V) = 0.783 Rsun ; Teff=5100K, logL=-0.428
+Rad(K2V) =  0.787 +- 0.041 Rsun ; exemplar HD 13808 (Stassun19)
+Rad(K2V) =  0.791 +- 0.045 Rsun ; exemplar HD 68475 (Stassun19)
+Rad(K2V) =  0.813 +- 0.044 Rsun ; ter. stan. HD 166620 (Stassun19)
+Rad(K2V) =  0.848 +- 0.005 Rsun ; ecl. binary ASAS_J045304-0700.4A (Helminiak11)
+Rad(K2V) =  0.920 +- 0.016 Rsun ; EPIC 219511354A in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
+=> adopt Rad(K2V) = 0.783 Rsun [updated 9/26/2020]
+(note: most of the standards have slightly smaller radii than the mean likely
+due to their subsolar metallicities)
 
 # No standard
 
@@ -127,68 +266,96 @@ Corbally86 does not list a K2V standard.
 
 # Primary Standards
 
-HD 22049 = Eps Eri = GJ 144 (J0332-0927; V=3.72)
- *K2V: MK43,JM53,Wilson62(stan,JM53),Jaschek64(all),Morgan65,Cowley67,KeenanMcNeil76(stan),Keenan85,Garrison94,Keenan99,Gray03(K2V(k))
+HD 22049 = eps Eri = GJ 144 = HIP 16537 = 18 Eri = Ran (J0332-0927; V=3.72)
+ *K2V: MK43,JM53,Wilson62(stan,JM53),Jaschek64(all),Morgan65,Cowley67,KeenanMcNeil76(stan),Keenan85,Keenan89,Garrison94,Keenan99,Gray03(K2V(k))
   K0: Cannon
 
-  V=3.726+-0.010(Mermilliod91), B-V=0.882+-0.007(Mermilliod91),
-  B-V=0.881(HIP), U-B=0.583+-0.013(Mermilliod91).  mbol =
+  V=3.726+-0.010(Mermilliod91), V=3.730+-0.008(Cousins71),
+  B-V=0.882+-0.007(Mermilliod91), B-V=0.885+-0.007(Cousins71),
+  B-V=0.881(HIP), U-B=0.583+-0.013(Mermilliod91),
+  U-B=0.60:(Cousins71), V-Rc=0.504(Gonzalez-Hernandez09),
+  V-Ic=0.94(HIP), V-Ic=0.944(Gonzalez-Hernandez09),
+  V-Ic=0.883(Pickles10,fit,but poor 2MASS photometry for fit).  mbol =
   3.457+-0.016(Pecaut13), hence BCv = mbol - V = 3.457 - 3.726 =
   -0.269.  Teffs: 5097+-19K (Pecaut13), 5077+-35K(Boyajian12).  PASTEL
   (Soubiran10) lists 29 Teffs for eps Eri, median Teff = 5086 K,
-  median logg=4.53, median [Fe/H] = -0.09.
+  median logg=4.53, median [Fe/H] = -0.09. plx = 312.2191+-0.4673 mas
+  (GaiaDR2).  Mv=6.198+-0.011. Gaia DR2 photometry, G and Rp need
+  corrected via Evans18: G(corr)= 3.477, Bp(corr)= 4.003, Rp(corr)=
+  2.806, (Bp-Rp)(corr)= 1.196, (Bp-G)(corr)= 0.525, (G-Rp)(corr)=
+  0.671. G-V=-0.249+-0.011(corr). Rad=0.735+-0.005Rsun(Yee17).
+  Rains20 reports values from diameter measurement:
+  tetLD=2.144+-0.011mas, Rad=0.738+-0.003 Rsun, fbol=(99.8+-2.5)e-8
+  erg/s/cm2 (=>mbol = 3.505+-0.027 IAU2015 scale), Teff=5052+-33K,
+  L=0.32+-0.01Lsun (=> logL = -0.49+-0.01). BCv = V - mbol = 3.505 -
+  3.726 = -0.221.
 
 # Secondary Standards
 
 HD 109011 = NO UMa = GJ 1160
- *K2V: Roman49,JM53,Wilson62(stan,JM53),Abt68,Jaschek78,Levato78,Keenan85,Keenan88,Garcia89,Keenan89(K2Ve)
   K0: Cannon
   K1V: Yoss61
+ *K2V: Roman49,JM53,Wilson62(stan,JM53),Abt68,Jaschek78,Levato78,Keenan80,Keenan85,Keenan88,Keenan89(K2Ve)
 
-  Excellent standard. Abt68 uses as their K2V standard. B-V=0.941 (HIP)
+  Member of ~0.5 Gyr-old Ursa Major cluster. Abt68 uses as their K2V
+  standard. B-V=0.941+-0.001(HIP), V=8.104(Pickles10,fit),
+  V=8.08(HIP), V=8.10(Tycho), V=8.125+-0.026(Mermilliod91),
+  V-Ic=0.93(HIP), V-Ic=1.114(Pickles10,fit).  PASTEL shows only one
+  published set of spectroscopic parameters: Teff=5207+-72K(Gaidos02),
+  logg=4.48+-0.12(Gaidos02), [Fe/H]=-0.20+-0.06(Gaidos02).  plx =
+  39.4502 +- 0.2049mas(GaiaDR2). GaiaDR2 photometry, none of the bands
+  need to be corrected following Evans18: G= 7.777, Bp= 8.317, Rp=
+  7.123, (Bp-Rp)= 1.193, (Bp-G)= 0.540, (G-Rp)= 0.653.
+  G-V=8.10(+-0.02) - 7.777 =
+  -0.323+-0.02. Mv=6.08+-0.01(V=8.10,GaiaDR2). Dynamical mass from
+  orbit: 0.834+-0.017 Msun(Kiefer18).
+  
+# Tertiary Standards
 
 HD 166620 = HR 6806
- *K2V: Adams35,JM53,Wilson62,Cowley67,Houk(stan? see below),Gray03
+ *K2V: 1927MeUpp..28....1L,Adams35,Keenan41,JM53,Wilson62,Cowley67,Hoffleit82(BSC),Houk(stan? see below),Bidelman85(K2),Gray03
   K0: Cannon
 
   Not officially considered a standard (in JM53, but not as a
-  standard), but *all* Skiff09 references say "K2V". There appears to
-  be a typo in Houk75 list of primary standards. Houk75 lists primary
-  standards of alf Ser as "K2V" followed by HD 166620 (MK73 dagger) as
-  "K2 III CN 1.5" (from JM53). However these stars and their types
-  appear to be switched.  I think Houk75 meant to list HD 166620 (K2V)
-  (from JM53) and alf Ser (K2 III CN 1.5) (from MK73 dagger). So I
-  would argue that this star was indeed probably used as a "K2V"
-  standard by Houk75. B-V=0.876 (HIP).
+  standard), but *all* 8 Skiff compendium references say "K2V". There
+  appears to be a typo in Houk75 list of primary standards. Houk75
+  lists primary standards of alf Ser as "K2V" followed by HD 166620
+  (MK73 dagger) as "K2 III CN 1.5" (from JM53). However these stars
+  and their types appear to be switched.  I think Houk75 meant to list
+  HD 166620 (K2V) (from JM53) and alf Ser (K2 III CN 1.5) (from MK73
+  dagger). So I would argue that this star was indeed probably used as
+  a "K2V" standard by Houk75. B-V=0.876+-0.007(HIP),
+  V=6.38(HIP). PASTEL median values: <Teff> = 5012K(N=18),
+  <[Fe/H]>=-0.19(N=10). Mv=6.17. 
 
-# Weak standards
-
-HD 4628 =  BD+04 123 = HR 222 = LHS 121
-  K2V: MK43(stan),Nassau47,Wilson62,Cowley67,Harlan74,Gray03
-  K2.5V: Gray06
+HD 4628 = HR 222 = GJ 33 = BD+04 123 = LHS 121
   K1V: Houk99
+ *K2V: MK43(stan),Nassau47,Wilson62,Cowley67,Harlan74,Gray03
+  K2.5V: Gray06
 
-  According to Skiff's compilation, "S 222" in MK43 is actually "HR 222". Jaschek78 agrees.
-  Wilson62 comment "Balmer & CN weak". Houk says "HR 222; UNDETECTED VISUAL DOUBLE 
-  p=353°d=2.7arcsec MAG 5.8; LHS 121; µ=1.367". 
+  According to Skiff's compilation, "S 222" in MK43 is actually "HR
+  222". Jaschek78 agrees.  Wilson62 comment "Balmer & CN weak". Houk
+  says "HR 222; UNDETECTED VISUAL DOUBLE p=353°d=2.7arcsec MAG 5.8;
+  LHS 121; µ=1.367". V=5.74(HIP), B-V=0.890+-0.008(HIP).  PASTEL
+  compendium: <Teff> = 4950K(N=17), logg~4.6, [Fe/H]~-0.3.  Mv=6.38.
+  Boyajian13 reports limb-darkened diameter 0.868+-0.004mas,
+  plx=134.4990+-0.0890mas(GaiaDR2) => R=0.694Rsun.
+  R=0.695+-0.004Rsun(Yee17).
+  
 
-HD 3765 = GJ 28 = G 132-15 = Cin 20 44
-  K2V: Stebbins56,Keenan99
-  K2.5V: Gray03
-  K5V: Adams35
+# Deprecated standards
 
-  This star is only mentioned as a standard in Keenan's final list,
-  and Gray03 calls it K2.5V, so it is probably not the best choice of
-  K2V standard.
-
-HD 45088 = OU Gem = GJ 233A 
-  K2V: Keenan89(HK em),Keenan99
-  K3Vk: Gray03
+HD 45088 = OU Gem = GJ 233A
   K0: Cannon
+  K2V HK em: Keenan89,Keenan99(non-stan)
   K2/3Ve: Bopp80
+  K3Vk: Gray03
 
-  It is a BY Dra variable, and the Keenan and Gray types disagree. So
-  probably not the best choice of standard.
+  Similar to HD 3765 - where Keenan's last compilation considered it
+  K2V but Gray classified it later (K3V).  In Keenan's later lists,
+  but not flagged as one of the standards.  It is a BY Dra variable,
+  and the Keenan and Gray types disagree. So probably not the best
+  choice of standard.
 
 HD 140573 = HR 5854 = alf Ser
   K2V: HoukStandard
@@ -198,18 +365,107 @@ HD 140573 = HR 5854 = alf Ser
   dwarf, let alone a dwarf standard
 
 HD 184467 = GJ 762.1 = Cin 20 1157
- *K2V: Wilson62,Garcia89,Keenan89,Gray03
-  K2-V: Keenan83
   K0V: Bartaya83
   K1V: Roman55,Jaschek64(all),Jaschek78(Roman55),Houk(sec.stand.)
+  K2-V: Keenan83,Keenan85
+ *K2V: Wilson62,Garcia89,Keenan89,Gray03
   K4V: Keenan88
   K5V: Joy35
   
-  Not sure this is the best choice of standard given the floating SpTs
-  in the literature
+  Very poor agreement among authors on type.
 
+# Exemplars
+
+HD 13808 = HIP 10301 = UPG 29
+  *K2V: Upgren72, Houk75, Gray06
+
+   All Skiff compendium types are K2V. V=8.36(HIP),
+   B-V=0.870+-0.000(G,HIP). PASTEL compendium: <Teff> = 5078K(N=4),
+   logg=4.38(N=2), [Fe/H]=-0.21(N=2). Mv=6.07. 
+
+HD 3222 = HIP 2743 
+   K0V: Przybylski65
+  *K2V: Upgren72, Houk75,Gray06
+   K3V: Evans65
+
+   V=8.55(HIP), B-V=0.854+-0.006(HIP), V-Ic=0.90+-0.01(HIP). PASTEL
+   compendium: <Teff> = 4991K(N=3), logg=4.57+-0.12(Bensby14),
+   [Fe/H]=-0.41+-0.07. Mv=6.22. 
+
+HD 68475 = HIP 40051
+  *K2V: Upgren72,Houk78,Gray06
+
+   All 3 types in Skiff MK compendium agree.  V=8.78(HIP),
+   B-V=0.887+-0.025(HIP), V-Ic=0.93+-0.02(HIP).  PASTEL compendium:
+   <Teff> = 5022K(N=2). [Fe/H]=-0.04+-0.05(Gaspar16,N=5). Mv=6.13. 
+
+HD 170657 = HIP 90790
+   K0V: Adams35
+   K1: 1932LicOB..16...53H
+  *K2V: Munch44,Feast57,Bidelman85(K2),Gray06
+   K3V: Wallerstein57
+
+   V=6.81(HIP), B-V=0.861+-0.007(HIP).  PASTEL compendium: <Teff> =
+   5108K(N=9), logg~4.5-4.6, [Fe/H]=-0.16(N=9). Mv=6.20. 
+  
 # Other Stars
 
 Morgan65 lists four stars as K2V Hyads: HD 27990, 28878, 28977, & 284414.
 
 RECONS list shows Eps Eri (GJ 144; J0332-0927) as the nearest K2V star.
+
+HD 3765 = GJ 28 = G 132-15 = Cin 20 44
+  K2V: Stebbins56,Keenan99(non-stan)
+  K2.5V: Gray03
+  K5V: Adams35
+
+  Star appeared in Keenan's last (posthumous) MK classification
+  compilation
+  (https://www.astronomy.ohio-state.edu/MKCool/mkcat.html), who
+  considered it K2V (non-standard) but Gray classified it later
+  (K2.5V).
+
+HD 148653
+   K1V: Bidelman85(K1),Abt81
+   K2V: Adam35,Cowley67,Gray03
+
+HD 10360 = HR 486 = p Eri B
+   K0V: Evans57
+   K1: Houk75
+   K1.5V: Corbally84
+  *K2V: Gray06
+   K3V: Corbally80
+   K5V: Stocke91
+
+  "B" component with HR 487. Remarkably poorly constrained spectral
+  type.  B-V=0.880(Mermilliod91), V=5.960(Mermilliod91),
+  U-B=0.600(Mermilliod91).  PASTEL published values: <Teff> = 5061K
+  (N=8), <[Fe/H]> = -0.235(N=6), <logg> = 4.625(N=6).
+  plx = 122.1333+-0.0523mas(GaiaDR2). Mv = 6.39. 
+
+HD 10361 = HR 487 = p Eri A 
+   K0V: Evans57,Stocke91
+   K0/4: Houk75
+   K1V: Corbally84
+  *K2V: Corbally80,Gray06
+
+  "A" component with HR 486. V=5.810(Mermilliod91),
+  B-V=0.850(Mermilliod91), U-B=0.550(Mermilliod91). PASTEL published
+  values: <Teff> = 5107K(N=2).  <[Fe/H]> = -0.205(N=2), <logg> =
+  4.625(N=2). Somewhat surprising that primary star has fewer quoted
+  values than secondary in PASTEL compendium - there may be confusion
+  in which ID was assigned to the values?  plx =
+  122.0552+-0.0531mas(GaiaDR2).  Mv = 6.24.
+
+HD 192310 = HR 7722
+  K0V: Evans57,BSC/Hoffleit91
+  K1V?: Bidelman85(NaD strong?)
+  K2V: Wilson62(CN strong, spec. bin.),1943HarCi.449....1H,Lindblad22
+ *K2+V: Gray06
+  K3V: Houk82
+  K5V: Adams35
+
+  Awful agreement on published types. 5th brightest K0V in the BSC,
+  but most papers have it cooler. Only included since it is a very
+  nearby, bright K dwarf.
+

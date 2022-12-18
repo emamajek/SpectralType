@@ -1,9 +1,18 @@
 K4V
 
 Garrison94 does not list a K4V anchor standard, and MK73 does not list
-a K4V dagger standard.
+a K4V dagger standard. Only two stars in the Bright Star Catalog (5th ed.)
+are classified as K4V (HR 5568 = HD 131977, HR 8721 = HD 216803). 
 
-HD 216803 and HD 131977 are probably the best available standards. 
+The primary (GJ 689 = HD 160964), secondary (GJ 879 = HD 216803 = TW
+PsA), and tertiary (GJ 570A = HD 131977) standards are all near solar,
+so the ~solar composition mean properties for K4V are well-defined.
+
+Morgan65 classified two Hyads as K4V: HD 285720 & HD 285742. Pecaut16
+finds that Houk/Michigan stars classified as "K3/4V" map well to "K4V"
+among the classifications of Gray03/06, and Houk/Michigan "K4V" maps
+roughly to "K4+V" on the Gray03/06 (note the Gray classifications use
+the Keenan standards).
 
 Keenan80 standard:   Gl 689 (=HD 160964) - K4V
 Keenan83 standard:   Gl 689 (=HD 160964) - K4V
@@ -19,34 +28,111 @@ Skiff08 flags one star as K4V MK standard: HD 160964 (Keenan89).
 The mean B-V for Hipparcos K4V stars is 1.115. So its not clear that
 HD 131977 is representative either.
 
-<B-V>(K4V) = 1.168 [+-0.033 sem,+-0.140 stdev]; med. for 28 K4V stars ARICNS
-<B-V>(K4V) = 1.111 ; 58 HIP d<75pc (+-0.009 sem, +-0.084 stdev)
-<B-V>(K4V) = 1.101 ; 46 Gray01/03/06 (+-0.006 sem, +-0.042 stdev)
-<B-V>(K4V) = 1.10  ; Hyades; Wilson62(N=11)
-(B-V)(K4V) = 1.094 ; prim. stan. TW PsA
-(B-V)(K4V) =  1.05  ; Schmidt-Kaler82
-(B-V)(K4V) = 1.024 ; sec. stan. HD 131977 
-<B-V>(K4V) =  1.02  ; Bessell79
-<B-V>(K4V) =  1.00  ; Fitzgerald70
-=> adopt (B-V)(K4V)  = 1.100 ***
-=> adopt (U-B)(K4V)  = 1.004
-=> adopt (V-I)(K4V)  = 1.190
-=> adopt (V-R)(K4V)  = 0.640
-=> adopt (R-I)(K4V)  = 0.550
-=> adopt (V-J)(K4V)  = 2.064
-=> adopt (V-H)(K4V)  = 2.608
-=> adopt (V-Ks)(K4V) = 2.733
-=> adopt (H-Ks)(K4V) = 0.125
-=> adopt (J-H)(K4V)  = 0.544
-=> adopt (K-W1)(K4V) = 0.039 
+<B-V>(K4V) =  1.168 [+-0.033 sem,+-0.140 stdev]; med. for 28 K4V stars ARICNS
+(B-V)(K4V) =  1.15  ; exemplar 70 Oph B
+(B-V)(K4V) =  1.141 ; exemplar GJ 775
+(B-V)(K4V) =  1.137 ; exemplar HD 105671
+(B-V)(K4V) =  1.130 ; median SIMBAD K4V d<25pc (N=48)
+(B-V)(K4V) =  1.128 ; median Koen10 d<25pc (N=15)
+(B-V)(K4V) =  1.115 ; median for N=41 K4V stars w/i 30pc (Hinkel17)
+(B-V)(K4V) =  1.115 ; exemplar HD 24916
+<B-V>(K4V) =  1.111 ; 58 HIP d<75pc (+-0.009 sem, +-0.084 stdev)
+<B-V>(K4V) =  1.101 ; 46 Gray01/03/06 (+-0.006 sem, +-0.042 stdev)
+<B-V>(K4V) =  1.10  ; Hyades; Wilson62(N=11)
+(B-V)(K4V) = 1.099 ; interpolation for standards & exemplars for [Fe/H]=0.0 (B-V=1.099-0.072*[Fe/H], rms=0.045)
+(B-V)(K4V) = 1.094 ; sec. stan. GJ 879/TW PsA
+(B-V)(K4V) = 1.089 ; pri. stan. GJ 689
+(B-V)(K4V) = 1.084 ; trend for xHIP K4V d<30pc w/[Fe/H] values with uncertainties 
+(B-V)(K4V) =  1.060 ; exemplar GJ 845 (eps Ind)
+(B-V)(K4V) =  1.05  ; exemplar HD 285720 (Hyad, metal-rich)
+(B-V)(K4V) =   1.05  ; Schmidt-Kaler82
+(B-V)(K4V) =  1.03  ; exemplar HD 285742 (Hyad, metal-rich)
+(B-V)(K4V) = 1.024 ; ter. stan. GJ 570A/HD 131977 
+<B-V>(K4V) =   1.02  ; Bessell79
+<B-V>(K4V) =   1.00  ; Fitzgerald70
+=> adopt (B-V)(K4V)  = 1.090 *** [updated 12/15/2020]
+
+=> adopt (U-B)(K4V)  = 0.986
+=> adopt (V-I)(K4V)  = 1.182
+=> adopt (V-R)(K4V)  = 0.635
+=> adopt (R-I)(K4V)  = 0.547
+=> adopt (V-J)(K4V)  = 2.040
+=> adopt (V-H)(K4V)  = 2.580
+=> adopt (H-Ks)(K4V) = 0.123
+=> adopt (J-H)(K4V)  = 0.539
+
+(Ks-W1)(K4V) = 0.087 ; EEM trend for d<30pc for B-V=1.10
+=> adopt (Ks-W1)(K4V) = 0.087 [updated 12/29/2019]
+
+M_G(K4V) = 6.656 ; SIMBAD d<20pc trend for V-Ks=2.70
+
+(G-V)(K4V)  =   -0.4558 ; GJ_689
+(G-V)(K4V)  =  -0.4339 ; GJ_570A ter. stan.
+(G-V)(K4V)  =  -0.4189 ; GJ_879 sec. stan. 
+(G-V)(K4V)  = -0.404  ; color fit for B-V=1.09
+(G-V)(K4V)  = -0.394  ; trend for SIMBAD d<20pc for V-Ks=2.70
+(G-V)(K4V)  = -0.389  ; pri. stan. GJ_689 G_GaiaEDR3
+(G-V)(K4V)  = -0.388  ; B-V vs G-V trend Pancino22 for B-V=1.09
+(G-V)(K4V)  = -0.379  ; smooth fit f(SpT) G9V-M0V
+(G-V)(K4V)  = -0.349  ; V-Ic vs G-V trend Pancinco22 for V-Ic= 1.18
+=> adopt (G-V)(K4V) = -0.39 [updated 11/15/2022]
+
+(Bp-Rp)(K4V) =  1.2577 ; HD_285720
+(Bp-Rp)(K4V) =  1.2835 ; *_eps_Ind   K4V(k)
+(Bp-Rp)(K4V) = 1.3188 ; HD_131977   K4V ter. stan.
+(Bp-Rp)(K4V) = 1.3260 ; V*_TW_PsA   K4Ve sec. stan.
+(Bp-Rp)(K4V) = 1.345  ; color fit for B-V=1.09
+(Bp-Rp)(K4V) = 1.3493 ; GJ 689 K4V pri. stan.
+(Bp-Rp)(K4V) =  1.3509 ; GJ_9391A
+(Bp-Rp)(K4V) =  1.3534 ; GJ_775
+(Bp-Rp)(K4V) =  1.4773 ; *_70_Oph_B  K4V
+=> adopt (Bp-Rp)(K4V) = 1.34 [last updated 11/10/2020]
+
+(Bp-G)(K4V) =  0.5764  ; HD_285720
+(Bp-G)(K4V) = 0.6290  ; GJ_879 sec. stan.
+(Bp-G)(K4V) = 0.6293  ; GJ_689 pri. stan.
+(Bp-G)(K4V) = 0.63   ; Bp-Rp=1.34, G-Rp=0.71
+(Bp-G)(K4V) =  0.6332  ; GJ_775
+(Bp-G)(K4V) =  0.6357  ; GJ_9391A
+(Bp-G)(K4V) = 0.6535  ; GJ_570A ter. stan.
+(Bp-G)(K4V) =  0.7273  ; GJ_702B
+=> adopt (Bp-G)(K4V) = 0.63 [last updated 11/10/2020; Bp-Rp=1.34, G-Rp=0.71]
+
+(G-Rp)(K4V) =  0.6653  ; GJ_570A
+(G-Rp)(K4V) =  0.6813  ; HD_285720
+(G-Rp)(K4V) = 0.669   ; color fit for B-V=1.09
+(G-Rp)(K4V) = 0.6930  ; HD_131977   K4V ter. stan.
+(G-Rp)(K4V) =  0.6970  ; GJ_879
+(G-Rp)(K4V) = 0.7043  ; V*_TW_PsA   K4Ve sec. stan.
+(G-Rp)(K4V) =  0.7070  ; *_eps_Ind   K4V(k)
+(G-Rp)(K4V) = 0.71   ; Bp-Rp=1.34, Bp-G=0.63 
+(G-Rp)(K4V) =  0.7153  ; GJ_9391A
+(G-Rp)(K4V) = 0.7200  ; GJ 689 K4V pri. stan.
+(G-Rp)(K4V) =  0.7203  ; GJ_775
+(G-Rp)(K4V) =  0.7500  ; GJ_702B
+(G-Rp)(K4V) =  0.7717  ; *_70_Oph_B  K4V
+=> adopt (G-Rp)(K4V) = 0.71 [last updated 11/10/2020]
 
 (U-B)(K4V)  = 1.013 ; HIP d<75pc S/N>8 K4V N=52
 
+(V-Ic)(K4V) = 1.16  ; pri. stan. GJ 689 
 <V-Ic>(K4V) = 1.172 (+-0.012 sem, +-0.065 stdev; Gray01/03/06 N=46)
-<V-Ic>(K3V) = 1.172 (+-0.025 sem, +-0.140 stdev; HIP d<75pc S/N>8 N=58)
-(V-Ic)(K4V) = 1.20  ; TW PsA (Hipparcos)
+<V-Ic>(K4V) =  1.172 (+-0.025 sem, +-0.140 stdev; HIP d<75pc S/N>8 N=58)
+(V-Ic)(K4V) = 1.190 ; sec. stan. GJ 879 = TW PsA (Just08)
+(V-Ic)(K4V) = 1.212 ; Koen10 N=14 K4V d<25pc median
+(V-Ic)(K4V) =  1.23+-0.08 ; ter. stan. GJ 570A = HD 131977
+=> adopt (V-Ic)(K4V) = 1.18 [updated 11/15/2022]
 
-(V-Ks)(K4V) = 2.65  ; TW PsA (Hipparcos, Aumann91)
+(V-Ks)(K4V) =  2.441 ; exemplar HD 285742 (see below)
+(V-Ks)(K4V) =  2.464 ; exemplar HD 285720  (see below)
+(V-Ks)(K4V) = 2.649 ; trend for K dwarfs (standards+exemplars)
+(V-Ks)(K4V) = 2.65  ; sec. stan. GJ 879/TW PsA (see below)
+(V-Ks)(K4V) =  2.655 ; exemplar GJ 775 (see below)
+(V-Ks)(K4V) =  2.697 ; exemplar HD 105671 (see below)
+(V-Ks)(K4V) = 2.702 ; pri. stan. GJ 689 (see below)
+(V-Ks)(K4V) = 2.703 ; fit for B-V=1.090
+(V-Ks)(K4V) =  2.704 ; exemplar HD 24916 (see below)
+=> adopt (V-Ks)(K4V) = 2.70 [updated 12/26/2020] 
 
 <V-J>(K4V)   = 2.048 (+-0.027 sem, +-0.195 stdev; HIP d<75pc S/N>8 N=58)
 <V-H>(K4V)   = 2.596 (+-0.028 sem, +-0.235 stdev; HIP d<75pc S/N>8 N=58)
@@ -57,124 +143,366 @@ HD 131977 is representative either.
 <V-Vt>(K4V)  =-0.130 (+-0.003 sem, +-0.032 stdev; HIP d<75pc S/N>8 N=57) 
 <B-K>(K4V)   = 3.846 (+-0.043 sem, +-0.317 stdev; HIP d<75pc S/N>8 N=58)
 
-Teff(K4V) =  4500 K ; Bessell79
-Teff(K4V) =  4507 +- 58 K ; Boyajian12b (N=1)
-Teff(K4V) = 4509 K ; Ramirez05 Teff calibration for B-V=1.100
-Teff(K4V) =  4550 K ; GrayCorbally09 
-Teff(K4V) = 4555 K ; pri. stan. TW PsA (Santos04)
-Teff(K4V) =  4590 K ; Schmidt-Kaler82
+(g-r)(K4V) = 0.921 ; Jordi06 (V-R)=>(g-r) for V-R=0.642
+(g-r)(K4V) = 0.985 ; Bilir05 (B-V)=>(g-r) for B-V=1.10
+(g-r)(K4V) = 1.00  ; Covey07
+=> adopt (g-r)(K4V) = 0.99 [updated 10/10/2020]
+
+Teff(K4V) =  4390 K ; exemplar 70 Oph B
+Teff(K4V) = 4499 K ; pri. stan. GJ 689 
+Teff(K4V) =   4500 K ; Bessell79
+Teff(K4V) =   4507 +- 58 K ; Boyajian12b (N=1)
+Teff(K4V) = 4529 K ; Ramirez05 Teff calibration for B-V=1.09
+Teff(K4V) = 4542 K ; interp pri/sec/ter standards for [Fe/H]=0.0
+Teff(K4V) =   4550 K ; GrayCorbally09 
+Teff(K4V) =   4590 K ; Schmidt-Kaler82
 Teff(K4V) = 4596 K ; EEM N=67 Teffs
+Teff(K4V) = 4599 K ; sec. stan. GJ 879/TW PsA
+Teff(K4V) = 4607 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for K4V for [Fe/H]=0.0
 Teff(K4V) = 4615 K ; mean photometric Teff
-Teff(K4V) = 4627 +- 16 K ; Pecaut13 (GJ 570A)
-Teff(K4V) = 4631 K ; Casagrande10 Teff calibration for B-V=1.100
-Teff(K4V) =  4690 K ; GrayCorbally94
-Teff(K4V) = 4703 K ; Biazzo07 Teff calibration for B-V=1.100
-Teff(K4V) = 4713 +- 16 K ; Pecaut13 (GJ 845)
-=> adopt Teff(K4V) = 4620 K (logT = 3.665)
+Teff(K4V) = 4616 K ; ter. stan. GJ 570A (mean PASTEL Teff, see below)
+Teff(K4V) =  4616 K ; exemplar HD 105671 
+Teff(K4V) = 4622 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for B-V=1.10
+Teff(K4V) = 4623 K ; [Fe/H] vs. Teff trend for standards & exemplars for [Fe/H]=0.0
+Teff(K4V) = 4635 K ; Teff for d<30pc K4Vs in Hinkel17 for PASTEL -0.15<[Fe/H]<0.15 for [Fe/H]=0.0
+Teff(K4V) = 4642 K ; smoothed Teff(SpT) trend
+Teff(K4V) =  4642 K ; exemplar GJ 845 = eps Ind A
+Teff(K4V) =  4650 K ; exemplar GJ 775
+Teff(K4V) = 4651 K ; Casagrande10 Teff calibration for B-V=1.09
+Teff(K4V) =   4690 K ; GrayCorbally94
+Teff(K4V) =  4718 K ; exemplar HD 285742 (Hyad, metal-rich)
+Teff(K4V) =  4762 K ; exemplar HD 285720 (Hyad, metal-rich)
+=> adopt Teff(K4V) = 4600 K (logT = 3.663) [last updated 12/15/2020]
 
-BCv(K4V) = -0.523 mag ; EEM fit to Casagrande06/08/10 data (Teff=4620K)
-BCv(K4V) = -0.513 mag ; Masana06(Teff=4620K)
-BCv(K4V) = -0.520 +- 0.037 mag ; sec. stan. GJ 570A (Pecaut13)
-BCv(K4V) = -0.506 mag ; Flower96(Teff=4620K)
-BCv(K4V) = -0.485 mag ; Bessell98(ATLAS9,logg=4.5,Teff=4620K)
-BCv(K4V) = -0.471 +- 0.018 ; non-standard GJ 845 (Pecaut13)
-BCv(K4V) = -0.412 mag ; Bertone04(ATLAS,Teff=4620K)
-BCv(K4V) =  -0.42  mag ; Schmidt-Kaler82 (BCv = -0.55 + 0.13 offset)
-=> adopt BCv(K4V) = -0.506 mag (+-0.045 mag rms systematic)
+BCv(K4V) = -0.549  mag   ; EEM fit to Casagrande06/08/10 data (Teff=4600K)
+BCv(K4V) = -0.542  mag   ; Masana06(Teff=4600K)
+BCv(K4V) = -0.533  mag   ; Flower96(Teff=4600K)
+BCv(K4V) = -0.520+-0.037 ; sec. stan. GJ 570A (Pecaut13)
+BCv(K4V) = -0.513  mag   ; Bessell98(ATLAS9,logg=4.5,Teff=4600K)
+BCv(K4V) = -0.502  mag   ; Casagrande18(Teff=4600K,logg=4.5)
+BCv(K4V) =  -0.471+-0.018 ; exemplar GJ 845 = eps Ind (Pecaut13)
+BCv(K4V) =  -0.465+-0.079 ; exemplar GJ 845 = eps Ind
+BCv(K4V) = -0.437 mag    ; Bertone04(ATLAS,Teff=4600K)
+BCv(K4V) =  -0.42  mag   ; Schmidt-Kaler82 (BCv = -0.55 + 0.13 offset)
+BCv(K4V) = -0.331+-0.07  ; ter. stan. GJ 570A = HD 131977 (calc from Rains20)
+=> adopt BCv(K4V) = -0.52 mag [last updated 12/15/2020; scaled so BCv(5772K)=-0.085]
 
-Mv(K4V)  =  7.4   mag ; GrayCorbally09
-Mv(K4V)  = 7.097 mag ; V-K=2.733 => EEM fit to Reid CNS3 data 
-Mv(K4V)  =  7.0   mag ; Schmidt-Kaler82
-Mv(K4V)  = 6.98  mag ; B-V=1.10 => Mv(Wright05)
-Mv(K4V)  =  6.86  mag ; Wegner07
-=> adopt Mv(K4V) = 7.04 mag 
+Mv(K4V)  =  7.51 mag ; exemplar 70 Oph B = GJ 702B 
+Mv(K4V)  =   7.4 mag ; GrayCorbally09
+Mv(K4V)  = 7.19 mag ; pri. stan. GJ 689 = HD 160964 (~solar) 
+Mv(K4V)  = 7.15 mag ; median SIMBAD K4V d<25pc (N=49)
+Mv(K4V)  =  7.14 mag ; V-Ks=2.733 => EEM fit to Jao16 data
+Mv(K4V)  =   7.12 mag ; V-Ks=2.733 => EEM fit to MS data
+Mv(K4V)  =  7.10 mag ; V-K=2.733 => EEM fit to Reid CNS3 data 
+Mv(K4V)  = 7.08 mag ; SIMBAD d<20pc trend for K dwarfs for V-Ks=2.70 (M_Ks=4.38)
+Mv(K4V)  =  7.07 mag ; M_Ks=4.37 (median K4V d<25pc), V-Ks=2.79
+Mv(K4V)  = 7.07 mag ; sec. stan. GJ 879 = HD 216803 (~solar)
+Mv(K4V)  = 7.03 mag ; B-V=1.10 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(K4V)  = 7.025 mag ; trend [Fe/H] vs. Mv for standards & exemplars
+Mv(K4V)  = 7.02 mag  ; Koen10 d<25pc median K4V
+Mv(K4V)  = 7.02  mag ; median Mv K4V d<20pc XHIP
+Mv(K4V)  = 7.01 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=1.10
+Mv(K4V)  =   7.0 mag ; Schmidt-Kaler82
+Mv(K4V)  = 6.985 mag ; xHIP d<25pc -0.1<[Fe/H]<0.1 for B-V=0.99
+Mv(K4V)  = 6.98 mag ; B-V=1.10 => Mv(Wright05)
+Mv(K4V)  =  6.98 mag ; exemplar HD 105671 = GJ 9391A 
+Mv(K4V)  =  6.93 mag ; exemplar GJ 775 = HD 190007 ([Fe/H]~+0.16)
+Mv(K4V)  =  6.89 mag ; exemplar GJ 845 = eps Ind ([Fe/H]~-0.13)
+Mv(K4V)  = 6.88 mag ; fit to Yee17 Teff/Rad/logL data for K dwarfs for [Fe/H]=0, Teff=4620K
+Mv(K4V)  = 6.87 mag ; ter. stan. GJ 570A = HD 131977 
+Mv(K4V)  =   6.86 mag ; Wegner07
+Mv(K4V)  =  6.64 mag ; exemplar HD 285720 = BD+17_715 (Hyad)
+Mv(K4V)  =  6.58 mag ; exemplar HD 285742 = V991 Tau (Hyad)
+=> adopt Mv(K4V)   = 6.98  mag [updated 12/15/2020]
+=> adopt M_G(K4V)  = 6.59  mag [updated 11/15/2022] (Mv=6.98, G-V=-0.39)
+=> adopt M_Ks(K4V) = 4.247 mag [updated 12/15/2020] (Mv=6.98, V-Ks=2.733)
 
-logL(K4V) = -0.711 ; Mv=7.04, BCv=-0.506 => Mbol = 6.534
-=> adopt logL(K4V) = -0.706 dex
-=> adopt Mbol(K4V) =  6.53 mag
+(EEM note 12/15/2020: the [Fe/H] vs. Mv trend for the standards &
+exemplars yields: Mv = 7.025 - 1.478*[Fe/H], rms=0.247 mag; the
+standards are all within +-0.2 dex of solar, with several close to
+solar. Using xHIP for K dwarfs d<25pc within +-0.1 dex of solar, the
+trend for B-V=1.09 => Mv=6.985)
 
-Mass(K4V) = 0.78 Msun ; EEM Teff vs. Mass fit for binaries (Teff=4600K)
-Mass(K4V) = 0.78 Msun ; EEM Mv vs. Mass fit for binaries (Mv=7.04)
-Mass(K4V) = 0.73 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.71)
-Mass(K4V) = 0.722 Msun ; Eker15 calibration for logL=-0.473
-=> adopt Mass(K4V) = 0.73 Msun
+M_G(K4V) = 6.5148   HD_131977_  ; K4V_
+M_G(K4V) = 6.68736  V*_TW_PsA_  ; K4Ve_
+M_G(K4V) = 6.99891  *_70_Oph_B_ ; K4V_
 
-Rad(K4V) = 0.7390 +- 0.0190 Rsun ; Boyajian12b (N=1)
+M_Ks(K4V) = 4.37 ; median K4V d<25pc N=36
+M_Ks(K4V) = 4.38 ; SIMBAD d<20pc trend for K dwarfs for V-Ks=2.70
+M_Ks(K4V) = 4.42 ; sec. stan. GJ 879 = HD 216803 = TW PsA
+M_Ks(K4V) = 4.49 ; pri. stan. GJ 689 = HD 160964 
+
+logL(K4V) = -0.365+-0.068 ; ecl. binary ASAS_J045304-0700.4B (Helminiak11) 
+logL(K4V) = -0.500+-0.052 ; ecl. binary EPIC 219511354B in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
+logL(K4V) = -0.68  ; exemplar GJ 845 = eps Ind
+logL(K4V) = -0.688 ; Mv=6.98, BCv=-0.52 => Mbol = 6.460
+logL(K4V) = -0.72  ; ter. stan. GJ 570A = HD 131977
+=> adopt logL(K4V) = -0.688 dex [updated 12/28/2020]
+=> adopt Mbol(K4V) =  6.460 mag [updated 12/28/2020]
+
+Mass(K4V) = 0.822+-0.016 Msun ; EPIC 219511354B in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
+Mass(K4V) = 0.828+-0.0040 Msun ; ecl. binary ASAS_J045304-0700.4B (Helminiak11) 
+Mass(K4V) = 0.746 Msun ; EEM Mv vs. Mass fit to Torres10 binaries (Mv=7.00)
+Mass(K4V) = 0.755 Msun ; Eker18 calibration for logL=-0.708
+Mass(K4V) = 0.748 Msun ; Mann18 calib for M_Ks=4.147
+Mass(K4V) = 0.728 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.740)
+Mass(K4V) = 0.722 Msun ; Eker15 calibration for logL=-0.708
+=> adopt Mass(K4V) = 0.75 Msun [updated 7/20/2020]
+
+Rad(K4V) =  0.851+-0.016   Rsun ; ecl. binary EPIC 219511354B in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
+Rad(K4V) =  0.833+-0.005   Rsun ; ecl. binary ASAS_J045304-0700.4B (Helminiak11) 
+Rad(K4V) =  0.790+-0.053   Rsun ; exemplar HD 285742 (Stassun19)
+Rad(K4V) =  0.776+-0.061   Rsun ; exemplar HD 285720 (Stassun19)
+Rad(K4V) =  0.7390+-0.0190 Rsun ; Boyajian12b (N=1)
+Rad(K4V) =  0.738+-0.062   Rsun ; exemplar GJ 845 (Stassun19)
+Rad(K4V) =  0.726+-0.050   Rsun ; exemplar GJ 9391A (Stassun19)
+Rad(K4V) = 0.717+-0.061   Rsun ; ter. stan. GJ 570A (Stassun19)
+Rad(K4V) = 0.715+-0.009   Rsun ; ter. stan. GJ 570A = HD 131977 (Rains20)
+Rad(K4V) = 0.7131         Rsun ; Teff=4600K, logL=-0.688
+Rad(K4V) =  0.711+-0.005   Rsun ; exemplar GJ 845 = eps Ind ([Fe/H]=-0.13; Rains20)
+Rad(K4V) =  0.710+-0.058   Rsun ; exemplar GJ 702B  (Stassun19)
+Rad(K4V) =  0.691+-0.056   Rsun ; exemplar GJ 775 (Stassun19) ([Fe/H]~+0.16) 
+Rad(K4V) =  0.670+-0.009   Rsun ; exemplar 70 Oph B = GJ 702B (Yee17)
+Rad(K4V) = 0.696+-0.054   Rsun ; pri. stan. GJ 689 (Stassun19)
+Rad(K4V) = 0.692+-0.046   Rsun ; sec. stan. GJ 879 (Stassun19)
+=> adopt Rad(K4V) = 0.713 Rsun [updated 12/28/2020] 
 
 # No standard
 
 JM53, Wilson62, Morgan65, MK73, Houk75, KeenanMcNeil76, Corbally86,
 and Garrison94 do not list a K4V standard.
 
-# Primary Standard
+# Primary Standard 
 
-HD 216803 = GJ 879 = TW PsA = HR 8721 (J2256-3133)
- *K4V: Keenan85(standard),Keenan89(K4Ve, non-stan),Houk3(K4Vp),Pecaut13
-  K4+Vk: Gray06
-  K5V: Joy47,Evans57,Upgren72
-  K3V: Wilson62
+GJ 689 = HD 160964 
+ *K4V: Keenan80,Keenan83,Keenan85,Keenan88,Keenan89
+  K7V: Reid04
+  K8V: Vyssotsky52,Woolley70,Gliese91
 
-  It various from K3-K5 in the literature.  Jaschek64 lists one K4V
-  ref, and 3 K5V refs! In Keenan89, but not listed as a standard.
-
-  V=6.48(HIP), B-V=1.094(HIP), V-I=1.20(HIP), K=3.83(Aumann91), 2MASS
-  H & K photometry saturated. (V-Ks)=2.65(HIP,Aumann91), probably
-  within +-0.03 mag of 2MASS system. PASTEL (Soubiran10) only lists
-  two Teffs, Teff = 4555+-87 K from Santos04 and Teff = 4647+-50 K
-  from Santos01. Conclusion: not bad. B-V is close to <B-V> for
-  K4Vs. Keenan, Houk, Gray agree on K4V.
+  Unfortunately a few discrepent published types, however Keenan
+  consistently listed it the K4V standard throughout the 1980s (and it
+  is approximately solar metallicity).  V=8.620(Mermilliod91,Hauck90),
+  V=8.55(HIP), V=8.554+-0.014(TYC2=>Johnson),
+  V=8.565929(GaiaDR3,synth), V=8.59(Tycho), V=8.603+-0.018(Droege07)
+  => adopt V=8.56. B-V=1.100(Mermilliod91), B-V=1.089+-0.011(HIP),
+  V-I=1.16+-0.02(HIP), J=6.524+-0.021(2MASS), H=6.011+-0.021(2MASS),
+  Ks=5.888+-0.020(2MASS), V-Ks = 8.59-5.888 = 2.702. Only PASTEL Teff:
+  4499+-8K(Mishenina08,Mishenina12), [Fe/H]=-0.07+-0.05(Mishenina12),
+  [Fe/H]=0.04(Luck17) => adopt [Fe/H] = -0.015, i.e. ~solar,
+  <logg>=4.65(N=3).  plx = 52.4550+-0.0261mas(GaiaDR2),
+  plx=52.4929+-0.0167mas(GaiaEDR3). Mv = 7.19, M_Ks=4.49.  Gaia DR2:
+  G=8.1642+-0.0004, E(BR/RP)=1.237, Bp-Rp=1.3493, Bp-G=0.6293,
+  G-Rp=0.7200 => G-V = 8.1642 - 8.59 = -0.426. GaiaEDR3:
+  G=8.170528+-0.002764, E(BP/RP)=1.248, Bp-Rp=1.337254, Bp-G=0.599900,
+  G-Rp=0.737354 => G-V = 8.170528 - 8.56 = -0.38947.
 
 # Secondary Standard
 
-HD 131977 = GJ 570A = HR 5568 = StKM 2-1093
- *K4V: Cowley67,Abt81,Stephenson86,Keenan89,GrayNstars(only K4V stan),Houk4(blended),Gray06
-  K5V: Adams35,Buscombe59,Evans66(K5Ve),Reid04
+GJ 879 = HD 216803 = TW PsA = Fomalhaut B = HR 8721 (J2256-3133)
+  K3V: Popper47,Wilson62,Bidelman85(K3)
+ *K4V: Keenan85(standard),Keenan89(K4Ve,non-stan),Houk3(K4Vp),Pecaut13
+  K4+Vk: Gray06
+  K5V: Joy47,Evans57,Upgren72
 
-  Skiff07 shows two K5V refs, and five K4V refs
-  (w/Keenan89). V=5.72(HIP), V=5.71(Johnson66), B-V=1.024(HIP),
+  It various from K3-K5 in the literature. One of only two K4Vs in the
+  BSC. Companion to Fomalhaut, and only ~440 Myr
+  (Mamajek12). Jaschek64 lists one K4V ref, and 3 K5V refs! In
+  Keenan89, but not listed as a standard.  V=6.48(HIP),
+  B-V=1.094(HIP), V-I=1.20(HIP), V=1.190(Just08), K=3.83(Aumann91),
+  2MASS H & K photometry saturated. (V-Ks)=2.65(HIP,Aumann91),
+  probably within +-0.03 mag of 2MASS system. A few PASTEL compendium
+  spectroscopic parameters: Teff = 4599+-27K(N=3),
+  [Fe/H]=0.03+-0.04(N=2), logg=4.71+-0.18(N=2).  plx =
+  131.4380+-0.0856mas(GaiaDR2). Mv = 7.07, M_Ks=4.42.
+
+# Tertiary Standard
+
+GJ 570A = HD 131977 = HR 5568 = StKM 2-1093 = KX Lib
+ *K4V: Cowley67,Abt81,Bidelman85,Stephenson86,Keenan89(non-stan),GrayNstars(only K4V stan),Houk4(blended),Gray06
+  K5V: Adams35,1942HarCi.448....1H,Buscombe59,Evans66(K5Ve),Reid04
+
+  The other K4V in the BSC. Since 1967 8 K4V classifications, and one
+  as K5V. Nearby and well-studied and interferometrically measured
+  diameter (Rains20). V=5.72(HIP), V=5.71(Johnson66), B-V=1.024(HIP),
   B-V=1.11(Johnson66), U-B=1.06(Johnson66), V-I=1.23+-0.08(HIP), 2MASS
-  photometry is saturated. Teff=4609K (Blackwell98),
-  Teff=4575K(Luck05,Luck06), Teff=4571+-51 K (Ramirez05), T=4551K
-  (diBenedetto98), T=4482+-312K(Gonzalez Hernandex09). Conclusion. not
-  bad. Many Teffs, but B-V is bluer than <B-V> for K4Vs. Companion is
-  M1.5V standard star ~25" away, but has been as close as 9.4" in
-  past. Quoted photometry might be blended? Washington Double Star
-  catalog lists V mags of 5.88 for A and 8.18 for B.
+  photometry is saturated. plx=170.0112+-0.0851mas(GaiaDR2).
+  Mv=6.87. Many estimates in PASTEL (N=17), mean properties Teff =
+  4616+-34K, [Fe/H] = +0.02+-0.04, logg=4.31+-0.14.  But B-V is a bit
+  bluer than <B-V> for K4Vs. Companion is M1.5V standard star ~25"
+  away, but has been as close as 9.4" in past. Quoted photometry might
+  be blended?  Washington Double Star catalog lists V mags of 5.88 for
+  A and 8.18 for B. Rains20: tetLD=1.130+-0.014mas,
+  Rad=0.715+-0.009Rsun, fbol = (17.6+-1.1)e-8 erg/s/cm2 (=>
+  mbol=5.389+-0.068 IAU2015 scale), Teff=4505+-76K, L=0.19+-0.01Lsun
+  (=> logL = -0.72+-0.02). BCv = mbol - V = 5.389+-0.068 - 5.72 =
+  -0.331+-0.07.
 
-HD 160964 = GJ 689 
- *K4V: Keenan80,Keenan85,Keenan88,Keenan89
-  K7V: Reid04
-  K8V: Gliese91,Woolley70
+# Deprecated Standards
 
-  Skiff07 only lists Keenan89. B-V = 1.089 (HIP), close to mean for
-  K4Vs.  Unfortunately a few discrepent published types, however
-  Keenan repeatably considered it K4V.
-
-# Weak Standards
-
-HD 234677: 
-  K4Ve+K7.5Ve : Keenan89 (SB!)
+GJ 719 = HD 234677 = BY Dra 
+ *K4Ve+K7.5Ve : Keenan80(K4V+K7.V),Keenan89(SB!)
   K4Vke : Gray03
+  K5: Bidelman85(K5)
   K6Ve : Gliese91
+  K7V: Stephenson86
   dM0e : Pourbaix05(Va=8.04,Vb=8.48!)
 
-  Skiff07 shows range in types from K5V-M1V. Conclusion: poor choice
-  of standard!
+  Skiff07 shows range in types from
+  K5V-M1V. Keenan80(1980PASP...92..548K, not the catalog) describes
+  the composite spectrum "shortward of about 4300A the type is K4V,
+  while from the blue-green to the red a type of about K7.5 fits".
+  Conclusion: poor choice of standard. Keenan80 estimates the
+  individual magnitudes to be V(A)=8.66, V(B)=9.62.
+
+# Exemplars
+
+GJ 845 = eps Ind = HR 8387 = HD 209100 = LHS 67 = HIP 108870 
+   K3V: Woods55,Upgren72
+  *K4V: Moore32(K4),Gray06(K4V(k))
+   K5V: 1923BHarO.789....2S,Adams35,Hoffleit37,Evans57(K5Ve),Houk75(K4/5V=>K5V following Pecaut16)
+
+   Adopting Gray06's modern classification. Although the published
+   types range from ~K3-K5, its B-V and Teff compare well to the K4V
+   standards. Nearby and has interferometrically measured diameter, so
+   is well characterized.  V=4.688+-0.012(Mermilliod91),
+   B-V=1.060+-0.007(Mermilliod91),
+   U-B=0.993+-0.005(Mermilliod91). PASTEL median values 3/22/2018:
+   <Teff> = 4642K (N=15), <[Fe/H]> = -0.13 (N=7).  Best: Teff =
+   4649+-36K, [Fe/H]=-0.19+-0.07, logg=4.63+-0.01 (Ramirez13).  2MASS
+   photometry is blasted (DCD).  Binary T dwarf companions 402" away,
+   and Feng18 claims Jupiter-like planet orbiting A.  Rains20 reports:
+   tetLD=1.817+-0.013mas, Rad=0.711+-0.005Rsun, fbol=(51.5+-3.7)e-8
+   erg/s/cm2 (mbol = 4.223+-0.078), Teff=4649+-84K, L=0.21+-0.02 =>
+   logL = -0.68+-0.04. BCv = mbol - V = 4.223+-0.078 - 4.688+-0.012 =
+   -0.465+-0.079. plx = 274.8048+=0.2494mas(GaiaDR2),
+   276.06+-0.28mas(HIP2).  Mv = 6.893+-0.012.
+
+GJ 775 = HD 190007 = BD+02_4076 = V1654 Aql 
+   K2: Cannon
+   K3/4V: Houk99(following Pecaut16 => K4V)
+  *K4V: Joy49,Jacshek78(Wilson62),Gray03,Gray06(K4V(k))
+   K5V: Kirkpatrick91(sec)
+
+   Kirkpatrick91 uses it as a K5V standard, but others consistently
+   classify it hotter. Gray03 (using 61 Cyg A [K5V] and 61 Cyg B [K7V]
+   as standards) classifies it one subtype hotter. Its color is not
+   that different from the other K5V standards,
+   however. V=7.451+-0.011(Mermilliod91),
+   B-V=1.141+-0.011(Mermilliod91), U-B=1.081+-0.014(Mermilliod91),
+   J=5.476+-0.024(2MASS), H=4.956+-0.026(2MASS),
+   Ks=4.796+-0.017(2MASS).  V-Ks = 2.655 (Mermilliod91,2MASS).  PASTEL
+   median values: <Teff> = 4650K (N=6), logg=4.38(N=4),
+   [Fe/H]=0.155(N=4). plx=78.6238+-0.0617mas(GaiaDR2). Mv=6.93. 
+
+GJ 9391A = HD 105671 = GJ 456.1A = HIP 59296 
+  *K4V: Houk78,Lu83,Gray06
+   K5V: Evans64(Jaschek78),Bidelman85(K5)
+
+   V=8.46(HIP), B-V=1.137+-0.003(HIP), J = 6.441+-0.018(2MASS), H =
+   5.913+-0.036(2MASS), Ks= 5.763+-0.021(2MASS), V-Ks =
+   2.697(HIP,2MASS). PASTEL compendium: <Teff> = 4616K(N=5),
+   logg=4.415(N=2), [Fe/H]=-0.02(N=3; large scatter).
+   plx=50.6116+-0.0488mas(GaiaDR2). Mv=6.98.
+
+GJ 702B = 70 Oph B = HD 165341 B
+   K3V: Greenstein52
+  *K4V: Morgan38,Slettebak63,Cowley67
+   K5:  Bidelman85
+   K6V: Adams35
+
+   B-V=1.15(Gliese91), V=6.00(Gliese91),
+   V=6.061+-0.021(Eggenberger08).  Poor 2MASS
+   photometry. [Fe/H]=0.04+-0.05(Eggenberger08). Teff=4393+-149K(Boyajian12),
+   4390+-200K(Eggenberger08) => adopt Teff=4390K, although this seems
+   ~-200K from other K4Vs of similar
+   metallicity. M=0.73+-0.01Msun(Eggenberger08).  plx=195.2166+-0.1012
+   mas(GaiaDR2). Mv=7.51+-0.02.  Boyajian12 reports
+   tetLD=1.221+-0.015mas => w/GaiaDR2
+   parallax=>Rad=0.672Rsun. <[Fe/H]>=-0.02(Gaspar16)
+
+HD 285720 = BD+17_715 = 2MASS J04241691+1800107 (Hyad)
+   K2: Nesterov95
+  *K4V: Wilson48(K4),Morgan65
+   K6V: Joy49
+
+   One of two Hyads classified K4V by Morgan65.
+   V=9.988+-0.011(Mermilliod91), B-V=1.050+-0.011(Mermilliod91),
+   U-B=0.950+-0.000(Mermilliod91), H=8.154+-0.018(2MASS),
+   H=7.636+-0.023(2MASS), Ks=7.524+-0.018(2MASS), V-Ks = 9.988 - 7.524
+   = 2.464. plx = 21.4034 +- 0.0428 mas (Gaia DR2). Mv =
+   6.640+-0.012(Mermilliod91,GaiaDR2).  Teffs:
+   4712K(Casagrande11),4750K(GaiaDR2),4774K(GaiaDR2#1),4894K(Huber17)
+   => <Teff> = 4762K.
+
+HD 285742 = V991 Tau = 2MASS J04250024+1659057 (Hyad)
+   K2: VanRhijn34,Wilson48
+  *K4V: Ramberg41,Joy49,Morgan65
+
+   One of two Hyads classified K4V by Morgan65.
+   V=10.271+-0.012(Mermilliod91), B-V=1.030+-0.004(Mermilliod91),
+   U-B=0.929+-0.012(Mermilliod91), J=8.486+-0.023(2MASS),
+   H=7.980+-0.024(2MASS), Ks=7.830+-0.016(2MASS), V-Ks = 10.271 -
+   7.830 = 2.441. plx = 18.2821 +- 0.0622 mas (GaiaDR2). Mv =
+   6.581+-0.014(Mermilliod91,2MASS).  G = 9.9678+-0.0005, Bp-Rp =
+   1.2361, Bp-G = 0.5594, G-Rp = 0.6767. Teffs: 4678K(Luo18#1),
+   4704K(Luo18#2), 4718K(Casagrande11), 4798K(GaiaDR2), 5000K(GaiaDR2)
+   => <Teff> = 4718K.
  
 # Other stars (not standards)
 
-HD 190007:
-  K4V: Gray03,Jaschek78,Wilson52,
-  K3/4V: Houk99 
+HD 24916 = GJ 157 A = HIP 18512 = LTT 1830 = RE J0357-011 = UGP 71 =
+   K3: Luo15(LAMOST)
+  *K4V: Leonard44,Wilson62,Bidelman85(K4),Stephenson86,Gray03
+   K4+Ve: Popper43
+   K5V: Joy47,Upgren72,Luo16(LAMOST),Luo18(LAMOST)
 
-HD 21197:
-  K4V: Houk99,Gray03
+   Has M2.5V CPM companion 11" away. V = 8.045+-0.005(Mermilliod91),
+   B-V = 1.115+-0.005(Mermilliod91), U-B=1.015+-0.015(Mermilliod91).
+   J=6.063+-0.023(2MASS), H=5.486+-0.026(2MASS),
+   Ks=5.341+-0.018(2MASS).  V-Ks = 2.704 (Mermilliod91,2MASS).  T
+   LAMOST reports spectroscopic parameters 4 times, with the most
+   recent (Luo18): Teff = 4433+-37K, logg=4.666+-0.054, [Fe/H] =
+   -0.108+-0.030.
 
-HD 39715:
-  K3V: Jaschek78,Houk99,Gray03
+GJ 141 = HD 21197:
+   K4V: Wilson62,Houk99(Pecaut16=>K4+V),Gray03
+   K5V: Roman55,Stephenson86,Upgren72,Gliese91
+   K6V: Adams35
 
-HD 105671:
-  K4V: Houk78,Gray06
-  K5V: Jaschek78
+   Probably intermediate ~K4.5V
 
-Morgan65 classified two Hyads as K4V: HD 285720 & 285742.
+HD 154712 (V=8.6)
+   K3V: Adams35
+  *K4V: Roman55
+   K5: Bidelman85
+
+   CPM companion 12" away with K4 type (Bidelman85)
+
+
+### TRENDS FOR K4V STARS
+
+xHIP catalog d<30pc, K4V stars with classifications post-2000 (mostly Gray03/Gray06), with [Fe/H] values
+
+ HIP     Plx   SpType   [Fe/H] eFeH    B-V   eB-V   rSpType   
+ 75542   41.50  K4V     -0.31  0.03   1.045  0.017  2006AJ....132..161G      
+  4454   40.90  K4V     -0.20  0.06   1.025  0.024  2003AJ....126.2048G      
+ 33955   54.22  K4V     -0.13  0.03   1.078  0.008  2003AJ....126.2048G      
+ 54952   68.28  K4V     -0.05  0.02   1.043  0.005  2008ApJS..176..216A      
+113283  131.42  K4V     -0.01  9.99   1.094  0.006  2006A&A...460..695T                     
+ 25220   71.00  K4V      0.02  0.02   1.104  0.001  2003AJ....126.2048G      
+ 73184  171.22  K4V      0.02  9.99   1.024  0.015  2006AJ....132..161G      
+103256   44.61  K4V      0.02  0.06   1.054  0.005  2003AJ....126.2048G      
+ 62229   48.79  K4V      0.05  0.04   0.937  0.002  2006A&A...460..695T      
+ 59296   50.59  K4V(k)   0.10  0.02   1.137  0.003  2006AJ....132..161G      
+ 21818   75.82  K4Vke    0.11  9.99   1.092  0.005  2003AJ....126.2048G      
+ 98698   77.76  K4V(k)   0.12  9.99   1.128  0.015  2006AJ....132..161G      
+  5286   47.50  K4V      0.14  0.03   1.122  0.012  2003AJ....126.2048G      
+ 47690   54.89  K4V      0.20  9.99   1.133  0.007  2003AJ....126.2048G      
+ 15919   64.97  K4V      0.23  0.02   1.153  0.010  2003AJ....126.2048G
+
+for those with [Fe/H] uncertainties:
+B-V = 1.084 + 0.2773*[Fe/H]  (rms = 0.023 mag)
+
+higher order fits don't help. Support for (B-V) = 1.084+-0.02
+
+

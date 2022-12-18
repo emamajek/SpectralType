@@ -1,6 +1,25 @@
 L8V
 
-Hawley02 standard: 2MASS 1632+1904 - L8V
+Kirkpatrick99 standard:      2MASSW J1632291+190441 - L8V
+Hawley02 standard:           2MASS 1632+1904 - L8V
+Kirkpatrick05 standard:      2MASSW J1632291+190441 - L8V ("optical anchor")
+Reid08 standard:             2MASS J16322911+1904407 - L8 (pri. stan.)
+                             2MASS J02550357-4700509 (DENIS-P J0255-4700) - L8 (sec. stan.)
+Kirkpatrick09(GrayCorbally): 2MASS J16322911+1904407 - L8 (primary optical standard)
+Kirkpatrick10 standard:      2MASS J16322911+1904407 - L8V (primary near-IR standard)
+
+Kirkpatrick09 writes "The optical L-dwarf sequence presently ends at
+L8; there are no objects yet identified with optical types of L8.5, L9,
+L9.5. Just beyond L8 there is an abrupt change in spectral morphology
+in the optical leading to the cooler dwarfs of type T."
+
+Teff(L8V) = 1300 K ; Cifuentes20 <Teff> for CARMENES L8V(N=3)
+Teff(L8V) = 1336 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L8V) = 1337 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L8V) = 1367 K ; Dupuy17(SaumonMarley08 model scale)
+Teff(L8V) = 1417 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-4.552
+Teff(L8V) = 1451 K ; Dupuy17(Lyon model scale)
+=> adopt Teff(L8V) = 1420 K (logT = 3.152) [updated 4/17/2020]
 
 (V-Rc)(L8V) = 3.02 ; DEN J0255 (see below)
 
@@ -15,29 +34,116 @@ Hawley02 standard: 2MASS 1632+1904 - L8V
 
 <J-Ks>(L8V) = 1.77  ; Faherty09
 
+M_G(L8V)    = 19.548 ; Reyle18 polynomial
+(G-Rp)(L8V) =  1.880 ; Reyle18 polynomial
+(G-J)(L8V)  =  5.547 ; Reyle18 polynomial
+(J-Ks)(L8V) =  1.705 ; Reyle18 polynomial
+
+(J-H)(L8V)  = 1.164 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
+=> adopt (J-H)(L8V) = 1.16 [updated 8/6/2020]
+
+(H-Ks)(L8V)= 0.625 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+=> adopt (H-Ks)(L8V) = 0.625 [updated 8/6/2020]
+
+(Ks-W1)(L8V) = 0.847 ; Dupuy12 median N=8 d<50pc
+(Ks-W1)(L8V) = 0.843 ; Dupuy12 trend
+=> adopt (Ks-W1)(L8V) = 0.845 [updated 12/28/2019]
+
+M_J(L8V) = 14.094 ; Reyle18 polynomial
+M_J(L8V) = 14.649 ; EEM fit to L/T dwarfs d<25pc
+M_J(L8V) = 14.952 ; pri. stan. 2MASS J16322911+1904407
+=> adopt M_J(L8V) = 14.65 [updated 12/30/2020]
+
+M_H(L8V) = 13.239 ; Reyle18 polynomial
+M_H(L8V) = 13.697 ; pri. stan. 2MASS J16322911+1904407 
+
+M_K(MKO)(L8V)=12.963 ; 2MASS_0859-1949 8.0 calc using Kirkpatrick20 (plx=71.22mas)
+
+M_Ks(L8V)=  12.2234 ; SDSS_0857+5708 8.0 calc using Kirkpatrick20 (plx=71.2343mas)
+M_Ks(L8V)=  12.4763 ; WISE_0031+5749 8.0 calc using Kirkpatrick20 (plx=71.0mas)
+M_Ks(L8V)=   12.703 ; Reyle18 polynomial
+M_Ks(L8V)= 12.74  ; fit to Kirkpatrick20 L7-T3 dwarfs d<25pc (12/2020)
+M_Ks(L8V)= 12.75  ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L8V)=  12.875 ; WISE_0807+4130 8.0 calc using Kirkpatrick20 (plx=50.7mas)
+M_Ks(L8V)=  12.9042 ; WISE_0643-0223 8.0 calc using Kirkpatrick20 (plx=71.9172mas)
+M_Ks(L8V)= 12.915  ; median nearest 10 L8s SIMBAD 
+M_Ks(L8V)=  12.973 ; 2MASS_0859-1949 8.0 calc using Kirkpatrick20 (plx=71.22mas)
+M_Ks(L8V)= 13.088  ; pri. stan. 2MASS J16322911+1904407 (plx = 65.60+-2.10mas)
+M_Ks(L8V)=  13.1539 ; 2MASS_0645-6646 8.0 calc using Kirkpatrick20 (plx=53.8mas)
+M_Ks(L8V)=  13.1543 ; SIMP_1132-3809 8.0 calc using Kirkpatrick20 (plx=59.0mas)
+=> adopt M_Ks(L8V) = 12.74 [updated 12/30/2020]
+
 Mv(L8V) = 24.44+-0.13 ; DEN J0255 (see below)
 
-BC_K(L8V)  = 3.196 mag ; Golimowksi04
+BC_K(L8V)  =  3.196 mag ; Golimowksi04
+BC_Ks(L8V) = 3.227 mag ; Filipazzo15 (field)
+BC_Ks(L8V) = 3.216 mag ; Looper08 
 BC_Ks(L8V) = 3.35  mag ; Schmidt14 (N=1)
+=> adopt BC_Ks(L8V) = 3.22 [updated 11/1/2019]
+
+logL(L8V) = -4.552 ; M_Ks=12.9, BC_Ks=3.22, Mbol=16.120
+=> adopt logL(L8V) = -4.552 [updated 4/17/2020]
+=> adopt Mbol(L8V) = 16.120 [updated 4/17/2020]
+
+Rad(L8V) = 0.08751 ; logL=-4.552, Teff=1420K
+=> adopt Rad(L8V) = 0.0875 Rsun [updated 4/17/2020]
+
+
+# Primary Standard
+
+2MASS J16322911+1904407 = 2MASSW J1632291+190441 
+  *L8: Kirkipatrick99(L8V),Hawley02,Kirkpatrick05(opt.anchor),Reid08(pri.stan.),Kirkpatrick09(pri.opt.stan.),Kirkpatrick10(pri.near-IR.stan.)
+
+   This was the coolest/reddest L dwarf (not showing methane) in
+   Kirkpatrick99 paper defining the L sequence, and Kirkpatrick99 sets
+   it as the L8 optical standard, and Kirkpatrick10 sets it as the L8
+   near-IR standard.  Unfortunately it was too faint to be detected in
+   any of the Gaia catalogs. plx=65.60+-2.10mas(Dahn02). J=15.867+-0.070,
+   H=14.612+-0.038, Ks=14.003+-0.047. M_J=14.952+-0.099,
+   M_H=13.697+-0.079, M_Ks=13.088+-0.084. Does not appear in Gaia DR3. 
 
 # Examples
 
 DENIS J025503.3-470049 = 2MASS J02550357-4700509 
-      L8: Cruz03,Cruz07,Kirkpatrick08
-      L8(opt): Burgasser10
-      L9(IR): Burgasser10
-      L7.5: Costa06
+   L8: Cruz03,Cruz07,Kirkpatrick08
+   L8(opt): Burgasser10
+   L9(IR): Burgasser10
+   L7.5: Costa06
 
-      plx=201.37+-3.89mas(Costa06), d=4.79+-0.10pc(Costa06),
-      V=22.921+-0.121(Costa06), Rc=19.906+-0.039(Costa06),
-      Rc=20.062+-0.033(Liebert06), Ic=17.235+-0.011(Liebert06),
-      Ic=17.454+-0.031(Costa06), Y=14.32+-0.10(Leggett10),
-      J=13.246+-0.027(2M), H=12.204+-0.024(2M), Ks=11.558+-0.024(2M),
-      Rc-Ic=2.827(Liebert06), J-K=1.69+-0.04(Burgasser10),
-      V-J=9.675+-0.139(Costa06,2M), V-H=10.717+-0.138(Costa06,2M),
-      V-Rc=3.015+-0.0142, V-Ic=5.467+-0.140, V-Ks =
-      11.362+-0.138(Costa06,2M). Costa06 says it is "the closest known
-      L dwarf... with Mv = 24.44, the faintest dwarf with a measured
-      absolute visual magnitude." Lum = 0.00010140 Lsun (Ardila10) =>
-      logL = -3.994. Mv = 24.44+-0.13 (using Costa06 #s).
+   plx=201.37+-3.89mas(Costa06), d=4.79+-0.10pc(Costa06),
+   V=22.921+-0.121(Costa06), Rc=19.906+-0.039(Costa06),
+   Rc=20.062+-0.033(Liebert06), Ic=17.235+-0.011(Liebert06),
+   Ic=17.454+-0.031(Costa06), Y=14.32+-0.10(Leggett10),
+   J=13.246+-0.027(2M), H=12.204+-0.024(2M), Ks=11.558+-0.024(2M),
+   Rc-Ic=2.827(Liebert06), J-K=1.69+-0.04(Burgasser10),
+   V-J=9.675+-0.139(Costa06,2M), V-H=10.717+-0.138(Costa06,2M),
+   V-Rc=3.015+-0.0142, V-Ic=5.467+-0.140, V-Ks =
+   11.362+-0.138(Costa06,2M). Costa06 says it is "the closest known
+   L dwarf... with Mv = 24.44, the faintest dwarf with a measured
+   absolute visual magnitude." Lum = 0.00010140 Lsun (Ardila10) =>
+   logL = -3.994. Mv = 24.44+-0.13 (using Costa06 #s).
+
+
+
       
+# Comments on end of L sequence, defining L8V
+
+Notes by Kirkpatrick99 on setting 2MASSW J1632291+190441 to be L8V -
+end of L sequence (at least as of 1999): "It should be noted here that
+the search for infrared-selected QSOs (Cutri et al. 1999) has
+identiÐed candidates over a larger area of sky than that surveyed here
+(~1900 deg2, or roughly 5 times as much coverage as our survey), and
+only seven additional IR-only sources with J-Ks > 2.00 beyond those
+listed in Tables 2 and 3 were found. All of these have been observed
+spectroscopically, and none of the confirmed L dwarfs are cooler than
+the coolest shown in this paper. Because of the much larger area of
+the QSO search and its lack of success in uncovering redder L dwarfs,
+we believe that we already have objects near the breakpoint between
+classes L and T. In other words, objects with temperatures cooler
+than 2MASSW J1632291]190441 will have J-Ks colors less than ~2.00 or
+perhaps considerably less than ~2.00 depending upon how quickly the
+onset of methane absorption occurs with temperature. However, to leave
+room for additional L types in case cooler non- methane objects are
+discovered, we will set the spectral type of 2MASSW J1632291+190441 to
+be L8 V." Kirkpatrick10 also adopted 2MASS J16322911+1904407 as the L8
+near-IR standard. 

@@ -1,12 +1,41 @@
 L3V
 
-Hawley02 standard: "DENIS 1058 1548"
+Kirkpatrick99 standard:      2MASS W J1146345+223053 - L3 
+Hawley02 standard:           DENIS 1058 1548 - L3
+Kirkpatrick05 standard:      2MASSW J1146345+223053 - L3 ("optical anchor")
+Reid08 standard:             2MASS J11463449+2230527 - L3 (pri. stan.)
+                             2MASS J15065441+1321060 - L3 (sec. stan.)
+Kirkpatrick09(GrayCorbally): 2MASS J11463449+2230527 - L3 (primary optical standard)
+Kirkpatrick10 standard:      2MASS J15065441+1321060 - L3 (near-IR standard)
 
+Teff(L3V) = 1931 K ; Dupuy17(Lyon model scale)
+Teff(L3V) = 1918 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-3.964
+Teff(L3V) = 1860 K ; Dupuy17(SaumonMarley08 scale)
+Teff(L3V) = 1839 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L3V) = 1822 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L3V) = 1775 K ; Cifuentes20 <Teff> for CARMENES L3V(N=6)
+=> adopt Teff(L3V) = 1920 K (logT = 3.283) [updated 4/17/2020]
+
+(V-Ks)(L3V) = 10.0  ; 2MA2104-1037 (Dieterich14)
+(V-Ks)(L3V) = 10.06 ; pri. stan. 2MASS_J11463449+2230527 L3+L4 (Dahn17)
+(V-Ks)(L3V) = 10.12 ; smoothed trend to V-Ks vs. SpT Dieterich14 data
+(V-Ks)(L3V) = 10.48 ; DEN1058-1548 (Dieterich14)
+(V-Ks)(L3V) = 11.01 ; DEN1425-3650 (Dieterich14)
+=> adopt (V-Ks)(L3V) = 10.1 [updated 8/17/2020]
 
 (R-I)(L3V) = 2.259 ; N=4 L3Vs in Liebert06 (+-0.034 sem, +-0.068 rms)
-=> adopt (R-I)(L3V) = 2.259 
+=> adopt (R-I)(L3V) = 2.259
 
-<J-Ks>(L3V) = 1.65  ; Faherty09
+(J-H)(L3V) = 0.967 ; (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
+=> adopt (J-H)(L3V) = 0.97 [updated 8/6/2020]
+
+
+(H-Ks)(L3V)  = 0.63  (+-0.15 rms; N=47) ; Schmidt14
+(H-Ks)(L3V)  = 0.607 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L3V)  = 0.603 ; trend for Dieterich14 for V-Ks=10.4
+=> adopt (H-Ks)(L3V) = 0.61 [last updated 8/6/2020]
+
+<J-Ks>(L3V)  = 1.65  ; Faherty09
 
 (J-Ks)(L3V)  = 1.52 (+-0.21 rms; N=46) ; Schmidt14
 
@@ -15,19 +44,97 @@ Hawley02 standard: "DENIS 1058 1548"
 (i-Ks)(L3V)  = 5.95 (+-0.22 rms; N=9) ; Schmidt14
 (z-J)(L3V)   = 2.67 (+-0.18 rms; N=26) ; Schmidt14
 (J-H)(L3V)   = 0.91 (+-0.18 rms; N=46) ; Schmidt14
-(H-Ks)(L3V)  = 0.63 (+-0.15 rms; N=47) ; Schmidt14
+
 (Ks-W1)(L3V) = 0.41 (+-0.15 rms; N=45) ; Schmidt14
+(Ks-W1)(L3V) = 0.466 ; Dupuy12 median N=3 d<50pc
+(Ks-W1)(L3V) = 0.55  ; Duput12 trend
+=> adopt (Ks-W1)(L3V) = 0.50 [updated 12/28/2019]
+
+
 (W1-W2)(L3V) = 0.31 (+-0.05 rms; N=43) ; Schmidt14
 (W2-W3)(L3V) = 0.78 (+-0.21 rms; N=4) ; Schmidt14
 
-BC_K(L3V)  = 3.334 mag ; Golimowksi04
+M_G(L3V) = 17.723  ; Reyle18 polynomial
+M_G(L3V) = 17.89   ; Kiman19
+M_G(L3V) = 17.9903 ; 2MASS J04013766+2849529       
+M_G(L3V) = 18.0309 ; 2MASSW J1506544+132106        
+M_G(L3V) = 18.1096 ; 2MASSI J2242531+254257
+M_G(L3V) = 18.123  ; median for d<25pc L3s in SIMBAD
+M_G(L3V) = 18.1365 ; 2MASSW J1615441+355900        
+M_G(L3V) = 18.2516 ; 2MASS J10132597-7842551       
+M_G(L3V) = 19.1161 ; 2MASS J15345325+1219495 
+=> adopt M_G(L3V) = 18.1 [adopted 4/17/2020]
+
+M_J(L3V)    = 12.664 ; Reyle18 polynomial
+M_J(L3V)    = 12.776 ; EEM fit to L/T dwarfs d<25pc
+=> adopt M_J(L3V) = 12.78 [updated 12/30/2020]
+
+M_H(L3V)    = 11.809 ; Reyle18 polynomial
+
+(G-Rp)(L3V) =  1.735 ; Reyle18 polynomial
+(G-Rp)(L3V) =  1.69  ; Kiman19
+
+(G-J)(L3V)  =  5.007 ; Reyle18 polynomial
+
+(J-Ks)(L3V) =  1.388 ; Reyle18 polynomial
+
+M_Ks(L3V) =  10.99   ; 2MA2104-1037 (Dieterich14)
+M_Ks(L3V) = 11.18   ; EEM fit to Dieterich14 data for V-Ks=10.4
+M_Ks(L3V) =  11.233  ; Reyle18 polynomial
+M_Ks(L3V) = 11.26   ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
+M_Ks(L3V) = 11.28   ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L3V) =  11.2936 ; 2MASS J10132597-7842551
+M_Ks(L3V) =  11.34   ; DEN1058-1548 (Dieterich14)
+M_Ks(L3V) =  11.3403 ; 2MASS J04013766+2849529       
+M_Ks(L3V) =  11.4029 ; 2MASSW J1506544+132106        
+M_Ks(L3V) =  11.4076 ; 2MASSI J2242531+254257
+M_Ks(L3V) = 11.41   ; median for the 7 L3s d<25pc in SIMBAD
+M_Ks(L3V) =  11.4325 ; 2MASSW J1615441+355900        
+M_Ks(L3V) =  11.4481 ; 2MASS J02511490-0352459
+M_Ks(L3V) =  11.48   ; DEN1425-3650 (Dieterich14)
+M_Ks(L3V) =  12.3171 ; 2MASS J15345325+1219495 
+=> adopt M_Ks(L3V) = 11.4 [updated 12/30/2020]
+
+Mv(L3V) = 21.5 ; V-K=10.1, M_Ks=11.4
+=> adopt Mv(L3V) = 21.5 [updated 12/30/2020]
+
+Mass(L3V) = 0.0741 Msun ; Mann18 calib. for M_Ks=11.3
+=> adopt Mass(L3V) = 0.074 Msun [updated 11/3/2019]
+
+BC_K(L3V)  =  3.334 mag ; Golimowksi04
+BC_Ks(L3V) = 3.310 mag ; Looper08 
+BC_Ks(L3V) = 3.298 mag ; Filipazzo15 (field)
 BC_Ks(L3V) = 3.27  mag ; Schmidt14 (rms = 0.12 mag)
+=> adopt BC_Ks(L3V) = 3.30 mag [updated 11/1/2019]
+
+logL(L3V) = -3.964 ; M_Ks=11.35, BC_Ks=3.30, Mbol=14.650
+=> adopt logL(L3V) = -3.964 [updated 4/17/2020]
+=> adopt Mbol(L3V) = 14.650 [updated 4/17/2020]
+
+Rad(L3V) = 0.09420 Rsun ; logL=-3.964, Teff=1920K
+=> adopt Rad(L3V) = 0.0942 Rsun [updated 4/17/2020]
 
 
-# Examples
+# Primary Standard
 
-2M_1146+22
-	V=22.65+-0.13(Dahn02), K=12.59+-0.02(Dahn02).
-	V-K=10.06.
+2MASS J11463449+2230527 = WDS J11466+2231Aa,Ab = KER 2 = 2MUCD 11010 = Gaia DR2 3979768893211552512
+   L2+L2: Martin06
+   L2.5: Schneider14(near-IR),Gagne15
+   L3: Kirkpatrick99,Cruz03,Reid08
+  *L3+L4: PhanBao08
 
+   Spectral standard, but a L-dwarf binary (Reid01): WDS notes " HST
+   WFPC2 observations by Reid et al. (2001). Paper includes mass and
+   age estimates, as well as discussion of L dwarf binary frequency
+   and semimajor axis distribution."  V=22.65+-0.13(Dahn02),
+   J=14.165+-0.028(2M), H=13.182+-0.026(2M), Ks=12.590+-0.026(2M),
+   K=12.59+-0.02(Dahn02).  V-K=10.06. GaiaEDR3 has no
+   parallax. plx=36.80+-0.80(Faherty12), 34.90+-1.00mas(Dupuy12),
+   38.08+-0.46mas(Dahn17).  vsini=32.5+-2.0km/s(Crossfield14),
+   Prot=5.1hr!  Teffs: 2060K(Vrba04), 2092K(Dahn02),
+   1800+-100K(Gagne15)
 
+2MASS J15065441+1321060
+   L3:Kirkpatrick10(near-IR & opt).
+
+   Primary L3 near-IR standard in Kirkpatrick10.

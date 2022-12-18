@@ -1,4 +1,4 @@
-.M0V
+M0V
 
 Kirkpatrick (in GrayCorbally09) calls Gl 270 the primary M0V standard. 
 Gl 270 has a legacy as a strong M0V standard going back to Kirkpatrick91
@@ -17,7 +17,7 @@ Corbally86 standard:    GJ 172 - M0V [from Keenan80]
 Kirkpatrick91 standard: GJ 270 - M0V [primary standard]
 			GJ 328 - M0V [primary standard]
 			GJ 734A (= HD 230017) - M0V [sec. standard]
-			GJ 763 (=HD 1844289) - M0V [sec. standard]
+			GJ 763 (=HD 184489) - M0V [sec. standard]
 			GJ 338A (=HD 79211) - M0V [sec. standard]
 			GJ 748.2B (=G 22-21B) - M0V [sec. standard]
 Hawley02 standard:      GJ 270  - M0V 
@@ -26,10 +26,10 @@ Henry02 standards:      GJ 338A - M0V [from Kirkpatrick91]
 			GJ 701  - M0V [from Henry94]
 			GJ 809  - M0V [from Henry94]
 Kirkpatrick09 standard: GJ 270  - M0V (primary standard)
+Kirkpatrick10 standard: GJ 270  - M0V (primary standard, optical & near-IR)
 Pecaut13 standard:      GJ 701  - M0V [from Henry02]
-
-GJ 270 appears to be bluer than the other three standards at all
-colors.
+Kirkpatrick16 standard: GJ 270 (=BD+33_1505) - M0V
+Newton14 standard:      GJ 123  - M0V
 
 Kirkpatrick12 lists 5 M0V stars within 8 pc: GJ 338A (B-V=1.410), GJ
 784 (B-V=1.431), GJ 809A (B-V=1.483), GJ 701 (B-V=1.510).
@@ -45,371 +45,857 @@ rely on the "primary standards" as given by Davy Kirkpatrick in
 Chapter 9 of Gray & Corbally (2009; "Stellar Spectral Classification",
 Princeton Series in Astrophysics, Princeton Univ. Press, Princeton).
 
-Henry et al. (2002; Table 2) provides probably the best modern
-compilation of K5-M9 dwarf standards. Henry's compendium contains K5,
-K7, M0-M9, and one ">M9.0V" (LP944-20).
+Henry et al. (2002; Table 2) provides an excellent modern compilation
+of K5-M9 dwarf standards. Henry's compendium contains K5, K7, M0-M9,
+and one ">M9.0V" (LP944-20).
 
-Wing & Yorka (1979) compare M-types published by Beoshaar (1976), Joy
+Wing & Yorka (1979) compares M-types published by Beoshaar (1976), Joy
 & Abt, Kuiper, and Vyssotsky (various publications). They provide a
 table (II) for converting Joy & Abt's types and Kuiper's types to the
 MK system for M dwarfs defined by Boeshaar. Note that Wing & Yorka put
-K5 and M0 one subtype apart.
+K5 and M0 one subtype apart. Joy74's M0V appears to correspond to ~K7V
+(e.g. HD 201092, HD 88230, BD+57 150B).
 
 KeenanMcNeil76 provide many M dwarf standards from M0V to M5.5V,
-however roughly half of these have been largely ignored (i.e. haven't
-been adopted in the literature), and I list them as "depricated"
-standards in my notes. Their Plate #8 shows "Image-tube spectra of
-M-dwarfs", which shows "spectrograms furnished by P. Boeshaar" and
-"For the M-type stars of the main sequence we adopt the scale of types
-of Boeshaar (1976).", however the Boeshaar 1976 reference is to the
-PhD thesis ("To be published"). However there appears to be some
-disagreement on the use of standards between the final published
-Boeshaar76 (much of which was adopted by Kirkpatrick91 and subsequent
-publications), e.g. KeenanMcNeil76 adopt Gl 172 as the M0V standard,
-but Boeshaar76 adopts GJ 270 (according to Kirkpatrick91, I have not
-yet seen the Boeshaar76 thesis).
+however roughly half of these appear to have been subsequently ignored
+(i.e. haven't been adopted in the literature), and I list them as
+"deprecated" standards in my notes. Their Plate #8 shows "Image-tube
+spectra of M-dwarfs", which shows "spectrograms furnished by
+P. Boeshaar" and "For the M-type stars of the main sequence we adopt
+the scale of types of Boeshaar (1976).", however the Boeshaar 1976
+reference is to the PhD thesis ("To be published"). However there
+appears to be some disagreement on the use of standards between the
+final published Boeshaar76 (much of which was adopted by Kirkpatrick91
+and subsequent publications), e.g. KeenanMcNeil76 adopt Gl 172 as the
+M0V standard, but Boeshaar76 adopts GJ 270 (according to
+Kirkpatrick91, I have not yet seen the Boeshaar76 thesis).
 
 Torres10 (AJ, 140, 1158) notes that Flower96's bolometric corrections
 "break down completely for M dwarfs", so we presume that they are
-not useful (except only as a historical comparison for Teff ~< 3810K). 
+not useful (except only as a historical comparison for Teff ~< 3810K).
+
+Morgan38 used the three bright giants del Oph, gam Eri, and alf Cet
+"defined as M0 at Mt Wilson, were considered to be standard of that
+type for the dwarfs" - using the red TiO band. Morgan53 listed types
+K5, K6, M0 - without intermediate types, listing 61 Cyg B as K6
+(along with Cin 2238, Cin 2322, Gmb 1618, and Castor C). He classified
+Lalande 18115 A and B as M0. 
+
+Median metallicity of field M dwarfs: Newton14 estimates metallicities
+for 447 nearby M dwarfs in the MEarth survey.  Their 2014 calibration
+metallicities have the following distribution: <[Fe/H]> = +0.04 dex
+(+-0.26, 68%CL; +0.43,-0.60 95.5%CL). Mann15 estimates metallicities
+for 183 nearby M dwarfs. Their values are consistent with <[Fe/H]> =
+-0.03 dex (+-0.21, 68%CL; +-0.43, 95.5%CL). Hence, color-absolute
+magnitude sequences through the locus of points for nearby field M
+dwarfs should correspond approximately to solar composition (within
+~0.04 dex).
+
+Silverstein19 divides M dwarfs and subdwarfs with a "Main
+Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
+4000K/0.485Rsun and 3100K/0.085Rsun: R/Rsun = 4.444e-4*Teff - 1.293.
 
 <B-V>(M0V) =   1.347 ; Crawford76
 <B-V>(M0V) =   1.35  ; Leggett92 "young disk"
 <B-V>(M0V) =   1.35  ; Leggett92 "old disk"
+(B-V)(M0V) = 1.366 ; exemplar GJ 839
 <B-V>(M0V) =   1.37  ; Fitzgerald70
-(B-V)(M0V) = 1.388 (+-0.017 sem, +-0.082 stdev); med. for 25 ARICNS M0V stars
+(B-V)(M0V) =   1.385 ; deprecated standard GJ 123 
+(B-V)(M0V) =  1.388 (+-0.017 sem, +-0.082 stdev); med. for 25 ARICNS M0V stars
 (B-V)(M0V) =   1.40  ; SchmidtKaler82
-(B-V)(M0V) =  1.41  ; GJ 338 A - one of 2 M0.0V in nearest 100 *s (RECONS)
 (B-V)(M0V) =   1.41  ; Johnson66, KenyonHartmann95
 (B-V)(M0V) =   1.41  ; Bessell91 "old disk"
+(B-V)(M0V) = 1.410   ; sec. stan. GJ 338A 
 (B-V)(M0V) = 1.412(+-0.013 sem, +-0.057 stdev); 12 Kirkpatrick(DwarfArchive) M0V stars
-(B-V)(M0V) = 1.420 ; prim. stan. GJ 270
-<B-V>(M0V) = 1.421 ; 27 Gray01/03/06 M0V (+-0.011 sem, +-0.065 stdev)
-(B-V)(M0V) =  1.431 ; GJ 784 - one of 2 M0.0V in nearest 100 *s (RECONS)
-(B-V)(M0V) = 1.458 ; mean of 4 M0V stars within 8 pc (Kirkpatrick12 list)
-(B-V)(M0V) = 1.483 ; sec. stan. GJ 809
-(B-V)(M0V) = 1.508 ; sec. stan. GJ 701
-(B-V)(M0V) = 1.530 ; ter. stan. GJ 686
-=> adopt (B-V)(M0V)  = 1.431 ***
-=> adopt (U-B)(M0V)  = 1.190 
-=> adopt (V-I)(M0V)  = 1.848
-=> adopt (V-R)(M0V)  = 0.913
-=> adopt (R-I)(M0V)  = 0.935
-=> adopt (V-J)(M0V)  = 2.965
-=> adopt (V-H)(M0V)  = 3.587
-=> adopt (V-Ks)(M0V) = 3.790
-=> adopt (H-Ks)(M0V) = 0.203
-=> adopt (J-H)(M0V)  = 0.622
-=> adopt (K-W1)(M0V) = 0.086
-
-[EEM 12/19/2012: good agreement on B-V for primary standard GJ 270,
-and median colors for Kirkpatrick and Gray M0V stars. Adopted B-V
-should almost certainly be in range of 1.412-1.421. Hence the adopted
-mean colors need a slight shift.]
+(B-V)(M0V) = 1.414   ; ter. stan. GJ 328 
+(B-V)(M0V) = 1.419   ; exemplar GJ 338B
+(B-V)(M0V) = 1.420   ; prim. stan. GJ 270
+<B-V>(M0V) = 1.421   ; 27 Gray01/03/06 M0V (+-0.011 sem, +-0.065 stdev)
+(B-V)(M0V) = 1.431   ; exemplar GJ 784
+(B-V)(M0V) = 1.433   ; median Koen10 d<25pc M0V
+(B-V)(M0V) = 1.434   ; median SIMBAD M0V d<25pc  (N=97)
+(B-V)(M0V) = 1.458   ; mean of 4 M0V stars within 8 pc (Kirkpatrick12 list)
+(B-V)(M0V) =  1.483  ; deprecated stan. GJ 809
+(B-V)(M0V) =  1.508  ; deprecated stan. GJ 701 
+(B-V)(M0V) =  1.530  ; deprecated stan. GJ 686
+=> adopt (B-V)(M0V) = 1.42 [updated 8/13/2020]
 
 (U-B)(M0V) = 1.197 ; HIP d<75pc S/N>8 M0V N=42
 <U-B>(M0V) = 1.25  ; Young Disk ; Leggett92
 <U-B>(M0V) = 1.25  ; Old Disk ; Leggett92
 (U-B)(M0V) = 1.26  ; Johnson66
 
-<V-I>(M0V) = 1.735 (+-0.029 sem, +-0.158 stdev; N=27; Gray01/03/06)
-(V-I)(M0V) = 1.80  ; Bessell91 "old disk"
-(V-I)(M0V) = 1.9   ; Hawley96
-<V-I>(M0V) = 2.013 (+-0.120 sem, +-0.240 stdev; N=4 standards
+(V-Ic)(M0V) =   1.692 ; from V-Ks=3.65
+(V-Ic)(M0V) =  1.735 (+-0.029 sem, +-0.158 stdev; N=27; Gray01/03/06)
+(V-Ic)(M0V) = 1.745 ; exemplar GJ 839
+(V-Ic)(M0V) = 1.751 ; ter. stan. GJ 328
+(V-Ic)(M0V) = 1.766 ; sec. stan. GJ 338A = HD 79210
+(V-Ic)(M0V) =  1.80  ; Bessell91 "old disk"
+(V-Ic)(M0V) = 1.829 ; pri. stan. GJ 270 (GaiaDR3 synth)
+(V-Ic)(M0V) =  1.836 (+-0.019 sem, +-0.145 stdev; N=49; Koen10)
+(V-Ic)(M0V) =   1.9   ; Hawley96
+=> adopt (V-Ic)(M0V) = 1.80 [updated 11/15/2022]
 
-(V-R)(M0V) = 0.89 ; Bessell91 "old disk"
+(V-R)(M0V)  =  0.89 ; Bessell91 "old disk"
+(V-Rc)(M0V) = 0.883 ; ter. stan. GJ 328
+=> adopt (V-Rc)(M0V) = 0.88 [updated 11/15/2022]
 
 (R-I)(M0V) = 0.91 ; Bessell91 "old disk"
 
 <V-J>(M0V) = 3.114 (+-0.088 sem, +-0.175 stdev; N=4)
 <V-J>(M0V) = 2.94  (+-0.21 stdev) ; Lepine12
 
+(V-Ks)(M0V)    =  3.409 ; deprecated standard GJ 123
 (V-K_CIT)(M0V) =  3.43 ; Leggett92 "old disk" 
 <V-K_CIT>(M0V) =  3.47 ; Beuermann06
 (V-K_CIT)(M0V) =  3.47 ; Leggett92 "young disk"
-(V-K)(M0V)     =  3.65 ; Bessell91 "old disk"
+(V-Ks)(M0V)    ~ 3.55  ; sec. stan. GJ 338A (based on Johnson V-K)
+(V-Ks)(M0V)    = 3.561 ; exemplar GJ 338B 
+(V-Ks)(M0V)    = 3.570 ; exemplar GJ 839
+(V-Ks)(M0V)    = 3.617 ; ter. stan. GJ 328
 (V-K)(M0V)     = 3.642 (+-0.058 sem, +-0.284 stdev; N=12 Kirkpatrick(DwarfArchive) M0Vs)
-(V-Ks)(M0V)    = 3.684 ; pri. stan. GJ 270
+(V-Ks)(M0V)    = 3.65  (+-0.02) ; Fouque17 (mean for N=50)
+(V-K)(M0V)     =  3.65 ; Bessell91 "old disk"
+(V-Ks)(M0V)    = 3.655 ; trend K/M standards & exemplars
+(V-Ks)(M0V)    = 3.686 ; exemplar GJ 784
+(V-Ks)(M0V)    = 3.694 ; pri. stan. GJ 270
 (V-K)(M0V)     =  3.8  ; Hawley96
-(V-Ks)(M0V)    = 3.932 ; sec. stan. GJ 809
-<V-Ks>(M0V)    = 3.950 (+-0.116 sem, +-0.173 stdev; N=4)
-(V-Ks)(M0V)    = 4.048 ; ter. stan. GJ 686
-(V-Ks)(M0V)    = 4.064 ; ter. stan. GJ 701 
+(V-Ks)(M0V)    =  3.932 ; deprecated stan. GJ 809
+(V-Ks)(M0V)    =  4.048 ; deprecated stan. GJ 686
+(V-Ks)(M0V)    =  4.064 ; deprecated stan. GJ 701
+=> adopt (V-Ks)(M0V) = 3.65  [last updated 8/13/2020]
+=> adopt (G-Ks)(M0V) = 2.95  = (V-Ks)+(G-V) = 3.65+(-0.70) 
+=> adopt (U-B)(M0V)  = 1.206
+=> adopt (V-R)(M0V)  = 0.866
+=> adopt (R-I)(M0V)  = 0.826
+=> adopt (V-J)(M0V)  = 2.833
+=> adopt (V-H)(M0V)  = 3.460
+=> adopt (H-Ks)(M0V) = 0.190
+=> adopt (J-H)(M0V)  = 0.627
+=> adopt (V-Hp)(M0V) = -0.085
 
 <H-K_CIT>(M0V) = 0.17 ; Beuermann06
 
 <J-K_CIT>(M0V) = 0.85 ; Beuermann06
 
-Teff(M0V) =  3610 K ; sec. stan. GJ 686 (median Teff)
-Teff(M0V) =  3620 K ; sec. stan. GJ 809 (median Teff)
-Teff(M0V) = 3647 +- 18 K ; Pecaut13 (sec. stan. GJ 809)
-Teff(M0V) =  3762 +- 71K ; Lepine12
+(G-J)(M0V)   = 2.058 ; Bentley18
+(G-Ks)(M0V)  = 2.907 ; Bentley18
+(Ks-W2)(M0V) = 0.126 ; Bentley18
+(W1-W2)(M0V) = 0.013 ; Bentley18
+
+(Ks-W1)(M0V) = 0.120 ; fit to Winters15 data for V-Ks=3.65
+(Ks-W1)(M0V) = 0.120 ; EEM trend for d<30pc for V-Ks=3.65
+(Ks-W1)(M0V) = 0.113 ; Bentley18
+(Ks-W1)(M0V) = 0.064 ; Avenhaus12 for V-Ks=3.65
+=> adopt (Ks-W1)(M0V) = 0.12 [updated 12/29/2019]
+
+(Bp-Rp)(M0V) =    1.7365 ; GJ_123 deprecated standard (GaiaDR2)
+(Bp-Rp)(M0V) =    1.79   ; Kiman19 (GaiaDR2)
+(Bp-Rp)(M0V) =  1.79598  ; GJ_839 exemplar (GaiaEDR3)
+(Bp-Rp)(M0V) =   1.8050  ; HD_232979 (GaiaDR2)
+(Bp-Rp)(M0V) =   1.8059  ; GJ_839 exemplar (GaiaDR2)
+(Bp-Rp)(M0V) = 1.81730  ; GJ_338A sec. stan. (GaiaEDR3)
+(Bp-Rp)(M0V) =   1.8235  ; GJ_338A sec. stan. (GaiaDR2)
+(Bp-Rp)(M0V) = 1.8324   ; GJ_328 ter. stan. (GaiaEDR3)
+(Bp-Rp)(M0V) =   1.8409  ; GJ_328 ter. stan. (GaiaDR2)
+(Bp-Rp)(M0V) =  1.84645  ; GJ_338B = HD_79211 exemplar (GaiaEDR3)
+(Bp-Rp)(M0V) =   1.8529  ; GJ_338B = HD_79211 exemplar (GaiaDR2)
+(Bp-Rp)(M0V) =  1.8536  ; GJ_825 = Lac 8760 exemplar (GaiaDR3)
+(Bp-Rp)(M0V) = 1.8814   ; GJ_270    pri. stan. (GaiaEDR3)
+(Bp-Rp)(M0V) =   1.8893  ; GJ_270    pri. stan. (GaiaDR2)
+(Bp-Rp)(M0V) =  1.91171  ; GJ_784 = HD_191849 exemplar (GaiaEDR3)
+(Bp-Rp)(M0V) =   1.9159  ; GJ_784 = HD_191849 exemplar (GaiaDR2)
+(Bp-Rp)(M0V) =   2.0323  ; *_41_Ara_B  M0Vp_Ca-3_Cr-1 (GaiaDR2)
+=> adopt (Bp-Rp)(M0V) = 1.84 [GaiaDR2; updated 7/10/2020]
+=> adopt (Bp-Rp)(M0V) = 1.85 [GaiaEDR3; updated 12/7/2021]
+
+(G-Rp)(M0V) =   0.8733 ; GJ_123 deprecated stan. 
+(G-Rp)(M0V) =  0.9004 ; GJ_839 exemplar
+(G-Rp)(M0V) =  0.9095 ; GJ_338A sec. stan. 
+(G-Rp)(M0V) = 0.9194 ; GJ_328 sec. stan.
+(G-Rp)(M0V) =  0.9228 ; GJ_338B = HD_79211 exemplar
+(G-Rp)(M0V) =  0.927  ; color trend M0V-M9V 
+(G-Rp)(M0V) =   0.93  ; Kiman19
+(G-Rp)(M0V) = 0.9356  ; GJ_328 sec. stan. (Gaia EDR3)
+(G-Rp)(M0V) =  0.9313 ; GJ_270 pri. stan.
+(G-Rp)(M0V) =  0.9419 ; HD_191849 exemplar
+(G-Rp)(M0V) =  0.9450 ; GJ_825 = Lac 8760 exemplar (GaiaDR3)
+(G-Rp)(M0V) =  0.9583 ; GJ_270 pri. stan. (Gaia EDR3)
+(G-Rp)(M0V) =  0.9983 ; *_41_Ara_B  M0Vp_Ca-3_Cr-1
+=> adopt (G-Rp)(M0V) = 0.92 [updated 11/18/2020]
+=> adopt (Bp-G)(M0V) = 0.92 [last updated 7/10/2020; Bp-Rp=1.84, G-Rp=0.92]
+
+(Bp-G)(M0V) = 0.87 ; Kiman19 
+
+(G-V)(M0V) =  -0.741  ; SIMBAD d<20pc median for M0V
+(G-V)(M0V) =  -0.731  ; GJ 784 = HD 191949 exemplar 
+(G-V)(M0V) =  -0.729  ; polynomial fit to SIMBAD d<25pc M dwarfs by type
+(G-V)(M0V) = -0.710  ; GJ 270 pri. stan. (Gaia EDR3)
+(G-V)(M0V) = -0.707  ; GJ 825 = Lac 8760 exemplar (GaiaDR3)
+(G-V)(M0V) = -0.706  ; GJ 328 = HIP 43790 ter. stan. (Gaia EDR3)
+(G-V)(M0V) = -0.702  ; median N=271 M0V d<60pc
+(G-V)(M0V) = -0.700  ; B-V vs G-V fit from Pancino22 for B-V=1.42 
+(G-V)(M0V) = -0.693  ; trend for SIMBAD d<20pc for V-Ks=3.65
+(G-V)(M0V) = -0.693  ; V-Ic vs G-V fit from Pancino22 for V-Ic=1.80
+(G-V)(M0V) = -0.689  ; trend for V-Ks vs G-V K5V-M0.5V for V-Ks=3.65
+(G-V)(M0V) = -0.686  ; trend for Kervella19 d<25pc for V-Ks=3.65
+(G-V)(M0V) = -0.668  ; GJ 338A = HD 79210 sec. stan.
+(G-V)(M0V) =  -0.668  ; GJ 839 = LHS 3727  exemplar
+(G-V)(M0V) =  -0.649  ; GJ 338B = HD 79211 exemplar 
+(G-V)(M0V) =   -0.6207 ; GJ_123  deprecated stan.
+=> adopt (G-V)(M0V)  = -0.69 [updated 11/15/2022]
+=> adopt (G-Ks)(M0V) = 3.65 + -0.69 = 2.96 [updated 11/15/2022]
+
+(g-r)(M0V) = 1.31 ; Covey07
+
+(r-i)(M0V) = 0.66 +- 0.12 (rms) ; West08
+
+(i-z)(M0V) = 0.38 +- 0.07 (rms) ; West08
+
+(z-J)(M0V) = 1.23 +- 0.19 (rms) ; West08
+
+Teff(M0V) =   3655 K ; deprecated stan. GJ 701
+Teff(M0V) =   3657 K ; deprecated stan. GJ 686 (median Teff)
+Teff(M0V) =   3762 +- 71K ; Lepine12
 Teff(M0V) =  3763 K ; pri. stan. GJ 270 (median Teff)
-Teff(M0V) = 3796 K ; Boyajian12 calibration for V-K=3.79,[Fe/H]=0.0
-Teff(M0V) =   3800 K ; Bessell91 "old disk"
-Teff(M0V) = 3807 K ; EEM median of 24 Teffs
-Teff(M0V) = 3827 K ; mean photometric Teff
+Teff(M0V) =  3764 K ; Morrell19 Teff for stars w/i +-0.1 mag of M_Ks=5.23
+Teff(M0V) =   3779 K ; depreciated stan. GJ 809
+Teff(M0V) =  3786 K ; exemplar GJ 825 = Lacaille 8760
+Teff(M0V) =    3800 K ; Bessell91 "old disk"
+Teff(M0V) =  3805 K ; smooth Teff(SpT) trend
+Teff(M0V) =  3807 K ; EEM median of 24 Teffs
+Teff(M0V) =  3835 K ; candidate standard GJ 839 median Teff
 Teff(M0V) =   3850 K ; Schmidt-Kaler82
-Teff(M0V) = 3896 +- 24 K ; Pecaut13 (sec. stan. GJ 338A)
-Teff(M0V) = 3900 K ; Rajpurohit13 (N=1, LHS 141)
-Teff(M0V) = 3907 +- 35 K ; Boyajian12b (N=1)
-Teff(M0V) = 3951 K ; RojasAyala12(mean N=6 M0V stars)
-Teff(M0V) =   3990 K ; Bertone04[NextGen]
-Teff(M0V) =   4010 K ; Bertone04[ATLAS]
-=> adopt Teff(M0V) = 3850 K (logT = 3.585)
+Teff(M0V) = 3855 K ; Rad=0.5735Rsun for Mann15 calib for M_K=5.20, [Fe/H]=0.0
+Teff(M0V) =  3870 K ; sec. stan. GJ 328
+Teff(M0V) =  3880 K ; empirical M-R relation **
+Teff(M0V) =  3888 K ; mean photometric Teff
+Teff(M0V) =  3900 K ; Rajpurohit13 (N=1, LHS 141)
+Teff(M0V) =  3907 +- 35 K ; Boyajian12b (N=1)
+Teff(M0V) =   3928 K ; deprecated stan. GJ 172
+Teff(M0V) =  3930 K ; sec. stan. GJ 338A 
+Teff(M0V) =  3951 K ; RojasAyala12(mean N=6 M0V stars)
+Teff(M0V) =    3990 K ; Bertone04[NextGen]
+Teff(M0V) =    4010 K ; Bertone04[ATLAS]
+Teff(M0V) =  4020 K ; ter. stan. GJ 123
+Teff(M0V) =  4022 K ; Passegger18 median Teff for CARMENES M0.0Vs(N=20)
+=> adopt Teff(M0V) = 3850 K (logT = 3.585) [updated 9/4/2020]
+ 
+Mv(M0V) =   7.8  mag ; Reid04
+Mv(M0V) =  8.21 mag ; ter. stan. GJ 123
+Mv(M0V) =  8.31 mag ; exemplar GJ 839
+Mv(M0V) =  8.38 mag ; sec. stan. GJ 328 
+Mv(M0V) =  8.64 mag ; sec. stan. GJ 338A 
+Mv(M0V) =   8.68 mag ; Kirkpatrick94
+Mv(M0V) =  8.69 mag ; median Koen10 d<25pc M0V
+Mv(M0V) =  8.69 mag ; exemplar GJ 338B=HD 79211
+Mv(M0V) =  8.70 mag ; non-stan. GJ 825 = Lacaille 8760 
+Mv(M0V) =  8.76 mag ; pri. stan. GJ 270 
+Mv(M0V) =   8.8 mag ; Schmidt-Kaler82
+Mv(M0V) = 8.80 mag ; V-Ks=3.65 => MS smooth trend K/M dwarfs
+Mv(M0V) =  8.82 mag ; V-Ks=3.65 => EEM fit to Jao16 data
+Mv(M0V) =  8.85 mag ; V-Ks=3.65 & M_Ks=5.20 (see below)
+Mv(M0V) =  8.91 mag ; V-Ks=3.68 => JohnsonApps09
+Mv(M0V) =   8.96 mag ; Henry94
+Mv(M0V) =  9.02 mag ; exemplar GJ 784 
+Mv(M0V) =  9.06 mag ; median SIMBAD M0V d<25pc (N=97)
+Mv(M0V) =   9.17 mag ; Wegner07
+=> adopt Mv(M0V)   = 8.80 mag [updated 3/2/2021] (V-Ks=3.65, M_Ks=5.15)
+=> adopt M_G(M0V)  = 8.10 mag [updated 3/2/2021] (Mv=8.80, G-V=-0.70)
+=> adopt M_Ks(M0V) = 5.15 mag [updated 3/2/2021] (Mv=8.80, V-Ks=3.65)
 
-Mv(M0V) =  7.8  mag ; Reid04
-Mv(M0V) =  8.8  mag ; Schmidt-Kaler82
-Mv(M0V) = 8.96 mag ; Henry94
-Mv(M0V) = 9.03 mag ; V-K=3.79 => EEM fit to Reid CNS3 data
-Mv(M0V) = 9.13 mag ; B-V=1.143 => Mv(Wright05)
-Mv(M0V) = 9.16 mag ; JohnsonApps09 calibration for V-K=3.79
-Mv(M0V) = 9.17 mag ; Wegner07
-Mv(M0V) = 9.29 mag ; Henry04 calibration for V-K=3.79
-=> adopt Mv(M0V) = 9.16 mag 
+M_G(M0V) =   7.68287 ; HD 111631 M0V
+M_G(M0V) =   7.729   ; sec. stan. GJ 328 
+M_G(M0V) =   7.96756 ; HD 11507  M0V
+M_G(M0V) =   7.99    ; non-stan. GJ 825 = Lacaille 8760 
+M_G(M0V) =  8.03977  ; HD 79211  exemplar
+M_G(M0V) =  8.077    ; SIMBAD d<20pc trend for V-Ks=3.65
+M_G(M0V) =  8.13     ; Kiman19 
+M_G(M0V) = 8.15     ; Mv=8.85, G-V=-0.70
+M_G(M0V) =   8.28686 ; HD 191849
+M_G(M0V) =  8.326    ; SIMBAD d<20pc median for M0V
+M_G(M0V) =  8.382    ; trend d<10pc SIMBAD
+M_G(M0V) =   8.38116 ; * 41 Ara B
+M_G(M0V) =   8.57797 ; HD 304636 
+M_G(M0V) =   8.87426 ; HD 260655
 
-BCv(M0V) = -1.558 mag ; ter. stan. GJ 701
-BCv(M0V) = -1.549 mag ; sec. stan. GJ 686 
-BCv(M0V) = -1.349 +- 0.038 ; sec. stan. GJ 809 (Pecaut13)
-BCv(M0V) = -1.274 mag ; Flower96(Teff=3900K) [unreliable for M *s, see Torres10]
-BCv(M0V) = -1.257 mag ; Pecaut13(V-K=3.79)
-BCv(M0V) = -1.25  mag ; Schmidt-Kaler82(BCv=-1.38 + 0.13 offset)
-BCv(M0V) = -1.21  mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
+M_Ks(M0V) =  6.03  ; sec. stan. GJ 686
+M_Ks(M0V) =   5.32  ; V-Ks=3.65 => Henry04 fit
+M_Ks(M0V) =  5.24  ; V-Ks=3.68 => EEM fit 4/2017
+M_Ks(M0V) =  5.20  ; V-Ks=3.65 => JohnsonApps09 
+M_Ks(M0V) =  5.18  ; V-Ks=3.65 => EEM fit to Jao16
+M_Ks(M0V) = 5.15  ; V-Ks=3.65 => smooth MS K/M dwarf trend
+M_Ks(M0V) =  5.10  ; V-Ks=3.65 => EEM fit to Reid CNS3 data
+M_Ks(M0V) =  5.07  ; pri. stan. GJ 270
+M_Ks(M0V) =  5.05  ; non-stan. GJ 825 = Lacaille 8760 
+M_Ks(M0V) =  4.81  ; ter. stan. GJ 123
+M_Ks(M0V) =  4.79  ; sec. stan. GJ 328 
+
+BCv(M0V) =  -1.558 mag ; deprecated stan. GJ 701
+BCv(M0V) =  -1.549 mag ; deprecated stan. GJ 686
+BCv(M0V) =  -1.400 mag ; Flower96(Teff=3840K) [unreliable for M *s, see Torres10]
+BCv(M0V) =  -1.349 +- 0.038 ; sec. stan. GJ 809 (Pecaut13)
+BCv(M0V) = -1.253 mag ; Casagrande18(Teff=3840K,logg=4.5)
+BCv(M0V) =  -1.25  mag ; Schmidt-Kaler82(BCv=-1.38 + 0.13 offset)
+BCv(M0V) =  -1.21  mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
+BCv(M0V) = -1.184 mag ; Mann15(V-J=2.862)
+BCv(M0V) = -1.176 mag ; Bessell98(ATLAS9,logg=4.5,Teff=3840K)
 BCv(M0V) = -1.173 +- 0.037 ; deprecated standard GJ 338A (Pecaut13)
+BCv(M0V) = -1.15  mag ; BC_Ks = 2.50, V-Ks=3.65
+BCv(M0V) = -1.149 mag ; Pecaut13(V-K=3.65, V-J=2.833)
 BCv(M0V) = -1.148 mag ; pri. stan. GJ 270 (see notes below)
-BCv(M0V) = -1.101 mag ; Bessell98(ATLAS9,logg=4.5,Teff=3900K)
-BCv(M0V) = -1.065 mag ; EEM fit to Casagrande06/08/10 for Teff=3900K)
-BCv(M0V) = -1.05  mag ; Bertone04[NextGen]
-BCv(M0V) = -1.007 mag ; Bertone04[ATLAS,Teff=3900K]
-=> adopt BCv(M0V) = -1.26 mag (from BC_Ks - V-K = 2.53 - 3.79)
+BCv(M0V) = -1.148 mag ; Morrel19 trend for G-Ks=2.96 => BC_Ks, assume V-Ks=3.65
+BCv(M0V) = -1.079 mag ; EEM fit to Casagrande06/08/10 for Teff=3900K)
+BCv(M0V) =  -1.05  mag ; Bertone04[NextGen]
+BCv(M0V) =  -1.021 mag ; Bertone04[ATLAS,Teff=3900K]
+=> adopt BCv(M0V) = -1.15 mag [updated 9/4/2020; V-Ks=3.65, BC_Ks=2.50]
 
-BC_K(M0V) = 2.613 ; Leggett01 calibration for J-K=0.825
-BC_K(M0V) = 2.587 +- 0.026 ; sec. stan. GJ 809 (Pecaut13) [mbol = 7.205+-0.011, Ks=4.618+-0.024]
+BC_K(M0V) =  2.613 ; Leggett01 calibration for J-K=0.825
 BC_K(M0V) = 2.536 ; pri. stan. GJ 270 (see notes below)
-BC_K(M0V) = 2.533 ; Pecaut13(V-K=3.79)
-BC_K(M0V) = 2.513 ; ter. stan. GJ 701 (see notes below)
-BC_K(M0V) = 2.491 ; sec. stan. GJ 686 (see notes below)
-=> adopt BC_K(M0V) = 2.53 mag 
+BC_K(M0V) = 2.53 ; smoothed trend K8V-L0V for M0V
+BC_K(M0V) =  2.513 ; deprecated stan. GJ 701 (see notes below)
+BC_Ks(M0V)= 2.512 ; Mann15(V-J=2.833)
+BC_Ks(M0V)= 2.498 ; Morrell19 trend for G-Ks=2.95
+BC_K(M0V) =  2.491 ; deprecated stan. GJ 686 (see notes below)
+=> adopt BC_K(M0V) = 2.50 mag [updated 9/4/2020; V-Ks=3.65, BCv=-1.15]
 
-M_Ks(M0V) = 6.03  ; sec. stan. GJ 686
-M_Ks(M0V) = 5.50  ; V-K=3.79 => Henry04 calibration
-M_Ks(M0V) = 5.374 ; V-K=3.79 => JohnsonApps2009 calibration
-M_Ks(M0V) = 5.242 ; V-K=3.79 => EEM fit to Reid CNS3 data
-M_Ks(M0V) = 4.94  ; pri. stan. GJ 270 
-=> adopt M_Ks(M0V) = 5.37 mag
+logL(M0V) =   -1.51  dex ; deprecated stan. GJ 686
+logL(M0V) =  -1.215 dex ; Morrell19 trend for LogL for M_Ks=5.23
+logL(M0V) = -1.164 dex ; M_Ks=5.15, BC_Ks=2.50 => Mbol = 7.65
+logL(M0V) =  -1.09  dex ; pri. stan. GJ 270
+=> adopt logL(M0V) = -1.164 dex [updated 3/2/2021]
+=> adopt Mbol(M0V) =  7.650 mag [updated 3/2/2021]
 
-logL(M0V) = -1.51  dex ; sec. stan. GJ 686 
-logL(M0V) = -1.258 dex ; Mv=9.16, BCv=-1.26 => Mbol = 7.900
-logL(M0V) = -1.258 dex ; M_Ks=5.37, BC_K = 2.53 => Mbol = 7.900
-logL(M0V) = -1.09  dex ; pri. stan. GJ 270
-=> adopt logL(M0V) = -1.258 dex
-=> adopt Mbol(M0V) =  7.940 mag
+Mass(M0V) =  0.50 Msun ; deprecated stan. GJ686 (Gaidos14)]
+Mass(M0V) = 0.512 Msun ; Mv=8.91 => Benefict16 calib
+Mass(M0V) = 0.568 Msun ; M_Ks=5.20 => Mann18 calib.
+Mass(M0V) =  0.571 Msun ; Eker15 calibration for logL=-1.204
+Mass(M0V) = 0.580 Msun ; Eclipsing binary M0V NGTSJ0930-18A (Acton20)
+Mass(M0V) = 0.584 Msun ; Mv=8.91 => HenryMcCarthy93 calibration
+Mass(M0V) = 0.618 Msun ; M_Ks=5.20 => Benedict16 calibration
+Mass(M0V) = 0.615 Msun ; Delfosse00 calib. for M_Ks=5.2
+Mass(M0V) = 0.616 +-0.006 Msun ; GU Boo A (Benedict16)
+Mass(M0V) =  0.62 Msun ; pri. stan. GJ270 (Gaidos14)
+Mass(M0V) = 0.665 Msun ; Mv=8.91 => Torres10 binary calibration
+=> adopt Mass(M0V) = 0.57 Msun [updated 11/3/2019]
 
-Mass(M0V) = 0.50 Msun ; ter. stan. GJ686 (Gaidos14)
-Mass(M0V) = 0.54 Msun ; EEM Teff vs. Mass fit for binaries (Teff=3810K)
-Mass(M0V) = 0.546 Msun ; sec. stan. GJ809 (Mann15)
-Mass(M0V) = 0.557 Msun ; Eker15 calibration for logL=-1.258
-Mass(M0V) = 0.57 Msun ; Mv=9.10 => HenryMcCarthy93 calibration
-Mass(M0V) = 0.58 Msun ; EEM logL vs. Mass fit for binaries(logL=-1.28)
-Mass(M0V) = 0.58 Msun ; sec. stan. GJ809 (Gaidos14)
-Mass(M0V) = 0.59 Msun ; M_Ks=5.31 => Delfosse10 calibration
-Mass(M0V) = 0.61 Msun ; Mv=9.10 => Delfosse10 calibration
-Mass(M0V) = 0.62 Msun ; pri. stan. GJ270 (Gaidos14)
-Mass(M0V) = 0.66 Msun ; EEM Mv vs. Mass fit for binaries (Mv=9.10)
-=> adopt Mass(M0V) = 0.58 Msun
-
-Rad(M0V) = 0.47 Rsun; ter. stan. GJ686 (Gaidos14)
-Rad(M0V) = 0.515 Rsun ; sec. stan. GJ809 (Mann14)
-Rad(M0V) = 0.54 Rsun; sec. stan. GJ809 (Gaido14)
-Rad(M0V) = 0.57 Rsun; pri. stan. GJ270 (Gaidos14)
-Rad(M0V) = 0.5773 +- 0.0131 Rsun ; Boyajian12b (N=1)
+Rad(M0V) =   0.47  Rsun  ; ter. stan. GJ686 (Gaidos14)
+Rad(M0V) =   0.515 Rsun  ; sec. stan. GJ809 (Mann14)
+Rad(M0V) =   0.54  Rsun  ; sec. stan. GJ809 (Gaido14)
+Rad(M0V) =  0.57  Rsun  ; pri. stan. GJ270 (Gaidos14)
+Rad(M0V) =  0.574  Rsun ; Rabus19 trend for Teff=3840K
+Rad(M0V) =  0.5773 +- 0.0131 Rsun ; Boyajian12b (N=1)
+Rad(M0V) = 0.5823 Rsun ; Mann15 trend M_Ks=5.15, [Fe/H]=0.0
+Rad(M0V) =  0.584  Rsun ; Eclipsing binary NGTSJ0930-18 A (Acton20)
+Rad(M0V) = 0.5885 Rsun ; logL=-1.164, Teff=3850K
+Rad(M0V) =  0.5965 Rsun ; Morrell19 (Teff=3900K)
+=> adopt Rad(M0V) = 0.588 Rsun [updated 3/2/2021]
 
 # No standard
 
-Boeshaar85 did not list a M0V standard. 
+Boeshaar85 did not list a M0V standard. Keenan89 did not list a M0V
+standard, but did list non-standards GJ 123 (HD 19305) M0V and eta Cas B (HD 4614B) M0-V. 
 
 # Primary Standard
 
 GJ 270 = BD+33_1505 = G 87-33 = LHS 1912 = HIP 35495 (J0719+3249)
- *M0V: Vyssotsky43,Boeshaar76,Bidelman85(M0),Kirkpatrick91(pri),Hawley02(stan),Kirkpatrick(GrayCorbally09)(pri),Lepine13
   K7V: Stephenson86,Hawley97(K7)
-  M1.5V: Joy74
+ *M0V: Vyssotsky43,Boeshaar76,Bidelman85(M0),Kirkpatrick91(pri),Hawley02(stan),Kirkpatrick(GrayCorbally09)(pri),Lepine13,Alonso-Floriano15
   M1V: Adams26,Gaidos14
+  M1.5V: Joy74
   M2V: Adams35
   K5: Lee47
 
   Not mentioned in Henry02. Strange variation of Vmags in the
-  literature ranging from V=8.92(Hawley97), V=9.16 (Mermilliod91) up
-  to V=10.08(Weis93), V=10.06(HIP). The Hipparcos Hp magnitude is
-  ~10.15 with scatter of 0.026 mag, and supporting V ~ 10.1. 
-
-  Endl06 reports "The M0 V star GJ 270 (= HIP 35495 = G 87-33 = BD +33
-  1505) also exhibits a linear RV acceleration. We fit a trend of
-  +171.4+-2.2 m/s/yr with a chi^2_red of 1.42 (dof=26). The residual
-  rms scatter of the RV measurements around this linear RV trend is
-  12.0 m/s. This trend is presumably caused by a previously unknown
-  stellar companion in a long periodic orbit. The Hipparcos data for
-  this star do not detect any astrometric perturbation, which also
-  points toward a long period of the binary."  [seems to be some
-  serious discrepencies in the Vmags]: V=8.92(Hawley97),
+  literature ranging from V=8.92(Hawley97), V=9.16(Mermilliod91) up to
+  V=10.03(CMC), V=10.06(HIP), V=10.069(GaiaDR3,synth),
+  V=10.08(Weis93). The Hipparcos Hp magnitude is ~10.15 with scatter
+  of 0.026 mag, and supporting V ~ 10.1.  Endl06 reports "The M0 V
+  star GJ 270 (= HIP 35495 = G 87-33 = BD +33 1505) also exhibits a
+  linear RV acceleration. We fit a trend of +171.4+-2.2 m/s/yr with a
+  chi^2_red of 1.42 (dof=26). The residual rms scatter of the RV
+  measurements around this linear RV trend is 12.0 m/s. This trend is
+  presumably caused by a previously unknown stellar companion in a
+  long periodic orbit. The Hipparcos data for this star do not detect
+  any astrometric perturbation, which also points toward a long period
+  of the binary." However, Kervella19 shows that, in comparing
+  Hipparcos to Gaia astrometry, there is a huge discrepency,
+  translating to a tangential velocity anomaloy of about 298+-13 m/s.
+  [seems to be some serious discrepencies in the Vmags]:
   V=9.16+-0.010(Mermilliod91), V=9.89(Brorfelde 1968-1984),
   V=10.03(CMC99), V=10.037+-0.073(Kharchenko07), V=10.050+-0.053
-  (Tycho-2=>Johnson), V=10.06(HIP,Salim03,Lepine05),
+  (Tycho-2=>Johnson), V=10.051(Rufener88),
+  V=10.06(HIP,Salim03,Lepine05), V=10.069452(GaiaDR3,synth),
   V=10.07(Gliese91), V=10.08(Weis93), Hp=10.1473+-0.026(scatter; HIP),
   V=10.184+-0.060(Droege07), V=10.21+-0.05(GSC2.2), The HIP Vmag is
-  essentially the median, so I adopt V=10.06 for colors.
-  B-V=1.420+-0.010(HIP), B-V=1.44(Gliese91), B-V=1.45(Weis93),
-  B-V=1.415+-0.015(Mermilliod91), B-V=1.408+-0.123(Tycho-2=>Johnson),
-  B-V=1.40(vanAltena95), U-B=0.760+-0.040(Mermilliod91),
-  J=7.184+-0.020(2MASS), H=6.541+-0.034(2MASS),
-  Ks=6.376+-0.020(2MASS), K=6.39,6.37(Gezari99), V-I=1.72+-0.02(HIP),
-  R-I=0.70(Gliese91), V-R=0.70(Weis93), UVW =
-  +73.6,-37.6,+3.6(Bobylev06).  V-J=2.876(HIP,2MASS),
-  (V-Ks)=3.684(HIP,2MASS). Using Casagrande08 relations and 2MASS
-  JHKs, mbol = 8.912+-0.024 => BCv = mbol - V = 8.912 - 10.06 =
-  -1.148, BC_Ks = 8.912 - 6.376 = 2.536.  Plx = 51.56+-2.09 mas => Mv
-  = 8.62, M_Ks = 4.94, Mbol = 7.47, logL = -1.09.  Teffs:
-  3570+-144K(Alonso96),
-  3668+-54K(Ramirez05),
-  3700K(Lepine13), 
-  3763K(V-K=>Casagrande08 calibration),
-  3833K(V-K=>vanBelle09 calibration),
-  3930K(Morales08),
-  3941K(Gaidos13)
-  => median Teff = 3763K.
+  essentially the median, so I adopt V=10.07 for calculating colors
+  and abs mag.  B-V=1.420+-0.010(HIP), B-V=1.44(Gliese91),
+  B-V=1.45(Weis93), B-V=1.415+-0.015(Mermilliod91),
+  B-V=1.408+-0.123(Tycho-2=>Johnson), B-V=1.40(vanAltena95),
+  U-B=0.760+-0.040(Mermilliod91), J=7.184+-0.020(2MASS),
+  H=6.541+-0.034(2MASS), Ks=6.376+-0.020(2MASS),
+  K=6.39,6.37(Gezari99), V-I=1.72+-0.02(HIP),
+  V-Ic=1.829(GaiaDR3,synth), R-I=0.70(Gliese91), V-R=0.70(Weis93), UVW
+  = +73.6,-37.6,+3.6(Bobylev06).  V-J=2.886, (V-Ks)=3.694. Using
+  Casagrande08 relations and 2MASS JHKs, mbol = 8.912+-0.024 => BCv =
+  mbol - V = 8.912 - 10.06 = -1.148, BC_Ks = 8.912 - 6.376 = 2.536.
+  Plx = 54.8734+-0.0422 mas(GaiaDR2) => Mv = 8.76, M_Ks =
+  5.073+-0.020, Mbol = 7.609+-0.024, logL = -1.148.
+  plx=54.8692+-0.0302mas(GaiaDR3).  Teffs: 3570+-144K(Alonso96),
+  3668+-54K(Ramirez05), 3700K(Lepine13), 3763K(V-K=>Casagrande08
+  calibration), 3833K(V-K=>vanBelle09 calibration), 3930K(Morales08),
+  3941K(Gaidos13) => median Teff = 3763K. Gaia EDR3: plx=
+  54.8692+-0.0302mas, G=9.360454 0.002794, E(BP/RP)=1.327,
+  Bp-Rp=1.881377, Bp-G=0.923124, G-Rp=0.958253.  G-V = 9.360454 -
+  10.07 = -0.710.
 
-# Secondary Standards
+# Secondary Standard
 
-GJ 809 = LHS 3595 =  (J2053+6209)
- *M0V: Kirkpatrick92PhD,Henry94,Henry02,Kirkpatrick12
+GJ 338A = HD 79210 = LHS 260 = HIP 45343
+  K2: Cannon
+  K7V: Wilson62,Bidelman85(K7),Hawley97(K7)
+  K7.8: Mann15
+  K8: Luyten79
+ *M0V: Adams26,Morgan38,Roman55,Vyssotsky56(M0p),Worley70(M0),Houk75(stan,A+B),Stephenson86,Gliese91(M0Ve),Kirkpatrick91(sec.stan),Henry94,Henry02,Royas-Ayala12(M0;K-band),Gaidos14(M0),Newton14(near-IR),Alonso-Floriano15,Dieterich14(M0.0V)
+  M0.5V: Joy74
+
+  Long history classified as M0V back to 1920s. Cannon HD listed the
+  pair as both K2? Houk75 considered the pair GJ 338AB as M0V
+  standard. Cowley67 mentions strong H and K emission for both A and
+  B, but lists Roman55 type. Kirkpatrick91 considered it secondary
+  standard.  Vmag and B-V colors for pair are almost identical:
+  V(A)=7.64(HIP), V(A)=7.644+-0.033, V(A)=7.651855(GaiaDR3,synth),
+  V(B)=7.697+-0.030, B-V(A)=1.410+-0.017, B-V(B)=1.419+-0.018, (all
+  Mermilliod91). WDS reports Vmag = 7.79, 7.88.  2MASS photometry is
+  poor, but K=4.09(Morel78), presumably on Johnson system. So
+  V-K(Johnson) = 3.554.  Boyajian12 reports Teff(A)=3907+-35K and
+  Teff(B)=3867+-37K, so the types should be virtually identical. G =
+  6.9689+-0.0005 mag, Bp-Rp=1.8235, Bp-G=0.9140, G-Rp=0.905(GaiaDR2).
+  Teffs: 3769K(Cennaro01), 3851K(Jenkins09), 3825K(Prugniel07),
+  3849+-27K(Prugniel11), 3868K(Prugniel07#2), 3896+-24K(Pecaut13),
+  3907+-35K(Boyajian12), 3920+-60K(Mann15), 3930+-52K(Mann15#2),
+  3953+-41K(Newton15), 3955+-106K(Newton15#2), 3973+-22K(Luck17),
+  3990+-88K(Gaidos14), 3991+-66K(Gaidos14#2), 3995K(GaiaDR2),
+  4012K(Katz11), 4031+-56K(Royas-Ayala12) => <Teff> = 3930K.  plx =
+  157.8796 0.0366 mas (GaiaDR2). Mv = 8.64 +- 0.03
+  (Mermilliod91,GaiaDR2).  G-V = 6.976026 - 7.644 = -0.668. V-I =
+  7.651855 - 5.886272 = 1.766.
+
+# Tertiary Standard
+
+GJ 328 = HIP 43790 = Ross 623 = BD+2_2098 = LHS 255 = G 46-9 = G 114-21 = LFT 616 = LTT 12331
+  K5V: Lee47(K5),Stephenson86
+  K7:  Bidelman85,Hawley97
+ *M0V: Vyssotsky56,Kirkpatrick91(pri),Lepine13(M0.0),Gaidos14
+  M0.5V: Boeshaar76
+  M1V: Joy74
+
+  Primary M0V standard in Kirkpatrick91, but surprisingly little
+  agreement before then. I just consider it a tertiary standard as it
+  has many fewer references at M0V than the secondary standard GJ338A.
+  It does appear to have the colors nearest the middle of the
+  distribution for M0V standards and exemplars. Lepine13 uses multiple
+  spectral indices and lists M subtype as -0.07.  Exoplanet host star
+  (Robertson13: 2013ApJ...774..147R) to the "most massive,
+  longest-period planet discovered around a low-mass dwarf" (2 Mjup,
+  P=11yr).  V=9.955+-0.001(Koen10), V=9.961+-0.029(Mermilliod91),
+  V=9.969311(GaiaDR3,synth), V=9.99(HIP), B-V=1.372+-0.007(HIP),
+  B-V=1.401+-0.021(Mermilliod91), B-V=1.414+-0.008(Koen10),
+  U-B=1.246+-0.035(Mermilliod91), U-B=1.273+-0.012(Koen10),
+  V-Rc=0.883+-0.003(Koen10), V-I=1.751+-0.004(Koen10),
+  V-Ic=1.76+-0.02(HIP), V-Ic= 9.969311 - 8.191831 =
+  1.777(GaiaDR3,synth).  J=7.191+-0.027(2MASS), H =
+  6.523+-0.018(2MASS), Ks = 6.352+-0.026(2MASS), V-Ks = 9.969 - 6.352
+  = 3.617.  Using 2MASS photometry & Casagrande08 relations => mbol =
+  8.900+-0.023, Although Casagrande08 themselves list: mbol = 8.830.
+  Teffs: 3828+-168K(Casagrande08), 3840K(Lepine13), 3900K(Morales08),
+  4003+-85K(Gaidos14) => 3870K.  GaiaEDR3: plx=48.7404+-0.0184mas,
+  G=9.289488+-0.002766, E(Bp/Rp)=1.314, Bp-Rp=1.832388, Bp-G=0.896807,
+  G-Rp=0.935581.  G-V = 9.2895 - 9.9955 = -0.706. Mv=8.38, M_G=7.729,
+  M_Ks=4.79.  From V-Ks vs. M_Ks, the star does appear to be slightly
+  above MS by +0.348 mag, which translates to
+  [Fe/H]=+0.145(JohnsonApps09 calib) or [Fe/H]=+0.105(Schlaufman10
+  calib) Mass=0.69+-0.01Msun(Robertson13, from Delfosse00 M_K calib),
+  [M/H] = -0.11(Casagrande11), [M/H] = 0.00+-0.15(Robertson13, from
+  Schlaufman10 calib), [Fe/H] = +0.27(Santos17). So the star appears
+  to probably be roughly ~Hyades metallicity perhaps [Fe/H] ~
+  +0.1-0.15.
+
+# Exemplars
+
+GJ 839 = LHS 3727 = G 215-20 = MCC 72 =
+  K7: Bidelman85
+ *M0V: Vyssotsky43,Lee47(M0),Stephenson86,Hawley97(M0),Lepine13(M0.0),Gaidos14(M0)
+  M0.5V: Kirkpatrick91(sec.stan.)
+  M1V: Joy74
+
+  This is considered a M0.5V standard by Kirkpatrick, but no other
+  reference has classified it as M0.5, but it has a half-dozen
+  independent classifications over 7 decades in agreement on M0V.
+  Lepine13 used multiple spectral indices which gave average subtype
+  of -0.06.  V=10.335+-0.035(Mermilliod91),
+  V=10.335039(GaiaDR3,synth), B-V=1.366+-0.014(Mermilliod91),
+  U-B=1.200(Mermilliod91), Ic=8.590275(GaiaDR3,synth), V-Ic =
+  10.335039 - 8.590275 = 1.745(GaiaDR3,synth), Ks=6.765+-0.027(2MASS),
+  V-Ks = 10.335 - 6.765 = 3.57.  Teff = 3635K(Alonso96),
+  3830K(Lepine13), 3840K(Morales08), 4059+-81K(Gaidos14) => Teff =
+  3835K. plx = 39.3208 0.0274 mas(GaiaDR2), Mv = 8.308+-0.035.
+  G=9.6670, Bp-Rp=1.8059, Bp-G=0.9004, G-Rp=0.9054.  G-V= 9.667 -
+  10.335 = -0.668. 
+
+GJ 784 = HD 191949 = HIP 99701 = UGP 492 = Smethells 50
+  K5: Abt72
+  K7.0: Hawley97
+ *M0V: Evans57,Smithells74,Bidelman85(M0),Torres06,Gaidos14(M0)
+  M1/2V: Houk78
+  M2V: Upgren72
+
+  In SIMBAD, this appears to be the 4th brightest M dwarf in the sky
+  in V (V=7.97), 8th brightest in G
+  (G=7.24). V=7.972+-0.008(Mermilliod91), V=7.966+-0.004(Koen02),
+  B-V=1.431+-0.010(Mermilliod91), B-V=1.453+-0.003(Koen02),
+  U-B=1.208+-0.005(Koen02), U-B=1.183+-0.011(Mermilliod91),
+  V-Rc=0.913+-0.005(Koen02), V-Ic=1.842+-0.005(Koen10),
+  J=5.122+-0.023(2MASS), Ks=4.281+-0.024(flag=E). H corrupted flag D.
+  K=4.279(McGregor94, MSSSO), K=4.265(Mould76),
+  K=4.300_Allen83,AAO). Adopt K = 4.28.  V-J = 2.85, V-Ks = 7.966 -
+  4.28 = 3.686. plx = 162.3212 0.0495 mas (GaiaDR2).  Mv =
+  9.024+-0.008.  G=7.2352 0.0007, Bp-Rp=1.9159, Bp-G=0.9740,
+  G-Rp=0.9419. G-V = 7.2352 - 7.966 = -0.731.
+
+GJ 338B = HD 79211 = LHS 261 = Lalande 18115 B
+  K7V: Bidelman85,Kirkpatrick91(sec),Hawley97,Henry02,Reid04
+ *M0V: Adams26,Morgan38,Roman55,Vyssotsky56(M0Vp),Stephenson86,Rojas-Ayala12(near-IR),Alonso-Floriano15
+  M0.5V: Joy74
+  M1V: Newton15(near-IR)
+
+  Morgan38 notes the pair are the 2nd and 3rd brightest northern M
+  dwarfs.  This star appears to be significantly cooler than the
+  primary and secondary K7V standards. "B" is 17" away from primary
+  "A". Kirkpatrick91 notes that "B" is 1 subtype earlier than "A"!
+  Note that Mermilliod91's photometry shows HD 79211 (GJ 338B) to be
+  slightly dimmer (.05mag), slightly redder 0.009mag in B-V, and
+  slightly redder in U-B. Interestingly, the following studies found
+  the two components to have identical spectral types:
+  Adams26(M0V+M0V), Morgan38(M0V+M0V), Roman55(M0V+M0V),
+  Joy74(M0.5V+M0.5V). Stephenson86(M0V+M0V), Bidelman85(K7V+K7V).
+  Teffs: 3695K(Jenkins09), 3769K(Milone11),
+  3849K(Prugniel11), 3869K(Rojas-Ayala12), 3892K(Newton15#1),
+  3926K(Newton15#2) => <Teff> = 3860K. V= 7.697+-0.030(Mermilliod91),
+  B-V=1.419+-0.018(Mermilliod91), U-B=1.238+-0.041(Mermilliod91).
+  G=7.0477 0.0004, Bp-Rp=1.8529, Bp-G=0.9301, G-Rp=0.9228.
+  Ks=4.136+-0.020(2MASS,qual=E). V-Ks = 7.697 - 4.136 = 3.561.
+  Gaia EDR3: 7.054455+-0.002768, Bp-Rp=1.846450, Bp-G=0.904952, G-Rp=0.941498,
+  E(BP/RP)=1.317, plx=157.8825 0.0211mas => Mv=8.69+-0.03, M_G=8.039.
+  G-V = 7.0477 - 7.697 = -0.649.
+
+GJ 825 = Lacaille 8760 = HD 202560 = AX Mic = HIP 105090 = UGP 518 = LHS 66 = Gaia DR3 6583272171336048640 (J2117-3852)
+  K7.0: Hawley97(Kirkpatrick12)
+  K9.0V: Isaacson17
+  Map: Cannon24(see below)
+ *M0V: Evans57(M0Ve),Upgren72,Bidelman85(M0),Torres06
+  M0.5V: Walker83
+  M1V: Adams26,Joy74,Keenan89(non-stan),Gaidos14(M1)
+  M1/2V: Houk82
+
+  Brightest M dwarf in Gaia G-band (V=5.98) in SIMBAD and V-band
+  (V=6.68) in SIMBAD, and recognized widely as the brightest M dwarf
+  (e.g., Croswell 2002
+  http://kencroswell.com/thebrightestreddwarf.html). Star was first
+  observed and recorded as a 7th magnitude star by Nicolas Louis de La
+  Caille 1751-1752 (entry 8760; see 1847 publication of catalog at
+  https://archive.org/details/bub_gb_hbEvAQAAMAAJ/page/n247/mode/2up)
+  from Cape of Good Hope with 0.5-in telescope, with the next
+  brightest M dwarf (Lacaille 9352) listed just pages later. In the
+  final volume of HD catalog (Cannon24), the star stood out
+  sufficiently that Cannon mentions it on page 4 in an overview of the
+  properties of stellar spectra ("lines of low temperature are
+  abnormally intense"), and she classified it as "Map" (i.e. "Ma" "p"
+  for peculiar), and remarked "Proper motion, 3".46, 249.4 [deg]. The
+  spectrum shows strong characteristics of low temperature. Line 4227
+  is very strong. The titanium oxide bands are only faintly seen." (HD
+  202500, ptm. phot. mag. 7.9 [on blue sensitive plates]). Later in
+  Cannon24, she lists HD 217987 (Lacaille 9352) also as "Map" and
+  ptm. mag 7.44 and photographic magnitude 9.0, and commented "The
+  spectrum shows the characteristics of dwarfs. Parallax 0".29, Proper
+  motion, 7".0, 80.5 [deg]". So Cannon acknowledged that Lac 8760 and
+  Lac 9352 were both M type and nearby dwarfs, with Lac 8760 being ~1
+  mag brighter of the two.  Lac 8760 has a wide range of
+  classifications over the past few decades, so it might not be the
+  best choice of standard (suprising given its historical importance
+  and brightness). It was the one "pure" M1V in Keenan89 (although not
+  a standard, although there are two M1V variants). As one of the
+  brightest, nearest M dwarfs, any temperate rocky planets would be
+  among the most accessible to future IROUV observatory
+  (Earth-equivalent instellation distance angular separation = 81.5
+  mas, highest among M dwarfs, and only one >60 mas). Unfortunately
+  there really isn't good agreement to consider a good standard.  Note
+  that Joy74's M1V corresponds roughly to M0.5(+-1.0) on the
+  Kirkpatrick91 system (see notes in M0V.txt), and Teff (below) is
+  most similar to M0.5V-ish.  V=6.676819(GaiaDR3,synth),
+  V=6.691+-0.030(Mermilliod91), V=6.69(HIP), V=6.67(Winters15),
+  B-V=1.387(GaiaDR3), B-V=1.397+-0.002(HIP),
+  B-V=1.397+-0.012(Mermilliod91), U-B=1.183+-0.116(Mermilliod91),
+  V-I=1.77+-0.02(HIP), V-Ic=1.791(GaiaDR3,synth), Rc=5.77(Winters15),
+  Rc=5.766398(GaiaDR3,synth), Ic=4.91(Winters15),
+  Ic=4.885989(GaiaDR3), G=5.984104(GaiaDR3), Bp-Rp=1.853587(GaiaDR3),
+  Bp-G=0.908621(GaiaDR3), G-Rp=0.944966(GaiaDR3).  2MASS photometry is
+  low quality (errors >0.2mag). J(MSSSO)=3.910(McGregor94),
+  H(MSSSO)=3.240(McGregor94), K(MSSSO)=3.078(McGregor94),
+  K-L(MSSSO)=0.110(McGregor94). Transformed MSSSO photometry to 2MASS
+  (via
+  https://www.ipac.caltech.edu/2mass/releases/allsky/doc/sec6_4b.html)
+  Ks=3.044(estimated). V-Ks = 6.691 - 3.044 = 3.647. G-Ks = 5.984 -
+  3.044 = 2.940. G-V = 5.984 - 6.691 =
+  -0.707. plx=251.9124+-0.0352mas(GaiaDR3). M_V=8.70, M_G=7.99,
+  M_Ks=5.05. G-V = The absolute magnitudes are typical for K9.5V,
+  K9.5V, K9V for V, G, Ks, respectively, although the V-Ic, G-Ks, V-Ks
+  colors are all typical for M0Vs.  Teffs: 3592K(Alonso96),
+  3599+-52K(Ramirez05), 3599+-114K(TIC/Stassun19), 3704K(Kuznetsov19),
+  3776+-80K(Gaidos14), 3795K(Lindgren17), 3796+-18K(Koleva12),
+  3905K(GaiaDR3), 3912K(Moro-Martin15), 3930K(Morales08) => <Teff> =
+  3786K.  logg=4.55+-0.08(Kovleva12). [M/H]=-0.50(GaiaDR3),
+  [Fe/H]=0.01(GaiaDR3), [Fe/H]=-0.62+-0.07(Koleva12),
+  [a/Fe]=0.14(GaiaDR3). Gaidos14 TiO5=0.818+-0.008, CaH2=0.772+-0.003,
+  CaH3=0.891+-0.003.
+
+# Deprecated Standards
+
+GJ 123 = HD 19305 = BD+01_543 = StKM 2-258
+  K5V: Bidelman85(K5),Stephenson86,Reid95,Houk99
+ *K7V: Houdebine16(dK7.0)
+  M0V: Adams26,Vyssotsky46,Roman55,Keenan85(stan),Keenan89(non-stan),Keenan99(non-stan),Newton14(stan)
+  M1V: Joy74
+
+  I'm deprecating this one as a standard given the wide range of types
+  (mostly K5 through M0 since 1980s), even though Keenan consistently
+  classified it as M0V and regarded it as a standard in at least one
+  reference (Keenan85, IAU Symposium 111). V-Ks and B-V color is more
+  like ~K7 or slightly cooler. Despite it being a rare M0V star from
+  Keenan, it has not appeared in any of Kirkpatrick's or Henry's lists
+  of standards. 2nd brightest M0V star in SIMBAD after HD 79211, and
+  it is clearly a bit bluer and hotter than the other M0V standards.
+  Not in Keenan80 or Keenan83 or KeenanYorka85, however Keenan85(IAU
+  Symposium 111) listed only HD 19305 (GJ 123) and HD 232979 as M0V
+  standards.  V=9.072+-0.020(Mermilliod91), V=9.055(Koen10),
+  B-V=1.360+-0.019(Mermilliod91), B-V=1.385(Koen10),
+  U-B=1.257(Koen10), U-B=1.240+-0.087(Mermilliod91),
+  V-Rc=0.854(Koen10), V-Ic=1.628(Koen10). J=6.492+-0.021(2MASS), H =
+  5.843+-0.034(2MASS), Ks=5.646+-0.021(2MASS). V-Ks=3.409
+  (Koen10,2MASS). Teff= 3850K(Cesetti13),
+  3998+-53K(Deka-Szymankiewicz18), 3999K(Moro-Martin15),
+  4020+-100K(Houdebine16#1), 4053K(Leger15), 4065+-45K(Houdebine16#2),
+  4130K(Morales08) => <Teff> = 4020K. plx = 67.8892 0.0518 mas
+  (GaiaDR2).  Mv = 8.21 (using Koen10,GaiaDR2), M_Ks = 4.805 +- 0.021
+  (2MASS,GaiaDR2). Gaia DR2: plx=67.8892 0.0518 mas.
+
+GJ 763 = HD 184489 = HIP 96285 =
+  K5V: Lee47(K5),Reid95
+  K7: Bidelman85
+  K8V: Gray03
+ *M0V: Vyssotsky46,Kirkpatrick91(sec.stan.),Gaidos14(M0),M0.0V(Passegger19)
+  sdM0.0: Schweitzer19
+  M0.5V: Joy74
+  M1V: Adams26
+  sdM1:: Alonso-Floriano15
+
+  Wide range of modern types from K5 to M1.  [Fe/H] = -0.16(Luck17),
+  [Fe/H] = -0.17+-0.16(Schweitzer19), [Fe/H] = -0.57(Houdebine16),
+  [Fe/H] = -1.50(Alonso96). V=9.326(Koen10), B-V=1.381(Koen10),
+  U-B=1.210(Koen10), V-Rc=0.851(Koen10), V-Ic=1.626(Koen10),
+  Ks=5.918+-0.017(2MASS).  V-Ks = 9.326 - 5.918 = 3.408.
+
+GJ 172 = HD 232979 = BD+52_857 
+  K7: Cannon27,Bidelman85,Crifo10
+  K7.7: Mann15(note: not K8,K9 in this work)
+  K8V: Cowley67(K8V(e)),Montes01(K8V),Cenarro01,Neves13
+ *M0V: 1956PMcCO..13a....B,KeenanMcNeil76(stan),Keenan80,Keenan85,Turnshek85(stan,dM0),Corbally86(stan,Keenan80),Gray03,Gaidos14
+  M0.5V: Keenan89(stan),Montes98
+  M1V: Adams35,Joy74
+  M2V: Adams26,Vyssotsky56(M2Vp)
+
+  Probably not great as a standard given that Keenan moved it from M0V
+  to M0.5V (a shame as this was the only M0V standard in
+  KeenanMcNeil76). It has not appeared in Kirkpatrick or Henry papers,
+  and it is not listed in Dwarfarchives [as of 5/28/2017]. Would be
+  nice to see a classification compared to Kirkpatrick91
+  standards. Oddly, Lepine13 calls it "G/K". One of the brightest
+  (2nd?) "K7" stars classified by Cannon that ended up being a
+  dwarf. One of only 2 K8V stars classified by Cowley67. WDS lists it
+  as 11" binary. [Fe/H]=-0.11+-0.08(Mann15).  Teffs:
+  3926+-96K(Gaidos14), 3929+-60K(Mann15) => <Teff> = 3928K.
+
+GJ 809 = HD 199305 = HIP 103096 = LHS 3595 (J2053+6209)
+  M0V: Kirkpatrick92PhD,Henry94,Henry02,Kirkpatrick12
   M0.5V: Hawley97
-  M1: Gaidos14,Lepine13(M1.0)
+ *M1: Gaidos14,Lepine13(M1.0),Mann15
   M4: Lee47
   M2V: Keenan46
   
   Kirkpatrick12 lists the primary as "M0 V" (joint type, cites
   Kirkpatrick92(PhD)) and calls the companion "M? V?" (cites "this
-  paper"). V=8.55(HIP), V=8.554+-0.037(Mermilliod91),
+  paper"). However, four recent surveys (Gaidos, Lepine, Hawley) place
+  it 0.5-1 subtype later. Lepine13 used multiple spectral indices
+  which gave M0.84. V=8.55(HIP), V=8.554+-0.037(Mermilliod91),
   B-V=1.483+-0.012(HIP), B-V=1.483+-0.012(Mermilliod91),
   V-I=1.97+-0.07(HIP), U-B=1.237+-0.009(Mermilliod91),
   J=5.429+-0.029(2MASS), Ks=4.618+-0.024(2MASS), V-J=3.121(HIP,2MASS),
-  (V-Ks)=3.932(HIP,2MASS). Teff=
-  3400K(Lepine13),
-  3843K(Gaidos14),
-  3846+-37K(Mann15),
-  R=0.54Rsun(Gaidos14), R=0.515+-0.01 Rsun(Mann15),
-  mass=0.58Msun(Gaidos14), Mass = 0.546+-0.013 Msun (Mann15).
-
-  Yikes, two modern Teff estimates - differ by 400K! Teff ~ 3600K.
-
-# Tertiary Standard
+  (V-Ks)=3.932(HIP,2MASS). Teff= 3400K(Lepine13), 3630K(Alonso96),
+  3646+-53K(Ramirez05), 3692+-22K(Boyajian12), 3715+-14K(Pecaut13),
+  3720+-50K(Woolf05), 3791+-60K(Mann15#1), 3843K(Gaidos14),
+  3846+-37K(Mann15) => Teff = 3715K.  3791K. R=0.54Rsun(Gaidos14),
+  R=0.515+-0.01 Rsun(Mann15), mass=0.58Msun(Gaidos14), Mass =
+  0.546+-0.013 Msun (Mann15). plx=142.0341+-0.0305mas(GaiaDR2).
 
 GJ 686 = LHS 452 = G 170-55 = HIP 86287 (J1737+1835)
- *M0V: Stephenson86("M0:V"),Henry94,Henry02
+  M0V: Stephenson86("M0:V"),Henry94,Henry02
   M0.5: Bidelman85
-  M1V: Joy74,Hawley97
-  M1.5V: Lepine13
+  M1V: Joy74,Hawley97,Rojas-Ayala12
+  M1.2: Mann15
+ *M1.5V: Lepine13
   M2: Gaidos14
 
-  I've dinged it as a standard since only the two Henry papers mention
-  it as standard.  V=9.62(HIP), V=9.612+-0.004(Mermilliod91),
-  B-V=1.530+-0.015(HIP), B-V=1.569+-0.074(HIP), V-I=2.30+-0.11(HIP),
-  U-B=1.080(Mermilliod91), J=6.360+-0.023(2MASS),
-  H=5.790+-0.020(2MASS), Ks=5.572+-0.020(2MASS), V-J=3.26(HIP,2MASS),
+  [last updated 8/29/2017] I've deprecated this star as a standard as
+  subsequent works have all consistently found later types
+  (M1,M1.5,M2), and its colors (V-Ks=4.05, B-V=1.53) are sufficiently
+  red that they appear typical for M1-M2 stars. I've adopted M1.5V
+  from Lepine13 as representative for the recent surveys. V=9.62(HIP),
+  V=9.612+-0.004(Mermilliod91), B-V=1.530+-0.015(HIP),
+  B-V=1.569+-0.074(HIP), V-I=2.30+-0.11(HIP), U-B=1.080(Mermilliod91),
+  J=6.360+-0.023(2MASS), H=5.790+-0.020(2MASS),
+  Ks=5.572+-0.020(2MASS), V-J=3.26(HIP,2MASS),
   (V-Ks)=4.048(HIP,2MASS). Using 2MASS JHKs photometry and
   Casagrande08 relations, mbol = 8.063+-0.019, BCv = mbol - V = 8.063
   - 9.612 = -1.549, BC_Ks = 8.063 - 5.572 = 2.491. plx = 123.67+-1.61
   mas(vanLeeuwen07) => Mv = 10.07, M_Ks = 6.033, Mbol = 8.52+-0.03,
-  logL = -1.51+-0.01. Teffs: 3509K(Jenkins09), 3524K(V-K=>Casagrande08
-  calibration), 3560K(Lepine13), 3657K(Gaidos14), 3680K(Morales08),
-  3686K(V-K=>Mozurkewich03 calibration) => median Teff ~ 3610K.
- 
+  logL = -1.51+-0.01. Teffs: 3524K(V-K=>Casagrande08 calibration),
+  3560K(Lepine13), 3657K(Gaidos14,Mann15), 3680K(Morales08),
+  3686K(V-K=>Mozurkewich03 calibration) => median Teff ~ 3657K.
+  R=0.424+-0.015Rsun(Mann15,Yee17), 
+  M=0.442+-0.044Msun(Mann15), [Fe/H]=-0.25+-0.08(Mann15).
 
 GJ 701 = LHS 3356 (J1805-0301)
- *M0V: Henry94,Henry02
-  M1V: Hawley97
   K4/5V: Houk99(q=4)
-  M1.5V: Cowley82
+  M0V: Henry94,Henry02(stan)
+  M0.5: Bidelman85
+ *M1V: Hawley97,Gaidos14,Dieterich14
+  M1.3: Mann15
+  M1.5V: Cowley82  
   M2V: Upgren72,Joy74
 
-  Published types range from K4-M2. I consider it a tertiary standard
-  as only Henry has considered it a standard, and I would prefer to
-  see better agreement among the classifications.  Kirkpatrick12 cites
-  the Henry94 M0V type. V=9.37(HIP), V=9.377+-0.020(Mermilliod91),
+  [last updated 5/28/2017] Published types range from K4-M2. We had
+  considered this star our main M0V spectral standard in Pecaut13, but
+  I'm now convinced that this star should be considered ~M1V when
+  compared to other early M standards. This appears to be among the
+  coolest of Henry's M0V standards (by Teff and colors), and a look at
+  Fig. 1 of Henry94 showing red spectra of M dwarf standards does show
+  negligible difference in appearance of GJ 701 (as M0V standard;
+  V-Ks=4.064, B-V=1.508+-0.014) and GJ 514 (M1V standard; V-Ks=4.014,
+  B-V=1.497+-0.013), and indeed their optical/near-IR colors are
+  indistinguishable. Given that GJ514's pedigree as M1V appears much
+  more solid, and given that all other works (ignoring the q=4 Houk
+  type) have considered GJ 701 later than M0V, I provisionally
+  deprecate this star as a standard. Kirkpatrick12 cites the Henry94
+  M0V type. V=9.37(HIP), V=9.377+-0.020(Mermilliod91),
   B-V=1.510+-0.017 (Mermilliod91), B-V=1.508+-0.014(HIP),
-  V-I=2.06(HIP), U-B=1.206+-0.012(Mermilliod91),
-  J=6.161+-0.019(2MASS), H=5.571+-0.040(2MASS),
-  Ks=5.306+-0.021(2MASS), V-J=3.209(HIP,2MASS),
+  B-V=1.414+-0.022(APASS/DR9), V-I=2.06(HIP),
+  U-B=1.206+-0.012(Mermilliod91), J=6.161+-0.019(2MASS),
+  H=5.571+-0.040(2MASS), Ks=5.306+-0.021(2MASS), V-J=3.209(HIP,2MASS),
   (V-Ks)=4.064(HIP,2MASS). Using 2MASS JHKs and Casagrande08
   calibration: mbol = 7.819+-0.013 => BCv = mbol - V = 7.819 - 9.377 =
   -1.558, BC_Ks = mbol - Ks = 7.819 - 5.306 = 2.513.  Plx =
   128.89+-1.43 mas(vanLeeuwen07) => Mv = 9.93+-0.03, M_Ks =
   5.86+-0.03, Mbol = 8.37+-0.03, logL = -1.45+-0.01. Teffs:
-  3493+-50K(Houdebine10), 3536K(Jenksin09), 3630+-30K(Woolf05),
-  3680K(Morales08) => median Teff = 3583K. Mass = 0.489+-0.016
-  Msun(Jenkins09).
-
-# Deprecated Standards
-
-GJ 338AB = HD 79210/1 = LHS 260 
-  M0V+M0V: Houk
-  M0.0V+K7.0V: Kirkpatrick91(A+B!),Henry02(A+B)
-  K7V+K7V: Hawley97,Reid04
-
-  Hence, GJ 338A has been called M0V by Houk, Kirkpatrick, and Henry,
-  but K7V by Hawley, Reid.
-
-GJ 328 = BD+2_2098
- *M0V: Vyssotsky56, Kirkpatrick91(pri)
-  M0.5V: Boeshaar76
-  M1V: Joy74
-  K7: Bidelman85, Hawley97
-  K5V: Lee47(K5),Stephenson86
-
-  Primary M0V standard in Kirkpatrick91, but considered 0.5 type later
-  by Boeshaar76, and not listed among Henry02
-  standards. V=9.961+-0.029(Mermilliod91),
-  B-V=1.401+-0.021(Mermilliod91), U-B=1.246+-0.035(Mermilliod91), J =
-  7.191+-0.027(2MASS), H = 6.523+-0.018(2MASS), Ks =
-  6.352+-0.026(2MASS).  Using 2MASS photometry & Casagrande08
-  relations => mbol = 8.900+-0.023, Although Casagrande08 themselves
-  list: mbol = 8.830.  Teffs: 3828+-168K(Casagrande08),
-  3900K(Morales08),
-
-GJ 123 = HD 19305 = BD+01_543 = StKM 2-258
- *M0V: Adams26,Vyssotsky46,Roman55,Keenan85,Keenan89,Keenan99
-  K5V: Bidelman85(K5),Stephenson86,Houk99
-  M1V: Joy74
-
-  I do not consider it a modern M0V standard as it has never been
-  included in one of the standard lists of Kirkpatrick & Henry. Odd
-  that there are no classifications after Keenan89 and Houk99.
-  Keenan85 listed only HD 19305 (GJ 123) and HD 232979 as M0V
-  standards.  B-V=1.385(Koen10), U-B=1.257(Koen10),
-  V-Rc=0.854(Koen10), V-Ic=1.628(Koen10).  Teff= 4130K(Morales08).
+  3493+-50K(Houdebine10), 3614+-60K(Mann15), 3630+-30K(Woolf05),
+  3680K(Morales08), 3710+-101K(Gaidos14#1), 3733+-68K(Gaidos14#2) =>
+  median Teff = 3655K. Mass = 0.489+-0.016 Msun(Jenkins09).
 
 GJ 617A = HD 147379A = Cin 18 2184 
-  M0V: Adams26,Vyssotsky46,JM53,Joy74
   K7: Bidelman85
- *M1-Ve: Keenan89
+ *M0V: Adams26,Vyssotsky46,JM53,Joy74,Montes01,Cenarro09,Lepine13(M0.0V),Alonso-Floriano15
+  M1-Ve: Keenan89
+  M1.0V: Lafloret11(CARMENCITA),Gaidos14(M1)
   M2: Lee47
 
-  The only M0V standard in JM53. Not listed as a Henry02 standard.
-  This suggests that people that used his JM53 standard as a "M0V"
-  would be off by ~0.75 subtype compared to using Keenan's standards
-  ("M1-Ve").
+  Probably M0V-M1V, but not sure where to put it. Probably not the
+  best choice of standard.  JohnsonMorgan53 considered it a M0V
+  standard, but Keenan considered it 0.75 subtype later.  No published
+  classifications by Kirkpatrick or Henry.
 
-GJ 172 = HD 232979 = BD+52_857 
- *M0V: KeenanMcNeil76(stan),Keenan85,Turnshek85(stan,dM0),Corbally86(stan,Keenan80),Gray03
-  M0.5V: Keenan89
-  M1V: Joy74,Adams35
-  K8V(e): Cowley67
+# Other Stars
 
-  Probably not good for a standard given that Keenan moved it from M0V
-  to M0.5V (a shame as this was the only M0V standard in
-  KeenanMcNeil76). Not listed as a Henry02 standard. Star is not
-  listed in DwarfArchives.org yet (as of Aug 2014). Would be nice to
-  see a classification compared to Kirkpatrick91 standards.
+GJ 79 = HD 11507 = CD-23 693
+  K5/M0V: Houk88
+  K7: Bidelman85,Reid95
+  K9V: Munch44,Gray06(K9Vk)
+ *M0V: Adams35,Gaidos14(M0),Torres06
+  M0.2: Mann15
+  M1V: Adams35,Upgren72
+  M1.5V: Joy74
+  M2V: Vyssotsky43
+
+GJ 488 = HD 111631 = Cin 18 1633 = G 14-6
+  K6Ve: Popper43
+  K7V: Wilson62,Bidelman85,Stephenson86,Reid95
+  K7.9: Mann15
+ *M0V: Adams26,Lee47(M0),Vyssotsky56,Upgren72,Gaidos14
+  M0.5V: JM53(non-standard),Joy74
+
+  Not good agreement on types. Mann15 has it as "K7.9", with K7 to M0
+  being one step, so essentially M0. (B-V)=1.412+-0.012(Mermilliod91),
+  V=8.491+-0.019(Mermilliod91), U-B=1.258+-0.009(Mermilliod91).
+
+GJ 519
+  K5: Lee47
+  K7: Bidelman85
+  K7.5V: Lepine13
+ *M0V: Gaidos14
+  M1V: Joy74
+  M2V: Vyssotsky43
+
+  Non-standard.
+
+GJ 666B = 41 Ara B = HR 6416B = HD 156274B = HIP 84720B = LHS 445 
+  K7V: Walker83,Reid95(K7.0),Dieterich12
+  M0V: Evans59,Luyten79(M0),Gliese91
+ *M0Vp Ca-3 Cr-1: Corbally84
+  M0.5: Bidelman85
+
+  Raghavan10 notes that primary is Aa+Ab with 88.03d orbit, and B
+  orbits A in 693.24y. Zakhozhaj79 lists D component that is M7V?
+
+GJ 341 = HD 304636 = HIP 45908 = LHS 2128 = CD-59 2351 = UGP 204 = NLTT 21618 = L 140-9 
+ *M0V: 1930POPot..27b...1B,Upgren72,Reid95(M0.0)
+  M1: Gaidos14
+
+GJ 239 = HD 260655 = LSPM J0637+1733
+  K7V: Reid95
+ *M0V: Bidelman85(M0),Henry02,Lepine13(M0),Gaidos14(M0)
+  M0.2: Mann15
+  M1V: Adams26,Lee47(M1),Joy74,Newton14(near-IR)
+
+GJ 208 = HD 245409 = HIP 26335 = TYC 709-63-1
+  K5: Lee47
+  K6V: Stephenson86
+  K7: Cannon31, Reid95
+  K7.9: Mann15
+ *M0V: Vyssotsky56(M0V),Lurie13(M0),Gaidos14(M0)
+  M0.5Vke: Gray03
+  M1e: Stephenson75
+
+  157" common proper motion pair. Spectral types are typical messy
+  borderline K/M case. Mann15 "K7.9" is 0.1 from M0, not
+  K8. V=8.78(HIP), V=8.82(Mermilliod91), B-V=1.414+-0.059(HIP),
+  B-V=1.38(Mermilliod91), U-B=1.18(Mermilliod91), Mann15:
+  Fbol=2.04+-0.02 10pW/m2, R=0.601+-0.020Rsun, M=0.646+-0.065Msun,
+  [Fe/H]=0.05+-0.08.  Teffs: 3966+-60K(Mann15#1),
+  4020+-41K(Mann15#2). GaiaDR2: 87.4367+-0.0562mas, G=8.2080+-0.0012,
+  E(BR/RP)=1.302, Bp-Rp=1.8278, Bp-G=0.9160, G-Rp=0.9117.
+
+GJ 3403 = HIP 31862 = NLTT 16863 = UGP 145 = CD-55 1514 = 2MASS J06393764-5536349
+  K7V: Upgren72
+ *M0V(k): Gray06,Gaidos14(M0)
+  Mpec: Stock72
 
 # Data
 
@@ -425,17 +911,95 @@ from other values, so I adopt 10.05 for that star based on the
 literature review above.
 
 #Name     Vmag    uVmag   B-V    uB-V    Ksmag  uKsmag  V-Ks   uV-Ks
+Gl328     9.961   0.029   1.401  0.021   6.352  0.021   3.609  0.035 (deprecated standard)
+Gl338A    7.644   0.033   1.410  0.017   3.988  0.033   3.656  0.046 (deprecated standard, binary)
 Gl270*    10.05   ...     1.415  0.015   6.376  0.013   3.674  ...   (standard)
-Gl328     9.961   0.029   1.401  0.021   6.352  0.021   3.609  0.035
-Gl338A    7.644   0.033   1.410  0.017   3.988  0.033   3.656  0.046
-Gl519     9.070   ...     1.400  ...     5.486  0.015   3.584  ... 
+Gl784     7.972   0.008   1.431  0.010   4.281  0.019   3.691  0.020 [among nearest 100]
+GL809*    8.554   0.037   1.483  0.012   4.618  0.019   3.936  0.041 (standard)
 Gl686*    9.612   0.004   1.569  0.074   5.572  0.013   4.040  0.013 (standard)
-Gl701*    9.377   0.020   1.510  0.017   5.306  0.015   4.071  0.025 (standard)
+Gl701*    9.377   0.020   1.510  0.017   5.306  0.015   4.071  0.025 (deprecated standard)
+
+Gl519     9.070   ...     1.400  ...     5.486  0.015   3.584  ... 
 Gl734A    9.420   ...     1.370  ...     5.893  0.013   3.527  ...
 Gl748.2B  11.157  ...     1.301  ...     7.780  0.017   3.377  ... 
 Gl763     9.350   0.006   1.395  0.010   5.918  0.009   3.432  0.010
-Gl784     7.972   0.008   1.431  0.010   4.281  0.019   3.691  0.020
-GL809*    8.554   0.037   1.483  0.012   4.618  0.019   3.936  0.041 (standard)
 GL825     6.691   0.030   1.397  0.012   3.100  0.230   3.591  0.231
+
 #Average  ...     ...     1.412  0.013   ...    ...     3.642  0.058 
                              rms=0.057                     rms=0.284 
+
+# V-K vs. H-Ks for M dwarfs
+
+Throughout the M dwarfs (3.5 < V-K < 9.2), a fit to the photometry of
+Winters+2015 for 960 stars with good VJHK photometry yields:
+
+H-Ks = 4.8433579650605102e-002 + 4.4641549089040944e-002*(V-Ks) (3.5 <
+  V-Ks < 9.2; rms = 0.030 mag)
+
+J-H = 6.0825393189317456e-001 + 4.7970200132622237e-002*(V-Ks)
+-1.8610796358879855e-002*(V-Ks)^2 + 1.5786335399504065e-003*(V-Ks)^3
+[rms = 0.052]
+
+SpT  V-Ks  H-Ks   J-H
+M1   4.065 0.230  0.602
+M1.5 4.12  0.232  0.600
+M2   4.23  0.237  0.598
+M2.5 4.43  0.246  0.593
+M3   4.60  0.254  0.589
+M3.5 5.00  0.272  0.580
+M4   5.25  0.283  0.576
+M4.5 5.65  0.301  0.570
+M5   5.94  0.314  0.567
+M5.5 6.50  0.339  0.567
+M6   7.30  0.374  0.581
+M6.5 7.60  0.388  0.591
+M7   8.00  0.406  0.609
+M7.5 8.40  0.423  0.634
+M8   8.73  0.438  0.659
+M8.5 8.90  0.446  0.674
+M9   9.00  0.450  0.683
+M9.5 9.30  0.464  0.715 
+
+# K/M Boundary
+
+Cantrell13 adopts K/M boundaries of Mv=9.0 (based on Mv for M0.0V star
+from Henry06) or color cutoff of V-Ks=3.5 (based on
+KenyonHartmann95). Silverstein19 (GSU PhD thesis;
+https://scholarworks.gsu.edu/phy_astr_diss/116/) also adopts V-Ks=3.50
+and notes "only a few stars classified as M dwarfs fall on the blue
+side of this line". This compares reasonably well against the bluest
+M0V standard (GJ 338A; V-K ~ 3.55), the reddest K7V standard (GJ 673;
+V-Ks=3.40) and the median colors adopted here for late K dwarfs:
+K7V(3.35), K8V(3.48), K9V(3.55). Silverstein19 offers a scientific
+definition for "red dwarf": "We more precisely define a red dwarf to
+be any main sequence star ranging from spectral type M0.0V (mass ~
+0.63 Msun) to the end of the main sequence, at roughly L2.5V (mass ~
+0.08 Msun) (Dieterich et al. 2014, Benedict et al. 2016)". In practice
+they selected dwarf stars with 3.50 < V-Ks < 10.5. 
+
+# Latest Table of HRD Parameters (7/3/2020)
+
+SpT  Teff logL   Mass
+M0   3840 -1.192 0.57
+M0.5 3770 -1.268 0.54
+M1   3660 -1.392 0.50
+M1.5 3610 -1.464 0.47
+M2   3560 -1.540 0.44
+M2.5 3470 -1.668 0.40
+M3   3410 -1.772 0.37
+M3.5 3260 -2.072 0.27
+M4   3210 -2.200 0.23
+M4.5 3110 -2.400 0.184
+M5   3060 -2.520 0.162
+M5.5 2940 -2.788 0.123
+M6   2810 -3.012 0.102
+M6.5 2730 -3.124 0.093
+M7   2680 -3.188 0.090 
+M7.5 2630 -3.236 0.088
+M8   2570 -3.284 0.085 
+M8.5 2420 -3.472 0.080
+M9   2380 -3.520 0.079
+M9.5 2350 -3.572 0.078
+
+
+

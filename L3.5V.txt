@@ -1,19 +1,53 @@
 L3.5V
 
+Kirkpatrick09(GrayCorbally): 2MASS J00361617+1821104 - L3.5 (primary optical standard)
+
 V-R(L3.5V)  =  3.11 ; 2M0036 (see below)
 V-I(L3.5V)  =  5.51 ; 2M0036 (see below)
 V-J(L3.5V)  =  8.96 ; 2M0036 (see below)
 V-H(L3.5V)  =  9.84 ; 2M0036 (see below)
+
+V-Ks(L3.5V) = 10.28 ; 2MASS_J00361617+1821104 (Dahn17)
 V-Ks(L3.5V) = 10.37 ; 2M0036 (see below)
+=> adopt (V-Ks)(L3.5V) = 10.4 [updated 8/17/2020]
 
-# Examples
+(J-H)(L3.5V) = 0.989 ; (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
+=> adopt (J-H)(L3.5V) = 0.99 [updated 8/6/2020]
 
-2M 0036+1821  (J2000) 00 36 16.17 +18 21 10.4
-   L3.5: Dieterich14(source?)
+(H-Ks)(L3.5V)  = 0.620 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+=> adopt (H-Ks)(L3.5V) = 0.62 [last updated 8/6/2020]
 
-   V=21.34+-0.06(Dahn02), V=21.43+-0.024(Dieterich14),
-   R=18.32+-0.016(Dieterich14), I=15.92+-0.022(Dieterich14),
+M_J(L3.5V)    = 12.927 ; EEM fit to L/T dwarfs d<25pc
+
+M_Ks(L3.5V) = 11.40 ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
+M_Ks(L3.5V) = 11.43 ; trend to L/T dwarfs in notes (1/2021)
+
+Teff(L3.5V) = 1757 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L3.5V) = 1775 K ; Cifuentes20 <Teff> for CARMENES L3.5V(N=2)
+Teff(L3.5V) = 1780 K ; Kirkpatrick20 (Table 13 polynomial)
+=> adopt Teff(L3.5V) = 1870K (logT = 3.272) [updated 12/26/2020]
+
+
+# Primary Standard
+
+2MASS J00361617+1821104 = 2M 0036+1821 = WDS J00363+1821
+   L1.5: Schneider14(near-IR)
+  *L3.5: Reid00,Kirkpatrick00(L3.5V),Gizis00,Kirkpatrick09(pri.opt.stan.),Dieterich14(source?)
+   L4:: Geballe02
+
+   One of the earliest L dwarfs within 10pc, indeed a query of SIMBAD
+   for objects with plx>100mas (d<10pc) and L spectral types shows no
+   objects with default types between the L0 companion to LP 388-55
+   and 2MASS J00361617+1821104. This appears to be the most studied
+   early L dwarf within 10pc, discovered by
+   Reid00(2000AJ....119..369R).  V=21.34+-0.06(Dahn02,Dahn17),
+   V=21.43+-0.024(Dieterich14), R=18.32+-0.016(Dieterich14),
+   I=15.92+-0.022(Dieterich14), I=16.11+-0.01(Dahn17),
    J=12.466+-0.027(2MASS), H=11.588+-0.030(2MASS),
    Ks=11.058+-0.021(2MASS), K=11.06+-0.02(Dahn02).  V-R=3.11+-0.03,
    V-I=5.51+-0.03, V-J=8.96+-0.04, V-H=9.84+-0.04, V-Ks=10.37+-0.03,
    plx = 114.20+-0.80(Dieterich14). Vtan=37.6 km/s(Deiterich14).
+   Teffs: 1796+-33K(Dieterich14), 1800K(Cifuentes20),
+   1900+-100K(Gagne15), 1900K(Golimowksi04), 1923K(Vrba04),
+   1993K(Dahn02), 2000K(Blake10).  logL=-3.95+-0.011(Deiterich14),
+   Rad=0.109+-0.0042Rsun(Dieterich14).

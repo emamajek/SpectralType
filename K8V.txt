@@ -4,7 +4,7 @@ JM53, Houk75, KeenanMcNeil76, Keenan85, Keenan99,
 Kirkpatrick91,Houk,Henry02 do not list any K8V standards.  Skiff08
 does not flag any stars as K8V MK standards.
 
-Pecaut13 standard:    HIP 111288 - K8V k [following Gray06]
+Pecaut13 standard:  HIP 111288 - K8V k [following Gray06]
 
 Keenan84 does not list K8 as a full subtype like K5 and M0, and "other
 possible subdivisions are utilized only for interpolation whenever we
@@ -24,84 +24,385 @@ The two stars bracketing the median B-I colors are HIP 111288 (= StKM
 2-1622; only other reference is K7V in Stephenson86) and HIP 82834
 (=HD 152606; only other reference is K4/5V q=3 in Houk82)
 
+Note that one regularly finds stars classified as K8V by Vyssotsky
+(1950s) which are significantly bluer (B-V ~ 1.1-1.2) than typical for
+Gray's K8Vs.
+
+
+(B-V)(K8V) =  1.300 ; exemplar GJ 576 = LHS 3020 
+(B-V)(K8V) =  1.353 ; exemplar GJ 836.8 = HIP 107346  
+(B-V)(K8V) =  1.360 ; interp K7V(1.33)-M0V(1.42) 
 (B-V)(K8V) = 1.360 (+-0.039 sem,+-0.061 stdev); med. for 4 ARICNS K8V stars
-(B-V)(K8V) = 1.37  ; interpolated B-V between K7V (1.34) and M0V (1.43)
+(B-V)(K8V) =  1.363 ; exemplar GJ 1217 = HIP 85026
+(B-V)(K8V) = 1.363  ; trend for V-Ks=3.48, V-Ic=1.624
+(B-V)(K8V) =  1.372 ; exemplar HD 132683 = GJ 571.1
+(B-V)(K8V) = 1.373 ; standard HIP 111288 
 <B-V>(K8V) = 1.382 ; 23 Gray03/06 K8V stars (+-0.009 sem, +-0.048 stdev)
-=> adopt (B-V)(K8V)  = 1.382 ***
-=> adopt (U-B)(K8V)  = 1.213
-=> adopt (V-I)(K8V)  = 1.671
-=> adopt (V-R)(K8V)  = 0.859
-=> adopt (R-I)(K8V)  = 0.812
-=> adopt (V-J)(K8V)  = 2.743
-=> adopt (V-H)(K8V)  = 3.373
-=> adopt (V-Ks)(K8V) = 3.554
-=> adopt (H-Ks)(K8V) = 0.181
-=> adopt (J-H)(K8V)  = 0.630
-=> adopt (K-W1)(K8V) = 0.069 
+(B-V)(K8V) = 1.388 ; median Koen10 d<25pc K8V
+(B-V)(K8V) =  1.41  ; exemplar GJ 757
+=> adopt (B-V)(K8V)  = 1.363 [updated 12/23/2020]
+=> adopt (U-B)(K8V)  = 1.219 
+=> adopt (V-I)(K8V)  = 1.609
+=> adopt (V-R)(K8V)  = 0.837
+=> adopt (R-I)(K8V)  = 0.772
+=> adopt (V-J)(K8V)  = 2.676
+=> adopt (V-H)(K8V)  = 3.306
+=> adopt (H-Ks)(K8V) = 0.174
+=> adopt (J-H)(K8V)  = 0.630 
 
-Teff(K8V) = 3863 K ; Casagrande08 Teff calibration for V-Ks=3.554
-Teff(K8V) = 3896 K ; vanBelle09 Teff calibration for V-Ks=3.554
-Teff(K8V) = 3955 K ; diBenedetto98 Teff calibration for V-Ks=3.554
-Teff(K8V) = 3964 K ; mean photometric Teff
-Teff(K8V) = 3970 K ; interp K7V (4050K) and M0V (3850K) for V-K=3.554
-Teff(K8V) = 4003 K ; Ramirez05 Teff calibration for B-V=1.382
-Teff(K8V) = 4039 +- 23 K ; Pecaut13 (GJ 380)
-Teff(K8V) = 4284 K ; Biazzo07 Teff calibration for B-V=1.382
-=> adopt Teff(K8V) = 3970 K (logT = 3.599)
+(V-Ic)(K8V) = 1.710 ; interp K7V-M0V (smooth curve K5V-M0.5V, interp for V-Ks=3.48)
+(V-Ic)(K8V) =  1.69 ; exemplar GJ 757 (HIP)
+(V-Ic)(K8V) = 1.67 ; Koen10 d<25pc sample K8V (N=10)
+(V-Ic)(K8V) =  1.66 ; exemplar GJ 571.1 (HIP)
+(V-Ic)(K8V) = 1.61  ; standard HIP 111288
+(V-Ic)(K8V) = 1.609 ; trend for B-V=1.363, V-Ks=3.48
+(V-Ic)(K8V) = 1.608 (+-0.035 sem, +-0.179 stdev; N=23) Gray03/06 K8V stars
+(V-Ic)(K8V) =  1.59 ; exemplar GJ 1217 (HIP) 
+(V-Ic)(K8V) =  1.57 ; exemplar GJ 576 (HIP)
+(V-Ic)(K8V) =  1.55 ; exemplar GJ 836.8 (HIP)
+(V-Ic)(K8V) =  1.36 ; exemplar HIP 112843 (HIP)
+=> adopt (V-Ic)(K8V) = 1.71 [updated 11/15/2022]
+note that some of the V-Ic values in Hipparcos seem at odds with previous measurements, at
+least among the K/M boundary stars. I suspect the Koen10 value (actual measurements)
+is near the actual value
 
-Mv(K8V)  =  8.40  mag ; Wegner07
-Mv(K8V)  = 8.562 mag ; V-K=3.554 => EEM fit to Reid CNS3 data
-Mv(K8V)  = 8.60  mag ; B-V=1.382 => Mv(Wright05)
-Mv(K8V)  = 8.63  mag ; interp K7V-M0V for V-K=3.554
-Mv(K8V)  = 8.635 mag ; V-K=3.554 => Mv(JohnsonApps09)
-=> adopt Mv(K8V)   = 8.63 mag 
-=> adopt M_Ks(K8V) = 5.076 mag 
 
-BCv(K8V) =  -1.304 mag ; Masana06(Teff=4000K)
-BCv(K8V) =  -1.111 mag ; Flower96(Teff=4000K)
-BCv(K8V) = -1.073 mag ; interp K7V-M0V for V-K=3.554
-BCv(K8V) = -1.056 +- 0.02 ; non-standard GJ 380 (Pecaut13)
-BCv(K8V) =  -1.003 mag ; Bessell98(ATLAS9,logg=4.5,Teff=4000K)
-BCv(K8V) =  -0.973 mag ; EEM fit to Casagrande06/08/10 (Teff=4000K)
-BCv(K8V) =  -0.957 mag ; Bertone04(ATLAS,Teff=4000K)
-=> adopt BCv(K8V) = -1.073 mag
+(V-Ks)(K8V) =  3.361 ; exemplar GJ 836.8 = HIP 107346
+(V-Ks)(K8V) =  3.362 ; exemplar GJ 576 = LHS 3020 
+(V-Ks)(K8V) =  3.455 ; exemplar GJ 1217 = HIP 85026
+(V-Ks)(K8V) = 3.480 ; trend for K dwarfs+early M standards+exemplars
+(V-Ks)(K8V) =  3.477 ; exemplar GJ 757 = LHS 5347 
+(V-Ks)(K8V) =  3.502 ; exemplar GJ 571.1 = HD 132683 
+(V-Ks)(K8V) =  3.519 ; standard HIP 111288
+(V-Ks)(K8V) =  3.549 ; exemplar HIP 112843 = Smethells 118
+(V-Ks)(K8V) =   3.630 (+-0.106 sem) ; Kervella19 d<25pc N=10 [probably includes some older K8s]
+=> adopt (V-Ks)(K8V) = 3.48 *** [updated 12/23/2020]
+=> adopt (G-Ks)(K8V) = 2.85 = 3.48 + -0.63 = (V-Ks)+(G-V) [updated 12/23/2020]
 
-logL(K8V) = -1.121 dex ; Mv=8.63, BCv=-1.073 => Mbol = 7.557
-=> adopt logL(K8V) = -1.121 dex
-=> adopt Mbol(K8V) =  7.557 mag
+(G-J)(K8V)   =  1.890 ; Bentley18/interp
+(G-Ks)(K8V)  =  2.794 ; Bentley18/interp
+(Ks-W2)(K8V) =  0.082 ; Bentley18/interp
+(W1-W2)(K8V) = -0.016 ; Bentley18/interp
 
-Mass(K8V) = 0.59 Msun ; EEM Teff vs. Mass fit for binaries (Teff=3960K)
-Mass(K8V) = 0.594 Msun ; Eker15 calibration for logL=-1.121
-Mass(K8V) = 0.61 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.14)
-Mass(K8V) = 0.61 Msun ; Mv=8.60 => HenryMcCarthy93 calibration
-Mass(K8V) = 0.65 Msun ; M_Ks=5.05 => Delfosse10 calibration
-Mass(K8V) = 0.68 Msun ; EEM Mv vs. Mass fit for binaries (Mv=8.60)
-=> adopt Mass(K8V) = 0.61 Msun
+(Ks-W1)(K8V) =  0.098 ; Bentley18/interp
+(Ks-W1)(K8V) =  0.115 ; EEM trend for d<30pc for V-Ks=3.44
+=> adopt (Ks-W1)(K8V) = 0.115 [updated 11/29/2019]
+
+(G-V)(K8V) =  -0.594  ; exemplar GJ 576 = LHS 3020
+(G-V)(K8V) = -0.614  ; B-V vs G-V trend Pancino22 for B-V=1.363
+(G-V)(K8V) = -0.621  ; from color fit for V-Ks=3.50 
+(G-V)(K8V) = -0.624  ; trend among standards/exemplars for K/M dwarfs
+(G-V)(K8V) =  -0.625  ; exemplar GJ 1217 = HIP 85026 
+(G-V)(K8V) = -0.630  ; Kervella19 d<25pc for V-Ks=3.50
+(G-V)(K8V) = -0.633  ; trend K5V through M0.5V interp for V-Ks=3.48
+(G-V)(K8V) =  -0.639  ; exemplar GJ 757 = LHS 5347 (GaiaEDR3)
+(G-V)(K8V) = -0.642  ; V-Ic vs G-V trend Pancino for V-Ic=1.71
+(G-V)(K8V) =  -0.646  ; exemplar GJ 571.1 = HD 132683 
+(G-V)(K8V) =  -0.6514 ; standard HIP_111288
+=> adopt (G-V)(K8V) = -0.63 [updated 11/15/2022]
+
+(Bp-Rp)(K7V)=  1.71  ; K7V mean
+(Bp-Rp)(K8V)= 1.775  ; interp K7V-M0V: V-Ks vs. Bp-Rp
+(Bp-Rp)(K8V)= 1.7759 ; exemplar GJ 757 = LHS 5347 (GaiaEDR3)
+(Bp-Rp)(K8V)= 1.7860 ; standard HIP 111288 
+(Bp-Rp)(M0V)=  1.84  ; M0V mean
+=> adopt (Bp-Rp)(K8V) = 1.78 [updated 12/23/2020]
+
+(G-Rp)(K7V)=  0.87   ; K7V mean
+(G-Rp)(K8V)= 0.8954 ; standard HIP 111288
+(G-Rp)(K8V)= 0.9099 ; exemplar GJ 757 = LHS 5347 (GaiaEDR3)
+(G-Rp)(M0V)=  0.92   ; M0V mean
+=> adopt (G-Rp)(K8V) = 0.89 [updated 12/23/2020]
+=> adopt (Bp-G)(K8V) = 0.89 [updated 12/23/2020; Bp-Rp=1.78, G-Rp=0.89]
+
+(g-r)(K8V) = 1.242 ; Jordi06 (V-R)=>(g-r) for R-I=0.843
+(g-r)(K8V) = 1.288 ; Bilir05 (B-V)=>(g-r) for B-V=1.37
+(g-r)(K8V) = 1.330 ; Covey07 interp K7V 1.34, M0V 1.31
+=> adopt (g-r)(K8V) = 1.29 [updated 10/10/2020]
+
+Mv(K8V)  =  8.16 mag  ; exemplar GJ 836.8 = HIP 107346
+Mv(K8V)  =  8.23 mag  ; exemplar HD 132683 = GJ 571.1
+Mv(K8V)  =  8.27 mag  ; B-V=1.37 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(K8V)  =  8.37 mag  ; standard HIP 111288
+Mv(K8V)  =  8.39 mag  ; SIMBAD d<20pc K dwarf trend for V-Ks=3.50, M_Ks=4.89
+Mv(K8V)  =    8.40 mag ; Wegner07
+Mv(K8V)  =  8.40 mag  ; smooth trend in K7V-M0V range with xHIP data d<25pc
+Mv(K8V)  =  8.41 mag  ; V-K=3.50 => SchlaufmanLaughlin10 calibration
+Mv(K8V)  = 8.42 mag   ; V-Ks=3.50, M_Ks=4.92
+Mv(K8V)  =  8.42 mag  ; V-K=3.48 => EEM fit to Reid CNS3 data
+Mv(K8V)  = 8.43 mag   ; V-Ks=3.48 MS trend 
+Mv(K8V)  =  8.43 mag  ; exemplar GJ 576 = LHS 3020
+Mv(K8V)  =  8.45 mag  ; exemplar HIP 112843 = Smethells 118
+Mv(K8V)  =  8.46 mag  ; exemplar GJ 1217 = HIP 85026 
+Mv(K8V)  =  8.47 mag  ; V-Ks=3.48 => EEM fit to Jao16 data
+Mv(K8V)  =  8.48 mag  ; V-K=3.48 => Mv(JohnsonApps09)
+Mv(K8V)  =  8.48 mag  ; median Koen10 d<25pc K8V
+Mv(K8V)  =  8.49 mag  ; B-V=1.37 => Wright05 calibration
+Mv(K8V)  =  8.70 mag  ; exemplar GJ 757 = LHS 5347
+=> adopt Mv(K8V)   = 8.43 mag [updated 3/2/2021] (M_Ks=4.95, V-Ks=3.48]
+=> adopt M_G(K8V)  = 7.80 mag [updated 11/15/2022] (Mv=8.43, G-V=-0.63)
+=> adopt M_Ks(K8V) = 4.95 mag [updated 3/2/2021] (Mv=8.43, V-Ks=3.48)
+
+M_G(K8V) =  7.552 ; exemplar GJ 836.8 = HIP 107346
+M_G(K8V) =  7.59  ; exemplar GJ 571.1 = HD 132683
+M_G(K8V) = 7.691 ; SIMBAD d<20pc trend for V-Ks=3.44
+M_G(K8V) =  7.723 ; standard HIP 111288
+M_G(K8V) =  7.79  ; exemplar HIP 112843 = Smethells 118
+M_G(K8V) = 7.80  ; Mv=8.43, G-V=-0.63
+M_G(K8V) =  7.84  ; exemplar GJ 1217 = HIP 85026
+M_G(K8V) =  7.84  ; exemplar GJ 576 = LHS 3020
+M_G(K8V) =  8.06  ; exemplar GJ 757 = LHS 5347
+
+M_Ks(K8V) =  4.73 mag ; exemplar HD 132683 = GJ 571.1
+M_Ks(K8V) =  4.78 mag ; SchlaufmanLaughlin10 calib for V-Ks=3.48
+M_Ks(K8V) =  4.80 mag ; exemplar GJ 836.8 = HIP 107346
+M_Ks(K8V) =  4.86 mag ; standard HIP 111288 = StKM 2-1622
+M_Ks(K8V) =  4.86 mag ; exemplar HIP 112843 = Smethells 118
+M_Ks(K8V) =  4.89 mag ; SIMBAD d<20pc K dwarf trend for V-Ks=3.50
+M_Ks(K8V) = 4.92 mag ; Mv=8.40, V-Ks=3.48
+M_Ks(K8V) =  4.94 mag ; EEM fit to Reid CNS3 data for V-Ks=3.48
+M_Ks(K8V) = 4.95 mag ; V-Ks=3.48 MS trend (Mv=8.43)
+M_Ks(K8V) =  4.99 mag ; V-Ks=3.48 => EEM fit to Jao16 data
+M_Ks(K8V) =  5.00 mag ; JohnsonApps09 calib for V-Ks=3.48
+M_Ks(K8V) =  5.01 mag ; exemplar GJ 1217 = HIP 85026
+M_Ks(K8V) =  5.07 mag ; exemplar GJ 576 = LHS 3020 
+M_Ks(K8V) =   5.13 mag ; Henry04 calib for V-Ks=3.50
+M_Ks(K8V) =  5.22 mag ; exemplar GJ 757 = LHS 5347
+
+Teff(K8V) =   3908 K ; Casagrande08 Teff calibration for V-Ks=3.50
+Teff(K8V) =   3923 K ; vanBelle09 Teff calibration for V-Ks=3.50
+Teff(K8V) =   3929 K ; Mozurkewich03 for V-Ks=3.50
+Teff(K8V) =   3966 K ; Boyajian12 calib for V-Ks=3.48
+Teff(K8V) =   3979 K ; diBenedetto98 Teff calibration for V-Ks=3.50
+Teff(K8V) =  3970 K ; mean photometric Teff
+Teff(K8V) =  3984 K ; smooth Teff(SpT) trend
+Teff(K8V) = 3990 K ; interp K7V(V-Ks=3.35,4100K) and M0V(V-Ks=3.65,3900K)
+Teff(K8V) =  4034 K ; Ramirez05 Teff calibration for B-V=1.363
+Teff(K8V) =  4027 K ; Morrell19 Teff for stars w/i +-0.1 mag of M_Ks=4.91
+Teff(K8V) =  4039 +- 23 K ; Pecaut13 (GJ 380)
+Teff(K8V) =   4304 K ; Biazzo07 Teff calibration for B-V=1.363
+=> adopt Teff(K8V) = 3990 K (logT = 3.601) [updated 12/23/2020]
+
+BCv(K8V) =   -1.261 mag ; Masana06(Teff=4030K, set so BCv(5772K)=-0.085)
+BCv(K8V) =   -1.139 mag ; Flower96(Teff=3990K, set so BCv(5772K)=-0.085)
+BCv(K8V) =  -1.071 mag ; Casagrande18(Teff=3990K,logg=4.5, set so BCv(5772K)=-0.085)
+BCv(K8V) =   -1.056 +- 0.02 ; non-standard GJ 380 (Pecaut13)
+BCv(K8V) =  -1.040 mag ; Mann15(V-J=2.676)
+BCv(K8V) = -1.03  mag ; BC_K=2.47, V-Ks=3.48
+BCv(K8V) =   -1.028 mag ; Bessell98(ATLAS9,logg=4.5,Teff=3990K, set so BCv(5772K)=-0.085)
+BCv(K8V) =  -1.021 mag ; Morrell19(G-Ks=2.85) w/ V-Ks=3.48
+BCv(K8V) =   -0.996 mag ; EEM fit to Casagrande06/08/10 (Teff=3990K, set so BCv(5772K)=-0.085)
+BCv(K8V) =   -0.976 mag ; Bertone04(ATLAS,Teff=3990K, set so BCv(5772K)=-0.085)
+=> adopt BCv(K8V) = -1.03 mag [updated 12/23/2020, set so BCv(5772K)=-0.085)
+
+BC_Ks(K8V) = 2.478 mag ; Mann15(V-J=2.676)
+BC_Ks(K8V) = 2.47  mag ; BCv=-1.03, V-Ks=3.48
+BC_Ks(K8V) = 2.459 mag ; Morrell19(G-Ks=2.85)
+=> adopt BC_Ks(K8V) = 2.47 mag [updated 12/23/2020]
+
+logL(K8V) = -1.064 dex ; Mv=8.43, BCv=-1.03 => Mbol = 7.400
+=> adopt logL(K8V) = -1.064 dex [updated 3/2/2021]
+=> adopt Mbol(K8V) =  7.400 mag [updated 3/2/2021]
+
+Mass(K8V) = 0.600 Msun ; Mann18 calib. for M_Ks=4.95
+Mass(K8V) = 0.610 Msun ; Eker15 calibration for logL=-1.064
+Mass(K8V) = 0.616 Msun ; Eker18 calibration for logL=-1.064
+Mass(K8V) =  0.620 Msun ; HenryMcCarthy93 calibration for Mv=8.43
+Mass(K8V) = 0.634 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.064)
+Mass(K8V) = 0.635 Msun ; EEM Mv vs. Mass fit for binaries (Mv=8.43)
+Mass(K8V) =  0.679 Msun ; Delfosse00 calibration for M_K=4.90
+Mass(K8V) = 0.699 Msun ; Benedict16 (Mv=8.43)
+=> adopt Mass(K8V) = 0.62 Msun [updated 3/2/2021]
+
+Rad(K8V)  = 0.6148 Rsun ; logL=-1.064, Teff=3990K
+Rad(K8V)  = 0.6184 Rsun ; Mann15 calib for M_Ks=4.95 
+=> adopt Rad(K8V) = 0.615 Rsun [updated 3/2/2021]
 
 # Standard
 
-HIP 111288 = StKM 2-1622 = TYC 6391-1169-1 (J2232-2059)
- *K8Vk: Gray06,Pecaut13
-  K7V: Stephenson86
+HIP 111288 = StKM 2-1622 = LP 876-76 = TYC 6391-1169-1 (J2232-2059)
+  K7V: Stephenson86,Gaidos14
+ *K8Vk: Gray06,Pecaut13(stan)
 
   There appear to be no K8V standard stars before 2013. Reid04 lists
-  the star, but does not give a SpT. V=11.01, Ks = 7.491+-0.017 (2M),
-  (V-Ks) = 3.52 (I find <V-Ks>(K8V) ~ 3.55, so its (V-Ks) is
+  the star, but does not give a SpT. V=11.01(HIP),
+  V=11.011751(GaiaDR3,synth), B-V=1.373+-0.009(HIP),
+  Ic=9.296278(GaiaDR3,synth), Ic=9.49(Pickles10,fit), V-Ic= 11.012 -
+  9.926 = 1.086. V-Ic=1.61+-0.02(HIP), Ks=7.491+-0.017 (2MASS), (V-Ks)
+  = 3.519 (I find <V-Ks>(K8V) ~ 3.55, so its (V-Ks) is
   indistinguishable from the K8V mean). In PecautMamajek13, we show
   that its red optical spectrum is intermediate between a K7V and M0V
   standards (clearly closer to the K7V standard GJ 673), and adopt HIP
-  111288 as a K8V standard.
+  111288 as a K8V standard. GaiaDR2 adopts spectral template of 4000K,
+  logg=3.0, and [Fe/H]=0.0. GaiaDR2: plx=29.7063+-0.0454mas,
+  G=10.3586+-0.0006, E(BR/RP)=1.295, Bp-Rp=1.7860, Bp-G=0.8906,
+  G-Rp=0.8954.  Mv=8.37 (Wright04 MS for B-V=1.373 is Mv=8.52, so
+  delta(Mv) = -0.15), M_G=7.723+-0.003, M_Ks=4.855+-0.017.
 
-# Rejected Candidate Standard
+# Exemplars
+
+[EEM 12/23/2020: note that as there are few K8Vs in literature, I've
+pointed out some stars classified as K8V by Gray, that appears to have
+multiple classification near that type]
+
+GJ 836.8 = HIP 107346 = BD+40 4631 = PM J21444+4135 = MCC 71
+  K5: Lee47,Reid95
+  K6V: Joy47
+  K7: Bidelman85
+ *K8V: Vyssotsky43,Gray03
+  G/K: Lurie13
+
+  V=9.63(Mermilliod91,Hauck90), V=9.65(HIP), V=9.71(Tycho),
+  B-V=1.334+-0.005(HIP), B-V=1.34(Mermilliod91), B-V=1.353(Just08),
+  V-Ic=1.55+-0.01(HIP), V-Rc=0.923(Just08), Rc-Ic=0.755(Just08),
+  U-B=1.20(Mermilliod91). Ks=6.289+-0.021(2MASS), V-Ks = 9.65 - 6.289
+  = 3.361. GaiaDR2: plx =50.4206+-0.0281mas, G=9.0389+-0.0004,
+  E(BR/RP)=1.280, Bp-Rp=1.6885, Bp-G=0.8307, G-Rp=0.8579. 	
+  Mv=8.16, M_G=7.552+-0.001, M_Ks=4.802+-0.021. 
+
+GJ 1217 = HIP 85026 = LTT 6914 = LP 747-25 = BD-14 4622
+  K5V: Bidelman73
+  K7V: Stephenson86,Ried95(K7)
+ *K8V(k): Gray06
+  M0.5V: Joy74
+  M1:Gaidos14
+
+  V=10.89(HIP), B-V=1.363+-0.011(HIP), V-I=1.59+-0.02(HIP).
+  J=8.245+-0.021(2M), H=7.633+-0.016(2M), Ks=7.435+-0.018(2M).
+  V-Ks = 10.89 - 7.435 = 3.455. GaiaDR2: G=10.2647. 
+  GaiaEDR3: plx=32.6879+-0.0147mas => Mv = 8.46, M_Ks=5.01, M_G=7.84.
+  G-V = 10.2647 - 10.89 = -0.625. 
+
+GJ 571.1 = HD 132683 = StKM 2-1103 = UGP 367
+  K7V: Upgren72,Bidelman85(K7),Stephenson86,Reid95,Gaidos14(K7)
+ *K8Vk: Gray06
+  M0V: Adams26
+  M0.5V: Joy74
+  M2V: Vyssotsky43
+
+  Appears as K8V in Gray, but K7V in several other sources.
+  V=9.49(HIP), B-V=1.372+-0.008(HIP), V-Ic=1.66(HIP).
+  Ks=5.988+-0.017. V-Ks= 9.49 - 5.988 = 3.502. GaiaDR2:
+  G=8.8441. GaiaEDR3:
+  plx=56.0678+-0.0258mas => Mv=8.23, M_Ks=4.73, M_G=7.59.
+  G-V = 8.8441 - 9.49 = -0.646. 
+
+GJ 576 = LHS 3020 = HIP 73786 = StKM 2-1110 = LTT 14482 = BD+06 2986 = G 15-5 = G 66-61
+  K5V: Bidelman85(K5),Stephenson86,Reid95(K5)
+ *K8V: Gray03
+  M0V: Vyssotsky46,Joy74
+
+  V=9.83(HIP), B-V=1.300+-0.015(HIP), V-I=1.57+-0.01(HIP),
+  Ks=6.468+-0.020(2MASS), V-Ks = 9.83 - 6.468 = 3.362. GaiaDR2:
+  G=9.2357. G-V = 9.2357 - 9.83 = -0.594.  GaiaEDR3:
+  plx=52.5048+-0.0235mas => Mv=8.43, M_Ks=5.07, M_G=7.84.
+
+GJ 757 = LHS 5347 = HIP 95417 = CD-22 13916 = StKM 2-1407
+  K4: Bidelman85
+  K5V: Stephenson86
+  K7V: Reid95
+ *K8V(k): Gray06
+  M1: 1983nssl.conf..365M,Gaidos14
+
+  V=10.89(vanAltena95,Mermilliod91,Hauck90), V=10.91(HIP,TYC,SPM4),
+  V=10.929(Rufner88), B-V=1.391+-0.019(HIP),
+  B-V=1.41(vanAltena95,Mermilliod91),
+  U-B=1.15(vanAltena95,Mermilliod91), V-I=1.69+-0.02(HIP),
+  J=8.246+-0.021(2MASS), H=7.613+-0.029(2MASS),
+  Ks=7.433+-0.017(2MASS).  V-Ks = 10.91 - 7.433 = 3.477.  GaiaEDR3:
+  plx=36.1521+-0.0192mas, G=10.271364+-0.002773, E(BP/RP)=1.300,
+  Bp-Rp=1.775863, Bp-G=0.865976, G-Rp=0.909886.  Mv=8.70,
+  M_Ks=5.224+-0.017, M_G=8.06. G-V = 10.271364 - 10.91 = -0.639.
+
+HIP 112843 = Smethells 118 = NLTT 55019 = L 358-32 = CD-47 14363 = 2MASS J22510202-4713363 
+  K7: SpencerJones39
+ *K8Vk: Gray06
+  M0V: Smethells74
+  M1: Gaidos14
+
+  V=11.61(HIP,TYC,SPM4,Mermilliod91), B-V=1.390+-0.015(HIP),
+  B-V=1.390(Mermilliod91), V-Ic=1.36+-0.02(HHIP),
+  J=8.847+-0.021(2MASS), H=8.199+-0.044(2MASS),
+  Ks=8.016+-0.029(2MASS).  V-Ks = 11.61 - 8.061 = 3.549. GaiaEDR3:
+  plx=23.3613+-0.0185mas, G=10.945192+-0.002783, E(Bp/Rp)=1.313,
+  Bp-Rp=1.827334, Bp-G=0.893380, G-Rp=0.933954.  G-V = 10.945192 -
+  11.61 = -0.6648. Mv=8.45, M_Ks=4.86, M_G=7.79.
+
+# Other Stars
+
+GJ 240 = WDS J06373-5002A
+  K0: SpencerJones39
+  K7.0: Reid95
+ *K8V(k): Gray06
+  M1: Gaidos14
+
+  WDS binary 2.3" sep mag1=9.90, mag2=12.43, and component C 27" away
+  (visual component, not sharing motion of A and B). HIP CCDM
+  delta(Hp)=2.664.  Hp(A)=9.767.  V=9.597+-0.012(Koen02), V=9.61(HIP),
+  V=9.614(Hauck90), V=9.62(Gliese91), B-V=1.445+-0.003(Koen02),
+  B-V=1.46(Gliese91), U-B=1.209+-0.014(Koen02),
+  V-R=0.925+-0.004(Koen02), V-I=1.898+-0.007(Koen02).  Assuming
+  del(Hp) ~ del(V), then V(A)=9.69, V(B)=12.35. J=6.610+-0.023(2MASS),
+  H=5.977+-0.027(2MASS), Ks=5.769+-0.020(2MASS). V-Ks(unresolved) =
+  9.61 - 5.769 = 3.841. 
+ 
+HIP 23309 = RBS 608 = CD-57 1054 = TYC 8513-572-1
+  K7Ve: Upgren72(K7V),Gray01
+ *K8Vkee: Gray06,Pecaut13(K8Ve)
+  M0Ve: Torres06
+  M1: Gaidos14
+
+  Very active Pre-MS member of Beta Pic Moving Group (~23
+  Myr-old). Pre-MS and low surface gravity may lend to hotter type in
+  blue (e.g. K7 from Upgren) and redder type in near-IR (e.g. M1 from
+  Gaidos14), and note redder V-Ks below (3.832). So the star's colors
+  and absolute magnitudes are not representative of main sequence
+  stars. VSX reports variable parameters from Kiraga02: period
+  P=8.729day, Vamplitude 0.106 mag.  V=9.977+-0.042(Kiraga02,ASAS),
+  V=10.02(HIP), V=10.076(Pickles10,SEDfit), V=10.08(Tycho),
+  V=10.135+-0.054(APASS/DR9),B-V=1.296+-0.092(HIP),
+  V-Ic=1.26+-0.09(HIP), Ks=6.244+-0.024(2MASS), V-Ks = 10.076 - 6.244
+  = 3.832.
 
 GJ 380 = HD 88230 = HIP 49908 = LHS 280 
-  K7V: Popper56,Wilson62,Boeshaar76,Sato90,Kirkpatrick91(pri),Henry02
-  K8V: Gray03
   K6Ve Fe-1: Keenan89
+ *K7V: Popper56,Wilson62,Boeshaar76,Sato90,Kirkpatrick91(pri),Henry02
+  K8V: Gray03
   M0V: Adams26,Joy74
   K9Ve: Jaschek78(Cowley67)
   K5V: Cannon(K5),Hawley97
 
   Too many investigators have classified this as K7V, with only Gray03
-  calling it K8V.
+  calling it K8V. I got with the Boeshaar/Kirkpatrick/Henry
+  classification.
 
+HD 16157 = GJ 103 = CC Eri = HIP 11964 = UGP 39
+  K6V: Joy49,Upgren72(K6Ve)
+  K7Ve: Evans59,Bidelman85(K7)
+  K7V+M4V: Slee04
+ *K8Vkee: Gray06
+  M0Ve: Houk78
+  M1e: Gaidos14
+
+  One of only two stars classified K6V by Upgren72.  Evans59 wrote
+  entire paper just on this binary
+  (https://ui.adsabs.harvard.edu/?#abs/1959MNRAS.119..526E).  Period =
+  1.56d. Multiple papers on X-ray flares.  Probably not a good
+  exemplar given the variability and lack of agreement on
+  classification.
+
+Wolf 397 = LHS 305
+  K5: Bidelman85
+  sdK5.3: Houdebine19
+  K8V: Luyten23(K8),Vyssotksy46
+  M0V: Joy74,Luyten79(M0)
+
+  Note that a lot of Vyssotsky46's K8V stars end up being ~K5 or even hotter.
+
+CD-31 16041 = 2MASS J18504448-3147472
+  K8Ve: Torres06(Li rich)
+ *K8IVe: Pecaut13
+  M0: Gaidos13
+
+  Pre-MS star, might be TW Hya Association (TWA) member, but unnumbered as such. 
+  

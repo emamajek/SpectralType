@@ -1,6 +1,20 @@
 L6V
 
-Hawley02 standard: 2MASS 0103+1935 - L6V
+Kirkpatrick99 standard:      2MASSs J0850359+105716 - L6V
+Hawley02 standard:           2MASS 0103+1935 - L6V
+Kirkpatrick05 standard:      2MASSs J0850359+105716 - L6V ("optical anchor")
+Reid08 standard:             2MASS J08503593+1057156 - L6 (pri. stan.) 
+Kirkpatrick09(GrayCorbally): 2MASS J08503593+1057156 - L6 (primary optical standard)
+Kirkpatrick10 standard:      2MASS J10101480−0406499 - L6V (primary near-IR standard)
+
+Teff(L6V) = 1311 K ; 2MASS J02572581−3105523 (Kirkpatrick20)
+Teff(L6V) = 1483 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L6V) = 1513 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L6V) = 1528 K ; Dupuy17(SaumonMarley08 model scale)
+Teff(L6V) = 1551 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-4.384
+Teff(L6V) = 1616 K ; Dupuy17(Lyon model scale)
+Teff(L6V) = 1750 K ; Cifuentes20 <Teff> for CARMENES L6V(N=1)
+=> adopt Teff(L6V) = 1550 K (logT = 3.190) [updated 4/17/2020]
 
 (R-I)(L6V) = 2.117 ; star #32 (J0850+1057) in Liebert06
 (R-I)(L6V) = 2.579 ; star #177 (J2151-2441) in Liebert06
@@ -9,16 +23,94 @@ Hawley02 standard: 2MASS 0103+1935 - L6V
 <J-Ks>(L6V) = 1.75  ; Faherty09
 (J-Ks)(L6V) = 1.54 (+-0.23 rms; N=8) ; Schmidt14
 
-(z-J)(L6V)  = 2.76 (+-0.07 rms; N=6) ; Schmidt14
 (J-H)(L6V)  = 0.96 (+-0.13 rms; N=8) ; Schmidt14
+(J-H)(L6V)  = 1.060 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
+=> adopt (J-H)(L5V) = 1.06 [updated 8/6/2020]
+
+(z-J)(L6V)  = 2.76 (+-0.07 rms; N=6) ; Schmidt14
+
 (H-Ks)(L6V) = 0.59 (+-0.15 rms; N=8) ; Schmidt14
+(H-Ks)(L6V) = 0.654 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+=> adopt (H-Ks)(L6V) = 0.654 [updated 8/6/2020]
+
 (Ks-W1)(L6V)= 0.75 (+-0.14 rms; N=7) ; Schmidt14
+(Ks-W1)(L6V)= 0.76  ; Dupuy12 median N=4, d<50pc
+(Ks-W1)(L6V)= 0.794 ; Dupuy12 trend
+=> adopt (Ks-W1)(L6V) = 0.76 [updated 12/28/2019]
+
 (W1-W2)(L6V)= 0.34 (+-0.05 rms; N=7) ; Schmidt14
 
-
-BC_K(L6V)   = 3.315 mag ; Golimowksi04
+BC_K(L6V)   =  3.315 mag ; Golimowksi04
+BC_Ks(L6V)  = 3.315 mag ; Looper08 
+BC_Ks(L6V)  = 3.298 mag ; Filipazzo15 (field)
 BC_Ks(L6V)  = 3.26  mag ; Schmidt14 (rms = 0.07 mag)
+=> adopt BC_Ks(L6V) = 3.30 mag [updated 11/1/2019]
+
+M_G(L6V)    = 18.938 ; Reyle18 polynomial
+M_G(L6V)    = 18.92  ; Kiman19 (rms=0.17; N=2)
+
+M_J(L6V)    = 13.588 ; Reyle18 polynomial
+M_J(L6V)    = 13.891 ; EEM fit to L/T dwarfs d<25pc
+=> adopt M_J(L6V) = 13.89 [updated 12/30/2020]
+
+M_H(L6V)    = 12.709 ; Reyle18 polynomial
+
+(G-Rp)(L6V) =  1.822 ; Reyle18 polynomial
+(G-Rp)(L6V) =  1.77  ; Kiman19 (N=1) 
+
+(G-J)(L6V)  =  5.331 ; Reyle18 polynomial
+
+(J-Ks)(L6V) =  1.578 ; Reyle18 polynomial
+
+M_Ks(L6V) =  11.7488 ; 2MASS J09153413+0422045
+M_Ks(L5V) =  11.9    ; L5V adopted
+M_Ks(L6V) =  12.133 ; Reyle18 polynomial
+M_Ks(L6V) = 12.19   ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
+M_Ks(L6V) = 12.22   ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L7V) =  12.5    ; L7V adopted
+M_Ks(L6V) =  12.5025 ; 2MASS J10101480-0406499       
+M_Ks(L6V) =  12.5049 ; 2MASSI J0103320+193536
+M_Ks(L8V) =  12.9    ; L8V adopted
+M_Ks(L6V) =  12.9612 ; 2MASSW J1036530-344138        
+M_Ks(L6V) =  13.2131 ; 2MASS J13314894-0116500
+=> adopt M_Ks(L6V) = 12.2 [adopted 12/30/2020]
+
+logL(L6V) = -4.384 ; M_Ks=12.4, BC_Ks=3.30, Mbol=15.700
+=> adopt logL(L6V) = -4.384 [updated 4/17/2020]
+=> adopt Mbol(L6V) = 15.700 [updated 4/17/2020]
+
+Rad(L6V) = 0.08912 Rsun ; logL=-4.384, Teff=1550K
+=> adopt Rad(L6V) = 0.0891 Rsun [updated 4/17/2020]
+
+
+# Primary Standard
+
+2MASS J08503593+1057156
+ *L6: Kirkpatrick05(opt.anchor),Kirkpatrick09(pri.opt.stan.)
 
 # Examples
 
+2MASSI J0103320+193536
+  Optical:
+  L6: Kirkpatrick00,Cruz03,Allen06,Faherty09,Burgasser10(Kirkpatrick00),Kirkpatrick10,Bardalez14,Schneider14,Schmidt15
+  L6.0{beta}: Faherty12,Gagne14,Faherty16,Best18
+  Near-IR:
+  L5.4: Bardalez14
+  L6.0: Burgasser10(Cruz04)
+  L6: Gagne14
+  L6{beta}: Faherty16
+  L6{beta} or L6:INT-G: Best18
+  L6.2: Gagne15
+  L6pec: Gagne15
+  L7: Kirkpatrick10,Martin17,Schneider14
 
+  Unclear if optical or near-IR: L6{beta}: Gagne15,Fillipazzo15
+
+  Gagne15 calls it an Argus member. 
+
+2MASS J02572581−3105523
+ *L6: Kirkpatrick20(near-IR)
+  L8: Kirkpatrick20(opt.)
+
+  Teffs: 1311+-88K(Kirkpatrick20), plx=102.3651+-0.6073mas. 
+  

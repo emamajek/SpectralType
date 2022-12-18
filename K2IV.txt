@@ -1,17 +1,24 @@
 K2IV
 
-JM53 and Houk88 does not list any subgiant (class IV) standards later
-than K1.
+JM53, Houk88, Keenan89 do not list any subgiant (class IV) standards
+later than K1. Actual K2IV stars are fairly rare, roughly defining the
+red edge of the subgiant branch, and the literature seems to have many
+main sequence stars misclassified as subgiants (suggesting that the
+differences in the spectra may be fairly subtle). Landi Dessy & Keenan
+(1966) say "we are in general agreement with Van de Kamp and Mendoza,
+V. and have found no subgiants of type later than K2.". They list eps
+Ret (HR 1355 = HD 27442) as the only K2IVa in their survey.
 
-Keenan89 do not list a K2IV standard.
-
-Landi Dessy & Keenan (1966) say "we are in general agreement with Van
-de Kamp and Mendoza, V. and have found no subgiants of type later than
-K2.". They list eps Ret (HR 1355 = HD 27442) as the only K2IVa in
-their survey.
+MK43 standard: alf Ser - K2III-IV
+     	       bet Oph - K2III-IV 
 
 Gray06 lists 7 K2IV stars (and 5 K2IV-V stars), and Gray03 lists 1
 K2IV star (and 2 K2IV-V stars)
+
+
+eps Ret (K2IVa), mu2 Pav (K2IVCNII), HR 3913 (HD 85655, K2IVCNIV-Vp)
+and HR 4580 (HD 104055; K2IV) are the brightest K2IVs in the Bright
+Star Catalog 5th ed. (Hoffliet91). 
 
 From Hipparcos (1997) stars classified as "K2IV" within 75 pc:
 <B-V>(K2IV) = 1.021 (+-0.059 sem, +-0.122 stdev; N=6)
@@ -27,15 +34,73 @@ V-I(K2IV) = 0.952 (+- 0.034 sem, +- 0.065 stdev; N=7)
 
 The brightest K2IV in the Hipparcos catalog within 75 pc is HD 27442 (eps Ret).
 
-# Stars
+(B-V)(K2IV) = 0.956 ; exemplar HD 194433A = HR 7808A (1 of 2 SIMBAD K2IV d<75pc)
+(B-V)(K2IV) = 1.020 ; exemplar HD 10486 = HR 495 (1 of 2 SIMBAD K2IV d<75pc)
+(B-V)(K2IV) = 1.04  ; poly fit to FGK subgiant standards & exemplars
+(B-V)(K2IV) = 1.044 ; exemplar HD 103403 = HIP 58024 
+(B-V)(K2IV) = 1.078 ; exemplar eps Ret = HD 27442 = HIP 19921
+=> adopt (B-V)(K2IV) = 1.04 [updated 2/3/2022]
 
-eps Ret = HD 27442 = HR 1355
-  K2IV: LandiDessyKeenan66(K2IVa),Houk75(Garrison & Hagen type) 
+Mv(K2IV) = 1.80  ; fit to SIMBAD d<75pc IIIs for (B-V)=1.04 
+Mv(K2IV) =  2.60 ; exemplar HD 10486 = HR 495 (1 of 2 SIMBAD K2IV d<75pc)
+Mv(K2IV) =  2.82 ; quadratic trend G0IV-K2IV standards+exemplars (for K2IV)
+Mv(K2IV) =  3.14 ; exemplar eps Ret = HD 27442 = HIP 19921
+Mv(K2IV) =  3.39 ; exemplar HD 194433A = HR 7808A (1 of 2 SIMBAD K2IV d<75pc)
+Mv(K2IV) =  3.75 ; exemplar HD 103403 = HIP 58024
+=> adopt Mv(K2IV) = 1.80 [updated 1/29/2022]
+
+# Standards
+
+alf Ser
+  K2III-IV: MK43
+
+bet Oph
+  K2III-IV: MK43
+
+# Exemplars
+
+eps Ret = HD 27442 = HR 1355 = HIP 19921
+  K2IVa: BSC(Hoffleit91),LandiDessyKeenan66
+ *K2IV: Houk75(Garrison+Hagen type) 
   K2III: Gray06
   K1/2III: Houk75
 
+  Good agreement on subtype (K2) but some dispersion on luminosity
+  class, a although its Mv (3.1) is in family with other K2IVs and
+  clearly not giant (Mv ~ 1.2; K2III standards have Mv ~ 0.0, 0.8,
+  1.0, 1.0). DA white dwarf companion V=13 at sep=11.4".  V=4.44(HIP),
+  B-V=1.078+-0.005(HIP), B-V=1.08(vanAltena95), V-I=1.05+-0.02(HIP),
+  U-B=1.07(vanAltena95).  plx=54.83+-0.15mas(HIP2) => Mv=3.135.
 
+HD 194433A = HR 7808A = HIP 100852 A = GJ 9695A 
+  K1IV: Adams35,Houk82
+  K2IV/V: Evans57
+ *K2IV: Corbally80,Corbally84
 
+  1.4" binary (** R 321) with HR 7808B K1V (Corbally80,Corbally84).
+  Izmailov19 reports orbit: P=177.3829yr, a=1.04745". 
+  Hipparcos splits binary into Hp(A)=6.637, Hp(B)=8.153.
+  Tycho-2: Vt(A)=6.584, Vt(B)=8.088, del(Vt)=1.504.
+  ASCC: V(A)=6.357+-0.008, V(B)=7.998+-0.013, B-V(A)=0.956. 
+  plx(A)=25.4704+-0.0487mas(GaiaEDR3) => Mv(A)=3.387+-0.009.
 
+HD 10486 = HR 495 = HIP 8044
+  K0: HD
+  K1III-IV: Janes71
+  K1IV: Fehrenbach61
+ *K2IV: Adams35,Deeming60,Spinrad69
 
+  Star appears to be a very metal-rich subgiant. 
+  V=6.33(HIP), B-V=1.020+-0.008(HIP), V-I=0.99+-0.09(HIP).
+  plx=17.9628+-0.0961mas(GaiaDR2) => Mv=2.60.  PASTEL - two pairs of
+  values given, from Luck95 & Luck17 - just adopt latter:
+  Teff=4661K(Luck17), logg=3.08(Luck17), [Fe/H]=+0.36(Luck17).
+
+HD 103403 = HIP 58024
+ *K2IV: Houk75
+
+  V=8.08(HIP), B-V=1.044+-0.002(HIP), V-I=1.10+-0.00(HIP).
+  plx=13.6213+-0.0332mas(GaiaDR2) => Mv=3.75. 
+
+# Other Stars
 
