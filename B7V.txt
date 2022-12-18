@@ -23,6 +23,7 @@ Lesh68 standard:      49 Eri  - B7V
 Cowley72 standard:    alf Leo - B7V
 MK78 standard:        HD 21071 (= HR 1029 = HL 675) - B7V
 Keenan85 standard:    HD 21071 (= "BS 1029" = HR 1029) - B7V
+WiegertGarrison98 st: alf Leo - B7V
 GrayNstars standards: HD 21071 (= HR 1029) - B7V
 	   	      alf Leo - B7V
 
@@ -37,36 +38,64 @@ B-V(B7V)  = -0.127 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
 B-V(B7V)  =  -0.12  ; Morgan53, Johnson63, Johnson66
 B-V(B7V)  = -0.112 ; deprecated standard alf Leo
 B-V(B7V)  =  -0.11  ; KenyonHartmann95 
-=> adopt (B-V)(B7V)  = -0.128 
+=> adopt (B-V)(B7V)  = -0.128 [updated 4/8/2022]
 
-U-B(B7V)  = -0.365 ; deprecated standard alf Leo
-U-B(B7V)  = -0.41  ; Bessell98
-U-B(B7V)  = -0.42  ; Johnson63, Johnson66
-U-B(B7V)  = -0.43  ; Fitzgerald70, Schmidt-Kaler82 
+U-B(B8V)  =  -0.364 ; adopted for B8V 
+U-B(B7V)  =  -0.365 ; deprecated standard alf Leo
+U-B(B7V)  =  -0.41  ; Bessell98
+U-B(B7V)  =  -0.42  ; Johnson63, Johnson66
+U-B(B7V)  =  -0.43  ; Fitzgerald70, Schmidt-Kaler82 
 U-B(B7V)  = -0.455 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
 U-B(B7V)  = -0.459 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
+U-B(B6V)  =  -0.504 ; adopted for B6V 
 U-B(B7V)  = -0.530 ; pri. stan. HD 21071 (EEM dereddened via Q-method)
 => adopt (U-B)(B7V)  = -0.459 ***
 => adopt     Q(B7V)  = -0.367 (=(U-B)-0.72*(B-V) = -0.459 - 0.72*-0.128)
 => adopt (V-I)(B7V)  = -0.132
 => adopt (V-R)(B7V)  = -0.058
 => adopt (R-I)(B7V)  = -0.075
-=> adopt (V-J)(B7V)  = -0.244
-=> adopt (V-H)(B7V)  = -0.321
-=> adopt (V-Ks)(B7V) = -0.325
-=> adopt (H-Ks)(B7V) = -0.004
-=> adopt (J-H)(B7V)  = -0.077
-=> adopt (K-W1)(B7V) =  0.035
+
+(V-Ks)(B7V) =  -0.123 ; HIP_24327_ B7V d= 142.653pc, (B-V)=0.004 (dereddened from Kervella19)
+(V-Ks)(B7V) =  -0.190 ; HIP_71353_ B7V d= 107.945pc, (B-V)=0.010 (dereddened from Kervella19)
+(V-Ks)(B7V) =  -0.239 ; HIP_17734_ B7V d= 157.878pc, (B-V)=0.002 (dereddened from Kervella19)
+(V-Ks)(B7V) =  -0.269 ; HIP_109789_ B7V d= 162.127pc, (B-V)=0.005 (dereddened from Kervella19)
+(V-Ks)(B7V) =  -0.274 ; HIP_46333_ B7V d= 175.162pc, (B-V)=0.018 (dereddened from Kervella19)
+(V-Ks)(B7V) =  -0.277 ; HIP_73341_ B7V d= 157.555pc, (B-V)=0.020 (dereddened from Kervella19)
+(V-Ks)(B7V) = -0.284 ; sec. stan. 49 Eri = HD 29335 = HIP 21515 
+(V-Ks)(B7V) =  -0.284 ; HIP_36917_ B7V d= 73.3245pc, (B-V)=0.001 (dereddened from Kervella19)
+(V-Ks)(B7V) =  -0.308 ; HIP_60379_ B7Vn d= 103.864pc, (B-V)=0.012 (dereddened from Kervella19)
+(V-Ks)(B7V) = -0.325 ; intrinsic color sequence for (U-B)o=-0.459
+(V-Ks)(B7V) =  -0.327 ; HIP_13327_ B7V d= 140.964pc, (B-V)=0.021 (dereddened from Kervella19)
+(V-Ks)(B7V) =  -0.375 ; HIP_76669_ B7V d= 154.847pc, (B-V)=0.019 (dereddened from Kervella19)
+(V-Ks)(B7V) =  -0.423 ; HIP_19968_ B7V d= 149.656pc, (B-V)=0.016 (dereddened from Kervella19)
+(V-Ks)(B7V) = -0.424 ; pri. stan. HD 21071 = HR 1029 (see below, a bit hotter than most B7Vs)
+(V-Ks)(B7V) =  -0.647 ; HIP_74950_ B7V d= 149.276pc, (B-V)=0.012 (dereddened from Kervella19)
+=> adopt (V-Ks)(B7V) = -0.325 [updated 4/8/2022]
+=> adopt (V-J)(B7V)  = -0.244 [updated 4/8/2022]
+=> adopt (V-H)(B7V)  = -0.321 [updated 4/8/2022]
+=> adopt (H-Ks)(B7V) = -0.004 [updated 4/8/2022]
+=> adopt (J-H)(B7V)  = -0.077 [updated 4/8/2022]
+
+(Ks-W1)(B7V) = 0.031 ; EEM trend for d<30pc for B-V=-0.128
+=> adopt (Ks-W1)(B7V) = 0.031 [updated 12/29/2019]
+
+(Bp-Rp)(B7V) = -0.187 ; Evans18 trend for V-I=-0.132
 
 V-I(B7V)  = -0.120 ; Bessell78
 
 R-I(B7V)  = -0.070 ; Bessell79
+
+(g-r)(B7V) = -0.36 ; Covey07 interp B5/7V -0.39, B8V -0.33
+
+(G-V)(B7V) =  0.012 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.325
+=> adopt (G-V)(B7V) = 0.012 [updated 4/8/2022]
 
 Teff(B7V) =   11940 K ; Bertone04[ATLAS]
 Teff(B7V) =  12357 K ; deprecated standard alf Leo
 Teff(B7V) =   12600 K ; GrayCorbally94
 Teff(B7V) =   12735 K ; Bessell98
 Teff(B7V) =   12764 K ; Flower96 Teff for B-V=-0.13
+Teff(B7V) =   12912 K ; Zorec12 median
 Teff(B7V) =   12915 K ; Theodossiou90
 Teff(B7V) =   13000 K ; Crowther97/Fig.3 
 Teff(B7V) =   13000 K ; Bessell79
@@ -74,13 +103,14 @@ Teff(B7V) =   13000 K ; GrayCorbally09
 Teff(B7V) =   13000 K ; Bohm-Vitense81
 Teff(B7V) =   13000 K ; Schmidt-Kaler82
 Teff(B7V) =   13132 K ; B-V=-0.128 => Teff(Napiwotski93)
-Teff(B7V) =   13224 K ; U-B=-0.459 => Teff(Bessell98,logg=4.2)
-Teff(B7V) =   13831 K ; B-V=-0.128 => Teff(Bessell98,logg=4.2)
+Teff(B7V) = 13224 K ; U-B=-0.459 => Teff(Bessell98,logg=4.2)
+Teff(B7V) = 13490 K ; Simon-Diaz17 for B7V (N=2)
+Teff(B7V) = 13831 K ; B-V=-0.128 => Teff(Bessell98,logg=4.2)
 Teff(B7V) =  13850 K ; Chavez95 (+-150K)
 Teff(B7V) = 13931 K ; sec. stan. 49 Eri (median Teff)
 Teff(B7V) = 14024 K ; EEM median of 82 published Teffs for B7V stars
 Teff(B7V) = 14911 K ; prim. stan. HD 21071 (median Teff)
-=> adopt Teff(B7V) = 14000K (logT = 4.146)
+=> adopt Teff(B7V) = 14000K (logT = 4.146) [last updated 9/16/2019]
 
 [EEM 12/1/2012: there seems little reason to quote a median Teff to
 better precision as there is disagreement at the +-1000K level among
@@ -88,37 +118,56 @@ the only three B7V standards that I've found in the literature. 14000K
 is close to the median Teff for 82 stars with literature Teffs and B7V
 classifications, so I will go with that value.]
 
-Mv(B7V) = 0.19 mag ; Upper Sco MS Mv for B-V=-0.128
-Mv(B7V) =  -0.11 mag ; ONC MS Mv for B-V=-0.128
-Mv(B7V) =   -0.39 mag ; pri. stan. HD 21071 (see below) 
-Mv(B7V) =    -0.4  mag ; GrayCorbally09
-Mv(B7V) =     -0.4  mag ; HD 87901 (Jaschek98)
-Mv(B7V) =    -0.57 mag ; weak stan. alf Leo (see below)
-Mv(B7V) =   -0.6  mag ; Schmidt-Kaler82
+Mv(B7V) =   2.13 mag ; HIP_54712 B7Vn plx=4.177 mas, Vmag=9.544,E(B-V)=0.168
+Mv(B7V) =   0.38 mag ; HIP_11295 B7V plx=4.132 mas, Vmag=7.651,E(B-V)=0.114
+Mv(B7V) =   0.34 mag ; HIP_76048 B7V plx=6.147 mas, Vmag=6.489,E(B-V)=0.029
+Mv(B7V) =   0.23 mag ; HIP_46333 B7V plx=5.709 mas, Vmag=6.506,E(B-V)=0.018
+Mv(B7V) =  0.19 mag ; Upper Sco MS Mv for B-V=-0.128
+Mv(B7V) =  -0.08 mag ; HIP_16252 B7V plx=6.120 mas, Vmag=6.220,E(B-V)=0.075
+Mv(B7V) = -0.11 mag ; ONC MS Mv for B-V=-0.128
+Mv(B7V) =  -0.11 mag ; HIP_80142 B7V plx=5.703 mas, Vmag=6.494,E(B-V)=0.123
+Mv(B7V) = -0.30 mag ; median Mv for B7V calc using Kervella19 HIP & Gaia DR2
+Mv(B7V) =  -0.32 mag ; HIP_48720 B7V plx=4.021 mas, Vmag=6.786,E(B-V)=0.041
+Mv(B7V) =  -0.33 mag ; HIP_7625 B7V plx=4.334 mas, Vmag=6.706,E(B-V)=0.071
+Mv(B7V) = -0.39 mag ; pri. stan. HD 21071 (see below) 
+Mv(B7V) =  -0.4 mag ; GrayCorbally09
+Mv(B7V) = -0.4  mag ; HD 87901 (Jaschek98) 
+Mv(B7V) = -0.57 mag ; weak stan. alf Leo (see below)
+Mv(B7V) =  -0.6 mag ; Schmidt-Kaler82
+Mv(B7V) =  -0.64 mag ; HIP_23228 B7V plx=5.524 mas, Vmag=6.965,E(B-V)=0.424
 Mv(B7V) =  -0.67 mag ; Wegner07
+Mv(B7V) =  -1.07 mag ; HIP_81710 B7V plx=4.375 mas, Vmag=5.877,E(B-V)=0.049
 Mv(B7V) = -1.78 mag ; sec. stan. 49 Eri (see below)
-=> adopt Mv(B7V) = -0.4 mag
+=> adopt Mv(B7V)   = -0.40  mag [updated 9/26/2019]
+=> adopt M_Ks(B7V) = -0.075 mag = Mv - (V-Ks) = -0.40 - -0.325 [updated 12/30/2020]
 
-BCv(B7V) = -1.180 mag ; Flower96(Teff=14000K)
-BCv(B7V) = -1.140 mag ; Code76(Teff=14000K)
-BCv(B7V) = -1.070 mag ; Bessell98(ATLAS9,logg=4.0,Teff=14000K)
-BCv(B7V) = -1.041 mag ; Balona94(Teff=14000K)
-BCv(B7V) = -1.021 mag ; Bertone04(ATLAS,T=14000K)
-BCv(B7V) = -0.89  mag ; Schmidt-Kaler82(BCv=-1.02 + 0.13) 
-BCv(B7V) = -0.64  mag ; Bertone04[ATLAS,T=11940K,from their study]
-=> adopt BCv(B7V) = -1.07 mag
+BCv(B7V) = -1.158 mag ; Flower96(Teff=14000K, set so BCv(5772K)=-0.085)
+BCv(B7V) = -1.150 mag ; Code76(Teff=14000K, set so BCv(5772K)=-0.085)
+BCv(B7V) = -1.048 mag ; Bessell98(ATLAS9,logg=4.0,Teff=14000K, set so BCv(5772K)=-0.085
+BCv(B7V) = -1.019 mag ; Balona94(Teff=14000K, set so BCv(5772K)=-0.085)
+BCv(B7V) = -0.999 mag ; Bertone04(ATLAS,T=14000K, set so BCv(5772K)=-0.085)
+BCv(B7V) =  -0.89  mag ; Schmidt-Kaler82(BCv=-1.02 + 0.13) 
+BCv(B7V) =  -0.64  mag ; Bertone04[ATLAS,T=11940K,from their study]
+=> adopt BCv(B7V) = -1.05 [updated 9/16/2019, set so BCv(5772K)=-0.085]
 
-logL(B7V) = 2.49 dex ; Mv=-0.4, BCv=-1.07 => Mbol = -1.47
-=> adopt logL(B7V) = 2.49 dex
-=> adopt Mbol(B7V) = -1.47 mag
+logL(B7V) = 2.432 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=14000K)
+logL(B7V) = 2.476 dex ; Mv=-0.4, BCv=-1.05 => Mbol = -1.450
+logL(B7V) = 2.53  dex ; Zorec12 median 
+=> adopt logL(B7V) =  2.476 dex [updated 9/26/2019]
+=> adopt Mbol(B7V) = -1.450 mag [updated 9/26/2019]
 
 Mass(B7V) = 4.106+-0.044 Msun ; Eclipsing binary GG Lup A (Torres10)
-Mass(B7V) = 3.92 Msun ; Ekers15 ML calibration for logL=
-Mass(B7V) = 3.89 Msun ; EEM Teff vs. Mass fit for binaries (Teff=13900K)
-Mass(B7V) = 3.88 Msun ; EEM logL vs. Mass fit for binaries (logL=2.46)
+Mass(B7V) = 3.99 Msun ; Ekers18 ML calibration for logL=2.476
+Mass(B7V) = 3.93 Msun ; EEM Teff vs. Mass fit for binaries (Teff=14000K)
+Mass(B7V) = 3.92 Msun ; Zorec12 median
+Mass(B7V) = 3.92 Msun ; EEM logL vs. Mass fit for binaries (logL=2.476)
 Mass(B7V) = 3.84 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-0.4)
-Mass(B7V) = 3.38 Msun ; Harmanec88
-=> adopt Mass(B7V) = 3.9 Msun
+Mass(B7V) =  3.38 Msun ; Harmanec88
+Mass(B7V) = 3.23 Msun ; David15 B7 MS (rms=0.60 Msun; N=13)
+=> adopt Mass(B7V) = 3.92 Msun [updated 1/2/2020]
+
+Rad(B7V) = 2.940 Rsun ; Teff=14000K, logL=2.476
+=> adopt Rad(B7V) = 2.940 Rsun [updated 9/26/2019]
 
 # No Standard
 
@@ -128,29 +177,31 @@ cover B8-B9, so no B7 standard is listed.
 
 # Primary Standards
 
-HD 21071 = HR 1029 = Cl Melotte 20 675 (alpha Per cluster)
+HD 21071 = HR 1029 = Cl Melotte 20 675 = HIP 15988 (alpha Per cluster)
   B7V: Heckman58(B7),Morgan71,MK78,Jaschek78,Abt78(B7Vsn),Keenan85,Garcia89,GarrisonGray94
   B5: Petrie69,Cannon
   B5IV: Lesh68
   B6V: Roman50,Jaschek64
 
-  Appears to be a decent standard; consistently B7V after Morgan71
-  M91: V=6.070+-0.014, B-V=-0.076+-0.005, U-B=-0.483+-0.012 => updated
-  Q-method (10/17/2011) => (B-V)o=-0.144, (U-B)o=-0.530, E(B-V)=
-  0.068, Av=0.221.  Dereddening the Hauck97 ubvy data using Castelli91
+  Appears to be a decent standard; consistently B7V after Morgan71.
+  V=6.060(Hauck97), V=6.09(HIP), V=6.08(Tycho), M91: V=6.070+-0.014,
+  B-V=-0.076+-0.005, U-B=-0.483+-0.012 => updated Q-method
+  (10/17/2011) => (B-V)o=-0.144, (U-B)o=-0.530, E(B-V)= 0.068,
+  Av=0.221.  Dereddening the Hauck97 ubvy data using Castelli91
   dereddening, I find: E(b-y) = 0.083. alpha Per cluster d=177 pc =>
-  plx = 5.65 assumed => Mv = -0.39.  Teffs: 14211K(U-Bo=>Bessell98),
-  14759K(Hauck97=>Napiwotski93 cal.),
+  plx = 5.65 assumed => Mv = -0.39.  2MASS: J=6.198+-0.021(2MASS),
+  H=6.274+-0.016(2MASS), Ks=6.309+-0.016(2MASS). (V-Ks)o = (6.07 -
+  3.1*0.068) - (6.309 - 0.382*0.068) = -0.424.  Teffs:
+  14211K(U-Bo=>Bessell98), 14759K(Hauck97=>Napiwotski93 cal.),
   15062K(Hauck97=>BalonaShobbrook84 cal.), 15118K(Hauck97=>Balona94
-  cal.) => median Teff = 14911K.
-   
-  It appears that HD 21071 is slightly hotter than most B7V stars. 
-  It could be due to the fact that Houk started the MSS survey
-  before this star was considered a MK standard.  
+  cal.) => median Teff = 14911K.  It appears that HD 21071 is slightly
+  hotter than most B7V stars.  It could be due to the fact that Houk
+  started the MSS survey before this star was considered a MK
+  standard.
 
 # Secondary Standard
 
-49 Eri = HD 29335 = HR 1469
+49 Eri = HD 29335 = HR 1469 = HIP 21515
   B7V: Slettebak55,Jaschek64,Kennedy83(Lesh68(stan))
   B5: Cannon
   B8IV: Houk99 
@@ -159,7 +210,9 @@ HD 21071 = HR 1029 = Cl Melotte 20 675 (alpha Per cluster)
   V=5.307, B-V=-0.128, U-B=-0.455 => updated Q-method (10/17/2011) =>
   negligible reddening E(B-V) = -0.003, i.e. can considered UBV colors
   unreddened.  Lesh68 B7V standard. Dereddening Hauck97 ubvy
-  photometry using Castelli91, I find: E(b-y) = 0.055. vanLeeuwen07
+  photometry using Castelli91, I find: E(b-y) = 0.055.  2MASS:
+  J=5.518+-0.023(2MASS), H=5.573+-0.027(2MASS),
+  Ks=5.591+-0.017(2MASS).  V-Ks = 5.307 - 5.591 = -0.284. vanLeeuwen07
   plx = 3.83+-0.35 mas => D = 261+-24 pc => Mv = -1.78 +- 0.20
   mag. Pretty far distance to be negligibly reddened, but this appears
   to be directed in the general direction of the bet CMa "tunnel" of

@@ -37,6 +37,8 @@ Garrison79 standards:       22 Sco - B2V
 			    bet Sco B - B2IV-V
 Keenan85 standard:          bet Sco B - B2V
 Walborn90 standard:         HD 42401 - B2V
+WiegertGarrison98 stan:     bet Sco C - B2V
+		  	    22 Sco - B2V 
 GrayAtlas standard:         22 Sco - B2V
 GrayNStars standards:       22 Sco - B2V
 
@@ -53,6 +55,7 @@ newest calibration (10/9/2011).
 B-V(B2V)   = -0.197 ; EEM dereddened sec. stan. HD 42401 (via Q-method)
 B-V(B2V)   = -0.210 ; EEM dereddened N=56 HIP B2V (E(B-V)<0.1, Q-method)
 B-V(B2V)   = -0.213 ; EEM dereddened sec. stan. 13 Sco (via Q-method)
+B-V(B2V)   = -0.215 ; U-B=-0.79, trend Q-method
 B-V(B2V)   = -0.216 ; EEM dereddened weak stan. 22 Sco (via Q-method)
 B-V(B2V)   = -0.22  ; KenyonHartmann95
 B-V(B2V)   = -0.229 ; EEM dereddened prim. stan. bet^2 Sco (via Q-method)
@@ -60,9 +63,7 @@ B-V(B2V)   = -0.23  ; Garrison67
 B-V(B2V)   = -0.231 ; EEM dereddened weak stan. HD 191746 (via Q-method)
 B-V(B2V)   = -0.24  ; JohnsonMorgan53,Morgan53,Johnson63,JohnsonBorgman63,Johnson66
 B-V(B2V)   = -0.24  ; Fitzgerald70, Morgan71, SchmidtKaler82
-
-The bluest B-V I can find for a B0V star is HIP 20922 (B-V =
--0.202+-0.004), so <(B-V)o> is probably bluer than this.
+=> adopt (B-V)(B2V)  = -0.215 [updated 2/7/2020]
 
 U-B(B2V)   = -0.731 ; EEM dereddened sec. stan. HD 42401 (via Q-method)
 U-B(B2V)   = -0.775 ; EEM dereddened N=56 HIP B2V stars (E(B-V)<0.1, Q-method)
@@ -74,18 +75,38 @@ U-B(B2V)   =   -0.84  ; Schmidt-Kaler82
 U-B(B2V)   =  -0.844 ; EEM dereddened weak stan. HD 191746 (via Q-method)
 U-B(B2V)   =   -0.85  ; Bessell98
 U-B(B2V)   =   -0.86  ; Johnson63, Johnson66
-=> adopt (U-B)(B2V)  = -0.79  *** 
-=> adopt (B-V)(B2V)  = -0.210 
-=> adopt     Q(B2V)  = -0.639 (=(U-B)-0.72*(B-V) = -0.790 - 0.72*-0.210)
+=> adopt (U-B)(B2V)  = -0.79  *** [updated 2/7/2020]
+
+=> adopt     Q(B2V)  = -0.636 [updated 2/7/2020]
 => adopt (V-I)(B2V)  = -0.229
 => adopt (V-R)(B2V)  = -0.094
 => adopt (R-I)(B2V)  = -0.135 
-=> adopt (V-J)(B2V)  = -0.458
-=> adopt (V-H)(B2V)  = -0.570
-=> adopt (V-Ks)(B2V) = -0.602
-=> adopt (H-Ks)(B1V) = -0.032
-=> adopt (J-H)(B1V)  = -0.113
-=> adopt (K-W1)(B1V) =  0.036
+
+(V-Ks)(B2V)=  -0.437 ; HIP_35083_ B2V d= 208.812pc, (B-V)=0.007 (dereddened from Kervella19)
+(V-Ks)(B2V)=  -0.513 ; HIP_38455_ B2V d= 240.906pc, (B-V)=0.012 (dereddened from Kervella19)
+(V-Ks)(B2V)=  -0.562 ; HIP_38593_ B2V d= 242.66pc, (B-V)=0.011 (dereddened from Kervella19)
+(V-Ks)(B2V)=  -0.564 ; HIP_91918_ B2V d= 145.285pc, (B-V)=0.020 (dereddened from Kervella19)
+(V-Ks)(B2V)=  -0.567 ; HIP_70300_ B2V d= 119.589pc, (B-V)=0.012 (dereddened from Kervella19)
+(V-Ks)(B2V)=  -0.601 ; HIP_28756_ B2V d= 286.862pc, (B-V)=0.008 (dereddened from Kervella19)
+(V-Ks)(B2V)= -0.602  ; from intrinsic color trend for (U-B)=-0.79
+(V-Ks)(B2V)=  -0.634 ; HIP_60823_ B2V d= 125.723pc, (B-V)=0.014 (dereddened from Kervella19)
+(V-Ks)(B2V)=  -0.637 ; HIP_68862_ B2V d= 153.351pc, (B-V)=0.013 (dereddened from Kervella19)
+(V-Ks)(B2V)=  -0.751 ; HIP_38500_ B2V d= 244.26pc, (B-V)=0.029 (dereddened from Kervella19)
+=> adopt (V-Ks)(B2V) = -0.602 [updated 4/8/2022]
+=> adopt (V-J)(B2V)  = -0.458 [updated 4/8/2022]
+=> adopt (V-H)(B2V)  = -0.570 [updated 4/8/2022]
+=> adopt (H-Ks)(B2V) = -0.032 [updated 4/8/2022]
+=> adopt (J-H)(B2V)  = -0.113 [updated 4/8/2022]
+
+(Ks-W1)(B2V) = 0.023 ; EEM trend for d<30pc for B-V=-0.210
+=> adopt (Ks-W1)(B2V) = 0.023 [updated 12/29/2019]
+
+(Bp-Rp)(B2V) = -0.318 ; Evans18 trend for V-I=-0.229
+
+(g-r)(B2V) = -0.475 ; Covey07
+
+(G-V)(B2V) = -0.008 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.602
+=> adopt (G-V)(B2V) = -0.008 [updated 4/8/2022]
 
 Teff(B2V) =   22400 K ; Theodossiou90 
 Teff(B2V) =   22000 K ; Crowther97/Fig.3
@@ -99,6 +120,7 @@ Teff(B2V) =   21380 K ; Bessell98
 Teff(B2V) =   20800 K ; non-standard HD 122980 (Nieva14)
 Teff(B2V) =   20700 K ; non-standard HD 35708 (Nieva14)
 Teff(B2V) = 20693 K ; sec. stan. 13 Sco ; EEM median 3 Teffs
+Teff(B2V) = 20600 K ; median for Braganca12 B2V stars (N=48)
 Teff(B2V) = 20592 K ; prim. stan. beta2 Sco (median Teff)
 Teff(B2V) = 20500 K ; deprecated stan. HD 42401 (Teff from Williams09)
 Teff(B2V) = 20324 K ; Q=-0.639 => Nieva13 calibration
@@ -107,49 +129,71 @@ Teff(B2V) = 19679 K ; EEM N=180 Teffs
 Teff(B2V) =   19500 K ; GrayCorbally09
 Teff(B2V) =   19500 K ; GrayCorbally94
 Teff(B2V) =   19490 K ; U-B=-0.79 => Bessell98(Teff)
+Teff(B2V) = 19055 K ; Simon-Diaz17 for B2V (N=15)
 Teff(B2V) =   18858 K ; Flower96 Teff for B-V = -0.22 
-=> adopt Teff(B2V) = 20600 K (logT = 4.314)
+=> adopt Teff(B2V) = 20600 K (logT = 4.314) [updated 9/16/2019]
 
-Mv(B2V) =  -2.7  mag ; Wegner07
+Mv(B2V) = -2.7  mag ; Wegner07
 Mv(B2V) = -2.5  mag ; GrayCorbally09
 Mv(B2V) = -2.47 mag ; Russeil03
-Mv(B2V) =  -2.4  mag ; Schmidt-Kaler82
+Mv(B2V) =  -2.42 mag ; HIP_89977 B2Vne plx=2.428 mas, Vmag=6.137,E(B-V)=0.156
+Mv(B2V) = -2.4  mag ; Schmidt-Kaler82
+Mv(B2V) = -2.28 mag ; Bowen08
+Mv(B2V) =  -2.21 mag ; HIP_23883 B2Ve plx=3.326 mas, Vmag=5.836,E(B-V)=0.211
 Mv(B2V) = -1.8  mag ; HD 147934 (Jaschek98)
 Mv(B2V) = -1.78 mag ; Upper Sco main sequence (B-V=-0.216; rms=+-0.39 mag)
 Mv(B2V) = -1.72 mag ; ONC main sequence (B-V=-0.216; rms=+-0.48 mag)
+Mv(B2V) = -1.66 mag ; median Mv for B2V calc using Kervella19 HIP & Gaia DR2
+Mv(B2V) =  -1.66 mag ; HIP_37675 B2Vn plx=2.483 mas, Vmag=6.552,E(B-V)=0.059
+Mv(B2V) =  -1.47 mag ; HIP_72518 B2V plx=2.951 mas, Vmag=6.481,E(B-V)=0.096
 Mv(B2V) = -1.43 mag ; sec. stan. 13 Sco (see below)
+Mv(B2V) =  -1.28 mag ; HIP_115579 B2V plx=2.448 mas, Vmag=6.988,E(B-V)=0.068
 Mv(B2V) = -1.2  mag ; pri. stan. bet^2 Sco (see below)
+Mv(B2V) =  -1.15 mag ; HIP_18111 B2V plx=2.669 mas, Vmag=7.430,E(B-V)=0.230
+Mv(B2V) =  -0.74 mag ; HIP_90377 B2V plx=2.982 mas, Vmag=7.076,E(B-V)=0.061
+Mv(B2V) =  -0.71 mag ; HIP_25655 B2Vne plx=2.813 mas, Vmag=7.134,E(B-V)=0.030
+Mv(B2V) =  -0.61 mag ; HIP_103763 B2Ve plx=2.838 mas, Vmag=7.435,E(B-V)=0.099
 Mv(B2V) = -0.6  mag ; HD 148605 (Jaschek98; but deprecated B2V => now B2.5V by Walborn)
-=> adopt Mv(B2V) = -1.7 mag 
+Mv(B2V) =   0.59 mag ; HIP_43179 B2V plx=5.102 mas, Vmag=7.089,E(B-V)=0.012
+=> adopt Mv(B2V)   = -1.80  mag [updated 9/20/2019]
+=> adopt M_Ks(B2V) = -1.198 mag = Mv - (V-Ks) = -1.80 - -0.602 [updated 12/30/2020]
 
-BCv(B2V) =  -2.22  mag ; Schmidt-Kaler82(BCv=-2.35 + 0.13 offset)
-BCv(B2V) =  -2.085 mag ; Code76(Teff=20600K)
-BCv(B2V) =  -2.074 mag ; Flower96(Teff=20600K)
-BCv(B2V) = -2.053 mag ; Bessell98(ATLAS9,logg=4.0,Teff=20600K)
+BCv(B2V) =   -2.22  mag ; Schmidt-Kaler82(BCv=-2.35 + 0.13 offset)
+BCv(B2V) =  -2.095 mag ; Code76(Teff=20600K, set so BCv(5772K)=-0.085)
+BCv(B2V) = -2.052 mag ; Flower96(Teff=20600K, set so BCv(5772K)=-0.085
 BCv(B2V) = -2.036 mag ; Nieva13(Teff=20600K)
 BCv(B2V) = -2.033 mag ; LanzHubeny07(Teff=20600K,logg=4.0,Z/Zsun=1)
-BCv(B2V) =  -2.036 mag ; Balona94(Teff=20600K)
-BCv(B2V) = -1.978 mag ; Bertone04[ATLAS,Teff=20600K)
-=> adopt BCv(B2V) = -2.04 mag
+BCv(B2V) = -2.031 mag ; Bessell98(ATLAS9,logg=4.0,Teff=20600K, set so BCv(5772K)=-0.085
+BCv(B2V) = -2.014 mag ; Balona94(Teff=20600K, set so BCv(5772K)=-0.085
+BCv(B2V) = -1.956 mag ; Bertone04[ATLAS,Teff=20600K)
+=> adopt BCv(B2V) = -2.03 [updated 9/16/2019]
 
-logL(B2V) = 3.40 ; Mv=-1.7, BCv=-2.04 => Mbol = -3.74 
-logL(B2V) = 3.40 ; sec. stan. 13 Sco logL from Hohle10
-=> adopt logL(B2V) = 3.40 dex
-=> adopt Mbol(B2V) = -3.74 mag
+logL(B2V) = 3.428 ; Mv=-1.8, BCv=-2.03 => Mbol = -3.830
+logL(B2V) = 3.40  ; sec. stan. 13 Sco logL from Hohle10
+logL(B2V) = 3.374 ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=20600)
+=> adopt logL(B2V) =  3.428 dex [updated 9/26/2019]
+=> adopt Mbol(B2V) = -3.830 mag [updated 9/26/2019]
 
-Mass(B2V) = 6.42 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-1.7)
-Mass(B2V) = 6.65 Msun ; Ekers15 ML calibration for logL=3.38
-Mass(B2V) = 6.99 Msun ; EEM Teff vs. Mass fit for binaries (Teff=20300K)
-Mass(B2V) = 7.01 Msun ; EEM logL vs. Mass fit for binaries (logL=4.38)
+Mass(B2V) ~ 6.5  Msun ; pri. stan. bet2 Sco
+Mass(B2V) = 6.70 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-1.8)
+Mass(B2V) = 6.96 Msun ; David15 B2 MS (rms=0.81 Msun; N=2)
+Mass(B2V) = 6.84 Msun ; Ekers15 ML calibration for logL=3.38
+Mass(B2V) = 7.17 Msun ; EEM Teff vs. Mass fit for binaries (Teff=20600K)
+Mass(B2V) = 7.23 Msun ; EEM logL vs. Mass fit for binaries (logL=4.38)
+Mass(B2V) = 7.28 Msun ; MIST/Choi16 solar tracks logT=4.314, logL=3.428
 Mass(B2V) = 7.29 Msun ; Bertelli09 tracks (Z=0.017,Y=0.27) for Teff=20300K,logL=3.38
 Mass(B2V) = 7.42 Msun ; mass for deprecated B2V standard HD 42401 (eclipsing binary)
-Mass(B2V) = 8.62 Msun ; Harmanec88
 Mass(B2V) = 8.46+-0.12 Msun ; Eclipsing binary QX Car B (Torres10)
+Mass(B2V) = 8.50+-0.62 Msun ; Hohle10
+Mass(B2V) = 8.62 Msun ; Harmanec88
 Mass(B2V) = 9.25+-0.12 Msun ; Eclipsing binary QX Car A (Torres10)
 Mass(B2V) = 10.262+-0.084 Msun ; Eclipsing binary V578 Mon B (Torres10)
-=> adopt Mass(B2V) = 7.3 Msun (wide dispersion)
+=> adopt Mass(B2V) = 7.3 Msun (wide dispersion) [updated 4/16/2022]
 
 Rad(B2V) = 5.60 Rsun ; radius for deprecated B2V standard HD 42401 (eclipsing binary)
+Rad(B2V) = 4.143 Rsun ; pri. stan. bet2 Sco Kervella04
+Rad(B2V) = 4.064 Rsun ; Teff=20600K, logL=3.428 
+=> adopt Rad(B2V) = 4.064 Rsun [updated 9/26/2019]
 
 # Primary Standards
 
@@ -165,10 +209,13 @@ HD 144218 = bet^2 Sco = 8 Sco B = bet Sco B = HR 5985
   => (B-V)o=-0.229, (U-B)o=-0.838, E(B-V)= 0.205,
   Av=0.666. VanLeeuwen07 plx = 8.19+-1.17 mas => D = 122+-18 pc.  Mv =
   -1.20 +- 0.31 mag.  Teffs: 19657K(EEM,Hauck97 phot.=>Napiwotzki93
-  calibration), 20160K(Philip80), 20417K(deGeus89),
-  20766K(U-Bo=>Bessell98), 20866K(EEM,Hauck97 beta
+  calibration), 20150K(Glagolevskij19), 20160K(Philip80),
+  20417K(deGeus89), 20766K(U-Bo=>Bessell98), 20866K(EEM,Hauck97 beta
   phot.=>BalonaShobbrook84 calibration), 21042K(EEM,Hauck97
   phot.=>Balona94 calibration) => median Teff = 20592K.
+  Rad=3.00Rsun(Glagolevskij19), 4.143+-0.207 Rsun (Kervella04).
+  M=4.498+-0.225Msun(Kervella19), 6.54Msun(Tokovinin20),
+  7.59Msun(Glagolevskij19) ~> <Mass> ~ 6.5 Msun.
 
 # Secondary Standard
  
@@ -426,7 +473,7 @@ Cl* NGC 2244 JOHN 15
 # Other Stars
 
 HD 35912 = HR 1820 = HIP 25582 (J0528+0117; V=6.4)
-   B2V: Sharpless52(B2),Lesh68,Cuchiaro76,Abt77
+  B2V: Sharpless52(B2),Lesh68,Cuchiaro76,Abt77
 
 Kap Cen
   B2V: Garrison96
@@ -463,3 +510,19 @@ HD 36166 = HR 1833 (J0529+0147)
 
 Garrison96 lists 4 B2V (or variant) stars in their table "The Brightest Stars": 
 bet Mus A, kap Cen, pi Sco A, alf Ara. 
+
+
+### IR MAGNITUDES FOR NEARBY B2Vs
+
+ID           2MASS_J          Jmag  eJmag Hmag  eHmag Ksmag eKsmag    Vmag  B-V    U-B    E(B-V) Av    plx    eplx   W1    eW1   Vo Jo  Ko
+HD 142184    15535586-2358410 5.437 0.030 5.418 0.044 5.365 0.023 AAA 5.412 -0.033 -0.615 0.165  0.536 7.0774 0.1450 5.289 0.060 
+HD 172910    18441936-3538311 5.231 0.021 5.387 0.026 5.343 0.023 AAA 4.857 -0.183 -0.729 0.017  0.055 6.9525 0.2898 5.172 0.042
+V* V1003 Sco 16382629-4323543 5.864 0.024 5.909 0.034 5.933 0.023 AAA 5.825 -0.022 -0.609 0.176  0.574 5.883  0.045  
+
+
+1978rmsa.book.....M  HD 36485  +B2Vh
+1978rmsa.book.....M  HD 37017  +B2Vh
+1978rmsa.book.....M  HD 120324 +B2V:e
+1978rmsa.book.....M  HD 144218 +B2V
+1973ARA&A..11...29M  HD 148605 +B2V
+1973ARA&A..11...29M  HD 175191 +B2V

@@ -5,7 +5,7 @@ list a B9V dagger standard.
 
 B9V has unfortunately been a moving target over the years.  The two
 MK43 standards in B9V were not used by JM53 (how's that for continuity
-amongst "standard stars"). Given the opportunity, MK73 and MK78 did
+amongst "standard stars"...). Given the opportunity, MK73 and MK78 did
 not define B9V standard stars. GarrisonGray94 defined all new
 standards, deprecating both the MK43 and JM53 standards. A standard
 star is a standard star until (surprise) it is not a standard star.
@@ -14,8 +14,7 @@ HD 141774 has only previously been considered a B9V standard star by
 Garrison79, however, it maybe worth resuscitating. It is remarkable as
 every (7) published classification for this star is B9V (plus a B9 HD
 type from Cannon!).  This is stronger agreement than among any other
-B9V standard or non-standard star, so I would consider this one a
-strong candidate standard B9V star.
+B9V standard or non-standard star.
 
 MK43 standard:             alf Peg - B9V
      			   del Crv - B9V
@@ -28,6 +27,7 @@ Garrison79 standards:      HD 141774 - B9V (see note above)
 	   		   HD 147012 - B9V
 GarrisonGray94 standards:  ome For A - B9Va (low-vsini) 
 	       		   HR 2328   - B9Van (high-vsini)
+WiegertGarrison98 stan     HD 141774 - B9V 
 GrayNstars standard:       ome For A (=HR 749A) - B9V
 
 Dereddenings using the Q-method in this file have been updated using
@@ -48,7 +48,9 @@ B-V(B9V)  = -0.074  ; prim. stan. HD 141774 (EEM dereddened via Q-method)
 B-V(B9V)  = -0.083  ; HD_213998 [one of 3 GarrisonGray94 B9V stars within 75 pc]
 
 U-B(B9V)  = -0.110  ; sec. stan. HD 45380 (EEM dereddened via Q-method)
-U-B(B9V)  = -0.154  ; sec. stan. Ome For A (EEM dereddened via Q-method)
+U-B(B9V)  = -0.117  ; HD_16978 [one of 3 GarrisonGray94 B9V stars within 75 pc]
+U-B(B9V)  = -0.125  ; HD_32309 [one of 3 GarrisonGray94 B9V stars within 75 pc]
+U-B(B9V)  = -0.154  ; sec. stan. ome For A (EEM dereddened via Q-method)
 U-B(B9V)  =   -0.18   ; Fitzgerald70
 U-B(B9V)  = -0.183  ; HIP d<75pc S/N>8 B9V N=8 (Mermilliod91 photometry)
 U-B(B9V)  =   -0.19   ; Johnson63, Bessell98
@@ -56,6 +58,7 @@ U-B(B9V)  = -0.200  ; EEM dereddened N=124 HIP B9V stars (Q-method,E(B-V)<0.1)
 U-B(B9V)  =   -0.20   ; Schmidt-Kaler82
 U-B(B9V)  =  -0.215  ; weak stan. alf Del (EEM dereddened via Q-method)
 U-B(B9V)  = -0.226  ; pri. stan. HD 141774 (EEM dereddened via Q-method)
+U-B(B9V)  = -0.262  ; HD_213998 [one of 3 GarrisonGray94 B9V stars within 75 pc]
 => adopt (U-B)(B9V)  = -0.20  ***
 => adopt (B-V)(B9V)  = -0.070 
 => adopt     Q(B9V)  = -0.150 (=(U-B)-0.72*(B-V) = -0.200 - 0.72*-0.070)
@@ -64,13 +67,97 @@ U-B(B9V)  = -0.226  ; pri. stan. HD 141774 (EEM dereddened via Q-method)
 => adopt (R-I)(B9V)  = -0.033 
 => adopt (V-J)(B9V)  = -0.087
 => adopt (V-H)(B9V)  = -0.137
-=> adopt (V-Ks)(B9V) = -0.121
 => adopt (H-Ks)(B9V) =  0.016
 => adopt (J-H)(B9V)  = -0.050
+
+
+(V-Ks)=  +0.031 ; HIP_115115_ B9V d= 70.6514pc, (B-V)=0.002 (dereddened from Kervella19)
+(V-Ks)=  -0.010 ; HIP_1647_ B9V d= 99.0295pc, (B-V)=0.003 (dereddened from Kervella19)
+(V-Ks)=  -0.046 ; HIP_25453_ B9V d= 99.5718pc, (B-V)=0.002 (dereddened from Kervella19)
+(V-Ks)=  -0.054 ; HIP_8016_ B9V d= 89.6941pc, (B-V)=0.004 (dereddened from Kervella19)
+(V-Ks)=  -0.062 ; HIP_76234_ B9V d= 98.9315pc, (B-V)=0.008 (dereddened from Kervella19)
+(V-Ks)=  -0.084 ; HIP_20430_ B9Vnn d= 88.9205pc, (B-V)=0.005 (dereddened from Kervella19)
+(V-Ks)=  -0.095 ; HIP_23362_ B9V d= 60.27pc, (B-V)=0.001 (dereddened from Kervella19)
+(V-Ks)= -0.103 ; sec. stan. HD 16046 = Ome For A (see below)
+(V-Ks)= -0.112 ; sec. stan. HD 45380 = HR 2328 (see below)
+(V-Ks)=  -0.113 ; HIP_116971_ B9V d= 47.7692pc, (B-V)=0.000 (dereddened from Kervella19)
+(V-Ks)= -0.121 ; intrinsic color sequence for (U-B)o = -0.20 
+(V-Ks)=  -0.122 ; HIP_61318_ B9V d= 85.2442pc, (B-V)=0.003 (dereddened from Kervella19)
+(V-Ks)=  -0.123 ; HIP_79101_ B9VspHgMn d= 73.5078pc, (B-V)=0.009 (dereddened from Kervella19)
+(V-Ks)=  -0.127 ; HIP_60183_ B9V d= 97.144pc, (B-V)=0.015 (dereddened from Kervella19)
+(V-Ks)=  -0.142 ; HIP_20171_ B9Vsp d= 83.5282pc, (B-V)=0.003 (dereddened from Kervella19)
+(V-Ks)=  -0.155 ; HIP_75178_ B9Vn d= 82.5083pc, (B-V)=0.013 (dereddened from Kervella19)
+(V-Ks)=  -0.171 ; HIP_24505_ B9V d= 83.7521pc, (B-V)=0.001 (dereddened from Kervella19)
+(V-Ks)=  -0.187 ; HIP_109056_ B9Vn d= 96.8054pc, (B-V)=0.025 (dereddened from Kervella19)
+(V-Ks)=  -0.188 ; HIP_813_ B9Vn d= 90.0739pc, (B-V)=0.005 (dereddened from Kervella19)
+(V-Ks)=  -0.201 ; HIP_77562_ B9V(n) d= 96.2649pc, (B-V)=0.008 (dereddened from Kervella19)
+(V-Ks)=  -0.204 ; HIP_27566_ B9V d= 90.7029pc, (B-V)=0.003 (dereddened from Kervella19)
+(V-Ks)=  -0.311 ; HIP_16611_ B9V d= 97.8378pc, (B-V)=0.001 (dereddened from Kervella19)
+=> adopt (V-Ks)(B9V) = -0.121 [updated 4/8/2022]
+
+
+
+(Ks-W1)(B9V) = 0.038 ; EEM trend for d<30pc for B-V=-0.07
+=> adopt (Ks-W1)(B9V) = 0.038 [updated 12/29/2019]
+
+(Bp-Rp)(B9V) = -0.092 ; Evans18 trend for V-I=-0.061
+
+(G-V)(B9V) = -0.01205  ; HIP_25443 B9V E(B-V)=0.009
+(G-V)(B9V) = -0.00450  ; HIP_35451 B9V E(B-V)=0.000
+(G-V)(B9V) =  0.00349  ; HIP_32716 B9V E(B-V)=0.006
+(G-V)(B9V) =  0.00396  ; HIP_7676 B9V E(B-V)=0.008
+(G-V)(B9V) =  0.00506  ; HIP_108542 B9V E(B-V)=0.008
+(G-V)(B9V) =  0.00526  ; HIP_14736 B9V E(B-V)=0.009
+(G-V)(B9V) =  0.00647  ; HIP_24212 B9V E(B-V)=0.008
+(G-V)(B9V) =  0.00784  ; HIP_32910 B9V E(B-V)=0.005
+(G-V)(B9V) =  0.00797  ; HIP_26185 B9V E(B-V)=0.004
+(G-V)(B9V) =  0.00864  ; HIP_32196 B9V E(B-V)=0.006
+(G-V)(B9V) =  0.00974  ; HIP_2665 B9V E(B-V)=0.003
+(G-V)(B9V) =  0.00981  ; HIP_34113 B9V E(B-V)=0.008
+(G-V)(B9V) =  0.00988  ; HIP_30088 B9V E(B-V)=0.003
+(G-V)(B9V) =  0.01019  ; HIP_115098 B9V E(B-V)=0.009
+(G-V)(B9V) =  0.01255  ; HIP_107690 B9V E(B-V)=0.008
+(G-V)(B9V) =  0.01299  ; HIP_8751 B9V E(B-V)=0.008
+(G-V)(B9V) =  0.01333  ; HIP_20747 B9V E(B-V)=0.007
+(G-V)(B9V) =  0.01391  ; HIP_32059 B9V E(B-V)=0.006
+(G-V)(B9V) =  0.01407  ; HIP_31890 B9Vn E(B-V)=0.006
+(G-V)(B9V) =  0.01412  ; HIP_23326 B9V E(B-V)=0.009
+(G-V)(B9V) =  0.01477  ; HIP_37557 B9V E(B-V)=0.009
+(G-V)(B9V) =  0.01519  ; HIP_32668 B9V E(B-V)=0.005
+(G-V)(B9V) =  0.01558  ; HIP_31993 B9V E(B-V)=0.005
+(G-V)(B9V) =  0.01626  ; HIP_20229 B9V E(B-V)=0.008
+(G-V)(B9V) =  0.01627  ; HIP_22501 B9V E(B-V)=0.006
+(G-V)(B9V) =  0.01672  ; HIP_37838 B9V E(B-V)=0.007
+(G-V)(B9V) =  0.01696  ; HIP_37697 B9V E(B-V)=0.009
+(G-V)(B9V) =  0.01755  ; HIP_21640 B9V E(B-V)=0.006
+(G-V)(B9V) =  0.01763  ; HIP_7222 B9V E(B-V)=0.004
+(G-V)(B9V) =  0.01791  ; HIP_29907 B9V E(B-V)=0.009
+(G-V)(B9V) = 0.018 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.121
+(G-V)(B9V) =  0.01969  ; HIP_45125 B9V E(B-V)=0.005
+(G-V)(B9V) =  0.02023  ; HIP_40273 B9V E(B-V)=0.007
+(G-V)(B9V) =  0.02073  ; HIP_118133 B9V E(B-V)=0.007
+(G-V)(B9V) =  0.02123  ; HIP_12389 B9V E(B-V)=0.007
+(G-V)(B9V) =  0.02201  ; HIP_23146 B9V E(B-V)=0.003
+(G-V)(B9V) =  0.02219  ; HIP_21484 B9V E(B-V)=0.006
+(G-V)(B9V) =  0.02261  ; HIP_31934 B9V E(B-V)=0.006
+(G-V)(B9V) =  0.02359  ; HIP_25213 B9V E(B-V)=0.007
+(G-V)(B9V) =  0.02382  ; HIP_79044 B9V E(B-V)=0.007
+(G-V)(B9V) =  0.02405  ; HIP_25465 B9V E(B-V)=0.002
+(G-V)(B9V) =  0.02416  ; HIP_28944 B9V E(B-V)=0.008
+(G-V)(B9V) =  0.02525  ; HIP_81634 B9V E(B-V)=0.007
+(G-V)(B9V) =  0.02633  ; HIP_24222 B9V(pSiCr) E(B-V)=0.008
+(G-V)(B9V) =  0.02660  ; HIP_42348 B9V E(B-V)=0.005
+(G-V)(B9V) =  0.02756  ; HIP_512 B9V E(B-V)=0.005
+(G-V)(B9V) =  0.02870  ; HIP_24112 B9V E(B-V)=0.008
+(G-V)(B9V) =  0.02900  ; HIP_8445 B9V E(B-V)=0.007
+(G-V)(B9V) =  0.03876  ; HIP_4396 B9V E(B-V)=0.007
+=> adopt (G-V)(B9V) = 0.018 [updated 4/8/2022]
 
 V-I(B9V)  = -0.055  ; Bessell79
 
 R-I(B9V)  = -0.032  ; Bessell79
+
+(g-r)(B9V) = -0.28 ; Covey07
 
 Teff(B9V) =  10330 K ; Bertone04[ATLAS]
 Teff(B9V) = 10358 K ; sec. stan. HD 16046 EEM median Teff (see below)
@@ -80,6 +167,7 @@ Teff(B9V) =  10666 K ; Bessell98
 Teff(B9V) =  10700 K ; GrayCorbally09
 Teff(B9V) =  10706 K ; B-V=-0.07 => Teff(Napiwotski93)
 Teff(B9V) = 10715 K ; prim. stan. HD 141774 EEM median Teff (see below)
+Teff(B9V) = 10715 K ; Zorec12 median 
 Teff(B9V) =  10720 K ; GrayCorbally94
 Teff(B9V) =  10746 K ; B-V=-0.07 => Teff(Bessell98)
 Teff(B9V) =  10962 K ; U-B=-0.20 => Teff(Bessell98)
@@ -90,7 +178,7 @@ Teff(B9V) =  11020 K ; Theodossiou90
 Teff(B9V) =  11050 K ; Chavez95 (+150-200K)
 Teff(B9V) = 11103 K ; median Teff from PASTEL catalog (N=4) for 28 B9V stars from GarrisonGray94
 Teff(B9V) = 11490 K ; EEM N=301 Teffs
-=> adopt Teff(B9V) = 10700 K (logT = 4.041)
+=> adopt Teff(B9V) = 10700 K (logT = 4.029) [last updated 10/18/2019]
 
 [EEM: There is a sizeable difference between the median
 Teffs for the B9V standards and the median Teff among 301 Teff
@@ -99,40 +187,64 @@ of the B9V standards, one could easily argue that there is at least
 ~+-500K systematic uncertainty in where one should define a median
 Teff.]
 
-BCv(B9V) = -0.38  mag ; Schmidt-Kaler82 (BCv=-0.51 + 0.13 offset)
-BCv(B9V) = -0.403 mag ; Bertone04[ATLAS,Teff=10700K]
-BCv(B9V) = -0.418 mag ; Balona94(Teff=10700K)
-BCv(B9V) = -0.422 mag ; Code76(Teff=10700K)
-BCv(B9V) = -0.440 mag ; Bessell98(ATLAS,logg=4.0,Teff=10700K)
-BCv(B9V) = -0.503 mag ; Flower96(Teff=10700K)
-=> adopt BCv(B9V) = -0.42 mag
+BCv(B9V) =  -0.38  mag ; Schmidt-Kaler82 (BCv=-0.51 + 0.13 offset)
+BCv(B9V) = -0.381 mag ; Bertone04[ATLAS,Teff=10700K, set BCv(5772K)=-0.085)
+BCv(B9V) = -0.396 mag ; Balona94(Teff=10700K, set BCv(5772K)=-0.085)
+BCv(B9V) = -0.418 mag ; Bessell98(ATLAS,logg=4.0,Teff=10700K, set BCv(5772K)=-0.085)
+BCv(B9V) = -0.432 mag ; Code76(Teff=10700K, set BCv(5772K)=-0.085)
+BCv(B9V) = -0.481 mag ; Flower96(Teff=10700K, set BCv(5772K)=-0.085)
+=> adopt BCv(B9V) = -0.42 [updated 9/16/2019, adjusted so that BCv(5772K)=-0.085]
 
 Mv(B9V) = 1.96 mag ; sec. stan. HD 45380 (see below)
+Mv(B9V) =  1.89 mag ; HIP_81634 B9V plx=10.031 mas, Vmag=6.900,E(B-V)=0.007
+Mv(B9V) =  1.54 mag ; HIP_118133 B9V plx=9.599 mas, Vmag=6.644,E(B-V)=0.006
+Mv(B9V) =  1.49 mag ; HIP_56379 B9Vne plx=9.261 mas, Vmag=6.703,E(B-V)=0.014
+Mv(B9V) =  1.40 mag ; HIP_25453 B9V plx=10.043 mas, Vmag=6.397,E(B-V)=0.002
+Mv(B9V) =  1.34 mag ; HIP_76234 B9V plx=10.108 mas, Vmag=6.346,E(B-V)=0.008
+Mv(B9V) =  1.26 mag ; HIP_32838 B9V plx=9.867 mas, Vmag=6.299,E(B-V)=0.002
+Mv(B9V) =  1.20 mag ; HIP_60183 B9V plx=10.294 mas, Vmag=6.183,E(B-V)=0.015
+Mv(B9V) =  1.07 mag ; HIP_43394 B9V plx=9.627 mas, Vmag=6.163,E(B-V)=0.002
+Mv(B9V) =  0.94 mag ; HIP_90967 B9V plx=8.988 mas, Vmag=6.353,E(B-V)=0.057
+Mv(B9V) = 0.90 mag ; Cox00 ZAMS interp B-V vs Mv (for B-V=-0.07)
 Mv(B9V) = 0.80 mag ; pri. stan. HD 141774 (see below)
-Mv(B9V) = 0.7  mag ; GrayCorbally09
-Mv(B9V) = 0.48 +- 0.30(sem), +-0.73(st.dev.) ; EEM 8 HIP B9V d<75pc 
-Mv(B9V) =   0.2  mag ; Schmidt-Kaler82
-Mv(B9V) =   0.10 mag ; Wegner07
+Mv(B9V) =  0.75 mag ; HIP_58720 B9V plx=9.650 mas, Vmag=5.871,E(B-V)=0.014
+Mv(B9V) =  0.7  mag ; GrayCorbally09
+Mv(B9V) = 0.72 mag ; median Mv for B9V calc using Kervella19 HIP & Gaia DR2
+Mv(B9V) = 0.55 mag ; EEM interp logT vs Rad for B9V
+Mv(B9V) = 0.48 +- 0.30(sem), +-0.73(st.dev.) ; EEM 8 HIP B9V d<75pc
+Mv(B9V) = 0.35 mag ; d<60pc Mv(B-V=-0.07) trend
+Mv(B9V) =  0.2  mag ; Schmidt-Kaler82
+Mv(B9V) =  0.10 mag ; Wegner07
 Mv(B9V) = -0.90 mag ; sec. stan. ome For A (see below)
-=> adopt Mv(B9V) = 0.7 mag 
+=> adopt Mv(B9V)   = 0.50  mag [updated 2/10/2020]
+=> adopt M_G(B9V)  = 0.515 mag [updated 12/10/2020] (Mv=0.5, G-V=0.05)
+=> adopt M_Ks(B9V) = 0.621 mag [updated 12/30/2020] (Mv=0.5, V-Ks=-0.121)
 
-logL(B9V) = 1.79 dex ; Mv=0.7, BCv=-0.42 => Mbol = 0.28
-=> adopt logL(B9V) = 1.79 dex
-=> adopt Mbol(B9V) = 0.28 mag 
+logL(B9V) = 2.07  dex ; Zorec12 median
+logL(B9V) = 1.864 dex ; Mv=0.7, BCv=-0.42 => Mbol = 0.080
+logL(B9V) = 1.826 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=10700K)
+=> adopt logL(B9V) = 1.864 dex [updated 9/26/2019]
+=> adopt Mbol(B9V) = 0.080 mag [updated 9/26/2019] 
 
 Mass(B9V) = 2.504+-0.023 Msun ; Eclipsing binary GG Lup B (Torres10)
-Mass(B9V) = 2.52 Msun ; Harmanec88
+Mass(B9V) =  2.52 Msun ; Harmanec88
 Mass(B9V) = 2.68 Msun ; EEM Teff vs. Mass fit for binaries (Teff=10600K)
-Mass(B9V) = 2.75 Msun ; EEM logL vs. Mass fit for binaries (logL=2.75)
-Mass(B9V) = 2.75 Msun ; Ekers15 ML calibration for logL=
+Mass(B9V) = 2.73 Msun ; EEM logL vs. Mass fit for binaries (logL=1.864)
+Mass(B9V) = 2.80 Msun ; Ekers18 ML calibration for logL=1.864
+Mass(B9V) = 2.75 Msun ; Bertelli09 solar tracks Teff=10700K,logL=1.864
 Mass(B9V) = 2.769+-0.062 Msun ; Eclipsing binary V451 Oph A (Torres10)
-Mass(B9V) = 2.81 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-0.5)
+Mass(B9V) = 2.81 Msun ; EEM Mv vs. Mass fit for binaries (Mv=0.5)
+Mass(B9V) = 2.88 Msun ; David15 B9 MS (rms=0.88 Msun; N=67)
+Mass(B9V) = 2.95 Msun ; Zorec12 median
 Mass(B9V) = 3.253+-0.069 Msun ; Eclpising binary V906 Sco B (Torres10)
 Mass(B9V) = 3.378+-0.071 Msun ; Eclipsing binary V906 Sco A (Torres10)
-=> adopt Mass(B9V) = 2.8 Msun
+=> adopt Mass(B9V) = 2.75 Msun [updated 9/16/2019]
 
 logg(B9V) = 4.0+-0.2 ; HD66684 (SpT=B9V GarrisonGray94; Andrievsky02)
 logg(B9V) = 4.10     ; HD177756 (SpT=B9V GarrisonGray94; Prugniel07)
+
+Rad(B9V) = 2.488 Rsun ; Teff=10700K, logL=1.864
+=> adopt Rad(B9V) = 2.488 sun [updated 9/26/2019]
 
 # No Standard
 
@@ -150,16 +262,18 @@ HD 141774 = HIP 77677
   to Cannon!), but Garrison79 is the only one to mention it as a
   standard. It is sometimes mentioned in Upper Sco literature, but its
   proper motion (pm= -4,-6 mas/yr) is deviant for Sco-Cen/Upper
-  Sco. Mermilliod91: V=7.700+-0.000 mag, B-V=0.088+-0.001,
-  U-B=-0.108+-0.009 mag. => updated Q-method calibration =>
-  (B-V)o=-0.074, (U-B)o=-0.226, E(B-V)=0.162, Av = 0.532.
-  VanLeeuwen07 plx = 4.17+-0.73 mas. Mv = 0.80.  EEM deredden Hauck97
-  ubvy photometry using Castelli91 dereddening: (b-y)0 = -0.117,
-  c0=0.844, E(b-y)=0.193, Av=0.845.  Teffs: 10617K(Hauck97
+  Sco. It is fairly reddened however, with somewhat discrepent
+  reddening estimates, so estimates of its intrinsic colors may not be
+  great for estimating mean for the type. Mermilliod91: V=7.700+-0.000
+  mag, B-V=0.088+-0.001, U-B=-0.108+-0.009 mag. => updated Q-method
+  calibration => (B-V)o=-0.074, (U-B)o=-0.226, E(B-V)=0.162, Av =
+  0.532.  VanLeeuwen07 plx = 4.17+-0.73 mas. Mv = 0.80.  EEM deredden
+  Hauck97 ubvy photometry using Castelli91 dereddening: (b-y)0 =
+  -0.117, c0=0.844, E(b-y)=0.193, Av=0.845.  Teffs: 10617K(Hauck97
   phot.=>BalonaShobbrook84 beta calib.), 10645K(Hauck97
   phot.=>Balona94 calib.), 10715K(deGeus89), 10953K(Hauck97
   phot.=>Napiwotzki93 calib.), 11138K(U-Bo=>Bessell98 calib.) =>
-  median Teff = 10715K. logg=4.08(deGeus89,photometric). 
+  median Teff = 10715K. logg=4.08(deGeus89,photometric).
 
 # Secondary Standards
 
@@ -171,37 +285,54 @@ HD 16046 = Ome For A = HR 749 = ADS 1954A
   A0III: Lutz77
 
   Kennedy83 lists A as B9V, B9.5V and A0III. Companion B is A-star at
-  11" separation (varies from A3V-A8V). Not a particularly strong
-  pedigree. Mostly B9V, but some B9.5/A0. parallax = 6.74+-0.71 mas
-  (van Leeuwen07). Mermilliod91: V=4.970, B-V=-0.050, U-B=-0.150. =>
-  updated Q-method calibration => (B-V)o = -0.055, (U-B)o=-0.154,
-  E(B-V) = 0.005, Av=0.017.  Predicted photometric distance (using
-  Upper Sco ZAMS) = 60+-12 pc, so the star seems somewhat luminous for
-  a dwarf (Mv=-0.90, delta(Mv,MS) = -1.67!). Hauck97 photometry
-  dereddened following Castelli91: Teffs: 9799K(Hauck97
-  phot.=>Balona84 beta calib.), 10034K(Hauck97 phot.=>Balona94
-  calib.), 10257K(Zorec12), 10458K(Hauck97 phot.=>Napiwotzki93
+  11" separation (varies from A3V-A8V; V=7.79). Not a particularly
+  strong pedigree. Mostly B9V, but some B9.5/A0. parallax = 6.74+-0.71
+  mas (van Leeuwen07). V=4.967+-0.007(Hauck97). Mermilliod91: V=4.970,
+  B-V=-0.050, U-B=-0.150. => updated Q-method calibration => (B-V)o =
+  -0.055, (U-B)o=-0.154, E(B-V) = 0.005,
+  Av=0.017. E(B-V)=0.0137+-0.0032(Stassun19/TIC),
+  E(B-V)=0.002(Kervella22,STILISM) => adopt E(B-V)=0.005, Av=0.017
+  from Q-method.  H=5.080+-0.024(2MASS), Ks=5.056+-0.017(2MASS).
+  Predicted photometric distance (using Upper Sco ZAMS) = 60+-12 pc,
+  so the star seems somewhat luminous for a dwarf (Mv=-0.90,
+  delta(Mv,MS) = -1.67!). Hauck97 photometry dereddened following
+  Castelli91: Teffs: 9799K(Hauck97 phot.=>Balona84 beta calib.),
+  10034K(Hauck97 phot.=>Balona94 calib.),
+  10257K(Zorec12,TIC/Stassun19), 10458K(Hauck97 phot.=>Napiwotzki93
   calib.), 10638K(U-Bo=>Bessell98), 10910+-420K(Zorec09) => median
-  Teff = 10358K.  No published logg values.
-
-HD 45380 = HR 2328
+  Teff = 10358K.  logg=3.4866+-0.0630(Stassun19/TIC).
+  logL=2.372+-0.027dex(Stassun19/TIC). Mass=2.638+-0.338Msun(Stassun19/TIC).
+  (V-Ks)o = (4.967 - 3.1*0.005) - (5.056 - 0.382*0.005) = -0.103.
+  
+HD 45380 = HR 2328 = HIP 30675 
  *B9Van: GrayGarrison94(stan)
   B9V: Houk99
   B9.5V: Abt95
   A0Vn: Jaschek78(Cowley69),Kennedy83(Cowley69)
   A0: Cannon
 
-  21" binary. Vsini=200 km/s. Vmag = 6.3. Not a particular strong
-  pedigree, but I give some weight to GrayGarrison94's use as a
-  standard. VanLeeuwen07 Parallax = 13.26+-1.64 mas (d=75+-9
-  pc). Johnson66: V=6.27, B-V=-0.04, U-B=-0.10. => EEM Q-method =>
-  (B-V)o=-0.044, (U-B)o=-0.110, E(B-V)=0.004. i.e. consistent with
-  unreddened.  Paunzen06 calculates 3 independent Teff estimates:
-  10406K (ubvy), 10728 (Geneva), and 10914 (UBV). EEM dereddened
-  Hauck97 ubvy photometry following Castelli91, I find Teff(Balona94)
-  = 10115K, Teff(Napiwotski93) = 10402K, Teff(Balona84,beta) =
-  9998K. Median of 6 Teffs = 10404K. Hipparcos lists V = 6.35 => Mv =
-  1.96. No published logg values. 
+  WDS: 21" binary, with mag(A)=6.32,
+  mag(B)=9.25. delta(Hp)=2.99+-0.19(HIP).  Vsini=200 km/s. Vmag =
+  6.3. Not a particular strong pedigree, but I give some weight to
+  GrayGarrison94's use as a standard. VanLeeuwen07 Parallax =
+  13.26+-1.64 mas (d=75+-9 pc). V(A)=6.33(TYC), V(A)=6.346(Hauck97),
+  V(B)=9.19(TYC), V(B)=9.285(Hauck97), B-V(A)=-0.041+-0.004(TYC),
+  B-V(B)=0.511+-0.020(TYC). There does not appear to be resolved
+  U-band photometry.  Johnson66 for unresolved: V=6.27, B-V=-0.04,
+  U-B=-0.10. => EEM Q-method => (B-V)o=-0.044, (U-B)o=-0.110,
+  E(B-V)=0.004. i.e. unresolved light is consistent with
+  unreddened. V=6.346(Hauck97), Mermilliod91 lists unresolved joint
+  photometry for A & B: V=6.268+-0.004(Mermilliod91),
+  U-B=-0.029+-0.010(Mermilliod91), U-B=-0.095+-0.287(Mermilliod91).
+  E(B-V)=0.002(Kervella19). Adopt E(B-V)=0.003. 2MASS:
+  J=6.429+-0.024(2MASS), H=6.441+-0.044(2MASS),
+  Ks=6.450+-0.020(2MASS). (V-Ks)o = (6.346 - 3.1*0.003) - 6.450 -
+  0.382*0.003) = -0.112.  Paunzen06 calculates 3 independent Teff
+  estimates: 10406K (ubvy), 10728 (Geneva), and 10914 (UBV). EEM
+  dereddened Hauck97 ubvy photometry following Castelli91, I find
+  Teff(Balona94) = 10115K, Teff(Napiwotski93) = 10402K,
+  Teff(Balona84,beta) = 9998K. Median of 6 Teffs = 10404K. Hipparcos
+  lists V = 6.35 => Mv = 1.96. No published logg values.
 
 # Deprecated Standards
 

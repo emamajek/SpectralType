@@ -1,5 +1,7 @@
 F2IV
 
+MK43 standard:            del Gem - F2IV
+     			  zet Ser - F2IV 
 JM53 standards:           bet Cas - F2IV
                           ups UMa - F2IV 
 MorganAbt72 standards:    HR 1554 - F2IV
@@ -17,16 +19,17 @@ GrayGarrison89 standards: 32 Tau - F2IV [low vsini standard]
 Garcia89 lists two F2IV standards: HD 40535 (1 Mon) and HD 84999 (ups
 UMa), along with the F2III-IV standard HD 432 (bet Cas).
 
-GrayGarrison89 explicitly exclude 1 Mon as a standard star. 
+GrayGarrison89 explicitly exclude 1 Mon as a standard star.
 
-For Hipparcos stars within 75pc with parallax S/N > 8 (N=):
-<B-V>( stdev)
-<V-I>( stdev)
-<V-J>( stdev)
-<V-H>( stdev)
-<V-Ks>( stdev)
-<J-H>( stdev)
-<H-K>( stdev)
+(B-V)(F2IV) = 0.336 ; exemplar HD 150557 = 14 Oph
+(B-V)(F2IV) = 0.345 ; pri. stan. HD 24740 = HR 1218
+(B-V)(F2IV) = 0.356(+-0.015 sem,+-0.033 stdev) ; SIMBAD median F2IV d<75pc,V<6.5(N=10)
+=> adopt (B-V)(F2IV) = 0.35 [updated 2/3/2022]
+
+Mv(F2IV) = 1.9  ; GrayCorbally09
+Mv(F2IV) = 2.03 ; exemplar HD 150557 = 14 Oph
+Mv(F2IV) = 2.39 ; pri. stan. HD 24740 = 32 Tau
+Mv(F2IV) = 2.44(+-0.20 sem,+-0.41 stdev) ; SIMBAD median F2IV d<75pc,V<6.5(N=10)
 
 # No standards
 
@@ -41,9 +44,12 @@ HD 24740 = HR 1218 = 32 Tau (J0356+2228)
   F3V: Adams35
   F0: Cannon
 
-  V=5.62, B-V=0.345+-0.004 (HIP). GrayGarrison89 primary "F2IV" standard.
+  GrayGarrison89 primary "F2IV" standard.
+  V=5.62(HIP), B-V=0.345+-0.004(HIP).
+  plx=22.5957+-0.0385mas(GaiaEDR3) => Mv=2.39 => 0.42 mag above MS. 
 
 # Secondary Standards
+
 HD 40535 = 1 Mon
   F2IV: MK73,Jaschek78(Morgan72)
  *F2III-IV: GrayGarrison89
@@ -55,6 +61,21 @@ HD 40535 = 1 Mon
 
 # Deprecated Standards
 
+zet Ser = HR 6710 = HD 164259
+  F0: Cannon
+  F1V:  Adams35
+  F2IV: MK43
+ *F2V: Gray03 
+  F2IV-V: Gray89
+  F2IV: Houk99("SIMBAD type")
+  F3V: 1937AnHar.105...45H,JM53,DeVaucouleurs57,Jaschek64(most),Cowley74(stan)
+  F4V: Malaroda75
+  F5III: 1978A&AS...35...75C
+
+  Only F3V star mentioned in Johnson53, although not technically a
+  standard.  Alternates between F2 and F3 too much to be really
+  considered a good standard.
+  
 HD 432 = HR 21 = HIP 746 = bet Cas
   F2IV: JM53,Jaschek64(most),Cowley67
   F2III-IV: Morgan72,MK78(stan)
@@ -76,7 +97,7 @@ HD 84999 = ups UMa = HR 3888
 
   Lots of disagreement in subtype and luminosity. 
 
-HD 99028 = iot Leo
+HD 99028 = iot Leo = HR 4399 
   F2IV: Slettebak55(SB),Jaschek64(most,SB),Stephenson69,Cowley74(stan),Cowley76(stan)
   F2V: Roman49
   F4IV: Abt81
@@ -85,11 +106,11 @@ HD 99028 = iot Leo
   F3V: Abt09
   F5: Cannon
   F5IV: Gray03
-  Only Cowley74 used this star as a standard. 
-  1.5" pair. Negligible agreement among different investigators.
-  Abt has been on three papers classifying this star - and all 
-  three types were different (F4IV,F3V,F3III). 
-  Poor standard.
+  Only Cowley74 used this star as a standard.
+  
+  1.5" pair. Negligible agreement among different investigators.  Abt
+  has been on three papers classifying this star - and all three types
+  were different (F4IV,F3V,F3III).
 
 HD 217754 = HR 8765
   F2IV: Morgan72(stan),Cowley74(stan),Cowley76(stan),Abt95
@@ -97,4 +118,57 @@ HD 217754 = HR 8765
   F0IIp: Gray01(CaI 4227A strong)
   F0: Cannon
   Morgan72 and Cowley74 consider it a standard, but Gray01 disagrees 
-  considerably with the type. 
+  considerably with the type.
+
+# Exemplars
+
+HD 150557 = 14 Oph = HR 6205 = HIP 81734 
+  F2III: Cowley76
+ *F2IV+: Gray89,GrayGarrison89
+  F2V: Houk99
+  F2-4III-IV: BSC(Hoffleit91)
+  F4IV: Cowley79
+
+  V=5.74(HIP), B-V=0.336+-0.004(HIP), V-I=0.39+-0.02(HIP).
+  plx=18.0784+-0.0472mas(GaiaEDR3) => Mv=2.03 =>
+  0.73 mag above MS. 
+
+
+# Other Stars
+
+HD 11171 = chi Cet = HR 531
+  F2III-IV: Gray03
+  F2IV-V: GrayGarrison89
+
+  several F2 classifications and the Gray classifications average out
+  to F2IV.
+  
+HD 10472
+ *F2IV: Pribulla14
+  F2IV/V: Houk75
+
+HD 51199 = HR 2590 
+  F1.5V: Gray06
+ *F2IV: Adams35,GrayGarrison89
+  F2IV/V: Houk88
+  F2V: 1937AnHar.105...45H
+  F3V: Abt08
+
+HD 164615
+ *F2IV: Abt83
+  F2IV-V: Harlan69
+  F2IV/V: Grenier99
+
+  Abt85 wrote whole paper just on this star: "HD 164615: A Probable
+  Spotted Single F Type Star", mentioning light variations of 0.05 mag
+  over period 0.815d. "spectrum is normal (F2IV)".
+
+HD 205539
+  F0/2V: 1979RA......9..479C
+  F0IV: Cowley74
+  F2IV: Grenier99
+ *F2IVp: Abt95(CaI,MgII weak)
+  F2IV/V: Abt69(lines weak)
+
+
+

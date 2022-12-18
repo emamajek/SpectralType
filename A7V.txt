@@ -1,7 +1,9 @@
 A7V
 
 Garrison94 does not list a A7V anchor standard, and MK73 does not list
-a A7V dagger standard.
+a A7V dagger standard. Garrison96 lists only two A7V stars among the
+brightest ~300 stars on the sky (V<3.55mag): alf Aql (A7Vnn) and alf
+Cep (A7Van).
 
 Probably the best A7V standards are 21 LMi (HD 87696) and Altair (HD 187642).
 
@@ -38,17 +40,23 @@ and within 1 mag of the MS (N=15):
 <V-Vt>(A7V)  =-0.026 (+-0.001 sem, +-0.003 stdev; N=15)
 <B-K>(A7V)   = 0.771 (+-0.062 sem, +-0.180 stdev; N=4)
 
-(B-V)(A7V)   = 0.181 ; primary A7V standard 21 LMi
+(B-V)(A7V)   = 0.181 ; primary standard 21 LMi
 (B-V)(A7V)   =  0.19  ; JohnsonMorgan53,Johnson66, KenyonHartmann95
 (B-V)(A7V)   =  0.20  ; Johnson63
 (B-V)(A7V)   =  0.20  ; Garrison67
 (B-V)(A7V)   =  0.20  ; Fitzgerald70, Morgan71
 (B-V)(A7V)   =  0.20  ; SchmidtKaler82
+(B-V)(A7V)   = 0.200 ; exemplar HD 222603 = HR 8984 = lam Psc 
 <B-V>(A7V)   = 0.205 ; nearby Gray01/03/06 (+-0.010 sem, +-0.031 stdev; N=12)
+(B-V)(A7V)   = 0.210 ; d<60pc SIMBAD A7V N=16
+(B-V)(A7V)   = 0.213 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 <B-V>(A7V)   = 0.214 ; nearby HIP A7V (+-0.013 sem, +-0.045 stdev; N=15)
+(B-V)(A7V)   = 0.214 ; sec. stan. HD 76644 (iot UMa)
+(B-V)(A7V)   = 0.216 ; exemplar HD 99211 = HR 4405 = gam Crt 
 (B-V)(A7V)   =  0.22  ; Bessell79
-(B-V)(A7V)   = 0.221 ; primary A7V standard Altair
-=> adopt (B-V)(A7V)  = 0.210 ***
+(B-V)(A7V)   = 0.221 ; pri. stan. Altair
+(B-V)(A7V)   =  0.233 ; BakisEker22 
+=> adopt (B-V)(A7V)  = 0.210 *** [updated 9/24/2020] 
 => adopt (U-B)(A7V)  = 0.091
 => adopt (V-I)(A7V)  = 0.242
 => adopt (V-R)(A7V)  = 0.117 
@@ -58,7 +66,56 @@ and within 1 mag of the MS (N=15):
 => adopt (V-Ks)(A7V) = 0.528
 => adopt (H-Ks)(A7V) = 0.040
 => adopt (J-H)(A7V)  = 0.055
-=> adopt (K-W1)(A7V) = 0.029
+
+(Bp-Rp)(A7V) =  0.2113  ; iot_Tau
+(Bp-Rp)(A7V) =  0.2622  ; HD_125489
+(Bp-Rp)(A7V) = 0.263   ; color trend for B-V=0.210
+(Bp-Rp)(A7V) =  0.2767  ; 21_LMi
+(Bp-Rp)(A7V) =  0.2849  ; lam_Psc
+(Bp-Rp)(A7V) =  0.2903  ; gam_Crt
+(Bp-Rp)(A7V) = 0.300   ; Evans18 trend for V-I= 0.242
+(Bp-Rp)(A7V) =  0.4852  ; iot_UMa
+=> adopt (Bp-Rp)(A7V)= 0.263 [updated 11/22/2020]
+
+(Bp-G)(A7V) = 0.090   ; color trend for B-V=0.210
+(Bp-G)(A7V) =  0.1148  ; HD_125489
+(Bp-G)(A7V) =  0.1213  ; iot_Tau
+(Bp-G)(A7V) =  0.1661  ; lam_Psc
+(Bp-G)(A7V) =  0.1733  ; 21_LMi
+(Bp-G)(A7V) =  0.1894  ; gam_Crt
+(Bp-G)(A7V) =  0.4163  ; iot_UMa
+=> adopt (Bp-G)(A7V) = 0.090 [updated 11/22/2020]
+
+(G-Rp)(A7V) =  0.0689  ; iot_UMa
+(G-Rp)(A7V) =  0.0901  ; iot_Tau
+(G-Rp)(A7V) =  0.1009  ; gam_Crt
+(G-Rp)(A7V) =  0.1034  ; 21_LMi
+(G-Rp)(A7V) =  0.1188  ; lam_Psc
+(G-Rp)(A7V) =  0.1474  ; HD_125489
+(G-Rp)(A7V) = 0.173   ; color trend for B-V=0.210
+=> adopt (G-Rp)(A7V) = 0.173 [updated 11/22/2020]
+
+(Ks-W1)(A7V) = 0.047 ; EEM trend for d<30pc for B-V=0.21
+=> adopt (Ks-W1)(A7V) = 0.047 [updated 12/29/2019]
+
+(G-V)(A7V) =  -0.060 ; * iot Boo dS* A7V
+(G-V)(A7V) =   -0.055 ; * alf Cir a2* A7VpSrCrEu
+(G-V)(A7V) =  -0.051 ; * del Dor * A7V
+(G-V)(A7V) =  -0.048 ; * 73 Her PM* A7V
+(G-V)(A7V) =  -0.044 ; * lam Mus PM* A7V
+(G-V)(A7V) =  -0.039 ; * lam Psc PM* A7V
+(G-V)(A7V) = -0.037 ; polynomial fit f(B-V)
+(G-V)(A7V) =  -0.036 ; HD 109536 PM* A7V
+(G-V)(A7V) =  -0.034 ; * 21 LMi dS* A7V(n)
+(G-V)(A7V) =  -0.024 ; HD 156295 PM* A7V
+(G-V)(A7V) =  -0.020 ; HD 172555 PM* A7V
+(G-V)(A7V) = -0.019 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.528
+(G-V)(A7V) =  -0.019 ; HD 165190 PM* A7V
+(G-V)(A7V) =   0.005 ; * tet Cas PM* A7V
+(G-V)(A7V) =    0.016 ; * M Vel PM* A7V
+(G-V)(A7V) =    0.057 ; * eps02 Lyr B A7Vn
+(G-V)(A7V) =    0.094 ; * 59 Dra PM* A7V
+=> adopt (G-V)(A7V) = -0.03 [updated 4/8/2022]
 
 (U-B)(A7V)   = 0.074 ; primary A7V standard 21 LMi
 (U-B)(A7V)   = 0.08  ; JohnsonMorgan53
@@ -73,41 +130,84 @@ and within 1 mag of the MS (N=15):
 
 (R-I)(A7V)   = 0.132 ; Bessell79
 
+(g-r)(A7V)   =  0.081 ; Jordi06 (V-R)=>(g-r) for V-R=0.117
+(g-r)(A7V)   = -0.016 ; Bilir05 (B-V)=>(g-r) for B-V=0.21
+(g-r)(A7V)   = -0.02  ; Covey07
+=> adopt (g-r)(A7V) = -0.02 [updated 10/10/2020]
+
 Teff(A7V) =  8000 K ; Bessell79
+Teff(A7V) = 7969 K ; pri. stan. 21 LMi (B-V=0.181)
 Teff(A7V) = 7868 K ; EEM N=117 Teffs
+Teff(A7V) = 7850 K ; median Teff for 7 A7V from Gray17
 Teff(A7V) =  7850 K ; Schmidt-Kaler82
 Teff(A7V) =  7840 K ; GrayCorbally94
 Teff(A7V) =  7830 K ; GrayCorbally09
+Teff(A7V) = 7815 K ; Gray03/06 A7Vs median value from Stassun19/TICv8 (N=6)
+Teff(A7V) = 7773 K ; exemplar HD 222603 = HR 8984 = lam Psc 
+Teff(A7V) = 7762 K ; Zorec12 median 
+Teff(A7V) = 7723 K ; pri. stan. Altair (B-V=0.221)
+Teff(A7V) = 7703 K ; sec. stan. HD 76644 (iot UMa; B-V=0.214)
 Teff(A7V) =  7700 K ; Theodossiou90
-Teff(A7V) = 7687 K ; mean photometric Teff
-Teff(A7V) = 7588 K ; pri. stan. Altair (Blackwell80)
+Teff(A7V) = 7687 K ; mean photometric Teff (B-V=0.21)
 Teff(A7V) =  7303 K ; Boyajian12
-=> adopt Teff(A7V) = 7800 K (logT = 3.892)
+=> adopt Teff(A7V) = 7760 K (logT = 3.890) [updated 9/24/2020]
+[EEM 9/24/2020: Teff=7760K/B-V=0.21 smoothly fits on A dwarf sequence]
 
-BCv(A7V) = 0.058 mag ; Balona94(Teff=7800K)
-BCv(A7V) = 0.058 mag ; Bertone04(ATLAS,Teff=7800K)
-BCv(A7V) = 0.040 mag ; Masana06(with +0.04 mag offset)
-BCv(A7V) = 0.036 mag ; Flower96(Teff=7800K)
-BCv(A7V) = 0.015 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7800K)
-BCv(A7V) = 0.010 mag ; Code76(Teff=7800K)
-BCv(A7V) = 0.010 mag ; Schmidt-Kaler82(BCv=-0.12 + 0.13 offset)
-=> adopt BCv(A7V) = 0.04 mag (+-0.02 rms)
+BCv(A7V) =  0.049 mag ; Balona94(Teff=7750K, BCv(5772K)=-0.085)
+BCv(A7V) =  0.046 mag ; Bertone04(ATLAS,Teff=7750, BCv(5772K)=-0.085)
+BCv(A7V) =  0.025 mag ; Masana06(Teff=7750K, BCv(5772K)=-0.085
+BCv(A7V) =  0.024 mag ; Flower96(Teff=7750K, BCv(5772K)=-0.085)
+BCv(A7V) =  0.015 mag ; EEM trend mid-As
+BCv(A7V) =  0.010 mag ; Schmidt-Kaler82(BCv=-0.12 + 0.13 offset)
+BCv(A7V) =  0.009 mag ; exemplar HD 222603 = HR 8984 = lam Psc (Boyajian13)
+BCv(A7V) =  0.004 mag ; exemplar HD 222603 = HR 8984 = lam Psc (vanBelle08)
+BCv(A7V) =  0.002 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7750K, BCv(5772K)=-0.085)
+BCv(A7V) =  0.000 mag ; Code76(Teff=7750K, BCv(5772K)=-0.085)
+BCv(A7V) = -0.007 mag ; Casagrande18(Teff=7750K,logg=4.5, BCv(5772K)=-0.085)
+=> adopt BCv(A7V) = 0.010 [updated 9/24/2020; that BCv(5772K)=-0.085]
 
-Mv(A7V) = 2.3  mag ; GrayCorbally09 
-Mv(A7V) = 2.2  mag ; Schmidt-Kaler82
-Mv(A7V) = 2.07 mag ; B-V=0.210 => Mv(Wright05)
-Mv(A7V) = 1.76 mag ; Wegner07
-=> adopt Mv(A7V) = 2.07 mag  
- 
-logL(A7V) = 1.058 dex ; Mv=2.07, BCv=0.04 => Mbol = 2.110
-=> adopt logL(A7V) = 1.06 dex
-=> adopt Mbol(A7V) = 2.11 mag
+logg(A7V) = 4.2 ; median logg for 7 A7V from Gray17
 
-Mass(A6V) = 1.77 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.07)
+Mv(A7V) =  2.40 mag ; ter. stan. HD 23156 = Cl Melotte 22 158 (Pleiad)
+Mv(A7V) =  2.33 mag ; sec. stan. iot UMa
+Mv(A7V) =   2.3  mag ; GrayCorbally09
+Mv(A7V) =  2.23 mag ; pri. stan. 21 LMi (HIP2)
+Mv(A7V) =  2.23 mag ; A dwarf sequence B-V vs. Mv for B-V=0.21
+Mv(A7V) =  2.22 mag ; pri. stan. Altair
+Mv(A7V) =  2.22 mag ; d<60pc SIMBAD A7V (N=16)
+Mv(A7V) =   2.2  mag ; Schmidt-Kaler82
+Mv(A7V) =  2.14 mag ; interp BAF dwarf seq for B-V=0.21
+Mv(A7V) = 2.11 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.21
+Mv(A7V) =  2.07 mag ; B-V=0.210 => Mv(Wright05)
+Mv(A7V) =  2.06 mag ; exemplar HD 99211 = HR 4405 = gam Crt (HIP2)
+Mv(A7V) =  1.98 mag ; d<60pc Mv(B-V=0.21)
+Mv(A7V) =  1.97 mag ; median Mv for A9V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
+Mv(A7V) =  1.92 mag ; exemplar HD 222603 = HR 8984 = lam Psc (HIP2)
+Mv(A7V) =   1.76 mag ; Wegner07
+=> adopt Mv(A7V)   = 2.23  mag [updated 9/24/2020]
+=> adopt M_G(A7V)  = 2.19  mag [updated 12/10/2020] (Mv=2.23, G-V=-0.04)
+=> adopt M_Ks(A7V) = 1.702 mag [updated 12/30/2020] (Mv=2.23, V-Ks=0.528)
+
+logL(A7V) = 1.334 dex ; Zorec12 median 
+logL(A7V) = 1.000 dex ; Mv=2.23, BCv=0.010 => Mbol = 2.240
+=> adopt logL(A7V) = 1.000 dex [updated 9/24/2020]
+=> adopt Mbol(A7V) = 2.240 mag [updated 9/24/2020]
+
+Rad(A7V) = 1.807 Rsun ; smoothed SpT vs Rad trend A/F dwarfs
+Rad(A7V) = 1.805 Rsun ; Altair (see below)
+Rad(A7V) = 1.793 Rsun ; Gray03/06 A7Vs median value from Stassun19/TICv8 (N=6)
+Rad(A7V) = 1.750 Rsun ; Teff=7760K, logL=1.000
+=> adopt Rad(A7V) = 1.750 Rsun [updated 9/24/2020]
+
+Mass(A7V) = 1.97 Msun ; Zorec12 median
+Mass(A7V) = 1.791 Msun ; pri. stan. Altair (Monnier09)
+Mass(A7V) = 1.77 Msun ; pri. stan. Altair (Zorec12)
+Mass(A7V) = 1.77 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.07)
 Mass(A7V) = 1.76 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7800K)
-Mass(A7V) = 1.76 Msun ; Ekers15 ML calibration for logL=1.06
-Mass(A7V) = 1.74 Msun ; EEM logL vs. Mass fit for binaries (logL=1.05)
-=> adopt Mass(A7V) = 1.76 Msun
+Mass(A7V) = 1.76 Msun ; Ekers15 ML calibration for logL=1.065
+Mass(A7V) = 1.75 Msun ; EEM logL vs. Mass fit for binaries (logL=1.05)
+Mass(A7V) = 1.62 Msun ; pri. stan. Altair (David15)
+=> adopt Mass(A7V) = 1.76 Msun [updated 9/16/2019]
 
 # No standard
 
@@ -117,58 +217,136 @@ Skiff08 did not flag any stars as A7V MK standards.
 
 # Primary standards
 
-HD 87696 = 21 LMi = HR 3974 = HIP 49593
+HD 87696 = 21 LMi = HR 3974 = HIP 49593 (Ursa Major cluster member)
   A7V: JM53,Jaschek64(all),Cowley69(stan),Barry70(UVmetal-wk),Cowley74(stan),HoukStand,Jaschek78,Garcia89
-  A7Vn: GrayGarrison89(stan),Gray03(A7V(n))
+ *A7Vn: GrayGarrison89(stan),Gray03(A7V(n))
   A5III: Levato78
   A5: Cannon
   A9VmA5p lam Boo: Abt95
 
-  B-V(HIP)=0.190, dMv=+0.28, d=28pc... hence clearly an unreddened dwarf. 
-  GrayGarrison89 list it as their high-vsini A7V standard Strong A7V
-  pedigree (JM53, HoukStand, GrayGarrison, Gray03). Only one Teff
-  estimate: 7839K (Gray03) Should we be concerned about Abt95's lambda
-  Boo classification? V=4.485+-0.009(Mermilliod91), V=4.49(HIP),
+  B-V(HIP)=0.190, dMv=+0.28, d=28pc... hence clearly an unreddened
+  dwarf.  GrayGarrison89 list it as their high-vsini A7V standard
+  Strong A7V pedigree (JM53, HoukStand, GrayGarrison, Gray03).  Should
+  we be concerned about Abt95's lambda Boo classification?
+  V=4.485+-0.009(Mermilliod91), V=4.49(HIP),
   B-V=0.181+-0.009(Mermilliod91), U-B=0.074+-0.006(Mermilliod91),
-  V-I=0.19+-0.03(HIP).
+  V-I=0.19+-0.03(HIP), plx=35.41+-0.18mas(HIP2),
+  plx=37.0336+-0.2931mas(GaiaDR2).
+  Mv=2.23+-0.014(Mermilliod91,HIP2). Teffs: 7292K(GaiaDR2),
+  7668K(Stevens17#1), 7839K(Gray03), 7870K(Zorec12,Stassun18),
+  7969K(Stevens17#2), 8000K(Ballering13), 8036K(King03),
+  8173K(David15), 8250K(Chen14) => <Teff> = 7969K.
 
-HD 187642 = Alf Aql = Altair = HR 7557 = HIP 97649 
-  A7V: MK43(stan),Cowley72(stan),Cowley74(stan),GrayGarrison89(A7Vnn),Garrison96(A7Vnn),Gray03(A7Vn)
-  A7IV-V: JM53,Jaschek78(JM53),Cowley69(stan)
+HD 187642 = alf Aql = Altair = HR 7557 = HIP 97649
   A5: Cannon
   A5IVn: Abt95
-  A6Vn: Palmer69 
+  A6Vn: Palmer69
+  A7: 1897AnHar..28....1M 
+ *A7V: MK43(stan),Cowley72(stan),Cowley74(stan),GrayGarrison89(A7Vnn),Garrison96(A7Vnn),Gray03(A7Vn)
+  A7IV-V: JM53(A7IV/V),Jaschek78(JM53),Cowley69(stan)
   A9V: Barry70
 
-  Jaschek64 is split evenly between A7IV-V and A7V.
-  B-V=0.221+-0.010(HIP), dMv=+0.08, pi=194mas, so it is very much a
-  "dwarf". There is broad agreement on A7 subtype, and mostly on
-  luminosity class.  MK43,GrayGarrison89,Gray03,JM53,Cowley69 all say
-  "A7". V=0.76(HIP), B-V=0.221+-0.010(HIP), V-I=0.27+-0.02(HIP),
-  U-B=0.084+-0.022(Mermilliod91). Teff = 7588 K (Blackwell80). 
+  There is broad agreement on A7 subtype, and mostly on luminosity
+  class. Fast-rotating M&M, with Teff at pole around (8710,8450)K and
+  equator (6850,6860)K, depending on the beta of grav-darkening
+  coefficient (Monnier09).  B-V=0.221+-0.010(HIP), dMv=+0.08,
+  pi=194mas, so it is very much a "dwarf" at least according to
+  color-mag.  MK43,GrayGarrison89,Gray03,JM53,Cowley69 all say
+  "A7". V=0.76(HIP), V=0.765+-0.015(Mermilliod91),
+  B-V=0.221+-0.010(HIP), V-I=0.27+-0.02(HIP),
+  U-B=0.084+-0.022(Mermilliod91), plx=194.95+-0.57mas(HIP2) => Mv =
+  2.215+-0.016(Mermilliod91,HIP2). PASTEL median values: Teffs:
+  7361K(Huang15), 7377K(Luck17), 7550K(Erspamer03),
+  7568K(diBenedetto98), 7646K(AllendePrieto04), 7718K(Schroeder09),
+  7727K(Zorec12), 7747K(Stassun18), 7780K(Monnier09 average of Teq &
+  Tpole), 7799K(David15), 7800K(Gray03), 8040K(Sokolov95), => <Teff> =
+  7723K.  [Fe/H]=-0.24(N=1), <logg>=4.18(N=2).  For BCv=0.03 +
+  V=0.765+-0.015, plx(HIP2) => Mbol=2.25, logL=0.998. For Teff=7639K
+  => Rad = 1.805 Rsun.
 
 # Secondary Standard
 
 HD 76644 = iot UMa = 9 UMa = HR 3569 = HIP 44127
-  A7V: JM53,Jaschek64(all),Cowley67,Cowley69(stan),Barry70,Gray03(A7Vn)
+ *A7V: JM53,Jaschek64(all),Cowley67,Cowley69(stan),Barry70,Gray03(A7Vn)
   A7IV: Morgan72,MK73(dagger),Garcia89,GrayGarrison89
   A6V: Palmer68
   A5: Cannon
 
   B-V(HIP)=0.223, dMv=+0.16... so it is probably a dwarf.
-  Spectroscopic binary. Basically A7V until ~Morgan72, then A7IV since
-  until Gray03. 
-  Beware! M2V component "BC" 3.7" away
+  V=3.13(HIP), V=3.140+-0.014(Mermilliod91),
+  B-V=0.196+-0.013(Mermilliod91), B-V=0.214+-0.003(TYC),
+  B-V=0.223+-0.003(HIP), plx=68.92+-0.16mas(HIP2),
+  plx=70.6390+-0.6876mas(GaiaDR2) =>
+  Mv=2.332+-0.015(Mermilliod91,HIP2).  Spectroscopic binary. Basically
+  A7V until ~Morgan72, then A7IV since until Gray03.  Beware! M2V
+  component "BC" 3.7" away. Teffs: 6265K(GaiaDR2), 7436K(Stevens17),
+  7600K(Gebran16), 7703K(Wu11), 7769K(Gray03),
+  7907K(Zorec12,Stassun18), 8233K(David15) => <Teff> = 7703K.
 
-HD 23156 = Cl Melotte 22 158 = BD+23_495
-  A7V: Jaschek64,Jaschek78(Mendoza56),GrayGarrison89,Grenier99,Gray01,GrayNstars
+HD 23156 = Cl Melotte 22 158 = BD+23_495 (Pleiad)
+ *A7V: Jaschek64,Jaschek78(Mendoza56),GrayGarrison89,Grenier99,Gray01,GrayNstars
   A8V: Atanasijevic58
   A9Vs: Adams35
   A5: Cannon,Lindblad22
 
-  Fairly good agreement on A7V. Only considered a standard by GrayNstars. 
+  Fairly good agreement on A7V. Only considered a standard by
+  GrayNstars.  plx=7.2264+-0.0629 mas (GaiaDR2). V=8.22.  Adopt
+  E(B-V)=0.04, Av=0.12 => Mv = 2.40.
 
-# Weak standards
+# Exemplars
+
+HD 99211 = HR 4405 = gam Crt = HIP 55705
+  A3V: Maury1897
+  A5V: 1955MmMtS..12....1W
+  A6IV: Levato72
+ *A7V(n): 1978A&AS...35...75C(A7V),GarrisonGray89(A7V),Abt95(A7V),Gray06
+  A7IV-V: Cowley69
+  A7IV: DeVaucouleurs57
+
+  Physical companion at 5" (see GaiaDR2 motion+parallax).
+  V=4.06(HIP), V=4.071+-0.005(Hauck97), V=4.08(TYC),
+  B-V=0.216+-0.006(HIP), GaiaDR2:
+  plx=38.0906+-0.3570mas. E(B-V)=0.000(Kervella19).  For
+  delta(mag)=3.81 => V(AB)=4.071 => V(A)=4.10, V(B)=7.91.  Mv=2.00.
+
+HD 222603 = HR 8984 = lam Psc = HIP 116928 
+  A6IV-: GrayGarrison89
+ *A7V: Chalonge52,Slettebak55,Palmer68,Cowley69,Levato72,Cucchiaro78,Levato78,Gray03
+  A7IV: Abt95
+
+  8 A7V classifications in literature. plx=30.59+-0.19mas(HIP2) =>
+  D=32.690+-0.203pc, plx=31.7337+-0.3403mas(GaiaDR2).  V=4.49(HIP),
+  V=4.500+-0.001(Hauck97), V=4.50(TYC), V=4.502+-0.014(Mermilliod91),
+  B-V=0.200+-0.006(HIP), B-V=0.202+-0.009(Mermilliod91),
+  V-Ic=0.22+-0.02(HIP),
+  U-B=0.078+-0.007(Mermilliod91). Mv=1.928+-0.014.  Published Teffs in
+  good agreement: Teff=7646+-190K(Paunzen06), 7668K(Trifonov20),
+  7734+-80K(Boyajian13), 7766+-70K(Blackwell98), 7779K(Katz11),
+  7792K(diBenedetto98), 7798+-54K(Zorec12), 8168+-278K(David15) =>
+  <Teff> = 7773K. [Fe/H]=+0.02(Gebran16), logg=4.08(Gebran16).
+  tetLD=0.581+-0.012mas(Boyajian13) => plx(HIP) => R=2.042+-0.044
+  Rsun.  fbol = (40.2200+-0.0933)e-8 erg/s/cm2(Boyajian13) => mbol =
+  4.4914+-0.0025 (IAU2015 scale). BCv = V - mbol = 4.500 - 4.4914 =
+  +0.0086.  fbol = (40.05+-0.24)e-11 W/m2 (vanBelle08) =>
+  mbol=4.4960+-0.0065 mag (IAU2015 scale) => BCv = 4.500 - 4.496 =
+  +0.004.
+
+HD 32301 = HR 1620 = iot Tau = HIP 23497 
+   A7IV: GrayGarrison89
+  *A7V: 1940ApJ....91..256T,Slettebak55,Cowley69,Abt95
+
+   B-V=0.155, del(Mv)=-0.82, Mv=1.00. 
+
+HD 125489 = HR 5368
+   A6V: Palmer68
+   A7V: Cowley69,GrayGarrison89
+  *A7Vn: Gray01,Griffin12
+   F0VmA5p lambda Boo: Abt95
+
+   del(Mv)=0.14, Mv=2.17, B-V=0.201.
+
+
+# Deprecated standards
 
 HD 71297 = 2 Hya = HR 3321 = HIP 41375
    A7V: GrayGarrison89
@@ -197,13 +375,14 @@ HD 6961 = tet Cas = 33 Cas = HR 343 = HIP 5542
   So in general, "A7" is agreed upon by JM53 & GrayGarrison89
   Probably could be considered "A7IV/V", but maybe not the best standard
   
-HD 203280 = alf Cep = HIP 105199
-  A7V: MK43,Palmer68,Cowley74(stan),Garrison96(A7Van)
+HD 203280 = alf Cep = HIP 105199 = Alderamin
+ *A7V: MK43,Palmer68,Cowley74(stan),Garrison96(A7Van)
   A7V-IV: Cowley69(stan),Jaschek78
   A7:Vn: Abt95
   A8IV: Barry70
   A8Vn: Gray03
   A5: Cannon
+  
   Jaschek64 lists mix of (A7V, V-IV, & IV-V)
   B-V(HIP)=0.257, dMv=-0.73, d=15pc
   Subtypes shifted a bit A7=>A8 and it appears to be slightly evolved
@@ -216,4 +395,70 @@ Coma T60
 
 # Other Stars
 
-Morgan65 classified one Hyad as A7V: HD 27934. 
+Morgan65 classified one Hyad as A7V: HD 27934.
+
+HD 27934 = HR 1387 = kap01 Tau 
+   A5V: 1940ApJ....91..256T,Adasm35
+   A5IV: Palmer68
+  *A5IV-V: GrayGarrison89
+   A6V: Abt95
+   A7V: Slettebak55,Morgan65
+   A7IV-V: Cowley69
+   
+   Only Hyad classifed as A7V by Morgan65. del(Mv)=-0.90mag. B-V=0.136. 
+
+HD 27819 = HR 1380 = 64 Tau
+   A2Vn: Paunzen01
+   A3: Maury1897,Ljunggren61IV: Palmer68
+   A5III: Cucchiaro80
+   A6V: 1940ApJ....91..256T
+   A7IV: GrayGarrison89
+  *A7V: Slettebak55,Cowley69,Gray01
+   A7.5V: Morgan65
+   A8V: Abt95
+   A9V: Adams35
+   F0: 1920AN....211..289K
+
+   Only Hyad classified A7.5V by Morgan65.  B-V=0.154, Mv=1.33,
+   del(Mv)=-0.49. 
+
+HD 138268 = HR 5756 A
+   A5Vn: Wilson50(SB2)
+   A7V: 1977AJ.....82..431L,Corbally84
+  *A7Vn: Cowley76,Abt95
+   A8V: Cowley69 
+
+   11" pair. 
+   
+HD 27084 = HR 1330
+   A7V: Cowley69,1987ApJS...64..241S
+   A7IV: Abt95
+  *A7IV-V: GrayGarrison89
+
+HD 39014 = HR 2015
+   A6V: 1937AnHar.105...45H
+   A7IV: Houk75(Garrison type)
+   A7IVn: Levato72
+   A7V: 1955MmMtS..12....1W,Houk75(MSS type)
+  *A7V+n: GrayGarrison89
+   A9V: Abt95
+
+   B-V=0.217, del(Mv)=-1.07, Mv=1.03. 
+
+HD 196078 = HR 7865
+   A7V: Cowley69,Abt95,GrayGarrison89(A7V+)
+
+   All three classifications A7 dwarf.
+
+HD 202128 = HR 8116
+   A3V: Wilson52(close pair)
+   A5V: Abt81
+   A7V: Christy69
+  *A7Vn: Cowley69,Abt95
+
+
+
+
+   
+  
+   

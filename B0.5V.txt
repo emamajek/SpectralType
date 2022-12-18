@@ -19,9 +19,11 @@ Sota11 standard:     HD 36960 - B0.5V
 Garcia89 lists 2 B0.5V MK standards: HD 8965 and 22951.
 
 B-V(B0.5V)  = -0.295  ; EEM dereddened pri. stan. HD 36960 via Q-method
+B-V(B0.5V)  = -0.289  ; U-B=-1.03 via trend/Q-method
 B-V(B0.5V)  = -0.287  ; EEM dereddened N=7 HIP B0.5V stars via Q-method
 B-V(B0.5V)  = -0.282  ; EEM dereddened pri. stan. Bet Sco A via Q-method
 B-V(B0.5V)  = -0.28   ; Morgan53,Johnson63,JohnsonBorgman63,Johnson66,Garrison67,Fitzgerald70,Morgan71
+=> adopt (B-V)(B0.5V) = -0.289 [updated 2/7/2020]
 
 U-B(B0.5V)  = -1.009  ; EEM dereddened primary standard Bet Sco A via Q-method
 U-B(B0.5V)  = -1.01   ; Johnson63,Johnson66
@@ -29,21 +31,26 @@ U-B(B0.5V)  = -1.02   ; JohnsonBorgman63
 U-B(B0.5V)  = -1.026  ; EEM dereddened N=7 B0.5V HIP stars via Q-method
 U-B(B0.5V)  = -1.03   ; Bessell98
 U-B(B0.5V)  = -1.05   ; EEM dereddened pri. stan. HD 36960 via Q-method
-=> adopt (U-B)(B0.5V) = -1.026 
-=> adopt (B-V)(B0.5V) = -0.295
-=> adopt     Q(B0.5V) = -0.814 (=(U-B)-0.72*(B-V) = -1.026 - 0.72*-0.295)
-=> adopt (V-K)(B0.5V) = -0.913
+=> adopt (U-B)(B0.5V) = -1.03  [updated 2/7/2020] 
+=> adopt     Q(B0.5V) = -0.821 [updated 2/7/2020]
+=> adopt (V-Ks)(B0.5V) = -0.913
 => adopt (H-K)(B0.5V) = -0.063
 => adopt (J-H)(B0.5V) = -0.153
 => adopt (V-I)(B0.5V) = -0.338
+
+(Bp-Rp)(B0.5V) = -0.469 ; Evans18 trend for V-I=-0.338
+
+(g-r)(B0.5V) = -0.54 ; Covey07 interp B0V -0.59 to B1V -0.49
 
 Teff(B0.5V) = 26378 K ; pri. stan. Bet Sco A (median Teff)
 Teff(B0.5V) = 26606 K ; EEM N=21 Teffs
 Teff(B0.5V) =   27300 K ; Bohm-Vitense81
 Teff(B0.5V) =   27500 K ; Chavez95 (+200-300K)
+Teff(B0.5V) =   27700 K ; eclipsing binary HD 218066 (Torres10)
 Teff(B0.5V) =   27731 K ; U-B=-1.026 => Teff(Bessell98)
 Teff(B0.5V) =   28000 K ; Crowther97/Fig.3 
 Teff(B0.5V) =   28500 K ; Bessell98
+Teff(B0.5V) = 28840 K ; Simon-Diaz17 median for B0.5V (N=5)
 Teff(B0.5V) = 28854 K  ; pri. stan. HD 36960
 Teff(B0.5V) =   29300 K ; non-standard HD 37042 (tet02 Ori B; Nieva14)
 Teff(B0.5V) = 29479 K  ; sec. stan. HD 8965
@@ -53,46 +60,65 @@ Teff(B0.5V) =   30400 K ; non-standard HD 34816 (lam Lep; Nieva14)
 Teff(B0.5V) =   30700 K ; non-standard HD 37042 (tet01 Ori A; Nieva14)
 Teff(B0.5V) =   32060 K ; Vacca96
 Teff(B0.5V) =   33412 K ; B-V=-0.287 => Teff(Bessell98)
-=> adopt Teff(B0.5V) = 29000 K (logT = 4.462)
+=> adopt Teff(B0.5V) = 29000 K (logT = 4.462) [updated 9/20/2019]
 
 Mv(B0.5V) = -4.10 mag ; Vacca96
+Mv(B0.5V) =  -4.05 mag ; HIP_102771 B0.5V plx=1.092 mas, Vmag=6.450,E(B-V)=0.224
+Mv(B0.5V) =  -4.04 mag ; HIP_15584 B0.5V plx=0.912 mas, Vmag=8.996,E(B-V)=0.914
+Mv(B0.5V) =  -3.87 mag ; HIP_110125 B0.5V plx=1.107 mas, Vmag=7.773,E(B-V)=0.602
 Mv(B0.5V) = -3.83 mag ; pri. stan. HD 36960 (see below)
 Mv(B0.5V) = -3.8  mag ; GrayCorbally09(halfway B0V-B1V)
+Mv(B0.5V) =  -3.71 mag ; HIP_110998 B0.5V plx=1.056 mas, Vmag=8.014,E(B-V)=0.595
 Mv(B0.5V) = -3.7  mag ; Russeil03 
 Mv(B0.5V) = -3.60 mag ; mean Mv for standards HD 36960 & bet Sco A
-Mv(B0.5V) = -3.6  mag ; Schmidt-Kaler82(halfway B0V-B1V)
+Mv(B0.5V) =  -3.6  mag ; Schmidt-Kaler82(halfway B0V-B1V)
+Mv(B0.5V) = -3.55 mag ; Bowen08
+Mv(B0.5V) =  -3.55 mag ; HIP_6979 B0.5V plx=1.072 mas, Vmag=7.289,E(B-V)=0.319
+Mv(B0.5V) = -3.5  mag ; EEM OB trend as function of logTeff
+Mv(B0.5V) =  -3.46 mag ; HIP_107442 B0.5V plx=1.103 mas, Vmag=7.487,E(B-V)=0.375
 Mv(B0.5V) = -3.36 mag ; pri. stan. bet Sco A (see below)
-Mv(B0.5V) = -3.29 mag ; Wegner07
-=> adopt Mv(B0.5V) = -3.6 mag 
+Mv(B0.5V) =  -3.29 mag ; Wegner07
+Mv(B0.5V) =  -2.74 mag ; HIP_99746 B0.5V plx=1.280 mas, Vmag=7.096,E(B-V)=0.121
+Mv(B0.5V) =  -2.51 mag ; HIP_99435 B0.5V plx=1.586 mas, Vmag=6.840,E(B-V)=0.113
+Mv(B0.5V) =  -2.15 mag ; HIP_96608 B0.5V plx=1.446 mas, Vmag=7.490,E(B-V)=0.142
+Mv(B0.5V) =  -1.52 mag ; HIP_88995 B0.5V plx=0.830 mas, Vmag=9.843,E(B-V)=0.309
+=> adopt Mv(B0.5V)   = -3.50  mag [updated 2/10/2020]
+=> adopt M_Ks(B0.5V) = -2.587 mag = Mv - (V-Ks) = -3.50 - -0.913 [updated 12/30/2020]
 
-BCv(B0.5V) = -3.12  mag ; Vacca96
-BCv(B0.5V) = -2.883 mag ; Flower96(Teff=29000K)
-BCv(B0.5V) = -2.836 mag ; Bertone04(ATLAS,Teff=29000K)
-BCv(B0.5V) = -2.831 mag ; Code76(Teff=29000K)
+BCv(B0.5V) =  -3.12  mag ; Vacca96
+BCv(B0.5V) =  -2.897 mag ; Flower96(Teff=29000K, set so BCv(5772K)=-0.085)
+BCv(B0.5V) = -2.850 mag ; Bertone04(ATLAS,Teff=29000K, set so BCv(5772K)=-0.085)
+BCv(B0.5V) =  -2.841 mag ; Code76(Teff=29000K, set so BCv(5772K)=-0.085)
+BCv(B0.5V) = -2.828 mag ; Bessell98(ATLAS9,logg=4.0,Teff=29000K, set so BCv(5772K)=-0.085)
+BCv(B0.5V) =  -2.825 mag ; Balona94(Teff=29000K, set so BCv(5772K)=-0.085)
 BCv(B0.5V) = -2.820 mag ; LanzHubeny07(Teff=29000,logg=4.0,Z/Zsun=1)
-BCv(B0.5V) = -2.813 mag ; Bessell98(ATLAS9,logg=4.0,Teff=29000K)
-BCv(B0.5V) = -2.812 mag ; Balona94(Teff=29000K)
-BCv(B0.5V) = -2.80  mag ; Schmidt-Kaler82(halfway B0V-B1V; BCv=-2.93+0.13 offset)
-=> adopt BCv(B0.5V) = -2.83 mag (+-0.03 mag systematic)
+BCv(B0.5V) =  -2.80  mag ; Schmidt-Kaler82(halfway B0V-B1V; BCv=-2.93+0.13 offset)
+=> adopt BCv(B0.5V) = -2.83 [updated 9/20/2019, BCv(5772K)=-0.085]
 
-logL(B0.5V) = 4.789 dex ; Vacca96
-logL(B0.5V) = 4.544 dex ; pri. stan. HD 36960 (see below)
-logL(B0.5V) = 4.474 dex ; Mv=-3.6, BCv=-2.83 mag => Mbol = -6.43
-logL(B0.5V) = 4.432 dex ; pri. stan. bet Sco A (see below) 
-=> adopt logL(B0.5V) =  4.47 dex 
-=> adopt Mbol(B0.5V) = -6.43 mag
+logL(B0.5V) =   4.789 dex ; Vacca96
+logL(B0.5V) =  4.544 dex ; pri. stan. HD 36960 (see below)
+logL(B0.5V) =  4.432 dex ; pri. stan. bet Sco A (see below)
+logL(B0.5V) = 4.428 dex ; Mv=-3.5, BCv=-2.83 mag => Mbol = -6.330
+logL(B0.5V) =  4.318 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=29000K)
+logL(B0.5V) =  4.145 dex ; eclipsing binary HD 218066B (Torres10, log(age/yr)=6.6)
+=> adopt logL(B0.5V) =  4.428 dex [updated 2/9/2020]
+=> adopt Mbol(B0.5V) = -6.330 mag [updated 2/9/2020]
 
-Mass(B0.5V) = 11.91+-0.20 Msun ; Eclipsing binary CW Cep B (Torres10)
-Mass(B0.5V) = 12.81 Msun ; EEM Teff vs. Mass fit for binaries (Teff=28000K)
-Mass(B0.5V) = 13.05+-0.20 Msun ; Eclipsing binary CW Cep A (Torres10)
-Mass(B0.5V) = 13.19 Msun ; Harmanec88
+Mass(B0.5V) = 11.91+-0.20 Msun ; Eclipsing binary CW Cep B (Torres10, log(age/yr)=6.6)
+Mass(B0.5V) =  12.81 Msun ; EEM Teff vs. Mass fit for binaries (Teff=28000K)
+Mass(B0.5V) = 13.05+-0.20 Msun ; Eclipsing binary CW Cep A (Torres10, log(age/yr)=6.6)
+Mass(B0.5V) =  13.19 Msun ; Harmanec88
 Mass(B0.5V) = 13.44+-0.25 Msun ; Eclipsing binary AH Cep B (Torres10)
-Mass(B0.5V) = 14.96 Msun ; EEM logL vs. Mass fit for binaries (logL=4.49)
+Mass(B0.5V) = 14.8 Msun ; MIST/Choi16 solar tracks logT=4.462,logL=4.428
+Mass(B0.5V) =  14.96 Msun ; EEM logL vs. Mass fit for binaries (logL=4.49)
 Mass(B0.5V) = 15.0+-0.7 Msun ; pri. stan. Bet Sco Aa (Catanzaro10)
 Mass(B0.5V) = 15.26+-0.35 Msun ; Eclipsing binary AH Cep A (Torres10)
-Mass(B0.5V) = 15.35 Msun ; Ekers15 ML calibration for logL=4.47
-Mass(B0.5V) = 16.05 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-3.7)
-=> adopt Mass(B0.5V) = 15 Msun (wide dispersion)
+Mass(B0.5V) =  15.35 Msun ; Ekers15 ML calibration for logL=4.47
+Mass(B0.5V) =  16.05 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-3.7)
+=> adopt Mass(B0.5V) = 14.8 Msun [updated 4/16/2022]
+
+Rad(B0.5V) = 6.4842 Rsun ; Teff=29000K, logL=4.428
+=> adopt Rad(B0.5V) = 6.484 Rsun [updated 2/9/2020]
 
 # No Standard
 

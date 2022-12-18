@@ -9,32 +9,34 @@ B type stars).  GrayGarrison87 retained HD 23873 as B9.5Va, however
 the same study considered the B9.5V MK78 standard HD 19805 to be
 A0Va+. 
 
-JM53 standard:       ome^2 Aqr - B9.5V
-Cowley69 standard:   ome^2 Aqr - B9.5V 
-Cowley72 standard:   ome^2 Aqr - B9.5V
-MK78 standard:       HD 19805  - B9.5V
-     		     HD 23873 (= Hz I 910) - B9.5V
-Keenan85 standard:   HD 19805 (typo - written "HD 19803", which is a K1III!) - B9.5V 
+JM53 standard:         ome^2 Aqr - B9.5V
+Cowley69 standard:     ome^2 Aqr - B9.5V 
+Cowley72 standard:     ome^2 Aqr - B9.5V
+MK78 standard:         HD 19805  - B9.5V
+     		       HD 23873 (= Hz I 910) - B9.5V
+Keenan85 standard:     HD 19805 (typo - written "HD 19803", which is a K1III!) - B9.5V
+WiegertGarrison98 st.: ome^2 Aqr - B9.5V
 
 Skiff08 lists only two B9.5V standards: HD 19805 and HD 23873.
 
 All dereddenings calculated via the Q-method have been updated using
 the new calibration (10/11/2011).
 
-B-V(B9.5V)   = -0.03  ; Morgan53, Johnson63
-B-V(B9.5V)   = -0.04  ; Fitzgerald70, Morgan71
+B-V(B9.5V)   =  -0.03 ; Morgan53, Johnson63
+B-V(B9.5V)   =  -0.04 ; Fitzgerald70, Morgan71
 B-V(B9.5V)   = -0.047 ; prim. stan. ome^2 Aqr (EEM dereddened via Q-method)
 B-V(B9.5V)   = -0.050 ; prim. stan. HD 23873 (EEM dereddened)
 B-V(B9.5V)   = -0.052 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
 B-V(B9.5V)   = -0.067 ; EEM 3 d<75 pc B9.5V Hipparcos stars
-=> adopt (B-V)(B9.5V)  = -0.050 
+B-V(B9.5V)   = -0.076 ; exemplar 16 Dra A = HD 150100 
+=> adopt (B-V)(B9.5V)  = -0.050 [updated 9/20/2019]
 
 U-B(B9.5V)   = -0.143 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
 U-B(B9.5V)   = -0.136 ; prim. stan. HD 23873 (EEM dereddened via Q-method)
 U-B(B9.5V)   = -0.124 ; prim. stan. ome^2 Aqr (EEM dereddened via Q-method)
 U-B(B9.5V)   = -0.102 ; HIP d<75pc S/N>8 A0V N=4 (Mermilliod91 photometry)
 U-B(B9.5V)   =  -0.10  ; Fitzgerald70
-=> adopt (U-B)(B9.5V)  = -0.13  ***
+=> adopt (U-B)(B9.5V)  = -0.13  *** [updated 9/26/2019]
 => adopt     Q(B9.5V)  = -0.094 (=(U-B)-0.72*(B-V) = -0.130 - 0.72*-0.050)
 => adopt (V-I)(B9.5V)  = -0.035
 => adopt (V-R)(B9.5V)  = -0.017
@@ -44,57 +46,103 @@ U-B(B9.5V)   =  -0.10  ; Fitzgerald70
 => adopt (V-Ks)(B9.5V) = -0.048
 => adopt (H-Ks)(B9.5V) =  0.021
 => adopt (J-H)(B9.5V)  = -0.044
-=> adopt (K-W1)(B9.5V) =  0.031
+
+(Ks-W1)(B9.5V) = 0.040 ; EEM trend for d<30pc for B-V=-0.045
+=> adopt (Ks-W1)(B9.5V) = 0.040 [updated 12/29/2019]
+
+(Bp-Rp)(B9.5V) = -0.058 ; Evans18 trend for V-I=-0.035
+
+(G-V)(B9.5V) = -0.032   ; * lam Aql PM* B9Vn
+(G-V)(B9.5V) =  0.003   ; * ome02 Aqr PM* B9V
+(G-V)(B9.5V) =  0.00884 ; HIP_28662 B9.5V E(B-V)=0.002
+(G-V)(B9.5V) =  0.01024 ; HIP_26674 B9.5V E(B-V)=0.004
+(G-V)(B9.5V) =  0.01066 ; HIP_34701 B9.5V E(B-V)=0.008
+(G-V)(B9.5V) =  0.0110  ; HIP_21869 B9.5V E(B-V)=0.001
+(G-V)(B9.5V) =  0.0130  ; HIP_79631 B9.5V E(B-V)=0.006
+(G-V)(B9.5V) =  0.013   ; * L01 Pup a2* B9V
+(G-V)(B9.5V) =  0.01389 ; HIP_17328 B9.5V E(B-V)=0.008
+(G-V)(B9.5V) =  0.01666 ; HIP_82069 B9.5V E(B-V)=0.005
+(G-V)(B9.5V) = 0.017 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.048
+(G-V)(B9.5V) =  0.01755 ; HIP_32646 B9.5V E(B-V)=0.006
+(G-V)(B9.5V) =  0.01801 ; HIP_28515 B9.5V E(B-V)=0.009
+(G-V)(B9.5V) =  0.01977 ; HIP_113821 B9.5V E(B-V)=0.004
+(G-V)(B9.5V) =  0.01995 ; HIP_17982 B9.5V E(B-V)=0.002
+(G-V)(B9.5V) =  0.02202 ; HIP_111085 B9.5V E(B-V)=0.004
+(G-V)(B9.5V) =  0.02901 ; HIP_32788 B9.5V E(B-V)=0.006
+(G-V)(B9.5V) =  0.02983 ; HIP_32683 B9.5V E(B-V)=0.007
+(G-V)(B9.5V) =  0.04569 ; HIP_108487 B9.5V E(B-V)=0.008
+(G-V)(B9.5V) =  0.05829 ; HIP_108336 B9.5V E(B-V)=0.009
+=> adopt (G-V)(B9.5V) = 0.017 [updated 4/8/2022]
 
 V-I(B9.5V)   = -0.05  ; EEM 3 d<75 pc B9.5V Hipparcos stars
 
+(g-r)(B9.5V) = -0.265 ; Covey07 interp B9V-A0V
+
 Teff(B9.5V)  =   10073 K ; B-V=-0.05 => Teff(Napiwotski93) 
 Teff(B9.5V)  =   10010 K ; Schmidt-Kaler82 halfway B9V-A0V 
-Teff(B9.5V)  =  10271 K ; non-standard 16 Dra A (single Teff)
-Teff(B9.5V)  = 10282 K ; pri. stan. ome^2 Aqr (median Teff)
 Teff(B9.5V)  =   10340 K ; Theodossiou90
+Teff(B9.5V)  = 10390 K ; pri. stan. ome^2 Aqr (median Teff)
+Teff(B9.5V)  = 10420 K ; exemplar 16 Dra A = HD 150100
 Teff(B9.5V)  =   10400 K ; Chavez95 (+150-200K)
 Teff(B9.5V)  =   10453 K ; U-B=-0.13,Teff(Bessell98)
 Teff(B9.5V)  = 10500 K ; sec. stan. HD 23873
 Teff(B9.5V)  =  10715 K ; non-standard HD 145631 (single Teff)
 Teff(B9.5V)  =   10756 K ; B-V=-0.04,Teff(Bessell98,logg=4.3)
-Teff(B9.5V)  =  10936 K ; EEM N=110 Teffs
-=> adopt Teff(B9.5V) = 10400 K (logT = 4.021)
+Teff(B9.5V)  = 10936 K ; EEM N=110 Teffs
+=> adopt Teff(B9.5V) = 10400 K (logT = 4.017) [updated 10/18/2019]
 
-[EEM 12/1/2012: I've focused on the median Teffs for the primary and
-secondary standard.]
+BCv(B9.5V) = -0.415 mag ; Flower96(Teff=10400K, set so BCv(5772K)=-0.085)
+BCv(B9.5V) = -0.372 mag ; Code76(Teff=10400K, set so BCv(5772K)=-0.085)
+BCv(B9.5V) = -0.358 mag ; Bessell98(ATLAS,logg=4.0,Teff=10400K, set so BCv(5772K)=-0.085)
+BCv(B9.5V) = -0.340 mag ; Balona94(Teff=10400K, set so BCv(5772K)=-0.085)
+BCv(B9.5V) = -0.312 mag ; Bertone04(ATLAS,Teff=10400K, set so BCv(5772K)=-0.085)
+BCv(B9.5V) =  -0.275 mag ; Schmidt-Kaler82 (BCv=-0.405 halfway B9V-A0V + 0.13 offset)
+=> adopt BCv(B9.5V) = -0.36 [updated 9/16/2019, adjusted so that BCv(5772K)=-0.085]
 
-BCv(B9.5V) = -0.437 mag ; Flower96(Teff=10400K)
-BCv(B9.5V) = -0.362 mag ; Code76(Teff=10400K)
-BCv(B9.5V) = -0.380 mag ; Bessell98(ATLAS,logg=4.0,Teff=10400K)
-BCv(B9.5V) = -0.362 mag ; Balona94(Teff=10400K)
-BCv(B9.5V) = -0.334 mag ; Bertone04(ATLAS,Teff=10400K)
-BCv(B9.5V) = -0.275 mag ; Schmidt-Kaler82 (BCv=-0.405 halfway B9V-A0V + 0.13 offset)
-=> adopt BCv(B9.5V) = -0.36 mag
 
-Mv(B9.5V) = 0.21 mag ; Wegner07
-Mv(B9.5V) =  0.4  mag ; Schmidt-Kaler82
-Mv(B9.5V) =   0.57 +-0.38(sem),+-0.57(st.dev.) ; EEM N=4 B9.5V HIP d<75pc
-Mv(B9.5V) =    0.81 mag ; weak stan. del CrV
+Mv(B9.5V) = -0.08 mag ; exemplar 16 Dra A = HD 150100 = HR 6184
+Mv(B9.5V) =   0.21 mag ; Wegner07
+Mv(B9.5V) =  0.29 mag ; EEM trend to d<60pc dwarfs for B-V=-0.05
+Mv(B9.5V) =   0.4  mag ; Schmidt-Kaler82
+Mv(B9.5V) =  0.55 mag ; d<60pc Mv(B-V=-0.05) trend 
+Mv(B9.5V) =  0.57 +-0.38(sem),+-0.57(st.dev.) ; EEM N=4 B9.5V HIP d<75pc
+Mv(B9.5V) =   0.81 mag ; deprecated stan. del CrV
 Mv(B9.5V) =   0.81 mag ; halfway between B9V and A0V Mvs
+Mv(B9.5V) =  0.83 mag ; HIP_58272 B9.5V plx=8.561 mas, Vmag=6.185,E(B-V)=0.006
+Mv(B9.5V) =  0.85 mag ; HIP_26796 B9.5V plx=7.984 mas, Vmag=6.339,E(B-V)=0.001
+Mv(B9.5V) =   0.88 mag ; median Mv for B9.5V calc using Kervella19 HIP & Gaia DR2
+Mv(B9.5V) =  1.01 mag ; HIP_61257 B9.5V plx=7.970 mas, Vmag=6.544,E(B-V)=0.014
+Mv(B9.5V) =  1.04 mag ; HIP_58859 B9.5V plx=8.330 mas, Vmag=6.465,E(B-V)=0.010
+Mv(B9.5V) =  1.07 mag ; HIP_78603 B9.5V plx=9.365 mas, Vmag=6.244,E(B-V)=0.011
+Mv(B9.5V) =  1.13 mag ; HIP_104297 B9.5V plx=9.874 mas, Vmag=6.164,E(B-V)=0.003
 Mv(B9.5V) =  1.18 mag ; pri. stan. HD 23873
-Mv(B9.5V) = 1.20 mag ; pri. stan. ome^2 Aqr
-=> adopt Mv(B9.5V) = 0.8 mag
+Mv(B9.5V) =  1.20 mag ; pri. stan. ome^2 Aqr
+Mv(B9.5V) =  1.28 mag ; HIP_46897 B9.5V plx=11.894 mas, Vmag=5.904,E(B-V)=0.001
+Mv(B9.5V) =  1.69 mag ; HIP_79631 B9.5V plx=8.134 mas, Vmag=7.160,E(B-V)=0.006
+Mv(B9.5V) =  1.84 mag ; HIP_82069 B9.5V plx=9.258 mas, Vmag=7.021,E(B-V)=0.005
+=> adopt Mv(B9.5V)   = 0.60  mag [updated 9/20/2019]
+=> adopt M_G(B9.5V)  = 0.615 mag [updated 12/10/2020] (Mv=0.6, G-V=0.015)
+=> adopt M_Ks(B9.5V) = 0.648 mag [updated 12/30/2020] (Mv=0.6, V-Ks=-0.048)
 
-logL(B9.5V) = 1.73 dex ; Mv=0.8, BCv=-0.36 => Mbol = 0.44
-=> adopt logL(B9.5V) = 1.73 dex
-=> adopt Mbol(B9.5V) = 0.44 mag
+logL(B9.5V) = 1.800 dex ; Mv=0.6, BCv=-0.36 => Mbol = 0.240
+logL(B9.5V) = 1.742 dex ; logL/Teff trend for O7V-A2V EBs (Torres10; Teff=10400K)
+=> adopt logL(B9.5V) = 1.800 dex [updated 9/26/2019]
+=> adopt Mbol(B9.5V) = 0.240 mag [updated 9/26/2019]
 
 Mass(B9.5V) = 2.816+-0.050 Msun ; Eclipsing binary PV Cas A (Torres10)
 Mass(B9.5V) = 2.757+-0.054 Msun ; Eclipsing binary PV Cas B (Torres10)
+Mass(B9.5V) = 2.72 Msun ; EEM Mv vs. Mass fit for binaries (Mv=0.6)
+Mass(B9.5V) = 2.69 Msun ; Ekers18 ML calibration for logL=1.8
 Mass(B9.5V) = 2.68 Msun ; EEM Teff vs. Mass fit for binaries (Teff=10600K)
-Mass(B9.5V) = 2.55 Msun ; EEM Mv vs. Mass fit for binaries (Mv=0.8)
-Mass(B9.5V) = 2.53 Msun ; EEM logL vs. Mass fit for binaries (logL=1.73)
-Mass(B9.5V) = 2.52 Msun ; Ekers15 ML calibration for logL=1.71
-Mass(B9.5V) = 2.38 Msun ; Harmanec88
+Mass(B9.5V) = 2.64 Msun ; Bertelli09 solar tracks Teff=10400, logL=1.8
+Mass(B9.5V) = 2.63 Msun ; EEM logL vs. Mass fit for binaries (logL=1.8)
+Mass(B9.5V) =  2.38 Msun ; Harmanec88
 Mass(B9.5V) = 2.342+-0.016 Msun ; Eclipsing binary GG Ori A (Torres10)
 Mass(B9.5V) = 2.338+-0.016 Msun ; Eclipsing binary GG Ori B (Torres10)
-=> adopt Mass(B9.5V) = 2.5 Msun
+=> adopt Mass(B9.5V) = 2.68 Msun [updated 12/29/2019]
+
+Rad(B9.5V) = 2.447 Rsun ; logL=1.800, Teff=10400K
+=> adopt Rad(B9.5V) = 2.447 Rsun [updated 9/26/2020]
 
 # No Standard
 
@@ -117,10 +165,16 @@ HD 222661 = ome^2 Aqr = 105 Aqr = GJ 9836A = HR 8988
   (B-V)o=-0.047, E(B-V)= 0.006, Av=0.02, (U-B)o = -0.124 (but
   consistent with zero reddening given the photometric errors). Note
   that Castelli reddening gives Av=0.39, where Shobbrook gives
-  Av=0.04. Teffs: 10011K(Ammler-vonEiff12), 10057K(Hauck97
-  phot.=>Balona94 calib.), 10160K(Hauck97 phot.=>BalonaShobbrook84
-  calib.), 10404K(U-Bo=>Bessell98), 10517K(Hauck97 phot.=>Napiwotzki93
-  calib.), 10860+-420K(Zorec09) => median Teff = 10282K.
+  Av=0.04. Teffs:
+  10011K(Ammler-vonEiff12),
+  10057K(Hauck97 phot.=>Balona94 calib.),
+  10160K(Hauck97 phot.=>BalonaShobbrook84 calib.),
+  10375+-48K(Zorec12), 
+  10404K(U-Bo=>Bessell98),
+  10517K(Hauck97 phot.=>Napiwotzki93 calib.),
+  10860+-420K(Zorec09),
+  11108+-378K(David15), 
+  => median Teff = 10390K.
 
 HD 23873 = Cl Melotte 22 2263 (Pleiades member)
  *B9.5V: MK78(stan), Gray87(B9.5Va), Mendoza56
@@ -177,18 +231,26 @@ HD 108767 = del CrV = HR 4757
   is now a B9.5, and most say dwarf. Teffs: 10162K(Erspamer03),
   10580+-400K(Zorec09).
 
-# Other stars
+# Exemplars
 
 16 Dra A = HD 150100 = HR 6184
-  B9.5V: Slettebak63, Abt95
+  B9.5V: Slettebak63,Abt95
   B9.5Vn: Cowley69
   B9.5Vs: Abt85
 
   All published types are B9.5V or variant. However, Burleigh &
   Barstow 2000 report a 29000-35000K white dwarf companion (indeed HD
   150100 is one of the most massive stars now known to harbor a white
-  dwarf companion). The companion is V ~ 17.0, while the primary is
-  V=5.5 (it was detected in the UV). Teffs: 10271+-127K(Wu11). 
+  dwarf companion), Holberg13 calls DA1.6(Teff=32000K). The companion
+  is V ~ 17.0, while the primary is V=5.5 (it was detected in the
+  UV). Also V=11.2 companion (unclear if physical or not) at 120", and
+  CPM with 17 Dra. Also G=15.8 companion WD candidate at 11" found by
+  Gentile Fusillo19. Teffs: 10271+-127K(Wu11).  V=5.53(HIP),
+  B-V=-0.060+-0.015(HIP), plx=7.64+-0.17mas(HIP),
+  plx=7.7433+-0.0856mas(GaiaDR2) => D = 129.1+-1.4 pc.  STILISM
+  reddening map E(B-V) ~ 0.016, Av ~ 0.05 => (B-V)o = -0.060 - 0.016 =
+  -0.076. Mv = -0.08.  Teffs: 10271K(Wu11), 10568K(Zorec12,Stassun18)
+  => <Teff> = 10420K.
 
 HD 145631
  *B9.5Va: GrayGarrison87
@@ -198,7 +260,7 @@ HD 145631
 
   Upper Sco member. Teffs: 10715K(deGeus89)
 
-
+# Other Stars
 
 Here I list entries from Skiff's catalog (2012 version) with 3 or more
 B9.5V classifications. 

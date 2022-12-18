@@ -1,10 +1,10 @@
 A6V
 
 There are no published A6V standards (and of course no anchor or
-dagger standards).
-
-The best, bright star that I can find that would probably make a
-suitable A6V standard is Beta Pic.
+dagger standards). The best, bright star that I can find that would
+probably make a suitable A6V standard is Beta Pic (itself unusual as
+it has an edge-on optically thin debris disk and variable absorption
+features).
 
 # No standard
 
@@ -39,88 +39,314 @@ and within 1 mag of the MS (N=15):
 <V-Vt>(A6V)  =-0.024 (+-0.002 sem, +-0.004 stdev; N=3)
 <B-K>(A6V)   = 0.690 (+-0.083 sem, +-0.145 stdev; N=3)
 
-<B-V>(A6V)   = 0.188 ; 15 HIP nearby (+-0.021 sem, +-0.036 stdev; N=3)
-(B-V)(A6V)   = 0.175 ; Schmidt-Kaler(halfway A5V-A7V)
-(B-V)(A6V)   = 0.171 ; nearby A6V star bet Pic 
-<B-V>(A6V)   = 0.170 ; 2 Gray01/03/06 (+-0.001 sem, +-0.001 stdev)
-(B-V)(A6V)   = 0.170 ; Morgan65 Hyad A6Vn star HD 28527
-(B-V)(A6V)   = 0.17  ; Morgan71 
-(B-V)(A6V)   = 0.16  ; KenyonHartmann95
-(B-V)(A6V)   = 0.122 ; Morgan65 Hyad A6Vn star HD 29388
-=> adopt (B-V)(A6V)  = 0.170 ***
-=> adopt (U-B)(A6V)  = 0.098
-=> adopt (V-I)(A6V)  = 0.197
-=> adopt (V-R)(A6V)  = 0.094
-=> adopt (R-I)(A6V)  = 0.103
-=> adopt (V-J)(A6V)  = 0.353
-=> adopt (V-H)(A6V)  = 0.390
-=> adopt (V-Ks)(A6V) = 0.428
-=> adopt (H-Ks)(A6V) = 0.038
-=> adopt (J-H)(A6V)  = 0.036
-=> adopt (K-W1)(A6V) = 0.029
+(B-V)(A6V) = 0.220 ; exemplar HD 195093
+(B-V)(A6V) = 0.215 ; exemplar alf Pic
+(B-V)(A6V) =  0.209 ; BakisEker22 
+(B-V)(A6V) = 0.200 ; exemplar HD 74591 = HR 3469
+<B-V>(A6V) = 0.188 ; 15 HIP nearby (+-0.021 sem, +-0.036 stdev; N=3)
+(B-V)(A6V) = 0.186 ; exemplar HD 79439
+(B-V)(A6V) = 0.186 ; exemplar HD 12140 = HR 578
+(B-V)(A6V) = 0.186 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
+(B-V)(A6V) = 0.185 ; halfway between A5V(0.16) and A7V(0.21)
+(B-V)(A6V) = 0.175 ; exemplar HD 2262 = HR 100
+(B-V)(A6V) =  0.175 ; Schmidt-Kaler(halfway A5V-A7V)
+(B-V)(A6V) = 0.171 ; exemplar bet Pic 
+<B-V>(A6V) = 0.170 ; 2 Gray01/03/06 (+-0.001 sem, +-0.001 stdev)
+(B-V)(A6V) =  0.17  ; Morgan71 
+(B-V)(A6V) =  0.16  ; KenyonHartmann95
+(B-V)(A6V) = 0.122 ; exemplar HD 29388
+=> adopt (B-V)(A6V)  = 0.185 *** [updated 11/18/2020]
+ [EEM note 9/24/2020: B-V=0.180/Teff=8000K smoothly fits on A dwarf sequence]
+
+=> adopt (V-I)(A6V)  = 0.214
+=> adopt (V-R)(A6V)  = 0.103
+=> adopt (R-I)(A6V)  = 0.111
+=> adopt (V-J)(A6V)  = 0.383
+=> adopt (V-H)(A6V)  = 0.426
+=> adopt (V-Ks)(A6V) = 0.465
+=> adopt (H-Ks)(A6V) = 0.039
+=> adopt (J-H)(A6V)  = 0.043
+
+
+(Bp-Rp)(A6V) =  0.0944  ; HD_195093
+(Bp-Rp)(A6V) =  0.1722  ; 90_Tau
+(Bp-Rp)(A6V) = 0.222   ; color trend for B-V=0.185
+(Bp-Rp)(A6V) =  0.2452  ; HD_12140
+(Bp-Rp)(A6V) =  0.2563  ; kap_Phe
+(Bp-Rp)(A6V) = 0.265   ; Evans18 trend for V-I=0.214
+(Bp-Rp)(A6V) =  0.2700  ; 10_Hya
+(Bp-Rp)(A6V) =  0.2745  ; bet_Pic
+(Bp-Rp)(A6V) =  0.2793  ; 18_UMa
+(Bp-Rp)(A6V) =  0.2804  ; HD_195093
+=> adopt (Bp-Rp)(A6V)= 0.222 [updated 11/22/2020]
+
+(Bp-G)(A6V) =  0.0454  ; HD_195093
+(Bp-G)(A6V) = 0.069   ; color trend for B-V=0.185
+(Bp-G)(A6V) =  0.1059  ; HD_12140
+(Bp-G)(A6V) =  0.1141  ; 10_Hya
+(Bp-G)(A6V) =  0.1170  ; HD_195093
+(Bp-G)(A6V) =  0.1241  ; 90_Tau
+(Bp-G)(A6V) =  0.1389  ; 18_UMa
+(Bp-G)(A6V) =  0.1724  ; kap_Phe
+(Bp-G)(A6V) =  0.2274  ; bet_Pic
+=> adopt (Bp-G)(A6V) = 0.069 [updated 11/22/2020]
+
+(G-Rp)(A6V) =  0.0471  ; bet_Pic
+(G-Rp)(A6V) =  0.0481  ; 90_Tau
+(G-Rp)(A6V) =  0.0490  ; HD_195093
+(G-Rp)(A6V) =  0.0839  ; kap_Phe
+(G-Rp)(A6V) =  0.1394  ; HD_12140
+(G-Rp)(A6V) =  0.1404  ; 18_UMa
+(G-Rp)(A6V) = 0.152   ; color trend for B-V=0.185
+(G-Rp)(A6V) =  0.1560  ; 10_Hya
+(G-Rp)(A6V) =  0.1634  ; HD_195093
+=> adopt (G-Rp)(A6V) = 0.152 [updated 11/22/2020]
+
+(Ks-W1)(A6V) = 0.046 ; EEM trend for d<30pc for B-V=0.185
+=> adopt (Ks-W1)(A6V) = 0.046 [updated 12/29/2019]
+
+(G-V)(A6V) =  -0.040 ; * bet Pic PM* A6V
+(G-V)(A6V) = -0.030 ; polynomial trend as f(B-V)
+(G-V)(A6V) =  -0.023 ; * 56 Cyg PM* A6V
+(G-V)(A6V) =  -0.020 ; HD 154431 PM* A6V
+(G-V)(A6V) =  -0.020 ; HD 165189 PM* A6V
+(G-V)(A6V) =  -0.019 ; * e UMa dS* A6V
+(G-V)(A6V) = -0.013  ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.464
+(G-V)(A6V) =  -0.006 ; * c Tau PM* A6V
+=> adopt (G-V)(A6V) = -0.02 [updated 4/8/2022]
 
 (U-B)(A6V)   = 0.095 ; Fitzgerald70 interp. A5-A7
+(U-B)(A6V)   = 0.096 ; U-B vs B-V trend for B-V=0.185
 (U-B)(A6V)   = 0.100 ; HIP d<75pc S/N>8 A6V N=3 (Mermilliod91 photometry)
+=> adopt (U-B)(A6V)  = 0.096 [updated 11/18/2020]
 
-Teff(A6V) = 8025 K ; Schmidt-Kaler82(halfway A5V-A7V)
+(g-r)(A6V)   = +0.054 ; Jordi06 (V-R)=>(g-r) for V-R=0.100
+(g-r)(A6V)   = -0.049 ; Bilir05 (B-V)=>(g-r) for B-V=0.18
+(g-r)(A6V)   = -0.06  ; Covey07 interp. A5V-A7V
+=> adopt (g-r)(A6V) = -0.05 [updated 10/10/2020]
+
+Teff(A6V) = 8282 K ; exemplar Hyad HD 29388
+Teff(A6V) = 8117 K ; exemplar Hyad HD 28527
+Teff(A6V) = 8084 K ; exemplar beta Pic 
+Teff(A6V) =  8025 K ; Schmidt-Kaler82(halfway A5V-A7V)
 Teff(A6V) = 8002 K ; EEM N=40 Teffs
-Teff(A6V) = 7990 K ; interp. (A5V-A7V) GrayCorbally09
+Teff(A6V) =  7990 K ; interp. (A5V-A7V) GrayCorbally09
 Teff(A6V) = 7987 K ; mean photometric Teff
-Teff(A6V) = 7935 K ; interp. (A5V-A7V) Theodossiou90
-Teff(A6V) = 7480 K ; Boyajian12
-=> adopt Teff(A6V) = 8000 K (logT = 3.903)
+Teff(A6V) = 7980 K ; Zorec12 median
+Teff(A6V) = 7975 K ; median Teff for 6 A6V from Gray17
+Teff(A6V) =  7935 K ; interp. (A5V-A7V) Theodossiou90
+Teff(A6V) = 7894 K ; exemplar HD 2262 = HR 100 = kap Phe 
+Teff(A6V) = 7819 K ; exemplar HD 195093
+Teff(A6V) = 7816 K ; exemplar HD 79439 = HR 3662 = 18 UMa
+Teff(A6V) = 7775 K ; exemplar HD 12140
+Teff(A6V) = 7762 K ; exemplar HD 74591 = HR 3469 = 10 Hya
+Teff(A6V) = 7510 K ; exemplar alf Pic 
+Teff(A6V) =  7480 K ; Boyajian12
+=> adopt Teff(A6V) = 7910 K (logT = 3.8982) [update 11/18/2020]
+[EEM 9/24/2020: note Teff adjusted down a tad to maintain Teff/Rad/logL sequence]
 
-BCv(A6V)   = -0.038 mag ; Flower96(Teff=8000K)
-BCv(A6V)   = -0.005 mag ; Schmidt-Kaler82(halfway A5V-A7V + 0.13 offset)
-BCv(A6V)   =  0.007 mag ; Bessell98(ATLAS9,logg=4.5,Teff=8000K)
-BCv(A6V)   =  0.010 mag ; Code76(Teff=8000K)
-BCv(A6V)   =  0.041 mag ; Balona94(Teff=8000K)
-BCv(A6V)   =  0.044 mag ; Masana06(with +0.04 offset)
-BCv(A6V)   =  0.053 mag ; Bertone04(ATLAS,Teff=8000K)
-=> adopt BCv(A6V) = 0.02 mag (+-0.03 rms)
+BCv(A6V)  = -0.052 mag ; Flower96(Teff=8000K, BCv(5772K)=-0.085)
+BCv(A6V)  =  -0.005 mag ; Schmidt-Kaler82(halfway A5V-A7V + 0.13 offset)
+BCv(A6V)  = -0.004 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7920K)
+BCv(A6V)  = +0.000 mag ; Code76(Teff=7910K, BCv(5772K)=-0.085)
+BCv(A6V)  = +0.005 mag ; A5V BCv=0.00, A7V BCv=+0.01
+BCv(A6V)  = +0.010 mag ; EEM trend mid-As
+BCv(A6V)  = +0.036 mag ; Balona94(Teff=7920K, BCv(5772K)=-0.085)
+BCv(A6V)  = +0.028 mag ; Masana06(Teff=7920K, BCv(5772K)=-0.085)
+BCv(A6V)  = +0.041 mag ; Bertone04(ATLAS,Teff=7920K, BCv(5772K)=-0.085)
+=> adopt BCv(A6V) = 0.005 [updated 11/18/2020, set for BCv(5772K)=-0.085]
 
-Mv(A6V) = 2.2  mag ; interp. (A5V-A7V) GrayCorbally09
-Mv(A6V) = 2.05 mag ; Schmidt-Kaler82 (halfway A5V-A7V)
-Mv(A6V) = 1.89 mag ; Wright05(B-V=0.17)
-Mv(A6V) = 1.46 mag ; Wegner07
-=> adopt Mv(A6V) = 1.89 mag  
+logg(A6V) = 4.2 ; median logg for 6 A6V from Gray17
+
+Mv(A6V) =  2.48 mag ; exemplar HD 195093 
+Mv(A6V) =  2.40 mag ; exemplar bet Pic (ZAMS)
+Mv(A6V) =   2.2  mag ; interp. (A5V-A7V) GrayCorbally09
+Mv(A6V) = 2.12 mag ; A dwarf B-V vs. Mv seqence for B-V=0.185
+Mv(A6V) =  2.08 mag ; exemplar HD 74591 = HR 3469
+Mv(A6V) =  2.07 mag ; median Mv for A6V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
+Mv(A6V) =  2.06 mag ; exemplar HD 79439 (18 UMa)
+Mv(A6V) =   2.05 mag ; Schmidt-Kaler82 (halfway A5V-A7V)
+Mv(A6V) =  2.03 mag ; interp BAF dwarf seq for B-V=0.185
+Mv(A6V) =  1.94 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.18
+Mv(A6V) =  1.93 mag ; Wright05(B-V=0.18)
+Mv(A6V) =  1.82 mag ; d<60pc Mv(B-V=0.17)
+Mv(A6V) =   1.46 mag ; Wegner07
+Mv(A6V) =  0.90 mag ; exemplar HD 29388 (Hyad)
+Mv(A6V) =  0.90 mag ; exemplar alf Pic 
+=> adopt Mv(A6V)   = 2.12  mag [updated 11/18/2020]
+=> adopt M_G(A6V)  = 2.09  mag [updated 12/10/2020] (Mv=2.12, G-V=-0.03)
+=> adopt M_Ks(A6V) = 1.655 mag [updated 12/30/2020] (Mv=2.12, V-Ks=0.465)
  
-logL(A6V) = 1.138 dex ; Mv=1.89 & BCv=0.02 mag => Mbol = 1.910
-=> adopt logL(A6V) = 1.14 dex 
-=> adopt Mbol(A6V) = 1.91 mag 
+logL(A6V) = 1.046 dex ; Mv=2.12 & BCv=0.005 mag => Mbol = 2.125
+logL(A6V) = 1.59  dex ; Zorec12 median
+=> adopt logL(A6V) = 1.046 dex [updated 11/18/2020]
+=> adopt Mbol(A6V) = 2.125 dex [updated 11/18/2020]
 
+Mass(A6V) =  2.24 Msun ; Zorec12 median
+Mass(A6V) = 1.85 Msun ; David15 A6 MS (rms=0.49 Msun; N=46)
 Mass(A6V) = 1.85 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.89)
 Mass(A6V) = 1.84 Msun ; Ekers15 ML calibration for logL=1.14
 Mass(A6V) = 1.83 Msun ; EEM Teff vs. Mass fit for binaries (Teff=8000K)
 Mass(A6V) = 1.82 Msun ; EEM logL vs. Mass fit for binaries (logL=1.14)
-Mass(A6V) = 1.730+-0.025 Msun ; Eclipsing binary IQ Per B (Torres10)
-=> adopt Mass(A6V) = 1.83 Msun
+Mass(A6V) =  1.730+-0.025 Msun ; Eclipsing binary IQ Per B (Torres10)
+=> adopt Mass(A6V) = 1.83 Msun [update 9/16/2019]
 
-# Candidate Standard
+Rad(A6V) = 1.7754 Rsun ; logL=1.046 ,Teff=7910K
+Rad(A6V) = 1.544 Rsun ; bet Pic HIP 27321, Stassun19 (note: ZAMS ~20 Myr)
+=> adopt Rad(A6V) = 1.7754 Rsun [updated 11/18/2020]
 
-Bet Pic = HD 39060 
-  A6V: GrayGarrison89,Abt95
-  A5V: Houk75(Garrison,unpub)
-  A5IV: Slettebak82,Slettebak75(A5IVp)
+# Exemplars
+
+bet Pic = HD 39060 = HR 2020 
   A3V: Evans61
   A4V: Paunzen01
+  A5V: Houk75(Garrison,unpub)
+  A5IV: Slettebak82,Slettebak75(A5IVp)
+  A5/7: Blondel06(IUE)
+ *A6V: GrayGarrison89,Abt95,Gray06
 
-  *Not* an MK standard. The brightest A6V star in GrayGarrison89. 
-  Gray, Garrison, & Abt have all classified this star as A6V.
-  B-V = 0.171+-0.002 (HIP), V-I = 0.18+-0.02 (HIP).  
+  *Not* an MK standard. The brightest A6V star in GrayGarrison89, and
+  a ~23 Myr-old famous ZAMS stars with debris disk and giant planet.
+  Gray, Garrison, & Abt have all classified this star as A6V.  B-V =
+  0.171+-0.002 (HIP), V-I = 0.18+-0.02 (HIP),
+  V=3.845+-0.005(Mermilliod91), plx=51.44+-0.12mas(HIP2) => Mv =
+  2.402+-0.007(Mermilliod91,HIP2). Teffs: 7995K(Saffe08/C97),
+  8035+-74K(Zorec12), 8039K(Stassun19), 8045+-97K(Blackwell98), 8052K(Gray06),
+  8084K(Schroeder09), 8128K(AllendePrieto99), 8157K(Saffe08/N93),
+  8200K(Holweger95), 8230+-350K(Sokolov95), 8300+-282K(David15),
+  8500K(Mittal15), 8543K(daSilva09) => <Teff> = 8143K(N=12; sem=+-67K;
+  true median) Saffe08(N93 fit) lists logg=4.23, [Fe/H]=0.00, and (C97
+  fit) logg=3.95, [Fe/H]=0.17.  Holweger95 reports logg=4.24.
+  Defrere2012 reports angular diameter: 0.736+-0.015+-0.012 mas
+  (0.736+-0.019 mas), taking into account a ~1.48% K-band excess due
+  to dust. At HIP2 distance 19.4401 +- 0.0454 pc, this translates to
+  radius R = 1.488+-0.021 Rsun (1.4% error).  For the adopted
+  Teff(8143+-67K), this translates to luminosity L=8.784+-0.376 Lsun
+  or logL = 0.944 +- 0.019 dex.
 
-# Other Stars
-
-Alf Pic = HD 50241 
-  A6Vn: Garrison96
+alf Pic = HD 50241
+  A5: Cannon18(standard!),1955MmMtS..12....1W(A5V)
   A5/7III/V: Houk75
-  A7Vn: Garrison(unpub,Houk75notes)
+ *A6Vn: 1937AnHar.105...45H(A6V),GrayGarrison89,Garrison96
+  A7Vn: 1978A&AS...35...75C,Houk75(Garrison)
   A7IV: Levato72
-
+  A8Vn kA6: Gray06
+  
   This was the only A6 dwarf in Garrison96's bright star list.  The
   brightest A6Vn star in GrayGarrison89. Only Garrison has classified
   the star as A6Vn, so this may not the best choice for use as a
-  possible standard. B-V = 0.225+-0.019 (HIP).
+  possible standard. B-V=0.215+-0.006(Mermilliod91),
+  B-V=0.225+-0.019(HIP), V=3.262+-0.009(Mermilliod91),
+  plx=33.78+-1.78mas(HIP2) => Mv = 0.905+-0.115. Teffs:
+  7349K(diBenedetto98), 7372K(Blackwell98), 7440K(Sokolov95),
+  7510K(Stassun18), 7536K(Gray06), 7551K(Zorec12), 7770K(David15) =>
+  <Teff> = 7510K.  logg=3.42(Gray06), 3.74+-0.16(David15).
+
+HD 29388 = 90 Tau = HR 1473 (Hyad)
+   A4V: Adams35(SB2)
+   A5V: 1948ApJ...107..119W(A5n),1952AnAp...15..201C,Slettebak55,Levato72
+   A5IV: Palmer68
+   A5IV-V: GrayGarrison89
+  *A6V: 1940ApJ....91..256T,Morgan65(A6Vn),Cowley69,Abt95
+   Am:: Jaschek80
+
+   One of two Hyads classified A6Vn by Morgan65. 
+   (B-V)=0.122+-0.005(Mermilliod91), V=4.269+-0.003(Mermilliod91),
+   U-B=0.124(Mermilliod91), plx =21.24+-0.56mas(HIP2) => Mv =
+   0.905+-0.057(Mermilliod91,HIP2). PASTEL: <Teff> = 8282K(N=5),
+   logg=3.87+0.20(Gebran10), [Fe/H]=0.00+-0.22(Gebran10).
+
+HD 79439 = HR 3662 = 18 UMa =
+   A5V: Lindblad34(A5),Wilson50,Slettebak55,Cowley69,Levato78
+  *A6V: GrayGarrison89,Abt95
+   A7V: Barry70(uv metals weak),1980A&AS...40..207C
+   A pec: 1978A&AS...35...75C
+
+   V=4.832+-0.012(Mermilliod91), B-V=0.186+-0.008(Mermilliod91).  plx
+   = 27.90+-0.20mas(HIP2) => Mv = 2.06+-0.02(Mermilliod91,HIP2).
+   PASTEL: Teff=7450+-150K(Elmasli12), Teff=7816+-54K(Zorec12,
+   adopted), logg=3.98+-0.20(Elmasli12),
+   [Fe/H]=-0.04+-0.20(Elmasli12).
+
+HD 195093 = HR 7829
+   A5V:: Abt88
+  *A6V: GrayGarrison87,Abt95
+   A7V: Cowley69
+   A8V: Slettebak63,Levato75
+
+   B-V=0.220(Mermilliod91), V=6.740(Mermilliod91).  Revised Hipparcos
+   parallax is *negative* presumably due to binarity: plx =
+   -31.22+-11.22 mas(HIP2). plx =14.0626+-0.0532mas(GaiaDR2) => Mv =
+   2.48(Mermilliod91,GaiaDR2). Teffs: 7762K(Zorec12),
+   7819K(Ammler-vonEiff12), 7872K(GaiaDR2) => <Teff> = 7819K.
+
+HD 2262 = HR 100 = kap Phe 
+   A3V: 1955MmMtS..12....1W
+   A5IVn: Gray06
+   A5Vn: GrayGarrison89
+  *A6Vn: Houk78(Garrison)
+   A6Vn: Abt95
+   A7V: Cucchiaro78
+   A7Vn: Evans61,Levato72
+
+   V=3.93(HIP), plx=42.51+-0.69mas(HIP), B-V=0.175+-0.008(HIP),
+   del(Mv)=+0.14mag(HIP2). Mv=2.05(HIP2). Teffs: 7670+-240K(Sokolov95),
+   7882+-63K(Blackwell98), 7906K(Erspamer03), 8017K(diBenedetto98) =>
+   <Teff> = 7894K(N=4). logg=4.17(Erspamer03), [Fe/H]=-0.04(Erspamer03).
+
+HD 12140 = HR 578 = HIP 9295
+   A4V: Palmer68
+  *A6V: Osawa59,Cowley69,Abt95
+
+   V=6.09(HIP), plx=12.12+-1.11mas(HIP), B-V=0.186+-0.005(HIP),
+   del(Mv)=-0.84(HIP2), Mv=1.12(HIP2). Teffs: 7716+-80K(Masana06),
+   7834+-54K(Zorec12) => <Teff> = 7775K(N=2).
+   
+HD 74591 = HR 3469 = 10 Hya = HIP 42931 
+   A3IV: Adams35
+  *A6V: Palmer68,Cowley69,Abt95
+
+   plx=15.78+-0.90mas(HIP), V=6.13(HIP), B-V=0.200+-0.001(HIP),
+   del(Mv)=0.06, Mv=2.08(HIP2).  Teffs: 7689+-76K(Masana06),
+   7834+-54K(Zorec12) => <Teff> = 7762K(N=2).
+   
+
+# Other Stars
 
 Morgan65 classified two Hyads as A6Vn: HD 28527 & 29388. They have
 colors of B-V = 0.170 (HD 28527) and B-V = 0.122 (HD 29388).
+
+HD 28527 = HR 1427 = Cl* Melotte 25 Rg 244 = GJ 170.1 (Hyad) 
+   A6Vn: 1940ApJ....91..256T,Morgan65
+   A6IV: Cowley69,Barry70(uv metals v.strong)
+   A7V: Slettebak55,Cucchiaro80,Abt95
+  *kA5hA5mF0(IIIb-): GrayGarrison89
+   A8V: Adams35
+
+   One of two Hyads classified as A6Vn by Morgan65 (other was HD
+   29388).  (B-V)=0.170+-0.001(Mermilliod91). PASTEL: <Teff> =
+   8117K(N=2).  logg=3.98+0.20(Gebran10), [Fe/H]=0.30+-0.20(Gebran10).
+
+HD 77190 = HR 3589
+   A5V: 1925sdsl.book.....L
+  *A6V: Palmer68,Abt95
+   A8Vn: Cowley69
+
+HD 16432 = HR 773 = HIP 12332 
+  *A6V: Abt95,Paunzen01
+   A7V: Osawa59,Cowley69
+
+   del(Mv)=-1.50mag. Mv=0.38.
+
+HD 144874 = HR 6004
+   A5V: Paunzen01
+  *A6V: Abt95
+   A7V: Cowley69
+
+HD 207235 = HR 8332
+   A5V: Abt95
+  *A6V: GrayGarrison89
+   A7V: Cowley69
+
+
+

@@ -1,4 +1,4 @@
-FF0IV
+F0IV
 
 57 Tau appears to be the best available primary F0IV standard, 
 with eps Cep as a good secondary standard. mu Cet should probably be
@@ -7,6 +7,9 @@ avoided.
 There are no F0IV anchor points (Garrison94), indeed no subgiant
 anchors earlier than G0IV. Garcia89 lists 3 F0IV standards: HD 17094
 (mu Cet), HD 27397 (57 Tau), and HD 211336 (eps Cep).
+
+Similar to the late As, F0IV subgiant standards tend to be not far from
+the main sequence. 
 
 Comments on color trends of F subgiants vs. F dwarfs are appended at
 the end of this file.
@@ -20,6 +23,7 @@ Cowley74 standards:       57 Tau - F0IV
 			  mu Cet - F0IV
 			  eps Cep - F0IV
 Cowley76 standard:        del Aql - F0IV
+MK78 standard:            57 Tau (HD 27397) - F0IV  
 GrayGarrison89 standards: 57 Tau - F0IV [low vsini standard]
 			  HD 27397 - F0IV [low vsini standard]
                           HR 8895A - F0IVn [high vsini standard]
@@ -31,30 +35,44 @@ Gray06 classifies 3 stars as F0IV: HIP 9236, 72197, 84581
 For Hipparcos stars within 75pc with parallax S/N > 8 (N=14):
 <B-V>(F0IV) = 0.301 (+-0.009 sem, +-0.040 stdev)
 <V-I>(F0IV) = 0.339 (+-0.015 sem, +-0.052 stdev)
-<V-J>( stdev)
-<V-H>( stdev)
-<V-Ks>( stdev)
-<J-H>( stdev)
-<H-K>( stdev)
+
+(B-V)(F0IV) = 0.255 ; exemplar HD 95310 = 49 UMa 
+(B-V)(F0IV) = 0.278 ; sec. stan. eps Cep = HD 211336
+(B-V)(F0IV) = 0.288 ; pri. stan. 57 Tau = HD 27397
+(B-V)(F0IV) = 0.306 ; exemplar HD 107326 = Cl Melotte 111 70
+(B-V)(F0IV) = 0.306(+-0.009 sem,+-0.038 stdev) ; SIMBAD median F0IV d<75pc,V<6.5(N=25)
+(B-V)(F0IV) = 0.347 ; exemplar HD 123255 = HR 5290 
+(B-V)(F0IV) = 0.360 ; exemplar 23 UMa = HR 3757
+=> adopt (B-V)(F0IV) = 0.30 [updated 2/2/2022]
+
+Mv(F0IV) = -0.19 ; exemplar HD 95310 = 49 UMa
+Mv(F0IV) =  1.68 ; exemplar HD 123255 = HR 5290 
+Mv(F0IV) =   1.7 ; GrayCorbally09
+Mv(F0IV) =  1.77 ; exemplar 23 UMa = HR 3757
+Mv(F0IV) =  2.06 ; exemplar HD 107326 = Cl Melotte 111 70 (Coma Ber cluster)
+Mv(F0IV) =  2.09 ; sec. stan. eps Cep = HD 211336 (~0.3 mag above MS)
+Mv(F0IV) =  2.10(+-0.11 sem,+-0.53 stdev) ; SIMBAD median F0IV d<75pc,V<6.5(N=25)
+Mv(F0IV) =  2.29 ; pri. stan. 57 Tau = HD 27397 (~0.2 mag above MS)
+Mv(F0IV) =  2.32 ; exemplar HD 143466 = HR 5960 (near MS) 
 
 # Primary Standard
 
-57 Tau = HD 27397 = HR 1351 = vB 30 = VA 182 = V483 Tau (J0419+1402)
-
-  F0IV: MK73,Cowley74(stan),MK78,Gray89,GrayGarrison89(low-vsini stan),Gray01
+57 Tau = HD 27397 = HR 1351 = vB 30 = VA 182 = V483 Tau = HIP 20219 (J0419+1402)
+ *F0IV: MK73,Cowley74(stan),MK78,Gray89,GrayGarrison89(low-vsini stan),Gray01
   F0V: Morgan65
-  Hyad, pmRA,pmDec = +116,-19 (TYC2), Vmag=5.58, vsini=109 km/s
-  Mv=2.32 (Allende-Prieto99). Delta Scuti (Rodriquez94), per=0.054 d
-  (Samus+07). 34" binary. B-V = 0.288+-0.0037 (Joner+06).  According
-  to Pinsonneault04 tracks, B-V=0.286 (close to Joner value)
-  corresponds to 1.72 Msun, Teff=7471K, and Mv=2.35. Hence the star's
-  HRD position is consistent with it being on the Hyades ~0.6 Gyr
-  MS. MK78 shows HD 27397 as the F0IV standard (labeled as a Hyades
-  member), and compares it to the F0V standard HD 23585 (Pleiad) and
-  F0III standard Zet Leo.  The Pinsonneault Hyades MS runs to 8280K
-  (B-V=0.14; ~A3.5). Most HRD diagrams with luminosity tracks in B-V
-  vs. Mv show the subgiant "IV" track join the upper main sequence
-  around the early Fs.
+  
+  Hyad, pmRA,pmDec = +116,-19 (TYC2), V=5.58(HIP), vsini=109 km/s.
+  Delta Scuti (Rodriquez94), per=0.054 d (Samus+07). 34" binary. B-V =
+  0.288+-0.0037 (Joner+06).  According to Pinsonneault04 tracks,
+  B-V=0.286 (close to Joner value) corresponds to 1.72 Msun,
+  Teff=7471K, and Mv=2.35. Hence the star's HRD position is consistent
+  with it being on the Hyades ~0.6 Gyr MS. MK78 shows HD 27397 as the
+  F0IV standard (labeled as a Hyades member), and compares it to the
+  F0V standard HD 23585 (Pleiad) and F0III standard Zet Leo.  The
+  Pinsonneault Hyades MS runs to 8280K (B-V=0.14; ~A3.5). Most HRD
+  diagrams with luminosity tracks in B-V vs. Mv show the subgiant "IV"
+  track join the upper main sequence around the early
+  Fs. plx=21.9777+-0.0621mas(GaiaEDR3) => Mv=2.29, 0.19 mag above MS.
 
 # Secondary Standard
 
@@ -64,6 +82,7 @@ eps Cep = HD 211336 = HR 8494 = HIP 109857
   F0V Sr II: Gray01
   F0: Cannon
   A9IV: GrayGarrison89
+  
   B-V = 0.278, Mv=2.09, dMv= -0.33, so only slightly above MS. 
   GrayGarrison89 called "A9IV", but Gray01 called it "F0V Sr II". 
   Virtually everyone agrees on "F0" subtype. All post-JM53 consider it "IV".
@@ -92,6 +111,150 @@ mu Cet = HD 17094 = HR 813 (J0244+1006)
   GrayGarrison89 do not list it as a standard, and in the notes
   comment: "Probable composite spectrum. Close visual double with
   delta(V)=1.4 and sep=0".1."
+
+# Exemplars 
+
+HD 95310 = 49 UMa = HR 4288 = HIP 53838 
+   F0V: 1925sdsl.book.....L, Slettebak59(F0),Cowley79(F0Vs),Sato90,Abt95
+  *F0IV: Cowley76
+   F0III: Bertaud67
+   A7Vs: Adams35
+
+   Decent agreement on F0-subtype, and mostly on dwarf lum class, but
+   seems to be somewhat evolved - so may not be best choice of
+   exemplar- so I've adopted the Cowley76 F0IV. WDS lists binary
+   sep=0.4" and del(mag)=3.7 (mag1=5.10, mag2=8.80).  V=5.06(HIP),
+   V=5.078+-0.008(Mermilliod91), plx=8.09+-0.66(HIP),
+   plx=8.9314+-0.2104 mas (GaiaDR2). Probably reddened.
+   B-V=0.255+-0.010(HIP), V-I=0.30+-0.03. WDS lists as 0.4" binary,
+   del(mag) = 3.7. PASTEL: Teff=7074K(Adamczak14),
+   [Fe/H]=0.11(Adamczak14), logg=3.46(Adamczak14). TIC9/Stassun19 &
+   Anders18/StarHorse both list logg ~ 3. E(B-V) =
+   0.006(Kervella19,STILISM) => Av = 0.020. Mv = -0.19+-0.05.
+
+23 UMa = HR 3757 = HD 81937 = HIP 46733
+   F0III:: 1919AnHar..94.....C,Cucchiaro80
+   F0III-IV: Cowley76
+  *F0IV: Slettebak55,GarrisonGray89
+   F0V: Chalonge52,Abt95
+   F0: Keenan41
+
+   Great agreement on F0 subtype, but lum class all over the place.
+   Several other F0 classifications, mostly IV and III.  V=3.65(HIP),
+   B-V=0.360+-0.015(HIP), V-I=0.41+-0.03(HIP).
+   plx=41.99+-0.16mas(HIP2) => Mv=1.77, 1.13 mag above the MS.
+
+HD 107326 = Cl Melotte 111 70 = HR 4694 = HIP 60168
+   A8: Stock52
+   A8V: Wilson50
+   A9V: Palmer68
+   F0: 1938LicOB..18..167T,1953UppAn...3j...1W,1959AAHam...5..105S	
+   F0V: Abt95,1963BOTT....3..137M
+  *F0IV: Cowley69,GrayGarrison89,Gray01
+   F0III-IV: Apenzeller67
+   F0II: Duflot56
+   F0/2IV/Vp: Clausen79
+
+   Coma Ber cluster member. vsini=130km/s(Glebocki05). 
+   V=6.16(HIP), B-V=0.306+-0.008(HIP), V-I=0.31+-0.03(HIP).
+   plx=15.1579+-0.037mas(GaiaEDR3) => Mv=2.06, 0.51 mag above MS.
+
+HD 123255 = HR 5290 = HIP 68940 
+   A8V: Adams35
+  *F0IV: Abt95,GrayGarrison89(F0IV(Cr))
+   F2III: Harlan74
+   F2IV: Cowley74
+
+   V=5.46(HIP), B-V=0.347+-0.005(HIP), V-I=0.41+-0.02(HIP).
+   plx=17.5627+-0.0994mas(GaiaEDR3) => Mv=1.68, 1.14 mag above
+   MS.
+
+HD 208450 = del Ind = HR 8368
+   A8(V)+F3(V): Beavers80
+   F0III: Cucchiaro78
+   F0III-IVn: GrayGarrison89
+  *F0IV: deVaucouleurs57,Evans64,Malaroda75,Houk75,Abt95
+   F0V: 1937AnHar.105...45H, 1955MmMtS..12....1W
+
+   0.1" binary in HIP/CCDM, Hp(A)=4.799, Hp(B)=5.959 =>
+   delta(Hp)=1.16.  V(AB)=4.40(HIP), B-V=0.297+-0.013(HIP),
+   V-I=0.35+-0.02(HIP).  Adopting del(V) = 1.16 from del(Hp) & V=4.40
+   => V(A)=4.72, V(B)=5.88. plx=17.34+-0.48mas(HIP2) => Mv(A)=0.92,
+   Mv(B)=2.08.
+   
+
+# Other Stars
+
+
+alf Hyi = HD 12311 = HR 591 
+   A7n: 1932PLicO..18....1M
+   A9III:  1957MNRAS.117..449D
+   F0III-IVn: GrayGarrison89
+  *F0IV: Abt95,Gray06
+   F0V: 1937AnHar.105...45H,Woods55,Houk75(Garrison)
+
+   Several F0 classifications, recently IV.
+
+51 Eri = HR 1474 
+   A7V: Maury1897
+  *F0IV: GarrisonGray89,Abt95
+   F0V: Cowley69
+   F2IV: Davis67
+
+   Famous host star to directly imaged young planet 51 Eri b.  Beta
+   Pic MG member so ~20 Myr.  Two distant M dwarf companions GJ 3305.
+
+HD 905 = HR 41 = HIP 1086 
+   F0IV: Cowley69, Abt95(F0IVs)
+   A7: 1932PLicO..18....1M
+
+HD 37788 = HR 1955 = HIP 26762
+   A7V: Palmer68
+   F0V+: GrayGarrison89
+  *F0IVs: Abt95
+   F0IV: Cowley69
+
+HD 55892 = HR 2740
+   F0IV: Malaroda75,Houk78,GrayGarrison89(G0IVs)
+   F1V: 1937AnHar.105...45H
+   F2III: Cucchiaro78
+   F3V_Fe-1.0: Gray06
+
+HD 69682 = HR 3258 = HIP 40878
+  *F0V: Cowley74
+   F0IV: Cowley65,Abt95
+   F0III: Grenier99
+   Fm delta Del: 1966VA......8...53B
+
+   HRD suggests this is really a main sequence star.  V=6.50(HIP),
+   B-V=0.300+-0.007(HIP), V-I=0.34+-0.01(HIP).
+   plx=16.5406+-0.0268mas(GaiaEDR3) => Mv=2.59 (0.05 mag below MS).
+
+HD 143466 = HR 5960 = HIP 78180 
+  *F0IV: Slettebak55,Cowley69,GrayGarrison89
+   F0V: Abt95
+   F1IVab: Barry70(uv metals weak)
+ 
+   Mostly classified as subgiant but HRD position seems like middle of
+   main sequence.  V=4.96(HIP), B-V=0.269+-0.008(HIP),
+   V-I=0.29+-0.03(HIP) plx=29.6204+-0.0809mas(GaiaEDR3) => Mv=2.32 =>
+   0.05 mag above MS.
+
+HD 163929
+   F0V: Sato90
+  *F0IV: Cowley74,Grenier99
+   F2III: Cowley79
+
+del Ser B = HD 138917
+   F0V: Adams35
+   F0IV-V: Slettebak63
+   F0IV: Abt95
+   F0IIIb: GrayGarrison89
+   F0: 	1923LicOB..10..169L
+
+   Great agreement on subtype, awful agreement on luminosity class. 
+
+
 
 # COMMENTS ON COLORS OF F SUBGIANTS
 

@@ -1,4 +1,4 @@
-A1V
+AAA1V
 
 Garrison94 does not list any A1V anchor standards, and MK73
 does not list a A1V dagger standard.
@@ -45,27 +45,59 @@ and within 1 mag of the MS (N=12):
 (B-V)(A1V) =   0.02  ; Fitzgerald70
 (B-V)(A1V) = 0.028 ; sec. stan. 48 Cet
 (B-V)(A1V) =   0.03  ; Morgan53, Johnson63, Garrison67, Morgan71, KenyonHartmann95
-(B-V)(A1V) = 0.031 ; pri. stan. HD 10939 
-(B-V)(A1V) = 0.043 ; sec. stan. del Vel 
+(B-V)(A1V) = 0.031 ; pri. stan. HD 10939
+(B-V)(A1V) = 0.039 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
+(B-V)(A1V) = 0.041 ; ter. stan. HD 21447/HR 1046
+(B-V)(A1V) = 0.043 ; sec. stan. del Vel
+(B-V)(A1V) = 0.050 ; d<60 pc SIMBAD A1V N=15
 (B-V)(A1V) =   0.05  ; JohnsonMorgan53
 <B-V>(A1V) = 0.055 (+-0.013 sem, +-0.016 stdev) ; Gray01/03/06 (N=4)
 <B-V>(A1V) = 0.073 (+-0.011 sem, +-0.033 stdev) ; HIP d<75pc S/N>8 (N=12)
-=> adopt (B-V)(A1V)  =  0.043 ***
-=> adopt (U-B)(A1V)  =  0.033
-=> adopt (V-I)(A1V)  =  0.044
-=> adopt (V-R)(A1V)  =  0.019
-=> adopt (R-I)(A1V)  =  0.025
-=> adopt (V-J)(A1V)  =  0.094
-=> adopt (V-H)(A1V)  =  0.070
-=> adopt (V-Ks)(A1V) =  0.101
-=> adopt (H-Ks)(A1V) =  0.031
-=> adopt (J-H)(A1V)  = -0.024
-=> adopt (K-W1)(A1V) =  0.030 
+(B-V)(A1V) =   0.095 ; BakisEker22 
+=> adopt (B-V)(A1V)  =  0.035 *** [last updated 5/24/2019]
+=> adopt (U-B)(A1V)  =  0.023
+=> adopt (V-I)(A1V)  =  0.037
+=> adopt (V-R)(A1V)  =  0.016
+=> adopt (R-I)(A1V)  =  0.021
+=> adopt (V-J)(A1V)  =  0.085
+=> adopt (V-H)(A1V)  =  0.060
+=> adopt (V-Ks)(A1V) =  0.090
+=> adopt (H-Ks)(A1V) =  0.030
+=> adopt (J-H)(A1V)  = -0.025
+[EEM 12/2/2012: standards are tightly clustered around B-V ~
+0.03-0.04, while median for A1V samples have B-V ~ 0.05-0.07. One
+could probably argue for an adopted value being anywhere from B-V ~
+0.03 to 0.07. Johnson66 omits listing colors for A1V.]
 
-[EEM 12/2/2012: standards have B-V ~ 0.03-0.04, while median for A1V
-samples have B-V ~ 0.05-0.07. One could probably argue for an adopted
-value being anywhere from B-V ~ 0.03 to 0.07. Johnson66 omits listing
-colors for A1V.]
+(Bp-Rp)(A1V) =  0.037 ; Evans18 trend for V-I=0.037
+(Bp-Rp)(A1V) =  0.005 ; color trend for B-V=0.035
+=> adopt (Bp-Rp)(A1V) = 0.005 [updated 11/22/2020]
+
+(Bp-G)(A1V) = -0.036 ; color trend for B-V=0.035
+=> adopt (Bp-G)(A1V) = -0.036 [updated 11/22/2020]
+
+(G-Rp)(A1V) =  0.032 ; color trend for B-V=0.035
+=> adopt (G-Rp)(A1V) = 0.032 [updated 11/22/2020]
+
+(Ks-W1)(A1V) = 0.043 ; EEM trend for d<30pc for B-V=0.035
+=> adopt (Ks-W1)(A1V) = 0.043 [updated 12/29/2019]
+
+(G-V)(A1V) = -0.074 ; * gam TrA PM* A1V
+(G-V)(A1V) = -0.026 ; * 3 Crv PM* A1V
+(G-V)(A1V) = -0.012 ; * 50 Cnc PM* A1Vp
+(G-V)(A1V) = -0.004 ; * psi Sco * A1V
+(G-V)(A1V) =  -0.003 ; * gam Oph PM* A1VnkA0mA0
+(G-V)(A1V) =  0.000 ; * gam Tri PM* A1Vnn
+(G-V)(A1V) =  0.000 ; HD 96819 PM* A1V
+(G-V)(A1V) =  0.001 ; * b Dra A A1V
+(G-V)(A1V) = 0.001 ; polynomial fit for f(B-V)
+(G-V)(A1V) =  0.004 ; * 33 Boo PM* A1V
+(G-V)(A1V) =  0.005 ; * 49 Cet PM* A1V
+(G-V)(A1V) =  0.008 ; * alf Lac PM* A1V
+(G-V)(A1V) =  0.012 ; * 35 Vul * A1VmA3
+(G-V)(A1V) = 0.015 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.090
+(G-V)(A1V) =  0.024 ; * tet Cap PM* A1V
+=> adopt (G-V)(A1V) = 0.01 [updated 4/8/2022]
 
 (U-B)(A1V)   = 0.01  ; Fitzgerald70
 (U-B)(A1V)   = 0.030 ; HIP d<75pc S/N>8 A1V N=34 (Mermilliod91 photometry)
@@ -77,55 +109,80 @@ colors for A1V.]
 
 (R-I)(A1V)   = 0.008 ; Bessell79
 
+(g-r)(A1V)   = -0.080 ; Jordi06 (V-R)=>(g-r) for V-R=0.016
+(g-r)(A1V)   = -0.213 ; Bilir05 (B-V)=>(g-r) for B-V=0.035
+(g-r)(A1V)   = -0.24  ; Covey07 interp A0V-A2V
+=> adopt (g-r)(A1V) = -0.21 [updated 10/10/2020]
+
 Teff(A1V) =   9500 K ; Bessell79
 Teff(A1V) =   9500 K ; GrayCorbally09
 Teff(A1V) =   9480 K ; GrayCorbally94
-Teff(A1V) = 9248 K ; sec. stan. HD 9132/48 Cet (median Teff)
+Teff(A1V) = 9478 K ; pri. stan. HD 10939 (median Teff)
+Teff(A1V) = 9397 K ; Zorec12 median
+Teff(A1V) = 9320 K ; ter. stan. HD 74956/del Vel (median Teff)
+Teff(A1V) = 9296 K ; sec. stan. HD 9132/48 Cet (median Teff)
+Teff(A1V) = 9240 K ; ter. stan. HD 21447 
 Teff(A1V) =   9230 K ; Schmidt-Kaler82
-Teff(A1V) = 9200 K ; ter. stan. HD 74956/del Vel (median Teff)
 Teff(A1V) = 9172 K ; EEM N=192 Teffs
 Teff(A1V) =   9150 K ; Theodossiou90
-Teff(A1V) = 9110 K ; pri. stan. HD 10939 (median Teff)
-Teff(A1V) =  9026 K ; mean photometric Teff
+Teff(A1V) = 9026 K ; mean photometric Teff
 Teff(A1V) =   8938 K ; Boyajian12
-=> adopt Teff(A1V) = 9200 K (logT = 3.965)
+=> adopt Teff(A1V) = 9300 K (logT = 3.968) [updated 10/18/2019]
 
 [EEM 12/2/2012: Teffs for standards and median Teffs for A1Vs support
 median Teff for A1V in regime 9100-9250K, but not as high as
 GrayCorbally09's value (9500K) or Boyajian12's value (8938K).]
 
-BCv(A1V) = -0.160 mag ; Flower96(Teff=9200K)
-BCv(A1V) = -0.121 mag ; Code76(Teff=9200K)
-BCv(A1V) = -0.117 mag ; Balona94(Teff=9200K)
-BCv(A1V) = -0.105 mag ; Bessell98(ATLAS,logg=4.0,Teff=9200K)
-BCv(A1V) = -0.10  mag ; Schmidt-Kaler82 (BCv=-0.23 + 0.13 offset)
-BCv(A1V) = -0.076 mag ; Bertone04(ATLAS,Teff=9200K)
-=> adopt BCv(A1V) = -0.11 mag (+-0.02 rms)
+BCv(A1V) = -0.191 mag ; Flower96(Teff=9300K, set so BCv(5772K)=-0.085)
+BCv(A1V) = -0.151 mag ; Code76(Teff=9300K, set so BCv(5772K)=-0.085)
+BCv(A1V) = -0.146 mag ; Balona94(Teff=9300K, set so BCv(5772K)=-0.085
+BCv(A1V) = -0.138 mag ; Bessell98(ATLAS,logg=4.0,Teff=9300K, set so BCv(5772K)=-0.085
+BCv(A1V) =  -0.10 mag ; Schmidt-Kaler82 (BCv=-0.23 + 0.13 offset)
+BCv(A1V) = -0.105 mag ; Bertone04(ATLAS,Teff=9300K, set so BCv(5772K)=-0.085
+=> adopt BCv(A1V) = -0.14 [updated 9/16/2019, adjusted so that BCv(5772K)=-0.085]
 
-Mv(A1V) = 1.6 mag   ; GrayCorbally09
-Mv(A1V) = 1.336 mag ; Wright05(B-V=0.043)
-Mv(A1V) = 1.306 +-0.123(sem),+-0.518(st.dev.); EEM N=34 A1V HIP d<75pc 
-Mv(A1V) = 1.0  mag  ; Schmidt-Kaler82
-Mv(A1V) = 0.84 mag  ; Wegner07
-=> adopt Mv(A1V) = 1.34 mag 
+Mv(A1V) =   1.6 mag  ; GrayCorbally09
+Mv(A1V) =  1.52 mag  ; exemplar HD 31647 = ome Aur (~40 Myr-old Columba member)
+Mv(A1V) =  1.38 mag  ; SIMBAD d<60pc trend for SpT=A1V
+Mv(A1V) =  1.31 mag  ; d<60 pc SIMBAD A1V N=12
+Mv(A1V) =  1.306 +-0.123(sem),+-0.518(st.dev.); EEM N=34 A1V HIP d<75pc
+Mv(A1V) =  1.31 mag  ; median Mv for A6V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
+Mv(A1V) =  1.30 mag  ; Wright05(B-V=0.035)
+Mv(A1V) =  1.26 mag  ; B/A/F dwarf sequence for B-V=0.035
+Mv(A1V) =  1.25 mag  ; EEM trend logT vs Rad for A1V
+Mv(A1V) =  1.21 mag  ; d<60pc Mv(B-V=0.04)
+Mv(A1V) = 1.16 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.035)
+Mv(A1V) =   1.0  mag ; Schmidt-Kaler82
+Mv(A1V) =   0.84 mag ; Wegner07
+=> adopt Mv(A1V)   = 1.16 mag [updated 9/26/2020]
+=> adopt M_G(A1V)  = 1.16 mag [updated 12/10/2020] (Mv=1.16, G-V=0.00)
+=> adopt M_Ks(A1V) = 1.07 mag [updated 12/30/2020] (Mv=1.16, V-Ks=0.090)
 
-logL(A1V) = 1.410 dex ; Mv=1.34 + BCv=-0.11 => Mbol = 1.23
-logL(A1V) = 1.69  dex ; sec. stan. 48 Cet (Zorec12)
-=> adopt logL(A1V) = 1.41 dex
-=> adopt Mbol(A1V) = 1.23 mag
+logL(A1V) = 1.488 dex ; Mv=1.16 + BCv=-0.14 => Mbol = 1.020
+logL(A1V) = 1.497 dex ; logL/Teff trend for O7V-A2V dwarf EBs (Torres10; Teff=9300K)
+logL(A1V) =  1.69  dex ; sec. stan. 48 Cet (Zorec12)
+logL(A1V) =  1.77  dex ; Zorec12 median
+=> adopt logL(A1V) = 1.488 dex [updated 9/26/2020]
+=> adopt Mbol(A1V) = 1.020 mag [updated 9/26/2020]
 
+Mass(A1V) = 2.53 Msun ; Zorec12 median
 Mass(A1V) = 2.43 Msun ; sec. stan. 48 Cet (Zorec12)
 Mass(A1V) = 2.397+-0.025 Msun ; Eclipsing binary V396 Cas A (Torres10)
 Mass(A1V) = 2.27 Msun ; non-standard Castor A (Torres02;Teff=9400K)
-Mass(A1V) = 2.21 Msun ; EEM Teff vs. Mass fit for binaries (Teff=9200K)
+Mass(A1V) = 2.24 Msun ; EEM Teff vs. Mass fit for binaries (Teff=9300K)
+Mass(A1V) = 2.23 Msun ; David15 A1 MS (rms=0.29 Msun; N=132)
 Mass(A1V) = 2.184+-0.037 Msun ; Eclipsing binary V1647 Sgr A (Torres10)
 Mass(A1V) = 2.16 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.34)
-Mass(A1V) = 2.12 Msun ; EEM logL vs. Mass fit for binaries (logL=1.41)
-Mass(A1V) = 2.12 Msun ; Ekers15 ML calibration for logL=1.41
+Mass(A1V) = 2.16 Msun ; EEM logL vs. Mass fit for binaries (logL=1.452)
+Mass(A1V) = 2.15 Msun ; Ekers18 ML calibration for logL=1.452
 Mass(A1V) = 2.097+-0.022 Msun ; Eclipsing binary VV Pyx A (Torres10)
 Mass(A1V) = 2.095+-0.019 Msun ; Eclipsing binary VV Pyx B (Torres10)
 Mass(A1V) = 1.967+-0.033 Msun ; Eclipsing binary V1647 Sgr B (Torres10) 
-=> adopt Mass(A1V) = 2.15 Msun
+=> adopt Mass(A1V) = 2.17 Msun [updated 12/29/2019]
+
+Rad(A1V) = 2.1364 Rsun ; logL=1.488, Teff=9300K
+Rad(A1V) =  2.040 Rsun ; logL=1.448, Teff=9300K
+=> adopt Rad(A1V) = 2.136 Rsun [updated 9/26/2020]
 
 # No Standards
 
@@ -135,8 +192,8 @@ A1V standards. Skiff08 did not flag any stars as A1V standards.
 # Primary Standards
 
 HD 10939 = HR 520
- *A1Va: Gray87(stan)
-  A1V: Houk75
+  A2V: Cuchiaro78,Cucchiaro80
+ *A1Va: Gray87(stan),Houk75(A1V)
   A0: Cannon
 
   The only modern classifications (Gray & Houk) both agree on A1
@@ -146,8 +203,9 @@ HD 10939 = HR 520
   (Mermilliod91), V-I=0.05+-0.00 (HIP), H = 5.026+0.027 (2MASS), Ks =
   4.964 +-0.027 (2MASS), V-H = 0.014, V-Ks = 0.076.  Teffs:
   9063K(B-V=>Bessell98), 9084K(V-Ks=>vanBelle09),
-  9110K+-282K(Paunzen06), 9692K(Philip80), 10090K(Sokolov95) => median
-  Teff = 9110K.
+  9110K+-282K(Paunzen06,Stassun18), 9222K(GaiaDR2),
+  9478K(Ballering13), 9599K(David15), 9692K(Philip80), 9750K(Chen14),
+  10090K(Sokolov95) => <Teff> = 9478K.
 
 # Secondary Standard
 
@@ -164,13 +222,16 @@ HD 9132 = 48 Cet
   logL=1.6913+-0.0228(Zorec12). Mass=2.43+-0.03 Msun(Zorec12). age =
   667+-45 Myr(Zorec12). vsini=32
   km/s(Zorec12). logg=4.08+-0.08(Allende-Prieto99).  Teffs:
-  8830K(V-Ks=>vanBelle09 calib.), 9200K(Grenier99),
-  9296K(B-Vo=>Bessell98, for logg=4.1), 9333K(Zorec12) => median Teff
-  = 9248K.
+  9177K(GaiaDR2), 
+  9200K(Grenier99),
+  9296K(B-Vo=>Bessell98, for logg=4.1),
+  9333K(Zorec12,Stassun18),
+  9552K(David15) 
+  => <Teff> = 9296K.
 
 # Tertiary Standard
 
-HD 74956 = Del Vel = HR 3485 
+HD 74956 = del Vel = HR 3485 
  *A1Va(n): Gray06
   A1Va: Gray87,Garrison96(for "AB")
   A1V: Levato72,Jaschek78
@@ -182,19 +243,38 @@ HD 74956 = Del Vel = HR 3485
   0.043+-0.006, V-I = 0.05+-0.02. Mermilliod91 photometry for
   unresolved pair: V=1.956+-0.008, B-V=0.039+-0.003,
   U-B=0.064+-0.016. 2MASS photometry is poor in all bands.  Teffs:
-  9019K(B-V=>Bessell98, for logg=4.0), 9021K(Gray06),
-  9200K(Grenier99), 9320K(Sokolov95), 9500K(Su08) => median Teff =
-  9200K.  logg=3.66(Allende-Prieto99),
+  9021K(Gray06), 9200K(Grenier99), 9290K(Zorec12), 9298K(Stassun18),
+  9320K(Sokolov95), 9450K(Eker15), 9477K(David15), 9500K(Su08),
+  9830K(Eker15#2) => <Teff> = 9320K.  logg=3.66(Allende-Prieto99),
   3.79(Gray06). [M/H]=-0.33(Gray06).  Mass=2.51Msun(Allende-Prieto99)
+
+HD 21447 = HR 1046
+  A0V: Rydstrom78
+ *A1V: JM53,Jaschek64(most),GrayGarrison87(A1Va),Abt95(A1Vn),Zorec09(BCDtype)
+  A2V: Cowley69,Cannon(A2)
+  A2.5V: Levato78
+  A3V: Roman49
+  
+  Adopt GrayGarrison87's "A1Va". Mostly agreement on A1V, but some A2
+  and A3 types. plx = 16.8324+-0.1689mas(GaiaDR2). Companion 14" away,
+  5mag fainter. V=5.09(HIP), V=5.096+-0.012(Mermilliod91),
+  B-V=0.022+-0.015(HIP), B-V=0.041+-0.004(Mermilliod91),
+  U-B=0.036+-0.003(Mermilliod91), V-I=0.06+-0.03(HIP).  Teffs:
+  9078+-126K(Zorec12,Stassun18), 9232K(GaiaDR2), 9240+-300K(Zorec09),
+  9335K(King03), 10049K(David15), => <Teff> = 9240K.
 
 # Deprecated Standards
 
 Alf CMa = Sirius
-  A1V: MK43
- *A0mA1Va: Gray03
+  kB9.5hA0mA1s: Abt95
+  A0: Cannon18(stan)
+  kA0hA0VmA1: Levato78
+  A0VamA1: Houk88(Garrison)
+ *A0mA1Va: GrayGarrison87,Gray03
+  A1V: MK43,Cowley67,Cowley69,Levato72,Cucchiaro80,Bidelman85(A1)
+  A2IV: Adams35
 
-  Ranges from B9.5 to A2IV in literature. Obviously has tight WD
-  companion.
+  Brightest star, with WD companion.
 
 HD 60179 = alf Gem A = Castor A
 
@@ -225,15 +305,6 @@ HD 198001 = eps Aqr = 2 Aqr = HR 7950
 
   Garrison & Gray now consider this a giant. 
 
-HD 21447 = HR 1046
- *A1V: JM53,Jaschek64(most),GrayGarrison87(A1Va),Abt95(A1Vn)
-  A2V: Cowley69,Cannon(A2)
-  A2.5V: Levato78
-  A3V: Roman49
-  
-  Adopt GrayGarrison87's "A1Va". Mostly agreement on A1V, but some A2
-  and A3 types. I would prefer to see more consistent types. 
-
 HD 45320 = HR 2324
  *A1Vann: Gray87(stan)
   A1V: Houk99 
@@ -254,11 +325,13 @@ HD 18331 = HR 875
   Not the strongest pedigree. Tough to take the A1V classification
   seriously when 4 other classifers find A3 or A4ish.
 
-HD 95418 = Bet UMa = HR 4925 
-  A1V: MK43,Cowley69(stan)
-  A1IV: Abt95
+HD 95418 = bet UMa = HR 4925
   A0mA1IV-V: Gray89 
+  A1V: MK43, Cowley69(stan), Levato78(A1Vs), Loden83(A1VSi)
+  A1IV: Abt95
  *A1IVps(SrII): Gray03
+  A2III: Adams35
+  A2.5: 1941ApJ....94..215S
 
   (B-V[HIP]=0.033+-0.003) ~0.88 mag above MS
 
@@ -287,7 +360,23 @@ HD 193702 = HR 7784
 
   Jaschek64 lists 4 different types in A0-A3 range from 6 references.
   Tight triple! CCDM lists *3* components within 3" of each other.
-  A tight 0.3" binary with a 3.3" companion further out. 
+  A tight 0.3" binary with a 3.3" companion further out.
+
+# Exemplar
+
+HD 31647 = ome Aur = 4 Aur = HR 1592
+  B9.0: Klochkova85
+  A0V: JM53,Palmer68,Barry70,
+ *A1V: Osawa59,Cowley69,Cucchiaro78,GarrisonGray87(A1Va),Abt95,Zorec09(BCDtype)
+
+  Has V=8.2 F9V companion 5" away. Gagne18 lists it as member of
+  Columba ~40 Myr association.  GaiaEDR3:
+  plx(A)=20.2399+-0.1077mas(GaiaEDR3), plx(B)= 20.4394+-0.0228mas.
+  V(AB)= 4.952+-0.022(Mermilliod91),
+  B-V(AB)=0.040+-0.010(Mermilliod91),
+  U-B(AB)=0.025+-0.015(Mermilliod91).  HIP/TYC: Bt(A)= 5.014+-0.004,
+  Vt(A)= 4.991+-0.004 => converted via Mamajek06 => V=4.989+-0.004,
+  B-V=0.015+-0.005.  Mv(A) = 1.520+-0.012(HIP/TYC,GaiaEDR3).
 
 # Other Stars
 
@@ -296,5 +385,9 @@ Zet UMa A
 
 Del Her
   A1Vann: Garrison96
+
+HD 111397 = HR 4865 = 29 Com (V=5.7)
+ *A1V: Cowley69,Loden83,Abt95,Paunzen01
+  A2V: Osawa59,Levato78
 
 RECONS shows Sirius (J0645-1642) as the nearest A1V star. 

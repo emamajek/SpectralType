@@ -7,6 +7,12 @@ What I would consider the modern MK system of F-type dwarf standards
 is reflected in Table 1a of Gray89
 (http://articles.adsabs.harvard.edu/full/1989AJ.....98.1049G).
 
+The HD catalog (Cannon18;
+http://articles.adsabs.harvard.edu/full/1918AnHar..91....1C) listed
+"Typical stars" for "Class F0" as del Gem and alf Car. del Gem is now
+classified as various variants (F2VkF0mF0 and F2V Fe-0.5 by Gray03,
+A9V by Abt95, and F0V+ GrayGarrison89) and alf Car is now
+
 MK43 standards:        eps Cep & gam Vir - F0V
 JM53 standards:        rho Gem & gam Vir (A+B) - F0V
 Morgan65 standard:     rho Gem - F0V
@@ -60,30 +66,77 @@ and within 1 mag of the MS (N=42):
 <V-Vt>(F0V)  =-0.035 (+-0.001 sem, +-0.001 stdev; N=41)
 <B-K>(F0V)   = 1.107 (+-0.033 sem, +-0.206 stdev; N=44)
 
+(B-V)(F0V)   = 0.346 ; exemplar HD 9919 = HR 463 = pi Psc
 (B-V)(F0V)   = 0.325 ; Morgan65 F0V Hyad HD 28294
-(B-V)(F0V)   = 0.32  ; Fitzgerald70
-<B-V>(F0V)   = 0.314 (+-0.011 sem, +-0.057 stdev);N=42 HIP d<75pc S/N>8 F0V
+(B-V)(F0V)   =  0.32  ; Fitzgerald70
+<B-V>(F0V)   = 0.314 (+-0.011 sem, +-0.057 stdev); N=42 HIP d<75pc S/N>8 F0V
 (B-V)(F0V)   = 0.312 ; Morgan65 F0V Hyad HD 29375
-(B-V)(F0V)   = 0.31  ; Johnson66, KenyonHartmann95
-(B-V)(F0V)   = 0.30  ; JohnsonMorgan53, Johnson63, Morgan71, SchmidtKaler82
+(B-V)(F0V)   =  0.31  ; Johnson66, KenyonHartmann95
+(B-V)(F0V)   =  0.303 ; BakisEker22 
+(B-V)(F0V)   =  0.30  ; JohnsonMorgan53, Johnson63, Morgan71, SchmidtKaler82
+(B-V)(F0V)   = 0.300 ; smoothed trend SpT vs (B-V)o B9.5V-F4V 11/2021
 <B-V>(F0V)   = 0.295 (+-0.002 sem, +-0.003 stdev; N=2) Gray01/03/06
+(B-V)(F0V)   =  0.29  ; Garrison67
+(B-V)(F0V)   = 0.288 ; exemplar HD 195627
+(B-V)(F0V)   = 0.287 ; exemplar HD 199124 = HR 8006 
 (B-V)(F0V)   = 0.283 ; Morgan65 F0V Hyad HD 27397
-(B-V)(F0V)   = 0.29  ; Garrison67
-(B-V)(F0V)   = 0.275 ; Crawford76
-(B-V)(F0V)   = 0.275 ; Bessell79
+(B-V)(F0V)   =  0.275 ; Crawford76
+(B-V)(F0V)   =  0.275 ; Bessell79
+(B-V)(F0V)   = 0.265 ; exemplar HD 73798 = BW Cnc (Praesepid)
 (B-V)(F0V)   = 0.263 ; Morgan65 F0V Hyad HD 28556
 (B-V)(F0V)   = 0.257 ; prim. stan. HD 23585 (dereddened by EEM E(B-V)=0.04)
-=> adopt (B-V)(F0V)  = 0.294 ***
-=> adopt (U-B)(F0V)  = 0.053
-=> adopt (V-I)(F0V)  = 0.339
-=> adopt (V-R)(F0V)  = 0.166
+=> adopt (B-V)(F0V)  = 0.295  *** [last updated 9/24/2020]
+  [EEM 9/24/2020; minor adjustment redward to make B-V/Teff/Mv sequence more consistent]
+=> adopt (U-B)(F0V)  = 0.052
+=> adopt (V-I)(F0V)  = 0.340
+=> adopt (V-R)(F0V)  = 0.167
 => adopt (R-I)(F0V)  = 0.173 
-=> adopt (V-J)(F0V)  = 0.589
-=> adopt (V-H)(F0V)  = 0.687
-=> adopt (V-Ks)(F0V) = 0.732
+=> adopt (V-J)(F0V)  = 0.590
+=> adopt (V-H)(F0V)  = 0.689
+=> adopt (V-Ks)(F0V) = 0.734
 => adopt (H-Ks)(F0V) = 0.045
-=> adopt (J-H)(F0V)  = 0.098
-=> adopt (K-W1)(F0V) = 0.028 
+=> adopt (J-H)(F0V)  = 0.099
+=> adopt (W1-W2)(F0V)= -0.026
+=> adopt (W1-W3)(F0V)= -0.050
+=> adopt (W1-W4)(F0V)= 0.003
+
+(G-V)(F0V) =  -0.095 ; * 47 Ari PM* F0V(e)
+(G-V)(F0V) =  -0.094 ; HD 204153 PM* F0V
+(G-V)(F0V) =  -0.091 ; HD 213135 PM* F0V
+(G-V)(F0V) =  -0.088 ; * pi. Psc PM* F0V
+(G-V)(F0V) =  -0.084 ; HD 109799 gD* F0V
+(G-V)(F0V) =  -0.079 ; * 47 Cas PM* F0V
+(G-V)(F0V) =  -0.076 ; * pi.02 Gru PM* F0V
+(G-V)(F0V) =  -0.065 ; * 53 Her PM* F0V
+(G-V)(F0V) =  -0.065 ; * m Hya A F0VSr
+(G-V)(F0V) = -0.061 ; fit to Gray01/03/06 F dwarfs for B-V=0.295 (see below)
+(G-V)(F0V) = -0.057 ; fit to SIMBAD F dwarfs d<60pc
+(G-V)(F0V) =  -0.053 ; * lam Ari PM* F0V
+(G-V)(F0V) =  -0.050 ; * chi Cet PM* F0V
+(G-V)(F0V) =  -0.046 ; * eps Cep dS* F0V(Sr)
+(G-V)(F0V) =  -0.045 ; HD_195627_ F0V_
+(G-V)(F0V) =  -0.045 ; * phi01 Pav PM* F0V
+(G-V)(F0V) =  -0.034 ; * 42 Lyn * F0V
+=> adopt (G-V)(F0V) = -0.06 [updated 10/30/2020]
+
+(Bp-Rp)(F0V) = 0.384    ; color trend for B-V=0.295
+(Bp-Rp)(F0V) =  0.3995  ; HD_195627
+(Bp-Rp)(F0V) =  0.423   ; Evans18 trend for V-I=0.340
+(Bp-Rp)(F0V) =  0.4947  ; pi_Psc
+=> adopt (Bp-Rp)(F0V)= 0.384 [updated 11/18/2020]
+
+(Bp-G)(F0V) = 0.156    ; color trend for B-V=0.295 
+(Bp-G)(F0V) =  0.1957  ; HD_195627
+(Bp-G)(F0V) =  0.2256  ; pi_Psc
+=> adopt (Bp-G)(F0V) = 0.156 [updated 11/18/2020]
+ 
+(G-Rp)(F0V) =  0.2038  ; HD_195627
+(G-Rp)(F0V) = 0.230    ; color trend for B-V=0.295
+(G-Rp)(F0V) =  0.2691  ; pi_Psc
+=> adopt (G-Rp)(F0V) = 0.230 [updated 11/18/2020]
+
+(Ks-W1)(F0V) = 0.049 ; EEM trend for d<30pc for B-V=0.29
+=> adopt (Ks-W1)(F0V) = 0.049 [updated 12/29/2019]
 
 (U-B)(F0V)   = 0.02  ; JohnsonMorgan53
 (U-B)(F0V)   = 0.03  ; Fitzgerald70
@@ -94,50 +147,89 @@ and within 1 mag of the MS (N=42):
 
 (R-I)(F0V)   = 0.168 ; Bessell79
 
-Teff(F0V) =  6903 K ; Boyajian12
-Teff(F0V) =  7100 K ; Blackwell80
+(g-r)(F0V)   = 0.161 ; Jordi06 (V-R)=>(g-r) for V-R=0.167
+(g-r)(F0V)   = 0.10  ; Covey07
+(g-r)(F0V)   = 0.080 ; Bilir05 (B-V)=>(g-r) for B-V=0.295
+=> adopt (g-r)(F0V) = 0.10 [updated 10/10/2020]
+
+Teff(F0V) = 6836 K ; exemplar HD 9919 = HR 463 = pi Psc (metal poor [Fe/H] ~ -0.5)
+Teff(F0V) =   6903 K ; Boyajian12
+Teff(F0V) =   7100 K ; Blackwell80
 Teff(F0V) = 7109 K ; EEM N=310 Teffs
-Teff(F0V) =  7125 K ; B-V=0.294 => Teff(Casagrande10)
-Teff(F0V) =  7148 K ; B-V=0.294 => Teff(Napiwotzski93)
-Teff(F0V) =  7161 K ; V-K=0.732 => Teff(diBenedetto98)
-Teff(F0V) =  7170 K ; V-K=0.732 => Teff(Mozurkewich03)
-Teff(F0V) =  7200 K ; Schmidt-Kaler82
+Teff(F0V) =  7178 K ; non-stan. Hyad HD 29375 (Morgan65 type, 2012A&A...537A.120Z Teff)
+Teff(F0V) = 7187 K ; exemplar HD 73161 
+Teff(F0V) =   7200 K ; Schmidt-Kaler82
+Teff(F0V) = 7200 K ; Teff from smoothed SpT(Teff) trend
 Teff(F0V) = 7217 K ; mean photometric Teff
+Teff(F0V) = 7221 K ; exemplar HD 195627
 Teff(F0V) =  7250 K ; GrayCorbally09
-Teff(F0V) =  7251 K ; V-K=0.732 => Teff(vanBelle09)
-Teff(F0V) =  7253 K ; V-H=0.687 => Teff(Casagrande10)
-Teff(F0V) =  7260 K ; GrayCorbally94
-Teff(F0V) =  7265 K ; V-I=0.339 => Teff(Bessell98,dwarf)
-Teff(F0V) = 7440 K ; HD 23585 (Gray01)
-Teff(F0V) =  7430 K ; B-V=0.294 => Teff(Bessell98,dwarf)
-Teff(F0V) =  7500 K ; Bessell79
-Teff(F0V) =  7500 K ; Theodossiou90
-=> adopt Teff(F0V) = 7200 K (logT = 3.857)
+Teff(F0V) =   7260 K ; GrayCorbally94
+Teff(F0V) = 7261 K ; Zorec12 median
+Teff(F0V) = 7261 K ; exemplar HD 199124 
+Teff(F0V) = 7273 K ; HIP 101612, Stassun19/TIC8
+Teff(F0V) = 7328 K ; exemplar HD 73798 (Praesepid)
+Teff(F0V) = 7345 K ; pri. stan. HD 23585 (Gray01)
+Teff(F0V) = 7400 K ; median Teff for 4 F0V from Gray17
+Teff(F0V) =   7500 K ; Bessell79
+Teff(F0V) =   7500 K ; Theodossiou90
+=> adopt Teff(F0V) = 7220 K (logT = 3.859) [updated 9/24/2020]
 
-BCv(F0V) = 0.086 mag ; Balona94(Teff=7200K)
-BCv(F0V) = 0.078 mag ; Bertone04/ATLAS(Teff=7200K)
-BCv(F0V) = 0.044 mag ; Flower96(Teff=7200K)
-BCv(F0V) = 0.040 mag ; Schmidt-Kaler82(BCv=-0.09 + 0.13 offset)
-BCv(F0V) = 0.024 mag ; Masana06(Teff=7200K + offset of +0.04 mag)
-BCv(F0V) = 0.010 mag ; Code76(Teff=7200K)
-BCv(F0V) = 0.007 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7200K)
-=> adopt BCv(F0V) = 0.03 mag (+-0.034 rms)
+BCv(F0V) =  0.072 mag ; Balona94(Teff=7220K, set so BCv(5772K)=-0.085
+BCv(F0V) =  0.064 mag ; Bertone04/ATLAS(Teff=7220K, set so BCv(5772K)=-0.085)
+BCv(F0V) =   0.040 mag ; Schmidt-Kaler82(BCv=-0.09 + 0.13 offset)
+BCv(F0V) =  0.031 mag ; Flower96(Teff=7220K, set so BCv(5772K)=-0.085)
+BCv(F0V) =  0.011 mag ; Masana06(Teff=7220K, set so BCv(5772K)=-0.085)
+BCv(F0V) =  0.000 mag ; Code76(Teff=7220K, set so BCv(5772K)=-0.085)
+BCv(F0V) = -0.007 mag ; Casagrande18(Teff=7220K,logg=4.5, set so BCv(5772K)=-0.085)
+BCv(F0V) = -0.008 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7200K, set so BCv(5772K)=-0.085)
+=> adopt BCv(F0V) = 0.01 mag [last updated 9/1/2019, adjusted so that BCv(5772K)=-0.085]
 
-Mv(F0V) = 2.7  mag ; Schmidt-Kaler82
-Mv(F0V) = 2.6  mag ; GrayCorbally09
-Mv(F0V) = 2.51 mag ; Wright05(B-V=0.294)
-Mv(F0V) = 2.23 mag ; Wegner07
-=> adopt Mv(F0V) = 2.51 mag 
+logg(F0V) = 4.2 ; median Teff for 4 F2V from Gray17
 
-logL(F0V) = 0.886 dex ; Mv=2.51, BCv=0.03 => Mbol = 2.54
-=> adopt logL(F0V) = 0.89 dex
-=> adopt Mbol(F0V) = 2.54 mag
+Mv(F0V) =  2.94 mag ; exemplar HD 9919 = HR 463 = pi Psc
+Mv(F0V) =   2.7  mag ; Schmidt-Kaler82
+Mv(F0V) =   2.6  mag ; GrayCorbally09
+Mv(F0V) =  2.59 mag ; pri. stan. HD 23585 = Cl Melotte 22 1284 (Pleiad, ~100 Myr)
+Mv(F0V) = 2.57 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.295
+Mv(F0V) =  2.56 mag ; d<60pc SIMBAD F0V (N=37)
+Mv(F0V) =  2.55 mag ; EEM interp logT vs Rad for F0V
+Mv(F0V) =  2.55 mag ; A/F dwarf sequence for B-V=0.295
+Mv(F0V) =  2.52 mag ; interp BAF dwarf seq for B-V=0.29
+Mv(F0V) =  2.51 mag ; Wright05(B-V=0.295)
+Mv(F0V) =  2.50 mag ; exemplar HD 195627 = HR 7848 
+Mv(F0V) =  2.49 mag ; F dwarf trend standards/exemplars
+Mv(F0V) =  2.46 mag ; d<60pc Mv(B-V=0.29)
+Mv(F0V) =  2.29 mag ; EEM fit to SIMBAD dwarfs d<25pc for B-V=0.295
+Mv(F0V) =  2.26 mag ; exemplar HD 73161 (Praesepid, ~700 Myr)
+Mv(F0V) =   2.23 mag ; Wegner07
+Mv(F0V) =  1.98 mag ; exemplar HD 73798 = BW Cnc
+Mv(F0V) =  1.85 mag ; exemplar HD 199124 = HR 8006 
+=> adopt Mv(F0V)   = 2.57  mag [updated 9/26/2020]
+=> adopt M_G(F0V)  = 2.51  mag [updated 12/10/2020] (Mv=2.57, G-V=-0.06)
+=> adopt M_Ks(F0V) = 1.836 mag [updated 12/30/2020] (Mv=2.57, V-Ks=0.734)
 
-Mass(F0V) = 1.56 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7160K)
-Mass(F0V) = 1.58 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.51)
-Mass(F0V) = 1.59 Msun ; EEM logL vs. Mass fit for binaries (logL=1.59)
+logL(F0V) = 0.864 dex ; Mv=2.57, BCv=0.01 => Mbol = 2.580
+logL(F0V) = 0.872 dex ; Mv=2.55, BCv=0.01 => Mbol = 2.560
+logL(F0V) = 1.11  dex ; Zorec12 median 
+=> adopt logL(F0V) = 0.864 dex  [updated 9/26/2020]
+=> adopt Mbol(F0V) = 2.580 mag  [updated 9/26/2020]
+
+Rad(F0V) =  1.756 Rsun ; HIP 101612, Stassun19/TIC8
+Rad(F0V) =  1.744 Rsun  ; logL=0.872, Teff=7220K
+Rad(F0V) =  1.7387 Rsun ; interp A7V-F2V for logT=3.859
+Rad(F0V) =  1.730 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs
+Rad(F0V) = 1.7281 Rsun ; logL=0.864, Teff=7220K 
+Rad(F0V) =  1.719 Rsun ; smoothed SpT vs Rad trend A/F dwarfs
+=> adopt Rad(F0V) = 1.728 Rsun [updated 9/26/2020]
+
+Mass(F0V) = 1.52 Msun ; David15 F0 MS (rms=0.19 Msun; N=324) 
+Mass(F0V) = 1.58 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7220K)
+Mass(F0V) = 1.59 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.49)
+Mass(F0V) = 1.61 Msun ; EEM logL vs. Mass fit for binaries (logL=0.896)
 Mass(F0V) = 1.61 Msun ; Ekers15 ML calibration for logL=0.89
-=> adopt Mass(F0V) = 1.59 Msun
+Mass(F0V) = 1.62 Msun ; HenryMcCarthy93 calibration for Mv=2.49
+Mass(F0V) = 1.76 Msun ; Zorec12 median  
+=> adopt Mass(F0V) = 1.61 Msun [updated 9/16/2019]
 
 # No standard
 
@@ -146,23 +238,112 @@ MK73 does not list a F0V standard
 # Primary Standard
 
 HD 23585 = Cl Melotte 22 1284 (Pleiad) = HII 1284
-
-  F0V: MK78,Kennedy83,Keenan85,Garcia89,Gray89,GrayGarrison89,GrayNstars,GrayAtlas,Gray01
+ *F0V: MK78,Kennedy83,Keenan85,Garcia89,Gray89,GrayGarrison89,GrayNstars,GrayAtlas,Gray01
   A9V: Jaschek64,Jaschek78
 
-  No Houk type, probably light reddening (E(B-V) ~ 0.04 mag).
-  V=8.71(Tycho), B-V=0.297+-0.003(Mermilliod91),
-  U-B=0.080+-0.000(Mermilliod91), J=7.770+-0.018(2MASS),
-  H=7.658+-0.051(2MASS), Ks=7.642+-0.023(2MASS),
-  (V-Ks)=1.068(Tycho,2MASS), Teff=6940(KIC),
-  Teff=7440(Gray01). logg=4.29(Gray01), logg=4.002(KIC). As a Pleiad,
-  it is probably reddened E(B-V)=0.04, hence dereddened (B-V)o =
-  0.257.
+  No Houk type, probably light reddening (E(B-V) ~ 0.04 mag => Av ~
+  0.13).  V=8.71(Tycho), V=8.384+-0.007(Hauck97),
+  B-V=0.297+-0.003(Mermilliod91), U-B=0.080+-0.000(Mermilliod91),
+  J=7.770+-0.018(2MASS), H=7.658+-0.051(2MASS),
+  Ks=7.642+-0.023(2MASS), (V-Ks)=1.068(Tycho,2MASS). Not in PASTEL
+  compendium of Soubiran22. Teff= 6940(KIC), 7250K(Buoy15),
+  7310K(GaiaDR2), 7310K(Luo15), 7380K(Stassun18), 7440K(Gray01),
+  7472K(David15), 7500K(Chen14) => 7345K. logg=4.29(Gray01),
+  logg=4.002(KIC). As a Pleiad, it is probably reddened E(B-V)=0.04,
+  hence dereddened (B-V)o = 0.257. GaiaDR2: plx= 7.3699+-0.0601mas.
+  Mv = 2.59(Hauck97,GaiaDR2,Av=0.13).
 
-# Depricated Standards
+# Exemplar
+
+HD 195627 = HR 7848 = 2MASS J20353488-6034542 (V=4.8)
+  *F0V: 1953AnHar.119....1H,DeVaucoleurs57,Houk75,Abt95,Gray06
+   F0IV-V: GrayGarrison89
+   F0IVn: Evan64
+   F1III: Malaroda75
+   A9V: 1937AnHar.105...45H
+
+   Decent agreement on F0 subtype, mostly dwarf, with Abt95 and Gray06
+   bringing good recent agreement. Not in PASTEL compendium of
+   Soubiran22. PASTEL: 2 Teffs, median Teff = 7221K. 1 metallicity:
+   [Fe/H] = -0.11 2003A&A...398.1121E, [M/H] = -0.12(Gray06).
+   logg=3.90(Gray06). B-V = 0.291+-0.012(HIP),
+   B-V=0.288+-0.004(Mermilliod91), U-B=0.037+-0.065(Mermilliod91),
+   V-I=0.34+-0.02(HIP), V=4.75(HIP), V=4.756+-0.005(Mermilliod91).
+   2MASS photometry all poor. (b-y) = 0.178+-0.001(Paunzen15).
+   GaiaDR2: plx=35.3436+-0.2300mas. Mv = 2.498+-0.015.
+
+HD 73161 = Cl* NGC 2632 Rg 190 = Cl* NGC 2632 S 19 = Cl* NGC 2632 KW 38 
+  *F0V: Ramberg41(F0),Wilson50,Bidelman56(F0Vn),Rebeirot66
+   A9IVn: Abt86
+
+   Indexed as a Praesepe member, but confusing membership status.
+   GaiaDR2 parallax places it 2x as far as Praesepe, but proper motion
+   is good match (-38.00, -11.15 mas/yr for HD 73161 vs. cluster
+   -36.136, -12.950; Gao19). GaiaDR2 plx would mean very evolved
+   Mv=0.82, but Praesepe distance (187.0+-0.2 pc) => Mv = 2.26 places
+   it squarely on the MS. So the Gaia DR2 parallax is almost certainly
+   in error by 2x.  Cluster has E(B-V)=0.027+-0.004(Taylor06), but
+   individual estimate E(B-V) = 0.0197+-0.0034(Stassun19) => Av=0.066.
+   V=8.712(Hauck97), (B-V)=0.302+-0.028(HIP), (B-V)=0.307(Cummings17),
+   (B-V)o=0.302-0.027 = 0.275.  V=8.684+-0.009(Hauck97).  Not in
+   Soubiran22 PASTEL compendium.  Teff=7116K(Cummings17),
+   7180K(Kunder17), 7187K(Stevens17), 7234K(Stassun18), 7350K(GaiaDR2)
+   => <Teff>=7187K. plx = 2.7527+-0.1729mas(GaiaDR2) => 359.4+-22.4pc.
+   Teff = 7254+-127K(Stassun19), logg=3.49+-0.10(Stassun19),
+   [M/H]=0.201+-0.014(Stassun19).
+
+HD 9919 = HR 463 = pi Psc
+   A5V: Adams35
+   hF1gF0mF0: Jaschek89
+  *F0V: Palmer68,Cowley74,GrayGarrison89
+   F1V: Abt95
+
+   V=5.54(HIP), V=5.55(TYC), V=5.560+-0.029(Mermilliod91),
+   V=5.600(Hauck97), B-V=0.347+-0.008(HIP),
+   B-V=0.346+-0.009(Mermilliod91).  GaiaDR2: plx=30.0360+-0.3928mas.
+   Mv = 2.94+-0.03(TYC,GaiaDR2).  Not in Soubiran22 PASTEL
+   compendium. Teffs: 6583+-94K(Masana06),
+   6798K(Prugniel07#1,Balachandran90), 6812+-80K(Casagrande11),
+   6830K(Marsakov95), 6842K(Anders19 large errors),
+   6887+-48K(Zorec12), 6896+-129K(Stassun19), 7092K(Prugniel07#2) =>
+   <Teff> = 6836K.  logg=4.05(Prugniel07,Balachandran90),
+   logg=4.1944+-0.0885(Stassun19), logg=4.30(Prugniel07#2),
+   [Fe/H]=-0.20(Marsakov95), [Fe/H]=-0.47(Prugniel07#1,#2).
+
+HD 73798 = BW Cnc
+  *F0Vn: Bidelman56,Rebeirot66(F0V),Abt86
+   A5: Ramberg41,Ljunggren61
+
+   Prasepe member, delta Scuti variable (amplitude 0.01 mag, period
+   0.0674 d; AAVSO VSX). V=8.48(Mermilliod87,median of 3),
+   V=8.48(TYC), V=8.481(Hauck90), B-V=0.284+-0.023(TYC),
+   B-V=0.259(Mermilliod97,median of 3), U-B =
+   0.075(Mermilliod87,median of 3).  Not in Soubiran22 PASTEL
+   compendium. PASTEL: Teff = 7328K(Fossati08), logg=3.60(Fossati08),
+   [Fe/H]=0.12(Fossati08). GaiaDR2: plx=
+   5.1579+-0.0496mas. E(B-V)=0.0194(Stassun19) => Av = 0.065.  Mv =
+   1.98. (B-V)o = 0.284 - 0.0194 = 0.265.
+
+HD 199124 = HR 8006 = HIP 103261 = EM Aqr
+  *F0V: Malaroda75,Gray89,GrayGarrison89,Grenier99
+   A9V: Cowley74(A9Vn),Abt95
+   A9IV-V: Cowley76
+
+   Delta Scuti variable - amplitude 0.03mag, P=0.10247d.  V=6.55(HIP),
+   V=6.53(TYC), V=6.559+-0.003(Hauck97), V=6.547+-0.005(Mermilliod91),
+   B-V=0.283+-0.010(Mermilliod91), B-V=0.286+-0.010(HIP),
+   B-V=0.292+-0.008(TYC), U-B=0.065+-0.014(Mermilliod91),
+   V-I=0.33+-0.02(HIP).  Not in Soubiran22 PASTEL compendium. PASTEL:
+   Teffs = 7261+-50K(Zorec12), 7450+-253K(David15), 8403K(Rainer16) =>
+   Teff = 7261K.  logg=3.96+-0.14(David15), logg=3.72(Rainer16),
+   [Fe/H]=0.32(Rainer16). E(B-V)=0.005(Kervella19,STILISM) =>
+   Av=0.017.  (B-V)o = 0.292 - 0.005 = 0.287. plx = 11.5440
+   0.0456mas(GaiaDR2).  Mv = 1.85.
+
+# Deprecated Standards
 
 HD 58946 = rho Gem = HR 2852
-  F0V:  JM53,Jaschek64,Morgan65,Cowley69(stan),Houk75(stan),Cowley74(stan),Jaschek78
+  F0V:  Maury89,JM53,Jaschek64,Morgan65,Cowley69(stan),Houk75(stan),Cowley74(stan),Jaschek78
   F0V+: Gray89 (MgII 4481A sl wk)
   F0:   Cannon 
  *F1V:  Morgan71,Gray03
@@ -174,19 +355,20 @@ HD 58946 = rho Gem = HR 2852
   and it's spec binary.  But, Houk75 uses it as a F0V standard (from
   JM53), but after MK73 came out, they considered it "F1mA9".
   Morgan65 uses rho Gem as the F0V "fundamental classification
-  standard", but then Morgan71 calls its F1V. Arg.
+  standard", but then Morgan71 calls its F1V. Arg!!! PASTEL: median
+  Teff = 6913K.
 
-HD 110379 = gam Vir AB = Porrimma
+HD 110379 = gam Vir AB = Porrima
   F0V: MK43,JM53,Cowley69(stan),Cowley74(stan)
   F1V: Keenan89,Houk99
   F2V: Gray03
 
-  literature ranges from A7V to F2V, i.e. not the best standard nearly
+  Literature ranges from A7V to F2V, i.e. not the best standard nearly
   equal mass binary. Gam Vir and Eps Cep were the F0V standards in
   MK43.
 
-HD 211336 = HR 8494 = HIP 109857 = eps Cep
-  F0IV: JM53,Jaschek64(most),Barry70,Ortega83,Abt95
+HD 211336 = eps Cep = HR 8494 = HIP 109857 
+ *F0IV: JM53,Jaschek64(most),Barry70,Ortega83,Abt95
   F0V: MK43
   F0V Sr II: Gray01
   F0: Cannon
@@ -195,11 +377,11 @@ HD 211336 = HR 8494 = HIP 109857 = eps Cep
   B-V = 0.278, Mv=2.09, dMv= -0.33, so only slightly above
   MS. GrayGarrison89 called "A9IV", but Gray01 called it "F0V Sr
   II". Virtually everyone agrees on "F0" subtype. All post-JM53
-  consider it "IV".  Probably an acceptable secondary standard "F0IV"
-
+  consider it "IV".
+  
 HD 112412 = Alf CVn B ("ft") = HIP 63121 = alf01 CVn = 
   F0V: JM53,Slettebak63,Cowley69(stan),Cowley74(stan),Gahm83
-  F1V: Abt84,GrayGarrison89
+ *F1V: Abt84,GrayGarrison89
   F2V: Gray03,Bidelman85(F2)
   kA9hF4mF3: Abt95
 
@@ -212,8 +394,412 @@ Coma T109
 
 # Other stars
 
-Morgan65 classified four Hyads as F0V or variant: HD 27397 (B-V =
-0.283), 28294 (B-V = 0.325), 28556 (B-V = 0.263), & 29375 (B-V =
-0.312) -- and these stars have median color <B-V> = 0.297.
+Morgan65 classified four Hyads as F0V or variant:
+HD 28556 (B-V = 0.263; GrayGarrison89 call F0IV),
+HD 27397 (B-V = 0.283; MK78 F0IV standard),
+HD 29375 (B-V = 0.312; GrayGarrison89 call F0IV-V),
+HD 28294 (B-V = 0.325; GrayGarrison89 calls F0IV),
+-- and these stars have median color <B-V> = 0.297.
 
+HD 27176 = 51 Tau = HR 1331  (Hyad, spectroscopic binary)
+   kA5hF0:IV:mF2: Islik68
+   A7V: Adams35
+   A8V: 1940ApJ....91..256T 
+   A8V+G0: Deutsch71
+  *kA7hA7mF0(V+): GrayGarrison89
+   F0V: Cowley69,Barry70,Abt95
+   F0IV/V: Grennier99
+
+   Deutsch71 (1971PASP...83..298D) "The orbit of the Hyades
+   spectroscopic binary 51 Tauri".
+
+HD 28485 = HR 1422 = Cl* Melotte 25 Rg 236
+   A6V: Adams35
+   A8n: Wilson48
+   F0: Ramberg41
+   F0Vn: Abt95(F0Vn)
+  *F0V+n: GrayGarrison89
+   F0IV: Cowley74
+   F2: Ljunggren61
+
+   1.5" pair. 
+
+HD 31203 = HR 1563
+   F1V Fe-0.4: Gray06
+
+   12" pair with F5V companion. 
+
+HD 46304 = HR 2386
+   A6Vnn: GrayGarrison89
+   A6Vnp: Abt95(MgII 4481A wk)
+   F0Vn: Grennier99
+   F0Vnn: Cowley69
+   F0V: Bertaud69
+  *kA7hA8mF0V: KahramanAlicavus16
+
+   Not good agreement on types.  Gamma Dor star. GaiaDR2:
+   plx=22.5452+-0.1110mas.
+
+HD 108007 = HR 4719 = Cl Melotte 111 109
+  *A9V(n)kF2mF0: Gray01(composite?)
+   A9V: Trumpler38(A9),Apenzeller67
+   A9IV:Duflot56
+   F0V: Weaver52,Slettebak69(F0),Mendoza63,Cowley69,Abt77,Abt81,Abt95
+   F0IV/Vnp?: Clausen79
+   A8V: Westerlund56
+   A7V: 1952AN....280..121S(A7), Palmer68,
+   A7III: 1953UppAn...3j...1W
+   A6V: Adams35,Wilson56
+
+   Coma Ber cluster? 1.5" pair? Not good agreement. 
+
+HD 133408 = HR 5610
+   F0V: 1923LicOB..10..169L(F0),Cowley76,Paunzen01
+   kF0hF1mF2:: Abt95
+   hF0mA8: Jaschek89
+   F0VmA7: Abt86
+   F1:: Abt55
+
+   Not sure what to call it. Weak metals. 10" binary with other F star. 
+
+HD 196629 = HR 7887
+   F0V: Slettebak63,Cowley74,Abt95
+   hF1gF1mA9: Jaschek89
+   F1Vn: Cowley76
+   A5V: Adams35
+
+   Not good agreement. 
+
+HD 213135 = HR 8563
+  *F1V: Malaroda75,GrayGarrison89,Abt95
+   F0V: 1953AnHar.119....1H,DeVaucouleurs57,Evans57,Houk82
+
+   Everyone agrees dwarf. PASTEL: Median Teff = 6933K.
+
+HD 219080 = 7 And = HHR 8830 (V=4.5) 
+   F0V: Maury1897,Lindblad35(F0),Slettebak55,Cucchiaro80(UV)
+  *F0IV: GrayGarrison89,Abt95
+   F1V: Gray03
+   F2V: Adams35
+   A8III: Cowley74,Cowley76,
+
+   Not good enough agreement.
+
+HD 4490 = HR 214
+   A7V: Palmer68
+   A7IV: GrayGarrison89
+   F0Vn: Cowley69,Peniche81(F0V),Abt95
+
+   Not adopting as exemplar given that GrayGarrison89 called it A7.
+
+HD 114447 = HR 4971
+   A9IV: Abt81
+   A9III-IV: Appenzeller67
+  *F0V: Cowley76, 1976MmRAS..82...69H, Abt95
+   F0IV-V: GrayGarrison89
+
+HD 217232 = HR 8739
+   A7V: Cowley74
+   A8III: Abt81
+  *F0V: DeVaucoluers57,Cowley76,Abt95
+   
+
+
+# B-V vs. Mv sequence
+
+Selecting stars within 50pc (plx > 20mas) in xHIP compilation (Anderson+2012)
+thhat are A/F dwarfs in Gray01/03/06.
+Mv = 0.971 + 5.382367*(B-V)  (rms = 0.40 mag)
+
+# Mapping of Houk/Michigan Spectral Survey Types to Modern MK Grid (Gray/Keenan) for F Dwarfs
+
+See section 4.1 of Pecaut & Mamajek (2016) for a discussion on the subtle differences between specral classifications for dwarfs between the Michigan Spectral Survey catalog (Houk et al.) and those classified by Gray and collaborators on the modern MK grid (MK78 for hot stars through late F, Keenan standards for late F through M): https://ui.adsabs.harvard.edu/abs/2016MNRAS.461..794P/abstract). For the F dwarfs, PecautMamajek16 estimate the following mapping of types:
+
+SpT(Houk) SpT(Gray)
+F0V    => F1V
+F1V    => F2V
+F2V    => F3.5V
+F2/3V  => F3.5V
+F3V    => F4V
+F3/5V  => F5V
+F5V    => F5.5V
+F5/6V  => F6V
+F6V    => F6V
+F6/7V  => F6.5V
+F7V    => F7.5V
+F7/8V  => F8V
+F8V    => F8.5V
+F8/G0V => F9V
+G0V    => F9.5V
+G0/1V  => F9.5V
+
+
+# F dwarf trend in B-V vs G-V (Gaia G - Johnson V)
+
+Sample is F dwarfs typed by Gray01/Gray03/Gray06, with variant types omitted (e.g. Fe, CH flags)
+Gaia G magnitude for bright stars corrected following Evans18. 
+
+#B-V    G-V      GmagCOR   Bmag   Vmag   Gmag   ID           SpT         ref     HIP#
+0.286  -0.05665  5.16535   5.508  5.222  5.130  HD_86629_    F1V_        Gray06  HIP_48926_
+0.29   -0.04946  4.47054   4.81   4.52   4.404  HD_219080_   F1V_        Gray03  HIP_114570_
+0.29   -0.07016  2.77984   3.14   2.85   2.656  HD_141891_   F1V_        Gray06  HIP_77952_
+0.291  -0.0451   4.6999    5.036  4.745  4.644  HD_195627_   F0V_        Gray06  HIP_101612_
+0.293  -0.07486  5.84714   6.215  5.922  5.835  HD_11257_    F1V         Gray01  HIP_8588_
+0.303  -0.05505  5.70695   6.065  5.762  5.691  HD_206043_   F1V(n)_     Gray03  HIP_106897_
+0.303  -0.06626  5.43874   5.808  5.505  5.414  HD_8829_     F0.5V_      Gray06  HIP_6748_
+0.306  -0.06361  5.62639   5.996  5.690  5.608  HD_225003_   F1V_        Gray06  HIP_194_
+0.31   -0.06316  5.22684   5.60   5.29   5.194  HD_40292_    F1V_        Gray06  HIP_27947_
+0.32   -0.08868  6.50132   6.91   6.59   6.498  HD_21844_    F1V         Gray01  HIP_16570_
+0.32   -0.10254  4.07746   4.50   4.18   3.993  HD_58946_    F1V_        Gray03  HIP_36366_
+0.32   -0.119    7.751     8.19   7.87   7.751  HD_106946_   F2Vs        Gray01  HIP_59957_
+0.32   -0.133    8.877     9.33   9.01   8.877  HD_23289_    F3V         Gray01  HIP_17497_
+0.326  -0.08406  5.32594   5.736  5.410  5.297  HD_109799_   F1V_        Gray06  HIP_61621_
+0.328  -0.07481  5.42619   5.829  5.501  5.401  HD_6763_     F2V_        Gray06  HIP_5346_
+0.33   -0.06713  3.65287   4.05   3.72   3.551  HD_40136_    F2V_        Gray06  HIP_28103_
+0.333  -0.06998  5.07802   5.481  5.148  5.039  HD_91480_    F2V_        Gray03  HIP_51814_
+0.334  -0.06716  4.06884   4.470  4.136  3.984  HD_105211_   F2V_        Gray06  HIP_59072_
+0.34   -0.05769  3.94231   4.34   4.00   3.852  HD_105452_   F1V_        Gray06  HIP_59199_
+0.34   -0.06173  5.53827   5.94   5.60   5.517  HD_112412_   F2V_        Gray03  HIP_63121_
+0.34   -0.06738  4.38262   4.79   4.45   4.312  HD_29875_    F2V_        Gray06  HIP_21770_
+0.34   -0.132    7.968     8.44   8.1    7.968  HD_106103_   F4V         Gray01  HIP_59527_
+0.348  -0.07877  5.21723   5.644  5.296  5.184  HD_88215_    F2V_        Gray06  HIP_49809_
+0.35   -0.0201   4.1799    4.55   4.20   4.100  HD_27290_    F1V_        Gray06  HIP_19893_
+0.35   -0.09264  3.91736   4.36   4.01   3.826  HD_90589_    F3V_        Gray06  HIP_50954_
+0.355  -0.0883   6.0517    6.495  6.140  6.044  HD_136751_   F3V         Gray01  HIP_75093_
+0.358  -0.07358  5.62542   6.057  5.699  5.607  HD_26462_    F3V         Gray01  HIP_19554_
+0.358  -0.09264  6.47036   6.921  6.563  6.467  HD_138290_   F2Vs        Gray01  HIP_75971_
+0.36   -0.13041  5.15959   5.65   5.29   5.124  HD_26690_    F2V_        Gray06  HIP_19719_
+0.36   -0.1485   5.3115    5.82   5.46   5.282  HD_51733_    F2V_        Gray06  HIP_33478_
+0.362  -0.07483  5.34617   5.783  5.421  5.318  HD_14691_    F3V(n)_     Gray06  HIP_11029_
+0.363  -0.08261  4.58139   5.027  4.664  4.520  HD_51199_    F1.5V_      Gray06  HIP_33302_
+0.363  -0.09008  5.24992   5.703  5.340  5.218  HD_10830_    F2V_        Gray06  HIP_8209_
+0.365  -0.10954  4.27746   4.752  4.387  4.202  HD_156897_   F2V_        Gray06  HIP_84893_
+0.366  -0.0843   4.5317    4.982  4.616  4.468  HD_164259_   F2V_        Gray03  HIP_88175_
+0.368  -0.07148  5.65452   6.094  5.726  5.637  HD_109141_   F2V(n)_     Gray06  HIP_61212_
+0.37   -0.009    7.871     8.25   7.88   7.871  HD_33959C_   F5V_        Gray03  HIP_24502_
+0.37   -0.07868  5.00132   5.45   5.08   4.959  HD_207958_   F2V_        Gray06  HIP_108036_
+0.37   -0.10903  4.94097   5.42   5.05   4.896  HD_29992_    F3V_        Gray06  HIP_21861_
+0.374  -0.08593  6.08707   6.547  6.173  6.080  HD_203_      F3Vn_       Gray06  HIP_560_
+0.374  -0.09889  5.24511   5.718  5.344  5.213  HD_8723_     F2V_        Gray03  HIP_6706_
+0.379  -0.09388  5.42812   5.901  5.522  5.403  HD_220729_   F4V_        Gray06  HIP_115713_
+0.38   -0.0421   4.2679    4.69   4.31   4.192  HD_109085_   F2V_        Gray06  HIP_61174_
+0.38   -0.07157  4.40843   4.86   4.48   4.339  HD_185395_   F3+V_       Gray03  HIP_96441_
+0.38   -0.07307  4.15693   4.61   4.23   4.076  HD_119756_   F2V_        Gray06  HIP_67153_
+0.38   -0.09487  5.29513   5.77   5.39   5.265  HD_187532_   F2V_        Gray03  HIP_97650_
+0.38   -0.11542  3.76458   4.26   3.88   3.667  HD_129502_   F2V_        Gray06  HIP_71957_
+0.386  -0.09879  5.63221   6.117  5.731  5.614  HD_153363_   F3V_        Gray06  HIP_83196_
+0.39   -0.033    6.567     6.99   6.60   6.567  HD_44770_    F5V_        Gray03  HIP_30422_
+0.39   -0.07896  3.90104   4.37   3.98   3.809  HD_219571_   F4V_        Gray06  HIP_114996_
+0.39   -0.08656  4.62344   5.10   4.71   4.564  HD_22001_    F3V_        Gray06  HIP_16245_
+0.39   -0.11     6.550     7.05   6.66   6.550  HD_188986_   F4V_        Gray06  HIP_98444_
+0.39   -0.114    6.576     7.08   6.69   6.576  HD_124674_   F2V         Gray01  HIP_69481_
+0.392  -0.09189  5.22011   5.704  5.312  5.187  HD_116457_   F4V_        Gray06  HIP_65479_
+0.392  -0.10087  5.29513   5.788  5.396  5.265  HD_125451_   F3V_        Gray03  HIP_69989_
+0.4    -0.09625  5.38375   5.880  5.480  5.357  HD_147365_   F4V_        Gray03  HIP_80008_
+0.4    -0.12363  4.64637   5.17   4.77   4.588  HD_160032_   F4V_        Gray06  HIP_86486_
+0.4    0.012     6.862     7.25   6.85   6.862  HD_106975_   F3V         Gray01  HIP_59983_
+0.403  -0.08124  4.55176   5.036  4.633  4.489  HD_139664_   F4V_        Gray06  HIP_76829_
+0.405  -0.0961   5.6749    6.176  5.771  5.658  HD_64185_    F4V_        Gray06  HIP_38160_
+0.408  -0.08287  5.60313   6.094  5.686  5.584  HD_18692_    F4V_        Gray06  HIP_13942_
+0.41   -0.02984  5.77016   6.21   5.80   5.756  HD_64685_    F3V_        Gray06  HIP_38712_
+0.41   -0.09354  5.21146   5.715  5.305  5.178  HD_200163_   F5V_        Gray06  HIP_103882_
+0.41   -0.10555  5.04445   5.56   5.15   5.004  HD_104731_   F5V_        Gray06  HIP_58803_
+0.41   -0.11938  5.04062   5.57   5.16   5.000  HD_130819_   F4V_        Gray06  HIP_72603_
+0.41   -0.13     7.750     8.29   7.88   7.750  HD_108807_   F5V         Gray01  HIP_60976_
+0.413  -0.10632  6.11068   6.630  6.217  6.104  HD_170773_   F5V_        Gray06  HIP_90936_
+0.415  -0.08618  5.85982   6.361  5.946  5.848  HD_21722_    F5V_        Gray06  HIP_15968_
+0.415  -0.10695  5.43005   5.952  5.537  5.405  HD_219693_   F4V_        Gray06  HIP_115054_
+0.416  -0.06657  4.05543   4.538  4.122  3.970  HD_197692_   F5V_        Gray06  HIP_102485_
+0.417  -0.1163   5.4677    6.001  5.584  5.444  HD_17948_    F5V_        Gray03  HIP_13665_
+0.42   -0.05607  5.89693   6.373  5.953  5.886  HD_57852_    F5V_        Gray06  HIP_35564_
+0.42   -0.0839   5.0761    5.58   5.16   5.037  HD_77370_    F4V_        Gray06  HIP_44143_
+0.42   -0.13516  5.94484   6.50   6.08   5.935  HD_115149_   F4V_        Gray06  HIP_64790_
+0.42   0.10831   6.29831   6.61   6.19   6.294  HD_31204_    F5V_        Gray06  HIP_22534_
+0.422  -0.10917  5.12983   5.661  5.239  5.093  HD_739_      F5V_        Gray06  HIP_950_
+0.424  -0.09323  5.27877   5.796  5.372  5.248  HD_32743_    F5V_        Gray06  HIP_23482_
+0.424  -0.10633  6.00067   6.531  6.107  5.992  HD_31746_    F5V_        Gray06  HIP_22844_
+0.426  -0.083    9.001     9.51   9.084  9.001  HD_222788_   F3V_        Gray03  HIP_117042_
+0.428  -0.12133  6.26167   6.811  6.383  6.257  HD_28246_    F5.5V_      Gray06  HIP_20630_
+0.429  -0.10436  6.18064   6.714  6.285  6.175  HD_183028_   F5V_        Gray06  HIP_95932_
+0.43   -0.05042  5.71958   6.200  5.770  5.704  HD_60584_    F5V_        Gray06  HIP_36817_
+0.43   -0.11713  3.65287   4.200  3.770  3.551  HD_210027_   F5V         Gray01  HIP_109176_
+0.43   -0.12109  4.80891   5.36   4.93   4.758  HD_134083_   F5V         Gray01  HIP_73996_
+0.43   -0.12109  4.80891   5.36   4.93   4.758  HD_134083_   F5V_        Gray03  HIP_73996_
+0.436  -0.108    6.671     7.215  6.779  6.671  HD_27524_    F5V         Gray01  HIP_20349_
+0.438  -0.10503  5.40497   5.948  5.510  5.379  HD_3302_     F5V+_       Gray06  HIP_2802_
+0.439  -0.09182  5.45418   5.985  5.546  5.430  HD_175317_   F5V_        Gray06  HIP_92882_
+0.44   -0.08649  5.11351   5.64   5.20   5.076  HD_213845_   F5V_        Gray06  HIP_111449_
+0.44   -0.102    6.568     7.11   6.67   6.568  HD_206893_   F5V_        Gray06  HIP_107412_
+0.44   -0.1124   4.8376    5.39   4.95   4.788  HD_7788_     F5V_        Gray06  HIP_5896_
+0.444  -0.11573  6.07527   6.635  6.191  6.068  HD_77084_    F5V_        Gray06  HIP_44162_
+0.445  -0.12247  5.23453   5.802  5.357  5.202  HD_58855_    F6V         Gray01  HIP_36439_
+0.447  -0.103    6.684     7.234  6.787  6.684  HD_27534_    F5V         Gray01  HIP_20350_
+0.45   -0.10609  5.03391   5.59   5.14   4.993  HD_50223_    F5.5V_      Gray06  HIP_32765_
+0.45   -0.10653  5.72347   6.28   5.83   5.708  HD_201647_   F5V_        Gray06  HIP_104680_
+0.45   -0.11515  6.24485   6.81   6.36   6.240  HD_162521_   F5V_        Gray06  HIP_87822_
+0.45   -0.13     6.860     7.44   6.99   6.860  HD_128787_   F5V_        Gray06  HIP_71682_
+0.45   -0.1323   4.6177    5.20   4.75   4.558  HD_15798_    F5-V_       Gray06  HIP_11783_
+0.452  -0.11426  4.74674   5.313  4.861  4.693  HD_160915_   F5V_        Gray06  HIP_86736_
+0.453  -0.03555  5.75945   6.248  5.795  5.745  HD_60585_    F5-V_       Gray06  HIP_36817_
+0.454  -0.11106  5.85494   6.42   5.966  5.843  HD_41742_A_  F5.5V_      Gray06  HIP_28790_
+0.456  -0.11327  5.64773   6.217  5.761  5.630  HD_199623_   F5.5V_      Gray06  HIP_103673_
+0.458  -0.10443  6.05857   6.621  6.163  6.051  HD_211976_   F5V_        Gray06  HIP_110341_
+0.46   -0.10668  6.13332   6.70   6.24   6.127  HD_149837_   F6V_        Gray06  HIP_81657_
+0.46   -0.10759  5.02241   5.59   5.13   4.981  HD_7439_     F5V_        Gray03  HIP_5799_
+0.46   -0.1126   5.8774    6.45   5.99   5.866  HD_98560_    F5V_        Gray06  HIP_55280_
+0.46   -0.11305  5.98695   6.56   6.10   5.978  HD_28454_    F5.5V_      Gray06  HIP_20781_
+0.46   -0.124    6.526     7.11   6.65   6.526  HD_117807_   F5.5V_      Gray06  HIP_66139_
+0.46   -0.12513  6.35487   6.94   6.48   6.351  HD_133469_   F5.5V_      Gray06  HIP_73850_
+0.46   -0.12964  6.07036   6.66   6.20   6.063  HD_128429_   F6V_        Gray06  HIP_71469_
+0.46   -0.14211  4.89789   5.50   5.04   4.851  HD_114642_   F5.5V_      Gray06  HIP_64407_
+0.46   -0.25899  4.61101   5.33   4.87   4.551  HD_16620_    F5V_        Gray06  HIP_12390_
+0.462  -0.11     6.780     7.352  6.890  6.780  HD_28406_    F6V         Gray01  HIP_20948_
+0.467  -0.121    6.523     7.111  6.644  6.523  HD_145158_   F6V_        Gray06  HIP_79322_
+0.469  -0.09097  5.73903   6.299  5.830  5.724  HD_218630_   F5V_        Gray06  HIP_114382_
+0.47   -0.11678  5.45322   6.04   5.57   5.429  HD_3158_     F6V_        Gray06  HIP_2711_
+0.47   -0.12294  3.47706   4.07   3.60   3.369  HD_38393_    F6.5V_      Gray06  HIP_27072_
+0.47   -0.125    6.705     7.30   6.83   6.705  HD_58192_    F6-V_       Gray06  HIP_35884_
+0.47   0.1349    4.6349    4.97   4.50   4.576  HD_206826_   F6V_        Gray03  HIP_107310_
+0.473  -0.10843  5.58957   6.171  5.698  5.570  HD_76653_    F6V_        Gray06  HIP_43797_
+0.474  -0.11008  5.74292   6.327  5.853  5.728  HD_59380_    F6V_        Gray06  HIP_36399_
+0.475  -0.131    6.780     7.386  6.911  6.780  HD_143463_   F6V_        Gray06  HIP_78547_
+0.476  -0.156    6.953     7.585  7.109  6.953  HD_140408_   F6V_        Gray06  HIP_77310_
+0.48   -0.09458  4.36542   4.94   4.46   4.294  HD_17206_    F6V_        Gray06  HIP_12843_
+0.48   -0.10536  4.81464   5.40   4.92   4.764  HD_210302_   F6V_        Gray06  HIP_109422_
+0.48   -0.12053  5.79547   6.396  5.916  5.782  HD_49095_    F6.5V_      Gray06  HIP_32366_
+0.48   -0.12261  6.45739   7.06   6.58   6.454  HD_132301_   F6V_        Gray06  HIP_73383_
+0.48   -0.124    6.906     7.51   7.03   6.906  HD_59099_    F6V_        Gray06  HIP_36165_
+0.48   -0.12924  6.25276   6.862  6.382  6.248  HD_17926_    F6V_        Gray06  HIP_13363_
+0.48   -0.14872  5.97128   6.60   6.12   5.962  HD_155974_   F5.5V_      Gray06  HIP_84489_
+0.48   -0.164    6.756     7.40   6.92   6.756  HD_119638_   F8.5V_      Gray06  HIP_67069_
+0.483  -0.1219   6.0301    6.635  6.152  6.022  HD_194012_   F7V_        Gray03  HIP_100511_
+0.484  -0.12345  6.41155   7.019  6.535  6.408  HD_23856_    F6+V_       Gray06  HIP_17689_
+0.487  -0.1135   5.3375    5.938  5.451  5.309  HD_184985_   F6.5V_      Gray06  HIP_96536_
+0.488  -0.11623  5.99577   6.600  6.112  5.987  HD_21899_    F7V_        Gray06  HIP_16310_
+0.49   -0.061    7.399     7.95   7.46   7.399  HD_35722_    F7.5V_      Gray06  HIP_25396_
+0.49   -0.11345  5.68655   6.29   5.80   5.670  HD_89569_    F6V_        Gray06  HIP_50493_
+0.49   -0.11938  5.36062   5.97   5.48   5.333  HD_101198_   F6.5V_      Gray06  HIP_56802_
+0.49   -0.13467  6.49533   7.12   6.63   6.492  HD_209253_   F6.5V_      Gray06  HIP_108809_
+0.49   -0.13696  5.40304   6.03   5.54   5.377  HD_68146_    F6.5V_      Gray06  HIP_40035_
+0.49   -0.15894  4.04106   4.69   4.20   3.955  HD_215648_   F6V         Gray01  HIP_112447_
+0.495  -0.14022  6.36878   7.004  6.509  6.365  HD_23308_    F7V_        Gray06  HIP_17298_
+0.496  -0.122    6.965     7.583  7.087  6.965  HD_28483_    F6V         Gray01  HIP_21008_
+0.499  -0.12324  5.52376   6.146  5.647  5.502  HD_219482_   F6V_        Gray06  HIP_114948_
+0.5    -0.103    8.277     8.88   8.38   8.277  HD_76740_    F6-V_       Gray06  HIP_43947_
+0.5    -0.10769  4.01231   4.620  4.120  3.925  HD_222368_   F7V         Gray01  HIP_116771_
+0.5    -0.115    5.055     5.67   5.17   5.015  HD_99453_    F7V_        Gray06  HIP_55779_
+0.5    -0.11854  5.26146   5.88   5.38   5.230  HD_25457_    F7V_        Gray03  HIP_18859_
+0.5    -0.12034  6.38966   7.01   6.51   6.386  HD_143306_   F8V_        Gray06  HIP_78562_
+0.5    -0.12065  3.71935   4.34   3.84   3.620  HD_142860_   F6V         Gray01  HIP_78072_
+0.5    -0.12302  5.57698   6.20   5.70   5.557  HD_199260_   F6V_        Gray06  HIP_103389_
+0.5    -0.138    7.002     7.64   7.14   7.002  HD_17207_    F7V_        Gray06  HIP_12837_
+0.5    -0.13927  5.68073   6.32   5.82   5.664  HD_89125_    F6V_        Gray03  HIP_50384_
+0.5    -0.141    6.529     7.17   6.67   6.529  HD_209635_   F8V_        Gray06  HIP_109245_
+0.5    -0.144    6.816     7.46   6.96   6.816  HD_223408_   F6V_        Gray06  HIP_117481_
+0.5    -0.15322  5.03678   5.69   5.19   4.996  HD_4813_     F7V_        Gray03  HIP_3909_
+0.5    -0.18576  4.30424   4.99   4.49   4.230  HD_202275_   F7V_        Gray03  HIP_104858_
+0.504  -0.12481  5.66519   6.294  5.790  5.648  HD_16673_    F8V_        Gray03  HIP_12444_
+0.504  -0.126    5.776     6.406  5.902  5.762  HD_169830_   F7V_        Gray06  HIP_90485_
+0.505  -0.125    6.882     7.512  7.007  6.882  HD_28394_    F8V         Gray01  HIP_20935_
+0.51   -0.12933  3.98067   4.62   4.11   3.892  HD_16895_    F7V         Gray01  HIP_12777_
+0.51   -0.13396  5.93604   6.58   6.07   5.926  HD_128582_   F8V_        Gray06  HIP_71639_
+0.51   -0.1384   3.9116    4.56   4.05   3.820  HD_126660_   F7V         Gray01  HIP_70497_
+0.51   -0.159    6.571     7.24   6.73   6.571  HD_105330_   F8V_        Gray06  HIP_59135_
+0.51   -0.159    6.981     7.65   7.14   6.981  HD_186651_   F9.5V_      Gray06  HIP_97370_
+0.51   0.11773   5.64773   6.04   5.53   5.630  HD_162004_   F8V         Gray01  HIP_86620_
+0.512  -0.12086  6.31814   6.951  6.439  6.314  HD_27991_    F7V         Gray01  HIP_20661_
+0.512  -0.137    7.113     7.762  7.25   7.113  HD_27691_    F9V+        Gray01  HIP_20440_
+0.514  -0.03     6.671     7.215  6.701  6.671  HD_221839_   F7.5V_      Gray06  HIP_116436_
+0.52   -0.073    6.917     7.51   6.99   6.917  HD_218268_   F5V_        Gray06  HIP_114167_
+0.52   -0.12315  6.35685   7.00   6.48   6.353  HD_139461_   F6.5V_      Gray03  HIP_76603_
+0.52   -0.13077  5.56923   6.22   5.70   5.549  HD_91889_    F8V_        Gray06  HIP_51933_
+0.52   -0.13248  6.41752   7.070  6.550  6.414  HD_162826_   F8V         Gray01  HIP_87382_
+0.52   -0.13541  6.18459   6.840  6.320  6.179  HD_119124_   F8V_        Gray03  HIP_66704_
+0.52   -0.14213  5.32787   5.99   5.47   5.299  HD_143333_   F7V_        Gray06  HIP_78400_
+0.521  -0.12335  6.17965   6.824  6.303  6.174  HD_32820_    F8V_        Gray06  HIP_23555_
+0.521  -0.135    6.990     7.646  7.125  6.990  HD_27808_    F8V         Gray01  HIP_20557_
+0.521  -0.13637  6.11363   6.771  6.250  6.107  HD_190422_   F9V_CH-0.4  Gray06  HIP_99137_
+0.523  -0.12107  6.34493   6.989  6.466  6.341  HD_101805_   F8V_        Gray06  HIP_57092_
+0.524  -0.11985  5.93115   6.575  6.051  5.921  HD_95456_    F8V_        Gray06  HIP_53818_
+0.525  -0.11929  6.10871   6.753  6.228  6.102  HD_100219_   F8V_        Gray06  HIP_56245_
+0.526  -0.114    6.966     7.606  7.080  6.966  HD_26784_    F8V         Gray01  HIP_19796_
+0.53   -0.05158  6.44842   7.03   6.50   6.445  HD_139460_   F7V_        Gray03  HIP_76602_
+0.53   -0.05528  5.52472   6.11   5.58   5.503  HD_100287_   F9V_        Gray06  HIP_56280_
+0.53   -0.127    6.603     7.26   6.73   6.603  HD_216402_   F8V_        Gray06  HIP_112974_
+0.53   -0.13817  5.38183   6.05   5.52   5.355  HD_10647_    F9V_        Gray06  HIP_7978_
+0.53   -0.15     6.590     7.27   6.74   6.590  HD_184509_   F8.5V_      Gray06  HIP_96370_
+0.53   -0.16361  4.77639   5.47   4.94   4.724  HD_84117_    F8V_        Gray06  HIP_47592_
+0.53   -0.16637  3.81363   4.51   3.98   3.718  HD_20010_    F6V_        Gray06  HIP_14879_
+0.53   -0.16778  5.73222   6.43   5.90   5.717  HD_45067_    F8V_        Gray03  HIP_30545_
+0.53   -0.16778  5.73222   6.43   5.90   5.717  HD_45067_    F9V_        Gray06  HIP_30545_
+0.535  -0.12333  6.26167   6.92   6.385  6.257  HD_196885_   F8V         Gray01  HIP_101966_
+0.535  -0.12632  6.11068   6.772  6.237  6.104  HD_179949_   F8.5V_      Gray06  HIP_94645_
+0.535  -0.13555  6.28345   6.954  6.419  6.279  HD_157060_   F9V:_       Gray06  HIP_85019_
+0.538  -0.141    6.853     7.532  6.994  6.853  HD_108147_   F8V_CH+0.4  Gray06  HIP_60644_
+0.54   -0.11262  3.98738   4.64   4.10   3.899  HD_9826_     F8V         Gray01  HIP_7513_
+0.54   -0.123    6.707     7.370  6.830  6.707  HD_167954_   F9V_        Gray06  HIP_89808_
+0.54   -0.14     6.850     7.53   6.99   6.850  HD_129060_   F8V_        Gray06  HIP_72048_
+0.54   -0.1401   6.3499    7.03   6.49   6.346  HD_221356_   F8V_        Gray03  HIP_116106_
+0.54   -0.145    6.905     7.59   7.05   6.905  HD_50639_    F8.5V_      Gray06  HIP_33109_
+0.54   -0.1498   4.6502    5.34   4.80   4.592  HD_5015_     F8V         Gray01  HIP_4151_
+0.54   -0.16243  6.11757   6.82   6.28   6.111  HD_193307_   F9V_        Gray06  HIP_100412_
+0.54   -0.168    7.072     7.78   7.24   7.072  HD_223084_   F9V_        Gray06  HIP_117258_
+0.54   -0.17527  5.58473   6.30   5.76   5.565  HD_142_      F7V_        Gray06  HIP_522_
+0.54   0.28082   4.81082   5.07   4.53   4.760  HD_177474_   F8V_        Gray06  HIP_93825_
+0.542  -0.15835  6.00165   6.702  6.160  5.993  HD_213429_   F8V_        Gray03  HIP_111170_
+0.543  -0.122    7.038     7.703  7.160  7.038  HD_124694_   F8V_        Gray03  HIP_69518_
+0.543  0.144     6.965     7.364  6.821  6.965  HD_146835_   F9-V_       Gray06  HIP_79979_
+0.547  -0.1784   5.1836    5.909  5.362  5.149  HD_63077_    F9V_        Gray06  HIP_37853_
+0.547  -0.20543  4.99557   5.748  5.201  4.953  HD_3196_     F8.5V_      Gray03  HIP_2762_
+0.548  -0.032    6.821     7.401  6.853  6.821  HD_27383_    F8V         Gray01  HIP_20215_
+0.55   -0.11856  6.44144   7.11   6.56   6.438  HD_120237_   F8.5V_      Gray06  HIP_67408_
+0.55   -0.134    7.066     7.75   7.20   7.066  HD_81133_    F8.5V_      Gray06  HIP_45995_
+0.55   -0.13451  6.42549   7.11   6.56   6.422  HD_74868_    F9+V_       Gray06  HIP_42922_
+0.55   -0.144    6.536     7.23   6.68   6.536  HD_62848_    F9V_        Gray06  HIP_37635_
+0.55   -0.15274  4.75726   5.46   4.91   4.704  HD_147584_   F9V_        Gray06  HIP_80686_
+0.55   -0.155    6.825     7.53   6.98   6.825  HD_101959_   F9V_        Gray06  HIP_57217_
+0.55   -0.16     6.870     7.58   7.03   6.870  HD_144766_   F9V_        Gray06  HIP_79048_
+0.553  -0.12413  5.15287   5.83   5.277  5.117  HD_176051_   F9V         Gray01  HIP_93017_
+0.557  -0.13963  6.20137   6.898  6.341  6.196  HD_38382_    F8.5V_      Gray06  HIP_27075_
+0.56   -0.12945  5.72055   6.41   5.85   5.705  HD_103026_   F9V_        Gray06  HIP_57841_
+0.56   -0.136    6.864     7.56   7.00   6.864  HD_6735_     F9V_        Gray06  HIP_5280_
+0.56   -0.156    8.504     9.22   8.66   8.504  HD_12754_    F8.5V_      Gray06  HIP_9692_
+0.561  -0.13956  4.93044   5.631  5.070  4.885  HD_19994_    F8.5V_      Gray03  HIP_14954_
+0.563  -0.11     7.224     7.897  7.334  7.224  HD_28033_    F8V         Gray01  HIP_20712_
+0.564  -0.152    6.544     7.26   6.696  6.544  HD_38283_    F9.5V_      Gray06  HIP_26380_
+0.567  0.0104    6.4534    7.010  6.443  6.450  HD_57853_    F9V_        Gray06  HIP_35564_
+0.57   -0.14088  5.88912   6.60   6.03   5.878  HD_224022_   F9-V_       Gray06  HIP_117880_
+0.57   -0.145    7.025     7.74   7.17   7.025  HD_133295_   F9V_CH-0.4  Gray06  HIP_73754_
+0.57   -0.148    6.962     7.68   7.11   6.962  HD_23079_    F9.5V_      Gray06  HIP_17096_
+0.57   -0.15828  4.07172   4.80   4.23   3.987  HD_1581_     F9.5V_      Gray06  HIP_1599_
+0.57   -0.1588   6.3112    7.04   6.47   6.307  HD_101177_   F9.5V_      Gray03  HIP_56809_
+0.57   -0.16126  5.43874   6.17   5.60   5.414  HD_65907_    F9.5V_      Gray06  HIP_38908_
+0.57   -0.171    7.039     7.78   7.21   7.039  HD_117105_   F9.5V_      Gray06  HIP_65737_
+0.571  -0.135    7.093     7.799  7.228  7.093  HD_30311_    F9.5V_      Gray06  HIP_22221_
+0.572  -0.132    7.312     8.016  7.444  7.312  HD_27406_    F9V+        Gray01  HIP_20237_
+0.576  -0.1317   6.2993    7.007  6.431  6.295  HD_73121_    F9.5V_      Gray06  HIP_42123_
+0.577  -0.144    7.492     8.213  7.636  7.492  HD_117378_   F9.5V+_     Gray03  HIP_65775_
+0.58   -0.098    8.152     8.83   8.25   8.152  HD_116220_   F8.5V_      Gray06  HIP_65269_
+0.58   -0.105    7.955     8.64   8.06   7.955  HD_116219_   F9-V_       Gray06  HIP_65266_
+0.58   -0.13554  6.43446   7.15   6.57   6.431  HD_3074_A_   F9-V_       Gray06  HIP_2663_
+0.58   -0.13951  3.30049   4.02   3.44   3.187  HD_4614_     F9V         Gray01  HIP_3821_
+0.58   -0.146    6.774     7.50   6.92   6.774  HD_180409_   F9V_        Gray06  HIP_94757_
+0.58   -0.14749  5.87251   6.60   6.02   5.861  HD_122862_   F9.5V_      Gray06  HIP_69090_
+0.58   -0.14796  5.81204   6.54   5.96   5.799  HD_34721_    F9-V_       Gray06  HIP_24786_
+0.58   -0.1507   5.7293    6.46   5.88   5.714  HD_189340_   F9V_        Gray03  HIP_98416_
+0.58   -0.153    6.767     7.50   6.92   6.767  HD_157338_   F9.5V_      Gray06  HIP_85158_
+0.58   -0.154    6.626     7.36   6.78   6.626  HD_36108_    F9V_        Gray06  HIP_25616_
+0.58   -0.15771  5.80229   6.54   5.96   5.789  HD_155826_   F9.5V_      Gray06  HIP_84425_
+0.58   -0.17524  5.49476   6.25   5.67   5.472  HD_200525_   F9.5V_      Gray06  HIP_104440_
+0.59   -0.12157  5.91843   6.63   6.04   5.908  HD_43745_    F8.5V_      Gray06  HIP_29843_
+0.59   -0.14358  6.28642   7.02   6.43   6.282  HD_44120_    F9.5V_      Gray06  HIP_29788_
+0.59   -0.148    6.942     7.68   7.09   6.942  HD_70889_    F9.5V_      Gray06  HIP_41134_
+0.59   -0.156    7.124     7.87   7.28   7.124  HD_20201_    F9.5V_      Gray06  HIP_14964_
+0.6    -0.13     7.350     8.08   7.48   7.350  HD_7449_     F9.5V_      Gray06  HIP_5806_
+0.6    -0.143    7.027     7.77   7.17   7.027  HD_9782_     F9V_        Gray06  HIP_7404_
+0.61   -0.1953   5.8647    6.67   6.06   5.853  HD_214953_   F9.5V_      Gray06  HIP_112117_
+0.64   -0.15292  5.73708   6.53   5.89   5.722  HD_112164_   F9Vp_       Gray06  HIP_63033_
+
+For F dwarfs only 0.29 < B-V < 0.60:
+G-V = 7.7724444920e-2 - 5.5571168997e-1*(B-V) + 2.8608874470e-1*(B-V)^2  (rms=0.017mag)
 

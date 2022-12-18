@@ -1,4 +1,4 @@
-A5V
+AA5V
 
 Garrison94 does not list a A5V anchor standard, and MK73 does not list
 a A5V dagger standard.
@@ -30,10 +30,15 @@ and within 1 mag of the MS (N=18):
 <V-Vt>(A5V)  =-0.027 (+-0.001 sem, +-0.005 stdev; N=18) 
 <B-K>(A5V)   = 0.727 (+-0.018 sem, +-0.052 stdev; N=18)
 
-<B-V>(A5V) = 0.210 (+-0.006 sem, +-0.020 stdev) ; HIP d<75pc S/N>8(N=18)
-<B-V>(A5V) = 0.175 (+-0.008 sem, +-0.012 stdev) ; Gray01/03/06 N=2)
-(B-V)(A5V) = 0.165 ; sec. stan. bet Ari
-(B-V)(A5V) = 0.16  ; prim. stan. HD 23194 (EEM dereddened using E(B-V)=0.04)
+<B-V>(A5V) =  0.210 (+-0.006 sem, +-0.020 stdev) ; HIP d<75pc S/N>8(N=18)
+(B-V)(A5V) = 0.207 ; exemplar HD 120047 = HD 5179 
+(B-V)(A5V) = 0.207 ; exemplar HD 74706 = HR 3473 (see below)
+(B-V)(A5V) =  0.185 ; BakisEker22 
+<B-V>(A5V) =  0.175 (+-0.008 sem, +-0.012 stdev) ; Gray01/03/06 N=2)
+(B-V)(A5V) =  0.170 ; SIMBAD d<60pc N=13
+(B-V)(A5V) = 0.167 ; ter. stan. HD 116842 = 80 UMa (UMa)
+(B-V)(A5V) = 0.161 ; prim. stan. HD 23194 (EEM dereddened using E(B-V)=0.04)
+(B-V)(A5V) = 0.157 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 (B-V)(A5V) =  0.15  ; JohnsonMorgan53,Johnson63
 (B-V)(A5V) =  0.15  ; Garrison67
 (B-V)(A5V) =  0.15  ; SchmidtKaler82
@@ -44,7 +49,7 @@ and within 1 mag of the MS (N=18):
 (B-V)(A5V) = 0.138 ; prim. stan. HD 23886 (EEM dereddened using E(B-V)=0.04)
 (B-V)(A5V) =  0.13  ; Morgan71
 (B-V)(A5V) =  0.099 ; Crawford76
-=> adopt (B-V)(A5V)  = 0.16 ***
+=> adopt (B-V)(A5V)  = 0.16 *** [updated 9/20/2019]
 => adopt (U-B)(A5V)  = 0.100 
 => adopt (V-I)(A5V)  = 0.186
 => adopt (V-R)(A5V)  = 0.089
@@ -54,8 +59,46 @@ and within 1 mag of the MS (N=18):
 => adopt (V-Ks)(A5V) = 0.403
 => adopt (H-Ks)(A5V) = 0.038
 => adopt (J-H)(A5V)  = 0.031
-=> adopt (K-W1)(A5V) = 0.029
 
+(Bp-Rp)(A5V) = 0.194  ; color trend for B-V=0.16
+(Bp-Rp)(A5V) = 0.229  ; Evans18 trend for V-I=0.186
+(Bp-Rp)(A5V) = 0.2712 ; HD 74706 = HR 3473 exemplar
+(Bp-Rp)(A5V) = 0.2818 ; HD 120047 = HD 5179 exemplar 
+=> adopt (Bp-Rp)(A5V)= 0.194 [updated 11/22/2020]
+
+(Bp-G)(A5V) = 0.062  ; color trend for B-V=0.16
+(Bp-G)(A5V) = 0.109  ; HD 120047 = HD 5179 exemplar 
+(Bp-G)(A5V) = 0.1160 ; HD 74706 = HR 3473 exemplar 
+=> adopt (Bp-G)(A5V) = 0.062 [updated 11/22/2020]
+
+(G-Rp)(A5V) = 0.130  ; color trend for B-V=0.16
+(G-Rp)(A5V) = 0.1552 ; HD 74706 = HR 3473 exemplar
+(G-Rp)(A5V) = 0.173  ; HD 120047 = HD 5179 exemplar 
+=> adopt (G-Rp)(A5V) = 0.130 [updated 11/22/2020]
+
+(Ks-W1)(A5V) = 0.046 ; EEM trend for d<30pc for B-V=0.16
+=> adopt (Ks-W1)(A5V) = 0.046 [updated 12/29/2019]
+
+(G-V)(A5V) =  -0.079 ; * rho03 Eri PM* A5V
+(G-V)(A5V) =  -0.048 ; * tau Peg dS* A5Vp_lB
+(G-V)(A5V) =  -0.040 ; * tet02 Ser PM* A5Vn
+(G-V)(A5V) =  -0.037 ; HD 74706 = HR 3473 exemplar 
+(G-V)(A5V) =  -0.034 ; * tet01 Ser PM* A5V
+(G-V)(A5V) =  -0.032 ; * phi Leo PM* A5V
+(G-V)(A5V) =  -0.032 ; * sig02 Tau PM* A5Vn
+(G-V)(A5V) = -0.031 ; polynomial fit f(B-V)
+(G-V)(A5V) =  -0.030 ; HD 120047 PM* A5V
+(G-V)(A5V) =  -0.025 ; HD 159170 PM*  A5V
+(G-V)(A5V) =  -0.022 ; HD 120047 = HD 5179 exemplar 
+(G-V)(A5V) =  -0.020 ; * 4 Ser PM* A5V
+(G-V)(A5V) = -0.015 ; interp A4V(-0.01) and A6V(-0.02)
+(G-V)(A5V) =  -0.015 ; HD 210715 PM* A5V
+(G-V)(A5V) = -0.007 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.403
+(G-V)(A5V) =   0.002 ; * iot Cyg PM* A5V
+(G-V)(A5V) =   0.009 ; * 72 Oph PM* A5V
+=> adopt (G-V)(A5V) = -0.015 [updated 4/8/2022]
+
+(U-B)(A5V) = 0.06  ; HD 120047 = HD 5179 exemplar 
 (U-B)(A5V) = 0.09  ; JohnsonMorgan53
 (U-B)(A5V) = 0.09  ; Fitzgerald70
 (U-B)(A5V) = 0.093 ; HIP d<75pc S/N>8 A5V N=28 (Mermilliod91 photometry)
@@ -67,42 +110,92 @@ and within 1 mag of the MS (N=18):
 
 (R-I)(A5V) = 0.084 ; Bessell79
 
+(g-r)(A5V) =  0.036 ; Jordi06 (V-R)=>(g-r) for V-R=0.089
+(g-r)(A5V) = -0.072 ; Bilir05 (B-V)=>(g-r) for B-V=0.16
+(g-r)(A5V) = -0.10  ; Covey07
+=> adopt (g-r)(A5V) = -0.07 [updated 10/10/2020] 
+
 Teff(A5V)  =  8500 K ; Bessell79
+Teff(A5V)  = 8300 K ; median Teff for 7 A5V from Gray17
+Teff(A5V)  = 8290 K ; pri. stan. HD 23194
+Teff(A5V)  = 8244 K ; pri. stan. HD 23886
 Teff(A5V)  =  8200 K ; Schmidt-Kaler82
 Teff(A5V)  =  8180 K ; GrayCorbally94
 Teff(A5V)  =  8170 K ; Theodossiou90
 Teff(A5V)  =  8150 K ; GrayCorbally09
+Teff(A5V)  = 8127 K ; sec. stan. HD 29488
 Teff(A5V)  = 8093 K ; EEM N=108 Teffs
-Teff(A5V)  = 8055 K ; mean photometric Teff
+Teff(A5V)  = 8054 K ; mean photometric Teff
+Teff(A5V)  = 8008 K ; sec. stan. HD 116842 (Alcor)
 Teff(A5V)  =  8000 K ; Blackwell80
+Teff(A5V)  = 7925 K ; Zorec12 median
+Teff(A5V)  = 7788 K ; HD 120047 = HD 5179 exemplar 
+Teff(A5V)  = 7762 K ; HD 74706 = HR 3473 exemplar ([Fe/H] ~ +0.19) 
 Teff(A5V)  =  7686 K ; Boyajian12
-=> adopt Teff(A5V) = 8080 K (logT = 3.907)
+=> adopt Teff(A5V) = 8100 K (logT = 3.908) [updated 9/16/2019]
 
-BCv(A5V) = -0.039 mag ; Flower96(Teff=8080K)
-BCv(A5V) = -0.020 mag ; Schmidt-Kaler82(BCv=-0.15 + 0.13 offset)
-BCv(A5V) =  0.004 mag ; Bessell98(ATLAS,logg=4.5,Teff=8080K)
-BCv(A5V) =  0.005 mag ; Code76(Teff=8080K)
-BCv(A5V) =  0.033 mag ; Balona94(Teff=8080K)
-BCv(A5V) =  0.051 mag ; Bertone04(Teff=8080K,ATLAS)
-=> adopt BCv(A5V) = 0.01 mag (+-0.034 rms)
+[EEM: note that of 7 A5V classified by Gray17, all had 8200K < Teff < 8450K]
 
-Mv(A5V) = 2.1  mag ; GrayCorbally09
-Mv(A5V) = 1.84 mag ; Wright05(B-V=0.16) 
-Mv(A5V) = 1.9  mag ; Schmidt-Kaler82
-Mv(A5V) = 1.46 mag ; Wegner07
-=> adopt Mv(A5V) = 1.84 
+BCv(A5V) = -0.053 mag ; Flower96(Teff=8100K, BCv(5772K)=-0.085)
+BCv(A5V) =  -0.020 mag ; Schmidt-Kaler82(BCv=-0.15 + 0.13 offset)
+BCv(A5V) = -0.007 mag ; Bessell98(ATLAS,logg=4.5,Teff=8100K)
+BCv(A5V) = -0.006 mag ; Code76(Teff=8100K, BCv(5772K)=-0.085)
+BCv(A5V) =  0.00  mag ; EEM trend mid-As
+BCv(A5V) =  0.018 mag ; Balona94(Teff=8100K, BCv(5772K)=-0.085)
+BCv(A5V) =  0.037 mag ; Bertone04(Teff=8100K,ATLAS, BCv(5772K)=-0.085)
+=> adopt BCv(A5V) = 0.00 [updated 4/4/2020; so that BCv(5772K)=-0.085]
 
-logL(A5V) = 1.162 dex ; Mv=1.84 & BCv=0.01 => Mbol = 1.85
-=> adopt logL(A5V) = 1.16 dex
-=> adopt Mbol(A5V) = 1.85 mag
+logg(A5V) = 4.0 ; median logg for 7 A5V from Gray17
 
-Mass(A5V0 = 2.533+-0.050 Msun ; Eclipsing binary WX Cep A (Torres10)
+Mv(A5V) =  1.28 mag ; sec. stan. HD 29488 = sig2 Tau (Hyad)
+Mv(A5V) =   1.46 mag ; Wegner07
+Mv(A5V) =  1.57 mag ; exemplar HD 74706 = HR 3473 
+Mv(A5V) =  1.61 mag ; d<60pc A5V SIMBAD
+Mv(A5V) =  1.74 mag ; median Mv for A5V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
+Mv(A5V) =  1.78 mag ; d<60pc Mv(B-V=0.16)
+Mv(A5V) =  1.84 mag ; Wright05(B-V=0.16)
+Mv(A5V) = 1.84 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.16
+Mv(A5V) =   1.9  mag ; Schmidt-Kaler82
+Mv(A5V) =  1.91 mag ; interp BAF dwarf seq for B-V=0.16
+Mv(A5V) = 2.01 mag ; A dwarf B-V vs. Mv sequence for B-V=0.16
+Mv(A5V) =  2.04 mag ; ter. stan. HD 116842 = 80 UMa (UMa)
+Mv(A5V) =   2.1  mag ; GrayCorbally09
+Mv(A5V) =  2.22 mag ; pri. stan. HD 23886 = Cl Melotte 22 2289 (Pleiad)
+Mv(A5V) =  2.28 mag ; exemplar exemplar HD 120047 = HR 5179 
+Mv(A5V) =  2.30 mag ; pri. stan. HD 23194 = Cl Melotte 22 232 (Pleiad)
+=> adopt Mv(A5V)   = 2.01  [updated 9/24/2020]
+=> adopt M_G(A5V)  = 1.98  [updated 12/10/2020] (Mv=2.01, G-V=-0.03)
+=> adopt M_Ks(A5V) = 1.607 [updated 12/30/2020] (Mv=2.01, V-Ks=0.403)
+
+logL(A5V) = 1.47  dex ; Zorec12 median
+logL(A5V) = 1.390 dex ; sec. stan. HD 29488 = sig2 Tau (Hyad, ~700 Myr)
+logL(A5V) = 1.268 dex ; exemplar HD 74706 = HR 3473 
+logL(A5V) = 1.092 dex ; Mv=2.01 & BCv=0.00 => Mbol = 2.010
+logL(A5V) = 1.078 dex ; ter. stan. HD 116842 = 80 UMa (UMa, ~500 Myr)
+logL(A5V) = 1.013 dex ; pri. stan. HD 23886 = Cl Melotte 22 2289 (Pleiad, ~125 Myr)
+logL(A5V) = 0.985 dex ; exemplar HD 120047 = HR 5179 
+logL(A5V) = 0.977 dex ; pri. stan. HD 23194 = Cl Melotte 22 232 (Pleiad, ~125 Myr)
+=> adopt logL(A5V) = 1.092 dex [updated 9/24/2020]
+=> adopt Mbol(A5V) = 2.010 mag [updated 9/24/2020]
+
+Mass(A5V) = 2.533+-0.050 Msun ; Eclipsing binary WX Cep A (Torres10)
+Mass(A5V) = 2.13 Msun ; Zorec12 median 
 Mass(A5V) = 1.88 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.84)
 Mass(A5V) = 1.86 Msun ; Ekers15 ML calibration for logL=
+Mass(A5V) = 1.86 Msun ; David15 A5 MS (rms=0.81 Msun; N=81)
 Mass(A5V) = 1.85 Msun ; EEM Teff vs. Mass fit for binaries (Teff=8080K)
 Mass(A5V) = 1.84 Msun ; EEM logL vs. Mass fit for binaries (logL=1.16)
 Mass(A5V) = 1.79 Msun ; non-standard Castor B (Torres02; Teff=8240K)
-=> adopt Mass(A5V) = 1.85 Msun
+=> adopt Mass(A5V) = 1.86 Msun [updated 9/16/2019]
+
+Rad(A5V) = 2.498 Rsun ; sec. stan. HD 29488 = sig2 Tau (Hyad)
+Rad(A5V) = 2.380 Rsun ; exemplar HD 74706 = HR 3473 
+Rad(A5V) = 1.798 Rsun ; ter. stan. HD 116842 = 80 UMa (UMa)
+Rad(A5V) = 1.785 Rsun ; logL=1.092,Teff=8100K
+Rad(A5V) = 1.708 Rsun ; exemplar HD 120047 = HR 5179 
+Rad(A5V) = 1.574 Rsun ; pri. stan. HD 23886 = Cl Melotte 22 2289 (Pleiad)
+Rad(A5V) = 1.490 Rsun ; pri. stan. HD 23194 = Cl Melotte 22 232 (Pleiad)
+=> adopt Rad(A5V) = 1.785 Rsun [updated 9/24/2020]
 
 # No standard
 
@@ -117,83 +210,231 @@ HD 23194 = Cl Melotte 22 232 (Pleiad)
   kA5hA7VmA7: Abt78
 
   GrayGarrison89 list it as their low-vsini A5V standard.
-  B-V=0.201(Mermillliod91), but for E(B-V)=0.04, then (B-V)o=0.16.
-
-HD 23886 = Cl Melotte 22 2289
-  A5V: MK78,Keenan85
+  B-V=0.201(Mermillliod91), but for E(B-V)=0.04 (Av=0.124), then
+  (B-V)o=0.161.  plx = 7.4181+-0.0635 mas (GaiaDR2).  Teffs:
+  8031+-105K(Prugniel11), 8137K(GaiaDR2), 8253K(Gebran16),
+  8290K(Gray01), 8430+-100K(Burkhart97), 8430+-200K(Hui-Bon-Hoa98),
+  8542K(Conti68) => <Teff> = 8290K. logg=4.00+-0.08(Prugniel07).
+  V=8.07. Luminosity: V=8.07, plx=7.4181, Av=0.124, BCv=0.00 =>
+  Mv=2.30, Mbol=2.30, logL=0.977 => for Teff=8290K => Rad = 1.490Rsun.
+  
+HD 23886 = Cl Melotte 22 2289 (Pleiad)
+  A2V: Adams35
+  A3V: Mendoza56
+  A4V: Abt78
+  A5V: Atanasijevic58(BCD type),MK78(stan),Keenan85
  *A5Vn: GrayGarrison89(stan),Gray01
 
-  GrayGarrison89 list it as their high-vsini A5V standard.  Pleiad, so
-  assume E(B-V)=0.04. B-V=0.178+-0.002 (Mermilliod91), so (B-V)o =
-  0.138.
-
+  GrayGarrison89 list it as their high-vsini A5V standard (vsini=165
+  km/s).  Pleiad, so assume E(B-V)=0.04 and
+  Av=0.124. V=7.969+-0.010(Mermilliod91),
+  B-V=0.178+-0.002(Mermilliod91), (U-B)=0.130(Mermilliod91) =>
+  (B-V)o=0.138. Teffs: 8238K(Stassun18), 8244K(GaiaDR2),
+  8974+-145K(David15) => <Teff> = 8244K.
+  logg=4.343+-0.091(David15). V=8.01. plx = 7.3552+-0.0671
+  mas(GaiaDR2), plx=7.4549+-0.0323mas(GaiaEDR3). Luminosity: adopting
+  V=7.969, plx=7.4549mas, Av=0.124, BCv=0.00 => Mv=2.21, Mbol=2.21,
+  logL=1.013 => w/Teff=8244K => Rad = 1.574Rsun.
+  
 # Secondary Standards
 
 HD 29488 = sig2 Tau = HIP 65477 = HR 1479 (Hyad)
- *A5V: Houk(2ndary stand.),Jaschek78(A5Vn;Cowley69),Morgan65,Slettebak55,GrayGarrison89(A5IV-V),Wilson48,Adams35
-  A6V: Abt95,Barry70
   A3: Cannon
-
-  Jaschek64 has range A3-A7, and del(Mv)=+0.13 Given its consistent A5
-  classification by Houk,Morgan,Cowley,Gray,Garrison, and MS position,
-  this is probably an adequate A5V standard. B-V=0.147+-0.008 (HIP),
-  and in Hyades, so negligble reddening.
+  A5: Ljunggren61
+  A5n: Wilson48
+  A5IV-V: GrayGarrison89
+  A5V: Adams35(SB),Slettebak55,Houk(sec. stand.)
+ *A5Vn: Morgan65,Cowley69
+  A6V: Barry70, Abt95
+  A7V: 1940ApJ....91..256T
+  A8: 1920AN....211..289K
+  
+  Only Hyad classified A5V by Morgan65.  del(Mv)=+0.13. Given its
+  consistent A5 classification by Houk,Morgan,Cowley,Gray,Garrison,
+  and MS position, this is probably an adequate A5V
+  standard. V=4.962+-0.010(Mermilliod91),
+  (B-V)=0.147+-0.008(HIP,Mermilliod91),
+  (U-B)=0.128+-0.009(Mermilliod91). In Hyades, so assume negligble
+  reddening. plx=18.2308+-0.1946mas(GaiaEDR3),
+  plx=20.97+-0.27mas(HIP2). Teff: 7614K(GaiaDR2), 7854K(Masana06),
+  8054K(Zorec12), 8127K(David15#2), 8146K(Gebran10), 8165K(David15#1),
+  8540K(Sokolov95) => <Teff> =
+  8127K. logg=3.96+-0.14(David15). vsini=160km/s. logL=1.430+-0.048(Stassun19).
+  Luminosity: V=4.962, plx=18.2308, Av=0.00, BCv=0.00 => Mv=1.27,
+  Mbol=1.27, logL=1.390 => w/Teff=8127K => Rad=2.498Rsun.
 
 # Tertiary Standards
 
-HD 116842 = 80 Uma = g UMa = Alcor = HR 5062 = HIP 65477
-  A5V: MK43,JM53,Cowley69(stan),GrayGarrison89,Abt95
-  A6Vnn: Gray01,Gray03
+HD 116842 = 80 UMa = g UMa = Alcor = HR 5062 = HIP 65477 (Ursa Major cluster member)
+  A2: 1966UppAn...5d...1O
+  A3V: Maury1897
+  A4.5V: Palmer68
+ *A5V: MK43,JM53,Cowley69(stan),Levato78(A5:V),Bouw81,Loden83,GrayGarrison89(A5Vn),Abt95(A5Vn)
+  A6V: Bouigue59,Gray01(A6Vnn),Gray03(A6Vnn)
+  A6/7Va: Barry70(uv metals very weak)
+  F0V: Cucchiaro80(S2/68 spectra)
 
   I'm going to go with continuity here - it was A5V from 1943-1995.
-  Gray changed between 1989 and 2001-2003.
-  Probably OK A5V standard - except its an SB. Mamajek09 discovered
-  M-type companion at ~1" separation. 
-  B-V(HIP)=0.169, dMv=+0.13, SB
+  Gray changed between 1989 and 2001-2003.  Probably OK A5V standard,
+  but has dim M dwarf companion: Mamajek09 discovered M-type companion
+  at ~1" separation (P1640 team around same time).
+  V=4.009+-0.006(Mermilliod91), B-V(HIP)=0.169,
+  B-V=0.167+-0.004(Mermilliiod91).  plx=39.91+-0.13mas(HIP2),
+  plx=40.4651+-0.1374mas(GaiaEDR3).  dMv=+0.13, SB.  Teffs:
+  7648K(GaiaDR2), 7943K(Zorec12), 7955K(Gray03), 8008K(Blackwell98),
+  8066K(LeBorgne03), 8123K(diBenedetto98), 8221K(David15) => <Teff> =
+  8008K. Luminosity: V=4.009, plx=40.4651mas, BCv=0.00, Av=0 =>
+  Mv=2.04, Mbol=2.04, logL=1.078 => w/Teff=8008K => Rad=1.798Rsun.
+  
+# Exemplars
 
-# Weak Standard
+HD 74706 = HR 3473 = HIP 42928 
+ *A5V: Cowley69,Houk88,Abt95
 
-HD 11636 = bet Ari = 6 Ari = HR 553 = GJ 80
-  A5V: MK43(stan),JM53,Jaschek64(all),Morgan65,Jaschek78,Garcia89
-  kA4hA5mA5Va: Gray03 (i.e. an A5Va!)
-  A5IV: Barry70
-  A4V: Abt85,GrayGarrison89,Abt95
+  All 3 classifications in Skiff compnedium are A5V. Surprising jump
+  from old Johnson B-V (~0.22) to Hipparcos/Tycho (~0.19). The V-Ks
+  color (0.524) would be most consistent with intermediate value
+  B-V=0.208, which I adopt above.  Negligibly reddened
+  E(B-V)=0.001(Kervella19,STILISM).  V=6.10(HIP),
+  V=6.103+-0.005(Mermilliod91), V=6.11(Johnson66),
+  B-V=0.192+-0.005(TYC), B-V=0.195+-0.006(HIP),
+  B-V=0.220+-0.000(Mermilliod91), B-V=0.22(Johnson66),
+  V-Ic=0.21+-0.01(HIP). plx=12.4208+-0.0268mas(GaiaEDR3). GaiaDR2:
+  plx=12.2593+-0.0619mas, G=6.0586+-0.0004 => corrected(Evans18) Gcor
+  = 6.066, E(BR/RP)=1.150, Bp-Rp=0.2712, Bp-G=0.1160, G-Rp=0.1552.
+  Mv=1.545+-0.012 (assuming Av=0.00). J=5.709+-0.023(2MASS),
+  H=5.656+-0.038(2MASS), Ks=5.579+-0.023(2MASS), V-Ks = 6.103 - 5.579
+  = 0.524.  Teffs: 7641+-85K(Masana06), 7677+-212K(Bai19),
+  7727+-109K(Stassun18), 7762+-54K(Zorec12), 7825K(Giridhar13),
+  7897K(GaiaDR2), 8064+-274K(David15) => <Teff> = 7762K.
+  logg=4.07+-0.14(David15), logg=4.05(Giridhar13),
+  [Fe/H]=0.190(Giridhar13). G-V = 6.066 - 6.103 = -0.037. Luminosity:
+  V=6.103, BCv=0.00, plx=12.4208mas, Av=0.003 => Mv=1.57, Mbol=1.57,
+  logL=1.268 => w/Teff=7762K => Rad=2.380Rsun.
+
+HD 120047 = HR 5179 = HIP 67194
+ *A5V: Keenan41,Appenzeller67,Palmer68,Abt95(A5Vn)
+  A7V: Cowley69
+
+  Negligibly reddened: E(B-V)=0.004(Kervella19,STILISM) => Av=0.012.
+  V=5.88(HIP), V=5.870(Mermilliod91), B-V=0.210(Mermilliod91),
+  B-V=0.211+-0.004(HIP), U-B=0.060(Mermilliod91), V-I=0.23+-0.01(HIP).
+  plx=19.2182+-0.0354mas(GaiaEDR3). (B-V)o = (B-V) - E(B-V) = 0.211 -
+  0.004 = 0.207.  GaiaDR2: plx=19.1641+-0.0581mas, G=5.8354+-0.0006 =>
+  Evans18 correction => G(corr)= 5.848 (no need to correct Bp & Rp),
+  (Bp-Rp)=0.2818, (Bp-G)(corr)=0.109, (G-Rp)(corr)=0.173. G-V = 5.848
+  - 5.87 = -0.022. Teffs: 7709+-53K(Zorec12), 7709+-117K(Stassun19),
+  7730+-326K(Bai19), 7846K(GaiaDR2), 7953+-270K(Guillikson16,David15),
+  7987K(Gebran16) => <Teff>=7788K. logg=4.3+-0.14(Guillikson16),
+  logg=4.27+-0.14(David15). Luminosity: V=5.870, BCv=0.00, Av=0.012,
+  plx=19.2182mas => Mv=2.28, Mbol=2.28, logL=0.985 => w/Teff=7788K =>
+  Rad=1.708Rsun.
+
+# Deprecated Standard
+
+HD 11636 = bet Ari = 6 Ari = HR 553 = GJ 80 = HIP 8903 
+  A2: Ljunggren61
+  A4V: Abt85,GrayGarrison89,Garrison96,Abt95
   A4: Olsen69
-  A5: Cannon
+  A5: Cannon,Cucchiaro78(A5m;S2/68 spectra)
+  A5V: MK43,JM53,Jaschek64(all),Morgan65,Jaschek78,Garcia89
+  kA4hA5mA5Va: Gray03 (i.e. an A5Va!)
+  A5IV: Maury1897,Barry70(A5IVb)
 
-  Bet Ari is the A5V standard in MK43. Basically morphed from A5 under
-  Morgan to A4 (Abt,Gray,Garrison), *despite* Morgan65 (listing bet
-  Ari as a "fundamental A5 classification standard" w/ del Cas
-  i.e. it's a fundamental standard until someone comes along and
-  changes it... B-V(HIP)=0.165, dMv=-0.53 (color is closer to Houk's
-  mean A4V B-V color) I'm going to stick to A5V following
-  MK43,JM53,Morgan65,Gray03. Plx=54.74+-0.75 mas, so negligible
-  reddening.
+  Basically morphed from A5 under Morgan to A4 (Abt,Gray,Garrison),
+  *despite* Morgan65 listing bet Ari as a "fundamental A5
+  classification standard" w/ del Cas i.e. it's a fundamental standard
+  until someone comes along and changes it. Poor agreement on
+  types. But note the B-V color is more typical of A4V. V=2.64(HIP),
+  B-V=0.165+-0.003(HIP), B-V=0.135+-0.006(Mermilliod91),
+  B-V=0.13(Johnson66), plx=55.60+-0.58mas(HIP2), dMv=-0.53 (color is
+  closer to Houk's mean A4V B-V color). Tomkin87 (1987AJ.....94.1664T)
+  calls it a "double-lined eccentric spectroscopic binary", and says
+  the star has mass ~1.9Msun and its companion is late F or G0 (~1.1
+  Msun), and estimates mass ratio of M2/M1=0.57. Tomkin87 estimates
+  delta(V) ~ 2.8mag, in which case the V mag from HIP (2.64) would
+  correspond to V(A)=2.72 and V(B)=5.52.  For the primary then:
+  V(A)=2.72, plx=55.60 => Mv=1.45 (dMv=-0.26).
 
-HD 2262 = Kap_Phe = HR 100 = HIP 2072
+HD 2262 = kap Phe = HR 100 = HIP 2072
   A5Vn: GrayGarrison89
   A5IVn: Gray06
   A6Vn: Abt95,Houk78(overexposed,cites Garrison unpub.)
   A7V: Evans61,Jaschek78(Levato72),Kennedy83(Levato72),Hoffleit91
   A3: Cannon
+  
   Types vary from A5V-A7V, probably not a good standard
   (B-V[HIP]=0.175+-0.008)
 
-HD 8538 = Del Cas = 37 Cas = HR 403 = HIP 6686
+HD 8538 = del Cas = 37 Cas = HR 403 = HIP 6686
   A5V: Cannon(A5),MK53,JM53,Jaschek64,Morgan65,Cowley69(stan),Jaschek78,Kennedy83,
   A5III-IV: Garcia89,Hoffleit91
   A5III/IV: MK78
-  A5IV: GrayGarrison89,Gray01 
-  Morgan65 lists del Cas as a "fundamental A5 classification standard" w/ bet Ari
-  *Everyone* calls this A5-something
-  par(HIP)=32.8+-1.5 mas, D~30pc (Local Bubble), B-V=0.160, dMv=-1.6mag (near turnoff)
-  Probably should be considered excellent "A5IV" standard
+  A5IV: GrayGarrison89,Gray01
+  
+  Morgan65 lists del Cas as a "fundamental A5 classification standard"
+  w/ bet Ari *Everyone* calls this A5-something par(HIP)=32.8+-1.5
+  mas, D~30pc (Local Bubble), B-V=0.160, dMv=-1.6mag (near turnoff)
+  Probably should be considered excellent "A5IV" standard. 
+
+HD 27934 = HR 1387 = kap01 Tau 
+   A5V: 1940ApJ....91..256T,Adasm35
+   A5IV: Palmer68
+  *A5IV-V: GrayGarrison89
+   A6V: Abt95
+   A7V: Slettebak55,Morgan65
+   A7IV-V: Cowley69
+   
+   Only Hyad classifed as A7V by Morgan65. del(Mv)=-0.90mag. B-V=0.136. 
  
-Alf Oph
+HD 159561 = HR 6556 = GJ 681 = alf Oph = Rasalhague 
   A5Vnn: Garrison96
+  
   GrayGarrison89 reject Alf Oph as a suitable standard (long discussion). 
-  Vsini ~ 215 km/s. Morgan84 considers the star the A5III standard. 
+  Vsini ~ 215 km/s. Binary. Morgan84 considers the star the A5III standard.
+
+HR 1479 = HD 29488 
 
 # Other Stars
+
 Morgan65 classified one Hyad as A5Vn (HD 29488).
 
+
+HD 165777 = HR 6771 = 72 Oph
+  A3V: Maury1897
+  A4III: Abt81
+  A4IVs: Cowley69
+  A4V: Slettebak55,Levato72
+  A5: Olson69
+  A5IV-V: GrayGarrison89 (MnI 4030A sl weak)
+ *A5V: Adams35(SB),Chalonge52(BCD),Palmer68,Cucchiaro78,Gray03
+  kA3hA7:mA7: Abt95
+
+HD 202730 A = HR 8140
+  A3/5IV/V: Houk75
+  A4V: 1937AnHar.105...45H,1953AnHar.119....1H
+  A5IV-V: GrayGarrison89
+ *A5V: 1955MmMtS..12....1W,Levato72,Levato75,Corbally84,Gray03(A5V(n))
+  A5m: Cucchiaro78
+  A6V: Abt95
+  
+  7" binary with G0V(Corbally84), and Corbally84 classifies the unresolved
+  pair as kA6hA6VmA8.
+
+HD 220061 = HR 8880 = tau Peg
+  A4: Olson69
+  A5IV: Slettebak55,Levato72,Houk75(sec.stan.)
+  A5V: Cowley69,Ortega83,GrayGarrison89,Andrillat95,Paunzen01
+  A5V lam Boo: Abt95
+  A7III: Chalonge52
+ *A8V(n)kA5mA5 (lambda Boo): Griffin12
+  A8VkA5mA5 MgII 4481A weak: Gray01
+  Am: Cucchiaro80
+
+  Extended discussion on spectrum in Griffin12. "This A8 dwarf appears
+  to be a single star... it has been tentatively classified as \lambda Boo, but
+  only has a rather mild metal deficiency of a factor of 2." Esrpamer:
+  Teff=7655K, logg=3.78, vsini=154 km/s, [Fe/H]=-0.28. 
+
+
+  

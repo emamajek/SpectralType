@@ -1,45 +1,130 @@
 B2IV
 
-JM53 standards:      gam Peg (=HR 39) - B2IV 
-                     del Cet (=HR 779) - B2IV
-Garrison67 standard: gam Peg - B2IV
-		     del Cet - B2IV
-Cowley69 standard:   gam Peg - B2IV 
-MK73 standards:      gam Peg (=HR 39) - B2IV
-                     zet Cas (=HR 153) - B2IV
-Houk88 standard:     gam Peg - B2IV [MK73] 
-Walborn90 standard:  gam Peg - B2IV 
-GrayNstars standard: gam Peg - B2IV
+MK43 standard:           gam Ori - B2IV
+                         pi Sco  - B2IV
+			 tet Oph - B2IV
+			 lam Sco - B2IV 
+JM53 standards:          gam Peg (=HR 39) - B2IV 
+                         del Cet (=HR 779) - B2IV
+Garrison67 standard:     gam Peg - B2IV
+		         del Cet - B2IV
+Cowley69 standard:       gam Peg - B2IV 
+MK73 standards:          gam Peg (=HR 39) - B2IV
+                         zet Cas (=HR 153) - B2IV
+MK78 standard:           gam Peg - B2IV 
+Houk88 standard:         gam Peg - B2IV [MK73] 
+Walborn90 standard:      gam Peg - B2IV
+WiegertGarrison98 stan.: mu^2 Sco - B2IV
+		         ups Sco - B2IV
+GrayNstars standard:     gam Peg - B2IV
+
+(U-B)(B2IV) =   -0.860 ; exemplar mu2 Sco 
+(U-B)(B2IV) =  -0.863 ; sec. stan. del Cet
+(U-B)(B2IV) = -0.872 ; pri. stan. gam Peg
+(U-B)(B2IV) =  -0.884 ; sec. stan. zet Cas
+=> adopt (U-B)(B2IV) = -0.872 [updated 10/3/2021]
+
+(B-V)(B2IV) =   -0.236 ; exemplar mu2 Sco
+(B-V)(B2IV) =  -0.237 ; sec. stan. del Cet
+(B-V)(B2IV) = -0.240 ; pri. stan. gam Peg
+(B-V)(B2IV) =  -0.243 ; sec. stan. zet Cas
+=> adopt (U-B)(B2IV) = -0.240 [updated 10/3/2021]
+
+Mv(B2IV) = -3.0 ; GrayCorbally09
+
+Teff(B2IV) =  21170 K ; sec. stan. zet Cas 
+Teff(B2IV) = 21400 K ; pri. stan. gam Peg 
+Teff(B2IV) =  21600 K ; sec. stan. del Cet
+Teff(B2IV) =   21900 K ; exemplar mu2 Sco 
+=> adopt Teff(B2IV) = 21400 (logTeff=4.330) [updated 10/3/2011]
+
+for the three B2IV, nice trend of: Teff(B2IV) = 39204 + 2.04054e4*(U-B)o
 
 # Primary standard
 
 gam Peg
-    B2IV: JM53,Garrison67(stan),Lesh68,Cowley69(stan),MK73,Houk88,Walborn90,GrayNstars
+   *B2IV: JM53,Garrison67(stan),Lesh68,Cowley69(stan),MK73,MK78,Houk88,Walborn90,GrayNstars
     B2.5IV: MK43
 
     V = 2.834+-0.015 (Mermilliod91), B-V=-0.226+-0.012 (Mermilliod91),
     U-B=-0.862+-0.012 (Mermilliod91). logN_HI = 20.04+-0.09
     (Bohlin78), 20.26+-0.05 (Shull85). Let's adopt logN_HI = 20.208.
     Using Savage & Mathis 1979 N_HI/E(B-V) relation, this suggests
-    E(B-V) = 0.034. Hence (B-V)o = -0.260, (U-B)o = -0.886. 
+    E(B-V) = 0.034. Hence (B-V)o = -0.260, (U-B)o =
+    -0.886. PecautMamajek13 Q-method dereddening: (B-V)o=-0.240,
+    (U-B)o=-0.872, E(B-V)=0.014, Av=0.045.  Teffs since 2000:
+    19184K(Prugniel07#3), 19422K(Prugniel07#2),
+    20454+-819K(Prugniel11), 20700+-822K(Koleva12), 21150K(Hohle10),
+    21380K(Simon-Diaz17,logT=4.33), 21397+-382K(Wu11),
+    21414+-393K(Cardiel21), 21581K(Sanchez-Blazquez06,Cnarro07),
+    21870+-1390K(Zorec09), 21944K(Prugniel07#1), 22000+-400K(Nieva12),
+    22398K(Katz11), 22670K(Valdes04) => <Teff> ~ 21400K.
 
 # Secondary standards
 
-del Cet 
-    B2IV: JM53,Garrison67(stan)
+zet Cas = Fulu = HR 153 = HD 3360 = 17 Cas = HIP 2920 
+  *B2IV: MK43,Underhill57,MK73,Lesh68,Jaschek78(Lesh68),Garcia89,Hoffleit91
+   B2V: Ahmad52,JM53
+   B3: Cannon
 
-HD 3360 = zet Cas = 17 Cas = HR 153
-  B2V: Ahmad52,JM53
- *B2IV: MK43,Underhill57,MK73,Lesh68,Jaschek78(Lesh68),Garcia89,Hoffleit91
-  B3: Cannon
+   Jaschek64 shows mostly B2V with a few B2IV and B2.5IV. The
+   consensus and MK73 suggest B2IV - little doubt about temperature
+   type (B2). Johnson66: V=3.66, B-V=-0.19, U-B=-0.89. Mermilliod91:
+   V=3.661+-0.017, B-V=-0.196+-0.006, U-B=-0.849+-0.024 => Q-method
+   PecuatMamajek13 deredden => (B-V)o=-0.243, (U-B)o=-0.884,
+   E(B-V)=0.047, Av=0.153.  Gordon19 estimates E(B-V)=0.061 and lists
+   literature estimate E(B-V)=0.05.  Teffs: 19059+-1362K(Cardiel21),
+   19486K(Prugniel07#2), 19498K(Simon-Diaz17),
+   20375+-730K(Prugniel11), 20703+-984K(Koleva12),
+   20750+-200K(Nieva12,Ahmed17,Stassun19), 21050K(Glagolevskij19),
+   21170K(Sanchez-Blazquez06,Cenarro07), 21500+-500K(Gordon19#1)
+   21500+-800K(Gordon19#3), 21603K(Prugniel07#1), 21652+-505K(Wu11),
+   21850+-1390K(Zorec09), 21996K(Katz11), 24500+-800K(Gordon19#2) =>
+   <Teff> = 21170K.
 
-  Jaschek64 shows mostly B2V with a few B2IV and B2.5IV. Johnson66:
-  V=3.66, B-V=-0.19, U-B=-0.89 => updated Q-method calibration
-  (10/9/2011) => (B-V)o =-0.262, (U-B)o = -0.943, E(B-V) = 0.072,
-  Av=0.232. The consensus and MK73 suggest B2IV - little doubt about
-  temperature type (B2).
+del Cet = HR 779 = HD 16582 
+  *B2IV: JM53,Garrison67(stan),Lesh68,Zorec09(BCD)
+   B2V: 1955MmMtS..12....1W,Cuchiaro76
+   B2/3V: Levenhagen06
 
-# Non-standards
+   V=4.067+-0.007(Mermilliod91), B-V=-0.219+-0.008(Mermilliod91),
+   U-B=-0.850+-0.014(Mermilliod91). Q-method(PecautMamajek13) =>
+   (B-V)o=-0.237, (U-B)o=-0.863, E(B-V)=0.018, Av=0.059.  Teffs:
+   21150K(Hohle10), 21250+-400K(Nieva12), 21500+-500K(Levenhagen06),
+   21699+-490K(Cardiel21), 21878K(Simon-Diaz17,logT=4.34),
+   23160+-1500K(Zorec09) => <Teff> ~ 21600K.
+   
+# Tertiary Standard
+
+mu02 Sco = HD 151985 = HR 6252
+   *B2IV: 1955MmMtS..12....1W,deVaucouleurs57,Bertiau58,Slettebak68,Hiltner69,Houk82(Garrison82),WiegertGarrison98(stan)
+    B2V: 1976A&AS...26..241C(S2/68)
+    B2III:: Cannon21
+    B2: 1927MNRAS..86..364E
+    B3IV/V:: 1930MmMtS...2....1R
+
+    Remarkable consistency with B2 type over time, but
+    WiegertGarrison98 appears to be only one that list it as a
+    standard. Colors and light reddening seem to be nearly a twin of
+    standard del Cet.  V = 3.565+-0.005(Mermilliod91),
+    B-V=-0.214+-0.005(Mermilliod91), U-B=-0.844+-0.014(Mermilliod91).
+    Using Q-method and calibration from PecautMamajek13, dereddens to
+    (B-V)o = -0.236, (U-B)o=-0.860, E(B-V)=0.022, Av=0.072. Age 17 Myr
+    Pecaut16.  Teffs: 19998+-1283K(Cardiel21), 20913K(EEM:Castelli91
+    dered Hauck97 phot), 21083K(EEM:BalonaShobbrook84 Teff/beta
+    relation, Hauck97 phot), 21878K(Sartori03,logT=4.34),
+    21989K(EEM:Castelli91 dered Hauck97 phot,Napiwotski93 Teff calib),
+    22063K(Nieva13), 22699+-1726K(Pecaut16) => <Teff> ~ 21900K.
+
+# Standard
+
+tet Oph
+   B2IV: MK43
+
+lam Sco
+   B2IV: MK43 
+
+# Other Stars
 
 NGC 2362 46
     B2IV: JM53(non-standard)
@@ -73,7 +158,7 @@ del Cru = HR 4656 = HD 106490
     E(B-V) = 0.027, (B-V)o = -0.263, (U-B)o = -0.929.
 
 gam Lup = HR 5776 = HD 138690
-    B2IV: Hilter69
+   *B2IV: Hiltner69
     B2V: Slettebak68,Bertieu58(B2Vn)
     B3V: DeVaucouleur57,Evans59(B3Vn)
 
@@ -82,3 +167,5 @@ gam Lup = HR 5776 = HD 138690
     (Bohlin83). Adopting Savage & Mathis (1979) N_HI/E(B-V) relation,
     this suggests E(B-V) = 0.035, (B-V)o = -0.248, (U-B)o = -0.848, Q
     = -0.670.
+
+

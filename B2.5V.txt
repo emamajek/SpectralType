@@ -29,8 +29,8 @@ B-V(B2.5V) = -0.198  ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
 U-B(B2.5V) = -0.72   ; Fitzgerald70
 U-B(B2.5V) = -0.732  ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
 U-B(B2.5V) = -0.812  ; EEM dereddened weak stan. sig Sgr via Q-method
-=> adopt (U-B)(B2.5V)  = -0.732 ***
-=> adopt (B-V)(B2.5V)  = -0.198
+=> adopt (U-B)(B2.5V)  = -0.732 *** [updated 9/26/2019]
+=> adopt (B-V)(B2.5V)  = -0.198 [updated 9/26/2019]
 => adopt     Q(B2.5V)  = -0.589 (=(U-B)-0.72*(B-V) = -0.732 - 0.72*-0.198)
 => adopt (V-I)(B2.5V)  = -0.210
 => adopt (V-R)(B2.5V)  = -0.087
@@ -42,6 +42,14 @@ U-B(B2.5V) = -0.812  ; EEM dereddened weak stan. sig Sgr via Q-method
 => adopt (J-H)(B2.5V)  = -0.105
 => adopt (K-W1)(B2.5V) =  0.036
 
+(Bp-Rp)(B2.5V) = -0.292 ; Evans18 trend for V-I=-0.210
+
+(g-r)(B2.5) = -0.468 ; Covey07 interp B1V -0.49 to B3V -0.46
+
+(G-V)(B2.5V) = -0.003 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.544
+=> adopt (G-V)(B2.5V) = -0.003 [updated 4/8/2022]
+
+
 Teff(B2.5V) =  21108 K ; deprecated standard HD 36779 (median Teff)
 Teff(B2.5V) =  20200 K ; Bohm-Vitense81
 Teff(B2.5V) =  19748 K ; B-V=-0.198 => Teff(Bessell98,logg=4.3)
@@ -50,43 +58,55 @@ Teff(B2.5V) =  19095 K ; deprecated standard HD 214432 (median Teff)
 Teff(B2.5V) =  19000 K ; Crowther97/Fig.3
 Teff(B2.5V) = 18372 K ; Q=-0.589 => Nieva13 calibration  
 Teff(B2.5V) = 18277 K ; EEM N=85 Teffs
+Teff(B2.5V) = 18197 K ; Simon-Diaz17 for B2.5V (N=4)
 Teff(B2.5V) =  18087 K ; U-B=-0.732 => Teff(Bessell98)
 Teff(B2.5V) = 18068 K ; pri. stan. HD 37016 (median Teff)
 Teff(B2.5V) =  18074 K ; B-V=-0.198 => Teff(Napiwotski93)
-=> adopt Teff(B2.5V) = 18500 K (logT = 4.267)
+Teff(B2.5V) = 17965 K ; median for Braganca12 B2.5V stars (N=4)
+=> adopt Teff(B2.5V) = 18500 K (logT = 4.267) [updated 9/20/2019]
 
-BCv(B2.5V) = -1.702 mag ; Bertone04(Teff=18500K)
-BCv(B2.5V) =  -1.761 mag ; Balona94(Teff=18500K)
-BCv(B2.5V) = -1.761 mag ; LanzHubeny03/07(Teff=18500K)
-BCv(B2.5V) =  -1.781 mag ; Bessell98(Teff=18500K)
-BCv(B2.5V) = -1.787 mag ; Nieva13(Teff=18500K)
-BCv(B2.5V) =  -1.834 mag ; Flower96(Teff=18500K)
-BCv(B2.5V) = -1.857 mag ; Code76(Teff=18500K)
-=> adopt BCv(B2.5V) = -1.78 mag
+BCv(B2.5V) = -1.680 mag ; Bertone04(Teff=18500K, set BCv(5772K)=-0.085)
+BCv(B2.5V) =  -1.739 mag ; Balona94(Teff=18500K, set BCv(5772K)=-0.085)
+BCv(B2.5V) =  -1.759 mag ; Bessell98(Teff=18500K, set BCv(5772K)=-0.085)
+BCv(B2.5V) = -1.761 mag ; LanzHubeny03/07(Teff=18500K, set BCv(5772K)=-0.085)
+BCv(B2.5V) = -1.787 mag ; Nieva13(Teff=18500K, set BCv(5772K)=-0.085)
+BCv(B2.5V) =  -1.812 mag ; Flower96(Teff=18500K, set BCv(5772K)=-0.085)
+BCv(B2.5V) =  -1.867 mag ; Code76(Teff=18500K, set BCv(5772K)=-0.085)
+=> adopt BCv(B2.5V) = -1.77 [updated 9/20/2019, adjusted so that BCv(5772K)=-0.085]
 
 Mv(B2.5V) = -1.29 mag ; Upper Sco main sequence (B-V=-0.198, rms +-0.39 mag)
 Mv(B2.5V) = -1.36 mag ; ONC main sequence (B-V=-0.198, rms +-0.48 mag)
-Mv(B2.5V) = -1.4  mag ; halfway between B2V (Mv=-1.7) and B3V (Mv=-1.1)
-Mv(B2.5V) = -2.02 mag ; pri. stan. HD 37016 if at 420 pc
+Mv(B2.5V) = -1.36 mag ; median Mv for B2V calc using Kervella19 HIP & Gaia DR2
+Mv(B2.5V) = -1.5  mag ; between B2V (Mv=-1.8) and B3V (Mv=-1.2), interp by Teff
+Mv(B2.5V) = -1.90 mag ; Bowen08
+Mv(B2.5V) = -1.96 mag ; pri. stan. HD 37016 (+-0.7 mag error)
 Mv(B2.5V) = -2.14 mag ; sec. stan. sig Sgr
-Mv(B2.5V) = -2.34 mag ; Wegner07
-=> adopt Mv(B2.5V) = -1.4 mag
+Mv(B2.5V) =  -2.34 mag ; Wegner07
+=> adopt Mv(B2.5V)   = -1.50  mag [updated 4/17/2020]
+=> adopt M_Ks(B2.5V) = -0.956 mag = Mv - (V-Ks) = -1.50 - -0.544 [updated 12/30/2020]
 
-logL(B2.5V) = 3.17 dex ; Mv=-1.4, BCv=-1.78 => Mbol = -3.18
-=> adopt logL(B2.5V) = 3.17 dex
-=> adopt Mbol(B2.5V) = -3.18 mag
+logL(B2.5V) = 3.204 dex ; Mv=-1.5, BCv=-1.77 => Mbol = -3.270
+logL(B2.5V) = 3.096 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=18500K)
+=> adopt logL(B2.5V) =  3.204 dex [updated 4/17/2020]
+=> adopt Mbol(B2.5V) = -3.270 mag [updated 4/17/2020]
 
-Mass(B2.5V) = 5.83 Msun ; EEM fit of logL vs. Mass to binaries (logL=3.10)
+Mass(B2.5V) = 5.67 Msun ; EEM fit of Mv vs. Mass to binaries (Mv=-1.4)
+Mass(B2.5V) = 5.94 Msun ; Eker18 calibration logL vs. Mass (logL=3.164)
 Mass(B2.5V) = 5.982+-0.035 Msun ; Eclipsing binary CV Vel B (Torres10)
 Mass(B2.5V) = 5.99 Msun ; EEM fit of logT vs. Mass to binaries (Teff=18500K)
+Mass(B2.5V) = 6.08 Msun ; EEM fit of logL vs. Mass to binaries (logL=3.164)
 Mass(B2.5V) = 6.086+-0.044 Msun ; Eclipsing binary CV Vel A (Torres10)
-Mass(B2.5V) = 6.05 Msun ; Bertelli09 tracks (Z=0.017,Y=0.27) for Teff=18500K,logL=3.10
-Mass(B2.5V) = 7.20 Msun ; Harmanec88
+Mass(B2.5V) = 6.17 Msun ; MIST/Choi16 solar tracks logT=4.267, logL=3.204
+Mass(B2.5V) = 6.19 Msun ; Bertelli09 tracks (Z=0.017,Y=0.27) for Teff=18500K,logL=3.164
+Mass(B2.5V) =  7.20 Msun ; Harmanec88
 Mass(B2.5V) = 7.42+-0.16 Msun ; Eclipsing binary V1388 Ori A (actually "B2.5IV-V"; Torres10)
-=> adopt Mass(B2.5V) = 6.1 Msun
+=> adopt Mass(B2.5V) = 6.1 Msun  [updated 4/16/2022]
+
+Rad(B2.5V) = 3.893 Rsun ; logL=3.204, Teff=18500K
+=> adopt Rad(B2.5V) = 3.893 Rsun  [updated 4/17/2020]
 
 logg(B2.5V) = 4.13 dex ; Bertelli09 tracks (Z=0.017,Y=0.27) for Teff=18500K,logL=3.10 (no rotation)
-log(age/yr)(B2.5V) = 7.38 dex ; Bertelli09 tracks (Z=0.017,Y=0.27) for Teff=18500K,logL=3.10 Msun
+log(age/yr)(B2.5V) = 7.38 dex ; Bertelli09 tracks (Z=0.017,Y=0.27) for Teff=18500K,logL=3.10
 
 # No Standard
 
@@ -110,10 +130,14 @@ HD 37016 = HR 1891 = HIP 26234
   survey. Cousins71: V=6.250, B-V=-0.145, U-B=-0.68. Q-method
   (11/25/2012) => (B-V)o=-0.192, (U-B)o=-0.713, E(B-V)=0.047,
   Av=0.153.  Hauck97 photometry dereddened following Castelli91:
-  (b-y)o=-0.111, c0=0.248, E(b-y)=0.050.  Teffs: 17579K(EEM,Hauck97
-  phot.=>Napiwotzki93), 17657K(U-Bo=>Bessell98), 18478K(EEM,Hauck97
-  phot=>BalonaShobbrook84 calibration), 18508K(EEM,Hauck97 phot. =>
-  Balona94) => median Teff = 18068K. If it is at 420 pc (typical 
+  (b-y)o=-0.111, c0=0.248, E(b-y)=0.050.  Teffs: 16982K(Hernandez05),
+  17579K(EEM,Hauck97phot.=>Napiwotzki93), 17657K(U-Bo=>Bessell98),
+  18478K(EEM,Hauck97phot=>BalonaShobbrook84 calibration),
+  18508K(EEM,Hauck97 phot. => Balona94), 20350K(Hohle10) => median
+  Teff = 18068K. plx = 2.45+-0.81 mas (vanLeeuwen07) => Mv =
+  -1.96+-0.7.
+
+  If it is at 420 pc (typical 
   Ori OB1 distance), then Mv = -2.02. 
 
 # Secondary Standard

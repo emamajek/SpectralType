@@ -15,6 +15,7 @@ system.
 Cowley69 standard:   37 UMa  - F1V
 Morgan71 standard:   Rho Gem - F1V (but Morgan65 calls it a fundamental F0V standard!)
 Cowley74 standard:   37 UMa  - F1V
+Strassmeier90 stan:  alf01 CVn (HR 4914) - F1V 
 
 Gray01/03/06 lists 14 F1V stars. Median HIP colors:
 <B-V>(F1V)   = 0.313 (+-0.005 sem, +-0.014 stdev; N=14)
@@ -34,72 +35,156 @@ and within 1 mag of the MS (N=6):
 <B-K>(F1V)   = 1.270 (+-0.068 sem, +-0.182 stdev; N=6)
 
 <B-V>(F1V) = 0.377 ; 6 HIP d<75pc F1V (+-0.019 sem, +-0.049 stdev)
-(B-V)(F1V) = 0.34  ; Fitzgerald70
-(B-V)(F1V) = 0.335 +-0.005; prim. stan. 37 UMa 
-(B-V)(F1V) = 0.334 ; halfway between well-determined F0V (0.294) and F2V (0.374)
-(B-V)(F1V) = 0.325 ; Schmidt-Kaler82(halfway F0V-F2V)
-(B-V)(F1V) = 0.32  ; Morgan71
+(B-V)(F1V) =  0.34 ; Fitzgerald70
+(B-V)(F1V) =  0.34 ; Strassmeier90   
+(B-V)(F1V) = 0.335 +-0.005; prim. stan. 37 UMa
+(B-V)(F1V) = 0.332 ; exemplar HD 40136 = eta Lep [Fe/H] ~ -0.12 
+(B-V)(F1V) =  0.331 ; BakisEker22 
+(B-V)(F1V) = 0.33  ; halfway between well-determined F0V (0.29) and F2V (0.37)
+(B-V)(F1V) = 0.329 ; smoothed trend SpT vs (B-V)o B9.5V-F4V 11/2021
+(B-V)(F1V) =  0.325 ; Schmidt-Kaler82(halfway F0V-F2V)
+(B-V)(F1V) =  0.32 ; Morgan71
 <B-V>(F1V) = 0.313 ; 14 Gray01/03/06 F1V (+-0.005 sem, +-0.014 stdev; N=14)
-=> adopt (B-V)(F1V)  = 0.334 ***
-=> adopt (U-B)(F1V)  = 0.021
-=> adopt (V-I)(F1V)  = 0.385
-=> adopt (V-R)(F1V)  = 0.190 
-=> adopt (R-I)(F1V)  = 0.196
-=> adopt (V-J)(F1V)  = 0.662
-=> adopt (V-H)(F1V)  = 0.781
-=> adopt (V-Ks)(F1V) = 0.828
+(B-V)(F1V) = 0.312 ; exemplar HD 27290 = HR 1338 = gam Dor 
+(B-V)(F1V) = 0.312 ; exemplar HD 167858 = HR 6844 
+=> adopt (B-V)(F1V)  = 0.33  *** [last updated 2/22/2019]
+=> adopt (U-B)(F1V)  = 0.024
+=> adopt (V-I)(F1V)  = 0.381
+=> adopt (V-R)(F1V)  = 0.187 
+=> adopt (R-I)(F1V)  = 0.193
+=> adopt (V-J)(F1V)  = 0.655
+=> adopt (V-H)(F1V)  = 0.772
+=> adopt (V-Ks)(F1V) = 0.819
 => adopt (H-Ks)(F1V) = 0.047
-=> adopt (J-H)(F1V)  = 0.119
-=> adopt (K-W1)(F1V) = 0.028 
+=> adopt (J-H)(F1V)  = 0.117
+
+(G-V)(F1V) =  -0.10254  ; HD_58946_ F1V_
+(G-V)(F1V) =  -0.08868  ; HD_21844_ F1V
+(G-V)(F1V) =  -0.08406  ; HD_109799_ F1V_
+(G-V)(F1V) =  -0.082    ; SIMBAD d<60pc F dwarf fit as f(B-V=0.33)
+(G-V)(F1V) =  -0.075    ; Gray01/03/06 F dwarf fit for B-V=0.33 (see F0V.txt)
+(G-V)(F1V) =  -0.07486  ; HD_11257_ F1V
+(G-V)(F1V) =  -0.07016  ; HD_141891_ F1V_
+(G-V)(F1V) =  -0.06361  ; HD_225003_ F1V_
+(G-V)(F1V) =  -0.06316  ; HD_40292_ F1V_
+(G-V)(F1V) =  -0.05769  ; HD_105452_ F1V_
+(G-V)(F1V) =  -0.05665  ; HD_86629_ F1V_
+(G-V)(F1V) =  -0.05505  ; HD_206043_ F1V(n)_
+(G-V)(F1V) =  -0.04946  ; HD_219080_ F1V_
+=> adopt (G-V)(F1V) = -0.07 [updated 10/30/2020]
+
+(Bp-Rp)(F1V) =  0.4324  ; HD_27290
+(Bp-Rp)(F1V) = 0.434    ; color trend for B-V=0.33
+(Bp-Rp)(F1V) =  0.4350  ; HD_167858
+(Bp-Rp)(F1V) =  0.474   ; Evans18 trend for V-I=0.381
+(Bp-Rp)(F1V) =  0.4766  ; 37_UMa
+=> adopt (Bp-Rp)(F1V) = 0.435 [updated 11/18/2020]
+
+(Bp-G)(F1V) = 0.160   ; color trend for B-V=0.33
+(Bp-G)(F1V) =  0.1844  ; HD_167858
+(Bp-G)(F1V) =  0.2196  ; 37_UMa
+(Bp-G)(F1V) =  0.2536  ; HD_27290
+=> adopt (Bp-G)(F1V) = 0.16 [updated 11/18/2020]
+ 
+(G-Rp)(F1V) =  0.1788  ; HD_27290
+(G-Rp)(F1V) =  0.2506  ; HD_167858
+(G-Rp)(F1V) =  0.2571  ; 37_UMa
+(G-Rp)(F1V) = 0.275   ; color trend for B-V=0.275
+=> adopt (G-Rp)(F1V) = 0.275 [updated 11/18/2020]
+ 
+(Ks-W1)(F1V) = 0.050 ; EEM trend for d<30pc for B-V=0.330
+=> adopt (Ks-W1)(F1V) = 0.050 [updated 12/29/2019]
+
 
 (U-B)(F1V) =  0.00  ; Fitzgerald70
 (U-B)(F1V) = -0.008 ; HIP d<75pc S/N>8 F1V N=12 (Mermilliod91 photometry)
+(U-B)(F1V) = -0.006 ; exemplar HD 40136 = eta Lep 
 
-Teff(F1V) = 6798 K ; Boyajian12
-Teff(F1V) = 6869 K ; B-V=0.334 => Teff(Saxner85)
-Teff(F1V) = 6938 K ; B-V=0.334 => Teff(Casagrande10)
-Teff(F1V) = 6950 K ; V-K=0.828 => Teff(Mozurkewich03)
-Teff(F1V) = 6951 K ; B-V=0.334 => Teff(Napiwotzski93)
+(g-r)(F1V) = 0.193 ; Jordi06 (V-R)=>(g-r) for V-R=0.187
+(g-r)(F1V) = 0.145 ; Covey07 intepr F0V-F2V
+(g-r)(F1V) = 0.119 ; Bilir05 (B-V)=>(g-r) for B-V=0.33
+=> adopt (g-r)(F1V) = 0.14 [updated 10/10/2020]
+
+Teff(F1V) =  6798 K ; Boyajian12
+Teff(F1V) =  6869 K ; B-V=0.334 => Teff(Saxner85)
+Teff(F1V) = 6913 K ; deprecated stan. rho Gem
+Teff(F1V) = 6933 K ; non-stan. HD 213135 (median Teff, see below)
+Teff(F1V) =  6938 K ; B-V=0.334 => Teff(Casagrande10)
+Teff(F1V) =  6950 K ; V-K=0.828 => Teff(Mozurkewich03)
+Teff(F1V) =  6951 K ; B-V=0.334 => Teff(Napiwotzski93)
 Teff(F1V) = 6960 K ; mean photometric Teff
 Teff(F1V) = 6990 K ; pri. stan. 37 UMa median Teff
-Teff(F1V) = 7027 K ; V-H=0.781 => Teff(Casagrande10)
-Teff(F1V) = 7033 K ; V-K=0.828 => Teff(vanBelle09)
-Teff(F1V) = 7040 K ; B-V=0.334 => Teff(Ramirez05)
-Teff(F1V) = 7045 K ; Schmidt-Kaler82 (halfway F0V-F2V)
+Teff(F1V) = 7010 K ; exemplar HD 40136 = eta Lep 
+Teff(F1V) =  7027 K ; V-H=0.781 => Teff(Casagrande10)
+Teff(F1V) =  7033 K ; V-K=0.828 => Teff(vanBelle09)
+Teff(F1V) =  7040 K ; B-V=0.334 => Teff(Ramirez05)
+Teff(F1V) =  7045 K ; Schmidt-Kaler82 (halfway F0V-F2V)
+Teff(F1V) = 7050 K ; Teff from smoothed SpT(Teff) trend
+Teff(F1V) = 7050 K ; median Teff for 6 F1V from Gray17
 Teff(F1V) = 7066 K ; median Teff for 70 F1V published Teffs
-Teff(F1V) = 7089 K ; V-K=0.828 => Teff(Casagrande10)
-Teff(F1V) = 7120 K ; GrayCorbally09
-Teff(F1V) = 7135 K ; V-J=0.662 => Teff(Casagrande10)
-Teff(F1V) = 7212 K ; B-V=0.334 => Teff(Bessell98,dwarf)
-=> adopt Teff(F1V) = 7030 K (logT = 3.847)
+Teff(F1V) = 7088 K ; non-stan. HD 167858 (median Teff)
+Teff(F1V) =  7089 K ; V-K=0.828 => Teff(Casagrande10)
+Teff(F1V) = 7106 K ; Gray03/06 F1Vs median from TIC9/Stassun19 (N=9)
+Teff(F1V) =  7120 K ; GrayCorbally09
+Teff(F1V) =  7135 K ; V-J=0.662 => Teff(Casagrande10)
+Teff(F1V) = 7172 K ; exemplar HD 27290 = HR 1338 = gam Dor 
+Teff(F1V) =  7212 K ; B-V=0.334 => Teff(Bessell98,dwarf)
+=> adopt Teff(F1V) = 7020 K (logT = 3.846) [updated 9/20/2019 ***]
+
+logg(F1V) = 4.2 ; median logg for 6 F1V from Gray17
 
 V-K(F1V) = 0.832 +- 0.042 ; N=2 Gray06 F1V w/ grade A Ks mag & HIP V
 
-BCv(F1V) = 0.086 ; Balona94(Teff=7030K)
-BCv(F1V) = 0.078 ; Bertone04(ATLAS,Teff=7030K)
-BCv(F1V) = 0.041 ; Flower96(Teff=7030K)
-BCv(F1V) = 0.030 ; Schmidt-Kaler82(halfway F0-F2 + 0.13 mag offset)
-BCv(F1V) = 0.018 ; Masana06(Teff=7030K, w/offset of +0.04 mag)
-BCv(F1V) = 0.010 ; Code76(Teff=7030K)
-BCv(F1V) = 0.007 ; Bessell98(ATLAS9,logg=4.5,Teff=7030K)
-=> adopt BCv(F1V) = 0.03 mag (+-0.035 rms)
+BCv(F1V) = 0.073 mag ; Balona94(Teff=7020K, set so BCv(5772K)=-0.085)
+BCv(F1V) = 0.064 mag ; Bertone04(ATLAS,Teff=7020K, set so BCv(5772K)=-0.085)
+BCv(F1V) = 0.027 mag ; Flower96(Teff=7020K, set so BCv(5772K)=-0.085)
+BCv(F1V) =  0.030 mag ; Schmidt-Kaler82(halfway F0-F2 + 0.13 mag offset)
+BCv(F1V) = 0.004 mag ; Masana06(Teff=7020K, set so BCv(5772K)=-0.085)
+BCv(F1V) = 0.000 mag ; Code76(Teff=7020K, set so BCv(5772K)=-0.085)
+BCv(F1V) =-0.008 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7020K, set so BCv(5772K)=-0.085)
+BCv(F1V) =-0.010 mag ; Casagrande18(Teff=7030K,logg=4.5, set so BCv(5772K)=-0.085
+=> adopt BCv(F1V) = 0.005 [last updated 9/20/2019, set so BCv(5772K)=-0.085]
 
-Mv(F1V)  = 3.15 mag ; Schmidt-Kaler82(halfway F0V-F2V)
-Mv(F1V)  = 2.8  mag ; GrayCorbally09
-Mv(F1V)  = 2.79 mag ; B-V=0.343 => Mv(Wright05)
-Mv(F1V)  = 2.38 mag ; Wegner07
-=> adopt Mv(F1V) = 2.79 mag  
+Mv(F1V)  =  3.15 mag ; Schmidt-Kaler82(halfway F0V-F2V)
+Mv(F1V)  =  2.84 mag ; exemplar HD 40136 = eta Lep 
+Mv(F1V)  =  2.83 mag ; d<60pc median F1V (N=18)
+Mv(F1V)  =   2.8  mag ; GrayCorbally09
+Mv(F1V)  =  2.78 mag ; d<60pc Mv(B-V=0.33)
+Mv(F1V)  =  2.78 mag ; exemplar HD 167858 = HR 6844 (unresolved SB1)
+Mv(F1V)  = 2.76  mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.33
+Mv(F1V)  =  2.74 mag ; B-V=0.334 => Mv(Wright05)
+Mv(F1V)  =  2.73 mag ; interp BAF dwarf seq for B-V=0.33
+Mv(F1V)  =  2.73 mag ; median for SIMBAD F1V d<25pc (N=5)
+Mv(F1V)  =  2.69 mag ; A/F dwarf sequence for B-V=0.33
+Mv(F1V)  =  2.69 mag ; exemplar HD 27290 = HR 1338 = gam Dor 
+Mv(F1V)  =  2.64 mag ; F dwarf trend standards/exemplars
+Mv(F1V)  =  2.63 mag ; B-V=0.334 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(F1V)  =   2.38 mag ; Wegner07
+=> adopt Mv(F1V)   = 2.76  mag [updated 9/26/2020]
+=> adopt M_G(F1V)  = 2.69  mag [updated 12/10/2020] (Mv=2.76, G-V=-0.07)
+=> adopt M_Ks(F1V) = 1.941 mag [updated 12/30/2020] (Mv=2.76, V-Ks=0.819)
 
-logL(F1V) = 0.774 dex ; Mv=2.79 & BCv=0.03 => Mbol = 2.82
-=> adopt logL(F1V) = 0.77 dex
-=> adopt Mbol(F1V) = 2.82 mag 
+logL(F1V) = 0.818 dex ; Mv=2.69 & BCv=0.005 => Mbol = 2.695
+logL(F1V) = 0.790 dex ; Mv=2.76 & BCv=0.005 => Mbol = 2.765
+=> adopt logL(F1V) = 0.790 dex [updated 9/26/2020]
+=> adopt Mbol(F1V) = 2.765 mag [updated 9/26/2019]
 
-Mass(F1V) = 1.51 Msun ; Ekers15 ML calibration for logL=0.774
-Mass(F1V) = 1.51 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7000K)
-Mass(F1V) = 1.50 Msun ; EEM logL vs. Mass fit for binaries (logL=0.77)
+Mass(F1V) = 1.53 Msun ; HenryMcCarthy93 for Mv=2.8
+Mass(F1V) = 1.52 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7020K)
+Mass(F1V) = 1.51 Msun ; David15 F1 MS (rms=0.13 Msun; N=68)
+Mass(F1V) = 1.50 Msun ; EEM logL vs. Mass fit for binaries (logL=0.774)
+Mass(F1V) = 1.50 Msun ; Ekers18 ML calibration for logL=0.774
 Mass(F1V) = 1.5  Msun ; mass for primary standard 37 UMa
-Mass(F1V) = 1.48 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.79)
-=> adopt Mass(F1V) = 1.50 Msun
+Mass(F1V) = 1.48 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.8)
+=> adopt Mass(F1V) = 1.50 Msun [updated 12/29/2019]
+
+Rad(F1V) =  1.734 Rsun ; logL=0.818, Teff=7020K
+Rad(F1V) =  1.681 Rsun ; smoothed SpT vs Rad trend A/F dwarfs
+Rad(F1V) = 1.6787 Rsun ; logL=0.790, Teff=7020K 
+Rad(F1V) =  1.670 Rsun ; Gray03/06 F1Vs median from TIC9/Stassun19 (N=9)
+Rad(F1V) =  1.666 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=7020K)
+Rad(F1V) =  1.655 Rsun ; rho Gem F1V (Boyajian12)
+=> adopt Rad(F1V) = 1.679 Rsun [updated 9/26/2020]
 
 # No Standard
 
@@ -115,11 +200,11 @@ that they classify as F1V (including 37 UMa).
 
 # Primary Standard
 
-HD 91480 = 37 UMa
- *F1V: Roman49,Morgan53,Jaschek64(all),Cowley69(stan),Cowley74(stan),GrayGarrison89
-  F0: Cannon
-  F2V: Levato78,Gray03
+HD 91480 = 37 UMa = HR 4141 (V=5.2)
   A9Vs: Adams35
+  F0: Cannon
+ *F1V: Roman49,Morgan53,Jaschek64(all),Cowley69(stan),Cowley74(stan),GrayGarrison89
+  F2V: Levato78,Gray03
 
   GrayGarrison89 did not list a F1V standard, but they do classify 37
   UMa as F1V, in agreement with Cowley (although Gray03 later calls it
@@ -127,17 +212,17 @@ HD 91480 = 37 UMa
   technically a standard.  At least decent agreement among Roman,
   Morgan, Cowley, Gray, Garrison on "F1V". V=5.16(HIP),
   B-V=0.349+-0.019(HIP), B-V=0.335+-0.005 (Mermilliod91),
-  V-I=0.39+-0.03, 2MASS is saturated. Teffs: 6898+-80K(Casagrande11),
-  6960(Gerbaldi07#2), 6972(Gray03), 6990(Gerbaldi07#1), Teff =
-  7000(Suchkov03), 7003(Marsakov05), 7014K(Ammler-vonEiff12) =>
-  <Teff>=6990 K. Only slightly subsolar - UMa member. Mass of ~1.5
-  Msun and logg=4.3. logg=4.21 (Casagrande11). vsini=36.9+-4.0 km/s
-  (Ammler-vonEiff12). 
+  V-I=0.39+-0.03, 2MASS is saturated. Not in Soubiran22 PASTEL
+  compendium.  Teffs: 6898+-80K(Casagrande11), 6960(Gerbaldi07#2),
+  6972(Gray03), 6990(Gerbaldi07#1), 7000(Suchkov03), 7003(Marsakov05),
+  7014K(Ammler-vonEiff12) => <Teff>=6990 K. Only slightly subsolar -
+  UMa member. Mass of ~1.5 Msun and logg=4.3. logg=4.21
+  (Casagrande11). vsini=36.9+-4.0 km/s (Ammler-vonEiff12).
 
-# Weak Standard
+# Deprecated Standard
 
 HD 58946 = rho Gem 
-  F0V:  Garcia89,Jaschek64,Jaschek78,Morgan65,JM53
+  F0V:  JM53,Jaschek64,Morgan65,Jaschek78
   F0V+: Gray89 (MgII 4481A sl wk)
   F0:   Cannon 
   F1V:  Morgan71,Gray03
@@ -147,17 +232,110 @@ HD 58946 = rho Gem
   "A" is a spectroscopic binary (Worley96), so not an ideal standard.
   B-V = 0.316 (Mermilliod91).  No Houk type, literature types disagree
   a bit, and it is a spectroscopic binary. Morgan65 uses rho Gem as
-  the F0V "fundamental classification standard", but then Morgan71
+  the F0V "fundamental classification standard"... but then Morgan71
   calls its F1V. Too much use as F0V standard to take seriously as F1V
-  standard.
+  standard. Median Teff = 6913K (N=8 PASTEL).  Not in Soubiran22
+  PASTEL compendium.
+
+# Exemplars
+
+HD 40136 = eta Lep = HR 2085 = HIP 28103 
+  F0V: Slettebak55,
+  F0IV: 1974PASP...86...70C,Cowley74
+ *F1V: Houk88(Garrison),GrayGarrison89
+  F1III: Malaroda75
+  F2V: Adams35,Barry70(uv metals v weak),Cucchiaro78(S2/68),Gray06
+  F2IV: Adt95
+  F5IV: Maury1897
+
+  plx=66.8573+-0.1759mas(GaiaDR3).  V=3.713+-0.011(Mermilliod91),
+  V=3.71(HIP), B-V=0.332+-0.007(Mermillliod91), B-V=0.337+-0.012(HIP),
+  U-B=-0.006+-0.013(Mermilliod91).  Not in Soubiran22 PASTEL
+  compendium. Mv=2.839+-0.012(Mermilliod91,GaiaDR3).  PASTEL
+  compendium: <Teff>=7010K(N=12), <logg>=4.19(N=4), <[Fe/H]> =
+  -0.115(N=4). 
+
+HD 167858 = HR 6844 = HIP 89601 = V2502 Oph
+ *F1V: GrayGarrison89(F1V+),Gray89(F1V+),Abt95
+  F2V: Cowley74
+
+  Never considered a standard by anyone. At least Gray, Garrison & Abt
+  agree on F1V, although Fekel03 notes it as SB1 and its orbit is
+  listed in the Pourbaix04 SB9 catalog (P=4.4852d, K1=6.2km/s). Such a
+  tight orbit suggests it could be a chromospherically active binary.
+  plx=17.0194+-0.0384mas(GaiaDR3). V=6.620(Mermilliod91), V=6.62(HIP),
+  B-V=0.310(Mermilliod91), B-V=0.312+-0.015(HIP),
+  U-B=0.020(Mermilliod91). Mv=2.775+-0.011(Mermilliod91,GaiaDR3).
+  PASTEL: <Teff> = 7088(N=6).  Not in Soubiran22 PASTEL compendium.
+
+HD 27290 = HR 1338 = gam Dor = HIP 19893 
+  F0V: Houk75(Garrison)
+ *F1V+: GrayGarrison89,Gray89,Gray06(F1V)
+  F2IV: Evans64
+  F2V:  1937AnHar.105...45H,Cucchiaro78
+  F4III: Malaroda75
+
+  Prototype of gamma Doradus variables. AAVSO VSX lists brightness
+  ranging between 4.20 and 4.28 with period 0.757d.  Speckle
+  interferometry with SOAR (Hartkopf12) didn't reveal any
+  companions. plx=48.9494+-0.1689mas(GaiaDR3). V=4.26(HIP),
+  V=4.250+-0.015(Cousins71), V=4.242+-0.004(Mermilliod91),
+  B-V=0.312+-0.008(HIP), B-V=0.310+-0.005(Mermillioid91),
+  B-V=0.310+-0.012(Cousins71), U-B=0.016+-0.014(Mermilliod91).  Teffs:
+  7060K(Gray06), 7123K(Gerbaldi07#2), 7153K(Scholfield19),
+  7164K(Ammler-vonEiff12), 7180+-300K(Sokolov95), 7200K(Gerbaldi07#1),
+  7251+-555K(Stevens17), 7293+-248K(David15) => <Teff> =
+  7172K. [M/H]=-0.02(Gerbaldi07), [M/H]=-0.13(Gray06). Not in
+  Soubiran22 PASTEL compendium.
+  Mv=2.691+-0.008(Mermilliod91,GaiaDR3).
 
 # Other Stars
 
 Morgan65 did not classify any Hyads as F1V. 
 
-HD 167858 = HR 6844
-  F1V: GrayGarrison89(F1V+),Gray89(F1V+),Abt95
-  F2V: Cowley74
+HD 29875 = HR 1502
+  F1V: Moore51(F1),1937AnHar.105...45H,Houk78(Garrison),Gray89
+  F2V: Evans57,Malaroda75,1978A&AS...35...75C(F2m),Gray06
 
-  Never considered a standard by anyone. At least Gray, Garrison, &
-  Abt agree on F1V.
+  Probably averages to ~F1.5V.
+  
+HD 168092 = HR 6849
+  F0V+F0V: Abt88
+  F0IV:s+F0IV:s: Abt69
+ *F1V: Adams35,Cowley74,Abt09
+  F2V: Abt81
+
+  SB2. 4 different classifications by Abt! 
+
+HD 213135 = HR 8563
+   F0V: 1953AnHar.119....1H,DeVaucouleurs57,Evans57,Houk82
+  *F1V: Malaroda75,GrayGarrison89,Abt95
+
+   Everyone agrees dwarf. PASTEL: Median Teff = 6933K.
+
+HD 141891 = bet TrA = HR 5897 = HIP 77952
+   F0V: DeVaucouleurs57
+   F0IV: GrayGarrison89
+   F0III/IV: Houk75
+  *F1V: 1937AnHar.105...45H,Gray06
+   F2V: 1955MmMtS..12....1W
+   F2III: Malaroda75
+   F2IV: Evans57
+   F2m: 1978A&AS...35...75C
+
+   Very nearby ~F1V star (~12.4 pc).  Types all bracket F0-F2 and
+   V-III, with most recent Gray06 F1V.  Included here as it has an
+   interferometrically measured diameter (Rains20).  V=2.83(HIP),
+   V=2.845+-0.006(Mermilliod91), B-V=0.296+-0.005(Mermilliod91),
+   U-B=0.041+-0.012(Mermilliod91). plx=81.24+-0.62mas(HIP2),
+   plx=79.4292+-0.5786mas(GaiaDR2).  Mv=2.345+-0.017.  Rains20:
+   tetLD=1.462+-0.013, Rad=1.976+-0.021Rsun, fbol=(188.2+-2.1)e-8
+   erg/s/cm2 (=> mbol = 2.816+-0.012 IAU2015), Teff=7171+-35K,
+   L=9.30+-0.017 Lsun => logL= 0.968+-0.001. BCv = mbol - V =
+   2.816+-0.012 - 2.845+-0.006 = -0.029+-0.013).
+
+HD 25867 = HR 1269 = BD+28_619 
+   ApCrEuSr: 1978A&AS...35...75C 
+   F0: 1954ArA.....1..425A 
+  *F1V: Adams35, Cowley74, Jaschek80(F1V delta Del?)
+

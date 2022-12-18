@@ -4,7 +4,18 @@ There appear to be no "classic" A8V standard stars, based on the
 survey of spectral standards reflected in this file, Pecaut12 adopts
 HD 158352 as an A8V standard.
 
-Pecaut12:    HD 158352 - A8V 
+Standards: 
+Pecaut12:  HD 158352 - A8V 
+
+Looking at the xHIP catalog (Hipparcos-based compilation by Anderson &
+Francis 2012 with other ancillary data), one finds that among the A/F
+dwarfs (lum class V) within 50pc from Gray01/Gray03/Gray06, there is a
+well-defined gap between 0.26 < B-V < 0.29. There are reports of
+various gaps amongst A/F (e.g.Bohm-Vitnse+70,D'Antona02). Remarkably,
+the star on the blue side is none other than HR 8799
+(B-V=0.259+-0.010, Mv=2.99; SpT=F0+VkA5mA5 (lambda Boo)) and the star
+on the red side is HR 7848 = HIP 101612 (B-V=0.291+-0.012, Mv=2.53;
+SpT=F0V).
 
 Gray01/03/06 lists 5 A8V stars, with median HIP colors of: 
 <B-V>(A8V) = 0.230 (+-0.016 sem, +-0.038 stdev; N=5)
@@ -24,15 +35,18 @@ and within 1 mag of the MS (N=4):
 <V-Vt>(A8V)  =-0.028 (+-0.009 sem, +-0.012 stdev; N=4)
 <B-K>(A8V)   = 0.993 (+-0.127 sem, +-0.178 stdev; N=4)
 
-(B-V)(A8V)   = 0.277 ; d<75 HIP A8V (N=4)
+(B-V)(A8V)   = 0.277 ; d<60 pc SIMBAD (N=10)
+(B-V)(A8V)   = 0.277 ; d<75 pc HIP A8V (N=4)
 (B-V)(A8V)   =  0.27  ; Fitzgerald70
 (B-V)(A8V)   = 0.263 ; Morgan65 Hyad A8Vn HD 28024
+(B-V)(A8V)   =  0.257 ; BakisEker22 
 (B-V)(A8V)   = 0.255 ; Morgan65 Hyad A8Vn HD 28910
 (B-V)(A8V)   =  0.25  ; Schmidt-Kaler82
+(B-V)(A8V)   = 0.240 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 (B-V)(A8V)   = 0.237 ; color of A8V star HR 6507
 (B-V)(A8V)   = 0.230 ; Gray01/03/06 nearby A8V stars (N=5)
 (B-V)(A8V)   =  0.23  ; Morgan71, KenyonHartmann95
-=> adopt (B-V)(A8V)  = 0.25 ***  
+=> adopt (B-V)(A8V)  = 0.25 *** [updated 9/24/2020; agrees well with Teff/B-V seq for A7V-F2V]
 => adopt (U-B)(A8V)  = 0.082
 => adopt (V-I)(A8V)  = 0.288
 => adopt (V-R)(A8V)  = 0.140
@@ -42,49 +56,132 @@ and within 1 mag of the MS (N=4):
 => adopt (V-Ks)(A8V) = 0.626
 => adopt (H-Ks)(A8V) = 0.042
 => adopt (J-H)(A8V)  = 0.075
-=> adopt (K-W1)(A8V) = 0.028 
+
+(Bp-Rp)(A8V) =  0.2983  ; HD_24809
+(Bp-Rp)(A8V) = 0.320    ; color trend for B-V=0.25
+(Bp-Rp)(A8V) =  0.3400  ; rho_Tau
+(Bp-Rp)(A8V) =  0.3426  ; HD_158352
+(Bp-Rp)(A8V) =  0.358   ; Evans18 trend for V-I=0.288
+(Bp-Rp)(A8V) =  0.3645  ; HD_205924
+(Bp-Rp)(A8V) =  0.4000  ; HD_50635
+=> adopt (Bp-Rp)(A8V)= 0.320 [updated 11/22/2020]
+
+(Bp-G)(A8V) = 0.117    ; color trend for B-V=0.25
+(Bp-G)(A8V) =  0.1274  ; HD_24809
+(Bp-G)(A8V) =  0.1568  ; HD_205924
+(Bp-G)(A8V) =  0.1587  ; HD_158352
+(Bp-G)(A8V) =  0.1806  ; rho_Tau
+(Bp-G)(A8V) =  0.2572  ; HD_50635
+=> adopt (Bp-G)(A8V) = 0.117 [updated 11/22/2020]
+
+(G-Rp)(A8V) =  0.1428  ; HD_50635
+(G-Rp)(A8V) =  0.1594  ; rho_Tau
+(G-Rp)(A8V) =  0.1709  ; HD_24809
+(G-Rp)(A8V) =  0.1839  ; HD_158352
+(G-Rp)(A8V) =  0.2076  ; HD_205924
+(G-Rp)(A8V) = 0.204    ; color trend for B-V=0.25
+=> adopt (G-Rp)(A8V) = 0.204 [updated 11/22/2020]
 
 Note that the V-IR colors seem too blue compared to the trends?
+
+(Ks-W1)(A8V) = 0.048 ; EEM trend for d<30pc for B-V=0.24
+=> adopt (Ks-W1)(A8V) = 0.048 [updated 12/29/2019]
+
+(G-V)(A8V) =  -0.075 ; * alf Pic PM* A8VnkA6
+(G-V)(A8V) =  -0.056 ; * ups Tau dS* A8Vn
+(G-V)(A8V) =  -0.053 ; * 67 Cnc PM* A8Vn
+(G-V)(A8V) = -0.046 ; polynomial fit f(B-V) 
+(G-V)(A8V) =  -0.045 ; * rho Tau dS* A8V
+(G-V)(A8V) =  -0.043 ; V* CN Boo dS* A8V
+(G-V)(A8V) =  -0.041 ; * 4 Cep * A8V
+(G-V)(A8V) =  -0.041 ; HD 90132 PM* A8V
+(G-V)(A8V) = -0.030 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.626
+(G-V)(A8V) =  -0.010 ; * eps Mon A A8V(n)
+(G-V)(A8V) =  -0.005 ; * q Pup PM* A8V
+=> adopt (G-V)(A8V) = -0.04 [updated 4/8/2022]
 
 (U-B)(A8V)   = 0.09  ; Fitzgerald70
 (U-B)(A8V)   = 0.077 ; HIP d<75pc S/N>8 A8V N=10 (Mermilliod91 photometry)
 
-Teff(A8V) = 7152 K ; Boyajian12
-Teff(A8V) = 7444 K ; mean photometric Teff
-Teff(A8V) = 7548 K ; EEM N=48 Teffs
-Teff(A8V) = 7580 K ; Schmidt-Kaler82
-Teff(A8V) = 7605 K ; interp. (A7V-A9V) GrayCorbally09
-=> adopt Teff(A8V) = 7500 K (logT = 3.874)
+(g-r)(A8V)   = 0.118 ; Jordi06 (V-R)=>(g-r) for V-R=0.140
+(g-r)(A8V)   = 0.029 ; Bilir05 (B-V)=>(g-r) for B-V=0.25
+(g-r)(A8V)   = 0.020 ; Covey07 interp A7V to F0V
+=> adopt (g-r)(A8V) = 0.03 [updated 10/10/2020]
 
-BCv(A8V) = 0.077 mag ; Balona94(Teff=7500K)
-BCv(A8V) = 0.070 mag ; Bertone04(ATLAS,Teff=7500K)
-BCv(A8V) = 0.044 mag ; Flower96(Teff=7500K)
-BCv(A8V) = 0.033 mag ; Masana06(Teff=7500K, w/offset +0.04 mag)
-BCv(A8V) = 0.030 mag ; Schmidt-Kaler82(BCv=-0.10 + 0.13 mag)
-BCv(A8V) = 0.017 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7500K)
-BCv(A8V) = 0.010 mag ; Code76(Teff=7500K)
-=> adopt BCv(A8V) = 0.04 mag (+-0.03 rms)
+Teff(A8V) =   7152 K ; Boyajian12
+Teff(A8V) =  7444 K  ; mean photometric Teff
+Teff(A8V) =  7482 K  ; Zorec12 median
+Teff(A8V) =  7548 K  ; EEM N=48 Teffs
+Teff(A8V) =   7580 K ; Schmidt-Kaler82
+Teff(A8V) = 7590 K   ; Teff trend maintaining intermed radius between A7V and A9V for logL=0.96
+Teff(A8V) =   7605 K ; interp. (A7V-A9V) GrayCorbally09
+Teff(A8V) =  7640 K  ; exemplar rho Tau = HD 28910 (Hyad)
+Teff(A8V) =  7663 K  ; HIP 40706, Stassun19/TICv8
+Teff(A8V) =  7800 K  ; median Teff for 4 A8V from Gray17
+Teff(A8V) =  7762 K  ; HIP 30419, Stassun19/TICv8
+=> adopt Teff(A8V) = 7590 K (logT = 3.880) [updated 9/26/2020]
 
-Mv(A8V) = 2.4  mag ; interp. (A7V-A9V) GrayCorbally09
-Mv(A8V) = 2.4  mag ; Schmidt-Kaler82
-Mv(A8V) = 2.29 mag ; Wright05(B-V=0.253mag)
-Mv(A8V) = 1.92 mag ; Wegner07
-=> adopt Mv(A8V) = 2.29 mag 
+[EEM 9/26/2020: note this Teff maintains Teff/Rad continuity between A7V and A9V, and is consistent with
+other estimates]
 
-logL(A8V) = 0.970 dex ; Mv=2.287, BCv=0.044 => Mbol = 2.331
-=> adopt logL(A8V) = 0.97 dex 
-=> adopt Mbol(A8V) = 2.33 mag
+BCv(A8V) =   0.059 mag ; Balona94(Teff=7590K, BCv(5772K)=-0.085)
+BCv(A8V) =   0.052 mag ; Bertone04(ATLAS,Teff=7590K, BCv(5772K)=-0.085)
+BCv(A8V) =    0.030 mag ; Schmidt-Kaler82(BCv=-0.10 + 0.13 mag)
+BCv(A8V) =   0.028 mag ; Flower96(Teff=7590K, BCv(5772K)=-0.085)
+BCv(A8V) =   0.022 mag ; Masana06(Teff=7590K, BCv(5772K)=-0.085)
+BCv(A8V) =  0.02  mag ; EEM trend As
+BCv(A8V) =   0.002 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7590K, BCv(5772K)=-0.085)
+BCv(A8V) =   0.000 mag ; Code76(Teff=7590K, BCv(5772K)=-0.085)
+BCv(A8V) =  -0.005 mag ; Casagrande18(Teff=7500K,logg=4.5, BCv(5772K)=-0.085)
+=> adopt BCv(A8V) = 0.02 [updated 9/26/2020; set so BCv(5772K)=-0.085]
 
+logg(A8V) = 4.2 ; median logg for 4 A8V from Gray17
+
+Mv(A8V) =   2.4  mag ; interp. (A7V-A9V) GrayCorbally09
+Mv(A8V) =   2.4  mag ; Schmidt-Kaler82
+Mv(A8V) =  2.38 mag ; B/A/F dwarf sequence for B-V=0.25
+Mv(A8V) = 2.32 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=2.32
+Mv(A8V) =  2.28 mag ; interp BAF dwarf seq for B-V=0.24
+Mv(A8V) =  2.27 mag ; Wright05(B-V=0.25mag)
+Mv(A8V) =  2.18 mag ; d<60pc Mv(B-V=0.255)
+Mv(A8V) =  1.98 mag ; median Mv for A9V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
+Mv(A8V) =   1.92 mag ; Wegner07
+Mv(A8V) =  1.786 mag ; d<60pc median A8V N=10
+Mv(A8V) =  1.41 mag ; pri. stan. HD 158352 = HR 6507
+Mv(A8V) =  1.22 mag ; exemplar rho Tau = HD 28910 
+=> adopt Mv(A8V)   = 2.32  mag [updated 9/26/2020]
+=> adopt M_G(A8V)  = 2.27  mag [updated 12/10/2020] (Mv=2.32, G-V=-0.05)
+=> adopt M_Ks(A8V) = 1.694 mag [updated 12/30/2020] (Mv=2.32, V-Ks=0.626)
+ [EEM: where are the 'faint' A8V stars? The exemplars all seem bright.]
+
+logL(A8V) =  0.938 dex ; Mv=2.38, BCv=0.02 => Mbol = 2.400
+logL(A8V) = 0.960  dex ; Mv=2.32, BCv=0.02 => Mbol = 2.340
+logL(A8V) =  1.276 dex ; Zorec12 median
+=> adopt logL(A8V) = 0.960 dex [updated 9/26/2020]
+=> adopt Mbol(A8V) = 2.340 mag [updated 9/26/2020]
+
+Mass(A8V) = 1.92 Msun ; Zorec12 median 
 Mass(A8V) = 1.854+-0.016 Msun ; Eclipsing binary RS Cha A (pre-MS, Torres10)
 Mass(A8V) = 1.817+-0.018 Msun ; Eclipsing binary RS Cha B (pre-MS, Torres10)
 Mass(A8V) = 1.68 Msun ; Ekers15 ML calibration for logL=0.97
 Mass(A8V) = 1.67 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.29)
 Mass(A8V) = 1.67 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7500K)
 Mass(A8V) = 1.66 Msun ; EEM logL vs. Mass fit for binaries (logL=0.96)
+Mass(A8V) = 1.64 Msun ; David15 A8 MS (rms=0.11 Msun; N=62) 
 Mass(A8V) = 1.561+-0.011 Msun ; Eclipsing binary PV Pup A (Torres10)
 Mass(A8V) = 1.550+-0.013 Msun ; Eclipsing binary PV Pup B (Torres10)
 Mass(A8V) = 1.5001+-0.0097 Msun ; Eclipsing binary TZ Men B (Torres10)
-=> adopt Mass(A8V) = 1.67 Msun
+=> adopt Mass(A8V) = 1.67 Msun [updated 9/16/2019]
+
+Rad(A8V) =  2.623 Rsun ; HIP 30419, Stassun19/TICv8
+Rad(A8V) =  1.844 Rsun ; HIP 40706, Stassun19/TICv8
+Rad(A8V) =  1.782 Rsun ; smoothed SpT vs Rad trend A/F dwarfs
+Rad(A8V) = 1.747 Rsun ; logL=0.960, Teff=7590K
+Rad(A8V) =  1.7445 Rsun ; interp A7V-F2V for logT=3.875
+Rad(A8V) =  1.740 Rsun ; logL=0.936 ,Teff=7500K
+=> adopt Rad(A8V) = 1.747 Rsun [updated 9/26/2020]
+
+[EEM: note this radius fits in trend for late As: 
 
 # No Standard
 
@@ -103,44 +200,108 @@ non-standard dwarfs were HD 96113 (A8V+) and HD 205924 (A8Vn).
 # Primary Standard
 
 HD 158352 = HR 6507 = HIP 85537
-  A8V: Jaschek78(Cowley69),Kennedy83(Cowley69),Abt95,Mora01(A8Vp),Pecaut12(stan).
+ *A8V: Cowley69,Abt95,Mora01(A8Vp),Pecaut12(stan).
   A5: Cannon
 
-  Historically there were no A8V standard in the class literature
+  Historically there were no A8V standard in the literature
   (e.g. papers and atlases by Morgan, Gray, Garrison, etc.).  Houk
-  adopts A8V by cites "SIMBAD type listed; vsini=190 [km/s]."  Skiff08
-  lists only three classifications -- all are A8V or
-  variant. Vmag=5.44, B-V=0.237, plx=15.86+-0.69 mas (HIP). Shell &
-  Vega-type star. Based on the literature search shown here, Pecaut12
-  adopts this star as the best available A8V standard. Pecaut12
-  confirmed that the spectrum of HD 158352 is intermediate between A7V
-  and F0V MK standards, and slightly hotter than the adopted A9V
-  standard HD 73450 (BS Cnc).
+  adopts A8V by cites "SIMBAD type listed; vsini=190 [km/s]."
+  Vmag=5.44(HIP), V=5.418+-0.013(Mermilliod91), V=5.42(Hauck97),
+  B-V=0.237(HIP), B-V=0.227+-0.006(Mermilliod91), plx=15.86+-0.69 mas
+  (HIP), plx = 15.7570+-0.1611mas(GaiaDR2). Shell & Vega-type
+  star. Based on the literature search shown here, Pecaut12 adopts
+  this star as the best available A8V standard. Pecaut12 confirmed
+  that the spectrum of HD 158352 is intermediate between A7V and F0V
+  MK standards, and slightly hotter than the adopted A9V standard HD
+  73450 (BS Cnc). WDS lists a nonphysical companion (mag2=9.75) at
+  sep=46.8". VSX liists it as a variable with amplitude 0.01 mag and
+  period 0.0756d - presumably delta Scuti? No evidence of unresolved
+  binarity, but star is ~0.7 mag above MS (so I'm wondering if might
+  be an ~equal mass binary?). Teffs: 7430+-77K(Masana06),
+  7482+-52K(Zorec12), 7624+-259K(David15) => <Teff> =
+  7624K. logg=3.82+-0.14(David15). Mv=1.405+-0.026.  David15 estimates
+  age of ~1.02 Gyr and mass 1.77 Msun.
+
+# Exemplar
+
+rho Tau = HD 28910 = Cl* Melotte 25 Rg 353 = HR 1444 (Hyad)
+   F1:  1920AN....211..289K 
+   F0V: 1940ApJ....91..256T,Slettebak55,Ljunggren61(F0)
+   A9V: Barry70(uv metals wk),GrayGarrison89
+  *A8V: Morgan65(A8Vn),Cowley69
+   A7V: Abt95
+   A7III: 1980A&AS...40..207C
+   A5V: Adams35,Ramberg41(A5)
+
+   plx= 22.6703+-0.8800mas(GaiaDR2),
+   plx=20.61+-0.57mas(HIP2). V=4.65(HIP), B-V=0.255+-0.007(HIP).
+   Mv=1.22(V from HIP, plx from HIP2). PASTEL: <Teff> = 7640K(N=3),
+   logg=4.02+-0.20(Gebran10), [Fe/H]=0.12+-0.30(Gebran10).
 
 # Others
 
-HD 28024 = ups Tau
-  A8Vn: Abt95,Cowley69,Morgan65
-  A9IV-n: GrayGarrison89
+HD 28024 = ups Tau = HR 1392 
+  A3V: Adams35
   A7.5V: Palmer68
+  A8Vn: Morgan65,Cowley69,Abt95
+  A9IV-n: GrayGarrison89
+  F0V: 1940ApJ....91..256T
   F0III-IV: Slettebak55
+  F0III: Cucchiaro80
 
-  B-V(HIP)=0.263 (exactly halfway between A7 & F0), plx = 21 mas
-  (HIP). Good agreement on type from Morgan, Cowley, & Morgan, but
-  GrayGarrison call A9. 
+  One of two Hyads classified A8V by Morgan65 (along with rho Tau = HD
+  28910).  B-V(HIP)=0.263 (exactly halfway between A7 & F0), plx = 21
+  mas (HIP). Good agreement on type from Morgan, Cowley & Abt, but
+  GrayGarrison call A9.
+
+HD 28910 = rho Tau = Cl* Melotte 25 Rg 353 = HR 1444 (Hyad)
+   F1:  1920AN....211..289K 
+   F0V: 1940ApJ....91..256T,Slettebak55,Ljunggren61(F0)
+   A9V: Barry70(uv metals wk),GrayGarrison89
+   A8V: Morgan65(A8Vn),Cowley69
+   A7V: Abt95
+   A7III: 1980A&AS...40..207C
+   A5V: Adams35,Ramberg41(A5)
+
+   One of two Hyads classified A8V by Morgan65 (along with ups Tau =
+   HD 28024), but both classified A9V by GrayGarrison89.  plx=
+   22.6703+-0.8800mas(GaiaDR2), plx=20.61+-0.57mas(HIP2). V=4.65(HIP),
+   B-V=0.255+-0.007(HIP).  Mv=1.22(V from HIP, plx from HIP2). PASTEL:
+   <Teff> = 7640K(N=3), logg=4.02+-0.20(Gebran10),
+   [Fe/H]=0.12+-0.30(Gebran10).
 
 HD 203280 = alf Cep = HIP 105199 (from A7V README file)
+  A5: Cannon
   A7V: MK43(stan),Palmer68
   A7V-IV: Cowley69,Jaschek78
   A7:Vn: Abt95
   A8IV: Barry70
   A8Vn: Gray03
-  A5: Cannon
-  Jaschek64 lists mix of (A7V, V-IV, & IV-V)
-  B-V(HIP)=0.257, dMv=-0.73, d=15pc
 
-  Subtypes shifted a bit A7=>A8 and it appears to be slightly evolved
-  Probably best considered a "A8IV-V", and probably not the best standard
+  Jaschek64 lists mix of (A7V, V-IV, & IV-V) B-V(HIP)=0.257,
+  dMv=-0.73, d=15pc.  Subtypes shifted a bit A7=>A8 and it appears to
+  be slightly evolved Probably best considered a "A8IV-V", and
+  probably not the best standard
+
+HD 4399 = SB 312 = [PS72] 253
+   A6: Phillip72
+  *A8V: Lu92,Chen03
+   A9V: Bond71,Houk82,
+   F0: Slettebak71
+
+   Near south Galactic pole. V=9.68(Tycho), V=9.640(Mermilliod910,
+   B-V=0.264+-0.037(Tycho), B-V=0.280(Mermilliod91),
+   U-B=0.030(Mermilliod91). Av=0.03(Guarino92),
+   E(B-V)=0.024(Bianchi11).
+
+
+
+HD 50635 = 38 Gem = HR 2564
+  *A8V: Wilson52,Abt95
+   A9V: GrayGarrison89
+
+   Several other classifications between A7V and F0. 
+   G4V companion 7" away.
 
 Morgan65 classified two Hyads as A8Vn: HD 28024 & HD 28910. 
 They have B-V colors of 0.263 (HD 28024) and 0.255 (HD 28910) 
@@ -150,3 +311,21 @@ or variant (brightest three are HR 1392, HR 1394, HR 1444)
 
 Cowley76 did not list an A8V standard, but classified two bright stars as A8V:
 HR 1388 (A8Vn) and HR 8270 (A8Vn)
+
+HD 205924 = HR 8270
+  A2V: Adams35
+ *A8Vn: GrayGarrison89,Cowley76,Abt95(A8:Vn)
+  A9IV-V:n: Cowley74
+  A pec: Cucchiaro78
+
+HD 24809 = HR 1223 = NGC 1499 +34 38
+  A5III: 1985CBVMS.C......0V
+  A7V: Abt95
+ *A8V: Cowley69,1981PASP...93..735P
+
+HD 29606 = HR 1486
+  A7IV: Cowley69
+ *A8V: Cowley67,Abt95
+
+
+  

@@ -23,9 +23,10 @@ recent calibration (10/9/2011).
 
 B-V(B1.5V) = -0.265  ; EEM dereddened pri. stan. HD 154445 (via Q method)
 B-V(B1.5V) = -0.261  ; EEM dereddened sec. stan. HD 36959 (via Q method)
+B-V(B1.5V) = -0.252  ; calculated Q-method using U-B=-0.91 
 B-V(B1.5V) =  -0.25   ; Fitzgerald70, Morgan71(halfway_B1-B2), JohnsonBorgman63
 B-V(B1.5V) = -0.240  ; EEM dereddened N=9 HIP B1.5V stars (Q method,E(B-V)<0.1)
-=> adopt (B-V)(B1.5V) = -0.252 (based on adopted U-B=-0.91)
+=> adopt (B-V)(B1.5V) = -0.252 [updated 9/26/2019]
 
 U-B(B1.5V) = -0.954  ; EEM dereddened pri. stan. HD 154445 (via Q-method) 
 U-B(B1.5V) = -0.941  ; EEM dereddened sec. stan. HD 36959 (via Q-method)
@@ -33,8 +34,8 @@ U-B(B1.5V) =  -0.91   ; Bessell98, JohnsonBorgman63
 U-B(B1.5V) = -0.872  ; EEM dereddened 17 HIP B1.5V stars (via Q-method)
 U-B(B1.5V) =  -0.895  ; Johnson63 (interp. between B1V-B2V)
 U-B(B1.5V) =  -0.88   ; Fitzgerald70
-=> adopt (U-B)(B1.5V)  = -0.91  ***
-=> adopt     Q(B1.5V)  = -0.730 (=(U-B)-0.72*(B-V) = -0.91 - 0.72*-0.25)
+=> adopt (U-B)(B1.5V)  = -0.91  *** [updated 2/7/2020]
+=> adopt     Q(B1.5V)  = -0.728 (=(U-B)-0.72*(B-V)) [updated 2/7/2020]
 => adopt (V-I)(B1.5V)  = -0.281
 => adopt (V-R)(B1.5V)  = -0.115
 => adopt (R-I)(B1.5V)  = -0.168 
@@ -44,6 +45,14 @@ U-B(B1.5V) =  -0.88   ; Fitzgerald70
 => adopt (H-Ks)(B1.5V) = -0.047
 => adopt (J-H)(B1.5V)  = -0.132
 
+(Bp-Rp)(B1.5V) = -0.390 ; Evans18 trend for V-I=-0.281
+
+(g-r)(B1.5V) = -0.483 ; Covey07 interp B1V -0.49 to B3V -0.46
+
+(G-V)(B1.5V) = -0.021 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.752
+=> adopt (G-V)(B1.5V) = -0.021 [updated 4/8/2022]
+
+Teff(B1.5V) = 20184 K ; Simon-Diaz17 for B1.5V (N=8; gap between logT=4.34-4.37, 4.25-4.27)
 Teff(B1.5V) = 21584 K ; N=9 B1.5V from Brown94 
 Teff(B1.5V) = 21630 K ; EEM N=51 Teffs
 Teff(B1.5V) =   21787 K ; N=21 B1.5V from Philip80 (Jaschek78 SpTs)
@@ -55,43 +64,51 @@ Teff(B1.5V) = 24000 K ; non-standard HD 37744 (Nieva14)
 Teff(B1.5V) =   24400 K ; Bessell98
 Teff(B1.5V) = 24575 K ; Q=-0.730 => Nieva13 calibration 
 Teff(B1.5V) = 24627 K ; sec. stan. HD 36959 (median Teff)
+Teff(B1.5V) = 24845 K ; median for Braganca12 B1.5V stars (N=2)
 Teff(B1.5V) = 24918 K ; pri. stan. HD 154445 (median Teff)
 Teff(B1.5V) =   25000 K ; Crowther97/Fig.3 
 Teff(B1.5V) =   25087 K ; B-V=-0.25 => Teff(Napiwotzki93)
 Teff(B1.5V) =   25340 K ; Theodossiou90 
 Teff(B1.5V) =   25881 K ; B-V=-0.25 => Teff(Bessell98,logg=4.3)
 Teff(B1.5V) = 26100 K ; non-standard HD 36969 (Nieva14)
-=> adopt Teff(B1.5V) = 24500 K (logT = 4.389)
+=> adopt Teff(B1.5V) = 24500 K (logT = 4.389) [updated 9/20/2019]
 
-BCv(B1.5V) = -2.430 ; Bertone04 (ATLAS, Teff=24500K)
-BCv(B1.5V) = -2.435 ; LanzHubeny03/07 (Teff=24500K)
-BCv(B1.5V) = -2.438 ; Nieva13(Teff=24500K)
-BCv(B1.5V) = -2.454 ; Code76 (Teff=24500K)
-BCv(B1.5V) =  -2.462 ; Balona94 (Teff=24500K)
-BCv(B1.5V) =  -2.471 ; Bessell98 (Teff=24500K)
-BCv(B1.5V) =  -2.477 ; Flower96 (Teff=24500K)
-=> adopt BCv(B1.5V) = -2.44 mag
+BCv(B1.5V) = -2.408 ; Bertone04 (ATLAS, Teff=24500K, set so BCv(5772K)=-0.085)
+BCv(B1.5V) = -2.435 ; LanzHubeny03/07 (Teff=24500K, set so BCv(5772K)=-0.085)
+BCv(B1.5V) = -2.438 ; Nieva13(Teff=24500K, set so BCv(5772K)=-0.085)
+BCv(B1.5V) =  -2.440 ; Balona94 (Teff=24500K, set so BCv(5772K)=-0.085)
+BCv(B1.5V) =  -2.449 ; Bessell98 (Teff=24500K, set so BCv(5772K)=-0.085)
+BCv(B1.5V) =  -2.455 ; Flower96 (Teff=24500K, set so BCv(5772K)=-0.085)
+BCv(B1.5V) =  -2.464 ; Code76 (Teff=24500K, set so BCv(5772K)=-0.085)
+=> adopt BCv(B1.5V) = -2.44 [updated 9/20/2019, set so BCv(5772K)=-0.085]
 
 Mv(B1.5V) = -3.42 mag ; pri. stan. HD 154445 (see below)
 Mv(B1.5V) = -2.89 mag ; Upper Sco main sequence (B-V=-0.25, rms +-0.39 mag)
-Mv(B1.5V) = -2.88 mag ; Wegner07
-Mv(B1.5V) = -2.81 mag ; Russeil03
+Mv(B1.5V) =  -2.88 mag ; Wegner07
+Mv(B1.5V) =  -2.81 mag ; Russeil03
+Mv(B1.5V) = -2.66 mag ; Bowen08
 Mv(B1.5V) = -2.58 mag ; sec. stan. HD 36959 (see below, in ONC)
 Mv(B1.5V) = -2.50 mag ; ONC main sequence (B-V=-0.25, rms +-0.48 mag)
-=> adopt Mv(B1.5V) = -2.8 mag 
+=> adopt Mv(B1.5V)   = -2.60  mag [updated 9/20/2019]
+=> adopt M_Ks(B1.5V) = -1.848 mag = Mv - (V-Ks) = -2.60 - 0.752 [updated 12/30/2020]
 
-logL(B1.5V) = 4.00 dex ; Mv = -2.8, BCv=-2.44 => Mbol = -5.24
-=> adopt logL(B1.5V) = 4.00 dex
-=> adopt Mbol(B1.5V) = -5.24 mag 
+logL(B1.5V) = 3.912 dex ; Mv = -2.6, BCv=-2.44 => Mbol = -5.04
+logL(B1.5V) = 3.839 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=24500K)
+=> adopt logL(B1.5V) =  3.912 dex [updated 9/26/2019]
+=> adopt Mbol(B1.5V) = -5.040 mag [updated 9/26/2019]
 
 Mass(B1.5V) = 10.19 Msun ; EEM Teff vs. Mass fit for binaries (Teff=25000K)
 Mass(B1.5V) = 10.14 Msun ; Ekers15 ML calibration for logL=3.98
+Mass(B1.5V) =  9.95 Msun ; MIST/Choi16 solar tracks logT=4.389,logL=3.912
 Mass(B1.5V) =  9.85 Msun ; EEM logL vs. Mass fit for binaries (logL=3.89)
-Mass(B1.5V) =  9.73 Msun ; Harmanec88
+Mass(B1.5V) =   9.73 Msun ; Harmanec88
 Mass(B1.5V) =  9.59+-0.27 Msun ; Eclipsing binary V1034 Sco B (Torres10)
 Mass(B1.5V) =  9.53 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-2.6)
-Mass(B1.5V) =  8.49 Msun ; Eclipsing binary mu01 Sco (vanAnterwerpen09)
-=> adopt Mass(B1.5V) = 10 Msun 
+Mass(B1.5V) =   8.49 Msun ; Eclipsing binary mu01 Sco (vanAnterwerpen09)
+=> adopt Mass(B1.5V) = 9.9 Msun [updated 4/16/2022]
+
+Rad(B1.5V) = 5.016 Rsun ; Teff=24500K, logl=3.912
+=> adopt Rad(B1.5V) = 5.016 Rsun [updated 9/26/2019]
 
 # No Standard
 
@@ -149,16 +166,15 @@ HD 36959 = HR 1886
 # Deprecated Standard
 
 HD 215191
- *B1.5V: Lesh68(stan),Levato76
   B1V: Blaauw53,Jaschek64(all)
+ *B1.5V: Lesh68(stan),Levato76
   B2IV: Zorec09
 
-  All classifications B1-B2 range, but not consistent enough to
-  consider a good standard star.
+  All classifications B1-B2 range.
 
 HD 259105 = Cl* NGC 2244 JOHN 10 = NGC 2244 128 = BD+05_1281
- *B1.5V: Morgan65,Garrison67(stan),Perez87
   B1V: Johnson62,Massey95,Vrancken97
+ *B1.5V: Morgan65,Garrison67(stan),Perez87
   B2V: Hoag59
 
   Garrison67 adopted JOHN 10 as B1.5V standard from Morgan65's B0V-B2V
@@ -174,3 +190,23 @@ The brightest star classified by Hiltner69 as B1.5V is HR 4942 (V=4.3)
 and HR 5440 (B1.5Vn; V=2.3).
 
 There are no B1.5V stars in Garrison96's table "The Brightest Stars".
+
+# Notes
+
+(G-V) for B dwarfs (4/8/2022): Using Kervella19, I selected B dwarfs
+with Hipparcos and Gaia DR2 parallaxes >3 mas, G & K mag errors of
+<0.03 mag, and E(B-V) <= 0.05, and corrected their VGKs photometry
+using the Kervella19 E(B-V) values (from STILISM) - corrected as
+Av=3.1*E(B-V), A_G = 0.9536*Av (LuhmanEsplin20 for low Av),
+A_Ks=0.382*E(B-V). For 627 B dwarfs with -0.79 < (V-Ks) < 0.10, I fit:
+(G-V) = 1.5662975867923815e-002 - 4.5474915703530211e-002*(V-Ks) -
+2.0632426850689073e-001*(V-Ks)^2 - 1.0690949761461190e-001*(V-Ks)^3
+(rms = 0.0148 mag). This fit should be OK between B1.5V and B9.5V
+types.
+
+
+
+
+
+
+

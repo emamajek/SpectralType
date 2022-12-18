@@ -1,10 +1,12 @@
 B0V
 
-Garrison94 lists the B0V anchor as Ups Ori (= HD 36512).
-However Sota11 considers Tau Sco as the B0V standard, and
-Ups Ori as an O9.7V star. 
+Garrison94 lists the B0V anchor as Ups Ori (= HD 36512).  However
+Sota11 considers Tau Sco as the B0V standard, and Ups Ori as an O9.7V
+star. So Tau Sco appears to have survived from MK43 to the present day
+(Sota11, Galactic O-star Spectroscopic Survey) as the main B0V
+standard.
 
-Unfortunately there have been some subtle shifts at the OB boundary:
+There have been some subtle shifts at the OB boundary in the literature over the years:
 
         MK43  JM53  Walborn72 MK73  MK78 Keenan85  Walborn90 Garrison94 Garrison96 Sota11
 HD93027 ...   ...   O9.5V     ...   ...  ...       O9.5V     ...        ...        O9.5IV
@@ -43,15 +45,16 @@ Skiff08 lists two B0V standards: Hd 36512 (MK73) & HD 149438 (MK78).
 All UBV dereddenings in this file have been updated using a revised
 Q-method calibration (10/9/2011).
 
-B-V(B0V)   = -0.32  ; JohnsonMorgan53 (with parentheses, i.e. uncertain)
-B-V(O9.7V) = -0.310 ; EEM dereddened ups Ori (was B0V, now O9.7V standard)
-B-V(B0V)   = -0.30  ; Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,KenyonHartmann95
-B-V(B0V)   = -0.30  ; Morgan53, Johnson63, JohnsonBorgman63,Johnson66 
-B-V(B0V)   = -0.300 ; EEM dereddened N=5 B0V HIP stars (Q-method, E(B-V)<0.3)
-B-V(B0.2V) = -0.300 ; EEM dereddened B0.2V standard HD 2083 via Q-method
-B-V(B0.2V) = -0.297 ; EEM dereddened B0.2V non-standard tet Car via Q-method
-B-V(B0V)   = -0.296 ; EEM dereddened primary standard Tau Sco*
-=> adopt (B-V)(B0V) = -0.307 (based on (U-B)o = -1.067)
+B-V(B0V)   =  -0.32  ; JohnsonMorgan53 (with parentheses, i.e. uncertain)
+B-V(O9.7V) =  -0.310 ; EEM dereddened ups Ori (was B0V, now O9.7V standard) 
+B-V(B0V)   = -0.301 ; from (U-B)o=-1.07 - trend with Q
+B-V(B0V)   =  -0.30  ; Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,KenyonHartmann95
+B-V(B0V)   =  -0.30  ; Morgan53, Johnson63, JohnsonBorgman63,Johnson66 
+B-V(B0V)   =  -0.300 ; EEM dereddened N=5 B0V HIP stars (Q-method, E(B-V)<0.3)
+B-V(B0.2V) =  -0.300 ; EEM dereddened B0.2V standard HD 2083 via Q-method
+B-V(B0.2V) =  -0.297 ; EEM dereddened B0.2V non-standard tet Car via Q-method
+B-V(B0V)   =  -0.296 ; EEM dereddened primary standard Tau Sco*
+=> adopt (B-V)(B0V) = -0.301 [updated 2/7/2020]
 
 The bluest B-V I can find for a B0V star is HIP 25923 (B-V = -0.261),
 so <(B-V)o> is likely to be bluer than that.
@@ -67,72 +70,103 @@ U-B(B0V)   = -1.10  ; JohnsonBorgman63
 U-B(O9.7V) = -1.100 ; EEM dereddened O9.7V ups Ori (using Q-method)
 U-B(O9.7V) = -1.102 ; EEM dereddened O9.7V ups Ori using Lyalpha=>E(B-V)=>E(U-B)
 U-B(B0V)   = -1.13  ; JohnsonMorgan53 (with parentheses, i.e. uncertain)
-=> adopt (U-B)(B0V) = -1.067 ***
-=> adopt     Q(B0V) = -0.845 (=(U-B)-0.72*(B-V) = -1.067 - 0.72*-0.307)
-=> adopt (V-K)(B0V) = -0.958
+=> adopt (U-B)(B0V) = -1.07 *** [updated 2/7/2020]
+=> adopt Q(B0V)     = -0.854    [updated 2/7/2020]
+=> adopt (V-Ks)(B0V) = -0.958
 => adopt (V-J)(B0V) = -0.732
 => adopt (V-H)(B0V) = -0.891
 => adopt (H-K)(B0V) = -0.067
 => adopt (J-H)(B0V) = -0.159
 => adopt (V-I)(B0V) = -0.354
 
+(Ks-W1)(B0V) = 0.016 ; EEM trend for d<30pc for B-V=-0.307
+=> adopt (Ks-W1)(B0V) = 0.016 [updated 12/29/2019]
+
+(Bp-Rp)(B0V) = -0.491 ; Evans18 trend for V-I=-0.354
+
+(g-r)(B0V) = -0.59 ; Covey07 
+
 Teff(B0V) =   29000 K ; GrayCorbally09
 Teff(B0V) =   29230 K ; Theodossiou90 
 Teff(B0V) =   29500 K ; Bohm-Vitense81
-Teff(B0V) =   29800 K ; Bessell98
+Teff(B0V) = 29800 K ; Bessell98
 Teff(B0V) =   29800 K ; Blackwell80
-Teff(B0V) =   30000 K ; Crowther97/Fig.3
+Teff(B0V) = 30000 K ; Crowther97/Fig.3
 Teff(B0V) = 30000 K ; Massey05(Milky Way)
 Teff(B0V) =   30000 K ; Schmidt-Kaler82
-Teff(B0V) =   30300 K ; Chavez95 (+800-300K)
-Teff(B0V) =   30333 K ; U-B=-1.07 => Teff(Bessell98)
+Teff(B0V) = 30300 K ; Chavez95 (+800-300K)
+Teff(B0V) = 30333 K ; U-B=-1.07 => Teff(Bessell98)
 Teff(B0V) = 30430 K ; Bertone04[ATLAS models]
 Teff(B0V) = 30705 K ; deprecated stan. HD 46106 (median Teff)*
+Teff(B0V) = 31125 K ; deprecated stan. HD 207538 (median Teff)
+Teff(B0V) = 31400 K ; pri. stan. tau Sco (median Teff)
 Teff(B0V) = 31480 K ; EEM N=33 Teffs*
-Teff(B0V) = 31500 K ; primary standard Tau Sco (median Teff)*
 Teff(B0V) = 31783 K ; Q=-0.845 => Nieva13 calibration 
 Teff(B0V) = 32000 K ; deprecated standard Ups Ori (median Teff) [now O9.7V]*
 Teff(B0V) = 32125 K ; deprecated standard HD 207538 (single Teff)*
+Teff(B0V) = 32359 K ; Simon-Diaz17 for B0V (N=1; HD 149438)
 Teff(B0V) =   33340 K ; Vacca96
 Teff(B0V) =   33400 K ; deprecated standard HD 36512 (Nieva14)
-=> adopt Teff(B0V) = 31500 K (logT = 4.498)
+=> adopt Teff(B0V) = 31400 K (logT = 4.497) [updated 1/20/2020]
 
+Mv(B0V) =  -0.49 mag ; HIP_104361 B0V plx=2.257 mas, Vmag=7.882,E(B-V)=0.046
+Mv(B0V) =  -2.51 mag ; HIP_106937 B0V plx=1.090 mas, Vmag=8.346,E(B-V)=0.336
 Mv(B0V)   = -3.13 mag ; pri. stan. tau Sco (see below)
+Mv(B0V) =  -3.18 mag ; HIP_101350 B0V plx=1.268 mas, Vmag=6.969,E(B-V)=0.213
+Mv(B0V) =  -3.46 mag ; HIP_103061 B0V plx=1.267 mas, Vmag=8.449,E(B-V)=0.783
+Mv(B0V) =  -3.47 mag ; HIP_12469 B0Ve plx=0.405 mas, Vmag=10.775,E(B-V)=0.737
 Mv(O9.7V) = -3.54 mag ; weak stan. ups Ori (see below)
+Mv(B0.5V) =  -3.6  mag ; adopted
+Mv(B0V) =  -3.61 mag ; HIP_13255 B0V plx=0.626 mas, Vmag=9.401,E(B-V)=0.643
+Mv(B0V) =  -3.63 mag ; HIP_105113 B0V plx=0.647 mas, Vmag=9.293,E(B-V)=0.639
+Mv(B0V) =  -3.63 mag ; HIP_97045 B0V plx=0.582 mas, Vmag=7.730,E(B-V)=0.060
 Mv(B0V)   = -3.76 mag ; mean for 3 standards (tau Sco, ups Ori, HD 46106)
+Mv(B0V) =  -3.77 mag ; HIP_107164 B0V:pe plx=1.121 mas, Vmag=6.923,E(B-V)=0.305
+Mv(B0V)   = -3.85 mag ; Bowen08
 Mv(B0V)   = -3.9  mag ; Russeil03
 Mv(B0V)   = -3.95 mag ; Wegner07
-Mv(B0V)   =   -4.0  mag ; Schmidt-Kaler82
+Mv(B0V)   = -3.97 mag ; logL/Teff trend for OB dwarfs (Teff=31500K,BCv=-3.00)
+Mv(B0V)   =  -4.0  mag ; Schmidt-Kaler82
 Mv(B0V)   = -4.1  mag ; GrayCorbally09
+Mv(O9.5V) =  -4.1  mag ; adopted
 Mv(B0V)   =  -4.21 mag ; Vacca96
 Mv(B0V)   = -4.62 mag ; weak stan. HD 46106 (see below)
-=> adopt Mv(B0V) = -4.0 mag
+Mv(B0V) =  -5.42 mag ; HIP_100227 B0Vp plx=0.577 mas, Vmag=8.690,E(B-V)=0.940
+
+=> adopt Mv(B0V)   = -3.90  mag [updated 2/7/2020]
+=> adopt M_Ks(B0V) = -2.942 mag = Mv - (V-Ks) = -3.90 - -0.958 [updated 12/30/2020]
 
 BCv(B0V) = -3.24  mag ; Vacca96
-BCv(B0V) = -3.03  mag ; Schmidt-Kaler82(BCv=-3.16 + 0.13 mag)
+BCv(B0V) = -3.129 mag ; Flower96(Teff=31400K)
+BCv(B0V) =   -3.03  mag ; Schmidt-Kaler82(BCv=-3.16 + 0.13 mag)
+BCv(B0V) =  -3.026 mag ; Code76(Teff=31400K, set so BCv(5772K)=-0.085)
+BCv(B0V) = -3.014 mag ; Nieva13(Teff=31400K)
+BCv(B0V) = -2.995 mag ; Balona94(Teff=31400K, set so BCv(5772K)=-0.085)
+BCv(B0V) = -2.992 mag ; Bessell98(ATLAS9,logg=4.0,Teff=31400K, set so BCv(5772K)=-0.085)
 BCv(B0V) = -2.99  mag ; Bertone04[ATLAS models,their B0V Teff=30430K]
-BCv(B0V) = -3.125 mag ; Flower96(Teff=31500K)
-BCv(B0V) = -2.925 mag ; Bertone04[ATLAS models,Teff=31500K]
-BCv(B0V) = -3.023 mag ; Code76(Teff=31500K)
-BCv(B0V) = -2.981 mag ; LanzHubeny07(Teff=31500K,Z/Zsun=1,logg=4.0)
-BCv(B0V) = -2.988 mag ; Balona94(Teff=31500K)
-BCv(B0V) = -2.983 mag ; Bessell98(ATLAS9,logg=4.0,Teff=31500K)
-BCv(B0V) = -2.890 mag ; LanzHubeny03(Teff=31500K,Z/Zsun=1)
-=> adopt BCv(B0V) = -2.99 mag (+-0.06 systematic)
+BCv(B0V) = -2.975 mag ; LanzHubeny03/07(Teff=31400K,Z/Zsun=1,logg=4.0)
+=> adopt BCv(B0V) = -2.99 [updated 1/20/2020]
 
-logL(B0V)   = 4.31 ; pri. stan. tau Sco (see below)
-logL(O9.7V) = 4.47 ; weak stan. ups Ori (see below)
-logL(B0V)   = 4.62 ; adopt Mv=-3.8, BCv=-2.99 => Mbol = -6.79 
-logL(B0V)   = 4.91 ; weak stan. HD 46106 (see below)
-=> adopt logL(B0V) = 4.62 dex 
-=> adopt Mbol(B0V) = -6.79 mag
+logL(B0V)   =  4.31 ; pri. stan. tau Sco (see below)
+logL(O9.7V) =  4.47 ; weak stan. ups Ori (see below)
+logL(B0V)   = 4.558 ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=31400)
+logL(B0V)   = 4.652 ; adopt Mv=-3.9, BCv=-2.99 => Mbol = -6.890
+logL(B0V)   = 4.683 ; logL/Teff trend for OB dwarfs (Teff=31500K)
+logL(B0V)   =  4.91 ; weak stan. HD 46106 (see below)
+=> adopt logL(B0V) =  4.652 dex [updated 2/8/2020]
+=> adopt Mbol(B0V) = -6.890 mag [updated 2/8/2020]
 
-Mass(B0V) = 14.57 Msun ; Harmanec88
-Mass(B0V) = 16.55 Msun ; EEM Teff vs. Mass fit for binaries (Teff=31500K)
-Mass(B0V) = 17.4  Msun ; Ekers15 ML calibration for logL=4.62
-Mass(B0V) = 17.72 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-3.9)
-Mass(B0V) = 18.06 Msun ; EEM logL vs. Mass fit for binaries (logL=4.73)
-=> adopt Mass(B0V) = 17.5 Msun
+Mass(B0V) =  14.57 Msun ; Harmanec88
+Mass(B0V) =  15.00+-2.83 Msun ; Hohle10
+Mass(B0V) =  16.55 Msun ; EEM Teff vs. Mass fit for binaries (Teff=31500K)
+Mass(B0V) =  17.68 Msun ; EEM logL vs. Mass fit for binaries (logL=4.70)
+Mass(B0V) = 17.7  Msun ; MIST/Choi16 solar tracks for logT=4.497,logL=4.652
+Mass(B0V) =  18.63 Msun ; EEM fit Mv vs. Mass to Torres10 binaries (Mv=-4.0)
+Mass(B0V) =  18.7  Msun ; Ekers15 ML calibration for logL=4.70
+=> adopt Mass(B0V) = 17.7 Msun [updated 4/16/2022]
+
+Rad(B0V) = 7.1580 Rsun ; logL=4.652, Teff=31400K
+=> adopt Rad(B0V) = 7.158 Rsun [updated 2/8/2020]
 
 # No standard
 
@@ -141,9 +175,8 @@ GrayAtlas does not list a B0V standard
 # Primary Standard
 
 HD 149438 = tau Sco = HR 6165
- *B0V: MK43,Lesh68(stan),Jaschek78(JM53),Bertiau58,Jaschek64(all),Garrison67,Hiltner69(stan),MK73,Garrison77(stan),MK78,Garrison79(stan),Houk82,Keenan85,Garcia89,Garrison96,Sota11(stan)
+ *B0V: Cannon(B0),MK43,Lesh68(stan),Jaschek78(JM53),Bertiau58,Jaschek64(all),Garrison67,Hiltner69(stan),MK73,Garrison77(stan),MK78,Garrison79(stan),Houk82,Keenan85,Garcia89,Garrison96,Sota11(stan)
   B0.2V: Walborn71,Walborn90
-  B0: Cannon
 
   Tau Sco was considered B0V by most until Walborn71 called it B0.2V,
   but now it is considered B0V standard again by Sota11. The only B0V
@@ -151,43 +184,67 @@ HD 149438 = tau Sco = HR 6165
   => dereddened following Castelli91 => (b-y)o = -0.114, co = -0.094,
   e(b-y) = 0.021, T(Balona94) = 31048K, T(Napiwotski93) = 32689 K.
   Mermilliod91 photometry: V=2.825+-0.009, B-V=-0.252+-0.007,
-  U-B=-1.023+-0.013 => Q-method => (B-V)o=-0.296, (U-B)o=-1.055,
+  U-B=-1.023+-0.013 => Q-method(1/2020) => (B-V)o=-0.296, (U-B)o=-1.055,
   E(B-V)= 0.044, Av=0.143. VanLeeuwen07 lists plx = 6.88+-0.53 mas =>
   145+-11 pc (comensurate with its membership to Upper Sco OB
   association with d = 145 pc; de Zeeuw et al. 1999). Hence, Mv =
   -3.13+-0.17 mag, logL = 4.31+-0.07 dex.
 
   All Teff estimates: 
-  28060K(Sokolov95), 
-  28590K(Fremat05),
+  28060K(Sokolov95),
+  28590+-526K(Fremat05#2),
+  28959K(Fremat05#1),
   29374K(U-Bo=>Bessell98),
+  29640K(Zorec09#2),
+  29860K(Braganca12),
+  29920K(Malagnini,from Zorec09)
+  30000K(Snow94),
+  30000K(Glagolevskij19),
+  30400K(Smith10),
   31000+-1000K(Martins11), 
   31048K(EEM via Balona94), 
   31400K(Kilian94),
-  31440+-2150K(Zorec94), 
+  31440+-2150K(Zorec09#3), 
   31500K(Hubrig08, cited in Lefever10),
-   31500K(Philip80), 
-  31500K(Rauw12), 
+  31500K(Philip80), 
+  31500K(Rauw12),
+  31800K(Remie82),
   31900K(Mokiem05, cited in Lefever10), 
   32000K(Lefever10), 
   32000+-300K(Przybilla08),
-  32000+-300K(Nieva12), 
-  32689K(EEM via Napiwotski93), 
+  32000+-300K(Nieva12),
+  32359K(SimonDiaz17),
+  32689K(EEM via Napiwotski93),
+  32710+-1690K(Zorec16),
   33000K(Schonberner88) 
-  => median Teff = 31500K.
-
+  => median Teff = 31400K.
   Log(g) estimates: 4.05(Hubrig08, cited in Lefever10), 4.15(Mokiem05,
   cited in Lefever10), 4.2(Lefever10), 4.24(Kilian94),
   4.3(Przybilla08, cited in Lefever10), 4.3(Przybilla08, cited in
   Lefever10).
-
   LogN_HI = 20.43+-0.10 (Shull85), 20.49+-0.04 (Bohlin78), 20.05
   (Hobbs78). Adopting logN_HI = 20.46, and the Savage & Mathis (1979)
   logNH/E(B-V) = 4.8e21 atoms/cm^2/mag, then E(B-V) = 0.060. Then
   (B-V)o = (B-V) - E(B-V) = -0.252 - 0.060 = -0.312, and (U-B)o =
   (U-B) - 0.72*E(B-V) = -1.023 - 0.72*0.06 = -1.066.
 
+
 # Deprecated Standards
+
+Cl Trumpler 37 1588 = ALS 12008
+ *O9.7IV: Sota11
+  O9.7V: Mathys89
+  O9.5V: Conti71,Conti73,Conti74,Garrison76
+  O9III: Bisiachhi82,
+  B0V: Morgan53,JM53,Morgan55,Hiltner56,Jaschek64(all),Simonson68,Garcia89
+  B3: Cannon
+
+  Similar to HD 206183 -- Morgan called B0V, but others later moved to
+  O9.5 or O9.7. OB2. M91: V=7.305+-0.014, B-V=0.324+-0.008,
+  U-B=-0.640+-0.000 => updated Q-method (10/9/2011) => (B-V)o=-0.308,
+  (U-B)o=-1.094, E(B-V)= 0.632, Av=2.047.  Teffs:
+  32059K(U-Bo=>Bessell98), 32190K(Daflon03,Daflon07) => median Teff =
+  32125K. logg=4.32(Daflon07). vsini=39+-2 km/s (Daflon07).
 
 HD 36512 = ups Ori = HR 1855
  *O9.7V: Sota11(standard)
@@ -236,31 +293,22 @@ HD 36512 = ups Ori = HR 1855
   Adopting d=400 pc, then Mv ~ -3.54, logL ~ 4.47 dex. 
 
 
-HD 207538 = Cl Trumpler 37 1588 = ALS 12008 
- *B0V: Morgan53,JM53,Morgan55,Hiltner56,Jaschek64(all),Simonson68,Garcia89
-  O9.5V: Conti71,Conti73,Conti74,Garrison76
-  O9III: Bisiachhi82,
-  B3: Cannon
-
-  Similar to HD 206183 -- Morgan called B0V, but others later moved to
-  O9 or O9.5?  in Cep OB2. M91: V=7.305+-0.014, B-V=0.324+-0.008,
-  U-B=-0.640+-0.000 => updated Q-method (10/9/2011) => (B-V)o=-0.308,
-  (U-B)o=-1.094, E(B-V)= 0.632, Av=2.047.  Teffs:
-  32059K(U-Bo=>Bessell98), 32190K(Daflon03,Daflon07) => median Teff =
-  32125K. logg=4.32(Daflon07). vsini=39+-2 km/s (Daflon07). 
-
 HD 46106 = HIP 31106 = Cl* NGC 2244 JOHN 5 (J0631+0501)
+  O9.4(III): 1990AISAO..32..106P
+  O9.7III(n): Sota14
+  O9.7II-III: Sota11
  *B0V: Morgan65,Garrison67(stan),Abt68,Walborn71
   B0.2V: Massey95,Wolff07
   B0.5V: Morgan53,Johnson62
   B1V: JM53
-  B8: Cannon
   B1III: Voroshilov85
+  B2IIIn: Parthasarathy12 
+  B8: Cannon
 
-  Jaschek64 shows slew of types from O9.5V to B1V. Abt68 uses as B0V
-  standard.  Garrison67 adopts "NGC 2244 Main Sequence" from Morgan65
-  for B0-B2V standards, including Johnson #5, which includes HD 46106
-  as "B0V".  Too much disagreement to consider a useful
+  Too much disagreement on type to be useful as a standard. Abt68 uses
+  as B0V standard.  Garrison67 adopts "NGC 2244 Main Sequence" from
+  Morgan65 for B0-B2V standards, including Johnson #5, which includes
+  HD 46106 as "B0V".  Too much disagreement to consider a useful
   standard. Mermilliod91 lists V=7.927+-0.012, BV=0.145+-0.006,
   U-B=-0.755+-0.011 => revised Q-method (10/8/2011) => (B-V)o =
   -0.303, (U-B)o = -1.077, E(B-V)=0.448, Av=1.449 mag.  VanLeeuwen07

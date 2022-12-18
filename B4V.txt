@@ -1,8 +1,12 @@
 B4V
 
-Garrison94 does not list a B4V anchor standard, nor does
-MK73 list a B4V dagger standard.
+Garrison94 does not list a B4V anchor standard, nor does MK73 list a
+B4V dagger standard. Unfortunately "B4V" is in this no-man's land
+between the very hot dwarfs (O-B3 stars) covered by e.g. Walborn and
+others, and the late Bs (B7-A0 stars) covered in more detail by Gray
+and collaborators.
 
+The only B4V standard I've seen in the literature: 
 Lesh68 standard:  90 Leo - B4V
 
 # No Standard
@@ -39,12 +43,32 @@ U-B(B4V)   = -0.66   ; Bessell98
 => adopt (V-I)(B4V)  = -0.175
 => adopt (V-R)(B4V)  = -0.074
 => adopt (R-I)(B4V)  = -0.101 
-=> adopt (V-J)(B4V)  = -0.338
-=> adopt (V-H)(B4V)  = -0.431
-=> adopt (V-Ks)(B4V) = -0.447
-=> adopt (H-Ks)(B4V) = -0.016
-=> adopt (J-H)(B4V)  = -0.092
-=> adopt (K-W1)(B4V) =  0.036
+
+(V-Ks)(B4V) =  -0.354 ; HIP_60000_ B4V d= 93.2575pc, (B-V)=0.007 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.398 ; HIP_63945_ B4V d= 122.175pc, (B-V)=0.013 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.403 ; HIP_35202_ B4V d= 278.629pc, (B-V)=0.016 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.428 ; HIP_39238_ B4V d= 234.907pc, (B-V)=0.019 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.445 ; HIP_30700_ B4V d= 327.654pc, (B-V)=0.028 (dereddened from Kervella19)
+(V-Ks)(B4V) = -0.447 ; from intrinsic color sequence for (U-B)o=-0.619 
+(V-Ks)(B4V) =  -0.462 ; HIP_30788_ B4V d= 134.716pc, (B-V)=0.002 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.467 ; HIP_52736_ B4V d= 150.173pc, (B-V)=0.020 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.479 ; HIP_39138_ B4V d= 142.857pc, (B-V)=0.005 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.527 ; HIP_58326_ B4V d= 166.806pc, (B-V)=0.029 (dereddened from Kervella19)
+=> adopt (V-Ks)(B4V) = -0.447 [updated 4/8/2022]
+=> adopt (V-J)(B4V)  = -0.338 [updated 4/8/2022]
+=> adopt (V-H)(B4V)  = -0.431 [updated 4/8/2022]
+=> adopt (H-Ks)(B4V) = -0.016 [updated 4/8/2022]
+=> adopt (J-H)(B4V)  = -0.092 [updated 4/8/2022]
+
+(Ks-W1)(B4V) = 0.028 ; EEM trend for d<30pc for B-V=-0.165
+=> adopt (Ks-W1)(B4V) = 0.028 [updated 12/29/2019]
+
+(Bp-Rp)(B4V) = -0.245 ; Evans18 trend for V-I=-0.175
+
+(g-r)(B4V) = -0.437 ; Covey07 interp B3V -0.46 to B5/7V -0.39
+
+(G-V)(B4V) =  0.004 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.447
+=> adopt (G-V)(B4V) = 0.004 [updated 4/8/2022]
 
 Teff(B4V)  = 17111 K  ; deprecated standards 90 Leo (median Teff)
 Teff(B4V)  =  17100 K ; Theodossiou90
@@ -52,55 +76,78 @@ Teff(B4V)  =  17050 K ; Schmidt-Kaler82 halfway B3V-B5V
 Teff(B4V)  =  17000 K ; Bohm-Vitense81
 Teff(B4V)  =  16866 K ; Bessell98
 Teff(B4V)  =  16813 K ; B-V=-0.166 => Teff(Bessell98,logg=4.3)
+Teff(B4V)  = 16780 K  ; median for Braganca12 B4V stars (N=41)
 Teff(B4V)  = 16737 K  ; EEM N=66 Teffs
 Teff(B4V)  =  16700 K ; Chavez95 (+-100K)
 Teff(B4V)  =  16490 K ; Bertone04[ATLAS]
+Teff(B4V)  = 16400 K ; interp B-V vs. Teff B3V-B4V for B-V=-0.165
 Teff(B4V)  =  16000 K ; Crowther97/Fig.3 
 Teff(B4V)  =  15750 K ; interp. (B3V-B5V) GrayCorbally09
 Teff(B4V)  =  15727 K ; U-B=-0.619 => Teff(Bessell98)
+Teff(B4V)  = 15488 K ; Simon-Diaz17 for B4V (N=1; HD 21278)
 Teff(B4V)  =  15421 K ; B-V=-0.166 => Teff(Napiwotzki93)
 Teff(B4V)  =  14787 K ; Flower96 Teff for B-V = -0.17 
 Teff(B4V)  =  14654 K ; non-standard HD 103079 (photometric Teff)
-=> adopt Teff(B4V) = 16700 K (logT = 4.223) 
+=> adopt Teff(B4V) = 16400 K (logT = 4.215) [updated 4/4/2020]
 
+Mv(B4V) =  -0.32 mag ; HIP_82254 B4V plx=4.257 mas, Vmag=6.799,E(B-V)=0.086
 Mv(B4V) = -0.54 mag ; Upper Sco main sequence (B-V=-0.166, rms=+-0.39 mag)
+Mv(B4V) =  -0.70 mag ; HIP_38942 B4V plx=2.488 mas, Vmag=7.462,E(B-V)=0.045
 Mv(B4V) =  -0.76 mag ; ONC main sequence (B-V=-0.166, rms=+-0.48 mag)
-Mv(B4V) = -1.0 mag ; interp B3V (Mv=-1.1) & B5V (Mv=-0.7
-Mv(B4V) =   -1.28 mag ; Wegner07 
+Mv(B4V) =  -0.84 mag ; HIP_40600 B4V plx=3.027 mas, Vmag=6.858,E(B-V)=0.032
+Mv(B4V) =  -0.98 mag ; HIP_34786 B4V plx=2.733 mas, Vmag=6.899,E(B-V)=0.019
+Mv(B4V) = -1.0 mag ; interp B3V (Mv=-1.1) & B5V (Mv=-0.7)
+Mv(B4V) - -1.12 mag ; median Mv for B4V calc using Kervella19 HIP & Gaia DR2
+Mv(B4V) =  -1.13 mag ; HIP_73494 B4V plx=2.608 mas, Vmag=7.094,E(B-V)=0.097
+Mv(B4V) =  -1.22 mag ; HIP_41640 B4V plx=2.762 mas, Vmag=6.674,E(B-V)=0.031
+Mv(B4V) =   -1.28 mag ; Wegner07
+Mv(B4V) =  -1.35 mag ; HIP_80405 B4V plx=3.443 mas, Vmag=7.067,E(B-V)=0.354
 Mv(B4V) =  -1.4  mag ; GrayCorbally09
 Mv(B4V) = -1.4  mag ; Schmidt-Kaler82(halfway B3V-B5V)
-=> adopt Mv(B4V) = -1.0 mag
+Mv(B4V) =  -1.52 mag ; HIP_34350 B4V plx=2.817 mas, Vmag=6.445,E(B-V)=0.069
+Mv(B4V) =  -1.62 mag ; HIP_118214 B4Vne plx=2.606 mas, Vmag=6.531,E(B-V)=0.075
+Mv(B4V) =  -2.37 mag ; HIP_51425 B4V plx=2.477 mas, Vmag=6.189,E(B-V)=0.169
+=> adopt Mv(B4V)   = -1.00  mag [adopted 4/4/2020]
+=> adopt M_Ks(B4V) = -0.553 mag = Mv - (V-Ks) = -1.0 - -0.447 [updated 12/30/2020]
 
-BCv(B4V) = -1.622 mag ; Code76(Teff=16700K)
-BCv(B4V) = -1.602 mag ; Flower96(Teff=16700K)
-BCv(B4V) = -1.57  mag ; Schmidt-Kaler82(BCv=-1.70+0.13 offset)
+BCv(B4V) = -1.589 mag ; Code76(Teff=16400K, set so BCv(5772K)=-0.085)
+BCv(B4V) =  -1.57  mag ; Schmidt-Kaler82(BCv=-1.70+0.13 offset)
+BCv(B4V) = -1.539 mag ; Flower96(Teff=16400K, set so BCv(5772K)=-0.085
 BCv(B4V) = -1.549 mag ; Nieva13(Teff=16700K)
-BCv(B4V) = -1.516 mag ; Bessell98(ATLAS9,logg=4.0,Teff=16700K)
-BCv(B4V) = -1.503 mag ; LanzHubeny07(Teff=16700K,logg=4.0,Z/Zsun=1)
-BCv(B4V) = -1.496 mag ; Balona94(Teff=16700K)
-BCv(B4V) = -1.449 mag ; Bertone04[ATLAS,Teff=16700K]
-=> adopt BCv(B4V) = -1.52 mag
+BCv(B4V) = -1.494 mag ; Bessell98(ATLAS9,logg=4.0,Teff=16400K, set so BCv(5772K)=-0.085
+BCv(B4V) = -1.455 mag ; LanzHubeny07(Teff=16400K,logg=4.0,Z/Zsun=1)
+BCv(B4V) = -1.427 mag ; Balona94(Teff=16400K, set so BCv(5772K)=-0.085
+BCv(B4V) = -1.383 mag ; Bertone04[ATLAS,Teff=16400K, set so BCv(5772K)=-0.085
+=> adopt BCv(B4V) = -1.49 [updated 4/4/2020, adjusted so that BCv(5772K)=-0.085]
 
-logL(B4V) = 2.91 dex ; Mv=-1.0, BCv=-1.52 mag => Mbol = -2.52 
-=> adopt logL(B4V) = 2.91 dex
-=> adopt Mbol(B4V) = -2.52 mag
+logL(B4V) = 2.892 dex ; Mv=-1.0, BCv=-1.49 mag => Mbol = -2.49
+logL(B4V) = 2.802 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=16400K)
+=> adopt logL(B4V) =  2.892 dex [updated 4/4/2020]
+=> adopt Mbol(B4V) = -2.490 mag [updated 4/4/2020]
 
+Mass(B4V) = 5.75+-0.64 Msun ; Hohle10
 Mass(B4V) = 5.314+-0.060 Msun ; Eclipsing binary V539 Ara B (Torres10)
+Mass(B4V) = 5.24 Msun ; Bertelli09 solar tracks Teff=16700K,logL=2.896
 Mass(B4V) = 5.12 Msun ; Harmanec88
 Mass(B4V) = 5.10 Msun ; EEM Teff vs. Mass fit for binaries (Teff=16700K)
-Mass(B4V) = 5.03 Msun ; Ekers15 ML calibration for logL=2.90
+Mass(B4V) = 5.10 Msun ; EEM logL vs. Mass fit for binaries (logL=2.896)
+Mass(B4V) = 5.09 Msun ; Ekers18 ML calibration for logL=2.896
+Mass(B4V) = 5.09 Msun ; MIST/Choi16 solar tracks logT=4.215,logL=2.892
 Mass(B4V) = 4.969+-0.090 Msun ; Eclipsing binary V760 Sco A (Torres10)
-Mass(B4V) = 4.83 Msun ; EEM logL vs. Mass fit for binaries (logL=2.81)
+Mass(B4V) = 4.94 Msun ; David15 B4 MS (rms=0.59 Msun; N=4)
 Mass(B4V) = 4.609+-0.073 Msun ; Eclipsing binary V760 Sco B (Torres10)
-Mass(B4V) = 4.47 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-0.8)
-=> adopt Mass(B4V) = 5.0 Msun
+Mass(B4V) = 4.47 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-1.0)
+=> adopt Mass(B4V) = 5.1 Msun [updated 4/16/2022]
+
+Rad(B4V) = 3.459 Rsun ; Teff=16400K, logL=2.892
+=> adopt Rad(B4V) = 3.459 Rsun [updated 4/4/2020]
 
 # Deprecated Standard
 
 90 Leo = HD 100600
- *B4V: Lesh68(stan, in Jaschek78)
   B3: Cannon
   B3V: Ahmed52
+ *B4V: Lesh68(stan, in Jaschek78)
   B5V: Johnson50
   B6.6(IV): Kopylov58
 
@@ -129,14 +176,15 @@ HD 103079 = HR 4549
   B4IV: deVaucoleurs57
   B5: Cannon
 
-  Jaschek64 lists 2 B4IV and 1 B5V.  Pretty good agreement on B4V
-  type.  1.5" binary. Johnson66 lists B-V=-0.11, U-B=-0.53. Neckel
-  lists Av=0.24. Updated Q-method (10/9/2011) => (B-V)o = -0.150,
+  Jaschek64 lists 2 B4IV and 1 B5V.  Pretty good agreement on B4 type
+  by three expert classifiers (deVaucoloeurs, Hiltner, Houk).  1.5"
+  binary. Johnson66 lists B-V=-0.11, U-B=-0.53. Neckel lists
+  Av=0.24. Updated Q-method (10/9/2011) => (B-V)o = -0.150,
   E(B-V)=0.040, Av=0.143, (U-B)o = -0.558. Closest B4V star among
   stars in Skiff compendium with muliple (and majority) B4V
   classifications. Teffs: 14654K(U-Bo=>Bessell98).
 
-p Car = HD 91465 = HR 4140
+HD 91465 = HR 4140 = p Car
   B4Ve: Slettebak82
   B4Vne: Hiltner69,Garrison96
   B5Vnep: Jaschek65
@@ -144,11 +192,20 @@ p Car = HD 91465 = HR 4140
   Jaschek78 is a mess with 6 different types between B3V and B5III. Not
   standard material.
 
-Although Garrison77 does not list a B4V standard, they classify 5
-stars as B4V (or variant). The brightest are HD 72436 (V=6.5; B4V) and
-HD 153294 (V=8.3; B4V).
+HD 72436 = HR 3373 (J0831-3903)
+  B4V: Hiltner69(B4Vp:),Garrison77,Corbally84(B4Vn) 
+  B5V: Feast55(B5Vn),Houk82
+
+  Decent agreement on B4V type by three expert classifiers: Hiltner,
+  Garrison, Corbally.  Companion B is 4.4" away (B7V; Corbally84), and
+  C is 30" (F0:V:) Corbally84.
 
 # Stars with majority of classifications being B4V
+
+  Although Garrison77 does not list a B4V standard, they classify 5
+  stars as B4V (or variant). The brightest are HD 72436 (V=6.5; B4V) and
+  HD 153294 (V=8.3; B4V).
+
 
 HD 19736 = HR 950
 HD 48383 = HR 2475
@@ -163,4 +220,5 @@ HD 161573 = IC 4665 62 ; Gray02,Abt67,Abt64
 
 None of these stars is within 100 pc. The closest is HD 103079
 (plx=9.0+-0.5 mas; see above).
+
 

@@ -8,7 +8,17 @@ GarrisonGray94 standard: HR 7211 (=HD 177074) - A0IV [low vsini standard]
 			 HR 8451 (=HD 210419) - A0IVnn [high vsini standard]
 GrayNstars standard:     HR 7211 - A0IV
 
-(B-V)(A0IV) = -0.026 ; pri. stan. HD 177074 (see below) 
+(B-V)(A0IV) =  0.004(+-0.025 sem,+-0.063 68%CL) ; SIMBAD median A0IV* d<100pc V<6.5(N=9)
+(B-V)(A0IV) = -0.006 ; pri. stan. HD 210419
+(B-V)(A0IV) = -0.012 ; HIP_60965  A0IV(n)_kB9 (Gray) 
+(B-V)(A0IV) = -0.026 ; pri. stan. HD 177074 (see below)
+=> adopt (B-V)(A0IV) = -0.01 [updated 2/3/2022]
+
+Mv(A0IV) =  0.81 ; HIP_60965   A0IV(n)_kB9 (Gray)
+Mv(A0IV) =  0.70 ; SIMBAD median A0IV* d<100pc V<6.5(N=9)
+Mv(A0IV) =  0.43 ; pri. stan. HD 210419
+Mv(A0IV) =  0.3  ; GrayCorbally09 
+Mv(A0IV) = -0.35 ; pri. stan. HD 177074
 
 # No standards
 
@@ -27,7 +37,7 @@ HD 177074 = HR 7211 = HIP 93667 (J1904-3102,V=5.5)
   (c1)0=1.154, (m1)0 = 0.136, Hbeta = 2.857, [c1] = 1.155, [m1] =
   0.135, [u-b] = 1.424, E(b-y) = 0.040. Adopting E(B-V)/E(b-y) = 1.299
   from Taylor08, then Philips E(b-y) value translates to E(B-V) =
-  0.052, hence (B-V)o = 0.026 - 0.052 = -0.026.
+  0.052, hence (B-V)o = 0.026 - 0.052 = -0.026. Mv=-0.35. 
 
 HD 210419 = HR 8451 (J2210-0353)
  *A0IVnn: GrayGarrison87(high-vsini stan.),GarrisonGray94
@@ -35,7 +45,9 @@ HD 210419 = HR 8451 (J2210-0353)
   A0Vn: Abt95
   A1Vnn: Cowley69
 
-  Houk99 note: "HR 8451; vSINi=370"
+  Houk99 note: "HR 8451; vSINi=370". Mv=0.43. plx=6.75+-0.45mas, so
+  reddening likely not negligible (although at
+  b=-45deg). B-V=-0.006+-0.004.
 
 # Weak Standard
 
@@ -55,10 +67,11 @@ HD 47105 = HR 2421 = gam Gem (J0638+1624)
 # COMMENTS ON COLORS OF A SUBGIANTS
 
 I found 43 stars classified as A subgiants (IV) in the Hipparcos
-catalog with distances < 75 pc and parallax S/N > 8. Slash types
-and dashed luminosity classes were not included. When the colors
-of subgiants were compared to average dwarf colors for the same
-temperature subtype, I find an average excess of:
+catalog with distances < 75 pc and parallax S/N > 8 (probably mostly
+Houk classiciations). Slash types and dashed luminosity classes were
+not included. When the colors of subgiants were compared to average
+dwarf colors for the same temperature subtype, I find an average
+excess of:
 
 <(B-V)AIV> - <(B-V)AV> = 0.027 +- 0.008 (stdev = 0.048 mag; N=43). 
 
@@ -76,11 +89,7 @@ Trends for individual subtypes:
 <(B-V)A8IV> - <(B-V)A8V> =  0.014+-0.025 (stdev = 0.035 mag; N=4)
 <(B-V)A9IV> - <(B-V)A9V> =  0.034+-0.007 (stdev = 0.021 mag; N=6)
 
-
-
-
-
-
+(B-V)_IV = (B-V)_V + 0.021 + 8.833e-4*SpT[A-subtype]   (rms = +-0.015 mag)
 
 #B-V   SpT (B-V)_V (B-V)-(B-V)_V
 0.010  A1  0.043  -0.033

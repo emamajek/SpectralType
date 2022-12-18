@@ -31,6 +31,7 @@ Garrison79 standard:   HD 145792 - B5V
 		       rho Oph C - B5V
 		       rho Oph D - B5V
 Keenan85 standard:     HD 36936 - B5V
+WiegertGarrison98 st.: kap Hya - B5V
 GrayAtlas standard:    HD 36936 - B5V
 		       HD 21278 (= HR 1034) - B5V
 GrayNstars standard:   HD 36936 - B5V
@@ -49,7 +50,7 @@ B-V(B5V)  = -0.156 ; EEM dereddened 97 HIP B5V stars (Q-method, E(B-V)<0.1)
 B-V(B5V)  =  -0.16  ; JohnsonMorgan53, Morgan53, Johnson63, Johnson66
 B-V(B5V)  =  -0.16  ; Fitzgerald70, Morgan71
 B-V(B5V)  =  -0.17  ; SchmidtKaler82
-=> adopt (B-V)(B5V)  = -0.156 ** (excellent agreement)
+=> adopt (B-V)(B5V)  = -0.156 ** [updated 9/26/2019]
 
 The bluest B5V star that I can find is HIP 39906 (B-V =
 -0.160+-0.004), so <(B-V)o> is probably near this value.
@@ -58,91 +59,133 @@ U-B(B5V)  = -0.551 ; sec. stan. kap Hya (EEM dereddened via Q-method)
 U-B(B5V)  =  -0.56  ; Johnson63, Johnson66
 U-B(B5V)  = -0.564 ; sec. stan. HD 36936 (EEM dereddened via Q-method) 
 U-B(B5V)  = -0.581 ; pri. stan. rho Aur (EEM dereddened via Q-method)
-U-B(B5V)  = -0.581 ; sec. stan. nu And (EEM dereddened via Q-method)
+U-B(B5V)  = -0.581 ; ter. stan. nu And (EEM dereddened via Q-method)
 U-B(B5V)  =  -0.58  ; Bessell98, Fitzgerald70, Schmidt-Kaler82
 U-B(B5V)  = -0.578 ; EEM dereddened N=97 HIP B5V stars (Q-method, E(B-V)<0.1)
-=> adopt (U-B)(B5V)  = -0.581 (excellent agreement)
+=> adopt (U-B)(B5V)  = -0.581 [updated 9/26/2019]
 => adopt     Q(B5V)  = -0.469 (=(U-B)-0.72*(B-V) = -0.581 - 0.72*-0.156)
 => adopt (V-I)(B5V)  = -0.165
 => adopt (V-R)(B5V)  = -0.070
 => adopt (R-I)(B5V)  = -0.095
-=> adopt (V-J)(B5V)  = -0.315
-=> adopt (V-H)(B5V)  = -0.404
-=> adopt (V-Ks)(B5V) = -0.417
-=> adopt (H-Ks)(B5V) = -0.013
-=> adopt (J-H)(B5V)  = -0.089
-=> adopt (K-W1)(B5V) =  0.036
 
-Teff(B5V) =   15994 K ; B-V=-0.156 => Teff(Bessell98,logg=4.3)
-Teff(B5V) = 15805 K ; pri. stan. rho Aur (median Teff)
+(V-Ks)(B5V) =  -0.229 ; HIP_25025_ B5V d= 198.177pc, (B-V)=0.021 (dereddened from Kervella19)
+(V-Ks)(B5V) =  -0.267 ; HIP_37915_ B5V d= 198.255pc, (B-V)=0.008 (dereddened from Kervella19)
+(V-Ks)(B5V) = -0.292 ; sec. stan. HD 36936 = Paranago 1664
+(V-Ks)(B5V) =  -0.359 ; HIP_2912_ B5V d= 175.531pc, (B-V)=0.024 (dereddened from Kervella19)
+(V-Ks)(B5V) = -0.374 ; sec. stan. kap Hya = HD 83754 (see below)
+(V-Ks)(B5V) =  -0.377 ; HIP_37623_ B5V d= 193.949pc, (B-V)=0.007 (dereddened from Kervella19)
+(V-Ks)(B5V) = -0.379 ; ter. stan. nu And = HD 4727 (see below)
+(V-Ks)(B5V) = -0.382 ; pri. stan. rho Aur = HD 34759 (see below)
+(V-Ks)(B5V) =  -0.389 ; HIP_42459_ B5V d= 159.134pc, (B-V)=0.006 (dereddened from Kervella19)
+(V-Ks)(B5V) =  -0.395 ; HIP_103089_ B5V d= 171.262pc, (B-V)=0.020 (dereddened from Kervella19)
+(V-Ks)(B5V) =  -0.395 ; HIP_27810_ B5V d= 105.474pc, (B-V)=0.001 (dereddened from Kervella19)
+(V-Ks)(B5V) =  -0.396 ; HIP_39906_ B5V d= 138.141pc, (B-V)=0.004 (dereddened from Kervella19)
+(V-Ks)(B5V) =  -0.411 ; HIP_85385_ B5V d= 185.322pc, (B-V)=0.027 (dereddened from Kervella19)
+(V-Ks)(B5V) =  -0.411 ; HIP_76945_ B5V d= 128.337pc, (B-V)=0.011 (dereddened from Kervella19)
+(V-Ks)(B5V) = -0.417 ; from intrinsic color sequence for (U-B)o=-0.581
+(V-Ks)(B5V) = -0.427 ; HIP_3881_ [standard] B5V d= 171.644pc, (B-V)=0.017 (dereddened from Kervella19)
+(V-Ks)(B5V) =  -0.448 ; HIP_75647_ B5V d= 141.503pc, (B-V)=0.014 (dereddened from Kervella19)
+=> adopt (V-Ks)(B5V) = -0.38  [updated 4/8/2022]
+=> adopt (V-J)(B5V)  = -0.287 [updated 4/8/2022]
+=> adopt (V-H)(B5V)  = -0.370 [updated 4/8/2022]
+=> adopt (H-Ks)(B5V) = -0.010 [updated 4/8/2022]
+=> adopt (J-H)(B5V)  = -0.084 [updated 4/8/2022]
+
+(Ks-W1)(B5V) = 0.029 ; EEM trend for d<30pc for B-V=-0.156
+=> adopt (Ks-W1)(B5V) = 0.029 [updated 12/29/2019]
+
+(Bp-Rp)(B5V) = -0.231 ; Evans18 trend for V-I=-0.165
+
+(g-r)(B5V) = -0.413 ; Covey07 interp B3V -0.46 to B5/7 -0.39
+
+(G-V)(B5V) =  0.007 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.492
+=> adopt (G-V)(B5V) = 0.007 [updated 4/8/2022]
+
+Teff(B5V) = 15994 K ; B-V=-0.156 => Teff(Bessell98,logg=4.3)
 Teff(B5V) = 15780 K ; median Teff for 200 B5V stars (EEM)
-Teff(B5V) =  15771 K ; ter. stan. HD 4142 (median Teff)
-Teff(B5V) =  15606 K ; ter. stan. nu And (median Teff)
+Teff(B5V) = 15771 K ; ter. stan. HD 4142 (median Teff)
+Teff(B5V) = 15750 K ; pri. stan. rho Aur (median Teff)
+Teff(B5V) = 15606 K ; ter. stan. nu And (median Teff)
 Teff(B5V) =  15600 K ; Chavez95 (+100-200K)
-Teff(B5V) =   15400 K ; Schmidt-Kaler82
-Teff(B5V) =   15400 K ; Bohm-Vitense81
-Teff(B5V) =   15346 K ; Bessell98
-Teff(B5V) =  15341 K ; ter. stan. HD 21278 (single Teff based on U-B)
-Teff(B5V) =   15310 K ; Theodossiou90
-Teff(B5V) =   15042 K ; U-B=-0.581 => Teff(Bessell98)
-Teff(B5V) =   15000 K ; Crowther97/Fig.3 
-Teff(B5V) =   15000 K ; GrayCorbally09
-Teff(B5V) =  14791 K ; ter. stan. psi^2 Aql (median Teff)
-Teff(B5V) =  14753 K ; sec. stan. HD 36936 (single Teff based on U-B)
-Teff(B5V) =   14744 K ; B-V=-0.156 => Teff(Napiwotzki93)
-Teff(B5V) =  14541 K ; sec. stan. kap Hya (single Teff based on U-B)
-Teff(B5V) =   14203 K ; Flower96 Teff for B-V=-0.16
-Teff(B5V) =   14200 K ; Blackwell80
-Teff(B5V) =  14105 K ; ter. stan. HD 14372 (single Teff based on U-B)
-Teff(B5V) =   14000 K ; GrayCorbally94
-=> adopt Teff(B5V) = 15700 K (logT = 4.196)
+Teff(B5V) =  15400 K ; Schmidt-Kaler82
+Teff(B5V) =  15400 K ; Bohm-Vitense81
+Teff(B5V) = 15346 K ; Bessell98
+Teff(B5V) = 15341 K ; ter. stan. HD 21278 (single Teff based on U-B)
+Teff(B5V) =  15310 K ; Theodossiou90
+Teff(B5V) = 15042 K ; U-B=-0.581 => Teff(Bessell98)
+Teff(B5V) =  15000 K ; Crowther97/Fig.3 
+Teff(B5V) =  15000 K ; GrayCorbally09
+Teff(B5V) = 14791 K ; ter. stan. psi^2 Aqr (median Teff)
+Teff(B5V) = 14791 K ; Simon-Diaz17 for B5V (N=9)
+Teff(B5V) = 14753 K ; sec. stan. HD 36936 (single Teff based on U-B)
+Teff(B5V) =  14744 K ; B-V=-0.156 => Teff(Napiwotzki93)
+Teff(B5V) = 14541 K ; sec. stan. kap Hya (single Teff based on U-B)
+Teff(B5V) =  14203 K ; Flower96 Teff for B-V=-0.16
+Teff(B5V) =  14200 K ; Blackwell80
+Teff(B5V) = 14105 K ; ter. stan. HD 14372 (single Teff based on U-B)
+Teff(B5V) =  14000 K ; GrayCorbally94
+=> adopt Teff(B5V) = 15700 K (logT = 4.196) [last updated 9/16/2019]
 
-[EEM 1/3/2013: I've obviously given more weight to the median Teffs
-for all B5Vs I could find in the literature and for the primary
-standard rho Aur, although several secondary and tertiary standards
-appear to be ~14000-15000K - although those are mostly based on my
-calculation of a Teff based on the (U-B)o color and the color-Teff
-scale by Bessell98.]
+[EEM 9/16/2019: put significant weight on pri. stan. rho Aur, which has typical colors;
+although the sec and ter standards seem somewhat cooler]
 
+Mv(B5V) = +0.54 mag ; HIP_25025 B5V plx=5.046 mas, Vmag=7.094,E(B-V)=0.021
+Mv(B5V) = -0.32 mag ; HIP_49835 B5Vnn plx=3.849 mas, Vmag=7.088,E(B-V)=0.107
 Mv(B5V) = -0.33 mag ; Upper Sco main sequence (B-V=-0.156, rms=+-0.39 mag)
-Mv(B5V) =  -0.58 mag ; sec. stan. kap Hya (see below)
-Mv(B5V) =   -0.58 mag ; ONC main sequence (B-V=-0.156, rms=+-0.48 mag)
-Mv(B5V) =    -0.6  mag ; HD 219688 (Jaschek98)
-Mv(B5V) =     -0.86 mag ; pri. stan. rho Aur (see below)
-Mv(B5V) =    -1.1  mag ; GrayCorbally09
-Mv(B5V) =   -1.2  mag ; Schmidt-Kaler82
-Mv(B5V) =  -1.21 mag ; Wegner07
-Mv(B5V) = -1.88 mag ; sec. stan. nu And (see below, SB)
-=> adopt Mv(B5V) = -0.9 mag 
+Mv(B5V) = -0.36 mag ; HIP_14566 B5V plx=5.409 mas, Vmag=6.321,E(B-V)=0.113
+Mv(B5V) = -0.43 mag ; HIP_37765 B5V plx=3.903 mas, Vmag=6.736,E(B-V)=0.040
+Mv(B5V) = -0.48 mag ; HIP_35893 B5V plx=4.466 mas, Vmag=6.288,E(B-V)=0.007
+Mv(B5V) = -0.48 mag ; HIP_73500 B5V plx=4.077 mas, Vmag=6.700,E(B-V)=0.076
+Mv(B5V) = -0.58 mag ; sec. stan. kap Hya (see below)
+Mv(B5V) = -0.58 mag ; ONC main sequence (B-V=-0.156, rms=+-0.48 mag)
+Mv(B5V) = -0.59 mag ; HIP_95400 B5V plx=4.276 mas, Vmag=6.516,E(B-V)=0.084
+Mv(B5V) = -0.6  mag ; HD 219688 (Jaschek98)
+Mv(B5V) = -0.75 mag ; HIP_78540 B5V plx=4.700 mas, Vmag=6.385,E(B-V)=0.160
+Mv(B5V) = -0.86 mag ; pri. stan. rho Aur (see below)
+Mv(B5V) = -0.87 mag ; median Mv for B5V calc using Kervella19 HIP & Gaia DR2
+Mv(B5V) = -1.1  mag ; GrayCorbally09
+Mv(B5V) = -1.2  mag ; Schmidt-Kaler82
+Mv(B5V) = -1.21 mag ; Wegner07
+Mv(B5V) = -1.22 mag ; HIP_55350 B5V plx=4.037 mas, Vmag=6.410,E(B-V)=0.212
+Mv(B5V) = -1.27 mag ; HIP_37823 B5V plx=3.654 mas, Vmag=6.007,E(B-V)=0.029
+Mv(B5V) = -1.88 mag ; sec. stan. nu And (see below, SB, so an unresolved binary)
+=> adopt Mv(B5V)   = -0.85  mag [updated 12/27/2020]
+=> adopt M_Ks(B5V) = -0.433 mag = Mv - (V-Ks) = -0.85 - -0.417 [updated 12/30/2020]
 
-BCv(B5V) = -1.470 mag ; Code76(Teff=15700K)
-BCv(B5V) = -1.458 mag ; Flower96(Teff=15700K)
-BCv(B5V) = -1.33  mag ; Schmidt-Kaler82(BCv=-1.46 + 0.13 offset)
+BCv(B5V) = -1.480 mag ; Code76(Teff=15700K, set so BCv(5772K)=-0.085)
+BCv(B5V) = -1.436 mag ; Flower96(Teff=15700K, set so BCv(5772K)=-0.085)
+BCv(B5V) =  -1.33  mag ; Schmidt-Kaler82(BCv=-1.46 + 0.13 offset)
 BCv(B5V) = -1.340 mag ; LanzHubeny07(Teff=15700K,logg=4.0,Z/Zsun=1)
-BCv(B5V) = -1.360 mag ; Bessell98(ATLAS9,logg=4.0,Teff=15700K)
-BCv(B5V) = -1.335 mag ; Balona94(Teff=15700K)
-BCv(B5V) = -1.299 mag ; Bertone04(ATLAS,Teff=15700K)
-=> adopt BCv(B5V) = -1.35 mag
+BCv(B5V) = -1.338 mag ; Bessell98(ATLAS9,logg=4.0,Teff=15700K, set so BCv(5772K)=-0.085)
+BCv(B5V) = -1.313 mag ; Balona94(Teff=15700K, set so BCv(5772K)=-0.085)
+BCv(B5V) = -1.277 mag ; Bertone04(ATLAS,Teff=15700K, set so BCv(5772K)=-0.085)
+=> adopt BCv(B5V) = -1.34 [updated 9/16/2019, adjusted so that BCv(5772K)=-0.085]
 
-logL(B5V) = 2.80 dex ; Mv = -0.9, BCv=-1.35 => Mbol = -2.25
-=> adopt logL(B5V) = 2.80 dex
-=> adopt Mbol(B5V) = -2.25 mag
+logL(B5V) = 2.772 dex ; Mv = -0.85, BCv=-1.34 => Mbol = -2.190
+logL(B5V) = 2.697 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=15700K)
+=> adopt logL(B5V) =  2.772 dex [updated 12/27/2020]
+=> adopt Mbol(B5V) = -2.190 mag [updated 12/27/2020]
 
-Mass(B5V) = 4.30 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-0.7)
-Mass(B5V) = 4.36 Msun ; Harmanec88
+Mass(B5V) = 3.94 Msun ; David15 B5 MS (rms=0.49 Msun; N=5)
+Mass(B5V) =  4.36 Msun ; Harmanec88
 Mass(B5V) = 4.524+-0.066 Msun ; Eclipsing binary DI Her B (Torres10)
-Mass(B5V) = 4.53 Msun ; EEM logL vs. Mass fit for binaries (logL=2.71)
 Mass(B5V) = 4.575+-0.088 Msun ; Eclipsing binary MU Cas B (Torres10)
+Mass(B5V) = 4.64 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-0.9)
 Mass(B5V) = 4.65 Msun ; EEM Teff vs. Mass fit for binaries (Teff=15700K)
 Mass(B5V) = 4.657+-0.095 Msun ; Eclipsing binary MU Cas A (Torres10)
-Mass(B5V) = 4.72 Msun ; Ekers15 ML calibration for logL=2.79
+Mass(B5V) = 4.78 Msun ; EEM logL vs. Mass fit for binaries (logL=2.792)
+Mass(B5V) = 4.79 Msun ; Ekers18 ML calibration for logL=2.792
+Mass(B5V) = 4.83 Msun ; Bertelli09 solar tracks Teff=15700K,logL=2.792
 Mass(B5V) = 5.17+-0.11 Msun ; Eclipsing binary DI Her A (Torres10)
 Mass(B5V) = 5.273+-0.091 Msun ; Eclipsing binary U Oph A (Torres10)
-=> adopt Mass(B5V) = 4.6 Msun
+=> adopt Mass(B5V) = 4.7 Msun [updated 1/2/2020]
+
+Rad(B5V) = 3.287 Rsun ; Teff=15700K, logL=2.772
+=> adopt Rad(B5V) = 3.287 Rsun [updated 12/27/2020]
 
 # Primary Standard
 
-rho Aur = HD 34759 = HR 1749
+rho Aur = HD 34759 = HR 1749 = HIP 25048
  *B5V: JM53(stan),Hiltner69(stan),MK73(dagger stan.),Jaschek64(all but one),Jaschek78(Lesh68(stan)) 
   B5IV: Miczaika51
   B3: Cannon
@@ -152,17 +195,20 @@ rho Aur = HD 34759 = HR 1749
   standard after 1973. Mermilliod91: V=5.218+-0.004,
   B-V=-0.149+-0.009, U-B=-0.577+-0.008 => updated Q-method
   (10/10/2011) => (B-V)o=-0.156, (U-B)o=-0.581, E(B-V)=0.007,
-  Av=0.024. VanLeeuwen07 plx = 6.16 +- 0.36 mas => 162+-10 pc. Mv =
-  -0.86 +- 0.13 mag.  Teffs:
-  15042K(EEM,U-Bo=>Bessell98),15311K(EEM,Hauck97 phot. => Napiwotski93
-  calibration), 15750K(Philip80), 15859K(EEM,Hauck97 phot. =>
-  BalonaShobbrook84 beta calibration), 15910K(EEM,Hauck97 phot. =>
-  Balona94 calibration), 15995K(EEM,B-Vo=>Bessell98) => median Teff =
-  15805K.
+  Av=0.024. E(B-V)=0.033(Kervella19,STILISM), but adopting the
+  Q-method value of E(B-V)=0.007. 2MASS: J=5.437+-0.019(2MASS),
+  H=5.531+-0.018(2MASS), Ks=5.581+-0.016(2MASS). V-Ks = (5.218 -
+  3.1*0.007) - (5.581 - 0.382*0.007) = -0.382. VanLeeuwen07 plx = 6.16
+  +- 0.36 mas => 162+-10 pc. Mv = -0.86 +- 0.13 mag.  Teffs:
+  14454K(Simon-Diaz17), 15042K(EEM,U-Bo=>Bessell98),
+  15311K(EEM,Hauck97 phot. => Napiwotski93 calibration),
+  15750K(Philip80), 15859K(EEM,Hauck97 phot. => BalonaShobbrook84 beta
+  calibration), 15910K(EEM,Hauck97 phot. => Balona94 calibration),
+  15995K(EEM,B-Vo=>Bessell98) => median Teff = 15750K.
 
 # Secondary Standards
 
-kap Hya = HD 83754 = HR 3849
+kap Hya = HD 83754 = HR 3849 = HIP 47452
  *B5V: MK43,JM53(stan),Houk(stan),Jaschek64(all but one),Garrison77(stan),Jaschek78(Morgan53),Garcia89,Buscombe65(B5Vn)
   B3/5IV/V: Houk88
   B3: Cannon
@@ -173,9 +219,10 @@ kap Hya = HD 83754 = HR 3849
   original MK43. Mermilliod91: V=5.053+-0.010, B-V=-0.149+-0.018,
   U-B=-0.551+-0.015 => updated Q-method (10/10/2011) => consistent
   with negligible reddening (E(B-V)=-0.001) => (B-V)o=-0.149,
-  (U-B)o=-0.551, E(B-V)=0.000, Av=0.000. VanLeeuwen plx = 7.48+-0.30
-  mas => 134+-5 pc. Mv = -0.58+-0.09 mag. Teffs:
-  14541K(U-Bo=>Bessell98).
+  (U-B)o=-0.551, E(B-V)=0.000, Av=0.000. 2MASS: J=5.355+-0.026(2MASS),
+  H=5.418+-0.051(2MASS), Ks=5.427+-0.018(2MASS).  V-Ks = 5.053 - 5.427
+  = -0.374. VanLeeuwen plx = 7.48+-0.30 mas => 134+-5 pc. Mv =
+  -0.58+-0.09 mag. Teffs: 14541K(U-Bo=>Bessell98).
 
 HD 36936 = Paranago 1664
  *B5V: Abt68,MK78,Abt77,Jaschek78(Schild71),Keenan85,Garcia89,GrayAtlas
@@ -185,31 +232,39 @@ HD 36936 = Paranago 1664
   B8: Cannon
 
   Walker69: V=7.590, B-V=-0.130, U-B=-0.550 => Updated Q-method
-  (10/10/2011) => (B-V)=-0.152, (U-B)o=-0.564, E(B-V)=0.022, Av=0.072.
-  Teffs: 14753K(U-Bo=>Bessell98).
+  (4/8/2022) => (B-V)=-0.152, (U-B)o=-0.564, E(B-V)=0.022, Av=0.072.
+  E(B-V)=0.1913+-0.0142(TIC/Stassun19), seems ways too high given
+  colors.  E(B-V)=0.10(Heiles00).  Teffs: 14753K(U-Bo=>Bessell98).
+  2MASS: J=7.775+-0.024(2MASS), H=7.857+-0.044(2MASS),
+  Ks=7.822+-0.023(2MASS).  (V-Ks)o = (7.590 - 3.1*0.022) - (7.822 -
+  0.382*0.022) = -0.292.
 
 # Tertiary Standards
 
-nu And = HD 4727 = HR 226 = BD+40_171
+nu And = HD 4727 = HR 226 = BD+40_171 = HIP 3881
  *B5V: JM53(stan),Jaschek64(all),Lesh68(stan),Cowley72(stan),Jaschek78(JM53),Kennedy83,Garcia89,Hoffleit91
+  B5V+F8V: Pourbaix04(SB9)
   B4V: Zorec09
   B3: Cannon
 
   Spectroscopic binary - F8 companion.  M91: V=4.530+-0.010,
   B-V=-0.149+-0.007, U-B=-0.577+-0.005 => Updated Q-method
   (10/10/2011) => (B-V)o=-0.156, (U-B)o=-0.581, E(B-V)=0.007,
-  Av=0.024. Hauck97 ubvy and Castelli91 dereddening, I get (b-y)o =
-  -0.109, e(b-y)=0.037. logN_HI = 19.61 (Hobbs78), using Mathis &
-  Savage 1979 H_HI/E(B-V) relation, this suggests E(B-V) = 0.008, in
-  good agreement with the revised Q-method estimate (E(B-V) = 0.007
-  mag). VanLeeuwen07 plx = 5.28+-0.15 mas => D= 189+-5 pc. Mv =
+  Av=0.024. E(B-V)=0.014(Kervella19,STILISM). Hauck97 ubvy and
+  Castelli91 dereddening, I get (b-y)o = -0.109, e(b-y)=0.037. logN_HI
+  = 19.61 (Hobbs78), using Mathis & Savage 1979 H_HI/E(B-V) relation,
+  this suggests E(B-V) = 0.008, in good agreement with the revised
+  Q-method estimate (E(B-V) = 0.007 mag). 2MASS:
+  H=4.892+-0.029(2MASS), Ks=4.890+-0.020(2MASS). (V-Ks)o =
+  (V-Av)-(Ks-A_Ks) = (4.530 - 3.1*0.007) - (4.890 - 0.382*0.007) =
+  -0.379.  VanLeeuwen07 plx = 5.28+-0.15 mas => D= 189+-5 pc. Mv =
   -1.88+-0.06 mag.  Teffs: 15042K(U-Bo=>Bessell98), 15207K(Hauck97
   phot.=>Napiwotzski93 calibration), 15492K(Hauck97
   phot.=>BalonaShobbrook84 beta calibration), 15606K(Hauck97
   phot.=>Balona94 calibration), 15750K(Philip80), 16290K(Zorec09#2),
   16460K(Zorec09#1) => median Teff = 15606K.
 
-HD 219688 = psi^2 Aql = HR 8858 
+HD 219688 = psi02 Aqr = HR 8858 = HIP 115033
  *B5V: JM53,Houk,Garcia89
   B5Vn: Jaschek78(Lesh68),Buscombe69
   B5: Cannon
@@ -221,9 +276,10 @@ HD 219688 = psi^2 Aql = HR 8858
   => updated Q-method (11/26/2012) => (B-V)o=-0.150, (U-B)o=-0.551,
   E(B-V)=0.000, Av=0.00. Teffs: 14541K(U-Bo=>Bessell98),
   14791+-100K(Huang10), 15260+-850K(Zorec09) => median Teff = 14791K.
-  logg=3.688+-0.015(Huang10).
+  logg=3.688+-0.015(Huang10). Note: mistakenly labeled "psi^2 Aql" for
+  a long time in this file! Fixed 12/26/2021.  
 
-HD 14372 = HR 679
+HD 14372 = HR 679 = HIP 10924
  *B5V: JM53(stan),Jaschek78(Lesh68),Guetter68,Garcia89
   B5: Cannon
 
@@ -231,7 +287,7 @@ HD 14372 = HR 679
   (11/25/2012) => (B-V)o=-0.142, (U-B)o=-0.523, E(B-V)=0.062,
   Av=0.202. Teffs: 14105K(U-Bo=>Bessell98).
 
-HD 4142 = HR 189
+HD 4142 = HR 189 = HIP 3478
  *B5V: Mikzaika51,JM53,Jaschek64(all),Jaschek78(Roman55),Garcia89,Hoffleit91
   B4V: Lesh68,Crawford71
   B3: Cannon
@@ -242,7 +298,7 @@ HD 4142 = HR 189
   E(B-V)=0.035, Av=0.115. Teffs: 15111K(U-Bo=>Bessell98),
   16430+-940K(Zorec09) => median Teff = 15771K.
 
-HD 21278 = HR 1034 = Cl Melotte 20 774 (Alpha Per cluster)
+HD 21278 = HR 1034 = Cl Melotte 20 774 = HIP 16147 (Alpha Per cluster)
  *B5V: Jaschek64(all),Morgan71,Abt78,GrayAtlas(stan)
   B5: Cannon
   B4V: Lesh68

@@ -5,22 +5,23 @@ and 42 Ori as B1V dagger standards.
 
 HD 144470 = Ome^1 Sco appears to be the best B1V standard. 
 
-MK43 standard:         eta Ori - B1V
-JM53 standard:         ome^1 Sco, HD 7252, HD 24131 - B1V
-Garrison67 standard:   Cl* NGC 2244 JOHN 9 - B1Vn [from Morgan65 NGC 2244 MS.]
-		       Cl* NGC 2244 JOHN 11 - B1V [from Morgan65 NGC 2244 MS.]
-Lesh68 standard:       ome^1 Sco - B1V
-Hiltner69 standard:    ome^1 Sco - B1V
-Walborn71 standard:    ome^1 Sco - B1V
-MK73 dagger standards: ome Sco & 42 Ori - B1V
-Houk75 standard:       ome^1 Sco - B1V (primary standard)
-Garrison77 standard:   ome^1 Sco - B1V
-MK78 standard:         ome^1 Sco - B1V
-Garrison79 standard:   ome^1 Sco - B1V
-Keenan85 standard:     ome^1 Sco - B1V
-Walborn90 standard:    ome^1 Sco - B1V
-GrayAtlas standard:    ome^1 Sco - B1V
-GrayNstars standards:  ome^1 Sco & 42 Ori - B1V
+MK43 standard:          eta Ori - B1V
+JM53 standard:          ome^1 Sco, HD 7252, HD 24131 - B1V
+Garrison67 standard:    Cl* NGC 2244 JOHN 9 - B1Vn [from Morgan65 NGC 2244 MS.]
+		        Cl* NGC 2244 JOHN 11 - B1V [from Morgan65 NGC 2244 MS.]
+Lesh68 standard:        ome^1 Sco - B1V
+Hiltner69 standard:     ome^1 Sco - B1V
+Walborn71 standard:     ome^1 Sco - B1V
+MK73 dagger standards:  ome Sco & 42 Ori - B1V
+Houk75 standard:        ome^1 Sco - B1V (primary standard)
+Garrison77 standard:    ome^1 Sco - B1V
+MK78 standard:          ome^1 Sco - B1V
+Garrison79 standard:    ome^1 Sco - B1V
+Keenan85 standard:      ome^1 Sco - B1V
+Walborn90 standard:     ome^1 Sco - B1V
+WiegertGarrison98 stan: ome^1 Sco - B1V
+GrayAtlas standard:     ome^1 Sco - B1V
+GrayNstars standards:   ome^1 Sco & 42 Ori - B1V
 
 Skiff08 lists two B1V standards: HD 37018 (MK73) & HD 144470 (MK78).
 
@@ -35,9 +36,10 @@ B-V(B1V)  = -0.266 ; EEM dereddened N=29 HIP B1V stars (via Q-method)
 B-V(B1V)  = -0.278 ; EEM dereddened prim. stan. omi^1 Sco (via Q-method)
 B-V(B1V)  = -0.278 ; EEM dereddened sec. stan. HD 7252 (via Q-method)
 B-V(B1V)  = -0.278 ; EEM dereddened tert. stan. HD 24131 (via Q-method)
+B-V(B1V)  = -0.278 ; U-B=-0.995 trend Q-method
 B-V(B1V)  = -0.279 ; EEM dereddened ter. stan. 42 Ori (via Q-method)
 B-V(B1V)  = -0.28  ; JohnsonMorgan53
-=> adopt (B-V)(B1V)  = -0.278 mag
+=> adopt (B-V)(B1V)  = -0.278 mag [updated 2/7/2020]
 
 The bluest B-V I can find for a B1V star is HIP 39540 = HD 66665
 (B-V = -0.248+-0.012), so <(B-V)o> is probably bluer than this.
@@ -51,8 +53,8 @@ U-B(B1V)  = -0.995 ; EEM dereddened prim. stan. ome^1 Sco (via Q-method)
 U-B(B1V)  = -0.995 ; EEM dereddened sec. stan. HD 7252 (via Q-method)
 U-B(B1V)  = -0.998 ; EEM dereddened ter. stan. 42 Ori (via Q-method)
 U-B(B1V)  = -1.00  ; JohnsonMorgan53
-=> adopt (U-B)(B1V)  = -0.995 ***
-=> adopt     Q(B1V)  = -0.7948 (=(U-B)-0.72*(B-V) = -0.995 - 0.72*-0.278)
+=> adopt (U-B)(B1V)  = -0.995 *** [updated 9/26/2019]
+=> adopt     Q(B1V)  = -0.794 [updated 9/26/2019]
 => adopt (V-I)(B1V)  = -0.325
 => adopt (V-J)(B1V)  = -0.660
 => adopt (V-H)(B1V)  = -0.815
@@ -60,11 +62,19 @@ U-B(B1V)  = -1.00  ; JohnsonMorgan53
 => adopt (H-Ks)(B1V) = -0.059
 => adopt (J-H)(B1V)  = -0.148
 
+(Ks-W1)(B1V) = 0.018 ; EEM trend for d<30pc for B-V=-0.278
+=> adopt (Ks-W1)(B1V) = 0.018 [updated 12/29/2019]
+
+(Bp-Rp)(B1V) = -0.450 ; Evans18 trend for V-I=-0.325
+
+(g-r)(B1V) = -0.49 ; Covey07 
+
 Teff(B1V) =   31714 K ; B-V=-0.278 => Teff(Napiwotzki93)
 Teff(B1V) =   31072 K ; B-V=-0.278 => Teff(Bessell98,logg=4.3)
 Teff(B1V) = 28372 K ; Q=-0.7948 => Nieva13 calibration
 Teff(B1V) =   27000 K ; non-standard HD 36591 (Nieva14)
 Teff(B1V) =   26600 K ; Bessell98
+Teff(B1V) = 26530 K  ; median for Braganca12 B1V stars (N=13) 
 Teff(B1V) = 26358 K  ; ter. stan. 42 Ori (only Teff from U-Bo)
 Teff(B1V) =   26300 K ; non-standard HD 61068 (Nieva14)
 Teff(B1V) =   26222 K ; U-B=-0.995 => Teff(Bessell98)
@@ -82,46 +92,68 @@ Teff(B1V) = 24834 K ; sec. stan. HD 7252 (median Teff)
 Teff(B1V) =   24724 K ; non-standard Spica (median Teff)
 Teff(B1V) =   24620 K ; GrayCorbally94
 Teff(B1V) =   24500 K ; GrayCorbally09
-=> adopt Teff(B1V) = 26000 K (logT = 4.415)
+Teff(B1V) = 22909 K ; Simon-Diaz17 median for B1V (N=10)
+=> adopt Teff(B1V) = 26000 K (logT = 4.415) [updated 9/16/2019]
 
 Mv(B1V) = -3.80 mag ; Upper Sco main sequence (B-V=-0.278, rms +-0.39 mag)
+Mv(B1V) =  -3.64 mag ; HIP_13959 B1V plx=1.237 mas, Vmag=6.849,E(B-V)=0.308
 Mv(B1V) = -3.5  mag ; GrayCorbally09
 Mv(B1V) =  -3.2  mag ; Schmidt-Kaler82
 Mv(B1V) = -3.2 mag  ; Russeil03
+Mv(B1V) =  -3.19 mag ; HIP_26998 B1Vep plx=1.315 mas, Vmag=6.816,E(B-V)=0.193
 Mv(B1V) = -3.14 mag ; Wegner07
 Mv(B1V) = -3.10 mag ; ONC main sequence (B-V=-0.278, rms +-0.48 mag)
-Mv(B1V) = -2.83+-0.71 mag ; tert. stan. 42 Ori 
+Mv(B1V) =  -3.05 mag ; HIP_78682 B1Ve plx=1.165 mas, Vmag=7.132,E(B-V)=0.165
+Mv(B1V) = -3.04 mag ; Bowen08
+Mv(B1V) =  -3.03 mag ; HIP_5768 B1V plx=1.321 mas, Vmag=7.175,E(B-V)=0.261
+Mv(B1V) =  -2.91 mag ; HIP_90610 B1Vnne plx=1.829 mas, Vmag=6.636,E(B-V)=0.277
+Mv(B1V) = -2.83+-0.71 mag ; tert. stan. 42 Ori
+Mv(B1V) =  -2.81 mag ; HIP_104787 B1V plx=1.312 mas, Vmag=7.478,E(B-V)=0.284
 Mv(B1V) = -2.61+-0.08 mag ; pri. stan. ome^1 Sco
+Mv(B1V) =  -2.45 mag ; HIP_93395 B1V plx=1.682 mas, Vmag=7.054,E(B-V)=0.203
+Mv(B1V) =  -2.44 mag ; HIP_104548 B1V plx=1.266 mas, Vmag=7.518,E(B-V)=0.152
+Mv(B1V) =  -2.25 mag ; HIP_105565 B1Vne plx=1.434 mas, Vmag=7.537,E(B-V)=0.183
 Mv(B1V) = -2.2  mag ; pri. stan. ome^1 Sco (Jaschek98)
 Mv(B1V) = -2.17+-0.20 mag ; tert. stan. HD 24131
-=> adopt Mv(B1V) = -3.1 mag
+Mv(B1V) =  -2.10 mag ; HIP_860 B1V plx=2.296 mas, Vmag=6.692,E(B-V)=0.191
+Mv(B1V) =  -0.84 mag ; HIP_112718 B1V plx=1.498 mas, Vmag=9.194,E(B-V)=0.295
+=> adopt Mv(B1V)   = -3.00 mag [updated 2/10/2020]
+=> adopt M_Ks(B1V) = -2.126 mag = Mv - (V-Ks) = -3.00 - 0.874 [updated 12/30/2020]
 
-BCv(B1V) = -2.626 mag ; Flower96(Teff=26000K)
-BCv(B1V) = -2.610 mag ; Bessell98(ATLAS9,logg=4.0,Teff=26000K)
-BCv(B1V) = -2.601 mag ; Balona94(Teff=26000K)
-BCv(B1V) = -2.585 mag ; Bertone04[ATLAS,Teff=26000K]
-BCv(B1V) = -2.580 mag ; Code76(Teff=26000K)
+BCv(B1V) =  -2.604 mag ; Flower96(Teff=26000K, set so BCv(5772K)=-0.085)
+BCv(B1V) =  -2.590 mag ; Code76(Teff=26000K, set so BCv(5772K)=-0.085)
+BCv(B1V) = -2.588 mag ; Bessell98(ATLAS9,logg=4.0,Teff=26000K, set so BCv(5772K)=-0.085
+BCv(B1V) =  -2.579 mag ; Balona94(Teff=26000K, set so BCv(5772K)=-0.085
 BCv(B1V) = -2.576 mag ; Nieva13(Teff=26000K)
 BCv(B1V) = -2.570 mag ; LanzHubeny07(Teff=26000K,logg=4.0,Z/Zsun=1)
-BCv(B1V) = -2.57  mag ; Schmidt-Kaler82(BCv=-2.70 + 0.13 offset)
-=> adopt BCv(B1V) = -2.58 mag
+BCv(B1V) =  -2.57  mag ; Schmidt-Kaler82(BCv=-2.70 + 0.13 offset)
+BCv(B1V) = -2.563 mag ; Bertone04[ATLAS,Teff=26000K, set so BCv(5772K)=-0.085
+=> adopt BCv(B1V) = -2.58 [updated 9/16/2019]
 
-logL(B1V) = 4.17 dex ; Mv=-3.1, BCv=-2.58 => Mbol = -5.68
-logL(B1V) = 4.06 dex ; tert. stan. 42 Ori (see notes below)
-logL(B1V) = 3.99 dex ; pri. stan. ome^1 Sco (see notes below)
-logL(B1V) = 3.80 dex ; tert. stan. HD 24131 (see notes below)
-=> adopt logL(B1V) =  4.17 dex 
-=> adopt Mbol(B1V) = -5.68 mag
+logL(B1V) = 4.128 dex ; Mv=-3.0, BCv=-2.58 => Mbol = -5.580
+logL(B1V) =  4.06  dex ; tert. stan. 42 Ori (see notes below)
+logL(B1V) =  4.007 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=26000K)
+logL(B1V) =  3.99  dex ; pri. stan. ome^1 Sco (see notes below)
+logL(B1V) =  3.80  dex ; tert. stan. HD 24131 (see notes below)
+=> adopt logL(B1V) =  4.128 dex [updated 1/15/2021] (too high?)
+=> adopt Mbol(B1V) = -5.580 mag [updated 1/15/2021]
 
-Mass(B1V) = 14.50+-0.12 Msun ; Eclipsing binary V578 Mon A (Torres10)
-Mass(B1V) = 11.91 Msun ; Ekers15 ML calibration for logL=4.17
-Mass(B1V) = 11.34+-0.18 Msun ; Eclipsing binary DW Car A (Torres10)
-Mass(B1V) = 11.03 Msun ; Harmanec88
-Mass(B1V) = 11.01 Msun ; EEM Teff vs. Mass fit for binaries (Teff=26000K)
-Mass(B1V) = 10.98 Msun ; EEM logL vs. Mass fit for binaries (logL=4.05)
-Mass(B1V) = 10.63+-0.20 Msun ; Eclipsing binary DW Car B (Torres10)
-Mass(B1V) = 10.45 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-2.8)
-=> adopt Mass(B1V) = 11 Msun
+Mass(B0.5V) =  14.8 Msun ; adopted for B0.5V 
+Mass(B1V)   = 14.50+-0.12 Msun ; Eclipsing binary V578 Mon A (Torres10)
+Mass(B1V)   =  11.98+-1.24 Msun ; Hohle10
+Mass(B1V)   =  11.91 Msun ; Ekers15 ML calibration for logL=4.17
+Mass(B1V)   = 11.8 Msun  ; MIST/Choi16 solar tracks logT=4.415,logL=4.128
+Mass(B1V)   = 11.34+-0.18 Msun ; Eclipsing binary DW Car A (Torres10)
+Mass(B1V)   =   11.03 Msun ; Harmanec88
+Mass(B1V)   =  11.01 Msun ; EEM Teff vs. Mass fit for binaries (Teff=26000K)
+Mass(B1V)   =  10.98 Msun ; EEM logL vs. Mass fit for binaries (logL=4.05)
+Mass(B1V)   = 10.63+-0.20 Msun ; Eclipsing binary DW Car B (Torres10)
+Mass(B1V)   =  10.45 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-2.8)
+Mass(B1.5V) =   9.9 Msun ; adopted for B1.5V
+=> adopt Mass(B1V) = 11.8 Msun [updated 4/16/2022]
+
+Rad(B1V)  = 5.711 Rsun ; Teff=26000K, logL=4.128
+=> adopt Rad(B1V) = 5.711 Rsun [updated 1/15/2021]
 
 # Primary Standard
 

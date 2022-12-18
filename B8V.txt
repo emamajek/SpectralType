@@ -1,15 +1,13 @@
 B8V
 
-Garrison94 does not list a B8V anchor standard, but MK73 lists
-18 Tau as the B8V dagger standard.
-
-18 Tau appears to be the best B8V standard. 
+Garrison94 does not list a B8V anchor standard, but MK73 lists 18 Tau
+as the B8V dagger standard. 18 Tau appears to be the best B8V
+standard.
 
 GarrisonGray94 used HR 9050 = HD 224112 as is low-vsini B8V standard
 and 18 Tau as its high-vsini B8Vn standard.
 
-Inexplicably, the B8V standards have changed completely between MK43
-and JM53. 
+Inexplicably, the B8V standards changed completely between MK43 and JM53. 
 
 MK43 standard:		 bet Per - B8V
      			 bet Lib - B8V
@@ -35,6 +33,7 @@ Houk75 standard:	 18 Tau  - B8V (primary standard)
 Garrison77 standard:	 18 Tau  - B8V
 GarrisonGray94 standard: 18 Tau  - B8Vn (high vsini)
 	       		 HR 9050 - B8V (low vsini)
+WiegertGarrison98 stan.: HD 142315 - B8V 
 GrayAtlas standard:      bet Per - B8V
 GrayNstars standard:     bet Per - B8V
 
@@ -66,7 +65,7 @@ U-B(B8V)  = -0.364  ; EEM dereddened N=99 B8V HIP stars (Q-method,E(B-V)<0.1)
 U-B(B8V)  = -0.365  ; ter. stan. beta Lib (unreddened)
 U-B(B8V)  =  -0.368  ; (B-V) = -0.109 => (U-B)o using EEM relation
 U-B(B8V)  = -0.389  ; pri. stan. 18 Tau (EEM dereddened via Q-method)
-=> adopt (U-B)(B8V)  = -0.364 ***
+=> adopt (U-B)(B8V)  = -0.364 *** [updated 9/26/2019]
 => adopt (B-V)(B8V)  = -0.109
 => adopt     Q(B8V)  = -0.286 (=(U-B)-0.72*(B-V) = -0.364 - 0.72*-0.109)
 => adopt (V-I)(B8V)  = -0.108
@@ -77,11 +76,39 @@ U-B(B8V)  = -0.389  ; pri. stan. 18 Tau (EEM dereddened via Q-method)
 => adopt (V-Ks)(B8V) = -0.254
 => adopt (H-Ks)(B8V) =  0.003
 => adopt (J-H)(B8V)  = -0.067
-=> adopt (K-W1)(B8V) =  0.034
+
+
+
+(Ks-W1)(B8V) = 0.033 ; EEM trend for d<30pc for B-V=-0.109
+=> adopt (Ks-W1)(B8V) = 0.033 [updated 12/29/2019]
+
+(Bp-Rp)(B8V) = -0.155 ; Evans18 trend for V-I=-0.108
+
+(G-V)(B8V) = -0.06224  ; HIP_26621 B8V E(B-V)=0.001
+(G-V)(B8V) =  0.00106  ; HIP_3025 B8VpSi E(B-V)=0.006
+(G-V)(B8V) =  0.0069   ; HIP_8629 B8V E(B-V)=0.000
+(G-V)(B8V) =  0.00757  ; HIP_23921 B8Vne E(B-V)=0.006
+(G-V)(B8V) =  0.01222  ; HIP_28322 B8V E(B-V)=0.003
+(G-V)(B8V) =  0.01351  ; HIP_328 B8V E(B-V)=0.007
+(G-V)(B8V) =  0.01404  ; HIP_3820 B8V E(B-V)=0.007
+(G-V)(B8V) =  0.01548  ; HIP_37514 B8V E(B-V)=0.008
+(G-V)(B8V) = 0.016 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.254
+(G-V)(B8V) =  0.01922  ; HIP_37746 B8V E(B-V)=0.007
+(G-V)(B8V) =  0.02132  ; HIP_32657 B8V E(B-V)=0.006
+(G-V)(B8V) =  0.02133  ; HIP_8352 B8V E(B-V)=0.009
+(G-V)(B8V) =  0.02234  ; HIP_36608 B8V E(B-V)=0.009
+(G-V)(B8V) =  0.02436  ; HIP_117932 B8V E(B-V)=0.005
+(G-V)(B8V) =  0.03522  ; HIP_34537 B8V E(B-V)=0.000
+(G-V)(B8V) =  0.04531  ; HIP_67702 B8V E(B-V)=0.009
+(G-V)(B8V) =  0.06285  ; HIP_63695 B8V E(B-V)=0.008
+(G-V)(B8V) =  0.08007  ; HIP_11318 B8V E(B-V)=0.002
+=> adopt (G-V)(B8V) = 0.016 [updated 4/8/2022]
 
 V-I(B8V)  = -0.085  ; Bessell79
 
 R-I(B8V)  = -0.050  ; Bessell79
+
+(g-r)(B8V) = -0.33 ; Covey07
 
 Teff(B8V) =  11040 K ; Bertelli09[ATLAS]
 Teff(B8V) = 11481 K ; sec. stan. 21 Tau median Teff (see below)
@@ -89,53 +116,71 @@ Teff(B8V) =  11500 K ; GrayCorbally09
 Teff(B8V) =  11550 K ; GrayCorbally94
 Teff(B8V) =  11614 K ; Bessell98
 Teff(B8V) =  11678 K ; Flower96 Teff for B-V = -0.10
+Teff(B8V) = 11749 K ; Zorec12 median 
 Teff(B8V) =  11900 K ; Schmidt-Kaler82
 Teff(B8V) =  12000 K ; Crowther97/Fig.3 
 Teff(B8V) =  12000 K ; Bohm-Vitense81
 Teff(B8V) =  12000 K ; Bessell79
 Teff(B8V) =  12092 K ; B-V=-0.106 => Teff(Napiwotski93)
 Teff(B8V) =  12120 K ; Theodossiou90
-Teff(B8V) =  12196 K ; U-B=-0.364 => Teff(Bessell98)
+Teff(B8V) = 12196 K ; U-B=-0.364 => Teff(Bessell98)
 Teff(B8V) =  12200 K ; Chavez95 (+200-100K) 
 Teff(B8V) = 12230 K ; ter. stan. bet Lib (median Teff)
 Teff(B8V) = 12305 K ; sec. stan. HD 224112 median Teff (see below) 
 Teff(B8V) = 12565 K ; B-V=-0.106 => Teff(Bessell98,logg=4.2)
 Teff(B8V) = 12811 K ; prim. stan. 18 Tau (median Teff)
 Teff(B8V) = 12923 K ; EEM median of 268 published Teffs for B8V *s
-=> adopt Teff(B8V) = 12600 K (logT = 4.100)
+=> adopt Teff(B8V) = 12300 K (logT = 4.090) [updated 9/16/2019]
 
+Mv(B8V) =  0.92 mag ; HIP_61796 B8V plx=8.822 mas, Vmag=6.247,E(B-V)=0.017
+Mv(B8V) =  0.50 mag ; HIP_81891 B8V plx=6.573 mas, Vmag=6.447,E(B-V)=0.013
+Mv(B8V) =  0.49 mag ; HIP_64774 B8V plx=7.358 mas, Vmag=6.185,E(B-V)=0.010
+Mv(B8V) =   0.46 mag ; Cox00 ZAMS interp B-V vs Mv (for B-V=-0.109)
+Mv(B8V) =  0.43 mag ; HIP_78017 B8V plx=6.846 mas, Vmag=6.302,E(B-V)=0.015
+Mv(B8V) =  0.41 mag ; HIP_43195 B8V plx=6.816 mas, Vmag=6.260,E(B-V)=0.005
+Mv(B8V) =  0.38 mag ; HIP_91723 B8V plx=6.774 mas, Vmag=6.255,E(B-V)=0.009
+Mv(B8V) =  0.31 mag ; HIP_38863 B8V plx=6.945 mas, Vmag=6.117,E(B-V)=0.005
+Mv(B8V) =  0.22 mag ; median Mv for B2V calc using Kervella19 HIP & Gaia DR2
+Mv(B8V) =  0.08 mag ; HIP_97376 B8Vn plx=7.383 mas, Vmag=5.818,E(B-V)=0.025
 Mv(B8V) =  0.0  mag ; GrayCorbally09
 Mv(B8V) =  0.00 mag ; sec. stan. 21 Tau (see below)
 Mv(B8V) = -0.10 mag ; pri. stan. 18 Tau (see below)
-Mv(B8V) =    -0.2  mag ; Schmidt-Kaler82
+Mv(B8V) = -0.2  mag ; Schmidt-Kaler82
 Mv(B8V) = -0.32 mag ; sec. stan. HD 224112 (see below)
 Mv(B8V) =  -0.49 mag ; Wegner07
 Mv(B8V) = -1.16 mag ; ter. stan. bet Lib (see below)
-=> adopt Mv(B8V) = -0.1 mag
+=> adopt Mv(B8V)   = 0.00  mag [updated 2/10/2020]
+=> adopt M_Ks(B8V) = 0.254 mag = Mv - (V-Ks) = 0.0 - -0.254 [updated 12/30/2020]
 
-BCv(B8V) = -0.913 mag ; Flower96(Teff=12600K)
-BCv(B8V) = -0.814 mag ; Code76(Teff=12600K)
-BCv(B8V) = -0.810 mag ; Bessell98(ATLAS9,logg=4.0,Teff=12600K)
-BCv(B8V) = -0.782 mag ; Balona94(Teff=12600K)
-BCv(B8V) = -0.771 mag ; Bertone04(ATLAS,Teff=12600K)
-BCv(B8V) = -0.67  mag ; Schmidt-Kaler82(BCv=-0.80 + 0.13 offset)
-BCv(B8V) = -0.47  mag ; Bertone04[ATLAS]
-=> adopt BCv(B8V) = -0.81 mag
+BCv(B8V) = -0.829 mag ; Flower96(Teff=12300K, set BCv(5772K)=-0.085)
+BCv(B8V) = -0.758 mag ; Code76(Teff=12300K, set BCv(5772K)=-0.085)
+BCv(B8V) = -0.728 mag ; Bessell98(ATLAS9,logg=4.0,Teff=12300K, set BCv(5772K)=-0.085
+BCv(B8V) = -0.703 mag ; Balona94(Teff=12300K, set BCv(5772K)=-0.085)
+BCv(B8V) = -0.694 mag ; Bertone04(ATLAS,Teff=12300K, set BCv(5772K)=-0.085
+BCv(B8V) =  -0.67  mag ; Schmidt-Kaler82(BCv=-0.80 + 0.13 offset)
+=> adopt BCv(B8V) = -0.73 [updated 9/16/2019; set so that BCv(5772K)=-0.085]
 
-logL(B8V) = 2.27 dex ; Mv = -0.1, BCv=-0.81 => Mbol = -0.91 
-=> adopt logL(B8V) = 2.27 dex
-=> adopt Mbol(B8V) = -0.91 mag 
+logL(B8V) = 2.148 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=12300K)
+logL(B8V) = 2.188 dex ; Mv = 0.0, BCv=-0.73 => Mbol = -0.730
+logL(B8V) = 2.29  dex ; Zorec12 median 
+=> adopt logL(B8V) =  2.188 dex [updated 12/27/2020]
+=> adopt Mbol(B8V) = -0.730 mag [updated 12/27/2020]
 
 Mass(B8V) = 2.545+-0.026 Msun ; Eclipsing binary zet Phe B (Torres10)
 Mass(B8V) = 2.632+-0.049 Msun ; Eclipsing binary chi2 Hya B (Torres10)
 Mass(B8V) = 2.91 Msun ; Harmanec88
+Mass(B8V) = 3.28 Msun ; David15 B8 MS (rms=0.38 Msun; N=18)
 Mass(B8V) = 3.35 Msun ; EEM Teff vs. Mass fit for binaries (Teff=12500K)
-Mass(B8V) = 3.38 Msun ; EEM logL vs. Mass fit for binaries (logL=2.23)
-Mass(B8V) = 3.43 Msun ; Ekers15 ML calibration for logL=2.24
+Mass(B8V) = 3.37 Msun ; EEM logL vs. Mass fit for binaries (logL=2.228)
+Mass(B8V) = 3.39 Msun ; Zorec12 median 
+Mass(B8V) = 3.45 Msun ; Ekers18 ML calibration for logL=2.228
 Mass(B8V) = 3.45 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-0.1)
 Mass(B8V) = 3.504+-0.054 Msun ; Eclipsing binary IQ Per (Torres10)
 Mass(B8V) = 3.605+-0.078 Msun ; Eclipsing binary chi2 Hya A (Torres10)
-=> adopt Mass(B8V) = 3.4 Msun
+=> adopt Mass(B8V) = 3.38 Msun [updated 1/2/2020]
+
+Rad(B8V) = 2.734 Rsun ; Teff=12300K, logL=2.188
+=> adopt Rad(B8V) = 2.734 Rsun  [updated 10/27/2020]
 
 # No Standard
 
@@ -212,6 +257,14 @@ HD 135742 = bet Lib = Zubeneshamali
   phot.=>Napiwotzki93 calib.), 12300+-550K(Zorec09), 12946+-449K(Wu11)
   => median Teff = 12230K.  logg=4.12+-0.16(Wu11),
   [Fe/H]=0.33+-0.17(Wu11).
+
+HD 142315
+  B7V:: Slettebak68
+ *B8V: Garrison67,Jaschek78(Garrison79(stan)),WiegertGarrison98(stan),Cannon(B8)
+  B8Vnn: GarrisonGray94
+  B9V: Bertiau58,Jaschek64(all),Houk88
+
+  Upper Sco member. At least Garrison used as standard. 
 
 # Variant (two "B8Ve" standards)
 
@@ -302,13 +355,6 @@ HD 214923 = zet Peg = 42 Peg = HR 8634
   GarrisonGray94 switched it to giant, but previous dwarf since
   JM53. So no longer a good dwarf standard. Jaschek98 lists Mv=-0.6. 
 
-HD 142315
-  B8V: Jaschek78(Garrison79(stan)),Cannon(B8)
-  B8Vnn: GarrisonGray94
-  B7V:: Slettebak68
-  B9V: Bertiau58,Jaschek64(all),Houk88
-
-  Upper Sco member.
 
 HD 36865 = Parenago 1491 (J0534-0429)
   B8V: Abt68,Bernacca68,Schild71,Houk99

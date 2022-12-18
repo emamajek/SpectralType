@@ -7,7 +7,26 @@ Cowley74 standard:       iot UMa (=HR 3569) - A7IV
 GarrisonGray89 standard: HR 3270 - A7IV [low-vsini stan.]
 			 iot UMa - A7IVn [high vsini stan.]
 
-<B-V>(A7IV) = 0.238+-0.016 (stdev=0.034) ; Hipparcos d<75 pc (plxS/N>8) N=6
+The only two A7IV standards proposed appear to have HRD positions
+consistent with other dwarfs (both HR 3270 and iot UMa). Suggests that
+among late As, the spectral differences between dwarfs and subgiants
+are subtle and may not necessarily signify differences in luminosity.
+
+(B-V)(A7IV) = 0.237  ; (B-V)(A7V)=0.21 plus trend seen for other IV stars
+(B-V)(A7IV) = 0.233  ; exemplar kap Boo = HD 124675 
+(B-V)(A7IV) = 0.222  ; pri. stan. HD 70060 = HR 3270
+(B-V)(A7IV) = 0.223(+-0.017 sem,+-0.036 stdev) ; SIMBAD median A7IV d<75pc,V<6.5(N=7)
+(B-V)(A7IV) = 0.223  ; deprecated stan. HD 76644 = iot UMa 
+(B-V)(A7IV) = 0.191  ; exemplar gam Boo = HD 127762 
+=> adopt (B-V)(A7IV) = 0.22 [updated 2/2/2022]
+
+Mv(A7IV) = 2.40 ; exemplar iot Boo = HR 5350 = HD 125161 (~main sequence)
+Mv(A7IV) = 2.31 ; exemplar HD 76644 = iot UMa (~main sequence) 
+Mv(A7IV) = 2.16 ; pri. stan. HD 70060 = HR 3270 (~main sequence)
+Mv(A7IV) = 1.79(+-0.26 sem,+-0.59 stdev) ; SIMBAD median A7IV d<75pc,V<6.5(N=7)
+Mv(A7IV) =  1.5  ; GrayCorbally09
+Mv(A7IV) = 1.05 ; exemplar kap Boo = HD 124675
+Mv(A7IV) = 0.92 ; exemplar gam Boo = HD 127762 
 
 
 # No standards
@@ -17,7 +36,7 @@ JM53 and Houk88 do not list a A7IV standard.
 # Primary Standard
 
 HD 70060 = HR 3270 (J0818-3639, V=4.4)
-  A7IV: GrayGarrison89(low-vsini stan.)
+ *A7IV: GrayGarrison89(low-vsini stan.)
   A7III: Jaschek64(most),deVaucouleurs57,
   A4(M)A5-A7: Houk82
   A5: Cannon
@@ -27,12 +46,25 @@ HD 70060 = HR 3270 (J0818-3639, V=4.4)
   Plx=34.93+-0.18 (HIP2), Vmag=4.44, B-V=0.222. HIP2 =>
   Mv=2.16, and only 0.03 mag above main sequence!
 
-# Candidate standard
+# Deprecated Standard 
+
+HD 76644 = iot UMa = 9 UMa = HR 3569 = HIP 44127
+  A7V: JM53,Jaschek64(all),Cowley67,Cowley69(stan),Barry70,Gray03(A7Vn)
+ *A7IV: MorganAbt72,MK73,Cowley74(stan),Garcia89,GrayGarrison89(high-vsini stan.)
+  A6V: Palmer68
+  A5: Cannon
+  
+  V=3.12(HIP), B-V=0.223+-0.003(HIP), V-Ic=0.25(HIP).
+  plx=68.92+-0.16mas(HIP2) => Mv=2.31 => 0.18 mag below MS, so seems
+  to be MS. Spectroscopic binary. Basically A7V until ~Morgan72, then
+  A7IV since until Gray03.  M2V component "BC" only 3.7" away.
+
+# Exemplars
 
 gam Boo = HD 127762 = HR 5435 (J1432+3818; V=3.0)
     A7III: MK43,Cowley76(standard),Abt81
     A7IIIn: Palmer68
-    A7IV+(n): Gray01
+   *A7IV+(n): Gray01
     A7IV+: GrayGarrison89
     A7III-IV: Abt95
     A5V: Adams35,Bouw81
@@ -40,25 +72,56 @@ gam Boo = HD 127762 = HR 5435 (J1432+3818; V=3.0)
     Generally good agreement on "A7" temperature type due to use in
     MK43. However GrayGarrison89 and Gray01 consider the star to be
     "IV+" luminosity class. I've decided to list this star as a
-    candidate "A7IV+" standard.
+    candidate "A7IV+" standard. (B-V)=0.191+-0.006(HIP). V=3.04(HIP).
+    plx=37.58+-0.14mas(HIP2) => Mv=0.92 => 1.07 mag above MS.
 
-# Weak Standard. 
+kap Boo = HD 124675 = HIP 69483
+   A6V+: GrayGarrison89
+  *A7IV: Slettebak55,Slettebak63,1962AnAp...25....1B,Palmer68,Gray01
+   A7V: Adams35,Abt81,Abt95
+   A8IV: Barry70(uv metals weak),Morgan72
+   A8V: Levato78
+   A9IV: 1958JO.....41..105B,Cowley69
+   F0V: Roman49
+   
+   A of bright 14" cpm pair (STF 1821), with companion B (HIP 69481)
+   of type F2V(Gray01) and Vmag=6.62. V=4.53(HIP),
+   B-V=0.233+-0.012(HIP),
+   V-I=0.23+-0.03(HIP). plx=20.1530+-0.0943mas(GaiaEDR3) => Mv=1.05 =>
+   1.13 mag above MS.
 
-HD 76644 = iot UMa = 9 UMa = HR 3569 = HIP 44127
-  A7V: JM53,Jaschek64(all),Cowley67,Cowley69(stan),Barry70,Gray03(A7Vn)
-  A7IV: MorganAbt72,MK73,Cowley74(stan),Garcia89,GrayGarrison89(high-vsini stan.)
-  A6V: Palmer68
-  A5: Cannon
-  B-V(HIP)=0.223, dMv=+0.16... so it is probably a dwarf
-  Spectroscopic binary. Basically A7V until ~Morgan72, then A7IV since until Gray03
-  Beware! M2V component "BC" 3.7" away. 
-  Should be considered "A7Vn". 
+iot Boo = HR 5350 = HD 125161 = HIP 69713
+   A6V: Abt95
+   A7V: Slettebak55
+  *A7IV: Abt81,GrayGarrison89,Gray01(A7IV-)
+   A8V: Barry70
+   A9V: Cowley69
 
-# Non-standards
+   37" binary. V=4.75(HIP), B-V=0.236+-0.015(HIP), V-I=0.19+-0.03(HIP).
+   plx=33.8856+-0.082mas(GaiaEDR3) => Mv=2.40 => 0.20 mag below MS. 
+
+
+# Other Stars
 
 JM53 lists Altair (alf Aql) and alf Cep as non-standard A7IV/V stars.
 
 Morgan65 classified only one Hyad as a subgiant: HD 28319 (=
-BD+15_632)as a A7IVn.  But it is called A7III by MK78 and all
+BD+15_632) as a A7IVn.  But it is called A7III by MK78 and all
 subsequent literature (GrayGarrison89, Gray89, Gray01).
+
+
+HD 17093 = HR 812 = HIP 12832
+   A7III: Abt95
+   A7III-IV: Cowley69
+  *A7IV: 1951ApJ...113..304B,GrayGarrison89
+
+
+
+
+
+
+
+
+
+
 

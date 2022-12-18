@@ -1,4 +1,4 @@
-A4V
+AAAA4V
 
 Garrison94 does not list a A4V anchor, and MK73 does not list a A4V
 dagger standard.
@@ -25,14 +25,18 @@ and within 1 mag of the MS (N=10):
 <V-Vt>(A4V)  =-0.021 (+-0.005 sem, +-0.011 stdev; N=10) 
 <B-K>(A4V)   = 0.569 (+-0.058 sem, +-0.160 stdev; N=10)
 
-(B-V)(A4V)   =  0.11  ; Morgaan71(halfway_A3V-A5V)
+(B-V)(A4V)   =  0.11  ; Morgaa71(halfway_A3V-A5V)
 (B-V)(A4V)   =  0.115 ; Schmidt-Kaler halfway(A3V-A5V)
 (B-V)(A4V)   =  0.12  ; Fitzgerald70
 (B-V)(A4V)   =  0.125 ; halfway between A3V(0.09) and A5V(0.16)
+(B-V)(A4V)   = 0.127 ; exemplar 24 CVn = HD 118232
+(B-V)(A4V)   = 0.127 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 (B-V)(A4V)   = 0.128 ; prim. stan. del Leo
-(B-V)(A4V)   = 0.139 ; A4V star 49 Ori
-<B-V>(A4V)   = 0.164 (+-0.010 sem, +-0.042 stdev) ; HIP d<75pc S/N>8 N=10
-=> adopt (B-V)(A4V)  = 0.14 ***
+(B-V)(A4V)   = 0.139 ; exemplar A4V star 49 Ori
+<B-V>(A4V)   =  0.164 (+-0.010 sem, +-0.042 stdev) ; HIP d<75pc S/N>8 N=10
+(B-V)(A4V)   =  0.166 ; d<60pc SIMBAD N=6
+(B-V)(A4V)   = 0.174 ; exemplar xi Vir = HD 102124
+=> adopt (B-V)(A4V)  = 0.14 *** [updated 9/20/2019]
 => adopt (U-B)(A4V)  = 0.097
 => adopt (V-I)(A4V)  = 0.164
 => adopt (V-R)(A4V)  = 0.078
@@ -42,18 +46,53 @@ and within 1 mag of the MS (N=10):
 => adopt (V-Ks)(A4V) = 0.353
 => adopt (H-Ks)(A4V) = 0.037
 => adopt (J-H)(A4V)  = 0.022
-=> adopt (K-W1)(A4V) = 0.029
+
+(Bp-Rp)(A4V) = 0.166 ; color trend for B-V=0.14
+(Bp-Rp)(A4V) = 0.201 ; Evans18 trend for V-I=0.164
+=> adopt (Bp-Rp)(A4V)= 0.166 [updated 11/22/2020]
+
+(Bp-G)(A5V) = 0.051 ; color trend for B-V=0.14
+=> adopt (Bp-G)(A5V) = 0.051 [updated 11/22/2020]
+
+(G-Rp)(A4V) = 0.113 ; color trend for B-V=0.14
+=> adopt (G-Rp)(A4V) = 0.113 [updated 11/22/2020]
+
+(Ks-W1)(A4V) = 0.046 ; EEM trend for d<30pc for B-V=0.14
+=> adopt (Ks-W1)(A4V) = 0.046 [updated 12/29/2019]
+
+(G-V)(A4V) =  -0.044 ; * 24 CVn PM* A4V
+(G-V)(A4V) =  -0.035 ; HD 75171 PM* A4V
+(G-V)(A4V) =  -0.029 ; * 82 Peg dS* A4Vn
+(G-V)(A4V) =  -0.029 ; polynomial fit f(B-V)
+(G-V)(A4V) =  -0.023 ; * 40 LMi PM* A4Vn
+(G-V)(A4V) =  -0.022 ; * ksi Vir PM* A4V
+(G-V)(A4V) =  -0.015 ; * 64 Gem PM* A4V
+(G-V)(A4V) = -0.003 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.353
+=> adopt (G-V)(A4V) = -0.01 [updated 4/8/2022]
 
 (U-B)(A4V)   = 0.09  ; Fitzgerald70
 (U-B)(A4V)   = 0.091 ; HIP d<75pc S/N>8 A4V N=35 (Mermilliod91 photometry)
 
-Teff(A4V) = 7929 K ; Boyajian12
+(g-r)(A4V)   =  0.019 ; Jordi06 (V-R)=>(g-r) for V-R=0.078
+(g-r)(A4V)   = -0.094 ; Bilir05 (B-V)=>(g-r) for B-V=0.140
+(g-r)(A4V)   = -0.13  ; Covey07 interp A3V-A5V
+=> adopt (g-r)(A4V) = -0.09 [updated 10/10/2020]
+
+
+Teff(A4V) =  7929 K ; Boyajian12
+Teff(A4V) = 7993 K ; exemplar xi Vir = HD 102124 
+Teff(A4V) = 8116 K ; standard del Leo
+Teff(A4V) = 8163 K ; exemplar HD 37507
+Teff(A4V) = 8180 K ; exemplar 24 CVn = HD 118232 =
 Teff(A4V) = 8192 K ; mean photometric Teff
-Teff(A4V) = 8260 K ; Theodossiou90
+Teff(A4V) = 8222 K ; Zorec12 median
+Teff(A4V) = 8250 K ; median Teff for 3 A4V from Gray17
+Teff(A4V) =  8260 K ; Theodossiou90
+Teff(A4V) = 8267 K ; interp B-V vs Teff (A3V: B-V=0.1,8600K; A5V: B-V=0.16, 8100K)
 Teff(A4V) = 8269 K ; EEM N=63 Teffs
 Teff(A4V) = 8335 K ; interp. (A3V-A5V) GrayCorbally09
-Teff(A4V) = 8460 K ; Schmidt-Kaler82 (halfway A3V-A5V)
-=> adopt Teff(A4V) = 8270 K (logT = 3.917)
+Teff(A4V) =  8460 K ; Schmidt-Kaler82 (halfway A3V-A5V)
+=> adopt Teff(A4V) = 8250 K (logT = 3.917) [updated 2/10/2020]
 
 => adopt (B-V)(A4V)  = 0.14
 => adopt (V-I)(A4V)  = 0.16
@@ -61,29 +100,59 @@ Teff(A4V) = 8460 K ; Schmidt-Kaler82 (halfway A3V-A5V)
 => adopt (V-H)(A4V)  = 0.31
 => adopt (V-Ks)(A4V) = 0.35
 
-BCv(A4V) = -0.046 mag ; Flower96(Teff=8270K)
-BCv(A4V) = -0.030 mag ; Schmidt-Kaler82(BCv=-0.16 + 0.13 offset)
-BCv(A4V) = -0.006 mag ; Code76(Teff=8270K)
-BCv(A4V) = -0.003 mag ; Bessell98(ATLAS,logg=4.5,Teff=8270K)
-BCv(A4V) =  0.013 mag ; Balona94(Teff=8270K)
-BCv(A4V) =  0.041 mag ; Bertone04(Teff=8270K,ATLAS)
-=> adopt BCv(A4V) = 0.00 mag (+-0.03 rms)
+BCv(A4V) = -0.058 mag ; Flower96(Teff=8250K, BCv(5772K)=-0.085)
+BCv(A4V) = -0.055 mag ; pri. stan. HD 97603 = del Leo = HR 4357 (Boyajian13)
+BCv(A4V) =  -0.030 mag ; Schmidt-Kaler82(BCv=-0.16 + 0.13 offset)
+BCv(A4V) = -0.020 mag  ; EEM trend A3V(BCv=-0.04)-A5V(BCv=0.00)
+BCv(A4V) = -0.015 mag ; Code76(Teff=8250K, BCv(5772K)=-0.085)
+BCv(A4V) = -0.018 mag ; Bessell98(ATLAS,logg=4.5,Teff=8250K, BCv(5772K)=-0.085)
+BCv(A4V) =  0.002 mag ; Balona94(Teff=8250K, BCv(5772K)=-0.085)
+BCv(A4V) =  0.029 mag ; Bertone04(Teff=8250K,ATLAS, BCv(5772K)=-0.085)
+=> adopt BCv(A4V) = -0.020 [updated 4/4/2020; set so that BCv(5772K)=-0.085]
 
-Mv(A4V) = 2.05  mag ; interp. (A3V-A5V) GrayCorbally09
-Mv(A4V) = 1.757 mag ; Wright05(B-V=0.14) 
-Mv(A4V) = 1.7   mag ; Schmidt-Kaler halfway (A3V-A5V)
-Mv(A4V) = 1.30  mag ; Wegner07
-=> adopt Mv(A4V) = 1.76 
+logg(A4V) = 4.0 ; median for 3 A4V from Gray17
 
-logL(A4V) = 1.198 dex ; Mv=1.76, BCv=0.00 => Mbol = 1.76
-=> adopt logL(A4V) = 1.20 dex 
-=> adopt Mbol(A4V) = 1.76 mag
+Mv(A4V) =  2.05  mag ; interp. (A3V-A5V) GrayCorbally09
+Mv(A4V) =  1.97 mag ; exemplar xi Vir = HD 102124
+Mv(A4V) =  1.94 mag ; B/A/F dwarf sequence for B-V=0.14
+Mv(A4V) =  1.78 mag ; median Mv for A6V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
+Mv(A4V) =  1.77 mag ; d<60pc SIMBAD A4V (N=6)
+Mv(A4V) =  1.76 mag ; A dwarf B-V vs. Mv sequence for B-V=0.14
+Mv(A4V) =  1.757 mag ; Wright05(B-V=0.14)
+Mv(A4V) = 1.73 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.14
+Mv(A4V) =  1.70 mag ; d<60pc Mv(B-V=0.14) 
+Mv(A4V) =   1.7   mag ; Schmidt-Kaler halfway (A3V-A5V)
+Mv(A4V) =  1.60 mag ; exemplar HD 37507 = HR 1937 = 49 Ori  
+Mv(A4V) =   1.30  mag ; Wegner07
+Mv(A4V) =  1.29 mag ; standard HD 97603 = Del Leo
+Mv(A4V) =  0.90 mag ; exemplar 24 CVn = HD 118232
+=> adopt Mv(A4V)   = 1.94  [updated 9/24/2020]
+=> adopt M_G(A4V)  = 1.92  [updated 12/10/2020] (Mv=1.94, G-V=-0.02)
+=> adopt M_Ks(A4V) = 1.587 [updated 12/30/2020] (Mv=1.94, V-Ks=0.353)
 
-Mass(A4V) = 1.92 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.76)
-Mass(A4V) = 1.91 Msun ; EEM Teff vs. Mass fit for binaries (Teff=8270K)
-Mass(A4V) = 1.90 Msun ; Ekers15 ML calibration for logL=1.20
-Mass(A4V) = 1.89 Msun ; EEM logL vs. Mass fit for binaries (logL=1.20)
-=> adopt Mass(A4V) = 1.90 Msun
+logL(A4V) = 1.115 dex ; exemplar xi Vir = HD 102124 
+logL(A4V) = 1.128 dex ; Mv=1.94, BCv=-0.02 => Mbol = 1.920
+logL(A4V) = 1.263 dex ; exemplar HD 37507 = HR 1937 = 49 Ori 
+logL(A4V) = 1.386 dex ; standard HD 97603 = del Leo
+logL(A4V) = 1.545 dex ; exemplar 24 CVn = HD 118232 
+logL(A4V) = 1.57  dex ; Zorec12 median
+=> adopt logL(A4V) = 1.128 dex [updated 9/24/2020]
+=> adopt Mbol(A4V) = 1.920 mag [updated 9/24/2020]
+
+Mass(A4V) = 2.24 Msun ; Zorec12 median
+Mass(A4V) = 1.90 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.8)
+Mass(A4V) = 1.89 Msun ; EEM Teff vs. Mass fit for binaries (Teff=8200K)
+Mass(A4V) = 1.87 Msun ; Ekers18 ML calibration for logL=1.182
+Mass(A4V) = 1.87 Msun ; EEM logL vs. Mass fit for binaries (logL=1.182)
+Mass(A4V) = 1.84 Msun ; David15 A4 MS (rms=0.19 Msun; N=37)
+=> adopt Mass(A4V) = 1.89 Msun [updated 12/29/2019]
+
+Rad(A4V) = 2.948 Rsun ; exemplar 24 CVn = HD 118232 
+Rad(A4V) = 2.496 Rsun ; standard HD 97603 = del Leo
+Rad(A4V) = 2.141 Rsun ; exemplar HD 37507 = HR 1937 = 49 Ori 
+Rad(A4V) = 1.882 Rsun ; exemplar xi Vir = HD 102124
+Rad(A4V) = 1.794 Rsun ; logL=1.128,Teff=8250K
+=> adopt Rad(A4V) = 1.794 Rsun [updated 9/24/2020]
 
 # No standard 
 
@@ -94,55 +163,123 @@ Skiff08 did not flag any stars as A4V standards.
 
 # Standard
 
-HD 97603 = Del Leo = HR 4357 
-  A4V: HoukStand,JM53,Cowley69(stan),Jaschek78,Garcia89,Abt95,Levato78
+HD 97603 = del Leo = HR 4357 = Zosma
+  A2V: Adams35
+  A3V: Maury1897,Chalonge52(BCD type),Woods55,Bidelman85(A3)
+ *A4V: HoukStand,Roman49,JM53(stan),Palmer68,Cowley69(stan),Levato72,Levato78,Jaschek78,Loden83,Garcia89,Abt95,Levato78
   A4IV: GrayGarrison89
   A5IV(n): Gray03
+  A5V: Barry70(uv metals weak),Cuchiaro80(S2/68 spectra)
 
-  This star is a bit bluer than the A4V mean B-V (0.l60)
-  A4V; B-V[HIP]=0.128+-0.014
+  The only A4V standard in JohnsonMorgan53.  This star is a bit bluer
+  than the A4V mean B-V (0.160) A4V, and more luminous.  Note that two
+  most "recent" expert classifications have it as lum class IV. Ursa
+  Major stream star? V=2.56(HIP), V=2.56(TYC),
+  V=2.560+-0.007(Mermilliod91), B-V=0.128+-0.014(Mermilliod91),
+  B-V=0.128+-0.014(HIP).  plx = 55.82+-0.25mas(HIP2). Teffs:
+  7881K(Boyajian13#1), 7889K(Boyajian13#2), 7974K(Stassun18),
+  8037K(Gray03), 8080K(Sokolov15), 8085K(Boyajian12), 8147K(Wu11),
+  8222K(Zorec12), 8297K(Boyajian13), 8309K(King03), 8449K(David15),
+  8891K(vanBelle09/erroneous Av=0.205), => <Teff> = 8116K.
+  logg=3.97+-0.14(David15), logg=3.84+-0.07(Wu11). Mv=1.29.  tetLD =
+  1.328+-0.009mas(Boyajian13), fbol = (226.50+-0.229)e-8
+  erg/s/cm2(Boyajian13) => mbol = 2.615+-0.001(IIAU2015 scale).  BCv =
+  V - mbol = 2.560 - 2.615 = -0.055. vanBelle09 lists fbol =
+  (299.60+-5.69)e-11 W/m2 => mbol 2.311+-0.021, but this assumes oddly
+  high Av extinction (0.205+-0.014!) value for a star in the Local
+  Bubble (d=18pc!) - this particular mbol (2.311+-0.021) leads to a
+  very discrepent BCv estimate (BCv = +0.249). Luminosity: V=2.56,
+  BCv=-0.02, plx=55.82+-0.25mas, Av=0.00 => Mbol = 1.27, logL = 1.386
+  => w/Teff=8116K => Rad = 2.496Rsun.
+  
+# Deprecated Standard
 
-# Weak Standard
-
-HD 11636 = Bet Ari = 6 Ari = HR 553 = GJ 80
-  A5V: MK43,JM53,Jaschek64(all),Morgan65,Jaschek78,Garcia89
-  kA4hA5mA5Va: Gray03 (i.e. an A5Va!)
-  A5IV: Barry70
+HD 11636 = Bet Ari = 6 Ari = HR 553 = GJ 80 = HIP 8903 = Sheratan
+  A2: Ljunggren61
   A4V: Abt85,GrayGarrison89,Garrison96,Abt95
   A4: Olsen69
-  A5: Cannon
+  A5: Cannon,Cucchiaro78(A5m;S2/68 spectra)
+  A5V: MK43,JM53,Jaschek64(all),Morgan65,Jaschek78,Garcia89
+  kA4hA5mA5Va: Gray03 (i.e. an A5Va!)
+  A5IV: Maury1897,Barry70(A5IVb)
 
   Basically morphed from A5 under Morgan to A4 (Abt,Gray,Garrison),
   *despite* Morgan65 listing bet Ari as a "fundamental A5
   classification standard" w/ del Cas i.e. it's a fundamental standard
-  until someone comes along and changes it...  B-V(HIP)=0.165,
-  dMv=-0.53 (color is closer to Houk's mean A4V B-V color) I'm going
-  to stick to *A5V* following MK43,JM53,Morgan65,Gray03
-
-# Candidate Standard
+  until someone comes along and changes it. Poor agreement on
+  types. V=2.64(HIP), B-V(HIP)=0.165, plx=55.60+-0.58mas(HIP2),
+  dMv=-0.53 (color is closer to Houk's mean A4V B-V color). Tomkin87
+  (1987AJ.....94.1664T) calls it a "double-lined eccentric
+  spectroscopic binary", and says the star has mass ~1.9Msun and its
+  companion is late F or G0 (~1.1 Msun), and estimates mass ratio of
+  M2/M1=0.57. Tomkin87 estimates delta(V) ~ 2.8mag, in which case the
+  V mag from HIP (2.64) would correspond to V(A)=2.72 and V(B)=5.52.
+  For the primary then: V(A)=2.72, plx=55.60 => Mv=1.45.
+  
+# Exemplars
 
 HD 37507 = HR 1937 = 49 Ori = HIP 26563
-  A4V: Jaschek64(both; "SB"),Cowley69,GrayGarrison89(A4Vn)
-  A4IV: Slettebak55,Abt95
+ *A4V: Jaschek64(both; "SB"),Cowley69,GrayGarrison89(A4Vn)
+  A4IV: Slettebak55,Abt65,Abt95
   A2V: Houk99
 
-  Never previously considered a standard. Houk99 comments: "37507: HR
-  1937; 49 ORI; vSINi=185" Remarkable that *all* of the references in
-  Skiff09 (N=4) list it as an A4 subclass.  Houk99 does call it an
-  A2V, however. Using the revised Hipparcos astrometry, I find the
-  star to have Mv=1.52 or dMv = -0.23 (V=4.77; B-V=0.139;
-  V-I=0.16+-0.02; plx=22.42mas) Stars B-V and V-I are only 0.02 bluer
-  than the median B-V and V-I colors for the d<75 pc Hipparcos
-  sample. Hence the color-mag data are consistent with a A4V. This may
-  be a useful candidate "A4Vn" standard (agreement in subclass by
-  Slettebak, Abt, Jascheks, Gray, Garrison, and Cowley)
+  Never previously considered a standard, but excellent exemplar as
+  there is agreement in temp type by several expert
+  classifiers. Spectroscopic binary in SB9, which references Abt65 -
+  which reports it having a period of 445.74d, e=0.549 and K=28.6 km/s
+  - apparently single-lined.  Houk99 comments: "37507: HR 1937; 49
+  ORI; vSINi=185". Using the revised Hipparcos astrometry, I find the star to
+  have Mv=1.52 or dMv = -0.23 (V=4.77; B-V=0.139; V-I=0.16+-0.02;
+  plx=22.42mas). Stars B-V and V-I are only 0.02 bluer than the median
+  B-V and V-I colors for the d<75 pc Hipparcos sample. Hence the
+  color-mag data are consistent with a A4V.  Negligibly reddened:
+  E(B-V)=0.000(Kervella19,STILISM).  plx=22.9587+-0.1110mas(GaiaEDR3),
+  V=4.797+-0.011(Mermilliod91), B-V=0.139+-0.012(Mermilliod91),
+  U-B=0.107+-0.008(Mermilliod91), Teffs: 8023K(GaiaDR2),
+  8041K(Paunzen06), 8102K(Blackwell98), 8140K(Stassun18),
+  8185K(Zorec12), 8305K(diBenedetto98), 8416K(David15),
+  8760K(Sokolov95) => <Teff> = 8163K.
+  logg=4.06+-0.14(David15). Luminosity: V=4.797, plx=22.9587mas,
+  Av=0.00, BCv=-0.02 => Mv=1.60, Mbol=1.58, logL=1.263 => w/Teff=8163K
+  => Rad=2.141Rsun.
 
+24 CVn = HD 118232 = HR 5112 = HIP 66234
+ *A4V: Keenan41(A4),Slettebak55,Palmer68,Slettebak82,GrayGarrison89,Mora01(A4V shell)
+  A5V: Cowley69,1978A&AS...35...75C(S2/68 spectra),Abt95
+  A5/A6Va: Barry70
+
+  Negligibly reddened: E(B-V)=0.005(Kervella19,STILISM) => Av~0.016.
+  plx=18.09+-0.19mas(vanLeeuwen07), plx=17.5952+-0.1102mas(GaiaEDR3).
+  V=4.68(HIP), V=4.687+-0.021(Mermilliod91), B-V=0.132+-0.005(HIP),
+  B-V=0.129+-0.014(Mermilliod91), U-B=0.117+-0.015(Mermilliod91),
+  V-I=0.10+-0.03(HIP). (B-V)o= 0.132 - 0.005 = 0.127. Teff:
+  7700K(Gebran19#1), 8110K(Stassun18), 8180K(Gebran19#2),
+  8285+-282K(David15), 8489K(Gebran19#2) => <Teff> = 8180K.
+  Luminosity: V=4.687, plx=17.5952mas, Av=0.016, BCv=-0.02 => Mv=0.90,
+  Mbol=0.88, logL=1.545 => w/Teff=8180K => Rad=2.948Rsun.
+  
+xi Vir = HD 102124 = HR 4515 = HIP 57328 
+ *A4V: Cowley69,GrayGarrison89,Abt95
+  A5V: 1980A&AS...40..207C(S2/68 spectra)
+
+  Negligibly reddened: E(B-V)=0.000(Kervella19,STILISM).
+  V=4.838+-0.008(Mermilliod91), B-V=0.174(HIP),
+  B-V=0.176+-0.005(Mermilliod91), U-B=0.091+-0.010(Mermilliod91),
+  plx=26.73+-0.25mas(vanLeeuwen07),
+  logL=1.077+-0.014(Stassun19). Teffs: 7862K(GaiaDR2),
+  7910+-130K(Masana06), 7993K(Stassun18),
+  8035+-93K(Zorec12),8172K(McDonald12), 8298+-282K(David15) => <Teff>
+  = 7993K.  Rad=1.802+-0.053Rsun(Stassun19),
+  Rad=1.815+-0.091Rsun(Kervella19).  Luminosity: V=4.838, BCv=-0.02,
+  Av=0.00, plx=26.73 => Mv=1.97, Mbol=1.95, logL=1.115 => w/Teff=7993K
+  => Rad=1.882Rsun.
+  
 # Other Stars
 
-HD 59037 = HR 2857 = 64 Gem  (V=5.1)
+HD 59037 = HR 2857 = 64 Gem (V=5.1)
   A4V: Cowley69,GrayGarrison89(A4Vn)
-  A2.5V: Abt95
-  A6V: Osawa59
+  A2.5V: Abt95 A6V: Osawa59
+  
   Never considered a standard by anyone. Not very good agreement among authors (although
   Cowley and GrayGarrison89 agree). Probably not a good candidate standard. 
 
@@ -155,4 +292,10 @@ and HD 184006 (iot^2 Cyg) (both A4V).
 
 Gray01/03/06 lists *1* nearby A4V dwarf (HIP 113368 = Fomalhaut). As
 Fomalhaut is *the* A3V anchor, I do not believe that its BVI colors
-are typical for A4V dwarf stars. 
+are typical for A4V dwarf stars.
+
+HD 135384 = HR 5672 = BD+68 823
+  A2V: 1930MeUpp..48....1O
+ *A4Vn: Palmer68,Abt95
+  A8Vn: Cowley69
+

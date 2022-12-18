@@ -6,15 +6,17 @@ list an A9V dagger standard.
 44 Cet (= HR 401 = HD 8511) is a A9V standard. Unfortunately 44 Cet is
 significantly bluer than the d<75 pc A9V stars in the Hipparcos
 catalog, perhaps due to a difference in standards between Houk and
-Gray?
+Gray? Surprisingly none of the stars in the Gray03/Gray06 Nstars
+surveys are classified as a pure A9V (although HD 20320 is classified
+kA4hA9mA9V).
 
 Based on the literature search reflected in this file, Pecaut12 adopts
 HD 73450 as an A9V standard (good agreement among multiple
 classifiers). 
 
-GrayGarrison89:        HR 401 (=44 Cet)  - A9Vn (high-vsini standard) 
-GrayNstars standards:  HR 401 (=HD 8511) - A9V(n)
-Pecaut12 standard:     HD 73450 (=BS Cnc) - A9V 
+GrayGarrison89:       HR 401 (=44 Cet)  - A9Vn (high-vsini standard) 
+GrayNstars standards: HR 401 (=HD 8511) - A9V(n)
+Pecaut12 standard:    HD 73450 (=BS Cnc) - A9V 
 
 For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
 1 mag of the MS (N=13):
@@ -29,68 +31,134 @@ For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
 <V-Vt>(A9V)  =-0.032 (+-0.002 sem, +-0.007 stdev; N=13)
 <B-K>(A9V)   = 1.110 (+-0.037 sem, +-0.141 stdev; N=13)
 
-(B-V)(A9V)   = 0.321 ; A9V star HD 50635 (Garrison89)
+(B-V)(A9V)   = 0.324 ; exemplar HD 6670 
+(B-V)(A9V)   = 0.321 ; exemplar HD 50635 (Garrison89)
 <B-V>(A9V)   = 0.306 (+-0.011 sem, +-0.035 stdev) ; HIP d<75pc S/N>8 (N=13)
 (B-V)(A9V)   =  0.30  ; Fitzgerald70
+(B-V)(A9V)   = 0.288 ; d<60pc SIMBAD A9V (N=8)
 (B-V)(A9V)   =  0.275 ; Schmidt-Kaler82(halfway A8V-F0V)
 (B-V)(A9V)   =  0.27  ; KenyonHartmann95
+(B-V)(A9V)   = 0.268 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 (B-V)(A9V)   =  0.26  ; Morgan71
 (B-V)(A9V)   = 0.255 ; A9V star HD 28910 (Garrison89)
 (B-V)(A9V)   = 0.241 ; med B-V among Bidelman56 Praesepe A9Vs (minus E(B-V)=+0.01). 
 (B-V)(A9V)   = 0.235 ; A9Vn weak standard HD 8511 (Garrison89)
 (B-V)(A9V)   = 0.227 ; A9V+ star HD 70574 (Garrison89)
 (B-V)(A9V)   = 0.214 ; A9V+ star HD 30780 (Garrison89)
-=> adopt (B-V)(A9V)  = 0.255 ***
-=> adopt (U-B)(A9V)  = 0.080
-=> adopt (V-I)(A9V)  = 0.294
-=> adopt (V-R)(A9V)  = 0.143
-=> adopt (R-I)(A9V)  = 0.151 
-=> adopt (V-J)(A9V)  = 0.517
-=> adopt (V-H)(A9V)  = 0.595
-=> adopt (V-Ks)(A9V) = 0.638
-=> adopt (H-Ks)(A9V) = 0.043
-=> adopt (J-H)(A9V)  = 0.078
-=> adopt (K-W1)(A9V) = 0.028
+=> adopt (B-V)(A9V)  = 0.27  *** [updated 9/20/2019]
+=> adopt (U-B)(A9V)  = 0.069 
+=> adopt (V-I)(A9V)  = 0.311
+=> adopt (V-R)(A9V)  = 0.152
+=> adopt (R-I)(A9V)  = 0.159 
+=> adopt (V-J)(A9V)  = 0.545
+=> adopt (V-H)(A9V)  = 0.630
+=> adopt (V-Ks)(A9V) = 0.674
+=> adopt (H-Ks)(A9V) = 0.044
+=> adopt (J-H)(A9V)  = 0.086
+
+
+(Ks-W1)(A9V) = 0.048 ; EEM trend for d<30pc for B-V=0.27
+=> adopt (Ks-W1)(A9V) = 0.048 [updated 12/29/2019]
+
+(G-V)(A9V) =  -0.087  ; HD 196385 PM* A9V
+(G-V)(A9V) =  -0.078  ; HD 103928 PM* A9V
+(G-V)(A9V) =  -0.075  ; HD 112934 PM* A9V
+(G-V)(A9V) =  -0.072  ; HD 138936 PM* A9V
+(G-V)(A9V) =  -0.065  ; HD 37594 * A9V
+(G-V)(A9V) =   -0.064 ; V* DO Eri a2* A9VpSrEuCr
+(G-V)(F0V) =  -0.06  ; adopted for F0V
+(G-V)(A9V) =   -0.051 ; * 9 Lac PM* A9VkA7mA6
+(G-V)(A9V) = -0.051  ; polynomial fit f(B-V)
+(G-V)(A8V) =  -0.04  ; adopted for A8V
+(G-V)(A9V) = -0.036 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.674
+=> adopt (G-V)(A9V) = -0.05 [updated 4/8/2022]
+
+(Bp-Rp)(A9V) =  0.3194 ; 44_Cet
+(Bp-Rp)(A9V) = 0.349   ; color trend for B-V=0.27
+(Bp-Rp)(A9V) =  0.387  ; Evans18 trend for V-I=0.311
+=> adopt (Bp-Rp)(A9V) = 0.349 [updated 11/18/2020]
+
+(Bp-G)(A9V)  = 0.131   ; color trend for B-V=0.27
+(Bp-G)(A9V)  =  0.1415 ; 44_Cet
+=> adopt (Bp-G)(A9V) = 0.131 [updated 11/18/2020]
+ 
+(G-Rp)(A9V) =  0.1780  ; 44_Cet
+(G-Rp)(A9V) = 0.219    ; color trend for B-V=0.27
+=> adopt (G-Rp)(A9V) = 0.219 [updated 11/18/2020]
 
 (U-B)(A9V)   = 0.08  ; Fitzgerald70
 (U-B)(A9V)   = 0.069 ; HIP d<75pc S/N>8 A9V N=11 (Mermilliod91 photometry)
 
 (V-I)(A9V)   = 0.26  ; weak standard HD 8511
-(V-Ks)(A9V)  = 0.596 ; weak standard HD 8511 
+(V-Ks)(A9V)  = 0.596 ; weak standard HD 8511
+
+(g-r)(A9V)   = 0.137 ; Jordi06 (V-R)=>(g-r) for V-R=0.152
+(g-r)(A9V)   = 0.060 ; Covey07 interp A7V to F0V
+(g-r)(A9V)   = 0.052 ; Bilir05 (B-V)=>(g-r) for B-V=0.27
+=> adopt (g-r)(A9V) = 0.06 [updated 10/10/2020]
 
 Teff(A9V) =   7020 K ; Boyajian12
 Teff(A9V) =   7380 K ; GrayCorbally09
 Teff(A9V) =   7390 K ; Schmidt-Kaler82(halfway A8V-F0V)
+Teff(A9V) = 7396 K ; Zorec12 median 
 Teff(A9V) = 7430 K ; mean photometric Teff
 Teff(A9V) = 7451 K ; median of 90 published Teffs for A9V stars
+Teff(A9V) = 7500 K ; median Teff for 3 A9V from Gray17
 Teff(A9V) =   7540 K ; GrayCorbally94
-Teff(A9V) =  7606 K ; weak stan. HD 8511 median Teff (see below)
-=> adopt Teff(A9V) = 7440 K (logT = 3.872)
+Teff(A9V) = 7606 K ; weak stan. HD 8511 median Teff (see below)
+=> adopt Teff(A9V) = 7400 K (logT = 3.869) [updated 9/24/2020]
+[EEM 9/24/2020: 7400K fits smoothly on B-V vs. Teff sequence, agrees with modern Zorec Teff estimates]
 
-BCv(A9V) = 0.079 mag ; Balona94(Teff=7440K)
-BCv(A9V) = 0.072 mag ; Bertone04(Teff=7440K)
-BCv(A9V) = 0.044 mag ; Flower96(Teff=7440K)
-BCv(A9V) = 0.035 mag ; Schmidt-Kaler82(halfway A8V-F0V + 0.13 mag)
-BCv(A9V) = 0.032 mag ; Masana06(Teff=7440K, w/offset +0.04 mag)
-BCv(A9V) = 0.015 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7440K)
-BCv(A9V) = 0.010 mag ; Code76(Teff=7440K)
-=> adopt BCv(A9V) = 0.04 mag (+-0.03 rms)
+BCv(A9V) =  0.060 mag ; Balona94(Teff=7400K,BCv(5772K)=-0.085)
+BCv(A9V) =  0.058 mag ; Bertone04(Teff=7440K,BCv(5772K)=-0.085)
+BCv(A9V) =   0.035 mag ; Schmidt-Kaler82(halfway A8V-F0V + 0.13 mag)
+BCv(A9V) =  0.031 mag ; Flower96(Teff=7400K,BCv(5772K)=-0.085)
+BCv(A9V) =  0.020 mag ; EEM trend As/Fs
+BCv(A9V) =  0.017 mag ; Masana06(Teff=7400K,BCv(5772K)=-0.085)
+BCv(A9V) =  0.000 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7440K,BCv(5772K)=-0.085
+BCv(A9V) =  0.000 mag ; Code76(Teff=7400K,BCv(5772K)=-0.085)
+BCv(A9V) = -0.005 mag ; Casagrande18(Teff=7400K,logg=4.5,BCv(5772K)=-0.085)
+=> adopt BCv(A9V) = 0.02 [updated 9/24/2020, adjusted so that BCv(5772K)=-0.085]
 
-Mv(A9V) = 2.55 mag ; Schmidt-Kaler82(halfway A8V-F0V)
-Mv(A9V) = 2.5  mag ; GrayCorbally09
-Mv(A9V) = 2.30 mag ; Wright05(B-V=0.255)
-Mv(A9V) = 2.07 mag ; Wegner07
-=> adopt Mv(A9V) = 2.30 mag 
+logg(A9V) = 4.2 ; median logg for 3 A9V from Gray17
 
-logL(A9V) = 0.966 dex ; Mv=2.30, BCv=0.04 => Mbol = 2.34
-=> adopt logL(A9V) = 0.97 dex 
-=> adopt Mbol(A9V) = 2.34 mag
+Mv(A9V) =  2.84 mag ; exemplar HD 6670
+Mv(A9V) =  2.82 mag ; d<60pc A9V median N=8
+Mv(A9V) =  2.73 mag ; d<60pc median N=8
+Mv(A9V) =   2.55 mag ; Schmidt-Kaler82(halfway A8V-F0V)
+Mv(A9V) =  2.51  mag ; median Mv for A9V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
+Mv(A9V) =   2.5  mag ; GrayCorbally09
+Mv(A9V) =  2.45 mag ; A/F dwarf sequence for B-V=0.27
+Mv(A9V) = 2.43 mag  ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.27
+Mv(A9V) =  2.42 mag ; interp BAF dwarf seq for B-V=0.27
+Mv(A9V) =  2.38 mag ; Wright05(B-V=0.27)
+Mv(A9V) =  2.18 mag ; d<60pc Mv(B-V=0.255)
+Mv(A9V) =   2.07 mag ; Wegner07
+Mv(A9V) =  2.07 mag ; sec. stan. HD 8511 = 44 Cet 
+Mv(A9V) =  2.03 mag ; pri. stan. HD 73450 
+=> adopt Mv(A9V)   = 2.43  mag [updated 9/26/2020]
+=> adopt M_G(A9V)  = 2.37  mag [updated 12/10/2020] (Mv=2.43, G-V=-0.06)
+=> adopt M_Ks(A9V) = 1.756 mag [updated 12/30/2020] (Mv=2.43, V-Ks=0.674)
 
+logL(A9V) = 0.908 dex ; Mv=2.45, BCv=0.02 => Mbol = 2.47
+logL(A9V) = 0.916 dex ; Mv=2.43, BCv=0.02 => Mbol = 2.45
+logL(A9V) = 1.146 dex ; Zorec12 median
+=> adopt logL(A9V) = 0.916 dex [updated 9/26/2020]
+=> adopt Mbol(A9V) = 2.450 mag [updated 9/26/2020]
+
+Mass(A9V) = 1.65 Msun ; HenryMcCarthy93 fit for Mv=2.4
 Mass(A9V) = 1.65 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7440K)
-Mass(A9V) = 1.66 Msun ; EEM logL vs. Mass fit for binaries (logL=0.96)
-Mass(A9V) = 1.67 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.30)
-Mass(A9V) = 1.68 Msun ; Ekers15 ML calibration for logL=0.97
-=> adopt Mass(A9V) = 1.67 Msun
+Mass(A9V) = 1.63 Msun ; EEM logL vs. Mass fit for binaries (logL=0.928)
+Mass(A9V) = 1.63 Msun ; Ekers18 ML calibration for logL=0.928
+Mass(A9V) = 1.62 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.4)
+Mass(A9V) = 1.62 Msun ; David15 A9 MS (rms=0.21 Msun; N=102)
+=> adopt Mass(A9V) = 1.63 Msun [updated 12/29/2019]
+
+Rad(A9V) =  1.752 Rsun ; smoothed SpT vs Rad trend A/F dwarfs
+Rad(A9V) = 1.7466 Rsun ; logL=0.916, Teff=7400K
+Rad(A9V) = 1.7424 Rsun ; interp A7V-F2V for logT=3.869
+Rad(A9V) =  1.731 Rsun ; logL=0.908, Teff=7400K
+=> adopt Rad(A9V) = 1.747 Rsun [updated 9/26/2020]
 
 # No standard
 
@@ -105,7 +173,7 @@ HD 73450 (3 refs; V=8.5; del Scu), many with two A9V refs.
 # Primary Standard
 
 HD 73450 = BS Cnc = BD+20_2144 = Cl* NGC 2632 RG 328 (Praesepe member)
-  A9V: Jaschek64(Bidelman56),Jaschek78(Bidelman56),Abt86,Gray02,Pecaut12(stan)
+ *A9V: Jaschek64(Bidelman56),Jaschek78(Bidelman56),Abt86,Gray02,Pecaut12(stan)
   A7V: Kennedy83(Rebeirot66)
   A0: Cannon
 
@@ -114,7 +182,7 @@ HD 73450 = BS Cnc = BD+20_2144 = Cl* NGC 2632 RG 328 (Praesepe member)
   clusters in the survey of Gray & Corbally (2002).  Not in Hipparcos.
   Delta Scuti variable with amplitude 0.02 mag and period=0.05
   days. Member of NGC 2632 = M44 = Praesepe at d ~ 187 pc, with E(B-V)
-  = 0.009 mag (WEBDA). Neckel80 lists negligible
+  = 0.009 mag (WEBDA) => Av ~ 0.028. Neckel80 lists negligible
   extinction. Bidelman56 classified 5 Praesepe members as "A9" or
   "A9n", with median B-V=0.25 (but did not use A8 as a subtype). HD
   73450 has the median B-V of these five Bidelman56 A9
@@ -122,15 +190,16 @@ HD 73450 = BS Cnc = BD+20_2144 = Cl* NGC 2632 RG 328 (Praesepe member)
   J=8.006+-0.019(2MASS), H=7.949+-0.027(2MASS),
   Ks=7.875+-0.026(2MASS), (V-Ks)=0.715(Tycho,2MASS).  Hence,
   correcting for 0.009 mag of E(B-V) reddening, the intrinsic (B-V)o
-  for Praesepe A9 stars is 0.241.
+  for Praesepe A9 stars is 0.241. plx=4.9408+-0.2722mas(GaiaDR2).  Mv
+  = 2.03.
 
 # Secondary Standard
 
 HD 8511 = 44 Cet = HR 401 (J0124-0800)
+  A7Vn: Abt95
  *A9Vn: GrayGarrison89(stan)
   F0IVn(wk met): Paunzen01
   F0V: Cowley69,Grenier99
-  A7Vn: Abt95
 
   GrayGarrison89 & GrayNstars A9Vn standard, but not considered A9V by
   anyone else (however part of the disagreement could be due to the
@@ -144,7 +213,20 @@ HD 8511 = 44 Cet = HR 401 (J0124-0800)
   7606 K => Teff=7762(Allende-Prieto99), Teff=7422+-187(Paunzen06),
   Teff=7680(Gerbaldi07#1), Teff=7532(Gerbaldi07#2). All the colors are
   bluer than the nearby (d<75pc) A9V stars in the Hipparcos catalog.
+  Mv = 2.07.
 
+# Exemplar
+
+HD 6670 = 016.75451456974  -29.61514374503
+   A6: Philip72
+   A8V: Bond71
+  *A9V: Houk82,Lu92,Chen03
+   F0: Slettebak71,Drilling77
+
+   V=9.38(HIP), B-V=0.338+-0.017(HIP), B-V=0.328+-0.009(Mermilliod91).
+   plx = 4.9532+-0.0678 mas (GaiaDR2) => 202+-3 pc.  STILISM reddening
+   map predicts E(B-V)=0.004+-0.014 => Av ~ 0.012 => E(B-V) = 0.328 -
+   0.004 = 0.324.  Mv = 2.84.
 
 # Other Stars
 
@@ -156,3 +238,52 @@ Cowley76 did not have an A9V standard, but classified three bright
 stars as A9V: HR 3284 (A9V:), HR 4916 (A9V), HR 820 (A9V).
 
 Gray01/03/06 listed zero A9V stars in their nearby star survey. 
+
+HD 4399 = SB 312 = [PS72] 253
+   A6: Phillip72
+  *A8V: Lu92,Chen03
+   A9V: Bond71,Houk82,
+   F0: Slettebak71
+
+   Near south Galactic pole. V=9.68(Tycho), V=9.640(Mermilliod910,
+   B-V=0.264+-0.037(Tycho), B-V=0.280(Mermilliod91),
+   U-B=0.030(Mermilliod91). Av=0.03(Guarino92),
+   E(B-V)=0.024(Bianchi11).
+
+HD 27459 = HR 1356
+   A7V: Adams35
+   A8III: Gray01
+   A9IV: Cowley74
+   A9n: Wilson48
+   A9V: Morgan65, Peniche81
+   F0: 1920AN....211..289K
+  *F0IV: GrayGarrison89,Abt95
+   F0V: 1940ApJ....91..256T
+
+   Only Hyad classified A9V by Morgan65. 
+
+HD 6114 = HR 289
+   A0: 1952IzKry...9...82G
+   A3V: Adams35
+  *A9V: Cowley74,Abt95
+   A9IV: Abt81
+
+HD 89455 = HR 4055
+  *A9V: Malaroda95,Abt95
+
+   Only two classifications are A9V.
+
+HD 103928 = HR 4574
+  *A9V: Cowley67,Cowley79
+   F0V: Abt95
+
+HD 184977 = HR 7453
+   A9V: Cowley69,Abt95
+
+HD 84812 = HR 3885
+  *A9Vn: Cowley69,Abt95
+   F0IVn: Cowley76
+   F2: 1926MeUpp..11....1L
+
+
+
