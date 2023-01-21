@@ -48,7 +48,7 @@ and within 1 mag of the MS (N=12):
 (B-V)(A1V) = 0.031 ; pri. stan. HD 10939
 (B-V)(A1V) = 0.039 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 (B-V)(A1V) = 0.041 ; ter. stan. HD 21447/HR 1046
-(B-V)(A1V) = 0.043 ; sec. stan. del Vel
+(B-V)(A1V) = 0.043 ; exemplar del Vel
 (B-V)(A1V) = 0.050 ; d<60 pc SIMBAD A1V N=15
 (B-V)(A1V) =   0.05  ; JohnsonMorgan53
 <B-V>(A1V) = 0.055 (+-0.013 sem, +-0.016 stdev) ; Gray01/03/06 (N=4)
@@ -119,7 +119,7 @@ Teff(A1V) =   9500 K ; GrayCorbally09
 Teff(A1V) =   9480 K ; GrayCorbally94
 Teff(A1V) = 9478 K ; pri. stan. HD 10939 (median Teff)
 Teff(A1V) = 9397 K ; Zorec12 median
-Teff(A1V) = 9320 K ; ter. stan. HD 74956/del Vel (median Teff)
+Teff(A1V) = 9320 K ; exemplar HD 74956/del Vel (median Teff)
 Teff(A1V) = 9296 K ; sec. stan. HD 9132/48 Cet (median Teff)
 Teff(A1V) = 9240 K ; ter. stan. HD 21447 
 Teff(A1V) =   9230 K ; Schmidt-Kaler82
@@ -230,23 +230,6 @@ HD 9132 = 48 Cet
   => <Teff> = 9296K.
 
 # Tertiary Standard
-
-HD 74956 = del Vel = HR 3485 
- *A1Va(n): Gray06
-  A1Va: Gray87,Garrison96(for "AB")
-  A1V: Levato72,Jaschek78
-  A0V: Houk75(overexp,from Garrison)
-  A2V: Cucchiaro80
-
-  Garrison96 gives A1Va for AB combined (0.74" separation, deltaV ~
-  3.6 mag). Not a Gray87 A1Va standard. HIP: V=1.93, B-V =
-  0.043+-0.006, V-I = 0.05+-0.02. Mermilliod91 photometry for
-  unresolved pair: V=1.956+-0.008, B-V=0.039+-0.003,
-  U-B=0.064+-0.016. 2MASS photometry is poor in all bands.  Teffs:
-  9021K(Gray06), 9200K(Grenier99), 9290K(Zorec12), 9298K(Stassun18),
-  9320K(Sokolov95), 9450K(Eker15), 9477K(David15), 9500K(Su08),
-  9830K(Eker15#2) => <Teff> = 9320K.  logg=3.66(Allende-Prieto99),
-  3.79(Gray06). [M/H]=-0.33(Gray06).  Mass=2.51Msun(Allende-Prieto99)
 
 HD 21447 = HR 1046
   A0V: Rydstrom78
@@ -377,6 +360,30 @@ HD 31647 = ome Aur = 4 Aur = HR 1592
   U-B(AB)=0.025+-0.015(Mermilliod91).  HIP/TYC: Bt(A)= 5.014+-0.004,
   Vt(A)= 4.991+-0.004 => converted via Mamajek06 => V=4.989+-0.004,
   B-V=0.015+-0.005.  Mv(A) = 1.520+-0.012(HIP/TYC,GaiaEDR3).
+
+HD 74956 = del Vel = HR 3485
+ *A2IV+A4V+F8V: Kervella09
+  A1Va(n): Gray06
+  A1Va: Gray87,Garrison96(for "AB")
+  A1V: Levato72,Jaschek78
+  A0V: Houk75(overexp,from Garrison)
+  A2V: Cucchiaro80
+
+  Triple within 1", and "A" is eclipsing binary.  Garrison96 gives
+  A1Va for AB combined (0.74" separation, deltaV ~ 3.6 mag). Not a
+  Gray87 A1Va standard. HIP: V=1.93, B-V = 0.043+-0.006, V-I =
+  0.05+-0.02. Mermilliod91 photometry for unresolved pair:
+  V=1.956+-0.008, B-V=0.039+-0.003,
+  U-B=0.064+-0.016. V(Aab)=2.00+-0.02(Kervella09), V(Aa)=2.33+-0.03,
+  V(Ab)=3.44+-0.03, V(B)=5.54+-0.08(Kervella09). Masses:
+  M(Aa)=2.5+-0.1Msun(Kervella09), M(Ab)=2.0+-0.1Msun(Kervella09),
+  M(B)=1.3+-0.1Msun(Kervella09).  2MASS photometry is poor in all
+  bands.  Teffs: 9021K(Gray06), 9200K(Grenier99), 9290K(Zorec12),
+  9298K(Stassun18), 9320K(Sokolov95), 9450K(Eker15), 9477K(David15),
+  9500K(Su08), 9830K(Eker15#2) => <Teff> = 9320K.
+  logg=3.66(Allende-Prieto99), 3.79(Gray06). [M/H]=-0.33(Gray06).
+  Mass=2.51Msun(Allende-Prieto99)
+
 
 # Other Stars
 
