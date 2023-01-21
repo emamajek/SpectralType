@@ -67,18 +67,61 @@ HD 224618, and HD 26965.
 <B-V>(K0V) =  0.761 ; Crawford76
 => adopt (B-V)(K0V)  = 0.816 *** [updated 8/29/2019]
 => adopt (U-B)(K0V)  = 0.436
-=> adopt (V-I)(K0V)  = 0.853
-=> adopt (V-R)(K0V)  = 0.443
-=> adopt (R-I)(K0V)  = 0.410
 => adopt (V-J)(K0V)  = 1.475
 => adopt (V-H)(K0V)  = 1.862
 => adopt (V-Ks)(K0V) = 1.953
 => adopt (H-Ks)(K0V) = 0.091
 => adopt (J-H)(K0V)  = 0.387
 
+(U-B)(K0V)   = 0.450 ; HIP d<75pc S/N>8 K0V N=95 (Mermilliod91 photometry)
+(U-B)(K0V)   = 0.47  ; Johnson66
+(U-B)(K0V)   = 0.48  ; JohnsonMorgan53
+
+(V-Rc)(K0V) =  0.423 ; HIP 1031 (Koen10)
+(V-Rc)(K0V) =  0.454 ; HIP 39064 (Koen10)
+(V-Rc)(K0V) =  0.461 ; HIP 99452 (Koen10)
+(V-Rc)(K0V) =  0.461 ; HIP 81735 (Koen10)
+(V-Rc)(K0V) =  0.467 ; HIP 74702 (Koen10)
+(V-Rc)(K0V) = 0.474 ; trend B-V vs V-Rc for B-V=0.857
+(V-Rc)(K0V) =  0.477 ; HIP 66765 (Koen10)
+=> adopt (V-Rc)(K0V) = 0.47 [updated 1/15/2023]
+
+(V-Ic)(K0V) =  0.810 ; HIP 1031 (Koen10)
+(V-Ic)(K0V) = 0.856 ; HIP K0V d<75pc N=216 (+-0.004 sem, +-0.044 stdev)
+(V-Ic)(K0V) = 0.857 ; Gray01/03/06 K0V using HIP V-Ic (+-0.006 sem, +-0.038 stdev)
+(V-Ic)(K0V) = 0.863 ; trend B-V vs V-Ic for B-V=0.816
+(V-Ic)(K0V) =  0.873 ; HIP 39064 (Koen10)
+(V-Ic)(K0V) =  0.877 ; HIP 74702 (Koen10)
+(V-Ic)(K0V) =  0.878 ; HIP 81375 (Koen10)
+(V-Ic)(K0V) =  0.886 ; HIP 99452 (Koen10)
+(V-Ic)(K0V) =  0.887 ; HIP 66765 (Koen10)
+=> adopt (V-Ic)(K0V)  = 0.86 [updated 1/15/2023]
+=> adopt (Rc-Ic)(K0V) = 0.39 [updated 1/15/2023; V-Ic=0.86, V-Rc=0.47]
+
 (Ks-W1)(K0V) = 0.070 ; EEM trend for d<30pc for B-V=0.816
 => adopt (Ks-W1)(K0V) = 0.070 [updated 12/29/2019]
 
+Gray01/03/06 list 40 nearby K0V stars. Median HIP colors:
+<B-V>(K0V) = 0.818 (+-0.009 sem, +-0.057 stdev; N=40)
+<V-I>(K0V) = 0.857 (+-0.006 sem, +-0.038 stdev; N=40)
+
+For Hipparcos K0V stars within 75pc, parallax S/N > 8, and
+within 1 mag of the main sequence (N=216):
+<B-V>(K0V)   = 0.822 (+-0.004 sem, +-0.049 stdev)
+<V-I>(K0V)   = 0.856 (+-0.004 sem, +-0.044 stdev)
+<V-J>(K0V)   = 1.486 (+-0.009 sem, +-0.109 stdev)
+<V-H>(K0V)   = 1.873 (+-0.012 sem, +-0.149 stdev)
+<V-Ks>(K0V)  = 1.975 (+-0.014 sem, +-0.154 stdev)
+<J-H>(K0V)   = 0.392 (+-0.004 sem, +-0.046 stdev)
+<H-K>(K0V)   = 0.101 (+-0.002 sem, +-0.031 stdev)
+<Bt-Vt>(K0V) = 0.947 (+-0.004 sem, +-0.073 stdev) 
+<V-Vt>(K0V)  =-0.086 (+-0.002 sem, +-0.027 stdev; N=212) 
+<B-K>(K0V)   = 2.800 (+-0.012 sem, +-0.187 stdev; N=216)
+
+(g-r)(K0V) = 0.602 ; Jordi06 (V-R)=>(g-r) for V-R=0.443
+(g-r)(K0V) = 0.62  ; Covey07
+(g-r)(K0V) = 0.666 ; Bilir05 (B-V)=>(g-r) for B-V=0.816
+=> adopt (g-r)(K0V) = 0.62 [updated 10/10/2020]
 
 (G-V)(K0V) =  -0.248  ; exemplar HD 10780
 (G-V)(K0V) =  -0.245  ; exemplar 20 Crt = HR 4458 
@@ -116,32 +159,6 @@ HD 224618, and HD 26965.
 => adopt (G-Rp)(K0V) = 0.553 [updated 8/29/2020]
 => adopt (Bp-G)(K0V) = 0.430 [updated 8/29/2020; Bp-Rp=0.983, G-Rp=0.553]
 
-Gray01/03/06 list 40 nearby K0V stars. Median HIP colors:
-<B-V>(K0V) = 0.818 (+-0.009 sem, +-0.057 stdev; N=40)
-<V-I>(K0V) = 0.857 (+-0.006 sem, +-0.038 stdev; N=40)
-
-For Hipparcos K0V stars within 75pc, parallax S/N > 8, and
-within 1 mag of the main sequence (N=216):
-<B-V>(K0V)   = 0.822 (+-0.004 sem, +-0.049 stdev)
-<V-I>(K0V)   = 0.856 (+-0.004 sem, +-0.044 stdev)
-<V-J>(K0V)   = 1.486 (+-0.009 sem, +-0.109 stdev)
-<V-H>(K0V)   = 1.873 (+-0.012 sem, +-0.149 stdev)
-<V-Ks>(K0V)  = 1.975 (+-0.014 sem, +-0.154 stdev)
-<J-H>(K0V)   = 0.392 (+-0.004 sem, +-0.046 stdev)
-<H-K>(K0V)   = 0.101 (+-0.002 sem, +-0.031 stdev)
-<Bt-Vt>(K0V) = 0.947 (+-0.004 sem, +-0.073 stdev) 
-<V-Vt>(K0V)  =-0.086 (+-0.002 sem, +-0.027 stdev; N=212) 
-<B-K>(K0V)   = 2.800 (+-0.012 sem, +-0.187 stdev; N=216)
-
-(U-B)(K0V)   = 0.450 ; HIP d<75pc S/N>8 K0V N=95 (Mermilliod91 photometry)
-(U-B)(K0V)   = 0.47  ; Johnson66
-(U-B)(K0V)   = 0.48  ; JohnsonMorgan53
-
-(g-r)(K0V) = 0.602 ; Jordi06 (V-R)=>(g-r) for V-R=0.443
-(g-r)(K0V) = 0.62  ; Covey07
-(g-r)(K0V) = 0.666 ; Bilir05 (B-V)=>(g-r) for B-V=0.816
-=> adopt (g-r)(K0V) = 0.62 [updated 10/10/2020]
-
 Teff(K0V) = 5172 K ; Ramirez05 Teff calibration for B-V=0.816
 Teff(K0V) = 5215 K ; Napiwotzki93 Teff calibration for B-V=0.816
 Teff(K0V) =  5230 K ; mean photometric Teff
@@ -151,6 +168,7 @@ Teff(K0V) = 5270 K ; exemplar GJ 631 (~solar [Fe/H]; see below)
 Teff(K0V) = 5272 +- 19 K ; Pecaut13 (GJ 631)
 Teff(K0V) = 5275 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs Hinkel17 for B-V=0.816
 Teff(K0V) = 5278 K ; Casagrande10 Teff calibration for B-V=0.816
+Teff(K0V) =  5280 K ; Gray03 
 Teff(K0V) = 5288 K ; sec. stan. HD 224618 (see below)
 Teff(K0V) = 5294 K ; median of 406 Teff estimates for K0V stars
 Teff(K0V) = 5300 K ; smoothed Teff(SpT) trend

@@ -265,12 +265,12 @@ GJ 250B = HD 50281B = LHS 1876 = WDS J06523-0510Ba,Bb = 2MASS J06521804-0511241
 
 # Tertiary Standard
 
-GJ 226 = G 222-11 = 2MASS J06101978+8206256
+GJ 226 = LHS 215 = HIP 29277 = GCTP 1358 = G 222-11 = 2MASS J06101978+8206256 
   M2V: Lee47(M2),Hawley97,Reiners12,Neves13,Shkolnik14
  *M2.5V: Bidelman85,Kirkpatrick91(sec),Kirkpatrick94,Henry02,Dieterich12,Lepine13
   M3V: Stephenson86,Gaidos14
 
- I've put it as tertiary standard as Kirkpatrick considered in a
+  I've put it as tertiary standard as Kirkpatrick considered in a
   secondary standard, but multiple studies have put it as either M2 or
   M3 since. However its color (V-Ks=4.43), absolute magnitudes
   (Mv=10.61, M_Ks=6.18, M_G=9.59) place it closer to the middle of the
@@ -279,15 +279,15 @@ GJ 226 = G 222-11 = 2MASS J06101978+8206256
   3520K(Lepine13), 3470K(Morales08).  R=0.43+-0.04Rsun(Gaidos14),
   L=0.027+-0.06Lsun(Gaidos14).  V=10.490+-0.010(Mermilliod91),
   V=10.488(Hauck90), V=10.48(HIP), V=10.42(TYC),
-  B-V=1.524+-0.010(Mermilliod91), B-V=1.514+-0.014(HIP),
-  U-B=1.180+-0.013(Mermilliod91), J=6.869+-0.023(2MASS),
-  H=6.295+-0.017(2MASS), Ks=6.061+-0.018(2MASS),
-  V-Ks=4.429+-0.021(Mermilliod91,2MASS). Gaia EDR3: plx=
-  105.6903+-0.0142mas, G=9.47.  Mv=10.61+-0.01, M_Ks=6.18+-0.02,
-  M_G=9.59. [Fe/H]: -0.14(Neves13#2), -0.11+-0.16(Schweitzer19),
-  -0.07(calc using SchlaufmanLaughlin10), 0.00(Neves13#1), 0.02(calc
-  using JohnsonApps09). JohnsonApps09 calibration suggests it is +0.13
-  mag (below MS).
+  G=9.470075+-0.002774(GaiaDR3), B-V=1.524+-0.010(Mermilliod91),
+  B-V=1.514+-0.014(HIP), U-B=1.180+-0.013(Mermilliod91),
+  J=6.869+-0.023(2MASS), H=6.295+-0.017(2MASS),
+  Ks=6.061+-0.018(2MASS), V-Ks=4.429+-0.021(Mermilliod91,2MASS). plx=
+  105.6903+-0.0142mas(GaiaDR3). Mv=10.61+-0.01, M_Ks=6.18+-0.02,
+  M_G=9.590+-0.003.  [Fe/H]: -0.14(Neves13#2),
+  -0.11+-0.16(Schweitzer19), -0.07(calc using SchlaufmanLaughlin10),
+  0.00(Neves13#1), 0.02(calc using JohnsonApps09). JohnsonApps09
+  calibration suggests it is +0.13 mag (below MS).
 
 # Exemplar
 
@@ -364,3 +364,27 @@ GJ 408 = LHS 6193 = HIP 53767 = LTT 12942 = StKM 2-688
  *M2.5V: Henry94,Lurie13
   M3: Bidelman85,Gaidos14
   M4V: Stephenson86
+
+TOI-700
+  M2+-1: Gilbert20
+  M2.7+-0.5: Sebastian21
+
+  plx=32.1328+-0.0271mas(GaiaDR3).  B=14.57(SPM4),
+  B=14.550+-0.047(APASS/DR9/Gilbert20), B=14.587698(GaiaDR3/synth),
+  V=13.10+-0.01(Gilbert20), V=13.097497(GaiaDR3/synth), V=13.06(SPM4),
+  V=13.072+-0.012(APASS/DR9/Gilbert20), V=13.076+-0.02(UCAC4),
+  G=12.063116+-0.002775(GaiaDR3), Rc=12.022889(GaiaDR3/Synth),
+  Ic=10.715272(GaiaDR3/synth), I_KC=10.73+-0.02(Gilbert20),
+  J=9.469+-0.023(2MASS), J=9.493+-0.030(2MASS6x),
+  H=8.893+-0.027(2MASS), H=8.951+-0.042(2MASS6x),
+  Ks=8.634+-0.023(2MASS), Ks=8.645+-0.024(2MASS6x).  Teffs:
+  3219K(GaiaDR3/GSPphot), 3414K(GaiaDR3/GSPspec), 3416K(Anders19),
+  3451K(Anders22), 3459+-65K(Gilbert23), 3499+-104K(Sebastian21),
+  3570.4+-43.5K(Tsantaki22), 3577K(Sprague22), 3800K(GaiaDR3/template)
+  Mass=0.415+0.021-0.020Msun(Gilbert23).
+  Rad=0.421+0.017-0.015Msun(Gilbert23).
+  Lum=0.0229+0.0026-0.0023Lsun(Gilbert23) => logL=-1.64016.
+  Mv=10.635+-0.010, M_Ks=6.169+-0.023, M_G=9.598+-0.003.  Note that
+  TOI-700 is nearly a twin of the Kirkpatrick91 M2.5V standard star
+  GJ226 (Mv=10.61, M_Ks=6.18, M_G=9.59).
+  

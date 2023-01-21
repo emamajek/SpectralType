@@ -268,6 +268,7 @@ Teff(M0V) =  3835 K ; candidate standard GJ 839 median Teff
 Teff(M0V) =   3850 K ; Schmidt-Kaler82
 Teff(M0V) = 3855 K ; Rad=0.5735Rsun for Mann15 calib for M_K=5.20, [Fe/H]=0.0
 Teff(M0V) =  3870 K ; sec. stan. GJ 328
+Teff(M0V) =  3874 K ; exemplar Lacaille 8760 (L+R=>T)
 Teff(M0V) =  3880 K ; empirical M-R relation **
 Teff(M0V) =  3888 K ; mean photometric Teff
 Teff(M0V) =  3900 K ; Rajpurohit13 (N=1, LHS 141)
@@ -327,7 +328,7 @@ M_Ks(M0V) =  5.18  ; V-Ks=3.65 => EEM fit to Jao16
 M_Ks(M0V) = 5.15  ; V-Ks=3.65 => smooth MS K/M dwarf trend
 M_Ks(M0V) =  5.10  ; V-Ks=3.65 => EEM fit to Reid CNS3 data
 M_Ks(M0V) =  5.07  ; pri. stan. GJ 270
-M_Ks(M0V) =  5.05  ; non-stan. GJ 825 = Lacaille 8760 
+M_Ks(M0V) =  5.05  ; exemplar GJ 825 = Lacaille 8760 
 M_Ks(M0V) =  4.81  ; ter. stan. GJ 123
 M_Ks(M0V) =  4.79  ; sec. stan. GJ 328 
 
@@ -363,6 +364,7 @@ logL(M0V) =   -1.51  dex ; deprecated stan. GJ 686
 logL(M0V) =  -1.215 dex ; Morrell19 trend for LogL for M_Ks=5.23
 logL(M0V) = -1.164 dex ; M_Ks=5.15, BC_Ks=2.50 => Mbol = 7.65
 logL(M0V) =  -1.09  dex ; pri. stan. GJ 270
+logL(M0V) =  -1.08  dex ; exemplar Lacaille8760 (see below)
 => adopt logL(M0V) = -1.164 dex [updated 3/2/2021]
 => adopt Mbol(M0V) =  7.650 mag [updated 3/2/2021]
 
@@ -372,6 +374,7 @@ Mass(M0V) = 0.568 Msun ; M_Ks=5.20 => Mann18 calib.
 Mass(M0V) =  0.571 Msun ; Eker15 calibration for logL=-1.204
 Mass(M0V) = 0.580 Msun ; Eclipsing binary M0V NGTSJ0930-18A (Acton20)
 Mass(M0V) = 0.584 Msun ; Mv=8.91 => HenryMcCarthy93 calibration
+Mass(M0V) = 0.585 Msun ; exemplar Lacaille 8760 (Mann18 calibration, see below)
 Mass(M0V) = 0.618 Msun ; M_Ks=5.20 => Benedict16 calibration
 Mass(M0V) = 0.615 Msun ; Delfosse00 calib. for M_Ks=5.2
 Mass(M0V) = 0.616 +-0.006 Msun ; GU Boo A (Benedict16)
@@ -389,6 +392,8 @@ Rad(M0V) = 0.5823 Rsun ; Mann15 trend M_Ks=5.15, [Fe/H]=0.0
 Rad(M0V) =  0.584  Rsun ; Eclipsing binary NGTSJ0930-18 A (Acton20)
 Rad(M0V) = 0.5885 Rsun ; logL=-1.164, Teff=3850K
 Rad(M0V) =  0.5965 Rsun ; Morrell19 (Teff=3900K)
+Rad(M0V) =  0.600 Rsun ; exemplar Lacaille 8760 (using Mann15 relation).
+Rad(M0V) =  0.640 Rsun ; exemplar Lacaille 8760 (using Salsi20 relation)
 => adopt Rad(M0V) = 0.588 Rsun [updated 3/2/2021]
 
 # No standard
@@ -523,6 +528,110 @@ GJ 328 = HIP 43790 = Ross 623 = BD+2_2098 = LHS 255 = G 46-9 = G 114-21 = LFT 61
 
 # Exemplars
 
+GJ 825 = Lacaille 8760 = HD 202560 = AX Mic = HIP 105090 = UGP 518 = LHS 66 = Gaia DR3 6583272171336048640 (J2117-3852)
+  K7.0: Hawley97(Kirkpatrick12)
+  K9.0V: Isaacson17
+  Map: Cannon24(see below)
+ *M0V: Evans57(M0Ve),Upgren72,Bidelman85(M0),Torres06
+  M0.5V: Walker83
+  M1V: Adams26,Joy74,Keenan89(non-stan),Gaidos14(M1)
+  M1.4+-0.4: Sebastian21(photometric)
+  M1/2V: Houk82
+
+  Brightest M dwarf in Gaia G-band (V=5.98) in SIMBAD and V-band
+  (V=6.68) in SIMBAD, and recognized widely as the brightest M dwarf
+  (e.g., Croswell 2002
+  http://kencroswell.com/thebrightestreddwarf.html). Despite being
+  brightest, it is only the 24th nearest M dwarf (Wikipedia nearby
+  star list). Star was first observed and recorded as a 7th magnitude
+  star by Nicolas Louis de La Caille 1751-1752 (entry 8760; see 1847
+  publication of catalog at
+  https://archive.org/details/bub_gb_hbEvAQAAMAAJ/page/n247/mode/2up)
+  from Cape of Good Hope with 0.5-in telescope, with the next
+  brightest M dwarf (Lacaille 9352) listed just pages later. In the
+  final volume of HD catalog (Cannon24), the star stood out
+  sufficiently that Cannon mentions it on page 4 in an overview of the
+  properties of stellar spectra ("lines of low temperature are
+  abnormally intense"), and she classified it as "Map" (i.e. "Ma" "p"
+  for peculiar), and remarked "Proper motion, 3".46, 249.4 [deg]. The
+  spectrum shows strong characteristics of low temperature. Line 4227
+  is very strong. The titanium oxide bands are only faintly seen." (HD
+  202500, ptm. phot. mag. 7.9 [on blue sensitive plates]). Later in
+  Cannon24, she lists HD 217987 (Lacaille 9352) also as "Map" and
+  ptm. mag 7.44 and photographic magnitude 9.0, and commented "The
+  spectrum shows the characteristics of dwarfs. Parallax 0".29, Proper
+  motion, 7".0, 80.5 [deg]". So Cannon acknowledged that Lac 8760 and
+  Lac 9352 were both M type and nearby dwarfs, with Lac 8760 being ~1
+  mag brighter of the two.  Lac 8760 has a wide range of
+  classifications over the past few decades, so it might not be the
+  best choice of standard (suprising given its historical importance
+  and brightness). It was the one "pure" M1V in Keenan89 (although not
+  a standard, although there are two M1V variants). As one of the
+  brightest, nearest M dwarfs, any temperate rocky planets would be
+  among the most accessible to future IROUV observatory
+  (Earth-equivalent instellation distance angular separation = 81.5
+  mas, highest among M dwarfs, and only one >60 mas). Unfortunately
+  there really isn't good agreement to consider a good standard.  Note
+  that Joy74's M1V corresponds roughly to M0.5(+-1.0) on the
+  Kirkpatrick91 system (see notes in M0V.txt), and Teff (below) is
+  most similar to M0.5V-ish.  V=6.691+-0.030(Mermilliod91),
+  V=6.69(HIP), V=6.690+-0.009(Kharchenko05), V=6.686+-0.010(Turon93),
+  V=6.676819(GaiaDR3,synth), V=6.67(Winters15),
+  V=6.648+-0.003(Paunzen15).  B-V=1.387(GaiaDR3),
+  B-V=1.397+-0.002(HIP), B-V=1.397+-0.012(Mermilliod91),
+  U-B=1.183+-0.116(Mermilliod91), V-I=1.77+-0.02(HIP),
+  V-Ic=1.791(GaiaDR3,synth), Rc=5.77(Winters15),
+  Rc=5.766398(GaiaDR3,synth), Ic=4.91(Winters15),
+  Ic=4.885989(GaiaDR3), G=5.984104(GaiaDR3), Bp-Rp=1.853587(GaiaDR3),
+  Bp-G=0.908621(GaiaDR3), G-Rp=0.944966(GaiaDR3).  2MASS photometry is
+  low quality (errors >0.2mag). J(MSSSO)=3.910(McGregor94),
+  H(MSSSO)=3.240(McGregor94), K(MSSSO)=3.078(McGregor94),
+  K-L(MSSSO)=0.110(McGregor94). Transformed MSSSO photometry to 2MASS
+  (via
+  https://www.ipac.caltech.edu/2mass/releases/allsky/doc/sec6_4b.html)
+  Ks=3.044(estimated). V-Ks = 6.691 - 3.044 = 3.647. G-Ks = 5.984 -
+  3.044 = 2.940. G-V = 5.984 - 6.691 =
+  -0.707. plx=251.9124+-0.0352mas(GaiaDR3). M_V=8.70, M_G=7.99,
+  M_Ks=5.05. G-V = The absolute magnitudes are typical for K9.5V,
+  K9.5V, K9V for V, G, Ks, respectively, although the V-Ic, G-Ks, V-Ks
+  colors are all typical for M0Vs. Using the M dwarf metallicity
+  calibrations using VK photometry, one finds that the star is ~0.14
+  mag off of the main sequence, and one can derive photometric
+  metallicities of: [Fe/H]=0.029(Johnson&Apps09 cal.) and
+  [Fe/H]=-0.058(Schlaufman&Laughlin10 cal), i.e. approximately solar.
+  Teffs: 3592K(Alonso96), 3599+-52K(Ramirez05),
+  3599+-114K(TIC/Stassun19), 3704+-110K(Kuznetsov19),
+  3776+-80K(Gaidos14), 3795K(Lindgren17), 3796+-18K(Koleva12),
+  3800K(VOSA fit,[Fe/H]=0,logg=5), 3905+-1K(GaiaDR3),
+  3912K(Moro-Martin15), 3930K(Morales08) => <Teff> = 3786K.
+  logg=4.55+-0.08(Kovleva12). [M/H]=-0.50(GaiaDR3),
+  [Fe/H]=0.01(GaiaDR3), [Fe/H]=-0.62+-0.07(Koleva12),
+  [Fe/H]=-0.01+-0.04(Lindgren17).  [a/Fe]=0.14(GaiaDR3). Gaidos14
+  TiO5=0.818+-0.008, CaH2=0.772+-0.003, CaH3=0.891+-0.003.  VOSA SED
+  fit (model=BT-Settl-AGSS2009), forcing [M/H]=0, logg=5.0:
+  Teff=3800K, logL=-1.0805+-0.0004. Note that Brown22 lists
+  logL=-1.080872470, i.e.  essentially identical!
+  logL=-0.98034+-0.07068(Stassun19/TICv8).  There does not appear to
+  be a published *measured* diameter for the star. Using the
+  calibration of Mann15, the absolute magnitude M_Ks=5.05 and assuming
+  solar metallicity => Rad=0.600Rsun.  Using the Morrell19 calibration
+  for G-Ks=2.94, one can estimate bolometric correction
+  BC_Ks=2.494+-0.014 => Mbol = 7.544 => logL=-1.122. Gaidos14
+  estimates L=0.048+-0.010Lsun => -1.319+-0.092, which seems way too
+  low.  Using the surface brightness relation from Salsi20 for
+  V-Ks=3.647, one derives Fv0=3.46257, combined with V=6.69 => ang
+  diam = 1.500 mas => for GaiaDR3 plx/dist => rad=0.640Rad!
+  (calibration fit for M dwarfs is 1.73% in angular diameter) =>
+  0.640+-0.011Rad. This is slightly larger (6.7%) than the Mann15
+  calibration estimate. Combining the luminosity estimate from VOSA
+  fit and the radius estimate from the Salsi20 surf. brightness
+  relation => Teff=3874K. This Teff is within +-100K of several
+  previously published estimates, within 2% of the VOSA SED fit,
+  within 0.8% of the GaiaDR3 value, and within 2.6% of the Gaidos14
+  value - and argues for the higher Teff scale. Notably it 7.6% higher
+  than the TICv8 Teff! Mass: Mann18 calibration M_Ks=3.044 =>
+  Mass=0.585+-0.022Msun.
+
 GJ 839 = LHS 3727 = G 215-20 = MCC 72 =
   K7: Bidelman85
  *M0V: Vyssotsky43,Lee47(M0),Stephenson86,Hawley97(M0),Lepine13(M0.0),Gaidos14(M0)
@@ -589,75 +698,6 @@ GJ 338B = HD 79211 = LHS 261 = Lalande 18115 B
   E(BP/RP)=1.317, plx=157.8825 0.0211mas => Mv=8.69+-0.03, M_G=8.039.
   G-V = 7.0477 - 7.697 = -0.649.
 
-GJ 825 = Lacaille 8760 = HD 202560 = AX Mic = HIP 105090 = UGP 518 = LHS 66 = Gaia DR3 6583272171336048640 (J2117-3852)
-  K7.0: Hawley97(Kirkpatrick12)
-  K9.0V: Isaacson17
-  Map: Cannon24(see below)
- *M0V: Evans57(M0Ve),Upgren72,Bidelman85(M0),Torres06
-  M0.5V: Walker83
-  M1V: Adams26,Joy74,Keenan89(non-stan),Gaidos14(M1)
-  M1/2V: Houk82
-
-  Brightest M dwarf in Gaia G-band (V=5.98) in SIMBAD and V-band
-  (V=6.68) in SIMBAD, and recognized widely as the brightest M dwarf
-  (e.g., Croswell 2002
-  http://kencroswell.com/thebrightestreddwarf.html). Star was first
-  observed and recorded as a 7th magnitude star by Nicolas Louis de La
-  Caille 1751-1752 (entry 8760; see 1847 publication of catalog at
-  https://archive.org/details/bub_gb_hbEvAQAAMAAJ/page/n247/mode/2up)
-  from Cape of Good Hope with 0.5-in telescope, with the next
-  brightest M dwarf (Lacaille 9352) listed just pages later. In the
-  final volume of HD catalog (Cannon24), the star stood out
-  sufficiently that Cannon mentions it on page 4 in an overview of the
-  properties of stellar spectra ("lines of low temperature are
-  abnormally intense"), and she classified it as "Map" (i.e. "Ma" "p"
-  for peculiar), and remarked "Proper motion, 3".46, 249.4 [deg]. The
-  spectrum shows strong characteristics of low temperature. Line 4227
-  is very strong. The titanium oxide bands are only faintly seen." (HD
-  202500, ptm. phot. mag. 7.9 [on blue sensitive plates]). Later in
-  Cannon24, she lists HD 217987 (Lacaille 9352) also as "Map" and
-  ptm. mag 7.44 and photographic magnitude 9.0, and commented "The
-  spectrum shows the characteristics of dwarfs. Parallax 0".29, Proper
-  motion, 7".0, 80.5 [deg]". So Cannon acknowledged that Lac 8760 and
-  Lac 9352 were both M type and nearby dwarfs, with Lac 8760 being ~1
-  mag brighter of the two.  Lac 8760 has a wide range of
-  classifications over the past few decades, so it might not be the
-  best choice of standard (suprising given its historical importance
-  and brightness). It was the one "pure" M1V in Keenan89 (although not
-  a standard, although there are two M1V variants). As one of the
-  brightest, nearest M dwarfs, any temperate rocky planets would be
-  among the most accessible to future IROUV observatory
-  (Earth-equivalent instellation distance angular separation = 81.5
-  mas, highest among M dwarfs, and only one >60 mas). Unfortunately
-  there really isn't good agreement to consider a good standard.  Note
-  that Joy74's M1V corresponds roughly to M0.5(+-1.0) on the
-  Kirkpatrick91 system (see notes in M0V.txt), and Teff (below) is
-  most similar to M0.5V-ish.  V=6.676819(GaiaDR3,synth),
-  V=6.691+-0.030(Mermilliod91), V=6.69(HIP), V=6.67(Winters15),
-  B-V=1.387(GaiaDR3), B-V=1.397+-0.002(HIP),
-  B-V=1.397+-0.012(Mermilliod91), U-B=1.183+-0.116(Mermilliod91),
-  V-I=1.77+-0.02(HIP), V-Ic=1.791(GaiaDR3,synth), Rc=5.77(Winters15),
-  Rc=5.766398(GaiaDR3,synth), Ic=4.91(Winters15),
-  Ic=4.885989(GaiaDR3), G=5.984104(GaiaDR3), Bp-Rp=1.853587(GaiaDR3),
-  Bp-G=0.908621(GaiaDR3), G-Rp=0.944966(GaiaDR3).  2MASS photometry is
-  low quality (errors >0.2mag). J(MSSSO)=3.910(McGregor94),
-  H(MSSSO)=3.240(McGregor94), K(MSSSO)=3.078(McGregor94),
-  K-L(MSSSO)=0.110(McGregor94). Transformed MSSSO photometry to 2MASS
-  (via
-  https://www.ipac.caltech.edu/2mass/releases/allsky/doc/sec6_4b.html)
-  Ks=3.044(estimated). V-Ks = 6.691 - 3.044 = 3.647. G-Ks = 5.984 -
-  3.044 = 2.940. G-V = 5.984 - 6.691 =
-  -0.707. plx=251.9124+-0.0352mas(GaiaDR3). M_V=8.70, M_G=7.99,
-  M_Ks=5.05. G-V = The absolute magnitudes are typical for K9.5V,
-  K9.5V, K9V for V, G, Ks, respectively, although the V-Ic, G-Ks, V-Ks
-  colors are all typical for M0Vs.  Teffs: 3592K(Alonso96),
-  3599+-52K(Ramirez05), 3599+-114K(TIC/Stassun19), 3704K(Kuznetsov19),
-  3776+-80K(Gaidos14), 3795K(Lindgren17), 3796+-18K(Koleva12),
-  3905K(GaiaDR3), 3912K(Moro-Martin15), 3930K(Morales08) => <Teff> =
-  3786K.  logg=4.55+-0.08(Kovleva12). [M/H]=-0.50(GaiaDR3),
-  [Fe/H]=0.01(GaiaDR3), [Fe/H]=-0.62+-0.07(Koleva12),
-  [a/Fe]=0.14(GaiaDR3). Gaidos14 TiO5=0.818+-0.008, CaH2=0.772+-0.003,
-  CaH3=0.891+-0.003.
 
 # Deprecated Standards
 

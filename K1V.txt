@@ -51,9 +51,6 @@ Skiff08 flags one star as K1V MK standard: HD 10476 (K1V; Keenan89).
 => adopt (B-V)(K1V)  = 0.857 *** [updated 10/14/2020]
 => adopt (Bt-Vt)(K1V)= 0.996
 => adopt (U-B)(K1V)  = 0.524
-=> adopt (V-I)(K1V)  = 0.907
-=> adopt (V-R)(K1V)  = 0.474
-=> adopt (R-I)(K1V)  = 0.433
 => adopt (V-J)(K1V)  = 1.554
 => adopt (V-H)(K1V)  = 1.965
 => adopt (V-Ks)(K1V) = 2.061
@@ -64,9 +61,38 @@ Skiff08 flags one star as K1V MK standard: HD 10476 (K1V; Keenan89).
 => adopt (W1-W3)(K1V)= -0.037
 => adopt (W1-W4)(K1V)= -0.015
 
+(V-Rc)(K1V) =  0.455 ; HIP 54906 (Koen10)
+(V-Rc)(K1V) =  0.464 ; HIP 15799 (Koen10)
+(V-Rc)(K1V) = 0.474 ; trend B-V vs V-Rc for B-V=0.857
+(V-Rc)(K1V) =  0.476 ; HIP 72493 (Koen10)
+(V-Rc)(K1V) =  0.476 ; HIP 70016 (Koen10)
+(V-Rc)(K1V) =  0.479 ; HIP 80925 (Koen10)
+(V-Rc)(K1V) =  0.479 ; HIP 61291 (Koen10)
+(V-Rc)(K1V) =  0.481 ; HIP 15099 (Koen10)
+(V-Rc)(K1V) =  0.481 ; HIP 98792 (Koen10)
+(V-Rc)(K1V) =  0.481 ; HIP 79190 (Koen10)
+(V-Rc)(K1V) =  0.487 ; HIP 69357 (Koen10)
+(V-Rc)(K1V) =  0.494 ; HIP 63742 (Koen10)
+(V-Rc)(K1V) =  0.497 ; HIP 64457 (Koen10)
+=> adopt (V-Rc)(K1V) = 0.48 [updated 1/15/2023]
+
+(V-Ic)(K1V) =  0.879 ; HIP 54906 (Koen10)
+(V-Ic)(K1V) = 0.880 ; Gray01/03/06 44 K1Vs HIP V-Ic (+-0.003 sem, +-0.028 stdev)
+(V-Ic)(K1V) = 0.891 ; HIP d<75pc 131 K1Vs (+-0.005 sem, +-0.059 stdev)
+(V-Ic)(K1V) =  0.903 ; HIP 61291 (Koen10)
+(V-Ic)(K1V) =  0.905 ; HIP 70016 (Koen10)
+(V-Ic)(K1V) = 0.907 ; trend B-V vs V-Ic for B-V=0.857
+(V-Ic)(K1V) =  0.914 ; HIP 72493 (Koen10)
+(V-Ic)(K1V) =  0.915 ; HIP 69357 (Koen10)
+(V-Ic)(K1V) =  0.917 ; HIP 80925 (Koen10)
+(V-Ic)(K1V) =  0.917 ; HIP 15799 (Koen10)
+(V-Ic)(K1V) =  0.919 ; HIP 79190 (Koen10)
+(V-Ic)(K1V) =  0.923 ; HIP 64457 (Koen10)
+(V-Ic)(K1V) =  0.926 ; HIP 98792 (Koen10)
+=> adopt (V-Ic)(K1V) = 0.905  [updated 1/15/2022]
+
 (Ks-W1)(K1V) = 0.071 ; EEM trend for d<30pc for B-V=0.845
 => adopt (Ks-W1)(K1V) = 0.071 [updated 12/29/2019]
-
 
 (G-V)(K1V) =  -0.373 ; HD 176051B PM* K1V
 (G-V)(K1V) =  -0.274 ; HD 205390 PM* K1V
@@ -122,6 +148,7 @@ Teff(K1V) = 5042 K ; exemplar HD 42286 (metal poor [Fe/H] = -0.5)
 Teff(K1V) = 5071 K ; exemplar HD 750 (metal poor [Fe/H] = -0.3) 
 Teff(K1V) =  5080 K ; Schmidt-Kaler82
 Teff(K1V) =  5110 K ; GrayCorbally09
+Teff(K1V) =  5110 K ; Gray03 
 Teff(K1V) = 5131 K ; exemplar HD 52698 
 Teff(K1V) = 5139 K ; exemplar HD 68788
 Teff(K1V) =  5147 +- 14 K ; Boyajian12b (N=1)
@@ -469,7 +496,7 @@ HD 220182 = BD+43 4445
  *G9V: Bidelman85(G9),Gray03
   K1V: Adams35,1952IzKry...9...82G,Cowley67
 
-HD 103095 = HR 4550 = LHS 44 = HIP 57939  = Groombridge 1830
+HD 103095 = Groombridge 1830 = CF UMa = HR 4550 = LHS 44 = HIP 57939 
   G5V: Upgren62
   sdG5: Adams35
   G7V+: Keenan53
@@ -481,9 +508,38 @@ HD 103095 = HR 4550 = LHS 44 = HIP 57939  = Groombridge 1830
   G9VgG2mG7: Abt86
  *K1V Fe-1.5: Gray03
 
-  Very metal poor star, only included here because it is a very
-  nearby, bright G/K dwarf. V=6.45 (2002yCat.2237....0D),
-  Ks=4.373+-0.027(2MASS). plx=109.0296+-0.0197mas(GaiaDR3).
+  Remarkably low metallicity ([Fe/H] ~ -1.3) star at d=9pc, only
+  included here because it is a very nearby, bright G/K dwarf with an
+  unusual history (controversial companion that may not exist).
+  SIMBAD has comment "CF UMa was a suspected flaring companion; it is
+  not clear that it actually exists (see Heintz,
+  1984PASP...96..557H)."  Noteworthy that it is *not* in SB9 or WDS
+  and Kervella22 reports a negligible tangential velocity anomaly
+  (1.13+-1.17m/s).  Beardsley74 reports some detail and a preliminary
+  orbital solution of Tperiastron = 1920, a=13au, M1+M2=0.6Msun.: "Van
+  de Kamp (1969) has repported the existence of a companion 5 or 6 mag
+  fainter with a separation of 1.7" which flared on 1968 Feb 27." "The
+  velocities from the late 1930s to date show a steady slow increase
+  towards more positive values." "A change in velocity is evidence
+  around 1920, suggesting that periastron passage ocurred near that
+  time." "HD 103095 was included in the original IAU list of standard
+  velocity stars (Plaskett 1935)." However observations of the star by
+  Griffin84 during 1974-1984 found no evidence of RV variations and no
+  sign of a predicted periastron passage. Similarly,
+  Heintz84(1984PASP...96..557H) found no evidence for a companion
+  after reexaming archival data from 1960s and 1970s. Latham02 reports
+  N=327 observations with chi2=319.38 and chi2 probability of 0.593
+  (internal mean error 0.47 km/s, external mean error 0.46 km/s) but
+  left the field blank for binarity - apparently the RV signal was not
+  indicative of a binary, and certainly not one where an orbit could
+  be derived. VSX reports magnitude ranging from 6.6 to 7.2. V=6.45
+  (2002yCat.2237....0D),
+  Ks=4.373+-0.027(2MASS). plx=109.0296+-0.0197mas(GaiaDR3).  PASTEL
+  compendium averages from Soubiran22: <Teff> = 5057+-18K(N=54),
+  logg=4.64+-0.04(N=43), [Fe/H]=-1.33+-0.02(N=44).  So a putative
+  flaring companion "CF UMa" appears to be spurious (Heintz84), and it
+  does not appear that any modern references consider this a multiple
+  system.
 
 HD 6569 = UGP 16
    K1V: Houk88,Torres06
