@@ -106,9 +106,6 @@ Mean color of Hipparcos G0III stars w/i 75 pc is 0.591 (N=6)
 [EEM 10/26/2020; see discussion at end, there is remarkably small scatter of only few mmag
 among the 4 standard stars as function of metallicity - value is interpolated to [Fe/H]=0.0]
 => adopt (U-B)(G0V)  = 0.057
-=> adopt (V-I)(G0V)  = 0.673
-=> adopt (V-R)(G0V)  = 0.341
-=> adopt (R-I)(G0V)  = 0.333 
 => adopt (V-J)(G0V)  = 1.108
 => adopt (V-H)(G0V)  = 1.370
 => adopt (V-Ks)(G0V) = 1.437
@@ -179,9 +176,21 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 (U-B)(G0V) = 0.06  ; JohnsonMorgan53 
 (U-B)(G0V) = 0.11  ; Johnson66 [big discrepency!]
 
-<V-Ic>(G0V) = 0.669 (+-0.001 sem, +-0.024 stdev; N=81)
+(V-Rc)(G0V) =  0.334 ; HIP 9829 (Koen10)
+(V-Rc)(G0V) = 0.341 ; B-V vs V-Rc trend for B-V=0.595 
+(V-Rc)(G0V) =  0.348 ; HIP 15442 (Koen10)
+(V-Rc)(G0V) =  0.355 ; HIP 36515 (Koen10)
+=> adopt (V-Rc)(G0V) = 0.34  [updated 1/15/2023]
+
+(V-Ic)(G0V) =  0.704 ; HIP 9829 (Koen10)
+(V-Ic)(G0V) =  0.696 ; HIP 15442 (Koen10)
+(V-Ic)(G0V) =  0.690 ; HIP 36515 (Koen10)
+(V-Ic)(G0V) = 0.674 ; B-V vs V-Ic trend for B-V=0.595
+<V-Ic>(G0V) = 0.669 ; Gray01/03/06 81 G0Vs HIP V-Ics (+-0.001 sem, +-0.024 stdev)
 <V-Ic>(G0V) = 0.658 (+-0.001 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
-<V-Ic>(G0V) = 0.625 ; Bessell79
+<V-Ic>(G0V) =  0.625 ; Bessell79
+=> adopt (V-Ic)(G0V)  = 0.67  [updated 1/15/2023]
+=> adopt (Rc-Ic)(G0V) = 0.33  [updated 1/15/2023; V-Ic=0.67, V-Rc=0.34]
 
 <R-Ic>(G0V)  = 0.303 ; Bessell79
 <V-J>(G0V)   = 1.086 (+-0.005 sem, +-0.065 stdev; HIP d<75pc S/N>8 N=233)
@@ -200,6 +209,7 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 
 Teff(G0V) =   5844 +- 66 K  ; vanBelle09
 Teff(G0V) =   5860 K ; GrayCorbally94
+Teff(G0V) =   5860 K ; Gray03 
 Teff(G0V) =  5865 K ; ter. stan. kap For ([Fe/H] = -0.07, see below)
 Teff(G0V) =  5878 K ; pri. stan. beta CVn ([Fe/H] = -0.20, see below)
 Teff(G0V) =  5895 K ; median photometric Teff
