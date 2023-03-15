@@ -79,35 +79,21 @@ Skiff08 flags three stars as K2V MK standards, all from Keenan89: HD
 (Ks-W1)(K2V) = 0.073 ; EEM trend for d<30pc for B-V=0.884
 => adopt (Ks-W1)(K2V) = 0.073 [updated 12/29/2019]
 
-(G-V)(K2V) =  -0.375 ; HD 115404A PM* K2V
-(G-V)(K2V) =  -0.357 ; GJ_144
-(G-V)(K2V) =  -0.349 ; GJ_1160
-(G-V)(K2V) = -0.323  ; sec. stan. HD 109011
-(G-V)(K2V) =  -0.321 ; HD 183870 PM* K2V
-(G-V)(K2V) =  -0.304 ; HD 23189 PM* K2V
-(G-V)(K2V) =  -0.301 ; HR_222  
-(G-V)(K2V) =  -0.285 ; HR_6806
-(G-V)(K2V) =  -0.282 ; HD 3765 PM* K2V
-(G-V)(K2V) =  -0.280 ; HD 166620 PM* K2V
-(G-V)(K2V) =  -0.276 ; HD 23356 PM* K2V
-(G-V)(K2V) =  -0.272 ; HD 144628 PM* K2V
-(G-V)(K2V) = -0.271  ; smoothed fit f(SpT) G9V-M0V
-(G-V)(K2V) = -0.266  ; B-V vs G-V trend Pancino22 for B-V=0.884
-(G-V)(K2V) =  -0.265 ; HD 220339 PM* K2V
-(G-V)(K2V) = -0.263  ; trend d<20pc for V-Ks=2.132
-(G-V)(K2V) =  -0.262 ; HD 170657 PM* K2V
-(G-V)(K2V) =  -0.261 ; HD 116443 PM* K2V
-(G-V)(K2V) =  -0.261 ; HD 23484 PM* K2V
-(G-V)(K2V) = -0.254  ; color fit for B-V=0.884
-(G-V)(K2V) =  -0.253 ; HD 30876 PM* K2V
-(G-V)(K2V) = -0.249  ; pri. stan. eps Eri (corrected)
-(G-V)(K2V) =  -0.246 ; * 36 Oph K2V
-(G-V)(K2V) =  -0.244 ; HD 67199 PM* K2Vk:
-(G-V)(K2V) =  -0.236 ; HD 73667 PM* K2V
-(G-V)(K2V) = -0.239  ; V-Ic vs G-V trend Pancinco22 for V-Ic=0.944
-(G-V)(K2V) =  -0.181 ; * p Eri A K2V
-(G-V)(K2V) =  -0.174 ; * p Eri B K2V
-=> adopt (G-V)(K2V) = -0.26 [updated 11/15/2022]
+(G-V)(K2V) =  -0.171513 ; *_p_Eri_B_ plx=122.0035 mas (GaiaDR3)
+(G-V)(K2V) =  -0.176698 ; *_p_Eri_A_ plx=122.1088 mas (GaiaDR3)
+(G-V)(K2V) = -0.239    ; V-Ic vs G-V trend Pancinco22 for V-Ic=0.944
+(G-V)(K2V) =  -0.244896 ; HD_23484_ plx=61.8444 mas (GaiaDR3)
+(G-V)(K2V) =  -0.245348 ; HD_170657_ plx=75.8476 mas (GaiaDR3)
+(G-V)(K2V) = -0.247  ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5100K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(K2V) =  -0.248665 ; *_36_Oph_A_ plx=168.0031 mas (GaiaDR3)
+(G-V)(K2V) = -0.256    ; SIMBAD d<50pc 152 K2Vs (GaiaDR3) 
+(G-V)(K2V) =  -0.257109 ; HD_144628_ plx=67.4469 mas (GaiaDR3)
+(G-V)(K2V) =  -0.260789 ; HD_23356_ plx=71.7505 mas (GaiaDR3)
+(G-V)(K2V) = -0.263    ; trend d<20pc for V-Ks=2.132
+(G-V)(K2V) =  -0.264248 ; *_eps_Eri_ plx=310.5773 mas (GaiaDR3)
+(G-V)(K2V) =  -0.270192 ; HD_166620_ plx=90.1234 mas (GaiaDR3)
+(G-V)(K2V) =  -0.362318 ; HD_115404_ plx=91.0176 mas (GaiaDR3)
+=> adopt (G-V)(K2V) = -0.256 [updated 1/26/2023]
 
 (Bp-Rp)(K2V)=1.0575  ; *_p_Eri_A  K2V
 (Bp-Rp)(K2V)=1.079   ; fit for V-Ks=2.132
@@ -218,7 +204,20 @@ Mv(K2V)  =    5.9  mag ; Reid04
 => adopt M_G(K2V)  = 5.81  mag [updated 11/15/2022] (Mv=6.07, G-V=-0.26)
 => adopt M_Ks(K2V) = 3.938 mag [updated 12/15/2020] (Mv=6.07, V-Ks=2.132)
 
-M_G(K2V) = 5.943 ; SIMBAD d<20pc trend for V-Ks=2.132
+
+M_G(K2V) =  5.70761 ; HD_23484_ plx=61.8444 mas (GaiaDR3)
+M_G(K2V) =  5.904   ; HD_166620_ plx=90.1234 mas (GaiaDR3)
+M_G(K2V) =  5.9266  ; *_eps_Eri_ plx=310.5773 mas (GaiaDR3)
+M_G(K2V) =  5.94204 ; *_p_Eri_A_ plx=122.1088 mas (GaiaDR3)
+M_G(K2V) = 5.943    ; SIMBAD d<20pc trend for V-Ks=2.132
+M_G(K2V) =  5.95792 ; *_36_Oph_A_ plx=168.0031 mas (GaiaDR3)
+M_G(K2V) = 5.960    ; SIMBAD d<50pc median for 152 K2Vs
+M_G(K2V) =  5.96436 ; HD_170657_ plx=75.8476 mas (GaiaDR3)
+M_G(K2V) =  6.0117  ; HD_144628_ plx=67.4469 mas (GaiaDR3)
+M_G(K2V) =  6.05735 ; *_p_Eri_B_ plx=122.0035 mas (GaiaDR3)
+M_G(K2V) =  6.09331 ; HD_115404_ plx=91.0176 mas (GaiaDR3)
+M_G(K2V) =  6.09934 ; HD_23356_ plx=71.7505 mas (GaiaDR3)
+
 
 M_Ks(K2V) = 4.08 ; median K2V d<25pc (N=24)
 

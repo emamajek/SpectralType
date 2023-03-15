@@ -29,6 +29,10 @@ GrayAtlas standard:             BD+43_44A - M1.5V
 GrayNstars standard:            GJ 570B (=HD 131976) - M1.5V
 Kirkpatrick(in GrayCorbally09): GJ 205 - M1.5V
 	       			GJ 570B - M1.5V
+Alonso-Floriano15 standards:    GJ 205 (=HD 36395) - M1.5V ("prototype")
+		  	      GJ 3014 (=G 242-48) - M1.5V ("reference")
+			      GJ 49 (=BD+61_195) - M1.5V ("reference")
+			      GJ 450 (=BD+36_2219) - M1.5V ("reference")
 
 Joy74 M1.5V stars appear to be approximately M1-V (~M0.75+-1 subtype)
 on the Kirkpatrick91 system.
@@ -51,9 +55,11 @@ on the Kirkpatrick91 system.
 <V-J>(M1.5V)  = 3.36 (+-0.23 stdev) ; Lepine12
 
 (V-Ks)(M1.5V) =  4.278 ; depreciated stan. GJ 625
+(V-Ks)(M1.5V) = 4.200 ; ter. stan. GJ 49 = G 243-052
 (V-Ks)(M1.5V) = 4.156 ; pri. stan. GJ 205 (estimated from V-R color)
 (V-K)(M1.5V)  =  4.15  ; Hawley96
 (V-Ks)(M1.5V) = 4.149 ; sec. stan. GJ 880
+(V-Ks)(M1.5V) = 4.145 ; exemplar GJ 450 = HIP 57802
 (V-Ks)(M1.5V) = 4.116 ; exemplar GJ 134 = HD 275122 
 (V-Ks)(M1.5V) = 4.104 ; pri. stan. GJ 205 (from synthetic Ks mag from Mann15)
 (V-Ks)(M1.5V) = 4.102 ; pri. stan. GJ 205 (estimated from V-I color)
@@ -86,19 +92,20 @@ on the Kirkpatrick91 system.
 (Ks-W1)(M1.5V) = 0.099 ; Avenhaus12 for V-Ks=4.10
 => adopt (Ks-W1)(M1.5V) = 0.135 [updated 12/29/2019]
 
-(Bp-Rp)(M1.5V) = 2.1050 ; GJ_908      exemplar
-(Bp-Rp)(M1.5V) = 2.1161 ; GJ_366      exemplar 
-(Bp-Rp)(M1.5V) = 2.1174 ; BD+18_3421  
-(Bp-Rp)(M1.5V) = 2.1130 ; GJ_526      ter. stan.
-(Bp-Rp)(M1.5V) = 2.1254 ; GJ_134      exemplar 
-(Bp-Rp)(M1.5V) = 2.1257 ; GJ_205      pri. stna.
-(Bp-Rp)(M1.5V) = 2.1553 ; GJ_880      sec. stan.
-(Bp-Rp)(M1.5V) = 2.1649 ; MCC_135     
-(Bp-Rp)(M1.5V) = 2.1731 ; V*_GX_And   
-(Bp-Rp)(M1.5V) = 2.1805 ; BD+61_195   
-(Bp-Rp)(M1.5V) = 2.2773 ; CD-48_11837
-(Bp-Rp)(M1.5V)=  2.3002 ; G_202-48_   
-(Bp-Rp)(M1.5V) = 2.3033 ; HD_156384C  
+(Bp-Rp)(M1.5V) = 2.1050 ; GJ_908      exemplar (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1161 ; GJ_366      exemplar  (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1174 ; BD+18_3421   (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1130 ; GJ_526      ter. stan. (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1254 ; GJ_134      exemplar  (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1257 ; GJ_205      pri. stna. (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1553 ; GJ_880      sec. stan. (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1649 ; MCC_135      (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1731 ; V*_GX_And   (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1805 ; BD+61_195 (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.1754 ; ter. stan. GJ 49 = G 243-052 (GaiaDR3)
+(Bp-Rp)(M1.5V) = 2.2773 ; CD-48_11837 (GaiaDR2)
+(Bp-Rp)(M1.5V)=  2.3002 ; G_202-48_    (GaiaDR2)
+(Bp-Rp)(M1.5V) = 2.3033 ; HD_156384C   (GaiaDR2)
 => adopt (Bp-Rp)(M1.5V) = 2.13 [updated 11/18/2020]
 
 (G-Rp)(M1.5V) =  1.0108 ; GJ_366       exemplar 
@@ -122,6 +129,7 @@ on the Kirkpatrick91 system.
 (Bp-G)(M1.5V) = 1.1084 ; GJ_205 
 (Bp-G)(M1.5V) = 1.1262 ; GJ_880
 
+(G-V)(M1.5V) = -0.900  ; ter. stan. GJ 49 = G 243-052 
 (G-V)(M1.5V) = -0.872  ; polynomial fit to SIMBAD d<25pc M dwarfs
 (G-V)(M1.5V) = -0.8695 ; GJ_205
 (G-V)(M1.5V) = -0.867  ; trend Kervella19 d<25pc sample for V-Ks=4.10
@@ -188,7 +196,7 @@ M_G(M1.5V) =   8.31848 ; HD 131976
 M_G(M1.5V) =   8.31952 ; HD 36395                     
 M_G(M1.5V) =   8.53075 ; BD+57 2735                  
 M_G(M1.5V) =   8.60896 ; HD 216899                    
-M_G(M1.5V) =   8.69469 ; BD+61 195                    
+M_G(M1.5V) =  8.70 ; ter. stan. GJ 49 = G 243-052 
 M_G(M1.5V) =  8.83694 ; HD 318327                   
 M_G(M1.5V) =  8.89001 ; * tet Per B
 M_G(M1.5V) = 8.983   ; Mv=9.85, G-V=-0.877
@@ -209,8 +217,9 @@ M_Ks(M1.5V) =  5.81 ; JohnsonApps09 calibration for V-Ks=4.10
 M_Ks(M1.5V) =  5.79 ; Finch14 calibration for V-Ks=4.10
 M_Ks(M1.5V) = 5.75 ; Mv=9.85, V-Ks=4.10
 M_Ks(M1.5V) =  5.68 ; Jao16 calibration for V-Ks=4.10
-M_Ks(M1.5V) =  5.64 ; exemplar GJ 366 = Ross 434 
-M_Ks(M1.5V) =  5.34 ; sec. stan. GJ 880 = HD 216899 
+M_Ks(M1.5V) =  5.64 ; exemplar GJ 366 = Ross 434
+M_Ks(M1.5V) = 5.40 ; ter. stan. GJ 49 = G 243-052 
+M_Ks(M1.5V) = 5.34 ; sec. stan. GJ 880 = HD 216899 
 M_Ks(M1.5V) =  5.15 ; exemplar GJ 134 = HD 275122 
 
 logL(M1.5V) = -1.473 ; Morrell19 trend for logL for M_Ks=5.82
@@ -247,7 +256,7 @@ Boeshaar85 does not list an M1.5V standard.
 
 GJ 205 = HD 36395 = LHS 30
   M1V: JM53(non-stan.,"dM1")
- *M1.5Ve: Boeshaar76,KeenanMcNeil76(stan),Keenan85,Corbally86(stan,Keenan80),Keenan88,Kirkpatrick91(pri),Hawley97,Keenan99,Houk99,Henry02,Reid04,Mann15
+ *M1.5Ve: Boeshaar76,KeenanMcNeil76(stan),Keenan85,Corbally86(stan,Keenan80),Keenan88,Kirkpatrick91(pri),Hawley97,Keenan99,Houk99,Henry02,Reid04,Mann15,Alonso-Floriano15(M1.5V "prototype")
   M2.33: Terrien15
 
   Excellent recent agreement on type, and has interferometric diameter
@@ -335,11 +344,34 @@ GJ 526 = HD 119850 = StKM 2-980 = LHS 47
   [Fe/H] = -0.10+-0.07(Woolf05).  Star is apparently somewhat metal
   poor.
 
+GJ 49 = G 243-052 = LHS 1179 = HIP 4872 = BD+61_195 = G 244-7 = MCC 2 = Wolf 46 = TIC 256419669 
+  K5V: LjunggrenOja61(Jaschek64,Jaschek78),Sjogren64
+  M1: Bidelman85(Kuiper)
+ *M1.5V: KeenanMcNeil76(stan),Garcia89,Reid95,Lepine13(M1.5),Alonso-Floriano15("reference")
+  M2V: Vyossotsky43,Joy74,Gunn83,Gaidos14
+  M2+V: Gray03
+  M3: Lee47
+
+  Not sure why this star not used as an M1.5V standard after
+  KeenanMcNeil76. plx=100.40+-1.52 mas(HIP2),
+  plx=101.4238+-0.0169mas(GaiaDR3). V=9.552+-0.015 (Mermilliod91),
+  V=9.56(HIP), V=9.571138(GaiaDR3/synth), V=9.60(TYC),
+  B-V=1.4551(GaiaDR3/synth), B-V=1.463+-0.032(HIP),
+  B-V=1.503+-0.005(Mermilliod91), U-B=1.21+-0.058(Mermilliod91),
+  V-Ic=1.86+-0.14(HIP), Rc=8.559726(GaiaDR3/synth),
+  Ic=7.415978(GaiaDR3/synth) =>
+  V-Ic=2.15516(GaiaDR3/synth). J=6.230+-0.021(2MASS),
+  H=5.582+-0.024(Mermilliod91), Ks=5.371+-0.020(2MASS). V-Ks =
+  9.571138 - 5.371 = 4.200. GaiaDR3: G=8.671337+-0.002777(GaiaDR3),
+  Bp-Rp=2.175430(GaiaDR3), Bp-G=1.120692(GaiaDR3),
+  G-Rp=1.054738(GaiaDR3). Mv=9.60, M_G=8.70, M_Ks=5.40. G-V = -0.900.
+
+
 # Deprecated Standards
 
 GJ 15A = BD+43_44A = GX And = HD 1326A
-  M1V: JM53(non-standard),Hawley97,Reid04
- *M1.5V: GrayAtlas,Boeshaar94,Kirkpatrick94,Henry94(not standard),Henry02
+  M1V: JM53(non-standard),Hawley97,Reid04,Alonso-Floriano15(prototype)
+ *M1.5V: GrayAtlas,Boeshaar94,Henry94(not standard),Henry02
   M2V: Keenan85,Keenan88,Keenan99,Sozetti02
 
   Keenan repeatedly classified GJ 15A as M2, but everyone else
@@ -387,19 +419,6 @@ GJ 570BC = LHS 386 = HD 131976 = BD-20 4123 = Lalande 27173BC
   metallicity. Forvielle99 derives dynamical masses of M(B) =
   0.586+-0.007 Msun, M(C) = 0.390+-0.005.
 
-GJ 49 = G 243-052 = LHS 1179 = HIP 4872
-  M1.5V: KeenanMcNeil76(stan),Garcia89,Hawley97
-  M2V: Gunn83,Joy74,Vyossotsky43
- *M2+V: Gray03
-  M1: Bidelman85(Kuiper)
-  K5V: LjunggrenOja61(Jaschek64,Jaschek78),Sjogren64
-  M3: Lee47
-
-  Not sure why this star not used as an M1.5V standard after
-  KeenanMcNeil76. vanLeeuwen07 plx = 100.40+-1.52 mas. V=9.552+-0.015
-  (Mermilliod91), B-V=1.503+-0.005(Mermilliod91),
-  U-B=1.21+-0.058(Mermilliod91). J=6.230+-0.021(2MASS),
-  H=5.582+-0.024(Mermilliod91), Ks=5.371+-0.020(2MASS).
 
 GJ 625 = G 202-48 = HIP 80459 = 2MASS J16252459+5418148 = NLTT 42804 = Gaia DR2 1428427236986209024
   M0: Lee47
@@ -456,6 +475,22 @@ GJ 625 = G 202-48 = HIP 80459 = 2MASS J16252459+5418148 = NLTT 42804 = Gaia DR2 
 
 # Exemplars
 
+GJ 450 = HIP 57802 = NLTT 28756 = G 148-13 = MCC 135 = TIC 144400022
+  M0V: Stephenson86
+  M1V: Upgren62,Joy74,Stocke91(M1Ve),Reid95, 
+ *M1.5V: Alonso-Floriano15("reference")
+  M2V: Vyssotsky46,Lepine13(M2),Gaidos14(M2), Newton14(near-IR)
+
+  Only considered a standard of any sort by Alonso-Floriano15.
+  V=9.68(TYC), V=9.716+-0.057(Mermilliod91),
+  V=9.751345(GaiaDR3/synth), V=9.76(HIP), B-V=1.477+-0.016(HIP),
+  B-V=1.505+-0.013(Mermilliod91), U-B=1.198+-0.012(Mermilliod91),
+  V-Ic=1.93+-0.09(HIP). J=6.419+-0.020(2MASS), H=5.828+-0.020(2MASS),
+  Ks=5.606+-0.017(2MASS).  GaiaDR3: plx=114.0854+-0.0191mas(GaiaDR3),
+  G=8.854014+-0.002790(GaiaDR3), Bp-Rp=2.162435(GaiaDR3),
+  Bp-G=1.113252(GaiaDR3), G-Rp=1.049184(GaiaDR3).  V-Ks = 9.751345 -
+  5.606 = 4.145. 
+
 GJ 908 = LHS 550 = BR Psc = HIP 117473 = Lal 46650
   M0V: Newton14(near-IR)
   M1V: Stephenson86,Henry94,Hawley97,Henry02
@@ -506,11 +541,20 @@ GJ 366 = Ross 434 = LHS 2188 = HIP 47981 = G 252-44 = G 253-30 = LTT 12585 = NLT
   plx=63.3142+-0.0302mas. Mv = 9.623+-0.015 , M_Ks= 5.637+-0.024.
   G=9.7846 0.0007, Bp-Rp=2.1161, Bp-G=1.1053, G-Rp=1.0108.
 
+GJ 3014 = G 242-48 = HIP 1092 = NLTT 632 = MCC 354 = TIC 407574350 = WDS J00137+8038A
+  M0V: Vyssotsky56
+ *M1.5V: Bidelman85(M1.5),Reid95,Alonso-Florian15("reference")
+  M2: Lee84,Lepine13,Gaidos14
+
+  Has V=15.5 M5V companion 13" away. One of Alonso-Floriano15's reference
+  standards for M1.5V type. plx=51.9777+-0.0157mas(GaiaDR3).
+  J=7.756+-0.034(2MASS), H=7.131+-0.047(2MASS), Ks=6.904+-0.020(2MASS). 
+
+
 LHS 2429 
 
 LHS 1828 
 
-G 242-48
 
 BD+61 195
 
