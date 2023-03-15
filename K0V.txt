@@ -132,6 +132,7 @@ within 1 mag of the main sequence (N=216):
 (G-V)(K0V) = -0.222  ; smoothed fit f(SpT) G9V-M0V
 (G-V)(K0V) =  -0.222  ; ter. stan. HD 284253 [Hyad]
 (G-V)(K0V) =  -0.213  ; exemplar 12 Oph
+(G-V)(K0V) = -0.213  ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5270K (GaiaDR3 Gmags,SIMBAD Vmags)
 (G-V)(K0V) = -0.199  ; from fit for B-V=0.816
 => adopt (G-V)(K0V) = -0.22 [updated 9/24/2021]
 
@@ -160,21 +161,27 @@ within 1 mag of the main sequence (N=216):
 => adopt (Bp-G)(K0V) = 0.430 [updated 8/29/2020; Bp-Rp=0.983, G-Rp=0.553]
 
 Teff(K0V) = 5172 K ; Ramirez05 Teff calibration for B-V=0.816
+Teff(K0V) = 5196 K ; exemplar 20 Crt = HR 4458 [Fe/H]=-0.40
 Teff(K0V) = 5215 K ; Napiwotzki93 Teff calibration for B-V=0.816
 Teff(K0V) =  5230 K ; mean photometric Teff
 Teff(K0V) =  5250 K ; Schmidt-Kaler82
-Teff(K0V) = 5265 K ; pri. stan. sig Dra (see below) ***
+Teff(K0V) = 5262 K ; exemplar HD 149661 = 12 Oph [Fe/H]=0.03  
 Teff(K0V) = 5270 K ; exemplar GJ 631 (~solar [Fe/H]; see below) 
 Teff(K0V) = 5272 +- 19 K ; Pecaut13 (GJ 631)
 Teff(K0V) = 5275 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs Hinkel17 for B-V=0.816
 Teff(K0V) = 5278 K ; Casagrande10 Teff calibration for B-V=0.816
 Teff(K0V) =  5280 K ; Gray03 
-Teff(K0V) = 5288 K ; sec. stan. HD 224618 (see below)
+Teff(K0V) = 5280 K ; sec. stan. HD 224618 [Fe/H]=-0.76
+Teff(K0V) = 5292 K ; exemplar 55 Cnc = HD 75732 K0IV-V
 Teff(K0V) = 5294 K ; median of 406 Teff estimates for K0V stars
+Teff(K0V) = 5298 K ; pri. stan. sig Dra [Fe/H]=-0.21
+Teff(K0V) = 5298 K ; var. stan. 70 Oph A [Fe/H]=+0.06
 Teff(K0V) = 5300 K ; smoothed Teff(SpT) trend
 Teff(K0V) =  5300 K ; GrayCorbally94
+Teff(K0V) = 5320 K ; ter. stan. HD 284253 = Cl Melotte 25 21 [Fe/H]=+0.13
 Teff(K0V) = 5328 K ; Biazzo07 Teff calibration for B-V=0.816
-Teff(K0V) =  5347 +- 20 K ; Boyajian12b 
+Teff(K0V) =  5347 +- 20 K ; Boyajian12b
+Teff(K0V) =  5358 K ; exemplar HD 10780 = HR 511 [Fe/H]=0.03
 Teff(K0V) =  5280 K ; GrayCorbally09
 Teff(K0V) =  5450 K ; Boyajian12a (N=5)
 => adopt Teff(K0V) = 5270 K (logT = 3.723) [updated 9/26/2019]
@@ -245,6 +252,14 @@ Rad(K0V) = 0.772 Rsun ; exemplar HD 149661 = 12 Oph
 Rad(K0V) = 0.759  +- 0.012 Rsun ; exemplar HD 149661 = 12 Oph (Yee17)
 => adopt Rad(K0V) = 0.813 Rsun [updated 8/29/2020]
 
+logg(K0V) =  4.40+-0.02 ; exemlar K0IV-V 55 Cnc = HD 75732
+logg(K0V) = 4.50+-0.20 ; sec. stan. HD 224618
+logg(K0V) = 4.51+-0.05 ; exemplar HD 284253 = Cl Melotte 25 21 
+logg(K0V) = 4.52+-0.02 ; pri. stan. sig Dra 
+logg(K0V) = 4.52+-0.02 ; exemplar HD 149661 = 12 Oph
+logg(K0V) = 4.60+-0.04 ; exemplar 20 Crt = HR 4458
+=> adopt logg(K0V) = 4.52 [updated 1/23/2023]
+
 # Anchor Standard
 
 HD 185144 = sig Dra = HR 7462 = GJ 764 (J1932+6939)
@@ -267,11 +282,12 @@ HD 185144 = sig Dra = HR 7462 = GJ 764 (J1932+6939)
   B-V=0.786+-0.007(Mermilliod91), V-I(HIP)=0.85+-0.02,
   U-B(Mermilliod91) = 0.386+-0.012. V(HIP)=4.67,
   V=4.678+-0.010(Mermilliod91), Ks(2MASS) = 2.900+-0.324(poor). PASTEL
-  median values: <Teff> = 5265 K, [Fe/H] ~ -0.2. Mv=5.87.  plx =
-  173.2405 +- 0.2070mas(GaiaDR2). GaiaDR2: G=4.3838(raw),
-  G=4.451(corrected), B and R do not require correction.  G-V = 4.451
-  - 4.678 = -0.227+-0.011. Bp-Rp = 0.983, Bp-G = 0.430(corr), G-Rp =
-  0.553(cor).
+  median values: <Teff> = 5265 K, [Fe/H] ~ -0.2. PASTEL compendium
+  averages from Soubiran22: Teff=5298+-14K, logg=4.52+-0.02,
+  [Fe/H]=-0.21+-0.01.  Mv=5.87. plx = 173.2405 +-
+  0.2070mas(GaiaDR2). GaiaDR2: G=4.3838(raw), G=4.451(corrected), B
+  and R do not require correction.  G-V = 4.451 - 4.678 =
+  -0.227+-0.011. Bp-Rp = 0.983, Bp-G = 0.430(corr), G-Rp = 0.553(cor).
 
 # Secondary Standard
 
@@ -286,12 +302,14 @@ HD 224618 = LHS 552 = BD-17_6856 (J2359-1656)
   ~solar K0 dwarfs. B-V=0.785+-0.032 (HIP),
   B-V=0.773+-0.009(Mermilliod91), V=8.925+-0.008(Mermilliod91).
   PASTEL medians: <Teff> = 5288K (N=2), logg=4.5+-0.2 (Tomkin99),
-  [Fe/H]=-0.76+-0.06(Tomkin99), [Fe/H] = -0.59 (Casagrande11). plx =
-  27.7992 +- 0.1044mas(GaiaDR2).  GaiaDR2 photometry does not to be
-  corrected following Evans18: G= 8.698, Bp= 9.127, Rp= 8.140,
-  (Bp-Rp)= 0.988, (Bp-G)= 0.430, (G-Rp)= 0.558. G-V = -0.227+-0.008.
-  plx = 27.7992+-0.1044(GaiaDR2). Mv = 6.145+-0.011(M91,GaiaDR2),
-  M_G = 5.918. 
+  [Fe/H]=-0.76+-0.06(Tomkin99), [Fe/H] = -0.59 (Casagrande11).  PASTEL
+  compendium average values Sourbian22: Teff=5280+-62K,
+  logg=4.50+-0.20, [Fe/H]=-0.76+-0.06.  plx = 27.7992 +-
+  0.1044mas(GaiaDR2).  GaiaDR2 photometry does not to be corrected
+  following Evans18: G= 8.698, Bp= 9.127, Rp= 8.140, (Bp-Rp)= 0.988,
+  (Bp-G)= 0.430, (G-Rp)= 0.558. G-V = -0.227+-0.008.  plx =
+  27.7992+-0.1044(GaiaDR2). Mv = 6.145+-0.011(M91,GaiaDR2), M_G =
+  5.918.
 
 # Tertiary Standard
 
@@ -307,10 +325,11 @@ HD 284253 = Cl Melotte 25 21 = vB 21 = HIP 19934 = V984 Tau (J0416+2154)
   B-V=0.813+-0.002(HIP),
   U-B=0.467+-0.074(Mermilliod91). plx=19.5708+-0.0423mas(GaiaDR2) =>
   Mv=5.603+-0.007(Mermilliod91,GaiaDR2). PASTEL: <Teff> = 5360K(N=6),
-  <logg>=4.50(N=4), [Fe/H]=+0.135(N=4).  GaiaDR2:
+  <logg>=4.50(N=4), [Fe/H]=+0.135(N=4). Soubiran22 compendium average:
+  Teff=5320+-46K, logg=4.51+-0.05, [Fe/H]=+0.13+-0.03.  GaiaDR2:
   plx=19.5708+-0.0423mas, G=8.9230+-0.0004, E(BR/RP)=1.203,
   Bp-Rp=0.9786, Bp-G=0.4267, G-Rp=0.5519.  M_G=5.381+-0.005,
-  Mv=5.603+-0.007. G-V=8.9230 - 9.145 = -0.222. 
+  Mv=5.603+-0.007. G-V=8.9230 - 9.145 = -0.222.
 
 # Variant Standard
 
@@ -326,8 +345,11 @@ HD 165341 = 70 Oph A = HR 6752 = GJ 702 = HIP 88601 A
   migrated from K0V to K0-V. Primary: V=4.25(Mermilliod91),
   B-V=0.78(Mermilliod91), U-B=0.57(Mermilliod91). Boyajian12 reports
   tetLD=1.515+-0.005mas. plx=195.2166+-0.1012mas(GaiaDR2,for 70
-  OphB). Boyjian12+GaiaDR2 => Rad=0.834Rsun. Rad=0.831+-0.004Rsun(Yee17).
-  PASTEL: <Teff>=5258K(N=28), <logg>=4.52(N=19), <[Fe/H]>=+0.065(N=12). 
+  OphB). Boyjian12+GaiaDR2 =>
+  Rad=0.834Rsun. Rad=0.831+-0.004Rsun(Yee17).  PASTEL:
+  <Teff>=5258K(N=28), <logg>=4.52(N=19), <[Fe/H]>=+0.065(N=12).
+  Soubiran22 PASTEL compendium averages: Teff=5298+-32K,
+  logg=4.52+-0.05, [Fe/H]=+0.06+-0.03.
 
 # Deprecated Standards
 
@@ -406,13 +428,14 @@ HD 10780 = HR 511 = HIP 8362
   roughly solar metallicity. Among "K0V" stars in Bright Star Catalog
   (Hoffleit91), this is the 4th brightest, but the brightest whose
   consensus type seems to be K0V *and* with near-solar metallicity.
-  PASTEL: <Teff> = 5350K(N=26), <[Fe/H]>=+0.03(N=17).  V=5.63(HIP),
-  V=5.631+-0.011(Mermilliod91), B-V=0.804+-0.010(HIP),
-  B-V=0.804+-0.010(Mermilliod91), V-I=0.81(HIP).
-  plx=99.5746+-0.0595mas(GaiaDR2) =>
-  Mv=5.622+-0.011(Mermilliod91,GaiaDR2).
-  GaiaDR2: G=5.3827+-0.0012, E(BR/RP)=1.175, Bp-Rp=0.9652, Bp-G=0.4448,
-  G-Rp=0.5204. HD 10780. G-V=5.3827-5.631=-0.2483. 
+  PASTEL: <Teff> = 5350K(N=26), <[Fe/H]>=+0.03(N=17).  Soubiran22
+  PASTEL compendium averages: 5358+-11K, logg=4.48+-0.03,
+  [Fe/H]=0.03+-0.02.  V=5.63(HIP), V=5.631+-0.011(Mermilliod91),
+  B-V=0.804+-0.010(HIP), B-V=0.804+-0.010(Mermilliod91),
+  V-I=0.81(HIP).  plx=99.5746+-0.0595mas(GaiaDR2) =>
+  Mv=5.622+-0.011(Mermilliod91,GaiaDR2).  GaiaDR2: G=5.3827+-0.0012,
+  E(BR/RP)=1.175, Bp-Rp=0.9652, Bp-G=0.4448, G-Rp=0.5204. HD
+  10780. G-V=5.3827-5.631=-0.2483.
 
 HD 149661 = 12 Oph = HR 6171 = GJ 631 = HIP 81300 = V2133 Oph 
  *K0V: Adams35,Wilson62,Bidelman85(K0),Gray03,Gray06(K0V(k))
@@ -430,13 +453,14 @@ HD 149661 = 12 Oph = HR 6171 = GJ 631 = HIP 81300 = V2133 Oph
   100.8111+-0.0788mas(GaiaDR2), plx=102.55+-0.40mas(HIP2).  Mv =
   5.782+-0.017(M91,GaiaDR2).  G=5.5300+-0.0008, Bp-Rp=1.0102,
   Bp-G=0.4552, G-Rp=0.5550 => corrected via Evans18 (only G needs
-  correcting) => G=5.551, Bp-Rp=1.010, Bp-G=0.434, G-Rp=0.576.
-  G-V = 5.551 - 5.764 = -0.213. PASTEL
-  medians: <Teff> = 5264K(N=24), <logg> = 4.55(N=20), <[Fe/H]> =
-  0.05(N=15).  Boyajian12 measured limb darkened diameter tet_LD =
-  0.724+-0.011 mas and fbol = (14.160+-0.090)e-8 erg/s/cm2 => IAU2015
-  mbol = 5.625+-0.007 => BCv = mbol - V = 5.625 - 5.764 =
-  -0.139+-0.018.  Mass = 0.84 Msun(Ramirez12). plx=100.8111+-0.0788mas
+  correcting) => G=5.551, Bp-Rp=1.010, Bp-G=0.434, G-Rp=0.576.  G-V =
+  5.551 - 5.764 = -0.213. PASTEL medians: <Teff> = 5264K(N=24), <logg>
+  = 4.55(N=20), <[Fe/H]> = 0.05(N=15). Soubiran22 PASTEL compendium
+  average: Teff=5262+-11K, logg=4.52+-0.02, [Fe/H]=0.03+-0.01.
+  Boyajian12 measured limb darkened diameter tet_LD = 0.724+-0.011 mas
+  and fbol = (14.160+-0.090)e-8 erg/s/cm2 => IAU2015 mbol =
+  5.625+-0.007 => BCv = mbol - V = 5.625 - 5.764 = -0.139+-0.018.
+  Mass = 0.84 Msun(Ramirez12). plx=100.8111+-0.0788mas
   (GaiaDR2). Boyajian12 diam & GaiaDR2 dist =>
   0.772Rsun. R=0.759+-0.012Rsun(Yee17).
 
@@ -453,29 +477,33 @@ HD 149661 = 12 Oph = HR 6171 = GJ 631 = HIP 81300 = V2133 Oph
   age 10.2+-2.5 Gyr from isochrones, although Marcy02 listed 3-8 Gyr.
   Greenstein68 pointed it out as a strong metallic-line star found to
   contain enhanced CN, C2, and CH. PASTEL compendium has 42 entries:
-  Teff=5270 (N=41), logg=4.40 (N=33), [Fe/H]=+0.34 (N=33). vonBraun11:
-  Teff=5196+-24K, fbol=(.1227+-0.0177)e-7 erg/s/cm2 (=> mbol =
-  5.780+-0.016 mag; IAU2015 scale; BCv = V - mbol = 5.780 - 5.944 =
-  -0.164), L=0.582+-0.014 Lsun. For SED template fit, they averaged
-  G8IV and K0IV to produce a 'G9IV'.  Mermilliod91: V=5.944+-0.020,
+  Teff=5270 (N=41), logg=4.40 (N=33), [Fe/H]=+0.34 (N=33).  Soubiran22
+  PASTEL compendium averages: Teff=5293+-43K, logg=4.40+-0.02,
+  [Fe/H]=0.32+-0.02.  vonBraun11: Teff=5196+-24K,
+  fbol=(.1227+-0.0177)e-7 erg/s/cm2 (=> mbol = 5.780+-0.016 mag;
+  IAU2015 scale; BCv = V - mbol = 5.780 - 5.944 = -0.164),
+  L=0.582+-0.014 Lsun. For SED template fit, they averaged G8IV and
+  K0IV to produce a 'G9IV'.  Mermilliod91: V=5.944+-0.020,
   B-V=0.860+-0.010, U-B=0.648+-0.010. plx=79.4274+-0.0777mas(GaiaDR2).
   Mv=5.444+-0.020. Rotation: 35-42d (Marcy02), 37.4+-0.5d(Mittag17).
-  GaiaDR2: G=5.7144+-0.0006, E(BR/RP)=1.193, Bp-Rp=1.0135, Bp-G=0.4570,
-  G-Rp=0.5565. G-V = 5.7144 - 5.944 = -0.2296.
+  GaiaDR2: G=5.7144+-0.0006, E(BR/RP)=1.193, Bp-Rp=1.0135,
+  Bp-G=0.4570, G-Rp=0.5565. G-V = 5.7144 - 5.944 = -0.2296.
 
 20 Crt = HR 4458 = HIP 56452 = LHS 308 = LDS 6245 = WDS J11345-3250
   K0-V: Gray06
  *K0V: Evans57,Wilson62,Houk82,Bidelman85(K0),Reid95
   K2V: Adams35
 
-  16" binary with V=14.9 DC8 white dwarf (LHS 309).
-  V=5.96(HIP), V=5.964+-0.007(Mermilliodd91),
-  B-V=0.813+-0.007(Mermilliod91), B-V=0.811+-0.007(HIP),
+  16" binary with V=14.9 DC8 white dwarf (LHS 309).  V=5.96(HIP),
+  V=5.964+-0.007(Mermilliodd91), B-V=0.813+-0.007(Mermilliod91),
+  B-V=0.811+-0.007(HIP),
   U-B=0.342+-0.015(Mermilliod91). Ks=4.022+-0.036(2MASS,qual=E).
   PASTEL: <Teff> = 5165K(N=9), <logg>=4.585(N=8), <[Fe/H]> =
-  -0.38(N=8). GaiaDR2: plx=104.7828+-0.0518mas, G=5.7194+-0.0005,
-  E(BR/RP)=1.189, Bp-Rp=1.0025, Bp-G=0.4532, G-Rp=0.5492.
-  Mv=6.065+-0.007, M_G=5.821+-0.001, G-V = 5.7194 - 5.964 = -0.245.
+  -0.38(N=8). Soubiran22 compendium averages: Teff=5196+-23K,
+  logg=4.60+-0.04, [Fe/H]=-0.40+-0.02.  GaiaDR2:
+  plx=104.7828+-0.0518mas, G=5.7194+-0.0005, E(BR/RP)=1.189,
+  Bp-Rp=1.0025, Bp-G=0.4532, G-Rp=0.5492.  Mv=6.065+-0.007,
+  M_G=5.821+-0.001, G-V = 5.7194 - 5.964 = -0.245.
 
 # Other Stars
 
@@ -549,11 +577,12 @@ HD 224618, sig Dra, omi^2 Eri). The approximately solar metallicity
 standards are well established: 61 UMa (G8V), 107 Psc (K1V), and eps
 Eri (K2V).
 
-Interpolating between G8V (61 UMa) and K2V (eps Eri) standards, one would expect
-the solar metallicity K0V standard to have properties of Teff ~ 5291K.
-Interpolating between G8V (61 UMa) and K1V (107 Psc) standards, one would expect
-the solar metallicity K0V standard to have properties of Teff ~ 5296K.
-These agree with the Teff adopted previously (Teff = 5290K). 
+Interpolating between G8V (61 UMa) and K2V (eps Eri) standards, one
+would expect the solar metallicity K0V standard to have properties of
+Teff ~ 5291K.  Interpolating between G8V (61 UMa) and K1V (107 Psc)
+standards, one would expect the solar metallicity K0V standard to have
+properties of Teff ~ 5296K.  These agree with the Teff adopted
+previously (Teff = 5290K).
 
 Teff [Fe/H] B-V   Name       SpT(Gray03)
 5495 -0.04  0.734 61_UMa     G8V
@@ -710,9 +739,3 @@ $ M3V   13  GJ436/Ross905   1.493 3477   [Fe/H]=-0.02   secondary
 $ M3V   13  GJ725A/LHS58    1.537 3445   [Fe/H]~-0.4    secondary
 $ M3V   13  GJ687           1.505 3489   ?              secondary
 $ M3V   13  GJ109/LHS1439   1.550 3390   ?              tertiary
-
-
-  
-### Ranges on parameters for K dwarfs
-
-Among a compilation of 92 nearby K dwarfs within 25 pc with published Teff and luminosity estimates with uncertainties

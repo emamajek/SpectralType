@@ -168,6 +168,7 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 (G-V)(G0V) =   -0.143 ; HD 52711 PM* G0V
 (G-V)(G0V) =   -0.142 ; HD 124580 PM* G0V
 (G-V)(G0V) =  -0.142+-0.008 ; sec. stan. iot Per
+(G-V)(G0V) = -0.139   ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5930K (GaiaDR3 Gmags,SIMBAD Vmags)
 (G-V)(G0V) =   -0.139 ; * phi02 Pav G0VFe-0.8CH-0.5
 (G-V)(G0V) =   -0.138 ; * bet Hyi G0V
 => adopt (G-V)(G0V) = -0.155 [updated 11/1/2020]
@@ -239,6 +240,8 @@ BCv(G0V) = -0.066 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5930K)
 BCv(G0V) =  -0.066 mag ; Code76(Teff=5930K)
 => adopt BCv(G0V) = -0.065 mag ; [last updated 10/10/2020, on scale where BCv(5772K)=-0.085]
 
+M_G(G0V) = 3.932 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.44
+
 Mv(G0V) =  4.72 mag ; ter. stan. HD 39587 = chi01 Ori 
 Mv(G0V) =  4.59 mag ; pri. stan. bet CVn = HD 109358
 Mv(G0V) =  4.56 mag ; exemplar HD 50692
@@ -296,15 +299,15 @@ bet CVn = HD 109358 = HR 4785 = GJ 475
   B-V=0.585+-0.005(Mermilliod91), B-V=0.586(Jerzykiewicz66),
   B-V=0.587(Just08), B-V=0.588+-0.009(HIP), B-V=0.59(Johnson66),
   B-V=0.593+-0.002(Tycho) => adopt B-V=0.588.
-  V=4.260+-0.007(Mermilliod91), U-B=0.046+-0.011(Mermilliod91).
-  PASTEL mean values (Soubiran22): Teff=5878+-14K(N=38),
-  logg=4.42+-0.02(N=26), [Fe/H]=-0.20+-0.01(N=28).  plx = 116.1298 +-
-  0.6776 mas (GaiaDR2), plx= 118.0266+-0.1530(GaiaEDR3).
-  Mv=4.59(HIP,GaiaDR2).  GaiaDR2 photometry, G corrected, Bp and Rp
-  OK.  G = 4.0147+-0.0047 (GaiaDR2, uncorrected), G(corr)=4.098, Bp-Rp
-  = 0.7667, Bp-G = 0.318(corr), G-Rp = 0.448(corr).
-  G-V=-0.162+-0.008(corr). GaiaEDR3: G=4.094672 0.003013,
-  E(BP/RP)=1.212, Bp-Rp=0.794468, Bp-G=0.301629,
+  V=4.260+-0.007(Mermilliod91), V=4.240+-0.002(Bourges17),
+  U-B=0.046+-0.011(Mermilliod91).  PASTEL mean values (Soubiran22):
+  Teff=5878+-14K(N=38), logg=4.42+-0.02(N=26),
+  [Fe/H]=-0.20+-0.01(N=28).  plx = 116.1298 +- 0.6776 mas (GaiaDR2),
+  plx= 118.0266+-0.1530(GaiaEDR3).  Mv=4.59(HIP,GaiaDR2).  GaiaDR2
+  photometry, G corrected, Bp and Rp OK.  G = 4.0147+-0.0047 (GaiaDR2,
+  uncorrected), G(corr)=4.098, Bp-Rp = 0.7667, Bp-G = 0.318(corr),
+  G-Rp = 0.448(corr).  G-V=-0.162+-0.008(corr). GaiaEDR3: G=4.094672
+  0.003013, E(BP/RP)=1.212, Bp-Rp=0.794468, Bp-G=0.301629,
   G-Rp=0.492839. G-V=4.095-4.26 = -0.165(GaiaEDR3,Mermilliod91).
 
 # Secondary Standard
