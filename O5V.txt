@@ -42,6 +42,10 @@ U-B(O5V)  = -1.19   ; Schmidt-Kaler82
 
 (g-r)(O5V) = -0.62 ; Covey07 interp O5V -0.62 to O9V -0.62
 
+(G-V)(O5V) =  0.014 ; HIP_31130 O5V((f))z V=6.784 G=6.7308 E(B-V)=0.468
+(G-V)(O5V) =  0.011 ; HIP_32067 O5V((f))z+O9:V V=6.348 G=6.3301 E(B-V)=0.198
+=> adopt (G-V)(O5V) = 0.01 [updated 10/22/2022]
+
 Teff(O5V) =  40300 K ; Bohm-Vitense81
 Teff(O5V) =  40500 K ; non-stan. HD 15629 (Repolust04)
 Teff(O5V) = 40728 K ; Simon-Diaz14 linear fit for O5V
@@ -59,11 +63,6 @@ Teff(O5V) =  44500 K ; Schmidt-Kaler82
 Teff(O5V) =  47034 K ; EEM N=6 Teffs
 => adopt Teff(O5V) = 41400 K (logTeff = 4.617) [updated 1/20/2020]
 => adopt Teff(O5V) = 41200 K (logTeff = 4.615) [updated 11/15/2022]
-
-
-(G-V)(O5V) =  0.014 ; HIP_31130 O5V((f))z V=6.784 G=6.7308 E(B-V)=0.468
-(G-V)(O5V) =  0.011 ; HIP_32067 O5V((f))z+O9:V V=6.348 G=6.3301 E(B-V)=0.198
-=> adopt (G-V)(O5V) = 0.01 [updated 10/22/2022]
 
 Mv(O5V) =  -5.7  mag ; Schmidt-Kaler82
 Mv(O5V) = -5.67 mas ; pri. stan. HD 46150 (see below)
