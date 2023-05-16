@@ -104,6 +104,7 @@ Teff(B0V) =   29230 K ; Theodossiou90
 Teff(B0V) =   29500 K ; Bohm-Vitense81
 Teff(B0V) = 29800 K ; Bessell98
 Teff(B0V) =   29800 K ; Blackwell80
+Teff(B0V) =   29900 K ; Habets81
 Teff(B0V) = 30000 K ; Crowther97/Fig.3
 Teff(B0V) = 30000 K ; Massey05(Milky Way)
 Teff(B0V) =   30000 K ; Schmidt-Kaler82
@@ -122,19 +123,20 @@ Teff(B0V) =   33340 K ; Vacca96
 Teff(B0V) =   33400 K ; deprecated standard HD 36512 (Nieva14)
 => adopt Teff(B0V) = 31400 K (logT = 4.497) [updated 1/20/2020]
 
-Mv(B0V) =  -0.49 mag ; HIP_104361 B0V plx=2.257 mas, Vmag=7.882,E(B-V)=0.046
-Mv(B0V) =  -2.51 mag ; HIP_106937 B0V plx=1.090 mas, Vmag=8.346,E(B-V)=0.336
+Mv(B0V)   =  -0.49 mag ; HIP_104361 B0V plx=2.257 mas, Vmag=7.882,E(B-V)=0.046
+Mv(B0V)   =  -2.51 mag ; HIP_106937 B0V plx=1.090 mas, Vmag=8.346,E(B-V)=0.336
 Mv(B0V)   = -3.13 mag ; pri. stan. tau Sco (see below)
-Mv(B0V) =  -3.18 mag ; HIP_101350 B0V plx=1.268 mas, Vmag=6.969,E(B-V)=0.213
-Mv(B0V) =  -3.46 mag ; HIP_103061 B0V plx=1.267 mas, Vmag=8.449,E(B-V)=0.783
-Mv(B0V) =  -3.47 mag ; HIP_12469 B0Ve plx=0.405 mas, Vmag=10.775,E(B-V)=0.737
+Mv(B0V)   =  -3.18 mag ; HIP_101350 B0V plx=1.268 mas, Vmag=6.969,E(B-V)=0.213
+Mv(B0V)   =  -3.46 mag ; HIP_103061 B0V plx=1.267 mas, Vmag=8.449,E(B-V)=0.783
+Mv(B0V)   =  -3.47 mag ; HIP_12469 B0Ve plx=0.405 mas, Vmag=10.775,E(B-V)=0.737
 Mv(O9.7V) = -3.54 mag ; weak stan. ups Ori (see below)
 Mv(B0.5V) =  -3.6  mag ; adopted
-Mv(B0V) =  -3.61 mag ; HIP_13255 B0V plx=0.626 mas, Vmag=9.401,E(B-V)=0.643
-Mv(B0V) =  -3.63 mag ; HIP_105113 B0V plx=0.647 mas, Vmag=9.293,E(B-V)=0.639
-Mv(B0V) =  -3.63 mag ; HIP_97045 B0V plx=0.582 mas, Vmag=7.730,E(B-V)=0.060
+Mv(B0V)   =  -3.61 mag ; HIP_13255 B0V plx=0.626 mas, Vmag=9.401,E(B-V)=0.643
+Mv(B0V)   =  -3.63 mag ; HIP_105113 B0V plx=0.647 mas, Vmag=9.293,E(B-V)=0.639
+Mv(B0V)   =  -3.63 mag ; HIP_97045 B0V plx=0.582 mas, Vmag=7.730,E(B-V)=0.060
+Mv(B0V)   =    -3.65 mag ; Habets81
 Mv(B0V)   = -3.76 mag ; mean for 3 standards (tau Sco, ups Ori, HD 46106)
-Mv(B0V) =  -3.77 mag ; HIP_107164 B0V:pe plx=1.121 mas, Vmag=6.923,E(B-V)=0.305
+Mv(B0V)   =  -3.77 mag ; HIP_107164 B0V:pe plx=1.121 mas, Vmag=6.923,E(B-V)=0.305
 Mv(B0V)   = -3.85 mag ; Bowen08
 Mv(B0V)   = -3.9  mag ; Russeil03
 Mv(B0V)   = -3.95 mag ; Wegner07
@@ -144,20 +146,20 @@ Mv(B0V)   = -4.1  mag ; GrayCorbally09
 Mv(O9.5V) =  -4.1  mag ; adopted
 Mv(B0V)   =  -4.21 mag ; Vacca96
 Mv(B0V)   = -4.62 mag ; weak stan. HD 46106 (see below)
-Mv(B0V) =  -5.42 mag ; HIP_100227 B0Vp plx=0.577 mas, Vmag=8.690,E(B-V)=0.940
-
+Mv(B0V)   =  -5.42 mag ; HIP_100227 B0Vp plx=0.577 mas, Vmag=8.690,E(B-V)=0.940
 => adopt Mv(B0V)   = -3.90  mag [updated 2/7/2020]
 => adopt M_Ks(B0V) = -2.942 mag = Mv - (V-Ks) = -3.90 - -0.958 [updated 12/30/2020]
 
 BCv(B0V) = -3.24  mag ; Vacca96
 BCv(B0V) = -3.129 mag ; Flower96(Teff=31400K)
-BCv(B0V) =   -3.03  mag ; Schmidt-Kaler82(BCv=-3.16 + 0.13 mag)
+BCv(B0V) =   -3.03 mag ; Schmidt-Kaler82(BCv=-3.16 + 0.13 mag)
 BCv(B0V) =  -3.026 mag ; Code76(Teff=31400K, set so BCv(5772K)=-0.085)
 BCv(B0V) = -3.014 mag ; Nieva13(Teff=31400K)
 BCv(B0V) = -2.995 mag ; Balona94(Teff=31400K, set so BCv(5772K)=-0.085)
 BCv(B0V) = -2.992 mag ; Bessell98(ATLAS9,logg=4.0,Teff=31400K, set so BCv(5772K)=-0.085)
 BCv(B0V) = -2.99  mag ; Bertone04[ATLAS models,their B0V Teff=30430K]
 BCv(B0V) = -2.975 mag ; LanzHubeny03/07(Teff=31400K,Z/Zsun=1,logg=4.0)
+BCv(B0V) =   -2.84 mag ; Habets81
 => adopt BCv(B0V) = -2.99 [updated 1/20/2020]
 
 logL(B0V)   =  4.31 ; pri. stan. tau Sco (see below)
@@ -171,7 +173,9 @@ logL(B0V)   =  4.91 ; weak stan. HD 46106 (see below)
 
 Mass(B0V) =  14.57 Msun ; Harmanec88
 Mass(B0V) =  15.00+-2.83 Msun ; Hohle10
+Mass(B0V) =  15.6 Msun ; Habets81
 Mass(B0V) =  16.55 Msun ; EEM Teff vs. Mass fit for binaries (Teff=31500K)
+Mass(B0V) = 16.71 Msun ; Chulkov22 fit for M_G=-3.9 (assuming G-V=0)
 Mass(B0V) =  17.68 Msun ; EEM logL vs. Mass fit for binaries (logL=4.70)
 Mass(B0V) = 17.7  Msun ; MIST/Choi16 solar tracks for logT=4.497,logL=4.652
 Mass(B0V) =  18.63 Msun ; EEM fit Mv vs. Mass to Torres10 binaries (Mv=-4.0)

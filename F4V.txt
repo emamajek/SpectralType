@@ -114,6 +114,7 @@ Teff(F4V) = 6646 K ; median of 165 published Teffs for F4V stars (EEM)
 Teff(F4V) =  6650 K ; interp. (F3V-F5V) GrayCorbally09
 Teff(F4V) =  6668 K ; Teff from smoothed SpT(Teff) trend
 Teff(F4V) = 6670 K ; trend standard+exemplars for [Fe/H]=0.0
+Teff(F4V) =  6690 K ; Habets81
 Teff(F4V) = 6695 K ; pri. stan. HD 27561 ([Fe/H] ~ +0.18)
 Teff(F4V) = 6720 K ; exemplar HD 106103 = Cl Melotte 111 19 ([Fe/H] ~ -0.04)
 => adopt Teff(F4V) = 6670 K (logT = 3.824) [updated 10/30/2020]
@@ -126,8 +127,10 @@ BCv(F4V) = -0.018 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6670K)
 BCv(F4V) = -0.018 mag ; Casagrande18(Teff=6670K,logg=4.5)
 BCv(F4V) = -0.020 mag ; Code76(Teff=6670K)
 BCv(F4V) = -0.053 mag ; EEM fit to Casagrande06/08/10(Teff=6670K)
+BCv(F4V) =  -0.10 mag ; Habets81
 => adopt BCv(F4V) = -0.015 [updated 10/30/2020, adjusted so that BCv(5772K)=-0.085]
 
+Mv(F4V)  =   3.68 mag ; Habets81
 Mv(F4V)  =  3.44 mag ; exemplar HD 157373 = HR 646 ([Fe/H] ~ -0.42)
 Mv(F4V)  =  3.43 mag ; exemplar HD 106103 = Cl Melotte 111 19 ([Fe/H] ~ -0.04)
 Mv(F4V)  =   3.3  mag ; GrayCorbally09
@@ -165,6 +168,7 @@ Mass(F4V) = 1.383 Msun ; EEM logL vs. Mass fit for binaries (logL=0.622)
 Mass(F4V) = 1.352 Msun ; EEM Mv vs. Mass fit for binaries (Mv=3.2)
 Mass(F4V) = 1.350 Msun ; Bertelli09 solar tracks for Teff=6650,logL=0.622
 Mass(F4V) = 1.30  Msun ; David15 F4 MS (rms=0.12 Msun; N=129)
+Mass(F4V) =  1.23 Msun ; Habets81
 => adopt Mass(F4V) = 1.38 Msun [updated 12/29/2019]
 
 # No standard

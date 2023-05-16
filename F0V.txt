@@ -171,6 +171,7 @@ Teff(F0V) = 7273 K ; HIP 101612, Stassun19/TIC8
 Teff(F0V) = 7328 K ; exemplar HD 73798 (Praesepid)
 Teff(F0V) = 7345 K ; pri. stan. HD 23585 (Gray01)
 Teff(F0V) = 7400 K ; median Teff for 4 F0V from Gray17
+Teff(F0V) =   7420 K ; Habets81
 Teff(F0V) =   7500 K ; Bessell79
 Teff(F0V) =   7500 K ; Theodossiou90
 => adopt Teff(F0V) = 7220 K (logT = 3.859) [updated 9/24/2020]
@@ -183,10 +184,12 @@ BCv(F0V) =  0.011 mag ; Masana06(Teff=7220K, set so BCv(5772K)=-0.085)
 BCv(F0V) =  0.000 mag ; Code76(Teff=7220K, set so BCv(5772K)=-0.085)
 BCv(F0V) = -0.007 mag ; Casagrande18(Teff=7220K,logg=4.5, set so BCv(5772K)=-0.085)
 BCv(F0V) = -0.008 mag ; Bessell98(ATLAS9,logg=4.5,Teff=7200K, set so BCv(5772K)=-0.085)
+BCv(F0V) =  -0.10 mag ; Habets81
 => adopt BCv(F0V) = 0.01 mag [last updated 9/1/2019, adjusted so that BCv(5772K)=-0.085]
 
 logg(F0V) = 4.2 ; median Teff for 4 F2V from Gray17
 
+Mv(F0V) =   3.06 mag ; Habets81
 Mv(F0V) =  2.94 mag ; exemplar HD 9919 = HR 463 = pi Psc
 Mv(F0V) =   2.7  mag ; Schmidt-Kaler82
 Mv(F0V) =   2.6  mag ; GrayCorbally09
@@ -223,6 +226,7 @@ Rad(F0V) = 1.7281 Rsun ; logL=0.864, Teff=7220K
 Rad(F0V) =  1.719 Rsun ; smoothed SpT vs Rad trend A/F dwarfs
 => adopt Rad(F0V) = 1.728 Rsun [updated 9/26/2020]
 
+Mass(F0V) =  1.40 Msun ; Habets81
 Mass(F0V) = 1.52 Msun ; David15 F0 MS (rms=0.19 Msun; N=324) 
 Mass(F0V) = 1.58 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7220K)
 Mass(F0V) = 1.59 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.49)
@@ -359,20 +363,29 @@ HD 58946 = rho Gem = HR 2852
   standard", but then Morgan71 calls its F1V. Arg!!! PASTEL: median
   Teff = 6913K.
 
-HD 110379 = gam Vir AB = Porrima
-  F0V: MK43,JM53,Cowley69(stan),Cowley74(stan)
+HD 110379 [=A]/ HD 110380 [=B] = gam Vir AB = Porrima
+  F0V: MK43(stan),JM53(stan),Cowley69(stan),Cowley74(stan)
+  F0V+F0V: Adams35,Slettebak63,Levato72
+  F0s+F0s: Bidelman85
+  F0IV+F0IV: Abt95
+ *F1V+F0mF2V: GrayGarrison89
   F1V: Keenan89,Houk99
-  F2V: Gray03
+  F1IV-V: Malaroda75
+  F2V: Gray03(A+B)
+  A7V: Penich81
 
-  Literature ranges from A7V to F2V, i.e. not the best standard nearly
-  equal mass binary. Gam Vir and Eps Cep were the F0V standards in
-  MK43.
+  One of the original MK43 F0V standards (with eps Cep), then dumped
+  in 1970s.  Literature ranges from A7V to F2V, i.e. not the best
+  standard nearly equal mass binary. Nearly equal brightness (del(Hp)
+  = 0.05(HIP) ~ delV) binary (~3"). Soubiran16 PASTEL compendium has mix
+  of values for A and B. 
+  <Teff> = 6960K(N=13), <logg> = 4.20(N=9), <[Fe/H]> = -0.07(N=9).
 
 HD 211336 = eps Cep = HR 8494 = HIP 109857 
  *F0IV: JM53,Jaschek64(most),Barry70,Ortega83,Abt95
   F0V: MK43
   F0V Sr II: Gray01
-  F0: Cannon
+  F0: Maury1897,Cannon
   A9IV: GrayGarrison89
 
   B-V = 0.278, Mv=2.09, dMv= -0.33, so only slightly above
