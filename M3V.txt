@@ -343,6 +343,7 @@ Teff(M3V) =   3316 +- 12 K ; Pecaut13 (pri. stan. GJ 752A)
 Teff(M3V) =   3320 +- 14 K ; Pecaut13 (ter. stan. GJ 687)
 Teff(M3V) =  3332 K ; Morrell19 <Teff> for stars w/i +-0.05 mag of M_Ks=6.50
 Teff(M3V) =   3344 K ; deprecated stan. GJ 628
+Teff(M3V) =  3334 +- 88 K ; Cifuentes23
 Teff(M3V) =   3350 K ; Bessell91 "old disk"
 Teff(M3V) =  3373 K ; RojasAyala12(mean N=29 M3V stars)
 Teff(M3V) =   3377 +- 18 K ; Pecaut13 (sec. stan. GJ 436)
@@ -424,6 +425,23 @@ logL(M3V) =   -1.96 dex ; deprecated stan. GJ 628 (Pineda21)
 => adopt logL(M3V) = -1.788 dex [updated 11/15/2021]
 => adopt Mbol(M3V) =  9.210 mag [updated 11/15/2021]
 
+Rad(M3V) =  0.310          Rsun ; exemplar GJ 581 (Pineda21)
+Rad(M3V) =  0.319          Rsun ; exemplar GJ 628 (Pineda21)
+Rad(M3V) =  0.322+-0.005   Rsun ; exemplar GJ 581 = Wolf 562 
+Rad(M3V) =  0.356+-0.004   Rsun ; sec. stan. GJ 725A = LHS 58 (Yee17)
+Rad(M3V) =  0.358+-0.013   Rsun ; sec. stan. GJ 251 = HD 265866 (Yee17)
+Rad(M3V) = 0.36146         Rsun ; logL=-1.788, Teff=3430K
+Rad(M3V) =  0.364+-0.014   Rsun ; ter. stan. GJ 109 = LHS 1439 (Yee17)
+Rad(M3V) = 0.367           Rsun ; Mann15 trend M_Ks=6.55, [Fe/H]=0.0
+Rad(M3V) = 0.392           Rsun ; Rabus19 trend for Teff=3440K
+Rad(M3V) = 0.393+-0.087    Rsun ; Cifuentes23
+Rad(M3V) =  0.4037         Rsun ; Eclipsing binary NGTS_J0002-29 A (Smith21; 115Myr;Blanco 1) [adopting M3V for 3372K]
+Rad(M3V) =  0.4097+-0.0075 Rsun ; Boyajian12b (N=3)
+Rad(M3V) =  0.418+-0.007   Rsun ; sec. stan. GJ 687 = HIP 86162 (Yee17)
+Rad(M3V) =  0.455+-0.018   Rsun ; sec. stan. GJ 436 (Yee17)
+Rad(M3V) =  0.474+-0.016   Rsun ; pri. stan. GJ 752A (Yee17)
+=> adopt Rad(M3V) = 0.361 Rsun [updated 12/28/2020]
+
 Mass(M3V) = 0.214+-0.001 Msun ; GJ747A (Benedict16)
 Mass(M3V) = 0.268+-0.020 Msun ; GJ860A (Benedict16)
 Mass(M3V) =  0.304 Msun ; deprecated stan. GJ 628 (Pineda21)
@@ -432,7 +450,9 @@ Mass(M3V) =  0.31 Msun ; deprecated standard GJ 22B (MSC)
 Mass(M3V) =  0.330 Msun ; Benedict16 calib. for Mv=11.10 
 Mass(M3V) =  0.35 Msun ; Mv=11.16 => HenryMcCarthy93 calibration
 Mass(M3V) = 0.355 Msun ; M_Ks=6.55 => Mann18 calibration
+Mass(M3V) = 0.390+-0.092 Msun ; Cifuentes23
 Mass(M3V) = 0.390 Msun ; M_Ks=6.55 => Benedict16 calibration
+Mass(M3V) =  0.3978 Msun ; Eclipsing binary NGTS_J0002-29 A (Smith21; 115Myr;Blanco 1) [adopting M3V for 3372K]
 Mass(M3V) = 0.398 Msun ; Eker18 calibration for logL=-1.788
 Mass(M3V) =  0.43 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.77)
 Mass(M3V) =  0.432 Msun ; Eker15 calibration for logL=-1.788
@@ -440,20 +460,7 @@ Mass(M3V) =  0.507+0.071-0.062 ; non-stan. GJ 436 (vonBraun12)
 Mass(M3V) =  0.54 Msun ; EEM Mv vs. Mass fit for binaries (Mv=11.17)
 => adopt Mass(M3V) = 0.36 Msun [updated 7/17/2020] 
 
-Rad(M3V) =  0.310 Rsun          ; exemplar GJ 581 (Pineda21)
-Rad(M3V) =  0.319 Rsun          ; exemplar GJ 628 (Pineda21)
-Rad(M3V) =  0.322+-0.005   Rsun ; exemplar GJ 581 = Wolf 562 
-Rad(M3V) =  0.356+-0.004   Rsun ; sec. stan. GJ 725A = LHS 58 (Yee17)
-Rad(M3V) =  0.358+-0.013   Rsun ; sec. stan. GJ 251 = HD 265866 (Yee17)
-Rad(M3V) = 0.36146         Rsun ; logL=-1.788, Teff=3430K
-Rad(M3V) =  0.364+-0.014   Rsun ; ter. stan. GJ 109 = LHS 1439 (Yee17)
-Rad(M3V) = 0.367          Rsun ; Mann15 trend M_Ks=6.55, [Fe/H]=0.0
-Rad(M3V) = 0.392          Rsun ; Rabus19 trend for Teff=3440K
-Rad(M3V) =  0.4097+-0.0075 Rsun ; Boyajian12b (N=3)
-Rad(M3V) =  0.418+-0.007   Rsun ; sec. stan. GJ 687 = HIP 86162 (Yee17)
-Rad(M3V) =  0.455+-0.018   Rsun ; sec. stan. GJ 436 (Yee17)
-Rad(M3V) =  0.474+-0.016   Rsun ; pri. stan. GJ 752A (Yee17)
-=> adopt Rad(M3V) = 0.361 Rsun [updated 12/28/2020]
+logg(M3V) = 4.826 ; Eclipsing binary NGTS_J0002-29 A (Smith21; 115Myr;Blanco 1) [adopting M3V for 3372K]
 
 # No Standards
 
@@ -879,16 +886,17 @@ GJ 3459 = LHS 1935 = LP 783-1 = L 672-9 = HIP 37217 = NLTT 18223 =  2MASS J07384
 
 ### OTHER STARS
 
-L 98-59 = TOI-175 = 2MASS J08180763-6818468 = NLTT 19357 = 
+L 98-59 = TOI-175 = 2MASS J08180763-6818468 = NLTT 19357
   M2: Gaidos14
   M2.5V: Henry18 
  *M3+-1V: Kostov19
   M3.4+-0.6: Sebastien21
 
-  Low metallicity M3V - now a famous nearby exoplanet host star
-  (Kostov19) with multiple transiting planets.
-  B=13.289+-0.027(APASS/DR9), V=11.71(Henry18),
-  V=11.685+-0.017(APASS/DR9), R=10.61(Henry18), I=9.25(Henry18),
+  Low metallicity ([Fe/H] ~ -0.5), slow-rotating (~70-80 d) M3V star -
+  now a famous nearby exoplanet host star (Kostov19) with multiple
+  transiting planets.  B=13.289+-0.027(APASS/DR9),
+  V=11.71(Winters15,Henry18), V=11.685+-0.017(APASS/DR9),
+  R=10.61(Winters15,Henry18), I=9.25(Winters15,Henry18),
   J=7.933+-0.027(2MASS), H=7.359+-0.049(2MASS), Ks=7.101+-0.018(2MASS)
   => V-Ks = 11.71 - 7.101 = 4.609 (basically right near median for
   M3Vs).  plx=94.2664+-0.0155mas(GaiaEDR3),
@@ -905,11 +913,35 @@ L 98-59 = TOI-175 = 2MASS J08180763-6818468 = NLTT 19357 =
   0.33+-0.06Msun(Gaidos14).  fbol=2.99±0.18×10−9 erg s−1
   cm−2(Kostov19) => mbol = 9.813+-0.065 mag (IAU2015 scale).  Lum:
   L=0.0113+-0.0006Lsun(Kostov19), L=0.015+-0.005Lsun(Gaidos14),
-  L=0.01128+-0.00042Lsun(Demangeon21) => logL=-1.9477+-0.0162.  [Fe/H]
-  = -0.5+-0.5(Kostov19), -0.46+-0.26(Demangeon21). Using VKs
-  calibration for M dwarfs, I find that the star is about 0.39 mag
+  L=0.01128+-0.00042Lsun(Demangeon21) => logL=-1.9477+-0.0162 (Lbol =
+  4.318e31 erg/s).  [Fe/H] = -0.5+-0.5(Kostov19),
+  -0.46+-0.26(Demangeon21), -0.7106(-0.8808,-0.3188) (GaiaDR3). Using
+  VKs calibration for M dwarfs, I find that the star is about 0.39 mag
   below the solar metallicity sequence: [Fe/H]=-0.27(JohnsonApps09
-  calibration), -0.48(SchlaufmanLaughlin10 calibration).
+  calibration), -0.48(SchlaufmanLaughlin10 calibration).  logLx =
+  26.48+-0.13(Magaudda22,eROSITA), logLx/Lbol = -5.14+-0.04
+  (Magaudda22; I recover this value within 0.01 dex using the
+  estimated Lbol and Lx). XMM Newton measures X-ray flux in 0.2-12 kEV
+  range of 4.72632e-14+-3.14395e-15 mW/m2 (in 0.2-2 keV range is
+  4.47796e-14 mW/m2, i.e. only ~5% lower when considering only ROSAT
+  band).  Wright18 relation for convective turnover time: log\tau =
+  0.64+0.25*(V-Ks) => log\tau = 0.64+0.25*(4.609) = 1.79225 => \tau =
+  61.98 d.  Wright11 relation for convective turnover time: log\tau =
+  -2.16 + 1.50*(V-Ks) - 0.13*(V-Ks)^2 for (V-Ks)>3.5 => log\tau =
+  1.992 => \tau = 98.16 d. Star's logLx/Lbol (-5.14) is two orders of
+  magnitude weaker than saturated in this color range (Lx/Lbol(sat) =
+  -3.08; Wright11), and the maximum rotation period for saturated
+  X-ray emitters for stars of similar color is 15.1 d (Wright11, see
+  Table 2).  Using Wright11 calibration, the X-ray activity
+  (logRx=-5.14) is consistent with predicted rotation period Prot ~ 71
+  days.  Cloutier19 estimate Prot = 78+-13 days (estimated from
+  logR'HK = -5.4+-0.11 and using M dwarf magnetic activity rotation
+  relation from Astudillo-Defru17).  Cloutier19 detects a periodogram
+  in the Halpha at P ~ 80 days. There is good agreement between Halpha
+  period detected by Cloutier19 (~80 days), predicted rotation from
+  chromospheric activity (78+-13 days; Cloutier19, following
+  Astudillo-Defru17), and my estimate using eROSITA X-rays (~71 days;
+  following Wright11 calibration).
 
 
 ###

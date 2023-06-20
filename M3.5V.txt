@@ -17,8 +17,8 @@ Kirkpatrick91 standards:          GJ 273   - M3.5V (primary standard)
 				  GJ 748AB - M3.5V (secondary stan.)
 				  GJ 643   - M3.5V (secondary stan.)
 				  GJ 734B  - M3.5V (secondary stan.)
-Kirkpatrick94 standards:	  GJ 725B (=HD 173740) - M3.5V
-	      			  GJ 873 (BD+43_4305) - M3.5V
+Kirkpatrick94 standards:	  GJ 725B (=HD 173740)  - M3.5V
+	      			  GJ 873  (=BD+43_4305) - M3.5V
 Henry02 standards: 		  GJ 15B   - M3.5V (cites Henry94)
 				  GJ 105B  - M3.5V (cites Henry94)
 				  G099-049 - M3.5V (cites Henry94)
@@ -263,6 +263,7 @@ Teff(M3.5V) =  3280 K ; exemplar GJ 876 = LHS 530
 Teff(M3.5V) =  3290 K ; pri. stan. GJ 725B 
 Teff(M3.5V) =   3280 K ; deprecated standard GJ 896AC (median Teff)
 Teff(M3.5V) = 3270 K ; Rad=0.293Rsun for Mann15 calib for M_Ks=7.15, [Fe/H]=0.0
+Teff(M3.5V) =  3260 +- 92 K ; Cifuentes23
 Teff(M3.5V) =  3253 K ; deprecated stan. GJ 273 (Rabus19 interferometry)
 Teff(M3.5V) =  3240 K ; ter. stan. GJ 729
 Teff(M3.5V) =  3218 K ; Morrell19 <Teff> for stars w/i +-0.05 mag of M_Ks=7.20
@@ -289,13 +290,39 @@ BC_Ks(M3.5V) = 2.715 ; Morrell19 trend for G-Ks=3.71
 BC_K(M3.5V)  =  2.587 +- 0.026 mag ; standard GJ 725B (Pecaut13) [mbol=7.587+-0.013, Ks=5.000+-0.023]
 => adopt BC_Ks(M3.5V) = 2.72 [updated 7/17/2020]
 
-
+logL(M3.5V)  =  -1.715 ; Eclipsing binary HAT-TR-318 A (Hartman18; [Fe/H]=+0.3)
 logL(M3.5V)  =  -1.72  ; sec. stan. GJ 669A(Newton15)
+logL(M3.5V)  =  -1.778 ; Eclipsing binary CU Cnc A (Ribas03)
+logL(M3.5V)  =  -1.863 ; Eclipsing binary PTFEB132.707+19.810 A (Kraus17; Praesepe 0.7 Gyr)
+logL(M3.5V)  =  -1.884 ; Eclipsing binary CU Cnc B (Ribas03)
+logL(M3.5V)  =  -1.924 ; Eclipsing binary LSPM_J1112+7626 A (Irwin11) 
 logL(M3.5V)  =  -2.033 ; pri. stan. GJ 752B(Newton15)
 logL(M3.5V)  = -2.032 ; M_Ks=7.10, BC_Ks=2.72, Mbol=9.820
 logL(M3.5V)  =  -2.076 ; Morrell19 trend for logL for M_Ks=7.20 
 => adopt logL(M3.5V) = -2.032 [updated 11/15/2021]
 => adopt Mbol(M3.5V) =  9.820 [updated 11/15/2021]
+
+Rad(M3.5V)   =   0.205+-0.006 Rsun    ; ter. stan. GJ 729 (Rabus19)
+Rad(M3.5V)   =  0.225 Rsun            ; Rabus19 trend for Teff=3280K [low trend]
+Rad(M3.5V)   = 0.2999 Rsun            ; Mann15 trend M_Ks=7.10, [Fe/H]=0.0
+Rad(M3.5V)   = 0.300 Rsun             ; Teff=3270K, logL=-2.032
+Rad(M3.5V)   =  0.310+-0.013 Rsun     ; ter. stan. GJ 555 = HIP 71253 (Yee17)
+Rad(M3.5V)   =  0.320 Rsun            ; Rabus19 trend for Teff=3280K [high trend]
+Rad(M3.5V)   =   0.320+-0.005 Rsun    ; deprecated stan. GJ 273 (Rabus19)
+Rad(M3.5V)   =   0.323+-0.006 Rsun    ; pri. stan. GJ 725B = LHS 59 (Yee17)
+Rad(M3.5V)   =   0.3232+- 0.0061 Rsun ; Boyajian12b (N=1, presum. GJ 725B)
+Rad(M3.5V)   =   0.328 Rsun           ; pri. stan. GJ 725B (Newton14)
+Rad(M3.5V)   =   0.350+-0.086 Rsun    ; Cifuentes23
+Rad(M3.5V)   =   0.354+-0.005 Rsun    ; exemplar GJ 876 (Rabus19)
+Rad(M3.5V)   =   0.363 Rsun           ; Ecl. binary PTFEB132.707+19.810 A (Kraus17; Praesepe 0.7 Gyr)
+Rad(M3.5V)   =   0.373 Rsun           ; sec. stan. GJ 669A (Newton14)
+Rad(M3.5V)   =   0.3860 Rsun          ; Eclipsing binary LSPM_J1112+7626 A (Irwin11)
+Rad(M3.5V)   =   0.3908 Rsun          ; Eclipsing binary CU Cnc B (Ribas03)
+Rad(M3.5V)   =   0.4317 Rsun          ; Eclipsing binary CU Cnc A (Ribas03)
+Rad(M3.5V)   =   0.4548 Rsun          ; Eclipsing binary HAT-TR-318 A (Hartman18; [Fe/H]=+0.3)
+Rad(M3.5V)   =   0.471  Rsun ; Eclipsing binary MG1-78457 B (Kraus11) [EEM adopting M3.5 for Teff=3270K]
+Rad(M3.5V)   =   0.505  Rsun ; Eclipsing binary MG1-78457 A (Kraus11) [EEM adopting M3.5 for Teff=3330K]
+=> adopt Rad(M3.5V) = 0.300 Rsun [updated 11/15/2021]
 
 Mass(M3.5V)  =   0.17  Msun ; ter. stan. GJ 729
 Mass(M3.5V)  =   0.179+-0.002 Msun ; GJ1005AB, pri. mass, unresolved M3.5V (Benedict16)
@@ -305,24 +332,23 @@ Mass(M3.5V)  =   0.277 Msun ; pri. stan. GJ725B (Mann15)
 Mass(M3.5V)  =  0.291 Msun ; Benedict16 calibration for M_Ks=7.10
 Mass(M3.5V)  =  0.302 Msun ; Eker18 calibration for logL=-2.032
 Mass(M3.5V)  =   0.341 Msun ; exemplar GJ 876 (Mann15)
+Mass(M3.5V)  =  0.345+-0.091 Msun ; Cifuentes23
 Mass(M3.5V)  =   0.379 Msun ; deprecated stan. GJ 748AB
 Mass(M3.5V)  =  0.385 Msun ; Eker15 calibration for logL=-2.032
+Mass(M3.5V)  =   0.3946 Msun ; Eclipsing binary LSPM_J1112+7626 A (Irwin11)
+Mass(M3.5V)  =   0.3953 Msun ; Ecl. binary PTFEB132.707+19.810 A (Kraus17; Praesepe 0.7 Gyr)
+Mass(M3.5V)  =   0.3980 Msun ; Eclipsing binary CU Cnc B (Ribas03)
 Mass(M3.5V)  =   0.433+-0.002 Msun ; GJ 2069A (Benedict16)
+Mass(M3.5V)  =   0.4333 Msun ; Eclipsing binary CU Cnc A (Ribas03)
+Mass(M3.5V)  =   0.448 Msun ; Eclipsing binary HAT-TR-318 A (Hartman18; [Fe/H]=+0.3)
+Mass(M3.5V)  =   0.491 Msun ; Eclipsing binary MG1-78457 B (Kraus11) [EEM adopting M3.5 for Teff=3270K]
+Mass(M3.5V)  =   0.527 Msun ; Eclipsing binary MG1-78457 A (Kraus11) [EEM adopting M3.5 for Teff=3330K]
 => adopt Mass(M3.5V) = 0.28 Msun [updated 11/15/2021]
 
-Rad(M3.5V)   =   0.205+-0.006 Rsun    ; ter. stan. GJ 729 (Rabus19)
-Rad(M3.5V)   =  0.225 Rsun            ; Rabus19 trend for Teff=3280K [low trend]
-Rad(M3.5V)   = 0.2999 Rsun           ; Mann15 trend M_Ks=7.10, [Fe/H]=0.0
-Rad(M3.5V)   = 0.300 Rsun            ; Teff=3270K, logL=-2.032
-Rad(M3.5V)   =  0.310+-0.013 Rsun     ; ter. stan. GJ 555 = HIP 71253 (Yee17)
-Rad(M3.5V)   =  0.320 Rsun            ; Rabus19 trend for Teff=3280K [high trend]
-Rad(M3.5V)   =   0.320+-0.005 Rsun    ; deprecated stan. GJ 273 (Rabus19)
-Rad(M3.5V)   =   0.323+-0.006 Rsun    ; pri. stan. GJ 725B = LHS 59 (Yee17)
-Rad(M3.5V)   =   0.3232+- 0.0061 Rsun ; Boyajian12b (N=1, presum. GJ 725B)
-Rad(M3.5V)   =   0.328 Rsun           ; pri. stan. GJ 725B (Newton14)
-Rad(M3.5V)   =   0.354+-0.005 Rsun    ; exemplar GJ 876 (Rabus19)
-Rad(M3.5V)   =   0.373 Rsun           ; sec. stan. GJ 669A (Newton14)
-=> adopt Rad(M3.5V) = 0.300 Rsun [updated 11/15/2021]
+logg(M3.5V)  = 4.774 dex ; Eclipsing binary HAT-TR-318 A (Hartman18; [Fe/H]=+0.3)
+logg(M3.5V)  = 4.804 dex ; Eclipsing binary CU Cnc A (Ribas03)
+logg(M3.5V)  = 4.854 dex ; Eclipsing binary CU Cnc B (Ribas03)
+logg(M3.5V)  = 4.861 dex ; Eclipsing binary LSPM_J1112+7626 A (Irwin11) 
 
 # Primary Standard
 

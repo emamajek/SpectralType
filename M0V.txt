@@ -29,8 +29,8 @@ Kirkpatrick09 standard: GJ 270  - M0V (primary standard)
 Kirkpatrick10 standard: GJ 270  - M0V (primary standard, optical & near-IR)
 Pecaut13 standard:      GJ 701  - M0V [from Henry02]
 Alonso-Floriano15 stan: GJ 338A (=HD 79210) - M0V ("prototype")
-		       GJ 338B (=HD 79211) - M0V ("reference")
-		       GJ 270 (=BD+33 1505) - M0V ("reference")
+		        GJ 338B (=HD 79211) - M0V ("reference")
+		        GJ 270 (=BD+33 1505) - M0V ("reference")
 Kirkpatrick16 standard: GJ 270 (=BD+33_1505) - M0V
 Newton14 standard:      GJ 123  - M0V
 
@@ -276,6 +276,7 @@ Teff(M0V) =  3874 K ; exemplar Lacaille 8760 (L+R=>T)
 Teff(M0V) =  3880 K ; empirical M-R relation **
 Teff(M0V) =  3888 K ; mean photometric Teff
 Teff(M0V) =  3900 K ; Rajpurohit13 (N=1, LHS 141)
+Teff(M0V) =  3900 +- 146 K ; Cifuentes23
 Teff(M0V) =  3907 +- 35 K ; Boyajian12b (N=1)
 Teff(M0V) =   3928 K ; deprecated stan. GJ 172
 Teff(M0V) =  3930 K ; sec. stan. GJ 338A 
@@ -374,21 +375,6 @@ logL(M0V) =  -1.08  dex ; exemplar Lacaille8760 (see below)
 => adopt logL(M0V) = -1.164 dex [updated 3/2/2021]
 => adopt Mbol(M0V) =  7.650 mag [updated 3/2/2021]
 
-Mass(M0V) =  0.454 Msun ; Habets81
-Mass(M0V) =  0.50 Msun ; deprecated stan. GJ686 (Gaidos14)]
-Mass(M0V) = 0.512 Msun ; Mv=8.91 => Benefict16 calib
-Mass(M0V) = 0.568 Msun ; M_Ks=5.20 => Mann18 calib.
-Mass(M0V) =  0.571 Msun ; Eker15 calibration for logL=-1.204
-Mass(M0V) = 0.580 Msun ; Eclipsing binary M0V NGTSJ0930-18A (Acton20)
-Mass(M0V) = 0.584 Msun ; Mv=8.91 => HenryMcCarthy93 calibration
-Mass(M0V) = 0.585 Msun ; exemplar Lacaille 8760 (Mann18 calibration, see below)
-Mass(M0V) = 0.618 Msun ; M_Ks=5.20 => Benedict16 calibration
-Mass(M0V) = 0.615 Msun ; Delfosse00 calib. for M_Ks=5.2
-Mass(M0V) = 0.616 +-0.006 Msun ; GU Boo A (Benedict16)
-Mass(M0V) =  0.62 Msun ; pri. stan. GJ270 (Gaidos14)
-Mass(M0V) = 0.665 Msun ; Mv=8.91 => Torres10 binary calibration
-=> adopt Mass(M0V) = 0.57 Msun [updated 11/3/2019]
-
 Rad(M0V) =   0.47  Rsun  ; ter. stan. GJ686 (Gaidos14)
 Rad(M0V) =   0.515 Rsun  ; sec. stan. GJ809 (Mann14)
 Rad(M0V) =   0.54  Rsun  ; sec. stan. GJ809 (Gaido14)
@@ -399,9 +385,27 @@ Rad(M0V) = 0.5823 Rsun ; Mann15 trend M_Ks=5.15, [Fe/H]=0.0
 Rad(M0V) =  0.584  Rsun ; Eclipsing binary NGTSJ0930-18 A (Acton20)
 Rad(M0V) = 0.5885 Rsun ; logL=-1.164, Teff=3850K
 Rad(M0V) =  0.5965 Rsun ; Morrell19 (Teff=3900K)
+Rad(M0V) =  0.600 +- 0.068 Rsun ; Cifuentes23
 Rad(M0V) =  0.600 Rsun ; exemplar Lacaille 8760 (using Mann15 relation).
 Rad(M0V) =  0.640 Rsun ; exemplar Lacaille 8760 (using Salsi20 relation)
 => adopt Rad(M0V) = 0.588 Rsun [updated 3/2/2021]
+
+Mass(M0V) =  0.454 Msun ; Habets81
+Mass(M0V) =  0.50 Msun ; deprecated stan. GJ686 (Gaidos14)]
+Mass(M0V) = 0.512 Msun ; Mv=8.91 => Benefict16 calib
+Mass(M0V) = 0.568 Msun ; M_Ks=5.20 => Mann18 calib.
+Mass(M0V) =  0.571 Msun ; Eker15 calibration for logL=-1.204
+Mass(M0V) = 0.580 Msun ; Eclipsing binary M0V NGTSJ0930-18A (Acton20)
+Mass(M0V) = 0.584 Msun ; Mv=8.91 => HenryMcCarthy93 calibration
+Mass(M0V) = 0.585 Msun ; exemplar Lacaille 8760 (Mann18 calibration, see below)
+Mass(M0V) = 0.609+-0.072 Msun ; Cifuentes23
+Mass(M0V) = 0.618 Msun ; M_Ks=5.20 => Benedict16 calibration
+Mass(M0V) = 0.615 Msun ; Delfosse00 calib. for M_Ks=5.2
+Mass(M0V) = 0.616 +-0.006 Msun ; GU Boo A (Benedict16)
+Mass(M0V) =  0.62 Msun ; pri. stan. GJ270 (Gaidos14)
+Mass(M0V) = 0.665 Msun ; Mv=8.91 => Torres10 binary calibration
+=> adopt Mass(M0V) = 0.57 Msun [updated 11/3/2019]
+
 
 # No standard
 

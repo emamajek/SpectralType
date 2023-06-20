@@ -26,7 +26,7 @@ Kirkpatrick(in GrayCorbally09): Gl 229A  - M1V primary standard
 Kirkpatrick10 standard:         GJ 424   - M1V (pri. standard, opt. & near-IR)
 Pecaut13 standard:              GJ 229A  - M1.0V (from Henry02)
 Alonso-Floriano15 standards:    GJ 15A  - M1.0V ("prototype")
-                              [note: most sources have GJ15A 0.5-1 subtype later]
+                                        [note: most sources have GJ15A 0.5-1 subtype later]
 		  	        GJ 3340 (=LHS 1747) - M1.0V ("reference")
 			        GJ 412A (=BD+44 2051A) - M1.0V ("reference")
 Kirkpatrick16 standard:  	GJ 229A (=HD 42581) - M1V
@@ -199,7 +199,6 @@ Note: pri. stan. GJ 229A appears to have Gaia colors similar to median of other 
 (z-J)(M1V) = 1.27  (+-0.21 rms)  ; West08
 (z-J)(M1V) = 1.344 (+-0.028 rms) ; poly fit to d<100pc GCNS for G-Ks=3.18
 
-
 Teff(M1V) =    3497 +- 39 K ; Boyajian12b (N=1)
 Teff(M1V) =   3506 K ; deprecated stan. GJ 570BC
 Teff(M1V) =   3539 K ; Pecaut13 (sec. stan. GJ 412A)
@@ -216,7 +215,8 @@ Teff(M1V) =  3664 K ; sec. stan. GJ 412A (median Teff)
 Teff(M1V) =  3670 K ; ter. stan. GJ 514 (median Teff) 
 Teff(M1V) =  3677 K ; mean photometric Teff
 Teff(M1V) =   3690 K ; non-stan. GJ 887
-Teff(M1V) =  3690 K ; empirical L-R relation for logL=-1.404 
+Teff(M1V) =  3690 K ; empirical L-R relation for logL=-1.404
+Teff(M1V) =  3693 +- 85 K ; Cifuentes23
 Teff(M1V) =  3700 K ; Rajpurohit13 (N=1; HD 42581a)
 Teff(M1V) =   3720 K ; Schmidt-Kaler82
 Teff(M1V) =  3720 K ; pri. stan. GJ 229A (median Teff)
@@ -312,19 +312,8 @@ logL(M1V) = -1.61 dex ; sec. stan. GJ 412A (calculated via JHK and Casagrande08 
 => adopt logL(M1V) = -1.392 dex [updated 4/9/2020]
 => adopt Mbol(M1V) =  8.220 mag [updated 4/9/2020]
 
-Mass(M1V) = 0.495 Msun ; M_Ks=5.64 => Mann18 calib
-Mass(M1V) = 0.503 Msun ; Mv=9.64 => Benedict16 calibration
-Mass(M1V) =  0.515 Msun ; Eker15 calibration for logL=-1.422
-Mass(M1V) = 0.523 Msun ; M_Ks=5.64 => Delfosse00 calibration
-Mass(M1V) =  0.53 Msun ; Mv=9.77 => HenryMcCarthy93 calibration
-Mass(M1V) = 0.55  Msun ; pri. stan. GJ229A
-Mass(M1V) = 0.558 Msun ; M_Ks=5.64 => Benedict16 calibration
-Mass(M1V) = 0.599+-0.005 Msun ; GJ 278C (Benedict16) 
-Mass(M1V) =  0.62 Msun ; EEM Mv vs. Mass fit for binaries (Mv=9.80)
-Mass(M1V) =  0.626 Msun ; Mv=9.64 => Torres10 calibration
-=> adopt Mass(M1V) = 0.50 Msun [updated 4/9/2020]
-
 Rad(M1V) = 0.547+-0.007   Rsun ; non-stan. GJ 809
+Rad(M1V) = 0.541+-0.079   Rsun ; Cifuentes23
 Rad(M1V) = 0.506          Rsun ; Rabus19 trend for Teff=3690K
 Rad(M1V) = 0.5008         Rsun ; Teff=3660K, logL=-1.392
 Rad(M1V) = 0.4996         Rsun ; Mann15 trend M_Ks=5.64, [Fe/H]=0.0
@@ -338,6 +327,20 @@ Rad(M1V) = 0.398+-0.009   Rsun ; pri. stan. GJ 412A (Yee17)
 *** note that N(star) = 1, and for M1.5V, they derive
 <R>=0.4979+-0.0026 Rsun (presumably GJ 412A) So their M1.5V point
 appears to be much better constrained.
+
+Mass(M1V) = 0.495 Msun ; M_Ks=5.64 => Mann18 calib
+Mass(M1V) = 0.503 Msun ; Mv=9.64 => Benedict16 calibration
+Mass(M1V) =  0.515 Msun ; Eker15 calibration for logL=-1.422
+Mass(M1V) = 0.523 Msun ; M_Ks=5.64 => Delfosse00 calibration
+Mass(M1V) =  0.53 Msun ; Mv=9.77 => HenryMcCarthy93 calibration
+Mass(M1V) = 0.547+-0.084 Msun ; Cifuentes23
+Mass(M1V) = 0.55  Msun ; pri. stan. GJ229A
+Mass(M1V) = 0.558 Msun ; M_Ks=5.64 => Benedict16 calibration
+Mass(M1V) = 0.599+-0.005 Msun ; GJ 278C (Benedict16) 
+Mass(M1V) =  0.62 Msun ; EEM Mv vs. Mass fit for binaries (Mv=9.80)
+Mass(M1V) =  0.626 Msun ; Mv=9.64 => Torres10 calibration
+=> adopt Mass(M1V) = 0.50 Msun [updated 4/9/2020]
+
 
 # No Standard
 

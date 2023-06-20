@@ -88,8 +88,6 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 (Bp-G)(M7V) = 3.2370 ; GJ_644C
 (Bp-G)(M7V) = 3.2687 ; LHS_3003
 
-
-
 Note that for stars in SIMBAD with reported V and G magnitudes, there appears
 to be nice trend in G-V colors as f(SpT) through M6.5, but then things flatten out
 at M7V and beyond. I suspect this is due to the lack of reported Vmags. So we may
@@ -263,6 +261,7 @@ Teff(M7V)  =  2676 K ; Dahn02 average for LHS 429 & LHS 3003
 Teff(M7V)  =    2670 K ; Habets81
 Teff(M7V)  = 2660 K ; empirical L-R relation, for logL=-3.188
 Teff(M7V)  =  2626 K ; EEM N=18 Teffs
+Teff(M7V)  =  2625+-108 K ; Cifuentes23
 Teff(M7V)  =  2621 K ; Golimowski04
 Teff(M7V)  =  2619 K ; LHS 2351 (Dieterich14)
 Teff(M7V)  =   2600 K ; Bessell91 "old disk"
@@ -314,18 +313,21 @@ logL(M7V) = -3.188 ; M_Ks=9.70, BC_K=3.01 => Mbol = 12.710
 => adopt logL(M7V) = -3.188 dex [updated 12/10/2020]
 => adopt Mbol(M7V) = 12.710 mag [updated 12/10/2020]
 
-Mass(M7V) = 0.098  Msun ; M_Ks=9.7 => EEM fit to M_Ks vs. Msun for Dupuy10 data
-Mass(M7V) = 0.093  Msun ; M_Ks=9.7 => Benedict16 calibration
-Mass(M7V) = 0.0901 Msun ; M_Ks=9.7 => Mann18 calib.
-=> adopt Mass(M7V) = 0.090 Msun [updated 11/15/2021]
-
 Rad(M7V) = 0.1235 Rsun ; Rabus19 trend for Teff=2660K
 Rad(M7V) = 0.1200 Rsun ; logL=-3.188, Teff=2660K
 Rad(M7V) = 0.1181 Rsun ; Mann15 trend M_Ks=9.7, [Fe/H]=0.0
 Rad(M7V) = 0.118  Rsun ; median of 6 M7V stars (Dieterich14)
+Rad(M7V) = 0.115+-0.007 Rsun ; Cifuentes23
 Rad(M7V) = 0.1129 Rsun ; pri. stan. vB8/LHS429 (Dahn02)
 Rad(M7V) = 0.1096 Rsun ; sec. stan. LHS 3003 (Dahn02)
 => adopt Radius(M7V) = 0.120 Rsun [updated 4/4/2009]
+
+Mass(M7V) = 0.098  Msun ; M_Ks=9.7 => EEM fit to M_Ks vs. Msun for Dupuy10 data
+Mass(M7V) = 0.097+-0.007 Msun ; Cifuentes23
+Mass(M7V) = 0.093  Msun ; M_Ks=9.7 => Benedict16 calibration
+Mass(M7V) = 0.0901 Msun ; M_Ks=9.7 => Mann18 calib.
+=> adopt Mass(M7V) = 0.090 Msun [updated 11/15/2021]
+
 
 # No Standard
 

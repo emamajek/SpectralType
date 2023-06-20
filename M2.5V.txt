@@ -175,6 +175,7 @@ Teff(M2.5V) = 3475 K ; halfway between M2V (3550K) and M3V (3400K)
 Teff(M2.5V) = 3470 K ; Rad=0.4062Rsun for Mann15 calib for M_Ks=6.27, [Fe/H]=0.0
 Teff(M2.5V) = 3450 K ; exemplar GJ 674 = LHS 449 
 Teff(M2.5V) =   3442 +- 54 K ; non-standard GJ 581 (Boyajian12b) 
+Teff(M2.5V) = 3429 +- 101 K ; Cifuentes23
 Teff(M2.5V) =  3400 K ; Rajpurohit13 (N=3)
 Teff(M2.5V) = 3362 K ; Morrell19 <Teff> for stars w/i +-0.05 mag of M_Ks=6.27
 Teff(M2.5V) =   3304 +- 13 K ; non-standard GJ 581 (Pecaut13)
@@ -195,12 +196,6 @@ logL(M2.5V) = -1.636 dex ; M_Ks=6.18, BC_Ks=2.65, Mbol=8.830
 => adopt logL(M2.5V) = -1.636 [updated 12/28/2020]
 => adopt Mbol(M2.5V) =  8.830 [updated 12/28/2020]
 
-Mass(M2.5V) = 0.3995 Msun ; M_Ks=6.26 => Mann18 calib.
-Mass(M2.5V) = 0.403 Msun  ; M_Ks=6.26 => Delfosse00 calib. 
-Mass(M2.5V) = 0.432 Msun  ; pri. of GJ54AB, unresolved SpT=M2.5V (Benedict16)
-Mass(M2.5V) = 0.445 Msun  ; Benedict16 calibration for M_Ks=6.26
-=> adopt Mass(M2.5V) = 0.40 Msun [updated 11/3/2019]
-
 Rad(M2.5V) =  0.460+-0.017   Rsun ; sec. stan. GJ 250B (Yee17)
 Rad(M2.5V) =  0.420          Rsun ; Rabus19 trend for Teff=3500K
 Rad(M2.5V) = 0.4207         Rsun ; logL=-1.636, Teff=3470K
@@ -211,6 +206,14 @@ Rad(M2.5V) =  0.299+-0.010   Rsun ; non-standard GJ 581 (vonBraun11)
 => adopt Rad(M2.5V) = 0.421 Rsun [updated 12/28/2020]
 
 *** note that <Radius> for their M3V stars with N=3 is 0.4097+-0.0075 Rsun 
+
+Mass(M2.5V) = 0.3995 Msun ; M_Ks=6.26 => Mann18 calib.
+Mass(M2.5V) = 0.403 Msun  ; M_Ks=6.26 => Delfosse00 calib. 
+Mass(M2.5V) = 0.431+-0.092 Msun ; Cifuentes23
+Mass(M2.5V) = 0.432 Msun  ; pri. of GJ54AB, unresolved SpT=M2.5V (Benedict16)
+Mass(M2.5V) = 0.445 Msun  ; Benedict16 calibration for M_Ks=6.26
+=> adopt Mass(M2.5V) = 0.40 Msun [updated 11/3/2019]
+
 
 # No Standard
 Boeshaar85 does not list an M2.5V standard. 

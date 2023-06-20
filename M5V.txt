@@ -274,6 +274,7 @@ Teff(M5V) =  3000 K ; Cifuentes20 <Teff> for CARMENES M5V
 Teff(M5V) =  3011 K ; RojasAyala12(mean N=21 M5V stars)
 Teff(M5V) = 3013 K ; ter. stan. GJ 1057
 Teff(M5V) =  3014 +- 61 K ; Lepine12
+Teff(M5V) = 3034 +- 91 K ; Cifuentes23
 Teff(M5V) =  3050 K ; halfway between M4.5V(3100K) and M5.5V(3000K)
 Teff(M5V) = 3058 K ; exemplar GJ 1253 = Wolf 1069 
 Teff(M5V) = 3060 K ; Rad=0.156Rsun for Mann15 calib. for [Fe/H]=0.0, M_Ks=8.2
@@ -301,12 +302,16 @@ BC_K(M5V) =  2.741 mag ; Leggett01 polynomial for J-K=0.891
 BC_K(M5V) =  2.665 mag ; Leggett01 polynomial for I-K=2.665
 => adopt BC_K(M5V) = 2.84 mag [updated 11/3/2019]
 
-
-logL(M5V) = -2.520 dex ; M_Ks=8.20, BC_K=2.84 => Mbol = 11.040
+logL(M5V) =  -2.466 dex ; Eclipsing binary GTS J052218.2-250710.4 B (Casewell17)
 logL(M5V) = -2.518 dex ; Morrell19 trend for logL for M_Ks=8.21
+logL(M5V) =  -2.518 dex ; Eclipsing binary GTS J052218.2-250710.4 A (Casewell17)
+logL(M5V) = -2.520 dex ; M_Ks=8.20, BC_K=2.84 => Mbol = 11.040
 => adopt logL(M5V) = -2.520 dex [updated 11/15/2021]
 => adopt Mbol(M5V) = 11.040 mag [updated 11/15/2021]
 
+Rad(M5V)  = 0.2168 Rsun ; Eclipsing binary GTS J052218.2-250710.4 B (Casewell17)
+Rad(M5V)  = 0.211+-0.052 Rsun ; Cifuentes23
+Rad(M5V)  = 0.2045 Rsun ; Eclipsing binary GTS J052218.2-250710.4 A (Casewell17)
 Rad(M5V)  = 0.1958 Rsun ; Mann15 trend M_Ks=8.20, [Fe/H]=0.0
 Rad(M5V)  = 0.1955 Rsun ; logL=-2.520, Teff=3060K
 Rad(M5V)  = 0.1867 Rsun ; Rabus19 trend for Teff=3080K
@@ -315,8 +320,14 @@ Rad(M5V)  = 0.1867 Rsun ; Rabus19 trend for Teff=3080K
 Mass(M5V) = 0.146 Msun  ; Mv=14.16 => Benedict16 calibration
 Mass(M5V) = 0.157 Msun  ; M_Ks=8.20 => Benedict16 calibration
 Mass(M5V) = 0.1615 Msun ; M_Ks=8.20 => Mann18 calib
+Mass(M5V) =  0.17391 Msun ; Eclipsing binary GTS J052218.2-250710.4 A (Casewell17)
+Mass(M5V) =  0.17418 Msun ; Eclipsing binary GTS J052218.2-250710.4 B (Casewell17)
+Mass(M5V) = 0.198+-0.055 Msun ; Cifuentes23
 Mass(M5V) = 0.231+-0.001 Msun ; GJ 630.1A (Benedict16)
 => adopt Mass(M5V) = 0.161 Msun [updated 11/15/2021]
+
+logg = 5.873 dex ; Eclipsing binary GTS J052218.2-250710.4 A (Casewell17)
+logg = 5.745 dex ; Eclipsing binary GTS J052218.2-250710.4 B (Casewell17)
 
 # No Standards
 

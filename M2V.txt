@@ -235,6 +235,7 @@ Teff(M2V) =    3500 K ; Bessell74 (blackbody Teffs from Veeder74)
 Teff(M2V) =  3500 K ; Rajpurohit13 (N=5)
 Teff(M2V) =  3518 +- 57 K ; Lepine12
 Teff(M2V) =  3520 K ; exemplar GJ 2066
+Teff(M2V) =  3528 +- 111 K ; Cifuentes23
 Teff(M2V) =  3553 K ; Passegger18 median Teff for CARMENES M2.0V(N=37)
 Teff(M2V) = 3560 K ; Rad=0.4468Rsun & Mann15 calib. for M_Ks=5.98, [Fe/H]=0.0
 Teff(M2V) =  3561 K ; RojasAyala12(mean N=15 M2V stars)
@@ -352,18 +353,6 @@ logL(M2V) = -1.66  dex ; pri. stan. GJ 411 (Leggett96)
 => adopt logL(M2V) = -1.540 dex [updated 11/3/2019]
 => adopt Mbol(M2V) =  8.590 mag [updated 11/3/2019]
 
-Mass(M2V) =   0.262 Msun ; Habets81
-Mass(M2V) =  0.403 Msun ; pri. stan. GJ 411 (Segransen03)
-Mass(M2V) =  0.405 Msun ; deprecated stan. GJ 22A (Dieterich21)
-Mass(M2V) = 0.428 Msun ; Benedict16 calibration for Mv=10.21
-Mass(M2V) = 0.443 Msun ; Mann18 calibration for M_Ks=5.98
-Mass(M2V) =  0.455 Msun ; Delfosse00 calibration for M_Ks=5.98
-Mass(M2V) =  0.479 Msun ; Eker15 calibration for logL=-1.574
-Mass(M2V) =  0.49  Msun ; EEM logL vs. Mass fit for binaries (logL=-1.57)
-Mass(M2V) = 0.499 Msun ; Benedict16 calibration for M_Ks=5.98
-Mass(M2V) =  0.593 Msun ; Mv=10.23 => Torres10 calibration
-=> adopt Mass(M2V) = 0.44 Msun [updated 11/3/2019]
-
 Rad(M2V) = 0.376+-0.018   Rsun ; deprecated stan. GJ 22A (Dieterich21) [Fe/H]=-0.19
 Rad(M2V) = 0.3924+-0.0033 Rsun ; Boyajian12b (N=1, presumably GJ411
 Rad(M2V) = 0.392+-0.003   Rsun ; pri. stan. GJ 411 (Yee17)
@@ -371,8 +360,23 @@ Rad(M2V) = 0.435+-0.005   Rsun ; exemplar GJ 892 (Rabus19)
 Rad(M2V) = 0.4464         Rsun ; logL=-1.540, Teff=3560K
 Rad(M2V) = 0.4468         Rsun ; Mann15 trend M_Ks=5.98, [Fe/H]=0.0
 Rad(M2V) = 0.461          Rsun ; Rabus19 trend for Teff=3590K
+Rad(M2V) = 0.477+-0.091   Rsun ; Cifuentes23
 Rad(M2V) = 0.522+-0.019   Rsun ; sec. stan. GJ 382 (Yee17) 
 => adopt Rad(M2V) = 0.446 Rsun [updated 4/9/2020]
+
+Mass(M2V) =   0.262 Msun ; Habets81
+Mass(M2V) =  0.403 Msun ; pri. stan. GJ 411 (Segransen03)
+Mass(M2V) =  0.405 Msun ; deprecated stan. GJ 22A (Dieterich21)
+Mass(M2V) = 0.428  Msun ; Benedict16 calibration for Mv=10.21
+Mass(M2V) = 0.443  Msun ; Mann18 calibration for M_Ks=5.98
+Mass(M2V) =  0.455 Msun ; Delfosse00 calibration for M_Ks=5.98
+Mass(M2V) =  0.479 Msun ; Eker15 calibration for logL=-1.574
+Mass(M2V) = 0.479+-0.096 Msun ; Cifuentes23
+Mass(M2V) =  0.49  Msun ; EEM logL vs. Mass fit for binaries (logL=-1.57)
+Mass(M2V) = 0.499  Msun ; Benedict16 calibration for M_Ks=5.98
+Mass(M2V) =  0.593 Msun ; Mv=10.23 => Torres10 calibration
+=> adopt Mass(M2V) = 0.44 Msun [updated 11/3/2019]
+
 
 # Primary Standards
 
@@ -382,7 +386,12 @@ GJ 411 = HD 95735 = Lalande 21185 = LHS 37 (J1103+3558)
   M2+V: Turnshek85(stan;dM2+),Keenan85,Keenan88,Keenan89,Keenan99,Pecaut13
   M2.5V: KeenanMcNeil76(stan; Table 3)
 
-  The fourth nearest M dwarf (plx=392.64+-0.67mas; vanLeeuwen07).
+  The fourth nearest M dwarf:
+  plx=392.40+-0.91mas(HIP/ESA1997), 
+  plx=392.64+-0.67mas(HIP2/vanLeeuwen07)
+  plx=392.7529+-0.0321mas(GaiaDR3).
+
+
   KeenanMcNeil76 call it a M2V standard on their Plates 19 and 21, but
   a M2.5V standard in Table 3. Saturated in 2MASS (mags of ~0.3 mag
   precision quoted). [Fe/H] = -0.2 (Zboril98),

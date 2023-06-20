@@ -290,6 +290,7 @@ Teff(M4V) =    3150 K ; Bessell91 "old disk"
 Teff(M4V) =  3162 K ; RojasAyala12(mean N=29 M4V stars)
 Teff(M4V) =  3165 K ; Morrell19 <Teff> for stars w/i +-0.05 mag of M_Ks=7.50
 Teff(M4V) =  3196 K ; non-stan. GJ 22C (Dieterich21) [Fe/H]=-0.10
+Teff(M4V) =  3199 +- 88 K ; Cifuentes23
 Teff(M4V) =  3200 K ; Rajpurohit13(N=16)
 Teff(M4V) =  3200 K ; sec. stan. GJ 232 
 Teff(M4V) =  3204 +- 76 K ; Lepine12
@@ -345,32 +346,48 @@ BC_K(M4V) = 2.641 mag ; Leggett01 polynomial for J-K=0.839
 logL(M4V) = -2.56 dex ; tertiary standard GJ 299 (Leggett96)
 logL(M4V) = -2.52 dex ; non-stan. GJ 22C (Dieterich21) [Fe/H]=-0.10
 logL(M4V) = -2.46 dex ; non-standard Barnard's Star (Dawson04 & Leggett96)
-logL(M4V) = -2.207 dex ; Morrell19 trend for logL for M_Ks=7.50 
-logL(M4V) = -2.144 dex ; M_Ks=7.36, BC_K=2.74 => Mbol = 10.10
+logL(M4V) =  -2.3125 dex ; Eclipsing binary KOI-126 C (Yenawine23) [EEM adopts M4V based on Teff=3235K]
+logL(M4V) = -2.207 dex ; Morrell19 trend for logL for M_Ks=7.50
+logL(M4V) =  -2.1945 dex ; Eclipsing binary KOI-126 B (Yenawine23) [EEM adopts M4V based on Teff=3235K]
 logL(M4V) = -2.18 dex ; secondary stan. GJ 213 (Leggett96)
+logL(M4V) = -2.144 dex ; M_Ks=7.36, BC_K=2.74 => Mbol = 10.10
+logL(M4V) =  -2.125 dex ; Eclipsing binary NGTS_J0002-29 B (Smith21; 115Myr;Blanco 1) [adopting M4V for 3231K]
 => adopt logL(M4V) = -2.144 dex [updated 11/15/2021]
 => adopt Mbol(M4V) = 10.100 mag [updated 11/15/2021]
+
+Rad(M4V) =  0.179+-0.009 Rsun   ; non-stan. GJ 22C (Dieterich21) [Fe/H]=-0.10
+Rad(M4V) =  0.1869+-0.0012 Rsun ; Boyajian12b (N=1)
+Rad(M4V) =  0.196+-0.010 Rsun   ; sec. stan. GJ 447 = Ross 128 (Rabus19)
+Rad(M4V) =  0.200 Rsun          ; non-standard star Barnard's Star (Dawson04)
+Rad(M4V) = 0.214 Rsun           ; Rabus19 trend for Teff=3220K [low trend - low Teff edge]
+Rad(M4V) =  0.23151 Rsun ; Eclipsing binary KOI-126 C (Yenawine23) [EEM adopts M4V based on Teff=3235K] 
+Rad(M4V) =  0.25453 Rsun ; Eclipsing binary KOI-126 B (Yenawine23) [EEM adopts M4V based on Teff=3235K] 
+Rad(M4V) = 0.2717 Rsun          ; Mann15 trend for M_Ks=7.36, [Fe/H]=0.0
+Rad(M4V) = 0.2739 Rsun          ; logL=-2.144, Teff=3210K
+Rad(M4V) =  0.2759 Rsun ; Eclipsing binary NGTS_J0002-29 B (Smith21; 115Myr;Blanco 1) [adopting M4V for 3231K]
+Rad(M4V) = 0.283 Rsun           ; Rabus19 trend for Teff=3220K [high trend - low Teff edge]
+Rad(M4V) =  0.315+-0.084 Rsun   ; Cifuentes23
+=> adopt Rad(M4V) = 0.274 Rsun [last updated 1/15/2021]
 
 Mass(M4V) =  0.124 Msun ; Habets81
 Mass(M4V) = 0.157+-0.003 Msun ; non-stan. GJ 22C (Dieterich21) [Fe/H]=-0.10
 Mass(M4V) = 0.172+-0.008 Msun ; GJ860B (Benedict16)
 Mass(M4V) = 0.177+-0.029 Msun ; GJ166C (Benedict16)
 Mass(M4V) =  0.201 Msun ; Mv=12.6 => HenryMcCarthy93 calibration
+Mass(M4V) =  0.20727 Msun ; Eclipsing binary KOI-126 C (Yenawine23) [EEM adopts M4V based on Teff=3169K] 
 Mass(M4V) = 0.214 Msun ; Benedict16 calibration for Mv=12.61
+Mass(M4V) =  0.2245 Msun ; Eclipsing binary NGTS_J0002-29 B (Smith21; 115Myr;Blanco 1) [adopting M4V for 3231K]
+Mass(M4V) =  0.23519 Msun ; Eclipsing binary KOI-126 B (Yenawine23) [EEM adopts M4V based on Teff=3235K] 
 Mass(M4V) =  0.239 Msun ; Delfosse00 calibration for M_Ks=7.36
 Mass(M4V) = 0.242 Msun ; Benedict16 calibration M_Ks=7.36
 Mass(M4V) = 0.244 Msun ; Mann18 calib for M_Ks=7.36
+Mass(M4V) = 0.309+-0.088 Msun ; Cifuentes23
 => adopt Mass(M4V) = 0.24 Msun [updated 11/15/2021]
 
-Rad(M4V) =  0.179+-0.009 Rsun   ; non-stan. GJ 22C (Dieterich21) [Fe/H]=-0.10
-Rad(M4V) =  0.1869+-0.0012 Rsun ; Boyajian12b (N=1)
-Rad(M4V) =  0.196+-0.010 Rsun   ; sec. stan. GJ 447 = Ross 128 (Rabus19)
-Rad(M4V) =  0.200 Rsun          ; non-standard star Barnard's Star (Dawson04)
-Rad(M4V) = 0.214 Rsun          ; Rabus19 trend for Teff=3220K [low trend - low Teff edge]
-Rad(M4V) = 0.2717 Rsun         ; Mann15 trend for M_Ks=7.36, [Fe/H]=0.0
-Rad(M4V) = 0.2739 Rsun         ; logL=-2.144, Teff=3210K
-Rad(M4V) = 0.283 Rsun          ; Rabus19 trend for Teff=3220K [high trend - low Teff edge]
-=> adopt Rad(M4V) = 0.274 Rsun [last updated 1/15/2021]
+logg(M4V) = 4.907  ; Eclipsing binary NGTS_J0002-29 B (Smith21; 115Myr;Blanco 1) [adopting M4V for 3231K]
+logg(M4V) = 4.998  ; Eclipsing binary KOI-126 B (Yenawine23) [EEM adopts M4V based on Teff=3235K]
+logg(M4V) = 5.0255 ; Eclipsing binary KOI-126 C (Yenawine23) [EEM adopts M4V based on Teff=3235K] 
+
 
 # No Standards
 
