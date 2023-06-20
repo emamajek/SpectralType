@@ -143,6 +143,7 @@ Teff(A0V) = 9740 K ; prim. stan. HR 3314 median Teff
 Teff(A0V) =   9730 K ; Bertone04[NextGen]
 Teff(A0V) = 9707 K ; EEM N=265 Teffs
 Teff(A0V) = 9706 K ; median for N=72 Gerbaldi99 A0V stars, Kunzli97 calibration
+Teff(A0V) =   9700 K ; Habets81
 Teff(A0V) = 9660 K ; anchor stan  alf Lyr (Monnier13, apparent Teff)
 Teff(A0V) =   9560 K ; Chavez95 (+60-80K)
 Teff(A0V) =   9530 K ; Theodossiou90
@@ -153,17 +154,19 @@ Teff(A0V) =   9377 K ; B-V=0.00 => Teff(Napiwotski93)
 Teff(A0V) = 9355 K ; prim. stan. gam UMa (see below)
 => adopt Teff(A0V) = 9700 K (logT = 3.987) [updated 9/16/2019]
 
-BCv(A0V) = -0.267 ; Flower96(Teff=9700K, set BCv(5772K)=-0.085)
-BCv(A0V) = -0.231 ; Code76(Teff=9700K, set BCv(5772K)=-0.085)
-BCv(A0V) = -0.218 ; Bessell98(ATLAS,logg=4.0,Teff=9700K, set BCv(5772K)=-0.085
-BCv(A0V) = -0.213 ; Balona94(Teff=9700K, set BCv(5772K)=-0.085
-BCv(A0V) = -0.209+-0.015 ; calc using Calspec Vega, IAU2015 mbol scale, V=0.028+-0.003 for Vega
-BCv(A0V) =  -0.170 ; Schmidt-Kaler82(BCv=-0.30 + 0.13 offset) 
-BCv(A0V) = -0.164 ; Bertone04[ATLAS,Teff=9700K, set BCv(5772K)=-0.085
+BCv(A0V) =  -0.68 mag ; Habets81
+BCv(A0V) = -0.267 mag ; Flower96(Teff=9700K, set BCv(5772K)=-0.085)
+BCv(A0V) = -0.231 mag ; Code76(Teff=9700K, set BCv(5772K)=-0.085)
+BCv(A0V) = -0.218 mag ; Bessell98(ATLAS,logg=4.0,Teff=9700K, set BCv(5772K)=-0.085
+BCv(A0V) = -0.213 mag ; Balona94(Teff=9700K, set BCv(5772K)=-0.085
+BCv(A0V) = -0.209+-0.015 mag ; calc using Calspec Vega, IAU2015 mbol scale, V=0.028+-0.003 for Vega
+BCv(A0V) =  -0.170 mag ; Schmidt-Kaler82(BCv=-0.30 + 0.13 offset) 
+BCv(A0V) = -0.164 mag ; Bertone04[ATLAS,Teff=9700K, set BCv(5772K)=-0.085
 => adopt BCv(A0V) = -0.21 [updated 9/16/2019, adjusted so that BCv(5772K)=-0.085]
 
 Mv(A0V) =  2.96 mag ; HIP_92794 A0V plx=12.938 mas, Vmag=7.408,E(B-V)=0.003
 Mv(A0V) =  1.99 mag ; HIP_30760 A0V plx=11.947 mas, Vmag=6.609,E(B-V)=0.001
+Mv(A0V) =   1.97 mag ; Habets81
 Mv(A0V) =  1.84 mag ; HIP_41373 A0V plx=14.447 mas, Vmag=6.042,E(B-V)=0.001
 Mv(A0V) =  1.59 mag ; HIP_41081 A0V plx=13.871 mas, Vmag=5.886,E(B-V)=0.001
 Mv(A0V) =  1.53 mag ; sec. stan. HD 225047 (in Blanco 1)
@@ -215,10 +218,12 @@ Mass(A0V) = 2.39 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.0)
 Mass(A0V) = 2.38 Msun ; EEM Teff vs. Mass fit for binaries (Teff=9700K)
 Mass(A0V) = 2.34 Msun ; Bertelli09 solar tracks for Teff=9700K,logL=1.58
 Mass(A0V) = 2.32 Msun ; EEM logL vs. Mass fit for binaries (logL=1.58)
+Mass(A0V) = 2.31 Msun ; Chulkov22 fit for M_G=1.005 (Mv=0.99, G-V=0.015)
 Mass(A0V) = 2.3 Msun  ; Vega (Aufdenberg06)
 Mass(A0V) = 2.30 Msun ; Ekers18 ML calibration for logL=1.58
 Mass(A0V) = 2.15+0.10-0.15 Msun ; Vega (Monnier13)
-Mass(A0V) = 2.135 Msun ; Vega (Yoon10) 
+Mass(A0V) = 2.135 Msun ; Vega (Yoon10)
+Mass(A0V) =  2.07 Msun ; Habets81
 Mass(A0V) = 1.905+-0.040 Msun ; Eclipsing binary AY Cam A (Torres10)
 => adopt Mass(A0V) = 2.35 Msun [updated 12/29/2019]
 
