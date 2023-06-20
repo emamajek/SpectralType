@@ -13,6 +13,7 @@ Teff(L1V) = 2187 K ; Dupuy17(Lyon model scale)
 Teff(L1V) = 2150 K ; Cifuentes20 <Teff> for CARMENES L1V(N=15)
 Teff(L1V) = 2141 K ; Dupuy17(SaumonMarley08 scale)
 Teff(L1V) = 2102 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L1V) = 2076+-203 K ; Cifuentes23
 Teff(L1V) = 2097 K ; Kirkpatrick20 Table 13 polynomial 
 => adopt Teff(L1V) = 2160 K (logT = 3.334) [updated 4/17/2020]
 
@@ -114,21 +115,24 @@ M_Ks(L1V) =  11.1039 ; 2MASSW J0015447+351603
 M_Ks(L1V) =  11.1866 ; 2MASS J09211410-2104446
 => adopt M_Ks(L1V) = 10.8 [updated 1/10/2021) [G-Ks=6.0, M_G=16.8]
 
-Mass(L1V) = 0.0757 Msun ; Mann18 calib. for M_Ks=10.8
-=> adopt Mass(L1V) = 0.076 Msun [updated 11/3/2019]
-
 BC_K(L1V)  = 3.258 mag ; Golimowksi04
 BC_Ks(L1V) = 3.250 mag ; Looper08  
 BC_Ks(L1V) = 3.215 mag ; Filipazzo15 (field)
 BC_Ks(L1V) = 3.21  mag ; Schmidt14 (rms = 0.04)
 => adopt BC_Ks(L1V) = 3.22 [updated 1/15/2021]
 
+logL(L1V) = -3.699+-0.102 ; Cifuentes23
 logL(L1V) = -3.712 ; M_Ks=10.80, BC_Ks=3.22, Mbol=14.020
 => adopt logL(L1V) = -3.712 [updated 1/15/2021]
 => adopt Mbol(L1V) = 14.020 [updated 1/15/2021]
 
 Rad(L1V) = 0.09948 Rsun ; logL=-3.712, Teff=2160K
+Rad(L1V) = 0.112+-0.020 Rsun ; Cifuentes23
 => adopt Rad(L1V) = 0.0995 Rsun [updated 4/17/2020]
+
+Mass(L1V) = 0.0757 Msun ; Mann18 calib. for M_Ks=10.8
+Mass(L1V) = 0.094+-0.021 Msun ; Cifuentes23
+=> adopt Mass(L1V) = 0.076 Msun [updated 11/3/2019]
 
 
 # Primary Standard
