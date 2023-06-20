@@ -57,6 +57,7 @@ and within 1 mag of the MS (N=184):
 (B-V)(F7V)   =   0.50 ; Morgan71
 (B-V)(F7V)   =   0.50 ; KenyonHartmann95
 (B-V)(F7V)   =   0.50 ; JohnsonMorgan53 interp F6V(B-V=0.47),F8V(0.53)
+(B-V)(F7V)   =  0.499 ; exemplar HD 16765 = 84 Cet ([Fe/H] ~ -0.02)
 (B-V)(F7V)   =  0.498 ; exemplar HD 27991 = 70 Tau ([Fe/H] ~ +0.1)
 (B-V)(F7V)   = 0.497 ; ter. stan. tet Boo = HD 126660 ([Fe/H] ~ -0.02) 
 (B-V)(F7V)   =  0.495 ; exemplar HD 99453 = HIP 55779 ([Fe/H] ~ +0.07)
@@ -150,20 +151,21 @@ and within 1 mag of the MS (N=184):
 => adopt (g-r)(F7V) = 0.32 [updated 10/10/2020]
 
 Teff(F7V) =  6090 K ; exemplar HD 8224 = HIP 6271 (note: 3" binary)
-Teff(F7V) = 6185 K ; sec. stan. iot Psc (median Teff, slightly metal poor)
+Teff(F7V) = 6200 K ; sec. stan. iot Psc ([Fe/H] = -0.14+-0.02, logg=4.15+-0.03)
 Teff(F7V) =  6207 K ; mean photometric Teff
 Teff(F7V) =  6208 K ; median Teff for Houk F7V stars with PASTEL Teffs (but Houk F7V~Gray F7.5V)
 Teff(F7V) =  6211 K ; exemplar HD 14082 = HIP 10680
 Teff(F7V) =   6250 K ; GrayCorbally09
 Teff(F7V) =   6250 K ; Gray03 
 Teff(F7V) =  6253 K ; Boyajian12
+Teff(F7V) = 6263 K ; pri. stan. tet Per ([Fe/H] = 0.01+-0.01, logg=4.39+-0.04)
 Teff(F7V) =  6270 K ; Gray03/06 F7Vs median from TIC9/Stassun19 (N=13)
 Teff(F7V) =   6270 K ; Habets81
 Teff(F7V) =  6276 K ; median of 945 published Teffs for F7V stars
 Teff(F7V) =  6276 K ; exemplar HD 142 = HR 6
-Teff(F7V) = 6280 K ; ter. stan. ; ter. stan. tet Boo = HD 126660 ([Fe/H] ~ -0.02) 
+Teff(F7V) = 6280 K ; ter. stan. tet Boo = HD 126660 ([Fe/H] ~ -0.02) 
 Teff(F7V) =  6283 K ; Teff from smoothed SpT(Teff) trend
-Teff(F7V) = 6297 K ; pri. stan. tet Per (median Teff)
+Teff(F7V) =  6285 K ; exemplar HD 16765 = 84 Cet ([Fe/H] ~ -0.02, logg=4.30)
 Teff(F7V) =  6343 K ; exemplar HD 7345 = zet Psc B
 Teff(F7V) =   6360 K ; GrayCorbally94
 Teff(F7V) =  6365 K ; exemplar HD 99453 = HIP 55779 
@@ -245,34 +247,35 @@ HD 16895 = tet Per = 13 Per = HIP 12777 = HR 799 = GJ 107A
   F7.5V: Morgan38
   F8V: Barry70(F8Vb),Abt81,Bidelman85(F8)
 
-  The only decent F7V standard that is near the color-mag main
-  sequence (tet Boo and iot Psc are >0.4 mag off). No Houk type. M1.5
-  companion at sep=20.5" with delta(V)=5.84 (mag1=4.16,mag2=10.00).
-  Vmag=4.10(HIP), V=4.11(TYC), V=4.113(Hauck97), V=4.13(Johnson66) =>
-  adopt Hauck97. Surprisingly wide scatter in B-V values given quoted
-  uncertainties: B-V=0.48(JohnsonMorgan53),
-  B-V=0.485+-0.006(Mermilliod91), B-V=0.487(Neckel980),
-  B-V=0.489+-0.014(Tycho-2=>Mamajek06),
+  This is the only decent F7V standard that is near the color-mag main
+  sequence (tet Boo and iot Psc are >0.4 mag off) and ~solar
+  composition. No Houk type. M1.5 companion at sep=20.5" with
+  delta(V)=5.84 (mag1=4.16,mag2=10.00).  Vmag=4.10(HIP), V=4.11(TYC),
+  V=4.113(Hauck97), V=4.13(Johnson66) => adopt Hauck97. Surprisingly
+  wide scatter in B-V values given quoted uncertainties:
+  B-V=0.48(JohnsonMorgan53), B-V=0.485+-0.006(Mermilliod91),
+  B-V=0.487(Neckel980), B-V=0.489+-0.014(Tycho-2=>Mamajek06),
   B-V=0.49(Johnson66,BSC/Hoffleit91),
   B-V=0.498+-0.002(Tycho-1=>Mamajek06), B-V=0.503+-0.002(TYC),
   B-V=0.507+-0.015(Tycho-2=>EEM unpublished locus),
   B-V=0.514+-0.002(HIP), B-V=0.516+-0.002(Tycho-1=>EEM unpub. locus).
-  Adopt B-V=0.49. 
-  Mermilliod87 lists 9 published values all between 0.48 <= B-V <=
-  0.50.  V-Rc=0.296(Just08), Rc-Ic=0.286(Just08), V-Ic=0.582(Just08),
-  J=3.07(Johnson68), K=2.98(Johnson68), L=2.96(Johnson68), 2MASS
-  photometry poor (quality DCD).  V-K(Johnson) = 4.113 - 2.98 = 1.133
-  (note that Engelbracht07 estimated Ks(2MASS)-K(Johnson) =
-  0.004+-0.005, treats as zero).  plx= 89.87+-0.22mas(HIP2).
-  Schiavon07 lists [Fe/H]=-0.02 dex, Teff=6118K, logg=4.35 dex.
-  Takeda07 lists T=6350K, logg=4.32 dex, [Fe/H] = 0.06.  The PASTEL
-  catalog lists several Teff, logg, [Fe/H] estimates: <Teff> = 6297K
-  (+-36K sem, +-145K rms), <logg> = 4.35 (+-0.04 sem, +-0.19 rms),
-  <[Fe/H]> = -0.006 (+-0.017 sem, +-0.071 rms).  So the gravity is
-  very dwarf-like and its metallicity is apparently very
-  solar-ish. It's color is very representative of the median B-V for
-  F7V stars. This might be the F7V standard with the best pedigree
-  (given the problems with the other ones). Mv=3.87(HIP,HIP2).
+  Adopt B-V=0.49.  Mermilliod87 lists 9 published values all between
+  0.48 <= B-V <= 0.50.  V-Rc=0.296(Just08), Rc-Ic=0.286(Just08),
+  V-Ic=0.582(Just08), J=3.07(Johnson68), K=2.98(Johnson68),
+  L=2.96(Johnson68), 2MASS photometry poor (quality DCD).
+  V-K(Johnson) = 4.113 - 2.98 = 1.133 (note that Engelbracht07
+  estimated Ks(2MASS)-K(Johnson) = 0.004+-0.005, treats as zero).
+  plx= 89.87+-0.22mas(HIP2).  Schiavon07 lists [Fe/H]=-0.02 dex,
+  Teff=6118K, logg=4.35 dex.  Takeda07 lists T=6350K, logg=4.32 dex,
+  [Fe/H] = 0.06.  The PASTEL catalog lists several Teff, logg, [Fe/H]
+  estimates: <Teff> = 6297K (+-36K sem, +-145K rms), <logg> = 4.35
+  (+-0.04 sem, +-0.19 rms), <[Fe/H]> = -0.006 (+-0.017 sem, +-0.071
+  rms). Soubiran22 (PASTEL averages) lists Teff = 6263+-67K,
+  logg=4.39+-0.04, [Fe/H]=+0.01+-0.01.  So the gravity is very
+  dwarf-like and its metallicity is apparently very solar-ish. It's
+  color is very representative of the median B-V for F7V stars. This
+  might be the F7V standard with the best pedigree (given the problems
+  with the other ones). Mv=3.87(HIP,HIP2).
   Mass=1.138+-0.010Msun(Boyajian12), age=4.0+-0.4Gyr(Boyajian12).
 
 # Secondary Standards
@@ -281,17 +284,19 @@ HD 222368 = iot Psc = 17 PSc = HIP 116771
  *F7V: JM53,Jaschek64(majority),Jaschek78,Houk,Gray89,Gray01
   F8V: Barry70(F8Va uv metals weak),Roman50,Kennedy83,Bidelman85(F8)
  
-  Gray agreed twice with original JM53 classification.
-  V=4.126+-0.007(Mermilliod91), V=4.13(Johnson66), V=4.13(HIP),
-  V=4.14(TYC), B-V=0.506+-0.006(Mermilliod91), B-V=0.507+-0.006(HIP),
-  B-V=0.51(Johnson66), B-V=0.511+-0.003(TYC) => adopt B-V=0.51. 
-  U-B=0.006+-0.014(Mermilliod91), U-B=0.01(Johnson66). 
-  Mv=3.43, dMv=-0.42, par=72.5+-1.1
-  mas. PASTEL compilation has many estimates of Teff, logg,
-  metallicity: <Teff> = 6185 K (+-23 K sem, +-97 K rms), <logg> = =
-  4.13 (+-0.04 sem, +-0.20 rms), <[Fe/H]> = -0.17 (+-0.02 sem, +-0.11
-  rms). So star is slightly metal poor and slightly lower surface
-  gravity than typical dwarfs. Mass = 1.15+-0.1 Msun (Ghezzi10),
+  Gray agreed twice with original JM53 classification.  Star is a tad
+  metal poor ([Fe/H] ~ -0.14) and slightly lower surface gravity (logg
+  ~ 4.15).  V=4.126+-0.007(Mermilliod91), V=4.13(Johnson66),
+  V=4.13(HIP), V=4.14(TYC), B-V=0.506+-0.006(Mermilliod91),
+  B-V=0.507+-0.006(HIP), B-V=0.51(Johnson66), B-V=0.511+-0.003(TYC) =>
+  adopt B-V=0.51.  U-B=0.006+-0.014(Mermilliod91),
+  U-B=0.01(Johnson66).  Mv=3.43, dMv=-0.42, par=72.5+-1.1 mas. PASTEL
+  compilation has many estimates of Teff, logg, metallicity: <Teff> =
+  6185 K (+-23 K sem, +-97 K rms), <logg> = = 4.13 (+-0.04 sem, +-0.20
+  rms), <[Fe/H]> = -0.17 (+-0.02 sem, +-0.11 rms). Soubiran22 PASTEL
+  averages: Teff=6200+-15K, logg=4.15+-0.03, [Fe/H]=-0.14+-0.02.  So
+  star is slightly metal poor and slightly lower surface gravity than
+  typical dwarfs. Mass = 1.15+-0.1 Msun (Ghezzi10),
   Mass=1.268+-0.009Msun(Boyajian12), Age=3.4+-0.2Gyr(Boyajian12).
 
 # Tertiary Standard
@@ -309,7 +314,8 @@ HD 126660 = tet Boo = HIP 70497 = HR 5404 = GJ 549A
   Washington Double Star catalog.  B-V(HIP)=0.497+-0.005, V=4.04(HIP),
   V-I=0.59+-0.12(HIP).  plx=68.82+-0.14mas(HIP2) => Mv=3.23 (~0.57 mag
   above MS).  PASTEL: <Teff> = 6280K(N=11), <logg>=4.29(N=5),
-  <[Fe/H]>=-0.02(N=5).
+  <[Fe/H]>=-0.02(N=5). Soubiran22 PASTEL averages: Teff=6280+-16K,
+  logg=4.23+-0.06, [Fe/H]=-0.03+-0.02. 
 
 # Exemplars
 
@@ -340,7 +346,7 @@ HD 142 = HR 6 = HIP 522
   K5V companion 4" away. WDS notes: "HDO 180: A is a spectroscopic
   binary.  Primary is planet host star, P=339d. B comp is LHS
   1021. Pair bound.  Photometry suggests companion K8.5-M1.5 with mass
-  0.59 � 0.02 Msun."  WDS delta(mag)=5.8 (mag2=11.5). V=5.70(HIP),
+  0.59 ± 0.02 Msun."  WDS delta(mag)=5.8 (mag2=11.5). V=5.70(HIP),
   V=5.71(TYC), B-V=0.515+-0.002(TYC), B-V=0.516+-0.007(Mermilliod91),
   B-V=0.519+-0.011(HIP) => adopt unresolved B-V=0.516.
   V(B)=10.63(TYC). PASTEL: <Teff> = 6276K(N=18), <logg>=4.25(N=13),
@@ -396,7 +402,23 @@ HD 99453 = HIP 55779
   36.74+-0.20(HIP2), plx = 36.3405+-0.1296 (GaiaDR2) =>
   Mv=2.982+-0.013. Teffs: 6324K(Ammler-vonEiff12), 6361K(Gray03),
   6368+-80K(Casagrande11), 6368K(Netopil17) => <Teff> = 6365K.
-  [Fe/H]=+0.07+-0.06(Gaspar16). 
+  [Fe/H]=+0.07+-0.06(Gaspar16).
+
+HD 16765 = 84 Cet = HR 790 = HIP 12530 A
+   F6V: Adams35,Corbally80,Abt85
+  *F7V: Gray03
+   F7IV: Cowley76
+   F8V: Harlan74
+   F9V: 1953AnHar.119....1H
+   
+   A 4.0" binary (delV=3.86) in Washington Double Star Catalog.  Most
+   photometry is blended. Tycho-2 photometry for primary:
+   BT=6.344+-0.015, VT=5.823+-0.010 => converts to V=5.767+-0.010,
+   B-V=0.499+-0.016.  Soubiran22 PASTEL averages: Teff=6285+-28K,
+   logg=4.30+-0.07, [Fe/H]=-0.02+-0.05.  V=5.82(WDS),
+   plx=45.2337+-0.0616mas(GaiaDR3) => Mv=4.10. Salsi20 lists
+   limbdarkened daimeter tetLD = 0.4970+-0.0070 mas from Boyajian13.
+
 
 # Deprecated Standards
 
@@ -435,7 +457,7 @@ HD 82543 = HR 3794
   F5: Cannon
   K0III+A/F: Houk99
 
-  Houk99 notes "HR 3794; VISUAL DOUBLE p=153�d=0.1arcsec MAGS 7.0,
+  Houk99 notes "HR 3794; VISUAL DOUBLE p=153°d=0.1arcsec MAGS 7.0,
   7.0; vSINi<15" Is the Houk99 type a typo? Cowley went from F8II
   (1973) -> F6IV-V (1976; standard!) -> F8IV: (1979).  Not a useful
   standard at this time.
@@ -474,6 +496,15 @@ best agreement among classifiers as an F7V, but it is a tight
 binary. HD 27808 can't be a F7V standard as it is a well-used F8V
 standard.
 
+Among the stars classified F7V (or variant) in the papers by
+Gray01/Gray03/Gray06, the only ones within +-0.05 dex of [Fe/H]=0 in
+the Soubiran22 PASTEL catalog are:
+HD 16765 (84 Cet),
+HD 126660 (tet Boo),
+HD 16895 (tet Per)
+The last two are standards, but 84 Cet is not.
+
+
 ### xHIP trend [Fe/H] vs. B-V
 
 HIP     SpT [Fe/H] eFe/H B-V eB-V  ref(SpT)
@@ -498,4 +529,64 @@ for -0.1<[Fe/H]<0.1:   B-V = 0.5062 - 0.11639*[Fe/H] (rms=0.0152)
 
 For 7 standards and exemplars listed at the beginning of the file, the trend is:
 B-V = 0.5019 - 0.01193*[Fe/H] (rms = 0.0096)
+
+
+
+# The "Kraft Break" and Hot/Cool Star Boundary
+
+Several authors adopt the Teff boundary ("Kraft Break") separating
+"hot stars" (fast-rotating, thinning convective zones) and "cool
+stars" (rotation slows with age, deeper convective zones) around Teff
+~ 6250K, which is closest to the F7V subtype on our adopted Teff scale
+(appropriate for ~solar-ish composition main sequence stars).
+
+Avallone22 provides a concise modern description of the boundary: "The
+Kraft break is a transition that is seen across stellar effective
+temperatures (Teff). Hot stars (Teff > 6250 K) typically experience
+little to no angular momentum loss due to the presence of vanishingly
+thin convective zones that cannot sufficiently support a magnetized
+wind. Cool stars (Teff < 6250 K) typically experience substantial
+angular momentum loss due to the presence of large convection zones
+that can sustain a magnetized wind (Kraft 1967)."
+
+Bieryla15, Temple18, Martinez20, Stevens20, Santos21, Vanderberg22,
+Santos23 also quote the Kraft Break as being near Teff=6250K. Although
+Kraft67 is often cited, Kraft himself does not list a Teff in that
+paper.
+
+Psaridi23 quotes the Kraft Break as being "Teff >~ 6200K, ~<F8V or M* >~ 1.1 Msun". 
+
+Kraft65 finds the change in rotation behavior among the Hyades to be
+around Mv=3.6 and (B-V)=0.43, for which the median vsini = 40 km/s
+(noting that <Vsini> trended 80 km/s at B-V=0.35 (Mv=3.0) down to 15
+km/s at B-V=0.493 (Mv=4.0). For ~solar stars B-V=0.43 is ~F5V, and Mv
+= 3.6 corresponds to ~F6V. Bohm-Vitense02 does a deeper study of the
+change in behavior of chromospheric and transition layer emission line
+fluxes among F-type Hyads, and notes "We found that at the spectral
+type F5 most chromospheric lines show a steep decrease of emission
+line fluxes for B-V between 0.42 and 0.45, parallel to the decrease of
+the rotational velocities."
+
+Reiners03 shows (Fig.5) that among a sample of field F/G stars, stars
+with vsini < 10 km/s appear to be rare among stars hotter than
+B-V=0.40 (~F3.5V) and stars with vsini > 10 km/s appear to be rare
+among stars cooler than B=V=0.60 (~G0V). Reiners03 Fig.12 shows that
+the transition appears to be focussed on roughly Teff ~6000K to
+~6400K. At Teff=6000K, vsini > 12 km/s stars appear only rarely near
+the ZAMS (presumably young) and then among evolved ~1.5-1.7 Msun stars
+leaving the MS. Hotward of Teff=6400K, nearly all stars have vsini >
+12 km/s.  At Teff ~ 6250K, once stars finding vsini>12 km/s stars
+among the >1.4 Msun stars in the 2nd half of their MS lifetimes and
+~1.3-1.4 Msun stars in the 1st half of their MS lifetime. So Fig. 12
+of Reiners03 seems to support Teff ~ 6250K being a reasonable place to
+put the "Kraft Break", recognizing that the transition appears to
+happen about +-200K of this Teff.
+
+Host stars of misaligned Jupiters appear at Teff > 6250K (Winn10,
+Dawson14, Albrecht22). Albrecht22: "The narrowing of the obliquity
+distribution of HJ [Hot Jupiter] hosts as the effective temperature
+becomes lower than about 6250 K (Section 3.1.5). The transition
+temperature appears to be coincident with the “Kraft break,” below
+which cool stars have deep convective envelopes and undergo magnetic
+braking."
 

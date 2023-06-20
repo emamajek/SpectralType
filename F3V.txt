@@ -141,7 +141,8 @@ Teff(F3V) = 6680 K ; exemplar HD 106691
 Teff(F3V) = 6705 K ; EEM N=829 Teffs
 Teff(F3V) = 6725 K ; B-V vs. Teff trend interp between F2V and F4V
 Teff(F3V) = 6740 K ; mean photometric Teff
-Teff(F3V) = 6740 K ; Gray03 
+Teff(F3V) = 6740 K ; Gray03
+Teff(F3V) =  6740 +- 105 K ; Eclipsing binary IT Cas A & B (Southworth23)
 Teff(F3V) = 6745 K ; exemplar HD 107398 B
 Teff(F3V) = 6750 K ; exemplar HD 107398 A
 Teff(F3V) =  6750 K ; GrayCorbally09
@@ -185,18 +186,28 @@ Mv(F3V)  =  2.39 mag ; exemplar HD 107398 A
 [EEM: although 3.08 appears somewhat faint compared to the standards, it appears to be good fit through
 local F dwarfs]
 
+logL(F3V) =  0.943 dex ; Eclipsing binary ZZ Boo B (Southworth23; ~1.7 Gyr)
+logL(F3V) =  0.893 dex ; Eclipsing binary ZZ Boo A (Southworth23; ~1.7 Gyr)
 logL(F3V) = 0.704 dex ; Mv=2.99, BCv=-0.01 => Mbol = 2.980
 logL(F3V) = 0.668 dex ; Mv=3.08, BCv=-0.01 => Mbol = 3.070
+logL(F3V) =  0.653 dex ; Eclipsing binary IT Cas A (Southworth23)
+logL(F3V) =  0.651 dex ; Eclipsing binary IT Cas B (Southworth23) 
 => adopt logL(F3V) = 0.668 dex [updated 9/26/2020]
 => adopt Mbol(F3V) = 3.070 mag [updated 9/26/2020]
 
+Rad(F3V) =  2.2050 Rsun ; Eclipsing binary ZZ Boo B (Southworth23; ~1.7 Gyr)
+Rad(F3V) =  2.0626 Rsun ; Eclipsing binary ZZ Boo A (Southworth23; ~1.7 Gyr)
 Rad(F3V) =  1.645 Rsun ; 6750K,logL=0.704
 Rad(F3V) =  1.595 Rsun ; Gray03/06 F3Vs median from TIC9/Stassun19 (N=14)
 Rad(F3V) =  1.595 Rsun ; smoothed SpT vs Rad trend A/F dwarfs
 Rad(F3V) = 1.5778 Rsun ; logL=0.668, Teff=6750K 
 Rad(F3V) =  1.565 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=6750K)
+Rad(F3V) =  1.555 Rsun ; Eclipsing binary IT Cas A (Southworth23)
+Rad(F3V) =  1.551 Rsun ; Eclipsing binary IT Cas B (Southworth23) 
 => adopt Rad(F3V) = 1.578 Rsun [updated 9/26/2020]
 
+Mass(F3V) = 1.599 Msun ; Eclipsing binary ZZ Boo B (Southworth23; ~1.7 Gyr)
+Mass(F3V) = 1.5572 Msun ; Eclipsing binary ZZ Boo A (Southworth23; ~1.7 Gyr)
 Mass(F3V) = 1.535 Msun ; median mass for pri. stan. HD 26015
 Mass(F3V) = 1.47 Msun ; HenryMcCarthy93 calibration for Mv=3.0
 Mass(F3V) = 1.44 Msun ; EEM Teff vs. Mass fit for binaries (Teff=6750K)
@@ -205,7 +216,14 @@ Mass(F3V) = 1.44 Msun ; EEM logL vs. Mass fit for binaries (logL=0.700)
 Mass(F3V) = 1.41 Msun ; EEM Mv vs. Mass fit for binaries (Mv=3.0)
 Mass(F3V) = 1.41 Msun ; Bertelli09 solar tracks for Teff=6750,logL=0.70
 Mass(F3V) = 1.34 Msun ; David15 F3 MS (rms=0.23 Msun; N=605)
+Mass(F3V) = 1.324 Msun ; Eclipsing binary IT Cas A (Southworth23; ~2 Gyr)
+Mass(F3V) = 1.322 Msun ; Eclipsing binary IT Cas B (Southworth23; ~2 Gyr)
 => adopt Mass(F3V) = 1.44 Msun [updated 12/29/2019]
+
+logg(F3V) = 3.9550 ; Eclipsing binary ZZ Boo B (Southworth23; ~1.7 Gyr)
+logg(F3V) = 4.0016 ; Eclipsing binary ZZ Boo A (Southworth23; ~1.7 Gyr)
+logg(F3V) = 4.1765 ; Eclipsing binary IT Cas A (Southworth23)
+logg(F3V) = 4.1778 ; Eclipsing binary IT Cas B (Southworth23)
 
 # No standard
 
