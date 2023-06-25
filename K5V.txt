@@ -23,29 +23,28 @@ Houk75 standard:         HD 154363 - K5V (primary standard)
 KeenanMcNeil76 stan.:    61 Cyg A - K5V
 Keenan80 standard:       61 Cyg A (=HD 201091) - K5V ("defining zero point")
 Keenan83 standard:       61 Cyg A (=HD 201091) - K5V
-			 Gl 795 (=HD 196795) - K5Va
+			 GJ 795 (=HD 196795) - K5Va
 Keenan85 standard:       61 Cyg A (=HD 201091) - K5V
-                         Gl 795 (=HD 196795) - K5Va
+                         GJ 795 (=HD 196795) - K5Va
 Corbally86 standard:     61 Cyg A - K5V
 Kleinman86 standard:     61 Cyg A - K5V 
-Keenan88 standard:       Gl 69 (=HD 10436) - K5Vbe 
+Keenan88 standard:       GJ 69 (=HD 10436) - K5Vbe 
                          61 Cyg A - K5V
-                         Gl 795 (=HD 196795) - K5V
+                         GJ 795 (=HD 196795) - K5V
 Keenan89 standard:       61 Cyg A (=HD 201091) - K5V
-                         Gl 795 (=HD 196795) - K5V
-                         Gl 69 (=HD 10436) - K5Vbe
+                         GJ 795 (=HD 196795) - K5V
+                         GJ 69 (=HD 10436) - K5Vbe
 Strassmeier90 standard:  61 Cyg A (=HR 8085) - K5V
 Kirkpatrick91 standard:  61 Cyg A - K5V (primary)
                          GJ 755 - K5V (secondary)
 Keenan89 standard:       GJ 69 (=HD 10436) - K5Vbe
-Keenan99 standard:       GJ 204 (=HD 36003) - K5V 
 GrayAtlas standard:      61 Cyg A - K5V
 GrayNstars standard:     61 Cyg A - K5V
                          GJ 204 (=HD 36003) - K5V
 Henry02 standard:        61 Cyg A - K5V (primary)
 Pecaut13 standard:       HD 36003 - K5V
-Alonso-Floriano15 stan:  61 Cyg A (=Gl 820A) - K5V 
-Kirkpatrick16 standard:  61 Cyg A (=Gl 820A) - K5V
+Alonso-Floriano15 stan:  61 Cyg A (=GJ 820A) - K5V 
+Kirkpatrick16 standard:  61 Cyg A (=GJ 820A) - K5V
 
 Skiff08 flags two stars as K5V MK standards, both from Keenan89:
 HD 196795 & HD 201091.
@@ -178,6 +177,7 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (V-Ks)(K5V)= 2.861 ; trend for K dwarfs (standards+exemplars)
 (V-K)(K5V) = 2.88  ; pri. stan. 61 Cyg A
 (V-Ks)(K5V)= 2.883 ; trend for B-V=1.15 (consistent with distribution for standards, below)
+(V-Ks)(K5V)=  2.982 ; exemplar HD 332518 = HIP 97223
 (V-Ks)(K5V)=  2.991 ; exemplar HD 19819 = GJ 1056 
 (V-Ks)(K5V)=   3.008 ; deprecated stan. HD 154363
 (V-Ks)(K5V)=  3.087 ; exemplar HD 113194
@@ -338,23 +338,27 @@ GJ 204 = HD 36003 = HIP 25623 (J0528-0330)
   K0: Cannon
   K4V: Wilson62,Houk99(q=1)
   K5-V: Gray06
- *K5V: Jaschek64(all),Upgren72,Jaschek78(Roman55),McNeil86,Keenan89,Keenan99,Gray03,Pecaut13
+ *K5V: Jaschek64(all),Upgren72,Jaschek78(Roman55),McNeil86,Keenan89,Keenan99(non-stan),Gray03,Pecaut13
   K6V: Adams36
   K8: Vyssotsky
 
-  Roman, Keenan, Gray agree on K5V.  3rd brightest K5V in Gray et
-  al. NStars survey.  Observed as K5V standard in PecautMamajek13
-  since it was observable from CTIO (61 Cyg A was not). Plx =
-  76.80+-0.80 mas. V=7.65(HIP), Mv=7.08(calc with HIP2 plx),
-  B-V=1.113+-0.010(HIP), B-V=1.135(Koen10), V-I=1.26+-0.02(HIP),
+  Roman, Keenan, Gray agree on K5V, although considerable scatter in
+  older surveys. One of two non-standard K5Vs mentioned by Keenan in
+  final 1999 list (although list appears to have only been completed
+  to RA=14h before he passed, and 61 Cyg is at RA=21h).  3rd brightest
+  K5V in Gray et al. NStars survey.  Observed as K5V standard in
+  PecautMamajek13 since it was observable from CTIO (61 Cyg A was
+  not). Plx = 76.80+-0.80 mas. V=7.65(HIP), Mv=7.08(calc with HIP2
+  plx), B-V=1.113+-0.010(HIP), B-V=1.135(Koen10), V-I=1.26+-0.02(HIP),
   V-Ic=1.241(Koen10), V-Rc=0.674(Koen10), U-B=1.087(Koen10),
   J=5.615+-0.019(2MASS), Ks=4.880+-0.024(2MASS), V-J=2.035(HIP,2MASS)
   (V-Ks)=2.770(HIP,2MASS). PASTEL median values: <Teff> = 4590K(N=5),
   <logg>=4.37(N=4), [Fe/H]=-0.105(N=4).  (U,V,W) = 74.9, -1.6, -17.8
   km/s (Bobylev06), Vtot = 77 km/s; so might be somewhat metal poor
-  and old? GaiaEDR3: plx=77.3499 0.0198mas, G=7.242388	0.002758 =>
-  Vizier cor => 7.242388 0.002758, E(BP/RP)=1.252, Bp-Rp=1.372357, Bp-G=0.619049, G-Rp=0.753308.
-  G-V = 7.2424 - 7.65 = -0.4076. Mv=7.09, M_G=6.69, M_Ks=4.32. 
+  and old? GaiaEDR3: plx=77.3499 0.0198mas, G=7.242388 0.002758 =>
+  Vizier cor => 7.242388 0.002758, E(BP/RP)=1.252, Bp-Rp=1.372357,
+  Bp-G=0.619049, G-Rp=0.753308.  G-V = 7.2424 - 7.65 =
+  -0.4076. Mv=7.09, M_G=6.69, M_Ks=4.32.
 
 # Deprecated Standards
 
@@ -380,7 +384,7 @@ GJ 653 = HD 154363 = LHS 431 = HIP 83591
 GJ 69 = HD 10436 = HIP 8070 = LHS 1291 = NLTT 5703
   K2: Cannon
   K4: Bidelman85
-  K5Vbe: Keenan89,Keenan99
+  K5Vbe: Keenan89,Keenan99(non-stan)
   K5V: 1932MeUpp..55....1S,Roman55,Boulon59,Jaschek64(all),1966UppAn...5d...1O,Jaschek78(Roman55)
  *K5.5V: Gray03
   M0V: Adams26,Brodskaya60
@@ -388,10 +392,11 @@ GJ 69 = HD 10436 = HIP 8070 = LHS 1291 = NLTT 5703
   M1: Lee47
 
   I would have left this as a K5V standard(Keenan89,99), but Gray03
-  classified it 0.5 subtypes cooler. Their local main standards are 61
-  Cyg A (K5V) and 61 Cyg B (K7V), so it tough to dismiss.  V-Ks =
-  8.407 - 5.380 = 3.027 (just slightly blueward of typical ~K6V
-  color).
+  classified it 0.5 subtypes cooler and some authors had it as a
+  M0. But one of only two K5Vs in Keenan's last list (1999), which
+  only covered RA=0-14h. Their local main standards are 61 Cyg A (K5V)
+  and 61 Cyg B (K7V), so it tough to dismiss.  V-Ks = 8.407 - 5.380 =
+  3.027 (just slightly blueward of typical ~K6V color).
 
 GJ 795 = HD 196795 
   K4V: Jaschek78(Edwards76)
@@ -514,6 +519,17 @@ HD 68834 = HIP 40375
   4381+-173K(Stassun19), 4476K(Anders19), 4500K(GaiaDR2#1),
   4503+-53K(Huber17), 4538K(GaiaDR2#2) => <Teff> = 4488K.
 
+HD 332518 = HIP 97223 = 2MASS J19453562+3000369
+ *K5V: McCuskey50,Gray03,Pickles10(SED fit to template)
+
+  Solar metallicity in PASTEL/Soubiran22: Teff=4309+-39K,
+  logg=4.70+-0.06, [Fe/H]=0.03+-0.03. V=9.15(HIP),
+  V=9.166146(GaiaDR3), V=9.22(TYC), B-V=1.175+-0.041(HIP),
+  V-I=1.29+-0.07(HIP).  J=6.917+-0.023(2MASS), H=6.307+-0.021(2MASS),
+  Ks=6.184+-0.016(2MASS).  plx=47.8092+-0.0141mas(GaiaDR3),
+  G=8.693278+-0.002762(GaiaDR3), Bp-Rp=1.476788, Bp-G=0.681117,
+  G-Rp=0.795671(GaiaDR3). V-Ks = 9.166 - 6.184 = 2.982.
+
 # Other Stars
 
 RECONS list shows GJ 820A (61 Cyg A: J2106+3844) as the nearest K5.0V star.
@@ -579,7 +595,9 @@ GJ 3674 = LHS 2432 = BD+40 2442 = G 122-036
   Reid95 K5s often appear across the continuum of stars classified K5-M0 from other surveys. 
   B=V=1.346(Just08), B-V=1.290+-0.015(HIP), V=10.01(HIP),
   Ks=6.611+-0.021, V-Ks=3.399. Appears to be significantly redder than
-  other K5Vs. No PASTEL parameters. 
+  other K5Vs. No PASTEL parameters.
+
+
   
 # Comments on Teff scale as function of log(g)
 

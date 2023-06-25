@@ -6,28 +6,26 @@ to the K3Vs from the NStars surveys by Gray03/06.
 
 MK43 standards:         HD 219134 (=HR 8832) - K3V
 JM53 standards:         HD 110463 - K3V
-                       HD 128165 - K3V
-                       HD 219134 - K3V
+                        HD 128165 - K3V
+                        HD 219134 - K3V
 Wilson62 standards:     HD 110463 - K3V [from JM53]
-                       HD 128165 - K3V [from JM53]
-                       HD 219134 - K3V [from JM53]
+                        HD 128165 - K3V [from JM53]
+                        HD 219134 - K3V [from JM53]
 Houk75 standard:        HD 16160 (=HR 753) - K3V (secondary standard)
 KeenanMcNeil76 stan.:   HD 16160 (=HR 753) - K3V 
 Corbally86 standard:    vB 25 (= HD 285690) - K3V
 Keenan80 standard:      BY Dra (=HD 234677) - K3V + MVe
-                       HD 219134 (=HR 8832) - K3V
-                       HD 223778 (=HR 9038) - K3V
+                        HD 219134 (=HR 8832) - K3V
+                        HD 223778 (=HR 9038) - K3V
 Keenan83 standard:      HD 219134 (=GJ 892)  - K3V 
-		       HD 223778 (=HR 9038) - K3V
-		       HD 160346 (=GJ 688)  - K3-V
+		        HD 223778 (=HR 9038) - K3V
+		        HD 160346 (=GJ 688)  - K3-V
 Keenan85 standard:      HD 219134 (=HR 8832) - K3V 
-	 	       HD 223778 (=HR 9038) - K3V
+	 	        HD 223778 (=HR 9038) - K3V
 Keenan88 standard:      HD 219134 (=GJ 892)  - K3V 
-Keenan89 standard:      HD 16160 (=HR 753)   - K3V
-                       HD 219134 (=Gl 892)  - K3V
-                       HD 16160 (=GJ 105)   - K3-V
+Keenan89 standard:      HD 16160 (=HR 753=GJ 105) - K3-V
+                        HD 219134 (=GJ 892)  - K3V
 Keenan99 standard:      HD 16160 (=GJ 105)   - K3V
-                       HD 34673 - K3V
 GrayNstars standard:    HD 16160 (=HR 753)   - K3V
 Pecaut13 standard:      HD 16160 (=HR 753)   - K3V
 Alonso-Floriano15 stan: HD 50281 - K3V 
@@ -58,6 +56,7 @@ Skiff08 flags two stars as K3V MK standards, both from Keenan89: HD
 <B-V>(K3V) =   1.01  ; Vyssotsky63
 (B-V)(K3V) =   1.01  ; JohnsonMorgan53
 (B-V)(K3V) = 1.017 ; exemplar HD 39715 = GJ 223
+(B-V)(K3V) =  1.017 ; non-stan. HD 188088 = GJ 770 = HR 7578 (K3V+K3V)
 (B-V)(K3V) = 1.023 ; Koen10 d<25pc median K3V
 (B-V)(K3V) = 1.033 ; exemplar HD 125072 = GJ 542 ([Fe/H] = +0.26) 
 (B-V)(K3V) = 1.04  ; exemplar HD 122064 = HR 5256 ([Fe/H] = +0.16)
@@ -227,7 +226,8 @@ Mv(K3V)  =  6.61 mag ; V-Ks=2.41 => EEM fit to Jao16 data
 Mv(K3V)  = 6.61 mag ; SIMBAD d<20pc trend for V-Ks=4.20 (M_Ks=4.21)
 Mv(K3V)  =  6.60 mag ; V-Ks=2.41 => EEM fit to MS data
 Mv(K3V)  =  6.6  mag ; Schmidt-Kaler82
-Mv(K3V)  = 6.60 mag ; M_Ks=4.20 (d<25pc;N=25), V-Ks=4.20 
+Mv(K3V)  = 6.60 mag ; M_Ks=4.20 (d<25pc;N=25), V-Ks=4.20
+Mv(K3V)  = 6.60 mag ; PASTEL/Soubiran22/GaiaDR3 trend for Teff=4830K [-0.05<[Fe/H]<+0.05,5.0<logg<4.2]
 Mv(K3V)  =  6.58 mag ; V-K=2.40 => EEM fit to Reid CNS3 data
 Mv(K3V)  =  6.56 mag ; B-V=0.99 => Mv(Wright05)
 Mv(K3V)  = 6.55 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=0.990
@@ -243,12 +243,12 @@ Mv(K3V)  =  6.47 mag ; Wegner07
 Mv(K3V)  = 6.43 mag ; sec. stan. HD 110463 = NP UMa (Ursa Major cluster)
 Mv(K3V)  = 6.43 mag ; using Yee17 logT/logL/Rad data for [Fe/H], Teff=4860K
 Mv(K3V)  = 6.32 mag ; ter. stan. HD 285690 = Cl Melotte 25 25 (Hyad)
-Mv(K3V)  = 6.29 mag ; exemplar HD 125072 = GJ 542 ([Fe/H] = +0.26) 
-=> adopt Mv(K3V)   = 6.60 mag [updated 1/27/2022] (M_Ks=4.20, V-Ks=2.40)
+Mv(K3V)  = 6.29 mag ; exemplar HD 125072 = GJ 542 ([Fe/H] = +0.26)
+Mv(K3V)  =  6.22 mag ; non-stan. HD 188088 = GJ 770 = HR 7578 (component for metal-rich K3V+K3V, assuming eq. brightness)
+=> adopt Mv(K3V)   = 6.60 mag [updated 6/22/2023] (M_Ks=4.20, V-Ks=2.40)
 => adopt M_G(K3V)  = 6.28 mag [updated 11/15/2022] (Mv=6.60, G-V=-0.32)
 
-(Note: the trend in Mv for standards and exemplars is Mv = 6.495 - 0.485*[Fe/H]
-with rms = 0.113 mag)
+(Note: the trend in Mv for standards and exemplars is Mv = 6.495 - 0.485*[Fe/H] with rms = 0.113 mag)
 
 M_G(K3V) = 6.308 ; SIMBAD d<20pc trend for V-Ks=2.40
 
@@ -341,7 +341,7 @@ HD 219134 = HR 8832 = GJ 892 = HIP 114622 = LHS 71 = LTT 16826 = STT 599A = WDS 
   plx= 153.0808+-0.0895mas(GaiaDR2) => 0.777Rsun. Mv=6.50, M_Ks=4.155. 
 
 HD 16160 = HR 753 = GJ 105A
- *K3V: Morgan38,Roman55,Wilson62,1972AbaOB..43..109W,KeenanMcNeil76(stan),Kennedy83,Bidelman85(K3),Keenan99,Houk(sec. stan.),GrayNstars,Gray03,Gray06,Tamazian06,Pecaut13
+ *K3V: Morgan38,Roman55,Wilson62,1972AbaOB..43..109W,KeenanMcNeil76(stan),Houk(sec.stan.),Kennedy83,Bidelman85(K3),Keenan99(stan),GrayNstars,Gray03,Gray06,Tamazian06,Pecaut13
   K3-V: Keenan89
   K4V: Adams35,JM53(non-stan,"dK4")
   K5V: Morgan37
@@ -436,16 +436,19 @@ HD 223778 = HR 9038 = Gl 909
   coming from three different stellar types.
 
 HD 34673 = GJ 200A = G 84-45
- *K3V: Roman55,Wilson62,Upgren72,McNeil86,Keenan89,Keenan99,Gray03
+ *K3V: Roman55,Wilson62,Upgren72,McNeil86,Keenan99(non-stan),Gray03
   K4: Bidelman85
   K5V: Adams35
 
-  PASTEL values: Teff=4762K(N=2), [Fe/H]=-0.21+-0.10(Bensby14).
-  Companion B is 3" away (M2 type), delta(V)=3.43.  Unresolved
-  photometry: V=7.764+-0.017(Mermilliod91),
-  B-V=1.045+-0.006(Mermilliod91), U-B=0.863+-0.025(Mermilliod91),
-  Ks=5.046+-0.016(2MASS), V-Ks = 7.764-5.046 = 2.718.  Colors show
-  that the effects of the M companion are affecting the photometry.
+  Skiff lists K3V from Keenan89, but it does not appear in the
+  original 1989 paper - just the 1999 "final" online list (as a
+  non-standard).  PASTEL values: Teff=4762K(N=2),
+  [Fe/H]=-0.21+-0.10(Bensby14).  Companion B is 3" away (Bidelman85
+  calls M2:, Reid95 calls K7V), delta(V)=3.43.  Unresolved photometry:
+  V=7.764+-0.017(Mermilliod91), B-V=1.045+-0.006(Mermilliod91),
+  U-B=0.863+-0.025(Mermilliod91), Ks=5.046+-0.016(2MASS), V-Ks =
+  7.764-5.046 = 2.718.  Colors show that the effects of the M
+  companion are affecting the photometry.
 
 HD 50281 = GJ 250A = HIP 32984 = LHS 1875 = UGP 148 
   K3V: Upgren72,Alonso-Floriano15(stan)
@@ -565,6 +568,34 @@ HD 160346 = GJ 688 = HIP 86400
 
 # Other Stars
 
+HD 188088 = GJ 770 = HR 7578 = HIP 97944 = V4200 Sgr = ADS 13072A
+  K2: Bidelman85
+  K2V: Upgren72
+  K2IV(k): Gray06
+  K2/3V: Fekel82
+  K3IV: Abt85
+  K3Va CN1: Keenan89(non-stan)
+ *K3V+K3V: Fekel17
+  K4V: Stepenson86
+  K5V: Adams35
+
+  Metal-rich, ~equal-mass binary of two K3V stars (see detailed review
+  of system by Fekel17 2017AJ....154..120F), and Allen12 and Chini14
+  report a third, distant common proper motion companion (HD 188088B;
+  ~M5) at 42" separation.  Not great agreement on type, but made
+  Keenan's 1989 list as non-standard.  Fekel82(1982IBVS.2243....1F)
+  IBVS report "HR 7578 : a possible late type eclipsing binary and/or
+  a BY Draconis variable" says "double-lined K2-3 V binary with a
+  period of 46.8 days and an eccentricity of 0.69." SB9 catalog
+  reports updated orbit from Fekel17: "Extensive photometry of the
+  chromospherically active binary HR 7578 confirms a rather long
+  rotation period of 16.446±0.002 days and that the K3 V components do
+  not eclipse."  Fekel17 derives P=46.8161d, e=0.6864, K1=47.84 km/s,
+  K2=48.69 km/s (hence the component masses agree within 1.8%).
+  V=6.22(HIP), B-V=1.017+-0.008(HIP), V-I=1.02+-0.02(HIP).
+  plx=70.7010+-0.0350mas(GaiaDR3). Mv=5.467(unresolved) => Mv=6.22
+  each if equal brightness.
+
 HD 263175 = HIP 32423
   K2: Bidelman85
  *K3V: Cowley67,Gray03
@@ -634,5 +665,10 @@ HD 160346 = GJ 688 = HIP 86400
 
 HD 50281
   K3V: Alonso-Floriano15(stan)
+
+HD 162020 = HIP 87330
+  K3-V: Gray06
+
+  Solar metallicity in PASTEL/Soubiran22: Teff=4786+-28K, logg=4.63+-0.06, [Fe/H]=-0.03+-0.03.
 
 
