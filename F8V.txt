@@ -51,6 +51,7 @@ and within 1 mag of the MS (N=172):
 (B-V)(F8V)   =  0.53 ; JohnsonMorgan53
 (B-V)(F8V)   = 0.527 ; exemplar HD 221356 ([Fe/H] ~ -0.25)
 (B-V)(F8V)   = 0.524 ; exemplar HD 95456 ([Fe/H] ~ +0.16)
+(B-V)(F8V)   = 0.524 ; exemplar HD 16673 = HR 784 ([Fe/H] ~ 0.0)
 <B-V>(F8V)   =  0.52 ; MorganAbt73/TableIII
 (B-V)(F8V)   =  0.52 ; Schmidt-Kaler82, KenyonHartmann95
 (B-V)(F8V)   = 0.518 ; prim. stan. HD 27808 ([Fe/H] ~ +0.11)
@@ -90,7 +91,7 @@ and within 1 mag of the MS (N=172):
 (G-V)(F8V) =  -0.127    ; HD_216402_ F8V_
 (G-V)(F8V) = -0.127     ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=6180K (GaiaDR3 Gmags,SIMBAD Vmags)
 (G-V)(F8V) =  -0.125    ; HD_28394_ F8V
-(G-V)(F8V) =  -0.12481  ; HD_16673_ F8V_
+(G-V)(F8V) =  -0.12481  ; HD_16673_ F8V_ ~solar 
 (G-V)(F8V) =  -0.12335  ; HD_32820_ F8V_
 (G-V)(F8V) =  -0.12333  ; HD_196885_ F8V
 (G-V)(F8V) =  -0.122    ; HD_124694_ F8V_
@@ -100,6 +101,7 @@ and within 1 mag of the MS (N=172):
 (G-V)(F8V) =  -0.11929  ; HD_100219_ F8V_
 (G-V)(F8V) =  -0.114    ; HD_26784_ F8V
 (G-V)(F8V) =  -0.11262  ; HD_9826_ F8V
+(G-V)(F8V) =  -0.110    ; HD_16673 = HR 784 F8V (~solar)
 (G-V)(F8V) =  -0.11     ; HD_28033_ F8V
 => adopt (G-V)(F8V) = -0.15 [updated 10/30/2020]
 
@@ -158,6 +160,7 @@ and within 1 mag of the MS (N=172):
 <V-I>(F8V>   = 0.601 (+-0.004 sem, +-0.028 stdev) ; Gray01/03/06 N=50)
 <V-I>(F8V)   = 0.617 (+-0.004 sem, +-0.033 stdev) ; HIP d<75pc S/N>8 (N=172)
 
+(V-Ks)(F8V)  = 1.245 ; exemplar HD 16673 = HR 784 ([Fe/H] ~ 0.0)
 (V-K)(F8V)   = 1.264 +- 0.021 ; pri. stan. HD 27808
 
 (g-r)(F8V)   = 0.374 ; Jordi06 (V-R)=>(g-r) for V-R=0.300
@@ -186,6 +189,7 @@ Teff(F8V) = 6181 K ; Gray03/06 F8Vs median from TIC9/Stassun19 (N=26)
 Teff(F8V) = 6180 K ; trend for standards & exemplars interp to [Fe/H]=0.0
 Teff(F8V) =  6200 K ; Schmidt-Kaler82 
 Teff(F8V) =  6206 +- 81 K ; vanBelle09
+Teff(F8V) = 6250 K ; exemplar HD 16673 = HR 784 ([Fe/H] ~ 0.0)
 Teff(F8V) = 6250 K ; pri. stan HD 27808 ([Fe/H] ~ +0.11)
 Teff(F8V) = 6267 K ; exemplar HD 95456 ([Fe/H] ~ +0.16)
 Teff(F8V) =  6268 K ; B-V=0.530 => Teff(Bessell98,logg=4.5)
@@ -204,6 +208,7 @@ BCv(F8V) =  -0.21 mag ; Habets81
 => adopt BCv(F8V) = -0.04 mag [last updated 8/31/2019; adjusted so that BCv(5772K)=-0.085]
 
 M_G(F8V) = 3.322 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.39
+M_G(F8V) =  3.977 ; exemplar HD 16673 = HR 784 ([Fe/H] ~ 0.0)
 
 Mv(F8V)  =   3.13 mag ; exemplar HD 136064 
 Mv(F8V)  =   3.45 mag ; Wegner07
@@ -219,6 +224,7 @@ Mv(F8V)  =  4.01 mag ; B-V=0.530 => Mv(Wright05)
 Mv(F8V)  = 4.02 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.53
 Mv(F8V)  = 4.07 mag ; xHIP |[Fe/H]|<0.2 dex d<25pc dwarf only for B-V=0.53
 Mv(F8V)  =  4.07 mag ; pri. stan. HD 27808
+Mv(F8V)  = 4.09 mag ; exemplar HD 16673 = HR 784 (~solar)
 Mv(F8V)  = 4.09 mag ; B-V=0.530 => EEM fit to SIMBAD dwarfs d<25pc
 Mv(F8V)  =  4.23 mag ; exemplar HD 203454
 Mv(F8V)  =  4.29 mag ; sec. stan. HD 90839 = 36 UMa
@@ -389,7 +395,23 @@ HD 35296 = HR 1780 = 111 Tau
   *F8V: 1927MeUpp..28....1L(F8),Adams35,Roman52(lines strong),Gray03
    G1: Bidelman85
 
-   Skiff: CPM with HD 35171. 
+   Skiff: CPM with HD 35171.
+
+HD 16673 = HR 784 = HIP 12444 = GJ 3175 = 2MASS J02401242-0927103	
+   F6V: Wilson50,Cowley76
+  *F8V: 1953AnHar.119....1H,Harlan74,Gray03
+   F8V_Fe-0.4: Gray06
+
+   Spectroscopic binary in SB9 (SB1, so companion must be faint;
+   Porb=37d).  Solar metallicity in PASTEL/Soubiran22: Teff=6250+-20K,
+   logg=4.35+-0.03, [Fe/H]=0.00+-0.02.  V=5.775+-0.005(Mermilliod91),
+   V=5.79(HIP), V=5.80(TYC), B-V=0.520+-0.000(Mermilliod91),
+   B-V=0.524+-0.004(HIP), V-I=0.60+-0.00(HIP),
+   U-B=-0.011+-0.010. 2MASS J and H is poor but Ks OK:
+   Ks=4.530+-0.021(2MASS). G=5.665346(GaiaDR3), Bp-Rp=0.678608,
+   Bp-G=0.258977, G-Rp=0.419631(GaiaDR3).  V-Ks = 5.775 - 4.530 =
+   1.245. plx=45.9160+-0.1537mas(GaiaDR3). Mv=4.087+-0.009, M_G=3.977,
+   M_Ks=2.842+-0.022. G-V = 5.665346 - 5.775 = -0.110. 
 
 # Other Stars
 
@@ -476,6 +498,9 @@ HD 143333 = HR 5954
    F7V: Adams35(F7IV/V),Gray06
   *F8V: Roman55,Cowley67,Malaroda75,Abt09
    F9V: Cowley76
+
+
+   
 
 Morgan65 classified 4 F8V Hyads: HD 27383, 28033, 28034, 28205.  They
 have B-V colors of 0.509, 0.557, 0.560, 0.537, respectively, and their
