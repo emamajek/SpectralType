@@ -13,34 +13,34 @@ See notes on the late-G/early-K series of standards at the bottom.
 MK43 standards:       sig Dra, 70 Oph A, 54 Psc - K0V
 JM53 standards:       sig Dra, 70 Oph A, 54 Psc, HD 124752 - K0V
 Wilson62 standards:   sig Dra, 70 Oph A, 54 Psc, HD 124752 - K0V [from JM53]
-Morgan65 standard:    omi^2 Eri - K0V
-MorganKeenan73 stan:  sig Dra - K0V (non-dagger standard)
-Houk75 standard:      54 Psc - K0V (primary standard)
-KeenanMcNeil76 stan.: sig Dra - K0V
-Keenan80 standard:    sig Dra - K0V  ("defining zero point"!)
+Morgan65 standard:    omi^2 Eri (=HR 1325, HD 26965) - K0V
+MorganKeenan73 stan:  sig Dra (=HR 7462, HD 185144) - K0V (non-dagger standard)
+Houk75 standard:      54 Psc  - K0V (primary standard)
+KeenanMcNeil76 stan.: sig Dra (=HR 7462, HD 185144) - K0V
+Keenan80 standard:    sig Dra (=HR 7462, HD 185144) - K0V  ("defining zero point"!)
                       HD 224618 - K0V
-                      54 Psc (=HD 3651) - K0+V
+                      54 Psc (=HR 166, HD 3651) - K0+V
 Keenan83 standard:    sig Dra (=HD 185144) - K0V 
 		      HD 224618 - K0V 
-	              54 Psc (=HD 3651) - K0+V
-Keenan85 standard:    sig Dra (=HD 185144) - K0V
+	              54 Psc (=HR 166, HD 3651) - K0+V
+Keenan85 standard:    sig Dra (=HR 7462, HD 185144) - K0V
 	 	      HR 7368 (="BS 7368" = HD 182488) - K0V
-		      54 Psc (=HD 3651) - K0+V
+		      54 Psc (=HR 166, HD 3651) - K0+V
 		      HD 224618 - K0V
-Kleinman86 standard:  sig Dra (=HD 185144) - K0V
+Kleinman86 standard:  sig Dra (=HR 7462, HD 185144) - K0V
 Corbally86 standard:  HD 284253 (= vB 21) - K0V
-Keenan88 standard:    sig Dra (=HD 185144) - K0V
+Keenan88 standard:    sig Dra (=HR 7462, HD 185144) - K0V
                       HD 224618 - K0V
-Keenan89 standards:   sig Dra (=HD 185144) - K0V
+Keenan89 standards:   sig Dra (=HR 7462, HD 185144) - K0V
                       HD 224618 - K0V
-                      HD 26965 - K0V
-                      54 Psc (=HD 3651) - K0V
-Strassmeier90 stan:   sig Dra (=HR 7462) - K0V
+                      omi02 Eri (=HR 1325, HD 26965) - K0V
+                      54 Psc (=HR 166, HD 3651) - K0V
+Strassmeier90 stan:   sig Dra (=HR 7462, HD 185144) - K0V
 Keenan99 standard:    omi02 Eri (=HR 1325, HD 26965) - K0V 
-GrayAtlas standard:   sig Dra - K0V
-GrayNstars standard:  54 Psc (=HD 3651) - K0V
+GrayAtlas standard:   sig Dra (=HR 7462, HD 185144) - K0V
+GrayNstars standard:  54 Psc (=HR 166, HD 3651) - K0V
                       HD 224618 - K0V
-Pecaut13 standard:    54 Psc (=HD 3651) - K0V
+Pecaut13 standard:    54 Psc (=HR 166, HD 3651) - K0V
 
 Skiff08 flags three stars as MK standards (all from Keenan89): HD 185144,
 HD 224618, and HD 26965. 
@@ -175,10 +175,12 @@ Teff(K0V) =  5280 K ; Gray03
 Teff(K0V) = 5280 K ; sec. stan. HD 224618 [Fe/H]=-0.76
 Teff(K0V) = 5292 K ; exemplar 55 Cnc = HD 75732 K0IV-V
 Teff(K0V) = 5294 K ; median of 406 Teff estimates for K0V stars
+Teff(K0V) = 5294 K ; fit to [Fe/H] vs. Teff for 3 standards + 4 exemplars (using Soubiran22 values)
 Teff(K0V) = 5298 K ; pri. stan. sig Dra [Fe/H]=-0.21
 Teff(K0V) = 5298 K ; var. stan. 70 Oph A [Fe/H]=+0.06
 Teff(K0V) = 5300 K ; smoothed Teff(SpT) trend
 Teff(K0V) =  5300 K ; GrayCorbally94
+Teff(K0V) = 5316 +- 5 K ; fit to [Fe/H] vs. Teff for 3 standards (using Soubiran22 values)
 Teff(K0V) = 5320 K ; ter. stan. HD 284253 = Cl Melotte 25 21 [Fe/H]=+0.13
 Teff(K0V) = 5328 K ; Biazzo07 Teff calibration for B-V=0.816
 Teff(K0V) =  5347 +- 20 K ; Boyajian12b
@@ -278,7 +280,7 @@ HD 185144 = sig Dra = HR 7462 = GJ 764 (J1932+6939)
   been considered ~G8-G9 ubiquitously before MK43. Keenan80 lists it
   as one of the "stanard stars defining the zero point and scale for
   both temperature types and luminosity classes", and the only dwarf
-  assigned this status between the Sun (K2V) and 61 Cyg A (K5V).
+  assigned this status between the Sun (G2V) and 61 Cyg A (K5V).
   However, more recently Gray03 placed it 1 subtype hotter (G9V), and
   it is a tad bluer (~0.79) than median B-V colors for field K0V
   dwarfs (~0.818-0.846, depending on sample).  Apparently slightly
@@ -295,21 +297,21 @@ HD 185144 = sig Dra = HR 7462 = GJ 764 (J1932+6939)
 
 # Secondary Standard
 
-HD 224618 = LHS 552 = BD-17_6856 (J2359-1656)
+HD 224618 = LHS 552 = BD-17_6856 = Gaia DR3 2415243733278993920 (J2359-1656)
   G6V: Adams35
  *K0V: Roman55,Cowley67,Keenan80,Keenan83,Keenan85,McNiel86,Keenan88,Keenan89(stan)
   K2: Bidelman85
 
-  No published types since Keenan89. Nice agreement among Roman,
-  Cowley, Keenan, but unfortunately it is very metal poor ([Fe/H] ~
-  -0.7), so its properties are probability not typical for field
-  ~solar K0 dwarfs. B-V=0.785+-0.032 (HIP),
-  B-V=0.773+-0.009(Mermilliod91), V=8.925+-0.008(Mermilliod91).
-  PASTEL medians: <Teff> = 5288K (N=2), logg=4.5+-0.2 (Tomkin99),
-  [Fe/H]=-0.76+-0.06(Tomkin99), [Fe/H] = -0.59 (Casagrande11).  PASTEL
-  compendium average values Sourbian22: Teff=5280+-62K,
-  logg=4.50+-0.20, [Fe/H]=-0.76+-0.06.  plx = 27.7992 +-
-  0.1044mas(GaiaDR2).  GaiaDR2 photometry does not to be corrected
+  No published types since Keenan89, and fairly faint (V~9) for a
+  standard. Nice agreement among Roman, Cowley, Keenan, but
+  unfortunately it is very metal poor ([Fe/H] ~ -0.7), so its
+  properties are probability not typical for field ~solar K0
+  dwarfs. B-V=0.785+-0.032 (HIP), B-V=0.773+-0.009(Mermilliod91),
+  V=8.925+-0.008(Mermilliod91).  PASTEL medians: <Teff> = 5288K (N=2),
+  logg=4.5+-0.2 (Tomkin99), [Fe/H]=-0.76+-0.06(Tomkin99), [Fe/H] =
+  -0.59 (Casagrande11).  PASTEL compendium average values Sourbian22:
+  Teff=5280+-62K, logg=4.50+-0.20, [Fe/H]=-0.76+-0.06.  plx = 27.7992
+  +- 0.1044mas(GaiaDR2).  GaiaDR2 photometry does not to be corrected
   following Evans18: G= 8.698, Bp= 9.127, Rp= 8.140, (Bp-Rp)= 0.988,
   (Bp-G)= 0.430, (G-Rp)= 0.558. G-V = -0.227+-0.008.  plx =
   27.7992+-0.1044(GaiaDR2). Mv = 6.145+-0.011(M91,GaiaDR2), M_G =
@@ -375,7 +377,7 @@ HD 3651 = 54 Psc = HR 166 (J0039+2115)
   companion 43" away. PASTEL median values: <Teff> = 5214K (N=18),
   <[Fe/H]>= +0.13 (N=15). B-V=0.850+-0.009(HIP), V=5.88(HIP).
 
-HD 26965 = omi^2 Eri = GJ 166A = HR 1325 = LHS 23 = HIP 19849 (J0415-0739)
+HD 26965 = omi02 Eri = GJ 166A = HR 1325 = LHS 23 = HIP 19849 (J0415-0739)
   G9V: Abt85
   K0V: 1923LicOB..10..169L,Adams35,Wilson62,Morgan65,Keenan99
  *K0.5V: Keenan88,GrayNstars(stan),Gray06
@@ -583,7 +585,10 @@ Eri (K2V).
 
 Interpolating between G8V (61 UMa) and K2V (eps Eri) standards, one
 would expect the solar metallicity K0V standard to have properties of
-Teff ~ 5291K.  Interpolating between G8V (61 UMa) and K1V (107 Psc)
+Teff ~ 5291K.  (Indeed this is borne out when using the above standards
+and exemplars when plotting [Fe/H] vs. Teff from the Soubiran22/PASTEL
+compendium - resulting in Teff ~ 5294K interpolated for [Fe/H]=0.00).
+Interpolating between G8V (61 UMa) and K1V (107 Psc)
 standards, one would expect the solar metallicity K0V standard to have
 properties of Teff ~ 5296K.  These agree with the Teff adopted
 previously (Teff = 5290K).
@@ -619,6 +624,17 @@ but Teff vs. SpT trend is roughly linear:
 
 Teff[K] = 5266 - 79.176*SpT(K-subtype)  [G8V = -2, K0V = 0, K2V = 2]
 
+Among the standards and exemplars, the trend in [Fe/H] vs. Teff (from PASTEL/Soubiran22) is:
+-0.76 5280 HD 224618 (sec. stan.) 
+-0.40 5196 20 Crt (exemplar)
+-0.21 5298 sig Dra (pri. stan.)
++0.03 5262 HD 10780 (exemplar)
++0.03 5358 12 Oph (exemplar)
++0.13 5320 HD 284253 (ter. stan.)
++0.32 5293 55 Cnc (exemplar)
+a linear fit gives:
+Teff = 5294K + 5.865233e1*[Fe/H] (rms = 50.0K) [standards+exemplars]
+Teff = 5316K + 4.377789e1*[Fe/H] (rms = 5.4K)  [standards only]
 
 ### Mapping of Houk/Michigan Spectral Survey Types to Modern MK Grid (Gray/Keenan) for K Dwarfs
 

@@ -37,7 +37,24 @@ GrayCorbally10 standard:	 kap Pyx (=HD 78541) - K4III
 (B-V)(K4III) = 1.433 ; mean for N=6 K4III stars in Sloan15
 => adopt (B-V)(K4III) = 1.43 [updated 10/30/2020]
 
-Mv(K4III) = 1.36 ; HIP 70306 K4III 1989ApJS...71..245K
+Mv(K4III) = -0.90 ; HIP 23685 K4III (SIMBAD d<75pc sample)
+Mv(K4III) = -0.56 ; HIP 51069 K4III (SIMBAD d<75pc sample)
+Mv(K4III) =  0.70 ; HIP 33694 K4III (SIMBAD d<75pc sample)
+Mv(K4III) =  0.97 ; HIP 3781 K4III (SIMBAD d<75pc sample)
+Mv(K4III) = 1.15 ; HIP 70306 = 51 Hya = HR 5381 K4III 1989ApJS...71..245K
+Mv(K4III) =  1.38 ; HIP 15861 K4III (SIMBAD d<75pc sample)
+Mv(K4III) =  2.69 ; HIP 94521 K4III (SIMBAD d<75pc sample)
+Mv(K4III) =  3.88 ; HIP 8548 K4III (SIMBAD d<75pc sample)
+=> adopt Mv(K4III) = 1.15 [updated 6/28/2023]
+
+M_G(K4III) = -1.59 ; HIP 23685 K4III (SIMBAD d<75pc sample)
+M_G(K4III) = -1.10 ; HIP 51069 K4III (SIMBAD d<75pc sample)
+M_G(K4III) =  0.24 ; HIP 33694 K4III (SIMBAD d<75pc sample)
+M_G(K4III) =  0.51 ; HIP 3781 K4III (SIMBAD d<75pc sample)
+M_G(K4III) =  0.75 ; HIP 70306 = 51 Hya = HR 5381 K4III (SIMBAD d<75pc sample)
+M_G(K4III) =  1.03 ; HIP 15861 K4III (SIMBAD d<75pc sample)
+M_G(K4III) =  2.44 ; HIP 94521 K4III (SIMBAD d<75pc sample)
+M_G(K4III) =  3.76 ; HIP 8548  K4III (SIMBAD d<75pc sample)
 
 
 # No standards
@@ -47,60 +64,61 @@ MK43 and Deutsch69 do not list K4III standard stars.
 # Primary standards
 
 bet Cnc = HR 3249 = HD 692 (J0816+0911; V=3.52)
-    K4III: Adams35,Moore50,Roman52,Jaschek64(most),Abt68(stan),MK73(dagger),Houk(stan),Abt85,Keenan99
-    K4III Ba0.5: : Keenan89
-    K5III: MK43
+   K4III: Adams35,Moore50,Roman52,Jaschek64(most),Abt68(stan),MK73(dagger),Houk(stan),Abt85
+  *K4III Ba0.5: : Keenan89,Keenan99(stan)
+   K5III: MK43
 
-    Adopt "K4III" from Keenan99 and MK73. 
+   Adopt "K4III" from Keenan99 and MK73. 
 
 # Secondary standard
 
-kap Pyx = HD 78541 = HR 3628 (J0908-2551; V=4.6)
-    K4III: Abt81,Keenan89(stan),GrayCorbally10
-    M0III: Adams35
-    M1III: Adams26
-    K5/M0III: Maury1897
+kap Pyx = HD 78541 = HR 3628 = HIP 44824 (J0908-2551; V=4.6)
+  *K4III: Abt81,Keenan89(stan),Keenan99(stan),GrayCorbally10
+   M0III: Adams35
+   M1III: Adams26
+   K5/M0III: Maury1897
 
-    Adopt "K4III" from Keenan89. 
+   Adopt "K4III" from Keenan89/99. plx=6.239+-0.1081mas(GaiaDR3). V=4.56, G=3.955. 
 
 HR 513 = HD 10824 (V=5.3)
   *K4III: Adams35,Keenan76(via Garcia89),Houk99,GrayNstars
-   K5III: Keenan89 
+   K5III: Keenan89
 
-# Weak standards
-
-bet UMi = HR 5563 = HD 131873 = Kochab (J1450+7409; V=2.07)
-    K4III: Roman52,MK73(dagger)
-    K4-III: Keenan89
-    K5III: Adams35,MK43
+# Tertiary Standards (standards showing at least continuity between Keenan89 and Keenan99!)
 
 63 Aur = HD 54716
-   K4III: Keenan89(stan)
+  *K4III: Keenan89(stan),Keenan99(stan)
    K4II-III: Roman52
    K5: Adams35
 
 81 Gem = HD 62721
-   K4III: Keenan89(stan)
+  *K4III: Keenan89(stan),Keenan99(stan)
    K3+III+: Keenan53(CN slightly weak, 4172A strong): 
    K5III: Adams35,Roman55
    
+mu Hya = HD 90432
+  *K4III: Roman52,Keenan89(stan),Keenan99(stan)
+   K5III: Adams35,LandiDessyKeenan66
+   K7IIII: Schild71
+
+# Deprecated Standards
+
+bet UMi = HR 5563 = HD 131873 = Kochab (J1450+7409; V=2.07)
+   K4III: Roman52,MK73(dagger)
+   K4-III: Keenan89
+   K5III: Adams35,MK43
+
 HD 92305
    K4III: Keenan89(stan)
    K5III: Houk75
    M0III: LandiDessyKeenan66,Houk75(GarrisonHagen type)
 
-
 phi^1 Lup = HD 136422 (J1521-3615; V=3.6)
    K4III: Keenan89(stan)
    K5III: Buscombe62,Houk82
    K5: Cannon
+   
    Plx = 10.44+-0.79 mas (ASCC). Few classifications. 
-
-
-mu Hya = HD 90432
-   K4III: Roman52,Keenan89(stan)
-   K5III: Adams35,LandiDessyKeenan66
-   K7IIII: Schild71
 
 HR 6005
    K4III:Roman55,Jaschek64(both),Houk(stan)
@@ -114,3 +132,13 @@ HR 6005
 
 HD 121447 
    K4III: Ba4.5 C2 0.5: : Keenan89(stan)
+
+17 UMa = HR 3662 = HD 79354 
+   K4III: Keenan99(non-stan)
+
+gam Cha = HR 4174 = HD 92345 
+   K4III: Keenan99(stan)
+
+60 And = HR 643 = HD 13620 
+   K4-III:: Keenan99(non-stan)
+

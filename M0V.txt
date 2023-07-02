@@ -4,7 +4,7 @@ Kirkpatrick (in GrayCorbally09) calls Gl 270 the primary M0V standard.
 Gl 270 has a legacy as a strong M0V standard going back to Kirkpatrick91
 and Boeshaar76. 
 
-JM53 standard:          HD 147379 - M0V
+JM53 standard:          GJ 617A (=HD 147379) - M0V
 Houk75 standard:        GJ 338AB (=HD 79210/1) - M0V+M0V (secondary standard)
 Boeshaar76 standard:    GJ 270 - M0V [according to Kirkpatrick91]
 KeenanMcNeil76 stan.:   GJ 172 - M0V 
@@ -106,6 +106,7 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (B-V)(M0V) =   1.385 ; deprecated standard GJ 123 
 (B-V)(M0V) =  1.388 (+-0.017 sem, +-0.082 stdev); med. for 25 ARICNS M0V stars
 (B-V)(M0V) =   1.40  ; SchmidtKaler82
+(B-V)(M0V) =  1.409  ; deprecated stan. GJ 617A = HD 147379A (original JM53 M0V standard)
 (B-V)(M0V) =   1.41  ; Johnson66, KenyonHartmann95
 (B-V)(M0V) =   1.41  ; Bessell91 "old disk"
 (B-V)(M0V) = 1.410   ; sec. stan. GJ 338A 
@@ -160,6 +161,7 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (V-Ks)(M0V)    = 3.65  (+-0.02) ; Fouque17 (mean for N=50)
 (V-K)(M0V)     =  3.65 ; Bessell91 "old disk"
 (V-Ks)(M0V)    = 3.655 ; trend K/M standards & exemplars
+(V-Ks)(M0V)    = 3.656 ; deprecated stan. GJ 617A = HD 147379A (original JM53 M0V standard)
 (V-Ks)(M0V)    = 3.686 ; exemplar GJ 784
 (V-Ks)(M0V)    = 3.694 ; pri. stan. GJ 270
 (V-K)(M0V)     =  3.8  ; Hawley96
@@ -200,6 +202,7 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (Bp-Rp)(M0V) = 1.81730  ; GJ_338A sec. stan. (GaiaEDR3)
 (Bp-Rp)(M0V) =   1.8235  ; GJ_338A sec. stan. (GaiaDR2)
 (Bp-Rp)(M0V) = 1.8324   ; GJ_328 ter. stan. (GaiaEDR3)
+(Bp-Rp)(M0V) =   1.8327  ; GJ 617A = HD 147379A deprecated stan. (GaiaDR3)
 (Bp-Rp)(M0V) =   1.8409  ; GJ_328 ter. stan. (GaiaDR2)
 (Bp-Rp)(M0V) =  1.84645  ; GJ_338B = HD_79211 exemplar (GaiaEDR3)
 (Bp-Rp)(M0V) =   1.8529  ; GJ_338B = HD_79211 exemplar (GaiaDR2)
@@ -221,6 +224,7 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (G-Rp)(M0V) =   0.93  ; Kiman19
 (G-Rp)(M0V) = 0.9356  ; GJ_328 sec. stan. (Gaia EDR3)
 (G-Rp)(M0V) =  0.9313 ; GJ_270 pri. stan.
+(G-Rp)(M0V) =  0.9346 ; GJ 617A = HD 147379A deprecated stan. (GaiaDR3)
 (G-Rp)(M0V) =  0.9419 ; HD_191849 exemplar
 (G-Rp)(M0V) =  0.9450 ; GJ_825 = Lac 8760 exemplar (GaiaDR3)
 (G-Rp)(M0V) =  0.9583 ; GJ_270 pri. stan. (Gaia EDR3)
@@ -248,6 +252,10 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (G-V)(M0V) =   -0.6207 ; GJ_123  deprecated stan.
 => adopt (G-V)(M0V)  = -0.69 [updated 11/15/2022]
 => adopt (G-Ks)(M0V) = 3.65 + -0.69 = 2.96 [updated 11/15/2022]
+
+(g-G)(M0V) = 1.551 (+-0.018 sem, +-0.127 stdev) ; SIMBAD d<25pc M0 (N=74)
+(g-G)(M0V) = 1.637 (+-0.028 sem, +-0.098 stdev) ; SIMBAD d<15pc M0 (N=15)
+=> adopt (g-G)(M0V) = 1.55 [updated 6/29/2023]
 
 (g-r)(M0V) = 1.31 ; Covey07
 
@@ -290,7 +298,8 @@ Teff(M0V) =  4022 K ; Passegger18 median Teff for CARMENES M0.0Vs(N=20)
 Mv(M0V) =   7.8  mag ; Reid04
 Mv(M0V) =  8.21 mag ; ter. stan. GJ 123
 Mv(M0V) =  8.31 mag ; exemplar GJ 839
-Mv(M0V) =  8.38 mag ; sec. stan. GJ 328 
+Mv(M0V) =  8.38 mag ; sec. stan. GJ 328
+Mv(M0V) =  8.45 mag ; deprecated stan. GJ 617A = HD 147379A (original JM53 M0V standard)
 Mv(M0V) =  8.64 mag ; sec. stan. GJ 338A 
 Mv(M0V) =   8.68 mag ; Kirkpatrick94
 Mv(M0V) =  8.69 mag ; median Koen10 d<25pc M0V
@@ -312,7 +321,8 @@ Mv(M0V) =   9.17 mag ; Wegner07
 => adopt M_Ks(M0V) = 5.15 mag [updated 3/2/2021] (Mv=8.80, V-Ks=3.65)
 
 M_G(M0V) =   7.68287 ; HD 111631 M0V
-M_G(M0V) =   7.729   ; sec. stan. GJ 328 
+M_G(M0V) =   7.729   ; sec. stan. GJ 328
+M_G(M0V) =   7.74    ; deprecated stan. GJ 617A = HD 147379A (original JM53 M0V standard)
 M_G(M0V) =   7.96756 ; HD 11507  M0V
 M_G(M0V) =   7.99    ; non-stan. GJ 825 = Lacaille 8760 
 M_G(M0V) =  8.03977  ; HD 79211  exemplar
@@ -336,7 +346,8 @@ M_Ks(M0V) =  5.10  ; V-Ks=3.65 => EEM fit to Reid CNS3 data
 M_Ks(M0V) =  5.07  ; pri. stan. GJ 270
 M_Ks(M0V) =  5.05  ; exemplar GJ 825 = Lacaille 8760 
 M_Ks(M0V) =  4.81  ; ter. stan. GJ 123
-M_Ks(M0V) =  4.79  ; sec. stan. GJ 328 
+M_Ks(M0V) =  4.79  ; sec. stan. GJ 328
+M_Ks(M0V) =  4.79  ; deprecated standard GJ 617A = HD 147379A (original JM53 M0V standard)
 
 BCv(M0V) =  -1.558 mag ; deprecated stan. GJ 701
 BCv(M0V) =  -1.549 mag ; deprecated stan. GJ 686
@@ -405,7 +416,6 @@ Mass(M0V) = 0.616 +-0.006 Msun ; GU Boo A (Benedict16)
 Mass(M0V) =  0.62 Msun ; pri. stan. GJ270 (Gaidos14)
 Mass(M0V) = 0.665 Msun ; Mv=8.91 => Torres10 binary calibration
 => adopt Mass(M0V) = 0.57 Msun [updated 11/3/2019]
-
 
 # No standard
 
@@ -709,7 +719,6 @@ GJ 338B = HD 79211 = LHS 261 = Lalande 18115 B
   E(BP/RP)=1.317, plx=157.8825 0.0211mas => Mv=8.69+-0.03, M_G=8.039.
   G-V = 7.0477 - 7.697 = -0.649.
 
-
 # Deprecated Standards
 
 GJ 123 = HD 19305 = BD+01_543 = StKM 2-258
@@ -861,17 +870,27 @@ GJ 701 = LHS 3356 (J1805-0301)
   3680K(Morales08), 3710+-101K(Gaidos14#1), 3733+-68K(Gaidos14#2) =>
   median Teff = 3655K. Mass = 0.489+-0.016 Msun(Jenkins09).
 
-GJ 617A = HD 147379A = Cin 18 2184 
-  K7: Bidelman85
- *M0V: Adams26,Vyssotsky46,JM53,Joy74,Montes01,Cenarro09,Lepine13(M0.0V),Alonso-Floriano15
-  M1-Ve: Keenan89
+GJ 617A = HD 147379A = Cin 18 2184 = LHS 3175 = Lalande 29917 = HIP 79755 = Gaia DR3 1642641410934267008
+  K7: Bidelman85,Reid95
+ *M0V: Adams26,Vyssotsky46,JM53(stan),Joy74,Montes01,Cenarro09,Lepine13(M0.0V),Alonso-Floriano15
+  M1-Ve: Keenan80,Keenan89
   M1.0V: Lafloret11(CARMENCITA),Gaidos14(M1)
   M2: Lee47
 
-  Probably M0V-M1V, but not sure where to put it. Probably not the
-  best choice of standard.  JohnsonMorgan53 considered it a M0V
-  standard, but Keenan considered it 0.75 subtype later.  No published
-  classifications by Kirkpatrick or Henry.
+  It was "the" M0V standard in JohnsonMorgan53, but Keenan80
+  considered it 0.75 subtype later (M1-V) and kept it there. Oddly, no
+  published classifications by Kirkpatrick or Henry. Host to at least
+  one exoplanet (Hobson18, Reiners18). Wide binary in WDS with M3V
+  companion EW Dra 65" away. Slightly brighter and negligibly bluer in
+  B-V than most other M0V standards, but V-Ks color is right in the
+  middle. plx=92.8766+-0.0146mas(GaiaDR3). V=8.587(GaiaDR3/synth),
+  V=8.609+-0.034(Mermilliod91), V=8.61(HIP),
+  B-V=1.409+-0.010(HIP,Mermilliod91),
+  U-B=1.244+-0.022(Mermilliod91). J=5.779+-0.019(2MASS),
+  H=5.136+-0.034(2MASS), Ks=4.953+-0.018(2MASS).  V-Ks = 8.609 - 4.953
+  = 3.656. G=7.901774, Bp-Rp=1.832734, Bp-G=0.898146, G-Rp=0.934588.
+  Mv=8.45, M_Ks=4.79, M_G=7.74. Teff=3880+-99K(Muirhead18),
+  Rad=0.649+-0.019Rsun(Muirhead18), Mass=0.668+-0.012Msun(Muirhead18).
 
 # Other Stars
 
@@ -892,9 +911,11 @@ GJ 488 = HD 111631 = Cin 18 1633 = G 14-6
  *M0V: Adams26,Lee47(M0),Vyssotsky56,Upgren72,Gaidos14
   M0.5V: JM53(non-standard),Joy74
 
-  Not good agreement on types. Mann15 has it as "K7.9", with K7 to M0
-  being one step, so essentially M0. (B-V)=1.412+-0.012(Mermilliod91),
-  V=8.491+-0.019(Mermilliod91), U-B=1.258+-0.009(Mermilliod91).
+  The one star classified as M0.5V by JohnsonMorgan53 (but not as a
+  standard).  Not good agreement on types. Mann15 has it as "K7.9",
+  with K7 to M0 being one step, so essentially
+  M0. (B-V)=1.412+-0.012(Mermilliod91), V=8.491+-0.019(Mermilliod91),
+  U-B=1.258+-0.009(Mermilliod91).
 
 GJ 519
   K5: Lee47

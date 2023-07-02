@@ -16,6 +16,7 @@ redder than the median for K5V.
 (B-V)(K4.5V) =  1.115 ; non-stan. HD 27274
 (B-V)(K4.5V) =  1.115 ; non-stan. HD 170573
 (B-V)(K4.5V) =  1.118 ; non-stan. HD 109368
+(B-V)(K4.5V) = 1.128 ; exemplar HIP 17346 = GJ 149A 
 (B-V)(K4.5V) =  1.130 ; non-stan. HD 21749
 (B-V)(K4.5V) =  1.143 ; non-stan. HD 214749
 (B-V)(K4.5V) =  1.143 ; non-stan. HD 12058
@@ -43,6 +44,8 @@ redder than the median for K5V.
 => adopt (G-J)(K4.5V)   = 1.683
 => adopt (G-Ks)(K4.5V)  = 2.364
 
+(V-Ks)(K4.5V) = 2.750 ; exemplar HIP 17346 = GJ 149A
+(V-Ks)(K4.5V) = 2.754 ; exemplar GJ 9260 = HIP 40671 =
 (V-Ks)(K4.5V) = 2.755 ; trend for K dwarfs (standards+exemplars)
 (V-Ks)(K4.5V) = 2.793 ; trend for B-V=1.12
 
@@ -99,24 +102,26 @@ Teff = 4596K - 0.758463e1*[Fe/H]  (rms = 134K)
 
 # Exemplars
 
-BD+31_1781 (J0818+3036; V=8.8)
+GJ 9260 = HIP 40671 = GJ 301.1 = LHS 1998 = BD+31_1781 = (J0818+3036; V=8.8)
   K3: Bidelman85
   K4V: Roman55,Wilson62,
  *K4.5V: Gray03
   K5: Lee47
   K6V: Adams35
 
+  GaiaDR3 suggests it is roughly solar metallicity.
   V=8.857+-0.027(Mermilliod91), B-V=1.144+-0.005(Mermilliod91),
   U-B=1.110+-0.000(Mermillod91), J=6.777+-0.020(2MASS),
   H=6.226+-0.020(2MASS), Ks=6.103+-0.020(2MASS), V-Ks = 8.857 - 6.103
-  = 2.754.
+  = 2.754. [Fe/H] = 0.0280(-0.1502,0.1330)(GaiaDR3),
+  [Fe/H]=-0.03(-0.08,0.03)(GaiaDR3), [Fe/H]=0.00+-0.12(Grieves18).
 
 BD-21 3153 = HIP 52776 = PPM 258144
   K4/5V: Stephenson86
  *K4.5V(k): Gray06
   K5V: Upgren72
 
-  V=9.91(HIP), B-V=1.155+-0.015(HIP), Teff=4622+-102K(SOusa11),
+  V=9.91(HIP), B-V=1.155+-0.015(HIP), Teff=4622+-102K(Sousa11),
   [Fe/H]=-0.17+-0.06(Sousa11), logg=4.38+-0.24(Sousa11).
 
 HD 214749 = UGP 576
@@ -137,6 +142,20 @@ HD 101581 (J1141-4424; V=7.9)
 
   B-V=1.064+-0.020(HIP), Mv=7.30(Vmag from HIP, plx from HIP2),
   Vmag=7.77(HIP).
+
+HIP 17346 = GJ 149A = CD-24_1826 = CPD-24_458 = 2MASS J03424468-2427582 = UGP 65
+  K4: Bidelman85
+ *K4.5V: Gray06
+  K5V: Upgren72
+
+  35" wide binary (LDS 3527) with mag=14 M3.5V "B" (LP 832-45).
+  V=9.191766(GaiaDR3/synth), V=9.20(HIP),
+  V=9.196+-0.024(Mermilliod91), B-V=1.128+-0.004(HIP),
+  B-V=1.126+-0.020(Mermilliod91), V-I=1.23+-0.01(HIP),
+  U-B=1.110(Mermilliod91), J=7.134+-0.027(2MASS),
+  H=6.582+-0.026(2MASS), Ks=6.442+-0.020(2MASS).  V-Ks = 9.192 - 6.442
+  = 2.750.  PASTEL/Soubiran22: Teff=4603+-32K, logg=4.32+-0.25,
+  [Fe/H]=-0.07+-0.13.
   
 # Other Stars
 

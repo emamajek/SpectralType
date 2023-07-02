@@ -191,6 +191,10 @@ M_G(M9V)    = 16.43   ; pri. stan. LHS 2924 = LP 271-25
 M_G(M9V)    =   16.59  ; ** BUG 5A
 => adopt M_G(M9V) = 16.30 [updated 12/27/2021]
 
+(g-G)(M9V) = 4.291 (+-0.046 sem, +-0.100 stdev) ; SIMBAD M9 d<25pc (N=8)
+(g-G)(M9V) = 4.327 ; pri. stan. LHS 2924 = LP 271-25 = GJ 3849
+=> adopt (g-G)(M9V) = 4.3 [updated 6/29/2023]
+
 [EEM 12/26/2020: trend for standards & exemplars:
 M_G = 4.8745 + 1.09861*M_K => G-Ks = 4.8745 + 0.0986*M_K
 
@@ -313,8 +317,8 @@ LHS 2924 = LP 271-25 = GJ 3849 = NN 3849 = 2MASS J14284323+3310391
   W3=9.646+-0.036.  Ks-W1=0.313(WISE), Ks-W1=0.316(allWISE).
   (V-Ic)=4.43, (V-Ks) = 19.64 - 10.744 = 8.896(Dahn17,2MASS).
   Mv=19.37+-0.03(Leggett92, Dahn02), M_G=16.425+-0.003(GaiaDR2),
-  M_Ks=10.534+-0.039(2MASS,Dahn02). LHS2924 is a JHK photometric
-  standard for MKO system: J=11.885+-0.013(Leggett06),
+  M_Ks=10.534+-0.039(2MASS,Dahn02). (g-G)=4.327. LHS2924 is a JHK
+  photometric standard for MKO system: J=11.885+-0.013(Leggett06),
   H=11.251+-0.010(Leggett06),
   K=10.721+-0.013(Leggett06). Mass=0.105+-0.042Msun(Jenkins09).
   Teffs: 1665K(Jenkins09), 1950+-150K(Probst83,Blackbody!),
@@ -323,7 +327,7 @@ LHS 2924 = LP 271-25 = GJ 3849 = NN 3849 = 2MASS J14284323+3310391
   2367K(Dahn02*), 2437K(Bessell93), 2450K(Basri00*),
   2492K(Rojas-Ayala12*), 2550K(Lyubchik12*,average),
   2600K(Pavlenko02*), 2625K(Kirkpatrick93). Recent average is ~2450K.
-  (G-Ks)=5.886, M_G=16.425, M_Ks=10.539. 
+  (G-Ks)=5.886, M_G=16.425, M_Ks=10.539.
   
 # Secondary Standard
 
@@ -358,7 +362,6 @@ LHS 2065 = GJ 3517 = LP 666-9 = 2MASS J08533619-0329321 = NLTT 20475
   0.000332Lsun => logL=-3.4788. Mass=0.082+-0.002Msun(Pineda21),
   Rad=0.113+-0.006Rsun(Pineda21),
   
-
 LP 944-20 = BRI 0337-3535
  *M9V: Tinney98,Kirkpatrick99(footnote#8),Kirkpatrick(unpub.,DwarfArchives),Leggett01,Geballe02,Henry04
   M9.5V: Reid04
