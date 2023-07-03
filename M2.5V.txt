@@ -226,7 +226,7 @@ Boeshaar85 does not list an M2.5V standard.
 GJ 381 = LHS 2230 = DO 2902 = L 968-22
  *M2.5V: Walker83,Kirkpatrick91(pri),Hawley97,Henry02,Reid04,Kirkpatrick(GrayCorbally09)(pri),Alonso-Floriano15
   M2: Gaidos14
-  M3V: Boeshaar76
+  M3V: Boeshaar76(non-stan)
   M0: Lee47
   
   V=10.64(HIP,TYC1), V=10.640+-0.010(Mermilliod91), V=10.638(Hauck90),
@@ -244,30 +244,28 @@ GJ 381 = LHS 2230 = DO 2902 = L 968-22
 # Secondary Standard
 
 GJ 250B = HD 50281B = LHS 1876 = WDS J06523-0510Ba,Bb = 2MASS J06521804-0511241
- *M2.5V: Boeshaar76,Kirkpatrick91(pri),Henry02,Bonfils13
-  M2.3V: Mann15
   M2V: Wooley70,KeenanMcNeil76(stan),Luyten79,Bidelman85,Gliese91,Hawley97,Gaidos14,Newton14(near-IR)
+  M2.3V: Mann15
+ *M2.5V: Boeshaar76(non-stan),Kirkpatrick91(pri),Henry02,Bonfils13
   
-  Skiff07 shows no published SpTs before Kirkpatrick91 (V=10.1), but
-  it was the KeenanMcNeil76 M2V standard! It appears that Kirkpatrick
-  & Henry went with the Boeshaar classification over Keenan &
-  McNeil's, so it has been an M2.5V standard ever since.  Would prefer
-  to see better agreement among modern types (all getting ~M2), but
-  I've retained it as a secondary standard since Kirkpatrick
-  considered it primary (but it clearly has a worse pedigree than GJ
-  381).  V=10.073+-0.029(Mermilliod91), V=10.03(TYC1),
-  Vt=10.164+-0.05(TYC1), B-V=1.449+-0.037(Mermilliod91),
-  U-B=1.22(Mermilliod91), J=6.579+-0.034(2MASS),
-  H=5.976+-0.055(2MASS), Ks=5.723+-0.036(2MASS),
-  V-Ks=4.35(Mermilliod91,2MASS), plx=106.69+-1.31mas(vanLeeuwen07),
-  plx=114.4148+-0.0516mas(GaiaDR2).
+  It appears that Kirkpatrick & Henry went with the Boeshaar
+  classification over Keenan & McNeil's, so it has been an M2.5V
+  standard ever since.  Would prefer to see better agreement among
+  modern types (all getting ~M2), but I've retained it as a secondary
+  standard since Kirkpatrick considered it primary (but it clearly has
+  a worse pedigree than GJ 381).  V=10.073+-0.029(Mermilliod91),
+  V=10.03(TYC1), Vt=10.164+-0.05(TYC1),
+  B-V=1.449+-0.037(Mermilliod91), U-B=1.22(Mermilliod91),
+  J=6.579+-0.034(2MASS), H=5.976+-0.055(2MASS),
+  Ks=5.723+-0.036(2MASS), V-Ks=4.35(Mermilliod91,2MASS),
+  plx=106.69+-1.31mas(vanLeeuwen07), plx=114.4148+-0.0516mas(GaiaDR2).
   Teff=3359K(Houdebine10,Houdebine12), 3379K(Terrien15),
   3481+-60K(Mann15#1), 3520K(Morales08),
   3569+-19K(Rojas-Ayala12,Mann15#2), 3892+-76K(Gaidos14) => <Teff> =
   3500K.  R=0.460+-0.017Rsun(Mann15), R=0.436+-0.006Rsun(Mann15#2),
   M=0.444+-0.044(Mann15), M=0.466+-0.008Msun(Mann15#2),
   [Fe/H]=0.14+-0.03(Mann15). Rad=0.460+-0.017Rsun(Yee17).
-  Mv=10.37+-0.03, M_Ks=6.02+-0.04. 
+  Mv=10.37+-0.03, M_Ks=6.02+-0.04.
 
 # Tertiary Standard
 
@@ -367,9 +365,29 @@ GJ 581 = Wolf 562 = BD-7 4003
 
 GJ 408 = LHS 6193 = HIP 53767 = LTT 12942 = StKM 2-688
   M2V: Vyssotsky46,Royas-Ayala12(M2)
- *M2.5V: Henry94,Lurie13
-  M3: Bidelman85,Gaidos14
+ *M2.5V: Henry94,Reid95,Lepine13
+  M3: Boeshaar76(non-stan),Bidelman85,Gaidos14
   M4V: Stephenson86
+
+GJ 70 = LHS 1290 = StKM 2-154 = MCC 93
+  M2V: Vyssotsky46,Joy74,Robertson84,Stephenson86,Reid95
+  M2.5V: Boeshaar76(non-stan),Lurie13,Mann15
+
+GJ 157BC = HD 24916 BC = BD-01 565 B
+  M2V: Reid95
+  M2e: 1944PASP...56...38L
+ *M2.5Vee: Gray03,Alfonso-Floriano15(M2.5V)
+  M3Ve: Joy74
+  M3: Bidelman85,Gaidos14
+  M3e: Boeshaar76(non-stan)
+
+GJ 277A = BD+36 1638A = VV Lyn A = WDS J07319+3613Aa = Gaia DR3 898506093171335424
+  M1: Lee47
+  M2V: Vyssotsky52,Stephenson86
+ *M2.5V: Reid95,Alonso-Floriano15
+  M3: Bidelman85,Lepine13,Gaidos14
+  M3+: Boeshaar76(non-stan)
+  M4Ve: Popper43
 
 TOI-700
   M2+-1: Gilbert20

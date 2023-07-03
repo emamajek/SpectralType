@@ -1,12 +1,9 @@
 M0V
 
 Kirkpatrick (in GrayCorbally09) calls Gl 270 the primary M0V standard. 
-Gl 270 has a legacy as a strong M0V standard going back to Kirkpatrick91
-and Boeshaar76. 
 
 JM53 standard:          GJ 617A (=HD 147379) - M0V
 Houk75 standard:        GJ 338AB (=HD 79210/1) - M0V+M0V (secondary standard)
-Boeshaar76 standard:    GJ 270 - M0V [according to Kirkpatrick91]
 KeenanMcNeil76 stan.:   GJ 172 - M0V 
 Keenan80 standard:      GJ 172 (=HD 232979) - M0V
 Keenan83 standard:      GJ 172 (=HD 232979) - M0V 
@@ -70,8 +67,12 @@ reference is to the PhD thesis ("To be published"). However there
 appears to be some disagreement on the use of standards between the
 final published Boeshaar76 (much of which was adopted by Kirkpatrick91
 and subsequent publications), e.g. KeenanMcNeil76 adopt Gl 172 as the
-M0V standard, but Boeshaar76 adopts GJ 270 (according to
-Kirkpatrick91, I have not yet seen the Boeshaar76 thesis).
+M0V standard. Kirkpatrick91 says that Boeshaar76 adopted GJ 270 as M0V
+standard, but this is not obvious in the thesis - several M0V stars
+are listed in Table 3 of the thesis (GJ 4B, G 95-59, GJ 239, GJ 270, G
+43-53), but none are shown among the comparison spectra, none called
+out as special in the text, and GJ 270 isn't even the brightest (3rd
+brightest).
 
 Torres10 (AJ, 140, 1158) notes that Flower96's bolometric corrections
 "break down completely for M dwarfs", so we presume that they are
@@ -426,13 +427,15 @@ standard, but did list non-standards GJ 123 (HD 19305) M0V and eta Cas B (HD 461
 
 GJ 270 = BD+33_1505 = G 87-33 = LHS 1912 = HIP 35495 (J0719+3249)
   K7V: Stephenson86,Hawley97(K7)
- *M0V: Vyssotsky43,Boeshaar76,Bidelman85(M0),Kirkpatrick91(pri),Hawley02(stan),Kirkpatrick(GrayCorbally09)(pri),Lepine13,Alonso-Floriano15(reference)
+ *M0V: Vyssotsky43,Boeshaar76(non-stan),Bidelman85(M0),Kirkpatrick91(pri),Hawley02(stan),Kirkpatrick(GrayCorbally09)(pri),Lepine13,Alonso-Floriano15(reference)
   M1V: Adams26,Gaidos14
   M1.5V: Joy74
   M2V: Adams35
   K5: Lee47
 
-  Not mentioned in Henry02. Strange variation of Vmags in the
+  Boeshaar76 listed about half a dozen M0V stars, but didn't seem to
+  call one out as being a standard (GJ 270 was the 3rd brightest among
+  these). Not mentioned in Henry02. Strange variation of Vmags in the
   literature ranging from V=8.92(Hawley97), V=9.16(Mermilliod91) up to
   V=10.03(CMC), V=10.06(HIP), V=10.069(GaiaDR3,synth),
   V=10.08(Weis93). The Hipparcos Hp magnitude is ~10.15 with scatter
@@ -513,7 +516,7 @@ GJ 328 = HIP 43790 = Ross 623 = BD+2_2098 = LHS 255 = G 46-9 = G 114-21 = LFT 61
   K5V: Lee47(K5),Stephenson86
   K7:  Bidelman85,Hawley97
  *M0V: Vyssotsky56,Kirkpatrick91(pri),Lepine13(M0.0),Gaidos14
-  M0.5V: Boeshaar76
+  M0.5V: Boeshaar76(non-stan)
   M1V: Joy74
 
   Primary M0V standard in Kirkpatrick91, but surprisingly little
@@ -894,6 +897,12 @@ GJ 617A = HD 147379A = Cin 18 2184 = LHS 3175 = Lalande 29917 = HIP 79755 = Gaia
 
 # Other Stars
 
+GJ 239 = HD 260655 = LSPM J0637+1733
+  K7V: Reid95
+ *M0V: Boeshaar76(non-stan),Bidelman85(M0),Henry02,Lepine13(M0),Gaidos14(M0)
+  M0.2: Mann15
+  M1V: Adams26,Lee47(M1),Joy74,Newton14(near-IR)
+
 GJ 79 = HD 11507 = CD-23 693
   K5/M0V: Houk88
   K7: Bidelman85,Reid95
@@ -908,7 +917,8 @@ GJ 488 = HD 111631 = Cin 18 1633 = G 14-6
   K6Ve: Popper43
   K7V: Wilson62,Bidelman85,Stephenson86,Reid95
   K7.9: Mann15
- *M0V: Adams26,Lee47(M0),Vyssotsky56,Upgren72,Gaidos14
+  M0-: Boeshaar76(non-stan)
+  M0V: Adams26,Lee47(M0),Vyssotsky56,Upgren72,Gaidos14
   M0.5V: JM53(non-standard),Joy74
 
   The one star classified as M0.5V by JohnsonMorgan53 (but not as a
@@ -940,11 +950,8 @@ GJ 341 = HD 304636 = HIP 45908 = LHS 2128 = CD-59 2351 = UGP 204 = NLTT 21618 = 
  *M0V: 1930POPot..27b...1B,Upgren72,Reid95(M0.0)
   M1: Gaidos14
 
-GJ 239 = HD 260655 = LSPM J0637+1733
-  K7V: Reid95
- *M0V: Bidelman85(M0),Henry02,Lepine13(M0),Gaidos14(M0)
-  M0.2: Mann15
-  M1V: Adams26,Lee47(M1),Joy74,Newton14(near-IR)
+
+
 
 GJ 208 = HD 245409 = HIP 26335 = TYC 709-63-1
   K5: Lee47
@@ -968,6 +975,13 @@ GJ 3403 = HIP 31862 = NLTT 16863 = UGP 145 = CD-55 1514 = 2MASS J06393764-553634
   K7V: Upgren72
  *M0V(k): Gray06,Gaidos14(M0)
   Mpec: Stock72
+
+GJ 1064D = LHS 182 = G 95-59 = NLTT 11933
+  M0:: Boeshaar76(non-stan)
+  sdMpec: Eggen65
+ *esdM0: Gizis97
+
+
 
 # Data
 

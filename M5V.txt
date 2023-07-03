@@ -16,8 +16,8 @@ use. Thus when we call a star G3 we mean only that it is closer to G2
 than to G5."
 
 Boeshaar76 standard:         GJ 473AB - M5+e (plate II, III standard)
-Boeshaar76 standard:         GJ 905  - M5e (plate IV standard)
-Boeshaar76 standard:         G 158-27 - M5-M5.5 (plate IV standard)
+                             GJ 905  - M5e (plate IV standard)
+                             GJ 1002 (=G 158-27) - M5-M5.5 (plate IV standard)
 KeenanMcNeil76 standard:     GJ 83.1 - (M5V in the table, M5- on plates)
 Keenan80 standard:           GJ 83.1 - M5-V
 Keenan83 standard:           GJ 83.1 - M5-V
@@ -341,7 +341,7 @@ Skiff08 does not flag any stars as M5V MK standards.
 # Primary Standard
 
 GJ 51 = Wolf 47 = LHS 1183 = V388 Cas (J0103+6222)
- *M5V: Joy74(M5Ve),Bidelman85(M5),Boeshaar76,Pettersen91(dM5e),Gliese91(M5),Kirkpatrick91,Hawley97,Hawley02(stan),Henry02,Kirkpatrick10(opt.,near-IR),RoyasAyala12(K-band),Lepine13(M5e),Newton14(near-IR),Gaidos14(M5e),Alonso-Floriano15(M5Ve)
+ *M5V: Joy74(M5Ve),Bidelman85(M5),Boeshaar76(non-stan,"M5e"),Pettersen91(dM5e),Gliese91(M5),Kirkpatrick91,Hawley97,Hawley02(stan),Henry02,Kirkpatrick10(opt.,near-IR),RoyasAyala12(K-band),Lepine13(M5e),Newton14(near-IR),Gaidos14(M5e),Alonso-Floriano15(M5Ve)
   M3Vpe-M7Ve: VSX
   M7V: Johnson53(dM7),Veeder74(M7e). 
   
@@ -387,12 +387,14 @@ GJ 1156 = GL Vir = LHS 324 (J1218+1107)
 
 # Tertiary Standard
 
-GJ 1057 = LHS 168
- *M5V: Robertson84(M5:V),Kirkpatrick94,Hawley97,Newton14,West15,Kirkpatrick16(stan)
+GJ 1057 = LHS 168 = CD Cet = G 77-31 = G 79-13 = 2MASS J03132299+0446293 = NLTT 10256
+  M4.5V: Lepine13
+ *M5V: Boeshaar76(non-stan),Robertson84(M5:V),Kirkpatrick94,Hawley97,Newton14,Terrien15,West15,Kirkpatrick16(stan)
+  M6: Gaidos14
 
-  All published SpT M5V.  V=13.786+-0.009(Mermilliod91),
-  B-V=1.827+-0.005(Mermilliod91), U-B=1.150+-0.000(Mermilliod91),
-  J=8.775+-0.020(2M), H=8.208+-0.038(2M),
+  V=13.786+-0.009(Mermilliod91), B-V=1.827+-0.005(Mermilliod91),
+  U-B=1.150+-0.000(Mermilliod91), J=8.775+-0.020(2M),
+  H=8.208+-0.038(2M),
   Ks=7.833+-0.024(2M). V-Ks=5.953(Mermilliod91,2MASS). plx=117.1+-3.5mas
   (vanAltena95). Mv=14.13+-0.07, M_Ks = 8.18+-0.07. Teffs:
   2706K(Jenkins09), 2900K(Rajpurohit13), 2992+-61K(Gaidos14),
@@ -434,7 +436,7 @@ GJ 1093 = 2MASS J06592868+1920577
 
 GJ 866AB = L 789-6AB = EZ Aqr = LHS 68 = LP 820-64 = G 156-31 = WDS J22385-1519AB = 2MASS J22383372-1517573 
  *M5V: Kirkpatrick91,Kirkpatrick94
-  M5+V: Boeshaar76
+  M5+e: Boeshaar76(non-stan)
   M5.5V: Boeshaar94(dM5.5)
 
   Triple system. T=2650 K (Casagrande08), 3000K (Dawson00), 2800 K
@@ -457,11 +459,13 @@ GJ 699 = Barnard's Star = LHS 57 = BD+4_3561a
   [Fe/H]=-0.15. Boeshaar94 says that Barnard's star is one of the M
   stars that anchors the M-star classification system as M5V (along
   with HD 95735 providing the M2V standard; see Johnson & Morgan
-  1953), but that *both* stars are "spectroscopically peculiar".  Teff
-  = 3100K(Leggett00), 3145K(Casagrande08), 3163K(Segranson03 VLTI),
-  3210K(Tsuji96) => median Teff = 3154K. Other Segransan03 VLTI
-  parameters: M = 0.158+-0.008 Msun, R = 0.196+-0.008 Rsun,
-  logg=5.05+-0.09 dex.
+  1953), but that *both* stars are "spectroscopically peculiar". JM53
+  does not actually list in their standard star table, just mentions
+  this in text (but includes the star among other non-standards in
+  Table 3). Teff = 3100K(Leggett00), 3145K(Casagrande08),
+  3163K(Segranson03 VLTI), 3210K(Tsuji96) => median Teff =
+  3154K. Other Segransan03 VLTI parameters: M = 0.158+-0.008 Msun, R =
+  0.196+-0.008 Rsun, logg=5.05+-0.09 dex.
 
 GJ 852B = LDS 782 B
   M4.5: Riaz06

@@ -10,7 +10,7 @@ M3-M4 region and predicts R=0.257Rsun for [Fe/H]=0.0 and M_Ks=7.5. I
 adopt the Mann15 trend for the HR diagram position.
 
 Boeshaar76 standard:            GJ 273 - M4 (plates II & V standards)
-Boeshaar76 standard:            GJ 896B - M4+e (plate IV standard)
+                                GJ 896B - M4+e (plate IV standard)
 KeenanMcNeil76 standard:        EQ Peg (=GJ 896A) - M4V 
 Keenan85 standard:              gam Leo C - M4V
 Boeshaar85 standard:            GJ 402  - M4V
@@ -404,7 +404,7 @@ GJ 402 = Wolf 358 = EE Leo = LHS 294 = HIP 53020 (J1050+0648)
   M3: RojasAyala12(K-band)
   M3.76: Terrien15(near-IR)
   M3.9: Mann15
- *M4V: Boeshaar76,Kirkpatrick91(pri),Hawley97,Henry02,Kirkpatrick(GrayCorbally09)(pri),Lepine13,Gaidos14(M4),Alonso-Floriano15
+ *M4V: Boeshaar76(non-stan),Kirkpatrick91(pri),Hawley97,Henry02,Kirkpatrick(GrayCorbally09)(pri),Lepine13,Gaidos14(M4),Alonso-Floriano15
 
   Landolt09 UBVRI photometric standard. Appears to be just slightly
   metal-rich [Fe/H] ~ +0.1 (see below). Vmag=11.64(HIP),
@@ -445,7 +445,7 @@ GJ 402 = Wolf 358 = EE Leo = LHS 294 = HIP 53020 (J1050+0648)
 
 GJ 213 = Ross 47 = V1352 Ori = LHS 31 = HIP 26857 (J0542+1229)
  *M4V: Kirkpatrick91(pri),Kirkpatrick93,Kirkpatrick94,Hawley97,Hawley02(stan),Henry02,Kirkpatrick10(opt.,near-IR)
-  M4+V: Boeshaar76
+  M4+V: Boeshaar76(non-stan,"M4+")
 
   Newton14 and Cushing05 comment on the metal-poorness of this
   standard ([Fe/H] ~ -0.17).  Vmag=11.56(HIP),
@@ -499,14 +499,20 @@ GJ 232 = G 104-037 = Ross 64 (J0624+2326)
 GJ 447 = Ross 128 = FI Vir = LHS 315 = HIP 57548 = LSPM J1147+0048
   M3: Lee47
  *M4V: Bidelman85(M4),Kirkpatrick94,Henry94,Reid95/Hawley97,Henry02,RojasAyala12(near-IR)
+  M4+: Boeshaar76(non-stan)
   M4.3: Terrien15
-  M4.5V: Joy74,Lurie13,Mann15,
+  M4.5V: Joy74,Lepine13,Mann15,
   M5V: Luyten45,Vyssotsky52,Luyten45(M5),Gaidos14
   M7V: Cowley82
 
   2nd nearest M4V dwarf (RECONS), and appears to be near solar <[M/H]>
   = -0.04 (see below), and closest to solar among the primary or
-  secondary standards.  V=11.12(HIP), V=11.102+-0.014(Mermilliod91),
+  secondary standards. Boeshaar76(p.36) mentions that its type is
+  intermediate: "An example is GL 447 (R 128) at M4+, which seems to
+  be of a type between GL 273 (R 989N) at M4 and GL 285 (YZ CMi) at
+  M4.5", however GJ 473 is now considered ~M3.5V. This seems to be
+  borne out by recent classifications by Terrien, Lepine, and
+  Mann. V=11.12(HIP), V=11.102+-0.014(Mermilliod91),
   B-V=1.746+-0.020(HIP), U-B=1.355+-0.160(Mermilliod91),
   V-I=2.97+-0.01(HIP), J=6.505+-0.023(2MASS), Ks=5.654+-0.024(2MASS),
   V-J=4.615(HIP & 2MASS), (V-Ks)=5.466(HIP & 2MASS). plx =
@@ -534,9 +540,12 @@ GJ 447 = Ross 128 = FI Vir = LHS 315 = HIP 57548 = LSPM J1147+0048
 
 # Tertiary Standards
 
-GJ 275.2A = LHS 229 (J0730+4811)
- *M4V: Kirkpatrick91(pri)
-  M4+:V: Boeshaar76
+GJ 275.2A = LHS 229 = G 107-69 = 2MASS J07304280+4811599 (J0730+4811)
+ *M4V: Kirkpatrick91(pri),Reid95
+  M4+:: Boeshaar76(non-stan)
+  M4.5: Terrien15("PMSU near-IR type")
+  M5: Terrien15("Newton near-IR type")
+  sdM5: Eggen65
 
   I'm only considering this a tertiary standard as it has not been
   mentioned as a standard after Kirkpatrick91 (presumably the other
@@ -552,25 +561,27 @@ GJ 275.2A = LHS 229 (J0730+4811)
 
 GJ 285 = YZ CMi = LHS 1943 = LFT 547
  *M4V: Bidelman85(M4),Stephenson86(M4V:e),Henry94,Henry02
+  M4.5e: Boeshaar76(non-stan)
   M4.5V: Joy74,Hawley97
   M5: Basri06
 
-  I only list it as tertiary since the Hawley97 type differs from the
-  Henry94 and Henry02 types. V=11.19(HIP),
+  Very active star - its kinematics look relatively young (U,V,W =
+  -19.7, -22.6, -7.9) and it is fast-rotating (P=2.775d) according to
+  Newton16. I only list it as tertiary since the Hawley97 type differs
+  from the Henry94 and Henry02 types. V=11.19(HIP),
   V=11.120+-0.000(Mermilliod91), B-V=1.600+-0.020(HIP),
   U-B=1.087+-0.093(Mermilliod91), V-I=2.95+-0.02(HIP),
   J=6.581+-0.024(2MASS), Ks=5.698+-0.017(2MASS), V-J=4.609(HIP &
   2MASS) (V-Ks)=5.492(HIP & 2MASS), Young active M dwarf. Plx =
   167.88+-2.31 mas (vanLeeuwen07). Adopting Mermilliod91 Vmag and
   vanLeeuwen07 plx, I estimate absolute magnitude Mv = 12.245+-0.030
-  mag. M_Ks= 6.823+-0.034(2MASS,vanLeeuwen07). Newton15 lists
-  this is a very metal-rich star: [Fe/H]=0.32, 0.53.
-  Teffs: 3306+-75K(Newton15). Star's kinematics look relatively young
-  (U,V,W = -19.7, -22.6, -7.9) and it is fast-rotating (P=2.775d) according
-  to Newton16. 
+  mag. M_Ks= 6.823+-0.034(2MASS,vanLeeuwen07). Newton15 lists this is
+  a very metal-rich star: [Fe/H]=0.32, 0.53.  Teffs:
+  3306+-75K(Newton15).
 
 GJ 299 = LHS 35 = Ross 619
  *M4V: Bidelman85(M4),Henry94,Henry02(M4.0V)
+  M4-4.5: Boeshaar76(non-stan)
   M4.5V: Hawley97,Kirkpatrick10
   M5V: Joy74,Zakhozhaj79-96
 
@@ -669,7 +680,7 @@ GJ 852A
 GJ 388 = AD Leo = Gam Leo C = BD+20_2465 = StKM 2-626 
   M2V: Stephenson86
  *M3V: Kirkpatrick94,Henry94,Hawley97,Newton14(stan)
-  M3.5V: Joy74(M3Ve),Bidelman85(M3.5)
+  M3.5Ve: Joy74(M3.5Ve),Boeshaar76(M3.5e,non-stan),Bidelman85(M3.5)
   M4Vae: Keenan85(M4V),Keenan99(non-stan)
   M4.5:V: JM53(non-stan)
   M5Ve: Vyssotsky56
@@ -697,6 +708,7 @@ GJ 1005AB = LHS 1047 = 2MASS J00152799-1608008
 
 GJ 896 AC = BD+19 5116 AC = EQ Peg A = LFT 1799 = LHS 3965
  *M3.5V: Henry94(J),Hawley97(A only),Henry02(J)
+  M4-e:: Boeshaar76(non-stan)
   M4V: Tamazian06,Joy74(M4Ve),KeenanMcNeil76(stan)
 
   Unresolved binary. Was the KeenanMcNeil76 M4V standard ("M4Ve"), but
@@ -806,4 +818,17 @@ GJ 206 =  Ross 42 = V998 Ori = StKM 2-413
 
   SB2. V=11.529+-0.013(Koen02), B-V=1.629+-0.018(Koen02), U-B=1.068+-0.038(Koen02),
   V-R=1.159+-0.009(Koen02), V-I=2.661+-0.008(Koen02).
+
+GJ 102 = LHS 1417 = 2MASS J02333717+2455392	
+  M4V: Bidelman85(M4),Reid95,Newton14(near-IR)
+  M4V(e): Riaz06
+ *M4+Ve: Boeshaar76(non-stan,"M4+e")
+  M4.5e: Lepine13
+  M4.5: Mann15
+  M5e: Gaidos14
+
+
+mu Her BC
+  M4V: JohnsonMorgan53(non-stan,"dM4")
+  
 

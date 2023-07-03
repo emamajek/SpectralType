@@ -77,7 +77,7 @@ Joy74 M2V stars appear to be approximately M1+V (~M1.2+-0.7 subtypes) on the Kir
 (B-V)(M2V) = 1.50   ; ter. stan. GJ 220
 (B-V)(M2V) = 1.500  ; median SIMBAD M2V d<25pc (N=93)
 (B-V)(M2V) = 1.503  ; sec. stan. GJ 382
-(B-V)(M2V) = 1.506  ; nearby M2V star GJ 393 (8 pc sample)
+(B-V)(M2V) = 1.506  ; ter. stan. GJ 393 
 (B-V)(M2V) = 1.508  ; prim. stan. GJ 411
 (B-V)(M2V) = 1.510 (+-0.007 sem,+-0.038 stdev); med. for 23 ARICNS M2V stars
 <B-V>(M2V) =  1.51  ; ShayaOlling11
@@ -138,8 +138,8 @@ Joy74 M2V stars appear to be approximately M1+V (~M1.2+-0.7 subtypes) on the Kir
 <V-K>(M2V)  =  4.27 ; Johnson66
 (V-Ks)(M2V) = 4.284 ; exemplar GJ 2066
 (V-K)(M2V)  =  4.3  ; Hawley96
+(V-Ks)(M2V) = 4.344 ; ter. stan. GJ 393
 (V-Ks)(M2V) = 4.397 ; ter. stan. GJ 9113A = Ross 370A 
-(V-Ks)(M2V) =  4.344 ; deprecated stan. GJ 393
 => adopt (V-Ks)(M2V) = 4.23  *** [updated 11/1/2019]
 => adopt (U-B)(M2V)  = 1.169
 => adopt (V-I)(M2V)  = 2.166
@@ -291,7 +291,7 @@ Mv(M2V) =   12.04 ; Habets81
 Mv(M2V) =  11.06 ; ter. stan. GJ 752B
 Mv(M2V) =   10.56 ; Henry94
 Mv(M2V) =  10.47 ; pri. stan. GJ 411
-Mv(M2V) =  10.41 ; deprecated stan. GJ 393
+Mv(M2V) =  10.41 ; ter. stan. GJ 393
 Mv(M2V) =  10.32 ; deprecated stan. GJ 22A (Dieterich21)
 Mv(M2V) ~  10.3  ; (see Fig. 9 of Riedel+2010 for V-K=4.23)
 Mv(M2V) =  10.30 ; ter. stan. GJ 2066
@@ -337,7 +337,7 @@ M_G(M2V) =   10.5414 ; Ross 695
 
 M_Ks(M2V) = 6.81  ; ter. stan. GJ 745B
 M_Ks(M2V) =  6.19  ; deprecated stan. GJ 22A (Dieterich21)
-M_Ks(M2V) =  6.065 ; depreciated stan. GJ 393
+M_Ks(M2V) =  6.065 ; ter. stan. GJ 393
 M_Ks(M2V) =  6.07  ; V-K=4.23, Mv=10.30
 M_Ks(M2V) = 6.013 ; ter. stan. GJ 2066 
 M_Ks(M2V) =  5.999 ; V-K=4.23 => JohnsonApps2009 calibration
@@ -430,7 +430,7 @@ GJ 382 = BD-03 2870 = DO 2904
   M0: Lee47
   M1V: Stephenson86
   M1.5V: Hawley97
- *M2V: Vyssotky56,Boeshaar76,Cowley82,Kirkpatrick91(pri),Henry02,Gaidos14(M2)
+ *M2V: Vyssotky56,Boeshaar76(non-stan),Cowley82,Kirkpatrick91(pri),Henry02,Gaidos14(M2)
   M2+V: GrayNstars(stan)
 
   V=9.26(HIP), V=9.263+-0.019(Mermilliod91), B-V=1.487+-0.016(HIP),
@@ -547,13 +547,10 @@ GJ 9113A = Ross 370A = HIP 15220 A = LHS 1522 = GJ 130.1A = 2MASS J03161381+5810
   6.566 = 4.397.  GaiaDR3: G=10.019066+-0.002785, Bp-Rp=2.242061,
   Bp-G=1.166979, G-Rp=1.075082.  Mv=10.30, M_G=9.35, M_Ks=5.90.
 
-
-# Deprecated Standards
-
 GJ 393 = LHS 2272 = Ross 446
   M1/2V: Stephenson86
   M1.5V: Rojo03
- *M2V: Vyssotsky46,Lee47,Bidelman85,Henry94(Kirkpatrick12),Henry02,Bonfils13
+ *M2V: Vyssotsky46,Lee47,Boeshaar76(non-stan),Bidelman85,Henry94(Kirkpatrick12),Henry02,Bonfils13
   M2.2V: Mann15
   M2.5V: Joy74,Jenkins09,GomesdaSilva12
 
@@ -562,6 +559,8 @@ GJ 393 = LHS 2272 = Ross 446
   H=5.605+-0.033(2MASS), Ks=5.311+-0.023(2MASS), V-Ks=4.344.
   plx=141.50+-2.22mas(vanLeeuwen07) => Mv = 10.409+-0.035,
   M_Ks=6.065+-0.041. [Fe/H]=-0.22(Neves13).
+
+# Deprecated Standards
 
 GJ 806 = LHS 3577 = G 209-41
   M1V: Luyten79(M1)
@@ -599,12 +598,12 @@ GJ 15A = BD+43_44A = GX And = HD 1326A
 GJ 526 = HD 119850 = StKM 2-980 = LHS 47
   M1: Gaidos14
   M1.4: Mann15
- *M1.5V: Bidelman85(M1.5),Henry94,Hawley97,Henry02(stan)
+ *M1.5V: Boeshaar76(non-stan),Bidelman85(M1.5),Henry94,Hawley97,Henry02(stan)
   M2V: Keenan85,Keenan88,Keenan89,GrayNstars,Newton14(near-IR)
   M3V: Joy74,Stephenson86
 
-  Reasonable agreement between Henry, Hawley, and Mann, although
-  notably Keenan and Newton place the type 0.5 later.
+  Reasonable agreement between Boeshaar, Henry, Hawley, and Mann,
+  although notably Keenan and Newton place the type 0.5 later.
   (B-V)=1.448+-0.017(Mermilliod91), V=8.460+-0.014(Mermilliod91),
   (U-B)=1.099+-0.023(Mermilliod91). 2MASS photometry, only K band is
   flagged as A quality: Ks=4.415+-0.017(2MASS). V-Ks = 8.460 - 4.415 =
@@ -707,7 +706,7 @@ GJ 176 = HD 285968 = Ross 38 = LHS 196 = HIP 21932 = LTT 11495 = 2MASS J04425581
   Mann15: fbol = (1.254+-0.017)e-11 W/m2 (=> mbol = 8.257+-0.015
   IAU2015 scale) => BCv = mbol - V = 8.257 - 9.945 = -1.688. 
 
-# Other
+# Other Stars
 
 MK43 lists "S 3389" as a M2V standard - indeed their only M dwarf
 standard. Skiff was unable to track down which star this was. It is
@@ -720,6 +719,7 @@ GJ 867A = FK Aqr = HD 214479
   M1: Bidelman85,Herbig65(M1e)
   M1.5: Reid95
  *M2V: Vyssotksy52,Joy74(M2Ve),Torres06,Gaidos14(M2),Davison14(M2.0)
+  M4-e: Boeshaar76(non-stan)
 
   Note that the types are for unresolved light of pair (AC). GJ867A is
   a SB, and part of quadruple system, with "BD" being M3.5
@@ -743,8 +743,6 @@ GJ 1 = HIP 439 = LHS 1 = HD 225213 = G 267-25 = NLTT 134 = Gaia DR3 230696520256
   ~M2-2.5V), adopting BCv=-1.62 for M2V => Mbol=8.75, logL=-1.605
   (most similar to ~M2.5V).
 
-  
-
 GJ 9113B = Ross 370B = LHS 1523 = HIP 15220 B
   M2: Bidelman85,Gliese91
   M2.0V: Alonso-Floriano15("reference")
@@ -752,3 +750,10 @@ GJ 9113B = Ross 370B = LHS 1523 = HIP 15220 B
   4.88" binary.
   plx=73.5769+-0.0186mas(GaiaDR3). Only two published classifications.
   V(AB)=10.53(HIP). 
+
+GJ 143.3 = LHS 1554 = HIP 16445 = G 79-45 = G 5-43 = G 6-15 = NLTT 11134 = Gaia DR3 41840029505514496
+ *M2V: Reid95,Gaidos14(M2)
+  M2.5: Lepine13
+  sdM3: Eggen65
+  M3:: Boeshaar76(non-stan)
+

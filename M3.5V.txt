@@ -549,7 +549,7 @@ GJ 876 = LHS 530 = BD-15 6290 = G 156-57 = IL Aqr
   M3.7: Mann15 
   M4V: Mukai90,Hawley97,Gaidos14,Schweitzer19(dM4.0)
   M4.5V: Joy74
-  M5V: Vyssotsky52,Eggen65
+  M5V: Vyssotsky52,JM53(non-stan,"dM5"),Eggen65
 
   Deprecated standard, but retained as exemplar since it has has
   interferometric diameter (Rabus19) and is famous well-studied
@@ -576,17 +576,17 @@ GJ 876 = LHS 530 = BD-15 6290 = G 156-57 = IL Aqr
 
 GJ 873 = EV Lac = BD+43_4305
  *M3.5V: Bidelman85(M3.5),Kirkpatrick94(non-standard),Henry94,Hawley97,Henry02
-  M4.5Ve: Joy74
+  M4-e: Boeshaar76(non-stan)
   M4: Lee47 
+  M4.5Ve: Joy74
   M5Ve: Adams26
 
   I deprecate this as a standard (although it appears in Henry94 and
-  Henry02) as a standard as it is a very active BY Dra star and the
-  colors appear to be significantly bluer than the other M3.5V
-  standards (probably due to enhanced activity). Active, variable BY
-  Dra "flare" star, with V magnitude between B = 8.28 and 11.83 (GCVS,
-  Samus+2007-2013; also VSX). V=10.044+-0.052(Mermilliod91) for
-  component 1, unresolved
+  Henry02) as it is a very active BY Dra star and the colors appear to
+  be significantly bluer than the other M3.5V standards (probably due
+  to enhanced activity). Active, variable BY Dra "flare" star, with V
+  magnitude between B = 8.28 and 11.83 (GCVS, Samus+2007-2013; also
+  VSX). V=10.044+-0.052(Mermilliod91) for component 1, unresolved
   V=10.029+-0.042(Mermilliod91). B-V=1.412+-0.061(Mermilliod91) for
   component 1, unresolved B-V=1.374+-0.009(Mermilliod91).
   J=6.106+-0.030, H=5.554+-0.031, Ks=5.299+-0.024(2MASS).
@@ -620,8 +620,10 @@ GJ 251 = HD 265866 = Wolf 294 = G 087-012 = LHS 1879 = HIP 33226
   M4V: Stephenson86,Jenkins09
   M5: Roth51,Vyssotsky56
 
-  Boeshaar76's M3.5V standard, but changed to M3V by Kirkpatrick,
-  Henry, & Hawley.  B=11.609+-0.02(UCAC4), V=9.89(HIP),
+  Nice agreement as M3V by Kirkpatrick, Henry, & Hawley, however I
+  knock it down to secondary as Boeshaar had it as a M3.5V standard
+  (and the Boeshaar standards are supposedly the backbone of the
+  modern M dwarf system).  B=11.609+-0.02(UCAC4), V=9.89(HIP),
   V=9.938(Hauck90), V=9.938+-0.063(Mermilliod91), V=10.01(Gliese91),
   V=10.02(Weis93), V=10.03(Reid02), V=10.034+-0.08(UCAC4),
   V=10.170+-0.08(Droege07) B-V=1.57(Weis93),
@@ -641,7 +643,7 @@ GJ 251 = HD 265866 = Wolf 294 = G 087-012 = LHS 1879 = HIP 33226
 
 GJ 15B = BD+43_44B = Gmb 34B = LHS 4
  *M3.5V: GrayAtlas,Henry94,Kirkpatrick94,Hawley97,Henry02
-  M4V: Tamazian06
+  M4V: Boeshaar76(non-stan),Tamazian06
   M4+V: Boeshaar94(dM4+)
   M4.5Ve: Joy74
   M5V: Adams26
@@ -650,7 +652,7 @@ GJ 15B = BD+43_44B = Gmb 34B = LHS 4
 GJ 105B =
   M3Ve: Robertson84
  *M3.5V: Henry94,Henry02
-  M4V: Hawley97
+  M4V: Boeshaar76(non-stan,"M4:"),Hawley97
   M4.5V: Joy74
 
   I've only deprecated this as a standard as no one else seems to have
@@ -679,6 +681,7 @@ GJ 829 AB = Ross 775 = StKM 1-1903
 
 GJ 896 AC = BD+19 5116 AC = EQ Peg A = LFT 1799 = LHS 3965
  *M3.5V: Henry94(J),Hawley97(A only),Henry02(J)
+  M4-e:: Boeshaar76(non-stan)
   M4V: Tamazian06,Joy74(M4Ve),KeenanMcNeil76(stan)
 
   Unresolved binary. Was the KeenanMcNeil76 M4V standard ("M4Ve"), but
@@ -696,9 +699,10 @@ GJ 273 = BD+05_1668 = Luyten's star
   M3.8: Mann15
   M4V: Joy74,Boeshaar76(stan),Newton14(near-IR)
 
-  Kirkpatrick91 moved the subtype 0.5 earlier than Boeshaar76.  Teffs:
-  3280K(Lepine13), 3317+-60K(Mann15), 3322+-78K(Newton15) => median
-  Teff = 3317K. V=9.832+-0.019(Mermilliod91),
+  Kirkpatrick91 moved the subtype 0.5 earlier than Boeshaar76, and
+  Boeshaar had kept it consistent with Joy (M4) and Kuiper (M4+).
+  Teffs: 3280K(Lepine13), 3317+-60K(Mann15), 3322+-78K(Newton15) =>
+  median Teff = 3317K. V=9.832+-0.019(Mermilliod91),
   B-V=1.554+-0.006(Mermilliod91), Ks=4.857+-0.023(2MASS) => V-Ks =
   9.832 - 4.857 = 4.975. Rabus19: tetLD=0.783+-0.010,
   Fbol=(2.288+-0.118)e-8 erg/s/cm2 (=>mbol = 7.604+-0.056 IAU2015
@@ -721,7 +725,7 @@ GJ 860A = Kruger 60A = HD 239960 = BD+56_2783  = DO Cep (J2227+5741)
   860AB, and GJ 860 is unresolved in 2MASS. Significantly redder in
   B-V than GJ752A (B-V = 1.62 vs. 1.464, respectively).
 
-# Non-standards
+# Other Stars
 
 GJ 687 = HIP 86162 = BD+68_946 = DO 35853 = G 240-063 = LFT 1364 = LHS 450 
  *M3V: Adams35,Luyten79,Bidelman85,Henry94,Hawley97,Henry02
@@ -772,17 +776,16 @@ GJ 752A = HD 180617 = LHS 473 = Wolf 1055 = V1428 Aql = HIP 94761 (J1916+0510)
   3300K(Reid84), 3368K(Berger06#1), 3390K(Berger06#2), 3475K(Tsuji96),
   3343K(Casagrande08), 3789K(RojasAyala12) => median Teff ~ 3380 K.
 
-BD+4_4226 = DO 6166 = IRAS 19444+0420
+BD+04 4226 = DO 6166 = IRAS 19444+0420
   M3.5:V : JM53(non-standard)
   M1: Lee47
 
-  note that this is a V=9.6mag M-star with negligible p.m., later
+  Giant mistakenly classified as luminosity class "V" dwarf in
+  JohnsonMorgan53.  This is a V=9.6mag M-star with negligible p.m.,
+  and Gaia DR3 parallax of plx=0.9701+-0.0169mas(GaiaDR3) => later
   classified as a M1III. Pickles10 reports that the colors are
   consistent with M3III. V=10.070(Mermilliod91),
-  B-V=1.440(Mermilliod91). Gaia DR1 parallax = 0.45+-0.45, which ices
-  it as distant M giant, not M dwarf!
-
-# Other Stars
+  B-V=1.440(Mermilliod91).
 
 GJ 163 = HIP 19394 = L 229-91 = LHS 188 = L 229-91 = LPM 178 = NLTT 12693 = 2MASS J04091567-5322254
   M2.8+-0.5: Sebastian21
@@ -832,7 +835,19 @@ GJ 682 = HIP 86214
   3261+-86K(Muirhead18).  Masses: M=0.27Msun(Tuomi14),
   M=0.295+-0.005(Muirhead18).  logL=-2.0555+-0.1136(Paegert21).
   
+GJ 203 = LHS 1761 = HIP 25578 = G 102-3 = G 97-42 = Ross 41 = NLTT 15107 = Gaia DR3 3338097377577012480
+  M3.5V: Bidelman85(M3.5),Reid95,Henry02,Lepine13
+  M4--4e: Boeshaar76(non-stan).
+  M4V: Gaidos14(M4),Newton14(near-IR)
 
+  The Boeshaar76 type is written as intermediate between "M4-" and
+  "M4" with emission "e", i.e. probably "M3.75".
+
+GJ 486 = Wolf 437 = LHS 341
+  M3: Bidelman85
+  M3.5V: Lepine13(M3.5),Reid95
+  M4V: Boeshaar76(non-stan),Gaidos14(M4),Newton14(near-IR)
+  M4.5V: Joy74
 
 CU Cnc: Ribas03 presents a detailed study of the near-identical
 M3.5Ve+M3.5Ve binary CU Cnc: M_A = 0.4333+-0.0017 Msun, M_B =

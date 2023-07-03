@@ -11,10 +11,10 @@ If one looks at the cumulative distribution of absolute magnitudes M_G for stars
 catalog, the gap is sizeable (~0.29 mag) and bounded by: 
 M_G = 10.13 (GJ 251 M3V   standard; Teff=3448+-60K, R=0.358+-0.013Rsun, M=0.352+-0.035Msun; Mann15) and
 M_G = 10.42 (GJ 581 M2.5V standard; Teff=3395+-60K, R=0.311+-0.012Rsun, M=0.292+-0.029Msun; Mann15).
-JaoFeiden20 tags the gap at M_G ~ 10.3 and shows its color dependence (brighter at blue end, stretching approximately
-from (Bp-Rp=2.3,M_G=10.0) to (Bp-Rp=2.7,M_G=10.3). This 0.29 mag empty gap in M_G stands out among the 10pc
-sample as the 0.1 mag M_G bins brighter (10.03-10.13) and fainter (10.42-10.52) than those limits contain
-10 and 4 stars, respectively.
+JaoFeiden20 tags the gap at M_G ~ 10.3 and shows its color dependence (brighter at blue end, stretching
+approximately from (Bp-Rp=2.3,M_G=10.0) to (Bp-Rp=2.7,M_G=10.3). This 0.29 mag empty gap in M_G stands out
+among the 10pc sample as the 0.1 mag M_G bins brighter (10.03-10.13) and fainter (10.42-10.52) than those
+limits contain 10 and 4 stars, respectively.
 
 Note that Rabus19 points out a discontinuity in the region Teff=3200K-3340K where M dwarf
 radii 0.18 to 0.42 Rsun. M3V (mean Teff ~ 3440K) is just hotward of this region, although some
@@ -518,7 +518,8 @@ GJ 251 = HD 265866 = Wolf 294 = G 087-012 = LHS 1879 = HIP 33226
   M5: Roth51,Vyssotsky56
 
   Nice agreement as M3V by Kirkpatrick, Henry, & Hawley, however I
-  knock it down to secondary due to Boeshaar's M3.5V classification.
+  knock it down to secondary as Boeshaar had it as a M3.5V standard (and the Boeshaar standards
+  are supposedly the backbone of the modern M dwarf system).
   B=11.609+-0.02(UCAC4), V=9.89(HIP), V=9.938(Hauck90),
   V=9.938+-0.063(Mermilliod91), V=10.01(Gliese91), V=10.02(Weis93),
   V=10.03(Reid02), V=10.034+-0.08(UCAC4), V=10.170+-0.08(Droege07)
@@ -543,7 +544,7 @@ GJ 436 = Ross 905 = HIP 57087 = DO 14469 = G 120-068 = LHS 310 = NLTT 28288
   M0: Lee47
   M2V: Vyssotsky56,Stephenson86
   M2.5V: Hawley97,Reid04,Terrien15,Alonso-Floriano15
- *M3V: Boeshaar76,Bidelman85,Kirkpatrick91(pri),Henry02,RojasAyala12,Lepine13,Newton14,Gaidos14,Mann15
+ *M3V: Boeshaar76(non-stan),Bidelman85,Kirkpatrick91(pri),Henry02,RojasAyala12,Lepine13,Newton14,Gaidos14,Mann15
   M3.5V: Joy74
 
   Has hot Neptune transiting companion GJ 436b.
@@ -630,7 +631,7 @@ GJ 687 = HIP 86162 = BD+68_946 = DO 35853 = G 240-063 = LFT 1364 = LHS 450
 GJ 109 = LHS 1439 = NLTT 8817 = LTT 10844 = HIP 12781 = VX Ari = Ross 556 (J0233+2455)
   M2V: Vyssotsky56,Stephenson86
  *M3V: Lee47,Bidelman85,Henry94,Reid15,Henry02,Lurie13(M3),Newton14,Gaidos14(M3),Mann15(M3)
-  M3.5V: Joy74
+  M3.5V: Joy74,Boeshaar76(non-stan)
   M4: Luyten45
 
   Not considered a standard in Kirkpatrick91, but has been
@@ -650,8 +651,8 @@ GJ 109 = LHS 1439 = NLTT 8817 = LTT 10844 = HIP 12781 = VX Ari = Ross 556 (J0233
 # Deprecated Standards
 
 GJ 860A = Kruger 60A = HD 239960 = BD+56_2783  = DO Cep (J2227+5741) 
- *M3V: Adams26,Neckel58(M3),Christy69,Bidelman85,Kirkpatrick92PhD,Kirkpatrick94,Henry94,Hawley97,Henry02,Tamazian06,Kirkpatrick12(Kirkpatrick92), Royas-Ayala12(K-band,jointAB)
-  M3.5V: Joy74,KeenanMcNeil76(stan)
+ *M3V: Adams26,Neckel58(M3),Christy69,Bidelman85,Kirkpatrick92PhD,Kirkpatrick94,Henry94,Hawley97,Henry02,Tamazian06,Kirkpatrick12(Kirkpatrick92),Royas-Ayala12(K-band,jointAB)
+  M3.5V: Joy74,Boeshaar76(non-stan),KeenanMcNeil76(stan)
   M5: Nassau54
 
   Close binary (3.5"), may not be best choice of standard?  Only one
@@ -705,7 +706,7 @@ GJ 352 AB = LHS 2151 = LFT 656 = HIP 46706
   M2V: Vyssotsky43
   M2.5V: Walker83
  *M3V: Bidelman85(M3), Stephenson86, Kirkpatrick91(pri),Hawley97(for A only),Henry02(M3VJ)
-  M3+V: Boeshaar76
+  M3+V: Boeshaar76(non-stan)
 
   Unresolved binary: WDS reports sep 0.6" (epoch 1942) and 0.70"
   (epoch 2010), mag1=10.74, mag2=10.94. Hipparcos reports
@@ -815,9 +816,9 @@ G 5-43 = LHS 1554 = Gl 143.3 = CNS3 633 = 2MASS J03314712+1419194
 GJ 388 = AD Leo = Gam Leo C = BD+20_2465 = StKM 2-626 
   M2V: Stephenson86
  *M3V: Kirkpatrick94,Henry94,Hawley97,Newton14(stan)
-  M3.5V: Joy74(M3Ve),Bidelman85(M3.5)
-  M4Vae: Keenan85(M4V),Keenan99
-  M4.5:V: Johnson53
+  M3.5Ve: Joy74(M3.5Ve),Boeshaar76(M3.5e,non-stan),Bidelman85(M3.5)
+  M4Vae: Keenan85(M4V),Keenan99(non-stan)
+  M4.5:V: JM53(non-stan)
   M5Ve: Vyssotsky56
 
   Poor agreement among classifications, anywhere from M2 to
@@ -829,7 +830,7 @@ GJ 388 = AD Leo = Gam Leo C = BD+20_2465 = StKM 2-626
   B-V=1.544+-0.009(Mermilliod91), U-B=1.075+-0.019(Mermilliod91),
   J=5.449+-0.027(2MASS), H=4.843+-0.020(2MASS,flag=E),
   Ks=4.593+-0.017(2MASS). V-Ks=4.828(Mermilliod91,2MASS).
-
+  
 # Exemplars
 
 GJ 581 = Wolf 562 = LHS 394 = BD-7 4003 = LTT 6112 = MCC 159 = 2MASS J15192689-0743200
@@ -945,6 +946,17 @@ L 98-59 = TOI-175 = 2MASS J08180763-6818468 = NLTT 19357
   chromospheric activity (78+-13 days; Cloutier19, following
   Astudillo-Defru17), and my estimate using eROSITA X-rays (~71 days;
   following Wright11 calibration).
+
+GJ 754.1B = L 923-22 = LDS 678B = LP 692-15 = NLTT 47691 = 2MASS J19203346-0739435 = Gaia DR3 4201781696994082944
+  M2V: Cowley82(M2V:),Stephenson86
+  M2.5V: Reid95
+ *M3V: Luyten52(M3),Kirkpatrick11,Gaidos14(M3),Terrien15("PMSU near-IR type")
+  M3-3.5: Boeshaar76(non-stan)
+  M3.5: Terrien15("Newton near-IR type")
+  M5V: Eggen65
+  M6V: Oswalt88
+
+  Wide binary (27", LDS 678). 
 
 
 ###
