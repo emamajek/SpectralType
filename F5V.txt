@@ -174,6 +174,9 @@ and within 1 mag of the MS (N=237):
 (g-r)(F5V)   = 0.243 ; Bilir05 (B-V)=>(g-r) for B-V=0.44
 => adopt (g-r)(F5V) = 0.26 [updated 10/10/2020]
 
+(r-i)(F5V) = 0.030 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.254
+
+
 Teff(F5V) =  6432 K ; Boyajian12
 Teff(F5V) =  6440 K ; Schmidt-Kaler82
 Teff(F5V) =  6460 K ; Eclipsing binary V505 Per B (Southworth21)
@@ -242,18 +245,20 @@ Rad(F5V) =  1.2941 Rsun ; Eclipsing binary V505 Per A (Southworth21)
 Rad(F5V) =  1.2637 Rsun ; Eclipsing binary V505 Per B (Southworth21)
 => adopt Rad(F5V) = 1.473 Rsun [updated 9/26/2020]
 
-Mass(F5V) = 1.42 Msun ; pri. stan. HD 27524 (Hyad; Goldman13)
-Mass(F5V) = 1.38 Msun ; EEM Teff vs. Mass fit for binaries (Teff=6570K)
-Mass(F5V) = 1.36 Msun ; HenryMcCarthy93 calibration for Mv=3.4
-Mass(F5V) = 1.33 Msun ; Ekers18 ML calibration for logL=0.544
-Mass(F5V) = 1.33 Msun ; EEM logL vs. Mass fit for binaries (logL=0.544)
-Mass(F5V) = 1.31 Msun ; Bertelli09 solar tracks for Teff=6570K,logL=0.544
-Mass(F5V) = 1.30 Msun ; EEM Mv vs. Mass fit for binaries (Mv=3.4)
+Mass(F5V) =  1.42 Msun ; pri. stan. HD 27524 (Hyad; Goldman13)
+Mass(F5V) =  1.38 Msun ; EEM Teff vs. Mass fit for binaries (Teff=6570K)
+Mass(F5V) =  1.371 Msun ; HenryMcCarthy93 calibration for Mv=3.37
+Mass(F5V) =  1.346 Msun ; Ekers15 ML calibration for logL=0.556
+Mass(F5V) = 1.337 Msun ; Ekers18 ML calibration for logL=0.556
+Mass(F5V) =  1.336 Msun ; EEM logL vs. Mass fit for binaries (logL=0.556)
+Mass(F5V) =  1.317 Msun ; EEM Mv vs. Mass fit for binaries (Mv=3.37)
+Mass(F5V) = 1.305 Msun ; Fernandes21 ML calibration for logL=0.556
+Mass(F5V) = 1.303 Msun ; Bertelli09 solar tracks for Teff=6550K,logL=0.556
 Mass(F5V) =  1.2887 Msun ; Eclipsing binary V455 Aur A (Southworth21; ~1.8 Gyr)
 Mass(F5V) =  1.2745 Msun ; Eclipsing binary V505 Per A (Southworth21)
 Mass(F5V) = 1.27 Msun ; David15 F5 MS (rms=0.18 Msun; N=905)
 Mass(F5V) =  1.2577 Msun ; Eclipsing binary V505 Per B (Southworth21)
-=> adopt Mass(F5V) = 1.33 Msun [updated 12/29/2019]
+=> adopt Mass(F5V) = 1.31 Msun [updated 8/3/2023]
 
 logg(F5V) = 4.2626 dex ; Eclipsing binary V455 Aur A (Southworth21; ~1.8 Gyr)
 logg(F5V) = 4.3194 dex ; Eclipsing binary V505 Per A (Southworth21)
@@ -301,11 +306,12 @@ HD 27534 = HIP 20350 = BD+18_629 = SAO 93883 = Cl Melotte 25 36
 
 45 Boo = HD 134083 = HIP 73996 = HR 5634 = GJ 578
   F6V: Levato78
- *F5V: Roman49,Roman50,JM53,Abt68,Cowley74(stan),HoukStandard,Bidelman85(F5),Gray01,Gray03,GrayNstars
+ *F5V: Roman49,Roman50,JM53(stan),Abt68,Cowley74(stan),HoukStandard,Bidelman85(F5),Gray01,Gray03,GrayNstars
   F4V: Adams35
 
-  Closest to solar metallicity among the F5V standards.  Considered
-  part of Ursa Major Group (e.g. Marsden02)
+  One of two F5V standards in JohnsonMorgan53, with iot Peg.  Closest
+  to solar metallicity among the F5V standards.  Considered part of
+  Ursa Major Group (e.g. Marsden02)
   B-V=0.429+-0.006(HIP,Mermilliod91), V=4.93(HIP),
   V=4.930+-0.007(Mermilliod91), U-B=-0.029+-0.009(Mermilliod91),
   V-I=0.51+-0.05(HIP), dMv=+0.12, plx = 51.14+-0.31mas(HIP2), plx =
@@ -331,15 +337,16 @@ HD 210027 = iot Peg = 24 Peg = HIP 109176 = HR 8430 = GJ 848
   F3V: Adams35,Bidelman85(F3)
   F4V: Moore32(F4),Morgan38
   F4/5V: Bouigue59
- *F5V: MK43,JM53,DeVaucouleurs57,Garrison72(stan),Cowley74(stan),Gray01
+ *F5V: MK43,JM53(stan),DeVaucouleurs57,Garrison72(stan),Cowley74(stan),Gray01
   F5IV: Maury1897
   F6Va: Barry70
 
-  SB2, per = 10.2 day, mass ratio M2/M1 = 0.62, Mtot=2.27 Msun
-  (Agati15), hence M1 = 1.40, M2 = 0.87 Msun (hence companion is
-  probably ~K0V). B-V(HIP)=0.435, Vmag=3.77, Mv=3.42, dMv=+0.04,
-  par=85.1+-0.6 mas.  PASTEL median values: <Teff> = 6470K(N=12),
-  <logg> = 4.30(N=7), <[Fe/H]>=-0.15(N=9).
+  One of two F5V standards in JohnsonMorgan53, with 45 Boo. SB2, per =
+  10.2 day, mass ratio M2/M1 = 0.62, Mtot=2.27 Msun (Agati15), hence
+  M1 = 1.40, M2 = 0.87 Msun (hence companion is probably
+  ~K0V). B-V(HIP)=0.435, Vmag=3.77, Mv=3.42, dMv=+0.04, par=85.1+-0.6
+  mas.  PASTEL median values: <Teff> = 6470K(N=12), <logg> =
+  4.30(N=7), <[Fe/H]>=-0.15(N=9).
 
 # Variant Standard
 
@@ -362,7 +369,17 @@ Alf CMi = Procyon = HD 61421 = HR 2943 (J0739+0514)
   V=0.365+-0.009(Mermilliod91), B-V=0.421+-0.008(Mermilliod91),
   U-B=0.021+-0.017(Mermilliod91). fbol = (17.86+-0.89)e-6 erg/cm2/s (Aufdenberg05)
   => mbol=0.373+-0.054(IAU2015 scale). BCv = mbol - V = 0.373+-0.054 - 0.365+-0.009
-  = 0.008+-0.054. 
+  = 0.008+-0.054.
+
+# Exemplars
+
+HD 155078 = HR 6375
+  *F5V: Adams35,Cowley76,Harlan81
+   F5IV: Malaroda75
+
+   Approximately solar metallicity. PASTEL/Soubiran22 means:
+   Teff=6461+-41K, logg=4.05+-0.10, [Fe/H]=-0.02+-0.05.
+
 
 # Other Stars
 
@@ -372,6 +389,7 @@ RECONS list shows Procyon (J0739+0513) as the nearest F5IV-V star.
 
 *but* <B-V>(3 standards) ~ 0.43 , whereas 
               <B-V>(HIP) = 0.465!
+
 
 HD 76943 = 10 UMa
    F5V: JM53(non-stan)

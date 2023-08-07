@@ -45,8 +45,9 @@ GrayCorbally10 standard: kap Gem - G8III
 (H-Ks)(G8III) = 0.111 ; smoothed relation from giants in Skiff compendium w/i 15 deg of NGP, 2MASS photometry AAA flags
 => adopt (H-Ks)(G8III) = 0.111 [updated 10/30/2020]
 
-Teff(G8III) = 5110K ; eta Dra/HIP 80331 G8-IIIab Hekker07
-=> adopt Teff(G8III) = 5110K [updated 10/30/2020]
+Teff(G8III) = 5101 K ; Luck07 G8III median Teff for d<75pc (N=17)
+Teff(G8III) = 5110 K ; eta Dra/HIP 80331 G8-IIIab Hekker07
+=> adopt Teff(G8III) = 5100K [updated 6/28/2023]
 
 (B-V)(G8III) = 0.885 ; HIP 106481 G8III_Fe-0.5 1989ApJS...71..245K
 (B-V)(G8III) = 0.915 ; HIP 19780 G8IIIa: 1989ApJS...71..245K
@@ -57,11 +58,16 @@ Teff(G8III) = 5110K ; eta Dra/HIP 80331 G8-IIIab Hekker07
 => adopt (B-V)(G8III) = 0.92 [updated 10/30/2020]
 
 Mv(G8III) =  1.09 ; HIP 106481 G8III_Fe-0.5 1989ApJS...71..245K
+Mv(G8III) = 0.70 ; Luck07 G8III median Mv for d<75pc (N=17)
 Mv(G8III) =  0.46 ; HIP 81065 G8III 2006A&A...460..695T
 Mv(G8III) =  0.22 ; HIP 63608 G8III 2003AJ....126.2048G
 Mv(G8III) = -0.08 ; HIP 64962 G8IIIa 1989ApJS...71..245K
 Mv(G8III) = -0.15 ; HIP 19780 G8IIIa: 1989ApJS...71..245K
 Mv(G8III) = -1.07 ; HIP 54061 G8III 2003AJ....126.2048G
+=> adopt Mv(G8III) = 0.70 [updated 6/28/2023]
+
+logg(G8III) = 3.10 ; Luck07 G8III median logg for d<75pc (N=17)
+=> adopt logg(G8III) = 3.1 [updated 6/28/2023]
 
 # No standard
 
@@ -88,12 +94,18 @@ eps Vir = HR 4932 = HD 113226 (J1302+1057; V=2.83)
 
     Fairly good continuity in "G8III" or variant MK43=>MK73=>Keenan=>Gray
 
-# Standards
+# Other Standards
 
-71 Oph
+71 Oph 
     G8III: GrayCorbally10
 
-# Weak standards
+zet Lup = HD 134505 = HR 5649 = HIP 74395
+    G7III: Gray06
+   *G8III: Evans59,Ljunggren66,Houk78,Keenan89(stan)
+    G9IIIb: 1937AnHar.105...45H
+    K0III: 1955MmMtS..12....1W
+
+# Deprecated Standards
 
 eta Psc = HR 437 = HD 9270 (J0131+1520; V=3.6)
    *G7IIIa: Keenan80, Keenan88, Keenan89,Keenan99
@@ -122,3 +134,25 @@ HR 6791
    G8III: CN-1 CH-3: GrayNstars
 
 ### Gray03/06 G8III stars w/i 40 pc
+
+
+### Luck07 G8III stars w/i 75pc
+
+HIP     HD      HR      Mv      SpT     plx     Teff    logg    [Fe/H]
+43067	74918	3484 	0.11	G8III	14.38	5161 	3.08	-0.10
+105515	203387	8167 	0.20	G8III	15.13	5174 	3.16 	0.01
+37740	62345	2985 	0.35	G8IIIa	22.73	5101 	3.04 	0.03
+63608	113226	4932 	0.35	G8III	31.90	5145 	3.12 	0.13
+27483	38656	1995 	0.45	G8III	15.34	5021 	2.90	-0.09
+25247	35369	1784 	0.50	G8III	18.71	5036 	2.96	-0.14
+58948	104979	4608 	0.53	G8IIIa	19.08	4996 	2.86	-0.33
+87933	163993	6703 	0.62	G8III	24.12	5119 	3.19 	0.07
+74666	135722	5681 	0.70	G8III	27.94	4963 	2.73	-0.30
+52085	92214	4171 	0.72	G8III	14.52	5114 	3.13 	0.01
+20252	27348	1343 	0.73	G8III	14.42	5073 	3.10 	0.09
+3031	3546 	163 	0.80	G8III	19.34	5102 	2.80	-0.56
+35710	57264	2793 	0.86	G8III	13.90	4687 	2.55	-0.35
+46952	82635	3800 	0.94	G8III	18.52	5151 	3.18 	0.02
+24822	34559	1739 	0.95	G8III	15.83	5096 	3.17 	0.10
+104459	201381	8093 	1.02	G8III	19.93	5090 	3.20 	0.07
+106481	205435	8252 	1.09	G8III	26.20	5146 	3.16	-0.09

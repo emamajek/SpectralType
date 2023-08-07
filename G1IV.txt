@@ -36,21 +36,45 @@ Teff(G1IV) = 5824 K ; exemplar mu Cnc = HD 67228
 Teff(G1IV) = 5848 K ; exemplar bet Hyi 
 => adopt Teff(G1IV) = 5790 K [last updated 7/15/2017]
 
+logg(G1IV) = 3.78 ; deprecated standard zet Her 
+
 # Deprecated Standard
 
-zet Her = HD 150680 = HR 6212 
-  *G0IV: Maury1897,MK43,Stephenson69,Barry70(G0IVb,uv metals weak),Keenan80,Keenan89(stan),
+zet Her = HD 150680 = HR 6212 = HIP 81693 
+  *F9IV+G7V: Edwards76
+   G0IV: Maury1897,MK43,Stephenson69,Barry70(G0IVb,uv metals weak),Keenan80,Keenan89(stan),
    G0:   Bidelman85
    G0V:  Adams35
-   G2IV: Gray01
    G1IV: MK73(dagger),Abt81(standard)
-   G3IV: Houk88(lists as G1IV standard, but calls G3IV)
-   F9IV+G7V: Edwards76
+   G2IV: Gray01
+   G3IV: Houk88(standard)
 
-   1.5" binary. This star is what gives spectral types a bad name.
-   Struve54 calls companion K0V. PASTEL lists 15 published Teff
-   values: <Teff> = 5766 K.  11 published [Fe/H] values: <[Fe/H]> =
-   0.01.
+   1.5" binary. Morel01 presents detailed study of this binary, and
+   considers the primary a subgiant in the Hertzsprung gap "where the
+   star loci move rapidly". This star is what gives spectral types a
+   bad name: considered "standard" for G0IV, G1IV, and G3IV over the
+   years. It is clearly redder than eta Boo, which seems to have most
+   consistent use as G0IV standard.  HIP lists del(Hp)=2.68+-0.03. WDS
+   lists mag1=2.95, mag2=5.40, which appear to be from TYC2:
+   Vt(A)=2.952+-0.009, Vt(B)=5.400+-0.009, del(Vt)=2.448. ASCC lists
+   V(A)=2.844+-0.004, V(B)=5.308+-0.008. Struve54 calls companion
+   K0V. mass(A)=1.45Msun(Morel01), mass(B)=0.98Msun, age=3.387
+   Gyr(Morel01).  PASTEL/Soubiran22 lists values for unresolved zet
+   Her (most), zet Her A (few), zet Her B (based on single value), but
+   the value for B seems to be almost identical in Teff/logg to A, so
+   it is likely a misappropriated to B - probably best is the
+   unresolved value and assume it is for the primary: Teff=5759+-32K,
+   logg=3.78+-0.03, [Fe/H]=0.03+-0.02.  2MASS photometry is poor.
+   V(AB)=2.81(HIP), V(AB)=2.809+-0.010(Mermilliod91),
+   B-V=0.650+-0.011(HIP), B-V(AB)=0.643+-0.010(Mermilliod91),
+   V-I=0.70+-0.03(HIP). plx=93.32+-0.47mas(HIP2) =>
+   Mv(AB)=2.66. Assuming del(Hp) ~ del(V) => V(AB)=2.81 => V(A)=2.90,
+   V(B)=5.58. Assuming del(Vt) ~ del(V) => V(AB)=2.81 => V(A)=2.92,
+   V(B)=5.37.  Morel01 solution: B-V(A)=0.649+-0.088(Morel01),
+   V(A)=2.890+-0.033(Morel01), B-V(B)=0.81+-0.140(Morel01),
+   V(B)=5.556+-0.059(Morel01), Teff(A)=5820+-50K(Morel01),
+   Teff(B)=5300+-150K(Morel01). Adopting V(A)=2.89 and plx=93.32(HIP2)
+   => Mv=2.74.
 
 # Exemplars
 

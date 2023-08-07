@@ -168,6 +168,9 @@ and within 1 mag of the MS (N=172):
 (g-r)(F8V)   = 0.344 ; Bilir05 (B-V)=>(g-r) for B-V=0.530
 => adopt (g-r)(F8V) = 0.36 [updated 10/10/2020]
 
+(r-i)(F8V) = 0.073 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.298
+
+
 Teff(F8V) = 6070 K ; exemplar HD 203454 ([Fe/H] ~ -0.18)
 Teff(F8V) = 6096 K ; exemplar HD 221356 ([Fe/H] ~ -0.25)
 Teff(F8V) =  6112 K ; B-V=0.530 => Teff(Ramirez05)
@@ -243,17 +246,19 @@ Rad(F8V) =  1.282 Rsun ; Gray03/06 F8Vs median from TIC9/Stassun19 (N=26)
 Rad(F8V) = 1.2209 Rsun ; Teff=6180K, logL=0.292
 => adopt Rad(F8V) = 1.221 Rsun [updated 10/30/2020] 
 
-Mass(F8V) = 1.26  Msun ; pri. stan. HD 27808 (Hyad; Goldman13)
-Mass(F8V) = 1.256 Msun ; EEM Teff vs. Mass fit for binaries (Teff=6170K)
-Mass(F8V) = 1.223 Msun ; HenryMcCarthy93 calibration for Mv=4.0
-Mass(F8V) = 1.178 Msun ; EEM logL vs. Mass fit for binaries (logL=0.312)
-Mass(F8V) = 1.174 Msun ; Ekers18 ML calibration for logL=0.312
-Mass(F8V) = 1.156 Msun ; EEM Mv vs. Mass fit for binaries (Mv=4.0)
-Mass(F8V) = 1.136 Msun ; Bertelli09 solar tracks for Teff=6170K,logL=0.312
-Mass(F8V) = 1.119 Msun ; sec. stan. 36 UMa (Boyajian12)
-Mass(F8V) = 1.11  Msun ; sec. stan. 36 UMa (Ramirez12)
+Mass(F8V) =  1.26  Msun ; pri. stan. HD 27808 (Hyad; Goldman13)
+Mass(F8V) =  1.256 Msun ; EEM Teff vs. Mass fit for binaries (Teff=6170K)
+Mass(F8V) =  1.223 Msun ; HenryMcCarthy93 calibration for Mv=4.0
+Mass(F8V) = 1.169 Msun ; Ekers15 ML calibration for logL=0.292
+Mass(F8V) =  1.166 Msun ; EEM logL vs. Mass fit for binaries (logL=0.292)
+Mass(F8V) = 1.162 Msun ; Ekers18 ML calibration for logL=0.292
+Mass(F8V) =  1.156 Msun ; EEM Mv vs. Mass fit for binaries (Mv=4.0)
+Mass(F8V) = 1.151 Msun ; Fernandes21 calibration for logL=0.292
+Mass(F8V) = 1.137 Msun ; Bertelli09 solar tracks for Teff=6170K,logL=0.312
+Mass(F8V) =  1.119 Msun ; sec. stan. 36 UMa (Boyajian12)
+Mass(F8V) =  1.11  Msun ; sec. stan. 36 UMa (Ramirez12)
 Mass(F8V) =  1.09 Msun ; Habets81
-=> adopt Mass(F8V) = 1.18 Msun [updated 12/29/2019]
+=> adopt Mass(F8V) = 1.16 Msun [updated 8/3/2023]
 
 # No Standard
 
@@ -293,7 +298,7 @@ HD 90839 = 36 UMa = HR 4112 = HIP 51459 = GJ 395 (J1030+5558; V=4.82)
 # Tertiary Standard
 
 HD 9826 = ups And = 50 And = HR 458 = HIP 7513 = GJ 61
- *F8V: JM53(stan),Morgan53,Garrison72(stan),Cowley74(stan),Bidelman85(F8),Hoffleit91,Gray01
+ *F8V: JM53(stan),Morgan53,Ljunggren61,Garrison72(stan),Cowley74(stan),Bidelman85(F8),Hoffleit91,Gray01
   F8IV: MK43(stan)
   F9V: Barry70(F9Va),Abt09
   G0V: Adams35
@@ -312,7 +317,7 @@ HD 9826 = ups And = 50 And = HR 458 = HIP 7513 = GJ 61
 
 HD 102870 = bet Vir = HR 4540 = HIP 57757
  *F9V: Garrison72(stan),MK73(dagger),MorganAbt73,Cowley76(stan),HoukStandard,Garcia89,Kennedy83,Houk99
-  F8V: Morgan53,MK43
+  F8V: MK43,JohnsonMorgan53(stan),Morgan53
   F8IV-V: Gray01
 
   It appears to be much bluer than other F9Vs in Houk (although late
@@ -493,6 +498,9 @@ HD 30810
    F7V: Adams35(close pair)
   *F8V: 1940ApJ....91..256T,Treanor60,Christy69,Stocke91
    F9V: Abt08
+
+   Approximately solar metallicity. PASTEL/Soubiran22 means:
+   Teff=6110+-28K, logg=4.23+-0.09, [Fe/H]=-0.03+-0.04. 
 
 HD 143333 = HR 5954
    F7V: Adams35(F7IV/V),Gray06

@@ -135,6 +135,9 @@ and within 1 mag of the MS (N=95):
 (g-r)(F3V) = 0.187 ; Bilir05 (B-V)=>(g-r) for B-V=0.39
 => adopt (g-r)(F3V) = 0.21 [updated 10/10/2020]
 
+(r-i)(F3V) = 0.004 ; Jordi06 Pop I calib (Rc-Ic=0.228 =>r-i)
+
+
 Teff(F3V) =  6609 K ; Boyajian12
 Teff(F3V) =  6672 K ; B-V=0.389 => Teff(Saxner85)
 Teff(F3V) = 6680 K ; exemplar HD 106691
@@ -206,19 +209,21 @@ Rad(F3V) =  1.555 Rsun ; Eclipsing binary IT Cas A (Southworth23)
 Rad(F3V) =  1.551 Rsun ; Eclipsing binary IT Cas B (Southworth23) 
 => adopt Rad(F3V) = 1.578 Rsun [updated 9/26/2020]
 
-Mass(F3V) = 1.599 Msun ; Eclipsing binary ZZ Boo B (Southworth23; ~1.7 Gyr)
-Mass(F3V) = 1.5572 Msun ; Eclipsing binary ZZ Boo A (Southworth23; ~1.7 Gyr)
-Mass(F3V) = 1.535 Msun ; median mass for pri. stan. HD 26015
-Mass(F3V) = 1.47 Msun ; HenryMcCarthy93 calibration for Mv=3.0
-Mass(F3V) = 1.44 Msun ; EEM Teff vs. Mass fit for binaries (Teff=6750K)
-Mass(F3V) = 1.44 Msun ; Ekers18 ML calibration for logL=0.700
-Mass(F3V) = 1.44 Msun ; EEM logL vs. Mass fit for binaries (logL=0.700)
-Mass(F3V) = 1.41 Msun ; EEM Mv vs. Mass fit for binaries (Mv=3.0)
-Mass(F3V) = 1.41 Msun ; Bertelli09 solar tracks for Teff=6750,logL=0.70
-Mass(F3V) = 1.34 Msun ; David15 F3 MS (rms=0.23 Msun; N=605)
-Mass(F3V) = 1.324 Msun ; Eclipsing binary IT Cas A (Southworth23; ~2 Gyr)
-Mass(F3V) = 1.322 Msun ; Eclipsing binary IT Cas B (Southworth23; ~2 Gyr)
-=> adopt Mass(F3V) = 1.44 Msun [updated 12/29/2019]
+Mass(F3V) =  1.599 Msun ; Eclipsing binary ZZ Boo B (Southworth23; ~1.7 Gyr)
+Mass(F3V) =  1.5572 Msun ; Eclipsing binary ZZ Boo A (Southworth23; ~1.7 Gyr)
+Mass(F3V) =  1.535 Msun ; median mass for pri. stan. HD 26015
+Mass(F3V) =  1.448 Msun ; HenryMcCarthy93 calibration for Mv=3.08
+Mass(F3V) =  1.44  Msun ; EEM Teff vs. Mass fit for binaries (Teff=6750K)
+Mass(F3V) = 1.428 Msun ; Ekers15 ML calibration for logL=0.668
+Mass(F3V) = 1.419 Msun ; Ekers18 ML calibration for logL=0.668
+Mass(F3V) =  1.417 Msun ; EEM logL vs. Mass fit for binaries (logL=0.668)
+Mass(F3V) =  1.393 Msun ; EEM Mv vs. Mass fit for binaries (Mv=3.08)
+Mass(F3V) = 1.391 Msun ; Bertelli09 solar tracks for Teff=6750,logL=0.668
+Mass(F3V) = 1.375 Msun ; Fernandes21 ML calibration for logL=0.668
+Mass(F3V) = 1.34  Msun ; David15 F3 MS (rms=0.23 Msun; N=605)
+Mass(F3V) =  1.324 Msun ; Eclipsing binary IT Cas A (Southworth23; ~2 Gyr)
+Mass(F3V) =  1.322 Msun ; Eclipsing binary IT Cas B (Southworth23; ~2 Gyr)
+=> adopt Mass(F3V) = 1.40 Msun [updated 8/3/2023]
 
 logg(F3V) = 3.9550 ; Eclipsing binary ZZ Boo B (Southworth23; ~1.7 Gyr)
 logg(F3V) = 4.0016 ; Eclipsing binary ZZ Boo A (Southworth23; ~1.7 Gyr)
@@ -266,20 +271,20 @@ HD 26690 = 46 Tau = HR 1309 = HIP 19719
   F2V+F5V: WDS
   F2(V)+F3(V): Beavers80
   F2III: Wilson50
- *F3V: Johnson53,Slettebak55,Jaschek64,all),Morgan65(stan),Cowley74(stan)
+ *F3V: JohnsonMorgan53(stan),Slettebak55,Jaschek64,all),Morgan65(stan),Cowley74(stan)
   F3IV/V: Houk
   F3IV-V: Garrison72(stan)
   F4V: Barry70
 
   Varies F0-F4 in literature, but good agreement between Morgan, Houk,
-  Garrison. B-V(HIP)=0.366, V=5.29, Mv=2.49, delMv=-0.45,
-  par=27.52+-0.58 mas Morgan65 calls 46 Tau the F3V "Fundamental
-  Classification Standard".  WDS reports it as F2V+F5V binary with
-  0.1" separation, with magnitudes 5.7 and 6.7.  Soederhjelm99 reports
-  delta(mag)=0.91, Horsch08 reports delta(V)=0.99.  plx
-  =25.2041+-0.4328mas(GaiaDR2). V(AB)=5.29, so for delta(V)=0.99,
-  V(A)=5.66, V(B)=6.65, so Mv(A)=2.67, Mv(B)=3.66.  PASTEL shows only
-  one value: Teff=6695K(GaiaDR2), 6820K(Gray06),
+  Garrison. The only F3V standard in JohnsonMorgan53. B-V(HIP)=0.366,
+  V=5.29, Mv=2.49, delMv=-0.45, par=27.52+-0.58 mas Morgan65 calls 46
+  Tau the F3V "Fundamental Classification Standard".  WDS reports it
+  as F2V+F5V binary with 0.1" separation, with magnitudes 5.7 and 6.7.
+  Soederhjelm99 reports delta(mag)=0.91, Horsch08 reports
+  delta(V)=0.99.  plx =25.2041+-0.4328mas(GaiaDR2). V(AB)=5.29, so for
+  delta(V)=0.99, V(A)=5.66, V(B)=6.65, so Mv(A)=2.67, Mv(B)=3.66.
+  PASTEL shows only one value: Teff=6695K(GaiaDR2), 6820K(Gray06),
   6864+-80K(Casagrande11), 6925K(Marsakov95), 6950K(Suchkov03),
   6998+-238K(David15) => <Teff>=6895K.
 

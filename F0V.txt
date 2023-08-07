@@ -3,8 +3,8 @@ F0V
 Garrison94 lists HD 23585 as the F0V anchor type. MK73 does not
 list an F0V dagger type.
 
-What I would consider the modern MK system of F-type dwarf standards
-is reflected in Table 1a of Gray89
+The "modern" MK system of F-type dwarf standards is probably that
+reflected in Table 1a of Gray89
 (http://articles.adsabs.harvard.edu/full/1989AJ.....98.1049G).
 
 The HD catalog (Cannon18;
@@ -152,6 +152,9 @@ and within 1 mag of the MS (N=42):
 (g-r)(F0V)   = 0.080 ; Bilir05 (B-V)=>(g-r) for B-V=0.295
 => adopt (g-r)(F0V) = 0.10 [updated 10/10/2020]
 
+(r-i)(F0V) = -0.050 ; Jordi06 Pop I calib (Rc-Ic=0.173 =>r-i)
+
+
 Teff(F0V) = 6836 K ; exemplar HD 9919 = HR 463 = pi Psc (metal poor [Fe/H] ~ -0.5)
 Teff(F0V) =   6903 K ; Boyajian12
 Teff(F0V) =   7100 K ; Blackwell80
@@ -258,7 +261,7 @@ HD 23585 = Cl Melotte 22 1284 (Pleiad) = HII 1284
   hence dereddened (B-V)o = 0.257. GaiaDR2: plx= 7.3699+-0.0601mas.
   Mv = 2.59(Hauck97,GaiaDR2,Av=0.13).
 
-# Exemplar
+# Exemplars
 
 HD 195627 = HR 7848 = 2MASS J20353488-6034542 (V=4.8)
   *F0V: 1953AnHar.119....1H,DeVaucoleurs57,Houk75,Abt95,Gray06
@@ -295,7 +298,8 @@ HD 73161 = Cl* NGC 2632 Rg 190 = Cl* NGC 2632 S 19 = Cl* NGC 2632 KW 38
    7180K(Kunder17), 7187K(Stevens17), 7234K(Stassun18), 7350K(GaiaDR2)
    => <Teff>=7187K. plx = 2.7527+-0.1729mas(GaiaDR2) => 359.4+-22.4pc.
    Teff = 7254+-127K(Stassun19), logg=3.49+-0.10(Stassun19),
-   [M/H]=0.201+-0.014(Stassun19).
+   [M/H]=0.201+-0.014(Stassun19). Not in Soubiran22 PASTEL compendium
+   catalog.
 
 HD 9919 = HR 463 = pi Psc
    A5V: Adams35
@@ -313,7 +317,8 @@ HD 9919 = HR 463 = pi Psc
    6887+-48K(Zorec12), 6896+-129K(Stassun19), 7092K(Prugniel07#2) =>
    <Teff> = 6836K.  logg=4.05(Prugniel07,Balachandran90),
    logg=4.1944+-0.0885(Stassun19), logg=4.30(Prugniel07#2),
-   [Fe/H]=-0.20(Marsakov95), [Fe/H]=-0.47(Prugniel07#1,#2).
+   [Fe/H]=-0.20(Marsakov95), [Fe/H]=-0.47(Prugniel07#1,#2).  Not in
+   Soubiran22 PASTEL compendium catalog.
 
 HD 73798 = BW Cnc
   *F0Vn: Bidelman56,Rebeirot66(F0V),Abt86
@@ -348,22 +353,25 @@ HD 199124 = HR 8006 = HIP 103261 = EM Aqr
 # Deprecated Standards
 
 HD 58946 = rho Gem = HR 2852
-  F0V:  Maury89,JM53,Jaschek64,Morgan65,Cowley69(stan),Houk75(stan),Cowley74(stan),Jaschek78
+  F0V:  Maury89,JM53(stan),Jaschek64,Morgan65,Cowley69(stan),Houk75(stan),Cowley74(stan),Jaschek78
   F0V+: Gray89 (MgII 4481A sl wk)
   F0:   Cannon 
  *F1V:  Morgan71,Gray03
   F1mA9V: Garrison72(stan)
   F2-3VA S: Kennedy83 
 
+  rho Gem and gam Vir were the two F0V standards in JohnsonMorgan53.
   "A" is a spectroscopic binary (Worley96), so not ideal standard B-V
   = 0.316 (Mermilliod91).  No Houk type, lit. types disagree a bit,
   and it's spec binary.  But, Houk75 uses it as a F0V standard (from
   JM53), but after MK73 came out, they considered it "F1mA9".
   Morgan65 uses rho Gem as the F0V "fundamental classification
-  standard", but then Morgan71 calls its F1V. Arg!!! PASTEL: median
-  Teff = 6913K.
+  standard", but then Morgan71 calls its F1V. Arg!!! Too much use as
+  F0V standard to take seriously as F1V standard. Median Teff = 6913K
+  (N=8 PASTEL).  Not in Soubiran22 PASTEL compendium.
 
 HD 110379 [=A]/ HD 110380 [=B] = gam Vir AB = Porrima
+  A7V: Penich81
   F0V: MK43(stan),JM53(stan),Cowley69(stan),Cowley74(stan)
   F0V+F0V: Adams35,Slettebak63,Levato72
   F0s+F0s: Bidelman85
@@ -372,17 +380,17 @@ HD 110379 [=A]/ HD 110380 [=B] = gam Vir AB = Porrima
   F1V: Keenan89,Houk99
   F1IV-V: Malaroda75
   F2V: Gray03(A+B)
-  A7V: Penich81
 
-  One of the original MK43 F0V standards (with eps Cep), then dumped
+  One of the original MK43 F0V standards (with eps Cep), and one of
+  the two F0V standards in JohnsonMorgan53 (with rho Gem), then dumped
   in 1970s.  Literature ranges from A7V to F2V, i.e. not the best
   standard nearly equal mass binary. Nearly equal brightness (del(Hp)
-  = 0.05(HIP) ~ delV) binary (~3"). Soubiran16 PASTEL compendium has mix
-  of values for A and B. 
-  <Teff> = 6960K(N=13), <logg> = 4.20(N=9), <[Fe/H]> = -0.07(N=9).
+  = 0.05(HIP) ~ delV) binary (~3"). Soubiran16 PASTEL compendium has
+  mix of values for A and B.  <Teff> = 6960K(N=13), <logg> =
+  4.20(N=9), <[Fe/H]> = -0.07(N=9).
 
 HD 211336 = eps Cep = HR 8494 = HIP 109857 
- *F0IV: JM53,Jaschek64(most),Barry70,Ortega83,Abt95
+ *F0IV: JM53(stan),Jaschek64(most),Barry70,Ortega83,Abt95
   F0V: MK43
   F0V Sr II: Gray01
   F0: Maury1897,Cannon
@@ -393,7 +401,7 @@ HD 211336 = eps Cep = HR 8494 = HIP 109857
   II". Virtually everyone agrees on "F0" subtype. All post-JM53
   consider it "IV".
   
-HD 112412 = Alf CVn B ("ft") = HIP 63121 = alf01 CVn = 
+HD 112412 = alf CVn B ("ft") = alf01 CVn = HIP 63121 
   F0V: JM53,Slettebak63,Cowley69(stan),Cowley74(stan),Gahm83
  *F1V: Abt84,GrayGarrison89
   F2V: Gray03,Bidelman85(F2)

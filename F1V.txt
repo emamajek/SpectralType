@@ -1,9 +1,7 @@
 F1V
 
 Garrison94 does not list an F1V anchor standard, and MK73 does list an F1V 
-dagger standard.
-
-37 UMa appears to be the best F1V standard available.
+dagger standard. However, 37 UMa appears to be the best F1V standard available.
 
 Houk/Michigan classifications: Only 3 stars were classified F1V in
 Houk's Michigan Spectral Catalogues (HD 29875, 40136, 110379). Two
@@ -104,6 +102,9 @@ and within 1 mag of the MS (N=6):
 (g-r)(F1V) = 0.145 ; Covey07 intepr F0V-F2V
 (g-r)(F1V) = 0.119 ; Bilir05 (B-V)=>(g-r) for B-V=0.33
 => adopt (g-r)(F1V) = 0.14 [updated 10/10/2020]
+
+(r-i)(F1V) = -0.030 ; Jordi06 Pop I calib (Rc-Ic=0.193 =>r-i)
+
 
 Teff(F1V) =  6798 K ; Boyajian12
 Teff(F1V) =  6869 K ; B-V=0.334 => Teff(Saxner85)
@@ -223,21 +224,23 @@ HD 91480 = 37 UMa = HR 4141 (V=5.2)
 
 # Deprecated Standard
 
-HD 58946 = rho Gem 
-  F0V:  JM53,Jaschek64,Morgan65,Jaschek78
+HD 58946 = rho Gem = HR 2852
+  F0V:  Maury89,JM53(stan),Jaschek64,Morgan65,Cowley69(stan),Houk75(stan),Cowley74(stan),Jaschek78
   F0V+: Gray89 (MgII 4481A sl wk)
   F0:   Cannon 
-  F1V:  Morgan71,Gray03
+ *F1V:  Morgan71,Gray03
   F1mA9V: Garrison72(stan)
   F2-3VA S: Kennedy83 
 
-  "A" is a spectroscopic binary (Worley96), so not an ideal standard.
-  B-V = 0.316 (Mermilliod91).  No Houk type, literature types disagree
-  a bit, and it is a spectroscopic binary. Morgan65 uses rho Gem as
-  the F0V "fundamental classification standard"... but then Morgan71
-  calls its F1V. Too much use as F0V standard to take seriously as F1V
-  standard. Median Teff = 6913K (N=8 PASTEL).  Not in Soubiran22
-  PASTEL compendium.
+  rho Gem and gam Vir were the two F0V standards in JohnsonMorgan53.
+  "A" is a spectroscopic binary (Worley96), so not ideal standard B-V
+  = 0.316 (Mermilliod91).  No Houk type, lit. types disagree a bit,
+  and it's spec binary.  But, Houk75 uses it as a F0V standard (from
+  JM53), but after MK73 came out, they considered it "F1mA9".
+  Morgan65 uses rho Gem as the F0V "fundamental classification
+  standard", but then Morgan71 calls its F1V. Arg!!! Too much use as
+  F0V standard to take seriously as F1V standard. Median Teff = 6913K
+  (N=8 PASTEL).  Not in Soubiran22 PASTEL compendium.
 
 # Exemplars
 
@@ -340,4 +343,11 @@ HD 25867 = HR 1269 = BD+28_619
    ApCrEuSr: 1978A&AS...35...75C 
    F0: 1954ArA.....1..425A 
   *F1V: Adams35, Cowley74, Jaschek80(F1V delta Del?)
+
+alf CVn B = alf01 CVn = HR 4914 = HD 112412 = HIP 63121 = Gaia DR3 1517698613271954304
+   kA9hF4mF3: Abt95
+   F0V: JohnsonMorgan53(non-stan),Slettebak59(F0),Slettebak63,Gahn83,Loden83
+  *F1V: Abt84,GrayGarrison89
+   F2V: Bidelman85(F2),Gray03
+   F5IV: Deutch47
 

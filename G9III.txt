@@ -50,21 +50,31 @@ GrayCorbally10 standard: del Phe - G9III
 => adopt (B-V)(G9III)  = 0.95 [updated 10/30/2020]
 => adopt (B-V)(G9IIIb) = 1.02 [updated 10/30/2020]
 
-Mv(G9III) = 0.39 ; HIP 37740 G9III 2008ApJS..176..216A
-Mv(G9III) = 0.46 ; HIP 20885 G9III_Fe-0.5 1989ApJS...71..245K
+Mv(G9III) = 0.39  ; HIP 37740 G9III 2008ApJS..176..216A
+Mv(G9III) =  0.45 ; HIP 6186 G9III 
+Mv(G9III) = 0.46  ; HIP 20885 G9III_Fe-0.5 1989ApJS...71..245K
 Mv(G9III) =  0.57 ; HIP 93683 G9IIIb 1989ApJS...71..245K
-Mv(G9III) = 0.69 ; HIP 94376 G9III 1989ApJS...71..245K
+Mv(G9III) =  0.67 ; HIP 114971 G9III
+Mv(G9III) = 0.685 ; Luck07 G9III median d<75pc (N=6)
+Mv(G9III) = 0.69  ; HIP 94376 G9III 1989ApJS...71..245K
+Mv(G9III) =  0.70 ; HIP 61935 G9III
+Mv(G9III) =  0.71 ; HIP 7294 G9IIIb 
 Mv(G9III) =  0.75 ; HIP 37504 G9IIIb 1989ApJS...71..245K
-Mv(G9III) = 0.83 ; HIP 51233 G9III 1989ApJS...71..245K
-Mv(G9III) = 0.90 ; HIP 94779 G9III 1989ApJS...71..245K
-Mv(G9III) = 0.93 ; HIP 42911 G9III 2008ApJS..176..216A
+Mv(G9III) = 0.83  ; HIP 51233 G9III 1989ApJS...71..245K
+Mv(G9III) =  0.84 ; HIP 90135 G9IIIb 
+Mv(G9III) = 0.90  ; HIP 94779 G9III 1989ApJS...71..245K
+Mv(G9III) = 0.93  ; HIP 42911 G9III 2008ApJS..176..216A
 Mv(G9III) =  0.94 ; HIP 36046 G9IIIb 1989ApJS...71..245K
-Mv(G9III) = 1.08 ; HIP 37826 G9III 2008ApJS..176..216A
-=> adopt Mv(G9IIIb) = 0.8 [updated 10/30/2020]
-=> adopt Mv(G9III)  = 0.8 [updated 10/30/2020]
+Mv(G9III) = 1.08  ; HIP 37826 G9III 2008ApJS..176..216A
+=> adopt Mv(G9III)  = 0.70 [updated 6/28/2023]
+=> adopt Mv(G9IIIb) = 0.75 [updated 6/28/2023]
 
-Teff(G9III) = 4937K ; pri stan del Dra/HIP 94376 daSilva15
-=> adopt Teff(G9III) = 4940K [updated 10/30/2020]
+Teff(G9III) = 4937 K ; pri stan del Dra/HIP 94376 daSilva15
+Teff(G9III) = 4953 K ; Luck07 G9III d<75pc N=6 
+=> adopt Teff(G9III) = 4950K [updated 6/28/2023]
+
+logg(G9III) = 2.83 ; Luck07 G9III d<75pc N=6
+=> adopt logg(G9III) = 2.83 [updated 6/28/2023]
 
 # No standards
 
@@ -112,7 +122,7 @@ zet Hya = HR 3547 = HD 76294 (V=3.11)
 37 Com 
     G9III CH-2: GrayAtlas
 
-# Weak standard
+# Deprecated Standard
 
 bet LMi = HR 4100 = HD 90537 (V=4.20)
     G9IIIab: MK73(dagger),GrayCorbally10
@@ -145,5 +155,20 @@ del Crt = HD 98430
   *G9III_CH0.5: Keenan89
    K0III: Adams35,1955MmMtS..12....1W
 
+HR 3024 = HD 63295 = HIP 37504
+   G8IIIb: 1937AnHar.105...45H
+   G9III: Houk75(Garrison/Hagen type)
+  *G9IIIb: Keenan89(non-stan)
+   K0III: Houk75(Michigan type)
+   
 
 
+# Luck07 G9III stars w/i 75 pc
+
+HIP     HD      HR      Mv      SpT     plx     Teff    logg    [Fe/H]
+4906	6186 	294 	0.45	G9III	17.14	4955 	2.68	-0.24
+94376	180711	7310 	0.64	G9III	32.54	4952 	2.90	-0.08
+114971	219615	8852 	0.67	G9III:	24.92	5003 	2.83	-0.52
+37447	61935	2970 	0.70	G9III	22.61	4895 	2.83 	0.00
+7294	9408 	442 	0.71	G9IIIb	15.96	4900 	2.67	-0.22
+90135	169156	6884 	0.84	G9IIIb	17.08	5018 	2.98	-0.03

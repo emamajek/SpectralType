@@ -3,17 +3,18 @@ G0IV
 Garrison94 lists eta Boo (HD 121370 = HR 5235) as the G0IV anchor standard, the
 hottest subgiant standard on his list.
 
-MK43 standard:      eta Boo - G0IV
-     		    zet Her - G0IV 
-JM53 standards:     eta Boo - G0IV
-                    zet Her - G0IV
-Cowley76 standard:  eta Boo - G0IV
-MK78:               eta Boo - G0IV
-Houk88 standard:    eta Boo (= HD 121370) - G0IV [from JM53]
-Keenan89 standards: eta Boo (= HD 121370) - G0IV
-                    zet Her (= HD 150680) - G0IV 
-                    HD 160269 - G0IV-V 
-GrayAtlas standard: eta Boo - G0IV
+MK43 standard:       eta Boo - G0IV
+     		     zet Her - G0IV 
+JM53 standards:      eta Boo - G0IV
+                     zet Her - G0IV
+Cowley76 standard:   eta Boo - G0IV
+KeenanMcNeil76 stan: eta Boo - G0IV 
+MK78:                eta Boo - G0IV
+Houk88 standard:     eta Boo (= HD 121370) - G0IV [from JM53]
+Keenan89 standards:  eta Boo (= HD 121370) - G0IV
+                     zet Her (= HD 150680) - G0IV 
+                     HD 160269 - G0IV-V 
+GrayAtlas standard:  eta Boo - G0IV
 
 GrayNstars lists eta Boo as their G0IV DSO standard. But there is only
 one G0IV among the Gray03 and Gray06 papers (HIP 23831).
@@ -38,7 +39,7 @@ G<J-H>(G0IV)   = 0.249 (+-0.010 sem, +-0.051 stdev)
 <Bt-Vt>(G0IV) = 0.638 (+-0.021 sem, +-0.064 stdev)
 <V-Vt>(G0IV)  =-0.062 (+-0.003 sem, +-0.009 stdev)
 
-<Teff>(G0IV) = 6048 K ; pri. stan. eta Boo ([Fe/H]=+0.27)
+<Teff>(G0IV) = 6054 K ; pri. stan. eta Boo ([Fe/H]=+0.25)
 <Teff>(G0IV) = 5968 K ; non-stan. HD 147723
 <Teff>(G0IV) = 5944 K ; non-stan. HD 147722
 <Teff>(G0IV) = 5766 K ; sec. stan. zet Her ([Fe/H]=+0.01)
@@ -62,8 +63,9 @@ Mv(G0IV) = 3.107 ; HD 33093    plx= 26.93 mas,Vmag= 5.956
 Mv(G0IV) =  3.580 ; HD 155875   plx= 25.83 mas,Vmag= 6.52
 => adopt Mv(G0IV) = 2.89 mag [adopted 1/28/2022]
 
-logg(G0IV) = 3.80 ; pri. stan. eta Boo
-=> adopt logg(G0IV) = 3.80 [updated 1/28/2022]
+logg(G1IV) = 3.78 ; deprecated standard zet Her 
+logg(G0IV) = 3.81 ; pri. stan. eta Boo (Soubiran22/PASTEL)
+=> adopt logg(G0IV) = 3.8 [updated 7/5/2023]
 
  
 # No standards
@@ -76,7 +78,7 @@ eta Boo = HD 121370 = HR 5235  (J1354+1823)
    F7IV/V: Adams35
    F9: Bidelman85
    F9III: Morgan38
-  *G0IV: Maury1897,Keenan41,MK43,Barry70,Cowley76(stan),Jaschek78(JM53),Jaschek64(most),Keenan80,Keenan89,Gray01
+  *G0IV: Maury1897,Keenan41,MK43,Barry70,Cowley76(stan),KeenanMcNeil76(stan),Jaschek78(JM53),Jaschek64(most),Keenan80,Keenan89,Gray01
    G0: Cannon
 
    One of only four subgiant (IV) anchor standards (Garrison94): eta
@@ -86,35 +88,41 @@ eta Boo = HD 121370 = HR 5235  (J1354+1823)
    plx=87.75+-1.24mas(vanLeeuwen07), safely nearby and presumably
    unreddened. Revised HIP astrometry leads to => Mv=2.40, i.e. 1.94
    mag above MS. PASTEL compendium: <Teff> = 6048K(N=30),
-   <logg>=3.80(N=22), <[Fe/H]>=+0.27(N=22). 2MASS photometry is poor,
-   but there are plenty of ground-based near-IR mags reported (see
-   Gezari). Blackwell90 lists J=1.66 => M_J = 1.38+-0.03.
+   <logg>=3.80(N=22), <[Fe/H]>=+0.27(N=22). PASTEL/Soubiran22 means:
+   Teff=6054+-26K, logg=3.81+-0.04, [Fe/H]=+0.25+-0.01.  2MASS
+   photometry is poor, but there are plenty of ground-based near-IR
+   mags reported (see Gezari). Blackwell90 lists J=1.66 => M_J =
+   1.38+-0.03.
 
 # Deprecated Standard
 
 zet Her = HD 150680 = HR 6212 = HIP 81693 
+  *F9IV+G7V: Edwards76
    G0IV: Maury1897,MK43,Stephenson69,Barry70(G0IVb,uv metals weak),Keenan80,Keenan89(stan),
    G0:   Bidelman85
    G0V:  Adams35
-   G2IV: Gray01
    G1IV: MK73(dagger),Abt81(standard)
+   G2IV: Gray01
    G3IV: Houk88(standard)
-  *F9IV+G7V: Edwards76
 
    1.5" binary. Morel01 presents detailed study of this binary, and
    considers the primary a subgiant in the Hertzsprung gap "where the
    star loci move rapidly". This star is what gives spectral types a
    bad name: considered "standard" for G0IV, G1IV, and G3IV over the
    years. It is clearly redder than eta Boo, which seems to have most
-   consistent use as G0IV standard. 
-   HIP lists del(Hp)=2.68+-0.03. WDS lists mag1=2.95,
-   mag2=5.40, which appear to be from TYC2: Vt(A)=2.952+-0.009,
-   Vt(B)=5.400+-0.009, del(Vt)=2.448. ASCC lists V(A)=2.844+-0.004,
-   V(B)=5.308+-0.008. Struve54 calls companion K0V. PASTEL lists 15
-   published Teff values: <Teff> = 5766 K.  11 published [Fe/H]
-   values: <[Fe/H]>=0.01. 2MASS photometry is poor.  V(AB)=2.81(HIP),
-   V(AB)=2.809+-0.010(Mermilliod91), B-V=0.650+-0.011(HIP),
-   B-V(AB)=0.643+-0.010(Mermilliod91),
+   consistent use as G0IV standard.  HIP lists del(Hp)=2.68+-0.03. WDS
+   lists mag1=2.95, mag2=5.40, which appear to be from TYC2:
+   Vt(A)=2.952+-0.009, Vt(B)=5.400+-0.009, del(Vt)=2.448. ASCC lists
+   V(A)=2.844+-0.004, V(B)=5.308+-0.008. Struve54 calls companion
+   K0V. mass(A)=1.45Msun(Morel01), mass(B)=0.98Msun, age=3.387
+   Gyr(Morel01).  PASTEL/Soubiran22 lists values for unresolved zet
+   Her (most), zet Her A (few), zet Her B (based on single value), but
+   the value for B seems to be almost identical in Teff/logg to A, so
+   it is likely a misappropriated to B - probably best is the
+   unresolved value and assume it is for the primary: Teff=5759+-32K,
+   logg=3.78+-0.03, [Fe/H]=0.03+-0.02.  2MASS photometry is poor.
+   V(AB)=2.81(HIP), V(AB)=2.809+-0.010(Mermilliod91),
+   B-V=0.650+-0.011(HIP), B-V(AB)=0.643+-0.010(Mermilliod91),
    V-I=0.70+-0.03(HIP). plx=93.32+-0.47mas(HIP2) =>
    Mv(AB)=2.66. Assuming del(Hp) ~ del(V) => V(AB)=2.81 => V(A)=2.90,
    V(B)=5.58. Assuming del(Vt) ~ del(V) => V(AB)=2.81 => V(A)=2.92,

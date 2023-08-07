@@ -49,13 +49,13 @@ and within 1 mag of the MS (N=193):
 <B-K>(F6V)   = 1.730 (+-0.011 sem, +-0.110 stdev; N=204)
 
 (B-V)(F6V)   =   0.447 ; BakisEker22 
-(B-V)(F6V)   =  0.451 ; prim. stan. pi^3 Ori 
 (B-V)(F6V)   =   0.46 ; Morgan71
 (B-V)(F6V)   =   0.46 ; KenyonHartmann95
 (B-V)(F6V)   =   0.46 ; MorganAbt73
-(B-V)(F6V)   =  0.464 ; candidate stan. 38 Cas
+(B-V)(F6V)   = 0.46  ; prim. stan. pi^3 Ori 
+(B-V)(F6V)   = 0.464 ; exemplar 38 Cas
 (B-V)(F6V)   =   0.47 ; JohnsonMorgan53
-(B-V)(F6V)   =  0.470 ; exemplar HD 58855 = 22 Lyn ([Fe/H] ~ -0.3)
+(B-V)(F6V)   = 0.470 ; exemplar HD 58855 = 22 Lyn ([Fe/H] ~ -0.3)
 (B-V)(F6V)   =   0.48 ; Fitzgerald70
 (B-V)(F6V)   =   0.48 ; Strassmeier00
 <B-V>(F6V)   = 0.482 (+-0.003 sem, +-0.024 stdev); Gray01/03/06 (N=41)
@@ -146,18 +146,23 @@ and within 1 mag of the MS (N=193):
 (g-r)(F6V) = 0.28  ; Covey07
 => adopt (g-r)(F6V) = 0.29 [updated 10/10/2020]
 
-Teff(F6V) =  6268 K ; sec. stan. HD 142860 = gam Ser
+(r-i)(F6V) = 0.054 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.278
+
+
+Teff(F6V) =  6285 K ; sec. stan. HD 142860 = gam Ser ([Fe/H]=-0.18)
 Teff(F6V) =  6298 K ; exemplar 38 Cas
 Teff(F6V) =  6321 K ; Gray03/06 F6Vs median from TIC9/Stassun19 (N=23)
 Teff(F6V) =  6323 K ; mean photometric Teff
+Teff(F6V) =  6330 K ; exemplar 1 Eri ([Fe/H]=0.07)
 Teff(F6V) =  6343 K ; Boyajian12
+Teff(F6V) =  6349 K ; exemplar HD 58855 = 22 Lyn ([Fe/H]=-0.28)
 Teff(F6V) = 6352 K ; trend for [Fe/H]=0.0 from PASTEL [Fe/H] vs. Teff for Gray03/06 F6Vs
 Teff(F6V) =  6362 K ; median of 1037 published Teffs for F6V stars
-Teff(F6V) =  6369 K ; exemplar HD 58855 = 22 Lyn ([Fe/H] ~ -0.3)
 Teff(F6V) =  6400 K ; GrayCorbally09
 Teff(F6V) =  6400 K ; Habets81
 Teff(F6V) =  6412 K ; Teff from smoothed SpT(Teff) trend
-Teff(F6V) =  6424 K ; pri. stan pi^3 Ori median Teff (see below)
+Teff(F6V) =  6434 K ; exemplar HD 3158 = HR 140 ([Fe/H]=+0.03)
+Teff(F6V) =  6443 K ; pri. stan pi^3 Ori median Teff ([Fe/H]=+0.03)
 Teff(F6V) =  6582 +- 64 K ; vanBelle09
 => adopt Teff(F6V) = 6350 K (logT = 3.803) [update 9/26/2020]
 
@@ -202,18 +207,26 @@ Rad(F6V) =  1.329 Rsun ; Gray03/06 F6Vs median from TIC9/Stassun19 (N=23)
 Rad(F6V) =  1.318 Rsun ; Eclipsing binary V455 Aur B (Southworth21; ~1.8 Gyr)
 => adopt Rad(F6V) = 1.359 Rsun [updated 9/26/2020]
 
-Mass(F6V) = 1.31 Msun ; EEM Teff vs. Mass fit for binaries (Teff=6360K)
-Mass(F6V) = 1.29 Msun ; HenryMcCarthy93 calibration for Mv=3.7
-Mass(F6V) = 1.25 Msun ; Ekers18 ML calibration for logL=0.428
-Mass(F6V) = 1.25 Msun ; pri. stan. HD 30652 (Holmberg09)
-Mass(F6V) = 1.25 Msun ; EEM logL vs. Mass fit for binaries (logL=0.428)
-Mass(F6V) =  1.2316 Msun ; Eclipsing binary V455 Aur B (Southworth21; ~1.8 Gyr)
-Mass(F6V) = 1.22 Msun ; Bertelli09 solar tracks for Teff=6360K,logL=0.428
-Mass(F6V) = 1.22 Msun ; EEM Mv vs. Mass fit for binaries (Mv=3.7)
+Mass(F6V) =  1.31 Msun ; EEM Teff vs. Mass fit for binaries (Teff=6360K)
+Mass(F6V) =  1.29 Msun ; HenryMcCarthy93 calibration for Mv=3.7
+Mass(F6V) =  1.260 Msun ; Ekers15 ML calibration for logL=0.432
+Mass(F6V) =  1.253 Msun ; EEM logL vs. Mass fit for binaries (logL=0.432)
+Mass(F6V) = 1.252 Msun ; Ekers18 ML calibration for logL=0.432
+Mass(F6V) =  1.25 Msun ; pri. stan. HD 30652 (Holmberg09)
+Mass(F6V) = 1.2316 Msun ; Eclipsing binary V455 Aur B (Southworth21; ~1.8 Gyr)
+Mass(F6V) = 1.231 Msun ; Fernandes21 ML calibration for logL=0.432
+Mass(F6V) =  1.22 Msun ; EEM Mv vs. Mass fit for binaries (Mv=3.7)
+Mass(F6V) = 1.215 Msun ; Bertelli09 tracks for Teff=6350K, logL=0.432
 Mass(F6V) =  1.16 Msun ; Habets81
-=> adopt Mass(F6V) = 1.25 Msun [update 12/29/2019]
+=> adopt Mass(F6V) = 1.24 Msun [update 8/3/2023]
 
+logg(F6V) = 4.14 dex ; sec. stan. gam Ser
+logg(F6V) = 4.26 dex ; exemplar HD 3158 = HR 140
 logg(F6V) = 4.2887 dex ; Eclipsing binary V455 Aur B (Southworth21; ~1.8 Gyr)
+logg(F6V) = 4.29 dex ; exemplar 22 Lyn
+logg(F6V) = 4.30 dex ; pri. stan. pi03 Ori
+logg(F6V) = 4.36 dex ; exemplar 1 Eri
+=> adopt logg(F6V) = 4.29 [updated 8/3/2023]
 
 # No standard
 
@@ -221,18 +234,25 @@ MK78, Keenan85 & Corbally86 do not list a F6V standard
 
 # Anchor standard
 
-HD 30652 = pi^3 Ori = 1 Ori = HIP 22449 = HR 1543 = GJ 178
- *F6V: MK43,JM53,Morgan65,Morgan71,Garrison72(stan),MK73(dagger),MorganAbt73,Cowley74(stan),Gray89(stan),Garrison94,Garrison96
+HD 30652 = pi03 Ori = 1 Ori = HIP 22449 = HR 1543 = GJ 178
+ *F6V: MK43,JM53(stan),Morgan65,Morgan71,Garrison72(stan),MK73(dagger),MorganAbt73,Cowley74(stan),Gray89(stan),Garrison94,Garrison96
   F6V-IV: Gray01
 
   No Houk type.  Morgan65 calls pi3 Ori the F6V "fundamental
   classification standard". Garrison96 lists it as the only F6V star
-  among the brightest ~300 stars on the sky with
-  V<3.55mag. B-V(HIP)=0.484, B-V=0.451+-0.009(Mermilliod91),
-  U-B=-0.009+-0.014(Mermilliod91), V=3.187+-0.007(Mermilliod91),
-  Vmag=3.19, Mv=3.67, dMv=-0.03, par=124.6+-0.9 mas. PASTEL median
-  values: <Teff> = 6424K(N=20), <logg>=4.30(N=9), [Fe/H]>=+0.01(N=11).
-  Mass = 1.25 Msun (Holmberg09).
+  among the brightest ~300 stars on the sky with V<3.55mag. It is also
+  approximately solar metallicity.  B-V=0.448(Just08),
+  B-V=0.451+-0.009(Mermilliod91), B-V=0.455+-0.006(Cousins71),
+  B-V=0.46(Johnson66), B-V=0.474+-0.003(TYC), B-V=0.484+-0.003(HIP) =>
+  adopt B-V=0.46.  U-B=-0.009+-0.014(Mermilliod91),
+  U-B=-0.01(Johnson66), V-Rc=0.274(Just08), Rc-Ic=0.257(Just08),
+  V-Ic=0.531(Just08), V=3.184+-0.002(Hauck97),
+  V=3.187+-0.007(Mermilliod91), V=3.19(Johnson66),
+  b-y=0.298+-0.002(Hauck970, Mv=3.67, dMv=-0.03, par=124.6+-0.9
+  mas. Soubiran22/PASTEL means: Teff=6443+-14K, logg=4.30+-0.03,
+  [Fe/H]=0.03+-0.03. PASTEL median values: <Teff> = 6424K(N=20),
+  <logg>=4.30(N=9), [Fe/H]>=+0.01(N=11).  Mass = 1.25 Msun
+  (Holmberg09).
 
 # Secondary Standard
 
@@ -242,13 +262,12 @@ HD 142860 = gam Ser = HIP 78072 = HR 5933 = GJ 603
   F7VAB: Kennedy83
 
   B-V(HIP)=0.478, Vmag=3.85, Mv=3.59, dMv=-0.07, par=88.86+-0.18 mas.
-  PASTEL median values: <Teff> = 6268K(N=27), <logg> ~ 4.1,
-  <[Fe/H>~-0.2.
-
+  PASTEL/Soubiran22 mean: Teff=6285+-13K, logg=4.14+-0.03, [Fe/H]=-0.18+-0.01.
+  
 # Exemplar
 
 HD 9021 = 38 Cas = HR 427 
-  *F6V: Adams35, Cowley76, Cowley79, Abt09
+  *F6V: Adams35,Cowley76,Cowley79,Abt09
 
    Four published spectral classifications, all F6V. No Houk type (too
    far north). Not considered a standard in any literature, but there
@@ -268,7 +287,9 @@ HD 9021 = 38 Cas = HR 427
    composition dwarf. V=4.465+-0.007(Mermilliod91),
    B-V=0.479+-0.011(Mermilliod91),
    U-B=0.000+-0.015(Mermilliod91). PASTEL values: <Teff>=6231K(N=5),
-   <[Fe/H]> = 0.05(N=4), logg=4.50(N=4). plx = 70.7449 0.4515 mas
+   <[Fe/H]> = 0.05(N=4), logg=4.50(N=4). PASTEL/Soubiran22 means:
+   Teff=6330+-52K, logg=4.36+-0.09, [Fe/H]=0.07+-0.05.
+   plx = 70.7449 0.4515 mas
    (GaiaDR2), plx = 70.32 1.83 mas (HIP2). Mv =
    3.713+-0.016(Mermilliod91,GaiaDR2). Note that color and absolute
    magnitude is very close to mean for other F6Vs.
@@ -284,15 +305,23 @@ HD 58855 = 22 Lyn = HR 2849 = HIP 36439
    5.35 = -0.126. 2MASS photometry is
    poor. plx=49.0145+-0.1406mas(GaiaEDR3),
    plx=49.41+-0.36mas(HIP2). E(b-y)=0.01(Gray01). PASTEL compendium:
-   <Teff> = 6369K(N=7), <logg>=4.315(N=6), <[Fe/H]>=-0.30(N=6).  Mv =
+   <Teff> = 6369K(N=7), <logg>=4.315(N=6), <[Fe/H]>=-0.30(N=6).
+   PASTEL/Soubiran22 means: Teff=6349+-25K, logg=4.29+-0.04, [Fe/H]=-0.28+-0.03. 
 
-HD 3158 = HR 140 
+HD 3158 = HR 140 = GJ 9017 = GJ 22.2 = HIP 2711 = 2MASS J00342781-5222236
    F3IV-V: Malaroda75
   *F6V: 1953AnHar.119....1H,Houk78,Gray06
+
+   Soubiran22/PASTEL means; Teff=6434+-28K, logg=4.26+-0.05, [Fe/H]=0.03+-0.03.
+   plx=38.8246+-0.0466mas(GaiaDR3). 
 
 HD 149837 = HR 6177 = HIP 8165
    F2III-IV: Malaroda75
   *F6V: 1953AnHar.119....1H,Houk75,Gray06
+
+   Not in Soubiran22/PASTEL catalog.
+
+
   
 
 # Deprecated Standards
@@ -329,6 +358,13 @@ Note that these stars all have B-V ~ 0.48, but <Teff> varies by 200K !
 Morgan65 classified five F6V Hyads: HD 27483, 27534, 27848, 28406, 28483.
 
 HD 28406 (Hyad) was called F6V by Treanor60, Morgan65, Kenyon94, & Gray01
+
+HD 181327
+   F5/6V: Houk75
+  *F6V: 1953AnHar.119....1H,Torres06,Pecaut13
+
+   pre-MS? 
+
 
 PASTEL Teffs & metallicities for Gray0(clipped <1980 values)
 [Fe/H]   Teff   eFe/H ID#         bibcode 

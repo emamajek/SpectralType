@@ -191,7 +191,8 @@ to be somewhat redder than that for the other standards.
 (Bp-Rp)(G2V) =  0.8081  ; sec. stan. 18_Sco (GaiaDR2)
 (Bp-Rp)(G2V) = 0.8070 ; solar twin HD 88072 = HIP 49756 (GaiaDR3)
 (Bp-Rp)(G2V) =  0.867   ; Evans18 trend for V-I= 0.710 
-=> adopt (Bp-Rp)(G2V) = 0.815 [updated 11/22/2020]
+=> adopt (Bp-Rp)(G2V) = 0.815 [updated 11/22/2020] (GaiaDR2)
+=> adopt (Bp-Rp)(G2V) = 0.813 [updated 7/15/2023] (GaiaDR3)
 
 (Bp-G)(G2V) = 0.3188   ; solar twin HD 88072 = HIP 49756 (GaiaDR3)
 (Bp-G)(G2V) = 0.3182   ; solar twin HD 101364 = HIP 56948 (GaiaDR3) 
@@ -210,7 +211,8 @@ to be somewhat redder than that for the other standards.
 (Bp-G)(G2V) =  0.3637  ; HD_76151 (GaiaDR2)
 (Bp-G)(G2V) =  0.365   ; color trend for B-V=0.65
 (Bp-G)(G2V) =  0.3720  ; 18_Sco (GaiaDR2)
-=> adopt (Bp-G)(G2V) = 0.349 [updated 11/22/2020]
+=> adopt (Bp-G)(G2V) = 0.349 [updated 11/22/2020] (GaiaDR2)
+=> adopt (Bp-G)(G2V) = 0.324 [updated 7/16/2023] (GaiaDR3)
 
 (G-Rp)(G2V)  =  0.4361  ; sec. stan. 18_Sco (GaiaDR2)
 (G-Rp)(G2V)  =  0.462  ; solar twin HD 88072 = HIP 49756 (GaiaDR2) 
@@ -228,7 +230,8 @@ to be somewhat redder than that for the other standards.
 (G-Rp)(G2V)  = 0.490  ; Sun synthetic GaiaDR3 (Gaia Collaboration+Creevey+22)
 (G-Rp)(G2V)  = 0.4959 ; ter. stan. HD 76151 = HR 3538 (GaiaDR3)
 (G-Rp)(G2V)  = 0.4976 ; solar twin HD 124523 = HIP 69645 (GaiaDR3)
-=> adopt (G-Rp)(G2V) = 0.466 [updated 11/22/2020]
+=> adopt (G-Rp)(G2V) = 0.466 [updated 11/22/2020] (GaiaDR2)
+=> adopt (G-Rp)(G2V) = 0.490 [updated 7/16/2023] (GaiaDR3)
 
 (V-Rc)(G2V) =  0.334 ; HIP 9829 (Koen10)
 (V-Rc)(G2V) =  0.348 ; HIP 15442 (Koen10)
@@ -247,7 +250,7 @@ to be somewhat redder than that for the other standards.
 (V-Ic)(G2V) =  0.71 ; solar twin HD 9986 = HIP 7585 (from Gray03)
 (V-Ic)(G2V) = 0.710 ; trend B-V vs V-Ic for B-V=0.650
 => adopt (V-Ic)(G2V)  = 0.705 [updated 1/15/2023]
-=> adopt (Rc-Ic)(G2V) = 0.345 [updated 1/15/2023; V-Ic=0.705, V-Rc=0.36]G
+=> adopt (Rc-Ic)(G2V) = 0.345 [updated 1/15/2023; V-Ic=0.705, V-Rc=0.36]
 
 
 (Ks-W1)(G2V) = 0.061 ; EEM trend for d<30pc for B-V=0.65
@@ -276,6 +279,8 @@ to be somewhat redder than that for the other standards.
 (g-r)(G2V) = 0.474 ; Jordi06 (V-R)=>(g-r) for V-R=0.363
 (g-r)(G2V) = 0.479 ; Bilir05 (B-V)=>(g-r) for B-V=0.650
 => adopt (g-r)(G2V) = 0.476 [updated 10/10/2020]
+
+(r-i)(G2V) = 0.111 ; Jordi06 (Rc-Ic=0.345 => r-i)
 
 Teff(G2V) =   5710 K ; GrayCorbally94
 Teff(G2V) = 5748 K ; 23 Teffs for "G2 V" stars in Gray06
@@ -310,8 +315,27 @@ BCv(G2V) =  -0.34 mag ; Habets81
 so may recalibrate the other BC values
 => adopt BCv(G2V) = -0.085 mag [last updated 8/29/2019]
 
-Note that Bakis & Eker (2022; https://arxiv.org/abs/2208.04110) recently list values for G2V stars BCv(G2V)=+0.078, Teff(G2V)=5888K, and (B-V)o=0.543, all of which appear to be severely at odds with real values for G2V stars like the Sun. Real Sun-like G2V stars have (B-V) ~ +0.65 (see tabluated values for G2V standards and solar twins above), and the typical Teff for G2V standard stars and solar twins is unsurprisingly that of the Sun (~5772K; again, see compilation of G2V standards and solar twins above).  Their BCv(G2V) value appears to be off by ~0.16 mag if used in conjunction with IAU 2015 scale, and would lead to systematically incorrect bolometric luminosities. The Bakis & Eker BCv(G2V) value, when combined with the equation for BC values (BC_band = Mbol - M_band) and the IAU 2015 Resolution nominal Sun
-values (absolute Mbol=4.74, apparent mbol=-26.832) would lead to *predictions* of the Sun's absolute Johnson V magnitude to be Mv = 4.662 (= 4.74 - 0.078 = Mbol - BCv) and apparent Johnson V magnitude to be V = -26.91 (= -26.832 - 0.078 = mbol - BCv). Compare these predictions to the estimated solar values from Torres10/2010AJ....140.1158T (V_sun = -26.76+-0.03, Mv_sun = 4.81+-0.03), i.e. they are off by ~0.15 magnitude! So I would not recommend adopting the Bakis & Eker (2022) BCs at this time as they seem to have a large systematic (~0.15-0.16 mag) for Sun-like stars. 
+Note that Bakis & Eker (2022; https://arxiv.org/abs/2208.04110)
+recently list values for G2V stars BCv(G2V)=+0.078, Teff(G2V)=5888K,
+and (B-V)o=0.543, all of which appear to be severely at odds with real
+values for G2V stars like the Sun. Real Sun-like G2V stars have (B-V)
+~ +0.65 (see tabluated values for G2V standards and solar twins
+above), and the typical Teff for G2V standard stars and solar twins is
+unsurprisingly that of the Sun (~5772K; again, see compilation of G2V
+standards and solar twins above).  Their BCv(G2V) value appears to be
+off by ~0.16 mag if used in conjunction with IAU 2015 scale, and would
+lead to systematically incorrect bolometric luminosities. The Bakis &
+Eker BCv(G2V) value, when combined with the equation for BC values
+(BC_band = Mbol - M_band) and the IAU 2015 Resolution nominal Sun
+values (absolute Mbol=4.74, apparent mbol=-26.832) would lead to
+*predictions* of the Sun's absolute Johnson V magnitude to be Mv =
+4.662 (= 4.74 - 0.078 = Mbol - BCv) and apparent Johnson V magnitude
+to be V = -26.91 (= -26.832 - 0.078 = mbol - BCv). Compare these
+predictions to the estimated solar values from
+Torres10/2010AJ....140.1158T (V_sun = -26.76+-0.03, Mv_sun =
+4.81+-0.03), i.e. they are off by ~0.15 magnitude! So I would not
+recommend adopting the Bakis & Eker (2022) BCs at this time as they
+seem to have a large systematic (~0.15-0.16 mag) for Sun-like stars.
 
 M_G(G2V) =  3.9978  ; HD_76932_ G2VFe-1.8CH-1 plx=46.6872 mas (GaiaDR3)
 M_G(G2V) =  4.257   ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.466
@@ -352,16 +376,19 @@ logL(G2V) = 0.000 dex ; Sun
 Rad(G2V) = 1.012 Rsun ; logL = 0.010, Teff=5770K
 => adopt Rad(G2V) = 1.012 Rsun [updated 9/26/2020]
 
-Mass(G2V) = 1.009 Msun ; EEM fit to ML for logL=0.00
+Mass(G2V) =  1.009 Msun ; EEM fit to ML for logL=0.00
+Mass(G2V) = 1.005 Msun ; Fernandes21 calibration for logL=0.010
 Mass(G2V) = 1.003 Msun ; Eker18 ML calibration for logL=0.00
 Mass(G2V) = 1.00  Msun ; pri. stan. Sun
 Mass(G2V) =  0.986 Msun ; Habets81
-Mass(G2V) = 0.98  Msun ; sec. stan. 18 Sco
-=> adopt Mass(G2V) = 1.00 Msun [updated 9/26/2019]
+Mass(G2V) =  0.98  Msun ; sec. stan. 18 Sco
+=> adopt Mass(G2V) = 1.00 Msun [updated 8/3/2023]
 
 logg(G2V) = 4.47 ; N=23 loggs for Gray06 "G2 V" stars
 logg(G2V) = 4.44 ; Sun
 logg(G2V) = 4.43 ; pri. stan. 18 Sco (PASTEL/Soubiran22)
+logg(G2V) = 4.43 ; M=1.00Msun, R=1.012Rsun
+=> adopt logg(G2V) = 4.43 [updated 8/3/2023]
 
 ### No Standards
 
