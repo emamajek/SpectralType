@@ -211,6 +211,10 @@ within 1 mag of the main sequence (N=129):
 (g-r)(K5V) = 1.18  ; Covey07
 => adopt (g-r)(K5V) = 1.04 [updated 10/10/2020]
 
+(r-i)(K5V) =  0.354 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.582
+(r-i)(K5V) = 0.41 (+-0.07 rms) ; Cifuentes20
+=> adopt (r-i)(K5V) = 0.41 [updated 7/15/2023]
+
 Teff(K5V) =  4325 K ; deprecated standard HD 10436
 Teff(K5V) =  4329 K ; exemplar HD 113194 
 Teff(K5V) =  4340 K ; deprecated standard HD 154363 median Teff ([Fe/H] ~ -0.62)
@@ -230,10 +234,6 @@ Teff(K5V) = 4541 K ; exemplar HD 156026 median Teff [Fe/H] ~ -0.18
 Teff(K5V) = 4590 K ; sec. stan. HD 36003 median Teff [Fe/H]~ -0.1
 => adopt Teff(K5V) = 4440 K (logT = 3.647)  [last updated 8/29/2019]
 [EEM note 12/15/2020: primary standard 61 Cyg is metal poor, and although it is the anchor standard, its Teff is not representative of solar-ish K5Vs]
-
-logg(K5V) = 4.53 ; pri. stan. 61 Cyg A (see below). 
-logg(K5V) = 4.35 ; sec. stan. HD 36003 (see below).
-=> adopt logg(K5V) = 4.44 +- 0.1:
 
 Mv(K5V)  =    8.17 mag ; Henry94 
 Mv(K5V)  =    8.0  mag ; GrayCorbally09
@@ -301,12 +301,12 @@ logL(K5V) = -0.815+-0.028 ; pri. stan. 61 Cyg A (Kervalla08)
 => adopt logL(K5V) = -0.764 dex [last updated 4/9/2020]
 => adopt Mbol(K5V) =  6.650 mag [last updated 4/9/2020]
 
-Rad(K5V) = 0.661 +- 0.005 Rsun ; pri. stan. 61 Cyg A (Yee17)
-Rad(K5V) = 0.665 +- 0.005 Rsun ; pri. stan. 61 Cyg A (Kervalla08)
-Rad(K5V) = 0.6876+-0.0021 Rsun ; Boyajian12b (N=3)
+Rad(K5V) =  0.661 +- 0.005 Rsun ; pri. stan. 61 Cyg A (Yee17)
+Rad(K5V) =  0.665 +- 0.005 Rsun ; pri. stan. 61 Cyg A (Kervalla08)
+Rad(K5V) =  0.6876+-0.0021 Rsun ; Boyajian12b (N=3)
 Rad(K5V) = 0.7013         Rsun ; Teff=4440K, logL=-0.764
 Rad(K5V) = 0.703 +- 0.054 Rsun ; Cifuentes23
-Rad(K5V) = 0.743+-0.010   Rsun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
+Rad(K5V) =  0.743+-0.010   Rsun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
 => adopt Rad(K5V) = 0.701 Rsun [last updated 4/9/2020]
 
 Mass(K5V) =  0.721 Msun ; EEM Mv vs. Mass fit for binaries (Mv=7.4)
@@ -314,10 +314,16 @@ Mass(K5V) =  0.718 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.764)
 Mass(K5V) = 0.718+-0.057 Msun ; Cifuentes23
 Mass(K5V) = 0.716 Msun ; Eker18 calibration for logL=-0.764
 Mass(K5V) =  0.704 Msun ; Eker15 calibration for logL=-0.764
+Mass(K5V) = 0.696 Msun ; Chevalier23 calib for M_G=6.85
+Mass(K5V) = 0.695 Msun ; Fernandes21 ML calib for logL=0.695
 Mass(K5V) = 0.694 Msun ; Mann18 calib for M_Ks=4.397
 Mass(K5V) =  0.644+-0.012 Msun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
-=> adopt Mass(K5V) = 0.71 Msun [last updated 4/9/2020]
+=> adopt Mass(K5V) = 0.70 Msun [updated 8/3/2023]
 
+logg(K5V) =  4.35 ; sec. stan. HD 36003 (see below).
+logg(K5V) =  4.53 ; pri. stan. 61 Cyg A (see below). 
+logg(K5V) = 4.59 ; M=0.70Msun, R=0.701Rsun
+=> adopt logg(K5V) = 4.59 [updated 8/3/2023]
 
 # Anchor standard
 

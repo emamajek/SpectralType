@@ -123,6 +123,9 @@ within 1 mag of the main sequence (N=216):
 (g-r)(K0V) = 0.666 ; Bilir05 (B-V)=>(g-r) for B-V=0.816
 => adopt (g-r)(K0V) = 0.62 [updated 10/10/2020]
 
+(r-i)(K0V) = 0.164 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.39
+
+
 (G-V)(K0V) =  -0.248  ; exemplar HD 10780
 (G-V)(K0V) =  -0.245  ; exemplar 20 Crt = HR 4458 
 (G-V)(K0V) =  -0.230  ; exemplar 55 Cnc
@@ -234,22 +237,13 @@ M_G(K0V) =  5.629  ; SIMBAD d<20pc trend for V-Ks=1.953
 M_G(K0V) =  5.6445 ; anchor *_sig_Dra   K0V
 M_G(K0V) =  5.821  ; exemplar 20 Crt = HR 4458
 
-
 M_K(K0V) = 3.87 ; median N=23 K0V d<25pc
 
 logL(K0V) = -0.338 dex ; Mv=5.78, BCv=-0.195 => Mbol = 5.585
 => adopt logL(K0V) = -0.338 dex [updated 8/29/2020]
 => adopt Mbol(K0V) =  5.585 mag [updated 8/29/2020]
 
-Mass(K0V) = 0.888 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.76)
-Mass(K0V) = 0.879 Msun ; Eker18 calibration for logL=-0.330
-Mass(K0V) = 0.879+-0.017 Msun ; ecl. binary HS Aur B (Popper86) 
-Mass(K0V) = 0.865 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.330)
-Mass(K0V) = 0.865 Msun ; Eker15 calibration for logL=-0.330
-Mass(K0V) =  0.781 Msun ; Habets81
-=> adopt Mass(K0V) = 0.88 Msun [last updated 10/23/2019]
-
-Rad(K0V) = 0.873 +- 0.024 Rsun ; ecl. binary HS Aur B (Popper86) 
+Rad(K0V) =  0.873 +- 0.024 Rsun ; ecl. binary HS Aur B (Popper86) 
 Rad(K0V) = 0.831 +- 0.004 Rsun ; deprecated stan. HD 165341 = 70 Oph A (Yee17)
 Rad(K0V) = 0.813 Rsun ; Teff=5270K, logL=-0.338
 Rad(K0V) = 0.7956 +- 0.0076 Rsun ; Boyajian12b (N=5)
@@ -258,13 +252,23 @@ Rad(K0V) = 0.772 Rsun ; exemplar HD 149661 = 12 Oph
 Rad(K0V) = 0.759  +- 0.012 Rsun ; exemplar HD 149661 = 12 Oph (Yee17)
 => adopt Rad(K0V) = 0.813 Rsun [updated 8/29/2020]
 
-logg(K0V) =  4.40+-0.02 ; exemlar K0IV-V 55 Cnc = HD 75732
-logg(K0V) = 4.50+-0.20 ; sec. stan. HD 224618
-logg(K0V) = 4.51+-0.05 ; exemplar HD 284253 = Cl Melotte 25 21 
-logg(K0V) = 4.52+-0.02 ; pri. stan. sig Dra 
-logg(K0V) = 4.52+-0.02 ; exemplar HD 149661 = 12 Oph
-logg(K0V) = 4.60+-0.04 ; exemplar 20 Crt = HR 4458
-=> adopt logg(K0V) = 4.52 [updated 1/23/2023]
+Mass(K0V) =  0.888 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.76)
+Mass(K0V) = 0.876 Msun ; Eker18 calibration for logL=-0.338
+Mass(K0V) =  0.879+-0.017 Msun ; ecl. binary HS Aur B (Popper86) 
+Mass(K0V) =  0.862 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.338)
+Mass(K0V) =  0.862 Msun ; Eker15 calibration for logL=-0.338
+Mass(K0V) = 0.850 Msun ; Fernandes21 calibration for logL=-0.338
+Mass(K0V) =  0.781 Msun ; Habets81
+=> adopt Mass(K0V) = 0.86 Msun [last updated 10/23/2019]
+
+logg(K0V) =   4.40+-0.02 ; exemlar K0IV-V 55 Cnc = HD 75732
+logg(K0V) =  4.50+-0.20 ; sec. stan. HD 224618
+logg(K0V) =  4.51+-0.05 ; exemplar HD 284253 = Cl Melotte 25 21 
+logg(K0V) =  4.52+-0.02 ; pri. stan. sig Dra 
+logg(K0V) =  4.52+-0.02 ; exemplar HD 149661 = 12 Oph
+logg(K0V) = 4.56       ; M=0.88Msun, R=0.813Rsun
+logg(K0V) =  4.60+-0.04 ; exemplar 20 Crt = HR 4458
+=> adopt logg(K0V) = 4.56 [updated 8/3/2023]
 
 # Anchor Standard
 

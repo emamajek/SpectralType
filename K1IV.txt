@@ -8,6 +8,8 @@ MK43 standard:         gam Cep - K1IV [latest pure IV/subgiant standard]
 JM53 standard:         gam Cep - K1IV [latest subgiant standard]
 MK73 standard:         kap CrB - K1IVa 
      		       gam Cep - K1IV
+KeenanMcNeil76 stan:   kap CrB - K1IVa
+	       	       gam Cep - K1IV CN 1
 Turnshek85 standard:   kap CrB - K1IVa 
 Houk88 standard:       gam Cep (=HR 8974 = HD 222404) - K1IV [cites MK73]
 Keenan89 standard:     HD 165438 - K1IV 
@@ -51,6 +53,13 @@ For Hipparcos stars within 75pc with parallax S/N > 8 (N=6):
 (B-V)(K1IV) = 1.020(+-0.032 sem,+-0.074 stdev) ; SIMBAD median K0IV d<75pc, V<6.5(N=10)
 => adopt (B-V)(K1IV) = 1.00 [updated 2/3/2022]
 
+Teff(K1IV) =  4791 K ; sec. stan. 57 Vir [Fe/H]=-0.03
+Teff(K1IV) = 4825 K ; interpolation linear fit to Teff vs. [Fe/H] for 4 standards for [Fe/H]=0
+Teff(K1IV) =  4832 K ; pri. stan. gam Cep [Fe/H]=0.09 
+Teff(K1IV) =  4838 K ; pri. stan. kap CrB [Fe/H]=0.12
+Teff(K1IV) =  4916 K ; ter. stan. HD 165438 [Fe/H]=0.06
+=> adopt Teff(K1IV) = 4825 K [updated 7/6/2023]
+
 Mv(K1IV) = 2.01 ; fit to SIMBAD d<75pc IIIs for (B-V)=1.00 
 Mv(K1IV) =  2.25 ; exemplar HD 34642 = omi Col
 Mv(K1IV) =  2.34 ; sec. stan. 57 Vir = HD 115202
@@ -62,12 +71,19 @@ Mv(K1IV) =  2.90 ; quadratic trend G0IV-K2IV standards+exemplars (for K1IV)
 Mv(K1IV) =  2.97 ; ter. stan. HD 165438 = HR 6756
 => adopt Mv(K1IV) = 2.90 [updated 1/28/2022]
 
+logg(K1IV) = 2.96+-0.20 ; sec. stan. 57 Vir = HD 115202 
+logg(K1IV) = 3.17+-0.07 ; pri. stan. Gam Cep
+logg(K1IV) = 3.26+-0.03 ; pri. stan. kap CrB
+logg(K1IV) = 3.41+-0.09 ; ter. stan. HD 165438 = HR 6756
+=> adopt logg(K1IV) = 3.2 [updated 7/6/2023]
+
 # Primary Standards
 
 gam Cep = HD 222404 = HR 8974 (J2339+7737, V=3.2)
   K1III: Gray03
   K1III-IV_CN1: Keenan89
- *K1IV: MK43,Roman52(CN strong),JM53,Schmitt71,MK73,KeenanMcNeil76(stan)
+  K1IV_CN_1: KeenanMcNeil76(stan)
+ *K1IV: MK43,Roman52(CN strong),JM53,Schmitt71,MK73
   K0IV: Nassau57
 
   One of only four subgiant (IV) anchor standards (Garrison94): eta
@@ -76,7 +92,8 @@ gam Cep = HD 222404 = HR 8974 (J2339+7737, V=3.2)
   it as IV as its Mv is near the other IV standards.  One of the
   original 90 Mt. Wilson subgiants (Sandage16).  V=3.21(HIP),
   B-V=1.031+-0.010(HIP), V-I=0.99+-0.01(HIP).  plx=
-  73.8307+-0.3726mas(GaiaDR2) => Mv=2.55.
+  73.8307+-0.3726mas(GaiaDR2) => Mv=2.55.  Soubiran22/PASTEL mean:
+  Teff=4832+-31K, logg=3.17+-0.07, [Fe/H]=0.09+-0.02.
 
 kap CrB = HD 142091 = HIP 77655 (J1551+3541)
   G9: Bidelman85
@@ -87,7 +104,8 @@ kap CrB = HD 142091 = HIP 77655 (J1551+3541)
 
   One of the original 90 Mt. Wilson subgiants (Sandage16).
   V=4.79(HIP), B-V=0.996+-0.005(HIP), V-I=0.97+-0.03(HIP).
-  plx=33.3433+-0.0800mas(GaiaEDR3) => Mv=2.41.
+  plx=33.3433+-0.0800mas(GaiaEDR3) => Mv=2.41.  Soubiran22/PASTEL
+  mean: Teff=4838+-14K, logg=3.26+-0.03, [Fe/H]=0.12+-0.02.
 
 # Secondary standard
 
@@ -98,18 +116,20 @@ kap CrB = HD 142091 = HIP 77655 (J1551+3541)
  *K1IV-: Keenan89
   K1III: Houk88,Gray06
 
-  One of the original 90 Mt. Wilson subgiants (Sandage16).
-  Excellent agreement on subtype.
-  V=5.21(HIP), B-V=1.011+-0.033(HIP), V-I=1.02+-0.02(HIP)
-  plx=26.6876+-0.1078mas(GaiaEDR3) => Mv=2.34.
+  One of the original 90 Mt. Wilson subgiants (Sandage16).  Excellent
+  agreement on subtype.  V=5.21(HIP), B-V=1.011+-0.033(HIP),
+  V-I=1.02+-0.02(HIP) plx=26.6876+-0.1078mas(GaiaEDR3) => Mv=2.34.
+  Soubiran22/PASTEL mean: Teff=4791+-49K, logg=2.96+-0.20,
+  [Fe/H]=-0.03+-0.04.
 
 # Tertiary Standard
 
 HD 165438 = HR 6756 = HIP 88684 
- *K1IV: Adams35,Keenan89
+ *K1IV: Adams35,Keenan89(stan)
 
   V=5.74(HIP), B-V=0.968+-0.001(HIP), V-Ic=0.95+-0.00(HIP).
-  plx=27.9231+-0.0511mas(GaiaEDR3) => Mv=2.97. 
+  plx=27.9231+-0.0511mas(GaiaEDR3) => Mv=2.97.  Soubiran22/PASTEL
+  mean: Teff=4916+-25K, logg=3.41+-0.09, [Fe/H]=+0.06+-0.03.
 
 
 # Deprecated Standard

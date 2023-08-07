@@ -15,7 +15,7 @@ Wilson62 standards:   eps Eri (=HD 22049) - K2V [from JM53]
 	              HD 109011 - K2V [from JM53]
 Morgan65 standard:    eps Eri (=HD 22049) - K2V
 Houk75 standard:      HD 166620 - K2V (see discussion below; listed alf Ser, but probable typo)
-KeenanMcNeil76 stan.: eps Eri - K2V
+KeenanMcNeil76 stan.: eps Eri (=HD 22049) - K2V
 Keenan80 standard:    eps Eri (=HD 22049) - K2V
                       HD 109011 - K2V
 Keenan83 standard:    eps Eri (=HD 22049) - K2V
@@ -138,6 +138,9 @@ Skiff08 flags three stars as K2V MK standards, all from Keenan89: HD
 (g-r)(K2V) = 0.78  ; Covey07
 => adopt (g-r)(K2V) = 0.74 [updated 10/10/2020]
 
+(r-i)(K2V) = 0.219 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.445
+
+
 Teff(K2V) =   4900 K ; Schmidt-Kaler82
 Teff(K2V) =   4930 K ; Habets81
 Teff(K2V) =   4940 K ; GrayCorbally09
@@ -231,18 +234,6 @@ logL(K2V) = -0.49  dex ; pri. stan. HD 22049 = eps Eri (young <1 Gyr star)
 => adopt logL(K2V) = -0.428 dex [updated 9/26/2020]
 => adopt Mbol(K2V) =  5.810 mag [updated 9/26/2020]
 
-Mass(K2V) = 0.912+-0.013 Msun ; ecl. binary EPIC 219511354A in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
-Mass(K2V) = 0.847 Msun ; EEM Mv vs. Mass fit for binaries (Mv=6.17)
-Mass(K2V) = 0.834 Msun ; NO UMa (UMa member, dynamical mass, Kiefer18)
-Mass(K2V) = 0.8338+-0.0036 Msun ; ecl. binary ASAS_J045304-0700.4A (Helminiak11)
-Mass(K2V) = 0.831 Msun ; Eker18 calibration for logL=-0.468
-Mass(K2V) = 0.813 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.468)
-Mass(K2V) = 0.810 Msun ; Eker15 calibration for logL=-0.468
-Mass(K2V) = 0.7542+-0.0059 Msun ; ecl. binary V2154 Cyg B (BrightTorres17) [Fe/H]=-0.17, 2.2Gyr
-Mass(K2V) = 0.748 Msun ; Mann18 calib for M_Ks=4.058
-Mass(k2V) =  0.738 Msun ; Habets81
-=> adopt Mass(K2V) = 0.82 Msun [updated 10/23/2019]
-
 Rad(K2V) =  0.694 Rsun ; ter. stan. HD 4628 = HR 222
 Rad(K2V) =  0.695 +- 0.004 Rsun ; ter. stan. HD 4628 (Yee17)
 Rad(K2V) =  0.7152 +- 0.0006 Rsun ; Boyajian12b (N=2)
@@ -263,6 +254,22 @@ Rad(K2V) =  0.920 +- 0.016 Rsun ; EPIC 219511354A in Ruprecht147 [Fe/H]=+0.07+-0
 => adopt Rad(K2V) = 0.783 Rsun [updated 9/26/2020]
 (note: most of the standards have slightly smaller radii than the mean likely
 due to their subsolar metallicities)
+
+Mass(K2V) =  0.912+-0.013 Msun ; ecl. binary EPIC 219511354A in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
+Mass(K2V) =  0.847 Msun ; EEM Mv vs. Mass fit for binaries (Mv=6.17)
+Mass(K2V) =  0.834 Msun ; NO UMa (UMa member, dynamical mass, Kiefer18)
+Mass(K2V) =  0.8338+-0.0036 Msun ; ecl. binary ASAS_J045304-0700.4A (Helminiak11)
+Mass(K2V) = 0.845 Msun ; Eker18 calibration for logL=-0.428
+Mass(K2V) =  0.828 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.428)
+Mass(K2V) =  0.826 Msun ; Eker15 calibration for logL=-0.428
+Mass(K2V) = 0.814 Msun ; Fernandez21 ML calibration for logL=-0.428
+Mass(K2V) = 0.806+-0.031 Msun ; Mann18 calib for M_Ks=3.938 (unc. 3.8%)
+Mass(K2V) =  0.7542+-0.0059 Msun ; ecl. binary V2154 Cyg B (BrightTorres17) [Fe/H]=-0.17, 2.2Gyr
+Mass(k2V) =  0.738 Msun ; Habets81
+=> adopt Mass(K2V) = 0.82 Msun [updated 8/3/2023]
+
+logg(K2V) = 4.564 ; M=0.82Msun, R=0.783Rsun
+=> adopt logg(K2V) = 4.56 [updated 8/3/2023]
 
 # No standard
 
@@ -474,4 +481,5 @@ HD 192310 = HR 7722
   BSC, but most papers have it cooler. Notably near solar metallicity
   in PASTEL/Soubiran22: Teff = 5087+-11K, logg=4.48+-0.02,
   [Fe/H]=+0.03+-0.02.
+
 

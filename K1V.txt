@@ -89,7 +89,8 @@ Skiff08 flags one star as K1V MK standard: HD 10476 (K1V; Keenan89).
 (V-Ic)(K1V) =  0.919 ; HIP 79190 (Koen10)
 (V-Ic)(K1V) =  0.923 ; HIP 64457 (Koen10)
 (V-Ic)(K1V) =  0.926 ; HIP 98792 (Koen10)
-=> adopt (V-Ic)(K1V) = 0.905  [updated 1/15/2022]
+=> adopt (V-Ic)(K1V)  = 0.905 [updated 1/15/2022]
+=> adopt (Rc-Ic)(K1V) = 0.425 [updated 7/15/2023]
 
 (Ks-W1)(K1V) = 0.071 ; EEM trend for d<30pc for B-V=0.845
 => adopt (Ks-W1)(K1V) = 0.071 [updated 12/29/2019]
@@ -143,6 +144,9 @@ and within 1 mag of the main sequence (N=131):
 (g-r)(K1V) = 0.693 ; Bilir05 (B-V)=>(g-r) for B-V=0.840
 (g-r)(K1V) = 0.70  ; Covey07 interp K0V-K2V
 => adopt (g-r)(K1V) = 0.69 [updated 10/10/2020]
+
+(r-i)(K1V) = 0.199 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.425
+
 
 Teff(K1V) =  4966 +- 53 K  ; vanBelle09
 Teff(K1V) = 5042 K ; exemplar HD 42286 (metal poor [Fe/H] = -0.5)
@@ -223,12 +227,17 @@ Rad(K1V) = 0.797 Rsun ; Teff=5160K,  logL=-0.392
 Rad(K1V) = 0.757 +- 0.008 Rsun ; ecl. binary 1SWASP_J093010.78+533895.5A (Koo14)
 => adopt Rad(K1V) = 0.797 Rsun [updated 12/15/2020]
 
-Mass(K1V) = 0.873 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.9)
-Mass(K1V) = 0.864 Msun ; Eker18 ML calibration for logL=-0.372
-Mass(K1V) = 0.849 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.372)
-Mass(K1V) = 0.848 Msun ; Eker15 calibration for logL=-0.372
-Mass(K1V) = 0.766+-0.014 Msun ; ecl. binary 1SWASP_J093010.78+533895.5A (Koo14)
-=> adopt Mass(K1V) = 0.86 Msun [last updated 10/23/2019]
+Mass(K1V) =  0.873 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.9)
+Mass(K1V) = 0.857 Msun ; Eker18 ML calibration for logL=-0.392
+Mass(K1V) =  0.841 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.392)
+Mass(K1V) =  0.840 Msun ; Eker15 calibration for logL=-0.392
+Mass(K1V) = 0.828 Msun ; Fernandes21 calibration for logL=-0.392
+Mass(K1V) =  0.766+-0.014 Msun ; ecl. binary 1SWASP_J093010.78+533895.5A (Koo14)
+=> adopt Mass(K1V) = 0.84 Msun [last updated 8/3/2023]
+
+logg(K1V) = 4.570 ; M=0.86Msun, R=0.797Rsun
+=> adopt logg(K1V) = 4.57 [updated 8/3/2023]
+
 
 # No standard
 

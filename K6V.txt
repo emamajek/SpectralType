@@ -139,6 +139,10 @@ classifiers.
 (g-r)(K6V) = 1.26  ; Covey07 interp K5V-K7V
 => adopt (g-r)(K6V) = 1.14 [updated 10/10/2020]
 
+(r-i)(K6V) = 0.433 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.662
+(r-i)(K6V) = 0.505 ; Cifuentes20 (interp K5V-K7V)
+=> adopt (r-i)(K6V) = 0.505 [updated 7/15/2023]
+
 
 Teff(K6V) =  4444 K ; exemplar GJ 818 median
 Teff(K6V) = 4356 K ; pri. stan. GJ 529 (median, but metal rich!)
@@ -196,7 +200,10 @@ M_G(K6V) =  7.020 ; exemplar GJ 39
 M_G(K6V) =  7.027 ; exemplar HD 72928
 M_G(K6V) = 7.04  ; trend [Fe/H] vs. M_G for [Fe/H]=0.0
 M_G(K6V) =  7.102 ; exemplar GJ 249
-M_G(K6V) =  7.105 ; exemplar HIP 11739 = BD-20 470 
+M_G(K6V) =  7.105 ; exemplar HIP 11739 = BD-20 470
+
+[EEM 8/3/2023: note the ~0.1 mag offset between M_G values of standard and exemplars and
+what we adopt above - I still need to reconcile the Mv and G-V values with this]
  
 M_Ks(K6V) =  4.67 ; median K6V d<25pc N=34
 M_Ks(K6V) =  4.60 ; SIMBAD d<20pc trend for K dwarfs for V-Ks=3.08
@@ -227,17 +234,22 @@ logL(K6V) = -0.860 dex ; Mv=7.64, BCv=-0.75 => Mbol = 6.890
 => adopt Mbol(K6V) =  6.890 mag [updated 3/2/2021]
 
 Rad(K6V) = 0.76 +- 0.06 Rsun ; exemplar GJ 818 
-Rad(K6V) = 0.6756       Rsun ; logL=-0.852, Teff=4300K 
-=> adopt Rad(K6V) = 0.669 Rsun [updated 3/2/2021]
+Rad(K6V) = 0.6694       Rsun ; logL=-0.860, Teff=4300K 
+=> adopt Rad(K6V) = 0.669 Rsun [updated 8/3/2023]
 
 Mass(K6V) =  0.751 Msun ; Delfosse10 calibration for M_Ks=4.56
 Mass(K6V) =  0.691 Msun ; EEM Mv vs. Mass fit for binaries (Mv=7.64)
 Mass(K6V) =  0.690 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.860)
 Mass(K6V) = 0.683 Msun ; Eker18 calibration for logL=-0.86
 Mass(K6V) =  0.673 Msun ; Eker15 calibration for logL=-0.86
+Mass(K6V) = 0.672 Msun ; Chevalier23 calib for M_G=7.15
+Mass(K6V) = 0.665 Msun ; Fernandes21 ML calib for logL=-0.860
 Mass(K6V) = 0.663 Msun ; Mann18 calib for M_Ks=4.56
 Mass(K6V) =  0.647 Msun ; Habets81
-=> adopt Mass(K6V) = 0.68 Msun [updated 3/2/2021]
+=> adopt Mass(K6V) = 0.67 Msun [updated 8/3/2023]
+
+logg(K6V) = 4.613 ; for M=0.67Msun, R=0.669Rsun
+=> adopt logg(K6V) = 4.61 [updated 8/3/2023]
 
 
 # No Standard
