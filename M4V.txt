@@ -75,8 +75,10 @@ Kirkpatrick16 standard:  	GJ 402 (=Wolf 358) - M4V
 (V-R)(M4V)  = 1.23 ; Bessell91 "old disk"
 (V-R)(M4V)  = 1.216 ; pri. stan. GJ 402 
 
-(R-I)(M4V)  = 1.63 ; Bessell91 "old disk"
-(R-I)(M4V)  = 1.568 ; pri. stan. GJ 402
+(Rc-Ic)(M4V) = 1.63  ; Bessell91 "old disk"
+(Rc-Ic)(M4V) = 1.606 ; (Rc-Ic) trend from V-Ks=5.25
+(Rc-Ic)(M4V) = 1.568 ; pri. stan. GJ 402
+=> adopt (Rc-Ic)(M4V) = 1.60 [updated 7/15/2023]
 
 (G-J)(M4V)   = 2.733 ; Bentley18
 (G-Ks)(M4V)  = 3.585 ; Bentley18
@@ -210,8 +212,10 @@ due to slight metal richness. Adopt V-Ks=5.25.]
 
 (g-r)(M4V) = 1.48 ; Covey07
 
+(r-i)(M4V) = 1.360 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.60
 (r-i)(M4V) = 1.46  (+-0.15 rms) ; West08
 (r-i)(M4V) = 1.566 (+-0.05 rms) ; West05 fit for (V-Ic)=2.856
+=> adopt (r-i)(M4V) = 1.46 [updated 7/15/2023]
 
 
 (i-z)(M4V) = 0.79 (+-0.09; rms) ; West08
@@ -383,15 +387,17 @@ Mass(M4V) = 0.214 Msun ; Benedict16 calibration for Mv=12.61
 Mass(M4V) =  0.2245 Msun ; Eclipsing binary NGTS_J0002-29 B (Smith21; 115Myr;Blanco 1) [adopting M4V for 3231K]
 Mass(M4V) =  0.23519 Msun ; Eclipsing binary KOI-126 B (Yenawine23) [EEM adopts M4V based on Teff=3235K] 
 Mass(M4V) =  0.239 Msun ; Delfosse00 calibration for M_Ks=7.36
+Mass(M4V) = 0.240 Msun ; Chavlier23 calibration for M_G=11.21
 Mass(M4V) = 0.242 Msun ; Benedict16 calibration M_Ks=7.36
 Mass(M4V) = 0.244 Msun ; Mann18 calib for M_Ks=7.36
 Mass(M4V) = 0.309+-0.088 Msun ; Cifuentes23
 => adopt Mass(M4V) = 0.24 Msun [updated 11/15/2021]
 
-logg(M4V) = 4.907  ; Eclipsing binary NGTS_J0002-29 B (Smith21; 115Myr;Blanco 1) [adopting M4V for 3231K]
-logg(M4V) = 4.998  ; Eclipsing binary KOI-126 B (Yenawine23) [EEM adopts M4V based on Teff=3235K]
-logg(M4V) = 5.0255 ; Eclipsing binary KOI-126 C (Yenawine23) [EEM adopts M4V based on Teff=3235K] 
-
+logg(M4V) =  4.907  ; Eclipsing binary NGTS_J0002-29 B (Smith21; 115Myr;Blanco 1) [adopting M4V for 3231K]
+logg(M4V) = 4.943  ; M=0.24Msun, R=0.274Rsun
+logg(M4V) =  4.998  ; Eclipsing binary KOI-126 B (Yenawine23) [EEM adopts M4V based on Teff=3235K]
+logg(M4V) =  5.0255 ; Eclipsing binary KOI-126 C (Yenawine23) [EEM adopts M4V based on Teff=3235K] 
+=> adopt logg(M4V) = 4.94 [updated 8/3/2023]
 
 # No Standards
 

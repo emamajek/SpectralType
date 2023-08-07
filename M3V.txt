@@ -282,9 +282,10 @@ M_G(M3V) =   11.4505 ; LP 399-68
 
 (g-r)(M3V) = 1.46 ; Covey07
 
+(r-i)(M3V) = 1.104 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.341
 (r-i)(M3V) = 1.21  (+-0.16 rms) ; West08
 (r-i)(M3V) = 1.212 (+-0.05 rms) ; West05 fit for (V-Ic)=2.42
-=> adopt (r-i)(M3V) = 1.21 [updated 12/27/2021]
+=> adopt (r-i)(M3V) = 1.21 [updated 7/15/2023]
 
 (i-z)(M3V) = 0.65 (+-0.08; rms) ; West08
 
@@ -445,14 +446,15 @@ Rad(M3V) =  0.455+-0.018   Rsun ; sec. stan. GJ 436 (Yee17)
 Rad(M3V) =  0.474+-0.016   Rsun ; pri. stan. GJ 752A (Yee17)
 => adopt Rad(M3V) = 0.361 Rsun [updated 12/28/2020]
 
-Mass(M3V) = 0.214+-0.001 Msun ; GJ747A (Benedict16)
-Mass(M3V) = 0.268+-0.020 Msun ; GJ860A (Benedict16)
+Mass(M3V) =  0.214+-0.001 Msun ; GJ747A (Benedict16)
+Mass(M3V) =  0.268+-0.020 Msun ; GJ860A (Benedict16)
 Mass(M3V) =  0.304 Msun ; deprecated stan. GJ 628 (Pineda21)
 Mass(M3V) =  0.305 Msun ; exemplar GJ 3459 = LHS 1935 = LP 783-1
 Mass(M3V) =  0.31 Msun ; deprecated standard GJ 22B (MSC)
-Mass(M3V) =  0.330 Msun ; Benedict16 calib. for Mv=11.10 
+Mass(M3V) = 0.330 Msun ; Benedict16 calib. for Mv=11.10 
 Mass(M3V) =  0.35 Msun ; Mv=11.16 => HenryMcCarthy93 calibration
 Mass(M3V) = 0.355 Msun ; M_Ks=6.55 => Mann18 calibration
+Mass(M3V) = 0.362 Msun ; M_G=10.05 => Chavelier23 calibration
 Mass(M3V) = 0.390+-0.092 Msun ; Cifuentes23
 Mass(M3V) = 0.390 Msun ; M_Ks=6.55 => Benedict16 calibration
 Mass(M3V) =  0.3978 Msun ; Eclipsing binary NGTS_J0002-29 A (Smith21; 115Myr;Blanco 1) [adopting M3V for 3372K]
@@ -461,9 +463,11 @@ Mass(M3V) =  0.43 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.77)
 Mass(M3V) =  0.432 Msun ; Eker15 calibration for logL=-1.788
 Mass(M3V) =  0.507+0.071-0.062 ; non-stan. GJ 436 (vonBraun12)
 Mass(M3V) =  0.54 Msun ; EEM Mv vs. Mass fit for binaries (Mv=11.17)
-=> adopt Mass(M3V) = 0.36 Msun [updated 7/17/2020] 
+=> adopt Mass(M3V) = 0.36 Msun [updated 8/23/2023]
 
 logg(M3V) = 4.826 ; Eclipsing binary NGTS_J0002-29 A (Smith21; 115Myr;Blanco 1) [adopting M3V for 3372K]
+logg(M3V) = 4.879 ; M=0.36Msun, R=0.361Rsun
+=> adopt logg(M3V) = 4.88 [updated 8/3/2023]
 
 # No Standards
 
@@ -487,7 +491,8 @@ GJ 752A = HD 180617 = LHS 473 = Wolf 1055 = V1428 Aql = HIP 94761 (J1916+0510)
   (e.g. JohnsonMorgan53, Keenan88, Hawley97), and Newton15 considers
   it M1V(!) in the near-IR, but it appears to be the best
   available. It is also a bit bluer and brighter than all the other
-  M3V "standards", so it might be best considered M3-V? Companion GJ
+  M3V "standards", so it might be best considered M3-V? The star is
+  also on the big side with M/Msun and R/Rsun both ~0.47. Companion GJ
   752B (M8V standard) is ~75" away (Lepine07).  V=9.12(HIP),
   V=9.115(Koen10), B-V=1.464+-0.005(HIP), B-V=1.515(Koen10),
   U-B=1.138(Koen10), V-Ic=2.333(Koen10), V-I=2.32+-0.00(HIP),
@@ -518,9 +523,10 @@ GJ 251 = HD 265866 = Wolf 294 = G 087-012 = LHS 1879 = HIP 33226
   M5: Roth51,Vyssotsky56
 
   Nice agreement as M3V by Kirkpatrick, Henry, & Hawley, however I
-  knock it down to secondary as Boeshaar had it as a M3.5V standard (and the Boeshaar standards
-  are supposedly the backbone of the modern M dwarf system).
-  B=11.609+-0.02(UCAC4), V=9.89(HIP), V=9.938(Hauck90),
+  knock it down to secondary as Boeshaar had it as a M3.5V standard
+  (and the Boeshaar standards are supposedly the backbone of the
+  modern M dwarf system).  R/Rsun and M/Msun both
+  ~0.35. B=11.609+-0.02(UCAC4), V=9.89(HIP), V=9.938(Hauck90),
   V=9.938+-0.063(Mermilliod91), V=10.01(Gliese91), V=10.02(Weis93),
   V=10.03(Reid02), V=10.034+-0.08(UCAC4), V=10.170+-0.08(Droege07)
   B-V=1.57(Weis93), B-V=1.585+-0.013(Mermilliod91),
@@ -538,7 +544,7 @@ GJ 251 = HD 265866 = Wolf 294 = G 087-012 = LHS 1879 = HIP 33226
   3410+-100K(Houdebine16), 3448+-60K(Mann15#1), 3477+-11K(Wu11),
   3487+-31K(Mann15#2), 3500K(Rojas-Ayala12) => adopt Teff = 3405K.
   [Fe/H]=-0.02+-0.08(Mann15). R=0.349+-0.008Rsun(Mann15),
-  M=0.365+-0.009Msun(Mann15). Rad=0.358+-0.013Rsun(Yee17). 
+  M=0.365+-0.009Msun(Mann15). Rad=0.358+-0.013Rsun(Yee17).
 
 GJ 436 = Ross 905 = HIP 57087 = DO 14469 = G 120-068 = LHS 310 = NLTT 28288
   M0: Lee47

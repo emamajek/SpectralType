@@ -130,7 +130,11 @@ however most sources have it somewhat cooler.
 (g-G)(M0.5V) = 1.624 (+-0.192 sem,+-0.332 stdev) ; SIMBAD d<15pc M0.5V (N=3)
 => adopt (g-G)(M0.5V) = 1.52 [updated 6/29/2023]
 
-(r-i)(M0.5V) = 0.633 (+-0.05 rms) ; West05 fit for (V-Ic)=1.886
+(r-i)(M0.5V) =  0.633 (+-0.05 rms) ; West05 fit for (V-Ic)=1.886
+(r-i)(M0.5V) =  0.729 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.962
+(r-i)(M0.5V) = 0.80 (+-0.13 rms) ; Cifuentes20
+=> adopt (r-i)(M0.5V) = 0.80 [updated 7/15/2023]
+
 
 (z-J)(M0.5V) = 1.312 ; poly fit to d<100pc GCNS for G-Ks=3.08 (rms=0.028)
 
@@ -152,8 +156,8 @@ Mv(M0.5V) =  8.67 ; ter. stan. GJ 4B
 Mv(M0.5V) =  8.79 ; deprecated stan. GJ 2155 = LHS 3947 
 Mv(M0.5V) =  8.88 ; deprecated stan. GJ 720 A
 Mv(M0.5V) =   8.89 ; Kirkpatrick94
-Mv(M0.5V) =  9.02 ; sec. stan. GJ 96
-Mv(M0.5V) =  9.12 ; pri. stan. GJ 846
+Mv(M0.5V) =  9.01 ; sec. stan. GJ 96
+Mv(M0.5V) =  9.05 ; pri. stan. GJ 846
 Mv(M0.5V) =  9.14 ; V-Ks=3.84 => fit to Reid CNS3 data
 Mv(M0.5V) = 9.20  ; M_G=8.44, G-V=-0.76
 Mv(M0.5V) =  9.22 ; V-Ks=3.84 => fit to Jao16
@@ -183,6 +187,8 @@ M_G(M0.5V) =  8.58211 ; HD 331161A
 M_G(M0.5V) =  8.66183 ; HD 115404B                   
 M_G(M0.5V) =  8.82648 ; BD+19 3268
 
+M_Ks(M0.5V) = 5.20 ; pri. stan. GJ 846 
+M_Ks(M0.5V) = 5.17 ; sec. stan. GJ 96
 
 BC_Ks(M0.5V)= 2.551 ; Morrell19 trend for G-Ks=3.1
 BC_Ks(M0.5V)= 2.549 ; Mann15 trend for V-J=3.012
@@ -211,8 +217,12 @@ Mass(M0.5V) = 0.581 Msun ; M_Ks=5.36 => Delfosse00 calibration
 Mass(M0.5V) = 0.571+-0.084 Msun ; Cifuentes23
 Mass(M0.5V) = 0.569 Msun ; Mv=9.20 => Benedict16 calibration
 Mass(M0.5V) = 0.554 Msun ; logL=-1.266 => Eker15 calibration
+Mass(M0.5V) = 0.551 Msun ; Chavalier23 calib for M_G=8.45
 Mass(M0.5V) = 0.538 Msun ; M_Ks=5.36 => Mann18 calib.
-=> adopt Mass(M0.5V) = 0.54 Msun [updated 11/3/2019]
+=> adopt Mass(M0.5V) = 0.55 Msun [updated 8/3/2023]
+
+logg(M0.5V) = 4.707 ; M=0.55Msun, R=0.544Rsun
+=> adopt logg(M0.5V) = 4.71 [updated 8/3/2023]
 
 # Primary Standard
 
@@ -232,13 +242,17 @@ GJ 846 = HD 209290 = BD+00_4810
   V-R=0.933+-0.003(Koen02,Koen10), V-I=1.90+-0.01(HIP),
   V-Ic=1.901+-0.003(Koen02,Koen10), J=6.196+-0.023(2MASS),
   H=5.562+-0.051(2MASS), Ks=5.322+-0.023(2MASS), V-Ks =
-  3.848. plx=97.61+-1.53mas(vanLeeuwen07) => Mv = 9.12. Teffs:
-  3580K(Alonso96), 3640K(Lepine13), 3715+-121K(Casagrande08),
-  3780K(Morales08), 3848+-60K(Mann15#1), 3875+-40K(Mann15#2),
-  3882+-97K(Gaidos14), 3898+-73K(Gaidos14) => <Teff> = 3810K.
-  [Fe/H]=0.03+-0.08(Gaido14), [Fe/H]=0.02+-0.08(Mann15),
-  R=0.590+-0.059Rsun(Mann15), mass=0.60+-0.07Msun(Gaidos14),
-  0.571+-0.015Msun(Mann15).
+  3.848. plx=97.61+-1.53mas(vanLeeuwen07),
+  plx=94.5637+-0.0473mas(GaiaDR3) => Mv = 9.046+-0.012,
+  M_Ks=5.201+-0.023. Teffs: 3580K(Alonso96), 3640K(Lepine13),
+  3715+-121K(Casagrande08), 3780K(Morales08), 3848+-60K(Mann15#1),
+  3875+-40K(Mann15#2), 3882+-97K(Gaidos14), 3898+-73K(Gaidos14) =>
+  <Teff> = 3810K.  [Fe/H]=0.03+-0.08(Gaido14),
+  [Fe/H]=+0.02+-0.08(Mann15), R=0.590+-0.059Rsun(Mann15),
+  mass=0.60+-0.07Msun(Gaidos14), 0.571+-0.015Msun(Mann15).
+  Photometric metallicity estimates from VK photometry:
+  [Fe/H]=+0.088(JohnsonApps09 calib), [Fe/H]=+0.024(SchlaufmanLaughlin10 calib).
+  Appears to be just slightly more metal-rich than solar. 
   
 # Secondary Standards
 
@@ -250,15 +264,27 @@ GJ 96 = BD+47_612 = StKM 2-205 = CNS 427
   M1.5V: Joy74
   M2V: Vyssotsky46, Gaidos14(M2)
 
-  V=9.40(HIP), V=9.387+-0.033(Mermilliod91), B-V=1.466+-0.031(HIP),
-  B-V=1.497+-0.009(Mermilliod91), U-B=1.180(Mermilliod91),
-  V-I=1.88+-0.14(HIP), V-Ic=9.391-7.52=1.871(Pickles10,fit),
-  J=6.377+-0.019(2MASS), H=5.770+-0.038(2MASS),
-  Ks=5.554+-0.026(2MASS), V-Ks= 9.40 - 5.554 =
-  3.846. plx=83.75+-1.14mas(vanLeeuwen07) => Mv =
-  9.02. Teff=3650K(Lepine13), 3770K(Morales08), 3785+-62K(Mann15#1),
-  3892+-38K(Mann15#2), 4058+-73K(Gaidos14) => Teff =
-  3840K. [Fe/H]=0.14+-0.08(Mann15).
+  V=9.342(Henden16), V=9.387+-0.033(Mermilliod91),
+  V=9.391(Pickles10/fit), V=9.40(HIP), V=9.409588(GaiaDR3/synth),
+  V=9.41(Gliese91), V=9.43(TYC), => adopt
+  V=9.40. B-V=1.466+-0.031(HIP), B-V=1.497+-0.009(Mermilliod91),
+  U-B=1.180(Mermilliod91), V-I=1.88+-0.14(HIP),
+  V-Ic=9.391-7.52=1.871(Pickles10,fit), J=6.377+-0.019(2MASS),
+  H=5.770+-0.038(2MASS), Ks=5.554+-0.026(2MASS), V-Ks= 9.40 - 5.554 =
+  3.846. plx=83.75+-1.14mas(vanLeeuwen07),
+  plx=83.6606+-0.0262mas(GaiaDR3) => Mv = 9.01,
+  M_Ks=5.167+-0.026. Teff=3650K(Lepine13), 3770K(Morales08),
+  3785+-62K(Mann15#1), 3819K(Bello-Garcia23), 3892+-38K(Mann15#2),
+  4058+-73K(Gaidos14) => Teff = 3840K. Metallicities:
+  [Fe/H]=-0.2263(GaiaDR3/GSPphot),
+  [Fe/H]=-0.16+0.04-0.08(GaiaDR3/GSPspec),
+  [Fe/H]=-0.05(Neves13/Neves12),
+  [M/H]=+0.05+0.05-0.02(Bello-Garcia23), [Fe/H]=+0.052(phot. using
+  VKs, SchlaufmanLaughlin10 calib), [Fe/H]=+0.108(phot. using VKs,
+  Johnson09 calib), [Fe/H]=+0.11(Neves13/Jao05),
+  [Fe/H]=+0.14+-0.08(Gaidos14,Mann15), [M/H]=+0.14(Houdebine19),
+  [M/H]=+0.30(Rajpurohit18), [Fe/H]=+0.338+-0.006(Fouque18) => adopt
+  [Fe/H] ~ +0.05.
 
 # Tertiary Standard
 

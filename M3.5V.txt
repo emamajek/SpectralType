@@ -194,7 +194,9 @@ Note: primary standard GJ 725B is somewhat bluer than most other M3.5V stars and
 
 (g-r)(M3.5V) = 1.47 ; Covey07 interp M3V 1.46, M4V 1.48
 
+(r-i)(M3.5V) = 1.264 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.503
 (r-i)(M3.5V) = 1.436 (+-0.05 rms) ; West05 fit for (V-Ic)=2.68
+=> adopt (r-i)(M3.5V) = 1.35 [updated 7/15/2023]
 
 (i-z)(M3.5V) = 0.747 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=3.72
 
@@ -205,7 +207,7 @@ Mv(M3.5V) =  11.07  ; sec. stan. GJ 699A
 Mv(M3.5V) =  11.21  ; Koen10 d<25pc median M3.5V (note: limited by HIP)
 Mv(M3.5V) =  11.75  ; EEM fit to Jao2016 Gaia data (V-Ks=5.00)
 Mv(M3.5V) =  11.83  ; EEM fit to Reid CNS3 data (V-Ks=5.00)
-Mv(M3.5V) =  12.00  ; pri. stan. GJ 725B
+Mv(M3.5V) =  11.95  ; pri. stan. GJ 725B
 Mv(M3.5V) =  12.01  ; EEM fit to MS data(V-Ks=5.00)
 Mv(M3.5V) =  12.05  ; Finch14(V-Ks=5.00)
 Mv(M3.5V) =   12.05 ; Kirkpatrick94
@@ -313,16 +315,16 @@ Rad(M3.5V)   =   0.205+-0.006 Rsun    ; ter. stan. GJ 729 (Rabus19)
 Rad(M3.5V)   =  0.225 Rsun            ; Rabus19 trend for Teff=3280K [low trend]
 Rad(M3.5V)   = 0.2999 Rsun            ; Mann15 trend M_Ks=7.10, [Fe/H]=0.0
 Rad(M3.5V)   = 0.300 Rsun             ; Teff=3270K, logL=-2.032
-Rad(M3.5V)   =  0.310+-0.013 Rsun     ; ter. stan. GJ 555 = HIP 71253 (Yee17)
+Rad(M3.5V)   = 0.310+-0.013 Rsun     ; ter. stan. GJ 555 = HIP 71253 (Yee17)
 Rad(M3.5V)   =  0.320 Rsun            ; Rabus19 trend for Teff=3280K [high trend]
 Rad(M3.5V)   =   0.320+-0.005 Rsun    ; deprecated stan. GJ 273 (Rabus19)
-Rad(M3.5V)   =   0.323+-0.006 Rsun    ; pri. stan. GJ 725B = LHS 59 (Yee17)
+Rad(M3.5V)   = 0.323+-0.006 Rsun    ; pri. stan. GJ 725B = LHS 59 (Yee17)
 Rad(M3.5V)   =   0.3232+- 0.0061 Rsun ; Boyajian12b (N=1, presum. GJ 725B)
-Rad(M3.5V)   =   0.328 Rsun           ; pri. stan. GJ 725B (Newton14)
+Rad(M3.5V)   = 0.328 Rsun           ; pri. stan. GJ 725B (Newton14)
 Rad(M3.5V)   =   0.350+-0.086 Rsun    ; Cifuentes23
-Rad(M3.5V)   =   0.354+-0.005 Rsun    ; exemplar GJ 876 (Rabus19)
+Rad(M3.5V)   = 0.354+-0.005 Rsun    ; exemplar GJ 876 (Rabus19)
 Rad(M3.5V)   =   0.363 Rsun           ; Ecl. binary PTFEB132.707+19.810 A (Kraus17; Praesepe 0.7 Gyr)
-Rad(M3.5V)   =   0.373 Rsun           ; sec. stan. GJ 669A (Newton14)
+Rad(M3.5V)   = 0.373 Rsun           ; sec. stan. GJ 669A (Newton14)
 Rad(M3.5V)   =   0.3860 Rsun          ; Eclipsing binary LSPM_J1112+7626 A (Irwin11)
 Rad(M3.5V)   =   0.3908 Rsun          ; Eclipsing binary CU Cnc B (Ribas03)
 Rad(M3.5V)   =   0.4317 Rsun          ; Eclipsing binary CU Cnc A (Ribas03)
@@ -331,31 +333,34 @@ Rad(M3.5V)   =   0.471  Rsun ; Eclipsing binary MG1-78457 B (Kraus11) [EEM adopt
 Rad(M3.5V)   =   0.505  Rsun ; Eclipsing binary MG1-78457 A (Kraus11) [EEM adopting M3.5 for Teff=3330K]
 => adopt Rad(M3.5V) = 0.300 Rsun [updated 11/15/2021]
 
-Mass(M3.5V)  =   0.17  Msun ; ter. stan. GJ 729
-Mass(M3.5V)  =   0.179+-0.002 Msun ; GJ1005AB, pri. mass, unresolved M3.5V (Benedict16)
-Mass(M3.5V)  =   0.25  Msun ; sec. stan. GJ 3378
+Mass(M3.5V)  = 0.17  Msun ; ter. stan. GJ 729
+Mass(M3.5V)  = 0.179+-0.002 Msun ; GJ 1005AB, pri. mass, unresolved M3.5V (Benedict16)
+Mass(M3.5V)  = 0.25  Msun ; sec. stan. GJ 3378
 Mass(M3.5V)  = 0.277 Msun ; Mann18 calib. for M_Ks=7.10
-Mass(M3.5V)  =   0.277 Msun ; pri. stan. GJ725B (Mann15)
-Mass(M3.5V)  =  0.291 Msun ; Benedict16 calibration for M_Ks=7.10
-Mass(M3.5V)  =  0.302 Msun ; Eker18 calibration for logL=-2.032
+Mass(M3.5V)  = 0.277 Msun ; Chavalier calib. for M_G=10.82 
+Mass(M3.5V)  =   0.277 Msun ; pri. stan. GJ 725B (Mann15)
+Mass(M3.5V)  = 0.291 Msun ; Benedict16 calibration for M_Ks=7.10
+Mass(M3.5V)  = 0.302 Msun ; Eker18 calibration for logL=-2.032
 Mass(M3.5V)  =   0.341 Msun ; exemplar GJ 876 (Mann15)
-Mass(M3.5V)  =  0.345+-0.091 Msun ; Cifuentes23
+Mass(M3.5V)  = 0.345+-0.091 Msun ; Cifuentes23
 Mass(M3.5V)  =   0.379 Msun ; deprecated stan. GJ 748AB
-Mass(M3.5V)  =  0.385 Msun ; Eker15 calibration for logL=-2.032
+Mass(M3.5V)  = 0.385 Msun ; Eker15 calibration for logL=-2.032
 Mass(M3.5V)  =   0.3946 Msun ; Eclipsing binary LSPM_J1112+7626 A (Irwin11)
 Mass(M3.5V)  =   0.3953 Msun ; Ecl. binary PTFEB132.707+19.810 A (Kraus17; Praesepe 0.7 Gyr)
 Mass(M3.5V)  =   0.3980 Msun ; Eclipsing binary CU Cnc B (Ribas03)
-Mass(M3.5V)  =   0.433+-0.002 Msun ; GJ 2069A (Benedict16)
+Mass(M3.5V)  = 0.433+-0.002 Msun ; GJ 2069A (Benedict16)
 Mass(M3.5V)  =   0.4333 Msun ; Eclipsing binary CU Cnc A (Ribas03)
 Mass(M3.5V)  =   0.448 Msun ; Eclipsing binary HAT-TR-318 A (Hartman18; [Fe/H]=+0.3)
 Mass(M3.5V)  =   0.491 Msun ; Eclipsing binary MG1-78457 B (Kraus11) [EEM adopting M3.5 for Teff=3270K]
 Mass(M3.5V)  =   0.527 Msun ; Eclipsing binary MG1-78457 A (Kraus11) [EEM adopting M3.5 for Teff=3330K]
-=> adopt Mass(M3.5V) = 0.28 Msun [updated 11/15/2021]
+=> adopt Mass(M3.5V) = 0.30 Msun [updated 8/3/2023]
 
 logg(M3.5V)  = 4.774 dex ; Eclipsing binary HAT-TR-318 A (Hartman18; [Fe/H]=+0.3)
 logg(M3.5V)  = 4.804 dex ; Eclipsing binary CU Cnc A (Ribas03)
 logg(M3.5V)  = 4.854 dex ; Eclipsing binary CU Cnc B (Ribas03)
-logg(M3.5V)  = 4.861 dex ; Eclipsing binary LSPM_J1112+7626 A (Irwin11) 
+logg(M3.5V)  = 4.861 dex ; Eclipsing binary LSPM_J1112+7626 A (Irwin11)
+logg(M3.5V)  = 4.961 dex ; M=0.30Msun, R=0.300Rsun
+=> adopt logg(M3.5V) = 4.96 [updated 8/3/2023]
 
 # Primary Standard
 
@@ -365,27 +370,30 @@ GJ 725B = LHS 59 = HD 173740 = HIP 91772 = Struve 2398B
   M4V: Wilson52,Newton14(near-IR)
   M5V: Adams26
 
-  plx= 289.48+-3.21 mas(vanLeeuwen07),
-  plx=283.8624+-0.1065mas(GaiaDR2). Teffs: 3395K(Soubiran08,Frasca09),
+  Well-used standard, but appears to be somewhat metal-poor, perhaps
+  [Fe/H] ~ -0.3.  This is secondary in system where B (=HIP 91772,
+  V=9.70) and A (=HIP 91768, V=8.94) .  Note that the assignment of
+  "A" and "B" is confused in some works, but the CNS3 Gliese91 catalog
+  clearly identifies Gl 725 A as V=8.90 "dM4" star, and Gl 725 B as a
+  V=9.71 "dM5" star.  plx= 289.48+-3.21 mas(vanLeeuwen07),
+  plx=283.8624+-0.1065mas(GaiaDR2),
+  plx=283.8378+-0.0287mas(GaiaDR3). Teffs: 3395K(Soubiran08,Frasca09),
   3334+-66K(Gaidos14), 3345+-60K(Mann15), 3304K(Cenarro11),
   3295+-81K(Newton15#2), 3290K(Lepine13),
   3288K(Rojas-Ayala12,Frasca15), 3218+-12K(Pecaut13),
   3172K(Jenkins09), 3170+-71K(Valenti98), 3142+-29K(Newton15#1),
   3104+-28K(Boyajian12) => adopt 3290K. mbol=7.587+-0.013(Pecaut13),
-  V=9.688+-0.006(Mermilliod91), J=5.721+-0.020(2MASS),
-  H=5.197+-0.024(2MASS), Ks=5.00+-0.023(2MASS),
+  V=9.688+-0.006(Mermilliod91), V=9.70(HIP/TYC),
+  J=5.721+-0.020(2MASS), H=5.197+-0.024(2MASS), Ks=5.00+-0.023(2MASS),
   B-V=1.588+0.006(Mermilliod91), B-V=1.59(Gliese91),
   B-V=1.561+-0.005(HIP), U-B=1.138+-0.010(Mermilliod91), V-Ks =
-  4.688(Mermilliod91,2MASS). Mv=11.996+-0.025(HIP,vanLeeuwen07).
+  4.688(Mermilliod91,2MASS). Mv=11.953+-0.006(Mermilliod91,GaiaDR3).
   M_Ks=7.308+-0.033(2MASS,vanLeeuwen07).  13.2" away from primary
   GJ725A. [Fe/H]=-0.92+-0.07(Valenti98), -0.38(Jenkins09),
   -0.30+-0.08(Mann15),
   -0.25+-0.12(Rojas-Ayala12). LogL=-2.0329+-0.0052(Newton15).
   Rad=0.281+-0.030 Rsun(Newton15), 0.273+-0.011 Rsun(Mann15).
-  Mass=0.248+-0.025 Msun(Mann15). Companion is GJ 725A (HIP 91768).
-  Note that the assignment of "A" and "B" is confused in some works,
-  but the CNS3 Gliese91 catalog clearly identifies Gl 725 A as V=8.90
-  "dM4" star, and Gl 725 B as a V=9.71 "dM5" star. Boyajian12 lists
+  Mass=0.248+-0.025 Msun(Mann15).Boyajian12 lists
   tetLD=0.851+-0.015mas. Boyajian12+HIP2=> Rad=0.322Rsun.
 
 # Secondary Standards

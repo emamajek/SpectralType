@@ -99,7 +99,8 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 (V-R)(M1V)  = 0.94 ; Bessell91 "old disk"
 (V-Rc)(M1V) = 0.959 ; sec. stan. GJ 514 
 (V-Rc)(M1V) = 0.960 ; pri. stan. GJ 229A = HD 42581
-=> adopt (V-Rc)(M1V) = 0.96 [updated 11/20/2022]
+=> adopt (V-Rc)(M1V)  = 0.96 [updated 11/20/2022]
+=> adopt (Rc-Ic)(M1V) = 1.05 [updated 7/15/2023]
 
 (R-I)(M1V)  = 1.02 ; Bessell91 "old disk"
 
@@ -208,7 +209,9 @@ Note: pri. stan. GJ 229A appears to have Gaia colors similar to median of other 
 (g-r)(M1V) = 1.33 ; Covey07
 
 (r-i)(M1V) = 0.776 (+-0.05 rms) ; West05 fit for (V-Ic)=2.005
+(r-i)(M1V) = 0.816 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.05
 (r-i)(M1V) = 0.82 (+-0.18; rms) ; West08
+=> adopt (r-i)(M1V) = 0.815 [updated 7/15/2023]
 
 (i-z)(M1V) = 0.46 (+-0.07; rms) ; West08
 
@@ -346,16 +349,20 @@ appears to be much better constrained.
 
 Mass(M1V) = 0.495 Msun ; M_Ks=5.64 => Mann18 calib
 Mass(M1V) = 0.503 Msun ; Mv=9.64 => Benedict16 calibration
+Mass(M1V) = 0.510 Msun ; Chavalier23 calib for M_G=8.82
 Mass(M1V) =  0.515 Msun ; Eker15 calibration for logL=-1.422
-Mass(M1V) = 0.523 Msun ; M_Ks=5.64 => Delfosse00 calibration
+Mass(M1V) =  0.523 Msun ; M_Ks=5.64 => Delfosse00 calibration
 Mass(M1V) =  0.53 Msun ; Mv=9.77 => HenryMcCarthy93 calibration
 Mass(M1V) = 0.547+-0.084 Msun ; Cifuentes23
-Mass(M1V) = 0.55  Msun ; pri. stan. GJ229A
+Mass(M1V) =  0.55  Msun ; pri. stan. GJ229A
 Mass(M1V) = 0.558 Msun ; M_Ks=5.64 => Benedict16 calibration
-Mass(M1V) = 0.599+-0.005 Msun ; GJ 278C (Benedict16) 
+Mass(M1V) =  0.599+-0.005 Msun ; GJ 278C (Benedict16) 
 Mass(M1V) =  0.62 Msun ; EEM Mv vs. Mass fit for binaries (Mv=9.80)
 Mass(M1V) =  0.626 Msun ; Mv=9.64 => Torres10 calibration
 => adopt Mass(M1V) = 0.50 Msun [updated 4/9/2020]
+
+logg(M1V) = 4.737 ; M=0.50Msun, R=0.501Rsun
+=> adopt logg(M1V) = 4.74 [updated 8/3/2023]
 
 
 # No Standard
