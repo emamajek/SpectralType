@@ -206,10 +206,15 @@ logL(A0V) = 1.76  dex ; Zorec12 median
 => adopt logL(A0V) = 1.584 dex [updated 12/27/2020]
 => adopt Mbol(A0V) = 0.780 mag [updated 12/27/2020]
 
-Note: Gerbaldi99 demonstrates that there are stars classified A0V between logL ~ 1.3 to 2.6! 
+Note: Gerbaldi99 demonstrates that there are stars classified A0V between logL ~ 1.3 to 2.6!
+
+Rad(A0V) = 2.572 Rsun ; anchor stan. Vega (mean radius)
+Rad(A0V) = 2.375 Rsun ; Salsi21 surface brightness relation for Mv=0.99, M_Ks=0.949
+Rad(A0V) = 2.193 Rsun ; logL=1.584,Teff=9700K
+=> adopt Rad(A0V) = 2.193 Rsun [updated 9/24/2020]
+
 
 Mass(A0V) = 2.57 Msun ; Zorec12 median
-Mass(A0V) = 2.572 Msun ; Vega (mean of pole 2.418Rsun, eq 2.726 Rsun)
 Mass(A0V) = 2.52 (+-0.07 sem,+-0.39 stdev) ; N=48 Gerbaldi99 vetted A0V stars (but mag-limited sample)
 Mass(A0V) = 2.482+-0.025 Msun ; Eclipsing binary TZ Men A (Torres10)
 Mass(A0V) = 2.47 Msun ; David15 A0 MS (rms=0.40 Msun; N=120)
@@ -223,14 +228,11 @@ Mass(A0V) = 2.3 Msun  ; Vega (Aufdenberg06)
 Mass(A0V) = 2.30 Msun ; Ekers18 ML calibration for logL=1.58
 Mass(A0V) = 2.15+0.10-0.15 Msun ; Vega (Monnier13)
 Mass(A0V) = 2.135 Msun ; Vega (Yoon10)
+Mass(A0V) = 2.09 Msun ; Evans23 Teff vs. Mass fit for Teff=9700K
 Mass(A0V) =  2.07 Msun ; Habets81
 Mass(A0V) = 1.905+-0.040 Msun ; Eclipsing binary AY Cam A (Torres10)
 => adopt Mass(A0V) = 2.35 Msun [updated 12/29/2019]
 
-Rad(A0V) = 2.572 Rsun ; anchor stan. Vega (mean radius)
-Rad(A0V) = 2.193 Rsun ; logL=1.584,Teff=9700K
-
-=> adopt Rad(A0V) = 2.193 Rsun [updated 9/24/2020]
 
 # Anchor Standard
 
@@ -239,21 +241,25 @@ HD 172167 = alf Lyr = Vega
  *A0Va: Gray87(stan),Garrison96
 
   Gray87 uses it as the primary low vsini A0Va standard (from MK78).
-  V=0.03(HIP, Johnson66), B-V=-0.001+-0.005(HIP), B-V=0.00(Johnson66),
-  U-B=0.00(Johnson66), U-B=-0.006+-0.006(Mermilliod91),
-  V-I=-0.01+-0.02(HIP), K=-0.02(Gehrz74, Gehrz76, Grasdalen83),
-  K=0.02(Johnson66), Ks=-0.036+-0.010(Reike08,indirectly).  f_bol:
-  (2983+-120)e-8 erg/cm^2/s (Alonso94; erroneously cited as
-  "(2983+-120)e-8 erg/cm^2/s" in Ciardi01), 2.983e-5 erg/cm^2/s
-  (Alonso95). Reike08 concludes "this star is not suitable to define a
-  photometric zero-point because of its eccentric SED for its spectral
-  type" (i.e. due to pole-equator Teff difference and possible K-band
-  excess due to a warm disk).  Many published Teffs - I find median
-  published Teff = 9468K (N=21).  New interferometric study by
-  Monnier13 finds: Lum=47.2+-2.0Lsun => logL=1.6739+-0.0184. Age =
-  700+150-75 Myr, Mass = 2.15+0.10-0.15 Msun, Rpol=2.418+-0.012Rsun,
-  Req=2.726+-0.006 => <Rad>=2.572Rsun.  Monnier13 quotes several Teff
-  values: Teff(pole)=10070+-90K, Teff(equator)=8910+-130K,
+  V=0.026+-0.008(Bohlin04), V=0.033(Mermilliod91, adopted by Rieke23),
+  V=0.035(Colina94),
+  V=0.03(Johnson66,HIP,Megessier95,Bessell98,Bohlin14 "standard
+  Johnson value") => adopt Vmag=0.03. B-V=-0.001+-0.005(HIP),
+  B-V=0.00(Johnson66), U-B=0.00(Johnson66),
+  U-B=-0.006+-0.006(Mermilliod91), V-I=-0.01+-0.02(HIP),
+  K=-0.02(Gehrz74, Gehrz76, Grasdalen83), K=0.02(Johnson66),
+  Ks=-0.036+-0.010(Reike08,indirectly).  f_bol: (2983+-120)e-8
+  erg/cm^2/s (Alonso94; erroneously cited as "(2983+-120)e-8
+  erg/cm^2/s" in Ciardi01), 2.983e-5 erg/cm^2/s (Alonso95). Reike08
+  concludes "this star is not suitable to define a photometric
+  zero-point because of its eccentric SED for its spectral type"
+  (i.e. due to pole-equator Teff difference and possible K-band excess
+  due to a warm disk).  Many published Teffs - I find median published
+  Teff = 9468K (N=21).  New interferometric study by Monnier13 finds:
+  Lum=47.2+-2.0Lsun => logL=1.6739+-0.0184. Age = 700+150-75 Myr, Mass
+  = 2.15+0.10-0.15 Msun, Rpol=2.418+-0.012Rsun, Req=2.726+-0.006 =>
+  <Rad>=2.572Rsun.  Monnier13 quotes several Teff values:
+  Teff(pole)=10070+-90K, Teff(equator)=8910+-130K,
   Teff(apparent)=9660+-90K,
   Teff(surface-averaged)=9360+-90K. Presumably the "apparent"
   Teff=9660K is what one would quote for the apparent spectrum and

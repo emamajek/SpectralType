@@ -201,6 +201,7 @@ Mass(B3V) = 5.24 Msun ; EEM Teff vs. Mass fit for binaries (Teff=17000K)
 Mass(B3V) = 5.23 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-1.2)
 Mass(B3V) = 5.22 Msun ; David15 B3 MS (rms=0.50 Msun; N=3)
 Mass(B3V) = 5.16+-0.06 Msun ; Eclipsing binary V1388 Ori B (Torres10)
+Mass(B3V) = 5.01 Msun ; Evans23 Teff vs. Mass fit for Teff=17000K
 Mass(B3V) = 4.96 Msun ; Chulkov22 fit for M_G=-1.2 (assuming G-V=0)
 => adopt Mass(B3V) = 5.4 Msun [updated 4/16/2022]
 
@@ -213,20 +214,21 @@ Rad(B3V) = 3.12 Rsun ; logL=2.9, 92Teff=17000K
 HD 32630 = Eta Aur = HR 1641 = ALS 8168 = HIP 23767 = Hoedus II (J0506+4114)
  *B3V: MK43,JM53,Garrison67(stan),Lesh68(stan),Hiltner69(stan),Walborn71,MK73,Garrison77(stan),Garrison94,Garrison96
 
-  M91: V=3.172+-0.008, B-V=-0.178+-0.009, U-B=-0.669+-0.005 => updated
-  Q-method calibration (10/9/2011) => (B-V)o=-0.180, (U-B)o=-0.669,
-  E(B-V)= 0.002, Av=0.005 (i.e.  negligible reddening).  Teffs: 16375
-  K (Adelman02/spec), 16712K(U-Bo=>Bessell98), 16800 K (Philip80),
-  16887 K (Adelman02/ubvy), 17379 K (Philip80), 17390 K (Zorec09#1),
-  17940 K (Zorec09#2), 18660+-230K (Maestro13) => median Teff ~ 17000
-  K. It is slightly alarming that the Maestro13 value (measured using
-  CHARA) is so far at odds with previous estimates.  Plx = 13.40+-0.20
-  mas (vanLeeuwen07) => D = 75+-1 pc. Welsh90 estimate logN_H =
-  18.840. Using Savage & Mathis (1979) logNH vs E(B-V) relation, this
-  would suggest E(B-V) = 0.001 mag, i.e. negligible. Assume its
-  unreddened. Mv = -1.19+-0.03. Maestro13 estimates Mass = 5.6+-0.1
-  Msun and age 41+-6 Myr. RV = +7.3+-0.7 km/s (Gontcharov06). 
-  XHIP catalog lists U,V,W = -13.6, -23.2, -5.5 km/s. 
+  V=3.172+-0.008(Mermillio91), B-V=-0.178+-0.009(Mermilliod91),
+  U-B=-0.669+-0.005(Mermilliod91) => updated Q-method calibration
+  (10/9/2011) => (B-V)o=-0.180, (U-B)o=-0.669, E(B-V)= 0.002, Av=0.005
+  (i.e.  negligible reddening).  Teffs: 16375K(Adelman02/spec),
+  16712K(U-Bo=>Bessell98), 16800K(Philip80), 16887K(Adelman02/ubvy),
+  17379K(Philip80), 17390K(Zorec09#1), 17940K(Zorec09#2), 18660+-230K
+  (Maestro13) => median Teff ~ 17000 K. It is somewhat surprising that
+  the Maestro13 value (measured using CHARA) is so far at odds with
+  previous estimates.  Plx = 13.40+-0.20 mas (vanLeeuwen07) => D =
+  75+-1 pc. Welsh90 estimate logN_H = 18.840. Using Savage & Mathis
+  (1979) logNH vs E(B-V) relation, this would suggest E(B-V) = 0.001
+  mag, i.e. negligible. Assume its unreddened. Mv =
+  -1.19+-0.03. Maestro13 estimates Mass = 5.6+-0.1 Msun and age 41+-6
+  Myr. RV = +7.3+-0.7 km/s (Gontcharov06).  XHIP catalog lists U,V,W =
+  -13.6, -23.2, -5.5 km/s.
 
 HD 120315 = Eta UMa = Alcaid = HR 5191
  *B3V: MK43,JM53,Walborn71,MK73,Walborn90,Garrison94,Garrison96
@@ -235,16 +237,10 @@ HD 120315 = Eta UMa = Alcaid = HR 5191
   Q-method consistent with negligible reddening (and d < 75 pc) =>
   (B-V)o=-0.190, (U-B)o=-0.673, E(B-V)=Av=0.  VanLeeuwen07 plx =
   31.38+-0.24 mas => hence, probably negligible reddening. Mv =
-  -0.66+-0.02 mag.
-  Teffs:
-  16795K(U-Bo=>Bessell98), 
-  16900K(Adelman02/spec), 
-  16904K(Blackwell80), 
-  17200K(Sokolov95), 
-  17319K(Adelman02/ubvy), 
-  17379K(Philip80), 
-  17870K(Zorec09) => median Teff = 17200 K. 
-
+  -0.66+-0.02 mag.  Teffs: 16795K(U-Bo=>Bessell98),
+  16900K(Adelman02/spec), 16904K(Blackwell80), 17200K(Sokolov95),
+  17319K(Adelman02/ubvy), 17379K(Philip80), 17870K(Zorec09) => median
+  Teff = 17200 K.
 
 # Primary Standards
 
