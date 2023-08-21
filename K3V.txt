@@ -205,6 +205,7 @@ Teff(K3V) = 4874 K ; pri. stan. HR 8832 ([Fe/H]=+0.06)
 Teff(K3V) =  4877 K ; exemplar HD 207144
 Teff(K3V) =  4878 +- 18 K ; Pecaut13 (pri. stan. GJ 892)
 Teff(K3V) =  4894 K ; exemplar HD 122064 = HR 5256
+Teff(K3V) = 4918 K ; sec. stan. HD 110463 = NP UMa ([Fe/H]=0.00; Ursa Major cluster)
 Teff(K3V) =  4919 K ; ter. stan. HD 285690 (Hyad)
 Teff(K3V) =  4925 K ; Biazzo07 Teff calibration for B-V=0.990
 Teff(K3V) =  4950 K ; sec. stan. HD 110463 (UMa)
@@ -229,6 +230,31 @@ BCv(K3V) = -0.344 mag ; halfway between values for pri. standards GJ892 and GJ10
 BCv(K3V) =  -0.312 +- 0.011 mag ; pri. stan. GJ 892 (see below)
 BCv(K3V) = -0.297 mag ; Bertone04(ATLAS,Teff=4870K)
 => adopt BCv(K3V) = -0.365 mag [last updated 8/3/2023, scaled to BCv(5772K)=-0.085]
+
+
+M_G(K3V) =  5.15524  ; HD_188088_ plx=70.7010mas K3VaCN1  (GaiaDR3)
+M_G(K3V) =  5.78735  ; HD_144253_ plx=55.8809mas K3V  (GaiaDR3)
+M_G(K3V) =  5.86729  ; HD_223778_ plx=91.7722mas K3V  (GaiaDR3)
+M_G(K3V) =  6.04011  ; HD_74576_ plx=89.3522mas K3V  (GaiaDR3)
+M_G(K3V) =  6.11726  ; HD_128311_ plx=61.2792mas K3V  (GaiaDR3)
+M_G(K3V) =  6.14713  ; HD_61606_ plx=71.0323mas K3V  (GaiaDR3)
+M_G(K3V) = 6.15342  ; pri. stan. HD_219134_ plx=152.8640mas K3V  (GaiaDR3) ([Fe/H]=+0.06)
+M_G(K3V) = 6.15538  ; exemplar HD_122064_ plx=99.3325mas K3V  (GaiaDR3)
+M_G(K3V) =  6.16394  ; HD_217580_ plx=61.8341mas K3V  (GaiaDR3)
+M_G(K3V) = 6.20306  ; sec. stan. HD_16160_ plx=138.3400mas K3V  (GaiaDR3) ([Fe/H]=-0.13)
+M_G(K3V) = 6.203    ; sec. stan. HD 110463 = NP UMa (GaiaDR3) ([Fe/H]=0.00; Ursa Major cluster)
+M_G(K3V) =  6.2527   ; HD_153557_ plx=55.7508mas K3V  (GaiaDR3)
+M_G(K3V) = 6.26 ; SIMBAD d<20pc trend for V-Ks=2.36
+M_G(K3V) = 6.28 ; SIMBAD d<50pc median MG for K3V stars
+M_G(K3V) =  6.35138  ; HD_82106_ plx=78.1945mas K3V  (GaiaDR3)
+M_G(K3V) =  6.36339  ; HD_2025_ plx=55.8243mas K3V  (GaiaDR3)
+M_G(K3V) =  6.4027   ; HD_79969_ plx=57.92mas K3V  (GaiaDR3)
+M_G(K3V) =  6.4268   ; HD_150689_ plx=70.322mas K3V  (GaiaDR3)
+M_G(K3V) =  6.51159  ; HD_34673_ plx=63.6435mas K3V  (GaiaDR3)
+M_G(K3V) =  6.53074  ; HD_202575_ plx=61.838mas K3V  (GaiaDR3)
+M_G(K3V) =  6.60149  ; HD_145417_ plx=73.5482mas K3VFe-1.7  (GaiaDR3)
+M_G(K3V) =  6.98862  ; HD_48948_ plx=59.3934mas K3V  (GaiaDR3)
+M_G(K3V) =   7.56432  ; HD_156384_ plx=146.29mas K3V+K5V  (GaiaDR3)
 
 Mv(K3V)  =  6.9  mag ; GrayCorbally09
 Mv(K3V)  = 6.79 mag ; exemplar HD 144872 ([Fe/H]=-0.26)
@@ -264,9 +290,6 @@ Mv(K3V)  =  6.22 mag ; non-stan. HD 188088 = GJ 770 = HR 7578 (component for met
 => adopt Mv(K3V)   = 6.54 mag [updated 8/3/2023] (M_Ks=4.18, V-Ks=2.36)
 => adopt M_G(K3V)  = 6.22 mag [updated 8/3/2023] (Mv=6.54, G-V=-0.32)
 
-M_G(K3V) = 6.26 ; SIMBAD d<20pc trend for V-Ks=2.36
-M_G(K3V) = 6.28 ; SIMBAD d<50pc median MG for K3V stars
-
 M_Ks(K3V)  =  4.12 mag ; exemplar HD 114386 ([Fe/H]=-0.05)
 M_Ks(K3V)  =  4.13 mag ; exemplar HD 218760 = HIP 114455 ([Fe/H]~-0.05)
 M_Ks(K3V)  = 4.16 mag ; pri. stan. HD 219134 = HR 8832 ([Fe/H]=+0.06)
@@ -295,7 +318,7 @@ Rad(K3V) =   0.7867+-0.0006 Rsun ; Boyajian12b (N=2)
 Rad(K3V) = 0.7852           Rsun ; Salsi21 surface brightness relation for Mv=6.54, M_Ks=4.18
 Rad(K3V) = 0.7779+-0.0049   Rsun ; pri. stan. HD 219134 = HR 8832 (calc using Boyajian12,GaiaDR3)
 Rad(K3V) =   0.766+-0.058   Rsun ; exemplar HD 114386 (Stassun19)
-Rad(K3V) =   0.760+-0.030   Rsun ; sec. stan. HD 110463 (Yee17)
+Rad(K3V) =   0.760+-0.030   Rsun ; sec. stan. HD 110463 (Yee17) ([Fe/H]=0.00)
 Rad(K3V) = 0.7547         Rsun ; Teff=4830K, logL=-0.574
 Rad(K3V) =   0.749+-0.054   Rsun ; ter. stan. HD 285690 (Stassun19)
 Rad(K3V) =   0.739+-0.060   Rsun ; exemplar HD 122064 (Stassun19)
@@ -319,6 +342,7 @@ Mass(K3V) = 0.741 Msun ; Mann18 calib for M_Ks=4.18
 
 logg(K3V) = 4.50+-0.07 ; ter. stan. HD 128165
 logg(K3V) = 4.52+-0.10 ; exemplar HD 144872
+logg(K3V) = 4.52+-0.05 ; sec. stan. HD 110463 = NP UMa ([Fe/H]=0.00)
 logg(K3V) = 4.56+-0.03 ; pri. stan. HD 219134 = HR 8832
 logg(K3V) = 4.57+-0.03 ; sec. stan. HD 16160
 logg(K3V) = 4.574      ; M=0.78Msun, R=0.755Rsun
@@ -444,22 +468,23 @@ HD 16160 = GJ 105A = HR 753 = HIP 12114
   Mv=6.526+-0.010, M_Ks=4.184. Age=5.1+-1.1Gyr(Ramirez12),
   Age=6.10Gyr(Gaspar13).
   
-
 HD 110463 = NP UMa = GJ 3743
  *K3V: Roman49(K3Ve),JM53(stan),Morgan53,Wilson62,Jaschek64(all),Levato78
   K2V: Joy49,Yoss61
 
-  One of three K3V standards in JohnsonMorgan53.  Nuclear Ursa Major
-  cluster member. V=8.27(HIP), V=8.273+-0.007(Mermilliod91),
+  One of three K3V standards in JohnsonMorgan53, and approximately
+  solar metallicity.  Nuclear Ursa Major cluster member.  Seems to be
+  just slightly bluer and hotter than the other K3V
+  standards. V=8.27(HIP), V=8.273+-0.007(Mermilliod91),
   B-V=0.955(HIP), B-V=0.955+-0.004(Mermilliod91),
   U-B=0.757+-0.059(Mermilliod91), V-I=1.00(HIP),
   J=6.569+-0.029(2MASS), H=6.113+-0.029(2MASS), K=6.003+-0.017(2MASS),
-  V-J=1.701(HIP,2MASS), V-H=2.157(HIP,2MASS), (V-Ks)=2.267(HIP,2MASS),
-  Teff=4950K(Mishenina08, Soubiran10).  Seems to be just slightly
-  bluer and hotter than the other K3V standards.  PASTEL compendium:
-  <Teff>=4926K(N=5), <logg>=4.50(N=5),
-  <[Fe/H]>=-0.05(N=5). plx=44.0100+-0.0218mas(GaiaEDR3). Mv=6.49,
-  M_Ks=4.22.
+  V-J=1.701(HIP,2MASS), V-H=2.157(HIP,2MASS), (V-Ks)=2.267(HIP,2MASS).
+  G=7.985461+-0.002765(GaiaDR3).  Teff=4950K(Mishenina08, Soubiran10).
+  PASTEL compendium: <Teff>=4926K(N=5), <logg>=4.50(N=5),
+  <[Fe/H]>=-0.05(N=5). Soubiran22/PASTEL mean values: Teff=4918+-22K,
+  logg=4.52+-0.05, [Fe/H]=0.00+-0.03. plx=44.0100+-0.0218mas(GaiaDR3)
+  => Mv=6.491+-0.007, M_G=6.203+-0.003, M_Ks=4.221+-0.017.
 
 # Tertiary Standard
 

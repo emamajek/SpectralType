@@ -206,6 +206,35 @@ BCv(K4V) =  -0.42  mag   ; Schmidt-Kaler82 (BCv = -0.55 + 0.13 offset)
 BCv(K4V) = -0.331+-0.07  ; ter. stan. GJ 570A = HD 131977 (calc from Rains20)
 => adopt BCv(K4V) = -0.52 mag [last updated 12/15/2020; scaled so BCv(5772K)=-0.085]
 
+M_G(K4V) =  6.3114   ; HD_170493_ plx=53.1586mas K4V  (GaiaDR3) ([Fe/H]=+0.25)
+M_G(K4V) = 6.31212  ; exemplar HD_285720_ plx=21.4969 K4V (GaiaDR3) (Hyad [Fe/H]~+0.2)
+M_G(K4V) =  6.31796  ; HD_213042_ plx=63.6519mas K4V  (GaiaDR3) ([Fe/H]=+0.17)
+M_G(K4V) =  6.39206  ; HD_79555_ plx=55.9338mas K4V  (GaiaDR3) ([Fe/H]=-0.18)
+M_G(K4V) =  6.46795  ; HD_84035_ plx=55.5758mas K4V  (GaiaDR3) ([Fe/H]=+0.24)
+M_G(K4V) =  6.50326  ; HD_65277_ plx=56.6412mas K4V  (GaiaDR3) ([Fe/H]=-0.26)
+M_G(K4V) =  6.51047  ; HD_97584_ plx=69.1364mas K4V  (GaiaDR3) ([Fe/H]=-0.17)
+M_G(K4V) = 6.5148   ; ter. stan. HD_131977_ plx=169.8843mas K4V  (GaiaDR3) ([Fe/H]=+0.02)
+M_G(K4V) = 6.51833  ; exemplar HD_209100_ = eps_Ind plx=274.8431mas (GaiaDR3)
+M_G(K4V) =  6.53854  ; HD_21197_ plx=65.2607mas K4V  (GaiaDR3) ([Fe/H]=+0.33)
+M_G(K4V) = 6.55504  ; exemplar  HD_190007_  plx=78.6465mas (GaiaDR3) ([Fe/H]=+0.19)
+M_G(K4V) =  6.5525   ; HD_120476A_ plx=74.0937mas K4V  (GaiaDR3) ([Fe/H]=0.00)
+M_G(K4V) = 6.58531  ; exemplar HD_105671_ plx=50.5536mas (GaiaDR3) ([Fe/H]=+0.07)
+M_G(K4V) =  6.5871   ; HD_52919_ plx=52.3188mas K4V  (GaiaDR3) ([Fe/H]=-0.11)
+M_G(K4V) = 6.68736  ; sec. stan. HD_216803_ plx=131.5525mas K4Ve  (GaiaDR3) ([Fe/H]=+0.04)
+M_G(K4V) =  6.72997  ; HD_35171_ plx=68.7662mas K4V  (GaiaDR3) ([Fe/H]=+0.02)
+M_G(K4V) =  6.75133  ; HD_24916A_ plx=65.4262mas K4V  (GaiaDR3) ([Fe/H]=-0.12)
+M_G(K4V) = 6.77103  ; pri. stan. HD_160964_ plx=52.4929mas K4V  (GaiaDR3) ([Fe/H]=-0.03)
+M_G(K4V) =  6.81557  ; HD_142709_ plx=67.8433mas K4V  (GaiaDR3) ([Fe/H]=-0.35)
+M_G(K4V) =  6.93093  ; HD_29697_ plx=75.6870mas K4V  (GaiaDR3) ([Fe/H]=+0.11)
+M_G(K4V) = 6.99891  ; exemplar HD_165341B_ plx=195.8563mas K4V  (GaiaDR3) ([Fe/H]=+0.06)
+M_G(K4V) =  7.01436  ; HD_165908B_ plx=53.9769mas K4V  (GaiaDR3) ([Fe/H]=-0.55)
+M_G(K4V) =  7.0923   ; HD_111261_ plx=53.3334mas K4V  (GaiaDR3) ([Fe/H]=-0.47)
+[EEM 8/13/2023: K4V standards, exemplars and local stars follow trend:
+M_G(K4V) = 6.613 - 0.5391*[Fe/H] (rms=0.195mag)
+however within +-0.2dex of solar in [Fe/H], the trend is surprisingly flat - essentially M_G(K4V)=6.61.
+For only K4V standards & exemplars:
+M_G(K4V) = 6.646 - 0.5275*[Fe/H] (rms=0.212mag)]
+
 Mv(K4V)  =  7.51 mag ; exemplar 70 Oph B = GJ 702B ([Fe/H]=+0.01)
 Mv(K4V)  =   7.4 mag ; GrayCorbally09
 Mv(K4V)  = 7.16 mag ; pri. stan. GJ 689 = HD 160964 ([Fe/H]=-0.03; note: young ~0.4 Gyr)
@@ -238,15 +267,12 @@ Mv(K4V)  =  6.58 mag ; exemplar HD 285742 = V991 Tau (Hyad=>[Fe/H]~+0.15)
 => adopt M_G(K4V)  = 6.60 mag [updated 8/3/2023] (Mv=6.99, G-V=-0.39)
 => adopt M_Ks(K4V) = 4.31 mag [updated 8/3/2023] (Mv=6.99, V-Ks=2.68)
 
-(EEM note 12/15/2020: the [Fe/H] vs. Mv trend for the standards &
+[EEM note 12/15/2020: the [Fe/H] vs. Mv trend for the standards &
 exemplars yields: Mv = 7.025 - 1.478*[Fe/H], rms=0.247 mag; the
 standards are all within +-0.2 dex of solar, with several close to
 solar. Using xHIP for K dwarfs d<25pc within +-0.1 dex of solar, the
-trend for B-V=1.09 => Mv=6.985)
+trend for B-V=1.09 => Mv=6.985]
 
-M_G(K4V) = 6.5148   HD_131977_  ; K4V_
-M_G(K4V) = 6.68736  V*_TW_PsA_  ; K4Ve_
-M_G(K4V) = 6.99891  *_70_Oph_B_ ; K4V_
 
 M_Ks(K4V) = 4.31 ; Mv=6.99, V-Ks=2.68
 M_Ks(K4V) =  4.37 ; median K4V d<25pc N=36
@@ -587,4 +613,8 @@ higher order fits don't help. Support for (B-V) = 1.084+-0.02
 trend:
 (V-Ks) = 2.679 - 0.12170*[Fe/H] (rms = 0.023mag)
 
-
+[EEM 8/13/2023: K4V standards, exemplars and local stars follow trend:
+M_G(K4V) = 6.613 - 0.5391*[Fe/H] (rms=0.195mag)
+however within +-0.2dex of solar in [Fe/H], the trend is surprisingly flat - essentially M_G(K4V)=6.61.
+For only K4V standards & exemplars:
+M_G(K4V) = 6.646 - 0.5275*[Fe/H] (rms=0.212mag)]

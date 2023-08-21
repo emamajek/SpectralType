@@ -235,6 +235,30 @@ Teff(K5V) = 4590 K ; sec. stan. HD 36003 median Teff [Fe/H]~ -0.1
 => adopt Teff(K5V) = 4440 K (logT = 3.647)  [last updated 8/29/2019]
 [EEM note 12/15/2020: primary standard 61 Cyg is metal poor, and although it is the anchor standard, its Teff is not representative of solar-ish K5Vs]
 
+M_G(K5V) =   6.52806  ; deprecated stan. HD_196795_ plx=59.80mas K5V  (GaiaDR3)
+M_G(K5V) = 6.64445  ; exemplar HD_113194_ plx=56.9407mas K5Vk: (GaiaDR3) (unresolved binary?)
+M_G(K5V) = 6.65254  ; exemplar HD 171314 = GJ 718 A plx=42.7251mas ([Fe/H]=+0.13)
+M_G(K5V) = 6.68469  ; sec. stan. HD_36003_ plx=77.3499mas K5V  (GaiaDR3) ([Fe/H]=-0.07)
+M_G(K5V) = 6.85  ; Mv=7.28, G-V=-0.43
+M_G(K5V) = 6.872 ; SIMBAD d<20pc trend for V-Ks=2.883
+M_G(K5V) = 6.887 ; exemplar HIP 51443 plx=34.5779mas K5V ([Fe/H]~0.0)
+M_G(K5V) =  6.93165  ; *_alf_Cir_B_ plx=60.8225mas K5V  (GaiaDR3)
+M_G(K5V) =  6.93433  ; HD_4378A_ plx=63.5938mas K5Ve  (GaiaDR3)
+M_G(K5V) = 7.01591 ; exemplar HD_156026_ = 36 Oph C plx=167.9617mas K5V (GaiaDR3) ([Fe/H]=-0.21)
+M_G(K5V) = 7.0485  ; pri. stan. HD_201091_ = GJ 820A plx=285.9949mas K5V (GaiaDR3) ([Fe/H]=-0.13)
+M_G(K5V) =  7.16624  ; deprecated stan. HD_154363_ plx=95.5670mas K5V (GaiaDR3) [Fe/H]=-0.55)
+M_G(K5V) =   7.2783  ; HD_10436_ plx=73.9769mas K5Vbe  (GaiaDR3) ([Fe/H]=-0.14) (K5.5V in Gray03)
+M_G(K5V) =  7.28403  ; HD_131156B_ plx=148.1793mas K5Ve (GaiaDR3) ([Fe/H]=-0.14)
+M_G(K5V) =   7.32764  ; HD_21531_ plx=80.04mas K5V (GaiaDR3) ([Fe/H]=+0.42) (K6Vk in Gray06)
+M_G(K5V) =   7.44855  ; BD-07_699_ plx=63.8136mas K5V  (GaiaDR3) (K7V in Reid95)
+M_G(K5V) =  7.4514  ; BD+41_2695_ plx=63.3405mas K5V  (GaiaDR3)
+M_G(K5V) =   7.48313  ; HD_4967_ plx=65.0902mas (K5V in Reid95 but K7-Vk in Gray06) (GaiaDR3)
+M_G(K5V) =  7.49923  ; HD_173818_ plx=70.1335mas (K5V, Reid95) (GaiaDR3) ([Fe/H]=-0.04)
+M_G(K5V) =   7.78227  ; BD+57_1274_ plx=57.01mas (K5V in Reid95 but K7 in Gaidos14) (GaiaDR3)
+M_G(K5V) =   8.04538  ; HD_118926_ plx=66.2010mas (K5V in Reid95 but K7 in Gaidos14) (GaiaDR3)
+[EEM 8/13/2023: 1) there is a tail of stars with SIMBAD default types of 'K5V' but these may be somewhat
+later type in more modern references - ones fainter than M_G>7.3 more often than not often have other recent classifications later than K5V), 2) note odd jump in M_G distribution between M_G ~ 7.05-7.28]
+
 Mv(K5V)  =    8.17 mag ; Henry94 
 Mv(K5V)  =    8.0  mag ; GrayCorbally09
 Mv(K5V)  =  7.76  mag ; exemplar HD 10436
@@ -252,16 +276,16 @@ Mv(K5V)  =  7.36  mag ; V-Ks=2.883 => EEM fit to MS data
 Mv(K5V)  = 7.36   mag ; SIMBAD d<20pc trend for K dwarfs for V-Ks=2.88
 Mv(K5V)  =  7.35  mag ; V-Ks=2.883 => EEM fit to Reid CNS3 data
 Mv(K5V)  =  7.33  mag ; EEM fit to well-defined K4V-K7V trend for B-V=1.15
-Mv(K5V)  =  7.33  mag ; median Koen10 d<25pc K5V 
+Mv(K5V)  =  7.33  mag ; median Koen10 d<25pc K5V
+Mv(K5V)  = 7.33  mag ; exemplar HIP 51443 ([Fe/H] ~ 0.0)
 Mv(K5V)  =  7.32  mag ; JohnsonApps09 for V-K=2.883
-Mv(K5V)  = 7.30  mag ; exemplar HIP 51443 ([Fe/H] ~ 0.0)
 Mv(K5V)  = 7.28 mag ; fit to Yee17 logT/logL/Rad data for Teff=4440K, [Fe/H]=0.0
 Mv(K5V)  =  7.25  mag ; B-V=1.15 => EEM fit to SIMBAD dwarfs d<25pc
 Mv(K5V)  = 7.23 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=1.15
 Mv(K5V)  =    7.24 mag ; Wegner07
 Mv(K5V)  = 7.18  mag ; B-V=1.15 => Wright04 calibration
 Mv(K5V)  = 7.15 mag ; trend [Fe/H] vs. Mv for standards+exemplars [Fe/H]=0.0
-Mv(K5V)  =  7.11 mag ; exemplar HD 113194
+Mv(K5V)  =  7.13 mag ; exemplar HD 113194
 Mv(K5V)  = 7.09  mag ; sec. stan. HD 36003 (see below) ([Fe/H] ~ -0.105)
 Mv(K5V)  =  7.06  mag ; exemplar HD 27274
 Mv(K5V)  =  7.02  mag ; exemplar HD 171314 = GJ 718 A ([Fe/H] ~ +0.07)
@@ -272,18 +296,13 @@ Mv(K5V)  =  7.02  mag ; exemplar HD 171314 = GJ 718 A ([Fe/H] ~ +0.07)
 [Note: trend of [Fe/H] vs. Mv for 5 standards & exemplars:
 Mv  = 7.15 - 1.273*[Fe/H], rms=0.150 mag]
 
-M_G(K5V) = 6.65  ; exemplar HD 171314 = GJ 718 A ([Fe/H] ~ +0.07)
-M_G(K5V) = 6.69  ; sec. stan. HD 36003 = GJ 204 ([Fe/H] ~ -0.105)
-M_G(K5V) = 6.83  ; Mv=7.28, G-V=-0.45
-M_G(K5V) = 6.872 ; SIMBAD d<20pc trend for V-Ks=2.883
-M_G(K5V) = 7.049 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A ([Fe/H] ~ -0.25)
-
 M_Ks(K5V) = 4.65 mag ; median d<25pc K5V (N=47)
 M_Ks(K5V) = 4.60 mag ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A ([Fe/H] ~ -0.25)
+M_Ks(K5V) = 4.51 mag ; exemplar HIP 51443 = BD-20 3194 ([Fe/H] ~ 0.0)
 M_Ks(K5V) = 4.48 mag ; SIMBAD d<20pc trend for K dwarfs for V-Ks=2.88
-M_Ks(K5V) = 4.47 mag ; exemplar HIP 51443 = BD-20 3194 ([Fe/H] ~ 0.0)
-M_Ks(K5V) = 4.32 mag ; sec. stan. H 36003 = GJ 204 ([Fe/H] ~ -0.105)
+M_Ks(K5V) = 4.32 mag ; sec. stan. HD 36003 = GJ 204 ([Fe/H] ~ -0.105)
 M_Ks(K5V) = 4.31 mag ; exemplar HD 171314 = GJ 718 A ([Fe/H] ~ +0.07)
+M_Ks(K5V) =  4.04 mag ; exemplar HD 113194 (likely unresolved binary)
 
 BCv(K5V) = -0.545 mag ; Bertone04(ATLAS,Teff=4440K)
 BCv(K5V) =  -0.59  mag ; Schmidt-Kaler82 (BCv=-0.72 + 0.13 offset)
@@ -389,7 +408,8 @@ GJ 653 = HD 154363 = LHS 431 = HIP 83591
   93.40+-0.94mas(vanLeeuwen07), Mv= 7.586+-0.027.  PASTEL compendium
   median values: <Teff> = 4340K(N=9), logg=4.3(N=2, large
   uncertainties), [Fe/H]=-0.62+-0.12(Tasantaki13),
-  [Fe/H]=-0.62+-0.04(Sousa08).
+  [Fe/H]=-0.62+-0.04(Sousa08). Soubiran22/PASTEL means:
+  Teff=4369+-26K, logg=4.62+-0.04, [Fe/H]=-0.55+-0.05.
 
 GJ 69 = HD 10436 = HIP 8070 = LHS 1291 = NLTT 5703
   K2: Cannon
@@ -460,26 +480,39 @@ HIP 51443 = BD-20 3194 = UGP 234
   All 3 published spectral types in Skiff compendium are K5V.  Maybe
   the closest to solar metallicity among either the standards or the
   current crop of exemplars.  V=9.64(HIP), B-V=1.163+-0.010(HIP),
-  V-I=1.27+-0.02(HIP).  plx = 33.9983+-0.0823 mas(GaiaDR2), plx =
-  34.13+-1.35mas(vanLeeuwen07), Mv = 7.30+-0.01, M_Ks=4.47.  J=7.503+-0.023,
+  V-I=1.27+-0.02(HIP).  plx=33.9983+-0.0823mas(GaiaDR2),
+  plx=34.13+-1.35mas(vanLeeuwen07), plx=34.5779+-0.0204mas(GaiaDR3) =>
+  Mv=7.33, M_G=6.887+-0.003. M_Ks=4.511+-0.021.  J=7.503+-0.023,
   H=6.946+-0.046, Ks=6.817+-0.021(2MASS).  V-Ks = 9.64 - 6.817 =
-  2.823.  Teffs: 4436K(RAVE5/Cannon), 4470K(Hinkel17), 4495K(RAVE5#1),
-  4500K(GaiaDR2), 4505K(Stevens17), 4516K(Stassun17), 4632K(RAVE5#2),
-  4659K(4539-4773K)(GaiaDR2) => <Teff> = 4502K(N=9).
-  [Fe/H]=-0.1+-0.09(Stevens17), [Fe/H]=0.0(GaiaDR2),
-  [Fe/H]=0.005(RAVE5/Cannon), [Fe/H]=0.24(RAVE5) => <[Fe/H]> ~ 0.0.
+  2.823.  G=9.193115+-0.002774(GaiaDR3). Teffs: 4436K(RAVE5/Cannon),
+  4470K(Hinkel17), 4495K(RAVE5#1), 4500K(GaiaDR2), 4505K(Stevens17),
+  4516K(Stassun17), 4632K(RAVE5#2), 4659K(4539-4773K)(GaiaDR2) =>
+  <Teff> = 4502K(N=9).  [Fe/H]=-0.1+-0.09(Stevens17),
+  [Fe/H]=0.0(GaiaDR2), [Fe/H]=0.005(RAVE5/Cannon), [Fe/H]=0.24(RAVE5)
+  => <[Fe/H]> ~ 0.0.
 
 HD 113194 = HIP 63618 = UGP 312
   K4V: Houk82
  *K5V(k): Upgren72(K5V),Gray06
 
-  GaiaDR2: plx=56.3997+-0.1368mas. V=8.351(Koen10). B-V=0.94(Mermilliod91),
+  GaiaDR3 RUWE value is large (7.234), and Kervella22 reports
+  tangential velocity anomaly of 113.44+-19.50 m/s, so it likely has a
+  companion (likely substellar if within tens of au of the star).
+  V=8.810(Mermilliod91), V=8.35(HIP), V=8.351(Koen10),
+  V=8.358292(GaiaDR3/synth), V=8.38(TYC). B-V=0.94(Mermilliod91),
   B-V=1.216+-0.022(HIP), B-V=1.222(Koen10), U-B=1.171(Koen10),
-  V-Rc=0.743(Koen10), V-Ic=1.404(Koen10). Mv = 7.11.
-  2MASS:J=6.059+-0.019, H=5.427+-0.026, Ks=5.264+-0.023.  V-Ks=3.087.
-  No published metallicities. Teffs: 4262K(Hinkel17),
-  4286+-119.4(Stassun19), 4329+-76K(Bai19), 4372K(GaiaDR2),
-  4430+-15K(Stevens17) => <Teff> = 4329K.
+  V-Rc=0.743(Koen10), V-Ic=1.404(Koen10), g-r=1.109(Just08),
+  r-i=0.241(Just08), Rc-Ic=0.468(Just08). Mermilliod91 photometry
+  appears to be very discrepent (faint,
+  blue). G=7.867339+-0.002765(GaiaDR3). 2MASS: J=6.059+-0.019,
+  H=5.427+-0.026, Ks=5.264+-0.023.  V-Ks=3.087.
+  plx=56.3997+-0.1368mas(GaiaDR2), plx=56.9407+-0.1946mas(GaiaDR3) -
+  note large uncertainty (and RUWE=7.234).  No published
+  metallicities, other than RV template metallicity in GaiaDR3 of
+  [Fe/H]=-0.25. Teffs: 4262K(Hinkel17), 4286+-119.4(Stassun19),
+  4329+-76K(Bai19), 4372K(GaiaDR2), 4430+-15K(Stevens17) => <Teff> =
+  4329K. Mv=7.128(Koen10,GaiaDR3), M_G=6.644+-0.008,
+  M_Ks=4.041+-0.024.
 
 HD 19819 = GJ 1056 = HIP 14587 = CD-60 637
  *K5V(k): Gray06,Upgren72(K5V)
@@ -544,9 +577,9 @@ HD 332518 = HIP 97223 = 2MASS J19453562+3000369
 
 RECONS list shows GJ 820A (61 Cyg A: J2106+3844) as the nearest K5.0V star.
 
-xi Boo B = HD 131156 B = GJ 566B
- *K5V: Adams35,Struve55,Levato78(K5Ve),Abt81,Bidelman85
+xi Boo B = HD 131156B = GJ 566B
   K4V: Pounds93(K4Ve),Pye95,Dieterich12
+ *K5V: Adams35,Struve55,Levato78(K5Ve),Abt81,Bidelman85
 
   5.6" separation from xi Boo A (G7V), P=151.6yr, e=0.51
   (Rodriguez+2015).

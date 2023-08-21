@@ -162,6 +162,40 @@ Teff(K6V) =   4205 K ; Schmidt-Kaler82 halfway between K5V(4350) and K7V(4060)
 Teff(K6V) =  4030 K ; deprecated stan. GJ 380
 => adopt Teff(K6V) = 4300 K (logT = 3.633) [updated 12/15/2020]
 
+M_G(K6V) =   6.633   ; exemplar GJ 412.3 = GJ 9347 (GaiaDR2)
+M_G(K6V) =   6.922   ; exemplar GJ 818  (GaiaDR2)
+M_G(K6V) = 6.92953  ; exemplar HD_200779_ plx=66.4626mas K6V (GaiaDR3) ([Fe/H]=+0.09)
+M_G(K6V) =   6.943   ; pri. stan. GJ 529  (GaiaDR2)
+M_G(K6V) = 6.93082  ; HD_120476B_ plx=74.1202mas K6V (GaiaDR3) ([Fe/H]=0.00 for "A")
+M_G(K6V) =  6.93538  ; HD_85512_ plx=88.6737mas K6Vk: (GaiaDR3) ([Fe/H]=-0.24)
+M_G(K6V) = 6.94995 ; pri. stan. HD_120467 plx=71.0780mas (K6Va in Keenan89, K5.5V in Gray06) (GaiaDR3) ([Fe/H]=+0.34)
+M_G(K6V) =  6.9748   ; HD_218511_ plx=67.3957mas (K6V in Torres06, K5.5V in Gray06) (GaiaDR3) ([Fe/H]=-0.07)
+M_G(K6V) =   7.020   ; exemplar GJ 39  (GaiaDR2)
+M_G(K6V) =   7.027   ; exemplar HD 72928 (GaiaDR2)
+M_G(K6V) = 7.02907   ; exemplar HD 72928 plx=28.9681mas K6V (GaiaDR3)
+M_G(K6V) =   7.04    ; trend [Fe/H] vs. M_G for [Fe/H]=0.0 (GaiaDR2)
+M_G(K6V) =  7.04085  ; HD_53680_ plx=57.7938mas (K6V in Gray06, but K5V in 3 others) (GaiaDR3)
+M_G(K6V) =  7.06759  ; HD_17230_ plx=61.8910mas K6V  (GaiaDR3)
+M_G(K6V) =   7.102   ; exemplar GJ 249 (GaiaDR2)
+M_G(K6V) =   7.105   ; exemplar HIP 11739 = BD-20 470 (GaiaDR2)
+M_G(K6V) = 7.11024   ; exemplar HD_49601_ plx=53.6322 K6V (GaiaDR3)
+M_G(K6V) =  7.12218  ; HD_148467_ plx=57.0866mas K6V  (GaiaDR3)
+M_G(K6V) = 7.15      ; Mv=7.64, G-V=-0.49 (GaiaDR2)
+M_G(K6V) =  7.1533   ; HD_25004_ plx=56.9352mas K6Vk:  (GaiaDR3) ([Fe/H]=-0.03)
+M_G(K6V) =  7.2098   ; BD+30_2512_ plx=68.8506mas K6V  (GaiaDR3) ([Fe/H]=+0.21)
+M_G(K6V) =  7.27182  ; HD_221503_ plx=68.7356mas K6V  (GaiaDR3) ([Fe/H]=+0.28)
+M_G(K6V) =  7.3291   ; HD_35650_ plx=57.2706mas K6V  (GaiaDR3) ([Fe/H]=+0.06)
+M_G(K6V) =  7.3907   ; HD_191391_ plx=63.2074mas K6Vk  (GaiaDR3)
+M_G(K6V) =  7.39972  ; HD_139763_ plx=64.1825mas K6Vk  (GaiaDR3)
+M_G(K6V) =  7.40704  ; HD_77175_ plx=54.1456mas K6V  (GaiaDR3)
+M_G(K6V) =   7.44446  ; HD_120036A_ plx=68.6052mas (K6V in Torres06, K6.5V(k) in Gray06) (GaiaDR3) ([Fe/H]=-0.03)
+M_G(K6V) =   7.52328  ; HD_88230_ plx=205.3148mas (K6VeFe-1 in Keenan89, K7V in Kirkpatrick91) (GaiaDR3) ([Fe/H]=+0.21)
+M_G(K6V) =   7.9429   ; HD_38A_ plx=86.8003mas (K6V in Tamazian06, K7V in Reid95) (GaiaDR3) ([Fe/H]=+0.19)
+
+[EEM 8/3/2023: note the ~0.1 mag offset between M_G values of standard and exemplars and
+what we adopt above - I still need to reconcile the Mv and G-V values with this]
+ 
+
 Mv(K6V) =  7.15 mag ; exemplar GJ 412.3 = GJ 9347
 Mv(K6V) =   7.16 mag ; Habets81
 Mv(K6V) =  7.38 mag ; exemplar GJ 818
@@ -193,18 +227,7 @@ Mv(K6V) =    8.29 mag ; Henry94 relation
 => adopt M_G(K6V)  = 7.15 mag [updated 11/15/2022] (Mv=7.64, G-V=-0.49)
 => adopt M_Ks(K6V) = 4.56 mag [updated 3/2/2021] (Mv=7.64, V-Ks=3.08)
 
-M_G(K6V) =   6.633 ; exemplar GJ 412.3 = GJ 9347
-M_G(K6V) =  6.922 ; exemplar GJ 818 
-M_G(K6V) =  6.943 ; pri. stan. GJ 529 
-M_G(K6V) =  7.020 ; exemplar GJ 39 
-M_G(K6V) =  7.027 ; exemplar HD 72928
-M_G(K6V) = 7.04  ; trend [Fe/H] vs. M_G for [Fe/H]=0.0
-M_G(K6V) =  7.102 ; exemplar GJ 249
-M_G(K6V) =  7.105 ; exemplar HIP 11739 = BD-20 470
 
-[EEM 8/3/2023: note the ~0.1 mag offset between M_G values of standard and exemplars and
-what we adopt above - I still need to reconcile the Mv and G-V values with this]
- 
 M_Ks(K6V) =  4.67 ; median K6V d<25pc N=34
 M_Ks(K6V) =  4.60 ; SIMBAD d<20pc trend for K dwarfs for V-Ks=3.08
 M_Ks(K6V) =  4.57 ; exemplar HIP 11739 = BD-20 470

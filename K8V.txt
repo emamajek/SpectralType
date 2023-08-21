@@ -66,7 +66,6 @@ note that some of the V-Ic values in Hipparcos seem at odds with previous measur
 least among the K/M boundary stars. I suspect the Koen10 value (actual measurements)
 is near the actual value
 
-
 (V-Ks)(K8V) =  3.361 ; exemplar GJ 836.8 = HIP 107346
 (V-Ks)(K8V) =  3.362 ; exemplar GJ 576 = LHS 3020 
 (V-Ks)(K8V) =  3.455 ; exemplar GJ 1217 = HIP 85026
@@ -122,56 +121,71 @@ is near the actual value
 
 (r-i)(K8V) = 0.542 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.772
 
+M_G(K8V) =    7.552  ; exemplar GJ 836.8 = HIP 107346 (GaiaDR2)
+M_G(K8V) = 7.55527  ; exemplar GJ 836.8 = HIP 107346 = plx=50.4101mas (K8V, Gray03) (GaiaDR3)
+M_G(K8V) = 7.58853  ; exemplar HD_132683_ plx=56.0678mas (K8Vk, Gray03) (GaiaDR3)
+M_G(K8V) = 7.691    ; SIMBAD d<20pc trend for V-Ks=3.44 (GaiaDR2)
+M_G(K8V) =   7.70561 ; HD_152606_ plx=56.5381mas (K8Vk, Gray06) (GaiaDR3)
+M_G(K8V) = 7.72169  ; standard HIP 111288 = LP_876-76_ plx=29.6841mas K8Vk (GaiaDR3)
+M_G(K8V) =   7.72988 ; CD-32_11389_ plx=45.4054mas (K8Vk, Gray06) (GaiaDR3)
+M_G(K8V) = 7.78768  ; exemplar HIP 112843 = CD-47_14363 (K8V, Gray) (GaiaDR3)
+M_G(K8V) =7.80     ; Mv=8.43, G-V=-0.63
+M_G(K8V) =   7.81716 ; CD-27_13268_ plx=56.6602mas (K8Vk, Gray06) (GaiaDR3)
+M_G(K8V) = 7.83929  ; exemplar GJ 576 plx=52.5048mas (K8V, Gray03) (GaiaDR3)
+M_G(K8V) = 7.84108  ; exemplar GJ 1217 plx=32.6879mas (K8Vk, Gray06) (GaiaDR3)
+M_G(K8V) =  8.06203  ; exemplar GJ 757 plx=36.1521mas (K8Vk, Gray06) (GaiaDR3)
+M_G(K8V) =   8.09309 ; HD_21209B_ plx=51.8252mas (K8Vk, Gray06) (GaiaDR3) ([Fe/H]=-0.36 for "A")
+M_G(K8V) =   8.09889 ; CD-34_8577_ plx=31.7772mas (K8Vk, Gray06) (GaiaDR3)
+M_G(K8V) =   8.42724 ; CD-39_2700_ plx=51.9998mas (K8Vk, Gray06) (GaiaDR3)
+[EEM 8/13/2023: none of these stars have Soubiran22/PASTEL mean metallicity estimates.
+There is clearly a pileup in abs. mags between M_G~7.55-7.85. 
 
 Mv(K8V)  =    7.70 mag ; Habets81
-Mv(K8V)  =  8.16 mag  ; exemplar GJ 836.8 = HIP 107346
-Mv(K8V)  =  8.23 mag  ; exemplar HD 132683 = GJ 571.1
+Mv(K8V)  = 8.16 mag  ; exemplar GJ 836.8 = HIP 107346
+Mv(K8V)  = 8.23 mag  ; exemplar HD 132683 = GJ 571.1
 Mv(K8V)  =  8.27 mag  ; B-V=1.37 => EEM fit to SIMBAD dwarfs d<25pc
-Mv(K8V)  =  8.37 mag  ; standard HIP 111288
+Mv(K8V)  = 8.37 mag  ; standard HIP 111288
 Mv(K8V)  =  8.39 mag  ; SIMBAD d<20pc K dwarf trend for V-Ks=3.50, M_Ks=4.89
 Mv(K8V)  =    8.40 mag ; Wegner07
 Mv(K8V)  =  8.40 mag  ; smooth trend in K7V-M0V range with xHIP data d<25pc
 Mv(K8V)  =  8.41 mag  ; V-K=3.50 => SchlaufmanLaughlin10 calibration
-Mv(K8V)  = 8.42 mag   ; V-Ks=3.50, M_Ks=4.92
+Mv(K8V)  =  8.42 mag   ; V-Ks=3.50, M_Ks=4.92
 Mv(K8V)  =  8.42 mag  ; V-K=3.48 => EEM fit to Reid CNS3 data
-Mv(K8V)  = 8.43 mag   ; V-Ks=3.48 MS trend 
-Mv(K8V)  =  8.43 mag  ; exemplar GJ 576 = LHS 3020
-Mv(K8V)  =  8.45 mag  ; exemplar HIP 112843 = Smethells 118
-Mv(K8V)  =  8.46 mag  ; exemplar GJ 1217 = HIP 85026 
+Mv(K8V)  =  8.43 mag   ; V-Ks=3.48 MS trend 
+Mv(K8V)  = 8.43 mag  ; exemplar GJ 576 = LHS 3020
+Mv(K8V)  = 8.45 mag  ; exemplar HIP 112843 = Smethells 118
+Mv(K8V)  = 8.46 mag  ; exemplar GJ 1217 = HIP 85026 
 Mv(K8V)  =  8.47 mag  ; V-Ks=3.48 => EEM fit to Jao16 data
 Mv(K8V)  =  8.48 mag  ; V-K=3.48 => Mv(JohnsonApps09)
 Mv(K8V)  =  8.48 mag  ; median Koen10 d<25pc K8V
 Mv(K8V)  =  8.49 mag  ; B-V=1.37 => Wright05 calibration
-Mv(K8V)  =  8.70 mag  ; exemplar GJ 757 = LHS 5347
-=> adopt Mv(K8V)   = 8.43 mag [updated 3/2/2021] (M_Ks=4.95, V-Ks=3.48]
+Mv(K8V)  = 8.70 mag  ; exemplar GJ 757 = LHS 5347
+=> adopt Mv(K8V)   = 8.43 mag [updated 8/14/2023] (M_Ks=4.95, V-Ks=3.48]
 => adopt M_G(K8V)  = 7.80 mag [updated 11/15/2022] (Mv=8.43, G-V=-0.63)
-=> adopt M_Ks(K8V) = 4.95 mag [updated 3/2/2021] (Mv=8.43, V-Ks=3.48)
+=> adopt M_Ks(K8V) = 4.95 mag [updated 8/14/2023] (Mv=8.43, V-Ks=3.48)
 
-M_G(K8V) =  7.552 ; exemplar GJ 836.8 = HIP 107346
-M_G(K8V) =  7.59  ; exemplar GJ 571.1 = HD 132683
-M_G(K8V) = 7.691 ; SIMBAD d<20pc trend for V-Ks=3.44
-M_G(K8V) =  7.723 ; standard HIP 111288
-M_G(K8V) =  7.79  ; exemplar HIP 112843 = Smethells 118
-M_G(K8V) = 7.80  ; Mv=8.43, G-V=-0.63
-M_G(K8V) =  7.84  ; exemplar GJ 1217 = HIP 85026
-M_G(K8V) =  7.84  ; exemplar GJ 576 = LHS 3020
-M_G(K8V) =  8.06  ; exemplar GJ 757 = LHS 5347
-
-M_Ks(K8V) =  4.73 mag ; exemplar HD 132683 = GJ 571.1
-M_Ks(K8V) =  4.78 mag ; SchlaufmanLaughlin10 calib for V-Ks=3.48
-M_Ks(K8V) =  4.80 mag ; exemplar GJ 836.8 = HIP 107346
-M_Ks(K8V) =  4.86 mag ; standard HIP 111288 = StKM 2-1622
-M_Ks(K8V) =  4.86 mag ; exemplar HIP 112843 = Smethells 118
-M_Ks(K8V) =  4.89 mag ; SIMBAD d<20pc K dwarf trend for V-Ks=3.50
-M_Ks(K8V) = 4.92 mag ; Mv=8.40, V-Ks=3.48
-M_Ks(K8V) =  4.94 mag ; EEM fit to Reid CNS3 data for V-Ks=3.48
+M_Ks(K8V) =  4.73 mag ; exemplar HD 132683 = GJ 571.1 (K8Vk, Gray06) (GaiaDR3)
+M_Ks(K8V) =   4.78 mag ; SchlaufmanLaughlin10 calib for V-Ks=3.48
+M_Ks(K8V) =  4.80 mag ; exemplar GJ 9752 = GJ 836.8 = HIP 107346 (K8V, Gray03) (GaiaDR3)
+M_Ks(K8V) =  4.81 mag ; HD_152606_ plx=56.5381mas (K8Vk,Gray06) (GaiaDR3)
+M_Ks(K8V) =  4.84 mag ; CD-49_2340_ plx=65.12mas (K8Vk:,Gray06)  (GaiaDR3)
+M_Ks(K8V) =  4.84 mag ; CD-32_11389_ plx=45.4054mas (K8Vk,Gray06)  (GaiaDR3)
+M_Ks(K8V) =  4.85 mag ; standard HIP 111288 = StKM 2-1622 (GaiaDR3)
+M_Ks(K8V) =  4.86 mag ; exemplar HIP 112843 = Smethells 118 (K8Vk,Gray06) (GaiaDR3)
+M_Ks(K8V) =   4.89 mag ; SIMBAD d<20pc K dwarf trend for V-Ks=3.50
+M_Ks(K8V) =   4.92 mag ; Mv=8.40, V-Ks=3.48
+M_Ks(K8V) =   4.94 mag ; EEM fit to Reid CNS3 data for V-Ks=3.48
 M_Ks(K8V) = 4.95 mag ; V-Ks=3.48 MS trend (Mv=8.43)
-M_Ks(K8V) =  4.99 mag ; V-Ks=3.48 => EEM fit to Jao16 data
-M_Ks(K8V) =  5.00 mag ; JohnsonApps09 calib for V-Ks=3.48
-M_Ks(K8V) =  5.01 mag ; exemplar GJ 1217 = HIP 85026
-M_Ks(K8V) =  5.07 mag ; exemplar GJ 576 = LHS 3020 
-M_Ks(K8V) =   5.13 mag ; Henry04 calib for V-Ks=3.50
-M_Ks(K8V) =  5.22 mag ; exemplar GJ 757 = LHS 5347
+M_Ks(K8V) =  4.95 mag ; HIP 92444 = CD-27_13268 plx=56.6602mas (K8Vk,Gray06) (GaiaDR3)
+M_Ks(K8V) =   4.99 mag ; V-Ks=3.48 => EEM fit to Jao16 data
+M_Ks(K8V) =   5.00 mag ; JohnsonApps09 calib for V-Ks=3.48
+M_Ks(K8V) =  5.01 mag ; exemplar GJ 1217 = HIP 85026 (K8Vk,Gray06) (GaiaDR3)
+M_Ks(K8V) =  5.07 mag ; exemplar GJ 576 = LHS 3020 (K8V,Gray03)
+M_Ks(K8V) =    5.13 mag ; Henry04 calib for V-Ks=3.50
+M_Ks(K8V) =  5.17 mag ; HIP 63512 = CD-34_8577_ plx=31.7772mas (K8Vk,Gray06) (GaiaDR3)
+M_Ks(K8V) =  5.19 mag ; GJ9115B = HIP 15771 = HD_21209B_ plx=51.8252mas (K8Vk,Gray06) (GaiaDR3)
+M_Ks(K8V) =  5.22 mag ; exemplar GJ 757 = LHS 5347 (K8V,Gray06) (GaiaDR3)
+
 
 Teff(K8V) =   3908 K ; Casagrande08 Teff calibration for V-Ks=3.50
 Teff(K8V) =   3923 K ; vanBelle09 Teff calibration for V-Ks=3.50
@@ -256,6 +270,23 @@ HIP 111288 = StKM 2-1622 = LP 876-76 = TYC 6391-1169-1 (J2232-2059)
 pointed out some stars classified as K8V by Gray, that appears to have
 multiple classification near that type]
 
+HIP 112843 = Smethells 118 = NLTT 55019 = L 358-32 = CD-47 14363 = 2MASS J22510202-4713363 
+  K7: SpencerJones39
+ *K8Vk: Gray06
+  M0V: Smethells74
+  M1: Gaidos14
+
+  This star appears to have very typical absolute magnitudes (Mv, M_G,
+  M_Ks) near the median among the other K8Vs, except its B-V is a tad
+  redder than the others.  V=11.61(HIP,TYC,SPM4,Mermilliod91),
+  B-V=1.3896(GaiaDR3/synth), B-V=1.390+-0.015(HIP),
+  B-V=1.390(Mermilliod91), V-Ic=1.36+-0.02(HHIP),
+  J=8.847+-0.021(2MASS), H=8.199+-0.044(2MASS),
+  Ks=8.016+-0.029(2MASS).  V-Ks = 11.61 - 8.061 = 3.549. GaiaEDR3:
+  plx=23.3613+-0.0185mas, G=10.945192+-0.002783, E(Bp/Rp)=1.313,
+  Bp-Rp=1.827334, Bp-G=0.893380, G-Rp=0.933954.  G-V = 10.945192 -
+  11.61 = -0.6648. Mv=8.45, M_Ks=4.86, M_G=7.78678(GaiaDR3).
+
 GJ 836.8 = HIP 107346 = BD+40 4631 = PM J21444+4135 = MCC 71
   K5: Lee47,Reid95
   K6V: Joy47
@@ -325,19 +356,7 @@ GJ 757 = LHS 5347 = HIP 95417 = CD-22 13916 = StKM 2-1407
   Bp-Rp=1.775863, Bp-G=0.865976, G-Rp=0.909886.  Mv=8.70,
   M_Ks=5.224+-0.017, M_G=8.06. G-V = 10.271364 - 10.91 = -0.639.
 
-HIP 112843 = Smethells 118 = NLTT 55019 = L 358-32 = CD-47 14363 = 2MASS J22510202-4713363 
-  K7: SpencerJones39
- *K8Vk: Gray06
-  M0V: Smethells74
-  M1: Gaidos14
 
-  V=11.61(HIP,TYC,SPM4,Mermilliod91), B-V=1.390+-0.015(HIP),
-  B-V=1.390(Mermilliod91), V-Ic=1.36+-0.02(HHIP),
-  J=8.847+-0.021(2MASS), H=8.199+-0.044(2MASS),
-  Ks=8.016+-0.029(2MASS).  V-Ks = 11.61 - 8.061 = 3.549. GaiaEDR3:
-  plx=23.3613+-0.0185mas, G=10.945192+-0.002783, E(Bp/Rp)=1.313,
-  Bp-Rp=1.827334, Bp-G=0.893380, G-Rp=0.933954.  G-V = 10.945192 -
-  11.61 = -0.6648. Mv=8.45, M_Ks=4.86, M_G=7.79.
 
 # Other Stars
 
