@@ -3,13 +3,13 @@ F8V
 Garrison94 does not list an F8V anchor standard, but MK73 lists HD
 27808 as an F8V anchor standard.
 
-MK43 standard:        36 UMa - F8V 
+MK43 standard:        36 UMa  - F8V 
                       bet Vir - F8V 
 JM53 standards:       ups And - F8V
      		      bet Vir - F8V
+Garrison72 standard:  ups And - F8V
 MK73 dagger standard: HD 27808 (= vB 48) - F8V
 MorganAbt73 standard: HD 27808 (= vB 48) - F8V (fundamental standard) 
-Garrison72 standard:  ups And - F8V
 Cowley74 standard:    ups And - F8V
 Cowley76 standard:    ups And - F8V
 MK78 standard:        HD 27808 (= Hyades Vb 48) - F8V
@@ -203,6 +203,7 @@ BCv(F8V) = -0.002 mag ; Bertone04(ATLAS,Teff=6170K)
 BCv(F8V) = -0.028 mag ; Flower96(Teff=6170K)
 BCv(F8V) = -0.030 mag ; Schmidt-Kaler82(BCv=-0.16 + 0.13 offset)
 BCv(F8V) = -0.039 mag ; Masana06(Teff=6170K)
+BCv(F8V) = -0.040 mag ; exemplar HD 5015 = GJ 41 (fbol(Boyajian13),Vmag(Hauck97),IAU2015 system)
 BCv(F8V) = -0.043 mag ; Casagrande18(Teff=6170K,logg=4.5)
 BCv(F8V) = -0.044 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6170K)
 BCv(F8V) = -0.047 mag ; EEM fit to Casagrande06/08/10(Teff=6170K)
@@ -241,8 +242,10 @@ logL(F8V) = 0.292 dex ; Mv=4.05, BCv=-0.04 => Mbol = 4.01
 => adopt logL(F8V) = 0.292 dex [updated 9/26/2020]
 => adopt Mbol(F8V) = 4.010 mag [updated 9/26/2020]
 
+Rad(F8V) =  1.7580+-0.0206 Rsun ; exemplar HD 5015 = GJ 41 (slightly evolved logg=4.11)
 Rad(F8V) =  1.288 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=6170K)
 Rad(F8V) =  1.282 Rsun ; Gray03/06 F8Vs median from TIC9/Stassun19 (N=26)
+Rad(F8V) =  1.258 Rsun ; Challouf14 calibration for Mv=4.05, M_Ks=2.76
 Rad(F8V) = 1.2209 Rsun ; Teff=6180K, logL=0.292
 => adopt Rad(F8V) = 1.221 Rsun [updated 10/30/2020] 
 
@@ -416,9 +419,39 @@ HD 16673 = HR 784 = HIP 12444 = GJ 3175 = 2MASS J02401242-0927103
    Ks=4.530+-0.021(2MASS). G=5.665346(GaiaDR3), Bp-Rp=0.678608,
    Bp-G=0.258977, G-Rp=0.419631(GaiaDR3).  V-Ks = 5.775 - 4.530 =
    1.245. plx=45.9160+-0.1537mas(GaiaDR3). Mv=4.087+-0.009, M_G=3.977,
-   M_Ks=2.842+-0.022. G-V = 5.665346 - 5.775 = -0.110. 
+   M_Ks=2.842+-0.022. G-V = 5.665346 - 5.775 = -0.110.
+
+HD 5015 = GJ 41 = HIP 4151 = HR 244 = 2MASS J00530419+6107262 = TIC 285544488
+  F7V: Abt85
+  F8/G0V: 1897AnHar..28....1M
+  F8: 1927MeUpp..28....1L,1953AnAp...16....1D,1961UppAn...4j...1L,1964ArA.....3..339S,1966UppAn...5d...1O
+ *F8V: Adams35,Slettebak55,Gray01
+  F8IV: Roman50
+  F9 wl: Bidelman85
+  F9V: Abt09
+  G0IV: Nassau47
+  G0V: Cowley76
+
+  Good agreement on F8 subtype, although might be somewhat evolved
+  (logg=4.11, Rad=1.758Rsun).  V=4.789106(GaiaDR3/synth),
+  V=4.797+-0.012(Mermilliod91), V=4.797(Hauck97), V=4.80(HIP,TYC),
+  V=4.82(Johnson66), B-V=0.53(Johnson66), B-V=0.537(Just08),
+  B-V=0.540+-0.008(HIP,Mermilliod91), U-B=0.087+-0.030(Mermilliod91),
+  U-B=0.12(Johnson66), V-Rc=0.317(Just08), Rc-Ic=0.288(Just08),
+  V-Ic=0.605(Just08), V-Ic=0.61+-0.03(HIP).
+  K=3.54(Johnson68,Voelkcker75). 2MASS photometry is flagged "DDD", so
+  poor. g-r=0.339(Just08), r-i=0.072(Just08). Soubiran22/PASTEL mean
+  values: Teff=6105+-23K, logg=4.11+-0.05, [Fe/H]=0.05+-0.02.
+  plx=52.9017+-0.1037mas(GaiaDR3). Boyajian12: tetLD=0.865+-0.010mas
+  =>
+  Rad=1.7580+-0.0206Rsun(Boyajian12,GaiaDR3). fbol=(315.0+-0.56)e-12
+  W/m2(Boyajian12) => mbol=4.7567+-0.0019 mag(IAU2015 system) => BCv =
+  mbol - V = 4.7567 - 4.797 = -0.040. Lum=3.432+-0.061Lsun(Boyajian12) =>
+  logL=0.5355+-0.0077Lsun(Boyajian12). 
 
 # Other Stars
+
+
 
 HD 4813 = HR 235 = phi02 Cet
   F7IV-V: Malaroda75

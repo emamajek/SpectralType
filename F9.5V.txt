@@ -9,7 +9,7 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 (B-V)(F9.5V) = 0.583 ; median SIMBAD F9.5V d<25pc (N=4)
 (B-V)(F9.5V) = 0.579 ; trend for standards, exemplars, xHIP d<25pc F9.5Vs for [Fe/H]=0.0
 (B-V)(F9.5V) = 0.572 ; pri. stan. bet Com ([Fe/H] ~ +0.047)
-(B-V)(F9.5V) = 0.572 ; exemplar zet Tuc ([Fe/H] ~ -0.15)
+(B-V)(F9.5V) = 0.572 ; exemplar zet Tuc ([Fe/H]=-0.21)
 (B-V)(F9.5V) =  0.57  ; median CATSUP sample d<30pc (N=4)
 (B-V)(F9.5V) =  0.57  ; MorganAbt73/TableIII
 (B-V)(F9.5V) = 0.569 ; exemplar HD 100180 = HR 4437 ([Fe/H] ~ -0.01)
@@ -75,7 +75,7 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 (g-r)(F9.5V) = 0.375 ; Covey07
 => adopt (g-r)(F9.5V) = 0.39 [updated 10/10/2020]
 
-Teff(F9.5V) = 5932 K ; exemplar zet Tuc ([Fe/H] ~ -0.21; see below)
+Teff(F9.5V) = 5932 K ; exemplar zet Tuc ([Fe/H]=-0.21)
 Teff(F9.5V) = 5986 K ; Teff from smoothed SpT(Teff) trend
 Teff(F9.5V) = 5989 K ; exemplar HD 100180 
 Teff(F9.5V) = 5995 K ; Gray03/06 F9.5Vs median from TIC9/Stassun19
@@ -83,14 +83,14 @@ Teff(F9.5V) = 5996 K ; pri. stan. bet Com ([Fe/H] ~ +0.06; see below)
 Teff(F9.5V) = 6001 K ; interp F8V(B-V=0.53,T=6180K), G0V(B-V=0.60,T=5930K)
 => adopt Teff(F9.5V) = 5990 K (logTeff = 3.777) [updated 10/25/2020]
 
-BCv(F9.5V) = -0.033 ; Balona94 calib for Teff=5990K, set so BCv(5772K)=-0.085
-BCv(F9.5V) = -0.035 ; Bertone04 calib for Teff=5990K, set so BCv(5772K)=-0.085
-BCv(F9.5V) = -0.050 ; Flower96 calib for Teff=5990K, set so BCv(5772K)=-0.085
-BCv(F9.5V) = -0.056 ; Masana06 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) =  -0.033 ; Balona94 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) =  -0.035 ; Bertone04 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) =  -0.050 ; Flower96 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) =  -0.056 ; Masana06 calib for Teff=5990K, set so BCv(5772K)=-0.085
 BCv(F9.5V) = -0.058 ; Casagrande18 calib for Teff=5990K, set so BCv(5772K)=-0.085
 BCv(F9.5V) = -0.058 ; Casagrande08 calib for Teff=5990K, set so BCv(5772K)=-0.085
-BCv(F9.5V) = -0.059 ; Bessell98 calib for Teff=5990K, set so BCv(5772K)=-0.085
-BCv(F9.5V) = -0.061 ; Code76 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) =  -0.059 ; Bessell98 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) =  -0.061 ; Code76 calib for Teff=5990K, set so BCv(5772K)=-0.085
 => adopt BCv(F9.5V) = -0.06 [last updated 8/31/2019; adjusted so that BCv(5772K)=-0.085]
 
 M_G(F9.5V) = 3.845 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.433
@@ -103,6 +103,7 @@ Mv(F9.5V) = 4.39 ; xHIP |[Fe/H]|<0.2 dex d<25pc dwarf only for B-V=0.58
 Mv(F9.5V) = 4.41 ; EEM d<25pc trend for B-V=0.58
 Mv(F9.5V) =  4.43 ; pri. stan. HD 114710 = bet Com ([Fe/H] ~ +0.047)
 Mv(F9.5V) =  4.46 ; median SIMBAD F9.5V d<25pc (N=4)
+Mv(F9.5V) =  4.55 ; exemplar zet Tuc ([Fe/H]=-0.21)
 => adopt Mv(F9.5V)   = 4.35  mag [updated 10/30/2020]
 => adopt M_G(F9.5V)  = 4.195 mag [updated 12/10/2020] (Mv=4.35, G-V=-0.155)
 => adopt M_Ks(F9.5V) = 2.947 mag [updated 12/30/2020] (Mv=4.35, V-Ks=1.403)
@@ -111,6 +112,14 @@ logL(F9.5V) = 0.180 ; Mv=4.35, BCv=-0.06 => Mbol=4.29
 => adopt logL(F9.5V) = 0.180 [last updated 10/30/2020]
 => adopt Mbol(F9.5V) = 4.290 [last updated 10/30/2020]
 
+Rad(F9.5V) =  1.044+-0.010 Rsun ; exemplar zet Tuc 
+Rad(F9.5V) =  1.194 Rsun ; Gray03/06 F9.5Vs median from TIC9/Stassun19
+Rad(F9.5V) =  1.186 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=5990K)
+Rad(F9.5V) =  1.170 Rsun ; Challouf14 calibration for Mv=4.35, M_Ks=2.947
+Rad(F9.5V) = 1.1423 Rsun ; logL=0.180, Teff=5990K
+=> adopt Rad(F9.5V) = 1.142 Rsun [last updated 10/30/2020]
+
+
 Mass(F9.5V) =  1.201 Msun ; EEM Teff vs. Mass calibration (Teff=5990K)
 Mass(F9.5V) =  1.140 Msun ; HenryMcCarthy93 calibration for Mv=4.4
 Mass(F9.5V) =  1.102 Msun ; EEM logL vs Mass calibration (logL=0.18)
@@ -118,12 +127,11 @@ Mass(F9.5V) = 1.095 Msun ; Eker18 logL vs. Mass calibration (logL=0.18)
 Mass(F9.5V) = 1.091 Msun ; Fernandes21 calibration for logL=0.180
 Mass(F9.5V) =  1.078 Msun ; EEM calibration to Torres10 EBs (Mv=4.4)
 Mass(F9.5V) =  1.051 Msun ; Bertelli09 solar tracks (Teff=5990,logL=0.18)
+Mass(F9.5V) =  0.985+-0.027 Msun ; exemplar zet Tuc = HD 1581 ([Fe/H]=-0.21)
 => adopt Mass(F9.5V) = 1.09 Msun [updated 8/3/2023]
 
-Rad(F9.5V) =  1.194 Rsun ; Gray03/06 F9.5Vs median from TIC9/Stassun19
-Rad(F9.5V) =  1.186 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=5990K)
-Rad(F9.5V) = 1.1423 Rsun ; logL=0.180, Teff=5990K
-=> adopt Rad(F9.5V) = 1.142 Rsun [last updated 10/30/2020]
+
+logg(F9.5V) =4.394+-0.007 ; exemplar zet Tuc 
 
 # Primary Standard
 
@@ -170,9 +178,14 @@ zet Tuc = HD 1581 = HR 77 (V=4.2; J0020-6452)
   G2V: Evans57
 
   V=4.228+-0.009(Mermilliod91), B-V=0.572+-0.006(Mermilliod91),
-  U-B=0.018+-0.007(Mermilliod91).  PASTEL averages (Soubiran22):
-  Teff=5932+-12K(N=23), logg=4.43+-0.03(N=20),
-  [Fe/H]=-0.21+-0.01(N=20).
+  U-B=0.018+-0.007(Mermilliod91).  plx=116.1826+-0.1334mas(GaiaDR3) =>
+  Mv=4.554+-0.009(Mermilliod91,GaiaDR3).  PASTEL averages
+  (Soubiran22): Teff=5932+-12K(N=23), logg=4.43+-0.03(N=20),
+  [Fe/H]=-0.21+-0.01(N=20). Huber22 presents detailed stellar
+  parameters and asteroseismic analysis: Teff=5924+-130K,
+  [Fe/H]=-0.21+-0.09, M=0.985+-0.027Msun, R=1.044+-0.010Rsun,
+  logg=4.394+-0.007, age=5.3+-0.5Gyr (uncertainties for M, R, logg,
+  age combined random and systematic errors in quadrature here).
   
 HD 100180 = HR 4437 = HIP 56242
   F7V: Adams35

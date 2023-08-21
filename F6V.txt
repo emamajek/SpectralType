@@ -83,6 +83,7 @@ and within 1 mag of the MS (N=193):
 (G-V)(F6V) =  -0.13927  ; HD_89125_ F6V_
 (G-V)(F6V) = -0.139     ; trend for screened late F dwarfs for B-V=0.486 (see 10/24/2020 notes in F5V.txt)
 (G-V)(F6V) = -0.1350    ; HD_28406_  F6V B-V=0.451, Gmag=6.7800
+(G-V)(F6V) = -0.134     ; exemplar 1 Eri = tau01 Eri = HR 818 = HD 17206 (GaiaDR3) ([Fe/H]=+0.07)
 (G-V)(F6V) =  -0.131    ; HD_143463_ F6V_
 (G-V)(F6V) = -0.1300    ; HD_143463_ F6V B-V=0.483, Gmag=6.7800 
 (G-V)(F6V) =  -0.12964  ; HD_128429_ F6V_
@@ -106,6 +107,7 @@ and within 1 mag of the MS (N=193):
 (G-V)(F6V) =  -0.10843  ; HD_76653_ F6V_
 (G-V)(F6V) =  -0.10668  ; HD_149837_ F6V_
 (G-V)(F6V) =  -0.10536  ; HD_210302_ F6V_
+(G-V)(F6V) = -0.096 ; pri. stan. HD 30652 = pi03 Ori ([Fe/H]=+0.03) (GaiaDR3)
 (G-V)(F6V) =  -0.09458  ; HD_17206_ F6V_
 => adopt (G-V)(F6V) = -0.13 [updated 10/30/2020]
 
@@ -134,19 +136,31 @@ and within 1 mag of the MS (N=193):
 (Ks-W1)(F6V) = 0.054 ; EEM trend for d<30pc for B-V=0.484
 => adopt (Ks-W1)(F6V) = 0.054 [updated 12/29/2019]
 
+(V-Ks)(F6V) = 1.011 ; exemplar 1 Eri = tau01 Eri = HR 818 ([Fe/H]=+0.07) 
+(V-Ks)(F6V) = 1.108 ; pri. stan. HD 30652 = pi03 Ori
+
+(U-B)(F6V) =  0.000 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07)
 (U-B)(F6V) = -0.01  ; Fitzgerald70
 (U-B)(F6V) = -0.019 ; HIP d<75pc S/N>8 F6V N=106 (Mermilliod91 photometry)
 (U-B)(F6V) = -0.02  ; JohnsonMorgan53
 
+(V-Rc)(F6V) = 0.289 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07) ([Fe/H]=+0.07)
+
+(Rc-Ic)(F6V) = 0.261 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07) ([Fe/H]=+0.07)
+
+(V-Ic)(F6V)= 0.550  ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07) 
 <V-I>(F6V) = 0.557 (+-0.004 sem, +-0.024 stdev); Gray01/03/06 N=41)
 <V-I>(F6V) = 0.570 (+-0.001 sem, +-0.031 stdev); HIP d<75pc S/N>8 (N=194)
 
 (g-r)(F6V) = 0.337 ; Jordi06 (V-R)=>(g-r) for V-R=0.277
 (g-r)(F6V) = 0.295 ; Bilir05 (B-V)=>(g-r) for B-V=0.486
 (g-r)(F6V) = 0.28  ; Covey07
+(g-r)(F6V) = 0.264 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07) 
 => adopt (g-r)(F6V) = 0.29 [updated 10/10/2020]
 
+(r-i)(F6V) = 0.047 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07) 
 (r-i)(F6V) = 0.054 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.278
+
 
 
 Teff(F6V) =  6285 K ; sec. stan. HD 142860 = gam Ser ([Fe/H]=-0.18)
@@ -178,17 +192,20 @@ BCv(F6V) =  -0.15 mag ; Habets81
 => adopt BCv(F6V) = -0.03 [last updated 8/31/2019, adjusted so that BCv(5772K)=-0.085]
 
 M_G(F6V) = 2.996 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.36
+M_G(F6V) = 3.566 ; pri. stan. HD 30652 = pi03 Ori ([Fe/H]=+0.03)
+
+M_Ks(F6V) = 2.554 ; pri. stan. HD 30652 = pi03 Ori ([Fe/H]=+0.03)
 
 Mv(F6V)  =   3.99 mag ; Habets81
 Mv(F6V)  =  3.78 mag ; B-V=0.484 => EEM fit to SIMBAD dwarfs d<25pc
-Mv(F6V)  =  3.71 mag ; exemplar 1 Eri 
 Mv(F6V)  =   3.7  mag ; GrayCorbally09
 Mv(F6V)  =  3.70 mag ; B-V=0.484 => Mv(Wright05)
 Mv(F6V)  =  3.70 mag ; median SIMBAD F6V d<25pc (N=18)
+Mv(F6V)  =  3.69 mag ; exemplar 1 Eri = tau01 Eri = HR 818 = HD 17206 ([Fe/H]=+0.07)
 Mv(F6V)  = 3.69 mag ; linear fit to Gray01/03/06 dwarf sequence (d<50pc) for B-V=0.484
 Mv(F6V)  = 3.69 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.484
-Mv(F6V)  =  3.67 mag ; pri. stan. HD 30652 = pi^3 Ori
-Mv(F6V)  =  3.59 mag ; sec. stan. HD 142860 = gam Ser
+Mv(F6V)  =  3.66 mag ; pri. stan. HD 30652 = pi^3 Ori ([Fe/H]=+0.03)
+Mv(F6V)  =  3.59 mag ; sec. stan. HD 142860 = gam Ser ([Fe/H]=-0.18)
 Mv(F6V)  =  3.51 mag ; F dwarf trend standards/exemplars
 Mv(F6V)  =  3.51 mag ; exemplar HD 9021 = 38 Cas
 Mv(F6V)  =   3.15 mag ; Wegner07
@@ -201,6 +218,7 @@ logL(F6V) =  0.419 dex ; Eclipsing binary V455 Aur B (Southworth21; ~1.8 Gyr)
 => adopt logL(F6V) = 0.432 dex [update 9/26/2020]
 => adopt Mbol(F6V) = 3.660 mag [update 9/26/2020]
 
+Rad(F6V) =  1.403 Rsun ; Challouf14 calibration for Mv=3.69, M_Ks=2.50
 Rad(F6V) =  1.387 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=6360K)
 Rad(F6V) = 1.3586 Rsun ; Teff=6350K, logL=0.432
 Rad(F6V) =  1.329 Rsun ; Gray03/06 F6Vs median from TIC9/Stassun19 (N=23)
@@ -241,18 +259,26 @@ HD 30652 = pi03 Ori = 1 Ori = HIP 22449 = HR 1543 = GJ 178
   No Houk type.  Morgan65 calls pi3 Ori the F6V "fundamental
   classification standard". Garrison96 lists it as the only F6V star
   among the brightest ~300 stars on the sky with V<3.55mag. It is also
-  approximately solar metallicity.  B-V=0.448(Just08),
+  approximately solar metallicity.  V=3.184+-0.002(Hauck97),
+  V=3.187+-0.007(Mermilliod91), V=3.19(Johnson66), V=3.19(HIP) =>
+  adopt V=3.184+-0.002. B-V=0.448(Just08),
   B-V=0.451+-0.009(Mermilliod91), B-V=0.455+-0.006(Cousins71),
   B-V=0.46(Johnson66), B-V=0.474+-0.003(TYC), B-V=0.484+-0.003(HIP) =>
   adopt B-V=0.46.  U-B=-0.009+-0.014(Mermilliod91),
   U-B=-0.01(Johnson66), V-Rc=0.274(Just08), Rc-Ic=0.257(Just08),
-  V-Ic=0.531(Just08), V=3.184+-0.002(Hauck97),
-  V=3.187+-0.007(Mermilliod91), V=3.19(Johnson66),
-  b-y=0.298+-0.002(Hauck970, Mv=3.67, dMv=-0.03, par=124.6+-0.9
-  mas. Soubiran22/PASTEL means: Teff=6443+-14K, logg=4.30+-0.03,
-  [Fe/H]=0.03+-0.03. PASTEL median values: <Teff> = 6424K(N=20),
-  <logg>=4.30(N=9), [Fe/H]>=+0.01(N=11).  Mass = 1.25 Msun
-  (Holmberg09).
+  V-Ic=0.531(Just08), V+Ic=0.53+-0.02(HIP).
+  b-y=0.298+-0.002(Hauck970). G=3.087922+-0.003081(GaiaDR3) => G-V =
+  3.087922 - 3.184 = -0.096. 2MASS photometry flagged "DBC".
+  K=2.05(Sweeney90,TMSS), K=2.05+-0.06(vanBelle09),
+  K=2.07(Boyajian12), K=2.07(Glass74,Glass75,Leitherer84),
+  K=2.102+-0.097(Tabur09), K=2.11(Johnson66, Johnson68).  Converting
+  Johnson68 to 2MASS via Rieke => Ks=2.076 => V-Ks = 3.184 - 2.076 =
+  1.108.  plx=124.6198+-0.2246mas(GaiaDR3) =>
+  Mv=3.662+-0.004(Hauck97,GaiaDR3), M_Ks=2.554(Johnson68 via Rieke
+  conv.,GaiaDR3), M_G=3.566+-0.005(GaiaDR3).  Soubiran22/PASTEL means:
+  Teff=6443+-14K, logg=4.30+-0.03, [Fe/H]=0.03+-0.03. PASTEL median
+  values: <Teff> = 6424K(N=20), <logg>=4.30(N=9), [Fe/H]>=+0.01(N=11).
+  Mass = 1.25 Msun (Holmberg09).
 
 # Secondary Standard
 
@@ -262,9 +288,10 @@ HD 142860 = gam Ser = HIP 78072 = HR 5933 = GJ 603
   F7VAB: Kennedy83
 
   B-V(HIP)=0.478, Vmag=3.85, Mv=3.59, dMv=-0.07, par=88.86+-0.18 mas.
-  PASTEL/Soubiran22 mean: Teff=6285+-13K, logg=4.14+-0.03, [Fe/H]=-0.18+-0.01.
+  PASTEL/Soubiran22 mean: Teff=6285+-13K, logg=4.14+-0.03,
+  [Fe/H]=-0.18+-0.01.
   
-# Exemplar
+# Exemplars
 
 HD 9021 = 38 Cas = HR 427 
   *F6V: Adams35,Cowley76,Cowley79,Abt09
@@ -276,22 +303,42 @@ HD 9021 = 38 Cas = HR 427
    B-V=0.464+-0.005(Mermilliod91). PASTEL: <Teff> = 6298K(N=2).  Mv =
    3.51(HIP,HIP2).
 
-1 Eri = tau01 Eri = HR 818 = HD 17206
+1 Eri = tau01 Eri = HR 818 = HD 17206 = HIP 12843 = GJ 111 
    F5V: Cowley76,Adams35
    F5/6V: Houk88
-  *F6V: Gray06,Bidelman85(F6),Malaroda75,Roman50
+  *F6V: Roman50,Malaroda75,Bidelman85(F6),Malaroda75,Gray06
    F7V: Abt09
    F8V: Gray89
 
    Surprising lack of agreement for a star that appears to be a ~solar
-   composition dwarf. V=4.465+-0.007(Mermilliod91),
-   B-V=0.479+-0.011(Mermilliod91),
-   U-B=0.000+-0.015(Mermilliod91). PASTEL values: <Teff>=6231K(N=5),
-   <[Fe/H]> = 0.05(N=4), logg=4.50(N=4). PASTEL/Soubiran22 means:
-   Teff=6330+-52K, logg=4.36+-0.09, [Fe/H]=0.07+-0.05.
-   plx = 70.7449 0.4515 mas
-   (GaiaDR2), plx = 70.32 1.83 mas (HIP2). Mv =
-   3.713+-0.016(Mermilliod91,GaiaDR2). Note that color and absolute
+   composition dwarf ([Fe/H]=+0.07+-0.05, logg=4.36+-0.09;
+   Soubiran22). Probably a close binary although no companion in WDS
+   or SB9: Frankowski07 flagged the star as a proper motion binary
+   (high chi2 pm fit), and Kervella22 finds a sizeable tangential
+   velocity anomaly between HIP and Gaia: dVt=1211.38+-16.82 km/s.  RV
+   measurements by AbtLevy76 (1976ApJS...30..273A) over
+   delta(t)=1354days (N=21 obs), and they claim to detect an SB1 orbit
+   with P=958+-34days with amplitude K=4.8+-0.5 km/s, e=0.49+-0.06;
+   however MobeyGriffin87(1987ApJ...317..343M) apparently did not
+   recover the periodicity. ROSAT X-ray source:
+   logLx/Lbol=-4.87(Reiners03) and fast rotation (vsin=25.6+-0.3 km/s;
+   Reiners03). GaiaDR3 has a_max=0.282792mas for its astrometric
+   solution.  V=4.465+-0.007(Mermilliod91), V=4.47(HIP),
+   B-V=0.479+-0.011(Mermilliod91), B-V=0.468(Just08),
+   U-B=0.000+-0.015(Mermilliod91), g-r=0.264(Just08),
+   r-i=0.047(Just08), V-Rc=0.289(Just08), Rc-Ic=0.261(Just08),
+   V-Ic=0.550(Just08). 2MASS photometry is flagged "DDD" but Rieke22
+   presents transformed near-IR photometry: J=3.566, H=3.391, Ks=3.320
+   => (V-Ks) = 4.330868(GaiaDR3) - 3.32(Mermilliod91) = 1.011.
+   Bp-Rp=0.645337(GaiaDR3), Bp-G=0.254349(GaiaDR3),
+   G-Rp=0.390988(GaiaDR3) => G-V = 4.330868(GaiaDR3) -
+   4.465(Mermilliod91) = -0.134(GaiaDR3). PASTEL values:
+   <Teff>=6231K(N=5), <[Fe/H]> = 0.05(N=4),
+   logg=4.50(N=4). PASTEL/Soubiran22 means: Teff=6330+-52K,
+   logg=4.36+-0.09, [Fe/H]=+0.07+-0.05.  plx=70.32+-1.83mas(HIP2),
+   plx=70.7449+-0.4515mas (GaiaDR2),
+   plx=70.0459+-0.1599mas(GaiaDR3). Mv =
+   3.692+-0.009(Mermilliod91,GaiaDR3). Note that color and absolute
    magnitude is very close to mean for other F6Vs.
 
 HD 58855 = 22 Lyn = HR 2849 = HIP 36439
@@ -320,9 +367,6 @@ HD 149837 = HR 6177 = HIP 8165
   *F6V: 1953AnHar.119....1H,Houk75,Gray06
 
    Not in Soubiran22/PASTEL catalog.
-
-
-  
 
 # Deprecated Standards
 
