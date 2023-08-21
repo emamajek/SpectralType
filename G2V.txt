@@ -337,18 +337,29 @@ Torres10/2010AJ....140.1158T (V_sun = -26.76+-0.03, Mv_sun =
 recommend adopting the Bakis & Eker (2022) BCs at this time as they
 seem to have a large systematic (~0.15-0.16 mag) for Sun-like stars.
 
-M_G(G2V) =  3.9978  ; HD_76932_ G2VFe-1.8CH-1 plx=46.6872 mas (GaiaDR3)
-M_G(G2V) =  4.257   ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.466
-M_G(G2V) = 4.45949 ; HD_207129_ G2V plx=64.2717 mas (GaiaDR3)
-M_G(G2V) = 4.57589 ; *_18_Sco_ G2Va plx=70.7371 mas (GaiaDR3)
-M_G(G2V) = 4.64729 ; HD_189567_ G2V plx=55.7654 mas (GaiaDR3)
-M_G(G2V) = 4.66    ; Sun adopted by Creevey22/GaiaDR3/FLAME
-M_G(G2V) = 4.70802 ; HD_199288_ G2VFe-1.0 plx=46.5855 mas (GaiaDR3)
-M_G(G2V) = 4.71409 ; HD_76151_ G2V plx=59.3595 mas (GaiaDR3)
-M_G(G2V) = 4.83319 ; HD_181321_ G2V plx=50.2864 mas (GaiaDR3)
-M_G(G2V) = 4.85472 ; HD_102365_ G2V plx=107.3024 mas (GaiaDR3)
-M_G(G2V) = 4.89518 ; HD_38858_ G2V plx=65.7446 mas (GaiaDR3)
-M_G(G2V) =  4.93399 ; *_ksi_UMa_B_ G2V plx=114.4867 mas (GaiaDR3)
+M_G(G2V) =  3.9978   ; HD_76932_ plx=46.6872mas G2VFe-1.8CH-1  (GaiaDR3)
+M_G(G2V) =  4.24591  ; HD_137107J_ plx=55.98mas G2V+G2V  (GaiaDR3)
+M_G(G2V) = 4.257    ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.466
+M_G(G2V) =  4.3667   ; HD_179958_ plx=39.5809mas G2V  (GaiaDR3)
+M_G(G2V) =  4.37303  ; HD_210918_ plx=45.9146mas G2V  (GaiaDR3)
+M_G(G2V) =  4.45949  ; HD_207129_ plx=64.2717mas G2V  (GaiaDR3)
+M_G(G2V) =  4.50069  ; HD_25874_ plx=38.4266mas G2V  (GaiaDR3)
+M_G(G2V) =  4.51986  ; HD_45184_ plx=45.6782mas G2Va  (GaiaDR3)
+M_G(G2V) = 4.57589  ; sec. stan. HD_146233_ plx=70.7371mas G2Va  (GaiaDR3)
+M_G(G2V) = 4.59065  ; solar twin HD_9986_ plx=39.3118mas G2V  (GaiaDR3)
+M_G(G2V) =  4.61591  ; HD_190771_ plx=52.5334mas G2V  (GaiaDR3)
+M_G(G2V) =  4.64729  ; HD_189567_ plx=55.7654mas G2V  (GaiaDR3)
+M_G(G2V) = 4.66     ; Sun adopted by Creevey22/GaiaDR3/FLAME
+M_G(G2V) =  4.70802  ; HD_199288_ plx=46.5855mas G2VFe-1.0  (GaiaDR3)
+M_G(G2V) = 4.71409  ; ter. stan. HD_76151_ plx=59.3595mas G2V  (GaiaDR3)
+M_G(G2V) =  4.7382   ; HD_165401_ plx=41.4741mas G2V  (GaiaDR3)
+M_G(G2V) =  4.77204  ; *_53_Aqr_ plx=51.5079mas G2V+G3V  (GaiaDR3)
+M_G(G2V) =  4.83319  ; HD_181321_ plx=50.2864mas G2V  (GaiaDR3)
+M_G(G2V) =  4.85472  ; HD_102365_ plx=107.3024mas G2V  (GaiaDR3)
+M_G(G2V) =  4.85814  ; HD_12846_ plx=42.1141mas G2V  (GaiaDR3)
+M_G(G2V) =  4.89518  ; HD_38858_ plx=65.7446mas G2V  (GaiaDR3)
+M_G(G2V) =  4.93399  ; HD_98230_ plx=114.4867mas G2V  (GaiaDR3)
+[EEM 8/13/2023: support for M_G(G2V) ~ 4.65]
 
 Mv(G2V)  =  4.07 mag ; Wegner07 [highly discrepent]
 Mv(G2V)  =  4.7  mag ; Schmidt-Kaler82
@@ -368,11 +379,13 @@ Mv(G2V)  = 4.90 mag ; V-Ks=1.56 for EEM poly fit to SIMBAD d<25pc (1/2022) (M_Ks
 => adopt M_G(G2V)  = 4.635 mag [updated 12/10/2020] (Mv=4.80, G-V=-0.165)
 => adopt M_Ks(G2V) = 3.236 mag [updated 12/30/2020] (Mv=4.80, V-Ks=1.564)
 
+
 logL(G2V) = 0.010 dex ; Mv=4.80, BCv=-0.085 => Mbol = 4.715
 logL(G2V) = 0.000 dex ; Sun
 => adopt logL(G2V) = 0.010 dex [last updated 9/26/2020]
 => adopt Mbol(G2V) = 4.715 mag [last updated 9/26/2020]
 
+Rad(G2V) =  1.049 Rsun ; Challouf14 calibration for Mv=4.80, M_Ks=3.236
 Rad(G2V) = 1.012 Rsun ; logL = 0.010, Teff=5770K
 => adopt Rad(G2V) = 1.012 Rsun [updated 9/26/2020]
 
@@ -418,8 +431,17 @@ Sun = GJ 0
   (Quality=good) and at S/N=5 was able to discern F8-G8V
   (Quality=Fair-poor). IAU (2015) Nominal solar values: Teff=5772K,
   Rad=695700km, irradiance(1au)=1361 W/m2, Mbol=4.74, mbol=-26.832.
-  Chen19 PARSEC Teff=5772K, solar mix, logg=4.44 => Mv(Sun) = 4.830(predicted),
-  BCv=-0.090(Maiz-Appellanix06 calibration)
+  Chen19 PARSEC Teff=5772K, solar mix, logg=4.44 => Mv(Sun) =
+  4.830(predicted), BCv=-0.090(Maiz-Appellanix06 calibration). Reike23
+  adopts an average based on historical values of
+  Vmag(Sun)=-26.740+-0.02 (taking into account Nikinov49, Kariagina55,
+  Stebbins57, Gallouet64, Lockwood92, Willmer18) => consistent
+  with absolute mag Mv=4.832+-0.02. Given the IAU(2015)
+  definition of the apparent mbol for the Sun (tied to the irradiance
+  1361 W/m2) => mbol = -26.832, the BCv = mbol - mv = -26.832 -
+  -26.74+-0.02 => the Rieke23 adopted Vmag(Sun) is consistent with BCv
+  = -0.092+-0.02, which is consistent with what we've adopted in our
+  table (BCv(Sun)=-0.085) and throughout our luminosity estimates.
 
 ### Secondary Standards
 
@@ -463,12 +485,23 @@ HD 146233 = HR 6060 = 18 Sco = HIP 79672
   Lsun (surprisingly small error of 0.48%, i.e. probably
   unrealistically smaller than absolute spectrophotometry calibration
   ~<1-1.5%). Karovicova22 angular diameter work:
-  tetLD=0.663+-0.007mas(observed), fbol=(16.711+-0.060)e-8 erg/s/cm2
-  (=> mbol = 5.4450+-0.0039 IAU2015 scale), Mass=1.01+-0.02Msun,
-  Lum=1.043+-0.005Lsun, Rad=1.007+-0.011Rsun (note that their fbol adopts
-  BC corrections from Casagrande18). Karovicova22 discusses history
-  of angular diameter measurements for 18 Sco, which have uncomfortably
-  large scatter. 
+  tetLD=0.663+-0.007mas(observed,Table5), fbol=(16.711+-0.060)e-8
+  erg/s/cm2 (=> mbol = 5.4450+-0.0039 IAU2015 scale),
+  Mass=1.01+-0.02Msun, Lum=1.043+-0.005Lsun, Rad=1.007+-0.011Rsun
+  (note that their fbol adopts BC corrections from
+  Casagrande18). Karovicova22 discusses history of angular diameter
+  measurements for 18 Sco, which have uncomfortably large scatter.
+  Using just angular diameter and spectroscopic Teff, one can
+  independently estimate fbol: fbol =
+  (T/Tsun)^4*(1/4)*(1/206264806.3mas/rad)^2*(thetaLD_mas)^2 =
+  T^4*(thetaLD_mas)^2*3.83197e-25 = (1.887+-0.044)e-10 W/m2
+  (=1.38648+-0.0323292)e-13 x S0[nominal solar irradiance] where
+  S0=1361W/m2), which suggests 18 Sco is 27.145+-0.024 mags fainter
+  than the Sun. For 18 Sco magnitude V=5.496+-0.006(Hauck97), this
+  predicts delta(mag)=mag(18Sco)-mag(Sun) = 32.146+-0.026 and
+  independently predicts a solar apparent magnitude of
+  V(Sun)=-26.650+-0.027 (just from 18 Sco Teff, angular diameter, and
+  apparent V magnitude).
 
 ### Tertiary Standards
 

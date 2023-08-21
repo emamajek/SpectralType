@@ -198,6 +198,28 @@ BCv(G5V) = -0.102 mag ; Casagrande18(Teff=5660K,logg=4.5)
 BCv(G5V) =  -0.080 mag ; Schmidt-Kaler82(BCv=-0.21 + 0.13 offset)
 => adopt BCv(G5V) = -0.105 mag [last updated 9/26/2020, on scale where BCv(5772K)=-0.085]
 
+M_G(G5V) =  4.35538  ; HD_127334_ plx=42.7526mas G5VCH0.3  (GaiaDR3)
+M_G(G5V) = 4.62827  ; HD_25680_ plx=59.4728mas G5V  (GaiaDR3)
+M_G(G5V) = 4.66344  ; HD_147513_ plx=77.5655mas G5V  (GaiaDR3)
+M_G(G5V) = 4.6643   ; HD_20407_ plx=40.7774mas G5VFe-1.2CH-1  (GaiaDR3)
+M_G(G5V) = 4.67975  ; HD_197076_ plx=47.7457mas G5V  (GaiaDR3)
+M_G(G5V) = 4.71572  ; HD_202628_ plx=42.0274mas G5V  (GaiaDR3)
+M_G(G5V) = 4.81963  ; pri. stan. HD_20630_ plx=107.8023mas G5V  (GaiaDR3)
+M_G(G5V) = 4.83647  ; HD_10086_ plx=47.5821mas G5V  (GaiaDR3)
+M_G(G5V) = 4.92355  ; HD_42807_ plx=53.7653mas G5V  (GaiaDR3)
+M_G(G5V) = 4.92758  ; ter. stan. HD_120690_ plx=53.8785mas G5Va  (GaiaDR3) (Fe/H~solar)
+M_G(G5V) = 4.94975  ; HD_111395_ plx=58.4858mas G5V  (GaiaDR3)
+M_G(G5V) = 4.98798  ; exemplar HD_63433_ plx=44.6848mas G5V  (GaiaDR3)
+M_G(G5V) = 5.04774  ; HD_149612_ plx=43.2721mas G5VFe-1.2CH-0.9  (GaiaDR3)
+M_G(G5V) = 5.04806  ; HD_90156_ plx=45.5628mas G5V  (GaiaDR3)
+M_G(G5V) = 5.05961  ; HD_4915_ plx=44.5912mas G5V  (GaiaDR3)
+M_G(G5V) = 5.14309  ; HD_224930_ plx=81.1790mas G5VbFe-2  (GaiaDR3)
+M_G(G5V) = 5.19113  ; HD_203244_ plx=48.0625mas G5V  (GaiaDR3)
+M_G(G5V) =  5.35843  ; HD_36435_ plx=51.3371mas G5V  (GaiaDR3)
+M_G(G5V) =  5.52254  ; HD_6582_ plx=130.2881mas G5Vb  (GaiaDR3)
+M_G(G5V) =  5.84853  ; HD_59747_ plx=48.3563mas G5V  (GaiaDR3)
+[EEM 8/12/2023: support for M_G(G5V) ~ 4.92]
+
 Mv(G5V)  =  5.35 mag ; exemplar HD 110619 (metal poor)
 Mv(G5V)  =  5.25 mag ; exemplar HD 121849 (metal poor)
 Mv(G5V)  = 5.24 mag ; median SIMBAD G5V d<25pc (N=18)
@@ -222,6 +244,7 @@ logL(G5V) = -0.054 dex ; Mv=4.98, BCv=-0.105 => Mbol = 4.875
 => adopt logL(G5V) = -0.054 [updated 9/26/2020]
 => adopt Mbol(G5V) =  4.875 [updated 9/26/2020]
 
+Rad(G5V) = 1.011  Rsun ; Challouf14 calibration for Mv=4.98, M_Ks=3.345
 Rad(G5V) = 0.9773 Rsun ; logL=-0.054, Teff=5660K
 => adopt Rad(G5V) = 0.977 Rsun [updated 9/26/2020]
 
@@ -254,14 +277,14 @@ HD 120690 = HR 5209 = HIP 67620 = 2MASS J13512039-2423252
  *G5Va: Adams35(G5V),Keenan89(non-stan),GrayNstars(stan)
   G8V: 	1943HarCi.449....1H
 
-  Also very solar-ish composition. For Keenan, only appeared in 1989
-  version of standards list and was not "daggered" as a
-  standard. B-V=0.703(HIP), B-V=0.701+-0.008(Mermilliod91),
-  V=6.435+-0.010(Mermilliod91), V=6.435+-0.004(Hauck97),
-  U-B=0.266+-0.008(Mermilliiod91), H=4.829+-0.042, Ks=4.665+-0.017(2M)
-  => V-Ks = 6.435 - 4.665 = 1.770. PASTEL mean parameters: <Teff> =
-  5569K(N=9), <[Fe/H]>=-0.02(N=6), <logg>=4.40(N=6). Mv=4.98. Most
-  precise values from Ramirez14: Teff=5670+-9K, logg=4.41+-0.03,
+  Solar-ish metallicity. For Keenan, only appeared in 1989 version of
+  standards list and was not "daggered" as a standard. B-V=0.703(HIP),
+  B-V=0.701+-0.008(Mermilliod91), V=6.435+-0.010(Mermilliod91),
+  V=6.435+-0.004(Hauck97), U-B=0.266+-0.008(Mermilliiod91),
+  H=4.829+-0.042, Ks=4.665+-0.017(2M) => V-Ks = 6.435 - 4.665 =
+  1.770. PASTEL mean parameters: <Teff> = 5569K(N=9),
+  <[Fe/H]>=-0.02(N=6), <logg>=4.40(N=6). Mv=4.98. Most precise values
+  from Ramirez14: Teff=5670+-9K, logg=4.41+-0.03,
   [Fe/H]=-0.018+-0.009. V=6.435+-0.010(Mermilliod91),
   V=6.435+-0.004(Hauck97), B-V=0.701+-0.008(Mermilliod91),
   U-B=0.266+-0.008(Mermilliod91). plx=53.8785+-0.3427mas(GaiaDR2),
