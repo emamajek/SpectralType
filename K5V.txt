@@ -286,7 +286,7 @@ Mv(K5V)  =    7.24 mag ; Wegner07
 Mv(K5V)  = 7.18  mag ; B-V=1.15 => Wright04 calibration
 Mv(K5V)  = 7.15 mag ; trend [Fe/H] vs. Mv for standards+exemplars [Fe/H]=0.0
 Mv(K5V)  =  7.13 mag ; exemplar HD 113194
-Mv(K5V)  = 7.09  mag ; sec. stan. HD 36003 (see below) ([Fe/H] ~ -0.105)
+Mv(K5V)  = 7.09  mag ; sec. stan. HD 36003 = GJ 204 ([Fe/H]=-0.07)
 Mv(K5V)  =  7.06  mag ; exemplar HD 27274
 Mv(K5V)  =  7.02  mag ; exemplar HD 171314 = GJ 718 A ([Fe/H] ~ +0.07)
 => adopt Mv(K5V)   = 7.280 mag [updated 12/15/2020]
@@ -300,7 +300,7 @@ M_Ks(K5V) = 4.65 mag ; median d<25pc K5V (N=47)
 M_Ks(K5V) = 4.60 mag ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A ([Fe/H] ~ -0.25)
 M_Ks(K5V) = 4.51 mag ; exemplar HIP 51443 = BD-20 3194 ([Fe/H] ~ 0.0)
 M_Ks(K5V) = 4.48 mag ; SIMBAD d<20pc trend for K dwarfs for V-Ks=2.88
-M_Ks(K5V) = 4.32 mag ; sec. stan. HD 36003 = GJ 204 ([Fe/H] ~ -0.105)
+M_Ks(K5V) = 4.32 mag ; sec. stan. HD 36003 = GJ 204 ([Fe/H]=-0.07)
 M_Ks(K5V) = 4.31 mag ; exemplar HD 171314 = GJ 718 A ([Fe/H] ~ +0.07)
 M_Ks(K5V) =  4.04 mag ; exemplar HD 113194 (likely unresolved binary)
 
@@ -339,7 +339,7 @@ Mass(K5V) = 0.694 Msun ; Mann18 calib for M_Ks=4.397
 Mass(K5V) =  0.644+-0.012 Msun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
 => adopt Mass(K5V) = 0.70 Msun [updated 8/3/2023]
 
-logg(K5V) =  4.35 ; sec. stan. HD 36003 (see below).
+logg(K5V) =  4.51 ; sec. stan. HD 36003 (see below)
 logg(K5V) =  4.53 ; pri. stan. 61 Cyg A (see below). 
 logg(K5V) = 4.59 ; M=0.70Msun, R=0.701Rsun
 => adopt logg(K5V) = 4.59 [updated 8/3/2023]
@@ -370,23 +370,28 @@ GJ 204 = HD 36003 = HIP 25623 (J0528-0330)
   K6V: Adams36
   K8: Vyssotsky
 
-  Roman, Keenan, Gray agree on K5V, although considerable scatter in
-  older surveys. One of two non-standard K5Vs mentioned by Keenan in
-  final 1999 list (although list appears to have only been completed
-  to RA=14h before he passed, and 61 Cyg is at RA=21h).  3rd brightest
-  K5V in Gray et al. NStars survey.  Observed as K5V standard in
-  PecautMamajek13 since it was observable from CTIO (61 Cyg A was
-  not). Plx = 76.80+-0.80 mas. V=7.65(HIP), Mv=7.08(calc with HIP2
-  plx), B-V=1.113+-0.010(HIP), B-V=1.135(Koen10), V-I=1.26+-0.02(HIP),
-  V-Ic=1.241(Koen10), V-Rc=0.674(Koen10), U-B=1.087(Koen10),
-  J=5.615+-0.019(2MASS), Ks=4.880+-0.024(2MASS), V-J=2.035(HIP,2MASS)
-  (V-Ks)=2.770(HIP,2MASS). PASTEL median values: <Teff> = 4590K(N=5),
-  <logg>=4.37(N=4), [Fe/H]=-0.105(N=4).  (U,V,W) = 74.9, -1.6, -17.8
-  km/s (Bobylev06), Vtot = 77 km/s; so might be somewhat metal poor
-  and old? GaiaEDR3: plx=77.3499 0.0198mas, G=7.242388 0.002758 =>
-  Vizier cor => 7.242388 0.002758, E(BP/RP)=1.252, Bp-Rp=1.372357,
+  Near solar metallicity standard ([Fe/H]=-0.07+-0.04;
+  Soubiran22/PASTEL).  Roman, Keenan, Gray agree on K5V, although
+  considerable scatter in older surveys. One of two non-standard K5Vs
+  mentioned by Keenan in final 1999 list (although list appears to
+  have only been completed to RA=14h before he passed, and 61 Cyg is
+  at RA=21h).  3rd brightest K5V in Gray et al. NStars survey.
+  Observed as K5V standard in PecautMamajek13 since it was observable
+  from CTIO (61 Cyg A was not). Plx = 76.80+-0.80 mas. V=7.65(HIP),
+  Mv=7.08(calc with HIP2 plx), B-V=1.113+-0.010(HIP),
+  B-V=1.135(Koen10), V-I=1.26+-0.02(HIP), V-Ic=1.241(Koen10),
+  V-Rc=0.674(Koen10), U-B=1.087(Koen10), J=5.615+-0.019(2MASS),
+  Ks=4.880+-0.024(2MASS), V-J=2.035(HIP,2MASS)
+  (V-Ks)=2.770(HIP,2MASS). (U,V,W) = 74.9, -1.6, -17.8 km/s
+  (Bobylev06), Vtot = 77 km/s; so might be somewhat metal poor and
+  old? GaiaEDR3: plx=77.3499 0.0198mas, G=7.242388 0.002758 => Vizier
+  cor => 7.242388 0.002758, E(BP/RP)=1.252, Bp-Rp=1.372357,
   Bp-G=0.619049, G-Rp=0.753308.  G-V = 7.2424 - 7.65 =
-  -0.4076. Mv=7.09, M_G=6.69, M_Ks=4.32.
+  -0.4076. Mv=7.09, M_G=6.69, M_Ks=4.32.  PASTEL median values: <Teff>
+  = 4590K(N=5), <logg>=4.37(N=4),
+  [Fe/H]=-0.105(N=4). Soubiran22/PASTEL catalog means:
+  Teff=4565+-18K(Soubiran22), logg=4.51+-0.04(Soubiran22),
+  [Fe/H]=-0.07+-0.04(Soubiran22).
 
 # Deprecated Standards
 
@@ -640,7 +645,16 @@ GJ 3674 = LHS 2432 = BD+40 2442 = G 122-036
   Ks=6.611+-0.021, V-Ks=3.399. Appears to be significantly redder than
   other K5Vs. No PASTEL parameters.
 
+GJ 854 = HIP 109980 = BD+67_1424 = G 263-15 = G 264-23 = G 241-2 = NLTT 53430 = 2MASS J22163180+6820231 = Gaia DR3 2220169200616370432
+  K2: 1926BHarO.834....4L
+  K4: Bidelman85
+  K5V: 1956PMcCO..13a....B(K5), 1927MeUpp..28....1L
+ *K5-V: Gray03
+  K6V: Adams35
+  M1: Lee47
 
+  Nearby near solar metallicity in Soubiran22/PASTEL catalog.
+  Soubiran22/PASTEL catalog: Teff=4402+-35K, logg=4.60+-0.08, [Fe/H]=-0.01+-0.04. 
   
 # Comments on Teff scale as function of log(g)
 

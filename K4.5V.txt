@@ -12,7 +12,7 @@ redder than the median for K5V.
 (B-V)(K4.5V) =  1.109 ; non-stan. HD 110315
 (B-V)(K4.5V) =  1.111 ; non-stan. HD 154387
 (B-V)(K4.5V) =  1.112 ; non-stan. HD 120491
-(B-V)(K4.5V) = 1.114 ; exemplar BD+31_1781 
+(B-V)(K4.5V) = 1.114 ; exemplar GJ 9260 = HIP 40671 ([Fe/H]=0.00)
 (B-V)(K4.5V) =  1.115 ; non-stan. HD 27274
 (B-V)(K4.5V) =  1.115 ; non-stan. HD 170573
 (B-V)(K4.5V) =  1.118 ; non-stan. HD 109368
@@ -21,7 +21,7 @@ redder than the median for K5V.
 (B-V)(K4.5V) =  1.143 ; non-stan. HD 214749
 (B-V)(K4.5V) =  1.143 ; non-stan. HD 12058
 (B-V)(K4.5V) = 1.15  ; adopted for K5V
-(B-V)(K4.5V) =  1.155 ; non-stan. BD-21_3153
+(B-V)(K4.5V) = 1.155 ; exemplar BD-21_3153 ([Fe/H]=-0.17)
 (B-V)(K4.5V) =  1.157 ; non-stan. HD 4838
 (B-V)(K4.5V) = 1.158 ; Koen10 median d<25pc K4.5V
 (B-V)(K4.5V) =  1.194 ; non-stan. HD 17660
@@ -44,8 +44,9 @@ redder than the median for K5V.
 => adopt (G-J)(K4.5V)   = 1.683
 => adopt (G-Ks)(K4.5V)  = 2.364
 
+(V-Ks)(K4.5V) = 2.705 ; exemplar HD 21749 = GJ 143 = TOI-186 ([Fe/H]=+0.03)
 (V-Ks)(K4.5V) = 2.750 ; exemplar HIP 17346 = GJ 149A
-(V-Ks)(K4.5V) = 2.754 ; exemplar GJ 9260 = HIP 40671 =
+(V-Ks)(K4.5V) = 2.754 ; exemplar GJ 9260 = HIP 40671 ([Fe/H]=0.00)
 (V-Ks)(K4.5V) = 2.755 ; trend for K dwarfs (standards+exemplars)
 (V-Ks)(K4.5V) = 2.793 ; trend for B-V=1.12
 
@@ -54,6 +55,7 @@ redder than the median for K5V.
 => adopt (Ks-W1)(K4.5V) = 0.089 [updated 12/29/2019]
 
 M_G(K4.5V) = 6.764 ; SIMBAD d<20pc trend for V-Ks=2.793
+M_G(K4.5V) = 6.875 ; exemplar HIP 52776 = BD-21_3153 ([Fe/H]=-0.17)
 
 (G-V)(K4.5V) = -0.407 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=4550K (GaiaDR3 Gmags,SIMBAD Vmags)
 (G-V)(K4.5V) = -0.419 ; trend for SIMBAD d<20pc for V-Ks=2.793
@@ -70,15 +72,16 @@ M_G(K4.5V) = 6.764 ; SIMBAD d<20pc trend for V-Ks=2.793
 
 Teff(K4.5V) =  4440 K ; adopted for K5V 
 Teff(K4.5V) = 4505 K ; halfway between K4V and K5V
-Teff(K4.5V) = 4550 K ; interp K4V-K5V by Teff/B-V
 Teff(K4.5V) = 4547 K ; smooth Teff(SpT) trend
-Teff(K4.5V) = 4596 K ; trend for PASTEL Teffs(N=26) for Gray03/06 K4.5V *s (for [Fe/H]=0.00;rms=+-134K) 
+Teff(K4.5V) = 4550 K ; interp K4V-K5V by Teff/B-V
+Teff(K4.5V) = 4556 K ; exemplar HD 21749 = GJ 143 = TOI-186 ([Fe/H]=+0.03)
+Teff(K4.5V) = 4596 K ; trend for PASTEL Teffs(N=26) for Gray03/06 K4.5V *s (for [Fe/H]=0.00;rms=+-134K)
+Teff(K4.5V) = 4622 K ; exemplar HIP 52776 = BD-21_3153 ([Fe/H]=-0.17)
 Teff(K4V)   =  4620 K ; adopted for K4V
 => adopt Teff(K4.5V) = 4550 K (logTeff = 3.657) [updated 11/6/2019]
 
 BCv(K4.5V) = -0.545 ; Bessell98 calib for Teff=4550K, where BCv(5772K)=-0.085
 BCv(K4.5V) = -0.569 ; median of 5 calibrations for T=4540K
-BCv(K4.5V) = 
 => adopt BCv(K4.5V) = -0.569 [last updated 8/3/2018; adjusted so that BCv(5772K)=-0.08]
 
 Mv(K4.5V) = 7.04 ; Wright04 calibration for B-V=1.116
@@ -113,16 +116,46 @@ GJ 9260 = HIP 40671 = GJ 301.1 = LHS 1998 = BD+31_1781 = (J0818+3036; V=8.8)
   V=8.857+-0.027(Mermilliod91), B-V=1.144+-0.005(Mermilliod91),
   U-B=1.110+-0.000(Mermillod91), J=6.777+-0.020(2MASS),
   H=6.226+-0.020(2MASS), Ks=6.103+-0.020(2MASS), V-Ks = 8.857 - 6.103
-  = 2.754. [Fe/H] = 0.0280(-0.1502,0.1330)(GaiaDR3),
-  [Fe/H]=-0.03(-0.08,0.03)(GaiaDR3), [Fe/H]=0.00+-0.12(Grieves18).
+  = 2.754. [Fe/H]=-0.03(-0.08,0.03)(GaiaDR3),
+  [Fe/H]=0.00+-0.12(Grieves18), [Fe/H]=0.0280(-0.1502,0.1330)(GaiaDR3)
+  => adopt [Fe/H]=0.00.  Not in Soubiran22/PASTEL catalog.
 
-BD-21 3153 = HIP 52776 = PPM 258144
+HD 21749 = GJ 143 = TOI-186 = HIP 16069 = UGP 60 = HDS 432A = 2MASS J03265922-6329569 = Gaia DR3 4673947174316727040
+  K3V: Upgren72
+  K4V: Houk75
+ *K4.5V: Gray06
+  K5V: Evans57
+
+  Nearby near-solar metallicity in Soubiran22/PASTEL catalog, and an
+  exoplanet host star - with two of the first TESS-discovered small
+  exoplanets on 8- and 35-day periods (Dragomir19). So the system has
+  become rather well-characterized. Appears in WDS as an optical
+  double with an unrelated background star 22"
+  away. V=8.079+-0.018(Mermilliod91), V=8.08(HIP), V=8.143(Koen10),
+  B-V=1.120+-0.000(Mermilliod91), B-V=1.130+-0.011(HIP),
+  B-V=1.159(Koen10), U-B=1.080(Mermilliod91), U-B=1.144(Koen10),
+  V-Ic=1.16+-0.04(HIP), V-Ic=1.278(Koen10), V-Rc=0.713(Koen10),
+  J=6.081+-0.020(2MASS), H=5.524+-0.031(2MASS),
+  Ks=5.375+-0.024(2MASS).  V-Ks = 8.08 - 5.375 = 2.705.
+  Soubiran22/PASTEL mean values: Teff=4556+-30K, logg=4.55+-0.06,
+  [Fe/H]=0.03+-0.03.  G-V=-0.456, G-Ks=2.312, M_G=6.621, M_Ks=4.310.
+  Rad=0.695+-0.030Rsun(Dragomir19),
+  Lum=0.20597+-0.00016Lsun(Dragomir19) =>
+  logL=-0.6883+-0.0003(Dragomir19),
+  logg=4.613+0.052-0.061(Dragomir19), Teff=4640+-100K(Dragomir19),
+  [Fe/H]=+0.003+-0.060(Dragomir19), age=3.8+-3.7Gyr(Dragomir19).
+  Masses: Mass=0.746+-0.074Msun(Pinheiro14),
+  Mass=0.73+-0.07Msun(Dragomir19).
+
+HIP 52776 = BD-21_3153 = CPD-21_4795 = PPM 258144 = 2MASS J10472540-2217120 = UGP 246 = Gaia DR3 3550084490721711872
   K4/5V: Stephenson86
  *K4.5V(k): Gray06
   K5V: Upgren72
 
-  V=9.91(HIP), B-V=1.155+-0.015(HIP), Teff=4622+-102K(Sousa11),
-  [Fe/H]=-0.17+-0.06(Sousa11), logg=4.38+-0.24(Sousa11).
+  V=9.91(HIP), B-V=1.155+-0.015(HIP). Soubiran22/PASTEL "mean" values
+  come from a single source: Teff=4622+-102K(Sousa11),
+  [Fe/H]=-0.17+-0.06(Sousa11), logg=4.38+-0.24(Sousa11). plx=29.7994+-0.0178mas(GaiaDR3). M_G=6.875,
+  G-Ks=2.3814, M_Ks=4.494.
 
 HD 214749 = UGP 576
   K4/5V: Houk82
@@ -156,6 +189,7 @@ HIP 17346 = GJ 149A = CD-24_1826 = CPD-24_458 = 2MASS J03424468-2427582 = UGP 65
   H=6.582+-0.026(2MASS), Ks=6.442+-0.020(2MASS).  V-Ks = 9.192 - 6.442
   = 2.750.  PASTEL/Soubiran22: Teff=4603+-32K, logg=4.32+-0.25,
   [Fe/H]=-0.07+-0.13.
+
   
 # Other Stars
 
@@ -165,6 +199,5 @@ BD+40 1758
   K5V: Roman55
   K8V: Vyssotsky52
   M0V: Adams26
-
 
 

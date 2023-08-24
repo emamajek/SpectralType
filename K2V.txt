@@ -78,16 +78,14 @@ Skiff08 flags three stars as K2V MK standards, all from Keenan89: HD
 => adopt (Bp-G)(K2V) = 0.497
 
 (V-Ks)(K2V) = 2.084 ; pri. stan. eps Eri = HD 22049 
-(V-K)(K2V)  = 2.132 ; ter. stan. HD 4628 = HR 222 (Johnson K, not 2MASS)
 (V-Ks)(K2V) = 2.145 ; ter. stan. HD 166620 ([Fe/H]=-0.18)
+(V-K)(K2V)  = 2.158 ; ter. stan. HD 4628 = HR 222 
 (V-Ks)(K2V) =  2.170 ; deprecated stan. HD 109011 = NO UMa 
 (V-Ks)(K2V) = 2.180 ; exemplar HD 68475 = HIP 40051 ([Fe/H]~0.0)
 
 (Ks-W1)(K2V) = 0.073 ; EEM trend for d<30pc for B-V=0.884
 => adopt (Ks-W1)(K2V) = 0.073 [updated 12/29/2019]
 
-(G-V)(K2V) =  -0.171513 ; *_p_Eri_B_ plx=122.0035 mas (GaiaDR3)
-(G-V)(K2V) =  -0.176698 ; *_p_Eri_A_ plx=122.1088 mas (GaiaDR3)
 (G-V)(K2V) = -0.239    ; V-Ic vs G-V trend Pancinco22 for V-Ic=0.944
 (G-V)(K2V) =  -0.244896 ; HD_23484_ plx=61.8444 mas (GaiaDR3)
 (G-V)(K2V) =  -0.245348 ; HD_170657_ plx=75.8476 mas (GaiaDR3)
@@ -99,8 +97,25 @@ Skiff08 flags three stars as K2V MK standards, all from Keenan89: HD
 (G-V)(K2V) = -0.263    ; trend d<20pc for V-Ks=2.132
 (G-V)(K2V) =  -0.264248 ; *_eps_Eri_ plx=310.5773 mas (GaiaDR3) ([Fe/H]=-0.08)
 (G-V)(K2V) =  -0.270192 ; HD_166620_ plx=90.1234 mas (GaiaDR3)
-(G-V)(K2V) =  -0.362318 ; HD_115404_ plx=91.0176 mas (GaiaDR3)
 => adopt (G-V)(K2V) = -0.256 [updated 1/26/2023]
+
+(G-Ks)(K2V) = 1.79575  ; pri. stan. HD_22049_ plx=310.5773mas K2V (GaiaDR3) (G skewed by brightness?)
+(G-Ks)(K2V) =  1.8171   ; HD_23484_ plx=61.8444mas (K2V,Gray06) (GaiaDR3) ([Fe/H]=+0.09)
+(G-Ks)(K2V) =  1.81904  ; HD_67199_ plx=57.8659mas (K2V(k),Gray06) (GaiaDR3) ([Fe/H]=+0.04)
+(G-Ks)(K2V) =  1.82563  ; HD_30501_ plx=49.1798mas (K2V,Gray06) (GaiaDR3) ([Fe/H]=+0.08)
+(G-Ks)(K2V) = 1.86065  ; exemplar HD_170657_ plx=75.8476mas (K2V,Gray06) (GaiaDR3) ([Fe/H]=-0.17)
+(G-Ks)(K2V) =  1.88197  ; HD_116443_ plx=60.3161mas (K2V,Gray03) (GaiaDR3) ([Fe/H]=-0.39) 
+(G-Ks)(K2V) =  1.88589  ; HD_144628_ plx=67.4469mas (K2V,Keenan89) (GaiaDR3) ([Fe/H]=-0.40)
+(G-Ks)(K2V) =  1.88737  ; HD_189733A_ plx=50.5668mas (K2V,Gray03) (GaiaDR3) ([Fe/H]=-0.02)
+(G-Ks)(K2V) = 1.89781  ; sec. stan. HD_166620_ plx=90.1234mas K2V (GaiaDR3) ([Fe/H]=-0.18)
+(G-Ks)(K2V) =  1.90192  ; deprecated stan. HD_184467_ plx=55.2767mas (K2V,Keenan89) (GaiaDR3)
+(G-Ks)(K2V) =  1.90207  ; HD_24238_ plx=47.6976mas (K2V,Gray03) (GaiaDR3) ([Fe/H]=-0.48)
+(G-Ks)(K2V) =  1.9124   ; HD_1815_ plx=45.9535mas (K2V(k),Gray06) (GaiaDR3) 
+(G-Ks)(K2V) =  1.92037  ; HD_30876_ plx=56.5374mas (K2V,Houk82) (GaiaDR3) ([Fe/H]=+0.06)
+(G-Ks)(K2V) =  1.92243  ; HD_73667_ plx=54.2513mas (K2V,Gray03) (GaiaDR3) ([Fe/H]=-0.55)
+(G-Ks)(K2V) =  1.92867  ; HD_3765_ plx=55.8412mas (K2V,Keenan89) (GaiaDR3) ([Fe/H]=+0.15)
+=> adopt (G-Ks)(K2V) = 1.86 [updated 8/20/2023]
+[EEM 8/20/2023: trend (G-Ks)(K2V) = 1.863 - 0.067424*[Fe/H] (rms=0.0436)]
 
 (Bp-Rp)(K2V)=1.0575  ; *_p_Eri_A  K2V
 (Bp-Rp)(K2V)=1.079   ; fit for V-Ks=2.132
@@ -207,10 +222,10 @@ BCv(K2V) = -0.221 mag ; pri. stan. HD 22049 = eps Eri (calc using Rains20)
 
 M_G(K2V) =  5.07763  ; deprecated stan. HD_184467_ plx=55.2767mas K2V  (GaiaDR3)
 M_G(K2V) = 5.29   ; exemplar HD_68475 = HIP 40051 ([Fe/H]~0.0) [seems oddly bright?]
-M_G(K2V) =  5.66071  ; deprecated stan. HD_45088_ plx=68.4142mas K2Ve  (GaiaDR3)
 M_G(K2V) =  5.70761  ; HD_23484_ plx=61.8444mas K2V  (GaiaDR3)
 M_G(K2V) =  5.74615  ; HD_67199_ plx=57.8659mas K2Vk:  (GaiaDR3)
 M_G(K2V) =  5.82745  ; HD_3765_ plx=55.8412mas K2V  (GaiaDR3)
+M_G(K2V) = 5.86    ; M_Ks=4.00, G-Ks=1.86 (trend value for [Fe/H]=0.00)
 M_G(K2V) = 5.904   ; ter. stan. HD_166620_ plx=90.1234 mas (GaiaDR3) ([Fe/H]=-0.18)
 M_G(K2V) = 5.9266  ; pri. stan. HD_22049_ = eps_Eri_ plx=310.5773 mas (GaiaDR3) ([Fe/H]=-0.08)
 M_G(K2V) =  5.94204 ; HD_10360 = p_Eri_A_ plx=122.1088 mas (GaiaDR3)
@@ -221,13 +236,8 @@ M_G(K2V) = 5.96436  ; exemplar HD_170657_ plx=75.8476mas K2V  (GaiaDR3)
 M_G(K2V) =  6.0117   ; HD_144628_ plx=67.4469mas K2V  (GaiaDR3)
 M_G(K2V) =  6.01513  ; HD_116443_ plx=60.3161mas K2V  (GaiaDR3)
 M_G(K2V) =  6.01605  ; HD_30876_ plx=56.5374mas K2V  (GaiaDR3)
-M_G(K2V) =  6.02826  ; HD_183870_ plx=56.5657mas K2V  (GaiaDR3)
-M_G(K2V) =  6.03348  ; HD_73667_ plx=54.2513mas K2V  (GaiaDR3)
-M_G(K2V) =  6.05735  ; HD_10361_ = p_Eri_B plx=122.0035mas K2V  (GaiaDR3)
-M_G(K2V) =  6.09331  ; HD_115404_ plx=91.0176mas K2V  (GaiaDR3)
-M_G(K2V) =  6.09934  ; HD_23356_ plx=71.7505mas K2V  (GaiaDR3)
+M_G(K2V) =  6.03348  ; HD_73667_ plx=54.2513mas (K2V,Gray03) (GaiaDR3) ([Fe/H]=-0.55)
 M_G(K2V) = 6.111   ; ter. stan. HD 4628 = HR 222 ([Fe/H]=-0.26)
-M_G(K2V) =  6.13034  ; HD_220339_ plx=52.1643mas K2V  (GaiaDR3)
 M_G(K2V) =   7.50631  ; HD_23189_ plx=55.8254mas K2V  (GaiaDR3) ([Fe/H]=-0.43)
 [EEM 8/13/2023: support M_G(K2V) ~ 5.96?]
 
@@ -263,13 +273,32 @@ Mv(K2V)  =    5.9  mag ; Reid04
 => adopt M_G(K2V)  = 5.81  mag [updated 11/15/2022] (Mv=6.07, G-V=-0.26)
 => adopt M_Ks(K2V) = 3.938 mag [updated 12/15/2020] (Mv=6.07, V-Ks=2.132)
 
-
-M_Ks(K2V) = 3.99 ; exemplar HD 68475 = HIP 40051 ([Fe/H]~0.0)
-M_Ks(K2V) = 4.01 ; ter. stan. HD 166620 ([Fe/H]=-0.18)
-M_Ks(K2V) = 4.07 ; deprecated stan. HD 109011 = NO UMa (UMa member)
-M_Ks(K2V) = 4.08 ; median K2V d<25pc (N=24)
-M_Ks(K2V) = 4.11 ; pri. stan. eps Eri = HD 22049 ([Fe/H]=-0.08) 
-M_K(K2V)  = 4.25 ; ter. stan. HD 4628 = HR 222 ([Fe/H]=-0.26)
+M_Ks(K2V) =    3.17571  ; deprecated stan. HD_184467_ plx=55.2767mas (K2V,Keenan89) 
+M_Ks(K2V) =   3.50429  ; HD_18455_ plx=44.51mas (K2V,Gray06) ([Fe/H]=-0.04) (outlier)
+M_Ks(K2V) =   3.8905   ; HD_23484_ plx=61.8444mas (K2V,Gray06) ([Fe/H]=+0.09)
+M_Ks(K2V) =   3.89877  ; HD_3765_ plx=55.8412mas (K2V,Keenan89) ([Fe/H]=+0.15)
+M_Ks(K2V) =   3.92711  ; HD_67199_ plx=57.8659mas (K2V(k),Gray06) ([Fe/H]=+0.04)
+M_Ks(K2V) =   3.98393  ; HD_30501_ plx=49.1798mas (K2V,Gray06) ([Fe/H]=+0.08)
+M_Ks(K2V) =  3.985    ; exemplar HD 68475 = HIP 40051 ([Fe/H]=-0.04)
+M_Ks(K2V) =  4.00     ; trend for [Fe/H]=0.00 among stars listed here (see below)
+M_Ks(K2V) =  4.00285  ; exemplar HD 13808 = HIP 1031 ([Fe/H]=-0.17)
+M_Ks(K2V) =  4.03442  ; exemplar HD 3222 = HIP 2743 ([Fe/H]=-0.41)
+M_Ks(K2V) =  4.00619  ; sec. stan. HD 166620_ plx=90.1234mas K2V ([Fe/H]=-0.18) 
+M_Ks(K2V) =   4.06033  ; HD_189733A_ plx=50.5668mas (K2V,Gray03) ([Fe/H]=-0.02) 
+M_Ks(K2V) =   4.07    ; deprecated stan. HD 109011 = NO UMa
+M_Ks(K2V) =  4.08 ; median K2V d<25pc (N=24)
+M_Ks(K2V) =   4.08348  ; HD_24238_ plx=47.6976mas (K2V,Gray03) ([Fe/H]=-0.48)
+M_Ks(K2V) =   4.09568  ; HD_30876_ plx=56.5374mas (K2V,Houk82) ([Fe/H]=-0.06)
+M_Ks(K2V) =  4.10371  ; exemplar HD_170657_ plx=75.8476mas (K2V,Gray06) ([Fe/H]=-0.17) 
+M_Ks(K2V) =  4.107  ; pri. stan. eps Eri = HD_22049_ plx=310.5773mas K2V ([Fe/H]=-0.08) (see notes)
+M_Ks(K2V) =   4.11105  ; HD_73667_ plx=54.2513mas (K2V,Gray03) ([Fe/H]=-0.55)
+M_Ks(K2V) =   4.12581  ; HD_144628_ plx=67.4469mas (K2V,Keenan89) ([Fe/H]=-0.40)
+M_Ks(K2V) =   4.13317  ; HD_116443_ plx=60.3161mas (K2V,Gray03) ([Fe/H]=-0.39)
+M_Ks(K2V) =  4.228     ; sec. stan. HD 4628 K2V ([Fe/H]=-0.26)
+M_Ks(K2V) =   4.44059  ; HD_1815_ plx=45.9535mas (K2V(k),Gray06) 
+=> adopt M_Ks(K2V) = 4.00 [updated 8/20/2023]
+[EEM 8/20/2023: trend is well fit by:      M_Ks(K2V) = 3.998 - 0.28226*[Fe/H] (rms=0.070mag)
+among K2V stars within +-0.2 dex of solar: M_Ks(K2V) = 3.990 - 0.47574*[Fe/H] (rms=0.061mag)
 
 logL(K2V) = -0.278+-0.065 ; ecl. binary ASAS_J045304-0700.4A (Helminiak11)
 logL(K2V) = -0.310+-0.053 ; ecl. binary EPIC 219511354A in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
@@ -415,15 +444,16 @@ HD 4628 = HR 222 = GJ 33 = HIP 3765 = BD+04 123 = LHS 121
   Rc-Ic=0.441(Just08), V-Ic=0.949(Just08),
   V-Ic=0.968(Cousins96). 2mASS photometry is flagged 'DDD', poor
   quality. Morel78 reports Johnson IR photometry: J=4.24, K=3.61,
-  L=3.48 from Johnson68, so V-K(Johnson) = 5.742 - 3.61 = 2.132.
+  L=3.48 from Johnson68 => tranforming via Rieke22 => Ks=3.584 =>
+  (V-Ks) = 5.742 - 3.584 = 2.158.
   G=5.467689+-0.002788mag(GaiaDR3). Soubiran22/PASTEL means:
   Teff=5007+-20K, logg=4.62+-0.03, [Fe/H]=-0.26+-0.01. Mv=6.38.
   Boyajian13 reports limb-darkened diameter 0.868+-0.004mas,
   plx=134.4990+-0.0890mas(GaiaDR2) => R=0.694Rsun.
   R=0.695+-0.004Rsun(Yee17). plx = 134.4948+-0.0578mas(GaiaDR3) =>
   Mv=6.386+-0.013(Mermlliod91,GaiaDR3), M_G=6.111+-0.003(GaiaDR3),
-  M_K=4.25(JohnsonK,GaiaDR3).
-
+  M_K=4.228(Johnson->2MASS,GaiaDR3).
+  
 # Deprecated standards
 
 HD 109011 = NO UMa = GJ 1160
@@ -476,12 +506,18 @@ HD 45088 = OU Gem = GJ 233A
   K2V HK em: Keenan89,Keenan99(non-stan)
   K2/3Ve: Bopp80
   K3Vk: Gray03
+ *K3V+K5V: Glazunova14
 
-  Similar to HD 3765 - where Keenan's last compilation considered it
-  K2V but Gray classified it later (K3V).  In Keenan's later lists,
-  but not flagged as one of the standards.  It is a BY Dra variable,
-  and the Keenan and Gray types disagree. So probably not the best
-  choice of standard.
+  Chromospherically active binary or "BY Dra-type" binary system - see
+  Glazunova14 for recent rewview.  Similar to HD 3765 - where Keenan's
+  last compilation considered it K2V but Gray classified it later
+  (K3V).  In Keenan's later lists, but not flagged as one of the
+  standards.  It is a BY Dra variable, and the Keenan and Gray types
+  disagree. So probably not the best choice of standard. Star is an
+  outlier in absolute Kmagnitude for its metallicity ([Fe/H]=-0.21;
+  Soubiran22), perhaps due to unresolved binarity? Is this why the
+  star is active?  Unresolved absolute magnitudes (outliers among K2V
+  stars!): M_G=5.66, M_Ks=3.45.
 
 HD 140573 = HR 5854 = alf Ser
   K2V: HoukStandard
