@@ -38,9 +38,10 @@ Alonso-Floriano15 standards:    GJ 205 (=HD 36395) - M1.5V ("prototype")
 Joy74 M1.5V stars appear to be approximately M1-V (~M0.75+-1 subtype)
 on the Kirkpatrick91 system.
 
-(B-V)(M1.5V)  =  1.415 ; exemplar GJ 366 = Ross 434 
+(B-V)(M1.5V)  =  1.415 ; exemplar GJ 366 = Ross 434
+(B-V)(M1.5V)  =  1.434 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
 (B-V)(M1.5V)  =   1.448; deprecated stan. GJ 526
-(B-V)(M1.5V)  =  1.464 ; exemplar GJ 908 = LHS 550 
+(B-V)(M1.5V)  =  1.464 ; exemplar GJ 908 = LHS 550 (metal poor) (Mermilliod91)
 (B-V)(M1.5V)  = 1.474  ; pri. stan. GJ 205 (Landolt83)
 (B-V)(M1V)    = 1.485  ; adopted
 (B-V)(M2V)    = 1.505  ; adopted
@@ -50,8 +51,15 @@ on the Kirkpatrick91 system.
 (B-V)(M1.5V)  =   1.603; deprecated stan. GJ 625
 => adopt (B-V)(M1.5V) = 1.495 [updated 8/13/2020]
 
-(V-I)(M1.5V)  = 2.15  ; Hawley96
-(V-I)(M1.5V)  = 2.076 ; pri. stan. GJ 205 (Landolt83)
+(U-B)(M1.5V)  = 1.105 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+
+(V-Rc)(M1.5V) = 0.964 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+
+(Rc-Ic)(M1.5V) = 1.081 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+
+(V-Ic)(M1.5V)  = 2.15  ; Hawley96
+(V-Ic)(M1.5V)  = 2.076 ; pri. stan. GJ 205 (Landolt83)
+(V-Ic)(M1.5V)  = 2.047 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
 
 <V-J>(M1.5V)  = 3.36 (+-0.23 stdev) ; Lepine12
 
@@ -389,7 +397,7 @@ GJ 49 = G 243-052 = LHS 1179 = HIP 4872 = BD+61_195 = G 244-7 = MCC 2 = Wolf 46 
 GJ 15A = BD+43_44A = GX And = HD 1326A
   M1V: JM53(non-standard),Hawley97,Reid04,Alonso-Floriano15(prototype)
  *M1.5V: Boeshaar76(non-stan),GrayAtlas,Boeshaar94,Henry94(non-stan),Henry02
-  M2V: Keenan85,Keenan88,Keenan99,Sozetti02
+  M2V: Keenan80,Keenan85,Keenan88,Keenan99,Sozetti02
 
   One of three non-standard M1Vs in JohnsonMorgan53, but it was the
   other two (GJ 414 and GJ 514) which later were commonly used M1V
@@ -524,9 +532,13 @@ GJ 908 = LHS 550 = BR Psc = HIP 117473 = Lal 46650 = BD+01 4774
   95735) and non-standards GJ 908 (BD+01 4774) and GJ 880 (HD 216899).
   One of three M1.5s in Boeshaar76, although one were called out as
   standards.  Type has mostly oscillated between ~M1 and ~M2 over the
-  years. [Fe/H]=-0.95+-0.19, as does Mann15 [Fe/H]=-0.45+-0.08.
-  V=8.983+-0.012(Mermilliod91), B-V=1.464+-0.028(Mermilliod91),
-  U-B=1.104+-0.025(Mermilliod91), J=5.827+-0.023(2MASS),
+  years. Star is a Landolt09 UBVRI photometric standard star.
+  [Fe/H]=-0.95+-0.19, as does Mann15 [Fe/H]=-0.45+-0.08.
+  V=8.983+-0.012(Mermilliod91), V=8.993+-0.0012(Landolt09),
+  B-V=1.464+-0.028(Mermilliod91), B-V=1.434+-0.0016(Landolt09),
+  U-B=1.104+-0.025(Mermilliod91), U-B=1.105+-0.0020(Landolt09),
+  V-Rc=0.964+-0.0008(Landolt09), Rc-Ic=1.081+-0.0016(Landolt09),
+  V-Ic=2.047+-0.0016(Landolt09). J=5.827+-0.023(2MASS),
   H=5.282+-0.031(2MASS),
   Ks=5.043+-0.020(2MASS). V-Ks=3.940(Mermilliod91,2MASS). mbol =
   7.503+-0.025 (JHK => Casagrande08 calib.) => BCv = -1.48, BC_K =

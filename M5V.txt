@@ -49,13 +49,13 @@ M5.0V.
 The latest dwarf standard listed by Keenan99 was Gl 83.1 (M5-V), now
 considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09). 
 
-(B-V)(M5V)  = 1.993 (+-0.0049) ; GJ 866ABC Landolt09
+(B-V)(M5V)  = 1.993 (+-0.0049) ; GJ 866ABC (Landolt standard)
 (B-V)(M5V)  =  1.978 ; GJ 1002 ; M5.0V in RECONS list of nearest 100 *s
 (B-V)(M5V)  =  1.962 ; GJ 866A ; M5.0V in RECONS list of nearest 100 *s
 (B-V)(M5V)  = 1.90  ; deprecated stan. GJ 1093
 (B-V)(M5V)  =  1.90  ; GJ 1061 ; M5.0V in RECONS list of nearest 100 *s
 (B-V)(M5V)  = 1.846 ; sec. stan GJ 1156
-(B-V)(M5V)  =  1.843 ; GJ 473 A ; M5.0V in RECONS list of nearest 100 *s
+(B-V)(M5V)  =  1.846 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
 (B-V)(M5V)  = 1.84 ; non-stan. GJ 3380
 (B-V)(M5V)  = 1.827 ; ter. stan. GJ 1057
 (B-V)(M5V)  =  1.82  ; Bessell91 "old disk"
@@ -68,32 +68,47 @@ considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09).
 (B-V)(M5V)  = 1.644 ; median SIMBAD M5V d<25pc (N=83)
 (B-V)(M5V)  =  1.64  ; SchmidtKaler82
 <B-V>(M5V)  =  1.61  ; Fitzgerald70
-<B-V>(M5V)  =  1.61  ; Johnson66
+<B-V>(M5V)  =  1.61  ; Johnson65,Johnson66
 <B-V>(M5V)  =  1.601 ; Crawford76
 => adopt (B-V)(M5V) = 1.83 [updated 7/5/2020]
 
-(U-B)(M5V)  = 0.790 ; pri. stan. GJ 51
+(U-B)(M5V)  = 0.790         ; pri. stan. GJ 51
 (U-B)(M5V)  = 1.028 +-0.026 ; sec. stan. GJ 1156
+(U-B)(M5V)  =  1.085        ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
 (U-B)(M5V)  = 1.150 +-0.000 ; ter. stan. GJ 1157
-<U-B>(M5V)  =  1.19 ; Johnson66
-(U-B)(M5V)  =  1.24 ; JohnsonMorgan53
-(U-B)(M5V)  = 1.245 ; U-B vs. B-V trend among Landolt09 stans for B-V=1.83
-(U-B)(M5V)  = 1.408 +-0.0130 ; GJ 866ABC (Landolt09)
-=> adopt (U-B)(M5V) = 1.24
+<U-B>(M5V)  =  1.19         ; Johnson65,Johnson66
+(U-B)(M5V)  =  1.24         ; JohnsonMorgan53
+(U-B)(M5V)  = 1.245         ; U-B vs. B-V trend among Landolt09 stans for B-V=1.83
+(U-B)(M5V)  = 1.408+-0.0130 ; deprecated stan. GJ 866AB (Landolt standard)
+=> adopt (U-B)(M5V) = 1.2: [updated 9/1/2023]
 
-<V-R>(M5V)  = 1.80 ; Johnson66
-(V-R)(M5V)  = 1.48 ; Bessell91 "old disk"
+<V-Rj>(M5V)  = 1.80 ; Johnson65,Johnson66
 
-(R-I)(M5V)  = 1.91 ; Bessell91 "old disk"
+(V-Rc)(M5V)  =  1.648 ; deprecated stan. GJ 866AB (Landolt standard)
+(V-Rc)(M5V)  =  1.530 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
+(V-Rc)(M5V)  = 1.48 ; Bessell91 "old disk"
+(V-Rc)(M5V)  = 1.21 ; The84 
 
-(V-I)(M5V)  = 3.39 ; Bessell91 "old disk"
-(V-I)(M5V)  = 3.30 ; Hawley96
+(R-Ic)(M5V)  =  2.042 ; deprecated stan. GJ 866AB (Landolt standard)
+(R-Ic)(M5V)  =  1.944 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
+(R-Ic)(M5V)  = 1.91 ; Bessell91 "old disk"
+(R-Ic)(M5V)  = 1.59 ; The84 (V-Ic)=2.80, (V-Rc)=1.21 
 
-<V-J>(M5V)  = 4.28 ; Johnson66
+(V-Ic)(M5V)  =  3.684 ; deprecated stan. GJ 866AB (Landolt standard)
+(V-Ic)(M5V)  =  3.479 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
+(V-Ic)(M5V)  = 3.39 ; Bessell91 "old disk"
+(V-Ic)(M5V)  = 3.30 ; Hawley96
+(V-Ic)(M5V)  =  2.80 ; The84
+
+(V-Ij)(M5V)  = 3.47 ; Johnson65
+
+(V-Jj)(M5V)  = 4.28 ; Johnson66
+
 <V-J>(M5V)  = 5.16 ; [N=2 standards]
 <V-J>(M5V)  = 5.23 (+-0.50 stdev) ; Lepine12
 
-<V-K>(M5V)     =  5.17  ; Johnson66
+(V-Kj)(M5V)    =  5.17  ; Johnson65,Johnson66
+
 (V-Ks)(M5V)    =  5.689 ; deprecated stan. GJ 852B
 (V-Ks)(M5V)    = 5.721 ; exemplar LP 71-82
 (V-Ks)(M5V)    = 5.737 ; exemplar GJ 3253 
@@ -114,6 +129,39 @@ considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09).
 => adopt (H-Ks)(M5V) = 0.312
 => adopt (J-H)(M5V)  = 0.580
 => adopt (J-Ks)(M5V) = 0.892
+
+(G-Ks)(M5V) = 3.55816  ; L_923-22_ plx=95.1784mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 3.63286  ; LSPM_J2146+3813_ plx=141.8946mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 3.84963  ; V*_V816_Her_ plx=91.4644mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 3.88226  ; G_119-36_ plx=102.7521mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 3.90881  ; G_97-15_ plx=98.2346mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 3.92314  ; G_193-27_ plx=110.8263mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 3.97053  ; LP_625-34_ plx=88.6929mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 4.06003  ; G_203-42_ plx=100.9274mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 4.06065  ; Ross_594_ plx=91.8429mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 4.09028  ; G_169-29_ plx=95.5199mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 4.10608  ; G_227-22_ plx=128.3057mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 4.11555  ; G_177-25_ plx=82.0393mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 4.12314  ; Wolf_227_ plx=103.5008mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 4.16094  ; SCR_J2009-0113_ plx=92.6525mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 4.19243  ; G_182-36_ plx=81.7388mas dM5.0 (GaiaDR3)
+(G-Ks)(M5V) = 4.20924  ; Wolf_47_ plx=101.3724mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 4.24425  ; G_268-110_ plx=102.2827mas dM5.0 (GaiaDR3)
+(G-Ks)(M5V) = 4.24653  ; G_192-15_ plx=104.9590mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 4.25727  ; Wolf_1069_ plx=104.4415mas dM5.0 (GaiaDR3)
+(G-Ks)(M5V) = 4.26251  ; LP_380-6_ plx=84.2246mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 4.2721   ; G_161-7_ plx=103.54mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 4.2952   ; SCR_J1138-7721_ plx=119.3419mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 4.37017  ; Wolf_1561_B_ plx=89.7340mas M5V (GaiaDR3)
+(G-Ks)(M5V) = 4.38388  ; G_141-36_ plx=131.2790mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 4.44075  ; G_157-77_ plx=139.3389mas M5.0Ve (GaiaDR3)
+(G-Ks)(M5V) = 4.45028  ; Ross_248_ plx=316.4812mas M5.0V (GaiaDR3)
+(G-Ks)(M5V) = 4.5464   ; G_109-35_ plx=128.9866mas M5.0Ve (GaiaDR3)
+(G-Ks)(M5V) = 4.57476  ; LP_469-206_ plx=109.9500mas M5.0Ve (GaiaDR3)
+(G-Ks)(M5V) = 4.60987  ; G_139-12_ plx=82.00mas M5V (GaiaDR3)
+
+
+(V-Lj)(M5V)    = 5.61 ; Johnson65
 
 <J-K_CIT>(M5V) = 0.87 ; Beuermann06
 
@@ -287,6 +335,7 @@ Teff(M5V) = 3068 K ; sec. stan. GJ 1156
 Teff(M5V) =    3100 K ; Johnson66
 Teff(M5V) =  3080 K ; empirical R-L relation, for logL=-2.52 
 Teff(M5V) = 3094 K ; pri. stan. GJ 51 (see below)
+Teff(M5V) =    3120 K ; Johnson65 
 Teff(M5V) =  3190 K ; Rajpurohit18 (mean for N=20 M5.0Vs)
 Teff(M5V) =    3240 K ; Schmidt-Kaler82
 Teff(M5V) =    3320 K ; Bertone04[NextGen]
@@ -294,6 +343,7 @@ Teff(M5V) =    3320 K ; Bertone04[NextGen]
 
 BCv(M5V) =   -2.02 mag ; Bertone04[NextGen]
 BCv(M5V) =   -2.60 mag ; Schmidt-Kaler82(BCv=-2.73 + 0.13 offset)
+BCv(M5V) =   -2.62 mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(M5V) =   -2.91 mag ; EEM fit to Casagrande08 data for Teff=2870K
 BCv(M5V) = -3.080 mag  ; Mann15(V-J=5.051)
 BCv(M5V) =  -3.11 mag  ; BC_K=2.84, V-Ks=5.95
@@ -410,7 +460,7 @@ GJ 1057 = LHS 168 = CD Cet = G 77-31 = G 79-13 = 2MASS J03132299+0446293 = NLTT 
 
 GJ 83.1 = GJ 9066 = Woolley 9066 = LHS 11 = TZ Ari = G 3-33 = G 73-12 = L 1159-16
  *M4.5V: Kirkpatrick91,Hawley97,Henry02,Reid04
-  M5-V: KeenanMcNeil76(stan; "on plate 18"),Turnshek85(stan),Keenan85,Keenan88,Keenan99(non-stan),Pecaut13
+  M5-V: KeenanMcNeil76(stan; "on plate 18"),Keenan80,Turnshek85(stan),Keenan85,Keenan88,Keenan99(non-stan),Pecaut13
   M5V: KeenanMcNeil76(stan; "in Table 3")
 
   This was the M5V and/or M5-V standard in KeenanMcNeil76 (there is a
@@ -583,12 +633,15 @@ GJ 473AB = Wolf 424 = LHS 333 = LFT 923 = FL Vir = Ci 20 716 = G 12-43 = G 60-14
   M5+e: Boeshaar76(stan)
   M5V: Hawley97(for A)
 
-  Hawley97 says its a 0.8" binary with delta Vmag = 0.3. It is not
-  obvious to me that a known barely-resolved binary should be a strong
-  spectral standard star. Henry, Johnson, McCarthy, & Kirkpatrick
-  (1992) studied the Wolf 424 system in detail: spectrum very similar
-  to Gl 65A (M5.5V), and masses of 0.12-0.15 Msun for A, and 0.11-0.12
-  Msun for B, and M_K(A) = 8.46+-0.10, M_K(B) =
+  Hawley97 says its a 0.8" binary with delta Vmag = 0.3 - I've
+  deprecated it as a standard given the binarity. The unrevold pair is
+  a Landolt photometric standard. Henry, Johnson, McCarthy, &
+  Kirkpatrick (1992) studied the Wolf 424 system in detail: spectrum
+  very similar to Gl 65A (M5.5V), and masses of 0.12-0.15 Msun for A,
+  and 0.11-0.12 Msun for B, and M_K(A) = 8.46+-0.10, M_K(B) =
   8.91+-0.15. delta(mags): delta(J) = 0.13+-0.04, delta(H) =
   0.20+-0.12 (Henry92), delta(K) = 0.45+-0.24 (Henry92).
+  V(AB)=12.467+-0.0042(Landolt09), B-V(AB)=1.846+-0.0053,
+  U-B(AB)=1.085+-0.0466(Landolt09), V-Rc(AB)=1.530+-0.0053(Landolt09),
+  Rc-Ic(AB)=1.944+-0.0039(Landolt09), V-Ic=3.479+-0.0033(Landolt09).
 

@@ -108,7 +108,7 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (B-V)(M0V) =  1.388 (+-0.017 sem, +-0.082 stdev); med. for 25 ARICNS M0V stars
 (B-V)(M0V) =   1.40  ; SchmidtKaler82
 (B-V)(M0V) =  1.409  ; deprecated stan. GJ 617A = HD 147379A (original JM53 M0V standard)
-(B-V)(M0V) =   1.41  ; Johnson66, KenyonHartmann95
+(B-V)(M0V) =   1.41  ; Johnson65,Johnson66,KenyonHartmann95
 (B-V)(M0V) =   1.41  ; Bessell91 "old disk"
 (B-V)(M0V) = 1.410   ; sec. stan. GJ 338A 
 (B-V)(M0V) = 1.412(+-0.013 sem, +-0.057 stdev); 12 Kirkpatrick(DwarfArchive) M0V stars
@@ -128,28 +128,41 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (U-B)(M0V) = 1.197 ; HIP d<75pc S/N>8 M0V N=42
 <U-B>(M0V) = 1.25  ; Young Disk ; Leggett92
 <U-B>(M0V) = 1.25  ; Old Disk ; Leggett92
-(U-B)(M0V) = 1.26  ; Johnson66
+(U-B)(M0V) = 1.26  ; Johnson65
+
+(V-Rc)(M0V) =  0.89 ; Bessell91 "old disk"
+(V-Rc)(M0V) = 0.89  ; The84  
+(V-Rc)(M0V) = 0.883 ; ter. stan. GJ 328
+=> adopt (V-Rc)(M0V)  = 0.88 [updated 11/15/2022]
+=> adopt (Rc-Ic)(M0V) = 0.92 [updated 7/15/2023; V-Ic=1.80, V-Rc=0.88]
+
+(V-Rj)(M0V) = 1.28 ; Johnson65 
+
+(R-Ic)(M0V) = 0.89 ; The84 (V-Ic)=1.78, (V-Rc)=0.89 
+(R-Ic)(M0V) = 0.91 ; Bessell91 "old disk"
+
 
 (V-Ic)(M0V) =   1.692 ; from V-Ks=3.65
 (V-Ic)(M0V) =  1.735 (+-0.029 sem, +-0.158 stdev; N=27; Gray01/03/06)
 (V-Ic)(M0V) = 1.745 ; exemplar GJ 839
 (V-Ic)(M0V) = 1.751 ; ter. stan. GJ 328
 (V-Ic)(M0V) = 1.766 ; sec. stan. GJ 338A = HD 79210
+(V-Ic)(M0V) = 1.78  ; The84  
 (V-Ic)(M0V) =  1.80  ; Bessell91 "old disk"
 (V-Ic)(M0V) = 1.829 ; pri. stan. GJ 270 (GaiaDR3 synth)
 (V-Ic)(M0V) =  1.836 (+-0.019 sem, +-0.145 stdev; N=49; Koen10)
 (V-Ic)(M0V) =   1.9   ; Hawley96
 => adopt (V-Ic)(M0V) = 1.80 [updated 11/15/2022]
 
-(V-R)(M0V)  =  0.89 ; Bessell91 "old disk"
-(V-Rc)(M0V) = 0.883 ; ter. stan. GJ 328
-=> adopt (V-Rc)(M0V)  = 0.88 [updated 11/15/2022]
-=> adopt (Rc-Ic)(M0V) = 0.92 [updated 7/15/2023; V-Ic=1.80, V-Rc=0.88]
+(V-Ij)(M0V) = 2.19 ; Johnson65
 
-(R-I)(M0V) = 0.91 ; Bessell91 "old disk"
 
 <V-J>(M0V) = 3.114 (+-0.088 sem, +-0.175 stdev; N=4)
 <V-J>(M0V) = 2.94  (+-0.21 stdev) ; Lepine12
+
+(V-Jj)(M0V) = 2.71 ; Johnson65
+
+(V-Kj)(M0V) = 3.58 ; Johnson65
 
 (V-Ks)(M0V)    =  3.409 ; deprecated standard GJ 123
 (V-K_CIT)(M0V) =  3.43 ; Leggett92 "old disk" 
@@ -180,6 +193,39 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 => adopt (H-Ks)(M0V) = 0.190
 => adopt (J-H)(M0V)  = 0.627
 => adopt (V-Hp)(M0V) = -0.085
+
+(G-Ks)(M0V) = 2.60593  ; HD_166348_ plx=75.7122mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 2.79212  ; HD_107596_ plx=62.7385mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 2.79556  ; HD_184489_ plx=69.2566mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 2.8116   ; HD_19305_ plx=67.9335mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 2.91446  ; HD_79211_ plx=157.8825mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 2.94075  ; HD_111631_ plx=93.8547mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 2.96166  ; HD_191849_ plx=162.2171mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.00827  ; HD_11507_ plx=90.4171mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.01627  ; HD_260655_ plx=100.0232mas M0.0V (GaiaDR3)
+(G-Ks)(M0V) = 3.02623  ; BD+02_1729_ plx=66.3374mas M0.0V (GaiaDR3)
+(G-Ks)(M0V) = 3.04126  ; CD-55_1514_ plx=75.9486mas M0Vk: (GaiaDR3)
+(G-Ks)(M0V) = 3.0419   ; CD-51_10924_ plx=62.5786mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.05871  ; BD+09_2636_ plx=72.8932mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.06241  ; HD_229793_ plx=65.7590mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.06723  ; CD-28_1745_ plx=63.8143mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.08209  ; BD+47_612_ plx=83.6606mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.08448  ; BD+45_2247_ plx=85.4119mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.09359  ; HD_304636_ plx=95.6982mas M0.0 (GaiaDR3)
+(G-Ks)(M0V) = 3.09659  ; G_234-5_ plx=84.7001mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.13102  ; HD_156274B_ plx=113.2858mas M0VpCa-3Cr-1 (GaiaDR3)
+(G-Ks)(M0V) = 3.14919  ; Ross_987_ plx=71.3227mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.18036  ; HD_122303_ plx=95.9575mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.18626  ; BD+08_4887_ plx=77.0346mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.2009   ; G_192-11_ plx=74.1397mas M0.0V (GaiaDR3)
+(G-Ks)(M0V) = 3.21339  ; HD_165222_ plx=129.2184mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.32114  ; BD+13_2618_ plx=86.9010mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.34452  ; G_85-52_ plx=82.3104mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.37038  ; HD_214479_ plx=112.3859mas M0Vep (GaiaDR3)
+(G-Ks)(M0V) = 3.42394  ; HD_150848_ plx=67.2326mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 3.58808  ; LP_89-101_ plx=64.4336mas M0V (GaiaDR3)
+
+(V-Lj)(M0V) = 3.78 ; Johnson65
 
 <H-K_CIT>(M0V) = 0.17 ; Beuermann06
 
@@ -292,6 +338,7 @@ Teff(M0V) =  3888 K ; mean photometric Teff
 Teff(M0V) =  3900 K ; Rajpurohit13 (N=1, LHS 141)
 Teff(M0V) =  3900 +- 146 K ; Cifuentes23
 Teff(M0V) =  3907 +- 35 K ; Boyajian12b (N=1)
+Teff(M0V) =   3920 K ; Johnson65
 Teff(M0V) =   3928 K ; deprecated stan. GJ 172
 Teff(M0V) =  3930 K ; sec. stan. GJ 338A 
 Teff(M0V) =  3951 K ; RojasAyala12(mean N=6 M0V stars)
@@ -363,6 +410,7 @@ BCv(M0V) =  -1.349 +- 0.038 ; sec. stan. GJ 809 (Pecaut13)
 BCv(M0V) = -1.253 mag ; Casagrande18(Teff=3840K,logg=4.5)
 BCv(M0V) =  -1.25  mag ; Schmidt-Kaler82(BCv=-1.38 + 0.13 offset)
 BCv(M0V) =  -1.21  mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
+BCv(M0V) =  -1.20  mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(M0V) = -1.184 mag ; Mann15(V-J=2.862)
 BCv(M0V) = -1.176 mag ; Bessell98(ATLAS9,logg=4.5,Teff=3840K)
 BCv(M0V) = -1.173 +- 0.037 ; deprecated standard GJ 338A (Pecaut13)
@@ -771,11 +819,14 @@ GJ 763 = HD 184489 = HIP 96285 =
   M1V: Adams26
   sdM1:: Alonso-Floriano15
 
-  Wide range of modern types from K5 to M1.  [Fe/H] = -0.16(Luck17),
-  [Fe/H] = -0.17+-0.16(Schweitzer19), [Fe/H] = -0.57(Houdebine16),
-  [Fe/H] = -1.50(Alonso96). V=9.326(Koen10), B-V=1.381(Koen10),
-  U-B=1.210(Koen10), V-Rc=0.851(Koen10), V-Ic=1.626(Koen10),
-  Ks=5.918+-0.017(2MASS).  V-Ks = 9.326 - 5.918 = 3.408.
+  Wide range of modern types from K5 to M1.  V=9.326(Koen10),
+  B-V=1.381(Koen10), U-B=1.210(Koen10), V-Rc=0.851(Koen10),
+  V-Ic=1.626(Koen10), Ks=5.918+-0.017(2MASS).  V-Ks = 9.326 - 5.918 =
+  3.408. [Fe/H] = -0.16(Luck17), [Fe/H] = -0.17+-0.16(Schweitzer19),
+  [Fe/H] = -0.57(Houdebine16), [Fe/H] =
+  -1.50(Alonso96). Soubiran22/PASTEL mean values: Teff=4008+-147K,
+  logg=4.74+-0.10, [Fe/H]=-0.16+-0.05(N=1, presumably from Luck?).
+   
 
 GJ 172 = HD 232979 = BD+52_857 
   K7: Cannon27,Bidelman85,Crifo10
@@ -921,6 +972,9 @@ GJ 79 = HD 11507 = CD-23 693
   M1V: Adams35,Upgren72
   M1.5V: Joy74
   M2V: Vyssotsky43
+
+  Soubiran22/PASTEL mean values (unfortunately apparently from just
+  one study): Teff=4011+-50K, logg=4.72+-0.10, [Fe/H]=+0.41+-0.05.
 
 GJ 488 = HD 111631 = Cin 18 1633 = G 14-6
   K6Ve: Popper43

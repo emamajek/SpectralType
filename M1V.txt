@@ -71,7 +71,7 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 (B-V)(M1V) = 1.474 ; median SIMBAD M1V  d<25pc (N=85)
 (B-V)(M1V) = 1.476  ; exemplar GJ 887 = Lacaille 9352
 <B-V>(M1V) =   1.48  ; Vyssotsky63
-(B-V)(M1V) =   1.48  ; JohnsonMorgan53, Johnson66, KenyonHartmann95
+(B-V)(M1V) =   1.48  ; JohnsonMorgan53,Johnson65,Johnson66,KenyonHartmann95
 (B-V)(M1V) =   1.48  ; Bessell91 "old disk"
 (B-V)(M1V) = 1.484 (+-0.010 sem,+-0.041 stdev); med. for 14 ARICNS M1V stars
 (B-V)(M1V) = 1.484 ; pri. stan. GJ 229A ; d<8 pc sample
@@ -81,12 +81,25 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 (B-V)(M1V) = 1.493 ; sec. stan. GJ 514 ; d<8 pc sample
 => adopt (B-V)(M1V) = 1.485 [updated 8/13/2020]
 
-(U-B)(M1V) = 1.22  ; Johnson66
+(U-B)(M1V) = 1.22  ; Johnson65,Johnson66
 (U-B)(M1V) = 1.21  ; JohnsonMorgan53
 (U-B)(M1V) = 1.08  ; ter. stan. GJ 424 (metal poor)
 
+(V-Rc)(M1V) =  0.94 ; Bessell91 "old disk"
+(V-Rc)(M1V) = 0.94  ; The84  
+(V-Rc)(M1V) = 0.959 ; sec. stan. GJ 514 
+(V-Rc)(M1V) = 0.960 ; pri. stan. GJ 229A = HD 42581
+=> adopt (V-Rc)(M1V)  = 0.96 [updated 11/20/2022]
+=> adopt (Rc-Ic)(M1V) = 1.05 [updated 7/15/2023]
+
+(V-Rj)(M1V) = 1.40 ; Johnson65
+
+(R-Ic)(M1V) = 1.00 ; The84 (V-Ic)=1.94, (V-Rc)=0.94 
+(R-Ic)(M1V) = 1.02 ; Bessell91 "old disk"
+
 (V-I)(M1V)  = 1.70 ; ter. stan. GJ 424 (metal poor)
 <V-Ic>(M1V) = 1.841 (+-0.032 sem, +-0.117 stdev; Gray01/03/06 N=18)
+(V-Ic)(M1V) = 1.94  ; The84 
 (V-Ic)(M1V) =  1.96 ; Bessell91 "old disk"
 (V-Ic)(M1V) = 2.004 ; pri. stan. GJ 229A = HD 42581
 (V-Ic)(M1V) = 2.016 ; sec. stan. GJ 514 
@@ -96,29 +109,14 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 <V-I>(M1V)  =  2.45 ; Johnson66
 => adopt (V-Ic)(M1V) = 2.01 [updated 11/20/2022]
 
-(V-R)(M1V)  = 0.94 ; Bessell91 "old disk"
-(V-Rc)(M1V) = 0.959 ; sec. stan. GJ 514 
-(V-Rc)(M1V) = 0.960 ; pri. stan. GJ 229A = HD 42581
-=> adopt (V-Rc)(M1V)  = 0.96 [updated 11/20/2022]
-=> adopt (Rc-Ic)(M1V) = 1.05 [updated 7/15/2023]
+(V-Ij)(M1V) = 2.45 ; Johnson65
 
-(R-I)(M1V)  = 1.02 ; Bessell91 "old disk"
+(V-Jj)(M1V)  = 3.06 ; Johnson65,Johnson66
 
-(G-J)(M1V)   =  2.227 ; Bentley18
-(G-Ks)(M1V)  =  3.077 ; Bentley18
-(Ks-W2)(M1V) =  0.193 ; Bentley18
-(W1-W2)(M1V) =  0.057 ; Bentley18
-
-(Ks-W1)(M1V) =  0.137 ; fit to Winters15 data for V-Ks=4.02
-(Ks-W1)(M1V) =  0.136 ; Bentley18
-(Ks-W1)(M1V) =  0.105 ; Best18 
-(Ks-W1)(M1V) =  0.093 ; Avenhaus12 for V-Ks=4.02
-=> adopt (Ks-W1)(M1V) = 0.13 [updated 12/29/2019]
-
-
-<V-J>(M1V)  = 3.06 ; Johnson66
 <V-J>(M1V)  = 3.159 (+-0.068 sem, +-0.118 stdev; N=3 standards) 
 <V-J>(M1V)  = 3.19  (+-0.18 stdev) ; Lepine12
+
+(V-Kj)(M1V)    =  3.95 ; Johnson65,Johnson66
 
 <V-K_CIT>(M1V) =  3.76 ; Beuermann06
 (V-K)(M1V)     = 3.780 ; ter. stan. GJ 424 (metal poor)
@@ -126,7 +124,6 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 (V-K)(M1V)     =  3.86 ; Bessell91 "old disk"
 (V-Ks)(M1V)    = 3.910 ; trend for K/M dwarf standards & exemplars
 (V-K)(M1V)     = 3.932 ; exemplar GJ 809 = HD 199305
-<V-K>(M1V)     =  3.95 ; Johnson66
 (V-K)(M1V)     =  4.0  ; Hawley96
 (V-Ks)(M1V)    = 4.002 ; exemplar GJ 887 = Lacaille 9352 
 (V-K)(M1V)     =  4.010 ; pri. stan. GJ 229A (predicted from V-I color)
@@ -147,9 +144,56 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 => adopt (J-H)(M1V)  = 0.614
 => adopt (K-W1)(M1V) = 0.136
 
+(G-Ks)(M1V) = 2.8841   ; HD_202560_ plx=251.9124mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 2.88818  ; BD+18_2776_ plx=77.4412mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.01455  ; HD_33793_ plx=254.1986mas M1VIp (GaiaDR3)
+(G-Ks)(M1V) = 3.02737  ; HD_23453_ plx=69.5143mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.1035   ; HD_176029_ plx=90.0212mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.10862  ; G_226-66_ plx=69.8921mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.10992  ; V*_BR_Psc_ plx=169.2163mas dM1 (GaiaDR3)
+(G-Ks)(M1V) = 3.11096  ; BD+05_3409_ plx=98.8439mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.11201  ; BD+36_1970_ plx=73.6956mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.11323  ; BD+48_1829_ plx=66.8448mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.11701  ; CPD-58_7400_ plx=69.5611mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.11803  ; Wolf_918_ plx=84.4402mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.12309  ; HD_95650_ plx=83.7642mas M1.0Ve (GaiaDR3)
+(G-Ks)(M1V) = 3.12347  ; BD+46_1889_ plx=74.7985mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.12884  ; BD+02_348_ plx=95.1606mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.13407  ; BD+35_2436_ plx=72.9733mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.13871  ; HD_199305_ plx=142.0543mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.14347  ; HD_42581_ plx=173.5740mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.14366  ; BD+44_2051_ plx=203.8876mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.1598   ; HD_233153_ plx=81.4644mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.16929  ; BD+11_2576_ plx=131.1013mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.18024  ; LSPM_J2122+2255_ plx=64.5802mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.18626  ; CD-52_7989_ plx=78.2621mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.20838  ; BD-02_2198_ plx=70.2749mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.24351  ; BD-09_3070_ plx=78.1746mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.25822  ; BD-07_4156_ plx=75.2941mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.31444  ; HD_197481_ plx=102.9432mas M1VeBa1 (GaiaDR3)
+(G-Ks)(M1V) = 3.31714  ; BD-11_916_ plx=89.1897mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.36821  ; V*_OT_Ser_ plx=87.3251mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.37875  ; CD-45_5378_ plx=106.1727mas M1.0 (GaiaDR3)
+
+
 <J-K_CIT>(M1V) = 0.85 ; Beuermann06
 
 <H-K_CIT>(M1V) = 0.18 ; Beuermann06
+
+(V-Lj)(M1V) = 4.15 ; Johnson65
+
+(G-J)(M1V)   =  2.227 ; Bentley18
+(G-Ks)(M1V)  =  3.077 ; Bentley18
+(Ks-W2)(M1V) =  0.193 ; Bentley18
+(W1-W2)(M1V) =  0.057 ; Bentley18
+
+(Ks-W1)(M1V) =  0.137 ; fit to Winters15 data for V-Ks=4.02
+(Ks-W1)(M1V) =  0.136 ; Bentley18
+(Ks-W1)(M1V) =  0.105 ; Best18 
+(Ks-W1)(M1V) =  0.093 ; Avenhaus12 for V-Ks=4.02
+=> adopt (Ks-W1)(M1V) = 0.13 [updated 12/29/2019]
+
+
 
 (Bp-Rp)(M1V) = 1.8470 ; V*_AX_Mic   
 (Bp-Rp)(M1V) = 1.9583 ; GJ_424      ter. stan.
@@ -233,6 +277,7 @@ Teff(M1V) = 3660 K ; Rad=0.4996Rsun & Mann15 calib for M_Ks=5.64, [Fe/H]=0.0
 Teff(M1V) =  3664 K ; sec. stan. GJ 412A (median Teff)
 Teff(M1V) =  3670 K ; ter. stan. GJ 514 (median Teff) 
 Teff(M1V) =  3677 K ; mean photometric Teff
+Teff(M1V) =   3680 K ; Johnson65 
 Teff(M1V) =   3690 K ; non-stan. GJ 887
 Teff(M1V) =  3690 K ; empirical L-R relation for logL=-1.404
 Teff(M1V) =  3693 +- 85 K ; Cifuentes23
@@ -253,6 +298,7 @@ BCv(M1V) =  -1.54 mag ; sec. stan. GJ 412A (calc from mbol via JHK and Casagrand
 BCv(M1V) =  -1.51 mag ; sec. stan. GJ 514 (calc from mbol via JHK and Casagrande08 calib.)
 BCv(M1V) =    -1.49 mag ; Schmidt-Kaler82(BCv=-1.62 + 0.13 offset)
 BCv(M1V) =  -1.487 mag ; Pecaut13(V-K=4.099)
+BCv(M1V) =    -1.48 mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(M1V) =  -1.450 mag ; exemplar GJ 887 = Lacaille 9352
 BCv(M1V) = -1.440 mag ; Casagrande18(Teff=3700K,logg=4.5)
 BCv(M1V) =  -1.434 +- 0.020 ; sec. stan. GJ 412A (Pecaut13)
@@ -673,15 +719,15 @@ GJ 570BC = LHS 386 = HD 131976 = BD-20 4123 = Lalande 27173BC
 # Variants
 
 GJ 617A = LHS 3175 = HD 147379 = Lalande 29917 = HIP 73182
-  M1-Ve: Keenan88
+  M1-Ve: Keenan80,Keenan88
 
 GJ 191 = Kapteyn's star
   sdM1.0: Hawley97(Koen10)
- *M1pVI: KeenanMcNeil76(stan; "M1p", Keenan89(stan),Keenan99(stan)
+ *M1pVI: KeenanMcNeil76(stan; "M1p"),Keenan80,Keenan89(stan),Keenan99(stan)
   M1: Boeshaar76(non-stan)
   M2.0V: Henry(RECONS)
 
-  (B-V)=1.580 (Koen10). Segransan03 VLTI study reports: M =
+  (B-V)=1.580(Koen10). Segransan03 VLTI study reports: M =
   0.281+-0.014 Msun, R = 0.291 +- 0.025 Rsun, Teff = 3570+-156 K, logg
   = 4.96+-0.13 dex. The caption to plate 19 of KeenanMcNeil76
   discusses the classification of Kapteyn's star as a "M1 subdwarf
