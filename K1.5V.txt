@@ -9,7 +9,7 @@ Keenan99 standard: HD 13445 (HR 637) - K1.5V
 
 (B-V)(K1.5V) = 0.820 ; deprecated stan. HD 13445
 (B-V)(K1.5V) = 0.859 ; N=9 Gray06 K1.5V stars (+-0.003 sem, +-0.009 rms)
-(B-V)(K1.5V) = 0.887 ; exemplar HD 205390 = GJ 833 = HIP 106696
+(B-V)(K1.5V) = 0.884 ; exemplar HD 205390 = GJ 833 = HIP 106696
 => adopt (B-V)(K1.5V)   = 0.860 ; updated 2/22/2019
 => adopt (U-B)(K1.5V)   = 0.530
 => adopt (Bt-Vt)(K1.5V) = 1.000
@@ -28,13 +28,25 @@ Keenan99 standard: HD 13445 (HR 637) - K1.5V
 => adopt (G-J)(K1.5V)   = 1.341
 => adopt (G-Ks)(K1.5V)  = 1.850
 
-(G-V)(K1.5V) =  -0.285 ; HD 13445 PM* K1.5V
-(G-V)(K1.5V) = -0.265 ; interpolated between K1V-K2V 
-(G-V)(K1.5V) = -0.255 ; HD 85390 PM* K1.5V
-(G-V)(K1V)   = -0.253 ; smoothed fit f(SpT) G9V-M0V
-(G-V)(K1.5V) = -0.250 ; trend SIMBAD d<20pc for V-Ks=2.069
+(V-Ks)(K1.5V) = 2.166 ; exemplar HD 205390 = GJ 833 
+
+(R-Ic)(K1.5V) = 0.42  ; exemplar HD 17925 = GJ 117 (Cousins80)
+(R-Ic)(K1.5V) = 0.44  ; exemplar HD 205390 = GJ 833 (Cousins80)
+
+(V-Ic)(K1.5V) = 0.905 ; exemplar HD 17925 = GJ 117 (Cousins80)
+(V-Ic)(K1.5V) = 0.94  ; exemplar HD 205390 = GJ 833 (Cousins80)
+
+(V-Rc)(K1.5V) = 0.485 ; exemplar HD 17925 = GJ 117 (Cousins80)
+(V-Rc)(K1.5V) = 0.50  ; exemplar HD 205390 = GJ 833 (Cousins80)
+
+(G-V)(K1.5V) =  -0.285 ; HD 13445 PM* K1.5V (GaiaDR2)
+(G-V)(K1.5V) = -0.265 ; interpolated between K1V-K2V  (GaiaDR2)
+(G-V)(K1.5V) = -0.255 ; HD 85390 PM* K1.5V  (GaiaDR2)
+(G-V)(K1V)   = -0.253 ; smoothed fit f(SpT) G9V-M0V  (GaiaDR2)
+(G-V)(K1.5V) = -0.250 ; trend SIMBAD d<20pc for V-Ks=2.069 (GaiaDR2)
 (G-V)(K1.5V) = -0.239  ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5140K (GaiaDR3 Gmags,SIMBAD Vmags)
-(G-V)(K1.5V) =  -0.229 ; HD 119782 PM* K1.5Vk:
+(G-V)(K1.5V) =  -0.229 ; HD 119782 PM* K1.5Vk: (GaiaDR2)
+(G-V)(K1.5V) = -0.198 ; exemplar HD 17925 = GJ 117 (GaiaDR3)
 => adopt (G-V)(K1.5V) = -0.255 [updated 9/21/2021]
 
 (Bp-Rp)(K1.5V) = 1.0470  *_36_Oph_B  K1.5V(k)
@@ -103,24 +115,30 @@ HD 205390 = GJ 833 = HIP 106696
    K2V: Evans57,Houk78
 
    All types in K1-K2 range. Not in WDS. V=7.136+-0.005(Mermilliod91),
-   B-V=0.884+-0.005(Mermilliod91), B-V=0.887(Koen10), U-B=0.552+-0.207(Mermilliod91),
+   V=7.14(Cousins80), B-V=0.884+-0.005(Mermilliod91),
+   B-V=0.887(Koen10), U-B=0.552+-0.207(Mermilliod91),
+   R-Ic=0.44(Cousins80), V-Ic=0.94(Cousins80), V-Rc=0.50(Cousins80),
    J=5.518+-0.035(2MASS), H=5.137+-0.053(2MASS),
-   Ks=4.970+-0.021(2MASS). PASTEL median Teff = 5038K(N=3),
-   [Fe/H]=-0.17+-0.03(Valenti05), logg=4.62+-0.06(Valenti05).
-   Mv=6.33+-0.02(Koen10).
+   Ks=4.970+-0.021(2MASS) => V-Ks = 7.136 - 4.970 = 2.166. PASTEL
+   median Teff = 5038K(N=3), [Fe/H]=-0.17+-0.03(Valenti05),
+   logg=4.62+-0.06(Valenti05).  Mv=6.33+-0.02(Koen10).
 
 HD 205390
    K1V: Torres06
   *K1.5V: Gray06
    K2V: Evans57,Houk78
 
-HD 17925 = HR 857
+HD 17925 = GJ 117 = EP Eri = HR 857 = HIP 13402 = Gaia DR3 5160075762132996992 = 2MASS J02523210-1246109 
    K0V: Joy47
    K1V: Popper42,Munch44,Houk88
    K1/2V: West72('mean of two')
   *K1.5V(k): Gray06
    K2V: Wilson62,
    K3: Bidelman85
+
+   V=6.01(Cousins80), R-Ic=0.42(Cousins80), V-Ic=0.905(Cousins80), V-Rc=0.485(Cousins80).
+   plx=96.5200+-0.0258mas(GaiaDR3). G=5.812265+-0.002988(GaiaDR3) => G-V = 5.812265(GaiaDR3)
+   - 6.01(Cousins80) = -0.198. 
 
 # Other Stars
 
@@ -153,6 +171,24 @@ HD 6569 = UGP 16
    K2V: Upgren72,McNeil86
 
    Evenly split, adopt K1.5V.
+
+HD 37572 = UY Pic 
+   K0V: Houk78,Torres06
+  *K1.5Vk: Gray06
+
+   Slightly subsolar metallicity star, but within 2sigma of solar
+   ([Fe/H]=-0.08+-0.05;Soubiran22).  Soubiran22/PASTEL catalog means:
+   Teff=5102+-41K, logg=4.49+-0.10; [Fe/H]=-0.08+-0.05.
+
+HD 144628 = GJ 613
+   K1V: Drilling68,Gray06
+  *K1/2V: Houk75
+   K2V: Keenan89(non-stan)
+   K3V: Evans57
+
+   V=7.11(Cousins80), R-Ic=0.445(Cousins80), V-Ic=0.925(Cousins80),
+   V-Rc=0.48(Cousins80).
+   
 
 # Notes
 

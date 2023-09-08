@@ -10,6 +10,13 @@ mean only that it is closer to G2 than to G5."  Joy47 used K6 as a
 single subtype step between K5 and M0 (and no K7/K8/K9).  Kuiper42
 used all ten subdivisions for type K, including K6.
 
+The "Wielen Dip" that appears as a shallow dip in histograms of
+absolute magnitude appears near Mv=7 (Wielen74, 1974HiA.....3..395W)
+or M_G=7 (Guo21, 2021A&A...655A..45G).  Main sequence stars near M_G=7
+should correspond mostly to K5V or K6V stars. Guo21 attributes the dip
+to where H- begins to become the dominant opacity in stellar
+photospheres.
+
 Keenan88 standard:    GJ 529 (=HD 120467) - K6Va
 Keenan89 standards:   GJ 529 (=HD 120467) - K6Va
                       GJ 380 (=HD 88230)  - K6Ve Fe-1
@@ -33,7 +40,7 @@ there seems to be little agreement on classification among other
 classifiers.
 
 (B-V)(K6V) =   1.30  ; 1 Hyad from Wilson62(N=1)
-(B-V)(K6V) = 1.286 ; median Koen10 d<25pc K6V 
+(B-V)(K6V) = 1.283 ; Koen10 median K6V d<20pc (N=14)
 (B-V)(K6V) = 1.271 ; median SIMBAD K6V d<25pc (N=38)
 (B-V)(K6V) = 1.27  ; median for N=36 K6Vs within 30pc (Hinkel17)
 (B-V)(K6V) = 1.261 ; pri. stan. GJ 529
@@ -61,8 +68,27 @@ classifiers.
 => adopt (Bp-G)(K6V)  = 0.759
 => adopt (G-Rp)(K6V)  = 0.818
 
-(Ks-W1)(K6V) = 0.101 ; EEM trend for d<30pc for B-V=1.24
-=> adopt (Ks-W1)(K6V) = 0.101 [updated 12/29/2019]
+(U-B)(K6V)  = 1.208  ; Koen10 median K6V d<20pc (N=14)
+
+(V-Rc)(K6V) = 0.72   ; The84 
+(V-Rc)(K6V) = 0.781  ; Koen10 median K6V d<20pc (N=14)
+
+(V-Ic)(K6V) =  1.20  ; exemplar HD 72928 
+(V-Ic)(K6V) =  1.32  ; exemplar GJ 39
+(V-Ic)(K6V) = 1.32  ; The84  
+(V-Ic)(K6V) =  1.36  ; exemplar GJ 818
+(V-Ic)(K6V) =  1.39  ; exemplar GJ 249 
+(V-Ic)(K6V) = 1.391 (+-0.018 sem, +-0.114 stdev; N=50) Gray01/03/06
+(V-Ic)(K6V) = 1.40  ; pri. stan. GJ 529 
+(V-Ic)(K6V) =  1.42  ; exemplar HIP 11739 = BD-20 470 
+(V-Ic)(K6V) = 1.420 ; trend, from B-V=1.24
+(V-Ic)(K6V) = 1.445 (+-0.018 sem, +-0.084 stdev; N=17) Koen10
+(V-Ic)(K6V) =  1.47  ; exemplar GJ 412.3 = GJ 9347
+(V-Ic)(K6V) = 1.474  ; Koen10 median K6V d<20pc (N=14)
+=> adopt (V-Ic)(K6V) = 1.42 [updated 11/15/2022]
+
+(R-Ic)(K6V) = 0.603 ; ; Koen10 median K6V d<20pc (N=14) (V-Ic=1.474, V-Rc=0.781)
+
 
 (V-Ks)(K5V) =   2.88 ; adopted K5V
 (V-Ks)(K6V) =  2.985 ; exemplar GJ 39 
@@ -74,11 +100,40 @@ classifiers.
 (V-Ks)(K6V) = 3.089  ; trend for K dwarf standards/exemplars
 (V-Ks)(K6V) = 3.115  ; halfway K5V(2.88),K7V(3.35)
 (V-Ks)(K6V) = 3.143  ; trend for B-V=1.24
-(V-Ks)(K6V) =  3.188 ; exemplar GJ 412.3 = GJ 9347
+(V-Ks)(K6V) =  3..188 ; exemplar GJ 412.3 = GJ 9347
 (V-Ks)(K6V) =  3.217 ; exemplar HD 72928
 (V-Ks)(K7V) =   3.35 ; adopted K7V 
 => adopt (V-Ks)(K6V) = 3.08 [updated 12/15/2020]
 => adopt (G-Ks)(K6V) = 2.57 = (3.08 + -0.51) [updated 12/23/2020]
+
+(G-Ks)(K6V) =  2.47941  ; HD_85512_ plx=88.6737mas K6Vk: (GaiaDR3)
+(G-Ks)(K6V) =  2.50664  ; HD_218511_ plx=67.3957mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.51064  ; HD_200779_ plx=66.4626mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.52745  ; HD_53680_ plx=57.7938mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.53128  ; HD_120467_ plx=71.0780mas K6Va (GaiaDR3)
+(G-Ks)(K6V) =  2.5394   ; HD_25004_ plx=56.9352mas K6Vk: (GaiaDR3)
+(G-Ks)(K6V) =  2.54351  ; HD_148467_ plx=57.0866mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.56611  ; HD_49601_ plx=53.6322mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.56757  ; HD_155674B_ plx=47.0692mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.58006  ; HD_56533_ plx=51.0539mas K6Vk: (GaiaDR3)
+(G-Ks)(K6V) =  2.58046  ; HD_17230_ plx=61.8910mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.59526  ; BD+30_2512_ plx=68.8506mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.61292  ; HD_221503_ plx=68.7356mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.61844  ; HD_35650_ plx=57.2706mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.62305  ; HD_199981_ plx=48.7902mas K6Vk: (GaiaDR3)
+(G-Ks)(K6V) =  2.63984  ; HD_218294_ plx=45.2361mas K6Vk (GaiaDR3)
+(G-Ks)(K6V) =  2.66726  ; BD+34_2541_ plx=49.8852mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.67363  ; HD_139763_ plx=64.1825mas K6Vk (GaiaDR3)
+(G-Ks)(K6V) =  2.68386  ; HD_191391_ plx=63.2074mas K6Vk (GaiaDR3)
+(G-Ks)(K6V) =  2.70117  ; HD_88230_ plx=205.3148mas K6VeFe-1 (GaiaDR3)
+(G-Ks)(K6V) =  2.70567  ; HD_120036A_ plx=68.6052mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.70753  ; HD_34751_ plx=48.9655mas K6Vk (GaiaDR3)
+(G-Ks)(K6V) =  2.75349  ; BD+28_4660_ plx=50.2282mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.79922  ; HD_77175_ plx=54.1456mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.92606  ; HD_245409_ plx=87.5297mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.97108  ; BD+16_502_ plx=58.0361mas K6V (GaiaDR3)
+(G-Ks)(K6V) =  2.98829  ; HD_38A_ plx=86.8003mas K6V (GaiaDR3)
+=> adopt (G-Ks)(K6V) = 2.6 [updated 9/1/2023]
 
 (Bp-Rp)(K5V) =   1.45 ; K5V  mean
 (Bp-Rp)(K6V) = 1.4925 ; exemplar GJ 39
@@ -119,18 +174,6 @@ classifiers.
 => adopt (G-V)(K6V) = -0.49 [updated 11/15/2022]
 => adopt (G-Ks)(K6V) = 7.15 - 4.56 = 2.59 [updated 11/15/2022]
 
-(V-Ic)(K6V) =  1.20  ; exemplar HD 72928 
-(V-Ic)(K6V) =  1.32  ; exemplar GJ 39
-(V-Ic)(K6V) =  1.36  ; exemplar GJ 818
-(V-Ic)(K6V) =  1.39  ; exemplar GJ 249 
-(V-Ic)(K6V) = 1.391 (+-0.018 sem, +-0.114 stdev; N=50) Gray01/03/06
-(V-Ic)(K6V) = 1.40  ; pri. stan. GJ 529 
-(V-Ic)(K6V) =  1.42  ; exemplar HIP 11739 = BD-20 470 
-(V-Ic)(K6V) = 1.420 ; trend, from B-V=1.24
-(V-Ic)(K6V) = 1.445 (+-0.018 sem, +-0.084 stdev; N=17) Koen10
-(V-Ic)(K6V) =  1.47  ; exemplar GJ 412.3 = GJ 9347
-=> adopt (V-Ic)(K6V) = 1.42 [updated 11/15/2022]
-
 (g-G)(K6V) = 1.468 (+-0.091 sem, +-0.237 stdev) ; SIMBAD d<25pc K6V (N=11)
 => adopt (g-G)(K6V) = 1.47 [updated 6/29/2023]
 
@@ -143,6 +186,8 @@ classifiers.
 (r-i)(K6V) = 0.505 ; Cifuentes20 (interp K5V-K7V)
 => adopt (r-i)(K6V) = 0.505 [updated 7/15/2023]
 
+(Ks-W1)(K6V) = 0.101 ; EEM trend for d<30pc for B-V=1.24
+=> adopt (Ks-W1)(K6V) = 0.101 [updated 12/29/2019]
 
 Teff(K6V) =  4444 K ; exemplar GJ 818 median
 Teff(K6V) = 4356 K ; pri. stan. GJ 529 (median, but metal rich!)

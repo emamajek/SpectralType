@@ -13,6 +13,13 @@ example, the median properties of stars *classified* K5 in SIMBAD
 (which will include many older classifications) will tend to be redder
 than those typed in more recent surveys that allowed for K6, K7, etc.
 
+The "Wielen Dip" that appears as a shallow dip in histograms of
+absolute magnitude appears near Mv=7 (Wielen74, 1974HiA.....3..395W)
+or M_G=7 (Guo21, 2021A&A...655A..45G).  Main sequence stars near M_G=7
+should correspond mostly to K5V or K6V stars. Guo21 attributes the dip
+to where H- begins to become the dominant opacity in stellar
+photospheres.
+
 MK43 standard:           61 Cyg A - K5V
 JM53 standard:           61 Cyg A - K5V
 Wilson62 standard:       61 Cyg A - K5V [from JM53]
@@ -56,7 +63,7 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (B-V)(K5V) =  1.232 ; median SIMBAD K5V d<25pc (N=80)
 (B-V)(K5V) =  1.222 ; exemplar HD 113194
 (B-V)(K5V) =  1.207 ; exemplar HD 19819 = GJ 1056
-(B-V)(K5V) =   1.205 ; median Koen10 d<25pc K5V 
+(B-V)(K5V) =  1.210 ; Koen10 median K5V d<25pc
 (B-V)(K5V) =   1.202 ; deprecated standard HD 10436 
 <B-V>(K5V) =  1.19  ; 5 Hyads from Wilson62
 <B-V>(K5V) =    1.18  ; Vyssotsky63
@@ -68,7 +75,7 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 <B-V>(K5V) = 1.156 ; 40 Gray01/03/06 (+-0.009 sem, +-0.070 stdev)
 (B-V)(K5V) = 1.153 ; trend xHIP K5V d<50pc interp [Fe/H]=0.00 (between -0.15 < [Fe/H] < 0.15)
 (B-V)(K5V) = 1.151 ; trend standards & exemplars w/metallicities for [Fe/H]=0.00 (rms=0.028)
-(B-V)(K5V) =    1.15  ; Johnson66
+(B-V)(K5V) =    1.15  ; Johnson65,Johnson66
 (B-V)(K5V) =    1.15  ; Schmidt-Kaler82
 <B-V>(K5V) =    1.15  ; Fitzgerald70
 (B-V)(K5V) =  1.144 ; exemplar HD 156026 (36 Oph C)
@@ -101,16 +108,46 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 => adopt (G-J)(K5V)   = 1.730
 => adopt (G-Ks)(K5V)  = 2.429
 
-(Ks-W1)(K5V) = 0.092 ; EEM trend for d<30pc for B-V=1.15
-=> adopt (Ks-W1)(K5V) = 0.092 [updated 12/29/2019]
+(U-B)(K5V) = 1.03  ; Johnson65 
+(U-B)(K5V) = 1.060 ; HIP d<75pc S/N>8 K5V N=125
+(U-B)(K5V) = 1.12  ; JohnsonMorgan53
+(U-B)(K5V) = 1.148 ; Koen10 median K5V d<25pc
 
-(V-I)(K5V)  =  1.4  ; Hawley96
+(V-Rj)(K5V) = 1.02 ; Johnson65
+
+(V-Rc)(K5V) = 0.67  ; The84
+(V-Rc)(K5V) = 0.713 ; Koen10 median K5V d<25pc
+
+(V-Ic)(K5V) =  1.4  ; Hawley96
 (V-Ic)(K5V) = 1.345 ; Koen10 median N=15 K5V
 (V-Ic)(K5V) = 1.259 (+-0.014 sem, +-0.113 stdev); Gray01/03/06 N=40 K5V
-(V-Ic)(K5V) = 1.241 ; sec. stan. GJ 204 
+(V-Ic)(K5V) = 1.241 ; sec. stan. GJ 204
+(V-Ic)(K5V) = 1.22  ; The84 
 (V-Ic)(K5V) = 1.219 (+-0.014 sem, +-0.166 stdev); HIP d<75pc K5V N=129
 (V-Ic)(K5V) = 1.13  ; pri. stan. GJ 820A
 => adopt (V-Ic)(K5V) = 1.25 [updated 11/15/2022]
+
+(V-Ij)(K5V) = 1.64 ; Johnson65
+
+(R-Ic)(K5V) = 0.632 ; Koen10 median K5V d<25pc (V-Ic=1.345, V-Rc=0.713)
+
+
+(G-V)(K5V) =  -0.3827 ; HD_30523 (K5Vk,Gray06) plx=37.7753mas [Fe/H]=-0.16 (GaiaDR3)
+(G-V)(K5V) =  -0.3938 ; HD_178126 (K5V,Bidelamn85/Roman55) plx=40.9448mas [Fe/H]=-0.39 (GaiaDR3)
+(G-V)(K5V) = -0.3996 ; sec. stan. HD_36003_ K5V plx=77.3499mas [Fe/H]=-0.07 (GaiaDR3)
+(G-V)(K5V) =  -0.4112 ; BD+18_3497 (K5V,Gray03) plx=44.4306mas [Fe/H]=0.10 (GaiaDR3)
+(G-V)(K5V) =  -0.4142 ; HD_122120 (K5V,Reid95,Gray03) plx=41.9416mas [Fe/H]=0.16 (GaiaDR3)
+(G-V)(K5V) =  -0.4406 ; HD_93380 (K5V,Houk88,Gray06) plx=46.9703mas [Fe/H]=-0.66 (GaiaDR3)
+(G-V)(K5V) =  -0.4414 ; HD_187760 (K5Vk,Upgren72,Gray06) plx=38.8294mas [Fe/H]=-0.32 (GaiaDR3)
+(G-V)(K5V) = -0.4432 ; pri. stan. 61 Cyg A = GJ 820A (K5V,Keenan89) plx=285.9949mas [Fe/H]=-0.13 (GaiaDR3)
+(G-V)(K5V) = -0.4501 ; exemplar 36 Oph C = GJ 664 (K5V,Houk82,Gray06) plx=167.9617mas [Fe/H]=-0.21 (GaiaDR3)
+(G-V)(K5V) =   -0.4741 ; deprecated stan. HD_10436 (K5.5V,Gray03) plx=73.9769mas [Fe/H]=-0.14 (GaiaDR3)
+(G-V)(K5V) =  -0.4963 ; HD_173818 (K5V,Reid95) plx=70.1335mas [Fe/H]=-0.04 (GaiaDR3)
+(G-V)(K5V) = -0.5067 ; exemplar HD 332518 K5V plx=47.8092mas [Fe/H]=0.03 (GaiaDR3)
+(G-V)(K5V) = -0.5424 ; exemplar HD 238087 (K5V,Reid95) plx=37.4209mas [Fe/H]=0.40 (GaiaDR3)
+
+[EEM 9/1/2023: all K5V stars listed: (G-V)(K5V) = -0.452 - 0.0771*[Fe/H] (rms=0.046mag),
+K5V standards+exemplars:             (G-V)(K5V) = -0.468 - 0.1883*[Fe/H] (rms=0.039mag)]
 
 (G-V)(K5V) =  -0.514 ; pri. stan. GJ_820A (GaiaDR2)
 (G-V)(K5V) =  -0.454 ; GJ_653
@@ -168,8 +205,10 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (G-Rp)(K5V) =  0.7975  ; *_ksi_Boo_B   K5V
 => adopt (G-Rp)(K5V) = 0.75 [last updated 12/15/2020]
 
-(U-B)(K5V) = 1.060 ; HIP d<75pc S/N>8 K5V N=125
-(U-B)(K5V) = 1.12  ; JohnsonMorgan53
+(V-Jj)(K5V) = 2.06 ; Johnson65
+
+(V-Kj)(K5V) = 2.82 ; Johnson65 
+(V-K)(K5V)  = 3.15 ; Hawley96
 
 (V-Ks)(K5V)=  2.508 ; exemplar HD 171314 = GJ 718 A
 (V-Ks)(K5V)=  2.77  ; sec. stan. HD 36003
@@ -182,6 +221,8 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (V-Ks)(K5V)=   3.008 ; deprecated stan. HD 154363 = GJ 653 
 (V-Ks)(K5V)=  3.087 ; exemplar HD 113194
 => adopt (V-Ks)(K5V) = 2.88 [updated 8/13/2020]
+
+(V-Lj)(K5V) = 3.02 ; Johnson65 
 
 Gray01/03/06 lists 40 K5V stars with BVI HIP photometry. Median colors:
 <B-V>(K5V) = 1.156 (+-0.009 sem, +-0.070 stdev; N=40)
@@ -201,7 +242,6 @@ within 1 mag of the main sequence (N=129):
 <V-Vt>(K5V)  =-0.134 (+-0.003 sem, +-0.039 stdev; N=121) 
 <B-K>(K5V)   = 3.960 (+-0.033 sem, +-0.354 stdev; N=129)
 
-(V-K)(K5V) = 3.15 ; Hawley96
 
 (g-G)(K5V) = 1.453 (+-0.029 sem, +-0.128 stdev) ; SIMBAD d<25pc K5V (N=25)
 => adopt (g-G)(K5V) = 1.45 [updated 6/29/2023]
@@ -215,6 +255,10 @@ within 1 mag of the main sequence (N=129):
 (r-i)(K5V) = 0.41 (+-0.07 rms) ; Cifuentes20
 => adopt (r-i)(K5V) = 0.41 [updated 7/15/2023]
 
+(Ks-W1)(K5V) = 0.092 ; EEM trend for d<30pc for B-V=1.15
+=> adopt (Ks-W1)(K5V) = 0.092 [updated 12/29/2019]
+
+
 Teff(K5V) =  4325 K ; deprecated standard HD 10436
 Teff(K5V) =  4329 K ; exemplar HD 113194 
 Teff(K5V) =  4340 K ; deprecated standard HD 154363 median Teff ([Fe/H] ~ -0.62)
@@ -222,7 +266,7 @@ Teff(K5V) =  4350 K ; Schmidt-Kaler82
 Teff(K5V) = 4383 K ; prim. stan. 61 Cyg A median Teff ([Fe/H] ~ -0.25)
 Teff(K5V) =  4400 K ; GrayCorbally09
 Teff(K5V) = 4407 K ; median of 96 Teffs for K5V stars
-Teff(K5V) =  4410 K ; Habets81
+Teff(K5V) =  4410 K ; Johnson65,Habets81
 Teff(K5V) = 4430 K +- 177 K ; Cifuentes23
 Teff(K5V) = 4436 +- 74 K ; Boyajian12b  (N=3)
 Teff(K5V) = 4452 K ; smooth Teff(SpT) trend
@@ -310,6 +354,7 @@ BCv(K5V) = -0.622 mag ; Casagrande18(Teff=4440K,logg=4.5)
 BCv(K5V) = -0.627 mag ; Bessell98(ATLAS9,logg=4.5,Teff=4440K)
 BCv(K5V) = -0.631 +- 0.026 mag ; anchor standard GJ 820A (61 Cyg A) (Pecaut13)
 BCv(K5V) = -0.648 mag ; Flower96(Teff=4440K)
+BCv(K5V) =  -0.65 mag ; Johnson66 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(K5V) = -0.651 mag ; Casagrande08(Teff=4440K)
 BCv(K5V) = -0.686 mag ; Masana06(Teff=4440K)
 => adopt BCv(K5V) = -0.63 mag [last updated 8/29/2019; scaled so BCv(5772K)=-0.085]
@@ -320,8 +365,7 @@ logL(K5V) = -0.815+-0.028 ; pri. stan. 61 Cyg A (Kervalla08)
 => adopt logL(K5V) = -0.764 dex [last updated 4/9/2020]
 => adopt Mbol(K5V) =  6.650 mag [last updated 4/9/2020]
 
-Rad(K5V) =  0.661 +- 0.005 Rsun ; pri. stan. 61 Cyg A (Yee17)
-Rad(K5V) =  0.665 +- 0.005 Rsun ; pri. stan. 61 Cyg A (Kervalla08)
+Rad(K5V) = 0.6673+-0.0049 Rsun ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A ([Fe/H]=-0.13; see below)
 Rad(K5V) =  0.6876+-0.0021 Rsun ; Boyajian12b (N=3)
 Rad(K5V) = 0.7013         Rsun ; Teff=4440K, logL=-0.764
 Rad(K5V) = 0.703 +- 0.054 Rsun ; Cifuentes23
@@ -351,14 +395,37 @@ GJ 820A = HD 201091 = 61 Cyg A = HR 8085 = HIP 104214 = V1803 Cyg
   K6: Lutyen79
   K5/M0III: Maury1879
 
-  V=5.20(HIP), B-V=1.069+-0.015(HIP), V-I=1.13+-0.02(HIP), 2MASS is
+  V=5.19(Johnson53), V=5.20(HIP), V=5.22(Johnson66,Johnson68),
+  V=5.230+-0.022(Mermilliod91), V=5.24(Moreno71),
+  B-V=1.069+-0.015(HIP, seems too blue?), B-V=1.14(Moreno71),
+  B-V=1.164+-0.019(Mermilliod91), B-V=1.17(Johnson66),
+  B-V=1.168(Just08), B-V=1.19(Johnson53,Morgan53) => adopt (B-V)=1.17.
+  [EEM 9/1/2023: note the B-V color in Hipparcos appears to be in
+  error ~0.1 mag blueward, compared to other 61 Cyg A B-V measurements
+  and compared to other K5V stars].  U-B=1.10(Johnson53,Morgan53),
+  U-B=1.11(Johnson66), U-B=1.13(Moreno71),
+  U-B=1.113+-0.016(Mermilliod91), V-Rc=0.725(Just08),
+  Rc-Ic=0.590(Just08), V-Ic=1.315(Just08), V-Ic=1.13+-0.02(HIP),
+  V-Rj=0.99(Moreno71). g-r=1.030(Just08), r-i=0.356(Just08). 2MASS is
   saturated. Alonso96 reports J=3.042+-0.022, H=2.435+-0.017,
-  K=2.320+-0.014.  V-K = 5.20 - 2.32 = 2.88. Mv=7.49 (using HIP2
+  K=2.320+-0.014. J=3.15(Johnson66), J=3.16(Johnson68), K=2.37(Veeder74), K=2.39(Johnson66),
+  K=2.40(Johnson68) 
+
+
+  V-K = 5.20 - 2.32 = 2.88. Mv=7.49 (using HIP2
   plx). PASTEL compendium: <Teff> = 4383K (N=22), <logg>=4.50(N=9),
-  <[Fe/H]> = -0.25(N=8). Gaia EDR3: plx=285.9949+-0.0599mas, G=4.766713+-0.002826
-  => Vizier correct => Gcor=4.766713+-0.002826,
-  E(BP/RP)=1.261, Bp-Rp=1.462590, Bp-G=0.673080, G-Rp=0.789510.
-  G-V = 4.7667 - 5.20 = -0.433. M_G=7.05, M_Ks=4.60. 
+  <[Fe/H]> = -0.25(N=8). Soubiran22/PASTEL mean values:
+  Teff=4441+-37K, logg=4.51+-0.04, [Fe/H]=-0.13+-0.03. Using IRFM
+  Alonso96 getst Teff=4323+-50K, about 100K lower. GaiaDR3:
+  plx=285.9949+-0.0599mas(GaiaDR3), G=4.766713+-0.002826 => Vizier
+  correct => Gcor=4.766713+-0.002826(same), E(BP/RP)=1.261,
+  Bp-Rp=1.462590, Bp-G=0.673080, G-Rp=0.789510.  G-V = 4.7667 - 5.20 =
+  -0.433. GaiaDR3: plx M_G=7.05, M_Ks=4.60. Angular diameter
+  measurement: tetLDD(A)=1.775+-0.013(Kervella08),
+  Rad=0.665+-0.005Rsun(Kervella08) =>
+  Rad=0.6673+-0.0049Rad(Kervella08,GaiaDR3).
+  fbol=3.72e-7erg/s/cm2(Alonso96) => mbol=4.5762(IAU2015 scale) => BC
+  = mbol - V =
 
 # Secondary Standard
 
@@ -578,6 +645,11 @@ HD 332518 = HIP 97223 = 2MASS J19453562+3000369
   G=8.693278+-0.002762(GaiaDR3), Bp-Rp=1.476788, Bp-G=0.681117,
   G-Rp=0.795671(GaiaDR3). V-Ks = 9.166 - 6.184 = 2.982.
 
+HD 238087 = StKM 2-800
+  K5V: 1928AnHar.100...49C(K5),1956PMcCO..13a....B(K5:),Stephenson86,Reid95
+  M0V: Vyssotsky52
+
+
 # Other Stars
 
 RECONS list shows GJ 820A (61 Cyg A: J2106+3844) as the nearest K5.0V star.
@@ -654,7 +726,16 @@ GJ 854 = HIP 109980 = BD+67_1424 = G 263-15 = G 264-23 = G 241-2 = NLTT 53430 = 
   M1: Lee47
 
   Nearby near solar metallicity in Soubiran22/PASTEL catalog.
-  Soubiran22/PASTEL catalog: Teff=4402+-35K, logg=4.60+-0.08, [Fe/H]=-0.01+-0.04. 
+  Soubiran22/PASTEL catalog: Teff=4402+-35K, logg=4.60+-0.08, [Fe/H]=-0.01+-0.04.
+
+GJ 517 = HD 118100 = HIP 66252 = EQ Vir = UPG 323 = RBS 1287 = MCC 145 
+ *K4.5Vke: Gray03
+  K5Ve: Bidelman85(K5),Keenan89
+  K7V: Upgren72,Sharma20(neural network, errors +-1.23 subclasses)
+  K8V: Vyssotksy46
+
+  Active star with Einstein, EUVE, ROSAT X-ray counterparts, rotation period 3.912d (2012AcA....62...67K).
+  GaiaDR3: plx=48.8225+-0.0224mas(GaiaDR3), G=8.737202+-0.003008(GaiaDR3), 
   
 # Comments on Teff scale as function of log(g)
 

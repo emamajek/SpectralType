@@ -59,7 +59,7 @@ HD 224618, and HD 26965.
 <B-V>(K0V) =  0.81  ; Fitzgerald70
 (B-V)(K0V) =  0.81  ; SchmidtKaler82
 (B-V)(K0V) = 0.807 ; interp G8V(B-V=0.730),K1V(B-V=0.845)
-(B-V)(K0V) = 0.804 ; exemplar HD 10780 ([Fe/H]=0.03)
+(B-V)(K0V) = 0.804 ; exemplar HD 10780 ([Fe/H]=+0.03)
 (B-V)(K0V) =  0.79  ; Strassmeier90
 (B-V)(K0V) = 0.786 ; anchor stan. K0V sig Dra ([Fe/H]=-0.21)
 (B-V)(K0V) = 0.773 ; sec. stan. K0V HD 224618 ([Fe/H]=-0.76)
@@ -72,30 +72,47 @@ HD 224618, and HD 26965.
 => adopt (H-Ks)(K0V) = 0.091
 => adopt (J-H)(K0V)  = 0.388
 
+(U-B)(K0V)   = 0.342 ; exemplar HD 100623 = GJ 432A
 (U-B)(K0V)   = 0.450 ; HIP d<75pc S/N>8 K0V N=95 (Mermilliod91 photometry)
 (U-B)(K0V)   = 0.47  ; Johnson66
 (U-B)(K0V)   = 0.48  ; JohnsonMorgan53
+(U-B)(K0V)   = 0.498 ; Koen10 d<25pc median K3V (N=7) 
 
 (V-Rc)(K0V) =  0.423 ; HIP 1031 (Koen10)
+(V-Rc)(K0V) =  0.425 ; exemplar HD 39194 = GJ 9191 (Cousins80)
+(V-Rc)(K0V) =  0.45  ; exemplar HD 100623 = GJ 432A (Cousins80)
 (V-Rc)(K0V) =  0.454 ; HIP 39064 (Koen10)
+(V-Rc)(K0V) =  0.455 ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03) (Cousins80)
 (V-Rc)(K0V) =  0.461 ; HIP 99452 (Koen10)
+(V-Rc)(K0V) = 0.461 ; Koen10 median for nearby K0Vs d<25pc (N=7)
 (V-Rc)(K0V) =  0.461 ; HIP 81735 (Koen10)
 (V-Rc)(K0V) =  0.467 ; HIP 74702 (Koen10)
 (V-Rc)(K0V) = 0.474 ; trend B-V vs V-Rc for B-V=0.857
 (V-Rc)(K0V) =  0.477 ; HIP 66765 (Koen10)
-=> adopt (V-Rc)(K0V) = 0.47 [updated 1/15/2023]
+(V-Rc)(K0V) = 0.505 ; pri. stan. eps Eri = HD 22049 = GJ 144 (Cousins80) 
+=> adopt (V-Rc)(K0V) = 0.46 [updated 9/1/2023]
 
 (V-Ic)(K0V) =  0.810 ; HIP 1031 (Koen10)
+(V-Ic)(K0V) =  0.840 ; exemplar HD 39194 = GJ 9191 (Cousins80)
 (V-Ic)(K0V) = 0.856 ; HIP K0V d<75pc N=216 (+-0.004 sem, +-0.044 stdev)
 (V-Ic)(K0V) = 0.857 ; Gray01/03/06 K0V using HIP V-Ic (+-0.006 sem, +-0.038 stdev)
+(V-Ic)(K0V) =  0.86  ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03) (Cousins80)
 (V-Ic)(K0V) = 0.863 ; trend B-V vs V-Ic for B-V=0.816
 (V-Ic)(K0V) =  0.873 ; HIP 39064 (Koen10)
+(V-Ic)(K0V) =  0.875 ; exemplar HD 100623 = GJ 432A (Cousins80)
 (V-Ic)(K0V) =  0.877 ; HIP 74702 (Koen10)
+(V-Ic)(K0V) = 0.878 ; median for Koen10 nearby K0Vs d<25pc (N=7)  
 (V-Ic)(K0V) =  0.878 ; HIP 81375 (Koen10)
 (V-Ic)(K0V) =  0.886 ; HIP 99452 (Koen10)
 (V-Ic)(K0V) =  0.887 ; HIP 66765 (Koen10)
-=> adopt (V-Ic)(K0V)  = 0.86 [updated 1/15/2023]
-=> adopt (Rc-Ic)(K0V) = 0.39 [updated 1/15/2023; V-Ic=0.86, V-Rc=0.47]
+(V-Ic)(K0V) = 0.945 ; pri. stan. eps Eri = HD 22049 = GJ 144 (Cousins80)
+=> adopt (V-Ic)(K0V)  = 0.87 [updated 8/20/2023]
+=> adopt (Rc-Ic)(K0V) = 0.41 [updated 8/20/2023; V-Ic=0.87, V-Rc=0.46]
+
+(R-Ic)(K0V) = 0.405 ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03) (Cousins80) 
+(R-Ic)(K0V) = 0.415 ; exemplar HD 39194 = GJ 9191 (Cousins80)
+(R-Ic)(K0V) = 0.425 ; exemplar HD 100623 = GJ 432A (Cousins80)
+(R-Ic)(K0V) = 0.44  ; pri. stan. eps Eri = HD 22049 = GJ 144 (Cousins80)
 
 (Ks-W1)(K0V) = 0.070 ; EEM trend for d<30pc for B-V=0.816
 => adopt (Ks-W1)(K0V) = 0.070 [updated 12/29/2019]
@@ -124,7 +141,7 @@ within 1 mag of the main sequence (N=216):
 
 (r-i)(K0V) = 0.164 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.39
 
-(G-V)(K0V) =  -0.248  ; exemplar HD 10780
+(G-V)(K0V) =  -0.248  ; exemplar HD 10780 ([Fe/H]=+0.03)
 (G-V)(K0V) =  -0.245  ; exemplar 20 Crt = HR 4458 
 (G-V)(K0V) =  -0.230  ; exemplar 55 Cnc
 (G-V)(K0V) = -0.229  ; trend SIMBAD d<20pc for V-Ks=1.953
@@ -138,7 +155,7 @@ within 1 mag of the main sequence (N=216):
 => adopt (G-V)(K0V) = -0.22 (GaiaDR2) [updated 9/24/2021]
 => adopt (G-V)(K0V) = -0.21 (GaiaDR3) [updated 8/15/2023]
 
-(Bp-Rp)(K0V) =  0.9652 ; exemplar HD 10780
+(Bp-Rp)(K0V) =  0.9652 ; exemplar HD 10780 ([Fe/H]=+0.03) (GaiaDR2)
 (Bp-Rp)(K0V) = 0.9786  ; ter. stan. HD 284253 [Hyad]
 (Bp-Rp)(K0V) = 0.9830  ; pri. stan. sig_Dra   K0V 
 (Bp-Rp)(K0V) = 0.9878  ; sec. stan. HD 224618
@@ -151,7 +168,7 @@ within 1 mag of the main sequence (N=216):
 (Bp-G)(K0V) = 0.451 ; color trend for B-V=0.816
 (Bp-G)(K0V) = 0.430 ; Bp-Rp=0.983, G-Rp=0.553
 
-(G-Rp)(K0V) =  0.5204  ; exemplar HD 10780
+(G-Rp)(K0V) =  0.5204  ; exemplar HD 10780 ([Fe/H]=+0.03) (GaiaDR2)
 (G-Rp)(K0V) = 0.546    ; color trend for B-V=0.816
 (G-Rp)(K0V) =  0.5492  ; exemplar 20 Crt = HR 4458
 (G-Rp)(K0V) = 0.5519   ; ter. stan. HD 284253 [Hyad]
@@ -185,7 +202,7 @@ Teff(K0V) = 5316 +- 5 K ; fit to [Fe/H] vs. Teff for 3 standards (using Soubiran
 Teff(K0V) = 5320 K ; ter. stan. HD 284253 = Cl Melotte 25 21 ([Fe/H]=+0.16)
 Teff(K0V) =  5328 K ; Biazzo07 Teff calibration for B-V=0.816
 Teff(K0V) =   5347 +- 20 K ; Boyajian12b
-Teff(K0V) = 5358 K ; exemplar HD 10780 = HR 511 ([Fe/H]=0.03)
+Teff(K0V) = 5358 K ; exemplar HD 10780 = HR 511 ([Fe/H]=+0.03)
 Teff(K0V) =   5280 K ; GrayCorbally09
 Teff(K0V) =   5450 K ; Boyajian12a (N=5)
 => adopt Teff(K0V) = 5290 K (logT = 3.723) [updated 8/15/2023]
@@ -206,7 +223,7 @@ BCv(K0V) = -0.139+-0.018 ; exemplar GJ 631 (12 Oph) (see below)
 
 M_G(K0V) =   5.13097  ; HD_145675_ plx=55.8657mas (K0V, Keenan89) (GaiaDR3) ([Fe/H]=+0.43) 
 M_G(K0V) = 5.400    ; ter. stan. HD_284253 (Hyad; [Fe/H] = +0.16) (GaiaDR3)
-M_G(K0V) = 5.40148  ; exemplar HD_10780_ plx=99.5902mas K0V  (GaiaDR3) 
+M_G(K0V) = 5.40148  ; exemplar HD_10780_ plx=99.5902mas K0V  (GaiaDR3) ([Fe/H]=+0.03)
 M_G(K0V) =  5.40476  ; HD_221354_ plx=59.3670mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=+0.03)
 M_G(K0V) = 5.44385  ; deprecated stan. 70 Oph A = HD_165341A_ plx=195.5674mas (K0-V, Keenan89) (GaiaDR3) ([Fe/H]=+0.06)
 M_G(K0V) =  5.46618  ; HD_21175_ plx=56.557mas (K0V, Torres06, Houk78) (GaiaDR3) ([Fe/H]=+0.11)
@@ -240,7 +257,7 @@ Mv(K0V)  = 5.74 mag ; M_Ks=3.7853 (trend for [Fe/H]=0.00) & (V-Ks)=1.958 (est. f
 Mv(K0V)  = 5.73 mag ; M_G=5.519 (trend for[Fe/H=0.00) & (G-V)=-0.21 
 Mv(K0V)  = 5.73 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.816
 Mv(K0V)  = 5.72 mag ; B-V=0.816 => EEM fit to SIMBAD dwarfs d<25pc
-Mv(K0V)  =  5.62 mag ; exemplar HD 10780 (~solar metallicity)
+Mv(K0V)  =  5.62 mag ; exemplar HD 10780 ([Fe/H]=+0.03)
 Mv(K0V)  = 5.62 mag ; ter stan. HD 284253 (Hyad; [Fe/H] ~ +0.2)
 Mv(K0V)  =  5.44 mag ; exemplar variant K0IV-V 55 Cnc = rho01 Cnc
 Mv(K0V)  =   5.32 mag ; Wegner07
@@ -275,7 +292,7 @@ Rad(K0V) =   0.9470+-0.0320 Rsun ; HD 3651 (Boyajian13)
 Rad(K0V) =   0.9434+-0.0101 Rsun ; HD 75732 (Boyajian13)
 Rad(K0V) =   0.879 Rsun ; Challouf14 calibration for Mv=5.78, M_Ks=3.827
 Rad(K0V) =   0.873 +- 0.024 Rsun ; ecl. binary HS Aur B (Popper86) 
-Rad(K0V) =  0.831 +- 0.004 Rsun ; deprecated stan. HD 165341 = 70 Oph A (Yee17) ([Fe/H]=+0.06)
+Rad(K0V) =  0.8329+-0.0029 Rsun. Rsun ; deprecated stan. 70 Oph A (see below) ([Fe/H]=+0.06)
 Rad(K0V) =  0.824 +- 0.019 Rsun ; exemplar HD 10780 ([Fe/H]=+0.03) (see below)
 Rad(K0V) = 0.820 Rsun ; Teff=5290K, logL=-0.324
 Rad(K0V) =  0.8101 +-0.0045 Rsun ; HD 10476 (Boyajian13)
@@ -286,6 +303,8 @@ Rad(K0V) =  0.772 Rsun ; exemplar HD 149661 = 12 Oph
 Rad(K0V) =  0.759  +- 0.012 Rsun ; exemplar HD 149661 = 12 Oph (Yee17)
 Rad(K0V) =   0.753+-0.01 Rsun ; non-standard Kepler-444 ([Fe/H]~-0.5, 11Gyr)
 => adopt Rad(K0V) = 0.813 Rsun [updated 8/29/2020]
+[EEM 9/1/2023: note that the radius for 70 Oph A is probably above that for the K0V
+mean as the star is slightly hotter (K0-V) and a tad more metal-rich ([Fe/H]=+0.06). 
 
 Mass(K0V) =  0.888 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.76)
 Mass(K0V) = 0.881 Msun ; Eker18 calibration for logL=-0.324
@@ -382,7 +401,7 @@ HD 284253 = Cl Melotte 25 21 = vB 21 = HIP 19934 = V984 Tau (J0416+2154)
 
 # Variant Standard
 
-HD 165341 = 70 Oph A = HR 6752 = GJ 702 = HIP 88601 A
+HD 165341 = 70 Oph A = HR 6752 = GJ 702A = HIP 88601 A = Gaia DR3 4468557611984384512
   G8/K0V: Maury1897
  *K0-V: Keenan89,Gray03
   K0V: MK43,JM53,Wilson62,Cowley67,Abt81(AB)
@@ -392,14 +411,41 @@ HD 165341 = 70 Oph A = HR 6752 = GJ 702 = HIP 88601 A
 
   Not ideal as 70 Oph is a 1.5" binary (K4V companion) and type has
   migrated from K0V to K0-V. Primary: V=4.25(Mermilliod91),
-  B-V=0.78(Mermilliod91), U-B=0.57(Mermilliod91). Boyajian12 reports
-  tetLD=1.515+-0.005mas. plx=195.2166+-0.1012mas(GaiaDR2,for 70
-  OphB). Boyjian12+GaiaDR2 =>
-  Rad=0.834Rsun. Rad=0.831+-0.004Rsun(Yee17).  PASTEL:
+  B-V=0.78(Mermilliod91), U-B=0.57(Mermilliod91).  Cousins80 reports
+  unresolved photometry: V(AB)=4.02(Cousins80),
+  R-Ic(AB)=0.455(Cousins80), V-Ic(AB)=0.965(Cousins80).  Boyajian12
+  reports tetLD=1.515+-0.005mas. plx=195.2166+-0.1012mas(GaiaDR2,for
+  70 OphB). Radius: Boyjian12+GaiaDR3 =>
+  Rad=0.8329+-0.0029Rsun. Rad=0.831+-0.004Rsun(Yee17).  PASTEL:
   <Teff>=5258K(N=28), <logg>=4.52(N=19), <[Fe/H]>=+0.065(N=12).
   Soubiran22 PASTEL compendium averages: Teff=5298+-32K,
   logg=4.52+-0.05, [Fe/H]=+0.06+-0.03.
 
+  Rotation: Interestingly, Hipparcos reports period of 1.96d for 70
+  Oph A, with the Hp magnitude ranging from 4.14 to 4.17, and a period
+  of 1.96396 days appears in the VSX catatlog. However Baliunas96
+  reports R'HK rotation periods for A and B of 20d and 34d,
+  respectively. Nearly all the published vsini values are <4 km/s
+  (e.g. recent examples 3.3+-1.0km/s(Smith78), 3.1+-0.8km/s(Fekel97),
+  2.6km/s(Brewer6), 1.6+-0.4km/s(Gray84,Herrero12), however there is a
+  discrepent value in the Glebocki catalog of 15 km/s(Uesugi82).  Note
+  that combining the Gray84 estimates of vsini=1.6+-0.4km/s (w/o
+  Zeeman broadening) or vsini=2.6+-1.3km/s (w/Zeeman broadning) with
+  the Boyajian12+GaiaDR3 radius of 0.8329+-0.0029Rsun => interpreting
+  Vsini as Veq one would estimate rotation period of Prot=26.3+-6.6
+  day (Prot=16.2+-8.1 d), both of which are within 1sigma of the
+  Baliunas96 Prot from CaHK. For the Hipparcos-reported period of
+  1.96d, one would expect Veq=21.5km/s, suggesting 70 Oph A would have
+  to be nearly pole-on. If 70 Oph A really had Prot=1.96d, then it
+  should be a saturated X-ray emitter (e.g. Pizzolato03) with X-ray
+  emission (Lx/Lbol(sat)~-3.1) *two orders of magnitude higher* than
+  observed (logLx/Lbol~-5.2;Eiroa13,Wright11)! Indeed given the X-ray
+  activity (logLx/Lbol=-5.2), using the relations from Mamajek08, one
+  would predict a rotation period of Prot=18d - close to the reported
+  Baliunas96 value (20d). So I suggest that the X-ray data and vsini
+  values for 70 Oph are more consistent with Prot ~ 20 days and not
+  the 1.96d reported by Hipparcos.
+    
 # Deprecated Standards
 
 HD 3651 = 54 Psc = HR 166 (J0039+2115)
@@ -472,14 +518,15 @@ HD 149661 = 12 Oph = HR 6171 = GJ 631 = HIP 81300 = V2133 Oph
   K1V: Houk99
   K2V: Cowley67
 
-  Nearby young, active K0 dwarf of ~solar metallicity. 
-  6th brightest K0V star in Bright Star Catalog(Hoffleit91).  BY Dra
-  variable with amplitude 0.04 mag (VSX), chromospherically active
-  (logR'HK = -4.583; age ~ 1.0-1.9 Gyr; Mamajek08).
-  V=5.764+-0.017(Mermilliod91), V=5.77(HIP), V=5.75(BSC),
-  V=5.74(Johnson66), B-V=0.827+-0.012(Mermilliod91,HIP),
+  Nearby young, active K0 dwarf of ~solar metallicity.  6th brightest
+  K0V star in Bright Star Catalog(Hoffleit91).  BY Dra variable with
+  amplitude 0.04 mag (VSX), chromospherically active (logR'HK =
+  -4.583; age ~ 1.0-1.9 Gyr; Mamajek08).  V=5.75(BSC),
+  V=5.74(Johnson66), V=5.76(Cousins80), V=5.764+-0.017(Mermilliod91),
+  V=5.77(HIP), B-V=0.827+-0.012(Mermilliod91,HIP),
   B-V=0.81(Johnson66), U-B = 0.492+-0.027(Mermilliod91),
-  U-B=0.45(Johnson66), V-I=0.87+-0.02(HIP).  plx =
+  U-B=0.45(Johnson66), V-Ic=0.87+-0.02(HIP), V-Ic=0.86(Cousins80),
+  R-Ic=0.405(Cousins80), V-Rc=0.455(Cousins80).  plx =
   100.8111+-0.0788mas(GaiaDR2), plx=102.55+-0.40mas(HIP2).  Mv =
   5.782+-0.017(M91,GaiaDR2).  G=5.5300+-0.0008, Bp-Rp=1.0102,
   Bp-G=0.4552, G-Rp=0.5550 => corrected via Evans18 (only G needs
@@ -506,7 +553,7 @@ HD 10780 = HR 511 = HIP 8362
   consensus type seems to be K0V *and* with near-solar metallicity.
   PASTEL: <Teff> = 5350K(N=26), <[Fe/H]>=+0.03(N=17).  Soubiran22
   PASTEL compendium averages: 5358+-11K, logg=4.48+-0.03,
-  [Fe/H]=0.03+-0.02.  V=5.63(HIP), V=5.631+-0.011(Mermilliod91),
+  [Fe/H]=+0.03+-0.02.  V=5.63(HIP), V=5.631+-0.011(Mermilliod91),
   B-V=0.804+-0.010(HIP), B-V=0.804+-0.010(Mermilliod91),
   V-I=0.81(HIP).  plx=99.5746+-0.0595mas(GaiaDR2) =>
   Mv=5.622+-0.011(Mermilliod91,GaiaDR2).  GaiaDR2: G=5.3827+-0.0012,
@@ -540,21 +587,30 @@ HD 10780 = HR 511 = HIP 8362
   GaiaDR2: G=5.7144+-0.0006, E(BR/RP)=1.193, Bp-Rp=1.0135,
   Bp-G=0.4570, G-Rp=0.5565. G-V = 5.7144 - 5.944 = -0.2296.
 
-20 Crt = HD 100623 = HR 4458 = HIP 56452 = LHS 308 = LDS 6245 = WDS J11345-3250
+HD 100623 = GJ 432A = 20 Crt = HR 4458 = HIP 56452 = LHS 308 = LDS 6245 = WDS J11345-3250
   K0-V: Gray06
  *K0V: Evans57,Wilson62,Houk82,Bidelman85(K0),Reid95
   K2V: Adams35
 
   16" binary with V=14.9 DC8 white dwarf (LHS 309).  V=5.96(HIP),
-  V=5.964+-0.007(Mermilliodd91), B-V=0.813+-0.007(Mermilliod91),
-  B-V=0.811+-0.007(HIP),
-  U-B=0.342+-0.015(Mermilliod91). Ks=4.022+-0.036(2MASS,qual=E).
-  PASTEL: <Teff> = 5165K(N=9), <logg>=4.585(N=8), <[Fe/H]> =
-  -0.38(N=8). Soubiran22 compendium averages: Teff=5196+-23K,
-  logg=4.60+-0.04, [Fe/H]=-0.40+-0.02.  GaiaDR2:
-  plx=104.7828+-0.0518mas, G=5.7194+-0.0005, E(BR/RP)=1.189,
-  Bp-Rp=1.0025, Bp-G=0.4532, G-Rp=0.5492.  Mv=6.065+-0.007,
-  M_G=5.821+-0.001, G-V = 5.7194 - 5.964 = -0.245.
+  V=5.964+-0.007(Mermilliodd91), V=5.975(Cousins80),
+  B-V=0.813+-0.007(Mermilliod91), B-V=0.811+-0.007(HIP),
+  U-B=0.342+-0.015(Mermilliod91), R-Ic=0.425(Cousins80),
+  V-Ic=0.875(Cousins80),
+  V-Rc=0.45(Cousins80). Ks=4.022+-0.036(2MASS,qual=E).  PASTEL: <Teff>
+  = 5165K(N=9), <logg>=4.585(N=8), <[Fe/H]> = -0.38(N=8). Soubiran22
+  compendium averages: Teff=5196+-23K, logg=4.60+-0.04,
+  [Fe/H]=-0.40+-0.02.  GaiaDR2: plx=104.7828+-0.0518mas,
+  G=5.7194+-0.0005, E(BR/RP)=1.189, Bp-Rp=1.0025, Bp-G=0.4532,
+  G-Rp=0.5492.  Mv=6.065+-0.007, M_G=5.821+-0.001, G-V = 5.7194 -
+  5.964 = -0.245.
+
+HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 = LHS 210 = Gaia DR3 4657193606465368704
+ *K0V: 1961AcA....11...59P,Evans61,Przyblski65,Gray06
+  G8V: Houk75
+  
+  Three exoplanets? V=8.075(Cousins80), R-Ic=0.415(Cousins80), V-Ic=0.84(Cousins80). 
+
 
 # Other Stars
 
@@ -563,6 +619,35 @@ HD 284253 (B-V=0.813), HD 285773 (B-V=0.831), HD 28258 (B-V=0.839). Median <B-V>
 
 RECONS list shows GJ 702A (70 Oph A; J1805+0230) as the nearest K0V
 star.
+
+
+HD 118972
+ *K0V(k): Gray06,Torres06(K0V)
+  K1V: Houk82
+  K2V: Upgren72
+
+  Solar metallicity star ([Fe/H]=-0.03;Soubiran22).  Soubiran22/PASTEL
+  catalog means: Teff=5224+-23K, logg=4.43+-0.10, [Fe/H]=-0.03+-0.03.
+
+HD 221354 = HIP 116085 = Gaia DR3 2011251030583236352
+  G8V: Bidelman85(G8),1927MeUpp..28....1L
+ *K0V: Gray03,Roman55,Wilson62,1961UppAn...4j...1L,1966UppAn...5d...1O	
+  K1V: Yoss61,1961JO.....44...97D
+  K1IV: 1959AnTou..27...47B,1959JO.....42....1B,1979AbaOB..51....3B
+  K2V: Adams35,Cowley67,1955IzKry..14....3B,1953UppAn...3h....W
+
+  Approximately solar metallicity ([Fe/H]=+0.03;Soubiran22).
+  V=6.76(HIP), B-V=0.839+-0.003(HIP), V-Ic=0.85+-0.07(HIP).
+  Soubiran22/PASTEL means: Teff=5237+-16K, logg=4.36+-0.06,
+  [Fe/H]=+0.03+-0.03. Wilson62 comment in Skiff MK compendium: "Balmer
+  lines wk? CN strong". Could the star be alpha-rich?  Liu20 finds
+  that the star is Barium poor compared to Sun [Ba/Fe]~-0.2. Star is
+  highish velocity (UVW = -70, -58, -17 km/s; Hinkel17) but still
+  generally classified as a thin disk star, just a very old one
+  (literature multiple times has ages of ~10-12 Gyr; Ibuikayama02 has
+  10.46Gyr, Valenti05 and Lawler09 have 11.6Gyr) - but these are older
+  than max thin disk ages (~9 Gyr). Isaacson10 says the star is
+  0.22mag above the MS. plx=59.3670+-0.0169mas(GaiaDR3).
 
 HD 144579
   G8V: Adams35,Cowley67,Hagen67,Harlan81
@@ -632,6 +717,25 @@ Kepler-444 = HIP 94931 = LHS 3450 = KOI 3518A = G 125-4 = G 208-18 = LTT 15655 =
   M=0.754+-0.03Msun, R=0.753+-0.01Rsun, age=11.0+-0.8Gyr.  Buldgren19:
   "...demonstrate that this low-mass star bore a convective core
   during a significant portion of its life on the main sequence."
+
+HD 17382
+ *K0V: Wilson52,Gray03,Torres06
+  K1V: Halliday55,1956PDDO....2..105H
+  K2: Bidelman
+
+  Near solar metallicity (<2sigma) ([Fe/H]=+0.07;Soubiran22).
+  Soubiran22/PASTEL mean values: Teff=5299+-36K, logg=4.48+-0.05,
+  [Fe/H]=+0.07+-0.04.
+
+HD 211472
+  G5V: 1932MeUpp..55....1S
+ *K0V: Gray03,McCuskey55
+  K1V: Moore50
+  K2V: 1953UppAn...3h....W,1954UppAn...4a...1M
+
+  Near solar metallicity star ([Fe/H]=-0.04;Soubiran22).
+  Soubiran22/PASTEL mean values: Teff=5313+-20K, logg=4.49+-0.06,
+  [Fe/H]=-0.04+-0.03.
   
 ### Notes - Closer look at the G/K Boundary (Trying to pin down "K0V")
 

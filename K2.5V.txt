@@ -27,10 +27,22 @@ Keenan99 standard: HD 283750 (=BD+26_730) - K2.5Ve
 => adopt (G-J)(K2.5V)   = 1.361
 => adopt (G-Ks)(K2.5V)  = 1.925
 
+(R-Ic)(K2.5V) = 0.458 ; exemplar HD 86249 = GJ 374 (Cousins80)
+(R-Ic)(K2.5V) = 0.46  ; exemplar HD 5133 = GJ 42 = HIP 4148 (Cousins80)
+(R-Ic)(K2.5V) = 0.485 ; exemplar HD 203850 = GJ 827.1 = GJ 9738 (Cousins80) 
+
+(V-Ic)(K2.5V) = 0.982 ; exemplar HD 86249 = GJ 374 (Cousins80)
+(V-Ic)(K2.5V) = 1.00  ; exemplar HD 5133 = GJ 42 = HIP 4148 (Cousins80)
+(V-Ic)(K2.5V) = 1.025 ; exemplar HD 203850 = GJ 827.1 = GJ 9738 (Cousins80) 
+
+(V-Rc)(K2.5V) = 0.524 ; exemplar HD 86249 = GJ 374 (Cousins80)
+(V-Rc)(K2.5V) = 0.54  ; exemplar HD 5133 = GJ 42 = HIP 4148 (Cousins80)
+(V-Rc)(K2.5V) = 0.54  ; exemplar HD 203850 = GJ 827.1 = GJ 9738 (Cousins80) 
+
 
 
 (G-V)(K2.5V) =  -0.315 ; HD 203850 PM* K2.5V
-(G-V)(K2.5V) =  -0.308 ; HD 154577 PM* K2.5Vk:
+(G-V)(K2.5V) =  -0.308 ; HD 154577 PM* (K2.5V(k),Gray06)
 (G-V)(K2.5V) =  -0.303 ; HD 40307 PM* K2.5V
 (G-V)(K2.5V) =  -0.300 ; HD 5133 PM* K2.5Vk:
 (G-V)(K2.5V) =  -0.293 ; HD 53927 PM* K2.5V
@@ -71,6 +83,7 @@ Teff(K2.5V) = 5047 +- 19 K ; GJ 33 (Pecaut13)
 Teff(K2.5V) = 5035 K ; non-stan. GJ 505 (slightly metal-poor)
 Teff(K2.5V) = 4994 K ; Gray03/06 K2.5V stars trend w/PASTEL Teff (for [Fe/H]=0.00
 Teff(K2.5V) = 4967 K ; exemplar HR 1982 = HD 38392 (solar metallicity)
+Teff(K2.5V) = 4939 K ; exemplar HD 25665 = GJ 161 ([Fe/H]=-0.02)
 Teff(K2.5V) = 4923 K ; smoothed Teff(SpT) trend
 Teff(K2.5V) = 4920 K ; exemplar HD 160346 (solar metallicity)
 => adopt Teff(K2.5V) = 4990 K (logT = 3.698) ; updated 5/19/2018
@@ -90,7 +103,10 @@ Mv(K2.5V) =  6.43 ; adopted for K3V
 => adopt M_G(K2.5V)  = 6.02  [updated 9/21/2021] (Mv=6.31, G-V=-0.29)
 => adopt M_Ks(K2.5V) = 4.036 [updated 9/26/2020] (Mv=6.31, V-Ks=2.274)
 
+M_G(K2.5V) = 6.062 ; exemplar HD 25665 = GJ 161 ([Fe/H]=-0.02)
 M_G(K2.5V) = 6.148 ; SIMBAD d<20pc trend for V-Ks=2.274
+
+M_Ks(K2.5V) = 4.089 ; exemplar HD 25665 = GJ 161 ([Fe/H]=-0.02)
 
 logL(K2.5V) = -0.504 ; Mv=6.31, BCv=-0.31, Mbol=6.000
 => adopt logL(K2.5V) = -0.504 [updated 9/26/2020]
@@ -106,6 +122,8 @@ Mass(K2.5V) = 0.770 Msun ; Chevalier23 calib for M_G=6.02
 Mass(K2.5V) = 0.76  Msun ; 0.78 Msun for K2V, 0.75 Msun for K3V
 Mass(K2.5V) = 0.746 Msun ; Mann18 calib for M_Ks=4.066
 => adopt Mass(K2.5V) = 0.765 Msun [last updated 8/3/2023]
+
+logg(K2.5V) = 4.60 ; exemplar HD 25665 = GJ 161 ([Fe/H]=-0.02)
 
 # Deprecated Standard
 
@@ -134,15 +152,18 @@ HR 1982 = HD 38392 = gam Lep B = AK Lep
   K3V: Munch44,Bidelman85(K3),Abt08
   K6V: Adams35
 
-  Surprisingly bright star missing from Hipparcos, but in Tycho.  Ursa
-  Major stream member, unclear if associated with cluster.
-  V=6.16(TYC), V=6.160+-0.012(Mermilliod91), B-V=0.954+-0.009(TYC),
-  B-V=0.949+-0.007(Mermilliod91), U-B=0.740+-0.000(Mermilliod91),
-  2MASS photometry is flagged CCD so poor all around.
+  Surprisingly bright nearby star missing from Hipparcos, but in
+  Tycho.  Ursa Major stream member, unclear if associated with
+  cluster.  V=6.16(TYC), V=6.160+-0.012(Mermilliod91),
+  B-V=0.954+-0.009(TYC), B-V=0.949+-0.007(Mermilliod91),
+  U-B=0.740+-0.000(Mermilliod91), 2MASS photometry is flagged CCD so
+  poor all around.
   plx=112.4005+-0.0302mas(GaiaDR2). Mv=6.414+-0.012(M91,GaiaDR2).
   PASTEL: <Teff>=4967K(N=5), <logg>=4.50(N=4), <[Fe/H]>=-0.01(N=4).
+  Soubiran22/PASTEL catalog means: Teff=5027+-67K, logg=4.51+-0.06,
+  [Fe/H]=-0.06+-0.04.
   
-HD 191408 = HR 7703 = GJ 783A = HJ 5173 A
+HD 191408 = GJ 783A = HR 7703 = HJ 5173 A
   K2V: Wilson62,Houk82,Bidelman85(K2)
  *K2.5V: Gray06
   K3V: Evans57,BSC,Gliese91
@@ -154,9 +175,10 @@ HD 191408 = HR 7703 = GJ 783A = HJ 5173 A
   Type has steadily marched hotter since 1923! Presumably the range in
   types is due to metal poorness. V=5.318+-0.006(Mermilliod91),
   B-V=0.866+-0.007(Mermilliod91), U-B=0.442+-0.042(Mermilliod91).
-  PASTEL: <Teff> = 4953K(N=9),
-  <[Fe/H]> = -0.535(N=8) , logg=4.61(N=8).  Ramirez13: Teff=4969+-66K,
-  logg=4.62+-0.02, [Fe/H]=-0.52+-0.05.  Ages:
+  Unresolved photometry of pair GJ 783AB: V(AB)=5.31(Cousins80),
+  R-Ic=0.48(Cousins80), V-Ic(AB)=1.00(Cousins80).  PASTEL: <Teff> =
+  4953K(N=9), <[Fe/H]> = -0.535(N=8) , logg=4.61(N=8).  Ramirez13:
+  Teff=4969+-66K, logg=4.62+-0.02, [Fe/H]=-0.52+-0.05.  Ages:
   6.1+-0.9Gyr(Ramirez12),7.0Gyr(Gaspar13).  Masses:
   0.69+-0.03Msun(Ramirez12). Soubiran05 and Ramirez12 classify it as
   thick disk. Using Bensby14, I estimate P(thin)=1.5%, P(thick)=95.3%,
@@ -183,14 +205,76 @@ HD 115404 = GJ 505
   PASTEL: <Teff> = 5035K, [Fe/H] ~ -0.15 [excluding Luck05/06, which
   had [Fe/H]=-0.34, 4100K?]
 
+HD 224228
+  K2V: Torres06
+ *K2.5V(k): Gray06
+  K3V: Houk82
+
+  Near solar metallicity.  Soubiran22/PASTEL catalog mean values:
+  Teff=4880+-50K, logg=4.61+-0.10, [Fe/H]=+0.04+-0.05.
+
 HD 23356 = UGP 67
   K2V: Houk88
   K2IV-V: Upgren72
  *K2.5V: Gray06
   K3: Bidelman85
 
+HD 25665 = GJ 161 = HIP 19422 = G 248-16 = G 247-13 = NLTT 12572 = Gaia DR3 493935296471302784 = 2MASS J04093502+6932292 
+  K2V: 1934StoAn..11l...1L,Adams35
+ *K2.5V: Gray03
+  K3: Bidelman85
+
+  Near solar metallicity star ([Fe/H]=-0.02;
+  Soubiran22). Ks=5.457+-0.023(2MASS). G=G
+  7.429707+-0.002758(GaiaDR3). Soubiran22/PASTEL catalog mean values:
+  Teff=4939+-17K, logg=4.60+-0.07,
+  [Fe/H]=-0.02+-0.02. plx=53.2562+-0.0170mas(GaiaDR3) =>
+  M_G=6.062+-0.003(GaiaDR3), M_Ks = 4.089+-0.023(2MASS,GaiaDR3).
+
+HD 86249 = GJ 374 = UGP 218
+  K2V: Upgren72,Houk78
+ *K2.5V: Gray06
+  K4V: Evans61
+
+  V=8.988(Cousins80), R-Ic=0.458(Cousins80), V-Ic=0.982(Cousins80). 
+
+HD 203850 = GJ 827.1 = GJ 9738 = HIP 105905 = UGP 524 = LHS 3675 
+  K2V: Upgren72
+ *K2.5V: Gray06
+  K3V: Evans59,Houk75
+
+  V=8.66(Cousins80), R-Ic=0.485(Cousins80), V-Ic=1.025(Cousins80),
+  V-Rc=0.54(Cousins80).
+
+HD 5133 = GJ 42 = GJ 42.0 = HIP 4148 = LHS 1163 = Cl* Melotte 25 EGG 4 = Gaia DR3 5031808453624044800 
+  K2V: Houk88
+ *K2.5V: Gray06
+  K3V: Evans57,Wilson62(SB),Bidelman85(K3)
+  K4V: Munch44
+  K5V: Adams35
+
+  V=7.175(Cousins80), R-Ic=0.46(Cousins80), V-Ic=1.00(Cousins80), V-Rc=0.54(Cousins80). 
+  plx=71.7259+-0.0267mas(GaiaDR3). 
+
+
 # Other Stars
 
+HD 57095 = GJ 269.0 = HIP 35296 = UGP 155
+ *K1V+K4V: Edwards76
+  K2V: Evans57(K2Ve),Upgren72,Bidelman85
+  K2.5V: Gray06
+  K3V: Houk78,Torres06
+
+  0.9" pair. plx=68.52+-0.56mas(HIP2). VRIc photometry in Cousins80.
+
+HD 35112 = UGP 113
+ *K2.5V: Gray03
+  K3V: Upgren72
+
+  Near solar metallicity (within <2sigma) in Soubiran/PASTEL catalog.
+  Soubiran22/PASTEL values: Teff=4892+-35K, logg=4.46+-0.10,
+  [Fe/H]=-0.09+-0.05.
+  
 HD 86065 = HIP 48680
  *K2.5V: Gray06
   K1/2V: Houk88
@@ -201,10 +285,79 @@ HD 148303 = HIP 80683
  *K2.5V: Gray06
   K3V: Houk82
 
-  Solar metallicity in PASTEL/Soubiran22: Teff=4896+-30K, logg=4.55+-0.07, [Fe/H]=-0.01+-0.03. 
+  Solar metallicity in PASTEL/Soubiran22: Teff=4896+-30K, logg=4.55+-0.07, [Fe/H]=-0.01+-0.03.
 
+HD 155712
+ *K2.5V: Gray03
+
+  Near solar metallicity star
+  ([Fe/H]=-0.05;Soubiran22). Soubiran22/PASTEL catalog mean values:
+  Teff=4931+-22K, logg=4.57+-0.05, [Fe/H]=-0.05+-0.03.
+
+HD 192263
+ *K2.5V: Gray03
+
+  Near solar metallicity star
+  ([Fe/H]=+0.02;Soubiran22). Soubiran22/PASTEL catalog mean values:
+  Teff=4967+-13K, logg=4.55+-0.03, [Fe/H]=+0.02+-0.02.
+
+HD 74576 = UGP 189
+  K1Ve: Evans57,Bidelman85(K1)
+  K2V: Wilson62,Upgren72,Houk82
+ *K2.5V(k): Gray06
+  K3V: Torre06
+  K5V: Adams35
+
+  Solar metallicity star ([Fe/H]=+0.01;Soubiran22). Soubiran22/PASTEL
+  catalog means: Teff=4992+-22K, logg=4.60+-0.05, [Fe/H]=+0.01+-0.04.
+
+HD 208038
+ *K2.5V: Gray03
+  K3III: Philip66
+
+  Near solar metallicity star
+  ([Fe/H]=-0.03;Soubiran22). Soubiran22/PASTEL catalog means:
+  Teff=5011+-18K, logg=4.53+-0.04, [Fe/H]=-0.03+-0.02.
+
+HD 183870
+  K2V: Upgren72
+ *K2.5V(k): Gray06
+
+  Near solar metallicity star ([Fe/H]=-0.03;Soubiran22).
+  Soubiran22/PASTEL catalog means: Teff=5033+-18K, logg=4.54+-0.04,
+  [Fe/H]=-0.03+-0.03.
+
+HD 94765
+ *K2.5V: Gray03
+
+  Approximately solar metallicity star ([Fe/H]=+0.04;Soubiran22).
+  Soubiran22/PASTEL catalog mean values: Teff=5073+-19K,
+  logg=4.56+-0.05, [Fe/H]=+0.04+-0.03.
+
+HD 6673 = GJ 52.1
+  K1V: Evans64
+  K2V: Houk78
+  K2.5V: Gray06
+
+  V=8.85(Cousins80), R-Ic=0.46(Cousins80), V-Ic=0.99(Cousins80), V-Rc=0.53(Cousins80).
+
+HD 154577 = GJ 656
+  K0V: Evans57
+  K2V: Houk75
+  K2.5V(k): Gray06
+
+  V=7.395(Cousins80), R-Ic=0.465(Cousins80), V-Ic=0.98(Cousins), V-Rc=0.515(Cousins80).
+
+HD 220339 = GJ 9824 = GJ 894.5 = HIP 115445 = NLTT 56681 = LHS 3939 = G 157-54 = G 273-27 = SPOCS 1017 = Gaia DR3 2436812303124645504
+  K1V: Adams35
+ *K2V: Joy47,Cowley67,Bidelman85(K2),Houk99
+  K2.5V: Gray03
+
+  V=7.785(Cousins80), R-Ic=0.45(Cousins80), V-Ic=0.945(Cousins80),
+  V-Rc=0.495(Cousins80).  plx=52.1643+-0.0275mas(GaiaDR3).
+  
 # Notes
 
 Gray03/06 K2.5V stars queried through PASTEL w/182 pairs of Teff,[Fe/H].
 Trend for K2.5V stars:
-Teff = 4994K + 1.211633e2*[Fe/H]  ; rms=85K
+Teff = 4994K + 1.211633e2*[Fe/H] (rms=85K)
