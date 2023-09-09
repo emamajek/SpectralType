@@ -25,10 +25,12 @@ Henry02 standards: 	     GJ 226    - M2.5V  (from Kirkpatrick91)
 			     GJ 644ABD - M2.5VJ (from Henry94)
 Kirkpatrick(GrayCorbally09): GJ 250B   - M2.5V  (primary standard)
 
-(B-V)  = 1.449+-0.037 ; GJ 250B secondary standard
-(B-V)  = 1.514+-0.014 ; GJ 226 tertiary standard
-(B-V)  = 1.533        ; Koen10 median d<25pc M2.5V
-(B-V)  = 1.573+-0.007 ; GJ 381 primary standard
+(B-V)(M2.5V) = 1.449+-0.037 ; sec. stan. GJ 250B 
+(B-V)(M2.5V) = 1.514+-0.014 ; ter. stan. GJ 226 
+(B-V)(M2.5V) = 1.530        ; Reid CNS3 sample M2.5 median value (N=24)
+(B-V)(M2.5V) = 1.533        ; Koen10 median d<25pc M2.5V
+(B-V)(M2.5V) = 1.573+-0.007 ; pri. stan. GJ 381 
+=> adopt (B-V)(M2.5V) = 1.53 [updated 9/1/2023]
 
 (G-J)(M2.5V)   = 2.480 ; Bentley18/interp
 (G-Ks)(M2.5V)  = 3.331 ; Bentley18/interp
@@ -41,14 +43,20 @@ Kirkpatrick(GrayCorbally09): GJ 250B   - M2.5V  (primary standard)
 (Ks-W1)(M2.5V) = 0.120 ; Best18
 => adopt (Ks-W1)(M2.5V) = 0.145 [updated 12/29/2019]
 
+(V-Rc)(M2.5V) = 1.046 ; Reid CNS3 sample M2.5 median value (N=24)
 
-(V-I)  = 2.35 ; Hawley96
+(R-Ic)(M2.5V) = 1.310 ; Reid CNS3 sample M2.5 median value (N=24)
+
+(V-Ic)(M2.5V) =  2.35 ; Hawley96
+(V-Ic)(M2.5V) = 2.356 ; Reid CNS3 sample M2.5 median value (N=24)
+
 (V-J)  = 3.69 (+-0.28 stdev) ; Lepine12
 
-(V-Ks) = 4.350 ; sec. stan. GJ 250B 
-(V-Ks) = 4.429 ; ter. stan. GJ 226 
-(V-Ks) = 4.447 ; pri. stan. GJ 381 
-(V-K)  =  4.5  ; Hawley96
+(V-Ks)(M2.5V) = 4.350 ; sec. stan. GJ 250B 
+(V-Ks)(M2.5V) = 4.429 ; ter. stan. GJ 226 
+(V-Ks)(M2.5V) = 4.447 ; pri. stan. GJ 381 
+(V-K)(M2.5V)  =  4.5  ; Hawley96
+(V-Ks)(M2.5V) = 4.503 ; Reid CNS3 sample M2.5 median value (N=22)
 => adopt (V-Ks)(M2.5V) = 4.43* [last updated 11/3/2019]
 => adopt (B-V)(M2.5V)  = 1.522
 => adopt (U-B)(M2.5V)  = 1.175
@@ -61,6 +69,10 @@ Kirkpatrick(GrayCorbally09): GJ 250B   - M2.5V  (primary standard)
 => adopt (J-H)(M2.5V)  = 0.589
 => adopt (I-Ks)(M2.5V) = 2.124
 => adopt (G-V)(M2.5V)  = -0.949 [last updated 6/1/2018]
+
+(J-H)(M2.5V)  = 0.595 ; Reid CNS3 sample M2.5 median value (N=22)
+
+(H-Ks)(M2.5V) = 0.255 ; Reid CNS3 sample M2.5 median value (N=22)
 
 (Bp-Rp)(M2.5V) =  2.2906 ; Ross_730    
 (Bp-Rp)(M2.5V) = 2.3322 ; GJ_250B    sec. stan.

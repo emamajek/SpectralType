@@ -63,44 +63,44 @@ followed by GJ 234AB (J0629-0248; M4.5VJ), GJ 83.1 (J0200+1303).
 (B-V)(M4.5V) = 1.664 ; deprecated stan. GJ 831 (Landolt standard)
 (B-V)(M4.5V) = 1.707 ; deprecated stan. GJ 268AB
 <B-V>(M4.5V) =  1.74 ; Bessell79
+(B-V)(M4.5V) = 1.745 ; Reid CNS3 sample M4.5 median value (N=10)
 (B-V)(M4.5V) = 1.804 ; sec. stan. GJ 83.1 (Landolt)
 (B-V)(M4.5V) = 1.811 ; ter. stan. GJ 54.1 (Koen10)
 => adopt (B-V)(M4.5V) = 1.69 [updated 7/5/2020]
 
-(U-B)(M4.5V) = 1.05          ; non.stan. CM Dra (metal poor)
+(U-B)(M4.5V) = 0.984         ; Reid CNS3 sample M4.5 median value (N=8)
+(U-B)(M4.5V) =  1.05          ; non. stan. CM Dra (metal poor)
 (U-B)(M4.5V) = 1.19          ; ter. stan. GJ 1230AC
-(U-B)(M4.5V) = 1.192+-0.058  ; deprecated stan. GJ 268B
+(U-B)(M4.5V) =  1.192+-0.058  ; deprecated stan. GJ 268B
 (U-B)(M4.5V) = 1.23	     ; U-B vs. B-V trend for Landolt09 photometric stans for B-V=1.72
 (U-B)(M4.5V) = 1.231+-0.0041 ; deprecated stan. GJ 831 (Landolt standard)
 (U-B)(M4.5V) = 1.316+-0.0145 ; sec. stan. GJ 83.1 
 (U-B)(M4.5V) = 1.326+-0.048  ; ter. stan. GJ 54.1
-=> adopt (U-B)(M4.5V) = 1.23
+=> adopt (U-B)(M4.5V) = 1.23 [updated 9/1/2023]
 
 (V-Rc)(M4.5V) =  1.298 ; deprecated stan. GJ 831 (Landolt standard)
+(V-Rc)(M4.5V) = 1.339 ; Reid CNS3 sample M4.5 median value (N=10)
 (V-Rc)(M4.5V) = 1.355 ; sec. stan. GJ 83.1 (Landolt)
+=> adopt (V-Rc)(M4.5V) = 1.35 [updated 9/1/2023; V-Ic=3.08, R-Ic=1.73]
 
 (R-Ic)(M4.5V) =  1.669 ; deprecated stan. GJ 831 (Landolt standard)
+(R-Ic)(M4.5V) = 1.720 ; Reid CNS3 sample M4.5 median value (N=10)
 (R-Ic)(M4.5V) = 1.748 ; sec. stan. GJ 83.1 (Landolt standard)
-<R-Ic>(M4.5V) =  1.77  ; Bessell79
+(R-Ic)(M4.5V) =  1.77  ; Bessell79
+=> adopt (R-Ic)(M4.5V) = 1.73 [updated 9/1/2023; V-Ic=3.08, V-Rc=1.35]
 
-(V-I)(M4.5V)  = 2.968 ; deprecated stan. GJ 831 (Landolt standard)
-<V-Ic>(M4.5V) = 3.03  ; Bessell79
-(V-I)(M4.5V)  = 3.05  ; Hawley96
+(V-Ic)(M4.5V) = 2.968 ; deprecated stan. GJ 831 (Landolt standard)
+(V-Ic)(M4.5V) =  3.03  ; Bessell79
+(V-Ic)(M4.5V) =  3.05  ; Hawley96
+(V-Ic)(M4.5V) = 3.064 ; Reid CNS3 sample M4.5 median value (N=10)
 (V-Ic)(M4.5V) = 3.103 ; sec. stan. GJ 83.1 (Landolt standard)
+=> adopt (V-Ic)(M4.5V) = 3.08 [updated 9/1/2023; V-Rc=1.35, R-Ic=1.73]
 
+(J-H)(M4.5V)  = 0.535 ; Reid CNS3 sample M4.5 median value (N=10)
 
-(G-J)(M4.5V)   = 2.858 ; Bentley18/interp
-(G-Ks)(M4.5V)  = 3.722 ; Bentley18/interp
-(Ks-W2)(M4.5V) = 0.346 ; Bentley18/interp
-(W1-W2)(M4.5V) = 0.176 ; Bentley18/interp
+(H-Ks)(M4.5V) = 0.306 ; Reid CNS3 sample M4.5 median value (N=10)
 
-(Ks-W1)(M4.5V) = 0.160 ; Best18
-(Ks-W1)(M4.5V) = 0.170 ; Bentley18/interp
-(Ks-W1)(M4.5V) = 0.203 ; fit to Winters15 data for V-Ks=5.65
-(Ks-W1)(M4.5V) = 0.204 ; Avenhaus12 for V-Ks=5.65
-=> adopt (Ks-W1)(M4.5V) = 0.20 [updated 12/29/2019]
-
-<V-J>(M4.5V)  = 4.81 (+-0.46 stdev) ; Lepine12
+(V-J)(M4.5V)  = 4.81 (+-0.46 stdev) ; Lepine12
 
 (V-Ks)(M4.5V) =  5.104 ; CM Dra (M4.5V+M4.5V EB, but [Fe/H] ~ -1)
 (V-Ks)(M4.5V) = 5.228 ; pri. stan. GJ 166C
@@ -119,14 +119,23 @@ followed by GJ 234AB (J0629-0248; M4.5VJ), GJ 83.1 (J0200+1303).
 (V-Ks)(M4.5V) = 6.138 ; ter. stan. GJ 896BD
 => adopt (V-Ks)(M4.5V) = 5.65 *** [updated 3/8/2018; note there are 3 standards with V-K=5.65]
 
-=> adopt (V-I)(M4.5V) = 3.079
-=> adopt (V-R)(M4.5V) = 1.348
-=> adopt (R-I)(M4.5V) = 1.731
 => adopt (V-J)(M4.5V) = 4.785
 => adopt (V-H)(M4.5V) = 5.349
 => adopt (H-Ks)(M4.5V)= 0.301
 => adopt (J-H)(M4.5V) = 0.564
 => adopt (G-V)(M4.5V) = -1.586
+
+(G-J)(M4.5V)   = 2.858 ; Bentley18/interp
+(G-Ks)(M4.5V)  = 3.722 ; Bentley18/interp
+(Ks-W2)(M4.5V) = 0.346 ; Bentley18/interp
+(W1-W2)(M4.5V) = 0.176 ; Bentley18/interp
+
+(Ks-W1)(M4.5V) = 0.160 ; Best18
+(Ks-W1)(M4.5V) = 0.170 ; Bentley18/interp
+(Ks-W1)(M4.5V) = 0.203 ; fit to Winters15 data for V-Ks=5.65
+(Ks-W1)(M4.5V) = 0.204 ; Avenhaus12 for V-Ks=5.65
+=> adopt (Ks-W1)(M4.5V) = 0.20 [updated 12/29/2019]
+
 
 (Bp-Rp)(M4V)   =  2.96   ; M4V mean
 (Bp-Rp)(M4.5V) = 2.9916 ; GJ_166C    pri. stan.

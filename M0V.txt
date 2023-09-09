@@ -119,43 +119,47 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (B-V)(M0V) = 1.431   ; exemplar GJ 784
 (B-V)(M0V) = 1.433   ; median Koen10 d<25pc M0V
 (B-V)(M0V) = 1.434   ; median SIMBAD M0V d<25pc  (N=97)
+(B-V)(M0V) =   1.44  ; Reid CNS3 sample M0 median value (N=49)
 (B-V)(M0V) = 1.458   ; mean of 4 M0V stars within 8 pc (Kirkpatrick12 list)
 (B-V)(M0V) =  1.483  ; deprecated stan. GJ 809
 (B-V)(M0V) =  1.508  ; deprecated stan. GJ 701 
 (B-V)(M0V) =  1.530  ; deprecated stan. GJ 686
 => adopt (B-V)(M0V) = 1.42 [updated 8/13/2020]
 
+(U-B)(M0V) = 0.76+-0.04 ; pri. stan. GJ 229 (!) 
 (U-B)(M0V) = 1.197 ; HIP d<75pc S/N>8 M0V N=42
-<U-B>(M0V) = 1.25  ; Young Disk ; Leggett92
-<U-B>(M0V) = 1.25  ; Old Disk ; Leggett92
-(U-B)(M0V) = 1.26  ; Johnson65
+(U-B)(M0V) = 1.218 ; Reid CNS3 sample M0 median value (N=21)
+(U-B)(M0V) =  1.25  ; Young Disk ; Leggett92
+(U-B)(M0V) =  1.25  ; Old Disk ; Leggett92
+(U-B)(M0V) =  1.26  ; Johnson65
 
 (V-Rc)(M0V) =  0.89 ; Bessell91 "old disk"
-(V-Rc)(M0V) = 0.89  ; The84  
+(V-Rc)(M0V) =  0.89 ; The84
+(V-Rc)(M0V) =  0.89 ; Reid CNS3 sample M0 median value (N=48)
 (V-Rc)(M0V) = 0.883 ; ter. stan. GJ 328
-=> adopt (V-Rc)(M0V)  = 0.88 [updated 11/15/2022]
-=> adopt (Rc-Ic)(M0V) = 0.92 [updated 7/15/2023; V-Ic=1.80, V-Rc=0.88]
+=> adopt (V-Rc)(M0V)  = 0.89 [updated 9/1/2023; R-Ic=0.91, V-Ic=1.80]
 
 (V-Rj)(M0V) = 1.28 ; Johnson65 
 
-(R-Ic)(M0V) = 0.89 ; The84 (V-Ic)=1.78, (V-Rc)=0.89 
-(R-Ic)(M0V) = 0.91 ; Bessell91 "old disk"
-
+(R-Ic)(M0V) =  0.89 ; The84 (V-Ic)=1.78, (V-Rc)=0.89 
+(R-Ic)(M0V) =  0.91 ; Bessell91 "old disk"
+(R-Ic)(M0V) =  0.91 ; Reid CNS3 sample M0 median value (N=48)
+=> adopt (R-Ic)(M0V) = 0.91 [updated 9/1/2023; V-Rc=0.89, V-Ic=1.80]
 
 (V-Ic)(M0V) =   1.692 ; from V-Ks=3.65
 (V-Ic)(M0V) =  1.735 (+-0.029 sem, +-0.158 stdev; N=27; Gray01/03/06)
 (V-Ic)(M0V) = 1.745 ; exemplar GJ 839
 (V-Ic)(M0V) = 1.751 ; ter. stan. GJ 328
 (V-Ic)(M0V) = 1.766 ; sec. stan. GJ 338A = HD 79210
-(V-Ic)(M0V) = 1.78  ; The84  
+(V-Ic)(M0V) =  1.78  ; The84
+(V-Ic)(M0V) =  1.798 ; Reid CNS3 sample M0 median value (N=49)
 (V-Ic)(M0V) =  1.80  ; Bessell91 "old disk"
 (V-Ic)(M0V) = 1.829 ; pri. stan. GJ 270 (GaiaDR3 synth)
 (V-Ic)(M0V) =  1.836 (+-0.019 sem, +-0.145 stdev; N=49; Koen10)
 (V-Ic)(M0V) =   1.9   ; Hawley96
-=> adopt (V-Ic)(M0V) = 1.80 [updated 11/15/2022]
+=> adopt (V-Ic)(M0V) = 1.80 [updated 9/1/2023]
 
 (V-Ij)(M0V) = 2.19 ; Johnson65
-
 
 <V-J>(M0V) = 3.114 (+-0.088 sem, +-0.175 stdev; N=4)
 <V-J>(M0V) = 2.94  (+-0.21 stdev) ; Lepine12
@@ -177,22 +181,30 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (V-K)(M0V)     =  3.65 ; Bessell91 "old disk"
 (V-Ks)(M0V)    = 3.655 ; trend K/M standards & exemplars
 (V-Ks)(M0V)    = 3.656 ; deprecated stan. GJ 617A = HD 147379A (original JM53 M0V standard)
+(V-Ks)(M0V)    =  3.67 ; Reid CNS3 sample M0 median value (N=48)
 (V-Ks)(M0V)    = 3.686 ; exemplar GJ 784
 (V-Ks)(M0V)    = 3.694 ; pri. stan. GJ 270
 (V-K)(M0V)     =  3.8  ; Hawley96
 (V-Ks)(M0V)    =  3.932 ; deprecated stan. GJ 809
 (V-Ks)(M0V)    =  4.048 ; deprecated stan. GJ 686
 (V-Ks)(M0V)    =  4.064 ; deprecated stan. GJ 701
-=> adopt (V-Ks)(M0V) = 3.65  [last updated 8/13/2020]
+=> adopt (V-Ks)(M0V) = 3.65  [last updated 9/1/2023]
 => adopt (G-Ks)(M0V) = 2.95  = (V-Ks)+(G-V) = 3.65+(-0.70) 
 => adopt (U-B)(M0V)  = 1.206
-=> adopt (V-R)(M0V)  = 0.866
-=> adopt (R-I)(M0V)  = 0.826
 => adopt (V-J)(M0V)  = 2.833
 => adopt (V-H)(M0V)  = 3.460
 => adopt (H-Ks)(M0V) = 0.190
 => adopt (J-H)(M0V)  = 0.627
 => adopt (V-Hp)(M0V) = -0.085
+
+<H-K_CIT>(M0V) = 0.17 ; Beuermann06
+
+(H-Ks)(M0V)    = 0.196 ; Reid CNS3 sample M0.0 median value (N=48)
+
+(J-H)(M0V)     = 0.622 ; Reid CNS3 sample M0.0 median value (N=48)
+
+<J-K_CIT>(M0V) = 0.85 ; Beuermann06
+
 
 (G-Ks)(M0V) = 2.60593  ; HD_166348_ plx=75.7122mas M0V (GaiaDR3)
 (G-Ks)(M0V) = 2.79212  ; HD_107596_ plx=62.7385mas M0V (GaiaDR3)
@@ -227,9 +239,6 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 
 (V-Lj)(M0V) = 3.78 ; Johnson65
 
-<H-K_CIT>(M0V) = 0.17 ; Beuermann06
-
-<J-K_CIT>(M0V) = 0.85 ; Beuermann06
 
 (G-J)(M0V)   = 2.058 ; Bentley18
 (G-Ks)(M0V)  = 2.907 ; Bentley18
@@ -482,7 +491,7 @@ standard, but did list non-standards GJ 123 (HD 19305) M0V and eta Cas B (HD 461
 
 # Primary Standard
 
-GJ 270 = BD+33_1505 = G 87-33 = LHS 1912 = HIP 35495 (J0719+3249)
+GJ 270 = HIP 35495 = BD+33_1505 = G 87-33 = LHS 1912 (J0719+3249)
   K7V: Stephenson86,Hawley97(K7)
  *M0V: Vyssotsky43,Boeshaar76(non-stan),Bidelman85(M0),Kirkpatrick91(pri),Hawley02(stan),Kirkpatrick(GrayCorbally09)(pri),Lepine13,Alonso-Floriano15(reference)
   M1V: Adams26,Gaidos14
