@@ -114,6 +114,33 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 => adopt (J-H)(G0V)  = 0.262
 => adopt (K-W1)(G0V) = 0.058
 
+(U-B)(G0V) = 0.058+-0.055 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
+(U-B)(G0V) = 0.057 ; HIP d<75pc S/N>8 G1V N=133 (Mermilliod91 photometry)
+(U-B)(G0V) = 0.06  ; JohnsonMorgan53 
+(U-B)(G0V) = 0.11  ; Johnson66 [big discrepency!]
+
+(V-Rc)(G0V) = 0.330 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
+(V-Rc)(G0V) =  0.334 ; HIP 9829 (Koen10)
+(V-Rc)(G0V) = 0.341 ; B-V vs V-Rc trend for B-V=0.595 
+(V-Rc)(G0V) =  0.348 ; HIP 15442 (Koen10)
+(V-Rc)(G0V) =  0.355 ; HIP 36515 (Koen10)
+=> adopt (V-Rc)(G0V) = 0.34  [updated 1/15/2023]
+
+(V-Ic)(G0V) =  0.704 ; HIP 9829 (Koen10)
+(V-Ic)(G0V) =  0.696 ; HIP 15442 (Koen10)
+(V-Ic)(G0V) =  0.690 ; HIP 36515 (Koen10)
+(V-Ic)(G0V) = 0.674 ; B-V vs V-Ic trend for B-V=0.595
+<V-Ic>(G0V) = 0.669 ; Gray01/03/06 81 G0Vs HIP V-Ics (+-0.001 sem, +-0.024 stdev)
+(V-Ic)(G0V) =  0.66 ; Bessell88 
+<V-Ic>(G0V) = 0.658 (+-0.001 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
+(V-Ic)(G0V) = 0.650 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
+<V-Ic>(G0V) =  0.625 ; Bessell79
+=> adopt (V-Ic)(G0V)  = 0.67  [updated 1/15/2023]
+=> adopt (Rc-Ic)(G0V) = 0.33  [updated 1/15/2023; V-Ic=0.67, V-Rc=0.34]
+
+<R-Ic>(G0V)  = 0.303 ; Bessell79
+
+
 (V-Ks)(G0V) = 1.416 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
 (V-Ks)(G0V) = 1.428 (+-0.043) ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.595
 
@@ -179,30 +206,6 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 (G-V)(G0V) =   -0.138 ; * bet Hyi G0V
 => adopt (G-V)(G0V) = -0.155 [updated 11/1/2020]
 
-(U-B)(G0V) = 0.058+-0.055 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
-(U-B)(G0V) = 0.057 ; HIP d<75pc S/N>8 G1V N=133 (Mermilliod91 photometry)
-(U-B)(G0V) = 0.06  ; JohnsonMorgan53 
-(U-B)(G0V) = 0.11  ; Johnson66 [big discrepency!]
-
-(V-Rc)(G0V) = 0.330 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
-(V-Rc)(G0V) =  0.334 ; HIP 9829 (Koen10)
-(V-Rc)(G0V) = 0.341 ; B-V vs V-Rc trend for B-V=0.595 
-(V-Rc)(G0V) =  0.348 ; HIP 15442 (Koen10)
-(V-Rc)(G0V) =  0.355 ; HIP 36515 (Koen10)
-=> adopt (V-Rc)(G0V) = 0.34  [updated 1/15/2023]
-
-(V-Ic)(G0V) =  0.704 ; HIP 9829 (Koen10)
-(V-Ic)(G0V) =  0.696 ; HIP 15442 (Koen10)
-(V-Ic)(G0V) =  0.690 ; HIP 36515 (Koen10)
-(V-Ic)(G0V) = 0.674 ; B-V vs V-Ic trend for B-V=0.595
-<V-Ic>(G0V) = 0.669 ; Gray01/03/06 81 G0Vs HIP V-Ics (+-0.001 sem, +-0.024 stdev)
-<V-Ic>(G0V) = 0.658 (+-0.001 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
-(V-Ic)(G0V) = 0.650 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
-<V-Ic>(G0V) =  0.625 ; Bessell79
-=> adopt (V-Ic)(G0V)  = 0.67  [updated 1/15/2023]
-=> adopt (Rc-Ic)(G0V) = 0.33  [updated 1/15/2023; V-Ic=0.67, V-Rc=0.34]
-
-<R-Ic>(G0V)  = 0.303 ; Bessell79
 <V-J>(G0V)   = 1.086 (+-0.005 sem, +-0.065 stdev; HIP d<75pc S/N>8 N=233)
 <V-H>(G0V)   = 1.342 (+-0.006 sem, +-0.087 stdev; HIP d<75pc S/N>8 N=233)
 <V-Ks>(G0V)  = 1.422 (+-0.008 sem, +-0.086 stdev; HIP d<75pc S/N>8 N=233)
@@ -364,7 +367,7 @@ adopt.
 # Primary Standard
 
 bet CVn = HD 109358 = HR 4785 = GJ 475
- *G0V: MKK43,JM53,Morgan65,Garrison72(stan),MK73,KeenanMcNeil76(stan),Jaschek78,Keenan85,Turnshek85(stan),Keenan88,Garrison94,Gray01,Gray03,GrayNstars
+ *G0V: MKK43,JM53,Morgan65,Garrison72(stan),MK73,KeenanMcNeil76(stan),Jaschek78,Keenan80,Keenan85,Turnshek85(stan),Keenan88,Garrison94,Gray01,Gray03,GrayNstars
   G1V: MorganAbt73
 
   B-V=0.585+-0.005(Mermilliod91), B-V=0.586(Jerzykiewicz66),
@@ -476,7 +479,7 @@ HD 114710 = bet Com = HR 4983 = GJ 502
 
 HD 4614A = eta Cas A = HR 219A = HIP 3821 = GJ 34A
  *F9V: Keenan88,Keenan89,Hoffleit91,Keenan99,Gray01,GrayNstars,Abt08
-  G0V: MK43,Moore50,JM53,Barry70(G0Vb),MorganAbt73,Cowley76(stan),KeenanMcNeil76(stan),MK78(stan),Abt81,Keenan83,Keenan85,GrayAtlas,Garrison96
+  G0V: MK43,Moore50,JM53,Barry70(G0Vb),MorganAbt73,Cowley76(stan),KeenanMcNeil76(stan),MK78(stan),Keenan80,Abt81,Keenan83,Keenan85,GrayAtlas,Garrison96
 
   B-V(HIP)=0.587, Vmag=3.46, Mv=4.59, dMv=+0.20, par=168.0+-0.4 mas.
   Spectroscopic binary; not in Houk.  Probably inappropriate as
@@ -548,10 +551,10 @@ rho CrB = HD 143761 = HR 5968
   G2V: Roman52(lines weak),Roman55,Harlan81
 
 HD 160269 = 26 Dra = HR 6573
-  F9V+K3V: Edwards76
+ *F9V+K3V: Edwards76
   G0: Bidelman85
   G0IV-V: Keenan89(stan)
- *G0V: Cowley67,Keenan80(G0Va),Abt81,Keenan85(G0Va),Christian01
+  G0V: Cowley67,Keenan80(G0Va),Abt81,Keenan85(G0Va),Christian01
   G1V: Adams35,Johnson53
   G2V: Roman50,Cowley76(G2V::)
 

@@ -242,12 +242,11 @@ logg(G3V) = 4.43 ; M=0.99Msun, R=1.002Rsun
 
 # No standards
 
-JM53, Wilson62, Morgan65, MK73, Houk75, Keenan85 do not list a G3V
-standard
+JM53, Wilson62, Morgan65, MK73, Houk75, Keenan85 do not list a G3V standard
 
 # Primary Standard
 
-HD 186427 = 16_Cyg_B = HR 7504 = GJ 765.1B = "16 Cyg fol." (J1941+5031)
+HD 186427 = 16 Cyg B = HR 7504 = GJ 765.1B = "16 Cyg fol." (J1941+5031)
   G2V: Adams35,Gray01
   G2.5V: Keenan83
  *G3V: Keenan85,Keenan88,Keenan89,Gray03,Gray06
@@ -293,7 +292,7 @@ HD 150248 = HIP 81746
   mean parameters: Teff = 5720+-11K, [Fe/H] = -0.10+-0.01, logg =
   4.45+-0.03.
 
-# Deprecated Standard
+# Deprecated Standards
 
 HD 10697 = 109 Psc = HR 508 (J0144+2004)
   G3Va: Keenan89,Keenan99
@@ -306,6 +305,24 @@ HD 10697 = 109 Psc = HR 508 (J0144+2004)
   [Fe/H]=0.146+-0.011, logg=4.048+-0.035. 2MASS photometry flagged
   "DEA", Ks=4.601+-0.021(2MASS, Rieke22 adopts same value).
 
+HD 214850AB = HIP 111974 = HR 8631 
+  G1V: 1957ArA.....2...55O
+  G3V: Adams35,Keenan80(stan)
+ *G4V: Abt81,KeenanYorka85,Keenan88,Keenan89(stan),Abt81,Garcia89
+  G5V: Christy69,Bidelman85(G5)
+
+  Keenan80 G3V standard, then considered G4V in his later updates. But
+  it is a tight pair (0.4" separation in 2020) of G-type dwarfs( SB2
+  with components G3V+G8V; P ~ 20 yr), which explains the unusually
+  red B-V (0.723). A third component "D" (G 67-12) lies 271.9" away
+  which Zhang21 classifies as M3 ("C" is an optical interloper 94"
+  away). Both the AB pair and the wide companion D have very high chi2
+  solutions in GaiaDR3 without parallax estimates.  V(AB)=5.72(HIP),
+  B-V(AB)=0.723+-0.004(HIP), V-Ic(AB)=0.83+-0.07(HIP).
+
+HD 76151 = HR 3538
+  see file G2V.txt 
+
 # Variant
 
 HD 1461 = HR 72 = BD-08_38 = SAO 128690
@@ -313,7 +330,7 @@ HD 1461 = HR 72 = BD-08_38 = SAO 128690
   G3V: Gray03
   G0V: Hoffleit91
 
-HD 86728 = 20 LMi = HR 3951 = HIP 49081 = GJ 376a
+HD 86728 = 20 LMi = HR 3951 = HIP 49081 = GJ 376 = GJ 376A 
   G1V: Cowley67
   G2V: Bidelman51
   G2Va Hdelta1: Keenan80
@@ -322,10 +339,12 @@ HD 86728 = 20 LMi = HR 3951 = HIP 49081 = GJ 376a
   G5V: 1966ArA.....3..501L
   G8: Bidelman85
 
-  Poor agreement among classifiers, like due to being so metal-rich.
-  M dwarf companion 134" away.  B-V(HIP)=0.676+-0.004, V=5.37(HIP). PASTEL median
-  values: [Fe/H]=0.22(N=16), logg=4.31(N=14), Teff=5739K(N=21).
-  Chromospherically dead: logR'HK = -5.060. 0.45 mag above MS. 
+  Keenan shifted it from G2V to G3V, and Gray later classified it as
+  G4V - so poor agreement among classifiers, perhaps due to it being
+  so metal-rich.  M dwarf companion 134" away.  B-V(HIP)=0.676+-0.004,
+  V=5.37(HIP). PASTEL median values: [Fe/H]=0.22(N=16),
+  logg=4.31(N=14), Teff=5739K(N=21).  Chromospherically dead: logR'HK
+  = -5.060. 0.45 mag above MS.
 
 # Other Stars
 
@@ -334,3 +353,4 @@ HD 157347 = HIP 85042
 
   Solar metallicity in PASTEL/Soubiran22: Teff=5689+-11K,
   logg=4.42+-0.02, [Fe/H]=0.03+-0.01.
+
