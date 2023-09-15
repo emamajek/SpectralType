@@ -89,7 +89,7 @@ and within 1 mag of the MS (N=26):
 (B-V)(F9V) =  0.55  ; Schmidt-Kaler82(halfway F8V-G0V)
 (B-V)(F9V) = 0.548 ; median SIMBAD F9V d<25pc (N=25)
 (B-V)(F9V) = 0.546 ; trend for xHIP d<25pc for [Fe/H]=0.0
-(B-V)(F9V) = 0.54  ; pri. stan. HD 10647 (~solar metallicity)
+(B-V)(F9V) = 0.54  ; pri. stan. HD 10647 = GJ 3109 = HIP 7978 ([Fe/H]=-0.04)
 (B-V)(F9V) = 0.539 ; exemplar HD 28635 (Hyad)
 (B-V)(F9V) = 0.535 ; ter. stan. HD 84117 ([Fe/H] ~ -0.05)
 => adopt (B-V)(F9V)  = 0.56 *** [last updated 10/26/2020]
@@ -97,15 +97,28 @@ and within 1 mag of the MS (N=26):
 outnumber metal rich by ~4:1, so need to look at [Fe/H] vs. B-V trend for F9Vs.
 Trend show that original color estimate by ]
 
-=> adopt (U-B)(F9V)  = 0.021 *** NEED TO UPDATE THESE FOR SHIFT IN B-V 9/2020
-=> adopt (V-I)(F9V)  = 0.628
-=> adopt (V-R)(F9V)  = 0.316
-=> adopt (R-I)(F9V)  = 0.307
-=> adopt (V-J)(F9V)  = 1.036
-=> adopt (V-H)(F9V)  = 1.272
-=> adopt (V-Ks)(F9V) = 1.335
-=> adopt (H-Ks)(F9V) = 0.063
-=> adopt (J-H)(F9V)  = 0.236
+=> adopt (V-Rc)(F9V)  = 0.323
+=> adopt (R-Ic)(F9V)  = 0.320
+=> adopt (V-J)(F9V)   = 1.052
+=> adopt (V-H)(F9V)   = 1.294
+=> adopt (V-Ks)(F9V)  = 1.358
+=> adopt (H-Ks)(F9V)  = 0.064
+=> adopt (J-H)(F9V)   = 0.242
+
+(U-B)(F9V) =  0.052 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.560
+(U-B)(F9V) =   0.04 ; Fitzgerald70
+(U-B)(F9V) =  0.037 ; HIP d<75pc S/N>8 F9V N=42 (Mermilliod91 photometry)
+(U-B)(F9V) = -0.004 ; pri. stan. HD 10647 = GJ 3109 = HIP 7978 ([Fe/H]=-0.04)
+=> adopt (U-B)(F9V) = 0.052 [updated 9/1/2023]
+
+(V-Rc)(F9V) = 0.321 ; HIP 17147 (Koen10)
+
+(V-Ic)(F9V) = 0.62  ; pri. stan. HD 10647 = GJ 3109 = HIP 7978 ([Fe/H]=-0.04)
+(V-Ic)(F9V) = 0.623 ; (+-0.005 sem, +-0.032 stdev) Gray01/03/06 (N=57)
+(V-Ic)(F9V) = 0.638 ; (+-0.007 sem, +-0.023 stdev) HIP d<75pc S/N>8 (N=26)
+(V-Ic)(F9V) = 0.651 ; HIP 17147 (Koen10)
+=> adopt (V-Ic)(F9V) = 0.62 [updated 9/1/2023]
+
 
 
 (G-V)(F9V) =  -0.1784  ; HD_63077_ F9V_
@@ -173,22 +186,19 @@ Trend show that original color estimate by ]
 (G-Rp)(F9V) =   0.4220  ; HD_108954
 => adopt (G-Rp)(F9V) = 0.39 [updated 11/22/2020]
 
-(U-B)(F9V) = 0.04  ; Fitzgerald70
-(U-B)(F9V) = 0.037 ; HIP d<75pc S/N>8 F9V N=42 (Mermilliod91 photometry)
-
-(V-Rc)(F9V) = 0.321 ; HIP 17147 (Koen10)
-
-(V-Ic)(F9V) = 0.623 ; (+-0.005 sem, +-0.032 stdev) Gray01/03/06 (N=57)
-(V-Ic)(F9V) = 0.638 ; (+-0.007 sem, +-0.023 stdev) HIP d<75pc S/N>8 (N=26)
-(V-Ic)(F9V) = 0.651 ; HIP 17147 (Koen10)
 
 (g-r)(F9V) = 0.391 ; Jordi06 (V-R)=>(g-r) for V-R=0.311
 (g-r)(F9V) = 0.378 ; Bilir05 (B-V)=>(g-r) for B-V=0.56
 (g-r)(F9V) = 0.37  ; Covey07 interp F8V-G0V
-=> adopt (g-r)(F9V) = 0.38 [updated 10/10/2020]
+(g-r)(F9V) = 0.365 ; Just08/Chonis08 B-V=>g-r for B-V=0.56
+=> adopt (g-r)(F9V) = 0.37 [updated 9/1/2023]
 
 (r-i)(F9V) = 0.082 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.307
+=> adopt (r-i)(F9V) = 0.082 [updated 9/1/2023]
 
+(g-V)(F9V) = 0.2245 ; Just08/Chonis08 B-V=>g-V for B-V=0.56
+(g-V)(F9V) = 0.228  ; Jordi06 B-V=>g-V for B-V=0.56
+=> adopt (g-V)(F9V) = 0.226 [updated 9/1/2023]
 
 Teff(F9V) =  6010 K ; GrayCorbally09
 Teff(F9V) =  6010 K ; GrayCorbally94
@@ -269,7 +279,7 @@ Although Keenan89 lists an F9IV-V standard (HD 22484)
 
 # Primary Standard
 
-HD 10647 = HR 506 = HIP 7978 = q01 Eri (J0142-5344)
+HD 10647 = GJ 3109 = HIP 7978 = q01 Eri = HR 506  (J0142-5344)
   F8V: 1953AnHar.119....1H,Houk75
  *F9V: Keenan85,Keenan88,Gray89,Keenan99,GrayNstars,Gray03
 
@@ -278,8 +288,10 @@ HD 10647 = HR 506 = HIP 7978 = q01 Eri (J0142-5344)
   ~F8.5V when compared to Gray's types. V=5.52(HIP), V=5.52(TYC),
   V=5.540+-0.019(Mermilliod91), B-V=0.551+-0.003(HIP),
   B-V=0.541+-0.003(TYC), B-V=0.540(Corben71), B-V=0.534(Oja71),
-  B-V=0.532(Just08), B-V=0.530+-0.026(Mermilliod91),
-  V-I=0.62+-0.00(HIP) => adopt (B-V)=0.54. plx =
+  B-V=0.532(Just08), B-V=0.530+-0.026(Mermilliod91) => adopt (B-V)=0.54.
+  U-B=-0.004+-0.122(Mermilliod91, huge errors?!), U-B=0.000(Mermilliod87/Oja70), U-B=0.00(Hoffleit91)
+  => adopt (U-B)=-0.004(Mermilliod91). 
+  V-Ic=0.62+-0.00(HIP), g-r=0.334(Just08).  plx =
   57.6556+-0.0737(GaiaDR2), plx = 57.36+-0.25(HIP2), Mv=4.32(HIP2),
   dMv=+0.18.  At least Keenan and Gray agree. One of three F9V
   secondary standards listed in Keenan's final list, and has solar-ish
@@ -287,7 +299,8 @@ HD 10647 = HR 506 = HIP 7978 = q01 Eri (J0142-5344)
   values: <Teff>=6155K(N=17), <[Fe/H]>=-0.03(N=15),
   <logg>=4.412(N=15), however some have large uncertainties. Best
   recent value seems to be Ramirez14: Teff=6114+-11K,
-  logg=4.412+-0.036, [Fe/H]=-0.023+-0.014 (which I adopt).  GaiaDR2:
+  logg=4.412+-0.036, [Fe/H]=-0.023+-0.014. Soubiran22/PASTEL mean values:
+  Teff=6155+-17K, logg=4.44+-0.03, [Fe/H]=-0.04+-0.01. GaiaDR2:
   G=5.3549+-0.0013 => corrected Evans18 => Gcor=5.382, E(BR/RP)=1.155,
   Bp-Rp=0.7109, Bp-G=0.3220, G-Rp=0.3889. G-V = 5.382 - 5.52 = -0.138.
 

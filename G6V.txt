@@ -32,16 +32,18 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 (B-V)(G6V) = 0.68  ; median CATSUP d<30pc (N=11)
 (B-V)(G6V) =  0.68  ; KenyonHartmann95
 (B-V)(G6V) = 0.659 ; exemplar HD 216777 
-=> adopt (B-V)(G6V)  = 0.700 *** [last updated 8/29/2019]
-=> adopt (U-B)(G6V)  = 0.227  
+=> adopt (B-V)(G6V)  = 0.700 *** [last updated 8/29/2019] 
 => adopt (V-J)(G6V)  = 1.289
 => adopt (V-H)(G6V)  = 1.612
 => adopt (V-Ks)(G6V) = 1.691
 => adopt (H-Ks)(G6V) = 0.079
 => adopt (J-H)(G6V)  = 0.324
 
-(V-Ks)(G6V) =  1.660 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.700
+(U-B)(G6V) =  0.180 ; HIP d<75pc S/N>8 G6V N=21 (Mermilliod91 photometry)
+(U-B)(G6V) = 0.231 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.70
+=> adopt (U-B)(G5V) = 0.231 [updated 9/1/2023]
 
+(V-Ks)(G6V) =  1.660 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.700
 
 (Ks-W1)(G6V) = 0.063 ; EEM trend for d<30pc for B-V=0.70
 => adopt (Ks-W1)(G6V) = 0.063 [updated 12/29/2019]
@@ -121,15 +123,18 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 <V-Vt>(G6V)  =-0.077 (+-0.002 sem, +-0.018 stdev; HIP d<75pc S/N>8 N=141) 
 <B-K>(G6V)   = 2.423 (+-0.010 sem, +-0.098 stdev; HIP d<75pc S/N>8 N=141)
 
-(U-B)(G6V)   = 0.180 ; HIP d<75pc S/N>8 G6V N=21 (Mermilliod91 photometry)
-
 (g-r)(G6V) = 0.514 ; Jordi06 (V-R)=>(g-r) for V-R=0.388
 (g-r)(G6V) = 0.517 ; Covey07 interp G5V-G8V
+(g-r)(G6V) = 0.518 ; Just08/Chonis08 B-V=>g-r for B-V=0.70
 (g-r)(G6V) = 0.535 ; Bilir05 (B-V)=>(g-r) for B-V=0.700
-=> adopt (g-r)(G6V) = 0.52 [updated 10/10/2020]
+=> adopt (g-r)(G6V) = 0.52 [updated 9/1/2023]
 
 (r-i)(G6V) = 0.145 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.37
+=> adopt (r-i)(G6V) = 0.145 [updated 9/1/2023]
 
+(g-V)(G6V) = 0.314 ; Just08/Chonis08 B-V=>g-V for B-V=0.70
+(g-V)(G6V) = 0.317 ; Jordi06 B-V=>g-V for B-V=0.70
+=> adopt (g-V)(G6V) = 0.315 [updated 9/1/2023]
 
 Teff(G6V) =  5434 K ; deprecated stan. 82 Eri
 Teff(G6V) =  5476 K ; Boyajian12

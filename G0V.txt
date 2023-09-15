@@ -106,7 +106,6 @@ Mean color of Hipparcos G0III stars w/i 75 pc is 0.591 (N=6)
 => adopt (B-V)(G0V)  = 0.595 [updated 10/26/2020]
 [EEM 10/26/2020; see discussion at end, there is remarkably small scatter of only few mmag
 among the 4 standard stars as function of metallicity - value is interpolated to [Fe/H]=0.0]
-=> adopt (U-B)(G0V)  = 0.057
 => adopt (V-J)(G0V)  = 1.108
 => adopt (V-H)(G0V)  = 1.370
 => adopt (V-Ks)(G0V) = 1.437
@@ -116,8 +115,10 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 
 (U-B)(G0V) = 0.058+-0.055 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
 (U-B)(G0V) = 0.057 ; HIP d<75pc S/N>8 G1V N=133 (Mermilliod91 photometry)
-(U-B)(G0V) = 0.06  ; JohnsonMorgan53 
-(U-B)(G0V) = 0.11  ; Johnson66 [big discrepency!]
+(U-B)(G0V) =  0.06  ; JohnsonMorgan53
+(U-B)(G0V) = 0.087 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.595
+(U-B)(G0V) =  0.11  ; Johnson66 [big discrepency!]
+=> adopt (U-B)(G0V) = 0.087 [updated 9/1/2023]
 
 (V-Rc)(G0V) = 0.330 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
 (V-Rc)(G0V) =  0.334 ; HIP 9829 (Koen10)
@@ -135,8 +136,8 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 <V-Ic>(G0V) = 0.658 (+-0.001 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
 (V-Ic)(G0V) = 0.650 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
 <V-Ic>(G0V) =  0.625 ; Bessell79
-=> adopt (V-Ic)(G0V)  = 0.67  [updated 1/15/2023]
-=> adopt (Rc-Ic)(G0V) = 0.33  [updated 1/15/2023; V-Ic=0.67, V-Rc=0.34]
+=> adopt (V-Ic)(G0V) = 0.67  [updated 1/15/2023]
+=> adopt (R-Ic)(G0V) = 0.33  [updated 1/15/2023; V-Ic=0.67, V-Rc=0.34]
 
 <R-Ic>(G0V)  = 0.303 ; Bessell79
 
@@ -215,11 +216,16 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 <V-Vt>(G0V)  = -0.066 (+-0.001 sem, +-0.013 stdev; HIP d<75pc S/N>8 N=233) 
 <B-K>(G0V)   = 2.007 (+-0.007 sem, +-0.104 stdev; N=219)
 
+(g-V)(G0V) = 0.247 ; Just08/Chonis08 B-V=>g-V for B-V=0.596
+(g-V)(G0V) = 0.251 ; Jordi06 B-V=>g-V for B-V=0.596
+=> adopt (g-V)(G0V) = 0.249 [updated 9/1/2023]
+
 (g-r)(G0V) = 0.442 ; Jordi06 (V-R)=>(g-r) for V-R=0.343
 (g-r)(G0V) = 0.423 ; Bilir05 (B-V)=>(g-r) for B-V=0.596
+(g-r)(G0V) = 0.403 ; Just08/Chonis08 B-V=>g-r for B-V=0.595
 (g-r)(G0V) = 0.382 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
 (g-r)(G0V) = 0.38  ; Covey07
-=> adopt (g-r)(G0V) = 0.42 [updated 10/10/2020]
+=> adopt (g-r)(G0V) = 0.403 [updated 9/1/2023]
 
 (r-i)(G0V) = 0.102 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
 (r-i)(G0V) = 0.105 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.33

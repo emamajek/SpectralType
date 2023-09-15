@@ -142,17 +142,18 @@ It is possible that the use of HD 76151 as a G2V standard is what
 has skewed the mean B-V for G2V stars in the Gray Nstars sample
 to be somewhat redder than that for the other standards. 
 
-=> adopt (U-B)(G2V)  = 0.133
 => adopt (V-J)(G2V)  = 1.199
 => adopt (V-H)(G2V)  = 1.491
 => adopt (V-Ks)(G2V) = 1.564
 => adopt (H-Ks)(G2V) = 0.073
 => adopt (J-H)(G2V)  = 0.293
 
-(U-B)(G2V)   = 0.100 ; HIP d<75pc S/N>8 G2V N=107 (Mermilliod91 photometry)
-(U-B)(G2V)   = 0.158 ; Ramirez05 color for Sun (+-0.009; line-depth ratios)
-(U-B)(G2V)   = 0.16  ; Johnson66 
-(U-B)(G2V)   = 0.16  ; JohnsonMorgan53
+(U-B)(G2V) =  0.100 ; HIP d<75pc S/N>8 G2V N=107 (Mermilliod91 photometry, but Houk types nearer G0V?)
+(U-B)(G2V) = 0.156 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.650
+(U-B)(G2V) = 0.158 ; Ramirez05 color for Sun (+-0.009; line-depth ratios)
+(U-B)(G2V) =  0.16  ; Johnson66 
+(U-B)(G2V) =  0.16  ; JohnsonMorgan53
+=> adopt (U-B)(G2V) = 0.156 [updated 9/1/2023]
 
 
 (V-Rc)(G2V) =  0.334 ; HIP 9829 (Koen10)
@@ -174,8 +175,6 @@ to be somewhat redder than that for the other standards.
 (V-Ic)(G2V) = 0.710 ; trend B-V vs V-Ic for B-V=0.650
 => adopt (V-Ic)(G2V)  = 0.705 [updated 1/15/2023]
 => adopt (Rc-Ic)(G2V) = 0.345 [updated 1/15/2023; V-Ic=0.705, V-Rc=0.36]
-
-
 
 (G-V)(G2V) = -0.100    ; solar twin HD 139777 = pi01 UMa (very active) (GaiaDR3)
 (G-V)(G2V) = -0.129787 ; *_ksi_UMa_B_ G2V plx=114.4867 mas (GaiaDR3)
@@ -281,11 +280,25 @@ to be somewhat redder than that for the other standards.
 (V-Ks)(G2V)  =  1.570          ; solar twin HD 138573 = HIP 76114
 (V-Ks)(G2V)  =  1.571 +- 0.007 (+-0.035 1sig) ; 23 Gray06 "G2 V" stars
 
+(u-g)(G2V) = 1.43+-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+=> adopt (u-g)(G2V) = 1.43 [updated 9/1/2023]
+
+(g-r)(G2V) = 0.44+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
+(g-r)(G2V) = 0.463 ; Just08/Chonis08 B-V=>g-r for B-V=0.650
 (g-r)(G2V) = 0.474 ; Jordi06 (V-R)=>(g-r) for V-R=0.363
 (g-r)(G2V) = 0.479 ; Bilir05 (B-V)=>(g-r) for B-V=0.650
-=> adopt (g-r)(G2V) = 0.476 [updated 10/10/2020]
+=> adopt (g-r)(G2V) = 0.46 [updated 9/1/2023]
 
+(r-i)(G2V) = 0.11+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
 (r-i)(G2V) = 0.111 ; Jordi06 (Rc-Ic=0.345 => r-i)
+=> adopt (r-i)(G2V) = 0.111 [updated 9/1/2023]
+
+(i-z)(G2V) = 0.03+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+=> adopt (i-z)(G2V) = 0.03 [updated 9/1/2023]
+
+(g-V)(G2V) = 0.282 ; Just08/Chonis08 B-V=>g-V for B-V=0.650
+(g-V)(G2V) = 0.285 ; Jordi06 B-V=>g-V for B-V=0.650
+=> adopt (g-V)(G2V) = 0.283 [updated 9/1/2023]
 
 Teff(G2V) =   5710 K ; GrayCorbally94
 Teff(G2V) = 5748 K ; 23 Teffs for "G2 V" stars in Gray06

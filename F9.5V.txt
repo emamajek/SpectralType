@@ -8,7 +8,7 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 
 (B-V)(F9.5V) = 0.583 ; median SIMBAD F9.5V d<25pc (N=4)
 (B-V)(F9.5V) = 0.579 ; trend for standards, exemplars, xHIP d<25pc F9.5Vs for [Fe/H]=0.0
-(B-V)(F9.5V) = 0.572 ; pri. stan. bet Com ([Fe/H] ~ +0.047)
+(B-V)(F9.5V) = 0.572 ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
 (B-V)(F9.5V) = 0.572 ; exemplar zet Tuc ([Fe/H]=-0.21)
 (B-V)(F9.5V) =  0.57  ; median CATSUP sample d<30pc (N=4)
 (B-V)(F9.5V) =  0.57  ; MorganAbt73/TableIII
@@ -16,7 +16,6 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 (B-V)(F9.5V) =  0.56  ; Strassmeier00 halfway between F9V (0.55) and G0V (0.57)
 => adopt (B-V)(F9.5V) = 0.58 [adopted 10/25/2020]
 
-=> adopt (U-B)(F9.5V)   = 0.41
 => adopt (Bt-Vt)(F9.5V) = 0.626
 => adopt (V-Ic)(F9.5V)  = 0.665
 => adopt (V-Rc)(F9.5V)  = 0.336
@@ -31,7 +30,17 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 => adopt (W1-W3)(F9.5V) = -0.043
 => adopt (W1-W4)(F9.5V) = -0.011
 => adopt (G-J)(F9.5V)   = 0.932 (need to check Gaia trends)
-=> adopt (G-Ks)(F9.5V)  = 1.251 
+=> adopt (G-Ks)(F9.5V)  = 1.251
+
+(U-B)(F9.5V)  = 0.071 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.58
+(U-B)(F9.5V)  = 0.068 ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
+=> adopt (U-B)(F9.5V) = 0.071 [updated 9/1/2023]
+
+(V-Rc)(F9.5V) = 0.33  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
+
+(R-Ic)(F9.5V) = 0.31  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)]
+
+(V-Ic)(F9.5V) = 0.64  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
 
 (Bp-Rp)(F9.5V) =  0.771 ; color trend for B-V=0.58
 (Bp-Rp)(F9.5V) =  0.814 ; Evans18 trend for V-I= 0.665
@@ -69,17 +78,21 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 (G-V)(F9.5V) = -0.195 ; HD_214953_ F9.5V  Gray06 HIP_112117_
 => adopt (G-V)(F9.5V) = -0.155 [updated 10/30/2020]
  
-
 (g-r)(F9.5V) = 0.410 ; Jordi06 (V-R)=>(g-r) for V-R=0.323
 (g-r)(F9.5V) = 0.391 ; Bilir05 (B-V)=>(g-r) for B-V=0.572
+(g-r)(F9.5V) = 0.387 ; Just08/Chonis08 B-V=>g-r for B-V=0.58
 (g-r)(F9.5V) = 0.375 ; Covey07
-=> adopt (g-r)(F9.5V) = 0.39 [updated 10/10/2020]
+=> adopt (g-r)(F9.5V) = 0.389 [updated 9/1/2023]
+
+(g-V)(F9.5V) = 0.237 ; Just08/Chonis08 B-V=>g-V for B-V=0.58
+(g-V)(F9.5V) = 0.241 ; Jordi06 B-V=>g-V for B-V=0.58 
+=> adopt (g-V)(F9.5V) = 0.239 [updated 9/1/2023]
 
 Teff(F9.5V) = 5932 K ; exemplar zet Tuc ([Fe/H]=-0.21)
 Teff(F9.5V) = 5986 K ; Teff from smoothed SpT(Teff) trend
 Teff(F9.5V) = 5989 K ; exemplar HD 100180 
 Teff(F9.5V) = 5995 K ; Gray03/06 F9.5Vs median from TIC9/Stassun19
-Teff(F9.5V) = 5996 K ; pri. stan. bet Com ([Fe/H] ~ +0.06; see below)
+Teff(F9.5V) = 5996 K ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
 Teff(F9.5V) = 6001 K ; interp F8V(B-V=0.53,T=6180K), G0V(B-V=0.60,T=5930K)
 => adopt Teff(F9.5V) = 5990 K (logTeff = 3.777) [updated 10/25/2020]
 
@@ -135,7 +148,7 @@ logg(F9.5V) =4.394+-0.007 ; exemplar zet Tuc
 
 # Primary Standard
 
-HD 114710 = bet Com = HR 4983 = GJ 502
+HD 114710 = bet Com = GJ 502 
   F8/9V: 1979RA......9..479C
   F9V: Morgan38,Keenan38,Keenan41,Latham91
  *F9.5V : KeenanYorka85,Keenan89(prim.stan.)
@@ -152,11 +165,23 @@ HD 114710 = bet Com = HR 4983 = GJ 502
   18 published types, mean is F9.6+-0.1 (stdev +-0.5). The colors and
   Teff appear to be very representative for a ~solar composition star
   intermediate between F9V and G0V, so I adopt this as primary F9.5V
-  standard following Keenan89.  V=4.23(HIP), B-V=0.572+-0.006(HIP),
-  V-I=0.67+-0.04(HIP).  PASTEL averages (Soubiran22):
+  standard following Keenan89.  V=4.23(HIP),
+  V=4.257+-0.014(Mermilliod91), V=4.26(Johnson66),
+  B-V=0.571+-0.006(Mermilliod91), B-V=0.572+-0.006(HIP),
+  B-V=0.58(Johnson66), U-B=0.068+-0.011(Mermilliod91),
+  U-B=0.070(Johnson54), U-B=0.08(Johnson66),
+  V-Rc=0.33(Malama06/estimate), R-Ic=0.31(Malama06/estimate),
+  V-Ic=0.64(Malama06/estimate0, V-Ic=0.67+-0.04(HIP),
+  V-Ij=0.79(Ducati02), V-Rj=0.49(Ducati02).  2MASS photometry is
+  cooked - flages "DCD". J=3.22(Johnson68), K=2.90(Veeder74),
+  K=2.90(Johnson66), K=2.89(Johnson68), K=2.87(Glass75).  Converting
+  the Johnson68 JK photometry via Rieke22 to the 2MASS system:
+  Ks=2.857(Johnson68->Rieke22->2MASS) => (V-Ks) = 4.257(Mermilliod91)
+  - 2.857(Johnson68->2MASS) = 1.400.  PASTEL averages (Soubiran22):
   Teff=5996+-17K(N=40), logg=4.42+-0.02(N=24),
   [Fe/H]=+0.06+-0.01(N=30). plx = 108.8951+-0.3487 mas (GaiaDR2), plx
   = 109.54+-0.17mas(vanLeeuwen07). Mv = 4.43.
+  fbol=5.26e-10W/m2(Blackwell98).
 
 # Deprecated Standard
 
@@ -166,8 +191,8 @@ HD 176051 = HR 7162
   G0V: Adams35,Roman52(weak lines),Harlan74,Abt81,Bidelman85(G0),Cannon(G0)
 
   It's a 1" binary, and the SpT floats in the literature.  Not a great
-  standard. Keenan85 listed it as "the" F9V standard, but just a few
-  years after classifying it as F9.5V.
+  standard. Keenan85 listed it as "the" F9V standard, just a few years
+  after classifying it as F9.5V.
 
 # Exemplar
 

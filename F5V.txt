@@ -91,6 +91,17 @@ and within 1 mag of the MS (N=237):
 => adopt (H-Ks)(F5V) = 0.054
 => adopt (J-H)(F5V)  = 0.173
 
+(U-B)(F5V)   =  0.00  ; JohnsonMorgan53, Johnson66
+(U-B)(F5V)   = -0.02  ; Fitzgerald70
+(U-B)(F5V)   = -0.027 ; HIP d<75pc S/N>8 F5V N=117 (Mermilliod91 photometry)
+
+(V-Ic)(F5V)  = 0.512 (+-0.004 sem +-0.027 stdev); Gray01/03/06 (N=54)
+(V-Ic)(F5V)  =  0.515 ; Bessell79
+(V-Ic)(F5V)  =  0.53  ; Bessell88 
+(V-Ic)(F5V)  = 0.538 (+-0.004 sem, +-0.030 stdev); HIP d<75pc S/N>8 N=237
+
+(R-Ic)(F5V)  = 0.250 ; Bessell79
+
 
 (G-V)(F5V) =   -0.13    ; HD_108807_ F5V
 (G-V)(F5V) =   -0.13    ; HD_128787_ F5V_
@@ -159,23 +170,19 @@ and within 1 mag of the MS (N=237):
 (Ks-W1)(F5V) = 0.052 ; EEM trend for d<30pc for B-V=0.440
 => adopt (Ks-W1)(F5V) = 0.052 [updated 12/29/2019]
 
-(U-B)(F5V)   =  0.00  ; JohnsonMorgan53, Johnson66
-(U-B)(F5V)   = -0.02  ; Fitzgerald70
-(U-B)(F5V)   = -0.027 ; HIP d<75pc S/N>8 F5V N=117 (Mermilliod91 photometry)
+(g-V)(F5V) = 0.152 ; Jordi06 B-V=>g-V for B-V=0.44
+=> adopt (g-V)(F5V) = 0.152 [updated 9/1/2023]
 
-<V-I>(F5V)   = 0.512 (+-0.004 sem +-0.027 stdev); Gray01/03/06 (N=54)
-(V-I)(F5V)   = 0.515 ; Bessell79
-<V-I>(F5V)   = 0.538 (+-0.004 sem, +-0.030 stdev); HIP d<75pc S/N>8 N=237
-
-(R-I)(F5V)   = 0.250 ; Bessell79
-
-(g-r)(F5V)   = 0.297 ; Jordi06 (V-R)=>(g-r) for V-R=0.252
-(g-r)(F5V)   = 0.26  ; Covey07
-(g-r)(F5V)   = 0.243 ; Bilir05 (B-V)=>(g-r) for B-V=0.44
-=> adopt (g-r)(F5V) = 0.26 [updated 10/10/2020]
+(g-r)(F5V) = 0.297 ; Jordi06 (V-R)=>(g-r) for V-R=0.252
+(g-r)(F5V) =  0.26  ; Covey07
+(g-r)(F5V) = 0.243 ; Bilir05 (B-V)=>(g-r) for B-V=0.44
+(g-r)(F5V) = 0.233 ; Just08/Chonis08 B-V=>g-r for B-V=0.44
+=> adopt (g-r)(F5V) = 0.24 [updated 9/1/2023]
 
 (r-i)(F5V) = 0.030 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.254
 
+(g-V)(F5V) = 0.147 ; Just08/Chonis08 B-V=>g-V for B-V=0.44
+=> adopt (g-V)(F5V) = 0.147 [updated 9/1/2023]
 
 Teff(F5V) =  6432 K ; Boyajian12
 Teff(F5V) =  6440 K ; Schmidt-Kaler82
@@ -381,6 +388,16 @@ HD 155078 = HR 6375
    Approximately solar metallicity. PASTEL/Soubiran22 means:
    Teff=6461+-41K, logg=4.05+-0.10, [Fe/H]=-0.02+-0.05.
 
+HD 15798 = sig Cet = HR 740
+   F3V: Adams35
+   F4IV: Malaroda75
+   F5V+: Gray89
+   F5V: 1953AnHar.119....1H,Houk88
+   F5IV: Roman50
+  *F5-V: Gray06
+
+   2MASS photometry is poor, flagged "DCC".
+   Ks=3.569(Rieke22/transformed from ground-based K).
 
 # Other Stars
 
