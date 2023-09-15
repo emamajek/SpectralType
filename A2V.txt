@@ -50,7 +50,7 @@ and within 1 mag of the MS (N=16):
 <B-K>(A2V)   = 0.189 (+-0.057 sem, +-0.160 stdev; N=16)
 
 (B-V)(A2V)   =  0.118 ; BakisEker22 
-(B-V)(A2V)   = 0.091 ; exemplar gam Cet (unresolved)
+(B-V)(A2V)   =  0.091 ; exemplar gam Cet (unresolved A2V+mid-F pair)
 (B-V)(A2V)   = 0.083 ; exemplar eps Gru
 (B-V)(A2V)   = 0.079 ; pri. stan. HD 56405
 <B-V>(A2V)   = 0.077 (+-0.017 sem, +-0.042 stdev) ; HIP d<75 S/N>8 N=16)
@@ -74,6 +74,18 @@ and within 1 mag of the MS (N=16):
 => adopt (V-Ks)(A2V) = 0.178
 => adopt (H-Ks)(A2V) = 0.034
 => adopt (J-H)(A2V)  = -0.012
+
+(U-B)(A2V)   = 0.06  ; Johnson66
+(U-B)(A2V)   = 0.05  ; Fitzgerald70
+(U-B)(A2V)   = 0.048 ; HIP d<75pc S/N>8 A2V N=43 (Mermilliod91 photometry)
+
+(V-Ic)(A2V)  = 0.048 (+-0.028 sem, +-0.055 stdev) ; Gray01/03/06 N=5)
+(V-Ic)(A2V)  =  0.06  ; Bessell88
+(V-Ic)(A2V)  =  0.072 ; Bessell79
+(V-Ic)(A2V)  = 0.091 (+-0.016 sem, +-0.043 stdev) ; Gray01/03/06 N=16)
+
+(R-I)(A2V)   = 0.072 ; Bessell79
+
 
 (Bp-Rp)(A2V) = 0.101 ; Evans18 trend for V-I= 0.086
 (Bp-Rp)(A2V) = 0.068 ; color trend for B-V=0.07
@@ -104,19 +116,12 @@ and within 1 mag of the MS (N=16):
 (G-V)(A2V) =   0.014 ; * del UMa PM* A2Vn
 => adopt (G-V)(A2V) = 0.00 [updated 4/8/2022]
 
-(U-B)(A2V)   = 0.06  ; Johnson66
-(U-B)(A2V)   = 0.05  ; Fitzgerald70
-(U-B)(A2V)   = 0.048 ; HIP d<75pc S/N>8 A2V N=43 (Mermilliod91 photometry)
+(g-V)(A2V) = -0.083 ; Jordi06 B-V=>g-V for B-V=0.07
+=> adopt (g-V)(A2V) = -0.083 [updated 9/1/2023]
 
-<V-I>(A2V)   = 0.048 (+-0.028 sem, +-0.055 stdev) ; Gray01/03/06 N=5)
-(V-I)(A2V)   = 0.072 ; Bessell79
-<V-I>(A2V)   = 0.091 (+-0.016 sem, +-0.043 stdev) ; Gray01/03/06 N=16)
-
-(R-I)(A2V)   = 0.072 ; Bessell79
-
-(g-r)(A2V)   = -0.044 ; Jordi06 (V-R)=>(g-r) for V-R=0.039
-(g-r)(A2V)   = -0.173 ; Bilir05 (B-V)=>(g-r) for B-V=0.070
-(g-r)(A2V)   = -0.23  ; Covey07
+(g-r)(A2V) = -0.044 ; Jordi06 (V-R)=>(g-r) for V-R=0.039
+(g-r)(A2V) = -0.173 ; Bilir05 (B-V)=>(g-r) for B-V=0.070
+(g-r)(A2V) = -0.23  ; Covey07
 => adopt (g-r)(A2V) = -0.17 [updated 10/10/2020]
 
 
@@ -150,7 +155,7 @@ BCv(A2V) = -0.032 mag ; Bertone04(ATLAS,Teff=8800K, set so BCv(5772K)=-0.085)
 Mv(A2V) =   2.16 mag ; Habets81
 Mv(A2V) =   1.9   mag ; GrayCorbally09
 Mv(A2V) =  1.59  mag ; d<60 pc SIMBAD A2V N=12
-Mv(A2V) =  1.58 mag ; exemplar gam Cet A = HR 4660 = HD 106591
+Mv(A2V) =  1.58 mag ; exemplar gam Cet A = HR 4660 = HD 16970
 Mv(A2V) =  1.50 mag ; B/A/F dwarf sequence for B-V=0.07
 Mv(A2V) =  1.46 mag ; Wright05(B-V=0.07)
 Mv(A2V) =  1.43 +-0.08 sem, +-0.51 st.dev. ; EEM N=44 HIP A2V d<75pc
@@ -245,7 +250,8 @@ HD 106591 = del UMa = HR 4660
   types after MK43 are A2V or variant.  Teffs: 7517K(Bermejo13),
   8564K(Wu11), 8595K(Malkin02), 8600K(Gebran16), 8613K(Gray03),
   8670K(Zorec12,Stassun18), 8707K(King03), 8750K(Chen14),
-  9757K(David15) => <Teff> = 8613K.  Mv=1.36. 
+  9757K(David15) => <Teff> = 8613K.  Mv=1.36. Rieke22 reports
+  ground-based IR photometry on 2MASS system: Ks=3.065(Rieke22).
 
 eps Gru = HR 8675 = HD 215789 = HIP 112623
  *A2V: Cannon(A2),Devaocouleurs57,Garrison96(A2Va),GrayGarrison87(A2Va),Abt95(A2Vn)
@@ -260,19 +266,32 @@ eps Gru = HR 8675 = HD 215789 = HIP 112623
   8625K(Ammler-vonEiff12), 8685K(David15), => <Teff> = 8511K.
   Mv=0.51. 
 
-gam Cet A = Kaffaljidhma = HR 4660 = HIP 59774 = HD 106591 = GJ 459 = WDS J12154+5702A
+gam Cet A = Kaffaljidhma = HR 4660 = HIP 59774 = HD 16970 = GJ 459 = WDS J12154+5702A
   A1V: Bidelman85(A1),Abt85
   A1/2V: Maury1897
  *A2Vn: Adams35,Chalonge52(A2V),Slettebak54(A2V),1955MmMtS..12....1W(A2V),GrayGarrison87(A2Va),Abt95,Gray03
   A3V: Roman49,Cowley69,Levato78,Cucchiaro78
 
-  Unresolved: V=3.464+-0.009(Mermilliod91), B-V=
-  0.091+-0.006(Mermilliod91), U-B=0.070+-0.008(Mermilliod91). WDS
-  reports delta(mag) = 2.64, with V(A)=3.54, V(B) = 6.18.  C component
-  is 843" away.  Teffs: 7470K(Bermejo13), 8360K(Sokolov95),
+  Tight binary in WDS: sep=1.9", mag1=3.54, mag2=6.18 (del(mag)=2.64)
+  - companion magnitude might be Vt from Fabricius02 (Vt=6.18+-0.01)?
+  Strand69 lists delta(V)=2.78. Hipparcos estimates
+  del(Hp)=3.07+-0.12(HIP).  Companion type: F4V(Adams35),
+  F7(Bidelman85). Gliese91 lists V(A)=3.46, V(B)=6.20. Unresolved:
+  V=3.464+-0.009(Mermilliod91), V=3.47(HIP, BSC, Johnson66),
+  V(A)=3.57(TYC), V(B)=5.91(TYC), del(V)=2.34(TYC), B-V=
+  0.091+-0.006(Mermilliod91),
+  U-B=0.070+-0.008(Mermilliod91). Transforming the HIP CCDM BtVt
+  photometry to Johnson system: V(A)=3.563+-0.005,
+  B-V(A)=0.091+-0.007, V(B)=5.901+-0.03, B-V(B)=0.402+-0.042.
+  ASCC-2.5 lists V(A)=3.543+-0.004, V(B)=6.098+-0.009
+  (i.e. del(V)=2.555). Rieke22 presents transformed ground-based
+  photometry on 2MASS system (unclear if unresolved):
+  Ks=3.190(Rieke22) => V-Ks = 3.464 - 3.190 = 0.274. C component is
+  843" away.  Teffs: 7470K(Bermejo13), 8360K(Sokolov95),
   8455K(Paunzen06), 8551K(David15), 8643K(Stassun18), 8673K(Gray03),
   9057K(Zorec12), 9296K(King03) => <Teff> = 8597K. plx=40.51+-0.15mas
   (vanLeeuwen07).  Mv = 1.58(V(A)=3.54,plx(vanLeeuwen07)).
+  
 
 # Other stars
 
@@ -297,6 +316,7 @@ HD 115892 = iot Cen (B-V[HIP] = 0.068+-0.004)
   = 9164K.  logg=4.06(Gray06), 4.19(Philip80). [M/H]=0.32(Gray06). HRD
   position: V=2.751, BCv=-0.07, plx=55.49, Av=0 => Mv=1.472,
   Mbol=1.402, logL=1.335. w/Teff=9164K => Rad=1.845 Rsun.
+
 
 # Deprecated Standards
 

@@ -52,8 +52,7 @@ and within 1 mag of the MS (N=15):
 (B-V)(A0V)   =   0.012 ; Crawford76
 (B-V)(A0V)   =  0.002 ; sec. stan. HD 225047
 (B-V)(A0V)   =  0.002 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
-(B-V)(A0V)   =   0.00  ; JohnsonMorgan53(def), Morgan53, Johnson63, Johnson66, KenyonHartmann95
-(B-V)(A0V)   =   0.00  ; Garrison67, Morgan71
+(B-V)(A0V)   =   0.00 ; JohnsonMorgan53(def),Morgan53,Johnson63,Johnson65,Johnson66,KenyonHartmann95,Garrison67, Morgan71
 (B-V)(A0V)   =  0.00  ; anchor stan. Vega
 (B-V)(A0V)   =  -0.01  ; Fitzgerald70
 (B-V)(A0V)   =  -0.01  ; Davidson87 (analysis of BSC A0V stars)
@@ -74,6 +73,36 @@ Johnson53 defined B-V = 0.00 based on colors of sample of A0V stars.
 => adopt (H-Ks)(A0V) =  0.028
 => adopt (J-H)(A0V)  = -0.032
 
+(U-B)(A0V)   = +0.014 ; prim. stan. gam UMa
+(U-B)(A0V)   =   0.00  ; JohnsonMorgan53(def),Johnson63,Johnson65
+(U-B)(A0V)   = -0.006 ; prim. stan. Vega 
+(U-B)(A0V)   = -0.005 ; HIP d<75pc S/N>8 A0V N=35 (Mermilliod91 photometry)
+(U-B)(A0V)   = -0.02  ; prim. stan. HR 3314 
+(U-B)(A0V)   =  -0.02  ; Fitzgerald70
+Johnson53 defined U-B = 0 color based on sample of A0V stars. 
+=> adopt (U-B) = -0.005
+
+(V-Ic)(A0V)  = -0.021 (+-0.011 sem, +-0.010 stdev) ; Gray01/03/06 N=3 A0Vs
+(V-Ic)(A0V)  = -0.02  ; Bessell79
+(V-Ic)(A0V)  = -0.013 ; GJ 788.3 = GJ 9694 = HD 193571 (Cousins80) plx=14.6303mas (A0V,Houk78)
+(V-Ic)(A0V)  =  0.00  ; Bessell88
+(V-Ic)(A0V)  =  0.01  ; GJ 89 = HD 13709 = mu For (Cousins80) plx=10.2162mas (A0V,Houk82)
+(V-Ic)(A0V)  =  0.026 (+-0.010 sem, +-0.036 stdev) ; HIP d<75 S/N>8 N=15)
+
+V-Ij(A0V) = -0.02 ; Johnson65
+
+(R-Ic)(A0V)  = -0.012 ; Bessell79
+(R-Ic)(A0V)  = -0.007 ; GJ 788.3 = GJ 9694 = HD 193571 (Cousins80) plx=14.6303mas (A0V,Houk78)
+(R-Ic)(A0V)  = -0.002 ; GJ 89 = HD 13709 = mu For (Cousins80) plx=10.2162 (A0V,Houk82)
+
+V-Rj(A0V) =  0.00 ; Johnson65
+
+V-Jj(A0V) = -0.02 ; Johnson65 
+
+V-Kj(A0V) =  0.00 ; Johnson65
+
+V-Lj(A0V) =  0.02 ; Johnson65
+
 (Bp-Rp)(A0V) = -0.037 ; color trend for B-V=0.00
 (Bp-Rp)(A0V) = -0.006 ; Evans18 trend for V-I= 0.004
 => adopt(Bp-Rp)(A0V) = -0.037 [updated 11/22/2020]
@@ -86,7 +115,6 @@ Johnson53 defined B-V = 0.00 based on colors of sample of A0V stars.
 
 (Ks-W1)(A0V) = 0.042 ; EEM trend for d<30pc for B-V=0.00
 => adopt (Ks-W1)(A0V) = 0.042 [updated 12/29/2019]
-
 
 (G-V)(A0V)   = -0.023 ; polynomial fit f(B-V)
 (G-V)(A0V)   = -0.005 ; * kap And PM* A0V
@@ -110,25 +138,23 @@ Johnson53 defined B-V = 0.00 based on colors of sample of A0V stars.
 (G-V)(A0V)   =  0.073 ; * gam01 Ari PM* A0Vnp_lB
 => adopt (G-V)(A0V) = 0.015 [updated 4/8/2022]
 
-(U-B)(A0V)   = +0.014 ; prim. stan. gam UMa
-(U-B)(A0V)   =   0.00  ; JohnsonMorgan53(def),Johnson63
-(U-B)(A0V)   = -0.006 ; prim. stan. Vega 
-(U-B)(A0V)   = -0.005 ; HIP d<75pc S/N>8 A0V N=35 (Mermilliod91 photometry)
-(U-B)(A0V)   = -0.02  ; prim. stan. HR 3314 
-(U-B)(A0V)   =  -0.02  ; Fitzgerald70
-Johnson53 defined U-B = 0 color based on sample of A0V stars. 
-=> adopt (U-B) = -0.005 [
+(g-V)(A0V) = -0.127 ; Jordi06 B-V=>g-V for B-V=0.00
+=> adopt (g-V)(A0V) = -0.127 [updated 9/1/2023]
 
-<V-I>(A0V)   = -0.021 (+-0.011 sem, +-0.010 stdev) ; Gray01/03/06 N=3 A0Vs
-<V-I>(A0V)   = -0.02  ; Bessell79
-<V-I>(A0V)   =  0.026 (+-0.010 sem, +-0.036 stdev) ; HIP d<75 S/N>8 N=15)
-
-(R-I)(A0V)   = -0.012 ; Bessell79
+(u-g)(A0V) = 1.02+-0.08 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+=> adopt (u-g)(A0V) = 1.02 [updated 9/1/2023]
 
 (g-r)(A0V) = -0.104 ; Jordi06 (V-R)=>(g-r) for V-R=0.001
 (g-r)(A0V) = -0.250 ; Covey07
+(g-r)(A0V) = -0.25+-0.03 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
 (g-r)(A0V) = -0.252 ; Bilir05 (B-V)=>(g-r) for B-V=0.00
-=> adopt (g-r)(A0V) = -0.25 [updated 10/10/2020]
+=> adopt (g-r)(A0V) = -0.25 [updated 9/1/2023]
+
+(r-i)(A0V) = -0.23+-0.02 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+=> adopt (r-i)(A0V) = -0.23 [updated 9/1/2023]
+
+i-z(A0V) = -0.17+-0.02 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+=> adopt (i-z)(A0V) = -0.17 [updated 9/1/2023]
 
 Teff(A0V) =  10040 K ; GrayCorbally94
 Teff(A0V) =  10000 K ; Crowther97/Fig.3 
@@ -236,30 +262,31 @@ Mass(A0V) = 1.905+-0.040 Msun ; Eclipsing binary AY Cam A (Torres10)
 
 # Anchor Standard
 
-HD 172167 = alf Lyr = Vega
+HD 172167 = alf Lyr = Vega = GJ 721 = HIP 91262 
   A0V: MK43,JM53,MK73,MK78,Keenan85,Garrison94(anchor),GrayAtlas
  *A0Va: Gray87(stan),Garrison96
 
   Gray87 uses it as the primary low vsini A0Va standard (from MK78).
   V=0.026+-0.008(Bohlin04), V=0.033(Mermilliod91, adopted by Rieke23),
   V=0.035(Colina94),
-  V=0.03(Johnson66,HIP,Megessier95,Bessell98,Bohlin14 "standard
-  Johnson value") => adopt Vmag=0.03. B-V=-0.001+-0.005(HIP),
-  B-V=0.00(Johnson66), U-B=0.00(Johnson66),
-  U-B=-0.006+-0.006(Mermilliod91), V-I=-0.01+-0.02(HIP),
-  K=-0.02(Gehrz74, Gehrz76, Grasdalen83), K=0.02(Johnson66),
-  Ks=-0.036+-0.010(Reike08,indirectly).  f_bol: (2983+-120)e-8
-  erg/cm^2/s (Alonso94; erroneously cited as "(2983+-120)e-8
-  erg/cm^2/s" in Ciardi01), 2.983e-5 erg/cm^2/s (Alonso95). Reike08
-  concludes "this star is not suitable to define a photometric
-  zero-point because of its eccentric SED for its spectral type"
-  (i.e. due to pole-equator Teff difference and possible K-band excess
-  due to a warm disk).  Many published Teffs - I find median published
-  Teff = 9468K (N=21).  New interferometric study by Monnier13 finds:
-  Lum=47.2+-2.0Lsun => logL=1.6739+-0.0184. Age = 700+150-75 Myr, Mass
-  = 2.15+0.10-0.15 Msun, Rpol=2.418+-0.012Rsun, Req=2.726+-0.006 =>
-  <Rad>=2.572Rsun.  Monnier13 quotes several Teff values:
-  Teff(pole)=10070+-90K, Teff(equator)=8910+-130K,
+  V=0.03(Johnson66,Bessell90,HIP,Megessier95,Bessell98,Bohlin14
+  "standard Johnson value") => adopt Vmag=0.03. B-V=-0.01(Bessell90),
+  B-V=-0.001+-0.005(HIP), B-V=0.00(Johnson66), U-B=0.00(Johnson66),
+  U-B=-0.006+-0.006(Mermilliod91), V-Rc=-0.009(Bessell90),
+  R-Ic=0.004(Bessell90), V-Ic=-0.01+-0.02(HIP),
+  V-Ic=-0.005(Bessell90).  K=-0.02(Gehrz74, Gehrz76, Grasdalen83),
+  K=0.02(Johnson66), Ks=-0.036+-0.010(Reike08,indirectly).  f_bol:
+  (2983+-120)e-8 erg/cm^2/s (Alonso94; erroneously cited as
+  "(2983+-120)e-8 erg/cm^2/s" in Ciardi01), 2.983e-5 erg/cm^2/s
+  (Alonso95). Reike08 concludes "this star is not suitable to define a
+  photometric zero-point because of its eccentric SED for its spectral
+  type" (i.e. due to pole-equator Teff difference and possible K-band
+  excess due to a warm disk).  Many published Teffs - I find median
+  published Teff = 9468K (N=21).  New interferometric study by
+  Monnier13 finds: Lum=47.2+-2.0Lsun => logL=1.6739+-0.0184. Age =
+  700+150-75 Myr, Mass = 2.15+0.10-0.15 Msun, Rpol=2.418+-0.012Rsun,
+  Req=2.726+-0.006 => <Rad>=2.572Rsun.  Monnier13 quotes several Teff
+  values: Teff(pole)=10070+-90K, Teff(equator)=8910+-130K,
   Teff(apparent)=9660+-90K,
   Teff(surface-averaged)=9360+-90K. Presumably the "apparent"
   Teff=9660K is what one would quote for the apparent spectrum and
@@ -407,7 +434,7 @@ HD 147013
 
 
 
-# Other Non-Standard Stars
+# Other Stars
 
 Zet Aql A
    A0Vann: Garrison96
@@ -415,6 +442,28 @@ Zet Aql A
 HD 71151 = phi02 Cnc: was erroneously listed in GrayGarrison87 and
    corrected in erratum (1988ApJS...68..407G).
 
+HD 13709 = mu For = HIP 10320 = GJ 89
+   B9V: Buscombe69
+   A0V: Cuchiaro78(S2/68),Houk82
+  *A0Va+nn: GarrisonGray87
+   A1V: DeVaucoleurs57
+   A2Vn: Evans64
+
+   Negligibly reddened A0V at ~100pc, possibly part of recently
+   discovered ~Pleiades-age Meingast 1 stream (Ratzenboeck20).
+   Bessell90 photometry is flagged 'C' as having been drawn from
+   previous Cousins papers.  V=5.26(Bessell90), V=5.27(Nicolet75),
+   V=5.272(Hauck90), V=5.272+-0.004(Mermilliod91), V=5.28(Johnson66),
+   V=5.280+-0.007(Hauck97), B-V=-0.02(Johnson66,Nicolet75,Bessell90),
+   B-V=-0.020+-0.000(Mermilliod91), U-B=-0.06(Mermilliod91),
+   V-Rc=0.012(Bessell90), R-Ic=-0.002(Bessell90),
+   V-Ic=0.01(Bessell90). 2MASS: Jband is flagged 'E', but H and Ks
+   band are flagged 'A': H=5.304+-0.024(2MASS), Ks=5.206+-0.024(2MASS)
+   => V-Ks = 5.272(Mermilliod91) - 5.206(2MASS) = 0.066.  GaiaDR3:
+   G=5.248445+-0.002886(GaiaDR3), Bp-Rp=0.024062(GaiaDR3),
+   Bp-G=-0.001896(GaiaDR3), G-Rp=0.025958(GaiaDR3).
+   plx=10.2162+-0.0905mas(GaiaDR3). E(B-V)=0.001(Kervella19,STILISM).
+   
 
 # Notes
 

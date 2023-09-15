@@ -47,6 +47,7 @@ and within 1 mag of the MS (N=21):
 
 (B-V)(A3V) =  0.049 ; HD 27962 (Morgan65's only A3V Hyad)
 (B-V)(A3V) = 0.057 ; exemplar HD 23848 = HR 1177
+(B-V)(A3V) = 0.062 ; exemplar HD 188899 = 61 Sgr 
 (B-V)(A3V) = 0.07  ; exemplar HD 151431 = 19 Oph 
 (B-V)(A3V) =  0.08 ; Fitzgerald70
 (B-V)(A3V) =  0.08 ; Schmidt-Kaler82
@@ -77,6 +78,30 @@ and within 1 mag of the MS (N=21):
 [EEM comment: Somewhat surprisingly, the main standard Fomalhaut appears to be
 significantly redder than most A3V stars.
 
+(U-B)(A3V)   = 0.08  ; Fitzgerald70
+(U-B)(A3V)   = 0.084 ; HIP d<75pc S/N>8 A3V N=45 (Mermilliod91 photometry)
+(U-B)(A3V)   = 0.07  ; exemplar HD 188899 = 61 Sgr (Mermilliod91) 
+(U-B)(A3V)   = 0.07  ; JohnsonMorgan53
+
+(V-Ic)(A3V)  = 0.05 ; exemplar HD 188899 = 61 Sgr (Cousins80) 
+<V-Ic>(A3V)  = 0.083 (+-0.013 sem, +-0.023 stdev); Gray01/03/06 (N=5)
+<V-Ic>(A3V)  = 0.152 (+-0.017 sem, +-0.065 stdev); HIP d<75pc S/N>8 (N=21)
+
+(R-Ic)(A3V)  = 0.03 ; exemplar HD 188899 = 61 Sgr (Cousins80)
+
+(V-Rc)(A3V)  = 0.02 ; exemplar HD 188899 = 61 Sgr (Cousins80)
+
+(V-Ks)(A3V)  = 0.207 ; exemplar HD 188899 = 61 Sgr
+
+(g-V)(A3V) = -0.064 ; Jordi06 B-V=>g-V for B-V=0.10
+=> adopt (g-V)(A3V) = -0.064 [updated 9/1/2023]
+
+(g-r)(A3V)   = -0.016 ; Jordi06 (V-R)=>(g-r) for V-R=0.056
+(g-r)(A3V)   = -0.139 ; Bilir05 (B-V)=>(g-r) for B-V=0.100
+(g-r)(A3V)   = -0.16  ; Covey07
+=> adopt (g-r)(A3V) = -0.14 [updated 10/10/2020]
+
+
 (Bp-Rp)(A3V) = 0.110 ; color trend for B-V=0.10
 (Bp-Rp)(A3V) = 0.143 ; Evans18 trend for V-I=0.119
 => adopt (Bp-Rp)(A3V)= 0.110 [updated 11/22/2020]
@@ -86,8 +111,6 @@ significantly redder than most A3V stars.
 
 (G-Rp)(A3V) = 0.092 ; color trend for B-V=0.10 
 => adopt (G-Rp)(A3V) = 0.092 [updated 11/22/2020]
-
-
 
 (Ks-W1)(A3V) = 0.045 ; EEM trend for d<30pc for B-V=0.10
 => adopt (Ks-W1)(A3V) = 0.045 [updated 12/29/2019]
@@ -109,17 +132,6 @@ significantly redder than most A3V stars.
 (G-V)(A3V) =   0.008 ; * l Per PM* A3V
 => adopt (G-V)(A3V) = -0.005 [updated 4/8/2022]
 
-(U-B)(A3V)   = 0.08  ; Fitzgerald70
-(U-B)(A3V)   = 0.084 ; HIP d<75pc S/N>8 A3V N=45 (Mermilliod91 photometry)
-(U-B)(A3V)   = 0.07  ; JohnsonMorgan53
-
-<V-I>(A3V)   = 0.083 (+-0.013 sem, +-0.023 stdev); Gray01/03/06 (N=5)
-<V-I>(A3V)   = 0.152 (+-0.017 sem, +-0.065 stdev); HIP d<75pc S/N>8 (N=21)
-
-(g-r)(A3V)   = -0.016 ; Jordi06 (V-R)=>(g-r) for V-R=0.056
-(g-r)(A3V)   = -0.139 ; Bilir05 (B-V)=>(g-r) for B-V=0.100
-(g-r)(A3V)   = -0.16  ; Covey07
-=> adopt (g-r)(A3V) = -0.14 [updated 10/10/2020]
 
 
 Teff(A3V) =  8830 K ; Habets81
@@ -150,7 +162,8 @@ BCv(A3V) = -0.008 mag ; Bertone04(Teff=8600K,ATLAS, set BCv(5772K)=-0.085))
 
 Mv(A3V) = -0.85 mag ; exemplar HD 151431 = 19 Oph 
 Mv(A3V) =  0.56 mag ; exemplar HD 23848 = HR 1177
-Mv(A3V) =  0.94 mag ; exemplar HD 31283 = HR 1569 
+Mv(A3V) =  0.94 mag ; exemplar HD 31283 = HR 1569
+Mv(A3V) =  0.97 mag ; exemplar HD 188899 = 61 Sgr
 Mv(A3V) =   1.15  mag ; Wegner07
 Mv(A3V) =  1.48 mag ; d<60pc Mv(B-V=0.09) 
 Mv(A3V) =   1.5   mag ; Schmidt-Kaler82
@@ -430,8 +443,43 @@ HD 151431 = 19 Oph = HR 6232
    (B-V)o= 0.07. plx=4.5639+-0.0833mas(GaiaDR2) => 219+-4 pc.
    Mv=-0.85.
 
+HD 188899 = 61 Sgr = GJ 773.1 = GJ 9675 = HR 7614 = HIP 98258 = g Sgr
+  A2V: Houk88,Abt95
+  A2IV: DeVaocaleurs57
+  A3IV: Cowley69
+  A3V: Cuchiaro78
+ *A3Va: GarrisonGray89
+
+  Proper motion binary (Frankowski07). V=4.995(Cousins80),
+  V=5.01(HIP), V=5.020+-0.000(Mermilliod91), V=5.02(Hauck90),
+  V=5.021+-0.005(Hauck98), B-V=0.062+-0.010(Mermilliod91),
+  B-V=0.055+-0.008(HIP), U-B=0.070(Mermilliod91),
+  R-Ic=0.03(Cousins80), V-Ic=0.05(Cousins80).  2MASS photometry: J is
+  flag 'E', H and Ks flagged 'A', H=4.877+-0.027(2MASS),
+  Ks=4.814+-0.018(2MASS) => (V-Ks) = 5.021(Hauck98) - 4.814(2MASS) =
+  0.207.  plx=15.4752+-0.3128mas(GaiaDR3) => Mv=0.969+-0.044,
+  M_Ks=0.762+-0.047. There is a faint companion (del(G)=9.19mag) in
+  GaiaDR3 - see Kervella22: 61 Sgr B = 2MASS J19575668-1529335 = Gaia
+  DR3 6878130334860128768 (G=14.0057; GaiaDR3), sep = 7.42", PA =
+  232.01 (values from Kervella+2022). The companion is in 2MASS and
+  during the 2MASS epoch (1999) the separation was 6.6" at PA=231deg,
+  so the motion is mostly radial.  The companion appears to have two
+  TIC entries (TIC 48774608 for the 2MASS ID, TIC 1930496799 for the
+  Gaia ID). The GaiaDR3 Part 3 (Non-Single Star) catalog gives an
+  accelerated solution for A with parallax
+  13.4342300506006715+-0.1171690450mas.  Binarity was to be expected
+  as the star was previously considered an 'unresolved Hipparcos
+  problem star' (Mason+1999) and proper motion derivative binary
+  (Makarov+2005,Frankowski+2007).  The GaiaDR3 parallax (13.43mas) and
+  Gmag (G=14.00), and Bp-Rp color (1.801641) for the companion are
+  consistent with absolute magnitudes (M_G ~ 9.65, M_Ks ~ 4.78) are
+  consistent with either a late K or early M dwarf.
+
 # Other Stars
 
 Morgan65 classified one A3V Hyad: HD 27962 (B-V = 0.049 +- 0.007;
 HIP), but this star was later classified A2IV-Vs by GrayGarrison87 and
 A2IV by Abt95.
+
+
+
