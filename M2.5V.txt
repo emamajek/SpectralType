@@ -29,6 +29,8 @@ Kirkpatrick(GrayCorbally09): GJ 250B   - M2.5V  (primary standard)
 (B-V)(M2.5V) = 1.514+-0.014 ; ter. stan. GJ 226 
 (B-V)(M2.5V) = 1.530        ; Reid CNS3 sample M2.5 median value (N=24)
 (B-V)(M2.5V) = 1.533        ; Koen10 median d<25pc M2.5V
+(B-V)(M2.5V) = 1.534        ; SIMBAD median d<20pc M2.5 (N=53 with B and V photometry)
+(B-V)(M2.5V) = 1.566        ; exemplar GJ 674 = HIP 85523 
 (B-V)(M2.5V) = 1.573+-0.007 ; pri. stan. GJ 381 
 => adopt (B-V)(M2.5V) = 1.53 [updated 9/1/2023]
 
@@ -147,7 +149,12 @@ M_G(M2.5V) =   10.785  ; CD-17 588B
 
 (r-i)(M2.5V) = 1.029 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.265
 (r-i)(M2.5V) = 1.102 (+-0.05 rms) ; West05 fit for (V-Ic)=2.306
+(r-i)(M2.5V) = 1.17  (+-0.11 rms) ; Cifuentes20
 => adopt (r-i)(M2.5V) = 1.07 [updated 7/15/2023]
+
+(g-V)(M2.5V) = 0.843 ; Jordi06 B-V=>g-V for B-V=1.53
+(g-V)(M2.5V) = 0.847 ; Just08/Chonis08 B-V=>g-V for B-V=1.53
+=> adopt (g-V)(M2.5V) = 0.847 [updated 9/1/2023]
 
 (z-J)(M2.5V) = 1.423 (+-0.028 rms) ; poly fit to d<100pc GCNS for G-Ks=3.41
 
@@ -198,6 +205,10 @@ Teff(M2.5V) = 3362 K ; Morrell19 <Teff> for stars w/i +-0.05 mag of M_Ks=6.27
 Teff(M2.5V) =   3304 +- 13 K ; non-standard GJ 581 (Pecaut13)
 Teff(M2.5V) =   3243 +- 14 K ; Pecaut13 (GJ 581)
 => adopt Teff(M2.5V) = 3470 K (logT = 3.540) [updated 4/9/2020]
+
+BC_G(M2.5V) = -0.825+-0.082 ; Cifuentes20
+
+BC_J(M2.5V) =  1.796+-0.034 ; Cifuentes20
 
 BCv(M2.5V) = -2.012+-0.013 mag ; GJ 581 (Pecaut13)
 BCv(M2.5V) = -1.78 ; BC_Ks=2.65, V-Ks=4.43
@@ -287,7 +298,7 @@ GJ 250B = HD 50281B = LHS 1876 = WDS J06523-0510Ba,Bb = 2MASS J06521804-0511241
 
 # Tertiary Standard
 
-GJ 226 = LHS 215 = HIP 29277 = GCTP 1358 = G 222-11 = 2MASS J06101978+8206256 
+GJ 226 = HIP 29277 = LHS 215 = GCTP 1358 = G 222-11 = 2MASS J06101978+8206256 
   M2V: Lee47(M2),Hawley97,Reiners12,Neves13,Shkolnik14
  *M2.5V: Bidelman85,Kirkpatrick91(sec),Kirkpatrick94,Henry02,Dieterich12,Lepine13
   M3V: Stephenson86,Gaidos14
@@ -313,7 +324,7 @@ GJ 226 = LHS 215 = HIP 29277 = GCTP 1358 = G 222-11 = 2MASS J06101978+8206256
 
 # Exemplar
 
-GJ 674 = LHS 449 = HIP 85523 = LTT 6942 = CD-46 11540 = 2MASS J17283991-4653424
+GJ 674 = HIP 85523 = LHS 449 = LTT 6942 = CD-46 11540 = 2MASS J17283991-4653424
   K5: 1939cfsc.book.....S 
   M2V(e): Riaz06
   M2+V: Gray06

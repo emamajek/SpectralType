@@ -173,12 +173,14 @@ M_Ks(M8V)   =  9.271 ; Reyle18 polynomial
 (g-G)(M8V) = 4.071 (+-0.185 sem, +-0.381 stdev) ; SIMBAD M8 d<25pc (N=6)
 => adopt (g-G)(M8V) = 4.1 [updated 6/29/2023]
 
-(r-i)(M8V)   = 1.913 (+-0.05 rms) ; West05 fit for (V-Ic)=4.62
-(r-i)(M8V)   = 2.73  (+-0.25 rms) ; West08
+(r-i)(M8V) =  1.913 (+-0.05 rms) ; West05 fit for (V-Ic)=4.62
+(r-i)(M8V) =  2.73  (+-0.25 rms) ; West08
+(r-i)(M8V) = 2.77 (+-0.10 rms) ; Cifuentes20
+=> adopt (r-i)(M8V) = 2.77 [updated 9/1/2023]
 
-(i-z)(M8V)   = 1.718 ; poly fit to SIMBAD d<75pc M dwarfs for G-Ks=5.53
-(i-z)(M8V)   = 1.58 (+-0.15 rms) ; West08
-(i-z)(M8V)   = 1.48 (+-0.14 rms) ; Schmidt14
+(i-z)(M8V) = 1.718 ; poly fit to SIMBAD d<75pc M dwarfs for G-Ks=5.53
+(i-z)(M8V) = 1.58 (+-0.15 rms) ; West08
+(i-z)(M8V) = 1.48 (+-0.14 rms) ; Schmidt14
 => adopt (i-z)(M8V) = 1.72 [updated 12/27/2021]
 
 (z-J)(M8V)   = 2.172 (+-0.053 rms) ; poly fit d<50pc SIMBAD M dwarfs for G-Ks=5.53
@@ -327,6 +329,10 @@ Teff(M8V) = 2466 K ; SIP1607-0442 (Dieterich14)
 Teff(M8V) =  2439 K ; mean photometric Teff
 Teff(M8V) = 2403 K ; ESO207-061 (Dieterich14)
 => adopt Teff(M8V) = 2570 K (logT = 3.410) [adopted 11/3/2019]
+
+BC_G(M8V) = -2.192+-0.163 ; Cifuentes20
+
+BC_J(M8V) =  2.082+-0.049 ; Cifuentes20 
 
 BCv(M8V) =  -3.97 mag ; Schmidt-Kaler82(BCv=-4.1 + 0.13 offset)
 BCv(M8V) =  -4.2  mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84; uncertain)

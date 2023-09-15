@@ -192,9 +192,11 @@ M_Ks(M7V)   =     9.271 ; Reyle18 polynomial
 
 (g-r)(M7V) = 1.696 ; pri. stan. VB 8
 
-(r-i)(M7V) =  2.50  (+-0.18 rms) ; West08
-(r-i)(M7V) =  1.945 (+-0.05 rms)  ; West05 fit for (V-Ic)=4.50
-(r-i)(M7V) = -0.71 ; pri. stan. VB 8 [erroneous?]
+(r-i)(M7V) =  2.62  (+-0.26 rms) ; Cifuentes20
+(r-i)(M7V) =   2.50  (+-0.18 rms) ; West08
+(r-i)(M7V) =   1.945 (+-0.05 rms) ; West05 fit for (V-Ic)=4.50
+(r-i)(M7V) =  -0.71 ; pri. stan. VB 8 [erroneous?]
+=> adopt (r-i)(M7V) = 2.62 [updated 9/1/2023]
  
 (i-z)(M7V) =  4.981 ; pri. stan. VB 8 [erroneous?]
 (i-z)(M7V) = 1.477 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=5.06
@@ -314,6 +316,10 @@ Teff(M7V)  =    2400 K ; Leggett92 "young disk"
 
 [Note: the colors and abs mags for the pri. & sec. standard are so similar,
 probably best to take their approximate average; 10/18/2019]
+
+BC_G(M7V) = -1.854+-0.129 ; Cifuentes20
+
+BC_J(M7V) =  2.105+-0.050 ; Cifuentes20
 
 BCv(M7V) =   -3.33 mag ; Schmidt-Kaler82(BCv=-3.46 + 0.13 offset)
 BCv(M7V) =   -3.6  mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
