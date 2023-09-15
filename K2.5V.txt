@@ -2,18 +2,14 @@ K2.5V
 
 Keenan99 standard: HD 283750 (=BD+26_730) - K2.5Ve 
 
-(B-V)(K2.5V) = 0.866 ; exemplar HD 191408
-(B-V)(K2.5V) = 0.917 ; exemplar HD 115404 
+(B-V)(K2.5V) =  0.866 ; exemplar HD 191408
+(B-V)(K2.5V) =  0.917 ; exemplar HD 115404 
 (B-V)(K2.5V) = 0.938 ; Gray03/06 N=84 K2.5V B-V (+-0.003 sem, +-0.036 stdev)
 (B-V)(K2.5V) = 0.942 ; Koen10 d<25pc median K2.5V
-(B-V)(K2.5V) = 0.949 ; exemplar HR 1982 = HD 38392
+(B-V)(K2.5V) =  0.949 ; exemplar HR 1982 = HD 38392
 (B-V)(K2.5V) = 1.12  ; deprecated stan. HD 283750
-=> adopt (B-V)(K2.5V)   = 0.938 ; updated 5/19/2018
-=> adopt (U-B)(K2.5V)   = 0.691
+=> adopt (B-V)(K2.5V)   = 0.94  [updated 9/1/2023]
 => adopt (Bt-Vt)(K2.5V) = 1.101
-=> adopt (V-Ic)(K2.5V)  = 0.974
-=> adopt (V-Rc)(K2.5V)  = 0.513
-=> adopt (R-Ic)(K2.5V)  = 0.460
 => adopt (V-J)(K2.5V)   = 1.711
 => adopt (V-H)(K2.5V)   = 2.170
 => adopt (V-Ks)(K2.5V)  = 2.274
@@ -27,17 +23,26 @@ Keenan99 standard: HD 283750 (=BD+26_730) - K2.5Ve
 => adopt (G-J)(K2.5V)   = 1.361
 => adopt (G-Ks)(K2.5V)  = 1.925
 
-(R-Ic)(K2.5V) = 0.458 ; exemplar HD 86249 = GJ 374 (Cousins80)
-(R-Ic)(K2.5V) = 0.46  ; exemplar HD 5133 = GJ 42 = HIP 4148 (Cousins80)
-(R-Ic)(K2.5V) = 0.485 ; exemplar HD 203850 = GJ 827.1 = GJ 9738 (Cousins80) 
+(U-B)(K2.5V)  = 0.699 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.94
+=> adopt (U-B)(K2.5V) = 0.699 [updated 9/1/2023]
 
-(V-Ic)(K2.5V) = 0.982 ; exemplar HD 86249 = GJ 374 (Cousins80)
-(V-Ic)(K2.5V) = 1.00  ; exemplar HD 5133 = GJ 42 = HIP 4148 (Cousins80)
-(V-Ic)(K2.5V) = 1.025 ; exemplar HD 203850 = GJ 827.1 = GJ 9738 (Cousins80) 
+(R-Ic)(K2.5V) =  0.458 ; exemplar HD 86249 = GJ 374 (Cousins80)
+(R-Ic)(K2.5V) =  0.46  ; exemplar HD 5133 = GJ 42 = HIP 4148 (Cousins80)
+(R-Ic)(K2.5V) = 0.471 ; color trend B-V vs. R-Ic for B-V=0.940
+(R-Ic)(K2.5V) =  0.485 ; exemplar HD 203850 = GJ 827.1 = GJ 9738 (Cousins80)
+=> adopt (R-Ic)(K2.5V) = 0.47 [updated 9/1/2023; V-Ic=1.00, V-Rc=0.53]
 
-(V-Rc)(K2.5V) = 0.524 ; exemplar HD 86249 = GJ 374 (Cousins80)
-(V-Rc)(K2.5V) = 0.54  ; exemplar HD 5133 = GJ 42 = HIP 4148 (Cousins80)
-(V-Rc)(K2.5V) = 0.54  ; exemplar HD 203850 = GJ 827.1 = GJ 9738 (Cousins80) 
+(V-Ic)(K2.5V) =  0.982 ; exemplar HD 86249 = GJ 374 (Cousins80)
+(V-Ic)(K2.5V) =  1.00  ; exemplar HD 5133 = GJ 42 = HIP 4148 (Cousins80)
+(V-Ic)(K2.5V) = 1.000  ; color trend B-V vs. V-Ic for B-V=0.940 
+(V-Ic)(K2.5V) =  1.025 ; exemplar HD 203850 = GJ 827.1 = GJ 9738 (Cousins80)
+=> adopt (V-Ic)(K2.5V) = 1.00 [updated 9/1/2023; V-Rc=0.53, R-Ic=0.47]
+
+(V-Rc)(K2.5V) =  0.524 ; exemplar HD 86249 = GJ 374 (Cousins80)
+(V-Rc)(K2.5V) = 0.529 ; color trend B-V vs. V-Ic for B-V=0.940 
+(V-Rc)(K2.5V) =  0.54  ; exemplar HD 5133 = GJ 42 = HIP 4148 (Cousins80)
+(V-Rc)(K2.5V) =  0.54  ; exemplar HD 203850 = GJ 827.1 = GJ 9738 (Cousins80)
+=> adopt (V-Rc)(K2.5V) = 0.53 [updated 9/1/2023; V-Ic=1.00, R-Ic=0.47]
 
 
 
@@ -78,6 +83,13 @@ Keenan99 standard: HD 283750 (=BD+26_730) - K2.5Ve
 => adopt (Bp-G)(K2.5V) = 0.51 [updated 7/17/2020; Bp-Rp=1.15, G-Rp=0.64]
 
 (V-Ks)(K2.5V) = 3.15 ; deprecated stan. HD 283750
+
+(g-r)(K2.5V) = 0.780 ; Just08/Chonis08 B-V=>g-r for B-V=0.94
+=> adopt (g-r)(K2.5V) = 0.780 [updated 9/1/2023]
+
+(g-V)(K2.5V) = 0.469 ; Jordi06 B-V=>g-V for B-V=0.94
+(g-V)(K2.5V) = 0.468 ; Just08/Chonis08 B-V=>g-V for B-V=0.94
+=> adopt (g-V)(K2.5V) = 0.468 [updated 9/1/2023]
 
 Teff(K2.5V) = 5047 +- 19 K ; GJ 33 (Pecaut13)
 Teff(K2.5V) = 5035 K ; non-stan. GJ 505 (slightly metal-poor)

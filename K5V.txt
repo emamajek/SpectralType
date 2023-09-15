@@ -89,7 +89,6 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 => adopt (B-V)(K5V)  = 1.15 ***  [last updated 10/15/2020]
 [EEM 10/15/2020; trend is roughly B-V = 1.15 + 0.4*[Fe/H]; see notes at end of file]
 
-=> adopt (U-B)(K5V)  = 1.081
 => adopt (Bt-Vt)(K5V)= 1.373
 => adopt (V-Hp)(K5V) = -0.124
 => adopt (V-I)(K5V)  = 1.261
@@ -108,10 +107,12 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 => adopt (G-J)(K5V)   = 1.730
 => adopt (G-Ks)(K5V)  = 2.429
 
-(U-B)(K5V) = 1.03  ; Johnson65 
-(U-B)(K5V) = 1.060 ; HIP d<75pc S/N>8 K5V N=125
-(U-B)(K5V) = 1.12  ; JohnsonMorgan53
-(U-B)(K5V) = 1.148 ; Koen10 median K5V d<25pc
+(U-B)(K5V) =  1.03  ; Johnson65 
+(U-B)(K5V) =  1.060 ; HIP d<75pc S/N>8 K5V N=125
+(U-B)(K5V) = 1.081 ; B-V vs U-B dwarf color trend for B-V=1.15
+(U-B)(K5V) =  1.12  ; JohnsonMorgan53
+(U-B)(K5V) =  1.148 ; Koen10 median K5V d<25pc
+=> adopt (U-B)(K5V) = 1.08 [updated 9/1/2023]
 
 (V-Rj)(K5V) = 1.02 ; Johnson65
 
@@ -247,13 +248,18 @@ within 1 mag of the main sequence (N=129):
 => adopt (g-G)(K5V) = 1.45 [updated 6/29/2023]
 
 (g-r)(K5V) = 0.980 ; Jordi06 (V-R)=>(g-r) for V-R=0.679
+(g-r)(K5V) = 1.010 ; Just08/Chonis08 B-V=>g-r for B-V=1.150
 (g-r)(K5V) = 1.041 ; Bilir05 (B-V)=>(g-r) for B-V=1.150
 (g-r)(K5V) = 1.18  ; Covey07
-=> adopt (g-r)(K5V) = 1.04 [updated 10/10/2020]
+=> adopt (g-r)(K5V) = 1.02 [updated 9/1/2023]
 
 (r-i)(K5V) =  0.354 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.582
 (r-i)(K5V) = 0.41 (+-0.07 rms) ; Cifuentes20
 => adopt (r-i)(K5V) = 0.41 [updated 7/15/2023]
+
+(g-V)(K5V) = 0.602 ; Jordi06 B-V=>g-V for B-V=1.15
+(g-V)(K5V) = 0.603 ; Just08/Chonis08 B-V=>g-V for B-V=1.15
+=> adopt (g-V)(K5V) = 0.603 [updated 9/1/2023]
 
 (Ks-W1)(K5V) = 0.092 ; EEM trend for d<30pc for B-V=1.15
 => adopt (Ks-W1)(K5V) = 0.092 [updated 12/29/2019]
@@ -358,6 +364,10 @@ BCv(K5V) =  -0.65 mag ; Johnson66 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(K5V) = -0.651 mag ; Casagrande08(Teff=4440K)
 BCv(K5V) = -0.686 mag ; Masana06(Teff=4440K)
 => adopt BCv(K5V) = -0.63 mag [last updated 8/29/2019; scaled so BCv(5772K)=-0.085]
+
+BC_G(K5V) = -0.206+-0.065 ; Cifuentes20
+
+BC_J(K5V) =  1.490+-0.047 ; Cifuentes20 
 
 logL(K5V) = -0.764 ; Mv=7.28 + BCv=-0.63 => Mbol = 6.65
 logL(K5V) = -0.80+-0.08   ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)

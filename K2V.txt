@@ -76,6 +76,7 @@ for 3 standards only (all metal-poor): (B-V)(K2V) = 0.876 - 0.04016*[Fe/H] (rms=
 (U-B)(K2V) =  0.553 ; exemplar HD 23484 = GJ 152 = HIP 17439 ([Fe/H]=+0.09)
 (U-B)(K2V) =  0.558 ; exemplar HD 170657 = GJ 716 ([Fe/H]=-0.17)
 (U-B)(K2V) = 0.583 ; pri. stan. eps Eri ([Fe/H]=-0.08)
+(U-B)(K2V) = 0.584 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.885
 (U-B)(K2V) =  0.585 ; exemplar HD 68475 = HIP 40051 ([Fe/H]=-0.04)
 (U-B)(K2V) = 0.591 ; ter. stan. HD 4628 = HR 222 ([Fe/H]=-0.26)
 (U-B)(K2V) = 0.591 ; ter. stan. HD 166620 ([Fe/H]=-0.18)
@@ -84,9 +85,10 @@ for 3 standards only (all metal-poor): (B-V)(K2V) = 0.876 - 0.04016*[Fe/H] (rms=
 (U-B)(K2V) =  0.653 ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03)
 (U-B)(K2V) =   0.68 ; Johnson66
 (U-B)(K2V) =  0.727 ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.03) (Menzies89) (outlier)
-=> adopt (U-B)(K2V) = 0.59 [updated 9/2/2023]
+=> adopt (U-B)(K2V) = 0.584 [updated 9/1/2023]
 [EEM 9/1/2023: fit for standards+exemplars (minus outlier HD 130930):
-(U-B)(K2V) = 0.590 + 0.08146*[Fe/H] (rms=0.036mag) 
+(U-B)(K2V) = 0.590 + 0.08146*[Fe/H] (rms=0.036mag), but adopt B-V vs. U-B locus value for solar
+dwarfs, which factors in trend as function of B-V]
 
 (V-Ic)(K2V) = 0.906 ; exemplar HD 23484 = GJ 152 = HIP 17439 ([Fe/H]=+0.09)
 (V-Ic)(K2V) =  0.91  ; HD 137778 = GJ 586B ([Fe/H]=0.17)
@@ -119,7 +121,8 @@ for 3 standards only (all metal-poor): (B-V)(K2V) = 0.876 - 0.04016*[Fe/H] (rms=
 (V-Rc)(K2V) =  0.500 ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.17)
 (V-Rc)(K2V) = 0.501 ; fit for standards+exemplars evaluated for [Fe/H]=0.0 (rms=0.013; see below)
 (V-Rc)(K2V) = 0.503 ; median V-Rc for nearby K2Vs in Koen10 (N=16)
-(V-Rc)(K2V) = 0.504 ; pri. stan. eps Eri ([Fe/H]=-0.08) (Gonzalez-Hernandez09)
+(V-Rc)(K2V) = 0.504 ; pri. stan. eps Eri = HD 22049 = GJ 144 ([Fe/H]=-0.08) (Gonzalez-Hernandez09)
+(V-Rc)(K0V) = 0.505 ; pri. stan. eps Eri = HD 22049 = GJ 144 ([Fe/H]=-0.08) (Cousins80) 
 (V-Rc)(K2V) =  0.51  ; ter. stan. HD 4628 = GJ 33 ([Fe/H]=-0.26) (Cousins80)
 (V-Rc)(K2V) =  0.51  ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03)
 (V-Rc)(K2V) =  0.514 ; exemplar HD 3222 = HIP 2743 ([Fe/H]=-0.41)
@@ -258,9 +261,10 @@ for 3 standards only (all metal-poor): (B-V)(K2V) = 0.876 - 0.04016*[Fe/H] (rms=
 (g-r)(K2V) = 0.706 ; ter. stan. HD 166620 ([Fe/H]=-0.18)
 (g-r)(K2V) = 0.716 ; pri. stan. eps Eri ([Fe/H]=-0.08)
 (g-r)(K2V) = 0.719 ; ter. stan. HD 4628 = HR 222 ([Fe/H]=-0.26)
+(g-r)(K2V) = 0.720 ; Just08/Chonis08 B-V=>g-r for B-V=0.885
 (g-r)(K2V) =  0.742 ; Bilir05 (B-V)=>(g-r) for B-V=0.884
 (g-r)(K2V) =  0.78  ; Covey07
-=> adopt (g-r)(K2V) = 0.71 [updated 8/20/2023]
+=> adopt (g-r)(K2V) = 0.718 [updated 9/1/2023]
 
 (r-i)(K2V) = 0.204 ; pri. stan. eps Eri ([Fe/H]=-0.08)
 (r-i)(K2V) =  0.206 ; exemplar HD 170657 = GJ 716 ([Fe/H]=-0.17)
@@ -268,6 +272,10 @@ for 3 standards only (all metal-poor): (B-V)(K2V) = 0.876 - 0.04016*[Fe/H] (rms=
 (r-i)(K2V) =  0.219 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.445
 (r-i)(K2V) = 0.225 ; ter. stan. HD 166620 ([Fe/H]=-0.18) 
 => adopt (r-i)(K2V) = 0.21 [updated 8/20/2023]
+
+(g-V)(K2V) = 0.434 ; Jordi06 B-V=>g-V for B-V=0.885
+(g-V)(K2V) = 0.433 ; Just08/Chonis08 B-V=>g-V for B-V=0.885
+=> adopt (g-V)(K2V) = 0.433 [updated 9/1/2023]
 
 (Ks-W1)(K2V) = 0.073 ; EEM trend for d<30pc for B-V=0.884
 => adopt (Ks-W1)(K2V) = 0.073 [updated 12/29/2019]

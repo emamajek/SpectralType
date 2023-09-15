@@ -56,7 +56,6 @@ classifiers.
 
 => adopt (B-V)(K6V)   = 1.24 *** [last updated 8/13/2020]
 => adopt (Bt-Vt)(K6V) = 1.439 
-=> adopt (U-B)(K6V)   = 1.184
 => adopt (V-R)(K6V)   = 0.759
 => adopt (R-I)(K6V)   = 0.662
 => adopt (V-J)(K6V)   = 2.395
@@ -68,7 +67,9 @@ classifiers.
 => adopt (Bp-G)(K6V)  = 0.759
 => adopt (G-Rp)(K6V)  = 0.818
 
-(U-B)(K6V)  = 1.208  ; Koen10 median K6V d<20pc (N=14)
+(U-B)(K6V) = 1.184 ; B-V vs U-B dwarf color trend for B-V=1.15
+(U-B)(K6V) = 1.208 ; Koen10 median K6V d<20pc (N=14)
+=> adopt (U-B)(K6V) = 1.184 [updated 9/1/2023]
 
 (V-Rc)(K6V) = 0.72   ; The84 
 (V-Rc)(K6V) = 0.781  ; Koen10 median K6V d<20pc (N=14)
@@ -178,13 +179,18 @@ classifiers.
 => adopt (g-G)(K6V) = 1.47 [updated 6/29/2023]
 
 (g-r)(K6V) = 1.108 ; Jordi06 (V-R)=>(g-r) for V-R=0.759
+(g-r)(K6V) = 1.109 ; Just08/Chonis08 B-V=>g-r for B-V=1.24
 (g-r)(K6V) = 1.142 ; Bilir05 (B-V)=>(g-r) for B-V=1.240
 (g-r)(K6V) = 1.26  ; Covey07 interp K5V-K7V
-=> adopt (g-r)(K6V) = 1.14 [updated 10/10/2020]
+=> adopt (g-r)(K6V) = 1.12 [updated 9/1/2023]
 
 (r-i)(K6V) = 0.433 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.662
 (r-i)(K6V) = 0.505 ; Cifuentes20 (interp K5V-K7V)
 => adopt (r-i)(K6V) = 0.505 [updated 7/15/2023]
+
+(g-V)(K6V) = 0.659 ; Jordi06 B-V=>g-V for B-V=1.24
+(g-V)(K6V) = 0.661 ; Just08/Chonis08 B-V=>g-V for B-V=1.24
+=> adopt (g-V)(K6V) = 0.660 [update 9/1/2023]
 
 (Ks-W1)(K6V) = 0.101 ; EEM trend for d<30pc for B-V=1.24
 => adopt (Ks-W1)(K6V) = 0.101 [updated 12/29/2019]

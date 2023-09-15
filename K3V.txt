@@ -75,22 +75,22 @@ Skiff08 flags two stars as K3V MK standards, both from Keenan89: HD 16160 and HD
 => adopt (G-J)(K3V)  = 1.486
 
 
-(U-B)(K3V) = 0.735 ; exemplar HD 218760 = HIP 114455 (K3V(k)_Fe-0.3) ([Fe/H]~-0.05)
-(U-B)(K3V) = 0.756 ; exemplar HD 207144 = GJ 9754 = HIP 107625 ([Fe/H]~-0.3)
-(U-B)(K3V) = 0.757 ; sec. stan. HD 110463 = GJ 3743 = HIP 61946 ([Fe/H]=0.00) (large uncertainty)
-(U-B)(K3V) =  0.790 ; HIP d<75pc S/N>8 K3V N=137 (Mermilliod91 photometry)
-(U-B)(K3V) = 0.790 ; exemplar HD 215152 = GJ 4291 ([Fe/H]=-0.07)
-(U-B)(K3V) = 0.801 ; predicted from dwarf trend for B-V=0.990
-(U-B)(K3V) = 0.802 ; sec. stan. HD 16160 = GJ 105A = HIP 12114 ([Fe/H]=-0.13)
-(U-B)(K3V) = 0.806 ; ter. stan. HD 285690 = Cl Melotte 25 25 = HIP 20082 ([Fe/H]=+0.14)
-(U-B)(K3V) = 0.84  ; ter. stan. HD 128165 = GJ 556 = HIP 71181 ([Fe/H]=0.00)
-(U-B)(K3V) = 0.844 ; Koen10 median K3V d<25pc (N=14)
-(U-B)(K3V) = 0.848 ; exemplar HD 82106 = GJ 349 ([Fe/H]=+0.01) (Koen10)
-(U-B)(K3V) =  0.887 ; deprecated stan. HD 34673 = GJ 200A = HIP 24819
-(U-B)(K3V) =   0.89  ; JohnsonMorgan53
-(U-B)(K3V) = 0.894 ; pri. stan. HD 219134 = GJ 892 ([Fe/H]=+0.06)
-=> adopt (U-B)(K3V) = 0.81 [updated 9/1/2023]
-[EEM 9/1/2023: note that the primary standard HD 219134 = GJ 892 appears to be much redder than other standards/exemplars, which likely swayed JohnsonMorgan53 value that was often cited. Trend among standards & exemplars has large scatter: (U-B)(K3V) = 0.8181 + 0.2182*[Fe/H] (rms=0.046mag). Dropping the primary standard HD 219134 = GJ 892 changes the fit to (U-B)(K3V) = 0.8054 + 0.1520*[Fe/H] (rms=0.039).]
+(U-B)(K3V) =  0.735 ; exemplar HD 218760 = HIP 114455 (K3V(k)_Fe-0.3) ([Fe/H]~-0.05)
+(U-B)(K3V) =  0.756 ; exemplar HD 207144 = GJ 9754 = HIP 107625 ([Fe/H]~-0.3)
+(U-B)(K3V) =  0.757 ; sec. stan. HD 110463 = GJ 3743 = HIP 61946 ([Fe/H]=0.00) (large uncertainty)
+(U-B)(K3V) =   0.790 ; HIP d<75pc S/N>8 K3V N=137 (Mermilliod91 photometry)
+(U-B)(K3V) =  0.790 ; exemplar HD 215152 = GJ 4291 ([Fe/H]=-0.07)
+(U-B)(K3V) =  0.802 ; sec. stan. HD 16160 = GJ 105A = HIP 12114 ([Fe/H]=-0.13)
+(U-B)(K3V) = 0.803 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.99
+(U-B)(K3V) =  0.806 ; ter. stan. HD 285690 = Cl Melotte 25 25 = HIP 20082 ([Fe/H]=+0.14)
+(U-B)(K3V) =  0.84  ; ter. stan. HD 128165 = GJ 556 = HIP 71181 ([Fe/H]=0.00)
+(U-B)(K3V) =  0.844 ; Koen10 median K3V d<25pc (N=14)
+(U-B)(K3V) =  0.848 ; exemplar HD 82106 = GJ 349 ([Fe/H]=+0.01) (Koen10)
+(U-B)(K3V) =   0.887 ; deprecated stan. HD 34673 = GJ 200A = HIP 24819
+(U-B)(K3V) =    0.89  ; JohnsonMorgan53
+(U-B)(K3V) =  0.894 ; pri. stan. HD 219134 = GJ 892 ([Fe/H]=+0.06)
+=> adopt (U-B)(K3V) = 0.803 [updated 9/1/2023]
+[EEM 9/1/2023: note that the primary standard HD 219134 = GJ 892 appears to be much redder than other standards/exemplars, which likely swayed JohnsonMorgan53 value that was often cited. Trend among standards & exemplars has large scatter: (U-B)(K3V) = 0.8181 + 0.2182*[Fe/H] (rms=0.046mag). Dropping the primary standard HD 219134 = GJ 892 changes the fit to (U-B)(K3V) = 0.8054 + 0.1520*[Fe/H] (rms=0.039), with the solar U-B value perfectly consistent with the Soubiran22 "solar" (-0.1 < [Fe/H] < 0.1) trend in B-V vs. U-B for B-V=0.99.]
 
 (V-Ic)(K3V) =  0.991 ; ter. stan. HD 285690 ([Fe/H]=+0.14)
 (V-Ic)(K3V) =  0.988 ; HD 116858 = GJ 511A = HIP 65574 (K3V,Houk88,Upgren72) (Cousins80)
@@ -328,17 +328,22 @@ Gaia DR3 values:
 (g-r)(K3V) = 0.796 ; sec. stan. HD 110463 ([Fe/H]=0.00) 
 (g-r)(K3V) = 0.816 ; exemplar HD 215152 = GJ 4291 ([Fe/H]=-0.07)
 (g-r)(K3V) = 0.835 ; ter. stan. HD 128165 = GJ 556 ([Fe/H]=0.00)
+(g-r)(K3V) = 0.835 ; Just08/Chonis08 B-V=>g-r for B-V=0.99
 (g-r)(K3V) = 0.841 ; pri. stan. HD_219134_ plx=152.8640 ([Fe/H]=+0.06)
 (g-r)(K3V) = 0.85  ; Covey07
 (g-r)(K3V) = 0.855 ; exemplar HD 82106 = GJ 349 ([Fe/H]=+0.01) (Just08)
 (g-r)(K3V) = 0.861 ; Bilir05 (B-V)=>(g-r) for B-V=0.990
-=> adopt (g-r)(K3V) = 0.84 [updated 8/20/2023]
+=> adopt (g-r)(K3V) = 0.835 [updated 9/1/2023]
 
 (r-i)(K3V) = 0.223 ; sec. stan. HD 110463 ([Fe/H]=0.00)
 (r-i)(K3V) = 0.249 ; pri. stan. HD_219134_ plx=152.8640 ([Fe/H]=+0.06)
 (r-i)(K3V) = 0.260 ; exemplar HD 82106 = GJ 349 ([Fe/H]=+0.01) (Just08)
 (r-i)(K3V) = 0.266 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.493
 => adopt (r-i)(K3V)= 0.25 [updated 8/20/2023]
+
+(g-V)(V) = 0.501 ; Just08/Chonis08 B-V=>g-V for B-V=0.99
+(g-V)(V) = 0.501 ; Jordi06 B-V=>g-V for B-V=0.99
+=> adopt (g-V)(K3V) = 0.501 [updated 9/1/2023]
 
 (Ks-W1)(K3V) = 0.079 ; EEM trend for d<30pc for B-V=0.99
 => adopt (Ks-W1)(K3V) = 0.079 [updated 8/20/2023]

@@ -4,22 +4,22 @@ Henry02 does not list a K6.5V standard. Gray06 classified 11 stars as K6.5V - no
 have published Teffs in PASTEL compendium. 
 
 Teff(K7V)   =  4070K ; K7V adopted
-Teff(K6.5V) = 4090K ; non-standard GJ 826.1/HD 203040
-Teff(K6.5V) = 4175K ; non-standard GJ 9646/HD 178445 
+Teff(K6.5V) = 4090K ; exemplar GJ 826.1/HD 203040
+Teff(K6.5V) = 4175K ; exemplar GJ 9646/HD 178445 
 Teff(K6.5V) = 4190K ; smooth Teff(SpT) trend
-Teff(K6.5V) = 4200K ; non-standard GJ 146/HD 22496
-Teff(K6.5V) = 4230K ; non-standard GJ 45/HD 5633
+Teff(K6.5V) = 4200K ; exemplar GJ 146/HD 22496
+Teff(K6.5V) = 4230K ; exemplar GJ 45/HD 5633
 Teff(K6V)   =  4230K ; K6V adopted
 => Teff(K6.5V) = 4190K (logT = 3.622); updated 5/18/2019
 
 (B-V)(K6V)   =  1.240 ; adopted
 (B-V)(K6.5V) = 1.30  ; median Hinkel17 (N=8, all Gray06!)
 (B-V)(K6.5V) = 1.312 ; Gray06 K6.5V stars (N=8; +-0.009 sem, +-0.030 rms)
-(B-V)(K6.5V) = 1.314 ; non-standard GJ 146
-(B-V)(K6.5V) = 1.32  ; non-standard GJ 45/HD 5633
-(B-V)(K6.5V) = 1.322 ; non-standard GJ 9646/HD 178445  
+(B-V)(K6.5V) = 1.314 ; exemplar GJ 146
+(B-V)(K6.5V) = 1.32  ; exemplar GJ 45/HD 5633
+(B-V)(K6.5V) = 1.322 ; exemplar GJ 9646/HD 178445  
 (B-V)(K7V)   =  1.330 ; adopted
-(B-V)(K6.5V) = 1.35  ; non-standard GJ 826.1/HD 203040
+(B-V)(K6.5V) = 1.35  ; exemplar GJ 826.1/HD 203040
 => adopt (B-V)(K6.5V) = 1.31 [updated 5/18/2018]
 
 (G-V)(K6V)   = -0.50  ; adopted for K6V
@@ -38,11 +38,18 @@ Teff(K6V)   =  4230K ; K6V adopted
 => adopt (Bp-G)(K6.5V) = 0.81 [updated 3/1/2019; Bp-Rp=1.64, G-Rp=0.83]
 
 (V-Ks)(K6.5V) = 3.223 ; trend for K dwarf standards+exemplars
-(V-Ks)(K6.5V) = 3.252 ; non-standard GJ 146/HD 22496
-(V-Ks)(K6.5V) = 3.303 ; non-standard GJ 9646/HD 178445
-(V-Ks)(K6.5V) = 3.399 ; non-standard GJ 826.1/HD 203040 
+(V-Ks)(K6.5V) = 3.252 ; exemplar GJ 146/HD 22496
+(V-Ks)(K6.5V) = 3.303 ; exemplar GJ 9646/HD 178445
+(V-Ks)(K6.5V) = 3.399 ; exemplar GJ 826.1/HD 203040
 
-Mv(K6.5V) = 7.92 ; non-standard GJ 146/HD 22496
+(g-r)(K6.5V) = 1.185 ; Just08/Chonis08 B-V=>g-r for B-V=1.31
+=> adopt (g-V)(K6.5V) = 1.185 [updated 9/1/2023]
+
+(g-V)(K6.5V) = 0.704 ; Jordi06 B-V=>g-V for B-V=1.31
+(g-V)(K6.5V) = 0.706 ; Just08/Chonis08 B-V=>g-V for B-V=1.31
+=> adopt (g-V)(K6.5V) = 0.705 [updated 9/1/2023]
+
+Mv(K6.5V) = 7.92 ; exemplar GJ 146/HD 22496
 
 I've just interpolated properties here based on the properties of the
 better populated K6V and K7V types, adjusting for the mean B-V from
@@ -52,7 +59,9 @@ the Gray06 K6.5V stars.
 K6.5V  4190  3.622 -0.92   8.01 -0.96  1.310  1.491  0.672  1.213   0.796  1.505   3.288   0.613   0.159   0.055   ...    ...    ...    0.66  ...    ...     5.56   4.78   7.09 ...  ...  0.656   K6.5V
 
 
-# Non-standards
+# Exemplars
+
+None have more than a single classification at K6.5V, and always from Gray+. 
 
 GJ 146 = HD 22496 = LHS 1563 = HIP 16711 (J0335-4825; V=8.6)
    K5V: Luyten45(K5),Montes01

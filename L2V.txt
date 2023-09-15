@@ -46,23 +46,23 @@ Teff(L2V) = 1850 K ; Cifuentes20 <Teff> for CARMENES L2V(N=15)
 (G-V)(L2V)   = -3.1124 ; pri. stan. Kelu-1
 
 
-M_G(L2V) = 16.8397 ; 2MASS J10452400-0149576        
-M_G(L2V) = 17.1079 ; 2MUCD 20388
-M_G(L2V) =  17.11  ; Kiman19
-M_G(L2V) = 17.1443 ; 2MUCD 20870
-M_G(L2V) = 17.21   ; trend for d<20pc late Ms/early Ls
-M_G(L2V) = 17.2169 ; 2MASS J04455387-3048204
-M_G(L2V) = 17.238  ; Reyle18 polynomial
-M_G(L2V) = 17.2638 ; SSPM J0829-1309
-M_G(L2V) = 17.27   ; median for d<25pc L2s in SIMBAD
-M_G(L2V) = 17.2831 ; 2MASS J11553952-3727350
-M_G(L2V) = 17.313  ; pri. stan. Kelu-1
-M_G(L2V) = 17.6035 ; 2MASS J21041491-1037369        
-M_G(L2V) = 17.7866 ; 2MASS J05085506+3319272        
-M_G(L2V) = 18.2242 ; 2MASS J04041807+4127398        
-M_G(L2V) = 18.2408 ; 2MASS J13482456-4227441       
-M_G(L2V) = 18.7977 ; 2MASS J17392515+2454421
-=> adopt M_G(L2V) = 17.3 [adopted 4/17/2020]
+M_G(L2V) = 16.8397 ; 2MASS J10452400-0149576 (GaiaDR2)
+M_G(L2V) = 17.1079 ; 2MUCD 20388 (GaiaDR2)
+M_G(L2V) =  17.11  ; Kiman19 (GaiaDR2)
+M_G(L2V) = 17.1443 ; 2MUCD 20870 (GaiaDR2)
+M_G(L2V) = 17.21   ; trend for d<20pc late Ms/early Ls (GaiaDR2)
+M_G(L2V) = 17.2169 ; 2MASS J04455387-3048204 (GaiaDR2)
+M_G(L2V) = 17.238  ; Reyle18 polynomial (GaiaDR2)
+M_G(L2V) = 17.2638 ; SSPM J0829-1309 (GaiaDR2)
+M_G(L2V) = 17.27   ; median for d<25pc L2s in SIMBAD (GaiaDR2)
+M_G(L2V) = 17.2831 ; 2MASS J11553952-3727350 (GaiaDR2)
+M_G(L2V) = 17.313  ; pri. stan. Kelu-1 (GaiaDR2)
+M_G(L2V) = 17.6035 ; 2MASS J21041491-1037369 (GaiaDR2)      
+M_G(L2V) = 17.7866 ; 2MASS J05085506+3319272 (GaiaDR2)     
+M_G(L2V) = 18.2242 ; 2MASS J04041807+4127398 (GaiaDR2)      
+M_G(L2V) = 18.2408 ; 2MASS J13482456-4227441 (GaiaDR2)      
+M_G(L2V) = 18.7977 ; 2MASS J17392515+2454421 (GaiaDR2)
+=> adopt M_G(L2V) = 17.3 [adopted 4/17/2020] (GaiaDR2)
 
 
 M_J(L2V)    = 12.312 ; Reyle18 polynomial
@@ -114,6 +114,9 @@ Mass(L2V) = 0.0753 Msun ; Mann18 calib for M_Ks=10.9
 <J-Ks>(L2V)  = 1.52  ; Faherty09
 (J-Ks)(L2V)  = 1.45 (+-0.17 rms; N=23) ; Schmidt14
 
+(r-i)(L2V) = 2.34 (+-0.08 rms; N=12) ; Cifuentes20
+=> adopt (r-i)(L2V) = 2.34 [updated 9/1/2023]
+
 (i-z)(L2V)   = 1.81 (+-0.05 rms; N=8) ; Schmidt14
 (i-J)(L2V)   = 4.45 (+-0.10 rms; N=7) ; Schmidt14
 (i-Ks)(L2V)  = 5.83 (+-0.12 rms; N=7) ; Schmidt14
@@ -126,6 +129,10 @@ Mass(L2V) = 0.0753 Msun ; Mann18 calib for M_Ks=10.9
 => adopt (Ks-W1)(L2V) = 0.47 [updated 12/28/2019]
 
 (W1-W2)(L2V) = 0.27 (+-0.06 rms; N=26) ; Schmidt14
+
+BC_G(L2V) = -2.930+-0.101 ; Cifuentes20
+
+BC_J(L2V) =  1.951+-0.083 ; Cifuentes20 
 
 BC_Ks(L2V) = 3.264 mag ; Filipazzo15 (field)
 BC_Ks(L2V) = 3.282 mag ; Looper08 
