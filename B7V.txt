@@ -32,10 +32,10 @@ the revised calibration (10/17/2011).
 
 B-V(B7V)  = -0.144 ; prim. stan. HD 21071 (EEM dereddened via Q-method)
 B-V(B7V)  =  -0.14  ; Bessell79
-B-V(B7V)  =  -0.13  ; JohnsonMorgan53, Fitzgerald70, SchmidtKaler82
+B-V(B7V)  =  -0.13  ; JohnsonMorgan53,Fitzgerald70,SchmidtKaler82
 B-V(B7V)  = -0.128 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
 B-V(B7V)  = -0.127 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
-B-V(B7V)  =  -0.12  ; Morgan53, Johnson63, Johnson66
+B-V(B7V)  =  -0.12  ; Morgan53,Johnson63,Johnson65,Johnson66
 B-V(B7V)  = -0.112 ; deprecated standard alf Leo
 B-V(B7V)  =  -0.11  ; KenyonHartmann95 
 => adopt (B-V)(B7V)  = -0.128 [updated 4/8/2022]
@@ -43,7 +43,7 @@ B-V(B7V)  =  -0.11  ; KenyonHartmann95
 U-B(B8V)  =  -0.364 ; adopted for B8V 
 U-B(B7V)  =  -0.365 ; deprecated standard alf Leo
 U-B(B7V)  =  -0.41  ; Bessell98
-U-B(B7V)  =  -0.42  ; Johnson63, Johnson66
+U-B(B7V)  =  -0.42  ; Johnson63,Johnson65,Johnson66
 U-B(B7V)  =  -0.43  ; Fitzgerald70, Schmidt-Kaler82 
 U-B(B7V)  = -0.455 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
 U-B(B7V)  = -0.459 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
@@ -54,6 +54,16 @@ U-B(B7V)  = -0.530 ; pri. stan. HD 21071 (EEM dereddened via Q-method)
 => adopt (V-I)(B7V)  = -0.132
 => adopt (V-R)(B7V)  = -0.058
 => adopt (R-I)(B7V)  = -0.075
+
+V-Rj(B7V) = -0.05 ; Johnson65
+
+V-Ij(B7V) = -0.17 ; Johnson65
+
+V-Jj(B7V) = -0.27 ; Johnson65 
+
+V-Kj(B7V) = -0.35 ; Johnson65
+
+V-Lj(B7V) = -0.33 ; Johnson65
 
 (V-Ks)(B7V) =  -0.123 ; HIP_24327_ B7V d= 142.653pc, (B-V)=0.004 (dereddened from Kervella19)
 (V-Ks)(B7V) =  -0.190 ; HIP_71353_ B7V d= 107.945pc, (B-V)=0.010 (dereddened from Kervella19)
@@ -275,9 +285,28 @@ HD 87901 = alf Leo = Regulus = 32 Leo = HR 3982 = GJ 9316A
 
 # Other Stars
 
-alf Gru
-  B7Vn: Garrison96
-  Ranges from B5-B7 in the other literature
+alf Gru = Alnair = HD 209952 = GJ 848.2 = GJ 9767 = HIP 109268 = HR 8425 = Gaia DR3 6560604777055249536 = 2MASS J22081397-4657393 = 
+   B5V: 1955MmMtS..12....1W,Evans57,Zorec09(BCD)
+   B6V: 1930MmMtS...2....1R,Gray06
+   B7IV: Hiltner69,Rountree91(UV)
+   B7IVn: Garrison94
+   B7V: Cuchiaro77(UV)
+   B7Vn: Garrison96
+
+   Star near main sequence with some of the bluest Cousins VRIc
+   photometry (helping define color trends for negligibly reddened
+   late B-type dwarfs).  V=1.73(Cousins62),
+   V=1.734+-0.012(Mermilliod91), V=1.740+-0.011(Cousins71,Bessell90),
+   B-V=-0.13(Cousins62,Bessell90), B-V=-0.134+-0.005(Mermilliod91),
+   B-V=-0.140+-0.006(Cousins71), U-B=-0.464+-0.004(Mermilliod91),
+   U-B=-0.48(Cousins71), V-Rc=-0.045(Bessell90),
+   V-Ic=-0.120(Bessell90).  Dereddening through Q-method results
+   (unsurprisingly) in E(B-V)=0.00. The U-B color is consistent with
+   being intermediate between B6V and B7V.  vanderBliek96 ESO JHKL'M
+   photometric
+   standard. vsini=215km/s(Glebock05). plx=32.29+-0.21mas(vanLeeuwen07)
+   => Mv=-0.721+-0.019.
+
 
 pi Cet = HD 17081
   B7V: Slettebak55, Lesh68, Cucchiaro77, 

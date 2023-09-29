@@ -6,8 +6,8 @@ between the very hot dwarfs (O-B3 stars) covered by e.g. Walborn and
 others, and the late Bs (B7-A0 stars) covered in more detail by Gray
 and collaborators.
 
-The only B4V standard I've seen in the literature: 
-Lesh68 standard:  90 Leo - B4V
+Lesh68 standard:     90 Leo   - B4V
+Rountree90 standard: HD 20809 - B4V (UV)  
 
 # No Standard
 
@@ -20,21 +20,20 @@ Skiff08 did not flag any stars as B4V standards.
 All Q-method dereddening calculations in this file have been updated
 with the revised calibration (10/9/2011).
 
-B-V(B4V)   = -0.18   ; Morgan53, Johnson63 (interp. by EEM B3V-B5V)
-B-V(B4V)   = -0.18   ; Fitzgerald70, Morgan71(halfway_B3_B5)
+B-V(B4V)   = -0.18   ; Morgan53,Johnson63(halfway B3V-B5V),Johnson65(halfway B3V-B5V),Fitzgerald70,Morgan71(halfway B3V-B5V)
 B-V(B4V)   = -0.175  ; dereddened weak standard 90 Leo
 B-V(B4V)   = -0.17   ; halfway between B3V (-0.18) and B5V (-0.16)
 B-V(B4V)   = -0.166  ; EEM dereddened 35 HIP B4V stars (Q-method, E(B-V)<0.1)
 B-V(B4V)   = -0.16   ; KenyonHartmann95 
 B-V(B4V)   = -0.150  ; EEM dereddened nearest B4V star HD 103079 
 
-The bluest B4V star that I can find is HIP 30788 (B-V =
--0.169+-0.007), so <(B-V)o> is probably near this value.
+The bluest B4V star that I can find is HIP 30788 (B-V = -0.169+-0.007), so <(B-V)o> is probably near this value.
 
 U-B(B4V)   = -0.558  ; EEM dereddened nearest B4V star HD 103079
 U-B(B4V)   = -0.619  ; EEM dereddened 35 HIP B4V stars (Q-method, E(B-V)<0.1)
 U-B(B4V)   = -0.63   ; Fitzgerald70
-U-B(B4V)   = -0.645  ; Schmidt-Kaler82 halfway (B3V-B5V) 
+U-B(B4V)   = -0.635  ; Johnson65 (halfway B3V-B5V)
+U-B(B4V)   = -0.645  ; Schmidt-Kaler82 (halfway B3V-B5V) 
 U-B(B4V)   = -0.651  ; EEM dereddened weak standard 90 Leo
 U-B(B4V)   = -0.66   ; Bessell98
 => adopt (U-B)(B4V)  = -0.619 ***
@@ -42,7 +41,17 @@ U-B(B4V)   = -0.66   ; Bessell98
 => adopt     Q(B4V)  = -0.500 (=(U-B)-0.72*(B-V) = -0.619 - 0.72*-0.165)
 => adopt (V-I)(B4V)  = -0.175
 => adopt (V-R)(B4V)  = -0.074
-=> adopt (R-I)(B4V)  = -0.101 
+=> adopt (R-I)(B4V)  = -0.101
+
+V-Rj(B4V) = -0.07 ; Johnson65 (halfway B3V-B5V) 
+
+V-Ij(B4V) = -0.245 ; Johnson65 (halfway B3V-B5V) 
+
+V-Jj(B4V) = -0.40 ; Johnson65 (halfway B3V-B5V) 
+
+V-Kj(B4V) = -0.53 ; Johnson65 (halfway B3V-B5V) 
+
+V-Lj(B4V) = -0.51 ; Johnson65 (halfway B3V-B5V) 
 
 (V-Ks)(B4V) =  -0.354 ; HIP_60000_ B4V d= 93.2575pc, (B-V)=0.007 (dereddened from Kervella19)
 (V-Ks)(B4V) =  -0.398 ; HIP_63945_ B4V d= 122.175pc, (B-V)=0.013 (dereddened from Kervella19)
@@ -188,6 +197,14 @@ Rad(B4V) = 3.459 Rsun ; Teff=16400K, logL=2.892
   17111K.
 
 # Other Stars
+
+HD 20809 = HR 1011 = Cl Melotte 20 557
+  B4V: Lesh68,Rountree90(stan,UV),1927MNRAS..86..364E(B4)
+  B5V: Roman50,Heckmann58(B5),Petrie69(B5),Morgan71,Cuchiaro76(S2/68),Abt78,1949ApJ...110..498S(B5)
+
+  Candidate standard in Alpha Persei cluster - needs a bit further
+  scrutiny. Only other B4V standard ever mentioned but most other
+  authors besides Lesh/Rountree have it at B5V.
 
 HD 103079 = HR 4549
  *B4V: Jaschek78(Hiltner69),Houk75,Kennedy83

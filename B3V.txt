@@ -24,8 +24,10 @@ MK73 dagger standards:  eta Aur & eta UMa - B3V
 Houk75 standard:        nu Ori - B3V (primary standard)
 Garrison77 standard:    eta Aur - B3V
 MK78 standards:         29 Per - B3V
+Garrison79 standard:    HD 142883 (= HR 5934) - B3V 
 Keenan85 standard:      29 Per - B3V 
 Walborn90 standards:    eta Hya (= HD 74280) - B3V
+Rountree90 standard:    eta UMa - B3V (UV) 
 WiegertGarrison98 stan: eta Hya - B3V
 GrayAtlas standard:     29 Per - B3V
 GrayNstars standards:   29 Per & iot Her - B3V
@@ -36,26 +38,25 @@ Skiff08 flaged three B3V standards: HD 120315 (MK73), HD 32630 (MK73),
 All dereddening via the Q-method in this file has been updated with
 the revised calibration (10/9/2011).
 
-B-V(B3V)  =  -0.167 ; EEM dereddened prim. stan. HD 142883 (via Q-method)
+B-V(B3V)  =  -0.167 ; EEM dereddened sec. stan. HD 142883 (via Q-method)
 B-V(B3V)  =  -0.171 ; EEM dereddened prim. stan. 29 Per (via Q-method)
 B-V(B3V)  =  -0.180 ; EEM dereddened anchor stan. eta Aur (via Q-method)
 B-V(B3V)  = -0.181 ; EEM dereddened N=101 HIP B3V stars (Q-method, E(B-V)<0.1)
 B-V(B3V)  =  -0.190 ; EEM dereddened anchor stan. eta UMa (zero reddening)
 B-V(B3V)  =   -0.198 ; Crawford76
 B-V(B3V)  =  -0.199 ; EEM dereddened prim. stan. eta Hya (via Q-method)
-B-V(B3V)  =   -0.20 ; JohnsonMorgan53, Morgan53, Johnson63, Johnson66 
-B-V(B3V)  =   -0.20 ; Garrison67, Fitzgerald70, Morgan71, SchmidtKaler82
+B-V(B3V)  =   -0.20 ; JohnsonMorgan53,Morgan53,Johnson63,Johnson65,Johnson66,Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82
 
 The bluest B-V I can find for a B3V star is HIP 115347
 (B-V = -0.199+-0.008), so <(B-V)o> is near this value.
 
-U-B(B3V)  = -0.623 ; EEM dereddened pri. stan. HD 142883 (via Q-method)
+U-B(B3V)  = -0.623 ; EEM dereddened sec. stan. HD 142883 (via Q-method)
 U-B(B3V)  = -0.638 ; EEM dereddened pri. stan. 29 Per (via Q-method)
 U-B(B3V)  = -0.669 ; EEM dereddened pri. stan. eta Aur (via Q-method)
 U-B(B3V)  = -0.673 ; EEM dereddened pri. stan. eta UMa (zero reddening)
 U-B(B3V)  = -0.675 ; EEM dereddened N=101 HIP B3V stars (Q-method, E(B-V)<0.1)
 U-B(B3V)  =  -0.68  ; Fitzgerald70
-U-B(B3V)  =  -0.71  ; Johnson63, Johnson66, Schmidt-Kaler82
+U-B(B3V)  =  -0.71  ; Johnson63,Johnson65,Johnson66,Schmidt-Kaler82
 U-B(B3V)  = -0.737 ; EEM dereddened pri. stan. eta Hya (via Q-method)
 U-B(B3V)  =  -0.75  ; Bessell98
 => adopt (U-B)(B3V)  = -0.673 *** [updated 9/26/2019]
@@ -64,6 +65,16 @@ U-B(B3V)  =  -0.75  ; Bessell98
 => adopt (V-I)(B3V)  = -0.192
 => adopt (V-R)(B3V)  = -0.080
 => adopt (R-I)(B3V)  = -0.111
+
+V-Rj(B3V) = -0.08 ; Johnson65
+
+V-Ij(B3V) = -0.27 ; Johnson65
+
+V-Jj(B3V) = -0.44 ; Johnson65 
+
+V-Kj(B3V) = -0.59 ; Johnson65
+
+V-Lj(B3V) = -0.57 ; Johnson65
 
 (V-Ks)(B3V) = -0.333 ; HIP_70248_ B3V d= 163.881pc, (B-V)=0.017 (dereddened from Kervella19)
 (V-Ks)(B3V) = -0.390 ; HIP_92989_ B3V d= 145.328pc, (B-V)=0.019 (dereddened from Kervella19)
@@ -136,13 +147,13 @@ Teff(B3V) =  16500 K ; GrayCorbally09
 Teff(B3V) =  16479 K ; B-V=-0.180 => Teff(Napiwotzki93)
 Teff(B3V) = 16445 K  ; pri. stan. 29 Per (median Teff)
 Teff(B3V) = 16218 K  ; Simon-Diaz17 for B3V (N=8)
-Teff(B3V) = 16030 K  ; pri. stan. HD 142883 (median Teff)
+Teff(B3V) = 16030 K  ; sec. stan. HD 142883 (median Teff)
 Teff(B3V) =  16000 K ; GrayCorbally94
 => adopt Teff(B3V) = 17000 K (logT = 4.230) [updated 9/16/2019]
 
 Mv(B3V) =  1.69 mag ; HIP_20543 B3V plx=6.850 mas, Vmag=7.521,E(B-V)=0.003
 Mv(B3V) =  1.18 mag ; HIP_74680 B3V plx=4.511 mas, Vmag=8.139,E(B-V)=0.075
-Mv(B3V) = -0.51 mag ; pri. stan. HD 142883 (see below)
+Mv(B3V) = -0.51 mag ; sec. stan. HD 142883 (see below)
 Mv(B3V) =  -0.58 mag ; HIP_33591 B3V plx=4.104 mas, Vmag=6.385,E(B-V)=0.009
 Mv(B3V) = -0.6  mag ; HD 120315 (Jaschek98)
 Mv(B3V) =  -0.62 mag ; HIP_36582 B3V plx=3.612 mas, Vmag=6.642,E(B-V)=0.017
@@ -211,7 +222,7 @@ Rad(B3V) = 3.12 Rsun ; logL=2.9, 92Teff=17000K
 
 # Anchor Standards
 
-HD 32630 = Eta Aur = HR 1641 = ALS 8168 = HIP 23767 = Hoedus II (J0506+4114)
+HD 32630 = eta Aur = HR 1641 = ALS 8168 = HIP 23767 = Hoedus II (J0506+4114)
  *B3V: MK43,JM53,Garrison67(stan),Lesh68(stan),Hiltner69(stan),Walborn71,MK73,Garrison77(stan),Garrison94,Garrison96
 
   V=3.172+-0.008(Mermillio91), B-V=-0.178+-0.009(Mermilliod91),
@@ -230,7 +241,7 @@ HD 32630 = Eta Aur = HR 1641 = ALS 8168 = HIP 23767 = Hoedus II (J0506+4114)
   Myr. RV = +7.3+-0.7 km/s (Gontcharov06).  XHIP catalog lists U,V,W =
   -13.6, -23.2, -5.5 km/s.
 
-HD 120315 = Eta UMa = Alcaid = HR 5191
+HD 120315 = eta UMa = Alcaid = HR 5191
  *B3V: MK43,JM53,Walborn71,MK73,Walborn90,Garrison94,Garrison96
 
   M91: V=1.860+-0.009, B-V=-0.190+-0.007, U-B=-0.673+-0.017 =>
@@ -256,18 +267,6 @@ HD 20635 = 29 Per = Cl Melotte 20 383 (alpha Per cluster)
   cluster (de Zeeuw et al. 1999), then Mv = -1.47+-0.05 mag.  Teffs:
   16090K(U-Bo=>Bessell98), 16800K(Philip80) => median Teff = 16445K.
 
-HD 142883 = HR 5934 = HIP 78168  (J1558-2058)
- *B3V: Bertiau58(B3:V),Morris61,Garrison67,Slettebak68,Hiltner69,Hill70,Garrison79(stan),Houk88
-  B5: Cannon
-
-  Skiff09: all 6 references all call it B3V. deZeeuw+99 Upper Sco
-  member. Excellent standard?  M91: V=5.853+-0.007, B-V=0.021+-0.005,
-  U-B=-0.489+-0.010 => updated Q-method (10/9/2011) => (B-V)o=-0.167,
-  (U-B)o=-0.623, E(B-V)=0.188, Av=0.614. VanLeeuwen07 plx = 7.08+-0.33
-  mas => D = 141+-7 pc (agrees well with Upper Sco distance 145
-  pc). Mv = -0.51 +- 0.10 mag. Teffs: 15802K(U-Bo=>Bessell98), 
-  16258K(Philip80) => median Teff = 16030K. 
-
 HD 74280 = eta Hya = HR 3454
  *B3V: JM53,Jaschek64(all),Jaschek78(JM53),Walborn90,Cannon(B3),Houk99(Garrison),Levenhagen06
   B2V: Russeil07
@@ -289,6 +288,20 @@ HD 74280 = eta Hya = HR 3454
   17899K. logg=3.83(LeBorgne03). [Fe/H]=-0.09(LeBornge03).
 
 # Secondary Standards
+
+HD 142883 = HR 5934 = HIP 78168 (J1558-2058)
+ *B3V: Bertiau58(B3:V),Morris61,Garrison67,Slettebak68,Hiltner69,Hill70,Garrison79(stan),Houk88
+  B5: Cannon
+
+  Skiff09: all 6 references all call it B3V. Only knocked to secondary
+  as it didn't appear in any of the major standards compilations by
+  e.g. Morgan.  deZeeuw+99 Upper Sco member. Excellent standard?  M91:
+  V=5.853+-0.007, B-V=0.021+-0.005, U-B=-0.489+-0.010 => updated
+  Q-method (10/9/2011) => (B-V)o=-0.167, (U-B)o=-0.623, E(B-V)=0.188,
+  Av=0.614. VanLeeuwen07 plx = 7.08+-0.33 mas => D = 141+-7 pc (agrees
+  well with Upper Sco distance 145 pc). Mv = -0.51 +- 0.10 mag. Teffs:
+  15802K(U-Bo=>Bessell98), 16258K(Philip80) => median Teff = 16030K.
+
 
 HD 6300 = HR 302 = SAO 91988 = BD+50_212
  *B3V: Cannon(B3),JM53,Hoffleit91,Jaschek64(all),Jaschek78(Lesh68)

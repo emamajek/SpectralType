@@ -31,6 +31,7 @@ Cowley72 standards:	 18 Tau  - B8V
 MK73 standard:           18 Tau  - B8V (dagger standard)
 Houk75 standard:	 18 Tau  - B8V (primary standard) 
 Garrison77 standard:	 18 Tau  - B8V
+Garrison79 standard:     HD 142315 - B8V 
 GarrisonGray94 standard: 18 Tau  - B8Vn (high vsini)
 	       		 HR 9050 - B8V (low vsini)
 WiegertGarrison98 stan.: HD 142315 - B8V 
@@ -45,7 +46,7 @@ recent calibration (Oct 2011).
 B-V(B8V)  =  -0.05   ; Cowley70(N=20*s)
 B-V(B8V)  =  -0.083  ; Crawford76
 B-V(B8V)  = -0.083  ; sec. stan. 21 Tau (EEM dereddened via Q-method)
-B-V(B8V)  =  -0.09   ; JohnsonMorgan53, Morgan53, Johnson63, Johnson66
+B-V(B8V)  =  -0.09   ; JohnsonMorgan53,Morgan53,Johnson63,Johnson65,Johnson66
 B-V(B8V)  = -0.099  ; EEM 9 d<75pc B8V Hipparco stars
 B-V(B8V)  =  -0.10   ; Bessell79
 B-V(B8V)  = -0.104  ; sec. stan. HR 9050 (EEM dereddened via Q-method)
@@ -57,7 +58,7 @@ B-V(B8V)  = -0.121  ; sec. stan. bet Per (EEM dereddened)
 
 U-B(B8V)  = -0.265  ; sec. stan. 21 Tau (EEM dereddened via Q-method)
 U-B(B8V)  =  -0.31   ; Cowley70(N=20*s)
-U-B(B8V)  =  -0.30   ; Bessell98, Johnson63, Johnson66
+U-B(B8V)  =  -0.30   ; Bessell98,Johnson63,Johnson65,Johnson66
 U-B(B8V)  =  -0.34   ; Schmidt-Kaler82
 U-B(B8V)  = -0.354  ; sec. stan. HR 9050 (EEM dereddened via Q-method)
 U-B(B8V)  =  -0.36   ; Fitzgerald70
@@ -76,6 +77,23 @@ U-B(B8V)  = -0.389  ; pri. stan. 18 Tau (EEM dereddened via Q-method)
 => adopt (V-Ks)(B8V) = -0.254
 => adopt (H-Ks)(B8V) =  0.003
 => adopt (J-H)(B8V)  = -0.067
+
+V-Rj(B8V) = -0.03 ; Johnson65
+
+(V-Ic)(B8V) = -0.085 ; Bessell79
+(V-Ic)(B8V) = -0.15  ; Bessell88 
+
+V-Ij(B8V) = -0.12 ; Johnson65
+
+(R-Ic)f(B8V)  = -0.050  ; Bessell79 
+
+V-Jj(B8V) = -0.18 ; Johnson65
+
+(V-K)(B8V) = -0.35 ; Bessell88 (homogenized Johnson-Glass)
+
+V-Kj(B8V) = -0.24 ; Johnson65
+
+V-Lj(B8V) = -0.22 ; Johnson65
 
 
 
@@ -102,9 +120,7 @@ U-B(B8V)  = -0.389  ; pri. stan. 18 Tau (EEM dereddened via Q-method)
 (G-V)(B2V) =  0.046 ; HIP_67702 B8V V=7.476 G=7.5213 E(B-V)=0.009 (calc from Kervella22)
 => adopt (G-V)(B8V) = 0.02 [updated 2/20/2023]
 
-V-I(B8V)  = -0.085  ; Bessell79
 
-R-I(B8V)  = -0.050  ; Bessell79
 
 (g-r)(B8V) = -0.33 ; Covey07
 
@@ -133,6 +149,7 @@ Teff(B8V) = 12923 K ; EEM median of 268 published Teffs for B8V *s
 => adopt Teff(B8V) = 12300 K (logT = 4.090) [updated 9/16/2019]
 
 Mv(B8V) =  0.92 mag ; HIP_61796 B8V plx=8.822 mas, Vmag=6.247,E(B-V)=0.017
+Mv(B8V) =  0.61 mag ; ter. stan. HD 142315 = HIP 77911 (Upper Sco)
 Mv(B8V) =  0.50 mag ; HIP_81891 B8V plx=6.573 mas, Vmag=6.447,E(B-V)=0.013
 Mv(B8V) =  0.49 mag ; HIP_64774 B8V plx=7.358 mas, Vmag=6.185,E(B-V)=0.010
 Mv(B8V) =   0.46 mag ; Cox00 ZAMS interp B-V vs Mv (for B-V=-0.109)
@@ -264,13 +281,20 @@ HD 135742 = bet Lib = Zubeneshamali
   => median Teff = 12230K.  logg=4.12+-0.16(Wu11),
   [Fe/H]=0.33+-0.17(Wu11).
 
-HD 142315
+HD 142315 = HIP 77911 = 2MASS J15544159-2245585 = Gaia DR3 6237422850406493952 = BD-22_4046 = CD-22_11240 
   B7V:: Slettebak68
- *B8V: Garrison67,Jaschek78(Garrison79(stan)),WiegertGarrison98(stan),Cannon(B8)
+ *B8V: Garrison67,Garrison79(stan),WiegertGarrison98(stan),Cannon(B8)
   B8Vnn: GarrisonGray94
   B9V: Bertiau58,Jaschek64(all),Houk88
 
-  Upper Sco member. At least Garrison used as standard. 
+  Upper Sco member. Garrison seems to be the only one that used it as
+  a standard. plx=6.9089+-0.029mas(GaiaDR3). V=6.866+-0.005(Mermilliod91),
+  B-V=0.044+-0.003(Mermilliod91), U-B=-0.217+-0.013(Mermilliod91) =>
+  dereddened via Q-method (Pecaut13) => (B-V)o=-0.096, (U-B)o=-0.319,
+  E(B-V)=0.140, Av=0.458, Teff=12011K, BCv=-0.713. Absolute magnitude
+  for V=6.866+-0.005(Mermilliod91), Av=0.458(Q-method/calc.),
+  plx=6.9089+-0.029mas(GaiaDR3) => Mv=0.605+-0.010mag.
+  
 
 # Variant (two "B8Ve" standards)
 
