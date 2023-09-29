@@ -86,6 +86,12 @@ and within 1 mag of the MS (N=16):
 
 (R-I)(A2V)   = 0.072 ; Bessell79
 
+(V-Jj)(A2V)  =  0.11  ; Johnson66 
+
+(V-Kj)(A2V)  =  0.13  ; Johnson66
+
+(V-Ks)(A2V)  = 0.274 ; exemplar HD 16970 = gam Cet A 
+
 
 (Bp-Rp)(A2V) = 0.101 ; Evans18 trend for V-I= 0.086
 (Bp-Rp)(A2V) = 0.068 ; color trend for B-V=0.07
@@ -184,8 +190,8 @@ Mass(A2V) = 2.37 Msun ; sec. stan. HD 56405 (Zorec12)
 Mass(A2V) = 2.324+-0.045 Msun ; Eclipsing binary WX Cep B (Torres10)
 Mass(A2V) = 2.11 Msun ; David15 A2 MS (rms=0.30 Msun; N=144)
 Mass(A2V) = 2.07 Msun ; Chulkov22 fit for M_G=1.17 (Mv=1.35, G-V=0.00)
-Mass(A2V) = 2.06 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.5)
 Mass(A2V) = 2.07 Msun ; EEM Teff vs. Mass fit for binaries (Teff=8760K)
+Mass(A2V) = 2.06 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.5)
 Mass(A2V) = 2.02 Msun ; EEM logL vs. Mass fit for binaries (logL=1.324)
 Mass(A2V) = 2.01 Msun ; Ekers18 ML calibration for logL=1.324
 Mass(A2V) = 1.98 Msun ; HenryMcCarthy93 calibration for Mv=1.5
@@ -193,7 +199,7 @@ Mass(A2V) =  1.94 Msun ; Habets81
 Mass(A2V) = 1.904+-0.013 Msun ; Eclipsing binary V392 Car A (Torres10)
 Mass(A2V) = 1.855+-0.020 Msun ; Eclipsing binary V392 Car B (Torres10)
 Mass(A2V) = 1.79 Msun ; Evans23 Teff vs. Mass fit for Teff=8800K
-=> adopt Mass(A2V) = 2.05 Msun [updated 12/29/2019]
+=> adopt Mass(A2V) = 2.06 Msun [updated 9/15/2023]
 
 Rad(A2V) =  2.220 Rsun ; Salsi21 surface brightness relation for Mv=1.35, M_Ks=1.172
 Rad(A2V) = 2.1168 Rsun ; logL=1.384, Teff=8800K
@@ -266,7 +272,7 @@ eps Gru = HR 8675 = HD 215789 = HIP 112623
   8625K(Ammler-vonEiff12), 8685K(David15), => <Teff> = 8511K.
   Mv=0.51. 
 
-gam Cet A = Kaffaljidhma = HR 4660 = HIP 59774 = HD 16970 = GJ 459 = WDS J12154+5702A
+HD 16970 = gam Cet A = Kaffaljidhma = HR 4660 = HIP 59774 = HD 16970 = GJ 459 = WDS J12154+5702A
   A1V: Bidelman85(A1),Abt85
   A1/2V: Maury1897
  *A2Vn: Adams35,Chalonge52(A2V),Slettebak54(A2V),1955MmMtS..12....1W(A2V),GrayGarrison87(A2Va),Abt95,Gray03
@@ -278,19 +284,21 @@ gam Cet A = Kaffaljidhma = HR 4660 = HIP 59774 = HD 16970 = GJ 459 = WDS J12154+
   del(Hp)=3.07+-0.12(HIP).  Companion type: F4V(Adams35),
   F7(Bidelman85). Gliese91 lists V(A)=3.46, V(B)=6.20. Unresolved:
   V=3.464+-0.009(Mermilliod91), V=3.47(HIP, BSC, Johnson66),
-  V(A)=3.57(TYC), V(B)=5.91(TYC), del(V)=2.34(TYC), B-V=
-  0.091+-0.006(Mermilliod91),
+  V=3.481(Rieke22), V(A)=3.57(TYC), V(B)=5.91(TYC), del(V)=2.34(TYC),
+  B-V= 0.091+-0.006(Mermilliod91),
   U-B=0.070+-0.008(Mermilliod91). Transforming the HIP CCDM BtVt
   photometry to Johnson system: V(A)=3.563+-0.005,
   B-V(A)=0.091+-0.007, V(B)=5.901+-0.03, B-V(B)=0.402+-0.042.
   ASCC-2.5 lists V(A)=3.543+-0.004, V(B)=6.098+-0.009
   (i.e. del(V)=2.555). Rieke22 presents transformed ground-based
   photometry on 2MASS system (unclear if unresolved):
-  Ks=3.190(Rieke22) => V-Ks = 3.464 - 3.190 = 0.274. C component is
-  843" away.  Teffs: 7470K(Bermejo13), 8360K(Sokolov95),
-  8455K(Paunzen06), 8551K(David15), 8643K(Stassun18), 8673K(Gray03),
-  9057K(Zorec12), 9296K(King03) => <Teff> = 8597K. plx=40.51+-0.15mas
-  (vanLeeuwen07).  Mv = 1.58(V(A)=3.54,plx(vanLeeuwen07)).
+  Ks=3.190(Rieke22) => V-Ks = 3.464 - 3.190 = 0.274. Rest of Rieke22
+  photometry: J=3.233(Rieke22/2MASS sys), Ks=3.190(Rieke22/2MASS sys),
+  Ks=3.190(Rieke22/2MASS sys/transformed).  C component is 843" away.
+  Teffs: 7470K(Bermejo13), 8360K(Sokolov95), 8455K(Paunzen06),
+  8551K(David15), 8643K(Stassun18), 8673K(Gray03), 9057K(Zorec12),
+  9296K(King03) => <Teff> = 8597K. plx=40.51+-0.15mas (vanLeeuwen07).
+  Mv = 1.58(V(A)=3.54,plx(vanLeeuwen07)).
   
 
 # Other stars

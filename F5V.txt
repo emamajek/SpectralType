@@ -85,6 +85,7 @@ and within 1 mag of the MS (N=237):
 => adopt (V-I)(F5V)  = 0.508
 => adopt (V-R)(F5V)  = 0.252
 => adopt (R-I)(F5V)  = 0.254
+=> adopt (V-Hp)(F5V) = -0.099 
 => adopt (V-J)(F5V)  = 0.853
 => adopt (V-H)(F5V)  = 1.025
 => adopt (V-Ks)(F5V) = 1.079
@@ -101,6 +102,12 @@ and within 1 mag of the MS (N=237):
 (V-Ic)(F5V)  = 0.538 (+-0.004 sem, +-0.030 stdev); HIP d<75pc S/N>8 N=237
 
 (R-Ic)(F5V)  = 0.250 ; Bessell79
+
+(V-Jj)(F5V)  = 0.79 ; Johnson66 
+
+(V-Kj)(F5V)  = 1.07 ; Johnson66
+
+(V-Ks)(F5V)  = 1.170 ; exemplar HD 15798 = sig Cet 
 
 
 (G-V)(F5V) =   -0.13    ; HD_108807_ F5V
@@ -200,10 +207,10 @@ Teff(F5V) = 6547 K ; Gray03/06 F5Vs median from TIC9/Stassun19 (N=32)
 Teff(F5V) =  6550 K ; GrayCorbally09
 Teff(F5V) =  6550 K ; Blackwell80
 Teff(F5V) =  6560 K ; GrayCorbally94
-Teff(F5V) = 6572 K ; median Teff for sec. stan. HD 27534 
-Teff(F5V) = 6573 K ; median Teff for sec. stan. 45 Boo
-Teff(F5V) = 6580 K ; median Teff for prim. stan. HD 27524
-Teff(F5V) = 6583 K ; median Teff for variant stan. Procyon
+Teff(F5V) = 6572 K ; sec. stan. HD 27534 
+Teff(F5V) = 6573 K ; sec. stan. 45 Boo 
+Teff(F5V) = 6580 K ; pri. stan. HD 27524 = HIP 20349 (Hyad; [Fe/H]=+0.16)
+Teff(F5V) = 6583 K ; variant stan. Procyon 
 => adopt Teff(F5V) = 6550 K (logT = 3.8162) [update 9/11/2020]
 
 BCv(F5V) = +0.049 mag ; Balona94(Teff=6550K)
@@ -266,11 +273,15 @@ Mass(F5V) =  1.2887 Msun ; Eclipsing binary V455 Aur A (Southworth21; ~1.8 Gyr)
 Mass(F5V) =  1.2745 Msun ; Eclipsing binary V505 Per A (Southworth21)
 Mass(F5V) = 1.27 Msun ; David15 F5 MS (rms=0.18 Msun; N=905)
 Mass(F5V) =  1.2577 Msun ; Eclipsing binary V505 Per B (Southworth21)
-=> adopt Mass(F5V) = 1.31 Msun [updated 8/3/2023]
+=> adopt Mass(F5V) = 1.32 Msun [updated 9/15/2023]
 
-logg(F5V) = 4.2626 dex ; Eclipsing binary V455 Aur A (Southworth21; ~1.8 Gyr)
-logg(F5V) = 4.3194 dex ; Eclipsing binary V505 Per A (Southworth21)
-logg(F5V) = 4.3343 dex ; Eclipsing binary V505 Per B (Southworth21)
+logg(F5V) = 4.216  dex ; M=1.31Msun, logL=0.556, logTeff=3.8162 
+logg(F5V) = 4.23   dex ; pri. stan. HD 27524 = HIP 20349 (Hyad; [Fe/H]=+0.16)
+logg(F5V) =  4.2626 dex ; Eclipsing binary V455 Aur A (Southworth21; ~1.8 Gyr)
+logg(F5V) = 4.27   dex ; sec. stan. HD 134083 = 45 Boo = HIP 73996
+logg(F5V) =  4.3194 dex ; Eclipsing binary V505 Per A (Southworth21)
+logg(F5V) =  4.3343 dex ; Eclipsing binary V505 Per B (Southworth21)
+=> adopt logg(F5V) = 4.22 [updated 9/15/2023]
 
 # No Standard
 
@@ -283,16 +294,32 @@ HD 27524 = HIP 20349 = BD+20 740 = Cl Melotte 25 35 (a Hyades member)
   F5IV-V: Treanor60
   F2V: Adams35
 
-  B-V(HIP)=0.434, Vmag=6.79, Mv=3.25, dMv=-0.12,
-  par=19.6+-0.9 mas. Teff = 6470K(Taylor05), 6505K(Vaarenne99),
-  6515+-125 K(Gebran10), 6576K(Cenarro01), 6580K(Suchov03),
-  6580+-47K(Prugniel11), 6620K(Gray01), 6622+-61K(Masana06),
-  6622K(Sanchez-Blazquez06), 6828+-98K(Casagrande11) => median Teff =
-  6580K. logg=4.14+-0.06(Prugniel11), 4.20(Gray01), 4.21(Varenne99),
-  4.24(Gebran10), 4.25(Cenarro01), 4.28(Sanchez-Blazquez06) =>
-  logg=4.2. Mass = 1.42 Msun (Goldman13). Several published
-  metallicities (with surprisingly large scatter), but star is a Hyad
-  so [Fe/H] should be ~+0.12.
+  Fast-rotating star: vsini=100km/s, Per=0.734d(vanSaders13).
+  B-V(HIP)=0.434, Vmag=6.79, Mv=3.25, dMv=-0.12, par=19.6+-0.9
+  mas. Teffs: 6255+-158K(Yu23), 6461+-105K(David15), 6470K(Taylor05),
+  6505K(Vaarenne99), 6515+-125K(Gebran10), 6519K(Cesetti13),
+  6531K(Queiroz23), 6571K(Worthey94), 6576K(Cenarro01),
+  6580K(Suchov03), 6580+-47K(Prugniel11,Coelho20?), 6590+-185K(Bai19),
+  6620K(Gray01), 6622+-61K(Masana06), 6622K(Sanchez-Blazquez06),
+  6655K(Stassun19/TIC), 6693K(Brandner23), 6809K(Kopytova16),
+  6828+-98K(Casagrande11) => median Teff = 6580K(N=19). Several
+  published metallicities (with surprisingly large scatter), but star
+  is a Hyad so [Fe/H] should be ~+0.16. Surface gravities logg
+  estimates: logg=3.83(Kopytova16),
+  logg=4.1353(4.1257,4.1512;GaiaDR3/GSPphot/AENES, but for
+  [Fe/H]=-0.28 solution?!), logg=4.136(3.981,4.281;Queiroz23),
+  logg=4.14+-0.06(Prugniel11,Coelho20?), logg=4.15(Luck18),
+  logg=4.20(Gray01), logg=4.21(Varenne99),
+  logg=4.227(4.157,4.285;Anders19), logg=4.23(Casagrande11),
+  logg=4.24+-0.20(Gebran10), logg=4.250(4.151,4.291;Anders22),
+  logg=4.25(Worthey94), logg=4.25(Cenarro01),
+  logg=4.28(Sanchez-Blazquez06), logg=4.2863+-0.0031(Brandner23) =>
+  <logg>=4.23(N=15).  The metallicities have huge scatter:
+  [Fe/H]=-0.46(Varenne99), [Fe/H]=+0.05+-0.16(Gebran10),
+  [Fe/H]=+0.81(Luck18,what?).  Mass=1.414Msun(vanSaders13),
+  Mass=1.42Msun(Goldman13),
+  Rad=1.450Rsun(vanSaders13). logL=0.5489+-0.0046(Brandner23).
+  GaiaDR3: plx=20.5634+-0.0250mas(GaiaDR3).
 
 # Secondary Standard
 
@@ -312,7 +339,7 @@ HD 27534 = HIP 20350 = BD+18_629 = SAO 93883 = Cl Melotte 25 36
   1.39-1.41(Casagrande11) => adopt 1.39 Msun. Hyad, so [Fe/H] ~ +0.13
   dex.
 
-45 Boo = HD 134083 = HIP 73996 = HR 5634 = GJ 578
+HD 134083 = 45 Boo = HIP 73996 = GJ 578 = HR 5634 
   F6V: Levato78
  *F5V: Roman49,Roman50,JM53(stan),Abt68,Cowley74(stan),HoukStandard,Bidelman85(F5),Gray01,Gray03,GrayNstars
   F4V: Adams35
@@ -324,7 +351,7 @@ HD 27534 = HIP 20350 = BD+18_629 = SAO 93883 = Cl Melotte 25 36
   V=4.930+-0.007(Mermilliod91), U-B=-0.029+-0.009(Mermilliod91),
   V-I=0.51+-0.05(HIP), dMv=+0.12, plx = 51.14+-0.31mas(HIP2), plx =
   51.6674 +- 0.1882 mas(GaiaDR2), Mv = 3.496+-0.013(HIP,GaiaDR2).
-  Teff = 6435+-44K(Valenti05), 6512K(Taylor05), 6517+-30K(Wu11),
+  Teffs: 6435+-44K(Valenti05), 6512K(Taylor05), 6517+-30K(Wu11),
   6528K(Schroeder09), 6546K(Erspamer03), 6558+-77K(Ramirez05),
   6563K(diBenedetto98), 6567+-39K(Blackwell98), 6570K(Suchkov03),
   6571+-95K(Alonso96), 6573+-47K(Prugniel11), 6579K(Katz11),
@@ -332,9 +359,22 @@ HD 27534 = HIP 20350 = BD+18_629 = SAO 93883 = Cl Melotte 25 36
   6598+-80K(Casagrande11), 6601+-190K(Gonzalez-Hernandez09),
   6632K(Boesgaard88,Boesgaard90), 6632K(Ammler-vonEiff12),
   6739K(Prugniel07#2), 6751K(Prugniel07#3) => median Teff =
-  6573K. logg=4.17+-0.05(Prugniel11), 4.18+-0.04(Wu11),
-  4.19+-0.06(Valenti05), 4.20(LeBorgne03), 4.23(Erspamer03),
-  4.50(Boesgaard90) => adopt logg=4.2.  [Fe/H]=-0.02+-0.03(Valenti05),
+  6573K. Surface gravities logg:
+  4.086(4.083,4.104;GaiaDR3, but for unrealistic [Fe/H]=-0.72),
+  4.17+-0.05(Prugniel11),
+  4.18+-0.04(Wu11),
+  4.19+-0.06(Valenti05),
+  4.20(LeBorgne03),
+  4.23(Erspamer03),
+  4.27(Luck17),
+  4.28(Casagrande11),
+  4.32(Sanchez-Blazquez06), 
+  4.33+-0.01(Takeda07), 
+  4.38(Worthey94),
+  4.41(Schroeder09),
+  4.43(King03), 
+  4.50(Boesgaard90)
+  => adopt <logg>=4.27.  [Fe/H]=-0.02+-0.03(Valenti05),
   [Fe/H]=-0.02(Respamer03), [Fe/H]=-0.01+-0.03(Prugniel11),
   [Fe/H]=0.03(Prugniel07), [Fe/H]=0.05(Marsakov95),
   [Fe/H]=0.06(LeBorgne03) => essentially solar metallicity.
@@ -396,8 +436,11 @@ HD 15798 = sig Cet = HR 740
    F5IV: Roman50
   *F5-V: Gray06
 
-   2MASS photometry is poor, flagged "DCC".
-   Ks=3.569(Rieke22/transformed from ground-based K).
+   V=4.739(Rieke22), 2MASS photometry is poor, flagged "DCC".
+   J=3.838(Rieke22/2MASS sys), H=3.633(Rieke22/2MASS sys),
+   Ks=3.569(Rieke22/2MASS sys), Ks=3.569(Rieke22/2MASS sys;transformed
+   from ground-based. V-Ks = 4.739 - 3.569 = 1.170.
+      
 
 # Other Stars
 
@@ -407,7 +450,6 @@ RECONS list shows Procyon (J0739+0513) as the nearest F5IV-V star.
 
 *but* <B-V>(3 standards) ~ 0.43 , whereas 
               <B-V>(HIP) = 0.465!
-
 
 HD 76943 = 10 UMa
    F5V: JM53(non-stan)
@@ -428,8 +470,142 @@ HD 162003 = psi01 Dra A = HR 6636 = HIP 86614
 
   V=4.57(HIP), B-V=0.434+-0.004(HIP), V-Ic=0.50+-0.00(HIP).
   plx=43.95+-0.8625mas(GaiaEDR3) => Mv=2.79 => 0.59 mag above MS. 
-  see F5IV.txt. 
+  see F5IV.txt.
 
+HD 7788 A = kap Tuc A = HR 377 A = GJ 55.3A = HIP 5896 = WDS J01158-6853 =
+ *F5V: Houk785,Corbally84,Gray06
+  F6IV: Malaroda75
+  F6V: Woods55
+  F6pVm+0: Gray89 
+
+  Primary of the ~2 Gyr-old kappa Tucanae wide hierarchical quintuple
+  LDS 42 (see extensive summary by Tokovinin20 2020AJ....159..265T and
+  p.7 of Fuhrmann17 2017ApJ...836..139F). A is the primary F5V star
+  (which Tokovinin says is itself is an unresolved astrometric
+  binary), B is K1V(Gray06) or K1V_Fe-1(Corbally84) at 4.9" separation
+  (orbit: P=857.0yr, e=0.384, a=5.96"; Tokovinin17), and CD are a pair
+  of K stars 319" away. Izmailov19 estimates AB pair to have period
+  Porb=823.7842+-349.0067yr, a=5.76631+-1.52098".  Tokovinin22 detects
+  a residual in the orbit of A+B (P~1200yr) which he attributes to a
+  P=22yr a=60mas perturbation on A by another low-mass companion Ab
+  for which estimates mass=0.2Msun (i.e. roughly ~M4-M4.5V).  Gray89
+  comments for "7788AB" - i.e. unresolved light of pair "Lines appear
+  slightly broadened, vsini=111km/s". There appears to be conclusive
+  proof that the unresolved V(AB)=4.25 from Hipparcos is erroneous.
+  HIP quotes unresolved V=4.25, flagged "G", and this seems to come
+  from Mermilliod 1987 UBV (II/122B/merged) which lists for component
+  1 V=4.25, but then lists *unresolved* photometry for the pair all
+  between 4.85 and 4.86 (consistent with the Johnson and Cousins
+  values below). This is corroborated by the unresolved Hp magnitude
+  in Hipparcos (Hp(AB)=4.9639+-0.0005), for an F5V star, one would
+  predict (V-Hp)=-0.099 (from MS trend, for B-V=0.44 mean color of F5V
+  stars), hence Hp(AB)=4.96 => V(AB)~4.865, which is almost identical
+  to the Johnson66 (V=4.86) and Cousins71 (V=4.855+-0.005) values.  So
+  the V=4.25 estimate quoted by Hipparcos for the unresolved Vmag for
+  A+B is almost certainly incorrect at the 0.61 mag level! More on
+  this later (further evidence from GaiaDR3 and Corbally84).
+  Hipparcos (epoch 1991) split A and B at separation 5.055".
+  V(AB)=4.25(HIP,TYC, see notes - this is likely spurious),
+  V=4.86(Johnson66,Nicolet75,Hoffleit91/BSC),
+  V=4.855+-0.005(Cousins71), V=4.856(Paunzen15),
+  V(A)=4.912+-0.008(ASCC), 4.941(Furhmann17),
+  V=V(A)=4.95(Corbally84,vanAltena95), V(A)=4.952100(GaiaDR3/synth),
+  V(B)=8.44(TYC), V(B)=7.914+-0.030(ASCC),
+  V(B)=7.58(Corbally84,vanAltena95), V(B)=7.579042(GaiaDR3/synth),
+  V_T(A)=5.00+-0.01(Fabricius02), V_T(B)=7.74+-0.03(Fabricius02),
+  V_T(B)=8.439+-0.047(TYC), Hp(A)=5.051+-0.002(HIP),
+  Hp(B)=7.53+-0.027(Hp), del(Hp)=2.69+-0.03(HIP),
+  del(V_T)=2.740+-0.014, del(V)=3.002+-0.031(ASCC),
+  del(V)=2.63(Corbally84), del(V)=2.62694(GaiaDR3/synth),
+  del(G)=2.50221(GaiaDR3,see below), del(mag)=2.63(Hurley83,V?),
+  del(mag)=2.2(Hoffleit91/BSC), del(R)=2.82(Bauer07),
+  del(I)=2.19(Bauer07). B-V=0.47(Johnson66,Nicolet75,),
+  B-V=0.475+-0.008(Cousins71), U-B=0.03(Johnson66),
+  U-B=0.02(Cousins71), R=4.82(Morel78), I=4.60(Morel78). Can we get
+  consistency between the V-band photometry (unresolved and resolved)
+  values?  Adopt V=4.855+-0.005(Cousins71),
+  del(V)=2.62694(GaiaDR3/synth) => predicts V(A)=4.9475, V(B)=7.5745,
+  and indeed these agree within the individual GaiaDR3 synthetic V
+  mags for A and B at the 0.0046 and 0.0045 mag level, and are in
+  remarkable agreement with the resolved Johnson V photometry from
+  Corbally84 (V(A)=4.95, V(B)=7.58)! I believe this effectively rules
+  out the V=4.25 value from HIP, which appears to be too bright by
+  0.6mag.  2MASS photometry is poor and unresolved for A and B: J and
+  H have huge errors, Ks=3.876+-0.036, but flagged "E". Gezari99 IR
+  photometry compendium lists 6 flux measurements between J and 25um,
+  all from Aumann91, and listed as unresolved for GJ55.3AB:
+  J=3.97(Aumann91), H=3.75(Aumann91), K=3.70(Aumann91),
+  L=3.67(Aumann91). Aumann91 photometry for southern star like kap Tuc
+  was done on CTIO 1.5m with 10" beam (i.e. AB unresolved), and they
+  estimate uncertainties of "0.02, 0.01, 0.02, and 0.03 mag for J-H,
+  H-K, K, and K-L, respectively" - measurement seem to be on Johnson
+  system given discussion in their section II. If one converts the
+  Johnson JK photometry to 2MASS via Rieke22, this predicts unresolved
+  Ks(AB)=3.665 (i.e. K(Johnson) - Ks(2MASS) = 0.035).  Note that
+  between a F5V and K1V star - assuming both on the main sequence -
+  one would predict the slope of del(Ks)/del(V) to be (M_Ks~3.90 -
+  M_Ks~2.29)/(Mv~5.95 - Mv~3.37) = 0.624, hence from del(V)=2.62694,
+  one would predict del(Ks)~1.63929 (companion 22% as bright as
+  primary), or Johnson system (K(A)=3.9167, K(B)=5.5560) or 2MASS
+  system (Ks(A)=3.828, Ks(B)=5.210).  GaiaDR3:
+  G(A)=7.331969+-0.002817, G(B)=4.829754+-0.002900.  GaiaDR3 has
+  plx(A)=42.9912+-1.0581mas(GaiaDR3) but a better parallax for the
+  companion (plx(B)=47.6500+-0.0203(GaiaDR3), the latter of which
+  compares well to the revised Hipparcos for the unresolved pair
+  (plx(AB)=47.72+-0.41mas(vanLeeuwen07)), so I recommend adopting the
+  parallax of B for both: plx(B)=47.6500+-0.0203(GaiaDR3).  Teffs:
+  6339K(Reiners20), 6340+-216K(David15), 6364K(Schofield19),
+  6366K(Ammler-vonEiff12), 6384K(Marsakov95), 6410K(EEM,F5V),
+  6411+-178K(Montalto21), 6430K(Suchkov03), 6436(6432,6440)K(GaiaDR3),
+  6474K(Kirchschlager20), 6505K(Gray06),
+  6513+-97K(Casagrande11,Stassun18), 6513K(Netopil17),
+  6632+-103K(Stevens17) => the published estimates have mean
+  <Teff>=6418K (sem 21K, stdev 80K) => adopt
+  Teff=6418+-80K. Metallicities are consistent with ~solar:
+  [Fe/H]=-0.5633(-0.5871,-0.5394;GaiaDR3/GSPphot/AENEAS),
+  [M/H]=-0.07(Gray06), [Fe/H]=0.00(Marsakov95),
+  [Fe/H]=+0.02(Suchkov03), [Fe/H]=+0.03+-0.05(Gaspar16, mean from 4
+  literature values), [Fe/H]=+0.12+-0.03(Netopil17/phot),
+  [Fe/H]=+0.15(Netopil17/Geneva), [Fe/H]=+0.15(Fuhrmann17),
+  [Fe/H]=+0.16(Philip80).  Kirchschlager20 quotes stellar diameter
+  "theta_star" (presumably tetLD) 0.739+-0.011mas (1.5% uncertainty)
+  however it is unclear if this is estimated or measured directly - it
+  is identical to the 0.739mas from Ertel14 (estimated using V-K) =>
+  adopting plx(B,GaiaDR3) => Rad=1.6675+-0.0248Rsun. Ertel14 quotes
+  tet=0.739+-0.011mas and quotes V=4.912+-0.008, H=3.750+-0.020,
+  K=3.700+-0.020 (the small numbers in their table are
+  uncertainties),. V=4.912 appears to be from ASCC-2.5/Kharchenko09),
+  and H=3.75 and K=3.70 appear to be from Aumann91. While the Vmag is
+  resolved for A, it appears to be 0.0355 mag too bright, and the K
+  mag is the unresolved brightness for A+B.  For K=3.70(Aumann) and
+  del(K)~1.63929 (see above), then K(A)~3.917, K(B)~5.556.  So while
+  Kirchschlager20 adopts V-K=1.212 (V=4.912, K=3.700) from Ertel14, I
+  estimate the actual V-K is more like V-K=1.0305 (V=4.9475, K=3.917)
+  or V-Ks=(4.9475 - 3.828)=1.120 and indeed this is more typical for
+  F5V stars (EEM table: V-Ks=1.079).  The Ertel14 angular diameters
+  are calculated using equation from Kervella14: log(tet_(V-K)) =
+  0.2753*(V-K) + 0.5175 - 0.2*V, and given the VK values in Ertel14
+  Table 1, I recover the value tet=0.739mas also listed in Ertel14
+  Table 2. If we plug in what I think are better values (V(A)=4.9475,
+  K_Johnson(A)=3.917), one would predict from the Kervella04
+  calibration angular diameter 0.648mas (12.3% smaller!). We can also
+  independently predict the angular diameter from the star's
+  luminosity and temperature: For star A, I estimate luminosity using
+  adopted parameters V(A)=4.952100(GaiaDR3/synth), BCv(F5V)=-0.02,
+  plx=47.6500+-0.0203(GaiaDR3) => logL=0.56703 (L=3.690Lsun) => for
+  adopted Teff=6418+-80K => Rad=1.5537+-0.0387Rsun (2.5% error) =>
+  from GaiaDR3 plx of B => angular diameter tetLD 0.6886+-0.0171mas
+  (6.82% and 2.9sigma lower than that quoted by Kirchschlager20).
+
+HD 739 = HR 35
+  F3/5V: Houk82
+  F4V: Adams35
+ *F5V: Gray06,1953AnHar.119....1H
+  F6V: Gray89
+
+  V=5.237(Rieke22), J=4.401(Rieke22/2MASS sys), H=4.201(Rieke22/2MASS
+  sys), Ks=4.139(Rieke22/2MASS sys; they list twice),
+  V-Ks(Rieke22/2MASS sys) = 5.237 - 4.139 = 1.098.
 
 ### Trends in G-V for mid/late F dwarfs
 
@@ -463,4 +639,14 @@ G-V      ID          B-V    Gmag    SpT
 -0.1614  HD_117105_  0.580  7.0386  F9.5V_
 -0.1633  HD_30311_   0.557  7.0927  F9.5V_
 -0.1663  HD_9670_    0.525  6.7547  F9V_Fe-0.5
+
+### Metallicity trends for local F dwarfs
+
+Querying SIMBAD for d<25pc stars and cross-IDing with Soubiran22/PASTEL catalog, and selecting those
+with Teff>5930K and 4 < logg < 5 (i.e. effectively F dwarfs) - noting that the hottest star in that
+catalog within 25pc is 36 Dra (F5V; Teff=6473K) - one finds that the distribution of metallicities for
+the local mid/late F dwarf population is:
+
+<[Fe/H](F)> = -0.062 (sem +-0.021, st.dev. 0.186 dex; N=92)
+(Chauvenet criterion clipped 3 values: -0.71, -0.70, -0.68; min -0.71, max +0.28)
 

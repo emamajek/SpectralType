@@ -254,15 +254,19 @@ Mass(F6V) = 1.231 Msun ; Fernandes21 ML calibration for logL=0.432
 Mass(F6V) =  1.22 Msun ; EEM Mv vs. Mass fit for binaries (Mv=3.7)
 Mass(F6V) = 1.215 Msun ; Bertelli09 tracks for Teff=6350K, logL=0.432
 Mass(F6V) =  1.16 Msun ; Habets81
-=> adopt Mass(F6V) = 1.24 Msun [update 8/3/2023]
+=> adopt Mass(F6V) = 1.25 Msun [update 9/15/2023]
 
-logg(F6V) = 4.14 dex ; sec. stan. gam Ser
-logg(F6V) = 4.26 dex ; exemplar HD 3158 = HR 140
-logg(F6V) = 4.2887 dex ; Eclipsing binary V455 Aur B (Southworth21; ~1.8 Gyr)
-logg(F6V) = 4.29 dex ; exemplar 22 Lyn
-logg(F6V) = 4.30 dex ; pri. stan. pi03 Ori
-logg(F6V) = 4.36 dex ; exemplar 1 Eri
-=> adopt logg(F6V) = 4.29 [updated 8/3/2023]
+logg(F6V) =  4.14 dex ; sec. stan. gam Ser
+logg(F6V) =   4.26 dex ; exemplar HD 3158 = HR 140
+logg(F6V) = 4.263 dex ; M=1.24Msun, logL=0.432, logTeff=3.803
+logg(F6V) = 4.264 dex ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=6350K (see G0V.txt)
+logg(F6V) =   4.2887 dex ; Eclipsing binary V455 Aur B (Southworth21; ~1.8 Gyr)
+logg(F6V) =   4.29 dex ; exemplar 22 Lyn
+logg(F6V) =  4.30 dex ; pri. stan. pi03 Ori
+logg(F6V) =   4.36 dex ; exemplar 1 Eri
+=> adopt logg(F6V) = 4.26 [updated 9/15/2023]
+[EEM 9/15/2023: just as with F7V, still excellent agreement between spectroscopic logg estimates and that estimated
+from empirical mass estimates and HRD position!] 
 
 # No standard
 
@@ -435,7 +439,17 @@ HD 181327
    F5/6V: Houk75
   *F6V: 1953AnHar.119....1H,Torres06,Pecaut13
 
-   pre-MS? 
+   pre-MS?
+
+HD 3302 = HR 147
+   F4: 	1932PLicO..18....1M
+   F5V+: Gray06
+  *F6V: Malaroda75,Gray89
+   F7V: 1953AnHar.119....1H,Houk78
+
+   V=5.509(Rieke22), J=4.739(Rieke22/2MASS sys), H=4.522(Rieke22/2MASS
+   sys), Ks=4.479(Rieke22/2MASS sys), Ks=4.555(Rieke22/2MASS sys)
+   [note big difference in their two Ks estimates].
 
 
 PASTEL Teffs & metallicities for Gray0(clipped <1980 values)

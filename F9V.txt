@@ -119,7 +119,7 @@ Trend show that original color estimate by ]
 (V-Ic)(F9V) = 0.651 ; HIP 17147 (Koen10)
 => adopt (V-Ic)(F9V) = 0.62 [updated 9/1/2023]
 
-
+(V-Ks)(F9V) = 1.311 ; HD 17051 = iot Hor = HIP 12653 ([Fe/H]=+0.16) 
 
 (G-V)(F9V) =  -0.1784  ; HD_63077_ F9V_
 (G-V)(F9V) =  -0.168   ; HD_223084_ F9V_
@@ -270,7 +270,11 @@ Mass(F9V) =  1.116 Msun ; EEM Mv vs. Mass fit for binaries (Mv=4.2)
 Mass(F9V) = 1.110  Msun ; Fernandes21 ML calibration for logL=0.216
 Mass(F9V) =  1.10  Msun ; pri. stan. HD 10647 (Ghezzi10)
 Mass(F9V) = 1.080  Msun ; Bertelli09 solar tracks Teff=6060K,logL=0.216
-=> adopt Mass(F9V) = 1.12 Msun [updated 8/3/2023]
+=> adopt Mass(F9V) = 1.12 Msun [updated 9/15/2023]
+
+logg(F9V) = 4.343 (rms=0.112) ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=6050K (see G0V.txt)
+logg(F9V) = 4.351 ; M=1.12, Rad=1.167Rsun 
+=> adopt logg(F9V) = 4.34 [updated 9/15/2023]
 
 # No standard
 
@@ -359,7 +363,7 @@ HD 28635 = Cl Melotte 25 88 = HIP 21112 (J0431+1354; V=7.78)
    -0.1454. Mv=4.321+-0.010(Mermilliod91,GaiaDR2).  PASTEL: <Teff> =
    6124K(N=9), <logg>=4.35(N=3), <[Fe/H]>=+0.10(N=3).
 
-HD 17051 = HR 810 = iot Hor = HIP 12653 
+HD 17051 = iot Hor = HIP 12653 = HR 810 
   F8V: Torres06
   F9V: 1953AnHar.119....1H,Bidelman85(F9),Gray89
  *F9V_Fe+0.3: Gray06
@@ -369,10 +373,15 @@ HD 17051 = HR 810 = iot Hor = HIP 12653
   Exoplanet host iot Hor, with metallicity similar to Hyades.
   V=5.40(HIP), V=5.403+-0.011(Mermilliod91), B-V=0.561+-0.007(HIP),
   B-V=0.556+-0.008(Mermilliod91), V-I=0.62+-0.02(HIP),
-  U-B=0.075+-0.005(Mermilliod91). 2MASS photometry is grade
-  DCE (poor). PASTEL: <Teff>=6142K(N=18), <[Fe/H]>=4.41(N=16),
+  U-B=0.075+-0.005(Mermilliod91). 2MASS photometry is grade DCE
+  (poor). PASTEL: <Teff>=6142K(N=18), <[Fe/H]>=4.41(N=16),
   <logg>=0.153(N=15).  Most precise recent analysis (adopted):
   Ramirez14: Teff=6147+-11K, [Fe/H] = 0.156+-0.01, logg=4.419+-0.029.
+  Rieke22 photometry: V=5.394(Rieke22), J=4.369(Rieke22/2MASS sys),
+  H=4.162(Rieke22/2MASS sys), Ks=4.101(Rieke22/2MASS sys),
+  Ks=4.083(Rieke22/2MASS sys/transformed) => (V-Ks) = 5.403 -
+  (4.101+4.083)/2[Rieke22] = 1.311.
+  
 
 HD 7570 = HR 370 = nu Phe = LHS 1220
   F8V: 1955MmMtS..12....1W
