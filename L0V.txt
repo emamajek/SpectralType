@@ -19,6 +19,21 @@ Teff(L0V) =  2238 K ; Kirkpatrick20 Table 13 polynomial
 Teff(L0V) =  2195+-172K ; Cifuentes23
 => adopt Teff(L0V) = 2300 K (logT = 3.362) [updated 1/15/2021]
 
+(V-Rc)(L0V) = 2.19 ; 2MASS 1731+2721 (RECONS, Reid08)
+(V-Rc)(L0V) = 2.39 ; DENIS 0652-2534 (RECONS)
+=> adopt (V-Rc)(L0V) = 2.39 [updated 9/15/2023; V-Ic=4.85, R-Ic=2.46]
+
+(R-Ic)(L0V) =  1.895 ; 2MASS_J23101846-1759090 (Liebert07)
+(R-Ic)(L0V) = 2.31  ; 2MASS 1731+2721 (RECONS, Reid08)
+(R-Ic)(L0V) = 2.46  ; DENIS 0652-2534 (RECONS)
+=> adopt (R-Ic)(L0V) = 2.46 [updated 9/15/2023; V-Rc=2.39, V-Ic=4.85]
+
+(V-Ic)(L0V) = 4.50 ; 2MASS 1731+2721 (RECONS, Reid08)
+(V-Ic)(L0V) = 4.85 ; DENIS 0652-2534 (RECONS)
+(V-Ic)(L0V) = 4.85 ; trend Dieterich14 SpT vs. V-I
+(V-Ic)(L0V) = 4.92 ; DENIS J0652-2534 (Dieterich14)
+=> adopt (V-Ic)(L0V) = 4.85 [updated 9/15/2023; V-Rc=2.39, R-Ic=2.46]
+
 (V-Ks)(L0V) =  5.71 ; 2MASS_J10130734-1356204 usdL0 (Dahn17)
 (V-Ks)(L0V) =  9.25 ; DEN0652-2534
 (V-Ks)(L0V) =  9.33 ; 2MASS_J02281101+2537380 L0 (Dahn17)
@@ -32,11 +47,7 @@ Teff(L0V) =  2195+-172K ; Cifuentes23
 (G-Ks)(L0V) = 6.1167 ; pri. stan. 2MASS_J03454316+2540233
 => adopt (G-Ks)(L0V) = 6.12 [updated 12/26/2020]
 
-Rc-Ic(L0V)  = 1.895 ; 2M23101846-1759090 Liebert07
 
-(V-I)(L0V) = 4.85 ; trend Dieterich14 SpT vs. V-I
-(V-I)(L0V) = 4.92 ; DENIS J0652-2534 (Dieterich14)
-=> adopt (V-I)(L0V) = 4.85 [updated 7/4/2020]
 
 (J-H)(L0V)   =  0.74 (+-0.16 rms) ; Schmidt14
 (J-H)(M9.5V) = 0.74  ; adopted
@@ -58,7 +69,7 @@ Rc-Ic(L0V)  = 1.895 ; 2M23101846-1759090 Liebert07
 
 (r-i)(L0V) = 2.43 (+-0.16 rms; N=10) ; Cifuentes20 
 (r-i)(L0V) =  2.49 (+-0.09 rms) ; West08
-=> adopt (r-i)(L0V) = 2.43 [updated 9/1/2023]
+=> adopt (r-i)(L0V) = 2.43 [updated 9/15/2023]
 
 (i-z)(L0V)   = 1.84 (+-0.06 rms) ; West08
 (i-z)(L0V)   = 1.82 (+-0.10 rms) ; Schmidt14
@@ -196,6 +207,10 @@ logg(L0V) = 5.342 ; M=0.077Msun, R=0.098Rsun
    E(BP/RP)=1.895, Bp-Rp=3.629707, Bp-G=2.060488, G-Rp=1.569220. Mv =
    19.878+-0.084(Dahn02,DR2), M_G = 16.679 0.025 (GaiaDR2). Calc using
    GaiaEDR3: (G-Ks)=6.1167, M_G=16.682+-0.015, M_Ks=10.565+-0.028.
+
+2MASS J17312974+2721233 (LSPM J1731+2721)
+
+   Reid08 L0 secondary standard.
    
 # General Notes on L Dwarfs 
 

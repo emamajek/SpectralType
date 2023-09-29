@@ -24,11 +24,23 @@ V-Ks(L0.5V) = 9.11 ; 2MASS J17073334+4301304 L0.5 Dahn17
 (G-Ks)(L0.5V) = 6.275 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
 => adopt (G-Ks)(L0.5V) = 6.25 [updated 12/26/2020]
 
-(V-I)(L0.5V) = 4.89 ; 2M0428-2253 (Dieterich14)
-(V-I)(L0.5V) = 5.00 ; 2M1705-0516AB (Dieterich14)
-(V-I)(L0.5V) = 5.05 ; trend Dieterich14 SpT vs. V-I
-(V-I)(L0.5V) = 5.27 ; 2M0451-3402 (Dieterich14)
-=> adopt (V-Ic)(L0.5V) = 5.05 [updated 7/4/2020]
+(V-Rc)(L0.5V) = 2.50  ; 2MASS 0428-2253 (RECONS)
+(V-Rc)(L0.5V) = 2.63  ; 2MASS 1705-0516 AB (RECONS)
+(V-Rc)(L0.5V) = 2.73  ; 2MASS 0451-3402 (RECONS)
+=> adopt (V-Rc)(L0.5V) = 2.65 [updated 9/15/2023; V-Ic=5.05, R-Ic=2.40]
+
+(R-Ic)(L0.5V) = 2.32  ; 2MASS 0428-2253 (RECONS)
+(R-Ic)(L0.5V) = 2.37  ; 2MASS 1705-0516 AB (RECONS)
+(R-Ic)(L0.5V) = 2.43  ; 2MASS 0451-3402 (RECONS)
+=> adopt (R-Ic)(L0.5V) = 2.40 [updated 9/15/2023; V-Rc=2.65, V-Ic=5.05]
+
+(V-Ic)(L0.5V) =  4.82 ; 2MASS 0428-2253 (RECONS)
+(V-Ic)(L0.5V) =  4.89 ; 2MASS 0428-2253 (Dieterich14)
+(V-Ic)(L0.5V) =  5.00 ; 2MASS 1705-0516 AB (RECONS, Dieterich14)
+(V-Ic)(L0.5V) = 5.05 ; trend Dieterich14 SpT vs. V-I
+(V-Ic)(L0.5V) =  5.16 ; 2MASS 0451-3402 (RECONS)
+(V-Ic)(L0.5V) =  5.27 ; 2M0451-3402 (Dieterich14)
+=> adopt (V-Ic)(L0.5V) = 5.05 [updated 9/15/2023; V-Rc=2.65, R-Ic=2.4]
 
 (J-H)(L0.5V)   = 0.780 (+-0.14 rms); SIMBAD d<30pc trend for Ldwarfs
 => adopt (J-H)(L0.5V) = 0.78 [updated 8/6/2020]
@@ -42,7 +54,7 @@ V-Ks(L0.5V) = 9.11 ; 2MASS J17073334+4301304 L0.5 Dahn17
 (G-V)(L0.5V)   = -3.2929 ; pri. stan. 2MASS J07464256+2000321
 
 (r-i)(L0.5V) = 2.38 (+-0.19 rms; N=10) ; Cifuentes20
-=> adopt (r-i)(L0.5V) = 2.38 [updated 9/1/2023]
+=> adopt (r-i)(L0.5V) = 2.38 [updated 9/15/2023]
 
 Mv(L0.5V) =  20.49 ; 2MA1705-0516AB (Dieterich14)
 Mv(L0.5V) =  20.37 ; 2MA0428-2253 (Dieterich14)

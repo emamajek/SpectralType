@@ -3,11 +3,13 @@ L9V
 Kirkpatrick05 did not list a L9 standard (gap between L8 and T0)
 
 Kirkpatrick09 writes "The optical L-dwarf sequence presently ends at
-L8; there are no bjects yet identified with optical types of L8.5, L9,
+L8; there are no objects yet identified with optical types of L8.5, L9,
 L9.5. Just beyond L8 there is an abrupt change in spectral morphology
 in the optical leading to the cooler dwarfs of type T."
 
-Kirkpatrick10 standard:   2MASS J02550357−4700509 - L9V (primary near-IR standard)
+However Kirkpatrick10 has a L9V primary near-IR standard but it is L8 in the optical (Kirpatrick08).
+
+Kirkpatrick10 standard: 2MASS J02550357−4700509 - L9V (primary near-IR standard)
 
 (V-Ks)(L9V) = 11.363 ; pri. stan. 2MASS J02550357−4700509
 
@@ -16,9 +18,6 @@ Kirkpatrick10 standard:   2MASS J02550357−4700509 - L9V (primary near-IR stand
 (V-Ic)(L9V) = 5.467 ; pri. stan. 2MASS J02550357−4700509
 
 (G-Ks)(L9V) = 7.04 ; pri. stan. 2MASS J02550357−4700509
-
- M_Ks=13.121+-0.024. Mv=24.484+-0.121,
-    M_G = 20.162+-0.004, M_J=14.809+-0.027.
 
 Mv(L9V)     = 24.48  ; pri. stan. 2MASS J02550357−4700509
 
@@ -36,11 +35,14 @@ M_H(L9V)    = 13.483 ; Reyle18 polynomial
 (G-J)(L9V)  =  5.655 ; Reyle18 polynomial
 (J-Ks)(L9V) =  1.769 ; Reyle18 polynomial
 
+(J-H)(L9V)  = 1.042+-0.036 ; pri. stan. 2MASS J02550357-4700509 (Kirkpatrick10,near-IR)
 (J-H)(L9V)  = 1.177 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
 => adopt (J-H)(L9V) = 1.18 [updated 8/6/2020]
 
 (H-Ks)(L9V)= 0.589 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
 => adopt (H-Ks)(L9V) = 0.59 [updated 8/6/2020]
+
+(J-Ks)(L9V) = 1.688+-0.036 ; pri. stan. 2MASS J02550357-4700509 (Kirkpatrick10,near-IR)
 
 (Ks-W1)(L9V) = 0.855 ; Dupuy12 median N=4 d<50pc
 (Ks-W1)(L9V) = 0.793 ; Dupuy12 trend
@@ -51,7 +53,7 @@ M_K(MKO)(L9V)=13.0971 ; SDSS_1043+1213 calc using Kirkpatrick20 (plx=59.9mas)
 M_K(MKO)(L9V)=13.1129 ; WISE_0049+0441 calc using Kirkpatrick20 (plx=62.6mas)
 M_K(MKO)(L9V)=13.1222 ; DENIS_0255-4700 calc using Kirkpatrick20 (plx=205.3266mas)
 
-M_Ks(L9V)=  11.5673 ; 2MASS_0755-3259 calc using Kirkpatrick20 (plx=40.5mas)
+M_Ks(L9V)=  11.5673 ; 2MASS_J0755-3259 calc using Kirkpatrick20 (plx=40.5mas)
 M_Ks(L9V)=  11.9044 ; WISE_1851+5935 calc using Kirkpatrick20 (plx=48.8523mas)
 M_Ks(L9V)=  12.5867 ; 2MASS_1043+2225 calc using Kirkpatrick20 (plx=52.4mas)
 M_Ks(L9V)=  12.7753 ; PSO_0031+3335 calc using Kirkpatrick20 (plx=45.4mas)
@@ -100,19 +102,32 @@ Rad(L9V) = 0.08774 Rsun ; logL=-4.612, Teff=1370K
 
 # Standards
 
-2MASS J02550357−4700509 = DENIS J025503.3-470049 = 2MUCD 10158 
-    L9V: Kirkpatrick10(pri.near-IR.stan),Schneider14
+DENIS J025503.3-470049 = 2MASS J02550357−4700509 = 2MUCD 10158
+  L7.5: Costa06
+  L8: Cruz03,Cruz07,Kirkpatrick08(opt),Burgasser10(opt)
+ *L9V: Burgasser06,Kirkpatrick10(pri.near-IR.stan),Burgasser10(L9.0,near-IR),Schneider14
 
-    Very nearby: plx=205.4251+-0.1857mas(GaiaEDR3).
-    V=22.921+-0.121(Costa06), R=19.906+-0.039(Costa06),
-    I=17.454+-0.031(Costa06), J=13.246+-0.027(2M),
-    H=12.204+-0.024(2M), Ks=11.558+-0.024(2M) => V-Ks = 22.921 -
-    11.558 = 11.363.  V-R = 22.921 - 19.906 = 3.015.  V-I = 22.921 -
-    17.454 = 5.467.  G=18.598427 0.003844, E(Bp/Rp)=2.089,
-    Bp-Rp=4.873310, Bp-G=3.154938, G-Rp=1.718372.  G-Ks = 18.598 -
-    11.558 = 7.04. M_Ks=13.121+-0.024. Mv=24.484+-0.121,
-    M_G = 20.162+-0.004, M_J=14.809+-0.027.
-    Teff: 1290+-78K(Kirkpatrick20). 
+  Very nearby late L dwarf first reported by Martin99, and while
+  initially classified L7.5 or L8 in optical, Kirkpatrick adopted it
+  as L9V standard in the near-IR. Costa06 says it is "the closest
+  known L dwarf... with Mv = 24.44, the faintest dwarf with a measured
+  absolute visual magnitude." Lum = 0.00010140 Lsun (Ardila10) => logL
+  = -3.994. Mv = 24.44+-0.13 (using Costa06
+  #s). V=22.921+-0.121(Costa06,Henry18),
+  Rc=19.906+-0.039(Costa06,Henry18), Rc=20.062+-0.033(Liebert06),
+  (R-Ic)=2.827(Liebert06), Ic=17.21(Koen13#1),
+  Ic=17.235+-0.011(Liebert06), Ic=17.454+-0.031(Costa06,Henry18),
+  I_DENIS=17.14(Martin99), Y=14.32+-0.10(Leggett10),
+  J=13.246+-0.027(2M), H=12.204+-0.024(2M), Ks=11.558+-0.024(2M) =>
+  V-Ks = 22.921 - 11.558 = 11.363.  V-R = 22.921 - 19.906 = 3.015.
+  V-I = 22.921 - 17.454 = 5.467.  GaiaDR3: G=18.598427 0.003844,
+  E(Bp/Rp)=2.089, Bp-Rp=4.873310, Bp-G=3.154938, G-Rp=1.718372.  G-Ks
+  = 18.598 - 11.558 = 7.04. Parallaxes: plx=201.37+-3.89mas(Costa06),
+  plx=205.4251+-0.1857mas(GaiaDR3).
+  Mv=24.484+-0.121(Costa06,GaiaDR3), M_G = 20.136+-0.004(GaiaDR3),
+  M_Ks=13.121+-0.024(2MASS,GaiaDR3), M_J=14.809+-0.027(2MASS,GaiaDR3).
+  Teff: 1290+-78K(Kirkpatrick20).
+
 
 # Others
 

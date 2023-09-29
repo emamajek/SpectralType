@@ -7,14 +7,14 @@ upon as M1V.
 
 KeenanMcNeil76 standard:        GJ 229 - M1V
 Keenan80 standard:              GJ 191  (= Kapteyn's star) - M1pVI
-                                GJ 617A (=HD 147379) - M1-V
+                                GJ 617A (= HD 147379) - M1-V
 Keenan83 standard:              GJ 191  (= Kapteyn's star) - M1pVI
-				HD 197481 (=AU Mic) - M1Ve Ba1
+				GJ 803  (= HD 197481, AU Mic) - M1Ve Ba1
 Keenan85 standard:              GJ 191  (= Kapteyn's star) - M1pVI
 Keenan88 standard:              GJ 191  (= Kapteyn's star) - M1pVI
-                                GJ 617A (=HD 147379) - M1-Ve
+                                GJ 617A (= HD 147379) - M1-Ve
 Keenan89 standard:              GJ 191  (= Kapteyn's star) - M1pVI
-                                GJ 617A (=HD 147379) - M1-eV 
+                                GJ 617A (= HD 147379) - M1-eV 
 Kirkpatrick91 standard:         GJ 229A  - M1V
 Keenan99 standard:              GJ 191  (= Kapteyn's star) - M1pVI 
 Hawley02 standard:              GJ 1141B - M1V (from Reid95) 
@@ -64,6 +64,7 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 
 (B-V)(M1V) = 1.419 ; ter. stan. GJ 424 (metal poor)
 <B-V>(M1V) = 1.438 ; 18 Gray03/06 stars (+-0.011 sem, +-0.035 stdev)
+(B-V)(M1V) = 1.458 ; MS color trend for V-Ks=3.92
 (B-V)(M1V) =   1.46  ; SchmidtKaler82
 <B-V>(M1V) =   1.47  ; Fitzgerald70
 <B-V>(M1V) =   1.47  ; ShayaOlling11
@@ -77,44 +78,59 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 (B-V)(M1V) = 1.484 ; pri. stan. GJ 229A ; d<8 pc sample
 (B-V)(M1V) = 1.488 ; mean of 4 M1V stars within 8 pc from Kirkpatrick12
 (B-V)(M1V) = 1.490 ; median Koen10 d<25pc M1V
-(B-V)(M1V) = 1.491 ; sec. stan. GJ 412A ; d<8 pc sample
 (B-V)(M1V) =   1.492 ; Reid CNS3 sample M1 median value (N=34)
-(B-V)(M1V) = 1.493 ; sec. stan. GJ 514 ; d<8 pc sample
+(B-V)(M1V) = 1.497 ; sec. stan. GJ 514 ; d<8 pc sample
+(B-V)(M1V) = 1.54  ; sec. stan. GJ 412A = HIP 54211 ([Fe/H]~-0.4)
 => adopt (B-V)(M1V) = 1.485 [updated 8/13/2020]
 
+(U-B)(M1V) = 1.227 ; pri. stan. GJ 229 
 (U-B)(M1V) =  1.22  ; Johnson65,Johnson66
 (U-B)(M1V) =  1.21  ; JohnsonMorgan53
-(U-B)(M1V) =  1.191 ; Reid CNS3 sample M1 median value (N=14)
+(U-B)(M1V) = 1.204 ; sec. stan. GJ 514 = HIP 65859 = LHS 352
+(U-B)(M1V) = 1.191 ; Reid CNS3 sample M1 median value (N=14)
+(U-B)(M1V) = 1.175 ; sec. stan. GJ 412A = HIP 54211 = Lal 21258
+(U-B)(M1V) = 1.174 ; MS color trend for V-Ks=3.92
 (U-B)(M1V) = 1.08  ; ter. stan. GJ 424 (metal poor)
+=> adopt (U-B)(M1V) = 1.18 [updated 9/15/2023]
 
+(V-Rc)(M1V) = 0.875 ; MS color trend for V-Ks=3.92 (but seems suprisingly blue?)
 (V-Rc)(M1V) =  0.94 ; Bessell91 "old disk"
+(V-Rc)(M1V) = 0.93  ; ter. stan. GJ 424 = HIP 55360 = SZ UMa (see below)
 (V-Rc)(M1V) = 0.94  ; The84  
-(V-Rc)(M1V) = 0.959 ; sec. stan. GJ 514
+(V-Rc)(M1V) = 0.959 ; sec. stan. GJ 514 = HIP 65859 
 (V-Rc)(M1V) =  0.960 ; Reid CNS3 sample M1 median value (N=34)
-(V-Rc)(M1V) = 0.960 ; pri. stan. GJ 229A = HD 42581
-=> adopt (V-Rc)(M1V)  = 0.96 [updated 9/1/2023]
-=> adopt (Rc-Ic)(M1V) = 1.05 [updated 7/15/2023]
+(V-Rc)(M1V) = 0.961 ; pri. stan. GJ 229A = HD 42581
+(V-Rc)(M1V) = 0.99  ; sec. stan. GJ 412A = HIP 54211 ([Fe/H]~-0.4)
+=> adopt (V-Rc)(M1V) = 0.96 [updated 9/15/2023; V-Ic=2.01, R-Ic=1.05]
 
 (V-Rj)(M1V) =  1.40  ; Johnson65
 
+(R-Ic)(M1V) = 0.845 ; MS color trend for V-Ks=3.92 (but seems surprisingly blue?)
+(R-Ic)(M1V) = 0.934 ; sec. stan. GJ 424 = HIP 55360 = SZ UMa (see below)
 (R-Ic)(M1V) =  1.00  ; The84 (V-Ic)=1.94, (V-Rc)=0.94 
 (R-Ic)(M1V) =  1.02  ; Bessell91 "old disk"
+(R-Ic)(M1V) = 1.043 ; pri. stan. GJ 229A = HD 42581
+(R-Ic)(M1V) = 1.05  ; (V-Ic)=2.01, V-Rc=0.96
+(R-Ic)(M1V) = 1.08  ; sec. stan. GJ 412A = HIP 54211 ([Fe/H]~-0.4)
 (R-Ic)(M1V) =  1.089 ; Reid CNS3 sample M1 median value (N=34)
+=> adopt (R-Ic)(M1V) = 1.05 [updated 9/15/2023; V-Ic=2.01, V-Rc=0.96]
 
-(V-I)(M1V)  = 1.70 ; ter. stan. GJ 424 (metal poor)
-<V-Ic>(M1V) = 1.841 (+-0.032 sem, +-0.117 stdev; Gray01/03/06 N=18)
+(V-Ic)(M1V) = 1.70 ; ter. stan. GJ 424 (metal poor)
+(V-Ic)(M1V) = 1.720 ; MS color trend for V-Ks=3.92 (but seems too blue?)
+(V-Ic)(M1V) = 1.841 (+-0.032 sem, +-0.117 stdev; Gray01/03/06 N=18)
+(V-Ic)(M1V) = 1.864 ; ter. stan. GJ 424 = HIP 55360 = SZ UMa (see below)
 (V-Ic)(M1V) =  1.94 ; The84 
 (V-Ic)(M1V) =  1.96 ; Bessell91 "old disk"
 (V-Ic)(M1V) = 2.004 ; pri. stan. GJ 229A = HD 42581
-(V-Ic)(M1V) = 2.016 ; sec. stan. GJ 514 
+(V-Ic)(M1V) = 2.016 ; sec. stan. GJ 514 = HIP 65859 
 (V-Ic)(M1V) = 2.02  ; exemplar GJ 887 = Lac 9352
-<V-Ic>(M1V) = 2.020 (+-0.010 sem, +-0.017 stdev; N=3 standards)
 (V-Ic)(M1V) =  2.053 ; Reid CNS3 sample M1 median value (N=35)
+(V-Ic)(M1V) = 2.06  ; sec. stan. GJ 412A = HIP 54211 ([Fe/H]~-0.4)
 (V-Ic)(M1V) =  2.08 ; Hawley96
-<V-I>(M1V)  =  2.45 ; Johnson66
-=> adopt (V-Ic)(M1V) = 2.01 [updated 9/1/2023]
+=> adopt (V-Ic)(M1V) = 2.01 [updated 9/15/2023; V-Rc=0.96, R-Ic=1.05]
 
-(V-Ij)(M1V) = 2.45 ; Johnson65
+(V-Ij)(M1V) =  2.45 ; Johnson65
+(V-Ij)(M1V) =  2.45 ; Johnson66
 
 (V-Jj)(M1V)  = 3.06 ; Johnson65,Johnson66
 
@@ -123,27 +139,19 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 
 (V-Kj)(M1V)    =  3.95 ; Johnson65,Johnson66
 
-<V-K_CIT>(M1V) =  3.76 ; Beuermann06
-(V-Ks)(M1V)    = 3.780 ; ter. stan. GJ 424 (metal poor)
-(V-Ks)(M1V)    =  3.854 ; pri. stan. GJ 229A (predicted from V-J color)
-(V-K)(M1V)     =  3.86 ; Bessell91 "old disk"
-(V-Ks)(M1V)    = 3.910 ; trend for K/M dwarf standards & exemplars
-(V-Ks)(M1V)    = 3.932 ; exemplar GJ 809 = HD 199305
-(V-K)(M1V)     =  4.0  ; Hawley96
-(V-Ks)(M1V)    = 4.002 ; exemplar GJ 887 = Lacaille 9352 
-(V-Ks)(M1V)    =  4.010 ; pri. stan. GJ 229A (predicted from V-I color)
-(V-Ks)(M1V)    = 4.014 ; sec. stan. GJ 514
-(V-Ks)(M1V)    = 4.02  ; exemplar GJ 212
-(V-Ks)(M1V)    = 4.051 ; sec. stan. GJ 412A
-(V-Ks)(M1V)    =  4.052 ; Reid CNS3 sample M1 median value (N=33) 
-(V-Ks)(M1V)    =  4.10  ; pri. stan. GJ 229A (predicted from B-V color)
-(V-Ks)(M1V)    =  4.25  ; pri. stan. GJ 229A
-=> adopt (V-Ks)(M1V) = 4.00  [last updated (all) 4/9/2020]
-=> adopt (B-V)(M1V)  = 1.473
-=> adopt (U-B)(M1V)  = 1.172
-=> adopt (V-I)(M1V)  = 2.005
-=> adopt (V-R)(M1V)  = 0.956
-=> adopt (R-I)(M1V)  = 1.049
+<V-K_CIT>(M1V) =   3.76 ; Beuermann06
+(V-Ks)(M1V)    =  3.780 ; ter. stan. GJ 424 (metal poor)
+(V-K)(M1V)     =   3.86 ; Bessell91 "old disk"
+(V-Ks)(M1V)    =  3.910 ; trend for K/M dwarf standards & exemplars
+(V-Ks)(M1V)    =  3.917 ; pri. stan. GJ 229A = HD 42581 = HIP 29295 
+(V-Ks)(M1V)    =  3.932 ; exemplar GJ 809 = HD 199305
+(V-K)(M1V)     =   4.0  ; Hawley96
+(V-Ks)(M1V)    =  4.00  ; sec. stan. GJ 412A = HIP 54211 ([Fe/H]~-0.4)
+(V-Ks)(M1V)    =  4.002 ; exemplar GJ 887 = Lacaille 9352 
+(V-Ks)(M1V)    =  4.007 ; sec. stan. GJ_514 = HIP 65859 
+(V-Ks)(M1V)    =  4.02  ; exemplar GJ 212
+(V-Ks)(M1V)    =   4.052 ; Reid CNS3 sample M1 median value (N=33) 
+=> adopt (V-Ks)(M1V) = 3.92  [updated 9/15/2023] 
 => adopt (V-J)(M1V)  = 3.164
 => adopt (V-H)(M1V)  = 3.778
 => adopt (H-Ks)(M1V) = 0.222
@@ -204,50 +212,71 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 (Ks-W1)(M1V) =  0.093 ; Avenhaus12 for V-Ks=4.02
 => adopt (Ks-W1)(M1V) = 0.13 [updated 12/29/2019]
 
-(Bp-Rp)(M1V) = 1.8470 ; V*_AX_Mic   
-(Bp-Rp)(M1V) = 1.9583 ; GJ_424      ter. stan.
-(Bp-Rp)(M1V) =  2.02  ; Kiman19 
-(Bp-Rp)(M1V) = 2.0490 ; GJ_809 = HD_199305 exemplar
-(Bp-Rp)(M1V) = 2.0678 ; GJ_212      exemplar 
-(Bp-Rp)(M1V) = 2.0822 ; GJ_229A     pri. stan.
-(Bp-Rp)(M1V) = 2.0888 ; GJ_514      sec. stan.
-(Bp-Rp)(M1V) = 2.1044 ; GJ_887 = Lac 9352 exemplar
-(Bp-Rp)(M1V) = 2.1049 ; V*_BR_Psc   M1V_Fe-1
-(Bp-Rp)(M1V)=  2.1240 ; V*_AU_Mic_  M1VeBa1
-(Bp-Rp)(M1V) = 2.1275 ; HD_165222   
-(Bp-Rp)(M1V) = 2.1689 ; GJ_412A     sec. stan.
-=> adopt (Bp-Rp)(M1V) = 2.09 [updated 11/18/2020]
+(Bp-Rp)(M1V) =  1.8470 ; V*_AX_Mic (GaiaDR2)
+(Bp-Rp)(M1V) = 1.9516 ; ter. stan. GJ_424 (GaiaDR3)
+(Bp-Rp)(M1V) =  1.9583 ; ter. stan. GJ_424 (GaiaDR2)  
+(Bp-Rp)(M1V) =   2.02  ; Kiman19  (GaiaDR2) 
+(Bp-Rp)(M1V) =  2.0490 ; exemplar GJ_809 = HD_199305 (GaiaDR2) 
+(Bp-Rp)(M1V) =  2.0678 ; exemplar GJ_212  (GaiaDR2)
+(Bp-Rp)(M1V) = 2.0743 ; pri. stan. GJ_229A (GaiaDR3)
+(Bp-Rp)(M1V) =  2.0822 ; pri. stan. GJ_229A  (GaiaDR2)
+(Bp-Rp)(M1V) = 2.0879 ; sec. stan. GJ_514 (GaiaDR3)
+(Bp-Rp)(M1V) =  2.0888 ; sec. stan. GJ_514  (GaiaDR2)
+(Bp-Rp)(M1V) = 2.1042 ; sec. stan. GJ_412A (GaiaDR3)
+(Bp-Rp)(M1V) =  2.1044 ; exemplar eGJ_887 = Lac 9352 (GaiaDR2) 
+(Bp-Rp)(M1V) =  2.1049 ; V*_BR_Psc   M1V_Fe-1 (GaiaDR2) 
+(Bp-Rp)(M1V)=   2.1240 ; V*_AU_Mic_  M1VeBa1 (GaiaDR2) 
+(Bp-Rp)(M1V) =  2.1275 ; HD_165222  (GaiaDR2) 
+(Bp-Rp)(M1V) =  2.1689 ; sec. stan. GJ_412A  (GaiaDR2)
+=> adopt (Bp-Rp)(M1V) = 2.07 [updated 9/15/2023] (GaiaDR3; Bp-G=1.05, G-Rp=1.02)
+=> adopt (Bp-Rp)(M1V) = 2.09 [updated 11/18/2020] (GaiaDR2)
 
-(G-Rp)(M1V) =  0.9218 ; V*_AX_Mic   M1V
-(G-Rp)(M1V) =  0.9623 ; GJ_424      ter. stan.
-(G-Rp)(M1V) =  0.9918 ; GJ_809 = HD_199305 exemplar 
-(G-Rp)(M1V) =  0.9969 ; GJ_212      exemplar
-(G-Rp)(M1V) = 1.000  ; color trend M0V-M9V 
-(G-Rp)(M1V) =  1.0032 ; GJ_229A     pri. stan.
-(G-Rp)(M1V) =   1.01  ; Kiman19 
-(G-Rp)(M1V) =  1.0105 ; GJ_514      sec. stan.
-(G-Rp)(M1V) =  1.0109 ; GJ_887 = Lac 9352 exemplar 
-(G-Rp)(M1V) =  1.0170 ; V*_BR_Psc   M1V_Fe-1
-(G-Rp)(M1V) =  1.0224 ; HD_165222   M1V
-(G-Rp)(M1V) =  1.0283 ; V*_AU_Mic_  M1VeBa1
-(G-Rp)(M1V) =  1.0901 ; GJ_412A     sec. stan.
-=> adopt (G-Rp)(M1V) = 1.00 [updated 11/18/2020]
-=> adopt (Bp-G)(M1V) = 1.09 [last updated 11/18/2020; Bp-Rp=2.09, G-Rp=1.00]
+(G-Rp)(M1V) =   0.9218 ; V*_AX_Mic M1V (GaiaDR2)
+(G-Rp)(M1V) =   0.9623 ; ter. stan. GJ_424 (GaiaDR2)
+(G-Rp)(M1V) = 0.9815 ; ter. stan. GJ_424 (GaiaDR3)
+(G-Rp)(M1V) =   0.9918 ; exemplar GJ_809 = HD_199305 (GaiaDR2)
+(G-Rp)(M1V) =   0.9969 ; exemplar GJ_212 (GaiaDR2) 
+(G-Rp)(M1V) =   1.000  ; color trend M0V-M9V (GaiaDR2)
+(G-Rp)(M1V) =   1.0032 ; pri. stan. GJ_229A (GaiaDR2) 
+(G-Rp)(M1V) =    1.01  ; Kiman19  (GaiaDR2)
+(G-Rp)(M1V) =   1.0105 ; sec. stan. GJ_514 (GaiaDR2) 
+(G-Rp)(M1V) =   1.0109 ; exemplar GJ_887 = Lac 9352 (GaiaDR2)
+(G-Rp)(M1V) =   1.0170 ; V*_BR_Psc M1V_Fe-1 (GaiaDR2)
+(G-Rp)(M1V) = 1.0219 ; pri. stan. GJ_229A (GaiaDR3)
+(G-Rp)(M1V) =   1.0224 ; HD_165222 M1V (GaiaDR2)
+(G-Rp)(M1V) = 1.0265 ; sec. stan. GJ_514 (GaiaDR3)
+(G-Rp)(M1V) =   1.0283 ; V*_AU_Mic M1VeBa1 (pre-MS) (GaiaDR2)
+(G-Rp)(M1V) = 1.0348 ; sec. stan. GJ_412A (GaiaDR3)
+(G-Rp)(M1V) =   1.0901 ; sec. stan. GJ_412A (GaiaDR2)
+=> adopt (G-Rp)(M1V) = 1.02 [updated 9/15/2023] (GaiaDR3; Bp-G=1.05, Bp-Rp=2.07)
+=> adopt (G-Rp)(M1V) = 1.00 [updated 11/18/2020] (GaiaDR2)
 Note: pri. stan. GJ 229A appears to have Gaia colors similar to median of other M1Vs
 
-(Bp-G)(M1V) = 1.00 ; Kiman19 
+(Bp-G)(M1V) =  1.00 ; Kiman19 (GaiaDR2)
+(Bp-G)(M1V) = 0.9700 ; ter. stan. GJ_424 (GaiaDR3)
+(Bp-G)(M1V) = 1.0524 ; pri. stan. GJ_229A (GaiaDR3)
+(Bp-G)(M1V) = 1.0614 ; sec. stan. GJ_514 (GaiaDR3)
+(Bp-G)(M1V) = 1.0694 ; sec. stan. GJ_412A (GaiaDR3)
+=> adopt (Bp-G)(M1V) = 1.05 [updated 9/15/2023] (GaiaDR3; Bp-Rp=2.07, G-Rp=1.02]
+=> adopt (Bp-G)(M1V) = 1.09 [updated 11/18/2020] (GaiaDR2; Bp-Rp=2.09, G-Rp=1.00]
 
-(G-V)(M1V) = -0.8516 ; GJ_412A
-(G-V)(M1V) = -0.828  ; exemplar GJ 887 = Lacaille 9352
-(G-V)(M1V) = -0.827  ; B-V vs G-V fit from Pancino22 for B-V=1.485
-(G-V)(M1V) = -0.825  ; trend Kervella19 d<25pc for V-Ks=4.0
-(G-V)(M1V) = -0.8228 ; GJ_514  
-(G-V)(M1V) = -0.8178 ; GJ_229A
-(G-V)(M1V) = -0.812  ; V-Ic vs G-V fit from Pancino22 for V-Ic=2.005
-(G-V)(M0V) = -0.808  ; polynomial fit to SIMBAD d<25pc M dwarfs
-(G-V)(M1V) = -0.796  ; median M1V d<60pc (N=182)
-(G-V)(M1V) = -0.79   ; GJ_424
-=> adopt (G-V)(M1V) = -0.82 [updated 11/15/2022]
+(G-V)(M1V) =  -0.8516 ; sec. stan. GJ_412A (GaiaDR2)
+(G-V)(M1V) = -0.8380 ; sec. stan. GJ_514 (GaiaDR3)
+(G-V)(M1V) = -0.8293 ; sec. stan. GJ_412A (GaiaDR3)
+(G-V)(M1V) =  -0.828  ; exemplar GJ 887 = Lacaille 9352 (GaiaDR2)
+(G-V)(M1V) =  -0.827  ; B-V vs G-V fit from Pancino22 for B-V=1.485 (GaiaDR2)
+(G-V)(M1V) =  -0.825  ; trend Kervella19 d<25pc for V-Ks=4.0 (GaiaDR2)
+(G-V)(M1V) =  -0.8228 ; sec. stan. GJ_514 (GaiaDR2)  
+(G-V)(M1V) =  -0.8178 ; pri. stan. GJ_229A (GaiaDR2)
+(G-V)(M1V) =  -0.812  ; V-Ic vs G-V fit from Pancino22 for V-Ic=2.005 (GaiaDR2)
+(G-V)(M1V) = -0.8115 ; pri. stan. GJ_229A (GaiaDR3)
+(G-V)(M0V) =  -0.808  ; polynomial fit to SIMBAD d<25pc M dwarfs (GaiaDR2)
+(G-V)(M1V) =  -0.796  ; median M1V d<60pc (N=182) (GaiaDR2)
+(G-V)(M1V) =  -0.79   ; ter. stan. GJ_424 (GaiaDR2)
+(G-V)(M1V) = -0.7864 ; ter. stan. GJ_424 (GaiaDR3)
+=> adopt (G-V)(M1V) = -0.82 [updated 9/15/2023] (GaiaDR3)
+=> adopt (G-V)(M1V) = -0.82 [updated 11/15/2022] (GaiaDR2)
+
 => adopt (G-Ks)(M1V) = V-Ks + G-V = 4.00 + -0.82 = 3.18 [updated 11/15/2022]
 
 (g-G)(M1V) = 1.597 (+-0.019 sem, +-0.100 stdev) ; SIMBAD M1 d<25pc (N=77)
@@ -437,23 +466,34 @@ JM53, Houk75, Keenan85, Boeshaar85, Corbally86 do not list a M1V standard.
 
 # Primary Standard
 
-GJ 229A = HD 42581 = LHS 1827 = HIP 29295 (J0610-2151)
+GJ 229A = HD 42581 = HIP 29295 = LHS 1827 = BD-21_1377 (J0610-2151)
+  M0Ve: Popper43
   M0.5V: Hawley97,Reid04
- *M1V: Boeshaar76(non-stan),KeenanMcNeil76(stan),Kirkpatrick91(pri),Henry02,Kirkpatrick(GrayCorbally09)(pri)
+ *M1V: Boeshaar76(non-stan),Cowley76(M1V(e),KeenanMcNeil76(stan),Bidelman85(M1),Stephenson86,Kirkpatrick91(pri),Henry02,Kirkpatrick(GrayCorbally09)(pri),Gaidos14(M1)
   M1/M2V: Houk88
+  M2V: Adams35,Vyssotsky56
+  M2.5V: Joy74
 
-  Secondary is famous first T dwarf GJ229B 36" away. V=8.15(HIP),
-  V=8.14(Bessell90), V=8.129+-0.008(Kilkenny98),
-  B-V=1.487+-0.008(HIP), B-V=1.484+-0.004(Kilkenny98),
+  Strong continuity in usage as M1V since Boeshaar76 and was the only
+  M1V standard in Kirkpatrick91.  Secondary is famous first T dwarf
+  GJ229B, and GJ229A itself has 2 exoplanets with orbital periods of
+  122 and 526 days. V=8.15(HIP), V=8.14(Bessell90),
+  V=8.125+-0.009(Koen02), V=8.129+-0.008(Kilkenny98,Koen02),
+  B-V=1.487+-0.008(HIP), B-V=1.484+-0.004(Kilkenny98,Koen02),
   B-V=1.482+-0.002(Koen02,Koen10), B-V=1.50(Bessell90),
-  U-B=1.227+-0.004(Mermilliod91), U-B=1.196+-0.008(Kilkenny98),
-  V-R=0.960(Bessell90), V-Rc=0.961+-0.001(Koen02),
-  V-I=2.005(Bessell90), V-I=2.012+-0.006(Kilkenny98),
-  V-Ic=2.004+-0.003(Koen02), V-I=2.01+-0.02(HIP),
-  J=5.104+-0.037(2MASS,but flag "E"), K=3.90(Matthews96).  2MASS H & K
-  are saturated. V-J=8.129-5.104=3.025(Kilkenny98 & 2MASS),
-  (V-Ks)=4.25(HIP & Matthews96). Plx=173.81+-0.99(vanLeeuwen07).  Mv =
-  9.33+-0.02 (Kilkenny98,vanLeeuwen07). M_Ks = 5.10
+  U-B=1.194+-0.005(Koen02), U-B=1.196+-0.008(Kilkenny98,Koen02),
+  U-B=1.227+-0.004(Mermilliod91), V-Rc=0.960(Bessell90),
+  V-Rc=0.960+-0.003(Kilkenny98,Koen02), V-Rc=0.961+-0.001(Koen02)
+  V-Ic=2.005(Bessell90), V-Ic=2.004+-0.003(Koen02),
+  V-Ic=2.012+-0.006(Kilkenny98,Koen02), V-I=2.01+-0.02(HIP).  2MASS H
+  & K are saturated, but J=5.104+-0.037(2MASS,but flag "E").
+  V-J=8.129-5.104=3.025(Kilkenny98 & 2MASS).  J=5.095(Mould76/Glass74
+  SAAO sys), J=5.24(Simons94), H=4.45(Simons94),
+  H=4.405(Mould76/Glass74 SAAO sys), K'=4.31(Simons94),
+  K=4.215(Mould76/Glass74 SAAO sys), Ks=4.208(Mould76/SAAO=>2MASS Ks
+  via Carpenter01), K=3.90(Matthews96).
+  (V-Ks)=3.921(Kilkenny98,Mould76/2MASS). Plx=173.81+-0.99(vanLeeuwen07).
+  Mv = 9.33+-0.02 (Kilkenny98,vanLeeuwen07). M_Ks = 5.10
   (Matthews96,vanLeeuwen07).  Mbol = 7.97+-0.09(Golimowski04),
   BC_K=2.63+-0.07(Golimowski04),
   logL=-1.29+-0.02(Golimowski04). Combining the Matthews96 Kmag,
@@ -479,28 +519,49 @@ GJ 229A = HD 42581 = LHS 1827 = HIP 29295 (J0610-2151)
   [Fe/H]=+0.01+-0.09(Kuznetzov19#2), [Fe/H]=+0.02+-0.11(Gaidos14#2),
   [Fe/H]=+0.07+-0.16(Schweitzer19), [Fe/H]=+0.11(Neves13#1),
   [Fe/H]=+0.12+-0.10(Gaidos14#1), [Fe/H]=+0.5+-0.2(Kunznetsov19#1) =>
-  <[Fe/H]> ~ -0.01, i.e. seems near solar.  Using the Matthews96 Kmag
+  <[Fe/H]> ~ -0.01, i.e. seems near solar.
+  
+        G =  7.3135+-0.0028 ; pri. stan. GJ_229A (GaiaDR3)
+  (Bp-Rp) =  2.0743 ; pri. stan. GJ_229A (GaiaDR3)
+   (Bp-G) =  1.0524 ; pri. stan. GJ_229A (GaiaDR3)
+   (G-Rp) =  1.0219 ; pri. stan. GJ_229A (GaiaDR3)
+    (G-V) = -0.8115+-0.0094 ; pri. stan. GJ_229A (GaiaDR3)
+       Mv =   9.322+- 0.009 ; pri. stan. GJ_229A (GaiaDR3)
+      M_G =  8.5109+-0.0028 ; pri. stan. GJ_229A (GaiaDR3)
+     M_Ks =   5.405 ; pri. stan. GJ_229A    
+   (V-Ks) =   3.917 ; pri. stan. GJ_229A 
+   (G-Ks) =   3.105 ; pri. stan. GJ_229A 
+
   
 # Secondary Standards
 
-GJ 412A = Lal 21258 = G 176-11 = LHS 38 = LFT 757 = HIP 54211
+GJ 412A = HIP 54211 = Lal 21258 = G 176-11 = LHS 38 = LFT 757 
   M0V: Stephenson86
   M0.5V: Morgan38,Bidelman85(M0.5),Reid95/Hawley97
- *M1V: Boeshaar76(non-stan),Henry94,Henry02,Geballe02,RojasAyala12,Lepine13(M1),Gaidos14(M1),Alonso-Floriano15(reference),Mann15
+ *M1V: Boeshaar76(non-stan),Henry94,Henry02,Geballe02,RojasAyala12,Lepine13(M1),Gaidos14(M1),Alonso-Floriano15(reference)
+  M1.1: Mann15
   M2V: Adams26,Vyssotsky43,Roman55,Joy74,Terrien15(M2)
   M3: Lee47
 
   Fairly good agreement on type since 1990s, and one of 5 M1Vs in
-  Boeshaar76.  28" binary with M8Ve star. V=8.82(HIP),
-  V=8.742+-0.015(Mermilliod91), B-V=1.491(HIP),
-  B-V=1.532+-0.019(Mermilliod91), U-B=1.175+-0.010(Mermilliod91),
-  V-I=2.01(HIP), J=5.538+-0.019(2MASS), H=5.002+-0.021(2MASS),
-  Ks=4.769+-0.020(2MASS), V-J=3.282(HIP & 2MASS), (V-Ks)=4.051(HIP &
-  2MASS). Plx=206.27+-1.00 mas(HIP2).  Mv = 10.39(HIP,vanLeeuwen07),
-  M_Ks = 6.34+-0.02(2MASS,vanLeeuwen07). mbol = 7.203+-0.029
-  (JHK=>Casagrande08) => BCv = -1.539, BC_K = 2.434, Mbol =
-  8.77(w/vanLeeuwen07 plx), logL = -1.61(w/vanLeeuwen07 plx). Teffs:
-  3512K(Houdebine10), 3537+-41K(Newton15#1),
+  Boeshaar76, however apparently somewhat metal poor ([Fe/H]~-0.4).
+  28" binary with M8Ve star. B=10.288+-0.020(Mann15/synth),
+  V=8.742+-0.015(Mermilliod91), V=8.77(Reid02),
+  V=8.778+-0.016(Mann15/synth), V=8.82(HIP) => adopt V=8.77(Reid02).
+  B-V=1.491(HIP), B-V=1.532+-0.019(Mermilliod91),
+  B-V=1.55(Sperauskas16), B-V=1.57(Reid02) => adopt B-V=1.54.
+  U-B=1.175+-0.010(Mermilliod91), Rc=7.726+-0.012(Mann15/synth),
+  Ic=6.619+-0.020(Mann15/synth). V-Rc=0.98(Reid02),
+  V-Rc=0.99(Sperauskas16), V-Rc=1.052(Mann15/synth) => adopt
+  V-Rc=0.99. V-Ic=2.01(HIP), V-Ic=2.05(Sperauskas16),
+  V-Ic=2.07(Reid02), V-Ic=2.159(Mann15/synth) => adopt V-Ic=2.06.
+  J=5.538+-0.019(2MASS), H=5.002+-0.021(2MASS),
+  Ks=4.769+-0.020(2MASS), V-J=3.282(HIP & 2MASS),
+  (V-Ks)=4.001(Reid02,2MASS).  Plx=206.27+-1.00 mas(HIP2).  Mv =
+  10.39(HIP,vanLeeuwen07), M_Ks = 6.34+-0.02(2MASS,vanLeeuwen07). mbol
+  = 7.203+-0.029 (JHK=>Casagrande08) => BCv = -1.539, BC_K = 2.434,
+  Mbol = 8.77(w/vanLeeuwen07 plx), logL = -1.61(w/vanLeeuwen07
+  plx). Teffs: 3512K(Houdebine10), 3537+-41K(Newton15#1),
   3544K(Cenarro01,Valdes04), 3600+-30K(Woolf05), 3619+-60K(Mann15#1),
   3649+-32K(Mann15#2), 3650K(Prugniel07#1), 3650K(Frasca09),
   3664+-227K(Newton15#2), 3664K(Koleva12), 3684K(RojasAyala12),
@@ -508,23 +569,42 @@ GJ 412A = Lal 21258 = G 176-11 = LHS 38 = LFT 757 = HIP 54211
   3761+-58K(Ramirez05), 3762K(Schiavon07), 3788K(Prugniel07#2),
   3948K(Wu11) => median Teff = 3664K.  Inexplicably, Katz11 lists
   [Fe/H]=0.93 - perhaps a typo.  logg=4.85(Prugniel07#1),
-  4.90(Soubiran08), 4.91(Prugniel07#2). [Fe/H]=-0.43(Prugniel07#1),
-  -0.43(Soubiran08), -0.49(Prugniel07#2). Boyajian12 reports
+  4.90(Soubiran08), 4.91(Prugniel07#2). [Fe/H]=-0.37+-0.08(Mann15),
+  [Fe/H]=-0.43(Prugniel07#1), -0.43(Soubiran08),
+  -0.49(Prugniel07#2). Boyajian12 reports
   tetLD=0.764+-0.017mas. Boyajian12+HIP2 => 0.398Rsun.
+  Rad=0.383+-0.0130Rsun(Mann15), Mass=0.3900+-0.0390Msun(Mann15),
+  fbol=3.08700+-0.04200(e-12W/m2)(Mann15).
+  
 
-GJ 514 = HIP 65859 = LHS 352 = G 063-034 = LFT 1012 (J1330+1022)
- *M1V: JM53(non-stan),Boeshaar76(non-stan),Henry94,Henry02(stan),Kirkpatrick12,Lepine13,Gaidos14
+        G =  7.9127+-0.0028 ; sec. stan. GJ_412A (GaiaDR3)
+  (Bp-Rp) =  2.1042 ; sec. stan. GJ_412A (GaiaDR3)
+   (Bp-G) =  1.0694 ; sec. stan. GJ_412A (GaiaDR3)
+   (G-Rp) =  1.0348 ; sec. stan. GJ_412A (GaiaDR3)
+    (G-V) = -0.8293+-0.0153 ; sec. stan. GJ_412A (GaiaDR3)
+       Mv =  10.289+- 0.015 ; sec. stan. GJ_412A (GaiaDR3)
+      M_G =  9.4596+-0.0028 ; sec. stan. GJ_412A (GaiaDR3)
+     M_Ks =   6.316+- 0.020 ; sec. stan. GJ_412A    
+   (V-Ks) =   3.973+- 0.025 ; sec. stan. GJ_412A  
+   (G-Ks) =   3.144+- 0.020 ; sec. stan. GJ_412A  
+
+
+GJ 514 = HIP 65859 = LHS 352 = G 063-034 = LFT 1012 = 2MASS J13295979+1022376 (J1330+1022)
+  M0V: Stephenson86
+  M0.5V: Joy74,Reid95,Hawley97
+ *M1V: JM53(non-stan),Boeshaar76(non-stan),Bidelman85(M1),Henry94(stan),Henry02(stan),Kirkpatrick12,Lepine13,Gaidos14
   M1.1: Mann15
   M1.62: Terrien15
-  M0.5V: Hawley97
+  M2V: Vyssotsky46,Lee47(M2)
 
   One of three non-standard M1V stars in JohnsonMorgan53, later
   adopted by Henry02 as a M1V standard (and the only one that survives
   as a M1V standard that is single - GJ15A is now M1.5V, and GJ 414 is
-  a tight binary). V=9.05(HIP), V=9.048+-0.008(Mermilliod91),
-  V=9.029(Koen10), U-B=1.228+-0.017(Mermilliod91), U-B=1.204(Koen10),
+  a tight binary). V=9.029(Koen10), V=9.043268(GaiaDR3/synth),
+  V=9.048+-0.008(Mermilliod91), V=9.05(HIP),
+  U-B=1.228+-0.017(Mermilliod91), U-B=1.204(Koen10),
   B-V=1.493+-0.017(HIP), B-V=1.497+-0.013(Mermilliod91),
-  V-Rc=0.959(Koen10), V-I=2.04+-0.00(HIP), V-Ic=2.016(Koen10),
+  V-Rc=0.959(Koen10), V-Ic=2.04+-0.00(HIP), V-Ic=2.016(Koen10).
   J=5.902+-0.018(2MASS), H=5.300+-0.033(2MASS),
   Ks=5.036+-0.027(2MASS), V-J=3.148(HIP & 2MASS), (V-Ks)=4.014(HIP &
   2MASS). Plx = 130.62+-1.05 mas (vanLeeuwen07). Mv = 9.63+-0.02
@@ -538,9 +618,21 @@ GJ 514 = HIP 65859 = LHS 352 = G 063-034 = LFT 1012 (J1330+1022)
   3727+-69K(Gaidos14), 3755+-30K(Mann15), 3896K(Terrien15,median) =>
   median Teff = 3670K. Rad=0.483+-0.016Rsun(Yee17).
 
+        G =  8.2053+-0.0028 ; sec. stan. GJ_514 (GaiaDR3)
+  (Bp-Rp) =  2.0879 ; sec. stan. GJ_514 (GaiaDR3)
+   (Bp-G) =  1.0614 ; sec. stan. GJ_514 (GaiaDR3)
+   (G-Rp) =  1.0265 ; sec. stan. GJ_514 (GaiaDR3)
+    (G-V) = -0.8380+-0.0028 ; sec. stan. GJ_514 (GaiaDR3)
+       Mv =   9.631+- 0.000 ; sec. stan. GJ_514 (GaiaDR3)
+      M_G =  8.7933+-0.0028 ; sec. stan. GJ_514 (GaiaDR3)
+     M_Ks =   5.624+- 0.027 ; sec. stan. GJ_514     
+   (V-Ks) =   4.007+- 0.027 ; sec. stan. GJ_514
+   (G-Ks) =   3.169+- 0.027 ; sec. stan. GJ_514
+
+
 # Tertiary Standard
 
-GJ 424 = SZ UMa = LHS 41 = BD+66_717 = HIP 55360 = TYC 4152-272-1
+GJ 424 = HIP 55360 = SZ UMa = LHS 41 = BD+66_717 = TYC 4152-272-1
   M0: Hawley97
   M0.5: Lepine13
  *M1V: Adams35,Morgan38,JM53(non-standard),Herbig60,Boeshaar76(non-stan),Bidelman85,Delfosse98,Jenkins09,Kirkpatrick10(pri.stan),McLean12,Reiners12,Gaidos14,Newton14(near-IR)
@@ -548,19 +640,23 @@ GJ 424 = SZ UMa = LHS 41 = BD+66_717 = HIP 55360 = TYC 4152-272-1
   M2: Vyssotsky43,Stephenson86
   M3: Lee47
 
-  One of three M1V non-standard stars in JohnsonMorgan53 (with GJ 15A, GJ 514). 
-  A few knocks: it is a tight binary, and it is metal poor (and high
-  velocity), and slightly bluer than the other standards, but there is
-  good modern agreement on M1V type and Kirkpatrick10 considers it a
-  standard.  WDS reports it as binary star TAM 1 (Tamazian), 0.1"
-  separation mag1=9.36, mag2=13.06 M0V+M4.5.
-  V=9.31(HIP),V=9.32(Morel78), V=9.314+-0.015(Mermilliod91),
-  U=11.82(Morel78), B=10.74(Morel78), R_J=7.95(Morel78),
-  I_J=6.94(Morel78), J_J=6.68(Morel78), K_J=5.43,5.52(Morel78),
-  L=5.30(Morel78), H=5.71(Morel78). B-V=1.412+-0.018(HIP),
+  One of three M1V non-standard stars in JohnsonMorgan53 (with GJ 15A,
+  GJ 514), and Kirkpatrick10 adopted it as a standard.  A few knocks:
+  it is a tight binary, and it is metal poor (and high velocity), and
+  slightly bluer than the other standards, however there are numerous
+  studies that considered it M1. WDS reports it as binary star TAM 1
+  (Tamazian), 0.1" separation (Porb~2.5yr; WDS): mag1=9.36, mag2=13.06
+  M0V+M4.5 (unresolved in GaiaDR3).  V=9.31(HIP),V=9.32(Morel78),
+  V=9.314+-0.015(Mermilliod91), U=11.82(Morel78), B=10.74(Morel78),
+  R_J=7.95(Morel78), I_J=6.94(Morel78), J_J=6.68(Morel78),
+  K_J=5.43,5.52(Morel78), L=5.30(Morel78),
+  H=5.71(Morel78). B-V=1.412+-0.018(HIP),
   B-V=1.419+-0.009(Mermilliod91), U-B=1.080+-0.000(Morel78),
   V-I=1.70+-0.05(HIP), J=6.306+-0.018(2MASS), H=5.730+-0.020(2MASS),
-  Ks=5.534+-0.017(2MASS). V-Ks=3.780+-0.023,
+  Ks=5.534+-0.017(2MASS). V-Rj = 9.314 - 7.95 = 1.364 => convert
+  Johnson->Cousins via Fernie83 => (V-Rc)=0.930, Rc=8.384. V-Ij =
+  9.314 - 6.94 = 2.374 => convert Johnson->Cousins via Fernie83 =>
+  (V-Ic)=1.864, Ic=7.450.  V-Ks=3.780+-0.023,
   Hp=9.3513+-0.0025. plx=112.13+-1.03(vanLeeuwen07), plx=109.65+-0.79
   (GaiaDR1) => Mv=9.514+-0.022(Mermilliod91,GaiaDR1),
   M_Ks=5.734+-0.023(2MASS,GaiaDR1). logL=-1.38+-0.06(Newton15),
@@ -568,8 +664,20 @@ GJ 424 = SZ UMa = LHS 41 = BD+66_717 = HIP 55360 = TYC 4152-272-1
   [Fe/H]=-0.52, -0.70(Newton14). Motion is ~3"/year! Teffs:
   3348K(Leger15), 3576K(Alonso96), 3586+-51K(Ramirez05),
   3640K(Lepine13), 3729+-79K(Newton15), 3800K(Stelzer13),
-  3888+-105K(Gaidos14) => Teff=3640K.
-  G=8.5240 0.0008, Bp-Rp=1.9583, Bp-G=0.9960, G-Rp=0.9623.
+  3888+-105K(Gaidos14) => Teff=3640K.  G=8.5240 0.0008, Bp-Rp=1.9583,
+  Bp-G=0.9960, G-Rp=0.9623.
+  
+        G =  8.5276+-0.0028 ; GJ_424 (GaiaDR3)
+  (Bp-Rp) =  1.9516 ; GJ_424 (GaiaDR3)
+   (Bp-G) =  0.9700 ; GJ_424 (GaiaDR3)
+   (G-Rp) =  0.9815 ; GJ_424 (GaiaDR3)
+    (G-V) = -0.7864+-0.0153 ; GJ_424 (GaiaDR3)
+       Mv =   9.526+- 0.015 ; GJ_424 (GaiaDR3)
+      M_G =  8.7391+-0.0028 ; GJ_424 (GaiaDR3)
+     M_Ks =   5.746+- 0.017 ; GJ_424     
+   (V-Ks) =   3.780+- 0.023 ; GJ_424
+   (G-Ks) =   2.994+- 0.017 ; GJ_424
+
 
 # Exemplars
 
@@ -738,8 +846,28 @@ GJ 570BC = LHS 386 = HD 131976 = BD-20 4123 = Lalande 27173BC
 
 # Variants
 
-GJ 617A = LHS 3175 = HD 147379 = Lalande 29917 = HIP 73182
-  M1-Ve: Keenan80,Keenan88
+GJ 617A = HD 147379A = HIP 79755 = Cin 18 2184 = LHS 3175 = Lalande 29917 = Gaia DR3 1642641410934267008
+  K7: Bidelman85,Reid95
+ *M0V: Adams26,Vyssotsky46,JM53(stan),Joy74,Montes01,Cenarro09,Lepine13(M0.0V),Alonso-Floriano15
+  M1-Ve: Keenan80,Keenan89
+  M1.0V: Lafloret11(CARMENCITA),Gaidos14(M1)
+  M2: Lee47
+
+  It was "the" M0V standard in JohnsonMorgan53, but Keenan80
+  considered it 0.75 subtype later (M1-V) and kept it there. Oddly, no
+  published classifications by Kirkpatrick or Henry. Host to at least
+  one exoplanet (Hobson18, Reiners18). Wide binary in WDS with M3V
+  companion EW Dra 65" away. Slightly brighter and negligibly bluer in
+  B-V than most other M0V standards, but V-Ks color is right in the
+  middle. plx=92.8766+-0.0146mas(GaiaDR3). V=8.587(GaiaDR3/synth),
+  V=8.609+-0.034(Mermilliod91), V=8.61(HIP),
+  B-V=1.409+-0.010(HIP,Mermilliod91),
+  U-B=1.244+-0.022(Mermilliod91). J=5.779+-0.019(2MASS),
+  H=5.136+-0.034(2MASS), Ks=4.953+-0.018(2MASS).  V-Ks = 8.609 - 4.953
+  = 3.656. G=7.901774, Bp-Rp=1.832734, Bp-G=0.898146, G-Rp=0.934588.
+  Mv=8.45, M_Ks=4.79, M_G=7.74. Teff=3880+-99K(Muirhead18),
+  Rad=0.649+-0.019Rsun(Muirhead18), Mass=0.668+-0.012Msun(Muirhead18).
+
 
 GJ 191 = Kapteyn's star
   sdM1.0: Hawley97(Koen10)
@@ -827,6 +955,24 @@ GJ 825 = Lacaille 8760 = HD 202560 = AX Mic = HIP 105090 = UGP 518 = LHS 66 = Ga
   [a/Fe]=0.14(GaiaDR3). Gaidos14 TiO5=0.818+-0.008, CaH2=0.772+-0.003,
   CaH3=0.891+-0.003.
 
+GJ 803 = AU Mic = HD 197481 = HIP 102409 = LDS 720A = 2MASS J20450949-3120266 = Gaia DR3 6794047652729201024
+  M0Ve: Adams26,Vyssotsky56,Evans61,Reid95(M0V),Pecaut13
+  M0.5Ve: Riaz06
+ *M1Ve: Houk82,Keenan83(M1Ve Ba1,stan.),Keenan89(M1Ve Ba1,non-stan.),Torres06,Shkolnik09(M1e),Gaidos14(M1e), 
+  M2Ve: Adams35,Upgren72
+  M2.5Ve: Joy74
+  
+  Famous pre-MS M star, member of ~20 Myr-old Beta Pic Moving Group,
+  so lower gravity than most M dwarfs and extremely active.  Commons
+  proper motion with the other binary GJ 879AB was noted long ago, at
+  least as early as by Shapley (e.g. Adams27, 1927PASP...39..365A).
+  Note that PecautMamajek13 used GJ 701 as its M0.0V standard, but the
+  star was among the reddest of Henry's M0V standards - but after
+  further review of the recent literature, it looks like most studies
+  consider it more like M1V (Hawley97, Gaidos14, Dieterich14, Mann15),
+  so the M0V from Pecaut is probably more like M1V (consistent with
+  Keenan).
+
 # Non-standard stars
 
 YY Gem: Torres02 finds that the eclipsing binary YY Gem consists of
@@ -835,3 +981,4 @@ them "M0.5Ve Fe-2", however Hill75 and JoyAbt74 called it "M1Ve"
 also. The "mean" value of the components has M = 0.5992 +- 0.0047
 Msun, R = 0.6191 +- 0.0057 Rusn, logg = 4.6317 +- 0.0083, L = 0.0733
 +- 0.0015 Lsun, Mv = 8.950 +- 0.029, Mbol = 7.569 +- 0.020.
+

@@ -17,6 +17,23 @@ Teff(L3V) = 1822 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(L3V) = 1775 K ; Cifuentes20 <Teff> for CARMENES L3V(N=6)
 => adopt Teff(L3V) = 1920 K (logT = 3.283) [updated 4/17/2020]
 
+(V-Rc)(L3V) = 2.80 ; 2MASS J0251-0352 (Cruz03,RECONS)
+(V-Rc)(L3V) = 2.91 ; 2MASS J2104-1037 (RECONS)
+(V-Rc)(L3V) = 3.14 ; DENIS J1425-3650 (RECONS)
+=> adopt (V-Rc)(L3V) = 2.91 [updated 9/15/2023; V-Ic=5.17, R-Ic=2.26]
+
+(R-Ic)(L3V) =  2.29 ; DENIS J1425-3650 (RECONS)
+(R-Ic)(L3V) =  2.26 ; 2MASS J0251-0352 (Cruz03,RECONS)
+(R-Ic)(L3V) = 2.259 ; N=4 L3Vs in Liebert06 (+-0.034 sem, +-0.068 rms)
+(R-Ic)(L3V) =  2.18 ; 2MASS J2104-1037 (RECONS)
+=> adopt (R-Ic)(L3V) = 2.26 [updated 9/15/2023; V-Ic=5.17, V-Rc=2.91]
+
+(V-Ic)(L3V) =  5.06 ; 2MASS J0251-0352 (Cruz03,RECONS)
+(V-Ic)(L3V) =  5.09 ; 2MASS J2104-1037 (RECONS)
+(V-Ic)(L3V) = 5.17 ; R-Ic=2.25, V-Rc=2.91 
+(V-Ic)(L3V) =  5.34 ; DENIS J1425-3650 (RECONS)
+=> adopt (V-Ic)(L3V) = 5.17 [updated 9/15/2023; V-Rc=2.91, R-Ic=2.26]
+
 (V-Ks)(L3V) = 10.0  ; 2MA2104-1037 (Dieterich14)
 (V-Ks)(L3V) = 10.06 ; pri. stan. 2MASS_J11463449+2230527 L3+L4 (Dahn17)
 (V-Ks)(L3V) = 10.12 ; smoothed trend to V-Ks vs. SpT Dieterich14 data
@@ -24,8 +41,6 @@ Teff(L3V) = 1775 K ; Cifuentes20 <Teff> for CARMENES L3V(N=6)
 (V-Ks)(L3V) = 11.01 ; DEN1425-3650 (Dieterich14)
 => adopt (V-Ks)(L3V) = 10.1 [updated 8/17/2020]
 
-(R-I)(L3V) = 2.259 ; N=4 L3Vs in Liebert06 (+-0.034 sem, +-0.068 rms)
-=> adopt (R-I)(L3V) = 2.259
 
 (J-H)(L3V) = 0.967 ; (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
 => adopt (J-H)(L3V) = 0.97 [updated 8/6/2020]
@@ -41,7 +56,7 @@ Teff(L3V) = 1775 K ; Cifuentes20 <Teff> for CARMENES L3V(N=6)
 (J-Ks)(L3V)  = 1.52 (+-0.21 rms; N=46) ; Schmidt14
 
 (r-i)(L3V)   = 2.34 (+-0.11 rms; N=5) ; Cifuentes20
-=> adopt (r-i)(L3V) = 2.34 [updated 9/1/2023]
+=> adopt (r-i)(L3V) = 2.34 [updated 9/15/2023]
 
 (i-z)(L3V)   = 1.86 (+-0.12 rms; N=9) ; Schmidt14
 (i-J)(L3V)   = 4.51 (+-0.16 rms; N=9) ; Schmidt14

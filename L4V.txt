@@ -18,6 +18,16 @@ Teff(L4V) = 1722 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(L4V) = 1695 K ; Filippazzo15 calibration (M6V-T9V)
 => adopt Teff(L4V) = 1870 K (logT = 3.272) [updated 4/17/2020]
 
+(V-Rc)(L4V) = 3.24 ; 2MASS J0500+0330 (RECONS)
+=> adopt (V-Rc)(L4V) = 3.24 [updated 9/15/2023]
+
+(R-Ic)(L4V) = 2.31 ; 2MASS J0500+0330 (RECONS)
+=> adopt (R-Ic)(L4V) = 2.31 [updated 9/15/2023]
+
+(V-Ic)(L4V) = 5.55 ; 2MASS J0500+0330 (RECONS)
+=> adopt (V-Ic)(L4V) = 5.55 [updated 9/15/2023]
+
+
 (V-Ks)(L4V) = 10.95 ; 2MA0500+0330 (Dieterich14)
 (V-Ks)(L4V) = 10.49 ; smoothed trend to V-Ks vs. SpT Dieterich14 data
 (V-Ks)(L4V) =  7.36 ; usdL4 2MASS_J16262034+3925190 (Dahn17)
@@ -40,7 +50,7 @@ Mv(L4V) = 22.33 ; V-Ks=10.9 in EEM fit to Dieterich14 trend
 => adopt (J-H)(L4V) = 1.00 [updated 8/6/2020]
 
 (r-i)(L4V) = 2.22 (+-0.13 rms; N=4) ; Cifuentes20
-=> adopt (r-i)(L4V) = 2.22 [updated 9/1/2023]
+=> adopt (r-i)(L4V) = 2.22 [updated 9/15/2023]
 
 (Ks-W1)(L4V) = 0.55 (+-0.14 rms; N=3) ; Schmidt14
 (Ks-W1)(L4V) = 0.598 ; Dupuy12 median N=6 d<50pc
@@ -129,3 +139,7 @@ Liebert06 did not record any R-I colors for L4V stars.
 
   Teff=1869+-64K(Kirkpatrick20).
 
+
+2MASS J0500+0330
+
+  Reid08 secondary standard. 

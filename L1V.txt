@@ -17,8 +17,20 @@ Teff(L1V) = 2076+-203 K ; Cifuentes23
 Teff(L1V) = 2097 K ; Kirkpatrick20 Table 13 polynomial 
 => adopt Teff(L1V) = 2160 K (logT = 3.334) [updated 4/17/2020]
 
-(R-I)(L1V)  = 2.401 ; N=5 L1Vs in Liebert06 (+-0.055 sem, +-0.123 rms)
-=> adopt (R-I)(L1V) = 2.401 
+(V-Rc)(L1V) = 2.76 ; 2MASS 1555-0956 (RECONS)
+(V-Rc)(L1V) = 2.78 ; SSSPM 0829-1309 (RECONS)
+=> adopt (V-Rc)(L1V) = 2.77 [updated 9/15/2023; V-Ic=5.17, R-Ic=2.40]
+
+(R-Ic)(L1V) = 2.46  ; 2MASS 1555-0956 (RECONS)
+(R-Ic)(L1V) = 2.401 ; N=5 L1Vs in Liebert06 (+-0.055 sem, +-0.123 rms)
+(R-Ic)(L1V) = 2.30  ; SSSPM 0829-1309 (RECONS)
+=> adopt (R-Ic)(L1V) = 2.40 [updated 9/15/2023; V-Ic=5.17, V-Rc=2.77]
+
+(V-Ic)(L1V) = 5.22 ; 2MASS 1555-0956 (RECONS)
+(V-Ic)(L1V) = 5.08 ; SSSPM 0829-1309 (RECONS)
+=> adopt (V-Ic)(L1V) = 5.17 [updated 9/15/2023; V-Rc=2.77, R-Ic=2.40]
+
+
 
 (J-H)(L1V)   = 0.80  (+-0.14 rms)  ; Schmidt14
 (J-H)(L1V)   = 0.817 (+-0.14 rms)  ; SIMBAD d<30pc trend for Ldwarfs
@@ -36,7 +48,7 @@ Teff(L1V) = 2097 K ; Kirkpatrick20 Table 13 polynomial
 (J-Ks)(L1V)  = 1.31 (+-0.19 rms) ; Schmidt14 
 
 (r-i)(L1V)   = 2.41 (+-0.10 rms; N=14) ; Cifuentes20
-=> adopt (r-i)(L2V) = 2.41 [updated 9/1/2023]
+=> adopt (r-i)(L2V) = 2.41 [updated 9/15/2023]
 
 (i-z)(L1V)   = 1.87 (+-0.09 rms) ; Schmidt14
 (i-J)(L1V)   = 4.41 (+-0.18 rms) ; Schmidt14
