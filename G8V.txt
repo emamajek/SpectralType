@@ -43,10 +43,12 @@ Skiff08 flags three stars as G8V MK standards, all from Keenan89: HD
 <B-V>(G8V) = 0.75  ; 14 Hyades from Wilson62
 <B-V>(G8V) = 0.749 ; 220 HIP d<75pc (+-0.003 sem, +-0.040 stdev)
 (B-V)(G8V) = 0.746 ; median SIMBAD G8V d<25pc (N=16)
+(B-V)(G8V) = 0.744 ; HD 124292 = HIP 69414 (Koen10) G8+V ~solar
 (B-V)(G8V) = 0.741 (+-0.009 sem, +-0.050 stdev); 44 ARICNS G8V stars
 <B-V>(G8V) =   0.74  ; Fitzgerald70
 (B-V)(G8V) =   0.74  ; Johnson66
 (B-V)(G8V) =   0.74  ; SchmidtKaler82
+(B-V)(G8V) = 0.737 ; HIP 71743 = KU Lib (Koen10) ~solar
 (B-V)(G8V) = 0.735 ; median CATSUP d<30pc G8V stars (N=20)
 (B-V)(G8V) = 0.733 ; sec. stan. xi Boo A
 (B-V)(G8V) = 0.73  ; prim. stan. 61 UMa (see below)
@@ -66,16 +68,11 @@ Skiff08 flags three stars as G8V MK standards, all from Keenan89: HD
 
 (U-B)(G8V) =  0.24  ; JohnsonMorgan53
 (U-B)(G8V) =  0.270 ; HIP d<75pc S/N>8 G8V N=35 (Mermilliod91 photometry)
+(U-B)(G8V) = 0.270 ; HIP 71743 = KU Lib (Koen10) ~solar
 (U-B)(G8V) = 0.281 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.73
+(U-B)(G8V) = 0.289 ; HD 124292 = HIP 69414 (Koen10) G8+V ~solar
 (U-B)(G8V) =  0.32  ; Johnson66
 => adopt (U-B)(G8V) = 0.281 [updated 9/1/2023]
-
-
-(V-Ks)(G8V) =  1.726 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.730
-
-Gray01/03/06 list 54 nearby G8V stars. Median HIP colors:
-<B-V>(G8V) = 0.726 (+-0.004 sem, +-0.027 stdev; N=54)
-<V-I>(G8V) = 0.777 (+-0.004 sem, +-0.023 stdev; N=54)
 
 For G8V Hipparcos stars within 75pc, with parallax S/N > 8, 
 and within 1 mag of the MS (N=220):
@@ -107,19 +104,27 @@ and within 1 mag of the MS (N=220):
 (G-V)(G8V) =  -0.144 ; HD 39855 PM* G8VFe-0.7
 => adopt (G-V)(G8V) = -0.202 [updated 11/1/2020]
 
-(V-Rc)(G8V) = 0.396 ; HIP 96183 (Koen10)
+(V-Rc)(G8V) =  0.396 ; HIP 96183 (Koen10)
 (V-Rc)(G8V) = 0.399 ; trend B-V vs V-Rc for B-V=0.730
-(V-Rc)(G8V) = 0.403 ; HIP 71743 (Koen10)
-(V-Rc)(G8V) = 0.410 ; HIP 55210 (Koen10)
+(V-Rc)(G8V) = 0.403 ; HIP 71743 = KU Lib (Koen10) ~solar
+(V-Rc)(G8V) = 0.405 ; HD 124292 = HIP 69414 (Koen10) G8+V ~solar
+(V-Rc)(G8V) =  0.410 ; HIP 55210 (Koen10)
 => adopt (V-Rc)(G8V) = 0.40  [updated 1/15/2023]
 
 (V-Ic)(G8V) =  0.766 ; HIP 96183 (Koen10)
-(V-Ic)(G8V) =  0.770 ; HIP 71743 (Koen10)
+(V-Ic)(G8V) = 0.770 ; HIP 71743 = KU Lib (Koen10) ~solar
+(V-Ic)(G8V) = 0.774 ; HD 124292 = HIP 69414 (Koen10) G8+V ~solar
 (V-Ic)(G8V) = 0.777 ; trend B-V vs V-Ic for B-V=0.730
 (V-Ic)(G8V) = 0.777 ; Gray01/03/06 54 G8Vs (+-0.004 sem, +-0.023 stdev)
 (V-Ic)(G8V) =  0.794 ; HIP 55210 (Koen10)
 => adopt (V-Ic)(G8V)  = 0.78  [updated 1/15/2023]
 => adopt (Rc-Ic)(G8V) = 0.38  [updated 1/15/2023; V-Ic=0.78, V-Rc=0.40]
+
+(V-Jj)(G8V) = 1.24 ; Johnson66
+
+(V-Kj)(G8V) = 1.63 ; Johnson66 
+
+(V-Ks)(G8V) = 1.726+-0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.730
 
 (Ks-W1)(G8V) = 0.065 ; EEM trend for d<30pc for B-V=0.730
 => adopt (Ks-W1)(G8V) = 0.065 [updated 12/29/2019]
@@ -208,7 +213,7 @@ BCv(G8V) = -0.136 mag ; Casagrande18(Teff=5480K,logg=4.5)
 BCv(G8V) = -0.133 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5480K)
 => adopt BCv(G8V) = -0.140 mag [last updated 8/29/2019, on scale where BCv(5772K)=-0.085]
 
-M_G(G8V) =  4.7126   ; HD_210277_ plx=46.8515mas G8V  (GaiaDR3)
+M_G(G8V) =  4.7126   ; HD_210277_ plx=46.8515mas G8V (GaiaDR3)
 M_G(G8V) = 4.82468  ; HD_18803_ plx=47.181mas G8V  (GaiaDR3)
 M_G(G8V) = 4.94465  ; HD_218868_ plx=42.464mas G8V  (GaiaDR3)
 M_G(G8V) = 4.94761  ; ter. stan. HD_82885_ plx=89.0092mas G8Va  (GaiaDR3)
@@ -277,13 +282,14 @@ Mass(G8V) =  0.900+-0.019 Msun ; ecl. binary HS Aur A (Popper86)
 Mass(G8V) =  0.829 Msun ; Habets81
 => adopt Mass(G8V) = 0.93 Msun [updated 8/3/2023]
 
-logg(G8V) =  4.28 dex ; ter. stan. HD 27130 = Cl Melotte 25 22 
-logg(G8V) =  4.3597 dex ; Eclipsing binary ZZ UMa B (Southworth22)
-logg(G8V) =  4.46 dex ; ter. stan. 82 Eri = HD 20794 (Soubiran22)
-logg(G8V) = 4.49 dex ; M=0.94Msun, R=0.914Rsun
-logg(G8V) =  4.53 dex ; sec. stan. tau Cet (Soubiran22)
-logg(G8V) =  4.54 dex ; pri. stan. 61 UMa (Soubiran22)
-=> logg(G8V) = 4.49 [updated 8/3/2023]
+logg(G8V) =  4.28   ; ter. stan. HD 27130 = Cl Melotte 25 22 
+logg(G8V) =   4.3597 ; Eclipsing binary ZZ UMa B (Southworth22)
+logg(G8V) = 4.457   ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5230K (see G0V.txt)
+logg(G8V) =  4.46   ; ter. stan. 82 Eri = HD 20794 (Soubiran22)
+logg(G8V) = 4.49    ; M=0.94Msun, R=0.914Rsun
+logg(G8V) =  4.53   ; sec. stan. tau Cet (Soubiran22)
+logg(G8V) =  4.54   ; pri. stan. 61 UMa (Soubiran22)
+=> logg(G8V) = 4.46 [updated 9/15/2023]
 
 # Primary Standards
 
@@ -319,7 +325,7 @@ logg(G8V) =  4.54 dex ; pri. stan. 61 UMa (Soubiran22)
 
 # Secondary Standard
 
-tau Cet = HD 10700
+HD 10700 = tau Ceti = GJ 71 = HIP 8102 = HR 509 = LHS 146 = 52 Cet = NLTT 5787 = SACS 31 = SPOCS 96 = TIC 419015728 = Gaia DR2 2452378776434276992 = Gaia DR3 2452378776434477184 
   G4V: Adams35
   G6V: Moore50,Bidelman85(G6)
  *G8V: MK43(stan),Wilson62,Keenan85,Keenan88,Keenan89(stan),Garrison96,Keenan99
@@ -329,10 +335,12 @@ tau Cet = HD 10700
   ~300 stars on the sky (V<3.55mag). B-V=0.727 (HIP). The only reason
   I list tau Ceti as a secondary standard rather than a primary is
   Gray06's classification of G8.5V, however Keenan retained it at G8V
-  over 5+ decades. V=3.495+-0.010(Mermilliod91),
-  B-V=0.727+-0.007(Mermilliod91),
+  over 5+ decades. It is pretty metal poor ([Fe/H]=-0.5) so not
+  typical compared to most nearby G8V thin disk
+  stars. V=3.495+-0.010(Mermilliod91), B-V=0.727+-0.007(Mermilliod91),
   U-B=0.216+-0.012(Mermilliod91). Soubiran22/PASTEL mean values:
   Teff=5356+-11K, [Fe/H]=-0.51+-0.01, logg=4.53+-0.03.  Mv=5.68.
+  diFolco07 reported interferometric diameter tet_LD=2.015+-0.011mas.
   Rain20 reports interferometry analysis: tet_LD=2.054+-0.011,
   Rad=0.796+-0.004Rsun, fbol = (115.0+-1.2)e-8 erg/s/cm2 (=> mbol =
   3.351+-0.011 IAU2015 scale), Teff=5347+-18K, Lbol=0.47+-0.01 (=>

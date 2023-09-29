@@ -10,7 +10,7 @@ Keenan99 standard: HD 13445 (HR 637) - K1.5V
 (B-V)(K1.5V) = 0.820 ; deprecated stan. HD 13445
 (B-V)(K1.5V) = 0.859 ; N=9 Gray06 K1.5V stars (+-0.003 sem, +-0.009 rms)
 (B-V)(K1.5V) = 0.873 ; halfway between adopted B-V colors for K1V (0.860) and K2V (0.885)
-(B-V)(K1.5V) = 0.884 ; exemplar HD 205390 = GJ 833 = HIP 106696
+(B-V)(K1.5V) = 0.884 ; exemplar HD 205390 = GJ 833 = HIP 106696 (Koen10) ([Fe/H]=-0.17)
 => adopt (B-V)(K1.5V)   =  0.87  [updated 9/1/2023]
 => adopt (Bt-Vt)(K1.5V) =  1.014
 => adopt (V-Ic)(K1.5V)  =  0.921
@@ -29,18 +29,19 @@ Keenan99 standard: HD 13445 (HR 637) - K1.5V
 => adopt (G-Ks)(K1.5V)  = 1.849
 
 (U-B)(K1.5V) = 0.552 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.87
+(U-B)(K1.5V) = 0.559 ; exemplar HD 205390 = GJ 833 = HIP 106696 (Koen10) ([Fe/H]=-0.17)
 => adopt (U-B)(K1.5V) = 0.552 [updated 9/1/2023]
 
-(V-Ks)(K1.5V) = 2.166 ; exemplar HD 205390 = GJ 833 
+(V-Ks)(K1.5V) = 2.166 ; exemplar HD 205390 = GJ 833 = HIP 106696 (Koen10) ([Fe/H]=-0.17)
 
 (R-Ic)(K1.5V) = 0.42  ; exemplar HD 17925 = GJ 117 (Cousins80)
-(R-Ic)(K1.5V) = 0.44  ; exemplar HD 205390 = GJ 833 (Cousins80)
+(R-Ic)(K1.5V) = 0.45  ; exemplar HD 205390 = GJ 833 = HIP 106696 (Koen10) ([Fe/H]=-0.17)
 
 (V-Ic)(K1.5V) = 0.905 ; exemplar HD 17925 = GJ 117 (Cousins80)
-(V-Ic)(K1.5V) = 0.94  ; exemplar HD 205390 = GJ 833 (Cousins80)
+(V-Ic)(K1.5V) = 0.947 ; exemplar HD 205390 = GJ 833 = HIP 106696 (Koen10) ([Fe/H]=-0.17)
 
 (V-Rc)(K1.5V) = 0.485 ; exemplar HD 17925 = GJ 117 (Cousins80)
-(V-Rc)(K1.5V) = 0.50  ; exemplar HD 205390 = GJ 833 (Cousins80)
+(V-Rc)(K1.5V) = 0.497 ; exemplar HD 205390 = GJ 833 = HIP 106696 (Koen10) ([Fe/H]=-0.17) 
 
 (G-V)(K1.5V) =  -0.285 ; HD 13445 PM* K1.5V (GaiaDR2)
 (G-V)(K1.5V) = -0.265 ; interpolated between K1V-K2V  (GaiaDR2)
@@ -52,14 +53,16 @@ Keenan99 standard: HD 13445 (HR 637) - K1.5V
 (G-V)(K1.5V) = -0.198 ; exemplar HD 17925 = GJ 117 (GaiaDR3)
 => adopt (G-V)(K1.5V) = -0.255 [updated 9/21/2021]
 
-(Bp-Rp)(K1.5V) = 1.0470  *_36_Oph_B  K1.5V(k)
-(Bp-Rp)(K1.5V) = 1.050   fit for V-Ks=2.069
+(Bp-Rp)(K1.5V) =  1.0470 ; *_36_Oph_B  K1.5V(k) (GaiaDR2)
+(Bp-Rp)(K1.5V) =  1.050  ; fit for V-Ks=2.069 (GaiaDR2)
+(Bp-Rp)(K1.5V) = 1.083   ; exemplar HD 205390 = GJ 833 = HIP 106696 ([Fe/H]=-0.17) (GaiaDR3)
 => adopt (Bp-Rp)(K1.5V) = 1.05 [updated 7/17/2020]
 
-(G-Rp)(K1V)   = 0.56   ; K1V mean
-(G-Rp)(K1.5V) = 0.5820 ; *_36_Oph_B  K1.5V(k)
-(G-Rp)(K1.5V) = 0.592  ; fit for V-Ks=2.069
-(G-Rp)(K2V)   = 0.62   ; K2V mean
+(G-Rp)(K1V)   = 0.56   ; K1V mean (GaiaDR2)
+(G-Rp)(K1.5V) = 0.5820 ; *_36_Oph_B  K1.5V(k) (GaiaDR2)
+(G-Rp)(K1.5V) = 0.592  ; fit for V-Ks=2.069 (GaiaDR2)
+(G-Rp)(K2V)   = 0.62   ; K2V mean (GaiaDR2)
+(G-Rp)(K1.5V) = 0.626  ; exemplar HD 205390 = GJ 833 = HIP 106696 ([Fe/H]=-0.17)
 => adopt (G-Rp)(K1.5V) = 0.59 [updated 7/17/2020]
 => adopt (Bp-G)(K1.5V) = 0.46 [updated 3/1/2019; Bp-Rp=1.05, G-Rp=0.59]
 
@@ -70,8 +73,8 @@ Keenan99 standard: HD 13445 (HR 637) - K1.5V
 (g-V)(K1.5V) = 0.424 ; Just08/Chonis08 B-V=>g-V for B-V=0.87
 => adopt (g-V)(K1.5V) = 0.424 [updated 9/1/2023]
 
-Teff(K1.5V) = 5038K ; non-stan. HD 205390/GJ833
-Teff(K1.5V) = 5140K ; trend [Fe/H] vs. Teff (PASTEL compend.) for 25 Teffs/[Fe/H] pairs for Gray06 K1.5V stars (see below)
+Teff(K1.5V) = 5035 K ; exemplar HD 205390 = GJ 833 = HIP 106696 ([Fe/H]=-0.17)
+Teff(K1.5V) = 5140 K ; trend [Fe/H] vs. Teff (PASTEL compend.) for 25 Teffs/[Fe/H] pairs for Gray06 K1.5V stars (see below)
 => adopt Teff(K1.5V) = 5140K [updated 9/26/2019]
 
 BCv(K1.5V) = -0.270 ; Casagrande08 calib for Teff=5140K, set so BCv(5772K)=-0.085
@@ -86,11 +89,12 @@ Mv(K1.5V) =  5.94 ; trend for FGK d<25pc SIMBAD for B-V=0.86
 Mv(K1.5V) = 5.95 ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.860
 Mv(K1.5V) =  5.96 ; deprecated stan. HD 13445 
 Mv(K1.5V) =  5.97 ; B-V=0.589, Wright04 calib
-Mv(K1.5V) =  6.33 ; exemplar HD 205390/GJ833/HIP106696
+Mv(K1.5V) =  6.28 ; exemplar HD 205390 = GJ 833 = HIP 106696 ([Fe/H]=-0.17)
 => adopt Mv(K1.5V)  = 5.95  [updated 9/26/2019]
 => adopt M_G(K1.5V) = 5.695 [updated 12/10/2020] (Mv=5.95, G-V=-0.255)
 
 M_G(K1.5V) = 5.841 ; SIMBAD d<20pc trend for V-Ks=2.069
+M_G(K1.5V) = 6.04  ; exemplar HD 205390 = GJ 833 = HIP 106696 ([Fe/H]=-0.17)
 
 => adopt M_Ks(K1.5V) = 3.884 [updated 9/26/2019; Mv=5.95, V-Ks=2.066, last updated 8/2/2018]
 
@@ -101,6 +105,9 @@ logL(K1.5V) = -0.388 ; Mv=5.95, BCv=-0.24, Mbol = 5.710
 Rad(K1.5V) = 0.807 Rsun ; logL=-0.388, Teff=5140K
 => adopt Rad(K1.5V) = 0.807 Rsun [updated 9/26/2019]
 
+logg(K1.5V) = 4.502 ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5140K (see G0V.txt)
+=> adopt logg(K1.5V) = 4.50 [updated 9/15/2023]
+
 # Deprecated Standard
 
 HD 13445 = HR 637 = LHS 13
@@ -110,12 +117,19 @@ HD 13445 = HR 637 = LHS 13
 
   Only Keenan considered this a K1.5V, with all other authors
   classifying it earlier.  White dwarf companion (GJ 82B) of type DQ6
-  is ~2" away, probably contaminating the photometry. V=6.12(HIP),
+  is ~2" away, probably negligibly contaminating the vis/IR photometry
+  - although delta(V)=7.03, i.e. at 0.15% in
+  V-band. V=6.118+-0.010(Mermilliod91), V=6.12(HIP), V=6.098(Rieke22),
   B-V=0.812+-0.015(HIP), B-V=0.820+-0.004(Mermilliod91),
-  V-Ic=0.88+-0.02(HIP). 2MASS photometry is poor, flagged "DDE". From
-  transforming ground-based photometry, Rieke22 estimates 2MASS band
-  magnitude Ks=4.118(Rieke22).  PASTEL compendium: <Teff> =
-  5190K(N=13), [Fe/H] ~ -0.2, logg ~ 4.6-4.7. Mv=5.96.
+  U-B=0.448+-0.188(Mermilliod91), V-Ic=0.88+-0.02(HIP). 2MASS
+  photometry is poor, flagged "DDE". From transforming ground-based
+  photometry, Rieke22 estimates 2MASS band magnitude
+  Ks=4.118(Rieke22). J=4.623(Rieke22/2MASS sys), H=4.221(Rieke22/2MASS
+  sys), Ks=4.121(Rieke22/2MASS sys), Ks=4.118(Rieke22/2MASS sys) [two
+  estimates in good agreement] => V-Ks = 6.118(Mermilliod91) -
+  4.12(Rieke22) = 1.998.  PASTEL compendium: <Teff> = 5190K(N=13),
+  [Fe/H] ~ -0.2, logg ~ 4.6-4.7. Mv=5.96. Soubiran22/PASTEL catalog
+  means: Teff=5178+-14K, logg=4.61+-0.03, [Fe/H]=-0.23+-0.02.
 
 # Exemplar
 
@@ -125,18 +139,22 @@ HD 205390 = GJ 833 = HIP 106696
    K2V: Evans57,Houk78
 
    All types in K1-K2 range. Not in WDS. V=7.136+-0.005(Mermilliod91),
-   V=7.14(Cousins80), B-V=0.884+-0.005(Mermilliod91),
-   B-V=0.887(Koen10), U-B=0.552+-0.207(Mermilliod91),
-   R-Ic=0.44(Cousins80), V-Ic=0.94(Cousins80), V-Rc=0.50(Cousins80),
-   J=5.518+-0.035(2MASS), H=5.137+-0.053(2MASS),
+   V=7.14(Cousins80), V=7.157(Koen10), B-V=0.884+-0.005(Mermilliod91),
+   B-V=0.887(Koen10), U-B=0.552+-0.207(Mermilliod91), 
+   U-B=0.559(Koen10), U-B=0.57(Cousins73), V-Rc=0.497(Koen10), V-Rc=0.50(Cousins80),
+   R-Ic=0.44(Cousins80), R-Ic=0.450(Koen10), V-Ic=0.94(Cousins80),
+   V-Ic=0.947(Koen10).  J=5.518+-0.035(2MASS), H=5.137+-0.053(2MASS),
    Ks=4.970+-0.021(2MASS) => V-Ks = 7.136 - 4.970 = 2.166. PASTEL
    median Teff = 5038K(N=3), [Fe/H]=-0.17+-0.03(Valenti05),
-   logg=4.62+-0.06(Valenti05).  Mv=6.33+-0.02(Koen10).
-
-HD 205390
-   K1V: Torres06
-  *K1.5V: Gray06
-   K2V: Evans57,Houk78
+   logg=4.62+-0.06(Valenti05). Soubiran22/PASTEL mean values:
+   Teff=5035+-32K, logg=4.62+-0.10, [Fe/H]=-0.17+-0.05, with the
+   latter two values obviously from Valenti05.  GaiaDR3:
+   G=6.894970+-0.002775(GaiaDR3), Bp-Rp=1.083059(GaiaDR3),
+   Bp-G=0.457481(GaiaDR3), G-Rp=0.625577(GaiaDR3).
+   plx=67.5002+-0.0175mas(GaiaDR3) =>
+   Mv=6.283+-0.005(Mermilliod91,GaiaDR3), M_G=6.041+-0.003(GaiaDR3),
+   M_Ks=4.117+-0.021(2MASS, GaiaDR3).
+   
 
 HD 17925 = GJ 117 = EP Eri = HR 857 = HIP 13402 = Gaia DR3 5160075762132996992 = 2MASS J02523210-1246109 
    K0V: Joy47

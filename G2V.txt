@@ -88,7 +88,7 @@ Gray01/03/06 list 48 nearby G2V stars. Median HIP colors:
 
 For G2V Hipparcos stars within 75pc, with parallax S/N > 8, 
 and within 1 mag of the MS (N=223) (these are dominated by
-Houk spectral types, which seem to be slightly earlier/hotter
+Houk spectral types, which seem to be clearly earlier/hotter
 on average than Gray's G2Vs):
 <B-V>(G2V)   = 0.617 (+-0.003 sem, +-0.032 stdev; N=223)
 <V-I>(G2V)   = 0.683 (+-0.004 sem, +-0.027 stdev; N=223)
@@ -108,7 +108,8 @@ on average than Gray's G2Vs):
 (B-V)(G2V) = 0.626 ; ter. stan. HD 45184
 (B-V)(G2V) =  0.63  ; Fitzgerald70, Morgan71
 (B-V)(G2V) =  0.63  ; SchmidtKaler82
-(B-V)(G2V) =  0.633 ; non-stan. alf Cen A 
+(B-V)(G2V) =  0.633 ; non-stan. alf Cen A
+(B-V)(G2V) = 0.639 ; HD 59967 = HIP 36515 (Koen10) ~solar
 (B-V)(G2V) =  0.64  ; JohnsonMorgan53
 (B-V)(G2V) = 0.64  ; median CATSUP d<30pc (N=29)
 (B-V)(G2V) = 0.640 ; solar twin HD 216008 = HIP 112730   
@@ -149,6 +150,7 @@ to be somewhat redder than that for the other standards.
 => adopt (J-H)(G2V)  = 0.293
 
 (U-B)(G2V) =  0.100 ; HIP d<75pc S/N>8 G2V N=107 (Mermilliod91 photometry, but Houk types nearer G0V?)
+(U-B)(G2V) = 0.112 ; HD 59967 = HIP 36515 (Koen10) ~solar
 (U-B)(G2V) = 0.156 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.650
 (U-B)(G2V) = 0.158 ; Ramirez05 color for Sun (+-0.009; line-depth ratios)
 (U-B)(G2V) =  0.16  ; Johnson66 
@@ -158,23 +160,25 @@ to be somewhat redder than that for the other standards.
 
 (V-Rc)(G2V) =  0.334 ; HIP 9829 (Koen10)
 (V-Rc)(G2V) =  0.348 ; HIP 15442 (Koen10)
-(V-Rc)(G2V) = 0.353 ; sec. stan. 18 Sco = HD 146233
-(V-Rc)(G2V) =  0.355 ; HIP 36515 (Koen10)
+(V-Rc)(G2V) = 0.355 ; sec. stan. 18 Sco = HD 146233
+(V-Rc)(G2V) = 0.355 ; HD 59967 = HIP 36515 (Koen10) ~solar
 (V-Rc)(G2V) = 0.360 ; ter. stan. HD 76151
 (V-Rc)(G2V) = 0.361 ; trend B-V vs V-Rc for B-V=0.650
 => adopt (V-Rc)(G2V) = 0.36  [updated 1/15/2023]
 
 (V-Ic)(G2V) =  0.68  ; Bessell88
-(V-Ic)(G2V) = 0.688 ; sec. stan. 18 Sco = HD 146233
-(V-Ic)(G2V) =  0.690 ; HIP 36515 (Koen10)
+(V-Ic)(G2V) = 0.689 ; sec. stan. 18 Sco = HD 146233
+(V-Ic)(G2V) = 0.690 ; HD 59967 = HIP 36515 (Koen10) ~solar
 (V-Ic)(G2V) = 0.695 ; ter. stan. HD 76151 
 (V-Ic)(G2V) =  0.696 ; HIP 15442 (Koen10)
+(V-Ic)(G2V) = 0.697 ; fit to Koen10 d<25pc B-V vs. V-Ic for -0.1<[Fe/H]<0.1 dwarfs in Soubiran22 for B-V=0.650
 (V-Ic)(G2V) =  0.704 ; HIP 9829 (Koen10)
 (V-Ic)(G2V) = 0.706 ; Gray01/03/06 48 G2Vs (+-0.005 sem, +-0.024 stdev)
 (V-Ic)(G2V) =  0.71 ; solar twin HD 9986 = HIP 7585 (from Gray03)
-(V-Ic)(G2V) = 0.710 ; trend B-V vs V-Ic for B-V=0.650
-=> adopt (V-Ic)(G2V)  = 0.705 [updated 1/15/2023]
+=> adopt (V-Ic)(G2V)  = 0.697 [updated 9/15/2023]
 => adopt (Rc-Ic)(G2V) = 0.345 [updated 1/15/2023; V-Ic=0.705, V-Rc=0.36]
+
+(R-Ic)(G2V) = 0.334 ; sec. stan. 18 Sco = HD 146233
 
 (G-V)(G2V) = -0.100    ; solar twin HD 139777 = pi01 UMa (very active) (GaiaDR3)
 (G-V)(G2V) = -0.129787 ; *_ksi_UMa_B_ G2V plx=114.4867 mas (GaiaDR3)
@@ -264,6 +268,9 @@ to be somewhat redder than that for the other standards.
 (Ks-W1)(G2V) = 0.061 ; EEM trend for d<30pc for B-V=0.65
 => adopt (Ks-W1)(G2V) = 0.061 [updated 12/29/2019]
 
+(V-Jj)(G2V)  = 1.10 ; Johnson66 
+
+(V-Kj)(G2V)  = 1.44 ; Johnson66 
 
 (V-Ks)(G2V)  =  1.497          ; solar twin HD 139777 = pi01 UMa 
 (V-Ks)(G2V)  =  1.511          ; solar twin HD 195034 = HIP 100963
@@ -360,6 +367,7 @@ M_G(G2V) =  4.24591  ; HD_137107J_ plx=55.98mas G2V+G2V  (GaiaDR3)
 M_G(G2V) = 4.257    ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.466
 M_G(G2V) =  4.3667   ; HD_179958_ plx=39.5809mas G2V  (GaiaDR3)
 M_G(G2V) =  4.37303  ; HD_210918_ plx=45.9146mas G2V  (GaiaDR3)
+M_G(G2V) = 4.457    ; solar twin HD 167060 = HIP 89650 
 M_G(G2V) =  4.45949  ; HD_207129_ plx=64.2717mas G2V  (GaiaDR3)
 M_G(G2V) =  4.50069  ; HD_25874_ plx=38.4266mas G2V  (GaiaDR3)
 M_G(G2V) =  4.51986  ; HD_45184_ plx=45.6782mas G2Va  (GaiaDR3)
@@ -380,6 +388,7 @@ M_G(G2V) =  4.93399  ; HD_98230_ plx=114.4867mas G2V  (GaiaDR3)
 [EEM 8/13/2023: support for M_G(G2V) ~ 4.65]
 
 Mv(G2V)  =  4.07 mag ; Wegner07 [highly discrepent]
+Mv(G2V)  = 4.61 mag ; solar twin HD 167060 = HIP 89650 
 Mv(G2V)  =  4.7  mag ; Schmidt-Kaler82
 Mv(G2V)  =  4.7  mag ; GrayCorbally09
 Mv(G2V)  = 4.75 mag ; solar twin HD 9986 = HIP 7585 (Gray03)
@@ -396,6 +405,8 @@ Mv(G2V)  = 4.90 mag ; V-Ks=1.56 for EEM poly fit to SIMBAD d<25pc (1/2022) (M_Ks
 => adopt Mv(G2V)   = 4.80  mag [updated 9/26/2020]
 => adopt M_G(G2V)  = 4.635 mag [updated 12/10/2020] (Mv=4.80, G-V=-0.165)
 => adopt M_Ks(G2V) = 3.236 mag [updated 12/30/2020] (Mv=4.80, V-Ks=1.564)
+
+M_Ks(G2V) = 7.43 mag ; solar twin HD 167060 = HIP 89650 
 
 
 logL(G2V) = 0.010 dex ; Mv=4.80, BCv=-0.085 => Mbol = 4.715
@@ -415,11 +426,12 @@ Mass(G2V) =  0.986 Msun ; Habets81
 Mass(G2V) =  0.98  Msun ; sec. stan. 18 Sco
 => adopt Mass(G2V) = 1.00 Msun [updated 8/3/2023]
 
-logg(G2V) = 4.47 ; N=23 loggs for Gray06 "G2 V" stars
-logg(G2V) = 4.44 ; Sun
-logg(G2V) = 4.43 ; pri. stan. 18 Sco (PASTEL/Soubiran22)
-logg(G2V) = 4.43 ; M=1.00Msun, R=1.012Rsun
-=> adopt logg(G2V) = 4.43 [updated 8/3/2023]
+logg(G2V) = 4.47  ; N=23 loggs for Gray06 "G2 V" stars
+logg(G2V) = 4.44  ; Sun
+logg(G2V) = 4.43  ; pri. stan. 18 Sco (PASTEL/Soubiran22)
+logg(G2V) = 4.43  ; M=1.00Msun, R=1.012Rsun
+logg(G2V) = 4.405 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5770K (see G0V.txt)
+=> adopt logg(G2V) = 4.43 [updated 9/15/2023]
 
 ### No Standards
 
@@ -463,29 +475,43 @@ Sun = GJ 0
 
 ### Secondary Standards
 
-HD 146233 = HR 6060 = 18 Sco = HIP 79672 
+HD 146233 = 18 Sco = GJ 616 = HR 6060 = HIP 79672 
   G1V: Adams35, Cowley67
  *G2Va: Harlan74(G2V),Cowley79(G2V),Keenan80(G2Va),KeenanYorka85(G2Va),Keenan88(G2Va,stan),Gray03(G2V)
   G3: Bidelman85
 
   Well-studied "solar twin", and as such can probably be considered a
-  strong secondary G2V standard. V=5.49(HIP), V=5.49(Johnson66),
-  V=5.495+-0.012(Cousins71), V=5.500(Hauck97),
+  strong secondary G2V standard.  One of 8 solar twins in
+  Casagrande14(Table2), others are below in this file. V=5.49(HIP),
+  V=5.49(Johnson66), V=5.495+-0.012(Cousins71), V=5.500(Hauck97),
   V=5.496+-0.006(Hauck97*), V=5.503+-0.015(Mermilliod91),
   V=5.497314(GaiaDR3/synth) [in great agreement with measured],
-  Bt=6.298+-0.005(HIP), Vt=5.562+-0.004(HIP), Bt-Vt=0.736+-0.006(HIP),
-  B-V=0.652+-0.009(HIP,Mermillioid91), B-V=0.65(Johnson66),
+  V=5.510(Casagrande14), Bt=6.298+-0.005(HIP), Vt=5.562+-0.004(HIP),
+  Bt-Vt=0.736+-0.006(HIP), B-V=0.652+-0.009(HIP,Mermillioid91),
+  B-V=0.65(Johnson66), B-V=0.650(Casagrande14),
   B-V=0.645+-0.006(Cousins71), U-B=0.17(Johnson66),
   U-B=0.18(Cousins71), U-B=0.174+-0.017(Mermilliod91),
-  V-Rc=0.353(GCPD), Rc-Ic=0.335(GCPD), V-Ic=0.69+-0.02(HIP),
-  V-Ic=0.688(GCPD), Hp=5.6265+-0.0005(HIP). PASTEL median parameters:
+  V-Rc=0.353(GCPD), V-Rc=0.357(Casagrande14),
+  R-Ic=0.334(Casagrande14/SAAO), R-Ic=0.335(GCPD),
+  V-Ic=0.69+-0.02(HIP), V-Ic=0.688(GCPD), V-Ic=0.690(Casagrande14),
+  Hp=5.6265+-0.0005(HIP).  Unfortunately all the 2MASS photometry is
+  corrupted (flags C and D), however Casagrande14 quotes accurate
+  ground-based SAAO JHK photometry: J=4.391+-0.016(Casagrande14/SAAO),
+  H=4.057+-0.016(Casagrande14/SAAO),
+  K=4.006+-0.015(Casagrande14/SAAO).  WISE bands 1 and 2 bad in 2012 &
+  2013 catalogs, but W3=3.994+-0.013(Cutri13),
+  W4=3.956+-0.024(Cutri13).
+
+  PASTEL median parameters:
   Teff = 5795+-9K, [Fe/H]=0.037+-0.007, logg=4.44+-0.01, so star is
   only 23+-9K hotter and 0.037+-0.007 dex more metal-rich, so
   remarkably close to the Sun. PASTEL 2022 (Soubiran22) averages:
   Teff=5785+-12K(N=43), logg=4.43+-0.02(N=37),
   [Fe/H]=0.03+-0.01(N=36), hence the Teff and logg is statistically
   indistinguishable from Sun, and the metallicity is only 3sigma
-  higher, but basically ~solar.  plx = 71.94+-0.37mas(HIP2),
+  higher, but basically ~solar. Teffs:
+  5789+-38K(Casagrande14/IRFM/JC-SAAO),
+  5819+-26K(Casagrande14/IRFM/TYC2-SAAO).  plx = 71.94+-0.37mas(HIP2),
   plx=70.7675+-0.1119mas(GaiaDR2), plx=70.7371+-0.0631mas(GaiaDR3) =>
   Dist=14.1335+-0.0126 pc, (m-M)o=0.751+-0.002. GaiaDR2: G=5.3026
   0.0018 => corrected Gcor=5.331, E(BR/RP)=1.157, Bp-Rp=0.8081,
@@ -493,9 +519,7 @@ HD 146233 = HR 6060 = 18 Sco = HIP 79672
   (Bp-Rp)(corr)=0.808, (Bp-G)(corr)=0.343,
   (G-Rp)(corr)=0.465. GaiaDR3: G=5.327651, Bp-Rp=0.817077,
   Bp-G=0.327281, G-Rp=0.489797, G-V = 5.327651 - 5.496 = -0.1683.
-  Unfortunately all the 2MASS photometry is corrupted (flags C and D).
-  WISE bands 1 and 2 bad in 2012 & 2013 catalogs, but
-  W3=3.994+-0.013(Cutri13), W4=3.956+-0.024(Cutri13).  SED fit and
+    SED fit and
   luminosity: using VOSA to fit to 25 photometric datapoints, the best
   fit SED I could derive was (ignoring 2MASS JHKs(poor), IRAS
   60/100um): BT-Settl-CIFIST model with Av=0(constrained), Teff=5600K,
@@ -656,9 +680,9 @@ HD 138573 = HIP 76114 = SPOCS 660 = TYC 932-962-1 = BD+11_2816
   wG5V: Pickles10(SEDfit)
 
   Mentioned as solar twin in several studies: King05, Datson12,
-  Ramirez14, etc.  One of 5 stars in Soubiran22 compendium with
-  parameters within +-30K and +-0.03 dex in logg and [Fe/H] of solar.
-  Best solar twin in survey of Mahdi16
+  Ramirez14, Casagrande14, etc.  One of 5 stars in Soubiran22
+  compendium with parameters within +-30K and +-0.03 dex in logg and
+  [Fe/H] of solar.  Best solar twin in survey of Mahdi16
   (https://www.aanda.org/articles/aa/full_html/2016/03/aa27472-15/aa27472-15.html),
   with Teff=5757+-10K, logg=4.42+-0.01, [Fe/H]=-0.015+-0.03.  However,
   King05 said "While certainly solar-type stars, HIP 76114* and 77718
@@ -671,14 +695,18 @@ HD 138573 = HIP 76114 = SPOCS 660 = TYC 932-962-1 = BD+11_2816
   [Fe/H]=-0.024+-0.003.  Age = 6.6+-0.3Gyr(Lorenzo-Oliveira18),
   logR'HK = -4.957+-0.001(Meunier17), -5.00(Wright04), Prot =
   26.0d(Wright04).  V=7.22(HIP), V=7.23(TYC), V=7.232+-0.002(Hauck97),
-  B-V=0.656+-0.007(HIP), V-I=0.72+-0.01(HIP), J=6.027+-0.021(2M),
-  H=5.742+-0.026(2M), Ks=5.662+-0.017(2M), V-Ks = 7.232 - 5.662 =
-  1.570.  PASTEL: <Teff>=5747K(N=10), <logg>=4.42(N=8),
-  <[Fe/H]>=-0.015(N=9).  GaiaDR2: plx= 33.2950 0.0585mas, no
-  correction needed to G,Bp,Rp: G=7.0566+-0.0003, Bp-Rp=0.8237,
-  Bp-G=0.3574, G-Rp=0.4663. G-V = 7.0566 - 7.232 = -0.1754.
-  Soubiran22 PASTEL compendium: Teff=5743+-17K, logg=4.43+-0.04,
-  [Fe/H]=-0.01+-0.02. GaiaDR3: plx=33.1373+-0.024mas(GaiaDR3).
+  B-V=0.656+-0.007(HIP), V-I=0.72+-0.01(HIP).  J=6.027+-0.021(2M),
+  J=6.102+-0.009(Casagrande14/SAAO), H=5.742+-0.026(2M),
+  H=5.742+-0.010(Casagrande14/SAAO), Ks=5.662+-0.017(2M),
+  K=5.683+-0.006(Casagrande14/SAAO), V-Ks = 7.232 - 5.662 = 1.570.
+  PASTEL: <Teff>=5747K(N=10), <logg>=4.42(N=8), <[Fe/H]>=-0.015(N=9).
+  GaiaDR2: plx= 33.2950 0.0585mas, no correction needed to G,Bp,Rp:
+  G=7.0566+-0.0003, Bp-Rp=0.8237, Bp-G=0.3574, G-Rp=0.4663. G-V =
+  7.0566 - 7.232 = -0.1754.  Soubiran22 PASTEL compendium:
+  Teff=5743+-17K, logg=4.43+-0.04, [Fe/H]=-0.01+-0.02. Both the
+  Casagrande14 IRFM Teffs are spot-on compared to the Sun (5772K):
+  5765+-23K(Casagrande14/IRFM/TYC2-SAAO), 5777+-25K(TYC2-2MASS).
+  GaiaDR3: plx=33.1373+-0.024mas(GaiaDR3).
  
 HD 195034 = HIP 100963 = LTT 15980 = NLTT 49310 = SAO 88711 = SPOCS 3145 = TYC 1644-1157-1 
   G2V: Hinkel17(assigned based on solar twin status in YanaGalarza16)
@@ -794,7 +822,80 @@ HD 166435 = HIP 88945
   = 1.517.  Soubiran22 PASTEL compendium: Teff=5793+-19K(Soubiran22),
   logg=4.43+-0.04(Soubiran22), [Fe/H]=-0.01+-0.02(Soubiran22).
 
- 
+HD 167060 = HIP 89650 = 2MASS J18174414-6142317 = Gaia DR3 6634011506225360640
+  G3V: Houk75
+
+  One of 8 solar twins in Casagrande14(Table2).  Appears also in
+  Ramirez14, TucciMaia15, Spina16, DosSantos16, TucciMaia16, Casali20,
+  Gordon22.  V=8.92(TYC), V=8.93(HIP), V=8.940977(GaiaDR3/synth),
+  V=8.943(Casagrande14), B-V=0.644(Casagrande14),
+  V-Rc=0.354(Casagrande14), V-Ic=0.679(Casagrande14),
+  J=7.781+-0.029(2MASS), J=7.842+-0.004(Casagrande14/SAAO),
+  H=7.506+-0.034(2MASS), H=7.504+-0.003(Casagrande14/SAAO),
+  Ks=7.431+-0.033(2MASS), K=7.458+-0.008(Casagrande14/SAAO).  Teffs:
+  5861+-29K(Casagrande14/IRFM/TYC2-SAAO),
+  5864+-35K(Casagrande14/IRFM/TYC2-2MASS),
+  5823+-34K(Casagrande14/IRFM/JC-SAAO).  Metallicities:
+  [Fe/H]=-0.037+-0.005(Ramirez14), [Fe/H]=-0.020+-0.050(Soto18),
+  [Fe/H]=-0.015+-0.003(Spina18), [Fe/H]=-0.010+-0.000(Spina16),
+  [Fe/H]=+0.01(Luck18). Surface gravities: logg=4.40+-0.01(Spina16),
+  logg=4.40(Luck18), logg=4.415+-0.011(Spina18),
+  logg=4.42+-0.30(Soto18), logg=4.44+-0.02(Ramirez14).
+  G=8.785940+-0.002762(GaiaDR3).  Absolute magnitudes adopting
+  plx=13.6204+-0.0150(GaiaDR3) => M_G = 4.457+-0.004, Mv =
+  4.614+-0.002 (~0.2 mag brighter than Sun), M_Ks = 3.102+-0.033.
+
+
+
+HD 71334 = HIP 41317 
+
+  One of 8 solar twins in Casagrande14(Table2).  Teffs:
+  5741+-22K(Casagrande14/IRFM/TYC2-SAAO),
+  5739+-27K(Casagrande14/IRFM/TYC-2MASS),
+  5719+-32K(Casagrande14/IRFM/JC-SAAO).  Get photometry from
+  Casagrande14.
+
+HD 78534 = HIP 44935 
+
+  One of 8 solar twins in Casagrande14(Table2). Teffs:
+  5774+-29K(Casagrande14/IRFM/TYC2-SAAO),
+  5803+-30K(Casagrande14/IRFM/TYC2-2MASS),
+  5790+-36K(Casagrande14/IRFM/JC-SAAO).  Get photometry from
+  Casagrande14.
+
+HD 78660 = HIP 44997
+
+  One of 8 solar twins in Casagrande14(Table2). Teffs:
+  5784+-25K(Casagrande14/IRFM/TYC2-SAAO),
+  5791+-30K(Casagrande14/IRFM/TYC2-2MASS),
+  5726+-30K(Casagrande14/IRFM/JC-SAAO).
+  Get photometry from Casagrande14. 
+
+HD 115169 = HIP 64713 
+
+  One of 8 solar twins in Casagrande14(Table2). Teffs:
+  5822+-36K(Casagrande14/IRFM/TYC2-SAAO),
+  5853+-36K(Casagrande14/IRFM/TYC2-2MASS),
+  5740+-32K(Casagrande14/IRFM/JC-SAAO).
+  Get photometry from Casagrande14. 
+
+HD 142331 = HIP 77883 = 2MASS J15541979-0834493 = Gaia DR3 4347960427864280576
+  G0: Cannon
+  G5V: Houk99
+
+  One of 8 solar twins in Casagrande14(Table2), slightly cooler, lower
+  logg, older (~7 Gyr), similar rotation (Lorenzo-Oliveira19).
+  V=8.727(Casagrande14), B-V=0.681(Casagrande14),
+  V-Rc=0.368(Casagrande14), V-Ic=0.719(Casagrande14),
+  J=7.476+-0.021(2MASS), J=7.556+-0.010(Casagrande14/SAAO),
+  H=7.176+-0.038(2MASS), H=7.194+-0.010(Casagrande14/SAAO),
+  Ks=7.125+-0.034(2MASS), K=7.149+-0.012(Casagrande14/SAAO), Teffs:
+  5670+-30K(Casagrande14/IRFM/TYC2-SAAO),
+  5660+-35K(Casagrande14/IRFM/TYC2-2MASS),
+  5674+-33K(Casagrande14/IRFM/JC-SAAO).
+  plx=16.4057+-0.0312mas(GaiaDR3).
+
+
 
 Querying the Soubiran22 PASTEL compendium catalog (which has averages of literature
 spectroscopic parameters) for stars that have Teffs +-50K of solar (5722-5822),
@@ -832,6 +933,16 @@ HD_139777
 HD_166435
 HD_138573
 HD_101364
+
+Casagrande14 (Table 2) presents IRFM Teffs and Johnson-Cousins-SAAO photometry for 8 solar twins:
+HD 71334
+HD 78534
+HD 87660
+HD 115169
+HD 142331
+HD 167060
+HD 146233
+HD 138573 
 
 
 ### Deprecated Standards or Variants

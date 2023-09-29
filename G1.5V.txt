@@ -26,6 +26,17 @@ Keenan99 standards:    HD 20619 - G1.5V
                        HD 53705 - G1.5V
 GrayNstars standard:   16 Cyg A - G1.5V
 
+
+(B-V)(G1.5V) = 0.658 ; standard HD 20619 (Koen10)
+
+(U-B)(G1.5V) = 0.123 ; standard HD 20619 (Koen10)
+
+(V-Rc)(G1.5V) = 0.348 ; standard HD 20619 (Koen10)
+
+(V-Ic)(G1.5V) = 0.696 ; standard HD 20619 (Koen10)
+
+(R-Ic)(G1.5V) = 0.348 ; standard HD 20619 (Koen10)
+
 Teff(G1.5V) = 5806 K ; Teff from smoothed SpT(Teff) trend
 Teff(G1.5V) = 5813 K ; stan. 16 Cyg A (Ramirez11)
 Teff(G1.5V) = 5826 K ; halfway between G2V(5772K,Sun) and G1V(5880K adopted)
@@ -35,6 +46,9 @@ Teff(G1.5V) = 5839+-42 K ; stan. 16 Cyg A (White13, CHARA)
 (G-V)(G1.5V) = -0.146 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5830K (GaiaDR3 Gmags,SIMBAD Vmags)
 
 BCv(G1.5V) = -0.071 [last updated 8/3/2018, on scale where BCv(5772K)=-0.08]
+
+logg(G1.5V) = 4.393 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5830K (see G0V.txt)
+=> adopt logg(G1.5V) = 4.39 [updated 9/15/2023]
 
 # Standards
 
@@ -58,8 +72,12 @@ HD 10307 = HR 483
 HD 20619
   G1.5V: Keenan85,Keenan99
 
-HD 53705 = HR 2667
+  V=7.039(Koen10), B-V=0.658(Koen10), U-B=0.123(Koen10),
+  V-Rc=0.348(Koen10), V-Ic=0.696(Koen10), R-Ic=0.348(Koen10).
+
+HD 53705 = HIP 34069 = HR 2667
   G1.5V: Keenan99
+
 
 HD 34411
   G1.5IV-V Fe-1: Keenan85G

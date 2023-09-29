@@ -81,6 +81,7 @@ Mean color of Hipparcos G0III stars w/i 75 pc is 0.591 (N=6)
 (B-V)(G0V) =   0.510 ; BakisEker22 
 <B-V>(G0V) =   0.62  ; G0V in Hyades Wilson62(N=1)
 (B-V)(G0V) =  0.603  ; Gray01/03/06 in xHIP d<50pc interp [Fe/H]=0.0
+(B-V)(G0V) =  0.602 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 <B-V>(G0V) =   0.60  ; Fitzgerald70
 (B-V)(G0V) =   0.60  ; JohnsonMorgan53
 <B-V>(G0V) =  0.600  ; exemplar HD 105 (see below)
@@ -95,7 +96,7 @@ Mean color of Hipparcos G0III stars w/i 75 pc is 0.591 (N=6)
 (B-V)(G0V) =  0.590 (+-0.006 sem, +-0.023 stdev) med. of 38 ARICNS G0V stars
 (B-V)(G0V) =   0.59  ; Johnson66
 (B-V)(G0V) =   0.59  ; Morgan71
-(B-V)(G0V) =  0.588 ; prim. stan. bet CVn ([Fe/H] ~ -0.21)
+(B-V)(G0V) =  0.588 ; pri. stan. bet CVn = HD 109358 = GJ 475 = HIP 61317 ([Fe/H]=-0.20)
 <B-V>(G0V) =  0.585 (+-0.002 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
 <B-V>(G0V) =   0.58  ; MorganAbt73/TableIII
 (B-V)(G0V) =   0.58  ; SchmidtKaler82, KenyonHartmann95
@@ -113,16 +114,19 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 => adopt (J-H)(G0V)  = 0.262
 => adopt (K-W1)(G0V) = 0.058
 
+(U-B)(G0V) = 0.046 ; pri. stan. bet CVn = HD 109358 = GJ 475 = HIP 61317 ([Fe/H]=-0.20)
 (U-B)(G0V) = 0.058+-0.055 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
 (U-B)(G0V) = 0.057 ; HIP d<75pc S/N>8 G1V N=133 (Mermilliod91 photometry)
 (U-B)(G0V) =  0.06  ; JohnsonMorgan53
+(U-B)(G0V) = 0.085 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 (U-B)(G0V) = 0.087 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.595
 (U-B)(G0V) =  0.11  ; Johnson66 [big discrepency!]
 => adopt (U-B)(G0V) = 0.087 [updated 9/1/2023]
 
 (V-Rc)(G0V) = 0.330 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
 (V-Rc)(G0V) =  0.334 ; HIP 9829 (Koen10)
-(V-Rc)(G0V) = 0.341 ; B-V vs V-Rc trend for B-V=0.595 
+(V-Rc)(G0V) = 0.341 ; B-V vs V-Rc trend for B-V=0.595
+(V-Rc)(G0V) = 0.344 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 (V-Rc)(G0V) =  0.348 ; HIP 15442 (Koen10)
 (V-Rc)(G0V) =  0.355 ; HIP 36515 (Koen10)
 => adopt (V-Rc)(G0V) = 0.34  [updated 1/15/2023]
@@ -130,6 +134,7 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 (V-Ic)(G0V) =  0.704 ; HIP 9829 (Koen10)
 (V-Ic)(G0V) =  0.696 ; HIP 15442 (Koen10)
 (V-Ic)(G0V) =  0.690 ; HIP 36515 (Koen10)
+(V-Ic)(G0V) = 0.68  ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 (V-Ic)(G0V) = 0.674 ; B-V vs V-Ic trend for B-V=0.595
 <V-Ic>(G0V) = 0.669 ; Gray01/03/06 81 G0Vs HIP V-Ics (+-0.001 sem, +-0.024 stdev)
 (V-Ic)(G0V) =  0.66 ; Bessell88 
@@ -141,9 +146,13 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 
 <R-Ic>(G0V)  = 0.303 ; Bessell79
 
+(V-Jj)(G0V)  = 1.03 ; Johnson66 
+
+(V-Kj)(G0V)  = 1.35 ; Johnson66 
 
 (V-Ks)(G0V) = 1.416 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
 (V-Ks)(G0V) = 1.428 (+-0.043) ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.595
+(V-Ks)(G0V) = 1.521 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 
 (Ks-W1)(G0V) = 0.058 ; EEM trend for d<30pc for B-V=0.596
 => adopt (Ks-W1)(G0V) = 0.058 [updated 12/29/2019]
@@ -222,6 +231,7 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 
 (g-r)(G0V) = 0.442 ; Jordi06 (V-R)=>(g-r) for V-R=0.343
 (g-r)(G0V) = 0.423 ; Bilir05 (B-V)=>(g-r) for B-V=0.596
+(g-r)(G0V) = 0.401 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 (g-r)(G0V) = 0.403 ; Just08/Chonis08 B-V=>g-r for B-V=0.595
 (g-r)(G0V) = 0.382 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
 (g-r)(G0V) = 0.38  ; Covey07
@@ -230,12 +240,12 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 (r-i)(G0V) = 0.102 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
 (r-i)(G0V) = 0.105 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.33
 
-
+Teff(G0V) =  5812 K ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22) (logg=4.25)
 Teff(G0V) =   5844 +- 66 K  ; vanBelle09
 Teff(G0V) =   5860 K ; GrayCorbally94
 Teff(G0V) =   5860 K ; Gray03 
-Teff(G0V) =  5865 K ; ter. stan. kap For ([Fe/H] = -0.07, see below)
-Teff(G0V) =  5878 K ; pri. stan. beta CVn ([Fe/H] = -0.20, see below)
+Teff(G0V) =  5865 K ; ter. stan. kap For ([Fe/H] = -0.07)
+Teff(G0V) =  5878 K ; pri. stan. beta CVn ([Fe/H] = -0.20)
 Teff(G0V) =  5895 K ; median photometric Teff
 Teff(G0V) =   5900 K ; GrayCorbally09
 Teff(G0V) =  5900 K ; median of Valenti05 Teffs for 43 G0V stars from Gray03/06
@@ -333,10 +343,10 @@ Rad(G0V) =  1.0527 Rsun ; Eclipsing binary KX Cnc A (Southworth20; 1.0-1.5 Gyr/s
 => adopt Rad(G0V)  = 1.100 Rsun [updated 10/30/2020]
 
 Mass(G0V) = 1.028 Msun ; Bertelli09 solar tracks Teff=5930K,logL=0.122
-Mass(G0V) =  1.04 Msun ; Habets81
+Mass(G0V) =   1.04 Msun ; Habets81
+Mass(G0V) =  1.061 Msun ; EEM fit to Torres10 binaries for Mv=4.5
 Mass(G0V) = 1.065 Msun ; Fernandes21 calibration for logL=0.130 
 Mass(G0V) = 1.066 Msun ; Ekers18 ML calibration for logL=0.130
-Mass(G0V) =  1.061 Msun ; EEM fit to Torres10 binaries for Mv=4.5
 Mass(G0V) =  1.073 Msun ; Ekers15 ML calibration for logL=0.130
 Mass(G0V) =  1.075 Msun ; EEM logL vs. Mass fit (logL=0.130)
 Mass(G0V) =  1.091 Msun ; exemplar pi Men ([Fe/H]=+0.09)
@@ -344,35 +354,38 @@ Mass(G0V) =  1.120 Msun ; HenryMcCarthy93 fit for Mv=4.5
 Mass(G0V) =  1.1345 Msun ; Eclipsing binary KX Cnc A (Southworth20; 1.0-1.5 Gyr/supersolar)
 Mass(G0V) =  1.1348 Msun ; Eclipsing binary ZZ UMa A (Southworth22)
 Mass(G0V) =  1.182 Msun ; EEM Teff vs Mass fit (Teff=5930K)
-=> adopt Mass(G0V) = 1.07 Msun [updated 8/3/2023]
+=> adopt Mass(G0V) = 1.07 Msun [updated 9/15/2023]
 
 logg(G0V) =  4.03 ; ter. stan. HD 14802 = kap For
 logg(G0V) =   4.1782 ; Eclipsing binary ZZ UMa A (Southworth22)
 logg(G0V) =  4.22 ; sec. stan. HD_19373 = iot Per
+logg(G0V) =  4.25 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22) 
 logg(G0V) =  4.29 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
-logg(G0V) = 4.35 ; median for 44 Gray03/Gray06 G0V stars with Valenti05 logg
-logg(G0V) = 4.381 ; M=1.07Msun, logL=+0.130, logTeff=3.773
+logg(G0V) = 4.35  ; median for 44 Gray03/Gray06 G0V stars with Valenti05 logg
+logg(G0V) = 4.371 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5930K (see G0V.txt)
+logg(G0V) =   4.380 ; M=1.06Msun, logL=0.130, Teff=5730K
+logg(G0V) = 4.384 ; M=1.07Msun, logL=0.130, Teff=5730K
+logg(G0V) =   4.388 ; M=1.08Msun, logL=0.130, Teff=5730K
 logg(G0V) =  4.39 ; exemplar HD 39091 = pi Men 
-logg(G0V) =  4.42 ; pri. stan. bet CVn = HD 109358
+logg(G0V) =  4.42 ; pri. stan. bet CVn = HD 109358 = GJ 475 = HIP 61317 ([Fe/H]=-0.20)
 logg(G0V) =  4.44 ; exemplar HD 50692 = 37 Gem 
 logg(G0V) =  4.46 ; ter. stan. HD 39587 = chi01 Ori 
 logg(G0V) =   4.4825 ; Eclipsing binary KX Cnc A (Southworth20; 1.0-1.5 Gyr/supersolar)
 logg(G0V) =  4.52 ; exemplar HD 105 (young, likely ZAMS)
-=> adopt logg(G0V) = 4.38 [updated 8/20/2023]
+=> adopt logg(G0V) = 4.38 [updated 9/15/2023]
 
 
 # No standard
 
-Houk75 does not list a G0V standard. Houk mentions Bet Com was listed
+Houk75 does not list a G0V standard. Houk mentions bet Com was listed
 as a G0V standard by MK73, but MK73 was only published when they were
-half way done with Volume 1 (1975). Instead, Houk considered Bet Com
-to be a G2V standard. Hence, among the early Gs, it is possible that
-Houk's stars are ~2 subtypes later than what Morgan/Keenan would
-adopt.
+half way done with Volume 1 (1975). Instead, Houk considered bet Com
+to be a G2V standard. Hence, among the early Gs, this explains why the
+Houk's stars are ~2 subtypes later than compared to Keenan/Gray types.
 
 # Primary Standard
 
-bet CVn = HD 109358 = HR 4785 = GJ 475
+bet CVn = HD 109358 = GJ 475 = HIP 61317 = HR 4785 = Chara = WDS J12337+4121Aa,Ab
  *G0V: MKK43,JM53,Morgan65,Garrison72(stan),MK73,KeenanMcNeil76(stan),Jaschek78,Keenan80,Keenan85,Turnshek85(stan),Keenan88,Garrison94,Gray01,Gray03,GrayNstars
   G1V: MorganAbt73
 
@@ -382,7 +395,7 @@ bet CVn = HD 109358 = HR 4785 = GJ 475
   V=4.260+-0.007(Mermilliod91), V=4.240+-0.002(Bourges17),
   U-B=0.046+-0.011(Mermilliod91).  PASTEL mean values (Soubiran22):
   Teff=5878+-14K(N=38), logg=4.42+-0.02(N=26),
-  [Fe/H]=-0.20+-0.01(N=28).  plx = 116.1298 +- 0.6776 mas (GaiaDR2),
+  [Fe/H]=-0.20+-0.01(N=28). plx = 116.1298 +- 0.6776 mas (GaiaDR2),
   plx= 118.0266+-0.1530(GaiaEDR3).  Mv=4.59(HIP,GaiaDR2).  GaiaDR2
   photometry, G corrected, Bp and Rp OK.  G = 4.0147+-0.0047 (GaiaDR2,
   uncorrected), G(corr)=4.098, Bp-Rp = 0.7667, Bp-G = 0.318(corr),
@@ -548,13 +561,26 @@ HD 141004 = lam Ser = HR 5868 = GJ 598
   mass=1.09+-0.04(Metcalfe23), logR'HK=-5.004(Baliunas96,Metcalfe23),
   Prot=24.3+3.7-4.9day(Metcalfe23).
 
-rho CrB = HD 143761 = HR 5968 
+rho CrB = HD 143761 = HIP 78459 = HR 5968 
   F8V: 1957ArA.....2...55O
- *G0+Va Fe-1: Keenan85,Keenan89(stan)
-  G0V: 1927MeUpp..28....1L,Adams35,Hagan67,Gray01,Gray06
+  G0+Va Fe-1: Keenan85,Keenan89(stan)
+ *G0V: 1927MeUpp..28....1L,Adams35,Hagan67,Gray01,Gray03
   G0IV: Cowley76
   G1: Bidelman85
   G2V: Roman52(lines weak),Roman55,Harlan81
+
+  Exoplanet host star (4 planets; Brewer23).  V=5.39(HIP),
+  V=5.40(TYC), V=5.40(Johnson66), V=5.403181(GaiaDR3/synth),
+  V=5.417+-0.018(Mermilliod91), B-V=0.60(Johnson66),
+  B-V=0.601+-0.010(Mermilliod91), B-V=0.602(Just08),
+  B-V=0.608+-0.003(TYC), B-V=0.612+-0.003(HIP),
+  U-B=0.085+-0.008(Mermilliod91), U-B=0.09(Johnson66),
+  V-Rc=0.344(Just08), g-r=0.411(Just08).  2MASS data is flagged "DEE":
+  J=4.088+-0.240(flag=E), H=3.989+-0.036(flag=E),
+  Ks=3.857+-0.036(2MASS,flag=E), Ks=3.876(Rieke22/2MASS sys),
+  Ks=3.882(Rieke22/2MASS sys/transformed from ground).  V-Ks =
+  5.403(GaiaDR3/synth) - 3.882(Rieke22) = 1.521. Soubiran22/PASTEL
+  mean values: Teff=5812+-11K, logg=4.25+-0.03, [Fe/H]=-0.22+-0.01.
 
 HD 160269 = 26 Dra = HR 6573
  *F9V+K3V: Edwards76
@@ -706,6 +732,16 @@ HD 117618 = HIP 66047
 
   Solar metallicity in PASTEL/Soubiran22: Teff=5995+-15K, logg=4.37+-0.03, [Fe/H]=0.02+-0.02.
 
+HD 4307
+  F8V: Adams35
+  hG0gF8mF8: Jaschek89
+ *G0V: Appenzeller67,Gray06
+  G2V: Houk88
+
+  V=6.147(Rieke22), J=4.981(Rieke22/2MASS sys), H=4.723(Rieke22/2MASS
+  sys), Ks=4.610(Rieke22/2MASS sys), Ks=4.599(Rieke22/2MASS sys).
+  
+
 
 
 # B-V vs. Mv COLOR-MAG SEQUENCE
@@ -829,4 +865,27 @@ G5V    => G4.5V
 G5/6V  => G6V
 G8V    => G8.5V
 K0V    => K0V
+
+
+# Surface gravity log(g) for FGK stars
+
+Started with Soubiran22/PASTEL catalog, cross-IDed against SIMBAD, selected those with plx > 20mas (d<50pc)
+and removed those with default spectral types with luminosity class III or IV (rejecting also IV-V), and
+retained those with -0.1 < [Fe/H] < 0.1 and 4 < logg < 5 to keep ~solar metallicity dwarf stars(N=547 FGK *s).
+
+Resulting trend:
+
+logg =  1.7674837379587839e3 - 1.4628765144589158e3*log10(Teff) + 4.0469730403310120e2*log10(Teff)^2 - 3.7325171932329120e1*log10(Teff)^3  (rms = 0.112 dex in logg).
+
+Clipping the few points on the ends, the trend is well-defined for 3.655 < log(Teff) < 3.808 (4519K < Teff < 6427K)
+
+# Metallicity distribution for local G dwarfs
+
+Querying SIMBAD for d<25pc stars and cross-IDing with
+Soubiran22/PASTEL catalog, and selecting those with 5290K <= Teff <=
+5930K and 4 < logg < 5 (i.e. effectively G dwarfs) - one finds that
+the distribution of metallicities for the local G dwarf population is:
+
+<[Fe/H](F)> = -0.056 (sem +-0.012, st.dev. 0.211 dex; N=216)
+(Chauvenet criterion clipped 3 values: -0.88, -0.85, -0.83; min -0.88, max +0.43)
 

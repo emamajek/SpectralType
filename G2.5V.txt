@@ -20,18 +20,27 @@ Teff(G2.5V) = 5739 K ; Teff from smoothed SpT(Teff) trend
 (G-V)(F7V) = -0.153 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5740K (GaiaDR3 Gmags,SIMBAD Vmags)
 
 BCv(G2.5V) = -0.086 [last updated 8/3/2018, on scale where BCv(5772K)=-0.08]
-                
+
+logg(G2.5V) = 4.411 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5740K (see G0V.txt)
+=> adopt logg(G2.5V) = 4.41 [updated 9/15/2023]
+
 # Standard
 
 HD 1835 = 9 Cet = BE Cet = HR 88 = GJ 17.3 = GJ 9012
-  G2V: Keenan85
-  G2.5V: Keenan88(stan),Keenan89,Keenan99
+  G2V: Adams35,Appenzeller67,Keenan85
+ *G2.5V: Keenan88(stan),Keenan89,Keenan99
   G2V m+0.25: Gray89
+  G3:: Bidelman85
+  G3V: Houk88
+  G4/5V: McNeil86("Keenan type from Balmer lines")
+  G5V: McNeil86("obj-prism spec"),McNeil86("slit spec")
   G5V CH-0.5: Gray06
 
-  Neither of Gray's published types agrees with Keenan's. 
-  Probably not a good standard. 2MASS: J=5.035+-0.034(2MASS),
-  H=5.035+-0.034(2MASS), Ks=4.861+-0.016(2MASS). 
+  Neither of Gray's published types agrees with Keenan's.  Probably
+  not a good standard. 2MASS: J=5.035+-0.034(2MASS),
+  J=5.231(Rieke22/2MASS sys), H=5.035+-0.034(2MASS),
+  H=4.950(Rieke22/2MASS sys), Ks=4.861+-0.016(2MASS),
+  Ks=4.856(Rieke22/2MASS sys).
 
 HD 140538 = psi Ser = HR 5853
   G2.5V: Keenan85,Keenan88

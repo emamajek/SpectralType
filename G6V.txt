@@ -15,6 +15,7 @@ listed it as G6V. Unfortunately Gray06 classified it as G8V.
 Keenan99 standard:  82 Eri (HD 20794) - G6V
 Strassmeier90 stan: 61 Vir (HR 5019)  - G6V 
 
+(B-V)(G6V) = 0.730 ; HD 54371 = HIP 34567 (Koen10) ~solar
 (B-V)(G6V) = 0.724 ; non-stan. HD 105913
 (B-V)(G6V) =  0.72  ; Fitzgerald70
 (B-V)(G6V) = 0.716 ; non-stan. HD 18803
@@ -27,6 +28,7 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 (B-V)(G6V) = 0.700 ; exemplar HD 54371 
 (B-V)(G6V) = 0.697 (+-0.014 sem, +-0.045 stdev; med. 12 ARICNS G6V stars
 (B-V)(G6V) = 0.696 ; interp G5V(B-V=0.68),G8V(B-V=0.73)
+(B-V)(G6V) = 0.695 ; HD 26913 = HIP 19855 (Koen10) ~solar
 <B-V>(G6V) = 0.693 (+-0.005 sem, +-0.024 stdev; Gray01/03/06 N=22)
 (B-V)(G6V) = 0.692 ; exemplar HD 171067 (solar metallicity)
 (B-V)(G6V) = 0.68  ; median CATSUP d<30pc (N=11)
@@ -40,7 +42,9 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 => adopt (J-H)(G6V)  = 0.324
 
 (U-B)(G6V) =  0.180 ; HIP d<75pc S/N>8 G6V N=21 (Mermilliod91 photometry)
+(U-B)(G6V) = 0.210 ; HD 26913 = HIP 19855 (Koen10) ~solar
 (U-B)(G6V) = 0.231 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.70
+(U-B)(G6V) = 0.262 ; HD 54371 = HIP 34567 (Koen10) ~solar
 => adopt (U-B)(G5V) = 0.231 [updated 9/1/2023]
 
 (V-Ks)(G6V) =  1.660 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.700
@@ -94,19 +98,19 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 (G-Rp)(G6V) =  0.511   ; color trend for B-V=0.70
 => adopt (G-Rp)(G6V) = 0.48 [updated 11/15/2020]
 
-(V-Rc)(G6V) = 0.368 ; HIP 3979 (Koen10)
-(V-Rc)(G6V) = 0.377 ; HIP 102264 (Koen10)
-(V-Rc)(G6V) = 0.381 ; HIP 19855 (Koen10)
+(V-Rc)(G6V) =  0.368 ; HIP 3979 (Koen10)
+(V-Rc)(G6V) =  0.377 ; HIP 102264 (Koen10)
+(V-Rc)(G6V) = 0.381 ; HD 26913 = HIP 19855 (Koen10) ~solar
 (V-Rc)(G6V) = 0.384 ; trend B-V vs V-Rc for B-V=0.700
-(V-Rc)(G6V) = 0.391 ; HIP 34567 (Koen10)
-=> adopt (V-Rc)(G6V) = 0.38  [updated 1/15/2023]
+(V-Rc)(G6V) = 0.391 ; HD 54371 = HIP 34567 (Koen10) ~solar
+=> adopt (V-Rc)(G6V) = 0.38 [updated 9/15/2023]
 
 (V-Ic)(G6V) =  0.720 ; HIP 3979 (Koen10)
 (V-Ic)(G6V) =  0.731 ; HIP 102264 (Koen10)
-(V-Ic)(G6V) =  0.740 ; HIP 19855 (Koen10)
+(V-Ic)(G6V) = 0.740 ; HD 26913 = HIP 19855 (Koen10) ~solar
 <V-Ic>(G6V) = 0.748 (+-0.005 sem, +-0.023 stdev; Gray01/03/06 N=22)
 (V-Ic)(G6V) = 0.750 ; trend B-V vs V-Ic for B-V=0.700
-(V-Ic)(G6V) =  0.760 ; HIP 34567 (Koen10)
+(V-Ic)(G6V) = 0.760 ; HD 54371 = HIP 34567 (Koen10) ~solar
 <V-Ic>(G6V) =  0.760 ; Bessell79
 <V-Ic>(G6V) = 0.763 (+-0.004 sem, +-0.026 stdev; HIP d<75pc S/N>8 N=141)
 => adopt (V-Ic)(G6V)  = 0.75  [updated 1/15/2023]
@@ -219,8 +223,9 @@ Mass(G6V) = 0.954 Msun ; Fernandes21 calibration for logL=-0.098
 Mass(G6V) =  0.879 Msun ; Habets81
 => adopt Mass(G6V) = 0.965 Msun [updated 8/3/2023]
 
-logg(G6V) = 4.47 ; M=0.97Msun, R=0.949Rsun
-=> adopt logg(G6V) = 4.47 [updated 8/3/2023]
+logg(G6V) = 4.437 ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5600K (see G0V.txt)
+logg(G6V) = 4.47  ; M=0.97Msun, R=0.949Rsun
+=> adopt logg(G6V) = 4.45 [updated 9/15/2023]
 
 # NO standards
 
@@ -278,13 +283,17 @@ HD 216777 = SAO 146393
   B-V=0.659+-0.003(HIP), Mv=5.18. PASTEL mean parameters:
   Teff=5627+-18K, [Fe/H]=-0.41+-0.05, logg=4.45+-0.11.
 
-HD 54371 = SAO 79121
+HD 54371 = HIP 54371 = SAO 79121
  *G6V: Adams35,Gray03 
   G5V: Abt85
   G8V: Harlan69
 
-  PASTEL mean parameters: Teff=5646+-24K, [Fe/H]=+0.06,
-  logg=4.29. V=7.09(HIP), B-V=0.700+-0.015(HIP), Mv=5.09.
+  V=7.062(Koen10), V=7.09(HIP), B-V=0.700+-0.015(HIP),
+  B-V=0.730(Koen10), U-B=0.262(Koen10), V-Rc=0.391(Koen10),
+  V-Ic=0.760(Koen10), R-Ic=0.369(Koen10).  Soubiran22/PASTEL mean
+  parameters: Teff=5613+-25K, logg=4.35+-0.07,
+  [Fe/H]=+0.07+-0.03. Mv=5.09.
+
 
 HD 18803
  *G6V: Adams35,Gray03
@@ -373,5 +382,8 @@ HD 26913 = V891 Tau (BY Dra system)
   logg=4.51+-0.04, [Fe/H]=-0.03+-0.02.  Poor agreement in types,
   probably since its an active spotted star.  Montes01 includes it in
   UMa group. Baliunas96 Mt. Wilson star with <logR'HK> = -4.391,
-  rotation period = 7 days, i.e. young and active.
+  rotation period = 7 days, i.e. young and active.  V=6.935(Koen10),
+  B-V=0.695(Koen10), U-B=0.210(Koen10), V-Rc=0.381(Koen10),
+  V-Ic=0.740(Koen10), R-Ic=0.359(Koen10).
+  
 

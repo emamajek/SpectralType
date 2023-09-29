@@ -85,6 +85,7 @@ and within 1 mag of the MS (N=241):
 (B-V)(G3V) = 0.653 ; median SIMBAD G3V d<25pc (N=12)
 (B-V)(G3V) = 0.653 ; exemplar HD 150248 
 (B-V)(G3V) = 0.657 ; tert. stan. HD 26736 (Hyad)
+(B-V)(G3V) = 0.657 ; HD 42618 = HIP 29432 (Koen10) ~solar
 (B-V)(G3V) = 0.661 ; prim. stan. 16 Cyg B
 (B-V)(G3V) = 0.665 ; median CATSUP d<30pc (N=6)
 <B-V>(G3V) = 0.667 ; 17 Gray01/03/06 (+-0.004 sem, +-0.014 stdev; N=17)
@@ -98,19 +99,20 @@ and within 1 mag of the MS (N=241):
 => adopt (J-H)(G3V)  = 0.299
 
 (U-B)(G3V) =  0.114 ; HIP d<75pc S/N>8 G3V N=60 (Mermilliod91 photometry)
+(U-B)(G3V) = 0.136 ; HD 42618 = HIP 29432 (Koen10) ~solar
 (U-B)(G3V) = 0.170 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.66
 => adopt (U-B)(G3V) = 0.170 [updated 9/1/2023]
 
 (V-Ks)(G3V) = 1.570 (+-0.043) ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.660
 
-(V-Rc)(G3V) =  0.361 ; HIP 29432 (Koen10)
+(V-Rc)(G3V) = 0.361 ; HD 42618 = HIP 29432 (Koen10) ~solar
 (V-Rc)(G3V) = 0.365 ; trend B-V vs V-Rc for B-V=0.660
 => adopt (V-Rc)(G3V) = 0.365 [updated 1/15/2023]
 
-(V-Ic)(G3V) =  0.696 ; HIP 29432 (Koen10)
-(V-Ic)(G3V) = 0.718 ; trend B-V vs V-Ic for B-V=0.660
+(V-Ic)(G3V) = 0.696 ; HD 42618 = HIP 29432 (Koen10) ~solar
+(V-Ic)(G3V) = 0.705 ; fit to Koen10 d<25pc B-V vs. V-Ic for -0.1<[Fe/H]<0.1 dwarfs in Soubiran22 for B-V=0.660
 (V-Ic)(G3V) = 0.724 ; Gray01/03/06 17 G3Vs (+-0.007 sem, +-0.020 stdev)
-=> adopt (V-Ic)(G3V)  = 0.72  [updated 1/15/2023]
+=> adopt (V-Ic)(G3V)  = 0.705 [updated 9/15/2023]
 => adopt (Rc-Ic)(G3V) = 0.355 [updated 1/15/2023; V-Ic=0.72, V-Rc=0.365]
 
 (Ks-W1)(G3V) = 0.061 ; EEM trend for d<30pc for B-V=0.66
@@ -242,8 +244,9 @@ Mass(G3V) = 0.993 Msun ; Fernandes21 calibration for logL=-0.014
 Mass(G3V) =  0.98  Msun ; pri. stan. 16 Cyg B (see below)
 => adopt Mass(G3V) = 0.99 Msun [updated 8/3/2023]
 
-logg(G3V) = 4.43 ; M=0.99Msun, R=1.002Rsun
-=> adopt logg(G3V) = 4.43 [updated 8/3/2023]
+logg(G3V) = 4.415 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5720K (see G0V.txt)
+logg(G3V) = 4.43  ; M=0.99Msun, R=1.002Rsun
+=> adopt logg(G3V) = 4.42 [updated 9/15/2023]
 
 # No standards
 

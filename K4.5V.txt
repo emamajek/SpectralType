@@ -18,10 +18,12 @@ redder than the median for K5V.
 (B-V)(K4.5V) =  1.118 ; non-stan. HD 109368
 (B-V)(K4.5V) = 1.128 ; exemplar HIP 17346 = GJ 149A 
 (B-V)(K4.5V) =  1.130 ; non-stan. HD 21749
+(B-V)(K4.5V) = 1.136 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
 (B-V)(K4.5V) =  1.143 ; non-stan. HD 214749
 (B-V)(K4.5V) =  1.143 ; non-stan. HD 12058
 (B-V)(K4.5V) = 1.15  ; adopted for K5V
 (B-V)(K4.5V) = 1.155 ; exemplar BD-21_3153 ([Fe/H]=-0.17)
+(B-V)(K4.5V) = 1.156 ; HD 214749 = HIP 111960 (Koen10) ~solar 
 (B-V)(K4.5V) =  1.157 ; non-stan. HD 4838
 (B-V)(K4.5V) = 1.158 ; Koen10 median d<25pc K4.5V
 (B-V)(K4.5V) =  1.194 ; non-stan. HD 17660
@@ -44,18 +46,26 @@ redder than the median for K5V.
 => adopt (G-J)(K4.5V)   = 1.683
 => adopt (G-Ks)(K4.5V)  = 2.364
 
+(U-B)(K4.5V)  = 1.005 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
+
+(V-Rc)(K4.5V) = 0.677 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
+
+(V-Ic)(K4.5V) = 1.249 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
+
+(R-Ic)(K4.5V) = 0.572 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
+
+
 (V-Ks)(K4.5V) = 2.705 ; exemplar HD 21749 = GJ 143 = TOI-186 ([Fe/H]=+0.03)
 (V-Ks)(K4.5V) = 2.750 ; exemplar HIP 17346 = GJ 149A
 (V-Ks)(K4.5V) = 2.754 ; exemplar GJ 9260 = HIP 40671 ([Fe/H]=0.00)
 (V-Ks)(K4.5V) = 2.755 ; trend for K dwarfs (standards+exemplars)
 (V-Ks)(K4.5V) = 2.793 ; trend for B-V=1.12
+(V-Ks)(K4.5V) = 2.802 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
 
 
 (Ks-W1)(K4.5V) = 0.089 ; EEM trend for d<30pc for B-V=1.12
 => adopt (Ks-W1)(K4.5V) = 0.089 [updated 12/29/2019]
 
-M_G(K4.5V) = 6.764 ; SIMBAD d<20pc trend for V-Ks=2.793
-M_G(K4.5V) = 6.875 ; exemplar HIP 52776 = BD-21_3153 ([Fe/H]=-0.17)
 
 (G-V)(K4.5V) = -0.407 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=4550K (GaiaDR3 Gmags,SIMBAD Vmags)
 (G-V)(K4.5V) = -0.419 ; trend for SIMBAD d<20pc for V-Ks=2.793
@@ -71,14 +81,20 @@ M_G(K4.5V) = 6.875 ; exemplar HIP 52776 = BD-21_3153 ([Fe/H]=-0.17)
 => adopt (Bp-G)(K4.5V)=0.66 [updated 3/1/2019; Bp-Rp=1.38, G-Rp=0.72]
 
 (g-r)(K4.5V) = 0.977 ; Just08/Chonis08 B-V=>g-r for B-V=1.12
+(g-r)(K4.5V) = 0.987 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
 => adopt (g-r)(K4.5V) = 0.977 [updated 9/1/2023]
+
+(r-i)(K4.5V) = 0.335 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
 
 (g-V)(K4.5V) = 0.583 ; Jordi06 B-V=>g-V for B-V=1.12
 (g-V)(K4.5V) = 0.584 ; Just08/Chonis08 B-V=>g-V for B-V=1.12
 => (g-V)(K4.5V) = 0.584 [updated 9/1/2023]
 
+(NUV-V)(K4.5V) = 8.122 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
+
 Teff(K4.5V) =  4440 K ; adopted for K5V 
 Teff(K4.5V) = 4505 K ; halfway between K4V and K5V
+Teff(K4.5V) = 4542 K ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
 Teff(K4.5V) = 4547 K ; smooth Teff(SpT) trend
 Teff(K4.5V) = 4550 K ; interp K4V-K5V by Teff/B-V
 Teff(K4.5V) = 4556 K ; exemplar HD 21749 = GJ 143 = TOI-186 ([Fe/H]=+0.03)
@@ -91,11 +107,18 @@ BCv(K4.5V) = -0.545 ; Bessell98 calib for Teff=4550K, where BCv(5772K)=-0.085
 BCv(K4.5V) = -0.569 ; median of 5 calibrations for T=4540K
 => adopt BCv(K4.5V) = -0.569 [last updated 8/3/2018; adjusted so that BCv(5772K)=-0.08]
 
+M_G(K4.5V) = 6.764 ; SIMBAD d<20pc trend for V-Ks=2.793
+M_G(K4.5V) = 6.80  ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
+M_G(K4.5V) = 6.875 ; exemplar HIP 52776 = BD-21_3153 ([Fe/H]=-0.17)
+
+Mv(K4.5V) = 7.23 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
 Mv(K4.5V) = 7.04 ; Wright04 calibration for B-V=1.116
 Mv(K4.5V) = 7.02 ; Koen10 d<25pc median K4.5V
 => adopt Mv(K4.5V)   = 7.04  [updated 5/19/2018]
 => adopt M_Ks(K4.5V) = 4.259 [Mv = 7.04, V-Ks=2.781]
 => adopt M_J(K4.5V)  = 4.938 [Mv = 7.04, V-Ks=2.781, H-Ks=0.127, J-H=0.552]
+
+M_Ks(K4.5V) = 4.42 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
 
 logL(K4.5V) = -0.682 ; Mv=7.04, BCv=-0.596, Mbol=6.444
 => adopt logL(K4.5V) = -0.682 [updated 5/19/2018]
@@ -106,6 +129,10 @@ Mass(K4.5V) = 0.713 Msun ; Mann18 calib for M_Ks=4.259
 
 Rad(K4.5V) = 0.737 ; logL=-0.682, Teff=4540K
 => adopt Rad(K4.5V) = 0.737 Rsun [updated 5/19/2018]
+
+logg(K4.5V) = 4.21+-0.21 ; exemplar HD 214749 = GJ 868 = HIP 111960 ([Fe/H]=+0.10)
+logg(K4.5V) = 4.547 (rms=0.112) ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=4520K (see G0V.txt)
+=> adopt logg(K4.5V) = 4.55 [updated 9/15/2023]
 
 Teff trend for 26 published Teffs (PASTEL) for Gray03/06 K4.5V stars:
 Teff = 4596K - 0.758463e1*[Fe/H]  (rms = 134K)
@@ -164,13 +191,27 @@ HIP 52776 = BD-21_3153 = CPD-21_4795 = PPM 258144 = 2MASS J10472540-2217120 = UG
   [Fe/H]=-0.17+-0.06(Sousa11), logg=4.38+-0.24(Sousa11). plx=29.7994+-0.0178mas(GaiaDR3). M_G=6.875,
   G-Ks=2.3814, M_Ks=4.494.
 
-HD 214749 = UGP 576
+HD 214749 = GJ 868 = HIP 111960 = UGP 576 = 2MASS J22404335-2940278 =  Gaia DR3 6608490501308343168
   K4/5V: Houk82
- *K4.5V k: Gray06
+ *K4.5Vk: Gray06
   K5V: Evans57(K5Ve),Upgren72
 
-  (B-V)=1.143+-0.007(HIP). PASTEL compendium:
-  <Teff>=4551K(N=6), logg=4.0, [Fe/H]=0.06(N=3).
+  Near solar metallicity.  V=7.82(Gliese91), V=7.83(HIP), V=7.84(TYC),
+  V=7.841(Koen10), V=7.845+-0.019(Mermilliod91), B-V=1.129(Just08),
+  B-V=1.136+-0.005(Mermilliod91), B-V=1.143+-0.007(HIP),
+  B-V=1.156(Koen10), U-B=1.00(vanAltena95), U-B=1.005(Mermilliod91),
+  U-B=1.065(Koen10), V-Rc=0.669(Just08), V-Rc=0.685(Koen10),
+  V-Ic=1.261(Koen10), V-Ic=1.237(Just08), R-Ij=0.44(Gliese91),
+  R-Ic=0.576(Koen10), R-Ic=0.568(Just08). g-r=0.987(Just08),
+  r-i=0.335(Just08). J=5.773+-0.019(2MASS), H=5.261+-0.042(2MASS),
+  Ks=5.039+-0.017(2MASS) => (V-Ks) = 7.841 - 5.039 = 2.802.
+  FUV=19.8618(Bilir20), NUV=15.9627(Bilir20), NUV-V = 15.9627(Bilir20)
+  - 7.841(Koen10) = 8.122.  PASTEL compendium: <Teff>=4551K(N=6),
+  logg=4.0, [Fe/H]=0.06(N=3).  Soubiran22/PASTEL mean values:
+  Teff=4542+-20K, logg=4.21+-0.21,
+  [Fe/H]=+0.10+-0.03. G=7.419590+-0.002783(GaiaDR3).
+  plx=75.3248+-0.0232mas(GaiaDR3) => Mv=7.23, M_G=6.80,
+  M_Ks=4.424+-0.017.
 
 StKM 2- 668 = BD-21 3153 (J1047-2217; V=9.9)
  *K4.5V(k): Gray06
