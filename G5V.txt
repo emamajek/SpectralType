@@ -28,26 +28,22 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD
 
 (B-V)(G5V) = 0.706 ; median SIMBAD G5V d<25pc (N=18)
 (B-V)(G5V) = 0.701 ; ter. stan. HD 120690 = HR 5209 ([Fe/H]=-0.02)
-<B-V>(G5V) = 0.70  ; Wilson62(N=3) Hyades
+(B-V)(G5V) = 0.70  ; Wilson62(N=3) Hyades
 (B-V)(G5V) = 0.693 ; ter. stan. HD 26756
 (B-V)(G5V) = 0.69  ; median CATSUP d<30pc sample (N=24)
 (B-V)(G5V) = 0.686 ; exemplar HD 121849 (metal-poor)
 (B-V)(G5V) = 0.682 ; exemplar HD 63433 = HIP 38228 ([Fe/H]=-0.005)
-<B-V>(G5V) = 0.681 ; prim. stan. kap^1 Cet 
+(B-V)(G5V) = 0.681 ; prim. stan. kap^1 Cet 
 (B-V)(G5V) = 0.681 (+-0.005 sem, +-0.047 stdev) ; med. of 70 ARICNS G5V stars
 (B-V)(G5V) =  0.680 ; non-stan. HD 30003
-<B-V>(G5V) =  0.68  ; JohnsonMorgan53
-(B-V)(G5V) =  0.68  ; Fitzgerald70
-(B-V)(G5V) =  0.68  ; Morgan71
-(B-V)(G5V) =  0.68  ; SchmidtKaler82
-(B-V)(G5V) =  0.68  ; Strassmeier90
+(B-V)(G5V) =  0.68  ; JohnsonMorgan53,Fitzgerald70,Morgan71,SchmidtKaler82,Strassmeier90
 (B-V)(G5V) = 0.679 (+-0.011) ; 9 Gray01/03/06 G5V with |[Fe/H]| < 0.1 ("solar")
-<B-V>(G5V) = 0.678 ; median of 360 nearby G5V HIP stars w/i 75pc
+(B-V)(G5V) = 0.678 ; median of 360 nearby G5V HIP stars w/i 75pc
 (B-V)(G5V) = 0.672 ; exemplar HD 13507 = HIP 10321 ([Fe/H]=-0.02)
-<B-V>(G5V) = 0.669 ; median of 55 nearby G5V stars from Gray01/03/06
+(B-V)(G5V) = 0.669 ; median of 55 nearby G5V stars from Gray01/03/06
 (B-V)(G5V) = 0.664 ; exemplar HD 110619
-(B-V)(G5V) =  0.66  ; Johnson66, KenyonHartmann95
-<B-V>(G5V) =  0.604 ; Crawford76
+(B-V)(G5V) =  0.66  ; Johnson66,Johnson68,KenyonHartmann95
+(B-V)(G5V) =  0.604 ; Crawford76
 => adopt (B-V)(G5V)  = 0.680 *** [last updated 8/29/2019]
 => adopt (V-J)(G5V)  = 1.249
 => adopt (V-H)(G5V)  = 1.559
@@ -60,9 +56,33 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD
 (U-B)(G5V) =  0.21  ; JohnsonMorgan53
 => adopt (U-B)(G5V) = 0.200 [updated 9/1/2023]
 
-(V-Kj)(G5V) = 1.14 ; Johnson66
+(V-Rj)(G5V) = 0.54 ; Johnson68
+
+(V-Rc)(G5V) =  0.360 ; HIP 42333 (Koen10)
+(V-Rc)(G5V) =  0.367 ; HIP 64690 (Koen10)
+(V-Rc)(G5V) =  0.370 ; Johnson68 V-Rj=0.54 transformed to V-Rc via Fernie83
+(V-Rc)(G5V) = 0.374 ; trend B-V vs V-Rc for B-V=0.680
+(V-Rc)(G5V) =  0.384 ; HIP 71855 (Koen10)
+(V-Rc)(G5V) =  0.386 ; HIP 50921 (Koen10)
+=> adopt (V-Rc)(G5V) = 0.375 [updated 1/15/2023]
+
+(V-Ij)(G5V) = 0.89 ; Johnson68 
+
+(V-Ic)(G5V) =  0.696 ; HIP 42333 (Koen10)
+(V-Ic)(G5V) = 0.728 ; Gray01/03/06 N=55 G5Vs (+-0.004 sem, +-0.030 stdev)
+(V-Ic)(G5V) =  0.730 ; HIP 64690 (Koen10)
+(V-Ic)(G5V) =  0.731 ; HIP 50921 (Koen10)
+(V-Ic)(G5V) = 0.734 ; trend B-V vs V-Rc for B-V=0.680
+(V-Ic)(G5V) =  0.750 ; HIP 71855 (Koen10)
+=> adopt (V-Ic)(G5V)  = 0.73  [updated 1/15/2023]
+=> adopt (Rc-Ic)(G5V) = 0.355 [updated 1/15/2023; V-Ic=0.73, V-Rc=0.375]
+
+(V-Jj)(G5V) = 1.14 ; Johnson66,Johnson68
+
+(V-Hj)(G5V) = 1.46 ; Johnson68
 
 (V-Kj)(G5V) = 1.49 ; Johnson66
+(V-Kj)(G5V) = 1.53 ; Johnson68
 
 (V-Ks)(G5V) =  1.615 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.680
 (V-Ks)(G5V) =  1.628 ; exemplar HD 13507 = HIP 10321 ([Fe/H]=-0.02)
@@ -90,13 +110,10 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD
 (G-V)(G5V) =  -0.149 ; HD 147513 PM* G5V
 => adopt (G-V)(G5V) = -0.179 [updated 11/1/2020]
 
-Gray01/03/06 list 55 nearby G5V stars. Median HIP colors:
-<B-V>(G5V) = 0.669 (+-0.005 sem, +-0.037 stdev; N=55)
-<V-I>(G5V) = 0.728 (+-0.004 sem, +-0.030 stdev; N=55)
 
 For G5V Hipparcos stars within 75pc, with parallax S/N > 8, 
 and within 1 mag of the MS (N=13):
-<B-V>(G5V)   = 0.678 (+-0.002 sem, +-0.036 stdev; N=360)
+(B-V)(G5V)   = 0.678 (+-0.002 sem, +-0.036 stdev; N=360)
 <V-I>(G5V)   = 0.734 (+-0.003 sem, +-0.030 stdev; N=360)
 <V-J>(G5V)   = 1.232 (+-0.004 sem, +-0.060 stdev; N=360)
 <V-H>(G5V)   = 1.539 (+-0.005 sem, +-0.082 stdev; N=360)
@@ -107,21 +124,6 @@ and within 1 mag of the MS (N=13):
 <V-Vt>(G5V)  =-0.075 (+-0.001 sem, +-0.017 stdev; N=360) 
 <B-K>(G5V)   = 2.306 (+-0.007 sem, +-0.115 stdev; N=360)
 
-(V-Rc)(G5V) =  0.360 ; HIP 42333 (Koen10)
-(V-Rc)(G5V) =  0.367 ; HIP 64690 (Koen10)
-(V-Rc)(G5V) = 0.374 ; trend B-V vs V-Rc for B-V=0.680
-(V-Rc)(G5V) =  0.384 ; HIP 71855 (Koen10)
-(V-Rc)(G5V) =  0.386 ; HIP 50921 (Koen10)
-=> adopt (V-Rc)(G5V) = 0.375 [updated 1/15/2023]
-
-(V-Ic)(G5V) =  0.696 ; HIP 42333 (Koen10)
-(V-Ic)(G5V) = 0.728 ; Gray01/03/06 55 G5Vs (+-0.004 sem, +-0.030 stdev)
-(V-Ic)(G5V) =  0.730 ; HIP 64690 (Koen10)
-(V-Ic)(G5V) =  0.731 ; HIP 50921 (Koen10)
-(V-Ic)(G5V) = 0.734 ; trend B-V vs V-Rc for B-V=0.680
-(V-Ic)(G5V) =  0.750 ; HIP 71855 (Koen10)
-=> adopt (V-Ic)(G5V)  = 0.73  [updated 1/15/2023]
-=> adopt (Rc-Ic)(G5V) = 0.355 [updated 1/15/2023; V-Ic=0.73, V-Rc=0.375]
 
 (Ks-W1)(G5V) = 0.062 ; EEM trend for d<30pc for B-V=0.68
 => adopt (Ks-W1)(G5V) = 0.062 [updated 12/29/2019]
@@ -196,7 +198,7 @@ Teff(G5V) = 5710 K ; pri. stan. kap^1 Cet (see below)
 Teff(G5V) = 5738 K ; median among 974 published Teffs for G5V stars
 Teff(G5V) =  5770 K ; Schmidt-Kaler82
 => adopt Teff(G5V) = 5660 K (logT = 3.753) [updated 9/26/2020]
-[EEM 9/26/2020: note that this Teff(5660K) fits well on the trend of <B-V> vs. Teff for G dwarfs also]
+[EEM 9/26/2020: note that this Teff(5660K) fits well on the trend of (B-V) vs. Teff for G dwarfs also]
 
 BCv(G5V) = -0.116 mag ; Balona94(Teff=5660K)
 BCv(G5V) = -0.110 mag ; Bertone04(Teff=5660K)

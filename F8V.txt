@@ -21,8 +21,6 @@ GrayNstars standard:  HD 27808 - F8V
 
 Skiff08 flags one star as a F8V MK standard: HD 27808 (MK78). 
 
-Gray01/03/06 list 50 nearby F8V stars. Median HIP colors:
-
 For F8V Hipparcos stars within 75pc, with parallax S/N > 8, 
 and within 1 mag of the MS (N=172):
 <V-J>(F8V)   = 1.019 (+-0.005 sem, +-0.072 stdev)
@@ -39,32 +37,61 @@ and within 1 mag of the MS (N=172):
 <B-V>(F8V)   = 0.547 ; median B-V for 4 F9V Hyads classified by Morgan65 (see below)
 <B-V>(F8V)   = 0.544 (+-0.002 sem, +-0.029 stdev); HIP d<75pc S/N>8 (N=172)
 (B-V)(F8V)   = 0.541 ; sec. stan. HD 90839 = 36 UMa ([Fe/H] ~ -0.13)
-(B-V)(F8V)   =  0.540 ; Johnson66
+(B-V)(F8V)   =  0.540 ; Johnson66,Johnson68
 (B-V)(F8V)   = 0.54  ; median CATSUP d<30pc sample (N=14)
 (B-V)(F8V)   = 0.536 ; ter. stan. HD 9826 = ups And ([Fe/H] ~ +0.09)
 (B-V)(F8V)   = 0.534 ; exemplar HD 136064 ([Fe/H] ~ -0.025)
 (B-V)(F8V)   = 0.532 ; trend through standards & exemplars (roughly flat w/[Fe/H], for [Fe/H]=0.0)
 (B-V)(F8V)   = 0.530 ; exemplar HD 203454 ([Fe/H] ~ -0.18)
 <B-V>(F8V)   = 0.530 (+-0.003 sem, +-0.020 stdev); Gray01/03/06 (N=50)
-(B-V)(F8V)   =  0.53 ; Fitzgerald70
-(B-V)(F8V)   =  0.53 ; Morgan71
-(B-V)(F8V)   =  0.53 ; JohnsonMorgan53
+(B-V)(F8V)   =  0.53 ; JohnsonMorgan53,Fitzgerald70,Morgan71
 (B-V)(F8V)   = 0.527 ; exemplar HD 221356 ([Fe/H] ~ -0.25)
 (B-V)(F8V)   = 0.524 ; exemplar HD 95456 ([Fe/H] ~ +0.16)
 (B-V)(F8V)   = 0.524 ; exemplar HD 16673 = HR 784 ([Fe/H] ~ 0.0)
-<B-V>(F8V)   =  0.52 ; MorganAbt73/TableIII
-(B-V)(F8V)   =  0.52 ; Schmidt-Kaler82, KenyonHartmann95
-(B-V)(F8V)   = 0.518 ; prim. stan. HD 27808 ([Fe/H] ~ +0.11)
+<B-V>(F8V)   =  0.52 ; MorganAbt73/TableIII, Schmidt-Kaler82, KenyonHartmann95
+(B-V)(F8V)   = 0.521 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16) 
 (B-V)(F8V)   = 0.516 ; median SIMBAD F8V d<25pc (N=14)
-=> adopt (B-V)(F8V)  = 0.530 *** [last updated 10/24/2020, still consistent w/JohnsonMorgan53!]
-=> adopt (V-I)(F8V)  = 0.599
-=> adopt (V-R)(F8V)  = 0.300
-=> adopt (R-I)(F8V)  = 0.298
+=> adopt (B-V)(F8V)  = 0.530 *** [last updated 10/24/2020, rocksteady... still consistent w/JohnsonMorgan53!]
+=> adopt (V-Rc)(F8V) = 0.300
+=> adopt (R-Ic)(F8V) = 0.298
 => adopt (V-J)(F8V)  = 1.004
 => adopt (V-H)(F8V)  = 1.229
 => adopt (V-Ks)(F8V) = 1.290
 => adopt (H-Ks)(F8V) = 0.061
 => adopt (J-H)(F8V)  = 0.225
+
+(U-B)(F8V) =  0.06  ; Johnson66,Johnson68
+(U-B)(F8V) = 0.042 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
+(U-B)(F8V) = 0.027 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.530
+(U-B)(F8V) =  0.02  ; JohnsonMorgan53
+(U-B)(F8V) =  0.02  ; Fitzgerald70
+(U-B)(F8V) = 0.010 ; HIP d<75pc S/N>8 F8V N=115 (Mermilliod91 photometry)
+=> adopt (U-B)(F8V) = 0.027 [updated 9/1/2023]
+
+(V-Rj)(F8V) = 0.47 ; Johnson68
+
+(V-Rc)(F8V) = 0.295 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
+(V-Rc)(F8V) = 0.319 ; Johnson68 transformed to V-Rc via Fernie83
+
+(R-Ic)(F8V) = 0.280 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
+
+(V-Ij)(F8V) = 0.76 ; Johnson68
+
+(V-Ic)(F8V) = 0.575 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
+(V-Ic)(F8V) = 0.599 ; Johnson68 transformed to V-Ic via Fernie83
+(V-Ic)(F8V) = 0.599 ; V-Ic vs B-V trend for B-V=0.530
+(V-Ic)(F8V) = 0.601 (+-0.004 sem, +-0.028 stdev) ; Gray01/03/06 N=50)
+(V-Ic)(F8V) = 0.617 (+-0.004 sem, +-0.033 stdev) ; HIP d<75pc S/N>8 (N=172)
+=> adopt (V-Ic)(F8V) = 0.60 [updated 10/6/2023]
+
+(V-Jj)(F8V) = 0.96 ; Johnson66,Johnson68
+
+(V-Hj)(F8V) = 1.23 ; Johnson68
+
+(V-Kj)(F8V) = 1.27 ; Johnson66,Johnson68
+
+(V-Ks)(F8V) = 1.245 ; exemplar HD 16673 = HR 784 ([Fe/H] ~ 0.0)
+(V-Ks)(F8V) = 1.264+-0.021 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
 
 (G-V)(F8V) =  -0.16778  ; HD_45067_ F8V_
 (G-V)(F8V) =  -0.16361  ; HD_84117_ F8V_
@@ -75,7 +102,7 @@ and within 1 mag of the MS (N=172):
 (G-V)(F8V) = -0.1514    ; HD_26784_ F8V B-V=0.511, Gmag=6.9656
 (G-V)(F8V) = -0.150     ; trend for screened late F dwarfs for B-V=0.53 (see 10/24/2020 notes in F5V.txt)
 (G-V)(F8V) =  -0.1498   ; HD_5015_ F8V
-(G-V)(F8V) = -0.1450    ; HD_27808_ F8V B-V=0.520, Gmag=6.9900
+(G-V)(F8V) = -0.1450    ; HD_27808_ F8V B-V=0.520, Gmag=6.9900 (GaiaDR3)
 (G-V)(F8V) =  -0.141    ; HD_209635_ F8V_
 (G-V)(F8V) =  -0.141    ; HD_108147_ F8V_CH+0.4
 (G-V)(F8V) =  -0.1401   ; HD_221356_ F8V_
@@ -87,6 +114,7 @@ and within 1 mag of the MS (N=172):
 (G-V)(F8V) =  -0.13248  ; HD_162826_ F8V
 (G-V)(F8V) = -0.1312    ; HD_82241_ F8V_Fe-0.4 B-V=0.502, Gmag=6.8478
 (G-V)(F8V) =  -0.13077  ; HD_91889_ F8V_
+(G-V)(F8V) = -0.128     ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16) (GaiaDR3)
 (G-V)(F8V) =  -0.127    ; HD_216402_ F8V_
 (G-V)(F8V) = -0.127     ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=6180K (GaiaDR3 Gmags,SIMBAD Vmags)
 (G-V)(F8V) =  -0.125    ; HD_28394_ F8V
@@ -104,69 +132,54 @@ and within 1 mag of the MS (N=172):
 (G-V)(F8V) =  -0.11     ; HD_28033_ F8V
 => adopt (G-V)(F8V) = -0.15 [updated 10/30/2020]
 
-
-(Bp-Rp)(F8V) =  0.6802  ; HD_27808
-(Bp-Rp)(F8V) =  0.6810  ; phi02_Cet
-(Bp-Rp)(F8V) =  0.6825  ; HD_95456
-(Bp-Rp)(F8V) =  0.6827  ; HD_136064
-(Bp-Rp)(F9V) = 0.694    ; color trend for B-V=0.53
-(Bp-Rp)(F8V) =  0.6974  ; 36_UMa
+(Bp-Rp)(F8V) = 0.6713 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 (GaiaDR3) ([Fe/H]=+0.16)
+(Bp-Rp)(F8V) =  0.6802  ; HD_27808 (GaiaDR2)
+(Bp-Rp)(F8V) =  0.6810  ; phi02_Cet (GaiaDR2)
+(Bp-Rp)(F8V) =  0.6825  ; HD_95456 (GaiaDR2)
+(Bp-Rp)(F8V) =  0.6827  ; HD_136064 (GaiaDR2)
+(Bp-Rp)(F9V) = 0.694    ; color trend for B-V=0.53 (GaiaDR2)
+(Bp-Rp)(F8V) =  0.6974  ; 36_UMa (GaiaDR2)
 (Bp-Rp)(F8V) = 0.70    ; Bp-G=0.31, G-Rp=0.39 
-(Bp-Rp)(F8V) =  0.7019  ; 17_Crt_B
-(Bp-Rp)(F8V) =  0.7051  ; 17_Crt_A
-(Bp-Rp)(F8V) =  0.7056  ; ups_And
-(Bp-Rp)(F8V) =  0.7167  ; HD_221356
-(Bp-Rp)(F8V) =  0.737   ; Evans18 trend for V-I= 0.599
-(Bp-Rp)(F8V) =  0.7516  ; HD_203454
+(Bp-Rp)(F8V) =  0.7019  ; 17_Crt_B (GaiaDR2)
+(Bp-Rp)(F8V) =  0.7051  ; 17_Crt_A (GaiaDR2)
+(Bp-Rp)(F8V) =  0.7056  ; ups_And (GaiaDR2)
+(Bp-Rp)(F8V) =  0.7167  ; HD_221356 (GaiaDR2)
+(Bp-Rp)(F8V) =  0.737   ; Evans18 trend for V-Ic=0.599 (GaiaDR2)
+(Bp-Rp)(F8V) =  0.7516  ; HD_203454 (GaiaDR2)
 => adopt (Bp-Rp)(F8V) = 0.70 [updated 11/22/2020]
 
-(Bp-G)(F8V) =  0.2850  ; HD_27808
-(Bp-G)(F8V) =   0.2930  ; HD_95456
-(Bp-G)(F8V) =   0.3028  ; HD_221356
-(Bp-G)(F8V) =   0.3053  ; 17_Crt_B
-(Bp-G)(F8V) =   0.3091  ; 17_Crt_A
+(Bp-G)(F8V) = 0.2525 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 (GaiaDR3) ([Fe/H]=+0.16)
+(Bp-G)(F8V) =  0.2850  ; HD_27808 (GaiaDR2) 
+(Bp-G)(F8V) =   0.2930  ; HD_95456 (GaiaDR2) 
+(Bp-G)(F8V) =   0.3028  ; HD_221356 (GaiaDR2) 
+(Bp-G)(F8V) =   0.3053  ; 17_Crt_B (GaiaDR2) 
+(Bp-G)(F8V) =   0.3091  ; 17_Crt_A (GaiaDR2) 
 (Bp-G)(F8V) =  0.31    ; Bp-Rp=0.70, G-Rp=0.39
-(Bp-G)(F9V) =  0.311  ; color trend for B-V=0.53
-(Bp-G)(F8V) =   0.3157  ; HD_203454
-(Bp-G)(F8V) =   0.3170  ; phi02_Cet
-(Bp-G)(F8V) =  0.3317  ; 36_UMa
-(Bp-G)(F8V) =   0.3318  ; HD_136064
-(Bp-G)(F8V) =  0.3553  ; ups_And
+(Bp-G)(F9V) =  0.311  ; color trend for B-V=0.53 (GaiaDR2) 
+(Bp-G)(F8V) =   0.3157  ; HD_203454 (GaiaDR2) 
+(Bp-G)(F8V) =   0.3170  ; phi02_Cet (GaiaDR2) 
+(Bp-G)(F8V) =  0.3317  ; 36_UMa (GaiaDR2) 
+(Bp-G)(F8V) =   0.3318  ; HD_136064 (GaiaDR2) 
+(Bp-G)(F8V) =  0.3553  ; ups_And (GaiaDR2) 
 => adopt (Bp-G)(F8V) = 0.31 [updated 11/22/2020]
  
-(G-Rp)(F8V) =  0.3503   ; ups_And
-(G-Rp)(F8V) =   0.3509  ; HD_136064
-(G-Rp)(F8V) =   0.3640  ; phi02_Cet
-(G-Rp)(F8V) =  0.3657  ; 36_UMa
-(G-Rp)(F8V) = 0.385 ; color trend for B-V=0.53
-(G-Rp)(F8V) =   0.3895  ; HD_95456
+(G-Rp)(F8V) =  0.3503   ; ups_And (GaiaDR2) 
+(G-Rp)(F8V) =   0.3509  ; HD_136064 (GaiaDR2) 
+(G-Rp)(F8V) =   0.3640  ; phi02_Cet (GaiaDR2) 
+(G-Rp)(F8V) =  0.3657  ; 36_UMa (GaiaDR2) 
+(G-Rp)(F8V) = 0.385 ; color trend for B-V=0.53 (GaiaDR2) 
+(G-Rp)(F8V) =   0.3895  ; HD_95456 (GaiaDR2) 
 (G-Rp)(F8V) =  0.39    ; Bp-Rp=0.70, Bp-G=0.31 
-(G-Rp)(F8V) =  0.3952  ; HD_27808
-(G-Rp)(F8V) =   0.3960  ; 17_Crt_A
-(G-Rp)(F8V) =   0.3966  ; 17_Crt_B
-(G-Rp)(F8V) =   0.4139  ; HD_221356
-(G-Rp)(F8V) =   0.4358  ; HD_203454
+(G-Rp)(F8V) =  0.3952  ; HD_27808 (GaiaDR2) 
+(G-Rp)(F8V) =   0.3960  ; 17_Crt_A (GaiaDR2) 
+(G-Rp)(F8V) =   0.3966  ; 17_Crt_B (GaiaDR2) 
+(G-Rp)(F8V) =   0.4139  ; HD_221356 (GaiaDR2)
+(G-Rp)(F8V) = 0.4189 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16) (GaiaDR3)
+(G-Rp)(F8V) =   0.4358  ; HD_203454 (GaiaDR2) 
 => adopt (G-Rp)(F8V) = 0.39 [updated 11/22/2020]
  
 (Ks-W1)(F8V) = 0.056 ; EEM trend for d<30pc for B-V=0.53
 => adopt (Ks-W1)(F8V) = 0.056 [updated 12/29/2019]
-
-(U-B)(F8V)   =  0.06  ; Johnson66 [big discrepency!]
-(U-B)(F8V)   = 0.027 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.530
-(U-B)(F8V)   =  0.02  ; JohnsonMorgan53
-(U-B)(F8V)   =  0.02  ; Fitzgerald70
-(U-B)(F8V)   = 0.010 ; HIP d<75pc S/N>8 F8V N=115 (Mermilliod91 photometry)
-=> adopt (U-B)(F8V) = 0.027 [updated 9/1/2023]
-
-<V-I>(F8V>   = 0.601 (+-0.004 sem, +-0.028 stdev) ; Gray01/03/06 N=50)
-<V-I>(F8V)   = 0.617 (+-0.004 sem, +-0.033 stdev) ; HIP d<75pc S/N>8 (N=172)
-
-(V-Jj)(F8V)  = 0.96 ; Johnson66 
-
-(V-Kj)(F8V)  = 1.27 ; Johnson66 
-
-(V-Ks)(F8V)  = 1.245 ; exemplar HD 16673 = HR 784 ([Fe/H] ~ 0.0)
-(V-K)(F8V)   = 1.264 +- 0.021 ; pri. stan. HD 27808
 
 (g-r)(F8V)   = 0.374 ; Jordi06 (V-R)=>(g-r) for V-R=0.300
 (g-r)(F8V)   = 0.36  ; Covey07
@@ -175,6 +188,7 @@ and within 1 mag of the MS (N=172):
 => adopt (g-r)(F8V) = 0.35 [updated 9/1/2023]
 
 (r-i)(F8V) = 0.073 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.298
+=> adopt (r-i)(F8V) = 0.07 [updated 10/6/2023]
 
 (g-V)(F8V) = 0.205 ; Just08/Chonis08 B-V=>g-V for B-V=0.53
 (g-V)(F8V) = 0.209 ; Jordi06 B-V=>g-V for B-V=0.53
@@ -202,8 +216,8 @@ Teff(F8V) = 6180 K ; trend for standards & exemplars interp to [Fe/H]=0.0
 Teff(F8V) =  6200 K ; Schmidt-Kaler82 
 Teff(F8V) =  6206 +- 81 K ; vanBelle09
 Teff(F8V) = 6250 K ; exemplar HD 16673 = HR 784 ([Fe/H] ~ 0.0)
-Teff(F8V) = 6250 K ; pri. stan HD 27808 ([Fe/H] ~ +0.11)
 Teff(F8V) = 6267 K ; exemplar HD 95456 ([Fe/H] ~ +0.16)
+Teff(F8V) = 6268 K ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
 Teff(F8V) =  6268 K ; B-V=0.530 => Teff(Bessell98,logg=4.5)
 => adopt Teff(F8V) = 6180 K (logT = 3.791) [last updated 10/25/2020]
 
@@ -220,32 +234,35 @@ BCv(F8V) = -0.050 mag ; Code76(Teff=6170K)
 BCv(F8V) =  -0.21 mag ; Habets81
 => adopt BCv(F8V) = -0.04 mag [last updated 8/31/2019; adjusted so that BCv(5772K)=-0.085]
 
-M_G(F8V) = 3.322 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.39
+M_G(F8V) = 3.322 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.39 (but seems way too bright)
+M_G(F8V) = 3.83  ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
 M_G(F8V) =  3.977 ; exemplar HD 16673 = HR 784 ([Fe/H] ~ 0.0)
 
-Mv(F8V)  =   3.13 mag ; exemplar HD 136064 
-Mv(F8V)  =   3.45 mag ; Wegner07
-Mv(F8V)  = 3.45 mag ; ter. standard HD 9826 = ups And (slightly evolved logg ~ 4.16)
-Mv(F8V)  =  3.58 mag ; exemplar HD 95456
-Mv(F8V)  =  3.84 mag ; median SIMBAD  F8V d<25pc (N=14)
-Mv(F8V)  = 3.94 mag ; F dwarf trend standards/exemplars
-Mv(F8V)  =  3.98 mag ; d<60pc SIMBAD F8V (N=143)
-Mv(F8V)  =   4.0  mag ; Schmidt-Kaler82
-Mv(F8V)  =   4.0  mag ; GrayCorbally09
-Mv(F8V)  = 4.01 mag ; linear fit to Gray01/03/06 dwarf sequence (d<50pc) for B-V=0.53
-Mv(F8V)  =  4.01 mag ; B-V=0.530 => Mv(Wright05)
-Mv(F8V)  = 4.02 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.53
-Mv(F8V)  = 4.07 mag ; xHIP |[Fe/H]|<0.2 dex d<25pc dwarf only for B-V=0.53
-Mv(F8V)  =  4.07 mag ; pri. stan. HD 27808
-Mv(F8V)  = 4.09 mag ; exemplar HD 16673 = HR 784 (~solar)
-Mv(F8V)  = 4.09 mag ; B-V=0.530 => EEM fit to SIMBAD dwarfs d<25pc
-Mv(F8V)  =  4.23 mag ; exemplar HD 203454
-Mv(F8V)  =  4.29 mag ; sec. stan. HD 90839 = 36 UMa
-Mv(F8V)  =   4.34 mag ; Habets81
-Mv(F8V)  =  4.42 mag ; exemplar HD 221356 
+Mv(F8V) =   3.13 mag ; exemplar HD 136064 
+Mv(F8V) =   3.45 mag ; Wegner07
+Mv(F8V) = 3.45 mag ; ter. standard HD 9826 = ups And (slightly evolved logg ~ 4.16)
+Mv(F8V) =  3.58 mag ; exemplar HD 95456
+Mv(F8V) =  3.84 mag ; median SIMBAD  F8V d<25pc (N=14)
+Mv(F8V) = 3.94 mag ; F dwarf trend standards/exemplars
+Mv(F8V) = 3.95 mag ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
+Mv(F8V) =  3.98 mag ; d<60pc SIMBAD F8V (N=143)
+Mv(F8V) =   4.0  mag ; Schmidt-Kaler82
+Mv(F8V) =   4.0  mag ; GrayCorbally09
+Mv(F8V) = 4.01 mag ; linear fit to Gray01/03/06 dwarf sequence (d<50pc) for B-V=0.53
+Mv(F8V) =  4.01 mag ; B-V=0.530 => Mv(Wright05)
+Mv(F8V) = 4.02 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.53
+Mv(F8V) = 4.07 mag ; xHIP |[Fe/H]|<0.2 dex d<25pc dwarf only for B-V=0.53
+Mv(F8V) = 4.09 mag ; exemplar HD 16673 = HR 784 (~solar)
+Mv(F8V) = 4.09 mag ; B-V=0.530 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(F8V) =  4.23 mag ; exemplar HD 203454
+Mv(F8V) =  4.29 mag ; sec. stan. HD 90839 = 36 UMa
+Mv(F8V) =   4.34 mag ; Habets81
+Mv(F8V) =  4.42 mag ; exemplar HD 221356 
 => adopt Mv(F8V)   = 4.05 mag [updated 10/30/2020]
 => adopt M_G(F8V)  = 3.90 mag [updated 12/10/2020] (Mv=4.05, G-V=-0.15)
 => adopt M_Ks(F8V) = 2.76 mag [updated 12/30/2020] (Mv=4.05, V-Ks=1.29)
+
+M_Ks(F8V) = 2.70 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
 
 logL(F8V) = 0.292 dex ; Mv=4.05, BCv=-0.04 => Mbol = 4.01
 => adopt logL(F8V) = 0.292 dex [updated 9/26/2020]
@@ -274,6 +291,7 @@ Mass(F8V) =  1.09 Msun ; Habets81
 
 logg(F8V) = 4.311 (rms=0.112dex) ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=6180K (see G0V.txt)
 logg(F8V) = 4.326 ; M=1.16, logL=0.292, logT=3.791
+logg(F8V) = 4.35  ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16)
 => adopt logg(F8V) = 4.31 [updated 9/15/2023]
 
 # No Standard
@@ -285,15 +303,28 @@ standard Beta Vir as a F9V).
 
 # Primary Standard
 
-HD 27808 = HIP 20557 = Cl Melotte 25 48 (only "+" in Skiff catalog)
+HD 27808 = HIP 20557 = Cl Melotte 25 48 = vB 48 
  *F8V: MK73,MorganAbt73,MK78,Jaschek78,Keenan85,Garcia89,Gray89(stan),Gray01,GrayNstars,GrayAtlas
 
-  B-V(HIP)=0.518, Mv=4.07, dMv=+0.14, par=24.5+-1.4 mas. There is
-  solid agreement between Morgan, Keenan, and Gray that this is an
-  F8V. V = 7.135+-0.005 (Mermilliod91), J = 6.148+-0.023, H =
-  5.946+-0.026, Ks = 5.871+-0.020 (2MASS), V-Ks = 1.264 +- 0.021.
-  Mass = 1.26 Msun (Goldman13). PASTEL compendium: median Teff ~
-  6250K, median [Fe/H] ~ +0.11, appropriate for Hyades member.
+  Hyades member for which there is good agreement between Morgan,
+  Keenan, and Gray that this is an F8V.  V=7.125+-0.0035(Joner06),
+  V=7.13(HIP), V=7.13(Argue66), V=7.135+-0.005(Mermilliod91),
+  V=7.14(Johnson55), B-V=0.51(Argue66), B-V=0.518+-0.014(HIP),
+  B-V=0.521+-0.0020(Joner06), B-V=0.521(Johnson55),
+  U-B=0.04(Wesselius82), U-B=0.04(Argue66), U-B=0.042(Johnson55),
+  V-Rc=0.295+-0.0051(Joner06), R-Ic=0.280+-0.0013(Joner06),
+  V-Ic=0.575+-0.0043(Joner06), V-Ic=0.58+-0.02(HIP). 2MASS:
+  J=6.148+-0.023(2MASS), H=5.946+-0.026(2MASS), Ks=5.871+-0.020(2MASS)
+  => V-Ks=1.264+-0.021(Mermilliod91,2MASS).  Mass = 1.26 Msun
+  (Goldman13). Soubiran22/PASTEL means: Teff=6268+-27K(Soubiran22),
+  logg=4.35+-0.05(Soubiran22), [Fe/H]=+0.16+-0.02(Soubiran22; just as
+  expected for a Hyad).  Adopting extinction towards Hyades from
+  Taylor80 (Av=0.009+-0.006).  GaiaDR3: G=7.006639+-0.002766(GaiaDR3),
+  Bp-Rp=0.671342(GaiaDR3), Bp-G=0.252489(GaiaDR3),
+  G-Rp=0.418853(GaiaDR3), plx=23.2009+-0.0207mas(GaiaDR3) =>
+  Mv=3.954+-0.008(Mermilliod91,Taylor80 extinction), M_G=3.83,
+  M_Ks=2.70+-0.02.  G-V = 7.006639(GaiaDR3) - 7.135(Mermilliod91) =
+  -0.128.
 
 # Secondary Standard
 

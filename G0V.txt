@@ -79,31 +79,27 @@ Mean color of Hipparcos G0IV  stars w/i 75 pc is 0.586 (N=20)
 Mean color of Hipparcos G0III stars w/i 75 pc is 0.591 (N=6)
 
 (B-V)(G0V) =   0.510 ; BakisEker22 
-<B-V>(G0V) =   0.62  ; G0V in Hyades Wilson62(N=1)
+(B-V)(G0V) =   0.62  ; G0V in Hyades Wilson62(N=1)
 (B-V)(G0V) =  0.603  ; Gray01/03/06 in xHIP d<50pc interp [Fe/H]=0.0
 (B-V)(G0V) =  0.602 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
-<B-V>(G0V) =   0.60  ; Fitzgerald70
-(B-V)(G0V) =   0.60  ; JohnsonMorgan53
-<B-V>(G0V) =  0.600  ; exemplar HD 105 (see below)
+(B-V)(G0V) =   0.60  ; Fitzgerald70,JohnsonMorgan53
+(B-V)(G0V) =  0.600  ; exemplar HD 105 (see below)
 (B-V)(G0V) =  0.600  ; exemplar pi Men ([Fe/H]=+0.09)
 (B-V)(G0V) =  0.60   ; median CATSUP d<30pc sample (N=18)
 (B-V)(G0V) =  0.60   ; tert. stan. kap For ([Fe/H] ~ -0.06)
-<B-V>(G0V) =  0.599 (+-0.001 sem, +-0.018 stdev; Gray01/03/06 N=81)
+(B-V)(G0V) =  0.599 (+-0.001 sem, +-0.018 stdev; Gray01/03/06 N=81)
 (B-V)(G0V) =  0.596  ; median SIMBAD G0V d<25pc (N=25)
 (B-V)(G0V) =  0.595  ; sec. stan. iot Per ([Fe/H] ~ +0.10)
 (B-V)(G0V) = 0.595  ; trend for 4 standard stars for [Fe/H], rms scatter only 0.003 mag)
 (B-V)(G0V) =  0.594  ; ter. stan. chi01 Ori ([Fe/H] ~ -0.04)
 (B-V)(G0V) =  0.590 (+-0.006 sem, +-0.023 stdev) med. of 38 ARICNS G0V stars
-(B-V)(G0V) =   0.59  ; Johnson66
-(B-V)(G0V) =   0.59  ; Morgan71
+(B-V)(G0V) =   0.59  ; Johnson66,Johnson68,Morgan71
 (B-V)(G0V) =  0.588 ; pri. stan. bet CVn = HD 109358 = GJ 475 = HIP 61317 ([Fe/H]=-0.20)
-<B-V>(G0V) =  0.585 (+-0.002 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
-<B-V>(G0V) =   0.58  ; MorganAbt73/TableIII
-(B-V)(G0V) =   0.58  ; SchmidtKaler82, KenyonHartmann95
+(B-V)(G0V) =  0.585 (+-0.002 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
+(B-V)(G0V) =   0.58  ; MorganAbt73/TableIII,SchmidtKaler82, KenyonHartmann95
 (B-V)(G0V) =  0.573  ; exemplar HD 50692 
-<B-V>(G0V) =   0.57  ; Bessell79
-(B-V)(G0V) =   0.57  ; Strassmeier90
-<B-V>(G0V) =   0.529 ; Crawford76
+(B-V)(G0V) =   0.57  ; Bessell79,Strassmeier90
+(B-V)(G0V) =   0.529 ; Crawford76
 => adopt (B-V)(G0V)  = 0.595 [updated 10/26/2020]
 [EEM 10/26/2020; see discussion at end, there is remarkably small scatter of only few mmag
 among the 4 standard stars as function of metallicity - value is interpolated to [Fe/H]=0.0]
@@ -120,35 +116,42 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 (U-B)(G0V) =  0.06  ; JohnsonMorgan53
 (U-B)(G0V) = 0.085 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 (U-B)(G0V) = 0.087 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.595
-(U-B)(G0V) =  0.11  ; Johnson66 [big discrepency!]
+(U-B)(G0V) =  0.11  ; Johnson66, Johnson68
 => adopt (U-B)(G0V) = 0.087 [updated 9/1/2023]
+
+(V-Rj)(G0V) = 0.50 ; Johnson68
 
 (V-Rc)(G0V) = 0.330 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
 (V-Rc)(G0V) =  0.334 ; HIP 9829 (Koen10)
 (V-Rc)(G0V) = 0.341 ; B-V vs V-Rc trend for B-V=0.595
+(V-Rc)(G0V) = 0.341 ; Johnson68 (V-Rj=0.50) transformed to V-Rc via Fernie83
 (V-Rc)(G0V) = 0.344 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 (V-Rc)(G0V) =  0.348 ; HIP 15442 (Koen10)
 (V-Rc)(G0V) =  0.355 ; HIP 36515 (Koen10)
-=> adopt (V-Rc)(G0V) = 0.34  [updated 1/15/2023]
+=> adopt (V-Rc)(G0V) = 0.34 [updated 10/6/2023]
+
+(R-Ic)(G0V)  = 0.303 ; Bessell79
 
 (V-Ic)(G0V) =  0.704 ; HIP 9829 (Koen10)
 (V-Ic)(G0V) =  0.696 ; HIP 15442 (Koen10)
 (V-Ic)(G0V) =  0.690 ; HIP 36515 (Koen10)
 (V-Ic)(G0V) = 0.68  ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 (V-Ic)(G0V) = 0.674 ; B-V vs V-Ic trend for B-V=0.595
-<V-Ic>(G0V) = 0.669 ; Gray01/03/06 81 G0Vs HIP V-Ics (+-0.001 sem, +-0.024 stdev)
+(V-Ic)(G0V) = 0.669 ; Gray01/03/06 81 G0Vs HIP V-Ics (+-0.001 sem, +-0.024 stdev)
 (V-Ic)(G0V) =  0.66 ; Bessell88 
-<V-Ic>(G0V) = 0.658 (+-0.001 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
-(V-Ic)(G0V) = 0.650 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
-<V-Ic>(G0V) =  0.625 ; Bessell79
-=> adopt (V-Ic)(G0V) = 0.67  [updated 1/15/2023]
-=> adopt (R-Ic)(G0V) = 0.33  [updated 1/15/2023; V-Ic=0.67, V-Rc=0.34]
+(V-Ic)(G0V) = 0.658 (+-0.001 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
+(V-Ic)(G0V) = 0.650 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
+(V-Ic)(G0V) = 0.638 ; Johnson68 (V-Ij=0.81) transformed to V-Ic via Fernie83
+(V-Ic)(G0V) =  0.625 ; Bessell79
+=> adopt (V-Ic)(G0V) = 0.67 [updated 1/15/2023]
+=> adopt (R-Ic)(G0V) = 0.33 [updated 1/15/2023; V-Ic=0.67, V-Rc=0.34]
 
-<R-Ic>(G0V)  = 0.303 ; Bessell79
+(V-Jj)(G0V) = 1.02 ; Johnson68
+(V-Jj)(G0V) = 1.03 ; Johnson66
 
-(V-Jj)(G0V)  = 1.03 ; Johnson66 
+(V-Hj)(G0V) = 1.30 ; Johnson68
 
-(V-Kj)(G0V)  = 1.35 ; Johnson66 
+(V-Kj)(G0V) = 1.35 ; Johnson66,Johnson68 
 
 (V-Ks)(G0V) = 1.416 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
 (V-Ks)(G0V) = 1.428 (+-0.043) ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.595

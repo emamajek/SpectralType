@@ -82,15 +82,11 @@ were cited as reference 'X' - i.e. SIMBAD and uncited references.  HIP
 the Hipparcos catalog for the Gray06 "G2 V" stars were either G3V or
 G5V.
 
-Gray01/03/06 list 48 nearby G2V stars. Median HIP colors:
-<B-V>(G2V)   = 0.647 (+-0.003 sem, +-0.035 stdev; N=48)
-<V-I>(G2V)   = 0.706 (+-0.005 sem, +-0.024 stdev; N=48)
-
 For G2V Hipparcos stars within 75pc, with parallax S/N > 8, 
 and within 1 mag of the MS (N=223) (these are dominated by
 Houk spectral types, which seem to be clearly earlier/hotter
 on average than Gray's G2Vs):
-<B-V>(G2V)   = 0.617 (+-0.003 sem, +-0.032 stdev; N=223)
+(B-V)(G2V)   = 0.617 (+-0.003 sem, +-0.032 stdev; N=223)
 <V-I>(G2V)   = 0.683 (+-0.004 sem, +-0.027 stdev; N=223)
 <V-J>(G2V)   = 1.148 (+-0.006 sem, +-0.075 stdev; N=223)
 <V-H>(G2V)   = 1.429 (+-0.007 sem, +-0.096 stdev; N=223)
@@ -102,12 +98,11 @@ on average than Gray's G2Vs):
 <B-K>(G2V)   = 2.118 (+-0.009 sem, +-0.118 stdev; N=223)
 
 (B-V)(G2V) =  0.543 ; BakisEker22 
-<B-V>(G2V) = 0.617 ; 223 HIP d<75pc (+-0.003 sem, +-0.032 stdev) (mostly Houk types)
+(B-V)(G2V) = 0.617 ; 223 HIP d<75pc (+-0.003 sem, +-0.032 stdev) (mostly Houk types)
 (B-V)(G2V) =  0.62  ; KenyonHartmann95
 (B-V)(G2V) = 0.623 (+-0.010 sem,+0.033 stdev); 35 ARICNS G2V stars
 (B-V)(G2V) = 0.626 ; ter. stan. HD 45184
-(B-V)(G2V) =  0.63  ; Fitzgerald70, Morgan71
-(B-V)(G2V) =  0.63  ; SchmidtKaler82
+(B-V)(G2V) =  0.63  ; Johnson68,Fitzgerald70, Morgan71, SchmidtKaler82
 (B-V)(G2V) =  0.633 ; non-stan. alf Cen A
 (B-V)(G2V) = 0.639 ; HD 59967 = HIP 36515 (Koen10) ~solar
 (B-V)(G2V) =  0.64  ; JohnsonMorgan53
@@ -116,7 +111,7 @@ on average than Gray's G2Vs):
 (B-V)(G2V) = 0.640 ; median SIMBAD G2V d<25pc (N=21)
 (B-V)(G2V) = 0.642 ; solar twin HD 195034 = HIP 100963
 (B-V)(G2V) = 0.647 ; solar twin HD 101364 = HIP 56948
-<B-V>(G2V) = 0.647 ; 48 Gray01/03/06 G2V (+-0.003 sem, +-0.035 stdev)
+(B-V)(G2V) = 0.647 ; 48 Gray01/03/06 G2V (+-0.003 sem, +-0.035 stdev)
 (B-V)(G2V) = 0.647 ; solar twin HD 88072 = HIP 49756
 (B-V)(G2V) = 0.648 ; solar twin HD 9986 = HIP 7585 (from Gray03)
 (B-V)(G2V) =  0.65  ; Johnson66
@@ -153,10 +148,8 @@ to be somewhat redder than that for the other standards.
 (U-B)(G2V) = 0.112 ; HD 59967 = HIP 36515 (Koen10) ~solar
 (U-B)(G2V) = 0.156 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.650
 (U-B)(G2V) = 0.158 ; Ramirez05 color for Sun (+-0.009; line-depth ratios)
-(U-B)(G2V) =  0.16  ; Johnson66 
-(U-B)(G2V) =  0.16  ; JohnsonMorgan53
+(U-B)(G2V) =  0.16  ; JohnsonMorgan53,Johnson66,Johnson68
 => adopt (U-B)(G2V) = 0.156 [updated 9/1/2023]
-
 
 (V-Rc)(G2V) =  0.334 ; HIP 9829 (Koen10)
 (V-Rc)(G2V) =  0.348 ; HIP 15442 (Koen10)
@@ -164,8 +157,14 @@ to be somewhat redder than that for the other standards.
 (V-Rc)(G2V) = 0.355 ; HD 59967 = HIP 36515 (Koen10) ~solar
 (V-Rc)(G2V) = 0.360 ; ter. stan. HD 76151
 (V-Rc)(G2V) = 0.361 ; trend B-V vs V-Rc for B-V=0.650
-=> adopt (V-Rc)(G2V) = 0.36  [updated 1/15/2023]
+(V-Rc)(G2V) = 0.363 ; Johnson68 V-Rj=0.53 transformed to V-Rc via Fernie83
+=> adopt (V-Rc)(G2V) = 0.36 [updated 10/6/2023]
 
+(R-Ij)(G2V) = 0.33  ; Johnson68
+
+(R-Ic)(G2V) = 0.334 ; sec. stan. 18 Sco = HD 146233
+
+(V-Ic)(G2V) = 0.677 ; Johnson68 V-Ij=0.86 transformed to V-Ic via Fernie83
 (V-Ic)(G2V) =  0.68  ; Bessell88
 (V-Ic)(G2V) = 0.689 ; sec. stan. 18 Sco = HD 146233
 (V-Ic)(G2V) = 0.690 ; HD 59967 = HIP 36515 (Koen10) ~solar
@@ -173,35 +172,56 @@ to be somewhat redder than that for the other standards.
 (V-Ic)(G2V) =  0.696 ; HIP 15442 (Koen10)
 (V-Ic)(G2V) = 0.697 ; fit to Koen10 d<25pc B-V vs. V-Ic for -0.1<[Fe/H]<0.1 dwarfs in Soubiran22 for B-V=0.650
 (V-Ic)(G2V) =  0.704 ; HIP 9829 (Koen10)
-(V-Ic)(G2V) = 0.706 ; Gray01/03/06 48 G2Vs (+-0.005 sem, +-0.024 stdev)
+(V-Ic)(G2V) = 0.706 ; Gray01/03/06 N=48 G2Vs (+-0.005 sem, +-0.024 stdev)
 (V-Ic)(G2V) =  0.71 ; solar twin HD 9986 = HIP 7585 (from Gray03)
 => adopt (V-Ic)(G2V)  = 0.697 [updated 9/15/2023]
 => adopt (Rc-Ic)(G2V) = 0.345 [updated 1/15/2023; V-Ic=0.705, V-Rc=0.36]
 
-(R-Ic)(G2V) = 0.334 ; sec. stan. 18 Sco = HD 146233
+(V-Jj)(G2V) = 1.10 ; Johnson66,Johnson68
 
-(G-V)(G2V) = -0.100    ; solar twin HD 139777 = pi01 UMa (very active) (GaiaDR3)
-(G-V)(G2V) = -0.129787 ; *_ksi_UMa_B_ G2V plx=114.4867 mas (GaiaDR3)
-(G-V)(G2V) = -0.151    ; solar twin HD 101364 = HIP 56948 (GaiaDR3)
-(G-V)(G2V) =  -0.151    ; median for Kervella19 d<25pc G2V sample (GaiaDR2)
-(G-V)(G2V) = -0.151    ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5772K (GaiaDR3 Gmags,SIMBAD Vmags)
-(G-V)(G2V) = -0.1524   ; ter. stan. HD_76151_ G2V plx=59.3595 mas (GaiaDR3)
-(G-V)(G2V) = -0.153233 ; HD_199288_ G2VFe-1.0 plx=46.5855 mas (GaiaDR3)
-(G-V)(G2V) = -0.154058 ; HD_181321_ G2V plx=50.2864 mas (GaiaDR3)
-(G-V)(G2V) = -0.154539 ; HD_189567_ G2V plx=55.7654 mas (GaiaDR3)
-(G-V)(G2V) = -0.155    ; solar twin HD 88072 = HIP 49756 (GaiaDR3)
-(G-V)(G2V) =  -0.160    ; solar twin HD 101364 = HIP 56948 (GaiaDR2)
-(G-V)(G2V) = -0.160608 ; HD_207129_ G2V plx=64.2717 mas (GaiaDR3)
-(G-V)(G2V) = -0.161    ; solar twin HD 98618 = HIP 55459 (GaiaDR3)
-(G-V)(G2V) = -0.164119 ; HD_38858_ G2V plx=65.7446 mas (GaiaDR3)
-(G-V)(G2V) = -0.166    ; solar twin HD 124523 = HIP 69645 (GaiaDR3)
-(G-V)(G2V) =  -0.167    ; solar twin HD 216008 = HIP 112730 (GaiaDR2)
-(G-V)(G2V) =  -0.168    ; solar twin HD 195034 = HIP 100963 (GaiaDR2)
-(G-V)(G2V) = -0.1683   ; sec. stan. *_18_Sco_ G2Va plx=70.7371 mas (GaiaDR3)
-(G-V)(G2V) =  -0.174    ; solar twin HD 124523 = HIP 69645 (GaiaDR2)
-(G-V)(G2V) =  -0.175    ; solar twin HD 138573 = HIP 76114 (GaiaDR2) 
-(G-V)(G2V) = -0.178324 ; HD_102365_ G2V plx=107.3024 mas (GaiaDR3)
-(G-V)(G2V) = -0.208185 ; HD_76932_ G2VFe-1.8CH-1 plx=46.6872 mas (GaiaDR3)
+(V-Hj)(G2V) = 1.40 ; Johnson68
+
+(V-Kj)(G2V) = 1.44 ; Johnson66
+(V-Kj)(G2V) = 1.46 ; Johnson68
+(V-Kj)(G2V) = 1.539+-0.025 ; B-V vs. V-K(Ducati/Johnson) for XHIP d<50pc G Vs (-0.1<[Fe/H]<0.1) for B-V=0.650
+
+(V-Ks)(G2V)  =  1.497 ; solar twin HD 139777 = pi01 UMa 
+(V-Ks)(G2V)  =  1.511 ; solar twin HD 195034 = HIP 100963
+(V-Ks)(G2V)  =  1.515 ; solar twin HD 101364 = HIP 56948
+(V-Ks)(G2V)  =  1.541 ; solar twin HD 216008 = HIP 112730
+(V-Ks)(G2V)  = 1.545+-0.02 ; Rieke08 (NStars interp to 5778K)
+(V-Ks)(G2V)  =  1.547 ; solar twin HD 88072 = HIP 49756
+(V-Ks)(G2V)  = 1.548+-0.043 ; B-V vs. V-Ks for XHIP d<50pc G Vs (-0.1<[Fe/H]<0.1) for B-V=0.650
+(V-Ks)(G2V)  =  1.552 +- 0.024 ; ter. stan. HD 76151
+(V-Ks)(G2V)  =  1.557 ; solar twin HD 9986 = HIP 7585 (from Gray03)
+(V-Ks)(G2V)  = 1.560+-0.008  ; pri. stan. Sun (Casagrande11)  
+(V-Ks)(G2V)  = 1.564  ; V-Ks vs. B-V polynomial fit for B-V = 0.65
+(V-Ks)(G2V)  =  1.570 ; solar twin HD 138573 = HIP 76114
+(V-Ks)(G2V)  =  1.571 +- 0.007 (+-0.035 1sig) ; 23 Gray06 "G2 V" stars
+=> adopt (V-Ks)(G2V) = 1.55 [updated 10/6/2023]
+
+(G-V)(G2V) = -0.100  ; solar twin HD 139777 = pi01 UMa (very active) (GaiaDR3)
+(G-V)(G2V) = -0.1298 ; *_ksi_UMa_B_ G2V plx=114.4867 mas (GaiaDR3)
+(G-V)(G2V) = -0.151  ; solar twin HD 101364 = HIP 56948 (GaiaDR3)
+(G-V)(G2V) =  -0.151 ; median for Kervella19 d<25pc G2V sample (GaiaDR2)
+(G-V)(G2V) = -0.151  ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5772K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(G2V) = -0.1524 ; ter. stan. HD_76151_ G2V plx=59.3595 mas (GaiaDR3)
+(G-V)(G2V) = -0.1532 ; HD_199288_ G2VFe-1.0 plx=46.5855 mas (GaiaDR3)
+(G-V)(G2V) = -0.1541 ; HD_181321_ G2V plx=50.2864 mas (GaiaDR3)
+(G-V)(G2V) = -0.1545 ; HD_189567_ G2V plx=55.7654 mas (GaiaDR3)
+(G-V)(G2V) = -0.155  ; solar twin HD 88072 = HIP 49756 (GaiaDR3)
+(G-V)(G2V) =  -0.160 ; solar twin HD 101364 = HIP 56948 (GaiaDR2)
+(G-V)(G2V) = -0.1606 ; HD_207129_ G2V plx=64.2717 mas (GaiaDR3)
+(G-V)(G2V) = -0.161  ; solar twin HD 98618 = HIP 55459 (GaiaDR3)
+(G-V)(G2V) = -0.1641 ; HD_38858_ G2V plx=65.7446 mas (GaiaDR3)
+(G-V)(G2V) = -0.166  ; solar twin HD 124523 = HIP 69645 (GaiaDR3)
+(G-V)(G2V) =  -0.167 ; solar twin HD 216008 = HIP 112730 (GaiaDR2)
+(G-V)(G2V) =  -0.168 ; solar twin HD 195034 = HIP 100963 (GaiaDR2)
+(G-V)(G2V) = -0.1683 ; sec. stan. *_18_Sco_ G2Va plx=70.7371 mas (GaiaDR3)
+(G-V)(G2V) =  -0.174 ; solar twin HD 124523 = HIP 69645 (GaiaDR2)
+(G-V)(G2V) =  -0.175 ; solar twin HD 138573 = HIP 76114 (GaiaDR2) 
+(G-V)(G2V) = -0.1783 ; HD_102365_ G2V plx=107.3024 mas (GaiaDR3)
+(G-V)(G2V) = -0.2082 ; HD_76932_ G2VFe-1.8CH-1 plx=46.6872 mas (GaiaDR3)
 => adopt (G-V)(G2V) = -0.165 [updated 11/1/2020]
 
 
@@ -210,7 +230,7 @@ to be somewhat redder than that for the other standards.
 (Bp-Rp)(G2V) = 0.8262 ; solar twin HD 124523 = HIP 69645 (GaiaDR3)
 (Bp-Rp)(G2V) = 0.8251 ; ter. stan. HD 76151 (GaiaDR3) 
 (Bp-Rp)(G2V) =  0.8237 ; solar twin HD 138573 = HIP 76114 (GaiaDR2)
-(Bp-Rp)(G2V )=  0.823  ; color trend for B-V=0.650 (GaiaDR2)
+(Bp-Rp)(G2V) =  0.823  ; color trend for B-V=0.650 (GaiaDR2)
 (Bp-Rp)(G2V) = 0.8171 ; sec. stan. 18 Sco = HD 146233 (GaiaDR3)
 (Bp-Rp)(G2V) =  0.8156 ; solar twin HD 101364 = HIP 56948 (GaiaDR2)
 (Bp-Rp)(G2V) =  0.814  ; solar twin HD 88072  = HIP 49756 (GaiaDR2)
@@ -268,24 +288,6 @@ to be somewhat redder than that for the other standards.
 (Ks-W1)(G2V) = 0.061 ; EEM trend for d<30pc for B-V=0.65
 => adopt (Ks-W1)(G2V) = 0.061 [updated 12/29/2019]
 
-(V-Jj)(G2V)  = 1.10 ; Johnson66 
-
-(V-Kj)(G2V)  = 1.44 ; Johnson66 
-
-(V-Ks)(G2V)  =  1.497          ; solar twin HD 139777 = pi01 UMa 
-(V-Ks)(G2V)  =  1.511          ; solar twin HD 195034 = HIP 100963
-(V-Ks)(G2V)  =  1.515          ; solar twin HD 101364 = HIP 56948
-(V-K)(G2V)   =   1.539 +- 0.025 ; B-V vs. V-K(Ducati/Johnson) for XHIP d<50pc G Vs (-0.1<[Fe/H]<0.1) for B-V=0.650
-(V-Ks)(G2V)  =  1.541          ; solar twin HD 216008 = HIP 112730
-(V-Ks)(G2V)  = 1.545 +- 0.02  ; Rieke08 (NStars interp to 5778K)
-(V-Ks)(G2V)  =  1.547          ; solar twin HD 88072 = HIP 49756
-(V-Ks)(G2V)  = 1.548 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G Vs (-0.1<[Fe/H]<0.1) for B-V=0.650
-(V-Ks)(G2V)  =  1.552 +- 0.024 ; ter. stan. HD 76151
-(V-Ks)(G2V)  =  1.557          ; solar twin HD 9986 = HIP 7585 (from Gray03)
-(V-Ks)(G2V)  = 1.560 +- 0.008  ; pri. stan. Sun (Casagrande11)  
-(V-Ks)(G2V)  = 1.564           ; V-Ks vs. B-V polynomial fit for B-V = 0.65
-(V-Ks)(G2V)  =  1.570          ; solar twin HD 138573 = HIP 76114
-(V-Ks)(G2V)  =  1.571 +- 0.007 (+-0.035 1sig) ; 23 Gray06 "G2 V" stars
 
 (u-g)(G2V) = 1.43+-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
 => adopt (u-g)(G2V) = 1.43 [updated 9/1/2023]
