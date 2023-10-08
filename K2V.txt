@@ -44,15 +44,14 @@ Skiff08 flags three stars as K2V MK standards, all from Keenan89: HD
 (B-V)(K2V) =  0.941  ; deprecated stan. NO UMa = HD 109011
 (B-V)(K2V) = 0.93   ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.03)
 (B-V)(K2V) = 0.930  ; HD 189733 = HIP 98505 (Koen10) ~solar
-<B-V>(K2V) = 0.928  ; 174 HIP d<75pc S/N>8 (+-0.006 sem, +-0.057 stdev)
-<B-V>(K2V) =  0.92   ; Fitzgerald70
-(B-V)(K2V) =  0.92   ; Johnson66
+(B-V)(K2V) = 0.928  ; 174 HIP d<75pc S/N>8 (+-0.006 sem, +-0.057 stdev)
+(B-V)(K2V) =  0.92   ; Johnson66,Johnson68,Fitzgerald70
 (B-V)(K2V) = 0.916  ; median SIMBAD K2V d<25pc (N=38)
 (B-V)(K2V) = 0.913  ; HIP 49366 = V417 Hya (Koen10) ~solar
 (B-V)(K2V) =  0.91   ; SchmidtKaler82
 (B-V)(K2V) = 0.91   ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03)
-<B-V>(K2V) = 0.910 [+-0.012 sem,+-0.051 stdev]; med. for 36 K2V stars ARICNS
-<B-V>(K2V) = 0.89   ; Hyades; Wilson62(N=11) ([Fe/H]=+0.14) [note: Hyades reddening negligible E(B-V)=0.003+-0.002; Taylor80]
+(B-V)(K2V) = 0.910 [+-0.012 sem,+-0.051 stdev]; med. for 36 K2V stars ARICNS
+(B-V)(K2V) = 0.89   ; Hyades; Wilson62(N=11)([Fe/H]=+0.14)[note: Hyades reddening neglig. E(B-V)=0.003+-0.002; Taylor80]
 (B-V)(K2V) = 0.890  ; ter. stan. HD 4628 = GJ 33 = HIP 3765 ([Fe/H]=-0.26) 
 (B-V)(K2V) =  0.89   ; KenyonHartmann95
 (B-V)(K2V) = 0.887  ; exemplar HD 68475 = HIP 40051 ([Fe/H]=-0.04)
@@ -61,9 +60,9 @@ Skiff08 flags three stars as K2V MK standards, all from Keenan89: HD
 (B-V)(K2V) = 0.883  ; exemplar HD 220339 = GJ 9824 = GJ 894.5 = HIP 115445 ([Fe/H]=-0.33)
 (B-V)(K2V) = 0.883  ; HD 67199 = HIP 39342 (Koen10) ~solar
 (B-V)(K2V) = 0.882  ; pri. stan. eps Eri = HD 22049 ([Fe/H]=-0.08)
-<B-V>(K2V) =  0.88   ; Bessell79
+(B-V)(K2V) =  0.88   ; Bessell79
 (B-V)(K2V) = 0.879  ; exemplar HD 23484 = GJ 152 = HIP 17439 (Koen10) ([Fe/H]=+0.09) 
-<B-V>(K2V) = 0.878  ; 69 Gray 01/03/06 (+-0.006 sem, +-0.033 stdev)
+(B-V)(K2V) = 0.878  ; 69 Gray 01/03/06 (+-0.006 sem, +-0.033 stdev)
 (B-V)(K2V) = 0.876  ; ter. stan. HD 166620 ([Fe/H]=-0.18) 
 (B-V)(K2V) = 0.87   ; CATSUP d<30pc median (Hinkel17)
 (B-V)(K2V) = 0.870  ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.17) 
@@ -93,40 +92,15 @@ for 3 standards only (all metal-poor): (B-V)(K2V) = 0.876 - 0.04016*[Fe/H] (rms=
 (U-B)(K2V) =  0.645 ; HIP d<75pc S/N>8 K2V N=138 (Mermilliod91 photometry)
 (U-B)(K2V) =  0.653 ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03)
 (U-B)(K2V) = 0.664 ; HD 189733 = HIP 98505 (Koen10) ~solar
-(U-B)(K2V) =   0.68 ; Johnson66
+(U-B)(K2V) =   0.68 ; Johnson66,Johnson68
 (U-B)(K2V) =  0.727 ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.03) (Menzies89) (outlier)
 => adopt (U-B)(K2V) = 0.584 [updated 9/1/2023]
 [EEM 9/1/2023: fit for standards+exemplars (minus outlier HD 130930):
 (U-B)(K2V) = 0.590 + 0.08146*[Fe/H] (rms=0.036mag), but adopt B-V vs. U-B locus value for solar
 dwarfs, which factors in trend as function of B-V]
 
-(V-Ic)(K2V) = 0.906 ; exemplar HD 23484 = GJ 152 = HIP 17439 (Koen10) ([Fe/H]=+0.09)
-(V-Ic)(K2V) = 0.907 ; HD 18455 = HIP 13772 (Koen10) ~solar
-(V-Ic)(K2V) = 0.907 ; HD 67199 = HIP 39342 (Koen10) ~solar
-(V-Ic)(K2V) =  0.91  ; HD 137778 = GJ 586B ([Fe/H]=0.17)
-(V-Ic)(K2V) = 0.913 ; exemplar HD 170657 = GJ 716 = HIP 90790 ([Fe/H]=-0.17) (Koen10)
-<V-Ic>(K2V) = 0.923 (+-0.005 sem, +-0.039 stdev; N=69)
-<V-Ic>(K2V) =  0.93  ; Bessell79
-(V-Ic)(K2V) =  0.93  ; deprecated stan. 109011 = NO UMa
-(V-Ic)(K2V) = 0.935 ; (V-Rc)=0.50, (R-Ic)=0.435 (from fits to standards+exemplars for [Fe/H]=0.0)
-(V-Ic)(K2V) = 0.937 ; dwarf trend B-V vs V-Ic for B-V=0.884
-(V-Ic)(K2V) = 0.940 ; median V-Ic for nearby K2V in Koen10 (N=16)
-(V-Ic)(K2V) = 0.94  ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03)
-(V-Ic)(K2V) = 0.94  ; pri. stan. eps Eri ([Fe/H]=-0.08) (HIP)
-(V-Ic)(K2V) = 0.945 ; exemplar HD 220339 = GJ 9824 = GJ 894.5 = HIP 115445 ([Fe/H]=-0.33) (Cousins80)
-(V-Ic)(K2V) = 0.948 ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.17)
-(V-Ic)(K2V) = 0.951 ; HIP 49366 = V417 Hya (Koen10) ~solar
-(V-Ic)(K2V) = 0.96  ; ter. stan. HD 4628 = GJ 33 ([Fe/H]=-0.26) (Cousins80)
-(V-Ic)(K2V) = 0.966 ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.03) (Menzies89)
-(V-Ic)(K2V) = 0.968 ; ter. stan. HD 166620 ([Fe/H]=-0.18)
-(V-Ic)(K2V) = 0.968 ; HD 189733 = HIP 98505 (Koen10) ~solar
-(V-Ic)(K2V) = 0.969 ; exemplar HD 68475 = HIP 40051 ([Fe/H]=-0.04)
-<V-Ic>(K2V) = 0.972 (+-0.007 sem, +-0.060 stdev; HIP d<75pc S/N>8 N=174)
-(V-Ic)(K2V) = 0.983 ; exemplar HD 3222 = HIP 2743 ([Fe/H]=-0.41)
-=> adopt (V-Ic)(K2V) = 0.935 [updated 9/1/2023; V-Rc=0.50, Rc-Ic=0.435]
-[EEM 9/1/2023: fit for standards+exemplars (V-Ic)(K2V) = 0.937 - 0.0813*[Fe/H] (rms=0.022mag)]
-
-(V-Ij)(K2V) = 1.19 ; ; pri. stan. eps Eri ([Fe/H]=-0.08) (Johnson66)
+(V-Rj)(K2V) = 0.72 ; pri. stan. eps Eri ([Fe/H]=-0.08) (Johnson66)
+(V-Rj)(K2V) = 0.74 ; Johnson68
 
 (V-Rc)(K2V) = 0.479 ; HD 18455 = HIP 13772 (Koen10) ~solar 
 (V-Rc)(K2V) = 0.480 ; exemplar HD 23484 = GJ 152 = HIP 17439 (Koen10) ([Fe/H]=+0.09)
@@ -145,13 +119,15 @@ dwarfs, which factors in trend as function of B-V]
 (V-Rc)(K2V) =  0.51  ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03)
 (V-Rc)(K2V) =  0.514 ; exemplar HD 3222 = HIP 2743 ([Fe/H]=-0.41)
 (V-Rc)(K2V) =  0.516 ; exemplar HD 68475 = HIP 40051 ([Fe/H]=-0.04)
+(V-Rc)(K2V) =  0.516 ; Johnson68 V-Rj=0.74 transformed to V-Rc via Fernie83
 (V-Rc)(K2V) =  0.518 ; ter. stan. HD 166620 ([Fe/H]=-0.18)
 (V-Rc)(K2V) =  0.519 ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.03) (Menzies89)
 (V-Rc)(K2V) = 0.522 ; HD 189733 = HIP 98505 (Koen10) ~solar
 => adopt (V-Rc)(K2V) = 0.50 [updated 9/1/2023; V-Ic=0.94, R-Ic=0.436]
 [EEM 9/1/2023: fit for standards+exemplars (V-Rc)(K2V) = 0.5007 - 0.02426*[Fe/H] (rms=0.013mag)]
 
-(V-Rj)(K2V) = 0.72   ; pri. stan. eps Eri ([Fe/H]=-0.08) (Johnson66)
+(R-Ij)(K2V) = 0.47 ; pri. stan. eps Eri ([Fe/H]=-0.08) (Johnson66)
+(R-Ij)(K2V) = 0.48 ; Johnson68
 
 (R-Ic)(K2V) =  0.423  ; exemplar HD 170657 = GJ 716 = HIP 90790 ([Fe/H]=-0.17)
 (R-Ic)(K2V) =  0.425 ; HD 137778 = GJ 586B ([Fe/H]=+0.17)
@@ -161,7 +137,7 @@ dwarfs, which factors in trend as function of B-V]
 (R-Ic)(K2V) = 0.428 ; HD 18455 = HIP 13772 (Koen10) ~solar
 (R-Ic)(K2V) = 0.429 ; HD 30501 = HIP 22122 (Koen10) ~solar 
 (R-Ic)(K2V) =  0.43 ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03)
-<R-Ic>(K2V) =   0.43  ; Bessell79
+(R-Ic)(K2V) =   0.43  ; Bessell79
 (R-Ic)(K2V) = 0.435 ; V-Rc=0.50, V-Ic=0.935 (values for [Fe/H]=0.0 from fits to standards+exemplars]
 (R-Ic)(K2V) = 0.446 ; HD 189733 = HIP 98505 (Koen10) ~solar
 (R-Ic)(K2V) =  0.447 ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.03)
@@ -175,11 +151,42 @@ dwarfs, which factors in trend as function of B-V]
 => adopt (R-Ic)(K2V) = 0.435 [updated 9/1/2023; V-Ic=0.935, V-Rc=0.50]
 [EEM 9/1/2023: fit to standards+exemplars: (R-Ic)(K2V) = 0.4346 - 0.0602*[Fe/H] (rms=0.011mag)]
 
-(Rj-Ij)(K2V) = 0.47 ; ; pri. stan. eps Eri ([Fe/H]=-0.08) (HIP) (Johnson66)
+(V-Ij)(K2V) = 1.19 ; pri. stan. eps Eri ([Fe/H]=-0.08) (Johnson66)
+
+(V-Ic)(K2V) = 0.906 ; exemplar HD 23484 = GJ 152 = HIP 17439 (Koen10) ([Fe/H]=+0.09)
+(V-Ic)(K2V) = 0.907 ; HD 18455 = HIP 13772 (Koen10) ~solar
+(V-Ic)(K2V) = 0.907 ; HD 67199 = HIP 39342 (Koen10) ~solar
+(V-Ic)(K2V) =  0.91  ; HD 137778 = GJ 586B ([Fe/H]=0.17)
+(V-Ic)(K2V) = 0.913 ; exemplar HD 170657 = GJ 716 = HIP 90790 ([Fe/H]=-0.17) (Koen10)
+(V-Ic)(K2V) = 0.923 (+-0.005 sem, +-0.039 stdev; N=69)
+(V-Ic)(K2V) =  0.93  ; Bessell79
+(V-Ic)(K2V) =  0.93  ; deprecated stan. 109011 = NO UMa
+(V-Ic)(K2V) = 0.935 ; (V-Rc)=0.50, (R-Ic)=0.435 (from fits to standards+exemplars for [Fe/H]=0.0)
+(V-Ic)(K2V) = 0.937 ; dwarf trend B-V vs V-Ic for B-V=0.884
+(V-Ic)(K2V) = 0.940 ; median V-Ic for nearby K2V in Koen10 (N=16)
+(V-Ic)(K2V) = 0.94  ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03)
+(V-Ic)(K2V) = 0.94  ; pri. stan. eps Eri ([Fe/H]=-0.08) (HIP)
+(V-Ic)(K2V) = 0.945 ; exemplar HD 220339 = GJ 9824 = GJ 894.5 = HIP 115445 ([Fe/H]=-0.33) (Cousins80)
+(V-Ic)(K2V) = 0.948 ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.17)
+(V-Ic)(K2V) = 0.951 ; HIP 49366 = V417 Hya (Koen10) ~solar
+(V-Ic)(K2V) = 0.959 ; Johnson68 V-Ij=1.22 transformed to V-Ic via Fernie83
+(V-Ic)(K2V) = 0.96  ; ter. stan. HD 4628 = GJ 33 ([Fe/H]=-0.26) (Cousins80)
+(V-Ic)(K2V) = 0.966 ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.03) (Menzies89)
+(V-Ic)(K2V) = 0.968 ; ter. stan. HD 166620 ([Fe/H]=-0.18)
+(V-Ic)(K2V) = 0.968 ; HD 189733 = HIP 98505 (Koen10) ~solar
+(V-Ic)(K2V) = 0.969 ; exemplar HD 68475 = HIP 40051 ([Fe/H]=-0.04)
+(V-Ic)(K2V) = 0.972 (+-0.007 sem, +-0.060 stdev; HIP d<75pc S/N>8 N=174)
+(V-Ic)(K2V) = 0.983 ; exemplar HD 3222 = HIP 2743 ([Fe/H]=-0.41)
+=> adopt (V-Ic)(K2V) = 0.935 [updated 9/1/2023; V-Rc=0.50, Rc-Ic=0.435]
+[EEM 9/1/2023: fit for standards+exemplars (V-Ic)(K2V) = 0.937 - 0.0813*[Fe/H] (rms=0.022mag)]
 
 (V-Jj)(K2V) = 1.57 ; Johnson66
+(V-Jj)(K2V) = 1.58 ; Johnson68
 
-(V-Kj)(K2V) = 2.15 ; Johnson66 
+(V-Hj)(K2V) = 2.08 ; Johnson68
+
+(V-Kj)(K2V) = 2.15 ; Johnson66
+(V-Kj)(K2V) = 2.17 ; Johnson68
 
 (V-Ks)(K2V) =  2.058 ; exemplar HD 23484 = GJ 152 = HIP 17439 ([Fe/H]=+0.09)
 (V-Ks)(K2V) = 2.084 ; pri. stan. eps Eri = HD 22049 ([Fe/H]=-0.08)
@@ -202,7 +209,6 @@ dwarfs, which factors in trend as function of B-V]
 => adopt (V-Hp)(K2V) = -0.144
 => adopt (W1-W3)(K2V)= -0.037
 => adopt (W1-W4)(K2V)= -0.010
-
 
 (G-V)(K2V) = -0.239 ; V-Ic vs G-V trend Pancinco22 for V-Ic=0.944 (GaiaDR3)
 (G-V)(K2V) = -0.240 ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03) (GaiaDR3)
@@ -477,19 +483,22 @@ Mass(K2V) =  0.828 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.428)
 Mass(K2V) =  0.826 Msun ; Eker15 calibration for logL=-0.428
 Mass(K2V) = 0.814 Msun ; Fernandez21 ML calibration for logL=-0.428
 Mass(K2V) = 0.806+-0.031 Msun ; Mann18 calib for M_Ks=3.938 (unc. 3.8%)
+Mass(K2V) = 0.796 Msun ; pri. stan. HD 22049 = eps Eri = GJ 144 ([Fe/H]=-0.08)
+Mass(K2V) = 0.789 Msun ; ter. stan. HD 166620 = GJ 706 = HIP 88972 ([Fe/H]=-0.18)
 Mass(K2V) =  0.7542+-0.0059 Msun ; ecl. binary V2154 Cyg B (BrightTorres17) [Fe/H]=-0.17, 2.2Gyr
+Mass(K2V) = 0.747 Msun ; ter. stan. HD 4628 = GJ 33 = HIP 3765 ([Fe/H]=-0.26)
 Mass(k2V) =  0.738 Msun ; Habets81
 => adopt Mass(K2V) = 0.82 Msun [updated 8/3/2023]
 
-logg(K2V) =   4.45  ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.17)
-logg(K2V) =   4.48  ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.03)
-logg(K2V) =   4.49  ; exemplar HD 23484 = GJ 152 = HIP 17439 ([Fe/H]=+0.09)
-logg(K2V) =  4.50  ; ter. stan. ter. stan. HD 166620 ([Fe/H]=-0.18)
+logg(K2V) =   4.45 ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.17)
+logg(K2V) =   4.48 ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.03)
+logg(K2V) =   4.49 ; exemplar HD 23484 = GJ 152 = HIP 17439 ([Fe/H]=+0.09)
+logg(K2V) =  4.50 ; ter. stan. ter. stan. HD 166620 ([Fe/H]=-0.18)
 logg(K2V) = 4.506 ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5100K (see G0V.txt)
-logg(K2V) =  4.55  ; pri. stan. eps Eri = HD 22049 ([Fe/H]=-0.08)
+logg(K2V) =  4.55 ; pri. stan. eps Eri = HD 22049 ([Fe/H]=-0.08)
 logg(K2V) = 4.564 ; M=0.82Msun, R=0.783Rsun
-logg(K2V) =   4.57  ; exemplar HD 3222 = HIP 2743 ([Fe/H]=-0.41)
-logg(K2V) =   4.57  ; exemplar HD 170657 = GJ 716 ([Fe/H]=-0.17)
+logg(K2V) =   4.57 ; exemplar HD 3222 = HIP 2743 ([Fe/H]=-0.41)
+logg(K2V) =   4.57 ; exemplar HD 170657 = GJ 716 ([Fe/H]=-0.17)
 logg(K2V) =  4.62  ; ter. stan. HD 4628 = HR 222 ([Fe/H]=-0.26)
 => adopt logg(K2V) = 4.56 [updated 8/3/2023]
 
@@ -503,6 +512,8 @@ HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=
  *K2V: MK43,JM53,Wilson62(stan,JM53),Jaschek64(all),Morgan65,Cowley67,KeenanMcNeil76(stan),Keenan80,Keenan85,Keenan89,Garrison94,Keenan99,Gray03(K2V(k))
   K0: Cannon
 
+  Famous nearby, young, active K dwarf with exoplanet and debris
+  disk. 2nd nearest K dwarf after alf Cen B.
   V=3.726+-0.010(Mermilliod91), V=3.730+-0.008(Cousins71),
   V=3.73(Cousins80), V=3.73(Bessel90), B-V=0.88(Bessel90),
   B-V=0.88(Johnson66), B-V=0.881(HIP), B-V=0.881(Just08),
@@ -526,10 +537,10 @@ HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=
   L=1.59(Engels81), M=1.67(Engels81), M=1.67(Koornneef83),
   M=1.697+-0.013(vanderBliek96,ESO).  Transforming the vanderBliek96
   ESO Kmag to 2MASS system following Carpenter01: Ks=1.646 => (V-Ks) =
-  3.730 - 1.646 = 2.084.  mbol = 3.457+-0.016(Pecaut13), hence BCv =
+  3.730 - 1.646 = 2.084. mbol = 3.457+-0.016(Pecaut13), hence BCv =
   mbol - V = 3.457 - 3.726 = -0.269.  Teffs: 5097+-19K (Pecaut13),
   5077+-35K(Boyajian12).  Soubiran22/PASTEL means:
-  Teff=5098+-10K(N=44), logg=4.55+-0.02(N=37),
+  Teff=5098+-10K(N=44; logTeff=3.7074+-0.0009), logg=4.55+-0.02(N=37),
   [Fe/H]=-0.08+-0.01(N=36).  Gaia DR2 photometry, G and Rp need
   corrected via Evans18: G(corr)= 3.477, Bp(corr)=4.003, Rp(corr)=
   2.806, (Bp-Rp)(corr)= 1.196, (Bp-G)(corr)= 0.525, (G-Rp)(corr)=
@@ -543,13 +554,27 @@ HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=
   plx=310.5773+-0.1355mas(GaiaDR3) =>
   Mv=6.191+-0.008(Cousins71,GaiaDR3), M_G=5.927+-0.003(GaiaDR3),
   M_Ks=4.107(estimated from vanderBliek96=>2MASS via
-  Carpenter01,GaiaDR3).
+  Carpenter01,GaiaDR3). Mass estimates: 0.39+-0.19Msun(Ghezzi10_#1),
+  0.708+-0.067Msun(Valenti05_#1), 0.74+-0.01Msun(Luck17),
+  0.75+-0.10Msun(Ghezzi10_#2), 0.78+-0.02Msun(Ramirez12),
+  0.80+-0.03Msun(Casagrande11_BASTI), 0.80+-0.03Msun(Yee17),
+  0.8026+-0.0409Msun(Anders19), 0.804+-0.025Msun(Ramirez13),
+  0.81+-0.025Msun(Casagrande11_Padova), 0.82+-0.025Msun(Valenti05_#2),
+  0.83+-0.05Msun(Maldonado19), 0.850+-0.100Msun(Stassun19),
+  0.856+-0.007Msun(Takeda07) => Mass = 0.796Msun (+-0.010 sem,
+  +-0.052(6.5%) stdev). Note that if one combines the spectroscopic
+  surface gravity from Soubiran22 (logg=4.55+-0.02) with the measured
+  radius (0.738+-0.003Rsun;Rain20), one would estimate mass
+  M=0.710+-0.031Msun, which is 3.0sigma lower than the mean mass
+  estimate from the survey above. Combining the mass estimates and HRD
+  position (M=0.802+-0.050Msun, Teff=5098+-10K, logL=-0.49+-0.01)
+  would predict logg=4.62+-0.03.
 
 # Secondary Standards
   
 # Tertiary Standards
 
-HD 166620 = GJ 706 = HR 6806 = HIP 88972 = LHS 3363 = SPOCS 784 = Gaia DR3 4610177733290768896 
+HD 166620 = GJ 706 = HIP 88972 = HR 6806 = LHS 3363 = SPOCS 784 = Gaia DR3 4610177733290768896 
   K0: Cannon
   K1V: 1972AbaOB..43..109W
  *K2V: 1927MeUpp..28....1L,Adams35,Keenan41,JM53(non-stan),Morgan53,Wilson62,Cowley67,Hoffleit82(BSC),Houk(stan? see below),Bidelman85(K2),Gray03
@@ -576,9 +601,16 @@ HD 166620 = GJ 706 = HR 6806 = HIP 88972 = LHS 3363 = SPOCS 784 = Gaia DR3 46101
   Teff=5028+-17K, logg=4.50+-0.03,
   [Fe/H]=-0.18+-0.02. plx=90.1234+-0.0156mas(GaiaDR3) =>
   Mv=6.151+-0.003(Hauck97,GaiaDR3), M_G=5.904+-0.003,
-  M_Ks=4.006+-0.021.
+  M_Ks=4.006+-0.021. Mass estimates: 0.669+-0.038Msun(Valenti05_#1),
+  0.750+-0.017Msun(Ramirez13), 0.76+-0.015Msun(Valenti05_#2),
+  0.76+-0.04Msun(Ramirez12), 0.78+-0.015Msun(Brewer16),
+  0.78+-0.02Msun(Maldonado19), 0.791+-0.011Msun(Takeda07),
+  0.81+-0.025Msun(Casagrande11_Padova),
+  0.81+-0.03Msun(Casagrande11_BASTI), 0.820+-0.096Msun(Stassun19),
+  0.8200+-0.0379Msun(Anders19), 0.83+-0.02Msun(Luck17) => Mass =
+  0.789Msun (+-0.013 sem, +-0.034(4.3%) stdev).
 
-HD 4628 = GJ 33 = HR 222 = HIP 3765 = BD+04 123 = LHS 121
+HD 4628 = GJ 33 = HIP 3765 = HR 222 = BD+04 123 = LHS 121
   K1V: 1972AbaOB..43..109W,Houk99
  *K2V: MK43(stan),Nassau47,Wilson62,Cowley67,Harlan74,Bidelman85(K2),Gray03
   K2.5V: Gray06
@@ -589,16 +621,16 @@ HD 4628 = GJ 33 = HR 222 = HIP 3765 = BD+04 123 = LHS 121
   agreement on K2V type over the years. I leave it as a tertiary
   standard as it did not seem to be used in later standard star
   compilations by Morgan and Keenan. According to Skiff's compilation,
-  "S 222" in MK43 is actually "HR 222". Jaschek78 agrees.  Wilson62
-  comment "Balmer & CN weak". Houk says "HR 222; UNDETECTED VISUAL
-  DOUBLE p=353°d=2.7arcsec MAG 5.8; LHS 121; µ=1.367". V=5.74(HIP),
+  "S 222" in MK43 is actually "HR 222". Wilson62 comment "Balmer & CN
+  weak". Houk says "HR 222; UNDETECTED VISUAL DOUBLE p=353°d=2.7arcsec
+  MAG 5.8; LHS 121; µ=1.367". V=5.74(HIP),
   V=5.742+-0.013(Mermilliod91), V=5.76(Johnson57), V=5.72:(Cousins80),
   B-V=0.890+-0.008(HIP,Mermilliod91), B-V=0.88(Johnson57),
   U-B=0.58(Johnson57), U-B=0.591+-0.010(Mermilliod91),
   R-Ic=0.45(Cousins80), V-Ic=0.96(Cousins80), V-Rc=0.51(Cousins80),
   g-r=0.719(Just08), r-i=0.216(Just08), V-Rc=0.508(Just08),
   Rc-Ic=0.441(Just08), V-Ic=0.949(Just08),
-  V-Ic=0.968(Cousins96). 2mASS photometry is flagged 'DDD', poor
+  V-Ic=0.968(Cousins96). 2MASS photometry is flagged 'DDD', poor
   quality. Morel78 reports Johnson IR photometry: J=4.24, K=3.61,
   L=3.48 from Johnson68 => tranforming via Rieke22 => Ks=3.584 =>
   (V-Ks) = 5.742 - 3.584 = 2.158.
@@ -608,7 +640,16 @@ HD 4628 = GJ 33 = HR 222 = HIP 3765 = BD+04 123 = LHS 121
   plx=134.4990+-0.0890mas(GaiaDR2) => R=0.694Rsun.
   R=0.695+-0.004Rsun(Yee17). plx = 134.4948+-0.0578mas(GaiaDR3) =>
   Mv=6.386+-0.013(Mermlliod91,GaiaDR3), M_G=6.111+-0.003(GaiaDR3),
-  M_K=4.228(Johnson->2MASS,GaiaDR3).
+  M_K=4.228(Johnson->2MASS,GaiaDR3). Mass estimates:
+  0.37+-0.18Msun(Ghezzi10_#1), 0.637+-0.050Msun(Valenti05_#1),
+  0.70+-0.10Msun(Ghezzi10_#2), 0.72+-0.015Msun(Valenti05_#2),
+  0.729+-0.021Msun(Ramirez13), 0.75+-0.02Msun(Brewer16),
+  0.75+-0.02Msun(Luck17), 0.75+-0.02Msun(Ramirez12),
+  0.75+-0.03Msun(Yee17), 0.756+-0.0195Msun(Takeda07),
+  0.76+-0.02Msun(Maldonado19), 0.77+-0.02Msun(Casagrande11_BASTI),
+  0.77+-0.02Msun(Casagrande11_Padova), 0.7709+-0.0339Msun(Anders19),
+  0.810+-0.096Msun(Stassun19) => Mass = 0.747Msun (+-0.007 sem,
+  +-0.036(4.8%)).
   
 # Deprecated standards
 
@@ -894,7 +935,6 @@ HD 130930 = HIP 72742 = 2MASS J14521773-4349053 = Gaia DR3 6100277947576330496 =
   given its solar metallicity, low space velocity (U,V,W = -1, -11,
   -12 ; Gondoin20), it is likely an old thin disk star.
   
-   
 # Other Stars
 
 Morgan65 lists four stars as K2V Hyads: HD 27990, 28878, 28977, & 284414.
@@ -917,8 +957,8 @@ HD 219834B = GJ 894.2B
 
    Northern of 13" pair. Unresolved photometry: V(AB)=5.09(Cousins80),
    R-Ic(AB)=0.38(Cousins80), V-Ic(AB)=0.82(Cousins80).
-   V-Rc=0.44(Cousins80). Soubiran22/PASTEL catalog: Teff=5174+-29K, logg=4.47+-0.07, [Fe/H]=+0.21+-0.03. 
-
+   V-Rc=0.44(Cousins80). Soubiran22/PASTEL catalog: Teff=5174+-29K,
+   logg=4.47+-0.07, [Fe/H]=+0.21+-0.03.
 
 HD 3765 = GJ 28 = G 132-15 = Cin 20 44
   K2V: Morgan53,Stebbins56,Keenan99(non-stan)
@@ -952,7 +992,6 @@ HD 10360 = HR 486 = p Eri B
   (N=8), <[Fe/H]> = -0.235(N=6), <logg> = 4.625(N=6).
   Soubiran22/PASTEL catalog: Teff=5111+-34K, logg=4.63+-0.06,
   [Fe/H]=-0.19+-0.03.  plx = 122.1333+-0.0523mas(GaiaDR2). Mv = 6.39.
-  
 
 HD 10361 = HR 487 = p Eri A 
    K0V: Evans57,Stocke91
@@ -1036,8 +1075,6 @@ HD 192310 = GJ 785 = HR 7722
   Appears to have spectral peculiarities. V=5.73(Cousins80),
   R-Ic=0.425(Cousins80), V-Ic=0.925(Cousins80).
 
-
-
 HD 144628 = GJ 613 = HIP 79190 = NLTT 42064 = Gaia DR3 5835498883232034816 
    K1V: Drilling68,Gray06
   *K1/2V: Houk75
@@ -1053,8 +1090,6 @@ HD 209742 = GJ 9765 = GJ 847.1 = HIP 109166 = NLTT 52909 = Gaia DR3 656749421383
 
    V=8.43(Cousins80), R-Ic=0.43(Cousins80), V-Ic=0.90(Cousins80),
    V-Rc=0.47(Cousins80).
-
-
 
 HD 221575
   K0V: 1981AJ.....86..553B
