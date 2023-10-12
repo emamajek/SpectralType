@@ -192,7 +192,10 @@ for further support for (B-V)~0.86 see XHIP trend at bottom of page]
 (Bp-Rp)(K1V) = 1.0225 ; pri. stan. 107 Psc = HD 10476 (GaiaDR3) ([Fe/H]=-0.04)
 (Bp-Rp)(K1V) =  1.031  ; fit for B-V=0.845
 (Bp-Rp)(K1V) = 1.0359 ; exemplar HD 224789 = HIP 57 ([Fe/H]=-0.01)
-=> adopt (Bp-Rp)(K1V) = 1.02 [updated 8/20/2023]
+=> adopt (Bp-Rp)(K1V) = 1.02 [updated 8/20/2023] (GaiaDR2)
+
+(G-T)(K1V) = 0.527 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=1.02
+=> (G-T)(K1V) = 0.527 [updated 10/8/2023] (GaiaDR2)
 
 (G-Rp)(K1V) =  0.558   ; pri. stan. *_107_Psc K1V (G corrected) ([Fe/H]=-0.04)
 (G-Rp)(K1V) =  0.562   ; fit for B-V=0.845
@@ -835,32 +838,35 @@ HD 103095 = Groombridge 1830 = CF UMa = HR 4550 = LHS 44 = HIP 57939
    G9VgG2mG7: Abt86
   *K1V Fe-1.5: Gray03
 
-   Remarkably low metallicity ([Fe/H] ~ -1.3) star at d=9pc, only
-   included here because it is a very nearby, bright G/K dwarf with an
-   unusual history (controversial companion that may not exist).
-   SIMBAD has comment "CF UMa was a suspected flaring companion; it is
-   not clear that it actually exists (see Heintz,
-   1984PASP...96..557H)."  Noteworthy that it is *not* in SB9 or WDS
-   and Kervella22 reports a negligible tangential velocity anomaly
-   (1.13+-1.17m/s).  Beardsley74 reports some detail and a preliminary
-   orbital solution of Tperiastron = 1920, a=13au, M1+M2=0.6Msun.:
-   "Van de Kamp (1969) has repported the existence of a companion 5 or
-   6 mag fainter with a separation of 1.7" which flared on 1968 Feb
-   27." "The velocities from the late 1930s to date show a steady slow
-   increase towards more positive values." "A change in velocity is
-   evidence around 1920, suggesting that periastron passage ocurred
-   near that time." "HD 103095 was included in the original IAU list
-   of standard velocity stars (Plaskett 1935)." However observations
-   of the star by Griffin84 during 1974-1984 found no evidence of RV
-   variations and no sign of a predicted periastron
-   passage. Similarly, Heintz84(1984PASP...96..557H) found no evidence
-   for a companion after reexaming archival data from 1960s and
-   1970s. Latham02 reports N=327 observations with chi2=319.38 and
-   chi2 probability of 0.593 (internal mean error 0.47 km/s, external
-   mean error 0.46 km/s) but left the field blank for binarity -
-   apparently the RV signal was not indicative of a binary, and
-   certainly not one where an orbit could be derived. VSX reports
-   magnitude ranging from 6.6 to 7.2. V=6.45 (2002yCat.2237....0D),
+   I believe "S 3582" (11:47+38:26 V=6.5mag) in MK43 is actually HD
+   103095 as the B1900 coordinates roughly line up and it is also
+   V=6.5 (but I have no idea what the "S" stands for?).  Remarkably
+   low metallicity ([Fe/H] ~ -1.3) star at d=9pc, only included here
+   because it is a very nearby, bright G/K dwarf with an unusual
+   history (controversial companion that may not exist).  SIMBAD has
+   comment "CF UMa was a suspected flaring companion; it is not clear
+   that it actually exists (see Heintz, 1984PASP...96..557H)."
+   Noteworthy that it is *not* in SB9 or WDS and Kervella22 reports a
+   negligible tangential velocity anomaly (1.13+-1.17m/s).
+   Beardsley74 reports some detail and a preliminary orbital solution
+   of Tperiastron = 1920, a=13au, M1+M2=0.6Msun.: "Van de Kamp (1969)
+   has repported the existence of a companion 5 or 6 mag fainter with
+   a separation of 1.7" which flared on 1968 Feb 27." "The velocities
+   from the late 1930s to date show a steady slow increase towards
+   more positive values." "A change in velocity is evidence around
+   1920, suggesting that periastron passage ocurred near that time."
+   "HD 103095 was included in the original IAU list of standard
+   velocity stars (Plaskett 1935)." However observations of the star
+   by Griffin84 during 1974-1984 found no evidence of RV variations
+   and no sign of a predicted periastron passage. Similarly,
+   Heintz84(1984PASP...96..557H) found no evidence for a companion
+   after reexaming archival data from 1960s and 1970s. Latham02
+   reports N=327 observations with chi2=319.38 and chi2 probability of
+   0.593 (internal mean error 0.47 km/s, external mean error 0.46
+   km/s) but left the field blank for binarity - apparently the RV
+   signal was not indicative of a binary, and certainly not one where
+   an orbit could be derived. VSX reports magnitude ranging from 6.6
+   to 7.2. V=6.45 (2002yCat.2237....0D),
    Ks=4.373+-0.027(2MASS). plx=109.0296+-0.0197mas(GaiaDR3).  PASTEL
    compendium averages from Soubiran22: <Teff> = 5057+-18K(N=54),
    logg=4.64+-0.04(N=43), [Fe/H]=-1.33+-0.02(N=44).  So a putative
