@@ -245,6 +245,9 @@ to be somewhat redder than that for the other standards.
 => adopt (Bp-Rp)(G2V) = 0.815 [updated 11/22/2020] (GaiaDR2)
 => adopt (Bp-Rp)(G2V) = 0.813 [updated 7/15/2023] (GaiaDR3)
 
+(G-T)(G2V) = 0.428 ; calculated G_GaiaDR2 - T_TESS following Stassun19 for (Bp-Rp)=0.815
+=> (G-T)(G2V) = 0.428 [updated 10/8/2023] (GaiaDR2)
+
 (Bp-G)(G2V) = 0.3188   ; solar twin HD 88072 = HIP 49756 (GaiaDR3)
 (Bp-G)(G2V) = 0.3182   ; solar twin HD 101364 = HIP 56948 (GaiaDR3) 
 (Bp-G)(G2V) = 0.324    ; Sun synthetic GaiaDR3 (Gaia Collaboration+Creevey+22)
@@ -418,12 +421,15 @@ logL(G2V) = 0.000 dex ; Sun
 
 Rad(G2V) =  1.049 Rsun ; Challouf14 calibration for Mv=4.80, M_Ks=3.236
 Rad(G2V) = 1.012 Rsun ; logL = 0.010, Teff=5770K
+Rad(G2V) = 1.010+-0.009Rsun ; sec. stan. HD 146233 = 18 Sco = GJ 616 ([Fe/H]=+0.03) (Bazot11)
+Rad(G2V) = 1.000 Rsun ; pri. stan. Sun ([Fe/H]=0.00, 4.5Gyr)
 => adopt Rad(G2V) = 1.012 Rsun [updated 9/26/2020]
 
 Mass(G2V) =  1.009 Msun ; EEM fit to ML for logL=0.00
 Mass(G2V) = 1.005 Msun ; Fernandes21 calibration for logL=0.010
 Mass(G2V) = 1.003 Msun ; Eker18 ML calibration for logL=0.00
-Mass(G2V) = 1.00  Msun ; pri. stan. Sun
+Mass(G2V) = 1.005 Msun ; sec. stan. HD 146233 = 18 Sco = GJ 616 ([Fe/H]=+0.03)
+Mass(G2V) = 1.00  Msun ; pri. stan. Sun ([Fe/H]=0.00, 4.5Gyr)
 Mass(G2V) =  0.986 Msun ; Habets81
 Mass(G2V) =  0.98  Msun ; sec. stan. 18 Sco
 => adopt Mass(G2V) = 1.00 Msun [updated 8/3/2023]
@@ -500,16 +506,11 @@ HD 146233 = 18 Sco = GJ 616 = HR 6060 = HIP 79672
   corrupted (flags C and D), however Casagrande14 quotes accurate
   ground-based SAAO JHK photometry: J=4.391+-0.016(Casagrande14/SAAO),
   H=4.057+-0.016(Casagrande14/SAAO),
-  K=4.006+-0.015(Casagrande14/SAAO).  WISE bands 1 and 2 bad in 2012 &
-  2013 catalogs, but W3=3.994+-0.013(Cutri13),
-  W4=3.956+-0.024(Cutri13).
-
-  PASTEL median parameters:
-  Teff = 5795+-9K, [Fe/H]=0.037+-0.007, logg=4.44+-0.01, so star is
-  only 23+-9K hotter and 0.037+-0.007 dex more metal-rich, so
-  remarkably close to the Sun. PASTEL 2022 (Soubiran22) averages:
-  Teff=5785+-12K(N=43), logg=4.43+-0.02(N=37),
-  [Fe/H]=0.03+-0.01(N=36), hence the Teff and logg is statistically
+  K=4.006+-0.015(Casagrande14/SAAO).  WISE bands 1 and 2 band in 2012
+  & 2013 catalogs, but W3=3.994+-0.013(Cutri13),
+  W4=3.956+-0.024(Cutri13).  PASTEL median parameters: PASTEL 2022
+  (Soubiran22) averages: Teff=5785+-12K(N=43), logg=4.43+-0.02(N=37),
+  [Fe/H]=+0.03+-0.01(N=36), hence the Teff and logg is statistically
   indistinguishable from Sun, and the metallicity is only 3sigma
   higher, but basically ~solar. Teffs:
   5789+-38K(Casagrande14/IRFM/JC-SAAO),
@@ -520,10 +521,9 @@ HD 146233 = 18 Sco = GJ 616 = HR 6060 = HIP 79672
   Bp-G=0.3720, G-Rp=0.4361 => corrected via Evans18
   (Bp-Rp)(corr)=0.808, (Bp-G)(corr)=0.343,
   (G-Rp)(corr)=0.465. GaiaDR3: G=5.327651, Bp-Rp=0.817077,
-  Bp-G=0.327281, G-Rp=0.489797, G-V = 5.327651 - 5.496 = -0.1683.
-    SED fit and
-  luminosity: using VOSA to fit to 25 photometric datapoints, the best
-  fit SED I could derive was (ignoring 2MASS JHKs(poor), IRAS
+  Bp-G=0.327281, G-Rp=0.489797, G-V = 5.327651 - 5.496 = -0.1683.  SED
+  fit and luminosity: using VOSA to fit to 25 photometric datapoints,
+  the best fit SED I could derive was (ignoring 2MASS JHKs(poor), IRAS
   60/100um): BT-Settl-CIFIST model with Av=0(constrained), Teff=5600K,
   logg=4, [M/H]=0, log(L/Lsun)=0.0402+-0.0021 dex, L=1.097+-0.005234
   Lsun (surprisingly small error of 0.48%, i.e. probably
@@ -545,7 +545,20 @@ HD 146233 = 18 Sco = GJ 616 = HR 6060 = HIP 79672
   predicts delta(mag)=mag(18Sco)-mag(Sun) = 32.146+-0.026 and
   independently predicts a solar apparent magnitude of
   V(Sun)=-26.650+-0.027 (just from 18 Sco Teff, angular diameter, and
-  apparent V magnitude).
+  apparent V magnitude). Mass estimates:
+  Mass=0.96+-0.03Msun(Metcalfe23/asteroseismo),
+  Mass=0.9792+-0.0569Msun(Queiroz20),
+  Mass=0.9797+-0.0826Msun(Anders19),
+  Mass=0.980+-0.130Msun(Valenti05_#1),
+  Mass=1.00+-0.025Msun(Ramirez12),
+  Mass=1.00+-0.055Msun(Casagrande11_BASTI),
+  Mass=1.003+-0.025Msun(Ramirez13), Mass=1.005+-0.026Msun(Takeda07),
+  Mass=1.01+-0.055Msun(Casagrande11_Padova),
+  Mass=1.02+-0.03Msun(Bazot11/asteroseismo),
+  Mass=1.02+-0.045Msun(Valenti05_#2), Mass=1.02+-0.06Msun(Luck17),
+  Mass=1.04+-0.03Msun(Brewer16), Mass=1.040+-0.132Msun(Stassun19),
+  Mass=1.06+-0.02Msun(Maldonado19) => Mass=1.005Msun (+-0.006 sem,
+  +-0.029(2.9%) stdev).
 
 ### Tertiary Standards
 

@@ -83,7 +83,10 @@ and within 1 mag of the MS (N=6):
 (Bp-Rp)(G7V) =  0.8880  ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1) [Gaia EDR3]
 (Bp-Rp)(G7V) =  0.9128  ; HD_131156
 (Bp-Rp)(G7V) =  0.929   ; Evans18 trend for V-I= 0.764
-=> adopt (Bp-Rp)(G7V) = 0.87 [updated 11/22/2020]
+=> adopt (Bp-Rp)(G7V) = 0.87 [updated 11/22/2020] (GaiaDR2)
+
+(G-T)(G7V) = 0.455 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.87
+=> (G-T)(G7V) = 0.455 [updated 10/8/2023] (GaiaDR2)
 
 (Bp-G)(G7V) =  0.3559  ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1)
 (Bp-G)(G7V) =  0.370   ; color trend for B-V=0.71
@@ -197,6 +200,7 @@ logL(G7V) = -0.134 dex ; Mv=5.2, BCv=-0.125 => Mbol = 5.075
 
 Rad(G7V) = 0.957 Rsun ; Challouf14 calibration for Mv=5.20, M_Ks=3.495 
 Rad(G7V) = 0.927 Rsun ; logL=-0.134, Teff=5550K
+Rad(G7V) = 0.8627+-0.0107Rsun ; exemplar HD 131156 = xi Boo A = GJ 566 ([Fe/H]=-0.15)
 => adopt Rad(G7V) = 0.927 Rsun [updated 9/26/2019]
 
 Mass(G7V) =  0.955 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.2)
@@ -250,7 +254,7 @@ HD 24206 = HIP 18097
   Mishenina04). CATSUP lists [Fe/H] = -0.04+-0.04.  plx =
   33.4459+-0.0432(GaiaDR2) => Mv = 5.19+-0.01.
 
-HD 131156 = Xi Boo A = HR 5544 = GJ 566 (J1451+1906)
+HD 131156 = xi Boo A = GJ 566 = HR 5544 (J1451+1906)
   G5: Adams35(G5V),Bidelman85,1955ApJ...121..337S(G5e)
   G6+V: Keenan41
  *G7V: Levato78(G7Ve),Gray03
@@ -263,13 +267,14 @@ HD 131156 = Xi Boo A = HR 5544 = GJ 566 (J1451+1906)
   subtype earlier than 61 UMa. As 61 UMa is an anchor standard that
   has survived from MK1943 through Keenan's 1980s works, we keep 61
   UMa as the primary G8V standard, and now consider Xi Boo A to be
-  deprecated. PASTEL medians: <Teff>=5500K(N=20), [Fe/H]=-0.15(N=18),
+  deprecated for G8V. PASTEL medians: <Teff>=5500K(N=20), [Fe/H]=-0.15(N=18),
   <logg>=4.54(N=17). Ramirez13 provides accurate values with small
   uncertainties: Teff=5458+-73K, logg=4.54+-0.03, [Fe/H]=-0.15+-0.05.
   Binary with K5V companion B (sep~5"): Mermilliod91 lists
   V(A)=4.720+-0.000, B-V(A)=0.720+-0.000, V(B)=6.947+-0.029,
   B-V(B)=1.104+-0.083. GaiaDR2 lists parallaxes for A
   (148.5195+-0.2436mas) and B(148.2131+-0.0464mas).  Mv(A)=5.58.
+  Rad=0.8627+-0.0107Rsun(Boyajian13). 
 
 HD 43834 = HR 2261 = alf Men = GJ 231
   G5V: Evans57(Gliese91)
