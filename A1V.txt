@@ -40,6 +40,7 @@ and within 1 mag of the MS (N=12):
 <V-Vt>(A1V)  = 0.022 (+-0.008 sem, +-0.013 stdev; N=12) 
 <B-K>(A1V)   = 0.162 (+-0.033 sem, +-0.097 stdev; N=12)
 
+(B-V)(A1V) =  0.00 ; deprecated alf CMa = Sirius
 (B-V)(A1V) =   0.005 ; Bessell79
 (B-V)(A1V) =   0.01  ; SchmidtKaler82
 (B-V)(A1V) =   0.02  ; Fitzgerald70
@@ -73,17 +74,23 @@ could probably argue for an adopted value being anywhere from B-V ~
 (U-B)(A1V)   = 0.030 ; HIP d<75pc S/N>8 A1V N=34 (Mermilliod91 photometry)
 (U-B)(A1V)   = 0.05  ; JohnsonMorgan53
 
+(V-Rc)(A1V)  = -0.01 ; deprecated alf CMa = Sirius
+
+(R-Ic)(A1V)   = -0.01  ; deprecated alf CMa = Sirius
+(R-Ic)(A1V)   =  0.008 ; Bessell79
+
+(V-Ic)(A1V)  = -0.016 ; deprecated alf CMa = Sirius
 (V-Ic)(A1V)  =  0.015 ; Bessell79
 (V-Ic)(A1V)  =  0.03  ; Bessell88 (interp A0V-A2V)
 (V-Ic)(A1V)  = 0.071 (+-0.016 sem, +-0.023 stdev; N=4)
 (V-Ic)(A1V)  = 0.081 (+-0.011 sem, +-0.033 stdev); HIP d<75pc S/N>8 (N=12)
 
-(R-Ic)(A1V)   = 0.008 ; Bessell79
-
-
 (Bp-Rp)(A1V) =  0.037 ; Evans18 trend for V-I=0.037
 (Bp-Rp)(A1V) =  0.005 ; color trend for B-V=0.035
-=> adopt (Bp-Rp)(A1V) = 0.005 [updated 11/22/2020]
+=> adopt (Bp-Rp)(A1V) = 0.005 [updated 11/22/2020] (GaiaDR2)
+
+(G-T)(A1V) = -0.029 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.005
+=> (G-T)(A1V) = -0.029 [updated 10/8/2023] (GaiaDR2)
 
 (Bp-G)(A1V) = -0.036 ; color trend for B-V=0.035
 => adopt (Bp-G)(A1V) = -0.036 [updated 11/22/2020]
@@ -261,7 +268,7 @@ HD 21447 = HR 1046
 
 # Deprecated Standards
 
-Alf CMa = Sirius
+alf CMa = Sirius
   kB9.5hA0mA1s: Abt95
   A0: Cannon18(stan)
   kA0hA0VmA1: Levato78
@@ -270,7 +277,9 @@ Alf CMa = Sirius
   A1V: MK43,Cowley67,Cowley69,Levato72,Cucchiaro80,Bidelman85(A1)
   A2IV: Adams35
 
-  Brightest star, with WD companion.
+  Brightest star, with WD companion. V=-1.43(Bessel90),
+  B-V=0.00(Bessel90), V-Rc=-0.01(Bessel90), R-Ic=-0.01(Bessel90),
+  V-Ic=-0.016(Bessel90).
 
 HD 60179 = alf Gem A = Castor A
 

@@ -64,6 +64,7 @@ and within 1 mag of the MS (N=16):
 (B-V)(A2V)   =  0.05  ; Fitzgerald70
 (B-V)(A2V)   =  0.05  ; Schmidt-Kaler82
 (B-V)(A2V)   =  0.04  ; Garrison67
+(B-V)(A2V)   = 0.03  ; HD 115892 = iot Cen = GJ 508.1 
 => adopt (B-V)(A2V)  = 0.07 *** [last updated 11/21/2021]
 => adopt (U-B)(A2V)  = 0.060
 => adopt (V-I)(A2V)  = 0.086
@@ -81,10 +82,13 @@ and within 1 mag of the MS (N=16):
 
 (V-Rj)(A2V)  = 0.08  ; Johnson68
 
+(V-Rc)(A2V)  = 0.020 ; HD 115892 = iot Cen = GJ 508.1 
 (V-Rc)(A2V)  = 0.034 ; Johnson68 (V-Rj)=0.08 transformed via Fernie83
 
+(R-Ic)(A2V)  = 0.005 ; HD 115892 = iot Cen = GJ 508.1 
 (R-Ic)(A2V)  = 0.072 ; Bessell79
 
+(V-Ic)(A2V)  = 0.025  ; HD 115892 = iot Cen = GJ 508.1 
 (V-Ic)(A2V)  = 0.048 (+-0.028 sem, +-0.055 stdev) ; Gray01/03/06 N=5)
 (V-Ic)(A2V)  =  0.06  ; Bessell88
 (V-Ic)(A2V)  =  0.072 ; Bessell79
@@ -103,7 +107,10 @@ and within 1 mag of the MS (N=16):
 
 (Bp-Rp)(A2V) = 0.101 ; Evans18 trend for V-I= 0.086
 (Bp-Rp)(A2V) = 0.068 ; color trend for B-V=0.07
-=> adopt (Bp-Rp)(A2V) = 0.068 [updated 11/22/2020]
+=> adopt (Bp-Rp)(A2V) = 0.068 [updated 11/22/2020] (GaiaDR2)
+
+(G-T)(A2V) = 0.010 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.068
+=> (G-T)(A2V) = 0.010 [updated 10/8/2023] (GaiaDR2)
 
 (Bp-G)(A2V) = 0.013 ; color trend for B-V=0.07
 => adopt (Bp-G)(A2V) = 0.013 [updated 11/22/2020]
@@ -311,7 +318,7 @@ HD 16970 = gam Cet A = Kaffaljidhma = HR 4660 = HIP 59774 = HD 16970 = GJ 459 = 
 
 # Other stars
 
-HD 115892 = iot Cen (B-V[HIP] = 0.068+-0.004)
+HD 115892 = iot Cen = GJ 508.1 
   A2V: Cannon18(A2),deVauc57,Levato72,Jaschek78,Houk82,Gray87(Va),Garrison96(A2Va) 
  *kA1.5hA3mA3Va: Gray06
 
@@ -323,15 +330,18 @@ HD 115892 = iot Cen (B-V[HIP] = 0.068+-0.004)
   presumably Gray06's classification suggests that this may not make a
   good A2V standard. However, Gaspar16 lists a very solar-ish
   [Fe/H]=-0.07+-0.05, although Gray06 lists a super-solar [M/H]=0.32.
-  plx=55.49+-0.17 mas(HIP2), so nearby and unreddened. HIP: B-V =
-  0.068+-0.004, V-Ic = 0.02+-0.02, V = 2.75. Mermilliod91:
-  V=2.751+-0.014, B-V=0.044+-0.009, U-B=0.031+-0.020. All 2MASS
-  photometry for this star is of poor quality. Teffs:
-  9061K(B-V=>Bessell98,logg=4.1), 9102+-82K(Blackwell98),
-  9164K(Philip80), 9308K(diBenedetto98), 10207K(Gray06) => median Teff
-  = 9164K.  logg=4.06(Gray06), 4.19(Philip80). [M/H]=0.32(Gray06). HRD
-  position: V=2.751, BCv=-0.07, plx=55.49, Av=0 => Mv=1.472,
-  Mbol=1.402, logL=1.335. w/Teff=9164K => Rad=1.845 Rsun.
+  plx=55.49+-0.17 mas(HIP2), so nearby and unreddened. V=2.75(HIP),
+  V=2.751+-0.014(Mermilliod91), V=2.76(Bessel90), B-V=0.03(Bessel90),
+  B-V=0.044+-0.009(Mermilliod91), B-V=0.068+-0.004(HIP),
+  U-B=0.031+-0.020(Mermilliod91), V-Rc=0.020(Bessel90),
+  R-Ic=0.005(Bessel90), V-Ic=0.025(Bessel90),
+  V-Ic=0.02+-0.02(HIP). All 2MASS photometry for this star is of poor
+  quality. Teffs: 9061K(B-V=>Bessell98,logg=4.1),
+  9102+-82K(Blackwell98), 9164K(Philip80), 9308K(diBenedetto98),
+  10207K(Gray06) => median Teff = 9164K.  logg=4.06(Gray06),
+  4.19(Philip80). [M/H]=0.32(Gray06). HRD position: V=2.751,
+  BCv=-0.07, plx=55.49, Av=0 => Mv=1.472, Mbol=1.402,
+  logL=1.335. w/Teff=9164K => Rad=1.845 Rsun.
 
 
 # Deprecated Standards

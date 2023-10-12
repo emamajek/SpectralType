@@ -56,22 +56,20 @@ and within 1 mag of the MS (N=15):
 (B-V)(A0V)   =  0.00  ; anchor stan. Vega
 (B-V)(A0V)   =  -0.01  ; Fitzgerald70
 (B-V)(A0V)   =  -0.01  ; Davidson87 (analysis of BSC A0V stars)
+(B-V)(A0V)   = -0.01  ; prim. stan. Vega = GJ 721 (Bessel90) 
 (B-V)(A0V)   = -0.012 ; prim. stan. HR 3314
 <B-V>(A0V)   = -0.013 (+-0.012 sem, +-0.010 stdev) ; Gray01/03/06 N=3 A0Vs
 (B-V)(A0V)   = -0.015 (+-0.064 rms) ; d<60 pc SIMBAD A0V N=12
+(B-V)(A0V)   = -0.02  ; exemplar HD 13709 = mu For = GJ 89 
 (B-V)(A0V)   =  -0.020 ; Bessell79
 (B-V)(A0V)   =  -0.02  ; Schmidt-Kaler82
 Johnson53 defined B-V = 0.00 based on colors of sample of A0V stars. 
-=> adopt (B-V)(A0V)  =  0.000 *** [last updated 11/21/2021]
-=> adopt (U-B)(A0V)  = -0.005 (see below)
-=> adopt (V-I)(A0V)  =  0.004
-=> adopt (V-R)(A0V)  =  0.001 
-=> adopt (R-I)(A0V)  =  0.003
-=> adopt (V-J)(A0V)  =  0.046
-=> adopt (V-H)(A0V)  =  0.013
-=> adopt (V-Ks)(A0V) =  0.041
-=> adopt (H-Ks)(A0V) =  0.028
-=> adopt (J-H)(A0V)  = -0.032
+=> adopt (B-V)(A0V)  =  0.000 *** [updated 11/21/2021]
+=> adopt (V-J)(A0V)  =  0.046 [updated 10/8/2023]
+=> adopt (V-H)(A0V)  =  0.013 [updated 10/8/2023]
+=> adopt (V-Ks)(A0V) =  0.041 [updated 10/8/2023]
+=> adopt (H-Ks)(A0V) =  0.028 [updated 10/8/2023]
+=> adopt (J-H)(A0V)  = -0.032 [updated 10/8/2023]
 
 (U-B)(A0V)   = +0.014 ; prim. stan. gam UMa
 (U-B)(A0V)   =   0.00  ; JohnsonMorgan53(def),Johnson63,Johnson65
@@ -79,22 +77,30 @@ Johnson53 defined B-V = 0.00 based on colors of sample of A0V stars.
 (U-B)(A0V)   = -0.005 ; HIP d<75pc S/N>8 A0V N=35 (Mermilliod91 photometry)
 (U-B)(A0V)   = -0.02  ; prim. stan. HR 3314 
 (U-B)(A0V)   =  -0.02  ; Fitzgerald70
-Johnson53 defined U-B = 0 color based on sample of A0V stars. 
-=> adopt (U-B) = -0.005
+=> adopt (U-B) = 0.00 [updated 10/8/2023]
+[EEM note: Johnson53 defined U-B = 0 color based on sample of A0V stars.]
+
+(V-Rc)(A0V)  = -0.009 ; prim. stan. Vega = GJ 721 (Bessel90) 
+(V-Rc)(A0V)  =  0.012 ; exemplar HD 13709 = mu For = GJ 89
+=> adopt (V-Rc)(A0V) = 0.00 [updated 10/8/2023]
 
 (V-Rj)(A0V)  =  0.00 ; Johnson65
+=> adopt (V-Rj)(A0V) = 0.00 [updated 10/8/2023]
 
-(R-Ic)(A0V)  = -0.012 ; Bessell79
+(R-Ic)(A0V)  =  -0.012 ; Bessell79
 (R-Ic)(A0V)  = -0.007 ; GJ 788.3 = GJ 9694 = HD 193571 (Cousins80) plx=14.6303mas (A0V,Houk78)
 (R-Ic)(A0V)  = -0.002 ; GJ 89 = HD 13709 = mu For (Cousins80) plx=10.2162 (A0V,Houk82)
-
+(R-Ic)(A0V)  =  0.004 ; prim. stan. Vega = GJ 721 (Bessel90)
+=> adopt (R-Ic)(A0V) = 0.00 [updated 10/8/2023]
 
 (V-Ic)(A0V)  = -0.021 (+-0.011 sem, +-0.010 stdev) ; Gray01/03/06 N=3 A0Vs
-(V-Ic)(A0V)  = -0.02  ; Bessell79
+(V-Ic)(A0V)  =  -0.02  ; Bessell79
 (V-Ic)(A0V)  = -0.013 ; GJ 788.3 = GJ 9694 = HD 193571 (Cousins80) plx=14.6303mas (A0V,Houk78)
-(V-Ic)(A0V)  =  0.00  ; Bessell88
+(V-Ic)(A0V)  = -0.005 ; prim. stan. Vega = GJ 721 (Bessel90) 
+(V-Ic)(A0V)  =   0.00  ; Bessell88
 (V-Ic)(A0V)  =  0.01  ; GJ 89 = HD 13709 = mu For (Cousins80) plx=10.2162mas (A0V,Houk82)
 (V-Ic)(A0V)  =  0.026 (+-0.010 sem, +-0.036 stdev) ; HIP d<75 S/N>8 N=15)
+=> adopt (V-Ic)(A0V) = 0.00 [updated 10/8/2023]
 
 (V-Jj)(A0V)  = -0.01 ; Johnson66
 (V-Jj)(A0V)  = -0.02 ; Johnson65
@@ -107,7 +113,10 @@ Johnson53 defined U-B = 0 color based on sample of A0V stars.
 
 (Bp-Rp)(A0V) = -0.037 ; color trend for B-V=0.00
 (Bp-Rp)(A0V) = -0.006 ; Evans18 trend for V-I= 0.004
-=> adopt(Bp-Rp)(A0V) = -0.037 [updated 11/22/2020]
+=> adopt(Bp-Rp)(A0V) = -0.037 [updated 11/22/2020] (GaiaDR2)
+
+(G-T)(A0V) = -0.056 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.110
+=> (G-T)(A0V) = -0.056 [updated 10/8/2023] (GaiaDR2)
 
 (Bp-G)(A0V) = -0.027 ; color trend for B-V=0.00
 => adopt (Bp-G)(A0V) = -0.027 [updated 11/22/2020]
@@ -444,7 +453,9 @@ Zet Aql A
 HD 71151 = phi02 Cnc: was erroneously listed in GrayGarrison87 and
    corrected in erratum (1988ApJS...68..407G).
 
-HD 13709 = mu For = HIP 10320 = GJ 89
+# Exemplars
+
+HD 13709 = mu For = GJ 89 = HIP 10320 
    B9V: Buscombe69
    A0V: Cuchiaro78(S2/68),Houk82
   *A0Va+nn: GarrisonGray87
