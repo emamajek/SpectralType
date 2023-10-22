@@ -145,13 +145,14 @@ M_Ks(M8V)   =  9.271 ; Reyle18 polynomial
 <V-R>(M8V)  = 2.50 ; Johnson66
 => adopt (V-Rc)(M8V) = 2.15 
 
-(V-Ic)(M8V) = 4.23 ; sec. stan. LHS 2397a (Bessell91)
-(V-Ic)(M8V) = 4.51 ; sec. stan. LP 412-31 (Reid04)
+(V-Ic)(M8V) = 4.23  ; sec. stan. LHS 2397a (Bessell91)
+(V-Ic)(M8V) = 4.51  ; sec. stan. LP 412-31 (Reid04)
 <V-Ic>(M8V) = 4.610 (+-0.055 sem, +-0.095 stdev) [N=3 standards]
-(V-Ic)(M8V) = 4.62 ; trend Dieterich14 SpT vs. V-Ic
-(V-Ic)(M8V) = 4.68 ; pri. stan. VB 10 (see below)
+(V-Ic)(M8V) = 4.62  ; trend Dieterich14 SpT vs. V-Ic
+(V-Ic)(M8V) = 4.644 ; Dahn17 V-Ic trend (M6-L5) for M8V
+(V-Ic)(M8V) = 4.68  ; pri. stan. VB 10 (see below)
 (V-Ic)(M8V) =  4.68 ; non-standard RG 0050-2722 (see below)
-(V-Ic)(M8V) = 4.70 ; exemplar LP 771-21 
+(V-Ic)(M8V) = 4.70  ; exemplar LP 771-21 
 <V-Ij>(M8V) =  4.70 ; Johnson66
 => adopt (V-Ic)(M8V) = 4.62 [updated 7/4/2020]
 
@@ -389,26 +390,36 @@ Skiff08 does not flag any stars as M4V MK standards.
 
 # Primary Standard
 
-GJ 752B = VB 10 = V1298 Aql = LHS 474 = LTT 15646 = G 22-22B 
+GJ 752B = VB 10 = V1298 Aql = LHS 474 = LTT 15646 = G 22-22B = Gaia DR3 4293315765165489536
  *M8V: Boeshaar85(dM8),HenryKirkpatrick90,Kirkpatrick91(pri.stan.),Kirkpatrick93,Boeshaar94,Henry97,Hawley97(M8c),Henry02,Henry04(M8.0Ve:, standard),ReidGizis05(M8.0Ve),PhanBao06(M8.0e)
   M7V: Bessell91
 
   Ubiquitous M8V standard, although the star appears to be slightly
   metal-rich and ~0.2-0.25 mag above the MS in visible (G) and near-IR
-  (Ks) bands.  Not listed in Reid04. plx=170.26+-1.37(Gould04,HIP),
-  plx=173.3+-4.0 mas(Harrington93), plx=170.1+-0.8mas(Newton14),
-  logL=-3.71+-0.17(Newton14), -3.34+-0.009(Dieterich14),
-  R=0.115+-0.003(Dieterich14), V=17.2: (Bessell91), V=17.32(Lepine05),
-  V=17.50(Leggett92), V=17.38,17.58(Gliese69;in ProbstLiebert83),
-  V=17.78(Kron58), V=17.52+-0.01(Harrington92), I adopt Harrington92
-  Vmag. B-V=2.13(Leggett92), B-V=2.13+-0.07(Harrington92),
-  Rc=15.10(Bessell91), V-R=2.10(Bessell91), V-Rc = 17.52 - 15.10 =
-  2.42 (Harrington92,Bessell91), Ic=12.84(Bessell91),
-  V-I=4.36(Bessell91), V-Ic = 17.52 - 12.84 = 4.68
-  (Harrington92,Bessell91), V-I=4.70(Leggett92),
-  K_CIT=8.80(Leggett92), (V-Ks)_CIT=8.70(Leggett92),
-  J=9.908+-0.025(2MASS), H=9.226+-0.026(2MASS),
-  Ks=8.765+-0.022(2MASS), (V-Ks)=8.755(Harrington92,2MASS). mbol =
+  (Ks) bands. Primary GJ752A is a M3V primary standard and 75" away
+  from M8V star GJ752B.  The primary GJ752A is also fairly luminous
+  among its M3V brethren - the brightest of the M3V standards, and
+  Mann15 estimated [Fe/H]=+0.10+-0.08, which suggests that GJ752B may
+  be somewhat metal-rich as well. Star has high proper motion
+  (1.49"/yr;GaiaDR3) and its GaiaDR3 epoch 2016 position
+  (289.23737369675 +05.14437331543; ICRS) is 23.9" from its epoch 2000
+  position in SIMBAD and most other catalogs.  Bewildering range of
+  published Johnson V magnitudes: V=17.2: (Bessell91),
+  V=17.32(Lepine05), V=17.50(Leggett92), V=17.38,17.58(Gliese69;in
+  ProbstLiebert83), V=17.52+-0.01(Harrington92),
+  V=17.554(GaiaDR3/synth), V=17.78(Kron58), V=18.0(Probst83) => adopt
+  V=17.554440(GaiaDR3/synth). B-V=2.13(Leggett92),
+  B-V=2.13+-0.07(Harrington92), Rc=15.10(Bessell91),
+  Rc=15.226392(GaiaDR3/synth) => adopt Rc=15.226(GaiaDR3/synth).
+  V-Rc=2.328(GaiaDR3/synth), V-R=2.10(Bessell91), V-Rc = 17.52 - 15.10
+  = 2.42(Harrington92,Bessell91), Ic=12.767071(GaiaDR3/synth),
+  Ic=12.84(Bessell91) => adopt
+  Ic=12.767(GaiaDR3/synth). V-I=4.36(Bessell91), V-I=4.70(Leggett92),
+  V-Ic=4.787(GaiaDR3/synth), V-Ic=5.09(Probst83), V-Ic = 17.52 - 12.84
+  = 4.68 (Harrington92,Bessell91), K_CIT=8.80(Leggett92),
+  (V-Ks)_CIT=8.70(Leggett92), J=9.908+-0.025(2MASS),
+  H=9.226+-0.026(2MASS), Ks=8.765+-0.022(2MASS),
+  (V-Ks)=8.755(Harrington92,2MASS). mbol =
   11.644+-0.078(JHK=>Pecaut13).  BC_Ks = 11.644 - 8.765 =
   2.879. Teffs: 2478+-29K(Dieterich14), 2640K(Cesetti13),
   2700K(Rajpurojit13) => <Teff> ~ 2600K.  Colors are outside the range
@@ -425,11 +436,37 @@ GJ 752B = VB 10 = V1298 Aql = LHS 474 = LTT 15646 = G 22-22B
   somewhat metal-rich compared to typical M dwarfs.  GaiaDR2:
   168.9620+-0.1299mas, G=14.3212+-0.0007, Bp=17.7264+-0.0171, Rp=
   12.7541+-0.0042, Bp-Rp=4.9723, Bp-G=3.4052, G-Rp=1.5671.  G-V =
-  14.3212 - 17.52 = -3.1988. Ks-W1=0.23. M_G=15.460+-0.002.
-  M_Ks=9.90(2MASS,GaiaDR2), Mv=18.66(Harrington92,GaiaDR2).
-  (G-Ks)=5.556, M_G=15.460, M_Ks=9.904. For its G-Ks color, the MS
-  locus for d<15pc star is at M_Ks=10.16, M_G=15.72, so VB10 is
-  clearly above the MS (del(M_Ks) = -0.256, del(M_G) = -0.26).
+  14.3212 - 17.52 = -3.1988. GaiaDR3: G=14.303288+-0.002828(GaiaDR3),
+  Bp-Rp=4.971408(GaiaDR3), Bp-G=3.442873(GaiaDR3),
+  G-Rp=1.528535(GaiaDR3), plx=168.9537+-0.0668mas(GaiaDR3).
+  Ks-W1=0.23. M_G=15.460+-0.002.  M_Ks=9.90(2MASS,GaiaDR2),
+  Mv=18.66(Harrington92,GaiaDR2).  (G-Ks)=5.556, M_G=15.460,
+  M_Ks=9.904. For its G-Ks color, the MS locus for d<15pc star is at
+  M_Ks=10.16, M_G=15.72, so VB10 is clearly above the MS (del(M_Ks) =
+  -0.256, del(M_G) = -0.26).  Pre-Gaia parallaxes:
+  plx=170.26+-1.37(Gould04,HIP), plx=173.3+-4.0 mas(Harrington93),
+  plx=170.1+-0.8mas(Newton14).  logL=-3.71+-0.17(Newton14),
+  -3.34+-0.009(Dieterich14), Rad=0.115+-0.003(Dieterich14).
+
+  (Bp-Rp) = 4.9714 ; pri. stan. GJ 752B = VB 10 (GaiaDR3)
+   (Bp-G) = 3.4429 ; pri. stan. GJ 752B = VB 10 (GaiaDR3)
+   (G-Rp) = 1.5285 ; pri. stan. GJ 752B = VB 10 (GaiaDR3)
+    (G-V) = -3.2512 ; pri. stan. GJ 752B = VB 10 (GaiaDR3)
+       Mv = 18.693 ; pri. stan. GJ 752B = VB 10 (GaiaDR3)
+      M_G = 15.4421+-0.0030 ; pri. stan. GJ 752B = VB 10 (GaiaDR3)
+     M_Ks = 9.904+-0.022 ; pri. stan. GJ 752B = VB 10  
+   (V-Ks) = 8.789 ; pri. stan. GJ 752B = VB 10  
+   (G-Ks) = 5.538+-0.022 ; pri. stan. GJ 752B = VB 10 (GaiaDR3,2MASS)
+    (V-J) = 7.646 ; pri. stan. GJ 752B = VB 10 
+    (V-H) = 8.328 ; pri. stan. GJ 752B = VB 10 
+    (J-H) = 0.682+-0.036 ; pri. stan. GJ 752B = VB 10 
+   (H-Ks) = 0.461+-0.034 ; pri. stan. GJ 752B = VB 10 
+   (V-Rc) = 2.328 ; pri. stan. GJ 752B = VB 10 
+   (R-Ic) = 2.459 ; pri. stan. GJ 752B = VB 10 
+   (V-Ic) = 4.787 ; pri. stan. GJ 752B = VB 10 
+  (Ks-W1) = 0.300+-0.032 ; pri. stan. GJ 752B = VB 10 
+  (W1-W2) = 0.216+-0.030 ; pri. stan. GJ 752B = VB 10 
+  (W1-W3) = 0.385+-0.032 ; pri. stan. GJ 752B = VB 10 
 
 # Secondary Standards
 
@@ -441,7 +478,9 @@ LHS 2397a = LP 732-94 = GJ 3655 = NN 3655 = NSV 18756
 
   This standard is closest to the mean trend for M_Ks vs. Mv among
   standards & exemplars, and supports its colors (V-Ks) ~ 8.7 as
-  typical for the subtype.  plx=70.0+-2.1 mas(Monet92),
+  typical for the subtype.  Tight binary (0.2") found by Freed03,
+  delta(J)=3.8mag, delta(K)=2.8(Dupuy12), companion has
+  SpT=L7.5. plx=70.0+-2.1 mas(Monet92),
   73.0+-2.10(Dupuy12). V=19.43(Hosey15)[adopt],
   V=19.57(Leggett92,Monet92,vanAltena95), V=19.57+-0.04(Dahn02),
   V=19.1(Bessell91), Rc=17.1(Bessell91), Rc=17.33(Hosey15),
@@ -459,13 +498,12 @@ LHS 2397a = LP 732-94 = GJ 3655 = NN 3655 = NSV 18756
   (V-Ks)=8.735(Hosey15,Plavchan08), (V-Ks)=8.69(Hosey15), (V-K)s =
   19.43 - 10.735 = 8.695.  Mv=18.795+-0.066(Monet92,Leggett92),
   M_Ks=9.920+-0.065(Plavchan08,Monet92). mbol=13.748+-0.066(JHK=>Pecaut13).
-  BC_Ks=13.748-10.6948 = 3.054. Tight binary (0.2") found by Freed et
-  al. 2003, delta(J)=3.8mag, delta(K)=2.8(Dupuy12), companion has
-  SpT=L7.5.  Teffs: 2300K(Irwin91), 2376+-25K(Dieterich14),
-  2630K(Freed03) => Teff=2630K. Could not find a metallicity estimate.
-  GaiaDR2: 69.4903+-0.1760 mas, G=16.4168+-0.0022, Bp=19.6196+-0.0423,
-  Rp=14.8242+-0.0077, Bp-Rp=4.7954, Bp-G=3.2028, G-Rp=1.5926.  G-V =
-  16.4168 - 19.43 = -3.0132. (G-Ks)=5.682, M_G=15.627, M_Ks=9.945,
+  BC_Ks=13.748-10.6948 = 3.054.  Teffs: 2300K(Irwin91),
+  2376+-25K(Dieterich14), 2630K(Freed03) => Teff=2630K. Could not find
+  a metallicity estimate.  GaiaDR2: 69.4903+-0.1760mas(GaiaDR2),
+  G=16.4168+-0.0022(GaiaDR2), Bp-Rp=4.7954(GaiaDR2),
+  Bp-G=3.2028(GaiaDR2), G-Rp=1.5926(GaiaDR2).  G-V = 16.4168 - 19.43 =
+  -3.0132(GaiaDR2). (G-Ks)=5.682, M_G=15.627, M_Ks=9.945,
   Mv=18.64(Hosey15,GaiaDR2).
   
 LP 412-31 = NLTT 10644 = 2MASS J03205965+1854233 

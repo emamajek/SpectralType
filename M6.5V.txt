@@ -21,22 +21,25 @@ LHS 292 (J1048-1120).
 (B-V)(M6.5V) = 2.07  ; trend for V-Ks=7.65
 (B-V)(M6.5V) = 2.10  ; Leggett92 "old disk"
 (B-V)(M6.5V) = 2.10  ; sec. stan. LHS 292
-=> adopt (B-V)(M6.5V) = 2.07 [updated 7/17/2020]
+=> adopt (B-V)(M6.5V) = 2.07 [updated 10/15/2023]
 
-(V-R)(M6.5V) = 2.12 ; Bessell91 "old disk"
+(V-Rc)(M6.5V) = 2.002 ; pri. stan. GJ 1111 (Bessel83)
+(V-Rc)(M6.5V) =  2.12  ; Bessell91 "old disk"
 
-(R-I)(M6.5V) = 2.38 ; Bessell91 "old disk"
+(R-Ic)(M6.5V) = 2.259 ; pri. stan. GJ 1111 (Bessel83)
+(R-Ic)(M6.5V) =  2.38 ; Bessell91 "old disk"
 
-(V-I)(M6.5V) =  4.57 ; exemplar LHS 2930
-(V-I)(M6.5V) = 4.53 ; sec. stan. GJ 3622 = LHS 292
-(V-I)(M6.5V) =   4.50 ; Bessell91 "old disk"
-(V-I)(M6.5V) = 4.41 ; trend Dieterich SpT vs. V-I
-(V-I)(M6.5V) = 4.37 ; sec. stan. GJ 3289 = LHS 191
-(V-I)(M6.5V) =   4.30 ; Hawley96
-(V-I)(M6.5V) = 4.29 ; color trend for V-Ks=7.65
-(V-I)(M6.5V) =  4.27 ; exemplar LHS 2090 
-(V-I)(M6.5V) = 4.26 ; pri. stan. GJ 1111
-(V-I)(M6.5V) = 4.26 ; sec. stan. GJ 4281
+(V-Ic)(M6.5V) =  4.60 ; exemplar LHS 2930 (Probst83)
+(V-Ic)(M6.5V) = 4.53 ; sec. stan. GJ 3622 = LHS 292
+(V-Ic)(M6.5V) =   4.50 ; Bessell91 "old disk"
+(V-Ic)(M6.5V) = 4.41 ; trend Dieterich SpT vs. V-I
+(V-Ic)(M6.5V) = 4.37 ; sec. stan. GJ 3289 = LHS 191
+(V-Ic)(M6.5V) = 4.313 ; Dahn17 V-Ic trend (M6-L5) for M6.5V
+(V-Ic)(M6.5V) =   4.30 ; Hawley96
+(V-Ic)(M6.5V) = 4.29 ; color trend for V-Ks=7.65
+(V-Ic)(M6.5V) =  4.27 ; exemplar LHS 2090 
+(V-Ic)(M6.5V) = 4.26 ; pri. stan. GJ 1111
+(V-Ic)(M6.5V) = 4.26 ; sec. stan. GJ 4281
 => adopt (V-Ic)(M6.5V) = 4.29 [updated 7/17/2020]
 
 (G-J)(M6.5V)   = 3.357 ; Bentley18/interp
@@ -376,15 +379,18 @@ LHS 2930 = GJ 3855 = LP 98-79 = 2MASS J14303787+5943249
 
   Not considered a standard anywhere, but M6.5 in nearly all
   literature. Colors and SED presented in detail in
-  Leggett01. plx=103.8+-1.4mas (Monet92), plx=100.2930
-  0.0793mas(GaiaDR2). V=17.88(Monet92,vanAltena95), I
-  =13.31(Leggett01), I-J=2.54(Leggett01), J-H=0.65(Leggett01),
-  H-K=0.38(Leggett01), K=9.74(Leggett01), K-L'=0.52(Leggett01), J =
-  10.790+-0.018(2MASS), H=10.140+-0.020(2MASS), Ks=9.788+-0.020(2MASS)
-  => V-Ks=8.092(Monet92,2MASS).  Leggett01: fbol = 2.05e-13 W/m2 =>
-  mbol = 12.723 => BC_Ks = 12.723 - 9.788 = 2.935, BCv = 12.723 -
-  17.88 = -5.157.  GaiaDR2: plx=100.2930+-0.0793mas, G= 14.8670
-  0.0006, E(BR/RP)=1.786, Bp-Rp=4.8267, Bp-G=3.2921, G-Rp=1.5345.
+  Leggett01. Probst83 referred to LHS 2930 as "the second least
+  luminous red dwarf with a reliable parallax" at the time of their
+  1983 paper. plx=103.8+-1.4mas (Monet92), plx=100.2930
+  0.0793mas(GaiaDR2). V=17.88(Monet92,vanAltena95), V=17.90(Probst83),
+  V-Ic=4.60(Probst83), Ic=13.31(Leggett01), I-J=2.54(Leggett01),
+  J-H=0.65(Leggett01), H-K=0.38(Leggett01), K=9.74(Leggett01),
+  K-L'=0.52(Leggett01), J = 10.790+-0.018(2MASS),
+  H=10.140+-0.020(2MASS), Ks=9.788+-0.020(2MASS) =>
+  V-Ks=8.092(Monet92,2MASS).  Leggett01: fbol = 2.05e-13 W/m2 => mbol
+  = 12.723 => BC_Ks = 12.723 - 9.788 = 2.935, BCv = 12.723 - 17.88 =
+  -5.157.  GaiaDR2: plx=100.2930+-0.0793mas, G= 14.8670 0.0006,
+  E(BR/RP)=1.786, Bp-Rp=4.8267, Bp-G=3.2921, G-Rp=1.5345.
   M_G=14.873+-0.002, Mv=17.89, M_Ks=9.794+-0.020(2MASS,DR2).
 
 LHS 2090 = LP 368-128 = 2MASS J09002359+2150054 
