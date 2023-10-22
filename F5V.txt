@@ -515,7 +515,7 @@ HD 7788 A = kap Tuc A = HR 377 A = GJ 55.3A = HIP 5896 = WDS J01158-6853 =
   Hipparcos (epoch 1991) split A and B at separation 5.055".
   V(AB)=4.25(HIP,TYC, see notes - this is likely spurious),
   V=4.86(Johnson66,Nicolet75,Hoffleit91/BSC),
-  V=4.855+-0.005(Cousins71), V=4.856(Paunzen15),
+  V=4.855+-0.005(Cousins71), V=4.855(Cousins80), V=4.856(Paunzen15),
   V(A)=4.912+-0.008(ASCC), 4.941(Furhmann17),
   V=V(A)=4.95(Corbally84,vanAltena95), V(A)=4.952100(GaiaDR3/synth),
   V(B)=8.44(TYC), V(B)=7.914+-0.030(ASCC),
@@ -529,33 +529,33 @@ HD 7788 A = kap Tuc A = HR 377 A = GJ 55.3A = HIP 5896 = WDS J01158-6853 =
   del(mag)=2.2(Hoffleit91/BSC), del(R)=2.82(Bauer07),
   del(I)=2.19(Bauer07). B-V=0.47(Johnson66,Nicolet75,),
   B-V=0.475+-0.008(Cousins71), U-B=0.03(Johnson66),
-  U-B=0.02(Cousins71), R=4.82(Morel78), I=4.60(Morel78). Can we get
-  consistency between the V-band photometry (unresolved and resolved)
-  values?  Adopt V=4.855+-0.005(Cousins71),
-  del(V)=2.62694(GaiaDR3/synth) => predicts V(A)=4.9475, V(B)=7.5745,
-  and indeed these agree within the individual GaiaDR3 synthetic V
-  mags for A and B at the 0.0046 and 0.0045 mag level, and are in
-  remarkable agreement with the resolved Johnson V photometry from
-  Corbally84 (V(A)=4.95, V(B)=7.58)! I believe this effectively rules
-  out the V=4.25 value from HIP, which appears to be too bright by
-  0.6mag.  2MASS photometry is poor and unresolved for A and B: J and
-  H have huge errors, Ks=3.876+-0.036, but flagged "E". Gezari99 IR
-  photometry compendium lists 6 flux measurements between J and 25um,
-  all from Aumann91, and listed as unresolved for GJ55.3AB:
-  J=3.97(Aumann91), H=3.75(Aumann91), K=3.70(Aumann91),
-  L=3.67(Aumann91). Aumann91 photometry for southern star like kap Tuc
-  was done on CTIO 1.5m with 10" beam (i.e. AB unresolved), and they
-  estimate uncertainties of "0.02, 0.01, 0.02, and 0.03 mag for J-H,
-  H-K, K, and K-L, respectively" - measurement seem to be on Johnson
-  system given discussion in their section II. If one converts the
-  Johnson JK photometry to 2MASS via Rieke22, this predicts unresolved
-  Ks(AB)=3.665 (i.e. K(Johnson) - Ks(2MASS) = 0.035).  Note that
-  between a F5V and K1V star - assuming both on the main sequence -
-  one would predict the slope of del(Ks)/del(V) to be (M_Ks~3.90 -
-  M_Ks~2.29)/(Mv~5.95 - Mv~3.37) = 0.624, hence from del(V)=2.62694,
-  one would predict del(Ks)~1.63929 (companion 22% as bright as
-  primary), or Johnson system (K(A)=3.9167, K(B)=5.5560) or 2MASS
-  system (Ks(A)=3.828, Ks(B)=5.210).  GaiaDR3:
+  U-B=0.02(Cousins71), V-Rc=0.294(Cousins80), R=4.82(Morel78),
+  V-Ic=0.548(Cousins80), I=4.60(Morel78). Can we get consistency
+  between the V-band photometry (unresolved and resolved) values?
+  Adopt V=4.855+-0.005(Cousins71), del(V)=2.62694(GaiaDR3/synth) =>
+  predicts V(A)=4.9475, V(B)=7.5745, and indeed these agree within the
+  individual GaiaDR3 synthetic V mags for A and B at the 0.0046 and
+  0.0045 mag level, and are in remarkable agreement with the resolved
+  Johnson V photometry from Corbally84 (V(A)=4.95, V(B)=7.58)! I
+  believe this effectively rules out the V=4.25 value from HIP, which
+  appears to be too bright by 0.6mag.  2MASS photometry is poor and
+  unresolved for A and B: J and H have huge errors, Ks=3.876+-0.036,
+  but flagged "E". Gezari99 IR photometry compendium lists 6 flux
+  measurements between J and 25um, all from Aumann91, and listed as
+  unresolved for GJ55.3AB: J=3.97(Aumann91), H=3.75(Aumann91),
+  K=3.70(Aumann91), L=3.67(Aumann91). Aumann91 photometry for southern
+  star like kap Tuc was done on CTIO 1.5m with 10" beam (i.e. AB
+  unresolved), and they estimate uncertainties of "0.02, 0.01, 0.02,
+  and 0.03 mag for J-H, H-K, K, and K-L, respectively" - measurement
+  seem to be on Johnson system given discussion in their section
+  II. If one converts the Johnson JK photometry to 2MASS via Rieke22,
+  this predicts unresolved Ks(AB)=3.665 (i.e. K(Johnson) - Ks(2MASS) =
+  0.035).  Note that between a F5V and K1V star - assuming both on the
+  main sequence - one would predict the slope of del(Ks)/del(V) to be
+  (M_Ks~3.90 - M_Ks~2.29)/(Mv~5.95 - Mv~3.37) = 0.624, hence from
+  del(V)=2.62694, one would predict del(Ks)~1.63929 (companion 22% as
+  bright as primary), or Johnson system (K(A)=3.9167, K(B)=5.5560) or
+  2MASS system (Ks(A)=3.828, Ks(B)=5.210).  GaiaDR3:
   G(A)=7.331969+-0.002817, G(B)=4.829754+-0.002900.  GaiaDR3 has
   plx(A)=42.9912+-1.0581mas(GaiaDR3) but a better parallax for the
   companion (plx(B)=47.6500+-0.0203(GaiaDR3), the latter of which

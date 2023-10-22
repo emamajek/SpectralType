@@ -103,7 +103,7 @@ on average than Gray's G2Vs):
 (B-V)(G2V) = 0.623 (+-0.010 sem,+0.033 stdev); 35 ARICNS G2V stars
 (B-V)(G2V) = 0.626 ; ter. stan. HD 45184
 (B-V)(G2V) =  0.63  ; Johnson68,Fitzgerald70, Morgan71, SchmidtKaler82
-(B-V)(G2V) =  0.633 ; non-stan. alf Cen A
+(B-V)(G2V) = 0.633 ; exemplar HD 128620 = alf Cen A = GJ 559A ([Fe/H]=+0.22)
 (B-V)(G2V) = 0.639 ; HD 59967 = HIP 36515 (Koen10) ~solar
 (B-V)(G2V) =  0.64  ; JohnsonMorgan53
 (B-V)(G2V) = 0.64  ; median CATSUP d<30pc (N=29)
@@ -157,17 +157,20 @@ to be somewhat redder than that for the other standards.
 (V-Rc)(G2V) = 0.355 ; HD 59967 = HIP 36515 (Koen10) ~solar
 (V-Rc)(G2V) = 0.360 ; ter. stan. HD 76151
 (V-Rc)(G2V) = 0.361 ; trend B-V vs V-Rc for B-V=0.650
+(V-Rc)(G2V) = 0.362 ; exemplar HD 128620 = alf Cen A = GJ 559A ([Fe/H]=+0.22)
 (V-Rc)(G2V) = 0.363 ; Johnson68 V-Rj=0.53 transformed to V-Rc via Fernie83
 => adopt (V-Rc)(G2V) = 0.36 [updated 10/6/2023]
 
 (R-Ij)(G2V) = 0.33  ; Johnson68
 
+(R-Ic)(G2V) = 0.331 ; exemplar HD 128620 = alf Cen A = GJ 559A ([Fe/H]=+0.22)
 (R-Ic)(G2V) = 0.334 ; sec. stan. 18 Sco = HD 146233
 
 (V-Ic)(G2V) = 0.677 ; Johnson68 V-Ij=0.86 transformed to V-Ic via Fernie83
 (V-Ic)(G2V) =  0.68  ; Bessell88
 (V-Ic)(G2V) = 0.689 ; sec. stan. 18 Sco = HD 146233
 (V-Ic)(G2V) = 0.690 ; HD 59967 = HIP 36515 (Koen10) ~solar
+(V-Ic)(G2V) = 0.693 ; exemplar HD 128620 = alf Cen A = GJ 559A ([Fe/H]=+0.22) 
 (V-Ic)(G2V) = 0.695 ; ter. stan. HD 76151 
 (V-Ic)(G2V) =  0.696 ; HIP 15442 (Koen10)
 (V-Ic)(G2V) = 0.697 ; fit to Koen10 d<25pc B-V vs. V-Ic for -0.1<[Fe/H]<0.1 dwarfs in Soubiran22 for B-V=0.650
@@ -1102,7 +1105,7 @@ types, but they are not necessarily 'solar twins', i.e. their gravity,
 spectra match the Sun and other G2V standards better than those of
 other types.
 
-alf Cen A = GJ 559 A = HIP 71683 = HD 128620 = HR 5459
+HD 128620 = alf Cen A = GJ 559A = HIP 71683 = HR 5459
   G0: HD
   G1: Luyten79(LHS)
  *G2V: Woods55,Garrison96,Houk75(Garrison),Ayres76,Kamper78,Garrison96,Gray06
@@ -1120,15 +1123,24 @@ alf Cen A = GJ 559 A = HIP 71683 = HD 128620 = HR 5459
   with solar Teff (within uncertainties), and slightly lower surface
   gravity. Bessell83
   (http://articles.adsabs.harvard.edu/full/1983PASP...95..480B) quotes
-  V(A) = 0.003, B-V(A)=0.633, V-R(A)=0.362, R-I(A)=0.331,
-  V-I(A)=0.639. There is suprisingly some debate on the parallax for
-  the alf Cen system at the ~few mas level: Pourbaix16:
+  V(A) = 0.003, B-V(A)=0.633, V-R(A)=0.362, R-Ic(A)=0.331,
+  V-Ic(A)=0.639*. The Bessell83 V-Ic is clearly a typo - they separately
+  list R-Ic=0.331 and V-Rc=0.362, which add to V-Ic=0.693, and the GCPD database
+  has Cousins V-Ic=0.693. GCPD database from Cousins76 has
+  V(A)=0.01(GCPD,Cousins76/VRIc), B-V(A)=0.633(GCPD,Cousins76/VRIc),
+  V-Rc=0.362(GCPD,Cousins76/VRIc), R-Ic=0.331(GCPD,Cousins76/VRIc),
+  V-Ic=0.693(GCPD,Cousins76/VRIc). Note the disagreement in V-Ic
+  between Bessell83 and Cousins76/GCPD (double-checked) - I believe
+  the correct on is 0.693, which is in family with other G2V values -
+  0.639 seems too blue.  There is suprisingly some debate on the
+  parallax for the alf Cen system at the ~few mas level: Pourbaix16:
   743+-1.3mas(Pourbaix16).  Angular diameter:
   tet_LD(A)=8.502+-0.038mas(0.43% unc.; Kervella17). For
   plx=747.17+-0.61mas, Kervella19 derives R_A=1.2234+-0.0053 Rsun, but
   with Pourbaix16 plx I get slightly larger: 1.2303Rsun.
-  fbol(A)=(27.16+-0.27)e-9 W/m2 (Boyajian13) => mbol=-0.082+-0.011(IAU2015)
-  => BCv = mbol - V = (-0.082+-0.011)-(0.003) = -0.085.
+  fbol(A)=(27.16+-0.27)e-9 W/m2 (Boyajian13) =>
+  mbol=-0.082+-0.011(IAU2015) => BCv = mbol - V =
+  (-0.082+-0.011)-(0.003) = -0.085.
 
 HD 217014 = HR 8729 = 51 Peg
   G0: Cannon

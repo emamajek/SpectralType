@@ -123,28 +123,33 @@ among the 4 standard stars as function of metallicity - value is interpolated to
 
 (V-Rc)(G0V) = 0.330 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
 (V-Rc)(G0V) =  0.334 ; HIP 9829 (Koen10)
+(V-Rc)(G0V) = 0.34  ; exemplar HD 105 = HIP 490 (GCPD,Cousins76/VRIc)
 (V-Rc)(G0V) = 0.341 ; B-V vs V-Rc trend for B-V=0.595
 (V-Rc)(G0V) = 0.341 ; Johnson68 (V-Rj=0.50) transformed to V-Rc via Fernie83
 (V-Rc)(G0V) = 0.344 ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
+(V-Rc)(G0V) = 0.348 ; ter. stan. HD 14802 = kap For = HIP 11072 ([Fe/H]=-0.07)
 (V-Rc)(G0V) =  0.348 ; HIP 15442 (Koen10)
 (V-Rc)(G0V) =  0.355 ; HIP 36515 (Koen10)
 => adopt (V-Rc)(G0V) = 0.34 [updated 10/6/2023]
+=> adopt (R-Ic)(G0V) = 0.33 [updated 1/15/2023; V-Ic=0.67, V-Rc=0.34]
 
 (R-Ic)(G0V)  = 0.303 ; Bessell79
+(R-Ic)(G0V)  = 0.32  ; exemplar HD 105 = HIP 490 (GCPD,Cousins76/VRIc)
 
 (V-Ic)(G0V) =  0.704 ; HIP 9829 (Koen10)
 (V-Ic)(G0V) =  0.696 ; HIP 15442 (Koen10)
 (V-Ic)(G0V) =  0.690 ; HIP 36515 (Koen10)
+(V-Ic)(G0V) = 0.681 ; ter. stan. HD 14802 = kap For = HIP 11072 ([Fe/H]=-0.07)
 (V-Ic)(G0V) = 0.68  ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22)
 (V-Ic)(G0V) = 0.674 ; B-V vs V-Ic trend for B-V=0.595
 (V-Ic)(G0V) = 0.669 ; Gray01/03/06 81 G0Vs HIP V-Ics (+-0.001 sem, +-0.024 stdev)
-(V-Ic)(G0V) =  0.66 ; Bessell88 
+(V-Ic)(G0V) =  0.66 ; Bessell88
+(V-Ic)(G0V) = 0.66  ; exemplar HD 105 = HIP 490 (GCPD,Cousins76/VRIc)
 (V-Ic)(G0V) = 0.658 (+-0.001 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
 (V-Ic)(G0V) = 0.650 ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
 (V-Ic)(G0V) = 0.638 ; Johnson68 (V-Ij=0.81) transformed to V-Ic via Fernie83
 (V-Ic)(G0V) =  0.625 ; Bessell79
 => adopt (V-Ic)(G0V) = 0.67 [updated 1/15/2023]
-=> adopt (R-Ic)(G0V) = 0.33 [updated 1/15/2023; V-Ic=0.67, V-Rc=0.34]
 
 (V-Jj)(G0V) = 1.02 ; Johnson68
 (V-Jj)(G0V) = 1.03 ; Johnson66
@@ -431,7 +436,7 @@ iot Per = HD 19373 = HR 937 = Cl Melotte 20 44
   
 # Tertiary Standards
 
-HD 14802 = kap For = HR 695 = GJ 97
+HD 14802 = kap For = HIP 11072 = HR 695 = GJ 97
   F5: Cannon
  *G0V: Keenan85(G0Va),Keenan89,Gray89,Keenan99,Gray06
   G1V: Jaschek78(Buscombe62),Torres06
@@ -445,13 +450,14 @@ HD 14802 = kap For = HR 695 = GJ 97
   and Houk's early G sequence - Keenan calls G0, Houk calls
   G2. B-V=0.597+-0.004(Mermilliod91), B-V=0.60(Johnson66),
   B-V=0.608+-0.017(HIP), B-V=0.612+-0.004(TYC) => adopt (B-V)=0.597.
-  V=5.190+-0.007(Mermilliod91), U-B=0.120+-0.161(huge error!).  PASTEL
-  mean values (Soubiran22): 5865+-20K(N=10), logg=4.03+-0.04(N=9),
-  [Fe/H]=-0.07+-0.02(N=9).  plx = 44.0905 +-
-  0.2799mas(GaiaDR2). GaiaDR2, only G needed to be corrected following
-  Evans18: G(corr)= 5.024, Bp= 5.366, Rp= 4.553, (Bp-Rp)= 0.812,
-  (Bp-G)(corr)= 0.341, (G-Rp)(corr)= 0.471. G-V = 5.024 - 5.190 =
-  -0.166+-0.008. Mv = 3.412(HIP,GaiaDR2).
+  V=5.190+-0.007(Mermilliod91), V=5.190(Cousins80),
+  U-B=0.120+-0.161(huge error!), V-Rc=0.348(Cousins80),
+  V-Ic=0.681(Cousins80). PASTEL mean values (Soubiran22):
+  5865+-20K(N=10), logg=4.03+-0.04(N=9), [Fe/H]=-0.07+-0.02(N=9).  plx
+  = 44.0905 +- 0.2799mas(GaiaDR2). GaiaDR2, only G needed to be
+  corrected following Evans18: G(corr)= 5.024, Bp= 5.366, Rp= 4.553,
+  (Bp-Rp)= 0.812, (Bp-G)(corr)= 0.341, (G-Rp)(corr)= 0.471. G-V =
+  5.024 - 5.190 = -0.166+-0.008. Mv = 3.412(HIP,GaiaDR2).
 
 HD 39587 = chi01 Ori = HR 2047 = HIP 27913 
   F8V: Moore50
@@ -624,8 +630,10 @@ HD 105 = HIP 490 =  2MASS J00055255-4145109
   another (Teff=5990+-16 K), overall median Teff ~ 6045K), and two
   metallicity estimates ([Fe/H] = 0.02+-0.04 Tsantaki14, [Fe/H] =
   0.08+-0.03 Valenti05), so near solar. V =
-  7.513+-0.005(Mermilliod91),
-  B-V=0.600+-0.000(Mermilliod91). J=6.464+-0.020(2MASS),
+  7.513+-0.005(Mermilliod91), V=7.52(GCPD,Cousins76/VRIc),
+  B-V=0.600+-0.000(Mermilliod91), B-V=0.60(GCPD,Cousins76/VRIc),
+  V-Rc=0.34(GCPD,Cousins76/VRIc), V-Ic=0.66(GCPD,Cousins76/VRIc),
+  R-Ic=0.32(GCPD,Cousins76/VRIc).  J=6.464+-0.020(2MASS),
   H=6.189+-0.023(2MASS), Ks=6.117+-0.020(2MASS), V-Ks =
   1.396(Mermilliod91,2MASS). Mv=4.53(HIP,HIP2).  Soubiran22/PASTEL
   means: Teff=6052+-23K, logg=4.52+-0.06, [Fe/H]=+0.06+-0.03.

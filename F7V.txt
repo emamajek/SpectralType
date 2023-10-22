@@ -67,7 +67,6 @@ and within 1 mag of the MS (N=184):
 <B-V>(F7V)   =  0.48 ; MorganAbt73/TableIII
 => adopt (B-V)(F7V)  =  0.500 *** [updated 10/26/2020] 
 => adopt (Bt-Vt)(F7V)=  0.522
-=> adopt (V-I)(F7V)  =  0.569
 => adopt (V-R)(F7V)  =  0.284
 => adopt (R-I)(F7V)  =  0.284
 => adopt (V-J)(F7V)  =  0.955
@@ -76,14 +75,20 @@ and within 1 mag of the MS (N=184):
 => adopt (H-Ks)(F7V) =  0.059
 => adopt (J-H)(F7V)  =  0.208
 
-(U-B)(F7V)   =  0.00  ; Fitzgerald70
-(U-B)(F7V)   = 0.000 ; HIP d<75pc S/N>8 F7V N=99 (Mermilliod91 photometry)
-(U-B)(F7V)   = 0.007 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.500
+(U-B)(F7V) =  0.00  ; Fitzgerald70
+(U-B)(F7V) = 0.000 ; HIP d<75pc S/N>8 F7V N=99 (Mermilliod91 photometry)
+(U-B)(F7V) = 0.007 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.500
 => adopt (U-B)(F7V) = 0.007 [updated 9/1/2023]
 
+(V-Rc)(F7V) = 0.30 ; exemplar HD 142 = HIP 522 = HR 6 (GCPD,Cousins76/VRIc)
+
+(R-Ic)(F7V) = 0.28 ; exemplar HD 142 = HIP 522 = HR 6 (GCPD,Cousins76/VRIc)
+
 (V-Ic)(F7V)  = 0.579 (+-0.004 sem, +-0.022 stdev); Gray01/03/06 (N=20)
+(V-Ic)(F7V)  = 0.58   ; exemplar HD 142 = HIP 522 = HR 6 (GCPD,Cousins76/VRIc)
 (V-Ic)(F7V)  = 0.600 (+-0.001 sem, +-0.024 stdev); HIP d<75pc S/N>8 (N=192)
-(V-Ic)(F7V)  =  0.62  ; Bessell88 
+(V-Ic)(F7V)  =  0.62  ; Bessell88
+=> adopt (V-Ic)(F7V) = 0.58 [updated 10/10/2023]
 
 
 (G-V)(F7V) =  -0.18576  ; HD_202275_ F7V_
@@ -364,7 +369,7 @@ HD 27991 = 70 Tau (Hyades member)
   estimates roughly consistent with Hyades metallicity [Fe/H] ~ +0.1.
   Mv = 3.09.
 
-HD 142 = HR 6 = HIP 522 
+HD 142 = HIP 522 = HR 6 
  *F7V: Houk78,Gray89,Gray06
   F8: 1953AnHar.119....1H,Bidelman85
   G1IV: Evans61
@@ -375,14 +380,17 @@ HD 142 = HR 6 = HIP 522
   c. B comp is LHS 1021. Pair bound.  Photometry suggests companion
   K8.5-M1.5 with mass 0.59 ± 0.02 Msun."  WDS delta(mag)=5.8
   (mag2=11.5). V=5.70(HIP,Johnson66),
-  V=5.700+-0.015(Mermilliod91,double), V=5.71(TYC),
+  V=5.700+-0.015(Mermilliod91,double), V=5.70(GCPD,Cousins76/VRIc),
+  V=5.71(TYC),
   V(A)=5.709498(GaiaDR3/synth), B-V=0.515+-0.002(TYC),
   B-V=0.516+-0.007(Mermilliod91), B-V=0.519+-0.011(HIP) => adopt
   unresolved B-V=0.516.  V(B)=10.63(TYC). GaiaDR3 splits the pair:
   G(A)=5.586702, G(B)=10.590940, del(G)=5.00424. For delta(mag)=5, the
   difference between unresolved mag and mag of A is only 0.01, so
   assuming del(V)=5.0 gives V(A)=5.71 (in good agreement with
-  GaiaDR3/synth) and V(B)=10.71.  2MASS photometry is flagged "DEA" so
+  GaiaDR3/synth) and V(B)=10.71. V-Rc=0.30(GCPD,Cousins76/VRIc),
+  R-Ic=0.28(GCPD,Cousins76/VRIc), V-Ic=0.58(GCPD,Cousins76/VRIc). 
+  2MASS photometry is flagged "DEA" so
   Ks mag is apparently OK: Ks=4.474+-0.024(2MASS). 2MASS also splits
   the pair, with companion Ks(B)=5.266+-0.057 (hence
   del(Ks)=0.792). Eggenberger splits the pair with NACO photometry in
