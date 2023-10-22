@@ -84,27 +84,31 @@ significantly redder than most A3V stars.
 (U-B)(A3V)   =  0.07  ; JohnsonMorgan53
 => adopt (U-B)(A3V) = 0.084 [updated 10/8/2023]
 
+(V-Rc)(A3V)  = 0.016 ; pri. stan. HD 102647 = bet Leo = GJ 448
 (V-Rc)(A3V)  =  0.02 ; exemplar HD 188899 = 61 Sgr (Cousins80)
 (V-Rc)(A3V)  = 0.035 ; sec. stan. bet Cir = HD 135379 = GJ 580.1
 (V-Rc)(A3V)  = 0.051 ; V-Rc vs B-V trend d<50pc for B-V=0.092
 (V-Rc)(A3V)  = 0.055 ; anchor stan. alf PsA = HD 216956 = GJ 881 
-=> adopt (V-Rc)(A3V) = 0.05 [updated 10/8/2023]
+=> adopt (V-Rc)(A3V) = 0.04 [updated 10/10/2023; V-Ic=0.09, R-Ic=0.05]
 
 (R-Ic)(A3V)  = 0.025 ; anchor stan. alf PsA = HD 216956 = GJ 881 
 (R-Ic)(A3V)  =  0.03 ; exemplar HD 188899 = 61 Sgr (Cousins80)
+(R-Ic)(A3V)  = 0.047 ; pri. stan. HD 102647 = bet Leo = GJ 448
 (R-Ic)(A3V)  = 0.050 ; sec. stan. HD 135379 = bet Cir = GJ 580.1
 (R-Ic)(A3V)  = 0.059 ; V-Rc vs B-V trend d<50pc for B-V=0.092 
-=> adopt (R-Ic)(A3V) = 0.05 [updated 10/8/2023]
+=> adopt (R-Ic)(A3V) = 0.05 [updated 10/10/2023; V-Ic=0.09, V-Rc=0.04]
 
 (V-Ic)(A3V)  = 0.05  ; exemplar HD 188899 = 61 Sgr (Cousins80)
+(V-Ic)(A3V)  = 0.063 ; pri. stan. HD 102647 = bet Leo = GJ 448
 (V-Ic)(A3V)  = 0.080 ; anchor stan. alf PsA = HD 216956 = GJ 881 
 (V-Ic)(A3V)  = 0.083 (+-0.013 sem, +-0.023 stdev); Gray01/03/06 (N=5)
 (V-Ic)(A3V)  = 0.085 ; sec. stan. HD 135379 = bet Cir = GJ 580.1
 (V-Ic)(A3V)  = 0.10  ; pri. stan. bet Leo = HD 102647 = GJ 448
 (V-Ic)(A3V)  = 0.111 ; V-Ic vs B-V trend d<50pc for B-V=0.092
 (V-Ic)(A3V)  = 0.152 (+-0.017 sem, +-0.065 stdev); HIP d<75pc S/N>8 (N=21)
-=> adopt (V-Ic)(A3V) = 0.083 [updated 10/8/2023]
+=> adopt (V-Ic)(A3V) = 0.09 [updated 10/10/2023; V-Rc=0.04, R-Ic=0.05]
 
+(V-Ks)(A3V)  = 0.185 ; pri. stan. HD 102647 = bet Leo = GJ 448
 (V-Ks)(A3V)  = 0.207 ; exemplar HD 188899 = 61 Sgr
 
 (g-V)(A3V) = -0.064 ; Jordi06 B-V=>g-V for B-V=0.10
@@ -283,11 +287,18 @@ HD 102647 = bet Leo = GJ 448 = HIP 57632 = Denebola = HR 4534
   V=2.14(Johnson66,HIP), V=2.135+-0.012(Mermilliod91),
   B-V=0.08(Johnson66), B-V=0.090+-0.000(HIP),
   B-V=0.091+-0.010(Mermilliod91), U-B=0.07(Johnson66),
-  U-B=0.076+-0.021(Mermilliod91), V-Ic=0.10+-0.00(HIP). 2MASS
-  photometry poor. Teffs: 8378K(Gray03), 8421K(Boyajian13),
-  8501K(Stassun18), 8531K(Zorec12), 8570K(Erspamer03),
-  8604K(Boyajian13), 8690K(Philip80), 8720K(Sokolov95), 8750K(Chen14),
-  8759+-158K(vanBelle09), 9186K(David15) => <Teff> = 8608K.
+  U-B=0.076+-0.021(Mermilliod91), Rj=2.08(Johnson66),
+  Ij=2.06(Johnson66), V-Ic=0.10+-0.00(HIP).  V-Rj = 0.055 =
+  2.135(Mermilliod91) - 2.08(Johnson66) = 0.055 => (V-Rc)=0.016(via
+  Fernie83), Rc=2.119(via Fernie83).  V-Ij = 0.075 =
+  2.135(Mermilliod91) - 2.06(Johnson66) => (V-Ic)=0.063, Ic=2.072.
+  2MASS photometry poor. J=2.03(Johnson66), K=1.99(Johnson66) =>
+  Ks=1.950(Johnson66=>2MASS via Rieke22) => (V-Ks) =
+  2.135(Mermilliod91) - 1.950(Johnson66=>2MASS) = 0.185. Teffs:
+  8378K(Gray03), 8421K(Boyajian13), 8501K(Stassun18), 8531K(Zorec12),
+  8570K(Erspamer03), 8604K(Boyajian13), 8690K(Philip80),
+  8720K(Sokolov95), 8750K(Chen14), 8759+-158K(vanBelle09),
+  9186K(David15) => <Teff> = 8608K.
   logg=4.22(Gray03),4.26(Erspamer03). vsini=124km/s(Erspamer03). [M/H]=0.00(Gray03).
   Luminosity: V=2.135, plx=90.91, Av=0.00, BCv=-0.04 => Mv=1.93,
   Mbol=1.89, logL=1.141 => w/Teff=8608K => Rad=1.672Rsun.

@@ -43,29 +43,29 @@ Skiff08 lists only one B8V standard (HD 23324 = 18 Tau; MK73)
 All Q-method dereddenings in this file have been updated with the most
 recent calibration (Oct 2011).
 
-B-V(B8V)  =  -0.05   ; Cowley70(N=20*s)
-B-V(B8V)  =  -0.083  ; Crawford76
-B-V(B8V)  = -0.083  ; sec. stan. 21 Tau (EEM dereddened via Q-method)
-B-V(B8V)  =  -0.09   ; JohnsonMorgan53,Morgan53,Johnson63,Johnson65,Johnson66
-B-V(B8V)  = -0.099  ; EEM 9 d<75pc B8V Hipparco stars
-B-V(B8V)  =  -0.10   ; Bessell79
-B-V(B8V)  = -0.104  ; sec. stan. HR 9050 (EEM dereddened via Q-method)
-B-V(B8V)  = -0.106  ; EEM dereddened N=99 HIP B8V stars (Q-method,E(B-V)<0.1)
-B-V(B8V)  = -0.109  ; tert. stan. bet Lib (unreddened)
-B-V(B8V)  =  -0.11   ; Garrison67, Fitzgerald70, Morgan71, SchmidtKaler82
-B-V(B8V)  = -0.111  ; prim. stan. 18 Tau (EEM dereddened via Q-method)
-B-V(B8V)  = -0.121  ; sec. stan. bet Per (EEM dereddened)
+(B-V)(B8V)  =  -0.05   ; Cowley70(N=20*s)
+(B-V)(B8V)  =  -0.083  ; Crawford76
+(B-V)(B8V)  = -0.083  ; sec. stan. 21 Tau (EEM dereddened via Q-method)
+(B-V)(B8V)  =  -0.09   ; JohnsonMorgan53,Morgan53,Johnson63,Johnson65,Johnson66
+(B-V)(B8V)  = -0.099  ; EEM 9 d<75pc B8V Hipparco stars
+(B-V)(B8V)  =  -0.10   ; Bessell79
+(B-V)(B8V)  = -0.104  ; sec. stan. HR 9050 (EEM dereddened via Q-method)
+(B-V)(B8V)  = -0.106  ; EEM dereddened N=99 HIP B8V stars (Q-method,E(B-V)<0.1)
+(B-V)(B8V)  = -0.109  ; tert. stan. bet Lib (unreddened)
+(B-V)(B8V)  =  -0.11   ; Garrison67, Fitzgerald70, Morgan71, SchmidtKaler82
+(B-V)(B8V)  = -0.111  ; prim. stan. 18 Tau (EEM dereddened via Q-method)
+(B-V)(B8V)  = -0.121  ; sec. stan. bet Per (EEM dereddened)
 
-U-B(B8V)  = -0.265  ; sec. stan. 21 Tau (EEM dereddened via Q-method)
-U-B(B8V)  =  -0.31   ; Cowley70(N=20*s)
-U-B(B8V)  =  -0.30   ; Bessell98,Johnson63,Johnson65,Johnson66
-U-B(B8V)  =  -0.34   ; Schmidt-Kaler82
-U-B(B8V)  = -0.354  ; sec. stan. HR 9050 (EEM dereddened via Q-method)
-U-B(B8V)  =  -0.36   ; Fitzgerald70
-U-B(B8V)  = -0.364  ; EEM dereddened N=99 B8V HIP stars (Q-method,E(B-V)<0.1)
-U-B(B8V)  = -0.365  ; ter. stan. beta Lib (unreddened)
-U-B(B8V)  =  -0.368  ; (B-V) = -0.109 => (U-B)o using EEM relation
-U-B(B8V)  = -0.389  ; pri. stan. 18 Tau (EEM dereddened via Q-method)
+(U-B)(B8V)  = -0.265  ; sec. stan. 21 Tau (EEM dereddened via Q-method)
+(U-B)(B8V)  =  -0.31   ; Cowley70(N=20*s)
+(U-B)(B8V)  =  -0.30   ; Bessell98,Johnson63,Johnson65,Johnson66
+(U-B)(B8V)  =  -0.34   ; Schmidt-Kaler82
+(U-B)(B8V)  = -0.354  ; sec. stan. HR 9050 (EEM dereddened via Q-method)
+(U-B)(B8V)  =  -0.36   ; Fitzgerald70
+(U-B)(B8V)  = -0.364  ; EEM dereddened N=99 B8V HIP stars (Q-method,E(B-V)<0.1)
+(U-B)(B8V)  = -0.365  ; ter. stan. beta Lib (unreddened)
+(U-B)(B8V)  =  -0.368  ; (B-V) = -0.109 => (U-B)o using EEM relation
+(U-B)(B8V)  = -0.389  ; pri. stan. 18 Tau (EEM dereddened via Q-method)
 => adopt (U-B)(B8V)  = -0.364 *** [updated 9/26/2019]
 => adopt (B-V)(B8V)  = -0.109
 => adopt     Q(B8V)  = -0.286 (=(U-B)-0.72*(B-V) = -0.364 - 0.72*-0.109)
@@ -78,24 +78,35 @@ U-B(B8V)  = -0.389  ; pri. stan. 18 Tau (EEM dereddened via Q-method)
 => adopt (H-Ks)(B8V) =  0.003
 => adopt (J-H)(B8V)  = -0.067
 
-V-Rj(B8V) = -0.03 ; Johnson65
+(V-Rj)(B8V) = -0.03 ; Johnson65
 
-(V-Ic)(B8V) = -0.085 ; Bessell79
-(V-Ic)(B8V) = -0.15  ; Bessell88 
+(V-Rc)(B8V) = -0.025 ; exemplar HD 209819 = iot Aqr (B8V;GarrisonGray94,Zorec09)
+(V-Rc)(B8V) = -0.028 ; variant stan. HD 58715 = bet CMi (B8Ve)
+(V-Rc)(B8V) = -0.031 ; ter. stan. HD 135742 = bet Lib
+(V-Rc)(B8V) = -0.044 ; exemplar HD 181869 = alf Sgr 
 
-V-Ij(B8V) = -0.12 ; Johnson65
+(R-Ic)(B8V) = -0.034 ; exemplar HD 209819 = iot Aqr (B8V;GarrisonGray94,Zorec09)
+(R-Ic)(B8V) = -0.040 ; variant stan. HD 58715 = bet CMi (B8Ve)
+(R-Ic)(B8V) =  -0.050 ; Bessell79
+(R-Ic)(B8V) = -0.052 ; ter. stan. HD 135742 = bet Lib
+(R-Ic)(B8V) = -0.058 ; exemplar HD 181869 = alf Sgr 
 
-(R-Ic)f(B8V)  = -0.050  ; Bessell79 
+(V-Ij)(B8V) = -0.12 ; Johnson65
 
-V-Jj(B8V) = -0.18 ; Johnson65
+(V-Ic)(B8V) = -0.059 ; exemplar HD 209819 = iot Aqr (B8V;GarrisonGray94,Zorec09)
+(V-Ic)(B8V) = -0.068 ; variant stan. HD 58715 = bet CMi (B8Ve)
+(V-Ic)(B8V) = -0.083 ; ter. stan. HD 135742 = bet Lib
+(V-Ic)(B8V) =  -0.085 ; Bessell79
+(V-Ic)(B8V) = -0.102 ; exemplar HD 181869 = alf Sgr 
+(V-Ic)(B8V) =  -0.15  ; Bessell88 
+
+(V-Jj)(B8V) = -0.18 ; Johnson65
 
 (V-K)(B8V) = -0.35 ; Bessell88 (homogenized Johnson-Glass)
 
-V-Kj(B8V) = -0.24 ; Johnson65
+(V-Kj)(B8V) = -0.24 ; Johnson65
 
-V-Lj(B8V) = -0.22 ; Johnson65
-
-
+(V-Lj)(B8V) = -0.22 ; Johnson65
 
 (Ks-W1)(B8V) = 0.033 ; EEM trend for d<30pc for B-V=-0.109
 => adopt (Ks-W1)(B8V) = 0.033 [updated 12/29/2019]
@@ -272,9 +283,11 @@ HD 135742 = bet Lib = Zubeneshamali
   -0.004, i.e. unreddened, consistent with its nearby distance
   (VanLeeuwen07 plx = 17.62+-0.16 mas => D = 56.75+-0.52 pc). Mv =
   -1.16+-0.02 mag.  The absolute magnitude suggests that it might be
-  somewhat evolved compared to the other B8V standards. Hauck97
-  photometry dereddened using Castelli91: (b-y)0=-0.113, c0=0.736,
-  E(b-y)=0.078, Av=0.340.  Teffs: 11579K(Hauck97
+  somewhat evolved compared to the other B8V standards.
+  V=2.615(GCPD/Cousins76_VRIc), V-Rc=-0.031(GCPD/Cousins76_VRIc),
+  R-Ic=-0.052(GCPD/Cousins76_VRIc), V-Ic=-0.083(GCPD/Cousins76_VRIc).
+  Hauck97 photometry dereddened using Castelli91: (b-y)0=-0.113,
+  c0=0.736, E(b-y)=0.078, Av=0.340.  Teffs: 11579K(Hauck97
   phot.=>BalonaShobbrook84 beta calib.), 11886K(Hauck97
   phot.=>Balona94 calib.), 12205K(U-Bo=>Bessell98), 12254K(Hauck97
   phot.=>Napiwotzki93 calib.), 12300+-550K(Zorec09), 12946+-449K(Wu11)
@@ -313,13 +326,17 @@ HD 183914 = HR 7418 = bet Cyg B = bet02 Cyg = 6 Cyg B = HIP 95951
 
 HD 58715 = bet CMi = MWC 178
   B8V: MK43,Garrison96,Jaschek64(all),Jaschek78(Slettebak54)
-  B8Ve: Levenhagen06,Slettebak82
+ *B8Ve: Levenhagen06,Slettebak82
   B8IV/Ve shell : Slettebak66
   B8: Cannon
 
   In Jaschek catalog of Be stars. Everyone agrees on B8 subtype. Good
-  "B8Ve" standard?  Mermilliod91: V=2.894, B-V=-0.097, U-B=-0.289 =>
-  updated Q-method => E(B-V) = -0.009, so probably
+  "B8Ve" standard?  Mermilliod91: V=2.894(Mermilliod91),
+  V=2.895(GCPD/Cousins76_VRIc), (B-V)=-0.097(Mermilliod91),
+  (U-B)=-0.289(Mermilliod91), (V-Rc)=-0.028(GCPD/Cousins76_VRIc),
+  (R-Ic)=-0.040(GCPD/Cousins76_VRIc),
+  (V-Ic)=-0.068(GCPD/Cousins76_VRIc). Updated Q-method using
+  Mermilliod91 UBV => E(B-V) = -0.009, so probably
   unreddened. VanLeeuwen07 plx = 20.17+-0.20 mas => D = 49.6 +- 0.5
   pc.
  
@@ -379,7 +396,6 @@ HD 87901 = alf Leo = Regulus = 32 Leo = HR 3982 = GJ 9316A
   median Teff = 12357K.  logg=3.56(Gray03),
   4.05+-0.09(Wu11). [M/H]=0.00(Gray03), [Fe/H]=0.21+-0.09(Wu11).
 
-
 HD 222173 = iot And 
   B8V: JM53,Cowley72(stan),Jaschek64(all),Cannon(B8)
   B8IIIs: GarrisonGray94
@@ -407,9 +423,29 @@ HD 36865 = Parenago 1491 (J0534-0429)
   7.6, 9.4; vSINi=220" Abt68 calls "B8V" standard, but then "B7V" in
   Abt77. Binary. Probably not a good standard.
 
-# Non-standard Stars
+# Exemplars
+
+HD 181869 = alf Sgr
+  B7V: Cucchiaro77(S2/68)
+  B8IV/V: 1930MmMtS...2....1R
+  B8V: 1955MmMtS..12....1W,Houk78(Garrison)
+ *B8Vs: GarrisonGray94
+  B9III: DeVaucoulers57
+
+  Nearby, within Local Bubble.  V=3.965(GCPD/Cousins76_VRIc),
+  V-Rc=-0.044(GCPD/Cousins76_VRIc), R-Ic=-0.058(GCPD/Cousins76_VRIc),
+  V-Ic=-0.102(GCPD/Cousins76_VRIc).
+
+HD 209819 = iot Aqr
+ *B8V: Slettebak54,Cucchiaro78(S2/68)GarrisonGray94,Zorec09
+  B9IV-V: Cowley72
+
+  Nearby, within Local Bubble. V=4.28(GCPD/Cousins76_VRIc),
+  V-Rc=-0.025(GCPD/Cousins76_VRIc), R-Ic=-0.034(GCPD/Cousins76_VRIc),
+  V-Ic=-0.059(GCPD/Cousins76_VRIc).
+
+# Other Stars
 
 HD 35834
    B8Vn: Sharpless52(B8V), Abt77, Abt08
-
 

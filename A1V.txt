@@ -74,16 +74,19 @@ could probably argue for an adopted value being anywhere from B-V ~
 (U-B)(A1V)   = 0.030 ; HIP d<75pc S/N>8 A1V N=34 (Mermilliod91 photometry)
 (U-B)(A1V)   = 0.05  ; JohnsonMorgan53
 
-(V-Rc)(A1V)  = -0.01 ; deprecated alf CMa = Sirius
+(V-Rc)(A1V)  = -0.01  ; deprecated alf CMa = Sirius
+(V-Rc)(A1V)  =  0.008 ; exemplar HD 2834 = lam01 Phe = HIP 2472 
 
 (R-Ic)(A1V)   = -0.01  ; deprecated alf CMa = Sirius
+(R-Ic)(A1V)   =  0.007 ; exemplar HD 2834 = lam01 Phe = HIP 2472
 (R-Ic)(A1V)   =  0.008 ; Bessell79
 
 (V-Ic)(A1V)  = -0.016 ; deprecated alf CMa = Sirius
 (V-Ic)(A1V)  =  0.015 ; Bessell79
+(V-Ic)(A1V)  =  0.015 ; exemplar HD 2834 = lam01 Phe = HIP 2472
 (V-Ic)(A1V)  =  0.03  ; Bessell88 (interp A0V-A2V)
-(V-Ic)(A1V)  = 0.071 (+-0.016 sem, +-0.023 stdev; N=4)
-(V-Ic)(A1V)  = 0.081 (+-0.011 sem, +-0.033 stdev); HIP d<75pc S/N>8 (N=12)
+(V-Ic)(A1V)  =  0.071 (+-0.016 sem, +-0.023 stdev; N=4)
+(V-Ic)(A1V)  =  0.081 (+-0.011 sem, +-0.033 stdev); HIP d<75pc S/N>8 (N=12)
 
 (Bp-Rp)(A1V) =  0.037 ; Evans18 trend for V-I=0.037
 (Bp-Rp)(A1V) =  0.005 ; color trend for B-V=0.035
@@ -406,17 +409,33 @@ HD 74956 = del Vel = HR 3485
   logg=3.66(Allende-Prieto99), 3.79(Gray06). [M/H]=-0.33(Gray06).
   Mass=2.51Msun(Allende-Prieto99)
 
+HD 2834 = lam01 Phe = HIP 2472 = HR 125 = WDS J00314-4848A = Gaia DR3 4975414983274332800
+  A0V: DeVaucoleurs57,Levato72
+ *A1Va: GrayGarrison87
+  A1V: Buscombe69,Abt95
+  A2V: Cucchiaro78(S2/68). 
+
+  V=4.770(Cousins80), V-Rc=0.008(Cousins80), V-Ic=0.015(Cousins80).
+  GaiaDR3: G=4.755616+-0.002924, plx=18.4705+-0.1326mas(GaiaDR3)
 
 # Other Stars
 
-Zet UMa A 
+det UMa A 
   A1Va: Garrison96
 
-Del Her
+del Her
   A1Vann: Garrison96
 
 HD 111397 = HR 4865 = 29 Com (V=5.7)
  *A1V: Cowley69,Loden83,Abt95,Paunzen01
   A2V: Osawa59,Levato78
+
+HD 9414 = HR 443 
+  A1V: Houk78
+ *A1Vn: Paunzen01
+  A2V: 1971RGOB..165..259H
+  A3V: Cucchiaro78
+
+  plx=10.124+-0.0271mas, i.e. might be slight reddening. 
 
 RECONS shows Sirius (J0645-1642) as the nearest A1V star. 

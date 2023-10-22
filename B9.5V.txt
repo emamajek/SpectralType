@@ -22,30 +22,40 @@ Skiff08 lists only two B9.5V standards: HD 19805 and HD 23873.
 All dereddenings calculated via the Q-method have been updated using
 the new calibration (10/11/2011).
 
-B-V(B9.5V)   =  -0.03 ; Morgan53, Johnson63
-B-V(B9.5V)   =  -0.04 ; Fitzgerald70, Morgan71
-B-V(B9.5V)   = -0.047 ; prim. stan. ome^2 Aqr (EEM dereddened via Q-method)
-B-V(B9.5V)   = -0.050 ; prim. stan. HD 23873 (EEM dereddened)
-B-V(B9.5V)   = -0.052 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
-B-V(B9.5V)   = -0.067 ; EEM 3 d<75 pc B9.5V Hipparcos stars
-B-V(B9.5V)   = -0.076 ; exemplar 16 Dra A = HD 150100 
+(B-V)(B9.5V)   =  -0.03 ; Morgan53, Johnson63
+(B-V)(B9.5V)   =  -0.04 ; Fitzgerald70, Morgan71
+(B-V)(B9.5V)   = -0.047 ; prim. stan. ome^2 Aqr (EEM dereddened via Q-method)
+(B-V)(B9.5V)   = -0.050 ; prim. stan. HD 23873 (EEM dereddened)
+(B-V)(B9.5V)   = -0.052 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
+(B-V)(B9.5V)   = -0.067 ; EEM 3 d<75 pc B9.5V Hipparcos stars
+(B-V)(B9.5V)   = -0.076 ; exemplar 16 Dra A = HD 150100 
 => adopt (B-V)(B9.5V)  = -0.050 [updated 9/20/2019]
 
-U-B(B9.5V)   = -0.143 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
-U-B(B9.5V)   = -0.136 ; prim. stan. HD 23873 (EEM dereddened via Q-method)
-U-B(B9.5V)   = -0.124 ; prim. stan. ome^2 Aqr (EEM dereddened via Q-method)
-U-B(B9.5V)   = -0.102 ; HIP d<75pc S/N>8 A0V N=4 (Mermilliod91 photometry)
-U-B(B9.5V)   =  -0.10  ; Fitzgerald70
+(U-B)(B9.5V)   = -0.143 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
+(U-B)(B9.5V)   = -0.136 ; prim. stan. HD 23873 (EEM dereddened via Q-method)
+(U-B)(B9.5V)   = -0.124 ; prim. stan. ome^2 Aqr (EEM dereddened via Q-method)
+(U-B)(B9.5V)   = -0.102 ; HIP d<75pc S/N>8 A0V N=4 (Mermilliod91 photometry)
+(U-B)(B9.5V)   =  -0.10  ; Fitzgerald70
 => adopt (U-B)(B9.5V)  = -0.13  *** [updated 9/26/2019]
-=> adopt     Q(B9.5V)  = -0.094 (=(U-B)-0.72*(B-V) = -0.130 - 0.72*-0.050)
-=> adopt (V-I)(B9.5V)  = -0.035
-=> adopt (V-R)(B9.5V)  = -0.017
-=> adopt (R-I)(B9.5V)  = -0.018 
+=> adopt     Q(B9.5V)  = -0.094 (=(U-B)-0.72*(B-V) = -0.130 - 0.72*-0.050) 
 => adopt (V-J)(B9.5V)  = -0.025
 => adopt (V-H)(B9.5V)  = -0.069
 => adopt (V-Ks)(B9.5V) = -0.048
 => adopt (H-Ks)(B9.5V) =  0.021
 => adopt (J-H)(B9.5V)  = -0.044
+
+(V-Rc)(B9.5V) = -0.003 ; exemplar HD 24072 = HR 1190A
+(V-Rc)(B9.5V) = -0.016 ; pri. stan. HD 222661 = ome^2 Aqr = GJ 9836A
+=> adopt (V-Rc)(B9.5V) = -0.016 [updated 10/10/2023]
+
+(R-Ic)(B9.5V) = -0.017 ; exemplar HD 24072 = HR 1190A
+(R-Ic)(B9.5V) = -0.023 ; pri. stan. HD 222661 = ome^2 Aqr = GJ 9836A
+=> adopt (R-Ic)(B9.5V) = -0.023 [updated 10/10/2023]
+
+(V-Ic)(B9.5V) = -0.02  ; exemplar HD 24072 = HR 1190A
+(V-Ic)(B9.5V) = -0.039 ; pri. stan. HD 222661 = ome^2 Aqr = GJ 9836A
+(V-Ic)(B9.5V) = -0.05  ; EEM 3 d<75 pc B9.5V Hipparcos stars
+=> adopt (V-Ic)(B9.5V) = -0.039 [updated 10/10/2023]
 
 (Ks-W1)(B9.5V) = 0.040 ; EEM trend for d<30pc for B-V=-0.045
 => adopt (Ks-W1)(B9.5V) = 0.040 [updated 12/29/2019]
@@ -74,7 +84,6 @@ U-B(B9.5V)   =  -0.10  ; Fitzgerald70
 (G-V)(B9.5V) =  0.05829 ; HIP_108336 B9.5V E(B-V)=0.009
 => adopt (G-V)(B9.5V) = 0.017 [updated 4/8/2022]
 
-V-I(B9.5V)   = -0.05  ; EEM 3 d<75 pc B9.5V Hipparcos stars
 
 (g-r)(B9.5V) = -0.265 ; Covey07 interp B9V-A0V
 
@@ -153,7 +162,7 @@ MK43, MK73, Garrison67, Garrison79 did not list a B9.5V standard.
 
 # Primary Standards
 
-HD 222661 = ome^2 Aqr = 105 Aqr = GJ 9836A = HR 8988
+HD 222661 = ome^2 Aqr = GJ 9836A = 105 Aqr = HR 8988
  *B9.5V: JM53,Cowley69(stan),Cowley72(stan),Houk88,Abt02,Zorec09
   B9.5IV: Abt95,Gray87
   B9V: deVaucouleur57,Cucchiaro80
@@ -161,30 +170,27 @@ HD 222661 = ome^2 Aqr = 105 Aqr = GJ 9836A = HR 8988
   Notes: 5.4" binary, deltaV=6.0, A is SB (Worley96), Gahm83 calls "B"
   a A5Vne.  Hipparcos par=21.16+-0.87 mas => D=47.3+-1.9 pc (so likely
   to have negligible reddening).  Mv = 1.20, D(ZAMS) = 43+-10 pc;
-  hence near ZAMS and unevolved.  B-V(HIP)=-0.032+-0.004.  Johnson66:
-  B-V=-0.04, U-B=-0.13. Av(Neckel80)=0.02. Mermilliod91:
-  B-V=-0.041+-0.006, U-B=-0.121+-0.014 (probably unreddened since D ~
-  47 pc) => updated Q-method calibration (10/11/2011) =>
-  (B-V)o=-0.047, E(B-V)= 0.006, Av=0.02, (U-B)o = -0.124 (but
-  consistent with zero reddening given the photometric errors). Note
-  that Castelli reddening gives Av=0.39, where Shobbrook gives
-  Av=0.04. Teffs:
-  10011K(Ammler-vonEiff12),
-  10057K(Hauck97 phot.=>Balona94 calib.),
+  hence near ZAMS and unevolved.  V=4.485(GCPD/Cousins76_VRIc),
+  (B-V)(HIP)=-0.032+-0.004, B-V=-0.04(Johnson66), U-B=-0.13(Johnson66),
+  U-B=-0.121+-0.014(Mermilliod91), V-Rc=-0.016(GCPD/Cousins76_VRIc),
+  R-Ic=-0.023(GCPD/Cousins76_VRIc), V-Ic=-0.039(GCPD/Cousins76_VRIc).
+  Av(Neckel80)=0.02. Updated Q-method
+  calibration (10/11/2011) => (B-V)o=-0.047, E(B-V)= 0.006, Av=0.02,
+  (U-B)o = -0.124 (but consistent with zero reddening given the
+  photometric errors, and it is at only 47pc). Note that Castelli
+  reddening gives Av=0.39, where Shobbrook gives Av=0.04. Teffs:
+  10011K(Ammler-vonEiff12), 10057K(Hauck97 phot.=>Balona94 calib.),
   10160K(Hauck97 phot.=>BalonaShobbrook84 calib.),
-  10375+-48K(Zorec12), 
-  10404K(U-Bo=>Bessell98),
-  10517K(Hauck97 phot.=>Napiwotzki93 calib.),
-  10860+-420K(Zorec09),
-  11108+-378K(David15), 
-  => median Teff = 10390K.
+  10375+-48K(Zorec12), 10404K(U-Bo=>Bessell98), 10517K(Hauck97
+  phot.=>Napiwotzki93 calib.), 10860+-420K(Zorec09),
+  11108+-378K(David15), => median Teff = 10390K.
 
 HD 23873 = Cl Melotte 22 2263 (Pleiades member)
  *B9.5V: MK78(stan), Gray87(B9.5Va), Mendoza56
   B9.5IVsn: Abt78
   A0V: : JM53
 
-  B-V(HIP)=-0.027+-0.004.  Mermilliod91: B-V=-0.027+-0.004,
+  (B-V)(HIP)=-0.027+-0.004.  Mermilliod91: B-V=-0.027+-0.004,
   U-B=-0.120+-0.000 => updated Q-method calibration => B-Vo=-0.050,
   U-Bo=-0.136, E(B-V)=0.023, Av=0.077. D(ZAMS)=128+-29 pc (hence MS).
   par(HIP)=8.02+-0.91 mas => Mv = 1.18, and as a Pleiades member it
@@ -205,7 +211,7 @@ HD 19805 = HIP 14980 = Cl Melotte 20 167 (in alpha Per cluster)
   A0Vsp:Si: Abt78
   A1V: Petrie67
 
-  B-V(HIP)=0.125+-0.008.  Mermilliod91: B-V=0.121, U-B=0.030 =>
+  (B-V)(HIP)=0.125+-0.008.  Mermilliod91: B-V=0.121, U-B=0.030 =>
   updated Q-method (10/11/2011) => (B-V)o=-0.018, E(B-V)=0.139,
   Av=0.457, D(ZAMS)=181+-40 pc. (U-B)o wasn't calculable using my
   current calibration as it was too close to the A0V zero color point
@@ -262,6 +268,16 @@ HD 145631
   B9V: Slettebak68, Houk88
 
   Upper Sco member. Teffs: 10715K(deGeus89)
+
+HD 24072 = HR 1190A
+  B9V: Corbally84
+  B9:V:: Levato75
+  B9.5Vn: Abt95
+ *B9.5Van: GrayGarrison87
+  B9/A0V: Houk82
+
+  V=4.265(GCPD/Cousins76_VRIc), V-Rc=-0.003(GCPD/Cousins76_VRIc),
+  R-Ic=-0.017(GCPD/Cousins76_VRIc), V-Ic=-0.02(GCPD/Cousins76_VRIc).
 
 # Other Stars
 

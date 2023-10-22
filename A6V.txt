@@ -48,7 +48,7 @@ and within 1 mag of the MS (N=15):
 (B-V)(A6V) = 0.186 ; exemplar HD 12140 = HR 578
 (B-V)(A6V) = 0.186 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 (B-V)(A6V) = 0.185 ; halfway between A5V(0.16) and A7V(0.21)
-(B-V)(A6V) = 0.175 ; exemplar HD 2262 = HR 100
+(B-V)(A6V) = 0.175 ; exemplar HD 2262 = kap Phe = HIP 2072 = HR 100
 (B-V)(A6V) =  0.175 ; Schmidt-Kaler(halfway A5V-A7V)
 (B-V)(A6V) = 0.171 ; exemplar bet Pic 
 <B-V>(A6V) = 0.170 ; 2 Gray01/03/06 (+-0.001 sem, +-0.001 stdev)
@@ -58,16 +58,21 @@ and within 1 mag of the MS (N=15):
 => adopt (B-V)(A6V)  = 0.185 *** [updated 11/18/2020]
  [EEM note 9/24/2020: B-V=0.180/Teff=8000K smoothly fits on A dwarf sequence]
 
-=> adopt (V-I)(A6V)  = 0.214
-=> adopt (V-R)(A6V)  = 0.103
-=> adopt (R-I)(A6V)  = 0.111
-=> adopt (V-J)(A6V)  = 0.383
-=> adopt (V-H)(A6V)  = 0.426
-=> adopt (V-Ks)(A6V) = 0.465
-=> adopt (H-Ks)(A6V) = 0.039
-=> adopt (J-H)(A6V)  = 0.043
+=> adopt (V-J)(A6V)   = 0.383
+=> adopt (V-H)(A6V)   = 0.426
+=> adopt (V-Ks)(A6V)  = 0.465
+=> adopt (H-Ks)(A6V)  = 0.039
+=> adopt (J-H)(A6V)   = 0.043
 
-(V-Ic)(A6V) = 0.255 ; Bessell88 (interp A5V-A7V) 
+(V-Rc)(A6V) = 0.103 ; exemplar HD 2262 = kap Phe = HIP 2072 = HR 100
+(V-Rc)(A6V) = 0.103 ; V-Rc vs. B-V dwarf locus for B-V=0.185
+=> adopt (V-Rc)(A6V) = 0.103 [updated 10/10/2023]
+=> adopt (R-Ic)(A6V) = 0.111 [updated 10/10/2023; V_Ic=0.214, V-Rc=0.103]
+
+(V-Ic)(A6V) = 0.199 ; exemplar HD 2262 = kap Phe = HIP 2072 = HR 100
+(V-Ic)(A6V) = 0.214 ; V-Ic vs B-V dwarf locus for B-V=0.185
+(V-Ic)(A6V) = 0.255 ; Bessell88 (interp A5V-A7V)
+=> adopt (V-Ic)(A6V) = 0.214 [updated 10/10/2023]
 
 (Bp-Rp)(A6V) =  0.0944  ; HD_195093
 (Bp-Rp)(A6V) =  0.1722  ; 90_Tau
@@ -297,7 +302,7 @@ HD 195093 = HR 7829
    2.48(Mermilliod91,GaiaDR2). Teffs: 7762K(Zorec12),
    7819K(Ammler-vonEiff12), 7872K(GaiaDR2) => <Teff> = 7819K.
 
-HD 2262 = HR 100 = kap Phe 
+HD 2262 = kap Phe = HIP 2072 = HR 100
    A3V: 1955MmMtS..12....1W
    A5IVn: Gray06
    A5Vn: GrayGarrison89
@@ -306,10 +311,12 @@ HD 2262 = HR 100 = kap Phe
    A7V: Cucchiaro78
    A7Vn: Evans61,Levato72
 
-   V=3.93(HIP), plx=42.51+-0.69mas(HIP), B-V=0.175+-0.008(HIP),
-   del(Mv)=+0.14mag(HIP2). Mv=2.05(HIP2). Teffs: 7670+-240K(Sokolov95),
-   7882+-63K(Blackwell98), 7906K(Erspamer03), 8017K(diBenedetto98) =>
-   <Teff> = 7894K(N=4). logg=4.17(Erspamer03), [Fe/H]=-0.04(Erspamer03).
+   V=3.93(HIP), V=3.940(Cousins80), V-Rc=0.103(Cousins80),
+   V-Ic=0.199(Cousins80).  plx=42.51+-0.69mas(HIP),
+   B-V=0.175+-0.008(HIP), del(Mv)=+0.14mag(HIP2). Mv=2.05(HIP2).
+   Teffs: 7670+-240K(Sokolov95), 7882+-63K(Blackwell98),
+   7906K(Erspamer03), 8017K(diBenedetto98) => <Teff> =
+   7894K(N=4). logg=4.17(Erspamer03), [Fe/H]=-0.04(Erspamer03).
 
 HD 12140 = HR 578 = HIP 9295
    A4V: Palmer68

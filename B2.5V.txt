@@ -43,6 +43,12 @@ U-B(B2.5V) = -0.812  ; EEM dereddened weak stan. sig Sgr via Q-method
 => adopt (J-H)(B2.5V)  = -0.105
 => adopt (K-W1)(B2.5V) =  0.036
 
+(V-Rc)(B2.5V) = -0.086 ; sec. stan. HD 175191 = sig Sgr = HIP 92855
+
+(R-Ic)(B2.5V) = -0.123 ; sec. stan. HD 175191 = sig Sgr = HIP 92855
+
+(V-Ic)(B2.5V) = -0.209 ; sec. stan. HD 175191 = sig Sgr = HIP 92855
+
 (Bp-Rp)(B2.5V) = -0.292 ; Evans18 trend for V-I=-0.210
 
 (g-r)(B2.5) = -0.468 ; Covey07 interp B1V -0.49 to B3V -0.46
@@ -145,7 +151,7 @@ HD 37016 = HR 1891 = HIP 26234
 
 # Secondary Standard
 
-HD 175191 = sig Sgr = HR 7121 = HIP 92855
+HD 175191 = sig Sgr = HIP 92855 = HR 7121
  *B2.5V: MK73,Garrison79(stan),Houk82
   B2V: Cowley72(stan)
   B3IV: Hiltner69
@@ -159,13 +165,16 @@ HD 175191 = sig Sgr = HR 7121 = HIP 92855
   Leeuwen07), hence it can be considered most likely
   unreddened. Q-method (10/9/2011): M91: V=2.078+-0.034,
   (B-V)=-0.213+-0.017, (U-B)=-0.749+-0.011 => (B-V)o = -0.221, (U-B)o
-  = -0.812, E(B-V)=0.000. Hauck97 photometry dereddened following
-  Castelli91 => (b-y)o=-0.110, c0=0.217, E(b-y)=0.019, Av=0.082.
-  Teffs: 18606K(EEM, Hauck97 phot.=>Napiwotzki93 calibration),
-  18890+-1150K(Zorec09), 19125K(EEM, Hauck97 phot.=>Balona94
-  calibration), 19171K(EEM, Hauck97 phot.=>BalonaShobbrook84 beta
-  calibration), 20061K(U-Bo=>Bessell98), 20400K(Snow94) => median Teff
-  = 19150K. For V=2.078, plx=14.32, Av=0, then Mv = -2.14. 
+  = -0.812, E(B-V)=0.000. V=2.09(GCPD/Cousins76_VRIc),
+  V-Rc=-0.086(GCPD/Cousins76_VRIc), R-Ic=-0.123(GCPD/Cousins76_VRIc),
+  V-Ic=-0.209(GCPD/Cousins76_VRIc).  Hauck97 photometry dereddened
+  following Castelli91 => (b-y)o=-0.110, c0=0.217, E(b-y)=0.019,
+  Av=0.082.  Teffs: 18606K(EEM, Hauck97 phot.=>Napiwotzki93
+  calibration), 18890+-1150K(Zorec09), 19125K(EEM, Hauck97
+  phot.=>Balona94 calibration), 19171K(EEM, Hauck97
+  phot.=>BalonaShobbrook84 beta calibration), 20061K(U-Bo=>Bessell98),
+  20400K(Snow94) => median Teff = 19150K. For V=2.078, plx=14.32,
+  Av=0, then Mv = -2.14.
 
 # Deprecated Standards
 
