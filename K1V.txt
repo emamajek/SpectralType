@@ -103,9 +103,19 @@ for further support for (B-V)~0.86 see XHIP trend at bottom of page]
 (V-Rc)(K1V) = 0.497 ; HD 114783 = HIP 64457 (Koen10) ~solar
 => adopt (V-Rc)(K1V) = 0.48 [updated 9/15/2023; V-Ic=0.905, R-Ic=0.425]
 
+(R-Ic)(K1V) = 0.404  ; exemplar alf Cen B ([Fe/H]=+0.24)
+(R-Ic)(K1V) = 0.424  ; HD 20165 = HIP 15099 (Koen10) ~solar
+(R-Ic)(K1V) =  0.425 ; exemplar HD 52698 = GJ 259 (Cousins80)
+(R-Ic)(K1V) =  0.425 ; exemplar HD 109200 = GJ 472 (Cousins80)
+(R-Ic)(K1V) = 0.426  ; HD 114783 = HIP 64457 (Koen10) ~solar
+(R-Ic)(K1V) = 0.43   ; V-Ic=0.91, V-Rc=0.48
+(R-Ic)(K1V) = 0.464  ; HIP 63742 = PX Vir (Koen10) ~solar
+=> adopt (R-Ic)(K1V) = 0.425 [updated 9/15/2023; V-Ic=0.905, V-Rc=0.48]
+
 (V-Ic)(K1V) =  0.878 ; exemplar alf Cen B ([Fe/H]=+0.24)
 (V-Ic)(K1V) =  0.879 ; HIP 54906 (Koen10)
 (V-Ic)(K1V) = 0.871  ; pri. stan. HD 10476 = 107 Psc ([Fe/H]=-0.04) (Just08)
+(V-Ic)(K1V) = 0.878  ; exemplar alf Cen B ([Fe/H]=+0.24)
 (V-Ic)(K1V) = 0.880  ; Gray01/03/06 44 K1Vs HIP V-Ic (+-0.003 sem, +-0.028 stdev)
 (V-Ic)(K1V) = 0.88   ; exemplar HD 224789 = HIP 57 ([Fe/H]=-0.01)
 (V-Ic)(K1V) = 0.89   ; exemplar HD 109200 = GJ 472 (Cousins80)
@@ -126,13 +136,6 @@ for further support for (B-V)~0.86 see XHIP trend at bottom of page]
 (V-Ic)(K1V) = 0.958 ; HIP 63742 = PX Vir (Koen10) ~solar
 => adopt (V-Ic)(K1V) = 0.905 [updated 9/15/2023; V-Rc=0.48, R-Ic=0.425]
 
-(R-Ic)(K1V) = 0.424  ; HD 20165 = HIP 15099 (Koen10) ~solar
-(R-Ic)(K1V) =  0.425 ; exemplar HD 52698 = GJ 259 (Cousins80)
-(R-Ic)(K1V) =  0.425 ; exemplar HD 109200 = GJ 472 (Cousins80)
-(R-Ic)(K1V) = 0.426  ; HD 114783 = HIP 64457 (Koen10) ~solar
-(R-Ic)(K1V) = 0.43   ; V-Ic=0.91, V-Rc=0.48
-(R-Ic)(K1V) = 0.464  ; HIP 63742 = PX Vir (Koen10) ~solar
-=> adopt (R-Ic)(K1V) = 0.425 [updated 9/15/2023; V-Ic=0.905, V-Rc=0.48]
 
 
 (Ks-W1)(K1V) = 0.071 ; EEM trend for d<30pc for B-V=0.845
@@ -491,16 +494,19 @@ alf Cen B = HD 128621 = GJ 559B = HIP 71681 = HR 5460 = Toliman
   metal-rich [Fe/H] ~ +0.2.  I don't understand the meaning of the
   Gray06 type.  plx=743.0+-1.3mas(Pourbaix16). Bessell83
   (http://articles.adsabs.harvard.edu/full/1983PASP...95..480B) quotes
-  V(B) = 1.335, (B-V)(B)=0.840, (V-R)(B)=0.474, (R-Ic)(B)=0.404,
-  (V-Ic)(B)=0.878. g-r=0.702(Just08),
-  r-i=0.172(Just08). Jj=-0.01(Boyajian13), Hj=-0.49(Boyajian13),
-  Kj=-0.60(Boyajian13), K=-0.61(Huang15, what system?). If the
-  Boyajian13 is on Johnson system, convert via Rieke22 => Ks=-0.627 =>
-  M_Ks=3.73.  (V-Ks) = 1.335 - -0.627 = 1.962.  Mv=5.86. [Fe/H] =
-  +0.24+-0.03(Zhao18).  Teff = 5231+-21K(Kervella17). Akeson21:
-  Mass_B=0.9092+-0.0025Rsun, Rad_B=0.8591+-0.0036Rsun.
-  L=0.4981+-0.0007Lsun => logL=-0.30268+-0.00061. Soubiran22/PASTEL
-  mean: Teff=5244+-13K, logg=4.54+-0.03, [Fe/H]=+0.24+-0.01.
+  V(B) = 1.335, (B-V)(B)=0.840, (V-Rc)(B)=0.474, (R-Ic)(B)=0.404,
+  (V-Ic)(B)=0.878. V(B)=1.335(GCPD/Cousins76/VRIc),
+  B-V=0.840(GCPD/Cousins76/VRIc), V-Rc=0.474(GCPD/Cousins76/VRIc),
+  R-Ic=0.404(GCPD/Cousins76/VRIc), V-Ic=0.878(GCPD/Cousins76/VRIc).
+  g-r=0.702(Just08), r-i=0.172(Just08). Jj=-0.01(Boyajian13),
+  Hj=-0.49(Boyajian13), Kj=-0.60(Boyajian13), K=-0.61(Huang15, what
+  system?). If the Boyajian13 is on Johnson system, convert via
+  Rieke22 => Ks=-0.627 => M_Ks=3.73.  (V-Ks) = 1.335 - -0.627 = 1.962.
+  Mv=5.86. [Fe/H] = +0.24+-0.03(Zhao18).  Teff =
+  5231+-21K(Kervella17). Akeson21: Mass_B=0.9092+-0.0025Rsun,
+  Rad_B=0.8591+-0.0036Rsun.  L=0.4981+-0.0007Lsun =>
+  logL=-0.30268+-0.00061. Soubiran22/PASTEL mean: Teff=5244+-13K,
+  logg=4.54+-0.03, [Fe/H]=+0.24+-0.01.
 
 HD 55458 = HIP 34950 = G 88-14 = G 109-53 = NLTT 17561 = Gaia DR3 870758684590736896
  *K1V: Adams35,Roman55,Gray03

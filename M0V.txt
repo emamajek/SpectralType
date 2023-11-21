@@ -99,11 +99,11 @@ Silverstein19 divides M dwarfs and subdwarfs with a "Main
 Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 4000K/0.485Rsun and 3100K/0.085Rsun: R/Rsun = 4.444e-4*Teff - 1.293.
 
-<B-V>(M0V) =   1.347 ; Crawford76
-<B-V>(M0V) =   1.35  ; Leggett92 "young disk"
-<B-V>(M0V) =   1.35  ; Leggett92 "old disk"
+(B-V)(M0V) =   1.347 ; Crawford76
+(B-V)(M0V) =   1.35  ; Leggett92 "young disk"
+(B-V)(M0V) =   1.35  ; Leggett92 "old disk"
 (B-V)(M0V) = 1.366 ; exemplar GJ 839
-<B-V>(M0V) =   1.37  ; Fitzgerald70
+(B-V)(M0V) =   1.37  ; Fitzgerald70
 (B-V)(M0V) =   1.385 ; deprecated standard GJ 123 
 (B-V)(M0V) =  1.388 (+-0.017 sem, +-0.082 stdev); med. for 25 ARICNS M0V stars
 (B-V)(M0V) =   1.40  ; SchmidtKaler82
@@ -115,7 +115,7 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (B-V)(M0V) = 1.414   ; ter. stan. GJ 328 
 (B-V)(M0V) = 1.419   ; exemplar GJ 338B
 (B-V)(M0V) = 1.420   ; prim. stan. GJ 270
-<B-V>(M0V) = 1.421   ; 27 Gray01/03/06 M0V (+-0.011 sem, +-0.065 stdev)
+(B-V)(M0V) = 1.421   ; 27 Gray01/03/06 M0V (+-0.011 sem, +-0.065 stdev)
 (B-V)(M0V) = 1.431   ; exemplar GJ 784
 (B-V)(M0V) = 1.433   ; median Koen10 d<25pc M0V
 (B-V)(M0V) = 1.434   ; median SIMBAD M0V d<25pc  (N=97)
@@ -158,6 +158,7 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (V-Ic)(M0V) =  1.78  ; The84
 (V-Ic)(M0V) = 1.798 ; Reid CNS3 sample M0 median value (N=49)
 (V-Ic)(M0V) =  1.80  ; Bessell91 "old disk"
+(V-Ic)(M0V) =  1.80  ; Bessell88
 (V-Ic)(M0V) = 1.829 ; pri. stan. GJ 270 (GaiaDR3 synth)
 (V-Ic)(M0V) =  1.836 (+-0.019 sem, +-0.145 stdev; N=49; Koen10)
 (V-Ic)(M0V) =   1.9   ; Hawley96
@@ -165,33 +166,37 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 
 (V-Ij)(M0V) = 2.19 ; Johnson65
 
-<V-J>(M0V) = 3.114 (+-0.088 sem, +-0.175 stdev; N=4)
-<V-J>(M0V) = 2.94  (+-0.21 stdev) ; Lepine12
+(V-J)(M0V) = 3.114 (+-0.088 sem, +-0.175 stdev; N=4)
+(V-J)(M0V) = 2.94  (+-0.21 stdev) ; Lepine12
 
 (V-Jj)(M0V) = 2.71 ; Johnson65
 
 (V-Kj)(M0V) = 3.58 ; Johnson65
 
-(V-Ks)(M0V)    =  3.409 ; deprecated standard GJ 123
 (V-K_CIT)(M0V) =  3.43 ; Leggett92 "old disk" 
 (V-K_CIT)(M0V) =  3.47 ; Beuermann06
 (V-K_CIT)(M0V) =  3.47 ; Leggett92 "young disk"
-(V-Ks)(M0V)    ~ 3.55  ; sec. stan. GJ 338A (based on Johnson V-K)
-(V-Ks)(M0V)    = 3.561 ; exemplar GJ 338B 
-(V-Ks)(M0V)    = 3.570 ; exemplar GJ 839
-(V-Ks)(M0V)    = 3.617 ; ter. stan. GJ 328
-(V-K)(M0V)     = 3.642 (+-0.058 sem, +-0.284 stdev; N=12 Kirkpatrick(DwarfArchive) M0Vs)
-(V-Ks)(M0V)    = 3.65  (+-0.02) ; Fouque17 (mean for N=50)
 (V-K)(M0V)     =  3.65 ; Bessell91 "old disk"
-(V-Ks)(M0V)    = 3.655 ; trend K/M standards & exemplars
-(V-Ks)(M0V)    = 3.656 ; deprecated stan. GJ 617A = HD 147379A (original JM53 M0V standard)
-(V-Ks)(M0V)    = 3.67  ; Reid CNS3 sample M0 median value (N=48)
-(V-Ks)(M0V)    = 3.694 ; pri. stan. GJ 270
-(V-Ks)(M0V)    = 3.708 ; exemplar GJ 784 = HD 191949 = HIP 99701
+(V-K)(M0V)     =  3.65 ; Bessell88/Glass
 (V-K)(M0V)     =  3.8  ; Hawley96
-(V-Ks)(M0V)    =  3.932 ; deprecated stan. GJ 809
-(V-Ks)(M0V)    =  4.048 ; deprecated stan. GJ 686
-(V-Ks)(M0V)    =  4.064 ; deprecated stan. GJ 701
+
+
+(V-Ks)(M0V) =  3.409 ; deprecated standard GJ 123
+(V-Ks)(M0V) ~ 3.55  ; sec. stan. GJ 338A (based on Johnson V-K)
+(V-Ks)(M0V) = 3.561 ; exemplar GJ 338B 
+(V-Ks)(M0V) = 3.570 ; exemplar GJ 839
+(V-Ks)(M0V) = 3.617 ; ter. stan. GJ 328
+(V-Ks)(M0V) = 3.642 (+-0.058 sem, +-0.284 stdev; N=12 Kirkpatrick(DwarfArchive) M0Vs)
+(V-Ks)(M0V) = 3.65  (+-0.02) ; Fouque17 (mean for N=50)
+(V-Ks)(M0V) = 3.655 ; trend K/M standards & exemplars
+(V-Ks)(M0V) = 3.656 ; deprecated stan. GJ 617A = HD 147379A (original JM53 M0V standard)
+(V-Ks)(M0V) = 3.67  ; Reid CNS3 sample M0 median value (N=48)
+(V-Ks)(M0V) = 3.694 ; pri. stan. GJ 270
+(V-Ks)(M0V) =  3.694 ; Bessell88(Glass->2MASS)
+(V-Ks)(M0V) = 3.708 ; exemplar GJ 784 = HD 191949 = HIP 99701
+(V-Ks)(M0V) =  3.932 ; deprecated stan. GJ 809
+(V-Ks)(M0V) =  4.048 ; deprecated stan. GJ 686
+(V-Ks)(M0V) =  4.064 ; deprecated stan. GJ 701
 => adopt (V-Ks)(M0V) = 3.67 [last updated 10/17/2023; G-V=-0.69; G-Ks=2.98]
 => adopt (U-B)(M0V)  = 1.206
 => adopt (V-J)(M0V)  = 2.833
@@ -200,19 +205,27 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 => adopt (J-H)(M0V)  = 0.627
 => adopt (V-Hp)(M0V) = -0.085
 
-<H-K_CIT>(M0V) = 0.17 ; Beuermann06
+(J-H)(M0V) = 0.695 ; Bessell88/Glass
 
-(H-Ks)(M0V)    = 0.196 ; Reid CNS3 sample M0.0 median value (N=48)
+(J-H)(M0V) = 0.622 ; Reid CNS3 sample M0.0 median value (N=48)
+(J-H)(M0V) = 0.636 ; Bessell88(Glass->2MASS)
 
-(J-H)(M0V)     = 0.622 ; Reid CNS3 sample M0.0 median value (N=48)
+(H-K)(M0V) = 0.165 ; Bessell88/Glass
+(H-K)(M0V) = 0.17  ; Beuermann06/CIT
 
-<J-K_CIT>(M0V) = 0.85 ; Beuermann06
+(H-Ks)(M0V) = 0.192 ; Bessell88(Glass->2MASS)
+(H-Ks)(M0V) = 0.196 ; Reid CNS3 sample M0.0 median value (N=48)
 
+(J-K)(M0V) = 0.85 ; Beuermann06/CIT
+(J-K)(M0V) = 0.86 ; Bessell88/Glass
+
+(J-Ks)(M0V) = 0.825 ; Bessell88(Glass->2MASS)
 
 (G-Ks)(M0V) =  2.6059 ; HD_166348_ plx=75.7122mas M0V (GaiaDR3)
 (G-Ks)(M0V) =  2.7921 ; HD_107596_ plx=62.7385mas M0V (GaiaDR3)
 (G-Ks)(M0V) =  2.7955 ; HD_184489_ plx=69.2566mas M0V (GaiaDR3)
 (G-Ks)(M0V) =  2.8116 ; HD_19305_ plx=67.9335mas M0V (GaiaDR3)
+(G-Ks)(M0V) =   2.907 ; Bentley18 (GaiaDR2)
 (G-Ks)(M0V) = 2.909  ; exemplar GJ 839 = HIP 108092 = 
 (G-Ks)(M0V) = 2.9144 ; exemplar HD_79211_ plx=157.8825mas M0V (GaiaDR3)
 (G-Ks)(M0V) = 2.9375 ; ter. stan. GJ 328 = HIP 43790 = BD+02_2098 plx=48.7404mas M0V (GaiaDR3)
@@ -251,7 +264,7 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 
 
 (G-J)(M0V)   = 2.058 ; Bentley18
-(G-Ks)(M0V)  = 2.907 ; Bentley18
+
 (Ks-W2)(M0V) = 0.126 ; Bentley18
 (W1-W2)(M0V) = 0.013 ; Bentley18
 
@@ -260,6 +273,28 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (Ks-W1)(M0V) = 0.113 ; Bentley18
 (Ks-W1)(M0V) = 0.064 ; Avenhaus12 for V-Ks=3.65
 => adopt (Ks-W1)(M0V) = 0.12 [updated 12/29/2019]
+
+(g-G)(M0V) = 1.551 (+-0.018 sem, +-0.127 stdev) ; SIMBAD d<25pc M0 (N=74)
+(g-G)(M0V) = 1.637 (+-0.028 sem, +-0.098 stdev) ; SIMBAD d<15pc M0 (N=15)
+=> adopt (g-G)(M0V) = 1.55 [updated 6/29/2023]
+
+(g-r)(M0V) = 1.305 ; Just08/Chonis08 B-V=>g-r for B-V=1.42
+(g-r)(M0V) = 1.31  ; Covey07
+=> adopt (g-r)(M0V) = 1.305 [updated 9/1/2023]
+
+(r-i)(M0V) =  0.66 +- 0.12 (rms) ; West08
+(r-i)(M0V) =  0.688 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.92
+(r-i)(M0V) = 0.74 (+-0.14 rms) ; Cifuentes20
+=> adopt (r-i)(M0V) = 0.74 [updated 7/15/2023]
+
+(g-V)(M0V) = 0.773 ; Jordi06 B-V=>g-V for B-V=1.42
+(g-V)(M0V) = 0.777 ; Just08/Chonis08 B-V=>g-V for B-V=1.42
+=> adopt (g-V)(M0V) = 0.775 [updated 9/1/2023]
+
+(i-z)(M0V) = 0.38 +- 0.07 (rms) ; West08
+
+(z-J)(M0V) = 1.23 +- 0.19 (rms) ; West08
+
 
 (Bp-Rp)(M0V) =    1.7365 ; GJ_123 deprecated standard (GaiaDR2)
 (Bp-Rp)(M0V) =    1.79   ; Kiman19 (GaiaDR2)
@@ -341,26 +376,6 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 => adopt (G-V)(M0V)  = -0.69 [updated 11/15/2022] (GaiaDR2)
 => adopt (G-Ks)(M0V) = 3.65 + -0.69 = 2.96 [updated 11/15/2022] (GaiaDR2)
 
-(g-G)(M0V) = 1.551 (+-0.018 sem, +-0.127 stdev) ; SIMBAD d<25pc M0 (N=74)
-(g-G)(M0V) = 1.637 (+-0.028 sem, +-0.098 stdev) ; SIMBAD d<15pc M0 (N=15)
-=> adopt (g-G)(M0V) = 1.55 [updated 6/29/2023]
-
-(g-r)(M0V) = 1.305 ; Just08/Chonis08 B-V=>g-r for B-V=1.42
-(g-r)(M0V) = 1.31  ; Covey07
-=> adopt (g-r)(M0V) = 1.305 [updated 9/1/2023]
-
-(r-i)(M0V) =  0.66 +- 0.12 (rms) ; West08
-(r-i)(M0V) =  0.688 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.92
-(r-i)(M0V) = 0.74 (+-0.14 rms) ; Cifuentes20
-=> adopt (r-i)(M0V) = 0.74 [updated 7/15/2023]
-
-(g-V)(M0V) = 0.773 ; Jordi06 B-V=>g-V for B-V=1.42
-(g-V)(M0V) = 0.777 ; Just08/Chonis08 B-V=>g-V for B-V=1.42
-=> adopt (g-V)(M0V) = 0.775 [updated 9/1/2023]
-
-(i-z)(M0V) = 0.38 +- 0.07 (rms) ; West08
-
-(z-J)(M0V) = 1.23 +- 0.19 (rms) ; West08
 
 Teff(M0V) =   3655 K ; deprecated stan. GJ 701
 Teff(M0V) =   3657 K ; deprecated stan. GJ 686 (median Teff)

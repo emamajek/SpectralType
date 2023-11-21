@@ -2,16 +2,16 @@ MM6.5V
 
 Kirkpatrick(in GrayCorbally09) calls GJ 1111 the primary M6.5V standard. 
 
-Boeshaar85 standard:          GJ 1111 (G 51-15) - dM6.5 (in text)
-Turnshek85 standard:          GJ 1111 (G 51-15) - dM6.5e 
-Kirkpatrick91 standard:       LHS 523 - M6.5V (primary standard)
-		              GJ 1111 (G 51-15) - M6.5V (primary standard)
-		              LHS 191 - M6.5V (secondary standard)
-Kirkpatrick97 standard:       GJ 1111 - M6.5V 
-Henry02 standards:            GJ 1111 - M6.5V (cites Henry94)
-		              LHS 292 - M6.5V (cites Henry94)
-Henry04 standard:             GJ 1111 - M6.5V (primary standard)
-Kirkpatrick(GrayCorbally09):  GJ 1111 - M6.5V (primary standard)
+Boeshaar85 standard:         GJ 1111 (G 51-15) - dM6.5 (in text)
+Turnshek85 standard:         GJ 1111 (G 51-15) - dM6.5e 
+Kirkpatrick91 standard:      LHS 523 - M6.5V (primary standard)
+		             GJ 1111 (G 51-15) - M6.5V (primary standard)
+		             LHS 191 - M6.5V (secondary standard)
+Kirkpatrick97 standard:      GJ 1111 - M6.5V 
+Henry02 standards:           GJ 1111 - M6.5V (cites Henry94)
+		             LHS 292 - M6.5V (cites Henry94)
+Henry04 standard:            GJ 1111 - M6.5V (primary standard)
+Kirkpatrick(GrayCorbally09): GJ 1111 - M6.5V (primary standard)
 
 RECONS list shows GJ 1111 to be the nearest M6.5V star, followed by
 LHS 292 (J1048-1120).
@@ -77,12 +77,15 @@ LHS 292 (J1048-1120).
 => adopt (V-R)(M6.5V)  = 1.988 [updated 1/15/2021]
 => adopt (R-I)(M6.5V)  = 2.275 [updated 1/15/2021]
 
-(J-H)(M6.5V)  = 0.643 (+-0.011 sem, +-0.021 stdev) ; N=5 M6.5V Cruz03
+(J-H)(M6.5V) = 0.618 ; pri. stan. GJ 1111 = LHS 248 = G 51-15
+(J-H)(M6.5V) = 0.643 (+-0.011 sem, +-0.021 stdev) ; N=5 M6.5V Cruz03
 
+(H-Ks)(M6.5V) = 0.357 ; pri. stan. GJ 1111 = LHS 248 = G 51-15
 (H-Ks)(M6.5V) = 0.366 (+-0.010 sem, +-0.019 stdev) ; N=5 M6.5V Cruz03
 (H-Ks)(M6.5V) = 0.36  ; trend of Dieterich14 for V-Ks=7.60
 => adopt (H-Ks)(M6.5V) = 0.36 [updated 1/15/2021]
 
+(J-Ks)(M6.5V) = 0.975 ; pri. stan. GJ 1111 = LHS 248 = G 51-15
 (J-Ks)(M6.5V) = 1.008 (+-0.002 sem, +-0.005 stdev) ; N=5 M6.5V Cruz03
 
 (Ks-L')(M6.5V) = 0.313 ; Dupuy12 polynomial
@@ -287,15 +290,35 @@ GJ 1111 = LHS 248 = G 51-15 = DX Cnc
   M6.7: Mann15
 
   The only M6.5V in Boeshaar76's thesis, but not as a standard.
-  V=14.824+-0.023(Mermilliod91), V=14.90(Bessell83),
-  B-V=2.05(Bessell83), B-V=2.066+-0.009(Mermilliod91),
-  U-B=2.110(Mermilliod91), V-Rc=2.002(Bessell83),
-  R-Ic=2.259(Bessell83), V-Ic=4.261(Bessell83), J=8.235+-0.021(2MASS),
-  7.617+-0.018(2MASS), Ks=7.260+-0.024(2MASS).  WISE: W1=7.030+-0.031,
+  V=14.8(Bessell91), 
+  V=14.824+-0.023(Mermilliod91),
+  V=14.90(Bessell83),
+  B-V=2.05(Bessell83),
+  B-V=2.066+-0.009(Mermilliod91),
+  U-B=2.110(Mermilliod91),
+  V-Rc=2.00(Bessell91), 
+  V-Rc=2.002(Bessell83),
+  Rc=12.8(Bessell91),
+  Ic=10.54(Bessell91), 
+  R-Ic=2.259(Bessell83),
+  V-Ic=4.26(Bessell91),
+  V-Ic=4.261(Bessell83),
+  J=8.235+-0.021(2MASS),
+  J-H=0.64(Bessell91/Glass),
+  J-H=0.582(Bessell91/Glass->2MASS),
+  H=7.617+-0.018(2MASS),
+  H-K=0.37(Bessell91/Glass),
+  H-Ks=0.397(Bessell91/Glass->2MASS),
+  Ks=7.260+-0.024(2MASS),
+  K=7.26(Bessell91/Glass),
+  Ic-K=3.28(Bessell91),
+  J-Ks=0.971(Bessell91/Glass=>2MASS). 
+  V-Ks=7.564(Mermilliod,2MASS), V-Ks=7.584(Bessell91/Glass=>2MASS).
+  WISE: W1=7.030+-0.031,
   W2=6.819+-0.020, W3=6.630+-0.015, W4=6.467+-0.058.  allWISE:
   W1=6.946+-0.049, W2=6.782+-0.021, W3=6.618+-0.016, W4=6.462+-0.064.
   Ks-W1=0.230(WISE), Ks-W1=0.314(allWISE).
-  V-Ks=7.564(Mermilliod,2MASS). Leggett96 derives: flux=2.01e-12
+   Leggett96 derives: flux=2.01e-12
   W/m^2, logL=-3.09, mbol=10.26, Mbol=12.47, BCv=-4.53,
   BC_K=3.00. mbol=9.985+-0.038 (calculated using 2MASS and relations
   of Casagrande08). logL=-3.107+-0.022(Dieterich14),
