@@ -58,16 +58,16 @@ and within 1 mag of the MS (N=237):
 <V-Vt>(F5V)  =-0.051 (+-0.001 sem, +-0.011 stdev; N=237)
 <B-K>(F5V)   = 1.616 (+-0.007 sem, +-0.108 stdev; N=241)
 
-<B-V>(F5V)   = 0.467 (+-0.002 sem, +-0.028 stdev); HIP d<75pc S/N>8 N=237
+(B-V)(F5V)   = 0.467 (+-0.002 sem, +-0.028 stdev); HIP d<75pc S/N>8 N=237
 (B-V)(F5V)   =  0.45 ; Johnson63,Garrison67,Fitzgerald70,Bessell79
-<B-V>(F5V)   = 0.443 (+-0.004 sem +-0.027 stdev); Gray01/03/06 (N=54)
+(B-V)(F5V)   = 0.443 (+-0.004 sem +-0.027 stdev); Gray01/03/06 (N=54)
 (B-V)(F5V)   = 0.441 ; prim. stan. HD 27534 
 (B-V)(F5V)   =  0.44 ; JohnsonMorgan53,MorganAbt73,Schmidt-Kaler82
 (B-V)(F5V)   = 0.435 ; tert. stan. iot Peg
 (B-V)(F5V)   = 0.434 ; prim. stan. HD 27524
 (B-V)(F5V)   = 0.434 ; median for SIMBAD F5V d<25pc (N=14)
 (B-V)(F5V)   =  0.43 ; Strassmeier90 halfway between F4V (0.38) and F6V (0.48)
-<B-V>(F5V)   =  0.43 +- 0.02 ; Turner77
+(B-V)(F5V)   =  0.43 +- 0.02 ; Turner77
 (B-V)(F5V)   =  0.43 ; Johnson66,Johnson68
 (B-V)(F5V)   = 0.429 ; sec. stan. 45 Boo (near solar)
 (B-V)(F5V)   =  0.429 ; BakisEker22 
@@ -99,7 +99,6 @@ and within 1 mag of the MS (N=237):
 
 (V-Ij)(F5V) = 0.64  ; Johnson68 
 
-
 (V-Ic)(F5V) = 0.505 ; Johnson68 transformed to V-Ic via Fernie83
 (V-Ic)(F5V) = 0.512 (+-0.004 sem +-0.027 stdev); Gray01/03/06 (N=54)
 (V-Ic)(F5V) =  0.515 ; Bessell79
@@ -113,7 +112,25 @@ and within 1 mag of the MS (N=237):
 (V-Kj)(F5V) = 1.05 ; Johnson68
 (V-Kj)(F5V) = 1.07 ; Johnson66
 
-(V-Ks)(F5V)  = 1.170 ; exemplar HD 15798 = sig Cet 
+(V-K)(F5V)  = 1.10 ; Bessell88/Glass
+
+(V-Ks)(F5V) = 1.144 ; Bessell88(Glass->2MASS)
+(V-Ks)(F5V) = 1.170 ; exemplar HD 15798 = sig Cet
+
+(J-H)(F5V) = 0.23 ; Bessell88/Glass
+
+(J-H)(F5V) = 0.180 ; Bessell88(Glass->2MASS)
+
+(H-K)(F5V) = 0.04 ; Bessell88/Glass
+
+(H-Ks)(F5V) = 0.068 ; Bessell88(Glass->2MASS)
+
+(J-K)(F5V)  = 0.27 ; Bessell88/Glass
+
+(J-Ks)(F5V) = 0.251 ; Bessell88(Glass->2MASS)
+
+(Ks-W1)(F5V) = 0.052 ; EEM trend for d<30pc for B-V=0.440
+=> adopt (Ks-W1)(F5V) = 0.052 [updated 12/29/2019]
 
 (G-V)(F5V) =   -0.13    ; HD_108807_ F5V
 (G-V)(F5V) =   -0.13    ; HD_128787_ F5V_
@@ -181,9 +198,6 @@ and within 1 mag of the MS (N=237):
 (G-Rp)(F5V) =  0.3459  ; HD_27534
 (G-Rp)(F5V) = 0.363    ; color trend for B-V=0.44
 => adopt (G-Rp)(F5V) = 0.36 [updated 11/18/2020]
-
-(Ks-W1)(F5V) = 0.052 ; EEM trend for d<30pc for B-V=0.440
-=> adopt (Ks-W1)(F5V) = 0.052 [updated 12/29/2019]
 
 (g-V)(F5V) = 0.152 ; Jordi06 B-V=>g-V for B-V=0.44
 => adopt (g-V)(F5V) = 0.152 [updated 9/1/2023]
@@ -456,8 +470,8 @@ Morgan65 classifies four Hyads as F5V: HD 27524, 28568, 28911, 29225.
 
 RECONS list shows Procyon (J0739+0513) as the nearest F5IV-V star. 
 
-*but* <B-V>(3 standards) ~ 0.43 , whereas 
-              <B-V>(HIP) = 0.465!
+*but* (B-V)(3 standards) ~ 0.43 , whereas 
+              (B-V)(HIP) = 0.465!
 
 HD 76943 = 10 UMa
    F5V: JM53(non-stan)

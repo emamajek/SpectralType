@@ -263,6 +263,7 @@ Rad(G5V) = 1.011  Rsun ; Challouf14 calibration for Mv=4.98, M_Ks=3.345
 Rad(G5V) = 0.9773 Rsun ; logL=-0.054, Teff=5660K
 => adopt Rad(G5V) = 0.977 Rsun [updated 9/26/2020]
 
+Mass(G5V) = 1.065+-0.018Msun ; Hyad vB 120 Aa = HD 30712 Aa ([Fe/H]=+0.18)
 Mass(G5V) =  0.987 Msun ; Eker15 calibration for logL=-0.054
 Mass(G5V) =  0.983 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.0)
 Mass(G5V) =  0.983 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.054)
@@ -459,4 +460,23 @@ HD 222595 = HIP 116937
 
   Solar metallicity in PASTEL/Soubiran22: Teff=5655+-21K, logg=4.47+-0.05, [Fe/H]=0.02+-0.03.
 
+HD 30712 = HIP 22505 = Cl Melotte 25 120 = vB 120 = Gaia DR3 3404812685132622592
+  G5V: Wilson48(G5),Joy49,Wilson63
 
+  Well-characterized Porb=5.7yr astrometric-spectroscopic binary
+  system in the Hyades cluster ([Fe/H]~+0.18), see Torres23
+  (https://arxiv.org/abs/2311.05036). No modern spectral types, but
+  the three old ones all agree on G5V and the Teff for the primary
+  estimated by Torres23 (Teff(A)=5656+-56K) is spot on for G5V star.
+  Torres23 parameters for pair: Teff(A)=5656+-56K, Teff(B)=5489+-60K,
+  Rad(A)=0.968+-0.012Rsun, R(B)=0.878+-0.013(Rsun),
+  Mass(A)=1.065+-0.108Msun, Mass(B)=1.008+-0.016Msun,
+  E(B-V)=0.0047+-0.0053, orbital parallax = plx=21.86+-0.15mas, which
+  is more accurate than the published trig parallaxes (e.g. GaiaDR3).
+  Based on the Teffs, the pair are consistent with ~G5V + ~G8V. Torres
+  adopts del(K)=0.25+-0.03 and del(V)=0.37+-0.11mag based on their
+  observations and including Griffin12. Torres23 adoptes Hyades values
+  of [Fe/H]=+0.18(Dutra-Ferriera16) and 750Myr (BrandtHuang15) in
+  their analysis.
+  
+  

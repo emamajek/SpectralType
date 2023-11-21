@@ -20,16 +20,16 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 (B-V)(G6V) =  0.72  ; Fitzgerald70
 (B-V)(G6V) = 0.716 ; non-stan. HD 18803
 (B-V)(G6V) = 0.715 ; median SIMBAD G6V d<25pc (N=7)
-<B-V>(G6V) = 0.712 (+-0.003 sem, +-0.034 stdev; HIP d<75pc S/N>8 N=141)
+(B-V)(G6V) = 0.712 (+-0.003 sem, +-0.034 stdev; HIP d<75pc S/N>8 N=141)
 (B-V)(G6V) = 0.711 ; deprecated stan. 82 Eri
 (B-V)(G6V) = 0.71  ; exemplar HD 28255B 
 (B-V)(G6V) =  0.71  ; Strassmeier90
-<B-V>(G6V) =  0.70 ; Bessell79
+(B-V)(G6V) =  0.70 ; Bessell79
 (B-V)(G6V) = 0.700 ; exemplar HD 54371 
 (B-V)(G6V) = 0.697 (+-0.014 sem, +-0.045 stdev; med. 12 ARICNS G6V stars
 (B-V)(G6V) = 0.696 ; interp G5V(B-V=0.68),G8V(B-V=0.73)
 (B-V)(G6V) = 0.695 ; HD 26913 = HIP 19855 (Koen10) ~solar
-<B-V>(G6V) = 0.693 (+-0.005 sem, +-0.024 stdev; Gray01/03/06 N=22)
+(B-V)(G6V) = 0.693 (+-0.005 sem, +-0.024 stdev; Gray01/03/06 N=22)
 (B-V)(G6V) = 0.692 ; exemplar HD 171067 (solar metallicity)
 (B-V)(G6V) = 0.68  ; median CATSUP d<30pc (N=11)
 (B-V)(G6V) =  0.68  ; KenyonHartmann95
@@ -47,10 +47,59 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 (U-B)(G6V) = 0.262 ; HD 54371 = HIP 34567 (Koen10) ~solar
 => adopt (U-B)(G5V) = 0.231 [updated 9/1/2023]
 
-(V-Ks)(G6V) =  1.660 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.700
+
+(V-Rc)(G6V) =  0.368 ; HIP 3979 (Koen10)
+(V-Rc)(G6V) =  0.377 ; HIP 102264 (Koen10)
+(V-Rc)(G6V) = 0.381 ; HD 26913 = HIP 19855 (Koen10) ~solar
+(V-Rc)(G6V) = 0.384 ; trend B-V vs V-Rc for B-V=0.700
+(V-Rc)(G6V) = 0.391 ; HD 54371 = HIP 34567 (Koen10) ~solar
+=> adopt (V-Rc)(G6V) = 0.38 [updated 9/15/2023]
+
+(V-Ic)(G6V) =  0.720 ; HIP 3979 (Koen10)
+(V-Ic)(G6V) =  0.731 ; HIP 102264 (Koen10)
+(V-Ic)(G6V) = 0.740 ; HD 26913 = HIP 19855 (Koen10) ~solar
+(V-Ic)(G6V) = 0.748 (+-0.005 sem, +-0.023 stdev; Gray01/03/06 N=22)
+(V-Ic)(G6V) = 0.750 ; trend B-V vs V-Ic for B-V=0.700
+(V-Ic)(G6V) =  0.75 ; Bessell88
+(V-Ic)(G6V) = 0.760 ; HD 54371 = HIP 34567 (Koen10) ~solar
+(V-Ic)(G6V) =  0.760 ; Bessell79
+(V-Ic)(G6V) = 0.763 (+-0.004 sem, +-0.026 stdev; HIP d<75pc S/N>8 N=141)
+=> adopt (V-Ic)(G6V)  = 0.75  [updated 1/15/2023]
+=> adopt (Rc-Ic)(G6V) = 0.37  [updated 1/15/2023; V-Ic=0.75, V-Rc=0.38]
+
+(R-Ic)(G6V) = 0.364 ; Bessell79
+
+(J-H)(G6V) = 0.37 ; Bessell88/Glass
+ 
+(J-H)(G6V) = 0.318 ; Bessell88(Glass->2MASS)
+
+(H-K)(G6V) = 0.06 ; Bessell88/Glass
+
+(H-Ks)(G6V) = 0.088 ; Bessell88(Glass->2MASS)
+
+(J-K)(G6V) = 0.43 ; Bessell88/Glass
+
+(J-Ks)(G6V) = 0.407 ; Bessell88(Glass->2MASS)
+
+(V-Ks)(G6V) = 1.660+-0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.700
+(V-Ks)(G6V) = 1.684 ; Bessell88(Glass->2MASS)
 
 (Ks-W1)(G6V) = 0.063 ; EEM trend for d<30pc for B-V=0.70
 => adopt (Ks-W1)(G6V) = 0.063 [updated 12/29/2019]
+
+(g-r)(G6V) = 0.514 ; Jordi06 (V-R)=>(g-r) for V-R=0.388
+(g-r)(G6V) = 0.517 ; Covey07 interp G5V-G8V
+(g-r)(G6V) = 0.518 ; Just08/Chonis08 B-V=>g-r for B-V=0.70
+(g-r)(G6V) = 0.535 ; Bilir05 (B-V)=>(g-r) for B-V=0.700
+=> adopt (g-r)(G6V) = 0.52 [updated 9/1/2023]
+
+(r-i)(G6V) = 0.145 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.37
+=> adopt (r-i)(G6V) = 0.145 [updated 9/1/2023]
+
+(g-V)(G6V) = 0.314 ; Just08/Chonis08 B-V=>g-V for B-V=0.70
+(g-V)(G6V) = 0.317 ; Jordi06 B-V=>g-V for B-V=0.70
+=> adopt (g-V)(G6V) = 0.315 [updated 9/1/2023]
+
 
 (G-V)(G6V) =  -0.204 ; * e Eri G6V
 (G-V)(G6V) =  -0.193 ; HD 128400 PM* G6V
@@ -101,26 +150,6 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 (G-Rp)(G6V) =  0.511   ; color trend for B-V=0.70
 => adopt (G-Rp)(G6V) = 0.48 [updated 11/15/2020]
 
-(V-Rc)(G6V) =  0.368 ; HIP 3979 (Koen10)
-(V-Rc)(G6V) =  0.377 ; HIP 102264 (Koen10)
-(V-Rc)(G6V) = 0.381 ; HD 26913 = HIP 19855 (Koen10) ~solar
-(V-Rc)(G6V) = 0.384 ; trend B-V vs V-Rc for B-V=0.700
-(V-Rc)(G6V) = 0.391 ; HD 54371 = HIP 34567 (Koen10) ~solar
-=> adopt (V-Rc)(G6V) = 0.38 [updated 9/15/2023]
-
-(V-Ic)(G6V) =  0.720 ; HIP 3979 (Koen10)
-(V-Ic)(G6V) =  0.731 ; HIP 102264 (Koen10)
-(V-Ic)(G6V) = 0.740 ; HD 26913 = HIP 19855 (Koen10) ~solar
-<V-Ic>(G6V) = 0.748 (+-0.005 sem, +-0.023 stdev; Gray01/03/06 N=22)
-(V-Ic)(G6V) = 0.750 ; trend B-V vs V-Ic for B-V=0.700
-(V-Ic)(G6V) = 0.760 ; HD 54371 = HIP 34567 (Koen10) ~solar
-<V-Ic>(G6V) =  0.760 ; Bessell79
-<V-Ic>(G6V) = 0.763 (+-0.004 sem, +-0.026 stdev; HIP d<75pc S/N>8 N=141)
-=> adopt (V-Ic)(G6V)  = 0.75  [updated 1/15/2023]
-=> adopt (Rc-Ic)(G6V) = 0.37  [updated 1/15/2023; V-Ic=0.75, V-Rc=0.38]
-
-<R-Ic>(G6V) = 0.364 ; Bessell79
-
 <V-J>(G6V)  = 1.285 (+-0.005 sem, +-0.054 stdev; HIP d<75pc S/N>8 N=141)
 <V-H>(G6V)  = 1.617 (+-0.007 sem, +-0.072 stdev; HIP d<75pc S/N>8 N=141)
 <V-Ks>(G6V) = 1.709 (+-0.008 sem, +-0.076 stdev; HIP d<75pc S/N>8 N=141)
@@ -130,18 +159,6 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 <V-Vt>(G6V)  =-0.077 (+-0.002 sem, +-0.018 stdev; HIP d<75pc S/N>8 N=141) 
 <B-K>(G6V)   = 2.423 (+-0.010 sem, +-0.098 stdev; HIP d<75pc S/N>8 N=141)
 
-(g-r)(G6V) = 0.514 ; Jordi06 (V-R)=>(g-r) for V-R=0.388
-(g-r)(G6V) = 0.517 ; Covey07 interp G5V-G8V
-(g-r)(G6V) = 0.518 ; Just08/Chonis08 B-V=>g-r for B-V=0.70
-(g-r)(G6V) = 0.535 ; Bilir05 (B-V)=>(g-r) for B-V=0.700
-=> adopt (g-r)(G6V) = 0.52 [updated 9/1/2023]
-
-(r-i)(G6V) = 0.145 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.37
-=> adopt (r-i)(G6V) = 0.145 [updated 9/1/2023]
-
-(g-V)(G6V) = 0.314 ; Just08/Chonis08 B-V=>g-V for B-V=0.70
-(g-V)(G6V) = 0.317 ; Jordi06 B-V=>g-V for B-V=0.70
-=> adopt (g-V)(G6V) = 0.315 [updated 9/1/2023]
 
 Teff(G6V) =  5434 K ; deprecated stan. 82 Eri
 Teff(G6V) =  5476 K ; Boyajian12

@@ -58,11 +58,11 @@ and within 1 mag of the MS (N=13):
 (B-V)(G4V) =  0.64  ; KenyonHartmann95
 (B-V)(G4V) = 0.647 (+-0.011 sem,+-0.026 stdev); med. of 13 ARICNS G4V stars
 (B-V)(G4V) =  0.66  ; Fitzgerald70
-<B-V>(G4V) = 0.663 ; 13 HIP d<75pc (+-0.013 sem, +-0.034 stdev)
+(B-V)(G4V) = 0.663 ; 13 HIP d<75pc (+-0.013 sem, +-0.034 stdev)
 (B-V)(G4V) =  0.665 ; Morgan71(halfway_G3V_G5V)
 (B-V)(G4V) = 0.67  ; interp between G2V (0.65) and G5V (0.68)
 (B-V)(G4V) = 0.676 ; median SIMBAD G4V d<25pc (N=8)
-<B-V>(G4V) = 0.684 ; 16 Gray01/03/06 (+-0.006 sem, +-0.022 stdev)
+(B-V)(G4V) = 0.684 ; 16 Gray01/03/06 (+-0.006 sem, +-0.022 stdev)
 (B-V)(G4V) = 0.685 ; trend Gray G4Vs xHIP [Fe/H] vs. B-V 
 (B-V)(G4V) = 0.687 ; exemplar HD 171665 = HIP 91287 ([Fe/H]=-0.03)
 (B-V)(G4V) = 0.70  ; median CATSUP d<30pc N=4
@@ -77,12 +77,6 @@ and within 1 mag of the MS (N=13):
 => adopt (H-Ks)(G4V) = 0.075
 => adopt (J-H)(G4V)  = 0.304
 
-(V-Ks)(G4V) = 1.593 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.670
-(V-Ks)(G4V) = 1.611 ; color trend for B-V=0.67 
-(V-Ks)(G4V) = 1.619 ; exemplar HD 171665 = GJ 9630 
-(V-Ks)(G4V) = 1.638 ; exemplar HD 207700 = HIP 108158
-=> adopt (V-Ks)(G4V) = 1.611 [updated 12/29/2020]
-
 (U-B)(G4V)  = 0.185 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.67
 => adopt (U-B)(G4V) = 0.185 [updated 9/1/2023]
 
@@ -95,8 +89,43 @@ and within 1 mag of the MS (N=13):
 => adopt (V-Ic)(G4V)  = 0.713 [updated 1/15/2023]
 => adopt (Rc-Ic)(G4V) = 0.355 [updated 1/15/2023; V-Ic=0.725, V-Rc=0.370]
 
+(V-K)(G4V) = 1.53 ; Bessell88/Glass 
+
+(V-Ks)(G4V) =  1.574 ; Bessell88(Glass->2MASS)
+(V-Ks)(G4V) = 1.593 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.670
+(V-Ks)(G4V) = 1.611 ; color trend for B-V=0.67 
+(V-Ks)(G4V) = 1.619 ; exemplar HD 171665 = GJ 9630 
+(V-Ks)(G4V) = 1.638 ; exemplar HD 207700 = HIP 108158
+=> adopt (V-Ks)(G4V) = 1.611 [updated 12/29/2020]
+
+(J-H)(G4V) = 0.33  ; Bessell88/Glass
+
+(J-H)(G4V) = 0.278 ; Bessell88(Glass->2MASS)
+
+(H-K)(G4V) = 0.055 ; Bessell88/Glass
+
+(H-Ks)(G4V) = 0.083 ; Bessell88(Glass->2MASS)
+
+(J-K)(G4V) = 0.385 ; Bessell88/Glass
+
+(J-Ks)(G4V) = 0.363 ; Bessell88(Glass->2MASS)
+
 (Ks-W1)(G4V) = 0.062 ; EEM trend for d<30pc for B-V=0.67
 => adopt (Ks-W1)(G4V) = 0.062 [updated 12/29/2019]
+
+(g-r)(G4V) =  0.477 ; Covey07 interp G2V-G5V
+(g-r)(G4V) = 0.485 ; Just08/Chonis08 B-V=>g-r for B-V=0.670
+(g-r)(G4V) = 0.489 ; Jordi06 (V-R)=>(g-r) for V-R=0.372
+(g-r)(G4V) = 0.501 ; Bilir05 (B-V)=>(g-r) for B-V=0.670
+=> adopt (g-r)(G4V) = 0.489 [updated 9/1/2023]
+
+(r-i)(G4V) = 0.131 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.356
+=> adopt (r-i)(G4V) = 0.131 [updated 9/1/2023]
+
+(g-V)(G4V) = 0.295 ; Just08/Chonis08 B-V=>g-V for B-V=0.67
+(g-V)(G4V) = 0.298 ; Jordi06 B-V=>g-V for B-V=0.67
+=> adopt (g-V)(G4V) = 0.296 [updated 9/1/2023]
+
 
 (Bp-Rp)(G3V) =   0.83   ; G3V adopted
 (Bp-Rp)(G4V) = 0.846   ; color trend for B-V=0.67
@@ -148,18 +177,6 @@ and within 1 mag of the MS (N=13):
 (G-V)(G4V) =  -0.086 ; HD 224465 PM* G4V
 => adopt (G-V)(G4V) = -0.173 [updated 11/1/2020]
 
-(g-r)(G4V) =  0.477 ; Covey07 interp G2V-G5V
-(g-r)(G4V) = 0.485 ; Just08/Chonis08 B-V=>g-r for B-V=0.670
-(g-r)(G4V) = 0.489 ; Jordi06 (V-R)=>(g-r) for V-R=0.372
-(g-r)(G4V) = 0.501 ; Bilir05 (B-V)=>(g-r) for B-V=0.670
-=> adopt (g-r)(G4V) = 0.489 [updated 9/1/2023]
-
-(r-i)(G4V) = 0.131 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.356
-=> adopt (r-i)(G4V) = 0.131 [updated 9/1/2023]
-
-(g-V)(G4V) = 0.295 ; Just08/Chonis08 B-V=>g-V for B-V=0.67
-(g-V)(G4V) = 0.298 ; Jordi06 B-V=>g-V for B-V=0.67
-=> adopt (g-V)(G4V) = 0.296 [updated 9/1/2023]
 
 
 Teff(G4V) =  5533 K ; weak stan. 70 Vir (PASTEL, see below)

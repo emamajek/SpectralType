@@ -188,7 +188,10 @@ to be somewhat redder than that for the other standards.
 (V-Kj)(G2V) = 1.46 ; Johnson68
 (V-Kj)(G2V) = 1.539+-0.025 ; B-V vs. V-K(Ducati/Johnson) for XHIP d<50pc G Vs (-0.1<[Fe/H]<0.1) for B-V=0.650
 
-(V-Ks)(G2V)  =  1.497 ; solar twin HD 139777 = pi01 UMa 
+(V-K)(G2V) = 1.46 ; Bessell88/Glass 
+
+(V-Ks)(G2V)  =  1.497 ; solar twin HD 139777 = pi01 UMa
+(V-Ks)(G2V)  =   1.504 ; Bessell88(Glass->2MASS)
 (V-Ks)(G2V)  =  1.511 ; solar twin HD 195034 = HIP 100963
 (V-Ks)(G2V)  =  1.515 ; solar twin HD 101364 = HIP 56948
 (V-Ks)(G2V)  =  1.541 ; solar twin HD 216008 = HIP 112730
@@ -202,6 +205,42 @@ to be somewhat redder than that for the other standards.
 (V-Ks)(G2V)  =  1.570 ; solar twin HD 138573 = HIP 76114
 (V-Ks)(G2V)  =  1.571 +- 0.007 (+-0.035 1sig) ; 23 Gray06 "G2 V" stars
 => adopt (V-Ks)(G2V) = 1.55 [updated 10/6/2023]
+
+(J-H)(G2V) = 0.32 ; Bessell88/Glass
+
+(J-H)(G2V) = 0.269 ; Bessell88(Glass->2MASS)
+
+(H-K)(G2V) = 0.052 ; Bessell88/Glass
+
+(H-Ks)(G2V) = 0.080 ; Bessell88(Glass->2MASS)
+
+(J-K)(G2V) = 0.37 ; Bessell88/Glass
+
+(J-Ks)(G2V) = 0.349 ; Bessell88(Glass->2MASS)
+
+(Ks-W1)(G2V) = 0.061 ; EEM trend for d<30pc for B-V=0.65
+=> adopt (Ks-W1)(G2V) = 0.061 [updated 12/29/2019]
+
+(u-g)(G2V) = 1.43+-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+=> adopt (u-g)(G2V) = 1.43 [updated 9/1/2023]
+
+(g-r)(G2V) = 0.44+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
+(g-r)(G2V) = 0.463 ; Just08/Chonis08 B-V=>g-r for B-V=0.650
+(g-r)(G2V) = 0.474 ; Jordi06 (V-R)=>(g-r) for V-R=0.363
+(g-r)(G2V) = 0.479 ; Bilir05 (B-V)=>(g-r) for B-V=0.650
+=> adopt (g-r)(G2V) = 0.46 [updated 9/1/2023]
+
+(r-i)(G2V) = 0.11+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
+(r-i)(G2V) = 0.111 ; Jordi06 (Rc-Ic=0.345 => r-i)
+=> adopt (r-i)(G2V) = 0.111 [updated 9/1/2023]
+
+(i-z)(G2V) = 0.03+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+=> adopt (i-z)(G2V) = 0.03 [updated 9/1/2023]
+
+(g-V)(G2V) = 0.282 ; Just08/Chonis08 B-V=>g-V for B-V=0.650
+(g-V)(G2V) = 0.285 ; Jordi06 B-V=>g-V for B-V=0.650
+=> adopt (g-V)(G2V) = 0.283 [updated 9/1/2023]
+
 
 (G-V)(G2V) = -0.100  ; solar twin HD 139777 = pi01 UMa (very active) (GaiaDR3)
 (G-V)(G2V) = -0.1298 ; *_ksi_UMa_B_ G2V plx=114.4867 mas (GaiaDR3)
@@ -290,30 +329,6 @@ to be somewhat redder than that for the other standards.
 => adopt (G-Rp)(G2V) = 0.466 [updated 11/22/2020] (GaiaDR2)
 => adopt (G-Rp)(G2V) = 0.490 [updated 7/16/2023] (GaiaDR3)
 
-
-(Ks-W1)(G2V) = 0.061 ; EEM trend for d<30pc for B-V=0.65
-=> adopt (Ks-W1)(G2V) = 0.061 [updated 12/29/2019]
-
-
-(u-g)(G2V) = 1.43+-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
-=> adopt (u-g)(G2V) = 1.43 [updated 9/1/2023]
-
-(g-r)(G2V) = 0.44+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
-(g-r)(G2V) = 0.463 ; Just08/Chonis08 B-V=>g-r for B-V=0.650
-(g-r)(G2V) = 0.474 ; Jordi06 (V-R)=>(g-r) for V-R=0.363
-(g-r)(G2V) = 0.479 ; Bilir05 (B-V)=>(g-r) for B-V=0.650
-=> adopt (g-r)(G2V) = 0.46 [updated 9/1/2023]
-
-(r-i)(G2V) = 0.11+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
-(r-i)(G2V) = 0.111 ; Jordi06 (Rc-Ic=0.345 => r-i)
-=> adopt (r-i)(G2V) = 0.111 [updated 9/1/2023]
-
-(i-z)(G2V) = 0.03+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
-=> adopt (i-z)(G2V) = 0.03 [updated 9/1/2023]
-
-(g-V)(G2V) = 0.282 ; Just08/Chonis08 B-V=>g-V for B-V=0.650
-(g-V)(G2V) = 0.285 ; Jordi06 B-V=>g-V for B-V=0.650
-=> adopt (g-V)(G2V) = 0.283 [updated 9/1/2023]
 
 Teff(G2V) =   5710 K ; GrayCorbally94
 Teff(G2V) = 5748 K ; 23 Teffs for "G2 V" stars in Gray06
@@ -451,7 +466,7 @@ MK43 and Wilson62 do not list a G2V standard.
 ### Primary Standard
 
 Sun = GJ 0 
- *G2V: JM53,Morgan65,Morgan71,MK73(moon,dagger),Keenan76,Keenan80,Keenan83,Keenan85,Strassmeier90,Keenan91,Garrison94,GrayNstars,GrayCorbally14
+ *G2V: JM53,Johnson65,Morgan65,Morgan71,MK73(moon,dagger),Keenan76,Keenan80,Keenan83,Keenan85,Strassmeier90,Keenan91,Garrison94,GrayNstars,GrayCorbally14
 
   G2V anchor standard according to Garrison94. Just don't stare at
   it. Authors usually mention using a spectrum of either the moon or
@@ -476,13 +491,21 @@ Sun = GJ 0
   4.830(predicted), BCv=-0.090(Maiz-Appellanix06 calibration). Reike23
   adopts an average based on historical values of
   Vmag(Sun)=-26.740+-0.02 (taking into account Nikinov49, Kariagina55,
-  Stebbins57, Gallouet64, Lockwood92, Willmer18) => consistent
-  with absolute mag Mv=4.832+-0.02. Given the IAU(2015)
-  definition of the apparent mbol for the Sun (tied to the irradiance
-  1361 W/m2) => mbol = -26.832, the BCv = mbol - mv = -26.832 -
-  -26.74+-0.02 => the Rieke23 adopted Vmag(Sun) is consistent with BCv
-  = -0.092+-0.02, which is consistent with what we've adopted in our
-  table (BCv(Sun)=-0.085) and throughout our luminosity estimates.
+  Stebbins57, Gallouet64, Lockwood92, Willmer18) => consistent with
+  absolute mag Mv=4.832+-0.02. Given the IAU(2015) definition of the
+  apparent mbol for the Sun (tied to the irradiance 1361 W/m2) => mbol
+  = -26.832, the BCv = mbol - mv = -26.832 - -26.74+-0.02 => the
+  Rieke23 adopted Vmag(Sun) is consistent with BCv = -0.092+-0.02,
+  which is consistent with what we've adopted in our table
+  (BCv(Sun)=-0.085) and throughout our luminosity estimates.
+  Johnson65: V=-26.74, U-V=0.70, U-B=0.06, B-V=0.64, V-R=0.62,
+  V-I=0.78, V-J=1.06, V-K=1.41, V-L=1.53, V-M=1.40,
+  V-N=1.46. Johnson65 summarizes Vmags reported up until that time:
+  V=-26.73+-0.03(StebbinsKron57), V=-26.70+-0.01(Gallouet64),
+  V=-26.83+-0.06(Kariagina55), V=-26.81+-0.07(Nikinov49),
+  V=-26.77+-0.08(Willstrop60), V=-26.74+-0.05(Code60),
+  V=-26.74+-0.01(Johnson65,adopted based on the previously published 6
+  values).
 
 ### Secondary Standards
 
@@ -565,7 +588,7 @@ HD 146233 = 18 Sco = GJ 616 = HR 6060 = HIP 79672
 
 ### Tertiary Standards
 
-HD 76151 = HR 3538 = GJ 327 = HIP 43726 = SPOCS 410 = Gaia DR3 5760701787150565888 
+HD 76151 = GJ 327 = HIP 43726 = HR 3538 = SPOCS 410 = Gaia DR3 5760701787150565888 
  *G2V: Keenan85,Keenan88,Keenan99,Gray01,GrayNstars(stan)
   G3V: Popper43,Joy47,Keenan80(stan),Keenan83(stan)
   G3/5V: Houk99(q=2)
@@ -862,8 +885,6 @@ HD 167060 = HIP 89650 = 2MASS J18174414-6142317 = Gaia DR3 6634011506225360640
   G=8.785940+-0.002762(GaiaDR3).  Absolute magnitudes adopting
   plx=13.6204+-0.0150(GaiaDR3) => M_G = 4.457+-0.004, Mv =
   4.614+-0.002 (~0.2 mag brighter than Sun), M_Ks = 3.102+-0.033.
-
-
 
 HD 71334 = HIP 41317 
 
