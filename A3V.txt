@@ -135,6 +135,9 @@ significantly redder than most A3V stars.
 (Ks-W1)(A3V) = 0.045 ; EEM trend for d<30pc for B-V=0.10
 => adopt (Ks-W1)(A3V) = 0.045 [updated 12/29/2019]
 
+(b-y)(A3V) = 0.054 (+-0.021 stdev) ; A3V-III (0 < vsini < 150 km/s for <vsini>=83km/s; GrayGarrison89)
+(b-y)(A3V) = 0.066 (+-0.066 stdev) ; A3V-III (150 < vsini < 350 km/s for <vsini>=202km/s; GrayGarrison89)
+
 (G-V)(A3V) =  -0.061 ; * 100 Her B A3V
 (G-V)(A3V) =  -0.047 ; HD 88480 * A3V
 (G-V)(A3V) =  -0.027 ; HD 50445 PM* A3V
@@ -151,8 +154,6 @@ significantly redder than most A3V stars.
 (G-V)(A3V) =   0.006 ; * eps01 Lyr A A3V
 (G-V)(A3V) =   0.008 ; * l Per PM* A3V
 => adopt (G-V)(A3V) = -0.005 [updated 4/8/2022]
-
-
 
 Teff(A3V) =  8830 K ; Habets81
 Teff(A3V) =  8720 K ; Schmidt-Kaler82
@@ -260,11 +261,13 @@ HD 216956 = alf PsA = GJ 881 = HR 8728
   motion companion with K4V standard TW PsA (Fomalhaut B) and
   Mamajek13 reports tertiary Fomalhaut C (M4V). No astrometry in Gaia
   DR2 or EDR3. plx=129.81+-0.47mas(HIP2).  V=1.15(Bessel90),
-  V=1.155+-0.005(Mermilliod91), V=1.17(HIP), B-V=0.09(Bessel90),
-  B-V=0.094+-0.005(Mermilliod91), B-V=0.145+-0.011(HIP),
-  U-B=0.100+-0.037(Mermilliod91), V-Rc=0.055(Bessell90),
-  R-Ic=0.025(Bessell90), V-Ic=0.080(Bessell90), V-I=0.16+-0.01(HIP).
-  Mamajek12 derives the following parameters: Radius=1.842+-0.019
+  V=1.155+-0.005(Mermilliod91), V=1.155(GCPD/Cousins76_VRIc),
+  V=1.17(HIP), B-V=0.09(Bessel90), B-V=0.094+-0.005(Mermilliod91),
+  B-V=0.145+-0.011(HIP), U-B=0.100+-0.037(Mermilliod91),
+  V-Rc=0.055(Bessell90,GCPD/Cousins76_VRIc),
+  R-Ic=0.025(Bessell90,GCPD/Cousins76_VRIc), V-Ic=0.080(Bessell90)
+  V-Ic=0.078(GCPD/Cousins76_VRIc), V-Ic=0.16+-0.01(HIP).  Mamajek12
+  derives the following parameters: Radius=1.842+-0.019
   Rsun. logL=1.221+-0.013.  Mass=1.92+-0.02Msun. Age=440+-40
   Myr. Teffs: 7671K(Luck17), 8399K(Gray06), 8459K(Boyajian12),
   8500K(Dunkin97), 8590+-73K(Mamajek12), 8610K(Zorec12),
@@ -318,21 +321,23 @@ HD 135379 = bet Cir = GJ 580.1 = HIP 74824 = HR 5670
   Gray06. Member of Argus group? (Ujjwal20). Mittal15: IR excess
   L_IR/L_star = 5.40e-5.  plx=33.75+-0.75mas(HIP),
   plx=32.73+-0.19mas(HIP2).  V=4.07(HIP),
-  V=4.061+-0.011(Mermilliod91), B-V=0.088+-0.007(HIP),
-  B-V=0.09(Bessel90), B-V=0.092+-0.008(Mermilliod91),
-  B-V=0.101+-0.003(TYC), U-B=0.084+-0.005(Mermilliod91)
-  V-Rc=0.035(Bessel90), R-Ic=0.050(Bessel90), V-Ic=0.08+-0.02(HIP),
-  V-Ic=0.085(Bessel90).  Teffs: 7694K(Ballering17), 8213K(GaiaDR2),
-  8565K(Blackwell98), 8581K(Stassun18), 8641K(Gray06),
-  8670K(Andrievsky02), 8689K(Erspamer03), 8750K(Mittal15,Chen14),
-  8857K(diBenedetto98), 8962K(David15) => <Teff> =
-  8656K. logg=4.2+-0.2(Andrievsky02), logg=4.21(Erspamer03),
-  [Fe/H]=0.12+-0.19(Andrievsky02), [Fe/H]=0.2(Erspamer03),
-  [Fe/H]=0.22+-0.06(Gaspar13).  Mv=1.64. Age=166Myr(Mittal15),
-  465Myr(David15,avg), 536Myr(Nielsen19).
-  Mass=1.93Msun(Nielsen19). Luminosity: V=4.061, plx=32.73mas,
-  Av=0.00, BCv=-0.04 => Mv=1.64, Mbol=1.60, logL=1.258 => w/Teff=8656K
-  => Rad=1.892Rsun.
+  V=4.061+-0.011(Mermilliod91), V=4.065(GCPD/Cousins76_VRIc),
+  B-V=0.088+-0.007(HIP), B-V=0.09(Bessel90),
+  B-V=0.092+-0.008(Mermilliod91), B-V=0.101+-0.003(TYC),
+  U-B=0.084+-0.005(Mermilliod91)
+  V-Rc=0.035(Bessel90,GCPD/Cousins76_VRIc), R-Ic=0.050(Bessel90),
+  R-Ic=0.048(GCPD/Cousins76_VRIc), V-Ic=0.08+-0.02(HIP),
+  V-Ic=0.085(Bessel90), V-Ic=0.083(GCPD/Cousins76_VRIc).  Teffs:
+  7694K(Ballering17), 8213K(GaiaDR2), 8565K(Blackwell98),
+  8581K(Stassun18), 8641K(Gray06), 8670K(Andrievsky02),
+  8689K(Erspamer03), 8750K(Mittal15,Chen14), 8857K(diBenedetto98),
+  8962K(David15) => <Teff> = 8656K. logg=4.2+-0.2(Andrievsky02),
+  logg=4.21(Erspamer03), [Fe/H]=0.12+-0.19(Andrievsky02),
+  [Fe/H]=0.2(Erspamer03), [Fe/H]=0.22+-0.06(Gaspar13).
+  Mv=1.64. Age=166Myr(Mittal15), 465Myr(David15,avg),
+  536Myr(Nielsen19).  Mass=1.93Msun(Nielsen19). Luminosity: V=4.061,
+  plx=32.73mas, Av=0.00, BCv=-0.04 => Mv=1.64, Mbol=1.60, logL=1.258
+  => w/Teff=8656K => Rad=1.892Rsun.
   
 # Tertiary Standards:
 
@@ -400,18 +405,21 @@ BD+48_944 = Cl Melotte 20 970 = HIP 16452 (alpha Per cluster)
   a quintuplet, with at least 4 components within 2.5" of each other.
   Cucchiaro80 lists "A lambda Boo" in Skiff compendium.
 
-Zet Vir = HR 5107 = HD 118098 (V=3.4)
+zet Vir = HR 5107 = HD 118098 (V=3.4)
   A1: Bidelman85
  *A2Van: Gray03
   A2IVn: Abt95
   A2IV-: GrayGarrison87
   A3V: Maury1897(A3),MK43,Cowley69(stan),Levato72,Cucchiaro80
 
-HD 56537 = Lam Gem = 54 Gem = HR 2763
+  V=3.38(GCPD/Cousins76_VRIc), V-Rc=0.062(GCPD/Cousins76_VRIc),
+  R-Ic=0.06(GCPD/Cousins76_VRIc), V-Ic=0.122(GCPD/Cousins76_VRIc).
+
+HD 56537 = lam Gem = 54 Gem = HR 2763
   A3V: JM53,Cowley69(stan)
  *A4IV: GrayGarrison89(for "AB")
 
-HD 106591 = Del UMa 
+HD 106591 = del UMa 
   A3V: MK43, Jaschek64(all),Cowley69(stan),Jaschek78(JM53)
  *A2Vn: Gray03,Abt95,GrayGarrison87(A2Van),Cannon(A2)
   
@@ -437,7 +445,7 @@ HD 23848 = HR 1177
    A2V: Osawa59
   *A3V: Slettebak60(A3),Cowley69,1978A&AS...33...15C,Abt95
 
-   V=5.14(HIP),B-V=0.057+-0.002(HIP), plx=12.15+-0.70mas(vanLeeuwen07), Mv=0.56.
+   V=5.14(HIP), B-V=0.057+-0.002(HIP), plx=12.15+-0.70mas(vanLeeuwen07), Mv=0.56.
 
 HD 31283 = HR 1569 = HIP 22833 
   *A3V: Palmer68,Cowley69,Abt95
@@ -480,14 +488,17 @@ HD 188899 = 61 Sgr = GJ 773.1 = GJ 9675 = HR 7614 = HIP 98258 = g Sgr
   A3V: Cuchiaro78
  *A3Va: GarrisonGray89
 
-  Proper motion binary (Frankowski07). V=4.995(Cousins80),
-  V=5.01(HIP), V=5.020+-0.000(Mermilliod91), V=5.02(Hauck90),
+  Proper motion binary
+  (Frankowski07). V=4.995(Cousins80,GCPD/Cousins76_VRIc), V=5.01(HIP),
+  V=5.020+-0.000(Mermilliod91), V=5.02(Hauck90),
   V=5.021+-0.005(Hauck98), B-V=0.062+-0.010(Mermilliod91),
   B-V=0.055+-0.008(HIP), U-B=0.070(Mermilliod91),
-  R-Ic=0.03(Cousins80), V-Ic=0.05(Cousins80).  2MASS photometry: J is
-  flag 'E', H and Ks flagged 'A', H=4.877+-0.027(2MASS),
-  Ks=4.814+-0.018(2MASS) => (V-Ks) = 5.021(Hauck98) - 4.814(2MASS) =
-  0.207.  plx=15.4752+-0.3128mas(GaiaDR3) => Mv=0.969+-0.044,
+  V-Rc=0.02(GCPD/Cousins76_VRIc),
+  R-Ic=0.03(Cousins80,GCPD/Cousins76_VRIc), V-Ic=0.05(Cousins80,
+  GCPD/Cousins76_VRIc).  2MASS photometry: J is flag 'E', H and Ks
+  flagged 'A', H=4.877+-0.027(2MASS), Ks=4.814+-0.018(2MASS) => (V-Ks)
+  = 5.021(Hauck98) - 4.814(2MASS) = 0.207.
+  plx=15.4752+-0.3128mas(GaiaDR3) => Mv=0.969+-0.044,
   M_Ks=0.762+-0.047. There is a faint companion (del(G)=9.19mag) in
   GaiaDR3 - see Kervella22: 61 Sgr B = 2MASS J19575668-1529335 = Gaia
   DR3 6878130334860128768 (G=14.0057; GaiaDR3), sep = 7.42", PA =

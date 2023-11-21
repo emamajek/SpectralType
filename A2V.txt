@@ -56,6 +56,7 @@ and within 1 mag of the MS (N=16):
 (B-V)(A2V) =  0.05  ; Fitzgerald70
 (B-V)(A2V) =  0.05  ; Schmidt-Kaler82
 (B-V)(A2V) =  0.04  ; Garrison67
+(B-V)(A2V) =  0.04  ; Deng20 
 (B-V)(A2V) =  0.031 ; HD 15008 = HIP 11001 = HR 705 
 => adopt (B-V)(A2V)  = 0.070 *** [last updated 11/2/2023]
 => adopt (V-J)(A2V)  = 0.156
@@ -138,8 +139,11 @@ and within 1 mag of the MS (N=16):
 (V-Kj)(A2V) =  0.13 ; Johnson66
 (V-Kj)(A2V) =  0.17 ; Johnson68
 
+(V-K)(A2V)  = 0.14  ; Bessell88/Glass
+
 (V-Ks)(A2V) = 0.141 ; pri. stan. HD 88955 = q Vel = HIP 50191
 (V-Ks)(A2V) = 0.184 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
+(V-Ks)(A2V) = 0.184 ; Bessell88(Glass->2MASS)
 (V-Ks)(A2V) =  0.200 ; exemplar HD 215789 = eps Gru = HIP 112623 (Rieke05)
 (V-Ks)(A2V) =  0.247 ; exemplar HD 106591 = del UMa = HIP 59774
 (V-Ks)(A2V) =  0.274 ; HD 16970 = gam Cet A
@@ -152,19 +156,69 @@ and within 1 mag of the MS (N=16):
 (G-Ks)(A2V) =  0.246 ; exemplar HD 106591 = del UMa = HIP 59774  (GaiaDR3,Rieke22)
 => adopt (G-Ks)(A2V) = 0.16 [updated 11/2/2023; G-V=0.00, V-Ks=0.16]
 
+(J-H)(A2V) =   0.02 ; Bessell88/Glass
+
 (J-H)(A2V) =  0.019+-0.032 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
+(J-H)(A2V) = -0.02  ; Deng20
+(J-H)(A2V) = -0.025 ; Bessell88(Glass->2MASS)
 (J-H)(A2V) = -0.040 ; pri. stan. HD 88955 = q Vel = HIP 50191
 (J-H)(A2V) = -0.048 ; exemplar HD 106591 = del UMa = HIP 59774
 
+(H-K)(A2V)  = 0.005 ; Bessell88/Glass
+
+(H-Ks)(A2V) = 0.02  ; Deng20 (J-Ks=0.00, J-H=-0.02)
+(H-Ks)(A2V) = 0.033 ; Bessell88(Glass->2MASS)
 (H-Ks)(A2V) = 0.039+-0.042 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
 (H-Ks)(A2V) = 0.050 ; exemplar HD 106591 = del UMa = HIP 59774 
 (H-Ks)(A2V) = 0.052 ; pri. stan. HD 88955 = q Vel = HIP 50191
+
+(J-K)(A2V)  = 0.02  ; Bessell88/Glass
+
+(J-Ks)(A2V) = 0.008 ; Bessell88(Glass->2MASS)
+(J-Ks)(A2V) = 0.00  ; Deng20/2MASS
+
+(Ks-W1)(A2V) = -0.120+-0.376 ; exemplar HD 215789 = eps Gru = HIP 112623  
+(Ks-W1)(A2V) = -0.054+-0.075 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
+(Ks-W1)(A2V) = -0.020+-0.161 ; exemplar HD 106591 = del UMa = HIP 59774
+(Ks-W1)(A2V) =  0.03  ; Deng20 (J-W1=0.03, J-Ks=0.00)
+(Ks-W1)(A2V) =  0.044 ; EEM trend for d<30pc for B-V=0.07
+=> adopt (Ks-W1)(A2V) = 0.044 [updated 12/29/2019]
+
+(W1-W2)(A2V) =  0.691+-0.126 ; exemplar HD 215789 = eps Gru = HIP 112623  
+(W1-W2)(A2V) =  0.601+-0.178 ; exemplar HD 106591 = del UMa = HIP 59774
+(W1-W2)(A2V) =  0.293+-0.075 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
+
+(W1-W3)(A2V) =  0.320+-0.121 ; exemplar HD 215789 = eps Gru = HIP 112623  
+(W1-W3)(A2V) = -0.005+-0.069 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
+(W1-W3)(A2V) = -0.007+-0.161 ; exemplar HD 106591 = del UMa = HIP 59774
+
+(W1-W4)(A2V) =  0.092+-0.122 ; exemplar HD 215789 = eps Gru = HIP 112623 
+(W1-W4)(A2V) =  0.021+-0.076 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
+(W1-W4)(A2V) =  0.008+-0.163 ; exemplar HD 106591 = del UMa = HIP 59774
+
+(g-V)(A2V) = -0.083 ; Jordi06 B-V=>g-V for B-V=0.07
+=> adopt (g-V)(A2V) = -0.083 [updated 9/1/2023]
+
+(u'-g')(A2V) = 0.97 ; Deng20 
+
+(g-r)(A2V) = -0.044 ; Jordi06 (V-R)=>(g-r) for V-R=0.039
+(g-r)(A2V) = -0.13  ; Deng20 
+(g-r)(A2V) = -0.173 ; Bilir05 (B-V)=>(g-r) for B-V=0.070
+(g-r)(A2V) = -0.23  ; Covey07
+=> adopt (g-r)(A2V) = -0.17 [updated 10/10/2020]
+
+(r-i)(A2V) = -0.17 ; Deng20
+
+(i-z)(A2V) = -0.12 ; Deng20
+
+(z-y)(A2V) = -0.02 ; Deng20
 
 (Bp-Rp)(A2V) = 0.2715 ; exemplar HD 215789 = eps Gru = HIP 112623 (GaiaDR3)
 (Bp-Rp)(A2V) = 0.2615 ; exemplar HD 106591 = del UMa = HIP 59774 (GaiaDR3)
 (Bp-Rp)(A2V) =  0.101 ; Evans18 trend for V-I= 0.086 (GaiaDR2)
 (Bp-Rp)(A2V) = 0.0997 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3)
 (Bp-Rp)(A2V) = 0.0897 ; pri. stan. HD 88955 = q Vel = HIP 50191 (GaiaDR3)
+(Bp-Rp)(A2V) =  0.08  ; Deng20 
 (Bp-Rp)(A2V) =  0.068 ; color trend for B-V=0.07 (GaiaDR2)
 => adopt (Bp-Rp)(A2V) = 0.068 [updated 11/22/2020] (GaiaDR2)
 => adopt (Bp-Rp)(A2V) = 0.095 [updated 11/2/2023; Bp-G=0.019, G-Rp=0.076] (GaiaDR3) 
@@ -187,25 +241,6 @@ and within 1 mag of the MS (N=16):
 (G-Rp)(A2V) = 0.1412 ; exemplar HD 215789 = eps Gru = HIP 112623 (GaiaDR3)
 => adopt (G-Rp)(A2V) = 0.050 [updated 11/22/2020] (GaiaDR2)
 => adopt (G-Rp)(A2V) = 0.076 [updated 11/2/2023; Bp-Rp=0.095, Bp-G=0.019] (GaiaDR3)
-
-(Ks-W1)(A2V) = -0.120+-0.376 ; exemplar HD 215789 = eps Gru = HIP 112623  
-(Ks-W1)(A2V) = -0.054+-0.075 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-(Ks-W1)(A2V) = -0.020+-0.161 ; exemplar HD 106591 = del UMa = HIP 59774 
-(Ks-W1)(A2V) =  0.044 ; EEM trend for d<30pc for B-V=0.07
-=> adopt (Ks-W1)(A2V) = 0.044 [updated 12/29/2019]
-
-
-(W1-W2)(A2V) =  0.691+-0.126 ; exemplar HD 215789 = eps Gru = HIP 112623  
-(W1-W2)(A2V) =  0.601+-0.178 ; exemplar HD 106591 = del UMa = HIP 59774
-(W1-W2)(A2V) =  0.293+-0.075 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-
-(W1-W3)(A2V) =  0.320+-0.121 ; exemplar HD 215789 = eps Gru = HIP 112623  
-(W1-W3)(A2V) = -0.005+-0.069 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-(W1-W3)(A2V) = -0.007+-0.161 ; exemplar HD 106591 = del UMa = HIP 59774
-
-(W1-W4)(A2V) =  0.092+-0.122 ; exemplar HD 215789 = eps Gru = HIP 112623 
-(W1-W4)(A2V) =  0.021+-0.076 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-(W1-W4)(A2V) =  0.008+-0.163 ; exemplar HD 106591 = del UMa = HIP 59774
 
 (G-V)(A2V) =  -0.075 ; * b03 Cyg dS* A2V (GaiaDR2)
 (G-V)(A2V) = -0.025 ; polynomial fit for f(B-V) (GaiaDR2)
@@ -230,13 +265,6 @@ and within 1 mag of the MS (N=16):
 (G-V)(A2V) = -0.0100+-0.0094 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3)
 => adopt (G-V)(A2V) = 0.00 [updated 11/2/2023] (GaiaDR3)
 
-(g-V)(A2V) = -0.083 ; Jordi06 B-V=>g-V for B-V=0.07
-=> adopt (g-V)(A2V) = -0.083 [updated 9/1/2023]
-
-(g-r)(A2V) = -0.044 ; Jordi06 (V-R)=>(g-r) for V-R=0.039
-(g-r)(A2V) = -0.173 ; Bilir05 (B-V)=>(g-r) for B-V=0.070
-(g-r)(A2V) = -0.23  ; Covey07
-=> adopt (g-r)(A2V) = -0.17 [updated 10/10/2020]
 
 Teff(A2V) =   9040 K ; Habets81
 Teff(A2V) =   9000 K ; Bessell79
@@ -438,36 +466,37 @@ HD 56405 = HIP 35180 = GJ 9228 = HR 2758 = BD-15 1734 = Gaia DR3 303131226167939
   Mass=2.13+-0.14Msun(Allende-Prieto99), 2.37+-0.04Msun(Zorec12).  Age
   = 748+-38 Myr(Zorec12). Mv=0.88.
 
-        G =  5.4420+-0.0028 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3)
-  (Bp-Rp)(A2V) =  0.0997 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3)
-   (Bp-G)(A2V) =  0.0289 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3)
-   (G-Rp)(A2V) =  0.0708 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3)
-    (G-V)(A2V) = -0.0100+-0.0094 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3)
-       Mv(A2V) =   1.014+-0.015 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3)
-      M_G(A2V) =  1.0040+-0.0123 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3)
-     M_Ks(A2V) =   0.830+-0.035 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 
-   (V-Ks)(A2V) =   0.184+-0.034 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-   (G-Ks)(A2V) =   0.174+-0.033 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 (GaiaDR3,2MASS)
-    (V-J)(A2V) =   0.126+-0.021 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 
-    (V-H)(A2V) =   0.145+-0.028 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-    (J-H)(A2V) =   0.019+-0.032 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-   (H-Ks)(A2V) =   0.039+-0.042 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-   (V-Rc)(A2V) =   0.026 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758  
-   (R-Ic)(A2V) =   0.058 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758 
-   (V-Ic)(A2V) =   0.084 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-  (Ks-W1)(A2V) =  -0.054+-0.075 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758  
-  (W1-W2)(A2V) =   0.293+-0.075 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-  (W1-W3)(A2V) =  -0.005+-0.069 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-  (W1-W4)(A2V) =   0.021+-0.076 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
+        G =  5.4420+-0.0028 ; pri. stan. HD 56405 = HIP 35180 (GaiaDR3)
+  (Bp-Rp)(A2V) =  0.0997 ; pri. stan. HD 56405 = HIP 35180 (GaiaDR3)
+   (Bp-G)(A2V) =  0.0289 ; pri. stan. HD 56405 = HIP 35180 (GaiaDR3)
+   (G-Rp)(A2V) =  0.0708 ; pri. stan. HD 56405 = HIP 35180 (GaiaDR3)
+    (G-V)(A2V) = -0.0100+-0.0094 ; pri. stan. HD 56405 = HIP 35180 (GaiaDR3)
+       Mv(A2V) =   1.014+-0.015 ; pri. stan. HD 56405 = HIP 35180 (GaiaDR3)
+      M_G(A2V) =  1.0040+-0.0123 ; pri. stan. HD 56405 = HIP 35180 (GaiaDR3)
+     M_Ks(A2V) =   0.830+-0.035 ; pri. stan. HD 56405 = HIP 35180  
+   (V-Ks)(A2V) =   0.184+-0.034 ; pri. stan. HD 56405 = HIP 35180 
+   (G-Ks)(A2V) =   0.174+-0.033 ; pri. stan. HD 56405 = HIP 35180  (GaiaDR3,2MASS)
+    (V-J)(A2V) =   0.126+-0.021 ; pri. stan. HD 56405 = HIP 35180  
+    (V-H)(A2V) =   0.145+-0.028 ; pri. stan. HD 56405 = HIP 35180 
+    (J-H)(A2V) =   0.019+-0.032 ; pri. stan. HD 56405 = HIP 35180 
+   (H-Ks)(A2V) =   0.039+-0.042 ; pri. stan. HD 56405 = HIP 35180 
+   (V-Rc)(A2V) =   0.026 ; pri. stan. HD 56405 = HIP 35180   
+   (R-Ic)(A2V) =   0.058 ; pri. stan. HD 56405 = HIP 35180  
+   (V-Ic)(A2V) =   0.084 ; pri. stan. HD 56405 = HIP 35180 
+  (Ks-W1)(A2V) =  -0.054+-0.075 ; pri. stan. HD 56405 = HIP 35180   
+  (W1-W2)(A2V) =   0.293+-0.075 ; pri. stan. HD 56405 = HIP 35180 
+  (W1-W3)(A2V) =  -0.005+-0.069 ; pri. stan. HD 56405 = HIP 35180 
+  (W1-W4)(A2V) =   0.021+-0.076 ; pri. stan. HD 56405 = HIP 35180 
 
 # Exemplars
 
 HD 106591 = del UMa = HIP 59774 = HR 4660 = Megrez = WDS J12154+5702A
-  A3V: Maury1897(A3),MK43(stan),JM53(non-stan)
+  A1Va: Garrison96
   A2: Cannon20(HD standard?)
   A2Van: GrayGarrison87
   A2V: Cucchiaro78(S2/68),Levato78
  *A2Vn: Palmer68(A2Vn),Abt95,Gray03
+  A3V: Maury1897(A3),MK43(stan),JM53(non-stan)
 
   Although it was an A3V standard in MK43 atlas and a non-standard in
   JohnsonMorgan53, since then it has been consistently classified A2V
@@ -582,7 +611,7 @@ HD 215789 = eps Gru = HIP 112623 = HR 8675
 
 # Other stars
 
-HD 16970 = gam Cet A = Kaffaljidhma = HR 4660 = HIP 59774 = HD 16970 = GJ 459 = WDS J12154+5702A
+HD 16970 = gam Cet A = HIP 59774 = GJ 459 = HR 4660 = Kaffaljidhma = WDS J12154+5702A
   A1V: Bidelman85(A1),Abt85
   A1/2V: Maury1897
  *A2Vn: Adams35,Chalonge52(A2V),Slettebak54(A2V),1955MmMtS..12....1W(A2V),GrayGarrison87(A2Va),Abt95,Gray03
@@ -614,8 +643,8 @@ HD 115892 = iot Cen = GJ 508.1
   A2V: Cannon18(A2),deVauc57,Levato72,Jaschek78,Houk82,Gray87(Va),Garrison96(A2Va) 
  *kA1.5hA3mA3Va: Gray06
 
-  All of the spectral types (in Skiff07 and otherwise) for this object
-  *were* "A2" until Gray06. Keenan63 (in "Basic Astronomical Data"
+  All of the published spectral types were A2V until Gray06.
+  Keenan63 (in "Basic Astronomical Data"
   ed. Strand) lists iot Cen as one of two "typical" A2 stars (along
   with S CMa). So if the Ca H & K features are not typical for A2 (or
   intermediate between higher pedigree A1V and A3V standards), then
