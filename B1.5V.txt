@@ -22,19 +22,20 @@ and it appears to be single.
 All Q-method calculations in this file have been updated with the most
 recent calibration (10/9/2011).
 
-B-V(B1.5V) = -0.265  ; EEM dereddened pri. stan. HD 154445 (via Q method)
-B-V(B1.5V) = -0.261  ; EEM dereddened sec. stan. HD 36959 (via Q method)
-B-V(B1.5V) = -0.252  ; calculated Q-method using U-B=-0.91 
-B-V(B1.5V) =  -0.25   ; Fitzgerald70, Morgan71(halfway_B1-B2), JohnsonBorgman63
-B-V(B1.5V) = -0.240  ; EEM dereddened N=9 HIP B1.5V stars (Q method,E(B-V)<0.1)
+(B-V)(B1.5V) = -0.265  ; EEM dereddened pri. stan. HD 154445 (via Q method)
+(B-V)(B1.5V) = -0.261  ; EEM dereddened sec. stan. HD 36959 (via Q method)
+(B-V)(B1.5V) = -0.252  ; calculated Q-method using U-B=-0.91 
+(B-V)(B1.5V) =  -0.25  ; Fitzgerald70, Morgan71(halfway_B1-B2), JohnsonBorgman63
+(B-V)(B1.5V) = -0.240  ; EEM dereddened N=9 HIP B1.5V stars (Q method,E(B-V)<0.1)
+(B-V)(B1.5V) =  -0.22  ; Wegner14 
 => adopt (B-V)(B1.5V) = -0.252 [updated 9/26/2019]
 
-U-B(B1.5V) = -0.954  ; EEM dereddened pri. stan. HD 154445 (via Q-method) 
-U-B(B1.5V) = -0.941  ; EEM dereddened sec. stan. HD 36959 (via Q-method)
-U-B(B1.5V) =  -0.91   ; Bessell98, JohnsonBorgman63
-U-B(B1.5V) = -0.872  ; EEM dereddened 17 HIP B1.5V stars (via Q-method)
-U-B(B1.5V) =  -0.895  ; Johnson63 (interp. between B1V-B2V)
-U-B(B1.5V) =  -0.88   ; Fitzgerald70
+(U-B)(B1.5V) = -0.954  ; EEM dereddened pri. stan. HD 154445 (via Q-method) 
+(U-B)(B1.5V) = -0.941  ; EEM dereddened sec. stan. HD 36959 (via Q-method)
+(U-B)(B1.5V) =  -0.91   ; Bessell98, JohnsonBorgman63
+(U-B)(B1.5V) = -0.872  ; EEM dereddened 17 HIP B1.5V stars (via Q-method)
+(U-B)(B1.5V) =  -0.895  ; Johnson63 (interp. between B1V-B2V)
+(U-B)(B1.5V) =  -0.88   ; Fitzgerald70
 => adopt (U-B)(B1.5V)  = -0.91  *** [updated 2/7/2020]
 => adopt     Q(B1.5V)  = -0.728 (=(U-B)-0.72*(B-V)) [updated 2/7/2020]
 => adopt (V-I)(B1.5V)  = -0.281
@@ -45,6 +46,12 @@ U-B(B1.5V) =  -0.88   ; Fitzgerald70
 => adopt (V-Ks)(B1.5V) = -0.752
 => adopt (H-Ks)(B1.5V) = -0.047
 => adopt (J-H)(B1.5V)  = -0.132
+
+(V-J)(B1.5V)  = -0.49 ; Wegner14 (2MASS)
+
+(V-H)(B1.5V)  = -0.55 ; Wegner14 (2MASS)
+
+(V-Ks)(B1.5V) = -0.62 ; Wegner14 (2MASS) 
 
 (Bp-Rp)(B1.5V) = -0.390 ; Evans18 trend for V-I=-0.281
 

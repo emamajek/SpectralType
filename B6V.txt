@@ -15,14 +15,15 @@ WiegertGarrison98 st.: bet Sex - B6V
 Dereddening calculations using Q-method in this file have been updated
 using the new calibration (10/10/2011).
 
-(B-V)(B6V) = -0.124  ; prim. stan. HD 45796 (EEM dereddened)
-(B-V)(B6V) = -0.134  ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2 
-(B-V)(B6V) = -0.139  ; prim. stan. bet Sex (EEM dereddened via Q-method))
-(B-V)(B6V) =  -0.14   ; Morgan53,Johnson63,Johnson65,Johnson66,Garrison67,Fitzgerald70
-(B-V)(B6V) = -0.142  ; dereddened B-V for 34 HIP B6V stars (Q-method,E(B-V)<0.1)
-(B-V)(B6V) =  -0.15   ; SchmidtKaler82
-(B-V)(B6V) = -0.15   ; weak stan. 19 Tau (Pleiad)
-=> adopt (B-V)(B6V)  = -0.140  [updated 9/26/2019]
+(B-V)(B6V) =  -0.11  ; Deng20 
+(B-V)(B6V) = -0.124 ; prim. stan. HD 45796 (EEM dereddened)
+(B-V)(B6V) = -0.134 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2 
+(B-V)(B6V) = -0.139 ; prim. stan. bet Sex (EEM dereddened via Q-method))
+(B-V)(B6V) =  -0.14  ; Morgan53,Johnson63,Johnson65,Johnson66,Garrison67,Fitzgerald70,Wegner14 
+(B-V)(B6V) = -0.142 ; dereddened B-V for 34 HIP B6V stars (Q-method,E(B-V)<0.1)
+(B-V)(B6V) =  -0.15  ; SchmidtKaler82
+(B-V)(B6V) = -0.15  ; weak stan. 19 Tau (Pleiad)
+=> adopt (B-V)(B6V) = -0.140 [updated 9/26/2019]
 
 (U-B)(B6V) = -0.447  ; sec. stan. HD 45796 (EEM dereddened via Q-method)
 (U-B)(B6V) = -0.464  ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2 
@@ -30,27 +31,33 @@ using the new calibration (10/10/2011).
 (U-B)(B6V) =  -0.50  ; Bessell98,Schmidt-Kaler82
 (U-B)(B6V) = -0.504  ; pri. stan. bet Sex (EEM dereddened via Q-method)
 (U-B)(B6V) = -0.521  ; EEM dereddened N=34 HIP B6V stars (Q-method,E(B-V)<0.1)
-=> adopt (U-B)(B6V)  = -0.504 ***  [updated 9/26/2019]
-=> adopt     Q(B6V)  = -0.403 (=(U-B)-0.72*(B-V) = -0.504 - 0.72*-0.140)
-=> adopt (V-I)(B6V)  = -0.144
-=> adopt (V-R)(B6V)  = -0.062
-=> adopt (R-I)(B6V)  = -0.082
+=> adopt  (U-B)(B6V) = -0.504 [updated 9/26/2019]
+=> adopt      Q(B6V) = -0.403 (=(U-B)-0.72*(B-V) = -0.504 - 0.72*-0.140)
+=> adopt (V-Ic)(B6V) = -0.144
+=> adopt (V-Rc)(B6V) = -0.062
+=> adopt (R-Ic)(B6V) = -0.082
 
-V-Rj(B6V) = -0.06 ; Johnson65
+(V-Rj(B6V) = -0.06 ; Johnson65
 
 (V-Rc)(B6V) = -0.045 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2
+(V-Rc)(B6V) = -0.07  ; Winkler97
 
 (R-Ic)(B6V) = -0.075 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2 
 
-V-Ij(B6V) = -0.19 ; Johnson65
+(V-Ij)(B6V) = -0.19 ; Johnson65
 
-(V-Ic)(B6V) = -0.120 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2 
+(V-Ic)(B6V) = -0.120 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2
+(V-Ic)(B6V) = -0.16  ; Winkler97
 
-V-Jj(B6V) = -0.31 ; Johnson65 
+(V-Jj)(B6V) = -0.31 ; Johnson65
 
-V-Kj(B6V) = -0.41 ; Johnson65
+(V-J)(B6V)  = -0.30 ; Wegner14/2MASS
 
-V-Lj(B6V) = -0.39 ; Johnson65
+(V-H)(B6V)  = -0.35 ; Wegner14/2MASS 
+
+(V-Kj)(B6V) = -0.41 ; Johnson65
+
+(V-K)(B6V)  = -0.42 ; Winkler97/SAAO
 
 (V-Ks)(B6V) =  -0.215 ; HIP_52678_ B6Vnn d= 149.522pc, (B-V)=0.018 (dereddened from Kervella19)
 (V-Ks)(B6V) =  -0.320 ; HIP_46283_ B6V d= 127.421pc, (B-V)=0.006 (dereddened from Kervella19)
@@ -60,6 +67,7 @@ V-Lj(B6V) = -0.39 ; Johnson65
 (V-Ks)(B6V) =  -0.359 ; HIP_27534_ B6V d= 181.554pc, (B-V)=0.008 (dereddened from Kervella19)
 (V-Ks)(B6V) =  -0.369 ; HIP_112781_ B6V d= 157.183pc, (B-V)=0.008 (dereddened from Kervella19)
 (V-Ks)(B6V) =  -0.387 ; HIP_105282_ B6V d= 168.89pc, (B-V)=0.015 (dereddened from Kervella19)
+(V-Ks)(B6V) =   -0.39 ; Wegner14/2MASS 
 (V-Ks)(B6V) =  -0.404 ; HIP_30524_ B6V d= 218.771pc, (B-V)=0.008 (dereddened from Kervella19)
 => adopt (V-Ks)(B6V) = -0.358 [updated 4/8/2022]
 => adopt (V-J)(B6V)  = -0.270 [updated 4/8/2022]
@@ -67,12 +75,35 @@ V-Lj(B6V) = -0.39 ; Johnson65
 => adopt (H-Ks)(B6V) = -0.007 [updated 4/8/2022]
 => adopt (J-H)(B6V)  = -0.081 [updated 4/8/2022]
 
-(Ks-W1)(B6V) = 0.030 ; EEM trend for d<30pc for B-V=-0.128
+(J-H)(B6V) = -0.05 ; Winkler97/SAAO
+(J-H)(B6V) = -0.09 ; Deng20/2MASS
+
+(H-Ks)(B6V) = -0.02 ; Deng20/2MASS
+(H-K)(B6V)  = -0.05 ; Winkler97/SAAO
+
+(J-Ks)(B6V) = -0.11 ; Deng20/2MASS
+
+(V-Lj)(B6V) = -0.39 ; Johnson65
+
+(Ks-W1)(B6V) = -0.01  ; Deng20
+(Ks-W1)(B6V) =  0.030 ; EEM trend for d<30pc for B-V=-0.128
 => adopt (Ks-W1)(B6V) = 0.030 [updated 12/29/2019]
 
+(u'-g')(B6V) = 0.34 ; Deng20
+
+(g-r)(B6V) = -0.22 ; Deng20
+(g-r)(B6V) = -0.39 ; Covey07 (listed for "B5/7V")
+
+(r-i)(B6V) = -0.24 ; Deng20
+
+(i-z)(B6V) = -0.18 ; Deng20
+
+(z-y)(B6V) = -0.08 ; Deng20
+
+(Bp-Rp)(B6V) = -0.18  ; Deng20
 (Bp-Rp)(B6V) = -0.203 ; Evans18 trend for V-I=-0.144
 
-(g-r)(B6V) = -0.39 ; Covey07 (listed for "B5/7V")
+
 
 (G-V)(B2V) =  0.002 ; HIP_13512 B6V V=6.814 G=6.8072 E(B-V)=0.062 (calc from Kervella22)
 (G-V)(B2V) =  0.009 ; HIP_26464 B6V V=7.583 G=7.5864 E(B-V)=0.040 (calc from Kervella22)

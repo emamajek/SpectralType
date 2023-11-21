@@ -34,28 +34,30 @@ Garcia89 lists 4 B1V MK standards: HD 7252, 24131, 37018, & 144470.
 All dereddenings via the Q-method in this file have been updated using
 a revised calibration (10/9/2011).
 
-B-V(B1V)  = -0.26 ; Morgan53,Johnson63,JohnsonBorgman63,Johnson65,Johnson66,Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,KenyonHartmann95
-B-V(B1V)  = -0.266 ; EEM dereddened N=29 HIP B1V stars (via Q-method)
-B-V(B1V)  = -0.278 ; EEM dereddened prim. stan. omi^1 Sco (via Q-method)
-B-V(B1V)  = -0.278 ; EEM dereddened sec. stan. HD 7252 (via Q-method)
-B-V(B1V)  = -0.278 ; EEM dereddened tert. stan. HD 24131 (via Q-method)
-B-V(B1V)  = -0.278 ; U-B=-0.995 trend Q-method
-B-V(B1V)  = -0.279 ; EEM dereddened ter. stan. 42 Ori (via Q-method)
-B-V(B1V)  = -0.28  ; JohnsonMorgan53
+(B-V)(B1V)  =  -0.25 ; Deng20
+(B-V)(B1V)  =  -0.26 ; Morgan53,Johnson63,JohnsonBorgman63,Johnson65,Johnson66,Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,KenyonHartmann95
+(B-V)(B1V)  = -0.266 ; EEM dereddened N=29 HIP B1V stars (via Q-method)
+(B-V)(B1V)  = -0.278 ; EEM dereddened prim. stan. omi^1 Sco (via Q-method)
+(B-V)(B1V)  = -0.278 ; EEM dereddened sec. stan. HD 7252 (via Q-method)
+(B-V)(B1V)  = -0.278 ; EEM dereddened tert. stan. HD 24131 (via Q-method)
+(B-V)(B1V)  = -0.278 ; U-B=-0.995 trend Q-method
+(B-V)(B1V)  = -0.279 ; EEM dereddened ter. stan. 42 Ori (via Q-method)
+(B-V)(B1V)  =  -0.28  ; JohnsonMorgan53
+(B-V)(B1V)  =  -0.23  ; Wegner14
 => adopt (B-V)(B1V)  = -0.278 mag [updated 2/7/2020]
 
 The bluest B-V I can find for a B1V star is HIP 39540 = HD 66665
 (B-V = -0.248+-0.012), so <(B-V)o> is probably bluer than this.
 
-U-B(B1V)  = -0.93  ; Johnson63,Johnson65,Johnson66
-U-B(B1V)  = -0.95  ; Fitzgerald70, Schmidt-Kaler82
-U-B(B1V)  = -0.956 ; EEM dereddened 29 HIP B1V stars (via Q-method)
-U-B(B1V)  = -0.97  ; Bessell98
-U-B(B1V)  = -0.994 ; EEM dereddened tert. stan. HD 24131 (via Q-method)
-U-B(B1V)  = -0.995 ; EEM dereddened prim. stan. ome^1 Sco (via Q-method)
-U-B(B1V)  = -0.995 ; EEM dereddened sec. stan. HD 7252 (via Q-method)
-U-B(B1V)  = -0.998 ; EEM dereddened ter. stan. 42 Ori (via Q-method)
-U-B(B1V)  = -1.00  ; JohnsonMorgan53
+(U-B)(B1V)  = -0.93  ; Johnson63,Johnson65,Johnson66
+(U-B)(B1V)  = -0.95  ; Fitzgerald70, Schmidt-Kaler82
+(U-B)(B1V)  = -0.956 ; EEM dereddened 29 HIP B1V stars (via Q-method)
+(U-B)(B1V)  = -0.97  ; Bessell98
+(U-B)(B1V)  = -0.994 ; EEM dereddened tert. stan. HD 24131 (via Q-method)
+(U-B)(B1V)  = -0.995 ; EEM dereddened prim. stan. ome^1 Sco (via Q-method)
+(U-B)(B1V)  = -0.995 ; EEM dereddened sec. stan. HD 7252 (via Q-method)
+(U-B)(B1V)  = -0.998 ; EEM dereddened ter. stan. 42 Ori (via Q-method)
+(U-B)(B1V)  = -1.00  ; JohnsonMorgan53
 => adopt (U-B)(B1V)  = -0.995 *** [updated 9/26/2019]
 => adopt     Q(B1V)  = -0.794 [updated 9/26/2019]
 => adopt (V-I)(B1V)  = -0.325
@@ -68,25 +70,52 @@ U-B(B1V)  = -1.00  ; JohnsonMorgan53
 (V-Rj)(B1V) = -0.11 ; Johnson65
 
 (V-Rc)(B1V) = -0.101 ; non-standard HD 116658 = alf Vir = Spica
+(V-Rc)(B1V) = -0.14  ; Winkler97/SAAO
 
 (R-Ic)(B1V) = -0.147 ; non-standard HD 116658 = alf Vir = Spica 
 
 (V-Ij)(B1V) = -0.36 ; Johnson65
 
-(V-Ic)(B1V) = -0.248 ; non-standard HD 116658 = alf Vir = Spica 
+(V-Ic)(B1V) = -0.248 ; non-standard HD 116658 = alf Vir = Spica
+(V-Ic)(B1V) = -0.30  ; Winkler97/SAAO
 
-V-Jj(B1V) = -0.62 ; Johnson65 
+(V-Jj)(B1V) = -0.62 ; Johnson65
 
-V-Kj(B1V) = -0.83 ; Johnson65
+(V-J)(B1V)  = -0.52 ; Wegner14 (2MASS)
 
-V-Lj(B1V) = -0.81 ; Johnson65
+(V-H)(B1V)  = -0.59 ; Wegner14 (2MASS) 
 
-(Ks-W1)(B1V) = 0.018 ; EEM trend for d<30pc for B-V=-0.278
+(V-Kj)(B1V) = -0.83 ; Johnson65
+
+(V-K)(B1V)  = -0.80 ; Winkler97/SAAO
+
+(V-Ks)(B1V) = -0.66 ; Wegner14 (2MASS) 
+
+(J-H)(B1V) = -0.09 ; Deng20/2MASS 
+(J-H)(B1V) = -0.10 ; Winkler97/SAAO
+
+(H-Ks)(B1V) = -0.04 ; Deng20/2MASS 
+(H-K)(B1V)  = -0.08 ; Winkler97/SAAO
+
+(J-Ks)(B1V) = -0.13 ; Deng20/2MASS 
+
+(V-Lj)(B1V) = -0.81 ; Johnson65
+
+(Ks-W1)(B1V) =  0.018 ; EEM trend for d<30pc for B-V=-0.278
+(Ks-W1)(B1V) = -0.04  ; Deng20 (J-W1=-0.17, J-Ks=-0.13)
 => adopt (Ks-W1)(B1V) = 0.018 [updated 12/29/2019]
 
+(Bp-Rp)(B1V) = -0.31  ; Deng20
 (Bp-Rp)(B1V) = -0.450 ; Evans18 trend for V-I=-0.325
 
+(u'-g')(B1V) = -0.29 ; Deng20
+
+(g-r)(B1V) = -0.34 ; Deng20
 (g-r)(B1V) = -0.49 ; Covey07
+
+(r-i)(B1V) = -0.31 ; Deng20
+
+(i-z)(B1V) = -0.24 ; Deng20
 
 (G-V)(B1V) =   -0.287 ; HIP_102926 B1Ve V=8.325 G=7.9533 E(B-V)=0.586 (calc from Kervella22)
 (G-V)(B1V) =   -0.193 ; HIP_112718 B1V V=9.194 G=8.9577 E(B-V)=0.295 (calc from Kervella22)

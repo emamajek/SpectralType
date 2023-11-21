@@ -33,6 +33,7 @@ GrayNstars standard:       ome For A (=HR 749A) - B9V
 Dereddenings using the Q-method in this file have been updated using
 the revised calibration (10/11/2011).
 
+(B-V)(B9V) =   -0.04 ; Deng20 
 (B-V)(B9V) = -0.044 ; sec. stan. HR 2328 (EEM dereddened via Q-method)
 (B-V)(B9V) = -0.048 ; exemplar HD 32309 = HIP 23362 = HR 1621
 (B-V)(B9V) =   -0.05 ; JohnsonMorgan53 
@@ -42,7 +43,7 @@ the revised calibration (10/11/2011).
 (B-V)(B9V) =   -0.065 ; Bessell79
 (B-V)(B9V) = -0.067 ; EEM dereddened N=124 HIP B9V stars (Q-method,E(B-V)<0.1)
 (B-V)(B9V) = -0.067 ; EEM 8 d<75 pc B9V Hipparcos stars
-(B-V)(B9V) =   -0.07 ; Garrison67, Fitzgerald70, Morgan71, SchmidtKaler82
+(B-V)(B9V) =   -0.07 ; Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,Wegner14
 (B-V)(B9V) =  -0.071 ; weak stan. alf Del (EEM dereddened via Q-method)
 (B-V)(B9V) = -0.074 ; pri. stan. HD 141774 (EEM dereddened via Q-method)
 (B-V)(B9V) = -0.080 ; ter. stan. HD 36998 = BD-04_1180 
@@ -61,7 +62,7 @@ the revised calibration (10/11/2011).
 (U-B)(B9V) = -0.226 ; pri. stan. HD 141774 (EEM dereddened via Q-method)
 (U-B)(B9V) = -0.252 ; ter. stan. HD 36998 = BD-04_1180 
 (U-B)(B9V) = -0.262 ; HD 213998 = eta Aqr = HIP 111497 
-=> adopt (U-B)(B9V)  = -0.20  *** [updated 10/8/2023]
+=> adopt (U-B)(B9V)  = -0.20  [updated 10/8/2023]
 => adopt (B-V)(B9V)  = -0.070 [updated 10/8/2023]
 => adopt Q(B9V)      = -0.150 (=(U-B)-0.72*(B-V) = -0.200 - 0.72*-0.070)
 
@@ -72,6 +73,7 @@ the revised calibration (10/11/2011).
 
 (V-Rj)(B9V) = -0.02 ; Johnson65
 
+(V-Rc)(B9V) =  -0.04 ; Winkler97
 (V-Rc)(B9V) = -0.028 ; V-Rc vs B-V trend for B-V=-0.07
 (V-Rc)(B9V) = -0.022 ; exemplar HD 16978 = eps Hyi = HIP 12394
 (V-Rc)(B9V) = -0.021 ; exemplar HD 213998 = eta Aqr = HIP 111497
@@ -89,43 +91,72 @@ the revised calibration (10/11/2011).
 (V-Ic)(B9V) = -0.044 ; exemplar HD 32309 = HIP 23362 = HR 1621 
 (V-Ic)(B9V) =  -0.055 ; Bessell79
 (V-Ic)(B9V) = -0.068 ; exemplar HD 16978 = eps Hyi = HIP 12394
+(V-Ic)(B9V) =  -0.07  ; Winkler97
 (V-Ic)(B9V) = -0.073 ; exemplar HD 213998 = eta Aqr = HIP 111497 
 (V-Ic)(B9V) =  -0.075 ; Bessell88 (interp B8V-A0V)
 => adopt (V-Ic)(B9V) = -0.07 [updated 10/10/2023; V-Rc=-0.025, R-Ic=-0.045]
 
-(V-Jj)(B9V) = -0.09 ; Johnson65 
+(V-Jj)(B9V) = -0.09 ; Johnson65
+
+(V-J)(B9V)  = -0.16 ; Wegner14/2MASS
+
+(V-H)(B9V)  = -0.16 ; Wegner14/2MASS 
 
 (V-Kj)(B9V) = -0.12 ; Johnson65
 
-(V-Lj)(B9V) = -0.10 ; Johnson65
+(V-K)(B9V) = -0.23 ; Winkler97/SAAO
 
-(V-Ks)=  +0.031 ; HIP_115115_ B9V d= 70.6514pc, (B-V)=0.002 (dereddened from Kervella19)
-(V-Ks)=  -0.010 ; HIP_1647_ B9V d= 99.0295pc, (B-V)=0.003 (dereddened from Kervella19)
-(V-Ks)=  -0.046 ; HIP_25453_ B9V d= 99.5718pc, (B-V)=0.002 (dereddened from Kervella19)
-(V-Ks)=  -0.054 ; HIP_8016_ B9V d= 89.6941pc, (B-V)=0.004 (dereddened from Kervella19)
-(V-Ks)=  -0.062 ; HIP_76234_ B9V d= 98.9315pc, (B-V)=0.008 (dereddened from Kervella19)
-(V-Ks)=  -0.084 ; HIP_20430_ B9Vnn d= 88.9205pc, (B-V)=0.005 (dereddened from Kervella19)
-(V-Ks)=  -0.095 ; HIP_23362_ B9V d= 60.27pc, (B-V)=0.001 (dereddened from Kervella19)
-(V-Ks)= -0.103 ; sec. stan. HD 16046 = Ome For A (see below)
-(V-Ks)= -0.112 ; sec. stan. HD 45380 = HR 2328 (see below)
-(V-Ks)=  -0.113 ; HIP_116971_ B9V d= 47.7692pc, (B-V)=0.000 (dereddened from Kervella19)
-(V-Ks)= -0.121 ; intrinsic color sequence for (U-B)o = -0.20 
-(V-Ks)=  -0.122 ; HIP_61318_ B9V d= 85.2442pc, (B-V)=0.003 (dereddened from Kervella19)
-(V-Ks)=  -0.123 ; HIP_79101_ B9VspHgMn d= 73.5078pc, (B-V)=0.009 (dereddened from Kervella19)
-(V-Ks)=  -0.127 ; HIP_60183_ B9V d= 97.144pc, (B-V)=0.015 (dereddened from Kervella19)
-(V-Ks)=  -0.142 ; HIP_20171_ B9Vsp d= 83.5282pc, (B-V)=0.003 (dereddened from Kervella19)
-(V-Ks)=  -0.155 ; HIP_75178_ B9Vn d= 82.5083pc, (B-V)=0.013 (dereddened from Kervella19)
-(V-Ks)=  -0.171 ; HIP_24505_ B9V d= 83.7521pc, (B-V)=0.001 (dereddened from Kervella19)
-(V-Ks)=  -0.187 ; HIP_109056_ B9Vn d= 96.8054pc, (B-V)=0.025 (dereddened from Kervella19)
-(V-Ks)=  -0.188 ; HIP_813_ B9Vn d= 90.0739pc, (B-V)=0.005 (dereddened from Kervella19)
-(V-Ks)=  -0.201 ; HIP_77562_ B9V(n) d= 96.2649pc, (B-V)=0.008 (dereddened from Kervella19)
-(V-Ks)=  -0.204 ; HIP_27566_ B9V d= 90.7029pc, (B-V)=0.003 (dereddened from Kervella19)
-(V-Ks)=  -0.311 ; HIP_16611_ B9V d= 97.8378pc, (B-V)=0.001 (dereddened from Kervella19)
+(V-Ks)(B9V) =  +0.031 ; HIP_115115_ B9V d= 70.6514pc, (B-V)=0.002 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.010 ; HIP_1647_ B9V d= 99.0295pc, (B-V)=0.003 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.046 ; HIP_25453_ B9V d= 99.5718pc, (B-V)=0.002 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.054 ; HIP_8016_ B9V d= 89.6941pc, (B-V)=0.004 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.062 ; HIP_76234_ B9V d= 98.9315pc, (B-V)=0.008 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.084 ; HIP_20430_ B9Vnn d= 88.9205pc, (B-V)=0.005 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.095 ; HIP_23362_ B9V d= 60.27pc, (B-V)=0.001 (dereddened from Kervella19)
+(V-Ks)(B9V) = -0.103 ; sec. stan. HD 16046 = ome For A (see below)
+(V-Ks)(B9V) = -0.112 ; sec. stan. HD 45380 = HR 2328 (see below)
+(V-Ks)(B9V) =  -0.113 ; HIP_116971_ B9V d= 47.7692pc, (B-V)=0.000 (dereddened from Kervella19)
+(V-Ks)(B9V) = -0.121 ; intrinsic color sequence for (U-B)o = -0.20 
+(V-Ks)(B9V) =  -0.122 ; HIP_61318_ B9V d= 85.2442pc, (B-V)=0.003 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.123 ; HIP_79101_ B9VspHgMn d= 73.5078pc, (B-V)=0.009 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.127 ; HIP_60183_ B9V d= 97.144pc, (B-V)=0.015 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.142 ; HIP_20171_ B9Vsp d= 83.5282pc, (B-V)=0.003 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.155 ; HIP_75178_ B9Vn d= 82.5083pc, (B-V)=0.013 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.171 ; HIP_24505_ B9V d= 83.7521pc, (B-V)=0.001 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.187 ; HIP_109056_ B9Vn d= 96.8054pc, (B-V)=0.025 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.188 ; HIP_813_ B9Vn d= 90.0739pc, (B-V)=0.005 (dereddened from Kervella19)
+(V-Ks)(B9V) = -0.19 ; Wegner14/2MASS 
+(V-Ks)(B9V) =  -0.201 ; HIP_77562_ B9V(n) d= 96.2649pc, (B-V)=0.008 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.204 ; HIP_27566_ B9V d= 90.7029pc, (B-V)=0.003 (dereddened from Kervella19)
+(V-Ks)(B9V) =  -0.311 ; HIP_16611_ B9V d= 97.8378pc, (B-V)=0.001 (dereddened from Kervella19)
 => adopt (V-Ks)(B9V) = -0.121 [updated 4/8/2022]
 
+(J-H)(B9V) = -0.03 ; Winkler97/SAAO
+(J-H)(B9V) = -0.06 ; Deng20/2MASS
+
+(H-Ks)(B9V) =  0.00 ; Deng20 (J-H=-0.06, J-Ks=-0.06)
+(H-K)(B9V)  = -0.03 ; Winkler97/SAAO
+
+(J-Ks)(B9V) = -0.06 ; Deng20/2MASS
+
+(V-Lj)(B9V) = -0.10 ; Johnson65
+
 (Ks-W1)(B9V) = 0.038 ; EEM trend for d<30pc for B-V=-0.07
+(Ks-W1)(B9V) = 0.01  ; Deng20 (J-W1=-0.05, J-Ks=-0.06)
 => adopt (Ks-W1)(B9V) = 0.038 [updated 12/29/2019]
 
+(u'-g')(B9V) = 0.71 ; Deng20
+
+(g-r)(B9V) = -0.16 ; Deng20
+(g-r)(B9V) = -0.28 ; Covey07
+
+(r-i)(B9V) = -0.20 ; Deng20
+
+(i-z)(B9V) = -0.14 ; Deng20
+
+(z-y)(B9V) = -0.05 ; Deng20
+
+(Bp-Rp)(B9V) = -0.05  ; Deng20
 (Bp-Rp)(B9V) = -0.092 ; Evans18 trend for V-I=-0.061
 => adopt (Bp-Rp)(B9V) = -0.092 [updated 10/8/2023]
 
@@ -150,8 +181,6 @@ the revised calibration (10/11/2011).
 (G-V)(B9V) =  0.029 ; HIP_76234 B9V V=6.346 G=6.3740 E(B-V)=0.008 (calc from Kervella22)
 (G-V)(B9V) =  0.029 ; HIP_60183 B9V V=6.183 G=6.2107 E(B-V)=0.015 (calc from Kervella22)
 => adopt (G-V)(B9V) = 0.02 [updated 2/20/2023] 
-
-(g-r)(B9V) = -0.28 ; Covey07
 
 Teff(B9V) =  10330 K ; Bertone04[ATLAS]
 Teff(B9V) = 10358 K ; sec. stan. HD 16046 (see below)

@@ -20,22 +20,21 @@ Skiff08 lists one B2.5V standard: HD 37016 (B2.5V; MK78)
 
 None of the B2.5V standards has an excellent pedigree.
 
-All Q-method calculations in this file have been updated using
-revised calibration (10/9/2011).
+All Q-method calculations in this file have been updated using revised calibration (10/9/2011).
 
-B-V(B2.5V) = -0.221  ; EEM dereddened weak standard sig Sgr via Q-method
-B-V(B2.5V) = -0.22   ;  Fitzgerald70
-B-V(B2.5V) = -0.198  ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
+(B-V)(B2.5V) = -0.221 ; EEM dereddened weak standard sig Sgr via Q-method
+(B-V)(B2.5V) =  -0.22  ;  Fitzgerald70
+(B-V)(B2.5V) = -0.198 ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
+=> adopt (U-B)(B2.5V)  = -0.732 [updated 9/26/2019]
 
-U-B(B2.5V) = -0.72   ; Fitzgerald70
-U-B(B2.5V) = -0.732  ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
-U-B(B2.5V) = -0.812  ; EEM dereddened weak stan. sig Sgr via Q-method
-=> adopt (U-B)(B2.5V)  = -0.732 *** [updated 9/26/2019]
+(U-B)(B2.5V) =  -0.72  ; Fitzgerald70
+(U-B)(B2.5V) = -0.732 ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
+(U-B)(B2.5V) = -0.812 ; EEM dereddened weak stan. sig Sgr via Q-method
 => adopt (B-V)(B2.5V)  = -0.198 [updated 9/26/2019]
 => adopt     Q(B2.5V)  = -0.589 (=(U-B)-0.72*(B-V) = -0.732 - 0.72*-0.198)
-=> adopt (V-I)(B2.5V)  = -0.210
-=> adopt (V-R)(B2.5V)  = -0.087
-=> adopt (R-I)(B2.5V)  = -0.111 
+=> adopt (V-Ic)(B2.5V) = -0.210
+=> adopt (V-Rc)(B2.5V) = -0.087
+=> adopt (R-Ic)(B2.5V) = -0.111 
 => adopt (V-J)(B2.5V)  = -0.413
 => adopt (V-H)(B2.5V)  = -0.518
 => adopt (V-Ks)(B2.5V) = -0.544
@@ -48,6 +47,12 @@ U-B(B2.5V) = -0.812  ; EEM dereddened weak stan. sig Sgr via Q-method
 (R-Ic)(B2.5V) = -0.123 ; sec. stan. HD 175191 = sig Sgr = HIP 92855
 
 (V-Ic)(B2.5V) = -0.209 ; sec. stan. HD 175191 = sig Sgr = HIP 92855
+
+(V-J)(B2.5V)  = -0.43  ; Wegner14/2MASS
+
+(V-H)(B2.5V)  = -0.48  ; Wegner14/2MASS
+
+(V-Ks)(B2.5V) = -0.54  ; Wegner14/2MASS
 
 (Bp-Rp)(B2.5V) = -0.292 ; Evans18 trend for V-I=-0.210
 

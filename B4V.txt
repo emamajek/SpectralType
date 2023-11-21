@@ -20,61 +20,92 @@ Skiff08 did not flag any stars as B4V standards.
 All Q-method dereddening calculations in this file have been updated
 with the revised calibration (10/9/2011).
 
-B-V(B4V)   = -0.18   ; Morgan53,Johnson63(halfway B3V-B5V),Johnson65(halfway B3V-B5V),Fitzgerald70,Morgan71(halfway B3V-B5V)
-B-V(B4V)   = -0.175  ; dereddened weak standard 90 Leo
-B-V(B4V)   = -0.17   ; halfway between B3V (-0.18) and B5V (-0.16)
-B-V(B4V)   = -0.166  ; EEM dereddened 35 HIP B4V stars (Q-method, E(B-V)<0.1)
-B-V(B4V)   = -0.16   ; KenyonHartmann95 
-B-V(B4V)   = -0.150  ; EEM dereddened nearest B4V star HD 103079 
+(B-V)(B4V) = -0.18  ; Morgan53,Johnson63(halfway B3V-B5V),Johnson65(halfway B3V-B5V),Fitzgerald70,Morgan71(halfway B3V-B5V)
+(B-V)(B4V) = -0.175 ; dereddened weak standard 90 Leo
+(B-V)(B4V) = -0.17  ; halfway between B3V (-0.18) and B5V (-0.16)
+(B-V)(B4V) = -0.166 ; EEM dereddened 35 HIP B4V stars (Q-method, E(B-V)<0.1)
+(B-V)(B4V) =  -0.16 ; KenyonHartmann95 
+(B-V)(B4V) = -0.150 ; EEM dereddened nearest B4V star HD 103079
+(B-V)(B4V) =  -0.15 ; Deng20 
 
 The bluest B4V star that I can find is HIP 30788 (B-V = -0.169+-0.007), so <(B-V)o> is probably near this value.
 
-U-B(B4V)   = -0.558  ; EEM dereddened nearest B4V star HD 103079
-U-B(B4V)   = -0.619  ; EEM dereddened 35 HIP B4V stars (Q-method, E(B-V)<0.1)
-U-B(B4V)   = -0.63   ; Fitzgerald70
-U-B(B4V)   = -0.635  ; Johnson65 (halfway B3V-B5V)
-U-B(B4V)   = -0.645  ; Schmidt-Kaler82 (halfway B3V-B5V) 
-U-B(B4V)   = -0.651  ; EEM dereddened weak standard 90 Leo
-U-B(B4V)   = -0.66   ; Bessell98
-=> adopt (U-B)(B4V)  = -0.619 ***
+(U-B)(B4V) = -0.558  ; EEM dereddened nearest B4V star HD 103079
+(U-B)(B4V) = -0.619  ; EEM dereddened 35 HIP B4V stars (Q-method, E(B-V)<0.1)
+(U-B)(B4V) =  -0.63   ; Fitzgerald70
+(U-B)(B4V) =  -0.635  ; Johnson65 (halfway B3V-B5V)
+(U-B)(B4V) =  -0.645  ; Schmidt-Kaler82 (halfway B3V-B5V) 
+(U-B)(B4V) = -0.651  ; EEM dereddened weak standard 90 Leo
+(U-B)(B4V) =  -0.66   ; Bessell98
+=> adopt (U-B)(B4V)  = -0.619 
 => adopt (B-V)(B4V)  = -0.165
 => adopt     Q(B4V)  = -0.500 (=(U-B)-0.72*(B-V) = -0.619 - 0.72*-0.165)
 => adopt (V-I)(B4V)  = -0.175
 => adopt (V-R)(B4V)  = -0.074
 => adopt (R-I)(B4V)  = -0.101
 
-V-Rj(B4V) = -0.07 ; Johnson65 (halfway B3V-B5V) 
+(V-Rj)(B4V) = -0.07 ; Johnson65 (halfway B3V-B5V)
 
-V-Ij(B4V) = -0.245 ; Johnson65 (halfway B3V-B5V) 
+(V-Rc)(B4V) = -0.095 ; Winkler97(interp B3V-B5V)
 
-V-Jj(B4V) = -0.40 ; Johnson65 (halfway B3V-B5V) 
+(V-Ij)(B4V) = -0.245 ; Johnson65 (halfway B3V-B5V)
 
-V-Kj(B4V) = -0.53 ; Johnson65 (halfway B3V-B5V) 
+(V-Ic)(B4V) = -0.20 ; Winkler97(interp B3V-B5V)
 
-V-Lj(B4V) = -0.51 ; Johnson65 (halfway B3V-B5V) 
+(V-Jj)(B4V) = -0.40 ; Johnson65 (halfway B3V-B5V)
 
-(V-Ks)(B4V) =  -0.354 ; HIP_60000_ B4V d= 93.2575pc, (B-V)=0.007 (dereddened from Kervella19)
-(V-Ks)(B4V) =  -0.398 ; HIP_63945_ B4V d= 122.175pc, (B-V)=0.013 (dereddened from Kervella19)
-(V-Ks)(B4V) =  -0.403 ; HIP_35202_ B4V d= 278.629pc, (B-V)=0.016 (dereddened from Kervella19)
-(V-Ks)(B4V) =  -0.428 ; HIP_39238_ B4V d= 234.907pc, (B-V)=0.019 (dereddened from Kervella19)
-(V-Ks)(B4V) =  -0.445 ; HIP_30700_ B4V d= 327.654pc, (B-V)=0.028 (dereddened from Kervella19)
-(V-Ks)(B4V) = -0.447 ; from intrinsic color sequence for (U-B)o=-0.619 
-(V-Ks)(B4V) =  -0.462 ; HIP_30788_ B4V d= 134.716pc, (B-V)=0.002 (dereddened from Kervella19)
-(V-Ks)(B4V) =  -0.467 ; HIP_52736_ B4V d= 150.173pc, (B-V)=0.020 (dereddened from Kervella19)
-(V-Ks)(B4V) =  -0.479 ; HIP_39138_ B4V d= 142.857pc, (B-V)=0.005 (dereddened from Kervella19)
-(V-Ks)(B4V) =  -0.527 ; HIP_58326_ B4V d= 166.806pc, (B-V)=0.029 (dereddened from Kervella19)
+(V-J)(B4V)  = -0.36 ; Wegner14/2MASS
+
+(V-H)(B4V)  = -0.41 ; Wegner14/2MASS 
+
+(V-Kj)(B4V) = -0.53 ; Johnson65 (halfway B3V-B5V)
+
+(V-K)(B4V)  = -0.545 ; Winkler97/SAAO(interp B3V-B5V)
+
+(V-Ks)(B4V) =  -0.354 ; HIP_60000_ B4V d=93.2575pc, (B-V)=0.007 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.398 ; HIP_63945_ B4V d=122.175pc, (B-V)=0.013 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.403 ; HIP_35202_ B4V d=278.629pc, (B-V)=0.016 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.428 ; HIP_39238_ B4V d=234.907pc, (B-V)=0.019 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.445 ; HIP_30700_ B4V d=327.654pc, (B-V)=0.028 (dereddened from Kervella19)
+(V-Ks)(B4V) = -0.447 ; from intrinsic color sequence for (U-B)o=-0.619
+(V-Ks)(B4V) = -0.46 ; Wegner14/2MASS 
+(V-Ks)(B4V) =  -0.462 ; HIP_30788_ B4V d=134.716pc, (B-V)=0.002 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.467 ; HIP_52736_ B4V d=150.173pc, (B-V)=0.020 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.479 ; HIP_39138_ B4V d=142.857pc, (B-V)=0.005 (dereddened from Kervella19)
+(V-Ks)(B4V) =  -0.527 ; HIP_58326_ B4V d=166.806pc, (B-V)=0.029 (dereddened from Kervella19)
 => adopt (V-Ks)(B4V) = -0.447 [updated 4/8/2022]
 => adopt (V-J)(B4V)  = -0.338 [updated 4/8/2022]
 => adopt (V-H)(B4V)  = -0.431 [updated 4/8/2022]
 => adopt (H-Ks)(B4V) = -0.016 [updated 4/8/2022]
 => adopt (J-H)(B4V)  = -0.092 [updated 4/8/2022]
 
-(Ks-W1)(B4V) = 0.028 ; EEM trend for d<30pc for B-V=-0.165
+(J-H)(B4V) = -0.07 ; Winkler97/SAAO(interp B3V-B5V)
+(J-H)(B4V) = -0.09 ; Deng20/2MASS
+
+(H-Ks)(B4V) = -0.03 ; Deng20/2MASS
+(H-K)(B4V)  = -0.06 ; Winkler97/SAAO(interp B3V-B5V)
+
+(J-Ks)(B4V) = -0.12 ; Deng20/2MASS
+
+(V-Lj)(B4V) = -0.51 ; Johnson65 (halfway B3V-B5V) 
+
+(Ks-W1)(B4V) =  0.028 ; EEM trend for d<30pc for B-V=-0.165
+(Ks-W1)(B4V) = -0.03  ; Deng20 (J-W1=-0.15, J-Ks=-0.12)
 => adopt (Ks-W1)(B4V) = 0.028 [updated 12/29/2019]
 
 (Bp-Rp)(B4V) = -0.245 ; Evans18 trend for V-I=-0.175
+(Bp-Rp)(B4V) = -0.25  ; Deng20
 
+(u'-g')(B4V) = 0.10 ; Deng20
+
+(g-r)(B4V) = -0.26  ; Deng20
 (g-r)(B4V) = -0.437 ; Covey07 interp B3V -0.46 to B5/7V -0.39
+
+(r-i)(B4V) = -0.27 ; Deng20
+
+(i-z)(B4V) = -0.20 ; Deng20
+
+(z-y)(B4V) = -0.11 ; Deng20
 
 (G-V)(B4V) =  -0.064 ; HIP_80405 B4V V=7.067 G=6.9516 E(B-V)=0.354 (calc from Kervella22)
 (G-V)(B4V) = -0.025 ; HIP_118214 B4Vne V=6.531 G=6.4951 E(B-V)=0.075 (calc from Kervella22)
@@ -245,7 +276,7 @@ HD 72436 = HR 3373 (J0831-3903)
 HD 19736 = HR 950
 HD 48383 = HR 2475
 HD 56733 = HR 2769  ; Hiltner69, Thackeray73
-HR 2871             ; HIltner69, Corbally84 (fainter of 9" cpm pair)
+HR 2871             ; Hiltner69, Corbally84 (fainter of 9" cpm pair)
 HD 72436 = HR 3373  ; Hiltner69, Garrison77, Corbally84
 HD 75112 = HR 3490  ; Hiltner69, Thackeray73
 HD 103079 = HR 4549 ; Hiltner69, Houk75, deVaucouleurs57(B4IV) [Sco-Cen; 1.8" binary]

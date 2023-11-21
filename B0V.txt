@@ -46,31 +46,33 @@ Skiff08 lists two B0V standards: Hd 36512 (MK73) & HD 149438 (MK78).
 All UBV dereddenings in this file have been updated using a revised
 Q-method calibration (10/9/2011).
 
-B-V(B0V)   =  -0.32  ; JohnsonMorgan53 (with parentheses, i.e. uncertain)
-B-V(O9.7V) =  -0.310 ; EEM dereddened ups Ori (was B0V, now O9.7V standard) 
-B-V(B0V)   = -0.301 ; from (U-B)o=-1.07 - trend with Q
-B-V(B0V)   =  -0.30  ; Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,KenyonHartmann95
-B-V(B0V)   =  -0.30  ; Morgan53,Johnson63,JohnsonBorgman63,Johnson65,Johnson66 
-B-V(B0V)   =  -0.300 ; EEM dereddened N=5 B0V HIP stars (Q-method, E(B-V)<0.3)
-B-V(B0.2V) =  -0.300 ; EEM dereddened B0.2V standard HD 2083 via Q-method
-B-V(B0.2V) =  -0.297 ; EEM dereddened B0.2V non-standard tet Car via Q-method
-B-V(B0V)   =  -0.296 ; EEM dereddened primary standard Tau Sco*
+(B-V)(B0V)   =  -0.32  ; JohnsonMorgan53 (with parentheses, i.e. uncertain)
+(B-V)(O9.7V) =  -0.310 ; EEM dereddened ups Ori (was B0V, now O9.7V standard)
+(B-V)(B0V)   =  -0.31  ; Deng20
+(B-V)(B0V)   = -0.301 ; from (U-B)o=-1.07 - trend with Q
+(B-V)(B0V)   =  -0.30  ; Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,KenyonHartmann95
+(B-V)(B0V)   =  -0.30  ; Morgan53,Johnson63,JohnsonBorgman63,Johnson65,Johnson66 
+(B-V)(B0V)   =  -0.300 ; EEM dereddened N=5 B0V HIP stars (Q-method, E(B-V)<0.3)
+(B-V)(B0.2V) =  -0.300 ; EEM dereddened B0.2V standard HD 2083 via Q-method
+(B-V)(B0.2V) =  -0.297 ; EEM dereddened B0.2V non-standard tet Car via Q-method
+(B-V)(B0V)   =  -0.296 ; EEM dereddened primary standard Tau Sco*
+(B-V)(B0V)   =  -0.26  ; Wegner14
 => adopt (B-V)(B0V) = -0.301 [updated 2/7/2020]
 
 The bluest B-V I can find for a B0V star is HIP 25923 (B-V = -0.261),
 so <(B-V)o> is likely to be bluer than that.
 
-U-B(B0V)   = -1.055 ; EEM dereddened primary standard tau Sco (using Q-method)*
-U-B(B0.2V) = -1.057 ; EEM dereddened B0.2V non-standard tet Car via Q-method
-U-B(B0V)   = -1.066 ; EEM dereddened primary stan. tau Sco (using logN_HI)*
-U-B(B0V)   = -1.067 ; EEM dereddened N=5 B0V HIP stars (Q-method, E(B-V)<0.3)*
-U-B(B0.2V) = -1.068 ; EEM dereddened B0.2V standard HD 2083 via Q-method
-U-B(B0V)   = -1.07  ; Bessell98
-U-B(B0V)   = -1.08  ; Johnson63,Johnson65,Johnson66,Fitzgerald70,Schmidt-Kaler82
-U-B(B0V)   = -1.10  ; JohnsonBorgman63
-U-B(O9.7V) = -1.100 ; EEM dereddened O9.7V ups Ori (using Q-method)
-U-B(O9.7V) = -1.102 ; EEM dereddened O9.7V ups Ori using Lyalpha=>E(B-V)=>E(U-B)
-U-B(B0V)   = -1.13  ; JohnsonMorgan53 (with parentheses, i.e. uncertain)
+(U-B)(B0V)   = -1.055 ; EEM dereddened primary standard tau Sco (using Q-method)*
+(U-B)(B0.2V) = -1.057 ; EEM dereddened B0.2V non-standard tet Car via Q-method
+(U-B)(B0V)   = -1.066 ; EEM dereddened primary stan. tau Sco (using logN_HI)*
+(U-B)(B0V)   = -1.067 ; EEM dereddened N=5 B0V HIP stars (Q-method, E(B-V)<0.3)*
+(U-B)(B0.2V) = -1.068 ; EEM dereddened B0.2V standard HD 2083 via Q-method
+(U-B)(B0V)   = -1.07  ; Bessell98
+(U-B)(B0V)   = -1.08  ; Johnson63,Johnson65,Johnson66,Fitzgerald70,Schmidt-Kaler82
+(U-B)(B0V)   = -1.10  ; JohnsonBorgman63
+(U-B)(O9.7V) = -1.100 ; EEM dereddened O9.7V ups Ori (using Q-method)
+(U-B)(O9.7V) = -1.102 ; EEM dereddened O9.7V ups Ori using Lyalpha=>E(B-V)=>E(U-B)
+(U-B)(B0V)   = -1.13  ; JohnsonMorgan53 (with parentheses, i.e. uncertain)
 => adopt (U-B)(B0V) = -1.07 *** [updated 2/7/2020]
 => adopt Q(B0V)     = -0.854    [updated 2/7/2020]
 => adopt (V-Ks)(B0V) = -0.958
@@ -80,23 +82,53 @@ U-B(B0V)   = -1.13  ; JohnsonMorgan53 (with parentheses, i.e. uncertain)
 => adopt (J-H)(B0V) = -0.159
 => adopt (V-I)(B0V) = -0.354
 
-V-Rj(B0V) = -0.13 ; Johnson65
+(V-Rj)(B0V) = -0.13 ; Johnson65
 
-V-Ij(B0V) = -0.41 ; Johnson65
+(V-Rc)(B0V) = -0.16 ; Winkler97 
 
-V-Jj(B0V) = -0.70 ; Johnson65 
+(V-Ij)(B0V) = -0.41 ; Johnson65
 
-V-Kj(B0V) = -0.93 ; Johnson65
+(V-Ic)(B0V) = -0.34 ; Winkler97 
 
-V-Lj(B0V) = -0.91 ; Johnson65
+(V-Jj)(B0V) = -0.70 ; Johnson65
 
+(V-J)(B0V)  = -0.58 ; Wegner14 (2MASS)
 
-(Ks-W1)(B0V) = 0.016 ; EEM trend for d<30pc for B-V=-0.307
+(V-H)(B0V)  = -0.67 ; Wegner14 (2MASS) 
+
+(V-Kj)(B0V) = -0.93 ; Johnson65
+
+(V-K)(B0V)  = -0.89 ; Winkler97/SAAO
+
+(V-Ks)(B0V) = -0.74 ; Wegner14 (2MASS) [note: how can these differ by ~0.2 mag between systems?!]
+
+(V-Lj)(B0V) = -0.91 ; Johnson65
+
+(J-H)(B0V) = -0.09 ; Deng20/2MASS 
+(J-H)(B0V) = -0.11 ; Winkler97/SAAO
+
+(H-Ks)(B0V) = -0.04 ; Deng20/2MASS 
+(H-K)(B0V)  = -0.08 ; Winkler97/SAAO
+
+(J-Ks)(B0V) = -0.13 ; Deng20/2MASS
+
+(Ks-W1)(B0V) =  0.016 ; EEM trend for d<30pc for B-V=-0.307
+(Ks-W1)(B0V) = -0.04  ; Deng20 (J-W1=-0.17, J-Ks=-0.13)
 => adopt (Ks-W1)(B0V) = 0.016 [updated 12/29/2019]
 
+(Bp-Rp)(B0V) = -0.31  ; Deng20
 (Bp-Rp)(B0V) = -0.491 ; Evans18 trend for V-I=-0.354
 
+(u'-g')(B0V) = -0.42 ; Deng20
+
+(g-r)(B0V) = -0.38 ; Deng20
 (g-r)(B0V) = -0.59 ; Covey07
+
+(r-i)(B0V) = -0.32 ; Deng20
+
+(i-z)(B0V) = -0.26 ; Deng20
+
+(z-y)(B0V) = -0.18 ; Deng20
 
 (G-V)(B0V) =   -0.260 ; HIP_12469 B0Ve V=10.775 G=10.4085 E(B-V)=0.737 (calc from Kervella22)
 (G-V)(B0V) =   -0.138 ; HIP_107164 B0V:pe V=6.923 G=6.7403 E(B-V)=0.305 (calc from Kervella22)

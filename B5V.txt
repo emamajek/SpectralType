@@ -41,40 +41,50 @@ Skiff08 flagged HD 34759 (MK73) and HD 36936 (MK78) as B5V standards.
 Dereddening calculations using the Q-method in this file have been
 updated to the revised calibration (10/10/2011).
 
-B-V(B5V)  =  -0.148 ; Crawford76
-B-V(B5V)  = -0.149 ; sec. stan. kap Hya (EEM dereddened via Q-method)
-B-V(B5V)  =  -0.15  ; Garrison67
-B-V(B5V)  = -0.156 ; sec. stan. nu And (EEM dereddened via Q-method) 
-B-V(B5V)  = -0.156 ; prim. stan. rho Aur (EEM dereddened via Q-method)
-B-V(B5V)  = -0.156 ; EEM dereddened 97 HIP B5V stars (Q-method, E(B-V)<0.1)
-B-V(B5V)  =  -0.16  ; JohnsonMorgan53,Morgan53,Johnson63,Johnson65,Johnson66,Fitzgerald70, Morgan71
-B-V(B5V)  =  -0.17  ; SchmidtKaler82
-=> adopt (B-V)(B5V)  = -0.156 ** [updated 9/26/2019]
+(B-V)(B5V) =  -0.13 ; Deng20 
+(B-V)(B5V) =  -0.148 ; Crawford76
+(B-V)(B5V) = -0.149 ; sec. stan. kap Hya (EEM dereddened via Q-method)
+(B-V)(B5V) =  -0.15  ; Garrison67
+(B-V)(B5V) =  -0.15  ; Wegner14 
+(B-V)(B5V) = -0.156 ; sec. stan. nu And (EEM dereddened via Q-method) 
+(B-V)(B5V) = -0.156 ; prim. stan. rho Aur (EEM dereddened via Q-method)
+(B-V)(B5V) = -0.156 ; EEM dereddened 97 HIP B5V stars (Q-method, E(B-V)<0.1)
+(B-V)(B5V) =  -0.16  ; JohnsonMorgan53,Morgan53,Johnson63,Johnson65,Johnson66,Fitzgerald70, Morgan71
+(B-V)(B5V) =  -0.17  ; SchmidtKaler82
+=> adopt (B-V)(B5V) = -0.156 ** [updated 9/26/2019]
 
 The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V)o> is probably near this value.
 
-U-B(B5V)  = -0.551 ; sec. stan. kap Hya (EEM dereddened via Q-method)
-U-B(B5V)  =  -0.56  ; Johnson63,Johnson65,Johnson66
-U-B(B5V)  = -0.564 ; sec. stan. HD 36936 (EEM dereddened via Q-method) 
-U-B(B5V)  = -0.581 ; pri. stan. rho Aur (EEM dereddened via Q-method)
-U-B(B5V)  = -0.581 ; ter. stan. nu And (EEM dereddened via Q-method)
-U-B(B5V)  =  -0.58  ; Bessell98, Fitzgerald70, Schmidt-Kaler82
-U-B(B5V)  = -0.578 ; EEM dereddened N=97 HIP B5V stars (Q-method, E(B-V)<0.1)
-=> adopt (U-B)(B5V)  = -0.581 [updated 9/26/2019]
-=> adopt     Q(B5V)  = -0.469 (=(U-B)-0.72*(B-V) = -0.581 - 0.72*-0.156)
-=> adopt (V-I)(B5V)  = -0.165
-=> adopt (V-R)(B5V)  = -0.070
-=> adopt (R-I)(B5V)  = -0.095
+(U-B)(B5V) = -0.551 ; sec. stan. kap Hya (EEM dereddened via Q-method)
+(U-B)(B5V) =  -0.56  ; Johnson63,Johnson65,Johnson66
+(U-B)(B5V) = -0.564 ; sec. stan. HD 36936 (EEM dereddened via Q-method) 
+(U-B)(B5V) = -0.581 ; pri. stan. rho Aur (EEM dereddened via Q-method)
+(U-B)(B5V) = -0.581 ; ter. stan. nu And (EEM dereddened via Q-method)
+(U-B)(B5V) =  -0.58  ; Bessell98, Fitzgerald70, Schmidt-Kaler82
+(U-B)(B5V) = -0.578 ; EEM dereddened N=97 HIP B5V stars (Q-method, E(B-V)<0.1)
+=> adopt (U-B)(B5V) = -0.581 [updated 9/26/2019]
+=> adopt     Q(B5V) = -0.469 (=(U-B)-0.72*(B-V) = -0.581 - 0.72*-0.156)
+=> adopt (V-I)(B5V) = -0.165
+=> adopt (V-R)(B5V) = -0.070
+=> adopt (R-I)(B5V) = -0.095
 
-V-Rj(B5V) = -0.06 ; Johnson65
+(V-Rj)(B5V) = -0.06 ; Johnson65
 
-V-Ij(B5V) = -0.22 ; Johnson65
+(V-Rc)(B5V) = -0.09 ; Winkler97
 
-V-Jj(B5V) = -0.36 ; Johnson65 
+(V-Ij)(B5V) = -0.22 ; Johnson65
 
-V-Kj(B5V) = -0.47 ; Johnson65
+(V-Ic)(B5V) = -0.18 ; Winkler97
 
-V-Lj(B5V) = -0.45 ; Johnson65
+(V-Jj)(B5V) = -0.36 ; Johnson65
+
+(V-J)(B5V)  = -0.33 ; Wegner14/2MASS
+
+(V-H)(B5V)  = -0.37 ; Wegner14/2MASS 
+
+(V-Kj)(B5V) = -0.47 ; Johnson65
+
+(V-K)(B5V)  = -0.50 ; Winkler97/SAAO
 
 (V-Ks)(B5V) =  -0.229 ; HIP_25025_ B5V d= 198.177pc, (B-V)=0.021 (dereddened from Kervella19)
 (V-Ks)(B5V) =  -0.267 ; HIP_37915_ B5V d= 198.255pc, (B-V)=0.008 (dereddened from Kervella19)
@@ -91,6 +101,7 @@ V-Lj(B5V) = -0.45 ; Johnson65
 (V-Ks)(B5V) =  -0.411 ; HIP_85385_ B5V d= 185.322pc, (B-V)=0.027 (dereddened from Kervella19)
 (V-Ks)(B5V) =  -0.411 ; HIP_76945_ B5V d= 128.337pc, (B-V)=0.011 (dereddened from Kervella19)
 (V-Ks)(B5V) = -0.417 ; from intrinsic color sequence for (U-B)o=-0.581
+(V-Ks)(B5V) =  -0.42  ; Wegner14/2MASS  
 (V-Ks)(B5V) = -0.427 ; HIP_3881_ [standard] B5V d= 171.644pc, (B-V)=0.017 (dereddened from Kervella19)
 (V-Ks)(B5V) =  -0.448 ; HIP_75647_ B5V d= 141.503pc, (B-V)=0.014 (dereddened from Kervella19)
 => adopt (V-Ks)(B5V) = -0.38  [updated 4/8/2022]
@@ -99,12 +110,35 @@ V-Lj(B5V) = -0.45 ; Johnson65
 => adopt (H-Ks)(B5V) = -0.010 [updated 4/8/2022]
 => adopt (J-H)(B5V)  = -0.084 [updated 4/8/2022]
 
-(Ks-W1)(B5V) = 0.029 ; EEM trend for d<30pc for B-V=-0.156
+(J-H)(B5V) = -0.06 ; Winkler97/SAAO
+(J-H)(B5V) = -0.09 ; Deng20/2MASS
+
+(H-Ks)(B5V) = -0.02 ; Deng20/2MASS 
+(H-K)(B5V)  = -0.06 ; Winkler97/SAAO
+
+(J-Ks)(B5V) = -0.11 ; Deng20/2MASS
+
+(V-Lj)(B5V) = -0.45 ; Johnson65
+
+(Ks-W1)(B5V) =  0.029 ; EEM trend for d<30pc for B-V=-0.156
+(Ks-W1)(B5V) = -0.03  ; Deng20
 => adopt (Ks-W1)(B5V) = 0.029 [updated 12/29/2019]
 
+(u'-g')(B5V) = 0.23 ; Deng20
+
+(g-r)(B5V) = -0.23  ; Deng20
+(g-r)(B5V) = -0.413 ; Covey07 interp B3V -0.46 to B5/7 -0.39
+
+(r-i)(B5V) = -0.25 ; Deng20
+
+(i-z)(B5V) = -0.19 ; Deng20
+
+(z-y)(B5V) = -0.10 ; Deng20 
+
+(Bp-Rp)(B5V) = -0.21  ; Deng20
 (Bp-Rp)(B5V) = -0.231 ; Evans18 trend for V-I=-0.165
 
-(g-r)(B5V) = -0.413 ; Covey07 interp B3V -0.46 to B5/7 -0.39
+
 
 (G-V)(B5V) = -0.003 ; HIP_78540 B5V V=6.385 G=6.3588 E(B-V)=0.160 (calc from Kervella22)
 (G-V)(B5V) =   0.002 ; HIP_55350 B5V V=6.410 G=6.3817 E(B-V)=0.212 (calc from Kervella22)

@@ -30,40 +30,52 @@ GrayNstars standards: HD 21071 (= HR 1029) - B7V
 All dereddenings done via Q-method in this file have been updated with
 the revised calibration (10/17/2011).
 
-B-V(B7V)  = -0.144 ; prim. stan. HD 21071 (EEM dereddened via Q-method)
-B-V(B7V)  =  -0.14  ; Bessell79
-B-V(B7V)  =  -0.13  ; JohnsonMorgan53,Fitzgerald70,SchmidtKaler82
-B-V(B7V)  = -0.128 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
-B-V(B7V)  = -0.127 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
-B-V(B7V)  =  -0.12  ; Morgan53,Johnson63,Johnson65,Johnson66
-B-V(B7V)  = -0.112 ; deprecated standard alf Leo
-B-V(B7V)  =  -0.11  ; KenyonHartmann95 
+(B-V)(B7V) = -0.144 ; prim. stan. HD 21071 (EEM dereddened via Q-method)
+(B-V)(B7V) =  -0.14  ; Bessell79
+(B-V)(B7V) =  -0.13  ; JohnsonMorgan53,Fitzgerald70,SchmidtKaler82
+(B-V)(B7V) = -0.128 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
+(B-V)(B7V) = -0.127 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
+(B-V)(B7V) =  -0.12  ; Morgan53,Johnson63,Johnson65,Johnson66
+(B-V)(B7V) = -0.112 ; deprecated standard alf Leo
+(B-V)(B7V) =  -0.11  ; KenyonHartmann95
+(B-V)(B7V) =  -0.08 ; Deng20 
 => adopt (B-V)(B7V)  = -0.128 [updated 4/8/2022]
 
-U-B(B8V)  =  -0.364 ; adopted for B8V 
-U-B(B7V)  =  -0.365 ; deprecated standard alf Leo
-U-B(B7V)  =  -0.41  ; Bessell98
-U-B(B7V)  =  -0.42  ; Johnson63,Johnson65,Johnson66
-U-B(B7V)  =  -0.43  ; Fitzgerald70, Schmidt-Kaler82 
-U-B(B7V)  = -0.455 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
-U-B(B7V)  = -0.459 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
-U-B(B6V)  =  -0.504 ; adopted for B6V 
-U-B(B7V)  = -0.530 ; pri. stan. HD 21071 (EEM dereddened via Q-method)
+(U-B)(B8V)  =  -0.364 ; adopted for B8V 
+(U-B)(B7V)  =  -0.365 ; deprecated standard alf Leo
+(U-B)(B7V)  =  -0.41  ; Bessell98
+(U-B)(B7V)  =  -0.42  ; Johnson63,Johnson65,Johnson66
+(U-B)(B7V)  =  -0.43  ; Fitzgerald70, Schmidt-Kaler82 
+(U-B)(B7V)  = -0.455 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
+(U-B)(B7V)  = -0.459 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
+(U-B)(B6V)  =  -0.504 ; adopted for B6V 
+(U-B)(B7V)  = -0.530 ; pri. stan. HD 21071 (EEM dereddened via Q-method)
 => adopt (U-B)(B7V)  = -0.459 ***
 => adopt     Q(B7V)  = -0.367 (=(U-B)-0.72*(B-V) = -0.459 - 0.72*-0.128)
 => adopt (V-I)(B7V)  = -0.132
 => adopt (V-R)(B7V)  = -0.058
 => adopt (R-I)(B7V)  = -0.075
 
-V-Rj(B7V) = -0.05 ; Johnson65
+(V-Rj)(B7V) = -0.05  ; Johnson65
 
-V-Ij(B7V) = -0.17 ; Johnson65
+(V-Rc)(B7V) = -0.06  ; Winkler97
 
-V-Jj(B7V) = -0.27 ; Johnson65 
+(R-Ic)(B7V) = -0.070 ; Bessell79
 
-V-Kj(B7V) = -0.35 ; Johnson65
+(V-Ij)(B7V) = -0.17  ; Johnson65
 
-V-Lj(B7V) = -0.33 ; Johnson65
+(V-Ic)(B7V) = -0.120 ; Bessell78
+(V-Ic)(B7V) = -0.14  ; Winkler97
+
+(V-Jj)(B7V) = -0.27 ; Johnson65
+
+(V-J)(B7V)  = -0.28 ; Wenger14/2MASS
+
+(V-H)(B7V)  = -0.32 ; Wenger14/2MASS 
+
+(V-Kj)(B7V) = -0.35 ; Johnson65
+
+(V-K)(B7V)  = -0.41 ; Winkler97/SAAO
 
 (V-Ks)(B7V) =  -0.123 ; HIP_24327_ B7V d= 142.653pc, (B-V)=0.004 (dereddened from Kervella19)
 (V-Ks)(B7V) =  -0.190 ; HIP_71353_ B7V d= 107.945pc, (B-V)=0.010 (dereddened from Kervella19)
@@ -76,6 +88,7 @@ V-Lj(B7V) = -0.33 ; Johnson65
 (V-Ks)(B7V) =  -0.308 ; HIP_60379_ B7Vn d= 103.864pc, (B-V)=0.012 (dereddened from Kervella19)
 (V-Ks)(B7V) = -0.325 ; intrinsic color sequence for (U-B)o=-0.459
 (V-Ks)(B7V) =  -0.327 ; HIP_13327_ B7V d= 140.964pc, (B-V)=0.021 (dereddened from Kervella19)
+(V-Ks)(B7V) =   -0.35 ; Wenger14/2MASS 
 (V-Ks)(B7V) =  -0.375 ; HIP_76669_ B7V d= 154.847pc, (B-V)=0.019 (dereddened from Kervella19)
 (V-Ks)(B7V) =  -0.423 ; HIP_19968_ B7V d= 149.656pc, (B-V)=0.016 (dereddened from Kervella19)
 (V-Ks)(B7V) = -0.424 ; pri. stan. HD 21071 = HR 1029 (see below, a bit hotter than most B7Vs)
@@ -86,16 +99,33 @@ V-Lj(B7V) = -0.33 ; Johnson65
 => adopt (H-Ks)(B7V) = -0.004 [updated 4/8/2022]
 => adopt (J-H)(B7V)  = -0.077 [updated 4/8/2022]
 
+(J-H)(B7V) = -0.06 ; Winkler97/SAAO
+(J-H)(B7V) = -0.08 ; Deng20/2MASS
+
+(H-Ks)(B7V) = -0.02 ; Deng20/2MASS
+(H-K)(B7V)  = -0.05 ; Winkler97/SAAO
+
+(J-Ks)(B7V) = -0.10 ; Deng20/2MASS
+
+(V-Lj)(B7V) = -0.33 ; Johnson65
+
+(Ks-W1)(B7V) = 0.00  ; Deng20 (J-W1=-0.10, J-Ks=-0.10)
 (Ks-W1)(B7V) = 0.031 ; EEM trend for d<30pc for B-V=-0.128
 => adopt (Ks-W1)(B7V) = 0.031 [updated 12/29/2019]
 
-(Bp-Rp)(B7V) = -0.187 ; Evans18 trend for V-I=-0.132
+(u'-g')(B7V) = 0.45 ; Deng20
 
-V-I(B7V)  = -0.120 ; Bessell78
-
-R-I(B7V)  = -0.070 ; Bessell79
-
+(g-r)(B7V) = -0.20 ; Deng20
 (g-r)(B7V) = -0.36 ; Covey07 interp B5/7V -0.39, B8V -0.33
+
+(r-i)(B7V) = -0.23 ; Deng20
+
+(i-z)(B7V) = -0.17 ; Deng20
+
+(z-y)(B7V) = -0.07 ; Deng20
+
+(Bp-Rp)(B7V) = -0.15  ; Deng20
+(Bp-Rp)(B7V) = -0.187 ; Evans18 trend for V-I=-0.132
 
 (G-V)(B1V) = -0.025 ; HIP_76048 B7V V=6.489 G=6.4592 E(B-V)=0.029 (calc from Kervella22)
 (G-V)(B1V) = -0.016 ; HIP_16252 B7V V=6.220 G=6.1927 E(B-V)=0.075 (calc from Kervella22)
