@@ -33,7 +33,7 @@ KeenanMcNeil76 standard:        G 5-43  - M3V
 Keenan80 standard:              GJ 752A (=HD 180617) - M3-V
 Keenan83 standard:              GJ 752A (=HD 180617) - M3-V 
 Boeshaar85 standard:            GJ 725A (=HD 180617) - M3V
-Keenan85 standard:              GJ 752A (=HD 180617) - M3-V
+KeenanYorka85 standard:         GJ 752A (=HD 180617) - M3-V
 Keenan88 standard:              GJ 752A (=HD 180617) - M3-V
 Keenan89 standard:              GJ 752A (=HD 180617) - M3-V
 Kirkpatrick91 standard:         GJ 352AB - M3V (primary stan.)
@@ -199,7 +199,7 @@ of the other M3V standards. For the time being, I'll stick with GJ
 (V-Ks)(M3V) = 4.799 ; exemplar GJ 3325 = LHS 1731
 (V-Ks)(M3V) =  5.025 ; deprecated standard GJ 628
 (V-Ks)(M3V) =  6.11  ; deprecated standard GJ 22B
-=> adopt (V-Ks)(M3V) = 4.60 ***
+=> adopt (V-Ks)(M3V) = 4.60 [updated 11/15/2023]
 
 [EEM 4/27/2017: there seems to be an unusually large scatter in V-Ks
 colors among M3V "standards". I've simply rounded the mean V-Ks color
@@ -209,27 +209,77 @@ adopted that.]
 => adopt (U-B)(M3V)  = 1.181
 => adopt (V-J)(M3V)  = 3.769
 => adopt (V-H)(M3V)  = 4.348
-=> adopt (H-Ks)(M3V) = 0.252
-=> adopt (J-H)(M3V)  = 0.579
 => adopt (K-W1)(M3V) = 0.122
-=> adopt (J-Ks)(M3V) = 0.831  
 => adopt (I-Ks)(M3V) = 2.180
 
 (J-H)(M3V) = 0.62 ; Bessell88/Glass
 
+(J-H)(M3V) = 0.448 ; sec. stan. GJ_725_A_ M3V
+(J-H)(M3V) =  0.484 ; GJ_661_ M3V
+(J-H)(M3V) =  0.497 ; GJ_623_ M3.0V
+(J-H)(M3V) =  0.512 ; GJ_829_ M3.0V
+(J-H)(M3V) =  0.520 ; GJ_3193_ M3.0
+(J-H)(M3V) =  0.532 ; GJ_877_ M3V
+(J-H)(M3V) =  0.557 ; GJ_674_ M3V
 (J-H)(M3V) = 0.563 ; Bessell88(Glass->2MASS)
+(J-H)(M3V) = 0.565 ; ter. stan. GJ_687_ M3.0V
+(J-H)(M3V) =  0.570 ; GJ_618_A_ M3V
+(J-H)(M3V) =  0.577 ; GJ_628_ M3V
+(J-H)(M3V) =  0.577 ; GJ_747_ M3V
+(J-H)(M3V) = 0.578 ; sec. stan. GJ_251_ M3V
+(J-H)(M3V) = 0.579 ; V-Ks vs J-H for V-Ks=4.60
+(J-H)(M3V) =  0.587 ; GJ_4248_ M3.0V
 (J-H)(M3V) = 0.590 ; Reid CNS3 sample M3 median value (N=24)
+(J-H)(M3V) =  0.599 ; GJ_793_ M3V
+(J-H)(M3V) =  0.602 ; GJ_48_ M3.0V
+=> adopt (J-H)(M3V) = 0.579 [updated 11/15/2023]
 
 (H-K)(M3V) = 0.23 ; Beuermann06/CIT
 (H-K)(M3V) = 0.25 ; Bessell88/Glass
 
+(H-Ks)(M3V) =  0.203 ; GJ_793_ M3V
+(H-Ks)(M3V) = 0.222 ; ter. stan. GJ_687_ M3.0V
+(H-Ks)(M3V) =  0.226 ; GJ_623_ M3.0V
+(H-Ks)(M3V) =  0.232 ; GJ_661_ M3V
+(H-Ks)(M3V) =  0.249 ; GJ_747_ M3V
+(H-Ks)(M3V) =  0.250 ; GJ_48_ M3.0V
+(H-Ks)(M3V) = 0.251 ; sec. stan. GJ_251_ M3V
 (H-Ks)(M3V) = 0.251 ; Reid CNS3 sample M3 median value (N=24)
+(H-Ks)(M3V) = 0.252 ; trend V-Ks vs H-Ks for V-Ks=4.60 
+(H-Ks)(M3V) =  0.273 ; GJ_618_A_ M3V
+(H-Ks)(M3V) =  0.273 ; GJ_877_ M3V
 (H-Ks)(M3V) = 0.277 ; Bessell88(Glass->2MASS)
+(H-Ks)(M3V) =  0.278 ; GJ_3193_ M3.0
+(H-Ks)(M3V) =  0.284 ; GJ_829_ M3.0V
+(H-Ks)(M3V) =  0.297 ; GJ_4248_ M3.0V
+(H-Ks)(M3V) =  0.298 ; GJ_628_ M3V
+(H-Ks)(M3V) =  0.299 ; GJ_674_ M3V
+(H-Ks)(M3V) = 0.309 ; sec. stan. GJ_725_A_ M3V
+=> adopt (H-Ks)(M3V) = 0.252 [updated 11/15/2023]
 
 (J-K)(M3V) = 0.85 ; Beuermann06/CIT
 (J-K)(M3V) = 0.87 ; Bessell88/Glass
 
-(J-Ks)(M3V) = 0.835; Bessell88(Glass->2MASS)
+(J-Ks)(M3V) =  0.716 ; GJ_661_ M3V
+(J-Ks)(M3V) =  0.723 ; GJ_623_ M3.0V
+(J-Ks)(M3V) = 0.757 ; sec. stan. GJ_725_A_ M3V
+(J-Ks)(M3V) = 0.787 ; ter. stan. GJ_687_ M3.0V
+(J-Ks)(M3V) =  0.796 ; GJ_829_ M3.0V
+(J-Ks)(M3V) =  0.798 ; GJ_3193_ M3.0
+(J-Ks)(M3V) =  0.802 ; GJ_793_ M3V
+(J-Ks)(M3V) =  0.805 ; GJ_877_ M3V
+(J-Ks)(M3V) =  0.826 ; GJ_747_ M3V
+(J-Ks)(M3V) = 0.827 ; smoothed fit M0-L0 
+(J-Ks)(M3V) = 0.829 ; sec. stan. GJ_251_ M3V
+(J-Ks)(M3V) = 0.831 ; J-H=0.579, H-Ks=0.252
+(J-Ks)(M3V) = 0.831 ; trend V-Ks vs J-Ks for V-Ks=4.60
+(J-Ks)(M3V) = 0.835 ; Bessell88(Glass->2MASS)
+(J-Ks)(M3V) =  0.843 ; GJ_618_A_ M3V
+(J-Ks)(M3V) =  0.852 ; GJ_48_ M3.0V
+(J-Ks)(M3V) =  0.856 ; GJ_674_ M3V
+(J-Ks)(M3V) =  0.875 ; GJ_628_ M3V
+(J-Ks)(M3V) =  0.884 ; GJ_4248_ M3.0V
+=> adopt (J-Ks)(M3V) = 0.83 [updated 11/20/2023]
 
 (V-Lj)(M3V) = 4.79 ; Johnson65
 
@@ -543,18 +593,19 @@ Mass(M3V) =  0.304 Msun ; deprecated stan. GJ 628 (Pineda21)
 Mass(M3V) =  0.305 Msun ; exemplar GJ 3459 = LHS 1935 = LP 783-1
 Mass(M3V) =  0.31 Msun ; deprecated standard GJ 22B (MSC)
 Mass(M3V) = 0.330 Msun ; Benedict16 calib. for Mv=11.10 
-Mass(M3V) =  0.35 Msun ; Mv=11.16 => HenryMcCarthy93 calibration
-Mass(M3V) = 0.355 Msun ; M_Ks=6.55 => Mann18 calibration
-Mass(M3V) = 0.362 Msun ; M_G=10.05 => Chavelier23 calibration
+Mass(M3V) =  0.35 Msun ; HenryMcCarthy93 calibration for Mv=11.16
+Mass(M3V) = 0.355 Msun ; Mann18 calibration for M_Ks=6.55
+Mass(M3V) = 0.355 Msun ; Kirkpatrick24 calibration for M_G=10.05
+Mass(M3V) = 0.362 Msun ; Chavelier23 calibration for M_G=10.05
 Mass(M3V) = 0.390+-0.092 Msun ; Cifuentes23
-Mass(M3V) = 0.390 Msun ; M_Ks=6.55 => Benedict16 calibration
+Mass(M3V) = 0.390 Msun ; Benedict16 calibration for M_Ks=6.55
 Mass(M3V) =  0.3978 Msun ; Eclipsing binary NGTS_J0002-29 A (Smith21; 115Myr;Blanco 1) [adopting M3V for 3372K]
 Mass(M3V) = 0.398 Msun ; Eker18 calibration for logL=-1.788
 Mass(M3V) =  0.43 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.77)
 Mass(M3V) =  0.432 Msun ; Eker15 calibration for logL=-1.788
 Mass(M3V) =  0.507+0.071-0.062 ; non-stan. GJ 436 (vonBraun12)
 Mass(M3V) =  0.54 Msun ; EEM Mv vs. Mass fit for binaries (Mv=11.17)
-=> adopt Mass(M3V) = 0.36 Msun [updated 8/23/2023]
+=> adopt Mass(M3V) = 0.36 Msun [updated 11/15/2023]
 
 logg(M3V) = 4.826 ; Eclipsing binary NGTS_J0002-29 A (Smith21; 115Myr;Blanco 1) [adopting M3V for 3372K]
 logg(M3V) = 4.879 ; M=0.36Msun, R=0.361Rsun
@@ -562,7 +613,7 @@ logg(M3V) = 4.879 ; M=0.36Msun, R=0.361Rsun
 
 # No Standards
 
-Houk75 and Keenan85 do not list a M3V standard. 
+Houk75 and Keenan85_IAU do not list a M3V standard. 
 Houk75 lists no standards later than M2V. 
 
 # Primary Standards
@@ -572,7 +623,7 @@ GJ 752A = HD 180617 = LHS 473 = Wolf 1055 = V1428 Aql = HIP 94761 (J1916+0510)
   M2III: Houk99(q=3)
   M2.5V: Hawley97,Lepine13
   M2.6V: Mann15
-  M3-V: Keenan85,Keenan88
+  M3-V: KeenanYorka85(stan),Keenan88,Keenan89(stan)
  *M3V: Lee47(M3),Joy74,Boeshaar76(stan),Boeshaar85(dM3),Kirkpatrick91(pri),Kirkpatrick94,Henry94,Boeshaar94,Henry02,Kirkpatrick(GrayCorbally09),Kirkpatrick10(opt.,near-IR),Gaidos14(M3)
   M3.5V: JM53
 
@@ -1046,9 +1097,7 @@ GJ 512A = LHS 5249 = Ross 486A = HIP 65714 A = G 14-55A = NLTT 34200 = WDS J1328
   3649K(3583,3657;Anders22) => <Teff> =
   3481K. plx=75.8784+-0.0570mas(GaiaDR3) => Mv=10.737+-0.006,
   M_G=9.587+-0.003, M_Ks=6.014+-0.023.
- 
- 
- 	
+
 
 ### OTHER STARS
 

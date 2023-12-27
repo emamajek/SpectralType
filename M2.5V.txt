@@ -76,6 +76,8 @@ Kirkpatrick(GrayCorbally09): GJ 250B   - M2.5V  (primary standard)
 
 (H-Ks)(M2.5V) = 0.255 ; Reid CNS3 sample M2.5 median value (N=22)
 
+(J-Ks)(M2.5V) = 0.825 ; smoothed fit M0-L0 
+
 (Bp-Rp)(M2.5V) =  2.2906 ; Ross_730    
 (Bp-Rp)(M2.5V) = 2.3322 ; GJ_250B    sec. stan.
 (Bp-Rp)(M2.5V) = 2.3698 ; GJ_226     ter. stan.
@@ -238,13 +240,14 @@ Rad(M2.5V) =  0.299+-0.010   Rsun ; non-standard GJ 581 (vonBraun11)
 
 *** note that <Radius> for their M3V stars with N=3 is 0.4097+-0.0075 Rsun 
 
-Mass(M2.5V) = 0.3995 Msun ; M_Ks=6.26 => Mann18 calib.
-Mass(M2.5V) = 0.403 Msun  ; M_Ks=6.26 => Delfosse00 calib.
-Mass(M2.5V) = 0.417 Msun  ; M_G=9.59 => Chavalier23 calib.
+Mass(M2.5V) = 0.3995 Msun ; Mann18 calib. for M_Ks=6.26
+Mass(M2.5V) =  0.403 Msun  ; Delfosse00 calib. for M_Ks=6.26
+Mass(M2.5V) = 0.409 Msun  : Kirkpatrick24 calib. for M_G=9.59
+Mass(M2.5V) = 0.417 Msun  ; Chavalier23 calib. for M_G=9.59
 Mass(M2.5V) = 0.431+-0.092 Msun ; Cifuentes23
 Mass(M2.5V) =  0.432 Msun  ; pri. of GJ54AB, unresolved SpT=M2.5V (Benedict16)
 Mass(M2.5V) = 0.445 Msun  ; Benedict16 calibration for M_Ks=6.26
-=> adopt Mass(M2.5V) = 0.42 Msun [updated 8/3/2023]
+=> adopt Mass(M2.5V) = 0.42 Msun [updated 11/15/2023]
 
 logg(M2.5V) = 4.813 ; M=0.42Msun, R=0.421Rsun
 => adopt logg(M2.5V) = 4.81 [updated 8/3/2023]

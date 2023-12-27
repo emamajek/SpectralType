@@ -8,8 +8,9 @@ KeenanMcNeil76 stan.:   GJ 172 - M0V
 Keenan80 standard:      GJ 172 (=HD 232979) - M0V
 Keenan83 standard:      GJ 172 (=HD 232979) - M0V 
 Turnshek85 standard:    GJ 172 (=HD 232979) - dM0
-Keenan85 standards:     GJ 172 (=HD 232979) - M0V
+Keenan85_IAU standards: GJ 172 (=HD 232979) - M0V
 	 		GJ 123 (=HD 19305) - M0V
+KeenanYorka85 stans:    GJ 172 (=HD 232979) - M0V 
 Corbally86 standard:    GJ 172 - M0V [from Keenan80]
 Kirkpatrick91 standard: GJ 270 - M0V [primary standard]
 			GJ 328 - M0V [primary standard]
@@ -29,7 +30,7 @@ Alonso-Floriano15 stan: GJ 338A (=HD 79210) - M0V ("prototype")
 		        GJ 338B (=HD 79211) - M0V ("reference")
 		        GJ 270 (=BD+33 1505) - M0V ("reference")
 Kirkpatrick16 standard: GJ 270 (=BD+33_1505) - M0V
-Newton14 standard:      GJ 123  - M0V
+Newton14 standard:      GJ 123 - M0V
 
 Kirkpatrick12 lists 5 M0V stars within 8 pc: GJ 338A (B-V=1.410), GJ
 784 (B-V=1.431), GJ 809A (B-V=1.483), GJ 701 (B-V=1.510).
@@ -173,13 +174,12 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 
 (V-Kj)(M0V) = 3.58 ; Johnson65
 
-(V-K_CIT)(M0V) =  3.43 ; Leggett92 "old disk" 
-(V-K_CIT)(M0V) =  3.47 ; Beuermann06
-(V-K_CIT)(M0V) =  3.47 ; Leggett92 "young disk"
-(V-K)(M0V)     =  3.65 ; Bessell91 "old disk"
-(V-K)(M0V)     =  3.65 ; Bessell88/Glass
-(V-K)(M0V)     =  3.8  ; Hawley96
-
+(V-K)(M0V) =  3.43 ; Leggett92/CIT "old disk" 
+(V-K)(M0V) =  3.47 ; Beuermann06/CIT
+(V-K)(M0V) =  3.47 ; Leggett92/CIT "young disk"
+(V-K)(M0V) =  3.65 ; Bessell91 "old disk"
+(V-K)(M0V) =  3.65 ; Bessell88/Glass
+(V-K)(M0V) =  3.8  ; Hawley96
 
 (V-Ks)(M0V) =  3.409 ; deprecated standard GJ 123
 (V-Ks)(M0V) ~ 3.55  ; sec. stan. GJ 338A (based on Johnson V-K)
@@ -201,25 +201,75 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 => adopt (U-B)(M0V)  = 1.206
 => adopt (V-J)(M0V)  = 2.833
 => adopt (V-H)(M0V)  = 3.460
-=> adopt (H-Ks)(M0V) = 0.190
-=> adopt (J-H)(M0V)  = 0.627
 => adopt (V-Hp)(M0V) = -0.085
 
 (J-H)(M0V) = 0.695 ; Bessell88/Glass
 
+(J-H)(M0V) =  0.538 ; GJ_488_ M0V plx=93.8547mas
+(J-H)(M0V) =  0.558 ; GJ_9236_ M0V plx=84.7001mas
+(J-H)(M0V) =  0.561 ; GJ_867_A_ M0Vep plx=112.3859mas
+(J-H)(M0V) =  0.581 ; GJ_536_ M0V plx=95.9575mas
+(J-H)(M0V) =  0.591 ; GJ_701_ M0V plx=129.2184mas
+(J-H)(M0V) =  0.594 ; GJ_572_ M0V plx=85.4119mas
+(J-H)(M0V) = 0.597 ; exemplar GJ_784_ M0V plx=162.2171mas
+(J-H)(M0V) =  0.604 ; GJ_192_ M0V plx=82.3104mas
+(J-H)(M0V) =  0.604 ; GJ_863_ M0V plx=77.0346mas
+(J-H)(M0V) =  0.607 ; GJ_96_ M0V plx=83.6606mas
 (J-H)(M0V) = 0.622 ; Reid CNS3 sample M0.0 median value (N=48)
+(J-H)(M0V) = 0.626 ; trend V-Ks vs J-H for V-Ks=3.67 
 (J-H)(M0V) = 0.636 ; Bessell88(Glass->2MASS)
+(J-H)(M0V) =  0.643 ; GJ_239_ M0.0V plx=100.0232mas
+(J-H)(M0V) =  0.649 ; GJ_341_ M0.0 plx=95.6982mas
+(J-H)(M0V) =  0.651 ; GJ_494_B_ M0V plx=86.9010mas
+(J-H)(M0V) =  0.659 ; GJ_79_ M0V plx=90.4171mas
+(J-H)(M0V) = 0.736 ; exemplar GJ_338_B_ M0V plx=157.8825mas
+=> adopt (J-H)(M0V) = 0.626 [updated 11/15/2023]
 
 (H-K)(M0V) = 0.165 ; Bessell88/Glass
 (H-K)(M0V) = 0.17  ; Beuermann06/CIT
 
+(H-Ks)(M0V) =  -0.097 ; exemplar GJ_338_B_ M0V plx=157.8825mas
+(H-Ks)(M0V) =  0.169 ; GJ_239_ M0.0V plx=100.0232mas
+(H-Ks)(M0V) = 0.192 ; trend V-Ks vs H-Ks for V-Ks=3.67 
 (H-Ks)(M0V) = 0.192 ; Bessell88(Glass->2MASS)
 (H-Ks)(M0V) = 0.196 ; Reid CNS3 sample M0.0 median value (N=48)
+(H-Ks)(M0V) =  0.206 ; GJ_341_ M0.0 plx=95.6982mas
+(H-Ks)(M0V) =  0.208 ; GJ_494_B_ M0V plx=86.9010mas
+(H-Ks)(M0V) =  0.216 ; GJ_96_ M0V plx=83.6606mas
+(H-Ks)(M0V) =  0.221 ; GJ_572_ M0V plx=85.4119mas
+(H-Ks)(M0V) =  0.225 ; GJ_192_ M0V plx=82.3104mas
+(H-Ks)(M0V) =  0.226 ; GJ_9236_ M0V plx=84.7001mas
+(H-Ks)(M0V) =  0.227 ; GJ_79_ M0V plx=90.4171mas
+(H-Ks)(M0V) = 0.244 ; exemplar GJ_784_ M0V plx=162.2171mas
+(H-Ks)(M0V) =  0.248 ; GJ_863_ M0V plx=77.0346mas
+(H-Ks)(M0V) =  0.252 ; GJ_536_ M0V plx=95.9575mas
+(H-Ks)(M0V) =  0.264 ; GJ_701_ M0V plx=129.2184mas
+(H-Ks)(M0V) =  0.308 ; GJ_867_A_ M0Vep plx=112.3859mas
+(H-Ks)(M0V) =  0.333 ; GJ_488_ M0V plx=93.8547mas
+=> adopt (H-Ks)(M0V) = 0.192 [updated 11/15/2023] 
 
 (J-K)(M0V) = 0.85 ; Beuermann06/CIT
 (J-K)(M0V) = 0.86 ; Bessell88/Glass
 
+(J-Ks)(M0V) =  0.639 ; GJ_338_B_ M0V plx=157.8825mas
+(J-Ks)(M0V) =  0.784 ; GJ_9236_ M0V plx=84.7001mas
+(J-Ks)(M0V) =  0.812 ; GJ_239_ M0.0V plx=100.0232mas
+(J-Ks)(M0V) =  0.815 ; GJ_572_ M0V plx=85.4119mas
+(J-Ks)(M0V) = 0.818 ; H-Ks=0.192, J-H=0.626 
+(J-Ks)(M0V) =  0.823 ; GJ_96_ M0V plx=83.6606mas
 (J-Ks)(M0V) = 0.825 ; Bessell88(Glass->2MASS)
+(J-Ks)(M0V) =  0.829 ; GJ_192_ M0V plx=82.3104mas
+(J-Ks)(M0V) =  0.833 ; GJ_536_ M0V plx=95.9575mas
+(J-Ks)(M0V) = 0.840 ; smoothed fit M0-L0 
+(J-Ks)(M0V) = 0.841 ; exemplar GJ_784_ M0V plx=162.2171mas
+(J-Ks)(M0V) =  0.852 ; GJ_863_ M0V plx=77.0346mas
+(J-Ks)(M0V) =  0.855 ; GJ_341_ M0.0 plx=95.6982mas
+(J-Ks)(M0V) =  0.855 ; GJ_701_ M0V plx=129.2184mas
+(J-Ks)(M0V) =  0.859 ; GJ_494_B_ M0V plx=86.9010mas
+(J-Ks)(M0V) =  0.869 ; GJ_867_A_ M0Vep plx=112.3859mas
+(J-Ks)(M0V) =  0.871 ; GJ_488_ M0V plx=93.8547mas
+(J-Ks)(M0V) =  0.886 ; GJ_79_ M0V plx=90.4171mas
+=> adopt (J-Ks)(M0V) = 0.84 [updated 11/20/2023]
 
 (G-Ks)(M0V) =  2.6059 ; HD_166348_ plx=75.7122mas M0V (GaiaDR3)
 (G-Ks)(M0V) =  2.7921 ; HD_107596_ plx=62.7385mas M0V (GaiaDR3)
@@ -232,6 +282,7 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (G-Ks)(M0V) = 2.94   ; exemplar GJ 825 = Lacaille 8760 = HD 202560 
 (G-Ks)(M0V) =  2.9407 ; HD_111631_ plx=93.8547mas M0V (GaiaDR3)
 (G-Ks)(M0V) =  2.9616 ; HD_191849_ plx=162.2171mas M0V (GaiaDR3)
+(G-Ks)(M0V) = 2.97   ; median for Kirkpatrick24 M0Vs d<20pc (N=42)
 (G-Ks)(M0V) = 2.9806 ; sec. stan. HD 79210 plx=157.8879mas M0V (GaiaDR3)
 (G-Ks)(M0V) = 2.9844 ; pri. stan. GJ 270 plx=54.8692mas M0V (GaiaDR3)
 (G-Ks)(M0V) = 2.9847 ; exemplar GJ 784 = HD 191949 = HIP 99701 (GaiaDR3)
@@ -259,11 +310,11 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (G-Ks)(M0V) =  3.4239 ; HD_150848_ plx=67.2326mas M0V (GaiaDR3)
 (G-Ks)(M0V) =  3.5880 ; LP_89-101_ plx=64.4336mas M0V (GaiaDR3)
 => adopt (G-Ks)(M0V) = 2.98 [updated 10/17/2023; V-Ks=3.67, G-V=-0.69]
+[EEM 12/20/2023; note excellent agreement between G-Ks colors of pri and sec standards & median among d<20pc M0Vs in Kirkpatrick24]
 
 (V-Lj)(M0V) = 3.78 ; Johnson65
 
-
-(G-J)(M0V)   = 2.058 ; Bentley18
+(G-J)(M0V)  = 2.058 ; Bentley18
 
 (Ks-W2)(M0V) = 0.126 ; Bentley18
 (W1-W2)(M0V) = 0.013 ; Bentley18
@@ -531,21 +582,22 @@ Rad(M0V) =  0.640 Rsun ; exemplar Lacaille 8760 (using Salsi20 relation)
 => adopt Rad(M0V) = 0.588 Rsun [updated 3/2/2021]
 
 Mass(M0V) =  0.454 Msun ; Habets81
-Mass(M0V) =  0.50 Msun ; deprecated stan. GJ686 (Gaidos14)]
-Mass(M0V) = 0.512 Msun ; Mv=8.91 => Benefict16 calib
-Mass(M0V) = 0.568 Msun ; M_Ks=5.20 => Mann18 calib.
-Mass(M0V) =  0.571 Msun ; Eker15 calibration for logL=-1.204
-Mass(M0V) = 0.580 Msun ; Eclipsing binary M0V NGTSJ0930-18A (Acton20)
-Mass(M0V) = 0.584 Msun ; Mv=8.91 => HenryMcCarthy93 calibration
-Mass(M0V) = 0.585 Msun ; exemplar Lacaille 8760 (Mann18 calibration, see below)
-Mass(M0V) = 0.587 Msun ; Chevalier23 calib for M_G=8.10 
+Mass(M0V) =  0.50 Msun  ; deprecated stan. GJ686 (Gaidos14)]
+Mass(M0V) =  0.512 Msun ; Benefict16 calib for Mv=8.91
+Mass(M0V) = 0.568 Msun  ; Mann18 calib. for M_K=5.20
+Mass(M0V) = 0.571 Msun  ; Eker15 calibration for logL=-1.204
+Mass(M0V) =  0.580 Msun ; Eclipsing binary M0V NGTSJ0930-18A (Acton20)
+Mass(M0V) = 0.581 Msun  ; Kirkpatrick24 calib for M_G=8.12 
+Mass(M0V) =  0.584 Msun ; HenryMcCarthy93 calibration for Mv=8.91
+Mass(M0V) =  0.585 Msun ; exemplar Lacaille 8760 (Mann18 calibration, see below)
+Mass(M0V) = 0.587 Msun  ; Chevalier23 calib for M_G=8.10 
 Mass(M0V) = 0.609+-0.072 Msun ; Cifuentes23
-Mass(M0V) = 0.618 Msun ; M_Ks=5.20 => Benedict16 calibration
-Mass(M0V) = 0.615 Msun ; Delfosse00 calib. for M_Ks=5.2
-Mass(M0V) = 0.616 +-0.006 Msun ; GU Boo A (Benedict16)
-Mass(M0V) =  0.62 Msun ; pri. stan. GJ270 (Gaidos14)
-Mass(M0V) = 0.665 Msun ; Mv=8.91 => Torres10 binary calibration
-=> adopt Mass(M0V) = 0.59 Msun [updated 8/3/2023]
+Mass(M0V) = 0.618 Msun  ; Benedict16 calibration for M_Ks=5.20
+Mass(M0V) =  0.615 Msun ; Delfosse00 calib. for M_Ks=5.2
+Mass(M0V) =  0.616 +-0.006 Msun ; GU Boo A (Benedict16)
+Mass(M0V) =  0.62 Msun  ; pri. stan. GJ270 (Gaidos14)
+Mass(M0V) =  0.665 Msun ; Torres10 binary calibrationfor Mv=8.91 
+=> adopt Mass(M0V) = 0.585 Msun [updated 11/15/2023]
 
 logg(M0V) = 4.67 ; for M=0.59Msun, R=0.588Rsun
 => adopt logg(M0V) = 4.67 [updated 8/3/2023]
@@ -930,7 +982,7 @@ GJ 338B = HD 79211 = HIP 120005 = Lalande 18115B = LHS 261 = G 195-18 = Gaia DR3
 GJ 123 = HD 19305 = BD+01_543 = StKM 2-258
   K5V: Bidelman85(K5),Stephenson86,Reid95,Houk99
  *K7V: Houdebine16(dK7.0)
-  M0V: Adams26,Vyssotsky46,Roman55,Keenan85(stan),Keenan89(non-stan),Keenan99(non-stan),Newton14(stan)
+  M0V: Adams26,Vyssotsky46,Roman55,Keenan85_IAU(stan),Keenan89(non-stan),Keenan99(non-stan),Newton14(stan)
   M1V: Joy74
 
   I'm deprecating this one as a standard given the wide range of types
@@ -972,13 +1024,12 @@ GJ 763 = HD 184489 = HIP 96285 =
   [Fe/H] = -0.57(Houdebine16), [Fe/H] =
   -1.50(Alonso96). Soubiran22/PASTEL mean values: Teff=4008+-147K,
   logg=4.74+-0.10, [Fe/H]=-0.16+-0.05(N=1, presumably from Luck?).
-   
 
 GJ 172 = HD 232979 = BD+52_857 
   K7: Cannon27,Bidelman85,Crifo10
   K7.7: Mann15(note: not K8,K9 in this work)
   K8V: Cowley67(K8V(e)),Montes01(K8V),Cenarro01,Neves13
- *M0V: 1956PMcCO..13a....B,KeenanMcNeil76(stan),Keenan80,Keenan85,Turnshek85(stan,dM0),Corbally86(stan,Keenan80),Gray03,Gaidos14
+ *M0V: 1956PMcCO..13a....B,KeenanMcNeil76(stan),Keenan80,KeenanYorka85(stan),Keenan85_IAU,Turnshek85(stan,dM0),Corbally86(stan,Keenan80),Gray03,Gaidos14
   M0.5V: Keenan89(stan),Montes98
   M1V: Adams35,Joy74
   M2V: Adams26,Vyssotsky56(M2Vp)

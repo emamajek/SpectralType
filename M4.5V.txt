@@ -27,7 +27,7 @@ KeenanMcNeil76 stan.: GJ 268 - M4.5eV
 Keenan80 standard:    GJ 268 - M4.5eV
 Keenan83 standard:    GJ 268 - M4.5eV
 Turnshek85 standard:  GJ 268 - dM4.5e
-Keenan85 standard:    GJ 268 - M4.5eV
+KeenanYorka85 stan:   GJ 268 - M4.5eV
 Keenan88 standard:    GJ 268 - M4.5eV 
 Keenan89 standard:    GJ 268 - M4.5eV
 Kirkpatrick91 stans:  GJ 268 - M4.5V (primary standard)
@@ -99,6 +99,8 @@ followed by GJ 234AB (J0629-0248; M4.5VJ), GJ 83.1 (J0200+1303).
 (J-H)(M4.5V)  = 0.535 ; Reid CNS3 sample M4.5 median value (N=10)
 
 (H-Ks)(M4.5V) = 0.306 ; Reid CNS3 sample M4.5 median value (N=10)
+
+(J-Ks)(M4.5V) = 0.859 ; smoothed fit M0-L0 
 
 (V-J)(M4.5V)  = 4.81 (+-0.46 stdev) ; Lepine12
 
@@ -323,16 +325,17 @@ Rad(M4.5V) =  0.168+-0.009 Rsun ; ter. stan. GJ 54.1 = LHS 138 (Yee17)
 => adopt Rad(M4.5V) = 0.217 Rsun [updated 11/15/2021]
 
 Mass(M4.5V) = 0.166 Msun ; Benedict16 calibration for Mv=13.58
-Mass(M4.5V) = 0.177 Msun ; Chavlier23 calibration for M_G=12.04
+Mass(M4.5V) = 0.175 Msun ; Kirkpatrick24 calibration for M_G=12.04
+Mass(M4.5V) = 0.177 Msun ; Chevalier23 calibration for M_G=12.04
 Mass(M4.5V) = 0.181 Msun ; Benedict16 calibration for M_Ks=7.93
 Mass(M4.5V) = 0.1843 Msun ; Mann18 calib. for M_Ks=7.93
-Mass(M4.5V) =  0.2098 Msun ; Ecl. binary PTFEB132.707+19.810 B (M4.3; Kraus17; Praesepe 0.7 Gyr)
+Mass(M4.5V) =  0.2098 Msun  ; Ecl. binary PTFEB132.707+19.810 B (M4.3; Kraus17; Praesepe 0.7 Gyr)
 Mass(M4.5V) =  0.21011 Msun ; Eclipsing binary CM Dra B (Martin23) 
 Mass(M4.5V) =  0.22501 Msun ; Eclipsing binary CM Dra A (Martin23)
 Mass(M4.5V) = 0.260+-0.079 Msun ; Cifuentes23
 Mass(M4.5V) =  0.2721 Msun ; Ecl. binary HAT-TR-318 B (Hartman18; [Fe/H]=+0.3)[EEM: adopting M4.5 instead of M5.0+-0.7]
 Mass(M4.5V) =  0.286 Msun ; GJ 791.2 tert. stan. (dynamical)
-=> adopt Mass(M4.5V) = 0.184 Msun [updated 11/15/2021]
+=> adopt Mass(M4.5V) = 0.18 Msun [updated 11/15/2023]
 
 logg(M4.5V) = 4.9442 dex ; Ecl. binary HAT-TR-318 B (Hartman18; [Fe/H]=+0.3)[EEM: adopting M4.5 instead of M5.0+-0.7]
 logg(M4.5V) = 5.030  dex ; M=0.184Msun, R=0.217Rsun
@@ -519,7 +522,7 @@ GJ 1214 = G 139-21 = LSPM J1715+0457 = 2MASS J17151894+0457496
 # Deprecated Standards
 
 GJ 268AB = Ross 986 AB = G 87-26 AB = G 107-51 = LHS 226 = HIP 34603 = QY Aur
- *M4.5V: Boeshaar76(stan,"M4.5e"),KeenanMcNeil76(stan),Keenan80(K4.5eV),Turnshek85(stan,dM4.5e),Keenan85(M4.5eV),Keenan89(M4.5eV),Kirkpatrick91(pri,M4.5VJ),Keenan99(stan,"M4.5e V"),Henry02(M4.5VJ)
+ *M4.5V: Boeshaar76(stan,"M4.5e"),KeenanMcNeil76(stan),Keenan80(K4.5eV),Turnshek85(stan,dM4.5e),KeenanYorka85(M4.5eV),Keenan89(M4.5eV),Kirkpatrick91(pri,M4.5VJ),Keenan99(stan,"M4.5e V"),Henry02(M4.5VJ)
   M4.5V+M4.5V: Reid04
 
   2nd latest Keenan99 dwarf standard, but it is an "J" binary type in

@@ -13,7 +13,8 @@ Keenan80 standard:              GJ 205 (=HD 36395) - M1.5V
 Keenan83 standard:              GJ 205 (=HD 36395) - M1.5V
 	                        GJ 570B (=HD 131976) - M1.5V
 Turnshek85 standard:            GJ 205 (=HD 36395) - dM1.5
-Keenan85 standard:              GJ 205 (=HD 36395) - M1.5V
+KeenanYorka85 standard:         GJ 205 (=HD 36395) - M1.5V
+	      			GJ 570B (=HD 131976) - M1.5V 
 Corbally86 standard:            GJ 205 (=HD 36395) - M1.5V 
 Keenan88 standard:              GJ 205 (= HD36395) - M1.5V
                                 GJ 570B - M1.5V
@@ -37,52 +38,60 @@ Alonso-Floriano15 standards:    GJ 205 (=HD 36395) - M1.5V ("prototype")
 
 Joy74 M1.5V stars appear to be approximately M1-V (~M0.75+-1 subtype) on the Kirkpatrick91 system.
 
-(B-V)(M1.5V)  =  1.415 ; exemplar GJ 366 = Ross 434
-(B-V)(M1.5V)  =  1.434 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
-(B-V)(M1.5V)  =   1.448; deprecated stan. GJ 526
-(B-V)(M1.5V)  =  1.464 ; exemplar GJ 908 = LHS 550 (metal poor) (Mermilliod91)
-(B-V)(M1.5V)  = 1.474  ; pri. stan. GJ 205 (Landolt83)
-(B-V)(M1V)    =   1.483 ; Reid CNS3 sample M1.5 median value (N=32)
-(B-V)(M1V)    = 1.485  ; adopted
-(B-V)(M2V)    = 1.505  ; adopted
-(B-V)(M1.5V)  = 1.505  ; Koen10 d<25pc median M1.5V
-(B-V)(M1.5V)  = 1.512  ; sec. stan. GJ 880 (Mermilliod91)
-(B-V)(M1.5V)  =   1.567; deprecated stan. GJ 15A
-(B-V)(M1.5V)  =   1.603; deprecated stan. GJ 625
+(B-V)(M1.5V) =  1.415 ; exemplar GJ 366 = Ross 434
+(B-V)(M1.5V) =  1.434 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+(B-V)(M1.5V) =   1.448; deprecated stan. GJ 526
+(B-V)(M1.5V) =  1.464 ; exemplar GJ 908 = LHS 550 (metal poor) (Mermilliod91)
+(B-V)(M1.5V) = 1.474  ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
+(B-V)(M1V)   =   1.483 ; Reid CNS3 sample M1.5 median value (N=32)
+(B-V)(M1V)   = 1.485  ; adopted
+(B-V)(M2V)   = 1.505  ; adopted
+(B-V)(M1.5V) = 1.505  ; Koen10 d<25pc median M1.5V
+(B-V)(M1.5V) = 1.512  ; sec. stan. GJ 880 (Mermilliod91)
+(B-V)(M1.5V) =   1.567; deprecated stan. GJ 15A
+(B-V)(M1.5V) =   1.603; deprecated stan. GJ 625
 => adopt (B-V)(M1.5V) = 1.495 [updated 8/13/2020]
 
-(U-B)(M1.5V)  = 1.105 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
-(U-B)(M1.5V)  = 1.153 ; Reid CNS3 sample M1.5 median value (N=15)
+(U-B)(M1.5V) = 1.105 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+(U-B)(M1.5V) = 1.153 ; Reid CNS3 sample M1.5 median value (N=15)
+(U-B)(M1.5V) = 1.21  ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
+=> adopt (U-B)(M1.5V) = 1.15 [updated 12/20/2023]
 
 (V-Rc)(M1.5V) = 0.964 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+(V-Rc)(M1.5V) = 0.972 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
 (V-Rc)(M1.5V) = 0.978 ; Reid CNS3 sample M1.5 median value (N=33)
+=> adopt (V-Rc)(M1.5V) = 0.978 [updated 12/20/2023; V-Ic=2.130, R-Ic=1.154]
 
 (R-Ic)(M1.5V) = 1.081 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+(R-Ic)(M1.5V) = 1.093 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
 (R-Ic)(M1.5V) = 1.154 ; Reid CNS3 sample M1.5 median value (N=48)
+=> adopt (R-Ic)(M1.5V) = 1.154 [updated 12/20/2023; V-Ic=2.130, V-Rc=0.978]
 
-(V-Ic)(M1.5V)  = 2.15  ; Hawley96
-(V-Ic)(M1.5V)  = 2.130 ; Reid CNS3 sample M1.5 median value (N=33) 
-(V-Ic)(M1.5V)  = 2.076 ; pri. stan. GJ 205 (Landolt83)
-(V-Ic)(M1.5V)  = 2.047 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+(V-Ic)(M1.5V) =  2.15  ; Hawley96
+(V-Ic)(M1.5V) = 2.130 ; Reid CNS3 sample M1.5 median value (N=33) 
+(V-Ic)(M1.5V) = 2.065 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
+(V-Ic)(M1.5V) = 2.047 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+=> adopt (V-Ic)(M1.5V) = 2.130 [updated 12/20/2023; V-Rc=0.978, R-Ic=1.154]
 
-<V-J>(M1.5V)  = 3.36 (+-0.23 stdev) ; Lepine12
+(V-J)(M1.5V) = 3.36 (+-0.23 stdev) ; Lepine12
+
+(V-K)(M1.5V)  =  4.15  ; Hawley96
 
 (V-Ks)(M1.5V) =  4.278 ; depreciated stan. GJ 625
 (V-Ks)(M1.5V) = 4.200 ; ter. stan. GJ 49 = G 243-052
-(V-Ks)(M1.5V) =  4.182 ; Reid CNS3 sample M1.5 median value (N=30) 
-(V-Ks)(M1.5V) = 4.156 ; pri. stan. GJ 205 (estimated from V-R color)
-(V-K)(M1.5V)  =  4.15  ; Hawley96
+(V-Ks)(M1.5V) =  4.182 ; Reid CNS3 sample M1.5 median value (N=30)
+(V-Ks)(M1.5V) = 4.165 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
+(V-Ks)(M1.5V) =  4.156 ; pri. stan. GJ 205 (estimated from V-R color)
 (V-Ks)(M1.5V) = 4.149 ; sec. stan. GJ 880
 (V-Ks)(M1.5V) = 4.145 ; exemplar GJ 450 = HIP 57802
 (V-Ks)(M1.5V) = 4.116 ; exemplar GJ 134 = HD 275122 
-(V-Ks)(M1.5V) = 4.104 ; pri. stan. GJ 205 (from synthetic Ks mag from Mann15)
-(V-Ks)(M1.5V) = 4.102 ; pri. stan. GJ 205 (estimated from V-I color)
+(V-Ks)(M1.5V) = 4.110 ; pri. stan. GJ 205 = HD 36395 ([Fe/H]~+0.4) (from synth Ks from Mann15)
+(V-Ks)(M1.5V) =  4.102 ; pri. stan. GJ 205 (estimated from V-Ic color)
 (V-Ks)(M1.5V) = 4.079 ; trend K/M dwarfs for standards & exemplars
 (V-Ks)(M1.5V) = 4.045 ; ter. stan. GJ 526
-(V-Ks)(M1.5V) = 4.014 ; pri. stan. GJ 205 (estimated from B-V color)
 (V-Ks)(M1.5V) = 3.986 ; exemplar GJ 366 = Ross 434 
 (V-Ks)(M1.5V) = 3.940 ; exemplar GJ 908 = LHS 550 
-=> adopt (V-Ks)(M1.5V) = 4.10   [last updated 11/1/2019]
+=> adopt (V-Ks)(M1.5V) = 4.10  [updated 11/1/2019]
 => adopt (U-B)(M1.5V)  = 1.171
 => adopt (B-V)(M1.5V)  = 1.484 
 => adopt (V-I)(M1.5V)  = 2.075
@@ -95,13 +104,19 @@ Joy74 M1.5V stars appear to be approximately M1-V (~M0.75+-1 subtype) on the Kir
 => adopt (I-Ks)(M1.5V) = 2.031
 => adopt (K-W1)(M1.5V) = 0.140
 
-(J-H)(M1.5V)   = 0.598 ; Reid CNS3 sample M1.5 median value (N=28)
+(G-Ks)(M1.5V) = 3.162 ; Bentley18/interp
+(G-Ks)(M1.5V) = 3.25  ; median for Kirkpatrick24 M1.5Vs d<20pc (N=44)
 
-(H-Ks)(M1.5V)  = 0.234 ; Reid CNS3 sample M1.5 median value (N=28)
+(J-H)(M1.5V)  = 0.598 ; Reid CNS3 sample M1.5 median value (N=28)
+
+(H-Ks)(M1.5V) = 0.234 ; Reid CNS3 sample M1.5 median value (N=28)
+
+(J-Ks)(M1.5V) = 0.830 ; smoothed fit M0-L0 
 
 (G-J)(M1.5V)   = 2.312 ; Bentley18/interp
-(G-Ks)(M1.5V)  = 3.162 ; Bentley18/interp
+
 (Ks-W2)(M1.5V) = 0.226 ; Bentley18/interp
+
 (W1-W2)(M1.5V) = 0.080 ; Bentley18/interp
 
 (Ks-W1)(M1.5V) = 0.147 ; Bentley18/interp
@@ -150,16 +165,17 @@ Joy74 M1.5V stars appear to be approximately M1-V (~M0.75+-1 subtype) on the Kir
 (Bp-G)(M1.5V) = 1.1084 ; GJ_205 
 (Bp-G)(M1.5V) = 1.1262 ; GJ_880
 
-(G-V)(M1.5V) = -0.900  ; ter. stan. GJ 49 = G 243-052 
-(G-V)(M1.5V) = -0.872  ; polynomial fit to SIMBAD d<25pc M dwarfs
-(G-V)(M1.5V) = -0.8695 ; GJ_205
-(G-V)(M1.5V) = -0.867  ; trend Kervella19 d<25pc sample for V-Ks=4.10
-(G-V)(M1.5V) = -0.854  ; V-I vs G-V trend Pancino22 for V-Ic=2.075
-(G-V)(M1.5V) = -0.8532 ; GJ_526
-(G-V)(M1.5V) = -0.849  ; B-V vs G-V trend Pancino22 for B-V=1.495
-(G-V)(M1.5V) = -0.8449 ; GJ_880
-=> adopt (G-V)(M1.5V)  = -0.85 [updated 11/15/2022]
-=> adopt (G-Ks)(M1.5V) = 4.10 + -0.85 = 3.25 [updated 11/15/2022]
+(G-V)(M1.5V) = -0.900  ; ter. stan. GJ 49 = G 243-052  (Gaia DR2)
+(G-V)(M1.5V) = -0.872  ; polynomial fit to SIMBAD d<25pc M dwarfs (Gaia DR2)
+(G-V)(M1.5V) = -0.8695 ; GJ_205 (Gaia DR2)
+(G-V)(M1.5V) = -0.867  ; trend Kervella19 d<25pc sample for V-Ks=4.10 (Gaia DR2)
+(G-V)(M1.5V) = -0.8532 ; GJ_526 (Gaia DR2)
+(G-V)(M1.5V) = -0.8449 ; GJ_880 (Gaia DR2)
+=> adopt (G-V)(M1.5V) = -0.87 [updated 12/20/2023] (Gaia DR2)
+
+(G-V)(M1.5V) = -0.854 ; V-Ic vs G-V trend Pancino22 for V-Ic=2.075 (Gaia DR3)
+(G-V)(M1.5V) = -0.849 ; B-V vs G-V trend Pancino22 for B-V=1.495 (Gaia DR3)
+=> adopt (G-V)(M1.5V) = -0.85 [updated 12/20/2023]
 
 (g-G)(M1.5V) = 1.660 (+-0.021 sem, +-0.125 stdev) ; SIMBAD d<25pc M1.5 (N=53)
 => adopt (g-G)(M1.5V) = 1.66 [updated 6/28/2023]
@@ -281,6 +297,7 @@ Rad(M1.5V) = 0.3874+-0.0023 Rsun ; deprecated standard GJ 15A (Boyajian12)
 Mass(M1.5V) =  0.405+-0.008 Msun ; pri. of GJ22AC, unresolved SpT=M1.5V (Benedict16)
 Mass(M1.5V) = 0.474  Msun ; Benedict16 calib. for Mv=9.85
 Mass(M1.5V) = 0.4785 Msun ; Mann18 calib. for M_Ks=5.75
+Mass(M1.5V) = 0.481  Msun ; Kirkpatrick24 calib for M_G=9.00
 Mass(M1.5V) = 0.489  Msun ; Chavalier23 calib for M_G=9.00
 Mass(M1.5V) =  0.511 Msun ; Delfosse00 calib for Mv=9.85
 Mass(M1.5V) = 0.513+-0.094 Msun ; Cifuentes23
@@ -289,7 +306,7 @@ Mass(M1.5V) = 0.540  Msun ; Benedict16 calib. for M_Ks=5.75
 Mass(M1.5V) =  0.586+-0.007 Msun ; GJ570B (Benedict16)
 Mass(M1.5V) =  0.600+-0.006 Msun ; GU Boo B (Benedict16)
 Mass(M1.5V) =  0.615 Msun ; Torres10 calib. for Mv=9.85
-=> adopt Mass(M1.5V) = 0.48 Msun [updated 8/13/2020]
+=> adopt Mass(M1.5V) = 0.485 Msun [updated 11/15/2023]
 
 logg(M1.5V) = 4.753 ; M=0.48Msun, R=0.482Rsun
 => adopt logg(M1.5V) = 4.75 [updated 8/3/2023]
@@ -299,10 +316,10 @@ Boeshaar85 does not list an M1.5V standard.
 
 # Primary Standard
 
-GJ 205 = HD 36395 = LHS 30
+GJ 205 = HD 36395 = HIP 25878 = LHS 30 = Wolf 1453 = BD-03 1123 = NLTT 15215 = G 99-15 = MCC 9 = Strb. 1611 = SAO 132211 = 2MASS J05312734-0340356 = TIC 50726077 = WDS J05314-0336A 
   M0: RoyasAjala12(K-band)
   M1V: JM53(non-stan.,"dM1"),Reid85,Bidelman85(M1),Stephenson86,Gaidos14(M1)
- *M1.5Ve: Boeshaar76(non-stan,"M1.5"),KeenanMcNeil76(stan),Keenan80,Keenan85,Corbally86(stan,Keenan80),Keenan88,Kirkpatrick91(pri),Hawley97,Keenan99(stan),Houk99,Henry02,Reid04,Mann15,Alonso-Floriano15(M1.5V "prototype")
+ *M1.5Ve: Boeshaar76(non-stan,"M1.5"),KeenanMcNeil76(stan),Keenan80,KeenanYorka85,Corbally86(stan,Keenan80),Keenan88,Kirkpatrick91(pri),Hawley97,Keenan99(stan),Houk99,Henry02,Reid04,Mann15,Alonso-Floriano15(M1.5V "prototype")
   M2V: McNeil86
   M2.33: Terrien15
 
@@ -311,14 +328,40 @@ GJ 205 = HD 36395 = LHS 30
   +0.4. Segransan03 VLTI study reports: M = 0.631+-0.031 Msun,
   R=0.702+-0.063 Rsun, Teff = 3520+-170 K, logg=4.54+-0.06
   dex. KeenanMcNeil76 do not list Gl 205 as a standard in their Table
-  3, however they do show it as a M2 dwarf in their Plate
-  19. V=7.966+-0.011(Mermilliod91), V=7.960(Landolt83),
-  B-V=1.474+-0.009(Mermilliod91), B-V=1.474(Landolt83),
-  U-B=1.213+-0.024(Mermilliod91), U-B=1.231(Landolt83),
-  V-R=0.985(Landolt83), R-I=1.095(Landolt83), V-I=2.076(Landolt83).
-  Unfortunately all 2MASS photometry is saturated, but Mann15 fits
-  synthetic 2MASS magnitudes: J=4.796+-0.017, H=4.123+-0.017,
-  Ks=3.856+-0.019. Teffs: 3520+-170K(Segransan03),
+  3, however they do show it as a M2 dwarf in their Plate 19. AAVSO
+  VSX catalog (Watson06) lists GJ 205 as a BY Dra-type variable with
+  amplitude 0.008mag and Per=33.61d (presumably rotation).
+  V=7.948(Kilkenny98), V=7.951(Cousins84), V=7.960(Landolt83,N=28),
+  V=7.96(Stoy63), V=7.966+-0.011(Mermilliod91),
+  V=7.968+-0.028(Koen02), V=7.97(HIP), V=7.97(Johnson54,Lindoff68),
+  V=7.98(TYC), V=8.00(Argue66) => adopt V=7.966.  B-V=1.46(Stoy63),
+  B-V=1.47(Argue66), B-V=1.47(Johnson54,Lindoff68),
+  B-V=1.472+-0.002(Kilkenny98), B-V=1.474+-0.009(Mermilliod91),
+  B-V=1.474(Landolt83,N=28), B-V=1.475+-0.010(Koen02),
+  B-V=1.475(Koen10), B-V=1.484(Cousins84) => adopt B-V=1.474.
+  U-B=1.179(Cousins84,"L"), U-B=1.183+-0.007(Koen02,Koen10),
+  U-B=1.197(Cousins84,"I"), U-B=1.21(Johnson54,Lindoff68),
+  U-B=1.213+-0.024(Mermilliod91), U-B=1.215+-0.007(Kilkenny98),
+  U-B=1.231(Landolt83,N=28), U-B=1.25(Argue66) => adopt U-B=1.21.
+  V-Rc=0.965+-0.004(Kilkenny98), V-Rc=0.972+-0.005(Koen02,Koen10),
+  V-Rc=0.985(Landolt83) => adopt V-Rc=0.972.
+  R-Ic=1.083(Koen02,Koen10), R-Ic=1.093(adopting
+  V-Rc=0.972,V-Ic=2.065), R-Ic=1.095(Landolt83),
+  R-Ic=1.100(Kilkenny98) => adopt R-Ic=1.093.  Rj=6.53(Johnson65) =>
+  (V-Rj) = 7.966(Mermilliod91) - 6.53(Johnson65) = 1.436.
+  V-Ic=2.055+-0.003(Koen02,Koen10), V-Ic=2.065+-0.005(Kilkenny98),
+  V-Ic=2.076(Landolt83) => adopt V-Ic=2.065.  Ij=5.39 => (V-Ij) =
+  7.966(Mermilliod91) - 5.39(Johnson65) = 2.576.  Unfortunately all
+  2MASS photometry is saturated, but Mann15 fits synthetic 2MASS
+  magnitudes: J=4.796+-0.017, H=4.123+-0.017, Ks=3.856+-0.019 =>
+  (V-Ks) = 7.966(Mermilliod91) - 3.856(Mann15) = 4.110.  Converting
+  Johnson65 JK photometry to 2MASS via Rieke22 => Ks=3.801 => (V-Ks) =
+  7.966(Mermilliod91) - 3.801(Johnson65=>2MASS) = 4.165.
+  J=4.72(Johnson65), J=4.77(Mould76), J=4.82(Iriarte71/Johnson),
+  H=4.05(Veeder74), H=4.06(Mould76), H=4.13(Iriarte71/Johnson),
+  K=3.82(Johnson65), K=3.86(Mould76), K=3.90(Veeder74),
+  K=4.03(Iriarte71/Johnson), L=3.70(Veeder74), L=3.83(Mould76),
+  L=3.91(Iriarte71/Johnson).  Teffs: 3520+-170K(Segransan03),
   3708K(Prugniel07#2), 3719K(Prugniel07#1), 3732+-56K(Ramirez05),
   3737K(Alonso96), 3760K(Wolff05), 3801+-60K(Mann15),
   3835+-69K(Rabus19), 3850+-22K(Newton15#1), 3872K(Newton15#2),
@@ -331,7 +374,9 @@ GJ 205 = HD 36395 = LHS 30
   Rabus19: tetLD=0.924+-0.003mas, fbol=(6.140+-0.400)e-8,
   Rad=0.566+-0.002Rsun, Teff=3835+-69K.  [Fe/H] =
   0.35+-0.17(RoyasAyala12), 0.43+-0.08(Gaidos14), 0.69(Terrien15,
-  seems too high!), 0.49+-0.08(Mann15).
+  seems too high!), 0.49+-0.08(Mann15). GaiaDR3:
+  G=7.108289+-0.002790(GaiaDR3), plx=175.3131+-0.0204mas(GaiaDR3).
+  (G-V) = 7.108289(GaiaDR3) -
 
 # Secondary Standard
 
@@ -434,33 +479,30 @@ GJ 15A = BD+43_44A = GX And = HD 1326A
   K (Boyajian12), R = 0.3874+-0.0023 Rsun (Boyajian12). [Fe/H]=-0.36
   (Neves11). 2MASS photometry poor.
 
-GJ 570B = HD 131976
-  M1.5V: Keenan85,Keenan88,GrayNstars
- *M1.0VJ: Henry02
-
 GJ 570BC = LHS 386 = HD 131976 = BD-20 4123 = Lalande 27173BC
   M0.5: Bidelman85
-  M1.0V: Walker83,Henry94(Kirkpatrick12),Hawley97,Henry02("joint"),Geballe02,Houdebine12(dM1)
+  M1.0V: Walker83,Henry94(Kirkpatrick12),Hawley97,Henry02(M1.0VJ,"joint"),Geballe02,Houdebine12(dM1)
  *M1V+M3:V: Kirkpatrick12
   M1.0V+M1.0V: Reid04
-  M1.5V: Keenan85,Keenan89(stan),Gray06
+  M1.5V: KeenanYorka85,Keenan88,Keenan89(stan),Gray06,GrayNstars
   M1.5V+M3V: Pourbaix/SB9
   M2V: Vyssotsky56,Cowley67,Joy74,Stephenson86,Gaidos14,Newton14
   M2III: Houdebine10(prob. because of poor parallax)
 
-  Unfortunately Keenan considered M1.5, but Henry considers M1. I
-  deprecate the Keenan type as the Henry types have become modern
-  standards. 0.0437" binary according to Tokovinin15, with
-  delta(y)=1.6, and SB orbit from Forvielle99 (Period 308 days).  25"
-  away from primary HR 5568 (HD 131977). Forveille99 splits the BC
-  components, with M_J(B) = 6.213+-0.033, M_J(C) = 7.403+-0.039, and
-  M_K(B) = 5.396+-0.033, M_K(C) = 6.576+-0.039, so delta(K) =
-  1.18. Given this delta(mag), it likely that the companion is >2
-  subtypes later, similar to what Pourbaix reports. Forvielle99
-  section 4 discusses the IR photometry for the pair in more
-  detail. Magnitudes are unresolved unless specifically stated:
-  V=8.065(Koen10), B-V=1.494(Koen10), U-B=1.200(Koen10),
-  V-Rc=0.990(Koen10), V-Ic=2.122(Koen10).
+  Although often referred to as GJ 570B in the literature, it is
+  actually unresolved pair GJ 570BC.  Unfortunately Keenan considered
+  M1.5, but Henry considers M1. I deprecate the Keenan type as the
+  Henry types have become modern standards. 0.0437" binary according
+  to Tokovinin15, with delta(y)=1.6, and SB orbit from Forvielle99
+  (Period 308 days).  25" away from primary HR 5568 (HD
+  131977). Forveille99 splits the BC components, with M_J(B) =
+  6.213+-0.033, M_J(C) = 7.403+-0.039, and M_K(B) = 5.396+-0.033,
+  M_K(C) = 6.576+-0.039, so delta(K) = 1.18. Given this delta(mag), it
+  likely that the companion is >2 subtypes later, similar to what
+  Pourbaix reports. Forvielle99 section 4 discusses the IR photometry
+  for the pair in more detail. Magnitudes are unresolved unless
+  specifically stated: V=8.065(Koen10), B-V=1.494(Koen10),
+  U-B=1.200(Koen10), V-Rc=0.990(Koen10), V-Ic=2.122(Koen10).
   Mass=0.586+-0.007Msun(Torres10), R=0.52+-0.05Rsun(Gaidos14).  Teffs:
   3454+-50K(Houdebine12), 3500+-100K(Torres10),
   3506K(Cenarro01,Sanchez-Blazquez06,Cenarro07), 3650K(Stelzer13),

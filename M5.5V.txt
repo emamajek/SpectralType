@@ -13,7 +13,7 @@ Keenan80 standard:       G208-44 (=GJ 1245AC) - M5.5Ve
 Keenan83 standard:       G208-44 (=GJ 1245AC) - M5.5Ve
 Boeshaar85 standards:    G208-44AB (=GJ 1245AC) - M5.5V
                          G208-45 (=GJ 1245B) - M5.5V
-Keenan85 standard:       G208-44 - M5.5V
+KeenanYorka85 standard:  G208-44 - M5.5V
 Keenan88 standard:	 G208-44 (=GJ 1245AC) - M5.5Ve 
 Keenan89 standard:	 G208-44 (=GJ 1245AC) - M5.5Ve
 Kirkpatrick91 standards: G208-44 (=GJ 1245AC) (pri. standard)
@@ -99,6 +99,7 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (H-Ks)(M5.5V) = 0.377 ; sec. stan. GJ 551 = Prox Cen (Bessell91/Glass->2MASS)
 => adopt (H-Ks)(M5.5V) = 0.329 [updated 11/15/2023]
 
+(J-Ks)(M5.5V) = 0.903 ; smoothed fit M0-L0 
 (J-Ks)(M5.5V) = 0.937 ; pri. stan. GJ 1245AC = G 208-44 
 (J-Ks)(M5.5V) = 0.942 ; sec. stan. GJ 551 = Prox Cen (Bessell91/Glass->2MASS)
 
@@ -292,11 +293,12 @@ Mass(M5.5V) =  0.123 Msun  ; sec. stan. GJ 551 = Proxima Centauri (Pineda21)
 Mass(M5.5V) =  0.1225 Msun ; Kervella16 BL Ceti (GJ 65A)
 Mass(M5.5V) =  0.1221 Msun ; sec. stan. GJ 551 = Proxima Centauri (Kervella17)
 Mass(M5.5V) = 0.122 Msun   ; Benedict16 calibration for M_Ks=8.80
-Mass(M5.5V) = 0.121 Msun   ; Delfosse00 calibration for M_Ks=8.80
+Mass(M5.5V) =  0.121 Msun  ; Delfosse00 calibration for M_Ks=8.80
 Mass(M5.5V) =  0.120 Msun  ; sec. stan. GJ 551 = Proxima Centauri (Ribas17)
+Mass(M5.5V) = 0.119 Msun   ; Kirkpatrick24 calibration for M_G=0.119
 Mass(M5.5V) =  0.114 Msun  ; sec. stan. GJ 1002 (see below)
 Mass(M5.5V) =   0.0677 Msun ; Habets81
-=> adopt Mass(M5.5V) = 0.123 Msun [updated 8/3/2023]
+=> adopt Mass(M5.5V) = 0.122 Msun [updated 11/15/2023]
 
 logg(M5.5V) = 5.142 ; M=0.123Msun, R=0.156Rsun
 => adopt logg(M5.5V) = 5.14 [updated 8/3/2023]  (note: this ~5.0X that of the Sun with logg=4.44!)
@@ -305,7 +307,7 @@ logg(M5.5V) = 5.142 ; M=0.123Msun, R=0.156Rsun
 
 GJ 1245AC = G 208-44 = LHS 3494 = NLTT 48414
   M5+e: Boeshaar76(non-stan)
- *M5.5V: Boeshaar85,Keenan85(M5.5Ve),Keenan88,Keenan89,Gliese91,Kirkpatrick91(pri),Kirkpatrick94(M5.5V comp.),Hawley97,Henry02(M5.5VJ),Geballe02,Reid04,Kirkpatrick(GrayCorbally09)
+ *M5.5V: Boeshaar85,KeenanYorka85(M5.5Ve),Keenan88,Keenan89,Gliese91,Kirkpatrick91(pri),Kirkpatrick94(M5.5V comp.),Hawley97,Henry02(M5.5VJ),Geballe02,Reid04,Kirkpatrick(GrayCorbally09)
   M5.9: Mann15
   M6V: Rodono80,McCarthy88
 

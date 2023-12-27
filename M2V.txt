@@ -19,7 +19,9 @@ Keenan80 standard:       GJ 15 A (HD 1326)   - M2V
 Keenan83 standard:       GJ 15 A (=HD 1326)  - M2V
 	                 GJ 411 (=HD 95735)  - M2+V
 		         GJ 526 (=HD 119850) - M2-V
-Keenan85 standard:       GJ 15A (=HD 1326)   - M2V
+Keenan85_IAU standard:   GJ 15A (=HD 1326)   - M2V 
+KeenanYorka85 standard:  GJ 15A (=HD 1326)   - M2V
+	      		 GJ 526 (=HD 119850) - M2V 
                          GJ 411 (=HD 95735)  - M2+V 
 Turnshek85 standard:     GJ 411 (=HD 95735)  - dM2+
 Boeshaar85 standard:     GJ 745B             - M2V
@@ -164,59 +166,109 @@ Joy74 M2V stars appear to be approximately M1+V (~M1.2+-0.7 subtypes) on the Kir
 (V-Ks)(M2V) =  4.306 ; Reid CNS3 sample M2.0 median value (N=39)
 (V-Ks)(M2V) = 4.344 ; ter. stan. GJ 393
 (V-Ks)(M2V) = 4.397 ; ter. stan. GJ 9113A = Ross 370A 
-=> adopt (V-Ks)(M2V) = 4.23  *** [updated 11/1/2019]
+=> adopt (V-Ks)(M2V) = 4.23 [updated 11/1/2019]
 => adopt (V-J)(M2V)  = 3.396
 => adopt (V-H)(M2V)  = 3.996
-=> adopt (H-Ks)(M2V) = 0.234
-=> adopt (J-H)(M2V)  = 0.600
 => adopt (I-Ks)(M2V) = 2.067
 => adopt (K-W1)(M2V) = 0.109
 => adopt (G-V)(M1.5V)  = -0.872 [last updated 6/1/2018; GaiaDR2]
 
 (J-H)(M2V) = 0.665 ; Bessell88/Glass
 
+(J-H)(M2V) =   0.405 ; GJ_526_ M2V
+(J-H)(M2V) = 0.526 ; ter. stan. GJ_745_B_ M2V
+(J-H)(M2V) =  0.562 ; GJ_47_ M2.0V
+(J-H)(M2V) =  0.569 ; GJ_745_A_ M2.0V
+(J-H)(M2V) =  0.576 ; GJ_424_ M2V
+(J-H)(M2V) =  0.579 ; L_32-9_ M2V
+(J-H)(M2V) =  0.583 ; GJ_649_ M2V
+(J-H)(M2V) = 0.589 ; ter. stan. GJ_2066_ M2.0V
 (J-H)(M2V) = 0.590 ; Reid CNS3 sample M2.0 median value (N=39)
+(J-H)(M2V) =  0.591 ; GJ_694_ M2V
+(J-H)(M2V) =  0.596 ; GJ_1_ M2V
+(J-H)(M2V) = 0.600 ; trend V-Ks vs J-H for V-Ks=4.23
 (J-H)(M2V) = 0.607 ; Bessell88(Glass->2MASS)
+(J-H)(M2V) =  0.615 ; GJ_433_ M2V
+(J-H)(M2V) =  0.617 ; GJ_508_ M2V
+(J-H)(M2V) = 0.63 ; sec. stan. GJ_382_ M2V
+(J-H)(M2V) =   0.73 ; GJ_887_ M2V
+(J-H)(M2V) =   0.774 ; GJ_15_A_ M2V
+=> adopt (J-H)(M2V) = 0.600 [updated 11/15/2023]
 
 (H-K)(M2V) = 0.21 ; Bessell88/Glass
 
+(H-Ks)(M2V) =   0.15 ; GJ_887_ M2V
+(H-Ks)(M2V) =  0.196 ; GJ_424_ M2V
+(H-Ks)(M2V) =  0.197 ; GJ_1_ M2V
+(H-Ks)(M2V) =  0.205 ; GJ_745_A_ M2.0V
+(H-Ks)(M2V) =  0.227 ; GJ_47_ M2.0V
+(H-Ks)(M2V) =  0.227 ; GJ_508_ M2V
+(H-Ks)(M2V) =  0.233 ; GJ_433_ M2V
+(H-Ks)(M2V) = 0.234 ; trend V-Ks vs H-Ks for V-Ks=4.23
+(H-Ks)(M2V) = 0.235 ; ter. stan. GJ_745_B_ M2V
 (H-Ks)(M2V) = 0.237 ; Bessell88(Glass->2MASS)
 (H-Ks)(M2V) = 0.241 ; Reid CNS3 sample M2.0 median value (N=39)
+(H-Ks)(M2V) =  0.241 ; GJ_649_ M2V
+(H-Ks)(M2V) = 0.243 ; sec. stan. GJ_382_ M2V
+(H-Ks)(M2V) =  0.257 ; GJ_694_ M2V
+(H-Ks)(M2V) = 0.270 ; ter. stan. GJ_2066_ M2.0V
+(H-Ks)(M2V) =  0.284 ; L_32-9_ M2V
+(H-Ks)(M2V) =   0.360 ; GJ_526_ M2V
+(H-Ks)(M2V) =   0.456 ; GJ_15_A_ M2V
+=> adopt (H-Ks)(M2V) = 0.234 [updated 11/15/2023]
 
 (J-K)(M2V) = 0.87 ; Bessell88/Glass
 
+(J-Ks)(M2V) = 0.761 ; ter. stan. GJ_745_B_ M2V
+(J-Ks)(M2V) =  0.765 ; GJ_526_ M2V
+(J-Ks)(M2V) =  0.772 ; GJ_424_ M2V
+(J-Ks)(M2V) =  0.774 ; GJ_745_A_ M2.0V
+(J-Ks)(M2V) =  0.789 ; GJ_47_ M2.0V
+(J-Ks)(M2V) =  0.793 ; GJ_1_ M2V
+(J-Ks)(M2V) =  0.824 ; GJ_649_ M2V
+(J-Ks)(M2V) = 0.826 ; smoothed fit M0-L0 
+(J-Ks)(M2V) = 0.834 ; trend V-Ks vs J-Ks for V-Ks=4.23 [J-H=0.600, H-Ks=0.234]
 (J-Ks)(M2V) = 0.835 ; Bessell88(Glass->2MASS)
+(J-Ks)(M2V) =  0.844 ; GJ_508_ M2V
+(J-Ks)(M2V) =  0.848 ; GJ_433_ M2V
+(J-Ks)(M2V) =  0.848 ; GJ_694_ M2V
+(J-Ks)(M2V) = 0.859 ; ter. stan. GJ_2066_ M2.0V
+(J-Ks)(M2V) =  0.863 ; L_32-9_ M2V
+(J-Ks)(M2V) = 0.873 ; sec. stan. GJ_382_ M2V
+(J-Ks)(M2V) =  0.88 ; GJ_887_ M2V
+(J-Ks)(M2V) =   1.23 ; GJ_15_A_ M2V
+=> adopt (J-Ks)(M2V) = 0.83 [updated 11/20/2023]
 
-(G-Ks)(M2V) = 2.99363  ; V*_SZ_UMa_ plx=110.2305mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.06203  ; HD_217987_ plx=304.1354mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.14749  ; HD_225213_ plx=230.0970mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.16024  ; CD-60_7821_ plx=86.5613mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.19558  ; HD_119850_ plx=183.9962mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.19857  ; HD_1326_ plx=280.7068mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.19962  ; BD+25_3173_ plx=96.2333mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.20748  ; CD-56_5362_ plx=85.7240mas M2V: (GaiaDR3)
-(G-Ks)(M2V) = 3.23205  ; BD+44_4548_ plx=86.9299mas M2Ve (GaiaDR3)
-(G-Ks)(M2V) = 3.27375  ; CD-31_9113_ plx=110.1711mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.28833  ; HD_349726_ plx=113.2228mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.29388  ; Ross_730_ plx=113.2521mas M2.0V (GaiaDR3)
-(G-Ks)(M2V) = 3.29569  ; BD+44_3567_ plx=82.8903mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.31676  ; V*_AN_Sex_ plx=129.7544mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.32092  ; HD_97101B_ plx=84.1554mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.34001  ; Ross_695_ plx=112.6740mas dM2.0 (GaiaDR3)
-(G-Ks)(M2V) = 3.36309  ; Wolf_44_ plx=94.9701mas M2.0V (GaiaDR3)
-(G-Ks)(M2V) = 3.36496  ; BD+01_2447_ plx=142.0951mas dM2 (GaiaDR3)
-(G-Ks)(M2V) = 3.36717  ; G_113-20_ plx=111.8698mas M2.0V (GaiaDR3)
-(G-Ks)(M2V) = 3.36961  ; CD-23_9765_ plx=92.8036mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.39138  ; G_3-14_ plx=88.3060mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.43104  ; G_181-39_ plx=81.7394mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.43527  ; Ross_271_ plx=85.4060mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.47943  ; Ross_145_ plx=92.6127mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.4861   ; BD+43_2796_ plx=104.9147mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.52275  ; L_32-9_ plx=113.1304mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.52909  ; Wolf_230_ plx=86.0992mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.52964  ; BD+66_34A_ plx=101.0864mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.54556  ; HD_115953_ plx=109.9837mas M2V (GaiaDR3)
-(G-Ks)(M2V) = 3.64191  ; BD+47_2112A_ plx=89.6023mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 2.993 ; V*_SZ_UMa_ plx=110.2305mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.062 ; HD_217987_ plx=304.1354mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.147 ; HD_225213_ plx=230.0970mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.160 ; CD-60_7821_ plx=86.5613mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.195 ; HD_119850_ plx=183.9962mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.198 ; HD_1326_ plx=280.7068mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.199 ; BD+25_3173_ plx=96.2333mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.207 ; CD-56_5362_ plx=85.7240mas M2V: (GaiaDR3)
+(G-Ks)(M2V) = 3.232 ; BD+44_4548_ plx=86.9299mas M2Ve (GaiaDR3)
+(G-Ks)(M2V) = 3.273 ; CD-31_9113_ plx=110.1711mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.288 ; HD_349726_ plx=113.2228mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.293 ; Ross_730_ plx=113.2521mas M2.0V (GaiaDR3)
+(G-Ks)(M2V) = 3.295 ; BD+44_3567_ plx=82.8903mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.316 ; V*_AN_Sex_ plx=129.7544mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.320 ; HD_97101B_ plx=84.1554mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.340 ; Ross_695_ plx=112.6740mas dM2.0 (GaiaDR3)
+(G-Ks)(M2V) = 3.363 ; Wolf_44_ plx=94.9701mas M2.0V (GaiaDR3)
+(G-Ks)(M2V) = 3.364 ; BD+01_2447_ plx=142.0951mas dM2 (GaiaDR3)
+(G-Ks)(M2V) = 3.367 ; G_113-20_ plx=111.8698mas M2.0V (GaiaDR3)
+(G-Ks)(M2V) = 3.369 ; CD-23_9765_ plx=92.8036mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.391 ; G_3-14_ plx=88.3060mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.431 ; G_181-39_ plx=81.7394mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.435 ; Ross_271_ plx=85.4060mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.479 ; Ross_145_ plx=92.6127mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.486 ; BD+43_2796_ plx=104.9147mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.522 ; L_32-9_ plx=113.1304mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.529 ; Wolf_230_ plx=86.0992mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.529 ; BD+66_34A_ plx=101.0864mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.545 ; HD_115953_ plx=109.9837mas M2V (GaiaDR3)
+(G-Ks)(M2V) = 3.641 ; BD+47_2112A_ plx=89.6023mas M2V (GaiaDR3)
 
 
 (J-K_CIT>(M2V) = 0.86 ; Beuermann06
@@ -468,14 +520,15 @@ Mass(M2V) =  0.403 Msun ; pri. stan. GJ 411 (Segransen03)
 Mass(M2V) =  0.405 Msun ; deprecated stan. GJ 22A (Dieterich21)
 Mass(M2V) = 0.428  Msun ; Benedict16 calibration for Mv=10.21
 Mass(M2V) = 0.443  Msun ; Mann18 calibration for M_Ks=5.98
-Mass(M2V) = 0.454  Msun ; Chavalier23 calibration for M_G=9.285
+Mass(M2V) = 0.446  Msun ; Kirkpatrick24 calibration for M_G=9.29
+Mass(M2V) = 0.454  Msun ; Chavalier23 calibration for M_G=9.29
 Mass(M2V) =  0.455 Msun ; Delfosse00 calibration for M_Ks=5.98
-Mass(M2V) =  0.479 Msun ; Eker15 calibration for logL=-1.574
+Mass(M2V) = 0.479 Msun ; Eker15 calibration for logL=-1.574
 Mass(M2V) = 0.479+-0.096 Msun ; Cifuentes23
 Mass(M2V) =  0.49  Msun ; EEM logL vs. Mass fit for binaries (logL=-1.57)
 Mass(M2V) = 0.499  Msun ; Benedict16 calibration for M_Ks=5.98
 Mass(M2V) =  0.593 Msun ; Mv=10.23 => Torres10 calibration
-=> adopt Mass(M2V) = 0.45 Msun [updated 8/3/2023]
+=> adopt Mass(M2V) = 0.45 Msun [updated 11/15/2023]
 
 logg(M2V) = 4.793 ; M=0.45Msun, R=0.446Rsun
 => adopt logg(M2V) = 4.79 [updated 8/3/2023]
@@ -486,7 +539,7 @@ logg(M2V) = 4.793 ; M=0.45Msun, R=0.446Rsun
 GJ 411 = HD 95735 = Lalande 21185 = LHS 37 (J1103+3558)
   M1.9: Mann15 
  *M2V: JM53,Abt68,Houk,Boeshaar76(stan),KeenanMcNeil76(stan; plate 19 & 21),Kirkpatrick91(pri),Kirkpatrick93,Kirkpatrick94,Henry94,Boeshaar94,Hawley97,Henry02,Reid04
-  M2+V: Keenan80,Turnshek85(stan;dM2+),Keenan85,Keenan88,Keenan89,Keenan99(stan),Pecaut13
+  M2+V: Keenan80,Turnshek85(stan;dM2+),KeenanYorka85,Keenan88,Keenan89,Keenan99(stan),Pecaut13
   M2.5V: KeenanMcNeil76(stan; Table 3)
 
   The fourth nearest M dwarf: plx=392.40+-0.91mas(HIP/ESA1997),
@@ -708,7 +761,7 @@ GJ 526 = HD 119850 = StKM 2-980 = LHS 47
   M1: Gaidos14
   M1.4: Mann15
  *M1.5V: Boeshaar76(non-stan),Bidelman85(M1.5),Henry94,Hawley97,Henry02(stan)
-  M2V: Keenan85,Keenan88,Keenan89,GrayNstars,Newton14(near-IR)
+  M2V: KeenanYorka85,Keenan88,Keenan89,GrayNstars,Newton14(near-IR)
   M3V: Joy74,Stephenson86
 
   Reasonable agreement between Boeshaar, Henry, Hawley, and Mann,
@@ -733,7 +786,6 @@ GJ 250B
   McNeil's, so it has been an M2.5V standard ever since.
 
 # Exemplars
-
 
 GJ 3809 = Wolf 1495 = StKM 2-983 = LTT 14032 = G 64-27 = 2MASS J13490104+0247281 (J1349+0247, V=11.2)
  *M2V: Lee84(M2),Bidelman85(M2:),Stephenson86,Lepine13(M2.0),Gaidos14(M2)

@@ -39,7 +39,7 @@ however most sources have it somewhat cooler.
 (B-V)(M0.5V) = 1.461 ; deprecated stan. GJ 2155 = LHS 3947
 (B-V)(M0.5V) = 1.469 ; median Koen10 d<25pc M0.5
 (B-V)(M0.5V) = 1.470 ; pri. stan. GJ 846 ([Fe/H] ~ 0.0)
-<B-V>(M0.5V) =  1.47 ; Fitzgerald70
+(B-V)(M0.5V) =  1.47 ; Fitzgerald70
 (B-V)(M0.5V) = 1.48  ; Reid CNS3 sample M0.5 median value (N=28)
 (B-V)(M1V)   =  1.485 ; adopted for M1V 
 (B-V)(M0.5V) = 1.497 ; sec. stan. GJ 96 ([Fe/H] ~ +0.14)
@@ -65,7 +65,7 @@ however most sources have it somewhat cooler.
 (V-Ic)(M0.5V) =  1.784 ; V-Ks vs V-Ics dwarf color trend for V_Ks=3.84
 => adopt (V-Ic)(M0.5V) = 1.90 [updated 9/1/2023]
 
-<V-J>(M0.5V) =  3.11 (+-0.34 stdev) ; Lepine12
+(V-J)(M0.5V) =  3.11 (+-0.34 stdev) ; Lepine12
 
 (V-Ks)(M0.5V) = 3.628 ; deprecated stan. GJ 2155 = LHS 3947 
 (V-Ks)(M0.5V) = 3.656 ; ter. stan. GJ 4B
@@ -87,9 +87,14 @@ however most sources have it somewhat cooler.
 => adopt (J-H)(M0.5V)  = 0.620
 => adopt (V-Hp)(M0.5V) = -0.073
 
-(J-H)(M0.5V)   = 0.614 ; Reid CNS3 sample M0.5 median value (N=28)
+(G-Ks)(M0.5V) = 3.06 ; median for Kirkpatrick24 M0.5Vs d<20pc (N=22)
+(G-Ks)(M0.5V) = 3.09 ; (V-Ks)=3.84, (G-V)=-0.75 
 
-(H-Ks)(M0.5V)  = 0.233 ; Reid CNS3 sample M0.5 median value (N=28)
+(J-H)(M0.5V)  = 0.614 ; Reid CNS3 sample M0.5 median value (N=28)
+
+(H-Ks)(M0.5V) = 0.233 ; Reid CNS3 sample M0.5 median value (N=28)
+
+(J-Ks)(M0.5V) = 0.838 ; smoothed fit M0-L0 
 
 (G-J)(M0.5V)   = 2.143 ; Bentley18/interp
 (G-Ks)(M0.5V)  = 2.992 ; Bentley18/interp
@@ -133,13 +138,13 @@ however most sources have it somewhat cooler.
 (Bp-G)(M0.5V) = 1.0181 ; GJ_96
 
 (G-V)(M0.5V) = -0.765  ; trend for SIMBAD d<20pc for V-Ks=3.84
-(G-V)(M0.5V) = -0.764  ; B-V vs G-V fit from Pancino for B-V=1.455
-(G-V)(M0.5V) = -0.760  ; trend Kervella19 d<25pc for V-Ks=3.84
+(G-V)(M0.5V) = -0.764  ; B-V vs G-V fit from Pancino for B-V=1.455 (GaiaDR3)
+(G-V)(M0.5V) = -0.760  ; trend Kervella19 d<25pc for V-Ks=3.84 (GaiaDR2)
 (G-V)(M0.5V) = -0.758  ; polynomial fit to SIMBAD d<25pc M dwarfs
-(G-V)(M0.5V) = -0.7551 ; GJ_96   sec. stan.
-(G-V)(M0.5V) = -0.7437 ; GJ_846  pri. stan.
-(G-V)(M0.5V) = -0.743  ; V-Ic vs G-V fit from Pancino22 for V-Ic=1.886
-(G-V)(M0.5V) = -0.709  ; GJ_4B   ter. stan.
+(G-V)(M0.5V) = -0.7551 ; sec. stan. GJ 96  
+(G-V)(M0.5V) = -0.7437 ; pri. stan. GJ 846
+(G-V)(M0.5V) = -0.743  ; V-Ic vs G-V fit from Pancino22 for V-Ic=1.886 (GaiaDR3)
+(G-V)(M0.5V) = -0.709  ; ter. stan. GJ 4B 
 => adopt (G-V)(M0.5V)  = -0.75 [updated 11/15/2022]
 => adopt (G-Ks)(M0.5V) = 3.84 + -0.75 = 3.09 [updated 11/15/2022]
 
@@ -238,15 +243,16 @@ Rad(M0.5V) = 0.5445         Rsun ; logL=-1.268, Teff=3770K
 Rad(M0.5V) = 0.5092+-0.0013 Rsun ; Boyajian12b (N=2)
 => adopt Rad(M0.5V) = 0.544 Rsun [updated 4/9/2020]
 
-Mass(M0.5V) = 0.650 Msun ; Mv=9.20 => Torres10 binary calibration
-Mass(M0.5V) = 0.599 Msun ; M_Ks=5.36 => Benedict16 calibration
-Mass(M0.5V) = 0.581 Msun ; M_Ks=5.36 => Delfosse00 calibration
+Mass(M0.5V) =  0.650 Msun ; Torres10 binary calibration for Mv=9.20
+Mass(M0.5V) = 0.599 Msun ; Benedict16 calibration for M_Ks=5.36
+Mass(M0.5V) = 0.581 Msun ; Delfosse00 calibration for M_Ks=5.36
 Mass(M0.5V) = 0.571+-0.084 Msun ; Cifuentes23
-Mass(M0.5V) = 0.569 Msun ; Mv=9.20 => Benedict16 calibration
-Mass(M0.5V) = 0.554 Msun ; logL=-1.266 => Eker15 calibration
+Mass(M0.5V) = 0.569 Msun ; Benedict16 calibration for Mv=9.20
+Mass(M0.5V) = 0.554 Msun ; Eker15 calibration for logL=-1.266
 Mass(M0.5V) = 0.551 Msun ; Chavalier23 calib for M_G=8.45
-Mass(M0.5V) = 0.538 Msun ; M_Ks=5.36 => Mann18 calib.
-=> adopt Mass(M0.5V) = 0.55 Msun [updated 8/3/2023]
+Mass(M0.5V) = 0.545 Msun ; Kirkpatrick24 calib for M_G=8.45
+Mass(M0.5V) = 0.538 Msun ; Mann18 calib. for M_Ks=5.36
+=> adopt Mass(M0.5V) = 0.56 Msun [updated 11/15/2023]
 
 logg(M0.5V) = 4.707 ; M=0.55Msun, R=0.544Rsun
 => adopt logg(M0.5V) = 4.71 [updated 8/3/2023]
