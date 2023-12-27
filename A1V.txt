@@ -39,31 +39,42 @@ and within 1 mag of the MS (N=12):
 <V-Vt>(A1V)  = 0.022 (+-0.008 sem, +-0.013 stdev; N=12) 
 <B-K>(A1V)   = 0.162 (+-0.033 sem, +-0.097 stdev; N=12)
 
+(B-V)(A1V) =  -0.01 ; HD_200761_ A1V plx=21.9049mas, Mv=0.7727
 (B-V)(A1V) =  0.00 ; deprecated alf CMa = Sirius
 (B-V)(A1V) =   0.005 ; Bessell79
 (B-V)(A1V) =   0.01  ; SchmidtKaler82,Wegner14
+(B-V)(A1V) =  0.01 ; HD_31647A_ A1V plx=20.2399mas, Mv=1.5310
+(B-V)(A1V) =  0.01 ; HD_213398_ A1Va plx=22.0836mas, Mv=1.0103
+(B-V)(A1V) =  0.01 ; HD_213558_ A1V plx=31.4943mas, Mv=1.2611
 (B-V)(A1V) =   0.02  ; Fitzgerald70
+(B-V)(A1V) =  0.022 ; HD_146624_ A1Va plx=23.5392mas, Mv=1.6409
 (B-V)(A1V) = 0.028 ; sec. stan. HD 9132 = 48 Cet = HIP 6960 
 (B-V)(A1V) =   0.03  ; Morgan53, Johnson63, Garrison67, Morgan71, KenyonHartmann95
+(B-V)(A1V) =  0.03 ; HD_14055_ A1Vnn plx=29.04mas, Mv=1.3149
 (B-V)(A1V) = 0.031 ; pri. stan. HD 10939
+(B-V)(A1V) = 0.033 ; mean color for 3 standards (12/2023)
 (B-V)(A1V) = 0.039 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
+(B-V)(A1V) = 0.04  ; median for nearest 13 A1Vs in SIMBAD (12/2023)
+(B-V)(A1V) =  0.04 ; HD_80081_ A1V plx=24.7087mas, Mv=0.8842
 (B-V)(A1V) = 0.041 ; ter. stan. HD 21447 = HIP 16292 = HR 1046 
 (B-V)(A1V) = 0.043 ; exemplar del Vel
 (B-V)(A1V) = 0.050 ; d<60 pc SIMBAD A1V N=15
+(B-V)(A1V) =  0.05 ; HD_161868_ A1VnkA0mA0 plx=33.6174mas, Mv=1.3828
 (B-V)(A1V) =   0.05  ; JohnsonMorgan53
-<B-V>(A1V) = 0.055 (+-0.013 sem, +-0.016 stdev) ; Gray01/03/06 (N=4)
-<B-V>(A1V) = 0.073 (+-0.011 sem, +-0.033 stdev) ; HIP d<75pc S/N>8 (N=12)
-(B-V)(A1V) =   0.095 ; BakisEker22 
-=> adopt (B-V)(A1V)  =  0.035 [last updated 5/24/2019]
-=> adopt (V-J)(A1V)  =  0.085
-=> adopt (V-H)(A1V)  =  0.060
-=> adopt (V-Ks)(A1V) =  0.090
-=> adopt (H-Ks)(A1V) =  0.030
-=> adopt (J-H)(A1V)  = -0.025
-[EEM 12/2/2012: standards are tightly clustered around B-V ~
-0.03-0.04, while median for A1V samples have B-V ~ 0.05-0.07. One
-could probably argue for an adopted value being anywhere from B-V ~
-0.03 to 0.07. Johnson66 omits listing colors for A1V.]
+(B-V)(A1V) = 0.055 (+-0.013 sem, +-0.016 stdev) ; Gray01/03/06 (N=4)
+(B-V)(A1V) =  0.057 ; HD_224392_ A1V plx=20.4208mas, Mv=1.5393
+(B-V)(A1V) =  0.06 ; HD_192425_ A1Va plx=20.9054mas, Mv=1.5472
+(B-V)(A1V) =  0.06 ; HD_16754_ A1Vb plx=22.5636mas, Mv=1.5170
+(B-V)(A1V) =  0.07 ; HD_210418_ A1Va plx=36.7678mas, Mv=1.3773
+(B-V)(A1V) = 0.073 (+-0.011 sem, +-0.033 stdev) ; HIP d<75pc S/N>8 (N=12)
+(B-V)(A1V) =   0.095 ; BakisEker22
+(B-V)(A1V) =  0.101 ; HD_145570_ A1V plx=22.6379mas, Mv=1.7021
+=> adopt (B-V)(A1V)  =  0.040 [updated 12/1/2023]
+=> adopt (V-J)(A1V)  =  0.091 [updated 12/1/2023] 
+=> adopt (V-H)(A1V)  =  0.067 [updated 12/1/2023]
+=> adopt (V-Ks)(A1V) =  0.097 [updated 12/1/2023]
+=> adopt (J-H)(A1V)  = -0.024 [updated 12/1/2023] 
+=> adopt (H-Ks)(A1V) =  0.030 [updated 12/1/2023]
 
 (U-B)(A1V) =  0.01  ; Fitzgerald70
 (U-B)(A1V) =  0.030 ; HIP d<75pc S/N>8 A1V N=34 (Mermilliod91 photometry)
@@ -218,7 +229,7 @@ Mass(A1V) = 1.95 Msun ; Evans23 Teff vs. Mass fit for Teff=9300K
 
 # No Standards
 
-Morgan65, MK73, MK78, Garrison79, Keenan85, & GrayAtlas do not list
+Morgan65, MK73, MK78, Garrison79, Keenan85_IAU, & GrayAtlas do not list
 A1V standards. Skiff08 did not flag any stars as A1V standards.
 
 # Primary Standards
@@ -241,11 +252,11 @@ HD 10939 = HIP 8241 = HR 520
 
 # Secondary Standard
 
-HD 9132 = 48 Cet = HIP 6960 
- *A1Va: Gray87(stan)
-  A1V: Jaschek64(both),Bond71,Jaschek78(Buscombe62),Hoffleit91
-  A1IV: Abt95
+HD 9132 = 48 Cet = HIP 6960
   A0V: Houk88,Cannon(A0)
+ *A1Va: Gray87(stan)
+  A1V: Buscombe62,Bond71,Hoffleit91
+  A1IV: Abt95
 
   dMv=-0.42, so slightly above MS.
   V=5.11(HIP), V=5.117+-0.007(Mermilliod91),
@@ -264,18 +275,17 @@ HD 9132 = 48 Cet = HIP 6960
 
 HD 21447 = HIP 16292 = HR 1046
   A0V: Rydstrom78
- *A1V: JM53,Jaschek64(most),GrayGarrison87(A1Va),Abt95(A1Vn),Zorec09(BCDtype)
+ *A1V: JM53,GrayGarrison87(A1Va),Abt95(A1Vn),Zorec09(BCDtype)
   A2V: Cowley69,Cannon(A2)
   A2.5V: Levato78
   A3V: Roman49
   
   Adopt GrayGarrison87's "A1Va". Mostly agreement on A1V, but some A2
-  and A3 types. plx = 16.8324+-0.1689mas(GaiaDR2). Companion 14" away,
-  5mag fainter. V=5.09(HIP), V=5.096+-0.012(Mermilliod91),
-  B-V=0.022+-0.015(HIP), B-V=0.041+-0.004(Mermilliod91),
-  U-B=0.036+-0.003(Mermilliod91), V-Ic=0.06+-0.03(HIP).
-  Not in GCPD/Cousins76_VRIc database. 
-  Teffs:
+  and A3 types. Companion 14" away, 5mag fainter. plx =
+  16.8324+-0.1689mas(GaiaDR2).  V=5.09(HIP),
+  V=5.096+-0.012(Mermilliod91), B-V=0.022+-0.015(HIP),
+  B-V=0.041+-0.004(Mermilliod91), U-B=0.036+-0.003(Mermilliod91),
+  V-Ic=0.06+-0.03(HIP).  Not in GCPD/Cousins76_VRIc database.  Teffs:
   9078+-126K(Zorec12,Stassun18), 9232K(GaiaDR2), 9240+-300K(Zorec09),
   9335K(King03), 10049K(David15) => <Teff> = 9240K.
 
@@ -389,11 +399,22 @@ HD 31647 = ome Aur = 4 Aur = HR 1592
   Has V=8.2 F9V companion 5" away. Gagne18 lists it as member of
   Columba ~40 Myr association.  GaiaEDR3:
   plx(A)=20.2399+-0.1077mas(GaiaEDR3), plx(B)= 20.4394+-0.0228mas.
-  V(AB)= 4.952+-0.022(Mermilliod91),
+  V(AB)=4.952+-0.022(Mermilliod91),
   B-V(AB)=0.040+-0.010(Mermilliod91),
   U-B(AB)=0.025+-0.015(Mermilliod91).  HIP/TYC: Bt(A)= 5.014+-0.004,
   Vt(A)= 4.991+-0.004 => converted via Mamajek06 => V=4.989+-0.004,
   B-V=0.015+-0.005.  Mv(A) = 1.520+-0.012(HIP/TYC,GaiaEDR3).
+
+HD 2834 = lam01 Phe = HIP 2472 = HR 125 = WDS J00314-4848A = Gaia DR3 4975414983274332800
+  A0V: DeVaucoleurs57,Levato72
+ *A1Va: GrayGarrison87
+  A1V: Buscombe69,Abt95
+  A2V: Cucchiaro78(S2/68). 
+
+  V=4.770(Cousins80), V-Rc=0.008(Cousins80), V-Ic=0.015(Cousins80).
+  GaiaDR3: G=4.755616+-0.002924, plx=18.4705+-0.1326mas(GaiaDR3)
+
+# Other Stars
 
 HD 74956 = del Vel = HR 3485
  *A2IV+A4V+F8V: Kervella09
@@ -417,18 +438,7 @@ HD 74956 = del Vel = HR 3485
   9500K(Su08), 9830K(Eker15#2) => <Teff> = 9320K.
   logg=3.66(Allende-Prieto99), 3.79(Gray06). [M/H]=-0.33(Gray06).
   Mass=2.51Msun(Allende-Prieto99)
-
-HD 2834 = lam01 Phe = HIP 2472 = HR 125 = WDS J00314-4848A = Gaia DR3 4975414983274332800
-  A0V: DeVaucoleurs57,Levato72
- *A1Va: GrayGarrison87
-  A1V: Buscombe69,Abt95
-  A2V: Cucchiaro78(S2/68). 
-
-  V=4.770(Cousins80), V-Rc=0.008(Cousins80), V-Ic=0.015(Cousins80).
-  GaiaDR3: G=4.755616+-0.002924, plx=18.4705+-0.1326mas(GaiaDR3)
-
-# Other Stars
-
+  
 HD 106591 = del UMa = HIP 59774 = HR 4660 = Megrez = WDS J12154+5702A
   A1Va: Garrison96
   A2: Cannon20(HD standard?)
