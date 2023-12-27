@@ -3,12 +3,14 @@ G0.5V
 Keenan80 standard:   HD 84737 (=HR 3881) - G0.5Va
 Keenan83 standard:   del Tri (=HD 13974) - G0.5V
 		     HD 84737 (=HR 3881) - G0.5Va
-Keenan85 standard:   del Tri (=HD 13974) - G0.5V
+KeenanYorka85 stans: del Tri (=HD 13974) - G0.5V
                      HD 84737 (=HR 3881) - G0.5Va
 Keenan89 standard:   del Tri (=HD 13974) - G0.5V Fe-0.5
                      HD 84737 (=HR 3881) - G0.5Va
 Keenan99 standards:  HD 84737 (prim. stan.) - G0.5Va
                      del Tri (=HD 13974) - G0.5 V Fe-0.5 (prim. stan)
+
+(G-Ks)(G0.5V) = 1.32 ; interp value for Kirkpatrick24 G0.5Vs d<20pc
 
 Teff(G0.5V) = 5888 K; Teff from smoothed SpT(Teff) trend
 => adopt Teff(G0.5V) = 5890 K [updated 10/27/2017]
@@ -22,24 +24,26 @@ logg(G0.5V) = 4.380 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwa
 
 # Primary Standards
 
-HD 84737 = HR 3881 = 15 LMi = GJ 368 = HIP 48113 = SPOCS 431 = Gaia DR3 821455861647126656 
- *G0.5Va: Keenan80,Keenan83,Keenan85,Keenan89,Keenan99(prim.)
+HD 84737 = 15 LMi = GJ 368 = HIP 48113 = HR 3881 = SPOCS 431 = Gaia DR3 821455861647126656 
+ *G0.5Va: Keenan80,Keenan83,KeenanYorka85,Keenan89,Keenan99(prim.)
   G0V: MK43,Gray01
 
 # Variant
 
-del Tri = HR 660 = HD 13974
-  F9V: Abt85
+HD 13974 = del Tri = GJ 92 = HIP 10644 = HR 660 = 8 Tri = ADS 1739A = LHS 154 = SBC9 117 = WDS J02171+3413Aa,Ab
   G0V: Maury1897(G0IV/V),Adams35,Keenan41,MK43,Ljunggren61,Keenan80,Bidelman85(G0),Gray01
-  G0.5V: Keenan83,Keenan85
+  G0.5V: Keenan83,KeenanYorka85
  *G0.5V Fe-0.5: Keenan89
+  F9V: Abt85
 
   One of the G0V standards with the longest history and continuity,
-  but Keenan89 switched subtype in his last compilation.
+  but Keenan89 switched subtype in his last compilation.  WDS lists it
+  as a tight binary (Hummel95) - basically a resolved SB2 (P=10.02d).
+  WDS lists mag1=5.0, mag2=6.9, so del(mag) = 1.9.
   Teff=5920K(Gray01), logg=4.31(Gray01), [M/H]=-0.21(Gray01),
   E(b-y)=0.02(Gray01). PASTEL compilation shows that most metallicity
-  estimates are between [Fe/H] ~ -0.5 and -0.2, so clearly metal poor.  
-  WDS shows is tight binary. 
+  estimates are between [Fe/H] ~ -0.5 and -0.2, so clearly metal poor.
+
 
 # Other Stars
 

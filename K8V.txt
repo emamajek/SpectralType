@@ -37,7 +37,7 @@ Gray's K8Vs.
 (B-V)(K8V) = 1.363  ; trend for V-Ks=3.48, V-Ic=1.624
 (B-V)(K8V) =  1.372 ; exemplar HD 132683 = GJ 571.1
 (B-V)(K8V) = 1.373 ; standard HIP 111288 
-<B-V>(K8V) = 1.382 ; 23 Gray03/06 K8V stars (+-0.009 sem, +-0.048 stdev)
+(B-V)(K8V) = 1.382 ; 23 Gray03/06 K8V stars (+-0.009 sem, +-0.048 stdev)
 (B-V)(K8V) = 1.389 ; median Koen10 d<25pc K8V (N=10)
 (B-V)(K8V) =  1.41  ; exemplar GJ 757
 => adopt (B-V)(K8V)  = 1.363 [updated 12/23/2020]
@@ -84,11 +84,15 @@ is near the actual value
 (V-Ks)(K8V) =  3.519 ; standard HIP 111288
 (V-Ks)(K8V) =  3.549 ; exemplar HIP 112843 = Smethells 118
 (V-Ks)(K8V) =   3.630 (+-0.106 sem) ; Kervella19 d<25pc N=10 [probably includes some older K8s]
-=> adopt (V-Ks)(K8V) = 3.48 *** [updated 12/23/2020]
-=> adopt (G-Ks)(K8V) = 2.85 = 3.48 + -0.63 = (V-Ks)+(G-V) [updated 12/23/2020]
+=> adopt (V-Ks)(K8V) = 3.48 [updated 12/23/2020]
+
+(G-Ks)(K8V) = 2.794 ; Bentley18/interp (Gaia DR2)
+(G-Ks)(K8V) = 2.85  ; (V-Ks)=3.48, (G-V)=-0.63
+(G-Ks)(K8V) = 2.86  ; median for Kirkpatrick24 K8Vs d<20pc (N=6)
+=> adopt (G-Ks)(K8V) = 2.85 [updated 12/23/2023; V-Ks=3.48, G-V=-0.63]
 
 (G-J)(K8V)   =  1.890 ; Bentley18/interp
-(G-Ks)(K8V)  =  2.794 ; Bentley18/interp
+
 (Ks-W2)(K8V) =  0.082 ; Bentley18/interp
 (W1-W2)(K8V) = -0.016 ; Bentley18/interp
 
@@ -97,14 +101,14 @@ is near the actual value
 => adopt (Ks-W1)(K8V) = 0.115 [updated 11/29/2019]
 
 (G-V)(K8V) =  -0.594  ; exemplar GJ 576 = LHS 3020
-(G-V)(K8V) = -0.614  ; B-V vs G-V trend Pancino22 for B-V=1.363
+(G-V)(K8V) = -0.614  ; B-V vs G-V trend Pancino22 for B-V=1.363 (GaiaDR3)
 (G-V)(K8V) = -0.621  ; from color fit for V-Ks=3.50 
 (G-V)(K8V) = -0.624  ; trend among standards/exemplars for K/M dwarfs
 (G-V)(K8V) =  -0.625  ; exemplar GJ 1217 = HIP 85026 
 (G-V)(K8V) = -0.630  ; Kervella19 d<25pc for V-Ks=3.50
 (G-V)(K8V) = -0.633  ; trend K5V through M0.5V interp for V-Ks=3.48
 (G-V)(K8V) =  -0.639  ; exemplar GJ 757 = LHS 5347 (GaiaEDR3)
-(G-V)(K8V) = -0.642  ; V-Ic vs G-V trend Pancino for V-Ic=1.71
+(G-V)(K8V) = -0.642  ; V-Ic vs G-V trend Pancino for V-Ic=1.71 (GaiaDR3)
 (G-V)(K8V) =  -0.646  ; exemplar GJ 571.1 = HD 132683 
 (G-V)(K8V) =  -0.6514 ; standard HIP_111288
 => adopt (G-V)(K8V) = -0.63 [updated 11/15/2022]
@@ -245,14 +249,15 @@ logL(K8V) = -1.064 dex ; Mv=8.43, BCv=-1.03 => Mbol = 7.400
 Mass(K8V) =  0.585 Msun ; Habets81
 Mass(K8V) = 0.600 Msun ; Mann18 calib. for M_Ks=4.95
 Mass(K8V) = 0.610 Msun ; Eker15 calibration for logL=-1.064
+Mass(K8V) = 0.611 Msun ; Kirkpatrick24 calib. for M_G=7.80
 Mass(K8V) = 0.616 Msun ; Eker18 calibration for logL=-1.064
 Mass(K8V) = 0.616 Msun ; Chevalier23 calib for M_G=7.80
 Mass(K8V) =  0.620 Msun ; HenryMcCarthy93 calibration for Mv=8.43
-Mass(K8V) = 0.634 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.064)
-Mass(K8V) = 0.635 Msun ; EEM Mv vs. Mass fit for binaries (Mv=8.43)
+Mass(K8V) =  0.634 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.064)
+Mass(K8V) =  0.635 Msun ; EEM Mv vs. Mass fit for binaries (Mv=8.43)
 Mass(K8V) =  0.679 Msun ; Delfosse00 calibration for M_K=4.90
 Mass(K8V) = 0.699 Msun ; Benedict16 (Mv=8.43)
-=> adopt Mass(K8V) = 0.615 Msun [updated 8/3/2023]
+=> adopt Mass(K8V) = 0.61 Msun [updated 11/15/2023]
 
 Rad(K8V)  = 0.6148 Rsun ; logL=-1.064, Teff=3990K
 Rad(K8V)  = 0.6184 Rsun ; Mann15 calib for M_Ks=4.95 

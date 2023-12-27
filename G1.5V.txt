@@ -7,7 +7,7 @@ Keenan80 standard:     HD 10307 - G1.5V
 Keenan83 standard:     HD 10307 - G1.5V
 		       lam Aur (=HD 34411) - G1.5IV-V Fe-1 
 		       16 Cyg A (=HD 186508= "16 Cyg prec") - G1.5Vb
-Keenan85 standard:     HD 10307 - G1.5V
+KeenanYorka85 stans:   HD 10307 - G1.5V
                        HD 20619 - G1.5V
 		       lam Aur (=HD 34411) - G1.5IV-V Fe-1
 		       35 Leo (=HD 89010) - G1.5IV-V
@@ -27,18 +27,19 @@ Keenan99 standards:    HD 20619 - G1.5V
 GrayNstars standard:   16 Cyg A - G1.5V
 
 
-(B-V)(G1.5V) = 0.658 ; standard HD 20619 (Koen10)
+(B-V)(G1.5V) = 0.658 ; standard HD 20619 ([Fe/H]=-0.22) (Koen10)
 
-(U-B)(G1.5V) = 0.123 ; standard HD 20619 (Koen10)
+(U-B)(G1.5V) = 0.123 ; standard HD 20619 ([Fe/H]=-0.22) (Koen10)
 
-(V-Rc)(G1.5V) = 0.348 ; standard HD 20619 (Koen10)
+(V-Rc)(G1.5V) = 0.348 ; standard HD 20619 ([Fe/H]=-0.22) (Koen10)
 
-(V-Ic)(G1.5V) = 0.696 ; standard HD 20619 (Koen10)
+(V-Ic)(G1.5V) = 0.696 ; standard HD 20619 ([Fe/H]=-0.22) (Koen10)
 
-(R-Ic)(G1.5V) = 0.348 ; standard HD 20619 (Koen10)
+(R-Ic)(G1.5V) = 0.348 ; standard HD 20619 ([Fe/H]=-0.22) (Koen10)
 
+Teff(G1.5V) = 5728 K ; standard HD 20619 = GJ 136 = HIP 15442 ([Fe/H]=-0.22) 
 Teff(G1.5V) = 5806 K ; Teff from smoothed SpT(Teff) trend
-Teff(G1.5V) = 5813 K ; stan. 16 Cyg A (Ramirez11)
+Teff(G1.5V) = 5813 K ; standard 16 Cyg A (Ramirez11)
 Teff(G1.5V) = 5826 K ; halfway between G2V(5772K,Sun) and G1V(5880K adopted)
 Teff(G1.5V) = 5839+-42 K ; stan. 16 Cyg A (White13, CHARA)
 => adopt Teff(G1.5V) = 5830K (logTeff= 3.866) [updated 10/27/2017]
@@ -53,8 +54,8 @@ logg(G1.5V) = 4.393 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwa
 # Standards
 
 HD 186408 = 16 Cyg A = HR 7503 = "16 Cyg prec."
- *G1.5Vb: Keenan89
-  G1.5V: Keenan83,Keenan85,Keenan88,GrayNstars,Gray01,Gray03
+ *G1.5Vb: KeenanYorka85(stan),Keenan89
+  G1.5V: Keenan83,Keenan88,GrayNstars,Gray01,Gray03
   G2V: JM53
   G2Vab: Barry70
   G2.5V: Stebbins57
@@ -68,24 +69,68 @@ HD 186408 = 16 Cyg A = HR 7503 = "16 Cyg prec."
   M=1.06+-0.03Msun, L=1.40+-0.11Lsun, Age=7.43+-0.54Gyr.  Mass
   estimates: 1.06+-0.03Msun(Metcalfe23).
 
-HD 10307 = HR 483 
- *G1.5V: Keenan80,Keenan85,Keenan88
+HD 20619 = GJ 136 = HIP 15442 = BD-03 534 = NLTT 10564 = SPOCS 160 = Gaia DR3 3261878613062758144
+ *G1.5V: KeenanYorka85(stan),Keenan89(stan),Keenan99
+  G2V: Wilson50,Gray03
 
-HD 20619
-  G1.5V: Keenan85,Keenan99
-
+  First appeared as a G1.5V standard in KeenanYorka85, and retained
+  through Keenan89 and final 1999 version.  Mentioned as possible AB
+  Dor Moving Group member by Ujjwal20, but the low activity
+  (logR'HK=-4.806; GomesdaSilva14) and low metallicity
+  ([Fe/H]=-0.22;Soubiran22) would seem to negate that possibility.
   V=7.039(Koen10), B-V=0.658(Koen10), U-B=0.123(Koen10),
   V-Rc=0.348(Koen10), V-Ic=0.696(Koen10), R-Ic=0.348(Koen10).
+  Soubiran22/PASTEL mean values: Teff=5728+-14K(N=15),
+  logg=4.47+-0.04(N=12), [Fe/H]=-0.22+-0.02(N=13).
 
 HD 53705 = HIP 34069 = HR 2667
   G1.5V: Keenan99
-
 
 HD 34411
   G1.5IV-V Fe-1: Keenan85G
 
 HD 89010
-  G1.5IV-V: Keenan85
+  G1.5IV-V: KeenanYorka85(stan)
+
+# Deprecated Standards
+
+HD 10307 = GJ 67AB = HIP 7918 = HR 483 = WDS J01418+4237AB
+  G0V: Adams35
+ *G1V: Barry70(G1Va),Bidelman85(G1),Keenan99,Gray03,
+  G1.5V: Keenan80,Keenan83,KeenanYorka85,Keenan89(Table2),Hoffleit91
+  G1.5V+MV: WDS 
+  G2V: Keenan41,Roman52,JM53,Jaschek78
+  F8: Cannon18
+
+  Classification has migrated from G1V to G2V, but settled
+  post-Keenan89. Skiff compendium lists G1V for Keenan89 but it is
+  published as G1.5V, and only appeared as G1V to Keenan in his final
+  (1999) list posted online.  Astrometric+speckle+spectroscopic(SB1)
+  binary, and the light of the M-dwarf secondary is apparently
+  contributing <2% to the total brightness throughout the visible and
+  near-IR. Lippincott76 announced it as binary, Lippincott83 reported
+  astrometric solution (Porb=19.5yr, a=0.13"), first resolved with
+  speckle by McCarthy82.  SB1 spectroscopic binary in SB9 with orbital
+  periods ~7200d. Torres22 (2022MNRAS.514.5183T) presents 35-year
+  spectroscopic survey of the single-lined binary GJ67AB, and
+  estimates component masses M(A)=0.95+-0.11Msun,
+  M(B)=0.254+-0.019Msun. WDS lists mag(1)=5.00, mag(2)=12.8, and
+  Torres22 lists several of the delta(mags).
+  V=4.958+-0.011(Mermilliod91), V=4.96(Johnson66,HIP),
+  B-V=0.618+-0.001(HIP), B-V=0.618+-0.008(Mermilliod91),
+  B-V=0.62(Johnson66,Ducati02), U-B=0.11(Johnson66),
+  U-B=0.113+-0.010(Mermilliod91), V-Rj=0.53(Ducati02),
+  V-Rc=0.350(Just08), R-Ic=0.313(Just08), V-Ij=0.86(Ducati02),
+  V-Ic=0.663(Just08), g-r=0.430(Just08), r-i=0.096(Just08). 2MASS
+  photometry is poor.  Jj=3.88(Johnson68), Kj=3.53(Johnson68) =>
+  Ks=3.497(Johnson68->2MASS via Rieke22) => Ks-Kj = -0.033.
+  V-Kj=1.41(Ducati02), Teff=5854+-50K(Torres22),
+  logg=4.31+-0.10(Torres22), [m/H]=-0.04+-0.08(Torres22),
+  vsini=3.0+-1.0km/s(Torres22).
+
+HD 34411 = lam Aur = HR 1729
+  G1.5IV-V_Fe-1: Keenan83,KeenanYorka85(stan),Keenan89
+  G2IV-V: MK43 
 
 # Other Stars
 

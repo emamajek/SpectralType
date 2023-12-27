@@ -47,7 +47,7 @@ The K9V star with median B-I color is HIP 3261 (V=10.58)
 (V-Ks)(K9V) = 3.652 ; deprecated standard GJ 1016 = HIP 3261
 (V-Ks)(K9V) = 3.653 ; exemplar GJ 3138 = HIP 10037
 (V-Ks)(K9V) = 3.758 ; exemplar GJ 88 = LHS 1357 
-=> adopt (V-Ks)(K9V) = 3.55 [updated 12/23/2020] ***
+=> adopt (V-Ks)(K9V) = 3.55 [updated 12/23/2020]
 => adopt (U-B)(K9V)  = 1.213
 => adopt (V-I)(K9V)  = 1.648
 => adopt (V-R)(K9V)  = 0.851
@@ -58,23 +58,31 @@ The K9V star with median B-I color is HIP 3261 (V=10.58)
 => adopt (J-H)(K9V)  = 0.630
 => adopt (V-Hp)(K9V) = -0.090
 
-(U-B)(K9V)   =  1.183 ; Koen10 median B-V for K9Vs (N=6)
-(U-B)(K9V)   =  1.200 ; exemplar GJ 88 = LHS 1357 
+(U-B)(K9V) =  1.183 ; Koen10 median B-V for K9Vs (N=6)
+(U-B)(K9V) =  1.200 ; exemplar GJ 88 = LHS 1357
+=> adopt (U-B)(K9V) = 1.18 [updated 12/20/2023]
 
-(V-Rc)(K9V)  =  0.85  ; The84  
-(V-Rc)(K9V)  =  0.890 ; Koen10 median V-Rc for K9Vs (N=6)
+(V-Rc)(K9V) =  0.85  ; The84  
+(V-Rc)(K9V) =  0.890 ; Koen10 median V-Rc for K9Vs (N=6)
+=> adopt (V-Rc)(K9V) = 0.89 [updated 12/20/2023; V-Ic=1.75, R-Ic=0.86]
 
-(R-Ic)(K9V)  =  0.79  ; The84 (V-Ic)=1.64, (V-Rc)=0.85 
+(R-Ic)(K9V) =  0.79  ; The84 (V-Ic)=1.64, (V-Rc)=0.85
+(R-Ic)(K9V) = 0.86  ; (V-Ic)=1.75, (V-Rc)=0.89 
+=> adopt (R-Ic)(K9V) = 0.79 [updated 12/20/2023; V-Ic=1.75, V-Rc=0.89]
 
-(V-Ic)(K9V)  =  1.64  ; The84  
-(V-Ic)(K9V)  =  1.749 ; V-Ks vs V-Ic trend for K/M dwarfs for V-Ks=3.55
-(V-Ic)(K9V)  =  1.765 ; Koen10 median V-Ic for K9Vs (N=6)
-(V-Ic)(K9V)  =  1.85  ; exemplar GJ 88 = LHS 1357 
-=> adopt (V-Ic)(K9V) = 1.75 [updated 11/15/2022]
+(V-Ic)(K9V) =   1.64  ; The84  
+(V-Ic)(K9V) =  1.749 ; V-Ks vs V-Ic trend for K/M dwarfs for V-Ks=3.55
+(V-Ic)(K9V) =  1.765 ; Koen10 median V-Ic for K9Vs (N=6)
+(V-Ic)(K9V) =  1.85  ; exemplar GJ 88 = LHS 1357 
+=> adopt (V-Ic)(K9V) = 1.75 [updated 11/15/2022; V-Rc=0.89, R-Ic=0.79]
 
-(G-J)(K9V)   =  2.002 ; Bentley18/interp
+(G-J)(K9V) =  2.002 ; Bentley18/interp
 
-(G-Ks)(K9V)  =  2.850 ; Bentley18/interp
+(G-Ks)(K9V) = 2.850 ; Bentley18/interp (Gaia DR2)
+(G-Ks)(K9V) = 2.87  ; (V-Ks)=3.55, (G-V)=-0.68
+(G-Ks)(K9V) = 2.915 ; interp value for Kirkpatrick24 K9Vs d<20pc (K8V-M0V)
+(G-Ks)(K9V) = 2.96  ; median for Kirkpatrick24 K9Vs d<20pc (N=3)
+=> adopt (G-Ks)(K9V) = 2.92 [updated 12/23/2023] check 
 
 (Ks-W2)(K9V) =  0.104 ; Bentley18/interp
 
@@ -82,28 +90,24 @@ The K9V star with median B-I color is HIP 3261 (V=10.58)
 
 (Ks-W1)(K9V) = 0.106 ; Bentley18/interp
 (Ks-W1)(K9V) = 0.113 ; EEM trend for d<30pc for V-Ks=3.54
-(Ks-W1)(K8V) = 0.115
-(Ks-W1)(M0V) = 0.12
+(Ks-W1)(K8V) = 0.115 ; adopt
+(Ks-W1)(M0V) = 0.12  ; adopt
 => adopt (Ks-W1)(K9V) = 0.117 [updated 12/29/2019]
 
-(G-V)(K9V) =   -0.562 ; exemplar HIP 14589 = LP 831-72 (GaiaDR2)
-(G-V)(K9V) =   -0.610 ; exemplar GJ 496.1 = HD 113538 (GaiaDR2)
-(G-V)(K9V) =  -0.63  ; K8V adopted
-(G-V)(K9V) = -0.652 ; exemplar exemplar HIP 14589 = LP 831-72 (GaiaDR3)
-(G-V)(K9V) = -0.653 ; trend SIMBAD d<20pc for V-Ks=3.54
-(G-V)(K9V) = -0.656 ; trend for K5V-M0.5V, interp for V-Ks=3.55
-(G-V)(K9V) = -0.661 ; trend for K/M dwarf standards/exemplars
-(G-V)(K9V) = -0.667 ; B-V vs G-V from Pancino22 for B-V=1.400
-(G-V)(K9V) = -0.67  ; interp K8V(-0.63), M0V(-0.69)
-(G-V)(K9V) = -0.688 ; from color locus fit for B-V = 1.42
-(G-V)(K9V) =  -0.690 ; deprecated stan. GJ 1016 = HIP 3261 (GaiaDR2)
-(G-V)(K9V) =  -0.693 ; exemplar GJ 3138 = HIP 10037 (GaiaDR2)
-(G-V)(K9V) =  -0.69  ; M0V adopted
+(G-V)(K9V) =  -0.562 ; exemplar HIP 14589 = LP 831-72 (GaiaDR2)
+(G-V)(K9V) =  -0.610 ; exemplar GJ 496.1 = HD 113538 (GaiaDR2)
+(G-V)(K9V) = -0.690 ; deprecated stan. GJ 1016 = HIP 3261 (GaiaDR2)
+(G-V)(K9V) = -0.693 ; exemplar GJ 3138 = HIP 10037 (GaiaDR2)
+(G-V)(K9V) =  -0.722 ; exemplar GJ 88 = LHS 1357 (GaiaDR2)
+=> adopt (G-V)(K9V) = -0.69 [updated 12/20/2023] (GaiaDR2)
+
+(G-V)(K9V) = -0.652 ; exemplar HIP 14589 = LP 831-72 (GaiaDR3)
+(G-V)(K9V) = -0.667 ; B-V vs G-V from Pancino22 for B-V=1.400 (GaiaDR3)
 (G-V)(K9V) = -0.679 ; deprecated stan. GJ 1016 = HIP 3261 (GaiaDR3)
 (G-V)(K9V) = -0.701 ; exemplar GJ 3138 = HIP 10037 (GaiaDR3)
-(G-V)(K9V) =   -0.722 ; exemplar GJ 88 = LHS 1357 (GaiaDR2)
 (G-V)(K9V) = -0.732 ; exemplar GJ 88 = LHS 1357 (GaiaDR3)
-=> adopt (G-V)(K9V) = -0.66 [updated 11/15/2022]
+=> adopt (G-V)(K9V) = -0.68 [updated 12/20/2023] (GaiaDR3)
+
 => adopt (G-Ks)(K9V) = 3.55 + -0.66 = 2.89 [updated 11/15/2022]
 
 (Bp-Rp)(K7V) =  1.71   ; K7V adopted
@@ -243,13 +247,14 @@ logL(K9V) = -1.100 dex ; Mv=8.56, BCv=-1.07 => Mbol = 7.490
 Mass(K9V) = 0.583 Msun ; Mann18 calib. for M_Ks=5.10
 Mass(K9V) = 0.590 Msun ; Eker15 calibration for logL=-1.136
 Mass(K9V) = 0.594 Msun ; Eker18 calib. for logL=-1.136
+Mass(K9V) = 0.602 Msun ; Kirkpatrick24 calib for M_G=7.90
 Mass(K9V) = 0.607 Msun ; Chevalier23 calib for M_G=7.90
 Mass(K9V) =  0.615 Msun ; EEM logL vs. Mass fit for binaries (logL=-1.136)
 Mass(K9V) =  0.619 Msun ; EEM fit to Torres10 binaries for Mv=8.7
 Mass(K9V) = 0.627 Msun ; Benedict16 for M_Ks=5.10
 Mass(K9V) =  0.636 Msun ; Delfosse00 calibration for  M_Ks=5.10
 Mass(K9V) = 0.669 Msun ; Benedict16 for Mv=8.6
-=> adopt Mass(K9V) = 0.61 Msun [updated 8/3/2023]
+=> adopt Mass(K9V) = 0.60 Msun [updated 11/15/2023]
 
 Rad(K9V) = 0.633  Rsun ; Rabus19 trend for Teff=3970K
 Rad(K9V) = 0.6079 Rsun ; logL=-1.100, Teff=3930K

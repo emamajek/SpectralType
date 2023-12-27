@@ -36,7 +36,8 @@ MorganKeenan73 standard: 61 Cyg B (=HD 201092) - K7V (dagger standard)
 Boeshaar76 standard:     GJ 380 - K7 (Plate II standard)
 KeenanMcNeil76 stan.:    61 Cyg B (=HD 201092) - K7V
 Keenan80 standard:       61 Cyg B (=HD 201092) - K7V
-Keenan83 standard:       61 Cyg B (=HD 201092) - K7V 
+Keenan83 standard:       61 Cyg B (=HD 201092) - K7V
+KeenanYorka85 standard:  61 Cyg B (=HD 201092) - K7V 
 Corbally86 standard:     61 Cyg B (=HD 201092) - K7V
 Keenan88 standard:       61 Cyg B (=HD 201092) - K7V
 Keenan89 standard:       61 Cyg B (=HD 201092) - K7V
@@ -277,6 +278,7 @@ Skiff08 flags only one star as K7V MK standard: HD 201092 (Keenan89)
 (G-Ks)(K7V) =  2.76276  ; HD_120036B_ plx=68.582mas (K7-V, Gray06) (GaiaDR3)
 (G-Ks)(K7V) =  2.76646  ; HD_196877_ plx=81.0279mas (K7V, Gray06) (GaiaDR3)
 (G-Ks)(K7V) =  2.76674  ; GJ 282B = HD_61606B_ plx=70.9924mas (K7V, Gray03) (GaiaDR3)
+(G-Ks)(K7V) = 2.77    ; median for Kirkpatrick24 K7Vs d<20pc (N=33)
 (G-Ks)(K7V) = 2.78    ; (V-Ks)=3.37, (G-V)=-0.59 
 (G-Ks)(K7V) =  2.79447  ; GJ 673 = HD_157881_ plx=129.6459mas (K7V, Henry94) (GaiaDR3)
 (G-Ks)(K7V) =  2.84333  ; CD-57_1079_ plx=85.5301mas (K7Vk, Gray06) (GaiaDR3)
@@ -538,10 +540,11 @@ Rad(K7V) =  0.601+-0.007   Rsun ; pri. stan. 61 Cyg B (Yee17)
 Rad(K7V) =  0.595+-0.008   Rsun ; pri. stan. 61 Cyg B (Kervalla08)
 => adopt Rad(K7V) = 0.636 Rsun [updated 8/13/2023; Teff=4090K, logL=-0.992]
 
-Mass(K7V) = 0.6217 Msun ; Mann18 calib (M_Ks=4.81)
+Mass(K7V) = 0.617 Msun ; Mann18 calib (M_Ks=4.81)
+Mass(K7V) = 0.629 Msun ; Kirkpatrick24 calib for M_G=7.59 
 Mass(K7V) =  0.632 Msun ; Eker15 calibration for logL=-0.992
-Mass(K7V) = 0.639 Msun ; Eker18 ML calibration for logL=-0.992
 Mass(K7V) = 0.635 Msun ; Chevalier23 calib for M_G=7.59
+Mass(K7V) = 0.639 Msun ; Eker18 ML calibration for logL=-0.992
 Mass(K7V) =  0.64 Msun ; anchor stan. 61 Cyg B (Wright11)
 Mass(K7V) = 0.645+-0.049 Msun ; Cifuentes23
 Mass(K7V) =  0.650 Msun ; EEM Mv vs. Mass fit for binaries (Mv=8.20)
@@ -560,16 +563,15 @@ logg(K7V) = 4.639 ; for M=0.63Msun, R=0.63Rsun
 
 # No standard 
 
-Houk75, Keenan85, Garrison94, Keenan99 do not list any K7V standards,
-and Wing79 considers K5-M0 a one subtype jump.
+Houk75, Keenan85_IAU, Garrison94, Keenan99 do not list any K7V standards, and Wing79 considers K5-M0 a one subtype jump.
 
 # Anchor Standard
 
-GJ 820B = HD 201092 = 61 Cyg B = HR 8086 = LHS 63 = HIP 104217 = Gaia DR3 1872046574983497216 (J2106+3844)
+GJ 820B = 61 Cyg B = HD 201092 = HR 8086 = LHS 63 = HIP 104217 = Gaia DR3 1872046574983497216 (J2106+3844)
   K5V: Cannon24,Bidelman85(K5V:),Reid95
   K6V: Morgan38,Keenan53
   sdK6.9: Houdebine16
- *K7V: JM53(stan),Morgan53,1967PDAO...13...47Y,Abt68,MK73,Boeshaar76,KeenanMcNeil76(stan),Keenan80,Abt81,Keenan85,Corbally86(stan,JM53),Keenan88,Keenan89,Kirkpatrick91(pri),Henry94,GrayAtlas,Henry02,Gray03,Reid04
+ *K7V: JM53(stan),Morgan53,1967PDAO...13...47Y,Abt68,MK73,Boeshaar76,KeenanMcNeil76(stan),Keenan80,Abt81,KeenanYorka85(stan),Corbally86(stan,JM53),Keenan88,Keenan89,Kirkpatrick91(pri),Henry94,GrayAtlas,Henry02,Gray03,Reid04
   K7.3: Mann15
   K8V: Lindblad34
   M0V: Adams26,Joy74
