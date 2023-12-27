@@ -12,7 +12,7 @@ Cowley74 standard:        78 UMa, sig Boo - F2V
 Houk75 standard:          sig Boo - F2V
 Cowley76 standard:        78 UMa, sig Boo - F2V
 MK78 standard:            78 UMa - F2V
-Keenan85 standard:        78 UMa - F2V
+Keenan85_IAU standard:    78 UMa - F2V
 Corbally86 standard:      78 UMa - F2V
 Gray89 standard:          78 UMa (=HD 113139) - F2V
 GrayGarrison89 standards: 78 UMa & mu Vir - F2V (both low vsini standards)
@@ -21,10 +21,6 @@ GrayNstars standard:      78 UMa - F2V (they also use non-standard HR 1279 - F2V
 
 Skiff08 flags one stars as F2V MK standard: HD 113139 = 78 UMa (MK78)
 Morgan65 only classified 2 Hyads as F2V  (HD 27429, HD 28677), but omitted F1Vs. 
-
-Gray01/03/06 lists 31 F2V stars. Their median colors:
-<B-V>(F2V) = 0.374 (+-0.005 sem +- 0.027 stdev; N=31)
-<V-I>(F2V) = 0.437 (+-0.005 sem +- 0.033 stdev; N=31)
 
 For F2V Hipparcos stars within 75pc, with parallax S/N > 8, 
 and within 1 mag of the MS (N=59):
@@ -39,13 +35,23 @@ and within 1 mag of the MS (N=59):
 <V-Vt>(F2V)  =-0.041 (+-0.002 sem, +-0.010 stdev; N=59)
 <B-K>(F2V)   = 1.314 (+-0.022 sem, +-0.145 stdev; N=62)
 
+(B-V)(F2V) =  0.42 ; HD_207978_ F2V plx=37.0591mas, Mv=3.3744
 (B-V)(F2V) = 0.382 ; exemplar HD 9896 = HR 460 
 (B-V)(F2V) =  0.38  ; Johnson63,Garrison67
-<B-V>(F2V) = 0.377 ; 59 HIP d<75pc (+-0.005 sem, +-0.034 stdev)
-<B-V>(F2V) = 0.374 ; 31 Gray01/03/06 F2V (+-0.005 sem +- 0.027 stdev)
+(B-V)(F2V) =  0.38 ; HD_129502_ F2V plx=54.73mas, Mv=2.5711
+(B-V)(F2V) =  0.38 ; HD_119756_ F2V plx=51.9074mas, Mv=2.8061
+(B-V)(F2V) = 0.377 ; HIP d<75pc (+-0.005 sem, +-0.034 stdev; N=59)
+(B-V)(F2V) = 0.374 ; Gray01/03/06 F2V (+-0.005 sem +- 0.027 stdev; N=31)
+(B-V)(F2V) =  0.374 ; HD_8723_ F2V plx=38.8391mas, Mv=3.2903
 (B-V)(F2V) =  0.37  ; JohnsonMorgan53,MorganAbt73
+(B-V)(F2V) =  0.37 ; HD_207958_ F2V plx=37.3377mas, Mv=2.9407
 (B-V)(F2V) = 0.368 ; exemplar HD 27429 (Hyad)
 (B-V)(F2V) = 0.368 ; prim. stan. 78 UMa
+(B-V)(F2V) =  0.366 ; HD_164259_ F2V plx=43.4823mas, Mv=2.8075
+(B-V)(F2V) =  0.365 ; HD_156897_ F2V plx=57.0820mas, Mv=3.1695
+(B-V)(F2V) =  0.364 ; HD_109085_ F2V plx=54.8135mas, Mv=2.9884
+(B-V)(F2V) =  0.362 ; HD_151613_ F2V plx=37.3269mas, Mv=2.6971
+(B-V)(F2V) =  0.36 ; HD_113139_ F2V plx=39.30mas, Mv=2.9019
 (B-V)(F2V) = 0.360 ; F2V median SIMBAD d<25pc (N=18)
 (B-V)(F2V) =  0.36+-0.01 ; Turner77
 (B-V)(F2V) =  0.36  ; Johnson66,Johnson68,Strassmeier00
@@ -53,12 +59,13 @@ and within 1 mag of the MS (N=59):
 (B-V)(F2V) =  0.357 ; BakisEker22 
 (B-V)(F2V) =  0.35  ; Fitzgerald70,Bessell79,SchmidtKaler82
 (B-V)(F2V) = 0.344 ; exemplar HD 28677 (Hyad)
-(B-V)(F2V) =  0.34  ; Morgan71 
-=> adopt (B-V)(F2V)  = 0.37 *** [last updated 8/31/2019]
-=> adopt (U-B)(F2V)  = -0.008
-=> adopt (V-I)(F2V)  = 0.432
-=> adopt (V-R)(F2V)  = 0.213
-=> adopt (R-I)(F2V)  = 0.218 
+(B-V)(F2V) =  0.34 ; HD_56986_ F2VkF0mF0 plx=53.7692mas, Mv=2.1826
+(B-V)(F2V) =  0.34 ; HD_29875_ F2V plx=49.0620mas, Mv=2.9037
+(B-V)(F2V) =  0.34  ; Morgan71
+(B-V)(F2V) =  0.334 ; HD_105211_ F2V plx=50.7919mas, Mv=2.6649
+(B-V)(F2V) =  0.33 ; HD_40136_ F2V plx=66.8573mas, Mv=2.8457
+(B-V)(F2V) =  0.32 ; HD_132052_ F2V plx=36.3454mas, Mv=2.2922
+=> adopt (B-V)(F2V)  = 0.37 [updated 8/31/2019]
 => adopt (V-J)(F2V)  = 0.736
 => adopt (V-H)(F2V)  = 0.875
 => adopt (V-Ks)(F2V) = 0.925
@@ -66,22 +73,31 @@ and within 1 mag of the MS (N=59):
 => adopt (J-H)(F2V)  = 0.140
 
 (U-B)(F2V) = -0.009 ; HIP d<75pc S/N>8 F2V N=44 (Mermilliod91 photometry)
-(U-B)(F2V) =  0.00  ; JohnsonMorgan53,Fitzgerald70
-(U-B)(F2V) =  0.03  ; Johnson66,Johnson68
+(U-B)(F2V) = -0.006 ; B-V vs U-B trend for B-V=0.37
+(U-B)(F2V) =   0.00  ; JohnsonMorgan53,Fitzgerald70
+(U-B)(F2V) =   0.03  ; Johnson66,Johnson68
+=> adopt (U-B)(F2V) = -0.006 [updated 12/1/2023]
 
 (V-Rj)(F2V) = 0.35  ; Johnson68
 
-(V-Rc)(F2V) = 0.197 ; HD 6763 = HR 330 (F2V,Gray06) (Cousins80) 
+(V-Rc)(F2V) =  0.197 ; HD 6763 = HR 330 (F2V,Gray06) (Cousins80)
+(V-Rc)(F2V) = 0.211 ; B-V vs. V-Rc trend for B-V=0.37
 (V-Rc)(F2V) = 0.232 ; Johnson68 transformed to V-Rc via Fernie83
+=> adopt (V-Rc)(F2V) = 0.22 [updated 12/1/2023; V-Ic=0.435, R-Ic=0.215]
 
-(R-Ic)(F2V) = 0.207 ; Bessell79
+(R-Ic)(F2V) =  0.207 ; Bessell79
+(R-Ic)(F2V) = 0.216 ; B-V vs. R-Ic trend for B-V=0.37
+=> adopt (R-Ic)(F2V) = 0.215 [updated 12/1/2023; V-Ic=0.435, V-Rc=0.22]
 
 (V-Ij)(F2V) = 0.55  ; Johnson68
 
-(V-Ic)(F2V) =  0.396 ; HD 6763 = HR 330 (F2V,Gray06) (Cousins80)
+(V-Ic)(F2V) = 0.396 ; HD 6763 = HR 330 (F2V,Gray06) (Cousins80)
 (V-Ic)(F2V) =  0.40  ; Bessell88
 (V-Ic)(F2V) =  0.415 ; Bessell79
-(V-Ic)(F2V) =  0.435 ; Johnson68 transformed to V-Ic via Fernie83
+(V-Ic)(F2V) = 0.427 ; B-V vs. V-Rc trend for B-V=0.37
+(V-Ic)(F2V) = 0.435 ; Johnson68 transformed to V-Ic via Fernie83
+(V-Ic)(F2V) = 0.437 ; Gray01/03/06 F2V stars (+-0.005 sem +- 0.033 stdev; N=31)
+=> adopt (V-Ic)(F2V) = 0.435 [updated 12/1/2023; V-Rc=0.22, R-Ic=0.215]
 
 (V-Jj)(F2V) =  0.66  ; Johnson68
 (V-Jj)(F2V) =  0.68  ; Johnson66

@@ -15,9 +15,6 @@ Morgan71 standard:   Rho Gem - F1V (but Morgan65 calls it a fundamental F0V stan
 Cowley74 standard:   37 UMa  - F1V
 Strassmeier90 stan:  alf01 CVn (HR 4914) - F1V 
 
-Gray01/03/06 lists 14 F1V stars. Median HIP colors:
-<B-V>(F1V)   = 0.313 (+-0.005 sem, +-0.014 stdev; N=14)
-<V-I>(F1V)   = 0.368 (+-0.008 sem, +-0.026 stdev; N=14)
 
 For F1V Hipparcos stars within 75pc, with parallax S/N > 8, 
 and within 1 mag of the MS (N=6):
@@ -32,10 +29,13 @@ and within 1 mag of the MS (N=6):
 <V-Vt>(F1V)  =-0.050 (+-0.005 sem, +-0.013 stdev; N=6)
 <B-K>(F1V)   = 1.270 (+-0.068 sem, +-0.182 stdev; N=6)
 
-<B-V>(F1V) = 0.377 ; 6 HIP d<75pc F1V (+-0.019 sem, +-0.049 stdev)
-(B-V)(F1V) =  0.34 ; Fitzgerald70
-(B-V)(F1V) =  0.34 ; Strassmeier90   
-(B-V)(F1V) = 0.335 +-0.005; prim. stan. 37 UMa
+(B-V)(F1V) = 0.377 ; 6 HIP d<75pc F1V (+-0.019 sem, +-0.049 stdev)
+(B-V)(F1V) =  0.363 ; HD_10830A_ F1V plx=35.6418mas, Mv=3.0998
+(B-V)(F1V) =  0.36 ; HD_13594A_ F1V plx=24.0011mas, Mv=3.4211
+(B-V)(F1V) =  0.35 ; HD_27290_ F1V plx=48.9494mas, Mv=2.6487
+(B-V)(F1V) =  0.34 ; Fitzgerald70,Strassmeier90   
+(B-V)(F1V) = 0.335 ; prim. stan. 37 UMa
+(B-V)(F1V) =  0.333 ; HD_91480_ F1V plx=37.3444mas, Mv=3.0091
 (B-V)(F1V) = 0.332 ; exemplar HD 40136 = eta Lep [Fe/H] ~ -0.12
 (B-V)(F1V) = 0.332 ; exemplar HD 105452 = alf Crv = GJ 455.3 = GJ 9389 = HIP 59199 ([Fe/H]=-0.08)
 (B-V)(F1V) =  0.331 ; BakisEker22 
@@ -43,16 +43,19 @@ and within 1 mag of the MS (N=6):
 (B-V)(F1V) = 0.329 ; smoothed trend SpT vs (B-V)o B9.5V-F4V 11/2021
 (B-V)(F1V) =  0.325 ; Schmidt-Kaler82(halfway F0V-F2V)
 (B-V)(F1V) =  0.32 ; Morgan71
-<B-V>(F1V) = 0.313 ; 14 Gray01/03/06 F1V (+-0.005 sem, +-0.014 stdev; N=14)
+(B-V)(F1V) =  0.32 ; HD_58946_ F1V plx=55.41mas, Mv=2.8979
+(B-V)(F1V) =  0.32 ; HD_105452_ F1V plx=66.7696mas, Mv=3.1328
+(B-V)(F1V) = 0.313 ; 14 Gray01/03/06 F1V (+-0.005 sem, +-0.014 stdev; N=14)
 (B-V)(F1V) = 0.312 ; exemplar HD 167858 = HR 6844
 (B-V)(F1V) = 0.310 ; exemplar HD 27290 = gam Dor = GJ 167.1 = GJ 9150 = HIP 19893 ([Fe/H]=-0.08)
+(B-V)(F1V) =  0.31  ; HD_40292_ F1V plx=28.3302mas, Mv=2.5512
+(B-V)(F1V) =  0.306 ; HD_225003_ F1V plx=26.6268mas, Mv=2.8165
 (B-V)(F1V) =  0.305 ; HD 141891 = bet TrA = GJ 601 A = HIP 77952 (F1V,Gray06) ([Fe/H]=-0.29)
+(B-V)(F1V) =  0.303 ; HD_206043_ F1Vnn plx=25.0683mas, Mv=2.7576
 (B-V)(F1V) =  0.296 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
-=> adopt (B-V)(F1V)  = 0.33  *** [last updated 2/22/2019]
-=> adopt (U-B)(F1V)  = 0.024
-=> adopt (V-I)(F1V)  = 0.381
-=> adopt (V-R)(F1V)  = 0.187 
-=> adopt (R-I)(F1V)  = 0.193
+(B-V)(F1V) =  0.286 ; HD_86629_ F1V plx=30.0499mas, Mv=2.6112
+(B-V)(F1V) =  0.286 ; HD_173649_ F1Vnn plx=20.6386mas, Mv=2.1584
+=> adopt (B-V)(F1V)  = 0.33 [updated 2/22/2019]
 => adopt (V-J)(F1V)  = 0.655
 => adopt (V-H)(F1V)  = 0.772
 => adopt (V-Ks)(F1V) = 0.819
@@ -61,43 +64,54 @@ and within 1 mag of the MS (N=6):
 
 (U-B)(F1V) =   0.041 ; HD 141891 = bet TrA = GJ 601 A = HIP 77952 (F1V,Gray06) ([Fe/H]=-0.29)
 (U-B)(F1V) =   0.028 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
+(U-B)(F1V) =  0.024 ; B-V vs U-B trend for B-V=0.33 (12/2023)
 (U-B)(F1V) =  0.016 ; exemplar HD 27290 = gam Dor = GJ 167.1 = GJ 9150 = HIP 19893 ([Fe/H]=-0.08)
 (U-B)(F1V) =   0.00  ; Fitzgerald70
 (U-B)(F1V) = -0.006 ; exemplar HD 40136 = eta Lep
 (U-B)(F1V) = -0.008 ; HIP d<75pc S/N>8 F1V N=12 (Mermilliod91 photometry)
 (U-B)(F1V) = -0.012 ; exemplar HD 105452 = alf Crv = GJ 455.3 = GJ 9389 = HIP 59199 ([Fe/H]=-0.08)
+=> adopt (U-B)(F1V) = 0.00 [updated 12/1/2023]
 
 (V-Rc)(F1V) = 0.184 ; exemplar HD 27290 = gam Dor = GJ 167.1 = GJ 9150 = HIP 19893 ([Fe/H]=-0.08)
-(V-Rc)(F1V) = 0.184 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
-(V-Rc)(F1V) = 0.195 ; HD 141891 = bet TrA = GJ 601 A = HIP 77952 (F1V,Gray06) ([Fe/H]=-0.29)
+(V-Rc)(F1V) =  0.184 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
+(V-Rc)(F1V) = 0.187 ; B-V vs V-Rc trend for B-V=0.33 (12/2023)
+(V-Rc)(F1V) =  0.195 ; HD 141891 = bet TrA = GJ 601 A = HIP 77952 (F1V,Gray06) ([Fe/H]=-0.29)
 (V-Rc)(F1V) = 0.200 ; exemplar HD 105452 = alf Crv = GJ 455.3 = GJ 9389 = HIP 59199 ([Fe/H]=-0.08)
+=> adopt (V-Rc)(F1V) = 0.19 [updated 12/1/2023; V-Ic=0.38, R-Ic=0.19]
 
-(R-Ic)(F1V) = 0.169 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
-(R-Ic)(F1V) = 0.170 ; HD 141891 = bet TrA = GJ 601 A = HIP 77952 (F1V,Gray06) ([Fe/H]=-0.29)
+(R-Ic)(F1V) =  0.169 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
+(R-Ic)(F1V) =  0.170 ; HD 141891 = bet TrA = GJ 601 A = HIP 77952 (F1V,Gray06) ([Fe/H]=-0.29)
 (R-Ic)(F1V) = 0.190 ; exemplar HD 27290 = gam Dor = GJ 167.1 = GJ 9150 = HIP 19893 ([Fe/H]=-0.08)
 (R-Ic)(F1V) = 0.191 ; exemplar HD 105452 = alf Crv = GJ 455.3 = GJ 9389 = HIP 59199 ([Fe/H]=-0.08)
+(R-Ic)(F1V) = 0.193 ; B-V vs R-Ic trend for B-V=0.33 (12/2023)
+=> adopt (R-Ic)(F1V) = 0.19 [updated 12/1/2023; V-Ic=0.38, V-Rc=0.19]
 
-(V-Ic)(F1V) = 0.353 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
-(V-Ic)(F1V) = 0.365 ; Bessell88 (interp F0V-F2V)
-(V-Ic)(F1V) = 0.365 ; HD 141891 = bet TrA = GJ 601 A = HIP 77952 (F1V,Gray06) ([Fe/H]=-0.29)
+(V-Ic)(F1V) =  0.353 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
+(V-Ic)(F1V) =  0.365 ; Bessell88 (interp F0V-F2V)
+(V-Ic)(F1V) =  0.365 ; HD 141891 = bet TrA = GJ 601 A = HIP 77952 (F1V,Gray06) ([Fe/H]=-0.29)
+(V-Ic)(F1V) = 0.368 ; Gray01/03/06 F1V stars (+-0.008 sem, +-0.026 stdev; N=14)
 (V-Ic)(F1V) = 0.374 ; exemplar HD 27290 = gam Dor = GJ 167.1 = GJ 9150 = HIP 19893 ([Fe/H]=-0.08)
+(V-Ic)(F1V) = 0.381 ; B-V vs V-Ic trend for B-V=0.33 (12/2023)
 (V-Ic)(F1V) = 0.390 ; exemplar HD 105452 = alf Crv = GJ 455.3 = GJ 9389 = HIP 59199 ([Fe/H]=-0.08)
-=> adopt (V-Ic)(F1V) = 0.365 [updated 9/1/2023]
+=> adopt (V-Ic)(F1V) = 0.38 [updated 12/1/2023; V-Rc=0.19, R-Ic=0.19]
 
-(G-V)(F1V) =  -0.10254  ; HD_58946_ F1V_ (GaiaDR2)
-(G-V)(F1V) =  -0.08868  ; HD_21844_ F1V (GaiaDR2)
-(G-V)(F1V) =  -0.08406  ; HD_109799_ F1V_ (GaiaDR2)
-(G-V)(F1V) =  -0.082    ; SIMBAD d<60pc F dwarf fit as f(B-V=0.33) (GaiaDR2)
-(G-V)(F1V) =  -0.075    ; Gray01/03/06 F dwarf fit for B-V=0.33 (see F0V.txt) (GaiaDR2)
-(G-V)(F1V) =  -0.07486  ; HD_11257_ F1V (GaiaDR2)
-(G-V)(F1V) =  -0.07016  ; HD_141891_ F1V_ (GaiaDR2)
-(G-V)(F1V) =  -0.06361  ; HD_225003_ F1V_ (GaiaDR2)
-(G-V)(F1V) =  -0.06316  ; HD_40292_ F1V_ (GaiaDR2)
-(G-V)(F1V) =  -0.05769  ; HD_105452_ F1V_ (GaiaDR2)
-(G-V)(F1V) =  -0.05665  ; HD_86629_ F1V_ (GaiaDR2)
-(G-V)(F1V) =  -0.05505  ; HD_206043_ F1V(n)_ (GaiaDR2)
-(G-V)(F1V) =  -0.04946  ; HD_219080_ F1V_ (GaiaDR2)
-=> adopt (G-V)(F1V) = -0.07 [updated 10/30/2020]
+(V-Ks)(F1V) = 0.832 +- 0.042 ; N=2 Gray06 F1V w/ grade A Ks mag & HIP V
+
+
+(G-V)(F1V) = -0.102 ; HD_58946_ F1V_ (GaiaDR2)
+(G-V)(F1V) = -0.088 ; HD_21844_ F1V (GaiaDR2)
+(G-V)(F1V) = -0.084 ; HD_109799_ F1V_ (GaiaDR2)
+(G-V)(F1V) = -0.082 ; SIMBAD d<60pc F dwarf fit as f(B-V=0.33) (GaiaDR2)
+(G-V)(F1V) = -0.075 ; Gray01/03/06 F dwarf fit for B-V=0.33 (see F0V.txt) (GaiaDR2)
+(G-V)(F1V) = -0.074 ; HD_11257_ F1V (GaiaDR2)
+(G-V)(F1V) = -0.070 ; HD_141891_ F1V_ (GaiaDR2)
+(G-V)(F1V) = -0.063 ; HD_225003_ F1V_ (GaiaDR2)
+(G-V)(F1V) = -0.063 ; HD_40292_ F1V_ (GaiaDR2)
+(G-V)(F1V) = -0.057 ; HD_105452_ F1V_ (GaiaDR2)
+(G-V)(F1V) = -0.056 ; HD_86629_ F1V_ (GaiaDR2)
+(G-V)(F1V) = -0.055 ; HD_206043_ F1V(n)_ (GaiaDR2)
+(G-V)(F1V) = -0.049 ; HD_219080_ F1V_ (GaiaDR2)
+=> adopt (G-V)(F1V) = -0.07 [updated 10/30/2020] (GaiaDR2) 
 
 (Bp-Rp)(F1V) =  0.4324  ; HD_27290
 (Bp-Rp)(F1V) = 0.434    ; color trend for B-V=0.33
@@ -171,7 +185,6 @@ Teff(F1V) =  7230 K ; Habets81
 
 logg(F1V) = 4.2 ; median logg for 6 F1V from Gray17
 
-(V-Ks)(F1V) = 0.832 +- 0.042 ; N=2 Gray06 F1V w/ grade A Ks mag & HIP V
 
 BCv(F1V) = 0.073 mag ; Balona94(Teff=7020K, set so BCv(5772K)=-0.085)
 BCv(F1V) = 0.064 mag ; Bertone04(ATLAS,Teff=7020K, set so BCv(5772K)=-0.085)

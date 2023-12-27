@@ -18,7 +18,7 @@ Houk75 standard:      46 Tau - F3V (primary standard until MK73, then F3IV/V)
 Cowley76 standard:    HR 1279 (= HD 26015) - F3V
 MK78 standard:        HR 1279 (= HD 26015),
                       48 Tau  (= HD 26911 = Hyades vB 20) - F3V 
-Keenan85 standard:    HR 1279 (= HD 26015 = "BS 1279") - F3V
+Keenan85_IAU stan.:   HR 1279 (= HD 26015 = "BS 1279") - F3V
 Gray89 standard:      HR 1279 (= HD 26015) - F3V
 GrayAtlas standard:   HR 1279 (= HD 26015) - F3V
 GrayNstars standard:  HR 1279 (= HD 26015) - F3V
@@ -31,12 +31,7 @@ Catalogues contain 4244 stars classified as "F3V", of which 17 were
 classified by Gray and collaborators (2001, 2003, 2006) on the modern
 system of MK standards (MK78, Gray89). The median Gray classification
 of the Houk "F3V" stars is "F4V" (clipped mean F3.7+-0.3 (sem) +-1.3
-(rms) subtypes). Hence, we recommend that stars classified "F3V" by
-Houk
-
-Gray01/03/06 lists 14 nearby F3V dwarfs. Median colors:
-<B-V>(F3V) = 0.375 (+-0.007 sem +-0.021 stdev; N=14)
-<V-I>(F3V) = 0.434 (+-0.006 sem +-0.022 stdev; N=14)
+(rms) subtypes).
 
 For F3V Hipparcos stars within 75pc, with parallax S/N > 8, 
 and within 1 mag of the MS (N=95):
@@ -51,34 +46,60 @@ and within 1 mag of the MS (N=95):
 <V-Vt>(F3V)  =-0.045 (+-0.001 sem, +-0.009 stdev; N=95)
 <B-K>(F3V)   = 1.458 (+-0.013 sem, +-0.099 stdev; N=100)
 
-(B-V)(F3V)   = 0.35  ; exemplar HD 107398 A 
-(B-V)(F3V)   =  0.36 ; Morgan71
-(B-V)(F3V)   = 0.364 ; median for SIMBAD F3V d<25pc (N=5)
-(B-V)(F3V)   = 0.366 ; sec. stan. 46 Tau
-(B-V)(F3V)   = 0.37  ; Strassemier00 halfway between F2V (0.36) and F4V (0.38)
-(B-V)(F2V)   = 0.374 ; median F2V color (see F2V.txt)
-<B-V>(F3V)   = 0.375 ; 14 nearby F3V dwarfs from Gray01/03/06
-(B-V)(F3V)   = 0.38  ; exemplar HD 107398 B
-(B-V)(F3V)   =  0.382 ; BakisEker22 
-(B-V)(F3V)   = 0.386 ; exemplar HD 171834
-(B-V)(F3V)   = 0.386 ; smoothed trend SpT vs (B-V)o B9.5V-F4V 11/2021
-(B-V)(F3V)   = 0.397 ; prim. stan. HD 26015
-(B-V)(F3V)   =  0.40 ; MorganAbt73
-(B-V)(F3V)   =  0.40 +- 0.01 ; Turner77
-(B-V)(F3V)   =  0.41 ; Fitzgerald70
-(B-V)(F3V)   = 0.41  ; median F4V color (see F4V.txt)
-<B-V>(F3V)   = 0.421 ; 95 nearby F3V dwarfs from HIP d<75pc S/N>8
-=> adopt (B-V)(F3V)  = 0.39 *** [updated 8/31/2019]
-=> adopt (U-B)(F3V)  = -0.016
-=> adopt (V-I)(F3V)  = 0.451
-=> adopt (V-R)(F3V)  = 0.223
-=> adopt (R-I)(F3V)  = 0.228
+(B-V)(F3V) =  0.348 ; HD_88215_ F3V plx=36.0437mas, Mv=3.0801
+(B-V)(F3V) =  0.35 ; HD_90589_ F3V plx=61.4342mas, Mv=2.9520
+(B-V)(F3V) = 0.35  ; exemplar HD 107398 A 
+(B-V)(F3V) =  0.36 ; Morgan71
+(B-V)(F3V) =  0.36 ; HD_51733_ F3V plx=26.36mas, Mv=2.5747
+(B-V)(F3V) =  0.361 ; HD_171834_ F3V plx=29.5111mas, Mv=2.7749
+(B-V)(F3V) =  0.362 ; HD_14691_ F3V(n) plx=33.5081mas, Mv=3.0467
+(B-V)(F3V) = 0.364 ; median for SIMBAD F3V d<25pc (N=5)
+(B-V)(F3V) = 0.366 ; sec. stan. 46 Tau
+(B-V)(F3V) = 0.37  ; Strassemier00 halfway between F2V (0.36) and F4V (0.38)
+(B-V)(F3V) =  0.37 ; HD_16647_ F3V: plx=25.4832mas, Mv=3.2912
+(B-V)(F2V) = 0.374 ; median F2V color (see F2V.txt)
+(B-V)(F3V) = 0.375 ; median F2V Gray01/03/06 stars (N=14)
+(B-V)(F3V) =  0.375 ; HD_112935_ F3V plx=25.4287mas, Mv=3.0336
+(B-V)(F3V) =  0.376 ; HD_49933_ F3V plx=33.5335mas, Mv=3.3983
+(B-V)(F3V) = 0.38  ; exemplar HD 107398 B
+(B-V)(F3V) =  0.38 ; HD_58728_ F3V plx=30.8067mas, Mv=2.6832
+(B-V)(F3V) =  0.382 ; BakisEker22 
+(B-V)(F3V) = 0.386 ; exemplar HD 171834
+(B-V)(F3V) =  0.386 ; HD_153363_ F3V plx=29.4073mas, Mv=3.0732
+(B-V)(F3V) = 0.386 ; smoothed trend SpT vs (B-V)o B9.5V-F4V 11/2021
+(B-V)(F3V) =  0.39 ; HD_157950_ F3V plx=30.9863mas, Mv=1.9958
+(B-V)(F3V) = 0.397 ; prim. stan. HD 26015
+(B-V)(F3V) =  0.40 ; MorganAbt73
+(B-V)(F3V) =  0.40 +- 0.01 ; Turner77
+(B-V)(F3V) =  0.41 ; Fitzgerald70
+(B-V)(F3V) = 0.41  ; median F4V color (see F4V.txt)
+(B-V)(F3V) =  0.41 ; HD_64685_ F3V plx=25.8075mas, Mv=2.8587
+(B-V)(F3V) =  0.41 ; HD_130819_ F3V plx=41.7742mas, Mv=3.2645
+(B-V)(F3V) =  0.412 ; HD_150453_ F3V plx=32.4133mas, Mv=3.1126
+(B-V)(F3V) =  0.42 ; HD_80290_ F3V plx=34.2518mas, Mv=3.7834
+(B-V)(F3V) = 0.421 ; 95 nearby F3V dwarfs from HIP d<75pc S/N>8
+=> adopt (B-V)(F3V)  = 0.39 [updated 8/31/2019]
+
 => adopt (V-J)(F3V)  = 0.765
 => adopt (V-H)(F3V)  = 0.913
 => adopt (V-Ks)(F3V) = 0.964
 => adopt (H-Ks)(F3V) = 0.051
-=> adopt (J-H)(F3V)  = 0.148 
+=> adopt (J-H)(F3V)  = 0.148
 
+(U-B)(F3V) = -0.01  ; Fitzgerald70
+(U-B)(F3V) = -0.016 ; B-V vs. U-B trend for B-V=0.39
+(U-B)(F3V) = -0.033 ; HIP d<75pc S/N>8 F3V N=53 (Mermilliod91 photometry)
+=> adopt (U-B)(F3V) = -0.015 [updated 12/1/2023]
+
+(V-Rc)(F3V) = 0.223 ; B-V vs. V-Rc trend for B-V=0.39
+=> adopt (V-Rc)(F3V) = 0.22 [updated 12/1/2023; V-Ic=0.45, R-Ic=0.23]
+
+(R-Ic)(F3V) = 0.228 ; B-V vs R-Ic trend for B-V=0.39
+=> adopt (R-Ic)(F3V) = 0.23 [updated 12/1/2023; V-Ic=0.45, V-Rc=0.22]
+
+(V-Ic)(F3V) = 0.434 ; Gray01/03/06 F3V stars (+-0.006 sem +-0.022 stdev; N=14)
+(V-Ic)(F3V) = 0.451 ; B-V vs V-Ic trend for B-V=0.39
+=> adopt (V-Ic)(F3V) = 0.45 [updated 12/1/2023; V-Rc=0.22, R-Ic=0.23]
 
 (G-V)(F3V) =  -0.133    ; HD_23289_ F3V
 (G-V)(F3V) =  -0.10903  ; HD_29992_ F3V_
@@ -130,9 +151,6 @@ and within 1 mag of the MS (N=95):
 (Ks-W1)(F3V) = 0.051 ; EEM trend for d<30pc for B-V=0.390
 => adopt (Ks-W1)(F3V) = 0.051 [updated 12/29/2019]
 
-
-(U-B)(F3V)   = -0.01  ; Fitzgerald70
-(U-B)(F3V)   = -0.033 ; HIP d<75pc S/N>8 F3V N=53 (Mermilliod91 photometry)
 
 (g-V)(F3V) = 0.120 ; Jordi06 B-V=>g-V for B-V=0.39
 => adopt (g-V)(F3V) = 0.12 [updated 9/1/2023]
