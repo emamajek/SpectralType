@@ -167,25 +167,26 @@ Teff(K9V) =  3943 K ; Ramirez05 Teff calibration for B-V=1.42
 Teff(K9V) =  4246 K ; Biazzo07 Teff calibration for B-V=1.42
 => adopt Teff(K9V) = 3930 K (logT = 3.594) [updated 12/23/2020]
 
+M_G(K9V) = 7.38 ; exemplar GJ 9425 = HD 113538 (Gaia DR2)
+M_G(K9V) = 7.87 ; SIMBAD d<20pc trend for V-Ks=3.54 (Gaia DR2) 
+M_G(K9V) = 7.92 ; exemplar GJ 3138 = HIP 10037 (Gaia DR2)
+M_G(K9V) = 8.01 ; exemplar HIP 14589 = LP 831-72 (Gaia DR2)
+M_G(K9V) = 8.03 ; Mv=8.70, G-V=-0.67 (Gaia DR2)
+M_G(K9V) = 8.37 ; deprecated stan. GJ 1016 = HIP 3261  (Gaia DR2)
+M_G(K9V) = 8.51 ; exemplar GJ 88 = LHS 1357 (K9Vk, Gray06) (Gaia DR2)
+=> adopt M_G(K9V) = 8.03 [updated 8/13/2023] (GaiaDR2)
 
-M_G(K9V) =  7.38    ; exemplar GJ 9425 = HD 113538 (Gaia DR2)
-M_G(K9V) = 7.38381 ; exemplar GJ 9425 = HD 113538 plx=61.3202mas (K9Vk, Gray06) (GaiaDR3)
-M_G(K9V) =  7.870 ; SIMBAD d<20pc trend for V-Ks=3.54 (Gaia DR2) 
-M_G(K9V) = 7.8988  ; G_162-33 = LP 729-68 plx=26.5132mas (K9Vk, Gray06) (GaiaDR3)
-M_G(K9V) =  7.92   ; exemplar GJ 3138 = HIP 10037 (Gaia DR2)
-M_G(K9V) = 7.92493 ; exemplar GJ 3138 = HIP 10037 plx=35.1119mas (K9Vk:, Gray06) (GaiaDR3)
-M_G(K9V) =  8.01   ; exemplar HIP 14589 = LP 831-72 (Gaia DR2)
-M_G(K9V) = 8.0192  ; exemplar HIP 14589 = LP 831-72 plx=34.9478mas (K9Vk:, Gray06) (GaiaDR3)
-M_G(K9V) =  8.03  ; Mv=8.70, G-V=-0.67 (Gaia DR2)
-M_G(K9V) = 8.0362  ; L 810-58 = LP 718-47 plx=35.6744mas (K9Vk, Gray06) (GaiaDR3)
-M_G(K9V) = 8.06043 ; HIP 81084 = LP 745-70 plx=32.1659mas (K9Vkee, Gray06) (GaiaDR3)
-M_G(K9V) = 8.06223 ; HIP 20338 = LP 834-52 plx=26.9668mas (K9Vk, Gray06) (GaiaDR3)
-M_G(K9V) =   8.37   ; deprecated stan. GJ 1016 = HIP 3261  (Gaia DR2)
-M_G(K9V) =  8.37411 ; deprecated stan. GJ 1016 = HIP 3261 = CD-34_239 plx=50.9245mas K9V (GaiaDR3)
-M_G(K9V) = 8.50824 ; exemplar GJ 88 = LHS 1357 plx=42.4640mas (K9Vk, Gray06) (GaiaDR3)
-M_G(K9V) =   8.51  ; exemplar GJ 88 = LHS 1357 (K9Vk, Gray06) (Gaia DR2)
-M_G(K9V) =  8.61192 ; HIP 43969 = LP_786-22 plx=36.1834mas K9Vk:  (GaiaDR3)
-=> adopt M_G(K9V) = 8.03 [updated 8/13/2023]
+M_G(K9V) = 7.38 ; exemplar GJ 9425 = HD 113538 plx=61.3202mas (K9Vk, Gray06) (GaiaDR3)
+M_G(K9V) = 7.90 ; G_162-33 = LP 729-68 plx=26.5132mas (K9Vk, Gray06) (GaiaDR3)
+M_G(K9V) = 7.92 ; exemplar GJ 3138 = HIP 10037 plx=35.1119mas (K9Vk:, Gray06) (GaiaDR3)
+M_G(K9V) = 8.02 ; exemplar HIP 14589 = LP 831-72 plx=34.9478mas (K9Vk:, Gray06) (GaiaDR3)
+M_G(K9V) = 8.04 ; L 810-58 = LP 718-47 plx=35.6744mas (K9Vk, Gray06) (GaiaDR3)
+M_G(K9V) = 8.06 ; HIP 81084 = LP 745-70 plx=32.1659mas (K9Vkee, Gray06) (GaiaDR3)
+M_G(K9V) = 8.06 ; HIP 20338 = LP 834-52 plx=26.9668mas (K9Vk, Gray06) (GaiaDR3)
+M_G(K9V) = 8.37 ; deprecated stan. GJ 1016 = HIP 3261 = CD-34_239 plx=50.9245mas K9V (GaiaDR3)
+M_G(K9V) = 8.51 ; exemplar GJ 88 = LHS 1357 plx=42.4640mas (K9Vk, Gray06) (GaiaDR3)
+M_G(K9V) = 8.61 ; HIP 43969 = LP_786-22 plx=36.1834mas K9Vk:  (GaiaDR3)
+=> adopt M_G(K9V) = 8.05 [updated 1/17/2024] (GaiaDR3) (CHECK)
 
 Mv(K9V)  = 8.01 mag ; exemplar GJ 9425 = HD 113538
 Mv(K9V)  =  8.53 mag ; V-K=3.55 => SchlaufmanLaughlin10 calib
@@ -202,29 +203,29 @@ Mv(K9V)  =  9.00 mag ; B-V=1.42 => Mv(Wright05)
 Mv(K9V)  = 9.07 mag ; deprecated stan. GJ 1016 = HIP 3261
 Mv(K9V)  = 9.23 mag ; exemplar GJ 88 = LHS 1357
 => adopt Mv(K9V)   = 8.56 mag [updated 3/2/2021] (M_Ks=5.01, V-Ks=3.55)
-=> adopt M_G(K9V)  = 7.90 mag [updated 11/15/2022] (Mv=8.56, G-V=-0.66)
+=> adopt M_G(K9V)  = 7.90 mag [updated 11/15/2022] (Mv=8.56, G-V=-0.66) (CHECK)
 => adopt M_Ks(K9V) = 5.01 mag [updated 3/2/2021] (Mv=8.56, V-Ks=3.55)
 
 
 
-M_Ks(K9V) = 4.58 mag ; exemplar GJ 9425 = HD 113538
-M_Ks(K9V) =  4.92631  ; G_162-33_ plx=26.5132mas (K9Vk, Gray06)  (GaiaDR3)
-M_Ks(K9V) = 4.97 mag ; exemplar GJ 3138 = HIP 10037
-M_Ks(K9V) =  4.98 mag ; SIMBAD d<20pc K dwarf trend for V-ks=3.60
-M_Ks(K9V) =  4.98 mag ; V-Ks=3.55 => SchlaufmanLaughlin10 calib
-M_Ks(K9V) =  5.00 mag ; V-Ks=3.55 => EEM fit to Reid CNS3 data
-M_Ks(K9V) =    5.01 mag ; V-Ks=3.55, Mv=8.56
-M_Ks(K9V) = 5.06 mag ; V-Ks=3.55 => EEM fit to Jao16 data
-M_Ks(K9V) = 5.08 mag ; exemplar HIP 14589 = LP 831-72
-M_Ks(K9V) =  5.08398  ; LP_745-70_ plx=32.1659mas (K9Vkee,Gray06) (GaiaDR3)
-M_Ks(K9V) =  5.10 mag ; Mv=8.7, V-Ks=3.6
-M_Ks(K9V) =  5.10 mag ; V_Ks=3.55 => JohnsonApps09 calib
-M_Ks(K9V) =  5.11221  ; LP_811-17_ plx=41.98mas (K9Vk:,Gray06) (GaiaDR3)
-M_Ks(K9V) =  5.12215  ; LP_834-52_ plx=26.9668mas (K9Vk:,Gray06) (GaiaDR3)
-M_Ks(K9V) =   5.19 mag ; V-Ks=3.55 => Henry04
-M_Ks(K9V) = 5.42 mag ; deprecated standard GJ 1016 = HIP 3261
-M_Ks(K9V) = 5.48 mag ; exemplar GJ 88 = LHS 1357
-M_Ks(K9V) =  5.64955  ; LP_786-22_ plx=36.1834mas K9Vk:  (GaiaDR3)
+M_Ks(K9V) = 4.58 ; exemplar GJ 9425 = HD 113538
+M_Ks(K9V) =  4.93 ; G_162-33_ plx=26.5132mas (K9Vk, Gray06)  (GaiaDR3)
+M_Ks(K9V) = 4.97 ; exemplar GJ 3138 = HIP 10037
+M_Ks(K9V) =  4.98 ; SIMBAD d<20pc K dwarf trend for V-ks=3.60
+M_Ks(K9V) =  4.98 ; V-Ks=3.55 => SchlaufmanLaughlin10 calib
+M_Ks(K9V) =  5.00 ; V-Ks=3.55 => EEM fit to Reid CNS3 data
+M_Ks(K9V) =    5.01 ; V-Ks=3.55, Mv=8.56
+M_Ks(K9V) = 5.06 ; V-Ks=3.55 => EEM fit to Jao16 data
+M_Ks(K9V) = 5.08 ; exemplar HIP 14589 = LP 831-72
+M_Ks(K9V) =  5.08 ; LP_745-70_ plx=32.1659mas (K9Vkee,Gray06) (GaiaDR3)
+M_Ks(K9V) =  5.10 ; Mv=8.7, V-Ks=3.6
+M_Ks(K9V) =  5.10 ; V_Ks=3.55 => JohnsonApps09 calib
+M_Ks(K9V) =  5.11 ; LP_811-17_ plx=41.98mas (K9Vk:,Gray06) (GaiaDR3)
+M_Ks(K9V) =  5.12 ; LP_834-52_ plx=26.9668mas (K9Vk:,Gray06) (GaiaDR3)
+M_Ks(K9V) =   5.19 ; V-Ks=3.55 => Henry04
+M_Ks(K9V) = 5.42 ; deprecated standard GJ 1016 = HIP 3261
+M_Ks(K9V) = 5.48 ; exemplar GJ 88 = LHS 1357
+M_Ks(K9V) =  5.65  ; LP_786-22_ plx=36.1834mas K9Vk:  (GaiaDR3)
 
 BCv(K9V) =  -1.288 mag ; Flower96(Teff=3900K, set so BCv(5772K)=-0.085)
 BCv(K9V) =  -1.176 mag ; Casagrande18(Teff=3900K,logg=4.5, set so BCv(5772K)=-0.085)
