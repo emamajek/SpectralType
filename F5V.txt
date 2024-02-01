@@ -267,6 +267,28 @@ BCv(F5V) = -0.049 mag ; EEM fit to Casagrande06/08/10(Teff=6570K)
 
 M_G(F5V) = 2.996 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.36
 
+M_G(F5V) =   2.46 ; HD_15798_ plx=37.46mas F5V (GaiaDR3)
+M_G(F5V) =   2.47 ; HD_148048_ plx=33.419mas F5V (GaiaDR3)
+M_G(F5V) =   2.50 ; HD_71243_ plx=51.3172mas F5VFe-0.8 (GaiaDR3)
+M_G(F5V) =    2.66 (discrepent, SB) ; HD_144069_ plx=36.117mas F5V (SB1) (GaiaDR3)
+M_G(F5V) =   2.72 ; HD_13555_ plx=33.3383mas F5V (GaiaDR3)
+M_G(F5V) =   2.76 (discrepent, SB) ; HD_16620_ plx=42.4864mas F5V (SB2) (GaiaDR3)
+M_G(F5V) =  3.04 ; HD_168151_ plx=43.1837mas F5V (GaiaDR3)
+M_G(F5V) =  3.07 ; HD_104731_ plx=40.4345mas F5V (GaiaDR3)
+M_G(F5V) =  3.08 ; HD_153580_ plx=37.3696mas F5VFe+0.5 (GaiaDR3)
+M_G(F5V) =  3.09 ; HD_187532_ plx=36.4182mas F5VFe-1CH-0.7 (GaiaDR3)
+M_G(F5V) =  3.11 ; HD_7439_ plx=41.5747mas F5V (GaiaDR3)
+M_G(F5V) =   3.16 (discrepent, SB) ; HD_81997_ plx=54.9187mas F5V (SB1) (GaiaDR3)
+M_G(F5V) =  3.17 ; HD_32743_ plx=38.0941mas F5V (GaiaDR3)
+M_G(F5V) =  3.20 ; HD_197692_ plx=68.3370mas F5V (GaiaDR3)
+M_G(F5V) = 3.25 ; pri. stan. HD 27524 = HIP 20349  = Cl Melotte 25 35 (Hyad, [Fe/H]~+0.16)
+M_G(F5V) =   3.29 (discrepent, SB) ; HD_210027_ plx=84.0054mas F5V (SB2) (GaiaDR3)
+M_G(F5V) =  3.29 ; HD_60584_ plx=32.7467mas F5V (GaiaDR3)
+M_G(F5V) = 3.30 ; sec. stan. HD 27534 = HIP 20350 = Cl Melotte 25 36 (Hyad, [Fe/H]~+0.16)
+M_G(F5V) =  3.33 ; HD_17948_ plx=37.3809mas F5V (GaiaDR3)
+M_G(F5V) = 3.35 ; sec. stan. HD 134083 = 45 Boo = GJ 578 ([Fe/H]=+0.03)
+M_G(F5V) =  3.40 ; HD_205289_ plx=36.3561mas F5VFe-0.8CH-0.4 (GaiaDR3)
+
 Mv(F5V)  =   3.5  mag ; Schmidt-Kaler82
 Mv(F5V)  =  3.50 mag ; sec. stan. 45 Boo 
 Mv(F5V)  =  3.47 mag ; median for SIMBAD F5V d<25pc (N=14)
@@ -329,7 +351,7 @@ Morgan65 does not list an F5V standard
 
 # Primary Standards:
 
-HD 27524 = HIP 20349 = BD+20 740 = Cl Melotte 25 35 (a Hyades member)
+HD 27524 = HIP 20349  = Cl Melotte 25 35 = BD+20_740 (a Hyades member)
  *F5V: Morgan65,MK73,MorganAbt73(stan),MK78,Jaschek78(MK73),Oblak81,Keenan85,Gray89(stan),Gray01,GrayNstars,GrayAtlas
   F5IV-V: Treanor60
   F2V: Adams35
@@ -356,14 +378,14 @@ HD 27524 = HIP 20349 = BD+20 740 = Cl Melotte 25 35 (a Hyades member)
   logg=4.28(Sanchez-Blazquez06), logg=4.2863+-0.0031(Brandner23) =>
   <logg>=4.23(N=15).  The metallicities have huge scatter:
   [Fe/H]=-0.46(Varenne99), [Fe/H]=+0.05+-0.16(Gebran10),
-  [Fe/H]=+0.81(Luck18,what?).  Mass=1.414Msun(vanSaders13),
-  Mass=1.42Msun(Goldman13),
+  [Fe/H]=+0.81(Luck18,what?), adopt Hyades mean [Fe/H]~+0.16?
+  Mass=1.414Msun(vanSaders13), Mass=1.42Msun(Goldman13),
   Rad=1.450Rsun(vanSaders13). logL=0.5489+-0.0046(Brandner23).
-  GaiaDR3: plx=20.5634+-0.0250mas(GaiaDR3).
+  GaiaDR3: plx=20.5634+-0.0250mas(GaiaDR3). M_G=3.254.
 
 # Secondary Standard
 
-HD 27534 = HIP 20350 = BD+18_629 = SAO 93883 = Cl Melotte 25 36
+HD 27534 = HIP 20350 = Cl Melotte 25 36 = BD+18_629 = SAO 93883 
  *F5V: Cannon(F5),Adams35,Wilson48(F5),MorganAbt73(stan),MK78,Kennedy83(Oblak81),Garcia89,Gray01
   F6V: Morgan65
   F6V-IV: Treanor60
@@ -376,21 +398,23 @@ HD 27534 = HIP 20350 = BD+18_629 = SAO 93883 = Cl Melotte 25 36
   6590K(Gray01), 6675K(Varenne99,Ryabchikova05),
   6748+-87K(Casagrande11) => median
   Teff=6572K. logg=4.17(Pace12). mass=1.382Msun(Pace12),
-  1.39-1.41(Casagrande11) => adopt 1.39 Msun. Hyad, so [Fe/H] ~ +0.13
-  dex.
+  1.39-1.41(Casagrande11) => adopt 1.39 Msun. Hyad, so [Fe/H] ~ +0.16
+  dex. M_G=3.301(GaiaDR3). 
 
-HD 134083 = 45 Boo = HIP 73996 = GJ 578 = HR 5634 
+HD 134083 = 45 Boo = GJ 578 = HIP 73996 = HR 5634 = c Boo 
   F6V: Levato78
  *F5V: Roman49,Roman50,JM53(stan),Abt68,Cowley74(stan),HoukStandard,Bidelman85(F5),Gray01,Gray03,GrayNstars
   F4V: Adams35
 
   One of two F5V standards in JohnsonMorgan53, with iot Peg.  Closest
   to solar metallicity among the F5V standards.  Considered part of
-  Ursa Major Group (e.g. Marsden02)
+  Ursa Major Group (e.g. Marsden02). Unfortunately a mean spectroscopic
+  set of parameters does not appear in Soubiran22. 
   B-V=0.429+-0.006(HIP,Mermilliod91), V=4.93(HIP),
   V=4.930+-0.007(Mermilliod91), U-B=-0.029+-0.009(Mermilliod91),
   V-I=0.51+-0.05(HIP), dMv=+0.12, plx = 51.14+-0.31mas(HIP2), plx =
   51.6674 +- 0.1882 mas(GaiaDR2), Mv = 3.496+-0.013(HIP,GaiaDR2).
+  
   Teffs: 6435+-44K(Valenti05), 6512K(Taylor05), 6517+-30K(Wu11),
   6528K(Schroeder09), 6546K(Erspamer03), 6558+-77K(Ramirez05),
   6563K(diBenedetto98), 6567+-39K(Blackwell98), 6570K(Suchkov03),
@@ -399,25 +423,22 @@ HD 134083 = 45 Boo = HIP 73996 = GJ 578 = HR 5634
   6598+-80K(Casagrande11), 6601+-190K(Gonzalez-Hernandez09),
   6632K(Boesgaard88,Boesgaard90), 6632K(Ammler-vonEiff12),
   6739K(Prugniel07#2), 6751K(Prugniel07#3) => median Teff =
-  6573K. Surface gravities logg:
-  4.086(4.083,4.104;GaiaDR3, but for unrealistic [Fe/H]=-0.72),
-  4.17+-0.05(Prugniel11),
-  4.18+-0.04(Wu11),
-  4.19+-0.06(Valenti05),
-  4.20(LeBorgne03),
-  4.23(Erspamer03),
-  4.27(Luck17),
-  4.28(Casagrande11),
-  4.32(Sanchez-Blazquez06), 
-  4.33+-0.01(Takeda07), 
-  4.38(Worthey94),
-  4.41(Schroeder09),
-  4.43(King03), 
-  4.50(Boesgaard90)
-  => adopt <logg>=4.27.  [Fe/H]=-0.02+-0.03(Valenti05),
-  [Fe/H]=-0.02(Respamer03), [Fe/H]=-0.01+-0.03(Prugniel11),
-  [Fe/H]=0.03(Prugniel07), [Fe/H]=0.05(Marsakov95),
-  [Fe/H]=0.06(LeBorgne03) => essentially solar metallicity.
+  6573K. Surface gravities logg: 4.086(4.083,4.104;GaiaDR3, but for
+  unrealistic [Fe/H]=-0.72), 4.17+-0.05(Prugniel11), 4.18+-0.04(Wu11),
+  4.19+-0.06(Valenti05), 4.20(LeBorgne03), 4.23(Erspamer03),
+  4.27(Luck17), 4.28(Casagrande11), 4.32(Sanchez-Blazquez06),
+  4.33+-0.01(Takeda07), 4.38(Worthey94), 4.41(Schroeder09),
+  4.43(King03), 4.50(Boesgaard90) => adopt <logg>=4.27.
+  [Fe/H]=-0.02+-0.03(Valenti05),
+  [Fe/H]=-0.02(Erspamer03),
+  [Fe/H]=-0.01+-0.03(Prugniel11),
+  [Fe/H]=0.00(Boesgaard88), 
+  [Fe/H]=0.03(Prugniel07),
+  [Fe/H]=0.05(Marsakov95),
+  [Fe/H]=0.06(LeBorgne03),
+  [Fe/H]=0.10(Boesgaard90), 
+  [Fe/H]=0.18(Luck17), 
+  => adopt <[Fe/H]>=+0.03.  M_G=3.348(GaiaDR3).
 
 # Tertiary Standard
 

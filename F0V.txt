@@ -76,9 +76,9 @@ and within 1 mag of the MS (N=42):
 (B-V)(F0V) = 0.312 ; Morgan65 F0V Hyad HD 29375
 (B-V)(F0V) =  0.31  ; Johnson66,Johnson68,KenyonHartmann95
 (B-V)(F0V) =  0.307 ; HD_152598_ F0V plx=33.6014mas, Mv=2.9647
+(B-V)(F0V) = 0.305 ; smoothed trend SpT vs (B-V)o A0V-F9V 12/2023
 (B-V)(F0V) =  0.303 ; BakisEker22 
 (B-V)(F0V) =  0.30  ; JohnsonMorgan53, Johnson63, Morgan71, SchmidtKaler82
-(B-V)(F0V) = 0.300 ; smoothed trend SpT vs (B-V)o B9.5V-F4V 11/2021
 (B-V)(F0V) = 0.295 ; Gray01/03/06 F0V stars (+-0.002 sem, +-0.003 stdev; N=2)
 (B-V)(F0V) =  0.29  ; Garrison67
 (B-V)(F0V) = 0.288 ; exemplar HD 195627 (plx=35.6214mas, Mv=2.5035)
@@ -90,61 +90,63 @@ and within 1 mag of the MS (N=42):
 (B-V)(F0V) = 0.263 ; Morgan65 F0V Hyad HD 28556
 (B-V)(F0V) = 0.257 ; prim. stan. HD 23585 (dereddened by EEM E(B-V)=0.04)
 (B-V)(F0V) =  0.221 ; HD_83287_ F0V plx=25.9788mas, Mv=2.3491
-=> adopt (B-V)(F0V)  = 0.295 [last updated 9/24/2020]
-[EEM 9/24/2020; minor adjustment redward to make B-V/Teff/Mv sequence more consistent]
-
-=> adopt (V-J)(F0V)  = 0.590
-=> adopt (V-H)(F0V)  = 0.689
-=> adopt (V-Ks)(F0V) = 0.734
-=> adopt (H-Ks)(F0V) = 0.045
-=> adopt (J-H)(F0V)  = 0.099
-=> adopt (W1-W2)(F0V)= -0.026
-=> adopt (W1-W3)(F0V)= -0.050
-=> adopt (W1-W4)(F0V)= 0.003
+=> adopt (B-V)(F0V) = 0.305 [updated 12/29/2023]
+=> adopt (V-J)(F0V) = 0.609 [updated 12/29/2023]
+=> adopt (V-H)(F0V) = 0.712 [updated 12/29/2023]
+=> adopt (W1-W2)(F0V)= -0.026 [updated 12/29/2023]
+=> adopt (W1-W3)(F0V)= -0.050 [updated 12/29/2023]
+=> adopt (W1-W4)(F0V)= 0.003 [updated 12/29/2023]
 
 (U-B)(F0V) =  0.02  ; JohnsonMorgan53
 (U-B)(F0V) =  0.03  ; Fitzgerald70
+(U-B)(F0V) = 0.045 ; B-V vs U-B trend for B-V=0.305
 (U-B)(F0V) = 0.046 ; HIP d<75pc S/N>8 F0V N=61 (Mermilliod91 photometry)
-(U-B)(F0V) = 0.052 ; B-V vs U-B trend for B-V=0.295
 (U-B)(F0V) =  0.06  ; Johnson66,Johnson68
-=> adopt (U-B)(F0V) = 0.05 [updated 12/1/2023]
+=> adopt (U-B)(F0V) = 0.045 [updated 12/29/2023]
 
 (V-Rj)(F0V) = 0.30 ; Johnson68
 
-(V-Rc)(F0V) = 0.167 ; B-V vs V-Rc trend for B-V=0.295
-(V-Rc)(F0V) = 0.195 ; Johnson68 transformed to V-Rc via Fernie83
-=> adopt (V-Rc)(F0V) = 0.17 [updated 12/1/2023; V-Ic=0.34, R-Ic=0.17]
+(V-Rc)(F0V) = 0.172 ; B-V vs V-Rc trend for B-V=0.305
+(V-Rc)(F0V) =  0.195 ; Johnson68 transformed to V-Rc via Fernie83
+=> adopt (V-Rc)(F0V) = 0.17 [updated 12/29/2023; V-Ic=0.35, R-Ic=0.18]
 
 (R-Ij)(F0V) = 0.17 ; Johnson68
 
 (R-Ic)(F0V) = 0.168 ; Bessell79
-(R-Ic)(F0V) = 0.173 ; B-V vs R-Ic trend for B-V=0.295
-=> adopt (R-Ic)(F0V) = 0.17 [updated 12/1/2023; V-Ic=0.34, V-Rc=0.17]
+(R-Ic)(F0V) = 0.179 ; B-V vs R-Ic trend for B-V=0.305
+=> adopt (R-Ic)(F0V) = 0.18 [updated 12/29/2023; V-Ic=0.35, V-Rc=0.17]
 
 (V-Ic)(F0V) =  0.330 ; Bessell79,Bessell88
-(V-Ic)(F0V) = 0.345 ; Gray01/03/06 F0V stars (+-0.002 sem, +-0.004 stdev; N=2) 
+(V-Ic)(F0V) = 0.345 ; Gray01/03/06 F0V stars (+-0.002 sem, +-0.004 stdev; N=2)
+(V-Ic)(F0V) = 0.351 ; B-V vs. V-Ic trend for B-V=0.305
 (V-Ic)(F0V) = 0.372 ; Johnson68 transformed to V-Ic via Fernie83
-=> adopt (V-Ic)(F0V) = 0.34 [updated 12/1/2023; V-Rc=0.17, R-Ic=0.17]
+=> adopt (V-Ic)(F0V) = 0.35 [updated 12/29/2023; V-Rc=0.17, R-Ic=0.18]
 
-(V-Jj)(F0V) = 0.55  ; Johnson68
-(V-Jj)(F0V) = 0.58  ; Johnson66
+(V-Jj)(F0V) = 0.55 ; Johnson68
+(V-Jj)(F0V) = 0.58 ; Johnson66
 
-(V-Hj)(F0V) = 0.73  ; Johnson68
+(V-Hj)(F0V) = 0.73 ; Johnson68
 
-(V-Kj)(F0V) = 0.74  ; Johnson68 
-(V-Kj)(F0V) = 0.79  ; Johnson66
+(V-Kj)(F0V) = 0.74 ; Johnson68 
+(V-Kj)(F0V) = 0.79 ; Johnson66
 
 (V-K)(F0V) = 0.70 ; Bessell88/Glass
 
-(V-Ks)(F0V) = 0.744 ; Bessell88(Glass->2MASS)
+(V-Ks)(F0V) =  0.744 ; Bessell88(Glass->2MASS)
+(V-Ks)(F0V) = 0.758 ; B-V vs. V-Ks trend for B-V=0.305 
+=> adopt (V-Ks)(F0V) = 0.758 [updated 12/29/2023]
 
 (J-H)(F0V) = 0.13 ; Bessell88/Glass
 
-(J-H)(F0V) = 0.082; Bessell88(Glass->2MASS)
+(J-H)(F0V) =  0.082 ; Bessell88(Glass->2MASS)
+(J-H)(F0V) = 0.104 ; B-V vs. J-H trend for B-V=0.305
+=> adopt (J-H)(F0V) = 0.104 [updated 12/29/2023]
 
 (H-K)(F0V) = 0.03 ; Bessell88/Glass
 
-(H-Ks)(F0V) = 0.058; Bessell88(Glass->2MASS)
+(H-Ks)(F0V) = 0.046 ; B-V vs H-Ks trend for B-V=0.305
+(H-Ks)(F0V) =  0.058 ; Bessell88(Glass->2MASS)
+=> adopt (H-Ks)(F0V) = 0.046 [updated 12/29/2023]
 
 (J-K)(F0V) = 0.16 ; Bessell88/Glass
 
@@ -297,8 +299,8 @@ HD 23585 = Cl Melotte 22 1284 (Pleiad) = HII 1284
  *F0V: MK78,Kennedy83,Keenan85,Garcia89,Gray89,GrayGarrison89,GrayNstars,GrayAtlas,Gray01
   A9V: Jaschek64,Jaschek78
 
-  No Houk type, probably light reddening (E(B-V) ~ 0.04 mag => Av ~
-  0.13).  V=8.71(Tycho), V=8.384+-0.007(Hauck97),
+  Given its a Pleiad, I assume E(B-V)=0.04 mag => Av=0.13.
+  V=8.71(Tycho), V=8.384+-0.007(Hauck97),
   B-V=0.297+-0.003(Mermilliod91), U-B=0.080+-0.000(Mermilliod91),
   J=7.770+-0.018(2MASS), H=7.658+-0.051(2MASS),
   Ks=7.642+-0.023(2MASS), (V-Ks)=1.068(Tycho,2MASS). Not in PASTEL
@@ -322,10 +324,14 @@ HD 195627 = HR 7848 = 2MASS J20353488-6034542 (V=4.8)
    bringing good recent agreement. Not in PASTEL compendium of
    Soubiran22. PASTEL: 2 Teffs, median Teff = 7221K. 1 metallicity:
    [Fe/H] = -0.11 2003A&A...398.1121E, [M/H] = -0.12(Gray06).
-   logg=3.90(Gray06). B-V = 0.291+-0.012(HIP),
-   B-V=0.288+-0.004(Mermilliod91), U-B=0.037+-0.065(Mermilliod91),
-   V-I=0.34+-0.02(HIP), V=4.75(HIP), V=4.756+-0.005(Mermilliod91).
-   2MASS photometry all poor. (b-y) = 0.178+-0.001(Paunzen15).
+   logg=3.90(Gray06). V=4.75(HIP),
+   V=4.756+-0.005(Mermilliod91),
+   B-V=0.291+-0.012(HIP),
+   B-V=0.288+-0.004(Mermilliod91),
+   U-B=0.037+-0.065(Mermilliod91),
+   V-Ic=0.34+-0.02(HIP),
+   (b-y)=0.178+-0.001(Paunzen15).
+   2MASS photometry all poor. 
    GaiaDR2: plx=35.3436+-0.2300mas. Mv = 2.498+-0.015.
 
 HD 73161 = Cl* NGC 2632 Rg 190 = Cl* NGC 2632 S 19 = Cl* NGC 2632 KW 38 
