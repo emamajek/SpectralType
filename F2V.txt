@@ -85,15 +85,19 @@ and within 1 mag of the MS (N=59):
 (V-Rj)(F2V) = 0.35 ; Johnson68
 (V-Rj)(F2V) = 0.37 ; pri. stan. HD 113139 = 78 UMa = HIP 63503
 
-(V-Rc)(F2V) = 0.197 ; HD 6763 = HR 330 (F2V,Gray06) (Cousins80)
+(V-Rc)(F2V) =  0.197 ; HD 6763 = HR 330 (F2V,Gray06) (Cousins80)
 (V-Rc)(F2V) = 0.199 ; exemplar HD 28677 = HR 1432 = Cl* Melotte 25 Rg 296 (Hyad)
 (V-Rc)(F2V) = 0.205 ; B-V vs. V-Rc trend for B-V=0.36
-(V-Rc)(F2V) = 0.232 ; Johnson68 transformed to V-Rc via Fernie83
+(V-Rc)(F2V) =  0.213 ; HD 105211 = HIP 59072 (F2V,Gray06)
+(V-Rc)(F2V) =  0.230 ; HD 109085 = HIP 61174 (F2V,Gray06) 
+(V-Rc)(F2V) =  0.232 ; Johnson68 transformed to V-Rc via Fernie83
 (V-Rc)(F2V) = 0.233 ; pri. stan. HD 113139 = 78 UMa = HIP 63503
 => adopt (V-Rc)(F2V) = 0.225 [updated 12/29/2023; V-Ic=0.435, R-Ic=0.215]
 
+(R-Ic)(F2V) =  0.196 ; HD 105211 = HIP 59072 (F2V,Gray06) 
 (R-Ic)(F2V) = 0.196 ; exemplar HD 28677 = HR 1432 = Cl* Melotte 25 Rg 296 (Hyad)
 (R-Ic)(F2V) =  0.207 ; Bessell79
+(R-Ic)(F2V) =  0.208 ; HD 109085 = HIP 61174 (F2V,Gray06) 
 (R-Ic)(F2V) = 0.210 ; B-V vs. R-Ic trend for B-V=0.36
 => adopt (R-Ic)(F2V) = 0.21 [updated 12/1/2023; V-Ic=0.435, V-Rc=0.22]
 
@@ -103,10 +107,12 @@ and within 1 mag of the MS (N=59):
 (V-Ic)(F2V) = 0.394 ; exemplar HD 28677 = HR 1432 = Cl* Melotte 25 Rg 296 (Hyad)
 (V-Ic)(F2V) = 0.396 ; HD 6763 = HR 330 (F2V,Gray06) (Cousins80)
 (V-Ic)(F2V) =  0.40  ; Bessell88
+(V-Ic)(F2V) =  0.409 ; HD 105211 = HIP 59072 (F2V,Gray06) 
 (V-Ic)(F2V) =  0.415 ; Bessell79
 (V-Ic)(F2V) = 0.415 ; B-V vs. V-Rc trend for B-V=0.36
 (V-Ic)(F2V) = 0.435 ; Johnson68 transformed to V-Ic via Fernie83
 (V-Ic)(F2V) = 0.437 ; Gray01/03/06 F2V stars (+-0.005 sem +- 0.033 stdev; N=31)
+(V-Ic)(F2V) =  0.438 ; HD 109085 = HIP 61174 (F2V,Gray06) 
 (V-Ic)(F2V) = 0.454 ; pri. stan. HD 113139 = 78 UMa = HIP 63503
 => adopt (V-Ic)(F2V) = 0.435 [updated 12/29/2023; V-Rc=0.22, R-Ic=0.215]
 
@@ -220,6 +226,7 @@ Teff(F2V) = 6815 K ; median of published Teffs for 522 F2V stars
 Teff(F2V) = 6818 K ; mean photometric Teff
 Teff(F2V) = 6830 K ; exemplar HD 27429
 Teff(F2V) = 6854 K ; Gray03/06 F2Vs median from TIC9/Stassun19 (N=21)
+Teff(F2V) = 6889 K ; Teff from smoothed SpT(Teff) trend F0V-F9.5V (2/17/2024)
 Teff(F2V) = 6890 K ; pri. stan. HD 113139 = 78 UMa 
 Teff(F2V) =  6890 K ; Schmidt-Kaler82
 Teff(F2V) = 6917 K ; Teff from smoothed SpT(Teff) trend
@@ -558,5 +565,29 @@ HD 119756 = 1 Cen = HR 5168
    F3IV: Malaroda75
    F4IV: 1955MmMtS..12....1W
    F4V: Hoffleit37
+
+HD 105211 = HIP 59072
+   F2V: Gray06
+
+   V=4.145(GCPD/Cousins76_VRIc#1), V=4.145(GCPD/Cousins76_VRIc#2),
+   V-Rc=0.211(GCPD/Cousins76_VRIc#1),
+   V-Rc=0.215(GCPD/Cousins76_VRIc#2) => adopt V-Rc=0.213.
+   R-Ic=0.195(GCPD/Cousins76_VRIc#2),
+   R-Ic=0.197(GCPD/Cousins76_VRIc#1) => adopt R-Ic=0.196.
+   V-Ic=0.408(GCPD/Cousins76_VRIc#1), V-Ic=0.41(GCPD/Cousins76_VRIc#2)
+   => adopt V-Ic=0.409.
+
+HD 109085 = HIP 61174
+   F2V: Gray06
+
+   V=4.30(GCPD/Cousins76_VRIc#1), V=4.30(GCPD/Cousins76_VRIc#2),
+   V-Rc=0.230(GCPD/Cousins76_VRIc#1), V-Rc=0.23(GCPD/Cousins76_VRIc#2)
+   => adopt V-Rc=0.230.  R-Ic=0.208(GCPD/Cousins76_VRIc#1),
+   R-Ic=0.21(GCPD/Cousins76_VRIc#2) => adopt R-Ic=0.208.
+   V-Ic=0.438(GCPD/Cousins76_VRIc#1), V-Ic=0.44(GCPD/Cousins76_VRIc#2)
+   => adopt V-Ic=0.438.  Note that I've adopted the GCPD#1 values
+   since the #2 values seem to be consistent with rounded versions of
+   #1.
+
 
 

@@ -51,17 +51,19 @@ and within 1 mag of the MS (N=193):
 (B-V)(F6V) =   0.44 ; HD_30652 F6V plx=123.94mas, Mv=3.6560
 (B-V)(F6V) =   0.44 ; HD_7788A F6V plx=42.9912mas, Mv=3.1169
 (B-V)(F6V) =   0.445 ; HD_58855 F6V plx=49.0145mas, Mv=3.8086
-(B-V)(F6V) =   0.447 ; BakisEker22 
+(B-V)(F6V) =   0.447 ; BakisEker22
+(B-V)(F6V) = 0.450 ; exemplar HD 58855 = 22 Lyn = HIP 36439 ([Fe/H]=-0.28)
+(B-V)(F6V) = 0.455 ; anchor stan. HD 30652 = pi03 Ori = GJ 178 ([Fe/H]=+0.03, logg=4.30)
 (B-V)(F6V) =   0.46 ; Morgan71
 (B-V)(F6V) =   0.46 ; KenyonHartmann95
 (B-V)(F6V) =   0.46 ; MorganAbt73
-(B-V)(F6V) = 0.46  ; anchor stan. HD 30652 = pi03 Ori = GJ 178 ([Fe/H]=+0.03, logg=4.30)
-(B-V)(F6V) = 0.464 ; exemplar 38 Cas
-(B-V)(F6V) = 0.470 ; exemplar HD 58855 = 22 Lyn ([Fe/H] ~ -0.3)
 (B-V)(F6V) =   0.47 ; JohnsonMorgan53
 (B-V)(F6V) =   0.47 ; HD_38393 F6V plx=112.2960mas, Mv=3.8518
-(B-V)(F6V) =   0.47 ; HD_3158 F6V plx=38.8246mas, Mv=3.5155
+(B-V)(F6V) = 0.47  ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03) Mv=3.52
+(B-V)(F6V) =   0.471 ; HD 132301 = HIP 73383 (F6V,Gray06) 
 (B-V)(F6V) =   0.473 ; HD_76653 F6V plx=41.0816mas, Mv=3.7662
+(B-V)(F6V) = 0.478 ; sec. stan. HD 142860 = gam Ser = HIP 78072 ([Fe/H]=-0.18)
+(B-V)(F6V) = 0.479 ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07)
 (B-V)(F6V) =   0.48 ; HD_210302 F6V plx=54.1773mas, Mv=3.5890
 (B-V)(F6V) =   0.48 ; Fitzgerald70,Strassmeier00
 (B-V)(F6V) = 0.482 (+-0.003 sem, +-0.024 stdev); Gray01/03/06 (N=41)
@@ -77,7 +79,16 @@ and within 1 mag of the MS (N=193):
 (B-V)(F6V) =   0.53 ; HD_20010 F6V plx=71.4337mas, Mv=3.2495
 (B-V)(F6V) =   0.54 ; HD_165908 F6V plx=63.3943mas, Mv=4.1402
 (B-V)(F6V) =   0.59 ; HD_146361 F6V plx=44.0575mas, Mv=3.7701
-=> adopt (B-V)(F6V)  = 0.486 [updated 9/26/2020]
+=> adopt (B-V)(F6V) = 0.47 [updated 2/17/2024]
+
+[EEM 2/17/2024: trend for 2 standards: (B-V)(F6V) = 0.458 - 0.1095*[Fe/H]
+  trend for 2 standards + 3 exemplars: (B-V)(F6V) = 0.469 + 0.032929*[Fe/H] (rms=0.014)
+I had previously adopted B-V(F6V)=0.486 (9/26/2020), but closer examination of the standards
+and exemplars suggests that this was too red by ~0.015 mag. The anchor standard pi^3 Ori has
+a suprisingly wide variation in reported B-V colors, presumably due to activity (see
+below).  Note that adopting B-V=0.47 now places it basically equidistant between F5V(B-V=0.44)
+and F7V(B-V=0.50), and is identical to what JohnsonMorgan53 adopted!]
+
 => adopt (Bt-Vt)(F6V)= 0.506
 => adopt (V-J)(F6V)  = 0.933
 => adopt (V-H)(F6V)  = 1.133
@@ -85,34 +96,62 @@ and within 1 mag of the MS (N=193):
 => adopt (H-Ks)(F6V) = 0.057
 => adopt (J-H)(F6V)  = 0.200
 
-(U-B)(F6V) =  0.000 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07)
+(U-B)(F6V) =  0.000 ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07)
 (U-B)(F6V) =  0.000 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.486
-(U-B)(F6V) = -0.009 ; anchor stan. HD 30652 = pi03 Ori = GJ 178 ([Fe/H]=+0.03, logg=4.30)
+(U-B)(F6V) = -0.01  ; anchor stan. HD 30652 = pi03 Ori = GJ 178 ([Fe/H]=+0.03, logg=4.30)
 (U-B)(F6V) =  -0.01  ; Fitzgerald70
+(U-B)(F6V) = -0.016 ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03) Mv=3.52
 (U-B)(F6V) = -0.019 ; HIP d<75pc S/N>8 F6V N=106 (Mermilliod91 photometry)
 (U-B)(F6V) =  -0.02  ; JohnsonMorgan53
-(U-B)(F6V) = -0.025 ; sec. stan. HD 142860 = gam Ser = GJ 603 ([Fe/H]=-0.18)
-=> adopt (U-B)(F6V) = -0.01 [updated 9/1/2023]
+(U-B)(F6V) = -0.025 ; sec. stan. HD 142860 = gam Ser = HIP 78072 ([Fe/H]=-0.18)
+(U-B)(F6V) =  -0.031 ; HD 132301 = HIP 73383 (F6V,Gray06)
+(U-B)(F6V) = -0.067 ; exemplar HD 58855 = 22 Lyn = HIP 36439 ([Fe/H]=-0.28)
+=> adopt (U-B)(F6V) = -0.013 [updated 2/17/2024]
+[EEM 2/17/2024: standards+exemplars trend: (U-B)(F6V) = -0.013 + 0.1535*[Fe/H] (rms=0.012mag) 
 
-(V-Rc)(F6V) = 0.272 ; pri. stan. pi^3 Ori = HD 30652 = GJ 178 ([Fe/H]=+0.03)
-(V-Rc)(F6V) = 0.277 ; B-V vs V-Rc trend for B-V=0.486 
-(V-Rc)(F6V) = 0.289 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07)
-(V-Rc)(F6V) = 0.308 ; sec. stan. HD 142860 = gam Ser = GJ 603 ([Fe/H]=-0.18) (Just08) 
-=> adopt (V-Rc)(F6V) = 0.29 [updated 12/1/2023; V-Ic=0.55, R-Ic=0.26]
+(V-Rc)(F6V) = 0.271 ; anchor stan. pi^3 Ori = HD 30652 = GJ 178 ([Fe/H]=+0.03)
+(V-Rc)(F6V) = 0.274 ; exemplar HD 58855 = 22 Lyn = HIP 36439 ([Fe/H]=-0.28)
+(V-Rc)(F6V) =  0.275 ; HD 210302 = HIP 109422 (F6V,Gray06)
+(V-Rc)(F6V) =  0.276 ; HD 132301 = HIP 73383 (F6V,Gray06)
+(V-Rc)(F6V) = 0.277 ; B-V vs V-Rc trend for B-V=0.486
+(V-Rc)(F6V) = 0.28  ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03) Mv=3.52
+(V-Rc)(F6V) =  0.28  ; HD 89569 = HIP 50493 (F6V,Gray06) ([Fe/H]=+0.06) 
+(V-Rc)(F6V) = 0.288 ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07)
+(V-Rc)(F6V) =  0.29 ; HD 199260 = HIP 103389 (F6V,Gray06) ([Fe/H]=-0.01)
+(V-Rc)(F6V) = 0.308 ; sec. stan. HD 142860 = gam Ser = HIP 78072 ([Fe/H]=-0.18)
+(V-Rc)(F6V) =  0.319 ; HD 20010 = HIP 14879 (F6V,Gray06)
+=> adopt (V-Rc)(F6V) = 0.28 [updated 2/17/2024; V-Ic=0.54, R-Ic=0.26]
+[EEM 2/17/2024: trend for standards+exemplars: (V-Rc)(F6V) = 0.283 - 0.0176*[Fe/H] (rms=0.017mag)]
 
-(R-Ic)(F6V) = 0.240 ; sec. stan. HD 142860 = gam Ser = GJ 603 ([Fe/H]=-0.18) (Just08) 
-(R-Ic)(F6V) = 0.256 ; pri. stan. pi^3 Ori = HD 30652 = GJ 178 ([Fe/H]=+0.03)
-(R-Ic)(F6V) = 0.261 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07) ([Fe/H]=+0.07)
-(R-Ic)(F6V) = 0.278 ; B-V vs R-Ic trend for B-V=0.486 
-=> adopt (R-Ic)(F6V) = 0.26 [updated 9/1/2023; V-Rc=0.29, V-Ic=0.55]
+(R-Ic)(F6V) = 0.240 ; sec. stan. HD 142860 = gam Ser = HIP 78072 ([Fe/H]=-0.18)
+(R-Ic)(F6V) = 0.256 ; anchor stan. pi^3 Ori = HD 30652 = GJ 178 ([Fe/H]=+0.03) 
+(R-Ic)(F6V) = 0.260 ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07)
+(R-Ic)(F6V) =  0.26 ; HD 89569 = HIP 50493 (F6V,Gray06) ([Fe/H]=+0.06) 
+(R-Ic)(F6V) =  0.264 ; HD 132301 = HIP 73383 (F6V,Gray06)
+(R-Ic)(F6V) =  0.265 ; HD 210302 = HIP 109422 (F6V,Gray06)
+(R-Ic)(F6V) = 0.265 ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03) Mv=3.52
+(R-Ic)(F6V) = 0.266 ; exemplar HD 58855 = 22 Lyn = HIP 36439 ([Fe/H]=-0.28)
+(R-Ic)(F6V) = 0.278 ; B-V vs R-Ic trend for B-V=0.486
+(R-Ic)(F6V) =  0.28  ; HD 199260 = HIP 103389 (F6V,Gray06) ([Fe/H]=-0.01)
+(R-Ic)(F6V) =  0.309 ; HD 20010 = HIP 14879 (F6V,Gray06)
+=> adopt (R-Ic)(F6V) = 0.26 [updated 2/17/2024; V-Rc=0.28, V-Ic=0.54]
+[EEM 2/17/2024: trend for standards+exemplars: (R-Ic)(F6V) = 0.258 + 0.0114*[Fe/H] (rms=0.012mag)
 
-(V-Ic)(F6V) = 0.528 ; pri. stan. pi^3 Ori = HD 30652 = GJ 178 ([Fe/H]=+0.03)
-(V-Ic)(F6V) = 0.548 ; sec. stan. HD 142860 = gam Ser = GJ 603 ([Fe/H]=-0.18) 
-(V-Ic)(F6V) = 0.550 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07)
+(V-Ic)(F6V) = 0.527 ; anchor stan. pi^3 Ori = HD 30652 = GJ 178 ([Fe/H]=+0.03) 
+(V-Ic)(F6V) =  0.540 ; HD 132301 = HIP 73383 (F6V,Gray06)
+(V-Ic)(F6V) =  0.540 ; HD 210302 = HIP 109422 (F6V,Gray06)
+(V-Ic)(F6V) =  0.54  ; HD 89569 = HIP 50493 (F6V,Gray06) ([Fe/H]=+0.06)
+(V-Ic)(F6V) = 0.54  ; exemplar HD 58855 = 22 Lyn = HIP 36439 ([Fe/H]=-0.28)
+(V-Ic)(F6V) = 0.545 ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03) Mv=3.52
+(V-Ic)(F6V) = 0.548 ; sec. stan. HD 142860 = gam Ser = HIP 78072 ([Fe/H]=-0.18)
+(V-Ic)(F6V) = 0.548 ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07) 
 (V-Ic)(F6V) = 0.555 ; B-V vs V-Ic trend for B-V=0.486
 (V-Ic)(F6V) = 0.557 (+-0.004 sem, +-0.024 stdev); Gray01/03/06 N=41)
 (V-Ic)(F6V) =  0.570 (+-0.001 sem, +-0.031 stdev); HIP d<75pc S/N>8 (N=194)
-=> adopt (V-Ic)(F6V) = 0.55 [updated 9/1/2023; V-Rc=0.29, R-Ic=0.26]
+(V-Ic)(F6V) =  0.57  ; HD 199260 = HIP 103389 (F6V,Gray06) ([Fe/H]=-0.01)
+(V-Ic)(F6V) =  0.628 ; HD 20010 = HIP 14879 (F6V,Gray06)
+=> adopt (V-Ic)(F6V) = 0.54 [updated 2/17/2024; V-Rc=0.28, R-Ic=0.26]
+[EEM 2/17/2024: trend for standards+exemplars: (V-Ic)(F6V) = 0.541 - 0.0062*[Fe/H] (rms=0.010mag)
 
 (G-V)(F6V) =  -0.166 ; HD_20010 F6V_ (GaiaDR2)
 (G-V)(F6V) =  -0.158 ; HD_215648 F6V (GaiaDR2)
@@ -122,7 +161,7 @@ and within 1 mag of the MS (N=193):
 (G-V)(F6V) =  -0.139 ; HD_89125 F6V_ (GaiaDR2)
 (G-V)(F6V) = -0.139  ; trend for screened late F dwarfs for B-V=0.486 (see 10/24/2020 notes in F5V.txt) (GaiaDR2)
 (G-V)(F6V) = -0.135  ; HD_28406  F6V B-V=0.451, Gmag=6.7800 (GaiaDR2)
-(G-V)(F6V) = -0.134  ; exemplar 1 Eri = tau01 Eri = HR 818 = HD 17206 (GaiaDR3) ([Fe/H]=+0.07) (GaiaDR2)
+(G-V)(F6V) = -0.134  ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07) (GaiaDR3) ([Fe/H]=+0.07) (GaiaDR2)
 (G-V)(F6V) =  -0.131 ; HD_143463 F6V_ (GaiaDR2)
 (G-V)(F6V) = -0.1300 ; HD_143463 F6V B-V=0.483, Gmag=6.7800  (GaiaDR2)
 (G-V)(F6V) =  -0.129 ; HD_128429 F6V_ (GaiaDR2)
@@ -138,7 +177,6 @@ and within 1 mag of the MS (N=193):
 (G-V)(F6V) =  -0.122 ; HD_28483 F6V (GaiaDR2)
 (G-V)(F6V) =  -0.121 ; HD_145158 F6V_ (GaiaDR2)
 (G-V)(F6V) =  -0.120 ; HD_142860 F6V (GaiaDR2)
-
 (G-V)(F6V) =  -0.116 ; HD_3158 F6V_ (GaiaDR2)
 (G-V)(F6V) =  -0.113 ; HD_89569 F6V_ (GaiaDR2)
 (G-V)(F6V) =  -0.110 ; HD_59380 F6V_ (GaiaDR2)
@@ -147,7 +185,7 @@ and within 1 mag of the MS (N=193):
 (G-V)(F6V) =  -0.106 ; HD_149837 F6V_ (GaiaDR2)
 (G-V)(F6V) =  -0.105 ; HD_210302 F6V_ (GaiaDR2)
 (G-V)(F6V) =  -0.094 ; HD_17206 F6V_ (GaiaDR2)
-=> adopt (G-V)(F6V) = -0.13 [updated 10/30/2020]
+=> adopt (G-V)(F6V) = -0.13 [updated 10/30/2020] (GaiaDR2) 
 
 (G-V)(F6V) = -0.119  ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=6350K (GaiaDR3 Gmags,SIMBAD Vmags)
 (G-V)(F6V) = -0.096  ; pri. stan. HD 30652 = pi03 Ori ([Fe/H]=+0.03) (GaiaDR3)
@@ -183,44 +221,54 @@ and within 1 mag of the MS (N=193):
 
 (V-Ks)(F6V) = 1.011 ; exemplar 1 Eri = tau01 Eri = HR 818 ([Fe/H]=+0.07) 
 (V-Ks)(F6V) = 1.108 ; pri. stan. HD 30652 = pi03 Ori
+(V-Ks)(F6V) = 1.136 ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03) Mv=3.52
 
 (G-Ks)(F6V) = 1.10 ; median for Kirkpatrick24 F6Vs d<20pc (N=5)
 
 (g-V)(F6V) = 0.181 ; Jordi06 B-V=>g-V for B-V=0.486
 => adopt (g-V)(F6V) = 0.181 [updated 9/1/2023]
 
-(g-r)(F6V) = 0.337 ; Jordi06 (V-R)=>(g-r) for V-R=0.277
+(u-g)(F6V) = 1.083 ; Davenport14 g-r vs u-g locus for g-r=0.282 
+
+(g-r)(F6V) = 0.337 ; Jordi06 (V-R)=>(g-r) for V-Rc=0.277
 (g-r)(F6V) = 0.295 ; Bilir05 (B-V)=>(g-r) for B-V=0.486
 (g-r)(F6V) = 0.284 ; Just08/Chonis08 B-V=>g-r for B-V=0.486
-(g-r)(F6V) =  0.28  ; Covey07
+(g-r)(F6V) = 0.28  ; Covey07
 (g-r)(F6V) = 0.277 ; sec. stan. HD 142860 = gam Ser = GJ 603 ([Fe/H]=-0.18)
-(g-r)(F6V) = 0.264 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07) 
-=> adopt (g-r)(F6V) = 0.28 [updated 9/1/2023]
+(g-r)(F6V) = 0.264 ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07)
+=> adopt (g-r)(F6V) = 0.282 [updated 2/1/2024]
 
 (r-i)(F6V) = 0.027 ; sec. stan. HD 142860 = gam Ser = GJ 603 ([Fe/H]=-0.18)
-(r-i)(F6V) = 0.047 ; exemplar 1 Eri = tau1 Eri ([Fe/H]=+0.07) 
+(r-i)(F6V) = 0.047 ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07)
 (r-i)(F6V) = 0.054 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.278
-=> adopt (r-i)(F6V) = 0.04 [updated 9/1/2023]
+(r-i)(F6V) = 0.088 ; Davenport14 g-r vs r-i locus for g-r=0.282
+=> adopt (r-i)(F6V) = 0.05 [updated 2/1/2024]
+
+(i-z)(F6V) = 0.000 ; Davenport14 g-r vs i-z locus for g-r=0.282
 
 (g-V)(F6V) = 0.177 ; Just08/Chonis08 B-V=>g-V for B-V=0.486
 => adopt (g-V)(F6V) = 0.177 [updated 9/1/2023]
 
-Teff(F6V) =  6285 K ; sec. stan. HD 142860 = gam Ser ([Fe/H]=-0.18)
-Teff(F6V) =  6298 K ; exemplar 38 Cas
+Teff(F6V) = 6285 K ; sec. stan. HD 142860 = gam Ser = HIP 78072 ([Fe/H]=-0.18)
 Teff(F6V) =  6321 K ; Gray03/06 F6Vs median from TIC9/Stassun19 (N=23)
 Teff(F6V) =  6323 K ; mean photometric Teff
-Teff(F6V) =  6330 K ; exemplar 1 Eri ([Fe/H]=0.07)
+Teff(F6V) = 6330 K ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07) 
+Teff(F6V) = 6330 K ; trend for [Fe/H]=0.0 from PASTEL/Soubiran22 [Fe/H] vs. Teff for SIMBAD F6Vs d<50pc
 Teff(F6V) =  6343 K ; Boyajian12
-Teff(F6V) =  6349 K ; exemplar HD 58855 = 22 Lyn ([Fe/H]=-0.28)
+Teff(F6V) = 6349 K ; exemplar HD 58855 = 22 Lyn = HIP 36439 ([Fe/H]=-0.28)
 Teff(F6V) = 6352 K ; trend for [Fe/H]=0.0 from PASTEL [Fe/H] vs. Teff for Gray03/06 F6Vs
 Teff(F6V) =  6362 K ; median of 1037 published Teffs for F6V stars
+Teff(F6V) = 6364 K ; trend for Ramirez05 data (-0.5 < [Fe/H] < 0.5) for B-V=0.47
+Teff(F6V) = 6365 K ; trend for Boyajian12 data for B-V=0.47
+Teff(F6V) = 6388 K ; Teff from smoothed SpT(Teff) trend F0V-F9.5V (2/17/2024)
 Teff(F6V) =  6400 K ; GrayCorbally09
 Teff(F6V) =  6400 K ; Habets81
-Teff(F6V) =  6412 K ; Teff from smoothed SpT(Teff) trend
-Teff(F6V) =  6434 K ; exemplar HD 3158 = HR 140 ([Fe/H]=+0.03)
-Teff(F6V) =  6443 K ; pri. stan pi^3 Ori median Teff ([Fe/H]=+0.03)
+Teff(F6V) = 6434 K ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03) Mv=3.52
+Teff(F6V) = 6443 K ; anchor stan. pi^3 Ori = HD 30652 = GJ 178 ([Fe/H]=+0.03) 
 Teff(F6V) =  6582 +- 64 K ; vanBelle09
 => adopt Teff(F6V) = 6350 K (logT = 3.803) [update 9/26/2020]
+[EEM 2/17/2024: trend for 2 standards: Teff(F6V) = 6420K + 752*[Fe/H]
+    trend for 2 standards+3 exemplars: Teff(F6V) = 6383K + 229*[Fe/H] (rms=67K)] 
 
 BCv(F6V) = +0.029 mag ; Balona94(Teff=6360K)
 BCv(F6V) = +0.025 mag ; Bertone04(ATLAS,Teff=6360K)
@@ -245,34 +293,48 @@ M_G(F6V) =  3.07 ; HD_20010_ plx=71.4337mas F6V (GaiaDR3)
 [note gap here]
 M_G(F6V) =   3.31 (discrepent, SB) ; HD_70958_ plx=36.9674mas F6V (SB1) (GaiaDR3)
 M_G(F6V) =   3.34 (discrepent, SB) ; HD_154906_ plx=36.7608mas F6V (SB1) (GaiaDR3)
-M_G(F6V) =  3.39 ; HD_3158_ plx=38.8246mas F6V (GaiaDR3)
+M_G(F6V) = 3.39 ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03)
 M_G(F6V) =   3.42 (discrepent, SB) ; HD_154905_ plx=36.7902mas F6V (SB1) (GaiaDR3)
 M_G(F6V) =  3.44 ; HD_142860_ plx=88.86mas F6V (GaiaDR3)
 M_G(F6V) =  3.47 ; HD_210302_ plx=54.1773mas F6V (GaiaDR3)
 M_G(F6V) =  3.48 ; HD_114837_ plx=54.8247mas F6VFe-0.4 (GaiaDR3)
 M_G(F6V) =   3.49 (discrepent, SB) ; HD_9021_ plx=36.2634mas F6V (SB2) (GaiaDR3)
-M_G(F6V) = 3.55 ; anchor stan. HD 30652 = pi03 Ori = GJ 178 ([Fe/H]=+0.03, logg=4.30)
+M_G(F6V) = 3.57 ; anchor stan. HD 30652 = pi03 Ori = GJ 178 ([Fe/H]=+0.03, logg=4.30)
 M_G(F6V) =  3.61 ; HD_111456_ plx=38.1905mas F6V (GaiaDR3)
 M_G(F6V) =   3.65 (discrepent, SB) ; HD_146361A_ plx=44.0575mas F6V (SB2) (GaiaDR3)
 M_G(F6V) =  3.66 ; HD_76653_ plx=41.0816mas F6V (GaiaDR3)
-M_G(F6V) =  3.68 ; HD_58855_ plx=49.0145mas F6V (GaiaDR3)
+M_G(F6V) = 3.68 ; exemplar HD 58855 = 22 Lyn = HIP 36439 ([Fe/H]=-0.28) (GaiaDR3) 
 
-M_Ks(F6V) = 2.554 ; pri. stan. HD 30652 = pi03 Ori ([Fe/H]=+0.03)
+M_Ks(F6V) = 2.30 ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03)
+M_Ks(F6V) = 2.55 ; anchor stan. pi^3 Ori = HD 30652 = GJ 178 ([Fe/H]=+0.03)
+M_Ks(F6V) = 2.63 ; exemplar HD 58855 = 22 Lyn = HIP 36439 ([Fe/H]=-0.28) (GaiaDR3) 
 
-Mv(F6V)  =   3.99 mag ; Habets81
-Mv(F6V)  =  3.78 mag ; B-V=0.484 => EEM fit to SIMBAD dwarfs d<25pc
-Mv(F6V)  =   3.7  mag ; GrayCorbally09
-Mv(F6V)  =  3.70 mag ; B-V=0.484 => Mv(Wright05)
-Mv(F6V)  =  3.70 mag ; median SIMBAD F6V d<25pc (N=18)
-Mv(F6V)  =  3.69 mag ; exemplar 1 Eri = tau01 Eri = HR 818 = HD 17206 ([Fe/H]=+0.07)
-Mv(F6V)  = 3.69 mag ; linear fit to Gray01/03/06 dwarf sequence (d<50pc) for B-V=0.484
-Mv(F6V)  = 3.69 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.484
-Mv(F6V)  =  3.66 mag ; pri. stan. HD 30652 = pi^3 Ori ([Fe/H]=+0.03)
-Mv(F6V)  =  3.59 mag ; sec. stan. HD 142860 = gam Ser ([Fe/H]=-0.18)
-Mv(F6V)  =  3.51 mag ; F dwarf trend standards/exemplars
-Mv(F6V)  =  3.51 mag ; exemplar HD 9021 = 38 Cas
-Mv(F6V)  =   3.15 mag ; Wegner07
+Mv(F6V) =   4.14 ; HD_165908_ plx=63.3943mas F6V
+Mv(F6V) =   3.99 ; Habets81
+Mv(F6V) =   3.85 ; HD_38393_ plx=112.2960mas F6V
+Mv(F6V) = 3.81 ; exemplar HD 58855 = 22 Lyn = HIP 36439 ([Fe/H]=-0.28)
+Mv(F6V) =   3.7 ; GrayCorbally09
+Mv(F6V) =  3.70 ; median SIMBAD F6V d<25pc (N=18)
+Mv(F6V) = 3.69 ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07) ([Fe/H]=+0.07)
+Mv(F6V) = 3.69 ; linear fit to Gray01/03/06 dwarf sequence (d<50pc) for B-V=0.484
+Mv(F6V) = 3.69 ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.484
+Mv(F6V) =  3.68 ; B-V=0.47 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(F6V) = 3.66 ; anchor stan. pi^3 Ori = HD 30652 = GJ 178 ([Fe/H]=+0.03)
+Mv(F6V) =   3.62 ; HD_114837_ plx=54.8247mas F6VFe-0.4
+Mv(F6V) =  3.61 ; B-V=0.47 => Mv(Wright05)
+Mv(F6V) = 3.59 ; sec. stan. HD 142860 = gam Ser ([Fe/H]=-0.18)
+Mv(F6V) =   3.59 ; HD_210302_ plx=54.1773mas F6V
+Mv(F6V) = 3.52 ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03)
+Mv(F6V) =  3.51 ; F dwarf trend standards/exemplars
+Mv(F6V) =   3.25 ; HD_20010_ plx=71.4337mas F6V
+Mv(F6V) =   3.15 ; Wegner07
+Mv(F6V) =   3.12 ; HD_7788A_ plx=42.9912mas F6V
+Mv(F6V) =   3.12 ; HD_215648_ plx=60.9161mas F6V
+Mv(F6V) =    2.85 ; HD_94388_ plx=33.2327mas F6V (outlier, and beyond 25pc)
+Mv(F6V) =    2.80 ; HD_86146_ plx=34.5809mas F6V (outlier, and beyond 25pc)
 => adopt Mv(F6V)   = 3.69 mag [updated 9/26/2020]
+[EEM 2/17/2024: trend for standards+exemplars: Mv(F6V) = 3.63 - 0.350*[Fe/H] (rms=0.110mag)]
+
 => adopt M_G(F6V)  = 3.56 mag [updated 12/10/2020] (Mv=3.69, G-V=-0.13)
 => adopt M_Ks(F6V) = 2.50 mag [updated 12/30/2020] (Mv=3.69, V-Ks=1.190)
 
@@ -301,14 +363,14 @@ Mass(F6V) = 1.215 Msun ; Bertelli09 tracks for Teff=6350K, logL=0.432
 Mass(F6V) =  1.16 Msun ; Habets81
 => adopt Mass(F6V) = 1.25 Msun [update 9/15/2023]
 
-logg(F6V) =  4.14 dex ; sec. stan. gam Ser
-logg(F6V) =   4.26 dex ; exemplar HD 3158 = HR 140
+logg(F6V) =  4.14 dex ; sec. stan. HD 142860 = gam Ser = HIP 78072 ([Fe/H]=-0.18)
+logg(F6V) =  4.26 dex ; exemplar HD 3158 = GJ 9017 = HIP 2711 ([Fe/H]=+0.03)
 logg(F6V) = 4.263 dex ; M=1.24Msun, logL=0.432, logTeff=3.803
 logg(F6V) = 4.264 dex ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=6350K (see G0V.txt)
 logg(F6V) =   4.2887 dex ; Eclipsing binary V455 Aur B (Southworth21; ~1.8 Gyr)
-logg(F6V) =   4.29 dex ; exemplar 22 Lyn
+logg(F6V) =  4.29 dex ; exemplar 22 Lyn
 logg(F6V) =  4.30 dex ; pri. stan. pi03 Ori
-logg(F6V) =   4.36 dex ; exemplar 1 Eri
+logg(F6V) =  4.36 dex ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07)
 => adopt logg(F6V) = 4.26 [updated 9/15/2023]
 [EEM 9/15/2023: just as with F7V, still excellent agreement between spectroscopic logg estimates and that estimated
 from empirical mass estimates and HRD position!] 
@@ -327,69 +389,101 @@ HD 30652 = pi03 Ori = GJ 178 = 1 Ori = HIP 22449 = HR 1543
   standard". Garrison96 lists it as the only F6V star among the
   brightest ~300 stars on the sky with V<3.55mag. It is also
   approximately solar metallicity ([Fe/H]=+0.03), so its colors should
-  be fairly representative of the subtype. No Houk
-  type. V=3.184+-0.002(Hauck97), V=3.187+-0.007(Mermilliod91),
-  V=3.19(Johnson66), V=3.19(Bessell90), V=3.19(HIP) => adopt
-  V=3.184+-0.002.
-  B-V=0.448(Just08),
-  B-V=0.451+-0.009(Mermilliod91),
-  B-V=0.455+-0.006(Cousins71),
-  B-V=0.46(Johnson66),
-  B-V=0.46(Bessell90),
-  B-V=0.474+-0.003(TYC),
-  B-V=0.484+-0.003(HIP) =>
-  adopt B-V=0.46.
-  U-B=-0.009+-0.014(Mermilliod91),
-  U-B=-0.01(Johnson66), V-Rc=0.27(Bessell90), V-Rc=0.274(Just08) =>
-  adopt V-Rc=0.272. 
-  R-Ic=0.255(Bessell90), R-Ic=0.257(Just08) => adopt R-Ic=0.256. 
-  V-Ic=0.525(Bessell90),
-  V-Ic=0.53+-0.02(HIP),
-  V-Ic=0.531(Just08) => adopt V-Ic=0.528. 
-  b-y=0.298+-0.002(Hauck97). G=3.087922+-0.003081(GaiaDR3) => G-V =
-  3.087922 - 3.184 = -0.096. 2MASS photometry flagged "DBC".
-  K=2.05(Sweeney90,TMSS), K=2.05+-0.06(vanBelle09),
-  K=2.07(Boyajian12), K=2.07(Glass74,Glass75,Leitherer84),
+  be fairly representative of the subtype. No Houk type. Star is
+  moderately active (logR'HK=-4.65;Meunier22), and fast-rotating (VSX
+  reports period = 1.78 days with amplitude 0.003 mag) - which I'm
+  wondering if activity is contributing to the scatter in reported B-V
+  measurements over the decades.  The scatter in the Stromgren
+  photometry (Paunzen15) is also surprisingly large
+  (e.g. b-y=0.309+-0.028 for 8 measurements).  However, Gavras23
+  reports it as being consistent with constant in Gaia.  GCVS reports
+  it as a suspected variable (NSV 01731), ranging from V=3.15 to
+  V=3.21, which is certainly consistent with the reported values:
+  V=3.16(Johnson53), V=3.18(Argue66), V=3.18(Moreno71),
+  V=3.182(Cousins84), V=3.184+-0.002(Hauck97),
+  V=3.185(Gutierrez-Moreno66), V=3.185(Oja85),
+  V=3.187+-0.007(Mermilliod91), V=3.19(GCPD/Cousins76_VRIc#1),
+  V=3.19(GCPD/Cousins76_VRIc#2), V=3.19(Cousins62), V=3.19(Johnson54),
+  V=3.19(Johnson66), V=3.19(Bessell90), V=3.19(Celis75),
+  V=3.19(HIP,TYC), V=3.192+-0.006(Paunzen15), V=3.200(Oja83),
+  V=3.21(Nikonov57) => adopt V=3.19.  B-V=0.436(Oja83),
+  B-V=0.44(Moreno71), B-V=0.448(Just08), B-V=0.45(Argue66),
+  B-V=0.45(Johnson54), B-V=0.451+-0.009(Mermilliod91),
+  B-V=0.453+-0.008(Turon93/HIC), B-V=0.453(Cousins84),
+  B-V=0.453(Neckel80), B-V=0.454(Oja85), B-V=0.455+-0.006(Cousins71),
+  B-V=0.458(Celis75), B-V=0.46(Johnson66), B-V=0.46(Johnson53),
+  B-V=0.46(Bessell90), B-V=0.46(Nikonov57), B-V=0.46(Cousins62),
+  B-V=0.463(Gutierrez-Moreno66), B-V=0.474+-0.003(TYC),
+  B-V=0.484+-0.003(HIP).  For the reported B-V values, the median is
+  B-V=0.455 with 68%CL range +-0.006, so I just adopt the Cousins71
+  value (B-V=0.455).  U-B=+0.034(Celis75), U-B=+0.02(Moreno71),
+  U-B=+0.001(Gutierrez-Moreno66), U-B=0.00(Johnson53),
+  U-B=-0.009+-0.014(Mermilliod91), U-B=-0.01(Johnson66),
+  U-B=-0.01(Johnson54), U-B=-0.013(Oja85), U-B=-0.02(Argue66),
+  U-B=-0.020(Oja83), U-B=-0.023(Neckel80), U-B=-0.025(Cousins84),
+  U-B=-0.04(Cousins62) => adopt U-B=-0.01.  Rj=2.77(Moreno71)
+  V-Rc=0.270(Bessell90,GCPD/Cousins76_VRIc#2),
+  V-Rc=0.271(GCPD/Cousins76_VRIc#1), V-Rc=0.274(Just08) => adopt
+  V-Rc=0.271.  Ij=2.51(Johnson66),
+  R-Ic=0.255(Bessell90,GCPD/Cousins76_VRIc#2),
+  R-Ic=0.256(GCPD/Cousins76_VRIc#1), R-Ic=0.257(Just08) => adopt
+  R-Ic=0.256.  V-Ic=0.525(Bessell90,GCPD/Cousins76_VRIc#2),
+  V-Ic=0.527(GCPD/Cousins76_VRIc#1), V-Ic=0.53+-0.02(HIP),
+  V-Ic=0.531(Just08) => adopt V-Ic=0.527.  b-y=0.298+-0.002(Hauck97),
+  Jj=2.39(Johnson66), J=2.35(Glass74/SAAO,Glass75/SAAO),
+  H=2.15(Glass74/SAAO,Glass75/SAAO),
+  L=2.05(Glass74/SAAO,Glass75/SAAO), 2MASS photometry flagged "DBC".
+  Kj=2.11(Johnson66), K=2.05(Sweeney90,TMSS),
+  K=2.05+-0.06(vanBelle09), K=2.07(Boyajian12),
+  K=2.07(Glass74/SAAO,Glass75/SAAO,Leitherer84),
   K=2.102+-0.097(Tabur09), K=2.11(Johnson66, Johnson68).  Converting
   Johnson68 to 2MASS via Rieke => Ks=2.076 => V-Ks = 3.184 - 2.076 =
   1.108.  plx=124.6198+-0.2246mas(GaiaDR3) =>
   Mv=3.662+-0.004(Hauck97,GaiaDR3), M_Ks=2.554(Johnson68 via Rieke
   conv.,GaiaDR3), M_G=3.566+-0.005(GaiaDR3).  Soubiran22/PASTEL means:
-  Teff=6443+-14K, logg=4.30+-0.03, [Fe/H]=+0.03+-0.03. PASTEL median
-  values: <Teff> = 6424K(N=20), <logg>=4.30(N=9), [Fe/H]>=+0.01(N=11).
-  Mass = 1.25 Msun (Holmberg09).
+  Teff=6443+-14K, logg=4.30+-0.03, [Fe/H]=+0.03+-0.03.  Soubiran24
+  Gaia FGK benchmark v3 catalog has Teff=6518+-35K, which seems
+  somewhat hot compared to other F6Vs.  Mass = 1.25 Msun
+  (Holmberg09). G=3.087922+-0.003081(GaiaDR3) => G-V = 3.087922 -
+  3.184 = -0.096.
 
 # Secondary Standard
 
-HD 142860 = gam Ser = HIP 78072 = HR 5933 = GJ 603
-  F5: Cannon
- *F6V: JM53,Gray01,GrayNstars(only F6V stan),Houk(stan? not in catalog)
-  F7VAB: Kennedy83
+HD 142860 = gam Ser = HIP 78072 = GJ 603 = HR 5933 
+  F5V: Adams35,Cannon,Bidelman85(F5)
+ *F6V: JM53,Houk(stan? not in catalog),Bouw81,Gray01,GrayNstars(only F6V stan),
+  F6IV-V: Roman55
+  F6IV: MKK43
+  F6.5V: Morgan38("F6+V", where "+" denotes half subtype)
+  F7V: Moore50
+  F7Vab: Barry70(uv metals weak)
+  F8III: Cuchiarro78(S2/68)
 
-  V=3.845+-0.016(Mermilliod91), V=3.85(HIP), V=3.86(Johnson66),
+  V=3.79(Nikonov57), V=3.834(Gutierrez-Moreno66),
+  V=3.845+-0.016(Mermilliod91), V=3.85(HIP), V=3.85(Johnson53),
+  V=3.85(Piirola76), V=3.85(Johnson54), V=3.85(Ljunggren64),
+  V=3.86(Johnson66) => adopt V=3.845.  B-V=0.46(Nikonov57),
+  B-V=0.468(Piirola76), B-V=0.47(Ljunggren64),
   B-V=0.478+-0.006(HIP,Mermilliod91), B-V=0.48(Johnson66),
-  U-B=-0.03(Johnson66), U-B=-0.025+-0.009(Mermilliod91),
-  V-Rc=0.308(Just08), V-Rc=0.33(Malama06/estimated),
-  R-Ic=0.240(Just08), R-Ic=0.26(Malama06/estimated),
-  V-Ic=0.54+-0.02(HIP), V-Ic=0.548(Just08). g-r=0.277(Just08),
-  r-i=0.027(Just08).  Jj=2.93(Boyajian13), H=2.64(Boyajian13),
-  Kj=2.65(Boyajian13) PASTEL/Soubiran22 mean: Teff=6285+-13K,
-  logg=4.14+-0.03, [Fe/H]=-0.18+-0.01. Vmag=3.85, Mv=3.59, dMv=-0.07,
-  par=88.86+-0.18 mas.
+  B-V=0.48(Johnson54), B-V=0.48(Johnson53),
+  B-V=0.485(Gutierrez-Moreno66) => adopt B-V=0.478.
+  U-B=-0.03(Johnson54), U-B=-0.03(Johnson66), U-B=-0.028(Piirola76),
+  U-B=-0.025+-0.009(Mermilliod91), U-B=-0.02(Johnson53),
+  U-B=-0.005(Gutierrez-Moreno66) => adopt U-B=-0.025.
+  V-Rj=0.49(Mallama18/estimated), V-Rc=0.308(Just08),
+  V-Rc=0.33(Malama06/estimated,Mallama18) => adopt V-Rc=0.308.
+  R-Ij=0.24(Mallama18/estimated).  R-Ic=0.240(Just08),
+  R-Ic=0.26(Mallama06/estimated,Mallama18) => R-Ic=0.240.
+  V-Ic=0.54+-0.02(HIP), V-Ic=0.548(Just08),
+  V-Ic=0.59(Mallama18/estimated) => adopt V-Ic=0.548.
+  g-r=0.277(Just08), r-i=0.027(Just08).  Jj=2.93(Boyajian13),
+  H=2.64(Boyajian13), Kj=2.65(Boyajian13).  PASTEL/Soubiran22 mean:
+  Teff=6285+-13K, logg=4.14+-0.03, [Fe/H]=-0.18+-0.01.
+  plx=88.86+-0.18mas(vanLeeuwen07) => Mv=3.59.
   
 # Exemplars
 
-HD 9021 = 38 Cas = HR 427 
-  *F6V: Adams35,Cowley76,Cowley79,Abt09
-
-   Four published spectral classifications, all F6V. No Houk type (too
-   far north). Not considered a standard in any literature, but there
-   has been good agreement on the subtype among expert classifiers
-   (Adams, Cowley, Abt).  V=5.820(Mermilliod91),
-   B-V=0.464+-0.005(Mermilliod91). PASTEL: <Teff> = 6298K(N=2).  Mv =
-   3.51(HIP,HIP2).
-
-1 Eri = tau01 Eri = HR 818 = HD 17206 = HIP 12843 = GJ 111 
+HD 17206 = 1 Eri = GJ 111 = HIP 12843 = HR 818 = tau01 Eri 
    F5V: Cowley76,Adams35
    F5/6V: Houk88
   *F6V: Roman50,Malaroda75,Bidelman85(F6),Malaroda75,Gray06
@@ -409,17 +503,24 @@ HD 9021 = 38 Cas = HR 427
    recover the periodicity. ROSAT X-ray source:
    logLx/Lbol=-4.87(Reiners03) and fast rotation (vsin=25.6+-0.3 km/s;
    Reiners03). GaiaDR3 has a_max=0.282792mas for its astrometric
-   solution.  V=4.465+-0.007(Mermilliod91), V=4.47(HIP),
-   B-V=0.479+-0.011(Mermilliod91), B-V=0.468(Just08),
-   U-B=0.000+-0.015(Mermilliod91), g-r=0.264(Just08),
-   r-i=0.047(Just08), V-Rc=0.289(Just08), Rc-Ic=0.261(Just08),
-   V-Ic=0.550(Just08). 2MASS photometry is flagged "DDD" but Rieke22
-   presents transformed near-IR photometry: J=3.566, H=3.391, Ks=3.320
-   => (V-Ks) = 4.330868(GaiaDR3) - 3.32(Mermilliod91) = 1.011.
+   solution.  V=4.46(GCPD/Cousins76_VRIc#2),
+   V=4.465(GCPD/Cousins76_VRIc#1), V=4.465+-0.007(Mermilliod91),
+   V=4.47(HIP) => adopt V=4.465.  B-V=0.481(HIP),
+   B-V=0.479+-0.011(Mermilliod91), B-V=0.468(Just08) => adopt
+   B-V=0.479.  U-B=0.000+-0.015(Mermilliod91), g-r=0.264(Just08),
+   r-i=0.047(Just08), V-Rc=0.272(GCPD/Cousins76_VRIc#1),
+   V-Rc=0.288(GCPD/Cousins76_VRIc#2), V-Rc=0.289(Just08) => adopt
+   V-Rc=0.288.  R-Ic=0.260(GCPD/Cousins76_VRIc#2), R-Ic=0.261(Just08),
+   R-Ic=0.268(GCPD/Cousins76_VRIc#1) => adopt R-Ic=0.260.
+   V-Ic=0.540(GCPD/Cousins76_VRIc#1),
+   V-Ic=0.548(GCPD/Cousins76_VRIc#2) V-Ic=0.550(Just08) => adopt
+   V-Ic=0.548.  2MASS photometry is flagged "DDD" but Rieke22 presents
+   transformed near-IR photometry: J=3.566, H=3.391, Ks=3.320 =>
+   (V-Ks) = 4.330868(GaiaDR3) - 3.32(Mermilliod91) = 1.011.
    Bp-Rp=0.645337(GaiaDR3), Bp-G=0.254349(GaiaDR3),
    G-Rp=0.390988(GaiaDR3) => G-V = 4.330868(GaiaDR3) -
    4.465(Mermilliod91) = -0.134(GaiaDR3). PASTEL values:
-   <Teff>=6231K(N=5), <[Fe/H]> = 0.05(N=4),
+   <Teff>=6231K(N=5), <[Fe/H]>=0.05(N=4),
    logg=4.50(N=4). PASTEL/Soubiran22 means: Teff=6330+-52K,
    logg=4.36+-0.09, [Fe/H]=+0.07+-0.05.  plx=70.32+-1.83mas(HIP2),
    plx=70.7449+-0.4515mas (GaiaDR2),
@@ -427,36 +528,52 @@ HD 9021 = 38 Cas = HR 427
    3.692+-0.009(Mermilliod91,GaiaDR3). Note that color and absolute
    magnitude is very close to mean for other F6Vs.
 
-HD 58855 = 22 Lyn = HR 2849 = HIP 36439
+HD 58855 = 22 Lyn = HIP 36439 = GJ 9234 = HR 2849 = ENG 31A = WDS J07299+4940A = 2MASS J07295595+4940207 = Gaia DR3 976893923544104576 
    F5V: Adams35
   *F6V: Roman52(lines strong),Cowley76,Gray01
 
-   Slightly metal poor but good agreement on subtype.
-   V=5.373+-0.015(Mermilliod91), V=5.35(HIP),
-   B-V=0.449+-0.014(Mermilliod91), B-V=0.470+-0.003(HIP),
-   U-B=-0.067+-0.019(Mermilliod91), G=5.224(GaiaEDR3). G-V = 5.224 -
-   5.35 = -0.126. 2MASS photometry is
-   poor. plx=49.0145+-0.1406mas(GaiaEDR3),
-   plx=49.41+-0.36mas(HIP2). E(b-y)=0.01(Gray01). PASTEL compendium:
-   <Teff> = 6369K(N=7), <logg>=4.315(N=6), <[Fe/H]>=-0.30(N=6).
-   PASTEL/Soubiran22 means: Teff=6349+-25K, logg=4.29+-0.04, [Fe/H]=-0.28+-0.03. 
-
-HD 3158 = HR 140 = GJ 9017 = GJ 22.2 = HIP 2711 = 2MASS J00342781-5222236
+   Slightly metal poor but good agreement on subtype.  V=5.35(HIP),
+   V=5.36(Johnson66), V=5.36(Naur55), V=5.36(TYC), V=5.37(Imagawa67),
+   V=5.373+-0.015(Mermilliod91) => adopt V=5.36.  B-V=0.43(Imagawa67),
+   B-V=0.449+-0.014(Mermilliod91), B-V=0.45(Johnson66),
+   B-V=0.45(Naur55), B-V=0.451(Just08), B-V=0.458+-0.004(TYC),
+   B-V=0.470+-0.003(HIP) => adopt B-V=0.450.  U-B=-0.06(Johnson66),
+   U-B=-0.06(Naur55), U-B=-0.067+-0.019(Mermilliod91),
+   U-B=-0.10(Imagawa67) => adopt U-B=-0.067.  V-Rc=0.274(Just08),
+   R-Ic=0.266(HIP+Just08), V-Ic=0.54+-0.00(HIP).  G=5.224(GaiaEDR3).
+   G-V = 5.224 - 5.35 = -0.126. 2MASS photometry is
+   poor. E(b-y)=0.01(Gray01). PASTEL compendium: <Teff> = 6369K(N=7),
+   <logg>=4.315(N=6), <[Fe/H]>=-0.30(N=6).  PASTEL/Soubiran22 means:
+   Teff=6349+-25K, logg=4.29+-0.04,
+   [Fe/H]=-0.28+-0.03. plx=49.41+-0.36mas(HIP2),
+   plx=49.0145+-0.1406mas(GaiaDR3) => Mv=3.812, M_G=3.676,
+   M_Ks=2.630+-0.016.
+   
+HD 3158 = GJ 9017 = HIP 2711 = HR 140 = GJ 22.2 = 2MASS J00342781-5222236
    F3IV-V: Malaroda75
   *F6V: 1953AnHar.119....1H,Houk78,Gray06
 
-   Soubiran22/PASTEL means; Teff=6434+-28K, logg=4.26+-0.05, [Fe/H]=0.03+-0.03.
-   plx=38.8246+-0.0466mas(GaiaDR3). 
-
-HD 149837 = HR 6177 = HIP 8165
-   F2III-IV: Malaroda75
-  *F6V: 1953AnHar.119....1H,Houk75,Gray06
-
-   Not in Soubiran22/PASTEL catalog.
+   V=5.56(Cousins62), V=5.562+-0.007(Hauck97), V=5.569(Hauck90),
+   V=5.569+-0.003(Mermilliod91), V=5.57(GCPD/Cousins76_VRIc),
+   V=5.57(Johnson66), V=5.57(Stoy68), V=5.57(Cousins69),
+   V=5.57(Corben72), V=5.57(HIP,TYC) => adopt V=5.57.
+   B-V=0.46(Johnson66), B-V=0.460(Stoy68),
+   B-V=0.466+-0.005(Mermilliod91), B-V=0.470(Cousins62),
+   B-V=0.470(Corben72), B-V=0.470(Cousins69), B-V=0.472+-0.012(HIP),
+   B-V=0.473+-0.003(TYC) => adopt B-V=0.47.  U-B=-0.01(Cousins69),
+   U-B=-0.016+-0.261(error in error?; Mermilliod91),
+   U-B=-0.02(Corben72) => adopt U-B=-0.016.
+   V-Rc=0.28(GCPD/Cousins76_VRIc), R-Ic=0.265(GCPD/Cousins76_VRIc),
+   V-Ic=0.545(GCPD/Cousins76_VRIc), V-Ic=0.55+-0.02(HIP).  2MASS J & H
+   are poor (qual=E), but Ks is OK: Ks=4.434+-0.023(2MASS,q=A) => V-Ks
+   = 5.57 - 4.434(2MASS) = 1.136.  Soubiran22/PASTEL means;
+   Teff=6434+-28K, logg=4.26+-0.05, [Fe/H]=+0.03+-0.03.  GaiaDR3: G=
+   5.447885+-0.002794(GaiaDR3).  plx=38.8246+-0.0466mas(GaiaDR3) =>
+   Mv=3.52, M_G=3.39, M_Ks=2.380+-0.023.
 
 # Deprecated Standards
 
-HD 173667 = 110 Her = HR 7061 = HIP 92043 = GJ 725.2 = GJ 9635
+HD 173667 = 110 Her = GJ 9635 = HIP 92043 = HR 7061 = GJ 725.2 
   F3V: Adams35
   F5V: Wilson50,Bouw81
   F5IV: Maury1897,MK43
@@ -466,20 +583,36 @@ HD 173667 = 110 Her = HR 7061 = HIP 92043 = GJ 725.2 = GJ 9635
   F6: Bidelman85
   F7IVb: Barry70(uv metals wk) 
  
-  No Houk type. Clearly somewhat evolved as it is 0.91 mag above MS
+  Clearly somewhat evolved as it is 0.91 mag above MS
   with logg~4.0. B-V(HIP)=0.483, Vmag=4.19, Mv=2.79, dMv=-0.91,
   par=52.4+-0.6 mas. PASTEL: <logg>=3.98(N=13).
 
-HD 170153 = chi Dra
-  F6V: MK43,Roman52(lines strong)
-  F7V: JM53,Cowley67,Jaschek64(most),Cowley76
-  F7V mw: Gray01(metal weak)
-  F8Vb: Barry70(uv metals vweak)
-  fF8gF6mF6: Jaschek89
-  F8: Cannon
+HD 170153 = chi Dra = 44 Dra = HIP 89937 = HR 6927 = GJ 713
+  F7V: JM53,Cowley76,Cowley67
+ *F7V metal-weak: Gray01
+  F7V+K1V: WDS
+  hF8gF6mF6: Jaschek89
+  F8Vb: Barry70
+  F6V: Roman50 ("lines strong"), MK43(!)
 
-  Morgan changed it from F6V (MK43) to F7V (JM53), then later it was considered
-  a metal weak F7V or F8V. Probably not the best choice of standard. 
+  This star appears to be inappropriate for use as a standard given
+  the comments by Gray01, Jaschek89, and Roman50. Star is metal poor
+  and a delta(V) ~ 2, and spectroscopic binary. Original HIP data
+  yielded: B-V(HIP)=0.489, Vmag=3.55, Mv=4.02, dMv=0.28(compared to
+  Wright04 MS), par=124.1+-0.5 mas. plx=124.11+-0.87mas(HIP2). PASTEL
+  medians: <Teff> = 6123K(N=10), [Fe/H]=-0.64(N=9),
+  logg=4.28. Ramirez12 lists the star as a thin disk star with age
+  7.71+1.06-0.57 Gyr, and Ramirez13 lists 6.93 (5.85-7.94;1sigma)
+  Gyr. The star has relatively low velocity and Soubiran05 estimates
+  P(thin)=93%, P(thick)=7%.  A has mass 1.0290+-0.0260 Msun(Torres10).
+  Binary: Tomkin87 estimates delta(V)=1.99, which when combined with
+  the Mermilliod91 Vmag (3.571+-0.009) yields V(A)=3.732,
+  V(B)=5.722. With HIP2 parallax => Mv(A)=4.20, Mv(B)=6.19. If on the
+  MS, the Mv for B would suggest type ~K2V, and the mass of 0.75+-0.02
+  Msun suggests ~K3/K3.5V, although Torres10 lists K0V. Tomkin87
+  (1987AJ.....93.1236T) estimates K0V, and likely intermediate between
+  G8V and K2V. B-V(AB)=0.489+-0.005(Mermilliod91),
+  U-B(AB)=-0.058+-0.005(Mermilliod91).
 
 Note that these stars all have B-V ~ 0.48, but <Teff> varies by 200K !
 
@@ -488,6 +621,51 @@ Note that these stars all have B-V ~ 0.48, but <Teff> varies by 200K !
 Morgan65 classified five F6V Hyads: HD 27483, 27534, 27848, 28406, 28483.
 
 HD 28406 (Hyad) was called F6V by Treanor60, Morgan65, Kenyon94, & Gray01
+
+HD 9021 = 38 Cas = HIP 7078 = HR 427 = SBC9 77 = TIC 353168694 = 2MASS J01311375+7015526 = Gaia DR3 532462149551387776
+   F5V: 1925sdsl.book.....L(F5), 1930MeUpp..48....1O(F5V)
+   F6V: Adams35,Cowley76,Cowley79,Abt09
+  *F6V+G5V: Fekel11
+
+   There is excellent agreement on classification of F6V (all four
+   publications after 1930!), however it is a low delta(mag) (delV ~
+   1.6) spectroscopic and astrometric binary (Fekel11), and slightly
+   metal-poor ([Fe/H] ~ -0.25). Not considered a standard in any
+   literature, but there has been good agreement on the subtype among
+   expert classifiers (Adams, Cowley, Abt). Adams+1924 reported RV
+   variations, Wright54 reported orbit, Culkov22 reports P=0.367yr,
+   a=0.00795". Speckle observations by McAlister78 and Hartkopft84
+   with KPNO 4m didn't resolve system. Fekel11 reports most recent
+   spectroscopic orbit: P=134.1301d, e=0.2398, K1=23.654+-0.046km/s,
+   K2=31.440+-0.052km/s => so primary must be ~33% more massive than
+   secondary. Fekel11's analysis of the astrometric orbit finds
+   inclination = 88.3+-4.9deg, and they derive masses of
+   M(A)=1.22Msun, M(B)=0.92Msun. Fekel11 finds that the spectrum is
+   well matched by combining the spectra of two main sequence spectral
+   templates: HR 3262 (F6V/Cowley76,[Fe/H]=-0.31) and HD 121320
+   (G5V/Gray03,[Fe/H]=-0.31), with a delta(V)=1.6mag.  X-ray source
+   with logLx=28.75(Suchkov03).  V=5.820(Mermilliod91),
+   B-V=0.464+-0.005(Mermilliod91), B-V=0.47(BSC/Hoffleit91),
+   B-V=0.489+-0.003(HIP), U-B=-0.11(BSC/Hoffleit91),
+   V-Ic=0.56+-0.00(HIP), Not in Soubiran22/PASTEL catalog but the
+   PASTEL compendium lists two Teffs: Teff: 6277+-67K(Masana06),
+   6318+-80K(Casagrande11), 6337K(Marsakov95) => adopt Teff=6318K.
+   [Fe/H]: -0.21+-0.08(Gaspar16), -0.22(Casagrande11),
+   -0.23+-0.08(XHIP/Anderson12), -0.24(Marsakov95), -0.25(Holmberg09),
+   -0.3(Fekel11), -0.32(Suchkov03) => adopt [Fe/H]=-0.24. Mv =
+   3.51(HIP,HIP2).
+
+HD 149837 = HIP 81657 = HR 6177 = G2 Ara = WDS J16408-6027A = B 1818A = Gaia DR3 5830704393979103488 = 2MASS J16405052-6026467
+   F2III-IV: Malaroda75
+  *F6V: 1953AnHar.119....1H,Houk75,Gray06
+
+   Primary of tight (1.3"), del(Vmag)=2.8 binary in Washington Double
+   Star Catalog, hence the secondary is 6.8% of the brightness of the
+   primary in V band.  Tokovinin10 reports delta(mag) in Halpha band
+   of 2.8 (Tokovinin10) with separation 1.6218".  Not in
+   Soubiran22/PASTEL catalog. Teffs: 6401+-80(Casagrande11). X-ray
+   source (logLX=28.68; Suchkov03).  V(A)=6.17(Tokovinin14),
+   V(B)=9.09(Tokovinin14).
 
 HD 181327
    F5/6V: Houk75
@@ -504,6 +682,54 @@ HD 3302 = HR 147
    V=5.509(Rieke22), J=4.739(Rieke22/2MASS sys), H=4.522(Rieke22/2MASS
    sys), Ks=4.479(Rieke22/2MASS sys), Ks=4.555(Rieke22/2MASS sys)
    [note big difference in their two Ks estimates].
+
+HD 132301 = HIP 73383
+   F6V: Gray06
+
+   V=6.582(GCPD/Cousins76_VRIc/stan),
+   U-B=-0.031(GCPD/Cousins76_VRIc/stan),
+   B-V=0.471(GCPD/Cousins76_VRIc/stan) => adopt B-V=0.471. 
+   V-Rc=0.279(GCPD/Cousins76_VRIc#1),
+   V-Rc=0.276(GCPD/Cousins76_VRIc#2/stan) => adopt V-Rc=0.276.
+   R-Ic=0.262(GCPD/Cousins76_VRIc#1),
+   R-Ic=0.264(GCPD/Cousins76_VRIc#2/stan) => adopt R-Ic=0.264.
+   V-Ic=0.541(GCPD/Cousins76_VRIc#1),
+   V-Ic=0.540(GCPD/Cousins76_VRIc#2/stan) => adopt V-Ic=0.540.
+   Not in Soubiran22/PASTEL catalog.
+
+HD 199260 = HIP 103389 = HR 8013
+   F6V: Gray06
+   F7V: Houk82,Malaroda75 
+   F8V: 1953AnHar.119....1H,1966RGOB..110..185E
+
+   V=5.69(GCPD/Cousins76_VRIc), V-Rc=0.29(GCPD/Cousins76_VRIc),
+   R-Ic=0.28(GCPD/Cousins76_VRIc), V-Ic=0.57(GCPD/Cousins76_VRIc).
+   Soubiran22/PASTEL catalog: Teff=6270+-27K(N=4), logg=4.35+-0.07(N=2),
+   [Fe/H]=-0.01+-0.05(N=2).
+
+HD 20010 = HIP 14879
+   F6V: Gray06
+
+   V=3.86(GCPD/Cousins76_VRIc), V-Rc=0.319(GCPD/Cousins76_VRIc),
+   R-Ic=0.309(GCPD/Cousins76_VRIc), V-Ic=0.628(GCPD/Cousins76_VRIc).
+   A second set of VRIc colors are listed in GCPD, but they seem to be
+   rounded versions of the first row. VRIc colors are somewhat redder
+   than other F6Vs.
+
+HD 210302 = HIP 109422
+   F6V: Gray06
+
+   V=4.92(GCPD/Cousins76_VRIc), V-Rc=0.275(GCPD/Cousins76_VRIc),
+   R-Ic=0.265(GCPD/Cousins76_VRIc), V-Ic=0.54(GCPD/Cousins76_VRIc).
+   Not in Soubiran22/PASTEL catalog.
+
+HD 89569 = HIP 50493
+   F6V: Gray06
+
+   V=5.803(GCPD/Cousins76_VRIc), V-Rc=0.280(GCPD/Cousins76_VRIc),
+   R-Ic=0.26(GCPD/Cousins76_VRIc), V-Ic=0.54(GCPD/Cousins76_VRIc).
+   Soubiran22/PASTEL means: Teff=6413+-25K(N=5), logg=4.02+-0.08(N=2),
+   [Fe/H]=+0.06+-0.04(N=2).
 
 
 PASTEL Teffs & metallicities for Gray0(clipped <1980 values)
@@ -748,3 +974,21 @@ xHIP catalog metallicities and B-V for Gray03/06 F6Vs
 Trend (clipping the two lowest metallicity points):
 Teff = 0.4860 + 0.010287*[Fe/H] (rms=0.0227)
 
+Soubiran22/PASTEL catalog: F6V d<50pc in SIMBAD, <=+-0.1 dex of solar with [Fe/H] errors <=0.05, 4 < logg < 5:
+Teff uTeff logg ulogg  [Fe/H] u[Fe/H] ID            SpT 
+5923  50   4.12  0.10  -0.01  0.05  *_sig_CrB_A_    F6V (Teff outlier)
+6120  26   4.39  0.06  0.05   0.03  HD_193017_      F6V
+6244  101  4.24  0.10  0.02   0.05  HD_98427A_      F6V
+6270  27   4.35  0.07  -0.01  0.05  HD_199260_      F6V
+6313  26   4.35  0.04  -0.08  0.01  *_gam_Lep_      F6V
+6332  26   4.26  0.07  -0.09  0.05  HD_59380_       F6V
+6340  36   4.33  0.10  0.03   0.05  HD_207575_      F6V
+6364  28   4.20  0.04  0.10   0.02  *_tau_PsA_      F6V
+6366  27   4.27  0.06  0.02   0.03  HD_63332_       F6V
+6377  30   4.11  0.10  0.09   0.05  *_1_Hya_        F6V
+6413  25   4.02  0.08  0.06   0.04  HD_89569_       F6V
+6434  28   4.26  0.05  0.03   0.03  HD_3158_        F6V
+6443  14   4.30  0.03  0.03   0.03  *_pi.03_Ori_    F6V
+Trend:
+Teff(F6V) = 6330K + 230*[Fe/H] (rms=94K) (but just between +-0.1 dex of solar)
+logg(F6V) = 4.26 - 0.73*[Fe/H] (rms=0.105) (but just between +-0.1 dex of solar)

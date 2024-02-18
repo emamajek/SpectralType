@@ -81,7 +81,7 @@ and within 1 mag of the MS (N=42):
 (B-V)(F0V) =  0.30  ; JohnsonMorgan53, Johnson63, Morgan71, SchmidtKaler82
 (B-V)(F0V) = 0.295 ; Gray01/03/06 F0V stars (+-0.002 sem, +-0.003 stdev; N=2)
 (B-V)(F0V) =  0.29  ; Garrison67
-(B-V)(F0V) = 0.288 ; exemplar HD 195627 (plx=35.6214mas, Mv=2.5035)
+(B-V)(F0V) = 0.288 ; exemplar HD 195627 = HIP 101612 = HR 7848 (plx=35.6214mas, Mv=2.50)
 (B-V)(F0V) = 0.287 ; exemplar HD 199124 = HR 8006 
 (B-V)(F0V) = 0.283 ; Morgan65 F0V Hyad HD 27397
 (B-V)(F0V) =  0.275 ; Crawford76
@@ -99,6 +99,7 @@ and within 1 mag of the MS (N=42):
 
 (U-B)(F0V) =  0.02  ; JohnsonMorgan53
 (U-B)(F0V) =  0.03  ; Fitzgerald70
+(U-B)(F0V) = 0.037: ; exemplar HD 195627 = HIP 101612 = HR 7848 (plx=35.6214mas, Mv=2.50)
 (U-B)(F0V) = 0.045 ; B-V vs U-B trend for B-V=0.305
 (U-B)(F0V) = 0.046 ; HIP d<75pc S/N>8 F0V N=61 (Mermilliod91 photometry)
 (U-B)(F0V) =  0.06  ; Johnson66,Johnson68
@@ -107,16 +108,19 @@ and within 1 mag of the MS (N=42):
 (V-Rj)(F0V) = 0.30 ; Johnson68
 
 (V-Rc)(F0V) = 0.172 ; B-V vs V-Rc trend for B-V=0.305
+(V-Rc)(F0V) = 0.181 ; exemplar HD 195627 = HIP 101612 = HR 7848 (plx=35.6214mas, Mv=2.50)
 (V-Rc)(F0V) =  0.195 ; Johnson68 transformed to V-Rc via Fernie83
 => adopt (V-Rc)(F0V) = 0.17 [updated 12/29/2023; V-Ic=0.35, R-Ic=0.18]
 
 (R-Ij)(F0V) = 0.17 ; Johnson68
 
-(R-Ic)(F0V) = 0.168 ; Bessell79
+(R-Ic)(F0V) = 0.155 ; exemplar HD 195627 = HIP 101612 = HR 7848 (plx=35.6214mas, Mv=2.50)
+(R-Ic)(F0V) =  0.168 ; Bessell79
 (R-Ic)(F0V) = 0.179 ; B-V vs R-Ic trend for B-V=0.305
 => adopt (R-Ic)(F0V) = 0.18 [updated 12/29/2023; V-Ic=0.35, V-Rc=0.17]
 
 (V-Ic)(F0V) =  0.330 ; Bessell79,Bessell88
+(V-Ic)(F0V) = 0.336 ; exemplar HD 195627 = HIP 101612 = HR 7848 (plx=35.6214mas, Mv=2.50)
 (V-Ic)(F0V) = 0.345 ; Gray01/03/06 F0V stars (+-0.002 sem, +-0.004 stdev; N=2)
 (V-Ic)(F0V) = 0.351 ; B-V vs. V-Ic trend for B-V=0.305
 (V-Ic)(F0V) = 0.372 ; Johnson68 transformed to V-Ic via Fernie83
@@ -214,6 +218,7 @@ Teff(F0V) =   7200 K ; Schmidt-Kaler82
 Teff(F0V) = 7200 K ; Teff from smoothed SpT(Teff) trend
 Teff(F0V) = 7217 K ; mean photometric Teff
 Teff(F0V) = 7221 K ; exemplar HD 195627
+Teff(F0V) = 7225 K ; Teff from smoothed SpT(Teff) trend F0V-F9.5V (2/17/2024)
 Teff(F0V) =  7240 K ; Gray03 
 Teff(F0V) =  7250 K ; GrayCorbally09
 Teff(F0V) =   7260 K ; GrayCorbally94
@@ -313,7 +318,7 @@ HD 23585 = Cl Melotte 22 1284 (Pleiad) = HII 1284
 
 # Exemplars
 
-HD 195627 = HR 7848 = 2MASS J20353488-6034542 (V=4.8)
+HD 195627 = HIP 101612 = HR 7848 = 2MASS J20353488-6034542 (V=4.8)
   *F0V: 1953AnHar.119....1H,DeVaucoleurs57,Houk75,Abt95,Gray06
    F0IV-V: GrayGarrison89
    F0IVn: Evan64
@@ -324,15 +329,13 @@ HD 195627 = HR 7848 = 2MASS J20353488-6034542 (V=4.8)
    bringing good recent agreement. Not in PASTEL compendium of
    Soubiran22. PASTEL: 2 Teffs, median Teff = 7221K. 1 metallicity:
    [Fe/H] = -0.11 2003A&A...398.1121E, [M/H] = -0.12(Gray06).
-   logg=3.90(Gray06). V=4.75(HIP),
-   V=4.756+-0.005(Mermilliod91),
-   B-V=0.291+-0.012(HIP),
-   B-V=0.288+-0.004(Mermilliod91),
-   U-B=0.037+-0.065(Mermilliod91),
-   V-Ic=0.34+-0.02(HIP),
-   (b-y)=0.178+-0.001(Paunzen15).
-   2MASS photometry all poor. 
-   GaiaDR2: plx=35.3436+-0.2300mas. Mv = 2.498+-0.015.
+   logg=3.90(Gray06).  V=4.75(HIP), V=4.755(GCPD/Cousins76_VRIc),
+   V=4.756+-0.005(Mermilliod91), B-V=0.291+-0.012(HIP),
+   B-V=0.288+-0.004(Mermilliod91), U-B=0.037+-0.065(Mermilliod91),
+   V-Rc=0.181(GCPD/Cousins76_VRIc), R-Ic=0.155(GCPD/Cousins76_VRIc),
+   V-Ic=0.336(GCPD/Cousins76_VRIc), V-Ic=0.34+-0.02(HIP) => adopt
+   V-Ic=0.336.  (b-y)=0.178+-0.001(Paunzen15).  2MASS photometry all
+   poor.  GaiaDR2: plx=35.3436+-0.2300mas. Mv = 2.498+-0.015.
 
 HD 73161 = Cl* NGC 2632 Rg 190 = Cl* NGC 2632 S 19 = Cl* NGC 2632 KW 38 
   *F0V: Ramberg41(F0),Wilson50,Bidelman56(F0Vn),Rebeirot66

@@ -249,25 +249,36 @@ to be somewhat redder than that for the other standards.
 (Ks-W1)(G2V) = 0.061 ; EEM trend for d<30pc for B-V=0.65
 => adopt (Ks-W1)(G2V) = 0.061 [updated 12/29/2019]
 
-(u-g)(G2V) = 1.43+-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+(u-g)(G2V) = 1.213 ; Sun - Fukugita11(Thullier03/SED)
+(u-g)(G2V) = 1.22  ; Fukugita11 
+(u-g)(G2V) = 1.234 ; Sun - Fukugita11(Colina96/SED)
+(u-g)(G2V) = 1.43 +-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
 => adopt (u-g)(G2V) = 1.43 [updated 9/1/2023]
 
+(g-r)(G2V) = 0.43  ; Fukugita11 
 (g-r)(G2V) = 0.44 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+(g-r)(G2V) = 0.451 ; Sun - Fukugita11(Thullier03/SED)
 (g-r)(G2V) = 0.453 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (g-r)(G2V) = 0.463 ; Just08/Chonis08 B-V=>g-r for B-V=0.650
-(g-r)(G2V) = 0.474 ; Jordi06 (V-R)=>(g-r) for V-R=0.363
+(g-r)(G2V) = 0.474 ; Jordi06 (V-R)=>(g-r) for V-Rc=0.363
 (g-r)(G2V) = 0.477 ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
 (g-r)(G2V) = 0.479 ; Bilir05 (B-V)=>(g-r) for B-V=0.650
-=> adopt (g-r)(G2V) = 0.46 [updated 9/1/2023]
+(g-r)(G2V) = 0.479 ; Sun - Fukugita11(Colina96/SED) 
+=> adopt (g-r)(G2V) = 0.47 [updated 2/1/2024]
 
+(r-i)(G2V) = 0.106 ; Sun - Fukugita11(Colina96/SED) 
 (r-i)(G2V) = 0.108 ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
-(r-i)(G2V) = 0.11+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
+(r-i)(G2V) = 0.11 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
 (r-i)(G2V) = 0.111 ; Jordi06 (Rc-Ic=0.345 => r-i)
 (r-i)(G2V) = 0.112 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
-=> adopt (r-i)(G2V) = 0.11 [updated 12/20/2023]
+(r-i)(G2V) = 0.12  ; Fukugita11 
+(r-i)(G2V) = 0.127 ; Sun - Fukugita11(Thuillier03/SED)
+=> adopt (r-i)(G2V) = 0.11 [updated 2/1/2024]
 
-(i-z)(G2V) = 0.03+-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
-=> adopt (i-z)(G2V) = 0.03 [updated 9/1/2023]
+(i-z)(G2V) = 0.03 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+(i-z)(G2V) = 0.020 ; Sun - Fukugita11(Colina96/SED)
+(i-z)(G2V) = 0.015 ; Sun - Fukugita11(Thuillier03/SED)
+=> adopt (i-z)(G2V) = 0.02 [updated 2/1/2024]
 
 (g-V)(G2V) = 0.282 ; Just08/Chonis08 B-V=>g-V for B-V=0.650
 (g-V)(G2V) = 0.285 ; Jordi06 B-V=>g-V for B-V=0.650
@@ -545,7 +556,11 @@ Sun = GJ 0
   V=-26.83+-0.06(Kariagina55), V=-26.81+-0.07(Nikinov49),
   V=-26.77+-0.08(Willstrop60), V=-26.74+-0.05(Code60),
   V=-26.74+-0.01(Johnson65,adopted based on the previously published 6
-  values).
+  values). Post-Johnson65 values: V=-26.734(Fukugita11; Thuillier03
+  SED/Azusiesnsis69 Vresp), V=-26.748(Fukugita11; Colina96
+  SED). Mv=4.84(Fukugita11), Mu=6.32(Fukugita11), Mg=5.11(Fukugita11),
+  Mr=4.66(Fukugita11), Mi=4.53(Fukugita11), Mz=4.52(Fukugita11).
+  
 
 ### Secondary Standards
 
