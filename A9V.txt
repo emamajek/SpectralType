@@ -40,33 +40,35 @@ For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
 (B-V)(A9V) =  0.30  ; Fitzgerald70
 (B-V)(A9V) = 0.288 ; d<60pc SIMBAD A9V (N=8)
 (B-V)(A9V) =  0.286 ; HD_37594_ A9V plx=23.9992mas, Mv=2.8749
+(B-V)(A9V) = 0.285 ; smoothed trend SpT vs B-V A0V-F0V  
 (B-V)(A9V) =  0.28 ; HD_32115_ A9V plx=20.3757mas, Mv=2.8655
 (B-V)(A9V) =  0.275 ; Schmidt-Kaler82(halfway A8V-F0V)
 (B-V)(A9V) =  0.27  ; KenyonHartmann95
-(B-V)(A9V) = 0.268 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 (B-V)(A9V) =  0.26  ; Morgan71
 (B-V)(A9V) =  0.26 ; HD_201601_ A9VpSrCrEu plx=28.2433mas, Mv=1.9345
-(B-V)(A9V) = 0.255 ; A9V star HD 28910 (Garrison89)
-(B-V)(A9V) = 0.241 ; med B-V among Bidelman56 Praesepe A9Vs (minus E(B-V)=+0.01). 
-(B-V)(A9V) = 0.235 ; A9Vn weak standard HD 8511 (Garrison89)
-(B-V)(A9V) =  0.23 ; HD_89571_ A9V plx=23.0490mas, Mv=2.323
-(B-V)(A9V) = 0.227 ; A9V+ star HD 70574 (Garrison89)
-(B-V)(A9V) = 0.214 ; A9V+ star HD 30780 (Garrison89)
+(B-V)(A9V) = 0.255 ; HD 28910 A9V (Garrison89)
+(B-V)(A9V) = 0.241 ; pri. stan. HD 73450 = BS Cnc (Praesepe member) 
+(B-V)(A9V) = 0.235 ; sec. stan. HD 8511 = 44 Cet = HIP 6539 
+(B-V)(A9V) =  0.23 ; HD 89571 A9V (Abt95) plx=23.0490mas, Mv=2.323
+(B-V)(A9V) = 0.227 ; HD 70574 A9V+ (Garrison89)
+(B-V)(A9V) = 0.214 ; HD 30780 A9V+ (Garrison89)
 => adopt (B-V)(A9V)  = 0.27  [updated 9/20/2019]
-=> adopt (U-B)(A9V)  = 0.069 
-=> adopt (V-I)(A9V)  = 0.311
-=> adopt (V-R)(A9V)  = 0.152
-=> adopt (R-I)(A9V)  = 0.159 
+=> adopt (V-Ic)(A9V) = 0.311
+=> adopt (V-Rc)(A9V) = 0.152
+=> adopt (R-Ic)(A9V) = 0.159 
 => adopt (V-J)(A9V)  = 0.545
 => adopt (V-H)(A9V)  = 0.630
 => adopt (V-Ks)(A9V) = 0.674
 => adopt (H-Ks)(A9V) = 0.044
 => adopt (J-H)(A9V)  = 0.086
 
-(U-B)(A9V)   = 0.08  ; Fitzgerald70
-(U-B)(A9V)   = 0.069 ; HIP d<75pc S/N>8 A9V N=11 (Mermilliod91 photometry)
+(U-B)(A9V) =  0.08 ; Fitzgerald70
+(U-B)(A9V) = 0.079 ; sec. stan. HD 8511 = 44 Cet = HIP 6539 
+(U-B)(A9V) = 0.069 ; HIP d<75pc S/N>8 A9V N=11 (Mermilliod91 photometry)
+(U-B)(A9V) = 0.066 ; pri. stan. HD 73450 = BS Cnc (Praesepe member)
+=> adopt (U-B)(A9V) = 0.07 [updated 12/29/2023]
 
-(V-I)(A9V)   = 0.26  ; weak standard HD 8511
+(V-Ic)(A9V) = 0.26 ; sec. stan. HD 8511 = 44 Cet = HIP 6539 
 
 (Ks-W1)(A9V) = 0.048 ; EEM trend for d<30pc for B-V=0.27
 => adopt (Ks-W1)(A9V) = 0.048 [updated 12/29/2019]
@@ -202,17 +204,22 @@ HD 73450 = BS Cnc = BD+20_2144 = Cl* NGC 2632 RG 328 (Praesepe member)
   = 0.009 mag (WEBDA) => Av ~ 0.028. Neckel80 lists negligible
   extinction. Bidelman56 classified 5 Praesepe members as "A9" or
   "A9n", with median B-V=0.25 (but did not use A8 as a subtype). HD
-  73450 has the median B-V of these five Bidelman56 A9
-  stars. V=8.59(Tycho), B-V=0.208+-0.029(Tycho), B-V=0.25(Morel78),
+  73450 has the median B-V of these five Bidelman56 A9 stars.
+  V=8.498(Dickens68), V=8.50(Johnson52), V=8.502635(GaiaDR3/synth),
+  V=8.51(Mendoza67), V=8.59(Tycho) => adopt V=8.50.
+  B-V=0.208+-0.029(Tycho), B-V=0.226(GaiaDR3/synth),
+  B-V=0.25(Mendoza67,Morel78), B-V=0.251(Johnson52),
+  B-V=0.252(Dickens68) => adopt B-V=0.25.  U-B=0.07(Mendoza67),
+  U-B=0.072(Johnson52), U-B=0.083(Dickens68) => adopt U-B=0.072.
   J=8.006+-0.019(2MASS), H=7.949+-0.027(2MASS),
-  Ks=7.875+-0.026(2MASS), (V-Ks)=0.715(Tycho,2MASS).  Hence,
-  correcting for 0.009 mag of E(B-V) reddening, the intrinsic (B-V)o
-  for Praesepe A9 stars is 0.241. plx=4.9408+-0.2722mas(GaiaDR2).  Mv
-  = 2.03.
+  Ks=7.875+-0.026(2MASS), (V-Ks)=0.715(Tycho,2MASS).  Dereddening the
+  colors: (B-V)o = (B-V) - E(B-V) = 0.25 - 0.009 = 0.241.  (U-B)o =
+  (U-B) - E(U-B) = (U-B) - E(B-V)*E(U-B)/E(B-V) = 0.072 - 0.72*0.009 =
+  0.066.  plx=4.9408+-0.2722mas(GaiaDR2).  Mv = 2.03.
 
 # Secondary Standard
 
-HD 8511 = 44 Cet = HR 401 (J0124-0800)
+HD 8511 = 44 Cet = HIP 6539 = HR 401 (J0124-0800)
   A7Vn: Abt95
  *A9Vn: GrayGarrison89(stan)
   F0IVn(wk met): Paunzen01
@@ -221,20 +228,41 @@ HD 8511 = 44 Cet = HR 401 (J0124-0800)
   GrayGarrison89 & GrayNstars A9Vn standard, but not considered A9V by
   anyone else (however part of the disagreement could be due to the
   changing late-A/early-F standards between the 50s/60s and
-  post-MK78?).  plx=14.83+-0.77 mas(HIP), so probably unreddened.
-  V=6.21(HIP), V=6.214+-0.003(Hauck97), B-V=0.235+-0.005(HIP,
-  Mermilliod91), U-B=0.079+-0.010(Mermilliod91), V-I=0.26+-0.01(HIP),
-  b-y=0.134+-0.004(Hauck97), J=5.791+-0.023(2MASS),
-  H=5.65+-0.034(HIP), Ks=5.618+-0.008(2MASS),
-  (V-Ks)=0.596(Mermilliod91, 2MASS), median of 4 published Teffs =
-  7606 K => Teff=7762(Allende-Prieto99), Teff=7422+-187(Paunzen06),
-  Teff=7680(Gerbaldi07#1), Teff=7532(Gerbaldi07#2). All the colors are
+  post-MK78?).  plx=14.83+-0.77 mas(HIP), so probably unreddened -
+  Kervella22 quotes E(B-V)=0.001mag based on STILISM reddening maps. 
+  V=6.20(Cousins62,Cousins71),
+  V=6.205(Hauck90),
+  V=6.205+-0.005(Mermilliod91), 
+  V=6.21(HIP),
+  V=6.21(Johnson66), 
+  V=6.214+-0.003(Hauck97) => adopt V=6.21. 
+  B-V=0.23(Johnson66),
+  B-V=0.230(Cousins71), 
+  B-V=0.235+-0.005(HIP,Mermilliod91),
+  B-V=0.24(Cousins62) => adopt B-V=0.235. 
+  U-B=0.07(Cousins62), 
+  U-B=0.079+-0.010(Mermilliod91),
+  U-B=0.09(Johnson66),
+  U-B=0.09(Cousins71) => adopt U-B=0.079. 
+  V-Ic=0.26+-0.01(HIP),
+  b-y=0.134+-0.004(Hauck97),
+  J=5.791+-0.023(2MASS),
+  H=5.65+-0.034(2MASS),
+  Ks=5.618+-0.008(2MASS) => 
+  (V-Ks)=0.596(Mermilliod91, 2MASS).
+  Teffs:
+  7422+-187K(Paunzen06),
+  7532K(Gerbaldi07#2),
+  7680K(Gerbaldi07#1),
+  7762K(Allende-Prieto99),
+  => <Teff>=7606K. 
+  All the colors are
   bluer than the nearby (d<75pc) A9V stars in the Hipparcos catalog.
   Mv = 2.07.
 
 # Exemplar
 
-HD 6670 = 016.75451456974  -29.61514374503
+HD 6670 = HIP 5241 = CD-30_348 = CPD-30_116 = Gaia DR3 5032794371956813312
    A6: Philip72
    A8V: Bond71
   *A9V: Houk82,Lu92,Chen03
@@ -302,5 +330,12 @@ HD 84812 = HR 3885
    F0IVn: Cowley76
    F2: 1926MeUpp..11....1L
 
-
+HD 50635A = 38 Gem = GJ 9220A = HIP 33202 = HR 2564 = e Gem = Gaia DR3 3353254695121612032
+   A7V: Adams35,Palmer68
+   A8V: Wilson52,Abt95
+   kA8mF0Vp: Slettebak55
+   kA8hF0p: Jaschek80
+   A8III-IVn: Cowley74
+  *A9V: GrayGarrison89
+   F0III: Cuchiaro78(S2/68)
 

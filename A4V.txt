@@ -28,10 +28,10 @@ and within 1 mag of the MS (N=10):
 (B-V)(A4V) =  0.12  ; Fitzgerald70
 (B-V)(A4V) =  0.125 ; halfway between A3V(0.09) and A5V(0.16)
 (B-V)(A4V) = 0.127 ; exemplar 24 CVn = HD 118232
-(B-V)(A4V) = 0.127 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 (B-V)(A4V) = 0.128 ; prim. stan. del Leo
 (B-V)(A4V) =  0.13 ; HD_37507_ A4Vn plx=22.9587mas, Mv=1.6047
 (B-V)(A4V) = 0.139 ; exemplar A4V star 49 Ori
+(B-V)(A4V) = 0.14  ; SpT vs B-V trend for A0V-F0V stars (12/29/2023)
 (B-V)(A4V) =  0.161 ; HD_102124_ A4V plx=27.5153mas, Mv=2.0398
 (B-V)(A4V) =  0.164 (+-0.010 sem, +-0.042 stdev) ; HIP d<75pc S/N>8 N=10
 (B-V)(A4V) = 0.165 ; exemplar HD 92769 = 40 LMi = HIP 52422
@@ -39,25 +39,19 @@ and within 1 mag of the MS (N=10):
 (B-V)(A4V) = 0.176 ; exemplar HD 102124 = xi Vir = HIP 57328
 (B-V)(A4V) =  0.176 ; HD_92769_ A4Vn plx=21.2215mas, Mv=2.1398
 (B-V)(A4V) =  0.196 ; HD_33641_ A4m plx=20.1016mas, Mv=1.3371
-=> adopt (B-V)(A4V)  = 0.14 *** [updated 9/20/2019]
-=> adopt (U-B)(A4V)  = 0.097
-=> adopt (V-I)(A4V)  = 0.164
-=> adopt (V-R)(A4V)  = 0.078
-=> adopt (R-I)(A4V)  = 0.086 
-=> adopt (V-J)(A4V)  = 0.294
-=> adopt (V-H)(A4V)  = 0.316
-=> adopt (V-Ks)(A4V) = 0.353
-=> adopt (H-Ks)(A4V) = 0.037
-=> adopt (J-H)(A4V)  = 0.022
-
+=> adopt (B-V)(A4V)  = 0.140 [updated 12/29/2023]
+=> adopt (V-J)(A4V)  = 0.294 [updated 12/29/2023]
+=> adopt (V-H)(A4V)  = 0.316 [updated 12/29/2023]
 
 (U-B)(A4V) =  0.09  ; Fitzgerald70
 (U-B)(A4V) = 0.09  ; exemplar HD 92769 = 40 LMi = HIP 52422
 (U-B)(A4V) = 0.09  ; exemplar HD 102124 = xi Vir = HIP 57328
 (U-B)(A4V) = 0.091 ; HIP d<75pc S/N>8 A4V N=35 (Mermilliod91 photometry)
+(U-B)(A4V) = 0.097 ; B-V vs U-B trend for B-V=0.14
+(U-B)(A4V) = 0.101 ; average for standard+3 exemplars
 (U-B)(A4V) = 0.11  ; exemplar HD 37507 = 49 Ori = HIP 26563 
 (U-B)(A4V) = 0.115 ; standard HD 97603 = del Leo = HIP 54872
-=> adopt (U-B)(A4V) = 0.11 [updated 11/2/2023]
+=> adopt (U-B)(A4V) = 0.097 [updated 12/29/2023]
 
 (V-Rj)(A4V) = 0.13 ; standard HD 97603 = del Leo = HIP 54872
 (V-Rj)(A4V) = 0.15 ; exemplar HD 37507 = 49 Ori = HIP 26563
@@ -65,8 +59,9 @@ and within 1 mag of the MS (N=10):
 
 (V-Rc)(A4V) = 0.071 ; standard HD 97603 = del Leo = HIP 54872
 (V-Rc)(A4V) = 0.072 ; exemplar HD 37507 = 49 Ori = HIP 26563
+(V-Rc)(A4V) = 0.078 ; B-V vs V-Rc trend for B-V=0.14 (12/2023)
 (V-Rc)(A4V) = 0.134 ; exemplar HD 92769 = 40 LMi = HIP 52422
-=> adopt (V-Rc)(A4V) = 0.07 [updated 11/15/2023]
+=> adopt (V-Rc)(A4V) = 0.08 [updated 12/29/2023; V-Ic=0.16, R-Ic=0.08]
 
 (R-Ij)(A4V) = 0.03 ; standard HD 97603 = del Leo = HIP 54872
 (R-Ij)(A4V) = 0.06 ; exemplar HD 37507 = 49 Ori = HIP 26563
@@ -75,30 +70,35 @@ and within 1 mag of the MS (N=10):
 (R-Ic)(A4V) = 0.046 ; exemplar HD 92769 = 40 LMi = HIP 52422
 (R-Ic)(A4V) = 0.058 ; standard HD 97603 = del Leo = HIP 54872
 (R-Ic)(A4V) = 0.084 ; exemplar HD 37507 = 49 Ori = HIP 26563
-=> adopt (R-Ic)(A4V) = 0.06 [updated 11/15/2023]
+(R-Ic)(A4V) = 0.086 ; B-V vs R-Ic  trend for B-V=0.14 (12/2023)
+=> adopt (R-Ic)(A4V) = 0.08 [updated 11/15/2023; V-Ic=0.16, V-Rc=0.08]
 
 (V-Ij)(A4V) = 0.16 ; standard HD 97603 = del Leo = HIP 54872
 (V-Ij)(A4V) = 0.21 ; exemplar HD 37507 = 49 Ori = HIP 26563
 
 (V-Ic)(A4V) = 0.129 ; standard HD 97603 = del Leo = HIP 54872
 (V-Ic)(A4V) = 0.156 ; exemplar HD 37507 = 49 Ori = HIP 26563
+(V-Ic)(A4V) = 0.164 ; B-V vs V-Ic trend for B-V=0.14 (12/2023)
 (V-Ic)(A4V) = 0.18  ; exemplar HD 92769 = 40 LMi = HIP 52422
 (V-Ic)(A4V) = 0.19  ; exemplar HD 102124 = xi Vir = HIP 57328
-=> adopt (V-Ic)(A4V) = 0.13 [updated 11/15/2023]
+=> adopt (V-Ic)(A4V) = 0.16 [updated 12/29/2023; V-Rc=0.08, R-Ic=0.08]
 
 (V-Ks)(A4V) = 0.344 ; prim. stan. del Leo
+(V-Ks)(A4V) = 0.353 ; B-V vs V-Ks trend for B-V=0.14 (12/2023) 
 (V-Ks)(A4V) = 0.371 ; exemplar HD 37507 = 49 Ori = HIP 26563
 (V-Ks)(A4V) = 0.459 ; exemplar HD 92769 = 40 LMi = HIP 52422
-=> adopt (V-Ks)(A4V) = 0.35 [updated 11/2/2023]
+=> adopt (V-Ks)(A4V) = 0.35 [updated 12/29/2023]
 
-(J-H)(A4V)  = 0.020 ; pri. stan. del Leo (Carter90=>2MASS)
+(J-H)(A4V) = 0.020 ; pri. stan. del Leo (Carter90=>2MASS)
+(J-H)(A4V) = 0.022 ; B-V vs J-H trend for B-V=0.14 (12/2023)
+=> adopt (J-H)(A4V) = 0.022 [updated 12/29/2023]
 
+(H-Ks)(A4V) = 0.037 ; B-V vs H-Ks trend for B-V=0.14 (12/2023)
 (H-Ks)(A4V) = 0.049 ; pri. stan. del Leo (Carter90=>2MASS)
+=> adopt (H-Ks)(A4V) = 0.037 [updated 12/29/2023]
 
 (Ks-W1)(A4V) = 0.046 ; EEM trend for d<30pc for B-V=0.14
 => adopt (Ks-W1)(A4V) = 0.046 [updated 12/29/2019]
-
-  
   
 (Bp-Rp)(A4V) =  0.166    ; color trend for B-V=0.14 (GaiaDR2)
 (Bp-Rp)(A4V) =  0.201    ; Evans18 trend for V-I=0.164 (GaiaDR2)
@@ -458,8 +458,10 @@ HD 92769 = 40 LMi = HIP 52422 = HR 4189 = ADS 7899A = WDS J10430+2620A = Gaia DR
   V=5.51(Mermilliod91).  B-V=0.160+-0.000(HIP),
   B-V=0.162(Haggkvist68), B-V=0.165+-0.004(Mermilliod91),
   B-V=0.17(Osawa59), B-V=0.176+-0.004(Tycho) =>
-  B-V=0.165+-0.004(Mermilliod91).  U-B=0.09(Osawa59),
-  U-B=0.090(Mermilliod91), Rc=5.362(Bourges17/estimate),
+  B-V=0.165+-0.004(Mermilliod91).
+  U-B=0.09(Osawa59),
+  U-B=0.090(Mermilliod91),
+  Rc=5.362(Bourges17/estimate),
   Rc=5.39(Pickles10/SEDfit) => adopt Rc=5.376 => V-Rc=0.134.
   V-Ic=0.18+-0.00(HIP), Ic=5.299(Bourges17/estimate),
   Ic=5.31(Pickles10/SEDfit) => adopt Ic=5.305 => V-Ic=0.206.  2MASS

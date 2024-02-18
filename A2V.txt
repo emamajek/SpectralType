@@ -53,8 +53,8 @@ and within 1 mag of the MS (N=16):
 (B-V)(A2V) =  0.077 ; HD_16970A_ A2Vn plx=43.5957mas, Mv=1.7372
 (B-V)(A2V) = 0.077 (+-0.017 sem, +-0.042 stdev) ; HIP d<75 S/N>8 N=16)
 (B-V)(A2V) = 0.075 (+-0.019 sem, +-0.036 stdev) ; Gray01/03/06 N=5)
+(B-V)(A2V) = 0.073 ; smoothed trend SpT vs (B-V)o A0V-F0V 12/2023
 (B-V)(A2V) = 0.069 ; d<60 pc SIMBAD A2V N=14
-(B-V)(A2V) = 0.068 ; smoothed trend SpT vs (B-V)o B9.5V-F3V 11/2021
 (B-V)(A2V) = 0.068 ; halfway between pri. standards HD 88955 and HD 56405
 (B-V)(A2V) =  0.06  ; Morgan53, Johnson63, Johnson66, Johnson68, Morgan71, KenyonHartmann95
 (B-V)(A2V) =  0.059 ; HD_178253_ A2Va plx=27.0884mas, Mv=1.250
@@ -68,23 +68,23 @@ and within 1 mag of the MS (N=16):
 (B-V)(A2V) =  0.031 ; HD_15008 = HIP 11001 = HR 705 A2V plx=23.2796mas, Mv=0.9248
 (B-V)(A2V) =  0.028 ; HD_43378_ A2Vs plx=20.4686mas, Mv=0.9894
 (B-V)(A2V) =  0.015 ; HD_12216_ A2V plx=20.8391mas, Mv=0.5323
-=> adopt (B-V)(A2V)  = 0.070 *** [last updated 11/2/2023]
-=> adopt (V-J)(A2V)  = 0.156
-=> adopt (V-H)(A2V)  = 0.144
+=> adopt (B-V)(A2V) = 0.073 [updated 12/29/2023]
+=> adopt (V-J)(A2V) = 0.156
+=> adopt (V-H)(A2V) = 0.144
 => adopt (H-Ks)(A2V) = 0.034
-=> adopt (J-H)(A2V)  = -0.012
+=> adopt (J-H)(A2V) = -0.012
 
 (U-B)(A2V) = 0.092 ; exemplar HD 215789 = eps Gru = HIP 112623
 (U-B)(A2V) = 0.071 ; exemplar HD 106591 = del UMa = HIP 59774
 (U-B)(A2V) = 0.068 ; pri. stan. HD 88955 = q Vel = HIP 50191
-(U-B)(A2V) = 0.060 ; U-B vs. B-V dwarf locus for B-V=0.070
+(U-B)(A2V) = 0.062 ; U-B vs. B-V dwarf locus for B-V=0.073
 (U-B)(A2V) =  0.06  ; Johnson66,Johnson68
 (U-B)(A2V) = 0.059 ; halfway between pri. standards HD 56405 and HD 88955
 (U-B)(A2V) =  0.05  ; Fitzgerald70
 (U-B)(A2V) = 0.05  ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
 (U-B)(A2V) = 0.048 ; HIP d<75pc S/N>8 A2V N=43 (Mermilliod91 photometry)
 (U-B)(A2V) =  0.040 ; HD 15008 = HIP 11001 = HR 705 
-=> adopt (U-B)(A2V) = 0.060 [updated 11/2/2023]
+=> adopt (U-B)(A2V) = 0.062 [updated 12/29/2023]
 
 (V-Rj)(A2V) = 0.02 ; pri. stan. HD 88955 = q Vel = HIP 50191
 (V-Rj)(A2V) =  0.08 ; Johnson68
@@ -94,29 +94,36 @@ and within 1 mag of the MS (N=16):
 (V-Rc)(A2V) =   0.020 ; HD 115892 = iot Cen = GJ 508.1
 (V-Rc)(A2V) =  0.021 ; pri. stan. HD 88955 = q Vel = HIP 50191
 (V-Rc)(A2V) =  0.021 ; exemplar HD 106591 = del UMa = HIP 59774
+(V-Rc)(A2V) =   0.021 ; HD 178253 (A2Va,Gray06) 
 (V-Rc)(A2V) =  0.024 ; halfway between pri. standards HD 88955 and HD 56405
 (V-Rc)(A2V) =  0.026 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
 (V-Rc)(A2V) =   0.034 ; Johnson68 (V-Rj)=0.08 transformed via Fernie83
-(V-Rc)(A2V) =   0.039 ; V-Rc vs B-V dwarf locus for B-V=0.07
+(V-Rc)(A2V) =  0.041 ; V-Rc vs B-V dwarf locus for B-V=0.073
+(V-Rc)(A2V) =   0.047 ; HD 16970 (A2Vn,Gray03) 
+(V-Rc)(A2V) =   0.062 ; HD 118098 (A2Van,Gray03) 
 (V-Rc)(A2V) =  0.066 ; exemplar HD 215789 = eps Gru = HIP 112623 
-=> adopt (V-Rc)(A2V) = 0.025 [updated 11/2/2023; V-Ic=0.06, R-Ic=0.035]
+=> adopt (V-Rc)(A2V) = 0.025 [updated 12/29/2023; V-Ic=0.06, R-Ic=0.035]
 
 (R-Ic)(A2V) = 0.005 ; HD 115892 = iot Cen = GJ 508.1
 (R-Ic)(A2V) = 0.013 ; pri. stan. HD 88955 = q Vel = HIP 50191
+(R-Ic)(A2V) =  0.013 ; HD 178253 (A2Va,Gray06)  
 (R-Ic)(A2V) =  0.025 ; HD 15008 = HIP 11001 = HR 705
 (R-Ic)(A2V) = 0.032 ; exemplar HD 106591 = del UMa = HIP 59774
 (R-Ic)(A2V) = 0.036 ; halfway between pri. standards HD 88955 and HD 56405
-(R-Ic)(A2V) = 0.047 ; R-Ic vs B-V dwarf locus for B-V=0.070
+(R-Ic)(A2V) = 0.048 ; R-Ic vs B-V dwarf locus for B-V=0.073
+(R-Ic)(A2V) =  0.054 ; HD 16970 (A2Vn,Gray03) 
 (R-Ic)(A2V) = 0.058 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
+(R-Ic)(A2V) =  0.060 ; HD 118098 (A2Van,Gray03) 
 (R-Ic)(A2V) = 0.089 ; exemplar HD 215789 = eps Gru = HIP 112623
 (R-Ic)(A2V) = 0.151 ; exemplar HD 106591 = del UMa = HIP 59774
-=> adopt (R-Ic)(A2V) = 0.035 [updated 11/2/2023; V-Ic=0.06, V-Rc=0.025]
+=> adopt (R-Ic)(A2V) = 0.035 [updated 12/29/2023; V-Ic=0.06, V-Rc=0.025]
 
 (R-Ij)(A2V) = 0.02  ; pri. stan. HD 88955 = q Vel = HIP 50191
 (R-Ij)(A2V) = 0.062 ; exemplar HD 106591 = del UMa = HIP 59774
 
 (V-Ic)(A2V) =  0.025 ; HD 115892 = iot Cen = GJ 508.1
 (V-Ic)(A2V) = 0.034 ; pri. stan. HD 88955 = q Vel = HIP 50191
+(V-Ic)(A2V) =  0.034 ; HD 178253 (A2Va,Gray06) 
 (V-Ic)(A2V) =  0.044 ; HD 15008 = HIP 11001 = HR 705
 (V-Ic)(A2V) = 0.053 ; exemplar HD 106591 = del UMa = HIP 59774
 (V-Ic)(A2V) = 0.059 ; halfway between pri. standards HD 88955 and HD 56405
@@ -124,8 +131,10 @@ and within 1 mag of the MS (N=16):
 (V-Ic)(A2V) =   0.072 ; Bessell79
 (V-Ic)(A2V) =  0.074 ; Johnson68 (V-Ij)=0.09 transformed via Fernie83
 (V-Ic)(A2V) = 0.084 ; pri. stan. HD 56405 = HIP 35180 = GJ 9228 = HR 2758
-(V-Ic)(A2V) = 0.086 ; V-Ic vs B-V dwarf locus for B-V=0.07
+(V-Ic)(A2V) = 0.089 ; V-Ic vs B-V dwarf locus for B-V=0.073
 (V-Ic)(A2V) = 0.091 (+-0.016 sem, +-0.043 stdev) ; Gray01/03/06 N=16)
+(V-Ic)(A2V) =  0.101 ; HD 16970 (A2Vn,Gray03)  
+(V-Ic)(A2V) =  0.122 ; HD 118098 (A2Van,Gray03) 
 (V-Ic)(A2V) = 0.155 ; exemplar HD 215789 = eps Gru = HIP 112623
 => adopt (V-Ic)(A2V) = 0.06 [updated 11/2/2023; V-Rc=0.025, R-Ic=0.035]
 
@@ -370,7 +379,8 @@ HD 88955 = q Vel = HIP 50191 = HR 4023 = 2MASS J10144416-4207189 = Gaia DR3 5416
  *A2Va: GrayGarrison87,Gray06
 
   Good agreement on A2V types over the years going back to Cannon, but
-  not considered a standard until Gray87.  HIP2 parallax = 32.18+-0.15
+  not considered a standard until Gray87. Appears to be a tad bluer/hotter
+  than the other standard HD 56405 and the two exemplars (all three have B-V~0.08). HIP2 parallax = 32.18+-0.15
   => Dist = 31.08+-0.14 pc, so well within the Local Bubble and
   negligibly reddened. Kervella22 reports tangential velocity anomaly
   of 29.90+-30.69m/s, so no hint of binarity. Zuckerman11, Malo13, and
@@ -521,7 +531,7 @@ HD 106591 = del UMa = HIP 59774 = HR 4660 = Megrez = WDS J12154+5702A
   B-V=0.077+-0.005(Mermilliod91), B-V=0.08(Johnson66),
   B-V=0.08(Johnson57), B-V=0.08(Johnson55), B-V=0.080(Piirola76),
   B-V=0.089(Oja93), B-V=0.090(Nikonov57) =>
-  B-V=0.077+-0.005(Mermilliod91).  U-B=0.052(Oja93), U-B=0.065(Oja83),
+  adopt B-V=0.077+-0.005(Mermilliod91).  U-B=0.052(Oja93), U-B=0.065(Oja83),
   U-B=0.067(Oja85), U-B=0.070(Oja86), U-B=0.07(Oja84),
   U-B=0.07(Johnson55), U-B=0.07(Johnson57), U-B=0.07(Johnson66),
   U-B=0.071+-0.004(Mermilliod91), U-B=0.085(Piirola76) =>
