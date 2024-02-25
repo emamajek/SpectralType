@@ -41,7 +41,9 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 
 (R-Ic)(F9.5V) = 0.31  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)]
 
+(V-Ic)(F9.5V) = 0.638 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=
 (V-Ic)(F9.5V) = 0.64  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
+=> adopt (V-Ic)(F9.5V) = 0.64 [updated 2/18/2024]
 
 (G-Ks)(F9.5V) = 1.20 ; median for Kirkpatrick24 F9.5Vs d<20pc (N=3)
 
@@ -103,14 +105,16 @@ Teff(F9.5V) = 6001 K ; interp F8V(B-V=0.53,T=6180K), G0V(B-V=0.60,T=5930K)
 => adopt Teff(F9.5V) = 5990 K (logTeff = 3.777) [updated 10/25/2020]
 
 BCv(F9.5V) =  -0.033 ; Balona94 calib for Teff=5990K, set so BCv(5772K)=-0.085
-BCv(F9.5V) =  -0.035 ; Bertone04 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) = -0.035 ; Bertone04 calib for Teff=5990K, set so BCv(5772K)=-0.085
 BCv(F9.5V) =  -0.050 ; Flower96 calib for Teff=5990K, set so BCv(5772K)=-0.085
-BCv(F9.5V) =  -0.056 ; Masana06 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) = -0.056 ; Masana06 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) = -0.057 ; Chen19 PARSEC Teff=5930K,logg=4.38,solar (adjusted to BCv(Sun)=-0.085)
 BCv(F9.5V) = -0.058 ; Casagrande18 calib for Teff=5990K, set so BCv(5772K)=-0.085
 BCv(F9.5V) = -0.058 ; Casagrande08 calib for Teff=5990K, set so BCv(5772K)=-0.085
-BCv(F9.5V) =  -0.059 ; Bessell98 calib for Teff=5990K, set so BCv(5772K)=-0.085
+BCv(F9.5V) = -0.059 ; Bessell98 calib for Teff=5990K, set so BCv(5772K)=-0.085
 BCv(F9.5V) =  -0.061 ; Code76 calib for Teff=5990K, set so BCv(5772K)=-0.085
-=> adopt BCv(F9.5V) = -0.06 [last updated 8/31/2019; adjusted so that BCv(5772K)=-0.085]
+BCv(F9.5V) =  -0.062 ; Chen19 PARSEC Teff=5930K,logg=4.38,solar (where BCv(Sun)=-0.090)
+=> adopt BCv(F9.5V) = -0.058 [last updated 2/23/2024; adjusted so that BCv(5772K)=-0.085]
 
 M_G(F9.5V) = 3.845 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.433
 
