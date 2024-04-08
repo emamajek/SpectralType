@@ -84,22 +84,25 @@ considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09).
 
 (V-Rj)(M5V) = 1.80 ; Johnson65,Johnson66
 
-(V-Rc)(M5V) =  1.648 ; deprecated stan. GJ 866AB (Landolt standard)
-(V-Rc)(M5V) =  1.530 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
-(V-Rc)(M5V) =  1.48 ; Bessell91 "old disk"
-(V-Rc)(M5V) =  1.21 ; The84 
+(V-Rc)(M5V) = 1.90 ; deprecated stan. GJ 1093 
+(V-Rc)(M5V) = 1.648 ; deprecated stan. GJ 866AB (Landolt standard)
+(V-Rc)(M5V) = 1.530 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
+(V-Rc)(M5V) = 1.48 ; Bessell91 "old disk"
+(V-Rc)(M5V) = 1.21 ; The84 
 
-(R-Ic)(M5V) =  2.042 ; deprecated stan. GJ 866AB (Landolt standard)
-(R-Ic)(M5V) =  1.944 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
-(R-Ic)(M5V) =  1.91 ; Bessell91 "old disk"
-(R-Ic)(M5V) =  1.59 ; The84 (V-Ic)=2.80, (V-Rc)=1.21 
+(R-Ic)(M5V) = 2.042 ; deprecated stan. GJ 866AB (Landolt standard)
+(R-Ic)(M5V) = 1.944 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
+(R-Ic)(M5V) = 1.91 ; Bessell91 "old disk"
+(R-Ic)(M5V) = 1.59 ; The84 (V-Ic)=2.80, (V-Rc)=1.21
+(R-Ic)(M5V) = 1.43 ; deprecated stan. 1093
 
-(V-Ic)(M5V) =  3.684 ; deprecated stan. GJ 866AB (Landolt standard)
-(V-Ic)(M5V) =  3.479 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
-(V-Ic)(M5V) =  3.39 ; Bessell91 "old disk"
-(V-Ic)(M5V) =  3.39 ; Bessell88
-(V-Ic)(M5V) =  3.30 ; Hawley96
-(V-Ic)(M5V) =  2.80 ; The84
+(V-Ic)(M5V) = 3.684 ; deprecated stan. GJ 866AB (Landolt standard)
+(V-Ic)(M5V) = 3.479 ; deprecated stan. GJ 473AB = Wolf 424 (Landolt standard)
+(V-Ic)(M5V) = 3.39 ; Bessell91 "old disk"
+(V-Ic)(M5V) = 3.39 ; Bessell88
+(V-Ic)(M5V) = 3.33 ; deprecated stan. GJ 1093 
+(V-Ic)(M5V) = 3.30 ; Hawley96
+(V-Ic)(M5V) = 2.80 ; The84
 
 (V-Ij)(M5V) = 3.47 ; Johnson65
 
@@ -125,11 +128,11 @@ considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09).
 (V-Ks)(M5V) =  6.164 ; Bessell88(Glass->2MASS)
 (V-Ks)(M5V) = 6.23  ; sec. stan. GJ 1156
 => adopt (V-Ks)(M5V) = 5.95 [updated 11/3/2019]
-=> adopt (V-I)(M5V)  = 3.278
-=> adopt (V-R)(M5V)  = 1.441
-=> adopt (R-I)(M5V)  = 1.837
-=> adopt (V-J)(M5V)  = 5.058
-=> adopt (V-H)(M5V)  = 5.638
+=> adopt (V-Ic)(M5V) = 3.278 * 
+=> adopt (V-Rc)(M5V) = 1.441 * 
+=> adopt (R-Ic)(M5V) = 1.837 * 
+=> adopt (V-J)(M5V)  = 5.058 * 
+=> adopt (V-H)(M5V)  = 5.638 * 
 
 
 (J-H)(M5V) = 0.62 ; Bessell88/Glass
@@ -145,6 +148,7 @@ considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09).
 (J-H)(M5V) = 0.579 ; exemplar G 227-22 = LP 71-82 M5.0V plx=128.3057mas
 (J-H)(M5V) = 0.580 ; trend V-Ks vs J-H for V-Ks=5.95 
 (J-H)(M5V) = 0.582 ; exemplar GJ_3380_ M5.0V plx=104.9590mas
+(J-H)(M5V) =  0.59 (+-0.06; rms) ; West11
 (J-H)(M5V) =  0.592 ; G_141-36_ M5.0V plx=131.2790mas
 (J-H)(M5V) = 0.597 ; pri. stan. GJ_51_ M5V plx=101.3724mas
 (J-H)(M5V) =  0.599 ; GJ_866_ M5V plx=293.600mas
@@ -157,6 +161,7 @@ considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09).
 (H-K)(M5V) = 0.32 ; Bessell88/Glass
 
 (H-Ks)(M5V) =  0.272 ; GJ_3988_ M5.0V plx=100.9274mas
+(H-Ks)(M5V) =  0.28 (+-0.07; rms) ; West11
 (H-Ks)(M5V) = 0.296 ; pri. stan. GJ_51_ M5V plx=101.3724mas
 (H-Ks)(M5V) =  0.299 ; GJ_1138_ M5V plx=102.7521mas
 (H-Ks)(M5V) = 0.310 ; exemplar G 227-22 = LP 71-82 M5.0V plx=128.3057mas
@@ -220,21 +225,96 @@ considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09).
 (g-G)(M5V) = 2.343 (+-0.029 sem, +-0.223 stdev) ; SIMBAD M5 d<25pc (N=59)
 => adopt (g-G)(M5V) = 2.34 [updated 6/29/2023]
 
+(u-g)(M5V) = 0.657 ; GJ_2069_A_ plx=60.06mas M5Ve
+(u-g)(M5V) = 1.808 ; FBS_1415+456_ plx=52.66mas M5.0
+(u-g)(M5V) = 2.29  ; Fukugita11
+(u-g)(M5V) = 2.315 ; PM_J11474+6644_ plx=47.50mas M5.0V
+
+(g-r)(M5V) = 1.287 ; GJ_754.1_B_ plx=95.18mas M5V
+(g-r)(M5V) = 1.293 ; LSPM_J2146+3813_ plx=141.89mas M5V
+(g-r)(M5V) = 1.333 ; G_227-22_ plx=128.31mas M5.0V
+(g-r)(M5V) = 1.357 ; SIPS_J1141-3624_ plx=115.08mas M5
+(g-r)(M5V) = 1.370 ; GJ_1253_ plx=104.44mas M5.0
+(g-r)(M5V) = 1.370 ; V*_AP_Col_ plx=115.40mas M5
+(g-r)(M5V) = 1.376 ; SCR_J2009-0113_ plx=92.65mas M5.0V
+(g-r)(M5V) = 1.378 ; GJ_3253_ plx=103.50mas M5V
+(g-r)(M5V) = 1.398 ; G_141-36_ plx=131.28mas M5.0V
+(g-r)(M5V) = 1.416 ; GJ_3326_ plx=98.23mas M5V
+(g-r)(M5V) = 1.426 ; GJ_3988_ plx=100.93mas M5.0V
+(g-r)(M5V) = 1.427 ; GJ_3976_ plx=95.52mas M5V
+(g-r)(M5V) = 1.436 ; G_161-7_ plx=103.54mas M5.0V
+(g-r)(M5V) = 1.448 ; GJ_1028_ plx=102.28mas M5.0
+(g-r)(M5V) = 1.457 ; GJ_3146_ plx=109.95mas M5.0Ve
+(g-r)(M5V) = 1.52 (+-0.13; rms) ; West11
 (g-r)(M5V) = 1.59 ; Covey07
+(g-r)(M5V) = 1.72 ; Fukugita11
+=> adopt (g-r)(M5V) = 1.40 [updated 7/4/2024]
 
-(r-i)(M5V) = 1.808 (+-0.05 rms) ; West05 fit for (V-Ic)=3.278
-(r-i)(M5V) = 1.85  (+-0.21 rms) ; Cifuentes20
-(r-i)(M5V) = 1.91  (+-0.13 rms) ; West08
-=> adopt (r-i)(M5V) = 1.85 [updated 9/1/2023]
+(r-i)(M5V) = 1.197 ; GJ_754.1_B_ plx=95.18mas M5V
+(r-i)(M5V) = 1.559 ; LSPM_J2146+3813_ plx=141.89mas M5V
+(r-i)(M5V) =  1.62  (+-0.21 rms) ; West11 
 
+(r-i)(M5V) = 1.687 ; GJ_3326_ plx=98.23mas M5V
+(r-i)(M5V) = 1.731 ; GJ_3988_ plx=100.93mas M5.0V
+(r-i)(M5V) = 1.746 ; SIPS_J1141-3624_ plx=115.08mas M5
+(r-i)(M5V) = 1.798 ; GJ_3253_ plx=103.50mas M5V
+(r-i)(M5V) =  1.808 (+-0.05 rms) ; West05 fit for (V-Ic)=3.278
+(r-i)(M5V) = 1.824 ; GJ_170_ plx=91.84mas M5V
+(r-i)(M5V) = 1.829 ; GJ_1253_ plx=104.44mas M5.0
+(r-i)(M5V) = 1.85   (+-0.21 rms) ; Cifuentes20
+(r-i)(M5V) = 1.878 ; GJ_3976_ plx=95.52mas M5V
+(r-i)(M5V) =  1.91  (+-0.13 rms) ; West08
+(r-i)(M5V) =  1.91  (+-0.14 rms) ; West05
+(r-i)(M5V) = 1.949 ; V*_AP_Col_ plx=115.40mas M5
+(r-i)(M5V) = 1.961 ; GJ_1028_ plx=102.28mas M5.0
+(r-i)(M5V) = 1.972 ; SCR_J2009-0113_ plx=92.65mas M5.0V
+(r-i)(M5V) =  1.98  (+-0.25 rms) ; Hawley02 ("r*-i*")
+(r-i)(M5V) = 2.04 ; G_161-7_ plx=103.54mas M5.0V
+(r-i)(M5V) =  2.12  ; Fukugita11 
+(r-i)(M5V) = 2.126 ; G_141-36_ plx=131.28mas M5.0V
+(r-i)(M5V) = 2.288 ; GJ_3146_ plx=109.95mas M5.0Ve
+=> adopt (r-i)(M5V) = 1.91 [updated 4/7/2024]
+
+(i-z)(M5V) = 0.90 (+-0.13; rms) ; West11
+(i-z)(M5V) = 1.025 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=4.2
+(i-z)(M5V) = 1.05 (+-0.09; rms) ; West05 
 (i-z)(M5V) = 1.06 (+-0.07; rms) ; West08
-(i-z)(M5V) = 1.025 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=4.25
-=> adopt (i-z)(M5V) = 1.03 [updated 12/27/2021]
+(i-z)(M5V) = 1.09 (+-0.13; rms) ; Hawley02 ("i*-z*")
+(i-z)(M5V) =  2.947 ; GJ_2069_A_ plx=60.06mas M5Ve
+(i-z)(M5V) =  3.036 ; FBS_1415+456_ plx=52.66mas M5.0
+(i-z)(M5V) =  3.600 ; PM_J11474+6644_ plx=47.50mas M5.0V
+=> adopt (i-z)(M5V) = 0.95: [updated 4/7/2024; i-J=2.55, z-J=1.6]
+[EEM 7/4/2024; the only M5Vs in SIMBAD with iz photometry with plx>45mas have i-z~3, not clear why?]
 
-(z-J)(M5V) = 1.61  (+-0.11  rms) ; West08
-(z-J)(M5V) = 1.616 (+-0.053 rms) ; poly fit to d<50pc SIMBAD M dwarfs for G-Ks=4.25
-=> adopt (z-J)(M5V) = 1.61 [updated 12/27/2021]
+(i-J)(M5V) = 1.712 ; GJ_754.1_B_ plx=95.18mas M5V
+(i-J)(M5V) = 2.125 ; LSPM_J2146+3813_ plx=141.89mas M5V
+(i-J)(M5V) = 2.267 ; GJ_3326_ plx=98.23mas M5V
+(i-J)(M5V) = 2.267 ; SIPS_J1141-3624_ plx=115.08mas M5
+(i-J)(M5V) = 2.346 ; GJ_170_ plx=91.84mas M5V
+(i-J)(M5V) = 2.392 ; GJ_3976_ plx=95.52mas M5V
+(i-J)(M5V) = 2.433 ; SCR_J2009-0113_ plx=92.65mas M5.0V
+(i-J)(M5V) = 2.447 ; GJ_3988_ plx=100.93mas M5.0V
+(i-J)(M5V) = 2.464 ; GJ_3253_ plx=103.50mas M5V
+(i-J)(M5V) = 2.488 ; G_161-7_ plx=103.54mas M5.0V
+(i-J)(M5V) = 2.554 ; GJ_1253_ plx=104.44mas M5.0
+(i-J)(M5V) = 2.558 ; GJ_1028_ plx=102.28mas M5.0
+(i-J)(M5V) = 2.595 ; G_141-36_ plx=131.28mas M5.0V
+(i-J)(M5V) = 2.626 ; V*_AP_Col_ plx=115.40mas M5
+(i-J)(M5V) =  2.72 (+-0.13; rms) ; Hawley02 ("i*-J")
+(i-J)(M5V) =  2.75 (+-0.12; rms) ; West05
+(i-J)(M5V) = 3.009 ; GJ_3146_ plx=109.95mas M5.0Ve
+=> adopt (i-J)(M5V) = 2.55 [updated 4/7/2024; i-z=0.95, z-J=1.6]
+[EEM 7/4/2024: previous SDS results center on i-J ~ 2.7 but nearby SIMBAD M5Vs have i-J~2.5]
 
+(z-J)(M5V) = 1.47  (+-0.12; rms) ; West11
+(z-J)(M5V) = 1.61  (+-0.11; rms) ; West08
+(z-J)(M5V) = 1.616 (+-0.053; rms) ; poly fit to d<50pc SIMBAD M dwarfs for G-Ks=4.25
+(z-J)(M5V) = 1.65  (+-0.09; rms) ; Hawley02 
+(z-J)(M5V) = 1.66  (+-0.09; rms) ; West05
+(z-J)(M5V) =  2.11  ; PM_J11474+6644_ plx=47.50mas M5.0V
+(z-J)(M5V) =  2.87  ; FBS_1415+456_ plx=52.66mas M5.0
+(z-J)(M5V) =  2.872 ; GJ_2069_A_ plx=60.06mas M5Ve
+=> adopt (z-J)(M5V) = 1.6: [updated 4/7/2024; i-z=0.95, i-J=2.55]
 
 (G-Ks)(M5V) = 3.55816  ; L_923-22_ plx=95.1784mas M5V (GaiaDR3)
 (G-Ks)(M5V)  = 3.859 ; Bentley18 (GaiaDR2)
@@ -503,7 +583,7 @@ GJ 51 = Wolf 47 = LHS 1183 = V388 Cas (J0103+6222)
 
 # Secondary Standard
 
-GJ 1156 = GL Vir = LHS 324 (J1218+1107)
+GJ 1156 = GL Vir = LHS 324 = G 12-30 = L 1190-34 = LP 494-77 = 2MASS J12185939+1107338 (J1218+1107)
  *M5V: Henry94,Hawley97,Henry02,Lepine13(M5.0)
   M6V: Newton14(near-IR)
 
@@ -565,8 +645,8 @@ GJ 1093 = 2MASS J06592868+1920577
   listed 2MASS source by Stauffer. The V=11 star has slow motion, and
   so is unrelated: pm(TYC2) = +4,-7 mas/yr.  V=14.52(Reid02),
   V=14.83(Gliese91), V=14.85(Mermilliod91), B-V=1.93(Gliese91),
-  B-V=1.90(Mermilliod91), B-V=1.43(Reid02), V-R=1.90(Reid02),
-  V-I=3.33(Reid02), J=9.160+-0.024(2MASS), H=8.547+-0.024(2MASS),
+  B-V=1.90(Mermilliod91), B-V=1.43(Reid02), V-Rc=1.90(Reid02),
+  V-Ic=3.33(Reid02), J=9.160+-0.024(2MASS), H=8.547+-0.024(2MASS),
   Ks=8.230+-0.023(2MASS). plx=128.8+-3.5 mas(vanAltena95).  Teffs:
   3000K(Rajpurohit18). [Fe/H]=+0.1(Rajpurohit18).
 

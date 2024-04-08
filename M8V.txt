@@ -88,8 +88,9 @@ for LHS 2397a seem to be typical for the subtype, supporting V-Ks=8.7]
 (J-H)(M8V) =  0.504 ; LP_316-400_ M8V plx=49.8430mas
 (J-H)(M8V) =  0.596 ; GJ_3693_ M8V plx=67.1389mas
 (J-H)(M8V) =  0.627 ; LP_775-31_ M8Ve plx=94.3054mas
+(J-H)(M8V) =  0.63 (+-0.07; rms) ; West11
 (J-H)(M8V) =  0.636 ; LP_523-55_ M8.0V plx=44.4429mas
-(J-H)(M8V) = 0.64 (+-0.15 rms) ; Schmidt14
+(J-H)(M8V) =  0.64 (+-0.15; rms) ; Schmidt14
 (J-H)(M8V) =  0.647 ; LP_349-25_ M8Ve plx=70.7810mas
 (J-H)(M8V) = 0.647 ; pri. stan. GJ 752B = VB 10 
 (J-H)(M8V) = 0.651 ; exemplar LP_938-71_ M8.0V plx=88.2915mas
@@ -113,7 +114,8 @@ for LHS 2397a seem to be typical for the subtype, supporting V-Ks=8.7]
 (H-Ks)(M8V) =  0.320 ; LP_316-400_ M8V plx=49.8430mas
 (H-Ks)(M8V) = 0.376 ; exemplar LP_315-53_ M8V plx=49.6242mas
 (H-Ks)(M8V) =  0.377 ; GJ_3252_ M8.0V plx=68.1218mas
-(H-Ks)(M8V) = 0.39 (+-0.17 rms) ; Schmidt14
+(H-Ks)(M8V) =  0.39 (+-0.17; rms) ; Schmidt14
+(H-Ks)(M8V) =  0.39 (+-0.08; rms) ; West11
 (H-Ks)(M8V) =  0.393 ; LP_220-13_ M8V plx=46.2958mas
 (H-Ks)(M8V) =  0.398 ; GJ_3693_ M8V plx=67.1389mas
 (H-Ks)(M8V) =  0.398 ; LP_349-25_ M8Ve plx=70.7810mas
@@ -259,32 +261,68 @@ exemplars. Adopting M_G for VB10 (15.46) and M_Ks=9.92
 M8V standards and exemplars roughly follow trend: M_G ~ 2.4253 + 1.30981*M_Ks
 
 M_J(M8V)    = 10.222 ; Reyle18 polynomial
+
 M_H(M8V)    =  9.631 ; Reyle18 polynomial
+
 M_Ks(M8V)   =  9.271 ; Reyle18 polynomial
 
 (G-J)(M8V)  =  4.359 ; Reyle18 polynomial
-(J-Ks)(M8V) =  1.006 ; Reyle18 polynomial
 
+(J-Ks)(M8V) =  1.006 ; Reyle18 polynomial
 
 (g-G)(M8V) = 4.071 (+-0.185 sem, +-0.381 stdev) ; SIMBAD M8 d<25pc (N=6)
 => adopt (g-G)(M8V) = 4.1 [updated 6/29/2023]
 
-(r-i)(M8V) =  1.913 (+-0.05 rms) ; West05 fit for (V-Ic)=4.62
-(r-i)(M8V) =  2.73  (+-0.25 rms) ; West08
-(r-i)(M8V) = 2.77 (+-0.10 rms) ; Cifuentes20
-=> adopt (r-i)(M8V) = 2.77 [updated 9/1/2023]
+(u-g)(M8V) = 1.617 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
+(u-g)(M8V) = 2.217 ; LP_315-53_ plx=49.62mas M8V
+(u-g)(M8V) = 3.553 ; GJ_3252_ plx=68.12mas M8.0V
 
+(g-r)(M8V) = 1.64 (+-0.12; rms) ; West11
+(g-r)(M8V) = 1.681 ; LP_315-53_ plx=49.62mas M8V
+(g-r)(M8V) = 1.715 ; GJ_3252_ plx=68.12mas M8.0V
+(g-r)(M8V) = 1.962 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
+=> adopt (g-r)(M8V) = 1.7: [updated 4/7/2024]
+
+(r-i)(M8V) = 1.913 (+-0.05; rms) ; West05 fit for (V-Ic)=4.62
+(r-i)(M8V) = 2.554 ; GJ_3252_ plx=68.12mas M8.0V
+(r-i)(M8V) = 2.56 (+-0.24; rms) ; West11
+(r-i)(M8V) = 2.614 ; LP_315-53_ plx=49.62mas M8V
+(r-i)(M8V) = 2.73 (+-0.25; rms) ; West08
+(r-i)(M8V) = 2.77 (+-0.10; rms) ; Cifuentes20
+(r-i)(M8V) = 2.77 (+-0.16; rms) ; West05
+(r-i)(M8V) = 2.82 (+-0.28; rms) ; Hawley02 ("r*-i*")
+(r-i)(M8V) = 2.948 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
+=> adopt (r-i)(M8V) = 2.73 [updated 4/7/2024]
+
+(i-z)(M8V) = 1.789 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
 (i-z)(M8V) = 1.718 ; poly fit to SIMBAD d<75pc M dwarfs for G-Ks=5.53
-(i-z)(M8V) = 1.58 (+-0.15 rms) ; West08
-(i-z)(M8V) = 1.48 (+-0.14 rms) ; Schmidt14
-=> adopt (i-z)(M8V) = 1.72 [updated 12/27/2021]
+(i-z)(M8V) = 1.62 (+-0.12; rms) ; West05
+(i-z)(M8V) = 1.62 (+-0.11; rms) ; Hawley02 ("i*-z*")
+(i-z)(M8V) = 1.58 (+-0.15; rms) ; West08
+(i-z)(M8V) = 1.563 ; LP_315-53_ plx=49.62mas M8V
+(i-z)(M8V) = 1.48 (+-0.14; rms) ; Schmidt14
+(i-z)(M8V) = 1.474 ; GJ_3252_ plx=68.12mas M8.0V
+(i-z)(M8V) = 1.41 (+-0.13; rms) ; West11
+=> adopt (i-z)(M8V) = 1.6: [updated 4/7/2024; z-J=2.0, i-J=3.6]
 
-(z-J)(M8V)   = 2.172 (+-0.053 rms) ; poly fit d<50pc SIMBAD M dwarfs for G-Ks=5.53
-(z-J)(M8V)   = 2.04  (+-0.12 rms)  ; West08
-(z-J)(M8V)   = 1.95  (+-0.15 rms)  ; Schmidt14
-=> adopt (z-J)(M8V) = 2.17 mag [updated 12/27/2021]
+(i-J)(M8V) = 3.41 (+-0.26 rms) ; Schmidt14
+(i-J)(M8V) = 3.423 ; GJ_3252_ plx=68.12mas M8.0V
+(i-J)(M8V) = 3.541 ; LP_315-53_ plx=49.62mas M8V
+(i-J)(M8V) = 3.71 (+-0.22 rms) ; West05
+(i-J)(M8V) = 3.72 (+-0.19 rms) ; Hawley02 ("i*-J")
+(i-J)(M8V) = 3.938 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
+=> adopt (i-J)(M8V) = 3.6: [updated 4/7/2024; i-z=1.6, z-J=2.0]
 
-(i-J)(M8V)   = 3.41 (+-0.26 rms) ; Schmidt14
+(z-J)(M8V) = 2.172 (+-0.053; rms) ; poly fit d<50pc SIMBAD M dwarfs for G-Ks=5.53
+(z-J)(M8V) = 2.149 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
+(z-J)(M8V) = 2.05 (+-0.13; rms) ; West05 
+(z-J)(M8V) = 2.04 (+-0.12; rms) ; West08
+(z-J)(M8V) = 2.04 (+-0.12; rms) ; Hawley02 ("z*-J")
+(z-J)(M8V) = 1.978 ; LP_315-53_ plx=49.62mas M8V
+(z-J)(M8V) = 1.95 (+-0.15; rms) ; Schmidt14
+(z-J)(M8V) = 1.949 ; GJ_3252_ plx=68.12mas M8.0V
+(z-J)(M8V) = 1.93 )+-0.13; rms) ; West11
+=> adopt (z-J)(M8V) = 2.0: mag [updated 4/9/2024; i-z=1.6, i-J=3.6]
 
 (i-Ks)(M8V)  = 4.42 (+-0.31 rms) ; Schmidt14
 
@@ -432,6 +470,7 @@ logL(M8V) =  -3.507 ; LP 771-21 (Dieterich14)
 logL(M8V) =  -3.399 ; LHS 2195 (Dieterich14)
 logL(M8V) =  -3.340 ; pri. stan. GJ 752B (Dieterich14)
 logL(M8V) = -3.292 ; M_Ks=9.92, BC_K=3.05 => Mbol=12.970
+logl(M8V) =  -3.29 +-0.02 ; sec. stan. LP 412-31 = NLTT 10644 (Sanghi23)
 logL(M8V) =  -3.271 ; SIP1607-0442 (Dieterich14)
 logL(M8V) =  -3.194 ; LHS 0132 (Dieterich14)
 logL(M8V) =  -3.163 ; 2MASS 1440+1339 (Dieterich14)
@@ -636,7 +675,7 @@ LP 412-31 = NLTT 10644 = 2MASS J03205965+1854233
   Bp = 19.2057+-0.0468, Rp=14.5699+-0.0081, Bp-Rp=4.6359, Bp-G=3.0790,
   G-Rp=1.5568. G-V = 16.1267 - 19.21 = -3.0833. M_G=15.298+-0.005,
   Mv=18.38, M_J=10.93+-0.02, (G-Ks)=5.488, M_G=15.299,
-  M_Ks=9.810. 
+  M_Ks=9.810. logL=-3.29+-0.02(Sanghi23). 
 
 # Exemplars
 

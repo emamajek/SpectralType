@@ -96,14 +96,14 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 (J-H)(M7V) =  0.501 ; SIPS J1540-2613  M7.0 plx=67.2738mas
 (J-H)(M7V) =  0.560 ; GJ 3971  M7V plx=69.8207mas
 (J-H)(M7V) =  0.570 ; SIPS J0004-2058  M7.0 plx=66.4805mas
-(J-H)(M7V) = 0.575 ; pri. stan. GJ 644 C  M7Ve plx=153.9659mas
 (J-H)(M7V) =  0.578 ; LSPM J0330+5413  M7V plx=95.2169mas
 (J-H)(M7V) = 0.579 ; pri. stan. VB 8 = GJ 644C = LHS 429 
 (J-H)(M7V) =  0.582 ; GJ 3497  M7V plx=81.3731mas
 (J-H)(M7V) =  0.591 ; APMPM J2331-2750  M7.0V plx=73.3785mas
 (J-H)(M7V) =  0.594 ; GJ 1083  M7V plx=97.60mas
+(J-H)(M7V) =  0.60 (+-0.08; rms) ; West11
 (J-H)(M7V) =  0.604 ; LSPM J0357+4107  M7V plx=70.5077mas
-(J-H)(M7V) = 0.61  (+-0.14 rms) ; Schmidt14
+(J-H)(M7V) =  0.61  (+-0.14; rms) ; Schmidt14
 (J-H)(M7V) = 0.613 ; V-Ks vs. J-H trend for V-Ks=8.00
 (J-H)(M7V) =  0.624 ; LP 500-35  M7V plx=75.5877mas
 (J-H)(M7V) =  0.632 ; GJ 3147  M7V plx=96.7355mas
@@ -119,14 +119,14 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 (H-Ks)(M7V) =  0.311 ; LSPM J0330+5413  M7V plx=95.2169mas
 (H-Ks)(M7V) =  0.335 ; GJ 3497  M7V plx=81.3731mas
 (H-Ks)(M7V) =  0.340 ; GJ 3147  M7V plx=96.7355mas
-(H-Ks)(M7V) = 0.34 (+-0.17 rms) ; Schmidt14 
+(H-Ks)(M7V) =  0.34 (+-0.17 rms) ; Schmidt14
+(H-Ks)(M7V) =  0.34 (+-0.07 rms) ; West11
 (H-Ks)(M7V) =  0.342 ; LSR J0515+5911  M7.0V plx=63.3593mas
 (H-Ks)(M7V) =  0.344 ; GJ 3971  M7V plx=69.8207mas
 (H-Ks)(M7V) =  0.345 ; GJ 1083  M7V plx=97.60mas
 (H-Ks)(M7V) =  0.350 ; LSPM J0357+4107  M7V plx=70.5077mas
 (H-Ks)(M7V) =  0.364 ; LP 500-35  M7V plx=75.5877mas
 (H-Ks)(M7V) = 0.383 ; V-Ks vs. H-Ks trend for V-Ks=8.00 
-(H-Ks)(M7V) = 0.385 ; pri. stan. GJ 644 C  M7Ve plx=153.9659mas
 (H-Ks)(M7V) = 0.387 ; sec. stan. GJ 3877  M7.0Ve plx=141.7891mas
 (H-Ks)(M7V) = 0.39  ; trend of Dieterich14 at V-Ks=8.0
 (H-Ks)(M7V) = 0.391 ; pri. stan. VB 8 = GJ 644C = LHS 429
@@ -171,27 +171,64 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 (g-G)(M7V) = 3.903 ; pri. stan. VB 8 = GJ 644 C = LHS 429
 => adopt (g-G)(M7V) = 3.9 [updated 6/29/2023]
 
-(g-r)(M7V) = 1.696 ; pri. stan. VB 8
+(u-g)(M7V) = 1.544 ; GJ_644_C_ plx=153.97mas M7Ve
+(u-g)(M7V) = 1.853 ; LP_218-8_ plx=47.29mas M7Ve
 
+(g-r)(M7V) =  1.297 ; GJ_3923_ plx=54.11mas M7
+(g-r)(M7V) =  1.399 ; GJ_4386_ plx=58.27mas M7V
+(g-r)(M7V) =  1.444 ; GJ_1083_ plx=97.60mas M7V
+(g-r)(M7V) =  1.470 ; GJ_3971_ plx=69.82mas M7V
+(g-r)(M7V) =  1.58 (+-0.16; rms) ; West11
+(g-r)(M7V) = 1.696 ; pri. stan. VB 8 = GJ 644C plx=153.97 M7Ve (SDSS DR7) 
+(g-r)(M7V) =  1.788 ; LP_218-8_ plx=47.29mas M7Ve
+=> adopt (g-r)(M7V) = 1.70 [updated 4/7/2024]
+
+(r-i)(M7V) = -0.71 ; GJ_644_C_ plx=153.97mas M7Ve (erroneous? but from SDSS DR7!)
+(r-i)(M7V) = 1.340 ; GJ_4386_ plx=58.27mas M7V
+(r-i)(M7V) = 1.461 ; GJ_3923_ plx=54.11mas M7
+(r-i)(M7V) =  1.945 (+-0.05 rms) ; West05 fit for (V-Ic)=4.50
+(r-i)(M7V) =  2.09  (+-0.19 rms) ; West11
+(r-i)(M7V) = 2.246 ; GJ_1083_ plx=97.60mas M7V
+(r-i)(M7V) =  2.27  (+-0.20 rms) ; West05
+(r-i)(M7V) = 2.317 ; GJ_3971_ plx=69.82mas M7V
+(r-i)(M7V) =  2.50  (+-0.18 rms) ; West08
 (r-i)(M7V) =  2.62  (+-0.26 rms) ; Cifuentes20
-(r-i)(M7V) =   2.50  (+-0.18 rms) ; West08
-(r-i)(M7V) =   1.945 (+-0.05 rms) ; West05 fit for (V-Ic)=4.50
-(r-i)(M7V) =  -0.71 ; pri. stan. VB 8 [erroneous?]
-=> adopt (r-i)(M7V) = 2.62 [updated 9/1/2023]
+(r-i)(M7V) = 2.649 ; LP_218-8_ plx=47.29mas M7Ve
+(r-i)(M7V) =  2.67  (+-0.22 rms) ; Hawley02 ("r*-i*")
+=> adopt (r-i)(M7V) = 2.3: [updated 4/7/2024]
  
-(i-z)(M7V) =  4.981 ; pri. stan. VB 8 [erroneous?]
+(i-z)(M7V) =  4.981 ; pri. stan. VB 8 [erroneous?] (but is SDSS DR7 value!)
+(i-z)(M7V) =  1.52 (+-0.11; rms) ; Hawley02 ("i*-z*")
 (i-z)(M7V) = 1.477 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=5.06
+(i-z)(M7V) = 1.429 ; LP_218-8_ plx=47.29mas M7Ve
 (i-z)(M7V) =  1.37 (+-0.09; rms) ; West08
+(i-z)(M7V) =  1.26 (+-0.12; rms) ; West05 
 (i-z)(M7V) =  1.17 (+-0.11; rms) ; Schmidt14
-=> adopt (i-z)(M7V) = 1.48 [updated 12/28/2021]
+(i-z)(M7V) =  1.14 (+-0.10; rms  ; West11
+=> adopt (i-z)(M7V) = 1.4: [updated 4/7/2024; z-J=1.9, i-J=3.3]
 
-(z-J)(M7V) = 1.973 ; pri. stan. VB 8
+(i-J)(M7V) = 2.001 ; GJ_4386_ plx=58.27mas M7V
+(i-J)(M7V) = 2.069 ; GJ_3923_ plx=54.11mas M7
+(i-J)(M7V) = 2.746 ; GJ_3971_ plx=69.82mas M7V
+(i-J)(M7V) = 2.89 (+-0.21 rms) ; Schmidt14
+(i-J)(M7V) = 3.017 ; GJ_1083_ plx=97.60mas M7V
+(i-J)(M7V) = 3.416 ; LP_218-8_ plx=47.29mas M7Ve
+(i-J)(M7V) = 3.46 (+-0.24 rms) ; West05
+(i-J)(M7V) = 3.47 (+-0.24 rms) ; Hawley02 ("i*-J")
+(i-J)(M7V) =  6.954 ; pri. stan. GJ_644_C_ plx=153.97mas M7Ve (discrepent, but this is SDSS DR7!)
+=> adopt (i-J)(M7V) = 3.3: [updated 4/7/2024; i-z=1.4, z-J=1.9]
+
+(z-J)(M7V) = 1.987 ; LP_218-8_ plx=47.29mas M7Ve
+(z-J)(M7V) = 1.973 ; pri. stan. VB 8 plx=153.97mas M7Ve
 (z-J)(M7V) = 1.952 (+-0.053 rms) ; poly fit to SIMBAD d<50pc M dwarfs for G-Ks=5.06
+(z-J)(M7V) = 1.95  (+-0.15; rms) ; West05
+(z-J)(M7V) = 1.95  (+-0.16; rms) ; Hawley02 ("z*-J")
 (z-J)(M7V) = 1.85  (+-0.10; rms) ; West08
 (z-J)(M7V) = 1.72  (+-0.13; rms) ; Schmidt14
-=> adopt (z-J)(M7V) = 1.96 [updated 12/27/2021]
+(z-J)(M7V) = 1.71  (+-0.10; rms) ; West11
+=> adopt (z-J)(M7V) = 1.9: [updated 4/7/2024; i-z=1.4, i-J=3.3]
 
-(i-J)(M7V)  = 2.89 (+-0.21 rms) ; Schmidt14
+
 (i-Ks)(M7V) = 3.86 (+-0.25 rms) ; Schmidt14
 
 (Ks-L')(M7V) = 0.318 	         ; Dupuy12 polynomial
@@ -408,18 +445,19 @@ BC_K(M7V) = 3.05  ; sec. stan. LHS 3003 (Golimowski04)
 BC_K(M7V) = 3.056 ; Golimowski04(for SpT)
 => adopt BC_K = 3.01 mag [updated 12/10/2020]
 
-logL(M7V) =  -3.459+-0.025 ; SIP 1632-0631 (Dieterich14)
-logL(M7V) =  -3.309+-0.018 ; CE303 (Dieterich14)
-logL(M7V) =  -3.3033+-0.012 ; LP 775-031 (Dieterich14)
+logL(M7V) =  -3.459 +-0.025 ; SIP 1632-0631 (Dieterich14)
+logL(M7V) =  -3.309 +-0.018 ; CE303 (Dieterich14)
+logL(M7V) =  -3.3033 +-0.012 ; LP 775-031 (Dieterich14)
 logL(M7V) =   -3.28  ; sec. stan. LHS 3003 (Leggett01)
-logL(M7V) =  -3.28+-0.03 ; sec. stan. LHS 3003 (Golimowski04)
+logL(M7V) =  -3.28 +-0.03 ; sec. stan. LHS 3003 (Golimowski04)
 logL(M7V) =   -3.274 ; sec. stan. LHS 3003 (Dahn02) Mbol = 12.94
-logL(M7V) =  -3.266+-0.013 ; sec. stan. LHS 3003 (Dieterich14)
-logL(M7V) =  -3.218+-0.056 ; LHS 2351 (Dieterich14)
-logL(M7V) =  -3.214+-0.007 ; pri. stan. GJ644C/VB8 (Dieterich14)
+logL(M7V) =  -3.266 +-0.013 ; sec. stan. LHS 3003 (Dieterich14)
+logL(M7V) =  -3.218 +-0.056 ; LHS 2351 (Dieterich14)
+logL(M7V) =  -3.214 +-0.007 ; pri. stan. GJ644C/VB8 (Dieterich14)
+logL(M7V) =  -3.21 +-0.02 ; sec. stan. LHS 3003 = GJ 3877 
 logL(M7V) =  -3.206 ; pri. stan. LHS 429/vB8 (Dahn02) Mbol = 12.77
 logL(M7V) = -3.188 ; M_Ks=9.70, BC_K=3.01 => Mbol = 12.710
-=> adopt logL(M7V) = -3.188 dex [updated 12/10/2020]
+=> adopt logL(M7V) = -3.188 dex [updated 12/10/2020; need to reevalute*]
 => adopt Mbol(M7V) = 12.710 mag [updated 12/10/2020]
 
 Rad(M7V) = 0.1235 Rsun ; Rabus19 trend for Teff=2660K

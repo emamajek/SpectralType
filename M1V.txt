@@ -174,6 +174,7 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 (J-H)(M1V) =  0.605 ; GJ_803_ M1VeBa1
 (J-H)(M1V) =  0.612 ; GJ_173_ M1V
 (J-H)(M1V) = 0.614 ; V-Ks vs J-H trend for V-Ks=3.92
+(J-H)(M1V) =  0.62 (+-0.08 rms) ; West11
 (J-H)(M1V) = 0.621 ; Bessell88(Glass->2MASS)
 (J-H)(M1V) = 0.623 ; exemplar GJ_212_ M1.0V
 (J-H)(M1V) =  0.623 ; GJ_410_ M1.0Ve
@@ -187,6 +188,7 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 (H-K)(M1V) = 0.20 ; Bessell88/Glass
 
 (H-Ks)(M1V) =   0.156 ; GJ_825_ M1V
+(H-Ks)(M1V) =  0.19 (+-0.08 rms) ; West11 (again, systematically blue compared to nearby *s)
 (H-Ks)(M1V) = 0.204 ; exemplar GJ_212_ M1.0V
 (H-Ks)(M1V) =  0.204 ; GJ_9520_ M1.0V
 (H-Ks)(M1V) =  0.211 ; GJ_410_ M1.0Ve
@@ -286,24 +288,92 @@ GJ 412A (standard; B-V=1.491), GJ 229A (B-V=1.491), GJ 908
 => adopt (g-G)(M1V) = 1.60 [updated 6/29/2023]
 (seems to be bias in g mags among brightest)
 
-(g-r)(M1V) = 1.33  ; Covey07
-(g-r)(M1V) = 1.377 ; Just08/Chonis08 B-V=>g-r for B-V=1.485
-=> adopt (g-r)(M1V) = 1.377 [updated 9/1/2023]
+(u-g)(M1V) = 4.272 ; GJ_508.2_ plx=60.03mas M1V
 
-(r-i)(M1V) = 0.776 (+-0.05 rms) ; West05 fit for (V-Ic)=2.005
-(r-i)(M1V) = 0.816 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.05
-(r-i)(M1V) = 0.82 (+-0.18; rms) ; West08
-(r-i)(M1V) = 0.87 (+-0.11; rms) ; Cifuentes20
-=> adopt (r-i)(M1V) = 0.815 [updated 7/15/2023]
+(g-r)(M1V) =  0.825 ; GJ_678.1_A_ plx=98.84mas M1.0V
+(g-r)(M1V) =  0.908 ; GJ_740_ plx=90.02mas M1.0V
+(g-r)(M1V) =  0.943 ; GJ_803_ plx=102.94mas M1VeBa1
+(g-r)(M1V) =  1.065 ; GJ_908_ plx=169.22mas M1
+(g-r)(M1V) = 1.145 ; sec. stan. GJ_412_A_ plx=203.89mas M1.0V
+(g-r)(M1V) =  1.145 ; GJ_87_ plx=95.16mas M1V
+(g-r)(M1V) = 1.206 ; ter. stan. GJ_212_ plx=81.46mas M1.0V
+(g-r)(M1V) =  1.265 ; GJ_9520_ plx=87.33mas M1.0V
+(g-r)(M1V) = 1.269 ; pri. stan. GJ_229_ plx=173.57mas M1V
+(g-r)(M1V) =  1.305 ; GJ_367_ plx=106.17mas M1.0
+(g-r)(M1V) =   1.33  ; Covey07
+(g-r)(M1V) =   1.377 ; Just08/Chonis08 B-V=>g-r for B-V=1.485
+(g-r)(M1V) =   1.39 (+-0.16; rms) ; West11
+(g-r)(M1V) =  1.393 ; GJ_410_ plx=83.76mas M1.0Ve
+(g-r)(M1V) =  1.421 ; GJ_438_ plx=90.73mas M1
+(g-r)(M1V) =  1.423 ; GJ_821_ plx=84.44mas M1V
+(g-r)(M1V) =  1.509 ; CD-52_7989_ plx=78.26mas M1V
+(g-r)(M1V) = 1.637 ; sec. stan. GJ_514_ plx=131.10mas M1.0V
+=> adopt (g-r)(M1V) = 1.27 [updated 4/7/2024]
+
+(r-i)(M1V) =  0.73  (+-0.10 rms) ; West11
+(r-i)(M1V) =  0.776 (+-0.05 rms) ; West05 fit for (V-Ic)=2.005
+(r-i)(M1V) =  0.816 ; Jordi06 Pop I calibration for (R-Ic)=1.05
+(r-i)(M1V) =  0.82 (+-0.18; rms) ; West08
+(r-i)(M1V) =  0.869 ; Bilir05 calibration for R-Ic=1.05
+(r-i)(M1V) =  0.87 (+-0.11; rms) ; Cifuentes20
+(r-i)(M1V) =  0.88 (+-0.15; rms) ; West05
+(r-i)(M1V) =  0.888 ; GJ_438_ plx=90.73mas M1
+(r-i)(M1V) =  0.889 ; GJ_821_ plx=84.44mas M1V
+(r-i)(M1V) =  0.898 ; GJ_410_ plx=83.76mas M1.0Ve
+(r-i)(M1V) =  0.932 ; GJ_87_ plx=95.16mas M1V
+(r-i)(M1V) =   0.99 (+-0.28; rms) ; Hawley02 ("r*-i*")
+(r-i)(M1V) = 1.004 ; exemplar GJ_212_ plx=81.46mas M1.0V
+(r-i)(M1V) =  1.111 ; GJ_9520_ plx=87.33mas M1.0V
+(r-i)(M1V) = 1.114 ; sec. stan. GJ_412_A_ plx=203.89mas M1.0V
+(r-i)(M1V) =  1.19 ; GJ_740_ plx=90.02mas M1.0V
+(r-i)(M1V) =  1.206 ; GJ_678.1_A_ plx=98.84mas M1.0V
+(r-i)(M1V) =  1.208 ; CD-52_7989_ plx=78.26mas M1V
+(r-i)(M1V) =  1.245 ; GJ_908_ plx=169.22mas M1
+(r-i)(M1V) = 1.274 ; sec. stan. GJ_514_ plx=131.10mas M1.0V
+(r-i)(M1V) =  1.281 ; GJ_367_ plx=106.17mas M1.0
+(r-i)(M1V) =  1.281 ; GJ_803_ plx=102.94mas M1VeBa1
+(r-i)(M1V) = 1.324 ; pri. stan. GJ_229_ plx=173.57mas M1V
+=> adopt (r-i)(M1V) = 0.99: [updated 4/7/2024; need to reevaluate*]
+[EEM 4/7/2024: odd distribution of values: standards tend to be ~1.0-1.3 but SDSS
+aveerages are ~0.7-0.9]
 
 (g-V)(M1V) = 0.814 ; Jordi06 B-V=>g-V for B-V=1.485
 (g-V)(M1V) = 0.818 ; Just08/Chonis08 B-V=>g-V for B-V=1.485
 => adopt (g-V)(M1V) = 0.816 [updated 9/1/2023]
 
+(i-z)(M1V) = 0.41 (+-0.08; rms) ; West11
 (i-z)(M1V) = 0.46 (+-0.07; rms) ; West08
+(i-z)(M1V) = 0.48 (+-0.13; rms) ; West05
+(i-z)(M1V) = 0.50 (+-0.29; rms) ; Hawley02 ("i*-z*")
+(i-z)(M1V) = 1.209 ; GJ_508.2_ plx=60.03mas M1V
+=> adopt (i-z)(M1V) = 0.47 [updated 4/7/2024; i-J=1.81, z-J=1.34]
 
+(i-J)(M1V) = 1.645 ; GJ_438_ plx=90.73mas M1
+(i-J)(M1V) = 1.654 ; GJ_410_ plx=83.76mas M1.0Ve
+(i-J)(M1V) = 1.670 ; GJ_821_ plx=84.44mas M1V
+(i-J)(M1V) = 1.78 (+-0.10; rms) ; Hawley02 ("i*-J")
+(i-J)(M1V) = 1.799 ; GJ_173_ plx=89.19mas M1V
+(i-J)(M1V) = 1.800 ; GJ_212_ plx=81.46mas M1.0V
+(i-J)(M1V) = 1.804 ; GJ_9520_ plx=87.33mas M1.0V
+(i-J)(M1V) = 1.828 ; GJ_367_ plx=106.17mas M1.0
+(i-J)(M1V) = 1.862 ; GJ_740_ plx=90.02mas M1.0V
+(i-J)(M1V) = 1.865 ; GJ_87_ plx=95.16mas M1V
+(i-J)(M1V) = 1.872 ; GJ_678.1_A_ plx=98.84mas M1.0V
+(i-J)(M1V) = 1.882 ; GJ_514_ plx=131.10mas M1.0V
+(i-J)(M1V) = 1.919 ; GJ_803_ plx=102.94mas M1VeBa1
+(i-J)(M1V) = 2.10 (+-0.23; rms) ; West05
+(i-J)(M1V) = 2.109 ; GJ_908_ plx=169.22mas M1
+(i-J)(M1V) = 2.245 ; GJ_412_A_ plx=203.89mas M1.0V
+(i-J)(M1V) = 2.412 ; GJ_229_ plx=173.57mas M1V
+=> adopt (i-J)(M1V) = 1.81 [updated 4/7/2024; i-z=0.47, z-J=1.34]
+
+(z-J)(M1V) = 1.25  (+-0.08 rms)  ; Hawley02 ("z*-J")
 (z-J)(M1V) = 1.27  (+-0.21 rms)  ; West08
+(z-J)(M1V) = 1.32  (+-0.41 rms)  ; West11
+(z-J)(M1V) = 1.34  (+-0.09 rms)  ; West05
 (z-J)(M1V) = 1.344 (+-0.028 rms) ; poly fit to d<100pc GCNS for G-Ks=3.18
+(z-J)(M1V) = 4.625 ; GJ_508.2_ plx=60.03mas M1V
+=> adopt (z-J)(M1V) = 1.34 [updated 4/7/2024; i-z=0.47, i-J=1.81]
 
 (NUV-V)(M1V) = 8.86 ; smoothed trend for d<20pc M0V-M7V dwarfs from Cifuentes20
 (NUV-V)(M1V) = 8.97 (+-0.74; 68%CL) ; Cifuentes20 nearest 10 M1Vs (plx>64.5mas)
