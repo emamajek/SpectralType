@@ -11,60 +11,70 @@ Note that the main standard DENIS-P J0205.4-1159 is a tight triple
 system and the unresolved near-IR magnitudes appear ~1 mag brighter
 than typical L7s within 25pc.
 
+(V-Ks)(L7V) = 9.76 ; 2MASS_J14162408+1348263 sdL7 (Dahn17)
+
 (J-H)(L7V)  = 1.126 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
 => adopt (J-H)(L7V) = 1.13 [updated 8/6/2020]
 
 (H-Ks)(L7V)= 0.647 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
 => adopt (H-Ks)(L7V) = 0.647 [updated 8/6/2020]
 
-(V-Ks)(L7V) = 9.76 ; 2MASS_J14162408+1348263 sdL7 (Dahn17)
+(r-i)(L7V) = 2.31 (+-0.50; rms) ; Hawley02 ("r*-i*")
 
-M_G(L7V)    = 18.673 ; 2MASS J02052940-1159296 (unresolved trio, so not representative)
-M_G(L7V)    = 19.263 ; Reyle18 polynomial
+(i-z)(L7V) = 2.98 (+-0.50; rms) ; Hawley02 ("i*-z*")
 
-M_J(L7V)    = 13.852 ; Reyle18 polynomial
-M_J(L7V)    = 14.315 ; EEM fit to L/T dwarfs d<25pc
-=> adopt M_J(L7V) = 14.31 [updated 12/30/2020]
+(i-J)(L7V) = 5.91 (+-0.50; rms) ; Hawley02 ("i*-J")
 
-M_H(L7V)    = 12.981 ; Reyle18 polynomial
+(z-J)(L7V) = 2.93 (+-0.50; rms) ; Hawley02 ("z*-J")
 
-(G-Rp)(L7V) =  1.851 ; Reyle18 polynomial
-(G-J)(L7V)  =  5.439 ; Reyle18 polynomial
-(J-Ks)(L7V) =  1.642 ; Reyle18 polynomial
+(G-Rp)(L7V) = 1.851 ; Reyle18 polynomial
+
+(G-J)(L7V)  = 5.439 ; Reyle18 polynomial
+
+(J-Ks)(L7V) = 1.642 ; Reyle18 polynomial
 
 (Ks-W1)(L7V) = 0.824 ; Dupuy12 N=1
 (Ks-W1)(L7V) = 0.84  ; Dupuy12 trend
 => adopt (Ks-W1)(L7V) = 0.84 [updated 12/28/2019]
 
-M_K(MKO)(L7V)=  11.6387 ; DENIS_0205-1159 7.0 calc using Kirkpatrick20 (plx=53.67mas) standard
-M_K(MKO)(L7V)=  11.9341 ; 2MASS_1448+1031 7.0 calc using Kirkpatrick20 (plx=71.2548mas)
-M_K(MKO)(L7V)=  12.2083 ; SDSS_1416+1348 7.0 calc using Kirkpatrick20 (plx=107.5599mas)
-M_K(MKO)(L7V)= 12.587   ; WISE_0047+6803 7.0 calc using Kirkpatrick20 (plx=82.3mas)
-M_K(MKO)(L7V)=  12.7432 ; 2MASS_2244+2043 7.0 calc using Kirkpatrick20 (plx=58.7mas)
-M_K(MKO)(L7V)=  12.7768 ; 2MASS_0825+2115 7.0 calc using Kirkpatrick20 (plx=93.19mas)
-M_K(MKO)(L7V)=  13.0772 ; 2MASS_1632+1904 7.0 calc using Kirkpatrick20 (plx=66.29mas)
+M_G(L7V) = 18.67 ; 2MASS J02052940-1159296 (unresolved trio, so not representative)
+M_G(L7V) = 19.26 ; Reyle18 polynomial
+
+M_J(L7V) = 13.85 ; Reyle18 polynomial
+M_J(L7V) = 14.32 ; EEM fit to L/T dwarfs d<25pc
+=> adopt M_J(L7V) = 14.31 [updated 12/30/2020]
+
+M_H(L7V) = 12.98 ; Reyle18 polynomial
+
+M_K(MKO)(L7V)=  11.64 ; DENIS_0205-1159 7.0 calc using Kirkpatrick20 (plx=53.67mas) standard
+M_K(MKO)(L7V)=  11.93 ; 2MASS_1448+1031 7.0 calc using Kirkpatrick20 (plx=71.2548mas)
+M_K(MKO)(L7V)=  12.21 ; SDSS_1416+1348 7.0 calc using Kirkpatrick20 (plx=107.5599mas)
+M_K(MKO)(L7V)= 12.59 ; WISE_0047+6803 7.0 calc using Kirkpatrick20 (plx=82.3mas)
+M_K(MKO)(L7V)=  12.74 ; 2MASS_2244+2043 7.0 calc using Kirkpatrick20 (plx=58.7mas)
+M_K(MKO)(L7V)=  12.78 ; 2MASS_0825+2115 7.0 calc using Kirkpatrick20 (plx=93.19mas)
+M_K(MKO)(L7V)=  13.08 ; 2MASS_1632+1904 7.0 calc using Kirkpatrick20 (plx=66.29mas)
 => M_K(MKO)(L7V) = 12.6 [adopted 12/1/2020]
 
-M_Ks(L7V)=  11.6387 ; DENIS_0205-1159 7.0 calc using Kirkpatrick20 (plx=53.67mas) standard/(unres triple)
-M_Ks(L7V)=  11.9441 ; 2MASS_1448+1031 7.0 calc using Kirkpatrick20 (plx=71.2548mas)
-M_Ks(L7V)=  12.0465 ; WISE_1741-4642 7.0 calc using Kirkpatrick20 (plx=50.5mas)
-M_Ks(L7V)=  12.1858 ; WISE_0323+5625 7.0 calc using Kirkpatrick20 (plx=51.9mas)
-M_Ks(L7V)=   12.2195 ; 2MASSW J2148162+400359
-M_Ks(L7V)=   12.2253 ; 2MASS J08575849+5708514
-M_Ks(L7V)=  12.2683 ; SDSS_1416+1348 7.0 calc using Kirkpatrick20 (plx=107.5599mas)
-M_Ks(L7V)=  12.3674 ; Gaia_0734-4330 7.0 calc using Kirkpatrick20 (plx=48.2485mas)
-M_Ks(L7V)= 12.421 ; Reyle18 polynomial
-M_Ks(L7V)= 12.51  ; trend to L/T dwarfs in notes (1/2021)
-M_Ks(L7V)= 12.54  ; fit to SIMBAD L7-T3 dwarfs d<25pc (12/2020)
-M_Ks(L7V)= 12.627  ; WISE_0047+6803 7.0 calc using Kirkpatrick20 (plx=82.3mas)
-M_Ks(L7V)=  12.6933 ; 2MASS_1925+0700 7.0 calc using Kirkpatrick20 (plx=89.2606mas)
-M_Ks(L7V)=   12.8096 ; 2MASS J10440942+0429376
-M_Ks(L7V) =  12.8206 ; 2MASSI J0318540-342129
-M_Ks(L7V)=  12.8632 ; 2MASS_2244+2043 7.0 calc using Kirkpatrick20 (plx=58.7mas)
-M_Ks(L7V)=  12.8768 ; 2MASS_0825+2115 7.0 calc using Kirkpatrick20 (plx=93.19mas)
-M_Ks(L7V)=  12.9361 ; VHS_1256-1257B 7.0 calc using Kirkpatrick20 (plx=45.0mas)
-M_Ks(L7V)=  13.0793 ; 2MASS_0340-6724 7.0 calc using Kirkpatrick20 (plx=107.1165mas)
-M_Ks(L7V)=  13.1072 ; 2MASS_1632+1904 7.0 calc using Kirkpatrick20 (plx=66.29mas)
+M_Ks(L7V)=  11.64 ; DENIS_0205-1159 7.0 calc using Kirkpatrick20 (plx=53.67mas) standard/(unres triple)
+M_Ks(L7V)=  11.94 ; 2MASS_1448+1031 7.0 calc using Kirkpatrick20 (plx=71.2548mas)
+M_Ks(L7V)=  12.05 ; WISE_1741-4642 7.0 calc using Kirkpatrick20 (plx=50.5mas)
+M_Ks(L7V)=  12.19 ; WISE_0323+5625 7.0 calc using Kirkpatrick20 (plx=51.9mas)
+M_Ks(L7V)=   12.22 ; 2MASSW J2148162+400359
+M_Ks(L7V)=   12.23 ; 2MASS J08575849+5708514
+M_Ks(L7V)=  12.27 ; SDSS_1416+1348 7.0 calc using Kirkpatrick20 (plx=107.5599mas)
+M_Ks(L7V)=  12.37 ; Gaia_0734-4330 7.0 calc using Kirkpatrick20 (plx=48.2485mas)
+M_Ks(L7V)= 12.42 ; Reyle18 polynomial
+M_Ks(L7V)= 12.51 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L7V)= 12.54 ; fit to SIMBAD L7-T3 dwarfs d<25pc (12/2020)
+M_Ks(L7V)= 12.63 ; WISE_0047+6803 7.0 calc using Kirkpatrick20 (plx=82.3mas)
+M_Ks(L7V)=  12.69 ; 2MASS_1925+0700 7.0 calc using Kirkpatrick20 (plx=89.2606mas)
+M_Ks(L7V)=   12.81 ; 2MASS J10440942+0429376
+M_Ks(L7V) =  12.82 ; 2MASSI J0318540-342129
+M_Ks(L7V)=  12.86 ; 2MASS_2244+2043 7.0 calc using Kirkpatrick20 (plx=58.7mas)
+M_Ks(L7V)=  12.88 ; 2MASS_0825+2115 7.0 calc using Kirkpatrick20 (plx=93.19mas)
+M_Ks(L7V)=  12.94 ; VHS_1256-1257B 7.0 calc using Kirkpatrick20 (plx=45.0mas)
+M_Ks(L7V)=  13.08 ; 2MASS_0340-6724 7.0 calc using Kirkpatrick20 (plx=107.1165mas)
+M_Ks(L7V)=  13.11 ; 2MASS_1632+1904 7.0 calc using Kirkpatrick20 (plx=66.29mas)
 => adopt M_Ks(L7V) = 12.55 [adopted 12/1/2020]
 
 (K(MKO)-Ks)(L7V) =  -0.12 +- 0.076 2MASS_2244+2043 
@@ -98,8 +108,7 @@ logL(L7V) = -4.412 ; M_Ks=12.5, BC_Ks=3.27, Mbol=15.770
 Rad(L7V) = 0.08857 Rsun ; logL=-4.412, Teff=1530K
 => adopt Rad(L7V) = 0.0886 Rsun [updated 4/17/2020]
 
-Liebert06 did not list any R-I colors for L7V stars.
-
+Liebert06 did not list any R-Ic colors for L7V stars.
 
 # Primary Standard
 

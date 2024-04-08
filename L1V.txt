@@ -17,6 +17,15 @@ Teff(L1V) = 2076+-203 K ; Cifuentes23
 Teff(L1V) = 2097 K ; Kirkpatrick20 Table 13 polynomial 
 => adopt Teff(L1V) = 2160 K (logT = 3.334) [updated 4/17/2020]
 
+(V-Ks)(L1V) =  9.96 ; SSS0829-1309 (Dieterich14)
+(V-Ks)(L1V) =  9.93 ; 2MASS_J06023045+3910592 L1 (Dahn17)
+(V-Ks)(L1V) = 9.68 ; smoothed SpT vs V-K trend to Dieterich14 data
+(V-Ks)(L1V) = 9.64 ; trend fit to Dahn17 for L1V
+(V-Ks)(L1V) = 9.60 ; 2MA1555-0956 (Dieterich14)
+(V-Ks)(L1V) = 9.49 ; pri. stan. 2MASS_J14392836+1929149 L1 (Dahn17)
+(V-Ks)(L1V) =  9.45 ; 2MASS_J10224821+5825453 L1 (Dahn17)
+=> adopt (V-Ks)(L1V) = 9.65 [updated 8/17/2020]
+
 (V-Rc)(L1V) = 2.76 ; 2MASS 1555-0956 (RECONS)
 (V-Rc)(L1V) = 2.78 ; SSSPM 0829-1309 (RECONS)
 => adopt (V-Rc)(L1V) = 2.77 [updated 9/15/2023; V-Ic=5.17, R-Ic=2.40]
@@ -26,11 +35,13 @@ Teff(L1V) = 2097 K ; Kirkpatrick20 Table 13 polynomial
 (R-Ic)(L1V) = 2.30  ; SSSPM 0829-1309 (RECONS)
 => adopt (R-Ic)(L1V) = 2.40 [updated 9/15/2023; V-Ic=5.17, V-Rc=2.77]
 
+(V-Ic)(L1V) = 5.40  ; SSS0829-1309 (Dieterich14)
+(V-Ic)(L1V) = 5.35  ; trend Dieterich14 SpT vs. (V-I)
+(V-Ic)(L1V) = 5.34  ; 2M1555-0956 (Dieterich14)
 (V-Ic)(L1V) = 5.22  ; 2MASS 1555-0956 (RECONS)
 (V-Ic)(L1V) = 5.08  ; SSSPM 0829-1309 (RECONS)
 (V-Ic)(L1V) = 4.907 ; Dahn17 V-Ic trend (M6-L5) for L1V
 => adopt (V-Ic)(L1V) = 5.17 [updated 9/15/2023; V-Rc=2.77, R-Ic=2.40]
-
 
 (J-H)(L1V)   = 0.80  (+-0.14 rms)  ; Schmidt14
 (J-H)(L1V)   = 0.817 (+-0.14 rms)  ; SIMBAD d<30pc trend for Ldwarfs
@@ -47,13 +58,25 @@ Teff(L1V) = 2097 K ; Kirkpatrick20 Table 13 polynomial
 <J-Ks>(L1V)  = 1.39  ; Faherty09
 (J-Ks)(L1V)  = 1.31 (+-0.19 rms) ; Schmidt14 
 
-(r-i)(L1V)   = 2.41 (+-0.10 rms; N=14) ; Cifuentes20
+(r-i)(L1V) = 2.41 (+-0.10 rms; N=14) ; Cifuentes20
+(r-i)(L1V) = 2.56 (+-0.27 rms) ; Hawley02 ("r*-i*")
+(r-i)(L1V) = 2.61 (+-0.27 rms) ; West05
 => adopt (r-i)(L2V) = 2.41 [updated 9/15/2023]
 
-(i-z)(L1V)   = 1.87 (+-0.09 rms) ; Schmidt14
-(i-J)(L1V)   = 4.41 (+-0.18 rms) ; Schmidt14
-(i-Ks)(L1V)  = 5.73 (+-0.26 rms) ; Schmidt14
-(z-J)(L1V)   = 2.50 (+-0.13 rms) ; Schmidt14
+(i-z)(L1V) = 1.83 (+-0.09 rms) ; West05
+(i-z)(L1V) = 1.87 (+-0.09 rms) ; Schmidt14
+(i-z)(L1V) = 1.92 (+-0.08 rms) ; Hawley02 ("i*-z*")
+
+(i-J)(L1V) = 4.41 (+-0.18 rms) ; Schmidt14
+(i-J)(L1V) = 4.41 ; West05
+(i-J)(L1V) = 4.45 (+-0.08 rms) ; Hawley02 ("i*-J")
+
+(i-Ks)(L1V) = 5.73 (+-0.26 rms) ; Schmidt14
+
+(z-J)(L1V) = 2.50 (+-0.13 rms) ; Schmidt14
+(z-J)(L1V) = 2.51 ; West05
+(z-J)(L1V) = 2.52 (+-0.08 rms) ; Hawley02 ("z*-J")
+=> adopt (z-J)(L1V) = 2.51 [updated 4/7/2024]
 
 (Ks-W1)(L1V) = 0.314 ; Dupuy12 median (N=4;d<50pc)
 (Ks-W1)(L1V) = 0.37 (+-0.12 rms) ; Schmidt14
@@ -62,36 +85,20 @@ Teff(L1V) = 2097 K ; Kirkpatrick20 Table 13 polynomial
 
 (W1-W2)(L1V) = 0.26 (+-0.05 rms) ; Schmidt14
 
-
 M_J(L1V)    = 11.938 ; Reyle18 polynomial
 M_J(L1V)    = 12.118 ; EEM fit to L/T dwarfs d<25pc
 => adopt M_J(L1V) = 12.12 [updated 12/30/2020]
 
-
 M_H(L1V)    = 11.139 ; Reyle18 polynomial
-
 
 (G-Rp)(L1V) =  1.677 ; Reyle18 polynomial
 (G-Rp)(L1V) =  1.68  ; Kiman19
 
 (G-J)(L1V)  =  4.791 ; Reyle18 polynomial
+
 (J-Ks)(L1V) =  1.261 ; Reyle18 polynomial
 
-(V-Ks)(L1V) =  9.96 ; SSS0829-1309 (Dieterich14)
-(V-Ks)(L1V) =  9.93 ; 2MASS_J06023045+3910592 L1 (Dahn17)
-(V-Ks)(L1V) = 9.68 ; smoothed SpT vs V-K trend to Dieterich14 data
-(V-Ks)(L1V) = 9.64 ; trend fit to Dahn17 for L1V
-(V-Ks)(L1V) = 9.60 ; 2MA1555-0956 (Dieterich14)
-(V-Ks)(L1V) = 9.49 ; pri. stan. 2MASS_J14392836+1929149 L1 (Dahn17)
-(V-Ks)(L1V) =  9.45 ; 2MASS_J10224821+5825453 L1 (Dahn17)
-=> adopt (V-Ks)(L1V) = 9.65 [updated 8/17/2020]
-
 (G-Ks) = 5.996 ; pri. stan. 2MASS J14392836+1929149 
-
-(V-I)(L1V) = 5.34 ; 2M1555-0956 (Dieterich14)
-(V-I)(L1V) = 5.35 ; trend Dieterich14 SpT vs. (V-I)
-(V-I)(L1V) = 5.40 ; SSS0829-1309 (Dieterich14)
-=> adopt (V-I)(L1V) = 5.35 [updated 7/4/2020]
 
 Mv(L1V) = 20.91 ; SSS0829-1309 (Dieterich14)
 Mv(L1V) = 20.55 ; EEM fit to Dieterich14 for V-Ks=9.78
@@ -111,7 +118,7 @@ M_G(L1V) =  17.10   ; LSPM J1108+6830 = 2MASS J11083081+6830169
 M_G(L1V) =  17.5219 ; 2MASSW J0015447+351603
 => adopt M_G(L1V) = 16.8 [adopted 1/10/2021] (G-Ks=6.0, M_Ks=10.8)
 
-M_Ks(L1V) =  10.54   ; LSPM J1108+6830 = 2MASS J11083081+6830169               
+M_Ks(L1V) =  10.54   ; LSPM J1108+6830 = 2MASS J11083081+6830169
 M_Ks(L1V) =  10.5276 ; LSPM J0602+3910
 M_Ks(L1V) =  10.603  ; Reyle18 polynomial
 M_Ks(L1V) =  10.6461 ; 2MASS J19064801+4011089       

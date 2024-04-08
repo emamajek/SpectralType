@@ -106,12 +106,9 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
                 standards+exemplars+field fit:   (B-V)(K5V) = 1.152 + 0.017*[Fe/H] (rms=0.017),
                       standards+exemplars trend: (B-V)(K5V) = 1.152 + 0.019*[Fe/H] (rms=0.022),
 		     
-=> adopt (Bt-Vt)(K5V)= 1.373
-=> adopt (V-Hp)(K5V) = -0.124
-=> adopt (V-J)(K5V)  = 2.183
-=> adopt (V-H)(K5V)  = 2.751
-=> adopt (H-Ks)(K5V) = 0.132
-=> adopt (J-H)(K5V)  = 0.568
+=> adopt (Bt-Vt)(K5V) = 1.373
+=> adopt (V-Hp)(K5V) = -0.123 [updated 3/24/2024]
+
 => adopt (Bp-Rp)(K5V) = 1.429
 => adopt (Bp-G)(K5V)  = 0.736
 => adopt (G-Rp)(K5V)  = 0.698
@@ -180,11 +177,15 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (V-Jj)(K5V) = 2.06 ; Johnson65
 (V-Jj)(K5V) = 2.10 ; ter. stan. GJ 653 = HD 154363 = HIP 83591 ([Fe/H]=-0.55) (Johnson65)
 
-(V-J)(K5V) = 2.208 ; ter. stan. GJ_653 ([Fe/H]=-0.55)     
+(V-J)(K5V) = 2.196 ; dwarf color locus for B-V=1.155 
+(V-J)(K5V) = 2.208 ; ter. stan. GJ_653 ([Fe/H]=-0.55)
+=> adopt (V-J)(K5V) = 2.196 [updated 3/24/2024]
 
 (V-Hj)(K5V) = 2.63 ; Johnson68
 
-(V-H)(K5V) = 2.788 ; ter. stan. GJ_653 ([Fe/H]=-0.55) 
+(V-H)(K5V) = 2.766 ; dwarf color locus for B-V=1.155 
+(V-H)(K5V) = 2.788 ; ter. stan. GJ_653 ([Fe/H]=-0.55)
+=> adopt (V-H)(K5V) = 2.766 [updated 3/24/2024]
 
 (V-Kj)(K5V) = 2.75 ; Johnson66
 (V-Kj)(K5V) = 2.76 ; Johnson68
@@ -201,17 +202,20 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (V-Ks)(K5V) = 2.861 ; trend for K dwarfs (standards+exemplars)
 (V-Ks)(K5V) = 2.871 ; average for standards+exemplars 
 (V-Ks)(K5V) =  2.894 ; Bessell88(Glass->2MASS)
-(V-Ks)(K5V) = 2.914 ; trend for B-V=1.16 (consistent with distribution for standards, below)
+(V-Ks)(K5V) = 2.899 ; dwarf color locus for B-V=1.155 (consistent with distribution for standards, below)
 (V-Ks)(K5V) =  2.982 ; exemplar HD 332518 = HIP 97223 = GJ 12878 ([Fe/H]=+0.03)
 (V-Ks)(K5V) =  2.991 ; exemplar HD 19819 = GJ 1056 (no [Fe/H]) 
 (V-Ks)(K5V) = 3.004 ; ter. stan. GJ 653 = HD 154363 = HIP 83591 ([Fe/H]=-0.55)
 (V-Ks)(K5V) =  3.087 ; exemplar HD 113194 (no [Fe/H])
 (V-Ks)(K5V) =   3.242 ; GJ 726 = HD 173818 = HIP 92200 ([Fe/H]=-0.04) (very red)
-=> adopt (V-Ks)(K5V) = 2.90 [updated 8/13/2020]
+=> adopt (V-Ks)(K5V) = 2.90 [updated 3/24/2024]
 
-(G-Ks)(K5V) = 2.43  ; interp. value for Kirkpatrick24 K5Vs d<20pc
-(G-Ks)(K5V) = 2.539 ; ter. stan. GJ_653 ([Fe/H]=-0.55) (GaiaDR3,2MASS)
-(G-Ks)(K5V) = 2.60  ; median for Kirkpatrick24 K5Vs d<20pc (N=24)
+(G-Ks)(K5V) =  2.43  ; interp. value for Kirkpatrick24 K5Vs d<20pc
+(G-Ks)(K5V) = 2.44  ; (V-Ks)=2.90, G-V=-0.46
+(G-Ks)(K5V) = 2.441 ; dwarf color locus for B-V=1.155 
+(G-Ks)(K5V) =  2.539 ; ter. stan. GJ_653 ([Fe/H]=-0.55) (GaiaDR3,2MASS)
+(G-Ks)(K5V) =  2.60  ; median for Kirkpatrick24 K5Vs d<20pc (N=24)
+=> adopt (G-Ks)(K5V) = 2.44 [updated 3/24/2024; V-Ks=2.90, G-V=-0.46]
 
 (V-Lj)(K5V) = 2.94 ; Johnson68
 (V-Lj)(K5V) = 3.02 ; Johnson65
@@ -219,12 +223,16 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (J-H)(K5V) = 0.61 ; Bessell88/Glass
 
 (J-H)(K5V) = 0.553 ; Bessell88(Glass->2MASS)
+(J-H)(K5V) = 0.570 ; dwarf color locus for B-V=1.155 
 (J-H)(K5V) = 0.580 ; ter. stan. GJ_653 ([Fe/H]=-0.55)
+=> adopt (J-H)(K5V) = 0.570 [updated 3/24/2024]
 
 (H-K)(K5V) = 0.11 ; Bessell88/Glass
 
+(H-Ks)(K5V) = 0.133 ; dwarf color locus for B-V=1.155 
 (H-Ks)(K5V) = 0.138 ; Bessell88(Glass->2MASS)
 (H-Ks)(K5V) = 0.216 ; ter. stan. GJ_653 ([Fe/H]=-0.55)
+=> adopt (H-Ks)(K5V) = 0.133 [updated 3/24/2024]
 
 (J-K)(K5V) = 0.72 ; Bessell88/Glass
 
@@ -245,7 +253,7 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (G-V)(K5V) =  -0.4963 ; HD_173818 (K5V,Reid95) plx=70.1335mas [Fe/H]=-0.04 (GaiaDR3)
 (G-V)(K5V) = -0.5067 ; exemplar HD 332518 K5V plx=47.8092mas [Fe/H]=0.03 (GaiaDR3)
 (G-V)(K5V) = -0.5424 ; exemplar HD 238087 (K5V,Reid95) plx=37.4209mas [Fe/H]=0.40 (GaiaDR3)
-=> adopt (G-V)(K5V) = -0.46 [updated 12/5/2023] 
+=> adopt (G-V)(K5V) = -0.46 [updated 12/5/2023; V-Ks=2.90, G-V=-0.46]
 [EEM 9/1/2023: all K5V stars listed: (G-V)(K5V) = -0.452 - 0.0771*[Fe/H] (rms=0.046mag),
 K5V standards+exemplars:             (G-V)(K5V) = -0.468 - 0.1883*[Fe/H] (rms=0.039mag)]
 
@@ -258,59 +266,59 @@ K5V standards+exemplars:             (G-V)(K5V) = -0.468 - 0.1883*[Fe/H] (rms=0.
 (G-V)(K5V) = -0.408  ; sec. stan. HD 36003 = GJ 204 (GaiaDR2)
 (G-V)(K5V) = -0.402  ; exemplar HD 27274 = UGP 78 (GaiaDR2)
 (G-V)(K5V) = -0.385  ; V-Ic vs G-V trend Pancino22 for V-Ic=1.25 (GaiaDR3)
-=> adopt (G-V)(K5V) = -0.43 [updated 11/15/2022]
-=> adopt (G-Ks)(K5V) = 2.88 + -0.43 = 2.45 [updated 11/15/2022]
+=> adopt (G-V)(K5V) = -0.43 [updated 11/15/2022] (GaiaDR2)
+=> adopt (G-Ks)(K5V) = 2.88 + -0.43 = 2.45 [updated 11/15/2022] (GaiaDR2)
 
-(Bp-Rp)(K5V) =  1.3644  ; HD_27274
-(Bp-Rp)(K5V) = 1.3274   ; sec. stan. HD 36003 = GJ 204 (GaiaEDR3)
-(Bp-Rp)(K5V) =  1.3796  ; HD_171314
-(Bp-Rp)(K5V) =  1.3826  ; sec. stan. GJ 204 = HD 36003 = HIP 25623 ([Fe/H]=-0.07) 
-(Bp-Rp)(K5V) =  1.4033  ; HD_156026 = V*_V2215_Oph  K5V(k)
-(Bp-Rp)(K5V) =  1.4225  ; HIP_51443
-(Bp-Rp)(K5V) = 1.429    ; color fit for B-V=1.15
-(Bp-Rp)(K5V) = 1.4450   ; pri. stan. 61 Cyg A (GaiaDR2)
-(Bp-Rp)(K5V) =  1.4521  ; HD_68834
-(Bp-Rp)(K5V) = 1.4626   ; pri. stan. 61 Cyg A = GJ 820A = HD 201091 (GaiaEDR3)
-(Bp-Rp)(K5V) =  1.4973  ; HD_19819
-(Bp-Rp)(K5V) =  1.5270  ; *_ksi_Boo_B   K5V
-(Bp-Rp)(K5V) =  1.5279  ; HD_113194
+(Bp-Rp)(K5V) =  1.364 ; HD_27274
+(Bp-Rp)(K5V) = 1.327 ; sec. stan. HD 36003 = GJ 204 (GaiaEDR3)
+(Bp-Rp)(K5V) =  1.380 ; HD_171314
+(Bp-Rp)(K5V) =  1.383 ; sec. stan. GJ 204 = HD 36003 = HIP 25623 ([Fe/H]=-0.07) 
+(Bp-Rp)(K5V) =  1.403 ; HD_156026 = V*_V2215_Oph  K5V(k)
+(Bp-Rp)(K5V) =  1.423 ; HIP_51443
+(Bp-Rp)(K5V) = 1.429 ; color fit for B-V=1.15
+(Bp-Rp)(K5V) = 1.445 ; pri. stan. 61 Cyg A (GaiaDR2)
+(Bp-Rp)(K5V) =  1.452  ; HD_68834
+(Bp-Rp)(K5V) = 1.463 ; pri. stan. 61 Cyg A = GJ 820A = HD 201091 (GaiaEDR3)
+(Bp-Rp)(K5V) =  1.497 ; HD_19819
+(Bp-Rp)(K5V) =  1.527 ; *_ksi_Boo_B   K5V
+(Bp-Rp)(K5V) =  1.528 ; HD_113194
 => adopt (Bp-Rp)(K5V) = 1.43 [updated 11/10/2020] (GaiaDR2)
 
 (Bp-Rp)(K5V) = 1.4640 ; ter. stan. GJ_653 ([Fe/H]=-0.55) (GaiaDR3)
 
-
 (G-T)(K5V) = 0.707 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=1.43
 => (G-T)(K5V) = 0.707 [updated 10/8/2023] (GaiaDR2)
 
-(Bp-G)(K5V) =  0.6190  ; sec. stan. HD 36003 = GJ 204 (GaiaEDR3)
-(Bp-G)(K5V) =   0.6428  ; HD_27274
-(Bp-G)(K5V) =   0.6458  ; HD_171314
-(Bp-G)(K5V) =   0.6509  ; HD_36003
-(Bp-G)(K5V) =   0.6713  ; HIP_51443
-(Bp-G)(K5V) =  0.6731  ; 61_CygA = GJ 820A = HD 201091 pri. stan. (GaiaEDR3)
-(Bp-G)(K5V) =  0.68    ; Bp-Rp=1.43, G-Rp=0.75
-(Bp-G)(K5V) =   0.6823  ; HD_156026
-(Bp-G)(K5V) =   0.6882  ; HD_68834
-(Bp-G)(K5V) =   0.7156  ; HD_19819
-(Bp-G)(K5V) =   0.7318  ; HD_113194
+(Bp-G)(K5V) = 0.6190  ; sec. stan. HD 36003 = GJ 204 (GaiaEDR3)
+(Bp-G)(K5V) =  0.6428  ; HD_27274
+(Bp-G)(K5V) =  0.6458  ; HD_171314
+(Bp-G)(K5V) =  0.6509  ; HD_36003
+(Bp-G)(K5V) =  0.6713  ; HIP_51443
+(Bp-G)(K5V) = 0.6731  ; 61_CygA = GJ 820A = HD 201091 pri. stan. (GaiaEDR3)
+(Bp-G)(K5V) = 0.68    ; Bp-Rp=1.43, G-Rp=0.75
+(Bp-G)(K5V) =  0.6823  ; HD_156026
+(Bp-G)(K5V) =  0.6882  ; HD_68834
+(Bp-G)(K5V) =  0.7156  ; HD_19819
+(Bp-G)(K5V) =  0.7318  ; HD_113194
 => adopt (Bp-G)(K5V) = 0.68 [last updated 11/10/2020; Bp-Rp=1.43, G-Rp=0.75]
 
 (Bp-G)(K5V) = 0.6698 ; ter. stan. GJ_653 ([Fe/H]=-0.55) (GaiaDR3)
 
-(G-Rp)(K5V) = 0.698   ; color fit for B-V=1.15
-(G-Rp)(K5V) =  0.7210  ; HD_156026
-(G-Rp)(K5V) =  0.7215  ; HD_27274
-(G-Rp)(K5V) =  0.7317  ; HD_36003
-(G-Rp)(K5V) =  0.7323  ; V*_V2215_Oph  K5V(k)
-(G-Rp)(K5V) =  0.7338  ; HD_171314
-(G-Rp)(K5V) =  0.7512  ; HIP_51443
-(G-Rp)(K5V) = 0.7533  ; sec. stan. GJ 204 = HD 36003 = HIP 25623 ([Fe/H]=-0.07)  (GaiaEDR3)
-(G-Rp)(K5V) = 0.7544  ; pri. stan. *_61_Cyg_A    K5V
-(G-Rp)(K5V) =  0.7640  ; HD_68834
-(G-Rp)(K5V) =  0.7817  ; HD_19819
-(G-Rp)(K5V) = 0.7895  ; pri. stan. 61_CygA = GJ 820A = HD 201091 (GaiaEDR3)
-(G-Rp)(K5V) =  0.7961  ; HD_113194
-(G-Rp)(K5V) =  0.7975  ; *_ksi_Boo_B   K5V
+(G-Rp)(K5V) = 0.753 ; sec. stan. GJ 204 = HD 36003 = HIP 25623 ([Fe/H]=-0.07)  (GaiaEDR3)
+(G-Rp)(K5V) = 0.790 ; pri. stan. 61_CygA = GJ 820A = HD 201091 (GaiaEDR3)
+
+(G-Rp)(K5V) = 0.698 ; color fit for B-V=1.15 (GaiaDR2)
+(G-Rp)(K5V) =  0.721 ; HD_156026 (GaiaDR2)
+(G-Rp)(K5V) =  0.722 ; HD_27274 (GaiaDR2)
+(G-Rp)(K5V) =  0.732 ; HD_36003 (GaiaDR2)
+(G-Rp)(K5V) =  0.732 ; V*_V2215_Oph K5V(k) (GaiaDR2)
+(G-Rp)(K5V) =  0.734 ; HD_171314 (GaiaDR2)
+(G-Rp)(K5V) =  0.751 ; HIP_51443 (GaiaDR2)
+(G-Rp)(K5V) = 0.754 ; pri. stan. *_61_Cyg_A K5V (GaiaDR2)
+(G-Rp)(K5V) =  0.764 ; HD_68834 (GaiaDR2)
+(G-Rp)(K5V) =  0.782 ; HD_19819 (GaiaDR2)
+(G-Rp)(K5V) =  0.796 ; HD_113194 (GaiaDR2)
+(G-Rp)(K5V) =  0.798 ; *_ksi_Boo_B K5V (GaiaDR2)
 => adopt (G-Rp)(K5V) = 0.75 [updated 12/15/2020]
 
 (G-Rp)(K5V) = 0.7942 ; ter. stan. GJ_653 ([Fe/H]=-0.55) (GaiaDR3)
@@ -328,24 +336,24 @@ within 1 mag of the main sequence (N=129):
 <V-Vt>(K5V)  =-0.134 (+-0.003 sem, +-0.039 stdev; N=121) 
 <B-K>(K5V)   = 3.960 (+-0.033 sem, +-0.354 stdev; N=129)
 
-
 (g-G)(K5V) = 1.453 (+-0.029 sem, +-0.128 stdev) ; SIMBAD d<25pc K5V (N=25)
 => adopt (g-G)(K5V) = 1.45 [updated 6/29/2023]
 
-(g-r)(K5V) = 0.980 ; Jordi06 (V-R)=>(g-r) for V-R=0.679
+(g-r)(K5V) = 0.997 ; Jordi06 (V-R)=>(g-r) for V-Rc=0.69
 (g-r)(K5V) = 1.010 ; Just08/Chonis08 B-V=>g-r for B-V=1.150
 (g-r)(K5V) = 1.030 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A = HIP 104214 ([Fe/H]=-0.13)
 (g-r)(K5V) = 1.037 ; exemplar HD 332518 = HIP 97223 = GJ 12878 ([Fe/H]=+0.03)
-(g-r)(K5V) = 1.041 ; Bilir05 (B-V)=>(g-r) for B-V=1.150
+(g-r)(K5V) = 1.047 ; Bilir05 (B-V)=>(g-r) for B-V=1.155
 (g-r)(K5V) = 1.164 ; exemplar GJ 726 = HD 173818 = HIP 92200 ([Fe/H]=-0.04)
 (g-r)(K5V) =  1.18  ; Covey07
-=> adopt (g-r)(K5V) = 1.03 [updated 9/15/2023]
+=> adopt (g-r)(K5V) = 1.035 [updated 4/1/2024]
 
-(r-i)(K5V) = 0.354 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.582
+(r-i)(K5V) = 0.342 ; Jordi06 Pop I calibration for R-Ic=0.57
 (r-i)(K5V) = 0.356 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A = HIP 104214 ([Fe/H]=-0.13)
-(r-i)(K5V) = 0.41 (+-0.07 rms) ; Cifuentes20
+(r-i)(K5V) = 0.369 ; Bilir05 calibration for R-Ic=0.57
+(r-i)(K5V) =  0.41 (+-0.07 rms) ; Cifuentes20
 (r-i)(K5V) = 0.456 ; exemplar GJ 726 = HD 173818 = HIP 92200 ([Fe/H]=-0.04)
-=> adopt (r-i)(K5V) = 0.36 [updated 9/15/2023]
+=> adopt (r-i)(K5V) = 0.36 [updated 4/1/2024]
 
 (g-V)(K5V) = 0.602 ; Jordi06 B-V=>g-V for B-V=1.15
 (g-V)(K5V) = 0.603 ; Just08/Chonis08 B-V=>g-V for B-V=1.15

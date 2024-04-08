@@ -43,21 +43,59 @@ Teff(L2V) = 1850 K ; Cifuentes20 <Teff> for CARMENES L2V(N=15)
 (V-Ic)(L2V) =  5.23 ; pri. stan. Kelu-1 (Dieterich14, Bessell)
 => adopt (V-Ic)(L2V) = 5.05 [updated 10/15/2023; R-Ic=2.35, V-Rc=2.70]
 
+(r-i)(L2V) = 2.34 (+-0.08 rms; N=12) ; Cifuentes20
+(r-i)(L2V) = 2.39 (+-0.18 rms) ; West05
+(r-i)(L2V) = 2.50 (+-0.47 rms) ; Hawley02 ("r*-i*")
+=> adopt (r-i)(L2V) = 2.34 [updated 9/15/2023]
+
+(i-z)(L2V) = 1.80 (+-0.17 rms) ; West05
+(i-z)(L2V) = 1.81 (+-0.05 rms; N=8) ; Schmidt14
+(i-z)(L2V) = 1.85 (+-0.09 rsm) ; Hawley02 ("i*-z*")
+=> adopt (i-z)(L2V) = 1.81 [updated 4/7/2024]
+
+(i-J)(L2V) = 4.43 (+-0.12 rms) ; West05
+(i-J)(L2V) = 4.45 (+-0.10 rms; N=7) ; Schmidt14
+(i-J)(L2V) = 4.64 (+-0.45 rms) ; Hawley02 ("i*-J")
+
+(i-Ks)(L2V)  = 5.83 (+-0.12 rms; N=7) ; Schmidt14
+
+(z-J)(L2V) = 2.57 (+-0.11 rms) ; West05
+(z-J)(L2V) = 2.59 (+-0.10 rms; N=14) ; Schmidt14
+(z-J)(L2V) = 2.76 (+-0.36 rms) ; Hawley02 ("z*-J")
+
+(J-H)(L2V) = 0.89 (+-0.13 rms; N=25) ; Schmidt14
 (J-H)(L2V) = 0.890 (+-0.14 rms); SIMBAD d<30pc trend for Ldwarfs
 => adopt (J-H)(L2V) = 0.89 [updated 8/6/2020]
 
+(H-Ks)(L2V) = 0.56 (+-0.14 rms; N=25) ; Schmidt14
+(H-Ks)(L2V) = 0.57 ; trend of Dieterich14 data for V-Ks=10.0
 (H-Ks)(L2V) = 0.576 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
-=> adopt (H-Ks)(L2V) = 0.58 [updated 8/6/2020]
+=> adopt (H-Ks)(L2V) = 0.57 [updated 4/7/2024]
+
+(J-Ks)(L2V) =  1.52  ; Faherty09
+(J-Ks)(L2V) = 1.46  ; J-H=0.89, H-Ks=0.57
+(J-Ks)(L2V) =  1.45 (+-0.17 rms; N=23) ; Schmidt14
+(J-Ks)(L2V) =  1.324 ; Reyle18 polynomial
+=> adopt (J-Ks)(L2V) = 1.46 [updated 4/7/2024]
 
 (Bp-Rp)(L2V) = 4.6487  ; pri. stan. Kelu-1
 
 (Bp-G)(L2V)  = 2.7788  ; pri. stan. Kelu-1
 
 (G-Rp)(L2V)  = 1.8699  ; pri. stan. Kelu-1
-(G-Rp)(L2V)  = 1.70    ; Kiman19
+
+(G-Rp)(L2V)  = 1.70  ; Kiman19
+(G-Rp)(L2V) =  1.706 ; Reyle18 polynomial
+
+(G-J)(L2V)  =  4.899 ; Reyle18 polynomial
 
 (G-V)(L2V)   = -3.1124 ; pri. stan. Kelu-1
 
+M_J(L2V)    = 12.312 ; Reyle18 polynomial
+M_J(L2V)    = 12.474 ; EEM fit to L/T dwarfs d<25pc
+=> adopt M_J(L2V) = 12.47 [updated 12/30/2020]
+
+M_H(L2V) = 11.481 ; Reyle18 polynomial
 
 M_G(L2V) = 16.8397 ; 2MASS J10452400-0149576 (GaiaDR2)
 M_G(L2V) = 17.1079 ; 2MUCD 20388 (GaiaDR2)
@@ -76,18 +114,6 @@ M_G(L2V) = 18.2242 ; 2MASS J04041807+4127398 (GaiaDR2)
 M_G(L2V) = 18.2408 ; 2MASS J13482456-4227441 (GaiaDR2)      
 M_G(L2V) = 18.7977 ; 2MASS J17392515+2454421 (GaiaDR2)
 => adopt M_G(L2V) = 17.3 [adopted 4/17/2020] (GaiaDR2)
-
-
-M_J(L2V)    = 12.312 ; Reyle18 polynomial
-M_J(L2V)    = 12.474 ; EEM fit to L/T dwarfs d<25pc
-=> adopt M_J(L2V) = 12.47 [updated 12/30/2020]
-
-
-M_H(L2V)    = 11.481 ; Reyle18 polynomial
-
-(G-Rp)(L2V) =  1.706 ; Reyle18 polynomial
-(G-J)(L2V)  =  4.899 ; Reyle18 polynomial
-(J-Ks)(L2V) =  1.324 ; Reyle18 polynomial
 
 Mv(L2V) = 20.9  ; V-Ks=10.0, M_Ks=10.9
 Mv(L2V) = 20.78 ; 2MA0847-1532 (Dieterich14)
@@ -116,24 +142,6 @@ M_Ks(L2V) =  11.4418 ; 2MASS J13482456-4227441
 
 Mass(L2V) = 0.0753 Msun ; Mann18 calib for M_Ks=10.9
 => adopt Mass(L2V) = 0.075 Msun [updated 11/3/2019]
-
-
-
-(H-Ks)(L2V)  = 0.56 (+-0.14 rms; N=25) ; Schmidt14
-(H-Ks)(L2V)  = 0.57 ; trend of Dieterich14 data for V-Ks=10.0
-=> adopt (H-Ks)(L2V) = 0.57
-
-<J-Ks>(L2V)  = 1.52  ; Faherty09
-(J-Ks)(L2V)  = 1.45 (+-0.17 rms; N=23) ; Schmidt14
-
-(r-i)(L2V) = 2.34 (+-0.08 rms; N=12) ; Cifuentes20
-=> adopt (r-i)(L2V) = 2.34 [updated 9/15/2023]
-
-(i-z)(L2V)   = 1.81 (+-0.05 rms; N=8) ; Schmidt14
-(i-J)(L2V)   = 4.45 (+-0.10 rms; N=7) ; Schmidt14
-(i-Ks)(L2V)  = 5.83 (+-0.12 rms; N=7) ; Schmidt14
-(z-J)(L2V)   = 2.59 (+-0.10 rms; N=14) ; Schmidt14
-(J-H)(L2V)   = 0.89 (+-0.13 rms; N=25) ; Schmidt14
 
 (Ks-W1)(L2V) = 0.44 (+-0.10 rms; N=22) ; Schmidt14
 (Ks-W1)(L2V) = 0.477 ; Dupuy12 trend

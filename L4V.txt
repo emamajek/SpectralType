@@ -28,30 +28,32 @@ Teff(L4V) = 1695 K ; Filippazzo15 calibration (M6V-T9V)
 (V-Ic)(L4V) = 5.685 ; Dahn17 V-Ic trend (M6-L5) for L4V
 => adopt (V-Ic)(L4V) = 5.55 [updated 9/15/2023]
 
-
 (V-Ks)(L4V) = 10.95 ; 2MA0500+0330 (Dieterich14)
 (V-Ks)(L4V) = 10.49 ; smoothed trend to V-Ks vs. SpT Dieterich14 data
 (V-Ks)(L4V) =  7.36 ; usdL4 2MASS_J16262034+3925190 (Dahn17)
 => adopt (V-Ks)(L4V) = 10.5 [updated 8/17/2020]
 
-Mv(L4V) = 22.35 ; 2M0500+0330 (Dieterich14)
-Mv(L4V) = 22.33 ; V-Ks=10.9 in EEM fit to Dieterich14 trend
-=> adopt Mv(L4V) = 22.3 [last updated 4/27/2017; M_Ks=11.4, V-Ks=10.9]
-
-(H-Ks)(L4V)  = 0.58 (+-0.27 rms; N=3) ; Schmidt14
-(H-Ks)(L4V)  = 0.632 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
-(H-Ks)(L4V)  = 0.65 ; trend of Dieterich14 for V-Ks=10.9
+(H-Ks)(L4V) = 0.58 (+-0.27 rms; N=3) ; Schmidt14
+(H-Ks)(L4V) = 0.632 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L4V) = 0.65 ; trend of Dieterich14 for V-Ks=10.9
 => adopt (H-Ks)(L4V) = 0.63 [last updated 8/6/2020]
 
-<J-Ks>(L4V)  = 1.73  ; Faherty09
-(J-Ks)(L4V)  = 1.47 (+-0.18 rms; N=3) ; Schmidt14
+(J-Ks)(L4V) = 1.73 ; Faherty09
+(J-Ks)(L4V) = 1.47 (+-0.18 rms; N=3) ; Schmidt14
 
-(J-H)(L4V)   = 0.91 (+-0.23 rms; N=3) ; Schmidt14
-(J-H)(L4V)   = 1.002 (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
+(J-H)(L4V) = 0.91 (+-0.23 rms; N=3) ; Schmidt14
+(J-H)(L4V) = 1.002 (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
 => adopt (J-H)(L4V) = 1.00 [updated 8/6/2020]
 
 (r-i)(L4V) = 2.22 (+-0.13 rms; N=4) ; Cifuentes20
+(r-i)(L4V) = 2.38 (+-0.27 rms) ; Hawley02 ("r*-i*")
 => adopt (r-i)(L4V) = 2.22 [updated 9/15/2023]
+
+(i-z)(L4V) = 2.26 (+-0.13; rms) ; Hawley02 ("i*-z*")
+
+(i-J)(L4V) = 5.06 (+-0.18; rms) ; Hawley02 ("i*-J")
+
+(z-J)(L4V) = 2.80 (+-0.08; rms) ; Hawley02 ("z*-J")
 
 (Ks-W1)(L4V) = 0.55 (+-0.14 rms; N=3) ; Schmidt14
 (Ks-W1)(L4V) = 0.598 ; Dupuy12 median N=6 d<50pc
@@ -60,26 +62,6 @@ Mv(L4V) = 22.33 ; V-Ks=10.9 in EEM fit to Dieterich14 trend
 
 (W1-W2)(L4V) = 0.28 (+-0.03 rms; N=3) ; Schmidt14
 
-M_G(L4V) = 17.7411 ; 2MASS J00531899-3631102       
-M_G(L4V) = 17.911  ; 2MASS J19360187-5502322
-M_G(L4V) = 18.168  ; Reyle18 polynomial
-M_G(L4V) = 18.266  ; 2MASS J01550354+0950003        
-M_G(L4V) = 18.3458 ; 2MASS J11040127+1959217
-M_G(L4V) = 18.357  ; median for SIMBAD L4s d<25pc
-M_G(L4V) = 18.3688 ; 2MASS J17534518-6559559
-M_G(L4V) =  18.51  ; Kiman19
-M_G(L4V) = 18.5266 ; 2MASSW J1246467+402715        
-M_G(L4V) = 18.6148 ; 2MASS J14252798-3650229       
-M_G(L4V) = 18.7333 ; 2MASS J23192137+7645437
-=> adopt M_G(L4V) = 18.35 [updated 4/17/2020]
-
-M_J(L4V)    = 12.994 ; Reyle18 polynomial
-M_J(L4V)    = 13.089 ; EEM fit to L/T dwarfs d<25pc
-=> adopt M_J(L4V) = 13.09 [updated 12/30/2020]
-
-
-M_H(L4V)    = 12.123 ; Reyle18 polynomial
-
 (G-Rp)(L4V) =  1.764 ; Reyle18 polynomial
 (G-Rp)(L4V) =  1.71  ; Kiman19
 
@@ -87,20 +69,43 @@ M_H(L4V)    = 12.123 ; Reyle18 polynomial
 
 (J-Ks)(L4V) =  1.451 ; Reyle18 polynomial
 
-M_Ks(L4V) =  11.0251 ; 2MASS J00531899-3631102       
-M_Ks(L4V) =  11.318  ; 2MASS J19360187-5502322        
-M_Ks(L4V) =  11.391  ; 2MASS J01550354+0950003
-M_Ks(L4V) =  11.40   ; 2M0500+0330 (Dieterich14)
-M_Ks(L4V) = 11.43   ; V-Ks=10.9 in EEM fit to Dieterich14 trend
-M_Ks(L4V) =  11.4398 ; 2MASS J14252798-3650229
-M_Ks(L4V) = 11.444  ; median for nearest 10 L4s in SIMBAD
-M_Ks(L4V) =  11.4488 ; 2MASS J17534518-6559559       
-M_Ks(L4V) =  11.5066 ; 2MASSW J1246467+402715
-M_Ks(L4V) =  11.539  ; Reyle18 polynomial
-M_Ks(L4V) = 11.54   ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
-M_Ks(L4V) = 11.58   ; trend to L/T dwarfs in notes (1/2021)
-M_Ks(L4V) =  11.6673 ; 2MASS J23192137+7645437       
-M_Ks(L4V) =  11.6878 ; 2MASS J11040127+1959217
+M_G(L4V) = 17.74 ; 2MASS J00531899-3631102       
+M_G(L4V) = 17.91 ; 2MASS J19360187-5502322
+M_G(L4V) = 18.17 ; Reyle18 polynomial
+M_G(L4V) = 18.27 ; 2MASS J01550354+0950003        
+M_G(L4V) = 18.35 ; 2MASS J11040127+1959217
+M_G(L4V) = 18.36 ; median for SIMBAD L4s d<25pc
+M_G(L4V) = 18.37 ; 2MASS J17534518-6559559
+M_G(L4V) =  18.51 ; Kiman19
+M_G(L4V) = 18.53 ; 2MASSW J1246467+402715        
+M_G(L4V) = 18.61 ; 2MASS J14252798-3650229       
+M_G(L4V) = 18.73 ; 2MASS J23192137+7645437
+=> adopt M_G(L4V) = 18.35 [updated 4/17/2020]
+
+Mv(L4V) = 22.35 ; 2M0500+0330 (Dieterich14)
+Mv(L4V) = 22.33 ; V-Ks=10.9 in EEM fit to Dieterich14 trend
+=> adopt Mv(L4V) = 22.3 [last updated 4/27/2017; M_Ks=11.4, V-Ks=10.9]
+
+M_J(L4V) = 12.994 ; Reyle18 polynomial
+M_J(L4V) = 13.089 ; EEM fit to L/T dwarfs d<25pc
+=> adopt M_J(L4V) = 13.09 [updated 12/30/2020]
+
+M_H(L4V) = 12.123 ; Reyle18 polynomial
+
+M_Ks(L4V) =  11.03 ; 2MASS J00531899-3631102       
+M_Ks(L4V) =  11.32 ; 2MASS J19360187-5502322        
+M_Ks(L4V) =  11.39 ; 2MASS J01550354+0950003
+M_Ks(L4V) =  11.40 ; 2M0500+0330 (Dieterich14)
+M_Ks(L4V) = 11.43 ; V-Ks=10.9 in EEM fit to Dieterich14 trend
+M_Ks(L4V) =  11.44 ; 2MASS J14252798-3650229
+M_Ks(L4V) = 11.44 ; median for nearest 10 L4s in SIMBAD
+M_Ks(L4V) =  11.45 ; 2MASS J17534518-6559559       
+M_Ks(L4V) =  11.51 ; 2MASSW J1246467+402715
+M_Ks(L4V) =  11.54 ; Reyle18 polynomial
+M_Ks(L4V) = 11.54 ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
+M_Ks(L4V) = 11.58 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L4V) =  11.67 ; 2MASS J23192137+7645437       
+M_Ks(L4V) =  11.69 ; 2MASS J11040127+1959217
 => adopt M_Ks(L4V) = 11.5 [adopted 12/30/2020]
 
 BC_K(L4V)  =  3.348 mag ; Golimowksi04
@@ -144,3 +149,9 @@ Liebert06 did not record any R-I colors for L4V stars.
 2MASS J0500+0330
 
   Reid08 secondary standard. 
+
+DENIS-P J142527.97-365023.4 = 2MASS J14252798-3650229
+  L4.5?: BardalezGagliuffi14(near-IR)
+  L5: Kendall04(near-IR)
+
+  logL=-4.08+-0.02(Sanghi23). 

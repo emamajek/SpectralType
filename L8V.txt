@@ -23,27 +23,38 @@ Teff(L8V) = 1451 K ; Dupuy17(Lyon model scale)
 
 (V-Rc)(L8V) = 3.02 ; DEN J0255 (see below)
 
-(R-I)(L8V) = 2.440 ; star #142 (J1632+1904) of Liebert06
-(R-I)(L8V) = 2.827 ; star #25 (J0255-4700) of Liebert06
+(R-Ic)(L8V) = 2.440 ; star #142 (J1632+1904) of Liebert06
+(R-Ic)(L8V) = 2.827 ; star #25 (J0255-4700) of Liebert06
 => adopt (R-I)(L8V) = 2.634
 
-(V-Ic)(L8V) =  5.47 ; DEN J0255 (see below)
-(V-J)(L8V)  =  9.68 ; DEN J0255 (see below)
-(V-H)(L8V)  = 10.72 ; DEN J0255 (see below)  
+(V-Ic)(L8V) = 5.47 ; DEN J0255 (see below)
+
+(V-J)(L8V) = 9.68 ; DEN J0255 (see below)
+
+(V-H)(L8V) = 10.72 ; DEN J0255 (see below)
+
 (V-Ks)(L8V) = 11.36 ; DEN J0255 (see below)
 
-<J-Ks>(L8V) = 1.77  ; Faherty09
+(r-i)(L8V) = 2.19 (+-0.91; rms) ; Hawley02 ("r*-i*")
 
-M_G(L8V)    = 19.548 ; Reyle18 polynomial
+(i-z)(L8V) = 3.15 (+-0.32; rms) ; Hawley02 ("i*-z*")
+
+(i-J)(L8V) = 6.11 (+-0.47; rms) ; Hawley02 ("i*-J")
+
+(z-J)(L8V) = 2.93 (+-0.02; rms) ; Hawley02 ("z*-J")
+
 (G-Rp)(L8V) =  1.880 ; Reyle18 polynomial
-(G-J)(L8V)  =  5.547 ; Reyle18 polynomial
-(J-Ks)(L8V) =  1.705 ; Reyle18 polynomial
 
-(J-H)(L8V)  = 1.164 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
+(G-J)(L8V) =  5.547 ; Reyle18 polynomial
+
+(J-H)(L8V) = 1.164 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
 => adopt (J-H)(L8V) = 1.16 [updated 8/6/2020]
 
 (H-Ks)(L8V)= 0.625 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
 => adopt (H-Ks)(L8V) = 0.625 [updated 8/6/2020]
+
+(J-Ks)(L8V) = 1.705 ; Reyle18 polynomial
+(J-Ks)(L8V) = 1.77  ; Faherty09
 
 (Ks-W1)(L8V) = 0.847 ; Dupuy12 median N=8 d<50pc
 (Ks-W1)(L8V) = 0.843 ; Dupuy12 trend
@@ -57,21 +68,23 @@ M_J(L8V) = 14.952 ; pri. stan. 2MASS J16322911+1904407
 M_H(L8V) = 13.239 ; Reyle18 polynomial
 M_H(L8V) = 13.697 ; pri. stan. 2MASS J16322911+1904407 
 
-M_K(MKO)(L8V)=12.963 ; 2MASS_0859-1949 8.0 calc using Kirkpatrick20 (plx=71.22mas)
+M_K(MKO)(L8V) = 12.96 ; 2MASS_0859-1949 8.0 calc using Kirkpatrick20 (plx=71.22mas)
 
-M_Ks(L8V)=  12.2234 ; SDSS_0857+5708 8.0 calc using Kirkpatrick20 (plx=71.2343mas)
-M_Ks(L8V)=  12.4763 ; WISE_0031+5749 8.0 calc using Kirkpatrick20 (plx=71.0mas)
-M_Ks(L8V)=   12.703 ; Reyle18 polynomial
-M_Ks(L8V)= 12.74  ; fit to Kirkpatrick20 L7-T3 dwarfs d<25pc (12/2020)
-M_Ks(L8V)= 12.75  ; trend to L/T dwarfs in notes (1/2021)
-M_Ks(L8V)=  12.875 ; WISE_0807+4130 8.0 calc using Kirkpatrick20 (plx=50.7mas)
-M_Ks(L8V)=  12.9042 ; WISE_0643-0223 8.0 calc using Kirkpatrick20 (plx=71.9172mas)
-M_Ks(L8V)= 12.915  ; median nearest 10 L8s SIMBAD 
-M_Ks(L8V)=  12.973 ; 2MASS_0859-1949 8.0 calc using Kirkpatrick20 (plx=71.22mas)
-M_Ks(L8V)= 13.088  ; pri. stan. 2MASS J16322911+1904407 (plx = 65.60+-2.10mas)
-M_Ks(L8V)=  13.1539 ; 2MASS_0645-6646 8.0 calc using Kirkpatrick20 (plx=53.8mas)
-M_Ks(L8V)=  13.1543 ; SIMP_1132-3809 8.0 calc using Kirkpatrick20 (plx=59.0mas)
+M_Ks(L8V)=  12.22 ; SDSS_0857+5708 8.0 calc using Kirkpatrick20 (plx=71.2343mas)
+M_Ks(L8V)=  12.48 ; WISE_0031+5749 8.0 calc using Kirkpatrick20 (plx=71.0mas)
+M_Ks(L8V)=   12.70 ; Reyle18 polynomial
+M_Ks(L8V)= 12.74 ; fit to Kirkpatrick20 L7-T3 dwarfs d<25pc (12/2020)
+M_Ks(L8V)= 12.75 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L8V)=  12.88 ; WISE_0807+4130 8.0 calc using Kirkpatrick20 (plx=50.7mas)
+M_Ks(L8V)=  12.90 ; WISE_0643-0223 8.0 calc using Kirkpatrick20 (plx=71.9172mas)
+M_Ks(L8V)= 12.92 ; median nearest 10 L8s SIMBAD 
+M_Ks(L8V)=  12.97 ; 2MASS_0859-1949 8.0 calc using Kirkpatrick20 (plx=71.22mas)
+M_Ks(L8V)= 13.09 ; pri. stan. 2MASS J16322911+1904407 (plx = 65.60+-2.10mas)
+M_Ks(L8V)=  13.15 ; 2MASS_0645-6646 8.0 calc using Kirkpatrick20 (plx=53.8mas)
+M_Ks(L8V)=  13.15 ; SIMP_1132-3809 8.0 calc using Kirkpatrick20 (plx=59.0mas)
 => adopt M_Ks(L8V) = 12.74 [updated 12/30/2020]
+
+M_G(L8V) = 19.548 ; Reyle18 polynomial
 
 Mv(L8V) = 24.44+-0.13 ; DEN J0255 (see below)
 

@@ -71,6 +71,7 @@ Teff(L0V) =  2195+-172K ; Cifuentes23
 (J-H)(L0V)   =  0.955 ; 2MASS_J01415823-4633574_ L0gamma plx=27.2881mas
 => adopt (J-H)(L0V) = 0.76 [updated 1/15/2021]
 
+(H-Ks)(L0V) =  0.46 (+-0.16 rms) ; Schmidt14
 (H-Ks)(L0V) =  0.470 ; SIPS_J1548-1636_ L0 plx=37.5348mas
 (H-Ks)(L0V) =  0.477 ; LSPM_J1731+2721_ L0 plx=83.654mas
 (H-Ks)(L0V) =  0.490 ; DENIS_J134759.0-761005_ L0.0 plx=33.2113mas
@@ -114,27 +115,38 @@ Teff(L0V) =  2195+-172K ; Cifuentes23
 (J-Ks)(L0V) =   1.730 ; 2MASS_J01415823-4633574_ L0gamma plx=27.2881mas
 => adopt (J-Ks)(L0V) = 1.32 [updated 11/20/2023] 
 
+(r-i)(L0V) = 2.64 (+-0.25 rms) ; Hawley02 ("r*-i*")
+(r-i)(L0V) = 2.63 (+-0.27 rms) ; West05
+(r-i)(L0V) = 2.49 (+-0.09 rms) ; West08
 (r-i)(L0V) = 2.43 (+-0.16 rms; N=10) ; Cifuentes20 
-(r-i)(L0V) =  2.49 (+-0.09 rms) ; West08
 => adopt (r-i)(L0V) = 2.43 [updated 9/15/2023]
 
-(i-z)(L0V)   = 1.84 (+-0.06 rms) ; West08
-(i-z)(L0V)   = 1.82 (+-0.10 rms) ; Schmidt14
+(i-z)(L0V) = 1.85 (+-0.11 rms) ; Hawley02 ("i*-z*")
+(i-z)(L0V) = 1.84 (+-0.08 rms) ; West05
+(i-z)(L0V) = 1.84 (+-0.06 rms) ; West08
+(i-z)(L0V) = 1.82 (+-0.10 rms) ; Schmidt14
+=> adopt (i-z)(L0V) = 1.84 [updated 4/7/2024]
 
-(i-J)(L0V)   = 4.22 (+-0.21 rms) ; Schmidt14
+(i-J)(L0V) = 4.22 (+-0.21 rms) ; Schmidt14
+(i-J)(L0V) = 4.23 (+-0.19 rms) ; Hawley02 ("i*-J")
+(i-J)(L0V) = 4.24 (+-0.10 rms) ; West05
+=> adopt (i-J)(L0V) = 4.23 [updated 4/7/2024]
 
-(i-Ks)(L0V)  = 5.44 (+-0.29 rms) ; Schmidt14
+(i-Ks)(L0V) = 5.44 (+-0.29 rms) ; Schmidt14
 
-(z-J)(L0V)   = 2.45 (+-0.11 rms) ; West08 
-(z-J)(L0V)   = 2.37 (+-0.15 rms) ; Schmidt14
-
-(H-Ks)(L0V)  = 0.46 (+-0.16 rms) ; Schmidt
+(z-J)(L0V) =  2.52 (+-0.08 rms) ; Hawley02 ("z*-J")
+(z-J)(L0V) =  2.45 (+-0.11 rms) ; West08
+(z-J)(L0V) = 2.39 ; i-J=4.23, i-z=1.84
+(z-J)(L0V) =  2.37 (+-0.15 rms) ; Schmidt14
+(z-J)(L0V) =  2.28 (+-0.09 rms) ; West05
+=> adopt (z-J)(L0V) = 2.39 [updated 4/7/2024]
 
 (Ks-W1)(L0V) = 0.32 (+-0.14 rms) ; Schmidt14
 (Ks-W1)(L0V) = 0.366 ; Dupuy12 trend
 => adopt (Ks-W1)(L0V) = 0.36 [updated 12/28/2019]
 
 (W1-W2)(L0V) = 0.27 (+-0.07 rms) ; Schmidt14
+
 (W2-W3)(L0V) = 0.44 (+-0.11 rms) ; Schmidt14
 
 M_J(L0V)    = 11.542 ; Reyle18 polynomial
@@ -154,6 +166,7 @@ M_H(L0V)    = 10.783 ; Reyle18 polynomial
 (Bp-G)(L0V)  =  2.4084 ; pri. stan. 2M 0345+2540
 
 (G-J)(L0V)  =  4.683 ; Reyle18 polynomial
+
 (J-Ks)(L0V) =  1.197 ; Reyle18 polynomial
 
 M_G(L0V) =  15.1141 ; G 239-25B

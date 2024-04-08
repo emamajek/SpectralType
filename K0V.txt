@@ -117,7 +117,7 @@ HD 224618, and HD 26965.
 (V-Rc)(K0V) = 0.425 ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) (Cousins80)
 (V-Rc)(K0V) = 0.443 ; HD 72760 = HIP 42074 (Koen10) K0-V ~solar
 (V-Rc)(K0V) = 0.443 ; Johnson68 V-Rj=0.64 transformed to V-Rc via Fernie83
-(V-Rc)(K0V) =  0.45  ; exemplar HD 100623 = GJ 432A (Cousins80)
+(V-Rc)(K0V) = 0.45  ; exemplar HD 100623 = GJ 432A (Cousins80)
 (V-Rc)(K0V) = 0.454 ; HD 65430 = HIP 39064 (Koen10) ~solar 
 (V-Rc)(K0V) = 0.455 ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03) (Cousins80)
 (V-Rc)(K0V) =  0.461 ; HIP 99452 (Koen10)
@@ -127,9 +127,21 @@ HD 224618, and HD 26965.
 (V-Rc)(K0V) = 0.474 ; trend B-V vs V-Rc for B-V=0.857
 (V-Rc)(K0V) = 0.477 ; exemplar HD 118972 = GJ 1175 = HIP 66765 ([Fe/H]=-0.03)
 (V-Rc)(K0V) = 0.487 ; exemplar HD 118972 = GJ 1175 = HIP 66765 ([Fe/H]=-0.03)
-=> adopt (V-Rc)(K0V) = 0.46 [updated 9/1/2023]
+=> adopt (V-Rc)(K0V) = 0.455 [updated 4/1/2024; V-Ic=0.865, R-Ic=0.41]
 
 (V-Ij)(K0V) = 1.06 ; Johnson68 
+
+(R-Ic)(K0V) = 0.387 ; HD 870 = HIP 1031 (Koen10) ~solar
+(R-Ic)(K0V) = 0.399 ; HD 72760 = HIP 42074 (Koen10) K0-V ~solar
+(R-Ic)(K0V) = 0.401 ; sec. stan. K0V HD 224618 ([Fe/H]=-0.76) (Taylor05)
+(R-Ic)(K0V) = 0.405 ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03) (Cousins80)
+(R-Ic)(K0V) = 0.410 ; HD 135599 = HIP 74702 (Koen10) ~solar
+(R-Ic)(K0V) = 0.410 ; exemplar HD 118972 = GJ 1175 = HIP 66765 ([Fe/H]=-0.03)
+(R-Ic)(K0V) = 0.415 ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) (Cousins80)
+(R-Ic)(K0V) = 0.417 ; Koen10 d<25pc median K0V (N=7)
+(R-Ic)(K0V) = 0.419 ; HD 65430 = HIP 39064 (Koen10) ~solar 
+(R-Ic)(K0V) = 0.425 ; exemplar HD 100623 = GJ 432A (Cousins80)
+=> adopt (R-Ic)(K0V) = 0.41 [updated 4/1/2024; V-Ic=0.865, V-Rc=0.455]
 
 (V-Ic)(K0V) = 0.810 ; HD 870 = HIP 1031 (K0V,Houk75,Gray06) (Koen10)
 (V-Ic)(K0V) = 0.834 ; Johnson68 V-Ij=1.06 transformed to V-Ic via Fernie83
@@ -148,19 +160,7 @@ HD 224618, and HD 26965.
 (V-Ic)(K0V) =  0.878 ; HD 149806 = HIP 81375 (K0V,Gray03,Abt04) (Koen10)
 (V-Ic)(K0V) =  0.88 ; Bessell88
 (V-Ic)(K0V) = 0.887 ; exemplar HD 118972 = HIP 66765 (K0V,Gray06,Torres06) (Koen10)
-=> adopt (V-Ic)(K0V)  = 0.87 [updated 8/20/2023; V-Rc=0.46, R-Ic=0.41]
-
-(R-Ic)(K0V) = 0.387 ; HD 870 = HIP 1031 (Koen10) ~solar
-(R-Ic)(K0V) = 0.399 ; HD 72760 = HIP 42074 (Koen10) K0-V ~solar
-(R-Ic)(K0V) = 0.401 ; sec. stan. K0V HD 224618 ([Fe/H]=-0.76) (Taylor05)
-(R-Ic)(K0V) =  0.405 ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03) (Cousins80)
-(R-Ic)(K0V) = 0.410 ; HD 135599 = HIP 74702 (Koen10) ~solar
-(R-Ic)(K0V) = 0.410 ; exemplar HD 118972 = GJ 1175 = HIP 66765 ([Fe/H]=-0.03)
-(R-Ic)(K0V) = 0.415 ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) (Cousins80)
-(R-Ic)(K0V) = 0.417 ; Koen10 d<25pc median K0V (N=7)
-(R-Ic)(K0V) = 0.419 ; HD 65430 = HIP 39064 (Koen10) ~solar 
-(R-Ic)(K0V) =  0.425 ; exemplar HD 100623 = GJ 432A (Cousins80)
-=> adopt (Rc-Ic)(K0V) = 0.42 [updated 8/20/2023; V-Ic=0.87, V-Rc=0.46]
+=> adopt (V-Ic)(K0V) = 0.865 [updated 8/20/2023; V-Rc=0.455, R-Ic=0.41]
 
 (V-Jj)(K0V) = 1.38 ; Johnson66,Johnson68
 
@@ -206,15 +206,16 @@ within 1 mag of the main sequence (N=216):
 (u-g)(K0V) = 1.19 ; Fukugita11 (note: uses discrepent Teff=5610K!)
 
 (g-r)(K0V) =  0.47  ; Fukugita11 (note: uses discrepent Teff=5610K!)
-(g-r)(K0V) = 0.602 ; Jordi06 (V-R)=>(g-r) for V-R=0.443
 (g-r)(K0V) = 0.62  ; Covey07
+(g-r)(K0V) = 0.630 ; Jordi06 popI calib (V-R)=>(g-r) for V-R=0.46
 (g-r)(K0V) = 0.647 ; Just08/Chonis08 B-V=>g-r for B-V=0.818
-(g-r)(K0V) = 0.666 ; Bilir05 (B-V)=>(g-r) for B-V=0.816
-=> adopt (g-r)(K0V) = 0.64 [updated 9/1/2023]
+(g-r)(K0V) = 0.668 ; Bilir05 (B-V)=>(g-r) for B-V=0.818
+=> adopt (g-r)(K0V) = 0.64 [updated 4/1/2024]
 
-(r-i)(K0V) = 0.15  ; Fukugita11 (note: uses discrepent Teff=5610K!)
-(r-i)(K0V) = 0.164 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.39
-=> adopt (r-i)(K0V) = 0.164 [updated 9/1/2023]
+(r-i)(K0V) =  0.15  ; Fukugita11 (note: uses discrepent Teff=5610K!)
+(r-i)(K0V) = 0.184 ; Jordi06 Pop I calib for R-Ic=0.41
+(r-i)(K0V) = 0.203 ; Bilir05 calibration for R-Ic=0.41 
+=> adopt (r-i)(K0V) = 0.19 [updated 4/1/2024]
 
 (g-V)(K0V) = 0.390 ; Just08/Chonis08 B-V=>g-V for (B-V)=0.818
 (g-V)(K0V) = 0.392 ; Jordi06 B-V=>g-V for B-V=0.391
