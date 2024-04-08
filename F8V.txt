@@ -15,7 +15,14 @@ Cowley76 standard:    ups And - F8V
 MK78 standard:        HD 27808 (= Hyades Vb 48) - F8V
 Keenan85_IAU stan.:   HD 27808 - F8V
 Corbally86 standard:  Cl Melotte 25 29 (= HD 27383) - F8V
-Gray89 standard:      HD 27808 - F8V 
+Gray89 standard:      HD 27808 - F8V (primary stan.)
+                      HD 91324 - F8V m-1 (primary metal-weak stan.)
+		      HD 188815 - F8V m-2 (primary metal-weak stan.)
+		      HD 97320 - F8V m-3 (preliminary metal-weak stan.)
+		      HD 19445 - F8V m-4 (preliminary metal-weak stan.)
+		      HD 27305 - F8V m-2 (secondary metal-weak stan.)
+		      HD 38767 - F8V m-2 (secondary metal-weak stan.)
+		      HD 48170 - F8V m-2 (secondary metal-weak stan.) 
 GrayAtlas standard:   HD 27808 - F8V
 GrayNstars standard:  HD 27808 - F8V
 
@@ -379,10 +386,11 @@ and within 1 mag of the MS (N=172):
 => adopt (g-r)(F8V) = 0.34 [updated 2/1/2024]
 
 (r-i)(F8V) = 0.054 ; sec. stan. HD 90839 = 36 UMa = GJ 395 ([Fe/H]=-0.12)
-(r-i)(F8V) = 0.073 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.298
+(r-i)(F8V) = 0.066 ; Jordi06 Pop I calibration for R-Ic=0.29
+(r-i)(F8V) = 0.078 ; Bilir05 calibration for R-Ic=0.29
 (r-i)(F8V) = 0.122 ; Davenport14 g-r vs r-i locus for g-r=0.34
 (r-i)(F8V) =  0.408 +-0.007 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16) (SDSS DR9) (poor?)
-=> adopt (r-i)(F8V) = 0.07 [updated 2/1/2024]
+=> adopt (r-i)(F8V) = 0.08 [updated 4/1/2024]
 
 (i-z)(F8V) = 1.533 ; Davenport14 g-r vs i-z locus for g-r=0.34
 (i-z)(F8V) = 2.998 +-0.005 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16) (SDSS DR9)
@@ -438,11 +446,13 @@ BCv(F8V) = -0.034 +-0.019 ; ter. stan. HD 9826 = ups And = GJ 61 (see below)
 BCv(F8V) = -0.038 mag ; Masana06(Teff=6180K)
 BCv(F8V) = -0.040 mag ; exemplar HD 5015 = GJ 41 (fbol(Boyajian13),Vmag(Hauck97),IAU2015 system)
 BCv(F8V) = -0.042 mag ; Casagrande18(Teff=6180K,logg=4.5)
+BCv(F8V) = -0.042 mag ; Chen19(PARSEC,Teff=6180K,logg=4.31, adjusted so BCv(Sun)=-0.085) 
 BCv(F8V) = -0.044 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6180K)
 BCv(F8V) = -0.047 mag ; EEM fit to Casagrande06/08/10(Teff=6180K)
+BCv(F8V) =  -0.047 mag ; Chen19(PARSEC,Teff=6180K,logg=4.31, where BCv(Sun)=-0.090) 
 BCv(F8V) = -0.049 mag ; Code76(Teff=6180K)
 BCv(F8V) =  -0.21 mag ; Habets81
-=> adopt BCv(F8V) = -0.04 mag [updated 1/10/2024; adjusted so that BCv(5772K)=-0.085]
+=> adopt BCv(F8V) = -0.042 mag [updated 2/24/2024; adjusted so that BCv(5772K)=-0.085]
 
 M_G(F8V) = 2.99 ; exemplar HD 136064 = HIP 74605 = GJ 9517 ([Fe/H]=-0.02,logg=4.02) (GaiaDR3) (brightest among nearest 20 F8Vs in SIMBAD)
 M_G(F8V) =  3.07 (discrepent, SB) ; HD 143333 plx=35.2665mas (F8V,Abt09) (GaiaDR3) (SB1) ([Fe/H]=0.10, logg=4.22)

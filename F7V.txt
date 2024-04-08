@@ -19,6 +19,7 @@ JM53 standards:     iot Psc - F7V
 Houk75 standard:    iot Psc - F7V (primary standard)
 Cowley76 stardards: tet Boo - F7V
 	 	    HR 3794 - F7IV-V
+Gray89 standard:    HD 2615 - F7IV-V m-2 (secondary metal-weak stan.) 
 
 Houk/Michigan classifications: Houk's Michigan Spectral Survey
 catalogued 2370 stars as "F7V". Of these, 42 were later classified by
@@ -193,8 +194,10 @@ and within 1 mag of the MS (N=184):
 (g-r)(F7V) = 0.299 ; Just08/Chonis08 B-V=>g-r for B-V=0.50
 => adopt (g-r)(F7V) = 0.315 [updated 2/1/2024]
 
-(r-i)(F7V) = 0.060 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.284
+(r-i)(F7V) = 0.058 ; Jordi06 Pop I calibration for R-Ic=0.282
+(r-i)(F7V) = 0.070 ; Bilir05 calibration for R-Ic=0.282
 (r-i)(F7V) = 0.108 ; Davenport14 g-r vs r-i locus for g-r=0.315
+=> adopt (r-i)(F7V) = 0.07 [updated 4/1/2023]
 
 (i-z)(F7V) = 0.014 ; Davenport14 g-r vs i-z for g-r=0.315
 
@@ -284,19 +287,21 @@ Teff(F7V) =   6360 K ; GrayCorbally94
 Teff(F7V) = 6365 K ; exemplar HD 99453 = HIP 55779 ([Fe/H]=+0.07)
 Teff(F7V) = 6394 +- 104 K ; vanBelle09
 Teff(F7V) = 6412 K ; exemplar HD 27991 = 70 Tau = HIP 20661 ([Fe/H]=+0.16) 
-=> adopt Teff(F7V) = 6280 K (logT = 3.798) [updated 9/19/2020]
-(well constrained as tet Per and tet Boo are well-characterized and near solar metallicity)
-
+=> adopt Teff(F7V) = 6280 K (logT = 3.798) [updated 2/24/2024]
+[EEM 2/24/2024: trend for 3 standards: Teff(F7V) = 6274K + 485K*[Fe/H] (rms=27K),
+        trend for standards+exemplars: Teff(F7V) = 6285K + 232K*[Fe/H] (rms=75K)]
+	
 BCv(F7V) =  0.018 mag ; Balona94(Teff=6280K)
 BCv(F7V) =  0.016 mag ; Bertone04(Teff=6280K)
 BCv(F7V) = -0.016 mag ; Flower96(Teff=6280K)
 BCv(F7V) = -0.030 mag ; Masana06(Teff=6280K)
 BCv(F7V) = -0.035 mag ; Casagrande18(Teff=6280K,logg=4.5)
 BCv(F7V) = -0.036 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6280K)
-BCv(F7V) = -0.045 mag ; EEM fit to Casagrande06/08/10(Teff=6280K)
+BCv(F7V) = -0.037 mag ; Chen19(PARSEC,Teff=6280K,logg=4.28; adjusted so BCv(Sun)=-0.085) 
+BCv(F7V) =  -0.042 mag ; Chen19(PARSEC,Teff=6280K,logg=4.28; where BCv(Sun)=-0.090) 
 BCv(F7V) = -0.043 mag ; Code76(Teff=6280K)
-=> adopt BCv(F7V) = -0.035 [updated 9/19/2020; adjusted so that BCv(5772K)=-0.085]
-
+BCv(F7V) = -0.045 mag ; EEM fit to Casagrande06/08/10(Teff=6280K)
+=> adopt BCv(F7V) = -0.036 [updated 2/24/2024; adjusted so that BCv(5772K)=-0.085]
 
 M_G(F7V) =  2.42 ; HD_82328_ plx=74.19mas F7V (GaiaDR3)
 M_G(F7V) =  2.80 ; HD_16234_ plx=28.9026mas F7V (GaiaDR3)
@@ -446,7 +451,6 @@ HD 222368 = iot Psc = HIP 116771 = 17 Psc
   => adopt U-B=0.006.  V-Rc=0.298(GCPD/Cousins76_VRIc#1#2),
   R-Ic=0.291(GCPD/Cousins76_VRIc#1#2),
   V-Ic=0.589(GCPD/Cousins76_VRIc#1#2).
-  
   Mv=3.43, dMv=-0.42, par=72.5+-1.1 mas. PASTEL
   compilation has many estimates of Teff, logg, metallicity: <Teff> =
   6185 K (+-23 K sem, +-97 K rms), <logg> = = 4.13 (+-0.04 sem, +-0.20

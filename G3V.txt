@@ -87,10 +87,10 @@ and within 1 mag of the MS (N=241):
 (B-V)(G3V) = 0.653 ; exemplar HD 150248 
 (B-V)(G3V) = 0.653 ; median SIMBAD G3V d<25pc (N=12)
 (B-V)(G3V) = 0.657 ; HD 42618 = HIP 29432 (Koen10) ~solar
-(B-V)(G3V) = 0.657 ; tert. stan. HD 26736 (Hyad)
+(B-V)(G3V) = 0.657 ; tert. stan. HD 26736 (Hyad) ([Fe/H]=+0.15)
 (B-V)(G3V) =  0.66 ; HD_179957_ G3V plx=39.5784mas, Mv=4.5772
 (B-V)(G3V) =  0.66 ; HD_186427_ G3V plx=47.3302mas, Mv=4.5756
-(B-V)(G3V) = 0.661 ; prim. stan. 16 Cyg B
+(B-V)(G3V) = 0.661 ; prim. stan. 16 Cyg B ([Fe/H]=+0.06]
 (B-V)(G3V) = 0.665 ; median CATSUP d<30pc (N=6)
 (B-V)(G3V) = 0.667 ; 17 Gray01/03/06 (+-0.004 sem, +-0.014 stdev; N=17)
 (B-V)(G3V) = 0.67  ; median nearest N=15 G3Vs in SIMBAD 
@@ -105,6 +105,11 @@ and within 1 mag of the MS (N=241):
 (B-V)(G3V) =  0.70 ; HD_123A_ G3V plx=48.1027mas, Mv=4.8308
 (B-V)(G3V) =  0.720 ; deprecated stan. 107 Psc
 => adopt (B-V)(G3V)  = 0.66 [last updated 7/20/2019, linear interp G2V-G5V]
+
+[EEM 4/1/2024: trend for pri & sec standards and adopting field mean metallicity
+of [Fe/H]=-0.04 for the Gray03/06 nearby G3V sample, the color trend is:
+(B-V)(G3V) = 0.6647 - 0.0509*[Fe/H] (rms=0.0006mag!)]
+
 => adopt (V-J)(G3V)  = 1.216
 => adopt (V-H)(G3V)  = 1.514
 => adopt (V-Ks)(G3V) = 1.588
@@ -118,7 +123,7 @@ and within 1 mag of the MS (N=241):
 
 (V-Rc)(G3V) = 0.361 ; HD 42618 = HIP 29432 (Koen10) ~solar
 (V-Rc)(G3V) = 0.365 ; trend B-V vs V-Rc for B-V=0.66
-=> adopt (V-Rc)(G3V) = 0.365 [updated 12/1/2023; V-Ic=0.71, R-Ic=0.345]
+=> adopt (V-Rc)(G3V) = 0.360 [updated 12/1/2023; V-Ic=0.71, R-Ic=0.345]
 
 (R-Ic)(G3V) = 0.347 ; B-V vs R-Ic trend for B-V=0.66
 => adopt (R-Ic)(G3V) = 0.345 [updated 1/15/2023; V-Rc=0.365, V-Ic=0.71]
@@ -127,7 +132,7 @@ and within 1 mag of the MS (N=241):
 (V-Ic)(G3V) = 0.700 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.66
 (V-Ic)(G3V) = 0.705 ; fit to Koen10 d<25pc B-V vs. V-Ic for -0.1<[Fe/H]<0.1 dwarfs in Soubiran22 for B-V=0.660
 (V-Ic)(G3V) = 0.724 ; Gray01/03/06 17 G3Vs (+-0.007 sem, +-0.020 stdev)
-=> adopt (V-Ic)(G3V) = 0.71 [updated 12/1/2023; V-Rc=0.365, R-Ic=0.345]
+=> adopt (V-Ic)(G3V) = 0.705 [updated 12/1/2023; V-Rc=0.365, R-Ic=0.345]
 
 (V-Ks)(G3V) = 1.588 ; B-V vs V-Ks trend for B-V=0.66 
 (V-Ks)(G3V) = 1.570 (+-0.043) ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.660

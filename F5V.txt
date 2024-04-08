@@ -23,7 +23,8 @@ MK78 standard:         HD 27534 - F5V
      		       alf CMi (Procyon) - F5IV-V 
 Keenan85_IAU standard: HD 27534 - F5V 
 Corbally86 standard:   HD 27524 (Cl Melotte 25 35 = vB 35) - F5V (from Morgan65)
-Gray89 standard:       HD 27524 - F5V 
+Gray89 standard:       HD 27524 - F5V (primary stan.)
+                       HD 32065 - F5V m-2 (primary metal-weak stan.)
 GrayAtlas standard:    HD 27524 - F5V
 GrayNstars standard:   HD 27524 - F5V
 	   	       45 Boo (=HR 5634) - F5V
@@ -333,8 +334,10 @@ and within 1 mag of the MS (N=237):
 (g-r)(F5V) =  0.704 +-0.009 ; sec stan. HD 27534 = HIP 20350 (Hyad; [Fe/H]~+0.16) (SDSS DR7; discrepent)
 => adopt (g-r)(F5V) = 0.24 [updated 9/1/2023]
 
-(r-i)(F5V) =  0.030 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.254
-(r-i)(F5V) = -0.357 +-0.012 ; sec stan. HD 27534 = HIP 20350 (Hyad; [Fe/H]~+0.16) (SDSS DR7; discrepent)
+(r-i)(F5V) =  0.042 ; Bilir05 calibration for R-Ic=0.255
+(r-i)(F5V) =  0.031 ; Jordi06 Pop I calibration for R-Ic=0.255
+(r-i)(F5V) =  -0.357 +-0.012 ; sec stan. HD 27534 = HIP 20350 (Hyad; [Fe/H]~+0.16) (SDSS DR7; discrepent)
+=> adopt (r-i)(F5V) = 0.035 [updated 4/1/2024]
 
 (i-z)(F5V) = -0.039 +-0.013 ; sec stan. HD 27534 = HIP 20350 (Hyad; [Fe/H]~+0.16) (SDSS DR7)
 
@@ -373,18 +376,20 @@ Teff(F5V) = 6583 K ; variant stan. Procyon
 [EEM 2/24/2024: standards+exemplar trend: Teff(F5V) = 6510K + 539*[Fe/H] (rms=37K).
 Last estimate 9/11/2020 was Teff=6550K]
 
-BCv(F5V) = +0.049 mag ; Balona94(Teff=6550K)
-BCv(F5V) = +0.033 mag ; Bertone04(ATLAS,Teff=6550K)
+BCv(F5V) = +0.045 mag ; Balona94(Teff=6510K)
+BCv(F5V) = +0.032 mag ; Bertone04(ATLAS,Teff=6510K)
 BCv(F5V) = +0.022 mag ; sec. stan. HD 27534 (Hyad, [Fe/H]~+0.16) calc using vanBelle08 fbol
 BCv(F5V) = +0.008+-0.054 mag ; calc. for Procyon using Aufdenberg05 fbol
-BCv(F5V) = +0.006 mag ; Flower96(Teff=6550K)
+BCv(F5V) = +0.003 mag ; Flower96(Teff=6510K)
 BCv(F5V) =  -0.010 mag ; Schmidt-Kaler82(BCv=-0.14 + 0.13 mag offset)
 BCv(F5V) = -0.016 mag ; Masana06(Teff=6550K)
-BCv(F5V) = -0.018 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6550K)
-BCv(F5V) = -0.022 mag ; Casagrande18(Teff=6550K,logg=4.5)
-BCv(F5V) = -0.027 mag ; Code76(Teff=6550K)
-BCv(F5V) = -0.049 mag ; EEM fit to Casagrande06/08/10(Teff=6570K)
-=> adopt BCv(F5V) = -0.02 [last updated 2/10/2020, adjusted so that BCv(5772K)=-0.085]
+BCv(F5V) = -0.018 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6510K)
+BCv(F5V) = -0.020 mag ; Chen19(PASTEL,Teff=6510K,logg=4.22; adjusted so BCv(Sun)=-0.085)
+BCv(F5V) = -0.024 mag ; Casagrande18(Teff=6510K,logg=4.5)
+BCv(F5V) =  -0.025 mag ; Chen19(PASTEL,Teff=6510K,logg=4.22; where BCv(Sun)=-0.090)
+BCv(F5V) = -0.029 mag ; Code76(Teff=6510K)
+BCv(F5V) = -0.048 mag ; EEM fit to Casagrande06/08/10(Teff=6510K)
+=> adopt BCv(F5V) = -0.020 [last updated 2/24/2024, adjusted so that BCv(5772K)=-0.085]
 
 M_G(F5V) = 2.996 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.36
 

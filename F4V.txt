@@ -152,8 +152,10 @@ and within 1 mag of the MS (N=21):
 (g-r)(F4V) = 0.13  ; Fukugita11
 => adopt (g-r)(F4V) = 0.21 [updated 2/1/2024]
 
-(r-i)(F4V) =  0.015 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.239
-(r-i)(F4V) = -0.11  ; Fukugita11
+(r-i)(F4V) =  0.026 ; Bilir05 calibration for R-Ic=0.24
+(r-i)(F4V) =  0.016 ; Jordi06 Pop I calibration for R-Ic=0.24
+(r-i)(F4V) =  -0.11  ; Fukugita11
+=> adopt (r-i)(F4V) = 0.02 [updated 4/1/2024]
 
 (g-V)(F4V) = 0.128 ; Just08/Chonis08 B-V=>g-V for B-V=0.41
 (g-V)(F4V) = 0.133 ; Jordi06 B-V=>g-V for B-V=0.41
@@ -179,12 +181,14 @@ BCv(F4V) = +0.059 mag ; Balona94(Teff=6670K)
 BCv(F4V) = +0.041 mag ; Bertone04(ATLAS,Teff=6670K)
 BCv(F4V) = +0.013 mag ; Flower96(Teff=6670K)
 BCv(F4V) = -0.010 mag ; Masana06(Teff=6670K)
+BCv(F4V) = -0.012 mag ; Chen19(PASTEL,Teff=6670,logg=4.2; adjusted so that BCv(Sun)=-0.085)
+BCv(F4V) =  -0.017 mag ; Chen19(PASTEL,Teff=6670K,logg=4.2; where BCv(Sun)=-0.090) 
 BCv(F4V) = -0.018 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6670K)
 BCv(F4V) = -0.018 mag ; Casagrande18(Teff=6670K,logg=4.5)
 BCv(F4V) = -0.020 mag ; Code76(Teff=6670K)
 BCv(F4V) = -0.053 mag ; EEM fit to Casagrande06/08/10(Teff=6670K)
 BCv(F4V) =  -0.10 mag ; Habets81
-=> adopt BCv(F4V) = -0.015 [updated 10/30/2020, adjusted so that BCv(5772K)=-0.085]
+=> adopt BCv(F4V) = -0.015 [updated 2/24/2024, adjusted so that BCv(5772K)=-0.085]
 
 Mv(F4V) =   3.68 mag ; Habets81
 Mv(F4V) =  3.44 mag ; exemplar HD 157373 = HIP 84855 ([Fe/H]=-0.42)
@@ -231,14 +235,15 @@ Mass(F4V) = 1.30  Msun ; David15 F4 MS (rms=0.12 Msun; N=129)
 Mass(F4V) =  1.23 Msun ; Habets81
 => adopt Mass(F4V) = 1.38 Msun [updated 9/15/2023]
 
+logg(F4V) = 4.206 ; M=1.38Msun, logL=0.622, Teff=6670K
+=> adopt logg(F4V) = 4.21 [updated 2/24/2024]
+
 # No standard
 
 JM53, Morgan65, MK73, MorganAbt73, Cowley74, Houk75, Cowley76, MK78,
-Keenan85, Corbally86, Gray89, GrayNstars do not list a F4V standard
-(and none in Skiff compendium).  MorganAbt73 lists F3V (B-V=0.40) and
+Keenan85, Corbally86, Gray89, GrayNstars do not list F4V standards
+(and there are none in the Skiff MK compendium).  MorganAbt73 lists F3V (B-V=0.40) and
 F5V (B-V=0.44) standards, but no F4V standards.
-
-Houk does not treat F4 as a full type, and does not list a standard.
 
 Houk lists one F4V star in her catalogs: HD 179512, however this star
 has no other published classifications in the Skiff MK catalog.
@@ -271,7 +276,7 @@ HD 27561 = Cl Melotte 25 37 = HIP 20357 = BD+14_687 = Gaia DR3 33110247899605045
   <Teff>=6675K(N=10), <[Fe/H]>=+0.005, <logg>=4.135(N=5).
   Mv=3.00(HIP,HIP2), dMv=-0.22.  vsini=20.4km/s(Mermilliod09).
 
-# Exemplar
+# Exemplars
 
 HD 152303 = HIP 81854 = HR 6267 = LTT 14974
  *F4V: Cowley76,Cowley79,Wilson50
@@ -292,6 +297,9 @@ HD 160032 = lam Ara = HIP 86486 = GJ 686.2 = HR 6569
  *F4V: Gray89,Gray06 
   F5V: Lu83
 
+  This was the only star classified "F4V" by Gray89 in their classification
+  of F-type stars and attempt to classify metal-poor stars, and Gray89
+  did not have any F4V standards. 
   V=4.75(GCPD/Cousins76_VRIc#2), V=4.76(HIP,TYC),
   V=4.76(GCPD/Cousins76_VRIc#1), V=4.762+-0.006(Mermilliod91),
   V=4.764(Hauck97), B-V=0.401+-0.002(Mermilliod91),
@@ -392,7 +400,7 @@ HD 220729 = HR 8907 = HIP 115713
  *F4V: Gray06,Malaroda75
   F3IV: deVaucoleurs57
 
-others without Gray et al. classifications, but maybe standard-worthy?
+Others stars previously classified F4V before Gray's surveys. 
 
 HD 15138 = HR 709 = 66 And
   F4V: Cowley76,Abt69(F4V+F4V),Appenzeller67
@@ -428,4 +436,14 @@ HD 77370 = HIP 44143
 
   V=5.16(GCPD/Cousins76_VRIc), V-R=0.235(GCPD/Cousins76_VRIc),
   R-Ic=0.23(GCPD/Cousins76_VRIc), V-Ic=0.465(GCPD/Cousins76_VRIc).
-  
+
+HD 200163 = zet Mic = HIP 103882 = HR 8048 = Gaia DR3 6774363993708094720
+  F0: HD
+  F3V: Malaroda75,Houk82
+  F4IV-V_m+0: Gray89
+  F5V: Gray06
+
+  The only star classified "F4IV-V" in the classification of >280
+  F-type stars by Gray89, and they did not use F4 standards. HD 160032
+  was the only star of F4 subtype used by Gray89 (as F4V).
+  GaiaDR3: plx=28.3733+-0.0955(GaiaDR3). 

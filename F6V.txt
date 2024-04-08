@@ -18,7 +18,11 @@ Cowley74 standard:      pi^3 Ori (=HD 30652) - F6V
 Houk75 standard:        gam Ser - F6V (primary standard)
 Cowley76 standard:      pi^3 Ori (=HD 30652) - F6V
                         110 Her - F6V
-Gray89 standard:        pi^3 Ori (=HD 30652) - F6V
+Gray89 standard:        pi^3 Ori (=HD 30652) - F6V (primary stan.) 
+                        HD 172914 - F6V m-2 (primary metal-weak stan.)
+			HD 13847 - F6V m-1.5 (secondary metal-weak stan.)
+			HD 135208 - F6V m-2 (secondary metal-weak stan.)
+			HD 150453 - F6V m-2 (secondary metal-weak stan.) 
 Strassmeier90 standard: gam Ser (HR 5933) - F6V 
 Garrison94 standard:    pi^3 Ori (=HD 30652) - F6V 
 GrayNstars standard:    gam Ser - F6V
@@ -254,10 +258,11 @@ and F7V(B-V=0.50), and is identical to what JohnsonMorgan53 adopted!]
 => adopt (g-r)(F6V) = 0.282 [updated 2/1/2024]
 
 (r-i)(F6V) = 0.027 ; sec. stan. HD 142860 = gam Ser = GJ 603 ([Fe/H]=-0.18)
+(r-i)(F6V) = 0.036 ; Jordi06 Pop I calibration for R-Ic=0.26
+(r-i)(F6V) = 0.047 ; Bilir05 calibration for R-Ic=0.26
 (r-i)(F6V) = 0.047 ; exemplar HD 17206 = 1 Eri = GJ 111 ([Fe/H]=+0.07)
-(r-i)(F6V) = 0.054 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.278
 (r-i)(F6V) = 0.088 ; Davenport14 g-r vs r-i locus for g-r=0.282
-=> adopt (r-i)(F6V) = 0.05 [updated 2/1/2024]
+=> adopt (r-i)(F6V) = 0.05 [updated 4/1/2024]
 
 (i-z)(F6V) = 0.000 ; Davenport14 g-r vs i-z locus for g-r=0.282
 
@@ -285,16 +290,18 @@ Teff(F6V) =  6582 +- 64 K ; vanBelle09
 [EEM 2/17/2024: trend for 2 standards: Teff(F6V) = 6420K + 752*[Fe/H]
     trend for 2 standards+3 exemplars: Teff(F6V) = 6383K + 229*[Fe/H] (rms=67K)] 
 
-BCv(F6V) = +0.029 mag ; Balona94(Teff=6360K)
-BCv(F6V) = +0.025 mag ; Bertone04(ATLAS,Teff=6360K)
-BCv(F6V) = -0.009 mag ; Flower96(Teff=6360K)
-BCv(F6V) = -0.025 mag ; Masana06(Teff=6360K)
-BCv(F6V) = -0.029 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6360K)
-BCv(F6V) = -0.031 mag ; Casagrande18(Teff=6360K)
-BCv(F6V) = -0.038 mag ; Code76(Teff=6360K)
-BCv(F6V) = -0.045 mag ; EEM fit to Casagrande06/08/10(Teff=6360K)
+BCv(F6V) =  +0.032 mag ; Balona94(Teff=6390K)
+BCv(F6V) =  +0.027 mag ; Bertone04(ATLAS,Teff=6390K)
+BCv(F6V) =  -0.006 mag ; Flower96(Teff=6390K)
+BCv(F6V) =  -0.024 mag ; Masana06(Teff=6390K)
+BCv(F6V) = -0.026 mag ; Chen19(PARSEC,Teff=6390K,logg=4.26; adjusted so BCv(Sun)=-0.085) 
+BCv(F6V) =  -0.027 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6390K)
+BCv(F6V) = -0.029 mag ; Casagrande18(Teff=6390K)
+BCv(F6V) =  -0.031 mag ; Chen19(PARSEC,Teff=6390K,logg=4.26; where BCv(Sun)=-0.090) 
+BCv(F6V) =  -0.036 mag ; Code76(Teff=6390K)
+BCv(F6V) =  -0.045 mag ; EEM fit to Casagrande06/08/10(Teff=6390K)
 BCv(F6V) =  -0.15 mag ; Habets81
-=> adopt BCv(F6V) = -0.03 [last updated 8/31/2019, adjusted so that BCv(5772K)=-0.085]
+=> adopt BCv(F6V) = -0.027 [last updated 2/24/2024, adjusted so that BCv(5772K)=-0.085]
 
 M_G(F6V) = 2.996 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.36
 M_G(F6V) = 3.566 ; pri. stan. HD 30652 = pi03 Ori ([Fe/H]=+0.03)

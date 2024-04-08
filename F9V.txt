@@ -29,14 +29,14 @@ Garrison72 standard:    bet Vir - F9V
 MK73 dagger standards:  bet Vir - F9V (dagger; Table 1)
      	    	        55 Tau (=HD 27383) - F9V (dagger; Table 1)
 MorganAbt73 standards:  bet Vir - F9V 
-	    	        55 Tau (=HD 27383) - F9V
-		        HD 27691 - F9V (and lists all three with B-V=0.56). 
+	    	        55 Tau (HD 27383 = VB 29) - F9V
+		        HD 27691 (=VB 40) - F9V (and lists all three with B-V=0.56). 
 Houk75 standard:        bet Vir - F9V (but considered F8V until MK73)
 Cowley76 standards:     bet Vir - F9V
 		        chi Her - F9V 
 Keenan83 standard:      10 Tau (=HD 22484) - F9IV-V
-Keenan85_IAU standard:  HR 7162 (="BS 7162") - F9V 
-KeenanYorka85 stans:    HR 7162 (="BS 7162") - F9V
+Keenan85_IAU standard:  HR 7162 (="BS 7162" = HD 176051) - F9V 
+KeenanYorka85 stans:    HR 7162 (="BS 7162" = HD 176051) - F9V
                         eta Cas A - F9V
 			HD 10647  - F9V
 			10 Tau (=HD 22484) - F9IV-V
@@ -45,7 +45,12 @@ Keenan88 standards:     HD 10647  - F9V
                         eta Cas A - F9V
 Keenan89 standards:     HD 10647  - F9V
                         10 Tau (=HD 22484) - F9IV-V
-Gray89 standard:        55 Tau (=HD 27383) - F9V
+Gray89 standards:       55 Tau (=HD 27383) - F9V (primary stan.)
+                        HD 223400 - F9V m-1 (primary metal-weak stan.)
+			HD 25704 - F9V m-2 (primary metal-weak stan.)
+			HD 102200 - F9V m-4 (primary metal-weak stan.)
+			HD 3823 - F9V m-1 (secondary metal-weak stan.)
+			HD 48938 - F9V m-1 (secondary metal-weak stan.)
 Strassmeier90 standard: bet Vir - F9V 
 Keenan99 standards:     eta Cas A, HD 10647, HD 84117 (all sec. stands.) - F9V
 GrayNstars standards:   eta Cas A, HD 10647 (=HR 506) - F9V
@@ -316,11 +321,12 @@ Trend: B-V(F9V) = 0.552 + 0.0164*[Fe/H] (rms=0.0172mag)]
 (g-r)(F9V) = 0.334 ; pri. stan. HD 10647 = q01 Eri = GJ 3109 = HIP 7978 = HR 506 ([Fe/H]=-0.04)
 => adopt (g-r)(F9V) = 0.37 [updated 2/1/2024]
 
-(r-i)(F9V) = 0.082 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.307
+(r-i)(F9V) = 0.085 ; Jordi06 Pop I calibration for R-Ic=0.31
 (r-i)(F9V) = 0.093 ; exemplar HD 7570 = nu Phe = HR 370 ([Fe/H]=+0.16)
+(r-i)(F9V) = 0.099 ; Bilir05 calibration for R-Ic=0.31
 (r-i)(F9V) = 0.10  ; Fukugita11
 (r-i)(F9V) = 0.133 ; Davenport14 g-r vs r-i locus for g-r=0.37 
-=> adopt (r-i)(F9V) = 0.10 [updated 2/1/2024]
+=> adopt (r-i)(F9V) = 0.10 [updated 4/1/2024]
 
 (i-z)(F9V) = 0.020 ; Davenport14 g-r vs i-z locus for g-r=0.37
 
@@ -354,16 +360,18 @@ Teff(F9V) = 6163 K ; ter. stan. HD 84117 = GJ 364 = HIP 47592 = HR 3862 ([Fe/H]=
 [EEM 12/1/2023: not great agreement - standards are hot/blue near ~6150K, means for field [Fe/H]~0.0 F9Vs are ~6030-6100K.
 EEM 1/10/2024: trend standards+exemplars: Teff(F9V) = 6103K + 28K*[Fe/H] (rms=64K)]
 
-BCv(F9V) = -0.019 mag ; Balona94(Teff=6060K)
-BCv(F9V) = -0.021 mag ; Bertone04(Teff=6060K,ATLAS)
+BCv(F9V) = -0.013 mag ; Balona94(Teff=6090K)
+BCv(F9V) = -0.016 mag ; Bertone04(Teff=6090K,ATLAS)
 BCv(F9V) =  -0.040 mag ; Schmidt-Kaler82(BCv=-0.17 + 0.13 offset)
-BCv(F9V) = -0.041 mag ; Flower96(Teff=6060K)
-BCv(F9V) = -0.049 mag ; Masana06(Teff=6060K)
-BCv(F9V) = -0.052 mag ; Casagrande18(Teff=6060K,logg=4.5)
-BCv(F9V) = -0.052 mag ; EEM fit to Casagrande06/08/10(Teff=6060K)
-BCv(F9V) = -0.053 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6060K)
-BCv(F9V) = -0.056 mag ; Code76(Teff=6060K)
-=> adopt BCv(F9V) = -0.05 mag [last updated 8/31/2019; adjusted so that BCv(5772K)=-0.085]
+BCv(F9V) = -0.037 mag ; Flower96(Teff=6090K)
+BCv(F9V) = -0.046 mag ; Masana06(Teff=6090K)
+BCv(F9V) = -0.048 mag ; Chen19(PARSEC,Teff=6090K,logg=4.34, adjusted so BCv(Sun)=-0.085)
+BCv(F9V) = -0.049 mag ; Casagrande18(Teff=6090K,logg=4.5)
+BCv(F9V) = -0.050 mag ; EEM fit to Casagrande06/08/10(Teff=6090K)
+BCv(F9V) = -0.051 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6090K)
+BCv(F9V) =  -0.053 mag ; Chen19(PARSEC,Teff=6090K,logg=4.34, where BCv(Sun)=-0.090)
+BCv(F9V) = -0.054 mag ; Code76(Teff=6090K)
+=> adopt BCv(F9V) = -0.048 mag [last updated 2/24/2024; adjusted so that BCv(5772K)=-0.085]
 
 M_G(F9V) = 3.322 ; polynomial fit to CNS5 dwarfs for (G-Rp)=0.39 (GaiaDR2)
 
@@ -744,7 +752,7 @@ HD 102870 = bet Vir = HIP 57757 = HR 4540
   F7V: 1959AnTou..27...47B 
   F8V: 1919AnHar..94.....C(stan.;F8),Adams35,MK43,Morgan53,Bidelman85(F8)
  *F8.5IV-V: Gray01
-  F9V: Garrison72(stan),MK73(dagger),MorganAbt73,Cowley76(stan),HoukStandard,Houk99
+  F9V: Garrison72(stan),MK73(dagger),MorganAbt73(stan),Cowley76(stan),HoukStandard,Houk99
 
   Yet another 'standard' near F/G boundary that vascillated between
   expert classifiers over the decades.  I would feel better about its
@@ -753,10 +761,45 @@ HD 102870 = bet Vir = HIP 57757 = HR 4540
   and Keenan ignored it in his 1980s compilations that included late
   Fs. It appears to be much bluer than other F9Vs in Houk (although
   late Fs & Gs may be off in Houk). Basically F9V from MK73 onward
-  (until Gray01).  V=3.59(HIP), V=3.63(JohnsonMorgan53),
-  B-V=0.518(HIP), B-V=0.54(JohnsonMorgan53),
-  U-B=0.10(JohnsonMorgan53), Mv=3.40, dMv=-0.53, par=91.7+-0.9
-  mas. Soubiran22/PASTEL mean values: Teff=6123+-9K(N=45),
+  (until Gray01).
+  V=3.59(HIP),
+  V=3.590+-0.005(ASCC/Kharchenko09), 
+  V=3.598(Gutierrez-Moreno66,N=12),
+  V=3.60(Johnson66,N=9),
+  V=3.60(TYC), 
+  V=3.600+-0.012(Cousins71/stan), 
+  V=3.608+-0.009(Mermilliod91,N>276), 
+  V=3.609(Jerzykiewicz66,N=105),
+  V=3.61(Serkowski61,N=62),
+  V=3.61(Johnson54,N=9),
+  V=3.62(vandenBergh67,N=8), 
+  V=3.63(JohnsonMorgan53),
+  V=3.63(Nikonov57,N=8) => adopt V=3.608. 
+  
+  B-V=0.518(HIP),
+  B-V=0.52(Nikonov57,N=8), 
+  B-V=0.54(JohnsonMorgan53),
+  B-V=0.55(Jerzykiewicz66,N=105),
+  B-V=0.55(Serkowski61,N=62),
+  B-V=0.55(Johnson66,N=9),
+  B-V=0.55(Johnson54,N=9),
+  B-V=0.552+-0.008(Mermilliod91,N>276),
+  B-V=0.560+-0.008(Cousins71/stan),
+  B-V=0.560+-0.004(TYC), 
+  B-V=0.565(Gutierrez-Moreno66,N=12),
+  B-V=0.57(vandenBergh67,N=8)
+  => adopt B-V=0.552.
+  
+  U-B=0.10(JohnsonMorgan53),
+  U-B=0.10(Johnson54,N=9),
+  U-B=0.10(vandenBergh67,N=8),
+  U-B=0.10(Cousins71/stan),
+  U-B=0.102+-0.011(Mermilliod91,N>90),
+  U-B=0.11(Johnson66,N=9), 
+  U-B=0.115(Gutierrez-Moreno66,N=12) => adopt U-B=0.102.
+  2MASS photometry is poor, flagged "DDD". 
+  GaiaDR3: plx=90.8945+-0.1934mas(GaiaDR3), G=3.468565+-0.003247(GaiaDR3) => Mv=3.40, M_G=3.26.
+  Soubiran22/PASTEL mean values: Teff=6123+-9K(N=45),
   logg=4.13+-0.02(N=31), [Fe/H]=+0.13+-0.01(N=33).
 
 HD 27691 = Cl* Melotte 25 RG 10

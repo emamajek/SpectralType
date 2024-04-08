@@ -52,7 +52,7 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 (B-V)(G5V) = 0.69  ; median CATSUP d<30pc sample (N=24)
 (B-V)(G5V) = 0.693 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.16)
 (B-V)(G5V) = 0.70  ; Wilson62(N=3) Hyades
-(B-V)(G5V) = 0.702 ; ter. stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
+(B-V)(G5V) =  0.702 ; deprecated stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
 (B-V)(G5V) =  0.704 ; HD_113283_ G5V plx=40.4757mas, Mv=5.1789
 (B-V)(G5V) = 0.706 ; median SIMBAD G5V d<25pc (N=18)
 (B-V)(G5V) =  0.71 ; HD_50806_ G5V plx=38.7983mas, Mv=3.9840
@@ -60,11 +60,9 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 (B-V)(G5V) =  0.767 ; HD_36435_ G5V plx=51.3371mas, Mv=5.5351
 (B-V)(G5V) =  0.78 ; HD_76218_ G5V plx=39.3867mas, Mv=5.6567
 (B-V)(G5V) =   0.88 ; HD_59747_ G5V plx=48.3563mas, Mv=6.1222 (K1V(k) in Gray03)
-=> adopt (B-V)(G5V)  = 0.680 [updated 2/24/2024]
-=> adopt (V-J)(G5V)  = 1.249
-=> adopt (V-H)(G5V)  = 1.559
-=> adopt (H-Ks)(G5V) = 0.076
-=> adopt (J-H)(G5V)  = 0.310
+=> adopt (B-V)(G5V)  = 0.680 [updated 4/1/2024]
+[EEM 4/1/2024: fit to two standards + Gray field G5Vs (adopting <[Fe/H]>=-0.04):
+          (B-V)(G5V) = 0.677 + 0.11835*[Fe/H] (rms=0.003)
 
 (U-B)(G5V) =  0.188 ; HIP d<75pc S/N>8 G5V N=135 (Mermilliod91 photometry)
 (U-B)(G5V) = 0.188 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
@@ -80,17 +78,19 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 (V-Rc)(G5V) = 0.368 ; trend B-V vs V-Rc for B-V=0.680
 (V-Rc)(G5V) =  0.370 ; Johnson68 V-Rj=0.54 transformed to V-Rc via Fernie83
 (V-Rc)(G5V) = 0.372 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40)
+(V-Rc)(G5V) = 0.380 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)
 (V-Rc)(G5V) = 0.382 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04) (Just08) 
 (V-Rc)(G5V) =  0.384 ; HIP 71855 (Koen10)
 (V-Rc)(G5V) =  0.386 ; HIP 50921 (Koen10)
-(V-Rc)(G5V) = 0.393 ; ter. stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
-=> adopt (V-Rc)(G5V) = 0.37 [updated 12/1/2023; V-Ic=0.725, R-Ic=0.355]
+(V-Rc)(G5V) =  0.393 ; deprecated stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
+=> adopt (V-Rc)(G5V) = 0.38 [updated 4/1/2024; V-Ic=0.73, R-Ic=0.35]
 
 (R-Ic)(G5V) = 0.340 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04) (Just08)
 (R-Ic)(G5V) = 0.354 ; B-V vs R-Ic trend for B-V=0.68
+(R-Ic)(G5V) = 0.357 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) 
 (R-Ic)(G5V) = 0.368 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40)
-(R-Ic)(G5V) = 0.382 ; ter. stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
-=> adopt (R-Ic)(G5V) = 0.355 [updated 12/1/2023; V-Ic=0.725, V-Rc=0.37]
+(R-Ic)(G5V) =  0.382 ; deprecated stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
+=> adopt (R-Ic)(G5V) = 0.35 [updated 4/1/2024; V-Ic=0.73, V-Rc=0.38]
 
 (V-Ij)(G5V) = 0.89 ; Johnson68 
 
@@ -100,59 +100,75 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 (V-Ic)(G5V) = 0.722 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
 (V-Ic)(G5V) = 0.728 ; Gray01/03/06 N=55 G5Vs (+-0.004 sem, +-0.030 stdev)
 (V-Ic)(G5V) =  0.730 ; HIP 64690 (Koen10)
+(V-Ic)(G5V) = 0.737 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)
 (V-Ic)(G5V) =  0.731 ; HIP 50921 (Koen10)
 (V-Ic)(G5V) = 0.740 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40)
 (V-Ic)(G5V) =  0.750 ; HIP 71855 (Koen10)
-(V-Ic)(G5V) = 0.775 ; ter. stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
-=> adopt (V-Ic)(G5V) = 0.725 [updated 12/1/2023; V-Rc=0.37, R-Ic=0.355]
+(V-Ic)(G5V) =  0.775 ; deprecated stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
+=> adopt (V-Ic)(G5V) = 0.73 [updated 4/1/2024; V-Rc=0.38, R-Ic=0.35]
 
 (V-Jj)(G5V) = 1.14 ; Johnson66,Johnson68
 
+(V-J)(G5V) = 1.234 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
 (V-J)(G5V) = 1.235 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
+(V-J)(G5V) = 1.249 ; color trend B-V vs V-J for B-V=0.68
+=> adopt (V-J)(G5V) = 1.24 [updated 4/1/2024]
 
 (V-Hj)(G5V) = 1.46 ; Johnson68
 
 (V-H)(G5V) = 1.491 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
+(V-H)(G5V) = 1.534 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)
+(V-H)(G5V) = 1.559 ; color trend B-V vs V-J for B-V=0.68
+=> adopt (V-H)(G5V) = 1.53 [updated 4/1/2024]
 
 (V-Kj)(G5V) = 1.49 ; Johnson66
 (V-Kj)(G5V) = 1.53 ; Johnson68
 
 (V-Ks)(G5V) = 1.601 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04) 
 (V-Ks)(G5V) =  1.615 +- 0.043 ; B-V vs. V-Ks for XHIP d<50pc G dwarfs (-0.1<[Fe/H]<0.1) for B-V=0.680
+(V-Ks)(G5V) = 1.625 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)
 (V-Ks)(G5V) =  1.628 ; exemplar HD 13507 = HIP 10321 = V450 And ([Fe/H]=-0.02)
 (V-Ks)(G5V) = 1.635 ; color trend for B-V=0.680
 (V-Ks)(G5V) =  1.642 ; exemplar HD 63433 = HIP 38228 ([Fe/H]=-0.005)
 (V-Ks)(G5V) =  1.734 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40)
 (V-Ks)(G5V) =  1.770 ; ter. stan. HD 120690 = HR 5209 ([Fe/H]=+0.02)
-=> adopt (V-Ks)(G5V) = 1.635 [updated 12/30/2020]
+=> adopt (V-Ks)(G5V) = 1.63 [updated 4/1/2024]
 
 (J-H)(G5V) = 0.255 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
+(J-H)(G5V) = 0.300 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)
+(J-H)(G5V) = 0.310 ; color trend B-V vs J-H for B-V=0.68
+=> adopt (J-H)(G5V) = 0.31 [updated 4/1/2024]
 
+(H-Ks)(G5V) = 0.076 ; color trend B-V vs H-Ks for B-V=0.68
+(H-Ks)(G5V) = 0.091 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)
 (H-Ks)(G5V) = 0.110 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
 
 (J-Ks)(G5V) = 0.366 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
 
-(G-Ks)(G5V) = 1.42 ; median for Kirkpatrick24 G5Vs d<20pc (N=3)
+(G-Ks)(G5V) = 1.42  ; median for Kirkpatrick24 G5Vs d<20pc (N=3)
+(G-Ks)(G5V) = 1.479 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3,2MASS)
 
-(G-V)(G5V) =  -0.204 ; HD 113283 PM* G5V
-(G-V)(G5V) =  -0.194 ; HD 36435 PM* G5V
-(G-V)(G5V) =  -0.188 ; HD 203244 PM* G5V
-(G-V)(G5V) =  -0.183 ; HD 149612 PM* G5VFe-1.2CH-0.9
-(G-V)(G5V) =  -0.183 ; HD 51419 PM* G5VFe-1
-(G-V)(G5V) =  -0.180 ; HD 90156 PM* G5V
-(G-V)(G5V) =  -0.180 ; HD 10086 PM* G5V
-(G-V)(G5V) = -0.179 ; G dwarf trend for G5V
-(G-V)(G5V) =  -0.175 ; HD 4915 PM* G5V
-(G-V)(G5V) =  -0.172 ; HD 127334 PM* G5VCH0.3
-(G-V)(G5V) =  -0.167 ; HD 202628 PM* G5V
+(G-V)(G5V) =  -0.204 ; HD 113283 PM* G5V (GaiaDR2)
+(G-V)(G5V) =  -0.194 ; HD 36435 PM* G5V (GaiaDR2)
+(G-V)(G5V) =  -0.188 ; HD 203244 PM* G5V (GaiaDR2)
+(G-V)(G5V) =  -0.183 ; HD 149612 PM* G5VFe-1.2CH-0.9 (GaiaDR2)
+(G-V)(G5V) =  -0.183 ; HD 51419 PM* G5VFe-1 (GaiaDR2)
+(G-V)(G5V) =  -0.180 ; HD 90156 PM* G5V (GaiaDR2)
+(G-V)(G5V) =  -0.180 ; HD 10086 PM* G5V (GaiaDR2)
+(G-V)(G5V) = -0.179 ; G dwarf trend for G5V (GaiaDR2)
+(G-V)(G5V) =  -0.175 ; HD 4915 PM* G5V (GaiaDR2)
+(G-V)(G5V) =  -0.172 ; HD 127334 PM* G5VCH0.3 (GaiaDR2)
+(G-V)(G5V) =  -0.167 ; HD 202628 PM* G5V (GaiaDR2)
 (G-V)(G5V) =  -0.166 ; exemplar HD 13507 = HIP 10321 = V450 And ([Fe/H]=-0.02) EDR3
-(G-V)(G5V) =  -0.166 ; HD 197076 PM* G5V
+(G-V)(G5V) =  -0.166 ; HD 197076 PM* G5V (GaiaDR2)
 (G-V)(G5V) =  -0.163 ; exemplar HD 63433 = HIP 38228 ([Fe/H]=-0.005) EDR3
-(G-V)(G5V) =  -0.160 ; HD 20407 PM* G5VFe-1.2CH-1
-(G-V)(G5V) = -0.160  ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5660K (GaiaDR3 Gmags,SIMBAD Vmags)
-(G-V)(G5V) =  -0.149 ; HD 147513 PM* G5V
-=> adopt (G-V)(G5V) = -0.179 [updated 11/1/2020]
+(G-V)(G5V) =  -0.160 ; HD 20407 PM* G5VFe-1.2CH-1 (GaiaDR2)
+(G-V)(G5V) =  -0.149 ; HD 147513 PM* G5V (GaiaDR2)
+=> adopt (G-V)(G5V) = -0.179 [updated 11/1/2020] (GaiaDR2)
 
+(G-V)(G5V) = -0.146 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+(G-V)(G5V) = -0.160 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5660K (GaiaDR3 Gmags,SIMBAD Vmags)
+=> adopt (G-V)(G5V) = -0.160 [updated 4/1/2023] (GaiaDR3)
 
 For G5V Hipparcos stars within 75pc, with parallax S/N > 8, 
 and within 1 mag of the MS (N=13):
@@ -167,9 +183,16 @@ and within 1 mag of the MS (N=13):
 <V-Vt>(G5V)  =-0.075 (+-0.001 sem, +-0.017 stdev; N=360) 
 <B-K>(G5V)   = 2.306 (+-0.007 sem, +-0.115 stdev; N=360)
 
-
+(Ks-W1)(G5V) = 0.056 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) 
 (Ks-W1)(G5V) = 0.062 ; EEM trend for d<30pc for B-V=0.68
 => adopt (Ks-W1)(G5V) = 0.062 [updated 12/29/2019]
+
+(W1-W2)(G5V) = -0.019 +-0.043 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)
+
+(W1-W3)(G5V) = -0.028 +-0.041 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)
+
+(W1-W4)(G5V) = -0.231 +-0.113 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+  
 
 (Bp-Rp)(G5V) =  0.840 ; kap_Cet (GaiaDR2)
 (Bp-Rp)(G5V) =  0.844 ; exemplar HD 13507 = HIP 10321 = V450 And ([Fe/H]=-0.02) EDR3
@@ -183,6 +206,8 @@ and within 1 mag of the MS (N=13):
 (Bp-Rp)(G5V) =  0.900 ; HD_120690 (GaiaDR2)
 => adopt (Bp-Rp)(G5V) = 0.87 [updated 11/15/2020] (GaiaDR2)
 
+(Bp-Rp)(G5V) =  0.8635 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+ 
 (G-T)(G4V) = 0.455 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.87
 => (G-T)(G4V) = 0.455 [updated 10/8/2023] (GaiaDR2)
 
@@ -197,6 +222,8 @@ and within 1 mag of the MS (N=13):
 (Bp-G)(G5V) =  0.422 ; pri. stan. kap_Cet (GaiaDR2)
 => adopt (Bp-Rp)(G5V) = 0.375 [updated 11/22/2020]
 
+(Bp-G)(G5V) =  0.3432 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+
 (G-Rp)(G5V) =  0.417 ; pri. stan. kap_Cet (GaiaDR2)
 (G-Rp)(G5V) =  0.483 ; exemplar HD 110619 = HIP 62107 ([Fe/H]=-0.41) (GaiaDR2)
 (G-Rp)(G5V) = 0.495  ; Bp-Rp=0.87, Bp-G=0.38 (GaiaDR2)
@@ -208,24 +235,40 @@ and within 1 mag of the MS (N=13):
 (G-Rp)(G5V) =  0.514 ; exemplar HD 63433 = HIP 38228 (EDR3) ([Fe/H]=-0.005)
 => adopt (G-Rp)(G5V) = 0.495 [updated 11/22/2020]
 
-(u-g)(G5V) = 1.29 ; Fukugita11 
+(G-Rp)(G5V) =  0.5203 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+
+(g-G)(G5V) = 0.940 +-0.003 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS-GaiaDR3)
+
+(u-g)(G5V) = 1.29          ; Fukugita11
+(u-g)(G5V) = 1.528 +-0.001 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS DR9)
+    
 
 (g-r)(G5V) = 0.48  ; Fukugita11 
 (g-r)(G5V) = 0.49  ; Covey07
 (g-r)(G5V) = 0.490 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04) (Just08)
 (g-r)(G5V) = 0.496 ; Just08/Chonis08 B-V=>g-r for B-V=0.68
-(g-r)(G5V) = 0.497 ; Jordi06 (V-R)=>(g-r) for V-R=0.377
+(g-r)(G5V) = 0.502 ; Jordi06 (V-R)=>(g-r) for V-Rc=0.38
 (g-r)(G5V) = 0.513 ; Bilir05 (B-V)=>(g-r) for B-V=0.680
-=> adopt (g-r)(G5V) = 0.493 [updated 2/1/2024]
+(g-r)(G5V) =  0.778 +-0.001 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS DR9)
+=> adopt (g-r)(G5V) = 0.50 [updated 4/1/2024]
 
 (r-i)(G5V) = 0.118 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04) (Just08)
-(r-i)(G5V) = 0.130 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.355
-(r-i)(G5V) = 0.14  ; Fukugita11 
-=> adopt (r-i)(G5V) = 0.13 [updated 2/1/2024]
+(r-i)(G5V) = 0.119 +-0.001 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS DR9)
+(r-i)(G5V) = 0.125 ; Jordi06 Pop I for R-Ic=0.35
+(r-i)(G5V) = 0.14  ; Fukugita11
+(r-i)(G5V) = 0.141 ; Bilir05 calibration for R-Ic=0.35
+=> adopt (r-i)(G5V) = 0.125 [updated 4/1/2024]
+
+(i-z)(G5V) = -1.197 +-0.001 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS DR9)
+   
 
 (g-V)(G5V) = 0.302 ; Just08/Chonis08 B-V=>g-V for B-V=0.68
 (g-V)(G5V) = 0.304 ; Jordi06 B-V=>g-V for B-V=0.68
+(g-V)(G5V) =  0.794 +-0.010 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS-Johnson)
 => adopt (g-V)(G5V) = 0.303 [updated 9/1/2023]
+
+(z-J)(G5V) = 2.328 +-0.029 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS-2MASS)
+    
 
 Teff(G5V) =  5470 K ; Blackwell80
 Teff(G5V) =  5507 +- 105 K ; vanBelle09
@@ -269,6 +312,7 @@ M_G(G5V) = 4.6797 ; HD_197076_ plx=47.7457mas G5V  (GaiaDR3)
 M_G(G5V) = 4.7157 ; HD_202628_ plx=42.0274mas G5V  (GaiaDR3)
 M_G(G5V) = 4.8196 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04) plx=107.8023mas G5V (GaiaDR3)
 M_G(G5V) = 4.8364 ; HD_10086_ plx=47.5821mas G5V  (GaiaDR3)
+M_G(G5V) = 4.8495 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
 M_G(G5V) = 4.9235 ; HD_42807_ plx=53.7653mas G5V  (GaiaDR3)
 M_G(G5V) = 4.9275 ; ter. stan. HD_120690_ plx=53.8785mas G5Va  (GaiaDR3) (Fe/H~solar)
 M_G(G5V) = 4.9497 ; HD_111395_ plx=58.4858mas G5V  (GaiaDR3)
@@ -288,7 +332,6 @@ Mv(G5V) =  5.25 mag ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40)
 Mv(G5V) = 5.24 mag ; median SIMBAD G5V d<25pc (N=18)
 Mv(G5V) =   5.2 mag ; GrayCorbally09
 Mv(G5V) = 5.15 mag ; exemplar HD 63433 = HIP 38228 ([Fe/H]=-0.005)
-Mv(G5V) = 5.12 mag ; ter. stan. HD 26756
 Mv(G5V) =   5.1 mag ; Schmidt-Kaler82
 Mv(G5V) = 5.09 mag ; ter. stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
 Mv(G5V) = 5.09 mag ; exemplar HD 13507 = HIP 10321 ([Fe/H]=-0.02)
@@ -296,12 +339,15 @@ Mv(G5V) = 5.04 mag ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
 Mv(G5V) = 5.04 mag ; median XHIP G8V d<20pc (N=7, median is kap Cet)
 Mv(G5V) = 5.02 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=0.680
 Mv(G5V) = 5.00 mag ; B-V=0.680 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(G5V) = 5.00 mag ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
 Mv(G5V) = 4.98 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.68
 Mv(G5V) =  4.98 mag ; B-V=0.680 => Mv(Wright05)
 Mv(G5V) =   4.53 mag ; Wegner07
 => adopt Mv(G5V)   = 4.98 mag  [updated 9/26/2020]
 => adopt M_G(G5V)  = 4.801 mag [updated 12/10/2020] (Mv=4.98, G-V=-0.179)
 => adopt M_Ks(G5V) = 3.345 mag [updated 12/30/2020] (Mv=4.98, V-Ks=1.635)
+
+M_Ks(G5V) = 3.37 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) 
 
 logL(G5V) = -0.054 dex ; Mv=4.98, BCv=-0.105 => Mbol = 4.875
 => adopt logL(G5V) = -0.054 [updated 9/26/2020]
@@ -334,100 +380,123 @@ HD 20630 = kap Cet = GJ 137 = HIP 15457 = HR 996 = kap01 Cet = 96 Cet = BD+02 51
  *G5V: Adams35,MK43,JM53,Wilson62(stan,JM53),Morgan65,KeenanMcNeil76(stan),Keenan85_IAU,KeenanYorka85,Keenan88,Keenan89,Garrison94,Keenan99,Houk,GrayAtlas,Gray01
   G8IV: 1972AbaOB..43..109W
 
-  Garrison94 lists kap Cet as the G5V anchor standard, essentially pinning the middle of
-  the G-type dwarfs.
-  Solar-ish metallicity and younger and more active than Sun (logR'HK = -4.45 ;
-  Rocha-Pinto+1998), and slightly higher surface gravity. 8th mag interloper companion at WDS (STT 557 AB)
-  at separation 263".
-  V=4.82(Johnson54),
-  V=4.82(Bessell90,GCPD/Cousins76_VRIc#2), 
-  V=4.83(Argue66),
-  V=4.834+-0.011(Mermilliod91),
-  V=4.84(HIP),
-  V=4.84(Johnson66),
-  V=4.844(Gutierrez-Moreno66),
-  V=4.845(Cousins71),
-  V=4.845(Cousins80,GCPD/Cousins76_VRIc#1), 
-  V=4.85(TYC),
+  Garrison94 lists kap Cet as the G5V anchor standard, essentially
+  pinning the middle of the G-type dwarfs.  Solar-ish metallicity and
+  younger and more active than Sun (logR'HK = -4.45 ;
+  Rocha-Pinto+1998), and slightly higher surface gravity. 8th mag
+  interloper companion at WDS (STT 557 AB) at separation 263".
+  V=4.82(Johnson54), V=4.82(Bessell90,GCPD/Cousins76_VRIc#2),
+  V=4.83(Argue66), V=4.834+-0.011(Mermilliod91), V=4.84(HIP),
+  V=4.84(Johnson66), V=4.844(Gutierrez-Moreno66), V=4.845(Cousins71),
+  V=4.845(Cousins80,GCPD/Cousins76_VRIc#1), V=4.85(TYC),
   V=4.85(Nekrasova62) => adopt V=4.84.  B-V=0.67(Argue66),
-  B-V=0.675(Just08),
-  B-V=0.68(Johnson66),
-  B-V=0.68(Johnson54),
-  B-V=0.68(Nekrasova62),
-  B-V=0.68(Bessell90), 
-  B-V=0.680+-0.006(Cousins71),
-  B-V=0.681+-0.006(HIP,Mermillliod91),
+  B-V=0.675(Just08), B-V=0.68(Johnson66), B-V=0.68(Johnson54),
+  B-V=0.68(Nekrasova62), B-V=0.68(Bessell90),
+  B-V=0.680+-0.006(Cousins71), B-V=0.681+-0.006(HIP,Mermillliod91),
   B-V=0.690(Gutierrez-Moreno66) => adopt B-V=0.680.
-  U-B=0.18(Argue66),
-  U-B=0.18(Johnson54),
-  U-B=0.188+-0.008(Mermilliod91),
-  U-B=0.19(Johnson66),
-  U-B=0.198(Gutierrez-Moreno66),
-  U-B=0.20(Cousins71) => adopt U-B=0.188.
-  V-Rc=0.380(Just08),
-  V-Rc=0.382(Bessell90,GCPD/Cousins76_VRIc#2), 
-  V-Rc=0.385(Cousins80,GCPD/Cousins76_VRIc#1) => adopt V-Rc=0.382. 
-  R-Ic=0.336(Just08),
-  R-Ic=0.34(Bessell90,GCPD/Cousins76_VRIc#2), 
-  R-Ic=0.345(Cousins80,GCPD/Cousins76_VRIc#1) => adopt R-Ic=0.34. 
-  V-Ic=0.716(Just08),
-  V-Ic=0.722(Bessell90,GCPD/Cousins76_VRIc#2), 
-  V-Ic=0.730(Cousins80,GCPD/Cousins76_VRIc#1), 
-  V-Ic=0.73+-0.02(HIP) => adopt V-Ic=0.722. 
-  g-r=0.490(Just08),
-  r-i=0.118(Just08),
-  2MASS photometry is flagged "CCC", with JHKs
-  errors of ~0.2 mag.  J=3.64(Selby88,Blackwell90),
-  J=3.65(Allen83/AAO), J=3.673(Bouchet91/ESO), J=3.71(Arribas89),
-  H=3.35(Allen83/AAO), H=3.35(Arribas89), H=3.362(Bouchet91/ESO),
-  K=3.27(Allen83/AAO), K=3.27(Selby88,Blackwell90),
-  K=3.282(Bouchet91/ESO), K=3.34(Arribas89).  Converting ESO/Bouchet91
-  photometry to 2MASS via Carpenter01: J=3.605(Bouchet91/ESO=>2MASS),
+  U-B=0.18(Argue66), U-B=0.18(Johnson54),
+  U-B=0.188+-0.008(Mermilliod91), U-B=0.19(Johnson66),
+  U-B=0.198(Gutierrez-Moreno66), U-B=0.20(Cousins71) => adopt
+  U-B=0.188.  V-Rc=0.380(Just08),
+  V-Rc=0.382(Bessell90,GCPD/Cousins76_VRIc#2),
+  V-Rc=0.385(Cousins80,GCPD/Cousins76_VRIc#1) => adopt V-Rc=0.382.
+  R-Ic=0.336(Just08), R-Ic=0.34(Bessell90,GCPD/Cousins76_VRIc#2),
+  R-Ic=0.345(Cousins80,GCPD/Cousins76_VRIc#1) => adopt R-Ic=0.34.
+  V-Ic=0.716(Just08), V-Ic=0.722(Bessell90,GCPD/Cousins76_VRIc#2),
+  V-Ic=0.730(Cousins80,GCPD/Cousins76_VRIc#1), V-Ic=0.73+-0.02(HIP) =>
+  adopt V-Ic=0.722.  g-r=0.490(Just08), r-i=0.118(Just08), 2MASS
+  photometry is flagged "CCC", with JHKs errors of ~0.2 mag.
+  J=3.64(Selby88,Blackwell90), J=3.65(Allen83/AAO),
+  J=3.673(Bouchet91/ESO), J=3.71(Arribas89), H=3.35(Allen83/AAO),
+  H=3.35(Arribas89), H=3.362(Bouchet91/ESO), K=3.27(Allen83/AAO),
+  K=3.27(Selby88,Blackwell90), K=3.282(Bouchet91/ESO),
+  K=3.34(Arribas89).  Converting ESO/Bouchet91 photometry to 2MASS via
+  Carpenter01: J=3.605(Bouchet91/ESO=>2MASS),
   H=3.349(Bouchet91/ESO=>2MASS), Ks=3.239(Bouchet91/ESO=>2MASS) => for
   adopting V=4.84 => (V-J)=1.235, (V-H)=1.491, (V-Ks)=1.601,
   (J-H)=0.255, (H-Ks)=0.110, (J-Ks)=0.366.  Teff=5713K(+-1%;
   Blackwell98). Soubiran22/PASTEL mean values: Teff=5709+-11K(N=29),
-  logg=4.51+-0.02(N=23), [Fe/H]=+0.04+-0.01(N=24).  SIMBAD lists 54 published
-  Teffs and 48 published metallicities - here I just retain the values
-  published since 2000: <Teff>=5709K(+-8K sem,+-48K stdev;N=40),
-  <logg>=4.500(+-0.008 sem,+-0.049 stdev;N=37), <[Fe/H]>=+0.067(+-0.011 sem,+-0.046
-  stdev;N=34). Adopting Teff=5709K, the jump 
-  in Teff from G2V/Sun to G5V/kapCeti is only ~63K! Mv=5.035.
+  logg=4.51+-0.02(N=23), [Fe/H]=+0.04+-0.01(N=24).  SIMBAD lists 54
+  published Teffs and 48 published metallicities - here I just retain
+  the values published since 2000: <Teff>=5709K(+-8K sem,+-48K
+  stdev;N=40), <logg>=4.500(+-0.008 sem,+-0.049 stdev;N=37),
+  <[Fe/H]>=+0.067(+-0.011 sem,+-0.046 stdev;N=34). Adopting
+  Teff=5709K, the jump in Teff from G2V/Sun to G5V/kapCeti is only
+  ~63K! Mv=5.035.
 
 # Tertiary standards
 
-HD 120690 = GJ 530 = HIP 67620 = HR 5209 = 2MASS J13512039-2423252 = SBC9 3513 = WDS JH13513-2423AB
-  G5+V: Gray06
- *G5Va: Adams35(G5V),Keenan89(non-stan),GrayNstars(stan)
-  G8V: 	1943HarCi.449....1H
-
-  Solar-ish metallicity. For Keenan, only appeared in 1989 version of
-  standards list and was not "daggered" as a standard.
-  V=6.435+-0.010(Mermilliod91),
-  V=6.435+-0.004(Hauck97),
-  V=6.435(GCPD/Cousins76_VRIc), 
-  B-V=0.703(HIP),
-  B-V=0.701+-0.008(Mermilliod91) => adopt B-V=0.702.
-  U-B=0.266+-0.008(Mermilliiod91),
-  V-Rc=0.393(GCPD/Cousins76_VRIc),
-  R-Ic=0.382(GCPD/Cousins76_VRIc),
-  V-Ic=0.775(GCPD/Cousins76_VRIc),
-  H=4.829+-0.042, Ks=4.665+-0.017(2M)
-  => V-Ks = 6.435 - 4.665 = 1.770.  Soubiran22/PASTEL mean values:
-  Teff=5597+-36K(N=9), logg=4.46+-0.05(N=6), [Fe/H]=-0.02+-0.02(N=7).
-  Mv=4.98. Most precise values from Ramirez14: Teff=5670+-9K,
-  logg=4.41+-0.03,
-  [Fe/H]=-0.018+-0.009.plx=53.8785+-0.3427mas(GaiaDR2),
-  plx=51.35+-0.45mas(HIP2). Mv=5.092+-0.014(Hauck97,GaiaDR2).
-
-HD 26756 = Cl Melotte 25 17 = HIP 19781 (J0414+1437)
+HD 26756 = Cl Melotte 25 17 = HIP 19781 = BD+14 673 = WDS J04144+1438 = Gaia DR3 3311514210073309056 (J0414+1437)
   G2V: Schwassmann51
  *G5V: Wilson48(G5),Wilson62(G5),Corbally86(stan,Morgan65)
   G8V: Joy49
 
-  V=8.45(HIP), B-V=0.693+-0.011(HIP), Soubiran22/PASTEL mean values:
+  Hyad, and Fetherolf23 reports variability with P=8.6486d and amplitude 0.017mag.
+  GaiaDR3 reports standard deviation in G mags of 0.010mag. 
+  Long23 reports Prot=9.698+-1.848d and vanSaders13 reports Prot=10.801d.
+  WDS reports it as a binary WDS J04144+1438 (PAT 2), which lists a single epoch report
+  of a 0.7" companion (mag1=6.98, mag2=10.80, delmag=3.82) - given the magnitude I surmise
+  this is ~H band - it appears the original study was Patience98
+  V=8.419+-0.0034(Joner06),
+  V=8.44(Tycho), 
+  V=8.441+-0.020(Kharchenko05/ASCC),
+  V=8.442+-0.0073(Taylor08), 
+  V=8.45(HIP),
+  V=8.460+-0.000(Mermilliod91),
+  V=8.460(Hauck90), 
+  V=8.46(Johnson55),
+  V=8.46(Mendoza67) => adopt V=8.45+-0.01. 
+  B-V=0.693+-0.011(HIP),
+  B-V=0.696(Johnson55),
+  B-V=0.698+-0.002(Mermilliod91), 
+  B-V=0.70(Mendoza67),
+  B-V=0.700+-0.024(Tycho), 
+  B-V=0.706+-0.0029(Joner06) => adopt (B-V)=0.698. 
+  U-B=0.24(Mendoza67),
+  U-B=0.242+-0.001(Mermilliod91), 
+  U-B=0.243(Johnson55),
+  V-Rc=0.380+-0.0019(Joner06) => adopt V-Rc=0.380 (Rc=8.07).
+  R-Ic=0.356+-0.0027(Joner06), 
+  R-Ic=0.357+-0.0029(Taylor08),
+  R-Ic=0.359+-0.0031(Taylor05) => adopt R-Ic=0.357.  
+  V-Ic=0.737+-0.0038(Joner06),
+  V-Ic=0.75+-0.02(HIP) => adopt V-Ic=0.737 (Ic=7.713). 
+  J=7.216+-0.029(2MASS), H=6.916+-0.024(2MASS), Ks=6.825+-0.017(2MASS).
+  V-Ks=1.598+-0.016(Taylor08). V-Ks = 8.45 - 6.825 = 1.625. 
+  Soubiran22/PASTEL mean values:
   Teff=5632+-20K(N=8), logg=4.48+-0.06(N=4), [Fe/H]=+0.17+-0.04(N=4).
-  Just adopt mean Hyades metallicity of [Fe/H]=+0.16. 
+  Just adopt mean Hyades metallicity of [Fe/H]=+0.16.
+  Gaia DR3: plx=20.3761+-0.0230mas(GaiaDR3), G=8.303924+-0.002846(GaiaDR3),
+  Bp-Rp=0.863466, Bp-G=0.343186, G-Rp=0.520279.
+
+        G =  8.3039+-0.0028 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+  (Bp-Rp) =  0.8635 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+   (Bp-G) =  0.3432 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+   (G-Rp) =  0.5203 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+    (G-V) = -0.1461+-0.0104 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+       Mv =   4.996+- 0.010 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+      M_G =  4.8495+-0.0038 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+     M_Ks =   3.371+- 0.017 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)   
+   (V-Ks) =   1.625+- 0.020 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)   
+   (G-Ks) =   1.479+- 0.017 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3,2MASS)
+    (V-J) =   1.234+- 0.031 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+    (V-H) =   1.534+- 0.026 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+    (J-H) =   0.300+- 0.038 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+   (H-Ks) =   0.091+- 0.029 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+   (V-Rc) =   0.380+- 0.014 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+   (R-Ic) =   0.357+- 0.014 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+   (V-Ic) =   0.737+- 0.014 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+  (Ks-W1) =   0.056+- 0.042 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+  (W1-W2) =  -0.019+- 0.043 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+  (W1-W3) =  -0.028+- 0.041 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+  (W1-W4) =  -0.231+- 0.113 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)  
+    (u-g) =   1.528+-0.001 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS DR9)
+    (g-r) =   0.778+-0.001 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS DR9)
+    (r-i) =   0.119+-0.001 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS DR9)
+    (i-z) =  -1.197+-0.001 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS DR9)
+    (g-V) =   0.794+-0.010 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS-Johnson)
+    (z-J) =   2.328+-0.029 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS-2MASS)
+    (g-G) =   0.940+-0.003 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (SDSS-GaiaDR3)
 
 # Exemplars
 
@@ -493,14 +562,58 @@ HD 63433 = HIP 38228 = 2MASS J07495506+2721473
 
 # Deprecated Standard
 
-HD 186427 = 16_Cyg_B = HR 7504 = GJ 765.1B (J1941+5031)
+HD 120690 = GJ 530 = HIP 67620 = HR 5209 = LHS 2814 = 2MASS J13512039-2423252 = SBC9 3513 = WDS JH13513-2423AB = Gaia DR3 6190970236474307200	
+  G5+V: Gray06
+ *G5Va: Adams35(G5V),Keenan89(non-stan),GrayNstars(stan)
+  G8V: 	1943HarCi.449....1H
+
+  Chromospherically activity solar-ish metallicity binary, where
+  companion is probably late K dwarf. Given the issues with this being
+  a low(delta mag) binary, I've moved it from being a tertiary
+  standard to deprecated standard (4/2024).  For Keenan, only appeared
+  in 1989 version of standards list and was not "daggered" as a
+  standard, although Gray06 places a quarter subtype cooler (G5+V).
+  WDS lists it as a binary (WDS J13513-2423 = WSI 77): 24 observations
+  between 2006 and 2022, PA has changed from 171deg->324deg,
+  sep=0.3"=>0.1", mag1=6.45, mag2=9.90.  GaiaDR3 astrometry is notably
+  poor (no parallax!). Abt06 reports Sb1 with Porb=10.3yr, masses 0.99
+  and 0.63 Msun. Tokovini12 combines the speckle and RV data and
+  reports P=10.485+-0.06yr, a=0.2827+-0.0014", i=96.4+-0.2deg,
+  e=0.3462+-0.0080 and masses M1=0.99Msun, M2=0.63Msun (hence the
+  secondary would be roughly a ~K7V). Tokovini12 lists two
+  delta(magnitudes) which are inconsistent with one another
+  (del(V)=0.5, del(y)=3.5) and Tokovinin10 reports del(y)=3.4 and
+  del(Halpha)=2.8. Given the inferred mass ratio, and inferred mass of
+  primary of secondary, would suggest that del(V) ~ 3.2 is more
+  likely, so perhaps the del(V) is an error?  V=6.43(HIP),
+  V=6.43(Tycho), V=6.43(Stoy63), V=6.435+-0.010(Mermilliod91),
+  V=6.435+-0.004(Hauck97), V=6.435(GCPD/Cousins76_VRIc),
+  V=6.44(Cousins62), V=6.45(Naur55,Johnson66,Hoffleit91/BSC), => adopt
+  V=6.435.  B-V=0.69(Naur55,Johnson66,Hoffleit91/BSC),
+  B-V=0.70(Cousins62), B-V=0.701+-0.008(Mermilliod91),
+  B-V=0.703+-0.005(HIP), B-V=0.71(Stoy63) => adopt B-V=0.702.
+  U-B=0.266+-0.008(Mermilliiod91),
+  U-B=0.27(Naur55,Johnson66,Hoffleit91/BSC),
+  V-Rc=0.393(GCPD/Cousins76_VRIc), V-Rc=0.393(Just08) => adopt
+  V-Rc=0.393 (Rc=6.042).  R-Ic=0.380(Just08),
+  R-Ic=0.382(GCPD/Cousins76_VRIc) => adopt R-Ic=0.381.
+  V-Ic=0.775(GCPD/Cousins76_VRIc), V-Ic=0.78+-0.02(HIP) => adopt
+  V-Ic=0.774 (Rc=5.661).  g-r=0.507(Just08), r-i=0.159(Just08).
+  H=4.829+-0.042, Ks=4.665+-0.017(2M) => V-Ks = 6.435 - 4.665 = 1.770.
+  Soubiran22/PASTEL mean values: Teff=5597+-36K(N=9),
+  logg=4.46+-0.05(N=6), [Fe/H]=-0.02+-0.02(N=7).  Mv=4.98. Most
+  precise values from Ramirez14: Teff=5670+-9K, logg=4.41+-0.03,
+  [Fe/H]=-0.018+-0.009.plx=53.8785+-0.3427mas(GaiaDR2),
+  plx=51.35+-0.45mas(HIP2). Mv=5.092+-0.014(Hauck97,GaiaDR2).
+
+HD 186427 = 16 Cyg B = HR 7504 = GJ 765.1B (J1941+5031)
+  G2V: Adams35
  *G3V: Keenan85,Keenan88,Keenan89,Gray03,Gray06
   G4V: Keenan80
   G2.5V: Keenan83
   G2V: Gray01
-  G5V: JM53, Wilson62, KeenanMcNeil76(stan)
   G4.5V: Stebbins57
-  G2V: Adams35
+  G5V: JM53, Wilson62, KeenanMcNeil76(stan)
 
   16 Cyg B has been considered a standard G2.5V, G3V, G4V, and G5V at
   different times by Morgan and Keenan. It appears that Keenan stopped

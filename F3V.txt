@@ -10,8 +10,7 @@ JM53 standard:        46 Tau - F3V
 Morgan65 standard:    46 Tau - F3V
 Garrison72 standard:  46 Tau - F3IV-V
 MK73 standard:        HR 1279 (= HD 26015) - F3V (dagger standard)
-MorganAbt73 standard: HR 1279 (= vB 11 = HD 26015) - F3V
-                      vB 12 - F3V (but this star is G7 elsewhere? T~5250!)
+MorganAbt73 standard: HR 1279 (= vB 11 = HD 26015) - F3V (quoted color is blend with vB 12 = HD 26105B)
 Cowley74 standard:    46 Tau - F3V
                       zet Ser - F3V
 Houk75 standard:      46 Tau - F3V (primary standard until MK73, then F3IV/V)
@@ -19,7 +18,9 @@ Cowley76 standard:    HR 1279 (= HD 26015) - F3V
 MK78 standard:        HR 1279 (= HD 26015),
                       48 Tau  (= HD 26911 = Hyades vB 20) - F3V 
 Keenan85_IAU stan.:   HR 1279 (= HD 26015 = "BS 1279") - F3V
-Gray89 standard:      HR 1279 (= HD 26015) - F3V
+Gray89 standards:     HR 1279 (= HD 26015) - F3V (primary stan.)
+                      HD 9378 - F3V m-1 (primary metal-weak stan.)
+		      HD 106223 - F3V m-3 (preliminary metal-weak stan.)
 GrayAtlas standard:   HR 1279 (= HD 26015) - F3V
 GrayNstars standard:  HR 1279 (= HD 26015) - F3V
 
@@ -202,20 +203,21 @@ and within 1 mag of the MS (N=95):
 (g-V)(F3V) = 0.365+-0.010 ; exemplar HD 106691 = HIP 59833 = Cl Melotte 111 36 ([Fe/H]=+0.03) (SDSS-Johnson)
 => adopt (g-V)(F3V) = 0.12 [updated 1/1/2024]
 
-(g-r)(F3V) = 0.419 ; exemplar HD 106691 = HIP 59833 = Cl Melotte 111 36 ([Fe/H]=+0.03) (SDSS DR 9)
+(g-r)(F3V) =  0.419 ; exemplar HD 106691 = HIP 59833 = Cl Melotte 111 36 ([Fe/H]=+0.03) (SDSS DR 9)
 (g-r)(F3V) = 0.251 ; Jordi06 (V-R)=>(g-r) for V-R=0.223
 (g-r)(F3V) = 0.213 ; Covey07 interp F2V-F5V
 (g-r)(F3V) = 0.187 ; Bilir05 (B-V)=>(g-r) for B-V=0.39
-(g-r)(F3V) = 0.181 ; HD 22001 = HIP 16245 (F3V, Gray06)
+(g-r)(F3V) =  0.181 ; HD 22001 = HIP 16245 (F3V, Gray06)
 (g-r)(F3V) = 0.179 ; Just08/Chonis08 B-V=>g-r for B-V=0.39
-(g-r)(F3V) = 0.146 ; HD 90589 = HR 4102 (F3V, Gray06, Houk75)
+(g-r)(F3V) =  0.146 ; HD 90589 = HR 4102 (F3V, Gray06, Houk75)
 => adopt (g-r)(F3V) = 0.185 [updated 12/29/2023]
 
-(r-i)(F3V) =  0.032 ; exemplar HD 106691 = HIP 59833 = Cl Melotte 111 36 ([Fe/H]=+0.03) (SDSS DR 9)
-(r-i)(F3V) =  0.018 ; HD 22001 = HIP 16245 (F3V, Gray06)
-(r-i)(F3V) =  0.004 ; Jordi06 Pop I calib (Rc-Ic=0.228 =>r-i)
-(r-i)(F3V) = -0.010 ; HD 90589 = HR 4102 (F3V, Gray06, Houk75)
-=> adopt (r-i)(F3V) = 0.01 [updated 1/1/2024]
+(r-i)(F3V) =   0.032 ; exemplar HD 106691 = HIP 59833 = Cl Melotte 111 36 ([Fe/H]=+0.03) (SDSS DR 9)
+(r-i)(F3V) =   0.018 ; HD 22001 = HIP 16245 (F3V, Gray06)
+(r-i)(F3V) =  0.016 ; Bilir05 calibration for R-Ic=0.23
+(r-i)(F3V) =  0.006 ; Jordi06 Pop I calib for R-Ic=0.23
+(r-i)(F3V) =  -0.010 ; HD 90589 = HR 4102 (F3V, Gray06, Houk75)
+=> adopt (r-i)(F3V) = 0.01 [updated 4/1/2024]
 
 Teff(F3V) =  6609 K ; Boyajian12
 Teff(F3V) =  6672 K ; B-V=0.389 => Teff(Saxner85)
@@ -236,17 +238,20 @@ Teff(F3V) = 6792 K ; Teff from smoothed SpT(Teff) trend
 Teff(F3V) = 6805 K ; pri. stan. HD 26015 = HR 1279 = HIP 19261 ([Fe/H]=+0.16)
 Teff(F3V) =  6860 K ; Habets81
 Teff(F3V) = 6895 K ; sec. stan. HD 26690 = 46 Tau = HR 1309 ([Fe/H]=0.00)
-=> adopt Teff(F3V) = 6750 K (logT = 3.829) [updated 9/11/2020] (reevalutate, seems too low)
+=> adopt Teff(F3V) = 6790 K (logT = 3.832) [updated 2/24/2024]
+[EEM 2/24/2024: trend standards+exemplar: Teff(F3V) = 6794K - 67.7*[Fe/H] (rms=114K)
 
-BCv(F3V) = +0.064 mag ; Balona94(Teff=6750K)
-BCv(F3V) = +0.047 mag ; Bertone04(ATLAS,Teff=6750K)
-BCv(F3V) = +0.018 mag ; Flower96(Teff=6750K)
-BCv(F3V) = -0.007 mag ; Masana06(Teff=6750K)
-BCv(F3V) = -0.015 mag ; Casagrande18(Teff=6730K,logg=4.5)
-BCv(F3V) = -0.015 mag ; Code76(Teff=6750K)
-BCv(F3V) = -0.018 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6750K)
-BCv(F3V) = -0.054 mag ; EEM fit to Casagrande06/08/10(Teff=6750K)
-=> adopt BCv(F3V) = -0.01 [last updated 8/31/2019, adjusted so that BCv(5772K)=-0.085]
+BCv(F3V) = +0.066 mag ; Balona94(Teff=6790K)
+BCv(F3V) = +0.050 mag ; Bertone04(ATLAS,Teff=6790K)
+BCv(F3V) = +0.019 mag ; Flower96(Teff=6790K)
+BCv(F3V) = -0.004 mag ; Chen19(Teff=6790K,logg=4.13, adjusted so BCv(Sun)=-0.085)
+BCv(F3V) = -0.005 mag ; Masana06(Teff=6790K)
+BCv(F3V) =  -0.009 mag ; Chen19(Teff=6790K,logg=4.13, where BCv(Sun)=-0.090)
+BCv(F3V) = -0.014 mag ; Casagrande18(Teff=6790K,logg=4.5)
+BCv(F3V) = -0.012 mag ; Code76(Teff=6790K)
+BCv(F3V) = -0.016 mag ; Bessell98(ATLAS9,logg=4.5,Teff=6790K)
+BCv(F3V) = -0.055 mag ; EEM fit to Casagrande06/08/10(Teff=6790K)
+=> adopt BCv(F3V) = -0.01 [updated 2/24/2024, adjusted so that BCv(5772K)=-0.085]
 
 Mv(F3V) =  3.44 mag ; exemplar HD 106691 = HIP 59833 = Cl Melotte 111 36 ([Fe/H]=+0.03) (GaiaDR3)
 Mv(F3V) =   3.1  mag  ; GrayCorbally09
@@ -316,6 +321,9 @@ logg(F3V) = 4.0016 ; Eclipsing binary ZZ Boo A (Southworth23; ~1.7 Gyr)
 logg(F3V) = 4.13   ; exemplar HD 171834 = HIP 91237 = HR 6987 ([Fe/H]=-0.12)
 logg(F3V) = 4.1765 ; Eclipsing binary IT Cas A (Southworth23)
 logg(F3V) = 4.1778 ; Eclipsing binary IT Cas B (Southworth23)
+logg(F3V) = 4.204  ; calc. from M=1.42Msun, logL=0.668, Teff=6790K
+logg(F3V) = 4.48   ; pri. stan. HD 26015 = HR 1279 = HIP 19261 
+=> adopt logg(F3V) = 4.20 [updated 2/24/2024]
 
 # No standard
 
@@ -343,14 +351,20 @@ HD 26015 = HR 1279 = HIP 19261 = Cl Melotte 25 11 = vB 11 (Hyad)
   "Li chasm" for the Hyades occurs for 6600 K < Teff < 6800 K,
   i.e. right at F3V and HD 26015's Teff. Hipparcos photometry showed
   scatter of only 0.006 mag in Hpscat (N=52 obs), Hpmax=6.08,
-  Hpmin=6.10. Teffs: 6702K(Taylor05), 6729K(Taylor08),
-  6799+-80K(Casagrande11), 6800K (Suchov03), 6811K (Boesgaard88,
-  Boesgaard89, Boesgaard90, as reported in Soubiran10), 6828K
-  (Varenne99, Ryabchikova05), 6860+-125K(Gebran10), 6880K(Gray01) =>
-  median Teff = 6805K. Mass = 1.56 Msun(Roeser11), 1.49
+  Hpmin=6.10. Teffs:
+  6702K(Taylor05),
+  6729K(Taylor08),
+  6799+-80K(Casagrande11),
+  6800K(Suchov03), 6811K(Boesgaard88,
+  Boesgaard89, Boesgaard90, as reported in Soubiran10),
+  6828K(Varenne99, Ryabchikova05),
+  6860+-125K(Gebran10),
+  6880K(Gray01)
+  => median Teff = 6805K. Mass=1.56 Msun(Roeser11), 1.49
   Msun(Casagrande11) => median mass = 1.535 Msun. As a Hyad,
   [Fe/H]=+0.16(Liu16), and numerous other references typically get
-  between +0.1 and +0.2.
+  between +0.1 and +0.2. PASTEL compendium: <logg>=4.48(N=4),
+  <[Fe/H]>=+0.135(N=6), 
 
 # Secondary Standard
 
@@ -374,22 +388,14 @@ HD 26690 = 46 Tau = HR 1309 = HIP 19719
   Soederhjelm99 reports delta(mag)=0.91, Horsch08 reports
   delta(V)=0.99.  plx=25.2041+-0.4328mas(GaiaDR2). V(AB)=5.29, so for
   delta(V)=0.99, V(A)=5.66, V(B)=6.65, so Mv(A)=2.67, Mv(B)=3.66.
-  PASTEL shows only one value:
-  Teff=
-  6695K(6312K,6954K;GaiaDR2),
-  6820K(Gray06),
-  6864+-80K(Casagrande11,Stassun19),
-  6925K(Marsakov95),
-  6950K(Suchkov03),
-  6998+-238K(David15)
-  => <Teff>=6895K. Metallicities:
-  [Fe/H]=-0.06+-0.05(Gaspar16), 
-  [Fe/H]=-0.05(Marsakov88),
-  [Fe/H]=-0.04+-0.07(Netopil17/photometric), 
-  [Fe/H]=-0.01(Holmberg09), 
-  [Fe/H]=+0.01(Marsakov95),
-  [Fe/H]=+0.03(Netopil17/Geneva), 
-  [Fe/H]=+0.05(Philip80) => adopt [Fe/H]=-0.01.
+  PASTEL shows only one value: Teff= 6695K(6312K,6954K;GaiaDR2),
+  6820K(Gray06), 6864+-80K(Casagrande11,Stassun19), 6925K(Marsakov95),
+  6950K(Suchkov03), 6998+-238K(David15) =>
+  <Teff>=6895K. Metallicities: [Fe/H]=-0.06+-0.05(Gaspar16),
+  [Fe/H]=-0.05(Marsakov88), [Fe/H]=-0.04+-0.07(Netopil17/photometric),
+  [Fe/H]=-0.01(Holmberg09), [Fe/H]=+0.01(Marsakov95),
+  [Fe/H]=+0.03(Netopil17/Geneva), [Fe/H]=+0.05(Philip80) => adopt
+  [Fe/H]=-0.01.
 
 # Tertiary Standard 
 

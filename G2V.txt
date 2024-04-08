@@ -43,7 +43,9 @@ Keenan88 standard:    Sun - G2V
                       xi UMa B - G2V
                       18 Sco (=HD 146233) - G2Va
                       HD 45184 - G2Va
-Gray89 standard:      Sun [Jupiter IV] - G2V 
+Gray89 standard:      Sun [Jupiter IV] - G2V (primary stan.)
+                      HD 56274 - G2V m-2 (primary metal-weak stan.)
+		      HD 113083 - G2V m-3 (preliminary metal-weak stan.)
 Keenan89 standard:    VB 64 (=HD 28099) - G2+V
                       HD 45184 (=HR 2318) - G2Va
                       HD 76151 (=HR 3538) - G2V
@@ -165,16 +167,17 @@ to be somewhat redder than that for the other standards.
 (U-B)(G2V) = 0.212 ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
 => adopt (U-B)(G2V) = 0.156 [updated 12/1/2023]
 
-(V-Rc)(G2V) =  0.334 ; HIP 9829 (Koen10)
-(V-Rc)(G2V) =  0.348 ; HIP 15442 (Koen10)
-(V-Rc)(G2V) = 0.353 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
-(V-Rc)(G2V) = 0.354 ; trend B-V vs V-Rc trend for B-V=0.65
-(V-Rc)(G2V) = 0.355 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
-(V-Rc)(G2V) = 0.36  ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
-(V-Rc)(G2V) = 0.361 ; fit to GCPD/Cousins BVRc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.65
-(V-Rc)(G2V) = 0.362 ; exemplar HD 128620 = alf Cen A = GJ 559A ([Fe/H]=+0.22)
-(V-Rc)(G2V) = 0.363 ; Johnson68 V-Rj=0.53 transformed to V-Rc via Fernie83
-=> adopt (V-Rc)(G2V) = 0.355 [updated 2/18/2024; R-Ic=0.34, V-Ic=0.695]
+(V-Rc)(G2V) =   0.334 ; HIP 9829 (Koen10)
+(V-Rc)(G2V) =   0.348 ; HIP 15442 (Koen10)
+(V-Rc)(G2V) =  0.353 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
+(V-Rc)(G2V) =  0.354 ; trend B-V vs V-Rc trend for B-V=0.65
+(V-Rc)(G2V) =  0.355 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
+(V-Rc)(G2V) = 0.355 ; V-Ic=0.689, R-Ic=0.334 (see fits to [Fe/H]=0.00 below)
+(V-Rc)(G2V) =  0.36  ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
+(V-Rc)(G2V) =  0.361 ; fit to GCPD/Cousins BVRc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.65
+(V-Rc)(G2V) =  0.362 ; exemplar HD 128620 = alf Cen A = GJ 559A ([Fe/H]=+0.22)
+(V-Rc)(G2V) =  0.363 ; Johnson68 V-Rj=0.53 transformed to V-Rc via Fernie83
+=> adopt (V-Rc)(G2V) = 0.355 [updated 4/1/2024; R-Ic=0.334, V-Ic=0.689]
 
 (R-Ij)(G2V) = 0.33  ; Johnson68
 
@@ -183,7 +186,8 @@ to be somewhat redder than that for the other standards.
 (R-Ic)(G2V) = 0.335 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (R-Ic)(G2V) = 0.335 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
 (R-Ic)(G2V) = 0.343 ; B-V vs R-Ic trend for B-V=0.650
-=> adopt (R-Ic)(G2V) = 0.34 [updated 12/1/2023; V-Rc=0.355; V-Ic=0.695]
+=> adopt (R-Ic)(G2V) = 0.334 [updated 4/1/2024; V-Rc=0.355; V-Ic=0.689]
+[EEM 4/1/2024: fit to two standard, one solar twin & exemplar: (R-Ic)(G2V) = 0.334 - 0.0185*[Fe/H] (rms=0.002mag!)
 
 (V-Ic)(G2V) = 0.677 ; Johnson68 V-Ij=0.86 transformed to V-Ic via Fernie83
 (V-Ic)(G2V) =  0.68  ; Bessell88
@@ -197,8 +201,9 @@ to be somewhat redder than that for the other standards.
 (V-Ic)(G2V) =  0.704 ; HIP 9829 (Koen10)
 (V-Ic)(G2V) = 0.706 ; Gray01/03/06 N=48 G2Vs (+-0.005 sem, +-0.024 stdev)
 (V-Ic)(G2V) =  0.71 ; solar twin HD 9986 = HIP 7585 (from Gray03)
-=> adopt (V-Ic)(G2V) = 0.695 [updated 12/1/2023; V-Rc=0.355, R-Ic=0.34,
-the three standards are essentially on a line: (V-Ic)(G2V) = 0.687 + 0.0262*[Fe/H] (rms=0.00013mag).
+=> adopt (V-Ic)(G2V) = 0.689 [updated 4/1/2024; V-Rc=0.355, R-Ic=0.334]
+[EEM fit to 2 standards, 1 solar twin + exemplar alf Cen A:
+(V-Ic)(G2V) = 0.689 + 0.01417*[Fe/H] (rms=0.0016!)]
 
 (V-Jj)(G2V) = 1.10 ; Johnson66,Johnson68
 
@@ -272,12 +277,13 @@ the three standards are essentially on a line: (V-Ic)(G2V) = 0.687 + 0.0262*[Fe/
 
 (r-i)(G2V) = 0.106 ; Sun - Fukugita11(Colina96/SED) 
 (r-i)(G2V) = 0.108 ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
+(r-i)(G2V) = 0.109 ; Jordi06 popI calibration for R-Ic=0.334
 (r-i)(G2V) = 0.11 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
-(r-i)(G2V) = 0.111 ; Jordi06 (Rc-Ic=0.345 => r-i)
 (r-i)(G2V) = 0.112 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
-(r-i)(G2V) = 0.12  ; Fukugita11 
+(r-i)(G2V) = 0.12  ; Fukugita11
+(r-i)(G2V) = 0.124 ; Bilir05 calibration for R-Ic=0.334
 (r-i)(G2V) = 0.127 ; Sun - Fukugita11(Thuillier03/SED)
-=> adopt (r-i)(G2V) = 0.11 [updated 2/1/2024]
+=> adopt (r-i)(G2V) = 0.11 [updated 4/1/2024]
 
 (i-z)(G2V) = 0.03 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
 (i-z)(G2V) = 0.020 ; Sun - Fukugita11(Colina96/SED)
