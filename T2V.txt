@@ -12,15 +12,28 @@ Teff(T2V) = 1232 K ; Dupuy17(Lyon model scale)
 => adopt Teff(T2V) = 1200 K (logT = 3.079) [updated 12/30/2020]
 
 SIMP_0136+0933 appears to be near middle of group for the J & K colors
-M_J(T2V) =  14.36  ; SDSS_1254-0122 calc using Kirkpatrick20 (plx=78.34mas)
-M_J(T2V) =  14.39  ; 2MASS_1122-3512 calc using Kirkpatrick20 (plx=74.8605mas)
-M_J(T2V) = 14.400  ; EEM fit to L/T dwarfs d<25pc
-M_J(T2V) =  14.47  ; WISE_0457-0207 calc using Kirkpatrick20 (plx=82.0mas)
-M_J(T2V) = 14.51   ; exemplar SIMP_0136+0933 calc using Kirkpatrick20 (plx=162.13mas)
-M_J(T2V) = 14.52   ; M_J(MKO)=14.30, J(MKO)-J=-0.22
-M_J(T2V) =  14.67  ; WISE_1755+1803 calc using Kirkpatrick20 (plx=53.6mas)
-M_J(T2V) =  14.80  ; WISE_2121-6239 calc using Kirkpatrick20 (plx=74.9mas)
-M_J(T2V) =  14.84  ; PSO_1629+0335 calc using Kirkpatrick20 (plx=81.2mas)
+
+(r-i)(T2V) = 1.80 (+-0.50; rms) ; Hawley02 ("r*-i*")
+
+(i-z)(T2V) = 4.25 (+-0.50; rms) ; Hawley02 ("i*-z*")
+
+(i-J)(T2V) = 7.38 (+-0.50; rms) ; Hawley02 ("i*-J")
+
+(z-J)(T2V) = 3.13 (+-0.50; rms) ; Hawley02 ("z*-J")
+
+(Ks-W1)(T2V) = 0.532 ; Dupuy12 #1
+=> adopt (Ks-W1)(T2V) = 0.53 [updated 12/28/2019]
+
+
+M_J(T2V) =  14.36 ; SDSS_1254-0122 calc using Kirkpatrick20 (plx=78.34mas)
+M_J(T2V) =  14.39 ; 2MASS_1122-3512 calc using Kirkpatrick20 (plx=74.8605mas)
+M_J(T2V) = 14.400 ; EEM fit to L/T dwarfs d<25pc
+M_J(T2V) =  14.47 ; WISE_0457-0207 calc using Kirkpatrick20 (plx=82.0mas)
+M_J(T2V) = 14.51  ; exemplar SIMP_0136+0933 calc using Kirkpatrick20 (plx=162.13mas)
+M_J(T2V) = 14.52 ; M_J(MKO)=14.30, J(MKO)-J=-0.22
+M_J(T2V) =  14.67 ; WISE_1755+1803 calc using Kirkpatrick20 (plx=53.6mas)
+M_J(T2V) =  14.80 ; WISE_2121-6239 calc using Kirkpatrick20 (plx=74.9mas)
+M_J(T2V) =  14.84 ; PSO_1629+0335 calc using Kirkpatrick20 (plx=81.2mas)
 M_J(T2V) =   15.59 ; 2MASS_1324+6358 calc using Kirkpatrick20 (plx=99.7mas)
 => adopt M_J(T2V) = 14.52 [update 12/5/2020] (M_J(MKO)=14.30, J(MKO)-J=-0.22)
 
@@ -70,8 +83,6 @@ BC_Ks(T2V) = 2.991 ; Filipazzo15 (field) [denser trend through L/T]
 BC_Ks(T2V) = 2.770 ; Looper08
 => adopt BC_Ks(T2V) = 2.99 [updated 11/1/2019]
 
-(Ks-W1)(T2V) = 0.532 ; Dupuy12 #1
-=> adopt (Ks-W1)(T2V) = 0.53 [updated 12/28/2019]
 
 logL(T2V) = 
 

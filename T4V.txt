@@ -9,7 +9,16 @@ Teff(T4V) = 1178 K ; Dupuy17(Lyon model scale)
 Teff(T4V) = 1182 K ; Kirkpatrick20 (Table 13 polynomial)
 => adopt Teff(T4V) = 1180 K (logT = 3.072) [updated 12/26/2020]
 
+(r-i)(T4V) = 1.04 (+-0.52; rms) ; Hawley02 ("r*-i*")
+
+(i-z)(T4V) = 3.82 (+-2.02!; rms) ; Hawley02 ("*i-z*")
+
+(i-J)(T4V) = 7.35 (+-2.09!; rms); Hawley02 ("*i-J")
+
+(z-J)(T4V) = 3.53 (+-0.06; rms) ; Hawley02 ("z*-J")
+
 I've focused on 2MASS_2254+3123, which has the median M_J
+
 M_J(T4V) =  14.26 ; WISE_0819-0335 calc using Kirkpatrick20 (plx=71.36mas)
 M_J(T4V) =  14.53 ; 2MASS_2151-4853 calc using Kirkpatrick20 (plx=57.46mas)
 M_J(T4V) = 14.55  ; 2MASS_2254+3123 calc using Kirkpatrick20 (plx=72.mas)
@@ -17,10 +26,10 @@ M_J(T4V) =  14.99 ; WISE_1400-3850 calc using Kirkpatrick20 (plx=61.7mas)
 M_J(T4V) =  15.32 ; SDSS_1214+6316 calc using Kirkpatrick20 (plx=55.8mas)
 => adopt M_J(T4V) = 14.55 [updated 12/5/2020] (M_J(MKO) = 14.29, (J(MKO)-J)(T4V) = -0.26)
 
-M_J(MKO)(T4V) =  14.047 ; WISE_0819-0335 calc using Kirkpatrick20 (plx=71.36mas)
-M_J(MKO)(T4V) =  14.236 ; 2MASS_2151-4853 calc using Kirkpatrick20 (plx=57.46mas)
-M_J(MKO)(T4V) = 14.286  ; 2MASS_2254+3123 calc using Kirkpatrick20 (plx=72.mas)
-M_J(MKO)(T4V) =  14.831 ; WISE_1400-3850 calc using Kirkpatrick20 (plx=61.7mas)
+M_J(MKO)(T4V) =  14.05 ; WISE_0819-0335 calc using Kirkpatrick20 (plx=71.36mas)
+M_J(MKO)(T4V) =  14.24 ; 2MASS_2151-4853 calc using Kirkpatrick20 (plx=57.46mas)
+M_J(MKO)(T4V) = 14.29 ; 2MASS_2254+3123 calc using Kirkpatrick20 (plx=72.mas)
+M_J(MKO)(T4V) =  14.83 ; WISE_1400-3850 calc using Kirkpatrick20 (plx=61.7mas)
 => adopt M_J(MKO) = 14.29 [updated 12/5/2020] (M_J=14.55, (J(MKO)-J)(T4V) = -0.26)
 
 (J(MKO)-J)(T4V) =  -0.29 +- 0.07 ; 2MASS_2151-4853 14.0
