@@ -53,14 +53,11 @@ For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
 (B-V)(A9V) = 0.227 ; HD 70574 A9V+ (Garrison89)
 (B-V)(A9V) = 0.214 ; HD 30780 A9V+ (Garrison89)
 => adopt (B-V)(A9V)  = 0.27  [updated 9/20/2019]
-=> adopt (V-Ic)(A9V) = 0.311
-=> adopt (V-Rc)(A9V) = 0.152
-=> adopt (R-Ic)(A9V) = 0.159 
-=> adopt (V-J)(A9V)  = 0.545
-=> adopt (V-H)(A9V)  = 0.630
-=> adopt (V-Ks)(A9V) = 0.674
-=> adopt (H-Ks)(A9V) = 0.044
-=> adopt (J-H)(A9V)  = 0.086
+=> adopt (V-J)(A9V)  = 0.545 [updated 4/1/2024]
+=> adopt (V-H)(A9V)  = 0.630 [updated 4/1/2024]
+=> adopt (V-Ks)(A9V) = 0.674 [updated 4/1/2024]
+=> adopt (H-Ks)(A9V) = 0.044 [updated 4/1/2024]
+=> adopt (J-H)(A9V)  = 0.086 [updated 4/1/2024]
 
 (U-B)(A9V) =  0.08 ; Fitzgerald70
 (U-B)(A9V) = 0.079 ; sec. stan. HD 8511 = 44 Cet = HIP 6539 
@@ -68,7 +65,16 @@ For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
 (U-B)(A9V) = 0.066 ; pri. stan. HD 73450 = BS Cnc (Praesepe member)
 => adopt (U-B)(A9V) = 0.07 [updated 12/29/2023]
 
-(V-Ic)(A9V) = 0.26 ; sec. stan. HD 8511 = 44 Cet = HIP 6539 
+(V-Rc)(A9V) = 0.152 ; color trend for B-V=0.27 (4/1/2024)
+(V-Rc)(A9V) = 0.155 ; B-V vs V-Rc trend A8V-G0V for B-V=0.27 (2/24/2024) 
+=> adopt (V-Rc)(A9V) = 0.154 [updated 4/1/2024]
+
+(R-Ic)(A9V) = 0.159 ; color trend for B-V=0.27 (4/1/2024)
+=> adopt (R-Ic)(A9V) = 0.159 [updated 4/1/2024]
+
+(V-Ic)(A9V) = 0.26  ; sec. stan. HD 8511 = 44 Cet = HIP 6539 
+(V-Ic)(A9V) = 0.311 ; color trend for B-V=0.27 (4/1/2024)
+=> adopt (V-Ic)(A9V) = 0.311 [updated 4/1/2024]
 
 (Ks-W1)(A9V) = 0.048 ; EEM trend for d<30pc for B-V=0.27
 => adopt (Ks-W1)(A9V) = 0.048 [updated 12/29/2019]
@@ -112,6 +118,10 @@ For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
 (g-r)(A9V)   = 0.060 ; Covey07 interp A7V to F0V
 (g-r)(A9V)   = 0.052 ; Bilir05 (B-V)=>(g-r) for B-V=0.27
 => adopt (g-r)(A9V) = 0.06 [updated 10/10/2020]
+
+(r-i)(A9V) = -0.058 ; Bilir05 calibration for R-Ic=0.159
+(r-i)(A9V) = -0.064 ; Jordi06 popI calibration for (R-Ic)=0.159
+=> adopt (r-i)(A9V) = -0.06 [updated 4/1/2024]
 
 Teff(A9V) =   7020 K ; Boyajian12
 Teff(A9V) =   7380 K ; GrayCorbally09
