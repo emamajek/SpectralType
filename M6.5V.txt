@@ -1,4 +1,4 @@
-MM6.5V
+M6.5V
 
 Kirkpatrick(in GrayCorbally09) calls GJ 1111 the primary M6.5V standard. 
 
@@ -76,7 +76,7 @@ LHS 292 (J1048-1120).
 (V-Ks)(M6.5V) =  7.673 ; exemplar LHS 2090
 (V-Ks)(M6.5V) = 7.854 ; sec. stan. GJ 3622
 (V-Ks)(M6.5V) =   8.092 ; exemplar LHS 2930
-=> adopt(V-Ks)(M6.5V) = 7.60 [updated 11/15/2023]
+=> adopt (V-Ks)(M6.5V) = 7.60 [updated 4/25/2024]
 
 => adopt (V-J)(M6.5V) = 6.627 [updated 1/15/2021] 
 => adopt (V-H)(M6.5V) = 7.236 [updated 1/15/2021]
@@ -157,19 +157,37 @@ LHS 292 (J1048-1120).
 => adopt (G-V)(M6.5V)  = -2.70 [updated 11/1/2020]
 => adopt (G-Ks)(M6.5V) = 4.90 = 7.60 + -2.70 [updated 12/26/2021]
 
+(u-g)(M6.5V) = 2.265 ; exemplar LHS 2930 = GJ 3855 = LP 98-79
+=> adopt (u-g)(M6.5V) = 2.3 [updated 4/11/2024]
+
 (g-G)(M6.5V) = 3.688 ; sec. stan. GJ_3622 M6.5V
 (g-G)(M6.5V) = 7.523 ; LP_584-4 M6.5e
 => adopt (g-G)(M6.5V) = 3.7 [updated 6/29/2023]
 
-(r-i)(M6.5V) = 2.68  (+-0.14 rms) ; Cifuentes20
-(r-i)(M6.5V) = 1.981 (+-0.05 rms) ; West05 fit for (V-Ic)=4.29
+(g-r)(M6.5V) = 1.552 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs
+(g-r)(M6.5V) = 1.716 ; exemplar LHS 2930 = GJ 3855 = LP 98-79
+=> adopt (g-r)(M6.5V) = 1.55 [updated 4/18/2024]
 
+(r-i)(M6.5V) =  2.897 ; GJ_3622_ plx=219.3302mas M6.5V
+(r-i)(M6.5V) = 2.829 ; exemplar LHS 2930 = GJ 3855 = LP 98-79 
+(r-i)(M6.5V) = 2.68  (+-0.14 rms) ; Cifuentes20
+(r-i)(M6.5V) =  2.36 ; 2MASS_J21254581-0018340_ plx=26.5289mas M6.5
+(r-i)(M6.5V) = 2.175 ; smooth trend for SIMBAD r-i data for d<50pc M0V-M8.5V
+(r-i)(M6.5V) = 1.981 (+-0.05 rms) ; West05 fit for (V-Ic)=4.29
+(r-i)(M6.5V) =  0.701 ; LP_584-4_ plx=48.2765mas M6.5e
+=> adopt (r-i)(M6.5V) = 2.2 [updated 4/18/2024]
 
 (i-z)(M6.5V) = 1.385 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=4.90
-=> adopt (i-z)(M6.5V) = 1.39 [updated 12/27/2021]
+(i-z)(M6.5V) = 1.522 ; exemplar LHS 2930 = GJ 3855 = LP 98-79 
+=> adopt (i-z)(M6.5V) = 1.4 [updated 4/11/2024]
+
+(i-J)(M6.5V) = 3.3   ; z-J=1.9, i-z=1.4 
+(i-J)(M6.5V) =  3.502 ; exemplar LHS 2930 = GJ 3855 = LP 98-79
+=> adopt (i-J)(M6.5V) = 3.3 [updated 4/12/2024]
 
 (z-J)(M6.5V) = 1.881 (+-0.053 rms) ; poly fit to d<50pc SIMBAD M dwarfs for G-Ks=4.90
-=> adopt (z-J)(M6.5V) = 1.88 [updated 12/27/2021]
+(z-J)(M6.5V) = 1.980 ; exemplar LHS 2930 = GJ 3855 = LP 98-79
+=> adopt (z-J)(M6.5V) = 1.9 [updated 4/12/2024]
 
 Teff(M6.5V) =  2850 K ; Rajpurobit18 (mean for N=2 M6.5Vs)
 Teff(M6.5V) =  2813 K ; sec. stan. GJ 3289 (Dahn02)
@@ -347,53 +365,31 @@ GJ 4281 = LHS 523 = LP 760-3 = 2MASS J22285440-1325178
  *M6.5V: Giampapa86,Kirkpatrick91(pri),Geballe02,Cruz02
   M6Ve: Bessell91
 
-  V=16.90(Bessell91,Winters15),
-  V=16.96(Cruz02), 
-  V=17.06(Salim03), 
-  V=17.14(vanAltena95),
-  V=17.238163(GaiaDR3/synth),
-  V=17.26(Reid02), 
-  V=17.39+-0.20(Muirhead18,Suissa20) => adopt V=17.238.  
-  B-V=2.03(Reid02),
-  B-V=2.16(vanAltena95) => adopt B-V=2.10.
-  Rc=14.90(Bessell91,Winters15),
-  Rc=15.227858(GaiaDR3/synth), 
-  V-Rc=2.00(Bessell91),
-  V-Rc=2.010(GaiaDR3/synth) => adopt V-Rc=2.01.
-  Ic=12.56(Bessell91,Winters15),
-  Ic=12.919325(GaiaDR3/synth), 
-  V-Ic=4.26(Reid02),
-  V-Ic=4.319(GaiaDR3/synth), 
-  V-Ic=4.34(Bessell91) => adopt V-Ic=4.32. 
-  J=10.768+-0.023(2MASS),
-  J-H=0.543(Bessell91/Glass=>2MASS),
-  J-H=0.551+-0.034(2MASS), 
-  J-H=0.60(Bessell91/Glass) => adopt (J-H)=0.547. 
-  H=10.217+-0.025(2MASS),
-  H-K=0.37(Bessell91/Glass),
-  H-Ks=0.374+-0.033(2MASS), 
-  H-Ks=0.397(Bessell91/Glass=>2MASS) => adopt (H-Ks)=0.386. 
-  K=9.93(Bessell91/Glass), 
-  Ks=9.843+-0.021(2MASS),
-  Ic-K=2.63(Bessell91/Cousins/Glass),
-  J-Ks=0.925+-0.031(2MASS), 
-  J-Ks=0.932(Bessell91/Glass=>2MASS),
-  J-K=0.97(Bessell91/Glass) => adopt (J-Ks)=0.928. 
-  V-K=6.97(Bessell91/Glass),
-  V-Ks=7.014(Bessell91/Glass=>2MASS),
-  V-Ks = 17.238(GaiaDR3/synth) - 9.843(2MASS) = 7.395.
-  WISE: W1=9.648+-0.024, W2=9.436+-0.021,
-  W3=9.240+-0.034.
-  AllWISE: W1=9.680+-0.023, W2=9.457+-0.020,
-  W3=9.229+-0.035.  
-  Teff:
-  2536K(Jenkins09),
-  2617+795-110K(Huber16),
-  2646K(Suissa20) =>
+  V=16.90(Bessell91,Winters15), V=16.96(Cruz02), V=17.06(Salim03),
+  V=17.14(vanAltena95), V=17.238163(GaiaDR3/synth), V=17.26(Reid02),
+  V=17.39+-0.20(Muirhead18,Suissa20) => adopt V=17.238.
+  B-V=2.03(Reid02), B-V=2.16(vanAltena95) => adopt B-V=2.10.
+  Rc=14.90(Bessell91,Winters15), Rc=15.227858(GaiaDR3/synth),
+  V-Rc=2.00(Bessell91), V-Rc=2.010(GaiaDR3/synth) => adopt V-Rc=2.01.
+  Ic=12.56(Bessell91,Winters15), Ic=12.919325(GaiaDR3/synth),
+  V-Ic=4.26(Reid02), V-Ic=4.319(GaiaDR3/synth), V-Ic=4.34(Bessell91)
+  => adopt V-Ic=4.32.  J=10.768+-0.023(2MASS),
+  J-H=0.543(Bessell91/Glass=>2MASS), J-H=0.551+-0.034(2MASS),
+  J-H=0.60(Bessell91/Glass) => adopt (J-H)=0.547.
+  H=10.217+-0.025(2MASS), H-K=0.37(Bessell91/Glass),
+  H-Ks=0.374+-0.033(2MASS), H-Ks=0.397(Bessell91/Glass=>2MASS) =>
+  adopt (H-Ks)=0.386.  K=9.93(Bessell91/Glass),
+  Ks=9.843+-0.021(2MASS), Ic-K=2.63(Bessell91/Cousins/Glass),
+  J-Ks=0.925+-0.031(2MASS), J-Ks=0.932(Bessell91/Glass=>2MASS),
+  J-K=0.97(Bessell91/Glass) => adopt (J-Ks)=0.928.
+  V-K=6.97(Bessell91/Glass), V-Ks=7.014(Bessell91/Glass=>2MASS), V-Ks
+  = 17.238(GaiaDR3/synth) - 9.843(2MASS) = 7.395.  WISE:
+  W1=9.648+-0.024, W2=9.436+-0.021, W3=9.240+-0.034.  AllWISE:
+  W1=9.680+-0.023, W2=9.457+-0.020, W3=9.229+-0.035.  Teff:
+  2536K(Jenkins09), 2617+795-110K(Huber16), 2646K(Suissa20) =>
   Teff=2617K. plx=91.82+-0.67mas(Weinberger16),
-  plx=91.8949+-0.0948mas(GaiaDR2), plx=91.8382+-0.0539mas(GaiaDR3), 
-  Mv=16.72(Winters15,GaiaDR2),
-  M_Ks=9.659+-0.021(2MASS,GaiaDR2).
+  plx=91.8949+-0.0948mas(GaiaDR2), plx=91.8382+-0.0539mas(GaiaDR3),
+  Mv=16.72(Winters15,GaiaDR2), M_Ks=9.659+-0.021(2MASS,GaiaDR2).
   
 GJ 3289 = LHS 191 = LP 535-12 = NLTT 13261 
  *M6.5V: Bessell91,Kirkpatrick91(sec)
@@ -419,53 +415,34 @@ GJ 3622 = LHS 292 = LP 731-58 = 2MASS J10481258-1120082
   Dahn86 considered LHS 292 the lowest-luminosity M dwarf known within
   5.2 pc (17 ly) of the Sun at the time (1986). Dahn86 considered the
   star later than G51-15(M6.5V) but earlier than VB8(M7V), hence
-  M6.5-7V.
-  B=17.717743(GaiaDR3/synth), 
-  V=15.60+-0.01(Dahn86,Leinert97),
-  V=15.708490(GaiaDR3/synth), 
-  V=15.73(Bessell91,Reid02),
-  V=15.784+-0.028(Henden16),
+  M6.5-7V.  B=17.717743(GaiaDR3/synth),
+  V=15.60+-0.01(Dahn86,Leinert97), V=15.708490(GaiaDR3/synth),
+  V=15.73(Bessell91,Reid02), V=15.784+-0.028(Henden16),
   V=15.78+-0.057(Dieterich14) => adopt V=15.73.
-  B-V=2.009(GaiaDR3/synth), 
-  B-V=2.013+-0.110(Henden16),
-  B-V=2.10+-0.03(Dahn86) => adopt B-V=2.01. 
-  Rc=13.596558(GaiaDR3/synth), 
-  Rc=13.63+-0.002(Dieterich14),
-  Rc=13.67(Bessell91),
-  V-Rc=2.06(Bessell91),
-  V-Rc=2.112(GaiaDR3/synth), 
-  V-Rc=2.14(Reid02) => adopt V-Rc=2.11. 
-  Ic=11.25+-0.025(Dieterch14),
-  Ic=11.33(Bessell91), 
-  V-I=4.51+-0.01(Dahn86),
-  V-Ic=4.38(Reid02).
-  V-Ic=4.4(Bessell91),
-  V-Ic=4.482(GaiaDR3/synth), 
-  V-Ic=4.53(Dieterich14) => adopt V-Ic=4.48. 
-  J=8.857+-0.021(2MASS),
-  J-H=0.594+-0.042(2MASS), 
-  J-H=0.602(Bessell91/Glass=>2MASS), 
-  J-H=0.66(Bessell91/Glass), 
-  H=8.263+-0.036(2MASS),
-  H-Ks=0.337+-0.049(2MASS), 
-  H-K=0.36(Bessell91/Glass),
-  H-Ks=0.387(Bessell91/Glass=>2MASS), 
-  Ks=7.926+-0.033(2MASS),
-  K=7.97(Bessell91/Glass), 
-  I-K=3.36(Bessell91/Cousins/Glass),
-  J-Ks=0.931(2MASS), 
-  J-Ks=0.980(Bessell91/Glass=>2MASS), 
-  V-K=7.76(Bessell91/Glass),
-  V-Ks=7.804(Bessell91/Glass=>2MASS), 
-  Adopting V=15.78, Ks=7.854 => V-Ks=7.926.  Teff =
-  2450K(Casagrande08), 2588+-32K(Dieterich14), 2600K(Leggett00),
-  2700K(Rajpurohit13), 2725K(Golimowski04), 2739+-60K(Gaidos14),
-  2772+-25K(RojasAyala12), 2784K(Stelzer13) => <Teff> =
-  2712K. logL=-3.166+-0.016(Dieterich14),
+  B-V=2.009(GaiaDR3/synth), B-V=2.013+-0.110(Henden16),
+  B-V=2.10+-0.03(Dahn86) => adopt B-V=2.01.
+  Rc=13.596558(GaiaDR3/synth), Rc=13.63+-0.002(Dieterich14),
+  Rc=13.67(Bessell91), V-Rc=2.06(Bessell91),
+  V-Rc=2.112(GaiaDR3/synth), V-Rc=2.14(Reid02) => adopt V-Rc=2.11.
+  Ic=11.25+-0.025(Dieterch14), Ic=11.33(Bessell91),
+  V-I=4.51+-0.01(Dahn86), V-Ic=4.38(Reid02).  V-Ic=4.4(Bessell91),
+  V-Ic=4.482(GaiaDR3/synth), V-Ic=4.53(Dieterich14) => adopt
+  V-Ic=4.48.  J=8.857+-0.021(2MASS), J-H=0.594+-0.042(2MASS),
+  J-H=0.602(Bessell91/Glass=>2MASS), J-H=0.66(Bessell91/Glass),
+  H=8.263+-0.036(2MASS), H-Ks=0.337+-0.049(2MASS),
+  H-K=0.36(Bessell91/Glass), H-Ks=0.387(Bessell91/Glass=>2MASS),
+  Ks=7.926+-0.033(2MASS), K=7.97(Bessell91/Glass),
+  I-K=3.36(Bessell91/Cousins/Glass), J-Ks=0.931(2MASS),
+  J-Ks=0.980(Bessell91/Glass=>2MASS), V-K=7.76(Bessell91/Glass),
+  V-Ks=7.804(Bessell91/Glass=>2MASS), Adopting V=15.78, Ks=7.854 =>
+  V-Ks=7.926.  Teff = 2450K(Casagrande08), 2588+-32K(Dieterich14),
+  2600K(Leggett00), 2700K(Rajpurohit13), 2725K(Golimowski04),
+  2739+-60K(Gaidos14), 2772+-25K(RojasAyala12), 2784K(Stelzer13) =>
+  <Teff> = 2712K. logL=-3.166+-0.016(Dieterich14),
   R=0.129+-0.0041Rsun(Dieterich14).  [M/H]=-0.28+-0.12(RojasAyala12).
   plx = 217.1+-5.0mas(Dahn86), plx = 219.1159 0.1567mas(GaiaDR2) =>
   Mv= 17.487+-0.028(APASS,DR2), M_Ks=9.629+-0.033(2MASS,DR2).
-  (g-G)=3.688. 
+  (g-G)=3.688.
 
 # Exemplar
 
@@ -477,16 +454,28 @@ LHS 2930 = GJ 3855 = LP 98-79 = 2MASS J14303787+5943249
   literature. Colors and SED presented in detail in
   Leggett01. Probst83 referred to LHS 2930 as "the second least
   luminous red dwarf with a reliable parallax" at the time of their
-  1983 paper. plx=103.8+-1.4mas (Monet92), plx=100.2930
+  1983 paper. One of the nearby M dwarfs with measured parallax and
+  reliable SDSS photometry used to calibrate SDSS M dwarfs (Covey08).
+  plx=103.8+-1.4mas (Monet92), plx=100.2930
   0.0793mas(GaiaDR2). V=17.88(Monet92,vanAltena95), V=17.90(Probst83),
   V-Ic=4.60(Probst83), Ic=13.31(Leggett01), I-J=2.54(Leggett01),
   J-H=0.65(Leggett01), H-K=0.38(Leggett01), K=9.74(Leggett01),
   K-L'=0.52(Leggett01), J = 10.790+-0.018(2MASS),
   H=10.140+-0.020(2MASS), Ks=9.788+-0.020(2MASS) =>
-  V-Ks=8.092(Monet92,2MASS).  Leggett01: fbol = 2.05e-13 W/m2 => mbol
-  = 12.723 => BC_Ks = 12.723 - 9.788 = 2.935, BCv = 12.723 - 17.88 =
-  -5.157.  GaiaDR2: plx=100.2930+-0.0793mas, G= 14.8670 0.0006,
-  E(BR/RP)=1.786, Bp-Rp=4.8267, Bp-G=3.2921, G-Rp=1.5345.
+  V-Ks=8.092(Monet92,2MASS).  u=21.102(SDSS/DR16/median/N=6),
+  g=18.837(SDSS/DR16/median/N=6), r=17.121(SDSS/DR16/median/N=6),
+  i=14.29(Covey08), i=14.292(SDSS/DR16/median/N=6),
+  z=12.770(SDSS/DR16/median/N=6), r-i=2.82(Covey08),
+  i-z=1.52(Covey08), i-J=3.50(Covey08/2M), z-J=1.98(Covey08/2M).  u-g
+  = 21.102 - 18.837 = 2.265(SDSS/DR16/med/N=6), g-r = 18.837 - 17.121
+  = 1.716(SDSS/DR16/med/N=6), r-i = 17.121 - 14.292 =
+  2.829(SDSS/DR16/med/N=6), i-z = 14.292 - 12.770 =
+  1.522(SDSS/DR16/med/N=6), i-J = 14.292 - 10.790 =
+  3.502(SDSS/DR16/med/N=6,2MASS), z-J = 12.770 - 10.790 =
+  1.980(SDSS/DR16/med/N=6,2MASS), Leggett01: fbol = 2.05e-13 W/m2 =>
+  mbol = 12.723 => BC_Ks = 12.723 - 9.788 = 2.935, BCv = 12.723 -
+  17.88 = -5.157.  GaiaDR2: plx=100.2930+-0.0793mas, G= 14.8670
+  0.0006, E(BR/RP)=1.786, Bp-Rp=4.8267, Bp-G=3.2921, G-Rp=1.5345.
   M_G=14.873+-0.002, Mv=17.89, M_Ks=9.794+-0.020(2MASS,DR2).
 
 LHS 2090 = LP 368-128 = 2MASS J09002359+2150054 

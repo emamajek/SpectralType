@@ -159,19 +159,24 @@ M_G(M2.5V) =   10.785  ; CD-17 588B
 (g-G)(M2.5V) = 1.787 (+-0.009 sem, +-0.089 stdev) ; SIMBAD d<25pc M2.5 (N=114)
 => adopt (g-G)(M2.5V) = 1.79 [updated 6/29/2023]
 
-(g-r)(M2.5V) = 1.47 ; Covey07
+(u-g)(M2.5V) = 2.74 ; Covey07
+=> adopted (u-g)(M2.5V) = 2.74 [updated 4/20/2024]
 
-(r-i)(M2.5V) = 1.029 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.265
-(r-i)(M2.5V) = 1.102 (+-0.05 rms) ; West05 fit for (V-Ic)=2.306
-(r-i)(M2.5V) = 1.17  (+-0.11 rms) ; Cifuentes20
-=> adopt (r-i)(M2.5V) = 1.07 [updated 7/15/2023]
+(g-r)(M2.5V) = 1.345 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs (see M0V.txt)
+(g-r)(M2.5V) = 1.47  ; Covey07
+=> adopt (g-r)(M2.5V) = 1.345 [updated 4/18/2024]
+
+(r-i)(M2.5V) =  1.029 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.265
+(r-i)(M2.5V) =  1.102 (+-0.05 rms) ; West05 fit for (V-Ic)=2.306
+(r-i)(M2.5V) = 1.156 ; smoothed trend SpT vs r-i for SIMBAD d<50pc M0V-M8.5V (4/2024; see M0V.txt)
+(r-i)(M2.5V) =  1.17  (+-0.11 rms) ; Cifuentes20
+=> adopt (r-i)(M2.5V) = 1.16 [updated 4/18/2024]
 
 (g-V)(M2.5V) = 0.843 ; Jordi06 B-V=>g-V for B-V=1.53
 (g-V)(M2.5V) = 0.847 ; Just08/Chonis08 B-V=>g-V for B-V=1.53
 => adopt (g-V)(M2.5V) = 0.847 [updated 9/1/2023]
 
 (z-J)(M2.5V) = 1.423 (+-0.028 rms) ; poly fit to d<100pc GCNS for G-Ks=3.41
-
 
 Mv(M2.5V) =   10.80 ; Kirkpatrick94
 Mv(M2.5V) =  10.74 ; JohnsonApps09 fit for V-Ks=4.43

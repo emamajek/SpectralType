@@ -128,13 +128,15 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 => adopt (B-V)(M0V) = 1.43 [updated 4/1/2024]
 
 (U-B)(M0V) = 0.76  ; pri. stan. GJ 270 = HIP 35495 = BD+33_1505
-(U-B)(M0V) = 1.197 ; HIP d<75pc S/N>8 M0V N=42
+(U-B)(M0V) =  1.197 ; HIP d<75pc S/N>8 M0V N=42
+(U-B)(M0V) = 1.204 ; U-B from color trend for local dwarfs for V-Ks=3.67, B-V=1.406
 (U-B)(M0V) = 1.22  ; exemplar GJ 825 = Lacaille 8760 = HD 202560 
 (U-B)(M0V) = 1.218 ; Reid CNS3 sample M0 median value (N=21)
-(U-B)(M0V) =  1.25  ; Young Disk ; Leggett92
-(U-B)(M0V) =  1.25  ; Old Disk ; Leggett92
+(U-B)(M0V) =   1.25  ; Young Disk ; Leggett92
+(U-B)(M0V) =   1.25  ; Old Disk ; Leggett92
 (U-B)(M0V) = 1.26  ; ter. stan. GJ 328 = HIP 43790 = Ross 623
 (U-B)(M0V) =  1.26  ; Johnson65
+=> adopt (U-B)(M0V) = 1.204 [updated 4/20/2024]
 
 (V-Rc)(M0V) = 0.905 ; exemplar GJ 825 = Lacaille 8760 = HD 202560 
 (V-Rc)(M0V) =  0.89 ; Bessell91 "old disk"
@@ -202,7 +204,6 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (V-Ks)(M0V) =  4.048 ; deprecated stan. GJ 686
 (V-Ks)(M0V) =  4.064 ; deprecated stan. GJ 701
 => adopt (V-Ks)(M0V) = 3.67 [last updated 10/17/2023; G-V=-0.69; G-Ks=2.98]
-=> adopt (U-B)(M0V)  = 1.206
 => adopt (V-J)(M0V)  = 2.833
 => adopt (V-H)(M0V)  = 3.460
 => adopt (V-Hp)(M0V) = -0.085
@@ -335,70 +336,80 @@ Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 (g-G)(M0V) = 1.637 (+-0.028 sem, +-0.098 stdev) ; SIMBAD d<15pc M0 (N=15)
 => adopt (g-G)(M0V) = 1.55 [updated 6/29/2023]
 
-(u-g)(M0V) = 0.65 ; GJ_3765_ plx=56.13mas M0
-(u-g)(M0V) = 2.44 ; Fukugita11
+(u-g)(M0V)   =  0.65 ; GJ_3765_ plx=56.13mas M0
+(u-g)(M0V)   =  2.44 ; Fukugita11 (assumes Teff=3793K) 
+(u-g)(M0V)   = 2.65  ; Covey07
+(u'-g')(M0V) = 2.721 ; Smith02 u'-g' calibration for U-B=1.204
+(u'-g')(M0V) = 2.802 ; Fukugita96 u'-g' calibration for U-B=1.204
+=> adopt (u-g)(M0V) = 2.72 [updated 4/20/2024]
 
-(g-r)(M0V) = 0.818 ; GJ_123_ plx=67.93mas M0V
-(g-r)(M0V) = 1.039 ; GJ_3403_ plx=75.95mas M0Vk:
-(g-r)(M0V) = 1.117 ; GJ_471_ plx=72.89mas M0V
-(g-r)(M0V) = 1.134 ; GJ_239_ plx=100.02mas M0.0V
-(g-r)(M0V) = 1.205 ; GJ_488_ plx=93.85mas M0V
-(g-r)(M0V) = 1.234 ; GJ_79_ plx=90.42mas M0V
-(g-r)(M0V) = 1.284 ; GJ_494_A_ plx=86.90mas M0V
+(g-r)(M0V) =   0.818 ; GJ_123_ plx=67.93mas M0V
+(g-r)(M0V) =  1.039 ; GJ_3403_ plx=75.95mas M0Vk:
+(g-r)(M0V) =  1.117 ; GJ_471_ plx=72.89mas M0V
+(g-r)(M0V) =  1.134 ; GJ_239_ plx=100.02mas M0.0V
+(g-r)(M0V) =  1.205 ; GJ_488_ plx=93.85mas M0V
+(g-r)(M0V) =  1.234 ; GJ_79_ plx=90.42mas M0V
+(g-r)(M0V) =  1.284 ; GJ_494_A_ plx=86.90mas M0V
 (g-r)(M0V) = 1.305 ; Just08/Chonis08 B-V=>g-r for B-V=1.42
 (g-r)(M0V) = 1.31  ; Covey07
 (g-r)(M0V) = 1.31 (+-0.16; rms) ; West11
 (g-r)(M0V) = 1.317 ; Jordi06 pop I calibration for V-Rc=0.89
-(g-r)(M0V) = 1.322 ; GJ_3371_ plx=74.14mas M0.0V
-(g-r)(M0V) = 1.346 ; GJ_192_ plx=82.31mas M0V
-(g-r)(M0V) = 1.350 ; GJ_3438_ plx=71.32mas M0V
+(g-r)(M0V) = 1.320 ; smoothed trend SpT vs g-r for SIMBAD d<50pc M dwarfs (4/2024)
+(g-r)(M0V) =  1.322 ; GJ_3371_ plx=74.14mas M0.0V
+(g-r)(M0V) =  1.346 ; GJ_192_ plx=82.31mas M0V
+(g-r)(M0V) =  1.350 ; GJ_3438_ plx=71.32mas M0V
 (g-r)(M0V) = 1.356 ; Bilir05 calibration for B-V=1.43
-(g-r)(M0V) = 1.407 ; GJ_701_ plx=129.22mas M0V
+(g-r)(M0V) =  1.407 ; GJ_701_ plx=129.22mas M0V
 (g-r)(M0V) = 1.41  ; Fukugita11 
-(g-r)(M0V) = 1.416 ; GJ_281_ plx=66.34mas M0.0V
-(g-r)(M0V) = 1.467 ; GJ_277.1_ plx=84.70mas M0V
-(g-r)(M0V) = 1.524 ; GJ_572_ plx=85.41mas M0V
-(g-r)(M0V) = 1.583 ; GJ_536_ plx=95.96mas M0V
-=> adopt (g-r)(M0V) = 1.32 [updated 4/7/2024]
+(g-r)(M0V) =  1.416 ; GJ_281_ plx=66.34mas M0.0V
+(g-r)(M0V) =  1.467 ; GJ_277.1_ plx=84.70mas M0V
+(g-r)(M0V) =  1.524 ; GJ_572_ plx=85.41mas M0V
+(g-r)(M0V) =  1.583 ; GJ_536_ plx=95.96mas M0V
+=> adopt (g-r)(M0V) = 1.320 [updated 4/18/2024]
+[EEM 4/18/2024: using smooth trend for SIMBAD g-r data for d<50pc M dwarfs.
+Anchors linear trend between M0V and M4V.]
 
-(r-i)(M0V) =  0.56 (+-0.08 rms) ; West11
+(r-i)(M0V) = 0.55 ; Kowalski09 
+(r-i)(M0V) = 0.56 (+-0.08 rms) ; West11
 (r-i)(M0V) = 0.66  ; Fukugita11 
 (r-i)(M0V) = 0.66 (+-0.12 rms) ; West08
 (r-i)(M0V) = 0.67  ; West05
 (r-i)(M0V) = 0.678 ; Jordi06 Pop I (R-Ic=>(r-i) for (R-Ic)=0.91
 (r-i)(M0V) = 0.723 ; Bilir05 calibration for R-Ic=0.91
 (r-i)(M0V) = 0.74 (+-0.14 rms) ; Cifuentes20
-(r-i)(M0V) = 0.815 ; GJ_572_ plx=85.41mas M0V
-(r-i)(M0V) = 0.880 ; GJ_3438_ plx=71.32mas M0V
-(r-i)(M0V) = 0.887 ; GJ_701_ plx=129.22mas M0V
-(r-i)(M0V) =  0.91 (+-0.24 rms) ; Hawley02 ("r*-i*")
-(r-i)(M0V) = 0.911 ; GJ_281_ plx=66.34mas M0.0V
-(r-i)(M0V) = 0.923 ; GJ_277.1_ plx=84.70mas M0V
-(r-i)(M0V) = 0.937 ; GJ_494_A_ plx=86.90mas M0V
-(r-i)(M0V) = 0.943 ; GJ_488_ plx=93.85mas M0V
-(r-i)(M0V) = 0.965 ; GJ_3371_ plx=74.14mas M0.0V
-(r-i)(M0V) = 0.994 ; GJ_3403_ plx=75.95mas M0Vk:
-(r-i)(M0V) = 1.029 ; GJ_471_ plx=72.89mas M0V
-(r-i)(M0V) = 1.030 ; GJ_123_ plx=67.93mas M0V
-(r-i)(M0V) = 1.060 ; GJ_239_ plx=100.02mas M0.0V
-(r-i)(M0V) = 1.093 ; GJ_79_ plx=90.42mas M0V
-(r-i)(M0V) = 1.131 ; GJ_536_ plx=95.96mas M0V
-(r-i)(M0V) = 1.134 ; GJ_192_ plx=82.31mas M0V
-=> adopt (r-i)(M0V) = 0.91 [updated 4/7/2024; need to reevaluate*]
-[EEM 7/4/2024: something odd going on where the nearest M0Vs in SIMBAD have r-i typically
-between ~0.8-1.1, but the SDSS published values are ~0.6 to ~0.9. I select a value typical
-for nearby M0Vs, consistent with Hawley02, but redder than the others]
+(r-i)(M0V) = 0.751 ; smoothed trend SpT vs r-i for SIMBAD Mdwarfs d<50pc (4/2024)
+(r-i)(M0V) =  0.815 ; GJ_572_ plx=85.41mas M0V
+(r-i)(M0V) =  0.880 ; GJ_3438_ plx=71.32mas M0V
+(r-i)(M0V) =  0.887 ; GJ_701_ plx=129.22mas M0V
+(r-i)(M0V) = 0.91 (+-0.24 rms) ; Hawley02 ("r*-i*")
+(r-i)(M0V) =  0.911 ; GJ_281_ plx=66.34mas M0.0V
+(r-i)(M0V) =  0.923 ; GJ_277.1_ plx=84.70mas M0V
+(r-i)(M0V) =  0.937 ; GJ_494_A_ plx=86.90mas M0V
+(r-i)(M0V) =  0.943 ; GJ_488_ plx=93.85mas M0V
+(r-i)(M0V) =  0.965 ; GJ_3371_ plx=74.14mas M0.0V
+(r-i)(M0V) =  0.994 ; GJ_3403_ plx=75.95mas M0Vk:
+(r-i)(M0V) =  1.029 ; GJ_471_ plx=72.89mas M0V
+(r-i)(M0V) =  1.030 ; GJ_123_ plx=67.93mas M0V
+(r-i)(M0V) =  1.060 ; GJ_239_ plx=100.02mas M0.0V
+(r-i)(M0V) =  1.093 ; GJ_79_ plx=90.42mas M0V
+(r-i)(M0V) =  1.131 ; GJ_536_ plx=95.96mas M0V
+(r-i)(M0V) =  1.134 ; GJ_192_ plx=82.31mas M0V
+=> adopt (r-i)(M0V) = 0.75 [updated 4/18/2024]
+[EEM 7/18/2024: something odd going on where the nearest M0Vs in SIMBAD have r-i typically
+between ~0.8-1.1, but the SDSS published values are ~0.6 to ~0.9. I adopt the value from
+a smooth fit of SIMBAD d<50pc M0V-M8.5V stars, which show nice montonic trend.]
 
 (g-V)(M0V) = 0.773 ; Jordi06 B-V=>g-V for B-V=1.42
 (g-V)(M0V) = 0.777 ; Just08/Chonis08 B-V=>g-V for B-V=1.42
 => adopt (g-V)(M0V) = 0.775 [updated 9/1/2023]
 
+(i-z)(M0V) = 0.32 ; Kowalski09
 (i-z)(M0V) = 0.33 (+-0.06 rms) ; West11
 (i-z)(M0V) = 0.37 (+-0.06 rms) ; West05 
 (i-z)(M0V) = 0.38 (+-0.07 rms) ; West08
-(i-z)(M0V) = 0.49 (+-0.06 rms) ; Hawley02 ("i*-z*")
-(i-z)(M0V) = 2.598 ; GJ_3765_ plx=56.13mas M0
-=> adopt (i-z)(M0V) = 0.38 [updated 4/7/2024; i-J=1.66, z-J=1.28]
+(i-z)(M0V) =  0.49 (+-0.06 rms) ; Hawley02 ("i*-z*")
+(i-z)(M0V) =  2.598 ; GJ_3765_ plx=56.13mas M0
+=> adopt (i-z)(M0V) = 0.35 [updated 4/12/2024; i-J=1.66, z-J=1.31]
 
 (i-J)(M0V) = 1.555 ; GJ_471_ plx=72.89mas M0V
 (i-J)(M0V) = 1.561 ; GJ_488_ plx=93.85mas M0V
@@ -417,15 +428,15 @@ for nearby M0Vs, consistent with Hawley02, but redder than the others]
 (i-J)(M0V) =  1.92 ; West05
 (i-J)(M0V) =  1.93 (+-0.50 rms) ; Hawley02 ("i*-J")
 (i-J)(M0V) =  2.016 ; GJ_79_ plx=90.42mas M0V
-=> adopt (i-J)(M0V) = 1.66 [updated 4/7/2024; i-z=0.38, z-J=1.3]
+=> adopt (i-J)(M0V) = 1.66 [updated 4/12/2024; i-z=0.35, z-J=1.31]
 
-(z-J)(M0V) = 1.20 (+-0.25 rms) ; West11
-(z-J)(M0V) = 1.23 (+-0.19 rms) ; West08
-(z-J)(M0V) = 1.28 ; i-J=1.66, i-z=0.38 
-(z-J)(M0V) = 1.42 (+-0.50 rms) ; Hawley02 ("z*-J") 
-(z-J)(M0V) = 1.45              ; West05
-(z-J)(M0V) = 2.077 ; GJ_3765_ plx=56.13mas M0
-=> adopt (z-J)(M0V) = 1.28: [updated 4/7/2024; i-z=0.38, i-J=1.66]
+(z-J)(M0V) =  1.20 (+-0.25 rms) ; West11
+(z-J)(M0V) =  1.23 (+-0.19 rms) ; West08
+(z-J)(M0V) = 1.31 ; i-J=1.66, i-z=0.35
+(z-J)(M0V) =  1.42 (+-0.50 rms) ; Hawley02 ("z*-J") 
+(z-J)(M0V) =  1.45              ; West05
+(z-J)(M0V) =  2.077 ; GJ_3765_ plx=56.13mas M0
+=> adopt (z-J)(M0V) = 1.31 [updated 4/12/2024; i-z=0.35, i-J=1.66]
 
 (FUV-NUV)(M0V) = 2.83 (+-0.61 rms; N=22) ; Cifuentes20
 (NUV-u)(M0V)   = 4.05 (+-0.83 rms; N=37) ; Cifuentes20
@@ -1460,4 +1471,29 @@ M9   2380 -3.520 0.079
 M9.5 2350 -3.572 0.078
 
 
+# (g-r) color: fit of SpT vs. (g-r) color for 3490 SIMBAD M dwarfs within 50 pc (M0-M9.5)
 
+(g-r) = a0 + a1*Spt + a2*SpT^2 + a3*SpT^3
+a0 = 1.32752e0
+a1 = 8.8903656561658134e-3
+a2 = -5.2201527328385958e-3
+a3 = 1.3629064928076769e-3
+rms=0.107mag
+(outliers spaced >0.1 mag from other g-r colors for a given subtype M0-M9.5)
+however to smooth out some of the bumps at the <0.01 mag, level, a linear fit
+between M0V-M4V works well: (g-r) = 1.32 + 0.01*SpT (SpT=0 for M0, 4 for M4). 
+
+
+# (r-i) color: fit of SpT vs. (r-i) color for 3274 SIMBAD M dwarfs within 50 pc (M0-M8.5).
+
+Fit is rather smooth and monotonic coolward to M8.5 but then turns blueward - so the cooler objects are treated separately. The higher order fit (N=6) was needed to capture the turnover around M8.5V:
+
+(r-i) = a0 + a1*SpT + a2*SpT^2 + a3*SpT^3 + a4*SpT^4 + a5*SpT^5 + a6*SpT^6
+a0 = 7.5090385726550335e-001
+a1 = 1.3995218489314826e-001
+a2 = -7.6615827275942835e-002
+a3 = 7.2923427068998806e-002
+a4 = -2.1401493457220509e-002
+a5 = 2.6541229662378923e-003
+a6 = -1.1758492268133150e-004
+rms=0.148mag

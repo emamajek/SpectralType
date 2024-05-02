@@ -76,14 +76,49 @@ Kirkpatrick's DwarfArchives lists 8 M7.5V stars.
 (g-G)(M7.5)  = 4.435 ; LP_135-272
 => adopt (g-G)(M7.5V) = 4.0 [updated 6/29/2023]
 
-(r-i)(M7.5V) =  1.927 (+-0.05 rms) ; West05 fit for (V-Ic)=4.57
-(r-i)(M7.5V) = 2.66  (+-0.09 rms) ; Cifuentes20
-=> adopt (r-i)(M7.5V) = 2.66 [updated 9/1/2023]
+(u-g)(M7.5V) = 0.25  ; LP_485-17_ plx=59.8055mas M7.5Ve
+(u-g)(M7.5V) = 0.575 ; LP_135-272_ plx=62.0426mas M7.5
+(u-g)(M7.5V) = 1.735 ; 2MASS_J23262661+1345520_ plx=18.4209mas M7.5
+(u-g)(M7.5V) = 2.26  ; 2MASS_J11391107+0841121_ plx=42.9337mas M7.5
+(u-g)(M7.5V) = 2.399 ; 2MASSI_J1546054+374946_ plx=28.1527mas M7.5V
+(u-g)(M7.5V) = 3.688 ; 2MASS_J13023897+0351410_ plx=16.8238mas M7.5
 
+(g-r)(M7.5V) =  1.506 ; LP_485-17_ plx=59.8055mas M7.5Ve
+(g-r)(M7.5V) =  1.625 ; TRAPPIST-1 = 2MASS J23062928-0502285
+(g-r)(M7.5V) = 1.694 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs (see M0V.txt)
+(g-r)(M7.5V) =  1.718 ; 2MASS_J23262661+1345520_ plx=18.4209mas M7.5
+(g-r)(M7.5V) =  1.748 ; 2MASSI_J1546054+374946_ plx=28.1527mas M7.5V
+(g-r)(M7.5V) =  1.780 ; 2MASS_J13023897+0351410_ plx=16.8238mas M7.5
+(g-r)(M7.5V) =  1.982 ; 2MASS_J11391107+0841121_ plx=42.9337mas M7.5
+(g-r)(M7.5V) =  2.020 ; LP_135-272_ plx=62.0426mas M7.5
+=> adopt (g-r)(M7.5V) = 1.69 [updated 4/12/2024]
+
+(r-i)(M7.5V) =  1.927 (+-0.05 rms) ; West05 fit for (V-Ic)=4.57
+(r-i)(M7.5V) =  2.272 ; LP_485-17_ plx=59.8055mas M7.5Ve
+(r-i)(M7.5V) =  2.505 ; 2MASSI_J1546054+374946_ plx=28.1527mas M7.5V
+(r-i)(M7.5V) = 2.596 ; smooth trend for SIMBAD r-i data for d<50pc M0V-M8.5V
+(r-i)(M7.5V) =  2.66  (+-0.09 rms) ; Cifuentes20
+(r-i)(M7.5V) =  2.900 ; TRAPPIST-1 = 2MASS J23062928-0502285
+(r-i)(M7.5V) =  2.910 ; LP_135-272_ plx=62.0426mas M7.5
+(r-i)(M7.5V) =  2.921 ; 2MASS_J11391107+0841121_ plx=42.9337mas M7.5
+(r-i)(M7.5V) =  2.923 ; 2MASS_J13023897+0351410_ plx=16.8238mas M7.5
+(r-i)(M7.5V) =  2.998 ; 2MASS_J23262661+1345520_ plx=18.4209mas M7.5
+=> adopt (r-i)(M7.5V) = 2.6 [updated 4/18/2024]
+
+(i-z)(M7.5V) = 1.454 ; 2MASSI_J1546054+374946_ plx=28.1527mas M7.5V
 (i-z)(M7.5V) = 1.599 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=5.28
-=> adopt (i-z)(M7.5V) = 1.60 [updated 12/27/2021]
+(i-z)(M7.5V) = 1.620 ; 2MASS_J23262661+1345520_ plx=18.4209mas M7.5
+(i-z)(M7.5V) = 1.646 ; TRAPPIST-1 = 2MASS J23062928-0502285
+(i-z)(M7.5V) = 1.660 ; LP_485-17_ plx=59.8055mas M7.5Ve
+(i-z)(M7.5V) = 1.664 ; 2MASS_J13023897+0351410_ plx=16.8238mas M7.5
+(i-z)(M7.5V) = 1.707 ; LP_135-272_ plx=62.0426mas M7.5
+(i-z)(M7.5V) = 1.732 ; 2MASS_J11391107+0841121_ plx=42.9337mas M7.5
+=> adopt (i-z)(M7.5V) = 1.6 [updated 4/7/2024]
+
+(i-J)(M7.5V) = 3.737 ; TRAPPIST-1 = 2MASS J23062928-0502285
 
 (z-J)(M7.5V) = 2.002 (+-0.053 rms) ; poly fit to SIMBAD d<50pc M dwarfs for G-Ks=5.17
+(z-J)(M7.5V) =  2.091 ; TRAPPIST-1 = 2MASS J23062928-0502285
 => adopt (z-J)(M7.5V) = 2.00 [updated 12/27/2021]
 
 (Ks-L')(M7.5V) = 0.335 ; Dupuy12 polynomial
@@ -371,7 +406,7 @@ LP 655-48 = 2MASS J04402325-0530082 = DENIS-P J0440231-053009
    Not great agreement on subtype, but median subtype is ~M7.0V.
    V=17.86(Casagrande08), V-Rc=1.910(Casagrande08),
    V-Ic=4.230(Casagrande08). plx=102.30+-1.02mas(Weinberger16).
-   V-Ks=8.24(Hosey15). Teffs: 2250+-118K(Casagrande08),
+   V-Ks=8.24(Hosey2015). Teffs: 2250+-118K(Casagrande08),
    2600K(Rajpurohit13). mbol = 12.845(Casagrande08)
 
 TRAPPIST-1 = 2MASS J23062928-0502285
@@ -381,7 +416,21 @@ TRAPPIST-1 = 2MASS J23062928-0502285
   M8: Burgasser15
 
   BurgasserMamajek17 shows V-Ks color is more like M7.5V, but
-  near-IR spectra are more like M8. (V-Ks)=8.45, Mv=18.27, M_Ks=9.81. 
+  near-IR spectra are more like M8. (V-Ks)=8.45, Mv=18.27, M_Ks=9.81.
+  u=23.175+-0.664(SDSS/DR16),
+  g=19.616+-0.021(SDSS/DR16),
+  r=17.991+-0.016(SDSS/DR16),
+  i=15.091+-0.016(SDSS/DR16),
+  z=13.445+-0.023(SDSS/DR16) =>
+  u-g = 23.175-19.616 = 3.559+-0.664.
+  g-r = 19.616-17.991 = 1.625.
+  r-i = 17.991-15.091 = 2.900.
+  i-z = 15.091-13.445 = 1.646.
+  i-J = 15.091-11.354 = 3.737.
+  z-J = 13.445-11.354 = 2.091. 
+  J=11.354+-0.022(2MASS),
+  H=10.718+-0.021(2MASS),
+  Ks=10.296+-0.023(2MASS). 
 
 
 # V-Ks vs. Mv

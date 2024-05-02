@@ -173,11 +173,48 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (g-G)(M5.5V) = 2.863 ; sec. stan. GJ 1002
 => adopt (g-G)(M5.5V) = 2.68 [updated 6/29/2023]
 
-(g-r)(M5.5V) = 1.655 ; Covey07 interp M5V 1.59, M6V 1.72
+(u-g)(M5.5V) =  2.173  ; 2MASS_J03111547+0106307_ plx=59.5545mas M5.5V
+(u-g)(M5.5V) =  2.384  ; PM_J22114+4059_ plx=78.8762mas M5.5V
+(u-g)(M5.5V) =  2.849  ; 2MASS_J13011695+4112406_ plx=35.5972mas M5.5
+(u-g)(M5.5V) =  2.9529 ; deprec. stan. GJ 65A Lenz98/synthetic
+(u-g)(M5.5V) = 3.020 ; Covey07 interp M5V-M6V
+=> adopt (u-g)(M5.5V) = 3.02 [updated 4/20/2024]
 
+(g-r)(M5.5V) =  1.290 ; TWA_33_ plx=20.4489mas M5.5e
+(g-r)(M5.5V) =  1.390 ; G_247-23_ plx=51.7575mas M5.5
+(g-r)(M5.5V) =  1.396 ; LP_795-15_ plx=77.2783mas M5.5
+(g-r)(M5.5V) =  1.438 ; GJ_473_ plx=227.9mas M5.5V
+(g-r)(M5.5V) =  1.443 ; PM_J22403-4931A_ plx=83.8577mas M5.5
+(g-r)(M5.5V) = 1.448 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs
+(g-r)(M5.5V) =  1.479 ; LP_502-56_ plx=116.0425mas M5.5V
+(g-r)(M5.5V) =  1.480 ; GJ_1002_ plx=206.3500mas M5.5V
+(g-r)(M5.5V) =  1.490 ; 1RXS_J063531.2-040314_ plx=79.1639mas M5.5V
+(g-r)(M5.5V) = 1.5728 ; deprec. stan. GJ 65A Lenz98/synthetic
+(g-r)(M5.5V) =  1.589 ; GJ_1245_C_ plx=213.1329mas M5.5Ve
+(g-r)(M5.5V) =  1.596 ; PM_J22114+4059_ plx=78.8762mas M5.5V
+(g-r)(M5.5V) =  1.607 ; 2MASS_J03111547+0106307_ plx=59.5545mas M5.5V
+(g-r)(M5.5V) =  1.614 ; 2MASS_J13011695+4112406_ plx=35.5972mas M5.5
+(g-r)(M5.5V) = 1.655  ; Covey07 interp M5V 1.59, M6V 1.72
+=> adopt (g-r)(M5.5V) = 1.45 [updated 4/18/2024]
+
+(r-i)(M5.5V) =   -0.98 ; PM_J22114+4059_ plx=78.8762mas M5.5V
+(r-i)(M5.5V) =    1.614 ; 2MASS_J03111547+0106307_ plx=59.5545mas M5.5V
+(r-i)(M5.5V) =  1.820 ; TWA_33_ plx=20.4489mas M5.5e
+(r-i)(M5.5V) =  1.860 ; G_247-23_ plx=51.7575mas M5.5
 (r-i)(M5.5V) = 1.928 (+-0.05 rms) ; West05 fit for (V-Ic)=3.612
+(r-i)(M5.5V) =  1.938 ; 2MASS_J13011695+4112406_ plx=35.5972mas M5.5
+(r-i)(M5.5V) =  1.973 ; PM_J22403-4931A_ plx=83.8577mas M5.5
+(r-i)(M5.5V) =  2.008 ; 1RXS_J063531.2-040314_ plx=79.1639mas M5.5V
+(r-i)(M5.5V) =  2.061 ; LP_795-15_ plx=77.2783mas M5.5
+(r-i)(M5.5V) =  2.084 ; GJ_1245_C_ plx=213.1329mas M5.5Ve
+(r-i)(M5.5V) =  2.115 ; GJ_1002_ plx=206.3500mas M5.5V
 (r-i)(M5.5V) = 2.12  (+-0.15 rms) ; Cifuentes20
-=> adopt (r-i)(M5.5V) = 2.02 [updated 9/1/2023]
+(r-i)(M5.5V) =  2.179 ; GJ_473_ plx=227.9mas M5.5V
+(r-i)(M5.5V) = 2.2560 ; deprec. stan. GJ 65A Lenz98/synthetic
+(r-i)(M5.5V) =  2.266 ; LP_502-56_ plx=116.0425mas M5.5V
+=> adopt (r-i)(M5.5V) = 2.00 [updated 4/18/2024]
+
+(i-z)(M5.5V) = 1.0712 ; deprec. stan. GJ 65A Lenz98/synthetic
 
 (z-J)(M5.5V) = 1.738 (+-0.053 rms) ; poly fit to d<50pc SIMBAD M dwarfs for G-Ks=4.56
 => adopt (z-J)(M5.5V) = 1.74 [updated 12/27/2021]
@@ -548,6 +585,9 @@ GJ 65A = G 768-26A = StKM 2-145 = BL Cet = LHS 9
   Kervella16: mass 0.1225+-0.0043 Msun.  Teffs:
   2900K(Kervella16,evol.tracks), 3000K(Kervella16,assumed for limb
   darkening), 3000K(Kochukhov17), 3167+-12K(Koleva12) => 3000K.
+  Lenz98 calculated synthetic SDSS photometry based on Gunn-Styker
+  atlas spectrum and transmission curves (listed as "primed" SDSS
+  photometry): u-g=2.9529, g-r=1.5728, r-i=2.2560, i-z=1.0712.
 
 GJ 1245B = G 208-45 = LHS 3495 = NLTT 48415
  *M6V: Rodono80,McCarthy88,Kirkpatrick91(pri),Kirkpatrick93,Kirkpatrick94,Geballe02,CNS4

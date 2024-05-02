@@ -46,7 +46,10 @@ however most sources have it somewhat cooler.
 => adopt (B-V)(M0.5V) = 1.470 [updated 8/1/2023]
 [EEM: previously adopted value was B-V=1.455 based on interpolation M0V-M1V in V-Ks vs B-V for V-Ks=3.84]
 
-(U-B)(M0.5V)  =  1.189 ; Reid CNS3 sample M0.5 median value (N=11)
+(U-B)(M0.5V) = 1.173 ; U-B from trend for local dwarfs for B-V=1.470
+(U-B)(M0.5V) = 1.184 ; U-B from trend for local dwarfs for V-Ks=3.84 (B-V=1.441)
+(U-B)(M0.5V) = 1.189 ; Reid CNS3 sample M0.5 median value (N=11)
+=> adopt (U-B)(M0.5V) = 1.184 [updated 4/20/2024]
 
 (V-Rc)(M0.5V) =  0.947 ; Reid CNS3 sample M0.5 median value (N=29)
 
@@ -75,7 +78,6 @@ however most sources have it somewhat cooler.
 (V-K)(M0.5V)  =   3.9 ; Hawley96
 (V-Ks)(M0.5V) =  3.946 ; Reid CNS3 sample M0.5 median value (N=29)
 => adopt (V-Ks)(M0.5V) = 3.84  [last updated 9/16/2017]
-=> adopt (U-B)(M0.5V)  = 1.184
 => adopt (B-V)(M0.5V)  = 1.441 (note disagreement with B-Vs above?)
 => adopt (Bt-Vt)(M0.5V)= 1.662
 => adopt (V-Ic)(M0.5V) = 1.886
@@ -152,13 +154,19 @@ however most sources have it somewhat cooler.
 (g-G)(M0.5V) = 1.624 (+-0.192 sem,+-0.332 stdev) ; SIMBAD d<15pc M0.5V (N=3)
 => adopt (g-G)(M0.5V) = 1.52 [updated 6/29/2023]
 
+(u-g)(M0.5V) = 2.685 ; Covey07 interp M0V-M1V
+=> adopt (u-g)(M0.5V) = 2.69 [updated 4/20/2024]
+
+(g-r)(M0.5V) = 1.325 ; smoothed trend SpT vs g-r for SIMBAD d<50pc M dwarfs (4/2024; see M0V.txt)
 (g-r)(M0.5V) = 1.360 ; Just08/Chonis08 B-V=>g-r for B-V=1.47
-=> adopt (g-r)(M0.5V) = 1.360 [updated 9/1/2023]
+=> adopt (g-r)(M0.5V) = 1.325 [updated 4/18/2024]
+[EEM 4/18/2024: using smooth trend for SIMBAD g-r data for d<50pc M dwarfs]
 
 (r-i)(M0.5V) =  0.633 (+-0.05 rms) ; West05 fit for (V-Ic)=1.886
 (r-i)(M0.5V) =  0.729 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.962
 (r-i)(M0.5V) = 0.80 (+-0.13 rms) ; Cifuentes20
-=> adopt (r-i)(M0.5V) = 0.80 [updated 7/15/2023]
+(r-i)(M0.5V) = 0.810 ; smoothed trend SpT vs r-i for SIMBAD Mdwarfs d<50pc (4/2024)
+=> adopt (r-i)(M0.5V) = 0.81 [updated 4/18/2024]
 
 (g-V)(M0.5V) = 0.805 ; Jordi06 B-V=>g-V for B-V=1.47
 (g-V)(M0.5V) = 0.809 ; Just08/Chonis08 B-V=>g-V for B-V=1.47
