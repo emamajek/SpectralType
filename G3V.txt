@@ -182,6 +182,11 @@ of [Fe/H]=-0.04 for the Gray03/06 nearby G3V sample, the color trend is:
 (g-V)(G3V) = 0.291 ; Jordi06 B-V=>g-V for B-V=0.66
 => adopt (g-V)(G3V) = 0.290 [updated 9/1/2023]
 
+(u'-g')(G3V) = 1.346 ; Smith02 u'-g' calibration for U-B=0.170
+(u'-g')(G3V) = 1.375 ; Fukugita96 u'-g' calibration for U-B=0.170
+(u-g)(G3V)   = 1.41  ; Covey07 interp G2V-G5V
+=> adopt (u-g)(G3V) = 1.38 [updated 4/20/2024]
+
 (g-r)(G3V) =  0.463 ; Covey07 interp G2V-G5V
 (g-r)(G3V) = 0.474 ; Just08/Chonis08 B-V=>g-r for B-V=0.66
 (g-r)(G3V) = 0.481 ; Jordi06 (V-R)=>(g-r) for V-R=0.367
@@ -218,39 +223,39 @@ BCv(G3V) = -0.097 mag ; Bertone04(Teff=5720K)
 BCv(G3V) = -0.099 mag ; Balona94(Teff=5720K)
 => adopt BCv(G3V) = -0.095 [last updated 9/20/2019, on scale where BCv(5772K)=-0.085]
 
-M_G(G3V) =  3.10752  ; HD_114613_ plx=48.8691mas G3V  (GaiaDR3)
-M_G(G3V) = 4.33519  ; HD_86728_ plx=66.9958mas G3VaHdel1  (GaiaDR3)
-M_G(G3V) = 4.44911  ; pri. stan. HD_186427_ plx=47.3302mas G3V  (GaiaDR3)
-M_G(G3V) = 4.46097  ; HD_1461_ plx=42.7308mas G3VFe0.5  (GaiaDR3)
-M_G(G3V) = 4.52679  ; HD_179957_ plx=39.5784mas G3V  (GaiaDR3)
-M_G(G3V) = 4.55669  ; HD_193664_ plx=57.2041mas G3V  (GaiaDR3)
-M_G(G3V) = 4.58378  ; HD_30003A_ plx=32.4156mas G3V  (GaiaDR3)
-M_G(G3V) = 4.63271  ; HD_123A_ plx=48.1027mas G3V  (GaiaDR3)
-M_G(G3V) = 4.64675  ; exemplar HD_150248_ plx=35.958mas G3V+?  (GaiaDR3)
-M_G(G3V) = 4.65338  ; HD_145825_ plx=44.7674mas G3V  (GaiaDR3)
-M_G(G3V) = 4.65815  ; HD_157347_ plx=50.9694mas G3V  (GaiaDR3)
-M_G(G3V) = 4.69541  ; HD_11131_ plx=41.8mas G3V  (GaiaDR3)
-M_G(G3V) = 4.73125  ; HD_24409_ plx=46.0070mas G3V  (GaiaDR3)
-M_G(G3V) = 4.75755  ; HD_4391_ plx=66.4509mas G3V  (GaiaDR3)
-M_G(G3V) = 4.78785  ; HD_30003B_ plx=32.4332mas G3V  (GaiaDR3)
-M_G(G3V) = 4.81547  ; HD_59967_ plx=45.9738mas G3V  (GaiaDR3)
-M_G(G3V) = 4.94873  ; HD_68017_ plx=46.3415mas G3V  (GaiaDR3)
-M_G(G3V) = 4.98219  ; HD_149813_ plx=31.8364mas G3V  (GaiaDR3)
-M_G(G3V) = 4.99978  ; HD_202108_ plx=36.816mas G3V  (GaiaDR3)
+M_G(G3V) =  3.108 ; HD_114613_ plx=48.8691mas G3V  (GaiaDR3)
+M_G(G3V) = 4.335 ; HD_86728_ plx=66.9958mas G3VaHdel1  (GaiaDR3)
+M_G(G3V) = 4.449 ; pri. stan. HD_186427_ plx=47.3302mas G3V  (GaiaDR3)
+M_G(G3V) = 4.460 ; HD_1461_ plx=42.7308mas G3VFe0.5  (GaiaDR3)
+M_G(G3V) = 4.526 ; HD_179957_ plx=39.5784mas G3V  (GaiaDR3)
+M_G(G3V) = 4.556 ; HD_193664_ plx=57.2041mas G3V  (GaiaDR3)
+M_G(G3V) = 4.583 ; HD_30003A_ plx=32.4156mas G3V  (GaiaDR3)
+M_G(G3V) = 4.632 ; HD_123A_ plx=48.1027mas G3V  (GaiaDR3)
+M_G(G3V) = 4.646 ; exemplar HD_150248_ plx=35.958mas G3V+?  (GaiaDR3)
+M_G(G3V) = 4.653 ; HD_145825_ plx=44.7674mas G3V  (GaiaDR3)
+M_G(G3V) = 4.658 ; HD_157347_ plx=50.9694mas G3V  (GaiaDR3)
+M_G(G3V) = 4.695 ; HD_11131_ plx=41.8mas G3V  (GaiaDR3)
+M_G(G3V) = 4.731 ; HD_24409_ plx=46.0070mas G3V  (GaiaDR3)
+M_G(G3V) = 4.757 ; HD_4391_ plx=66.4509mas G3V  (GaiaDR3)
+M_G(G3V) = 4.787 ; HD_30003B_ plx=32.4332mas G3V  (GaiaDR3)
+M_G(G3V) = 4.815 ; HD_59967_ plx=45.9738mas G3V  (GaiaDR3)
+M_G(G3V) = 4.948 ; HD_68017_ plx=46.3415mas G3V  (GaiaDR3)
+M_G(G3V) = 4.982 ; HD_149813_ plx=31.8364mas G3V  (GaiaDR3)
+M_G(G3V) = 4.999 ; HD_202108_ plx=36.816mas G3V  (GaiaDR3)
 
-Mv(G3V)  =  4.98 mag ; V-Ks=1.59 for EEM poly fit to SIMBAD d<25pc (1/2022) (M_Ks=3.39)
-Mv(G3V)  =   4.9  mag ; GrayCorbally09
-Mv(G3V)  =  4.91 mag ; CATSUP -0.1 < [Fe/H] < 0.1 d<30pc for B-V=0.660
-Mv(G3V)  =  4.90 mag ; exemplar HD 150248
-Mv(G3V)  =  4.90 mag ; B-V=0.66 => interp G2V-G5V
-Mv(G3V)  =  4.89 mag ; B-V=0.66 => EEM fit to SIMBAD dwarfs d<25pc
-Mv(G3V)  = 4.87 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.66
-Mv(G3V)  =  4.86 mag ; B-V=0.66 => Mv(Wright05)
-Mv(G3V)  =  4.82 mag ; median XHIP G3V d<20pc 
-Mv(G3V)  =  4.79 mag ; median SIMBAD G3V d<25pc  (N=12)
-Mv(G3V)  =  4.67 mag ; sec. stan. HD 26736 (Hyad)
-Mv(G3V)  =  4.62 mag ; pri. stan. 16 Cyg B
-Mv(G3V)  =   4.22 mag ; Wegner07
+Mv(G3V) =  4.98 mag ; V-Ks=1.59 for EEM poly fit to SIMBAD d<25pc (1/2022) (M_Ks=3.39)
+Mv(G3V) =   4.9  mag ; GrayCorbally09
+Mv(G3V) =  4.91 mag ; CATSUP -0.1 < [Fe/H] < 0.1 d<30pc for B-V=0.660
+Mv(G3V) =  4.90 mag ; exemplar HD 150248
+Mv(G3V) =  4.90 mag ; B-V=0.66 => interp G2V-G5V
+Mv(G3V) =  4.89 mag ; B-V=0.66 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(G3V) = 4.87 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.66
+Mv(G3V) =  4.86 mag ; B-V=0.66 => Mv(Wright05)
+Mv(G3V) =  4.82 mag ; median XHIP G3V d<20pc 
+Mv(G3V) =  4.79 mag ; median SIMBAD G3V d<25pc  (N=12)
+Mv(G3V) =  4.67 mag ; sec. stan. HD 26736 (Hyad)
+Mv(G3V) =  4.62 mag ; pri. stan. 16 Cyg B
+Mv(G3V) =   4.22 mag ; Wegner07
 => adopt Mv(G3V)   = 4.87  mag [updated 9/26/2020]
 => adopt M_G(G3V)  = 4.703 mag [updated 12/10/2020] (Mv=4.87, G-V=-0.167)
 => adopt M_Ks(G3V) = 3.282 mag [updated 12/30/2020] (Mv=4.87, V-Ks=1.588)
@@ -292,7 +297,9 @@ HD 186427 = 16 Cyg B = GJ 765.1B = HR 7504 = "16 Cyg fol." (J1941+5031)
   different times by Morgan and Keenan. It appears that Keenan stopped
   at G3V in the 80s, and Gray03/06 adopted this (although Gray01 said
   G2V).  I adopt Keenan's final "G3V" and consider it a primary
-  standard. B-V[HIP]=0.661+-0.005. Mass = 0.99 Msun (Howard10), 0.97
+  standard.
+  B-V=0.661+-0.005(HIP).
+  Mass = 0.99 Msun (Howard10), 0.97
   Msun (Holmberg07) => median Mass = 0.98 Msun. PASTEL mean
   parameters: Teff = 5752+-8K, [Fe/H] = 0.064+-0.005, logg=4.36+-0.02.
   Mv=4.62. Both stars are consistent with being slightly metal-rich

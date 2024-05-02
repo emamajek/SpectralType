@@ -257,12 +257,17 @@ to be somewhat redder than that for the other standards.
 (Ks-W1)(G2V) = 0.061 ; EEM trend for d<30pc for B-V=0.65
 => adopt (Ks-W1)(G2V) = 0.061 [updated 12/29/2019]
 
-(u-g)(G2V) = 1.213 ; Sun - Fukugita11(Thullier03/SED)
-(u-g)(G2V) = 1.22  ; Fukugita11 
-(u-g)(G2V) = 1.234 ; Sun - Fukugita11(Colina96/SED)
-(u-g)(G2V) = 1.43 +-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
-=> adopt (u-g)(G2V) = 1.43 [updated 9/1/2023]
+(u-g)(G2V)   = 1.213 ; Sun - Fukugita11(Thullier03/SED)
+(u-g)(G2V)   = 1.22  ; Fukugita11 
+(u-g)(G2V)   = 1.234 ; Sun - Fukugita11(Colina96/SED)
+(u'-g')(G2V) = 1.327 ; Smith02 u'-g' calibration for U-B=0.156
+(u'-g')(G2V) = 1.355 ; Fukugita96 u'-g' calibration for U-B=0.156
+(u-g)(G2V)   = 1.37  ; Covey07
+(u-g)(G2V)   = 1.43 +-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+=> adopt (u-g)(G2V) = 1.33 [updated 9/1/2023]
+[EEM 4/20/2024: the spread in estimated values (~0.22 mag!) is surprisingly large for the Sun's spectral type!]
 
+(g-r)(G2V) = 0.417 +-0.04(rms) ; Fukugita11 g-r vs Teff relation (eqn 1) for Teff=5772K
 (g-r)(G2V) = 0.43  ; Fukugita11 
 (g-r)(G2V) = 0.44 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
 (g-r)(G2V) = 0.441 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
