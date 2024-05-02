@@ -19,26 +19,24 @@ Sota11 standard:     HD 36960 - B0.5V
 
 Garcia89 lists 2 B0.5V MK standards: HD 8965 and 22951.
 
-(B-V)(B0.5V)  = -0.295  ; EEM dereddened pri. stan. HD 36960 via Q-method
-(B-V)(B0.5V)  = -0.289  ; U-B=-1.03 via trend/Q-method
-(B-V)(B0.5V)  = -0.287  ; EEM dereddened N=7 HIP B0.5V stars via Q-method
-(B-V)(B0.5V)  = -0.282  ; EEM dereddened pri. stan. Bet Sco A via Q-method
-(B-V)(B0.5V)  = -0.28   ; Morgan53,Johnson63,JohnsonBorgman63,Johnson65,Johnson66,Garrison67,Fitzgerald70,Morgan71
-(B-V)(B0.5V)  = -0.24   ; Wegner14 
+(B-V)(B0.5V) = -0.295 ; EEM dereddened pri. stan. HD 36960 via Q-method
+(B-V)(B0.5V) = -0.289 ; U-B=-1.03 via trend/Q-method
+(B-V)(B0.5V) = -0.287 ; EEM dereddened N=7 HIP B0.5V stars via Q-method
+(B-V)(B0.5V) = -0.282 ; EEM dereddened pri. stan. Bet Sco A via Q-method
+(B-V)(B0.5V) = -0.28  ; Morgan53,Johnson63,JohnsonBorgman63,Johnson65,Johnson66,Garrison67,Fitzgerald70,Morgan71
+(B-V)(B0.5V)  = -0.24 ; Wegner14 
 => adopt (B-V)(B0.5V) = -0.289 [updated 2/7/2020]
 
-(U-B)(B0.5V)  = -1.009  ; EEM dereddened primary standard Bet Sco A via Q-method
-(U-B)(B0.5V)  = -1.01   ; Johnson63,Johnson65,Johnson66
-(U-B)(B0.5V)  = -1.02   ; JohnsonBorgman63
-(U-B)(B0.5V)  = -1.026  ; EEM dereddened N=7 B0.5V HIP stars via Q-method
-(U-B)(B0.5V)  = -1.03   ; Bessell98
-(U-B)(B0.5V)  = -1.05   ; EEM dereddened pri. stan. HD 36960 via Q-method
+(U-B)(B0.5V) = -1.009 ; EEM dereddened primary standard Bet Sco A via Q-method
+(U-B)(B0.5V) = -1.01  ; Johnson63,Johnson65,Johnson66
+(U-B)(B0.5V) = -1.02  ; JohnsonBorgman63
+(U-B)(B0.5V) = -1.026 ; EEM dereddened N=7 B0.5V HIP stars via Q-method
+(U-B)(B0.5V) = -1.03  ; Bessell98
+(U-B)(B0.5V) = -1.05  ; EEM dereddened pri. stan. HD 36960 via Q-method
 => adopt (U-B)(B0.5V) = -1.03  [updated 2/7/2020] 
 => adopt     Q(B0.5V) = -0.821 [updated 2/7/2020]
 => adopt (V-Ks)(B0.5V) = -0.913
-=> adopt (H-K)(B0.5V) = -0.063
-=> adopt (J-H)(B0.5V) = -0.153
-=> adopt (V-I)(B0.5V) = -0.338
+=> adopt (V-Ic)(B0.5V) = -0.338
 
 (V-Rj)(B0.5V) = -0.12 ; Johnson65
 
@@ -52,28 +50,39 @@ Garcia89 lists 2 B0.5V MK standards: HD 8965 and 22951.
 
 (V-Kj)(B0.5V) = -0.90 ; Johnson65
 
-(V-Ks)(B0.5V) = -0.70 ; Wegner14 (2MASS) 
+(V-Ks)(B0.5V) = -0.70 ; Wegner14 (2MASS)
+
+(J-H)(B0.5V) = -0.129 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.289
+=> adopt (J-H)(B0.5V) = -0.129 [updated 5/1/2024]
+
+(H-Ks)(B0.5V) = -0.045 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.289
+=> adopt (H-Ks)(B0.5V) = -0.045 [updated 5/1/2024]
 
 (V-Lj)(B0.5V) = -0.91 ; Johnson65
 
 (Bp-Rp)(B0.5V) = -0.469 ; Evans18 trend for V-I=-0.338
 
+(u-g)(B0.5V)   = -0.19  ; Covey07/synthetic_from_Pickles98_templates interp B0V-B1V
+(u'-g')(B0.5V) = -0.250 ; Smith02 u'-g' calibration for (U-B)=-1.03
+(u'-g')(B0.5V) = -0.281 ; Fukugita96 u'-g' calibration for (U-B)=-1.03
+=> adopt (u-g)(B0.5V) = -0.25 [updated 4/18/2024]
+
 (g-r)(B0.5V) = -0.54 ; Covey07 interp B0V -0.59 to B1V -0.49
 
-(G-V)(B0.5V) =   -0.086 ; HIP_107500 B0.5V V=9.338 G=9.1261 E(B-V)=0.874 (calc from Kervella22)
-(G-V)(B0.5V) =   -0.056 ; HIP_110998 B0.5V V=8.014 G=7.8718 E(B-V)=0.595 (calc from Kervella22)
-(G-V)(B0.5V) =  -0.033 ; HIP_96608 B0.5V V=7.490 G=7.4359 E(B-V)=0.142 (calc from Kervella22)
-(G-V)(B0.5V) =   -0.033 ; HIP_18701 B0.5V V=9.195 G=9.0960 E(B-V)=0.456 (calc from Kervella22)
-(G-V)(B0.5V) =   -0.028 ; HIP_15584 B0.5V V=8.996 G=8.8356 E(B-V)=0.914 (calc from Kervella22)
-(G-V)(B0.5V) =  -0.016 ; HIP_99435 B0.5V V=6.840 G=6.8077 E(B-V)=0.113 (calc from Kervella22)
-(G-V)(B0.5V) =   -0.013 ; HIP_110125 B0.5V V=7.773 G=7.6731 E(B-V)=0.602 (calc from Kervella22)
-(G-V)(B0.5V) =   -0.006 ; HIP_25558 B0.5V V=7.490 G=7.4304 E(B-V)=0.376 (calc from Kervella22)
-(G-V)(B0.5V) =    0.001 ; HIP_102771 B0.5V V=6.450 G=6.4187 E(B-V)=0.224 (calc from Kervella22)
-(G-V)(B0.5V) =    0.009 ; HIP_88995 B0.5V V=9.843 G=9.8067 E(B-V)=0.309 (calc from Kervella22)
-(G-V)(B0.5V) =    0.010 ; HIP_99181 B0.5V: V=8.472 G=8.4276 E(B-V)=0.377 (calc from Kervella22)
+(G-V)(B0.5V) =  -0.086 ; HIP_107500 B0.5V V=9.338 G=9.1261 E(B-V)=0.874 (calc from Kervella22)
+(G-V)(B0.5V) =  -0.056 ; HIP_110998 B0.5V V=8.014 G=7.8718 E(B-V)=0.595 (calc from Kervella22)
+(G-V)(B0.5V) = -0.033 ; HIP_96608 B0.5V V=7.490 G=7.4359 E(B-V)=0.142 (calc from Kervella22)
+(G-V)(B0.5V) =  -0.033 ; HIP_18701 B0.5V V=9.195 G=9.0960 E(B-V)=0.456 (calc from Kervella22)
+(G-V)(B0.5V) =  -0.028 ; HIP_15584 B0.5V V=8.996 G=8.8356 E(B-V)=0.914 (calc from Kervella22)
+(G-V)(B0.5V) = -0.016 ; HIP_99435 B0.5V V=6.840 G=6.8077 E(B-V)=0.113 (calc from Kervella22)
+(G-V)(B0.5V) =  -0.013 ; HIP_110125 B0.5V V=7.773 G=7.6731 E(B-V)=0.602 (calc from Kervella22)
+(G-V)(B0.5V) =  -0.006 ; HIP_25558 B0.5V V=7.490 G=7.4304 E(B-V)=0.376 (calc from Kervella22)
+(G-V)(B0.5V) =   0.001 ; HIP_102771 B0.5V V=6.450 G=6.4187 E(B-V)=0.224 (calc from Kervella22)
+(G-V)(B0.5V) =   0.009 ; HIP_88995 B0.5V V=9.843 G=9.8067 E(B-V)=0.309 (calc from Kervella22)
+(G-V)(B0.5V) =   0.010 ; HIP_99181 B0.5V: V=8.472 G=8.4276 E(B-V)=0.377 (calc from Kervella22)
 (G-V)(B0.5V) =   0.013 ; HIP_104814 B0.5V V=7.343 G=7.3367 E(B-V)=0.137 (calc from Kervella22)
-(G-V)(B0.5V) =    0.016 ; HIP_107442 B0.5V V=7.487 G=7.4496 E(B-V)=0.375 (calc from Kervella22)
-(G-V)(B0.5V) =    0.018 ; HIP_6979 B0.5V V=7.289 G=7.2615 E(B-V)=0.319 (calc from Kervella22)
+(G-V)(B0.5V) =   0.016 ; HIP_107442 B0.5V V=7.487 G=7.4496 E(B-V)=0.375 (calc from Kervella22)
+(G-V)(B0.5V) =   0.018 ; HIP_6979 B0.5V V=7.289 G=7.2615 E(B-V)=0.319 (calc from Kervella22)
 (G-V)(B0.5V) =   0.021 ; HIP_99746 B0.5V V=7.096 G=7.1005 E(B-V)=0.121 (calc from Kervella22)
 => adopt (G-V)(B0.5V) = 0.01 [updated 2/20/2023]
 

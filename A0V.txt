@@ -162,13 +162,19 @@ and within 1 mag of the MS (N=15):
 (V-Lj)(A0V) =  0.02 ; Johnson65
 (V-Lj)(A0V) =  0.05 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66)
 
-(J-H)(A0V) =   0.00  ; Bessell88/Glass
+(J-H)(A0V) = 0.00 ; Bessell88/Glass
+
+(J-H)(A0V) = -0.04 (+-0.004 rms) ; SteadHoare11 
 (J-H)(A0V) = -0.04  ; Deng20/2MASS
 (J-H)(A0V) = -0.045 ; Bessell88(Glass->2MASS)
+=> adopt (J-H)(A0V) = -0.04 [updated 4/18/2024]
 
-(H-Ks)(A0V) =  0.028 ; Bessell88(Glass->2MASS)
-(H-Ks)(A0V) =  0.02  ; Deng20/2MASS
-(H-K)(A0V) =   0.00 ; Bessell88/Glass
+(H-Ks)(A0V) = 0.028 ; Bessell88(Glass->2MASS)
+(H-Ks)(A0V) = 0.02  ; Deng20/2MASS
+(H-Ks)(A0V) = 0.00 (+-0.003 rms) ; SteadHoare11 
+=> adopt (H-Ks)(A0V) = 0.02 [updated 4/18/2024]
+
+(H-K)(A0V) = 0.00 ; Bessell88/Glass
 
 (J-K)(A0V) =   0.00 ; Bessell88/Glass
 (J-Ks)(A0V) = -0.011 ; Bessell88(Glass->2MASS)
@@ -177,10 +183,13 @@ and within 1 mag of the MS (N=15):
 (g-V)(A0V) = -0.127 ; Jordi06 B-V=>g-V for B-V=0.00
 => adopt (g-V)(A0V) = -0.127 [updated 9/1/2023]
 
-(u'-g')(A0V) = 0.87 ; Deng20
+(u'-g')(A0V) =  0.87 ; Deng20 (blue-edge method)
 (u-g)(A0V)   = 0.98 ; Fukugita11
-(u-g)(A0V)   = 1.02 +-0.08 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
-=> adopt (u-g)(A0V) = 1.02 [updated 9/1/2023]
+(u-g)(A0V)   = 1.02+-0.08 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+(u-g)(A0V)   = 1.09 ; Covey07/synthetic_from_Pickles98_templates
+(u'-g')(A0V) = 1.112 ; Smith02 u'-g' calibration for U-B=-0.006
+(u'-g')(A0V) = 1.132 ; Fukugita96 u'-g' calibration for U-B=-0.006
+=> adopt (u-g)(A0V) = 1.09 [updated 9/1/2023]
 
 (g-r)(A0V) = -0.104 ; Jordi06 (V-R)=>(g-r) for V-R=0.001
 (g-r)(A0V) = -0.14  ; Deng20
