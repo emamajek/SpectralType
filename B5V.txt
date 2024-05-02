@@ -51,7 +51,7 @@ updated to the revised calibration (10/10/2011).
 (B-V)(B5V) = -0.156 ; EEM dereddened 97 HIP B5V stars (Q-method, E(B-V)<0.1)
 (B-V)(B5V) =  -0.16  ; JohnsonMorgan53,Morgan53,Johnson63,Johnson65,Johnson66,Fitzgerald70, Morgan71
 (B-V)(B5V) =  -0.17  ; SchmidtKaler82
-=> adopt (B-V)(B5V) = -0.156 ** [updated 9/26/2019]
+=> adopt (B-V)(B5V) = -0.156 [updated 9/26/2019]
 
 The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V)o> is probably near this value.
 
@@ -107,14 +107,20 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 => adopt (V-Ks)(B5V) = -0.38  [updated 4/8/2022]
 => adopt (V-J)(B5V)  = -0.287 [updated 4/8/2022]
 => adopt (V-H)(B5V)  = -0.370 [updated 4/8/2022]
-=> adopt (H-Ks)(B5V) = -0.010 [updated 4/8/2022]
-=> adopt (J-H)(B5V)  = -0.084 [updated 4/8/2022]
 
 (J-H)(B5V) = -0.06 ; Winkler97/SAAO
-(J-H)(B5V) = -0.09 ; Deng20/2MASS
 
-(H-Ks)(B5V) = -0.02 ; Deng20/2MASS 
+(J-H)(B5V) = -0.082 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.156
+(J-H)(B5V) = -0.09 ; Deng20/2MASS
+(J-H)(B5V) = -0.11 (+-0.004 rms) ; SteadHoare11
+=> adopt (J-H)(B5V) = -0.082 [updated 5/1/2024]
+
 (H-K)(B5V)  = -0.06 ; Winkler97/SAAO
+
+(H-Ks)(B5V) = -0.007 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.156
+(H-Ks)(B5V) = -0.02 ; Deng20/2MASS
+(H-Ks)(B5V) = -0.03 (+-0.004 rms) ; SteadHoare11
+=> adopt (H-Ks)(B5V) = -0.007 [updated 5/1/2024]
 
 (J-Ks)(B5V) = -0.11 ; Deng20/2MASS
 
@@ -124,7 +130,12 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 (Ks-W1)(B5V) = -0.03  ; Deng20
 => adopt (Ks-W1)(B5V) = 0.029 [updated 12/29/2019]
 
-(u'-g')(B5V) = 0.23 ; Deng20
+(u'-g')(B5V) =  0.23 ; Deng20 (blue-edge method)
+(u-g)(B5V)   = 0.262 ; Fukugita11 interp B2V-B7V
+(u'-g')(B5V) = 0.338 ; Fukugita96 u'-g' calibration for (U-B)=-0.581
+(u'-g')(B5V) = 0.347 ; Smith02 u'-g' calibration for (U-B)=-0.581
+(u-g)(B5V)   = 0.40  ; Covey07/synthetic_from_Pickles98_templates interp B3V-B5/7V
+=> adopt (u-g)(B5V) = 0.34 [updated 4/18/2024]
 
 (g-r)(B5V) = -0.23  ; Deng20
 (g-r)(B5V) = -0.413 ; Covey07 interp B3V -0.46 to B5/7 -0.39

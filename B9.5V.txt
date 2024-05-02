@@ -29,7 +29,7 @@ the new calibration (10/11/2011).
 (B-V)(B9.5V) = -0.052 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
 (B-V)(B9.5V) = -0.067 ; EEM 3 d<75 pc B9.5V Hipparcos stars
 (B-V)(B9.5V) = -0.076 ; exemplar 16 Dra A = HD 150100 
-=> adopt (B-V)(B9.5V)  = -0.050 [updated 9/20/2019]
+=> adopt (B-V)(B9.5V) = -0.050 [updated 9/20/2019]
 
 (U-B)(B9.5V) = -0.143 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
 (U-B)(B9.5V) = -0.136 ; prim. stan. HD 23873 (EEM dereddened via Q-method)
@@ -41,8 +41,6 @@ the new calibration (10/11/2011).
 => adopt (V-J)(B9.5V)  = -0.025
 => adopt (V-H)(B9.5V)  = -0.069
 => adopt (V-Ks)(B9.5V) = -0.048
-=> adopt (H-Ks)(B9.5V) =  0.021
-=> adopt (J-H)(B9.5V)  = -0.044
 
 (V-Rc)(B9.5V) = -0.003 ; exemplar HD 24072 = HR 1190A
 (V-Rc)(B9.5V) = -0.016 ; pri. stan. HD 222661 = ome^2 Aqr = GJ 9836A
@@ -63,6 +61,12 @@ the new calibration (10/11/2011).
 
 (V-Ks)(B9.5V) = -0.11  ; Wegner14/2MASS
 
+(J-H)(B9.5V) = -0.045 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.050
+=> adopt (J-H)(B9.5V) = -0.045 [updated 5/1/2024]
+
+(H-Ks)(B9.5V) = 0.024 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.050
+=> adopt (H-Ks)(B9.5V) = 0.024 [updated 5/1/2024]
+
 (Ks-W1)(B9.5V) = 0.040 ; EEM trend for d<30pc for B-V=-0.045
 => adopt (Ks-W1)(B9.5V) = 0.040 [updated 12/29/2019]
 
@@ -82,6 +86,7 @@ the new calibration (10/11/2011).
 (G-V)(B9.5V) =  0.01755 ; HIP_32646 B9.5V E(B-V)=0.006
 (G-V)(B9.5V) =  0.01801 ; HIP_28515 B9.5V E(B-V)=0.009
 (G-V)(B9.5V) =  0.01977 ; HIP_113821 B9.5V E(B-V)=0.004
+
 (G-V)(B9.5V) =  0.01995 ; HIP_17982 B9.5V E(B-V)=0.002
 (G-V)(B9.5V) =  0.02202 ; HIP_111085 B9.5V E(B-V)=0.004
 (G-V)(B9.5V) =  0.02901 ; HIP_32788 B9.5V E(B-V)=0.006
@@ -90,6 +95,11 @@ the new calibration (10/11/2011).
 (G-V)(B9.5V) =  0.05829 ; HIP_108336 B9.5V E(B-V)=0.009
 => adopt (G-V)(B9.5V) = 0.017 [updated 4/8/2022]
 
+(u-g)(B9.5V)   = 0.898 ; Fukugita11 interp B7V-A0V
+(u'-g')(B9.5V) = 0.947 ; Smith02 u'-g' calibration for U-B=-0.13
+(u'-g')(B9.5V) = 0.961 ; Fukugita96 u'-g' calibration for U-B=-0.13
+(u-g)(B9.5V)   = 0.975 ; Covey07/synthetic_from_Pickles98_templates
+=> adopt (u-g)(B9.5V) = 0.95 [updated 4/18/2024]
 
 (g-r)(B9.5V) = -0.265 ; Covey07 interp B9V-A0V
 

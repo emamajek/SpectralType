@@ -104,11 +104,19 @@ so <(B-V)o> is likely to be bluer than that.
 
 (V-Lj)(B0V) = -0.91 ; Johnson65
 
-(J-H)(B0V) = -0.09 ; Deng20/2MASS 
 (J-H)(B0V) = -0.11 ; Winkler97/SAAO
 
-(H-Ks)(B0V) = -0.04 ; Deng20/2MASS 
+(J-H)(B0V) = -0.09  ; Deng20/2MASS
+(J-H)(B0V) = -0.133 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.301
+(J-H)(B0V) = -0.19 (+-0.010 rms) ; SteadHoare11/2MASS
+=> adopt (J-H)(B0V) = -0.133 [updated 4/30/2024]
+
 (H-K)(B0V)  = -0.08 ; Winkler97/SAAO
+
+(H-Ks)(B0V) = -0.04  ; Deng20/2MASS
+(H-Ks)(B0V) = -0.048 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.301
+(H-Ks)(B0V) = -0.09 (+-0.008 rms) ; SteadHoare11/2MASS
+=> adopt (H-Ks)(B0V) = -0.048 [updated 4/30/2024]
 
 (J-Ks)(B0V) = -0.13 ; Deng20/2MASS
 
@@ -119,7 +127,11 @@ so <(B-V)o> is likely to be bluer than that.
 (Bp-Rp)(B0V) = -0.31  ; Deng20
 (Bp-Rp)(B0V) = -0.491 ; Evans18 trend for V-I=-0.354
 
-(u'-g')(B0V) = -0.42 ; Deng20
+(u-g)(B0V)   = -0.25  ; Covey07/synthetic_from_Pickles98_templates
+(u'-g')(B0V) = -0.303 ; Smith02 u'-g' calibration for (U-B)=-1.07
+(u'-g')(B0V) = -0.337 ; Fukugita96 u'-g' calibration for (U-B)=-1.07 
+(u'-g')(B0V) =  -0.42 ; Deng20 (blue-edge method)
+=> adopt (u-g)(B0V) = -0.30 [updated 4/18/2024]
 
 (g-r)(B0V) = -0.38 ; Deng20
 (g-r)(B0V) = -0.59 ; Covey07
@@ -405,3 +417,35 @@ HD 143275 = del Sco = HR 5953
 # Other Stars
 
 Lesh68 classified two stars as B0V: HD 202214 & HD 36512. 
+
+
+# H-Ks vs J-H color trend for B-type dwarfs
+
+I queried SIMBAD for all non-emission-line B-type dwarf stars within
+500pc (plx > 2) with SIMBAD UBV photometry and 2MASS photometry with
+qflag=AAA and cflag=000 and JHKs photometric uncertainties <0.05
+mag. I dereddened the UBV photometry using the Q-method (updated
+equation from Pecaut & Mamajek 2013), and dereddened the J-H and H-Ks
+colors using the reddening vectors from Yuan+2013. This resulted in a
+sample of 202 B dwarfs within 500pc that we were able to calculate
+intrinsic J-H and H-Ks colors. The color-color trend for B0V-B9.5V
+stars is well fit by:
+
+(J-H) = 0.012 + 1.800*(H-Ks) (rms=0.037mag).
+
+The mean J-H uncertainty was 0.040 mag and the mean H-Ks uncertainty was 0.039 mag, so the rms is consistent with
+negligible astrophysical scatter. 
+
+As a function of the unreddened B-V color, the trends for B0V-B9.5V were:
+
+(J-H)o  = -0.0272 + 0.35294*(B-V)o  (rms=0.039mag)
+(H-Ks)o = +0.0380 + 0.28675*(B-V)o  (rms=0.034mag)
+
+where once again the rms scatters are consistent with the 2MASS photometric errors, i.e. negligible astrophysical scatter
+(a few outliers were removed, which likely explains the rms values slightly lower than the mean 2MASS J-H and H-Ks errors).
+
+Hence for B0V stars with (B-V)o=-0.301, we estimate:
+(J-H)o = -0.133, (H-Ks)o = -0.048.
+
+
+

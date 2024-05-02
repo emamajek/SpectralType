@@ -3,16 +3,16 @@ B2.5V
 Garrison94 does not list a B2.5V anchor standard, but MK73 lists
 sig Sgr as the B2.5V dagger standard. 
 
-Lesh68 standard:        HD 36779 - B2.5V 
-Walborn71 standard:     HD 214432 - B2.5V (but B3V elsewhere)
-MK73 dagger standard:   sig Sgr - B2.5V
-Houk75 standard:        sig Sgr - B2.5V (primary standard)
-MK78 standard:          HD 37016 (= HR 1891) - B2.5V
-Garrison79 standard:    sig Sgr - B2.5V
-Walborn90 standard:     HD 148605 - B2.5V (but B2V elsewhere)
-Rountree90 standard:    sig Sgr - B2.5V (UV) 
-GrayAtlas standard:     HD 37016 (=HR 1891) - B2.5V (and HR 1851 - B2Vh)
-GrayNstars standard:    HD 37016 (=HR 1891) - B2.5V 
+Lesh68 standard:      HD 36779 - B2.5V 
+Walborn71 standard:   HD 214432 - B2.5V (but B3V elsewhere)
+MK73 dagger standard: sig Sgr - B2.5V
+Houk75 standard:      sig Sgr - B2.5V (primary standard)
+MK78 standard:        HD 37016 (= HR 1891) - B2.5V
+Garrison79 standard:  sig Sgr - B2.5V
+Walborn90 standard:   HD 148605 - B2.5V (but B2V elsewhere)
+Rountree90 standard:  sig Sgr - B2.5V (UV) 
+GrayAtlas standard:   HD 37016 (=HR 1891) - B2.5V (and HR 1851 - B2Vh)
+GrayNstars standard:  HD 37016 (=HR 1891) - B2.5V 
 
 "h" after luminosity class indicates "He-rich"
 
@@ -23,7 +23,7 @@ None of the B2.5V standards has an excellent pedigree.
 All Q-method calculations in this file have been updated using revised calibration (10/9/2011).
 
 (B-V)(B2.5V) = -0.221 ; EEM dereddened weak standard sig Sgr via Q-method
-(B-V)(B2.5V) =  -0.22  ;  Fitzgerald70
+(B-V)(B2.5V) =  -0.22 ;  Fitzgerald70
 (B-V)(B2.5V) = -0.198 ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
 => adopt (U-B)(B2.5V)  = -0.732 [updated 9/26/2019]
 
@@ -54,7 +54,18 @@ All Q-method calculations in this file have been updated using revised calibrati
 
 (V-Ks)(B2.5V) = -0.54  ; Wegner14/2MASS
 
+(J-H)(B2.5V) = -0.097 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.198
+=> adopt (J-H)(B2.5V) = -0.097 [updated 5/1/2024]
+
+(H-Ks)(B2.5V) = -0.019 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.198
+=> adopt (H-Ks)(B2.5V) = -0.019 [updated 5/1/2024]
+
 (Bp-Rp)(B2.5V) = -0.292 ; Evans18 trend for V-I=-0.210
+
+(u-g)(B2.5V)   = 0.102 ; Covey07/synthetic_from_Pickles98_templates interp B1V-B3V
+(u'-g')(B2.5V) = 0.130 ; Fukugita96 u'-g' calibration for (U-B)=-0.732
+(u'-g')(B2.5V) = 0.146 ; Smith02 u'-g' calibration for (U-B)=-0.732
+=> adopt (u-g)(B2.5V) = 0.13 [updated 4/18/2024]
 
 (g-r)(B2.5) = -0.468 ; Covey07 interp B1V -0.49 to B3V -0.46
 
