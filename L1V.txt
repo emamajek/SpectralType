@@ -43,40 +43,185 @@ Teff(L1V) = 2097 K ; Kirkpatrick20 Table 13 polynomial
 (V-Ic)(L1V) = 4.907 ; Dahn17 V-Ic trend (M6-L5) for L1V
 => adopt (V-Ic)(L1V) = 5.17 [updated 9/15/2023; V-Rc=2.77, R-Ic=2.40]
 
-(J-H)(L1V)   = 0.80  (+-0.14 rms)  ; Schmidt14
-(J-H)(L1V)   = 0.817 (+-0.14 rms)  ; SIMBAD d<30pc trend for Ldwarfs
-(J-H)(L1V)   = 0.819 (+-0.066 sem,+-0.125 stdev) ; N=5 Cruz03
-=> adopt (J-H)(L1V) = 0.82 [updated 8/6/2020]
+(J-H)(L1V) = 0.80  (+-0.14 rms) ; Schmidt14
+(J-H)(L1V) = 0.817 (+-0.14 rms) ; SIMBAD d<30pc trend for Ldwarfs
+(J-H)(L1V) = 0.819 (+-0.066 sem,+-0.125 stdev) ; N=5 Cruz03
+=> adopt (J-H)(L1V) = 0.82 [updated 4/15/2024]
 
 (H-Ks)(L1V)  = 0.585(+-0.042 sem,+-0.080 stdev) ; N=5 Cruz03
 (H-Ks)(L1V)  = 0.541 ; trend of Dieterich14 for V-Ks=9.7
 (H-Ks)(L1V)  = 0.541 ; trend SIMBAD d<30pc L dwarfs
 (H-Ks)(L1V)  = 0.52 (+-0.16 rms) ; Schmidt14
-=> adopt (H-Ks)(L1V) = 0.54  [last updated 8/6/2020]
+=> adopt (H-Ks)(L1V) = 0.54 [updated 4/15/2024]
 
-(J-Ks)(L1V)  = 1.427 (+-0.044 sem,+-0.102 stdev) ; N=5 Cruz03
-<J-Ks>(L1V)  = 1.39  ; Faherty09
-(J-Ks)(L1V)  = 1.31 (+-0.19 rms) ; Schmidt14 
+(J-Ks)(L1V) =  1.427 (+-0.044 sem,+-0.102 stdev) ; N=5 Cruz03
+(J-Ks)(L1V) =  1.39  ; Faherty09
+(J-Ks)(L1V) = 1.36 ; J-H=0.82, H-Ks=0.54 
+(J-Ks)(L1V) =  1.34 (+-0.02 sem,+-0.19 stdev) ; Schmidt10 N=135
+(J-Ks)(L1V) =  1.31 (+-0.19 rms) ; Schmidt14
+=> adopt (J-Ks)(L1V) = 1.36 [updated 4/15/2024]
 
+(u-g)(L1V) = -2.239 ; 2MASS_J08361142+4503195_ plx=21.9244mas L1
+(u-g)(L1V) = -1.657 ; 2MASS_J09435026+1519095_ plx=20.6001mas L1
+(u-g)(L1V) = -1.536 ; 2MASS_J14023175+0148301_ plx=20.2453mas L1
+(u-g)(L1V) = -1.255 ; 2MASS_J11270661+4705481_ plx=23.7579mas L1
+(u-g)(L1V) = -0.933 ; 2MASS_J16443963+2600128_ plx=20.5696mas L1
+(u-g)(L1V) = -0.799 ; 2MASS_J09094822+1940428_ plx=26.7771mas L1
+(u-g)(L1V) = -0.762 ; 2MASS_J14550283+2619202_ plx=28.9637mas L1
+(u-g)(L1V) = -0.723 ; 2MASS_J10492824+2537231_ plx=20.6904mas L1
+(u-g)(L1V) = -0.632 ; 2MASS_J08002758+5511346_ plx=27.5171mas L1
+(u-g)(L1V) = -0.578 ; 2MASS_J00064916-0852457_ plx=32.4417mas L1.0
+(u-g)(L1V) = -0.420 ; 2MASS_J14313097+1436539_ plx=24.1700mas L1
+(u-g)(L1V) = -0.131 ; 2MASS_J08580549+2214582_ plx=23.1264mas L1
+(u-g)(L1V) =  0.224 ; 2MASS_J13251108+0517041_ plx=26.5911mas L1
+(u-g)(L1V) =  0.375 ; 2MASS_J14343616+2202463_ plx=31.6023mas L1
+(u-g)(L1V) =  0.744 ; 2MASS_J08054990+5113130_ plx=24.1967mas L1
+(u-g)(L1V) =  1.511 ; 2MASS_J13313310+3407583_ plx=34.7908mas L1
+(u-g)(L1V) =  1.716 ; 2MASS_J13414890+5510458_ plx=25.8677mas L1
+(u-g)(L1V) =  1.762 ; 2MASS_J13543964+5044510_ plx=37.0368mas L1
+(u-g)(L1V) =  1.770 ; 2MASS_J09214255+0842030_ plx=20.3035mas L1
+(u-g)(L1V) =  2.270 ; 2MASS_J13484591+0353545_ plx=29.8909mas L1
+(u-g)(L1V) =  2.270 ; 2MASS_J19064801+4011089_ plx=59.6710mas L1
+(u-g)(L1V) =  2.356 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
+(u-g)(L1V) =  2.483 ; LSPM_J1048+0111_ plx=66.5894mas L1
+[EEM 4/15/2024: huge scatter in values among nearest ~25 L1s, apparently
+due to large photometric errors (>tenths of mag) in these blue optical bands]
+
+(g-r)(L1V) =   1.456 ; 2MASS_J13251108+0517041_ plx=26.5911mas L1
+(g-r)(L1V) =   1.983 ; 2MASS_J00064916-0852457_ plx=32.4417mas L1.0
+(g-r)(L1V) =  2.162 ; 2MASS_J08002758+5511346_ plx=27.5171mas L1
+(g-r)(L1V) =  2.170 ; 2MASS_J14343616+2202463_ plx=31.6023mas L1
+(g-r)(L1V) =  2.199 ; 2MASS_J13414890+5510458_ plx=25.8677mas L1
+(g-r)(L1V) =  2.291 ; 2MASS_J13543964+5044510_ plx=37.0368mas L1
+(g-r)(L1V) = 2.331 ; 2MASS_J19064801+4011089_ plx=59.6710mas L1
+(g-r)(L1V) =  2.344 ; 2MASS_J08580549+2214582_ plx=23.1264mas L1
+(g-r)(L1V) =  2.366 ; 2MASS_J10492824+2537231_ plx=20.6904mas L1
+(g-r)(L1V) = 2.412 ; LSPM_J1048+0111_ plx=66.5894mas L1
+(g-r)(L1V) =  2.418 ; 2MASS_J13484591+0353545_ plx=29.8909mas L1
+(g-r)(L1V) =  2.457 ; 2MASS_J13313310+3407583_ plx=34.7908mas L1
+(g-r)(L1V) = 2.493 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
+(g-r)(L1V) = 2.514 ; trend for SIMBAD L0-L9 dwarfs d<50pc [4/2024]
+(g-r)(L1V) =  2.524 ; 2MASS_J09094822+1940428_ plx=26.7771mas L1
+(g-r)(L1V) =  2.526 ; 2MASS_J08054990+5113130_ plx=24.1967mas L1
+(g-r)(L1V) =  2.542 ; 2MASS_J09435026+1519095_ plx=20.6001mas L1
+(g-r)(L1V) =  2.571 ; 2MASS_J16443963+2600128_ plx=20.5696mas L1
+(g-r)(L1V) =   2.707 ; 2MASS_J14550283+2619202_ plx=28.9637mas L1
+(g-r)(L1V) =   2.769 ; 2MASS_J11270661+4705481_ plx=23.7579mas L1
+(g-r)(L1V) =   2.773 ; 2MASS_J14023175+0148301_ plx=20.2453mas L1
+(g-r)(L1V) =   2.841 ; 2MASS_J09214255+0842030_ plx=20.3035mas L1
+(g-r)(L1V) =   3.168 ; 2MASS_J08361142+4503195_ plx=21.9244mas L1
+(g-r)(L1V) =   3.440 ; 2MASS_J14313097+1436539_ plx=24.1700mas L1
+=> adopt (g-r)(L1V) = 2.50 [updated 4/18/2024]
+
+(r-i)(L1V) =  2.309 ; 2MASS_J13414890+5510458_ plx=25.8677mas L1
+(r-i)(L1V) =  2.348 ; 2MASS_J13313310+3407583_ plx=34.7908mas L1
+(r-i)(L1V) =  2.398 ; 2MASS_J13484591+0353545_ plx=29.8909mas L1
+(r-i)(L1V) =  2.407 ; 2MASS_J14023175+0148301_ plx=20.2453mas L1
 (r-i)(L1V) = 2.41 (+-0.10 rms; N=14) ; Cifuentes20
+(r-i)(L1V) =  2.477 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
+(r-i)(L1V) =  2.503 ; 2MASS_J14550283+2619202_ plx=28.9637mas L1
+(r-i)(L1V) =  2.503 ; LSPM_J1048+0111_ plx=66.5894mas L1
+(r-i)(L1V) =  2.504 ; 2MASS_J08054990+5113130_ plx=24.1967mas L1
+(r-i)(L1V) =  2.508 ; 2MASS_J13251108+0517041_ plx=26.5911mas L1
+(r-i)(L1V) =  2.549 ; 2MASS_J14313097+1436539_ plx=24.1700mas L1
+(r-i)(L1V) =  2.560 ; 2MASS_J09094822+1940428_ plx=26.7771mas L1
 (r-i)(L1V) = 2.56 (+-0.27 rms) ; Hawley02 ("r*-i*")
 (r-i)(L1V) = 2.61 (+-0.27 rms) ; West05
-=> adopt (r-i)(L2V) = 2.41 [updated 9/15/2023]
+(r-i)(L1V) =  2.610 ; 2MASS_J19064801+4011089_ plx=59.6710mas L1
+(r-i)(L1V) =  2.680 ; 2MASS_J08002758+5511346_ plx=27.5171mas L1
+(r-i)(L1V) =  2.690 ; 2MASS_J13543964+5044510_ plx=37.0368mas L1
+(r-i)(L1V) =  2.742 ; 2MASS_J14343616+2202463_ plx=31.6023mas L1
+(r-i)(L1V) =  2.794 ; 2MASS_J00064916-0852457_ plx=32.4417mas L1.0
+=> adopt (r-i)(L1V) = 2.53 [updated 4/15/2024]
 
+(i-z)(L1V) = 1.519 ; LSPM_J1108+6830_ plx=61.8067mas L1e
+(i-z)(L1V) =  1.754 ; 2MASS_J00064916-0852457_ plx=32.4417mas L1.0
+(i-z)(L1V) =  1.777 ; 2MASS_J13313310+3407583_ plx=34.7908mas L1
+(i-z)(L1V) = 1.805 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
+(i-z)(L1V) = 1.827 ; LSPM_J1048+0111_ plx=66.5894mas L1
 (i-z)(L1V) = 1.83 (+-0.09 rms) ; West05
+(i-z)(L1V) = 1.841 ; 2MASS_J19064801+4011089_ plx=59.6710mas L1
+(i-z)(L1V) =  1.847 ; 2MASS_J13251108+0517041_ plx=26.5911mas L1
+(i-z)(L1V) =  1.860 ; 2MASS_J14550283+2619202_ plx=28.9637mas L1
+(i-z)(L1V) = 1.86 (+-0.01 sem, +-0.10 rms) ; Schmidt11 (N=100) 
 (i-z)(L1V) = 1.87 (+-0.09 rms) ; Schmidt14
+(i-z)(L1V) =  1.879 ; 2MASS_J08054990+5113130_ plx=24.1967mas L1
+(i-z)(L1V) =  1.891 ; 2MASS_J09094822+1940428_ plx=26.7771mas L1
+(i-z)(L1V) =  1.897 ; 2MASS_J08002758+5511346_ plx=27.5171mas L1
+(i-z)(L1V) =  1.901 ; 2MASS_J13543964+5044510_ plx=37.0368mas L1
 (i-z)(L1V) = 1.92 (+-0.08 rms) ; Hawley02 ("i*-z*")
+(i-z)(L1V) =  1.923 ; 2MASS_J13484591+0353545_ plx=29.8909mas L1
+(i-z)(L1V) =  1.974 ; 2MASS_J14343616+2202463_ plx=31.6023mas L1
+(i-z)(L1V) =  2.000 ; 2MASS_J13414890+5510458_ plx=25.8677mas L1
+(i-z)(L1V) =  2.087 ; 2MASS_J14313097+1436539_ plx=24.1700mas L1
+(i-z)(L1V) =   2.332 ; 2MASS_J14023175+0148301_ plx=20.2453mas L1
+=> adopt (i-z)(L1V) = 1.87 [updated 4/15/2024; i-J=4.39, z-J=2.52]
 
+(i-J)(L1V) =   3.800 ; 2MASS_J09214255+0842030_ plx=20.3035mas L1
+(i-J)(L1V) =  4.044 ; 2MASS_J00064916-0852457_ plx=32.4417mas L1.0
+(i-J)(L1V) =  4.154 ; 2MASS_J08054990+5113130_ plx=24.1967mas L1
+(i-J)(L1V) =  4.210 ; 2MASS_J11270661+4705481_ plx=23.7579mas L1
+(i-J)(L1V) =  4.219 ; 2MASS_J13313310+3407583_ plx=34.7908mas L1
+(i-J)(L1V) =  4.280 ; 2MASS_J14343616+2202463_ plx=31.6023mas L1
+(i-J)(L1V) =  4.286 ; 2MASS_J08361142+4503195_ plx=21.9244mas L1
+(i-J)(L1V) =  4.297 ; 2MASS_J08580549+2214582_ plx=23.1264mas L1
+(i-J)(L1V) =  4.316 ; 2MASS_J10492824+2537231_ plx=20.6904mas L1
+(i-J)(L1V) =  4.320 ; 2MASS_J09435026+1519095_ plx=20.6001mas L1
+(i-J)(L1V) =  4.330 ; 2MASS_J13543964+5044510_ plx=37.0368mas L1
+(i-J)(L1V) =  4.341 ; 2MASS_J19064801+4011089_ plx=59.6710mas L1
+(i-J)(L1V) =  4.349 ; LSPM_J1048+0111_ plx=66.5894mas L1
+(i-J)(L1V) =  4.359 ; 2MASS_J09094822+1940428_ plx=26.7771mas L1
+(i-J)(L1V) =  4.378 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
+(i-J)(L1V) =  4.383 ; 2MASS_J13484591+0353545_ plx=29.8909mas L1
+(i-J)(L1V) = 4.39 (+-0.02 sem, +-0.18 stdev) ; Schmidt10 (N=84) 
 (i-J)(L1V) = 4.41 (+-0.18 rms) ; Schmidt14
 (i-J)(L1V) = 4.41 ; West05
+(i-J)(L1V) =  4.411 ; 2MASS_J14023175+0148301_ plx=20.2453mas L1
+(i-J)(L1V) =  4.414 ; 2MASS_J08002758+5511346_ plx=27.5171mas L1
+(i-J)(L1V) =  4.430 ; 2MASS_J13414890+5510458_ plx=25.8677mas L1
+(i-J)(L1V) =  4.435 ; 2MASS_J14550283+2619202_ plx=28.9637mas L1
+(i-J)(L1V) =  4.439 ; 2MASS_J16443963+2600128_ plx=20.5696mas L1
 (i-J)(L1V) = 4.45 (+-0.08 rms) ; Hawley02 ("i*-J")
+(i-J)(L1V) =  4.550 ; 2MASS_J13251108+0517041_ plx=26.5911mas L1
+(i-J)(L1V) =  4.551 ; 2MASS_J14313097+1436539_ plx=24.1700mas L1
+(i-J)(L1V) =  4.613 ; LSPM_J1108+6830_ plx=61.8067mas L1e
+=> adopt (i-J)(L1V) = 4.39 [updated 4/18/2024; z-J=2.52, i-z=1.87]
 
 (i-Ks)(L1V) = 5.73 (+-0.26 rms) ; Schmidt14
 
+(z-J)(L1V) =  2.026 ; 2MASS_J09214255+0842030_ plx=20.3035mas L1
+(z-J)(L1V) =  2.079 ; 2MASS_J14023175+0148301_ plx=20.2453mas L1
+(z-J)(L1V) =  2.275 ; 2MASS_J08054990+5113130_ plx=24.1967mas L1
+(z-J)(L1V) =  2.280 ; 2MASS_J11270661+4705481_ plx=23.7579mas L1
+(z-J)(L1V) =  2.290 ; 2MASS_J00064916-0852457_ plx=32.4417mas L1.0
+(z-J)(L1V) =  2.306 ; 2MASS_J14343616+2202463_ plx=31.6023mas L1
+(z-J)(L1V) =  2.410 ; 2MASS_J09435026+1519095_ plx=20.6001mas L1
+(z-J)(L1V) =  2.425 ; 2MASS_J08580549+2214582_ plx=23.1264mas L1
+(z-J)(L1V) =  2.429 ; 2MASS_J13543964+5044510_ plx=37.0368mas L1
+(z-J)(L1V) =  2.430 ; 2MASS_J13414890+5510458_ plx=25.8677mas L1
+(z-J)(L1V) =  2.442 ; 2MASS_J13313310+3407583_ plx=34.7908mas L1
+(z-J)(L1V) =  2.458 ; 2MASS_J10492824+2537231_ plx=20.6904mas L1
+(z-J)(L1V) =  2.460 ; 2MASS_J13484591+0353545_ plx=29.8909mas L1
+(z-J)(L1V) =  2.461 ; 2MASS_J16443963+2600128_ plx=20.5696mas L1
+(z-J)(L1V) =  2.464 ; 2MASS_J14313097+1436539_ plx=24.1700mas L1
+(z-J)(L1V) =  2.468 ; 2MASS_J09094822+1940428_ plx=26.7771mas L1
+(z-J)(L1V) =  2.473 ; 2MASS_J08361142+4503195_ plx=21.9244mas L1
+(z-J)(L1V) = 2.500 ; 2MASS_J19064801+4011089_ plx=59.6710mas L1
 (z-J)(L1V) = 2.50 (+-0.13 rms) ; Schmidt14
+(z-J)(L1V) = 2.51 (+-0.02 sem, +-0.14 stdev) ; Schmidt10 (N=85) 
 (z-J)(L1V) = 2.51 ; West05
+(z-J)(L1V) =  2.517 ; 2MASS_J08002758+5511346_ plx=27.5171mas L1
 (z-J)(L1V) = 2.52 (+-0.08 rms) ; Hawley02 ("z*-J")
-=> adopt (z-J)(L1V) = 2.51 [updated 4/7/2024]
+(z-J)(L1V) = 2.522 ; LSPM_J1048+0111_ plx=66.5894mas L1
+(z-J)(L1V) = 2.573 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
+(z-J)(L1V) =  2.575 ; 2MASS_J14550283+2619202_ plx=28.9637mas L1
+(z-J)(L1V) =  2.703 ; 2MASS_J13251108+0517041_ plx=26.5911mas L1
+(z-J)(L1V) = 3.094 ; LSPM_J1108+6830_ plx=61.8067mas L1e
+=> adopt (z-J)(L1V) = 2.52 [updated 4/18/2024; i-J=4.39, i-z=1.87]
+[EEM 4/18/2024: note that the nearest (plx>40mas) L1s have z-J ~ 2.5-2.6,
+there seems to be some bias blueward for the more distant L1s]
+
+(z-Ks)(L1V) = 3.82 (+-0.03 sem,+-0.26 stdev) ; Schmidt10 (N=88)
 
 (Ks-W1)(L1V) = 0.314 ; Dupuy12 median (N=4;d<50pc)
 (Ks-W1)(L1V) = 0.37 (+-0.12 rms) ; Schmidt14
@@ -94,9 +239,37 @@ M_H(L1V)    = 11.139 ; Reyle18 polynomial
 (G-Rp)(L1V) =  1.677 ; Reyle18 polynomial
 (G-Rp)(L1V) =  1.68  ; Kiman19
 
-(G-J)(L1V)  =  4.791 ; Reyle18 polynomial
+(G-J)(L1V) =  4.691 ; 2MASS_J07164790-0630369_ plx=40.8439mas L1.0
+(G-J)(L1V) = 4.761 ; 2MASS_J19064801+4011089_ plx=59.6710mas L1
+(G-J)(L1V) =  4.761 ; 2MASS_J13543964+5044510_ plx=37.0368mas L1
+(G-J)(L1V) =  4.771 ; ENIS_J115748.0-484442_ plx=34.8678mas L1.0
+(G-J)(L1V) = 4.775 ; LSPM_J1048+0111_ plx=66.5894mas L1
+(G-J)(L1V) = 4.783 ; 2MASS_J14392836+1929149_ plx=70.5551mas L1V
+(G-J)(L1V) = 4.787 ; 2MASSW_J0015447+351603_ plx=58.7497mas L1.0V
+(G-J)(L1V) = 4.791 ; Reyle18 polynomial
+(G-J)(L1V) =  4.808 ; 2MASS_J07415784+0531568_ plx=38.3527mas L1
+(G-J)(L1V) =  4.813 ; SIPS_J2130-0845_ plx=37.4739mas L1
+(G-J)(L1V) =  4.823 ; 2MASS_J20343769+0827009_ plx=35.5659mas L1
+(G-J)(L1V) =  4.826 ; 2MASS_J02081833+2542533_ plx=43.0992mas L1V
+(G-J)(L1V) = 4.834 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
+(G-J)(L1V) = 4.834 ; SIPS_J0128-5545_ plx=53.8699mas L1
+(G-J)(L1V) =  4.860 ; 2MASS_J07230144-1616209_ plx=35.7221mas L1
+(G-J)(L1V) = 4.863 ; SIPS_J0921-2104_ plx=79.5729mas L1
+(G-J)(L1V) = 4.878 ; 2MASS_J17054834-0516462_ plx=53.122mas L1
+(G-J)(L1V) = 4.880 ; 2MASS_J18071593+5015316_ plx=68.4657mas L1
+(G-J)(L1V) =  4.933 ; *_bet_Cir_B_ plx=34.9302mas L1.0
+(G-J)(L1V) = 4.945 ; 2MASS_J20575409-0252302_ plx=64.7102mas L1
+(G-J)(L1V) =  4.954 ; ENIS_J190908.1-193748_ plx=45.8238mas L1.0
+(G-J)(L1V) = 4.958 ; LSR_J0602+3910_ plx=85.7574mas L1V
+(G-J)(L1V) = 4.969 ; ENIS_J173342.3-165449_ plx=54.9353mas L1.0
+(G-J)(L1V) =  5.023 ; SIPS_J2045-6332_ plx=44.2416mas L1
+(G-J)(L1V) = 5.024 ; LSPM_J1108+6830_ plx=61.8067mas L1e
+(G-J)(L1V) =  5.155 ; 2MASS_J10044030-1318186_ plx=40.4376mas L1
+=> adopt (G-J)(L1V) = 4.83 [updated 4/18/2024]
 
-(J-Ks)(L1V) =  1.261 ; Reyle18 polynomial
+
+(J-Ks)(L1V) = 1.261 ; Reyle18 polynomial
+(J-Ks)(L1V) = 1.34 (+-0.02 sem, +-0.19 stdev) ; Schmidt10 (N=135)
 
 (G-Ks) = 5.996 ; pri. stan. 2MASS J14392836+1929149 
 

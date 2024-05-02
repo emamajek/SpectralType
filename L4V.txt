@@ -33,27 +33,59 @@ Teff(L4V) = 1695 K ; Filippazzo15 calibration (M6V-T9V)
 (V-Ks)(L4V) =  7.36 ; usdL4 2MASS_J16262034+3925190 (Dahn17)
 => adopt (V-Ks)(L4V) = 10.5 [updated 8/17/2020]
 
+(J-H)(L4V) = 0.91 (+-0.23 rms; N=3) ; Schmidt14
+(J-H)(L4V) = 1.002 (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
+=> adopt (J-H)(L4V) = 1.00 [updated 8/6/2020]
+
 (H-Ks)(L4V) = 0.58 (+-0.27 rms; N=3) ; Schmidt14
 (H-Ks)(L4V) = 0.632 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
 (H-Ks)(L4V) = 0.65 ; trend of Dieterich14 for V-Ks=10.9
 => adopt (H-Ks)(L4V) = 0.63 [last updated 8/6/2020]
 
-(J-Ks)(L4V) = 1.73 ; Faherty09
 (J-Ks)(L4V) = 1.47 (+-0.18 rms; N=3) ; Schmidt14
+(J-Ks)(L4V) = 1.73 ; Faherty09
+(J-Ks)(L4V) = 1.77 (+-0.05 sem,+-0.30 stdev) ; Schmidt10 N=36
 
-(J-H)(L4V) = 0.91 (+-0.23 rms; N=3) ; Schmidt14
-(J-H)(L4V) = 1.002 (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
-=> adopt (J-H)(L4V) = 1.00 [updated 8/6/2020]
+(g-r)(L4V) = 1.721 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
+(g-r)(L4V) = 2.375 ; ULAS2MASS_J1407+1241_ plx=35.2021mas L4
+(g-r)(L4V) = 2.500 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4
+(g-r)(L4V) = 2.725 ; 2MASSW_J1246467+402715_ plx=44.7375mas L4V
+=> adopt (g-r)(L4V) = 2.4: [updated 4/18/2024]
 
 (r-i)(L4V) = 2.22 (+-0.13 rms; N=4) ; Cifuentes20
+(r-i)(L4V) =  2.364 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4
 (r-i)(L4V) = 2.38 (+-0.27 rms) ; Hawley02 ("r*-i*")
-=> adopt (r-i)(L4V) = 2.22 [updated 9/15/2023]
+(r-i)(L4V) =  2.456 ; 2MASSW_J1246467+402715_ plx=44.7375mas L4V
+(r-i)(L4V) =  2.749 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
+(r-i)(L4V) =  2.842 ; ULAS2MASS_J1407+1241_ plx=35.2021mas L4
+=> adopt (r-i)(L4V) = 2.4: [updated 4/18/2024]
 
+(i-z)(L4V) =  1.994 ; 2MASSW_J1246467+402715_ plx=44.7375mas L4V
+(i-z)(L4V) =  2.128 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4
+(i-z)(L4V) = 2.13 (+-0.05 sem,+-0.19 stdev) ; Schmidt10 N=13
+(i-z)(L4V) = 2.16 ; i-J=4.97, z-J=2.81
+(i-z)(L4V) =  2.181 ; ULAS2MASS_J1407+1241_ plx=35.2021mas L4
 (i-z)(L4V) = 2.26 (+-0.13; rms) ; Hawley02 ("i*-z*")
+(i-z)(L4V) =  2.301 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
+=> adopt (i-z)(L4V) = 2.16 [updated 4/15/2024; i-J=4.97, z-J=2.81]
 
+(i-J)(L4V) =  4.698 ; 2MASSW_J1246467+402715_ plx=44.7375mas L4V
+(i-J)(L4V) =  4.769 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
+(i-J)(L4V) =  4.967 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4
+(i-J)(L4V) = 4.97 (+-0.07 sem,+-0.24 stdev) ; Schmidt10 N=12
+(i-J)(L4V) =  5.041 ; ULAS2MASS_J1407+1241_ plx=35.2021mas L4
 (i-J)(L4V) = 5.06 (+-0.18; rms) ; Hawley02 ("i*-J")
+=> adopt (i-J)(L4V) = 4.97 [updated 4/15/2024; i-z=2.16, z-J=2.81]
 
+(z-J)(L4V) =  2.468 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
+(z-J)(L4V) =  2.704 ; 2MASSW_J1246467+402715_ plx=44.7375mas L4V
 (z-J)(L4V) = 2.80 (+-0.08; rms) ; Hawley02 ("z*-J")
+(z-J)(L4V) = 2.81 (+-0.04 sem,+-0.14 stdev) ; Schmidt10 N=12
+(z-J)(L4V) =  2.839 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4
+(z-J)(L4V) =  2.860 ; ULAS2MASS_J1407+1241_ plx=35.2021mas L4
+=> adopt (z-J)(L4V) = 2.81 [updated 4/15/2024; i-z=2.16, i-J=4.97]
+
+(z-Ks)(L4V) = 4.59 (+-0.07 sem,+-0.25 stdev) ; Schmidt10 N=14
 
 (Ks-W1)(L4V) = 0.55 (+-0.14 rms; N=3) ; Schmidt14
 (Ks-W1)(L4V) = 0.598 ; Dupuy12 median N=6 d<50pc

@@ -5,8 +5,8 @@ Hawley02 standard:           2MASS 1632+1904 - L8V
 Kirkpatrick05 standard:      2MASSW J1632291+190441 - L8V ("optical anchor")
 Reid08 standard:             2MASS J16322911+1904407 - L8 (pri. stan.)
                              2MASS J02550357-4700509 (DENIS-P J0255-4700) - L8 (sec. stan.)
-Kirkpatrick09(GrayCorbally): 2MASS J16322911+1904407 - L8 (primary optical standard)
-Kirkpatrick10 standard:      2MASS J16322911+1904407 - L8V (primary near-IR standard)
+Kirkpatrick09(GrayCorbally): 2MASS J16322911+1904407 - L8 (pri. optical standard)
+Kirkpatrick10 standard:      2MASS J16322911+1904407 - L8V (pri. near-IR standard)
 
 Kirkpatrick09 writes "The optical L-dwarf sequence presently ends at
 L8; there are no objects yet identified with optical types of L8.5, L9,
@@ -35,13 +35,39 @@ Teff(L8V) = 1451 K ; Dupuy17(Lyon model scale)
 
 (V-Ks)(L8V) = 11.36 ; DEN J0255 (see below)
 
+(r-i)(L8V) =  1.275 ; 2MASS_J00325937+1410371_ plx=30.14mas L8V
+(r-i)(L8V) = 1.971 ; 2MASS_J01075242+0041563_ plx=64.13mas L8
+(r-i)(L8V) = 2.162 ; 2MASS_J16322911+1904407_ plx=65.60mas L8V
 (r-i)(L8V) = 2.19 (+-0.91; rms) ; Hawley02 ("r*-i*")
+(r-i)(L8V) = 2.293 ; 2MASS_J09083803+5032088_ plx=95.9290mas L8
+(r-i)(L8V) =  2.768 ; 2MASS_J14002320+4338222_ plx=40.8mas L8
+=> adopt (r-i)(L8V) = 2.3 [updated 4/15/2024]
 
+(i-z)(L8V) =  2.536 ; 2MASS_J01075242+0041563_ plx=64.13mas L8
+(i-z)(L8V) =  2.683 ; 2MASS_J09083803+5032088_ plx=95.9290mas L8
+(i-z)(L8V) =  3.115 ; 2MASS_J16322911+1904407_ plx=65.60mas L8V
 (i-z)(L8V) = 3.15 (+-0.32; rms) ; Hawley02 ("i*-z*")
+(i-z)(L8V) =  3.413 ; 2MASS_J14002320+4338222_ plx=40.8mas L8
+(i-z)(L8V) =  3.762 ; 2MASS_J00325937+1410371_ plx=30.14mas L8V
+=> adopt (i-z)(L8V) = 3.1 [updated 4/15/2024; i-J=5.85, z-J=2.75]
 
+(i-J)(L8V) =  5.293 ; 2MASS_J09083803+5032088_ plx=95.9290mas L8
+(i-J)(L8V) =  5.365 ; 2MASS_J01075242+0041563_ plx=64.13mas L8
+(i-J)(L8V) =  5.486 ; SDSS J0107+0041 = 2MASS J01075242+0041563 (L7pec)
+(i-J)(L8V) =  5.827 ; 2MASS_J16322911+1904407_ plx=65.60mas L8V
 (i-J)(L8V) = 6.11 (+-0.47; rms) ; Hawley02 ("i*-J")
+(i-J)(L8V) =  6.147 ; 2MASS_J14002320+4338222_ plx=40.8mas L8
+(i-J)(L8V) =  6.262 ; 2MASS_J00325937+1410371_ plx=30.14mas L8V
+=> adopt (i-J)(L8V) = 5.85 [updated 4/15/2024; i-z=3.1, z-J=2.75]
 
+(z-J)(L8V) =  2.500 ; 2MASS_J00325937+1410371_ plx=30.14mas L8V
+(z-J)(L8V) =  2.610 ; 2MASS_J09083803+5032088_ plx=95.9290mas L8
+(z-J)(L8V) =  2.712 ; 2MASS_J16322911+1904407_ plx=65.60mas L8V
+(z-J)(L8V) =  2.734 ; 2MASS_J14002320+4338222_ plx=40.8mas L8
+(z-J)(L8V) =  2.829 ; 2MASS_J01075242+0041563_ plx=64.13mas L8
+(z-J)(L8V) =  2.863 ; SDSS J0107+0041 = 2MASS J01075242+0041563 
 (z-J)(L8V) = 2.93 (+-0.02; rms) ; Hawley02 ("z*-J")
+=> adopt (z-J)(L8V) = 2.75 [updated 4/15/2024; i-z=3.1, i-J=5.85]
 
 (G-Rp)(L8V) =  1.880 ; Reyle18 polynomial
 
@@ -115,10 +141,34 @@ Rad(L8V) = 0.08751 ; logL=-4.552, Teff=1420K
    H=14.612+-0.038, Ks=14.003+-0.047. M_J=14.952+-0.099,
    M_H=13.697+-0.079, M_Ks=13.088+-0.084. Does not appear in Gaia DR3. 
 
-# Examples
+# Other Objects
 
+2MASS J01075242+0041563 = SDSS J010752.47+004156.3 = "SDSS J0107+0041"
+  L8: Hawley02,Reid08,Scholz09,Geissler11,Schneider14(near-IR)
+  L7.5: Cruz18
+  L7.0_INT-G: Bouy22
+  L7: Schneider02
+ *L7pec: Gagne15
+  L6.6: BardalezGagliuffi14(near-IR)
+  L6.0: Burgasser10(SPEX)
+  L5.5: Geballe02,Knapp04
 
-
+  In SDSS stripe 82, so repeatedly observed in SDSS.  Kirkpatrick21
+  20pc census paper adopts L6.0.  Low velocity, so it might be
+  young. Hsu21 measures U,V,W=-32.0,-6.2,+6.1km/s.  Reid06 lists it
+  among "unresolved ultracool dwarfs".  Vos20 reports Per=5+-2hr,
+  age=1Gyr.  r*=24.06:(Hawley02), r-i=2.02(Covey08),
+  i_PS1=21.21+-0.05(Best18), i=21.19(Covey08),
+  i=21.19+-0.08(Metchev08), i=21.310+-0.017(Bramich08,Nobs=36),
+  i*=21.52(Hawley02), i-z=2.55(Covey08), i-z=2.623+-0.018(Bramich08),
+  i-z=2.83(Knapp04), i-J=5.486(Bramich08/2M),
+  z=18.64+-0.03(Methchev08), z*=18.66(Hawley02),
+  z=18.687+-0.006(Bramich08,Nobs=33), z-J=2.863(Bramich08/2MASS),
+  z-J=2.95(Knapp04), z_PS1=19.01+-0.01(Best18),
+  y_PS1=18.04+-0.02(Best18), Y_MKO=15.75+-0.03(Best21),
+  J=15.824+-0.058(2MASS), H=14.512+-0.039(2MASS),
+  Ks=13.709+-0.044(2MASS).  Teff=1385+-89K(Kirkpatrick21).
+  Fbol=4.86e-12mW/m2(Schmidt07).
       
 # Comments on end of L sequence, defining L8V
 
