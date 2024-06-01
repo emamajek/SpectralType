@@ -51,7 +51,7 @@ updated to the revised calibration (10/10/2011).
 (B-V)(B5V) = -0.156 ; EEM dereddened 97 HIP B5V stars (Q-method, E(B-V)<0.1)
 (B-V)(B5V) =  -0.16  ; JohnsonMorgan53,Morgan53,Johnson63,Johnson65,Johnson66,Fitzgerald70, Morgan71
 (B-V)(B5V) =  -0.17  ; SchmidtKaler82
-=> adopt (B-V)(B5V) = -0.156 [updated 9/26/2019]
+=> adopt (B-V)(B5V) = -0.156 [updated 5/31/2024]
 
 The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V)o> is probably near this value.
 
@@ -62,25 +62,33 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 (U-B)(B5V) = -0.581 ; ter. stan. nu And (EEM dereddened via Q-method)
 (U-B)(B5V) =  -0.58  ; Bessell98, Fitzgerald70, Schmidt-Kaler82
 (U-B)(B5V) = -0.578 ; EEM dereddened N=97 HIP B5V stars (Q-method, E(B-V)<0.1)
-=> adopt (U-B)(B5V) = -0.581 [updated 9/26/2019]
+=> adopt (U-B)(B5V) = -0.581 [updated 5/31/2024]
 => adopt     Q(B5V) = -0.469 (=(U-B)-0.72*(B-V) = -0.581 - 0.72*-0.156)
-=> adopt (V-I)(B5V) = -0.165
-=> adopt (V-R)(B5V) = -0.070
-=> adopt (R-I)(B5V) = -0.095
 
 (V-Rj)(B5V) = -0.06 ; Johnson65
 
-(V-Rc)(B5V) = -0.09 ; Winkler97
+(V-Rc)(B5V) = -0.070 ; color trend U-B vs V-Rc for U-B=-0.581
+(V-Rc)(B5V) =  -0.09 ; Winkler97
+=> adopt (V-Rc)(B5V) = -0.070 [updated 5/31/2024]
+
+(R-Ic)(B5V) = -0.095 ; color trend U-B vs V-Rc for U-B=-0.581
+=> adopt (R-Ic)(B5V) = -0.095 [updated 5/31/2024]
 
 (V-Ij)(B5V) = -0.22 ; Johnson65
 
-(V-Ic)(B5V) = -0.18 ; Winkler97
+(V-Ic)(B5V) = -0.165 ; color trend U-B vs V-Ic for U-B=-0.581
+(V-Ic)(B5V) =  -0.18 ; Winkler97
+=> adopt (V-Ic)(B5V) = -0.165 [updated 5/31/2024]
 
 (V-Jj)(B5V) = -0.36 ; Johnson65
 
-(V-J)(B5V)  = -0.33 ; Wegner14/2MASS
+(V-J)(B5V) = -0.315 ; color trend U-B vs V-J for U-B=-0.581
+(V-J)(B5V) =  -0.33 ; Wegner14/2MASS
+=> adopt (V-J)(B5V) = -0.315 [updated 5/31/2024]
 
-(V-H)(B5V)  = -0.37 ; Wegner14/2MASS 
+(V-H)(B5V) =  -0.37 ; Wegner14/2MASS
+(V-H)(B5V) = -0.404 ; color trend U-B vs V-H for U-B=-0.581
+=> adopt (V-H)(B5V) = -0.404 [updated 5/31/2024]
 
 (V-Kj)(B5V) = -0.47 ; Johnson65
 
@@ -100,13 +108,11 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 (V-Ks)(B5V) =  -0.396 ; HIP_39906_ B5V d= 138.141pc, (B-V)=0.004 (dereddened from Kervella19)
 (V-Ks)(B5V) =  -0.411 ; HIP_85385_ B5V d= 185.322pc, (B-V)=0.027 (dereddened from Kervella19)
 (V-Ks)(B5V) =  -0.411 ; HIP_76945_ B5V d= 128.337pc, (B-V)=0.011 (dereddened from Kervella19)
-(V-Ks)(B5V) = -0.417 ; from intrinsic color sequence for (U-B)o=-0.581
+(V-Ks)(B5V) = -0.417 ; from intrinsic color sequence for U-B=-0.581
 (V-Ks)(B5V) =  -0.42  ; Wegner14/2MASS  
 (V-Ks)(B5V) = -0.427 ; HIP_3881_ [standard] B5V d= 171.644pc, (B-V)=0.017 (dereddened from Kervella19)
 (V-Ks)(B5V) =  -0.448 ; HIP_75647_ B5V d= 141.503pc, (B-V)=0.014 (dereddened from Kervella19)
-=> adopt (V-Ks)(B5V) = -0.38  [updated 4/8/2022]
-=> adopt (V-J)(B5V)  = -0.287 [updated 4/8/2022]
-=> adopt (V-H)(B5V)  = -0.370 [updated 4/8/2022]
+=> adopt (V-Ks)(B5V) = -0.38 [updated 5/31/2024]
 
 (J-H)(B5V) = -0.06 ; Winkler97/SAAO
 
@@ -127,7 +133,7 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 (V-Lj)(B5V) = -0.45 ; Johnson65
 
 (Ks-W1)(B5V) =  0.029 ; EEM trend for d<30pc for B-V=-0.156
-(Ks-W1)(B5V) = -0.03  ; Deng20
+(Ks-W1)(B5V) =  -0.03  ; Deng20
 => adopt (Ks-W1)(B5V) = 0.029 [updated 12/29/2019]
 
 (u'-g')(B5V) =  0.23 ; Deng20 (blue-edge method)
@@ -148,8 +154,6 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 
 (Bp-Rp)(B5V) = -0.21  ; Deng20
 (Bp-Rp)(B5V) = -0.231 ; Evans18 trend for V-I=-0.165
-
-
 
 (G-V)(B5V) = -0.003 ; HIP_78540 B5V V=6.385 G=6.3588 E(B-V)=0.160 (calc from Kervella22)
 (G-V)(B5V) =   0.002 ; HIP_55350 B5V V=6.410 G=6.3817 E(B-V)=0.212 (calc from Kervella22)

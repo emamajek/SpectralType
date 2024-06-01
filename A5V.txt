@@ -19,16 +19,6 @@ GrayNstars standard:      HD 23194 - A5V
 
 Skiff08 flags only HD 23886 (MK78) as a A5V MK standard. 
 
-For A5V Hipparcos stars within 75pc, with parallax S/N > 8, and within 1 mag of the MS (N=18):
-<V-J>(A5V)   = 0.415 (+-0.009 sem, +-0.049 stdev; N=18)
-<V-H>(A5V)   = 0.454 (+-0.014 sem, +-0.061 stdev; N=18)
-<V-Ks>(A5V)  = 0.508 (+-0.017 sem, +-0.044 stdev; N=18)
-<J-H>(A5V)   = 0.045 (+-0.012 sem, +-0.049 stdev; N=18)
-<H-K>(A5V)   = 0.056 (+-0.006 sem, +-0.021 stdev; N=18)
-<Bt-Vt>(A5V) = 0.227 (+-0.006 sem, +-0.020 stdev; N=18)
-<V-Vt>(A5V)  =-0.027 (+-0.001 sem, +-0.005 stdev; N=18) 
-<B-K>(A5V)   = 0.727 (+-0.018 sem, +-0.052 stdev; N=18)
-
 (B-V)(A5V) = 0.22  ; exemplar HD 74706 = HIP 42928 = HR 3473
 (B-V)(A5V) =  0.210 (+-0.006 sem, +-0.020 stdev) ; HIP d<75pc S/N>8(N=18)
 (B-V)(A5V) = 0.207 ; exemplar HD 120047 = HD 5179
@@ -53,9 +43,7 @@ For A5V Hipparcos stars within 75pc, with parallax S/N > 8, and within 1 mag of 
 (B-V)(A5V) =  0.12 ; Deng20
 (B-V)(A5V) =  0.12 ; HD_165777 A5V plx=37.55mas, Mv=1.6030
 (B-V)(A5V) =  0.099 ; Crawford76
-=> adopt (B-V)(A5V)  = 0.163 [updated 12/29/2023]
-=> adopt (V-J)(A5V)  = 0.340 [updated 12/29/2023]
-=> adopt (V-H)(A5V)  = 0.372 [updated 12/29/2023]
+=> adopt (B-V)(A5V) = 0.163 [updated 12/29/2023]
 
 (U-B)(A5V) = 0.057 ; exemplar HD 120047 = HIP 67194 = HR 5179
 (U-B)(A5V) = 0.08  ; ter. stan. HD 116842 = 80 UMa = Alcor
@@ -106,39 +94,47 @@ For A5V Hipparcos stars within 75pc, with parallax S/N > 8, and within 1 mag of 
 (V-Ic)(A5V) =  0.131 ; HD 165777 = HR 6771 = 72 Oph (A5V,Gray03)
 => adopt (V-Ic)(A5V) = 0.19 [updated 12/29/2023; V-Rc=0.09, R-Ic=0.10]
 
-(V-Jj)(A5V) =  0.26  ; Johnson68
-(V-Jj)(A5V) =  0.27  ; Johnson66
+(V-Jj)(A5V) = 0.26 ; Johnson68
+(V-Jj)(A5V) = 0.27 ; Johnson66
 
-(V-Hj)(A5V) =  0.35  ; Johnson68
+(V-J)(A5V) = 0.340 ; B-V vs V-J for B-V=0.163
+=> adopt (V-J)(A5V) = 0.34 [updated 5/10/2024]
 
-(V-Kj)(A5V) =  0.34  ; Johnson68 
-(V-Kj)(A5V) =  0.36  ; Johnson66
+(V-Hj)(A5V) = 0.35 ; Johnson68
 
-(V-K)(A5V)  =  0.38  ; Bessell88/Glass
+(V-H)(A5V) = 0.373 ; B-V vs V-H for B-V=0.163
+=> adopt (V-H)(A5V) = 0.373 [updated 5/10/2024]
+
+(V-Kj)(A5V) = 0.34 ; Johnson68 
+(V-Kj)(A5V) = 0.36 ; Johnson66
+
+(V-K)(A5V)  = 0.38 ; Bessell88/Glass
 
 (V-Ks)(A5V) = 0.371 ; pri. stan. HD 23194 = Cl Melotte 22 232 (Pleiad)
 (V-Ks)(A5V) = 0.410 ; B-V vs V-Ks trend for B-V=0.163 (12/2023)
 (V-Ks)(A5V) = 0.424 ; Bessell88(Glass->2MASS)
-=> adopt (V-Ks)(A5V) = 0.410 [updated 12/29/2023]
+=> adopt (V-Ks)(A5V) = 0.410 [updated 5/10/2024]
 
 (J-H)(A5V) = 0.06 ; Bessell88/Glass
 
 (J-H)(A5V) = 0.01  ; Deng20/2MASS
 (J-H)(A5V) = 0.014 ; Bessell88(Glass->2MASS)
 (J-H)(A5V) = 0.033 ; B-V vs J-H trend for B-V=0.163 
-=> adopt (J-H)(A5V) = 0.033 [updated 12/29/2023]
+=> adopt (J-H)(A5V) = 0.033 [updated 5/10/2024; V-J=0.340, V-H=0.373]
 
 (H-K)(A5V) = 0.015 ; Bessell88/Glass
 
 (H-Ks)(A5V) = 0.03  ; Deng20/2MASS (J-H=0.01, J-Ks=0.04)
 (H-Ks)(A5V) = 0.038 ; B-V vs V-Ks trend for B-V=0.163 
 (H-Ks)(A5V) = 0.043 ; Bessell88(Glass->2MASS)
-=> adopt (H-Ks)(A5V) = 0.038 [updated 12/29/2023]
+=> adopt (H-Ks)(A5V) = 0.038 [updated 5/10/2024; V-Ks=0.410, V-H=0.373]
 
 (J-K)(A5V)  = 0.08  ; Bessell88/Glass
 
 (J-Ks)(A5V) = 0.04  ; Deng20/2MASS
 (J-Ks)(A5V) = 0.067 ; Bessell88(Glass->2MASS)
+(J-Ks)(A5V) = 0.071 ; J-H=0.033, H-Ks=0.038
+=> adopt (J-Ks)(A5V) = 0.071 [updated 5/10/2024]
 
 (Ks-W1)(A5V) = 0.03  ; Deng20 (J-W1=0.07, J-Ks=0.04)
 (Ks-W1)(A5V) = 0.046 ; EEM trend for d<30pc for B-V=0.16
@@ -209,7 +205,24 @@ For A5V Hipparcos stars within 75pc, with parallax S/N > 8, and within 1 mag of 
 (G-V)(A5V) = -0.007 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.403 (Gaia DR2)
 (G-V)(A5V) =   0.002 ; * iot Cyg PM* A5V (Gaia DR2)
 (G-V)(A5V) =   0.009 ; * 72 Oph PM* A5V (Gaia DR2)
-=> adopt (G-V)(A5V) = -0.015 [updated 4/8/2022]
+=> adopt (G-V)(A5V) = -0.015 [updated 4/8/2022] (GaiaDR2) 
+
+(G-V)(A5V) =  -0.090 ; HD_19107_ A5V plx=22.6787 mas (GaiaDR3)
+(G-V)(A5V) =  -0.054 ; HD_175639_ A5Vn plx=24.5310 mas (GaiaDR3)
+(G-V)(A5V) =  -0.046 ; HD_220061_ A5Vp_lB plx=20.7145 mas (GaiaDR3)
+(G-V)(A5V) =  -0.035 ; HD_116842_ A5V+M3-4V plx=39.91 mas (GaiaDR3)
+(G-V)(A5V) =  -0.032 ; HD_98058_ A5V plx=17.2827 mas (GaiaDR3)
+(G-V)(A5V) =  -0.031 ; HD_159170_ A5V plx=21.3634 mas (GaiaDR3)
+(G-V)(A5V) =  -0.031 ; HD_4058_ A5V plx=18.6293 mas (GaiaDR3)
+(G-V)(A5V) =  -0.028 ; HD_135559_ A5V plx=21.1816 mas (GaiaDR3)
+(G-V)(A5V) =  -0.026 ; HD_120047_ A5V plx=19.2182 mas (GaiaDR3)
+(G-V)(A5V) =  -0.024 ; HD_210715_ A5V plx=17.8850 mas (GaiaDR3)
+(G-V)(A5V) =  -0.023 ; HD_29488_ A5Vn plx=18.2308 mas (GaiaDR3)
+(G-V)(A5V) =  -0.017 ; HD_165777_ A5V plx=38.1263 mas (GaiaDR3)
+(G-V)(A5V) =  -0.013 ; HD_184006_ A5V plx=26.6363 mas (GaiaDR3)
+(G-V)(A5V) =  -0.010 ; HD_200499_ A5V plx=16.6009 mas (GaiaDR3)
+(G-V)(A5V) =  -0.001 ; HD_175638_ A5V plx=24.2696 mas (GaiaDR3)
+=> adopt (G-V)(A5V) = -0.028 [updated 5/16/2024] (GaiaDR3) 
 
 (b-y)(A5V) = 0.072 (+-0.016 stdev) ; A5V-III (0 < vsini < 100 km/s for <vsini>=70km/s; GrayGarrison89)
 (b-y)(A5V) = 0.090 (+-0.021 stdev) ; A5V-III (100 < vsini < 300 km/s for <vsini>=166km/s; GrayGarrison89)
@@ -599,4 +612,14 @@ HD 220061 = HR 8880 = tau Peg
   Teff=7655K, logg=3.78, vsini=154 km/s, [Fe/H]=-0.28. 
 
 
-  
+# Notes on nearby Hipparcos stars with A5V types (mostly from Houk)
+
+For A5V Hipparcos stars within 75pc, with parallax S/N > 8, and within 1 mag of the MS (N=18):
+<V-J>(A5V)   = 0.415 (+-0.009 sem, +-0.049 stdev; N=18)
+<V-H>(A5V)   = 0.454 (+-0.014 sem, +-0.061 stdev; N=18)
+<V-Ks>(A5V)  = 0.508 (+-0.017 sem, +-0.044 stdev; N=18)
+<J-H>(A5V)   = 0.045 (+-0.012 sem, +-0.049 stdev; N=18)
+<H-K>(A5V)   = 0.056 (+-0.006 sem, +-0.021 stdev; N=18)
+<Bt-Vt>(A5V) = 0.227 (+-0.006 sem, +-0.020 stdev; N=18)
+<V-Vt>(A5V)  =-0.027 (+-0.001 sem, +-0.005 stdev; N=18) 
+<B-K>(A5V)   = 0.727 (+-0.018 sem, +-0.052 stdev; N=18)

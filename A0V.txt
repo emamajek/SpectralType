@@ -36,17 +36,6 @@ erratum), Gam UMa and Chi Cap (A0Van). They consider rapid rotation
 Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 172167 (alf Lyr; MK78), 66656 (MK78).
 
-For A0V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=15):
-<V-J>(A0V)   = 0.027 (+-0.012 sem, +-0.061 stdev; N=15)
-<V-H>(A0V)   = 0.013 (+-0.015 sem, +-0.066 stdev; N=15)
-<V-Ks>(A0V) = 0.031 (+-0.019 sem, +-0.071 stdev; N=15)
-<J-H>(A0V)   =-0.002 (+-0.010 sem, +-0.039 stdev; N=15)
-<H-K>(A0V)   = 0.021 (+-0.011 sem, +-0.036 stdev; N=15)
-<Bt-Vt>(A0V) = 0.018 (+-0.012 sem, +-0.042 stdev; N=15)
-<V-Vt>(A0V) = 0.010 (+-0.008 sem, +-0.025 stdev; N=15) 
-<B-K>(A0V)   = 0.029 (+-0.025 sem, +-0.083 stdev; N=15)
-
 (B-V)(A0V) =  0.090 ; HD_110411_ A0Va_lB plx=25.6921mas, Mv=1.929
 (B-V)(A0V) =  0.080 ; HD_125162_ A0Va_lB plx=32.5885mas, Mv=1.7453
 (B-V)(A0V) =  0.075 ; HD_31295_ A0Va_lB plx=27.0067mas, Mv=1.8053
@@ -230,27 +219,51 @@ and within 1 mag of the MS (N=15):
 (Ks-W1)(A0V) = 0.02  ; Deng20
 => adopt (Ks-W1)(A0V) = 0.042 [updated 12/29/2019]
 
-(G-V)(A0V)   = -0.023 ; polynomial fit f(B-V)
-(G-V)(A0V)   = -0.005 ; * kap And PM* A0V
-(G-V)(A0V)   = -0.002 ; * tet Lep * A0V
-(G-V)(A0V)   =  0.007 ; * eps Mic PM* A0V
-(G-V)(A1V)   = 0.01  ; adopted for A1V
-(G-V)(A0V)   =  0.010 ; * gam Aqr PM* A0V
-(G-V)(A0V)   =   0.010 ; HD_20911 A0V
-(G-V)(A0V)   =   0.010 ; HD_125987 A0V
-(G-V)(A0V)   =   0.012 ; HD_210267 A0V
-(G-V)(A0V)   =  0.014 ; * phi Oct * A0V
-(G-V)(A0V)   =   0.015 ; HD 42818 PM* A0Vn
-(G-V)(A0V)   = 0.017 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.041
-(G-V)(B9.5V) = 0.017 ; adopted for B9.5V
-(G-V)(A0V)   =   0.017 ; HD_207204 A0V
-(G-V)(A0V)   =   0.018 ; HD_107947 A0V
-(G-V)(A0V)   =   0.025 ; HD_52534 A0V
-(G-V)(A0V)   =   0.028 ; HD_46190 A0V
-(G-V)(A0V)   =   0.036 ; HD_41835 A0V
-(G-V)(A0V)   =   0.045 ; HD 125987 * A0V
-(G-V)(A0V)   =  0.073 ; * gam01 Ari PM* A0Vnp_lB
-=> adopt (G-V)(A0V) = 0.015 [updated 4/8/2022]
+(G-V)(A0V)   = -0.023 ; polynomial fit f(B-V) (GaiaDR2) 
+(G-V)(A0V)   = -0.005 ; * kap And PM* A0V (GaiaDR2) 
+(G-V)(A0V)   = -0.002 ; * tet Lep * A0V (GaiaDR2) 
+(G-V)(A0V)   =  0.007 ; * eps Mic PM* A0V (GaiaDR2) 
+(G-V)(A1V)   = 0.01  ; adopted for A1V (GaiaDR2) 
+(G-V)(A0V)   =  0.010 ; * gam Aqr PM* A0V (GaiaDR2) 
+(G-V)(A0V)   =   0.010 ; HD_20911 A0V (GaiaDR2) 
+(G-V)(A0V)   =   0.010 ; HD_125987 A0V (GaiaDR2) 
+(G-V)(A0V)   =   0.012 ; HD_210267 A0V (GaiaDR2) 
+(G-V)(A0V)   =  0.014 ; * phi Oct * A0V (GaiaDR2) 
+(G-V)(A0V)   =   0.015 ; HD 42818 PM* A0Vn (GaiaDR2) 
+(G-V)(A0V)   = 0.017 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.041 (GaiaDR2) 
+(G-V)(B9.5V) = 0.017 ; adopted for B9.5V (GaiaDR2) 
+(G-V)(A0V)   =   0.017 ; HD_207204 A0V (GaiaDR2) 
+(G-V)(A0V)   =   0.018 ; HD_107947 A0V (GaiaDR2) 
+(G-V)(A0V)   =   0.025 ; HD_52534 A0V (GaiaDR2) 
+(G-V)(A0V)   =   0.028 ; HD_46190 A0V (GaiaDR2) 
+(G-V)(A0V)   =   0.036 ; HD_41835 A0V (GaiaDR2) 
+(G-V)(A0V)   =   0.045 ; HD 125987 * A0V (GaiaDR2) 
+(G-V)(A0V)   =  0.073 ; * gam01 Ari PM* A0Vnp_lB (GaiaDR2) 
+=> adopt (G-V)(A0V) = 0.015 [updated 4/8/2022] (GaiaDR2) 
+
+(G-V)(A0V) =  -0.047 ; GaiaDR3doc/CarrascoBellazzini/Table5.9 polynomial for B-V=0.00
+(G-V)(A0V) =  -0.0404 ; HD_137058_ A0V plx=17.8315 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0349 ; HD_3003_ A0V plx=21.6794 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0297 ; HD_110411_ A0Va_lB plx=25.6921 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0267 ; HD_41695_ A0V plx=19.4991 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0196 ; HD_202627_ A0V plx=19.2981 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0178 ; HD_196724_ A0Va(_sh) plx=18.2449 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0154 ; HD_223352_ A0VankB9((_lB)) plx=22.7296 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0116 ; HD_31295_ A0Va_lB plx=27.0067 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0109 ; HD_125162_ A0Va_lB plx=32.5885 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0100 ; HD_125987_ A0V plx=33.2389 mas (GaiaDR3)
+(G-V)(A0V) = -0.0077 ; HD_181296_ A0V plx=20.6028 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0065 ; HD_153808_ A0V plx=19.7639 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0037 ; HD_103287_ A0Ve+K2V plx=39.21 mas (GaiaDR3)
+(G-V)(A0V) =  -0.0007 ; HD_42818_ A0Vn plx=18.3472 mas (GaiaDR3)
+(G-V)(A0V) =   0.0022 ; HD_71155_ A0Va plx=25.3438 mas (GaiaDR3)
+(G-V)(A0V) =   0.0040 ; *_lam_Oph_A_ A0V plx=20.3338 mas (GaiaDR3)
+(G-V)(A0V) =   0.0051 ; HD_73262_ A0Vnn plx=18.4301 mas (GaiaDR3)
+(G-V)(A0V) =   0.0152 ; HD_212061_ A0V plx=25.8551 mas (GaiaDR3)
+(G-V)(A0V) =   0.0234 ; HD_188228_ A0Va plx=31.2593 mas (GaiaDR3)
+(G-V)(A0V) =   0.0243 ; HD_112413_ A0VpSiEu plx=32.7227 mas (GaiaDR3)
+(G-V)(A0V) =   0.0459 ; HD_11502_ A0Vnp_lB plx=18.8809 mas (GaiaDR3)
+=> adopt (G-V)(A0V) = -0.008 [updated 5/16/2024] (GaiaDR3) 
 
 Teff(A0V) =  10040 K ; GrayCorbally94
 Teff(A0V) =  10000 K ; Crowther97/Fig.3 
@@ -635,11 +648,27 @@ HD 71151 = phi02 Cnc: was erroneously listed in GrayGarrison87 and
    corrected in erratum (1988ApJS...68..407G).
 
 
-# Notes
+# Notes on G-V vs V-Ks trend for A dwarfs for Gaia DR2
 
-(G-V): Using Kervella+2019 catalog (cross-referencing Hipparcos with Gaia DR2, including E(B-V) from STILISM and 2MASS Ks),
-and using a sample of A dwarfs with HIP2 and Gaia DR2 parallaxes > 5 mas, E(B-V) <= 0.02 mag, G and K errors of <0.03 mag,
-and correcting photometry using Av=3.1*E(B-V), A_G = 0.9536*Av (LuhmanEsplin20 for low Av),
-A_Ks=0.382*E(B-V), I derive a fit to the dereddened colors of stars classified as A dwarfs with -0.13 < (V-Ks) < 1.0 of:
+(G-V): Using Kervella+2019 catalog (cross-referencing Hipparcos with
+Gaia DR2, including E(B-V) from STILISM and 2MASS Ks), and using a
+sample of A dwarfs with HIP2 and Gaia DR2 parallaxes > 5 mas, E(B-V)
+<= 0.02 mag, G and K errors of <0.03 mag, and correcting photometry
+using Av=3.1*E(B-V), A_G = 0.9536*Av (LuhmanEsplin20 for low Av),
+A_Ks=0.382*E(B-V), I derive a fit to the dereddened colors of stars
+classified as A dwarfs with -0.13 < (V-Ks) < 1.0 of:
+
 (G-V) = 1.9070571562909713e-2 - 3.9288365588456699e-2*(V-Ks) - 6.3347152398901291e-2*(V-Ks)^2 (rms=0.0156 mag).
 
+# Notes on nearby Hipparcos stars with A0V types (mostly from Houk)
+
+For A0V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=15):
+<V-J>(A0V) = 0.027 (+-0.012 sem, +-0.061 stdev; N=15)
+<V-H>(A0V) = 0.013 (+-0.015 sem, +-0.066 stdev; N=15)
+<V-Ks>(A0V) = 0.031 (+-0.019 sem, +-0.071 stdev; N=15)
+<J-H>(A0V) =-0.002 (+-0.010 sem, +-0.039 stdev; N=15)
+<H-K>(A0V) = 0.021 (+-0.011 sem, +-0.036 stdev; N=15)
+<Bt-Vt>(A0V) = 0.018 (+-0.012 sem, +-0.042 stdev; N=15)
+<V-Vt>(A0V) = 0.010 (+-0.008 sem, +-0.025 stdev; N=15) 
+<B-K>(A0V) = 0.029 (+-0.025 sem, +-0.083 stdev; N=15)

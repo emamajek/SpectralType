@@ -18,19 +18,6 @@ GrayGarrison89:       HR 401 (=44 Cet)  - A9Vn (high-vsini standard)
 GrayNstars standards: HR 401 (=HD 8511) - A9V(n)
 Pecaut12 standard:    HD 73450 (=BS Cnc) - A9V 
 
-For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
-1 mag of the MS (N=13):
-
-<V-I>(A9V)   = 0.353 (+-0.014 sem, +-0.044 stdev; N=13)
-<V-J>(A9V)   = 0.623 (+-0.025 sem, +-0.091 stdev; N=13)
-<V-H>(A9V)   = 0.740 (+-0.032 sem, +-0.106 stdev; N=13)
-<V-Ks>(A9V)  = 0.800 (+-0.025 sem, +-0.112 stdev; N=13)
-<J-H>(A9V)   = 0.118 (+-0.012 sem, +-0.030 stdev; N=13)
-<H-K>(A9V)   = 0.059 (+-0.004 sem, +-0.015 stdev; N=13)
-<Bt-Vt>(A9V) = 0.323 (+-0.010 sem, +-0.032 stdev; N=13)
-<V-Vt>(A9V)  =-0.032 (+-0.002 sem, +-0.007 stdev; N=13)
-<B-K>(A9V)   = 1.110 (+-0.037 sem, +-0.141 stdev; N=13)
-
 (B-V)(A9V) = 0.324 ; exemplar HD 6670 
 (B-V)(A9V) = 0.321 ; exemplar HD 50635 (Garrison89)
 (B-V)(A9V) =  0.32 ; HD_24712_ A9VpSrEuCr plx=20.7432mas, Mv=2.5843
@@ -52,12 +39,8 @@ For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
 (B-V)(A9V) =  0.23 ; HD 89571 A9V (Abt95) plx=23.0490mas, Mv=2.323
 (B-V)(A9V) = 0.227 ; HD 70574 A9V+ (Garrison89)
 (B-V)(A9V) = 0.214 ; HD 30780 A9V+ (Garrison89)
-=> adopt (B-V)(A9V)  = 0.27  [updated 9/20/2019]
-=> adopt (V-J)(A9V)  = 0.545 [updated 4/1/2024]
-=> adopt (V-H)(A9V)  = 0.630 [updated 4/1/2024]
-=> adopt (V-Ks)(A9V) = 0.674 [updated 4/1/2024]
-=> adopt (H-Ks)(A9V) = 0.044 [updated 4/1/2024]
-=> adopt (J-H)(A9V)  = 0.086 [updated 4/1/2024]
+=> adopt (B-V)(A9V) = 0.27 [updated 9/20/2019]
+[EEM 5/10/2024: note that the two standards are bluer than the median value for other A9Vs]
 
 (U-B)(A9V) =  0.08 ; Fitzgerald70
 (U-B)(A9V) = 0.079 ; sec. stan. HD 8511 = 44 Cet = HIP 6539 
@@ -76,21 +59,54 @@ For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
 (V-Ic)(A9V) = 0.311 ; color trend for B-V=0.27 (4/1/2024)
 => adopt (V-Ic)(A9V) = 0.311 [updated 4/1/2024]
 
+(V-J)(A9V) = 0.545 ; B-V vs V-J for B-V=0.27
+=> adopt (V-J)(A9V) = 0.545 [updated 5/10/2024]
+
+(V-H)(A9V) = 0.630 ; B-V vs V-H for B-V=0.27
+=> adopt (V-H)(A9V) = 0.630 [updated 5/10/2024]
+
+(V-Ks)(A9V) = 0.596 ; weak standard HD 8511
+(V-Ks)(A9V) = 0.674 ; B-V vs V-Ks for B-V=0.27
+=> adopt (V-Ks)(A9V) = 0.674 [updated 5/10/2024]
+
+(J-H)(A9V) = 0.086 ; B-V vs J-H for B-V=0.27
+=> adopt (J-H)(A9V) = 0.086 [updated 5/10/2024]
+
+(H-Ks)(A9V) = 0.044 ; B-V vs H-Ks for B-V=0.27
+=> adopt (H-Ks)(A9V) = 0.044 [updated 5/10/2024]
+
 (Ks-W1)(A9V) = 0.048 ; EEM trend for d<30pc for B-V=0.27
 => adopt (Ks-W1)(A9V) = 0.048 [updated 12/29/2019]
 
-(G-V)(A9V) =  -0.087  ; HD 196385 PM* A9V
-(G-V)(A9V) =  -0.078  ; HD 103928 PM* A9V
-(G-V)(A9V) =  -0.075  ; HD 112934 PM* A9V
-(G-V)(A9V) =  -0.072  ; HD 138936 PM* A9V
-(G-V)(A9V) =  -0.065  ; HD 37594 * A9V
-(G-V)(A9V) =   -0.064 ; V* DO Eri a2* A9VpSrEuCr
-(G-V)(F0V) =  -0.06  ; adopted for F0V
-(G-V)(A9V) =   -0.051 ; * 9 Lac PM* A9VkA7mA6
-(G-V)(A9V) = -0.051  ; polynomial fit f(B-V)
-(G-V)(A8V) =  -0.04  ; adopted for A8V
-(G-V)(A9V) = -0.036 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.674
+(G-V)(A9V) =  -0.087  ; HD 196385 PM* A9V (GaiaDR2) 
+(G-V)(A9V) =  -0.078  ; HD 103928 PM* A9V (GaiaDR2)
+(G-V)(A9V) =  -0.075  ; HD 112934 PM* A9V (GaiaDR2) 
+(G-V)(A9V) =  -0.072  ; HD 138936 PM* A9V (GaiaDR2) 
+(G-V)(A9V) =  -0.065  ; HD 37594 * A9V (GaiaDR2) 
+(G-V)(A9V) =   -0.064 ; V* DO Eri a2* A9VpSrEuCr (GaiaDR2) 
+(G-V)(F0V) =  -0.06  ; adopted for F0V (GaiaDR2) 
+(G-V)(A9V) =   -0.051 ; * 9 Lac PM* A9VkA7mA6 (GaiaDR2) 
+(G-V)(A9V) = -0.051  ; polynomial fit f(B-V) (GaiaDR2) 
+(G-V)(A8V) =  -0.04  ; adopted for A8V (GaiaDR2) 
+(G-V)(A9V) = -0.036 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.674 (GaiaDR2) 
 => adopt (G-V)(A9V) = -0.05 [updated 4/8/2022]
+
+(G-V)(A9V) =  -0.072 ; HD_196385_ A9V plx=20.9103 mas (GaiaDR3)
+(G-V)(A9V) =  -0.071 ; HD_103928_ A9V plx=21.1752 mas (GaiaDR3)
+(G-V)(A9V) =  -0.069 ; HD_54834_ A9V plx=16.3999 mas (GaiaDR3)
+(G-V)(A9V) =  -0.067 ; HD_32115_ A9V plx=20.3757 mas (GaiaDR3)
+(G-V)(A9V) =  -0.065 ; HD_89571_ A9V plx=23.0490 mas (GaiaDR3)
+(G-V)(A9V) =  -0.063 ; HD_214454_ A9VkA7mA6 plx=18.6783 mas (GaiaDR3)
+(G-V)(A9V) = -0.061 ; HD_37594_ A9V plx=23.9992 mas (GaiaDR3)
+(G-V)(A9V) = -0.059 ; HD_138936_ A9V plx=17.5052 mas (GaiaDR3)
+(G-V)(A9V) =  -0.058 ; HD_112934_ A9V plx=18.2487 mas (GaiaDR3)
+(G-V)(A9V) =  -0.057 ; HD_24712_ A9VpSrEuCr plx=20.7432 mas (GaiaDR3)
+(G-V)(A9V) =  -0.048 ; HD_224945_ A9V/IV plx=15.6486 mas (GaiaDR3)
+(G-V)(A9V) =  -0.036 ; HD_111270_ A9V plx=15.4538 mas (GaiaDR3)
+(G-V)(A9V) =  -0.026 ; HD_201601_ A9VpSrCrEu plx=28.2433 mas (GaiaDR3)
+(G-V)(A9V) =  -0.006 ; HD_77093_ A9Vn plx=15.2423 mas (GaiaDR3)
+(G-V)(A9V) =    0.056 ; HD_17240_ A9V plx=19.9169 mas (GaiaDR3)
+=> adopt (G-V)(A9V) = -0.060 [updated 5/16/2024] (GaiaDR3) 
 
 (Bp-Rp)(A9V) =  0.3194 ; 44_Cet
 (Bp-Rp)(A9V) = 0.349   ; color trend for B-V=0.27
@@ -107,9 +123,6 @@ For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
 (G-Rp)(A9V) =  0.1780  ; 44_Cet
 (G-Rp)(A9V) = 0.219    ; color trend for B-V=0.27
 => adopt (G-Rp)(A9V) = 0.219 [updated 11/18/2020]
-
-
-(V-Ks)(A9V)  = 0.596 ; weak standard HD 8511
 
 (g-V)(A9V) = 0.044 ; Jordi06 B-V=>g-V for B-V=0.270
 => adopt (g-V)(A9V) = 0.044 [updated 9/1/2023]
@@ -244,36 +257,20 @@ HD 8511 = 44 Cet = HIP 6539 = HR 401 (J0124-0800)
   anyone else (however part of the disagreement could be due to the
   changing late-A/early-F standards between the 50s/60s and
   post-MK78?).  plx=14.83+-0.77 mas(HIP), so probably unreddened -
-  Kervella22 quotes E(B-V)=0.001mag based on STILISM reddening maps. 
-  V=6.20(Cousins62,Cousins71),
-  V=6.205(Hauck90),
-  V=6.205+-0.005(Mermilliod91), 
-  V=6.21(HIP),
-  V=6.21(Johnson66), 
-  V=6.214+-0.003(Hauck97) => adopt V=6.21. 
-  B-V=0.23(Johnson66),
-  B-V=0.230(Cousins71), 
-  B-V=0.235+-0.005(HIP,Mermilliod91),
-  B-V=0.24(Cousins62) => adopt B-V=0.235. 
-  U-B=0.07(Cousins62), 
-  U-B=0.079+-0.010(Mermilliod91),
-  U-B=0.09(Johnson66),
-  U-B=0.09(Cousins71) => adopt U-B=0.079. 
-  V-Ic=0.26+-0.01(HIP),
-  b-y=0.134+-0.004(Hauck97),
-  J=5.791+-0.023(2MASS),
-  H=5.65+-0.034(2MASS),
-  Ks=5.618+-0.008(2MASS) => 
-  (V-Ks)=0.596(Mermilliod91, 2MASS).
-  Teffs:
-  7422+-187K(Paunzen06),
-  7532K(Gerbaldi07#2),
-  7680K(Gerbaldi07#1),
-  7762K(Allende-Prieto99),
-  => <Teff>=7606K. 
-  All the colors are
-  bluer than the nearby (d<75pc) A9V stars in the Hipparcos catalog.
-  Mv = 2.07.
+  Kervella22 quotes E(B-V)=0.001mag based on STILISM reddening maps.
+  V=6.20(Cousins62,Cousins71), V=6.205(Hauck90),
+  V=6.205+-0.005(Mermilliod91), V=6.21(HIP), V=6.21(Johnson66),
+  V=6.214+-0.003(Hauck97) => adopt V=6.21.  B-V=0.23(Johnson66),
+  B-V=0.230(Cousins71), B-V=0.235+-0.005(HIP,Mermilliod91),
+  B-V=0.24(Cousins62) => adopt B-V=0.235.  U-B=0.07(Cousins62),
+  U-B=0.079+-0.010(Mermilliod91), U-B=0.09(Johnson66),
+  U-B=0.09(Cousins71) => adopt U-B=0.079.  V-Ic=0.26+-0.01(HIP),
+  b-y=0.134+-0.004(Hauck97), J=5.791+-0.023(2MASS),
+  H=5.65+-0.034(2MASS), Ks=5.618+-0.008(2MASS) =>
+  (V-Ks)=0.596(Mermilliod91, 2MASS).  Teffs: 7422+-187K(Paunzen06),
+  7532K(Gerbaldi07#2), 7680K(Gerbaldi07#1), 7762K(Allende-Prieto99),
+  => <Teff>=7606K.  All the colors are bluer than the nearby (d<75pc)
+  A9V stars in the Hipparcos catalog.  Mv = 2.07.
 
 # Exemplar
 
@@ -354,3 +351,16 @@ HD 50635A = 38 Gem = GJ 9220A = HIP 33202 = HR 2564 = e Gem = Gaia DR3 335325469
   *A9V: GrayGarrison89
    F0III: Cuchiaro78(S2/68)
 
+# Notes on nearby Hipparcos stars with A9V types (mostly Houk types)
+
+For A9V Hipparcos stars within 75pc, with parallax S/N > 8, and within
+1 mag of the MS (N=13):
+<V-I>(A9V)   = 0.353 (+-0.014 sem, +-0.044 stdev; N=13)
+<V-J>(A9V)   = 0.623 (+-0.025 sem, +-0.091 stdev; N=13)
+<V-H>(A9V)   = 0.740 (+-0.032 sem, +-0.106 stdev; N=13)
+<V-Ks>(A9V)  = 0.800 (+-0.025 sem, +-0.112 stdev; N=13)
+<J-H>(A9V)   = 0.118 (+-0.012 sem, +-0.030 stdev; N=13)
+<H-K>(A9V)   = 0.059 (+-0.004 sem, +-0.015 stdev; N=13)
+<Bt-Vt>(A9V) = 0.323 (+-0.010 sem, +-0.032 stdev; N=13)
+<V-Vt>(A9V)  =-0.032 (+-0.002 sem, +-0.007 stdev; N=13)
+<B-K>(A9V)   = 1.110 (+-0.037 sem, +-0.141 stdev; N=13)

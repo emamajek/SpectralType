@@ -39,39 +39,46 @@ the revised calibration (10/17/2011).
 (B-V)(B7V) = -0.112 ; deprecated standard alf Leo
 (B-V)(B7V) =  -0.11  ; KenyonHartmann95
 (B-V)(B7V) =  -0.08 ; Deng20 
-=> adopt (B-V)(B7V)  = -0.128 [updated 4/8/2022]
+=> adopt (B-V)(B7V) = -0.128 [updated 5/31/2024]
 
-(U-B)(B8V)  =  -0.364 ; adopted for B8V 
-(U-B)(B7V)  =  -0.365 ; deprecated standard alf Leo
-(U-B)(B7V)  =  -0.41  ; Bessell98
-(U-B)(B7V)  =  -0.42  ; Johnson63,Johnson65,Johnson66
-(U-B)(B7V)  =  -0.43  ; Fitzgerald70, Schmidt-Kaler82 
-(U-B)(B7V)  = -0.455 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
-(U-B)(B7V)  = -0.459 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
-(U-B)(B6V)  =  -0.504 ; adopted for B6V 
-(U-B)(B7V)  = -0.530 ; pri. stan. HD 21071 (EEM dereddened via Q-method)
-=> adopt (U-B)(B7V)  = -0.459 ***
-=> adopt     Q(B7V)  = -0.367 (=(U-B)-0.72*(B-V) = -0.459 - 0.72*-0.128)
-=> adopt (V-I)(B7V)  = -0.132
-=> adopt (V-R)(B7V)  = -0.058
-=> adopt (R-I)(B7V)  = -0.075
+(U-B)(B8V) =  -0.364 ; adopted for B8V 
+(U-B)(B7V) =  -0.365 ; deprecated standard alf Leo
+(U-B)(B7V) =  -0.41  ; Bessell98
+(U-B)(B7V) =  -0.42  ; Johnson63,Johnson65,Johnson66
+(U-B)(B7V) =  -0.43  ; Fitzgerald70, Schmidt-Kaler82 
+(U-B)(B7V) = -0.455 ; sec. stan. 49 Eri (EEM dereddened via Q-method)
+(U-B)(B7V) = -0.459 ; EEM dereddened N=36 HIP B7V stars (Q-method,E(B-V)<0.1)
+(U-B)(B6V) =  -0.504 ; adopted for B6V 
+(U-B)(B7V) = -0.530 ; pri. stan. HD 21071 (EEM dereddened via Q-method)
+=> adopt (U-B)(B7V) = -0.459 [updated 5/31/2024]
+=> adopt     Q(B7V) = -0.367 (=(U-B)-0.72*(B-V) = -0.459 - 0.72*-0.128)
 
 (V-Rj)(B7V) = -0.05  ; Johnson65
 
-(V-Rc)(B7V) = -0.06  ; Winkler97
+(V-Rc)(B7V) = -0.057 ; color trend B-V vs V-Rc for B-V=-0.128
+(V-Rc)(B7V) =  -0.06 ; Winkler97
+=> adopt (V-Rc)(B7V) = -0.057 [updated 5/31/2024]
 
-(R-Ic)(B7V) = -0.070 ; Bessell79
+(R-Ic)(B7V) =  -0.070 ; Bessell79
+(R-Ic)(B7V) = -0.074 ; color trend B-V vs V-Rc for B-V=-0.128
+=> adopt (R-Ic)(B7V) = -0.074 [updated 5/31/2024]
 
 (V-Ij)(B7V) = -0.17  ; Johnson65
 
-(V-Ic)(B7V) = -0.120 ; Bessell78
-(V-Ic)(B7V) = -0.14  ; Winkler97
+(V-Ic)(B7V) =  -0.120 ; Bessell78
+(V-Ic)(B7V) = -0.130 ; color trend B-V vs V-Ic for B-V=-0.128
+(V-Ic)(B7V) =  -0.14  ; Winkler97
+=> adopt (V-Ic)(B7V) = -0.130 [updated 5/31/2024]
 
 (V-Jj)(B7V) = -0.27 ; Johnson65
 
-(V-J)(B7V)  = -0.28 ; Wenger14/2MASS
+(V-J)(B7V) = -0.240 ; color trend B-V vs V-J for B-V=-0.128
+(V-J)(B7V) =  -0.28 ; Wenger14/2MASS
+=> adopt (V-J)(B7V) = -0.240 [updated 5/31/2024]
 
-(V-H)(B7V)  = -0.32 ; Wenger14/2MASS 
+(V-H)(B7V) = -0.316 ; color trend B-V vs V-Rc for B-V=-0.128
+(V-H)(B7V) =  -0.32 ; Wenger14/2MASS
+=> adopt (V-H)(B7V) = -0.316 [updated 5/31/2024]
 
 (V-Kj)(B7V) = -0.35 ; Johnson65
 
@@ -86,29 +93,29 @@ the revised calibration (10/17/2011).
 (V-Ks)(B7V) = -0.284 ; sec. stan. 49 Eri = HD 29335 = HIP 21515 
 (V-Ks)(B7V) =  -0.284 ; HIP_36917_ B7V d= 73.3245pc, (B-V)=0.001 (dereddened from Kervella19)
 (V-Ks)(B7V) =  -0.308 ; HIP_60379_ B7Vn d= 103.864pc, (B-V)=0.012 (dereddened from Kervella19)
-(V-Ks)(B7V) = -0.325 ; intrinsic color sequence for (U-B)o=-0.459
+(V-Ks)(B7V) = -0.320 ; color trend B-V vs V-Ks for B-V=-0.128
+(V-Ks)(B7V) = -0.325 ; color trend U-B vs V-Ks for U-B=-0.459
 (V-Ks)(B7V) =  -0.327 ; HIP_13327_ B7V d= 140.964pc, (B-V)=0.021 (dereddened from Kervella19)
 (V-Ks)(B7V) =   -0.35 ; Wenger14/2MASS 
 (V-Ks)(B7V) =  -0.375 ; HIP_76669_ B7V d= 154.847pc, (B-V)=0.019 (dereddened from Kervella19)
 (V-Ks)(B7V) =  -0.423 ; HIP_19968_ B7V d= 149.656pc, (B-V)=0.016 (dereddened from Kervella19)
 (V-Ks)(B7V) = -0.424 ; pri. stan. HD 21071 = HR 1029 (see below, a bit hotter than most B7Vs)
 (V-Ks)(B7V) =  -0.647 ; HIP_74950_ B7V d= 149.276pc, (B-V)=0.012 (dereddened from Kervella19)
-=> adopt (V-Ks)(B7V) = -0.325 [updated 4/8/2022]
-=> adopt (V-J)(B7V)  = -0.244 [updated 4/8/2022]
-=> adopt (V-H)(B7V)  = -0.321 [updated 4/8/2022]
+=> adopt (V-Ks)(B7V) = -0.320 [updated 5/31/2024]
 
 (J-H)(B7V) = -0.06 ; Winkler97/SAAO
 
 (J-H)(B7V) = -0.072 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.128
-(J-H)(B7V) = -0.08 ; Deng20/2MASS
-(J-H)(B7V) = -0.09 (+-0.003 rms) ; SteadHoare11 
+(J-H)(B7V) = -0.077 ; color trend U-B vs J-H for U-B=-0.459 
+(J-H)(B7V) =  -0.08 ; Deng20/2MASS
+(J-H)(B7V) =  -0.09 (+-0.003 rms) ; SteadHoare11 
 => adopt (J-H)(B7V) = -0.072 [updated 5/1/2024]
 
 (H-K)(B7V)  = -0.05 ; Winkler97/SAAO
 
 (H-Ks)(B7V) =  0.001 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.128
-(H-Ks)(B7V) = -0.02 ; Deng20/2MASS
-(H-Ks)(B7V) = -0.02 (+-0.005 rms) ; SteadHoare11
+(H-Ks)(B7V) =  -0.02 ; Deng20/2MASS
+(H-Ks)(B7V) =  -0.02 (+-0.005 rms) ; SteadHoare11
 => adopt (H-Ks)(B7V) = 0.001 [updated 5/1/2024]
 
 (J-Ks)(B7V) = -0.10 ; Deng20/2MASS

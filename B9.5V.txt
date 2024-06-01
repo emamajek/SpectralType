@@ -29,31 +29,31 @@ the new calibration (10/11/2011).
 (B-V)(B9.5V) = -0.052 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
 (B-V)(B9.5V) = -0.067 ; EEM 3 d<75 pc B9.5V Hipparcos stars
 (B-V)(B9.5V) = -0.076 ; exemplar 16 Dra A = HD 150100 
-=> adopt (B-V)(B9.5V) = -0.050 [updated 9/20/2019]
+=> adopt (B-V)(B9.5V) = -0.05 [updated 5/31/2024]
 
 (U-B)(B9.5V) = -0.143 ; EEM dereddened N=34 HIP B9.5V stars (Q-method,E(B-V)<0.1)
 (U-B)(B9.5V) = -0.136 ; prim. stan. HD 23873 (EEM dereddened via Q-method)
 (U-B)(B9.5V) = -0.124 ; prim. stan. ome^2 Aqr (EEM dereddened via Q-method)
 (U-B)(B9.5V) = -0.102 ; HIP d<75pc S/N>8 A0V N=4 (Mermilliod91 photometry)
 (U-B)(B9.5V) =  -0.10  ; Fitzgerald70
-=> adopt (U-B)(B9.5V)  = -0.13  [updated 9/26/2019]
-=> adopt     Q(B9.5V)  = -0.094 (=(U-B)-0.72*(B-V) = -0.130 - 0.72*-0.050) 
-=> adopt (V-J)(B9.5V)  = -0.025
-=> adopt (V-H)(B9.5V)  = -0.069
-=> adopt (V-Ks)(B9.5V) = -0.048
+=> adopt (U-B)(B9.5V) = -0.13 [updated 5/31/2024]
+=> adopt     Q(B9.5V) = -0.094 (=(U-B)-0.72*(B-V) = -0.130 - 0.72*-0.050) 
 
 (V-Rc)(B9.5V) = -0.003 ; exemplar HD 24072 = HR 1190A
 (V-Rc)(B9.5V) = -0.016 ; pri. stan. HD 222661 = ome^2 Aqr = GJ 9836A
-=> adopt (V-Rc)(B9.5V) = -0.016 [updated 10/10/2023]
+(V-Rc)(B9.5V) = -0.028 ; color trend B-V vs V-Rc for B-V=-0.070
+=> adopt (V-Rc)(B9.5V) = -0.025 [updated 5/31/2024; V-Ic=-0.050, R-Ic=-0.025]
 
 (R-Ic)(B9.5V) = -0.017 ; exemplar HD 24072 = HR 1190A
 (R-Ic)(B9.5V) = -0.023 ; pri. stan. HD 222661 = ome^2 Aqr = GJ 9836A
-=> adopt (R-Ic)(B9.5V) = -0.023 [updated 10/10/2023]
+(R-Ic)(B9.5V) = -0.033 ; color trend B-V vs V-Rc for B-V=-0.070
+=> adopt (R-Ic)(B9.5V) = -0.025 [updated 5/31/2024; V-Ic=-0.050, V-Rc=-0.025]
 
 (V-Ic)(B9.5V) = -0.02  ; exemplar HD 24072 = HR 1190A
 (V-Ic)(B9.5V) = -0.039 ; pri. stan. HD 222661 = ome^2 Aqr = GJ 9836A
 (V-Ic)(B9.5V) = -0.05  ; EEM 3 d<75 pc B9.5V Hipparcos stars
-=> adopt (V-Ic)(B9.5V) = -0.039 [updated 10/10/2023]
+(V-Ic)(B9.5V) = -0.061 ; color trend B-V vs V-Ic for B-V=-0.070
+=> adopt (V-Ic)(B9.5V) = -0.050 [updated 5/31/2024; V-Rc=-0.024, R-Ic=-0.025]
 
 (V-J)(B9.5V)  = -0.09  ; Wegner14/2MASS
 
@@ -72,28 +72,38 @@ the new calibration (10/11/2011).
 
 (Bp-Rp)(B9.5V) = -0.058 ; Evans18 trend for V-I=-0.035
 
-(G-V)(B9.5V) = -0.032   ; * lam Aql PM* B9Vn
-(G-V)(B9.5V) =  0.003   ; * ome02 Aqr PM* B9V
-(G-V)(B9.5V) =  0.00884 ; HIP_28662 B9.5V E(B-V)=0.002
-(G-V)(B9.5V) =  0.01024 ; HIP_26674 B9.5V E(B-V)=0.004
-(G-V)(B9.5V) =  0.01066 ; HIP_34701 B9.5V E(B-V)=0.008
-(G-V)(B9.5V) =  0.0110  ; HIP_21869 B9.5V E(B-V)=0.001
-(G-V)(B9.5V) =  0.0130  ; HIP_79631 B9.5V E(B-V)=0.006
-(G-V)(B9.5V) =  0.013   ; * L01 Pup a2* B9V
-(G-V)(B9.5V) =  0.01389 ; HIP_17328 B9.5V E(B-V)=0.008
-(G-V)(B9.5V) =  0.01666 ; HIP_82069 B9.5V E(B-V)=0.005
-(G-V)(B9.5V) = 0.017 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.048
-(G-V)(B9.5V) =  0.01755 ; HIP_32646 B9.5V E(B-V)=0.006
-(G-V)(B9.5V) =  0.01801 ; HIP_28515 B9.5V E(B-V)=0.009
-(G-V)(B9.5V) =  0.01977 ; HIP_113821 B9.5V E(B-V)=0.004
+(G-V)(B9.5V) = -0.032 ; * lam Aql PM* B9Vn (GaiaDR2) 
+(G-V)(B9.5V) =  0.003 ; * ome02 Aqr PM* B9V (GaiaDR2) 
+(G-V)(B9.5V) =  0.008 ; HIP_28662 B9.5V E(B-V)=0.002 (GaiaDR2) 
+(G-V)(B9.5V) =  0.010 ; HIP_26674 B9.5V E(B-V)=0.004 (GaiaDR2) 
+(G-V)(B9.5V) =  0.010 ; HIP_34701 B9.5V E(B-V)=0.008 (GaiaDR2) 
+(G-V)(B9.5V) =  0.011 ; HIP_21869 B9.5V E(B-V)=0.001 (GaiaDR2) 
+(G-V)(B9.5V) =  0.013 ; HIP_79631 B9.5V E(B-V)=0.006 (GaiaDR2) 
+(G-V)(B9.5V) =  0.013 ; * L01 Pup a2* B9V (GaiaDR2) 
+(G-V)(B9.5V) =  0.013 ; HIP_17328 B9.5V E(B-V)=0.008 (GaiaDR2) 
+(G-V)(B9.5V) =  0.016 ; HIP_82069 B9.5V E(B-V)=0.005 (GaiaDR2) 
+(G-V)(B9.5V) = 0.017  ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.048 (GaiaDR2) 
+(G-V)(B9.5V) =  0.017 ; HIP_32646 B9.5V E(B-V)=0.006 (GaiaDR2) 
+(G-V)(B9.5V) =  0.018 ; HIP_28515 B9.5V E(B-V)=0.009 (GaiaDR2) 
+(G-V)(B9.5V) =  0.019 ; HIP_113821 B9.5V E(B-V)=0.004 (GaiaDR2) 
+(G-V)(B9.5V) =  0.019 ; HIP_17982 B9.5V E(B-V)=0.002 (GaiaDR2) 
+(G-V)(B9.5V) =  0.022 ; HIP_111085 B9.5V E(B-V)=0.004 (GaiaDR2) 
+(G-V)(B9.5V) =  0.029 ; HIP_32788 B9.5V E(B-V)=0.006 (GaiaDR2) 
+(G-V)(B9.5V) =  0.029 ; HIP_32683 B9.5V E(B-V)=0.007 (GaiaDR2) 
+(G-V)(B9.5V) =  0.045 ; HIP_108487 B9.5V E(B-V)=0.008 (GaiaDR2) 
+(G-V)(B9.5V) =  0.058 ; HIP_108336 B9.5V E(B-V)=0.009 (GaiaDR2) 
+=> adopt (G-V)(B9.5V) = 0.017 [updated 4/8/2022] (GaiaDR2)
 
-(G-V)(B9.5V) =  0.01995 ; HIP_17982 B9.5V E(B-V)=0.002
-(G-V)(B9.5V) =  0.02202 ; HIP_111085 B9.5V E(B-V)=0.004
-(G-V)(B9.5V) =  0.02901 ; HIP_32788 B9.5V E(B-V)=0.006
-(G-V)(B9.5V) =  0.02983 ; HIP_32683 B9.5V E(B-V)=0.007
-(G-V)(B9.5V) =  0.04569 ; HIP_108487 B9.5V E(B-V)=0.008
-(G-V)(B9.5V) =  0.05829 ; HIP_108336 B9.5V E(B-V)=0.009
-=> adopt (G-V)(B9.5V) = 0.017 [updated 4/8/2022]
+(G-V)(B9.5V) = -0.048 ; GaiaDR3doc/CarrascoBellazzini/Table5.9 polynomial for B-V=-0.05 
+(G-V)(B9.5V) = -0.015 ; HD_176638_ B9.5Vann plx=18.2019 mas (GaiaDR3)
+(G-V)(B9.5V) = -0.013 ; adopted G-V for B9V (GaiaDR3) 
+(G-V)(B9.5V) = -0.008 ; adopted G-V for A0V (GaiaDR3) 
+(G-V)(B9.5V) =  0.004 ; HD_198001_ B9.5V plx=13.3619 mas (GaiaDR3)
+(G-V)(B9.5V) =  0.014 ; HD_98664_ B9.5Vs plx=13.5551 mas (GaiaDR3)
+(G-V)(B9.5V) =  0.028 ; HD_24072_ B9.5Van plx=18.8093 mas (GaiaDR3)
+(G-V)(B9.5V) =  0.040 ; HD_2884_ B9.5Va plx=22.8384 mas (GaiaDR3)
+(G-V)(B9.5V) =   0.170 ; HD_134481_ B9.5Vne plx=17.5888 mas (GaiaDR3)
+=> adopt (G-V)(B9.5V) = -0.01 [updated 5/16/2024] (GaiaDR3) 
 
 (u-g)(B9.5V)   = 0.898 ; Fukugita11 interp B7V-A0V
 (u'-g')(B9.5V) = 0.947 ; Smith02 u'-g' calibration for U-B=-0.13
@@ -320,8 +330,6 @@ HD 139486
 1958ApJ...128..533B  B9.5V
 1967ApJ...147.1003G  B9.5V
 1968ApJ...151.1043S  B9.5V
-
-
 
 HD 158643
 1969MNRAS.144...31B  B9.5V

@@ -43,11 +43,13 @@ the revised calibration (10/11/2011).
 (B-V)(B9V) =   -0.065 ; Bessell79
 (B-V)(B9V) = -0.067 ; EEM dereddened N=124 HIP B9V stars (Q-method,E(B-V)<0.1)
 (B-V)(B9V) = -0.067 ; EEM 8 d<75 pc B9V Hipparcos stars
+(B-V)(B9V) = -0.070 ; color trend U-B vs B-V for U-B=-0.200 [5/2024]
 (B-V)(B9V) =   -0.07 ; Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,Wegner14
 (B-V)(B9V) =  -0.071 ; weak stan. alf Del (EEM dereddened via Q-method)
 (B-V)(B9V) = -0.074 ; pri. stan. HD 141774 (EEM dereddened via Q-method)
 (B-V)(B9V) = -0.080 ; ter. stan. HD 36998 = BD-04_1180 
-(B-V)(B9V) = -0.085 ; HD 213998 = eta Aqr = HIP 111497 
+(B-V)(B9V) = -0.085 ; HD 213998 = eta Aqr = HIP 111497
+=> adopt (B-V)(B9V) = -0.070 [updated 5/31/2024]
 
 (U-B)(B9V) = -0.110 ; sec. stan. HD 45380 (EEM dereddened via Q-method)
 (U-B)(B9V) = -0.117 ; exemplar HD 16978 = eps Hyi = HIP 12394
@@ -62,14 +64,8 @@ the revised calibration (10/11/2011).
 (U-B)(B9V) = -0.226 ; pri. stan. HD 141774 (EEM dereddened via Q-method)
 (U-B)(B9V) = -0.252 ; ter. stan. HD 36998 = BD-04_1180 
 (U-B)(B9V) = -0.262 ; HD 213998 = eta Aqr = HIP 111497 
-=> adopt (U-B)(B9V)  = -0.20  [updated 10/8/2023]
-=> adopt (B-V)(B9V)  = -0.070 [updated 10/8/2023]
-=> adopt Q(B9V)      = -0.150 (=(U-B)-0.72*(B-V) = -0.200 - 0.72*-0.070)
-
-=> adopt (V-J)(B9V)  = -0.087 [updated 10/8/2023]
-=> adopt (V-H)(B9V)  = -0.137 [updated 10/8/2023]
-=> adopt (H-Ks)(B9V) =  0.016 [updated 10/8/2023]
-=> adopt (J-H)(B9V)  = -0.050 [updated 10/8/2023]
+=> adopt (U-B)(B9V) = -0.200 [updated 5/31/2024]
+=> adopt Q(B9V)     = -0.150 (=(U-B)-0.72*(B-V) = -0.200 - 0.72*-0.070)
 
 (V-Rj)(B9V) = -0.02 ; Johnson65
 
@@ -78,29 +74,34 @@ the revised calibration (10/11/2011).
 (V-Rc)(B9V) = -0.022 ; exemplar HD 16978 = eps Hyi = HIP 12394
 (V-Rc)(B9V) = -0.021 ; exemplar HD 213998 = eta Aqr = HIP 111497
 (V-Rc)(B9V) = -0.015 ; exemplar HD 32309 = HIP 23362 = HR 1621 
-=> adopt (V-Rc)(B9V) = -0.025 [updated 10/10/2023; V-Ic=-0.07, R-Ic=-0.045]
+=> adopt (V-Rc)(B9V) = -0.025 [updated 5/31/2024; V-Ic=-0.06, R-Ic=-0.035]
 
 (R-Ic)(B9V) = -0.029 ; exemplar HD 32309 = HIP 23362 = HR 1621 
 (R-Ic)(B9V) =  -0.032 ; Bessell79
 (R-Ic)(B9V) = -0.033 ; R-Ic vs B-V trend for B-V=-0.07
 (R-Ic)(B9V) = -0.052 ; exemplar HD 213998 = eta Aqr = HIP 111497 
-=> adopt (R-Ic)(B9V) = -0.045 [updated 10/10/2023; V-Ic=-0.07, V-Rc=-0.025]
+=> adopt (R-Ic)(B9V) = -0.035 [updated 5/31/2024; V-Ic=-0.06, V-Rc=-0.025]
 
 (V-Ij)(B9V) = -0.07 ; Johnson65
 
 (V-Ic)(B9V) = -0.044 ; exemplar HD 32309 = HIP 23362 = HR 1621 
 (V-Ic)(B9V) =  -0.055 ; Bessell79
+(V-Ic)(B9V) = -0.061 ; color trend B-V vs V-Ic for B-V=-0.070 
 (V-Ic)(B9V) = -0.068 ; exemplar HD 16978 = eps Hyi = HIP 12394
 (V-Ic)(B9V) =  -0.07  ; Winkler97
 (V-Ic)(B9V) = -0.073 ; exemplar HD 213998 = eta Aqr = HIP 111497 
 (V-Ic)(B9V) =  -0.075 ; Bessell88 (interp B8V-A0V)
-=> adopt (V-Ic)(B9V) = -0.07 [updated 10/10/2023; V-Rc=-0.025, R-Ic=-0.045]
+=> adopt (V-Ic)(B9V) = -0.060 [updated 5/31/2024; V-Rc=-0.025, R-Ic=-0.035]
 
 (V-Jj)(B9V) = -0.09 ; Johnson65
 
-(V-J)(B9V)  = -0.16 ; Wegner14/2MASS
+(V-J)(B9V) = -0.087 ; color trend B-V vs V-J for B-V=-0.070
+(V-J)(B9V) =  -0.16 ; Wegner14/2MASS
+=> adopt (V-J)(B9V) = -0.087 [updated 5/31/2024]
 
-(V-H)(B9V)  = -0.16 ; Wegner14/2MASS 
+(V-H)(B9V) = -0.137 ; color trend B-V vs V-H for B-V=-0.070
+(V-H)(B9V) =  -0.16 ; Wegner14/2MASS
+=> adopt (V-H)(B9V) = -0.137 [updated 5/31/2024]
 
 (V-Kj)(B9V) = -0.12 ; Johnson65
 
@@ -116,7 +117,7 @@ the revised calibration (10/11/2011).
 (V-Ks)(B9V) = -0.103 ; sec. stan. HD 16046 = ome For A (see below)
 (V-Ks)(B9V) = -0.112 ; sec. stan. HD 45380 = HR 2328 (see below)
 (V-Ks)(B9V) =  -0.113 ; HIP_116971_ B9V d= 47.7692pc, (B-V)=0.000 (dereddened from Kervella19)
-(V-Ks)(B9V) = -0.121 ; intrinsic color sequence for (U-B)o = -0.20 
+(V-Ks)(B9V) = -0.121 ; color trend U-B vs V-Ks for U-B=-0.200 and B-V=-0.070
 (V-Ks)(B9V) =  -0.122 ; HIP_61318_ B9V d= 85.2442pc, (B-V)=0.003 (dereddened from Kervella19)
 (V-Ks)(B9V) =  -0.123 ; HIP_79101_ B9VspHgMn d= 73.5078pc, (B-V)=0.009 (dereddened from Kervella19)
 (V-Ks)(B9V) =  -0.127 ; HIP_60183_ B9V d= 97.144pc, (B-V)=0.015 (dereddened from Kervella19)
@@ -129,21 +130,21 @@ the revised calibration (10/11/2011).
 (V-Ks)(B9V) =  -0.201 ; HIP_77562_ B9V(n) d= 96.2649pc, (B-V)=0.008 (dereddened from Kervella19)
 (V-Ks)(B9V) =  -0.204 ; HIP_27566_ B9V d= 90.7029pc, (B-V)=0.003 (dereddened from Kervella19)
 (V-Ks)(B9V) =  -0.311 ; HIP_16611_ B9V d= 97.8378pc, (B-V)=0.001 (dereddened from Kervella19)
-=> adopt (V-Ks)(B9V) = -0.121 [updated 4/8/2022]
+=> adopt (V-Ks)(B9V) = -0.121 [updated 5/31/2024]
 
 (J-H)(B9V) = -0.03 ; Winkler97/SAAO
 
 (J-H)(B9V) = -0.052 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.070
-(J-H)(B9V) = -0.06 ; Deng20/2MASS
-(J-H)(B9V) = -0.06 (+-0.003 rms) ; SteadHoare11 
-=> adopt (J-H)(B9V) = -0.052 [updated 5/1/2024]
+(J-H)(B9V) =  -0.06 ; Deng20/2MASS
+(J-H)(B9V) =  -0.06 (+-0.003 rms) ; SteadHoare11 
+=> adopt (J-H)(B9V) = -0.052 [updated 5/31/2024]
 
 (H-K)(B9V) = -0.03 ; Winkler97/SAAO
 
 (H-Ks)(B9V) = 0.018 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.070
-(H-Ks)(B9V) = 0.00 ; Deng20 (J-H=-0.06, J-Ks=-0.06)
-(H-Ks)(B9V) = 0.00 (+-0.002 rms) ; SteadHoare11 
-=> adopt (H-Ks)(B9V) = 0.018 [updated 5/1/2024]
+(H-Ks)(B9V) =  0.00 ; Deng20 (J-H=-0.06, J-Ks=-0.06)
+(H-Ks)(B9V) =  0.00 (+-0.002 rms) ; SteadHoare11 
+=> adopt (H-Ks)(B9V) = 0.018 [updated 5/31/2024]
 
 (J-Ks)(B9V) = -0.06 ; Deng20/2MASS
 
@@ -176,24 +177,34 @@ the revised calibration (10/11/2011).
 (G-T)(B9V) = -0.092 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=-0.092
 => (G-T)(B9V) = -0.092 [updated 10/8/2023] (GaiaDR2)
 
+(G-V)(B9V) = -0.017 ; HIP_56379 B9Vne V=6.703 G=6.6830 E(B-V)=0.014 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.010 ; HIP_32838 B9V V=6.299 G=6.3088 E(B-V)=0.002 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.013 ; HIP_90967 B9V V=6.353 G=6.3580 E(B-V)=0.057 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.018 ; HIP_30069 B9V V=5.743 G=5.7610 E(B-V)=0.001 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.018 ; HIP_7222 B9V V=6.591 G=6.6086 E(B-V)=0.004 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.018 ; HIP_52877 B9V V=6.395 G=6.4119 E(B-V)=0.009 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.018 ; HIP_43394 B9V V=6.163 G=6.1815 E(B-V)=0.002 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) = 0.018 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.121 (GaiaDR2) 
+(G-V)(B9V) =  0.021 ; HIP_79599 B9V V=6.404 G=6.4160 E(B-V)=0.065 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.021 ; HIP_118133 B9V V=6.644 G=6.6647 E(B-V)=0.006 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.021 ; HIP_30675 B9V V=6.327 G=6.3484 E(B-V)=0.002 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.023 ; HIP_25453 B9V V=6.397 G=6.4205 E(B-V)=0.002 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.024 ; HIP_58720 B9V V=5.871 G=5.8936 E(B-V)=0.014 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.026 ; HIP_81634 B9V V=6.900 G=6.9252 E(B-V)=0.007 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.029 ; HIP_76234 B9V V=6.346 G=6.3740 E(B-V)=0.008 (calc from Kervella22) (GaiaDR2) 
+(G-V)(B9V) =  0.029 ; HIP_60183 B9V V=6.183 G=6.2107 E(B-V)=0.015 (calc from Kervella22) (GaiaDR2) 
+=> adopt (G-V)(B9V) = 0.02 [updated 2/20/2023] (GaiaDR2) 
+
+(G-V)(B9V) =   -0.079 ; HD_145389_ B9VspHgMn plx=13.5751 mas (GaiaDR3)
+(G-V)(B9V) =  -0.048 ; HD_21364_ B9Vn plx=16.7914 mas (GaiaDR3)
 (G-V)(B9V) = -0.027 ; ter. stan. HD 36998 = BD-04_1180 (GaiaDR3) 
-(G-V)(B9V) = -0.017 ; HIP_56379 B9Vne V=6.703 G=6.6830 E(B-V)=0.014 (calc from Kervella22)
-(G-V)(B9V) =  0.010 ; HIP_32838 B9V V=6.299 G=6.3088 E(B-V)=0.002 (calc from Kervella22)
-(G-V)(B9V) =  0.013 ; HIP_90967 B9V V=6.353 G=6.3580 E(B-V)=0.057 (calc from Kervella22)
-(G-V)(B9V) =  0.018 ; HIP_30069 B9V V=5.743 G=5.7610 E(B-V)=0.001 (calc from Kervella22)
-(G-V)(B9V) =  0.018 ; HIP_7222 B9V V=6.591 G=6.6086 E(B-V)=0.004 (calc from Kervella22)
-(G-V)(B9V) =  0.018 ; HIP_52877 B9V V=6.395 G=6.4119 E(B-V)=0.009 (calc from Kervella22)
-(G-V)(B9V) =  0.018 ; HIP_43394 B9V V=6.163 G=6.1815 E(B-V)=0.002 (calc from Kervella22)
-(G-V)(B9V) = 0.018 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.121
-(G-V)(B9V) =  0.021 ; HIP_79599 B9V V=6.404 G=6.4160 E(B-V)=0.065 (calc from Kervella22)
-(G-V)(B9V) =  0.021 ; HIP_118133 B9V V=6.644 G=6.6647 E(B-V)=0.006 (calc from Kervella22)
-(G-V)(B9V) =  0.021 ; HIP_30675 B9V V=6.327 G=6.3484 E(B-V)=0.002 (calc from Kervella22)
-(G-V)(B9V) =  0.023 ; HIP_25453 B9V V=6.397 G=6.4205 E(B-V)=0.002 (calc from Kervella22)
-(G-V)(B9V) =  0.024 ; HIP_58720 B9V V=5.871 G=5.8936 E(B-V)=0.014 (calc from Kervella22)
-(G-V)(B9V) =  0.026 ; HIP_81634 B9V V=6.900 G=6.9252 E(B-V)=0.007 (calc from Kervella22)
-(G-V)(B9V) =  0.029 ; HIP_76234 B9V V=6.346 G=6.3740 E(B-V)=0.008 (calc from Kervella22)
-(G-V)(B9V) =  0.029 ; HIP_60183 B9V V=6.183 G=6.2107 E(B-V)=0.015 (calc from Kervella22)
-=> adopt (G-V)(B9V) = 0.02 [updated 2/20/2023] 
+(G-V)(B9V) =  -0.018 ; HD_56022_ B9V plx=17.3622 mas (GaiaDR3)
+(G-V)(B9V) =  -0.013 ; HD_32309_ B9V plx=16.5691 mas (GaiaDR3)
+(G-V)(B9V) =  -0.010 ; HD_219832_ B9V plx=14.1132 mas (GaiaDR3)
+(G-V)(B9V) =  -0.010 ; HD_222661_ B9V plx=20.8948 mas (GaiaDR3)
+(G-V)(B9V) =   0.016 ; HD_16978_ B9Va plx=21.3234 mas (GaiaDR3)
+(G-V)(B9V) =    0.052 ; HD_142630_ B9V plx=15.5015 mas (GaiaDR3)
+=> adopt (G-V)(B9V) = -0.013 [updated 5/16/2024] (GaiaDR3) 
 
 Teff(B9V) =  10330 K ; Bertone04[ATLAS]
 Teff(B9V) = 10358 K ; sec. stan. HD 16046 (see below)

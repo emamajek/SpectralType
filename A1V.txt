@@ -28,17 +28,6 @@ GrayNstars standard: HD 45320 (= HR 2324) - A1V
 
 Inconsistency between the MK43 and JM53 standards. Isn't there supposed to be some continuity in the standards?
 
-For A1V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=12):
-<V-J>(A1V)   = 0.109 (+-0.015 sem, +-0.063 stdev; N=12)
-<V-H>(A1V)   = 0.109 (+-0.032 sem, +-0.084 stdev; N=12)
-<V-Ks>(A1V)  = 0.148 (+-0.024 sem, +-0.086 stdev; N=12)
-<J-H>(A1V)   = 0.066 (+-0.017 sem, +-0.056 stdev; N=12)
-<H-K>(A1V)   = 0.091 (+-0.017 sem, +-0.054 stdev; N=12)
-<Bt-Vt>(A1V) = 0.081 (+-0.013 sem, +-0.036 stdev; N=12)
-<V-Vt>(A1V)  = 0.022 (+-0.008 sem, +-0.013 stdev; N=12) 
-<B-K>(A1V)   = 0.162 (+-0.033 sem, +-0.097 stdev; N=12)
-
 (B-V)(A1V) =  -0.01 ; HD_200761_ A1V plx=21.9049mas, Mv=0.7727
 (B-V)(A1V) =  0.00 ; deprecated alf CMa = Sirius
 (B-V)(A1V) =   0.005 ; Bessell79
@@ -69,9 +58,7 @@ and within 1 mag of the MS (N=12):
 (B-V)(A1V) = 0.073 (+-0.011 sem, +-0.033 stdev) ; HIP d<75pc S/N>8 (N=12)
 (B-V)(A1V) =   0.095 ; BakisEker22
 (B-V)(A1V) =  0.101 ; HD_145570_ A1V plx=22.6379mas, Mv=1.7021
-=> adopt (B-V)(A1V) =  0.033 [updated 12/29/2023]
-=> adopt (V-J)(A1V) =  0.083 [updated 12/29/2023] 
-=> adopt (J-H)(A1V) = -0.026 [updated 12/29/2023] 
+=> adopt (B-V)(A1V) = 0.033 [updated 12/29/2023]
 
 (U-B)(A1V) =  0.01  ; Fitzgerald70
 (U-B)(A1V) = 0.022 ; B-V vs U-B trend for B-V=0.033
@@ -116,18 +103,24 @@ and within 1 mag of the MS (N=12):
 (V-Ic)(A1V) =   0.095 ; HD 16754 (A1Vb,Gray06) plx=22.5636mas
 => adopt (V-Ic)(A1V) = 0.04 [updated 12/29/2023; V-Rc=0.02, R-Ic=0.02]
 
+(V-J)(A1V) = 0.083 ; B-V vs V-J for B-V=0.033
+=> adopt (V-J)(A1V) = 0.083 [updated 5/18/2024; V-Ks=0.087, H-Ks=0.030, J-H=-0.026]
+
 (V-H)(A1V) = 0.014 ; pri. stan. HD 10939 = HIP 8241 = HR 520
 (V-H)(A1V) = 0.057 ; B-V vs V-Ks trend for B-V=0.033
-=> adopt (V-H)(A1V) = 0.057 [updated 12/29/2023]
+=> adopt (V-H)(A1V) = 0.057 [updated 12/29/2023; V-Ks=0.087, H-Ks=0.030]
 
 (V-Ks)(A1V) = 0.065 ; exemplar HD 2834 = lam01 Phe = HIP 2472
 (V-Ks)(A1V) = 0.076 ; pri. stan. HD 10939 = HIP 8241 = HR 520 
 (V-Ks)(A1V) = 0.087 ; B-V vs V-Ks trend for B-V=0.033
 => adopt (V-Ks)(A1V) = 0.087 [updated 12/29/2023]
 
+(J-H)(A1V) = -0.026 ; B-V vs J-H for B-V=0.033
+=> adopt (J-H)(A1V) = -0.026 [updated 5/18/2024; V-Ks=0.087, H-Ks=0.030, V-J=0.083]
+
 (H-Ks)(A1V) = 0.030 ; B-V vs V-Ks trend for B-V=0.033
 (H-Ks)(A1V) = 0.062 +- 0.038 ; pri. stan. HD 10939 = HIP 8241 = HR 520
-=> adopt (H-Ks)(A1V) = 0.030 [updated 12/29/2023]
+=> adopt (H-Ks)(A1V) = 0.030 [updated 12/29/2023; V-Ks=0.087, V-H=0.057]
 
 (Bp-Rp)(A1V) =  0.037 ; Evans18 trend for V-I=0.037 (GaiaDR2) 
 (Bp-Rp)(A1V) =  0.005 ; color trend for B-V=0.035 (GaiaDR2) 
@@ -166,7 +159,24 @@ and within 1 mag of the MS (N=12):
 (G-V)(A1V) =  0.012 ; * 35 Vul * A1VmA3 (GaiaDR2) 
 (G-V)(A1V) = 0.015 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.090 (GaiaDR2) 
 (G-V)(A1V) =  0.024 ; * tet Cap PM* A1V (GaiaDR2) 
-=> adopt (G-V)(A1V) = 0.01 [updated 4/8/2022] (GaiaDR2) 
+=> adopt (G-V)(A1V) = 0.01 [updated 4/8/2022] (GaiaDR2)
+
+(G-V)(A1V) =   -0.064 ; HD_16754_ A1Vb plx=22.5636 mas (GaiaDR3)
+(G-V)(A1V) =  -0.033 ; HD_210418_ A1Va plx=36.7678 mas (GaiaDR3)
+(G-V)(A1V) =  -0.026 ; HD_213398_ A1Va plx=22.0836 mas (GaiaDR3)
+(G-V)(A1V) =  -0.025 ; HD_145570_ A1V plx=22.6379 mas (GaiaDR3)
+(G-V)(A1V) =  -0.022 ; HD_192425_ A1Va plx=20.9054 mas (GaiaDR3)
+(G-V)(A1V) =  -0.019 ; HD_31647A_ A1V plx=20.2399 mas (GaiaDR3)
+(G-V)(A1V) = -0.010 ; HD_224392_ A1V plx=20.4208 mas (GaiaDR3)
+(G-V)(A1V) =  0.000 ; HD_146624_ A1Va plx=23.5392 mas (GaiaDR3)
+(G-V)(A1V) =   0.002 ; HD_161868_ A1VnkA0mA0 plx=33.6174 mas (GaiaDR3)
+(G-V)(A1V) =   0.008 ; HD_80081_ A1V plx=24.7087 mas (GaiaDR3)
+(G-V)(A1V) =   0.008 ; HD_200761_ A1V plx=21.9049 mas (GaiaDR3)
+(G-V)(A1V) =   0.013 ; HD_213558_ A1V plx=31.4943 mas (GaiaDR3)
+(G-V)(A1V) =   0.016 ; HD_14055_ A1Vnn plx=27.9795 mas (GaiaDR3)
+(G-V)(A1V) =    0.097 ; HD_24071_ A1Va plx=18.7976 mas (GaiaDR3)
+(G-V)(A1V) =    0.205 ; HD_18623_ A1V plx=19.527 mas (GaiaDR3)
+=> adopt (G-V)(A1V) = -0.005 [updated 5/16/2024] (GaiaDR3) 
 
 (g-V)(A1V) = -0.105 ; Jordi06 B-V=>g-V for B-V=0.035
 => adopt (g-V) = -0.105 [updated 9/1/2023]
@@ -616,3 +626,15 @@ HD 9414 = HR 443
 
   plx=10.124+-0.0271mas, i.e. might be slight reddening. 
 
+# Notes on nearby Hipparcos stars with A1V types (mostly from Houk)
+
+For A1V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=12):
+<V-J>(A1V)   = 0.109 (+-0.015 sem, +-0.063 stdev; N=12)
+<V-H>(A1V)   = 0.109 (+-0.032 sem, +-0.084 stdev; N=12)
+<V-Ks>(A1V)  = 0.148 (+-0.024 sem, +-0.086 stdev; N=12)
+<J-H>(A1V)   = 0.066 (+-0.017 sem, +-0.056 stdev; N=12)
+<H-K>(A1V)   = 0.091 (+-0.017 sem, +-0.054 stdev; N=12)
+<Bt-Vt>(A1V) = 0.081 (+-0.013 sem, +-0.036 stdev; N=12)
+<V-Vt>(A1V)  = 0.022 (+-0.008 sem, +-0.013 stdev; N=12) 
+<B-K>(A1V)   = 0.162 (+-0.033 sem, +-0.097 stdev; N=12)

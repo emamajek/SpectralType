@@ -22,19 +22,6 @@ Gray01/03/06 lists 5 A8V stars, with median HIP colors of:
 <V-I>(A8V) = 0.261 (+-0.015 sem, +-0.038 stdev; N=5)
 The brightest are HIP 105199 (V=2.5), HIP 32607 (V=3.3), and HIP 75695 (V=3.7).
 
-For A8V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=4):
-<B-V>(A8V)   = 0.277 (+-0.035 sem, +-0.048 stdev; N=4)
-<V-I>(A8V)   = 0.315 (+-0.045 sem, +-0.062 stdev; N=4)
-<V-J>(A8V)   = 0.579 (+-0.063 sem, +-0.092 stdev; N=4)
-<V-H>(A8V)   = 0.639 (+-0.094 sem, +-0.136 stdev; N=4)
-<V-Ks>(A8V)  = 0.715 (+-0.092 sem, +-0.129 stdev; N=4)
-<J-H>(A8V)   = 0.064 (+-0.034 sem, +-0.053 stdev; N=4)
-<H-K>(A8V)   = 0.066 (+-0.036 sem, +-0.055 stdev; N=4)
-<Bt-Vt>(A8V) = 0.287 (+-0.031 sem, +-0.045 stdev; N=4)
-<V-Vt>(A8V)  =-0.028 (+-0.009 sem, +-0.012 stdev; N=4)
-<B-K>(A8V)   = 0.993 (+-0.127 sem, +-0.178 stdev; N=4)
-
 (B-V)(A8V) =  0.29 ; HD_28024_ A8Vn plx=21.7486mas, Mv=0.9691
 (B-V)(A8V) =  0.28 ; HD_70060_ A8V plx=34.5439mas, Mv=2.0918
 (B-V)(A8V) = 0.277 ; d<60pc SIMBAD (N=10)
@@ -56,15 +43,10 @@ and within 1 mag of the MS (N=4):
 (B-V)(A8V) =  0.22  ; HD_203280_ A8Vn plx=66.50mas, Mv=1.5741
 (B-V)(A8V) =  0.21  ; HD_197950_ A8V plx=23.1824mas, Mv=2.4257
 (B-V)(A8V) =  0.185 ; HD_44769_ A8V(n) plx=24.0777mas, Mv=1.3060
-=> adopt (B-V)(A8V)  = 0.248 [updated 12/29/2023]
-=> adopt (V-J)(A8V)  = 0.504 [updated 12/29/2023]
-=> adopt (V-H)(A8V)  = 0.579 [updated 12/29/2023]
-=> adopt (V-Ks)(A8V) = 0.621 [updated 12/29/2023]
-=> adopt (H-Ks)(A8V) = 0.042 [updated 12/29/2023]
-=> adopt (J-H)(A8V)  = 0.074 [updated 12/29/2023]
+=> adopt (B-V)(A8V) = 0.248 [updated 12/29/2023]
 
 (U-B)(A8V) = 0.094 ; standard HD 158352 = HIP 85537 = HR 6507  
-(U-B)(A8V) =  0.09  ; Fitzgerald70
+(U-B)(A8V) =  0.09 ; Fitzgerald70
 (U-B)(A8V) = 0.083 ; B-V vs U-B trend for B-V=0.248 
 (U-B)(A8V) = 0.077 ; HIP d<75pc S/N>8 A8V N=10 (Mermilliod91 photometry)
 => adopt (U-B)(A8V) = 0.083 [updated 12/29/2023]
@@ -86,6 +68,21 @@ and within 1 mag of the MS (N=4):
 (V-Ic)(A8V) =  0.281 ; HD 50241 = HIP 32607 (A8Vn_kA6,Gray06)
 (V-Ic)(A8V) = 0.286 ; B-V vs V-Ic locus for B-V=0.248 
 => adopt (V-Ic)(A8V) = 0.286 [updated 12/29/2023]
+
+(V-J)(A8V) = 0.504 ; B-V vs V-J for B-V=0.248
+=> adopt (V-J)(A8V) = 0.504 [updated 5/10/2024]
+
+(V-H)(A8V) = 0.579 ; B-V vs V-H for B-V=0.248
+=> adopt (V-H)(A8V) = 0.579 [updated 5/10/2024]
+
+(V-Ks)(A8V) = 0.621 ; B-V vs V-Ks for B-V=0.248
+=> adopt (V-Ks)(A8V) = 0.621 [updated 5/10/2024]
+
+(J-H)(A8V) = 0.074 ; B-V vs J-H for B-V=0.248
+=> adopt (J-H)(A8V) = 0.074 [updated 5/10/2024]
+
+(H-Ks)(A8V) = 0.042 ; B-V vs H-Ks for B-V=0.248
+=> adopt (H-Ks)(A8V) = 0.042 [updated 5/10/2024]
 
 (Bp-Rp)(A8V) =  0.2983  ; HD_24809
 (Bp-Rp)(A8V) = 0.320    ; color trend for B-V=0.25
@@ -120,18 +117,35 @@ Note that the V-IR colors seem too blue compared to the trends?
 (Ks-W1)(A8V) = 0.048 ; EEM trend for d<30pc for B-V=0.24
 => adopt (Ks-W1)(A8V) = 0.048 [updated 12/29/2019]
 
-(G-V)(A8V) =  -0.075 ; * alf Pic PM* A8VnkA6
-(G-V)(A8V) =  -0.056 ; * ups Tau dS* A8Vn
-(G-V)(A8V) =  -0.053 ; * 67 Cnc PM* A8Vn
-(G-V)(A8V) = -0.046 ; polynomial fit f(B-V) 
-(G-V)(A8V) =  -0.045 ; * rho Tau dS* A8V
-(G-V)(A8V) =  -0.043 ; V* CN Boo dS* A8V
-(G-V)(A8V) =  -0.041 ; * 4 Cep * A8V
-(G-V)(A8V) =  -0.041 ; HD 90132 PM* A8V
-(G-V)(A8V) = -0.030 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.626
-(G-V)(A8V) =  -0.010 ; * eps Mon A A8V(n)
-(G-V)(A8V) =  -0.005 ; * q Pup PM* A8V
-=> adopt (G-V)(A8V) = -0.04 [updated 4/8/2022]
+(G-V)(A8V) =  -0.075 ; * alf Pic PM* A8VnkA6 (GaiaDR2) 
+(G-V)(A8V) =  -0.056 ; * ups Tau dS* A8Vn (GaiaDR2) 
+(G-V)(A8V) =  -0.053 ; * 67 Cnc PM* A8Vn (GaiaDR2) 
+(G-V)(A8V) = -0.046 ; polynomial fit f(B-V)  (GaiaDR2) 
+(G-V)(A8V) =  -0.045 ; * rho Tau dS* A8V (GaiaDR2) 
+(G-V)(A8V) =  -0.043 ; V* CN Boo dS* A8V (GaiaDR2) 
+(G-V)(A8V) =  -0.041 ; * 4 Cep * A8V (GaiaDR2) 
+(G-V)(A8V) =  -0.041 ; HD 90132 PM* A8V (GaiaDR2) 
+(G-V)(A8V) = -0.030 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.626 (GaiaDR2) 
+(G-V)(A8V) =  -0.010 ; * eps Mon A A8V(n) (GaiaDR2) 
+(G-V)(A8V) =  -0.005 ; * q Pup PM* A8V (GaiaDR2) 
+=> adopt (G-V)(A8V) = -0.04 [updated 4/8/2022] (GaiaDR2) 
+
+(G-V)(A8V) =  -0.057 ; HD_29867_ A8V plx=17.7070 mas (GaiaDR3)
+(G-V)(A8V) =  -0.053 ; HD_46304_ A8VAm: plx=22.6861 mas (GaiaDR3)
+(G-V)(A8V) =  -0.053 ; HD_28024_ A8Vn plx=21.7486 mas (GaiaDR3)
+(G-V)(A8V) =  -0.051 ; HD_90132_ A8V plx=24.2034 mas (GaiaDR3)
+(G-V)(A8V) =  -0.048 ; HD_28910_ A8V plx=21.6354 mas (GaiaDR3)
+(G-V)(A8V) =  -0.047 ; HD_197950_ A8V plx=23.1824 mas (GaiaDR3)
+(G-V)(A8V) =  -0.045 ; HD_77190_ A8Vn plx=17.6457 mas (GaiaDR3)
+(G-V)(A8V) =  -0.037 ; HD_124953_ A8V plx=21.6479 mas (GaiaDR3)
+(G-V)(A8V) =  -0.035 ; HD_44769_ A8V(n) plx=24.0777 mas (GaiaDR3)
+(G-V)(A8V) =  -0.031 ; HD_203280_ A8Vn plx=66.50 mas (GaiaDR3)
+(G-V)(A8V) =  -0.026 ; HD_50241_ A8VnkA6 plx=33.78 mas (GaiaDR3)
+(G-V)(A8V) =  -0.022 ; HD_140232_ A8Vam plx=18.7185 mas (GaiaDR3)
+(G-V)(A8V) =  -0.022 ; HD_118623B_ A8V: plx=17.9832 mas (GaiaDR3)
+(G-V)(A8V) =   -0.001 ; HD_70060_ A8V plx=34.5439 mas (GaiaDR3)
+(G-V)(A8V) =    0.073 ; HD_20121_ A8V+F3V plx=23.53 mas (GaiaDR3)
+=> adopt (G-V)(A8V) = -0.045 [updated 5/16/2024] (GaiaDR3) 
 
 (g-V)(A8V) = 0.032 ; Jordi06 B-V=>g-V for B-V=0.250
 => adopt (g-V)(A8V) = 0.032 [updated 9/1/2023]
@@ -364,4 +378,17 @@ HD 29606 = HR 1486
  *A8V: Cowley67,Abt95
 
 
-  
+# Notes on nearby Hipparcos stars with A8V types
+
+For A8V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=4):
+<B-V>(A8V)   = 0.277 (+-0.035 sem, +-0.048 stdev; N=4)
+<V-I>(A8V)   = 0.315 (+-0.045 sem, +-0.062 stdev; N=4)
+<V-J>(A8V)   = 0.579 (+-0.063 sem, +-0.092 stdev; N=4)
+<V-H>(A8V)   = 0.639 (+-0.094 sem, +-0.136 stdev; N=4)
+<V-Ks>(A8V)  = 0.715 (+-0.092 sem, +-0.129 stdev; N=4)
+<J-H>(A8V)   = 0.064 (+-0.034 sem, +-0.053 stdev; N=4)
+<H-K>(A8V)   = 0.066 (+-0.036 sem, +-0.055 stdev; N=4)
+<Bt-Vt>(A8V) = 0.287 (+-0.031 sem, +-0.045 stdev; N=4)
+<V-Vt>(A8V)  =-0.028 (+-0.009 sem, +-0.012 stdev; N=4)
+<B-K>(A8V)   = 0.993 (+-0.127 sem, +-0.178 stdev; N=4)

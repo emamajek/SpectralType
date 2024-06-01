@@ -23,7 +23,7 @@ using the new calibration (10/10/2011).
 (B-V)(B6V) = -0.142 ; dereddened B-V for 34 HIP B6V stars (Q-method,E(B-V)<0.1)
 (B-V)(B6V) =  -0.15  ; SchmidtKaler82
 (B-V)(B6V) = -0.15  ; weak stan. 19 Tau (Pleiad)
-=> adopt (B-V)(B6V) = -0.140 [updated 9/26/2019]
+=> adopt (B-V)(B6V) = -0.140 [updated 5/31/2024]
 
 (U-B)(B6V) = -0.447  ; sec. stan. HD 45796 (EEM dereddened via Q-method)
 (U-B)(B6V) = -0.464  ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2 
@@ -31,32 +31,38 @@ using the new calibration (10/10/2011).
 (U-B)(B6V) =  -0.50  ; Bessell98,Schmidt-Kaler82
 (U-B)(B6V) = -0.504  ; pri. stan. bet Sex (EEM dereddened via Q-method)
 (U-B)(B6V) = -0.521  ; EEM dereddened N=34 HIP B6V stars (Q-method,E(B-V)<0.1)
-=> adopt  (U-B)(B6V) = -0.504 [updated 9/26/2019]
+=> adopt  (U-B)(B6V) = -0.504 [update 5/31/2024]
 => adopt      Q(B6V) = -0.403 (=(U-B)-0.72*(B-V) = -0.504 - 0.72*-0.140)
 
 (V-Rj)(B6V) = -0.06 ; Johnson65
 
-(V-Rc)(B6V) = -0.046 ; exemplar alf Gru = Alnair = HD 209952 = GJ 848.2
-(V-Rc)(B6V) = -0.062 ; B-V vs V-Rc locus for B-V=-0.140
-(V-Rc)(B6V) = -0.07  ; Winkler97
-=> adopt (V-Rc)(B6V) = -0.062 [updated 2/1/2024]
+(V-Rc)(B6V) =  -0.046 ; exemplar alf Gru = Alnair = HD 209952 = GJ 848.2
+(V-Rc)(B6V) = -0.062 ; B-V vs V-Rc locus for B-V=-0.140 and U-B=-0.504
+(V-Rc)(B6V) =  -0.07  ; Winkler97
+=> adopt (V-Rc)(B6V) = -0.062 [updated 5/31/2024]
 
-(R-Ic)(B6V) = -0.075 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2
+(R-Ic)(B6V) =  -0.075 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2
+(R-Ic)(B6V) = -0.082 ; color trend U-B vs R-Ic for U-B=-0.504
 (R-Ic)(B6V) = -0.083 ; B-V vs R-Ic locus for B-V=-0.140
-=> adopt (R-Ic)(B6V) = -0.083 [updated 2/1/2024]
+=> adopt (R-Ic)(B6V) = -0.082 [updated 5/31/2024]
 
 (V-Ij)(B6V) = -0.19 ; Johnson65
 
-(V-Ic)(B6V) = -0.121 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2
+(V-Ic)(B6V) =  -0.121 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2
+(V-Ic)(B6V) = -0.144 ; color trend U-B vs V-Ic for U-B=-0.504
 (V-Ic)(B6V) = -0.145 ; B-V vs V-Ic locus for B-V=-0.140 
-(V-Ic)(B6V) = -0.16  ; Winkler97
-=> adopt (V-Ic)(B6V) = -0.145 [updated 2/1/2024]
+(V-Ic)(B6V) =  -0.16  ; Winkler97
+=> adopt (V-Ic)(B6V) = -0.145 [updated 5/31/2024]
 
 (V-Jj)(B6V) = -0.31 ; Johnson65
 
-(V-J)(B6V)  = -0.30 ; Wegner14/2MASS
+(V-J)(B6V) = -0.270 ; color trend U-B vs V-J for U-B=-0.504
+(V-J)(B6V) =  -0.30 ; Wegner14/2MASS
+=> adopt (V-J)(B6V) = -0.270 [updated 5/31/2024]
 
-(V-H)(B6V)  = -0.35 ; Wegner14/2MASS 
+(V-H)(B6V) =  -0.35 ; Wegner14/2MASS
+(V-H)(B6V) = -0.351 ; color trend U-B vs V-H for U-B=-0.504
+=> adopt (V-H)(B6V) = -0.351 [updated 
 
 (V-Kj)(B6V) = -0.41 ; Johnson65
 
@@ -66,15 +72,13 @@ using the new calibration (10/10/2011).
 (V-Ks)(B6V) =  -0.320 ; HIP_46283_ B6V d= 127.421pc, (B-V)=0.006 (dereddened from Kervella19)
 (V-Ks)(B6V) =  -0.325 ; HIP_18216_ B6V d= 100.231pc, (B-V)=0.001 (dereddened from Kervella19)
 (V-Ks)(B6V) = -0.342 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2 
-(V-Ks)(B6V) = -0.358  ; from intrinsic color sequence for (U-B)o=-0.504
+(V-Ks)(B6V) = -0.358  ; from intrinsic color sequence for U-B=-0.504
 (V-Ks)(B6V) =  -0.359 ; HIP_27534_ B6V d= 181.554pc, (B-V)=0.008 (dereddened from Kervella19)
 (V-Ks)(B6V) =  -0.369 ; HIP_112781_ B6V d= 157.183pc, (B-V)=0.008 (dereddened from Kervella19)
 (V-Ks)(B6V) =  -0.387 ; HIP_105282_ B6V d= 168.89pc, (B-V)=0.015 (dereddened from Kervella19)
 (V-Ks)(B6V) =   -0.39 ; Wegner14/2MASS 
 (V-Ks)(B6V) =  -0.404 ; HIP_30524_ B6V d= 218.771pc, (B-V)=0.008 (dereddened from Kervella19)
-=> adopt (V-Ks)(B6V) = -0.358 [updated 4/8/2022]
-=> adopt (V-J)(B6V)  = -0.270 [updated 4/8/2022]
-=> adopt (V-H)(B6V)  = -0.351 [updated 4/8/2022]
+=> adopt (V-Ks)(B6V) = -0.358 [updated 5/31/2024]
 
 (J-H)(B6V) = -0.05 ; Winkler97/SAAO
 

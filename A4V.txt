@@ -10,19 +10,6 @@ JM53 standard:     del Leo (HD 97603) - A4V
 Cowley69 standard: del Leo (HD 97603) - A4V
 Houk75 standard:   del Leo (HD 97603) - A4V (primary standard)
 
-For A4V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=10):
-
-<V-I>(A4V)   = 0.181 (+-0.012 sem, +-0.045 stdev; N=10)
-<V-J>(A4V)   = 0.318 (+-0.036 sem, +-0.091 stdev; N=10)
-<V-H>(A4V)   = 0.379 (+-0.040 sem, +-0.106 stdev; N=10)
-<V-Ks>(A4V)  = 0.406 (+-0.044 sem, +-0.124 stdev; N=10)
-<J-H>(A4V)   = 0.058 (+-0.015 sem, +-0.044 stdev; N=10)
-<H-K>(A4V)   = 0.042 (+-0.013 sem, +-0.029 stdev; N=10)
-<Bt-Vt>(A4V) = 0.181 (+-0.010 sem, +-0.040 stdev; N=10)
-<V-Vt>(A4V)  =-0.021 (+-0.005 sem, +-0.011 stdev; N=10) 
-<B-K>(A4V)   = 0.569 (+-0.058 sem, +-0.160 stdev; N=10)
-
 (B-V)(A4V) =  0.11  ; Morgaa71(halfway_A3V-A5V)
 (B-V)(A4V) =  0.115 ; Schmidt-Kaler halfway(A3V-A5V)
 (B-V)(A4V) =  0.12  ; Fitzgerald70
@@ -39,9 +26,7 @@ and within 1 mag of the MS (N=10):
 (B-V)(A4V) = 0.176 ; exemplar HD 102124 = xi Vir = HIP 57328
 (B-V)(A4V) =  0.176 ; HD_92769_ A4Vn plx=21.2215mas, Mv=2.1398
 (B-V)(A4V) =  0.196 ; HD_33641_ A4m plx=20.1016mas, Mv=1.3371
-=> adopt (B-V)(A4V)  = 0.140 [updated 12/29/2023]
-=> adopt (V-J)(A4V)  = 0.294 [updated 12/29/2023]
-=> adopt (V-H)(A4V)  = 0.316 [updated 12/29/2023]
+=> adopt (B-V)(A4V) = 0.140 [updated 12/29/2023]
 
 (U-B)(A4V) =  0.09  ; Fitzgerald70
 (U-B)(A4V) = 0.09  ; exemplar HD 92769 = 40 LMi = HIP 52422
@@ -89,19 +74,25 @@ and within 1 mag of the MS (N=10):
 (V-Ic)(A4V) =  0.209 ; HD 202730 (A4V,Cousins80) 
 => adopt (V-Ic)(A4V) = 0.16 [updated 12/29/2023; V-Rc=0.08, R-Ic=0.08]
 
-(V-Ks)(A4V) = 0.344 ; prim. stan. del Leo
-(V-Ks)(A4V) = 0.353 ; B-V vs V-Ks trend for B-V=0.14 (12/2023) 
-(V-Ks)(A4V) = 0.371 ; exemplar HD 37507 = 49 Ori = HIP 26563
-(V-Ks)(A4V) = 0.459 ; exemplar HD 92769 = 40 LMi = HIP 52422
-=> adopt (V-Ks)(A4V) = 0.35 [updated 12/29/2023]
+(V-J)(A4V) = 0.294 ; B-V vs V-J for B-V=0.140
+=> adopt (V-J)(A4V) = 0.294 [updated 5/10/2024; V-Ks=0.353, H-Ks=0.037, J-H=0.022]
 
-(J-H)(A4V) = 0.020 ; pri. stan. del Leo (Carter90=>2MASS)
+(V-H)(A4V) = 0.316 ; B-V vs V-H for B-V=0.140
+=> adopt (V-H)(A4V) = 0.316 [updated 5/10/2024; V-Ks=0.353, H-Ks=0.037]
+
+(V-Ks)(A4V) =  0.344 ; prim. stan. del Leo
+(V-Ks)(A4V) = 0.353 ; B-V vs V-Ks trend for B-V=0.14 (12/2023) 
+(V-Ks)(A4V) =  0.371 ; exemplar HD 37507 = 49 Ori = HIP 26563
+(V-Ks)(A4V) =  0.459 ; exemplar HD 92769 = 40 LMi = HIP 52422
+=> adopt (V-Ks)(A4V) = 0.353 [updated 12/29/2023]
+
+(J-H)(A4V) =  0.020 ; pri. stan. del Leo (Carter90=>2MASS)
 (J-H)(A4V) = 0.022 ; B-V vs J-H trend for B-V=0.14 (12/2023)
 => adopt (J-H)(A4V) = 0.022 [updated 12/29/2023]
 
 (H-Ks)(A4V) = 0.037 ; B-V vs H-Ks trend for B-V=0.14 (12/2023)
-(H-Ks)(A4V) = 0.049 ; pri. stan. del Leo (Carter90=>2MASS)
-=> adopt (H-Ks)(A4V) = 0.037 [updated 12/29/2023]
+(H-Ks)(A4V) =  0.049 ; pri. stan. del Leo (Carter90=>2MASS)
+=> adopt (H-Ks)(A4V) = 0.037 [updated 12/29/2023; V-Ks=0.353, V-H=0.316]
 
 (Ks-W1)(A4V) = 0.046 ; EEM trend for d<30pc for B-V=0.14
 => adopt (Ks-W1)(A4V) = 0.046 [updated 12/29/2019]
@@ -133,10 +124,25 @@ and within 1 mag of the MS (N=10):
 (G-V)(A4V) =  -0.022 ; * ksi Vir PM* A4V (Gaia DR2)
 (G-V)(A4V) =  -0.015 ; * 64 Gem PM* A4V (Gaia DR2)
 (G-V)(A4V) = -0.003 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.353
-=> adopt (G-V)(A4V) = -0.01 [updated 4/8/2022]
+=> adopt (G-V)(A4V) = -0.01 [updated 4/8/2022] (GaiaDR2) 
 
-(G-V)(A4V) =  0.012 ; standard del Leo (GaiaDR3)
+(G-V)(A4V) =  -0.060 ; HD_37507_ A4Vn plx=22.9587 mas (GaiaDR3)
+(G-V)(A4V) =  -0.049 ; HD_118232_ A4V plx=17.5952 mas (GaiaDR3)
+(G-V)(A4V) =  -0.041 ; HD_102124_ A4V plx=27.5153 mas (GaiaDR3)
+(G-V)(A4V) =  -0.041 ; HD_80081B_ A4V plx=24.3529 mas (GaiaDR3)
 (G-V)(A4V) = -0.035 ; exemplar HD 92769 = 40 LMi = HIP 52422 (GaiaDR3)
+(G-V)(A4V) =  -0.031 ; HD_92769_ A4Vn plx=21.2215 mas (GaiaDR3)
+(G-V)(A4V) =  -0.029 ; HD_75171_ A4V plx=17.0428 mas (GaiaDR3)
+(G-V)(A4V) =  -0.028 ; HD_38091_ A4Vn plx=16.8232 mas (GaiaDR3)
+(G-V)(A4V) =  -0.024 ; HD_59037_ A4V plx=18.5038 mas (GaiaDR3)
+(G-V)(A4V) =  -0.021 ; HD_85364_ A4V plx=15.1040 mas (GaiaDR3)
+(G-V)(A4V) =  -0.015 ; HD_70612_ A4V plx=14.4676 mas (GaiaDR3)
+(G-V)(A4V) =  -0.013 ; HD_74341A_ A4V plx=13.8756 mas (GaiaDR3)
+(G-V)(A4V) =  -0.005 ; HD_81830_ A4V plx=13.3963 mas (GaiaDR3)
+(G-V)(A4V) =  -0.005 ; HD_111164_ A4V(n) plx=13.6917 mas (GaiaDR3)
+(G-V)(A4V) =  0.012 ; standard del Leo (GaiaDR3)
+(G-V)(A4V) =   0.017 ; HD_223781_ A4Vn plx=18.0920 mas (GaiaDR3)
+=> adopt (G-V)(A4V) = -0.026 [updated 5/16/2024) (GaiaDR3) 
 
 (g-V)(A4V) = -0.038 ; Jordi06 B-V=>g-V for B-V=0.14
 => adopt (g-V)(A4V) = -0.038 [updated 9/1/2023]
@@ -523,4 +529,16 @@ HD 135384 = HR 5672 = BD+68 823
  *A4Vn: Palmer68,Abt95
   A8Vn: Cowley69
 
- 
+# Notes on nearby Hipparcos stars with A4V types (mostly from Houk)
+
+For A4V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=10):
+<V-I>(A4V)   = 0.181 (+-0.012 sem, +-0.045 stdev; N=10)
+<V-J>(A4V)   = 0.318 (+-0.036 sem, +-0.091 stdev; N=10)
+<V-H>(A4V)   = 0.379 (+-0.040 sem, +-0.106 stdev; N=10)
+<V-Ks>(A4V)  = 0.406 (+-0.044 sem, +-0.124 stdev; N=10)
+<J-H>(A4V)   = 0.058 (+-0.015 sem, +-0.044 stdev; N=10)
+<H-K>(A4V)   = 0.042 (+-0.013 sem, +-0.029 stdev; N=10)
+<Bt-Vt>(A4V) = 0.181 (+-0.010 sem, +-0.040 stdev; N=10)
+<V-Vt>(A4V)  =-0.021 (+-0.005 sem, +-0.011 stdev; N=10) 
+<B-K>(A4V)   = 0.569 (+-0.058 sem, +-0.160 stdev; N=10)

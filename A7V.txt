@@ -24,20 +24,7 @@ exist. Apparently none of the stars in Hydrus (Hyi) have Flamsteed numbers.
 So I believe this star is actually "2 Hya" as listed above. 
 
 Gray01/03/06 lists 12 A7V nearby stars. They have median HIP colors of:
-<B-V>(A7V)   = 0.205 (+-0.010 sem, +-0.031 stdev; N=12)
-
-For A7V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=15):
-<B-V>(A7V)   = 0.214 (+-0.013 sem, +-0.045 stdev; N=15)
-<V-I>(A7V)   = 0.236 (+-0.017 sem, +-0.055 stdev; N=15)
-<V-J>(A7V)   = 0.440 (+-0.034 sem, +-0.107 stdev; N=15)
-<V-H>(A7V)   = 0.515 (+-0.040 sem, +-0.122 stdev; N=15)
-<V-Ks>(A7V)  = 0.557 (+-0.051 sem, +-0.130 stdev; N=15)
-<J-H>(A7V)   = 0.066 (+-0.010 sem, +-0.031 stdev; N=15)
-<H-K>(A7V)   = 0.052 (+-0.006 sem, +-0.026 stdev; N=15)
-<Bt-Vt>(A7V) = 0.234 (+-0.011 sem, +-0.044 stdev; N=15)
-<V-Vt>(A7V)  =-0.026 (+-0.001 sem, +-0.003 stdev; N=15)
-<B-K>(A7V)   = 0.771 (+-0.062 sem, +-0.180 stdev; N=4)
+<B-V>(A7V) = 0.205 (+-0.010 sem, +-0.031 stdev; N=12)
 
 (B-V)(A7V) =  0.16 ; HD_102249_ A7V plx=25.65mas, Mv=0.6954
 (B-V)(A7V) =  0.17 ; HD_83446_ A7V plx=30.6319mas, Mv=1.7808
@@ -69,10 +56,6 @@ and within 1 mag of the MS (N=15):
 (B-V)(A7V) =  0.24  ; HD_128898_ A7VpSrCrEu plx=60.35mas, Mv=2.093
 (B-V)(A7V) =  0.293 ; HD_180777_ A7V plx=36.5363mas, Mv=2.9206
 => adopt (B-V)(A7V) = 0.212 [updated 12/29/2023]
-=> adopt (V-J)(A7V) = 0.432 [updated 11/15/2023] 
-=> adopt (V-H)(A7V) = 0.488 [updated 11/15/2023]
-=> adopt (H-Ks)(A7V) = 0.040 [updated 11/15/2023]
-=> adopt (J-H)(A7V)  = 0.055 [updated 11/15/2023]
 => adopt (Bt-Vt)(A7V) = 0.233 [updated 11/15/2023]
 
 (U-B)(A7V) = 0.07  ; sec. stan. HD 76644 = iot UMa = HIP 44127
@@ -164,7 +147,13 @@ and within 1 mag of the MS (N=15):
 (V-Jj)(A7V) = 0.35 ; Johnson66
 (V-Jj)(A7V) = 0.39 ; sec. stan. HD 76644 = iot UMa = HIP 44127
 
+(V-J)(A7V) = 0.436 ; B-V vs V-J for B-V=0.212
+=> adopt (V-J)(A7V) = 0.436 [updated 5/10/2024]
+
 (V-Hj)(A7V) = 0.42 ; Johnson68
+
+(V-H)(A7V) = 0.493 ; B-V vs V-H for B-V=0.212
+=> adopt (V-H)(A7V) = 0.493 [updated 5/10/2024]
 
 (V-Kj)(A7V) = 0.42 ; Johnson68
 (V-Kj)(A7V) = 0.43 ; sec. stan. HD 76644 = iot UMa = HIP 44127
@@ -180,19 +169,25 @@ and within 1 mag of the MS (N=15):
 (V-Ks)(A7V) =  0.544 ; Bessell88(Glass->2MASS)
 (V-Ks)(A7V) =  0.570 ; ter. stan. HD 23156 = Cl Melotte 22 158 = BD+23_495 (Pleiad)
 (V-Ks)(A7V) =  0.596 ; ter. stan. HD 71297 = 2 Hya = HIP 41375 = HR 3321
-=> adopt (V-Ks)(A7V) = 0.533 [updated 12/29/2023]
+=> adopt (V-Ks)(A7V) = 0.533 [updated 5/10/2024]
 
 (J-H)(A7V) = 0.09 ; Bessell88/Glass
 
 (J-H)(A7V) = 0.043 ; Bessell88(Glass->2MASS)
+(J-H)(A7V) = 0.056 ; B-V vs J-H for B-V=0.212
+=> adopt (J-H)(A7V) = 0.056 [updated 5/10/2024]
 
 (H-K)(A7V) = 0.025 ; Bessell88/Glass
 
+(H-Ks)(A7V) = 0.040 ; B-V vs H-Ks for B-V=0.212
 (H-Ks)(A7V) = 0.053 ; Bessell88(Glass->2MASS)
+=> adopt (H-Ks)(A7V) = 0.040 [updated 5/10/2024]
 
 (J-K)(A7V) = 0.11 ; Bessell88/Glass
 
 (J-Ks)(A7V) = 0.096 ; Bessell88(Glass->2MASS)
+(J-Ks)(A7V) = 0.096 ; B-V vs H-Ks and B-V vs J-H for B-V=0.212
+=> adopt (J-Ks)(A7V) = 0.096 [updated 5/10/2024]
 
 (Bp-Rp)(A7V) =  0.2113 ; iot_Tau (GaiaDR2)
 (Bp-Rp)(A7V) =  0.2622 ; HD_125489 (GaiaDR2)
@@ -228,24 +223,41 @@ and within 1 mag of the MS (N=15):
 (Ks-W1)(A7V) = 0.047 ; EEM trend for d<30pc for B-V=0.21
 => adopt (Ks-W1)(A7V) = 0.047 [updated 12/29/2019]
 
-(G-V)(A7V) =  -0.060 ; * iot Boo dS* A7V
-(G-V)(A7V) =   -0.055 ; * alf Cir a2* A7VpSrCrEu
-(G-V)(A7V) =  -0.051 ; * del Dor * A7V
-(G-V)(A7V) =  -0.048 ; * 73 Her PM* A7V
-(G-V)(A7V) =  -0.044 ; * lam Mus PM* A7V
-(G-V)(A7V) =  -0.039 ; * lam Psc PM* A7V
-(G-V)(A7V) = -0.037 ; polynomial fit f(B-V)
-(G-V)(A7V) =  -0.036 ; HD 109536 PM* A7V
-(G-V)(A7V) =  -0.034 ; * 21 LMi dS* A7V(n)
-(G-V)(A7V) =  -0.024 ; HD 156295 PM* A7V
-(G-V)(A7V) =  -0.020 ; HD 172555 PM* A7V
-(G-V)(A7V) = -0.019 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.528
-(G-V)(A7V) =  -0.019 ; HD 165190 PM* A7V
-(G-V)(A7V) =   0.005 ; * tet Cas PM* A7V
-(G-V)(A7V) =    0.016 ; * M Vel PM* A7V
-(G-V)(A7V) =    0.057 ; * eps02 Lyr B A7Vn
-(G-V)(A7V) =    0.094 ; * 59 Dra PM* A7V
-=> adopt (G-V)(A7V) = -0.03 [updated 4/8/2022]
+(G-V)(A7V) =  -0.060 ; * iot Boo dS* A7V (GaiaDR2) 
+(G-V)(A7V) =   -0.055 ; * alf Cir a2* A7VpSrCrEu (GaiaDR2) 
+(G-V)(A7V) =  -0.051 ; * del Dor * A7V (GaiaDR2) 
+(G-V)(A7V) =  -0.048 ; * 73 Her PM* A7V (GaiaDR2) 
+(G-V)(A7V) =  -0.044 ; * lam Mus PM* A7V (GaiaDR2) 
+(G-V)(A7V) =  -0.039 ; * lam Psc PM* A7V (GaiaDR2) 
+(G-V)(A7V) = -0.037 ; polynomial fit f(B-V) (GaiaDR2) 
+(G-V)(A7V) =  -0.036 ; HD 109536 PM* A7V (GaiaDR2) 
+(G-V)(A7V) =  -0.034 ; * 21 LMi dS* A7V(n) (GaiaDR2) 
+(G-V)(A7V) =  -0.024 ; HD 156295 PM* A7V (GaiaDR2) 
+(G-V)(A7V) =  -0.020 ; HD 172555 PM* A7V (GaiaDR2) 
+(G-V)(A7V) = -0.019 ; fit for A dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=0.528 (GaiaDR2) 
+(G-V)(A7V) =  -0.019 ; HD 165190 PM* A7V (GaiaDR2) 
+(G-V)(A7V) =   0.005 ; * tet Cas PM* A7V (GaiaDR2) 
+(G-V)(A7V) =    0.016 ; * M Vel PM* A7V (GaiaDR2) 
+(G-V)(A7V) =    0.057 ; * eps02 Lyr B A7Vn (GaiaDR2) 
+(G-V)(A7V) =    0.094 ; * 59 Dra PM* A7V (GaiaDR2) 
+=> adopt (G-V)(A7V) = -0.03 [updated 4/8/2022] (GaiaDR2)
+
+(G-V)(A7V) =  -0.074 ; HD_180777_ A7V plx=36.5363 mas (GaiaDR3)
+(G-V)(A7V) =  -0.066 ; HD_87696_ A7V(n) plx=36.3218 mas (GaiaDR3)
+(G-V)(A7V) =  -0.058 ; HD_125161_ A7V plx=33.8856 mas (GaiaDR3)
+(G-V)(A7V) =  -0.053 ; HD_157728_ A7V plx=23.4066 mas (GaiaDR3)
+(G-V)(A7V) =  -0.050 ; HD_83446_ A7V plx=30.6319 mas (GaiaDR3)
+(G-V)(A7V) =  -0.047 ; HD_109536_ A7V plx=28.4460 mas (GaiaDR3)
+(G-V)(A7V) =  -0.044 ; HD_222603_ A7V plx=31.1970 mas (GaiaDR3)
+(G-V)(A7V) =  -0.042 ; HD_172555_ A7V plx=34.7355 mas (GaiaDR3)
+(G-V)(A7V) =  -0.041 ; HD_6961_ A7V plx=23.8844 mas (GaiaDR3)
+(G-V)(A7V) =  -0.033 ; HD_156295_ A7V plx=22.8472 mas (GaiaDR3)
+(G-V)(A7V) =  -0.025 ; HD_102249_ A7V plx=23.7289 mas (GaiaDR3)
+(G-V)(A7V) =  -0.022 ; HD_128898_ A7VpSrCrEu plx=60.9930 mas (GaiaDR3)
+(G-V)(A7V) =  -0.012 ; HD_99211_ A7V(n) plx=37.7065 mas (GaiaDR3)
+(G-V)(A7V) =  -0.009 ; *_iot_UMa_A_ A7V(n) plx=68.0010 mas (GaiaDR3)
+(G-V)(A7V) =   0.006 ; HD_165190_ A7V plx=22.6753 mas (GaiaDR3)
+=> adopt (G-V)(A7V) = -0.04 [updated 5/16/2024] (GaiaDR3) 
 
 (g-V)(A7V) = 0.006 ; Jordi06 B-V=>g-V for B-V=0.21
 => adopt(g-V)(A7V) = 0.006 [updated 9/1/2023]
@@ -772,4 +784,17 @@ HD 99211 = gam Crt = HIP 55705 = HR 4405
   [Fe/H]=-0.11(Erspamer03).  plx(A)=37.7065+-0.1972mas(GaiaDR3),
   plx(B)=37.6273+-0.0222mas(GaiaDR3). 
   
-   
+# Notes on nearby Hipparcos stars with A7V types (mostly from Houk) 
+
+For A7V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=15):
+<B-V>(A7V)   = 0.214 (+-0.013 sem, +-0.045 stdev; N=15)
+<V-I>(A7V)   = 0.236 (+-0.017 sem, +-0.055 stdev; N=15)
+<V-J>(A7V)   = 0.440 (+-0.034 sem, +-0.107 stdev; N=15)
+<V-H>(A7V)   = 0.515 (+-0.040 sem, +-0.122 stdev; N=15)
+<V-Ks>(A7V)  = 0.557 (+-0.051 sem, +-0.130 stdev; N=15)
+<J-H>(A7V)   = 0.066 (+-0.010 sem, +-0.031 stdev; N=15)
+<H-K>(A7V)   = 0.052 (+-0.006 sem, +-0.026 stdev; N=15)
+<Bt-Vt>(A7V) = 0.234 (+-0.011 sem, +-0.044 stdev; N=15)
+<V-Vt>(A7V)  =-0.026 (+-0.001 sem, +-0.003 stdev; N=15)
+<B-K>(A7V)   = 0.771 (+-0.062 sem, +-0.180 stdev; N=4)

@@ -52,10 +52,11 @@ recent calibration (Oct 2011).
 (B-V)(B8V) =  -0.10  ; Bessell79
 (B-V)(B8V) = -0.104  ; sec. stan. HR 9050 (EEM dereddened via Q-method)
 (B-V)(B8V) = -0.106  ; EEM dereddened N=99 HIP B8V stars (Q-method,E(B-V)<0.1)
-(B-V)(B8V) = -0.109  ; tert. stan. bet Lib (unreddened)
+(B-V)(B8V) = -0.109  ; ter. stan. bet Lib (unreddened)
 (B-V)(B8V) =  -0.11  ; Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,Wegner14
-(B-V)(B8V) = -0.111  ; prim. stan. 18 Tau (EEM dereddened via Q-method)
+(B-V)(B8V) = -0.111  ; pri. stan. 18 Tau (EEM dereddened via Q-method)
 (B-V)(B8V) = -0.121  ; sec. stan. bet Per (EEM dereddened)
+=> adopt (B-V)(B8V) = -0.109 [updated 5/31/2024]
 
 (U-B)(B8V)  = -0.265  ; sec. stan. 21 Tau (EEM dereddened via Q-method)
 (U-B)(B8V)  =  -0.31  ; Cowley70(N=20*s)
@@ -67,15 +68,8 @@ recent calibration (Oct 2011).
 (U-B)(B8V)  = -0.365  ; ter. stan. beta Lib (unreddened)
 (U-B)(B8V)  =  -0.368 ; (B-V) = -0.109 => (U-B)o using EEM relation
 (U-B)(B8V)  = -0.389  ; pri. stan. 18 Tau (EEM dereddened via Q-method)
-=> adopt (U-B)(B8V)  = -0.364 [updated 9/26/2019]
-=> adopt (B-V)(B8V)  = -0.109
-=> adopt     Q(B8V)  = -0.286 (=(U-B)-0.72*(B-V) = -0.364 - 0.72*-0.109)
-=> adopt (V-I)(B8V)  = -0.108
-=> adopt (V-R)(B8V)  = -0.048
-=> adopt (R-I)(B8V)  = -0.060
-=> adopt (V-J)(B8V)  = -0.190
-=> adopt (V-H)(B8V)  = -0.257
-=> adopt (V-Ks)(B8V) = -0.254
+=> adopt (U-B)(B8V) = -0.364 [updated 5/31/2024]
+=> adopt     Q(B8V) = -0.286 (=(U-B)-0.72*(B-V) = -0.364 - 0.72*-0.109)
 
 (V-Rj)(B8V) = -0.03 ; Johnson65
 
@@ -83,13 +77,17 @@ recent calibration (Oct 2011).
 (V-Rc)(B8V) = -0.028 ; variant stan. HD 58715 = bet CMi (B8Ve)
 (V-Rc)(B8V) = -0.031 ; ter. stan. HD 135742 = bet Lib
 (V-Rc)(B8V) = -0.044 ; exemplar HD 181869 = alf Sgr
+(V-Rc)(B8V) = -0.048 ; color trend U-B vs V-Rc for U-B=-0.364 
 (V-Rc)(B8V) =  -0.05  ; Winkler97
+=> adopt (V-Rc)(B8V) = -0.031 [updated 5/31/2024]
 
 (R-Ic)(B8V) = -0.034 ; exemplar HD 209819 = iot Aqr (B8V;GarrisonGray94,Zorec09)
 (R-Ic)(B8V) = -0.040 ; variant stan. HD 58715 = bet CMi (B8Ve)
 (R-Ic)(B8V) =  -0.050 ; Bessell79
 (R-Ic)(B8V) = -0.052 ; ter. stan. HD 135742 = bet Lib
-(R-Ic)(B8V) = -0.058 ; exemplar HD 181869 = alf Sgr 
+(R-Ic)(B8V) = -0.058 ; exemplar HD 181869 = alf Sgr
+(R-Ic)(B8V) = -0.060 ; color trend B-V vs R-Ic for B-V=-0.109
+=> adopt (R-Ic)(B8V) = -0.052 [updated 5/31/2024]
 
 (V-Ij)(B8V) = -0.12 ; Johnson65
 
@@ -98,8 +96,10 @@ recent calibration (Oct 2011).
 (V-Ic)(B8V) = -0.083 ; ter. stan. HD 135742 = bet Lib
 (V-Ic)(B8V) =  -0.085 ; Bessell79
 (V-Ic)(B8V) =  -0.10  ; Winkler97
-(V-Ic)(B8V) = -0.102 ; exemplar HD 181869 = alf Sgr 
-(V-Ic)(B8V) =  -0.15  ; Bessell88 
+(V-Ic)(B8V) = -0.102 ; exemplar HD 181869 = alf Sgr
+(V-Ic)(B8V) = -0.108 ; color trend B-V vs V-Ic for B-V=-0.109
+(V-Ic)(B8V) =  -0.15  ; Bessell88
+=> adopt (V-Ic)(B8V) = -0.083 [updated 5/31/2024]
 
 (V-Jj)(B8V) = -0.18 ; Johnson65
 
@@ -187,10 +187,7 @@ Teff(B8V) =  11614 K ; Bessell98
 Teff(B8V) =  11678 K ; Flower96 Teff for B-V = -0.10
 Teff(B8V) = 11749 K ; Zorec12 median 
 Teff(B8V) =  11900 K ; Schmidt-Kaler82
-Teff(B8V) =  12000 K ; Crowther97/Fig.3 
-Teff(B8V) =  12000 K ; Bohm-Vitense81
-Teff(B8V) =  12000 K ; Bessell79
-Teff(B8V) =  12000 K ; Habets81
+Teff(B8V) =  12000 K ; Crowther97/Fig.3,Bohm-Vitense81,Bessell79,Habets81
 Teff(B8V) =  12000 K ; Eclipsing binary zet Phe B (Southworth20; ~80 Myr)
 Teff(B8V) =  12092 K ; B-V=-0.106 => Teff(Napiwotski93)
 Teff(B8V) =  12120 K ; Theodossiou90
@@ -199,7 +196,7 @@ Teff(B8V) =  12200 K ; Chavez95 (+200-100K)
 Teff(B8V) = 12230 K ; ter. stan. bet Lib (median Teff)
 Teff(B8V) = 12305 K ; sec. stan. HD 224112 median Teff (see below) 
 Teff(B8V) = 12565 K ; B-V=-0.106 => Teff(Bessell98,logg=4.2)
-Teff(B8V) = 12811 K ; prim. stan. 18 Tau (median Teff)
+Teff(B8V) = 12800 ; prim. stan. 18 Tau (see below)
 Teff(B8V) = 12923 K ; EEM median of 268 published Teffs for B8V *s
 => adopt Teff(B8V) = 12300 K (logT = 4.090) [updated 9/16/2019]
 
@@ -266,19 +263,29 @@ MK78, Keenan85_IAU, Garrison94 do not list B8V standards.
 
 # Primary Standards
 
-HD 23324 = 18 Tau = HR 1144
-  B8V: JM53,Garrison67(stan),Lesh68(stan),Cowley69(stan),Hiltner69(stan),Cowley72(stan),MK73,Garrison77(stan),Houk
+HD 23324 = 18 Tau = HIP 17527 = HR 1144 = WDS J03452+2450A = BD+24 546 = Cl Melotte 22 541 = Gaia DR3 69812945346809600
+  B7V: Eggen50(B7),Miczaika51,Zorec09(BCD)
+  B8V: JM53,Mendoza56,Osawa59,Garrison67(stan),Lesh68(stan),Cowley69(stan),Hiltner69(stan),Cowley72(stan),MK73(stan),Garrison77(stan),Cucchiaro77(S2/68),Rountree91(IUE),Houk
  *B8Vn: GarrisonGray94(stan)
+  B8:IV/V:: Maury1897
+  B8: Binnendijk46
 
   The MK73 dagger B8V standard. M91: V=5.647+-0.005,
   B-V=-0.071+-0.002, U-B=-0.360+-0.000 => updated Q-method =>
-  (B-V)o=-0.111, (U-B)o=-0.389, E(B-V)= 0.040, Av=0.132. EEM:
-  dereddening Hauck97 ubvy photometry using Castelli91, I find: E(b-y)
-  = 0.093, (b-y)o= -0.112.  For d=132 pc (Pleiades) => plx = 7.519 mas
-  => Mv = -0.10 mag.  Teffs: 12572K(Hauck97 phot.=>BalonaShobbrook84
-  beta calib), 12791+-89K(Paunzen05), 12811K(Hauck97
-  phot.=>Napiwotski93 calib.), 12817K(Hauck97 phot.=>Balona94 calib.),
-  13210+-640K(Zorec09) => Median Teff = 12811K.
+  (B-V)o=-0.111, (U-B)o=-0.389, E(B-V)= 0.040, Av=0.132.  Dereddening
+  Hauck97 ubvy photometry using Castelli91, I find: E(b-y) = 0.093,
+  (b-y)o= -0.112.  For d=132 pc (Pleiades) => plx = 7.519 mas => Mv =
+  -0.10 mag.  Teffs:
+  12246+-85K(Zorec12),
+  12506+-62K(Stassun19/TIC),
+  12572K(Hauck97 phot.=>BalonaShobbrook84 beta calib),
+  12791+-89K(Paunzen05),
+  12811K(Hauck97 phot.=>Napiwotski93 calib.),
+  12817K(Hauck97 phot.=>Balona94 calib.),
+  13210+-640K(Zorec09),
+  13748+-223K(David15) => 
+  adopt Teff=12800K.
+  vsini=255km/s(David15). 
 
 # Secondary Standards
 
@@ -286,8 +293,8 @@ HD 23432 = 21 Tau = HR 1151 = Asterope = Cl Melotte 22 817
   B8V: JM53,Mendoza56,Osawa59,Palmer68,Cowley69,Cowley72(stan),Abt78,Cannon(B8)
  *B8Vn: GarrisonGray94
 
-  *All* Skiff09 types from JM53 to present are B8V or
-  variant. Pleiad. Asterope should be considered an "anchor" B8Vn
+  *All* Skiff09 types from JM53 to present are B8V or variant for this
+  Pleiad. Asterope should be considered an "anchor" B8Vn
   standard. vsini=205 km/s. Mermillio91: V=5.764, B-V=-0.039,
   U-B=-0.232 => updated Q-method (10/17/2011) => (B-V)o=-0.083,
   (U-B)o=-0.265, E(B-V)= 0.044, Av=0.146.  EEM: dereddening Hauck97
@@ -456,7 +463,6 @@ HD 214923 = zet Peg = 42 Peg = HR 8634
   GarrisonGray94 switched it to giant, but previous dwarf since
   JM53. So no longer a good dwarf standard. Jaschek98 lists Mv=-0.6. 
 
-
 HD 36865 = Parenago 1491 (J0534-0429)
   B8V: Abt68,Bernacca68,Schild71,Houk99
   B7V: AbtLevato77
@@ -491,5 +497,5 @@ HD 209819 = iot Aqr
 # Other Stars
 
 HD 35834
-   B8Vn: Sharpless52(B8V), Abt77, Abt08
+   B8Vn: Sharpless52(B8V),Abt77,Abt08
 
