@@ -48,17 +48,6 @@ on average compared to the mean color of Gray's F5V stars and the F5V
 standards themselves. I recommend considering Houk's "F5V" stars as
 "F5.5V" when comparing to more recent MK classifications.
 
-For F5V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=237):
-<V-J>(F5V)   = 0.889 (+-0.005 sem, +-0.062 stdev; N=237)
-<V-H>(F5V)   = 1.083 (+-0.007 sem, +-0.089 stdev; N=237)
-<V-Ks>(F5V)  = 1.151 (+-0.006 sem, +-0.085 stdev; N=237)
-<J-H>(F5V)   = 0.193 (+-0.003 sem, +-0.036 stdev; N=237)
-<H-K>(F5V)   = 0.068 (+-0.002 sem, +-0.025 stdev; N=237)
-<Bt-Vt>(F5V) = 0.484 (+-0.002 sem, +-0.029 stdev; N=237)
-<V-Vt>(F5V)  =-0.051 (+-0.001 sem, +-0.011 stdev; N=237)
-<B-K>(F5V)   = 1.616 (+-0.007 sem, +-0.108 stdev; N=241)
-
 (B-V)(F5V) =  0.584 ; HD_133640A_ F5V plx=77.2460mas, Mv=4.5753
 (B-V)(F5V) = 0.467 (+-0.002 sem, +-0.028 stdev); HIP d<75pc S/N>8 N=237
 (B-V)(F5V) =  0.46 ; HD_81997_ F5V plx=54.9187mas, Mv=3.2986
@@ -277,10 +266,24 @@ and within 1 mag of the MS (N=237):
 (G-V)(F5V) =   -0.033 ; HD_44770_ F5V_ (GaiaDR2) 
 => adopt (G-V)(F5V) = -0.11 [updated 10/30/2020] (GaiaDR2)
 
-(G-V)(F5V) = -0.105 ; sec stan. HD 27534 = HIP 20350 (Hyad; [Fe/H]~+0.16) (GaiaDR3)
+(G-V)(F5V) =   -0.253 ; HD_16620_ F5V plx=42.4864 mas (GaiaDR3)
+(G-V)(F5V) =   -0.181 ; HD_133640A_ F5V plx=77.2460 mas (GaiaDR3)
+(G-V)(F5V) =   -0.179 ; HD_64379A_ F5V plx=54.5631 mas (GaiaDR3)
+(G-V)(F5V) =   -0.155 ; HD_15798_ F5V plx=43.3776 mas (GaiaDR3)
+(G-V)(F5V) =  -0.134 ; HD_81997_ F5V plx=54.9187 mas (GaiaDR3)
+(G-V)(F5V) =  -0.130 ; HD_160915_ F5V plx=58.2437 mas (GaiaDR3)
+(G-V)(F5V) =  -0.127 ; HD_134083_ F5V plx=51.1875 mas (GaiaDR3)
+(G-V)(F5V) =  -0.125 ; HD_168151_ F5V plx=43.1837 mas (GaiaDR3)
+(G-V)(F5V) =  -0.118 ; HD_739_ F5V plx=46.0425 mas (GaiaDR3)
+(G-V)(F5V) =  -0.113 ; HD_7439_ F5V plx=41.5747 mas (GaiaDR3)
 (G-V)(F5V) = -0.111 ; pri. stan. HD 27524 = HIP 20349 = Cl Melotte 25 35 ([Fe/H]=+0.16) (GaiaDR3)
-=> adopt (G-V)(F5V) = -0.11 [updated 2/16/2024] (GaiaDR3)
-
+(G-V)(F5V) =  -0.106 ; HD_210027_ F5V plx=84.0054 mas (GaiaDR3)
+(G-V)(F5V) = -0.105 ; sec stan. HD 27534 = HIP 20350 (Hyad; [Fe/H]~+0.16) (GaiaDR3)
+(G-V)(F5V) =  -0.097 ; HD_71243_ F5VFe-0.8 plx=51.3172 mas (GaiaDR3)
+(G-V)(F5V) =  -0.091 ; HD_197692_ F5V plx=68.3370 mas (GaiaDR3)
+(G-V)(F5V) =    0.336 ; *_alf_Com_ F5V+F6V plx=56.10 mas (GaiaDR3)
+(G-V)(F5V) =    0.370 ; HD_76740_ F5V plx=52.8207 mas (GaiaDR3)
+=> adopt (G-V)(F5V) = -0.111 [updated 2/16/2024] (GaiaDR3)
 
 (Bp-Rp)(F5V) =  0.5835  ; HD_27524 (GaiaDR2) 
 (Bp-Rp)(F5V) =  0.5865  ; 45_Boo (GaiaDR2) 
@@ -1022,3 +1025,15 @@ the local mid/late F dwarf population is:
 <[Fe/H](F)> = -0.062 (sem +-0.021, st.dev. 0.186 dex; N=92)
 (Chauvenet criterion clipped 3 values: -0.71, -0.70, -0.68; min -0.71, max +0.28)
 
+# Notes on nearby Hipparcos stars with F5V types (mostly from Houk)
+
+For F5V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=237):
+<V-J>(F5V)   = 0.889 (+-0.005 sem, +-0.062 stdev; N=237)
+<V-H>(F5V)   = 1.083 (+-0.007 sem, +-0.089 stdev; N=237)
+<V-Ks>(F5V)  = 1.151 (+-0.006 sem, +-0.085 stdev; N=237)
+<J-H>(F5V)   = 0.193 (+-0.003 sem, +-0.036 stdev; N=237)
+<H-K>(F5V)   = 0.068 (+-0.002 sem, +-0.025 stdev; N=237)
+<Bt-Vt>(F5V) = 0.484 (+-0.002 sem, +-0.029 stdev; N=237)
+<V-Vt>(F5V)  =-0.051 (+-0.001 sem, +-0.011 stdev; N=237)
+<B-K>(F5V)   = 1.616 (+-0.007 sem, +-0.108 stdev; N=241)

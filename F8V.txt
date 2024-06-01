@@ -28,18 +28,6 @@ GrayNstars standard:  HD 27808 - F8V
 
 Skiff08 flags one star as a F8V MK standard: HD 27808 (MK78). 
 
-For F8V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=172):
-<V-J>(F8V)   = 1.019 (+-0.005 sem, +-0.072 stdev)
-<V-H>(F8V)   = 1.251 (+-0.006 sem, +-0.093 stdev)
-<V-Ks>(F8V)  = 1.329 (+-0.009 sem, +-0.099 stdev)
-<J-H>(F8V)   = 0.235 (+-0.003 sem, +-0.036 stdev)
-<H-K>(F8V)   = 0.071 (+-0.003 sem, +-0.028 stdev)
-<Bt-Vt>(F8V) = 0.581 (+-0.004 sem, +-0.037 stdev)
-<V-Vt>(F8V)  =-0.061 (+-0.001 sem, +-0.012 stdev)
-<B-K>(F8V)   = 1.873 (+-0.010 sem, +-0.125 stdev)
-
-
 (B-V)(F8V) =  0.48 ; HD_153597 F8V plx=65.54mas, Mv=3.9625
 (B-V)(F8V) =  0.481 ; BakisEker22
 (B-V)(F8V) =  0.507 ; HD 128582 = HIP 71639 (F8V,Gray06) ([Fe/H]=+0.18)
@@ -230,52 +218,67 @@ and within 1 mag of the MS (N=172):
 => adopt (G-Ks)(F8V) = 1.158 [updated 1/10/2024; V-Ks=1.285, G-V=-0.127] 
 [EEM 1/10/2024: standards+exemplars trend: (G-Ks)(F8V) = 1.172 - 0.1705*[Fe/H] (rms=0.015)]
 
-(G-V)(F8V) =  -0.1677 ; HD_45067 F8V (GaiaDR2)
-(G-V)(F8V) =  -0.1636 ; HD_84117 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.159  ; HD_105330 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.1583 ; HD_213429 F8V (GaiaDR2) 
-(G-V)(F8V) = -0.1572  ; HD_28394 F8V B-V=0.501, Gmag=6.8818 (GaiaDR2)
-(G-V)(F8V) = -0.1564  ; HD_28033 F8V B-V=0.538, Gmag=7.2236 (GaiaDR2)
-(G-V)(F8V) = -0.1514  ; HD_26784 F8V B-V=0.511, Gmag=6.9656 (GaiaDR2)
-(G-V)(F8V) = -0.150   ; trend for screened late F dwarfs for B-V=0.53 (see 10/24/2020 notes in F5V.txt) (GaiaDR2)
-(G-V)(F8V) =  -0.1498 ; HD_5015 F8V (GaiaDR2)
-(G-V)(F8V) =  -0.141  ; HD_209635 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.141  ; HD_108147 F8V CH+0.4 (GaiaDR2)
-(G-V)(F8V) =  -0.1401 ; HD_221356 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.14   ; HD_129060 F8V  (GaiaDR2)
-(G-V)(F8V) = -0.136   ; Gray01/03/06 F dwarf sequence for B-V=0.530 (GaiaDR2)
-(G-V)(F8V) =  -0.1354 ; HD_119124 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.135  ; HD_27808 F8V (GaiaDR2)
-(G-V)(F8V) =  -0.1339 ; HD_128582 F8V (GaiaDR2) 
-(G-V)(F8V) =  -0.1324 ; HD_162826 F8V (GaiaDR2)
-(G-V)(F8V) = -0.1312  ; HD_82241 F8V Fe-0.4 B-V=0.502, Gmag=6.8478 (GaiaDR2)
-(G-V)(F8V) =  -0.1307 ; HD_91889 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.127  ; HD_216402 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.125  ; HD_28394 F8V (GaiaDR2)
-(G-V)(F8V) =  -0.1248 ; HD_16673 F8V ~solar  (GaiaDR2)
-(G-V)(F8V) =  -0.1233 ; HD_32820 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.1233 ; HD_196885 F8V (GaiaDR2)
-(G-V)(F8V) =  -0.122  ; HD_124694 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.1210 ; HD_101805 F8V (GaiaDR2) 
-(G-V)(F8V) =  -0.1203 ; HD_143306 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.1198 ; HD_95456 F8V  (GaiaDR2)
-(G-V)(F8V) =  -0.1192 ; HD_100219 F8V (GaiaDR2) 
-(G-V)(F8V) =  -0.114  ; HD_26784 F8V (GaiaDR2)
-(G-V)(F8V) =  -0.1126 ; HD_9826 F8V (GaiaDR2)
-(G-V)(F8V) =  -0.110  ; HD_16673 = HR 784 F8V (~solar) (GaiaDR2)
-(G-V)(F8V) =  -0.11   ; HD_28033 F8V (GaiaDR2)
+(G-V)(F8V) =  -0.167 ; HD_45067 F8V (GaiaDR2)
+(G-V)(F8V) =  -0.163 ; HD_84117 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.159 ; HD_105330 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.158 ; HD_213429 F8V (GaiaDR2) 
+(G-V)(F8V) = -0.157 ; HD_28394 F8V B-V=0.501, Gmag=6.8818 (GaiaDR2)
+(G-V)(F8V) = -0.156 ; HD_28033 F8V B-V=0.538, Gmag=7.2236 (GaiaDR2)
+(G-V)(F8V) = -0.151 ; HD_26784 F8V B-V=0.511, Gmag=6.9656 (GaiaDR2)
+(G-V)(F8V) = -0.150 ; trend for screened late F dwarfs for B-V=0.53 (see 10/24/2020 notes in F5V.txt) (GaiaDR2)
+(G-V)(F8V) =  -0.149 ; HD_5015 F8V (GaiaDR2)
+(G-V)(F8V) =  -0.141 ; HD_209635 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.141 ; HD_108147 F8V CH+0.4 (GaiaDR2)
+(G-V)(F8V) =  -0.140 ; HD_221356 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.14  ; HD_129060 F8V  (GaiaDR2)
+(G-V)(F8V) = -0.136 ; Gray01/03/06 F dwarf sequence for B-V=0.530 (GaiaDR2)
+(G-V)(F8V) =  -0.135 ; HD_119124 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.135 ; HD_27808 F8V (GaiaDR2)
+(G-V)(F8V) =  -0.133 ; HD_128582 F8V (GaiaDR2) 
+(G-V)(F8V) =  -0.132 ; HD_162826 F8V (GaiaDR2)
+(G-V)(F8V) = -0.131 ; HD_82241 F8V Fe-0.4 B-V=0.502, Gmag=6.8478 (GaiaDR2)
+(G-V)(F8V) =  -0.130 ; HD_91889 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.127 ; HD_216402 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.125 ; HD_28394 F8V (GaiaDR2)
+(G-V)(F8V) =  -0.124 ; HD_16673 F8V ~solar  (GaiaDR2)
+(G-V)(F8V) =  -0.123 ; HD_32820 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.123 ; HD_196885 F8V (GaiaDR2)
+(G-V)(F8V) =  -0.122 ; HD_124694 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.121 ; HD_101805 F8V (GaiaDR2) 
+(G-V)(F8V) =  -0.120 ; HD_143306 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.119 ; HD_95456 F8V  (GaiaDR2)
+(G-V)(F8V) =  -0.119 ; HD_100219 F8V (GaiaDR2) 
+(G-V)(F8V) =  -0.114 ; HD_26784 F8V (GaiaDR2)
+(G-V)(F8V) =  -0.112 ; HD_9826 F8V (GaiaDR2)
+(G-V)(F8V) =  -0.110 ; HD_16673 = HR 784 F8V (~solar) (GaiaDR2)
+(G-V)(F8V) =  -0.11  ; HD_28033 F8V (GaiaDR2)
 => adopt (G-V)(F8V) = -0.15 [updated 10/30/2020] (GaiaDR2)
 
+(G-V)(F8V) =    -0.195 ; HD_142373_ F8VFe-2Hdel-1 plx=62.9028 mas (GaiaDR3)
 (G-V)(F8V) = -0.160 ; sec. stan. HD 90839 = 36 UMa A = GJ 395 ([Fe/H]=-0.12) (GaiaDR3)
+(G-V)(F8V) =   -0.153 ; HD_213429_ F8V plx=39.1884 mas (GaiaDR3)
 (G-V)(F8V) =  -0.146 ; exemplar HD 100287 = 17 Crt A = HIP 56280A ([Fe/H]=+0.03) (GaiaDR3)
+(G-V)(F8V) =   -0.143 ; HD_17051_ F8V plx=57.6131 mas (GaiaDR3)
+(G-V)(F8V) =   -0.143 ; HD_91889_ F8V plx=40.3975 mas (GaiaDR3)
 (G-V)(F8V) =  -0.141 ; exemplar HD 136064 = HIP 74605 = GJ 9517 ([Fe/H]=-0.02,logg=4.02) (GaiaDR3)
 (G-V)(F8V) =  -0.141 ; exemplar HD 100286 = 17 Crt B = HIP 56280B ([Fe/H]=+0.04) (GaiaDR3)
+(G-V)(F8V) =   -0.140 ; HD_43947_ F8V plx=36.714 mas (GaiaDR3)
+(G-V)(F8V) =   -0.132 ; HD_41700_ F8V plx=36.8531 mas (GaiaDR3)
+(G-V)(F8V) =   -0.129 ; HD_153597_ F8V plx=65.2904 mas (GaiaDR3)
 (G-V)(F8V) =  -0.129 ; exemplar HD 221356 = GJ 9829 = HIP 116106 ([Fe/H]=-0.24)  (GaiaDR3)
+(G-V)(F8V) =   -0.128 ; HD_20367_ F8V plx=38.3758 mas (GaiaDR3)
 (G-V)(F8V) = -0.128 ; pri. stan. HD 27808 = HIP 20557 = Cl Melotte 25 48 ([Fe/H]=+0.16) (GaiaDR3)
 (G-V)(F8V) = -0.127 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=6180K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(F8V) =   -0.126 ; HD_16895_ F8V plx=89.6850 mas (GaiaDR3)
+(G-V)(F8V) =   -0.126 ; HD_693_ F8VFe-0.8CH-0.5 plx=52.9489 mas (GaiaDR3)
 (G-V)(F8V) = -0.125 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
+(G-V)(F8V) =   -0.124 ; HD_16673_ F8VFe-0.4 plx=45.9160 mas (GaiaDR3)
 (G-V)(F8V) =  -0.122 ; exemplar HD 95456 = HIP 53818 = HR 4298 ([Fe/H]=+0.13) (GaiaDR3)
-=> adopt (G-V)(F8V) = -0.127 [updated 1/10/2024] (GaiaDR3)
+(G-V)(F8V) =   -0.119 ; HD_33632_ F8V plx=37.8953 mas (GaiaDR3)
+(G-V)(F8V) =    -0.085 ; HD_35850_ F8V(n)k: plx=37.2539 mas (GaiaDR3)
+(G-V)(F8V) =     0.126 ; HD_162004_ F8V plx=44.0496 mas (GaiaDR3)
+(G-V)(F8V) =     0.312 ; HD_177474_ F8V plx=58.6956 mas (GaiaDR3)
+=> adopt (G-V)(F8V) = -0.128 [updated 5/16/2024] (GaiaDR3)
 
 (Bp-Rp)(F8V) =  0.6802  ; HD_27808 (GaiaDR2)
 (Bp-Rp)(F8V) =  0.6810  ; phi02_Cet (GaiaDR2)
@@ -1265,7 +1268,7 @@ median B-V color is (B-V)(F8V,Hyad) = 0.547.
 Among Gray03 and Gray06, there are 29 pure "F8V"s. Ones with
 the most F8V classifications include HD 203454 (see above).
 
-### xHIP d<25pc F8V with modern classification (since 2000)
+# Notes on nearby (d<25pc) xHIP F8V with modern classifications (since 2000)
 
   HIP  plx    eplx  SpT  [Fe/H] e     B-V    eB-V   ref
   2762 47.05  0.67  F8V  0.01  9.99   0.567  0.008  2009ApJS..180..117A      
@@ -1283,4 +1286,16 @@ the most F8V classifications include HD 203454 (see above).
 for -0.1 < [Fe/H] < 0.1:
 (B-V) = 0.5487 + 0.2086*[Fe/H] (rms=0.010mag)
 
+# Notes on nearby Hipparcos stars with F8V types (mostly from Houk)
+
+For F8V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=172):
+<V-J>(F8V)   = 1.019 (+-0.005 sem, +-0.072 stdev)
+<V-H>(F8V)   = 1.251 (+-0.006 sem, +-0.093 stdev)
+<V-Ks>(F8V)  = 1.329 (+-0.009 sem, +-0.099 stdev)
+<J-H>(F8V)   = 0.235 (+-0.003 sem, +-0.036 stdev)
+<H-K>(F8V)   = 0.071 (+-0.003 sem, +-0.028 stdev)
+<Bt-Vt>(F8V) = 0.581 (+-0.004 sem, +-0.037 stdev)
+<V-Vt>(F8V)  =-0.061 (+-0.001 sem, +-0.012 stdev)
+<B-K>(F8V)   = 1.873 (+-0.010 sem, +-0.125 stdev)
 

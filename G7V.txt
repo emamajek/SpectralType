@@ -77,19 +77,6 @@ Houk does not treat G7 as a full type.
 (Ks-W1)(G7V) = 0.064 ; EEM trend for d<30pc for B-V=0.710
 => adopt (Ks-W1)(G7V) = 0.064 [updated 12/29/2019]
 
-For G7V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=6):
-(B-V)(G7V)   = 0.728 (+-0.015 sem, +-0.032 stdev; N=6)
-<V-I>(G7V)   = 0.785 (+-0.009 sem, +-0.019 stdev; N=6)
-<V-J>(G7V)   = 1.354 (+-0.021 sem, +-0.044 stdev; N=6)
-<V-H>(G7V)   = 1.703 (+-0.022 sem, +-0.058 stdev; N=6)
-<V-Ks>(G7V)  = 1.808 (+-0.033 sem, +-0.069 stdev; N=6)
-<J-H>(G7V)   = 0.358 (+-0.008 sem, +-0.018 stdev; N=6)
-<H-K>(G7V)   = 0.087 (+-0.005 sem, +-0.013 stdev; N=6)
-<Bt-Vt>(G7V) = 0.823 (+-0.018 sem, +-0.037 stdev; N=6)
-<V-Vt>(G7V)  =-0.088 (+-0.003 sem, +-0.009 stdev; N=6) 
-<B-K>(G7V)   = 2.530 (+-0.046 sem, +-0.095 stdev; N=6)
-
 (Bp-Rp)(G7V) =  0.8691  ; HD_24206
 (Bp-Rp)(G7V) = 0.87     ; Bp-G=0.38, G-Rp=0.49 
 (Bp-Rp)(G7V) =  0.8719  ; HD_111395
@@ -118,20 +105,37 @@ and within 1 mag of the MS (N=6):
 (G-Rp)(G7V) =  0.5320  ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1)
 => adopt (G-Rp)(G7V) = 0.49 [updated 11/22/2020]
 
-(G-V)(G7V) =   -0.260 ; HD 105631 PM* G7V
-(G-V)(G7V) =  -0.223 ; HD 122676 PM* G7V
-(G-V)(G7V) =  -0.195 ; HD 61033 PM* G7V(e)
-(G-V)(G7V) =  -0.194 ; HD 24206 PM* G7V
-(G-V)(G7V) = -0.194 ; G dwarf trend for G7V
-(G-V)(G7V) =  -0.193 ; * alf Men G7V
-(G-V)(G7V) =  -0.187 ; * ksi Boo G7Ve
-(G-V)(G7V) =  -0.180 ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1) [GaiaEDR3]
-(G-V)(G7V) =  -0.180 ; HD 32778 PM* G7VFe-1.4CH-1.2
-(G-V)(G7V) =  -0.177 ; HD 128674 PM* G7V
-(G-V)(G7V) =  -0.172 ; HD 24496 PM* G7V
-(G-V)(G7V) = -0.172  ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5550K (GaiaDR3 Gmags,SIMBAD Vmags)
-(G-V)(G7V) =   -0.079 ; HD 28255B PM* G7V
-=> adopt (G-V)(G7V) = -0.194 [updated 11/1/2020]
+(G-V)(G7V) =   -0.260 ; HD 105631 PM* G7V (GaiaDR2) 
+(G-V)(G7V) =  -0.223 ; HD 122676 PM* G7V (GaiaDR2) 
+(G-V)(G7V) =  -0.195 ; HD 61033 PM* G7V(e) (GaiaDR2) 
+(G-V)(G7V) =  -0.194 ; HD 24206 PM* G7V (GaiaDR2) 
+(G-V)(G7V) = -0.194 ; G dwarf trend for G7V (GaiaDR2) 
+(G-V)(G7V) =  -0.193 ; * alf Men G7V (GaiaDR2) 
+(G-V)(G7V) =  -0.187 ; * ksi Boo G7Ve (GaiaDR2) 
+(G-V)(G7V) =  -0.180 ; HD 32778 PM* G7VFe-1.4CH-1.2 (GaiaDR2) 
+(G-V)(G7V) =  -0.177 ; HD 128674 PM* G7V (GaiaDR2) 
+(G-V)(G7V) =  -0.172 ; HD 24496 PM* G7V (GaiaDR2) 
+(G-V)(G7V) =   -0.079 ; HD 28255B PM* G7V (GaiaDR2) 
+=> adopt (G-V)(G7V) = -0.194 [updated 11/1/2020] (GaiaDR2) 
+
+(G-V)(G7V) =   -0.555 ; HD_20010B_ G7V plx=71.0089 mas (GaiaDR3)
+(G-V)(G7V) =   -0.234 ; HD_202940_ G7V plx=54.0288 mas (GaiaDR3)
+(G-V)(G7V) =  -0.207 ; HD_122676_ G7V plx=37.5297 mas (GaiaDR3)
+(G-V)(G7V) =  -0.197 ; HD_219249_ G7V plx=32.6832 mas (GaiaDR3)
+(G-V)(G7V) =  -0.195 ; HD_34101_ G7V plx=33.0620 mas (GaiaDR3)
+(G-V)(G7V) = -0.194 ; exemplar HD_131156A_ G7Ve plx=148.0695 mas (GaiaDR3)
+(G-V)(G7V) =  -0.190 ; HD_8129_ G7V plx=33.7195 mas (GaiaDR3)
+(G-V)(G7V) = -0.180 ; exemplar alf Men = HD 43834 ([Fe/H] ~ +0.1) [GaiaEDR3]
+(G-V)(G7V) =  -0.178 ; HD_61033_ G7V(e) plx=34.57 mas (GaiaDR3)
+(G-V)(G7V) =  -0.172 ; HD_13531A_ G7V plx=38.3338 mas (GaiaDR3)
+(G-V)(G7V) = -0.172 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5550K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(G7V) = -0.168 ; exemplar HD_43834_ G7V plx=97.9158 mas (GaiaDR3)
+(G-V)(G7V) =  -0.164 ; HD_32778_ G7VFe-1.4CH-1.2 plx=44.8107 mas (GaiaDR3)
+(G-V)(G7V) =  -0.162 ; HD_128674_ G7V plx=38.9980 mas (GaiaDR3)
+(G-V)(G7V) =  -0.160 ; HD_80355_ G7V plx=34.2904 mas (GaiaDR3)
+(G-V)(G7V) =  -0.155 ; HD_24496_ G7V plx=48.849 mas (GaiaDR3)
+(G-V)(G7V) =   -0.062 ; HD_28255B_ G7V plx=36.3349 mas (GaiaDR3)
+=> adopt (G-V)(G7V) = -0.172 [updated 5/16/2024] (GaiaDR3) 
 
 (u'-g')(G7V) = 1.450 ; Smith02 u'-g' calibration for U-B=0.248
 (u'-g')(G7V) = 1.482 ; Fukugita96 u'-g' calibration for U-B=0.248
@@ -314,7 +318,6 @@ HD 43834 = HR 2261 = alf Men = GJ 231
   Mv=5.034+-0.01(Mermilliod91,GaiaEDR3), M_G=4.854(GaiaEDR3,corr).
   G - V = 4.900 - 5.08 = -0.18. 
 
-
 # Other Stars
 
 Morgan65 did not classify any Hyads as G7V.
@@ -356,4 +359,19 @@ HD 13531 = V451 And
   V-I=0.75+-0.01(HIP), J=6.067+-0.019, H=5.749+-0.018(2MASS),
   Ks=5.665+-0.018(2MASS), V-Ks = 7.35 - 5.665 = 1.685.  Teff =
   5621+-44K(Marsden14)
+
+# Notes on nearby Hipparcos stars with G7V types (mostly from Houk)
+
+For G7V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=6):
+(B-V)(G7V)   = 0.728 (+-0.015 sem, +-0.032 stdev; N=6)
+<V-I>(G7V)   = 0.785 (+-0.009 sem, +-0.019 stdev; N=6)
+<V-J>(G7V)   = 1.354 (+-0.021 sem, +-0.044 stdev; N=6)
+<V-H>(G7V)   = 1.703 (+-0.022 sem, +-0.058 stdev; N=6)
+<V-Ks>(G7V)  = 1.808 (+-0.033 sem, +-0.069 stdev; N=6)
+<J-H>(G7V)   = 0.358 (+-0.008 sem, +-0.018 stdev; N=6)
+<H-K>(G7V)   = 0.087 (+-0.005 sem, +-0.013 stdev; N=6)
+<Bt-Vt>(G7V) = 0.823 (+-0.018 sem, +-0.037 stdev; N=6)
+<V-Vt>(G7V)  =-0.088 (+-0.003 sem, +-0.009 stdev; N=6) 
+<B-K>(G7V)   = 2.530 (+-0.046 sem, +-0.095 stdev; N=6)
 

@@ -60,7 +60,7 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 (B-V)(G5V) =  0.767 ; HD_36435_ G5V plx=51.3371mas, Mv=5.5351
 (B-V)(G5V) =  0.78 ; HD_76218_ G5V plx=39.3867mas, Mv=5.6567
 (B-V)(G5V) =   0.88 ; HD_59747_ G5V plx=48.3563mas, Mv=6.1222 (K1V(k) in Gray03)
-=> adopt (B-V)(G5V)  = 0.680 [updated 4/1/2024]
+=> adopt (B-V)(G5V) = 0.680 [updated 4/1/2024]
 [EEM 4/1/2024: fit to two standards + Gray field G5Vs (adopting <[Fe/H]>=-0.04):
           (B-V)(G5V) = 0.677 + 0.11835*[Fe/H] (rms=0.003)
 
@@ -166,22 +166,24 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 (G-V)(G5V) =  -0.149 ; HD 147513 PM* G5V (GaiaDR2)
 => adopt (G-V)(G5V) = -0.179 [updated 11/1/2020] (GaiaDR2)
 
-(G-V)(G5V) = -0.146 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+(G-V)(G5V) =  -0.221 ; HD_6582_ G5Vb plx=130.2881 mas (GaiaDR3)
+(G-V)(G5V) =  -0.193 ; HD_20630_ G5V plx=107.8023 mas (GaiaDR3)
+(G-V)(G5V) =  -0.189 ; HD_113283_ G5V plx=40.4757 mas (GaiaDR3)
+(G-V)(G5V) =  -0.187 ; HD_203244_ G5V plx=48.0625 mas (GaiaDR3)
+(G-V)(G5V) =  -0.176 ; HD_36435_ G5V plx=51.3371 mas (GaiaDR3)
+(G-V)(G5V) =  -0.172 ; HD_63433_ G5V plx=44.6848 mas (GaiaDR3)
+(G-V)(G5V) =  -0.167 ; HD_149612_ G5VFe-1.2CH-0.9 plx=43.2721 mas (GaiaDR3)
+(G-V)(G5V) =  -0.164 ; HD_90156_ G5V plx=45.5628 mas (GaiaDR3)
 (G-V)(G5V) = -0.160 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5660K (GaiaDR3 Gmags,SIMBAD Vmags)
-=> adopt (G-V)(G5V) = -0.160 [updated 4/1/2023] (GaiaDR3)
-
-For G5V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=13):
-(B-V)(G5V)   = 0.678 (+-0.002 sem, +-0.036 stdev; N=360)
-<V-I>(G5V)   = 0.734 (+-0.003 sem, +-0.030 stdev; N=360)
-<V-J>(G5V)   = 1.232 (+-0.004 sem, +-0.060 stdev; N=360)
-<V-H>(G5V)   = 1.539 (+-0.005 sem, +-0.082 stdev; N=360)
-<V-Ks>(G5V)  = 1.626 (+-0.004 sem, +-0.087 stdev; N=360)
-<J-H>(G5V)   = 0.308 (+-0.002 sem, +-0.035 stdev; N=360)
-<H-K>(G5V)   = 0.086 (+-0.002 sem, +-0.030 stdev; N=360)
-<Bt-Vt>(G5V) = 0.761 (+-0.003 sem, +-0.050 stdev; N=360)
-<V-Vt>(G5V)  =-0.075 (+-0.001 sem, +-0.017 stdev; N=360) 
-<B-K>(G5V)   = 2.306 (+-0.007 sem, +-0.115 stdev; N=360)
+(G-V)(G5V) =  -0.160 ; HD_147513_ G5V plx=77.5655 mas (GaiaDR3)
+(G-V)(G5V) =  -0.158 ; HD_4915_ G5V plx=44.5912 mas (GaiaDR3)
+(G-V)(G5V) =  -0.154 ; HD_197076_ G5V plx=47.7457 mas (GaiaDR3)
+(G-V)(G5V) =  -0.154 ; HD_224930_ G5VbFe-2 plx=81.1790 mas (GaiaDR3)
+(G-V)(G5V) = -0.146 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) (GaiaDR3)
+(G-V)(G5V) =  -0.143 ; HD_202628_ G5V plx=42.0274 mas (GaiaDR3)
+(G-V)(G5V) =  -0.143 ; HD_20407_ G5VFe-1.2CH-1 plx=40.7774 mas (GaiaDR3)
+(G-V)(G5V) =  -0.143 ; HD_25680_ G5V plx=59.4728 mas (GaiaDR3)
+=> adopt (G-V)(G5V) = -0.160 [updated 5/16/2024] (GaiaDR3)
 
 (Ks-W1)(G5V) = 0.056 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17) 
 (Ks-W1)(G5V) = 0.062 ; EEM trend for d<30pc for B-V=0.68
@@ -716,5 +718,20 @@ HD 30712 = HIP 22505 = Cl Melotte 25 120 = vB 120 = Gaia DR3 3404812685132622592
   observations and including Griffin12. Torres23 adoptes Hyades values
   of [Fe/H]=+0.18(Dutra-Ferriera16) and 750Myr (BrandtHuang15) in
   their analysis.
-  
-  
+
+# Notes on nearby Hipparcos stars with G5V types (mostly from Houk)
+
+For G5V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=13):
+(B-V)(G5V)   = 0.678 (+-0.002 sem, +-0.036 stdev; N=360)
+<V-I>(G5V)   = 0.734 (+-0.003 sem, +-0.030 stdev; N=360)
+<V-J>(G5V)   = 1.232 (+-0.004 sem, +-0.060 stdev; N=360)
+<V-H>(G5V)   = 1.539 (+-0.005 sem, +-0.082 stdev; N=360)
+<V-Ks>(G5V)  = 1.626 (+-0.004 sem, +-0.087 stdev; N=360)
+<J-H>(G5V)   = 0.308 (+-0.002 sem, +-0.035 stdev; N=360)
+<H-K>(G5V)   = 0.086 (+-0.002 sem, +-0.030 stdev; N=360)
+<Bt-Vt>(G5V) = 0.761 (+-0.003 sem, +-0.050 stdev; N=360)
+<V-Vt>(G5V)  =-0.075 (+-0.001 sem, +-0.017 stdev; N=360) 
+<B-K>(G5V)   = 2.306 (+-0.007 sem, +-0.115 stdev; N=360)
+
+

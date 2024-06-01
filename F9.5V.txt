@@ -18,14 +18,6 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 => adopt (B-V)(F9.5V) = 0.58 [adopted 10/25/2020]
 
 => adopt (Bt-Vt)(F9.5V) = 0.626
-=> adopt (V-Ic)(F9.5V)  = 0.665
-=> adopt (V-Rc)(F9.5V)  = 0.336
-=> adopt (Rc-Ic)(F9.5V) = 0.329
-=> adopt (V-J)(F9.5V)   = 1.084
-=> adopt (V-H)(F9.5V)   = 1.337
-=> adopt (V-Ks)(F9.5V)  = 1.403
-=> adopt (H-Ks)(F9.5V)  = 0.066
-=> adopt (J-H)(F9.5V)   = 0.253
 => adopt (V-Hp)(F9.5V)  = -0.123
 => adopt (W1-W2)(F9.5V) = -0.042
 => adopt (W1-W3)(F9.5V) = -0.043
@@ -35,15 +27,41 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 
 (U-B)(F9.5V)  = 0.071 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.58
 (U-B)(F9.5V)  = 0.068 ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
-=> adopt (U-B)(F9.5V) = 0.071 [updated 9/1/2023]
+=> adopt (U-B)(F9.5V) = 0.071 [updated 5/10/2024]
 
-(V-Rc)(F9.5V) = 0.33  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
+(V-Rc)(F9V)   =  0.32 ; adopted for F9V 
+(V-Rc)(F9.5V) = 0.33 ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
+(V-Rc)(F9.5V) = 0.336 ; B-V vs V-Rc trend for B-V=0.580
+(V-Rc)(G0V)   =  0.34 ; adopted for G0V 
+=> adopt (V-Rc)(F9.5V) = 0.33 [updated 5/10/2024]
 
-(R-Ic)(F9.5V) = 0.31  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)]
+(R-Ic)(F9V)   =  0.31 ; adopted for F9V
+(R-Ic)(F9.5V) = 0.31 ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
+(R-Ic)(G0V)   =  0.32 ; adopted for G0V
+(R-Ic)(F9.5V) = 0.329 ; B-V vs R-Ic trend for B-V=0.580
+=> adopt (R-Ic)(F9.5V) = 0.31 [updated 5/10/2024]
 
-(V-Ic)(F9.5V) = 0.638 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=
+(V-Ic)(F9V)   =  0.630 ; adopted for F9V
+(V-Ic)(F9.5V) = 0.638 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] w/i +-0.1dex of solar for B-V=0.58
 (V-Ic)(F9.5V) = 0.64  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
+(V-Ic)(G0V)   =  0.660 ; adopted for G0V
+(V-Ic)(F9.5V) = 0.665 ; B-V vs V-Ic trend for B-V=0.580 (near discontinuity in fit?)
 => adopt (V-Ic)(F9.5V) = 0.64 [updated 2/18/2024]
+
+(V-J)(F9.5V) = 1.085 ; B-V vs V-J for B-V=0.58
+=> adopt (V-J)(F9.5V) = 1.085 [updated 5/10/2024]
+
+(V-H)(F9.5V) = 1.338 ; B-V vs V-H for B-V=0.58
+=> adopt (V-H)(F9.5V) = 1.338 [updated 5/10/2024]
+
+(V-Ks)(F9.5V) = 1.404 ; B-V vs V-Ks for B-V=0.58
+=> adopt (V-Ks)(F9.5V) = 1.404 [updated 5/10/2024]
+
+(J-H)(F9.5V) = 0.253 ; B-V vs J-H for B-V=0.253
+=> adopt (J-H)(F9.5V) = 0.253 [udpated 5/10/2024]
+
+(H-Ks)(F9.5V) = 0.066 ; B-V vs H-Ks for B-V=0.253
+=> adopt (H-Ks)(F9.5V) = 0.066 [updated 5/10/2024]
 
 (G-Ks)(F9.5V) = 1.20 ; median for Kirkpatrick24 F9.5Vs d<20pc (N=3)
 
@@ -64,27 +82,44 @@ Keenan89 standard:  HD 114710 (=bet Com) - F9.5V (prim. stan.; but G0V elsewhere
 (Ks-W1)(F9.5V) = 0.057 ; EEM trend for d<30pc for B-V=0.572
 => adopt (Ks-W1)(F9.5V) = 0.057 [updated 12/29/2019]
 
-(G-V)(F9.5V) = -0.130 ; HD_7449_   F9.5V  Gray06 HIP_5806_
-(G-V)(F9.5V) = -0.132 ; HD_73121_  F9.5V  Gray06 HIP_42123_
-(G-V)(F9.5V) = -0.135 ; HD_30311_  F9.5V  Gray06 HIP_22221_
+(G-V)(F9.5V) = -0.130 ; HD_7449_   F9.5V  Gray06 (GaiaDR2) 
+(G-V)(F9.5V) = -0.132 ; HD_73121_  F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.135 ; HD_30311_  F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.144 ; HD_117378_ F9.5V+ Gray03 (GaiaDR2)  
+(G-V)(F9.5V) = -0.144 ; HD_44120_  F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.147 ; HD_122862_ F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.148 ; HD_23079_  F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.148 ; HD_70889_  F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.152 ; HD_38283_  F9.5V  Gray06 (GaiaDR2) 
+(G-V)(F9.5V) = -0.153 ; HD_157338_ F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.156 ; HD_20201_  F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.158 ; HD_155826_ F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.158 ; HD_1581_   F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.159 ; HD_101177_ F9.5V  Gray03 (GaiaDR2)  
+(G-V)(F9.5V) = -0.159 ; HD_186651_ F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.161 ; HD_65907_  F9.5V  Gray06 (GaiaDR2)  
+(G-V)(F9.5V) = -0.171 ; HD_117105_ F9.5V  Gray06 (GaiaDR2) 
+(G-V)(F9.5V) = -0.175 ; HD_200525_ F9.5V  Gray06 (GaiaDR2) 
+(G-V)(F9.5V) = -0.195 ; HD_214953_ F9.5V  Gray06 (GaiaDR2) 
+=> adopt (G-V)(F9.5V) = -0.155 [updated 10/30/2020] (GaiaDR2) 
+
+(G-V)(F9.5V) =  -0.208 ; HD_167425_ F9.5V plx=42.5918 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.191 ; HD_214953_ F9.5V plx=41.9811 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.157 ; HD_65907_ F9.5V plx=61.8360 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.157 ; HD_200525_ F9.5V plx=46.9930 mas (GaiaDR3)
+(G-V)(F9.5V) = -0.156 ; pri. stan. HD_114710_ F9.5V plx=108.7250 mas (GaiaDR3)
+(G-V)(F9.5V) = -0.156 ; exemplar HD_1581_ F9.5V plx=116.1826 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.154 ; HD_117105_ F9.5V plx=27.3595 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.146 ; HD_186651_ F9.5V plx=27.6362 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.144 ; HD_122862_ F9.5V plx=34.1491 mas (GaiaDR3)
 (G-V)(F9.5V) = -0.136 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5990K (GaiaDR3 Gmags,SIMBAD Vmags)
-(G-V)(F9.5V) = -0.144 ; HD_117378_ F9.5V+ Gray03 HIP_65775_
-(G-V)(F9.5V) = -0.144 ; HD_44120_  F9.5V  Gray06 HIP_29788_
-(G-V)(F9.5V) = -0.147 ; HD_122862_ F9.5V  Gray06 HIP_69090_
-(G-V)(F9.5V) = -0.148 ; HD_23079_  F9.5V  Gray06 HIP_17096_
-(G-V)(F9.5V) = -0.148 ; HD_70889_  F9.5V  Gray06 HIP_41134_
-(G-V)(F9.5V) = -0.152 ; HD_38283_  F9.5V  Gray06 HIP_26380_
-(G-V)(F9.5V) = -0.153 ; HD_157338_ F9.5V  Gray06 HIP_85158_
-(G-V)(F9.5V) = -0.156 ; HD_20201_  F9.5V  Gray06 HIP_14964_
-(G-V)(F9.5V) = -0.158 ; HD_155826_ F9.5V  Gray06 HIP_84425_
-(G-V)(F9.5V) = -0.158 ; HD_1581_   F9.5V  Gray06 HIP_1599_
-(G-V)(F9.5V) = -0.159 ; HD_101177_ F9.5V  Gray03 HIP_56809_
-(G-V)(F9.5V) = -0.159 ; HD_186651_ F9.5V  Gray06 HIP_97370_
-(G-V)(F9.5V) = -0.161 ; HD_65907_  F9.5V  Gray06 HIP_38908_
-(G-V)(F9.5V) = -0.171 ; HD_117105_ F9.5V  Gray06 HIP_65737_
-(G-V)(F9.5V) = -0.175 ; HD_200525_ F9.5V  Gray06 HIP_104440_
-(G-V)(F9.5V) = -0.195 ; HD_214953_ F9.5V  Gray06 HIP_112117_
-=> adopt (G-V)(F9.5V) = -0.155 [updated 10/30/2020]
+(G-V)(F9.5V) =  -0.136 ; HD_38283_ F9.5V plx=26.2854 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.135 ; HD_157338_ F9.5V plx=30.264 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.132 ; HD_70889_ F9.5V plx=29.242 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.131 ; HD_44120_ F9.5V plx=27.7563 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.131 ; HD_23079_ F9.5V plx=29.8633 mas (GaiaDR3)
+(G-V)(F9.5V) =  -0.119 ; HD_73121_ F9.5V plx=27.6505 mas (GaiaDR3)
+=> adopt (G-V)(F9.5V) = -0.145 [updated 5/16/2024] (GaiaDR3) 
 
 (u'-g')(F9.5V) = 1.214 ; Smith02 u'-g' calibration for U-B=0.071
 (u'-g')(F9.5V) = 1.238 ; Fukugita96 u'-g' calibration for U-B=0.071

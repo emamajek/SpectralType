@@ -40,21 +40,7 @@ Skiff08 flags two stars as G4V MK standards, both from Keenan89: HD
 
 Gray01/03/06 list 16 nearby G4V stars. Median HIP colors:
 <B-V>(G4V) = 0.684 (+-0.006 sem, +-0.022 stdev; N=16)
-<V-I>(G4V) = 0.740 (+-0.005 sem, +-0.018 stdev; N=16)
-
-For G4V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=13):
-<B-V>(G4V)   = 0.663 (+-0.013 sem, +-0.034 stdev; N=13)
-<V-I>(G4V)   = 0.717 (+-0.011 sem, +-0.034 stdev; N=13)
-<V-J>(G4V)   = 1.212 (+-0.033 sem, +-0.091 stdev; N=13)
-<V-H>(G4V)   = 1.508 (+-0.030 sem, +-0.125 stdev; N=13)
-<V-Ks>(G4V)  = 1.597 (+-0.035 sem, +-0.095 stdev; N=13)
-<J-H>(G4V)   = 0.293 (+-0.014 sem, +-0.042 stdev; N=13)
-<H-K>(G4V)   = 0.088 (+-0.011 sem, +-0.037 stdev; N=13)
-<Bt-Vt>(G4V) = 0.738 (+-0.011 sem, +-0.039 stdev; N=13)
-<V-Vt>(G4V)  =-0.074 (+-0.003 sem, +-0.013 stdev; N=13) 
-<B-K>(G4V)   = 2.251 (+-0.045 sem, +-0.122 stdev; N=13)
-
+<V-Ic>(G4V) = 0.740 (+-0.005 sem, +-0.018 stdev; N=16)
 
 (B-V)(G4V) =  0.635 ; HD_28255A_ G4V plx=36.329mas, Mv=4.6002
 (B-V)(G4V) =  0.64  ; KenyonHartmann95
@@ -82,11 +68,11 @@ and within 1 mag of the MS (N=13):
 (B-V)(G4V) =  0.715 ; HD_103493B_ G4V plx=32.232mas, Mv=5.2714
 (B-V)(G4V) = 0.723 ; HR 8631 Keenan G4V standard
 (B-V)(G4V) =  0.75 ; HD_105590A_ G4 plx=40.3351mas, Mv=4.8684
-=> adopt (B-V)(G4V)  = 0.67 [8/29/2019; linear interp G2V(0.65)-G5V(0.68)]
-=> adopt (V-J)(G4V)  = 1.232
-=> adopt (V-H)(G4V)  = 1.536
+=> adopt (B-V)(G4V) = 0.67 [8/29/2019; linear interp G2V(0.65)-G5V(0.68)]
+=> adopt (V-J)(G4V) = 1.232
+=> adopt (V-H)(G4V) = 1.536
 => adopt (H-Ks)(G4V) = 0.075
-=> adopt (J-H)(G4V)  = 0.304
+=> adopt (J-H)(G4V) = 0.304
 
 (U-B)(G4V) = 0.185 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.67
 => adopt (U-B)(G4V) = 0.185 [updated 12/1/2023]
@@ -136,7 +122,7 @@ and within 1 mag of the MS (N=13):
 (g-r)(G4V) = 0.485 ; Just08/Chonis08 B-V=>g-r for B-V=0.670
 (g-r)(G4V) = 0.489 ; Jordi06 (V-R)=>(g-r) for V-R=0.372
 (g-r)(G4V) = 0.501 ; Bilir05 (B-V)=>(g-r) for B-V=0.670
-=> adopt (g-r)(G4V) = 0.489 [updated 9/1/2023]
+=> adopt (g-r)(G4V) = 0.49 [updated 5/8/2024]
 
 (r-i)(G4V) = 0.131 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.356
 => adopt (r-i)(G4V) = 0.131 [updated 9/1/2023]
@@ -174,29 +160,42 @@ and within 1 mag of the MS (N=13):
 (G-Rp)(G4V) =  0.514   ; exemplar HD 207700 = HIP 108158 ([Fe/H]=+0.04) EDR3
 => adopt (G-Rp)(G4V) = 0.48 [updated 11/15/2020] ** CHECK ** 
 
-(G-V)(G4V) = -0.209 ; exemplar HD 171665 PM* G4V DR2
-(G-V)(G4V) =  -0.193 ; HD 131923 PM* G4V
-(G-V)(G4V) =  -0.188 ; HD 103493B PM* G4V
-(G-V)(G4V) =  -0.188 ; HD 128041A PM* G4V
-(G-V)(G4V) =  -0.180 ; HD 126525 PM* G4V
-(G-V)(G4V) = -0.175 ; exemplar HD 207700 = HIP 108158 DR2
-(G-V)(G4V) = -0.173 ; G dwarf trend for G4V 
-(G-V)(G4V) =  -0.171 ; HD 89269 PM* G4V
+(G-V)(G4V) = -0.209 ; exemplar HD 171665 PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.193 ; HD 131923 PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.188 ; HD 103493B PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.188 ; HD 128041A PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.180 ; HD 126525 PM* G4V (GaiaDR2) 
+(G-V)(G4V) = -0.175 ; exemplar HD 207700 = HIP 108158 (GaiaDR2) 
+(G-V)(G4V) = -0.173 ; G dwarf trend for G4V  (GaiaDR2) 
+(G-V)(G4V) =  -0.171 ; HD 89269 PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.170 ; HD 103743 PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.166 ; HD 113319 PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.162 ; HD 117939 PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.162 ; HD 31865 PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.160 ; HD 4392 PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.160 ; HD 99610 PM* G4VCN+0.5 (GaiaDR2) 
+(G-V)(G4V) =  -0.156 ; HD 42618 PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.109 ; HD 28255A PM* G4V (GaiaDR2) 
+(G-V)(G4V) =  -0.086 ; HD 224465 PM* G4V (GaiaDR2) 
+=> adopt (G-V)(G4V) = -0.173 [updated 11/1/2020] (GaiaDR2) 
+
+(G-V)(G4V) =   -1.559 ; HD_50635B_ G4V plx=33.3248 mas (GaiaDR3)
+(G-V)(G4V) =  -0.191 ; HD_117176_ G4Va plx=55.2511 mas (GaiaDR3)
+(G-V)(G4V) =  -0.174 ; HD_128041A_ G4V plx=25.3628 mas (GaiaDR3)
+(G-V)(G4V) =  -0.173 ; HD_103493B_ G4V plx=32.232 mas (GaiaDR3)
 (G-V)(G4V) = -0.171 ; exemplar HD 171665 = HIP 91287 EDR3
-(G-V)(G4V) =  -0.170 ; HD 103743 PM* G4V
-(G-V)(G4V) =  -0.166 ; HD 113319 PM* G4V
-(G-V)(G4V) =  -0.162 ; HD 117939 PM* G4V
-(G-V)(G4V) =  -0.162 ; HD 31865 PM* G4V
+(G-V)(G4V) =  -0.166 ; HD_131923_ G4V plx=43.1904 mas (GaiaDR3)
+(G-V)(G4V) =  -0.166 ; HD_126525_ G4V plx=26.4834 mas (GaiaDR3)
 (G-V)(G4V) = -0.162 ; exemplar HD 207700 = HIP 108158 EDR3
-(G-V)(G4V) =  -0.160 ; HD 4392 PM* G4V
-(G-V)(G4V) =  -0.160 ; HD 99610 PM* G4VCN+0.5
-(G-V)(G4V) = -0.159  ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5680K (GaiaDR3 Gmags,SIMBAD Vmags)
-(G-V)(G4V) =  -0.156 ; HD 42618 PM* G4V
-(G-V)(G4V) =  -0.109 ; HD 28255A PM* G4V
-(G-V)(G4V) =  -0.086 ; HD 224465 PM* G4V
-=> adopt (G-V)(G4V) = -0.173 [updated 11/1/2020]
-
-
+(G-V)(G4V) = -0.159 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5680K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(G4V) =  -0.158 ; HD_23052_ G4V plx=48.6202 mas (GaiaDR3)
+(G-V)(G4V) =  -0.156 ; HD_103743_ G4V plx=28.2075 mas (GaiaDR3)
+(G-V)(G4V) =  -0.147 ; HD_4392_ G4V plx=24.8484 mas (GaiaDR3)
+(G-V)(G4V) =  -0.145 ; HD_117939_ G4V plx=33.1088 mas (GaiaDR3)
+(G-V)(G4V) =  -0.142 ; HD_99610_ G4VCN+0.5 plx=28.9879 mas (GaiaDR3)
+(G-V)(G4V) =  -0.140 ; HD_42618_ G4V plx=40.9764 mas (GaiaDR3)
+(G-V)(G4V) =   -0.091 ; HD_28255A_ G4V plx=36.329 mas (GaiaDR3)
+=> adopt (G-V)(G4V) = -0.159 [updated 5/16/2024] (GaiaDR3) 
 
 Teff(G4V) =  5533 K ; weak stan. 70 Vir (PASTEL, see below)
 Teff(G4V) =  5534 +- 150 K ; vanBelle09
@@ -479,3 +478,18 @@ HD 207700
 HD 224465                   
 8 of these are in ValentiFischer05, and the one with metallicity closest
 to solar is HD 171665. 
+
+# Notes on nearby Hipparcos with G4V types (mostly from Houk)
+
+For G4V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=13):
+<B-V>(G4V)   = 0.663 (+-0.013 sem, +-0.034 stdev; N=13)
+<V-I>(G4V)   = 0.717 (+-0.011 sem, +-0.034 stdev; N=13)
+<V-J>(G4V)   = 1.212 (+-0.033 sem, +-0.091 stdev; N=13)
+<V-H>(G4V)   = 1.508 (+-0.030 sem, +-0.125 stdev; N=13)
+<V-Ks>(G4V)  = 1.597 (+-0.035 sem, +-0.095 stdev; N=13)
+<J-H>(G4V)   = 0.293 (+-0.014 sem, +-0.042 stdev; N=13)
+<H-K>(G4V)   = 0.088 (+-0.011 sem, +-0.037 stdev; N=13)
+<Bt-Vt>(G4V) = 0.738 (+-0.011 sem, +-0.039 stdev; N=13)
+<V-Vt>(G4V)  =-0.074 (+-0.003 sem, +-0.013 stdev; N=13) 
+<B-K>(G4V)   = 2.251 (+-0.045 sem, +-0.122 stdev; N=13)

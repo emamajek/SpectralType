@@ -190,19 +190,6 @@ HD 224618, and HD 26965.
 (Ks-W1)(K0V) = 0.070 ; EEM trend for d<30pc for B-V=0.816
 => adopt (Ks-W1)(K0V) = 0.070 [updated 12/29/2019]
 
-For Hipparcos K0V stars within 75pc, parallax S/N > 8, and
-within 1 mag of the main sequence (N=216):
-<B-V>(K0V)   = 0.822 (+-0.004 sem, +-0.049 stdev)
-<V-I>(K0V)   = 0.856 (+-0.004 sem, +-0.044 stdev)
-<V-J>(K0V)   = 1.486 (+-0.009 sem, +-0.109 stdev)
-<V-H>(K0V)   = 1.873 (+-0.012 sem, +-0.149 stdev)
-<V-Ks>(K0V)  = 1.975 (+-0.014 sem, +-0.154 stdev)
-<J-H>(K0V)   = 0.392 (+-0.004 sem, +-0.046 stdev)
-<H-K>(K0V)   = 0.101 (+-0.002 sem, +-0.031 stdev)
-<Bt-Vt>(K0V) = 0.947 (+-0.004 sem, +-0.073 stdev) 
-<V-Vt>(K0V)  =-0.086 (+-0.002 sem, +-0.027 stdev; N=212) 
-<B-K>(K0V)   = 2.800 (+-0.012 sem, +-0.187 stdev; N=216)
-
 (u-g)(K0V)   =  1.19 ; Fukugita11 (note: uses discrepent Teff=5610K!)
 (u-g)(K0V)   = 1.68  ; Covey07
 (u'-g')(K0V) = 1.713 ; Smith02 u'-g' calibration for U-B=0.446
@@ -1164,11 +1151,25 @@ $ M3V   13  GJ109/LHS1439   1.550 3390   ?              tertiary
 Throughout the K/M regime (at least ~K0V-M7V): delta(G,GaiaDR3) ~ 1.2364*delta(V,Johnson) (8/3/2023)
 
 
-# PROPERTIES OF K DWARFS WITHIN 25 PC
+# Properties of K dwarfs within 25 pc
 
-Querying SIMBAD 8/23/2023 for stars with K spectral types and plx>40mas (d<25pc) finds 606 stars with default spectral type starting with K (including dwarfs and giants). Of these 315 have entries in the Soubiran22/PASTEL catalog of stellar parameters(VKs photometry, Teff, logg, [Fe/H]). The surface gravities for these stars neatly divided around logg=4, with del Eri/Rana being the lowest surface gravity subgiant or giant (logg=3.78+-0.03) - 16 stars have logg between 1.67 and 4, the unusual unresolved tight binary OU Gem (HD 45088) with logg=4.09+-0.13, and the rest of the 298 stars (dwarfs) having logg between 4.41 and 4.83. Among the 298 dwarfs, the distribution of metallicities for the K dwarfs with measured metallicities looks like this:
+Querying SIMBAD 8/23/2023 for stars with K spectral types and plx>40mas (d<25pc) finds 606 stars with default spectral type starting with K (including dwarfs and giants). Of these 315 have entries in the Soubiran22/PASTEL catalog of stellar parameters(VKs photometry, Teff, logg, [Fe/H]). The surface gravities for these stars neatly divided around logg=4, with del Eri/Rana being the lowest surface gravity subgiant or giant (logg=3.78+-0.03) - 16 stars have logg between 1.67 and 4, the unusual unresolved tight binary OU Gem (HD 45088) with logg=4.09+-0.13, and the rest of the 298 stars (dwarfs) having logg between 4.41 and 4.83. Among the 298 dwarfs, the distribution of surface gravities and metallicities for the K dwarfs is: 
 
 logg:   median =  4.550 (+0.11, -0.09; 68%CL) (+0.23,-0.24; 95% CL) (min  4.21, max 4.83). probit sigma 0.092, clipped stdev 0.099.
 [Fe/H]: median = -0.030 (+0.19, -0.28; 68%CL) (+0.41,-0.95; 95% CL) (min -1.76, max 0.65). probit sigma 0.229, clipped stdev 0.235.
 The [Fe/H] < -1.0 stars are clipped via Chauvenet's criteria (outliers), as were the 3 stars with logg=4.21 and 4.22.
 
+# Notes on nearby Hipparcos stars with K0V types (mostly from Houk)
+
+For Hipparcos K0V stars within 75pc, parallax S/N > 8, and
+within 1 mag of the main sequence (N=216):
+<B-V>(K0V)   = 0.822 (+-0.004 sem, +-0.049 stdev)
+<V-I>(K0V)   = 0.856 (+-0.004 sem, +-0.044 stdev)
+<V-J>(K0V)   = 1.486 (+-0.009 sem, +-0.109 stdev)
+<V-H>(K0V)   = 1.873 (+-0.012 sem, +-0.149 stdev)
+<V-Ks>(K0V)  = 1.975 (+-0.014 sem, +-0.154 stdev)
+<J-H>(K0V)   = 0.392 (+-0.004 sem, +-0.046 stdev)
+<H-K>(K0V)   = 0.101 (+-0.002 sem, +-0.031 stdev)
+<Bt-Vt>(K0V) = 0.947 (+-0.004 sem, +-0.073 stdev) 
+<V-Vt>(K0V)  =-0.086 (+-0.002 sem, +-0.027 stdev; N=212) 
+<B-K>(K0V)   = 2.800 (+-0.012 sem, +-0.187 stdev; N=216)
