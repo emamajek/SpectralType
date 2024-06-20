@@ -24,11 +24,50 @@ Teff(L6.5V) = 1440 K ; Filippazzo15 calibration (M6V-T9V)
 
 # Examples
 
-2MASSI J0652307+471034
-  L4.5V: Kirkpatrick20(opt.)
- *L6.5V: Kirkpatrick20(near-IR)
+2MASSI J0652307+471034 = 2MASS J06523073+4710348AB
+  L4.5V: Cruz03,Burgasser10(opt),Bardalez19('combined'),Kirkpatrick20(opt.),Kirkpatrick21(opt.)
+  L6.5V: Burgasser10(IR),Kirkpatrick20(IR),Kirkpatrick21(adopted)
+ *L3.5+L6.5: Bardalez19
 
-  plx=110.31+-0.29mas(Kirkpatrick20). Teff=1597+-88K(Kirkpatrick20).
+  10th nearest L dwarf in SIMBAD as of 5/2024, but a L-dwarf binary
+  (inferred from spectrum, but apparently not resolved).  Object first
+  reported in Cruz03. Included in a HST Snapshot survey to find
+  binarity among L dwarfs by Reid06, but it was considered
+  "unresolved". Primary is apparently L3.5 but secondary L6.5
+  dominates in near-IR. plx=110.31+-0.29mas(Kirkpatrick20),
+  plx=109.7651+-0.2782mas(GaiaDR3).  G=18.807192+-0.004313(GaiaDR3).
+  Teff=1597+-88K(Kirkpatrick20), 1682+-104K(Sebastian21).
 
+2MASS J21481628+4003593 = 2MASSW J2148162+400359 = TIC 305387751 = Gaia DR3 1954170404122975232
+  L4.0: BardalezGagliuffi14(near-IR)
+  L6: Looper08(opt),Kirkpatrick10,BardalezGagliuffi19(L6.0,opt),Kirkpatrick21(L6.0,opt)
+  L6(pec): Looper08(near-IR)
+  L6_FLD-G: Liu16(near-IR),Best18(near-IR)
+  L6.5: Kirkpatrick08,Reid08,Faherty09,Kirkpatrick21(near-IR)
+ *L6.5 pec (red): Kirkpatrick21(near-IR)
+  L7: Looper08(near-IR,adopted)
+  L7.0: Schneider14
+  L7.0_INT-G: Bouy22
+  L7pec: Kirkpatrick10
+
+  Peculiar, red (J-Ks=2.38) L dwarf discovered by
+  Looper08(2008ApJ...686..528L).  7th nearest L dwarf in SIMBAD as of
+  5/2024, and Kirkpatrick21 adopts overall type L6.5. Looper08
+  reports: "In the near-infrared, 2MASS J21481628+4003593 shows a
+  triangular H-band spectrum, strong CO absorption, and a markedly red
+  J-Ks color (2.38±0.06) for its L6 optical spectral type" and "The
+  continuum of 2MASS J2148+4003 shortward of 8600A matches very well
+  that of the L6 dwarf, including the TiO band heads, while the atomic
+  line strengths of Rb I, Na I, and Cs I are slightly weaker.  We
+  therefore adopt an optical spectral type of L6 for 2MASS J2148+4003.
+  2MASS J2148+4003 also shows Li absorption in its spectrum.  Using
+  the same method described for 2MASS J1821+1414, we measure an EW of
+  12.1+-0.6A."  Red J-Ks color is suggestive of low gravity/youth (see
+  e.g. Fig. 5 of Schneider14, and indeed it is considered an Argus
+  member (Gagne14,Gagne15,Schneider17), which would make it ~40 Myr
+  old.  plx=123.6752+-0.3595mas(GaiaDR3),
+  G=19.818087+-0.004413(GaiaEDR3).  Y=15.48+-0.05(Liu16),
+  J-Ks=2.382+-0.037(2MASS,Looper08).  M_G=20.28, M_J=14.61, M_H=13.24,
+  M_Ks=12.23. Teffs: 1446+-72K(Kirkpatrick21).
 
   

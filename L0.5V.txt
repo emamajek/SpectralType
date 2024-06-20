@@ -11,28 +11,31 @@ Teff(L0.5V) = 2175 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(L0.5V) = 2166 K ; Kirkpatrick20 Table 13 polynomial
 => adopt Teff(L0.5V) = 2220 K (logT = 3.346) [updated 1/15/2021]
 
-V-Ks(L0.5V) = 9.82 ; 2MA0451-3402 (Dieterich14)
-V-Ks(L0.5V) = 9.64 ; 2MA1705-0516AB (Dieterich14)
-V-Ks(L0.5V) = 9.57 ; EEM fit to Dieterich14 data (V-Ks=9.45)
-V-Ks(L0.5V) = 9.56 ; trend fit to Dahn17 for L0.5V
-V-Ks(L0.5V) = 9.56 ; 2MA0428-2253 (Dieterich14)
-V-Ks(L0.5V) = 9.38 ; 2MASS J0746425+200032 (see below)
-V-Ks(L0.5V) = 9.11 ; 2MASS J17073334+4301304 L0.5 Dahn17
+(V-Ks)(L0.5V) =  9.82 ; 2MA0451-3402 (Dieterich14)
+(V-Ks)(L0.5V) =  9.64 ; 2MA1705-0516AB (Dieterich14)
+(V-Ks)(L0.5V) =  9.57 ; EEM fit to Dieterich14 data
+(V-Ks)(L0.5V) =  9.56 ; trend fit to Dahn17 for L0.5V
+(V-Ks)(L0.5V) =  9.56 ; 2MA0428-2253 (Dieterich14)
+(V-Ks)(L0.5V) = 9.402 ; pri. stan. 2MASS J07464256+2000321
+(V-Ks)(L0.5V) =  9.11 ; 2MASS J17073334+4301304 L0.5 Dahn17
 => adopt (V-Ks)(L0.5V) = 9.55 [updated 8/17/2020]
 
 (G-Ks)(L0.5V) = 6.221 ; pri. stan. 2MASS J07464256+2000321
 (G-Ks)(L0.5V) = 6.275 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
 => adopt (G-Ks)(L0.5V) = 6.25 [updated 12/26/2020]
 
-(V-Rc)(L0.5V) = 2.50  ; 2MASS 0428-2253 (RECONS)
-(V-Rc)(L0.5V) = 2.63  ; 2MASS 1705-0516 AB (RECONS)
-(V-Rc)(L0.5V) = 2.73  ; 2MASS 0451-3402 (RECONS)
-=> adopt (V-Rc)(L0.5V) = 2.65 [updated 9/15/2023; V-Ic=5.05, R-Ic=2.40]
+(V-Rc)(L0.5V) = 2.50 ; 2MASS 0428-2253 (RECONS)
+(V-Rc)(L0.5V) = 2.63 ; 2MASS 1705-0516 AB (RECONS)
+(V-Rc)(L0.5V) = 2.73 ; 2MASS 0451-3402 (RECONS)
+=> adopt (V-Rc)(L0.5V) = 2.63 [updated 9/15/2023; V-Ic=5.05, R-Ic=2.40]
 
+(R-Ic)(L0.5V) = 2.191 ; 2MASS J1412+1633 (Liebert06)
 (R-Ic)(L0.5V) = 2.32  ; 2MASS 0428-2253 (RECONS)
+(R-Ic)(L0.5V) = 2.336 ; 2MASS J0746+2000 (Liebert06)
 (R-Ic)(L0.5V) = 2.37  ; 2MASS 1705-0516 AB (RECONS)
 (R-Ic)(L0.5V) = 2.43  ; 2MASS 0451-3402 (RECONS)
-=> adopt (R-Ic)(L0.5V) = 2.40 [updated 9/15/2023; V-Rc=2.65, V-Ic=5.05]
+(R-Ic)(L0.5V) = 2.524 ; 2MASS J2254-2840 (Liebert06)
+=> adopt (R-Ic)(L0.5V) = 2.35 [updated 9/15/2023; V-Rc=2.65, V-Ic=5.05]
 
 (V-Ic)(L0.5V) =  4.82 ; 2MASS 0428-2253 (RECONS)
 (V-Ic)(L0.5V) = 4.861 ; Dahn17 V-Ic trend (M6-L5) for L0.5V
@@ -104,7 +107,7 @@ BC_J(L0.5V) =  2.024+-0.081 ; Cifuentes20
 
 # Primary Standard
 
-2M_0746+20 = 2MASS J07464256+2000321 = LSPM J0746+2000 
+2MASS J07464256+2000321 = 2M_0746+20 = LSPM J0746+2000 
   *L0.5: Kirkpatrick09(pri.stan.)
 
    V=19.87+-0.06(Dahn02), K=10.49+-0.03(Dahn02).  V-K=9.38, J-H=0.743,
@@ -116,7 +119,8 @@ BC_J(L0.5V) =  2.024+-0.081 ; Cifuentes20
    WISE: W1=10.125 0.022, W2= 9.864 0.021, W3=9.448 0.040, W4 upper
    limit (8.813). AllWISE: W1=10.137 0.023, W2=9.870 0.020, W3=9.402
    0.042, W4 upper limit (8.865). 2MASS: J=11.759+-0.020,
-   H=11.007+-0.022, Ks=10.468+-0.022. (G-Ks) = 16.689 - 10.468 = 6.221.
+   H=11.007+-0.022, Ks=10.468+-0.022 => (V-Ks) = 19.87 - 10.468 =
+   9.402.  (G-Ks) = 16.689 - 10.468 = 6.221.
 
 # Exemplar
 

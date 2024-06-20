@@ -1,6 +1,9 @@
 L7.5V
 
+Two of the six nearest L dwarfs (Luhman 16A and WISEP J180026.60+013453.1) are L7.5Vs. 
+
 Kirkpatrick09(GrayCorbally): 2MASS J08251968+2115521 - L7.5 (primary optical standard)
+Cruz18 standard:             2MASS J08251968+2115521 - L7.5 (pri. field gravity NIR stan.)
 
 (J-H)(L7.5V)  = 1.151 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
 => adopt (J-H)(L7.5V) = 1.15 [updated 8/6/2020]
@@ -16,8 +19,13 @@ Teff(L7.5V) = 1377 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(L7.5V) = 1400 K ; Cifuentes20 <Teff> for CARMENES L7.5V(N=1)
 => adopt Teff(L7.5V) = 1380K (logT = 3.140) [updated 12/26/2020]
 
+M_G(L7.5V) = 20.11 ; exemplar WISEP J180026.60+013453.1 
+
 M_J(L7.5V) = 14.499 ; EEM fit to L/T dwarfs d<25pc
+M_J(L7.5V) = 14.84  ; exemplar WISEP J180026.60+013453.1 
 M_J(L7.5V) = 15.18  ; exemplar Luhman16A
+
+M_H(L7.5V) = 13.66  ; exemplar WISEP J180026.60+013453.1 
 
 M_K(MKO)(L7.5V)=13.0902 ; Gl_584C   7.5 calc using Kirkpatrick20 (plx=55.98mas)
 
@@ -28,12 +36,38 @@ M_Ks(L7.5V)= 12.64    ; trend to L/T dwarfs in notes (1/2021)
 M_Ks(L7.5V)=  12.7796 ; LHS_2397aB  7.5 calc using Kirkpatrick20 (plx=69.4903mas)
 M_Ks(L7.5V)=  12.7946 ; SDSS_1520+3546 7.5 calc using Kirkpatrick20 (plx=57.4mas)
 M_Ks(L7.5V)=  12.911  ; 2MASS_2325+4251 7.5 calc using Kirkpatrick20 (plx=67.6385mas)
-M_Ks(L7.5V)=  12.9466 ; WISE_1800+0134 7.5 calc using Kirkpatrick20 (plx=127.4450mas)
+M_Ks(L7.5V)= 12.958   ; exemplar WISEP J180026.60+013453.1 (plx=127.4450mas)
 M_Ks(L7.5V)=  12.96   ; exemplar Luhman 16A 
 M_Ks(L7.5V)=  13.0902 ; Gl_584C   7.5 calc using Kirkpatrick20 (plx=55.98mas)
 => adopt M_Ks(L7.5V) = 12.64 [adopted 12/30/2020]
 
+logL(L7.5V) = -4.53 ; exemplar WISEP J180026.60+013453.1 
 logL(L7.5V) = -4.67 ; Luhman 16A (Faherty14)
+
+# Primary Standard
+
+2MASS J08251968+2115521 = 2MUCD 10721 = SDSS J082519.45+211550.2
+  L6: Knapp04,Kirkpatrick05(NIR),Burgasser10(NIR),Manjavacas19
+  L7.0: Burgasser10(SpeX/NIR),Schmidt10(L7),Kiman19(L9e),Kirkpatrick21(NIR,adopted overall)
+  L7pec: Gagne15,Best18(NIR)
+ *L7.5V: Kirkpatrick00(opt),Cruz03,Kirkpatrick05(opt),Cruz07,Burgasser10(opt),Schneider14,Best18(adopted),Cruz18(stan.,NIR),Kirkpatrick21(opt)
+
+  First reported in Kirkpatrick00, although Kirkpatrick21 recently
+  adopts overall type of L7.0.  Cruz18 adopted 2MASS J08251968+2115521
+  as the primary NIR L7.5 field gravity standard, as a proposed
+  replacement for 2M J0103+1935 originally proposed as L6 NIR standard
+  by Kirkpatrick10 - however J0825+2115 does not appear in
+  Kirkpatrick10 text nor tables.  Rc=21.97(Liebert06),
+  Ic=19.22(Liebert06), J=15.100+-0.034(2MASS), H=13.792+-0.032(2MASS),
+  Ks=13.028+-0.026(2MASS).  plx=92.6006+-0.8221mas(GaiaDR3),
+  G=20.4210143+-0.008100(GaiaDR3), note that the colors are somewhat
+  poor: E(Bp/Rp)=2.233, Bp-Rp=2.526571, Bp-G=0.883471 , G-Rp=1.643101,
+  where err(Bp)=0.20mag, err(Rp)=0.03mag.  Teffs:
+  1341+-73K(Kirkpatrick21), 1372K(Dahn02/Kirkpatrick05),
+  1374+-105K(Sebastian21), 1383K(Vrba04/Kirkpatrick05),
+  1405+-272K(GaiaDR3/ESP-UCD), 1425K(Golimowski04/Kirkpatrick05),
+  1500+-200K(Gagne15),
+  
 
 # Exemplar 
 
@@ -61,9 +95,23 @@ Luhman 16A = WISE J104915.57−531906.1A
    plx=500.51+-0.11mas(Sahlmann15) =>
    M_J = 15.177+-0.050, 
    M_Ks = 12.957+-0.080.
-   Teff=1305_180-135K(Lodieu15), 1310+-30K(Faherty14), 1334+-58K(Kirkpatrick20) =>
-   <Teff> = 1310K. 
-   
-# Examples
+   Teff=1305+180-135K(Lodieu15), 1310+-30K(Faherty14), 1334+-58K(Kirkpatrick20) =>
+   <Teff>=1310K. 
 
-   
+WISEP J180026.60+013453.1 = 2MASS J18002648+0134565 = WISE J180026.60+013453.1 = Gaia DR3 4468009917744160000 = TIC 404613256
+ *L7.5+-0.5: Gizis11(near-IR/SpeX),Gizis15(opt/red)
+  
+  6th nearest L dwarf in SIMBAD as of 5/2024, discovered in WISE by
+  Gizis11(2011AJ....142..171G) "WISEP J180026.60+013453.1: A nearby
+  late-L Dwarf near the Galactic Plane" and further studied in
+  Gizis15(2015AJ....150..179G). 2nd nearest L7.5 after Luhman 16A.
+  Gizis11 SpeX spectrum had best fit to L8 standard 2MJ0257-3105, but
+  spectral indices yielded type L7+-1, so they adopt L7.5+-0.5.
+  Gizis15 spectrum 6340-8460A compared to Kirkpatrick99 standards
+  yields type of L7.5+-0.5, and strong Li absorption (EW(Li)=2.7A),
+  and no Halpha. Gizis15 "Overall, W1800+0134 is a typical L7.5
+  dwarf", so I consider it an exemplar L7.5V here.  Mass:
+  0.03-0.06Msun(Gizis15). Age: 0.3-1.5Gyr(Gizis15).  M_G=20.11,
+  M_J=14.84, M_H=13.66, M_Ks=12.96. logL=-4.53+-0.04(Gizis15), from
+  adopting BC_K=3.19+-0.07(Golimowski04).  Teffs: 1430+-100K(Gizis11).
+

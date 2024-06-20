@@ -1,17 +1,21 @@
 L8V
 
-Kirkpatrick99 standard:      2MASSW J1632291+190441 - L8V
-Hawley02 standard:           2MASS 1632+1904 - L8V
-Kirkpatrick05 standard:      2MASSW J1632291+190441 - L8V ("optical anchor")
+Kirkpatrick99 standard:      2MASS J16322911+1904407 (2MASSW J1632291+190441) - L8V
+Hawley02 standard:           2MASS J16322911+1904407 (2MASS 1632+1904) - L8V
+Burgasser03 standard:        2MASS J16322911+1904407 (2MASS 1632+1904) - L8 (primary opt/NIR standard)
+Kirkpatrick05 standard:      2MASS J16322911+1904407 (2MASSW J1632291+190441 - L8V ("optical anchor")
 Reid08 standard:             2MASS J16322911+1904407 - L8 (pri. stan.)
                              2MASS J02550357-4700509 (DENIS-P J0255-4700) - L8 (sec. stan.)
 Kirkpatrick09(GrayCorbally): 2MASS J16322911+1904407 - L8 (pri. optical standard)
-Kirkpatrick10 standard:      2MASS J16322911+1904407 - L8V (pri. near-IR standard)
+Kirkpatrick10 standard:      2MASS J16322911+1904407 - L8V (pri. stan. (0.7-2.5um/SpeX))
+Cruz18 standard:             2MASS J16322911+1904407 - L8 (pri. NIR field gravity stan.)
+Theissen22 standard:         2MASS J16322911+1904407 - L8 (pri. stan. (0.9-2.45um/NIRES)
 
-Kirkpatrick09 writes "The optical L-dwarf sequence presently ends at
-L8; there are no objects yet identified with optical types of L8.5, L9,
-L9.5. Just beyond L8 there is an abrupt change in spectral morphology
-in the optical leading to the cooler dwarfs of type T."
+Kirkpatrick09 wrote "The optical L-dwarf sequence presently ends at
+L8; there are no objects yet identified with optical types of L8.5,
+L9, L9.5. Just beyond L8 there is an abrupt change in spectral
+morphology in the optical leading to the cooler dwarfs of type T."
+Late L standards appear later in Kirkpatrick10 and Cruz18.
 
 Teff(L8V) = 1300 K ; Cifuentes20 <Teff> for CARMENES L8V(N=3)
 Teff(L8V) = 1336 K ; Kirkpatrick20 (Table 13 polynomial)
@@ -71,24 +75,105 @@ Teff(L8V) = 1451 K ; Dupuy17(Lyon model scale)
 
 (G-Rp)(L8V) =  1.880 ; Reyle18 polynomial
 
-(G-J)(L8V) =  5.547 ; Reyle18 polynomial
+(G-J)(L8V) =   5.214 ; 2MASS_J09083803+5032088_ plx=95.9290mas L8 (GaiaDR3)
+(G-J)(L8V) =  5.411 ; 2MASS_J23254530+4251488_ plx=69.228mas L8 (GaiaDR3)
+(G-J)(L8V) =   5.508 ; 2MASS_J14053729+8350248_ plx=103.4474mas L8 (GaiaDR3)
+(G-J)(L8V) =    5.547 ; Reyle18 polynomial (GaiaDR2)
+=> adopt (G-J)(L8V) = 5.41 [updated 5/26/2024]
+[EEM 5/26/2024: Only the three nearest L8s in SIMBAD (plx>~67mas) have
+Gmags. Unfortunately the standard 2MJ1632+1904 is 4th nearest and the
+nearest SIMBAD L8 lacking a Gmag!]
 
-(J-H)(L8V) = 1.164 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
-=> adopt (J-H)(L8V) = 1.16 [updated 8/6/2020]
+(J-H)(L8V) =   0.940 ; 2MASS_J05510608-1239130_ plx=34.5mas L8
+(J-H)(L8V) =    0.958 ; 2MASS_J02303865-0225546_ plx=35.1mas L8:pec
+(J-H)(L8V) =    1.017 ; 2MASS_J23343249+1313153_ plx=23.3mas L8:
+(J-H)(L8V) =  1.041 ; 2MASS_J23254530+4251488_ plx=69.228mas L8
+(J-H)(L8V) =    1.052 ; 2MASS_J08070024+4130305_ plx=51.1mas L8pec
+(J-H)(L8V) =  1.072 ; 2MASS_J09083803+5032088_ plx=95.9290mas L8
+(J-H)(L8V) =  1.091 ; 2MASS_J08592547-1949268_ plx=65.4mas L8
+(J-H)(L8V) =   1.093 ; 2MASS_J03105986+1648155_ plx=36.9mas L8V
+(J-H)(L8V) = 1.11 (+-0.12 rms) ; Faherty16
+(J-H)(L8V) = 1.115 ; median for 6 nearest L8Vs in SIMBAD
+(J-H)(L8V) =   1.128 ; 2MASS_J15232263+3014562_ plx=53.70mas L8V
+(J-H)(L8V) =  1.139 ; 2MASS_J14053729+8350248_ plx=103.4474mas L8
+(J-H)(L8V) =   1.164 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
+(J-H)(L8V) =    1.181 ; 2MASS_J08264116-1640382_ plx=54.0mas L8:
+(J-H)(L8V) =   1.182 ; 2MASS_J00325937+1410371_ plx=30.14mas L8V
+(J-H)(L8V) =   1.207 ; 2MASS_J14002320+4338222_ plx=40.8mas L8
+(J-H)(L8V) =  1.255 ; pri. standard 2MASS_J16322911+1904407_ plx=65.60mas L8V
+(J-H)(L8V) =  1.312 ; 2MASS_J01075242+0041563_ plx=64.13mas L8
+=> adopt (J-H)(L8V) = 1.11 [updated 5/26/2024]
 
-(H-Ks)(L8V)= 0.625 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
-=> adopt (H-Ks)(L8V) = 0.625 [updated 8/6/2020]
+[EEM 5/26/2024: the nearest 6 L8s in SIMBAD lack any flags on their
+types - i.e.  no ":"/"pec"/etc. Their JHKs colors are taken as
+representative for the type, and they have median J-H=1.115. I adopt
+the nearly identical Faherty16 value (1.11)]
 
+(H-Ks)(L8V) =   0.429 ; 2MASS_J08070024+4130305_ plx=51.1mas L8pec
+(H-Ks)(L8V) =   0.494 ; 2MASS_J08264116-1640382_ plx=54.0mas L8:
+(H-Ks)(L8V) =  0.532 ; 2MASS_J09083803+5032088_ plx=95.9290mas L8
+(H-Ks)(L8V) =   0.580 ; 2MASS_J15232263+3014562_ plx=53.70mas L8V
+(H-Ks)(L8V) =   0.607 ; 2MASS_J14002320+4338222_ plx=40.8mas L8
+(H-Ks)(L8V) =  0.609 ; 2MASS_J16322911+1904407_ plx=65.60mas L8V
+(H-Ks)(L8V) =   0.620 ; 2MASS_J03105986+1648155_ plx=36.9mas L8V
+(H-Ks)(L8V) =  0.625 (+-0.09 rms) ; trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L8V) =  0.643 ; 2MASS_J14053729+8350248_ plx=103.4474mas L8
+(H-Ks)(L8V) = 0.67 (+-0.09 rms) ; Faherty16 
+(H-Ks)(L8V) =  0.685 ; 2MASS_J08592547-1949268_ plx=65.4mas L8
+(H-Ks)(L8V) =  0.688 ; 2MASS_J23254530+4251488_ plx=69.228mas L8
+(H-Ks)(L8V) =   0.702 ; 2MASS_J00325937+1410371_ plx=30.14mas L8V
+(H-Ks)(L8V) =   0.796 ; 2MASS_J02303865-0225546_ plx=35.1mas L8:pec
+(H-Ks)(L8V) =  0.803 ; 2MASS_J01075242+0041563_ plx=64.13mas L8
+(H-Ks)(L8V) =   0.917 ; 2MASS_J23343249+1313153_ plx=23.3mas L8:
+(H-Ks)(L8V) =   0.980 ; 2MASS_J05510608-1239130_ plx=34.5mas L8
+=> adopt (H-Ks)(L8V) = 0.63 [updated 8/6/2020]
+
+(J-Ks)(L8V) =  1.481 ; 2MASS_J08070024+4130305_ plx=51.1mas L8pec
+(J-Ks)(L8V) =  1.604 ; 2MASS_J09083803+5032088_ plx=95.9290mas L8
+(J-Ks)(L8V) =  1.675 ; 2MASS_J08264116-1640382_ plx=54.0mas L8:
 (J-Ks)(L8V) = 1.705 ; Reyle18 polynomial
+(J-Ks)(L8V) =  1.708 ; 2MASS_J15232263+3014562_ plx=53.70mas L8V
+(J-Ks)(L8V) =  1.713 ; 2MASS_J03105986+1648155_ plx=36.9mas L8V
+(J-Ks)(L8V) =  1.729 ; 2MASS_J23254530+4251488_ plx=69.228mas L8
+(J-Ks)(L8V) =  1.754 ; 2MASS_J02303865-0225546_ plx=35.1mas L8:pec
 (J-Ks)(L8V) = 1.77  ; Faherty09
+(J-Ks)(L8V) =  1.776 ; 2MASS_J08592547-1949268_ plx=65.4mas L8
+(J-Ks)(L8V) = 1.78 (+-0.16 rms) ; Faherty16 
+(J-Ks)(L8V) =  1.782 ; 2MASS_J14053729+8350248_ plx=103.4474mas L8
+(J-Ks)(L8V) = 1.79 ; J-H=1.16, H-Ks=0.63 
+(J-Ks)(L8V) =  1.814 ; 2MASS_J14002320+4338222_ plx=40.8mas L8
+(J-Ks)(L8V) =  1.864 ; 2MASS_J16322911+1904407_ plx=65.60mas L8V
+(J-Ks)(L8V) =  1.884 ; 2MASS_J00325937+1410371_ plx=30.14mas L8V
+(J-Ks)(L8V) =  1.920 ; 2MASS_J05510608-1239130_ plx=34.5mas L8
+(J-Ks)(L8V) =  1.934 ; 2MASS_J23343249+1313153_ plx=23.3mas L8:
+(J-Ks)(L8V) =  2.115 ; 2MASS_J01075242+0041563_ plx=64.13mas L8
+=> adopt (J-Ks)(L8V) = 1.79 [updated 5/18/2024; J-H=1.16, H-Ks=0.63]
 
 (Ks-W1)(L8V) = 0.847 ; Dupuy12 median N=8 d<50pc
 (Ks-W1)(L8V) = 0.843 ; Dupuy12 trend
 => adopt (Ks-W1)(L8V) = 0.845 [updated 12/28/2019]
 
+(J-W1)(L8V) = 2.56 (+-0.20 rms) ; Faherty16
+
+(J-W2)(L8V) = 3.13 (+-0.24 rms) ; Faherty16 
+
+M_J(L8V) =  13.431 ; 2MASS_J23343249+1313153_ plx=23.3mas L8:
+M_J(L8V) =  13.860 ; 2MASS_J03105986+1648155_ plx=36.9mas L8V
 M_J(L8V) = 14.094 ; Reyle18 polynomial
+M_J(L8V) =  14.225 ; 2MASS_J00325937+1410371_ plx=30.14mas L8V
+M_J(L8V) =  14.319 ; 2MASS_J05510608-1239130_ plx=34.5mas L8
+M_J(L8V) =  14.354 ; 2MASS_J14002320+4338222_ plx=40.8mas L8
+M_J(L8V) =  14.377 ; 2MASS_J08070024+4130305_ plx=51.1mas L8pec
+M_J(L8V) =  14.408 ; 2MASS_J02303865-0225546_ plx=35.1mas L8:pec
+M_J(L8V) =  14.447 ; 2MASS_J08264116-1640382_ plx=54.0mas L8:
+M_J(L8V) =  14.458 ; 2MASS_J09083803+5032088_ plx=95.9290mas L8
+M_J(L8V) =  14.604 ; 2MASS_J08592547-1949268_ plx=65.4mas L8
 M_J(L8V) = 14.649 ; EEM fit to L/T dwarfs d<25pc
-M_J(L8V) = 14.952 ; pri. stan. 2MASS J16322911+1904407
+M_J(L8V) =  14.694 ; 2MASS_J23254530+4251488_ plx=69.228mas L8
+M_J(L8V) = 14.703 ; 2MASS_J14053729+8350248_ plx=103.4474mas L8
+M_J(L8V) =  14.705 ; 2MASS_J15232263+3014562_ plx=53.70mas L8V
+M_J(L8V) =  14.859 ; 2MASS_J01075242+0041563_ plx=64.13mas L8
+M_J(L8V) = 14.951 ; pri. stan. 2MASS_J16322911+1904407_ plx=65.60mas L8V
 => adopt M_J(L8V) = 14.65 [updated 12/30/2020]
 
 M_H(L8V) = 13.239 ; Reyle18 polynomial
@@ -130,16 +215,34 @@ Rad(L8V) = 0.08751 ; logL=-4.552, Teff=1420K
 
 # Primary Standard
 
-2MASS J16322911+1904407 = 2MASSW J1632291+190441 
-  *L8: Kirkipatrick99(L8V),Hawley02,Kirkpatrick05(opt.anchor),Reid08(pri.stan.),Kirkpatrick09(pri.opt.stan.),Kirkpatrick10(pri.near-IR.stan.)
+2MASS J16322911+1904407 = 2MASSW J1632291+190441
+   L7.5: Geballe02,Dupuy12(
+  *L8: Kirkipatrick99(L8V),Hawley02,Kirkpatrick05(opt.anchor),Burgasser06(NIR),Reid08(pri.stan.),Kirkpatrick09(pri.opt.stan.),Kirkpatrick10(pri.near-IR.stan.), Gagne15, 
 
    This was the coolest/reddest L dwarf (not showing methane) in
    Kirkpatrick99 paper defining the L sequence, and Kirkpatrick99 sets
    it as the L8 optical standard, and Kirkpatrick10 sets it as the L8
    near-IR standard.  Unfortunately it was too faint to be detected in
-   any of the Gaia catalogs. plx=65.60+-2.10mas(Dahn02). J=15.867+-0.070,
-   H=14.612+-0.038, Ks=14.003+-0.047. M_J=14.952+-0.099,
-   M_H=13.697+-0.079, M_Ks=13.088+-0.084. Does not appear in Gaia DR3. 
+   any of the Gaia catalogs incuding DR3, despite its proximity (d~15pc). 
+   Proper motion pmRA, pmDec = 293, -54 mas/yr (Faherty09). 
+   Rc=22.42(Liebert06),
+   Ic=19.98(Liebert06), 
+   J=15.867+-0.070,
+   H=14.612+-0.038, Ks=14.003+-0.047,
+   u=24.596+-1.399(SDSS/DR7),
+   g=25.922+-0.517(SDSS/DR7),
+   r=23.856+-0.607(SDSS/DR7),
+   i=21.694+-0.164(SDSS/DR7),
+   z=18.579+-0.036(SDSS/DR7). 
+   plx=65.60+-2.10(Dahn02/Faherty12) =>
+
+   M_J=14.952+-0.099,
+   M_H=13.697+-0.079, M_Ks=13.088+-0.084.
+   Luminosity: 
+   logL=-4.65(Berger06).
+   Teff: 1335K(Berger06), 1500+-100K(Gagne15). 
+
+
 
 # Other Objects
 
@@ -169,6 +272,15 @@ Rad(L8V) = 0.08751 ; logL=-4.552, Teff=1420K
   J=15.824+-0.058(2MASS), H=14.512+-0.039(2MASS),
   Ks=13.709+-0.044(2MASS).  Teff=1385+-89K(Kirkpatrick21).
   Fbol=4.86e-12mW/m2(Schmidt07).
+
+2MASS J1523+30
+  L8: Geballe02
+
+SDSS J0857+57
+  L8: Geballe02
+
+SDSS J0032+14
+  L8: Geballe02
       
 # Comments on end of L sequence, defining L8V
 
