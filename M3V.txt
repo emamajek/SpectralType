@@ -68,7 +68,7 @@ Henry02 standards:              GJ 22B - M3.0V (cites McCarthy91)
 				GJ 752A - M3.0V (cites Kirkpatrick91)
 				GJ 860A - M3.0V (cites Henry94)
 Kirkpatrick(in GrayCorbally09): GJ 752A - M3V
-Kirkpatrick10                   GJ 752A - M3V (optical,near-IR)
+Kirkpatrick10 standard:         GJ 752A - M3V (pri. stan. (0.7-2.5um/SpeX))
 Pecaut13 standard:              GJ 752A - M3-V
 Kirkpatrick16 standard:  	GJ 436 (=Ross 905) - M3V
 
@@ -422,9 +422,12 @@ note that the primary standard and two of the three secondary standards are on t
 (g-G)(M3V) = 1.859 (+-0.008 sem, +-0.109 stdev) ; SIMBAD M3 d<25pc (N=162)
 => adopt (g-G)(M3V) = 1.86 [updated 6/29/2023]
 
+(u-g)(M3V) = 2.00 (+-0.35 rms) ; Bochanski07 M3V (active; N=6/192)
+(u-g)(M3V) = 2.18 (+-0.85 rms) ; Bochanski07 M3V (inactive+active; N=192)
+(u-g)(M3V) = 2.18 (+-0.85 rms) ; Bochanski07 M3V (inactive; N=186/192)
 (u-g)(M3V) =  2.199 ; PM_J01439-0654_ plx=66.48mas M3
 (u-g)(M3V) = 2.67 ; Covey07
-=> adopt (u-g)(M3V) = 2.67 [updated 4/20/2024]
+=> adopt (u-g)(M3V) = 2.18 [updated 6/15/2024]
 
 (g-r)(M3V) =   0.939 ; GJ_388_ plx=201.41mas M3
 (g-r)(M3V) =  1.141 ; GJ_358_ plx=104.10mas M3V
@@ -445,7 +448,12 @@ note that the primary standard and two of the three secondary standards are on t
 (g-r)(M3V) =  1.453 ; GJ_1065_ plx=100.73mas M3V
 (g-r)(M3V) = 1.46  ; Covey07
 (g-r)(M3V) = 1.505 ; ter. stan. GJ_687_ plx=219.79mas M3.0V
-=> adopt (g-r)(M3V) = 1.345 [updated 4/18/2024]
+(g-r)(M3V) = 1.59 (+-0.23 rms) ; Bochanski07 M3V (inactive; N=186/192)
+(g-r)(M3V) = 1.60 (+-0.22 rms) ; Bochanski07 M3V (inactive+active; N=192)
+(g-r)(M3V) = 1.69 (+-0.18 rms) ; Bochanski07 M3V (active; N=6/192)
+=> adopt (g-r)(M3V) = 1.35 [updated 6/15/2024]
+[EEM 6/15/2024: odd that the Bochanski07 mean colors for the SDSS
+sample are ~0.25 mag redder than for local M3Vs]
 
 (r-i)(M3V) =  0.433 ; GJ_436_ plx=102.30mas M3V
 (r-i)(M3V) =  1.128 ; GJ_623_ plx=127.48mas M3.0V
@@ -456,10 +464,13 @@ note that the primary standard and two of the three secondary standards are on t
 (r-i)(M3V) = 1.212 (+-0.05 rms) ; West05 fit for (V-Ic)=2.42
 (r-i)(M3V) =  1.226 ; GJ_48_ plx=121.46mas M3.0V
 (r-i)(M3V) = 1.276 ; smoothed trend SpT vs r-i for SIMBAD d<50pc M0V-M8.5V (4/2024; see M0V.txt)
+(r-i)(M3V) = 1.28  (+-0.19 rms) ; Bochanski07 M3V (inactive; N=186/192)
+(r-i)(M3V) = 1.28  (+-0.19 rms) ; Bochanski07 M3V (inactive+active; N=192)
 (r-i)(M3V) =  1.285 ; GJ_661_ plx=167.29mas M3V
 (r-i)(M3V) = 1.288 ; ter. stan. GJ_687_ plx=219.79mas M3.0V
 (r-i)(M3V) = 1.29  (+-0.11 rms) ; Cifuentes20
 (r-i)(M3V) = 1.29  (+-0.32 rms) ; Hawley02 ("r*-i*")
+(r-i)(M3V) = 1.30  (+-0.15 rms) ; Bochanski07 M3V (active; N=6/192)
 (r-i)(M3V) = 1.301 ; sec. stan. GJ_251_ plx=179.06mas M3V
 (r-i)(M3V) = 1.307 ; ter. stan. GJ_109_ plx=130.20mas M3
 (r-i)(M3V) =  1.323 ; GJ_3325_ plx=108.27mas M3V
@@ -471,7 +482,7 @@ note that the primary standard and two of the three secondary standards are on t
 (r-i)(M3V) =  1.429 ; GJ_388_ plx=201.41mas M3
 (r-i)(M3V) =  1.439 ; GJ_628_ plx=232.14mas M3V
 (r-i)(M3V) =  1.482 ; GJ_1065_ plx=100.73mas M3V
-=> adopt (r-i)(M3V) = 1.29 [updated 7/18/2024]
+=> adopt (r-i)(M3V) = 1.29 [updated 6/15/2024]
 [EEM 4/12/2024: median r-i for M3Vs appears to be well-constrained
 among standards and nearby M3Vs, but significantly redder than some
 SDSS samples (West11,Kowalski09). Smoothed polynomial to SpT vs r-i for d<50pc M0V-M8.5V stars
@@ -481,83 +492,89 @@ gives 1.276, a tad bluer than the standards.]
 (g-V)(M3V) = 0.847 ; Just08/Chonis08 B-V=>g-V for B-V=1.53
 => adopt (g-V)(M3V) = 0.845 [updated 9/1/2023]
 
-(i-z)(M3V) =   -3.405 ; PM_J14175+0233_ plx=33.213mas M3.0V
-(i-z)(M3V) =   -0.822 ; G_14-34_ plx=42.3742mas M3.0V
-(i-z)(M3V) =   -0.81 ; G_62-56_ plx=26.8391mas M3
-(i-z)(M3V) =   0.065 ; LP_705-28_ plx=30.8408mas M3.0V
-(i-z)(M3V) =   0.075 ; 2MASS_J11305727+1613055_ plx=15.0262mas M3V
-(i-z)(M3V) =   0.093 ; G_240-44_ plx=36.2286mas M3.0V
-(i-z)(M3V) =  0.227 ; RX_J1654.7+4232_ plx=20.4745mas M3
-(i-z)(M3V) = 0.261 ; LP_642-72_ plx=42.8754mas M3e
-(i-z)(M3V) = 0.391 ; PM_J01439-0654_ plx=66.475mas M3
-(i-z)(M3V) =  0.494 ; PM_J01562+0006_ plx=33.3775mas M3.0V
-(i-z)(M3V) =  0.520 ; LSPM_J1724+6147_ plx=34.2781mas M3.0V
-(i-z)(M3V) = 0.61 (+-0.08; rms) ; West11
-(i-z)(M3V) = 0.62   ; Kowalski09 
-(i-z)(M3V) =  0.623 ; 2MASS_J12515221+0005284_ plx=18.4028mas M3
-(i-z)(M3V) =  0.641 ; 2MASS_J15315696+1719143_ plx=13.5678mas M3V
-(i-z)(M3V) = 0.65 (+-0.08; rms) ; West08
-(i-z)(M3V) =  0.654 ; 2MASS_J00201093-0919320_ plx=14.2209mas M3V
-(i-z)(M3V) =  0.655 ; FBS_0124-098_ plx=18.478mas M3
-(i-z)(M3V) =  0.673 ; SCR_J0022-1022_ plx=17.5232mas M3V
-(i-z)(M3V) = 0.70 (+-0.31; rms) ; West05
-(i-z)(M3V) =  0.700 ; SDSS_J140120.19-031802.4_ plx=14.6849mas M3
-(i-z)(M3V) = 0.73 (+-0.24; rms) ; Hawley02 ("i*-z*")
-(i-z)(M3V) =  0.873 ; LP_700-3_ plx=16.6150mas M3
-(i-z)(M3V) =  0.881 ; RX_J1419.0+6451_ plx=22.2317mas M3
-(i-z)(M3V) =  0.969 ; PM_J17273+2709_ plx=18.0067mas M3e
-(i-z)(M3V) = 0.995 ; UPM_J1659+3822_ plx=44.1238mas M3
-(i-z)(M3V) =   1.714 ; 2XMM_J012539.7+315511_ plx=21.675mas M3
-(i-z)(M3V) =   2.299 ; PM_J09034-0023_ plx=28.8426mas M3e
-(i-z)(M3V) =   3.148 ; MGC_50625_ plx=22.8012mas M3
-=> adopt (i-z)(M3V) = 0.65 [updated 4/14/2024; i-J=2.10, z-J=1.45]
+(i-z)(M3V) =    -3.405 ; PM_J14175+0233_ plx=33.213mas M3.0V
+(i-z)(M3V) =    -0.822 ; G_14-34_ plx=42.3742mas M3.0V
+(i-z)(M3V) =    -0.81 ; G_62-56_ plx=26.8391mas M3
+(i-z)(M3V) =    0.065 ; LP_705-28_ plx=30.8408mas M3.0V
+(i-z)(M3V) =    0.075 ; 2MASS_J11305727+1613055_ plx=15.0262mas M3V
+(i-z)(M3V) =    0.093 ; G_240-44_ plx=36.2286mas M3.0V
+(i-z)(M3V) =   0.227 ; RX_J1654.7+4232_ plx=20.4745mas M3
+(i-z)(M3V) =  0.261 ; LP_642-72_ plx=42.8754mas M3e
+(i-z)(M3V) =  0.391 ; PM_J01439-0654_ plx=66.475mas M3
+(i-z)(M3V) =   0.494 ; PM_J01562+0006_ plx=33.3775mas M3.0V
+(i-z)(M3V) =   0.520 ; LSPM_J1724+6147_ plx=34.2781mas M3.0V
+(i-z)(M3V) =  0.61 (+-0.08; rms) ; West11
+(i-z)(M3V) =  0.62   ; Kowalski09 
+(i-z)(M3V) =   0.623 ; 2MASS_J12515221+0005284_ plx=18.4028mas M3
+(i-z)(M3V) =   0.641 ; 2MASS_J15315696+1719143_ plx=13.5678mas M3V
+(i-z)(M3V) =  0.65 (+-0.08; rms) ; West08
+(i-z)(M3V) =   0.654 ; 2MASS_J00201093-0919320_ plx=14.2209mas M3V
+(i-z)(M3V) =   0.655 ; FBS_0124-098_ plx=18.478mas M3
+(i-z)(M3V) = 0.66 ; i-J=2.11, z-J=1.45 
+(i-z)(M3V) =   0.673 ; SCR_J0022-1022_ plx=17.5232mas M3V
+(i-z)(M3V) =  0.70 (+-0.31; rms) ; West05
+(i-z)(M3V) =  0.70 (+-0.12; rms) ; Bochanski07 M3V (inactive; N=186/192)
+(i-z)(M3V) =  0.70 (+-0.12; rms) ; Bochanski07 M3V (inactive+active; N=192)
+(i-z)(M3V) =   0.700 ; SDSS_J140120.19-031802.4_ plx=14.6849mas M3
+(i-z)(M3V) =  0.73 (+-0.24; rms) ; Hawley02 ("i*-z*")
+(i-z)(M3V) =  0.76 (+-0.17; rms) ; Bochanski07 M3V (active; N=6/192)
+(i-z)(M3V) =   0.873 ; LP_700-3_ plx=16.6150mas M3
+(i-z)(M3V) =   0.881 ; RX_J1419.0+6451_ plx=22.2317mas M3
+(i-z)(M3V) =   0.969 ; PM_J17273+2709_ plx=18.0067mas M3e
+(i-z)(M3V) =  0.995 ; UPM_J1659+3822_ plx=44.1238mas M3
+(i-z)(M3V) =    1.714 ; 2XMM_J012539.7+315511_ plx=21.675mas M3
+(i-z)(M3V) =    2.299 ; PM_J09034-0023_ plx=28.8426mas M3e
+(i-z)(M3V) =    3.148 ; MGC_50625_ plx=22.8012mas M3
+=> adopt (i-z)(M3V) = 0.66 [updated 6/15/2024; i-J=2.11, z-J=1.45]
 
-(i-J)(M3V) =  1.935 ; GJ_479_ plx=105.35mas M3V(e)
-(i-J)(M3V) = 1.938 ; ter. stan. GJ_109_ plx=130.20mas M3
-(i-J)(M3V) =  1.959 ; GJ_623_ plx=127.48mas M3.0V
-(i-J)(M3V) =  1.985 ; GJ_581_ plx=158.72mas M3V
-(i-J)(M3V) =  1.986 ; GJ_3325_ plx=108.27mas M3V
-(i-J)(M3V) = 2.042 ; sec. stan. GJ_251_ plx=179.06mas M3V
-(i-J)(M3V) =  2.048 ; L_32-8_ plx=113.13mas M3V
-(i-J)(M3V) = 2.08 (+-0.13; rms) ; Hawley02 ("i*-J")
-(i-J)(M3V) =  2.081 ; GJ_48_ plx=121.46mas M3.0V
-(i-J)(M3V) =  2.101 ; GJ_358_ plx=104.10mas M3V
-(i-J)(M3V) =  2.132 ; GJ_1065_ plx=100.73mas M3V
-(i-J)(M3V) = 2.14 (+-0.15; rms) ; West05 
-(i-J)(M3V) =  2.188 ; GJ_628_ plx=232.14mas M3V
-(i-J)(M3V) =  2.307 ; GJ_388_ plx=201.41mas M3
-(i-J)(M3V) = 2.331 ; ter. stan. GJ_687_ plx=219.79mas M3.0V
-(i-J)(M3V) =  2.404 ; GJ_661_ plx=167.29mas M3V
-(i-J)(M3V) = 2.768 ; sec. stan. GJ_436_ plx=102.30mas M3V
-=> adopt (i-J)(M3V) = 2.10 [updated 4/12/2024; i-z=0.65, z-J=1.45]
+(i-J)(M3V) =   1.935 ; GJ_479_ plx=105.35mas M3V(e)
+(i-J)(M3V) =  1.938 ; ter. stan. GJ_109_ plx=130.20mas M3
+(i-J)(M3V) =   1.959 ; GJ_623_ plx=127.48mas M3.0V
+(i-J)(M3V) =   1.985 ; GJ_581_ plx=158.72mas M3V
+(i-J)(M3V) =   1.986 ; GJ_3325_ plx=108.27mas M3V
+(i-J)(M3V) =  2.042 ; sec. stan. GJ_251_ plx=179.06mas M3V
+(i-J)(M3V) =   2.048 ; L_32-8_ plx=113.13mas M3V
+(i-J)(M3V) =  2.08 (+-0.13; rms) ; Hawley02 ("i*-J")
+(i-J)(M3V) =   2.081 ; GJ_48_ plx=121.46mas M3.0V
+(i-J)(M3V) =   2.101 ; GJ_358_ plx=104.10mas M3V
+(i-J)(M3V) = 2.11 ; i-z=0.66, z-J=1.45 
+(i-J)(M3V) =   2.132 ; GJ_1065_ plx=100.73mas M3V
+(i-J)(M3V) =  2.14 (+-0.15; rms) ; West05 
+(i-J)(M3V) =   2.188 ; GJ_628_ plx=232.14mas M3V
+(i-J)(M3V) =   2.307 ; GJ_388_ plx=201.41mas M3
+(i-J)(M3V) =  2.331 ; ter. stan. GJ_687_ plx=219.79mas M3.0V
+(i-J)(M3V) =   2.404 ; GJ_661_ plx=167.29mas M3V
+(i-J)(M3V) =  2.768 ; sec. stan. GJ_436_ plx=102.30mas M3V
+=> adopt (i-J)(M3V) = 2.11 [updated 6/15/2024; i-z=0.66, z-J=1.45]
 
-(z-J)(M3V) = 1.30  (+-0.24; rms) ; West11
-(z-J)(M3V) =  1.328 ; SDSS_J140120.19-031802.4_ plx=14.6849mas M3
-(z-J)(M3V) =  1.364 ; SCR_J0022-1022_ plx=17.5232mas M3V
-(z-J)(M3V) = 1.37  (+-0.17; rms) ; West08
-(z-J)(M3V) = 1.38  (+-0.12; rms) ; Hawley02 ("z*-J")
-(z-J)(M3V) =  1.380 ; RX_J1419.0+6451_ plx=22.2317mas M3
-(z-J)(M3V) =  1.399 ; 2MASS_J15315696+1719143_ plx=13.5678mas M3V
-(z-J)(M3V) =  1.418 ; MGC_50625_ plx=22.8012mas M3
-(z-J)(M3V) =  1.431 ; 2MASS_J00201093-0919320_ plx=14.2209mas M3V
-(z-J)(M3V) =  1.438 ; LP_700-3_ plx=16.6150mas M3
-(z-J)(M3V) = 1.456 (+-0.028; rms) ; poly fit to d<100pc GCNS for G-Ks=3.50
-(z-J)(M3V) = 1.46  (+-0.15; rms) ; West05 
-(z-J)(M3V) =  1.464 ; 2XMM_J012539.7+315511_ plx=21.675mas M3
-(z-J)(M3V) =  1.475 ; FBS_0124-098_ plx=18.478mas M3
-(z-J)(M3V) =  1.550 ; UPM_J1659+3822_ plx=44.1238mas M3
-(z-J)(M3V) =  1.654 ; PM_J01439-0654_ plx=66.475mas M3
-(z-J)(M3V) =  1.662 ; PM_J01562+0006_ plx=33.3775mas M3.0V
-(z-J)(M3V) =  1.745 ; LSPM_J1724+6147_ plx=34.2781mas M3.0V
-(z-J)(M3V) =  1.799 ; RX_J1654.7+4232_ plx=20.4745mas M3
-(z-J)(M3V) =  1.858 ; LP_642-72_ plx=42.8754mas M3e
-(z-J)(M3V) =  2.020 ; G_240-44_ plx=36.2286mas M3.0V
-(z-J)(M3V) =  2.071 ; 2MASS_J12515221+0005284_ plx=18.4028mas M3
-(z-J)(M3V) =  2.122 ; 2MASS_J11305727+1613055_ plx=15.0262mas M3V
-(z-J)(M3V) =  2.154 ; LP_705-28_ plx=30.8408mas M3.0V
-(z-J)(M3V) =  2.904 ; G_62-56_ plx=26.8391mas M3
-(z-J)(M3V) =  2.917 ; G_14-34_ plx=42.3742mas M3.0V
-=> adopt (z-J)(M3V) = 1.45 [updated 4/12/2024; i-z=0.65, i-J=2.10]
+(z-J)(M3V) =  1.30  (+-0.24; rms) ; West11
+(z-J)(M3V) =   1.328 ; SDSS_J140120.19-031802.4_ plx=14.6849mas M3
+(z-J)(M3V) =   1.364 ; SCR_J0022-1022_ plx=17.5232mas M3V
+(z-J)(M3V) =  1.37  (+-0.17; rms) ; West08
+(z-J)(M3V) =  1.38  (+-0.12; rms) ; Hawley02 ("z*-J")
+(z-J)(M3V) =   1.380 ; RX_J1419.0+6451_ plx=22.2317mas M3
+(z-J)(M3V) =   1.399 ; 2MASS_J15315696+1719143_ plx=13.5678mas M3V
+(z-J)(M3V) =   1.418 ; MGC_50625_ plx=22.8012mas M3
+(z-J)(M3V) =   1.431 ; 2MASS_J00201093-0919320_ plx=14.2209mas M3V
+(z-J)(M3V) =   1.438 ; LP_700-3_ plx=16.6150mas M3
+(z-J)(M3V) = 1.45 ; i-z=0.66, i-J=2.11 
+(z-J)(M3V) =  1.456 (+-0.028; rms) ; poly fit to d<100pc GCNS for G-Ks=3.50
+(z-J)(M3V) =  1.46  (+-0.15; rms) ; West05 
+(z-J)(M3V) =   1.464 ; 2XMM_J012539.7+315511_ plx=21.675mas M3
+(z-J)(M3V) =   1.475 ; FBS_0124-098_ plx=18.478mas M3
+(z-J)(M3V) =   1.550 ; UPM_J1659+3822_ plx=44.1238mas M3
+(z-J)(M3V) =   1.654 ; PM_J01439-0654_ plx=66.475mas M3
+(z-J)(M3V) =   1.662 ; PM_J01562+0006_ plx=33.3775mas M3.0V
+(z-J)(M3V) =   1.745 ; LSPM_J1724+6147_ plx=34.2781mas M3.0V
+(z-J)(M3V) =   1.799 ; RX_J1654.7+4232_ plx=20.4745mas M3
+(z-J)(M3V) =   1.858 ; LP_642-72_ plx=42.8754mas M3e
+(z-J)(M3V) =   2.020 ; G_240-44_ plx=36.2286mas M3.0V
+(z-J)(M3V) =   2.071 ; 2MASS_J12515221+0005284_ plx=18.4028mas M3
+(z-J)(M3V) =   2.122 ; 2MASS_J11305727+1613055_ plx=15.0262mas M3V
+(z-J)(M3V) =   2.154 ; LP_705-28_ plx=30.8408mas M3.0V
+(z-J)(M3V) =    2.904 ; G_62-56_ plx=26.8391mas M3
+(z-J)(M3V) =    2.917 ; G_14-34_ plx=42.3742mas M3.0V
+=> adopt (z-J)(M3V) = 1.45 [updated 6/15/2024; i-z=0.66, i-J=2.11]
 
 Mv(M3V) =    10.23 ; deprecated stan. GJ 569A 
 Mv(M3V) =  10.26 ; pri. stan. GJ 752A
@@ -587,6 +604,9 @@ Mv(M3V) =    11.94 ; deprecated stan. GJ 628
 => adopt Mv(M3V)   = 11.15 mag [updated 11/15/2021] (M_Ks=6.55, V-Ks=4.60)
 => adopt M_G(M3V)  = 10.05 mag [updated 11/15/2021] (Mv=11.15, G-V=-1.10)
 => adopt M_Ks(M3V) =  6.55 mag [updated 11/15/2021] (Mv=11.15, V-Ks=4.60)
+=> adopt M_J(M3V)  =  7.38 mag [updated 6/15/2024]  (M_Ks=6.55, J-Ks=0.83)
+=> adopt M_i(M3V)  =  9.49 mag [updated 6/15/2024]  (M_J=7.38, i-J=2.11)
+=> adopt M_r(M3V)  = 10.78 mag [updated 6/15/2024]  (M_i=9.49, r-i=1.29)
 
 M_Ks(M3V) =  5.81  ; pri. standard GJ 752A
 M_Ks(M3V) =   5.85  ; deprecated standard GJ 569A

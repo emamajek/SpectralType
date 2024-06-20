@@ -48,7 +48,7 @@ GrayAtlas standard:      GJ 411 (HD 95735)   - M2V
 GrayNstars standard:     HD 1326             - M2V
 	   	         GJ 526              - M2V
  	   	         GJ 382              - M2+V
-Kirkpatrick10            GJ 91               - M2V 
+Kirkpatrick10 standard:  GJ 91               - M2V (0.7-2.5um/SpeX)
 Pecaut13 standard:       GJ 411              - M2+V
 Alonso-Floriano15 stans: GJ 2066 (=G 1130-20) - M2V ("prototype")
 		  	 GJ 9113A (=Ross 370A) - M2V ("reference")
@@ -360,13 +360,16 @@ Joy74 M2V stars appear to be approximately M1+V (~M1.2+-0.7 subtypes) on the Kir
 (g-G)(M2V) = 1.706 (+-0.014 sem, +-0.133 stdev) ; SIMBAD M2 d<25pc (N=90)
 => adopt (g-G)(M2V) = 1.71 [updated 6/29/2023]
 
-(u-g)(M2V) =  -0.312 ; LP_649-66_ plx=59.97mas M2
-(u-g)(M2V) =   0.154 ; GJ_3968_ plx=46.57mas M2V
+(u-g)(M2V) =   -0.312 ; LP_649-66_ plx=59.97mas M2
+(u-g)(M2V) =    0.154 ; GJ_3968_ plx=46.57mas M2V
+(u-g)(M2V) =   2.29 (+-0.80 rms) ; Bochanski07 M2V (inactive; N=66/67)
+(u-g)(M2V) =   2.30 (+-0.80 rms) ; Bochanski07 M2V (inactive+active; N=67)
 (u-g)(M2V) =   2.47 ; Fukugita11
-(u-g)(M2V) = 2.59 ; Covey07 
-(u-g)(M2V) =   3.007 ; GJ_3838_ plx=49.53mas M2V
-(u-g)(M2V) =   4.053 ; GJ_507.1_ plx=59.31mas M2V
-=> adopt (u-g)(M2V) = 2.6 [updated 4/20/2024; huge scatter of >1 mag]
+(u-g)(M2V) =   2.59 ; Covey07
+(u-g)(M2V) =    2.69 (+-0.03) ; Bochanski07 M2V (active; N=1/67)
+(u-g)(M2V) =    3.007 ; GJ_3838_ plx=49.53mas M2V
+(u-g)(M2V) =    4.053 ; GJ_507.1_ plx=59.31mas M2V
+=> adopt (u-g)(M2V) = 2.4: [updated 6/15/2024]
 
 (g-r)(M2V) = 1.180 ; ter. stan. GJ_393_ plx=142.10mas M2
 (g-r)(M2V) = 1.240 ; exemplar GJ_2066_ plx=111.87mas M2.0V
@@ -387,8 +390,12 @@ Joy74 M2V stars appear to be approximately M1+V (~M1.2+-0.7 subtypes) on the Kir
 (g-r)(M2V) = 1.48 ; Fukugita11 
 (g-r)(M2V) =  1.500 ; GJ_694_ plx=104.91mas M2V
 (g-r)(M2V) =  1.504 ; GJ_70_ plx=88.31mas M2V
-=> adopt (g-r)(M2V) = 1.340 [updated 4/18/2024]
-[EEM 4/18/2024: using smooth trend for SIMBAD g-r data for d<50pc M dwarfs]
+(g-r)(M2V) = 1.60 (+-0.35 rms) ; Bochanski07 M2V (inactive+active; N=67)
+(g-r)(M2V) = 1.60 (+-0.36 rms) ; Bochanski07 M2V (inactive; N=66/67)
+(g-r)(M2V) = 1.90 (+-0.03) ; Bochanski07 M2V (active; N=1/67)
+=> adopt (g-r)(M2V) = 1.340 [updated 6/15/2024]
+[EEM 4/18/2024: using smooth trend for SIMBAD g-r data for d<50pc M dwarfs;
+the g-r quoted by Bochanski07 appears to be ~0.2-0.3 mag redder than the nearby M2Vs]
 
 (r-i)(M2V) = 0.915 ; Jordi06 Pop I calibration for (R-Ic)=1.15
 (r-i)(M2V) = 0.92  ; Fukugita11
@@ -397,9 +404,12 @@ Joy74 M2V stars appear to be approximately M1+V (~M1.2+-0.7 subtypes) on the Kir
 (r-i)(M2V) = 0.96  (+-0.10 rms) ; West11
 (r-i)(M2V) = 1.00  (+-0.13 rms) ; West08
 (r-i)(M2V) = 1.03  (+-0.18 rms) ; West05
+(r-i)(M2V) = 1.04  (+-0.18 rms) ; Bochanski07 M2V (inactive; N=66/67)
+(r-i)(M2V) = 1.04  (+-0.18 rms) ; Bochanski07 M2V (inactive+active; N=67)
 (r-i)(M2V) = 1.043 ; smoothed trend SpT vs r-i for SIMBAD d<50pc M0V-M8.5V (4/2024; see M0V.txt)
 (r-i)(M2V) = 1.05  (+-0.12 rms) ; Cifuentes20
 (r-i)(M2V) = 1.058 ; GJ_424_ plx=110.23mas M2V
+(r-i)(M2V) = 1.07  (+-0.03) ; Bochanski07 M2V (active; N=1/67)
 (r-i)(M2V) =  1.072 ; GJ_70_ plx=88.31mas M2V
 (r-i)(M2V) = 1.08  ; GJ_694_ plx=104.91mas M2V
 (r-i)(M2V) = 1.09  (+-0.26 rms) ; Hawley02 ("r*-i*")
@@ -416,7 +426,7 @@ Joy74 M2V stars appear to be approximately M1+V (~M1.2+-0.7 subtypes) on the Kir
 (r-i)(M2V) =  1.261 ; GJ_3333_ plx=86.10mas M2V
 (r-i)(M2V) =  1.266 ; GJ_2106_ plx=85.72mas M2V:
 (r-i)(M2V) = 1.277 ; L_32-9_ plx=113.13mas M2V
-=> adopt (r-i)(M2V) = 1.10 [updated 4/18/2024]
+=> adopt (r-i)(M2V) = 1.10 [updated 6/15/2024]
 [EEM 4/12/2024: would like to better understand this offset between colors
 from SDSS studies versus the nearby stars. Is this bias for bluer/brighter
 nearby stars missing ri photometry, or a metallicity effect? For N=251 SIMBAD
@@ -429,8 +439,6 @@ median (r-i)=1.171. But trend of SpT vs r-i colors for d<50pc M0V-M8.5V gives 1.
 (g-V)(M2V) = 0.831 ; Just08/Chonis08 B-V=>g-V for B-V=1.505
 => adopt (g-V)(M2V) = 0.829 [updated 9/1/2023]
 
-
-
 (i-z)(M2V) =  -0.05 ; G_124-52_ plx=37.4917mas M2
 (i-z)(M2V) =  0.007 ; GJ_3838_ plx=49.5259mas M2V
 (i-z)(M2V) =  0.178 ; GJ_3968_ plx=46.5669mas M2V
@@ -440,6 +448,9 @@ median (r-i)=1.171. But trend of SpT vs r-i colors for d<50pc M0V-M8.5V gives 1.
 (i-z)(M2V) = 0.55 (+-0.08; rms) ; West08
 (i-z)(M2V) =  0.565 ; LP_328-20_ plx=13.756mas M2
 (i-z)(M2V) = 0.58 (+-0.18; rms) ; West05
+(i-z)(M2V) = 0.59 (+-0.11; rms) ; Bochanski07 M2V (inactive+active; N=67)
+(i-z)(M2V) = 0.59 (+-0.11; rms) ; Bochanski07 M2V (inactive; N=66/67)
+(i-z)(M2V) = 0.60 (+-0.03) ; Bochanski07 M2V (active; N=1/67)
 (i-z)(M2V) = 0.62 (+-0.17; rms) ; Hawley02 ("i*-z*")
 (i-z)(M2V) =  0.623 ; UCAC4_607-004404_ plx=17.8348mas M2
 (i-z)(M2V) =  0.663 ; UCAC4_609-045764_ plx=15.1902mas M2
@@ -448,64 +459,66 @@ median (r-i)=1.171. But trend of SpT vs r-i colors for d<50pc M0V-M8.5V gives 1.
 (i-z)(M2V) =  0.793 ; 2MASS_J07351200+3714079_ plx=13.3461mas M2.0
 (i-z)(M2V) =  0.834 ; GD_325B_ plx=27.1889mas M2
 (i-z)(M2V) =  0.879 ; UCAC4_478-044439_ plx=22.2577mas M2
-=> adopt (i-z)(M2V) = 0.55 [updated 4/12/2024; i-J=1.92, z-J=1.37]
+=> adopt (i-z)(M2V) = 0.59 [updated 6/15/2024; i-J=1.97, z-J=1.38]
 
-(i-J)(M2V) = 1.509 ; GJ_424_ plx=110.23mas M2V
-(i-J)(M2V) = 1.596 ; GJ_433_ plx=110.17mas M2V
-(i-J)(M2V) =  1.727 ; GJ_70_ plx=88.31mas M2V
-(i-J)(M2V) =  1.734 ; GJ_842_ plx=86.56mas M2V
-(i-J)(M2V) =  1.739 ; GJ_9440_ plx=59.3148mas M2V
-(i-J)(M2V) = 1.745 ; GJ_22_A_ plx=101.09mas M2V
-(i-J)(M2V) =  1.749 ; PM_J01306-1027_ plx=29.4564mas M2e
-(i-J)(M2V) = 1.771 ; ter. stan. GJ_2066_ plx=111.87mas M2.0V
-(i-J)(M2V) =  1.816 ; GJ_3838_ plx=49.5259mas M2V
-(i-J)(M2V) =  1.825 ; GJ_2106_ plx=85.72mas M2V:
-(i-J)(M2V) = 1.843 ; ter. stan. GJ_393_ plx=142.10mas M2
-(i-J)(M2V) = 1.843 ; GJ_465_ plx=112.67mas M2.0
-(i-J)(M2V) =  1.856 ; GJ_413.1_ plx=92.80mas M2V
-(i-J)(M2V) =  1.857 ; GJ_2097_ plx=40.8742mas M2V
-(i-J)(M2V) =  1.865 ; LP_328-20_ plx=13.756mas M2
-(i-J)(M2V) =  1.884 ; LP_498-90_ plx=19.6072mas M2e
-(i-J)(M2V) =  1.900 ; GJ_3968_ plx=46.5669mas M2V
-(i-J)(M2V) =  1.901 ; GJ_3333_ plx=86.10mas M2V
-(i-J)(M2V) = 1.928 ; GJ_694_ plx=104.91mas M2V
-(i-J)(M2V) = 1.94 (+-0.20; rms) ; Hawley02 
-(i-J)(M2V) =  1.949 ; UCAC4_607-004404_ plx=17.8348mas M2
-(i-J)(M2V) =  1.969 ; Wolf_1523_ plx=38.6809mas M2.0V
-(i-J)(M2V) = 1.984 ; sec. stan. GJ_382_ plx=129.75mas M2V
-(i-J)(M2V) = 2.017 ; L_32-9_ plx=113.13mas M2V
-(i-J)(M2V) =  2.030 ; UCAC4_609-045764_ plx=15.1902mas M2
-(i-J)(M2V) = 2.032 ; GJ_15_A_ plx=280.71mas M2V
-(i-J)(M2V) = 2.10 (+-0.23; rms) ; West05
-(i-J)(M2V) =  2.194 ; UCAC4_604-047074_ plx=15.0544mas M2
-(i-J)(M2V) =  2.230 ; G_124-52_ plx=37.4917mas M2
-(i-J)(M2V) =  2.348 ; GD_325B_ plx=27.1889mas M2
-(i-J)(M2V) =  2.368 ; UCAC4_478-044439_ plx=22.2577mas M2
-=> adopt (i-J)(M2V) = 1.92 [updated 4/12/2024; i-z=0.55, z-J=1.37]
+(i-J)(M2V) =   1.509 ; GJ_424_ plx=110.23mas M2V
+(i-J)(M2V) =   1.596 ; GJ_433_ plx=110.17mas M2V
+(i-J)(M2V) =   1.727 ; GJ_70_ plx=88.31mas M2V
+(i-J)(M2V) =   1.734 ; GJ_842_ plx=86.56mas M2V
+(i-J)(M2V) =   1.739 ; GJ_9440_ plx=59.3148mas M2V
+(i-J)(M2V) =  1.745 ; GJ_22_A_ plx=101.09mas M2V
+(i-J)(M2V) =   1.749 ; PM_J01306-1027_ plx=29.4564mas M2e
+(i-J)(M2V) =  1.771 ; ter. stan. GJ_2066_ plx=111.87mas M2.0V
+(i-J)(M2V) =   1.816 ; GJ_3838_ plx=49.5259mas M2V
+(i-J)(M2V) =   1.825 ; GJ_2106_ plx=85.72mas M2V:
+(i-J)(M2V) =  1.843 ; ter. stan. GJ_393_ plx=142.10mas M2
+(i-J)(M2V) =  1.843 ; GJ_465_ plx=112.67mas M2.0
+(i-J)(M2V) =   1.856 ; GJ_413.1_ plx=92.80mas M2V
+(i-J)(M2V) =   1.857 ; GJ_2097_ plx=40.8742mas M2V
+(i-J)(M2V) =   1.865 ; LP_328-20_ plx=13.756mas M2
+(i-J)(M2V) =   1.884 ; LP_498-90_ plx=19.6072mas M2e
+(i-J)(M2V) =   1.900 ; GJ_3968_ plx=46.5669mas M2V
+(i-J)(M2V) =   1.901 ; GJ_3333_ plx=86.10mas M2V
+(i-J)(M2V) =  1.928 ; GJ_694_ plx=104.91mas M2V
+(i-J)(M2V) =  1.94 (+-0.20; rms) ; Hawley02 
+(i-J)(M2V) =   1.949 ; UCAC4_607-004404_ plx=17.8348mas M2
+(i-J)(M2V) =   1.969 ; Wolf_1523_ plx=38.6809mas M2.0V
+(i-J)(M2V) = 1.97 ; i-z=0.59, z-J=1.38 
+(i-J)(M2V) =  1.984 ; sec. stan. GJ_382_ plx=129.75mas M2V
+(i-J)(M2V) =  2.017 ; L_32-9_ plx=113.13mas M2V
+(i-J)(M2V) =   2.030 ; UCAC4_609-045764_ plx=15.1902mas M2
+(i-J)(M2V) =  2.032 ; GJ_15_A_ plx=280.71mas M2V
+(i-J)(M2V) =  2.10 (+-0.23; rms) ; West05
+(i-J)(M2V) =   2.194 ; UCAC4_604-047074_ plx=15.0544mas M2
+(i-J)(M2V) =   2.230 ; G_124-52_ plx=37.4917mas M2
+(i-J)(M2V) =   2.348 ; GD_325B_ plx=27.1889mas M2
+(i-J)(M2V) =   2.368 ; UCAC4_478-044439_ plx=22.2577mas M2
+=> adopt (i-J)(M2V) = 1.97 [updated 6/15/2024; i-z=0.59, z-J=1.38]
 
-(z-J)(M2V) = 1.26 (+-0.18; rms) ; West11
-(z-J)(M2V) =  1.300 ; LP_328-20_ plx=13.756mas M2
-(z-J)(M2V) = 1.31 (+-0.17; rms) ; West08
-(z-J)(M2V) =  1.326 ; UCAC4_607-004404_ plx=17.8348mas M2
-(z-J)(M2V) = 1.36 (+-0.18; rms) ; Hawley02 
-(z-J)(M2V) =  1.367 ; UCAC4_609-045764_ plx=15.1902mas M2
-(z-J)(M2V) = 1.386 (+-0.028; rms) ; poly fit to d<100pc GCNS for G-Ks=3.305
-(z-J)(M2V) =  1.439 ; UCAC4_604-047074_ plx=15.0544mas M2
-(z-J)(M2V) = 1.45 (+-0.17; rms) ; West05
-(z-J)(M2V) =  1.489 ; UCAC4_478-044439_ plx=22.2577mas M2
-(z-J)(M2V) =  1.514 ; GD_325B_ plx=27.1889mas M2
-(z-J)(M2V) =  1.598 ; 2MASS_J15390594+5732283_ plx=13.7728mas M2.0
-(z-J)(M2V) =  1.722 ; GJ_3968_ plx=46.5669mas M2V
-(z-J)(M2V) =  1.786 ; Wolf_1523_ plx=38.6809mas M2.0V
-(z-J)(M2V) =  1.809 ; GJ_3838_ plx=49.5259mas M2V
-(z-J)(M2V) =  2.110 ; LP_649-66_ plx=59.9653mas M2
-(z-J)(M2V) =  2.280 ; G_124-52_ plx=37.4917mas M2
-(z-J)(M2V) =  2.425 ; PM_J08158+4601_ plx=23.1132mas M2
-(z-J)(M2V) =  3.048 ; LP_498-90_ plx=19.6072mas M2e
-(z-J)(M2V) =  3.175 ; 2MASS_J07351200+3714079_ plx=13.3461mas M2.0
-(z-J)(M2V) =  3.474 ; PM_J01306-1027_ plx=29.4564mas M2e
-(z-J)(M2V) =  3.794 ; GJ_2097_ plx=40.8742mas M2V
-=> adopt (z-J)(M2V) = 1.37 [updated 4/12/2024; i-z=0.55, i-J=1.92]
+(z-J)(M2V) =  1.26 (+-0.18; rms) ; West11
+(z-J)(M2V) =   1.300 ; LP_328-20_ plx=13.756mas M2
+(z-J)(M2V) =  1.31 (+-0.17; rms) ; West08
+(z-J)(M2V) =   1.326 ; UCAC4_607-004404_ plx=17.8348mas M2
+(z-J)(M2V) =  1.36 (+-0.18; rms) ; Hawley02 
+(z-J)(M2V) =   1.367 ; UCAC4_609-045764_ plx=15.1902mas M2
+(z-J)(M2V) = 1.38 ; i-z=0.59, i-J=1.97
+(z-J)(M2V) =  1.386 (+-0.028; rms) ; poly fit to d<100pc GCNS for G-Ks=3.305
+(z-J)(M2V) =   1.439 ; UCAC4_604-047074_ plx=15.0544mas M2
+(z-J)(M2V) =  1.45 (+-0.17; rms) ; West05
+(z-J)(M2V) =   1.489 ; UCAC4_478-044439_ plx=22.2577mas M2
+(z-J)(M2V) =   1.514 ; GD_325B_ plx=27.1889mas M2
+(z-J)(M2V) =   1.598 ; 2MASS_J15390594+5732283_ plx=13.7728mas M2.0
+(z-J)(M2V) =    1.722 ; GJ_3968_ plx=46.5669mas M2V
+(z-J)(M2V) =    1.786 ; Wolf_1523_ plx=38.6809mas M2.0V
+(z-J)(M2V) =    1.809 ; GJ_3838_ plx=49.5259mas M2V
+(z-J)(M2V) =    2.110 ; LP_649-66_ plx=59.9653mas M2
+(z-J)(M2V) =    2.280 ; G_124-52_ plx=37.4917mas M2
+(z-J)(M2V) =    2.425 ; PM_J08158+4601_ plx=23.1132mas M2
+(z-J)(M2V) =    3.048 ; LP_498-90_ plx=19.6072mas M2e
+(z-J)(M2V) =    3.175 ; 2MASS_J07351200+3714079_ plx=13.3461mas M2.0
+(z-J)(M2V) =    3.474 ; PM_J01306-1027_ plx=29.4564mas M2e
+(z-J)(M2V) =    3.794 ; GJ_2097_ plx=40.8742mas M2V
+=> adopt (z-J)(M2V) = 1.38 [updated 6/15/2024; i-z=0.59, i-J=1.97]
 
 Teff(M2V) =   3400 K ; Habets81
 Teff(M2V) =  3414 K ; Morrell19 <Teff> for stars w/i +-0.05 mag of M_Ks=5.98
@@ -597,6 +610,9 @@ Mv(M2V) =  9.40 ; ter. stan. GJ 220
 => adopt Mv(M2V)   = 10.21 mag [updated 11/3/2019]  (V-Ks=4.23, M_Ks=5.98)
 => adopt M_G(M2V)  =  9.285 mag [updated 12/10/2020] (Mv=10.21, G-V=-0.925)
 => adopt M_Ks(M2V) =  5.98 mag [updated 12/10/2020] (Mv=10.21, V-Ks=4.23)
+=> adopt M_J(M2V)  =  6.81 mag [updated 6/15/2024] (M_Ks=5.98, J-Ks=0.83)
+=> adopt M_i(M2V)  =  8.78 mag [updated 6/15/2024] (M_J=6.81, i-J=1.97)
+=> adopt M_r(M2V)  =  9.88 mag [updated 6/15/2024] (M_i=8.78, r-i=1.10)
 
 M_G(M2V) =   8.15557 ; HD 115953                   
 M_G(M2V) =   8.73432 ; V* SZ UMa                   

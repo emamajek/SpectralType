@@ -29,22 +29,22 @@ Skiff08 flags only one star as O9.5V standard: HD 37468 = Sig Ori (MK73)
 All Q-method dereddenings in this file have been updated with the new
 calibration (10/8/2011).
 
-(B-V)(O9.5V)  = -0.308  ; EEM dereddened pri. stan. zet Oph (Q-method)
-(B-V)(O9.5V)  = -0.307  ; U-B=-1.09 via trend/Q-method
-(B-V)(O9.5V)  = -0.305  ; EEM dereddened sec. stan. HD 93207 (Q-method)
-(B-V)(O9.5V)  = -0.305  ; EEM dereddened pri. stan. AE Aur (Q-method)
-(B-V)(O9.5V)  =  -0.30   ; Johnson63,Johnson65,Johnson66,Fitzgerald70,Morgan71
-(B-V)(O9.5V)  = -0.295  ; EEM dereddened O9.5V mu Col (see below)
-(B-V)(O9.5V)  =  -0.27   ; Wegner14 
-(B-V)(O9.5V)  =  -0.26   ; Martins06
+(B-V)(O9.5V) = -0.308  ; EEM dereddened pri. stan. zet Oph (Q-method)
+(B-V)(O9.5V) = -0.307  ; U-B=-1.09 via trend/Q-method
+(B-V)(O9.5V) = -0.305  ; EEM dereddened sec. stan. HD 93207 (Q-method)
+(B-V)(O9.5V) = -0.305  ; EEM dereddened pri. stan. AE Aur (Q-method)
+(B-V)(O9.5V) =  -0.30   ; Johnson63,Johnson65,Johnson66,Fitzgerald70,Morgan71
+(B-V)(O9.5V) = -0.295  ; EEM dereddened O9.5V mu Col (see below)
+(B-V)(O9.5V) =  -0.27   ; Wegner14 
+(B-V)(O9.5V) =  -0.26   ; Martins06
 => adopt (B-V)(O9.5V) = -0.307 [updated 2/7/2020]
 
-(U-B)(O9.5V)  = -1.083  ; EEM dereddened sec. stan. HD 93027 (Q-method)*
-(U-B)(O9.5V)  = -1.085  ; EEM dereddened pri. stan. AE Aur (Q-method)*
-(U-B)(O9.5V)  =  -1.09   ; Martins06
-(U-B)(O9.5V)  = -1.094  ; EEM dereddened pri. stan. zet Oph (Q-method)*
-(U-B)(O9.5V)  =  -1.10   ; Johnson63,Johnson65,Johnson66,Fitzgerald70
-(U-B)(O9.5V)  =  -1.11   ; Bessell98
+(U-B)(O9.5V) = -1.083 ; EEM dereddened sec. stan. HD 93027 (Q-method)*
+(U-B)(O9.5V) = -1.085 ; EEM dereddened pri. stan. AE Aur (Q-method)*
+(U-B)(O9.5V) =  -1.09 ; Martins06
+(U-B)(O9.5V) = -1.094 ; EEM dereddened pri. stan. zet Oph (Q-method)*
+(U-B)(O9.5V) =  -1.10 ; Johnson63,Johnson65,Johnson66,Fitzgerald70
+(U-B)(O9.5V) =  -1.11 ; Bessell98
 => adopt (U-B)(O9.5V) = -1.09 *** [updated 2/7/2020]
 
 => adopt   Q(O9.5V) = -0.862 (=(U-B)-0.72*(B-V) = -1.087 - 0.72*-0.312)
@@ -67,9 +67,15 @@ calibration (10/8/2011).
 
 (V-Kj)(O9.5V) = -0.94 ; Johnson65
 
-(V-Ks)(O9.5V) = -0.78 ; Wegner14 (2MASS) 
+(V-Ks)(O9.5V) = -0.78  ; Wegner14 (2MASS)
+(V-Ks)(O9.5V) = -0.977 ; PecautMamajek13 
 
 (V-Lj)(O9.5V) = -0.92 ; Johnson65
+
+(u-g)(O9.5V)   = -0.285 ; Covey07/synthetic_from_Pickles98_templates interp O9V-B0V
+(u'-g')(O9.5V) = -0.330 ; Smith02 u'-g' calibration for (U-B)=-1.09
+(u'-g')(O9.5V) = -0.364 ; Fukugita96 u'-g' calibration for (U-B)=-1.09
+=> adopt (u-g)(O9.5V) = -0.33 [updated 4/18/2024]
 
 (g-r)(O9.5V) = -0.605 ; Covey07 interp O9V -0.62 to B0V -0.59
 

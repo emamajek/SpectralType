@@ -2,12 +2,12 @@ O5V
 
 HD 46150 appears to be the O5V primary standard. 
 
-MK43 standard:        Zet Pup   - O5 (no luminosity class, from Plaskett 1922)
+MK43 standard:        zet Pup   - O5 (no luminosity class, from Plaskett 1922)
 Abt68 standard:       HD 46150  - O5 (no luminosity class)
 Hiltner69 standard:   HD 164794 = 9 Sgr - O5V
 Walborn71 standard:   HD 46150  - O5V((f))
 MK73 dagger standard: HD 46150  - O5 (no luminosity class; dagger standard), and
-                      Zet Pup   - O5f (dagger standard)
+                      zet Pup   - O5f (dagger standard)
 Garrison77 standard:  HD 46150  - O5V
 MK78 standard:        HD 46150  - O5V
 Keenan85_IAU stan.:   HD 46150  - O5V
@@ -23,20 +23,20 @@ Walborn72 classifies three stars as O5V or variant: HD 15629 (O5V((f))), HD 1922
 
 Holgado20 classifies three stars as O5V or variant: HDE 319699, HD 46150, HD 256725A.
 
-B-V(O5V)  = -0.33   ; SchmidtKaler82
-B-V(O5V)  = -0.323  ; U-B=-1.15 trend/Q-method
-B-V(O5V)  = -0.325  ; pri. stan. HD 46150 
-B-V(O5V)  = -0.32   ; Johnson58,Johnson63,Johnson65,Johnson66,Fitzgerald70,Morgan71
-B-V(O5V)  = -0.28   ; Martins06
+(B-V)(O5V)  = -0.33   ; SchmidtKaler82
+(B-V)(O5V)  = -0.323  ; U-B=-1.15 trend/Q-method
+(B-V)(O5V)  = -0.325  ; pri. stan. HD 46150 
+(B-V)(O5V)  = -0.32   ; Johnson58,Johnson63,Johnson65,Johnson66,Fitzgerald70,Morgan71
+(B-V)(O5V)  = -0.28   ; Martins06
 => adopt (B-V)(O5V) = -0.323 [updated 2/7/2020]
 
-U-B(O5V)  = -1.14   ; Martins06
-U-B(O5V)  = -1.14   ; Johnson65,Johnson66
-U-B(O5V)  = -1.15   ; Johnson58,Johnson63
-U-B(O5V)  = -1.157  ; pri. stan. HD 46150 (Q-method)
-U-B(O5V)  = -1.19   ; Bessell98
-U-B(O5V)  = -1.19   ; Fitzgerald70
-U-B(O5V)  = -1.19   ; Schmidt-Kaler82
+(U-B)(O5V)  = -1.14   ; Martins06
+(U-B)(O5V)  = -1.14   ; Johnson65,Johnson66
+(U-B)(O5V)  = -1.15   ; Johnson58,Johnson63
+(U-B)(O5V)  = -1.157  ; pri. stan. HD 46150 (Q-method)
+(U-B)(O5V)  = -1.19   ; Bessell98
+(U-B)(O5V)  = -1.19   ; Fitzgerald70
+(U-B)(O5V)  = -1.19   ; Schmidt-Kaler82
 => adopt (U-B)(O5V) = -1.15  [updated 2/7/2020]
 => adopt Q(O5V)     = -0.921 [updated 2/7/2020]
 
@@ -50,7 +50,32 @@ V-Kj(O5V) = -0.94 ; Johnson65 (for O5-7)
 
 V-Lj(O5V) = -0.92 ; Johnson65 (for O5-7)
 
+(J-H)(O5V) = -0.23 ; Covey07/synthetic_from_Pickles98_templates
+=> adopt (J-H)(O5V) = -0.23 [updated 4/18/2024]
+
+(H-Ks)(O5V) = -0.13 ; Covey07/synthetic_from_Pickles98_templates
+=> adopt (H-Ks)(O5V) = -0.13 [updated 4/18/2024]
+
+(u-g)(O5V)   = -0.24  ; Kesseli17 
+(u-g)(O5V)   = -0.39  ; Covey07/synthetic_from_Pickles98_templates
+(u'-g')(O5V) = -0.410 ; Smyth02 u'-g' calibration for (U-B)=-1.15
+(u'-g')(O5V) = -0.447 ; Fukugita96 u'-g' calibration for (U-B)=-1.15
+=> adopt (u-g)(O5V) = -0.40 [updated 6/20/2024]
+
+(g-r)(O5V) = -0.51 ; Kesseli17 
 (g-r)(O5V) = -0.62 ; Covey07 interp O5V -0.62 to O9V -0.62
+=> adopt (g-r)(O5V) = -0.56 [updated 6/20/2024]
+
+(r-i)(O5V) = -0.36 ; Kesseli17 
+(r-i)(O5V) = -0.37 ; Covey07/synthetic_from_Pickles98_templates
+=> adopt (r-i)(O5V) = -0.36 [updated 6/20/2024]
+
+(i-z)(O5V) = -0.31 ; Kesseli17 
+(i-z)(O5V) = -0.35 ; Covey07/synthetic_from_Pickles98_templates
+=> adopt (i-z)(O5V) = -0.33 [updated 6/20/2024]
+
+(z-J)(O5V) = 0.20 ; Covey07/synthetic_from_Pickles98_templates
+=> adopt (z-J)(O5V) = 0.20 [updated 4/18/2024]
 
 (G-V)(O5V) =  0.014 ; HIP_31130 O5V((f))z V=6.784 G=6.7308 E(B-V)=0.468
 (G-V)(O5V) =  0.011 ; HIP_32067 O5V((f))z+O9:V V=6.348 G=6.3301 E(B-V)=0.198

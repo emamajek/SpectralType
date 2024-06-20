@@ -15,7 +15,7 @@ Hawley02 standard:                 2MASS J1047+4026 - M8V
 Henry02 standard:                  GJ 752B (=VB 10) - M8V 
 Henry04 standard:                  GJ 752B (=VB 10) - M8.0V (primary standard)
 Kirkpatrick(GrayCorbally09) stan.: GJ 752B (=VB 10) - M8V (primary standard)
-Kirkpatrick10 standard:            GJ 752B (=VB 10) - M8V (opt.,near-IR stan.)
+Kirkpatrick10 standard:            GJ 752B (=VB 10) - M8V (pri. stan. (0.7-2.5um/SpeX))
 Kirkpatrick16 standard:	    	   LP 412-31 - M8V
 
 Kirkpatrick12 lists only 1 M8V star within 8pc: GJ 752B (=VB10)
@@ -92,6 +92,7 @@ for LHS 2397a seem to be typical for the subtype, supporting V-Ks=8.7]
 (J-H)(M8V) =  0.636 ; LP_523-55_ M8.0V plx=44.4429mas
 (J-H)(M8V) =  0.64 (+-0.15; rms) ; Schmidt14
 (J-H)(M8V) =  0.647 ; LP_349-25_ M8Ve plx=70.7810mas
+(J-H)(M8V) = 0.65 (+-0.09; rms) ; Faherty16 
 (J-H)(M8V) = 0.647 ; pri. stan. GJ 752B = VB 10 
 (J-H)(M8V) = 0.651 ; exemplar LP_938-71_ M8.0V plx=88.2915mas
 (J-H)(M8V) = 0.652 ; Winters15 fit for V-Ks=8.65
@@ -122,6 +123,7 @@ for LHS 2397a seem to be typical for the subtype, supporting V-Ks=8.7]
 (H-Ks)(M8V) =  0.402 ; LSR_J0539+4038_ M8.0Ve plx=87.9747mas
 (H-Ks)(M8V) =  0.408 ; LP_523-55_ M8.0V plx=44.4429mas
 (H-Ks)(M8V) = 0.410 ; exemplar LP_938-71_ M8.0V plx=88.2915mas
+(H-Ks)(M8V) = 0.41 (+-0.09; rms) ; Faherty16 
 (H-Ks)(M8V) = 0.414 (+-0.012 sem,+-0.040 stdev) ; N=17 M8V Cruz03
 (H-Ks)(M8V) = 0.427 ; sec. stan. LP_412-31_ M8V plx=68.2694mas
 (H-Ks)(M8V) =  0.427 ; LP_775-31_ M8Ve plx=94.3054mas
@@ -145,6 +147,7 @@ for LHS 2397a seem to be typical for the subtype, supporting V-Ks=8.7]
 (J-Ks)(M8V) =  1.045 ; LP_349-25_ M8Ve plx=70.7810mas
 (J-Ks)(M8V) =  1.054 ; LP_775-31_ M8Ve plx=94.3054mas
 (J-Ks)(M8V) =  1.059 ; LP_220-13_ M8V plx=46.2958mas
+(J-Ks)(M8V) = 1.06 (+-0.11; rms) ; Faherty16 
 (J-Ks)(M8V) = 1.061 ; exemplar LP_938-71_ M8.0V plx=88.2915mas
 (J-Ks)(M8V) =  1.065 ; LSR_J0539+4038_ M8.0Ve plx=87.9747mas
 (J-Ks)(M8V) =  1.070 ; GJ_3252_ M8.0V plx=68.1218mas
@@ -176,6 +179,10 @@ for LHS 2397a seem to be typical for the subtype, supporting V-Ks=8.7]
 (Ks-W1)(M8V) = 0.350 ; sec. stan. LHS2397a/WISE
 (Ks-W1)(M8V) = 0.386 ; sec. stan. LHS2397a/allWISE
 => adopt (Ks-W1)(M8V) = 0.285 [updated 12/28/2019]
+
+(J-W1)(M8V) = 1.27 (+-0.12; rms) ; Faherty16
+
+(J-W2)(M8V) = 1.49 (+-0.13; rms) ; Faherty16 
 
 (Ks-W2)(M8V) = 0.466 ; Bentley18
 
@@ -278,6 +285,7 @@ M_Ks(M8V)   =  9.271 ; Reyle18 polynomial
 (u-g)(M8V) =  1.022 ; TVLM_832-10443_ plx=42.3767mas M8V
 (u-g)(M8V) =  1.483 ; 2MASS_J12155348+0050498_ plx=29.6265mas M8V
 (u-g)(M8V) =  1.617 ; 2MASS_J09424604+5531025_ plx=45.2593mas M8V
+(u-g)(M8V) = 1.65 (+-0.93 rms) ; Bochanski07 M8V (N=16, all active/no inactive) 
 (u-g)(M8V) =  1.655 ; 2MASS_J16311229+3227112_ plx=33.7419mas M8V
 (u-g)(M8V) = 1.700 ; LP_326-21_ plx=67.6546mas M8e
 (u-g)(M8V) =  1.839 ; 2MASS_J14222424+2116076_ plx=34.4771mas M8V
@@ -299,7 +307,7 @@ M_Ks(M8V)   =  9.271 ; Reyle18 polynomial
 (u-g)(M8V) =  3.812 ; 2MASS_J09261233+5309390_ plx=30.7312mas M8V
 (u-g)(M8V) =  3.815 ; 2MASS_J12092283+0542056_ plx=29.9714mas M8V
 (u-g)(M8V) =  3.904 ; LSPM_J1200+2048_ plx=40.7382mas M8V
-=> adopt (u-g)(M8V) = 2.3: [updated 4/18/2024]
+=> adopt (u-g)(M8V) = 2.3: [updated 6/15/2024]
 
 (g-r)(M8V) =  1.396 ; LSPM_J1119+0820_ plx=35.6359mas M8V
 (g-r)(M8V) =  1.585 ; 2MASS_J16311229+3227112_ plx=33.7419mas M8V
@@ -327,11 +335,12 @@ M_Ks(M8V)   =  9.271 ; Reyle18 polynomial
 (g-r)(M8V) = 1.737 (+-0.024 sem,+-0.107 stdev) ; median for 25 nearest SIMBAD M8Vs w/gr phot
 (g-r)(M8V) =  1.743 ; LSPM_J0940+4017_ plx=23.1400mas M8V
 (g-r)(M8V) =  1.757 ; 2MASS_J12092283+0542056_ plx=29.9714mas M8V
-(g-r)(M8V) =  1.761 ; LSPM_J1200+2048_ plx=40.7382mas M8V
+(g-r)(M8V) = 1.761 ; LSPM_J1200+2048_ plx=40.7382mas M8V
 (g-r)(M8V) =  1.762 ; TVLM_263-71765_ plx=29.0042mas M8V
 (g-r)(M8V) =  1.769 ; 2MASS_J08272028+4502043_ plx=29.4740mas M8V
 (g-r)(M8V) = 1.770 ; LP_326-21_ plx=67.6546mas M8e
 (g-r)(M8V) = 1.777 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs (see M0V.txt)
+(g-r)(M8V) = 1.80 (+-0.16 rms) ; Bochanski07 M8V (N=16, all active/no inactive) 
 (g-r)(M8V) = 1.820 ; exemplar TVLM 832-10443 = SDSS J025226.28+005622.2 (Bramich08)
 (g-r)(M8V) =  1.846 ; 2MASS_J14222424+2116076_ plx=34.4771mas M8V
 (g-r)(M8V) =  1.908 ; 2MASS_J12155348+0050498_ plx=29.6265mas M8V
@@ -339,7 +348,7 @@ M_Ks(M8V)   =  9.271 ; Reyle18 polynomial
 (g-r)(M8V) = 1.962 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
 (g-r)(M8V) =  1.967 ; TVLM_832-10443_ plx=42.3767mas M8V
 (g-r)(M8V) =  1.970 ; TVLM_513-8328_ plx=25.3417mas M8V
-=> adopt (g-r)(M8V) = 1.75 [updated 4/18/2024]
+=> adopt (g-r)(M8V) = 1.77 [updated 6/15/2024]
 
 (r-i)(M8V) = 1.913 (+-0.05; rms) ; West05 fit for (V-Ic)=4.62
 (r-i)(M8V) =  2.402 ; LSPM_J1253+0358_ plx=21.0096mas M8V
@@ -349,13 +358,14 @@ M_Ks(M8V)   =  9.271 ; Reyle18 polynomial
 (r-i)(M8V) =  2.554 ; LSPM_J1220+3315_ plx=27.0611mas M8V
 (r-i)(M8V) = 2.56 (+-0.24; rms) ; West11
 (r-i)(M8V) =  2.589 ; LSPM_J1147+1420_ plx=21.1758mas M8V
-(r-i)(M8V) =  2.614 ; LP_315-53_ plx=49.6242mas M8V
+(r-i)(M8V) = 2.614 ; LP_315-53_ plx=49.6242mas M8V
 (r-i)(M8V) =  2.650 ; LSPM_J1050+4907_ plx=32.4521mas M8V
 (r-i)(M8V) =  2.715 ; LP_548-1_ plx=35.1504mas M8V
 (r-i)(M8V) =  2.718 ; LSPM_J1252+0252_ plx=34.3513mas M8V
 (r-i)(M8V) =  2.722 ; LSPM_J0823+1034_ plx=26.3704mas M8V
 (r-i)(M8V) = 2.73 (+-0.25; rms) ; West08
 (r-i)(M8V) =  2.759 ; TVLM_890-60235_ plx=20.9739mas M8V
+(r-i)(M8V) = 2.76 (+-0.12; rms) ; Bochanski07 M8V (N=16, all active/no inactive) 
 (r-i)(M8V) = 2.77 (+-0.10; rms) ; Cifuentes20
 (r-i)(M8V) = 2.77 (+-0.16; rms) ; West05
 (r-i)(M8V) =  2.773 ; LSPM_J0932+3916_ plx=23.362mas M8V
@@ -367,115 +377,119 @@ M_Ks(M8V)   =  9.271 ; Reyle18 polynomial
 (r-i)(M8V) = 2.82 (+-0.28; rms) ; Hawley02 ("r*-i*")
 (r-i)(M8V) =  2.821 ; LSPM_J1119+0820_ plx=35.6359mas M8V
 (r-i)(M8V) =  2.823 ; 2MASS_J08272028+4502043_ plx=29.4740mas M8V
-(r-i)(M8V) =  2.852 ; TVLM_832-10443_ plx=42.3767mas M8V
+(r-i)(M8V) = 2.852 ; TVLM_832-10443_ plx=42.3767mas M8V
 (r-i)(M8V) =  2.860 ; LSPM_J0957+2627_ plx=25.819mas M8V
 (r-i)(M8V) = 2.870 ; LP_326-21_ plx=67.6546mas M8e
 (r-i)(M8V) =  2.873 ; TVLM_263-71765_ plx=29.0042mas M8V
 (r-i)(M8V) = 2.881 ; exemplar TVLM 832-10443 = SDSS J025226.28+005622.2
 (r-i)(M8V) =  2.912 ; TVLM_513-8328_ plx=25.3417mas M8V
 (r-i)(M8V) =  2.937 ; 2MASS_J22215313+1158222_ plx=31.8308mas M8V
-(r-i)(M8V) =   2.948 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
-=> adopt (r-i)(M8V) = 2.8 [updated 4/18/2024]
+(r-i)(M8V) = 2.948 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
+=> adopt (r-i)(M8V) = 2.77 [updated 6/15/2024]
 
-(i-z)(M8V) =  1.369 ; LP_484-38_ plx=23.1994mas M8V
-(i-z)(M8V) =  1.408 ; LSPM_J1253+0358_ plx=21.0096mas M8V
-(i-z)(M8V) = 1.41 (+-0.13; rms) ; West11
-(i-z)(M8V) =  1.417 ; LSPM_J1119+0820_ plx=35.6359mas M8V
-(i-z)(M8V) =  1.456 ; LSR_J1002+6349_ plx=36.0893mas M8V
-(i-z)(M8V) =  1.472 ; LSPM_J1220+3315_ plx=27.0611mas M8V
-(i-z)(M8V) = 1.474 ; LP_593-68_ plx=68.1218mas M8.0V
-(i-z)(M8V) =  1.477 ; LSPM_J1147+1420_ plx=21.1758mas M8V
-(i-z)(M8V) =  1.479 ; LSPM_J1050+4907_ plx=32.4521mas M8V
-(i-z)(M8V) = 1.48 (+-0.14; rms) ; Schmidt14
-(i-z)(M8V) =  1.484 ; LSPM_J0940+4017_ plx=23.1400mas M8V
-(i-z)(M8V) =  1.488 ; TVLM_890-60235_ plx=20.9739mas M8V
-(i-z)(M8V) =  1.501 ; LSPM_J0823+1034_ plx=26.3704mas M8V
-(i-z)(M8V) =  1.517 ; LSPM_J0957+2627_ plx=25.819mas M8V
-(i-z)(M8V) =  1.528 ; LP_548-1_ plx=35.1504mas M8V
-(i-z)(M8V) =  1.547 ; 2MASS_J07405577+4114097_ plx=20.0496mas M8V
-(i-z)(M8V) =  1.548 ; 2MASS_J13365044+4751321_ plx=39.0081mas M8V
-(i-z)(M8V) =  1.556 ; LSPM_J1252+0252_ plx=34.3513mas M8V
-(i-z)(M8V) = 1.563 ; LP_315-53_ plx=49.6242mas M8V
-(i-z)(M8V) = 1.58 (+-0.15; rms) ; West08
-(i-z)(M8V) =  1.586 ; LP_326-21_ plx=67.6546mas M8e
-(i-z)(M8V) = 1.59 (+-0.020 sem,+-0.101 stdev) ; median for nearest 25 SIMBAD M8Vs w/iz phot
-(i-z)(M8V) =  1.603 ; 2MASS_J22215313+1158222_ plx=31.8308mas M8V
-(i-z)(M8V) = 1.62 (+-0.12; rms) ; West05
-(i-z)(M8V) = 1.62 (+-0.11; rms) ; Hawley02 ("i*-z*")
-(i-z)(M8V) =  1.632 ; LSPM_J0932+3916_ plx=23.362mas M8V
-(i-z)(M8V) =  1.635 ; 2MASS_J08272028+4502043_ plx=29.4740mas M8V
-(i-z)(M8V) =  1.635 ; TVLM_263-71765_ plx=29.0042mas M8V
-(i-z)(M8V) = 1.698 ; exemplar TVLM 832-10443 = SDSS J025226.28+005622.2 plx=42.3767mas M8V (Bramich08)
-(i-z)(M8V) = 1.718 ; poly fit to SIMBAD d<75pc M dwarfs for G-Ks=5.53
-(i-z)(M8V) =  1.733 ; TVLM_513-8328_ plx=25.3417mas M8V
+(i-z)(M8V) =   1.369 ; LP_484-38_ plx=23.1994mas M8V
+(i-z)(M8V) =   1.408 ; LSPM_J1253+0358_ plx=21.0096mas M8V
+(i-z)(M8V) =  1.41 (+-0.13; rms) ; West11
+(i-z)(M8V) =   1.417 ; LSPM_J1119+0820_ plx=35.6359mas M8V
+(i-z)(M8V) =   1.456 ; LSR_J1002+6349_ plx=36.0893mas M8V
+(i-z)(M8V) =   1.472 ; LSPM_J1220+3315_ plx=27.0611mas M8V
+(i-z)(M8V) =  1.474 ; LP_593-68_ plx=68.1218mas M8.0V
+(i-z)(M8V) =   1.477 ; LSPM_J1147+1420_ plx=21.1758mas M8V
+(i-z)(M8V) =   1.479 ; LSPM_J1050+4907_ plx=32.4521mas M8V
+(i-z)(M8V) =  1.48 (+-0.14; rms) ; Schmidt14
+(i-z)(M8V) =   1.484 ; LSPM_J0940+4017_ plx=23.1400mas M8V
+(i-z)(M8V) =   1.488 ; TVLM_890-60235_ plx=20.9739mas M8V
+(i-z)(M8V) =   1.501 ; LSPM_J0823+1034_ plx=26.3704mas M8V
+(i-z)(M8V) =   1.517 ; LSPM_J0957+2627_ plx=25.819mas M8V
+(i-z)(M8V) =   1.528 ; LP_548-1_ plx=35.1504mas M8V
+(i-z)(M8V) =   1.547 ; 2MASS_J07405577+4114097_ plx=20.0496mas M8V
+(i-z)(M8V) =   1.548 ; 2MASS_J13365044+4751321_ plx=39.0081mas M8V
+(i-z)(M8V) =   1.556 ; LSPM_J1252+0252_ plx=34.3513mas M8V
+(i-z)(M8V) =  1.563 ; LP_315-53_ plx=49.6242mas M8V
+(i-z)(M8V) =  1.58 (+-0.15; rms) ; West08
+(i-z)(M8V) =   1.586 ; LP_326-21_ plx=67.6546mas M8e
+(i-z)(M8V) = 1.59 ; z-J=2.04, i-J=3.63 
+(i-z)(M8V) =  1.59 (+-0.020 sem,+-0.101 stdev) ; median for nearest 25 SIMBAD M8Vs w/iz phot
+(i-z)(M8V) =   1.603 ; 2MASS_J22215313+1158222_ plx=31.8308mas M8V
+(i-z)(M8V) =  1.62 (+-0.12; rms) ; West05
+(i-z)(M8V) =  1.62 (+-0.11; rms) ; Hawley02 ("i*-z*")
+(i-z)(M8V) =   1.632 ; LSPM_J0932+3916_ plx=23.362mas M8V
+(i-z)(M8V) =   1.635 ; 2MASS_J08272028+4502043_ plx=29.4740mas M8V
+(i-z)(M8V) =   1.635 ; TVLM_263-71765_ plx=29.0042mas M8V
+(i-z)(M8V) =  1.698 ; exemplar TVLM 832-10443 = SDSS J025226.28+005622.2 plx=42.3767mas M8V (Bramich08)
+(i-z)(M8V) =  1.71 (+-0.09 rms) ; Bochanski07 M8V (N=16, all active/no inactive) 
+(i-z)(M8V) =  1.718 ; poly fit to SIMBAD d<75pc M dwarfs for G-Ks=5.53
+(i-z)(M8V) =   1.733 ; TVLM_513-8328_ plx=25.3417mas M8V
 (i-z)(M8V) =  1.789 ; 2MASS_J09424604+5531025_ plx=45.26mas M8V
-=> adopt (i-z)(M8V) = 1.59 [updated 4/18/2024; z-J=2.04, i-J=3.63]
+=> adopt (i-z)(M8V) = 1.59 [updated 6/15/2024; z-J=2.04, i-J=3.63]
 
-(i-J)(M8V) =  3.308 ; LSPM_J1119+0820_ plx=35.6359mas M8V
-(i-J)(M8V) =  3.379 ; LSR_J1002+6349_ plx=36.0893mas M8V
-(i-J)(M8V) =  3.390 ; 2MASS_J16311229+3227112_ plx=33.7419mas M8V
-(i-J)(M8V) = 3.41 (+-0.26 rms) ; Schmidt14
-(i-J)(M8V) =  3.423 ; GJ_3252_ plx=68.1218mas M8.0V
-(i-J)(M8V) =  3.447 ; LP_548-1_ plx=35.1504mas M8V
-(i-J)(M8V) =  3.463 ; 2MASS_J14591936+0604535_ plx=32.984mas M8
-(i-J)(M8V) =  3.516 ; 2MASS_J13365044+4751321_ plx=39.0081mas M8V
-(i-J)(M8V) =  3.517 ; LSPM_J1050+4907_ plx=32.4521mas M8V
-(i-J)(M8V) =  3.541 ; LP_315-53_ plx=49.6242mas M8V
-(i-J)(M8V) =  3.569 ; 2MASS_J08505049+3126300_ plx=27.7415mas M8V
-(i-J)(M8V) =  3.618 ; 2MASS_J22215313+1158222_ plx=31.8308mas M8V
-(i-J)(M8V) =  3.623 ; 2MASS_J14222424+2116076_ plx=34.4771mas M8V
-(i-J)(M8V) =  3.623 ; LSPM_J1252+0252_ plx=34.3513mas M8V
-(i-J)(M8V) = 3.627 (+-0.041 sem,+-0.182 stdev) ; median 25 nearest SIMBAD M8Vs w/iJ phot
-(i-J)(M8V) =  3.668 ; 2MASS_J14534847+3733165_ plx=33.9856mas M8V
-(i-J)(M8V) =  3.681 ; LSPM_J1200+2048_ plx=40.7382mas M8V
-(i-J)(M8V) =  3.685 ; 2MASS_J12155348+0050498_ plx=29.6265mas M8V
-(i-J)(M8V) =  3.703 ; TVLM_263-71765_ plx=29.0042mas M8V
-(i-J)(M8V) =  3.709 ; LP_326-21_ plx=67.6546mas M8e
-(i-J)(M8V) = 3.71 (+-0.22 rms) ; West05
-(i-J)(M8V) = 3.72 (+-0.19 rms) ; Hawley02 ("i*-J")
-(i-J)(M8V) =  3.761 ; 2MASS_J08272028+4502043_ plx=29.4740mas M8V
-(i-J)(M8V) =  3.784 ; 2MASS_J12010772+3248251_ plx=30.182mas M8V
-(i-J)(M8V) =  3.791 ; 2MASS_J12092283+0542056_ plx=29.9714mas M8V
-(i-J)(M8V) =  3.793 ; 2MASS_J09261233+5309390_ plx=30.7312mas M8V
-(i-J)(M8V) =  3.874 ; 2MASSI_J0810586+142039_ plx=41.9518mas M8V
-(i-J)(M8V) =  3.938 ; 2MASS_J09424604+5531025_ plx=45.2593mas M8V
-(i-J)(M8V) =  3.972 ; TVLM_832-10443_ plx=42.3767mas M8V
+(i-J)(M8V) =   3.308 ; LSPM_J1119+0820_ plx=35.6359mas M8V
+(i-J)(M8V) =   3.379 ; LSR_J1002+6349_ plx=36.0893mas M8V
+(i-J)(M8V) =   3.390 ; 2MASS_J16311229+3227112_ plx=33.7419mas M8V
+(i-J)(M8V) =  3.41 (+-0.26 rms) ; Schmidt14
+(i-J)(M8V) =   3.423 ; GJ_3252_ plx=68.1218mas M8.0V
+(i-J)(M8V) =   3.447 ; LP_548-1_ plx=35.1504mas M8V
+(i-J)(M8V) =   3.463 ; 2MASS_J14591936+0604535_ plx=32.984mas M8
+(i-J)(M8V) =   3.516 ; 2MASS_J13365044+4751321_ plx=39.0081mas M8V
+(i-J)(M8V) =   3.517 ; LSPM_J1050+4907_ plx=32.4521mas M8V
+(i-J)(M8V) =   3.541 ; LP_315-53_ plx=49.6242mas M8V
+(i-J)(M8V) =   3.569 ; 2MASS_J08505049+3126300_ plx=27.7415mas M8V
+(i-J)(M8V) =   3.618 ; 2MASS_J22215313+1158222_ plx=31.8308mas M8V
+(i-J)(M8V) =   3.623 ; 2MASS_J14222424+2116076_ plx=34.4771mas M8V
+(i-J)(M8V) =   3.623 ; LSPM_J1252+0252_ plx=34.3513mas M8V
+(i-J)(M8V) =  3.627 (+-0.041 sem,+-0.182 stdev) ; median 25 nearest SIMBAD M8Vs w/iJ phot
+(i-J)(M8V) = 3.63 ; i-z=1.59, z-J=2.04  
+(i-J)(M8V) =   3.668 ; 2MASS_J14534847+3733165_ plx=33.9856mas M8V
+(i-J)(M8V) =   3.681 ; LSPM_J1200+2048_ plx=40.7382mas M8V
+(i-J)(M8V) =   3.685 ; 2MASS_J12155348+0050498_ plx=29.6265mas M8V
+(i-J)(M8V) =   3.703 ; TVLM_263-71765_ plx=29.0042mas M8V
+(i-J)(M8V) =   3.709 ; LP_326-21_ plx=67.6546mas M8e
+(i-J)(M8V) =  3.71 (+-0.22 rms) ; West05
+(i-J)(M8V) =  3.72 (+-0.19 rms) ; Hawley02 ("i*-J")
+(i-J)(M8V) =   3.761 ; 2MASS_J08272028+4502043_ plx=29.4740mas M8V
+(i-J)(M8V) =   3.784 ; 2MASS_J12010772+3248251_ plx=30.182mas M8V
+(i-J)(M8V) =   3.791 ; 2MASS_J12092283+0542056_ plx=29.9714mas M8V
+(i-J)(M8V) =   3.793 ; 2MASS_J09261233+5309390_ plx=30.7312mas M8V
+(i-J)(M8V) =   3.874 ; 2MASSI_J0810586+142039_ plx=41.9518mas M8V
+(i-J)(M8V) =   3.938 ; 2MASS_J09424604+5531025_ plx=45.2593mas M8V
+(i-J)(M8V) =   3.972 ; TVLM_832-10443_ plx=42.3767mas M8V
 (i-J)(M8V) = 3.980 ; exemplar TVLM 832-10443 = SDSS J025226.28+005622.2
-=> adopt (i-J)(M8V) = 3.63 [updated 4/18/2024; i-z=1.59, z-J=2.04]
+=> adopt (i-J)(M8V) = 3.63 [updated 6/15/2024; i-z=1.59, z-J=2.04]
 
-(z-J)(M8V) =  1.814 ; 2MASS_J16311229+3227112_ plx=33.7419mas M8V
-(z-J)(M8V) =  1.891 ; LSPM_J1119+0820_ plx=35.6359mas M8V
-(z-J)(M8V) =  1.919 ; LP_548-1_ plx=35.1504mas M8V
-(z-J)(M8V) =  1.923 ; LSR_J1002+6349_ plx=36.0893mas M8V
-(z-J)(M8V) = 1.93 (+-0.13; rms) ; West11
-(z-J)(M8V) =  1.949 ; GJ_3252_ plx=68.1218mas M8.0V
-(z-J)(M8V) = 1.95 (+-0.15; rms) ; Schmidt14
-(z-J)(M8V) =  1.950 ; 2MASS_J14591936+0604535_ plx=32.984mas M8
-(z-J)(M8V) =  1.968 ; 2MASS_J13365044+4751321_ plx=39.0081mas M8V
-(z-J)(M8V) =  1.978 ; LP_315-53_ plx=49.6242mas M8V
-(z-J)(M8V) =  2.015 ; 2MASS_J22215313+1158222_ plx=31.8308mas M8V
-(z-J)(M8V) =  2.016 ; 2MASS_J14222424+2116076_ plx=34.4771mas M8V
-(z-J)(M8V) =  2.035 ; 2MASS_J12010772+3248251_ plx=30.182mas M8V
-(z-J)(M8V) =  2.038 ; LSPM_J1050+4907_ plx=32.4521mas M8V
-(z-J)(M8V) =  2.040 ; 2MASS_J14534847+3733165_ plx=33.9856mas M8V
-(z-J)(M8V) = 2.04 (+-0.12; rms) ; West08
-(z-J)(M8V) = 2.04 (+-0.12; rms) ; Hawley02 ("z*-J")
-(z-J)(M8V) = 2.043 (+-0.021 sem,+-0.109 stdev) ; median 25 nearest SIMBAD M8Vs w/zJ phot
-(z-J)(M8V) = 2.05 (+-0.13; rms) ; West05 
-(z-J)(M8V) =  2.056 ; 2MASS_J09261233+5309390_ plx=30.7312mas M8V
-(z-J)(M8V) =  2.067 ; LSPM_J1252+0252_ plx=34.3513mas M8V
-(z-J)(M8V) =  2.068 ; TVLM_263-71765_ plx=29.0042mas M8V
-(z-J)(M8V) =  2.098 ; 2MASS_J12155348+0050498_ plx=29.6265mas M8V
+(z-J)(M8V) =   1.814 ; 2MASS_J16311229+3227112_ plx=33.7419mas M8V
+(z-J)(M8V) =   1.891 ; LSPM_J1119+0820_ plx=35.6359mas M8V
+(z-J)(M8V) =   1.919 ; LP_548-1_ plx=35.1504mas M8V
+(z-J)(M8V) =   1.923 ; LSR_J1002+6349_ plx=36.0893mas M8V
+(z-J)(M8V) =  1.93 (+-0.13; rms) ; West11
+(z-J)(M8V) =   1.949 ; GJ_3252_ plx=68.1218mas M8.0V
+(z-J)(M8V) =  1.95 (+-0.15; rms) ; Schmidt14
+(z-J)(M8V) =   1.950 ; 2MASS_J14591936+0604535_ plx=32.984mas M8
+(z-J)(M8V) =   1.968 ; 2MASS_J13365044+4751321_ plx=39.0081mas M8V
+(z-J)(M8V) =   1.978 ; LP_315-53_ plx=49.6242mas M8V
+(z-J)(M8V) =   2.015 ; 2MASS_J22215313+1158222_ plx=31.8308mas M8V
+(z-J)(M8V) =   2.016 ; 2MASS_J14222424+2116076_ plx=34.4771mas M8V
+(z-J)(M8V) =   2.035 ; 2MASS_J12010772+3248251_ plx=30.182mas M8V
+(z-J)(M8V) =   2.038 ; LSPM_J1050+4907_ plx=32.4521mas M8V
+(z-J)(M8V) =   2.040 ; 2MASS_J14534847+3733165_ plx=33.9856mas M8V
+(z-J)(M8V) =  2.04 (+-0.12; rms) ; West08
+(z-J)(M8V) =  2.04 (+-0.12; rms) ; Hawley02 ("z*-J")
+(z-J)(M8V) = 2.04 ; i-z=1.59, i-J=3.63 
+(z-J)(M8V) =  2.043 (+-0.021 sem,+-0.109 stdev) ; median 25 nearest SIMBAD M8Vs w/zJ phot
+(z-J)(M8V) =  2.05 (+-0.13; rms) ; West05 
+(z-J)(M8V) =   2.056 ; 2MASS_J09261233+5309390_ plx=30.7312mas M8V
+(z-J)(M8V) =   2.067 ; LSPM_J1252+0252_ plx=34.3513mas M8V
+(z-J)(M8V) =   2.068 ; TVLM_263-71765_ plx=29.0042mas M8V
+(z-J)(M8V) =   2.098 ; 2MASS_J12155348+0050498_ plx=29.6265mas M8V
 (z-J)(M8V) =  2.114 ; LSPM_J1200+2048_ plx=40.7382mas M8V
 (z-J)(M8V) =  2.123 ; LP_326-21_ plx=67.6546mas M8e
-(z-J)(M8V) =  2.126 ; 2MASS_J08272028+4502043_ plx=29.4740mas M8V
+(z-J)(M8V) =   2.126 ; 2MASS_J08272028+4502043_ plx=29.4740mas M8V
 (z-J)(M8V) =  2.149 ; 2MASS_J09424604+5531025_ plx=45.2593mas M8V
-(z-J)(M8V) =  2.152 ; 2MASS_J12092283+0542056_ plx=29.9714mas M8V
-(z-J)(M8V) =  2.153 ; Cl*_Melotte_25_CFHT_19_ plx=29.801mas M8
+(z-J)(M8V) =   2.152 ; 2MASS_J12092283+0542056_ plx=29.9714mas M8V
+(z-J)(M8V) =   2.153 ; Cl*_Melotte_25_CFHT_19_ plx=29.801mas M8
 (z-J)(M8V) =  2.156 ; 2MASSI_J0810586+142039_ plx=41.9518mas M8V
-(z-J)(M8V) = 2.172 (+-0.053; rms) ; poly fit d<50pc SIMBAD M dwarfs for G-Ks=5.53
-(z-J)(M8V) = 2.282 ; exemplar TVLM 832-10443 = SDSS J025226.28+005622.2
-=> adopt (z-J)(M8V) = 2.04 mag [updated 4/9/2024; i-z=1.59, i-J=3.63]
+(z-J)(M8V) =  2.172 (+-0.053; rms) ; poly fit d<50pc SIMBAD M dwarfs for G-Ks=5.53
+(z-J)(M8V) =  2.282 ; exemplar TVLM 832-10443 = SDSS J025226.28+005622.2
+=> adopt (z-J)(M8V) = 2.04 mag [updated 6/15/2024; i-z=1.59, i-J=3.63]
 
 (i-Ks)(M8V)  = 4.42 (+-0.31 rms) ; Schmidt14
 
@@ -544,6 +558,9 @@ Mv(M8V)   =  19.52  ; exemplar RG 0050-2722 = 2MASS J00525468-2705597
 => adopt Mv(M8V)   = 18.62 mag [updated 12/23/2020] (M_G=15.45, G-V=-3.17, V-Ks=8.70, M_Ks=9.92)
 => adopt M_G(M8V)  = 15.45 mag [updated 12/23/2020] (M_Ks=9.92, G-Ks=5.53, Mv=18.62, G-V=-3.17)
 => adopt M_Ks(M8V) =  9.92 mag [updated 12/23/2020] (M_G=15.45, G-Ks=5.53)
+=> adopt M_J(M8V)  = 11.04 mag [updated 6/15/2024]  (M_Ks=9.92, J-Ks=1.12)
+=> adopt M_i(M8V)  = 14.67 mag [updated 6/15/2024]  (M_J=11.04, i-J=3.63)
+=> adopt M_r(M8V)  = 17.44 mag [updated 6/15/2024]  (M_i=14.67, r-i=2.77)
 
 M_Ks(M8V) =   8.770 ; LP 349-25 = 2MASSW J0027559+221932                              
 M_Ks(M8V) =  9.428  ; exemplar LHS 2243 = LP 315-53 

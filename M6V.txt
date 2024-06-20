@@ -26,7 +26,7 @@ Henry02 standards:           GJ 65B   - M6V
 		     	     GJ 1245B - M6V
 Henry04 standard:            GJ 406 (=Wolf 359) - M6.0V (pri. stan.)
 Kirkpatrick(GrayCorbally09): GJ 406 (=Wolf 359) - M6V (pri. stan.)
-Kirkpatrick10 standard:      GJ 3146 (LHS 1375) - M6V (opt.,near-IR stan.)
+Kirkpatrick10 standard:      GJ 3146 (LHS 1375) - M6V (pri. stan. (0.7-2.5um/SpeX))
 Pecaut13 standard:	     GJ 406 (=Wolf 359) - M6V
 Newton14 standard:           GJ 406 (=Wolf 359) - M6V
 Kirkpatrick16 standard:      GJ 406 (=Wolf 359) - M6V
@@ -357,9 +357,12 @@ colors.]
 => adopt (g-G)(M6V) = 2.73 [updated 6/29/2023]
 
 (u-g)(M6V) =  2.074 ; LP_606-35_ plx=46.01mas M6V
+(u-g)(M6V) = 2.12 (+-0.90 rms) ; Bochanski07 M6V (active; N=1132/2031)
+(u-g)(M6V) = 2.15 (+-0.91 rms) ; Bochanski07 M6V (inactive+active; N=2031) 
+(u-g)(M6V) = 2.17 (+-0.93 rms) ; Bochanski07 M6V (inactive; N=899/2031) 
 (u-g)(M6V) =  2.350 ; GJ_3959_ plx=88.82mas M6V
 (u-g)(M6V) = 2.99 ; Covey07
-=> adopt (u-g)(M6V) = 2.99 [updated 4/20/2024]
+=> adopt (u-g)(M6V) = 2.15 [updated 6/15/2024]
 
 (g-r)(M6V) =  1.350 ; GJ_3056_ plx=49.45mas M6
 (g-r)(M6V) =  1.382 ; GJ_9724_ plx=63.39mas M6V
@@ -369,13 +372,16 @@ colors.]
 (g-r)(M6V) =  1.472 ; UPM_J0151+4652_ plx=66.1mas M6
 (g-r)(M6V) = 1.495 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs
 (g-r)(M6V) = 1.503 ; pri. stan. GJ_406_ plx=415.18mas M6
+(g-r)(M6V) = 1.55 (+-0.13; rms) ; Bochanski07 M6V (inactive; N=899/2031) 
 (g-r)(M6V) = 1.56 (+-0.15; rms) ; West11
+(g-r)(M6V) = 1.57 (+-0.13; rms) ; Bochanski07 M6V (inactive+active; N=2031) 
+(g-r)(M6V) = 1.59 (+-0.13; rms) ; Bochanski07 M6V (active; N=1132/2031) 
 (g-r)(M6V) =  1.610 ; GJ_3959_ plx=88.82mas M6V
 (g-r)(M6V) =  1.620 ; LP_162-47_ plx=48.20mas M6V
 (g-r)(M6V) =  1.641 ; LP_606-35_ plx=46.01mas M6V
 (g-r)(M6V) = 1.72 ; Covey07
 (g-r)(M6V) = 2.3: ; pri. stan. GJ 406 = Wolf 359 (from several SDSS mags)
-=> adopt (g-r)(M6V) = 1.50 [updated 4/18/2024]
+=> adopt (g-r)(M6V) = 1.50 [updated 6/15/2024]
 
 (r-i)(M6V) =   1.030 ; GJ_9724_ plx=63.39mas M6V
 (r-i)(M6V) =   1.125 ; G_123-10_ plx=37.1203mas M6
@@ -391,7 +397,10 @@ colors.]
 (r-i)(M6V) =  1.907 ; 2MASS_J13355969+4021459_ plx=42.324mas M6.0
 (r-i)(M6V) = 1.92  (+-0.14 rms) ; West11
 (r-i)(M6V) =  1.953 ; LP_791-18_ plx=37.5225mas M6V
+(r-i)(M6V) = 1.98 (+-0.11 rms) ; Bochanski07 M6V (active; N=1132/2031)
+(r-i)(M6V) = 1.98 (+-0.12 rms) ; Bochanski07 M6V (inactive+active; N=2031) 
 (r-i)(M6V) =  1.985 ; LSPM_J1302+3227_ plx=31.5721mas M6V
+(r-i)(M6V) = 1.99 (+-0.12 rms) ; Bochanski07 M6V (inactive; N=899/2031) 
 (r-i)(M6V) = 1.992 (+-0.05 rms) ; West05 fit for (V-Ic)=4.10
 (r-i)(M6V) = 1.99   ; median (r-i) for SIMBAD M6s d<50pc (N=33)
 (r-i)(M6V) = 2.000  ; smooth trend for SIMBAD r-i data for d<50pc M dwarfs
@@ -414,81 +423,87 @@ colors.]
 (r-i)(M6V) =  2.405 ; GJ_1159_B_ plx=39.9509mas M6V
 (r-i)(M6V) = 2.442 ; pri. stan. GJ_406_ plx=415.18mas M6
 (r-i)(M6V) =  2.602 ; LP_606-35_ plx=46.0113mas M6V
-=> adopt (r-i)(M6V) = 2.02 [updated 4/20/2024]
+=> adopt (r-i)(M6V) = 2.00 [updated 6/15/2024]
 [4/7/2024: the two nearest SIMBAD M6Vs with ri photometry have r-i~2.33 and 2.44 (pri. stan. GJ 406) - not sure the reason for the discrepency, although their photometry is from APASS/UCAC4, not SDSS.]
 
-(i-z)(M6V) =  0.725 ; GJ_3959_ plx=88.8227mas M6V
-(i-z)(M6V) = 0.96 ; pri. stan. GJ 406 = Wolf 359 (from several SDSS magnitudes/variability)
-(i-z)(M6V) =  0.986 ; GJ_1159_B_ plx=39.9509mas M6V
-(i-z)(M6V) =  1.016 ; LP_268-12_ plx=27.9306mas M6V
-(i-z)(M6V) =  1.034 ; LP_438-88_ plx=26.7624mas M6V
-(i-z)(M6V) = 1.05 (+-0.07; rms) ; West11
-(i-z)(M6V) =  1.058 ; LP_791-18_ plx=37.5225mas M6V
-(i-z)(M6V) =  1.060 ; LSPM_J1302+3227_ plx=31.5721mas M6V
-(i-z)(M6V) =  1.089 ; 2MASS_J15565401+0936565_ plx=29.4611mas M6V
-(i-z)(M6V) =  1.094 ; 2MASS_J13355969+4021459_ plx=42.324mas M6.0
-(i-z)(M6V) = 1.10 (+-0.07; rms) ; West05 
-(i-z)(M6V) =  1.121 ; LP_588-61_ plx=32.5900mas M6
-(i-z)(M6V) = 1.14  ; Kowalski09 
-(i-z)(M6V) = 1.16 (+-0.07; rms) ; West08
-(i-z)(M6V) =  1.194 ; LP_261-45_ plx=37.4647mas M6V
-(i-z)(M6V) =  1.240 ; GJ_3158_ plx=44.0728mas M6V
-(i-z)(M6V) =  1.241 ; LP_210-77_ plx=30.6268mas M6V
-(i-z)(M6V) = 1.27 (+-0.14; rms) ; Hawley02 ("i*-z*")
-(i-z)(M6V) =  1.275 ; GJ_3474_ plx=36.4483mas M6V
-(i-z)(M6V) = 1.287 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=4.73
-(i-z)(M6V) =  1.433 ; LP_606-35_ plx=46.0113mas M6V
-(i-z)(M6V) =  1.563 ; LP_374-87_ plx=32.3314mas M6V
-=> adopt (i-z)(M6V) = 1.15 [updated 4/15/2024; i-J=2.90, z-J=1.75]
+(i-z)(M6V) =   0.725 ; GJ_3959_ plx=88.8227mas M6V
+(i-z)(M6V) =  0.96 ; pri. stan. GJ 406 = Wolf 359 (from several SDSS magnitudes/variability)
+(i-z)(M6V) =   0.986 ; GJ_1159_B_ plx=39.9509mas M6V
+(i-z)(M6V) =   1.016 ; LP_268-12_ plx=27.9306mas M6V
+(i-z)(M6V) =   1.034 ; LP_438-88_ plx=26.7624mas M6V
+(i-z)(M6V) =  1.05 (+-0.07; rms) ; West11
+(i-z)(M6V) =   1.058 ; LP_791-18_ plx=37.5225mas M6V
+(i-z)(M6V) =   1.060 ; LSPM_J1302+3227_ plx=31.5721mas M6V
+(i-z)(M6V) =   1.089 ; 2MASS_J15565401+0936565_ plx=29.4611mas M6V
+(i-z)(M6V) =  1.09 (+-0.06; rms) ; Bochanski07 M6V (inactive; N=899/2031)
+(i-z)(M6V) =  1.09 (+-0.06; rms) ; Bochanski07 M6V (inactive+active; N=2031) 
+(i-z)(M6V) =   1.094 ; 2MASS_J13355969+4021459_ plx=42.324mas M6.0
+(i-z)(M6V) =  1.10 (+-0.07; rms) ; West05
+(i-z)(M6V) = 1.10 ; i-J=2.90, z-J=1.75
+(i-z)(M6V) =  1.10 (+-0.06; rms) ; Bochanski07 M6V (active; N=1132/2031) 
+(i-z)(M6V) =   1.121 ; LP_588-61_ plx=32.5900mas M6
+(i-z)(M6V) =  1.14  ; Kowalski09 
+(i-z)(M6V) =  1.16 (+-0.07; rms) ; West08
+(i-z)(M6V) =   1.194 ; LP_261-45_ plx=37.4647mas M6V
+(i-z)(M6V) =   1.240 ; GJ_3158_ plx=44.0728mas M6V
+(i-z)(M6V) =   1.241 ; LP_210-77_ plx=30.6268mas M6V
+(i-z)(M6V) =  1.27 (+-0.14; rms) ; Hawley02 ("i*-z*")
+(i-z)(M6V) =   1.275 ; GJ_3474_ plx=36.4483mas M6V
+(i-z)(M6V) =  1.287 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=4.73
+(i-z)(M6V) =   1.433 ; LP_606-35_ plx=46.0113mas M6V
+(i-z)(M6V) =   1.563 ; LP_374-87_ plx=32.3314mas M6V
+=> adopt (i-z)(M6V) = 1.10 [updated 6/15/2024; i-J=2.90, z-J=1.75]
 
-(i-J)(M6V) = 1.895 ; GJ_9724_ plx=63.39mas M6V
-(i-J)(M6V) =  2.245 ; GJ_3056_ plx=49.45mas M6
-(i-J)(M6V) = 2.415 ; UPM_J0151+4652_ plx=66.1mas M6
-(i-J)(M6V) = 2.425 ; G_41-8_ plx=85.80mas M6V
-(i-J)(M6V) =  2.588 ; LP_162-47_ plx=48.20mas M6V
-(i-J)(M6V) =  2.652 ; LP_268-12_ plx=27.9306mas M6V
-(i-J)(M6V) =  2.664 ; LP_438-88_ plx=26.7624mas M6V
-(i-J)(M6V) = 2.688 ; V*_V1274_Her_ plx=60.91mas M6V
-(i-J)(M6V) =  2.711 ; LSPM_J1302+3227_ plx=31.5721mas M6V
-(i-J)(M6V) =  2.729 ; 2MASS_J13355969+4021459_ plx=42.324mas M6.0
-(i-J)(M6V) =  2.755 ; LP_791-18_ plx=37.5225mas M6V
-(i-J)(M6V) =  2.767 ; 2MASS_J15565401+0936565_ plx=29.4611mas M6V
-(i-J)(M6V) = 2.876 ; SCR_J0630-7643_ plx=114.11mas M6Ve
-(i-J)(M6V) =  2.912 ; LP_261-45_ plx=37.4647mas M6V
-(i-J)(M6V) =  2.968 ; LP_588-61_ plx=32.5900mas M6
-(i-J)(M6V) = 2.99 (+-0.19 rms) ; Hawley02 ("i*-J")
-(i-J)(M6V) = 2.993 ; GJ_3959_ plx=88.8227mas M6V
-(i-J)(M6V) =  2.995 ; GJ_3158_ plx=44.0728mas M6V
-(i-J)(M6V) =  3.006 ; LP_210-77_ plx=30.6268mas M6V
-(i-J)(M6V) = 3.02 (+-0.022 rms) ; West05 
-(i-J)(M6V) =  3.036 ; GJ_3474_ plx=36.4483mas M6V
-(i-J)(M6V) = 3.235 ; GJ_406_ plx=415.18mas M6
-(i-J)(M6V) =  3.356 ; LP_374-87_ plx=32.3314mas M6V
-(i-J)(M6V) =  3.417 ; LP_606-35_ plx=46.0113mas M6V
-(i-J)(M6V) =  5.863 ; GJ_1159_B_ plx=39.9509mas M6V
-=> adopt (i-J)(M6V) = 2.90 [updated 4/12/2024; i-z=1.15, z-J=1.75]
+(i-J)(M6V) =  1.895 ; GJ_9724_ plx=63.39mas M6V
+(i-J)(M6V) =   2.245 ; GJ_3056_ plx=49.45mas M6
+(i-J)(M6V) =  2.415 ; UPM_J0151+4652_ plx=66.1mas M6
+(i-J)(M6V) =  2.425 ; G_41-8_ plx=85.80mas M6V
+(i-J)(M6V) =   2.588 ; LP_162-47_ plx=48.20mas M6V
+(i-J)(M6V) =   2.652 ; LP_268-12_ plx=27.9306mas M6V
+(i-J)(M6V) =   2.664 ; LP_438-88_ plx=26.7624mas M6V
+(i-J)(M6V) =  2.688 ; V*_V1274_Her_ plx=60.91mas M6V
+(i-J)(M6V) =   2.711 ; LSPM_J1302+3227_ plx=31.5721mas M6V
+(i-J)(M6V) =   2.729 ; 2MASS_J13355969+4021459_ plx=42.324mas M6.0
+(i-J)(M6V) =   2.755 ; LP_791-18_ plx=37.5225mas M6V
+(i-J)(M6V) =   2.767 ; 2MASS_J15565401+0936565_ plx=29.4611mas M6V
+(i-J)(M6V) =  2.876 ; SCR_J0630-7643_ plx=114.11mas M6Ve
+(i-J)(M6V) = 2.90 ; i-z=1.15, z-J=1.75
+(i-J)(M6V) =   2.912 ; LP_261-45_ plx=37.4647mas M6V
+(i-J)(M6V) =   2.968 ; LP_588-61_ plx=32.5900mas M6
+(i-J)(M6V) =  2.99 (+-0.19 rms) ; Hawley02 ("i*-J")
+(i-J)(M6V) =  2.993 ; GJ_3959_ plx=88.8227mas M6V
+(i-J)(M6V) =   2.995 ; GJ_3158_ plx=44.0728mas M6V
+(i-J)(M6V) =   3.006 ; LP_210-77_ plx=30.6268mas M6V
+(i-J)(M6V) =  3.02 (+-0.022 rms) ; West05 
+(i-J)(M6V) =   3.036 ; GJ_3474_ plx=36.4483mas M6V
+(i-J)(M6V) =  3.235 ; GJ_406_ plx=415.18mas M6
+(i-J)(M6V) =   3.356 ; LP_374-87_ plx=32.3314mas M6V
+(i-J)(M6V) =   3.417 ; LP_606-35_ plx=46.0113mas M6V
+(i-J)(M6V) =   5.863 ; GJ_1159_B_ plx=39.9509mas M6V
+=> adopt (i-J)(M6V) = 2.90 [updated 6/15/2024; i-z=1.15, z-J=1.75]
 
-(z-J)(M6V) = 1.61  (+-0.08 rms) ; West11
-(z-J)(M6V) =  1.630 ; LP_438-88_ plx=26.7624mas M6V
-(z-J)(M6V) =  1.635 ; 2MASS_J13355969+4021459_ plx=42.324mas M6.0
-(z-J)(M6V) =  1.636 ; LP_268-12_ plx=27.9306mas M6V
-(z-J)(M6V) =  1.651 ; LSPM_J1302+3227_ plx=31.5721mas M6V
-(z-J)(M6V) =  1.678 ; 2MASS_J15565401+0936565_ plx=29.4611mas M6V
-(z-J)(M6V) =  1.697 ; LP_791-18_ plx=37.5225mas M6V
-(z-J)(M6V) = 1.71  (+-0.10 rms) ; West08
-(z-J)(M6V) =  1.718 ; LP_261-45_ plx=37.4647mas M6V
-(z-J)(M6V) = 1.74  (+-0.08 rms) ; Hawley02 ("z*-J")
-(z-J)(M6V) =  1.755 ; GJ_3158_ plx=44.0728mas M6V
-(z-J)(M6V) = 1.76  (+-0.09 rms) ; West05 
-(z-J)(M6V) =  1.761 ; GJ_3474_ plx=36.4483mas M6V
-(z-J)(M6V) =  1.765 ; LP_210-77_ plx=30.6268mas M6V
-(z-J)(M6V) =  1.793 ; LP_374-87_ plx=32.3314mas M6V
-(z-J)(M6V) = 1.808 (+-0.053 rms) ; poly fit to d<50pc SIMBAD M dwarfs for G-Ks=4.73
-(z-J)(M6V) =  1.847 ; LP_588-61_ plx=32.5900mas M6
-(z-J)(M6V) =  1.984 ; LP_606-35_ plx=46.0113mas M6V
-(z-J)(M6V) =  2.268 ; GJ_3959_ plx=88.8227mas M6V
-(z-J)(M6V) =  4.877 ; GJ_1159_B_ plx=39.9509mas M6V
-=> adopt (z-J)(M6V) = 1.75 [updated 4/12/2024; i-z=1.15, i-J=2.9]
+(z-J)(M6V) =  1.61 (+-0.08 rms) ; West11
+(z-J)(M6V) =   1.630 ; LP_438-88_ plx=26.7624mas M6V
+(z-J)(M6V) =   1.635 ; 2MASS_J13355969+4021459_ plx=42.324mas M6.0
+(z-J)(M6V) =   1.636 ; LP_268-12_ plx=27.9306mas M6V
+(z-J)(M6V) =   1.651 ; LSPM_J1302+3227_ plx=31.5721mas M6V
+(z-J)(M6V) =   1.678 ; 2MASS_J15565401+0936565_ plx=29.4611mas M6V
+(z-J)(M6V) =   1.697 ; LP_791-18_ plx=37.5225mas M6V
+(z-J)(M6V) =  1.71  (+-0.10 rms) ; West08
+(z-J)(M6V) =   1.718 ; LP_261-45_ plx=37.4647mas M6V
+(z-J)(M6V) =  1.74  (+-0.08 rms) ; Hawley02 ("z*-J")
+(z-J)(M6V) = 1.75 ; i-z=1.15, i-J=2.90 
+(z-J)(M6V) =   1.755 ; GJ_3158_ plx=44.0728mas M6V
+(z-J)(M6V) =  1.76  (+-0.09 rms) ; West05 
+(z-J)(M6V) =   1.761 ; GJ_3474_ plx=36.4483mas M6V
+(z-J)(M6V) =   1.765 ; LP_210-77_ plx=30.6268mas M6V
+(z-J)(M6V) =   1.793 ; LP_374-87_ plx=32.3314mas M6V
+(z-J)(M6V) =  1.808 (+-0.053 rms) ; poly fit to d<50pc SIMBAD M dwarfs for G-Ks=4.73
+(z-J)(M6V) =   1.847 ; LP_588-61_ plx=32.5900mas M6
+(z-J)(M6V) =   1.984 ; LP_606-35_ plx=46.0113mas M6V
+(z-J)(M6V) =   2.268 ; GJ_3959_ plx=88.8227mas M6V
+(z-J)(M6V) =   4.877 ; GJ_1159_B_ plx=39.9509mas M6V
+=> adopt (z-J)(M6V) = 1.75 [updated 6/15/2024; i-z=1.15, i-J=2.90]
 
 Mv(M6V) =   11.47 ; Wegner07 (clearly in error, or biased somehow!)
 Mv(M6V) =   13.5  ; Schmidt-Kaler82
@@ -510,7 +525,9 @@ Mv(M6V) =   17.40 ; exemplar LHS_2026
 => adopt Mv(M6V)   = 16.32 mag [updated 12/10/2020] (M_Ks=9.22, V-Ks=7.1)
 => adopt M_G(M6V)  = 14.26 mag [updated 12/10/2020] (Mv=16.32, G-V=-2.37)
 => adopt M_Ks(M6V) =  9.22 mag [updated 12/10/2020] (Mv=16.32, V-Ks=7.10)
-
+=> adopt M_J(M6V)  = 10.17 mag [updated 6/15/2024]  (M_Ks=9.22, J-Ks=0.95]
+=> adopt M_i(M6V)  = 13.07 mag [updated 6/15/2024]  (M_J=10.17, i-J=2.90)
+=> adopt M_r(M6V)  = 15.07 mag [updated 6/15/2024]  (M_i=13.07, r-i=2.00)
 
 M_G(M6V) =   10.0201  ; CD-44_14334_ plx=63.3885mas M6V  (GaiaDR3)
 M_G(M6V) =   11.3233  ; V*_V1274_Her_ plx=60.9122mas M6V  (GaiaDR3)
@@ -574,7 +591,7 @@ M_Ks(M6V) =   9.36  ; exemplar LHS 2314
 M_Ks(M6V) =   9.388 ; Dupuy12 polynomial
 M_Ks(M6V) =   9.48  ; ter. stan. LHS 5142
 M_Ks(M6V) =   9.48  ; ter. stan. GJ 283B 
-M_Ks(M6V) =   9.60  ; exemplar LHS 2026 
+M_Ks(M6V) =   9.60  ; exemplar LHS 2026
 
 Teff(M6V) =    3190 K ; Bertone04[NextGen]
 Teff(M6V) =    3050 K ; Schmidt-Kaler82
