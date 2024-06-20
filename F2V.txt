@@ -30,22 +30,9 @@ GrayNstars standard:      78 UMa - F2V (they also use non-stan. HR 1279 - F2V)
 Skiff08 flags one stars as F2V MK standard: HD 113139 = 78 UMa (MK78)
 Morgan65 only classified 2 Hyads as F2V  (HD 27429, HD 28677), but omitted F1Vs. 
 
-For F2V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=59):
-<B-V>(F2V)   = 0.377 (+-0.005 sem, +-0.034 stdev; N=59)
-<V-I>(F2V)   = 0.441 (+-0.007 sem, +-0.038 stdev; N=59)
-<V-J>(F2V)   = 0.730 (+-0.009 sem, +-0.079 stdev; N=59)
-<V-H>(F2V)   = 0.881 (+-0.014 sem, +-0.104 stdev; N=59)
-<V-Ks>(F2V)  = 0.942 (+-0.016 sem, +-0.105 stdev; N=59)
-<J-H>(F2V)   = 0.154 (+-0.006 sem, +-0.037 stdev; N=59)
-<H-K>(F2V)   = 0.065 (+-0.004 sem, +-0.025 stdev; N=59)
-<Bt-Vt>(F2V) = 0.387 (+-0.005 sem, +-0.038 stdev; N=59)
-<V-Vt>(F2V)  =-0.041 (+-0.002 sem, +-0.010 stdev; N=59)
-<B-K>(F2V)   = 1.314 (+-0.022 sem, +-0.145 stdev; N=62)
-
 (B-V)(F2V) =  0.42 ; HD_207978_ F2V plx=37.0591mas, Mv=3.3744
 (B-V)(F2V) = 0.399 ; exemplar HD 156897 = xi Oph A = GJ 670A ([Fe/H]=-0.19)
-(B-V)(F2V) = 0.394 ; sec. stan. HD 124674 = kap01 Boo = HIP 69481 ([Fe/H]=-0.09)
+(B-V)(F2V) = 0.39  ; sec. stan. HD 124674 = kap01 Boo = HIP 69481 ([Fe/H]=-0.09)
 (B-V)(F2V) = 0.382 ; exemplar HD 9896 = HIP 7387 = HR 460 
 (B-V)(F2V) =  0.38  ; Johnson63,Garrison67
 (B-V)(F2V) =  0.38 ; HD_129502_ F2V plx=54.73mas, Mv=2.5711
@@ -76,12 +63,7 @@ and within 1 mag of the MS (N=59):
 (B-V)(F2V) =  0.334 ; HD_105211_ F2V plx=50.7919mas, Mv=2.6649
 (B-V)(F2V) =  0.33 ; HD_40136_ F2V plx=66.8573mas, Mv=2.8457
 (B-V)(F2V) =  0.32 ; HD_132052_ F2V plx=36.3454mas, Mv=2.2922
-=> adopt (B-V)(F2V)  = 0.36 [updated 12/29/2023]
-=> adopt (V-J)(F2V)  = 0.736
-=> adopt (V-H)(F2V)  = 0.875
-=> adopt (V-Ks)(F2V) = 0.925
-=> adopt (H-Ks)(F2V) = 0.050
-=> adopt (J-H)(F2V)  = 0.140
+=> adopt (B-V)(F2V) = 0.36 [updated 12/29/2023]
 
 (U-B)(F2V) = -0.051 ; exemplar HD 156897 = xi Oph A = GJ 670A ([Fe/H]=-0.19)
 (U-B)(F2V) = -0.04  ; sec. stan. HD 124674 = kap01 Boo = HIP 69481 ([Fe/H]=-0.09)
@@ -156,30 +138,52 @@ and within 1 mag of the MS (N=59):
 (V-Jj)(F2V) = 0.66  ; Johnson68
 (V-Jj)(F2V) = 0.68  ; Johnson66
 
-(V-H)(F2V)  = 0.86  ; Johnson68 
+(V-J)(F2V) = 0.710 ; B-V vs V-J for B-V=0.360
+(V-J)(F2V) = 0.830 ; sec. stan. HD 124674 = kap01 Boo ([Fe/H]=-0.09)
+=> adopt (V-J)(F2V) = 0.710 [updated 5/10/2024]
+
+(V-H)(F2V)  = 0.86  ; Johnson68
+
+(V-H)(F2V) = 0.842 ; B-V vs V-H for B-V=0.360
+(V-H)(F2V) = 1.028 ; sec. stan. HD 124674 = kap01 Boo ([Fe/H]=-0.09)
+=> adopt (V-H)(F2V) = 0.842 [updated 5/10/2024]
 
 (V-Kj)(F2V) = 0.88  ; Johnson68 
 (V-Kj)(F2V) = 0.93  ; Johnson66
 
-(V-K)(F2V)  = 0.82 ; Bessell88/Glass
+(V-K)(F2V) = 0.82 ; Bessell88/Glass
 
-(V-Ks)(F2V) = 0.864 ; Bessell88(Glass->2MASS)
-(V-Ks)(F2V) = 0.864 ; exemplar HD 28677 = 85 Tau = HIP 21137 (Hyad,[Fe/H]=+0.16)
-(V-Ks)(F2V) = 0.900 ; exemplar HD 207958 = mu Cap = GJ 9761 ([Fe/H]=-0.08)
-(V-Ks)(F2V) = 0.950 ; exemplar HD 27429 = HIP 20255 = HR 1354 (Hyad, [Fe/H]=+0.16)
-(V-Ks)(F2V) = 0.986 ; pri. stan. HD 113139 = 78 UMa = HIP 63503 (UMa member, but [Fe/H]=+0.07)
+(V-Ks)(F2V) =  0.864 ; Bessell88(Glass->2MASS)
+(V-Ks)(F2V) =  0.864 ; exemplar HD 28677 = 85 Tau = HIP 21137 (Hyad,[Fe/H]=+0.16)
+(V-Ks)(F2V) = 0.891 ; B-V vs V-Ks for B-V=0.360 
+(V-Ks)(F2V) =  0.900 ; exemplar HD 207958 = mu Cap = GJ 9761 ([Fe/H]=-0.08)
+(V-Ks)(F2V) =  0.950 ; exemplar HD 27429 = HIP 20255 = HR 1354 (Hyad, [Fe/H]=+0.16)
+(V-Ks)(F2V) =  0.986 ; pri. stan. HD 113139 = 78 UMa = HIP 63503 (UMa member, but [Fe/H]=+0.07)
+(V-Ks)(F2V) =  1.084 ; sec. stan. HD 124674 = kap01 Boo ([Fe/H]=-0.09)
+=> adopt (V-Ks)(F2V) = 0.891 [updated 5/10/2024]
+[EEM 5/10/2024: note that both the pri. and sec. standards appear to
+be affected by binarity, so their colors get redder as one samples
+longer wavelengths.]
 
 (J-H)(F2V) = 0.165 ; Bessell88/Glass
 
 (J-H)(F2V) = 0.117 ; Bessell88(Glass->2MASS)
+(J-H)(F2V) = 0.132 ; B-V vs J-H for B-V=0.36
+(J-H)(F2V) = 0.198 ; sec. stan. HD 124674 = kap01 Boo ([Fe/H]=-0.09)
+=> adopt (J-H)(F2V) = 0.132 [updated 5/10/2024]
 
 (H-K)(F2V) = 0.035 ; Bessell88/Glass
 
+(H-Ks)(F2V) = 0.049 ; B-V vs H-Ks for B-V=0.36
+(H-Ks)(F2V) = 0.057 ; sec. stan. HD 124674 = kap01 Boo ([Fe/H]=-0.09)
 (H-Ks)(F2V) = 0.063 ; Bessell88(Glass->2MASS)
+=> adopt (H-Ks)(F2V) = 0.049 [updated 5/10/2024]
 
 (J-K)(F2V) = 0.19 ; Bessell88/Glass
 
 (J-Ks)(F2V) = 0.174 ; Bessell88(Glass->2MASS)
+(J-Ks)(F2V) = 0.181 ; B-V vs J-H and B-V vs H-Ks for B-V=0.36; J-H=0.132, H-Ks=0.049
+=> adopt (J-Ks)(F2V) = 0.181 [updated 5/10/2024]
 
 (Ks-W1)(F2V) = 0.051 ; EEM trend for d<30pc for B-V=0.370
 => adopt (Ks-W1)(F2V) = 0.051 [updated 12/29/2019]
@@ -206,7 +210,24 @@ and within 1 mag of the MS (N=59):
 (G-V)(F2V) =  -0.067 ; HD_105211_ F2V_ (GaiaDR2) 
 (G-V)(F2V) =  -0.067 ; HD_40136_ F2V_ (GaiaDR2) 
 (G-V)(F2V) =  -0.061 ; HD_112412_ F2V_ (GaiaDR2) 
-=> adopt (G-V)(F2V) = -0.08 [updated 10/30/2020]
+=> adopt (G-V)(F2V) = -0.08 [updated 10/30/2020] (GaiaDR2)
+
+(G-V)(F2V) =  -0.136 ; HD_207978_ F2V plx=37.0591 mas (GaiaDR3)
+(G-V)(F2V) =  -0.115 ; HD_132052_ F2V plx=36.3454 mas (GaiaDR3)
+(G-V)(F2V) =  -0.114 ; HD_151613_ F2V plx=37.3269 mas (GaiaDR3)
+(G-V)(F2V) =  -0.112 ; HD_129502_ F2V plx=52.1815 mas (GaiaDR3)
+(G-V)(F2V) =  -0.110 ; HD_164259_ F2V plx=43.4823 mas (GaiaDR3)
+(G-V)(F2V) =  -0.103 ; HD_8723_ F2V plx=38.8391 mas (GaiaDR3)
+(G-V)(F2V) =  -0.101 ; HD_210884_ F2V plx=30.6881 mas (GaiaDR3)
+(G-V)(F2V) = -0.100 ; HD_207958_ F2V plx=37.3377 mas (GaiaDR3)
+(G-V)(F2V) =  -0.099 ; HD_29875_ F2V plx=49.0620 mas (GaiaDR3)
+(G-V)(F2V) =  -0.096 ; HD_156897_ F2V plx=57.0820 mas (GaiaDR3)
+(G-V)(F2V) =  -0.085 ; HD_119756_ F2V plx=51.9074 mas (GaiaDR3)
+(G-V)(F2V) =  -0.084 ; HD_109085_ F2V plx=54.8135 mas (GaiaDR3)
+(G-V)(F2V) =  -0.084 ; HD_40136_ F2V plx=66.8573 mas (GaiaDR3)
+(G-V)(F2V) =  -0.075 ; HD_105211_ F2V plx=50.7919 mas (GaiaDR3)
+(G-V)(F2V) =  -0.072 ; HD_56986_ F2VkF0mF0 plx=53.7692 mas (GaiaDR3)
+=> adopt (G-V)(F2V) = -0.10 [updated 5/16/2024] (GaiaDR3) 
 
 (Bp-Rp)(F2V) =  0.468  ; HD_28677 (GaiaDR2) 
 (Bp-Rp)(F2V) = 0.490   ; color trend for B-V=0.37 (GaiaDR2) 
@@ -343,17 +364,18 @@ Rad(F2V) =  1.431 Rsun ; sig Boo F2V Boyajian12
 => adopt Rad(F2V) = 1.622 Rsun [updated 9/26/2020]
 
 Mass(F2V) =  1.478 Msun ; HenryMcCarthy93 calibration for Mv=2.97
-Mass(F2V) = 1.461 Msun ; Ekers15 ML calibration for logL=0.710
-Mass(F2V) = 1.46  Msun ; EEM Teff vs. Mass fit for binaries (Teff=6820K)
+Mass(F2V) = 1.461  Msun ; Ekers15 ML calibration for logL=0.710
+Mass(F2V) = 1.46   Msun ; EEM Teff vs. Mass fit for binaries (Teff=6820K)
 Mass(F2V) = 1.451  Msun ; Ekers18 ML calibration for logL=0.710
-Mass(F2V) = 1.449 Msun ; EEM logL vs. Mass fit for binaries (logL=0.710)
-Mass(F2V) = 1.43  Msun ; pri. stan. 78 UMa (Casagrande11)
-Mass(F2V) = 1.423 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.97)
+Mass(F2V) = 1.449  Msun ; EEM logL vs. Mass fit for binaries (logL=0.710)
+Mass(F2V) = 1.43   Msun ; pri. stan. 78 UMa (Casagrande11)
+Mass(F2V) = 1.423  Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.97)
 Mass(F2V) = 1.420  Msun ; Bertelli09 tracks for Teff=6820K, logL=0.710
 Mass(F2V) = 1.42   Msun ; David15 F2 MS (rms=0.19 Msun; N=441)
-Mass(F2V) = 1.402  Msun ; Fernandes21 ML calibration for logL=0.710 
+Mass(F2V) = 1.402  Msun ; Fernandes21 ML calibration for logL=0.710
+Mass(F2V) = 1.37   Msun ; sec. stan. HD 124674 = kap01 Boo 
 Mass(F2V) =  1.31  Msun ; Habets81
-=> adopt Mass(F2V) = 1.43 Msun [updated 9/15/2023]
+=> adopt Mass(F2V) = 1.43 Msun [updated 5/15/2024]
 
 logg(F2V) = 4.11 ; exemplar HD 207958 = mu Cap = GJ 9761 ([Fe/H]=-0.08)
 logg(F2V) = 4.2  ; exemplar HD 28677 = 85 Tau = HIP 21137 (Hyad,[Fe/H]=+0.16)
@@ -393,33 +415,23 @@ HD 113139 = 78 UMa = HIP 63503 = HR 4931 = ADS 8739 A = WDS J13007+5622 = 2MASS 
   delta(V)=2.82 would predict component colors of B-V(A)=0.349,
   V(A)=5.008, B-V(B)=0.659, V(B)=7.828. Adopting Mermilliod91 values
   gives nearly same estimates: B-V(A)=0.346, V(A)=5.007, B-V(B)=0.656,
-  V(B)=7.827.
-  V=4.927(Jerzykiewicz66),
-  V=4.929+-0.004(Mermilliod91),
-  V=4.93(Johnson54,Johnson57,Johnson66),
-  V=4.93(HIP),
-  V(A)=4.939+-0.003(TYC->Johnson via
-  Mamajek06) => adopt V=4.939.
+  V(B)=7.827.  V=4.927(Jerzykiewicz66), V=4.929+-0.004(Mermilliod91),
+  V=4.93(Johnson54,Johnson57,Johnson66), V=4.93(HIP),
+  V(A)=4.939+-0.003(TYC->Johnson via Mamajek06) => adopt V=4.939.
   B-V=0.36(Johnson54,Johnson57,Johnson66),
-  B-V=0.365+-0.005(Mermilliod91),
-  B-V(A)=0.366+-0.004(TYC->Johnson via Mamajek06),
-  B-V=0.367(Jerzykiewicz66),
-  B-V=0.368+-0.010(HIP),
-  B-V=0.37(MorganAbt73), 
-  B-V=0.370(Just08),
-  and see previous estimates from splitting
-  photometry => adopt B-V=0.354.
+  B-V=0.365+-0.005(Mermilliod91), B-V(A)=0.366+-0.004(TYC->Johnson via
+  Mamajek06), B-V=0.367(Jerzykiewicz66), B-V=0.368+-0.010(HIP),
+  B-V=0.37(MorganAbt73), B-V=0.370(Just08), and see previous estimates
+  from splitting photometry => adopt B-V=0.354.
   U-B=0.009+-0.004(Mermilliod91),
-  U-B=0.01(Johnson54,Johnson57,Johnson66)
-  => adopt U-B=0.009.
-  V-Rj=0.37(Johnson66),
-  V-Rc=0.219(Just08), V-Rc=0.246(Johnson66=>Cousins via Fernie83) =>
-  adopt V-Rc=0.233.  R-Ic=0.221(Johnson66=>Cousins via Fernie83) =>
-  adopt R-Ic=0.221.  V-Ij=0.58(Johnson66),
-  V-Ic=0.458(Johnson66=>Cousins via Fernie83), V-Ic=0.45+-0.03(HIP) =>
-  adopt V-Ic=0.454.  g-r=0.157(Just08). 2MASS photometry is flagged
-  "DDA", Ks(AB)=3.953+-0.020(2MASS,flag=A) => (V-Ks) = 4.939 - 3.953 =
-  0.986.  Mass=1.43Msun(Casagrande11).
+  U-B=0.01(Johnson54,Johnson57,Johnson66) => adopt U-B=0.009.
+  V-Rj=0.37(Johnson66), V-Rc=0.219(Just08),
+  V-Rc=0.246(Johnson66=>Cousins via Fernie83) => adopt V-Rc=0.233.
+  R-Ic=0.221(Johnson66=>Cousins via Fernie83) => adopt R-Ic=0.221.
+  V-Ij=0.58(Johnson66), V-Ic=0.458(Johnson66=>Cousins via Fernie83),
+  V-Ic=0.45+-0.03(HIP) => adopt V-Ic=0.454.  g-r=0.157(Just08). 2MASS
+  photometry is flagged "DDA", Ks(AB)=3.953+-0.020(2MASS,flag=A) =>
+  (V-Ks) = 4.939 - 3.953 = 0.986.  Mass=1.43Msun(Casagrande11).
   Teffs: 6007K(Netopil17,outlier), 6482K(Reiners20), 6695K(GaiaDR3),
   6794+-37K(Bermejo13), 6800K(Gebran16), 6810K(Cenarro01),
   6810K(Marsakov95), 6918K(AllendePrieto99),
@@ -457,42 +469,53 @@ HD 124674 = kap01 Boo = HIP 69481 = 17 Boo B = HR 5328 = SBC9 807 = ADS 9173B
   F3/5IV/V: Berger62
   F5/6IV: Berger58
 
-  In some literature as Ursa Major stream member, but King03 lists its
-  final membership to UMa cluster as "N?".  Note that kap1 Boo = 17
-  Boo B = HR 5328, kap2 Boo = 17 Boo A = HR 5329 (see BSC Hoffleit91),
-  however "kap Boo B" and "kap Boo A" are not recognized by SIMBAD.
-  To make matters worse, Bakos86 refers to this star (HD 124674, HR
-  5328) as "kappa2 Bootis B", which is technically OK but then what is
-  kappa1 Bootis? Bakos86 reports the RV solution for this star, and
-  notes it was recognized to be variable by Plaskett+1921, and Bakos86
-  estimates Porb=1791.23d, K=7.2km/s, e=0.53, and they estimate that
-  the companion (considering the unknown inclination and lack of lines
-  visible for the companion) is mostly likely between K5V and F8V
-  (~0.7-1.2Msun).  Jaschek64 has 5 F2Vs and one F0V.  Companion to
-  A8IV star HD 124675 at 14" separation.  Abt says B is the F2V star,
-  while A (HD 124675) is the A7IV (Slettebak63).  Cowley69 classifies
-  binary as F1V and A9IV, but calls "Kappa Boo" its F2V standard
-  (presumably based on Johnson53). SIMBAD flags as a spectroscopic
-  binary.  plx=21.1980+-0.4118mas(GaiaDR2), no parallax in GaiaDR3.
-  V=6.62(HIP), V=6.677(Hauck97), V=6.69(BSC), V=6.69(Johnson53),
-  V=6.701+-0.014(Mermilliod91), B-V=0.39(Johnson53),
-  B-V=0.394+-0.005(Mermilliod91,HIP), U-B=-0.04(Johnson53),
-  U-B=-0.040+-0.043(Mermilliod91), V-Ic=0.48+-0.02(HIP).  2MASS
-  photometry is flagged "AAA": J=5.860+-0.023(2MASS),
-  H=5.662+-0.029(2MASS), Ks=5.605+-0.026(2MASS).
-  
-  Teffs: 6602+-292K(Bai19),
-  6660K(Anders19), 6720K(Boesgaard88), 6735K(Reiners20,McDonald12),
-  6743K(GaiaDR2#2), 6750K(GaiaDR2#1), 6753K(Schofield19),
-  6776K(Marsakov95), 6792+-31K(Zorec12), 6870K(Gray01),
-  6918K(AllendePrieto99), 7111+-507K(Casagrande11),
+  Secondary of bright 13.8" binary kap Boo (V(A)~4.5, V(B)~6.6) with
+  A7IV primary kap02 Boo (HR 5329, HD 124675). Complicated system as B
+  (the standard here) is also a spectroscopic binary, and WDS lists a
+  faint co-moving C component 121.8" from B (so at least a
+  quadruple). Note that kap1 Boo = 17 Boo B = HR 5328, kap2 Boo = 17
+  Boo A = HR 5329 (see BSC Hoffleit91), however "kap Boo B" and "kap
+  Boo A" are not recognized by SIMBAD.  To make matters worse, Bakos86
+  refers to this star (HD 124674, HR 5328) as "kappa2 Bootis B", which
+  is technically OK but then what is kappa1 Bootis?  In some
+  literature as Ursa Major stream member, but King03 lists its final
+  membership to UMa cluster as "N?".  Bakos86 reports the RV solution
+  for this star, and notes it was recognized to be variable by
+  Plaskett+1921, and Bakos86 estimates Porb=1791.23d, K=7.2km/s,
+  e=0.53, and they estimate that the companion (considering the
+  unknown inclination and lack of lines visible for the companion) is
+  mostly likely between K5V and F8V (~0.7-1.2Msun).  Jaschek64 has 5
+  F2Vs and one F0V.  Abt says B is the F2V star, while A (HD 124675)
+  is the A7IV (Slettebak63).  Cowley69 classifies binary as F1V and
+  A9IV, but calls "Kappa Boo" its F2V standard (presumably based on
+  Johnson53). SIMBAD flags as a spectroscopic binary.
+  plx=21.1980+-0.4118mas(GaiaDR2), no parallax in GaiaDR3.
+  V=6.58(TYC), V=6.62(HIP), V=6.677(Hauck97), V=6.69(BSC),
+  V=6.69(Johnson53), V=6.701+-0.014(Mermilliod91),
+  V=6.711125(GaiaDR3/synth) => adopt V=6.69.  B-V=0.386+-0.011(TYC),
+  B-V=0.39(Johnson53), B-V=0.394+-0.005(Mermilliod91,HIP) => adopt
+  V=0.39.  U-B=-0.04(Johnson53), U-B=-0.040+-0.043(Mermilliod91),
+  V-Ic=0.48+-0.02(HIP).  2MASS photometry is flagged "AAA":
+  J=5.860+-0.023(2MASS), H=5.662+-0.029(2MASS), Ks=5.605+-0.026(2MASS)
+  => V-J = 6.69-5.860 = 0.83, V-H = 6.69-5.662 = 1.028, V-Ks =
+  6.69-5.606 = 1.084.  J-H = 0.198, H-Ks = 0.057.  Teffs:
+  6602+-292K(Bai19), 6660K(Anders19), 6720K(Boesgaard88),
+  6735K(Reiners20,McDonald12), 6743K(GaiaDR2#2), 6750K(GaiaDR2#1),
+  6753K(Schofield19), 6776K(Marsakov95), 6792+-31K(Zorec12),
+  6870K(Gray01), 6918K(AllendePrieto99), 7111+-507K(Casagrande11),
   7831+-57K(Cardiel21), 7814+-266K(David15) => <Teff>=6765K.
   Metallicities: [Fe/H]=-0.14(Boesgaard88), [Fe/H]=-0.14(King03),
   [Fe/H]=-0.09(Casagrande11,Holmberg09), [Fe/H]=-0.09+-0.10(Gaspar16),
   [Fe/H]=-0.05(Marsakov95), [M/H]=-0.05(Casagrande11 => adopt
   [Fe/H]=-0.09.  logg=3.48(Casagrande11), logg=3.94+-0.14(David15),
   logg=4.18(Anders19), logg=4.25+-0.23(AllendePrieto99),.
-  Mv=3.31(Hauck98,GaiaDR2).
+  Mv=3.31(Hauck98,GaiaDR2). GaiaDR3: G=6.591415+-0.002765(GaiaDR3),
+  Bp-Rp=0.537979, Bp-G=0.194814, G-Rp=0.343164.  Mass:
+  1.322723+-0.01711841(Chulkov02/dyn), 1.35Msun(Casagrande11/Padova),
+  1.35Msun(Casagrande11/BASTI), 1.351+-0.107Msun(HardegreeUllman23),
+  1.40Msun(Reiners20), 1.40+-0.02Msun(Zorec12),
+  1.40+-0.07Msun(Kervella19), 1.59Msun(David15) => adopt
+  Mass~1.37Msun.
   
 # Deprecated Standards
 
@@ -785,5 +808,17 @@ HD 109085 = HIP 61174
    since the #2 values seem to be consistent with rounded versions of
    #1.
 
+# Notes on nearby Hipparcos stars with F2V types (mostly from Houk)
 
-
+For F2V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=59):
+<B-V>(F2V)   = 0.377 (+-0.005 sem, +-0.034 stdev; N=59)
+<V-I>(F2V)   = 0.441 (+-0.007 sem, +-0.038 stdev; N=59)
+<V-J>(F2V)   = 0.730 (+-0.009 sem, +-0.079 stdev; N=59)
+<V-H>(F2V)   = 0.881 (+-0.014 sem, +-0.104 stdev; N=59)
+<V-Ks>(F2V)  = 0.942 (+-0.016 sem, +-0.105 stdev; N=59)
+<J-H>(F2V)   = 0.154 (+-0.006 sem, +-0.037 stdev; N=59)
+<H-K>(F2V)   = 0.065 (+-0.004 sem, +-0.025 stdev; N=59)
+<Bt-Vt>(F2V) = 0.387 (+-0.005 sem, +-0.038 stdev; N=59)
+<V-Vt>(F2V)  =-0.041 (+-0.002 sem, +-0.010 stdev; N=59)
+<B-K>(F2V)   = 1.314 (+-0.022 sem, +-0.145 stdev; N=62)

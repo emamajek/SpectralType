@@ -59,18 +59,6 @@ curvature indicative of some other type of photospheric velocity
 field, possibly having velocities substantially larger than typical
 granulation velocities."
 
-For F0V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=42):
-<V-I>(F0V)   = 0.362 (+-0.014 sem, +-0.074 stdev; N=42)
-<V-J>(F0V)   = 0.621 (+-0.019 sem, +-0.109 stdev; N=42)
-<V-H>(F0V)   = 0.739 (+-0.023 sem, +-0.128 stdev; N=42)
-<V-Ks>(F0V)  = 0.805 (+-0.026 sem, +-0.143 stdev; N=42)
-<J-H>(F0V)   = 0.120 (+-0.007 sem, +-0.045 stdev; N=42)
-<H-K>(F0V)   = 0.062 (+-0.005 sem, +-0.028 stdev; N=42)
-<Bt-Vt>(F0V) = 0.326 (+-0.010 sem, +-0.046 stdev; N=41)
-<V-Vt>(F0V)  =-0.035 (+-0.001 sem, +-0.001 stdev; N=41)
-<B-K>(F0V)   = 1.107 (+-0.033 sem, +-0.206 stdev; N=44)
-
 (B-V)(F0V) =  0.37 ; HD_25867_ F0 plx=35.9319mas, Mv=2.9774
 (B-V)(F0V) =  0.36 ; HD_110380_ F0mF2V plx=78.5233mas, Mv=2.9649
 (B-V)(F0V) =  0.35 ; HD_129926A_ F0VSr plx=32.6457mas, Mv=2.6791
@@ -100,11 +88,6 @@ and within 1 mag of the MS (N=42):
 (B-V)(F0V) = 0.257 ; prim. stan. HD 23585 (dereddened by EEM E(B-V)=0.04)
 (B-V)(F0V) =  0.221 ; HD_83287_ F0V plx=25.9788mas, Mv=2.3491
 => adopt (B-V)(F0V) = 0.305 [updated 12/29/2023]
-=> adopt (V-J)(F0V) = 0.609 [updated 12/29/2023]
-=> adopt (V-H)(F0V) = 0.712 [updated 12/29/2023]
-=> adopt (W1-W2)(F0V)= -0.026 [updated 12/29/2023]
-=> adopt (W1-W3)(F0V)= -0.050 [updated 12/29/2023]
-=> adopt (W1-W4)(F0V)= 0.003 [updated 12/29/2023]
 
 (U-B)(F0V) =  0.02  ; JohnsonMorgan53
 (U-B)(F0V) =  0.03  ; Fitzgerald70
@@ -151,7 +134,13 @@ and within 1 mag of the MS (N=42):
 (V-Jj)(F0V) = 0.55 ; Johnson68
 (V-Jj)(F0V) = 0.58 ; Johnson66
 
+(V-J)(F0V) = 0.609 ; B-V vs V-J for B-V=0.305
+=> adopt (V-J)(F0V) = 0.609 [updated 5/10/2024]
+
 (V-Hj)(F0V) = 0.73 ; Johnson68
+
+(V-H)(F0V) = 0.712 ; B-V vs V-H for B-V=0.305
+=> adopt (V-H)(F0V) = 0.712 [updated 5/10/2024]
 
 (V-Kj)(F0V) = 0.74 ; Johnson68 
 (V-Kj)(F0V) = 0.79 ; Johnson66
@@ -177,25 +166,44 @@ and within 1 mag of the MS (N=42):
 (J-K)(F0V) = 0.16 ; Bessell88/Glass
 
 (J-Ks)(F0V) = 0.145 ; Bessell88(Glass->2MASS)
+(J-Ks)(F0V) = 0.150 ; B-V vs J-H and B-V vs H-Ks for B-V=0.305 (J-H=0.104, H-Ks=0.046)
+=> adopt (J-Ks)(F0V) = 0.150 [updated 5/10/2024]
 
-(G-V)(F0V) =  -0.095 ; * 47 Ari PM* F0V(e)
-(G-V)(F0V) =  -0.094 ; HD 204153 PM* F0V
-(G-V)(F0V) =  -0.091 ; HD 213135 PM* F0V
-(G-V)(F0V) =  -0.088 ; * pi. Psc PM* F0V
-(G-V)(F0V) =  -0.084 ; HD 109799 gD* F0V
-(G-V)(F0V) =  -0.079 ; * 47 Cas PM* F0V
-(G-V)(F0V) =  -0.076 ; * pi.02 Gru PM* F0V
-(G-V)(F0V) =  -0.065 ; * 53 Her PM* F0V
-(G-V)(F0V) =  -0.065 ; * m Hya A F0VSr
-(G-V)(F0V) = -0.061 ; fit to Gray01/03/06 F dwarfs for B-V=0.295 (see below)
-(G-V)(F0V) = -0.057 ; fit to SIMBAD F dwarfs d<60pc
-(G-V)(F0V) =  -0.053 ; * lam Ari PM* F0V
-(G-V)(F0V) =  -0.050 ; * chi Cet PM* F0V
-(G-V)(F0V) =  -0.046 ; * eps Cep dS* F0V(Sr)
-(G-V)(F0V) =  -0.045 ; HD_195627_ F0V_
-(G-V)(F0V) =  -0.045 ; * phi01 Pav PM* F0V
-(G-V)(F0V) =  -0.034 ; * 42 Lyn * F0V
-=> adopt (G-V)(F0V) = -0.06 [updated 10/30/2020]
+(G-V)(F0V) =  -0.095 ; * 47 Ari PM* F0V(e) (GaiaDR2) 
+(G-V)(F0V) =  -0.094 ; HD 204153 PM* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.091 ; HD 213135 PM* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.088 ; * pi. Psc PM* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.084 ; HD 109799 gD* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.079 ; * 47 Cas PM* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.076 ; * pi.02 Gru PM* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.065 ; * 53 Her PM* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.065 ; * m Hya A F0VSr (GaiaDR2) 
+(G-V)(F0V) = -0.061 ; fit to Gray01/03/06 F dwarfs for B-V=0.295 (see below) (GaiaDR2) 
+(G-V)(F0V) = -0.057 ; fit to SIMBAD F dwarfs d<60pc (GaiaDR2) 
+(G-V)(F0V) =  -0.053 ; * lam Ari PM* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.050 ; * chi Cet PM* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.046 ; * eps Cep dS* F0V(Sr) (GaiaDR2) 
+(G-V)(F0V) =  -0.045 ; HD_195627_ F0V_ (GaiaDR2) 
+(G-V)(F0V) =  -0.045 ; * phi01 Pav PM* F0V (GaiaDR2) 
+(G-V)(F0V) =  -0.034 ; * 42 Lyn * F0V (GaiaDR2) 
+=> adopt (G-V)(F0V) = -0.06 [updated 10/30/2020] (GaiaDR2)
+
+(G-V)(F0V) =   -0.111 ; HD_11171_ F0V plx=42.5848 mas (GaiaDR3)
+(G-V)(F0V) =  -0.096 ; HD_12230_ F0V plx=30.16 mas (GaiaDR3)
+(G-V)(F0V) =  -0.093 ; HD_9919_ F0V plx=30.3493 mas (GaiaDR3)
+(G-V)(F0V) =  -0.087 ; HD_81937_ F0V plx=42.0904 mas (GaiaDR3)
+(G-V)(F0V) =  -0.085 ; HD_213135_ F0V plx=25.0139 mas (GaiaDR3)
+(G-V)(F0V) =  -0.085 ; HD_129926A_ F0VSr plx=32.6457 mas (GaiaDR3)
+(G-V)(F0V) =  -0.080 ; HD_212132_ F0V plx=25.2139 mas (GaiaDR3)
+(G-V)(F0V) =  -0.077 ; HD_204153_ F0V plx=29.3328 mas (GaiaDR3)
+(G-V)(F0V) =  -0.077 ; HD_152598_ F0V plx=33.6014 mas (GaiaDR3)
+(G-V)(F0V) =  -0.076 ; HD_195627_ F0V plx=35.6214 mas (GaiaDR3)
+(G-V)(F0V) =  -0.074 ; HD_11257_ F0Vs plx=24.0374 mas (GaiaDR3)
+(G-V)(F0V) =  -0.069 ; HD_195069_ F0V: plx=25.6035 mas (GaiaDR3)
+(G-V)(F0V) =  -0.062 ; HD_11973_ F0V plx=24.7748 mas (GaiaDR3)
+(G-V)(F0V) =   -0.050 ; HD_49434_ F0V+ plx=24.9902 mas (GaiaDR3)
+(G-V)(F0V) =   -0.038 ; HD_83287_ F0V plx=25.9788 mas (GaiaDR3)
+=> adopt (G-V)(F0V) = -0.075 [updated 5/16/2024] (GaiaDR3) 
 
 (Bp-Rp)(F0V) = 0.384    ; color trend for B-V=0.295
 (Bp-Rp)(F0V) =  0.3995  ; HD_195627
@@ -218,6 +226,10 @@ and within 1 mag of the MS (N=42):
 
 (Ks-W1)(F0V) = 0.049 ; EEM trend for d<30pc for B-V=0.29
 => adopt (Ks-W1)(F0V) = 0.049 [updated 12/29/2019]
+
+=> adopt (W1-W2)(F0V)= -0.026 [updated 12/29/2023]
+=> adopt (W1-W3)(F0V)= -0.050 [updated 12/29/2023]
+=> adopt (W1-W4)(F0V)= 0.003 [updated 12/29/2023]
 
 (g-V)(F0V) = 0.060 ; Jordi06 B-V=>g-V for B-V=0.295
 => adopt (g-V)(F0V) = 0.060 [updated 9/1/2023]
@@ -909,4 +921,18 @@ Gaia G magnitude for bright stars corrected following Evans18.
 
 For F dwarfs only 0.29 < B-V < 0.60:
 G-V = 7.7724444920e-2 - 5.5571168997e-1*(B-V) + 2.8608874470e-1*(B-V)^2  (rms=0.017mag)
+
+# Notes on nearby Hipparcos stars with F0V types (mostly from Houk)
+
+For F0V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=42):
+<V-I>(F0V)   = 0.362 (+-0.014 sem, +-0.074 stdev; N=42)
+<V-J>(F0V)   = 0.621 (+-0.019 sem, +-0.109 stdev; N=42)
+<V-H>(F0V)   = 0.739 (+-0.023 sem, +-0.128 stdev; N=42)
+<V-Ks>(F0V)  = 0.805 (+-0.026 sem, +-0.143 stdev; N=42)
+<J-H>(F0V)   = 0.120 (+-0.007 sem, +-0.045 stdev; N=42)
+<H-K>(F0V)   = 0.062 (+-0.005 sem, +-0.028 stdev; N=42)
+<Bt-Vt>(F0V) = 0.326 (+-0.010 sem, +-0.046 stdev; N=41)
+<V-Vt>(F0V)  =-0.035 (+-0.001 sem, +-0.001 stdev; N=41)
+<B-K>(F0V)   = 1.107 (+-0.033 sem, +-0.206 stdev; N=44)
 

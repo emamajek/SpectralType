@@ -15,20 +15,6 @@ Morgan71 standard:  rho Gem - F1V (but Morgan65 calls it a fundamental F0V stand
 Cowley74 standard:  37 UMa  - F1V
 Strassmeier90 stan: alf01 CVn (HR 4914) - F1V 
 
-
-For F1V Hipparcos stars within 75pc, with parallax S/N > 8, 
-and within 1 mag of the MS (N=6):
-<B-V>(F1V)   = 0.377 (+-0.019 sem, +-0.049 stdev; N=6)
-<V-I>(F1V)   = 0.443 (+-0.025 sem, +-0.064 stdev; N=6)
-<V-J>(F1V)   = 0.715 (+-0.035 sem, +-0.102 stdev; N=6)
-<V-H>(F1V)   = 0.849 (+-0.047 sem, +-0.127 stdev; N=6)
-<V-Ks>(F1V)  = 0.891 (+-0.047 sem, +-0.128 stdev; N=6)
-<J-H>(F1V)   = 0.135 (+-0.019 sem, +-0.039 stdev; N=6)
-<H-K>(F1V)   = 0.046 (+-0.012 sem, +-0.024 stdev; N=6)
-<Bt-Vt>(F1V) = 0.378 (+-0.025 sem, +-0.051 stdev; N=6)
-<V-Vt>(F1V)  =-0.050 (+-0.005 sem, +-0.013 stdev; N=6)
-<B-K>(F1V)   = 1.270 (+-0.068 sem, +-0.182 stdev; N=6)
-
 (B-V)(F1V) = 0.377 ; 6 HIP d<75pc F1V (+-0.019 sem, +-0.049 stdev)
 (B-V)(F1V) =  0.363 ; HD_10830A_ F1V plx=35.6418mas, Mv=3.0998
 (B-V)(F1V) =  0.36 ; HD_13594A_ F1V plx=24.0011mas, Mv=3.4211
@@ -55,12 +41,7 @@ and within 1 mag of the MS (N=6):
 (B-V)(F1V) =  0.296 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
 (B-V)(F1V) =  0.286 ; HD_86629_ F1V plx=30.0499mas, Mv=2.6112
 (B-V)(F1V) =  0.286 ; HD_173649_ F1Vnn plx=20.6386mas, Mv=2.1584
-=> adopt (B-V)(F1V)  = 0.33 [updated 12/29/2023]
-=> adopt (V-J)(F1V)  = 0.655 [updated 12/29/2023]
-=> adopt (V-H)(F1V)  = 0.772 [updated 12/29/2023]
-=> adopt (V-Ks)(F1V) = 0.819 [updated 12/29/2023]
-=> adopt (H-Ks)(F1V) = 0.047 [updated 12/29/2023]
-=> adopt (J-H)(F1V)  = 0.117 [updated 12/29/2023]
+=> adopt (B-V)(F1V) = 0.33 [updated 12/29/2023]
 
 (U-B)(F1V) =   0.041 ; HD 141891 = bet TrA = GJ 601 A = HIP 77952 (F1V,Gray06) ([Fe/H]=-0.29)
 (U-B)(F1V) =   0.028 ; HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 (F1V,Gray03) ([Fe/H]=-0.02)
@@ -96,7 +77,24 @@ and within 1 mag of the MS (N=6):
 (V-Ic)(F1V) = 0.397 ; exemplar HD 105452 = alf Crv = GJ 455.3 = GJ 9389 = HIP 59199 ([Fe/H]=-0.08)
 => adopt (V-Ic)(F1V) = 0.38 [updated 12/1/2023; V-Rc=0.19, R-Ic=0.19]
 
-(V-Ks)(F1V) = 0.832 +- 0.042 ; N=2 Gray06 F1V w/ grade A Ks mag & HIP V
+(V-J)(F1V) = 0.655 ; B-V vs V-J for B-V=0.330
+=> adopt (V-J)(F1V) = 0.655 [updated 5/10/2024]
+
+(V-H)(F1V) = 0.772 ; B-V vs V-H for B-V=0.330
+=> adopt (V-H)(F1V) = 0.772 [updated 5/10/2024]
+
+(V-Ks)(F1V) = 0.819 ; B-V vs V-Ks for B-V=0.330
+(V-Ks)(F1V) = 0.832 +-0.042 ; N=2 Gray06 F1V w/ grade A Ks mag & HIP V
+=> adopt (V-Ks)(F1V) = 0.819 [updated 5/10/2024]
+
+(J-H)(F1V) = 0.117 ; B-V vs J-H for B-V=0.330
+=> adopt (J-H)(F1V) = 0.117 [updated 5/10/2024]
+
+(H-Ks)(F1V) = 0.047 ; B-V vs H-Ks for B-V=0.330
+=> adopt (H-Ks)(F1V) = 0.047 [updated 5/10/2024]
+
+(J-Ks)(F1V) = 0.164 ; B-V vs J-H and B-V vs H-Ks for B-V=0.330 (J-H=0.117, H-Ks=0.047)
+=> adopt (J-Ks)(F1V) = 0.164 [updated 5/10/2024]
 
 (G-V)(F1V) = -0.102 ; HD_58946_ F1V_ (GaiaDR2)
 (G-V)(F1V) = -0.088 ; HD_21844_ F1V (GaiaDR2)
@@ -111,7 +109,24 @@ and within 1 mag of the MS (N=6):
 (G-V)(F1V) = -0.056 ; HD_86629_ F1V_ (GaiaDR2)
 (G-V)(F1V) = -0.055 ; HD_206043_ F1V(n)_ (GaiaDR2)
 (G-V)(F1V) = -0.049 ; HD_219080_ F1V_ (GaiaDR2)
-=> adopt (G-V)(F1V) = -0.07 [updated 10/30/2020] (GaiaDR2) 
+=> adopt (G-V)(F1V) = -0.07 [updated 10/30/2020] (GaiaDR2)
+
+(G-V)(F1V) =   -0.104 ; HD_13594A_ F1V plx=24.0011 mas (GaiaDR3)
+(G-V)(F1V) =  -0.087 ; HD_10830A_ F1V plx=35.6418 mas (GaiaDR3)
+(G-V)(F1V) =  -0.085 ; HD_91480_ F1V plx=37.3444 mas (GaiaDR3)
+(G-V)(F1V) =  -0.085 ; HD_58946_ F1V plx=55.41 mas (GaiaDR3)
+(G-V)(F1V) =  -0.082 ; HD_217792_ F1VFe-0.8 plx=34.3871 mas (GaiaDR3)
+(G-V)(F1V) =  -0.081 ; HD_219080_ F1V plx=40.2940 mas (GaiaDR3)
+(G-V)(F1V) = -0.076 ; HD_40292_ F1V plx=28.3302 mas (GaiaDR3)
+(G-V)(F1V) =  -0.070 ; HD_86629_ F1V plx=30.0499 mas (GaiaDR3)
+(G-V)(F1V) =  -0.067 ; HD_142703_ F1VskA1.5mA1.5_lB plx=19.9832 mas (GaiaDR3)
+(G-V)(F1V) =  -0.065 ; HD_141891_ F1V plx=80.4854 mas (GaiaDR3)
+(G-V)(F1V) =  -0.063 ; HD_105452_ F1V plx=66.7696 mas (GaiaDR3)
+(G-V)(F1V) =  -0.062 ; HD_206043_ F1Vnn plx=25.0683 mas (GaiaDR3)
+(G-V)(F1V) =   -0.054 ; HD_225003_ F1V plx=26.6268 mas (GaiaDR3)
+(G-V)(F1V) =   -0.012 ; HD_27290_ F1V plx=48.9494 mas (GaiaDR3)
+(G-V)(F1V) =    0.064 ; HD_173649_ F1Vnn plx=20.6386 mas (GaiaDR3)
+=> adopt (G-V)(F1V) = -0.08 [updated 5/16/2024] (GaiaDR3) 
 
 (Bp-Rp)(F1V) =  0.4324  ; HD_27290
 (Bp-Rp)(F1V) = 0.434    ; color trend for B-V=0.33
@@ -499,4 +514,18 @@ HD 219080 = 7 And = GJ 891.1 = GJ 9813 = HIP 114570 = HR 8830 = Gaia DR3 1990723
    Teff=7096+-64K(Blackwell98), Teff=7194+-33K(Zorec12),
    Teff=7194K(Erspamer03), logg=4.16(Erspamer03),
    [Fe/H]=-0.02(Erspamer02).
-   
+
+# Notes on nearby stars with F1V types (mostly from Houk)
+
+For F1V Hipparcos stars within 75pc, with parallax S/N > 8, 
+and within 1 mag of the MS (N=6):
+<B-V>(F1V)   = 0.377 (+-0.019 sem, +-0.049 stdev; N=6)
+<V-I>(F1V)   = 0.443 (+-0.025 sem, +-0.064 stdev; N=6)
+<V-J>(F1V)   = 0.715 (+-0.035 sem, +-0.102 stdev; N=6)
+<V-H>(F1V)   = 0.849 (+-0.047 sem, +-0.127 stdev; N=6)
+<V-Ks>(F1V)  = 0.891 (+-0.047 sem, +-0.128 stdev; N=6)
+<J-H>(F1V)   = 0.135 (+-0.019 sem, +-0.039 stdev; N=6)
+<H-K>(F1V)   = 0.046 (+-0.012 sem, +-0.024 stdev; N=6)
+<Bt-Vt>(F1V) = 0.378 (+-0.025 sem, +-0.051 stdev; N=6)
+<V-Vt>(F1V)  =-0.050 (+-0.005 sem, +-0.013 stdev; N=6)
+<B-K>(F1V)   = 1.270 (+-0.068 sem, +-0.182 stdev; N=6)
