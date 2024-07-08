@@ -265,16 +265,19 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 
 (J-Ks)(K7V) = 0.757 ; Bessell88(Glass->2MASS)
 
-
-(Ks-W2)(K7V) =  0.060 ; Bentley18
-
-(W1-W2)(K7V) = -0.031 ; Bentley18
-
-(Ks-W1)(K7V) = 0.091 ; Bentley18
+(Ks-W1)(K7V) = 0.091 ; Bentley19
 (Ks-W1)(K7V) = 0.112 ; dwarf color locus for V-Ks=3.37
 => adopt (Ks-W1)(K7V) = 0.112 [updated 3/24/2024]
 
+(Ks-W2)(K7V) = 0.062 (+-0.09 rms) ; Bentley19
+=> adopt (Ks-W2)(K7V) = 0.062 [updated 6/20/2024]
+
+(W1-W2)(K7V) = -0.029 (+-0.046 rms) ; Bentley19
+=> adopt (W1-W2)(K7V) = -0.029 [updated 6/20/2024]
+
+
 (G-J)(K7V) = 1.890 ; Bentley18
+(G-J)(K7V) = 1.999 (+-0.302 rms) ; Bentley19 
 
 (G-V)(K7V) = -0.560  ; ter. stan. GJ 764.1B = HD 184860B ([Fe/H]=-0.04) (GaiaDR3)
 (G-V)(K7V) = -0.561  ; exemplar GJ 773 = HD 188807 (GaiaDR3) 
@@ -307,6 +310,7 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 (G-Ks)(K7V) = 2.78  ; (V-Ks)=3.37, (G-V)=-0.59
 (G-Ks)(K7V) = 2.780 ; dwarf color locus for V-Ks=3.37
 (G-Ks)(K7V) =  2.794 ; sec. stan. GJ 673 = HD 157881 = HIP 85295 ([Fe/H]=+0.28) (GaiaDR3)
+(G-Ks)(K7V) = 2.826 (+-0.309 rms) ; Bentley19 
 (G-Ks)(K7V) =  2.843 ; CD-57_1079_ plx=85.5301mas (K7Vk, Gray06) (GaiaDR3)
 (G-Ks)(K7V) =  2.881 ; ter. stan. GJ 34B = eta Cas B = HD 4614B ([Fe/H]=-0.28) (GaiaDR3)
 (G-Ks)(K7V) =  2.889 ; BD+62_780_ plx=74.1187mas (K7V, Reid95) (GaiaDR3)
@@ -379,6 +383,7 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 => adopt (g-G)(K7V) = 1.51 [updated 6/29/2023]
 
 (u-g)(K7V)   =  0.308 ; V*_QQ_Peg_ plx=24.212mas K7V
+(u-g)(K7V)   = 2.43 ; Kesseli17 
 (u-g)(K7V)   =  2.47 ; Fukugita11 (for Teff=3879K, a bit on the cool side)
 (u-g)(K7V)   = 2.56 ; Covey07
 (u'-g')(K7V) = 2.769 ; Smith02 u'-g' calibration for U-B=1.240
@@ -386,7 +391,7 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 (u-g)(K7V)   =  2.869 ; HG_7-249_ plx=22.2357mas K7V
 (u-g)(K7V)   =  4.069 ; GJ_1176.0_ plx=40.6135mas K7V
 (u-g)(K7V)   =  4.267 ; BD+07_2929_ plx=21.1949mas K7
-=> adopt (u-g)(K7V) = 2.77: [updated 4/20/2024]
+=> adopt (u-g)(K7V) = 2.66: [updated 6/20/2024]
 
 (g-r)(K7V) =  0.879 ; GJ_221_ plx=49.2485mas K7V/M0V
 (g-r)(K7V) =  0.979 ; GJ_301_A_ plx=46.5586mas K7V
@@ -395,6 +400,7 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 (g-r)(K7V) =  1.094 ; GJ_383_ plx=55.49mas K7V
 (g-r)(K7V) =  1.099 ; GJ_414_A_ plx=84.18mas K7V
 (g-r)(K7V) =  1.127 ; GJ_708.2_ plx=54.73mas K7V
+(g-r)(K7V) = 1.14  ; Kesseli17 
 (g-r)(K7V) =  1.169 ; GJ_532_ plx=70.15mas K7V
 (g-r)(K7V) = 1.188 ; ter. stan. GJ 786 = HD 193202 = HIP 99427 ([Fe/H]~0.0) (Just08)
 (g-r)(K7V) = 1.198 ; exemplar GJ 773 = HD 188807 (Just08)
@@ -420,17 +426,18 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 (g-r)(K7V) =  1.321 ; GJ_3008_ plx=45.9905mas K7V
 (g-r)(K7V) =  1.322 ; GJ_9117_ plx=47.5505mas K7
 (g-r)(K7V) =  1.325 ; GJ_334_ plx=68.98mas K7V
-(g-r)(K7V) = 1.34  ; Covey07
+(g-r)(K7V) = 1.34 ; Covey07
 (g-r)(K7V) = 1.34 ; Fukugita11
 (g-r)(K7V) =  1.349 ; GJ_642_ plx=49.8011mas K7V
 (g-r)(K7V) =  1.386 ; GJ_9413_ plx=51.9268mas K7V
 (g-r)(K7V) =  1.406 ; GJ_215_ plx=74.12mas K7V
 (g-r)(K7V) =  1.42  ; GJ_342_ plx=47.8351mas K7V
-=> adopt (g-r)(K7V) = 1.23 [updated 4/18/2024]
+=> adopt (g-r)(K7V) = 1.22 [updated 6/20/2024]
 
 (r-i)(K7V) =  0.345 ; GJ_1144_ plx=54.79mas K7V
 (r-i)(K7V) = 0.356 ; pri. stan. GJ 820B = 61 Cyg B = HD 201092 ([Fe/H]=-0.21)
-(r-i)(K7V) = 0.459 ; sec. stan. GJ 673 = HD 157881 ([Fe/H]=+0.28) (Just08) SDSS 
+(r-i)(K7V) = 0.459 ; sec. stan. GJ 673 = HD 157881 ([Fe/H]=+0.28) (Just08) SDSS
+(r-i)(K7V) = 0.47  ; Kesseli17 
 (r-i)(K7V) = 0.476 ; exemplar GJ 773 = HD 188807 (Just08)
 (r-i)(K7V) = 0.500 ; exemplar GJ 532 = HD 234078 (Just08) ([Fe/H]=+0.15)
 (r-i)(K7V) = 0.500 ; ter. stan GJ 265A = HIP 34222 (Just08) ([Fe/H]~-0.1)
@@ -439,6 +446,7 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 (r-i)(K7V) = 0.518 ; exemplar GJ 455.1 = HD 105065 (Just08) 
 (r-i)(K7V) = 0.527 ; ter. stan. GJ 430 = HIP 56199 (Just08)
 (r-i)(K7V) = 0.54  ; Fukugita11
+(r-i)(K7V) = 0.54  ; Covey07
 (r-i)(K7V) = 0.546 ; Bilir05 calibration for R-Ic=0.74
 (r-i)(K7V) = 0.60 (+-0.12 rms) ; Cifuentes20
 (r-i)(K7V) =  0.674 ; GJ_9266_ plx=49.2888mas K7V
@@ -464,10 +472,17 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 (r-i)(K7V) =  1.043 ; GJ_414_A_ plx=84.18mas K7V
 (r-i)(K7V) =  1.232 ; GJ_185_ plx=119.34mas K7V
 (r-i)(K7V) =  1.286 ; GJ_673_ plx=129.65mas K7V
-=> adopt (r-i)(K7V) = 0.51 [updated 4/18/2024]
+=> adopt (r-i)(K7V) = 0.51 [updated 6/20/2024]
 [EEM 4/7/2024: odd distribution, most standards and exemplars are ~0.36-0.53, but
 most nearby K7Vs in SIMBAD are ~0.8-1.3. I weight the standards more. Or might there
 be a systematic issue with the Just08 r-i colors?]
+
+(i-z)(K7V) = 0.28 ; Kesseli17 
+(i-z)(K7V) = 0.30 ; Covey07
+=> adopt (i-z)(K7V) = 0.29 [updated 6/20/2024]
+
+(z-J)(K7V) = 1.01 ; Covey07
+=> adopt (z-J)(K7V) = 1.01 [updated 6/20/2024]
 
 (g-V)(K7V) = 0.723 ; Jordi06 B-V=>g-V for B-V=1.34
 (g-V)(K7V) = 0.725 ; Just08/Chonis08 B-V=>g-V for B-V=1.34
