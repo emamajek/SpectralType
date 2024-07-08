@@ -239,14 +239,21 @@ granulation velocities."
 (u'-g')(F0V) = 1.202 ; Fukugita96 u'-g' calibration for U-B=0.045
 => adopt (u-g)(F0V) = 1.18 [updated 4/18/2024]
 
-(g-r)(F0V)   = 0.161 ; Jordi06 (V-R)=>(g-r) for V-R=0.167
-(g-r)(F0V)   = 0.10  ; Covey07
-(g-r)(F0V)   = 0.080 ; Bilir05 (B-V)=>(g-r) for B-V=0.295
-=> adopt (g-r)(F0V) = 0.10 [updated 10/10/2020]
+(g-r)(F0V) = 0.161 ; Jordi06 (V-R)=>(g-r) for V-R=0.167
+(g-r)(F0V) = 0.10  ; Covey07
+(g-r)(F0V) = 0.080 ; Bilir05 (B-V)=>(g-r) for B-V=0.295
+=> adopt (g-r)(F0V) = 0.10 [updated 6/20/2024]
 
+(r-i)(F0V) = -0.01  ; Covey07 
 (r-i)(F0V) = -0.036 ; Bilir05 calibration for R-Ic=0.18)
 (r-i)(F0V) = -0.043 ; Jordi06 pop I calibration for (R-Ic)=0.18
-=> adopt (r-i)(F0V) = -0.04 [updated 4/1/2024]
+=> adopt (r-i)(F0V) = -0.04 [updated 6/20/2024]
+
+(i-z)(F0V) = -0.09 ; Covey07
+=> adopt (i-z)(F0V) = -0.09 [updated 6/20/2024]
+
+(z-J)(F0V) = 0.59 ; Covey07
+=> adopt (z-J)(F0V) = 0.59 [updated 6/20/2024]
 
 Teff(F0V) = 6836 K ; exemplar HD 9919 = HR 463 = pi Psc (metal poor [Fe/H] ~ -0.5)
 Teff(F0V) =   6903 K ; Boyajian12

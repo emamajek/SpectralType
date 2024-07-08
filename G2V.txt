@@ -246,19 +246,21 @@ to be somewhat redder than that for the other standards.
 => adopt (Ks-W1)(G2V) = 0.061 [updated 12/29/2019]
 
 (u-g)(G2V)   = 1.213 ; Sun - Fukugita11(Thullier03/SED)
-(u-g)(G2V)   = 1.22  ; Fukugita11 
+(u-g)(G2V)   = 1.22  ; Fukugita11
+(u-g)(G2V)   = 1.23  ; Kesseli17 
 (u-g)(G2V)   = 1.234 ; Sun - Fukugita11(Colina96/SED)
 (u'-g')(G2V) = 1.327 ; Smith02 u'-g' calibration for U-B=0.156
 (u'-g')(G2V) = 1.355 ; Fukugita96 u'-g' calibration for U-B=0.156
 (u-g)(G2V)   = 1.37  ; Covey07
 (u-g)(G2V)   = 1.43 +-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
-=> adopt (u-g)(G2V) = 1.33 [updated 9/1/2023]
-[EEM 4/20/2024: the spread in estimated values (~0.22 mag!) is surprisingly large for the Sun's spectral type!]
+=> adopt (u-g)(G2V) = 1.28 [updated 6/20/2024] (surprisingly large scatter!)
 
 (g-r)(G2V) = 0.417 +-0.04(rms) ; Fukugita11 g-r vs Teff relation (eqn 1) for Teff=5772K
-(g-r)(G2V) = 0.43  ; Fukugita11 
+(g-r)(G2V) = 0.43  ; Fukugita11
+(g-r)(G2V) = 0.44  ; Kesseli17 
 (g-r)(G2V) = 0.44 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
 (g-r)(G2V) = 0.441 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
+(g-r)(G2V) = 0.45  ; Covey07
 (g-r)(G2V) = 0.451 ; Sun - Fukugita11(Thullier03/SED)
 (g-r)(G2V) = 0.453 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (g-r)(G2V) = 0.463 ; Just08/Chonis08 B-V=>g-r for B-V=0.650
@@ -266,7 +268,7 @@ to be somewhat redder than that for the other standards.
 (g-r)(G2V) = 0.477 ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
 (g-r)(G2V) = 0.479 ; Bilir05 (B-V)=>(g-r) for B-V=0.650
 (g-r)(G2V) = 0.479 ; Sun - Fukugita11(Colina96/SED) 
-=> adopt (g-r)(G2V) = 0.47 [updated 2/1/2024]
+=> adopt (g-r)(G2V) = 0.45 [updated 6/20/2024] 
 
 (r-i)(G2V) = 0.106 ; Sun - Fukugita11(Colina96/SED) 
 (r-i)(G2V) = 0.108 ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
@@ -276,12 +278,19 @@ to be somewhat redder than that for the other standards.
 (r-i)(G2V) = 0.12  ; Fukugita11
 (r-i)(G2V) = 0.124 ; Bilir05 calibration for R-Ic=0.334
 (r-i)(G2V) = 0.127 ; Sun - Fukugita11(Thuillier03/SED)
-=> adopt (r-i)(G2V) = 0.11 [updated 4/1/2024]
+(r-i)(G2V) = 0.15  ; Kesseli17 
+(r-i)(G2V) = 0.16  ; Covey07
+=> adopt (r-i)(G2V) = 0.12 [updated 6/20/2024]
 
+(i-z)(G2V) = 0.07  ; Kesseli17 
+(i-z)(G2V) = 0.04  ; Covey07
 (i-z)(G2V) = 0.03 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
 (i-z)(G2V) = 0.020 ; Sun - Fukugita11(Colina96/SED)
 (i-z)(G2V) = 0.015 ; Sun - Fukugita11(Thuillier03/SED)
-=> adopt (i-z)(G2V) = 0.02 [updated 2/1/2024]
+=> adopt (i-z)(G2V) = 0.03 [updated 6/20/2024]
+
+(z-J)(G2V) = 0.84 ; Covey07
+=> adopt (z-J)(G2V) = 0.84 [updated 6/20/2024] 
 
 (g-V)(G2V) = 0.282 ; Just08/Chonis08 B-V=>g-V for B-V=0.650
 (g-V)(G2V) = 0.285 ; Jordi06 B-V=>g-V for B-V=0.650

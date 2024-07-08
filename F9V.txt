@@ -316,9 +316,10 @@ Trend: B-V(F9V) = 0.552 + 0.0164*[Fe/H] (rms=0.0172mag)]
 (u-g)(F9V)   = 1.26  ; Covey07 interp F8V-G0V
 (u'-g')(F9V) = 1.195 ; Fukugita96 u'-g' calibration for U-B=0.04
 (u'-g')(F9V) = 1.173 ; Smith02 u'-g' calibration for U-B=0.04
+(u-g)(F9V)   = 1.11  ; Kesseli17
 (u-g)(F9V)   = 1.093 ; Davenport14 g-r vs u-g locus for g-r=0.37
-(u-g)(F9V)   = 0.90  ; Fukugita11
-=> adopt (u-g)(F9V) = 1.17 [updated 4/20/2024]
+(u-g)(F9V)   =  0.90  ; Fukugita11
+=> adopt (u-g)(F9V) = 1.17 [updated 6/20/2024]
 
 (g-r)(F9V) = 0.391 ; Jordi06 (V-R)=>(g-r) for V-R=0.311
 (g-r)(F9V) = 0.378 ; Bilir05 (B-V)=>(g-r) for B-V=0.56
@@ -327,16 +328,25 @@ Trend: B-V(F9V) = 0.552 + 0.0164*[Fe/H] (rms=0.0172mag)]
 (g-r)(F9V) = 0.37  ; exemplar HD 7570 = nu Phe = HR 370 ([Fe/H]=+0.16)
 (g-r)(F9V) = 0.365 ; Just08/Chonis08 B-V=>g-r for B-V=0.56
 (g-r)(F9V) = 0.334 ; pri. stan. HD 10647 = q01 Eri = GJ 3109 = HIP 7978 = HR 506 ([Fe/H]=-0.04)
-=> adopt (g-r)(F9V) = 0.37 [updated 2/1/2024]
+(g-r)(F9V) = 0.32  ; Kesseli17
+=> adopt (g-r)(F9V) = 0.37 [updated 6/20/2024]
 
 (r-i)(F9V) = 0.085 ; Jordi06 Pop I calibration for R-Ic=0.31
 (r-i)(F9V) = 0.093 ; exemplar HD 7570 = nu Phe = HR 370 ([Fe/H]=+0.16)
 (r-i)(F9V) = 0.099 ; Bilir05 calibration for R-Ic=0.31
 (r-i)(F9V) = 0.10  ; Fukugita11
+(r-i)(F9V) = 0.11  ; Kesseli17
+(r-i)(F9V) = 0.12  ; Covey07 interp F8V-G0V
 (r-i)(F9V) = 0.133 ; Davenport14 g-r vs r-i locus for g-r=0.37 
-=> adopt (r-i)(F9V) = 0.10 [updated 4/1/2024]
+=> adopt (r-i)(F9V) = 0.10 [updated 6/20/2024]
 
-(i-z)(F9V) = 0.020 ; Davenport14 g-r vs i-z locus for g-r=0.37
+(i-z)(F9V) =  0.025 ; Covey07 interp F8V-G0V
+(i-z)(F9V) =  0.020 ; Davenport14 g-r vs i-z locus for g-r=0.37
+(i-z)(F9V) = -0.07  ; Kesseli17
+=> adopt (i-z)(F9V) = 0.02 [updated 6/20/2024]
+
+(z-J)(F9V) = 0.725 ; Covey07 interp F8V-G0V
+=> adopt (z-J)(F9V) = 0.73 [updated 6/20/2024]
 
 (g-V)(F9V) = 0.2245 ; Just08/Chonis08 B-V=>g-V for B-V=0.56
 (g-V)(F9V) = 0.228  ; Jordi06 B-V=>g-V for B-V=0.56
