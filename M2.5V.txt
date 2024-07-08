@@ -156,27 +156,48 @@ M_G(M2.5V) =   10.785  ; CD-17 588B
 => adopt (G-V)(M2.5V)  = -1.02 [updated 11/1/2020]
 => adopt (G-Ks)(M2.5V) =  3.41 [updated 12/10/2020] (V-Ks=4.43, G-V=-1.02)
 
+(g-G)(M2.5V) =  1.653 ; SDSS_J021558.94-092912.4_ M2.5V plx=24.0093mas
 (g-G)(M2.5V) = 1.787 (+-0.009 sem, +-0.089 stdev) ; SIMBAD d<25pc M2.5 (N=114)
-=> adopt (g-G)(M2.5V) = 1.79 [updated 6/29/2023]
+(g-G)(M2.5V) =  1.959 ; SDSS_J075249.98+824143.5 M2.5 plx=15.8799mas
+(g-G)(M2.5V) =  2.053 ; SDSS_J083241.77+524624.2_ M2.5 plx=26.0253mas
+(g-G)(M2.5V) =  2.054 ; SDSS_J042515.14+080255.6_ M2.5V plx=29.6764mas
+(g-G)(M2.5V) =  2.062 ; SDSS_J145232.17+001008.1_ M2.5V plx=29.0509mas
+(g-G)(M2.5V) =  2.095 ; SDSS_J165947.64+365753.6 M2.5 plx=19.1067mas
+(g-G)(M2.5V) =  2.146 ; SDSS_J093513.17+611437.0_ M2.5V plx=50.3878mas
+(g-G)(M2.5V) =  2.392 ; SDSS_J113223.05+181622.6_ M2.5V plx=48.6378mas
+(g-G)(M2.5V) =  2.778 ; SDSS_J131206.94+321317.5 M2.5 plx=15.6786mas
+(g-G)(M2.5V) =  3.158 ; SDSS_J164607.79+414205.9_ M2.5 plx=20.0644mas
+(g-G)(M2.5V) =  4.111 ; SDSS_J020012.78-084052.1_ M2.5 plx=27.1838mas
+=> adopt (g-G)(M2.5V) = 1.79 [updated 6/29/2023] (need to reevaluate)
 
+(u-g)(M2.5V) = 2.57 ; Kesseli17 interp M2V-M3V
 (u-g)(M2.5V) = 2.74 ; Covey07
-=> adopted (u-g)(M2.5V) = 2.74 [updated 4/20/2024]
+=> adopted (u-g)(M2.5V) = 2.66 [updated 6/20/2024]
 
 (g-r)(M2.5V) = 1.345 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs (see M0V.txt)
+(g-r)(M2.5V) = 1.445 ; Kesseli17 interp M2V-M3V
 (g-r)(M2.5V) = 1.47  ; Covey07
-=> adopt (g-r)(M2.5V) = 1.345 [updated 4/18/2024]
+=> adopt (g-r)(M2.5V) = 1.45 [updated 6/20/2024]
 
+(r-i)(M2.5V) =  0.965 ; Kesseli17 interp M2V-M3V
+(r-i)(M2.5V) =  1.01  ; Covey07
 (r-i)(M2.5V) =  1.029 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.265
 (r-i)(M2.5V) =  1.102 (+-0.05 rms) ; West05 fit for (V-Ic)=2.306
-(r-i)(M2.5V) = 1.156 ; smoothed trend SpT vs r-i for SIMBAD d<50pc M0V-M8.5V (4/2024; see M0V.txt)
+(r-i)(M2.5V) =  1.156 ; smoothed trend SpT vs r-i for SIMBAD d<50pc M0V-M8.5V (4/2024; see M0V.txt)
 (r-i)(M2.5V) =  1.17  (+-0.11 rms) ; Cifuentes20
-=> adopt (r-i)(M2.5V) = 1.16 [updated 4/18/2024]
+=> adopt (r-i)(M2.5V) = 1.07 [updated 6/20/2024]
 
 (g-V)(M2.5V) = 0.843 ; Jordi06 B-V=>g-V for B-V=1.53
 (g-V)(M2.5V) = 0.847 ; Just08/Chonis08 B-V=>g-V for B-V=1.53
 => adopt (g-V)(M2.5V) = 0.847 [updated 9/1/2023]
 
+(i-z)(M2.5V) = 0.535 ; Kesseli17 interp M2V-M3V
+(i-z)(M2.5V) = 0.63  ; Covey07
+=> adopt (i-z)(M2.5V) = 0.58 [updated 6/20/2024]
+
+(z-J)(M2.5V) = 1.32 ; Covey07
 (z-J)(M2.5V) = 1.423 (+-0.028 rms) ; poly fit to d<100pc GCNS for G-Ks=3.41
+=> adopt (z-J)(M2.5V) = 1.37 [updated 6/20/2024]
 
 Mv(M2.5V) =   10.80 ; Kirkpatrick94
 Mv(M2.5V) =  10.74 ; JohnsonApps09 fit for V-Ks=4.43

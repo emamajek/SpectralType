@@ -102,12 +102,6 @@ Be careful not to get some of these Gliese standards confused.
 Kirkpatrick(GrayCorbally09) lists Gl 752A as the M3V standard, Gl 725B
 as the M3.5V standard, and Gl 752B (=vB 10) as the M8V standard.
 
-I'm a bit picky here -- I advocate GJ 752A clearly as the primary
-standard (following Kirkpatrick), but I'm not quite content with any
-of the other M3V standards. For the time being, I'll stick with GJ
-752A.
-
-
 (B-V)(M3V) = 1.464 ; pri. stan. GJ 752A 
 (B-V)(M3V) =  1.47  ; Fitzgerald70
 (B-V)(M3V) =  1.480 ; deprecated standard GJ 569A
@@ -296,16 +290,19 @@ adopted that.]
 
 (V-Lj)(M3V) = 4.79 ; Johnson65
 
-(G-J)(M3V)   = 2.564 ; Bentley18
-(G-Ks)(M3V)  = 3.416 ; Bentley18
-(Ks-W2)(M3V) = 0.294 ; Bentley18
-(W1-W2)(M3V) = 0.146 ; Bentley18
+(G-J)(M3V) = 2.730 (+-0.259 rms) ; Bentley19
+
+(G-Ks)(M3V) = 3.574 (+-0.28 rms) ; Bentley19
+
+(Ks-W2)(M3V) = 0.292 (+-0.088 rms) ; Bentley19
+
+(W1-W2)(M3V) = 0.151 (+-0.042 rms) ; Bentley19
 
 (Ks-W1)(M3V) = 0.159 ; fit to Winters15 data for V-Ks=4.60
-(Ks-W1)(M3V) = 0.148 ; Bentley18
+(Ks-W1)(M3V) = 0.141 ; Bentley19 
 (Ks-W1)(M3V) = 0.140 ; Avenhaus12 for V-Ks=4.60
 (Ks-W1)(M3V) = 0.130 ; Best18
-=> adopt (Ks-W1)(M3V) = 0.15 [updated 12/29/2019]
+=> adopt (Ks-W1)(M3V) = 0.14 [updated 6/20/2024]
 
 (NUV-V)(M3V) = 9.03 (+-0.83; 68%CL) ; Cifuentes20 median (N=60 M3Vs)
 (NUV-V)(M3V) = 9.20 (+-0.58; 68%CL) ; Cifuentes20 nearest 10 M3Vs (plx>62.7mas)
@@ -419,15 +416,36 @@ M_G(M3V) =   11.4505 ; LP 399-68 (GaiaDR2)
 
 note that the primary standard and two of the three secondary standards are on the intrinsically bright side of the distribution, 
 
+(g-G)(M3V) =  1.356 ; SDSS_J150957.99-022602.5_ M3 plx=23.7578mas
+(g-G)(M3V) =  1.455 ; SDSS_J113910.44+315012.5 D+dM3 plx=15.7638mas
 (g-G)(M3V) = 1.859 (+-0.008 sem, +-0.109 stdev) ; SIMBAD M3 d<25pc (N=162)
-=> adopt (g-G)(M3V) = 1.86 [updated 6/29/2023]
+(g-G)(M3V) =  1.867 ; SDSS_J113057.22+161305.6 M3V plx=15.0262mas
+(g-G)(M3V) =  1.984 ; SDSS_J141903.28+645146.3_ M3 plx=22.2317mas
+(g-G)(M3V) =  1.997 ; SDSS_J140120.17-031803.8 M3 plx=14.6849mas
+(g-G)(M3V) =  2.048 ; SDSS_J002010.95-091932.1 M3V plx=14.2209mas
+(g-G)(M3V) =  2.065 ; SDSS_J002256.70-102205.3 M3V plx=17.5232mas
+(g-G)(M3V) =  2.066 ; SDSS_J012723.80-093409.1 M3 plx=18.478mas
+(g-G)(M3V) =  2.141 ; SDSS_J153156.94+171915.0 M3V plx=13.5678mas
+(g-G)(M3V) = 2.14 ; median g-G for nearest SIMBAD M3Vs w/SDSS IDs
+(g-G)(M3V) =  2.143 ; SDSS_J134521.45-000121.0_ M3 plx=22.8012mas
+(g-G)(M3V) =  2.244 ; SDSS_J021044.57-093826.0_ M3 plx=33.5191mas
+(g-G)(M3V) =  2.260 ; SDSS_J012539.81+315510.8_ M3 plx=21.675mas
+(g-G)(M3V) =  2.315 ; SDSS_J125152.20+000528.5 M3 plx=18.4028mas
+(g-G)(M3V) =  2.365 ; SDSS_J222144.19-040856.5 dM3 plx=16.6150mas
+(g-G)(M3V) =  2.471 ; SDSS_J014358.66-065449.2_ M3 plx=66.475mas
+(g-G)(M3V) =  2.670 ; SDSS_J165904.05+382259.1_ M3 plx=44.1238mas
+(g-G)(M3V) =  2.710 ; SDSS_J133725.70-015608.4_ M3 plx=26.8391mas
+(g-G)(M3V) =  3.058 ; SDSS_J165445.04+423227.5_ M3 plx=20.4745mas
+=> adopt (g-G)(M3V) = 2.14 [updated 6/20/2024]
+[EEM: presumably the d<25pc sample dominated by APASS g mags? Need to check if systematically off.]
 
-(u-g)(M3V) = 2.00 (+-0.35 rms) ; Bochanski07 M3V (active; N=6/192)
+(u-g)(M3V) =  2.00 (+-0.35 rms) ; Bochanski07 M3V (active; N=6/192)
 (u-g)(M3V) = 2.18 (+-0.85 rms) ; Bochanski07 M3V (inactive+active; N=192)
-(u-g)(M3V) = 2.18 (+-0.85 rms) ; Bochanski07 M3V (inactive; N=186/192)
+(u-g)(M3V) =  2.18 (+-0.85 rms) ; Bochanski07 M3V (inactive; N=186/192)
 (u-g)(M3V) =  2.199 ; PM_J01439-0654_ plx=66.48mas M3
+(u-g)(M3V) = 2.60 ; Kesseli17 
 (u-g)(M3V) = 2.67 ; Covey07
-=> adopt (u-g)(M3V) = 2.18 [updated 6/15/2024]
+=> adopt (u-g)(M3V) = 2.4: [updated 6/20/2024]
 
 (g-r)(M3V) =   0.939 ; GJ_388_ plx=201.41mas M3
 (g-r)(M3V) =  1.141 ; GJ_358_ plx=104.10mas M3V
@@ -447,19 +465,22 @@ note that the primary standard and two of the three secondary standards are on t
 (g-r)(M3V) = 1.41 (+-0.13; rms) ; West11
 (g-r)(M3V) =  1.453 ; GJ_1065_ plx=100.73mas M3V
 (g-r)(M3V) = 1.46  ; Covey07
+(g-r)(M3V) = 1.48  ; Kesseli17 
 (g-r)(M3V) = 1.505 ; ter. stan. GJ_687_ plx=219.79mas M3.0V
-(g-r)(M3V) = 1.59 (+-0.23 rms) ; Bochanski07 M3V (inactive; N=186/192)
+(g-r)(M3V) =  1.59 (+-0.23 rms) ; Bochanski07 M3V (inactive; N=186/192)
 (g-r)(M3V) = 1.60 (+-0.22 rms) ; Bochanski07 M3V (inactive+active; N=192)
-(g-r)(M3V) = 1.69 (+-0.18 rms) ; Bochanski07 M3V (active; N=6/192)
-=> adopt (g-r)(M3V) = 1.35 [updated 6/15/2024]
+(g-r)(M3V) =  1.69 (+-0.18 rms) ; Bochanski07 M3V (active; N=6/192)
+=> adopt (g-r)(M3V) = 1.35 [updated 6/20/2024]
 [EEM 6/15/2024: odd that the Bochanski07 mean colors for the SDSS
 sample are ~0.25 mag redder than for local M3Vs]
 
 (r-i)(M3V) =  0.433 ; GJ_436_ plx=102.30mas M3V
+(r-i)(M3V) = 1.09  ; Kesseli17 
 (r-i)(M3V) =  1.128 ; GJ_623_ plx=127.48mas M3.0V
 (r-i)(M3V) = 1.13  (+-0.11 rms) ; West11
 (r-i)(M3V) = 1.142 ; Jordi06 Pop I calibration for R-Ic=1.38
-(r-i)(M3V) = 1.15  ; Kowalski09 
+(r-i)(M3V) = 1.15  ; Kowalski09
+(r-i)(M3V) = 1.20  ; Covey07
 (r-i)(M3V) = 1.21  (+-0.16 rms) ; West08
 (r-i)(M3V) = 1.212 (+-0.05 rms) ; West05 fit for (V-Ic)=2.42
 (r-i)(M3V) =  1.226 ; GJ_48_ plx=121.46mas M3.0V
@@ -482,7 +503,7 @@ sample are ~0.25 mag redder than for local M3Vs]
 (r-i)(M3V) =  1.429 ; GJ_388_ plx=201.41mas M3
 (r-i)(M3V) =  1.439 ; GJ_628_ plx=232.14mas M3V
 (r-i)(M3V) =  1.482 ; GJ_1065_ plx=100.73mas M3V
-=> adopt (r-i)(M3V) = 1.29 [updated 6/15/2024]
+=> adopt (r-i)(M3V) = 1.29 [updated 6/20/2024]
 [EEM 4/12/2024: median r-i for M3Vs appears to be well-constrained
 among standards and nearby M3Vs, but significantly redder than some
 SDSS samples (West11,Kowalski09). Smoothed polynomial to SpT vs r-i for d<50pc M0V-M8.5V stars
@@ -503,6 +524,7 @@ gives 1.276, a tad bluer than the standards.]
 (i-z)(M3V) =  0.391 ; PM_J01439-0654_ plx=66.475mas M3
 (i-z)(M3V) =   0.494 ; PM_J01562+0006_ plx=33.3775mas M3.0V
 (i-z)(M3V) =   0.520 ; LSPM_J1724+6147_ plx=34.2781mas M3.0V
+(i-z)(M3V) =  0.60   ; Kesseli17 
 (i-z)(M3V) =  0.61 (+-0.08; rms) ; West11
 (i-z)(M3V) =  0.62   ; Kowalski09 
 (i-z)(M3V) =   0.623 ; 2MASS_J12515221+0005284_ plx=18.4028mas M3
@@ -510,14 +532,15 @@ gives 1.276, a tad bluer than the standards.]
 (i-z)(M3V) =  0.65 (+-0.08; rms) ; West08
 (i-z)(M3V) =   0.654 ; 2MASS_J00201093-0919320_ plx=14.2209mas M3V
 (i-z)(M3V) =   0.655 ; FBS_0124-098_ plx=18.478mas M3
-(i-z)(M3V) = 0.66 ; i-J=2.11, z-J=1.45 
+(i-z)(M3V) = 0.66 ; i-J=2.11, z-J=1.45
+(i-z)(M3V) =  0.67 ; Covey07
 (i-z)(M3V) =   0.673 ; SCR_J0022-1022_ plx=17.5232mas M3V
 (i-z)(M3V) =  0.70 (+-0.31; rms) ; West05
-(i-z)(M3V) =  0.70 (+-0.12; rms) ; Bochanski07 M3V (inactive; N=186/192)
+(i-z)(M3V) =   0.70 (+-0.12; rms) ; Bochanski07 M3V (inactive; N=186/192)
 (i-z)(M3V) =  0.70 (+-0.12; rms) ; Bochanski07 M3V (inactive+active; N=192)
 (i-z)(M3V) =   0.700 ; SDSS_J140120.19-031802.4_ plx=14.6849mas M3
 (i-z)(M3V) =  0.73 (+-0.24; rms) ; Hawley02 ("i*-z*")
-(i-z)(M3V) =  0.76 (+-0.17; rms) ; Bochanski07 M3V (active; N=6/192)
+(i-z)(M3V) =   0.76 (+-0.17; rms) ; Bochanski07 M3V (active; N=6/192)
 (i-z)(M3V) =   0.873 ; LP_700-3_ plx=16.6150mas M3
 (i-z)(M3V) =   0.881 ; RX_J1419.0+6451_ plx=22.2317mas M3
 (i-z)(M3V) =   0.969 ; PM_J17273+2709_ plx=18.0067mas M3e
@@ -525,7 +548,7 @@ gives 1.276, a tad bluer than the standards.]
 (i-z)(M3V) =    1.714 ; 2XMM_J012539.7+315511_ plx=21.675mas M3
 (i-z)(M3V) =    2.299 ; PM_J09034-0023_ plx=28.8426mas M3e
 (i-z)(M3V) =    3.148 ; MGC_50625_ plx=22.8012mas M3
-=> adopt (i-z)(M3V) = 0.66 [updated 6/15/2024; i-J=2.11, z-J=1.45]
+=> adopt (i-z)(M3V) = 0.66 [updated 6/20/2024; i-J=2.11, z-J=1.45]
 
 (i-J)(M3V) =   1.935 ; GJ_479_ plx=105.35mas M3V(e)
 (i-J)(M3V) =  1.938 ; ter. stan. GJ_109_ plx=130.20mas M3
@@ -551,6 +574,7 @@ gives 1.276, a tad bluer than the standards.]
 (z-J)(M3V) =   1.328 ; SDSS_J140120.19-031802.4_ plx=14.6849mas M3
 (z-J)(M3V) =   1.364 ; SCR_J0022-1022_ plx=17.5232mas M3V
 (z-J)(M3V) =  1.37  (+-0.17; rms) ; West08
+(z-J)(M3V) =  1.37   ; Covey07
 (z-J)(M3V) =  1.38  (+-0.12; rms) ; Hawley02 ("z*-J")
 (z-J)(M3V) =   1.380 ; RX_J1419.0+6451_ plx=22.2317mas M3
 (z-J)(M3V) =   1.399 ; 2MASS_J15315696+1719143_ plx=13.5678mas M3V

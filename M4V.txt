@@ -233,7 +233,6 @@ than solar value due to slight metal richness. Adopt V-Ks=5.25.]
 (V-Lj)(M4V) = 5.20  ; Johnson65
 
 
-(G-Ks)(M4V) =  3.585 ; Bentley18 (value is clearly discrepent compared to nearby M4s)
 (G-Ks)(M4V) =  3.597 ; GJ 445 = G_254-29_ plx=190.3251mas M4.0V (GaiaDR3)
 (G-Ks)(M4V) =  3.669 ; deprecated stan. GJ 699 = Barnard's_star_ plx=546.9759mas M4V (GaiaDR3)
 (G-Ks)(M4V) = 3.769 ; exemplar GJ 398 = RY Sex plx=65.4708mas M4V (GaiaDR3)
@@ -242,6 +241,7 @@ than solar value due to slight metal richness. Adopt V-Ks=5.25.]
 (G-Ks)(M4V) =  3.737 ; GJ 3801 = Ross_1015_ plx=108.7903mas M4V (GaiaDR3)
 (G-Ks)(M4V) = 3.752 ; sec. stan. GJ 232 = Ross_64_ plx=117.7263mas M4V (GaiaDR3)
 (G-Ks)(M4V) =  3.760 ; GJ 1148 = Ross_1003_ plx=90.6896mas M4.0V (GaiaDR3)
+(G-Ks)(M4V) = 3.761 (+-0.273 rms) ; Bentley19
 (G-Ks)(M4V) =  3.763 ; GJ 442B = HD_102365B plx=107.4237mas M4V (GaiaDR3)
 (G-Ks)(M4V) = 3.776 ; ter. stan. GJ 275.2A = G 107-69 plx=88.7231mas M4V (GaiaDR3)
 (G-Ks)(M4V) = 3.798 ; exemplar GJ 609 = G_137-78_ plx=99.7948mas M4V (GaiaDR3)
@@ -256,19 +256,19 @@ than solar value due to slight metal richness. Adopt V-Ks=5.25.]
 (G-Ks)(M4V) = 3.986 ; ter. stan. GJ 169.1A = G_175-34_ plx=181.2438mas M4.0V (GaiaDR3)
 (G-Ks)(M4V) = 3.994 ; ter. stan. GJ 285 = YZ_CMi_ plx=166.9769mas M4.0Ve (GaiaDR3)
 (G-Ks)(M4V) = 4.017 ; exemplar GJ 324B = 55 Cnc B plx=79.6560mas M4V (GaiaDR3)
-=> adopt (G-Ks)(M4V) = 3.82 [updated 8/20/2023]
+=> adopt (G-Ks)(M4V) = 3.82 [updated 6/20/2024]
 
-(G-J)(M4V)   = 2.733 ; Bentley18
+(G-J)(M4V) = 2.912 (+-0.248 rms) ; Bentley19
 
 (Ks-W1)(M4V) = 0.150 ; Best18 
-(Ks-W1)(M4V) = 0.162 ; Bentley18
-(Ks-W1)(M4V) = 0.182 ; Avenhaus12 for V-Ks=5.20
+(Ks-W1)(M4V) = 0.158 ; Bentley19
+(Ks-W1)(M4V) = 0.184 ; Avenhaus12 for V-Ks=5.25
 (Ks-W1)(M4V) = 0.184 ; fit to Winters15 data for V-Ks=5.20
-=> adopt (Ks-W1)(M4V) = 0.18 [updated 12/29/2019]
+=> adopt (Ks-W1)(M4V) = 0.17 [updated 6/20/2024]
 
-(Ks-W2)(M4V) = 0.328 ; Bentley18
+(Ks-W2)(M4V) = 0.325 (+-0.088 rms) ; Bentley19
 
-(W1-W2)(M4V) = 0.166 ; Bentley18
+(W1-W2)(M4V) = 0.167 (+-0.040 rms) ; Bentley19
 
 (NUV-V)(M4V) =  5.35 ; V374 Peg (4th nearest M4V in Cifuentes20; plx=109.8mas)
 (NUV-V)(M4V) =  6.50 ; GJ 102 (5th nearest M4V in Cifuentes20; plx=100.2mas)
@@ -348,8 +348,33 @@ scatter in NUV-V for the nearest M4Vs: in order of distance, the colors are
 => adopt (G-V)(M4V)  = -1.40 [updated 12/10/2020] (GaiaDR2)
 => adopt (G-Ks)(M4V) = 3.85 = 5.25 + -1.40 [updated 12/15/2020] (GaiaDR2)
 
+(g-G)(M4V) =  2.003 ; SDSS_J055518.37+215537.8 M4Ve plx=14.8439mas
 (g-G)(M4V) = 2.055 (+-0.015 sem, +-0.182 stdev) ; SIMBAD M4 d<25pc (N=109)
-=> adopt (g-G)(M4V) = 2.06 [updated 6/29/2023]
+(g-G)(M4V) =  2.215 ; SDSS_J025148.21-081342.3_ M4 plx=32.4479mas
+(g-G)(M4V) =  2.224 ; SDSS_J163937.45+434908.8 M4V plx=16.0535mas
+(g-G)(M4V) =  2.228 ; SDSS_J074712.59+253835.0 M4V plx=15.0694mas
+(g-G)(M4V) =  2.278 ; SDSS_J151755.69+555326.5_ M4 plx=28.8282mas
+(g-G)(M4V) =  2.283 ; SDSS_J032826.10-053736.3_ M4 plx=35.7624mas
+(g-G)(M4V) =  2.299 ; SDSS_J212119.97+005917.1 M4V plx=15.3019mas
+(g-G)(M4V) =  2.304 ; SDSS_J122914.14+533245.1_ M4V plx=39.9078mas
+(g-G)(M4V) =  2.326 ; SDSS_J104846.57+582047.2 M4V plx=18.7413mas
+(g-G)(M4V) =  2.329 ; SDSS_J042517.00+080403.8_ M4V plx=28.8836mas
+(g-G)(M4V) =  2.365 ; SDSS_J020143.87-101728.9_ M4 plx=53.5258mas
+(g-G)(M4V) = 2.37 ; median among nearest 18 SIMBAD M4Vs w/SDSS IDs (minus some red outliers)
+(g-G)(M4V) =  2.381 ; SDSS_J011406.65+003617.9 M4V plx=17.5369mas
+(g-G)(M4V) =  2.406 ; SDSS_J090902.78+443640.1 M4V plx=18.5752mas
+(g-G)(M4V) =  2.451 ; SDSS_J042421.52+370620.6 M4V plx=19.3652mas
+(g-G)(M4V) =  2.504 ; SDSS_J120028.27-000612.3_ M4 plx=24.4632mas
+(g-G)(M4V) =  2.506 ; SDSS_J133740.39+480753.8_ M4V plx=47.1944mas
+(g-G)(M4V) =  2.508 ; SDSS_J162825.81+405141.9 M4 plx=18.2844mas
+(g-G)(M4V) =  2.512 ; SDSS_J022635.16+010424.6_ M4V plx=20.1567mas
+(g-G)(M4V) =  2.514 ; SDSS_J234724.01-005729.7 M4V plx=16.2527mas
+(g-G)(M4V) =  2.571 ; SDSS_J121651.84+025804.9_ M4V plx=42.8205mas
+(g-G)(M4V) =  2.725 ; SDSS_J195100.74+102439.1_ M4 plx=51.3735mas
+(g-G)(M4V) =  3.329 ; SDSS_J142115.13-010720.6_ M4 plx=74.7768mas
+(g-G)(M4V) =   4.714 ; SDSS_J173840.92+611359.0_ M4V plx=30.9455mas
+(g-G)(M4V) =   5.382 ; SDSS_J133146.51+291636.1_ M4Ve plx=54.6875mas
+=> adopt (g-G)(M4V) = 2.37 [updated 6/20/2024]
 
 (u-g)(M4V) =   -0.289 ; GJ_3789_ plx=54.69mas M4Ve
 (u-g)(M4V) =   0.920 ; PM_J09161+0153_ plx=63.89mas M4.0Ve
@@ -358,16 +383,17 @@ scatter in NUV-V for the nearest M4Vs: in order of distance, the colors are
 (u-g)(M4V) =   1.628 ; FBS_0928+026_ plx=45.28mas M4.0V
 (u-g)(M4V) =   1.984 ; GJ_2069_B_ plx=62.46mas M4.0Ve
 (u-g)(M4V) =   2.159 ; GJ_520_C_ plx=47.19mas M4V
-(u-g)(M4V) =  2.28 (+-1.09 rms) ; Bochanski07 M4V (active; N=25/162)
-(u-g)(M4V) =  2.28 (+-0.77 rms) ; Bochanski07 M4V (inactive; N=137/162)
+(u-g)(M4V) =   2.28 (+-1.09 rms) ; Bochanski07 M4V (active; N=25/162)
+(u-g)(M4V) =   2.28 (+-0.77 rms) ; Bochanski07 M4V (inactive; N=137/162)
 (u-g)(M4V) =  2.28 (+-0.82 rms) ; Bochanski07 M4V (inactive+active; N=162)
+(u-g)(M4V) =   2.29  ; Kesseli17 
 (u-g)(M4V) =   2.377 ; PM_J22489+1819_ plx=53.23mas M4.0V
 (u-g)(M4V) =   2.643 ; GSC_04160-00286_ plx=57.02mas M4.0
 (u-g)(M4V) =   2.798 ; G_166-49_ plx=76.64mas M4.0Ve
 (u-g)(M4V) =   2.806 ; LP_709-18_ plx=53.53mas M4
 (u-g)(M4V) =  3.13 ; Covey07
 (u-g)(M4V) =   10.129 ; GJ_768.1_B_ plx=51.37mas M4
-=> adopt (u-g)(M4V) = 2.28 [updated 6/15/2024] 
+=> adopt (u-g)(M4V) = 2.28 [updated 6/20/2024] 
 
 (g-r)(M4V) =   0.930 ; GJ_169.1_A_ plx=181.24mas M4.0V
 (g-r)(M4V) =  1.228 ; GJ_408_ plx=148.20mas M4V
@@ -380,6 +406,7 @@ scatter in NUV-V for the nearest M4Vs: in order of distance, the colors are
 (g-r)(M4V) = 1.360 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs
 (g-r)(M4V) = 1.361 ; pri. stan. GJ_402_ plx=143.54mas M4V
 (g-r)(M4V) = 1.383 ; sec. stan. GJ_232_ plx=117.73mas M4V
+(g-r)(M4V) = 1.39  ; Kesseli17 
 (g-r)(M4V) =  1.394 ; *_alf_PsA_C_ plx=130.27mas M4.0Ve
 (g-r)(M4V) = 1.395 ; sec. stan. GJ_447_ plx=296.31mas M4
 (g-r)(M4V) =  1.437 ; GJ_1224_ plx=125.45mas M4.0Ve
@@ -391,7 +418,7 @@ scatter in NUV-V for the nearest M4Vs: in order of distance, the colors are
 (g-r)(M4V) = 1.55 (+-0.21 rms) ; Bochanski07 M4V (inactive; N=137/162)
 (g-r)(M4V) = 1.56 (+-0.20 rms) ; Bochanski07 M4V (inactive+active; N=162)
 (g-r)(M4V) = 1.60 (+-0.17 rms) ; Bochanski07 M4V (active; N=25/162)
-=> adopt (g-r)(M4V) = 1.36 [updated 6/15/2024]
+=> adopt (g-r)(M4V) = 1.36 [updated 6/20/2024]
 [EEM 4/14/2024: g-r well-determined, tight clustering around M4V standards and nearby M4Vs,
 adopting the SpT vs g-r trend value - anchors linear trend between M0V and M4V]
 
@@ -399,6 +426,7 @@ adopting the SpT vs g-r trend value - anchors linear trend between M0V and M4V]
 => adopt (g-V)(M4V) = 0.919 [updated 9/1/2023]
 
 (r-i)(M4V) =  1.300 ; GJ_408_ plx=148.20mas M4V
+(r-i)(M4V) = 1.30  ; Kesseli17 
 (r-i)(M4V) =  1.324 ; FBS_0928+026_ plx=45.2786mas M4.0V
 (r-i)(M4V) = 1.33  (+-0.13 rms) ; West11
 (r-i)(M4V) = 1.340 ; Jordi06 Pop I calibration for R-Ic=1.58
@@ -407,15 +435,16 @@ adopting the SpT vs g-r trend value - anchors linear trend between M0V and M4V]
 (r-i)(M4V) = 1.41  ; Kowalski09 
 (r-i)(M4V) =  1.414 ; GJ_3843_ plx=74.7768mas M4
 (r-i)(M4V) = 1.414 +-0.089 ; pri. stan. GJ 213 = Ross 47 (APASS/DR9)
-(r-i)(M4V) = 1.42 (+-0.16 rms) ; Bochanski07 M4V (inactive; N=137/162)
+(r-i)(M4V) =  1.42 (+-0.16 rms) ; Bochanski07 M4V (inactive; N=137/162)
 (r-i)(M4V) = 1.43 (+-0.19 rms) ; Bochanski07 M4V (inactive+active; N=162)
 (r-i)(M4V) =  1.449 ; GJ_1148_ plx=90.69mas M4.0V
 (r-i)(M4V) =  1.46  (+-0.15 rms) ; West08
 (r-i)(M4V) =  1.463 ; GJ_445_ plx=190.33mas M4.0V
 (r-i)(M4V) =  1.48 ; G_166-49_ plx=76.6429mas M4.0Ve
-(r-i)(M4V) = 1.49 (+-0.28 rms) ; Bochanski07 M4V (active; N=25/162) 
+(r-i)(M4V) =  1.49 (+-0.28 rms) ; Bochanski07 M4V (active; N=25/162) 
 (r-i)(M4V) =  1.493 ; G_82-33_ plx=52.8236mas M4.0V
 (r-i)(M4V) = 1.509 ; smoothed trend SpT vs r-i for SIMBAD d<50pc M0V-M8.5V (4/2024; see M0V.txt)
+(r-i)(M4V) = 1.51  ; Covey07
 (r-i)(M4V) =  1.510 ; GJ_3801_ plx=108.79mas M4V
 (r-i)(M4V) =  1.525 ; GJ_520_C_ plx=47.1944mas M4V
 (r-i)(M4V) = 1.53  (+-0.15 rms) ; Cifuentes20
@@ -434,39 +463,42 @@ adopting the SpT vs g-r trend value - anchors linear trend between M0V and M4V]
 (r-i)(M4V) =  1.712 ; GJ_3789_ plx=54.6875mas M4Ve
 (r-i)(M4V) =  1.812 ; GJ_3571_ plx=104.76mas M4.0Ve
 (r-i)(M4V) =  1.951 ; GJ_1224_ plx=125.45mas M4.0Ve
-=> adopt (r-i)(M4V) = 1.51 [updated 6/15/2024]
+=> adopt (r-i)(M4V) = 1.51 [updated 6/20/2024]
 [EEM 4/12/2024: well-constrained as there is a fairly tight clustering of r-i around the standards:
 ~1.56-1.64, however mean trend for d<50pc M0V-M8.5V stars is 1.51.]
 
-(i-z)(M4V) =   0.116 ; G_166-49_ plx=76.6429mas M4.0Ve
-(i-z)(M4V) =   0.384 ; PM_J09161+0153_ plx=63.8909mas M4.0Ve
-(i-z)(M4V) =   0.452 ; StKM_2-809_ plx=39.8459mas M4.0Ve
-(i-z)(M4V) =   0.475 ; GJ_3283_ plx=28.8836mas M4V
-(i-z)(M4V) =  0.618 ; PM_J22489+1819_ plx=53.2301mas M4.0V
-(i-z)(M4V) =  0.71 (+-0.09; rms) ; West11
-(i-z)(M4V) =  0.76  ; Kowalski09 
-(i-z)(M4V) =  0.79 (+-0.09; rms) ; West08
-(i-z)(M4V) =  0.79 (+-0.10; rms) ; Bochanski07 M4V (inactive; N=137/162)
-(i-z)(M4V) =  0.81 (+-0.10; rms) ; Bochanski07 M4V (inactive+active; N=162)
-(i-z)(M4V) = 0.818 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=3.85
-(i-z)(M4V) =  0.84 (+-0.22; rms) ; West05
-(i-z)(M4V) =  0.87 (+-0.32; rms) ; Hawley02 ("i*-z*")
-(i-z)(M4V) =  0.87 (+-0.12; rms) ; Bochanski07 M4V (active; N=25/162)
-(i-z)(M4V) =  0.89 ; LSPM_J0226+0104_ plx=20.1567mas M4V
-(i-z)(M4V) =  1.035 ; ATO_J052.1091-05.6268_ plx=35.7624mas M4
-(i-z)(M4V) =  1.052 ; FBS_0249-084_ plx=32.4479mas M4
-(i-z)(M4V) =  1.069 ; LP_208-19_ plx=22.884mas M4.0
-(i-z)(M4V) =   1.237 ; LP_135-222_ plx=28.8282mas M4
-(i-z)(M4V) =   1.247 ; GSC_04160-00286_ plx=57.02mas M4.0
-(i-z)(M4V) =   1.921 ; GJ_4021_ plx=30.9455mas M4V
-(i-z)(M4V) =   2.209 ; GJ_2069_B_ plx=62.46mas M4.0Ve
-(i-z)(M4V) =   2.495 ; GJ_3789_ plx=54.69mas M4Ve
-(i-z)(M4V) =   3.132 ; FBS_0928+026_ plx=45.28mas M4.0V
-(i-z)(M4V) =   3.361 ; LP_709-18_ plx=53.53mas M4
-(i-z)(M4V) =   3.520 ; MGC_27360_ plx=24.4632mas M4
-(i-z)(M4V) =   3.876 ; G_32-37_ plx=34.8169mas M4.0V
-(i-z)(M4V) =   4.017 ; GJ_1159_A_ plx=39.9078mas M4V
-=> adopt (i-z)(M4V) = 0.82 [updated 6/15/2024; i-J=2.30, z-J=1.48]
+(i-z)(M4V) =    0.116 ; G_166-49_ plx=76.6429mas M4.0Ve
+(i-z)(M4V) =    0.384 ; PM_J09161+0153_ plx=63.8909mas M4.0Ve
+(i-z)(M4V) =    0.452 ; StKM_2-809_ plx=39.8459mas M4.0Ve
+(i-z)(M4V) =    0.475 ; GJ_3283_ plx=28.8836mas M4V
+(i-z)(M4V) =   0.618 ; PM_J22489+1819_ plx=53.2301mas M4.0V
+(i-z)(M4V) =   0.71 (+-0.09; rms) ; West11
+(i-z)(M4V) =   0.71  ; Kesseli17 
+(i-z)(M4V) =   0.76  ; Kowalski09
+(i-z)(M4V) =   0.76  ; Covey07
+(i-z)(M4V) =   0.79 (+-0.09; rms) ; West08
+(i-z)(M4V) =    0.79 (+-0.10; rms) ; Bochanski07 M4V (inactive; N=137/162)
+(i-z)(M4V) = 0.80 ; i-J=2.32, z-J=1.52 
+(i-z)(M4V) =   0.81 (+-0.10; rms) ; Bochanski07 M4V (inactive+active; N=162)
+(i-z)(M4V) =  0.818 ; poly fit to d<75pc M dwarfs in SIMBAD for G-Ks=3.85
+(i-z)(M4V) =   0.84 (+-0.22; rms) ; West05
+(i-z)(M4V) =   0.87 (+-0.32; rms) ; Hawley02 ("i*-z*")
+(i-z)(M4V) =    0.87 (+-0.12; rms) ; Bochanski07 M4V (active; N=25/162)
+(i-z)(M4V) =   0.89 ; LSPM_J0226+0104_ plx=20.1567mas M4V
+(i-z)(M4V) =   1.035 ; ATO_J052.1091-05.6268_ plx=35.7624mas M4
+(i-z)(M4V) =   1.052 ; FBS_0249-084_ plx=32.4479mas M4
+(i-z)(M4V) =   1.069 ; LP_208-19_ plx=22.884mas M4.0
+(i-z)(M4V) =    1.237 ; LP_135-222_ plx=28.8282mas M4
+(i-z)(M4V) =    1.247 ; GSC_04160-00286_ plx=57.02mas M4.0
+(i-z)(M4V) =    1.921 ; GJ_4021_ plx=30.9455mas M4V
+(i-z)(M4V) =    2.209 ; GJ_2069_B_ plx=62.46mas M4.0Ve
+(i-z)(M4V) =    2.495 ; GJ_3789_ plx=54.69mas M4Ve
+(i-z)(M4V) =    3.132 ; FBS_0928+026_ plx=45.28mas M4.0V
+(i-z)(M4V) =    3.361 ; LP_709-18_ plx=53.53mas M4
+(i-z)(M4V) =    3.520 ; MGC_27360_ plx=24.4632mas M4
+(i-z)(M4V) =    3.876 ; G_32-37_ plx=34.8169mas M4.0V
+(i-z)(M4V) =    4.017 ; GJ_1159_A_ plx=39.9078mas M4V
+=> adopt (i-z)(M4V) = 0.80 [updated 6/20/2024; i-J=2.34, z-J=1.52]
 
 (i-J)(M4V) =   1.991 ; GJ_408_ plx=148.20mas M4V
 (i-J)(M4V) =   2.030 ; GJ_445_ plx=190.33mas M4.0V
@@ -481,8 +513,8 @@ adopting the SpT vs g-r trend value - anchors linear trend between M0V and M4V]
 (i-J)(M4V) =   2.274 ; GJ_1224_ plx=125.45mas M4.0Ve
 (i-J)(M4V) =  2.286 ; sec. stan. GJ_447_ plx=296.31mas M4
 (i-J)(M4V) =   2.294 ; GJ_1155_A_ plx=42.8205mas M4V
-(i-J)(M4V) = 2.30 ; i-z=0.82, z-J=1.48
-(i-J)(M4V) =   2.300 ; *_alf_PsA_C_ plx=130.27mas M4.0Ve
+(i-J)(M4V) =   2.300 ; exemplar *_alf_PsA_C_ plx=130.27mas M4.0Ve
+(i-J)(M4V) = 2.32 ; i-z=0.80, z-J=1.52
 (i-J)(M4V) =   2.330 ; GJ_4063_ plx=91.80mas M4V
 (i-J)(M4V) =   2.343 ; GJ_1148_ plx=90.69mas M4.0V
 (i-J)(M4V) =  2.344 ; ter. stan. GJ_285_ plx=166.98mas M4.0Ve
@@ -492,19 +524,20 @@ adopting the SpT vs g-r trend value - anchors linear trend between M0V and M4V]
 (i-J)(M4V) =   2.426 ; GJ_520_C_ plx=47.1944mas M4V
 (i-J)(M4V) =  2.47 (+-0.16; rms) ; West05
 (i-J)(M4V) =   2.504 ; GJ_54.1_ plx=269.06mas M4.0Ve
-(i-J)(M4V) =   2.512 ; GJ_699_ plx=546.98mas M4V
+(i-J)(M4V) =   2.512 ; deprecated stan. GJ_699_ plx=546.98mas M4V
 (i-J)(M4V) =   2.567 ; PM_J22489+1819_ plx=53.2301mas M4.0V
 (i-J)(M4V) =   2.805 ; GSC_04160-00286_ plx=57.0201mas M4.0
-=> adopt (i-J)(M4V) = 2.30 [updated 6/15/2024; i-z=0.82, z-J=1.48]
+=> adopt (i-J)(M4V) = 2.32 [updated 6/20/2024; i-z=0.80, z-J=1.52]
 [EEM: previous SDSS mean i-J colors around 2.4 but nearby standards near 2.2-2-3]
 
 (z-J)(M4V) =  1.37  (+-0.15 rms) ; West11
 (z-J)(M4V) =  1.45  (+-0.16 rms) ; West08
 (z-J)(M4V) =   1.469 ; LP_709-18_ plx=53.5258mas M4
 (z-J)(M4V) =  1.471 (+-0.053 rms) ; poly fit to d<50pc SIMBAD M dwarfs for G-Ks=3.85
-(z-J)(M4V) = 1.48 ; i-J=2.30, i-z=0.82 
-(z-J)(M4V) =   1.52  (+-0.13 rms) ; Hawley02 ("z*-J")
+(z-J)(M4V) =  1.52  (+-0.13 rms) ; Hawley02 ("z*-J")
+(z-J)(M4V) = 1.52 ; i-J=2.32, i-z=0.80 
 (z-J)(M4V) =   1.558 ; GSC_04160-00286_ plx=57.0201mas M4.0
+(z-J)(M4V) =  1.56 ; Covey07
 (z-J)(M4V) =  1.566 ; median z-J for 42 M4Vs with zJ photometry plx>13.33mas
 (z-J)(M4V) =  1.57  (+-0.14 rms) ; West05
 (z-J)(M4V) =   1.627 ; GJ_1159_A_ plx=39.9078mas M4V
@@ -521,7 +554,7 @@ adopting the SpT vs g-r trend value - anchors linear trend between M0V and M4V]
 (z-J)(M4V) =    4.214 ; GJ_768.1_B_ plx=51.37mas M4
 (z-J)(M4V) =    4.214 ; GJ_9671_B_ plx=51.3735mas M4
 (z-J)(M4V) =    4.946 ; GJ_520_C_ plx=47.1944mas M4V
-=> adopt (z-J)(M4V) = 1.48 [updated 6/15/2024; i-J=2.30, i-z=0.82]
+=> adopt (z-J)(M4V) = 1.52 [updated 6/20/2024; i-J=2.32, i-z=0.80]
 
 Mv(M4V) =    10.70 ; Wegner07 (clearly in error, or biased somehow!)
 Mv(M4V) =    11.3  ; Schmidt-Kaler82
@@ -1087,7 +1120,7 @@ GJ 398 = LHS 2285 = RY Sex = G 44-27 = PM J10360+0507 = LP 550-177 = G 55-33
   3367+-77K(Gaidos14), 3400K(Rajpurohit18), 3511+-120K(Newton15) =>
   <Teff> = 3328K.  [Fe/H]=-0.02(Newton15#1), [Fe/H]=0.18(Newton15#2).
 
-GJ 1006 A = LHS 107 = EZ Psc = G 32-6 = L 1226-9 = LP 404-61 = HIP 1295
+GJ 1006A = LHS 107 = EZ Psc = G 32-6 = L 1226-9 = LP 404-61 = HIP 1295
  *M4Ve: Bidelman85(M4), Lepine13(M4.0), Gaidos14(M4e), Alonso-Floriano15(M4Ve)
   M3.6: Shkolnik09
 
