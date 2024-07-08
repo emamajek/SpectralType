@@ -10,6 +10,7 @@ JM53 standard:     del Leo (HD 97603) - A4V
 Cowley69 standard: del Leo (HD 97603) - A4V
 Houk75 standard:   del Leo (HD 97603) - A4V (primary standard)
 
+(B-V)(A4V) = 0.088 ; exemplar HD 108382 = 16 Com = HIP 60746 (Coma Ber cluster)
 (B-V)(A4V) =  0.11  ; Morgaa71(halfway_A3V-A5V)
 (B-V)(A4V) =  0.115 ; Schmidt-Kaler halfway(A3V-A5V)
 (B-V)(A4V) =  0.12  ; Fitzgerald70
@@ -148,19 +149,23 @@ Houk75 standard:   del Leo (HD 97603) - A4V (primary standard)
 => adopt (g-V)(A4V) = -0.038 [updated 9/1/2023]
 
 (u-g)(A4V)   = 1.060 ; Fukugita11 interp A0V-A5V
+(u-g)(A4V)   = 1.13  ; Kesseli17 interp A3V-A6V
 (u-g)(A4V)   = 1.175 ; Covey07 interp A3V-A5V
 (u'-g')(A4V) = 1.249 ; Smith02 u'-g' calibration for U-B=0.097
 (u'-g')(A4V) = 1.274 ; Fukugita96 u'-g' calibration for U-B=0.097
-=> adopt (u-g)(A4V) = 1.25 [updated 4/18/2024]
+=> adopt (u-g)(A4V) = 1.18 [updated 6/18/2024]
 
 (g-r)(A4V) =  0.019 ; Jordi06 (V-R)=>(g-r) for V-R=0.078
+(g-r)(A4V) = -0.073 ; Kesseli17  
 (g-r)(A4V) = -0.094 ; Bilir05 (B-V)=>(g-r) for B-V=0.140
 (g-r)(A4V) = -0.13  ; Covey07 interp A3V-A5V
-=> adopt (g-r)(A4V) = -0.09 [updated 10/10/2020]
+=> adopt (g-r)(A4V) = -0.08 [updated 6/18/2024]
 
+(r-i)(A4V) = -0.113 ; Kesseli17
+(r-i)(A4V) = -0.13  ; Covey07
 (r-i)(A4V) = -0.140 ; Bilir05 calibration for (R-Ic)=0.08
 (r-i)(A4V) = -0.142 ; Jordi06 popI calibration for (R-Ic)=0.08
-=> adopt (r-i)(A4V) = -0.14 [updated 4/1/2023]
+=> adopt (r-i)(A4V) = -0.13 [updated 6/18/2024]
 
 Teff(A4V) =  7712 K ; exemplar HD 92769 = 40 LMi = HIP 52422
 Teff(A4V) =   7929 K ; Boyajian12
@@ -175,6 +180,7 @@ Teff(A4V) =   8260 K ; Theodossiou90
 Teff(A4V) =  8267 K ; interp B-V vs Teff (A3V: B-V=0.1,8600K; A5V: B-V=0.16, 8100K)
 Teff(A4V) =  8269 K ; EEM N=63 Teffs
 Teff(A4V) =  8335 K ; interp. (A3V-A5V) GrayCorbally09
+Teff(A4V) =  8340 K ; exemplar HD 108382 = 16 Com = HIP 60746 (Coma Ber cluster)
 Teff(A4V) =   8460 K ; Schmidt-Kaler82 (halfway A3V-A5V)
 Teff(A4V) =   8620 K ; Habets81
 => adopt Teff(A4V) = 8250 K (logT = 3.917) [updated 2/10/2020]
@@ -503,15 +509,36 @@ HD 92769 = 40 LMi = HIP 52422 = HR 4189 = ADS 7899A = WDS J10430+2620A = Gaia DR
   7902+-47K(Wu11), 7924(7913,7932)K(GaiaDR3),
   8170+-278K(David15;Gullikson16), 8318K(Allende-Prieto99) =>
   <Teff>=7712K.
+
+HD 108382 = 16 Com = HIP 60746 = HR 4738 = Cl Melotte 111 130
+  A1.8: 1985AISAO..20...11K
+  A2V: Abt77
+  A2: Slettebak59
+  kA3mA7: 1967JO.....50..425B
+  A3IV: GrayGarrison89
+  A3IVp: Claussen79
+  A3.2: 1985AISAO..20...16K
+ *A4V: Osawa59,Mendoza63,Cowley69,Abt95,Grenier99
+  A4: Brown03
+  A4p: Weaver52
+  A4III: Westerlund56
+  A5V: Cucchiaro79(S2/68)
+
+  This might be the brightest A-type member of nearby Coma Ber open
+  cluster?  Three most recent classifications (Abt, Grenier, Brown)
+  all have it as A4.  Weaver52 and Abt77 find many abnormal A-type
+  stars in Coma Ber, but Abt77 classifies it as normal A2V. Abt77's
+  HRD is suggestive that 16 Com (#130) and 13 Com (#107) define the
+  turnoff for Coma Ber. V=4.98(HIP), V=5.000+-0.014(Mermilliod91),
+  V=5.000(Hauck90), B-V=0.083+-0.008(Mermilliod91),
+  B-V=0.088+-0.007(HIP), B-V=0.098+-0.004(TYC) => adopt B-V=0.088.
+  U-B=0.133+-0.004(Mermilliod91), V-Ic=0.05+-0.03(HIP).  Teffs:
+  8299+-58K(Zorec12), 8302+-105K(TIC), 8317+-125K(Gebran08),
+  8340K(Silaj14), 8363K(GaiaDR2), 8370K(Gebran16), 8679+-295K(David15)
+  => adopt Teff=8340K.  [Fe/H]=-0.14+-0.10(Gebran08). TIC has E(B-V)=0.000 from
+  STILISM. GaiaDR3: plx=11.9394+-0.1451mas(GaiaDR3).
   
 # Other Stars
-
-HD 59037 = HR 2857 = 64 Gem (V=5.1)
-  A4V: Cowley69,GrayGarrison89(A4Vn)
-  A2.5V: Abt95 A6V: Osawa59
-  
-  Never considered a standard by anyone. Not very good agreement among authors (although
-  Cowley and GrayGarrison89 agree). Probably not a good candidate standard. 
 
 Morgan65 did not classify any Hyads as A4V. 
 
@@ -524,6 +551,16 @@ Gray01/03/06 lists *1* nearby A4V dwarf (HIP 113368 = Fomalhaut). As
 Fomalhaut is *the* A3V anchor, I do not believe that its BVI colors
 are typical for A4V dwarf stars.
 
+
+HD 59037 = HR 2857 = 64 Gem (V=5.1)
+  A4V: Cowley69,GrayGarrison89(A4Vn)
+  A2.5V: Abt95 A6V: Osawa59
+  
+  Never considered a standard by anyone. Not very good agreement among authors (although
+  Cowley and GrayGarrison89 agree). Probably not a good candidate standard.
+
+
+  
 HD 135384 = HR 5672 = BD+68 823
   A2V: 1930MeUpp..48....1O
  *A4Vn: Palmer68,Abt95

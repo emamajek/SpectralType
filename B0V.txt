@@ -122,20 +122,33 @@ so <(B-V)o> is likely to be bluer than that.
 (Bp-Rp)(B0V) = -0.31  ; Deng20
 (Bp-Rp)(B0V) = -0.491 ; Evans18 trend for V-I=-0.354
 
+(u-g)(B0V)   = -0.22  ; Kesseli17
 (u-g)(B0V)   = -0.25  ; Covey07/synthetic_from_Pickles98_templates
 (u'-g')(B0V) = -0.303 ; Smith02 u'-g' calibration for (U-B)=-1.07
 (u'-g')(B0V) = -0.337 ; Fukugita96 u'-g' calibration for (U-B)=-1.07 
 (u'-g')(B0V) =  -0.42 ; Deng20 (blue-edge method)
-=> adopt (u-g)(B0V) = -0.30 [updated 4/18/2024]
+=> adopt (u-g)(B0V) = -0.27 [updated 6/20/2024]
 
 (g-r)(B0V) = -0.38 ; Deng20
+(g-r)(B0V) = -0.45 ; Kesseli17
 (g-r)(B0V) = -0.59 ; Covey07
+=> adopt (g-r)(B0V) = -0.45 [updated 6/20/2024]
 
 (r-i)(B0V) = -0.32 ; Deng20
+(r-i)(B0V) = -0.33 ; Kesseli17
+(r-i)(B0V) = -0.35 ; Covey07 
+=> adopt (r-i)(B0V) = -0.33 [updated 6/20/2024]
 
 (i-z)(B0V) = -0.26 ; Deng20
+(i-z)(B0V) = -0.29 ; Kesseli17
+(i-z)(B0V) = -0.32 ; Covey07
+=> adopt (i-z)(B0V) = -0.29 [updated 6/20/2024]
 
 (z-y)(B0V) = -0.18 ; Deng20
+=> adopt (z-y)(B0V) = -0.18 [updated 6/20/2024]
+
+(z-J)(B0V) = 0.19 ; Covey07
+=> adopt (z-J)(B0V) = 0.19 [updated 6/20/2024]
 
 (G-V)(B0V) =   -0.260 ; HIP_12469 B0Ve V=10.775 G=10.4085 E(B-V)=0.737 (calc from Kervella22)
 (G-V)(B0V) =   -0.138 ; HIP_107164 B0V:pe V=6.923 G=6.7403 E(B-V)=0.305 (calc from Kervella22)
@@ -295,7 +308,6 @@ HD 149438 = tau Sco = HR 6165
   logNH/E(B-V) = 4.8e21 atoms/cm^2/mag, then E(B-V) = 0.060. Then
   (B-V)o = (B-V) - E(B-V) = -0.252 - 0.060 = -0.312, and (U-B)o =
   (U-B) - 0.72*E(B-V) = -1.023 - 0.72*0.06 = -1.066.
-
 
 # Deprecated Standards
 

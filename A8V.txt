@@ -151,18 +151,29 @@ Note that the V-IR colors seem too blue compared to the trends?
 => adopt (g-V)(A8V) = 0.032 [updated 9/1/2023]
 
 (u-g)(A8V)   = 1.193 ; Covey07 interp A7V-F0V
+(u-g)(A8V)   = 1.205 ; Kesseli17 interp A7V-A9V
 (u'-g')(A8V) = 1.230 ; Smith02 u'-g' calibration for U-B=0.083
 (u'-g')(A8V) = 1.255 ; Fukugita96 u'-g' calibration for U-B=0.083
-=> adopt (u-g)(A8V) = 1.23 [updated 4/18/2024]
+=> adopt (u-g)(A8V) = 1.22 [updated 6/20/2024]
 
-(g-r)(A8V)   = 0.118 ; Jordi06 (V-R)=>(g-r) for V-R=0.140
-(g-r)(A8V)   = 0.029 ; Bilir05 (B-V)=>(g-r) for B-V=0.25
-(g-r)(A8V)   = 0.020 ; Covey07 interp A7V to F0V
-=> adopt (g-r)(A8V) = 0.03 [updated 10/10/2020]
+(g-r)(A8V) =  0.118 ; Jordi06 (V-R)=>(g-r) for V-R=0.140
+(g-r)(A8V) =  0.029 ; Bilir05 (B-V)=>(g-r) for B-V=0.25
+(g-r)(A8V) =  0.020 ; Covey07 interp A7V-F0V
+(g-r)(A8V) = -0.02  ; Kesseli17 interp A7V-A9V 
+=> adopt (g-r)(A8V) = 0.02 [updated 6/20/2024]
 
+(r-i)(A8V) = -0.045 ; Kesseli17 interp A7V-A9V
+(r-i)(A8V) = -0.057 ; Covey07 interp A7V-F0V
 (r-i)(A8V) = -0.071 ; Bilir05 calibration for (R-Ic)=0.147
 (r-i)(A8V) = -0.076 ; Jordi06 popI calibration for (R-Ic)=0.147
-=> adopt (r-i)(A8V) = -0.075 [updated 4/1/2024]
+=> adopt (r-i)(A8V) = -0.06 [updated 6/20/2024]
+
+(i-z)(A8V) = -0.05  ; Kesseli17 interp A7V-A9V 
+(i-z)(A8V) = -0.083 ; Covey07 interp A7V-F0V
+=> adopt (i-z)(A8V) = -0.06 [updated 6/20/2024]
+
+(z-J)(A8V) = 0.55 ; Covey07 interp A7V-F0V
+=> adopt (z-J)(A8V) = 0.55 [updated 6/20/2024]
 
 Teff(A8V) =   7152 K ; Boyajian12
 Teff(A8V) =  7444 K  ; mean photometric Teff

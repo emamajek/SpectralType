@@ -182,19 +182,30 @@ Inconsistency between the MK43 and JM53 standards. Isn't there supposed to be so
 => adopt (g-V) = -0.105 [updated 9/1/2023]
 
 (u-g)(A1V)   = 1.000 ; Fukugita11 interp A0V-A5V
+(u-g)(A1V)   = 1.04  ; Kesseli17 
 (u-g)(A1V)   = 1.125 ; Covey07 interp A0V-A2V
 (u'-g')(A1V) = 1.187 ; Smith02 u'-g' calibration for U-B=0.05
 (u'-g')(A1V) = 1.209 ; Fukugita96 u'-g' calibration for U-B=0.05
-=> adopt (u-g)(A1V) = 1.19 [updated 4/18/2024]
+=> adopt (u-g)(A1V) = 1.13 [updated 6/20/2024]
 
 (g-r)(A1V) = -0.080 ; Jordi06 (V-R)=>(g-r) for V-Rc=0.016
 (g-r)(A1V) = -0.213 ; Bilir05 (B-V)=>(g-r) for B-V=0.035
 (g-r)(A1V) = -0.24  ; Covey07 interp A0V-A2V
-=> adopt (g-r)(A1V) = -0.21 [updated 10/10/2020]
+(g-r)(A1V) = -0.24  ; Kesseli17 
+=> adopt (g-r)(A1V) = -0.23 [updated 6/20/2024]
 
+(r-i)(A1V) = -0.175 ; Covey07 (interp A0V-A2V)
 (r-i)(A1V) = -0.201 ; Jordi06 popI calibration for (R-Ic)=0.02
 (r-i)(A1V) = -0.203 ; Bilir05 calibration for (R-Ic)=0.02
-=> adopt (r-i)(A1V) = -0.20 [updated 4/1/2024]
+(r-i)(A1V) = -0.21  ; Kesseli17 
+=> adopt (r-i)(A1V) = -0.20 [updated 6/20/2024]
+
+(i-z)(A1V) = -0.05 ; Kesseli17
+(i-z)(A1V) = -0.16 ; Covey07 (interp A0V-A2V) 
+=> adopt (i-z)(A1V) = -0.10: [updated 6/20/2024]
+
+(z-J)(A1V) = 0.42 ; Covey07
+=> adopt (z-J)(A1V) = 0.42 [updated 6/20/2024]
 
 Teff(A1V) =   9500 K ; Bessell79
 Teff(A1V) =   9500 K ; GrayCorbally09

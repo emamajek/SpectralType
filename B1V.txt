@@ -5,8 +5,10 @@ and 42 Ori as B1V dagger standards.
 
 HD 144470 = Ome^1 Sco appears to be the best B1V standard. 
 
-MK43 standard:          eta Ori - B1V
-JM53 standard:          ome^1 Sco, HD 7252, HD 24131 - B1V
+MK43 standard:          eta Ori   - B1V
+JM53 standard:          ome^1 Sco - B1V
+                        HD 7252   - B1V
+			HD 24131  - B1V
 Garrison67 standard:    Cl* NGC 2244 JOHN 9 - B1Vn [from Morgan65 NGC 2244 MS.]
 		        Cl* NGC 2244 JOHN 11 - B1V [from Morgan65 NGC 2244 MS.]
 Lesh68 standard:        ome^1 Sco - B1V
@@ -34,6 +36,7 @@ Garcia89 lists 4 B1V MK standards: HD 7252, 24131, 37018, & 144470.
 All dereddenings via the Q-method in this file have been updated using
 a revised calibration (10/9/2011).
 
+(B-V)(B1V) =  -0.23 ; Wegner14
 (B-V)(B1V) =  -0.25 ; Deng20
 (B-V)(B1V) =  -0.26 ; Morgan53,Johnson63,JohnsonBorgman63,Johnson65,Johnson66,Garrison67,Fitzgerald70,Morgan71,SchmidtKaler82,KenyonHartmann95
 (B-V)(B1V) = -0.266 ; EEM dereddened N=29 HIP B1V stars (via Q-method)
@@ -43,8 +46,7 @@ a revised calibration (10/9/2011).
 (B-V)(B1V) = -0.278 ; U-B=-0.995 trend Q-method
 (B-V)(B1V) = -0.279 ; EEM dereddened ter. stan. 42 Ori (via Q-method)
 (B-V)(B1V) =  -0.28  ; JohnsonMorgan53
-(B-V)(B1V) =  -0.23  ; Wegner14
-=> adopt (B-V)(B1V) = -0.278 mag [updated 2/7/2020]
+=> adopt (B-V)(B1V) = -0.278 mag [updated 6/8/2024]
 
 The bluest B-V I can find for a B1V star is HIP 39540 = HD 66665
 (B-V = -0.248+-0.012), so <(B-V)o> is probably bluer than this.
@@ -118,15 +120,27 @@ The bluest B-V I can find for a B1V star is HIP 39540 = HD 66665
 (u-g)(B1V)   = -0.13  ; Covey07/synthetic_from_Pickles98_templates
 (u'-g')(B1V) = -0.203 ; Smith02 u'-g' calibration for (U-B)=-0.995
 (u'-g')(B1V) = -0.233 ; Fukugita96 u'-g' calibration for (U-B)=-0.995
+(u-g)(B1V)   = -0.27  ; Kesseli17
 (u'-g')(B1V) =  -0.29 ; Deng20 (blue-edge method)
-=> adopt (u-g)(B1V) = -0.20 [updated 4/18/2024]
+=> adopt (u-g)(B1V) = -0.22 [updated 6/18/2024]
 
 (g-r)(B1V) = -0.34 ; Deng20
+(g-r)(B1V) = -0.46 ; Kesseli17
 (g-r)(B1V) = -0.49 ; Covey07
+=> adopt (g-r)(B1V) = -0.46 [updated 6/18/2024]
 
 (r-i)(B1V) = -0.31 ; Deng20
+(r-i)(B1V) = -0.33 ; Kesseli17
+(r-i)(B1V) = -0.33 ; Covey07
+=> adopt (r-i)(B1V) = -0.33 [updated 6/18/2024]
 
 (i-z)(B1V) = -0.24 ; Deng20
+(i-z)(B1V) = -0.26 ; Covey07
+(i-z)(B1V) = -0.27 ; Kesseli17
+=> adopt (i-z)(B1V) = -0.26 [updated 6/18/2024]
+
+(z-J)(B1V) = 0.13 ; Covey07
+=> adopt (z-J)(B1V) = 0.13 [updated 6/18/2024]
 
 (G-V)(B1V) =   -0.287 ; HIP_102926 B1Ve V=8.325 G=7.9533 E(B-V)=0.586 (calc from Kervella22)
 (G-V)(B1V) =   -0.193 ; HIP_112718 B1V V=9.194 G=8.9577 E(B-V)=0.295 (calc from Kervella22)
@@ -262,7 +276,7 @@ HD 144470 = ome^1 Sco = HR 5993
 # Secondary Standards
 
 HD 7252 = ALS 6493 = MCW 58 (J0114+6052)
- *B1V: JM53,Morgan55,Hiltner56,Fehrenback60,Jaschek64(all),Jensen81,Garcia89
+ *B1V: JM53,Morgan55,Hiltner56,Fehrenback60,Jaschek64(all),Jensen81
   B2III: Bartaya83
   B3: Cannon
 
@@ -345,23 +359,42 @@ Cl* NGC 2244 JOHN 11
 
 # Other Stars
 
-alf Cru B
-  B1Vn: Garrison96
+HD 108249 = alf02 Cru = alf Cru B = Acrux B = HR 4731 = WDS J12266-6306B
+  B0.5Vn HeI wk: Corbally84	 
+ *B1Vn: Garrison96
+  B1V: Hiltner69,Houk75
+  B1: 1920AnHar..95.....C
 
-  One of 3 B1Vs in Garrison96's table of "The Brighest Stars".
+  Secondary of extremely bright 4" binary.  One of 3 B1Vs in
+  Garrison96's table of "The Brighest Stars".  Primary is alf Cru A =
+  alf01 Cru, type B0.5IV(Hiltner69,Corbally84), and a B4V type
+  tertiary C lies 90" away. Baten67 claims both B and A are
+  spectroscopic binaries.
 
-HD 116658 = alf Vir = Spica 
- *B1V: JM53(non.stan.;Jaschek78),Garrison96,Houk99(Garrison)
+HD 116658 = alf Vir = Spica = HIP 65474 = HR 5056 = SBC9 766 
+  B1V: JM53(non.stan.),Garrison96,Houk99(Garrison)
   B1: Maury1897
-  B1III+IV: MK43
-  B2V+B2V: Levato75
+  B1III+IV: MK43,Harrington16(B1III-IV adopted for A)
+  B1IV: 1955MmMtS..12....1W,
+  B2: 1927MNRAS..86..364E
+  B2V:: 1930MmMtS...2....1R
+ *B2V+B2V: Levato75(vsini=100km/s,60km/s)
   B2V+B3V: Struve58
 
-  Binary. One of 3 B1Vs in Garrison96's table of "The Brighest
-  Stars". JM53 used this as their earliest/hottest type unreddened
-  star to define the (U-B) vs. (B-V) sequence. JM53 (p. 343) list
-  (B-V)=-0.26 and (U-B)=-0.94 and type B1V. Mermilliod91 lists:
-  V=0.976+-0.010(Mermilliod91), V=0.98(GCPD/Cousins76_VRIc),
+  Nearby bright binary, but not a well used standard and the binarity
+  is affecting the unresolved photometry. One of 3 B1Vs in
+  Garrison96's table of "The Brighest Stars". However the star is
+  redder and cooler than standard B1V stars, and Levato75 considers
+  both to be B2V. While there are numerous studies of the binary and
+  variability, there has been little spectral analysis of the two
+  stars.  Detailed study by Harrington16 finds the pair to be
+  M1=10.0+-0.3Msun, M2=6.4+-0.2Msun.  Tkachenko16 estimates
+  M1=11.43+-1.15Msun, M2=7.21+-0.75Msun, R1=7.47+-0.54Rsun,
+  R2=3.74+-0.53Rsun, Teff1=25300+-500K, Teff2=20900+-800K, with system
+  age 12.5+-1 Myr.  JM53 used this as their earliest/hottest type
+  unreddened star to define the (U-B) vs. (B-V) sequence. JM53
+  (p. 343) list (B-V)=-0.26 and (U-B)=-0.94 and type B1V. Mermilliod91
+  lists: V=0.976+-0.010(Mermilliod91), V=0.98(GCPD/Cousins76_VRIc),
   (B-V)=-0.235+-0.008(Mermilliod91),
   (U-B)=-0.938+-0.008(Mermilliod91),
   (V-Rc)=-0.101(GCPD/Cousins76_VRIc),
@@ -374,14 +407,13 @@ HD 116658 = alf Vir = Spica
   19.00+-0.11 (Bohlin78), 18.98 (Ferlet85), 18.83 (Welsh90). I adopt
   logN_HI = 19.0. Using Savage & Mathis 1979 [N(HI+H2)/E(B-V) =
   4.8e21], I estimate E(B-V) = 0.002, i.e. negligible
-  reddening. Similarly, Crawford78 assumes Spica is unreddened.  The
-  star is perhaps redder and cooler than standard B1V stars.
-
-  Teffs: 15073+-1892K(Wu11), 23159K(EEM,Hauck97 photometry=>Balona94
-  calibration), 24581K(EEM,Hauck97 photometry=>Napiwotski93
-  calibration), 24867K(U-Bo=>Bessell98), 25200K(Philip80),
-  25241K(Hauck97 photometry=>BalonaShobbrook84 calibration) => median
-  Teff = 24724K. logg=3.60+-0.22(Wu11). [Fe/H]=-0.01+-0.07(Wu11).
+  reddening. Similarly, Crawford78 assumes Spica is unreddened.
+  Teffs: 15073+-1892K(Wu11,disceprent!), 23159K(EEM,Hauck97
+  photometry=>Balona94 calib.), 24581K(EEM,Hauck97
+  photometry=>Napiwotski93 calib.), 24867K(U-Bo=>Bessell98),
+  25200K(Philip80), 25241K(Hauck97 photometry=>BalonaShobbrook84
+  calib.), 25300K(Tkachenko16) => median Teff ~ 25000K.
+  logg=3.60+-0.22(Wu11). [Fe/H]=-0.01+-0.07(Wu11).
 
 Garrison96 lists three B1V (or variants) in their table "The Brightest
 Stars": alf Cru B, alf Vir, and pi Sco A (however none of these appear

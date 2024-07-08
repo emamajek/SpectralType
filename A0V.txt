@@ -173,33 +173,43 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 => adopt (g-V)(A0V) = -0.127 [updated 9/1/2023]
 
 (u'-g')(A0V) =  0.87 ; Deng20 (blue-edge method)
-(u-g)(A0V)   = 0.98 ; Fukugita11
-(u-g)(A0V)   = 1.02+-0.08 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
-(u-g)(A0V)   = 1.09 ; Covey07/synthetic_from_Pickles98_templates
+(u-g)(A0V)   = 0.98  ; Fukugita11
+(u-g)(A0V)   = 1.02 +-0.08 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+(u-g)(A0V)   = 1.09  ; Covey07/synthetic_from_Pickles98_templates
+(u-g)(A0V)   = 1.10  ; Kesseli17 
 (u'-g')(A0V) = 1.112 ; Smith02 u'-g' calibration for U-B=-0.006
 (u'-g')(A0V) = 1.132 ; Fukugita96 u'-g' calibration for U-B=-0.006
-=> adopt (u-g)(A0V) = 1.09 [updated 9/1/2023]
+=> adopt (u-g)(A0V) = 1.10 [updated 6/20/2024]
 
 (g-r)(A0V) = -0.104 ; Jordi06 (V-R)=>(g-r) for V-R=0.001
 (g-r)(A0V) = -0.14  ; Deng20
 (g-r)(A0V) = -0.22  ; Fukugita11
 (g-r)(A0V) = -0.250 ; Covey07
+(g-r)(A0V) = -0.25  ; Kesseli17 
 (g-r)(A0V) = -0.25 +-0.03 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
 (g-r)(A0V) = -0.252 ; Bilir05 (B-V)=>(g-r) for B-V=0.00
-=> adopt (g-r)(A0V) = -0.25 [updated 4/1/2024]
+=> adopt (g-r)(A0V) = -0.25 [updated 6/20/2024]
 
 (r-i)(A0V) = -0.18  ; Deng20
+(r-i)(A0V) = -0.18  ; Covey07
 (r-i)(A0V) = -0.19  ; Fukugita11
+(r-i)(A0V) = -0.19  ; Kesseli17 
 (r-i)(A0V) = -0.221 ; Jordi06 popI calibration for (R-Ic)=0.00
 (r-i)(A0V) = -0.224 ; Bilir05 calibration for (R-Ic)=0.00 
 (r-i)(A0V) = -0.23+-0.02 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
-=> adopt (r-i)(A0V) = -0.22 [updated 4/1/2024]
+=> adopt (r-i)(A0V) = -0.19 [updated 6/20/2024]
 
-(i-z)(A0V) = -0.12       ; Deng20
-(i-z)(A0V) = -0.17+-0.02 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
-=> adopt (i-z)(A0V) = -0.15 [updated 4/1/2023]
+(i-z)(A0V) = -0.09 ; Kesseli17
+(i-z)(A0V) = -0.12 ; Deng20
+(i-z)(A0V) = -0.17 ; Covey07
+(i-z)(A0V) = -0.17 +-0.02 ; Vega https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
+=> adopt (i-z)(A0V) = -0.15 [updated 6/20/2024]
 
 (z-y)(A0V) = -0.03 ; Deng20
+=> adopt (z-y)(A0V) = -0.03 [updated 6/20/2024]
+
+(z-J)(A0V) = 0.46 ; Covey07
+=> adopt (z-J)(A0V) = 0.46 [updated 6/20/2024]
 
 (Bp-Rp)(A0V) = +0.03  ; Deng20 
 (Bp-Rp)(A0V) = -0.006 ; Evans18 trend for V-I= 0.004

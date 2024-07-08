@@ -53,56 +53,65 @@ MK78), HD 36485 (B2Vh; MK78), HD 37017 (B2Vh; MK78).
 All Q-method calculations in this file have been reevaluated using the
 newest calibration (10/9/2011).
 
-(B-V)(B2V) = -0.197 ; EEM dereddened sec. stan. HD 42401 (via Q-method)
-(B-V)(B2V) = -0.210 ; EEM dereddened N=56 HIP B2V (E(B-V)<0.1, Q-method)
-(B-V)(B2V) =  -0.21 ; Deng20
-(B-V)(B2V) = -0.213 ; EEM dereddened sec. stan. 13 Sco (via Q-method)
-(B-V)(B2V) = -0.215 ; U-B=-0.79, trend Q-method
-(B-V)(B2V) = -0.216 ; EEM dereddened weak stan. 22 Sco (via Q-method)
-(B-V)(B2V) =  -0.22  ; KenyonHartmann95
-(B-V)(B2V) = -0.229 ; EEM dereddened prim. stan. bet^2 Sco (via Q-method)
-(B-V)(B2V) =  -0.23  ; Garrison67
-(B-V)(B2V) = -0.231 ; EEM dereddened weak stan. HD 191746 (via Q-method)
-(B-V)(B2V) =  -0.24  ; JohnsonMorgan53,Morgan53,Johnson63,JohnsonBorgman63,Johnson65,Johnson66,Fitzgerald70,Morgan71,SchmidtKaler82
-=> adopt (B-V)(B2V)  = -0.215 [updated 2/7/2020]
+(B-V)(B2V) =  -0.197 ; sec. stan. HD 42401 (dereddened via Q-method)
+(B-V)(B2V) =  -0.210 ; N=56 HIP B2V (E(B-V)<0.1, dereddened via Q-method)
+(B-V)(B2V) =   -0.21 ; Deng20
+(B-V)(B2V) =  -0.213 ; sec. stan. 13 Sco (dereddened via via Q-method)
+(B-V)(B2V) = -0.215 ; U-B=-0.790, trend Q-method
+(B-V)(B2V) =  -0.216 ; deprecated stan. 22 Sco (dereddened via via Q-method)
+(B-V)(B2V) =   -0.22  ; KenyonHartmann95
+(B-V)(B2V) =  -0.229 ; prim. stan. bet^2 Sco (dereddened via Q-method)
+(B-V)(B2V) =   -0.23  ; Garrison67
+(B-V)(B2V) =  -0.231 ; deprecated standard HD 191746 (dereddened via Q-method)
+(B-V)(B2V) =   -0.24  ; JohnsonMorgan53,Morgan53,Johnson63,JohnsonBorgman63,Johnson65,Johnson66,Fitzgerald70,Morgan71,SchmidtKaler82
+=> adopt (B-V)(B2V) = -0.215 [updated 6/1/2024]
 
-(U-B)(B2V) = -0.731 ; EEM dereddened sec. stan. HD 42401 (via Q-method)
-(U-B)(B2V) = -0.775 ; EEM dereddened N=56 HIP B2V stars (E(B-V)<0.1, Q-method)
-(U-B)(B2V) = -0.784 ; EEM dereddened sec. stan. 13 Sco (via Q-method)
-(U-B)(B2V) = -0.793 ; EEM dereddened weak stan. 22 Sco (via Q-method)
+(U-B)(B2V) = -0.731 ; secondary stan. HD 42401 (dereddened via Q-method)
+(U-B)(B2V) = -0.775 ; N=56 HIP B2V stars (E(B-V)<0.1, dereddened via Q-method)
+(U-B)(B2V) = -0.784 ; secondary stan. 13 Sco (dereddened via Q-method)
+(U-B)(B2V) = -0.793 ; deprecated stan. 22 Sco (dereddened via Q-method)
 (U-B)(B2V) =   -0.81  ; Fitzgerald70
-(U-B)(B2V) = -0.838 ; EEM dereddened prim. stan. bet^2 Sco (via Q-method)
+(U-B)(B2V) = -0.838 ; primary stan. bet^2 Sco (dereddened via Q-method)
 (U-B)(B2V) =   -0.84  ; Schmidt-Kaler82
-(U-B)(B2V) =  -0.844 ; EEM dereddened weak stan. HD 191746 (via Q-method)
+(U-B)(B2V) = -0.844 ; deprecated stan. HD 191746 (dereddened via Q-method)
 (U-B)(B2V) =   -0.85  ; Bessell98
 (U-B)(B2V) =   -0.86  ; Johnson63,Johnson65,Johnson66
-=> adopt (U-B)(B2V)  = -0.79  *** [updated 2/7/2020]
-
-=> adopt     Q(B2V)  = -0.636 [updated 2/7/2020]
-=> adopt (V-I)(B2V)  = -0.229
-=> adopt (V-R)(B2V)  = -0.094
-=> adopt (R-I)(B2V)  = -0.135
+=> adopt (U-B)(B2V) = -0.79 [updated 6/1/2024]
+=> adopt Q(B2V) = -0.636 [updated 6/1/2024]
 
 (V-Rj)(B2V) = -0.10 ; Johnson65
 
-(V-Rc)(B2V) = -0.12 ; Winkler97/SAAO
+(V-Rc)(B2V) = -0.094 ; color trend U-B vs V-Rc for U-B=-0.790 
+(V-Rc)(B2V) =  -0.12 ; Winkler97/SAAO
+=> adopt (V-Rc)(B2V) = -0.094 [updated 6/1/2024]
+
+(R-Ic)(B2V) = -0.135 ; color trend U-B vs R-Ic for U-B=-0.790
+=> adopt (R-Ic)(B2V) = -0.135 [updated 6/1/2024]
 
 (V-Ij)(B2V) = -0.32 ; Johnson65
 
-(V-Ic)(B2V) = -0.26 ; Winkler97/SAAO
+(V-Ic)(B2V) = -0.229 ; color trend U-B vs V-Ic for U-B=-0.790
+(V-Ic)(B2V) =  -0.26 ; Winkler97/SAAO
+=> adopt (V-Ic)(B2V) = -0.229 [updated 6/1/2024]
 
 (V-Jj)(B2V) = -0.53 ; Johnson65
 
-(V-J)(B2V)  = -0.46 ; Wegner14 (2MASS)
+(V-J)(B2V) = -0.458 ; color trend U-B vs V-Ic for U-B=-0.790
+(V-J)(B2V) =  -0.46 ; Wegner14 (2MASS)
+=> adopt (V-J)(B2V) = -0.458 [updated 6/1/2024]
 
-(V-H)(B2V)  = -0.52 ; Wegner14 (2MASS)
+(V-H)(B2V) =  -0.52 ; Wegner14 (2MASS)
+(V-H)(B2V) = -0.570 ; color trend U-B vs. V-H for U-B=-0.790
+=> adopt (V-H)(B2V) = -0.570 [updated 6/1/2024]
 
 (V-Kj)(B2V) = -0.71 ; Johnson65
 
 (V-K)(B2V)  = -0.69 ; Winkler97/SAAO
 
-(V-Ks)(B2V) = -0.58  ; Wegner14 (2MASS)
-(V-Ks)(B2V) = -0.602 ; PecautMamajek13 
+(V-Ks)(B2V) =  -0.58 ; Wegner14 (2MASS)
+(V-Ks)(B2V) = -0.602 ; PecautMamajek13
+(V-Ks)(B2V) = -0.602 ; color trend U-B vs V-Ks for U-B=-0.790
+=> adopt (V-Ks)(B2V) = -0.602 [updated 6/1/2024]
 
 (J-H)(B2V) = -0.09 ; Winkler97/SAAO
 
@@ -118,7 +127,9 @@ newest calibration (10/9/2011).
 (H-Ks)(B2V) = -0.06 (+-0.004 rms) ; SteadHoare11
 => adopt (H-Ks)(B2V) = -0.024 [updated 5/1/2024]
 
-(J-Ks)(B2V) = -0.13 ; Deng20/2MASS 
+(J-Ks)(B2V) = -0.127 ; J-H=-0.103, H-Ks=-0.024
+(J-Ks)(B2V) =  -0.13 ; Deng20/2MASS
+=> adopt (J-Ks)(B2V) = -0.127 [updated 6/1/2024; J-H=-0.103, H-Ks=-0.024]
 
 (V-Lj)(B2V) = -0.69 ; Johnson65
 
@@ -133,36 +144,44 @@ newest calibration (10/9/2011).
 (V-Ks)(B2V)=  -0.637 ; HIP_68862_ B2V d= 153.351pc, (B-V)=0.013 (dereddened from Kervella19)
 (V-Ks)(B2V)=  -0.751 ; HIP_38500_ B2V d= 244.26pc, (B-V)=0.029 (dereddened from Kervella19)
 => adopt (V-Ks)(B2V) = -0.602 [updated 4/8/2022]
-=> adopt (V-J)(B2V)  = -0.458 [updated 4/8/2022]
-=> adopt (V-H)(B2V)  = -0.570 [updated 4/8/2022]
-=> adopt (H-Ks)(B2V) = -0.032 [updated 4/8/2022]
-=> adopt (J-H)(B2V)  = -0.113 [updated 4/8/2022]
 
-(Ks-W1)(B2V) =  0.023 ; EEM trend for d<30pc for B-V=-0.210
-(Ks-W1)(B2V) = -0.04  ; Deng20 (J-W1=-0.17, J-Ks=-0.13)
-=> adopt (Ks-W1)(B2V) = 0.023 [updated 12/29/2019]
+(Ks-W1)(B2V) =  0.023 ; EEM trend for d<30pc for B-V=-0.210, color trend U-B vs Ks-W1 for U-B=-0.790
+(Ks-W1)(B2V) =  -0.04  ; Deng20 (J-W1=-0.17, J-Ks=-0.13)
+=> adopt (Ks-W1)(B2V) = 0.023 [updated 6/1/2024]
 
 (Bp-Rp)(B2V) = -0.29  ; Deng20
 (Bp-Rp)(B2V) = -0.318 ; Evans18 trend for V-I=-0.229
 
 (u'-g')(B2V) =  -0.17 ; Deng20 (blue-edge method)
+(u-g)(B2V)   = -0.13  ; Kesseli17
 (u-g)(B2V)   = -0.08  ; Fukugita11
 (u-g)(B2V)   = -0.025 ; Covey07/synthetic_from_Pickles98_templates (interp B1V-B3V)
 (u'-g')(B2V) =  0.050 ; Fukugita96 u'-g' calibration for (U-B)=-0.79
 (u'-g')(B2V) =  0.069 ; Smith02 u'-g' calibration for (U-B)=-0.79
-=> adopt (u-g)(B2V) = 0.01 [updated 4/18/2024]
+=> adopt (u-g)(B2V) = -0.03 [updated 6/18/2024]
 
 (g-r)(B2V) = -0.31  ; Deng20
-(g-r)(B2V) = -0.475 ; Covey07
+(g-r)(B2V) = -0.41  ; Kesseli17
+(g-r)(B2V) = -0.475 ; Covey07 (interp B1V-B3V)
 (g-r)(B2V) = -0.50  ; Fukugita11
-=> adopt (g-r)(B2V) = -0.48 [updated 2/1/2024]
+=> adopt (g-r)(B2V) = -0.44 [updated 6/18/2024] 
 
-(r-i)(B2V) = -0.30 ; Deng20
-(r-i)(B2V) = -0.37 ; Fukugita11
+(r-i)(B2V) = -0.295 ; Covey07 (interp B1V-B3V)
+(r-i)(B2V) = -0.30  ; Deng20
+(r-i)(B2V) = -0.30  ; Kesseli17
+(r-i)(B2V) = -0.37  ; Fukugita11
+=> adopt (r-i)(B2V) = -0.30 [updated 6/18/2024]
 
 (i-z)(B2V) = -0.23 ; Deng20
+(i-z)(B2V) = -0.26 ; Covey07
+(i-z)(B2V) = -0.31 ; Kesseli17
+=> adopt (i-z)(B2V) = -0.26 [updated 6/18/2024]
 
 (z-y)(B2V) = -0.15 ; Deng20
+=> adopt (z-y)(B2V) = -0.15 [updated 6/18/2024]
+
+(z-J)(B2V) = 0.165 ; Covey07 (interp B1V-B3V)
+=> adopt (z-J)(B2V) = 0.17 [updated 6/18/2024]
 
 (G-V)(B2V) = -0.235 ; HIP_103763 B2Ve V=7.435 G=7.1854 E(B-V)=0.099 (calc from Kervella22)
 (G-V)(B2V) = -0.033 ; HIP_40397 B2Vnn V=6.426 G=6.3879 E(B-V)=0.031 (calc from Kervella22)
@@ -291,14 +310,14 @@ HD 144218 = bet^2 Sco = 8 Sco B = bet Sco B = HR 5985
 
   Companion to B0.5V star bet^1 Sco (A). Jaschek64: majority say B2V,
   with one B3V. Mermilliod91 photometry: V=4.903+-0.014,
-  B-V=-0.024+-0.008, U-B=-0.690+-0.014 => updated Q-method (10/8/2011)
-  => (B-V)o=-0.229, (U-B)o=-0.838, E(B-V)= 0.205,
+  B-V=-0.024+-0.008, U-B=-0.690+-0.014 => updated Q-method
+  => (B-V)o=-0.229, (U-B)o=-0.838, E(B-V)=0.205,
   Av=0.666. VanLeeuwen07 plx = 8.19+-1.17 mas => D = 122+-18 pc.  Mv =
   -1.20 +- 0.31 mag.  Teffs: 19657K(EEM,Hauck97 phot.=>Napiwotzki93
   calibration), 20150K(Glagolevskij19), 20160K(Philip80),
   20417K(deGeus89), 20766K(U-Bo=>Bessell98), 20866K(EEM,Hauck97 beta
   phot.=>BalonaShobbrook84 calibration), 21042K(EEM,Hauck97
-  phot.=>Balona94 calibration) => median Teff = 20592K.
+  phot.=>Balona94 calibration) => adopt Teff=20592K.
   Rad=3.00Rsun(Glagolevskij19), 4.143+-0.207 Rsun (Kervella04).
   M=4.498+-0.225Msun(Kervella19), 6.54Msun(Tokovinin20),
   7.59Msun(Glagolevskij19) ~> <Mass> ~ 6.5 Msun.
@@ -370,21 +389,23 @@ HD 42401 = V1388 Ori = BD+12_1049
   Av=0.294.
 
 HD 191746 = HIP 99400
-  B2V: JM53,Garcia89
+  B2V: JM53
   B2IV: Jaschek78(Guetter68),Kennedy83(Guetter68)
   B2III/IV: Claussen79
   B3: Cannon
 
   Good agreement on B2 temperature type, but only JM53 calls it dwarf.
-  No use as standard after JM53? Mediocre standard. M91: V=7.170+-?,
-  B-V=0.010+-?, U-B=-0.670+-?  => revised Q-method calibration
-  (10/9/2011) => (B-V)o=-0.231, (U-B)o=-0.844, E(B-V)= 0.241,
-  Av=0.782.
+  No use as standard after JM53? Regardless, not considered luminosity
+  class V since JM53, so I include it here as a deprecated standard.
+  M91: V=7.170+-?, B-V=0.010+-?, U-B=-0.670+-?  => revised Q-method
+  calibration (10/9/2011) => (B-V)o=-0.231, (U-B)o=-0.844, E(B-V)=
+  0.241, Av=0.782.
 
 HD 218440 = HR 8803
-  B2V: JM53,Guetter68,Garcia89
-  B2.5IV: Jaschek78(Lesh68)
-  B3III/V: Maury1897(in Skiff12)
+  B2V: JM53,Guetter68
+ *B2.5IV: Lesh68
+  B3III/V: Maury1897(in Skiff)
+  B3: 1928MNRAS..88..175E,1955IzKry..14....3B
 
   Spectroscopic binary. Lesh adopted later type and subgiant instead
   of dwarf luminosity class. Doesn't seem to have been used much as a
@@ -393,17 +414,23 @@ HD 218440 = HR 8803
   (U-B)o=-0.780, E(B-V)= 0.201, Av=0.652.
 
 HD 3901 = ksi Cas = 19 Cas = HR 179
-  B2V: JM53,Garcia89,Hoffleit91
-  B2.5V: Jaschek78(Lesh68),Kennedy83
-  B3: Cannon
+  B2V: JM53,Hoffleit91
+ *B2.5V: Lesh68
+  B3V: Cuchiarro80(S2/68)
+  B3: Cannon,1949ApJ...110..498S
+  B4: 1927MNRAS..86..364E	
 
-  Jaschek64: vast majority list B2V (one B3IV).
-  Basically the only two good classifications are JM53 and Lesh68. 
+  Jaschek64: vast majority list B2V (one B3IV).  Basically the only
+  two good classifications are JM53 and Lesh68.
 
 HD 208947 = HR 8384
- *B2V: JM53,Lesh68,Garcia89
-  B3V: Abt84,Ahmad52
-  B3: Cannon,Petrie67(B3+B3)
+  B0V: 1930MeUpp..48....1O
+  B2V: JM53,Slettebak63,Lesh68
+  B2.5III: Cuchiarro76(S2/68)
+  B3V: Ahmad52,Abt84
+  B3III: 1936ApJ....83..305W(SB)
+ *B3+B3: Petrie67
+  B3: Cannon
 
   I'll adopt the Morgan & Lesh B2V type, but probably a mediocre
   standard, given the disagreement among other expert

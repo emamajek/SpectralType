@@ -130,16 +130,27 @@ Pecaut12 standard:    HD 73450 (=BS Cnc) - A9V
 (u-g)(A9V)   = 1.177 ; Covey07
 (u'-g')(A9V) = 1.213 ; Smith02 u'-g' calibration for U-B=0.070
 (u'-g')(A9V) = 1.237 ; Fukugita96 u'-g' calibration for U-B=0.070
-=> adopt (u-g)(A9V) = 1.21 [updated 4/18/2024]
+(u-g)(A9V)   = 1.24  ; Kesseli17 
+=> adopt (u-g)(A9V) = 1.23 [updated 6/20/2024]
 
-(g-r)(A9V)   = 0.137 ; Jordi06 (V-R)=>(g-r) for V-R=0.152
-(g-r)(A9V)   = 0.060 ; Covey07 interp A7V to F0V
-(g-r)(A9V)   = 0.052 ; Bilir05 (B-V)=>(g-r) for B-V=0.27
-=> adopt (g-r)(A9V) = 0.06 [updated 10/10/2020]
+(g-r)(A9V) =  0.137 ; Jordi06 (V-R)=>(g-r) for V-R=0.152
+(g-r)(A9V) =  0.060 ; Covey07 interp A7V to F0V
+(g-r)(A9V) =  0.052 ; Bilir05 (B-V)=>(g-r) for B-V=0.27
+(g-r)(A9V) = -0.02  ; Kesseli17   
+=> adopt (g-r)(A9V) = 0.06 [updated 6/20/2024]
 
+(r-i)(A9V) = -0.033 ; Covey07 interp A7V-F0V
 (r-i)(A9V) = -0.058 ; Bilir05 calibration for R-Ic=0.159
 (r-i)(A9V) = -0.064 ; Jordi06 popI calibration for (R-Ic)=0.159
-=> adopt (r-i)(A9V) = -0.06 [updated 4/1/2024]
+(r-i)(A9V) = -0.07  ; Kesseli17 
+=> adopt (r-i)(A9V) = -0.06 [updated 6/20/2024]
+
+(i-z)(A9V) = -0.07  ; Kesseli17
+(i-z)(A9V) = -0.087 ; Covey07 interp A7V-F0V
+=> adopt (i-z)(A9V) = -0.08 [updated 6/20/2024]
+
+(z-J)(A9V) = 0.57 ; Covey07 interp A7V-F0V
+=> adopt (z-J)(A9V) = 0.57 [updated 6/20/2024]
 
 Teff(A9V) =   7020 K ; Boyajian12
 Teff(A9V) =   7380 K ; GrayCorbally09

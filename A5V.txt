@@ -143,25 +143,29 @@ Skiff08 flags only HD 23886 (MK78) as a A5V MK standard.
 (g-V)(A5V) = -0.026 ; Jordi06 B-V=>g-V for B-V=0.16
 => adopt (g-V)(A5V) = -0.026 [updated 9/1/2023]
 
-(u'-g')(A5V) =  1.08 ; Deng20 (blue-edge method)
+(u'-g')(A5V) = 1.08  ; Deng20 (blue-edge method)
 (u-g)(A5V)   = 1.08  ; Fukugita11
+(u-g)(A5V)   = 1.13  ; Kesseli17 interp A3V-A6V
 (u-g)(A5V)   = 1.20  ; Covey07
 (u'-g')(A5V) = 1.253 ; Smith02 u'-g' calibration for U-B=0.10
 (u'-g')(A5V) = 1.278 ; Fukugita96 u'-g' calibration for U-B=0.10
-=> adopt (u-g)(A5V) = 1.23 [updated 2/1/2024]
+=> adopt (u-g)(A5V) = 1.17 [updated 6/18/2024]
 
 (g-r)(A5V) =  0.036 ; Jordi06 (V-R)=>(g-r) for V-R=0.089
+(g-r)(A5V) = -0.037 ; Kesseli17  
 (g-r)(A5V) = -0.04  ; Fukugita11 
 (g-r)(A5V) = -0.072 ; Bilir05 (B-V)=>(g-r) for B-V=0.16
 (g-r)(A5V) = -0.08  ; Deng20 
 (g-r)(A5V) = -0.10  ; Covey07
-=> adopt (g-r)(A5V) = -0.07 [updated 2/1/2024]
+=> adopt (g-r)(A5V) = -0.06 [updated 6/20/2024]
 
+(r-i)(A5V) = -0.087 ; Kesseli17
 (r-i)(A5V) = -0.09  ; Fukugita11
+(r-i)(A5V) = -0.11  ; Covey07
 (r-i)(A5V) = -0.120 ; Bilir05 calibration for (R-Ic)=0.10
 (r-i)(A5V) = -0.122 ; Jordi06 popI calibration for (R-Ic)=0.10
 (r-i)(A5V) = -0.13  ; Deng20
-=> adopt (r-i)(A5V) = -0.12 [updated 4/1/2024]
+=> adopt (r-i)(A5V) = -0.11 [updated 6/18/2024]
 
 (i-z)(A5V) = -0.10 ; Deng20
 

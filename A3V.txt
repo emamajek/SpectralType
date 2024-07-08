@@ -37,7 +37,8 @@ Skiff08 flagged two stars as A3V standards: HD 216956 (MK73) & BD+48_944 (MK78)
 (B-V)(A3V) =   0.05 ; HD_216627_ A3Vp plx=23.1451mas, Mv=0.1022
 (B-V)(A3V) = 0.057 ; exemplar HD 23848 = HR 1177
 (B-V)(A3V) =   0.06 ; HD_20677_ A3V plx=20.9522mas, Mv=1.5521
-(B-V)(A3V) = 0.062 ; exemplar HD 188899 = 61 Sgr 
+(B-V)(A3V) = 0.062 ; exemplar HD 188899 = 61 Sgr
+(B-V)(A3V) = 0.065 ; exemplar HD 116706 = HR 5057 = HIP 65466 (Coma Ber member)
 (B-V)(A3V) = 0.07  ; exemplar HD 151431 = 19 Oph 
 (B-V)(A3V) =   0.08 ; Fitzgerald70
 (B-V)(A3V) =   0.08 ; Schmidt-Kaler82
@@ -68,9 +69,10 @@ B-V for the standards+exemplars is the same as the B-V for bet Cir. I adopt B-V=
 => adopt (J-H)(A3V)  = -0.001 [updated 12/29/2023]
 
 (U-B)(A3V) = 0.100 ; anchor stan. alf PsA = HD 216956 = GJ 881 
-(U-B)(A3V) =  0.08  ; Fitzgerald70
+(U-B)(A3V) = 0.085 ; exemplar HD 116706 = HR 5057 = HIP 65466 (Coma Ber member)
 (U-B)(A3V) = 0.084 ; HIP d<75pc S/N>8 A3V N=45 (Mermilliod91 photometry)
 (U-B)(A3V) = 0.084 ; sec. stan. bet Cir = HD 135379 = GJ 580.1
+(U-B)(A3V) =  0.08  ; Fitzgerald70
 (U-B)(A3V) = 0.079 ; U-B vs B-V dwarf d<50pc trend for B-V=0.092
 (U-B)(A3V) = 0.076 ; pri. stan. bet Leo = HD 102647 = GJ 448
 (U-B)(A3V) = 0.07  ; exemplar HD 188899 = 61 Sgr (Mermilliod91) 
@@ -113,19 +115,30 @@ B-V for the standards+exemplars is the same as the B-V for bet Cir. I adopt B-V=
 => adopt (g-V)(A3V) = -0.064 [updated 9/1/2023]
 
 (u-g)(A3V)   = 1.04  ; Fukugita11 interp A0V-A5V
+(u-g)(A3V)   = 1.13  ; Kesseli17 
 (u-g)(A3V)   = 1.15  ; Covey07
 (u'-g')(A3V) = 1.232 ; Smith02 u'-g' calibration for U-B=0.084
 (u'-g')(A3V) = 1.256 ; Fukugita96 u'-g' calibration for U-B=0.084
-=> adopt (u-g)(A3V) = 1.23 [updated 4/18/2024]
+=> adopt (u-g)(A3V) = 1.15 [updated 6/20/2024]
 
 (g-r)(A3V) = -0.016 ; Jordi06 (V-R)=>(g-r) for V-R=0.056
+(g-r)(A3V) = -0.11  ; Kesseli17 
 (g-r)(A3V) = -0.139 ; Bilir05 (B-V)=>(g-r) for B-V=0.100
 (g-r)(A3V) = -0.16  ; Covey07
-=> adopt (g-r)(A3V) = -0.14 [updated 10/10/2020]
+=> adopt (g-r)(A3V) = -0.12 [updated 6/20/2024]
 
+(r-i)(A3V) = -0.14  ; Kesseli17
+(r-i)(A3V) = -0.15  ; Covey07
 (r-i)(A3V) = -0.172 ; Bilir05 calibration for (R-Ic)=0.05
 (r-i)(A3V) = -0.172 ; Jordi06 popI calibration for (R-Ic)=0.05
-=> adopt (r-i)(A3V) = -0.17 [updated 4/1/2023]
+=> adopt (r-i)(A3V) = -0.16 [updated 6/20/2024]
+
+(i-z)(A3V) = -0.11 ; Kesseli17
+(i-z)(A3V) = -0.15 ; Covey07
+=> adopt (i-z)(A3V) = -0.13 [updated 6/20/2024]
+
+(z-J)(A3V) = 0.39 ; Covey07
+=> adopt (z-J)(A3V) = 0.39 [updated 6/20/2024]
 
 (Bp-Rp)(A3V) = 0.110 ; color trend for B-V=0.10
 (Bp-Rp)(A3V) = 0.143 ; Evans18 trend for V-I=0.119
@@ -469,6 +482,25 @@ HD 106591 = del UMa
 
 # Exemplars
 
+HD 116706 = HR 5057 = HIP 65466 = 2MASS J13250667+2351158
+  A2.0: 1985AISAO..20...16K
+  A2V: Palmer68
+  A2III: Cucchiaro78
+  A3V: Osawa59
+  A3Va: GrayGarrison89
+ *A3Vs: Abt95
+  A3IV: Cowley69
+
+  Coma Ber member. WDS lists it as SHY620 with a distant F8-type
+  companion HIP 65508 >999" away.  V=5.75(HIP), V=5.75(Haggkvist68),
+  V=5.76(TYC) V=5.770+-0.129(Mermilliod91), V=5.81(Westerlund63) =>
+  adopt B-V=5.76.  B-V=0.050(Westerlund63), B-V=0.051(GaiaDR3/synth),
+  B-V=0.060(Ozawa59,N=4), B-V=0.065+-0.010(Mermilliod91),
+  B-V=0.076(Haggkvist68), B-V=0.078+-0.004(TYC), B-V=0.090+-0.004(HIP)
+  => adopt B-V=0.065.  U-B=0.080(Osawa59,N=4),
+  U-B=0.085+-0.104(Mermilliod91), U-B=0.100(Westerlund63) => adopt
+  U-B=0.085.  V-Ic=0.10+-0.00(HIP).  Teffs: 8551+-79K(Zorec12).
+
 HD 23848 = HR 1177
    A1IV pec: Palmer68
    A2V: Osawa59
@@ -546,6 +578,8 @@ HD 188899 = 61 Sgr = GJ 773.1 = GJ 9675 = HR 7614 = HIP 98258 = g Sgr
   consistent with either a late K or early M dwarf.
 
 # Other Stars
+
+
 
 HD 27962 = 68 Tau
   A0V: 1961UppAn...4j...1L
