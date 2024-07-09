@@ -2,12 +2,16 @@ B0.7V
 
 Walborn71 called HD 201795 a B0.7V standard.
 
+Walborn71 standard:     HD 201795 - B0.7V
+Negueruela24 standards: HD 37042  - B0.7V (vsini=33km/s)
+                        HD 201795 - B0.7V (vsini=8km/s)
+
 All Q-method calculations in this file have been updated using most
 recent calibration (10/9/2011).
 
-B-V(B0.7V) = -0.288 ; EEM dereddened pri. stan. HD 201795 via Q-method
+(B-V)(B0.7V) = -0.288 ; EEM dereddened pri. stan. HD 201795 via Q-method
 
-U-B(B0.7V) = -1.028 ; EEM dereddened pri. stan. HD 201795 via Q-method
+(U-B)(B0.7V) = -1.028 ; EEM dereddened pri. stan. HD 201795 via Q-method
 
 Mv(B0.7V)  = -3.42 mag ; Bowen08
 
@@ -15,14 +19,22 @@ Teff(B0.7V) = 29000 +- 300 K ; non-standard HD 36960 (Nieva14)
 
 # Primary Standard
 
-HD 201795
- *B0.7V: Walborn71(stan),Walborn72
+HD 201795 = HIP 104548 = ALS 11742 = Gaia DR3 1968091458287111296 
+ *B0.7V: Walborn71(stan),Walborn72,Negueruela24(stan)
   B1V: Morgan53,Jaschek64(all),Jaschek78(Morgan53)
   B3: Cannon
 
   Mermilliod91: V=7.527+-0.020, B-V=-0.039+-0.010, U-B=-0.848+-0.025
   => using updated Q-method (10/9/2011) => (B-V)o = -0.288, (U-B)o =
   -1.028, E(B-V) = 0.249, Av=0.805.
+
+# Secondary Standard
+
+HD 37042 = tet02 Ori B = WDS J05354-0525B
+  B0: Kyritsis22
+  B0.5V: Slettebak63,Levato75,Levato76,Nieva13
+ *B0.7V: Negueruela24(stan)
+  B1V: Sharpless52,Woolf04(B1)
 
 # Other star
 

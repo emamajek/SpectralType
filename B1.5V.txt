@@ -1,23 +1,18 @@
 B1.5V
 
 Garrison94 does not list a B1.5V anchor standard, and MK73 does not
-list a B1.5V dagger standard.
+list a B1.5V dagger standard. Neueruela24 lists 3 B1.5V standards, all
+three of which I adopt as primary standards (however none of these
+were used by Walborn).
 
-There is little agreement on which stars to use for B1.5V standards.
-None of the proposed standards originally were classified B1.5V before
-being considered standards. It appears that the standards themselves
-are a bit hotter and bluer than the mean colors for the majority of
-B1.5V in the literature.
-
-Garrison67 standard: Cl* NGC 2244 JOHN 10 - B1.5V [from Morgan65]
+Garrison67 standard: HD 259105 (= Cl* NGC 2244 JOHN 10) - B1.5V [from Morgan65]
 Lesh68 standard:     HD 215191 - B1.5V
 Walborn71 standard:  HD 154445 - B1.5V
 Walborn90 standard:  HD 36959  - B1.5V
-Rountree90 standard: HD 35299  - B1.5V (UV)
-
-Tough to say what might be the best standard - none have long pedigree
-as B1.5V standard. HD 154445 may be best as its on the Walborn system,
-and it appears to be single.
+Rountree91 standard: HD 35299  - B1.5V (UV)
+Negueruela24 stans:  HD 35299  - B1.5V (vsini=6km/s)
+                     HD 215191 - B1.5V (vsini=205km/s)
+		     HD 37744  - B1.5V (vsini=37km/s)
 
 All Q-method calculations in this file have been updated with the most
 recent calibration (10/9/2011).
@@ -136,50 +131,50 @@ logg(B1.5V) = 4.0 dex ; Eclipsing binary V498 Cyg Aa (Southworth21)
 
 # No Standard
 
-Houk75 and Keenan85 do not list a B1.5V standard
+Houk75 and Keenan85 do not list B1.5V standards
 
-# Primary Standard
+# Primary Standards
 
-HD 154445 = HR 6353 = HIP 83635 
- *B1.5V: Walborn71(stan),Walborn72
-  B1V: Morgan55,Feast57(B1V:),Jaschek64(all),Houk99(from SIMBAD)
+HD 215191 = HIP 112144 = HR 8651 = ALS 14846 
+  B1V: Blaauw53,Jaschek64(all)
+ *B1.5V: Lesh68(stan),Levato76,Negueruela24(stan)
+  B2V: 1976A&AS...26..241C(S2/68 spectra)
+  B2IV: Zorec09
 
-  No new published classifications after Walborn72.  No sign of
-  binarity from Vizier search. V=5.620+-0.010 (Mermilliod91),
-  Cousins71 lists B-V=0.155, U-B=-0.65 => updated Q-method calibration
-  (10/9/2011) => (B-V)o = -0.265, E(B-V) = 0.420, (U-B)o = -0.954,
-  Av=1.363. Plx = 2.92+-0.46 mas => D = 342+-55 pc => Mv = -3.42+-0.34
-  mag (but no statistical correction for poor parallax).  Hauck97
-  photometry dereddened following Castelli91: (b-y)o=-0.132, c0=0.027,
-  E(b-y)=0.314, Av=1.375 mag.  Teffs: 24515K(U-Bo=>Bessell98),
-  24545K(EEM,Hauck97 phot. => Balona94 calibration),
-  24918K(EEM,Hauck97 beta phot.=>BalonaShobbrook84 calibration),
-  24945K(EEM,Hauck97 phot.=>Napiwotzki93 calibration),
-  25200K(Philip80) => median Teff = 24918K.
+HD 35299 = HIP 25223 = HR 1781
+  B1V: Sharpless52,1976A&AS...26..241C,Abt77
+ *B1.5V: Lesh68,Rountree91(stan,IUE),Negueruela24(stan)
+  B2V: JM53,Kyritsis22(B2)
 
-# Secondary Standard
+HD 37744 = HIP 26713 = HR 1950 = ALS 8486 = Gaia DR3 3216418480179808896 
+  B1V: Sharpless52
+ *B1.5V: Lesh68,Abt77(B1.5V:),Cucchiaro80(S2/68),Negueruela24(stan)
+  B2V: Zorec09,Kyritsis22(B2)
 
-HD 36959 = HR 1886 
+# Tertiary Standards
+
+HD 36959 = HIP 26197 = HR 1886 = ALS 14784 = ADS 4182 B = STF 747 B = WDS J05350-0600Ba,Bb = Gaia DR3 3017187866581306368
+  B0: Kyritsis22
  *B1.5V: Walborn90(stan)
-  B1V: Sharpless52,Morgan55,Jaschek64(all),Lesh68,Houk99(Garrison type),Abt77
+  B1V: Sharpless52,Morgan55,Berger62,1966VA......8...83M,Lesh68,Abt77,Houk99(Garrison type)
+  B1k: Neubauer43
+  B1/2: Berger58
 
-  Jaschek64 lists a mix of B0 and B1 temp types.  V=5.6 mag, but has
-  V=8.8 mag companion 0.55" away. Bright B1V standard star HD 36960 is
-  36" away. Strangely *all* publshed types before Walborn90 considered
-  the star B1V, but Walborn90 considered it a B1.5V
-  standard. Johnson66 lists V=5.67.  Cousins71 lists B-V = -0.220, U-B
-  = -0.91 => Q = (U-B) - 0.72*(B-V) = -0.7516 => updated Q-method
-  (10/9/2011) => (B-V)o = -0.261, E(B-V)=0.041, (U-B)o = -0.941,
-  Av=0.133. Shull85 reports logN_HI = 20.40+-0.10, so using Savage &
-  Mathis (1979) relation logN_HI/E(B-V) = 4.8e21 atoms/cm^2/mag, then
-  E(B-V) = 0.052. Then (B-V)o = (B-V) - E(B-V) = -0.220 - 0.052 =
-  -0.272, and (U-B)o = (U-B) - 0.72*E(B-V) = -0.91 - 0.72*0.052 =
-  -0.947.   vanLeeuwen07 plx = 1.21+-0.41 mas. In Orion Nebula
-  Cluster, so adopt mean plx = 2.38+-0.03 mas (Menten+2007,Kraus+2007,
-  Hirota+2007,Jeffries+2007) => Mv = -2.58+-0.03 mag. Hauck97 photometry
-  dereddened following Castelli91: (b-y)o=-0.110, co=0.036, E(b-y)=0.018,
-  Av=0.080 mag.  
-
+  I've retained this star as a tertiary standard for now, using the
+  single Walborn use of it as such, but most previous classifications
+  were hotter B1V.  V=5.6 mag, but has V=8.8 mag companion 0.55"
+  away. Bright B1V standard star HD 36960 is 36" away. Johnson66 lists
+  V=5.67.  Cousins71 lists B-V = -0.220, U-B = -0.91 => Q = (U-B) -
+  0.72*(B-V) = -0.7516 => updated Q-method (10/9/2011) => (B-V)o =
+  -0.261, E(B-V)=0.041, (U-B)o = -0.941, Av=0.133. Shull85 reports
+  logN_HI = 20.40+-0.10, so using Savage & Mathis (1979) relation
+  logN_HI/E(B-V) = 4.8e21 atoms/cm^2/mag, then E(B-V) = 0.052. Then
+  (B-V)o = (B-V) - E(B-V) = -0.220 - 0.052 = -0.272, and (U-B)o =
+  (U-B) - 0.72*E(B-V) = -0.91 - 0.72*0.052 = -0.947.  vanLeeuwen07 plx
+  = 1.21+-0.41 mas. In Orion Nebula Cluster, so adopt mean plx =
+  2.38+-0.03 mas (Menten+2007,Kraus+2007, Hirota+2007,Jeffries+2007)
+  => Mv = -2.58+-0.03 mag. Hauck97 photometry dereddened following
+  Castelli91: (b-y)o=-0.110, co=0.036, E(b-y)=0.018, Av=0.080 mag.
   Teffs: 23301K(EEM, Hauck97 phot. => Napiwotzki93 calibration),
   24208K(U-Bo=>Bessell98), 24547K(Brown94; but Brown94 classifies it
   as B1V variable), 24620K(EEM, Hauck97 beta phot.=>BalonaShobbrook84
@@ -189,17 +184,34 @@ HD 36959 = HR 1886
 
 # Deprecated Standard
 
-HD 215191
-  B1V: Blaauw53,Jaschek64(all)
- *B1.5V: Lesh68(stan),Levato76
-  B2IV: Zorec09
+HD 154445 = HR 6353 = HIP 83635
+ *B1V: Morgan55,Feast57(B1V:),Rountree91(IUE),Houk99(from SIMBAD),Negueruela24(see discussion for B1.5)
+  B1.5V: Walborn71(stan),Walborn72
 
-  All classifications B1-B2 range.
+  No new published classifications after Walborn72.  Negueruela24:
+  "Unfortunately, in modern spectra, some of the traditional standards
+  seem ill-placed. HD 154445 (B1.5 V Walborn 1971) is almost
+  indistinguishable from the B1V standard ome01 Sco."  No new
+  published classifications after Walborn72.  No sign of binarity from
+  Vizier search. V=5.620+-0.010 (Mermilliod91), Cousins71 lists
+  B-V=0.155, U-B=-0.65 => updated Q-method calibration (10/9/2011) =>
+  (B-V)o = -0.265, E(B-V) = 0.420, (U-B)o = -0.954, Av=1.363. Plx =
+  2.92+-0.46 mas => D = 342+-55 pc => Mv = -3.42+-0.34 mag (but no
+  statistical correction for poor parallax).  Hauck97 photometry
+  dereddened following Castelli91: (b-y)o=-0.132, c0=0.027,
+  E(b-y)=0.314, Av=1.375 mag.  Teffs: 24515K(U-Bo=>Bessell98),
+  24545K(EEM,Hauck97 phot. => Balona94 calibration),
+  24918K(EEM,Hauck97 beta phot.=>BalonaShobbrook84 calibration),
+  24945K(EEM,Hauck97 phot.=>Napiwotzki93 calibration),
+  25200K(Philip80) => median Teff = 24918K.
 
 HD 259105 = Cl* NGC 2244 JOHN 10 = NGC 2244 128 = BD+05_1281
+  B0: Voroshilov85
+  B0.4(V)e: 1990AISAO..32..106P
   B1V: Johnson62,Massey95,Vrancken97
  *B1.5V: Morgan65,Garrison67(stan),Perez87
   B2V: Hoag59
+  B4: Hayford32
 
   Garrison67 adopted JOHN 10 as B1.5V standard from Morgan65's B0V-B2V
   main sequence stars for NGC 2244. All classifications in B1-B2
