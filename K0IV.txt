@@ -48,6 +48,7 @@ For Hipparcos stars within 75pc with parallax S/N > 8 (N=16):
 <Bt-Vt>(K0IV)= 1.019 (+-0.024 sem, +-0.065 stdev)
 <V-Vt>(K0IV) =-0.092 (+-0.008 sem, +-0.026 stdev)
 
+Teff(K0IV) = 4751 K ; pri. stan. HD 198149 = eta Cep (Soubiran24 Gaia FGK benchmark)
 Teff(K0IV) =  4916 K ; var. stan. eta Ser (K0III-IV)
 Teff(K0IV) = 4974 K ; pri. stan. eta Cep (see below)
 Teff(K0IV) =  5051 K ; var. stan. HD 23249 (see below)
@@ -77,6 +78,10 @@ Mv(K0IV) =   1.89 ; variant stan. K0III-IV HD 168723 = eta Ser
 Note: Sandage16 bounds the subgiants as 1.6 < Mv < 3.4 and types between G2 to K4,
 based on Mt. Wilson work from Adams35 and Stromberg30
 
+logg(K0IV) = 3.15 +-0.05 ; pri. stan. HD 198149 = eta Cep (Soubiran24 Gaia FGK benchmark)
+
+Rad(K0IV) = 4.452 +-0.136 Rsun ; pri. stan. HD 198149 = eta Cep (Soubiran24 Gaia FGK benchmark)
+
 
 # Primary Standard
 
@@ -88,12 +93,16 @@ HD 198149 = eta Cep = HR 7957 = GJ 807 = HIP 102422 = LHS 3578 (J2045+6150)
   K0III-IV: Roman52
   
   Best standard, but far north. In the XHIP catalog, it is also the
-  nearest K0IV star. PASTEL: <Teff> = 4988 K (N=24), <[Fe/H]> = -0.13
+  nearest K0IV star. PASTEL: <Teff>=4988K(N=24), <[Fe/H]>=-0.13
   (N=11). Most precise recent values: Teff=5003+-15K, logg=3.42+-0.06,
   [Fe/H]=-0.13+-0.02(Niedzielski16).  V=3.41(HIP),
   V=3.420+-0.013(Mermilliod91), B-V=0.912+-0.002(HIP),
   V-I=0.94+-0.04(HIP).  plx=70.10+-0.11mas(HIP2),
-  plx=69.6638+-0.2998mas(GaiaDR2) => Mv=2.64(HIP2).
+  plx=69.6638+-0.2998mas(GaiaDR2) => Mv=2.64(HIP2).  Soubiran24 Gaia
+  benchmark values: Teff=4751+-73K, Lum=9.091+-0.058Lsun,
+  Rad=4.452+-0.136Rsun, logg=3.15+-0.05, [Fe/H]=-0.13+-0.02.  Seems to
+  be ~200K offset between PASTEL compendium median and Soubiran24
+  values.
 
 # Variant Standard
 

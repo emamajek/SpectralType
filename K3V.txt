@@ -680,9 +680,9 @@ HD 219134 = GJ 892 = HR 8832 = HIP 114622 = LHS 71 = LTT 16826 = STT 599A = WDS 
   tetLD=1.106+-0.007mas(Boyajian12,Adams18cites), plx=
   153.0808+-0.0895mas(GaiaDR2), plx=152.8640+-0.0494mas(GaiaDR3) =>
   0.7779+-0.0049Rsun. Mv=6.489+-0.010, M_Ks=4.152. Combining
-  Teff(Soubiran22) with updated radius(Boyjian12,GaiaDR3) =>
+  Teff(Soubiran22) with updated radius(Boyajian12,GaiaDR3) =>
   Lum=0.307669Lsun => logL=-0.51192 (Mbol=6.020). Note discrepency
-  between interometric Teff estimate (4699+-16K;Boyjian12) and most
+  between interometric Teff estimate (4699+-16K;Boyajian12) and most
   recent spectroscopic consensus estimate (4874+-28K;Soubiran22),
   differing by 3.6%. However Alonso96 got an IR-method fit
   Teff=4785K(Alonso96) similar to the spectroscopic Teff.
@@ -737,15 +737,25 @@ HD 16160 = GJ 105A = HR 753 = HIP 12114
   identical to Pecaut13 independent estimate (5.406). Alonso96
   estimates fbol=1.68e-9W/m2 (something strange in the way it is
   quoted, but looking at mismatched factors of ten, it appears to be
-  consistent with mbol=5.439.  PASTEL: <Teff>=4861K(N=18),
-  <logg>=4.60(N=13), <[Fe/H]>=-0.12(N=13). Soubiran22/PASTEL means:
-  Teff=4870+-24K, logg=4.57+-0.03, [Fe/H]=-0.13+-0.02.  plx =
-  139.27+-0.45 mas(HIP2), plx=138.3400+-0.3177mas(GaiaDR3),
-  plx=138.2084+-0.1436mas(GaiaDR2) => D=7.23393+-0.00751pc(w/plx
-  offset from Lindegren18).  tetLD=1.030+-0.007mas(Boyjian12) &
-  plx(GaiaDR2) => R=0.8013+-0.0055Rsun.  Lane01 reports measured
-  diameter: tet_UD=0.914mas, tetLD=0.941+-0.070mas, R=0.729Rsun(quoted
-  as logR=-0.137+-0.036). Calculating luminosity from measured radius
+  consistent with mbol=5.439. Soubiran24 Gaia benchmark study
+  estimates fbol=(15.756+-0.963)e-11W/m2 => IAU2015 scale mbol =
+  5.5089+-0.0664 mag, but this is odds with the others (mbol ~
+  5.40-5.45), and their low estimate appears to result in a lower
+  luminosity and unusually lower derived Teff (4583+-76K).  PASTEL:
+  <Teff>=4861K(N=18), <logg>=4.60(N=13),
+  <[Fe/H]>=-0.12(N=13). Soubiran22/PASTEL means: Teff=4870+-24K,
+  logg=4.57+-0.03, [Fe/H]=-0.13+-0.02.  plx = 139.27+-0.45mas(HIP2),
+  plx=138.3400+-0.3177mas(GaiaDR3), plx=138.2084+-0.1436mas(GaiaDR2)
+  => D=7.23393+-0.00751pc(w/plx offset from Lindegren18).  There are
+  at least three published diameters for GJ105A, but somewhat
+  discrepent (although first two have large uncertainties):
+  tetLD=0.914+-0.07mas(7.7% err; Lane01), tetLD=0.838+-0.069mas(8.2%
+  err; vanBelle09, but their analysis assumes unrealistic
+  Av=0.065+-0.014), tetLD=1.030+-0.007mas(0.007% err;
+  Boyajian12). Combining the most recent interferometric diameter
+  result (and with smallest errors) and most recent Gaia parallax:
+  tetLD=1.030+-0.007mas(Boyajian12) & plx(GaiaDR3) =>
+  R=0.8005+-0.0057Rsun.  Calculating luminosity from measured radius
   and spectroscopic Teff => R=0.8013+-0.0055Rsun & Teff=4870+-24K =>
   L=0.32548+-0.00780Lsun => logL=-0.48748+-0.01041 => Mbol=5.959.
   Mv=6.526+-0.010, M_Ks=4.184. Age=5.1+-1.1Gyr(Ramirez12),

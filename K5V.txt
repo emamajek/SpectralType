@@ -374,12 +374,12 @@ Teff(K5V) =  4325 K ; deprecated standard HD 10436
 Teff(K5V) =  4329 K ; exemplar HD 113194 
 Teff(K5V) =  4340 K ; deprecated standard HD 154363 median Teff ([Fe/H] ~ -0.62)
 Teff(K5V) =  4350 K ; Schmidt-Kaler82
-Teff(K5V) = 4383 K ; prim. stan. 61 Cyg A median Teff ([Fe/H] ~ -0.25)
+Teff(K5V) = 4393 K ; prim. stan. 61 Cyg A ([Fe/H]=-0.13; Soubiran24)
 Teff(K5V) =  4400 K ; GrayCorbally09
 Teff(K5V) = 4407 K ; median of 96 Teffs for K5V stars
 Teff(K5V) =  4410 K ; Johnson65,Habets81
 Teff(K5V) = 4430 K +- 177 K ; Cifuentes23
-Teff(K5V) = 4436 +- 74 K ; Boyajian12b  (N=3)
+Teff(K5V) = 4436 +- 74 K ; Boyajian12b (N=3)
 Teff(K5V) = 4452 K ; smooth Teff(SpT) trend
 Teff(K5V) = 4476 K ; exemplar GJ 664 = 36 Oph C = HD 156026 = HIP 84478 ([Fe/H]=-0.21)
 Teff(K5V) = 4488 K ; exemplar HD 68834
@@ -482,11 +482,11 @@ logL(K5V) = -0.815+-0.028 ; pri. stan. 61 Cyg A (Kervalla08)
 => adopt logL(K5V) = -0.764 dex [last updated 4/9/2020]
 => adopt Mbol(K5V) =  6.650 mag [last updated 4/9/2020]
 
-Rad(K5V) = 0.6673+-0.0049 Rsun ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A ([Fe/H]=-0.13; see below)
+Rad(K5V) = 0.6673 +-0.0049 Rsun ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A ([Fe/H]=-0.13; see below)
 Rad(K5V) =  0.6876+-0.0021 Rsun ; Boyajian12b (N=3)
 Rad(K5V) = 0.7013         Rsun ; Teff=4440K, logL=-0.764
 Rad(K5V) = 0.703 +- 0.054 Rsun ; Cifuentes23
-Rad(K5V) =  0.743+-0.010   Rsun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
+Rad(K5V) =  0.743 +-0.010   Rsun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
 => adopt Rad(K5V) = 0.701 Rsun [last updated 4/9/2020]
 
 Mass(K5V) =  0.721 Msun ; EEM Mv vs. Mass fit for binaries (Mv=7.4)
@@ -496,14 +496,17 @@ Mass(K5V) = 0.716 Msun ; Eker18 calibration for logL=-0.764
 Mass(K5V) =  0.704 Msun ; Eker15 calibration for logL=-0.764
 Mass(K5V) = 0.696 Msun ; Chevalier23 calib for M_G=6.85
 Mass(K5V) = 0.695 Msun ; Fernandes21 ML calib for logL=0.695
+Mass(K5V) = 0.695 Msun ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A (Soubiran24/BASTI)
 Mass(K5V) = 0.694 Msun ; Mann18 calib for M_Ks=4.397
+Mass(K5V) = 0.679 Msun ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A (Soubiran24/STAREvol)
 Mass(K5V) =  0.644+-0.012 Msun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
-=> adopt Mass(K5V) = 0.70 Msun [updated 8/3/2023]
+=> adopt Mass(K5V) = 0.70 Msun [updated 7/11/2024]
 
 logg(K5V) =  4.51 ; sec. stan. HD 36003 (see below)
 logg(K5V) =  4.53 ; pri. stan. 61 Cyg A (see below).
 logg(K5V) =  4.57 ; exemplar GJ 664 = 36 Oph C = HD 156026 = HIP 84478 ([Fe/H]=-0.21)
 logg(K5V) = 4.59 ; M=0.70Msun, R=0.701Rsun
+logg(K5V) =  4.63 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A (Soubiran24 Gaia FGK benchmark)
 logg(K5V) =  4.68 ; exemplar GJ 726 = HD 173818 = HIP 92200 ([Fe/H]=-0.04)
 => adopt logg(K5V) = 4.59 [updated 8/3/2023]
 
@@ -526,34 +529,28 @@ GJ 820A = 61 Cyg A = HD 201091 = HIP 104214 = HR 8085 = V1803 Cyg
   B-V=1.21(Tolbert65) => adopt (B-V)=1.17.  [EEM 9/1/2023: note the
   B-V color in Hipparcos appears to be in error ~0.1 mag blueward,
   compared to other 61 Cyg A B-V measurements and compared to other
-  K5V stars].
-  U-B=1.10(Johnson53,Morgan53),
-  U-B=1.10(Cowley67),
-  U-B=1.11(Johnson66),
-  U-B=1.113+-0.016(Mermilliod91),
-  U-B=1.13(Moreno71),
-  U-B=1.14(Tolbert65),
-  U-B=1.155(Blanco79) => adopt U-B=1.113.
-  V-Rc=0.725(Just08),
-  R-Ic=0.590(Just08),
-  V-Ic=1.315(Just08),
-  V-Ic=1.13+-0.02(HIP),
-  V-Rj=0.99(Moreno71).
-  g-r=1.030(Just08),
-  r-i=0.356(Just08). 2MASS is saturated. Alonso96 reports
-  J=3.042+-0.022, H=2.435+-0.017, K=2.320+-0.014. J=3.15(Johnson66),
-  J=3.16(Johnson68), K=2.37(Veeder74), K=2.39(Johnson66),
-  K=2.40(Johnson68). Converting Johnson JK photometry to 2MASS system:
-  Ks=2.377(Johnson68->2MASS via Rieke22).  V-K = 5.234228(GaiaDR3) -
-  2.377(estimated) = 2.857.  Mv=7.49 (using HIP2 plx). PASTEL
-  compendium: <Teff> = 4383K (N=22), <logg>=4.50(N=9), <[Fe/H]> =
-  -0.25(N=8). Soubiran22/PASTEL mean values: Teff=4441+-37K,
-  logg=4.51+-0.04, [Fe/H]=-0.13+-0.03, however Jofre14 estimates
-  [Fe/H]=-0.33+-0.02 in the Gaia benchmark studies.  Using IRFM
-  Alonso96 getst Teff=4323+-50K, about 100K lower. GaiaDR3:
-  plx=285.9949+-0.0599mas(GaiaDR3), G=4.766713+-0.002826 => Vizier
-  correct => Gcor=4.766713+-0.002826(same), E(BP/RP)=1.261,
-  Bp-Rp=1.462590, Bp-G=0.673080, G-Rp=0.789510.  G-V = 4.7667 - 5.20 =
+  K5V stars].  U-B=1.10(Johnson53,Morgan53), U-B=1.10(Cowley67),
+  U-B=1.11(Johnson66), U-B=1.113+-0.016(Mermilliod91),
+  U-B=1.13(Moreno71), U-B=1.14(Tolbert65), U-B=1.155(Blanco79) =>
+  adopt U-B=1.113.  V-Rc=0.725(Just08), R-Ic=0.590(Just08),
+  V-Ic=1.315(Just08), V-Ic=1.13+-0.02(HIP), V-Rj=0.99(Moreno71).
+  g-r=1.030(Just08), r-i=0.356(Just08). 2MASS is saturated. Alonso96
+  reports J=3.042+-0.022, H=2.435+-0.017,
+  K=2.320+-0.014. J=3.15(Johnson66), J=3.16(Johnson68),
+  K=2.37(Veeder74), K=2.39(Johnson66), K=2.40(Johnson68). Converting
+  Johnson JK photometry to 2MASS system: Ks=2.377(Johnson68->2MASS via
+  Rieke22).  V-K = 5.234228(GaiaDR3) - 2.377(estimated) = 2.857.
+  Mv=7.49 (using HIP2 plx). PASTEL compendium: <Teff> = 4383K (N=22),
+  <logg>=4.50(N=9), <[Fe/H]> = -0.25(N=8). Soubiran22/PASTEL mean
+  values: Teff=4441+-37K, logg=4.51+-0.04, [Fe/H]=-0.13+-0.03, however
+  Jofre14 estimates [Fe/H]=-0.33+-0.02 in the Gaia benchmark
+  studies. Soubiran24 Gaia FGK benchmark study: Teff=4398+-34K,
+  Lum=0.150+-0.004Lsun, Rad=0.667+-0.005Rsun, logg=4.63+-0.01,
+  [Fe/H]=-0.13+-0.03.  Using IRFM Alonso96 getst Teff=4323+-50K, about
+  100K lower. GaiaDR3: plx=285.9949+-0.0599mas(GaiaDR3),
+  G=4.766713+-0.002826 => Vizier correct =>
+  Gcor=4.766713+-0.002826(same), E(BP/RP)=1.261, Bp-Rp=1.462590,
+  Bp-G=0.673080, G-Rp=0.789510.  G-V = 4.7667 - 5.20 =
   -0.433. GaiaDR3: plx M_G=7.05, M_Ks=4.60. Angular diameter
   measurement: tetLDD(A)=1.775+-0.013(Kervella08),
   Rad=0.665+-0.005Rsun(Kervella08) =>

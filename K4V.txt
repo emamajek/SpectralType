@@ -344,12 +344,12 @@ Teff(K4V) = 4616 K ; ter. stan. GJ 570A ([Fe/H]=+0.02)
 Teff(K4V) =  4617 K ; exemplar GJ 9390A = HD 105671 ([Fe/H] = +0.07)
 Teff(K4V) = 4622 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for B-V=1.10
 Teff(K4V) = 4635 K ; Teff for d<30pc K4Vs in Hinkel17 for PASTEL -0.15<[Fe/H]<0.15 for [Fe/H]=0.0
-Teff(K4V) =  4641 K ; exemplar GJ 845 = eps Ind A ([Fe/H]=-0.13)
 Teff(K4V) = 4642 K ; smoothed Teff(SpT) trend
 Teff(K4V) = 4651 K ; Casagrande10 Teff calibration for B-V=1.09
 Teff(K4V) =  4657 K ; exemplar GJ 775 = HD 190007 = HIP 98698 ([Fe/H]=+0.16)
 Teff(K4V) =   4690 K ; GrayCorbally94
 Teff(K4V) =  4718 K ; exemplar HD 285742 = V991 Tau (Hyad=>[Fe/H]~+0.15)
+Teff(K4V) =  4754 K ; exemplar GJ 845 = eps Ind A ([Fe/H]=-0.13) (Soubiran24)
 Teff(K4V) =  4762 K ; exemplar HD 285720 (Hyad, [Fe/H]~+0.15)
 => adopt Teff(K4V) = 4600 K (logT = 3.663) [last updated 8/3/2023]
 
@@ -483,17 +483,19 @@ Mass(K4V) =  0.746 Msun ; EEM Mv vs. Mass fit to Torres10 binaries (Mv=7.00)
 Mass(K4V) =  0.739 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.692)
 Mass(K4V) = 0.73+-0.01 Msun ; exemplar GJ 702B = 70 Oph B ([Fe/H]=+0.01) 
 Mass(K4V) =  0.728 Msun ; Eker15 calibration for logL=-0.692
+Mass(K4V) = 0.725 Msun  ; exemplar GJ 845 = eps Ind A ([Fe/H]=-0.13) (Soubiran24/BASTI/STAREVOL)
 Mass(K4V) = 0.718 Msun  ; Fernandes21 ML calibration for logL=-0.692
 Mass(K4V) = 0.717 Msun  ; Chevalier23 calib for M_G=6.59
 Mass(K4V) = 0.7115 Msun ; Mann18 calib for M_Ks=4.31
 Mass(K4V) =  0.693 Msun ; Habets81
 => adopt Mass(K4V) = 0.72 Msun [updated 8/3/2023]
 
-logg(K4V) =  4.40+-0.07 ; exemplar GJ 775 = HD 190007 = HIP 98698 ([Fe/H]=+0.16)
+logg(K4V) =  4.40 +-0.07 ; exemplar GJ 775 = HD 190007 = HIP 98698 ([Fe/H]=+0.16)
 logg(K4V) = 4.543 (rms=0.112) ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=4600K (see G0V.txt)
-logg(K4V) = 4.593       ; M=0.72Msun, R=0.71Rsun
-logg(K4V) =  4.66+-0.06 ; pri. stan. GJ 689 = HD 160964 ([Fe/H]=-0.03) 
-logg(K4V) =  4.68+-0.10 ; sec. stan. GJ 879 = HD 216803 = TW PsA ([Fe/H]=+0.03)
+logg(K4V) = 4.593 ; M=0.72Msun, R=0.71Rsun
+logg(K4V) =  4.62 +-0.01 ; exemplar GJ 845 = eps Ind A ([Fe/H]=-0.13) (Soubiran24
+logg(K4V) =  4.66 +-0.06 ; pri. stan. GJ 689 = HD 160964 ([Fe/H]=-0.03) 
+logg(K4V) =  4.68 +-0.10 ; sec. stan. GJ 879 = HD 216803 = TW PsA ([Fe/H]=+0.03)
 => adopt logg(K4V) = 4.59 [updated 8/3/2023]
 
 # No standard
@@ -667,7 +669,10 @@ GJ 845 = eps Ind = HD 209100 = HIP 108870 = HR 8387 = LHS 67 = PLX 5314
    uncertainties: Teff=4649+-36K, [Fe/H]=-0.19+-0.07, logg=4.63+-0.01
    (Ramirez13). Blackwell98 IRFM gets
    Teff=4577K(+-0.8%). Soubiran22/PASTEL mean values: Teff=4641+-21K,
-   logg=4.29+-0.22, [Fe/H]=-0.13+-0.03.  Binary T dwarf companions
+   logg=4.29+-0.22, [Fe/H]=-0.13+-0.03. Soubiran24/Gaia FGK benchmark
+   values: Teff=4754+-35K, Lum=0.217+-0.006Lsun, Rad=0.688+-0.005Rsun,
+   Mass(BASTI)=0.719+-0.012, Mass(STAREVOL)=0.730+-0.016Msun,
+   logg=4.62+-0.01, [Fe/H]=-0.13+-0.03.  Binary T dwarf companions
    402" away, and Feng18 claims Jupiter-like planet orbiting A.
    Bolometric fluxes (all mbols calculated on IAU2015 scale):
    fbol=4.8193e-10W/m2(Casagrande11) => mbol=4.295,
