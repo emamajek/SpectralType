@@ -10,23 +10,60 @@ Keenan89 standard:   del Tri (=HD 13974) - G0.5V Fe-0.5
 Keenan99 standards:  HD 84737 (prim. stan.) - G0.5Va
                      del Tri (=HD 13974) - G0.5 V Fe-0.5 (prim. stan)
 
+(B-V)(G0.5V) = 0.613 ; pri. stan. HD 84737 = 15 LMi = GJ 368 ([Fe/H]=+0.10)
+(B-V)(G0.5V) = 0.618 ; exemplar HD 72905 = pi01 UMa = GJ 311 ([Fe/H]=-0.07; ~0.5Gyr)
+=> adopt (B-V)(G0.5V) = 0.613 [updated 8/1/2024]
+
+(U-B)(G0.5V) = 0.070 ; exemplar HD 72905 = pi01 UMa = GJ 311 ([Fe/H]=-0.07; ~0.5Gyr)
+(U-B)(G0.5V) = 0.144 ; pri. stan. HD 84737 = 15 LMi = GJ 368 ([Fe/H]=+0.10)
+
+(V-Ic)(G0.5V) = 0.66 ; exemplar HD 72905 = pi01 UMa = GJ 311 ([Fe/H]=-0.07; ~0.5Gyr)
+(V-Ic)(G0.5V) = 0.68 ; pri. stan. HD 84737 = 15 LMi = GJ 368 ([Fe/H]=+0.10)
+=> aopdt (V-Ic)(G0.5V) = 0.67 [updated 8/1/2024]
+
 (G-Ks)(G0.5V) = 1.32 ; interp value for Kirkpatrick24 G0.5Vs d<20pc
 
-Teff(G0.5V) = 5888 K; Teff from smoothed SpT(Teff) trend
-=> adopt Teff(G0.5V) = 5890 K [updated 10/27/2017]
+Teff(G0.5V) = 5888 K ; Teff from smoothed SpT(Teff) trend
+Teff(G0.5V) = 5893 K ; pri. stan. HD 84737 = 15 LMi = GJ 368 ([Fe/H]=+0.10)
+Teff(G0.5V) = 5893 K ; exemplar HD 72905 = pi01 UMa = GJ 311 ([Fe/H]=-0.07; ~0.5Gyr) 
+=> adopt Teff(G0.5V) = 5890 K [updated 8/1/2024]
 
 (G-V)(G0.5V) = -0.142 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5890K (GaiaDR3 Gmags,SIMBAD Vmags)
 
+(Bp-Rp)(G0.5V) = 0.804358 ; exemplar HD 72905 = pi01 UMa = GJ 311 ([Fe/H]=-0.07; ~0.5Gyr) (GaiaDR3)
+
+(Bp-G)(G0.5V)  = 0.318079 ; exemplar HD 72905 = pi01 UMa = GJ 311 ([Fe/H]=-0.07; ~0.5Gyr) (GaiaDR3)
+
+(G-Rp)(G0.5V)  = 0.486279 ; exemplar HD 72905 = pi01 UMa = GJ 311 ([Fe/H]=-0.07; ~0.5Gyr) (GaiaDR3).
+
 BCv(G0.5V) = -0.063 [last updated 8/3/2018, on scale where BCv(5772K)=-0.08]
 
+logg(G0.5V) = 4.12  ; pri. stan. HD 84737 = 15 LMi = GJ 368 ([Fe/H]=+0.10)
 logg(G0.5V) = 4.380 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5890K (see G0V.txt)
+logg(G0.5V) = 4.53  ; exemplar HD 72905 = pi01 UMa = GJ 311 ([Fe/H]=-0.07; ~0.5Gyr) 
 => adopt logg(G0.5V) = 4.38 [updated 9/15/2023]
 
-# Primary Standards
+# Primary Standard
 
-HD 84737 = 15 LMi = GJ 368 = HIP 48113 = HR 3881 = SPOCS 431 = Gaia DR3 821455861647126656 
- *G0.5Va: Keenan80,Keenan83,KeenanYorka85,Keenan89,Keenan99(prim.)
-  G0V: MK43,Gray01
+HD 84737 = 15 LMi = GJ 368 = HIP 48113 = HR 3881 = SPOCS 431 = Gaia DR3 821455861647126656
+  G0V: Adams35,MK43,1953UppAn...3h....W,Gray01
+  G0IV-V: Gray03 
+ *G0.5Va: Keenan80,Keenan83(stan),KeenanYorka85(stan),Keenan89(stan),Keenan99(prim.stan.)
+  G1V: Stebbins56
+  G2V: Roman50
+  G3: Bidelman85
+
+  V=5.069(Elliott74,N=3), V=5.07(Marlborough64,N=8), V=5.08(HIP),
+  V=5.086+-0.006(Hauck97), V=5.09(TYC), V=5.092+-0.017(Mermilliod91),
+  V=5.11(Nikonov57,N=6) => adopt V=5.086+-0.006.
+  B-V=0.60(Nikonov57,N=6), B-V=0.60(Marlborough64,N=8),
+  B-V=0.606(Eilliott74,N=3), B-V=0.613+-0.010(Mermilliod91),
+  B-V=0.619+-0.007(HIP), B-V=0.623+-0.002(TYC) => adopt
+  B-V=0.613(Mermilliod91).  U-B=0.137(Elliot74,N=3),
+  U-B=0.144+-0.022(Mermilliod91), U-B=0.16(Marlborough64,N=8) => adopt
+  U-B=0.144(Mermilliod91).  V-Ic=0.68+-0.03(HIP).  2MASS photometry
+  has flags "DDE".  Soubiran22 catalog: Teff=5893+-13K(N=16),
+  logg=4.12+-0.03(N=14), [Fe/H]=0.10+-0.10(N=14).
 
 # Variant
 
@@ -44,16 +81,30 @@ HD 13974 = del Tri = GJ 92 = HIP 10644 = HR 660 = 8 Tri = ADS 1739A = LHS 154 = 
   E(b-y)=0.02(Gray01). PASTEL compilation shows that most metallicity
   estimates are between [Fe/H] ~ -0.5 and -0.2, so clearly metal poor.
 
+# Exemplar 
 
-# Other Stars
-
-HD 72905 = HR 3391 = pi01 UMa = BD+65_643
+HD 72905 = pi01 UMa = GJ 311 = 3 UMa = HR 3391 = HIP 42438 = BD+65_643 = Gaia DR3 1092545710514654464
   F8: 1926MeUpp..11....1L
   G0V: Adams35,Roman49
  *G0.5V: Gray01
-  G1.5Vb: Barry70
   G1V: Levato78
+  G1.5Vb: Barry70
   G8III: Maury1897(SKiff comments: "possibly pi.02 UMa?")
 
-  Bright(V=5.6), nearby G dwarf.
+  Danger: there are two different bright, nearby early G stars with
+  nearly the same designation: the *solar twin* pi01 UMi A (HD 139777)
+  and the *young solar analog* pi01 UMa (HD 72905, GJ 311)!  Not quite
+  a "solar twin" as it is ~80K hotter, younger (~0.5Gyr) with higher
+  surface gravity (logg=4.53), and slightly metal poor ([Fe/H]=-0.07).
+  A rare Sun-like star with solar wind measurements (Wood14).
+  V=5.63(HIP), V=5.631+-0.009(Mermilliod91), V=5.64(Johnson66) =>
+  adopt V=5.631+-0.009(Mermilliod91).  B-V=0.618+-0.003(HIP),
+  B-V=0.619+-0.004(Mermilliod91), B-V=0.62(Johnson66) => adopt
+  B-V=0.618(HIP).  U-B=0.07(Johnson66),
+  U-B=0.070+-0.000(Mermilliod91), V-Ic=0.66+-0.03(HIP).  Soubiran22
+  catalog: Teff=5893+-14K(N=25), logg=4.53+-0.03(N=18),
+  [Fe/H]=-0.07+-0.02(N=21).  Prot=4.96d(Colman24),
+  Prot=5.000d(Vidotto14).  GaiaDR3: plx=69.2576+-0.0485mas(GaiaDR3),
+  G=5.498977+-0.002796(GaiaDR3), Bp-Rp=0.804358(GaiaDR3),
+  Bp-G=0.318079(GaiaDR3), G-Rp=0.486279(GaiaDR3).
 
