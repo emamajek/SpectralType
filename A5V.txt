@@ -13,7 +13,8 @@ Houk75 standard:          sig2 Tau (= HD 29488) - A5V (secondary standard)
 Cowley74 standard:        del Cas, 80 UMa - A5V
 MK78 standard:            HD 23886 (= Hz I 924) - A5V
 Keenan85_IAU standard:    HD 23886 - A5V 
-GrayGarrison89 standards: HD 23886 (A5Vn) & HD 23194 (A5V) 
+GrayGarrison89 standards: HD 23886 (A5Vn) (high vsini standard)
+                          HD 23194 (A5V) (low vsini standard)
 GrayAtlas standards:      HD 23194 - A5V
 GrayNstars standard:      HD 23194 - A5V
 
@@ -34,7 +35,8 @@ Skiff08 flags only HD 23886 (MK78) as a A5V MK standard.
 (B-V)(A5V) =  0.165 ; HD_220061 A5Vp_lB plx=20.7145mas, Mv=1.1613
 (B-V)(A5V) = 0.163 ; smoothed trend SpT vs B-V A0V-F0V (12/2023)
 (B-V)(A5V) =  0.16 ; HD_19107 A5V plx=22.6787mas, Mv=2.0780
-(B-V)(A5V) =  0.15 ; JohnsonMorgan53,Johnson63,Garrison67,SchmidtKaler82,Fitzgerald70
+(B-V)(A5V) =  0.16 ; Cowley70(N=22) 
+(B-V)(A5V) =  0.15 ; JohnsonMorgan53,Mendoza56,Johnson63,Garrison67,SchmidtKaler82,Fitzgerald70
 (B-V)(A5V) = 0.147 ; sec. stan. sig2 Tau
 (B-V)(A5V) =  0.144 ; HD_184006 A5V plx=26.6363mas, Mv=0.8823
 (B-V)(A5V) = 0.142 ; pri. stan. HD 23886 = Cl Melotte 22 2289 (Pleiad)
@@ -50,6 +52,7 @@ Skiff08 flags only HD 23886 (MK78) as a A5V MK standard.
 (U-B)(A5V) =  0.09  ; JohnsonMorgan53,Fitzgerald70
 (U-B)(A5V) = 0.093 ; HIP d<75pc S/N>8 A5V N=28 (Mermilliod91 photometry)
 (U-B)(A5V) = 0.100 ; B-V vs U-B trend for B-V=0.163
+(U-B)(A5V) =  0.10 ; Cowley70(N=22) 
 (U-B)(A5V) = 0.104 ; pri. stan. pri. stan. HD 23886 = Cl Melotte 22 2289 (Pleiad)  ([Fe/H]~0.0)
 (U-B)(A5V) =  0.11  ; Johnson66,Johnson68
 (U-B)(A5V) = 0.124 ; pri. stan. HD 23194 = Cl Melotte 22 232 (Pleiad) ([Fe/H]~0.0)
@@ -327,22 +330,23 @@ MK73 does not list a A5V standard.  Houk does not provide an A5V primary standar
 # Primary Standards
 
 HD 23194 = Cl Melotte 22 232 (Pleiad) = TYC 1803-486-1
- *A5V: Mendoza56,Jaschek64,Jaschek78,GrayGarrison89(stan),Gray01,GrayAtlas
+ *A5V: Mendoza56,Jaschek64,Jaschek78,GrayGarrison89(low vsinin stan.),Gray01,GrayAtlas
   A2: Cannon
-  kA5hA7VmA7: Abt78
+  kA5hA7VmA7: AbtLevato78("Am (K/H/M=A5/A7V/A7)")
 
-  GrayGarrison89 list it as their low-vsini A5V standard.  Observed
-  photometry (reddened): U=8.32(Pickles10/SEDfit),
-  U=8.374410(GaiaDR3/synth), U=8.44(Mendoza67/Morel78),
-  B=8.253221(GaiaDR3/synth), B=8.29(Mendoza67/Morel78),
-  V=8.035+-0.021(Droege07), V=8.05(Johnson53), V=8.05(Neckel74),
-  V=8.056+-0.010(Hauck97), V=8.058+-0.012(Mermilliod91),
-  V=8.058(Hauck90), V=8.06(Johnson58), V=8.065(Pickles10/SEDfit),
-  V=8.07(Tycho), V=8.076556(GaiaDR3/synth), V=8.09(Mendoza67/Morel78)
-  => adopt V=8.056+-0.010(Hauck97).  B-V=0.197(Johnson53),
-  B-V=0.20(Johnson58,Mendoza67), B-V=0.201+-0.004(Mermilliod91),
-  B-V=0.209(Neckel74), B-V=0.229+-0.026(Tycho) => adopt
-  B-V=0.201+-0.004(Mermilliod91).
+  GrayGarrison89 list it as their low-vsini A5V standard, although
+  AbtLevato78 in their spectral survey of the Pleiades thought its
+  hydrogen and metal type was A7V.  Observed photometry (reddened):
+  U=8.32(Pickles10/SEDfit), U=8.374410(GaiaDR3/synth),
+  U=8.44(Mendoza67/Morel78), B=8.253221(GaiaDR3/synth),
+  B=8.29(Mendoza67/Morel78), V=8.035+-0.021(Droege07),
+  V=8.05(Johnson53), V=8.05(Neckel74), V=8.056+-0.010(Hauck97),
+  V=8.058+-0.012(Mermilliod91), V=8.058(Hauck90), V=8.06(Johnson58),
+  V=8.065(Pickles10/SEDfit), V=8.07(Tycho), V=8.076556(GaiaDR3/synth),
+  V=8.09(Mendoza67/Morel78) => adopt V=8.056+-0.010(Hauck97).
+  B-V=0.197(Johnson53), B-V=0.20(Johnson58,Mendoza67),
+  B-V=0.201+-0.004(Mermilliod91), B-V=0.209(Neckel74),
+  B-V=0.229+-0.026(Tycho) => adopt B-V=0.201+-0.004(Mermilliod91).
   U-B=0.15(Johnson53,Johnson58,Mendoza67),
   U-B=0.150+-0.000(Mermilliod91) => adopt
   (U-B)=0.150+-0.000(Mermilliod91).  Rj=7.88(Mendoza67/Morel78),
@@ -383,13 +387,15 @@ HD 23194 = Cl Melotte 22 232 (Pleiad) = TYC 1803-486-1
 HD 23886 = Cl Melotte 22 2289 (Pleiad)
   A2V: Adams35
   A3V: Mendoza56
-  A4V: Abt78
+  A4V: AbtLevato78
   A5V: Atanasijevic58(BCD type),MK78(stan),Keenan85
- *A5Vn: GrayGarrison89(stan),Gray01
+ *A5Vn: GrayGarrison89(high vsini stan.),Gray01
 
   GrayGarrison89 list it as their high-vsini A5V standard (vsini=165
-  km/s).  Pleiad, so assume E(B-V)=0.036(see previous discussion) and
-  Av=0.112. Not in GCPD compendium of Cousins VRIc photometry.
+  km/s), although AbtLevato78, in their spectral survey of hot
+  Pleiades stars, had it slightly earlier (A4V).  Pleiad, so assume
+  E(B-V)=0.036(see previous discussion) and Av=0.112. Not in GCPD
+  compendium of Cousins VRIc photometry.
   V=7.969+-0.010(Mermilliod91), B-V=0.178+-0.002(Mermilliod91),
   U-B=0.130(Mermilliod91).  Dereddened photometry: (B-V)o = (B-V) -
   E(B-V) = 0.178 - 0.036 = 0.142.  (U-B)o = (U-B) -

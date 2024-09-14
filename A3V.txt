@@ -23,10 +23,10 @@ Houk75 standard:           alf PsA - A3V
 MK78 standard:             BD+48_944 (= HL 970) - A3V
 Garrison79 standard:       alf PsA - A3V
 Keenan85_IAU standard:     BD+48_944 - A3V
-GrayGarrison89 standards:  alf PsA - A3Va
-  	       		   bet Cir - A3Vb 
-			   bet Leo - A3Va
-			   HD 23643 - A3Van
+GrayGarrison89 standards:  alf PsA - A3Va (low vsini standard)
+  	       		   bet Cir - A3Vb (low vsini standard)
+			   bet Leo - A3Va (low vsini standard)
+			   HD 23643 - A3Van (high vsini standard)
 Garrison94 anchor:         alf PsA - A3V
 GrayAtlas standard:        bet Leo - A3V
 GrayNstars standard:       bet Leo - A3V
@@ -44,7 +44,8 @@ Skiff08 flagged two stars as A3V standards: HD 216956 (MK73) & BD+48_944 (MK78)
 (B-V)(A3V) =   0.08 ; Schmidt-Kaler82
 (B-V)(A3V) = 0.086 ; tert. stan. HD 23643 (Pleiad)
 (B-V)(A3V) =  0.087 (+-0.002 sem, +-0.004 stdev); Gray01/03/06 (N=5)
-(B-V)(A3V) =   0.09 ; JohnsonMorgan53,Johnson63,Garrison67,Morgan71, KenyonHartmann95
+(B-V)(A3V) =   0.09 ; JohnsonMorgan53,Mendoza56,Johnson63,Garrison67,Morgan71, KenyonHartmann95
+(B-V)(A3V) =   0.09 ; Cowley70(N=74) 
 (B-V)(A3V) = 0.091 ; pri. stan. bet Leo = HD 102647 = GJ 448 (plx=90.91mas, Mv=1.9230)
 (B-V)(A3V) = 0.092 ; sec. stan. bet Cir = HD 135379 = GJ 580.1 (plx=32.73mas, Mv=1.6317) 
 (B-V)(A3V) = 0.094 ; anchor stan. alf PsA = HD 216956 = GJ 881
@@ -68,7 +69,8 @@ B-V for the standards+exemplars is the same as the B-V for bet Cir. I adopt B-V=
 => adopt (H-Ks)(A3V) = 0.035 [updated 12/29/2023]
 => adopt (J-H)(A3V)  = -0.001 [updated 12/29/2023]
 
-(U-B)(A3V) = 0.100 ; anchor stan. alf PsA = HD 216956 = GJ 881 
+(U-B)(A3V) = 0.100 ; anchor stan. alf PsA = HD 216956 = GJ 881
+(U-B)(A3V) =  0.09 ; Cowley70(N=74) 
 (U-B)(A3V) = 0.085 ; exemplar HD 116706 = HR 5057 = HIP 65466 (Coma Ber member)
 (U-B)(A3V) = 0.084 ; HIP d<75pc S/N>8 A3V N=45 (Mermilliod91 photometry)
 (U-B)(A3V) = 0.084 ; sec. stan. bet Cir = HD 135379 = GJ 580.1
@@ -286,8 +288,8 @@ Morgan65 does not list an A3V standard
 # Anchor Standard
 
 HD 216956 = alf PsA = Fomalhaut = GJ 881 = HR 8728 = HIP 70742 
-  A3V: MK43(stan),JM53,MK73,Garrison79(stan),Cucchiaro80,Garrison94,HoukStandard
- *A3Va: GrayGarrison89,Garrison96
+  A3V: MK43(stan),JM53,MK73(dagger stan.),Garrison79(stan),Cucchiaro80,Garrison94,HoukStandard
+ *A3Va: GrayGarrison89(low vsini stan),Garrison96
   A3: Cannon24(standard),Bidelman85
   A4V: Gray06
 
@@ -295,20 +297,20 @@ HD 216956 = alf PsA = Fomalhaut = GJ 881 = HR 8728 = HIP 70742
   bet Leo). I dismiss the A4V type by Gray06 which has unfortunately
   started to pervade the literature as Fomalhaut is an anchor standard
   for A3V (A3 going back to Cannon) - unless somehow Fomalhaut is
-  spectrally variable (which hasn't been reported).  Common proper
+  spectrally variable (which I've not seen reported).  Common proper
   motion companion with K4V standard TW PsA (Fomalhaut B) and
   Mamajek13 reports tertiary Fomalhaut C (M4V). No astrometry in Gaia
   DR2 or EDR3. plx=129.81+-0.47mas(HIP2).  V=1.15(Bessel90),
   V=1.155+-0.005(Mermilliod91),
-  V=1.155(Cousins80,GCPD/Cousins76_VRIc),
-  V=1.17(HIP), B-V=0.09(Bessel90), B-V=0.094+-0.005(Mermilliod91),
+  V=1.155(Cousins80,GCPD/Cousins76_VRIc), V=1.17(HIP),
+  B-V=0.09(Bessel90), B-V=0.094+-0.005(Mermilliod91),
   B-V=0.145+-0.011(HIP), U-B=0.100+-0.037(Mermilliod91),
   V-Rc=0.053(Cousins80,GCPD/Cousins76_VRIc#1),
   V-Rc=0.055(Bessell90,GCPD/Cousins76_VRIc#2),
   R-Ic=0.025(Cousins80,Bessell90,GCPD/Cousins76_VRIc#1#2),
   V-Ic=0.080(Bessell90,GCPD/Cousins76_VRIc#2),
-  V-Ic=0.078(Cousins80,GCPD/Cousins76_VRIc#1), V-Ic=0.16+-0.01(HIP; why the
-  discrepency?).  Mamajek12 derives the following parameters:
+  V-Ic=0.078(Cousins80,GCPD/Cousins76_VRIc#1), V-Ic=0.16+-0.01(HIP;
+  why the discrepency?).  Mamajek12 derives the following parameters:
   Radius=1.842+-0.019 Rsun. logL=1.221+-0.013.
   Mass=1.92+-0.02Msun. Age=440+-40 Myr. Teffs: 7671K(Luck17),
   8399K(Gray06), 8459K(Boyajian12), 8500K(Dunkin97),
@@ -322,7 +324,7 @@ HD 216956 = alf PsA = Fomalhaut = GJ 881 = HR 8728 = HIP 70742
 
 HD 102647 = bet Leo = GJ 448 = HIP 57632 = Denebola = HR 4534
   A3V: Maury1897,MK43,JM53,Osawa59,Cowley67,Palmer68,Cowley69(stan),Barry70,Houk(standard),Abt95,GrayAtlas
- *A3Va: GrayGarrison89,Garrison96
+ *A3Va: GrayGarrison89(low vsini stan.),Garrison96
   A2: Bidelman85
   A4V: Adams35
   A5V: Cucchiaro80
@@ -354,7 +356,7 @@ HD 135379 = bet Cir = GJ 580.1 = HIP 74824 = HR 5670
   A2/3IV/V: Houk75
   A3V:  1955MmMtS..12....1W,Evans57,Levato72,Abt95
   A3Va: Gray06
- *A3Vb: GrayGarrison89
+ *A3Vb: GrayGarrison89(low vsini stan.)
   A3IV: DeVaucouleurs57
   A5V: 1978A&AS...35...75C
 
@@ -385,7 +387,7 @@ HD 135379 = bet Cir = GJ 580.1 = HIP 74824 = HR 5670
 
 HD 23643 = Cl Melotte 22 1425 = HII 1425 (Pleiades member)
   A1: Binnedijk46
- *A3Van: GrayGarrison89(stan)
+ *A3Van: GrayGarrison89(high vsini stan.)
   A3V: Adams35
   A3.5V: Abt78 
   A5V: Atanasijevic58

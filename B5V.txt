@@ -52,11 +52,12 @@ updated to the revised calibration (10/10/2011).
 (B-V)(B5V) =  -0.15  ; Garrison67
 (B-V)(B5V) =  -0.15  ; Wegner14 
 (B-V)(B5V) = -0.156 ; sec. stan. nu And (EEM dereddened via Q-method) 
-(B-V)(B5V) = -0.156 ; prim. stan. rho Aur (EEM dereddened via Q-method)
+(B-V)(B5V) = -0.156 ; pri. stan. rho Aur (EEM dereddened via Q-method)
 (B-V)(B5V) = -0.156 ; EEM dereddened 97 HIP B5V stars (Q-method, E(B-V)<0.1)
+(B-V)(B5V) =  -0.159 ; Gutierrez-Moreno79
 (B-V)(B5V) =  -0.16  ; JohnsonMorgan53,Morgan53,Johnson63,Johnson65,Johnson66,Fitzgerald70, Morgan71
 (B-V)(B5V) =  -0.17  ; SchmidtKaler82
-=> adopt (B-V)(B5V) = -0.156 [updated 5/31/2024]
+=> adopt (B-V)(B5V) = -0.156 [updated 8/15/2024]
 
 The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V)o> is probably near this value.
 
@@ -275,32 +276,43 @@ Rad(B5V) = 3.287 Rsun ; Teff=15700K, logL=2.772
 # Primary Standard
 
 rho Aur = HD 34759 = HR 1749 = HIP 25048
- *B5V: JM53(stan),Hiltner69(stan),MK73(dagger stan.),Jaschek64(all but one),Jaschek78(Lesh68(stan)) 
+  B3: Cannon,1930MNRAS..90..523E
+  B3V: Cucchiaro76(S2/68)
+  B3/4: Kyritsis22
+  B4V: Negueruela24(stan)
+  B4/6: 1931ApJ....74..225S
+ *B5V: 1949ApJ...110..498S(B5),JM53(stan),Lesh68(stan),Hiltner69(stan),MK73(dagger stan.)
   B5IV: Miczaika51
-  B3: Cannon
-  B3V: Garcia89
 
   The MK73 dagger B5V standard, but surprisingly rarely mentioned as a
-  standard after 1973. Mermilliod91: V=5.218+-0.004,
-  B-V=-0.149+-0.009, U-B=-0.577+-0.008 => updated Q-method
-  (10/10/2011) => (B-V)o=-0.156, (U-B)o=-0.581, E(B-V)=0.007,
-  Av=0.024. E(B-V)=0.033(Kervella19,STILISM), but adopting the
-  Q-method value of E(B-V)=0.007. 2MASS: J=5.437+-0.019(2MASS),
-  H=5.531+-0.018(2MASS), Ks=5.581+-0.016(2MASS). V-Ks = (5.218 -
-  3.1*0.007) - (5.581 - 0.382*0.007) = -0.382. VanLeeuwen07 plx = 6.16
-  +- 0.36 mas => 162+-10 pc. Mv = -0.86 +- 0.13 mag.  Teffs:
-  14454K(Simon-Diaz17), 15042K(EEM,U-Bo=>Bessell98),
-  15311K(EEM,Hauck97 phot. => Napiwotski93 calibration),
-  15750K(Philip80), 15859K(EEM,Hauck97 phot. => BalonaShobbrook84 beta
-  calibration), 15910K(EEM,Hauck97 phot. => Balona94 calibration),
-  15995K(EEM,B-Vo=>Bessell98) => median Teff = 15750K.
+  standard after 1973. Negueruela24 Appendix C.7: "ρ Aur is the
+  primary B5V standard in Morgan & Keenan (1973), where the
+  intermediate spectral type B4 is not used. However, if B4 is used, ρ
+  Aur should belong to this type (see Appendix B.1 and Fig. B.1). For
+  this reason, we have provided other standards, more typical of the
+  type (see Table A.1). If B4 is not used, ρ Aur should be included as
+  a B5 V standards to account for the diversity within the type."
+  Mermilliod91: V=5.218+-0.004, B-V=-0.149+-0.009, U-B=-0.577+-0.008
+  => updated Q-method (10/10/2011) => (B-V)o=-0.156, (U-B)o=-0.581,
+  E(B-V)=0.007, Av=0.024. E(B-V)=0.033(Kervella19,STILISM), but
+  adopting the Q-method value of E(B-V)=0.007. 2MASS:
+  J=5.437+-0.019(2MASS), H=5.531+-0.018(2MASS),
+  Ks=5.581+-0.016(2MASS). V-Ks = (5.218 - 3.1*0.007) - (5.581 -
+  0.382*0.007) = -0.382. VanLeeuwen07 plx = 6.16 +- 0.36 mas =>
+  162+-10 pc. Mv = -0.86 +- 0.13 mag.  Teffs: 14454K(Simon-Diaz17),
+  15042K(EEM,U-Bo=>Bessell98), 15311K(EEM,Hauck97 phot. =>
+  Napiwotski93 calibration), 15750K(Philip80), 15859K(EEM,Hauck97
+  phot. => BalonaShobbrook84 beta calibration), 15910K(EEM,Hauck97
+  phot. => Balona94 calibration), 15995K(EEM,B-Vo=>Bessell98) =>
+  median Teff = 15750K.
 
 # Secondary Standards
 
 kap Hya = HD 83754 = HR 3849 = HIP 47452
- *B5V: MK43,JM53(stan),Houk(stan),Jaschek64(all but one),Garrison77(stan),Jaschek78(Morgan53),Garcia89,Buscombe65(B5Vn)
-  B3/5IV/V: Houk88
   B3: Cannon
+  B3/5IV/V: Houk88
+  B4V:: 1930MmMtS...2....1R
+ *B5V: MK43(stan),1949ApJ...110..498S(B5),JM53(stan),Buscombe65(B5Vn),Lesh68,Houk(stan),Cucchiaro76(S2/68),Garrison77(stan),Zorec09
 
   I'm confused with the Houk88 classification as it is mentioned in
   the opening text to the Michigan Atlas as a B5V standard (presumably
@@ -313,10 +325,12 @@ kap Hya = HD 83754 = HR 3849 = HIP 47452
   = -0.374. VanLeeuwen plx = 7.48+-0.30 mas => 134+-5 pc. Mv =
   -0.58+-0.09 mag. Teffs: 14541K(U-Bo=>Bessell98).
 
-HD 36936 = Paranago 1664
- *B5V: Abt68,MK78,Abt77,Jaschek78(Schild71),Keenan85,Garcia89,GrayAtlas
-  B5: Sharpless52
+HD 36936 = Paranago 1664 = Cl* NGC 1981 AR 83 = TYC 4774-917-1 = Gaia DR3 3209653043398183808
+  B3: Woolf04
   B3/5V: Houk99
+ *B5V: 1966VA......8...83M,Abt68,Schild71,Abt77,MK78,Keenan85,GrayAtlas
+  B5: Sharpless52
+  B6V: 1983TrLen..38...62D
   B7: Bernacca67
   B8: Cannon
 
@@ -330,15 +344,21 @@ HD 36936 = Paranago 1664
 
 # Tertiary Standards
 
-nu And = HD 4727 = HR 226 = BD+40_171 = HIP 3881
- *B5V: JM53(stan),Jaschek64(all),Lesh68(stan),Cowley72(stan),Jaschek78(JM53),Kennedy83,Garcia89,Hoffleit91
-  B5V+F8V: Pourbaix04(SB9)
+nu And = HD 4727 = HIP 3881 = HR 226 = BD+40_171
+  B3: Cannon
+  B3/4: Kyritis22
   B4V: Zorec09
+ *B5V: JM53(stan),Jaschek64(all),Lesh68(stan),Cowley72(stan),Hoffleit91
+  B5V+F8V: Pourbaix04(SB9)
   B3: Cannon
 
-  Spectroscopic binary - F8 companion.  M91: V=4.530+-0.010,
-  B-V=-0.149+-0.007, U-B=-0.577+-0.005 => Updated Q-method
-  (10/10/2011) => (B-V)o=-0.156, (U-B)o=-0.581, E(B-V)=0.007,
+  Spectroscopic binary - F8 companion. I haven't found a delta(V)
+  estimate, but if both are typical MS stars then del(V) ~ 4.9, hence
+  only ~1% of the V-band light is probably contamination from the F8
+  companion, and hence the UV/vis/near-IR colors/mags are probably
+  barely affected by "B". M91: V=4.530+-0.010, B-V=-0.149+-0.007,
+  U-B=-0.577+-0.005 => Updated Q-method (10/10/2011) => (B-V)o=-0.156,
+  (U-B)o=-0.581, E(B-V)=0.007,
   Av=0.024. E(B-V)=0.014(Kervella19,STILISM). Hauck97 ubvy and
   Castelli91 dereddening, I get (b-y)o = -0.109, e(b-y)=0.037. logN_HI
   = 19.61 (Hobbs78), using Mathis & Savage 1979 H_HI/E(B-V) relation,
@@ -354,7 +374,7 @@ nu And = HD 4727 = HR 226 = BD+40_171 = HIP 3881
   16460K(Zorec09#1) => median Teff = 15606K.
 
 HD 219688 = psi02 Aqr = HR 8858 = HIP 115033
- *B5V: JM53,Houk,Garcia89
+ *B5V: JM53,Houk
   B5Vn: Jaschek78(Lesh68),Buscombe69
   B5: Cannon
   B7/8V: Houk99
@@ -388,18 +408,17 @@ HD 4142 = HR 189 = HIP 3478
   16430+-940K(Zorec09) => median Teff = 15771K.
 
 HD 21278 = HR 1034 = Cl Melotte 20 774 = HIP 16147 (Alpha Per cluster)
+  B3V: Roman53
+  B4V: Lesh68,Petrie69(B4)
  *B5V: Jaschek64(all),Morgan71,Abt78,GrayAtlas(stan)
   B5: Cannon
-  B4V: Lesh68
-  B4: Petrie69
-  B3V: Roman53
   B7: Heckmann56
 
   SB. M91: V=4.977+-0.005, B-V=-0.093+-0.008, U-B=-0.551+-0.007 =>
   updated Q-method (11/25/2011) => (B-V)o=-0.161, (U-B)o=-0.598,
   E(B-V)=0.068, Av=0.221. Teffs: 15341K(U-Bo=>Bessell98).
 
-# Weak Standards
+# Deprecated Standards
 
 HD 198183 = lam Cyg = 54 Cyg = HR 7963
  *B5V: JM53(stan),Jaschek64(most),Meisel68,Cowley72(stan),Abt81,Slettebak82,Garcia89
@@ -453,10 +472,10 @@ HD 147888 = HIP 80461 = Rho Oph D =
   spectrum looks intermediate between B3V (eta UMa) and B5V (kap Hya),
   I would say B4+-1 V.
 
-HD 142378 = HR 5915 
- *B5V: Bertiau58(B5V:),Morris61,Jaschek64(all),Lesh68,Buscombe69,Cowley72(stan),Cannon(B5)
-  B3V: Garrison67,Slettebak68
+HD 142378 = HR 5915
   B2/3V: Houk88
+  B3V: Garrison67,Slettebak68
+ *B5V: Bertiau58(B5V:),Morris61,Jaschek64(all),Lesh68,Buscombe69,Cowley72(stan),Cannon(B5)
 
   SB, 0.7" binary. Upper Sco member. Lesh & Cowley disagree by two
   types with Garrison & Houk.

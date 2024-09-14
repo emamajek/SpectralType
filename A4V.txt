@@ -11,13 +11,14 @@ Cowley69 standard: del Leo (HD 97603) - A4V
 Houk75 standard:   del Leo (HD 97603) - A4V (primary standard)
 
 (B-V)(A4V) = 0.088 ; exemplar HD 108382 = 16 Com = HIP 60746 (Coma Ber cluster)
-(B-V)(A4V) =  0.11  ; Morgaa71(halfway_A3V-A5V)
+(B-V)(A4V) =  0.11  ; Morgan71(halfway_A3V-A5V)
 (B-V)(A4V) =  0.115 ; Schmidt-Kaler halfway(A3V-A5V)
-(B-V)(A4V) =  0.12  ; Fitzgerald70
+(B-V)(A4V) =  0.12  ; Mendoza56,Fitzgerald70
 (B-V)(A4V) =  0.125 ; halfway between A3V(0.09) and A5V(0.16)
 (B-V)(A4V) = 0.127 ; exemplar 24 CVn = HD 118232
 (B-V)(A4V) = 0.128 ; prim. stan. del Leo
 (B-V)(A4V) =  0.13 ; HD_37507_ A4Vn plx=22.9587mas, Mv=1.6047
+(B-V)(A4V) =  0.13 ; Cowley70(N=21) 
 (B-V)(A4V) = 0.139 ; exemplar A4V star 49 Ori
 (B-V)(A4V) = 0.14  ; SpT vs B-V trend for A0V-F0V stars (12/29/2023)
 (B-V)(A4V) =  0.161 ; HD_102124_ A4V plx=27.5153mas, Mv=2.0398
@@ -35,7 +36,8 @@ Houk75 standard:   del Leo (HD 97603) - A4V (primary standard)
 (U-B)(A4V) = 0.091 ; HIP d<75pc S/N>8 A4V N=35 (Mermilliod91 photometry)
 (U-B)(A4V) = 0.097 ; B-V vs U-B trend for B-V=0.14
 (U-B)(A4V) = 0.101 ; average for standard+3 exemplars
-(U-B)(A4V) = 0.11  ; exemplar HD 37507 = 49 Ori = HIP 26563 
+(U-B)(A4V) = 0.11  ; exemplar HD 37507 = 49 Ori = HIP 26563
+(U-B)(A4V) =  0.11 ; Cowley70(N=21) 
 (U-B)(A4V) = 0.115 ; standard HD 97603 = del Leo = HIP 54872
 => adopt (U-B)(A4V) = 0.097 [updated 12/29/2023]
 
@@ -540,7 +542,10 @@ HD 108382 = 16 Com = HIP 60746 = HR 4738 = Cl Melotte 111 130
   
 # Other Stars
 
-Morgan65 did not classify any Hyads as A4V. 
+Morgan65 did not classify any Hyads as A4V.
+
+AbtLevato78 classified two Pleiads as A4V: HD 23628, HD 23886 (which
+MK78 used as A5V standard).
 
 While GrayGarrison89 did not list A4V standards, they did classify 9
 stars as A4V or A4Vn. The brightest two examples of both were HD 37507
@@ -559,12 +564,40 @@ HD 59037 = HR 2857 = 64 Gem (V=5.1)
   Never considered a standard by anyone. Not very good agreement among authors (although
   Cowley and GrayGarrison89 agree). Probably not a good candidate standard.
 
-
-  
 HD 135384 = HR 5672 = BD+68 823
   A2V: 1930MeUpp..48....1O
  *A4Vn: Palmer68,Abt95
   A8Vn: Cowley69
+
+HD 23886 = Cl Melotte 22 2289 (Pleiad)
+  A2V: Adams35
+  A3V: Mendoza56
+  A4V: AbtLevato78
+  A5V: Atanasijevic58(BCD type),MK78(stan),Keenan85
+ *A5Vn: GrayGarrison89(stan),Gray01
+
+  One of two Pleiads classified as A4V by AbtLevato78. However,
+  GrayGarrison89 adopted it as their high-vsini A5V standard
+  (vsini=165 km/s).  Pleiad, so assume E(B-V)=0.036(see previous
+  discussion) and Av=0.112. Not in GCPD compendium of Cousins VRIc
+  photometry.  V=7.969+-0.010(Mermilliod91),
+  B-V=0.178+-0.002(Mermilliod91), U-B=0.130(Mermilliod91).  Dereddened
+  photometry: (B-V)o = (B-V) - E(B-V) = 0.178 - 0.036 = 0.142.  (U-B)o
+  = (U-B) - E(B-V)*[E(U-B)/E(B-V)] = 0.130 -
+  0.036*0.72(JohnsonMorgan53) = 0.104.  Teffs: 8238K(Stassun18),
+  8244K(GaiaDR2), 8974+-145K(David15) => <Teff> = 8244K.
+  logg=4.343+-0.091(David15). V=8.01. plx = 7.3552+-0.0671
+  mas(GaiaDR2), plx=7.4549+-0.0323mas(GaiaEDR3). Luminosity: adopting
+  V=7.969, plx=7.4549mas, Av=0.124, BCv=0.00 => Mv=2.21, Mbol=2.21,
+  logL=1.013 => w/Teff=8244K => Rad = 1.574Rsun.
+
+HD 23628 = Cl Melotte 22 1384 = BD+24 566
+  A1V: Adams35
+  A2: Lindblad22,Binnendijk46
+ *A4V: Eggen50(A4),Mendoza56,AbtLevato78
+  A7V: Atanasijevic58(BCD type)
+
+  One of two Pleiads classified A4V by AbtLevato78. 
 
 # Notes on nearby Hipparcos stars with A4V types (mostly from Houk)
 
