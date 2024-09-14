@@ -696,40 +696,42 @@ HD 16160 = GJ 105A = HR 753 = HIP 12114
   K5V: Morgan37
 
   Skiff compendium shows 9 references since Morgan38 all list it as
-  K3V or K3. Keenan shifted it from K3-V to K3V from 1989 to
-  1999. Note that there is no "Gl 105" or "GJ 105" in SIMBAD, it is
-  "105A". GJ 105C is a V=16.77 M7V star at separation 3.3" from A
-  (Nidever02 reports that 105A is a stable RV star to within <0.1
-  km/s). GJ 105B is a V=11.66 M4V star at separation 165" (2.8'). The
-  magnitude difference between the 3" binary GJ 105A and 105C is 10.84
-  magnitudes in V (factor of ~22,000), so GJ 105A should be OK as a
-  "K3V" standard. V=5.79(HIP), V=5.823+-0.010(Mermilliod91, Nobs>99),
-  V=5.82(Johnson66), B-V=0.970+-0.010(Mermilliod91, Nobs>99),
-  B-V=0.918+-0.019(HIP), B-V=0.97(Johnson66),
-  U-B=0.802+-0.015(Mermilliod91), U-B=0.80(Johnson66),
-  V-I=1.06(HIP). G=5.498320+-0.002884(GaiaDR3) => (G-V) =
-  5.498320(GaiaDR3) - 5.823(Mermilliod91) = -0.325.  2MASS photometry
-  is poor quality: J=4.152+-0.264, H=3.657+-0.244, Ks=3.481+-0.208
-  (flags=DDC).  Rudy96(1996ApJ...458L..41R) presents IR observations
-  and mentions previous photometry of system. J=4.15(Rudy96),
-  H=3.61(Rudy96), Ks=3.52(Rudy96; they quote K=Ks-0.11, where K
-  appears to be K_CIT), where "Ks" = "K-short", while not technically
-  2MASS, it appears that their bandpass (1.98-2.32um = 2.15um) is
-  almost identical to 2MASS Ks (2.159um), as is the detector 256x256
-  NICMOS3 HgCdTe. The Rudy96 JHKs photometry is within <0.002 of 2MASS
-  J, <0.047 for 2MASS H, and <0.041 for 2MASS Ks, suggesting that the
-  2MASS errors (~0.2 mag) are likely very overestimated.  Rudy96 ties
-  their JHKs photometry to Elias82 system.  VanBelle09 lists
-  K=3.52+-0.05, perhaps from Rudy96?  Glass75 reports K=3.45,
-  J-H=0.55, H-K=0.07, K-L=0.02 (hence J=4.07, H=3.52, L=3.43); the
-  Carter90 SAAO system was tied to the Glass system, and Carpenter01
-  reports Ks(2MASS) = K_SAAO + 0.020(J-K)SAAO - 0.025, hence
-  Ks(2MASS,predicted) ~ 3.45 + 0.020*(0.62) - 0.025 ~ 3.44. So it
-  appears that the 2MASS Ks mag is probably actually OK to ~+-0.04 mag
-  through comparison to these ground-based estimates, and so I
-  estimate V-Ks = 5.823-3.44 = 2.383. (G-Ks) = 5.498320-3.44 = 2.058.
-  Pecaut13 estimates mbol=5.406+-0.015 from SED fitting to BT-Settl
-  models, hence BCv = mbol - Vmag = 5.406 - 5.823 = -0.417.
+  K3V or K3. Keenan had it as a K3V standard in the KeenanMcNeil76
+  atlas, then ignored it in his 1980-1985 references, then had it as
+  K3-V in 1988/1989, then finally back to K3V in the 1999 reference
+  that appeared online before his passing.  Note that there is no "Gl
+  105" or "GJ 105" in SIMBAD, it is "105A". GJ 105C is a V=16.77 M7V
+  star at separation 3.3" from A (Nidever02 reports that 105A is a
+  stable RV star to within <0.1 km/s). GJ 105B is a V=11.66 M4V star
+  at separation 165" (2.8'). The magnitude difference between the 3"
+  binary GJ 105A and 105C is 10.84 magnitudes in V (factor of
+  ~22,000), so GJ 105A should be OK as a "K3V" standard. V=5.79(HIP),
+  V=5.823+-0.010(Mermilliod91, Nobs>99), V=5.82(Johnson66),
+  B-V=0.970+-0.010(Mermilliod91, Nobs>99), B-V=0.918+-0.019(HIP),
+  B-V=0.97(Johnson66), U-B=0.802+-0.015(Mermilliod91),
+  U-B=0.80(Johnson66), V-Ic=1.06(HIP). G=5.498320+-0.002884(GaiaDR3) =>
+  (G-V) = 5.498320(GaiaDR3) - 5.823(Mermilliod91) = -0.325.  2MASS
+  photometry is poor quality: J=4.152+-0.264, H=3.657+-0.244,
+  Ks=3.481+-0.208 (flags=DDC).  Rudy96(1996ApJ...458L..41R) presents
+  IR observations and mentions previous photometry of
+  system. J=4.15(Rudy96), H=3.61(Rudy96), Ks=3.52(Rudy96; they quote
+  K=Ks-0.11, where K appears to be K_CIT), where "Ks" = "K-short",
+  while not technically 2MASS, it appears that their bandpass
+  (1.98-2.32um = 2.15um) is almost identical to 2MASS Ks (2.159um), as
+  is the detector 256x256 NICMOS3 HgCdTe. The Rudy96 JHKs photometry
+  is within <0.002 of 2MASS J, <0.047 for 2MASS H, and <0.041 for
+  2MASS Ks, suggesting that the 2MASS errors (~0.2 mag) are likely
+  very overestimated.  Rudy96 ties their JHKs photometry to Elias82
+  system.  VanBelle09 lists K=3.52+-0.05, perhaps from Rudy96?
+  Glass75 reports K=3.45, J-H=0.55, H-K=0.07, K-L=0.02 (hence J=4.07,
+  H=3.52, L=3.43); the Carter90 SAAO system was tied to the Glass
+  system, and Carpenter01 reports Ks(2MASS) = K_SAAO + 0.020(J-K)SAAO
+  - 0.025, hence Ks(2MASS,predicted) ~ 3.45 + 0.020*(0.62) - 0.025 ~
+  3.44. So it appears that the 2MASS Ks mag is probably actually OK to
+  ~+-0.04 mag through comparison to these ground-based estimates, and
+  so I estimate V-Ks = 5.823-3.44 = 2.383. (G-Ks) = 5.498320-3.44 =
+  2.058.  Pecaut13 estimates mbol=5.406+-0.015 from SED fitting to
+  BT-Settl models, hence BCv = mbol - Vmag = 5.406 - 5.823 = -0.417.
   Boyajian12 reports fbol = (16.680 ± 0.103)e-8 erg/cm2/s) => =>
   IAU2015 scale mbol = 5.4470 +- 0.0067, BCv = mbol - V = 5.447 -
   5.823 = -0.376 +- 0.012. Blackwell98 reports fbol=1.73e-10W/m2 (IR

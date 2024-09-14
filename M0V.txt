@@ -100,6 +100,8 @@ Silverstein19 divides M dwarfs and subdwarfs with a "Main
 Sequence-Subdwarf Boundary" (Eqn. 5.1) as the line between
 4000K/0.485Rsun and 3100K/0.085Rsun: R/Rsun = 4.444e-4*Teff - 1.293.
 
+HenryJao24 adopt a division between K and M dwarfs at M_G=8.1. 
+
 (B-V)(M0V) =   1.347 ; Crawford76
 (B-V)(M0V) =   1.35  ; Leggett92 "young disk"
 (B-V)(M0V) =   1.35  ; Leggett92 "old disk"
@@ -605,7 +607,8 @@ Mv(M0V) =  9.02 mag ; exemplar GJ 784
 Mv(M0V) =  9.06 mag ; median SIMBAD M0V d<25pc (N=97)
 Mv(M0V) =   9.08 mag ; Habets81
 Mv(M0V) =   9.17 mag ; Wegner07
-=> adopt Mv(M0V) = 8.81 mag [updated 10/17/2023] (V-Ks=3.67, M_Ks=5.14)
+=> adopt Mv(M0V)   = 8.81  mag [updated 10/17/2023] (V-Ks=3.67, M_Ks=5.14)
+=> adopt M_Ic(M0V) = 7.045 mag [updated 7/10/2024] (V-Ic=1.765, Mv=8.81)
 
 M_G(M0V) =   7.683 ; HD 111631 M0V (GaiaDR2)
 M_G(M0V) = 7.646   ; exemplar GJ_839 (GaiaDR3)
@@ -619,6 +622,8 @@ M_G(M0V) =   8.040 ; HD 79211  exemplar (GaiaDR2)
 M_G(M0V) = 8.046   ; exemplar GJ_338B (GaiaDR3)
 M_G(M0V) = 8.057   ; pri. stan. GJ_270 (GaiaDR3)
 M_G(M0V) =   8.077 ; SIMBAD d<20pc trend for V-Ks=3.65 (GaiaDR2)
+M_G(M0V) = 8.1  ; HenryJao24 K/M dwarf boundary M_G
+M_G(M0V) = 8.10 ; HenryJao24 representative value for M0.0V
 M_G(M0V) = 8.120  ; SIMBAD d<25pc smooth trend for G-Ks=2.960 [10/17/2023]
 M_G(M0V) =   8.13  ; Kiman19  (GaiaDR2)
 M_G(M0V) =   8.15  ; Mv=8.85, G-V=-0.70 (GaiaDR2)
@@ -631,19 +636,19 @@ M_G(M0V) =   8.578 ; HD 304636  (GaiaDR2)
 M_G(M0V) =   8.874 ; HD 260655 (GaiaDR2)
 => adopt M_G(M0V) = 8.12 mag [updated 10/17/2023] (Mv=8.81, G-V=-0.69)
 
-M_Ks(M0V) =  6.03  ; sec. stan. GJ 686
-M_Ks(M0V) =   5.32  ; V-Ks=3.65 => Henry04 fit
-M_Ks(M0V) =  5.26  ; V-Ks=3.67 => EEM fit 4/2017
-M_Ks(M0V) =  5.22  ; V-Ks=3.67 => JohnsonApps09 
-M_Ks(M0V) =  5.19  ; V-Ks=3.67 => EEM fit to Jao16
-M_Ks(M0V) =  5.15  ; V-Ks=3.67 => smooth MS K/M dwarf trend
+M_Ks(M0V) =  6.03 ; sec. stan. GJ 686
+M_Ks(M0V) =   5.32 ; V-Ks=3.65 => Henry04 fit
+M_Ks(M0V) =  5.26 ; V-Ks=3.67 => EEM fit 4/2017
+M_Ks(M0V) =  5.22 ; V-Ks=3.67 => JohnsonApps09 
+M_Ks(M0V) =  5.19 ; V-Ks=3.67 => EEM fit to Jao16
+M_Ks(M0V) =  5.15 ; V-Ks=3.67 => smooth MS K/M dwarf trend
 M_Ks(M0V) = 5.14  ; M_G=8.12, G-Ks=2.98
-M_Ks(M0V) =  5.12  ; V-Ks=3.67 => EEM fit to Reid CNS3 data
-M_Ks(M0V) =  5.07  ; pri. stan. GJ 270
-M_Ks(M0V) =  5.05  ; exemplar GJ 825 = Lacaille 8760 
-M_Ks(M0V) =  4.81  ; ter. stan. GJ 123
-M_Ks(M0V) =  4.79  ; sec. stan. GJ 328
-M_Ks(M0V) =  4.79  ; deprecated standard GJ 617A = HD 147379A (original JM53 M0V standard)
+M_Ks(M0V) =  5.12 ; V-Ks=3.67 => EEM fit to Reid CNS3 data
+M_Ks(M0V) =  5.07 ; pri. stan. GJ 270
+M_Ks(M0V) =  5.05 ; exemplar GJ 825 = Lacaille 8760 
+M_Ks(M0V) =  4.81 ; ter. stan. GJ 123
+M_Ks(M0V) =  4.79 ; sec. stan. GJ 328
+M_Ks(M0V) =  4.79 ; deprecated standard GJ 617A = HD 147379A (original JM53 M0V standard)
 => adopt M_Ks(M0V) = 5.14 mag [updated 10/17/2023] (Mv=8.81, V-Ks=3.67)
 => adopt M_J(M0V)  = 5.97 mag [updated 6/18/2024] (M_Ks=5.14, J-Ks=0.83)
 => adopt M_z(M0V)  = 7.25 mag [updated 6/18/2024] (M_J=5.97, z-J=1.28)

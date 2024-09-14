@@ -99,7 +99,7 @@ HD 224618, and HD 26965.
 (U-B)(K0V) =  0.344  ; HD 870 = HIP 1031 (Koen10) ~solar
 (U-B)(K0V) =  0.342  ; exemplar HD 100623 = GJ 432A ([Fe/H]=-0.40)
 (U-B)(K0V) =  0.386  ; pri. stan. sig Dra = HD 185144 ([Fe/H]=-0.21)
-(U-B)(K0V) = 0.446  ; B-V vs. U-B fit for (-0.1<[Fe/H]<0.1;Soubiran22) d<50pc dwarfs, B-V=0.818
+(U-B)(K0V) = 0.446  ; B-Vvs.U-B fit for (-0.1<[Fe/H]<0.1;Soubiran22) d<50pc Vs, B-V=0.818
 (U-B)(K0V) =   0.450 ; HIP d<75pc S/N>8 K0V N=95 (Mermilliod91 photometry)
 (U-B)(K0V) =  0.454  ; HD 72760 = HIP 42074 (Koen10) K0-V ~solar
 (U-B)(K0V) =  0.467+-0.074 ; ter. stan. HD 284253 = Cl Melotte 25 21 ([Fe/H]=+0.16)
@@ -223,21 +223,24 @@ HD 224618, and HD 26965.
 (g-V)(K0V) = 0.392 ; Jordi06 B-V=>g-V for B-V=0.391
 => adopt (g-V)(K0V) = 0.391 [updated 9/1/2023]
 
-(G-V)(K0V) =  -0.248  ; exemplar HD 10780 ([Fe/H]=+0.03) (GaiaDR2)
-(G-V)(K0V) =  -0.245  ; exemplar 20 Crt = HR 4458 (GaiaDR2)
-(G-V)(K0V) =  -0.230  ; exemplar 55 Cnc (GaiaDR2)
-(G-V)(K0V) = -0.229  ; trend SIMBAD d<20pc for V-Ks=1.953 (GaiaDR2)
-(G-V)(K0V) = -0.229  ; pri. stan. sig Dra = HD 185144 ([Fe/H]=-0.21) (GaiaDR3)
-(G-V)(K0V) = -0.227+-0.011 ; pri. stan. sig_Dra (GaiaDR2)
-(G-V)(K0V) = -0.227+-0.008 ; sec. stan. HD_224618 (GaiaDR2)
-(G-V)(K0V) = -0.222  ; smoothed fit f(SpT) G9V-M0V (GaiaDR2)
-(G-V)(K0V) = -0.222  ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) (GaiaDR3)
-(G-V)(K0V) =  -0.222  ; ter. stan. HD 284253 [Hyad] (GaiaDR2)
-(G-V)(K0V) =  -0.213  ; exemplar 12 Oph (GaiaDR2)
-(G-V)(K0V) = -0.213  ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5270K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(K0V) =  -0.248 ; exemplar HD 10780 ([Fe/H]=+0.03) (GaiaDR2)
+(G-V)(K0V) =  -0.245 ; exemplar 20 Crt = HR 4458 (GaiaDR2)
+(G-V)(K0V) =  -0.230 ; exemplar 55 Cnc (GaiaDR2)
+(G-V)(K0V) = -0.229 ; trend SIMBAD d<20pc for V-Ks=1.953 (GaiaDR2)
+(G-V)(K0V) = -0.227 +-0.011 ; pri. stan. sig_Dra (GaiaDR2)
+(G-V)(K0V) = -0.227 +-0.008 ; sec. stan. HD_224618 (GaiaDR2)
+(G-V)(K0V) = -0.222 ; smoothed fit f(SpT) G9V-M0V (GaiaDR2)
+(G-V)(K0V) =  -0.222 ; ter. stan. HD 284253 [Hyad] (GaiaDR2)
+(G-V)(K0V) = -0.218 ; sec. stan. HD 224618 = LHS 552 ([Fe/H]=-0.76)
+(G-V)(K0V) =  -0.213 ; exemplar 12 Oph (GaiaDR2)
+
 (G-V)(K0V) = -0.199  ; from fit for B-V=0.816
 => adopt (G-V)(K0V) = -0.22 (GaiaDR2) [updated 9/24/2021]
 => adopt (G-V)(K0V) = -0.21 (GaiaDR3) [updated 8/15/2023]
+
+(G-V)(K0V) = -0.229 ; pri. stan. sig Dra = HD 185144 ([Fe/H]=-0.21) (GaiaDR3)
+(G-V)(K0V) = -0.222 ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) (GaiaDR3)
+(G-V)(K0V) = -0.213 ; trend for SIMBAD FGK Vs d<50pc w/Soubiran22 Teffs for Teff=5270K (GaiaDR3 Gmags,SIMBAD Vmags)
 
 (Bp-Rp)(K0V) =  0.9652 ; exemplar HD 10780 ([Fe/H]=+0.03) (GaiaDR2)
 (Bp-Rp)(K0V) = 0.9704  ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) (GaiaDR3)
@@ -250,24 +253,57 @@ HD 224618, and HD 26965.
 (Bp-Rp)(K0V) =  1.0135 ; exemplar 55 Cnc (GaiaDR2)
 => adopt (Bp-Rp)(K0V) = 0.983 [updated 8/29/2020] (GaiaDR2)
 
+(Bp-Rp)(K0V) = 0.9689 ; ter. stan. HD 284253 = Cl Melotte 25 21 (Hyad; [Fe/H]=+0.16) (GaiaDR3) 
+(Bp-Rp)(K0V) =  0.9704 ; exemplar HD 39194 = GJ 9191 ([Fe/H]=-0.62) (GaiaDR3) 
+(Bp-Rp)(K0V) =  0.9710 ; exemplar HD 10780 = GJ 75 ([Fe/H]=+0.03) (GaiaDR3) 
+(Bp-Rp)(K0V) = 0.9791 ; sec. stan. HD 224618 = LHS 552 ([Fe/H]=-0.76) (GaiaDR3) 
+(Bp-Rp)(K0V) = 0.9943 ; pri. stan. HD 185144 = sig Dra ([Fe/H]=-0.21) (GaiaDR3) 
+(Bp-Rp)(K0V) =  1.0040 ; exemplar HD 100623 = 20 Crt ([Fe/H]=-0.40) (GaiaDR3) 
+(Bp-Rp)(K0V) =  1.0146 ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03) (GaiaDR3)
+(Bp-Rp)(K0V) =  1.0221 ; exemplar HD 118972 = GJ 1175 ([Fe/H]=-0.03) (GaiaDR3) 
+=> adopt (Bp-Rp)(K0V) = 0.994 [updated 9/13/2024] (Bp-G=0.411, G-Rp=0.583) (GaiaDR3)
+[EEM 9/13/2024: fit to 3 standards + 5 exemplars: (Bp-Rp)(K0V) = 0.9936 + 0.01362*[Fe/H] (rms=0.0224mag)]
+
 (G-T)(K0V) = 0.494 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.983
 => (G-T)(K0V) = 0.494 [updated 10/8/2023] (GaiaDR2)
 
 (Bp-G)(K0V) =  0.451 ; color trend for B-V=0.816 (GaiaDR2)
 (Bp-G)(K0V) =  0.430 ; Bp-Rp=0.983, G-Rp=0.553 (GaiaDR2)
-(Bp-G)(K0V) = 0.3968 ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) (GaiaDR3)
+=> adopt (Bp-G)(K0V) = 0.430 [updated 8/29/2020; Bp-Rp=0.983, G-Rp=0.553] (GaiaDR2)
 
-(G-Rp)(K0V) =  0.5204  ; exemplar HD 10780 ([Fe/H]=+0.03) (GaiaDR2)
-(G-Rp)(K0V) = 0.546    ; color trend for B-V=0.816 (GaiaDR2)
-(G-Rp)(K0V) =  0.5492  ; exemplar 20 Crt = HR 4458 (GaiaDR2)
-(G-Rp)(K0V) = 0.5519   ; ter. stan. HD 284253 [Hyad] (GaiaDR2)
-(G-Rp)(K0V) = 0.5534   ; pri. stan. sig_Dra (GaiaDR2)
-(G-Rp)(K0V) =  0.5565  ; exemplar 55 Cnc (GaiaDR2)
-(G-Rp)(K0V) = 0.558    ; sec. stan. HD 224618  (GaiaDR2)
-(G-Rp)(K0V) = 0.5737   ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) 
-(G-Rp)(K0V) =  0.5758  ; exemplar *_12_Oph  (GaiaDR2)
-=> adopt (G-Rp)(K0V) = 0.553 [updated 8/29/2020]
-=> adopt (Bp-G)(K0V) = 0.430 [updated 8/29/2020; Bp-Rp=0.983, G-Rp=0.553]
+(Bp-G)(K0V) =  0.3968 ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) (GaiaDR3)
+(Bp-G)(K0V) = 0.4010 ; ter. stan. HD 284253 = Cl Melotte 25 21 (Hyad; [Fe/H]=+0.16) (GaiaDR3)
+(Bp-G)(K0V) = 0.4012 ; sec. stan. HD 224618 = LHS 552 ([Fe/H]=-0.76) (GaiaDR3)
+(Bp-G)(K0V) =  0.4026 ; exemplar HD 10780 = GJ 75 ([Fe/H]=+0.03) (GaiaDR3) 
+(Bp-G)(K0V) = 0.4104 ; pri. stan. HD 185144 = sig Dra ([Fe/H]=-0.21) (GaiaDR3)
+(Bp-G)(K0V) =  0.4159 ; exemplar HD 100623 = 20 Crt ([Fe/H]=-0.40) (GaiaDR3) 
+(Bp-G)(K0V) =  0.4171 ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03) (GaiaDR3)
+(Bp-G)(K0V) =  0.4253 ; exemplar HD 118972 = GJ 1175 ([Fe/H]=-0.03) (GaiaDR3) 
+=> adopt (Bp-G)(K0V) = 0.411 [updated 9/13/2024] (Bp-Rp=0.994, G-Rp=0.583) (GaiaDR3) 
+[EEM 9/13/2024: fit to 3 standards & 5 exemplars: (Bp-G)(K0V) = 0.4112 + 0.01056*[Fe/H] (rms=0.010mag)]
+
+(G-Rp)(K0V) =  0.5204 ; exemplar HD 10780 ([Fe/H]=+0.03) (GaiaDR2)
+(G-Rp)(K0V) = 0.546   ; color trend for B-V=0.816 (GaiaDR2)
+(G-Rp)(K0V) =  0.5492 ; exemplar 20 Crt = HR 4458 (GaiaDR2)
+(G-Rp)(K0V) = 0.5519  ; ter. stan. HD 284253 [Hyad] (GaiaDR2)
+(G-Rp)(K0V) = 0.5534  ; pri. stan. sig_Dra (GaiaDR2)
+(G-Rp)(K0V) =  0.5565 ; exemplar 55 Cnc (GaiaDR2)
+(G-Rp)(K0V) = 0.558   ; sec. stan. HD 224618 (GaiaDR2)
+(G-Rp)(K0V) = 0.5737  ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) 
+(G-Rp)(K0V) =  0.5758 ; exemplar *_12_Oph  (GaiaDR2)
+=> adopt (G-Rp)(K0V) = 0.553 [updated 8/29/2020] (GaiaDR2) 
+
+(G-Rp)(K0V) = 0.5679 ; ter. stan. HD 284253 = Cl Melotte 25 21 (Hyad; [Fe/H]=+0.16) (GaiaDR3) 
+(G-Rp)(K0V) =  0.5684 ; exemplar HD 10780 = GJ 75 ([Fe/H]=+0.03) (GaiaDR3)
+(G-Rp)(K0V) =  0.5737 ; exemplar HD 39194 = GJ 9191 ([Fe/H]=-0.62)
+(G-Rp)(K0V) = 0.5779 ; sec. stan. HD 224618 = LHS 552 ([Fe/H]=-0.76)  (GaiaDR3) 
+(G-Rp)(K0V) = 0.5839 ; pri. stan. HD 185144 = sig Dra ([Fe/H]=-0.21) (GaiaDR3) 
+(G-Rp)(K0V) =  0.5882 ; exemplar HD 100623 = 20 Crt ([Fe/H]=-0.40) (GaiaDR3)
+(G-Rp)(K0V) =  0.5968 ; exemplar HD 118972 = GJ 1175 ([Fe/H]=-0.03) (GaiaDR3) 
+(G-Rp)(K0V) =  0.5975 ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03) (GaiaDR3) 
+=> adopt (G-Rp)(K0V) = 0.583 [updated 9/13/2024] (Bp-Rp=0.994, Bp-G=0.411) (GaiaDR3)
+[EEM 9/13/2024: trend for 3 standards & 5 exemplars:
+                (G-Rp)(K0V) = 0.5825 + 0.00299*[Fe/H] (rms=0.0127mag)]
 
 Teff(K0V) =  5172 K ; Ramirez05 Teff calibration for B-V=0.816
 Teff(K0V) = 5196 K ; exemplar 20 Crt = HR 4458 ([Fe/H]=-0.40)
@@ -277,7 +313,7 @@ Teff(K0V) = 5224 K ; exemplar HD 118972 = GJ 1175 = HIP 66765 ([Fe/H]=-0.03)
 Teff(K0V) =   5230 K ; mean photometric Teff
 Teff(K0V) =   5250 K ; Schmidt-Kaler82
 Teff(K0V) = 5262 K ; exemplar HD 149661 = 12 Oph ([Fe/H]=+0.03)
-Teff(K0V) = 5272 +- 19 K ; Pecaut13 (GJ 631)
+Teff(K0V) = 5272 +-19 K ; Pecaut13 (GJ 631)
 Teff(K0V) = 5275 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs Hinkel17 for B-V=0.816
 Teff(K0V) =  5278 K ; Casagrande10 Teff calibration for B-V=0.816
 Teff(K0V) =   5280 K ; Gray03 
@@ -289,10 +325,10 @@ Teff(K0V) = 5298 K ; pri. stan. sig Dra ([Fe/H]=-0.21)
 Teff(K0V) = 5298 K ; var. stan. 70 Oph A (K0-V) ([Fe/H]=+0.06)
 Teff(K0V) = 5300 K ; smoothed Teff(SpT) trend
 Teff(K0V) =   5300 K ; GrayCorbally94
-Teff(K0V) = 5316 +- 5 K ; fit to [Fe/H] vs. Teff for 3 standards (using Soubiran22 values)
+Teff(K0V) = 5316 +-5 K ; fit to [Fe/H] vs. Teff for 3 standards (using Soubiran22 values)
 Teff(K0V) = 5320 K ; ter. stan. HD 284253 = Cl Melotte 25 21 ([Fe/H]=+0.16)
 Teff(K0V) =  5328 K ; Biazzo07 Teff calibration for B-V=0.816
-Teff(K0V) =   5347 +- 20 K ; Boyajian12b
+Teff(K0V) =   5347 +-20 K ; Boyajian12b
 Teff(K0V) = 5358 K ; exemplar HD 10780 = HR 511 ([Fe/H]=+0.03)
 Teff(K0V) =   5280 K ; GrayCorbally09
 Teff(K0V) =   5450 K ; Boyajian12a (N=5)
@@ -312,70 +348,73 @@ BCv(K0V) = -0.164+-0.02  ; exemplar 55 Cnc (metal-rich K0IV-V, see below)
 BCv(K0V) = -0.139+-0.018 ; exemplar GJ 631 (12 Oph) (see below)
 => adopt BCv(K0V) = -0.19 mag [last updated 8/15/2023, scale where BCv(5772K)=-0.085]
 
-M_G(K0V) =   5.131  ; HD_145675_ plx=55.8657mas (K0V, Keenan89) (GaiaDR3) ([Fe/H]=+0.43) 
-M_G(K0V) = 5.400 ; ter. stan. HD_284253 (Hyad; [Fe/H] = +0.16) (GaiaDR3)
-M_G(K0V) = 5.401 ; exemplar HD_10780_ plx=99.5902mas K0V  (GaiaDR3) ([Fe/H]=+0.03)
-M_G(K0V) =  5.405  ; HD_221354_ plx=59.3670mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=+0.03)
-M_G(K0V) = 5.444 ; deprecated stan. 70 Oph A = HD_165341A_ plx=195.5674mas (K0-V, Keenan89) (GaiaDR3) ([Fe/H]=+0.06)
-M_G(K0V) =  5.466 ; HD_21175_ plx=56.557mas (K0V, Torres06, Houk78) (GaiaDR3) ([Fe/H]=+0.11)
-M_G(K0V) = 5.519 ; trend M_G(K0V) for [Fe/H]=0.00 (see below)
-M_G(K0V) = 5.553 ; Mv=5.76, G-V=-0.227
-M_G(K0V) = 5.577 ; exemplar  HD_149661_ = 12 Oph (GaiaDR3) ([Fe/H]=+0.03)
-M_G(K0V) = 5.629 ; SIMBAD d<20pc trend for V-Ks=1.953
-M_G(K0V) = 5.645 ; anchor stan. HD_185144_ plx=173.4939mas (K0V, Keenan89) (GaiaDR3) ([Fe/H]=-0.21)
-M_G(K0V) =  5.708 ; HD_135599_ plx=63.2139mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=-0.08)
-M_G(K0V) =  5.719 ; HD_118972_ plx=63.7263mas (K0V, Gray06) (GaiaDR3) ([Fe/H]=-0.03)
-M_G(K0V) = 5.753 ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 (GaiaDR3) ([Fe/H]=-0.62) 
-M_G(K0V) = 5.836 ; exemplar HD_100623_ plx=104.6133mas (K0-V, Gray06) (GaiaDR3) ([Fe/H]=-0.40)
-M_G(K0V) = 5.917 ; sec. stan. HD_224618_ (GaiaDR3) ([Fe/H]=-0.76)
+M_G(K0V) =   5.13 ; HD_145675_ plx=55.8657mas (K0V, Keenan89) (GaiaDR3) ([Fe/H]=+0.43) 
+M_G(K0V) = 5.40 ; ter. stan. HD_284253 (Hyad; [Fe/H]=+0.16) (GaiaDR3)
+M_G(K0V) = 5.40 ; exemplar HD_10780_ plx=99.5902mas K0V  (GaiaDR3) ([Fe/H]=+0.03)
+M_G(K0V) =  5.41 ; HD_221354_ plx=59.3670mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=+0.03)
+M_G(K0V) = 5.44 ; deprec. stan. 70 Oph A = HD165341A plx=195.5674mas (K0-V, Keenan89) (GaiaDR3) ([Fe/H]=+0.06)
+M_G(K0V) =  5.47 ; HD_21175_ plx=56.557mas (K0V, Torres06, Houk78) (GaiaDR3) ([Fe/H]=+0.11)
+M_G(K0V) = 5.52 ; trend M_G(K0V) for [Fe/H]=0.00 (see below)
+M_G(K0V) = 5.55 ; Mv=5.76, G-V=-0.227
+M_G(K0V) = 5.58 ; exemplar  HD_149661_ = 12 Oph (GaiaDR3) ([Fe/H]=+0.03)
+M_G(K0V) = 5.63 ; SIMBAD d<20pc trend for V-Ks=1.953
+M_G(K0V) = 5.65 ; anchor stan. HD_185144_ plx=173.4939mas (K0V, Keenan89) (GaiaDR3) ([Fe/H]=-0.21)
+M_G(K0V) =  5.71 ; HD_135599_ plx=63.2139mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=-0.08) 
+M_G(K0V) = 5.72 ; exemplar HD 118972 = GJ 1175 ([Fe/H]=-0.03) (GaiaDR3)
+M_G(K0V) = 5.75 ; exemplar HD 39194 = GJ 9191 = HIP 27080 (GaiaDR3) ([Fe/H]=-0.62) 
+M_G(K0V) = 5.84 ; exemplar HD_100623_ plx=104.6133mas (K0-V, Gray06) (GaiaDR3) ([Fe/H]=-0.40)
+M_G(K0V) = 5.92 ; sec. stan. HD_224618_ (GaiaDR3) ([Fe/H]=-0.76)
 [EEM 8/13/2023: trend M_G(K0V) = 5.519 - 0.66646*[Fe/H] (rms=0.101mag)
 Among d<25pc SIMBAD entries (dwarfs, w/GKs photometry), trend predicts for M_G=5.519 => (G-Ks)=1.723, M_Ks=3.796]
 
-Mv(K0V)  = 6.15 mag ; sec. stan.  HD 224618 [Fe/H] ~ -0.6!
-Mv(K0V)  =   6.13 mag ; Habets81
-Mv(K0V)  =  6.06 mag ; exemplar 20 Crt = HR 4458
-Mv(K0V)  =  5.98 mag ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) (GaiaDR3)
-Mv(K0V)  =  5.91 mag ; median SIMBAD K0V d<25pc (N=38)
-Mv(K0V)  =   5.9  mag ; GrayCorbally09
-Mv(K0V)  =   5.9  mag ; Schmidt-Kaler82
-Mv(K0V)  =  5.87 mag ; anchor stan. sig Dra (slightly metal poor)
-Mv(K0V)  = 5.86 mag ; SIMBAD d<20pc trend for K stars V-Ks=1.95 (M_Ks=3.91)
-Mv(K0V)  = 5.85 mag ; median Mv K0V d<20pc XHIP
-Mv(K0V)  = 5.83 mag ; M_Ks=3.87 (median d<25pc; N=23) & V-K=1.953
-Mv(K0V)  =  5.78 mag ; exemplar HD 149661 = HR 6171 = 12 Oph = GJ 631 (solar)
-Mv(K0V)  = 5.78 mag ; Koen10 median d<25pc K0V
-Mv(K0V)  = 5.78 mag ; B-V=0.816 => CATSUP trend for d<30pc dwarfs
-Mv(K0V)  = 5.76 mag ; B-V=0.816 => Mv(Wright05)
-Mv(K0V)  = 5.75 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=0.816
-Mv(K0V)  = 5.74 mag ; M_Ks=3.7853 (trend for [Fe/H]=0.00) & (V-Ks)=1.958 (est. from B-V=0.818)
-Mv(K0V)  = 5.73 mag ; M_G=5.519 (trend for[Fe/H=0.00) & (G-V)=-0.21 
-Mv(K0V)  = 5.73 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.816
-Mv(K0V)  = 5.72 mag ; B-V=0.816 => EEM fit to SIMBAD dwarfs d<25pc
-Mv(K0V)  =  5.62 mag ; exemplar HD 10780 ([Fe/H]=+0.03)
-Mv(K0V)  = 5.62 mag ; ter stan. HD 284253 (Hyad; [Fe/H] ~ +0.2)
-Mv(K0V)  =  5.44 mag ; exemplar variant K0IV-V 55 Cnc = rho01 Cnc
-Mv(K0V)  =   5.32 mag ; Wegner07
+Mv(K0V) = 6.14 mag ; sec. stan. HD 224618 = LHS 552 ([Fe/H]=-0.76)
+Mv(K0V) =   6.13 mag ; Habets81
+Mv(K0V) =  6.06 mag ; exemplar HD 100623 = 20 Crt ([Fe/H]=-0.40)
+Mv(K0V) =  5.98 mag ; exemplar HD 39194 = GJ 9191 = HIP 27080 ([Fe/H]=-0.62) (GaiaDR3)
+Mv(K0V) =  5.96 mag ; exemplar HD 118972 = GJ 1175 ([Fe/H]=-0.03)
+Mv(K0V) =  5.91 mag ; median SIMBAD K0V d<25pc (N=38)
+Mv(K0V) =   5.9  mag ; GrayCorbally09
+Mv(K0V) =   5.9  mag ; Schmidt-Kaler82
+Mv(K0V) = 5.87 mag ; anchor stan. HD 185144 = sig Dra ([Fe/H]=-0.21)
+Mv(K0V) = 5.86 mag ; SIMBAD d<20pc trend for K stars V-Ks=1.95 (M_Ks=3.91)
+Mv(K0V) = 5.85 mag ; median Mv K0V d<20pc XHIP
+Mv(K0V) = 5.83 mag ; M_Ks=3.87 (median d<25pc; N=23) & V-K=1.953
+Mv(K0V) =  5.78 mag ; exemplar HD 149661 = HR 6171 = 12 Oph = GJ 631 (solar)
+Mv(K0V) = 5.78 mag ; Koen10 median d<25pc K0V
+Mv(K0V) = 5.78 mag ; B-V=0.816 => CATSUP trend for d<30pc dwarfs
+Mv(K0V) = 5.76 mag ; B-V=0.816 => Mv(Wright05)
+Mv(K0V) = 5.75 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=0.816
+Mv(K0V) = 5.74 mag ; M_Ks=3.7853 (trend for [Fe/H]=0.00) & (V-Ks)=1.958 (est. from B-V=0.818)
+Mv(K0V) = 5.73 mag ; M_G=5.519 (trend for[Fe/H=0.00) & (G-V)=-0.21 
+Mv(K0V) = 5.73 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.816
+Mv(K0V) = 5.72 mag ; B-V=0.816 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(K0V) =  5.62 mag ; exemplar HD 10780 ([Fe/H]=+0.03)
+Mv(K0V) = 5.62 mag ; ter. stan. HD 284253 = Cl Melotte 25 21 (Hyad; [Fe/H]=+0.16)
+Mv(K0V) =  5.44 mag ; exemplar variant K0IV-V 55 Cnc = rho01 Cnc
+Mv(K0V) =   5.32 mag ; Wegner07
 => adopt Mv(K0V)   = 5.74  mag [updated 8/15/2023] (M_G=5.53, G-V=-0.21)
 => adopt M_G(K0V)  = 5.53  mag [updated 8/15/2023] (Mv=5.74, G-V=-0.21)
 => adopt M_Ks(K0V) = 3.782 mag [updated 8/15/2023] (Mv=5.74, V-Ks=1.958)
 
-M_Ks(K0V) =  3.450  ; HD_145675_ plx=55.8657mas (K0V, Keenan89) (GaiaDR3) ([Fe/H]=+0.43)
-M_Ks(K0V) =  3.529  ; HD_21175_ plx=56.557mas (K0V, Torres06, Houk78) (GaiaDR3) ([Fe/H]=+0.11)
-M_Ks(K0V) =  3.643  ; HD_149806_ plx=49.2036mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=+0.23)
-M_Ks(K0V) =  3.665  ; HD_221354_ plx=59.3670mas (K0V, Gray03) (GaiaDR3)  ([Fe/H]=+0.03)
-M_Ks(K0V) =  3.739  ; HD_65430_ plx=41.6870mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=-0.09)
-M_Ks(K0V) = 3.745 ; ter. stan. ter stan. HD 284253 (plx=19.6756mas) K0V Hyad ([Fe/H]=+0.16)
-M_Ks(K0V) =  3.753  ; HD_38230_ plx=47.8551mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=-0.05)
-M_Ks(K0V) = 3.782 ; Mv=5.74, V-Ks=1.958 
-M_Ks(K0V) = 3.785 ; M_Ks trend for [Fe/H]=0.00 (see below)
-M_Ks(K0V) =  3.795  ; HD_72760_ plx=47.258mas (K0-V, Gray03) (GaiaDR3) ([Fe/H]=0.04)
-M_Ks(K0V) = 3.796 ; M_Ks predicted from SIMBAD d<25pc trend for M_G=5.519 (=> (G-Ks)=1.723)
-M_Ks(K0V) =  3.809  ; HD_870_ plx=48.4289mas (K0V, Gray06) (GaiaDR3) ([Fe/H]=-0.10)
-M_Ks(K0V) =  3.87  ; median N=23 K0V d<25pc
-M_Ks(K0V) =  3.951  ; HD_118972_ plx=63.7263mas (K0V, Gray06) (GaiaDR3) ([Fe/H]=-0.03)
-M_Ks(K0V) =  3.962  ; HD_135599_ plx=63.2139mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=-0.08)
-M_Ks(K0V) = 3.983  ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) 
-M_Ks(K0V) =  3.993  ; HD_216520_ plx=51.1561mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=-0.16)
+M_Ks(K0V) =  3.45 ; HD_145675_ plx=55.8657mas (K0V,Keenan89) (GaiaDR3) ([Fe/H]=+0.43)
+M_Ks(K0V) =  3.53 ; HD_21175_ plx=56.557mas (K0V,Torres06, Houk78) (GaiaDR3) ([Fe/H]=+0.11)
+M_Ks(K0V) =  3.64 ; HD_149806_ plx=49.2036mas (K0V,Gray03) (GaiaDR3) ([Fe/H]=+0.23)
+M_Ks(K0V) =  3.67 ; HD_221354_ plx=59.3670mas (K0V,Gray03) (GaiaDR3)  ([Fe/H]=+0.03)
+M_Ks(K0V) =  3.74 ; HD_65430_ plx=41.6870mas (K0V,Gray03) (GaiaDR3) ([Fe/H]=-0.09)
+M_Ks(K0V) = 3.75 ; ter. stan. HD 284253 (plx=19.6756mas) K0V Hyad ([Fe/H]=+0.16)
+M_Ks(K0V) =  3.75 ; HD_38230_ plx=47.8551mas (K0V,Gray03) (GaiaDR3) ([Fe/H]=-0.05)
+M_Ks(K0V) = 3.78 ; Mv=5.74, V-Ks=1.958 
+M_Ks(K0V) = 3.79 ; M_Ks trend for [Fe/H]=0.00 (see below)
+M_Ks(K0V) =  3.80 ; HD_72760_ plx=47.258mas (K0-V,Gray03) (GaiaDR3) ([Fe/H]=0.04)
+M_Ks(K0V) = 3.80 ; M_Ks predicted from SIMBAD d<25pc trend for M_G=5.519 (=> (G-Ks)=1.723)
+M_Ks(K0V) =  3.81 ; HD_870_ plx=48.4289mas (K0V,Gray06) (GaiaDR3) ([Fe/H]=-0.10)
+M_Ks(K0V) =  3.87 ; median N=23 K0V d<25pc
+M_Ks(K0V) = 3.95 ; exemplar HD 118972 = GJ 1175 ([Fe/H]=-0.03)
+M_Ks(K0V) =  3.96 ; HD_135599_ plx=63.2139mas (K0V,Gray03) (GaiaDR3) ([Fe/H]=-0.08)
+M_Ks(K0V) = 3.98 ; exemplar HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 ([Fe/H]=-0.62) 
+M_Ks(K0V) =  3.99 ; HD_216520_ plx=51.1561mas (K0V, Gray03) (GaiaDR3) ([Fe/H]=-0.16)
+M_Ks(K0V) = 4.12 ; exemplar HD 100623 = 20 Crt ([Fe/H]=-0.40) 
+M_Ks(K0V) = 4.17 ; sec. stan. HD 224618 = LHS 552 ([Fe/H]=-0.76)
 => adopt M_Ks(K0V) = 3.78 [updated 9/1/2023] 
 [EEM 8/15/2023: note that the standards and exemplars are all too bright and have poor 2MASS photometry,
 except the Hyad HD 284253. Trend: M_Ks=3.7853 - 0.7957*[Fe/H] (rms=0.105mag).
@@ -385,21 +424,21 @@ logL(K0V) = -0.324 dex ; Mv=5.74, BCv=-0.19 => Mbol = 5.55
 => adopt logL(K0V) = -0.324 dex [updated 8/15/2023]
 => adopt Mbol(K0V) =  5.550 mag [updated 8/15/2023]
 
-Rad(K0V) =   0.9520+-0.0210 Rsun ; HD 173701 (Boyajian13)
-Rad(K0V) =   0.9470+-0.0320 Rsun ; HD 3651 (Boyajian13)
-Rad(K0V) =   0.9434+-0.0101 Rsun ; HD 75732 (Boyajian13)
+Rad(K0V) =   0.9520 +-0.0210 Rsun ; HD 173701 (Boyajian13)
+Rad(K0V) =   0.9470 +-0.0320 Rsun ; HD 3651 (Boyajian13)
+Rad(K0V) =   0.9434 +-0.0101 Rsun ; HD 75732 (Boyajian13)
 Rad(K0V) =   0.879 Rsun ; Challouf14 calibration for Mv=5.78, M_Ks=3.827
 Rad(K0V) =   0.873 +- 0.024 Rsun ; ecl. binary HS Aur B (Popper86) 
-Rad(K0V) =  0.8329+-0.0029 Rsun. Rsun ; deprecated stan. 70 Oph A (see below) ([Fe/H]=+0.06)
+Rad(K0V) =  0.8329 +-0.0029 Rsun. Rsun ; deprecated stan. 70 Oph A (see below) ([Fe/H]=+0.06)
 Rad(K0V) =  0.824 +- 0.019 Rsun ; exemplar HD 10780 ([Fe/H]=+0.03) (see below)
 Rad(K0V) = 0.820 Rsun ; Teff=5290K, logL=-0.324
 Rad(K0V) =  0.8101 +-0.0045 Rsun ; HD 10476 (Boyajian13)
 Rad(K0V) =  0.7956 +- 0.0076 Rsun ; Boyajian12b (N=5)
-Rad(K0V) =  0.7891+-0.0144 Rsun ; HD 158633 (Boyajian13)
-Rad(K0V) =  0.778  +- 0.008 Rsun ; pri. stan. sig Dra (Yee17) ([Fe/H]=-0.21)
+Rad(K0V) =  0.7891 +-0.0144 Rsun ; HD 158633 (Boyajian13)
+Rad(K0V) =  0.778 +- 0.008 Rsun ; pri. stan. sig Dra (Yee17) ([Fe/H]=-0.21)
 Rad(K0V) =  0.772 Rsun ; exemplar HD 149661 = 12 Oph
-Rad(K0V) =  0.759  +- 0.012 Rsun ; exemplar HD 149661 = 12 Oph (Yee17)
-Rad(K0V) =   0.753+-0.01 Rsun ; non-standard Kepler-444 ([Fe/H]~-0.5, 11Gyr)
+Rad(K0V) =  0.759 +- 0.012 Rsun ; exemplar HD 149661 = 12 Oph (Yee17)
+Rad(K0V) =   0.753 +-0.01 Rsun ; non-standard Kepler-444 ([Fe/H]~-0.5, 11Gyr)
 => adopt Rad(K0V) = 0.813 Rsun [updated 8/29/2020]
 [EEM 9/1/2023: note that the radius for 70 Oph A is probably above that for the K0V
 mean as the star is slightly hotter (K0-V) and a tad more metal-rich ([Fe/H]=+0.06). 
@@ -408,13 +447,13 @@ Mass(K0V) = 0.925 Msun ; exemplar HD 75732 = 55 Cnc = GJ 324A (K0IV-V; [Fe/H]=+0
 Mass(K0V) =  0.888 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.76)
 Mass(K0V) = 0.887 Msun ; exemplar HD 10780 = GJ 75 = V987 Cas ([Fe/H]=+0.03) 
 Mass(K0V) = 0.881 Msun ; Eker18 calibration for logL=-0.324
-Mass(K0V) =  0.879+-0.017 Msun ; ecl. binary HS Aur B (Popper86) 
+Mass(K0V) =  0.879 +-0.017 Msun ; ecl. binary HS Aur B (Popper86) 
 Mass(K0V) = 0.865 Msun ; exemplar HD 149661 = 12 Oph = GJ 631 ([Fe/H]=+0.03)
 Mass(K0V) =  0.867 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.324)
 Mass(K0V) =  0.868 Msun ; Eker15 calibration for logL=-0.324
-Mass(K0V) = 0.861+-0.019 Msun ; trend for standards+exemplars for [Fe/H]=0.0
+Mass(K0V) = 0.861 +-0.019 Msun ; trend for standards+exemplars for [Fe/H]=0.0
 Mass(K0V) = 0.855 Msun ; Fernandes21 calibration for logL=-0.324
-Mass(K0V) = 0.816 Msun ; pri. stan. HD 185144 = sig Dra = GJ 764 ([Fe/H]=-0.21)
+Mass(K0V) = 0.84 +-0.02 Msun ; pri. stan. HD 185144 = sig Dra = GJ 764 ([Fe/H]=-0.21)
 Mass(K0V) = 0.815 Msun ; exemplar HD 118972 = GJ 1175 = HIP 66765 ([Fe/H]=-0.03)
 Mass(K0V) =  0.781 Msun ; Habets81
 Mass(K0V) = 0.777 Msun ; exemplar HD 100623 = 20 Crt = GJ 432A ([Fe/H]=-0.40) 
@@ -450,64 +489,88 @@ HD 185144 = sig Dra = GJ 764 = HR 7462 (J1932+6939)
   However, more recently Gray03 placed it 1 subtype hotter (G9V), and
   it is a tad bluer (~0.79) than median B-V colors for field K0V
   dwarfs (~0.818-0.846, depending on sample).  Apparently slightly
-  metal poor [Fe/H]=-0.2 (see below).  B-V(HIP)=0.786+-0.007,
+  metal poor [Fe/H]=-0.2 (see below). V(HIP)=4.67,
+  V=4.678+-0.010(Mermilliod91), B-V(HIP)=0.786+-0.007,
   B-V=0.786+-0.007(Mermilliod91), V-Ic(HIP)=0.85+-0.02,
-  U-B(Mermilliod91) = 0.386+-0.012. V(HIP)=4.67,
-  V=4.678+-0.010(Mermilliod91), Ks(2MASS) = 2.900+-0.324(poor). PASTEL
-  median values: <Teff> = 5265 K, [Fe/H] ~ -0.2. PASTEL compendium
-  averages from Soubiran22: Teff=5298+-14K, logg=4.52+-0.02,
-  [Fe/H]=-0.21+-0.01.  Mv=5.87. GaiaDR2: G=4.3838(raw),
-  G=4.451(corrected), B and R do not require correction.  G-V = 4.451
-  - 4.678 = -0.227+-0.011(GaiaDR2). Bp-Rp = 0.983, Bp-G = 0.430(corr),
-  G-Rp = 0.553(cor)(GaiaDR2). GaiaDR3: G=4.449041+-0.002939,
-  Bp-Rp=0.994315(GaiaDR3), Bp-G=0.410447(GaiaDR3),
-  G-Rp=0.583868(GaiaDR3) => (G-V) = 4.449041 - 4.678 =
-  -0.229(GaiaDR3). plx=173.2405+-0.2070mas(GaiaDR2),
-  plx=173.4939+-0.0748mas(GaiaDR3). To do: find ground near-IR
-  photometry, transfer to 2MASS.  Mass estimates:
+  U-B(Mermilliod91)=0.386+-0.012. Ks(2MASS) =
+  2.900+-0.324(poor). PASTEL median values: <Teff> = 5265 K, [Fe/H] ~
+  -0.2. PASTEL compendium averages from Soubiran22: Teff=5298+-14K,
+  logg=4.52+-0.02, [Fe/H]=-0.21+-0.01. Soubiran24: Teff=5289+-24K,
+  logg=4.56+-0.02, [Fe/H]=-0.21+-0.01.  Mv=5.87. GaiaDR2:
+  G=4.3838(raw), G=4.451(corrected), B and R do not require
+  correction.  G-V = 4.451 - 4.678 =
+  -0.227+-0.011(GaiaDR2). Bp-Rp=0.983, Bp-G=0.430(corr), G-Rp =
+  0.553(cor)(GaiaDR2).  GaiaDR3: plx=173.4939+-0.0748mas(GaiaDR3),
+  G=4.449041+-0.002939(GaiaDR3), Bp-Rp=0.994315(GaiaDR3),
+  Bp-G=0.410447(GaiaDR3), G-Rp=0.583868(GaiaDR3) => (G-V) = 4.449041 -
+  4.678 = -0.229(GaiaDR3). plx=173.2405+-0.2070mas(GaiaDR2),
+  plx=173.4939+-0.0748mas(GaiaDR3) => M_G=5.65, Mv=5.87.  To do: find
+  ground near-IR photometry, transfer to 2MASS.  Mass estimates:
   0.758+-0.042Msun(Valenti05#1), 0.7798+-0.0234Msun(Queiroz20),
   0.79+-0.10Msun(Luck17), 0.80+-0.025Msun(Valenti05_#2),
   0.803+-0.0295Msun(Takeda07), 0.81+-0.03Msun(Brewer16),
   0.82+-0.03Msun(Casagrande11_BASTI),
   0.82+-0.035Msun(Casagrande11_Padova), 0.8247+-0.0358Msun(Anders19),
   0.827+-0.027Msun(Ramirez13), 0.83+-0.02Msun(Maldonado19),
-  0.84+-0.05Msun(Yee17), 0.85+-0.02Msun(Ramirez12),
-  0.900+-0.113Msun(Stassun19) => adopt Mass = 0.816Msun (+-0.008 sem,
-  +-0.027(3.3%) stdev).
-
+  0.84+-0.05Msun(Yee17), 0.84+-0.02(Hon24), 0.85+-0.02Msun(Ramirez12),
+  0.900+-0.113Msun(Stassun19) => adopt the recent asteroseismic mass
+  from Hon24: 0.84+-0.02Msun. Luminosities and fbol:
+  Lbol=0.410+-0.006Lsun(Boyajian12),
+  Lbol=0.4261(0.4210,0.4311)Lsun(GaiaDR3/Flame),
+  Lbol=0.427Lsun(Eiroa13), Lbol=0.426+-0.002Lsun(Soubiran24),
+  fbol=(39.86+-0.60)e-11W/m2(vanBelle09) =>
+  mbol=4.5012+-0.0163(IAU2015scale),
+  fbol=3.898e-7mW/m2(Gonzalez-Hernandez09) =>
+  mbol=4.5254(IAU2015scale), fbol=3.95e-10W/m2(Freund18) =>
+  mbol=4.511(Freund18), fbol=(41.275+-0.173)e-11W/m2(Soubiran24) =>
+  mbol=4.4633+-0.0046(IAU2015scale),
+  fbol=(399.3+-0.056)e-12W/m2(Boyjain13) =>
+  mbol=4.4993+-0.0002mag(IAU2015).  Hon24 presents an
+  asteroseismological analysis using Keck/KPF spectra and TESS
+  photometry (https://arxiv.org/pdf/2407.21234), deriving an
+  age=4.54+-0.92(ran)+-1.23(sys) Gyr,
+  Mass=0.84+-0.01(ran)+-0.02(sys)Msun,
+  Rad=0.772+-0.005(ran)+-0.007(sys)Rsun,
+  Lum=0.42+-0.04(ran)+-0.01(sys), logg=4.589+-0.008(ran)+-0.003(sys).
+  
 # Secondary Standard
 
-HD 224618 = LHS 552 = BD-17_6856 = TYC 6405-775-1 = Gaia DR3 2415243733278993920 (J2359-1656)
+HD 224618 = LHS 552 = BD-17_6856 = G 266-20 = G 273-192 = TYC 6405-775-1 = Gaia DR3 2415243733278993920
   G6V: Adams35
- *K0V: Roman55,Cowley67,Keenan80(stan),Keenan83,KeenanYorka85,McNiel86,Keenan88,Keenan89(stan)
+ *K0V: Roman55,Cowley67,Keenan80(stan),Keenan83,KeenanYorka85,McNeil86,Keenan88,Keenan89(stan)
   K2: Bidelman85
 
   No published types since Keenan89, and fairly faint (V~9) for a
-  standard. Nice agreement among Roman, Cowley, Keenan, but
-  unfortunately it is very metal poor ([Fe/H]=-0.76; Soubiran22/PASTEL
-  mean), so its properties are not typical for field ~solar-ish thin
-  disk K0 dwarfs. Last star in Table III of Sandage87 on high velocity
-  metal-poor stars (estimates space velocity of 210 km/s!). For the
-  UVW listed in GCNS (U,V,W = -168.974, -104.878, W=4.015 km/s), I
-  estimate kinematic population membership probabilities of 1.6e-3%
-  (thin disk), 87.2% (thick disk), 12.8% (halo). Casagrande11
-  estimates alpha-richness of [a/Fe]=+0.23. So definitely not a thin
-  disk star, most likely a thich disk star, with small probability of
-  being a halo star. In Tycho but not Hipparcos catalog. V=8.90(TYC),
+  standard, and obscure enough that it was not included in Hipparcos
+  survey (other than Tycho). Nice agreement among Roman, Cowley,
+  Keenan, but unfortunately it is very metal poor ([Fe/H]=-0.76;
+  Soubiran22/PASTEL mean), so its properties are not typical for field
+  ~solar-ish thin disk K0 dwarfs. Last star in Table III of Sandage87
+  on high velocity metal-poor stars (estimates space velocity of 210
+  km/s!). For the UVW listed in GCNS (U,V,W = -168.974, -104.878,
+  W=4.015 km/s), I estimate kinematic population membership
+  probabilities of 1.6e-3% (thin disk), 87.2%(thick disk),
+  12.8%(halo). Casagrande11 estimates alpha-richness of
+  [a/Fe]=+0.23. So definitely not a thin disk star, most likely a
+  thich disk star, with small probability of being a halo star. In
+  Tycho but not Hipparcos catalog. V=8.90(TYC),
   V=8.925+-0.008(Mermilliod91), V=8.93(Ryan89), B-V=0.77(Ryan89),
   B-V=0.785+-0.032(TYC), B-V=0.773+-0.009(Mermilliod91),
   U-B=0.281+-0.011(Merilliod91), R-Ic=0.401+-0.003(Taylor05).
   J=7.471+-0.026(2MASS), H=7.069+-0.046(2MASS), Ks=6.955+-0.031(2MASS)
   => (V-Ks) = 8.925(Mermilliod91) - 6.955(2MASS) = 1.970.  PASTEL
-  medians: <Teff> = 5288K (N=2), logg=4.5+-0.2 (Tomkin99),
-  [Fe/H]=-0.76+-0.06(Tomkin99), [Fe/H] = -0.59 (Casagrande11).  PASTEL
+  medians: <Teff>=5288K(N=2), logg=4.5+-0.2(Tomkin99),
+  [Fe/H]=-0.76+-0.06(Tomkin99), [Fe/H]=-0.59(Casagrande11).  PASTEL
   compendium average values Sourbian22: Teff=5280+-62K,
-  logg=4.50+-0.20, [Fe/H]=-0.76+-0.06.  plx = 27.7992 +-
-  0.1044mas(GaiaDR2).  GaiaDR2 photometry does not to be corrected
-  following Evans18: G= 8.698, Bp= 9.127, Rp= 8.140, (Bp-Rp)= 0.988,
-  (Bp-G)= 0.430, (G-Rp)= 0.558. G-V = -0.227+-0.008.  plx =
-  27.7992+-0.1044(GaiaDR2). Mv = 6.145+-0.011(M91,GaiaDR2), M_G =
-  5.918. To do: add Gaia DR3 photometry. 
+  logg=4.50+-0.20, [Fe/H]=-0.76+-0.06. GaiaDR2:
+  plx=27.7992+-0.1044mas(GaiaDR2).  GaiaDR2 photometry does not to be
+  corrected following Evans18: G=8.698, Bp=9.127, Rp=8.140,
+  (Bp-Rp)=0.988, (Bp-G)= 0.430, (G-Rp)= 0.558. G-V = -0.227+-0.008.
+  GaiaDR3: plx=27.6724+-0.0280mas(GaiaDR3),
+  G=8.706769+-0.002760(GaiaDR3), E(Bp/Rp)=1.218(GaiaDR3),
+  Bp-Rp=0.979086(GaiaDR3), Bp-G=0.401223(GaiaDR3),
+  G-Rp=0.577863(GaiaDR3) => G-V = 8.706769(GaiaDR3) -
+  8.925(Mermilliod91) = -0.218, M_G=5.92, Mv=6.14, M_Ks=4.17.
 
 # Tertiary Standard
 
@@ -516,9 +579,9 @@ HD 284253 = Cl Melotte 25 21 = vB 21 = HIP 19934 = V984 Tau (J0416+2154)
   G9V: Joy49
  *K0V: Wilson62(K0),Morgan65,Corbally86(stan,Morgan65)
 
-  Hyades member, so [Fe/H] = +0.16(Liu16). BY Dra variable with variability
-  ~0.04 mag (VSX). Active star logR'HK=-4.454(Isaacson10), logLx/Lbol
-  = -4.73(Wright11), Prot=10.26dq(Wright11).  V=9.14(HIP),
+  Hyades member, so [Fe/H]=+0.16(Liu16). BY Dra variable with
+  variability ~0.04 mag (VSX). Active star logR'HK=-4.454(Isaacson10),
+  logLx/Lbol = -4.73(Wright11), Prot=10.26dq(Wright11).  V=9.14(HIP),
   V=9.145+-0.005(Mermilliod91), B-V=0.814+-0.004(Mermilliod91),
   B-V=0.813+-0.002(HIP), U-B=0.467+-0.074(Mermilliod91),
   Ks=7.275+-0.023(2MASS).  PASTEL: <Teff> = 5360K(N=6),
@@ -526,10 +589,10 @@ HD 284253 = Cl Melotte 25 21 = vB 21 = HIP 19934 = V984 Tau (J0416+2154)
   Teff=5320+-46K, logg=4.51+-0.05, [Fe/H]=+0.13+-0.03.  GaiaDR2:
   plx=19.5708+-0.0423mas, G=8.9230+-0.0004, E(BR/RP)=1.203,
   Bp-Rp=0.9786, Bp-G=0.4267, G-Rp=0.5519. G-V=8.9230 - 9.145 = -0.222.
-  GaiaDR3: G=8.929961+-0.002771.  plx=19.5708+-0.0423mas(GaiaDR2),
-  plx=19.6756+-0.0186mas(GaiaDR3) =>
-  Mv=5.615+-0.005(Mermilliod91,GaiaDR3), M_G=5.400+-0.003,
-  M_Ks=3.745+-0.023.
+  GaiaDR3: plx=19.6756+-0.0186mas(GaiaDR3),
+  G=8.929961+-0.002771(GaiaDR3), E(Bp/Rp)=1.211(GaiaDR3),
+  Bp-Rp=0.968884(GaiaDR3), Bp-G=0.400993(GaiaDR3),
+  G-Rp=0.567890(GaiaDR3) => M_G=5.40, Mv=5.62, M_Ks=3.75.
 
 # Variant Standard
 
@@ -655,24 +718,24 @@ HD 149661 = 12 Oph = GJ 631 = HR 6171 = HIP 81300 = V2133 Oph
   amplitude 0.04 mag (VSX), chromospherically active (logR'HK =
   -4.583; age ~ 1.0-1.9 Gyr; Mamajek08).  V=5.75(BSC),
   V=5.74(Johnson66), V=5.76(Cousins80), V=5.764+-0.017(Mermilliod91),
-  V=5.77(HIP), B-V=0.827+-0.012(Mermilliod91,HIP),
+  V=5.77(HIP) => V=5.764.  B-V=0.827+-0.012(Mermilliod91,HIP),
   B-V=0.81(Johnson66), U-B = 0.492+-0.027(Mermilliod91),
   U-B=0.45(Johnson66), V-Ic=0.87+-0.02(HIP), V-Ic=0.86(Cousins80),
-  R-Ic=0.405(Cousins80), V-Rc=0.455(Cousins80).  plx =
-  100.8111+-0.0788mas(GaiaDR2), plx=102.55+-0.40mas(HIP2).  Mv =
-  5.782+-0.017(M91,GaiaDR2).  G=5.5300+-0.0008, Bp-Rp=1.0102,
-  Bp-G=0.4552, G-Rp=0.5550 => corrected via Evans18 (only G needs
-  correcting) => G=5.551, Bp-Rp=1.010, Bp-G=0.434, G-Rp=0.576.  G-V =
-  5.551 - 5.764 = -0.213. PASTEL medians: <Teff> = 5264K(N=24), <logg>
-  = 4.55(N=20), <[Fe/H]> = +0.05(N=15). Soubiran22 PASTEL compendium
-  average: Teff=5262+-11K, logg=4.52+-0.02, [Fe/H]=+0.03+-0.01.
-  Boyajian12 measured limb darkened diameter tet_LD = 0.724+-0.011 mas
-  and fbol = (14.160+-0.090)e-8 erg/s/cm2 => IAU2015 mbol =
-  5.625+-0.007 => BCv = mbol - V = 5.625 - 5.764 = -0.139+-0.018.
-  Mass = 0.84 Msun(Ramirez12). plx=100.8111+-0.0788mas
-  (GaiaDR2). Boyajian12 diam & GaiaDR2 dist =>
-  0.772Rsun. R=0.759+-0.012Rsun(Yee17). Mass estimates:
-  0.48+-0.23Msun(Ghezzi10_#1), 0.83+-0.04Msun(Bensby18),
+  R-Ic=0.405(Cousins80), V-Rc=0.455(Cousins80). 2MASS photometry
+  flagged "DCD". plx = 100.8111+-0.0788mas(GaiaDR2),
+  plx=102.55+-0.40mas(HIP2).  Mv=5.782+-0.017(M91,GaiaDR2).
+  G=5.5300+-0.0008, Bp-Rp=1.0102, Bp-G=0.4552, G-Rp=0.5550 =>
+  corrected via Evans18 (only G needs correcting) => G=5.551,
+  Bp-Rp=1.010, Bp-G=0.434, G-Rp=0.576.  G-V = 5.551 - 5.764 =
+  -0.213. PASTEL medians: <Teff> = 5264K(N=24), <logg> = 4.55(N=20),
+  <[Fe/H]> = +0.05(N=15). Soubiran22 PASTEL compendium average:
+  Teff=5262+-11K, logg=4.52+-0.02, [Fe/H]=+0.03+-0.01.  Boyajian12
+  measured limb darkened diameter tet_LD = 0.724+-0.011 mas and fbol =
+  (14.160+-0.090)e-8 erg/s/cm2 => IAU2015 mbol = 5.625+-0.007 => BCv =
+  mbol - V = 5.625 - 5.764 = -0.139+-0.018.  Mass = 0.84
+  Msun(Ramirez12). plx=100.8111+-0.0788mas (GaiaDR2). Boyajian12 diam
+  & GaiaDR2 dist => 0.772Rsun. R=0.759+-0.012Rsun(Yee17). Mass
+  estimates: 0.48+-0.23Msun(Ghezzi10_#1), 0.83+-0.04Msun(Bensby18),
   0.84+-0.025Msun(Ramirez12), 0.8469+-0.0519Msun(Anders19),
   0.85+-0.03Msun(Casagrande11_BASTI), 0.85+-0.03Msun(Yee17),
   0.853+-0.082Msun(Valenti05_#1), 0.859+-0.0265Msun(Ramirez13),
@@ -680,7 +743,10 @@ HD 149661 = 12 Oph = GJ 631 = HR 6171 = HIP 81300 = V2133 Oph
   0.89+-0.02Msun(Luck17), 0.892+-0.0395Msun(Takeda07),
   0.90+-0.10Msun(Ghezzi10_#2), 0.91+-0.01Msun(Maldonado19),
   0.910+-0.114Msun(Stassun19) => Mass = 0.865Msun (+-0.011 sem,
-  +-0.032(3.7%) stdev).
+  +-0.032(3.7%) stdev). GaiaDR3: plx=101.0719+-0.0501mas(GaiaDR3),
+  G=5.553552+-0.002787(GaiaDR3), E(Bp/Rp)=1.224(GaiaDR3),
+  Bp-Rp=1.014609(GaiaDR3), Bp-G=0.417069(GaiaDR3),
+  G-Rp=0.597540(GaiaDR3) => M_G=5.58, Mv=5.79.
 
 HD 10780 = GJ 75 = V987 Cas = HR 511 = HIP 8362 = HR 511 = LHS 1297 = SPOCS 99 = WDS J01477+6351A = Gaia DR3 512167948043650816
   G5V: 1932MeUpp..55....1S 
@@ -692,8 +758,7 @@ HD 10780 = GJ 75 = V987 Cas = HR 511 = HIP 8362 = HR 511 = LHS 1297 = SPOCS 99 =
   roughly solar metallicity. Among "K0V" stars in Bright Star Catalog
   (Hoffleit91), this is the 4th brightest, but the brightest whose
   consensus type seems to be K0V *and* with near-solar metallicity.
-  PASTEL: <Teff> = 5350K(N=26), <[Fe/H]>=+0.03(N=17).  Soubiran22
-  PASTEL compendium averages: 5358+-11K, logg=4.48+-0.03,
+  Soubiran22 PASTEL compendium averages: 5358+-11K, logg=4.48+-0.03,
   [Fe/H]=+0.03+-0.02.  V=5.63(HIP), V=5.631+-0.011(Mermilliod91),
   B-V=0.804+-0.010(HIP), B-V=0.804+-0.010(Mermilliod91),
   V-I=0.81(HIP).  plx=99.5746+-0.0595mas(GaiaDR2) =>
@@ -708,7 +773,10 @@ HD 10780 = GJ 75 = V987 Cas = HR 511 = HIP 8362 = HR 511 = LHS 1297 = SPOCS 99 =
   0.89+-0.035Msun(Casagrande11_Padova), 0.89+-0.12Msun(Luck17),
   0.897+-0.032Msun(*Ramirez13), 0.90+-0.03Msun(Brewer16),
   0.90+-0.04Msun(Yee17), 0.920+-0.119Msun(Stassun19) => Mass =
-  0.887Msun (+-0.006 sem, +-0.018(2.0%) stdev).
+  0.887Msun (+-0.006 sem, +-0.018(2.0%) stdev).  GaiaDR3:
+  plx=99.5902+-0.0438mas(GaiaDR3), G=5.410397+-0.002788(GaiaDR3),
+  E(Bp/Rp)=1.211(GaiaDR3), Bp-Rp=0.971028(GaiaDR3),
+  Bp-G=0.402607(GaiaDR3), G-Rp=0.568421(GaiaDR3) => M_G=5.40, Mv=5.62.
 
 HD 75732 = 55 Cnc = GJ 324A = Copernicus = rho01 Cnc = rho Cnc = HR 3522 = LHS 2062 = TOI-1773 = WDS J08526+2820A = Gaia DR3 704967037090946688 
   G8V: Cowley67
@@ -753,20 +821,26 @@ HD 100623 = 20 Crt = GJ 432A = HIP 56452 = HR 4458 = LHS 308 = LDS 6245 = WDS J1
   B-V=0.813+-0.007(Mermilliod91), B-V=0.811+-0.007(HIP),
   U-B=0.342+-0.015(Mermilliod91), R-Ic=0.425(Cousins80),
   V-Ic=0.875(Cousins80),
-  V-Rc=0.45(Cousins80). Ks=4.022+-0.036(2MASS,qual=E).  PASTEL: <Teff>
-  = 5165K(N=9), <logg>=4.585(N=8), <[Fe/H]> = -0.38(N=8). Soubiran22
-  compendium averages: Teff=5196+-23K, logg=4.60+-0.04,
-  [Fe/H]=-0.40+-0.02.  GaiaDR2: plx=104.7828+-0.0518mas,
-  G=5.7194+-0.0005, E(BR/RP)=1.189, Bp-Rp=1.0025, Bp-G=0.4532,
-  G-Rp=0.5492.  Mv=6.065+-0.007, M_G=5.821+-0.001, G-V = 5.7194 -
-  5.964 = -0.245. Mass estimates: 0.74+-0.01Msun(Maldonado19),
-  0.74+-0.025Msun(Bensby18), 0.75+-0.04Msun(Yee17),
-  0.76+-0.02Msun(Brewer16), 0.77+-0.025Msun(Ramirez12),
-  0.77+-0.03Msun(Valenti05_#2), 0.774+-0.026Msun(*Ramirez13),
-  0.7790+-0.0343Msun(Anders19), 0.78+-0.03Msun(Casagrande11_BASTI),
+  V-Rc=0.45(Cousins80). Ks=4.022+-0.036(2MASS,qual=E).  PASTEL:
+  <Teff>=5165K(N=9), <logg>=4.585(N=8),
+  <[Fe/H]>=-0.38(N=8). Soubiran22 compendium averages: Teff=5196+-23K,
+  logg=4.60+-0.04, [Fe/H]=-0.40+-0.02.  GaiaDR2:
+  plx=104.7828+-0.0518mas(GaiaDR2), G=5.7194+-0.0005(GaiaDR2),
+  E(BR/RP)=1.189(GaiaDR2), Bp-Rp=1.0025(GaiaDR2),
+  Bp-G=0.4532(GaiaDR2), G-Rp=0.5492(GaiaDR2).  Mv=6.065+-0.007,
+  M_G=5.821+-0.001, G-V = 5.7194 - 5.964 = -0.245(GaiaDR2). Mass
+  estimates: 0.74+-0.01Msun(Maldonado19), 0.74+-0.025Msun(Bensby18),
+  0.75+-0.04Msun(Yee17), 0.76+-0.02Msun(Brewer16),
+  0.77+-0.025Msun(Ramirez12), 0.77+-0.03Msun(Valenti05_#2),
+  0.774+-0.026Msun(*Ramirez13), 0.7790+-0.0343Msun(Anders19),
+  0.78+-0.03Msun(Casagrande11_BASTI),
   0.79+-0.025Msun(Casagrande11_Padova), 0.805+-0.029Msun(Takeda07),
   0.870+-0.109Msun(Stassun19), 0.960+-0.130Msun(Valenti05_#1) => Mass
-  = 0.777Msun (+-0.007 sem, +-0.043(5.5%) stdev).
+  = 0.777Msun (+-0.007 sem, +-0.043(5.5%) stdev).  GaiaDR3:
+  plx=104.6133+-0.0277mas(GaiaDR3), G=5.738324+-0.002773(GaiaDR3),
+  E(Bp/Rp)=1.218(GaiaDR3), Bp-Rp=1.004029(GaiaDR3),
+  Bp-G=0.415874(GaiaDR3), G-Rp=0.588155(GaiaDR3) => M_G=5.84, Mv=6.06,
+  M_Ks=4.12.
 
 HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 = LHS 210 = Gaia DR3 4657193606465368704
  *K0V: 1961AcA....11...59P,Evans61,Przyblski65,Gray06
@@ -776,13 +850,12 @@ HD 39194 = GJ 9191 = GJ 217.2 = HIP 27080 = LHS 210 = Gaia DR3 46571936064653687
   ([Fe/H]=-0.62;Soubiran22), alpha-rich
   ([C/Fe]=+0.341+-0.049;DelgadoMena21), main sequence
   ([Fe/H]=4.54;Soubiran22), thick disk (delaReza23) star with three
-  known close-in exoplanets (Unger21). One of the few multi-planet
-  systems known with a well-determi[Fe/H]<-0.6 in NASA Exoplanet
-  Archive. Star is in the foreground vicinity (and to the south of)
-  LMC (J0544-7008) in constellation Mensa, with very high number of
-  GaiaDR3 sources.  If you query the J2000 position for the GaiaDR3
-  entry, it is the 51st entry 20.4" away (proper motion is 1.833"/yr).
-  V=8.075(Cousins80), V=8.086784(GaiaDR3/synth), V=8.09(HIP/TYC),
+  known close-in exoplanets (Unger21). Star is in the foreground
+  vicinity (and to the south of) LMC (J0544-7008) in constellation
+  Mensa, with very high number of GaiaDR3 sources.  If you query the
+  J2000 position for the GaiaDR3 entry, it is the 51st entry 20.4"
+  away (proper motion is 1.833"/yr).  V=8.075(Cousins80),
+  V=8.086784(GaiaDR3/synth), V=8.09(HIP/TYC),
   V=8.094+-0.014(Mermilliod91), B-V=0.760+-0.007(HIP),
   B-V=0.758+-0.004(Mermilliod91), U-B=0.279+-0.010(Mermilliod91),
   V-Rc=0.425(Cousins80), R-Ic=0.415(Cousins80), V-Ic=0.84(Cousins80),
@@ -824,8 +897,11 @@ HD 118972 = GJ 1175 = HIP 66765 = NLTT 34858 = 2MASS J13410416-3427507 = SPOCS 5
   0.81+-0.025Msun(Ramirez12), 0.82+-0.03Msun(Casagrande11_BASTI),
   0.8239+-0.0377Msun(Anders19), 0.83+-0.03Msun(Casagrande11_Padova),
   0.84+-0.03Msun(Valenti05_#2), 0.890+-0.111Msun(Stassun19) => Mass =
-  0.815Msun (+-0.012 sem, +-0.031(3.8%) stdev).
-
+  0.815Msun (+-0.012 sem, +-0.031(3.8%) stdev).  GaiaDR3:
+  plx=63.7263+-0.0291mas(GaiaDR3), G=6.697680+-0.002816(GaiaDR3),
+  E(Bp/Rp)=1.219(GaiaDR3), Bp-Rp=1.022069(GaiaDR3),
+  Bp-G=0.425300(GaiaDR3), G-Rp=0.596770(GaiaDR3) => Mv=5.96, M_G=5.72,
+  M_Ks=3.95.
 
 # Other Stars
 
