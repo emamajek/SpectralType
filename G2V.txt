@@ -106,11 +106,13 @@ G5V.
 (B-V)(G2V) =  0.640 ; median SIMBAD G2V d<25pc (N=21)
 (B-V)(G2V) =  0.640 ; solar twin HD 216008 = HIP 112730 ([Fe/H]=-0.03)   
 (B-V)(G2V) =  0.642 ; solar twin HD 195034 = HIP 100963 ([Fe/H]=-0.003)
+(B-V)(G2V) =  0.642 +-0.004 ; CayreldeStrobel96 (Sun) 
+(B-V)(G2V) =   0.642 +-0.016 ; Holmberg06 (Sun) 
 (B-V)(G2V) =  0.647 ; 48 Gray01/03/06 G2V (+-0.003 sem, +-0.035 stdev)
 (B-V)(G2V) =  0.647 ; solar twin HD 101364 = HIP 56948 ([Fe/H]=+0.02, logg=4.45)
 (B-V)(G2V) =  0.647 ; solar twin HD 88072 = HIP 49756 ([Fe/H]=+0.03) 
 (B-V)(G2V) =  0.648 ; solar twin HD 9986 = HIP 7585 ([Fe/H]=+0.09)
-(B-V)(G2V) =  0.648 +-0.006 ; Sun (Gray95) 
+(B-V)(G2V) =  0.648 +-0.006 ; Gray95 (Sun) 
 (B-V)(G2V) =   0.65  ; Johnson66
 (B-V)(G2V) =   0.65 ; HD_210918_ G2V plx=45.9146mas, Mv=4.5397
 (B-V)(G2V) =  0.650 +-0.005 ; Sun (Neckel86) 
@@ -150,12 +152,15 @@ to be somewhat redder than that for the other standards.
 => adopt (H-Ks)(G2V) = 0.073
 => adopt (J-H)(G2V)  = 0.293
 
+(Bt-Vt)(G2V) = 0.708 +-0.030 ; Holmberg06 (Sun; Tycho) 
+
 (U-B)(G2V) = 0.090 ; solar twin HD 166435 = HIP 88945 ([Fe/H]=-0.01) 
 (U-B)(G2V) =  0.100 ; HIP d<75pc S/N>8 G2V N=107 (Mermilliod91 photometry, but Houk types nearer G0V?)
 (U-B)(G2V) = 0.112 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
 (U-B)(G2V) = 0.156 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.650
 (U-B)(G2V) = 0.158 ; Ramirez05 color for Sun (+-0.009; line-depth ratios)
 (U-B)(G2V) =  0.16 ; JohnsonMorgan53,Johnson66,Johnson68
+(U-B)(G2V) =  0.173 +-0.064 ; Holmberg06 (Sun)
 (U-B)(G2V) = 0.174 ; sec. stan. HD 146233 = 18 Sco = GJ 616 ([Fe/H]=+0.03)
 (U-B)(G2V) = 0.212 ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
 => adopt (U-B)(G2V) = 0.156 [updated 12/1/2023]
@@ -164,30 +169,38 @@ to be somewhat redder than that for the other standards.
 (V-Rc)(G2V) =   0.348 ; HIP 15442 (Koen10)
 (V-Rc)(G2V) =  0.353 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (V-Rc)(G2V) =  0.354 ; trend B-V vs V-Rc trend for B-V=0.65
+(V-Rc)(G2V) =  0.354 +-0.010 ; Holmberg06 (Sun; Johnson-Cousins)
 (V-Rc)(G2V) =  0.355 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
-(V-Rc)(G2V) = 0.355 ; V-Ic=0.689, R-Ic=0.334 (see fits to [Fe/H]=0.00 below)
+(V-Rc)(G2V) = 0.355 ; V-Ic=0.690, R-Ic=0.335 (see fits to [Fe/H]=0.00 below)
 (V-Rc)(G2V) =  0.36  ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
 (V-Rc)(G2V) =  0.361 ; fit to GCPD/Cousins BVRc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.65
 (V-Rc)(G2V) =  0.362 ; exemplar HD 128620 = alf Cen A = GJ 559A ([Fe/H]=+0.22)
 (V-Rc)(G2V) =  0.363 ; Johnson68 V-Rj=0.53 transformed to V-Rc via Fernie83
 (V-Rc)(G2V) =  0.366 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44) 
-=> adopt (V-Rc)(G2V) = 0.355 [updated 4/1/2024; R-Ic=0.334, V-Ic=0.689]
+=> adopt (V-Rc)(G2V) = 0.355 [updated 8/15/2024; R-Ic=0.335, V-Ic=0.690]
 
 (R-Ij)(G2V) = 0.33  ; Johnson68
 
 (R-Ic)(G2V) = 0.33  ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
 (R-Ic)(G2V) = 0.331 ; exemplar HD 128620 = alf Cen A = GJ 559A ([Fe/H]=+0.22)
+(R-Ic)(G2V) = 0.332 +-0.008 ; Holmberg06 (Sun, Cousins RI)
+(R-Ic)(G2V) = 0.334 +-0.002 ; EEM fit to 2 standards, 1 solar twin, 1 exemplar: (R-Ic)(G2V)=0.334-0.0185*[Fe/H] (rms=0.002mag)
 (R-Ic)(G2V) = 0.335 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (R-Ic)(G2V) = 0.335 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
-(R-Ic)(G2V) = 0.338 ; Sun (Gray95) 
+(R-Ic)(G2V) = 0.335 +-0.002 ; Taylor97 (Sun, via multiple methods, quoted in Taylor08)
+(R-Ic)(G2V) = 0.337 +-0.004 ; BessellNorris84 (Sun, via solar twins; quoted in Taylor08)
+(R-Ic)(G2V) = 0.337 +-0.006 ; Campins85 (Sun, via solar twins; quoted in Taylor08)
+(R-Ic)(G2V) = 0.338 +-0.002 ; Gray95 (Sun, via line depth ratios; quoted in Taylor08)
 (R-Ic)(G2V) = 0.343 ; B-V vs R-Ic trend for B-V=0.650
+(R-Ic)(G2V) = 0.355 +-0.019 ; Taylor08 (Sun, "augmented Taylor97" - see their notes)
 (R-Ic)(G2V) = 0.364 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
-=> adopt (R-Ic)(G2V) = 0.334 [updated 4/1/2024; V-Rc=0.355; V-Ic=0.689]
-[EEM 4/1/2024: fit to two standard, one solar twin & exemplar: (R-Ic)(G2V) = 0.334 - 0.0185*[Fe/H] (rms=0.002mag!)
+=> adopt (R-Ic)(G2V) = 0.335 [updated 8/15/2024; V-Rc=0.355; V-Ic=0.690]
 
 (V-Ic)(G2V) = 0.677 ; Johnson68 V-Ij=0.86 transformed to V-Ic via Fernie83
 (V-Ic)(G2V) =  0.68  ; Bessell88
 (V-Ic)(G2V) = 0.688 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
+(V-Ic)(G2V) =  0.688 +-0.014 ; Holmberg06 (Sun; Johnson-Cousins)
+(V-Ic)(G2V) = 0.689 ; EEM fit to 2 standards, 1 solar twin, 1 exemplar(a Cen A): (V-Ic)(G2V)=0.689+0.01417*[Fe/H] (rms=0.0016)
 (V-Ic)(G2V) = 0.690 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
 (V-Ic)(G2V) = 0.69  ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
 (V-Ic)(G2V) = 0.692 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.65 
@@ -198,12 +211,11 @@ to be somewhat redder than that for the other standards.
 (V-Ic)(G2V) = 0.706 ; Gray01/03/06 N=48 G2Vs (+-0.005 sem, +-0.024 stdev)
 (V-Ic)(G2V) =  0.71 ; solar twin HD 9986 = HIP 7585 (from Gray03) ([Fe/H]=+0.09)
 (V-Ic)(G2V) = 0.730 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)  
-=> adopt (V-Ic)(G2V) = 0.689 [updated 4/1/2024; V-Rc=0.355, R-Ic=0.334]
-[EEM fit to 2 standards, 1 solar twin + exemplar alf Cen A:
-(V-Ic)(G2V) = 0.689 + 0.01417*[Fe/H] (rms=0.0016!)]
+=> adopt (V-Ic)(G2V) = 0.690 [updated 8/15/2024; V-Rc=0.355, R-Ic=0.335]
 
 (V-Jj)(G2V) = 1.10 ; Johnson66,Johnson68
 
+(V-J)(G2V) = 1.151 +-0.035 ; Holmberg06 (Sun; Johnson-2MASS) 
 (V-J)(G2V) = 1.157 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (V-J)(G2V) = 1.187 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
 
@@ -211,6 +223,7 @@ to be somewhat redder than that for the other standards.
 
 (V-Hj)(G2V) = 1.40 ; Johnson68
 
+(V-H)(G2V) = 1.409 +-0.035 ; Holmberg06 (Sun; Johnson-2MASS) 
 (V-H)(G2V) = 1.415 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
 (V-H)(G2V) = 1.419 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 
@@ -222,6 +235,7 @@ to be somewhat redder than that for the other standards.
 
 (V-Ks)(G2V) =  1.502 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
 (V-Ks)(G2V) =   1.504 ; Bessell88(Glass->2MASS)
+(V-Ks)(G2V) =   1.505 +-0.041 ; Holmberg06 (Sun; Johnson-2MASS) 
 (V-Ks)(G2V) = 1.508 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (V-Ks)(G2V) =  1.511 ; solar twin HD 195034 = HIP 100963 ([Fe/H]=-0.003)
 (V-Ks)(G2V) =  1.515 ; solar twin HD 101364 = HIP 56948 ([Fe/H]=+0.02, logg=4.45)
@@ -272,6 +286,15 @@ to be somewhat redder than that for the other standards.
 
 (W1-W4)(G2V) =  0.039 +-0.077 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
 
+(b-y)(G2V) = 0.403 +-0.013 ; Holmberg06 (Sun; Stromgren)
+(b-y)(G2V) = 0.404 +-0.005 ; CayreldeStrobel96 (Sun; Stromgren)
+
+(v-y)(G2V) = 1.011 +-0.035 ; Holmberg06 (Sun; Stromgren)
+
+(v-b)(G2V) = 0.609 +-0.023 ; Holmberg06 (Sun; Stromgren)
+
+(u-v)(G2V) = 0.979 +-0.064 ; Holmberg06 (Sun; Stromgren)
+
 (u-g)(G2V)   = 1.213 ; Sun - Fukugita11(Thullier03/SED)
 (u-g)(G2V)   = 1.22  ; Fukugita11
 (u-g)(G2V)   = 1.23  ; Kesseli17 
@@ -279,6 +302,7 @@ to be somewhat redder than that for the other standards.
 (u'-g')(G2V) = 1.327 ; Smith02 u'-g' calibration for U-B=0.156
 (u'-g')(G2V) = 1.355 ; Fukugita96 u'-g' calibration for U-B=0.156
 (u-g)(G2V)   = 1.37  ; Covey07
+(u-g)(G2V)   = 1.40 +-0.08 ; Holmberg06 (Sun; SDSS) 
 (u-g)(G2V)   = 1.43 +-0.05 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
 => adopt (u-g)(G2V) = 1.28 [updated 6/20/2024] (surprisingly large scatter!)
 
@@ -288,6 +312,7 @@ to be somewhat redder than that for the other standards.
 (g-r)(G2V) = 0.44 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
 (g-r)(G2V) = 0.441 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
 (g-r)(G2V) = 0.45  ; Covey07
+(g-r)(G2V) = 0.45 +-0.02 ; Holmberg06 (Sun; SDSS) 
 (g-r)(G2V) = 0.451 ; Sun - Fukugita11(Thullier03/SED)
 (g-r)(G2V) = 0.453 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (g-r)(G2V) = 0.463 ; Just08/Chonis08 B-V=>g-r for B-V=0.650
@@ -295,7 +320,7 @@ to be somewhat redder than that for the other standards.
 (g-r)(G2V) = 0.477 ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
 (g-r)(G2V) = 0.479 ; Bilir05 (B-V)=>(g-r) for B-V=0.650
 (g-r)(G2V) = 0.479 ; Sun - Fukugita11(Colina96/SED) 
-=> adopt (g-r)(G2V) = 0.45 [updated 6/20/2024] 
+=> adopt (g-r)(G2V) = 0.45 [updated 8/15/2024] 
 
 (r-i)(G2V) = 0.106 ; Sun - Fukugita11(Colina96/SED) 
 (r-i)(G2V) = 0.108 ; ter. stan. HD 76151 = GJ 327 = HIP 43726 ([Fe/H]=+0.10)
@@ -303,6 +328,7 @@ to be somewhat redder than that for the other standards.
 (r-i)(G2V) = 0.11 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT 
 (r-i)(G2V) = 0.112 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (r-i)(G2V) = 0.12  ; Fukugita11
+(r-i)(G2V) = 0.12  ; Holmberg06 (Sun; SDSS) 
 (r-i)(G2V) = 0.124 ; Bilir05 calibration for R-Ic=0.334
 (r-i)(G2V) = 0.127 ; Sun - Fukugita11(Thuillier03/SED)
 (r-i)(G2V) = 0.15  ; Kesseli17 
@@ -311,6 +337,7 @@ to be somewhat redder than that for the other standards.
 
 (i-z)(G2V) = 0.07  ; Kesseli17 
 (i-z)(G2V) = 0.04  ; Covey07
+(i-z)(G2V) = 0.04 +-0.02 ; Holmberg06 (Sun; SDSS) 
 (i-z)(G2V) = 0.03 +-0.02 ; Sun https://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp?key=sdss2UBVRIT
 (i-z)(G2V) = 0.020 ; Sun - Fukugita11(Colina96/SED)
 (i-z)(G2V) = 0.015 ; Sun - Fukugita11(Thuillier03/SED)
@@ -370,7 +397,7 @@ to be somewhat redder than that for the other standards.
 (Bp-Rp)(G2V) = 0.813 ; Sun synthetic GaiaDR3 (Gaia Collaboration+Creevey+22)
 (Bp-Rp)(G2V) = 0.808 ; solar twin HD 101364 = HIP 56948 (GaiaDR3) ([Fe/H]=+0.02, logg=4.45)
 (Bp-Rp)(G2V) = 0.807 ; solar twin HD 88072 = HIP 49756 (GaiaDR3) ([Fe/H]=+0.03) 
-=> adopt (Bp-Rp)(G2V) = 0.817 [updated 8/1/2024] (GaiaDR3)
+=> adopt (Bp-Rp)(G2V) = 0.816 [updated 9/13/2024] (Bp-G=0.326, G-Rp=0.490) (GaiaDR3)
 
 (G-T)(G2V) = 0.428 ; calculated G_GaiaDR2 - T_TESS following Stassun19 for (Bp-Rp)=0.815
 => (G-T)(G2V) = 0.428 [updated 10/8/2023] (GaiaDR2)
@@ -395,7 +422,7 @@ to be somewhat redder than that for the other standards.
 (Bp-G)(G2V) = 0.327 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03) (GaiaDR3)
 (Bp-G)(G2V) = 0.329 ; solar twin HD 124523 = HIP 69645 (GaiaDR3) ([Fe/H]=-0.03, logg=4.45)
 (Bp-G)(G2V) = 0.329 ; ter. stan. HD 76151 = HR 3538 (GaiaDR3)
-=> adopt (Bp-G)(G2V) = 0.326 [updated 8/1/2024] (GaiaDR3)
+=> adopt (Bp-G)(G2V) = 0.326 [updated 9/13/2024] (Bp-Rp=0.816, G-Rp=0.490) (GaiaDR3) 
 
 (G-Rp)(G2V) = 0.436 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03) (GaiaDR2)
 (G-Rp)(G2V) = 0.462 ; solar twin HD 88072 = HIP 49756 (GaiaDR2) ([Fe/H]=+0.03)
@@ -416,7 +443,7 @@ to be somewhat redder than that for the other standards.
 (G-Rp)(G2V) = 0.495 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44) 
 (G-Rp)(G2V) = 0.496 ; ter. stan. HD 76151 = HR 3538 (GaiaDR3)
 (G-Rp)(G2V) = 0.498 ; solar twin HD 124523 = HIP 69645 (GaiaDR3) ([Fe/H]=-0.03, logg=4.45)
-=> adopt (G-Rp)(G2V) = 0.490 [updated 8/1/2024] (GaiaDR3)
+=> adopt (G-Rp)(G2V) = 0.490 [updated 9/13/2024] (Bp-Rp=0.816, Bp-G=0.326) (GaiaDR3)
 
 Teff(G2V) =   5710 K ; GrayCorbally94
 Teff(G2V) = 5748 K ; 23 Teffs for "G2 V" stars in Gray06
@@ -624,7 +651,8 @@ Sun = GJ 0
 
 HD 146233 = 18 Sco = GJ 616 = HR 6060 = HIP 79672 
   G1V: Adams35, Cowley67
- *G2Va: Harlan74(G2V),Cowley79(G2V),Keenan80(G2Va),KeenanYorka85(G2Va),Keenan88(G2Va,stan),Gray03(G2V)
+  G2V: Harlan74(G2V),Cowley79(G2V),Gray03(G2V)
+ *G2Va: Keenan80(G2Va),Keenan83(G2Va),KeenanYorka85(G2Va),Keenan88(G2Va,stan),Keenan89(G2Va,stan)
   G3: Bidelman85
 
   Well-studied "solar twin", and as such can probably be considered a
@@ -1275,7 +1303,7 @@ HD 44594 = HR 2290 = HIP 30104
    [Fe/H]=0.04+-0.07(Bond06), 0.15+-0.01(Sousa08),
    0.15+-0.03(Valenti05), so slightly metal-rich.
 
-HD 45184 = HR 2318 = GJ 3394
+HD 45184 = HIP 30503 = HR 2318 = GJ 3394
    G0V: Boss37(G0),Oblak82(photometric)
   *G1.5V: Gray06
    G2Va: Houk82(G2V),Keenan88,Keenan99

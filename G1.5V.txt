@@ -51,7 +51,7 @@ BCv(G1.5V) = -0.071 [last updated 8/3/2018, on scale where BCv(5772K)=-0.08]
 logg(G1.5V) = 4.393 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5830K (see G0V.txt)
 => adopt logg(G1.5V) = 4.39 [updated 9/15/2023]
 
-# Standards
+# Primary Standard
 
 HD 186408 = 16 Cyg A = HR 7503 = "16 Cyg prec."
  *G1.5Vb: KeenanYorka85(stan),Keenan89
@@ -70,6 +70,8 @@ HD 186408 = 16 Cyg A = HR 7503 = "16 Cyg prec."
   M=1.06+-0.03Msun, L=1.40+-0.11Lsun, Age=7.43+-0.54Gyr.  Mass
   estimates: 1.06+-0.03Msun(Metcalfe23).
 
+# Secondary Standards
+
 HD 20619 = GJ 136 = HIP 15442 = BD-03 534 = NLTT 10564 = SPOCS 160 = Gaia DR3 3261878613062758144
  *G1.5V: KeenanYorka85(stan),Keenan89(stan),Keenan99
   G2V: Wilson50,Gray03
@@ -84,14 +86,29 @@ HD 20619 = GJ 136 = HIP 15442 = BD-03 534 = NLTT 10564 = SPOCS 160 = Gaia DR3 32
   Soubiran22/PASTEL mean values: Teff=5728+-14K(N=15),
   logg=4.47+-0.04(N=12), [Fe/H]=-0.22+-0.02(N=13).
 
-HD 53705 = HIP 34069 = HR 2667
-  G1.5V: Keenan99
+HD 53705 = HIP 34065 = GJ 9223A = GJ 264.1A = HR 2667 = CD-43 2906 = WDS J07040-4337A = Gaia DR3 5559265690666326016
+  G0V: Gray06
+ *G1.5V: Keenan88(stan),Keenan89(stan),Keenan99(stan)
+  G3V: Evans59,Houk78
+  G4: Bidelman85
 
-HD 34411
-  G1.5IV-V Fe-1: Keenan85G
+  In 21" pair with HD 53706. Surprisingly wide range of published
+  types.  Soubiran22 mean values: Teff=5790+-15K(N=13),
+  logg=4.33+-0.04(N=9), [Fe/H]=-0.22+-0.03(N=10).
 
-HD 89010
-  G1.5IV-V: KeenanYorka85(stan)
+# Variant Standard
+
+HD 89010 = 35 Leo = HIP 50319 = HR 4030 = STF 4018B = WDS J10167+2325B = Gaia DR3 725469767850488064 
+  G0:IV/V:: Maury1897
+  G1IV-V: Keenan80(stan),Keenan83(stan)
+ *G1.5IV-V: KeenanYorka85(stan),Keenan99(stan)
+  G2V: Adams35,Sato90
+  G2IV: Harlan69,Cowley79
+
+  Soubiran22 mean values: Teff=5676+-15K(N=14), logg=3.93+-0.04(N=7),
+  [Fe/H]=-0.01+-0.02(N=7).  Note that star is ~200K cooler than
+  typical G1.5V dwarfs, even with ~solar composition, so the
+  difference in surface gravity (~0.4 dex) has big effect.
 
 # Deprecated Standards
 
@@ -130,8 +147,18 @@ HD 10307 = GJ 67AB = HIP 7918 = HR 483 = WDS J01418+4237AB
   vsini=3.0+-1.0km/s(Torres22).
 
 HD 34411 = lam Aur = HR 1729
-  G1.5IV-V_Fe-1: Keenan83,KeenanYorka85(stan),Keenan89
-  G2IV-V: MK43 
+  G0V: 1927MeUpp..28....1L,Adams35,Morgan38,Johnson53
+  G0IV-V: Keenan53
+  G1: Bidelman85
+ *G1V: Keenan41Abt85,Gray03
+  G1.5IV-V Fe-1: Keenan83,KeenanYorka85(stan),Keenan89(stan)
+  G2IV-V: MK43
+  G5V: 1932MeUpp..55....1S
+
+  Soubiran22 mean values: Teff=5854+-13K(N=39), logg=4.24+-0.02(N=26),
+  [Fe/H]=+0.06+-0.01(N=29).  So slightly hotter and lower surface
+  gravity than Sun, but not metal poor (slightly more metal-rich).  I
+  adopt Gray's recent classification of G1V.
 
 # Other Stars
 
