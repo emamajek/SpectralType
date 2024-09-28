@@ -288,6 +288,8 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 (g-r)(M7V) =  2.179 ; LP_326-40_ plx=29.421mas M7V
 => adopt (g-r)(M7V) = 1.62 [updated 6/20/2024]
 
+(g-V)(M7V) = 3.114 ; pri. stan. VB 8 = GJ 644C (Pickles10; SDSS DR7) 
+
 (r-i)(M7V) =   -0.71 ; GJ_644_C_ plx=153.9659mas M7Ve (erroneous?)
 (r-i)(M7V) =   1.062 ; StM_231_ plx=32.0936mas M7
 (r-i)(M7V) =   1.34 ; L_433-153_ plx=58.2665mas M7V
@@ -425,6 +427,7 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 (z-J)(M7V) =  1.973 ; pri. stan. VB 8 plx=153.97mas M7Ve
 (z-J)(M7V) =   1.977 ; LSPM_J1440+1339_ plx=39.1300mas M7V
 (z-J)(M7V) =   1.987 ; LP_218-8_ plx=47.2893mas M7Ve
+(z-J)(M7V) =  1.991 ; pri. stan. VB 8 plx=153.97mas M7Ve (Pickles10, SDSSDR7)
 (z-J)(M7V) =   2.083 ; LP_609-24_ plx=50.1372mas M7e
 => adopt (z-J)(M7V) = 1.95 [updated 6/15/2024; i-z=1.32, i-J=3.27]
 
@@ -726,12 +729,14 @@ VB 8 = GJ 644C = LHS 429 = SDSS J165534.95-082345.5 = WDS J16555-0820F = Gaia DR
   m-M=-0.94+-0.01). Note that the GaiaDR3/synthetic magnitudes are
   flagged=0 i.e. not in validated range, so I list them for
   completeness but most are similar to previous ground-based
-  measurements.  B-V=2.30(Bessel90), B-V=2.20(Leggett92),
-  B-V=1.980(GaiaDR3/synth), B=18.799631(GaiaDR3/synth).
-  V=16.78(Bessel90,Henry04), V=16.8:(Bessell91), V=16.80(Leggett92),
-  V=16.81+-0.02(Dahn02), V=16.819525(GaiaDR3/synth), V=16.85(Monet92),
+  measurements.  B-V=1.92(Pickles10), B-V=1.980(GaiaDR3/synth),
+  B-V=2.20(Leggett92), B-V=2.30(Bessel90), B=18.7:(Pickles10),
+  B=18.799631(GaiaDR3/synth).  V=16.78(Bessel90,Henry04,Pickles10),
+  V=16.8:(Bessell91), V=16.80(Leggett92), V=16.81+-0.02(Dahn02),
+  V=16.819525(GaiaDR3/synth), V=16.85(Monet92),
   V=16.85+-0.059(Dieterich14), V=16.95(Eggen78) => adopt
-  V=16.820(GaiaDR3/synth).  Rc=14.60(Bessell90,Bessell91,Henry04),
+  V=16.820(GaiaDR3/synth).
+  Rc=14.60(Bessell90,Bessell91,Henry04,Pickles10),
   Rc=14.644468(GaiaDR3/synth), Rc=14.64+-0.015(Dieterich14),
   Rc=14.71+-0.02(Dahn02) => adopt Rc=14.644(GaiaDR3/synth) => (V-Rc) =
   16.820 - 14.644 = (V-Rc)=2.176 (adopt).  V-Rc=2.10+-0.03(Dahn02),
@@ -739,28 +744,28 @@ VB 8 = GJ 644C = LHS 429 = SDSS J165534.95-082345.5 = WDS J16555-0820F = Gaia DR
   R-I=1.92(Walker83;Eggen), R-Ic=2.42(Bessel90), R-Ic = 14.644 -
   12.224 = (R-Ic)=2.42(adopt).  Ic=12.18(Bessell90,Bessell91,Henry04),
   Ic=12.223777(GaiaDR3/synth), Ic=12.25+-0.015(Dieterich14),
-  Ic=12.28+-0.02(Dahn02) => adopt Ic=12.224(GaiaDR3/synth)
-  V-Ic=4.54(Monet92), V-Ic=4.56(Leggett92), V-Ic=4.60(Dieterich14),
-  V-Ic=4.60(Bessell90,Bessell91), (V-Ic) = 16.82 - 12.224 =>
-  (V-Ic)=4.596 (adopt).  J=9.776+-0.029(2MASS),
-  J-H=0.575+-0.038(2MASS), J-H=0.582(Bessell91/Glass=>2MASS),
-  J-H=0.64(Bessell91/Glass) => adopt (J-H)=0.579.
-  H=9.201+-0.024(2MASS0, H-K=0.37(Bessell91/Glass),
-  H-Ks=0.385+-0.033(2MASS), H-Ks=0.397(Bessell91/Glass=>2MASS) =>
-  adopt (H-Ks)=0.391.  J-Ks=0.971(Bessell91/Glass=>2MASS),
-  K=8.82(Leggett92/CIT), K=8.83+-0.02(Dahn02),
-  K=8.85(Bessell91/Glass), Ks=8.816+-0.023(2MASS) => (V-Ks) =
-  16.820(GaiaDR3/synth) - 8.816(2MASS) = 8.004.
-  V-Ks=8.104(Bessell91/Glass=>2MASS).  WISE: W1=8.588+-0.023,
-  W2=8.365+-0.021, W3=8.132+-0.022.  allWISE: W1=8.619+-0.023,
-  W2=8.393+-0.020, W3=8.127+-0.023.  Ks-W1=0.228(WISE),
-  Ks-W1=0.197(allWISE).  K-L'(MKO) = 0.47 (Leggett92),
-  Mv=17.745+-0.014(Leggett92, Reid05), M_Ks=9.761+-0.025(Leggett92,
-  Reid05). Dahn02 Vmag and plx => Mv = 17.755+-0.022. Dahn02 lists:
-  M_J=10.72, BC_J=2.05, Mbol=12.77, R=0.1129Rsun, so one derives mbol
-  = 11.83, BCv = 11.83 - 16.81 = -4.98, BC_K = 11.83 - 8.816 =
-  3.014. Mv - Mbol = 17.755 - 12.77 = BCv =
-  -4.985. mbol=11.607+-0.036(JHK=>Pecaut13),
+  Ic=12.31(Pickles10), Ic=12.28+-0.02(Dahn02) => adopt
+  Ic=12.224(GaiaDR3/synth) V-Ic=4.54(Monet92), V-Ic=4.56(Leggett92),
+  V-Ic=4.60(Dieterich14), V-Ic=4.60(Bessell90,Bessell91,Pickles10),
+  (V-Ic) = 16.82 - 12.224 => (V-Ic)=4.596 (adopt).
+  J=9.776+-0.029(2MASS), J-H=0.575+-0.038(2MASS),
+  J-H=0.582(Bessell91/Glass=>2MASS), J-H=0.64(Bessell91/Glass) =>
+  adopt (J-H)=0.579.  H=9.201+-0.024(2MASS0,
+  H-K=0.37(Bessell91/Glass), H-Ks=0.385+-0.033(2MASS),
+  H-Ks=0.397(Bessell91/Glass=>2MASS) => adopt (H-Ks)=0.391.
+  J-Ks=0.971(Bessell91/Glass=>2MASS), K=8.82(Leggett92/CIT),
+  K=8.83+-0.02(Dahn02), K=8.85(Bessell91/Glass),
+  Ks=8.816+-0.023(2MASS) => (V-Ks) = 16.820(GaiaDR3/synth) -
+  8.816(2MASS) = 8.004.  V-Ks=8.104(Bessell91/Glass=>2MASS).  WISE:
+  W1=8.588+-0.023, W2=8.365+-0.021, W3=8.132+-0.022.  allWISE:
+  W1=8.619+-0.023, W2=8.393+-0.020, W3=8.127+-0.023.
+  Ks-W1=0.228(WISE), Ks-W1=0.197(allWISE).  K-L'(MKO) = 0.47
+  (Leggett92), Mv=17.745+-0.014(Leggett92, Reid05),
+  M_Ks=9.761+-0.025(Leggett92, Reid05). Dahn02 Vmag and plx => Mv =
+  17.755+-0.022. Dahn02 lists: M_J=10.72, BC_J=2.05, Mbol=12.77,
+  R=0.1129Rsun, so one derives mbol = 11.83, BCv = 11.83 - 16.81 =
+  -4.98, BC_K = 11.83 - 8.816 = 3.014. Mv - Mbol = 17.755 - 12.77 =
+  BCv = -4.985. mbol=11.607+-0.036(JHK=>Pecaut13),
   BC_Ks=11.607-8.816=2.791. Leggett01: fbol = 4.69e-13 W/m2 => mbol =
   11.825 => BC_Ks = 11.825 - 8.816 = 3.009 (IAU2015 scale).  Teffs:
   2300K(Leggett00*), 2400K(Casagrande08*), 2425K(Jenkins09*),
@@ -773,7 +778,18 @@ VB 8 = GJ 644C = LHS 429 = SDSS J165534.95-082345.5 = WDS J16555-0820F = Gaia DR
   9.776 = 1.973. GaiaDR3 (note: E(Bp/Rp)=1.696):
   G=13.813289+-0.002813(GaiaDR3), Bp-Rp4.728976(GaiaDR3),
   Bp-G=3.239881(GaiaDR3), G-Rp=1.489096(GaiaDR3),
-  plx=153.9659+-0.0570mas(GaiaDR3).
+  plx=153.9659+-0.0570mas(GaiaDR3). Pickles10 used VB8 as a very red
+  spectrophotometric standard to help calibrate synthetic photometry
+  in several visible/near-IR bands, however they report: "The SDSS DR7
+  u-band data for VB8 appears too bright, likely because of the known
+  red leak. The DR7 i-band magnitude is close to the r-band magnitude
+  and appears too faint for such a red star. As mentioned in § 3.2 we
+  have omitted the u and i-band data for VB8 from our zero-point
+  averages." Note that Pickles10 reported "Sloan-vac" photometry from
+  DR7 of u=19.287, g=17.714, r=16.027, i=16.095, z=11.767. Hence the
+  Pickles10 (z-J) = 11.767 - 9.776 = 1.991, and g-V = 17.714 - 14.60
+  = 
+  
 
 # Secondary Standard
 
