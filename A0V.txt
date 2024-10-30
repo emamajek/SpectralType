@@ -298,7 +298,7 @@ Teff(A0V) =   9730 K ; Bertone04[NextGen]
 Teff(A0V) = 9707 K ; EEM N=265 Teffs
 Teff(A0V) = 9706 K ; median for N=72 Gerbaldi99 A0V stars, Kunzli97 calibration
 Teff(A0V) =   9700 K ; Habets81
-Teff(A0V) = 9660 K ; anchor stan  alf Lyr (Monnier13, apparent Teff)
+Teff(A0V) = 9660 K ; anchor stan alf Lyr (Monnier13, apparent Teff)
 Teff(A0V) =   9560 K ; Chavez95 (+60-80K)
 Teff(A0V) =   9530 K ; Theodossiou90
 Teff(A0V) =   9520 K ; Schmidt-Kaler82
@@ -313,10 +313,21 @@ BCv(A0V) = -0.267 mag ; Flower96(Teff=9700K, set BCv(5772K)=-0.085)
 BCv(A0V) = -0.231 mag ; Code76(Teff=9700K, set BCv(5772K)=-0.085)
 BCv(A0V) = -0.218 mag ; Bessell98(ATLAS,logg=4.0,Teff=9700K, set BCv(5772K)=-0.085
 BCv(A0V) = -0.213 mag ; Balona94(Teff=9700K, set BCv(5772K)=-0.085
-BCv(A0V) = -0.209+-0.015 mag ; calc using Calspec Vega, IAU2015 mbol scale, V=0.028+-0.003 for Vega
+BCv(A0V) = -0.209 +-0.015 mag ; calc using Calspec Vega, IAU2015 mbol scale, V=0.028+-0.003 for Vega
 BCv(A0V) =  -0.170 mag ; Schmidt-Kaler82(BCv=-0.30 + 0.13 offset) 
 BCv(A0V) = -0.164 mag ; Bertone04[ATLAS,Teff=9700K, set BCv(5772K)=-0.085
-=> adopt BCv(A0V) = -0.21 [updated 9/16/2019, adjusted so that BCv(5772K)=-0.085]
+=> adopt BCv(A0V) = -0.21 [updated 9/27/2024, adjusted so that BCv(5772K)=-0.085]
+
+M_G(A0V) = 0.403 mag ; *_gam_UMa_ plx=39.21mas A0Ve+K2V
+M_G(A0V) = 0.447 mag ; *_eps_Her_ plx=21.04mas A0V
+M_G(A0V) = 0.478 mag ; *_alf02_CVn_ plx=32.7227mas A0VpSiEu
+M_G(A0V) = 0.695 mag ; *_lam_Oph_A_ plx=20.3338mas A0V
+M_G(A0V) = 0.911 mag ; *_gam_Aqr_ plx=25.8551mas A0V
+M_G(A0V) = 0.943 mag ; *_30_Mon_ plx=26.66mas A0Va
+M_G(A0V) = 1.423 mag ; *_eps_Pav_ plx=31.04mas A0Va
+M_G(A0V) = 1.581 mag ; *_eta_Tel_ plx=20.6028mas A0V
+M_G(A0V) = 1.735 mag ; *_bet03_Tuc_ plx=21.6794mas A0V
+
 
 Mv(A0V) =  2.96 mag ; HIP_92794 A0V plx=12.938 mas, Vmag=7.408,E(B-V)=0.003
 Mv(A0V) =  1.99 mag ; HIP_30760 A0V plx=11.947 mas, Vmag=6.609,E(B-V)=0.001
@@ -332,61 +343,64 @@ Mv(A0V) =  1.26 mag ; deprecated stan. gam Oph (HD 161868)
 Mv(A0V) =  1.14 +-0.11(sem),+-0.55(st.dev.) ; EEM N=44 HIP A0V d<75pc |dMv|<1
 Mv(A0V) =  1.14 mag ; median Mv for A0V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
 Mv(A0V) =  1.113 mag ; Wright05(B-V=0.00)
-Mv(A0V) =  1.04 mag ; pri. stan. HR 3314
+Mv(A0V) =  1.04 mag ; pri. stan. HD 71155 = HR 3314 = HIP 41307
 Mv(A0V) =  1.03 mag ; HIP_73841 A0Vs plx=12.514 mas, Vmag=5.575,E(B-V)=0.009
 Mv(A0V) =  1.02 mag ; interp BAF dwarf seq for B-V=0.00
 Mv(A0V) =  1.00 mag ; HIP_107253 A0V plx=11.749 mas, Vmag=5.694,E(B-V)=0.015
-Mv(A0V) =  0.99 mag ; B/A/F sequence for B-V=0.00
-Mv(A0V) = 0.97 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.00
+Mv(A0V) = 0.99 mag ; B/A/F sequence for B-V=0.00
+Mv(A0V) =  0.97 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.00
 Mv(A0V) =  0.95 mag ; d<60 pc Mv(B-V=0.00)
 Mv(A0V) =  0.95 mag ; d<60 pc SIMBAD A0V N=12
 Mv(A0V) =  0.77 mag ; HIP_41451 A0V plx=11.353 mas, Vmag=5.504,E(B-V)=0.004
 Mv(A0V) =  0.71 mag ; EEM trend to d<60pc dwarfs for B-V=0.00
 Mv(A0V) =   0.69 mag ; Wegner07
 Mv(A0V) =  0.682 +-0.133(sem),+-0.95(stdev) ; EEM N=44 vetted A0V stars Gerbaldi (HIP, mag selected )
-Mv(A0V) =  0.60 mag ; anchor stan. Vega 
+Mv(A0V) =  0.60 mag ; anchor stan. HD 172167 = alf Lyr = Vega
 Mv(A0V) =   0.6 mag ; Schmidt-Kaler82
-Mv(A0V) =  0.38 mag ; pri. stan. gam UMa
+Mv(A0V) =  0.38 mag ; pri. stan. HD 103287 = gam UMa = HIP 58001
 => adopt Mv(A0V)  = 0.99  mag [updated 9/24/2020]
 => adopt M_G(A0V) = 1.00  mag [updated 12/10/2020] (Mv=0.99, G-V=0.01)
 => adopt M_Ks(A0V) = 0.949 mag [updated 12/30/2020] (Mv=0.99, V-Ks=0.041)
 
-logL(A0V) = 1.584 dex ; adopt Mv=0.99 + BCv=-0.21 => Mbol = 0.780
-logL(A0V) = 1.591 dex ; logL/Teff trend for OB-A1V dwarf EBs (Torres10; Teff=9700K)
-logL(A0V) = 1.627 dex ; pri. stan. gam UMa (Jones15)
-logL(A0V) = 1.674 dex ; anchor stan. Vega (Monier13)
-logL(A0V) = 1.738 dex (+-0.054 sem, +-0.359); N=48 vetted A0V stars from Gerbaldi99 (mag-limited, not Vol-limited)
-logL(A0V) = 1.76  dex ; Zorec12 median
+logL(A0V) = 1.584 dex ; adopt Mv=0.99 + BCv=-0.21 => Mbol=0.780
+logL(A0V) =  1.591 dex ; logL/Teff trend for OB-A1V dwarf EBs (Torres10; Teff=9700K)
+logL(A0V) =  1.627 dex ; pri. stan. gam UMa (Jones15)
+logL(A0V) =  1.674 dex ; anchor stan. Vega (Monier13)
+logL(A0V) =  1.738 dex (+-0.054 sem, +-0.359); N=48 vetted A0V stars from Gerbaldi99 (mag-lim, not Vol-lim)
+logL(A0V) =  1.76  dex ; Zorec12 median
 => adopt logL(A0V) = 1.584 dex [updated 12/27/2020]
 => adopt Mbol(A0V) = 0.780 mag [updated 12/27/2020]
+[Note: Gerbaldi99 demonstrates that there are stars classified A0V between logL ~ 1.3 to 2.6!]
 
-Note: Gerbaldi99 demonstrates that there are stars classified A0V between logL ~ 1.3 to 2.6!
-
-Rad(A0V) = 2.572 Rsun ; anchor stan. Vega (mean radius)
-Rad(A0V) = 2.375 Rsun ; Salsi21 surface brightness relation for Mv=0.99, M_Ks=0.949
+Rad(A0V) =  2.572 Rsun ; anchor stan. Vega (mean radius)
+Rad(A0V) =  2.557 Rsun ; pri. stan. HD 103287 = gam UMa 
+Rad(A0V) =  2.375 Rsun ; Salsi21 surface brightness relation for Mv=0.99, M_Ks=0.949
 Rad(A0V) = 2.193 Rsun ; logL=1.584,Teff=9700K
+Rad(A0V) =  2.012 +-0.193 Rsun ; pri. stan. HD 71155 = HR 3314 = 30 Mon
 => adopt Rad(A0V) = 2.193 Rsun [updated 9/24/2020]
 
+Mass(A0V) =  2.57 Msun ; Zorec12 median
+Mass(A0V) =  2.52 (+-0.07 sem,+-0.39 stdev) ; N=48 Gerbaldi99 vetted A0V stars (but mag-limited sample)
+Mass(A0V) =  2.482 +-0.025 Msun ; Eclipsing binary TZ Men A (Torres10)
+Mass(A0V) =  2.47 Msun ; David15 A0 MS (rms=0.40 Msun; N=120)
+Mass(A0V) =  2.39 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.0)
+Mass(A0V) =  2.38 Msun ; EEM Teff vs. Mass fit for binaries (Teff=9700K)
+Mass(A0V) =  2.351 +-0.052 Msun ; Eclipsing binary V451 Oph B (Torres10)
+Mass(A0V) =  2.34 Msun ; Bertelli09 solar tracks for Teff=9700K,logL=1.58
+Mass(A0V) = 2.333 ; (M/Msun)=(L/Lsun)^0.232253 A0V-G2V fit 9/27/2024) for logL=1.584
+Mass(A0V) =  2.32 Msun ; EEM logL vs. Mass fit for binaries (logL=1.58)
+Mass(A0V) =  2.31 Msun ; Chulkov22 fit for M_G=1.005 (Mv=0.99, G-V=0.015)
+Mass(A0V) =  2.3  Msun ; Vega (Aufdenberg06)
+Mass(A0V) =  2.30 Msun ; Ekers18 ML calibration for logL=1.58
+Mass(A0V) =  2.15 +0.10-0.15 Msun ; Vega (Monnier13)
+Mass(A0V) =  2.135 Msun ; Vega (Yoon10)
+Mass(A0V) =  2.09  Msun ; Evans23 Teff vs. Mass fit for Teff=9700K
+Mass(A0V) =  2.07  Msun ; Habets81
+Mass(A0V) =  1.905 +-0.040 Msun ; Eclipsing binary AY Cam A (Torres10)
+=> adopt Mass(A0V) = 2.333 Msun [updated 9/27/2024]
 
-Mass(A0V) = 2.57 Msun ; Zorec12 median
-Mass(A0V) = 2.52 (+-0.07 sem,+-0.39 stdev) ; N=48 Gerbaldi99 vetted A0V stars (but mag-limited sample)
-Mass(A0V) = 2.482+-0.025 Msun ; Eclipsing binary TZ Men A (Torres10)
-Mass(A0V) = 2.47 Msun ; David15 A0 MS (rms=0.40 Msun; N=120)
-Mass(A0V) = 2.351+-0.052 Msun ; Eclipsing binary V451 Oph B (Torres10)
-Mass(A0V) = 2.39 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.0)
-Mass(A0V) = 2.38 Msun ; EEM Teff vs. Mass fit for binaries (Teff=9700K)
-Mass(A0V) = 2.34 Msun ; Bertelli09 solar tracks for Teff=9700K,logL=1.58
-Mass(A0V) = 2.32 Msun ; EEM logL vs. Mass fit for binaries (logL=1.58)
-Mass(A0V) = 2.31 Msun ; Chulkov22 fit for M_G=1.005 (Mv=0.99, G-V=0.015)
-Mass(A0V) = 2.3 Msun  ; Vega (Aufdenberg06)
-Mass(A0V) = 2.30 Msun ; Ekers18 ML calibration for logL=1.58
-Mass(A0V) = 2.15+0.10-0.15 Msun ; Vega (Monnier13)
-Mass(A0V) = 2.135 Msun ; Vega (Yoon10)
-Mass(A0V) = 2.09 Msun ; Evans23 Teff vs. Mass fit for Teff=9700K
-Mass(A0V) =  2.07 Msun ; Habets81
-Mass(A0V) = 1.905+-0.040 Msun ; Eclipsing binary AY Cam A (Torres10)
-=> adopt Mass(A0V) = 2.33 Msun [updated 9/15/2023]
-
+[EEM 9/27/2024: note that the lifetime of 2.33 Msun stars is about 960 Myr,
+so "middle-age" would be ~480 Myr.]
 
 # Anchor Standard
 
@@ -480,54 +494,47 @@ HD 103287 = gam UMa = HIP 58001 = HR 4554 = Phecda = 64 UMa
   Lum(total)=42.37+3.47-3.34Lsun(Jones15) =>
   logL(tot)=1.6271+-0.0350(Jones15).
 
-HD 71155 = HR 3314 = HIP 41307 = C Hya
+HD 71155 = HR 3314 = 30 Mon = HIP 41307 = C Hya = Gaia DR3 3066513435671608064
   A0V: MK43,JM53(stan),Cowley69,Levato72,Garrison79(stan),Abt95
  *A0Va: GrayGarrison87(stan),Houk99(Garrison),Gray03
 
-  Everyone has considered this star an A0V or variant. UBV colors are a tad
-  bluer than Vega and gam UMa, making it likely the hottest of three main A0V
-  standards. GrayGarrison87
-  uses it as a "suitable secondary standard" for A0Va (with Vega the
-  primary) See 1988 erratum -- it was incorrectly listed as HD 71151
-  (phi^2 Cnc) originally. vsin=130km/s. HR3314 is the zero-point of
-  the ESO IR photometric system (van der Bleik+ 1996), where they
-  adopt V=3.89, V-K=-0.05, J-K=-0.01, H-K=-0.01, K-L'=0.00,
-  K-M=0.00. plx=26.66+-0.19mas(HIP2).
-  V=3.88(Cousins62), 
-  V=3.89(Bok72), 
-  V=3.895+-0.006(Mermilliod91),
-  V=3.899(Cousins84), 
-  V=3.90(Johnson54,Arp58,Johnson66,Argue66),
-  V=3.91(HIP) => adopt V=3.895. 
-  B-V=-0.02(Johnson54,Cousins62,Johnson66,Argue66),
-  B-V=-0.017(Cousins84), 
-  B-V=-0.014+-0.008(Mermilliod91),
-  B-V=-0.012+-0.003(HIP),
-  B-V=-0.01(Arp58,Bok72) => adopt B-V=-0.014. 
-  U-B=0.00(Bok72),
-  U-B=-0.01(Cousins62), 
-  U-B=-0.02(Johnson54,Johnson66),
-  U-B=-0.020+-0.012(Mermilliod91),
-  U-B=-0.029(Cousins84), 
-  U-B=-0.03(Argue66) => adopt U-B=-0.020. 
-  V-Rc=-0.007(GCPD/Cousins76_VRIc),
-  R-Ic=-0.017(GCPD/Cousins76_VRIc),
-  V-Ic=-0.024(GCPD/Cousins76_VRIc), 
-  V-Ic=-0.02+-0.02(HIP).  Mv = 1.04(HIP,HIP2).  Hauck97 lists
-  b-y=-0.007, m1=0.158, c1=1.026, beta=2.896.  J=3.933(Bouchet91/ESO),
-  J=3.932(vandeBliek96/ESO), H=3.932(vandeBliek96/ESO),
-  H=3.951(Bouchet91/ESO), K=3.936(Bouchet91/ESO),
-  K=3.944(vandeBliek96/ESO), L=3.932(Bouchet91/ESO),
-  L'=3.938(vandeBliek96/ESO), M=3.984(Bouchet91/ESO),
-  M=3.950(vandeBliek96/ESO).  HR 3314 is of course saturated in
-  2MASS. Teffs: 7620K(Bermejo13), 9118K(GaiaDR2), 9556K(Gray03),
-  9585K(Prugniel07#2), 9663+-87K(Blackwell98), 9683K(Stassun18),
-  9718K(Ammler-vonEiff12), 9760K(Katz11), 9793K(Prugniel07#1),
-  9806K(diBenedetto98), 9910K(Sokolov95), 10000K(Mittal15,Chen14),
-  10060+-360K(Zorec09), 10281K(David15) => <Teff> =
-  9740K. logg=3.78(Katz11), 3.93(Prugniel07#1),
+  Everyone has considered this star an A0V or variant. UBV colors are
+  a tad bluer than Vega and gam UMa, making it likely the hottest of
+  three main A0V standards. GrayGarrison87 uses it as a "suitable
+  secondary standard" for A0Va (with Vega the primary) See 1988
+  erratum -- it was incorrectly listed as HD 71151 (phi^2 Cnc)
+  originally. vsin=130km/s. HR3314 is the zero-point of the ESO IR
+  photometric system (van der Bleik+ 1996), where they adopt V=3.89,
+  V-K=-0.05, J-K=-0.01, H-K=-0.01, K-L'=0.00,
+  K-M=0.00. plx=26.66+-0.19mas(HIP2).  V=3.88(Cousins62),
+  V=3.89(Bok72), V=3.895+-0.006(Mermilliod91), V=3.899(Cousins84),
+  V=3.90(Johnson54,Arp58,Johnson66,Argue66), V=3.91(HIP) => adopt
+  V=3.895.  B-V=-0.02(Johnson54,Cousins62,Johnson66,Argue66),
+  B-V=-0.017(Cousins84), B-V=-0.014+-0.008(Mermilliod91),
+  B-V=-0.012+-0.003(HIP), B-V=-0.01(Arp58,Bok72) => adopt B-V=-0.014.
+  U-B=0.00(Bok72), U-B=-0.01(Cousins62),
+  U-B=-0.02(Johnson54,Johnson66), U-B=-0.020+-0.012(Mermilliod91),
+  U-B=-0.029(Cousins84), U-B=-0.03(Argue66) => adopt U-B=-0.020.
+  V-Rc=-0.007(GCPD/Cousins76_VRIc), R-Ic=-0.017(GCPD/Cousins76_VRIc),
+  V-Ic=-0.024(GCPD/Cousins76_VRIc), V-Ic=-0.02+-0.02(HIP).  Mv =
+  1.04(HIP,HIP2).  Hauck97 lists b-y=-0.007, m1=0.158, c1=1.026,
+  beta=2.896.  J=3.933(Bouchet91/ESO), J=3.932(vandeBliek96/ESO),
+  H=3.932(vandeBliek96/ESO), H=3.951(Bouchet91/ESO),
+  K=3.936(Bouchet91/ESO), K=3.944(vandeBliek96/ESO),
+  L=3.932(Bouchet91/ESO), L'=3.938(vandeBliek96/ESO),
+  M=3.984(Bouchet91/ESO), M=3.950(vandeBliek96/ESO).  HR 3314 is of
+  course saturated in 2MASS. Teffs: 7620K(Bermejo13), 9118K(GaiaDR2),
+  9556K(Gray03), 9585K(Prugniel07#2), 9663+-87K(Blackwell98),
+  9683K(Stassun18), 9718K(Ammler-vonEiff12), 9760K(Katz11),
+  9793K(Prugniel07#1), 9806K(diBenedetto98), 9910K(Sokolov95),
+  10000K(Mittal15,Chen14), 10060+-360K(Zorec09), 10281K(David15) =>
+  <Teff> = 9740K. logg=3.78(Katz11), 3.93(Prugniel07#1),
   3.81(Prugniel07#2). [Fe/H]=-0.40(Prugniel07#1), -0.76(Katz11),
-  -0.77(Prugniel07#2).
+  -0.77(Prugniel07#2). tetLDD=0.474358+-0.045207mas(Bourges17) =>
+  using GaiaDR3 plx => Rad=2.0124+-0.1925Rsun.  Ages: 100Myr(Rhee07),
+  162Myr(David15), 169Myr(Song01), 200+-100Myr(Pearce22),
+  240Myr(Rieke05), 306Myr(Chen14,Mittal15), 400Myr(Vigan12),
+  400+50-40Myr(Janson11).
 
 # Tertiary Standard
 

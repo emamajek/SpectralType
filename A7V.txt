@@ -331,8 +331,6 @@ BCv(A7V) =  0.000 mag ; Code76(Teff=7750K, BCv(5772K)=-0.085)
 BCv(A7V) = -0.007 mag ; Casagrande18(Teff=7750K,logg=4.5, BCv(5772K)=-0.085)
 => adopt BCv(A7V) = 0.010 [updated 9/24/2020; that BCv(5772K)=-0.085]
 
-logg(A7V) = 4.2 ; median logg for 7 A7V from Gray17
-
 M_Kj(A7V) =  1.47 mag ; exemplar HD 125489 = HIP 70022 = HR 5368 (Johnson sys, should be w/i 0.04 mag of Ks)
 M_Ks(A7V) = 1.50 mag ; ter. stan. HD 71297 = 2 Hya
 M_Ks(A7V) = 1.67 mag ; pri. stan. HD 187642 = alf Aql
@@ -362,7 +360,7 @@ Mv(A7V) =   1.76 mag ; Wegner07
 => adopt M_G(A7V)  = 2.19  mag [updated 12/10/2020] (Mv=2.23, G-V=-0.04)
 => adopt M_Ks(A7V) = 1.702 mag [updated 12/30/2020] (Mv=2.23, V-Ks=0.528)
 
-logL(A7V) = 1.334 dex ; Zorec12 median
+logL(A7V) =  1.334 dex ; Zorec12 median
 logL(A7V) =  1.261 dex ; Eclipsing binary HO Tel A (1.1 Gyr, Southworth24) 
 logL(A7V) = 1.000 dex ; Mv=2.23, BCv=0.010 => Mbol = 2.240
 => adopt logL(A7V) = 1.000 dex [updated 9/24/2020]
@@ -377,18 +375,26 @@ Rad(A7V) = 1.793 Rsun ; Gray03/06 A7Vs median value from Stassun19/TICv8 (N=6)
 Rad(A7V) = 1.750 Rsun ; Teff=7760K, logL=1.000
 => adopt Rad(A7V) = 1.750 Rsun [updated 9/24/2020]
 
-Mass(A7V) = 1.97 Msun ; Zorec12 median
-Mass(A7V) = 1.906 Msun ; Eclipsing binary HO Tel A (1.1 Gyr, Southworth24) 
-Mass(A7V) = 1.791 Msun ; pri. stan. Altair (Monnier09)
-Mass(A7V) = 1.77 Msun ; pri. stan. Altair (Zorec12)
-Mass(A7V) = 1.77 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.07)
-Mass(A7V) = 1.76 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7800K)
-Mass(A7V) = 1.76 Msun ; Ekers15 ML calibration for logL=1.065
-Mass(A7V) = 1.75 Msun ; EEM logL vs. Mass fit for binaries (logL=1.05)
-Mass(A7V) = 1.62 Msun ; pri. stan. Altair (David15)
-=> adopt Mass(A7V) = 1.76 Msun [updated 9/15/2023]
+Mass(A7V) =  1.97 Msun ; Zorec12 median
+Mass(A7V) =  1.906 Msun ; Eclipsing binary HO Tel A (1.1 Gyr, Southworth24) 
+Mass(A7V) =  1.791 Msun ; pri. stan. Altair (Monnier09)
+Mass(A7V) =  1.77 Msun ; pri. stan. Altair (Zorec12)
+Mass(A7V) =  1.77 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.07)
+Mass(A7V) =  1.76 Msun ; EEM Teff vs. Mass fit for binaries (Teff=7800K)
+Mass(A7V) =  1.76 Msun ; Ekers15 ML calibration for logL=1.065
+Mass(A7V) =  1.75 Msun ; EEM logL vs. Mass fit for binaries (logL=1.05)
+Mass(A7V) = 1.707 Msun ; (M/Msun)=(L/Lsun)^0.232253 A0V-G2V fit 9/27/2024) for logL=1.000
+Mass(A7V) =  1.62 Msun ; pri. stan. Altair (David15)
+=> adopt Mass(A7V) = 1.707 Msun [updated 9/27/2024]
 
-logg(A7V) = 3.996 +-0.009 ; Eclipsing binary HO Tel A (1.1 Gyr, Southworth24) 
+logg(A7V) = 3.93 ; sec. stan. HD 76644 = iot UMa 
+logg(A7V) = 3.95 ; pri. stan. HD 187642 = alf Aql 
+logg(A7V) = 3.996 +-0.009 ; Eclipsing binary HO Tel A (1.1 Gyr, Southworth24)
+logg(A7V) = 4.17 ; ter. stan. HD 71297 = 2 Hya = HIP 41375 
+logg(A7V) = 4.18 ; pri. stan. HD 87696 = 21 LMi 
+logg(A7V) = 4.2  ; median logg for 7 A7V from Gray17
+logg(A7V) = 4.25 ; ter. stan. HD 23156 = Cl Melotte 22 158 (Pleiad)
+=> adopt logg(A7V) ~ 4.1 +-0.2: [updated 9/27/2024]
 
 # No standard
 
@@ -411,8 +417,9 @@ HD 87696 = 21 LMi = HIP 49593 = GJ 9314 = GJ 378.3 = HR 3974 (Ursa Major cluster
   review, and indeed there is no A7V dagger standard listed in MK73.
   Strong A7V pedigree (JM53, HoukStand, GrayGarrison, Gray03), but
   Abt95 had a lambda Boo classification? dMv=+0.28, d=28pc... clearly
-  a negligibly reddened dwarf.  V=4.48(Argue66), V=4.48(Oja63),
-  V=4.48(Johnson54), V=4.48(Johnson57), V=4.483622(GaiaDR3/synth),
+  a negligibly reddened dwarf. King03 lists it as an Ursa Major Group
+  member.  V=4.48(Argue66), V=4.48(Oja63), V=4.48(Johnson54),
+  V=4.48(Johnson57), V=4.483622(GaiaDR3/synth),
   V=4.485+-0.009(Mermilliod91), V=4.485(Hauck90), V=4.486(Hauck98),
   V=4.49(HIP,TYC), V=4.49(Johnson66) => adopt V=4.485.
   B-V=0.157(GaiaDR3/synth), B-V=0.18(Johnson66), B-V=0.18(Johnson54),
@@ -446,13 +453,16 @@ HD 87696 = 21 LMi = HIP 49593 = GJ 9314 = GJ 378.3 = HR 3974 (Ursa Major cluster
   7880+-70K(Pearce22), 7920K(Kral17), 7943K(AllendePrieto99),
   7950+-76K(Murphy17), 7969K(Stevens17#2), 7979K(Chandler16),
   8000K(Ballering13), 8000K(McDonald12) 8036K(King03), 8173K(David15),
-  8250K(Chen14) => <Teff>=7920K.
+  8250K(Chen14) => <Teff>=7920K.  logg=3.796(Queiroz20),
+  logg=4.000+-0.071(Cardiel21), logg=4.07(Gray03), logg=4.15(King03),
+  logg=4.18+-0.19(Yu23), logg=4.240(Anders19),
+  logg=4.27+-0.06(AllendePrieto99), logg=4.2883+-0.0745(Stassun19),
+  logg=4.4129(Fouesneau22) => adopt logg=4.18.
 
-HD 187642 = alf Aql = GJ 768 = HIP 97649 = HR 7557 = Altair 
+HD 187642 = Altair = alf Aql = GJ 768 = HIP 97649 = HR 7557
   A5: Cannon
   A5IVn: Abt95
   A6Vn: Palmer69
-  A7: 1897AnHar..28....1M 
  *A7V: MK43(stan),Cowley72(stan),Cowley74(stan),GrayGarrison89(A7Vnn),Garrison96(A7Vnn),Gray03(A7Vn)
   A7IV-V: JM53(A7IV/V),Cowley69(stan)
   A9V: Barry70
@@ -498,42 +508,46 @@ HD 187642 = alf Aql = GJ 768 = HIP 97649 = HR 7557 = Altair
   7568K(diBenedetto98), 7646K(AllendePrieto04), 7718K(Schroeder09),
   7727K(Zorec12), 7747K(Stassun18), 7780K(Monnier09 average of Teq &
   Tpole), 7799K(David15), 7800K(Gray03), 8040K(Sokolov95), => <Teff> =
-  7723K.  [Fe/H]=-0.24(N=1), <logg>=4.18(N=2).  For BCv=0.03 +
-  V=0.765+-0.015, plx(HIP2) => Mbol=2.25, logL=0.998. For Teff=7639K
-  => Rad = 1.805 Rsun. Age estimates: 88+-10Myr(Rieutord24),
-  ~100Myr(Boucharud20), 482(285,1055;med/68%CL;David15),
-  500+-250Myr(Janson11), 700Myr(Reike05), 1.010Gyr(Stone18).
-  Boucharud20 presented an study combining interferometric (ESO-VLTI),
-  spectroscopic, and asteroseismic observations and derived:
-  Req=2.008+-0.006Rsun, i=50.7+-1.2deg, flatting=0.220+-0.003,
-  vsini=243km/s, veq=314km/s, Prot=7h46m, mass=1.86+-0.03Msun,
-  Z=0.019, Xcore=0.71, age~100Myr.  A more recent modeling effort that
-  includes TESS photometry by Rieutord24 corroborates the young age
-  (88+-10Myr), based on the low level of core H depletion
-  (Xcore/Xini~=0.972). Calculating an updated UVW space velocity using
-  the updated positiona and pm from Zacharias22, HIP2 parallax (still
-  the best: plx=194.95+-0.57mas), and RV from Gontcharov06, I estimate
-  (U,V,W)= -29.2,-10.4,-2.6 +- 0.3,0.2,0.2 km/s (essentially identical
-  to Orlov95: U,V,W=-29,-10,-2 km/s).  Running the astrometry through
-  J Gagne's Banyan Sigma tool, I get kinematic membership
-  probabilities of P(Argus)=0.3% and P(field)=99.7%, i.e. not strong
-  evidence for belonging to any known young stellar group within 150pc
-  (as of 2018). Removing the radial velocity measurement (in case
-  there is something funny due to fast rotation, gravitational
-  redshift, etc.), yields P(CarinaNear)=41.1%, P(Argus)=0.5%,
-  P(field)=58.1%, where the CarinaNear solution would predict
-  RV=-35.3km/s and the Argus solution would predict RV=-22.2km/s. 15
+  7723K.  Metallicities: [Fe/H]=-0.24(Erspamer03),
+  [Fe/H]=-0.0803(Borisov23), [Fe/H]=0.48(Luck17).  Surface gravities:
+  logg=3.76(Gray03), logg=3.7177(Borisov23), logg=3.95(Luck17),
+  logg=4.13(Erspamer03), logg=4.23(AllendePrieto04) => adopt
+  logg~3.95.  For BCv=0.03 + V=0.765+-0.015, plx(HIP2) => Mbol=2.25,
+  logL=0.998. For Teff=7639K => Rad = 1.805 Rsun. Age estimates:
+  88+-10Myr(Rieutord24), ~100Myr(Boucharud20),
+  482(285,1055;med/68%CL;David15), 500+-250Myr(Janson11),
+  700Myr(Reike05), 1.010Gyr(Stone18).  Boucharud20 presented an study
+  combining interferometric (ESO-VLTI), spectroscopic, and
+  asteroseismic observations and derived: Req=2.008+-0.006Rsun,
+  i=50.7+-1.2deg, flatting=0.220+-0.003, vsini=243km/s, veq=314km/s,
+  Prot=7h46m, mass=1.86+-0.03Msun, Z=0.019, Xcore=0.71, age~100Myr.  A
+  more recent modeling effort that includes TESS photometry by
+  Rieutord24 corroborates the young age (88+-10Myr), based on the low
+  level of core H depletion (Xcore/Xini~=0.972). Calculating an
+  updated UVW space velocity using the updated position and pm from
+  Zacharias22, HIP2 parallax (still the best: plx=194.95+-0.57mas),
+  and literature mean RV from Gontcharov06 (-26.6+-0.4km/s), I
+  estimate (U,V,W)= -29.2,-10.4,-2.6 +- 0.3,0.2,0.2 km/s (essentially
+  identical to Orlov95: U,V,W=-29,-10,-2 km/s).  Running the
+  astrometry through J Gagne's Banyan Sigma tool, I get kinematic
+  membership probabilities of P(Argus)=0.3% and P(field)=99.7%,
+  i.e. not strong evidence for belonging to any known young stellar
+  group within 150pc (as of 2018). Removing the radial velocity
+  measurement (in case there is something funny due to fast rotation,
+  gravitational redshift, etc.), yields P(CarinaNear)=41.1%,
+  P(Argus)=0.5%, P(field)=58.1%, where the CarinaNear solution would
+  predict RV=-35.3km/s and the Argus solution would predict
+  RV=-22.2km/s (compared to mean RV=-26.6+-0.4km/s;Gontcharov06). 15
   published RV estimates can be found in SIMBAD at:
   https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%402708379&Name=*+alf+Aql&submit=display+all+measurements#lab_meas.
   
-  
-
+ 
 # Secondary Standard
 
 HD 76644 = iot UMa = HIP 44127 = HR 3569 = 9 UMa = Talitha = SBC9 543 = ADS 7114 = WDS J08592+4803
   A5: Cannon
   A6V: Palmer68
- *A7V: JM53,Jaschek64(all),Cowley67,Cowley69(stan),Barry70,Gray03(A7Vn)
+ *A7V: JM53,Morgan53,Johnson54,Cowley67,Cowley69(stan),Barry70,Gray03(A7Vn)
   A7IV: Morgan72,MK73(dagger),GrayGarrison89
 
   B-V(HIP)=0.223, dMv=+0.16... so very dwarf-like absolute magnitude,
@@ -567,7 +581,11 @@ HD 76644 = iot UMa = HIP 44127 = HR 3569 = 9 UMa = Talitha = SBC9 543 = ADS 7114
   M_Ks=1.862(Johnson66=>2MASS,HIP2).  Teffs: 6265K(GaiaDR2),
   7436K(Stevens17), 7600K(Gebran16), 7703K(Wu11), 7769K(Gray03),
   7907K(Zorec12,Stassun18), 8233K(David15) => <Teff>=7703K.
-  plx=68.0010+-0.4223mas(GaiaDR3).
+  plx=68.0010+-0.4223mas(GaiaDR3).  logg=3.5(Gebran16),
+  logg=3.863(Anders19), logg=3.91(Gray03),
+  logg=3.9261(GaiaDR3GSP-PHot/AENEAS), logg=3.986+-0.086(Cardiel21),
+  logg=4.19+-0.06(AllendePrieto99), logg=4.4+-0.14(Gullikson16) =>
+  adopt logg=3.93.
 
 # Tertiary Standard 
 
@@ -611,7 +629,11 @@ HD 23156 = Cl Melotte 22 158 = BD+23_495 = V624 Tau (Pleiad)
   - 0.128 = 0.134. plx=7.2264+-0.0629 mas(GaiaDR2),
   plx=7.4128+-0.0331mas(GaiaDR3) => Mv=2.45(w/plx(GaiaDR3), V=8.22,
   Av=0.119), M_Ks=1.90+-0.02(w/plx(GaiaDR3), Ks=7.561+-0.018,
-  A_Ks=0.011).
+  A_Ks=0.011). Surface gravities: logg=3.4(Gebran16),
+  logg=4.00(Burkhart97), logg=4.1354(Buder21), logg=4.23(Gebran08),
+  logg=4.2843(Jonsson20), logg=4.40(Hui-Bon-Hoa98), logg=4.48(Ting19),
+  logg=4.625(Kounkel19) => adopt logg=4.25.
+  
   
 HD 71297 = 2 Hya = HIP 41375 = HR 3321 = LM Hya = WDS J08265-0359
    A3/4IV: Houk99
@@ -628,18 +650,19 @@ HD 71297 = 2 Hya = HIP 41375 = HR 3321 = LM Hya = WDS J08265-0359
    H and metal lines is unusual for this star, but GrayGarrison89
    adopts it as their low-vsini A7V standard - indeed it has
    remarkably low vsini for a late A (vsini=5.2+-0.3km/s,
-   Ammler-vonEiff12). Delta Scuti variable. Its UBVRcIc colors appear
-   to be very typical compared to the other A7V standards,
-   however. Note that GrayGarrison89 say "2 Hyi" in the standard list,
-   but their larger table 2 lists "2 Hya" as being A7V. SIMBAD does
-   not list a "2 Hyi", B-V(HIP)=0.218, dMv=-0.14.. so it is a
-   "dwarf". WDS has two additional components (WDS J08265-0359): B is
-   interloper at 79.9", but C is physical companion at 10.6"
-   (mag1=4.99,mag2=11.3). GaiaDR3 has G(A)=5.551, G(C)=15.319, hence
-   del(G)=9.767mag. Companion has M_G(C)=11.830+-0.008, consistent
-   with ~M4+V, and the Bp-Rp(C) color (2.654) is consistent with ~M3V
-   - so "C" is likely to be a mid-M dwarf.  V=5.58(Cousins63),
-   V=5.588(Hauck90), V=5.588+-0.011(Mermilliod91), V=5.59(Johnson66),
+   Ammler-vonEiff12). Delta Scuti variable. Has separate study just on
+   this star by Catanzaro13. Its UBVRcIc colors appear to be very
+   typical compared to the other A7V standards, however. Note that
+   GrayGarrison89 say "2 Hyi" in the standard list, but their larger
+   table 2 lists "2 Hya" as being A7V. SIMBAD does not list a "2 Hyi",
+   B-V(HIP)=0.218, dMv=-0.14.. so it is a "dwarf". WDS has two
+   additional components (WDS J08265-0359): B is interloper at 79.9",
+   but C is physical companion at 10.6" (mag1=4.99,mag2=11.3). GaiaDR3
+   has G(A)=5.551, G(C)=15.319, hence del(G)=9.767mag. Companion has
+   M_G(C)=11.830+-0.008, consistent with ~M4+V, and the Bp-Rp(C) color
+   (2.654) is consistent with ~M3V - so "C" is likely to be a mid-M
+   dwarf.  V=5.58(Cousins63), V=5.588(Hauck90),
+   V=5.588+-0.011(Mermilliod91), V=5.59(Johnson66),
    V=5.600(Cousins71), V=5.609290(GaiaDR3/synth) => adopt V=5.588.
    B-V=0.218+-0.004(Mermilliod91), B-V=0.22(Johnson66),
    B-V=0.22(Cousins63), B-V=0.220(Cousins71) => adopt B-V=0.218.
@@ -655,13 +678,17 @@ HD 71297 = 2 Hya = HIP 41375 = HR 3321 = LM Hya = WDS J08265-0359
    7618K(Stassun18), 7648K(Ammler-vonEiff12),
    7700+-150K(Catanzaro13#2), 7700+-200K(BarceloForteza20#1),
    7712K(Ghazaryan18), 7750K(GaiaDR3/template),
-   7800+-300K(BarceloForteza20#2), 7943K(Allende-Prieto99),
-   7950K(Gray01) => adopt Teff=7631K. logg=4.10+-0.28(Catanzaro13#1),
+   7800+-300K(BarceloForteza20#2), 7810+-90K(Catanzaro13),
+   7943K(Allende-Prieto99), 7950K(Gray01) => adopt
+   Teff=7631K. logg=4.10+-0.28(Catanzaro13#1),
    logg=4.39+-0.06(Catanzaro13), [Fe/H]=-0.15+-0.15(Catanzaro13#1),
    [Fe/H]=-0.19+-0.06(Catanzaro13#2), [M/H]=+0.17(Gray01).
    plx(A)=21.4398+-0.7794mas(GaiaDR3),
    plx(C)=20.0597+-0.0689mas(GaiaDR3). Adopting plx from star C from
-   GaiaDR3 => Mv(A)=2.10, M_Ks(A)=1.504+-0.019.
+   GaiaDR3 => Mv(A)=2.10, M_Ks(A)=1.504+-0.019.  Surface gravities:
+   logg=4.038(Anders19), logg=4.17+-0.05(Catanzaro13) => adopt
+   logg=4.17(Catanzaro13).  logL=1.04+-0.02(Catanzaro13).
+   Age=790+-90Myr(Catanzaro13).  Mass=1.77+0.12-0.19Msun(Catanzaro13).
 
 # Exemplars
 

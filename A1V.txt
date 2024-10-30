@@ -212,21 +212,17 @@ Inconsistency between the MK43 and JM53 standards. Isn't there supposed to be so
 Teff(A1V) =   9500 K ; Bessell79
 Teff(A1V) =   9500 K ; GrayCorbally09
 Teff(A1V) =   9480 K ; GrayCorbally94
-Teff(A1V) = 9478 K ; pri. stan. HD 10939 = HIP 8241 = HR 520
 Teff(A1V) = 9397 K ; Zorec12 median
-Teff(A1V) = 9296 K ; sec. stan. HD 9132 = 48 Cet
+Teff(A1V) = 9332 K ; pri. stan. HD 10939 = HIP 8241 = HR 520
+Teff(A1V) = 9250 K ; sec. stan. HD 9132 = 48 Cet
 Teff(A1V) =   9250 K ; Habets81
-Teff(A1V) = 9240 K ; ter. stan. HD 21447 
 Teff(A1V) =   9230 K ; Schmidt-Kaler82
-Teff(A1V) = 9172 K ; EEM N=192 Teffs
+Teff(A1V) =  9172 K ; EEM N=192 Teffs
 Teff(A1V) =   9150 K ; Theodossiou90
-Teff(A1V) = 9026 K ; mean photometric Teff
+Teff(A1V) = 9080 K ; ter. stan. HD 21447 = HIP 16292 = HR 1046
+Teff(A1V) =  9026 K ; mean photometric Teff
 Teff(A1V) =   8938 K ; Boyajian12
-=> adopt Teff(A1V) = 9300 K (logT = 3.968) [updated 10/18/2019]
-
-[EEM 12/2/2012: Teffs for standards and median Teffs for A1Vs support
-median Teff for A1V in regime 9100-9250K, but not as high as
-GrayCorbally09's value (9500K) or Boyajian12's value (8938K).]
+=> adopt Teff(A1V) = 9300 K (logT = 3.968) [updated 9/27/2024]
 
 BCv(A1V) =  -0.63 mag ; Habets81
 BCv(A1V) = -0.191 mag ; Flower96(Teff=9300K, set so BCv(5772K)=-0.085)
@@ -256,7 +252,7 @@ Mv(A1V) =   0.84 mag ; Wegner07
 => adopt M_Ks(A1V) = 1.07 mag [updated 12/30/2020] (Mv=1.16, V-Ks=0.090)
 
 logL(A1V) = 1.488 dex ; Mv=1.16 + BCv=-0.14 => Mbol = 1.020
-logL(A1V) = 1.497 dex ; logL/Teff trend for O7V-A2V dwarf EBs (Torres10; Teff=9300K)
+logL(A1V) =  1.497 dex ; logL/Teff trend for O7V-A2V dwarf EBs (Torres10; Teff=9300K)
 logL(A1V) =  1.69  dex ; sec. stan. 48 Cet (Zorec12)
 logL(A1V) =  1.77  dex ; Zorec12 median
 => adopt logL(A1V) = 1.488 dex [updated 9/26/2020]
@@ -267,23 +263,25 @@ Rad(A1V) = 2.1364 Rsun ; logL=1.488, Teff=9300K
 Rad(A1V) =  2.040 Rsun ; logL=1.448, Teff=9300K
 => adopt Rad(A1V) = 2.136 Rsun [updated 9/26/2020]
 
-Mass(A1V) = 2.53 Msun ; Zorec12 median
-Mass(A1V) = 2.43 Msun ; sec. stan. 48 Cet (Zorec12)
-Mass(A1V) = 2.397+-0.025 Msun ; Eclipsing binary V396 Cas A (Torres10)
-Mass(A1V) = 2.27 Msun ; non-standard Castor A (Torres02;Teff=9400K)
-Mass(A1V) = 2.24 Msun ; EEM Teff vs. Mass fit for binaries (Teff=9300K)
-Mass(A1V) = 2.23 Msun ; David15 A1 MS (rms=0.29 Msun; N=132)
-Mass(A1V) = 2.19 Msun ; Chulkov22 fit for M_G=1.17 (Mv=1.16, G-V=0.01)
-Mass(A1V) = 2.184+-0.037 Msun ; Eclipsing binary V1647 Sgr A (Torres10)
-Mass(A1V) = 2.16 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.34)
-Mass(A1V) = 2.16 Msun ; EEM logL vs. Mass fit for binaries (logL=1.452)
-Mass(A1V) = 2.15 Msun ; Ekers18 ML calibration for logL=1.452
-Mass(A1V) = 2.097+-0.022 Msun ; Eclipsing binary VV Pyx A (Torres10)
-Mass(A1V) = 2.095+-0.019 Msun ; Eclipsing binary VV Pyx B (Torres10)
-Mass(A1V) =  2.01 Msun ; Habets81
-Mass(A1V) = 1.967+-0.033 Msun ; Eclipsing binary V1647 Sgr B (Torres10)
-Mass(A1V) = 1.95 Msun ; Evans23 Teff vs. Mass fit for Teff=9300K
-=> adopt Mass(A1V) = 2.17 Msun [updated 9/15/2023]
+Mass(A1V) =  2.53  Msun ; Zorec12 median
+Mass(A1V) =  2.43  Msun ; sec. stan. 48 Cet (Zorec12)
+Mass(A1V) =  2.397+-0.025 Msun ; Eclipsing binary V396 Cas A (Torres10)
+Mass(A1V) =  2.27  Msun ; non-standard Castor A (Torres02;Teff=9400K)
+Mass(A1V) =  2.24  Msun ; EEM Teff vs. Mass fit for binaries (Teff=9300K)
+Mass(A1V) =  2.23  Msun ; David15 A1 MS (rms=0.29 Msun; N=132)
+Mass(A1V) = 2.216 Msun ; (M/Msun)=(L/Lsun)^0.232253 A0V-G2V fit 9/27/2024) for logL=1.488
+Mass(A1V) =  2.209 Msun ; Ekers15 ML calibration for logL=1.488
+Mass(A1V) =  2.208 Msun ; EEM logL vs. Mass fit for binaries (logL=1.488)
+Mass(A1V) =  2.195 Msun ; Ekers18 ML calibration for logL=1.488
+Mass(A1V) =  2.19  Msun ; Chulkov22 fit for M_G=1.17 (Mv=1.16, G-V=0.01)
+Mass(A1V) =  2.184 +-0.037 Msun ; Eclipsing binary V1647 Sgr A (Torres10)
+Mass(A1V) =  2.16  Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.34)
+Mass(A1V) =  2.097 +-0.022 Msun ; Eclipsing binary VV Pyx A (Torres10)
+Mass(A1V) =  2.095 +-0.019 Msun ; Eclipsing binary VV Pyx B (Torres10)
+Mass(A1V) =  2.01  Msun ; Habets81
+Mass(A1V) =  1.967 +-0.033 Msun ; Eclipsing binary V1647 Sgr B (Torres10)
+Mass(A1V) =  1.95  Msun ; Evans23 Teff vs. Mass fit for Teff=9300K
+=> adopt Mass(A1V) = 2.216 Msun [updated 9/15/2023]
 
 
 # No Standards
@@ -306,14 +304,17 @@ HD 10939 = HIP 8241 = HR 520 = q02 Eri = Gaia DR3 4912947570170211840
   B-V=0.04(Johnson66) => adopt B-V=0.035.  U-B=0.059(Mermilliod91),
   V-Ic=0.05+-0.00(HIP). Not in GCPD/Cousins76_VRIc database.
   H=5.026+-0.027(2MASS), Ks=4.964+-0.027(2MASS) => V-H=0.014,
-  V-Ks=0.076, H-Ks=0.062+-0.038.  Teffs: 9063K(B-V=>Bessell98),
+  V-Ks=0.076, H-Ks=0.062+-0.038.  Teffs:
+  9000K(Verberne24,GaiaDR3/template), 9063K(B-V=>Bessell98),
   9084K(V-Ks=>vanBelle09), 9110K+-282K(Paunzen06,Stassun18),
-  9222K(GaiaDR2), 9478K(Ballering13), 9599K(David15), 9692K(Philip80),
-  9750K(Chen14), 10090K(Sokolov95) => <Teff>=9478K.
+  9191K(Doyle24), 9200K(Esposito20), 9222K(GaiaDR2),
+  9332K(AllendePrieto99), 9478K(Ballering13,Chandler16),
+  9568K(Anders19), 9599K(David15), 9692K(Philip80), 9750K(Chen14),
+  9903K(Balona19), 10090K(Sokolov95) => <Teff>=9332K.
 
 # Secondary Standard
 
-HD 9132 = 48 Cet = HIP 6960
+HD 9132 = 48 Cet = HIP 6960 = HR 433 = WDS J01296-2138A = ADS 1184A = Gaia DR3 5043493547808390272
   A0V: Houk88,Cannon(A0)
  *A1Va: Gray87(stan)
   A1V: Buscombe62,Bond71,Hoffleit91
@@ -333,13 +334,15 @@ HD 9132 = 48 Cet = HIP 6960
   logL=1.6913+-0.0228(Zorec12). Mass=2.43+-0.03 Msun(Zorec12). age =
   667+-45 Myr(Zorec12). vsini=32
   km/s(Zorec12). logg=4.08+-0.08(Allende-Prieto99).  Teffs:
-  9177K(GaiaDR2), 9200K(Grenier99), 9296K(B-Vo=>Bessell98, for
-  logg=4.1), 9333K(Zorec12,Stassun18), 9552K(David15) => <Teff> =
-  9296K.
+  8800K(Verberne24), 9011K(Anders19), 9015K(GaiaDR3),
+  9120K(AllendePrieto99), 9177K(GaiaDR2), 9200K(Grenier99),
+  9296K(B-Vo=>Bessell98, for logg=4.1), 9333K(Zorec12,Stassun18),
+  9386K(Chandler16), 9387K(McDonald12), 9552K(David15),
+  9793K(Balona19) => adopt Teff=9250K.
 
 # Tertiary Standard
 
-HD 21447 = HIP 16292 = HR 1046
+HD 21447 = HIP 16292 = HR 1046 = STF 390A = ADS 2565A = WDS J03300+5527A = Gaia DR3 448233374109147264
   A0V: Rydstrom78
  *A1V: JM53,GrayGarrison87(A1Va),Abt95(A1Vn),Zorec09(BCDtype)
   A2V: Cowley69,Cannon(A2)
@@ -348,31 +351,24 @@ HD 21447 = HIP 16292 = HR 1046
   
   Adopt GrayGarrison87's "A1Va". Mostly agreement on A1V, but some A2
   and A3 types. Companion 14" away, 5mag fainter. plx =
-  16.8324+-0.1689mas(GaiaDR2).
-  V=5.08(Johnson57), 
-  V=5.09(HIP),
-  V=5.09(Haeggkvist66), 
-  V=5.096+-0.012(Mermilliod91),
-  V=5.10(Johnson66#1,#2),
-  V=5.104(Oja86) => adopt V=5.096. 
-  B-V=0.022+-0.015(HIP),
-  B-V=0.033(Oja86),
-  B-V=0.04(Johnson66#1,#2), 
-  B-V=0.041+-0.004(Mermilliod91),
-  B-V=0.049(Haeggkvist66),
-  B-V=0.05(Johnson57) => adopt B-V=0.041. 
-  U-B=0.03(Johnson57), 
-  U-B=0.036+-0.003(Mermilliod91),
-  U-B=0.042(Oja86), 
-  U-B=0.05(Johnson66#1),
-  U-B=0.05(Johnson66#2) => adopt U-B=0.036. 
-  V-Ic=0.06+-0.03(HIP).
-  Not in GCPD/Cousins76_VRIc database.  Teffs:
-  9078+-126K(Zorec12,Stassun18), 9232K(GaiaDR2), 9240+-300K(Zorec09),
-  9335K(King03), 10049K(David15) => <Teff> = 9240K.
-  Note the Mermilliod87 compendium for UBV photometry lists two
-  different sets of values, with slightly different U-B colors - but the
-  references appear to be identical? 
+  16.8324+-0.1689mas(GaiaDR2).  V=5.08(Johnson57), V=5.09(HIP),
+  V=5.09(Haeggkvist66), V=5.096+-0.012(Mermilliod91),
+  V=5.10(Johnson66#1,#2), V=5.104(Oja86) => adopt V=5.096.
+  B-V=0.022+-0.015(HIP), B-V=0.033(Oja86), B-V=0.04(Johnson66#1,#2),
+  B-V=0.041+-0.004(Mermilliod91), B-V=0.049(Haeggkvist66),
+  B-V=0.05(Johnson57) => adopt B-V=0.041.  U-B=0.03(Johnson57),
+  U-B=0.036+-0.003(Mermilliod91), U-B=0.042(Oja86),
+  U-B=0.05(Johnson66#1), U-B=0.05(Johnson66#2) => adopt U-B=0.036.
+  V-Ic=0.06+-0.03(HIP).  Not in GCPD/Cousins76_VRIc database.  Teffs:
+  8715K(McDonald12), 8719K(Chandler16), 8836K(HardegreeUllman23)
+  9000K(GaiaDR3/RVtemp), 9011K(Cardiel21),
+  9078+-126K(Zorec12,Stassun18), 9080K(GaiaDR3/AENEAS),
+  9232K(GaiaDR2), 9240+-300K(Zorec09), 9332K(AllendePrieto99),
+  9335K(King03), 9341K(Anders19), 10049K(David15) => adopt Teff=9080K
+  (however probably +-300K uncertainty).  Note the Mermilliod87
+  compendium for UBV photometry lists two different sets of values,
+  with slightly different U-B colors - but the references appear to be
+  identical?
 
 # Deprecated Standards
 

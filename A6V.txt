@@ -278,20 +278,24 @@ Mv(A6V) =  0.90 mag ; exemplar alf Pic
 => adopt M_Ks(A6V) = 1.655 mag [updated 12/30/2020] (Mv=2.12, V-Ks=0.465)
  
 logL(A6V) = 1.046 dex ; Mv=2.12 & BCv=0.005 mag => Mbol = 2.125
-logL(A6V) = 1.59  dex ; Zorec12 median
+logL(A6V) =  1.59 dex ; Zorec12 median
 => adopt logL(A6V) = 1.046 dex [updated 11/18/2020]
 => adopt Mbol(A6V) = 2.125 dex [updated 11/18/2020]
 
-Mass(A6V) = 2.24 Msun ; Zorec12 median
-Mass(A6V) = 1.85 Msun ; David15 A6 MS (rms=0.49 Msun; N=46)
-Mass(A6V) = 1.85 Msun ; EEM Mv vs. Mass fit for binaries (Mv=1.89)
-Mass(A6V) = 1.84 Msun ; Ekers15 ML calibration for logL=1.14
-Mass(A6V) = 1.83 Msun ; EEM Teff vs. Mass fit for binaries (Teff=8000K)
-Mass(A6V) = 1.82 Msun ; EEM logL vs. Mass fit for binaries (logL=1.14)
-Mass(A6V) = 1.75+-0.05 Msun ; exemplar beta Pic (ZAMS, ~20 Myr, ~solar)
-Mass(A6V) = 1.730+-0.025 Msun ; Eclipsing binary IQ Per B (Torres10)
-Mass(A6V) =  1.66 Msun ; Habets81
-=> adopt Mass(A6V) = 1.83 Msun [update 9/15/2023]
+Mass(A6V) =  2.24 Msun ; Zorec12 median
+Mass(A6V) =  1.85 Msun ; David15 A6 MS (rms=0.49 Msun; N=46)
+Mass(A6V) =  1.83 Msun ; EEM Teff vs. Mass fit for binaries (Teff=8000K)
+Mass(A6V) = 1.750 Msun ; (M/Msun)=(L/Lsun)^0.232253 A0V-G2V fit 9/27/2024) for logL=1.046
+Mass(A6V) =  1.75 +-0.05 Msun ; exemplar beta Pic (ZAMS, ~20 Myr, ~solar)
+Mass(A6V) =  1.746 Msun ; Ekers15 ML calibration for logL=1.046
+Mass(A6V) =  1.744 Msun ; HenryMcCarthy93 calibration for Mv=2.12
+Mass(A6V) =  1.743 Msun ; EEM Mv vs. Mass fit for binaries (Mv=2.12)
+Mass(A6V) =  1.735 Msun ; Eker18 ML calibration for logL=1.046
+Mass(A6V) =  1.730 +-0.025 Msun ; Eclipsing binary IQ Per B (Torres10)
+Mass(A6V) =  1.691 Msun ; EEM logL vs. Mass fit for binaries (logL=1.046)
+Mass(A6V) =  1.66  Msun ; Habets81
+Mass(A6V) =  1.632 Msun ; Fernandes21 ML calibration for logL=1.046
+=> adopt Mass(A6V) = 1.750 Msun [update 9/27/2024]
 
 Rad(A6V) =  1.904 Rsun ; Challouf14 surface brightness relation for Mv=2.12, M_Ks=1.655
 Rad(A6V) =  1.881 Rsun ; Salsi21 surface brightness relation for Mv=2.12, M_Ks=1.655
@@ -361,17 +365,19 @@ HD 39060 = bet Pic = GJ 219 = HIP 27321 = HR 2020
   representative for a ZAMS A6V of ~solar composition.
 
 HD 50241 = alf Pic = GJ 248 = HIP 32607 = HR 2550
-  A5: Cannon18(standard!),1955MmMtS..12....1W(A5V)
+  A5: Cannon01(standard!),Cannon18(stan),1955MmMtS..12....1W(A5V)
   A5/7III/V: Houk75
  *A6Vn: 1937AnHar.105...45H(A6V),GrayGarrison89,Garrison96
   A7Vn: 1978A&AS...35...75C,Houk75(Garrison)
   A7IV: Levato72
   A8Vn kA6: Gray06
-  
-  This was the only A6 dwarf in Garrison96's bright star list, and is
-  the brightest A6Vn star in GrayGarrison89. However the star seems
-  redder than the others, so perhaps it is A7 or A8?
-  V=3.26(Cousins62), V=3.262+-0.009(Mermilliod91),
+
+  Cannon01 had alf Pic as the A5 standard between A3 (tau03 Eri) and F
+  (Canopus = alf Car).  This was the only A6 dwarf in Garrison96's
+  bright star list, and is the brightest A6Vn star in
+  GrayGarrison89. However the star seems redder than the others, so
+  perhaps it is A7 or A8?  V=3.26(Cousins62),
+  V=3.262+-0.009(Mermilliod91),
   V=3.265(Cousins71,GCPD/Cousins76_VRIc), V=3.27(Johnson66),
   V=3.300(Hauck97) => adopt V=3.262+-0.009.  B-V=0.21(Johnson66),
   B-V=0.21(Cousins62#2), B-V=0.210(Cousins71),
