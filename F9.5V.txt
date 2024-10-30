@@ -175,26 +175,25 @@ logL(F9.5V) = 0.180 ; Mv=4.35, BCv=-0.06 => Mbol=4.29
 => adopt logL(F9.5V) = 0.180 [last updated 10/30/2020]
 => adopt Mbol(F9.5V) = 4.290 [last updated 10/30/2020]
 
-Rad(F9.5V) =  1.044+-0.010 Rsun ; exemplar zet Tuc 
 Rad(F9.5V) =  1.194 Rsun ; Gray03/06 F9.5Vs median from TIC9/Stassun19
 Rad(F9.5V) =  1.186 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=5990K)
 Rad(F9.5V) =  1.170 Rsun ; Challouf14 calibration for Mv=4.35, M_Ks=2.947
 Rad(F9.5V) = 1.1423 Rsun ; logL=0.180, Teff=5990K
+Rad(F9.5V) =  1.044+-0.010 Rsun ; exemplar zet Tuc 
 => adopt Rad(F9.5V) = 1.142 Rsun [last updated 10/30/2020]
-
 
 Mass(F9.5V) =  1.201 Msun ; EEM Teff vs. Mass calibration (Teff=5990K)
 Mass(F9.5V) =  1.140 Msun ; HenryMcCarthy93 calibration for Mv=4.4
-Mass(F9.5V) =  1.102 Msun ; EEM logL vs Mass calibration (logL=0.18)
+Mass(F9.5V) = 1.101 Msun ; (M/Msun)=(L/Lsun)^0.232253 A0V-G2V fit 9/27/2024) for logL=0.180
 Mass(F9.5V) = 1.095 Msun ; Eker18 logL vs. Mass calibration (logL=0.18)
 Mass(F9.5V) = 1.091 Msun ; Fernandes21 calibration for logL=0.180
 Mass(F9.5V) =  1.078 Msun ; EEM calibration to Torres10 EBs (Mv=4.4)
 Mass(F9.5V) =  1.051 Msun ; Bertelli09 solar tracks (Teff=5990,logL=0.18)
-Mass(F9.5V) =  0.985+-0.027 Msun ; exemplar zet Tuc = HD 1581 ([Fe/H]=-0.21)
-=> adopt Mass(F9.5V) = 1.09 Msun [updated 9/15/2023]
+Mass(F9.5V) =  0.985 +-0.027 Msun ; exemplar zet Tuc = HD 1581 ([Fe/H]=-0.21)
+=> adopt Mass(F9.5V) = 1.101 Msun [updated 9/27/2024]
 
-logg(F9.5V) = 4.358 (rms=0.112); Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5990K (see G0V.txt)
-logg(F9.5V) = 4.394+-0.007 ; exemplar zet Tuc
+logg(F9.5V) = 4.358 (rms=0.112); Soubiran22/PASTEL logg fit -0.1<[Fe/H]<+0.1 d<50pc dwarfs for T=5990K (see G0V.txt)
+logg(F9.5V) = 4.394 +-0.007 ; exemplar zet Tuc
 => adopt logg(F9.5V) = 4.36 [updated 9/15/2023]
 
 # Primary Standard
