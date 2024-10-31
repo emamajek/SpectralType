@@ -1,13 +1,18 @@
 T2.5V
 
+Teff(T2.5V) = 1140 K ; Sanghi23 M6V-T9V field dwarf polynomial 
 Teff(T2.5V) = 1167 K ; Filipazzo15 M6V-T9V field calibration
 Teff(T2.5V) = 1169 K ; SDSS J075840.33+324723.4 (Kirkpatrick20)
 Teff(T2.5V) = 1209 K ; Kirkpatrick20 (Table 13 polynomial)
 
-M_J(T2.5V) =   13.71 ; SIMP_1619+0313 calc using Kirkpatrick20 (plx=44.9mas)
-M_J(T2.5V) =  13.84  ; 2MASS_2209-2711 calc using Kirkpatrick20 (plx=40.7mas)
-M_J(T2.5V) = 14.300 ; EEM fit to L/T dwarfs d<25pc
-M_J(T2.5V) =  14.49  ; Gl_845BC   calc using Kirkpatrick20 (plx=274.8048mas)
+(J-Ks)(T2.5V) = 0.982 ; Sanghi24 M6V-T9V trend
+
+M_J(T2.5V) =   13.72 ;  SIMP_J1619275+031350_ T2.5+T4.0 plx=44.9mas
+M_J(T2.5V) =   13.83 ; 2MASS_J22092183-2711329_ T2.5 plx=40.7mas
+M_J(T2.5V) =   14.24 ; 2MASS_J15461461+4932114_ T2.5 plx=46.5mas
+M_J(T2.5V) =  14.300 ; EEM fit to L/T dwarfs d<25pc
+M_J(T2.5V) =   14.49 ; Gl_845BC   calc using Kirkpatrick20 (plx=274.8048mas)
+M_J(T2.5V) =   14.57 ; GJ_9751_B_ T2.5 plx=55.1631mas
 M_J(T2.5V) =   14.98 ; SDSS_0758+3247 calc using Kirkpatrick20 (plx=101.3mas)
 => adopt M_J(T2.5V) = 14.30 [updated 12/30/2020] (M_J(MKO)=13.92, J(MKO)-J=-0.25)
 
@@ -16,11 +21,12 @@ M_J(MKO)(T2.5V) = 14.05  ; M_J=14.30, J(MKO)-J=-0.25
 M_J(MKO)(T2.5V) =  14.75 ; SDSS_0758+3247 calc using Kirkpatrick20 (plx=101.3mas)
 => adopt M_J(MKO)(T2.5V) = 14.05 [updated 12/30/2020] (M_J=14.30, J(MKO)-J=-0.25)
 
-(J(MKO)-J)(T2.5V) = -0.52 +- 0.02 ; Gl_845BC 12.5
-(J(MKO)-J)(T2.5V) = -0.28 +- 0.07 ; 2MASS_2209-2711 12.5
-(J(MKO)-J)(T2.5V) = -0.23 +- 0.04 ; SDSS__0758+3247 12.5
-(J(MKO)-J)(T2.5V) = -0.12 +- 0.07 ; SIMP__1619+0313 12.5
-=> adopt (J(MKO)-J)(T2.5V) = -0.25 [adopted 12/5/2020]
+(J(MKO)-J)(T2.5V) =  -0.52 +-0.02 ; Gl_845BC 12.5
+(J(MKO)-J)(T2.5V) =  -0.28 +-0.07 ; 2MASS_2209-2711 12.5
+(J(MKO)-J)(T2.5V) = -0.25 ; smoothed trend T1.5V-T9.5V (10/20/2024; rms=0.145mag)
+(J(MKO)-J)(T2.5V) =  -0.23 +-0.04 ; SDSS__0758+3247 12.5
+(J(MKO)-J)(T2.5V) =  -0.12 +-0.07 ; SIMP__1619+0313 12.5
+=> adopt (J(MKO)-J)(T2.5V) = -0.25 [adopted 10/20/2024]
 
 M_Ks(T2.5V) =  13.04 ; 2MASS_2209-2711  calc using Kirkpatrick20 (plx=40.7mas)
 M_Ks(T2.5V) =  13.28 ; SIMP_1619+0313  calc using Kirkpatrick20 (plx=44.9mas)
@@ -29,6 +35,15 @@ M_Ks(T2.5V) = 13.53 ; fit to Kirkpatrick20 L7-T3 dwarfs
 M_Ks(T2.5V) = 13.60 ; trend to L/T dwarfs in notes (1/2021)
 M_Ks(T2.5V) =  13.91 ; SDSS_0758+3247  calc using Kirkpatrick20 (plx=101.3mas)
 => adopt M_Ks(T2.5V) = 13.53 [updated 12/30/2020]
+
+BC_J(T2.5V = 2.099 ; Sanghi23 M6V-T9V trend
+
+BC_Ks(T2.5V) = 3.081 mag ; Sanghi23 M6V-T9V field dwarf polynomial
+
+logL(T2.5V) = -4.736 ; Sanghi23 M6V-T9V field dwarf polynomial
+=> adopt logL(T2.5V) = -4.74 [updated 10/4/2024]
+
+Rad(T2.5V) = 0.1099 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial
 
 # Examples
 

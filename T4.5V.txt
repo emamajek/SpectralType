@@ -1,55 +1,75 @@
 T4.5V
 
-Teff(T4.5V) = 1069 K ; Filipazzo15 M6V-T9V field calibration 
+(Ic-J)(T4.5V) = 5.44 ; 2MASS_0559-1404 (Koen04, I_Cousins, 2MASS)
+
+Teff(T4.5V) = 1069 K ; Filipazzo15 M6V-T9V field calibration
+Teff(T4.5V) = 1069 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(T4.5V) = 1172 K ; Kirkpatrick20 (Table 13 polynomial)
 => adopt Teff(T4.5V) = 1170 K (logT = 3.068) [updated 12/30/2020]
 
-M_J(MKO)(T4.5V) =  13.57 ; 2MASS_0559-1404 calc using Kirkpatrick20 (plx=97.28mas)
+(J-Ks)(T4.5V) = 0.429 ; Sanghi24 M6V-T9V trend
+
+M_J(MKO)(T4.5V) =   13.57 ; 2MASS_0559-1404 calc using Kirkpatrick20 (plx=97.28mas)
 M_J(MKO)(T4.5V) =  14.10 ; SDSS_0000+2554 calc using Kirkpatrick20 (plx=70.8mas)
 M_J(MKO)(T4.5V) =  14.34 ; PSO_0506+5236 calc using Kirkpatrick20 (plx=61.3mas)
 M_J(MKO)(T4.5V) =  14.45 ; HIP_38939B  calc using Kirkpatrick20 (plx=54.1012mas)
-M_J(MKO)(T4.5V) = 14.46  ; M_J(T4.5V)=14.69, J(MKO)-J=-0.23
+M_J(MKO)(T4.5V) = 14.47  ; M_J(T4.5V)=14.70, J(MKO)-J=-0.23
 M_J(MKO)(T4.5V) =  14.50 ; WISE_1743+4211 calc using Kirkpatrick20 (plx=59.2mas)
 M_J(MKO)(T4.5V) =  14.72 ; 2MASS_0602+4043 calc using Kirkpatrick20 (plx=76.4mas)
 M_J(MKO)(T4.5V) =  16.57 ; WISE_2302-7134 calc using Kirkpatrick20 (plx=64.8mas)
-=> adopt M_J(MKO)(T4.5V) = 14.46 [updated 12/5/2020] (M_J(T4.5V)=14.69, J(MKO)-J=-0.23)
+=> adopt M_J(MKO)(T4.5V) = 14.47 [updated 10/20/2024] (M_J(T4.5V)=14.70, J(MKO)-J=-0.23)
 
-M_J(T4.5V) =  13.74 ; 2MASS_0559-1404 calc using Kirkpatrick20 (plx=97.28mas)
-M_J(T4.5V) =  14.31 ; SDSS_0000+2554 calc using Kirkpatrick20 (plx=70.8mas)
-M_J(T4.5V) = 14.69  ; PSO_0506+5236 calc using Kirkpatrick20 (plx=61.3mas)
-M_J(T4.5V) = 14.69  ; WISE_1743+4211 calc using Kirkpatrick20 (plx=59.2mas)
-M_J(T4.5V) = 14.69  ; CWISE_2012+7017 calc using Kirkpatrick20 (plx=46.6mas)
-M_J(T4.5V) =  14.79 ; HIP_38939B  calc using Kirkpatrick20 (plx=54.1012mas)
-M_J(T4.5V) =  14.96 ; 2MASS_0602+4043 calc using Kirkpatrick20 (plx=76.4mas)
-M_J(T4.5V) =  16.89 ; WISE_2302-7134 calc using Kirkpatrick20 (plx=64.8mas)
-=> adopt M_J(T4.5V) = 14.69 [updated 12/5/2020] (M_J(MKO)(T4.5V)=14.46, J(MKO)-J=-0.23)
+M_J(T4.5V) =    13.70 ; 2MASS_J05591914-1404488_ T4.5 plx=95.2714mas
+M_J(T4.5V) =    13.90 ; 2MASSI_J1534498-295227_ T4.5+T5 plx=63.0mas
+M_J(T4.5V) =    14.31 ; 2MASS_J00001354+2554180_ T4.5 plx=70.8mas
+M_J(T4.5V) =   14.53 ; 2MASS_J17430367+4211558_ T4.5 plx=54.8mas
+M_J(T4.5V) =   14.61 ; 2MASS_J06020638+4043588_ T4.5 plx=65.1mas
+M_J(T4.5V) =   14.62 ; 2MASS_J21513839-4853542_ T4.5 plx=60.0mas
+M_J(T4.5V) =   14.63 ; PSO_0506+5236 = 2MASS_J05065012+5236338_ T4.5 plx=59.6mas
+M_J(T4.5V) =   14.69 ; WISE_1743+4211 calc using Kirkpatrick20 (plx=59.2mas)
+M_J(T4.5V) =   14.70 ; CWISE_2012+7017 = 2MASS_J20122138+7017415_ T4.5 plx=46.6mas
+M_J(T4.5V) =   14.79 ; HIP_38939B  calc using Kirkpatrick20 (plx=54.1012mas)
+M_J(T4.5V) =   14.85 ; 2MASS_J07580132-2538587_ T4.5V plx=55.6mas
+M_J(T4.5V) =   14.94 ; 2MASS_J13585269+3747137_ T4.5 plx=49.6mas
+M_J(T4.5V) =   14.96 ; 2MASS_0602+4043 calc using Kirkpatrick20 (plx=76.4mas)
+M_J(T4.5V) =    16.89 ; WISE_2302-7134 calc using Kirkpatrick20 (plx=64.8mas) (discrepent)
+=> adopt M_J(T4.5V) = 14.70 [updated 10/20/2024] (M_J(MKO)(T4.5V)=14.46, J(MKO)-J=-0.23)
 
-(J(MKO)-J)(T4.5V) = -0.35 +- 0.07  ; PSO___0506+5236 14.5
-(J(MKO)-J)(T4.5V) = -0.34 +- 0.08  ; HIP_38939B 14.5
-(J(MKO)-J)(T4.5V) = -0.32 +- 0.08  ; WISE__2302-7134 14.5
-(J(MKO)-J)(T4.5V) = -0.24 +- 0.07  ; 2MASS_0602+4043 14.5
-(J(MKO)-J)(T4.5V) = -0.22 +- 0.12  ; CWISE_2012+7017 14.5
-(J(MKO)-J)(T4.5V) = -0.21 +- 0.04  ; SDSS__0000+2554 14.5
-(J(MKO)-J)(T4.5V) = -0.19 +- 0.06  ; WISE__1743+4211 14.5
-(J(MKO)-J)(T4.5V) = -0.17 +- 0.02  ; 2MASS_0559-1404 14.5
-=> adopt (J(MKO)-J)(T4.5V) = -0.23 [updated 12/5/2020]
+(J(MKO)-J)(T4.5V) =  -0.35 +- 0.07  ; PSO__0506+5236 14.5
+(J(MKO)-J)(T4.5V) =  -0.34 +- 0.08  ; HIP_38939B 14.5
+(J(MKO)-J)(T4.5V) =  -0.32 +- 0.08  ; WISE_2302-7134 14.5
+(J(MKO)-J)(T4.5V) = -0.27 ; smoothed trend T1.5V-T9.5V (10/20/2024; rms=0.145mag)
+(J(MKO)-J)(T4.5V) =  -0.24 +- 0.07  ; 2MASS_0602+4043 14.5
+(J(MKO)-J)(T4.5V) =  -0.22 +- 0.12  ; CWISE_2012+7017 14.5
+(J(MKO)-J)(T4.5V) =  -0.21 +- 0.04  ; SDSS_0000+2554 14.5
+(J(MKO)-J)(T4.5V) =  -0.19 +- 0.06  ; WISE_1743+4211 14.5
+(J(MKO)-J)(T4.5V) =  -0.17 +- 0.02  ; 2MASS_0559-1404 14.5
+=> adopt (J(MKO)-J)(T4.5V) = -0.27 [updated 10/20/2024]
 
-M_Ks(T4.5V)     =   13.54  ;  2MASS_0559-1404  calc using Kirkpatrick20  (plx=97.28mas)
-M_Ks(T4.5V)     =   14.09  ;  SDSS_0000+2554   calc using Kirkpatrick20  (plx=70.8mas)
-M_Ks(T4V)       =  14.2    ;  T4V adopted
-M_Ks(T4.5V)     >    14.53 ;  HIP_38939B       calc using Kirkpatrick20  (plx=54.1012mas)
-M_Ks(T4.5V)     =   14.54  ;  PSO_0506+5236    calc using Kirkpatrick20  (plx=61.3mas)
-M_Ks(T4.5V)     =   14.59  ;  2MASS_0602+4043  calc using Kirkpatrick20  (plx=76.4mas)
-M_Ks(T5V)       =  14.8    ;  T5V adopted
-M_Ks(T4.5V)     =   14.89  ;  WISE_1743+4211   calc using Kirkpatrick20  (plx=59.2mas)
-M_Ks(T4.5V)     >    15.12 ;  CWISE_2012+7017  calc using Kirkpatrick20  (plx=46.6mas)
+M_Ks(T4.5V) =   13.54  ; 2MASS_0559-1404  calc using Kirkpatrick20  (plx=97.28mas)
+M_Ks(T4.5V) =   14.09  ; SDSS_0000+2554   calc using Kirkpatrick20  (plx=70.8mas)
+M_Ks(T4V)   =  14.2    ; T4V adopted
+M_Ks(T4.5V) >    14.53 ; HIP_38939B       calc using Kirkpatrick20  (plx=54.1012mas)
+M_Ks(T4.5V) =   14.54  ; PSO_0506+5236    calc using Kirkpatrick20  (plx=61.3mas)
+M_Ks(T4.5V) =   14.59  ; 2MASS_0602+4043  calc using Kirkpatrick20  (plx=76.4mas)
+M_Ks(T5V)   =  14.8    ; T5V adopted
+M_Ks(T4.5V) =   14.89  ; WISE_1743+4211   calc using Kirkpatrick20  (plx=59.2mas)
+M_Ks(T4.5V) >    15.12 ; CWISE_2012+7017  calc using Kirkpatrick20  (plx=46.6mas)
 => adopt M_Ks(T4.5V) = 14.55 [updated 12/5/2020]
 
 M_K(MKO)(T4.5V) =   13.67 ;  2MASS_0559-1404  calc using Kirkpatrick20  (plx=97.28mas)
 M_K(MKO)(T4.5V) =   14.07 ;  SDSS_0000+2554   calc using Kirkpatrick20  (plx=70.8mas)
 
-(K(MKO)-Ks)(T4.5V) = -0.02 +- 0.12 ; SDSS__0000+2554 
+(K(MKO)-Ks)(T4.5V) = -0.02 +- 0.12 ; SDSS_0000+2554 
 (K(MKO)-Ks)(T4.5V) =  0.13 +- 0.03 ; 2MASS_0559-1404 
 
-Ic-J(T4.5V) = 5.44 ; 2MASS_0559-1404 (Koen04, I_Cousins, 2MASS)
+BC_J(T4.5V) = 2.360 ; Sanghi23 M6V-T9V trend
+
+BC_Ks(T4.5V) = 2.789 ; Sanghi23 M6V-T9V field dwarf polynomial 
+
+logL(T4.5V) = -4.905 ; Sanghi23 M6V-T9V field dwarf polynomial
+=> adopt logL(T4.5V) = -4.91 [updated 10/4/2024]
+
+Rad(T4.5V) = 0.1028 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial
+
 

@@ -7,6 +7,8 @@ Kirkpatrick05: "Currently, no optical spectra have been acquired that fill the a
 The 'unified' near-IR T dwarf system appeared in Burgasser06:
 https://ui.adsabs.harvard.edu/abs/2006ApJ...637.1067B/
 
+Best20 (https://arxiv.org/pdf/2010.15853.pdf) shows that there is a significant gap in the (J-K)_MKO colors (between ~0.9 and ~1.4) among T0-T3 dwarfs after the L/T transition, as there is rapid spectral/atmosphere evolution as brown dwarfs cool at ~1300K.
+
 Standards:
 Burgasser06 stan.:   SDSS J120747.17+024424.8   - T0 (primary standard)
 	    	     SDSS J042348.57-041403.5AB - T0 (alternative standard)
@@ -14,6 +16,7 @@ Kirkpatrick10 stan:  SDSS J120747.17+024424.8   - T0 (pri. stan. (0.7-2.5um/SpeX
 	      	     SDSS J083717.22-000018.3 (SDSS J0837-0000) - T0 opt. stan. (0.6-1.0um)
 Theissen22 standard: SDSS J015141.69+124429.6 (J0151+1244) - T0 (pri. stan. (0.9-2.45um/NIRES)
 
+Teff(T0V) = 1190 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(T0V) = 1247 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(T0V) = 1254 K ; Dupuy17(SaumonMarley08 model scale)
 Teff(T0V) = 1255 K ; Kirkpatrick20 (Table 13 polynomial)
@@ -28,6 +31,7 @@ Teff(T0V) = 1323 K ; Dupuy17(Lyon model scale)
 
 (z-J)(T0V) = 2.88 (+-0.50; rms) ; Hawley02 ("z*-J*")
 
+(J-Ks)(T0V) =  1.521 ; Sanghi24 M6V-T9V trend
 
 M_J(T0V) = 14.805 ; EEM fit to L/T dwarfs d<25pc
 => adopt M_J(T0V) = 14.81 [updated 12/30/2020]
@@ -47,6 +51,8 @@ M_Ks(T0V) =   13.56 ; PSO_2117-2940 calc using Kirkpatrick20 (plx=76.1mas)
 
 (K(MKO)-Ks)(T0V) = 0.03 +- 0.04 ; SDSS__0423-0414
 
+BC_J(T0V) = 1.780 ; Sanghi23 M6V-T9V trend
+
 BC_Ks(T0V) = 3.122 ; Filipazzo15 (field) [denser trend through L/T]
 BC_Ks(T0V) = 3.028 ; Looper08
 => adopt BC_Ks(T0V) = 3.12 [updated 11/1/2019]
@@ -55,10 +61,13 @@ BC_Ks(T0V) = 3.028 ; Looper08
 (Ks-W1)(T0V) = 0.696 ; Dupuy12 trend
 => adopt (Ks-W1)(T0V) = 0.70
 
-Best20 (https://arxiv.org/pdf/2010.15853.pdf) shows that there is a
-significant gap in the (J-K)_MKO colors (between ~0.9 and ~1.4) among
-T0-T3 dwarfs after the L/T transition, as there is rapid
-spectral/atmosphere evolution as brown dwarfs cool at ~1300K.
+BC_Ks(T0V) = 3.301 mag ; Sanghi23 calibration (M6V-T9V) 
+
+logL(T0V) = -4.634 ; Sanghi23 M6V-T9V field dwarf polynomial
+=> adopt logL(T0V) = -4.63 [updated 10/4/2024]
+
+Rad(T0V) = 0.1133 Rsun ; Sanghi23 calibration (M6V-T9V) 
+
 
 # Primary Standard
 

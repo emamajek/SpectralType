@@ -8,21 +8,25 @@ Theissen22 standard:  SDSS J162414.37+002915.6 (J1624+0029) - T6 (pri. stan. (0.
 
 Teff(T6V) =   827 K ; WISE_0645-0302 (Kirkpatrick19; plx=50.7+-4.2mas)
 Teff(T6V) =   828 K ; WISE_1735-8209 (Kirkpatrick19; plx=75.1+-4.6mas)
+Teff(T6V) =  836 K ; WISE J1501-40 (Beiler24; JWST)
 Teff(T6V) =  881 K ; exemplar 2MASSI J0937347+293142 (Kirkpatrick20)
 Teff(T6V) =   890 K ; WISE_1122+2550 (Kirkpatrick19; plx=66.3+-2.3mas)
 Teff(T6V) =   914 K ; Gl_576B (Kirkpatrick19; plx=52.7+-0.3mas)
 Teff(T6V) =   914 K ; VHS_1258-4412 (Kirkpatrick19; plx=63.8+-4.0mas)
 Teff(T6V) =  920 K ; 2MASS_0937+2931 (Kirkpatrick19; plx=162.8+-3.9mas)
 Teff(T6V) =  921 K ; exemplar WISEPC J150649.97+702736.0 (Kirkpatrick20)
+Teff(T6V) =  922 K ; SDSS J1624+00 (Beiler24; JWST)
 Teff(T6V) =   923 K ; WISE_1906+4508 (Kirkpatrick19; plx=64.1+-1.6mas)
 Teff(T6V) =   924 K ; SDSS_1624+0029 (Kirkpatrick19; plx=91.8+-1.2mas)
 Teff(T6V) =   929 K ; WISE_1501-4004 (Kirkpatrick19; plx=69.5+-4.0mas)
 Teff(T6V) =   930 K ; 2MASS_1615+1340 (Kirkpatrick19; plx=58.4+-2.5mas)
 Teff(T6V) =   939 K ; WISE_2357+1227 (Kirkpatrick19; plx=59.5+-4.1mas)
-Teff(T6V) =  943 K ; Filipazzo15 M6V-T9V field calibration 
+Teff(T6V) =  943 K ; Filipazzo15 M6V-T9V field calibration
+Teff(T6V) =  947 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(T6V) =  949 K ; Gl_845C (Kirkpatrick19; plx=276.1+-0.3mas)
 Teff(T6V) =  952 K ; WISE_1506+7027 (Kirkpatrick19; plx=193.5+-0.6mas)
 Teff(T6V) =   954 K ; 2MASS_0243-2453 (Kirkpatrick19; plx=93.6+-3.6mas)
+Teff(T6V) = 956 K ; pri. stan. SDSS J1624+0029 (median, see below)
 Teff(T6V) =  967 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(T6V) =  968 K ; SCR_1845-6357B (Kirkpatrick19; plx=259.5+-1.1mas)
 Teff(T6V) =   974 K ; 2MASS_2228-4310 (Kirkpatrick19; plx=92.1+-2.6mas)
@@ -32,11 +36,7 @@ Teff(T6V) =   993 K ; WISE_2343-7418 (Kirkpatrick19; plx=58.8+-2.7mas)
 Teff(T6V) =   1004 K ; DENIS J081730.0−615520(Kirkpatrick20)
 Teff(T6V) =   1008 K ; WISE_0627-1114 (Kirkpatrick19; plx=74.8+-3.6mas)
 Teff(T6V) =   1014 K ; WISE_2237+7228 (Kirkpatrick19; plx=62.3+-2.5mas)
-=> adopt Teff(T6V) = 950 K (logT = 2.978) [updated 2/2/2021]
-
-BC_Ks(T6V) = 2.476 ; Filipazzo15 (field) [denser trend through L/T]
-BC_Ks(T6V) = 2.222 ; Looper08
-=> adopt BC_Ks(T6V) = 2.47 [updated 11/1/2019]
+=> adopt Teff(T6V) = 940 K (logT = 2.9731) [updated 10/4/2024]
 
 (r-i)(T6V) = 1.96 (+-0.96; rms) ; Hawley02 ("r*-i*")
 
@@ -45,6 +45,13 @@ BC_Ks(T6V) = 2.222 ; Looper08
 (i-J)(T6V) = 7.49 (+-0.33; rms) ; Hawley02 ("i*-J")
 
 (z-J)(T6V) = 3.49 (+-0.06; rms) ; Hawley02 ("z*-J")
+(z-J)(T6V) = 3.82 ; pri. stan. SDSS J1624+0029 (Knapp04)
+
+(Z-J)(T6V) = 2.12 ; pri. stan. SDSS J1624+0029 (Knapp04)
+
+(J-Ks)(T6V) =  0.04 ; M_J=15.34, M_Ks=15.30 (see below)
+(J-Ks)(T6V) =   0.045 ; Sanghi24 M6V-T9V trend
+=> adopt (J-Ks)(T6V) = 0.04 [updated 10/20/2024]
 
 W1-W2(T6V) = 2.01 ; Kirkpatrick19 polynomial
 
@@ -62,7 +69,8 @@ M_J(T6V) =  15.24 ; 2MASS_0243-2453 calc using Kirkpatrick20 (plx=93.62mas)
 M_J(T6V) =  15.25 ; SCR_1845-6357B calc using Kirkpatrick20 (plx=249.9187mas)
 M_J(T6V) =  15.29 ; WISE_1627+3255 calc using Kirkpatrick20 (plx=54.4mas)
 M_J(T6V) =  15.29 ; WISE_1928+2356 calc using Kirkpatrick20 (plx=154.9mas)
-M_J(T6V) = 15.30  ; SDSS_1624+0029 calc using Kirkpatrick20 (plx=91.8mas) (pri. stan.)
+M_J(T6V) = 15.287 +-0.016 ; pri. stan. SDSS_1624+0029 (2MASS,Faherty12)
+M_J(T6V) = 15.30 ; pri. stan. SDSS_1624+0029 calc using Kirkpatrick20 (plx=91.8mas)
 M_J(T6V) = 15.34 ; M_J(MKO)=15.00, J(MKO)-J = -0.34
 M_J(T6V) =  15.39 ; WISE_1906+4508 calc using Kirkpatrick20 (plx=64.1mas)
 M_J(T6V) =  15.47 ; VHS_1258-4412 calc using Kirkpatrick20 (plx=67.0mas)
@@ -73,7 +81,7 @@ M_J(T6V) =  15.71 ; 2MASS_0937+2931 calc using Kirkpatrick20 (plx=162.84mas)
 M_J(T6V) =  15.75 ; WISE_1501-4004 calc using Kirkpatrick20 (plx=72.8mas)
 M_J(T6V) =  15.76 ; WISE_1506+7027 calc using Kirkpatrick20 (plx=193.5mas)
 M_J(T6V) =  15.78 ; WISE_1122+2550 calc using Kirkpatrick20 (plx=66.3mas)
-=> adopt M_J(T6V) = 15.34 [updated 12/5/2020] (M_J(MKO)=15.00, J(MKO)-J = -0.34)
+=> adopt M_J(T6V) = 15.34 [updated 10/6/2024] (M_J(MKO)=15.00, J(MKO)-J = -0.34)
 
 M_J(MKO)(T6V) =  14.29 ; 2MASS_1225-2739 calc using Kirkpatrick20 (plx=76.0mas)
 M_J(MKO)(T6V) =  14.61 ; WISE_0627-1114 calc using Kirkpatrick20 (plx=74.8mas)
@@ -87,7 +95,7 @@ M_J(MKO)(T6V) =  14.97 ; WISE_1506+7027 calc using Kirkpatrick20 (plx=193.5mas)
 M_J(MKO)(T6V) =  14.98 ; WISE_1906+4508 calc using Kirkpatrick20 (plx=64.1mas)
 M_J(MKO)(T6V) =  14.99 ; 2MASS_0243-2453 calc using Kirkpatrick20 (plx=93.62mas)
 M_J(MKO)(T6V) =  14.99 ; WISE_0614+3912 calc using Kirkpatrick20 (plx=53.7mas)
-M_J(MKO)(T6V) = 15.00 ; SDSS_1624+0029 calc using Kirkpatrick20 (plx=91.8mas) (pri. stan.)
+M_J(MKO)(T6V) = 15.00 ; pri. stan. SDSS_1624+0029 calc using Kirkpatrick20 (plx=91.8mas)
 M_J(MKO)(T6V) =  15.06 ; WISE_2357+1227 calc using Kirkpatrick20 (plx=61.9mas)
 M_J(MKO)(T6V) =  15.11 ; 2MASS_2228-4310 calc using Kirkpatrick20 (plx=92.1mas)
 M_J(MKO)(T6V) =  15.13 ; VHS_1258-4412 calc using Kirkpatrick20 (plx=67.0mas)
@@ -98,29 +106,30 @@ M_J(MKO)(T6V) =  15.36 ; 2MASS_0937+2931 calc using Kirkpatrick20 (plx=162.84mas
 M_J(MKO)(T6V) =  15.41 ; WISE_1122+2550 calc using Kirkpatrick20 (plx=66.3mas)
 M_J(MKO)(T6V) =  15.41 ; WISE_1501-4004 calc using Kirkpatrick20 (plx=72.8mas)
 M_J(MKO)(T6V) =  15.78 ; WISE_1735-8209 calc using Kirkpatrick20 (plx=76.1mas)
-=> adopt M_J(MKO) = 15.00 [updated 12/5/2020] (M_J(MKO)=15.34, J(MKO)-J = -0.34)
+=> adopt M_J(MKO) = 15.00 [updated 10/4/2024] (M_J(MKO)=15.34, J(MKO)-J=-0.34)
 
 (J(MKO)-J)(T6V) =   -0.79 +- 0.10 ; WISE_1506+7027  
 (J(MKO)-J)(T6V) =   -0.59 +- 0.16 ; WISE_0614+3912  
-(J(MKO)-J)(T6V) =   -0.42 +- 0.14 ; WISE_2357+1227  
-(J(MKO)-J)(T6V) =  -0.41 +- 0.09  ; WISE_1906+4508  
-(J(MKO)-J)(T6V) =  -0.37 +- 0.05  ; 2MASS_1225-2739 
-(J(MKO)-J)(T6V) =  -0.37 +- 0.07  ; 2MASS_2228-4310 
-(J(MKO)-J)(T6V) =  -0.37 +- 0.09  ; WISE_1122+2550  
-(J(MKO)-J)(T6V) =  -0.36 +- 0.06  ; WISE_1928+2356  
-(J(MKO)-J)(T6V) =  -0.35 +- 0.02  ; WISE_1627+3255  
-(J(MKO)-J)(T6V) =  -0.35 +- 0.04  ; 2MASS_0937+2931 
-(J(MKO)-J)(T6V) =  -0.34 +- 0.03  ; WISE_1501-4004  
-(J(MKO)-J)(T6V) =   -0.34 +- 0.14 ; VHS__1258-4412  
-(J(MKO)-J)(T6V) =  -0.33 +- 0.02  ; DENIS_0817-6155 
-(J(MKO)-J)(T6V) =  -0.33 +- 0.04  ; WISE_2343-7418  
-(J(MKO)-J)(T6V) = -0.30 +- 0.05   ; SDSS_1624+0029 (pri. stan.)
-(J(MKO)-J)(T6V) =  -0.25 +- 0.05  ; WISE_0627-1114  
-(J(MKO)-J)(T6V) =  -0.25 +- 0.06  ; 2MASS_0243-2453 
-(J(MKO)-J)(T6V) =  -0.24 +- 0.07  ; WISE_1721+1117  
-(J(MKO)-J)(T6V) =  -0.22 +- 0.09  ; 2MASS_1615+1340 
+(J(MKO)-J)(T6V) =   -0.42 +- 0.14  ; WISE_2357+1227  
+(J(MKO)-J)(T6V) =   -0.41 +- 0.09  ; WISE_1906+4508  
+(J(MKO)-J)(T6V) =   -0.37 +- 0.05  ; 2MASS_1225-2739 
+(J(MKO)-J)(T6V) =   -0.37 +- 0.07  ; 2MASS_2228-4310 
+(J(MKO)-J)(T6V) =   -0.37 +- 0.09  ; WISE_1122+2550  
+(J(MKO)-J)(T6V) =   -0.36 +- 0.06  ; WISE_1928+2356  
+(J(MKO)-J)(T6V) =   -0.35 +- 0.02  ; WISE_1627+3255  
+(J(MKO)-J)(T6V) =   -0.35 +- 0.04  ; 2MASS_0937+2931 
+(J(MKO)-J)(T6V) =   -0.34 +- 0.03  ; WISE_1501-4004  
+(J(MKO)-J)(T6V) =   -0.34 +- 0.14  ; VHS__1258-4412  
+(J(MKO)-J)(T6V) =   -0.33 +- 0.02  ; DENIS_0817-6155 
+(J(MKO)-J)(T6V) =   -0.33 +- 0.04  ; WISE_2343-7418
+(J(MKO)-J)(T6V) =  -0.30 ; smoothed trend T1.5V-T9.5V (10/20/2024; rms=0.145mag)
+(J(MKO)-J)(T6V) =   -0.30 +- 0.05  ; SDSS_1624+0029 (pri. stan.)
+(J(MKO)-J)(T6V) =   -0.25 +- 0.05  ; WISE_0627-1114  
+(J(MKO)-J)(T6V) =   -0.25 +- 0.06  ; 2MASS_0243-2453 
+(J(MKO)-J)(T6V) =   -0.24 +- 0.07  ; WISE_1721+1117  
+(J(MKO)-J)(T6V) =   -0.22 +- 0.09  ; 2MASS_1615+1340 
 (J(MKO)-J)(T6V) =    0.03 +- 0.04 ; SCR__1845-6357B 
-=> adopt (J(MKO)-J)(T6V) = -0.34 [updated 12/5/2020] 
+=> adopt (J(MKO)-J)(T6V) = -0.30 [updated 10/20/2024] 
 
 mixing MKO and 2MASS, but (K(MKO)-Ks)(T6V) ~ 0.12 (see below), focus on standard SDSS_1624+0029 
 M_Ks(T6V)      =   14.46  ;  WISE_1721+1117  calc using Kirkpatrick20(plx=50.4mas)
@@ -142,9 +151,11 @@ M_Ks(T6V)      =   15.11  ;  2MASS_2228-4310  calc using Kirkpatrick20(plx=92.1m
 M_Ks(T6V)      >    15.13 ;  WISE_2237+7228 calc using Kirkpatrick20(plx=67.3mas)
 M_K(MKO)(T6V)  =   15.20  ;  2MASS_0243-2453  calc using Kirkpatrick20(plx=93.62mas)
 M_Ks(T6V)      =   15.28  ;  VHS_1258-4412  calc using Kirkpatrick20(plx=67.0mas)
-M_Ks(T6V)      >  15.33   ;  SDSS_1624+0029 calc using Kirkpatrick20(plx=91.8mas) (pri. stan.)
-M_K(MKO)(T6V)  =  15.42   ;  SDSS_1624+0029  calc using Kirkpatrick20(plx=91.8mas) (pri. stan.)
-M_K(MKO)(T6V)  = 15.42    ;  M_Ks=15.30, K(MKO)-Ks=0.12
+M_Ks(T6V)      = 15.28 ; pri. stan. SDSS J162414.37+002915.6 (K_MKO=>Ks_2MASS) (calc. below)
+M_Ks(T6V)      > 15.33 ; pri. stan. SDSS_1624+0029 calc using Kirkpatrick20(plx=91.8mas) (pri. stan.)
+M_K(MKO)(T6V)  = 15.40 ; pri. stan. SDSS J162414.37+002915.6 (K_MKO=>Ks_2MASS) (calc.below)
+M_K(MKO)(T6V)  = 15.42 ; pri. stan. SDSS_1624+0029 calc using Kirkpatrick20(plx=91.8mas) (pri. stan.)
+M_K(MKO)(T6V)  = 15.42 ; M_Ks=15.30, K(MKO)-Ks=0.12
 M_K(MKO)(T6V)  =   15.48  ;  WISE_2357+1227  calc using Kirkpatrick20(plx=61.9mas)
 M_Ks(T6V)      =   15.48  ;  WISE_1506+7027  calc using Kirkpatrick20(plx=193.5mas)
 M_Ks(T6V)      =   15.52  ;  WISE_1501-4004  calc using Kirkpatrick20(plx=72.8mas)
@@ -158,19 +169,84 @@ M_Ks(T6V)      =   16.33  ;  2MASS_0937+2931  calc using Kirkpatrick20(plx=162.8
 M_Ks(T6V)      =   16.39  ;  WISE_1735-8209  calc using Kirkpatrick20(plx=76.1mas)
 M_K(MKO)(T6V)  =   16.45  ;  2MASS_0937+2931  calc using Kirkpatrick20(plx=162.84mas)
 M_K(MKO)(T6V)  =   16.59  ;  UGPS_0355+4743  calc using Kirkpatrick20(plx=66.4mas)
-=> adopt M_Ks(T6V) = 15.30 [updated 12/5/2020] (M_K=15.42, K(MKO)-Ks=0.12)
-=> adopt M_K(MKO)(T6V) = 15.42 [updated 12/5/2020] (M_Ks=15.30, K(MKO)-Ks=0.12)
+=> adopt M_Ks(T6V)     = 15.30 [updated 10/4/2024] (M_K=15.42, K(MKO)-Ks=0.12)
+=> adopt M_K(MKO)(T6V) = 15.42 [updated 10/4/2024] (M_Ks=15.30, K(MKO)-Ks=0.12)
 
 (K(MKO)-Ks)(T6V) =  -0.01 +- 0.21 ; 2MASS_2228-4310
-(K(MKO)-Ks)(T6V) =  0.01 +- 0.03  ; SCR__1845-6357B
+(K(MKO)-Ks)(T6V) =  0.01 +- 0.03  ; SCR_1845-6357B
 (K(MKO)-Ks)(T6V) =   0.12 +- 0.14 ; 2MASS_0937+2931
 (K(MKO)-Ks)(T6V) =   0.12 +- 0.17 ; 2MASS_0243-2453
 (K(MKO)-Ks)(T6V) =  0.13 +- 0.04  ; 2MASS_1225-2739
 (K(MKO)-Ks)(T6V) =  0.13 +- 0.04  ; DENIS_0817-6155
 (K(MKO)-Ks)(T6V) =   0.32 +- 0.17 ; WISE_0417+2415 
-=> adopt (K(MKO)-Ks)(T6V) = 0.12 [updated 12/5/2020]
+=> adopt (K(MKO)-Ks)(T6V) = 0.12 [updated 10/6/2024]
 
+BC_J(T6V) = 2.448 ; Sanghi23 M6V-T9V trend
+BC_J(T6V) = 2.502 ; pri. stan. J1624+00 (calculated below, 2MASS sys)
+=> adopt BC_J(T6V) = 2.50 [updated 10/4/2024]
 
+BC_Ks(T6V) = 2.506 mag ; pri. stan. J1624+00 (calculated below, 2MASS sys)
+BC_Ks(T6V) = 2.493 mag ; Sanghi23 M6V-T9V field dwarf polynomial
+BC_Ks(T6V) = 2.476 mag ; Filipazzo15 (field) [denser trend through L/T]
+BC_Ks(T6V) =  2.222 mag ; Looper08
+=> adopt BC_Ks(T6V) = 2.50 [updated 10/4/2024]
+[EEM 10/4/2024: note that the BC_Ks from the Sanghi23 relation and the new BC_Ks
+calculated for standard J1624 calculated using the JWST bolometric flux from Beiler24
+agree within 0.013 mag!] 
+
+logL(T6V) = -5.155 ; Sanghi23 M6V-T9V field dwarf polynomial
+logL(T6V) = -5.224 ; M_Ks=15.30, BC_Ks=2.50, Mbol=17.80
+logL(T6V) = -5.228 +-0.013 ; pri. stan. SDSS J1624+00 (Beiler24; JWST)
+logL(T6V) = -5.240 ; M_J=15.34, BC_J=2.50, Mbol=17.84 
+logL(T6V) = -5.385 +-0.028 ; WISE J1501-40 (Beiler24; JWST)
+=> adopt logL(T6.5V) = -5.155 [updated 10/4/2024]
+=> adopt Mbol(T6.5V) =  17.80 [updated 10/4/2024]
+
+Rad(T6V) = 0.09532 +-0.00145 Rsun ; pri. stan. SDSS J1624+0029 (Beiler24; JWST)
+Rad(T6V) = 0.0983            Rsun ; Sanghi23 M6V-T9V field dwarf polynomial
+Rad(T6V) = 0.10276 +-0.01028 Rsun ; (=1+-0.1Rjup; assumed BD rad for one model T6V-Y1V; Beiler24)
+
+# Primary Standard
+
+SDSS J162414.37+002915.6 = CNS5 4015 = 2MASS J16241436+0029158 = WISE J162414.09+002915.6 
+ T6: Bugasser02, Geballe02, Burgasser03(pri. opt/NIR stan.), Burgasser04, Knapp04, Burgasser06(prim.stan.), Looper07, Testi09, Burgasser10(near-IR/SpEx), Kirkpatrick10(pri. stan/SpEx), Kirkpatrick11, Kirkpatrick12, Dupuy12, Crossfield14, Martin17, Leggett17, Best18, Kirkpatrick19, Best21(opt/NIR), Theissen22(pri. stan./NIRES), Kirkpatrick21(opt/IR), Hsu21
+
+ Classified T6 ubiquitously both in optical and near-IR since
+ Burgasser02. Very nearby plx=90.90+-1.20mas(Faherty12) =>
+ d=11.00+-0.15pc.  Nearby field T dwarf discovered in Sloan
+ commissioning data by Strauss99(1999ApJ...522L..61S), and at the time
+ of publication (July 1999) called "the coolest field dwarf yet
+ known". A lot of these references are repeating previous references
+ (mainly Burgaser), but shows history of consistent use as T6
+ standard.  Teffs: 888K(Bieler24/Rjup), 922+53-78K(Beiler24),
+ 924K(Kirkpatrick19), 936+-78K(Kirkpatrick21),
+ 975+-150K(Golimowski04), 987+22-60K(Beiler24/uni), 1002(Vrba04),
+ 1010+-30K(Burgasser06) => adopt
+ Teff=956K. J=15.494+-0.054(2MASS,q=A), J=15.20+-0.05(Zhang21),
+ H=15.524+-0.100(2MASS,q=A), H=15.48+-0.05(Zhang21), upper limit for
+ 2MASS Ks (Ks>15.518), K=15.61+-0.05(Faherty12,Leggett17,Leggett21).
+ Converting the Faherty12 Kmag to 2MASS => Ks=(K_MKO - 0.12) =>
+ estimate Ks=15.49 on 2MASS system.  SDSS photometry has large errors
+ for ugri, but i=22.880+-0.297(SDSS/DR7),
+ i=22.818+-0.267(SDSS/DR9,SDSS/DR12), i=22.811+-0.256(SDSS/DR16),
+ i=22.95+-0.09(Leggett17), z=19.03+-0.04(Leggett17),
+ z=19.051+-0.040(SDSS/DR6), z=19.069+-0.040(SDSS/DR7),
+ z=19.074+-0.040(SDSS/DR9,SDSS/DR12), z=19.027+-0.038(SDSS/DR16),
+ Y=16.38+-0.10(Leggett10,Leggett21), Y=16.28+-0.05(Best21),
+ L'=13.60+-0.04(Leggett10).  Strauss99 discovery paper reported two
+ epochs of z*=19.02+-0.04 and z*=19.03+-0.04, with zero point
+ uncertainty at 0.05mag level. i*-z*=3.77+-0.021(Stauss99).
+ fbol=1.595±0.022×10−15W/m2(Beiler24;JWST) =>
+ mbol=17.9956+-0.0150mag(IAU2015 scale).
+ logL=-5.228+-0.013(Beiler24;JWST).  Combining Beiler24's Teff and
+ logL => Rad=0.09532+-0.00145Rsun.  SIMBAD lists it as a member of
+ Carina-near Moving Group, so it may be young (~few hundred Myr?).
+ One can calculate BCs from the available mbol and magnitudes: BC_Ks =
+ mbol - Ks = 17.9956 - 15.49 = 2.506, BC_J = 17.9956 - 15.494 =
+ 2.502. vsini=38.5+-1.8km/s(Crossfield14).
+ plx=90.9+-1.2mas(Faherty12) => M_J(2MASS)=15.287+-0.0161,
+ M_J(MKO)=14.993+-0.058, M_H(2MASS)=15.317+-0.104,
+ M_H(MKO)=15.273+-0.058, M_Ks=15.28, M_K(MKO)=15.403+-0.058.
 
 # Exemplar
 

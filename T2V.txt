@@ -8,6 +8,7 @@ Theissen22 standard:  SDSS J125453.90-012247.4 - T2 (pri. stan. (0.9-2.45um/NIRE
 
 SIMBAD lists only one T2 within 10pc: SIMP J013656.5+093347.3 
 
+Teff(T2V) = 1150 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(T2V) = 1184 K ; Filipazzo15 M6V-T9V field calibration 
 Teff(T2V) = 1189 K ; Dupuy17(SaumonMarley08 model scale)
 Teff(T2V) = 1218 K ; Kirkpatrick20 (Table 13 polynomial)
@@ -23,6 +24,8 @@ SIMP_0136+0933 appears to be near middle of group for the J & K colors
 (i-J)(T2V) = 7.38 (+-0.50; rms) ; Hawley02 ("i*-J")
 
 (z-J)(T2V) = 3.13 (+-0.50; rms) ; Hawley02 ("z*-J")
+
+(J-Ks)(T2V) = 1.109 ; Sanghi24 M6V-T9V trend
 
 (Ks-W1)(T2V) = 0.532 ; Dupuy12 #1
 => adopt (Ks-W1)(T2V) = 0.53 [updated 12/28/2019]
@@ -49,14 +52,15 @@ M_J(MKO)(T2V) =  14.53 ; WISE_2121-6239 calc using Kirkpatrick20 (plx=74.9mas)
 M_J(MKO)(T2V) =  14.61 ; PSO_1629+0335 calc using Kirkpatrick20 (plx=81.2mas)
 => adopt M_J(MKO)(T2V) = 14.30 [updated 12/5/2020] (M_J=14.52, J(MKO)-J=-0.22)
 
-(J(MKO)-J)(T2V) =  -0.27 +- 0.05 ; WISE_2121-6239 
+(J(MKO)-J)(T2V) =  -0.27 +- 0.05 ; WISE_2121-6239
+(J(MKO)-J)(T2V) - -0.26 ; smoothed trend T1.5V-T9.5V (10/20/2024; rms=0.145mag)
 (J(MKO)-J)(T2V) =  -0.24 +- 0.09 ; WISE_1755+1803 
 (J(MKO)-J)(T2V) =  -0.23 +- 0.04 ; WISE_0457-0207 
 (J(MKO)-J)(T2V) = -0.22 +- 0.04  ; PSO_1629+0335 
 (J(MKO)-J)(T2V) =  -0.22 +- 0.04 ; SDSS_1254-0122 
 (J(MKO)-J)(T2V) = -0.21 +- 0.03 ; exemplar SIMP_0136+0933 
 (J(MKO)-J)(T2V) =  -0.19 +- 0.04 ; 2MASS_1122-3512
-=> adopt (J(MKO)-J)(T2V) = -0.22 [updated 12/5/2020]
+=> adopt (J(MKO)-J)(T2V) = -0.26 [updated 10/20/2024]
 
 M_K(MKO)(T2V) =  13.36 ; SDSS_1254-0122 calc using Kirkpatrick20 (plx=78.34mas)
 M_K(MKO)(T2V) = 13.54  ; M_Ks=13.5, K(MKO)-Ks=0.04 
@@ -82,12 +86,17 @@ M_Ks(T2V) =  14.05 ; 2MASS_1324+6358 calc using Kirkpatrick20 (plx=99.7mas)
 M_G(T2V) = 20.55 ; exemplar SIMP_J0136+0933
 => adopt M_G(T2V) = 20.55 [updated 1/15/2021]
 
+BC_J(T2V) = 2.028 ; Sanghi23 M6V-T9V trend
+
+BC_Ks(T2V) = 2.770 ; Looper08 
 BC_Ks(T2V) = 2.991 ; Filipazzo15 (field) [denser trend through L/T]
-BC_Ks(T2V) = 2.770 ; Looper08
+BC_Ks(T2V) = 3.137 ; Sanghi23 M6V-T9V field dwarf polynomial
 => adopt BC_Ks(T2V) = 2.99 [updated 11/1/2019]
 
+logL(T2V) = -4.711 ; Sanghi23 M6V-T9V field dwarf polynomial
+=> adopt logL(T2V) = -4.71 [updated 10/4/2024]
 
-logL(T2V) = 
+Rad(T2V) = 0.1111 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial
 
 # Exemplar
 

@@ -1,7 +1,9 @@
 T8.5V
 
+Teff(T8.5V) =  484 K ; Sanghi23 M6V-T9V field dwarf polynomial (near end of polynomial!)
 Teff(T8.5V) =   552 K ; WISE_1812+2721 (Kirkpatrick19; plx=98.5+-4.4mas)
 Teff(T8.5V) =   559 K ; WISE J111838.70+312537.9 (Kirkpatrick20)
+Teff(T8.5V) =  560 K ; WISEPA_J0313+78 (Beiler24; JWST) 
 Teff(T8.5V) =   566 K ; CFBDS J005910.90−011401.3 (Kirkpatrick20)
 Teff(T8.5V) =   570 K ; WISEPA J031325.96+780744.2 (Kirkpatrick20)
 Teff(T8.5V) = ~575 K [550-600K] ; mean T8.5V Dupuy13
@@ -29,25 +31,50 @@ Teff(T8.5V) =   652 K ; CFBDS_0133+0231 (Kirkpatrick19; plx=56.3+-3.4mas)
 Teff(T8.5V) =   694 K ; WISE_1301-0302 (Kirkpatrick19; plx=53.8+-5.6mas)
 => adopt Teff(T8.5V) = 600 K (logT = 2.778) [updated 2/2/2021]
 
-M_J(T8.5V) =  17.46  ; WISE_0049+2151 calc using Kirkpatrick20 (plx=140.4mas)
-M_J(T8.5V) =  17.61  ; WISE_0458+6434 calc using Kirkpatrick20 (plx=106.7mas)
-M_J(T8.5V) =  17.95  ; WISE_1025+0307 calc using Kirkpatrick20 (plx=83.6mas)
-M_J(T8.5V) =  17.97  ; WISE_1051-2138 calc using Kirkpatrick20 (plx=64.0mas)
-M_J(T8.5V) =  18.21  ; WISE_0750+2725 calc using Kirkpatrick20 (plx=68.4mas)
-M_J(T8.5V) = 18.25  ; M_J(MKO)(T8.5V) = 17.9, (J(MKO)-J)(T8.5V) = -0.35
-M_J(T8.5V) =  18.31  ; WISE_0313+7807 calc using Kirkpatrick20 (plx=135.6mas)
-M_J(T8.5V) =  18.41  ; CFBDS_0059-0114 calc using Kirkpatrick20 (plx=103.2mas)
-M_J(T8.5V) >   18.55 ; WISE_1812+2721 calc using Kirkpatrick20 (plx=98.5mas)
-M_J(T8.5V) =  18.66  ; WISE_1118+3125 calc using Kirkpatrick20 (plx=114.4867mas)
-=> adopt M_J(T8.5V) = 18.25 [updated 2/2/2021] (M_J(MKO)(T8.5V) = 17.9, (J(MKO)-J)(T8.5V) = -0.35)
+(J-Ks)(T8.5V) = -0.217 ; Sanghi24 M6V-T9V trend
 
-M_J(MKO)(T8.5V) =  16.68 ; WISE_1301-0302 calc using Kirkpatrick20 (plx=54.5mas)
-M_J(MKO)(T8.5V) =  16.97 ; CFBDS_0133+0231 calc using Kirkpatrick20 (plx=53.1mas)
-M_J(MKO)(T8.5V) =  17.03 ; ULAS_1152+1134 calc using Kirkpatrick20 (plx=56.7mas)
-M_J(MKO)(T8.5V) =  17.05 ; CWISE_2057-1704 calc using Kirkpatrick20 (plx=49.5mas)
-M_J(MKO)(T8.5V) = 17.10 ; WISE_0049+2151 calc using Kirkpatrick20 (plx=140.4mas)
+(W1-W2)(T8.5V) = 2.99 ; Kirkpatrick19 polynomial
+
+
+Note that, as the proliferation of WISE, ULAS, CFBDS, etc. IDs suggests, few of these
+objects were discovered in 2MASS and they typically either lack 2MASS photometry or
+have poor 2MASS photometry. The SIMBAD photometry is usually *not* from 2MASS, but often
+MKO or UKIDSS. 
+
+M_J(T8.5V) =    16.35 ; GJ_494_C_ T8.5p plx=85.54mas
+M_J(T8.5V) =    16.68 ; WISE_J130141.62-030212.9_ T8.5 plx=54.5mas
+M_J(T8.5V) =    16.88 ; ULAS_J123828.51+095351.3_ T8.5(N) plx=44.1mas
+M_J(T8.5V) =    16.96 ; CFBDS_J013302+023128_ T8.5 plx=53.1mas
+M_J(T8.5V) =    17.03 ; ULAS_J115239.93+113407.6_ T8.5 plx=56.7mas
+M_J(T8.5V) =    17.07 ; ULAS_J130217.21+130851.2_ T8.5 plx=65mas
+M_J(T8.5V) =   17.43 ; WISE_J032337.53-602554.5_ T8.5 plx=71.7mas
+M_J(T8.5V) =   17.45 ; WISE_J004945.61+215120.0_ T8.5 plx=140.4mas
+M_J(T8.5V) =   17.45 ; WISE_J102557.72+030755.7_ T8.5 plx=83.6mas
+M_J(T8.5V) =   17.46 ; WISE_J003231.09-494651.4_ T8.5 plx=60.8mas
+M_J(T8.5V) =   17.56 ; WISEA_J061557.21+152626.1_ T8.5 plx=52.8mas
+M_J(T8.5V) =   17.57 ; WISE_J051208.66-300404.4_ T8.5 plx=47.0mas
+M_J(T8.5V) =   17.61 ; WISE_J045853.89+643452.5_ T8.5+T9 (WDS) plx=106.7mas
+M_J(T8.5V) =   17.64 ; CFBDS_J003402-005206_ T8.5 plx=79.60mas
+M_J(T8.5V) =   17.64 ; WISE_J104245.23-384238.3_ T8.5 plx=64.8mas
+M_J(T8.5V) =   17.70 ; WISE_J054047.00+483232.4_ T8.5 plx=69.4mas
+M_J(T8.5V) =   17.82 ; ULAS_J133553.45+113005.2_ T8.5 plx=96.70mas
+M_J(T8.5V) =   17.91 ; ULAS_J075003.88+272545.4_ T8.5 plx=68.4mas
+M_J(T8.5V) =   17.95 ; WISE_1025+0307 calc using Kirkpatrick20 (plx=83.6mas)
+M_J(T8.5V) =   17.96 ; WISEA_J105130.02-213859.9_ T8.5 plx=64.0mas
+M_J(T8.5V) =    18.31 ; WISEP_J031325.96+780744.2_ T8.5 plx=135.6mas
+M_J(T8.5V) =    18.41 ; CFBDS_0059-0114 calc using Kirkpatrick20 (plx=103.2mas)
+M_J(T8.5V) >    18.55 ; WISE_1812+2721 calc using Kirkpatrick20 (plx=98.5mas)
+M_J(T8.5V) =    18.66 ; WISE_1118+3125 calc using Kirkpatrick20 (plx=114.4867mas)
+=> adopt M_J(T8.5V) = 17.6 [updated 10/20/2024]
+(note: most of these are from SIMBAD, so mixed systems, mostly not 2MASS)
+
+M_J(MKO)(T8.5V) =   16.68 ; WISE_1301-0302 calc using Kirkpatrick20 (plx=54.5mas)
+M_J(MKO)(T8.5V) =   16.97 ; CFBDS_0133+0231 calc using Kirkpatrick20 (plx=53.1mas)
+M_J(MKO)(T8.5V) =   17.03 ; ULAS_1152+1134 calc using Kirkpatrick20 (plx=56.7mas)
+M_J(MKO)(T8.5V) =   17.05 ; CWISE_2057-1704 calc using Kirkpatrick20 (plx=49.5mas)
+M_J(MKO)(T8.5V) =   17.10 ; WISE_0049+2151 calc using Kirkpatrick20 (plx=140.4mas)
 M_J(MKO)(T8.5V) =  17.36 ; ULAS_0034-0052 calc using Kirkpatrick20 (plx=68.7mas)
-M_J(MKO)(T8.5V) = 17.38 ; UGPS_0521+3640 calc using Kirkpatrick20 (plx=122.2mas)
+M_J(MKO)(T8.5V) =  17.38 ; UGPS_0521+3640 calc using Kirkpatrick20 (plx=122.2mas)
 M_J(MKO)(T8.5V) =  17.48 ; WISE_0032-4946 calc using Kirkpatrick20 (plx=60.8mas)
 M_J(MKO)(T8.5V) =  17.54 ; WISE_1025+0307 calc using Kirkpatrick20 (plx=83.6mas)
 M_J(MKO)(T8.5V) =  17.56 ; WISE_0615+1526 calc using Kirkpatrick20 (plx=52.8mas)
@@ -55,29 +82,31 @@ M_J(MKO)(T8.5V) =  17.57 ; WISE_0645+5240 calc using Kirkpatrick20 (plx=53.5mas)
 M_J(MKO)(T8.5V) =  17.64 ; WISE_1051-2138 calc using Kirkpatrick20 (plx=64.0mas)
 M_J(MKO)(T8.5V) =  17.66 ; WISE_0323-6025 calc using Kirkpatrick20 (plx=71.7mas)
 M_J(MKO)(T8.5V) =  17.70 ; WISE_0540+4832 calc using Kirkpatrick20 (plx=69.4mas)
-M_J(MKO)(T8.5V) =  17.72 ; GJ_1263B   calc using Kirkpatrick20 (plx=80.7724mas)
+M_J(MKO)(T8.5V) =  17.72 ; GJ_1263B calc using Kirkpatrick20 (plx=80.7724mas)
 M_J(MKO)(T8.5V) =  17.75 ; WISE_0512-3004 calc using Kirkpatrick20 (plx=47.0mas)
 M_J(MKO)(T8.5V) =  17.88 ; WISE_0750+2725 calc using Kirkpatrick20 (plx=68.4mas)
 M_J(MKO)(T8.5V) =  17.89 ; WISE_1042-3842 calc using Kirkpatrick20 (plx=65.4mas)
-M_J(MKO)(T8.5V) = 17.90 (+-0.46 rms) ; Tinney14
-M_J(MKO)(T8.5V) = 17.90 ; ULAS_1335+1130 calc using Kirkpatrick20 (plx=99.9mas)
+M_J(MKO)(T8.5V) =  17.90 (+-0.46 rms) ; Tinney14
+M_J(MKO)(T8.5V) =  17.90 ; ULAS_1335+1130 calc using Kirkpatrick20 (plx=99.9mas)
 M_J(MKO)(T8.5V) =  17.95 ; WISE_1753-5904 calc using Kirkpatrick20 (plx=60.2mas)
-M_J(MKO)(T8.5V) = 18.09 ; WISE_1118+3125 calc using Kirkpatrick20 (plx=114.4867mas)
-M_J(MKO)(T8.5V) = 18.16 ; WISE_1812+2721 calc using Kirkpatrick20 (plx=98.5mas)
-M_J(MKO)(T8.5V) = 18.22 ; CFBDS_0059-0114 calc using Kirkpatrick20 (plx=103.2mas)
-M_J(MKO)(T8.5V) >  19.16 ; CWISE_1022+1455 calc using Kirkpatrick20 (plx=76.0mas)
-M_J(MKO)(T8.5V) =  19.64 ; CWISE_1241-8200 calc using Kirkpatrick20 (plx=69.1mas)
-M_J(MKO)(T8.5V) = 19.69 ; WISE_1818-4701 calc using Kirkpatrick20 (plx=94.6mas)
-=> adopt M_J(MKO)(T8.5V) = 17.9 [updated 2/2/2021]
+M_J(MKO)(T8.5V) =  18.09 ; WISE_1118+3125 calc using Kirkpatrick20 (plx=114.4867mas)
+M_J(MKO)(T8.5V) =  18.16 ; WISE_1812+2721 calc using Kirkpatrick20 (plx=98.5mas)
+M_J(MKO)(T8.5V) =  18.22 ; CFBDS_0059-0114 calc using Kirkpatrick20 (plx=103.2mas)
+M_J(MKO)(T8.5V) >   19.16 ; CWISE_1022+1455 calc using Kirkpatrick20 (plx=76.0mas)
+M_J(MKO)(T8.5V) =   19.64 ; CWISE_1241-8200 calc using Kirkpatrick20 (plx=69.1mas)
+M_J(MKO)(T8.5V) =   19.69 ; WISE_1818-4701 calc using Kirkpatrick20 (plx=94.6mas)
+=> adopt M_J(MKO)(T8.5V) = 17.7 [updated 10/20/2024] 
 
-(J(MKO)-J)(T8.5V) = -0.57 +- 0.09 ; WISE__1118+3125 
-(J(MKO)-J)(T8.5V) = -0.41 +- 0.15 ; WISE__1025+0307 
-(J(MKO)-J)(T8.5V) = -0.36 +- 0.16 ; WISE__0049+2151 
-(J(MKO)-J)(T8.5V) = -0.33 +- 0.13 ; WISE__1051-2138 
-(J(MKO)-J)(T8.5V) = -0.33 +- 0.21 ; WISE__0750+2725 
-(J(MKO)-J)(T8.5V) = -0.19 +- 0.05 ; CFBDS_0059-0114 
-=> adopt (J(MKO)-J)(T8.5V) = -0.35 [updated 12/5/2020]
-
+(J(MKO)-J)(T8.5V) =  -0.57 +- 0.09 ; WISE_1118+3125 
+(J(MKO)-J)(T8.5V) =  -0.41 +- 0.15 ; WISE_1025+0307 
+(J(MKO)-J)(T8.5V) =  -0.36 +- 0.16 ; WISE_0049+2151 
+(J(MKO)-J)(T8.5V) =  -0.33 +- 0.13 ; WISE_1051-2138 
+(J(MKO)-J)(T8.5V) =  -0.33 +- 0.21 ; WISE_0750+2725
+(J(MKO)-J)(T8.5V) = -0.29 ; smoothed trend T1.5V-T9.5V (10/20/2024; rms=0.145mag)
+(J(MKO)-J)(T8.5V) =  -0.19 +- 0.05 ; CFBDS_0059-0114 
+=> adopt (J(MKO)-J)(T8.5V) = -0.29 [updated 10/20/2024]
+[EEM 10/20/2024: having trouble reconciling J(MKO)-J(2MASS) trend (which should be ~-0.29, but
+with large scatter ~0.15mag), and the median M_J(2MASS) and M_J(MKO) values, 
 
 mixing MKO & 2MASS as data for CFBDS_0059-0114 shows they seem consistent to ~0.1 mag
 M_Ks(T8V)       = 16.9   ; T8V adopted
@@ -100,12 +129,22 @@ M_Ks(T8.5V)     = 19.04  ; WISE_1118+3125 calc using Kirkpatrick20 (plx=114.4867
 
 (K(MKO)-Ks)(T8.5V) = 0.08 +- 0.07 ; CFBDS_0059-0114 Kirkpatrick20
 
-W1-W2(T8.5V) = 2.99 ; Kirkpatrick19 polynomial
+BC_J(T8.5V) = 2.051 ; Sanghi23 M6V-T9V trend
 
-logL(T8.5) = -6.04 ; Dupuy13
+BC_Ks(T8.5V) = 1.834 mag ; Sanghi23 M6V-T9V field dwarf polynomial 
 
-=> adopt logL(T8.5V) = -6.04
-=> adopt Mbol(T8.5V) = 19.84  (from logL=-6.04)
+logL(T8.5V) = -5.905         ; Sanghi23 M6V-T9V field dwarf polynomial
+logL(T8.5V) = -6.024 +-0.019 ; WISEPA_J0313+78 (Beiler24; JWST)
+logL(T8.5V) = -6.04          ; Dupuy13 mean
+=> adopt logL(T8.5V) = -6.04 [updated 10/4/2024]
+=> adopt Mbol(T8.5V) = 19.84 [updated 10/4/2024] (from logL=-6.04)
+
+Rad(T8.5V) = 0.10276 +-0.01028Rsun ; (=1+-0.1Rjup; assumed BD rad for one model T6V-Y1V; Beiler24)
+Rad(T8.5V) = 0.1587 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial (seems too large!)
+
+logg(T8.5V) = 4.44-5.00 ; Dupuy13 mean (range: 1-5Gyr)
+
+Mass(T8.5V) = 12-31 Mjup ; Dupuy13 mean (range: 1-5Gyr)
 
 # Examples
 
@@ -124,10 +163,14 @@ WISEPA J031325.96+780744.2
 
   Teff=570+-88K(Kirkpatrick20), plx=135.6+-2.8mas(Kirkpatrick20)
 
-WISEPA J045853.89+643452.9A
+WISEPA J045853.89+643452.9A = WDS J04589+6435 = GNO 1 
   T8.5V: Kirkpatrick20(near-IR)
+  T8.5+T9: WDS
+  T8.5+T9.5: Kirkpatrick12,Kirkpatrick21
 
-  Teff=624+-79K(Kirkpatrick20), plx=106.7+-2.8K(Kirkpatrick20)
+  WDS lists it as a tight binary (GNO1), epoch=2010 sep=0.5",
+  epoch=2018 sep=0.1".  Teff=624+-79K(Kirkpatrick20),
+  plx=106.7+-2.8K(Kirkpatrick20)
 
 UGPS J052127.27+364048.6
   T8.5V: Kirkpatrick20(near-IR)
@@ -135,11 +178,12 @@ UGPS J052127.27+364048.6
   Teff=616+-88K(Kirkpatrick20), plx=122.2+-1.6mas(Kirkpatrick20)
 
 WISE J111838.70+312537.9 
-  T8.5V: Kirkpatrick20(near-IR)
+  T8.5V: Burningham09,Kirkpatrick12,Kirkpatrick20(near-IR)
 
   Wide companion to xi UMa discovered in WISE by Wright13. 
   Teff=559+-88K(Kirkpatrick20), plx=114.4867+-0.4316mas(GaiaDR2).
 
+GJ 1263B = Wolf 940B = ULAS J214638.83-001038.7
+  T8.5: Kirkpatrick21,Leggett21
 
-
-
+  Teff=568+-88K(Kirkpatrick21). 

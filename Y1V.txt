@@ -1,23 +1,29 @@
 Y1V
 
 Standards:
-Kirkpatrick12: WISE 0350-5658 - "tenative Y1 spectral standard"
+Kirkpatrick12 stan.: WISE J0350-5658 - "tenative Y1 spectral standard"
 
 Teff(Y1V) =    325 K ; WISE J1828+2650 Dupuy13 #9
-Teff(Y1V) = ~325 K ; Schneider15/WISE0350-5658   standard
+Teff(Y1V) = 338 K ; stan. WISE J0350-5658 (literature median, see below)
+Teff(Y1V) = ~325 K ; stan. WISE J0350-5658 (Schneider15) 
 Teff(Y1V) =    350 K ; Leggett15
-Teff(Y1V) =  350+-25 K ; Leggett16/W0350  standard
+Teff(Y1V) = 350+-25 K ; stan. WISE J0350-5658 (Leggett16)
 Teff(Y1V) =   ~350 K [300-400] K ; Schneider15/WISE2354
-Teff(Y1V) =  355 K ; WISE_0350-5658 (Kirkpatrick19; plx=174.6+-2.6mas)  standard
+Teff(Y1V) =  351 K ; CWISEP J1446-23 (Beiler24; JWST) 
+Teff(Y1V) = 355 K ; stan. WISE J0350-5658 (Kirkpatrick19; plx=174.6+-2.6mas)
 Teff(Y1V) =  368 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(Y1V) = 372 K ; Leggett21 (median for N=16 Y1 objects) 
 Teff(Y1V) =   374 K ; WISE_2354+0240 (Kirkpatrick19; plx=124.1+-4.9mas)
 Teff(Y1V) =   ~375 K [350-400] K ; Schneider15/WISE0647-6232
 Teff(Y1V) =   381 K ; WISE_0647-6232 (Kirkpatrick19; plx=100.3+-2.4mas)
-Teff(Y1V) =  388 K ; pri. stan. WISE J035000.32-565830.2 (Kirkpatrick20)  standard
+Teff(Y1V) = 388 K ; stan. WISE J035000.32-565830.2 (Kirkpatrick20) standard
 Teff(Y1V) =   395 K ; WISE_1541-2250 (Kirkpatrick19; plx=167.1+-2.3mas)
+Teff(Y1V) =  395 K ; CWISEP J1047+54 (Beiler24; JWST)
 Teff(Y1V) =   398 K ; WISE_0535-7500 (Kirkpatrick19; plx=66.4+-2.4mas)
 Teff(Y1V) =   400 K ; Schneider15/WISE1541-2250
-=> adopt Teff(Y1V) = 360 K (logT = 2.556) [updated 2/2/2021]
+Teff(Y1V) =  411 K ; WISEPA J1541-22 (Beiler24; JWST)
+Teff(Y1V) =  496 K ; WISE J0535-75 (Beiler24; JWST) 
+=> adopt Teff(Y1V) = 360 K (logT = 2.5563) [updated 10/4/2024]
 
 M_J(MKO)(Y1V) >  19.93 ; WISE_1930-2059 calc using Kirkpatrick20 (plx=106.3mas)
 M_J(MKO)(Y1V) >  20.37 ; CWISE_0940+5233 calc using Kirkpatrick20 (plx=66.4mas)
@@ -52,7 +58,14 @@ M_K(Y1V)  = 22.24 ; interp Y0V-Y2V
 
 W1-W2(Y1V) = 4.14 ; Kirkpatrick19 polynomial
 
-M_W2(Y1V) = 14.78 (+-0.77; rms) ; Tinney14 
+M_W2(Y1V) = 14.78 (+-0.77; rms) ; Tinney14
+
+logL(Y1V) = -6.216 +-0.026 dex ; WISE J0535-75 (Beiler24; JWST)
+logL(Y1V) = -6.523 +-0.013 dex ; WISEPA J1541-22 (Beiler24; JWST)
+logL(Y1V) = -6.582 +-0.063 dex ; CWISEP J1047+54 (Beiler24; JWST)
+logL(Y1V) = -6.779 +-0.043 dex ; CWISEP J1446-23 (Beiler24; JWST)
+
+Rad(Y1V) = 0.10276 +-0.01028 Rsun ; =(1+-0.1)Rjup (assumed BD rad for one model T6V-Y1V; Beiler24)
 
 
 # Standard
@@ -63,14 +76,24 @@ WISE J035000.32-565830.2 = WISE J0350-5658
   Kirkpatrick12: "The plot shown in Figure 6 suggests that the J-band
   peak of WISE 0350−5658 is sufficiently narrower than WISE 1738+2732
   that it should be typed a full subclass later. We therefore propose
-  WISE 0350−5658 to be the tentative Y1 spectral standard, despite its
+  WISE 0350−5658 tobe the tentative Y1 spectral standard, despite its
   southerly declination, until other Y1 dwarfs are identified."
-  Teffs: 350+-25K(Leggett16), 388+-88K(Kirkpatrick2),
-  logg=4.00+-0.25(Leggett16), plx=176.4+-2.3mas(Kirkpatrick20).
-  Mass=3-9Mjup(Leggett16), Age=0.3-3Gyr(Leggett16).
+  Teffs: 325K(Schneider15), 325K(Leggett21), 350+-25K(Leggett16),
+  355K(Kirkpatrick19), 388+-88K(Kirkpatrick21) => adopt Teff=350K.
+  Note that J0350-5658 had the *lowest* Teff estimate among the 16 Y1
+  objects with Teff estimates in Leggett21 (which seems unusual for a
+  standard).  logg=4.00+-0.25(Leggett16),
+  plx=176.4+-2.3mas(Kirkpatrick20).  Mass=3-9Mjup(Leggett16),
+  Age=0.3-3Gyr(Leggett16).
 
   
 # Examples of Y Dwarfs
+
+WISEA J2354+02
+  Y1: Beiler24
+
+  Teffs: 347+13-11K(Beiler24), 359K(Beiler24/Rjup),
+  362+10-12K(Beiler24/uni) => adopt Teff=359K.
 
 WISE J035000.32-565830.2   Y1     (Kirkpatrick12, standard in Schnedier15)
 WISE J053516.80-750024.9   >=Y1:  (Kirkpatrick12), Y1 (Leggett15)

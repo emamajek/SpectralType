@@ -1,11 +1,12 @@
 T9V
 
 Standards:
-Cushing11 standard : UGPS J072227.51−054031.2 (UGPS J0722-05)    - T9 standard
+Cushing11 standard : UGPS J072227.51−054031.2 (UGPS J0722-05) - T9 standard
 Kirkpatrick11 stan.: WISEP J174124.25+255319.5 (WISE J1741+2553) - T9 opt. stan. "T_o9"
-Theissen22 standard: UGPS J072227.51−054031.2 (J0722-0540)       - T9 (pri. stan. (0.9-2.45um/NIRES))
+Theissen22 standard: UGPS J072227.51−054031.2 (J0722-0540) - T9 (pri. stan. (0.9-2.45um/NIRES))
 
-Teff(T9V) =   345+-45K (but 10 Gyr old) ; Dupuy15 WISE J014656.66+423410.0 A
+Teff(T9V) =  336 K ; Sanghi23 M6V-T9V field dwarf polynomial (discrepent due to end of polynomial?)
+Teff(T9V) =   345 +-45K (but 10 Gyr old) ; Dupuy15 WISE J014656.66+423410.0 A
 Teff(T9V) =   461 K ; WISE J111239.24−385700.7 (Kirkpatrick20)
 Teff(T9V) =   486 K ; WISE_0833+0052 (Kirkpatrick19; plx=82.6+-4.5mas)
 Teff(T9V) =   489 K ; WISE_2212-6931 (Kirkpatrick19; plx=81.9+-2.5mas)
@@ -13,14 +14,16 @@ Teff(T9V) =  506 K ; Filipazzo15 M6V-T9V field calibration
 Teff(T9V) =   507 K ; WISE_0751-7634 (Kirkpatrick19; plx=97.9+-6.7mas)
 Teff(T9V) =  523 K ; WISE_2325-4105 (Kirkpatrick19; plx=108.4+-3.7mas)
 Teff(T9V) =  ~525 K [500-550K] ; Schneider15/WISE0335+4310
+Teff(T9V) =  532 K ; WISEA J2159-48 (Beiler24; JWST)
 Teff(T9V) =  ~533 K [510-555K] ; Dupuy13 mean 1-5 Gyr
 Teff(T9V) =   538 K ; WISE_1614+1739 (Kirkpatrick19; plx=97.6+-3.4mas)
 Teff(T9V) =  538 K ; WISE_2134-7137 (Kirkpatrick19; plx=109.7+-3.7mas)
 Teff(T9V) =   545 K ; WISE_0335+4310 (Kirkpatrick19; plx=72.1+-2.4mas)
 Teff(T9V) =   546 K ; WISE_0713-5854 (Kirkpatrick19; plx=78.2+-4.6mas)
+Teff(T9V) =  549 K ; WISE J2102-44 (Beiler24; JWST)
 Teff(T9V) =   550 K [500-600K] ; Schneider15/WISE0404-6420
 Teff(T9V) =   550 K [500-600K] ; Schneider15/WISE2212-6931
-Teff(T9V) =  552 K ; UGPS_0722-0540 (Kirkpatrick19; plx=242.8+-2.4mas) pri. stan.
+Teff(T9V) =  552 K ; pri. stan. UGPS_0722-0540 (Kirkpatrick19; plx=242.8+-2.4mas)
 Teff(T9V) =   555 K ; WISE J000517.48+373720.5 (Kirkpatrick20)
 Teff(T9V) =   557 K ; WISE_0038+2758 (Kirkpatrick19; plx=89.7+-2.5mas)
 Teff(T9V) =   559 K ; WISE_0146+4234A (Kirkpatrick19; plx=52.5+-2.3mas)
@@ -31,13 +34,18 @@ Teff(T9V) =  564 K ; WISE_0005+3737 (Kirkpatrick19; plx=127.0+-2.4mas)
 Teff(T9V) =   566 K ; WISEPC J121756.91+162640.2A (Kirkpatrick20)
 Teff(T9V) =  567 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(T9V) =   567 K ; WISE_1311+0122 (Kirkpatrick19; plx=68.8+-2.7mas)
-Teff(T9V) =  569 K ; UGPS J072227.51−054031.2 (Kirkpatrick20)          pri. stan.
+Teff(T9V) =  569 K ; pri. stan. UGPS J072227.51−054031.2 (Kirkpatrick20)
 Teff(T9V) =   573 K ; WISE_2102-4429 (Kirkpatrick19; plx=92.9+-1.9mas)
 Teff(T9V) =   574 K ; WISE_0325-3854 (Kirkpatrick19; plx=57.2+-5.4mas)
 Teff(T9V) =  578 K ; WISE_1741+2553 (Kirkpatrick19; plx=214.3+-2.8mas) opt. stan.
 Teff(T9V) =   592 K ; WISE_2344+1034 (Kirkpatrick19; plx=64.7+-3.7mas)
 Teff(T9V) =   660 K ; WISE_0723+3403 (Kirkpatrick19; plx=56.3+-3.5mas)
 => adopt Teff(T9V) = 560 K (logT = 2.748) [updated 2/2/2021]
+
+(J-Ks)(T9V) = -0.164 ; Sanghi24 M6V-T9V trend
+
+(W1-W2)(T9V) = 3.20 ; Kirkpatrick19 polynomial
+
 
 M_J(T9V) =  17.13  ; WISE_0723+3403 calc using Kirkpatrick20 (plx=60.8mas)
 M_J(T9V) =  17.66  ; WISE_1333-1607 calc using Kirkpatrick20 (plx=52.8mas)
@@ -87,50 +95,51 @@ M_J(MKO)(T9V) = 20.42 ; WISE_1112-3857 calc using Kirkpatrick20 (plx=102.6mas)
 => adopt M_J(MKO(T9V) = 18.48 [updated 2/2/2021] (note scatter of ~3.5 mag!)
 => adopt M_J(T9V)     = 18.69 [updated 2/2/2021] (M_J(MKO)=18.48, (J(MKO)-J)(T9V) = -0.21)
 
-(J(MKO)-J)(T9V) = -0.79 +- 0.10 ; WISE__1506+7027
-(J(MKO)-J)(T9V) = -0.64 +- 0.16 ; WISE__0254+0223
-(J(MKO)-J)(T9V) = -0.61 +- 0.05 ; 2MASS_2139+0220
-(J(MKO)-J)(T9V) = -0.57 +- 0.09 ; WISE__1118+3125
-(J(MKO)-J)(T9V) = -0.52 +- 0.02 ; Gl_845BC 
-(J(MKO)-J)(T9V) = -0.46 +- 0.05 ; Gl_570D 
-(J(MKO)-J)(T9V) = -0.40 +- 0.05 ; 2MASS_0034+0523
-(J(MKO)-J)(T9V) = -0.39 +- 0.06 ; 2MASS_0727+1710
-(J(MKO)-J)(T9V) = -0.37 +- 0.02 ; WISE__1741+2553
-(J(MKO)-J)(T9V) = -0.37 +- 0.06 ; 2MASS_0415-0935
-(J(MKO)-J)(T9V) = -0.37 +- 0.43 ; WISE__1112-3857
-(J(MKO)-J)(T9V) = -0.36 +- 0.03 ; ULAS__1416+1348
-(J(MKO)-J)(T9V) = -0.36 +- 0.06 ; WISE__1928+2356
-(J(MKO)-J)(T9V) = -0.36 +- 0.16 ; WISE__0049+2151
-(J(MKO)-J)(T9V) = -0.35 +- 0.04 ; 2MASS_0937+2931
-(J(MKO)-J)(T9V) = -0.35 +- 0.09 ; WISE__2000+3629
-(J(MKO)-J)(T9V) = -0.33 +- 0.02 ; DENIS_0817-6155
-(J(MKO)-J)(T9V) = -0.32 +- 0.02 ; 2MASS_1503+2525
-(J(MKO)-J)(T9V) = -0.31 +- 0.11 ; 2MASS_0939-2448
-(J(MKO)-J)(T9V) = -0.30 +- 0.05 ; 2MASS_0348-6022
-(J(MKO)-J)(T9V) = -0.23 +- 0.04 ; SDSS__0758+3247
-(J(MKO)-J)(T9V) = -0.21 +- 0.03 ; SIMP__0136+0933
-(J(MKO)-J)(T9V) = -0.21 +- 0.08 ; 2MASS_1114-2618
-(J(MKO)-J)(T9V) = -0.19 +- 0.05 ; CFBDS_0059-0114
-(J(MKO)-J)(T9V) = -0.18 +- 0.03 ; WISE__2030+0749
-(J(MKO)-J)(T9V) = -0.16 +- 0.03 ; 2MASS_0340-6724
-(J(MKO)-J)(T9V) = -0.15 +- 0.02 ; 2MASS_0652+4710
-(J(MKO)-J)(T9V) = -0.15 +- 0.03 ; 2MASS_1515+4847
-(J(MKO)-J)(T9V) = -0.15 +- 0.03 ; SDSS__1416+1348
-(J(MKO)-J)(T9V) = -0.15 +- 0.04 ; WISE__1800+0134
-(J(MKO)-J)(T9V) = -0.14 +- 0.04 ; WISE__2236+5105
-(J(MKO)-J)(T9V) = -0.13 +- 0.02 ; 2MASS_0835-0819
-(J(MKO)-J)(T9V) = -0.13 +- 0.02 ; 2MASS_1750-0016
-(J(MKO)-J)(T9V) = -0.13 +- 0.02 ; 2MASS_1821+1414
-(J(MKO)-J)(T9V) = -0.13 +- 0.03 ; DENIS_0255-4700
-(J(MKO)-J)(T9V) = -0.11 +- 0.02 ; 2MASS_0355+1133
-(J(MKO)-J)(T9V) = -0.11 +- 0.03 ; 2MASS_0036+1821
-(J(MKO)-J)(T9V) = -0.10 +- 0.03 ; 2MASS_2148+4003
-(J(MKO)-J)(T9V) = -0.09 +- 0.03 ; 2MASS_1507-1627
-(J(MKO)-J)(T9V) = -0.07 +- 0.22 ; WISE__0713-2917
-(J(MKO)-J)(T9V) = -0.04 +- 0.11 ; 2MASS_0729-3954
-(J(MKO)-J)(T9V) =  0.03 +- 0.04 ; SCR___1845-6357B 
-(J(MKO)-J)(T9V) =  0.06 +- 0.13 ; UGPS__0722-0540
-=> adopt (J(MKO)-J)(T9V) = -0.21 [updated 12/5/2020]
+(J(MKO)-J)(T9V) =  -0.79 +- 0.10 ; WISE_1506+7027
+(J(MKO)-J)(T9V) =  -0.64 +- 0.16 ; WISE_0254+0223
+(J(MKO)-J)(T9V) =  -0.61 +- 0.05 ; 2MASS_2139+0220
+(J(MKO)-J)(T9V) =  -0.57 +- 0.09 ; WISE_1118+3125
+(J(MKO)-J)(T9V) =  -0.52 +- 0.02 ; Gl_845BC 
+(J(MKO)-J)(T9V) =  -0.46 +- 0.05 ; Gl_570D 
+(J(MKO)-J)(T9V) =  -0.40 +- 0.05 ; 2MASS_0034+0523
+(J(MKO)-J)(T9V) =  -0.39 +- 0.06 ; 2MASS_0727+1710
+(J(MKO)-J)(T9V) =  -0.37 +- 0.02 ; WISE_1741+2553
+(J(MKO)-J)(T9V) =  -0.37 +- 0.06 ; 2MASS_0415-0935
+(J(MKO)-J)(T9V) =  -0.37 +- 0.43 ; WISE_1112-3857
+(J(MKO)-J)(T9V) =  -0.36 +- 0.03 ; ULAS_1416+1348
+(J(MKO)-J)(T9V) =  -0.36 +- 0.06 ; WISE_1928+2356
+(J(MKO)-J)(T9V) =  -0.36 +- 0.16 ; WISE_0049+2151
+(J(MKO)-J)(T9V) =  -0.35 +- 0.04 ; 2MASS_0937+2931
+(J(MKO)-J)(T9V) =  -0.35 +- 0.09 ; WISE_2000+3629
+(J(MKO)-J)(T9V) =  -0.33 +- 0.02 ; DENIS_0817-6155
+(J(MKO)-J)(T9V) =  -0.32 +- 0.02 ; 2MASS_1503+2525
+(J(MKO)-J)(T9V) =  -0.31 +- 0.11 ; 2MASS_0939-2448
+(J(MKO)-J)(T9V) =  -0.30 +- 0.05 ; 2MASS_0348-6022
+(J(MKO)-J)(T9V) = -0.27 ; smoothed trend T1.5V-T9.5V (10/20/2024; rms=0.145mag)
+(J(MKO)-J)(T9V) =  -0.23 +- 0.04 ; SDSS_0758+3247
+(J(MKO)-J)(T9V) =  -0.21 +- 0.03 ; SIMP_0136+0933
+(J(MKO)-J)(T9V) =  -0.21 +- 0.08 ; 2MASS_1114-2618
+(J(MKO)-J)(T9V) =  -0.19 +- 0.05 ; CFBDS_0059-0114
+(J(MKO)-J)(T9V) =  -0.18 +- 0.03 ; WISE_2030+0749
+(J(MKO)-J)(T9V) =  -0.16 +- 0.03 ; 2MASS_0340-6724
+(J(MKO)-J)(T9V) =  -0.15 +- 0.02 ; 2MASS_0652+4710
+(J(MKO)-J)(T9V) =  -0.15 +- 0.03 ; 2MASS_1515+4847
+(J(MKO)-J)(T9V) =  -0.15 +- 0.03 ; SDSS_1416+1348
+(J(MKO)-J)(T9V) =  -0.15 +- 0.04 ; WISE_1800+0134
+(J(MKO)-J)(T9V) =  -0.14 +- 0.04 ; WISE_2236+5105
+(J(MKO)-J)(T9V) =  -0.13 +- 0.02 ; 2MASS_0835-0819
+(J(MKO)-J)(T9V) =  -0.13 +- 0.02 ; 2MASS_1750-0016
+(J(MKO)-J)(T9V) =  -0.13 +- 0.02 ; 2MASS_1821+1414
+(J(MKO)-J)(T9V) =  -0.13 +- 0.03 ; DENIS_0255-4700
+(J(MKO)-J)(T9V) =  -0.11 +- 0.02 ; 2MASS_0355+1133
+(J(MKO)-J)(T9V) =  -0.11 +- 0.03 ; 2MASS_0036+1821
+(J(MKO)-J)(T9V) =  -0.10 +- 0.03 ; 2MASS_2148+4003
+(J(MKO)-J)(T9V) =  -0.09 +- 0.03 ; 2MASS_1507-1627
+(J(MKO)-J)(T9V) =  -0.07 +- 0.22 ; WISE_0713-2917
+(J(MKO)-J)(T9V) =  -0.04 +- 0.11 ; 2MASS_0729-3954
+(J(MKO)-J)(T9V) =   0.03 +- 0.04 ; SCR_1845-6357B 
+(J(MKO)-J)(T9V) =   0.06 +- 0.13 ; UGPS_0722-0540
+=> adopt (J(MKO)-J)(T9V) = -0.27 [updated 10/20/2024]
 
 mixing MKO and 2MASS here, WISE_1741+2553 data suggests consistent to ~0.1 mag
 M_Ks(T9V)     >   16.80 ; WISE_1217+1626 calc using Kirkpatrick20 (plx=107.4mas)
@@ -143,27 +152,37 @@ M_K(MKO)(T9V) =  19.01  ; UGPS_0722-0540 calc using Kirkpatrick20 (plx=242.8mas)
 M_K(MKO)(T9V) =  20.50  ; WISE_0335+4310 calc using Kirkpatrick20 (plx=84.8mas)
 => adopt M_Ks(T9V) = 18.6 [updated 12/5/2020]
 
-(K(MKO)-Ks)(T9V) = 0.13 +- 0.28 ; WISE_1741+2553
+(K(MKO)-Ks)(T9V) = 0.13 +-0.28 ; WISE_1741+2553
 
 J(MKO)-K(MKO) ~ -0.3 ; M_J(MKO(T9V)=18.3, M_Ks(T9V)=18.6 
 
-W1-W2(T9V) = 3.20 ; Kirkpatrick19 polynomial
 
 M_W2(T9V) = 13.92 (+-0.24 rms) ; Tinney14(N=8)
 
-BC_YJH(T9) = 1.6+-0.6 ; Dupuy15
+BC_YJH(T9V) = 1.6+-0.6 ; Dupuy15
 
-Mbol(T9) = 20.1+-0.5 mag ; Dupuy15
-Mbol(T9) = 21.15 mag     ; standard UGPS J072227.51−054031.2 (see below)
+BC_J(T9V) = 1.839 ; Sanghi23 M6V-T9V trend
 
-logL(T9) = -6.14+-0.20 ; Dupuy15 (Mbol=20.1+-0.5 => IAU 2015 Mbol)
-logL(T9) = -6.15       ; Dupuy13
-logL(T9) = -6.56       ; standard UGPS J072227.51−054031.2 (see below)
-logL(T9) = -6.95+-0.20 ; Dupuy15 WISE J014656.66+423410.0 A
-=> adopt logL(T9) = -6.15
-=> adopt Mbol(T9) = 20.12  (adopt logL=-6.15)
+BC_Ks(T9V) = 1.674 mag ; Sanghi23 M6V-T9V field dwarf polynomial
 
-Mass(T9) = 11-27 Mjup ; Dupuy13
+Mbol(T9V) = 20.1 +-0.5 mag ; Dupuy15
+Mbol(T9V) = 21.15 mag ; standard UGPS J072227.51−054031.2 (see below)
+
+logL(T9V) = -6.055 +-0.020 ; WISE J2102-44 (Beiler24; JWST)
+logL(T9V) = -6.106       ; Sanghi23 M6V-T9V field dwarf polynomial
+logL(T9V) = -6.14 +-0.20 ; Dupuy15 (Mbol=20.1+-0.5 => IAU 2015 Mbol)
+logL(T9V) = -6.15        ; Dupuy13
+logL(T9V) = -6.56        ; standard UGPS J072227.51−054031.2 (see below)
+logL(T9V) = -6.95 +-0.20 ; Dupuy15 WISE J014656.66+423410.0 A
+=> adopt logL(T9) = -6.15 [updated 10/4/2024]
+=> adopt Mbol(T9) = 20.12 [updated 10/4/2024] (adopt logL=-6.15)
+
+Rad(T9V) = 0.10276 +-0.01028 Rsun ; (=1+-0.1Rjup; assumed BD rad for one model T6V-Y1V; Beiler24)
+Rad(T9V) = 0.2618 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial (discprent?! end of polynomial)
+
+Mass(T9V) = 11-27 Mjup ; Dupuy13 mean (range: 1-5 Gyr)
+
+logg(T9V) = 4.40-4.94 ; Dupuy13 mean (range: 1-5Gyr) 
 
 # Standards
 
@@ -218,3 +237,19 @@ WISEPC J121756.91+162640.2A
   T9: Kirkpatrick20
 
   Teff=566+-79K(Kirkpatrick20), plx=107.4+-3.5mas(Kirkpatrick20).
+
+WISE J2102-44
+  T9: Beiler24
+
+  Teffs: 549+29-30K(Beiler24), 552K(Beiler24/Rjup),
+  585+17-27K(Beiler24/uni) => adopt Teff=552K.
+  fbol=(2.434+-0.054)e-16W/m2 => mbol=20.0367+-0.0241mag(IAU2015
+  scale).
+
+WISEA J2159-48
+  T9: Beiler24
+
+  Teffs: 532+30-28K(Beiler24), 536(Beiler24/Rjup),
+  565+20-26K(Beiler24/uni) => adopt
+  Teff=536K. mbol=(1.371+-0.027)e-16W/m2 =>
+  mbol=20.6599+-0.0214mag(IAU2015scale).

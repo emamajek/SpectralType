@@ -6,14 +6,17 @@ Burgasser06 standard: 2MASS J04151954-0935066 - T8 (primary standard)
 Kirkpatrick10 stan.:  2MASS J04151954-0935066 - T8 (pri. stan. (0.7-2.5um/SpeX))
 Theissen22 standard:  2MASS J04151954-0935066 (J0415-0935) - T8 (pri. stan. (0.9-2.45um/NIRES))
 
+Teff(T8V) = 495 K ; WISE_J0430+46 (Beiler24; JWST) 
 Teff(T8V) = 553 K ; WISE_0430+4633 (Kirkpatrick19; plx=93.9+-4.1mas)
 Teff(T8V) = ~575K [550-600K] ; Schneider16/WISE0325-5044T
 Teff(T8V) =  582 K ; WISE_0316+4307 (Kirkpatrick19; plx=73.3+-2.8mas)
 Teff(T8V) = 599 K ; WISE_1150+6302 (Kirkpatrick19; plx=124.5+-3.0mas)
+Teff(T8V) = 611 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(T8V) =  614 K ; WISE_0500-1223 (Kirkpatrick19; plx=95.1+-3.6mas)
 Teff(T8V) =  618 K ; Gl_547B (Kirkpatrick19; plx=58.2+-0.5mas)
 Teff(T8V) = 621 K ; WISEPA J025409.45+022359.1 (Kirkpatrick20)
 Teff(T8V) =  622 K ; VHS_1433-0837 (Kirkpatrick19; plx=50.9+-4.5mas)
+Teff(T8V) = 627 K ; WISE_J0247+37 (Beiler24; JWST)
 Teff(T8V) =  640 K ; WISE_1018-2445 (Kirkpatrick19; plx=83.6+-3.6mas)
 Teff(T8V) =  641 K ; WISE_1617+1807 (Kirkpatrick19; plx=84.6+-4.2mas)
 Teff(T8V) =  651 K ; WISE_2019-1148 (Kirkpatrick19; plx=77.5+-3.5mas)
@@ -38,7 +41,8 @@ Teff(T8V) =  693 K ; WISE_0744+5628 (Kirkpatrick19; plx=67.1+-2.5mas)
 Teff(T8V) =  696 K ; WISE_1318-1758 (Kirkpatrick19; plx=57.8+-2.7mas)
 Teff(T8V) =  699 K ; WISE_0623-0456 (Kirkpatrick19; plx=87.4+-2.9mas)
 Teff(T8V) =  699 K ; WISE_1653+4444 (Kirkpatrick19; plx=78.0+-4.2mas)
-Teff(T8V) = ~705K [675-735K] ; Dupuy13 mean 
+Teff(T8V) = ~705K [675-735K] ; Dupuy13 mean
+Teff(T8V) = 705 K ; ULAS J1029+09 (Beiler24; JWST)
 Teff(T8V) =  711 K ; Gl_27B (Kirkpatrick19; plx=90.4+-0.3mas)
 Teff(T8V) =  713 K ; WISE_2255-3118 (Kirkpatrick19; plx=70.7+-4.2mas)
 Teff(T8V) =  715 K [685-745K] ; Dupuy15 (1-5 Gyr)
@@ -48,11 +52,17 @@ Teff(T8V) =  724 K ; WISE_1959-3338 (Kirkpatrick19; plx=85.3+-2.2mas)
 Teff(T8V) =  731 K ; WISE_1813+2835 (Kirkpatrick19; plx=74.9+-2.5mas)
 Teff(T8V) =  735 K ; WISE_1322-2340 (Kirkpatrick19; plx=77.5+-4.2mas)
 Teff(T8V) = 736 K ; 2MASS_0729-3954 (Kirkpatrick19; plx=126.3+-8.3mas)
+Teff(T8V) = 750 K ; WISEPA J1959-33 (Beiler24; JWST) 
 Teff(T8V) =  750 K ; WISE_2005+5424 (Kirkpatrick19; plx=62.9+-3.3mas)
 Teff(T8V) =  752 K ; 2MASS J07290002−3954043 (Kirkpatrick20,'sd')
 Teff(T8V) = 768 K ; WISE_2000+3629 (Kirkpatrick19; plx=133.1+-2.5mas)
 Teff(T8V) =  791 K ; WISE_2226+0440 (Kirkpatrick19; plx=54.4+-5.9mas)
 => adopt Teff(T8V) = 680 K (logT = 2.833) [updated 2/2/2021]
+
+(J-Ks)(T8V) = -0.227 ; Sanghi24 M6V-T9V trend
+
+(W1-W2)(T8V) = 2.79 ; Kirkpatrick19 polynomial
+
 
 M_J(T8V) =  15.70 ; WISE_2226+0440 calc using Kirkpatrick20 (plx=54.4mas)
 M_J(T8V) =  15.91 ; WISE_0245-3450 calc using Kirkpatrick20 (plx=42.5mas)
@@ -136,37 +146,38 @@ M_J(MKO)(T8V) =  18.84 ; WISE_0316+4307 calc using Kirkpatrick20 (plx=74.7mas)
 M_J(MKO)(T8V) =  18.97 ; WISE_0430+4633 calc using Kirkpatrick20 (plx=96.1mas)
 => adopt M_J(MKO)(T8V) = 17.00 [updated 12/5/2020]
 
-(J(MKO)-J)(T8V) = -0.64 +- 0.16 ; WISE_0254+0223 
-(J(MKO)-J)(T8V) = -0.61 +- 0.26 ; LHS_6176B 
-(J(MKO)-J)(T8V) = -0.55 +- 0.04 ; WISE_1653+4444 
-(J(MKO)-J)(T8V) = -0.46 +- 0.10 ; WISE_2019-1148 
-(J(MKO)-J)(T8V) = -0.44 +- 0.12 ; WISE_0500-1223 
-(J(MKO)-J)(T8V) = -0.42 +- 0.12 ; WISE_1018-2445 
-(J(MKO)-J)(T8V) = -0.42 +- 0.17 ; WISE_0247+3725 
-(J(MKO)-J)(T8V) = -0.41 +- 0.11 ; WISE_0744+5628 
-(J(MKO)-J)(T8V) = -0.39 +- 0.10 ; WISE_0623-0456 
-(J(MKO)-J)(T8V) = -0.37 +- 0.06 ; 2MASS_0415-0935 
-(J(MKO)-J)(T8V) = -0.35 +- 0.09 ; WISE_2000+3629 
-(J(MKO)-J)(T8V) = -0.33 +- 0.13 ; WISE_1711+3500 
-(J(MKO)-J)(T8V) = -0.32 +- 0.06 ; WISE_2211-4758 
-(J(MKO)-J)(T8V) = -0.31 +- 0.11 ; 2MASS_0939-2448 
-(J(MKO)-J)(T8V) = -0.30 +- 0.12 ; WISE_0857+5604 
-(J(MKO)-J)(T8V) = -0.29 +- 0.01 ; Gl_494C 
-(J(MKO)-J)(T8V) = -0.29 +- 0.04 ; Gl_27B 
-(J(MKO)-J)(T8V) = -0.29 +- 0.14 ; WISE_1448-2534 
-(J(MKO)-J)(T8V) = -0.28 +- 0.14 ; WISE_0906+4735 
-(J(MKO)-J)(T8V) = -0.17 +- 0.11 ; WISE_1322-2340 
-(J(MKO)-J)(T8V) = -0.16 +- 0.15 ; WISE_1959-3338 
-(J(MKO)-J)(T8V) = -0.15 +- 0.19 ; WISE_1318-1758 
-(J(MKO)-J)(T8V) = -0.10 +- 0.08 ; WISE_2226+0440 
-(J(MKO)-J)(T8V) = -0.07 +- 0.13 ; WISE_1436-1814 
-(J(MKO)-J)(T8V) = -0.04 +- 0.11 ; 2MASS_0729-3954 
-(J(MKO)-J)(T8V) =  0.00 +- 0.01 ; ULAS_1029+0935 
-(J(MKO)-J)(T8V) =  0.00 +- 0.13 ; WISE_0245-3450 
-(J(MKO)-J)(T8V) =  0.05 +- 0.08 ; WISE_2255-3118 
-(J(MKO)-J)(T8V) =  0.09 +- 0.24 ; WISE_2313-8037 
-(J(MKO)-J)(T8V) =  0.11 +- 0.25 ; WISE_0836-1859 
-=> adopt (J(MKO)-J)(T8V) = -0.30 [updated 12/5/2020] 
+(J(MKO)-J)(T8V) =  -0.64 +- 0.16 ; WISE_0254+0223 
+(J(MKO)-J)(T8V) =  -0.61 +- 0.26 ; LHS_6176B 
+(J(MKO)-J)(T8V) =  -0.55 +- 0.04 ; WISE_1653+4444 
+(J(MKO)-J)(T8V) =  -0.46 +- 0.10 ; WISE_2019-1148 
+(J(MKO)-J)(T8V) =  -0.44 +- 0.12 ; WISE_0500-1223 
+(J(MKO)-J)(T8V) =  -0.42 +- 0.12 ; WISE_1018-2445 
+(J(MKO)-J)(T8V) =  -0.42 +- 0.17 ; WISE_0247+3725 
+(J(MKO)-J)(T8V) =  -0.41 +- 0.11 ; WISE_0744+5628 
+(J(MKO)-J)(T8V) =  -0.39 +- 0.10 ; WISE_0623-0456 
+(J(MKO)-J)(T8V) =  -0.37 +- 0.06 ; 2MASS_0415-0935 
+(J(MKO)-J)(T8V) =  -0.35 +- 0.09 ; WISE_2000+3629 
+(J(MKO)-J)(T8V) =  -0.33 +- 0.13 ; WISE_1711+3500 
+(J(MKO)-J)(T8V) =  -0.32 +- 0.06 ; WISE_2211-4758
+(J(MKO)-J)(T7V) = -0.31 ; smoothed trend T1.5V-T9.5V (10/20/2024; rms=0.145mag)
+(J(MKO)-J)(T8V) =  -0.31 +- 0.11 ; 2MASS_0939-2448 
+(J(MKO)-J)(T8V) =  -0.30 +- 0.12 ; WISE_0857+5604 
+(J(MKO)-J)(T8V) =  -0.29 +- 0.01 ; Gl_494C 
+(J(MKO)-J)(T8V) =  -0.29 +- 0.04 ; Gl_27B 
+(J(MKO)-J)(T8V) =  -0.29 +- 0.14 ; WISE_1448-2534 
+(J(MKO)-J)(T8V) =  -0.28 +- 0.14 ; WISE_0906+4735 
+(J(MKO)-J)(T8V) =  -0.17 +- 0.11 ; WISE_1322-2340 
+(J(MKO)-J)(T8V) =  -0.16 +- 0.15 ; WISE_1959-3338 
+(J(MKO)-J)(T8V) =  -0.15 +- 0.19 ; WISE_1318-1758 
+(J(MKO)-J)(T8V) =  -0.10 +- 0.08 ; WISE_2226+0440 
+(J(MKO)-J)(T8V) =  -0.07 +- 0.13 ; WISE_1436-1814 
+(J(MKO)-J)(T8V) =  -0.04 +- 0.11 ; 2MASS_0729-3954 
+(J(MKO)-J)(T8V) =   0.00 +- 0.01 ; ULAS_1029+0935 
+(J(MKO)-J)(T8V) =   0.00 +- 0.13 ; WISE_0245-3450 
+(J(MKO)-J)(T8V) =   0.05 +- 0.08 ; WISE_2255-3118 
+(J(MKO)-J)(T8V) =   0.09 +- 0.24 ; WISE_2313-8037 
+(J(MKO)-J)(T8V) =   0.11 +- 0.25 ; WISE_0836-1859 
+=> adopt (J(MKO)- J)(T8V) = -0.31 [updated 10/20/2024]
 
 mixing MKO and 2MASS K values here, but note (K(MKO)-Ks) = 0.12 adopted below
 
@@ -217,22 +228,33 @@ M_Ks(T8V)     = 18.19 ; 2MASS_0939-2448 calc using Kirkpatrick20 (plx=187.3mas)
 (K(MKO)-Ks)(T8V) = 0.16 +- 0.04 ; 2MASS_0415-0935 18.0
 => adopt (K(MKO)-Ks) = 0.12 [updated 12/5/2020]
 
-W1-W2(T8V) = 2.79 ; Kirkpatrick19 polynomial
-
 M_W2(T8V) = 13.44 (+-0.23 rms) ; Tinney14
 
-BC_Ks(T8V) = 1.844 ; Filipazzo15 (field) [denser trend through L/T]
-BC_Ks(T8V) = 2.085 ; Looper08
+BC_J(T8V) = 2.210 ; Sanghi23 M6V-T9V trend
+
+BC_Ks(T8V) = 1.844 mag ; Filipazzo15 (field) [denser trend through L/T]
+BC_Ks(T8V) = 1.983 mag ; Sanghi23 M6V-T9V field dwarf polynomial
+BC_Ks(T8V) = 2.085 mag ; Looper08
 => adopt BC_Ks(T8V) = 1.85 [updated 11/1/2019]
 (data points show scatter among few points between 1.5 and 2.5!)
 
-logL(T8) = -5.67+-0.02 ; 2MASSI J0415-0935 (Dupuy13 #39)
-logL(T8) = -5.69+-0.03 ; 2MASSI J0939-2448 (Dupuy13 #40)
-logL(T8) = -5.72 dex   ; Dupuy13 mean 
-=> adopt logL(T8) = -5.70
-=> adopt Mbol(T8) = 18.99   (from logL=-5.70)
+logL(T8V) =  -5.558 +-0.021 ; WISEPA J1959-33 (Beiler24; JWST) 
+logL(T8V) =  -5.657 +-0.023 ; ULAS J1029+09 (Beiler24; JWST)
+logL(T8V) =  -5.67 +-0.02   ; pri. stan. 2MASSI J0415-0935 (Dupuy13 #39)
+logL(T8V) =  -5.69 +-0.03   ; 2MASSI J0939-2448 (Dupuy13 #40)
+logL(T8V) = -5.720 ; Sanghi23 M6V-T9V field dwarf polynomial
+logL(T8V) = -5.72  ; Dupuy13 mean
+logL(T8V) =  -5.843 +-0.028 ; WISE J0247+37 (Beiler24; JWST)
+logL(T8V) =  -6.219 +-0.027 ; WISE J0430+46 (Beiler24; JWST) 
+=> adopt logL(T8) = -5.72 [updated 10/4/2024]
+=> adopt Mbol(T8) = 19.04 [updated 10/4/2024] (from logL=-5.72)
 
-Mass(T8) = 17-40 Mjup ; Dupuy13 mean
+Rad(T8V) = 0.10276 +-0.01028 Rsun ; (=1+-0.1Rjup; assumed BD rad for one model T6V-Y1V; Beiler24)
+Rad(T8V) = 0.1232 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial 
+
+Mass(T8V) = 17-40 Mjup ; Dupuy13 mean (range: 1-5Gyr)
+
+logg(T8V) = 4.65-5.16 ; Dupuy13 mean (range: 1-5Gyr)
 
 # Standard
 

@@ -5,42 +5,63 @@ Teff(T7.5V) =  673 K ; ULAS_0901-0306 (Kirkpatrick19; plx=62.6+-2.6mas)
 Teff(T7.5V) =  688 K ; WISE_2319-1844 (Kirkpatrick19; plx=79.2+-3.1mas)
 Teff(T7.5V) = 692 K ; 2MASS_1114-2618 (Kirkpatrick19; plx=179.2+-1.4mas)
 Teff(T7.5V) =  709 K ; WISE_0223-2932 (Kirkpatrick19; plx=80.7+-2.6mas)
+Teff(T7.5V) = 719 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(T7.5V) =  727 K ; WISE J052126.29+102528.4 (Kirkpatrick20)
 Teff(T7.5V) =  735 K ; ULAS_2321+1354 (Kirkpatrick19; plx=83.6+-2.4mas)
 Teff(T7.5V) =  744 K ; 2MASS_1553+1532B (Kirkpatrick19; plx=75.1+-0.9mas)
 Teff(T7.5V) = 751 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(T7.5V) = 755 K ; Filipazzo15 M6V-T9V field calibration
-Teff(T7.5V) = 755 K ; Gl_570D (Kirkpatrick19; plx=171.2+-0.9mas)
-Teff(T7.5V) = 759 K ; GJ 570D (Kirkpatrick20) 
+Teff(T7.5V) = 755 K ; exemplar Gl_570D (Kirkpatrick19; plx=171.2+-0.9mas)
+Teff(T7.5V) = 759 K ; exemplar GJ 570D (Kirkpatrick20)
+Teff(T7.5V) = 760 K ; exemplar GJ 570D (see below)
 Teff(T7.5V) =  821 K ; WISE_1052-1942 (Kirkpatrick19; plx=62.3+-4.4mas)
 Teff(T7.5V) =  839 K ; 2MASS_1217-0311 (Kirkpatrick19; plx=91.7+-2.2mas)
 Teff(T7.5V) =  839 K ; WISE_1039-1600 (Kirkpatrick19; plx=53.4+-2.6mas)
 => adopt Teff(T7.5V) = 750 K (logT = 2.875) [updated 2/2/2021]
 
-M_J(T7.5V) =  15.62  ; WISE_1039-1600 calc using Kirkpatrick20 (plx=45.3mas)
-M_J(T7.5V) =  15.67  ; 2MASS_1217-0311 calc using Kirkpatrick20 (plx=91.7mas)
+(J-Ks)(T7.5V) = -0.200 ; Sanghi24 M6V-T9V trend
+
+(W1-W2)(T7.5V) = 2.60 ; Kirkpatrick19 polynomial
+
+M_i'(T7.5V) = 24.35 ; exemplar GJ 570D = 2MASS J14571496-2121477 (Reyle10,Kirkpatrick21)),
+
+M_z'(T7.5V) = 20.41 ; exemplar GJ 570D = 2MASS J14571496-2121477  (Reyle10,Kirkpatrick21))
+
+M_J(T7.5V) =   15.62 ; 2MASS_J05212615+1025328_ T7.5 plx=141.2mas
+M_J(T7.5V) =   15.62 ; WISE_1039-1600 calc using Kirkpatrick20 (plx=45.3mas)
+M_J(T7.5V) =   15.65 ; 2MASS_J12171110-0311131_ T7.5 plx=90.80mas
+M_J(T7.5V) =   15.89 ; WISE_J105257.95-194250.2_ T7.5 plx=64.9mas
+M_J(T7.5V) =   15.97 ; WISE_J180901.07+383805.4_ T7.5 plx=52.4mas
+M_J(T7.5V) =   16.01 ; WISE_J103907.73-160002.9_ T7.5 plx=54.2mas
 M_J(T7.5V) >   16.01 ; CWISE_1138+7212 calc using Kirkpatrick20 (plx=40.7mas)
-M_J(T7.5V) =  16.30  ; WISE_2147-1029 calc using Kirkpatrick20 (plx=51.8mas)
-M_J(T7.5V) =  16.31  ; WISE_1052-1942 calc using Kirkpatrick20 (plx=67.8mas)
+M_J(T7.5V) =   16.08 ; GJ_27_B_ T7.5 plx=90.03mas
+M_J(T7.5V) =   16.23 ; WISE_J214706.78-102924.0_ T7.5 plx=51.8mas
+M_J(T7.5V) =   16.28 ; ULAS_J232123.79+135454.9_ T7.5 plx=82.8mas
+M_J(T7.5V) =   16.31 ; WISE_1052-1942 calc using Kirkpatrick20 (plx=67.8mas)
 M_J(T7.5V) >   16.35 ; WISE_0521+1025 calc using Kirkpatrick20 (plx=150.2mas)
-M_J(T7.5V) =  16.47  ; Gl_570D   calc using Kirkpatrick20 (plx=170.0112mas)
-M_J(T7.5V) = 16.61  ; M_J(MKO)=16.28, (J(MKO)-J)(T7.5V) = -0.33
-M_J(T7.5V) =  16.87  ; WISE_0223-2932 calc using Kirkpatrick20 (plx=80.7mas)
-M_J(T7.5V) =  16.97  ; WISE_2319-1844 calc using Kirkpatrick20 (plx=80.9mas)
-M_J(T7.5V) =  16.98  ; WISE_1544+5842 calc using Kirkpatrick20 (plx=49.1mas)
-M_J(T7.5V) =  17.13  ; 2MASS_1114-2618 calc using Kirkpatrick20 (plx=179.2mas)
-M_J(T7.5V) =  17.79  ; ULAS_1416+1348 calc using Kirkpatrick20 (plx=107.5599mas)
-=> adopt M_J(T7.5V) = 16.61 [updated 12/5/2020] (M_J(MKO)=16.28, (J(MKO)-J)(T7.5V) = -0.33)
+M_J(T7.5V) =   16.47 ; exemplar GJ 570D = 2MASS J14571496-2121477 (2MASS,Kirkpatrick21)),
+M_J(T7.5V) =  16.61 ; M_J(MKO)=16.28, (J(MKO)-J)(T7.5V) = -0.33
+M_J(T7.5V) =   16.87 ; ULAS_J090116.23-030635.0_ T7.5 plx=62.60mas
+M_J(T7.5V) =   16.88 ; WISEP_J022322.39-293258.1_ T7.5 plx=80.7mas
+M_J(T7.5V) =   16.91 ; WISE_J042417.94+072744.1_ T7.5 plx=43.7mas
+M_J(T7.5V) =   16.97 ; WISE_2319-1844 calc using Kirkpatrick20 (plx=80.9mas)
+M_J(T7.5V) =   16.98 ; WISE_1544+5842 calc using Kirkpatrick20 (plx=49.1mas)
+M_J(T7.5V) =   17.10 ; 2MASS_J11145133-2618235_ T7.5 plx=176.8mas
+M_J(T7.5V) =   17.10 ; WISEP_J231939.13-184404.3_ T7.5 plx=80.9mas
+M_J(T7.5V) =   17.13 ; ULAS_J131508.42+082627.4_ T7.5 plx=42.80mas
+M_J(T7.5V) =   17.45 ; WISE_J154459.27+584204.5_ T7.5 plx=61.2mas
+M_J(T7.5V) =   17.46 ; ULAS_J141623.94+134836.3_ T7.5p plx=109.70mas
+=> adopt M_J(T7.5V) = 16.35 [updated 12/5/2020] (M_J(MKO)=16.28, (J(MKO)-J)(T7.5V) = -0.33)
 
 M_J(MKO)(T7.5V) =  15.35 ; 2MASS_1217-0311 calc using Kirkpatrick20 (plx=91.7mas)
 M_J(MKO)(T7.5V) =  15.71 ; WISE_0521+1025 calc using Kirkpatrick20 (plx=150.2mas)
 M_J(MKO)(T7.5V) =  15.94 ; WISE_1809+3838 calc using Kirkpatrick20 (plx=52.4mas)
 M_J(MKO)(T7.5V) =  15.97 ; WISE_2147-1029 calc using Kirkpatrick20 (plx=51.8mas)
-M_J(MKO)(T7.5V) =  16.01 ; Gl_570D   calc using Kirkpatrick20 (plx=170.0112mas)
+M_J(MKO)(T7.5V) = 16.01 +-0.01 ; exemplar GJ 570D = 2MASS J14571496-2121477 (Kirkpatrick21)
 M_J(MKO)(T7.5V) =  16.04 ; WISE_1052-1942 calc using Kirkpatrick20 (plx=67.8mas)
 M_J(MKO)(T7.5V) = 16.28  ; M_J=16.61, (J(MKO)-J)(T7.5V) = -0.33
-M_J(MKO)(T7.5V) = 16.28  ; ULAS_2321+1354 calc using Kirkpatrick20 (plx=82.8mas)
-M_J(MKO)(T7.5V) = 16.39 (+-0.72 rms) ; Tinney14
+M_J(MKO)(T7.5V) =  16.28 ; ULAS_2321+1354 calc using Kirkpatrick20 (plx=82.8mas)
+M_J(MKO)(T7.5V) =  16.39 (+-0.72 rms) ; Tinney14
 M_J(MKO)(T7.5V) =  16.63 ; WISE_0223-2932 calc using Kirkpatrick20 (plx=80.7mas)
 M_J(MKO)(T7.5V) =  16.87 ; ULAS_0901-0306 calc using Kirkpatrick20 (plx=62.6mas)
 M_J(MKO)(T7.5V) =  16.92 ; 2MASS_1114-2618 calc using Kirkpatrick20 (plx=179.2mas)
@@ -49,17 +70,22 @@ M_J(MKO)(T7.5V) =  17.38 ; ULAS_1315+0826 calc using Kirkpatrick20 (plx=50.5mas)
 M_J(MKO)(T7.5V) =  17.43 ; ULAS_1416+1348 calc using Kirkpatrick20 (plx=107.5599mas)
 => adopt M_J(MKO)(T7.5V) = 16.28 [updated 12/5/2020] (M_J=16.61, (J(MKO)-J)(T7.5V) = -0.33)
 
-(J(MKO)-J)(T7.5V) = -0.46 +- 0.05  ; Gl_570D         
+(J(MKO)-J)(T7.5V) =  -0.46 +- 0.05 ; Gl_570D         
 (J(MKO)-J)(T7.5V) =  -0.43 +- 0.17 ; WISE_1544+5842 
-(J(MKO)-J)(T7.5V) = -0.41 +- 0.08  ; WISE_1039-1600 
-(J(MKO)-J)(T7.5V) = -0.36 +- 0.03  ; ULAS_1416+1348 
-(J(MKO)-J)(T7.5V) = -0.33 +- 0.06  ; WISE_2147-1029 
-(J(MKO)-J)(T7.5V) = -0.32 +- 0.06  ; 2MASS_1217-0311 
-(J(MKO)-J)(T7.5V) = -0.27 +- 0.06  ; WISE_1052-1942 
+(J(MKO)-J)(T7.5V) =  -0.41 +- 0.08 ; WISE_1039-1600 
+(J(MKO)-J)(T7.5V) =  -0.36 +- 0.03 ; ULAS_1416+1348 
+(J(MKO)-J)(T7.5V) =  -0.33 +- 0.06 ; WISE_2147-1029 
+(J(MKO)-J)(T7.5V) =  -0.32 +- 0.06 ; 2MASS_1217-0311
+(J(MKO)-J)(T7.5V) = -0.31 ; smoothed trend T1.5V-T9.5V (10/20/2024; rms=0.145mag)
+(J(MKO)-J)(T7.5V) =  -0.27 +- 0.06 ; WISE_1052-1942 
 (J(MKO)-J)(T7.5V) =  -0.24 +- 0.16 ; WISE_0223-2932 
-(J(MKO)-J)(T7.5V) = -0.21 +- 0.08  ; 2MASS_1114-2618 
+(J(MKO)-J)(T7.5V) =  -0.21 +- 0.08 ; 2MASS_1114-2618 
 (J(MKO)-J)(T7.5V) =   0.13 +- 0.23 ; WISE_2319-1844
-=> adopt (J(MKO)-J)(T7.5V) = -0.33 [updated 12/5/2020] 
+=> adopt (J(MKO)-J)(T7.5V) = -0.31 [updated 10/20/2024]
+
+M_H(T7.5V) = 16.42 ; exemplar GJ 570D = 2MASS J14571496-2121477 (2MASS,Kirkpatrick21)),
+
+M_H_MKO(T7.5V) = 16.42 ; exemplar GJ 570D = 2MASS J14571496-2121477 (Best21,Kirkpatrick21)),
 
 mixing K(MKO) and 2MASS Ks here as (K(MKO)-Ks)(T7.5V) ~ 0.1 (see below)
 M_Ks(T7.5V)     >   13.21 ; CWISE_1138+7212 calc using Kirkpatrick20 (plx=40.7mas)
@@ -71,9 +97,9 @@ M_Ks(T7.5V)     = 15.8    ; T7V adopted
 M_Ks(T7.5V)     =  16.30  ; WISE_2147-1029 calc using Kirkpatrick20 (plx=51.8mas)
 M_Ks(T7.5V)     =  16.31  ; WISE_1052-1942 calc using Kirkpatrick20 (plx=67.8mas)
 M_Ks(T7.5V)     >   16.44 ; WISE_1544+5842 calc using Kirkpatrick20 (plx=49.1mas)
-M_Ks(T7.5V)     =  16.45  ; Gl_570D   calc using Kirkpatrick20 (plx=170.0112mas)
+M_Ks(T7.5V)     = 16.45 ; exemplar GJ 570D = 2MASS J14571496-2121477 (Kirkpatrick21)),
 M_Ks(T7.5V)     >   16.47 ; WISE_0223-2932 calc using Kirkpatrick20 (plx=80.7mas)
-M_K(MKO)(T7.5V) =  16.67  ; Gl_570D   calc using Kirkpatrick20 (plx=170.0112mas)
+M_K(MKO)(T7.5V) = 16.67   ; exemplar GJ 570D = 2MASS J14571496-2121477 (Best21,Kirkpatrick21)),
 M_Ks(T8V)       = 16.9    ; T8V adopted 
 M_K(MKO)(T7.5V) =  16.95  ; ULAS_2321+1354 calc using Kirkpatrick20 (plx=82.8mas)
 M_K(MKO)(T7.5V) =  17.19  ; ULAS_0901-0306 calc using Kirkpatrick20 (plx=62.6mas)
@@ -89,9 +115,51 @@ M_K(MKO)(T7.5V) =  19.09  ; ULAS_1416+1348 calc using Kirkpatrick20 (plx=107.559
 (K(MKO)-Ks)(T7.5V) = 0.07 +- 0.09 ; 2MASS_1114-2618
 (K(MKO)-Ks)(T7.5V) = 0.22 +- 0.05 ; Gl_570D
 
-W1-W2(T7.5V) = 2.60 ; Kirkpatrick19 polynomial
+M_W1(T7.5V) = 16.08 ; exemplar GJ 570D = 2MASS J14571496-2121477 (Best18,Kirkpatrick21)).
 
 M_W2(T7.5V) = 13.39 (+-0.27 rms) ; Tinney14
+
+BC_J(T7.5V) = 2.324 ; Sanghi23 M6V-T9V trend
+
+BC_Ks(T7.5V) = 2.124 mag ; Sanghi23 M6V-T9V field dwarf polynomial
+
+logL(T7.5V) = -5.552 ; Sanghi23 M6V-T9V field dwarf polynomial
+=> adopt logL(T7.5V) = -5.55 [updated 10/4/2024]
+
+Rad(T7.5V) = 0.10276 +-0.01028Rsun ; (=1+-0.1Rjup; assumed BD rad for one model T6V-Y1V; Beiler24)
+Rad(T7.5V) = 0.1080 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial
+
+# Exemplar
+
+GJ 570D = 2MASS J14571496-2121477 = WDS J14575-2125G = CNS5 3699 
+  T7: Burgasser03,Kirkpatrick05(opt),Burgasser10(opt),Kirkpatrick20(opt),Kirkpatrick21(opt)
+ *T7.5: Burgasser06,Burgasser10(near-IR,Spex),Leggett10(T7.5+-0.5),Kirkpatrick11,Kirkpatrick12,Kirkpatrick20(near-IR),Kirkpatrick21(adopted)
+  T8: Burgasser00,Burgasser02(T8V),Geballe02,Kirkpatrick05(near-IR)
+
+  It appears that Burgasser, Kirkpatrick, & Best adopt T7 (optical) &
+  T7.5 (near-IR).  Quadruple companion to K4V (A) + M1V (BC) trio,
+  where the primpary GJ 570A (HD 131977) has solar metallicity
+  ([Fe/H]=+0.02+-0.04;Soubiran22).  i'=23.20(Reyle10),
+  z'=19.26(Reyle10), i'-z'=3.94(Reyle10), z'-J=4.51(Reyle10),
+  Y=15.78+-0.10(Best21), J_MKO=14.82+-0.05(Best21),
+  J_MKO=14.86+-0.01(Kirkpatrick21), J=15.324+-0.048(2MASS),
+  H_MKO=15.28+-0.05(Best21), H=15.268+-0.089(2MASS),
+  K_MKO=15.52+-0.05(Best21), Ks=15.30+-0.02(Kirkpatrick21),
+  Ks=15.242+-0.156(2MASS,q=C), L'=12.98+-0.05,
+  W1=14.932+-0.038(Kirkpatrick21) W2=12.129+-0.024(Kirkpatrick21),
+  W3=10.784+-0.086(Kirkpatrick21).  plx=170.0112+-0.0851mas(GaiaDR2,
+  adopted by Kirkpatrick21), plx=169.30+-1.70mas(Faherty12).  Teffs:
+  750K(716,812;Miles20), 759+-63K(Kirkpatrick20), 800K(Golimowski04)
+  => adopt Teff=760K.  Absolute magnitudes (adopting
+  plx=170.0112+-0.0851mas;K21): M_i'=24.35(Reyle10,Kirkpatrick21)),
+  M_z'=20.41(Reyle10,Kirkpatrick21))
+  M_J=16.47+-0.05(2MASS,Kirkpatrick21)),
+  M_J_MKO=16.01+-0.01(Kirkpatrick21)),
+  M_H=16.42+-0.09(2MASS,Kirkpatrick21)),
+  M_H_MKO=16.423+-0.055(Best21,Kirkpatrick21)),
+  M_Ks=16.45+-0.02(Kirkpatrick21)),
+  M_K_MKO=16.67+-0.05(Best21,Kirkpatrick21)),
+  M_W1=16.08+-0.04(Best18,Kirkpatrick21)).
 
 # Examples
 
@@ -100,11 +168,6 @@ WISE J052126.29+102528.4
 
   plx=150.2+-3.0pc(Kirkpatrick20), Teff=727+-88K(Kirkpatrick20).
 
-GJ 570D
-  T7: Kirkpatrick20(opt.)
- *T7.5: Kirkpatrick20(near-IR)
-
-  plx=170.0112+-0.0851mas(GaiaDR2). Teff=759+-63K(Kirkpatrick20).
 
 
 

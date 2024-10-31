@@ -1,15 +1,28 @@
 T0.5V
 
+Teff(T0.5V) = 1178 K ; Sanghi23 M6V-T9V field dwarf polynomial 
 Teff(T0.5V) = 1231 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(T0.5V) = 1246 K ; Kirkpatrick20 (Table 13 polynomial)
 
-M_J(T0V) = 14.734 ; EEM fit to L/T dwarfs d<25pc
+(J-Ks)(T0.5V) =  1.434 ; Sanghi24 M6V-T9V trend
+
+M_J(T0.5V) = 14.734 ; EEM fit to L/T dwarfs d<25pc
+M_J(T0.5V) =  14.91 ; BRLT_38_ T0.5 plx=46.73mas
 
 M_Ks(T0.5V) =  12.45 ; WISE_1809-0448 calc using Kirkpatrick20 (plx=49.2mas)
 M_Ks(T0.5V) = 13.21  ; fit to Kirkpatrick20 L7-T3 dwarfs
 M_Ks(T0.5V) = 13.21  ; Luhman16B 
 M_Ks(T0.5V) = 13.21  ; trend to L/T dwarfs in notes (1/2021)
 => adopt M_Ks(T0.5V) = 13.21 [updated 12/30/2020]
+
+BC_J(T0.5V) = 1.834 ; Sanghi23 M6V-T9V trend
+
+BC_Ks(T0.5V) = 3.269 mag ; Sanghi23 calibration (M6V-T9V) 
+
+logL(T0.5V) = -4.653 ; Sanghi23 M6V-T9V field dwarf polynomial
+=> adopt logL(T0.5V) = -4.65 [updated 10/4/2024]
+
+Rad(T0.5V) = 0.1131 Rsun ; Sanghi23 calibration (M6V-T9V) 
 
 # Examples
 

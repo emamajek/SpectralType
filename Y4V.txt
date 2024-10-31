@@ -4,11 +4,12 @@ Kirkpatrick20 adopts Y4 for WISE J0855−0714, the coolest object, in
 their Table A1 (and defining the red/cool end of their polynomial fits).
 As it is the only Y4 in the literature, it is de facto standard for now. 
 
-Teff(Y4V) = 225-250K ; WISE J0855-0714 (ZapateroOsorio16)
-Teff(Y4V) = 250+-50K ; WISE J0855-0714 (Kirkpatrick20)
-Teff(Y4V) = 250+-10K ; WISE J0855-0714 (Leggett17)
-Teff(Y4V) = 250 K    ; WISE J0855-0714 (Leggett15)
-=> adopt Teff(Y4V) = 250 K (logT = 2.398) [updated 2/2/2021]
+Teff(Y4V) = 225-250K  ; WISE J0855-0714 (ZapateroOsorio16)
+Teff(Y4V) = 250 +-50K ; WISE J0855-0714 (Kirkpatrick20)
+Teff(Y4V) = 250 +-10K ; WISE J0855-0714 (Leggett17)
+Teff(Y4V) = 250 K     ; WISE J0855-0714 (Leggett15)
+Teff(Y4V) = 260 K     ; WISE J0855-0714 (Leggett21) 
+=> adopt Teff(Y4V) = 250 K (logT = 2.398) [updated 10/4/2024]
 
 H-W2(Y4V) = 10.13+-0.24 ; WISE J0855-0714 Kirkpatrick19
 
@@ -30,9 +31,11 @@ M_W2(Y4V)      = 17.07       ; WISE J0855-0714 (see below)
 M_IRACch2(Y4V) = 17.13+-0.02 ; WISE J0855-0714 Kirkpatrick19
 => adopt M_W2(Y4V) = 17.1 [updated 12/5/2020]
 
-logL(Y4V) = -8.57 ; WISE J0855-0714 ZapateroOsorio16
+logL(Y4V) = -7.291 ; WISE J0855-0714 ; Kuhnle24/JWST/MIRI)
+=> adopt logL(Y4V) = -7.29 [updated 10/15/2024]
 
-Mbol(Y4V) = 26.17 ; WISE J0855-0714 ZapateroOsorio16 on IAU2015 scale
+Mbol(Y4V) = 22.97 ; WISE J0855-0714 ; Kuhnle24/JWST/MIRI on IAU2015 scale)
+=> adopt logL(Y4V) = 22.97 [updated 10/15/2024]
 
 # Exemplars
 
@@ -79,5 +82,5 @@ WISE J0855-0714 = WISE J085510.83-071442.5
   ages of 0.97-10.29 Gyr, with Teff=126K(!), logg=3.11-3.80,
   R=0.1033-0.1046 Rsun. However there is considerable uncertainty in the
   bolometric flux and hence the luminosity. Luhman did not quote luminosity
-  after SED analysis. 
-
+  after SED analysis. logL=-7.291+-0.008(Kuhnle24/JWST/MIRI) =>
+  Mbol=22.97(IAU2015 scale).

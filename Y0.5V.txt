@@ -8,6 +8,8 @@ Teff(Y1V)   =   360 K ; adopted
 Teff(Y0.5V) =  364 K ; WISE_0825+2805 (Kirkpatrick19; plx=155.8+-2.4mas)
 Teff(Y0.5V) =  ~375 K [350-400K] ; Schneider15/WISE1405+5534
 Teff(Y0.5V) =  376 K ; WISE J082507.35+280548.5 (Kirkpatrick20)
+Teff(Y0.5V) =  387 K ; WISE J0825+28 (Beiler24; JWST)
+Teff(Y0.5V) =  392 K ; WISEPC J1406+55 (Beiler24; JWST) 
 Teff(Y0.5V) =  400 K ; Schneider15/WISE0825+2805
 Teff(Y0.5V) =  402 K ; WISE_1405+5534 (Kirkpatrick19; plx=157.9+-3.1mas)
 Teff(Y0.5V) =  412 K ; Kirkpatrick20 (Table 13 polynomial)
@@ -34,6 +36,13 @@ M_Ks(Y0.5V) = 21.62 ; interp Y0V-Y2V
 W1-W2(Y0.5V) = 3.89 ; Kirkpatrick19 polynomial
 
 M_W2(Y0.5V) = 15.20 ; Tinney14 (N=1; apparently WISE J014807.25-720258.7)
+
+logL(Y0.5V) = -6.598 +-0.015 dex ; WISEPC J1406+55 (Beiler24; JWST) 
+logL(Y0.5V) = -6.621 +-0.014 dex ; WISE J0825+28 (Beiler24; JWST)
+=> adopt logL(Y0.5V) = -6.61 dex [updated 10/4/2024]
+
+Rad(Y0.5V) = 0.10276 +-0.01028 Rsun ; =(1+-0.1)Rjup (assumed BD rad for one model T6V-Y1V; Beiler24)
+
 
 # Exemplars
 
