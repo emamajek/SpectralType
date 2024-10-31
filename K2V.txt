@@ -525,8 +525,8 @@ M_Ks(K2V) =   4.44 ; HD_1815 plx=45.9535mas (K2V(k),Gray06)
 [EEM 8/20/2023: trend for standards+exemplars: M_Ks(K2V) = 3.977 - 0.3738*[Fe/H] (rms=0.089mag)
 among K2V stars within +-0.2 dex of solar:     M_Ks(K2V) = 3.968 - 0.3149*[Fe/H] (rms=0.071mag)
 
-logL(K2V) = -0.278+-0.065 ; ecl. binary ASAS_J045304-0700.4A (Helminiak11)
-logL(K2V) = -0.310+-0.053 ; ecl. binary EPIC 219511354A in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
+logL(K2V) = -0.278 +-0.065 ; ecl. binary ASAS_J045304-0700.4A (Helminiak11)
+logL(K2V) = -0.310 +-0.053 ; ecl. binary EPIC 219511354A in Ruprecht147 [Fe/H]=+0.07+-0.03 (Torres21)
 logL(K2V) = -0.428 dex ; Mv=6.07, BCv=-0.26 => Mbol = 5.810
 logL(K2V) = -0.49  dex ; pri. stan. HD 22049 = eps Eri (young <1 Gyr star)
 => adopt logL(K2V) = -0.428 dex [updated 9/26/2020]
@@ -536,7 +536,7 @@ Rad(K2V) =  0.694 Rsun ; ter. stan. HD 4628 = HR 222
 Rad(K2V) =  0.695 +- 0.004 Rsun ; ter. stan. HD 4628 (Yee17)
 Rad(K2V) =  0.7152 +- 0.0006 Rsun ; Boyajian12b (N=2)
 Rad(K2V) =  0.7232+-0.0091 Rsun ; V2154 Cyg B (BrightTorres17) [Fe/H]=-0.17, 2.2Gyr
-Rad(K2V) =  0.738 +- 0.003 Rsun ; pri. stan. eps Eri (Rains20) ([Fe/H]=-0.08)
+Rad(K2V) = 0.738 +- 0.003 Rsun ; pri. stan. eps Eri (Rains20) ([Fe/H]=-0.08)
 Rad(K2V) =  0.749 +- 0.049 Rsun ; ter. stan. HD 4628 (Stassun19)
 Rad(K2V) =  0.760 +- 0.040 Rsun ; exemplar HD 170657 = GJ 716 ([Fe/H]=-0.17) (Yee17)
 Rad(K2V) =  0.764 +- 0.056 Rsun ; exemplar HD 170657 = GJ 716 ([Fe/H]=-0.17) (Stassun19)
@@ -561,6 +561,7 @@ Mass(K2V) = 0.845 Msun ; Eker18 calibration for logL=-0.428
 Mass(K2V) =  0.833 +-0.031 Msun ; deprecated standard HD 184467 
 Mass(K2V) =  0.828 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.428)
 Mass(K2V) =  0.826 Msun ; Eker15 calibration for logL=-0.428
+Mass(K2V) = 0.818 Msun ; (M/Msun)=(L/Lsun)^0.2033 (G2V-K5V fit 9/24/2024) for logL=-0.428
 Mass(K2V) = 0.814 Msun ; Fernandez21 ML calibration for logL=-0.428
 Mass(K2V) = 0.806 +-0.031 Msun ; Mann18 calib for M_Ks=3.938 (unc. 3.8%)
 Mass(K2V) = 0.796 Msun ; pri. stan. HD 22049 = eps Eri = GJ 144 ([Fe/H]=-0.08)
@@ -568,7 +569,7 @@ Mass(K2V) = 0.789 Msun ; ter. stan. HD 166620 = GJ 706 = HIP 88972 ([Fe/H]=-0.18
 Mass(K2V) =  0.7542 +-0.0059 Msun ; ecl. binary V2154 Cyg B (BrightTorres17) [Fe/H]=-0.17, 2.2Gyr
 Mass(K2V) = 0.75 Msun ; ter. stan. HD 4628 = GJ 33 = HIP 3765 ([Fe/H]=-0.26)
 Mass(k2V) =  0.738 Msun ; Habets81
-=> adopt Mass(K2V) = 0.82 Msun [updated 8/3/2023]
+=> adopt Mass(K2V) = 0.818 Msun [updated 9/24/2024]
 
 logg(K2V) =   4.45 ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.17)
 logg(K2V) =   4.48 ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.02)
@@ -630,9 +631,9 @@ HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=
   GaiaDR3: plx=310.5773+-0.1355mas(GaiaDR3),
   G=3.465752+-0.003075(GaiaDR3), E(Bp/Rp)=1.198(GaiaDR3),
   Bp-Rp=1.140298(GaiaDR3), Bp-G=0.516696(GaiaDR3),
-  G-Rp=0.623602(GaiaDR3) => M_G=5.93.  Rad=0.735+-0.005Rsun(Yee17).
+  G-Rp=0.623602(GaiaDR3) => M_G=5.93. 
   Rains20 reports values from diameter measurement:
-  tetLD=2.144+-0.011mas, Rad=0.738+-0.003 Rsun, fbol=(99.8+-2.5)e-8
+  tetLD=2.144+-0.011mas, Rad=0.738+-0.003Rsun, fbol=(99.8+-2.5)e-8
   erg/s/cm2 (=>mbol = 3.505+-0.027 IAU2015 scale), Teff=5052+-33K,
   L=0.32+-0.01Lsun (=> logL = -0.49+-0.01). diFolco07 previously
   reported tet_LD=2.126+-0.014mas.  BCv = V - mbol = 3.505 - 3.726 =

@@ -220,15 +220,15 @@ than solar value due to slight metal richness. Adopt V-Ks=5.25.]
 (J-Ks)(M4V) =  0.826 ; GJ_3378_ M4.0V
 (J-Ks)(M4V) =  0.839 ; GJ_896_B_ M4.0Ve
 (J-Ks)(M4V) = 0.839 ; J-H=0.557, H-Ks=0.282
-(J-Ks)(M4V) = 0.844 ; smoothed fit M0-L0 
 (J-Ks)(M4V) = 0.844 ; Bessell88(Glass->2MASS)
+(J-Ks)(M4V) = 0.850 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(M4V) =  0.869 ; *_alf_PsA_C_ M4.0Ve
 (J-Ks)(M4V) =  0.881 ; GJ_3323_ M4.0Ve
 (J-Ks)(M4V) = 0.883 ; ter. stan. GJ_285_ M4.0Ve
 (J-Ks)(M4V) = 0.905 ; ter. stan. GJ_169.1_A_ M4.0V
 (J-Ks)(M4V) =  0.916 ; GJ_1128_ M4.0V
 (J-Ks)(M4V) = 0.948 ; pri. stan. GJ_402_ M4V
-=> adopt (J-Ks)(M4V) = 0.845 [updated 11/20/2023]
+=> adopt (J-Ks)(M4V) = 0.850 [updated 10/24/2024]
 
 (V-Lj)(M4V) = 5.20  ; Johnson65
 
@@ -580,8 +580,6 @@ Mv(M4V) =  13.685  ; ter. stan. GJ 299 (see below)
 Mv(M4V) =    14.11 ; Habets81
 => adopt Mv(M4V)   = 12.61 mag [updated 12/10/2020] (M_Ks=7.36, V-Ks=5.25)
 => adopt M_G(M4V)  = 11.21 mag [updated 12/10/2020] (Mv=12.61, G-V=-1.40)
-=> adopt M_Ks(M4V) =  7.36 mag [updated 12/10/2020] (Mv=12.61, V-Ks=5.25)
-=> adopt M_J(M4V)  =  8.205 mag [updated 6/15/2024] (M_Ks=7.36, J-Ks=0.845)
 => adopt M_i(M4V)  = 10.505 mag [updated 6/15/2024] (M_J=8.205, i-J=2.30)
 => adopt M_r(M4V)  = 12.015 mag [updated 6/15/2024] (M_i=10.505, r-i=1.51)
 
@@ -602,22 +600,51 @@ M_G(M4V) =   12.028 ; Ross 64
 
 Note: M4V M_G values range from 8.2 to 12.38 among d<10pc SIMBAD stars,
 rms scatter is 1.2 mag!]
- 
-M_Ks(M4V) =  8.511 ; ter. stan. GJ 299
-M_Ks(M4V) =  8.307 ; sec. stan. GJ 232
-M_Ks(M4V) =  8.147 ; ter. stan. GJ 275.2A
+
+M_J(M4V) =    7.17 ; GJ_408_ M4V plx=148.1986mas
+M_J(M4V) =   7.59 ; GJ_873_ M4.0Ve plx=197.9573mas
+M_J(M4V) =  7.69 ; ter. stan. GJ_285_ M4.0Ve plx=166.9769mas
+M_J(M4V) =  7.91 ; ter. stan. GJ_169.1_A_ M4.0V plx=181.2438mas
+M_J(M4V) =   7.97 ; GJ_3801_ M4V plx=108.7903mas
+M_J(M4V) =   8.02 ; GJ_3378_ M4.0V plx=129.3014mas
+M_J(M4V) =  8.10 ; pri. stan. GJ_402_ M4V plx=143.5391mas
+M_J(M4V) =   8.12 ; GJ_445_ M4.0V plx=190.3251mas
+M_J(M4V) =   8.12 ; GJ_896_B_ M4.0Ve plx=159.9085mas
+M_J(M4V) =   8.13 ; GJ_609_ M4V plx=99.7948mas
+M_J(M4V) = 8.205 ; M_Ks=7.36, J-Ks=0.845 
+M_J(M4V) =   8.27 ; GJ_1207_ M4 plx=114.9158mas
+M_J(M4V) =  8.31 ; pri. stan. GJ_213_ M4V plx=172.6762mas
+M_J(M4V) =   8.34 ; LP_816-60_ M4V plx=177.9312mas
+M_J(M4V) =   8.48 ; GJ_1134_ M4.0V plx=99.4619mas
+M_J(M4V) =  8.86 ; sec. stan. GJ_447_ M4 plx=296.3053mas
+M_J(M4V) =   8.89 ; GJ_1128_ M4.0V plx=153.7593mas
+M_J(M4V) =   8.91 ; GJ_442_B_ M4V plx=107.4237mas
+M_J(M4V) =   8.93 ; GJ_699_ M4V plx=546.9759mas
+M_J(M4V) =   8.97 ; GJ_3323_ M4.0Ve plx=186.0466mas
+M_J(M4V) =  9.02 ; sec. stan. GJ_232_ M4V plx=117.7263mas
+M_J(M4V) =   9.03 ; GJ_1227_ M4.0V plx=119.7519mas
+M_J(M4V) =   9.06 ; GJ_3737_ M4.0V plx=150.0781mas
+M_J(M4V) =   9.13 ; GJ_1224_ M4.0Ve plx=125.4509mas
+M_J(M4V) =    9.31 ; GJ_3571_ M4.0Ve plx=104.7638mas
+M_J(M4V) =    9.41 ; GJ_54.1_ M4.0Ve plx=269.0573mas
+=> adopt M_J(M4V) =  8.205 mag [updated 10/20/2024] (M_Ks=7.36, J-Ks=0.845)
+
+M_Ks(M4V) =  8.51 ; ter. stan. GJ 299
+M_Ks(M4V) =  8.31 ; sec. stan. GJ 232
+M_Ks(M4V) =  8.15 ; ter. stan. GJ 275.2A
 M_Ks(M4V) =   8.12 ; non-stan. GJ 22C (Dieterich21) [Fe/H]=-0.10
-M_Ks(M4V) =  8.025 ; sec. stan. GJ 447
-M_Ks(M4V) = 7.561 ; pri. stan. GJ 213
+M_Ks(M4V) =  8.03 ; sec. stan. GJ 447
+M_Ks(M4V) = 7.56  ; pri. stan. GJ 213
 M_Ks(M4V) = 7.43  ; V-Ks=5.25 => JohnsonApps2009 calibration
 M_Ks(M4V) = 7.35  ; interp. pri. standards M_Ks vs. [M/H] (for [M/H]=0.0)
 M_Ks(M4V) = 7.36  ; V-K=5.25 => Finch14 calibration
 M_Ks(M4V) = 7.37  ; V-K=5.25 => EEM fit to Winters+2015 data
 M_Ks(M4V) = 7.30  ; V-K=5.25 => Schlaufman10 calibration
 M_Ks(M4V) = 7.23  ; V-K=5.25 => EEM fit to Reid CNS3 data
-M_Ks(M4V) = 7.221 ; pri. stan. GJ 402
-M_Ks(M4V) =  6.985 ; ter. stan. GJ 169.1
-M_Ks(M4V) =  6.823 ; ter. stan. GJ 285
+M_Ks(M4V) = 7.22 ; pri. stan. GJ 402
+M_Ks(M4V) =  6.99 ; ter. stan. GJ 169.1
+M_Ks(M4V) =  6.82 ; ter. stan. GJ 285
+=> adopt M_Ks(M4V) = 7.36 mag [updated 12/10/2020] (Mv=12.61, V-Ks=5.25)
 
 Teff(M4V) =   3019 K ; mean photometric Teff
 Teff(M4V) =   3089 +- 11 K ; Pecaut13 (sec. stan. GJ 699)

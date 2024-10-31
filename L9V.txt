@@ -29,7 +29,7 @@ magnitudes (see below).
 (J-H)(L9V) =   1.006 ; 2MASS_J12195156+3128497_ plx=52.0mas L9
 (J-H)(L9V) =   1.020 ; 2MASS_J00314067+3335459_ plx=45.4mas L9
 (J-H)(L9V) =   1.028 ; 2MASS_J10433508+1213149_ plx=59.9mas L9
-(J-H)(L9V) =  1.042 +-0.036 ; pri. stan. 2MASS J02550357-4700509 plx=205.4251mas L9 (GaiaDR3)
+(J-H)(L9V) =  1.042 +-0.036 ; pri. stan. 2MASS J02550357-4700509 plx=205.4251mas L9
 (J-H)(L9V) =   1.071 ; 2MASS_J06420559+4101599_ plx=62.6mas L9
 (J-H)(L9V) = 1.10 ; median J-H among nearest 16 SIMBAD L9Vs w/o ":" or "pec" 
 (J-H)(L9V) =   1.116 ; 2MASS_J10071185+1930563_ plx=45.6mas L9
@@ -45,7 +45,7 @@ magnitudes (see below).
 (J-H)(L9V) =    1.434 ; 2MASS_J02062493+2640237_ plx=52.1mas L9pec
 (J-H)(L9V) =    1.636 ; 2MASS_J00470038+6803543_ plx=82.3mas L9pec
 (J-H)(L9V) =    1.652 ; 2MASS_J16471580+5632057_ plx=42.7mas L9pec
-=> adopt (J-H)(L9V) = 1.10 [updated 5/25/2024]
+=> adopt (J-H)(L9V) = 1.10 [updated 10/24/2024; H-Ks=0.61, J-Ks=1.71]
 
 (H-Ks)(L9V) =   0.388 ; 2MASS_J12003584-2836572_ plx=40.7mas L9.0
 (H-Ks)(L9V) =    0.450 ; 2MASS_J03305326-0350280_ plx=57.1mas L9:
@@ -59,6 +59,7 @@ magnitudes (see below).
 (H-Ks)(L9V) =  0.589 (+-0.09 rms) ; trend SIMBAD d<30pc L dwarfs
 (H-Ks)(L9V) =   0.602 ; 2MASS_J12195156+3128497_ plx=52.0mas L9
 (H-Ks)(L9V) =   0.609 ; 2MASS_J15400942+3742316_ plx=40.8mas L9.0
+(H-Ks)(L9V) = 0.61 ; J-H=1.01, J-Ks=1.71
 (H-Ks)(L9V) =  0.646 +-0.034 ; pri. stan. 2MASS_J02550357-4700509_ plx=205.4251mas L9
 (H-Ks)(L9V) =    0.648 ; 2MASS_J16471580+5632057_ plx=42.7mas L9pec
 (H-Ks)(L9V) =   0.711 ; 2MASS_J10433508+1213149_ plx=59.9mas L9
@@ -68,7 +69,7 @@ magnitudes (see below).
 (H-Ks)(L9V) =   0.840 ; 2MASS_J09560810-1447065_ plx=65.4mas L9
 (H-Ks)(L9V) =    0.915 ; 2MASS_J00470038+6803543_ plx=82.3mas L9pec
 (H-Ks)(L9V) =   0.940 ; 2MASS_J00314067+3335459_ plx=45.4mas L9
-=> adopt (H-Ks)(L9V) = 0.61 [updated 5/25/2024]
+=> adopt (H-Ks)(L9V) = 0.61 [updated 5/25/2024; J-H=1.01, J-Ks=1.71]
 
 (J-Ks)(L9V) =    1.290 ; 2MASS_J23491511+3458562_ plx=34.3mas L9
 (J-Ks)(L9V) =    1.303 ; 2MASS_J12003584-2836572_ plx=40.7mas L9.0
@@ -77,6 +78,7 @@ magnitudes (see below).
 (J-Ks)(L9V) =   1.479 ; 2MASS_J18510178+5935040_ plx=49.2123mas L9
 (J-Ks)(L9V) =   1.568 ; 2MASS_J06143818+3950357_ plx=44.0mas L9
 (J-Ks)(L9V) =   1.608 ; 2MASS_J12195156+3128497_ plx=52.0mas L9
+(J-Ks)(L9V) =  1.657 ; Sanghi24 M6V-T9V trend
 (J-Ks)(L9V) =   1.659 ; 2MASS_J01020186+0355405_ plx=40.2mas L9
 (J-Ks)(L9V) =   1.660 ; 2MASS_J06462756+7935045_ plx=55.95mas L9
 (J-Ks)(L9V) =   1.684 ; 2MASS_J00492826+0440575_ plx=62.6mas L9
@@ -97,7 +99,7 @@ magnitudes (see below).
 (J-Ks)(L9V) =    2.057 ; 2MASS_J09560810-1447065_ plx=65.4mas L9
 (J-Ks)(L9V) =    2.300 ; 2MASS_J16471580+5632057_ plx=42.7mas L9pec
 (J-Ks)(L9V) =    2.551 ; 2MASS_J00470038+6803543_ plx=82.3mas L9pec
-=> adopt (J-Ks)(L9V) = 1.71 [updated 5/25/2024; J-H=1.10, H-Ks=0.61]
+=> adopt (J-Ks)(L9V) = 1.71 [updated 10/24/2024; J-H=1.10, H-Ks=0.61]
 
 (r-i)(L9V) =  1.170 ; 2MASS_J10255227+3212349_ plx=37.3mas L9
 (r-i)(L9V) =  1.526 ; 2MASS_J15400942+3742316_ plx=40.8mas L9.0
@@ -179,35 +181,26 @@ M_G(L9V) =   20.290 ; 2MASS_J00492826+0440575_ plx=62.6mas L9 (GaiaDR3)
 [EEM 5/24/2024: adopted M_G is halfway between the well-studied
 standard J0255 and exemplar J0607 that are within 10pc]
 
-M_J(L9V) =   13.399 ; 2MASS_J18510178+5935040_ plx=49.2123mas L9
-M_J(L9V) =   13.780 ; 2MASS_J22221989+3025583_ plx=27.9mas L9
-M_J(L9V) =   13.974 ; 2MASS_J23491511+3458562_ plx=34.3mas L9
-M_J(L9V) =   14.029 ; 2MASS_J12003584-2836572_ plx=40.7mas L9.0
-M_J(L9V) =  14.206 ; 2MASS_J00310928+5749364_ plx=71.0mas L9
-M_J(L9V) =  14.314 ; Reyle18 polynomial
-M_J(L9V) =  14.493 ; 2MASS_J12195156+3128497_ plx=52.0mas L9
-M_J(L9V) =   14.611 ; 2MASS_J15400942+3742316_ plx=40.8mas L9.0
-M_J(L9V) =   14.735 ; 2MASS_J00314067+3335459_ plx=45.4mas L9
-M_J(L9V) =   14.748 ; 2MASS_J10255227+3212349_ plx=37.3mas L9
-M_J(L9V) =   14.761 ; 2MASS_J01020186+0355405_ plx=40.2mas L9
-M_J(L9V) =   14.805 ; 2MASS_J06143818+3950357_ plx=44.0mas L9
-M_J(L9V) = 14.809 ; pri. stan. 2MASS_J02550357-4700509_ plx=205.4251mas L9
-M_J(L9V) =   14.821 ; EEM fit to L/T dwarfs d<25pc
-M_J(L9V) =  14.836 ; 2MASS_J00492826+0440575_ plx=62.6mas L9
+M_J(L9V) =    13.40 ; 2MASS_J18510178+5935040_ L9 plx=49.2123mas
+M_J(L9V) =   14.21 ; 2MASS_J00310928+5749364_ L9 plx=71.0mas
+M_J(L9V) =    14.314 ; Reyle18 polynomial
+M_J(L9V) =   14.45 ; 2MASS_J08264116-1640382_ L9 plx=54.0mas
+M_J(L9V) =   14.49 ; 2MASS_J12195156+3128497_ L9 plx=52.0mas
+M_J(L9V) =   14.74 ; 2MASS_J00314067+3335459_ L9 plx=45.4mas
+M_J(L9V) =   14.76 ; SIMP_J0102018+035540_ L9 plx=40.2mas
+M_J(L9V) =   14.81 ; 2MASS_J06143818+3950357_ L9 plx=44.0mas
+M_J(L9V) =  14.81 ; pri. stan. DENIS_J025503.3-470049_ L9 plx=205.4251mas
+M_J(L9V) =  14.821 ; EEM fit to L/T dwarfs d<25pc
+M_J(L9V) =   14.84 ; 2MASS_J00492826+0440575_ L9 plx=62.6mas
 M_J(L9V) = 14.86 ; M_J=13.15, J-Ks=1.71 
-M_J(L9V) =  14.884 ; 2MASS_J10433508+1213149_ plx=59.9mas L9
-M_J(L9V) = 14.918 ; exemplar 2MASS_J06073908+2429574_ plx=138.0616mas L9
-M_J(L9V) =  14.999 ; 2MASS_J06462756+7935045_ plx=55.95mas L9
-M_J(L9V) =   15.063 ; 2MASS_J16471580+5632057_ plx=42.7mas L9pec
-M_J(L9V) =  15.114 ; 2MASS_J02062493+2640237_ plx=52.1mas L9pec
-M_J(L9V) =  15.146 ; 2MASS_J06420559+4101599_ plx=62.6mas L9
-M_J(L9V) =   15.165 ; 2MASS_J10071185+1930563_ plx=45.6mas L9
-M_J(L9V) =  15.181 ; 2MASS_J00470038+6803543_ plx=82.3mas L9pec
-M_J(L9V) =  15.253 ; 2MASS_J03305326-0350280_ plx=57.1mas L9:
-M_J(L9V) =  15.353 ; 2MASS_J09560810-1447065_ plx=65.4mas L9
-M_J(L9V) =  15.406 ; 2MASS_J23272850-2730573_ plx=55.6mas L9
-=> adopt M_J(L9V) = 14.86 [updated 5/25/2024; M_Ks=13.15, J-Ks=1.71]
-[EEM 5/24/2024: adopted M_J is halfway between the well-studied standard J0255 and exemplar J0607 that are within 10pc, and near the median of the distribution for the other nearest L9s in SIMBAD.]
+M_J(L9V) =   14.88 ; 2MASS_J10433508+1213149_ L9 plx=59.9mas
+M_J(L9V) =  14.92 ; exemplar 2MASS_J06073908+2429574_ L9 plx=138.0616mas
+M_J(L9V) =   15.00 ; 2MASS_J06462756+7935045_ L9 plx=55.95mas
+M_J(L9V) =   15.15 ; 2MASS_J06420559+4101599_ L9 plx=62.6mas
+M_J(L9V) =   15.17 ; 2MASS_J10071185+1930563_ L9 plx=45.6mas
+M_J(L9V) =   15.35 ; 2MASS_J09560810-1447065_ L9 plx=65.4mas
+M_J(L9V) =   15.41 ; 2MASS_J23272850-2730573_ L9 plx=55.6mas
+=> adopt M_J(L9V) = 14.86 [updated 10/26/2024; M_Ks=13.15, J-Ks=1.71]
 
 M_H(L9V) = 13.483 ; Reyle18 polynomial
 
@@ -216,59 +209,88 @@ M_K(MKO)(L9V) = 13.10 ; SDSS_1043+1213 calc using Kirkpatrick20 (plx=59.9mas)
 M_K(MKO)(L9V) = 13.11 ; WISE_0049+0441 calc using Kirkpatrick20 (plx=62.6mas)
 M_K(MKO)(L9V) = 13.12 ; DENIS_0255-4700 calc using Kirkpatrick20 (plx=205.3266mas)
 
+
 M_Ks(L9V) =    11.57 ; 2MASS_J0755-3259 calc using Kirkpatrick20 (plx=40.5mas)
-M_Ks(L9V) =    11.90 ; WISE_1851+5935 calc using Kirkpatrick20 (plx=48.8523mas)
+M_Ks(L9V) =    11.92 ; 2MASS_J18510178+5935040_ L9 plx=49.2123mas
+M_Ks(L9V) =   12.47 ; 2MASS_J00310928+5749364_ L9 plx=71.0mas
 M_Ks(L9V) =   12.59 ; 2MASS_1043+2225 calc using Kirkpatrick20 (plx=52.4mas)
-M_Ks(L9V) =   12.78 ; PSO_0031+3335 calc using Kirkpatrick20 (plx=45.4mas)
-M_Ks(L9V) =  12.81 ; WISE_1600-4543 calc using Kirkpatrick20 (plx=74.7951mas)
+M_Ks(L9V) =   12.63 ; 2MASS_J00470038+6803543_ L9pec plx=82.3mas
+M_Ks(L9V) =   12.73 ; SIMP_J1200358-283657_ L9.0 plx=40.7mas
+M_Ks(L9V) =   12.76 ; 2MASS_J16471580+5632057_ L9pec plx=42.7mas
+M_Ks(L9V) =   12.77 ; 2MASS_J08264116-1640382_ L9 plx=54.0mas
+M_Ks(L9V) =   12.78 ; 2MASS_J00314067+3335459_ = PSO_0031+3335 L9 plx=45.4mas
+M_Ks(L9V) =   12.79 ; 2MASS_J15400942+3742316_ L9.0 plx=40.8mas
+M_Ks(L9V) =   12.81 ; WISE_1600-4543 calc using Kirkpatrick20 (plx=74.7951mas)
 M_Ks(L9V) =   12.85 ; SDSS_0852+4720 calc using Kirkpatrick20 (plx=42.2mas)
-M_Ks(L9V) =  12.92 ; WISE_1405+8350 calc using Kirkpatrick20 (plx=103.1218mas)
-M_Ks(L9V) = 12.93 ; fit to Kirkpatrick20 L7-T3 dwarfs
-M_Ks(L9V) = 12.96 ; trend to L/T dwarfs in notes (1/2021)
-M_Ks(L9V) =   12.98 ; Reyle18 polynomial
-M_Ks(L9V) =  13.10 ; WISE_0206+2640 calc using Kirkpatrick20 (plx=52.1mas)
-M_Ks(L9V) = 13.12 ; median d<25pc L9s in SIMBAD
-M_Ks(L9V) = 13.12 ; pri. stan. 2MASS J02550357−4700509
-M_Ks(L9V) =  13.15 ; SDSS_1043+1213 calc using Kirkpatrick20 (plx=59.9mas)
-M_Ks(L9V) =  13.15 ; WISE_0049+0441 calc using Kirkpatrick20 (plx=62.6mas)
-M_Ks(L9V) =  13.17 ; WISE_0826-1640 calc using Kirkpatrick20 (plx=67.8mas)
-M_Ks(L9V) = 13.17 ; exemplar WISEP J060738.65+242953.4 (plx=136.9449mas)
+M_Ks(L9V) =   12.88 ; 2MASS_J12195156+3128497_ L9 plx=52.0mas
+M_Ks(L9V) =   12.92 ; WISE_1405+8350 calc using Kirkpatrick20 (plx=103.1218mas)
+M_Ks(L9V) =    12.93 ; fit to Kirkpatrick20 L7-T3 dwarfs
+M_Ks(L9V) =    12.96 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L9V) =    12.98 ; Reyle18 polynomial
+M_Ks(L9V) =   13.10 ; SIMP_J0102018+035540_ L9 plx=40.2mas
+M_Ks(L9V) =   13.11 ; 2MASS_J02062493+2640237_ L9pec plx=52.1mas
+M_Ks(L9V) = 13.11 ; median d<25pc L9s in SIMBAD
+M_Ks(L9V) =  13.12 ; pri. stan. DENIS_J025503.3-470049_ L9 plx=205.4251mas
+M_Ks(L9V) =   13.15 ; 2MASS_J00492826+0440575_ L9 plx=62.6mas
+M_Ks(L9V) =   13.15 ; 2MASS_J10433508+1213149_ L9 plx=59.9mas
+M_Ks(L9V) =   13.17 ; exemplar 2MASS_J06073908+2429574_ L9 plx=138.0616mas
+M_Ks(L9V) =   13.17 ; WISE_0826-1640 calc using Kirkpatrick20 (plx=67.8mas)
 M_Ks(L9V) =   13.19 ; WISE_2327-2730 calc using Kirkpatrick20 (plx=46.8mas)
-M_Ks(L9V) =  13.23 ; WISE_0920+4538 calc using Kirkpatrick20 (plx=79.4mas)
-M_Ks(L9V) =  13.30 ; HD_46588B   calc using Kirkpatrick20 (plx=54.9292mas)
-M_Ks(L9V) =  13.35 ; WISE_1623-7402 calc using Kirkpatrick20 (plx=50.6mas)
-M_Ks(L9V) =  13.50 ; PSO_0956-1447 calc using Kirkpatrick20 (plx=65.4mas)
-M_Ks(L9V) =  13.58 ; PSO_0330-0350 calc using Kirkpatrick20 (plx=59.2mas)
-=> adopt M_Ks(L9V) = 13.15 [updated 5/24/2024]
+M_Ks(L9V) =   13.23 ; WISE_0920+4538 calc using Kirkpatrick20 (plx=79.4mas)
+M_Ks(L9V) =   13.24 ; 2MASS_J06143818+3950357_ L9 plx=44.0mas
+M_Ks(L9V) =   13.26 ; 2MASS_J06420559+4101599_ L9 plx=62.6mas
+M_Ks(L9V) =   13.29 ; 2MASS_J10071185+1930563_ L9 plx=45.6mas
+M_Ks(L9V) =   13.30 ; 2MASS_J09560810-1447065_ L9 plx=65.4mas
+M_Ks(L9V) =   13.30 ; HD_46588B   calc using Kirkpatrick20 (plx=54.9292mas)
+M_Ks(L9V) =   13.34 ; 2MASS_J06462756+7935045_ L9 plx=55.95mas
+M_Ks(L9V) =   13.35 ; WISE_1623-7402 calc using Kirkpatrick20 (plx=50.6mas)
+M_Ks(L9V) =   13.48 ; 2MASS_J23272850-2730573_ L9 plx=55.6mas
+M_Ks(L9V) =   13.50 ; PSO_0956-1447 calc using Kirkpatrick20 (plx=65.4mas)
+M_Ks(L9V) =   13.58 ; PSO_0330-0350 calc using Kirkpatrick20 (plx=59.2mas)
+=> adopt M_Ks(L9V) = 13.15 [updated 10/26/2024; M_J=14.81, J-Ks=1.71]
 [EEM 5/24/2024: remarkably, the abs mags for the two nearest, best studied L9s have nearly
 identical M_Ks values (13.12 and 13.17). The median M_Ks for L9 appears to be well-constrained.]
 
+Teff(L9V) = 1164 +-94 K ; pri. stan. DENIS J025503.3-470049 (Sanghi23) 
+Teff(L9V) = 1222 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(L9V) = 1263 K ; Kirkpatrick21 (median for L9 near-IR types; N=13)
 Teff(L9V) =  1271 K ; WISEP J060738.65+242953.4 (Kirkpatrick20) 
 Teff(L9V) = 1273 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(L9V) = 1286 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(L9V) = 1305 K ; Dupuy17(SaumonMarley08 model scale)
+Teff(L9V) = 1309 K ; exemplar WISEP J060738.65+242953.4
 Teff(L9V) =  1314 K ; WISE J140533.32+835030.5 (Kirkpatrick20)
-Teff(L9V) = 1347 K ; exemplar WISEP J060738.65+242953.4
-Teff(L9V) = 1350 K ; pri. stan. 2MASS J02550357−4700509
+Teff(L9V) = 1335 K ; pri. stan. DENIS J025503.3-470049 = 2MASS J02550357−4700509
 Teff(L9V) = 1383 K ; Dupuy17(Lyon model scale)
 Teff(L9V) = 1410 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-4.620
 => adopt Teff(L9V) = 1350 K (logT = 3.130) [updated 5/24/2024]
 [EEM 4/7/2024; Teff inferred from BT-Settl isochrone seems ~100K hotter than most published
 estimates]
 
-BC_K(L9V) =  3.104 mag ; Golimowksi04
-BC_Ks(L9V)= 3.132 mag ; Looper08 
-BC_Ks(L9V)= 3.178 mag ; Filipazzo15 (field) [denser trend through L/T]
-=> adopt BC_Ks(L9V) = 3.17 [updated 11/1/2019]
+BC_J(L9V) = 1.524 ; exemplar WISEP J060738.65+242953.4 (calculated using Lbol(GaiaDR3),J(2MASS)
+BC_J(L9V) = 1.694 ; Sanghi23 M6V-T9V trend
+BC_J(L9V) = 1.731 ; pri. stan. DENIS J025503.3-470049 (calc using Lbol(Sanghi23),J(2MASS))
 
-logL(L9V) = -4.632 ; M_Ks=13.15, BC_Ks=3.17, Mbol=16.320
-logL(L9V) =  -4.66 ; exemplar WISEP J060738.65+242953.4 (Gizis16)
-=> adopt logL(L9V) = -4.632 [updated 5/22/2024]
-=> adopt Mbol(L9V) = 16.320 [updated 5/22/2024]
+BC_K(L9V)  =  3.104 mag ; Golimowksi04
+BC_Ks(L9V) = 3.132 mag ; Looper08 
+BC_Ks(L9V) = 3.178 mag ; Filipazzo15 (field) [denser trend through L/T]
+BC_Ks(L9V) = 3.273 mag ; exemplar WISEP J060738.65+242953.4 (calc using Lbol(GaiaDR3),Ks(2MASS))
+BC_Ks(L9V) = 3.352 mag ; Sanghi23 calibration (M6V-T9V)
+BC_Ks(L9V) = 3.419 mag ; pri. stan. DENIS J025503.3-470049 (calc using Lbol(Sanghi23),Ks(2MASS))
+=> adopt BC_Ks(L9V) = 3.35 [updated 10/26/2024]
 
-Rad(L9V) = 0.78 +-0.01 Rsun ; pri. stan. DENIS J025503.3-470049 (deRegt24)
+logL(L9V) =  -4.588 ; Sanghi23 M6V-T9V field dwarf polynomial
+logL(L9V) =  -4.66          ; exemplar WISEP J060738.65+242953.4 (Gizis16)
+logL(L9V) =  -4.681 +-0.044 ; exemplar WISEP J060738.65+242953.4 (GaiaDR3)
+Logl(L9V) =  -4.70  +-0.06  ; exemplar WISEP J060738.65+242953.4 (Sanghi23)
+logL(L9V) = -4.704 ; M_Ks=13.15, BC_Ks=3.35, Mbol=16.500
+logL(L9V) =  -4.72 +-0.06 ; pri. stan. DENIS J025503.3-470049 (Sanghi23)
+=> adopt logL(L9V) = -4.704 [updated 10/26/2024]
+=> adopt Mbol(L9V) = 16.500 [updated 10/26/2024]
+
+Rad(L9V) = 0.0802 +-0.0010 Rsun ; pri. stan. DENIS J025503.3-470049 (deRegt24) (=0.78+-0.01Rjup)
 Rad(L9V) = 0.0883 Rsun ; logL=-4.620, Teff=1350K
+Rad(L9V) =  0.1133 Rsun ; Sanghi23 calibration (M6V-T9V) 
 => adopt Rad(L9V) = 0.088 Rsun [updated 5/22/2024]
 
 logg(L9V) = 5.27 ; pri. stan. DENIS J025503.3-470049 (deRegt24)
@@ -286,8 +308,8 @@ DENIS J025503.3-470049 = 2MASS J02550357−4700509 = 2MUCD 10158
   it is "the closest known L dwarf... with Mv = 24.44, the faintest
   dwarf with a measured absolute visual magnitude." This was true
   until discovery of Luhman 16A. Object is not in SDSS, but it is in
-  DES.  Lum = 0.00010140 Lsun (Ardila10) => logL = -3.994.  Mv =
-  24.44+-0.13 (using Costa06 #s).  V=22.921+-0.121(Costa06,Henry18),
+  DES.  Lum=0.00010140Lsun(Ardila10) => logL=-3.994.  Mv = 24.44+-0.13
+  (using Costa06 #s).  V=22.921+-0.121(Costa06,Henry18),
   Rc=19.906+-0.039(Costa06,Henry18), Rc=20.062+-0.033(Liebert06) =>
   adopt Rc=20.062(Liebert06; since this one has median Ic value).
   (R-Ic)=2.827(Liebert06), I_DENIS=17.14(Martin99),
@@ -306,11 +328,16 @@ DENIS J025503.3-470049 = 2MASS J02550357−4700509 = 2MUCD 10158
   z=16.058+-0.001, Y=15.431+-0.001.  Absolute magnitudes:
   Mv=24.484+-0.121(Costa06,GaiaDR3), M_G=20.136+-0.004(GaiaDR3),
   M_J=14.809+-0.027(2MASS,GaiaDR3), M_H=13.767(2MASS,GaiaDR3),
-  M_Ks=13.121+-0.024(2MASS,GaiaDR3).  Teff: 1290+-78K(Kirkpatrick20),
-  1300K(Cifuentes20), 1335+-104K(Sebastian21),
-  1365+-38K(GaiaDR3/ESP-UCD), 1400K(deRegt24), 1500+-100K(Gagne15) =>
-  adopt Teff=1350K.  Mass: 0.0578+-0.0100Msun(Cifuentes20).  Radius:
+  M_Ks=13.121+-0.024(2MASS,GaiaDR3).  Teff: 1164+-94K(Sanghi23),
+  1290+-78K(Kirkpatrick20), 1300K(Cifuentes20),
+  1335+-104K(Sebastian21), 1365+-38K(GaiaDR3/ESP-UCD),
+  1400K(deRegt24), 1500+-100K(Gagne15) => adopt Teff=1335K.  Mass:
+  0.0578+-0.0100Msun(Cifuentes20).  Radius:
   0.78+-0.01Rsun(deRegt24). logg=5.27+-0.04(deRegt24).
+  logL=-4.72+-0.06(Sanghi23) => Mbol=16.540(Sanghi23=>IAU2015scale).
+  BC_Ks = Mbol(GaiaDR3) - M_Ks(2MASS,GaiaDR3) = 16.540 - 13.121 =
+  3.419.  BC_J = Mbol(GaiaDR3) - M_J(2MASS,GaiaDR3) = 16.540 - 14.809
+  = 1.731.
 
         G = 18.5729+-0.0038 ; pri. stan. DENIS J025503.3-470049 (GaiaDR3)
   (Bp-Rp)(L9V) =  4.8733 ; pri. stan. DENIS J025503.3-470049 (GaiaDR3)
@@ -389,11 +416,13 @@ WISEP J060738.65+242953.4 = 2MASS J06073908+2429574 = SDSS J060738.79+242954.4 =
   [IRAC2]=10.923+-0.023(Thompson21).  Colors:
   i-z=3.08+-0.04(Castro12), i-J=5.80+-0.06(Castro12),
   z-J=2.72+-0.04(Castro12), W1-W2=0.59+-0.03(Castro13),
-  W2-W3=0.81+-0.08(Castro13).  Teffs: 1271+-88K(Kirkpatrick20),
-  1347+-104K(Sebastian21), 1460+-90K(Castro13) => adopt Teff=1347K.
-  Luminosity: logL=-4.56+-0.09(Castro13), logL=-4.66+-0.02(Gisiz16).
+  W2-W3=0.81+-0.08(Castro13).  Teffs: 1180+-95K(Sanghi23),
+  1271+-88K(Kirkpatrick20), 1347+-104K(Sebastian21),
+  1460+-90K(Castro13) => adopt Teff=1309K.  Luminosity:
+  logL=-4.56+-0.09(Castro13), logL=-4.66+-0.02(Gizis16).
   GaiaDR3/Part6: Lum=2.0858960e-05+-2.1012413e-06Lsun =>
-  logL=-4.68071+-0.04390.  mbol=15.70+-0.03(Gizis16).
+  logL=-4.68071+-0.04390 => Mbol=16.4418(GaiaDR3=>IAU2015 scale).
+  mbol=15.70+-0.03(Gizis16).
   Radius=0.082753440+-0.0135105420Rsun(GaiaDR3/part6),
   R=0.09+-0.02Rsun(Sebastian21).  There are two objects within 10" of
   J2000 position of the object in Nardiello+2015 catalog of "variables
@@ -401,13 +430,16 @@ WISEP J060738.65+242953.4 = 2MASS J06073908+2429574 = SDSS J060738.79+242954.4 =
   both with V-Rc ~ 5. The one within 2" of GaiaDR3 position of the BD
   has B=27.644, V=26.723, Rc=21.687 - but would need more analysis to
   confirm whether this photometry is actually that of WISEP
-  J060738.65+242953.4.
+  J060738.65+242953.4. BC_Ks = Mbol(GaiaDR3) - M_Ks(2MASS,GaiaDR3) =
+  16.4418 - 13.169 = 3.273. BC_J = Mbol(GaiaDR3) - M_J(2MASS,GaiaDR3)
+  = 16.4418 - 14.918 = 1.524.
 
         G = 19.5203+-0.0055 ; exemplar WISEP J060738.65+242953.4 (GaiaDR3)
   (Bp-Rp) =  4.2474 ; exemplar WISEP J060738.65+242953.4 (GaiaDR3)
    (Bp-G) =  2.5816 ; exemplar WISEP J060738.65+242953.4 (GaiaDR3)
    (G-Rp) =  1.6659 ; exemplar WISEP J060738.65+242953.4 (GaiaDR3)
       M_G = 20.2206 +-0.0098 ; exemplar WISEP J060738.65+242953.4 (GaiaDR3)
+     M_J  =  14.918 +-0.027 ; exemplar WISEP J060738.65+242953.4 
      M_Ks =  13.169 +-0.023 ; exemplar WISEP J060738.65+242953.4 
    (G-Ks) =   7.051 +-0.023 ; exemplar WISEP J060738.65+242953.4 (GaiaDR3,2MASS)
     (J-H) =   1.180 +-0.036 ; exemplar WISEP J060738.65+242953.4

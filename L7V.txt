@@ -52,7 +52,8 @@ than typical L7s within 25pc.
 (J-Ks)(L7V) =  1.622 ; 2MASS_J10440942+0429376_ plx=30.8mas L7
 (J-Ks)(L7V) = 1.642 ; Reyle18 polynomial
 (J-Ks)(L7V) = 1.77 (+-0.05 sem,+-0.22 stdev) ; Schmidt10 N=16
-(J-Ks)(L7V) = 1.78 ; J-H=1.13, H-Ks=0.65 
+(J-Ks)(L7V) = 1.78  ; J-H=1.13, H-Ks=0.65
+(J-Ks)(L7V) = 1.780 ; Sanghi24 M6V-T9V trend
 (J-Ks)(L7V) =  1.797 ; 2MASS_J00303013-1450333_ plx=37.42mas L7V
 (J-Ks)(L7V) = 1.81 (+-0.16 rms) ; Faherty16 
 (J-Ks)(L7V) =  1.817 ; 2MASS_J03400942-6724051_ plx=106.8602mas L7::
@@ -62,7 +63,7 @@ than typical L7s within 25pc.
 (J-Ks)(L7V) =  2.076 ; 2MASS_J08575849+5708514_ plx=72.7197mas L7V
 (J-Ks)(L7V) =   2.382 ; 2MASS_J21481633+4003594_ plx=123.6752mas L7
 (J-Ks)(L7V) =   2.568 ; 2MASS_J11472421-2040204_ plx=26.7mas L7V
-
+=> adopt (J-Ks)(L7V) = 1.78 [updated 8/6/2020] (J-H=1.13, H-Ks=0.65)
 
 (r-i)(L7V) = 1.881 ; 2MASS_J19251275+0700362_ plx=88.9971mas L7
 (r-i)(L7V) = 1.995 ; 2MASS_J10440942+0429376_ plx=30.8mas L7
@@ -112,20 +113,18 @@ than typical L7s within 25pc.
 M_G(L7V) = 18.67 ; 2MASS J02052940-1159296 (unresolved trio, so not representative)
 M_G(L7V) = 19.26 ; Reyle18 polynomial
 
-M_J(L7V) =  12.690 ; 2MASS_J08551251-0233579_ plx=20.8mas L7
-M_J(L7V) =  13.053 ; 2MASS_J02052940-1159296_ plx=49.3463mas L7V
-M_J(L7V) =  13.323 ; 2MASS_J10440942+0429376_ plx=30.8mas L7
-M_J(L7V) =  13.576 ; 2MASS_J23060663-1556262_ plx=23.8mas L7
-M_J(L7V) = 13.85 ; Reyle18 polynomial
-M_J(L7V) =  13.992 ; 2MASS_J07340889-4330256_ plx=48.6023mas L7
-M_J(L7V) =  14.143 ; 2MASS_J00303013-1450333_ plx=37.42mas L7V
-M_J(L7V) = 14.32 ; EEM fit to L/T dwarfs d<25pc
-M_J(L7V) =  14.346 ; 2MASS_J08575849+5708514_ plx=72.7197mas L7V
-M_J(L7V) =  14.509 ; 2MASS_J19251275+0700362_ plx=88.9971mas L7
-M_J(L7V) =  14.572 ; 2MASS_J11472421-2040204_ plx=26.7mas L7V
-M_J(L7V) =  14.608 ; 2MASS_J21481633+4003594_ plx=123.6752mas L7
-M_J(L7V) =  14.824 ; 2MASS_J03185403-3421292_ plx=70.9812mas L7
-M_J(L7V) =  14.886 ; 2MASS_J03400942-6724051_ plx=106.8602mas L7::
+M_J(L7V) =   13.05 ; DENIS_J020529.0-115925_ L7V plx=49.3463mas
+M_J(L7V) =    13.85 ; Reyle18 polynomial
+M_J(L7V) =   13.99 ; 2MASS_J07340889-4330256_ L7 plx=48.6023mas
+M_J(L7V) =   14.28 ; 2MASS_J07555430-3259589_ L7 plx=40.5mas
+M_J(L7V) =    14.32 ; EEM fit to L/T dwarfs d<25pc
+M_J(L7V) =   14.35 ; 2MASS_J08575849+5708514_ L7V plx=72.7197mas
+M_J(L7V) =   14.51 ; 2MASS_J19251275+0700362_ L7 plx=88.9971mas
+M_J(L7V) =   14.54 ; 2MASS_J03230145+5626012_ L7 plx=60.8mas
+M_J(L7V) =   14.61 ; 2MASSW_J2148162+400359_ L7 plx=123.6752mas
+M_J(L7V) =   14.82 ; 2MASSI_J0318540-342129_ L7 plx=70.9812mas
+M_J(L7V) =   14.82 ; 2MASS_J11322058-3809562_ L7.0 plx=59.0mas
+M_J(L7V) =   14.93 ; SIPS_J1256-1257B_ L7 plx=45.0mas
 => adopt M_J(L7V) = 14.31 [updated 12/30/2020]
 
 M_H(L7V) = 12.98 ; Reyle18 polynomial
@@ -139,26 +138,19 @@ M_K(MKO)(L7V)=  12.78 ; 2MASS_0825+2115 7.0 calc using Kirkpatrick20 (plx=93.19m
 M_K(MKO)(L7V)=  13.08 ; 2MASS_1632+1904 7.0 calc using Kirkpatrick20 (plx=66.29mas)
 => M_K(MKO)(L7V) = 12.6 [adopted 12/1/2020]
 
-M_Ks(L7V)=  11.64 ; DENIS_0205-1159 7.0 calc using Kirkpatrick20 (plx=53.67mas) standard/(unres triple)
-M_Ks(L7V)=  11.94 ; 2MASS_1448+1031 7.0 calc using Kirkpatrick20 (plx=71.2548mas)
-M_Ks(L7V)=  12.05 ; WISE_1741-4642 7.0 calc using Kirkpatrick20 (plx=50.5mas)
-M_Ks(L7V)=  12.19 ; WISE_0323+5625 7.0 calc using Kirkpatrick20 (plx=51.9mas)
-M_Ks(L7V)=   12.22 ; 2MASSW J2148162+400359
-M_Ks(L7V)=   12.23 ; 2MASS J08575849+5708514
-M_Ks(L7V)=  12.27 ; SDSS_1416+1348 7.0 calc using Kirkpatrick20 (plx=107.5599mas)
-M_Ks(L7V)=  12.37 ; Gaia_0734-4330 7.0 calc using Kirkpatrick20 (plx=48.2485mas)
-M_Ks(L7V)= 12.42 ; Reyle18 polynomial
-M_Ks(L7V)= 12.51 ; trend to L/T dwarfs in notes (1/2021)
-M_Ks(L7V)= 12.54 ; fit to SIMBAD L7-T3 dwarfs d<25pc (12/2020)
-M_Ks(L7V)= 12.63 ; WISE_0047+6803 7.0 calc using Kirkpatrick20 (plx=82.3mas)
-M_Ks(L7V)=  12.69 ; 2MASS_1925+0700 7.0 calc using Kirkpatrick20 (plx=89.2606mas)
-M_Ks(L7V)=   12.81 ; 2MASS J10440942+0429376
-M_Ks(L7V) =  12.82 ; 2MASSI J0318540-342129
-M_Ks(L7V)=  12.86 ; 2MASS_2244+2043 7.0 calc using Kirkpatrick20 (plx=58.7mas)
-M_Ks(L7V)=  12.88 ; 2MASS_0825+2115 7.0 calc using Kirkpatrick20 (plx=93.19mas)
-M_Ks(L7V)=  12.94 ; VHS_1256-1257B 7.0 calc using Kirkpatrick20 (plx=45.0mas)
-M_Ks(L7V)=  13.08 ; 2MASS_0340-6724 7.0 calc using Kirkpatrick20 (plx=107.1165mas)
-M_Ks(L7V)=  13.11 ; 2MASS_1632+1904 7.0 calc using Kirkpatrick20 (plx=66.29mas)
+
+M_Ks(L7V) =    11.46 ; DENIS_J020529.0-115925_ L7V plx=49.3463mas (standard but unresolved triple!)
+M_Ks(L7V) =    11.56 ; 2MASS_J07555430-3259589_ L7 plx=40.5mas
+M_Ks(L7V) =   12.23 ; 2MASSW_J2148162+400359_ L7 plx=123.6752mas
+M_Ks(L7V) =   12.27 ; 2MASS_J08575849+5708514_ L7V plx=72.7197mas
+M_Ks(L7V) =    12.42 ; Reyle18 polynomial
+M_Ks(L7V) =   12.44 ; 2MASS_J07340889-4330256_ L7 plx=48.6023mas
+M_Ks(L7V) =    12.51 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L7V) =    12.54 ; fit to SIMBAD L7-T3 dwarfs d<25pc (12/2020)
+M_Ks(L7V) =   12.68 ; 2MASS_J19251275+0700362_ L7 plx=88.9971mas
+M_Ks(L7V) =   12.76 ; 2MASSI_J0318540-342129_ L7 plx=70.9812mas
+M_Ks(L7V) =   12.83 ; SIPS_J1256-1257B_ L7 plx=45.0mas
+M_Ks(L7V) =    13.07 ; 2MASS_J11322058-3809562_ L7.0 plx=59.0mas
 => adopt M_Ks(L7V) = 12.55 [adopted 12/1/2020]
 
 (K(MKO)-Ks)(L7V) =  -0.12 +- 0.076 2MASS_2244+2043 
@@ -172,6 +164,7 @@ M_Ks(L7V)=  13.11 ; 2MASS_1632+1904 7.0 calc using Kirkpatrick20 (plx=66.29mas)
 => adopt (K(MKO)-Ks)(L7V) = 
 
 Teff(L7V) = 1267 K ; 2MASS J03400942−6724051 (Kirkpatrick20)
+Teff(L7V) = 1333 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(L7V) = 1345 K ; Kirkpatrick21 (median for L7 near-IR types; N=7)
 Teff(L7V) = 1397 K ; Kirkpatrick21 (median for L7 optical types; N=4)
 Teff(L7V) = 1402 K ; Filippazzo15 calibration (M6V-T9V)
@@ -181,17 +174,22 @@ Teff(L7V) = 1528 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-
 Teff(L7V) = 1529 K ; Dupuy17(Lyon model scale)
 => adopt Teff(L7V) = 1530 K (logT = 3.185) [updated 4/17/2020]
 
-BC_K(L7V)  = 3.266 mag ; Golimowksi04
+BC_J(L7V) = 1.617 ; Sanghi23 M6V-T9V trend
+
+BC_K(L7V)  =  3.266 mag ; Golimowksi04
 BC_Ks(L7V) = 3.268 mag ; Filipazzo15 (field)
 BC_Ks(L7V) = 3.276 mag ; Looper08
 BC_Ks(L7V) = 3.31  mag ; Schmidt14 (N=1)
-=> adopt BC_Ks(L7V) = 3.27 [updated 11/1/2019]
+BC_Ks(L7V) = 3.397 mag ; Sanghi23 calibration (M6V-T9V)  
+=> adopt BC_Ks(L7V) = 3.31 [updated 10/24/2024]
 
 logL(L7V) = -4.412 ; M_Ks=12.5, BC_Ks=3.27, Mbol=15.770
+logL(L7V) =  -4.445 ; Sanghi23 calibration (M6V-T9V)  
 => adopt logL(L7V) = -4.412 [updated 12/1/2020]
 => adopt Mbol(L7V) = 15.770 [updated 12/1/2020]
 
 Rad(L7V) = 0.08857 Rsun ; logL=-4.412, Teff=1530K
+Rad(L7V) =  0.1123 Rsun ; Sanghi23 calibration (M6V-T9V) 
 => adopt Rad(L7V) = 0.0886 Rsun [updated 4/17/2020]
 
 Liebert06 did not list any R-Ic colors for L7V stars.

@@ -1,15 +1,22 @@
 K3.5V
 
-There are no published K3.5V standard stars. The two nearest stars that appear to be most consistent with K3.5V (classified by Gray, and mostly within 0.5 subtype for other classifications) and near solar metallicity are HD 50281 (GJ 250A, HIP 32984) and HD 31560 (GJ 2037, HIP 22907), which have very similar colors and absolute magnitudes. I basically take the median of their properties as typical for K3.5V. 
+There are no published K3.5V standard stars. The two nearest stars
+that appear to be most consistent with K3.5V (classified by Gray, and
+mostly within 0.5 subtype for other classifications) and near solar
+metallicity are HD 50281 (GJ 250A, HIP 32984) and HD 31560 (GJ 2037,
+HIP 22907), which have very similar colors and absolute magnitudes. I
+basically take the median of their properties as typical for K3.5V.
 
-(B-V)(K3V)   =  0.980 ; K3V adopted
-(B-V)(K3.5V) = 0.985 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]~-0.5)
+(B-V)(K3V)   =  0.99 ; K3V adopted (12/5/2023)
+(B-V)(K3.5V) = 0.985 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
 (B-V)(K3.5V) = 1.048 ; Gray03/06 N=44 K3.5V stars d<75 pc (+-0.004 sem, +-0.027 stdev)
+(B-V)(K3.5V) = 1.06  ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
 (B-V)(K3.5V) = 1.063 ; Koen10 d<25pc median K3.5V
-(B-V)(K3.5V) = 1.071 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
-(B-V)(K3.5V) = 1.072 ; exemplar HD 31560 = GJ 2037 = HIP 22907 (~solar)
-(B-V)(K4V)   =  1.100 ; K4V adopted
-=> adopt (B-V)(K3.5V)   = 1.07  [updated 7/1/2023]
+(B-V)(K3.5V) = 1.072 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04) 
+(B-V)(K4V)   =  1.10 ; K4V adopted (9/1/2023)
+=> adopt (B-V)(K3.5V) = 1.06 [updated 10/3/2024]
+[EEM 10/2/2024: trend for 3 exemplars + Gray field (assuming (<[Fe/H]>=-0.04): (B-V)(K3.5V) = 1.059 + 0.1503*[Fe/H] (rms=0.0063mag)]
+
 => adopt (U-B)(K3.5V)   = 0.952
 => adopt (Bt-Vt)(K3.5V) = 1.265
 => adopt (V-Ic)(K3.5V)  = 1.157
@@ -28,34 +35,39 @@ There are no published K3.5V standard stars. The two nearest stars that appear t
 => adopt (G-J)(K3.5V)   = 1.605
 => adopt (G-Ks)(K3.5V)  = 2.256
 
-(V-Ks)(K3.5V) = 2.643 ; trend for B-V=1.07
+(U-B)(K3.5V) = 0.952 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
+(U-B)(K3.5V) = 0.955 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+
+(V-Rc)(K3.5V) = 0.578 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
+(V-Rc)(K3.5V) = 0.620 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
+(V-Rc)(K3.5V) = 0.627 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+
+(R-Ic)(K3.5V) = 0.510 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
+(R-Ic)(K3.5V) = 0.518 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+(R-Ic)(K3.5V) = 0.540 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
+
+(V-Ic)(K3.5V) = 1.118 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
+(V-Ic)(K3.5V) = 1.130 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
+(V-Ic)(K3.5V) = 1.145 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+
+(V-Ks)(K3.5V) = 2.52  ; halfway K3V(V-Ks=2.36),K4V(V-Ks=2.68)
+(V-Ks)(K3.5V) = 2.531 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
+(V-Ks)(K3.5V) = 2.554 ; B-V vs V-Ks dwarf trend for B-V=1.06
+(V-Ks)(K3.5V) = 2.557 (+-0.027 sem; +-0.103 stdev) ; SIMBAD d<25pc K3.5Vs (N=16)
 (V-Ks)(K3.5V) = 2.590 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+=> adopt (V-Ks)(K3.5V) = 2.56 [updated 10/4/2024]
+
 
 (G-Ks)(K3.5V) = 2.19 ; interp. value for Kirkpatrick24 K3.5Vs d<20pc 
 
-Mv(K3.5V) = 6.90  ; EEM fit to FGK d<25pc SIMBAD for B-V=1.07
-Mv(K3.5V) = 6.88  ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
-Mv(K3.5V) = 6.87  ; Wright04 MS relation for B-V=1.07
-Mv(K3.5V) = 6.83  ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
-Mv(K3.5V) = 6.79  ; Koen10 d<25pc median K3.5V
-Mv(K3.5V) = 6.73  ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=1.05
-=> adopt Mv(K3.5V)   = 6.86  [updated 7/1/2023; M_G=6.50, G-V=-0.36]
-=> adopt M_Ks(K3.5V) = 4.22  [updated 7/1/2023; Mv=6.86, V-Ks=2.643]
-
-M_G(K3.5V) = 6.52 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
-M_G(K3.5V) = 6.52 ; SIMBAD d<20pc trend for V-Ks=2.582
-M_G(K3.5V) = 6.47 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
-=> adopt M_G(K3.5V) = 6.50 [updated 7/1/2023; Mv=6.86, G-V=-0.36]
-
-(G-V)(K4V)   =  -0.390  ; adopted for K4V
 (G-V)(K3.5V) = -0.364 ; exemplar HD 31560 = GJ 2037 = HIP 22907 (GaiaDR3) ([Fe/H]=+0.04)
-(G-V)(K3.5V) =  -0.364 ; trend for SIMBAD d<20pc for V-Ks=2.582
+(G-V)(K3.5V) = -0.358 ; trend for SIMBAD d<20pc for V-Ks=2.56
+(G-V)(K3.5V) = -0.356 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=4700K (GaiaDR3 Gmags,SIMBAD Vmags)
 (G-V)(K3.5V) = -0.355 ; exemplar HD 50281 = GJ 250A = HIP 32984 (GaiaDR3) ([Fe/H]=+0.02)
-(G-V)(K3.5V) =  -0.356 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=4700K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(K3.5V) = -0.354 ; interp K3V(V-Ks=2.36,G-V=-0.31),K4V(V-Ks=2.68,G-V=-0.38)
 (G-V)(K3.5V) =  -0.348 ; smooth fit f(SpT) G9V-M0V
-(G-V)(K3.5V) =  -0.320 ; earlier trend for B-V=1.05
-(G-V)(K3V)   =  -0.316  ; adopted for K3V 
-=> adopt (G-V)(K3.5V) = -0.36 [updated 7/1/2023]
+(G-V)(K3V)   =  -0.302 ; Carrasco B-V vs G-V for B-V=1.06 (discrepent)
+=> adopt (G-V)(K3.5V) = -0.355 [updated 7/1/2023] (GaiaDR3) 
 
 (Bp-Rp)(K3V)   = 1.21    K3V mean
 (Bp-Rp)(K3.5V) = 1.277   exemplar HD 50281 = GJ 250A = HIP 32984 (DR3)
@@ -72,35 +84,72 @@ M_G(K3.5V) = 6.47 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
 => adopt (G-Rp)(K3.5V)=0.69 [updated 7/17/2020]
 => adopt (Bp-G)(K3.5V)=0.60 [updated 7/17/2020; Bp-Rp=1.29, G-Rp=0.69]
 
+(g-r)(K3.5V) = 0.835 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
+(g-r)(K3.5V) = 0.908 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
 (g-r)(K3.5V) = 0.923 ; Just08/Chonis08 B-V=>g-r for B-V=1.07
+(g-r)(K3.5V) = 0.928 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
 => adopt (g-r)(K3.5V) = 0.923 [updated 9/1/2023]
+
+(r-i)(K3.5V) = 0.276 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+(r-i)(K3.5V) = 0.281 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
+(r-i)(K3.5V) = 0.309 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
 
 (g-V)(K3.5V) = 0.551 ; Jordi06 B-V=>g-V for B-V=1.07
 (g-V)(K3.5V) = 0.552 ; Just08/Chonis08 B-V=>g-V for B-V=1.07
 => adopt (g-V)(K3.5V) = 0.552 [updated 9/1/2023]
 
-Teff(K3V)   = 4830K ; adopted
-Teff(K3.5V) = 4767K ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
-Teff(K3.5V) = 4701K ; N=89 published Teffs from PASTEL compendium for Gray03/06 K3.5V stars (+-15K sem, +-113K stdev)
-Teff(K3.5V) = 4702K ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
-Teff(K4V)   = 4600K ; adopted
-=> adopt Teff(K3.5V) = 4730 K [updated 7/1/2023]
+Teff(K3V)   =  4870 K ; adopted (8/20/2023)
+Teff(K3.5V) = 4767 K ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
+Teff(K3.5V) = 4723 K ; trend for 3 examplars for [Fe/H]=0 
+Teff(K3.5V) = 4701 K ; N=89 published Teffs from PASTEL compendium for Gray03/06 K3.5V stars (+-15K sem, +-113K stdev)
+Teff(K3.5V) = 4701 K ; interp (K3V,V-Ks=2.36,Teff=4870K; K4V,V-Ks=2.68,Teff=4600K)
+Teff(K3.5V) = 4702 K ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+Teff(K3.5V) = 4686 K ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
+Teff(K4V)   =  4600 K ; adopted (8/20/2023)
+=> adopt Teff(K3.5V) = 4700 K [updated 10/4/2024]
+[EEM 10/4/2024; trend for 3 exemplars & Gray03/06 (assuming <[Fe/H]=-0.04): Teff(K3.5V) = 4723K + 77*[Fe/H] (rms=37K)]
 
-=> adopt BCv(K3.5V) = -0.421 [updated 7/1/2023]
+BCv(K3.5V) = -0.381 ; Bertone04 calib for Teff=4700K
+BCv(K3.5V) = -0.438 ; Casagrande18 calib for Teff=4700K
+BCv(K3.5V) = -0.449 ; Bessell98 calib for Teff=4700K
+BCv(K3.5V) = -0.468 ; Flower96 calib for Teff=4700K
+BCv(K3.5V) = -0.469 ; Masana06 calib for Teff=4700K
+BCv(K3.5V) = -0.490 ; Casagrande08 calib for Teff=4700K 
+=> adopt BCv(K3.5V) = -0.46 mag [updated 10/4/2024]
 
-logL(K3.5V) = -0.680 ; Mv=6.86, BCv=-0.421, Mbol = 6.439
-=> adopt logL(K3.5V) = -0.680 [updated 7/1/2023]
-=> adopt Mbol(K3.5V) =  6.439 [updated 7/1/2023]
+Mv(K3.5V) =  6.88 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
+Mv(K3.5V) = 6.874 (+-0.062 sem,+-0.230 stdev) ; SIMBAD N=14 d<25pc K3.5Vs (10/4/2024)
+Mv(K3.5V) = 6.86 ; EEM fit to FGK d<25pc SIMBAD for B-V=1.06 (10/4/2024)
+Mv(K3.5V) = 6.83 ; Wright04 MS relation for B-V=1.06
+Mv(K3.5V) =  6.83 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+Mv(K3.5V) = 6.79 ; Koen10 d<25pc median K3.5V
+=> adopt Mv(K3.5V)   = 6.85 [updated 10/4/2024; M_G=6.50, G-V=-0.36]
+=> adopt M_Ks(K3.5V) = 4.29 [updated 10/4/2024; Mv=6.85, V-Ks=2.56]
 
+M_G(K3.5V) =  6.532 (+-0.043 sem,+-0.160 stdev) ; SIMBAD N=16 d<25pc K3.5Vs (10/4/2024)
+M_G(K3.5V) =  6.52 ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
+M_G(K3.5V) =  6.52 ; SIMBAD d<20pc trend for V-Ks=2.582
+M_G(K3.5V) = 6.495 ; Mv=6.85, G-V=-0.355
+M_G(K3.5V) =  6.47 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+=> adopt M_G(K3.5V) = 6.495 [updated 10/4/2024; Mv=6.85, G-V=-0.355]
+
+logL(K3.5V) = -0.680 ; Mv=6.85, BCv=-0.46, Mbol = 6.390
+=> adopt logL(K3.5V) = -0.660 [updated 10/4/2024]
+=> adopt Mbol(K3.5V) =  6.390 [updated 10/4/2024]
+
+Mass(K3.5V) = 0.70  Msun ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
 Mass(K3.5V) = 0.721 Msun ; Mann18 calib for M_Ks=4.208
 Mass(K3.5V) = 0.735 Msun ; 0.75 Msun for K3V, 0.72 Msun for K4V
+Mass(K3.5V) = 0.743 Msun ; exemplar HD 31560 = GJ 2037 = HIP 22907 
+Mass(K3.5V) = 0.750 Msun ; exemplar HD 50281 = GJ 250A = HIP 32984 
 => adopt Mass(K3.5V) = 0.73 Msun [updated 8/2/2018]
 
-Rad(K3.5V) = 0.681 Rsun ; logL=-0.680, Teff=4730K
-=> adopt Rad(K3.5V) = 0.681 Rsun [updated 7/1/2023]
-(EEM: seems too low compared to K3V and K4V)
+Rad(K3.5V) = 0.7054 Rsun ; logL=-0.660, Teff=4700K
+=> adopt Rad(K3.5V) = 0.705 Rsun [updated 10/4/2024]
 
-logg(K3.5V) = 4.536 (rms=0.112) ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=4730K (see G0V.txt)
+logg(K3.5V) = 4.536 (rms=0.112) ; fit Soubiran22/PASTEL logg -0.1<[Fe/H]<+0.1 d<50pc dwarfs Teff=4730K (see G0V.txt)
+logg(K3.5V) = 4.58 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
+logg(K3.5V) = 4.60 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
 => adopt logg(K3.5V) = 4.54 [updated 9/15/2023]
 
 # Exemplars
@@ -114,15 +163,26 @@ HD 50281 = GJ 250A = HIP 32984 = WDS J06523-0510A = LHS 1875 (J0652-0510; V=6.5)
   K6V: Adams35
 
   Roughly solar metallicity star in wide binary (WNO 17) in WDS with
-  M3V companion "B" 59" away.  B-V=1.071+-0.008(HIP),
-  B-V=1.057(Just08), V=6.58(HIP),
-  V=6.586+-0.015(Mermilliod91). V-Rc=0.620(Just08),
-  Rc-Ic=0.510(Just08), g-r=0.908(Just08), r-i=0.281(Just08).  2MASS JH
+  M3V companion "B" 59" away - ORB6 reports Porb=3476yr, a=65.21358".
+  V=6.55(Cousins62/N=4), V=6.57(Stobie70/N=1), V=6.58(HIP),
+  V=6.58(Stoy63/N=4), V=6.581+-0.004(ASCC-2.5),
+  V=6.586+-0.015(Mermilliod91), V=6.59(TYC), V=6.60(Nikonov57/N=8),
+  V=6.60(Johnson57/N=3) => adopt V=6.581.  B-V=0.979+-0.015(Turon93),
+  B-V=1.04(Nikonov57/N=8), B-V=1.05(Johnson57/N=3),
+  B-V=1.056+-0.011(Mermilliod91), B-V=1.057(Just08),
+  B-V=1.06(Stoy63/N=4), B-V=1.06(vanAltena95), B-V=1.07(Stobie70/N=1),
+  B-V=1.071+-0.008(HIP), B-V=1.074+-0.008(TYC),
+  B-V=1.08(Cousins62/N=4) => adopt (B-V)=1.06.  U-B=0.95(vanAltena95),
+  U-B=0.95(Johnson54/N=3), U-B=0.95(Stobie70/N=1),
+  U-B=0.952+-0.004(Mermilliod91) => adopt (U-B)=0.952.
+  V-Rc=0.620(Just08), R-Ic=0.510(Just08), V-Ic=1.04+-0.01(HIP),
+  V-Ic=1.130(Just08), g-r=0.908(Just08), r-i=0.281(Just08).  2MASS JH
   are D-grade and Ks is E-grade. GaiaDR3: G=6.231057, Bp-Rp=1.276912,
   Bp-G=0.563976, G-Rp=0.712936.  PASTEL/Soubiran22: Teff=4767+-31K,
   logg=4.54+-0.08, [Fe/H]=+0.02+-0.03. [Fe/H]=0.05+-0.04(Franchini05).
-  plx=114.3547+-0.0418mas(GaiaDR3). logL=-0.642545(Brown22).
-  Mv=6.88, M_G=6.522. G-V = 6.231 - 6.586 = -0.355. 
+  plx=114.3547+-0.0418mas(GaiaDR3). logL=-0.642545(Brown22).  Mv=6.88,
+  M_G=6.522. G-V = 6.231 - 6.586 = -0.355.  Mass: median from
+  literature: 0.750(+-0.016 sem,+-0.024 stdev; N=13).
   
 HD 31560 = GJ 2037 = HIP 22907 = 2MASS J04554189-2833500 = SPOCS 238 = TIC 682491 
   K3V: Upgren72
@@ -131,16 +191,35 @@ HD 31560 = GJ 2037 = HIP 22907 = 2MASS J04554189-2833500 = SPOCS 238 = TIC 68249
   K4: Bidelman85
 
   All the classifications are K3V or K4V or in between, and the star
-  is approximately solar metallicity.  V=8.13(HIP),
-  V=8.135162(GaiaDR3/synth), B-V=1.072+-0.010(HIP),
-  V-I=1.14+-0.01(HIP), J=6.190+-0.021(2MASS), H=5.686+-0.033(2MASS),
+  is approximately solar metallicity.  V=8.12(Cousins63),
+  V=8.122(Koen10), V=8.126+-0.008(ASCC-2.5),
+  V=8.128+-0.010(Mermilliod91), V=8.13(HIP), V=8.13(TYC),
+  V=8.135162(GaiaDR3/synth), B-V=1.064+-0.013(TYC),
+  B-V=1.07(Kotoneva02), B-V=1.072+-0.010(HIP),
+  B-V=1.072+-0.010(Mermilliod91), B-V=1.075(Just08),
+  B-V=1.08(Cousins63/N=4), B-V=1.085(Koen10) => adopt B-V=1.072.
+  U-B=0.955(Mermilliod91), U-B=0.998(Koen10) => adopt U-B=0.955.
+  V-Rc=0.527(Just08), V-Rc=0.627(Koen10) => adopt V-Rc=0.627.
+  R-Ic=0.505(Just08), R-Ic=0.518(Koen10), R-Ic=0.53(Kotoneva02) =>
+  adopt R-Ic=0.518.  V-Ic=1.032(Just08), V-Ic=1.14+-0.01(HIP),
+  V-Ic=1.145(Koen10) => adopt V-Ic=1.145.  g-r=0.928(Just08),
+  r-i=0.276(Just08), J=6.190+-0.021(2MASS), H=5.686+-0.033(2MASS),
   Ks=5.545+-0.021(2MASS).  V-Ks = 8.135 - 5.545 = 2.590.  GaiaDR3:
   G=7.771415, Bp-Rp=1.288738, Bp-G=0.571348, G-Rp=0.717390.  G-V =
   7.771(GaiaDR3) - 8.135(GaiaDR3/synth) = -0.364.
   plx=54.9199+-0.0173mas(GaiaDR3). PASTEL/Soubiran22: Teff=4702+-19K,
-  logg=4.60+-0.05, [Fe/H]=0.04+-0.04. [Fe/H] =
-  0.0086(-0.0181,0.0173)(GaiaDR3), [Fe/H]=-0.07+-0.04(Sousa08),
-  [Fe/H]=+0.14+-0.03(Valenti05).  Mv=6.834, M_G=6.470, M_Ks=4.244.
+  logg=4.60+-0.05,
+  [Fe/H]=+0.04+-0.04. [Fe/H]=0.0086(-0.0181,0.0173)(GaiaDR3),
+  [Fe/H]=-0.07+-0.04(Sousa08), [Fe/H]=+0.14+-0.03(Valenti05).
+  Mv=6.834, M_G=6.470, M_Ks=4.244.  Masses:
+  0.71Msun(Aguilera-Gomez18), 0.720Msun(Anders22),
+  0.73Msun(Mortier13), 0.73Msun(DelgadoMena15),
+  0.730+-0.019Msun(Tsantaki13), 0.733Msun(GaiaDR3/FLAME),
+  0.741+-0.024Msun(GomezdaSilva21), 0.743+-0.025Msun(DelgadoMena19),
+  0.747+-0.049Msun(Pinheiro14;4methods), 0.749Msun(GaiaDR3/FLAME),
+  0.750+-0.088Msun(TIC), 0.75+-0.02Msun(Brewer16/iso),
+  0.76+-0.03Msun(Yee17), 0.76Msun(Soto17/med), 0.767Msun(Anders19) =>
+  adopt Mass=0.743Msun.
 
 HD 82342 = GJ 1126 = HIP 46626 = UGP 209 = CD-31 7352
   K3V: Upgren72
@@ -149,10 +228,25 @@ HD 82342 = GJ 1126 = HIP 46626 = UGP 209 = CD-31 7352
   K4: Oswalt88
 
   Metal poor primary in wide binary LDS 5702 (11') with M5 companion
-  LP 902-30.  plx=50.9427+-0.0189mas(GaiaDR3). V=8.31(HIP),
-  B-V=0.985+-0.015(HIP), V-I=1.03+-0.01(HIP).
-  Teff=4732K(Hinkel17). Soubiran22/PASTEL: Teff=4686+-56K,
-  logg=4.58+-0.04, [Fe/H]=-0.50+-0.03.
+  LP 902-30.  plx=50.9427+-0.0189mas(GaiaDR3).  V=8.31(HIP),
+  V=8.324+-0.013(ASCC-2.5), V=8.34(TYC), V=8.345058(GaiaDR3/synth),
+  V=8.380(Mermilliod91) => adopt V=8.34.  B-V=0.985+-0.015(HIP),
+  B-V=0.985(Mermilliod91), B-V=0.988+-0.017(TYC), B-V=0.992(Koen10) =>
+  adopt B-V=0.988.  U-B=0.690(Mermilliod91), U-B=0.787(Koen10),
+  Rc=7.736965(GaiaDR3/synth), V-Rc=0.560(Just08), V-Rc=0.595(Koen10)
+  => adopt V-Rc=0.578.  Ic=7.208037(GaiaDR3/synth), R-Ic=0.540(Just08)
+  => adopt R-Ic=0.540.  V-Ic=1.03+-0.01(HIP),
+  V-Ic=1.118(V-Rc+R-Ic=0.578+0.540), V-Ic=1.131(Koen10) => adopt
+  V-Ic=1.118.  g-r=0.835(Just08), r-i=0.309(Just08),
+  J=6.492+-0.027(2MASS), H=5.975+-0.021(2MASS),
+  Ks=5.809+-0.020(2MASS).  V-Ks = 8.34 - 5.809 = 2.531.
+  Soubiran22/PASTEL: Teff=4686+-56K, logg=4.58+-0.04,
+  [Fe/H]=-0.50+-0.03.  Masses: M=0.66Msun(Aguilera-Gomez18),
+  M=0.674+-0.053Msun(HardegreeUllman23), M=0.679Msun(Soto18/N=2),
+  M=0.687+-0.040Msun(Pinheiro14/med/N=4), M=0.70(Mortier13),
+  M=0.70(DelgadoMena15), M=0.707(Anders22),
+  M=0.710+-0.089(TIC/Stassun19), M=0.713+-0.022Msun(GomesdaSilva21),
+  M=0.720(Anders19), M=0.724(GaiaDR3/Flame) => adopt M=0.70Msun.
 
 # Other Stars
 
@@ -166,7 +260,6 @@ HR 1614 = HD 32147 = UGP 102
   likely do to very high metallicity: most of the published [Fe/H]
   values in PASTEL compendium are consistent with [Fe/H] ~
   0.3. e.g. [Fe/H] = 0.33+-0.03 (Valenti05).
-
 
 HD 14001 AB = GUP 31 = StKM 2-201
   K3V: Upgren72(unresolved),Houk88(unresolved)
@@ -189,14 +282,15 @@ HD 45081 = AO Men (J0618-7202; V=10.0)
   B-V=0.963+-0.056(HIP), V=9.95(HIP), Mv=7.02(Vmag from HIP, plx from HIP2).
   Prot=2.66d. PASTEL/Soubiran22: Teff=4322+-62K, logg=4.38+-0.10(pre-MS), [Fe/H]=0.24+-0.05. 
 
-HD 124642
+HD 124642 = HIP 69526 
  *K3.5V: Gray06
   K4: Bidelman85
 
-  Near solar metallicity.
+  Near solar metallicity.  Soubiran22 PASTEL means:
+  Teff=4718+-31K(N=5), logg=4.58+-0.05(N=5), [Fe/H]=+0.02+-0.04(N=5).
 
-HD 13789
+HD 13789 = HIP 10416
  *K3.5V: Gray03
 
-  Near solar metallicity.
+  Near solar metallicity. Teff=4754+-43K(N=6), logg=4.51+-0.05(N=6), [Fe/H]=+0.06+-0.04(N=6).
 

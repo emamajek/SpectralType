@@ -25,13 +25,13 @@ Henry02 standards: 	     GJ 226    - M2.5V  (from Kirkpatrick91)
 			     GJ 644ABD - M2.5VJ (from Henry94)
 Kirkpatrick(GrayCorbally09): GJ 250B   - M2.5V  (primary standard)
 
-(B-V)(M2.5V) = 1.449+-0.037 ; sec. stan. GJ 250B 
-(B-V)(M2.5V) = 1.514+-0.014 ; ter. stan. GJ 226 
+(B-V)(M2.5V) = 1.449 +-0.037 ; sec. stan. GJ 250B 
+(B-V)(M2.5V) = 1.514 +-0.014 ; ter. stan. GJ 226 
 (B-V)(M2.5V) = 1.530        ; Reid CNS3 sample M2.5 median value (N=24)
 (B-V)(M2.5V) = 1.533        ; Koen10 median d<25pc M2.5V
 (B-V)(M2.5V) = 1.534        ; SIMBAD median d<20pc M2.5 (N=53 with B and V photometry)
 (B-V)(M2.5V) = 1.566        ; exemplar GJ 674 = HIP 85523 
-(B-V)(M2.5V) = 1.573+-0.007 ; pri. stan. GJ 381 
+(B-V)(M2.5V) = 1.573 +-0.007 ; pri. stan. GJ 381 
 => adopt (B-V)(M2.5V) = 1.53 [updated 9/1/2023]
 
 (G-J)(M2.5V)   = 2.480 ; Bentley18/interp
@@ -72,11 +72,82 @@ Kirkpatrick(GrayCorbally09): GJ 250B   - M2.5V  (primary standard)
 => adopt (I-Ks)(M2.5V) = 2.124
 => adopt (G-V)(M2.5V)  = -0.949 [last updated 6/1/2018]
 
-(J-H)(M2.5V)  = 0.595 ; Reid CNS3 sample M2.5 median value (N=22)
+(J-H)(M2.5V) =   0.495 ; PM_J07199+8404_ M2.5V plx=80.0241mas
+(J-H)(M2.5V) =   0.500 ; GJ_3135_ M2.5+V plx=106.6096mas
+(J-H)(M2.5V) =   0.528 ; GJ_145_ M2.5V plx=91.1477mas
+(J-H)(M2.5V) =   0.540 ; PM_J09218-0219_ M2.5V plx=83.6782mas
+(J-H)(M2.5V) =   0.550 ; GJ_3452_ M2.5V plx=78.1626mas
+(J-H)(M2.5V) =   0.556 ; GJ_118_ M2.5 plx=85.1168mas
+(J-H)(M2.5V) =   0.556 ; GJ_1248_ M2.5V plx=75.2548mas
+(J-H)(M2.5V) =   0.563 ; GJ_63_ M2.5V plx=75.8856mas
+(J-H)(M2.5V) =   0.574 ; GJ_226_ M2.5V plx=105.6903mas
+(J-H)(M2.5V) =   0.577 ; GJ_195_A_ M2.5V plx=74.9521mas
+(J-H)(M2.5V) =   0.584 ; GJ_3709_ M2.5V plx=78.4576mas
+(J-H)(M2.5V) =  0.584 ; median for N=20 nearest M2.5Vs in SIMBAD (10/24/2024)
+(J-H)(M2.5V) =   0.589 ; GJ_26_ M2.5V plx=78.8965mas
+(J-H)(M2.5V) =   0.591 ; GJ_360_ M2.5Ve plx=84.3281mas
+(J-H)(M2.5V) =   0.592 ; GJ_277_ M2.5V plx=84.26mas
+(J-H)(M2.5V) =  0.595 ; Reid CNS3 sample M2.5 median value (N=22)
+(J-H)(M2.5V) =   0.600 ; GJ_357_ M2.5V plx=105.9789mas
+(J-H)(M2.5V) =   0.602 ; GJ_361_ M2.5V plx=86.6196mas
+(J-H)(M2.5V) =   0.610 ; GJ_537_B_ M2.5V plx=89.5327mas
+(J-H)(M2.5V) =   0.622 ; GJ_588_ M2.5V plx=168.9965mas
+(J-H)(M2.5V) =   0.638 ; GJ_176_ M2.5V plx=105.4275mas
+(J-H)(M2.5V) =   0.651 ; GJ_3126_ M2.5V plx=84.0554mas
+(J-H)(M2.5V) =   0.779 ; GJ_425_B_ M2.5Ve plx=76.1918mas
+=> adopt (J-H)(M2.5V) = 0.585 [updated 10/24/2024] (H-Ks=0.255, J-Ks=0.84)
 
-(H-Ks)(M2.5V) = 0.255 ; Reid CNS3 sample M2.5 median value (N=22)
+(H-Ks)(M2.5V) =   0.208 ; GJ_1248_ M2.5V plx=75.2548mas
+(H-Ks)(M2.5V) =   0.217 ; GJ_176_ M2.5V plx=105.4275mas
+(H-Ks)(M2.5V) =   0.223 ; GJ_537_B_ M2.5V plx=89.5327mas
+(H-Ks)(M2.5V) =   0.225 ; GJ_3126_ M2.5V plx=84.0554mas
+(H-Ks)(M2.5V) =   0.234 ; GJ_226_ M2.5V plx=105.6903mas
+(H-Ks)(M2.5V) =   0.234 ; GJ_63_ M2.5V plx=75.8856mas
+(H-Ks)(M2.5V) =   0.241 ; GJ_361_ M2.5V plx=86.6196mas
+(H-Ks)(M2.5V) =   0.251 ; GJ_360_ M2.5Ve plx=84.3281mas
+(H-Ks)(M2.5V) =   0.252 ; GJ_277_ M2.5V plx=84.26mas
+(H-Ks)(M2.5V) =   0.254 ; GJ_195_A_ M2.5V plx=74.9521mas
+(H-Ks)(M2.5V) =  0.255 ; Reid CNS3 sample M2.5 median value (N=22)
+(H-Ks)(M2.5V) =  0.256 ; median for N=20 nearest M2.5Vs in SIMBAD (N=20)
+(H-Ks)(M2.5V) =   0.258 ; GJ_26_ M2.5V plx=78.8965mas
+(H-Ks)(M2.5V) =   0.265 ; GJ_357_ M2.5V plx=105.9789mas
+(H-Ks)(M2.5V) =   0.266 ; GJ_588_ M2.5V plx=168.9965mas
+(H-Ks)(M2.5V) =   0.267 ; GJ_3452_ M2.5V plx=78.1626mas
+(H-Ks)(M2.5V) =   0.269 ; GJ_3709_ M2.5V plx=78.4576mas
+(H-Ks)(M2.5V) =   0.286 ; GJ_118_ M2.5 plx=85.1168mas
+(H-Ks)(M2.5V) =   0.290 ; PM_J09218-0219_ M2.5V plx=83.6782mas
+(H-Ks)(M2.5V) =   0.293 ; PM_J07199+8404_ M2.5V plx=80.0241mas
+(H-Ks)(M2.5V) =   0.306 ; GJ_145_ M2.5V plx=91.1477mas
+(H-Ks)(M2.5V) =   0.309 ; GJ_3135_ M2.5+V plx=106.6096mas
+=> adopt (H-Ks)(M2.5V) = 0.255 [updated 10/24/2024] (J-Ks=0.84, J-H=0.585)
 
-(J-Ks)(M2.5V) = 0.825 ; smoothed fit M0-L0
+(J-Ks)(M2.5V) =   0.764 ; GJ_1248_ M2.5V plx=75.2548mas
+(J-Ks)(M2.5V) =   0.788 ; PM_J07199+8404_ M2.5V plx=80.0241mas
+(J-Ks)(M2.5V) =   0.797 ; GJ_63_ M2.5V plx=75.8856mas
+(J-Ks)(M2.5V) =   0.808 ; GJ_226_ M2.5V plx=105.6903mas
+(J-Ks)(M2.5V) =   0.809 ; GJ_3135_ M2.5+V plx=106.6096mas
+(J-Ks)(M2.5V) =   0.812 ; GJ_425_B_ M2.5Ve plx=76.1918mas
+(J-Ks)(M2.5V) =   0.817 ; GJ_3452_ M2.5V plx=78.1626mas
+(J-Ks)(M2.5V) =  0.825 ; smoothed fit M0-L0
+(J-Ks)(M2.5V) =   0.830 ; PM_J09218-0219_ M2.5V plx=83.6782mas
+(J-Ks)(M2.5V) =   0.831 ; GJ_195_A_ M2.5V plx=74.9521mas
+(J-Ks)(M2.5V) =   0.833 ; GJ_537_B_ M2.5V plx=89.5327mas
+(J-Ks)(M2.5V) =   0.834 ; GJ_145_ M2.5V plx=91.1477mas
+(J-Ks)(M2.5V) =  0.834 ; median for N=21 nearest M2.5Vs in SIMBAD (10/24/2024)
+(J-Ks)(M2.5V) =  0.835 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
+(J-Ks)(M2.5V) =   0.842 ; GJ_118_ M2.5 plx=85.1168mas
+(J-Ks)(M2.5V) =   0.842 ; GJ_360_ M2.5Ve plx=84.3281mas
+(J-Ks)(M2.5V) =   0.843 ; GJ_361_ M2.5V plx=86.6196mas
+(J-Ks)(M2.5V) =   0.844 ; GJ_277_ M2.5V plx=84.26mas
+(J-Ks)(M2.5V) =   0.847 ; GJ_26_ M2.5V plx=78.8965mas
+(J-Ks)(M2.5V) =   0.853 ; GJ_3709_ M2.5V plx=78.4576mas
+(J-Ks)(M2.5V) =   0.855 ; GJ_176_ M2.5V plx=105.4275mas
+(J-Ks)(M2.5V) =   0.865 ; GJ_357_ M2.5V plx=105.9789mas
+(J-Ks)(M2.5V) =   0.876 ; GJ_3126_ M2.5V plx=84.0554mas
+(J-Ks)(M2.5V) =   0.888 ; GJ_588_ M2.5V plx=168.9965mas
+=> adopt (J-Ks)(M2.5V) = 0.835 [updated 10/24/2024] 
+
+
 
 (NUV-V)(M2.5V) = 9.39 (+-0.72; 68%CL) ; Cifuentes20 median (N=63 M2.5Vs)
 (NUV-V)(M2.5V) = 9.46 ; smoothed trend for d<20pc M0V-M7V dwarfs from Cifuentes20

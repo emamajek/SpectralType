@@ -5,22 +5,64 @@ L8; there are no bjects yet identified with optical types of L8.5, L9,
 L9.5. Just beyond L8 there is an abrupt change in spectral morphology
 in the optical leading to the cooler dwarfs of type T."
 
+Teff(L9.5V) = 1205 K ; Sanghi23 M6V-T9V field dwarf polynomial 
 Teff(L9.5V) = 1264 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(L9.5V) = 1266 K ; Filippazzo15 calibration (M6V-T9V)
 
-M_J(L9.5V) = 14.836 ; EEM fit to L/T dwarfs d<25pc
+(J-H)(L9.5V) =   0.763 ; 2MASS_J08523490+4720359_ L9.5 plx=42.2mas
+(J-H)(L9.5V) =   0.958 ; 2MASS_J08200075-6622150_ L9.5 plx=56.1mas
+(J-H)(L9.5V) =   1.022 ; 2MASS_J06475076-1546179_ L9.5 plx=47.6mas
+(J-H)(L9.5V) =   1.059 ; 2MASS_J09205549+4539058_ L9.5 plx=81.2938mas
+(J-H)(L9.5V) =   1.101 ; 2MASS_J08300825+4828482_ L9.5 plx=80.6289mas
+=> adopt (J-H)(L9.5V) = 1.0 [updated 10/26/2024; H-Ks=0.6, J-Ks=1.6]
 
-M_K(MKO)(L9.5V)=13.096  ; SDSS_0830+4828 calc using Kirkpatrick20 (plx=76.42mas)
-M_K(MKO)(L9.5V)=13.4921 ; WISE_0754+7909 calc using Kirkpatrick20 (plx=51.1mas)
+(H-Ks)(L9.5V) =   0.436 ; 2MASS_J09205549+4539058_ L9.5 plx=81.2938mas
+(H-Ks)(L9.5V) =   0.553 ; 2MASS_J06475076-1546179_ L9.5 plx=47.6mas
+(H-Ks)(L9.5V) =   0.656 ; 2MASS_J08200075-6622150_ L9.5 plx=56.1mas
+(H-Ks)(L9.5V) =   0.667 ; 2MASS_J08300825+4828482_ L9.5 plx=80.6289mas
+(H-Ks)(L9.5V) =   0.701 ; 2MASS_J08523490+4720359_ L9.5 plx=42.2mas
+=> adopt (H-Ks)(L9.5V) = 0.6 [updated 10/26/2024; J-H=1.0, J-Ks=1.6]
 
-M_Ks(L9.5V)=  12.7363 ; WISE_0647-1546 calc using Kirkpatrick20 (plx=62.7mas)
-M_Ks(L9.5V)=  12.89   ; SDSS_1219+3128 calc using Kirkpatrick20 (plx=52.0mas)
-M_Ks(L9.5V)=13.03   ; fit to Kirkpatrick20 L7-T3 dwarfs
-M_Ks(L9.5V)=13.04   ; trend to L/T dwarfs in notes (1/2021)
-M_Ks(L9.5V)= 13.096  ; SDSS_0830+4828 calc using Kirkpatrick20 (plx=76.42mas)
-M_Ks(L9.5V)=13.2629 ; WISE_0642+4101 calc using Kirkpatrick20 (plx=62.6mas)
-M_Ks(L9.5V)= 13.5118 ; WISE_1738+6142 calc using Kirkpatrick20 (plx=44.5mas)
-M_Ks(L9.5V)= 13.5148 ; WISE_0820-6622 calc using Kirkpatrick20 (plx=56.1mas)
-M_Ks(L9.5V)=  13.5921 ; WISE_0754+7909 calc using Kirkpatrick20 (plx=51.1mas)
+(J-Ks)(L9.5V) =   1.464 ; 2MASS_J08523490+4720359_ L9.5 plx=42.2mas
+(J-Ks)(L9.5V) =   1.495 ; 2MASS_J09205549+4539058_ L9.5 plx=81.2938mas
+(J-Ks)(L9.5V) =   1.575 ; 2MASS_J06475076-1546179_ L9.5 plx=47.6mas
+(J-Ks)(L9.5V) =   1.595 ; Sanghi24 M6V-T9V trend
+(J-Ks)(L9.5V) =   1.614 ; 2MASS_J08200075-6622150_ L9.5 plx=56.1mas
+(J-Ks)(L9.5V) =   1.768 ; 2MASS_J08300825+4828482_ L9.5 plx=80.6289mas
+=> adopt (J-Ks)(L9.5V) = 1.6 [updated 10/26/2024; J-H=1.0, H-Ks=0.6] 
+
+M_J(L9.5V) =   13.70 ; 2MASS_J06475076-1546179_ L9.5 plx=47.6mas
+M_J(L9.5V) =   14.31 ; 2MASS_J08523490+4720359_ L9.5 plx=42.2mas
+M_J(L9.5V) =   14.77 ; 2MASS_J09205549+4539058_ L9.5 plx=81.2938mas
+M_J(L9.5V) =  14.836 ; EEM fit to L/T dwarfs d<25pc
+M_J(L9.5V) =   14.94 ; 2MASS_J08200075-6622150_ L9.5 plx=56.1mas
+M_J(L9.5V) =   14.98 ; 2MASS_J08300825+4828482_ L9.5 plx=80.6289mas
+
+
+M_K(MKO)(L9.5V) = 13.096  ; SDSS_0830+4828 calc using Kirkpatrick20 (plx=76.42mas)
+M_K(MKO)(L9.5V) = 13.4921 ; WISE_0754+7909 calc using Kirkpatrick20 (plx=51.1mas)
+
+M_Ks(L9.5V) =   12.13 ; 2MASS_J06475076-1546179_ L9.5 plx=47.6mas
+M_Ks(L9.5V) =   12.74 ; WISE_0647-1546 calc using Kirkpatrick20 (plx=62.7mas)
+M_Ks(L9.5V) =   12.84 ; 2MASS_J08523490+4720359_ L9.5 plx=42.2mas
+M_Ks(L9.5V) =   12.89 ; SDSS_1219+3128 calc using Kirkpatrick20 (plx=52.0mas)
+M_Ks(L9.5V) =  13.03 ; fit to Kirkpatrick20 L7-T3 dwarfs
+M_Ks(L9.5V) =  13.04 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L9.5V) =   13.10 ; SDSS_0830+4828 calc using Kirkpatrick20 (plx=76.42mas)
+M_Ks(L9.5V) =   13.21 ; 2MASS_J08300825+4828482_ L9.5 plx=80.6289mas
+M_Ks(L9.5V) =   13.26 ; WISE_0642+4101 calc using Kirkpatrick20 (plx=62.6mas)
+M_Ks(L9.5V) =   13.28 ; 2MASS_J09205549+4539058_ L9.5 plx=81.2938mas
+M_Ks(L9.5V) =   13.33 ; 2MASS_J08200075-6622150_ L9.5 plx=56.1mas
+M_Ks(L9.5V) =   13.51 ; WISE_1738+6142 calc using Kirkpatrick20 (plx=44.5mas)
+M_Ks(L9.5V) =   13.51 ; WISE_0820-6622 calc using Kirkpatrick20 (plx=56.1mas)
+M_Ks(L9.5V) =   13.59 ; WISE_0754+7909 calc using Kirkpatrick20 (plx=51.1mas)
 => adopt M_Ks(L9.5V) = 13.03 [updated 12/30/2020]
 
+BC_J(L9.5V) = 1.734 ; Sanghi23 M6V-T9V trend
+
+BC_Ks(L9.5V) = 3.329 mag ; Sanghi23 calibration (M6V-T9V) 
+
+logL(L9.5V) = -4.613 ; Sanghi23 M6V-T9V field dwarf polynomial
+=> adopt logL(L9.5V) = -4.61 [updated 10/4/2024]
+
+Rad(L9.5V) = 0.1134 Rsun ; Sanghi23 calibration (M6V-T9V) 

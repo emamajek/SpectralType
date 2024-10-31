@@ -415,7 +415,10 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (G-Rp)(K5V) = 0.774 ; exemplar GJ 664 = 36 Oph C = HD 156026 ([Fe/H]=-0.21) (GaiaDR3)
 (G-Rp)(K5V) = 0.790 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A ([Fe/H]=-0.13) (GaiaDR3)
 (G-Rp)(K5V) = 0.794 ; ter. stan. GJ 653 = HD 154363 = HIP 83591 ([Fe/H]=-0.55) (GaiaDR3) 
-(G-Rp)(K5V) = 0.796 ; exemplar HD 332518 = HIP 97223 ([Fe/H]=+0.03) (GaiaDR3) 
+(G-Rp)(K5V) = 0.796 ; exemplar HD 332518 = HIP 97223 ([Fe/H]=+0.03) (GaiaDR3)
+=> adopt (G-Rp)(K5V) = 0.767 [updated 10/24/2024]
+[EEM 10/24/2024: standards+exemplars trend: (G-Rp)(K5V) = 0.7668 - 0.0566*[Fe/H] (rms=0.0174mag)
+                         3 standards trend: (G-Rp)(K5V) = 0.7646 - 0.0575*[Fe/H] (rms=0.0239mag)
 
 (g-G)(K5V) = 0.879 +-0.003 ; exemplar GJ 718A = HD 171314 = HIP 90959 ([Fe/H]=+0.13)
 (g-G)(K5V) = 1.453 (+-0.029 sem, +-0.128 stdev) ; SIMBAD d<25pc K5V (N=25)
@@ -616,7 +619,8 @@ BCv(K5V) = -0.619 ; Casagrande08(Teff=4490K)
 BCv(K5V) = -0.631 +-0.026 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A ([Fe/H]=-0.13) (Pecaut13)
 BCv(K5V) = -0.637 ; Masana06(Teff=4490K)
 BCv(K5V) = -0.65  ; Johnson66 (assumed Tsun=5800K, Mbol,Sun=4.84)
-BCv(K5V) = -0.69 +-0.01 ; ter. stan. GJ 653 = HD 154363 = HIP 83591 ([Fe/H]=-0.55) (see below) 
+BCv(K5V) = -0.69 +-0.01 ; ter. stan. GJ 653 = HD 154363 = HIP 83591 ([Fe/H]=-0.55) (see below)
+BCv(K5V) = -0.716 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A ([Fe/H]=-0.13) (calc. Soubiran24/GaiaDR3synth)
 => adopt BCv(K5V) = -0.59 mag [last updated 9/24/2024; scaled so BCv(5772K)=-0.085]
 
 BC_G(K5V) = -0.206 +-0.065 ; Cifuentes20
@@ -625,12 +629,12 @@ BC_J(K5V) =  1.490 +-0.047 ; Cifuentes20
 
 BC_Ks(K5V) = 2.220 +-0.014 ; Morrell19 calibration for G-Ks=2.38
 
-logL(K5V) = -0.707 ; exemplar GJ 718A = HD 171314 = HIP 90959 ([Fe/H]=+0.13)
-logL(K5V) = -0.734 ; Yee17 fit to K dwarfs for Teff=4490K, [Fe/H]=0.0 
+logL(K5V) =  -0.707 ; exemplar GJ 718A = HD 171314 = HIP 90959 ([Fe/H]=+0.13)
+logL(K5V) =  -0.734 ; Yee17 fit to K dwarfs for Teff=4490K, [Fe/H]=0.0 
 logL(K5V) = -0.780 ; Mv=7.28, BCv=-0.59 => Mbol=6.690
-logL(K5V) = -0.80  +-0.08  ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
-logL(K5V) = -0.815 +-0.028 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A = HIP 104214 ([Fe/H]=-0.13)(Kervalla08)
-logL(K5V) = -0.881 +-0.003 ; ter. stan. GJ 653 = HD 154363 = HIP 83591 ([Fe/H]=-0.55) 
+logL(K5V) =  -0.80  +-0.08  ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
+logL(K5V) =  -0.815 +-0.028 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A = HIP 104214 ([Fe/H]=-0.13)(Kervalla08)
+logL(K5V) =  -0.881 +-0.003 ; ter. stan. GJ 653 = HD 154363 = HIP 83591 ([Fe/H]=-0.55) 
 => adopt logL(K5V) = -0.780 dex [updated 9/24/2024]
 => adopt Mbol(K5V) =  6.690 mag [updated 9/24/2024]
 
@@ -646,18 +650,21 @@ Rad(K5V) =  0.7097          Rsun ; Yee17 fit to K dwarfs for Teff=4490K, [Fe/H]=
 Rad(K5V) =   0.743 +-0.010  Rsun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
 => adopt Rad(K5V) = 0.701 Rsun [last updated 4/9/2020]
 
-Mass(K5V) =  0.721 Msun ; EEM Mv vs. Mass fit for binaries (Mv=7.4)
-Mass(K5V) =  0.718 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.764)
+Mass(K5V) =  0.721 +-0.041 Msun ; EEM Mv vs. Mass fit for binaries (Mv=7.28)
 Mass(K5V) = 0.718 +-0.057 Msun ; Cifuentes23
-Mass(K5V) = 0.716 Msun ; Eker18 calibration for logL=-0.764
-Mass(K5V) =  0.704 Msun ; Eker15 calibration for logL=-0.764
+Mass(K5V) = 0.713 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.780)
+Mass(K5V) = 0.711 Msun ; Eker18 calibration for logL=-0.780
+Mass(K5V) =  0.699 Msun ; Eker15 calibration for logL=-0.780
 Mass(K5V) = 0.696 Msun ; Chevalier23 calib for M_G=6.85
-Mass(K5V) = 0.695 Msun ; Fernandes21 ML calib for logL=0.695
 Mass(K5V) = 0.695 Msun ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A (Soubiran24/BASTI)
 Mass(K5V) = 0.694 Msun ; Mann18 calib for M_Ks=4.397
+Mass(K5V) = 0.690 Msun ; Fernandes21 ML calib for logL=-0.780
 Mass(K5V) = 0.679 Msun ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A (Soubiran24/STAREvol)
-Mass(K5V) =  0.644+-0.012 Msun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
-=> adopt Mass(K5V) = 0.70 Msun [updated 7/11/2024]
+Mass(K5V) =  0.644 +-0.012 Msun ; ecl. binary 1SWASP_J093010.78+533895.5B (Koo14)
+=> adopt Mass(K5V) = 0.695 Msun [updated 9/24/2024]
+
+[EEM 9/24/2024: note that connecting the K5V M-L point (M=0.695Msun, logL=-0.78) suggests a M-L relation
+among G-K5 stars of (M/Msun)=(L/Lsun)^0.2033
 
 logg(K5V) =  4.51 ; sec. stan. GJ 204 = HD 36003 = HIP 25623 (see below) (Soubiran22)
 logg(K5V) =  4.51 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A = HIP 104214 ([Fe/H]=-0.13) (Soubiran22)
@@ -733,6 +740,10 @@ GJ 820A = 61 Cyg A = HD 201091 = HIP 104214 = HR 8085 = V1803 Cyg
   fbol=3.72e-7erg/s/cm2(Alonso96) => mbol=4.5762(IAU2015 scale) => BC
   = mbol - V = 4.5762 - FUV=17.744+0.061-0.058(Beitia-Antero16),
   NUV=14.258+0.025-0.024(Beitia-Antero16).
+  fbol=(39.248+-1.025)e-11W/m2(Soubiran24) =>
+  mbol=4.5180+-0.0284(Soubiran24/IAU2015scale).  BCv = mbol - V =
+  4.5180(Soubiran24) - 5.234(GaiaDR3/synth) =
+  -0.716(Soubiran24/GaiaDR3synth).
 
 # Secondary Standard
 

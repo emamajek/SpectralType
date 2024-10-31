@@ -160,15 +160,16 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 (J-Ks)(M7V) =  0.995 ; APMPM J2331-2750  M7.0V plx=73.3785mas
 (J-Ks)(M7V) = 0.996 ; J-H=0.613, H-Ks=0.383
 (J-Ks)(M7V) =  1.001 ; LSR J0515+5911  M7.0V plx=63.3593mas
-(J-Ks)(M7V) = 1.002 ; smoothed fit M0-L0 
+(J-Ks)(M7V) = 1.003 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(M7V) =  1.006 ; Reyle18 polynomial
 (J-Ks)(M7V) =  1.008 ; SIPS J0004-2058  M7.0 plx=66.4805mas
+(J-Ks)(M7V) = 1.021 ; Sanghi24 M6V-T9V trend
 (J-Ks)(M7V) = 1.035 (+-0.005 sem, +-0.015 stdev) ; N=9 M7V Cruz03 
 (J-Ks)(M7V) = 1.037 ; sec. stan. GJ 3877  M7.0Ve plx=141.7891mas
 (J-Ks)(M7V) =  1.08 ; Faherty09
 (J-Ks)(M7V) =  1.099 ; LP 548-37  M7Ve plx=59.9823mas
 (J-Ks)(M7V) =  1.138 ; LSR J0510+2713  M7V plx=97.3185mas
-=> adopt (J-Ks)(M7V) = 1.00 [updated 11/20/2023]
+=> adopt (J-Ks)(M7V) = 1.003 [updated 10/24/2024]
 
 (G-J)(M7V) = 3.739 (+-0.216 rms) ; Bentley19 (GaiaDR2)
 
@@ -590,7 +591,6 @@ Mv(M7V) =   18.08  ; Henry94
 => adopt Mv(M7V)   = 17.70 mag [updated 12/10/2020] (M_Ks=9.70, V-Ks=8.00)
 => adopt M_G(M7V)  = 14.72 mag [updated 12/10/2020] (Mv=17.70, G-V=-2.98)
 => adopt M_Ks(M7V) =  9.70 mag [updated 12/10/2020] (Mv=17.70, V-Ks=8.00)
-=> adopt M_J(M7V)  = 10.70 mag [updated 6/15/2024]  (M_Ks=9.70, J-Ks=1.00)
 => adopt M_i(M7V)  = 13.97 mag [updated 6/15/2024]  (M_J=10.70, i-J=3.27)
 => adopt M_r(M7V)  = 16.31 mag [updated 6/15/2024]  (M_i=13.97, r-i=2.34) 
 
@@ -609,6 +609,35 @@ M_G(M7V) =  14.767  ; trend SIMBAD d<10pc sample
 M_G(M7V) = 14.7729 ; pri. stan. VB 8                         
 M_G(M7V) = 14.8397 ; sec. stan. LP 914-54                    
 M_G(M7V) =    14.9078 ;  WISEA J051019.92+271355.3
+
+M_J(M7V) =     7.63 ; GJ_3923_ M7 plx=54.1053mas (obsolete Stephenson86 classification)
+M_J(M7V) =     7.63 ; StM_193_ M7 plx=54.1318mas (obsolete Stephenson86 classification)
+M_J(M7V) =    8.93 ; GJ_1083_ M7V plx=97.60mas
+M_J(M7V) =    9.07 ; GJ_3971_ M7V plx=69.8207mas
+M_J(M7V) =    9.37 ; LP_623-40_ M7 plx=55.6935mas
+M_J(M7V) =    9.56 ; LP_222-65_ M7V plx=56.6819mas
+M_J(M7V) =    9.63 ; GJ_3497_ M7V plx=81.3731mas
+M_J(M7V) =    9.91 ; GJ_3147_ M7V plx=96.7355mas
+M_J(M7V) =    9.96 ; LP_357-56_ M7 plx=74.9887mas
+M_J(M7V) =   10.05 ; LSPM_J0219+5919_ M7 plx=55.2864mas
+M_J(M7V) =   10.05 ; UPM_J1425+2540_ M7 plx=62.1261mas
+M_J(M7V) =   10.07 ; LSPM_J0330+5413_ M7V plx=95.2169mas
+M_J(M7V) =   10.08 ; UPM_J1055-7356_ M7 plx=77.4987mas
+M_J(M7V) =   10.14 ; LSPM_J0357+4107_ M7V plx=70.5077mas
+M_J(M7V) =   10.33 ; LSR_J0515+5911_ M7.0V plx=63.3593mas
+M_J(M7V) =   10.41 ; LP_500-35_ M7V plx=75.5877mas
+M_J(M7V) =   10.43 ; LP_822-7_ M7V plx=54.3954mas
+M_J(M7V) =   10.64 ; LSR_J0510+2713_ M7V plx=97.3185mas
+M_J(M7V) =  10.70 ; M_Ks=9.70, J-Ks=1.00 
+M_J(M7V) =   10.71 ; GJ_644_C_ M7Ve plx=153.9659mas
+M_J(M7V) =   10.72 ; GJ_3877_ M7.0Ve plx=141.7891mas
+M_J(M7V) =   10.79 ; SIPS_J1540-2613_ M7.0 plx=67.2738mas
+M_J(M7V) =   10.90 ; CE_303_ M7e plx=66.6038mas
+M_J(M7V) =   10.97 ; APMPM_J2331-2750_ M7.0V plx=73.3785mas
+M_J(M7V) =    11.20 ; LP_548-37_ M7Ve plx=59.9823mas
+M_J(M7V) =    11.52 ; SIPS_J0004-2058_ M7.0 plx=66.4805mas
+=> adopt M_J(M7V) = 10.70 mag [updated 10/20/2024]  (M_Ks=9.70, J-Ks=1.00)
+
 
 M_Ks(M7V) =  9.782 ; Finch14 calibration for V-K=8.00
 M_Ks(M7V) =  9.751  ; pri. stan. VB 8
@@ -635,6 +664,7 @@ Teff(M7V) = 2700 K ; pri. stan. VB8 (see below)
 Teff(M7V) =  2683 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(M7V) = 2680 K ; using Mann15 Rad vs. M_K=9.7, [Fe/H]=0.0 for logL=-3.188
 Teff(M7V) =  2676 K ; Dahn02 average for LHS 429 & LHS 3003
+Teff(M7V) = 2676 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(M7V) =    2670 K ; Habets81
 Teff(M7V) = 2660 K ; empirical L-R relation, for logL=-3.188
 Teff(M7V) =  2626 K ; EEM N=18 Teffs
@@ -655,7 +685,8 @@ probably best to take their approximate average; 10/18/2019]
 
 BC_G(M7V) = -1.854+-0.129 ; Cifuentes20
 
-BC_J(M7V) =  2.105+-0.050 ; Cifuentes20
+BC_J(M7V) =  2.022 ; Sanghi24 M6V-T9V trend
+BC_J(M7V) =  2.105 +-0.050 ; Cifuentes20
 
 BCv(M7V) =   -3.33 mag ; Schmidt-Kaler82(BCv=-3.46 + 0.13 offset)
 BCv(M7V) =   -3.6  mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
@@ -667,18 +698,19 @@ BCv(M7V) = -5.07  mag  ; sec. stan. LHS 3003 (Leggett01)
 BCv(M7V) =   -5.50 mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
 => adopt BCv(M7V) = -4.99 mag [updated 11/3/2019]
 
-BC_Ks(M7V)= 2.791 ; pri. stan. VB 8 (see below)
-BC_Ks(M7V)= 2.827 ; sec. stan. LHS 3003 (see below,Pecaut13)
-BC_Ks(M7V)= 2.91  ; Schmidt14 (rms = 0.08)
-BC_K(M7V) = 2.920 ; Leggett01 polynomial for J-K=0.999
-BC_Ks(M7V)= 2.99  ; trend for mid/late M dwarfs
-BC_K(M7V) = 3.009 ; pri. stan. VB 8 (Leggett01, IAU scale)
-BC_K(M7V) = 3.012 ; Leggett01 polynomial for I-K=3.509
-BC_K(M7V) = 3.014 ; pri. stan. VB 8 (derived using Dahn02)
-BC_K(M7V) = 3.03  ; sec. stan. LHS 3003 (Leggett96,Leggett01) 
-BC_K(M7V) = 3.049 ; pri. stan. LHS 429/Dahn02/BC_J=2.05, assume J-Ks=0.999
-BC_K(M7V) = 3.05  ; sec. stan. LHS 3003 (Golimowski04)
-BC_K(M7V) = 3.056 ; Golimowski04(for SpT)
+BC_Ks(M7V) = 2.791 ; pri. stan. VB 8 (see below)
+BC_Ks(M7V) = 2.827 ; sec. stan. LHS 3003 (see below,Pecaut13)
+BC_Ks(M7V) = 2.91  ; Schmidt14 (rms = 0.08)
+BC_K(M7V)  = 2.920 ; Leggett01 polynomial for J-K=0.999
+BC_Ks(M7V) = 2.99  ; trend for mid/late M dwarfs
+BC_K(M7V)  = 3.009 ; pri. stan. VB 8 (Leggett01, IAU scale)
+BC_K(M7V)  = 3.012 ; Leggett01 polynomial for I-K=3.509
+BC_K(M7V)  = 3.014 ; pri. stan. VB 8 (derived using Dahn02)
+BC_K(M7V)  = 3.03  ; sec. stan. LHS 3003 (Leggett96,Leggett01)
+BC_Ks(M7V) = 3.042 ; Sanghi24 
+BC_K(M7V)  = 3.049 ; pri. stan. LHS 429/Dahn02/BC_J=2.05, assume J-Ks=0.999
+BC_K(M7V)  = 3.05  ; sec. stan. LHS 3003 (Golimowski04)
+BC_K(M7V)  = 3.056 ; Golimowski04(for SpT)
 => adopt BC_K = 3.01 mag [updated 12/10/2020]
 
 logL(M7V) =  -3.459 +-0.025 ; SIP 1632-0631 (Dieterich14)

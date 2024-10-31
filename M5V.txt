@@ -190,8 +190,8 @@ considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09).
 (J-Ks)(M5V) =  0.847 ; GJ_3988_ M5.0V plx=100.9274mas
 (J-Ks)(M5V) =  0.872 ; G_161-7_ M5.0V plx=103.54mas
 (J-Ks)(M5V) =  0.878 ; SCR_J1138-7721_ M5.0V plx=119.3419mas
-(J-Ks)(M5V) = 0.879 ; smoothed fit M0-L0 
 (J-Ks)(M5V) =  0.880 ; GJ_3253_ M5V plx=103.5008mas
+(J-Ks)(M5V) = 0.881 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(M5V) = 0.889 ; exemplar G 227-22 = LP 71-82 M5.0V plx=128.3057mas
 (J-Ks)(M5V) =  0.890 ; GJ_3146_ M5.0Ve plx=109.9500mas
 (J-Ks)(M5V) = 0.892 ; J-H=0.580, H-Ks=0.312
@@ -204,7 +204,7 @@ considered the primary M4.5V standard by Kirkpatrick(GrayCorbally09).
 (J-Ks)(M5V) =  0.955 ; GJ_905_ M5.0V plx=316.4812mas
 (J-Ks)(M5V) =  0.965 ; GJ_1286_ M5.0Ve plx=139.3389mas
 (J-Ks)(M5V) =   1.016 ; GJ_866_ M5V plx=293.600mas
-=> adopt (J-Ks)(M5V) = 0.89 [updated 11/20/2023]
+=> adopt (J-Ks)(M5V) = 0.881 [updated 10/24/2024]
 
 (V-Lj)(M5V) = 5.61 ; Johnson65
 
@@ -570,8 +570,6 @@ Mv(M5V) =  14.70  ; exemplar GJ 3380
 Mv(M5V) =  14.76  ; sec. stan. GJ 1156 
 => adopt Mv(M5V)   = 14.15 mag [updated 12/10/2020] (V-Ks=5.95, M_Ks=8.20)
 => adopt M_G(M5V)  = 12.45 mag [updated 12/10/2020] (Mv=14.15, G-V=-1.70)
-=> adopt M_Ks(M5V) =  8.20 mag [updated 12/10/2020] (Mv=14.15, V-Ks=5.95)
-=> adopt M_J(M5V)  =  9.09 mag [updated 6/15/2024] (M_Ks=8.20, J-Ks=0.89)
 => adopt M_i(M5V)  = 11.73 mag [updated 6/15/2024] (M_J=9.09, i-J=2.64)
 => adopt M_r(M5V)  = 13.53 mag [updated 6/15/2024] (M_i=11.73, r-i=13.53)
 
@@ -594,6 +592,34 @@ M_G(M5V) =   13.218 ; SCR J1138-7721
 M_G(M5V) =   13.353 ; G 109-35                 
 M_G(M5V) =   13.360 ; G 157-77
 
+M_J(M5V) =    8.05 ; V*_AP_Col_ M5 plx=115.3982mas (pre-MS ~40 Myr)
+M_J(M5V) =    8.11 ; GJ_754.1_B_ M5V plx=95.1784mas
+M_J(M5V) =   8.36 ; L_273-106_ M5 plx=97.6598mas
+M_J(M5V) =   8.42 ; GJ_590_ M5e plx=99.1846mas
+M_J(M5V) =   8.52 ; GJ_3049_ M5 plx=97.6608mas
+M_J(M5V) =   8.64 ; GJ_51_ M5V plx=101.3724mas
+M_J(M5V) =   8.71 ; LSPM_J2146+3813_ M5V plx=141.8946mas
+M_J(M5V) =   8.73 ; L_403-34_ M5e plx=100.6025mas
+M_J(M5V) =   8.79 ; GJ_3988_ M5.0V plx=100.9274mas
+M_J(M5V) =   8.80 ; SIPS_J1141-3624_ M5 plx=115.0835mas
+M_J(M5V) =   8.89 ; GJ_866_C_ M5V plx=293.600mas
+M_J(M5V) =   8.91 ; PM_J20502-3424_ M5e plx=104.1310mas
+M_J(M5V) =   8.94 ; SCR_J1245-5506_ M5e plx=97.8091mas
+M_J(M5V) =   9.04 ; GJ_3976_ M5V plx=95.5199mas
+M_J(M5V) =   9.08 ; G_227-22_ M5.0V plx=128.3057mas
+M_J(M5V) =  9.09 ; M_Ks=8.20, J-Ks=0.89 
+M_J(M5V) =   9.11 ; GJ_3326_ M5V plx=98.2346mas
+M_J(M5V) =   9.12 ; GJ_1253_ M5.0 plx=104.4415mas
+M_J(M5V) =   9.39 ; GJ_905_ M5.0V plx=316.4812mas
+M_J(M5V) =   9.44 ; GJ_1028_ M5.0 plx=102.2827mas
+M_J(M5V) =   9.44 ; G_141-36_ M5.0V plx=131.2790mas
+M_J(M5V) =   9.46 ; GJ_3380_ M5.0V plx=104.9590mas
+M_J(M5V) =    9.71 ; GJ_1093_ M5.0Ve plx=128.9866mas
+M_J(M5V) =    9.78 ; SCR_J1138-7721_ M5.0V plx=119.3419mas
+M_J(M5V) =    9.87 ; GJ_1286_ M5.0Ve plx=139.3389mas
+M_J(M5V) =    10.08 ; GJ_3146_ M5.0Ve plx=109.9500mas
+=> adopt M_J(M5V) = 9.09 mag [updated 10/20/2024] (M_Ks=8.20, J-Ks=0.89)
+
 M_Ks(M5V) =  7.62 ; pri. stan. GJ 51
 M_Ks(M5V) =  8.09 ; exemplar GJ 3253
 M_Ks(M5V) =  8.13 ; V-Ks=5.95 => SchlaufmanLaughlin10 [Fe/H]=0
@@ -607,6 +633,7 @@ M_Ks(M5V) =  8.36 ; V-Ks=5.95 => EEM fit to MS data
 M_Ks(M5V) =   8.52 ; deprecated stan. GJ 852B 
 M_Ks(M5V) =  8.53 ; sec. stan. GJ 1156 
 M_Ks(M5V) =  8.66 ; exemplar GJ 3380
+=> adopt M_Ks(M5V) = 8.20 mag [updated 12/10/2020] (Mv=14.15, V-Ks=5.95)
 
 Teff(M5V) =   2826 K ; photometric Teff
 Teff(M5V) =  2870 K ; EEM N=19 Teffs

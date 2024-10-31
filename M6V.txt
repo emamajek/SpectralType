@@ -203,20 +203,20 @@ colors.]
 (J-Ks)(M6V) =  0.903 ; GJ_412_B_ M6.0V plx=203.8323mas
 (J-Ks)(M6V) =  0.911 ; GJ_3762_ M6V plx=70.8959mas
 (J-Ks)(M6V) =  0.927 ; LP_276-22_ M6.0V plx=84.0079mas
-(J-Ks)(M6V) = 0.932 ; smoothed fit M0-L0 
+(J-Ks)(M6V) = 0.932 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(M6V) =  0.942 ; LP_560-35_ M6V plx=78.5613mas
 (J-Ks)(M6V) =  0.943 ; LP_860-41_ M6.0V plx=94.3573mas
 (J-Ks)(M6V) =  0.945 ; GJ_1238_ M6V plx=94.0674mas
-(J-Ks)(M6V) = 0.946 ; J-H=0.600, H-Ks=0.346
 (J-Ks)(M6V) =  0.955 ; GJ_3959_ M6V plx=88.8227mas
 (J-Ks)(M6V) = 0.957 ; color-color trend for V-K=7.30
 (J-Ks)(M6V) = 0.971 ; exemplar SCR_J0630-7643_ M6Ve plx=114.11mas
 (J-Ks)(M6V) =  0.987 ; WOH_G_618_ M6.0 plx=87.6803mas
 (J-Ks)(M6V) = 0.990 ; Bessell88(Glass->2MASS)
 (J-Ks)(M6V) = 1.001 ; pri. stan. GJ 406 = Wolf 359 = LHS 36
+(J-Ks)(M6V) = 1.007 ; Sanghi24 M6V-T9V trend 
 (J-Ks)(M6V) =  1.007 ; GJ_316.1_ M6.0V plx=73.8573mas
 (J-Ks)(M6V) = 1.028 (+-0.017 sem,+-0.036 stdev) ; N=7 M6V Cruz03
-=> adopt (J-Ks)(M6V) = 0.95 [updated 11/20/2023]
+=> adopt (J-Ks)(M6V) = 0.932 [updated 10/24/2024]
 
 (Ks-L')(M6V) = 0.320 ; Dupuy12 polynomial
 
@@ -557,42 +557,40 @@ Mv(M6V) =   16.91 ; exemplar LHS 2314 = GJ 3624
 Mv(M6V) =   17.40 ; exemplar LHS_2026 
 => adopt Mv(M6V)   = 16.32 mag [updated 12/10/2020] (M_Ks=9.22, V-Ks=7.1)
 => adopt M_G(M6V)  = 14.26 mag [updated 12/10/2020] (Mv=16.32, G-V=-2.37)
-=> adopt M_Ks(M6V) =  9.22 mag [updated 12/10/2020] (Mv=16.32, V-Ks=7.10)
-=> adopt M_J(M6V)  = 10.17 mag [updated 6/15/2024]  (M_Ks=9.22, J-Ks=0.95]
 => adopt M_i(M6V)  = 13.07 mag [updated 6/15/2024]  (M_J=10.17, i-J=2.90)
 => adopt M_r(M6V)  = 15.07 mag [updated 6/15/2024]  (M_i=13.07, r-i=2.00)
 
-M_G(M6V) =   10.0201  ; CD-44_14334_ plx=63.3885mas M6V  (GaiaDR3)
-M_G(M6V) =   11.3233  ; V*_V1274_Her_ plx=60.9122mas M6V  (GaiaDR3)
-M_G(M6V) =   11.837   ; G_73-45_ plx=53.3520mas M6V  (GaiaDR3)
-M_G(M6V) =   11.8469  ; G_250-31A_ plx=87.0311mas M6V  (GaiaDR3)
-M_G(M6V) =  12.4215  ; LSPM_J2012+0112_ plx=50.153mas M6V  (GaiaDR3)
-M_G(M6V) =  12.4282  ; G_41-8_ plx=85.8043mas M6V  (GaiaDR3)
-M_G(M6V) =  12.5458  ; LP_550-135_ plx=51.4500mas M6V  (GaiaDR3)
-M_G(M6V) =  12.6416  ; LP_496-48_ plx=56.0762mas M6V  (GaiaDR3)
-M_G(M6V) =  12.67    ; G_180-60_ plx=88.8227mas M6V  (GaiaDR3)
-M_G(M6V) =  12.8295  ; LSPM_J0540+0854_ plx=63.7319mas M6V  (GaiaDR3)
-M_G(M6V) =  12.858   ; LP_322-628_ plx=70.8959mas M6V  (GaiaDR3)
-M_G(M6V) =  13.0216  ; LSPM_J0738+1829_ plx=54.4004mas M6V  (GaiaDR3)
-M_G(M6V) =  13.1285  ; LP_560-35_ plx=78.5613mas M6V  (GaiaDR3)
-M_G(M6V) =  13.2241  ; LP_592-10_ plx=53.0844mas M6V  (GaiaDR3)
-M_G(M6V) =  13.2476  ; G_261-6_ plx=94.0674mas M6V  (GaiaDR3)
-M_G(M6V) =  13.382   ; APMPM_J2359-6246_ plx=50.2692mas M6Ve  (GaiaDR3)
-M_G(M6V) = 13.5662  ; sec. stan. GJ 1245B = G 208-45 plx=214.5745mas M6V  (GaiaDR3)
-M_G(M6V) =  13.5778  ; LP_698-2_ plx=49.7147mas M6Ve  (GaiaDR3)
-M_G(M6V) =  13.6813  ; G_272-61B_ plx=373.8443mas M6V  (GaiaDR3)
-M_G(M6V) =  13.7101  ; LP_264-45_ plx=56.2907mas M6V  (GaiaDR3)
-M_G(M6V) =  13.7205  ; SCR_J0420-7005_ plx=60.5710mas M6Ve  (GaiaDR3)
-M_G(M6V) =  13.7263  ; LP_839-29_ plx=59.9593mas M6Ve  (GaiaDR3)
-M_G(M6V) =  13.7313  ; BD-08_2582B_ plx=69.0069mas M6Ve  (GaiaDR3)
-M_G(M6V) =  13.8407  ; LP_224-38_ plx=63.4232mas M6Ve  (GaiaDR3)
-M_G(M6V) =  13.8921  ; LP_759-25_ plx=51.0699mas M6Ve  (GaiaDR3)
-M_G(M6V) =  13.9158  ; LP_927-32_ plx=55.8955mas M6Ve  (GaiaDR3)
-M_G(M6V) =  13.9258  ; LP_322-288_ plx=48.4429mas M6V  (GaiaDR3)
-M_G(M6V) =  13.9663  ; LSR_J2000+3057_ plx=85.6758mas M6Ve  (GaiaDR3)
-M_G(M6V) =  13.9674  ; SCR_J0723-8015_ plx=61.7304mas M6V  (GaiaDR3)
-M_G(M6V) = 14.1491 ; ter. stan. GJ 283B = L745-46B (GaiaDR3)
-M_G(M6V) =   14.2934  ; LP_605-23_ plx=48.7983mas M6Ve  (GaiaDR3)
+M_G(M6V) =   10.02 ; CD-44_14334_ plx=63.3885mas M6V  (GaiaDR3)
+M_G(M6V) =   11.32 ; V*_V1274_Her_ plx=60.9122mas M6V  (GaiaDR3)
+M_G(M6V) =   11.84 ; G_73-45_ plx=53.3520mas M6V  (GaiaDR3)
+M_G(M6V) =   11.85 ; G_250-31A_ plx=87.0311mas M6V  (GaiaDR3)
+M_G(M6V) =  12.42 ; LSPM_J2012+0112_ plx=50.153mas M6V  (GaiaDR3)
+M_G(M6V) =  12.43 ; G_41-8_ plx=85.8043mas M6V  (GaiaDR3)
+M_G(M6V) =  12.55 ; LP_550-135_ plx=51.4500mas M6V  (GaiaDR3)
+M_G(M6V) =  12.64 ; LP_496-48_ plx=56.0762mas M6V  (GaiaDR3)
+M_G(M6V) =  12.67 ; G_180-60_ plx=88.8227mas M6V  (GaiaDR3)
+M_G(M6V) =  12.83 ; LSPM_J0540+0854_ plx=63.7319mas M6V  (GaiaDR3)
+M_G(M6V) =  12.86 ; LP_322-628_ plx=70.8959mas M6V  (GaiaDR3)
+M_G(M6V) =  13.02 ; LSPM_J0738+1829_ plx=54.4004mas M6V  (GaiaDR3)
+M_G(M6V) =  13.13 ; LP_560-35_ plx=78.5613mas M6V  (GaiaDR3)
+M_G(M6V) =  13.22 ; LP_592-10_ plx=53.0844mas M6V  (GaiaDR3)
+M_G(M6V) =  13.25 ; G_261-6_ plx=94.0674mas M6V  (GaiaDR3)
+M_G(M6V) =  13.38 ; APMPM_J2359-6246_ plx=50.2692mas M6Ve  (GaiaDR3)
+M_G(M6V) = 13.57 ; sec. stan. GJ 1245B = G 208-45 plx=214.5745mas M6V  (GaiaDR3)
+M_G(M6V) =  13.58 ; LP_698-2_ plx=49.7147mas M6Ve  (GaiaDR3)
+M_G(M6V) =  13.68 ; G_272-61B_ plx=373.8443mas M6V  (GaiaDR3)
+M_G(M6V) =  13.71 ; LP_264-45_ plx=56.2907mas M6V  (GaiaDR3)
+M_G(M6V) =  13.72 ; SCR_J0420-7005_ plx=60.5710mas M6Ve  (GaiaDR3)
+M_G(M6V) =  13.73 ; LP_839-29_ plx=59.9593mas M6Ve  (GaiaDR3)
+M_G(M6V) =  13.73 ; BD-08_2582B_ plx=69.0069mas M6Ve  (GaiaDR3)
+M_G(M6V) =  13.84 ; LP_224-38_ plx=63.4232mas M6Ve  (GaiaDR3)
+M_G(M6V) =  13.89 ; LP_759-25_ plx=51.0699mas M6Ve  (GaiaDR3)
+M_G(M6V) =  13.92 ; LP_927-32_ plx=55.8955mas M6Ve  (GaiaDR3)
+M_G(M6V) =  13.93 ; LP_322-288_ plx=48.4429mas M6V  (GaiaDR3)
+M_G(M6V) =  13.97 ; LSR_J2000+3057_ plx=85.6758mas M6Ve  (GaiaDR3)
+M_G(M6V) =  13.97 ; SCR_J0723-8015_ plx=61.7304mas M6V  (GaiaDR3)
+M_G(M6V) = 14.15 ; ter. stan. GJ 283B = L745-46B (GaiaDR3)
+M_G(M6V) =   14.29 ; LP_605-23_ plx=48.7983mas M6Ve  (GaiaDR3)
 => adopt M_G(M6V) = 13.58 [updated 8/20/2023] (need to vet further for standards+exemplars, seems to be
 different distribution compared to GaiaDR2 values below?)
 
@@ -612,6 +610,34 @@ M_G(M6V) =   14.320 ; PM J17189-4131 (single M6 classification) (GaiaDR2)
 M_G(M6V) =   14.33  ; exemplar LHS_2026 (GaiaDR2)
 M_G(M6V) =  14.430  ; ter. stan. LHS_5142  (GaiaDR2)
 
+M_J(M6V) =    9.20 ; GJ_3959_ M6V plx=88.8227mas
+M_J(M6V) =    9.27 ; UPM_J0151+4652_ M6 plx=66.1mas
+M_J(M6V) =    9.39 ; GJ_376_B_ M6.0V plx=66.9296mas
+M_J(M6V) =    9.44 ; GJ_1053_ M6 plx=82.6606mas
+M_J(M6V) =    9.48 ; GJ_3762_ M6V plx=70.8959mas
+M_J(M6V) =    9.58 ; LP_560-35_ M6V plx=78.5613mas
+M_J(M6V) =    9.75 ; BD-08_2582B_ M6Ve plx=69.0069mas
+M_J(M6V) =    9.78 ; GJ_1238_ M6V plx=94.0674mas
+M_J(M6V) =    9.93 ; GJ_1245_B_ M6V plx=214.5745mas
+M_J(M6V) =   10.06 ; WOH_G_618_ M6.0 plx=87.6803mas
+M_J(M6V) =   10.08 ; SCR_J0838-5855_ M6e plx=89.9929mas
+M_J(M6V) =   10.10 ; GAT_1367_ M6.0V plx=107.3873mas
+M_J(M6V) =   10.13 ; GJ_3208_ M6V plx=67.0684mas
+M_J(M6V) =   10.13 ; LP_860-41_ M6.0V plx=94.3573mas
+M_J(M6V) =   10.14 ; SCR_J1855-6914_ M6e plx=86.1409mas
+M_J(M6V) =   10.15 ; LP_276-22_ M6.0V plx=84.0079mas
+M_J(M6V) =  10.17 ; M_Ks=9.22, J-Ks=0.95 
+M_J(M6V) =   10.18 ; GJ_406_ M6 plx=415.1794mas
+M_J(M6V) =   10.25 ; GJ_3181_ M6V plx=71.6048mas
+M_J(M6V) =   10.29 ; GJ_412_B_ M6.0V plx=203.8323mas
+M_J(M6V) =   10.30 ; LP_911-56_ M6 plx=73.4418mas
+M_J(M6V) =   10.34 ; LSR_J2000+3057_ M6Ve plx=85.6758mas
+M_J(M6V) =   10.35 ; PM_J17189-4131_ M6 plx=88.6137mas
+M_J(M6V) =   10.39 ; GJ_9272_ M6.0V plx=73.8573mas
+M_J(M6V) =   10.48 ; NAME_Teegarden's_Star_ M6 plx=260.9884mas
+M_J(M6V) =   10.56 ; APMPM_J2330-4737_ M6e plx=73.5992mas
+=> adopt M_J(M6V) = 10.17 mag [updated 10/20/2024]  (M_Ks=9.22, J-Ks=0.95]
+
 M_Ks(M6V) =   9.05  ; sec. stan. GJ1245B
 M_Ks(M6V) =   9.15  ; ter. stan. GJ3146
 M_Ks(M6V) =   9.16  ; pri. stan. GJ406/Wolf359
@@ -625,6 +651,7 @@ M_Ks(M6V) =   9.388 ; Dupuy12 polynomial
 M_Ks(M6V) =   9.48  ; ter. stan. LHS 5142
 M_Ks(M6V) =   9.48  ; ter. stan. GJ 283B 
 M_Ks(M6V) =   9.60  ; exemplar LHS 2026
+=> adopt M_Ks(M6V) = 9.22 mag [updated 12/10/2020] (Mv=16.32, V-Ks=7.10)
 
 Teff(M6V) =    3190 K ; Bertone04[NextGen]
 Teff(M6V) =    3050 K ; Schmidt-Kaler82
@@ -647,7 +674,8 @@ Teff(M6V) =    2800 K ; Habets81
 Teff(M6V) =  2800 K ; Rajpurohit13(N=2)
 Teff(M6V) =  2800 K ; Cifuentes20 <Teff> for CARMENES M6V(N=16)
 Teff(M6V) =  2800 K ; empirical L-R relation, for logL=-3.012
-Teff(M6V) =  2777 K ; ter. stan. LHS 5142 
+Teff(M6V) =  2777 K ; ter. stan. LHS 5142
+Teff(M6V) = 2754 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(M6V) =    2750 K ; Bessell79 (Blackbody Teffs from Veeder74)
 Teff(M6V) =  2758 K ; EEM N=34 Teffs
 Teff(M6V) =   2520 K ; ter. stan. GJ 283B (single Teff calculated from V-K)
@@ -655,6 +683,7 @@ Teff(M6V) =   2520 K ; ter. stan. GJ 283B (single Teff calculated from V-K)
 
 BC_G(M6V) = -1.572+-0.178 ; Cifuentes20
 
+BC_J(M6V) =  1.994 ; Sanghi24 M6V-T9V trend
 BC_J(M6V) =  2.062+-0.066 ; Cifuentes20
 
 BCv(M6V) =   -2.32 mag  ; Bertone04[NextGen]
@@ -671,16 +700,17 @@ BCv(M6V) =   -4.438 mag ; pri. stan. GJ 406/LHS 36 (Golimowski04; using BC_Ks & 
 BCv(M6V) =   -4.487 mag ; pri. stan. GJ 406, using Pavlenko06 below
 => adopt BCv(M6V) = -4.13 mag [updated 11/3/2019; BC_Ks=2.97, V-Ks=7.10]
 
-BC_Ks(M6V)= 3.042 mag ; pri. stan. Wolf 359(calc. Rabus19)
-BC_K(M6V) =  3.034 mag ; Golimowski04(SpT function)
-BC_K(M6V) = 3.01  mag ; pri. stan. Wolf359/LHS 36 (Golimowski04)
-BC_K(M6V) = 3.010 mag ; pri. stan. Wolf359 (calc. using Mann15)
-BC_K(M6V) =  2.97  mag ; LHS 36 (Leggett01)
-BC_K(M6V) = 2.968 mag ; Mann15(V-J=6.154)
-BC_K(M6V) =  2.946 mag ; Leggett01 polynomial for I-K=3.186
-BC_K(M6V) = 2.936 mag ; pri. stan. Wolf359 (calc using Pavlenko06)
-BC_K(M6V) = 2.870 mag ; sec. stan. GJ 1245B (calc using Mann15)
-BC_K(M6V) =  2.855 mag ; Leggett01 polynomial for J-K=0.957
+BC_Ks(M6V) = 3.042 mag ; pri. stan. Wolf 359(calc. Rabus19)
+BC_K(M6V)  =  3.034 mag ; Golimowski04(SpT function)
+BC_K(M6V)  = 3.01  mag ; pri. stan. Wolf359/LHS 36 (Golimowski04)
+BC_K(M6V)  = 3.010 mag ; pri. stan. Wolf359 (calc. using Mann15)
+BC_Ks(M6V) = 3.001 mag ; Sanghi24 
+BC_K(M6V)  =  2.97  mag ; LHS 36 (Leggett01)
+BC_K(M6V)  = 2.968 mag ; Mann15(V-J=6.154)
+BC_K(M6V)  =  2.946 mag ; Leggett01 polynomial for I-K=3.186
+BC_K(M6V)  = 2.936 mag ; pri. stan. Wolf359 (calc using Pavlenko06)
+BC_K(M6V)  = 2.870 mag ; sec. stan. GJ 1245B (calc using Mann15)
+BC_K(M6V)  =  2.855 mag ; Leggett01 polynomial for J-K=0.957
 => adopt BC_Ks(M6V) = 2.97 mag [last updated 11/3/2019]
 
 logL(M6V) =  -3.03+-0.00 ; pri. stan. Wolf 359 (Filipazzo15)

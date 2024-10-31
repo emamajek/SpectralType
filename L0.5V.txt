@@ -7,6 +7,7 @@ Kirkpatrick09(GrayCobrally): 2MASS J07464256+2000321 - L0.5V (primary optical st
 Teff(L0.5V) = 2257 K ; Dupuy17(Lyon model scale)
 Teff(L0.5V) = 2250 K ; Cifuentes20 <Teff> for CARMENES L0V(N=7)
 Teff(L0.5V) = 2218 K ; Dupuy17(SaumonMarley08 scale)
+Teff(L0.5V) = 2180 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(L0.5V) = 2175 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(L0.5V) = 2166 K ; Kirkpatrick20 Table 13 polynomial
 => adopt Teff(L0.5V) = 2220 K (logT = 3.346) [updated 1/15/2021]
@@ -46,15 +47,43 @@ Teff(L0.5V) = 2166 K ; Kirkpatrick20 Table 13 polynomial
 (V-Ic)(L0.5V) =  5.27 ; 2M0451-3402 (Dieterich14)
 => adopt (V-Ic)(L0.5V) = 5.05 [updated 9/15/2023; V-Rc=2.65, R-Ic=2.4]
 
-(J-H)(L0.5V)   = 0.780 (+-0.14 rms); SIMBAD d<30pc trend for Ldwarfs
+(J-H)(L0.5V) =   0.702 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas
+(J-H)(L0.5V) =   0.715 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
+(J-H)(L0.5V) =   0.737 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas
+(J-H)(L0.5V) =   0.759 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas
+(J-H)(L0.5V) =  0.780 (+-0.14 rms); SIMBAD d<30pc trend for Ldwarfs
+(J-H)(L0.5V) =   0.788 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas
+(J-H)(L0.5V) =   0.809 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas
+(J-H)(L0.5V) =   0.814 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas
 => adopt (J-H)(L0.5V) = 0.78 [updated 8/6/2020]
 
-(H-Ks)(L0.5V)  = 0.524 ; trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L0.5V) =   0.430 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas
+(H-Ks)(L0.5V) =   0.457 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas
+(H-Ks)(L0.5V) =   0.499 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas
+(H-Ks)(L0.5V) =  0.524 ; trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L0.5V) =   0.532 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
+(H-Ks)(L0.5V) =   0.540 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas
+(H-Ks)(L0.5V) =   0.550 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas
+(H-Ks)(L0.5V) =   0.615 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas
 => adopt (H-Ks)(L0.5V) = 0.52 [updated 8/6/2020]
 
+(J-Ks)(L0.5V) =   1.132 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas
+(J-Ks)(L0.5V) =   1.216 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas
+(J-Ks)(L0.5V) =   1.247 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
+(J-Ks)(L0.5V) =  1.273 ; Sanghi24 M6V-T9V trend
+(J-Ks)(L0.5V) =   1.287 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas
+(J-Ks)(L0.5V) =   1.308 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas
+(J-Ks)(L0.5V) =   1.354 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas
+(J-Ks)(L0.5V) =   1.403 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas
+(J-Ks)(L0.5V) =  1.357 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
+=> adopt (J-Ks)(L0.5V) = 1.357 [updated 10/24/2024]
+
 (Bp-Rp)(L0.5V) = 5.0518  ; pri. stan. 2MASS J07464256+2000321
+
 (Bp-G)(L0.5V)  = 3.3703  ; pri. stan. 2MASS J07464256+2000321
+
 (G-Rp)(L0.5V)  = 1.6815  ; pri. stan. 2MASS J07464256+2000321
+
 (G-V)(L0.5V)   = -3.2929 ; pri. stan. 2MASS J07464256+2000321
 
 (g-r)(L0.5V) =  1.791 ; 2MASS_J09331118-0212144_ plx=20.9638mas L0.5
@@ -90,20 +119,38 @@ Mv(L0.5V) =  19.61 ; 2MA0451-3402 (Dieterich14)
 M_G(L0.5V) = 16.33 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
 M_G(L0.5V) = 16.65 ; trend for d<20pc late Ms/early Ls
 
-M_J(L0.5V) = 11.927 ; EEM fit to L/T dwarfs d<25pc
+M_J(L0.5V) =   11.81 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas
+M_J(L0.5V) =   11.82 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas
+M_J(L0.5V) =   11.85 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
+M_J(L0.5V) =   11.92 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas
+M_J(L0.5V) =  11.927 ; EEM fit to L/T dwarfs d<25pc
+M_J(L0.5V) =   11.96 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas
+M_J(L0.5V) =   12.01 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas
+M_J(L0.5V) =   12.35 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas
 
-M_Ks(L0.5V) =  10.05 ; 2MA1705-0516AB (Dieterich14)
-M_Ks(L0.5V) =  10.06 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
-M_Ks(L0.5V) = 10.60 ; trend to L/T dwarfs in notes (1/2021)
-M_Ks(L0.5V) = 10.65 ; fit to SIMBAD L/T dwarfs d<25pc (12/2020)
-M_Ks(L0.5V) =  10.67 ; 2MA0428-2253 (Dieterich14)
-M_Ks(L0.5V) = 10.73 ; EEM fit to Dieterich14 for V-Ks=9.60
-M_Ks(L0.5V) =  10.73 ; 2MA0451-3402 (Dieterich14)
-=> adopt M_Ks(L0.5V) = 10.65 [last updated 12/30/2020]
 
-BC_G(L0.5V) = -2.746+-0.128 ; Cifuentes20
+M_Ks(L0.5V) =   10.05 ; 2MA1705-0516AB (Dieterich14)
+M_Ks(L0.5V) =   10.06 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
+M_Ks(L0.5V) =  10.60 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L0.5V) =   10.60 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
+M_Ks(L0.5V) =   10.61 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas
+M_Ks(L0.5V) =   10.61 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas
+M_Ks(L0.5V) =   10.61 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas
+M_Ks(L0.5V) =  10.65 ; fit to SIMBAD L/T dwarfs d<25pc (12/2020)
+M_Ks(L0.5V) =   10.67 ; 2MA0428-2253 (Dieterich14)
+M_Ks(L0.5V) =   10.68 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas
+M_Ks(L0.5V) =  10.73 ; EEM fit to Dieterich14 for V-Ks=9.60
+M_Ks(L0.5V) =   10.73 ; 2MA0451-3402 (Dieterich14)
+M_Ks(L0.5V) =   10.73 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas
+M_Ks(L0.5V) =   10.94 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas
+=> adopt M_Ks(L0.5V) = 10.65 [updated 12/30/2020]
 
-BC_J(L0.5V) =  2.024+-0.081 ; Cifuentes20 
+BC_G(L0.5V) = -2.746 +-0.128 ; Cifuentes20
+
+BC_J(L0.5V) =  1.941 ; Sanghi24 M6V-T9V trend
+BC_J(L0.5V) =  2.024 +-0.081 ; Cifuentes20
+
+BC_Ks(L0.5V) = 3.213 ; Sanghi24 
 
 # Primary Standard
 

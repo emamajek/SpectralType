@@ -21,6 +21,7 @@ Teff(L3V) = 1839 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(L3V) = 1822 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(L3V) = 1809 K ; Kirkpatrick21 (median for L3 near-IR types; N=5)
 Teff(L3V) = 1804 K ; Kirkpatrick21 (median for L3 optical types; N=12)
+Teff(L3V) = 1784 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(L3V) = 1775 K ; Cifuentes20 <Teff> for CARMENES L3V(N=6)
 => adopt Teff(L3V) = 1920 K (logT = 3.283) [updated 4/17/2020]
 
@@ -112,6 +113,7 @@ Teff(L3V) = 1775 K ; Cifuentes20 <Teff> for CARMENES L3V(N=6)
 (J-Ks)(L3V) =  1.505 ; 2MASS_J15345325+1219495_ plx=50.0827mas L3
 (J-Ks)(L3V) =   1.520 ; 2MASS_J23072655+8753294_ plx=32.8134mas L3:
 (J-Ks)(L3V) =  1.52 (+-0.21 rms; N=46) ; Schmidt14
+(J-Ks)(L3V) =  1.549 ; Sanghi24 M6V-T9V trend
 (J-Ks)(L3V) =   1.585 ; 2MASS_J22355244+0418563_ plx=35.4292mas L3
 (J-Ks)(L3V) =  1.596 ; 2MASS_J04013766+2849529_ plx=80.3804mas L3
 (J-Ks)(L3V) =  1.60 (+-0.02 sem,+-0.22 stdev) ; Schmidt10 N=83
@@ -136,7 +138,7 @@ Teff(L3V) = 1775 K ; Cifuentes20 <Teff> for CARMENES L3V(N=6)
 (J-Ks)(L3V) =   1.810 ; 2MASS_J11000965+4957470_ plx=39.2773mas L3
 (J-Ks)(L3V) =   1.830 ; 2MASS_J11223624-3916054_ plx=31.4804mas L3
 (J-Ks)(L3V) =   2.053 ; 2MASS_J10042066+5022596_ plx=46.1952mas L3beta
-=> adopt (J-Ks)(L3V) = 1.6 [updated 6/29/2024; M_J=13.0, M_Ks=11.4]
+=> adopt (J-Ks)(L3V) = 1.60 [updated 10/24/2024; M_J=13.0, M_Ks=11.4]
 
 (u-g)(L3V) = 0.477 +-0.561 ; pri. stan. 2MASS J15065441+1321060 (SDSS DR12) 
 
@@ -341,70 +343,51 @@ M_G(L3V) =   18.58 ; 2MASS_J05265973-5026216_ plx=37.9195mas L3 (GaiaDR3)
 M_G(L3V) =    19.08 ; 2MASS_J15345325+1219495_ plx=50.0827mas L3 (GaiaDR3)
 => adopt M_G(L3V) = 18.1 [adopted 6/29/2024; M_Ks=11.4, G-Ks=6.7]
 
-M_J(L3V) =   12.27 ; 2MASS_J23072655+8753294_ plx=32.8134mas L3:
-M_J(L3V) =   12.33 ; 2MASS_J07171626+5705430_ plx=34.5471mas L3
-M_J(L3V) =  12.664 ; Reyle18 polynomial
-M_J(L3V) =   12.67 ; 2MASS_J06322402-5010349_ plx=33.9446mas L3
-M_J(L3V) =   12.68 ; 2MASS_J15124058+3403501_ plx=33.6896mas L3
-M_J(L3V) =   12.74 ; 2MASS_J04532647-1751543_ plx=33.064mas L3
-M_J(L3V) =   12.74 ; 2MASS_J02511490-0352459_ plx=86.2932mas L3
-M_J(L3V) =  12.776 ; EEM fit to L/T dwarfs d<25pc
-M_J(L3V) =   12.86 ; 2MASS_J10584787-1548172_ plx=55.0985mas L3V
-M_J(L3V) =   12.94 ; 2MASS_J04013766+2849529_ plx=80.3804mas L3
-M_J(L3V) =   12.99 ; 2MASS_J16452207+3004071_ plx=36.3274mas L3
-M_J(L3V) = 13.0 ; M_Ks=11.4, J-Ks=1.6 
-M_J(L3V) =  13.023 +-0.024 ; pri. stan. 2MASS J15065441+1321060
-M_J(L3V) =   13.04 ; 2MASS_J16154416+3559005_ plx=50.1573mas L3V
-M_J(L3V) =   13.08 ; 2MASS_J23245065-5817554_ plx=31.809mas L3
-M_J(L3V) =   13.10 ; 2MASS_J10132597-7842551_ plx=71.0113mas L3
-M_J(L3V) =   13.10 ; 2MASS_J06231714+2631320_ plx=48.6117mas L3pec
-M_J(L3V) =   13.12 ; 2MASS_J22355244+0418563_ plx=35.4292mas L3
-M_J(L3V) =   13.15 ; 2MASS_J10042066+5022596_ plx=46.1952mas L3beta
-M_J(L3V) =   13.17 ; 2MASS_J22425317+2542573_ plx=46.9381mas L3
-M_J(L3V) =   13.19 ; 2MASS_J08564793+2235182_ plx=31.8101mas L3
-M_J(L3V) =   13.25 ; 2MASS_J11000965+4957470_ plx=39.2773mas L3
-M_J(L3V) =   13.31 ; 2MASS_J05265973-5026216_ plx=37.9195mas L3
-M_J(L3V) =   13.83 ; 2MASS_J15345325+1219495_ plx=50.0827mas L3
-=> adopt M_J(L3V) = 13.0 [updated 6/29/2024; M_Ks=11.4, J-Ks=1.6]
+M_J(L3V) =    12.664 ; Reyle18 polynomial
+M_J(L3V) =   12.74 ; 2MASS_J02511490-0352459_ L3 plx=86.2932mas
+M_J(L3V) =    12.776 ; EEM fit to L/T dwarfs d<25pc
+M_J(L3V) =   12.86 ; SIPS_J1058-1548_ L3V plx=55.0985mas
+M_J(L3V) =   12.94 ; 2MASS_J04013766+2849529_ L3 plx=80.3804mas
+M_J(L3V) =  13.0 ; M_Ks=11.4, J-Ks=1.6 
+M_J(L3V) =  13.023 +-0.024 ; pri. stan. 2MASSW_J1506544+132106_ L3 plx=85.4250mas
+M_J(L3V) =   13.04 ; 2MASSW_J1615441+355900_ L3V plx=50.1573mas
+M_J(L3V) =   13.10 ; 2MASS_J06231714+2631320_ L3pec plx=48.6117mas
+M_J(L3V) =   13.10 ; 2MASS_J10132597-7842551_ L3 plx=71.0113mas
+M_J(L3V) =   13.17 ; 2MASSI_J2242531+254257_ L3 plx=46.9381mas
+M_J(L3V) =    13.83 ; 2MASS_J15345325+1219495_ L3 plx=50.0827mas
+=> adopt M_J(L3V) = 13.00 [updated 6/29/2024; M_Ks=11.4, J-Ks=1.6]
 
 M_H(L3V) = 11.809 ; Reyle18 polynomial
 
-M_Ks(L3V) =    10.64 ; 2MASS_J07171626+5705430_ plx=34.5471mas L3
-M_Ks(L3V) =    10.75 ; 2MASS_J23072655+8753294_ plx=32.8134mas L3:
-M_Ks(L3V) =   10.99 ; 2MASS_J06322402-5010349_ plx=33.9446mas L3
-M_Ks(L3V) =   11.05 ; 2MASS_J15124058+3403501_ plx=33.6896mas L3
-M_Ks(L3V) =   11.06 ; 2MASS_J04532647-1751543_ plx=33.064mas L3
-M_Ks(L3V) =   11.10 ; 2MASS_J10042066+5022596_ plx=46.1952mas L3beta
 M_Ks(L3V) =    11.18   ; EEM fit to Dieterich14 data for V-Ks=10.4
 M_Ks(L3V) =    11.233  ; Reyle18 polynomial
-M_Ks(L3V) =   11.24 ; 2MASS_J10584787-1548172_ plx=55.0985mas L3V
-M_Ks(L3V) =    11.26   ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
-M_Ks(L3V) =    11.28   ; trend to L/T dwarfs in notes (1/2021)
-M_Ks(L3V) =   11.29 ; 2MASS_J10132597-7842551_ plx=71.0113mas L3
-M_Ks(L3V) =   11.30 ; 2MASS_J06231714+2631320_ plx=48.6117mas L3pec
-M_Ks(L3V) =   11.34 ; 2MASS_J02511490-0352459_ plx=86.2932mas L3
-M_Ks(L3V) =   11.34 ; 2MASS_J04013766+2849529_ plx=80.3804mas L3
-M_Ks(L3V) =   11.36 ; 2MASS_J23245065-5817554_ plx=31.809mas L3
-M_Ks(L3V) =   11.39 ; 2MASS_J16452207+3004071_ plx=36.3274mas L3
-M_Ks(L3V) =  11.399 +-0.020 ; pri. stan. 2MASS J15065441+1321060
-M_Ks(L3V) =   11.41 ; 2MASS_J22425317+2542573_ plx=46.9381mas L3
-M_Ks(L3V) =  11.41   ; median for the 7 L3s d<25pc in SIMBAD
-M_Ks(L3V) =   11.44 ; 2MASS_J16154416+3559005_ plx=50.1573mas L3V
-M_Ks(L3V) =   11.44 ; 2MASS_J11000965+4957470_ plx=39.2773mas L3
-M_Ks(L3V) =   11.46 ; 2MASS_J08564793+2235182_ plx=31.8101mas L3
-M_Ks(L3V) =   11.53 ; 2MASS_J22355244+0418563_ plx=35.4292mas L3
-M_Ks(L3V) =   11.53 ; 2MASS_J05265973-5026216_ plx=37.9195mas L3
-M_Ks(L3V) =    12.33 ; 2MASS_J15345325+1219495_ plx=50.0827mas L3
+M_Ks(L3V) =   11.24 ; SIPS_J1058-1548_ L3V plx=55.0985mas
+M_Ks(L3V) =    11.26 ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
+M_Ks(L3V) =    11.28 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L3V) =   11.29 ; 2MASS_J10132597-7842551_ L3 plx=71.0113mas
+M_Ks(L3V) =   11.30 ; 2MASS_J06231714+2631320_ L3pec plx=48.6117mas
+M_Ks(L3V) =   11.34 ; 2MASS_J02511490-0352459_ L3 plx=86.2932mas
+M_Ks(L3V) =   11.34 ; 2MASS_J04013766+2849529_ L3 plx=80.3804mas
+M_Ks(L3V) =  11.37  ; median for the 9 L3s d<25pc in SIMBAD
+M_Ks(L3V) =  11.40 ; pri. stan. 2MASSW_J1506544+132106_ L3 plx=85.4250mas
+M_Ks(L3V) =   11.41 ; 2MASSI_J2242531+254257_ L3 plx=46.9381mas
+M_Ks(L3V) =   11.44 ; 2MASSW_J1615441+355900_ L3V plx=50.1573mas
+M_Ks(L3V) =   12.33 ; 2MASS_J15345325+1219495_ L3 plx=50.0827mas
 => adopt M_Ks(L3V) = 11.4 [updated 6/29/2024]
 
 Mv(L3V) = 21.5 ; V-K=10.1, M_Ks=11.4
 => adopt Mv(L3V) = 21.5 [updated 12/30/2020]
 
-BC_K(L3V)  =  3.334 mag ; Golimowski04
-BC_Ks(L3V) = 3.310 mag ; Looper08 
-BC_Ks(L3V) = 3.298 mag ; Filipazzo15 (field)
+BC_J(L3V) = 1.767 ; pri. stan. 2MASS J15065441+1321060 (calc. below)
+BC_J(L3V) = 1.775 ; Sanghi24 M6V-T9V trend
+
 BC_Ks(L3V) = 3.27  mag ; Schmidt14 (rms = 0.12 mag)
-=> adopt BC_Ks(L3V) = 3.30 mag [updated 11/1/2019]
+BC_Ks(L3V) = 3.298 mag ; Filipazzo15 (field)
+BC_Ks(L3V) = 3.310 mag ; Looper08
+BC_Ks(L3V) = 3.324 mag ; Sanghi23
+BC_K(L3V)  =  3.334 mag ; Golimowski04
+BC_Ks(L3V) = 3.391 mag ; pri. stan. 2MASS J15065441+1321060 (calc. below)
+=> adopt BC_Ks(L3V) = 3.32 mag [updated 10/24/2024]
 
 logL(L3V) = -3.873 ; Cifuentes23
 logL(L3V) = -3.984 ; M_Ks=11.40, BC_Ks=3.30, Mbol=14.70
@@ -438,7 +421,9 @@ Mass(L3V) = 0.093+-0.014 Msun ; Cifuentes23
    J150653.93+132105.9 with this L3 (and it is flagged 'clean').
    Teffs: 1787+-56K(Sarro23), 1800+-100K(Gagne15),
    2004+-75K(Kirkpatrick21), 2200K(Blake10) => adopt Teff=1900(+-~100)K.
-   logL=-4.02+-0.02(Sanghi23).
+   logL=-4.02+-0.02(Sanghi23) => Mbol=14.79(Sanghi23/IAU2015scale).
+   BC_J = Mbol - M_J = 14.79(Sanghi23) - 13.023(2MASS,GaiaDR3) = 1.767.
+   BC_Ks = Mbol - M_Ks = 14.79(Sanghi23) - 11.399(2MASS,GaiaDR3) = 3.391.
 
         G = 18.3618+-0.0040 ; pri. stan. 2MASS J15065441+1321060
   (Bp-Rp)(L3V) =  4.8487 ; pri. stan. 2MASS J15065441+1321060
@@ -447,6 +432,7 @@ Mass(L3V) = 0.093+-0.014 Msun ; Cifuentes23
     (G-J)(L3V) =   4.997 +-0.023 ; pri. stan. 2MASS J15065441+1321060
       M_G(L3V) =  18.020 +-0.006 ; pri. stan. 2MASS J15065441+1321060
       M_J(L3V) =  13.023 +-0.024 ; pri. stan. 2MASS J15065441+1321060
+      M_H(L3V) =  12.038         ; pri. stan. 2MASS J15065441+1321060 
      M_Ks(L3V) =  11.399 +-0.020 ; pri. stan. 2MASS J15065441+1321060
    (G-Ks)(L3V) =   6.621 +-0.019 ; pri. stan. 2MASS J15065441+1321060
     (J-H)(L3V) =   0.985 +-0.031 ; pri. stan. 2MASS J15065441+1321060

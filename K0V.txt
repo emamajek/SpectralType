@@ -427,17 +427,17 @@ logL(K0V) = -0.324 dex ; Mv=5.74, BCv=-0.19 => Mbol = 5.55
 Rad(K0V) =   0.9520 +-0.0210 Rsun ; HD 173701 (Boyajian13)
 Rad(K0V) =   0.9470 +-0.0320 Rsun ; HD 3651 (Boyajian13)
 Rad(K0V) =   0.9434 +-0.0101 Rsun ; HD 75732 (Boyajian13)
-Rad(K0V) =   0.879 Rsun ; Challouf14 calibration for Mv=5.78, M_Ks=3.827
-Rad(K0V) =   0.873 +- 0.024 Rsun ; ecl. binary HS Aur B (Popper86) 
+Rad(K0V) = 0.879 Rsun ; Challouf14 calibration for Mv=5.78, M_Ks=3.827
+Rad(K0V) =   0.873 +-0.024 Rsun ; ecl. binary HS Aur B (Popper86) 
 Rad(K0V) =  0.8329 +-0.0029 Rsun. Rsun ; deprecated stan. 70 Oph A (see below) ([Fe/H]=+0.06)
 Rad(K0V) =  0.824 +- 0.019 Rsun ; exemplar HD 10780 ([Fe/H]=+0.03) (see below)
 Rad(K0V) = 0.820 Rsun ; Teff=5290K, logL=-0.324
 Rad(K0V) =  0.8101 +-0.0045 Rsun ; HD 10476 (Boyajian13)
-Rad(K0V) =  0.7956 +- 0.0076 Rsun ; Boyajian12b (N=5)
+Rad(K0V) =  0.7956 +-0.0076 Rsun ; Boyajian12b (N=5)
 Rad(K0V) =  0.7891 +-0.0144 Rsun ; HD 158633 (Boyajian13)
-Rad(K0V) =  0.778 +- 0.008 Rsun ; pri. stan. sig Dra (Yee17) ([Fe/H]=-0.21)
+Rad(K0V) =  0.778 +-0.008 Rsun ; pri. stan. sig Dra (Yee17) ([Fe/H]=-0.21)
 Rad(K0V) =  0.772 Rsun ; exemplar HD 149661 = 12 Oph
-Rad(K0V) =  0.759 +- 0.012 Rsun ; exemplar HD 149661 = 12 Oph (Yee17)
+Rad(K0V) =  0.759 +-0.012 Rsun ; exemplar HD 149661 = 12 Oph (Yee17)
 Rad(K0V) =   0.753 +-0.01 Rsun ; non-standard Kepler-444 ([Fe/H]~-0.5, 11Gyr)
 => adopt Rad(K0V) = 0.813 Rsun [updated 8/29/2020]
 [EEM 9/1/2023: note that the radius for 70 Oph A is probably above that for the K0V
@@ -452,23 +452,25 @@ Mass(K0V) = 0.865 Msun ; exemplar HD 149661 = 12 Oph = GJ 631 ([Fe/H]=+0.03)
 Mass(K0V) =  0.867 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.324)
 Mass(K0V) =  0.868 Msun ; Eker15 calibration for logL=-0.324
 Mass(K0V) = 0.861 +-0.019 Msun ; trend for standards+exemplars for [Fe/H]=0.0
+Mass(K0V) = 0.859 Msun ; (M/Msun)=(L/Lsun)^0.2033 (G2V-K5V fit 9/24/2024) for logL=-0.324
 Mass(K0V) = 0.855 Msun ; Fernandes21 calibration for logL=-0.324
 Mass(K0V) = 0.84 +-0.02 Msun ; pri. stan. HD 185144 = sig Dra = GJ 764 ([Fe/H]=-0.21)
 Mass(K0V) = 0.815 Msun ; exemplar HD 118972 = GJ 1175 = HIP 66765 ([Fe/H]=-0.03)
 Mass(K0V) =  0.781 Msun ; Habets81
 Mass(K0V) = 0.777 Msun ; exemplar HD 100623 = 20 Crt = GJ 432A ([Fe/H]=-0.40) 
 Mass(K0V) =  0.754+-0.03 Msun ; non-standard Kepler-444 ([Fe/H]~-0.5, 11Gyr)
-=> adopt Mass(K0V) = 0.86 Msun [last updated 10/6/2023]
+=> adopt Mass(K0V) = 0.859 Msun [updated 9/24/2024]
 [EEM 10/6/2023: fit among standards and exemplars: Mass(Msun) = 0.8612 + 0.19409*[Fe/H] (rms=0.019 Msun)]
+[EEM 9/24/2024: good agreement among measured masses of standards & exemplars and M-L trend]
 
-logg(K0V) =   4.40+-0.02 ; exemplar K0IV-V 55 Cnc = HD 75732
+logg(K0V) =   4.40 +-0.02 ; exemplar K0IV-V 55 Cnc = HD 75732
 logg(K0V) = 4.484 ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5290K (see G0V.txt)
-logg(K0V) =  4.50+-0.20 ; sec. stan. HD 224618
-logg(K0V) =   4.51+-0.05 ; exemplar HD 284253 = Cl Melotte 25 21 
-logg(K0V) =  4.52+-0.02 ; pri. stan. sig Dra 
-logg(K0V) =   4.52+-0.02 ; exemplar HD 149661 = 12 Oph
+logg(K0V) =  4.50 +-0.20 ; sec. stan. HD 224618
+logg(K0V) =   4.51 +-0.05 ; exemplar HD 284253 = Cl Melotte 25 21 
+logg(K0V) =  4.52 +-0.02 ; pri. stan. sig Dra 
+logg(K0V) =   4.52 +-0.02 ; exemplar HD 149661 = 12 Oph
 logg(K0V) = 4.56       ; M=0.88Msun, R=0.813Rsun
-logg(K0V) =  4.60+-0.04 ; exemplar 20 Crt = HR 4458
+logg(K0V) =  4.60 +-0.04 ; exemplar 20 Crt = HR 4458
 => adopt logg(K0V) = 4.51 [updated 9/15/2023]
 
 # Anchor Standard

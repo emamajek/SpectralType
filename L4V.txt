@@ -21,6 +21,7 @@ Teff(L4V) =  1737 K ; Dupuy17(SaumonMarley08 scale)
 Teff(L4V) =  1733 +-90 K ; Cifuentes23
 Teff(L4V) =  1722 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(L4V) =  1695 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L4V) = 1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 => adopt Teff(L4V) = 1750 K (logT = 3.243) [updated 6/30/2024]
 
 (V-Rc)(L4V) = 3.24 ; 2MASS J0500+0330 (RECONS)
@@ -85,7 +86,7 @@ Teff(L4V) =  1695 K ; Filippazzo15 calibration (M6V-T9V)
 (H-Ks)(L4V) =   0.795 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
 (H-Ks)(L4V) =    0.798 ; 2MASS_J00332386-1521309_ plx=43.5089mas L4beta
 (H-Ks)(L4V) =    1.026 ; 2MASS_J16154255+4953211_ plx=32mas L4gamma
-=> adopt (H-Ks)(L4V) = 0.63 [last updated 8/6/2020]
+=> adopt (H-Ks)(L4V) = 0.63 [updated 8/6/2020]
 
 (J-Ks)(L4V) =   1.430 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4
 (J-Ks)(L4V) =   1.440 ; 2MASS_J19360187-5502322_ plx=43.1217mas L4
@@ -95,8 +96,9 @@ Teff(L4V) =  1695 K ; Filippazzo15 calibration (M6V-T9V)
 (J-Ks)(L4V) =   1.518 ; 2MASS_J14243909+0917104_ plx=31.70mas L4V
 (J-Ks)(L4V) =   1.566 ; 2MASS_J08441409-2924121_ plx=35.3553mas L4.0
 (J-Ks)(L4V) =    1.607 ; 2MASS_J05002100+0330501_ plx=75.6081mas L4pec
+(J-Ks)(L4V) = 1.61 ; J-H=0.98, H-Ks=0.63 
+(J-Ks)(L4V) =  1.648 ; Sanghi24 M6V-T9V trend
 (J-Ks)(L4V) =   1.671 ; 2MASS_J17534518-6559559_ plx=63.5836mas L4
-(J-Ks)(L4V) = 1.68 ; 
 (J-Ks)(L4V) =   1.686 ; 2MASS_J01550354+0950003_ plx=45.0422mas L4
 (J-Ks)(L4V) =   1.700 ; 2MASS_J23192137+7645437_ plx=39.7402mas L4
 (J-Ks)(L4V) =  1.73 ; Faherty09
@@ -111,7 +113,7 @@ Teff(L4V) =  1695 K ; Filippazzo15 calibration (M6V-T9V)
 (J-Ks)(L4V) =   1.942 ; 2MASS_J14252798-3650229_ plx=84.4219mas L4
 (J-Ks)(L4V) =    2.019 ; 2MASS_J05012406-0010452_ plx=47.7744mas L4gamma
 (J-Ks)(L4V) =    2.483 ; 2MASS_J16154255+4953211_ plx=32mas L4gamma
-=> adopt (J-Ks)(L4V) = 1.63 [updated 8/6/2020]
+=> adopt (J-Ks)(L4V) = 1.61 [updated 8/6/2020] (J-H=0.98, H-Ks=0.63)
 
 (g-r)(L4V) = 1.721 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
 (g-r)(L4V) = 2.375 ; ULAS2MASS_J1407+1241_ plx=35.2021mas L4
@@ -236,76 +238,53 @@ Mv(L4V) = 22.35 ; 2M0500+0330 (Dieterich14)
 Mv(L4V) = 22.33 ; V-Ks=10.9 in EEM fit to Dieterich14 trend
 => adopt Mv(L4V) = 22.3 [last updated 4/27/2017; M_Ks=11.4, V-Ks=10.9]
 
-M_J(L4V) =    11.712 ; 2MASS_J00250365+4759191_ plx=23.69mas L4:
-M_J(L4V) =    12.037 ; 2MASS_J23221914-1407238_ plx=16.2130mas L4.0
-M_J(L4V) =    12.466 ; 2MASS_J00531899-3631102_ plx=40.199mas L4
-M_J(L4V) =    12.548 ; 2MASS_J04474307-1936045_ plx=20.7mas L4.0
-M_J(L4V) =    12.572 ; HD_49197B_ plx=22.41mas L4
-M_J(L4V) =    12.659 ; 2MASS_J19360187-5502322_ plx=43.1217mas L4
-M_J(L4V) =   12.926 ; 2MASS_J10461875+4441149_ plx=28.9036mas L4
+M_J(L4V) =    12.47 ; 2MASS_J00531899-3631102_ L4 plx=40.199mas
+M_J(L4V) =    12.66 ; SIPS_J1936-5502_ L4 plx=43.1217mas
 M_J(L4V) =    12.994 ; Reyle18 polynomial (appears to be discrepently bright)
-M_J(L4V) =    13.019 ; 2MASS_J18410861+3117279_ plx=23.57mas L4Vpec
-M_J(L4V) =   13.022 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
-M_J(L4V) =    13.041 ; 2MASS_J15515237+0941148_ plx=22.1mas L4gamma
-M_J(L4V) =    13.061 ; 2MASS_J05002100+0330501_ plx=75.6081mas L4pec
-M_J(L4V) =   13.093 ; 2MASS_J01550354+0950003_ plx=45.0422mas L4
-M_J(L4V) =   13.109 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4
-M_J(L4V) =   13.110 ; 2MASS_J14075361+1241099_ plx=35.2021mas L4
-M_J(L4V) =   13.111 ; 2MASS_J17534518-6559559_ plx=63.5836mas L4
-M_J(L4V) =   13.149 ; 2MASS_J08441409-2924121_ plx=35.3553mas L4.0
-M_J(L4V) =    13.155 ; 2MASS_J23392527+3507165_ plx=36.2305mas L4pec
+M_J(L4V) =    13.06 ; 2MASS_J05002100+0330501_ L4pec plx=75.6081mas
+M_J(L4V) =   13.09 ; 2MASS_J01550354+0950003_ L4 plx=45.0422mas
+M_J(L4V) =   13.11 ; 2MASS_J11040127+1959217_ L4 plx=55.7046mas
+M_J(L4V) =   13.11 ; SIPS_J1753-6559_ L4 plx=63.5836mas
 M_J(L4V) = 13.17 ; M_G=18.37, G-J=5.20 
-M_J(L4V) =   13.192 ; 2MASS_J14243909+0917104_ plx=31.70mas L4V
-M_J(L4V) =  13.212 ; pri. stan. 2MASS_J21580457-1550098_ plx=43.1094mas L4
-M_J(L4V) =   13.341 ; 2MASS_J12464678+4027150_ plx=44.7375mas L4V
-M_J(L4V) =   13.346 ; 2MASS_J23192137+7645437_ plx=39.7402mas L4
+M_J(L4V) =  13.21 ; pri. stan. 2MASSI_J2158045-155009_ L4 plx=43.1094mas
+M_J(L4V) =   13.34 ; 2MASSW_J1246467+402715_ L4V plx=44.7375mas
+M_J(L4V) =   13.38 ; 2MASS_J14252798-3650229_ L4 plx=84.4219mas
 M_J(L4V) =    13.378 ; gamma stan. 2MASS_J05012406-0010452_ plx=47.7744mas L4gamma
-M_J(L4V) =   13.379 ; 2MASS_J14252798-3650229_ plx=84.4219mas L4
-M_J(L4V) =    13.478 ; 2MASS_J00332386-1521309_ plx=43.5089mas L4beta
-M_J(L4V) =    14.314 ; 2MASS_J16154255+4953211_ plx=32mas L4gamma
 => adopt M_J(L5V) = 13.15 [updated 5/24/2024]
 [EEM 5/24/2024: notice the jump in the M_J distribution brighter than M_J=12.9.]
 
+M_H(L4V) = 12.04  ; pri. stan. 2MASSI_J2158045-155009_ L4 plx=43.1094mas
 M_H(L4V) = 12.123 ; Reyle18 polynomial
 
-M_Ks(L4V) =     9.774 ; 2MASS_J00250365+4759191_ plx=23.69mas L4:
-M_Ks(L4V) =    10.591 ; 2MASS_J04474307-1936045_ plx=20.7mas L4.0
-M_Ks(L4V) =   10.958 ; 2MASS_J00531899-3631102_ plx=40.199mas L4
-M_Ks(L4V) =   11.002 ; HD_49197B_ plx=22.41mas L4
-M_Ks(L4V) =    11.032 ; 2MASS_J15515237+0941148_ plx=22.1mas L4gamma
-M_Ks(L4V) =    11.081 ; 2MASS_J18410861+3117279_ plx=23.57mas L4Vpec
-M_Ks(L4V) =   11.152 ; 2MASS_J23221914-1407238_ plx=16.2130mas L4.0
-M_Ks(L4V) =   11.210 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
-M_Ks(L4V) =   11.219 ; 2MASS_J19360187-5502322_ plx=43.1217mas L4
-M_Ks(L4V) =   11.330 ; 2MASS_J14075361+1241099_ plx=35.2021mas L4
-M_Ks(L4V) =   11.357 ; 2MASS_J21580457-1550098_ plx=43.1094mas L4
-M_Ks(L4V) =    11.359 ; 2MASS_J05012406-0010452_ plx=47.7744mas L4gamma
-M_Ks(L4V) =    11.385 ; 2MASS_J23392527+3507165_ plx=36.2305mas L4pec
-M_Ks(L4V) =   11.407 ; 2MASS_J01550354+0950003_ plx=45.0422mas L4
-M_Ks(L4V) = 11.43 ; V-Ks=10.9 in EEM fit to Dieterich14 trend
-M_Ks(L4V) =   11.434 ; 2MASS_J10461875+4441149_ plx=28.9036mas L4
-M_Ks(L4V) =   11.437 ; 2MASS_J14252798-3650229_ plx=84.4219mas L4
-M_Ks(L4V) =   11.440 ; 2MASS_J17534518-6559559_ plx=63.5836mas L4
-M_Ks(L4V) =    11.454 ; 2MASS_J05002100+0330501_ plx=75.6081mas L4pec
-M_Ks(L4V) =   11.534 ; 2MASS_J12464678+4027150_ plx=44.7375mas L4V
+
+M_Ks(L4V) =    10.96 ; 2MASS_J00531899-3631102_ L4 plx=40.199mas
+M_Ks(L4V) =   11.22 ; SIPS_J1936-5502_ L4 plx=43.1217mas
+M_Ks(L4V) =  11.36 ; pri. stan. 2MASSI_J2158045-155009_ L4 plx=43.1094mas
+M_Ks(L4V) =   11.41 ; 2MASS_J01550354+0950003_ L4 plx=45.0422mas
+M_Ks(L4V) =    11.43 ; V-Ks=10.9 in EEM fit to Dieterich14 trend
+M_Ks(L4V) =   11.44 ; 2MASS_J14252798-3650229_ L4 plx=84.4219mas
+M_Ks(L4V) =   11.44 ; SIPS_J1753-6559_ L4 plx=63.5836mas
+M_Ks(L4V) =   11.45 ; 2MASS_J05002100+0330501_ L4pec plx=75.6081mas
+M_Ks(L4V) =   11.53 ; 2MASSW_J1246467+402715_ L4V plx=44.7375mas
 M_Ks(L4V) =    11.54 ; Reyle18 polynomial
 M_Ks(L4V) =    11.54 ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
 M_Ks(L4V) =    11.58 ; trend to L/T dwarfs in notes (1/2021)
-M_Ks(L4V) =   11.583 ; 2MASS_J08441409-2924121_ plx=35.3553mas L4.0
-M_Ks(L4V) =    11.602 ; 2MASS_J00332386-1521309_ plx=43.5089mas L4beta
-M_Ks(L4V) =   11.646 ; 2MASS_J23192137+7645437_ plx=39.7402mas L4
-M_Ks(L4V) =   11.674 ; 2MASS_J14243909+0917104_ plx=31.70mas L4V
-M_Ks(L4V) =   11.679 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4
-M_Ks(L4V) =    11.831 ; 2MASS_J16154255+4953211_ plx=32mas L4gamma
+M_Ks(L4V) =    11.68 ; 2MASS_J11040127+1959217_ L4 plx=55.7046mas
 => adopt M_Ks(L4V) = 11.43 [adopted 5/24/2024]
 
-BC_K(L4V)  =  3.348 mag ; Golimowski04
+BC_J(L4V) = 1.710 ; Sanghi24 M6V-T9V trend
+BC_J(L4V) = 1.73  ; pri. stan. 2MASS J21580457−1550098 (Sanghi23)
+
+BC_Ks(L4V) = 3.29  mag ; Schmidt14 (rms=0.10mag)
+BC_Ks(L4V) = 3.316 mag ; Filipazzo15 (field)
 BC_Ks(L4V) = 3.329 mag ; Looper08
-BC_Ks(L4V) = 3.316 mag ; Filipazzo15 (field) 
-BC_Ks(L4V) = 3.29  mag ; Schmidt14 (rms = 0.10 mag)
-=> adopt BC_Ks(L4V) = 3.32 [updated 11/1/2019]
+BC_K(L4V)  =  3.348 mag ; Golimowski04
+BC_Ks(L4V) = 3.358 mag ; Sanghi23
+BC_Ks(L4V) = 3.58  mag ; pri. stan. 2MASS J21580457−1550098 (Sanghi23)
+=> adopt BC_Ks(L4V) = 3.36 [updated 10/24/2024]
 
 logL(L4V) = -4.004 ; M_Ks=11.43, BC_Ks=3.32, Mbol=14.750
+logL(L4V) = -4.08  ; pri. stan. 2MASS J21580457−1550098 (Sanghi23)
 logL(L4V) = -4.108 ; Cifuentes23
 => adopt logL(L4V) = -4.004 [updated 6/30/2024]
 => adopt Mbol(L4V) = 14.750 [updated 6/30/2024]
@@ -316,7 +295,7 @@ Rad(L4V) = 0.096+-0.014 Rsun ; Cifuentes23
 
 Mass(L4V) = 0.077+-0.015 Msun ; Cifuentes23
 
-Liebert06 did not record any R-I colors for L4V stars. 
+Liebert06 did not record any R-Ic colors for L4V stars. 
 
 # Primary Standards
 
@@ -326,10 +305,16 @@ Liebert06 did not record any R-I colors for L4V stars.
    Primary optical L4 standard following Kirkpatrick05 and Kirkpatrick09. 
 
 2MASS J21580457−1550098
-  L4: Kirkpatrick10(near-IR,"L4:" optical),Cruz18(stan,field gravity NIR).
+ *L4: Kirkpatrick10(near-IR,"L4:" optical),Cruz18(stan,field gravity NIR).
 
   Primary L4 near-IR standard following Kirkpatrick10 and Cruz18.
-  (J-Ks)=1.855+-0.054(Cruz18/2MASS).
+  (J-Ks)=1.855+-0.054(Cruz18/2MASS). plx=43.1094mas(GaiaDR3) =>
+  M_G=18.39, M_J=13.21, M_H=12.04, M_Ks=11.36.
+  Teff=1475+-65K(Sanghi23),
+  1800K(Sanghi23/BT-Settl). logL=-4.08+-0.03(Sanghi23) =>
+  Mbol=14.94(Sanghi23/IAU2015scale).  BC_Ks = Mbol - M_Ks =
+  14.94(Sanghi23) - 11.36(2MASS,GaiaDR3) = 3.58.  BC_J = Mbol - M_J =
+  14.94(Sanghi23) - 13.21(2MASS,GaiaDR3) = 1.73.
 
 # Variant Standard
 

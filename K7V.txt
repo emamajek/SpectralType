@@ -511,6 +511,7 @@ Teff(K7V) = 3961 +- 11 K ; Boyajian12b (N=3)
 Teff(K7V) = 3964 K ; median Teff for 82 published Teffs for K7V stars
 Teff(K7V) =   4000 K ; Bessell79
 Teff(K7V) =   4000 K ; Bessell91 "old disk"
+Teff(K7V) = 4000 K ; ter. stan. GJ 380 = HD 88230 = HIP 49908 ([Fe/H]=+0.21)
 Teff(K7V) = 4044 K ; pri. stan. GJ 820B = 61 Cyg B = HD 201092 ([Fe/H]=-0.21)
 Teff(K7V) = 4056 K ; sec. stan. GJ 673 = HD 157881 = HIP 85295 ([Fe/H]=+0.28)
 Teff(K7V) = 4057 +- 100 K ; Cifuentes23
@@ -518,8 +519,7 @@ Teff(K7V) = 4057 K ; Morrell19 Teff for stars w/i +-0.1 mag of M_Ks=4.85
 Teff(K7V) =  4060 K ; Schmidt-Kaler82
 Teff(K7V) = 4073 +- 98 K ; Lepine12
 Teff(K7V) = 4075 K ; mean photometric Teff for B-V=1.33
-Teff(K7V) = 4093 K ; trend for standards (Teff(K7V) = 4093K-73.25*[Fe/H]; rms = 18K; see notes at bottom)
-Teff(K7V) = 4097 K ; ter. stan. GJ 380 = HD 88230 = HIP 49908 ([Fe/H]=+0.21)
+Teff(K7V) = 4093 K ; trend for standards (Teff(K7V) = 4093K-73.25*[Fe/H]; rms=18K; see notes at bottom)
 Teff(K7V) =  4099 +- 48 K ; vanBelle09
 Teff(K7V) = 4100 K ; ter. stan. GJ 394 = HD 237903 = 36 UMa B ([Fe/H]=-0.12)
 Teff(K7V) = 4114 K ; smooth Teff(SpT) trend
@@ -530,7 +530,7 @@ Teff(K7V) = 4157 K ; exemplar GJ 532 = HD 234078 ([Fe/H]=+0.15)
 Teff(K7V) =   4160 K ; Johnson65
 Teff(K7V) = 4175 K ; ter. stan. GJ 786 = HD 193202 = HIP 99427 ([Fe/H]~0.0)
 Teff(K7V) = 4320 K ; ter. stan. GJ 764.1B = HD 184860B ([Fe/H]=-0.04)(see below)
-=> adopt Teff(K7V) = 4090 K (logT = 3.612) [last updated 8/3/2023]
+=> adopt Teff(K7V) = 4090 K (logT = 3.612) [updated 8/3/2023]
 
 M_G(K7V) =   6.755 ; ter. stan. *_eta_Cas_B_ (GaiaDR2)
 M_G(K7V) = 7.187 ; ter. stan. GJ 786 = HD 193202 = HIP 99427 ([Fe/H]~0.0) (GaiaDR3)
@@ -630,6 +630,8 @@ M_Ks(K7V) = 5.10 ; exemplar zet Dor B = CD-57_1079_ plx=85.5301mas K7Vk (GaiaDR3
 
 BCv(K7V) =  -1.218 +- 0.034 ; GJ 338B 
 BCv(K7V) =  -1.149 mag ; Masana06(Teff=4090K)
+BCv(K7V) = -1.091 mag ; ter. stan. GJ 380 = HD 88230 (calc from Soubiran24,Mermilliod91)
+BCv(K7V) = -1.054 mag ; pri. stan. 61 Cyg B (calc from Soubiran24,Mermilliod91)
 BCv(K7V) =  -0.999 mag ; Flower96(Teff=4090K)
 BCv(K7V) =  -0.98 mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
 BCv(K7V) = -0.973 +-0.030 mag ; anchor standard GJ 820B = 61 Cyg B (Pecaut13)
@@ -637,7 +639,7 @@ BCv(K7V) = -0.970 mag ; Mann15(BC_Ks=2.456, for V-J=2.584 and V-Ks=3.37)
 BCv(K7V) = -0.969 mag ; sec. stan. GJ 673 = HD 157881 = HIP 85295 ([Fe/H]=+0.28)
 BCv(K7V) = -0.958 mag ; Casagrande18(Teff=4090K,logg=4.5)
 BCv(K7V) = -0.934 mag ; Bessell98(ATLAS9,logg=4.5,Teff=4090K)
-BCv(K7V) = -0.921 mag ; pri. stan. 61 Cyg B (see below; Mermilliod91+Mann15)
+BCv(K7V) = -0.921 mag ; pri. stan. 61 Cyg B (calc from Mann15,Mermilliod91)
 BCv(K7V) = -0.910 mag ; Casagrande08(Teff=4090K)
 BCv(K7V) =   -0.90 mag ; Johnson66 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(K7V) =  -0.895 mag ; Bertone04(ATLAS,Teff=4090K)
@@ -653,12 +655,13 @@ BC_Ks(K7V) = 2.430 mag ; Morrell19 calib. for G-Ks=2.78
 BC_Ks(K7V) = 2.41 mag  ; BCv=-0.96, V-Ks=3.37
 => adopt BC_Ks(K7V) = 2.41 mag [updated 8/3/2023, adopting BCv=-0.96, V-Ks=3.37]
 
-logL(K7V) =  -0.75+-0.09 ; ecl. binary V1236_Tau_B (Bayless06)
-logL(K7V) =  -0.76+-0.10 ; ecl. binary V1236_Tau_A (Bayless06)
-logL(K7V) =  -0.867+-0.056 ; ecl. binary IM Vir B [Fe/H]=-0.10+-0.25 (Morales09)
-logL(K7V) = -0.992 dex ; Mv=8.18, BCv=-0.96 => Mbol = 7.220
-logL(K7V) = -1.071 +- 0.036 dex ; pri. stan. 61 Cyg B (Kervalla08)
-logL(K7V) = -1.0722 ; pri. stan. 61 Cyg B (Newton14)
+logL(K7V) =  -0.75 +-0.09 ; ecl. binary V1236_Tau_B (Bayless06)
+logL(K7V) =  -0.76 +-0.10 ; ecl. binary V1236_Tau_A (Bayless06)
+logL(K7V) =  -0.867 +-0.056 ; ecl. binary IM Vir B [Fe/H]=-0.10+-0.25 (Morales09)
+logL(K7V) = -0.933 ; ter. stan. GJ 380 = HD 88230 ([Fe/H]=+0.21) (Soubiran24)
+logL(K7V) = -0.992 ; Mv=8.18, BCv=-0.96 => Mbol = 7.220
+logL(K7V) = -1.071 +-0.036 dex ; pri. stan. 61 Cyg B (Kervalla08)
+logL(K7V) = -1.072 ; pri. stan. 61 Cyg B (Newton14)
 => adopt logL(K7V) = -0.992 dex [updated 8/13/2023]
 => adopt Mbol(K7V) =  7.220 mag [updated 8/13/2023]
 
@@ -667,7 +670,7 @@ Rad(K7V) =   0.788 +-0.015   Rsun ; ecl. binary V1236_Tau_A (Bayless06)
 Rad(K7V) =   0.681 +-0.013   Rsun ; ecl. binary IM Vir B [Fe/H]=-0.10+-0.25 (Morales09)
 Rad(K7V) =  0.649 +-0.020   Rsun ; sec. stan. GJ 673 = HD 157881 = HIP 85295 ([Fe/H]=+0.28) (Yee17)
 Rad(K7V) =  0.644          Rsun ; Mann15 calib. for M_Ks=4.81
-Rad(K7V) =  0.640 +-0.005   Rsun ; ter. stan. GJ 380 = HD 88230 (Yee17)
+Rad(K7V) =  0.640 +-0.005   Rsun ; ter. stan. GJ 380 = HD 88230 ([Fe/H]=+0.21) (Yee17)
 Rad(K7V) =  0.634 +-0.047   Rsun ; Cifuentes23
 Rad(K7V) = 0.636           Rsun ; logL=-0.992, Teff=4090K
 Rad(K7V) =  0.6027 +-0.0047 Rsun ; Boyajian12b (N=3)
@@ -793,19 +796,29 @@ GJ 820B = 61 Cyg B = HD 201092 = HR 8086 = LHS 63 = HIP 104217 = Gaia DR3 187204
   fbol=(20.340+-0.107)e-11W/m2(Boyajian12) =>
   mbol=5.232+-0.006(IAU2015 scale),
   fbol=(19.8923+-0.1111)e-11W/m2(VOSA SED fit, but only to ~10 points)
-  => mbol=5.256+-0.006(IAU 2015 scale).  While I adopt the Mann15
+  => mbol=5.256+-0.006(IAU 2015 scale).
+  Lum=0.09445(0.08944,0.09946)Lsun(GaiaDR3).  While I adopt the Mann15
   value, which is in good agreement with Alonso96, I note that there
   are some discrepencies in the fbol and hence the Lbol at the ~26%
   level?! - some further work on the SED is probably warranted given
-  that this is a benchmark late K dwarf.  BCv = 5.134(Mann15) -
-  6.055(Mermilliod91) = -0.921.  Gaia DR2 entry is 80" away from J2000
-  position due to high proper motion. G=5.450645+-0.002791(GaiaDR3),
-  Bp-Rp=1.715341(GaiaDR3), Bp-G=0.821609(GaiaDR3),
-  G-Rp=0.893732(GaiaDR3), G-V = 5.450645(GaiaDR3) -
-  6.060606(GaiaDR3/synth) = -0.610.  plx=286.0054+-0.0289mas(GaiaDR3)
-  => Mv=8.342, M_G=7.733+-0.003(GaiaDR3),
-  M_K=4.962+-0.017(Alonso96,GaiaDR3).  Diameters:
-  tetLD=1.581+-0.022mas(Kervella08),
+  that this is a benchmark late K dwarf. Luminosities calculated using
+  these bolometric fluxes: logL=-1.010+-0.008(vanBelle09+GaiaDR3),
+  logL=-1.017+-0.015(Soubiran24+GaiaDR3),
+  logL=-1.02480+-0.02306(GaiaDR3), logL=-1.070+-0.004(Mann15+GaiaDR3),
+  logL=-1.072(Alonso96+GaiaDR3),
+  logL=-1.110+-0.002(Boyajian12+GaiaDR3),
+  logL=-1.119+-0.002(EEM/VOSA+GaiaDR3).  So there are systematic
+  differences in the logL estimates at the *0.1dex* level (each with
+  tiny errorbars of 0.002-0.015dex)!  BCv = 5.134(Mann15) -
+  6.055(Mermilliod91) = -0.921.  BCv = mbol - V = 5.001(Soubiran24) -
+  6.055(Mermilliod91) = -1.054(Soubiran24,Mermilliod91).  Gaia DR2
+  entry is 80" away from J2000 position due to high proper
+  motion. G=5.450645+-0.002791(GaiaDR3), Bp-Rp=1.715341(GaiaDR3),
+  Bp-G=0.821609(GaiaDR3), G-Rp=0.893732(GaiaDR3), G-V =
+  5.450645(GaiaDR3) - 6.060606(GaiaDR3/synth) = -0.610.
+  plx=286.0054+-0.0289mas(GaiaDR3) => Mv=8.342,
+  M_G=7.733+-0.003(GaiaDR3), M_K=4.962+-0.017(Alonso96,GaiaDR3).
+  Diameters: tetLD=1.581+-0.022mas(Kervella08),
   tetUD=1.629+-0.033mas(vanBelle09),
   tetLD=1.666+-0.046mas(vanBelle09),
   Rad=0.595+-0.008Rsun(Kervella08,Boyajian12),
@@ -971,29 +984,42 @@ GJ 380 = HD 88230 = HIP 49908 = LHS 280 = G 196-9 = Groombridge 1618
 
   2nd nearest K7V star (4.9 pc).  I'll adopt K7V based on Boeshaar76,
   Kirkpatrick91, Henry02, but the K8V from Gray03 and K6Ve Fe-1 from
-  Keenan89 cause me to weaken this object as a standard. Presumably it
-  looks sufficiently different from 61 Cyg B to warrant a
-  classification different from K7V. Gaidos14 type seems extremely
-  discrepent. Mann15 type of "K7.6" where 1 step between K7 and M0,
-  hence K7.6 ~> K9. V=6.60(HIP), V=6.590(Hauck90),
-  V=6.600+-0.012(Mermilliod91), V=6.571882(GaiaDR3,synth),
-  B-V=1.326+-0.008(HIP), B-V=1.370+-0.011(Mermilliod91),
-  U-B=1.277+-0.012(Mermilliod91), Ic=4.925557(GaiaDR3,synth), V-Ic=
-  6.572 - 4.926 = 1.646(GaiaDR3,synth), V-I=1.29+-0.01. 2MASS
-  photometry saturated DDD.  Teffs: 3764K(Alonso96), 3772K(Katz11),
-  3855K(Terrien15#2), 3876K(Soubiran08), 3893K(Terrien15#1),
-  3947K(Wu11), 3950K(Ramirez05), 3954K(Terrien15#3),
-  3960K(Prugniel11), 3970K(Woolf05), 3980K(Lepine13), 4000K(Onehag09),
-  4060+-87K(Boyajian12#2), 4081K(Eiroa13, Boyajian12#1),
+  Keenan89 cause me to weaken this object as a standard, although it
+  appears to be metal-rich ([Fe/H]=+0.21+-0.06;Soubiran22) rather than
+  metal-poor as suggested by Keenan89.  Presumably it looks
+  sufficiently different from 61 Cyg B to warrant a classification
+  different from K7V. Gaidos14 type seems extremely discrepent. Mann15
+  type of "K7.6" where 1 step between K7 and M0, hence K7.6 ~> K9.
+  V=6.571882(GaiaDR3,synth), V=6.589(Pickles10), V=6.590(Hauck90),
+  V=6.598+-0.004(ASCC-2.5), V=6.60(HIP), V=6.60(TYC),
+  V=6.60(Argue66/N=5), V=6.600(Nikonov57/N=50),
+  V=6.600+-0.012(Mermilliod91), V=6.66(Oja63/N=5) => adopt
+  V=6.600+-0.012(Mermilliod91).  B-V=1.326+-0.008(HIP),
+  B-V=1.34(Argue66/N=5), B-V=1.370(Nikonon57/N=50),
+  B-V=1.370+-0.011(Mermilliod91), B-V=1.38(Oja63/N=5),
+  U-B=1.27(Argue66/N=5), U-B=1.277+-0.012(Mermilliod91),
+  Ic=4.925557(GaiaDR3,synth), V-Ic= 6.572 - 4.926 =
+  1.646(GaiaDR3,synth), V-I=1.29+-0.01. 2MASS photometry saturated
+  DDD.  Teffs: 3764K(Alonso96), 3772K(Katz11), 3855K(Terrien15#2),
+  3876K(Soubiran08), 3893K(Terrien15#1), 3947K(Wu11),
+  3950K(Ramirez05), 3954K(Terrien15#3), 3960K(Prugniel11),
+  3970K(Woolf05), 3980K(Lepine13), 4000K(Onehag09),
+  4060+-87K(Boyajian12#2), 4081K(Eiroa13,Boyajian12#1),
   4085+-14K(Boyajian12#3), 4085K(Frasca15), 4100K(Morales08),
-  4128K(Schiavon07), 4131+-60K(Mann15), 4162+-33K(Mann15#2),
-  4176+-19K(Newton15), 4203+-73K(Boyajian12#4) => <Teff> = 3990K.
-  Soubiran22/PASTEL means: Teff=4097+-40K, logg=4.64+-0.08,
-  [Fe/H]=+0.21+-0.06.  plx = 205.21+-0.54mas(vanLeeuwen07),
-  plx=205.3917+-0.0342mas(GaiaDR2).  => Mv = 8.16+-0.01. [Fe/H] =
+  4128K(Schiavon07), 4131+-60K(Mann15), 4132+-72K(Soubiran24),
+  4162+-33K(Mann15#2), 4176+-19K(Newton15), 4203+-73K(Boyajian12#4) =>
+  <Teff>=4000K.  Soubiran22/PASTEL means: Teff=4097+-40K,
+  logg=4.64+-0.08, [Fe/H]=+0.21+-0.06(Soubiran22/Soubiran24).  plx =
+  205.21+-0.54mas(vanLeeuwen07), plx=205.3917+-0.0342mas(GaiaDR2),
+  plx=205.3148+-0.0224mas(GaiaDR3) => Mv = 8.16+-0.01. [Fe/H] =
   0.28(Prugniel07#1), 0.28(Oinas77), -0.03+-0.18(Woolf05),
   -0.05(Prugniel07#2). Boyajian12 reports
-  tetLD=1.225+-0.009mas. Boyajian12+GaiaDR2 => Rad = 0.641Rsun.
+  tetLD=1.225+-0.009mas. Boyajian12+GaiaDR2 => Rad=0.641Rsun.
+  fbol=(15.748e-11+-0.533e-11)W/m2(Soubiran24) =>
+  mbol=5.509452+-0.036761(Soubiran24/IAU2015scale) =>
+  logL=-0.9326+-0.0147 => Mbol=7.072+-0.037.  BCv = mbol - V =
+  5.509452 - 6.600 = -1.091.
+  
 
 GJ 764.1B = HD 184860B = CCDM 19368-1027 B = NLTT 47996 B
   *K7V: Bidelman85(K7),Kirkpatrick91(stan)

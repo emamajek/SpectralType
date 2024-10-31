@@ -170,7 +170,7 @@ both Henry and Hawley agree upon as M1V.
 (J-H)(M1V) =  0.623 ; GJ 410 (M1V,Lepine13,Gaidos14)
 (J-H)(M1V) = 0.714 ; pri. stan. GJ 229A M1V
 (J-H)(M1V) = 0.730 ; exemplar GJ 887 
-=> adopt (J-H)(M1V) = 0.61 [updated 6/18/2024]
+=> adopt (J-H)(M1V) = 0.61 [updated 10/24/2024] (H-Ks=0.225, J-Ks=0.835)
 
 (H-K)(M1V) = 0.18 ; Beuermann06/CIT
 (H-K)(M1V) = 0.20 ; Bessell88/Glass
@@ -191,7 +191,7 @@ both Henry and Hawley agree upon as M1V.
 (H-Ks)(M1V) =  0.265 ; GJ 367 (M1V,Reid95)
 (H-Ks)(M1V) = 0.301 ; exemplar GJ 809 
 (H-Ks)(M1V) =   0.302 ; GJ 803 (M1VeBa1,Keenan89,pre-MS)
-=> adopt (H-Ks)(M1V) = 0.22 [updated 6/18/2024]
+=> adopt (H-Ks)(M1V) = 0.225 [updated 6/18/2024] (J-Ks=0.835, J-H=0.61)
 
 (J-K)(M1V) = 0.85 ; Beuermann06/CIT
 (J-K)(M1V) = 0.87 ; Bessell88/Glass
@@ -199,13 +199,12 @@ both Henry and Hawley agree upon as M1V.
 (J-Ks)(M1V) =  0.769 ; sec. stan. GJ 412A ([Fe/H]~-0.4)
 (J-Ks)(M1V) =  0.811 ; exemplar GJ 809
 (J-Ks)(M1V) =  0.827 ; exemplar GJ 212
-(J-Ks)(M1V) = 0.83 ; J-H=0.61, H-Ks=0.22
-(J-Ks)(M1V) =  0.834 ; smoothed fit M0-L0 
+(J-Ks)(M1V) = 0.833 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(M1V) =  0.835 ; Bessell88(Glass->2MASS)
 (J-Ks)(M1V) =  0.866 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
-(J-Ks)(M1V) =   0.907 ; GJ 803 (M1VeBa1,Keenan89,pre-MS)
+(J-Ks)(M1V) =  0.907 ; GJ 803 (M1VeBa1,Keenan89,pre-MS)
 (J-Ks)(M1V) =  0.934 ; pri. stan. GJ 229
-=> adopt (J-Ks)(M1V) = 0.83 [updated 6/18/2024] (H-Ks=0.22, J-H=0.61)
+=> adopt (J-Ks)(M1V) = 0.833 [updated 10/24/2024] 
 
 (V-Lj)(M1V) = 4.15  ; Johnson65
 
@@ -581,6 +580,35 @@ M_G(M1V) =   8.803 ; GJ 4303(A) = HIP 113201(A) (w/dynamical mass)
 M_G(M1V) =  8.937 ; exemplar GJ 887 (GaiaDR3)
 M_G(M1V) =  9.460 ; sec. stan. GJ 412A (GaiaDR3)
 
+M_J(M1V) =    5.50 ; GJ_803_ M1VeBa1 plx=102.9432mas (pre-MS, ~20 Myr)
+M_J(M1V) =   6.01 ; GJ_740_ M1.0V plx=90.0212mas
+M_J(M1V) =   6.05 ; GJ_825_ M1V plx=251.9124mas
+M_J(M1V) =   6.08 ; GJ_714_ M1V plx=69.5611mas
+M_J(M1V) =   6.11 ; GJ_685_ M1V plx=69.8921mas
+M_J(M1V) =   6.14 ; GJ_212_ M1.0V plx=81.4644mas
+M_J(M1V) =   6.14 ; GJ_410_ M1.0Ve plx=83.7642mas
+M_J(M1V) =   6.19 ; GJ_809_ M1.0V plx=142.0543mas
+M_J(M1V) =   6.21 ; GJ_9592_ M1.0V plx=98.8439mas
+M_J(M1V) =   6.30 ; GJ_229_ M1V plx=173.5740mas
+M_J(M1V) =   6.32 ; GJ_9520_ M1.0V plx=87.3251mas
+M_J(M1V) =   6.33 ; CD-52_7989_ M1V plx=78.2621mas
+M_J(M1V) =  6.33 ; M_Ks=5.50, J-Ks=0.83 
+M_J(M1V) =   6.36 ; GJ_390_ M1V plx=78.1746mas
+M_J(M1V) =   6.44 ; GJ_525_ M1V plx=77.4412mas
+M_J(M1V) =   6.46 ; GJ_353_ M1V plx=73.6956mas
+M_J(M1V) =   6.49 ; GJ_514_ M1.0V plx=131.1013mas
+M_J(M1V) =   6.57 ; GJ_606_ M1V plx=75.2941mas
+M_J(M1V) =   6.69 ; GJ_173_ M1V plx=89.1897mas
+M_J(M1V) =   6.72 ; GJ_87_ M1V plx=95.1606mas
+M_J(M1V) =   6.76 ; GJ_367_ M1.0 plx=106.1727mas
+M_J(M1V) =   6.93 ; GJ_438_ M1 plx=90.7335mas
+M_J(M1V) =   6.97 ; GJ_908_ M1 plx=169.2163mas
+M_J(M1V) =   7.08 ; GJ_412_A_ M1.0V plx=203.8876mas
+M_J(M1V) =    7.32 ; GJ_821_ M1V plx=84.4402mas
+M_J(M1V) =    7.85 ; GJ_191_ M1VIp plx=254.1986mas (subdwarf) 
+=> adopt M_J(M1V) = 6.33 mag [updated 10/24/2024] (M_Ks=5.50, J-Ks=0.83)
+
+
 M_Ks(M1V) =   6.54 ; GJ 821 (M1V,Reid95,Geballe02,Gaidos14)
 M_Ks(M1V) =  6.32  ; sec. standard GJ 412A
 M_Ks(M1V) =  5.76  ; exemplar GJ 887 = Lacaille 9352 
@@ -604,7 +632,6 @@ M_Ks(M1V) =  5.10  ; pri. standard GJ 229A
 M_Ks(M1V) =   4.88 ; GJ 507A (M1V,Lepine13,Gaidos14)
 M_Ks(M1V) =    4.59 ; GJ 803 (M1VeBa1,Keenan89,pre-MS)
 => adopt M_Ks(M1V) = 5.50 mag [updated 6/18/2024] (V-K=3.95, Mv=9.45)
-=> adopt M_J(M1V)  = 6.33 mag [updated 6/18/2024] (M_Ks=5.50, J-Ks=0.83)
 => adopt M_z(M1V)  = 7.67 mag [updated 6/18/2024] (M_J=6.33, z-J=1.34)
 => adopt M_i(M1V)  = 8.14 mag [updated 6/18/2024] (M_J=6.33, i-J=1.81)
 => adopt M_r(M1V)  = 9.01 mag [updated 6/18/2024] (M_i=8.14, r-i=0.87)
