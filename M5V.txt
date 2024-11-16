@@ -668,14 +668,15 @@ BCv(M5V) =   -2.60 mag ; Schmidt-Kaler82(BCv=-2.73 + 0.13 offset)
 BCv(M5V) =   -2.62 mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(M5V) =   -2.91 mag ; EEM fit to Casagrande08 data for Teff=2870K
 BCv(M5V) = -3.080 mag  ; Mann15(V-J=5.051)
+BCv(M5V) =  -3.091 +-0.03: mag ; pri. stan. GJ 51 = Wolf 47 (calc using Cushing05)
 BCv(M5V) =  -3.11 mag  ; BC_K=2.84, V-Ks=5.95
 BCv(M5V) =   -3.34 mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
 => adopt BCv(M5V) = -3.11 mag [updated 11/3/2019; BC_Ks=2.84, V-Ks=5.95]
 
-BC_Ks(M5V)= 2.838 mag  ; Mann15(V-J=5.051)
-BC_Ks(M5V)= 2.837 mag  ; Morrell19 trend for G-Ks=4.21
-BC_K(M5V) =  2.741 mag ; Leggett01 polynomial for J-K=0.891
-BC_K(M5V) =  2.665 mag ; Leggett01 polynomial for I-K=2.665
+BC_Ks(M5V) = 2.838 mag  ; Mann15(V-J=5.051)
+BC_Ks(M5V) = 2.837 mag  ; Morrell19 trend for G-Ks=4.21
+BC_K(M5V)  =  2.741 mag ; Leggett01 polynomial for J-K=0.891
+BC_K(M5V)  =  2.665 mag ; Leggett01 polynomial for I-K=2.665
 => adopt BC_K(M5V) = 2.84 mag [updated 11/3/2019]
 
 logL(M5V) =  -2.466 dex ; Eclipsing binary GTS J052218.2-250710.4 B (Casewell17)
@@ -715,20 +716,27 @@ Houk75 and Keenan85_IAU do not list a M5V standard. Skiff08 does not flag any st
 
 # Primary Standard
 
-GJ 51 = Wolf 47 = LHS 1183 = V388 Cas (J0103+6222)
+GJ 51 = Wolf 47 = LHS 1183 = V388 Cas = G 243-55 = G 244-10 = WDS J01026+6221B = WNO 51B = Gaia DR3 522864272041351296
  *M5V: Joy74(M5Ve),Bidelman85(M5),Boeshaar76(non-stan,"M5e"),Pettersen91(dM5e),Gliese91(M5),Kirkpatrick91,Hawley97,Hawley02(stan),Henry02,Kirkpatrick10(opt.,near-IR),RoyasAyala12(K-band),Lepine13(M5e),Newton14(near-IR),Gaidos14(M5e),Alonso-Floriano15(M5Ve)
   M3Vpe-M7Ve: VSX
   M7V: Johnson53(dM7),Veeder74(M7e). 
-  
-  Every classification since 1974 has had M5 subtype, although notably
-  Keenan never included it as a standard. Johnson53 classified it as
-  "dM7" on their M system where Barnard's star anchored the M5 subtype
-  (however it is M4 on modern scale).  Unfortunately VSX catalog lists
-  it as a UV Ceti flare variable with recorded maximum V = 12.50 and
-  mininum 13.66. Interestingly the VSX catalog mentions a range of
-  spectral types, presumably reflecting the flare activity. Note that
-  it's B-V color is very blue compared to other M5s. B-V=1.680,
-  U-B=0.790, V=13.660(Mermilliod91), V-J=5.03 (Lepine05),
+
+  GJ 51 (WNO 51A = Wolf 47) appears to be a wide separation (294.46" =
+  2900au; Kervella22) companion to GJ 49 (WNO 51A = Wolf 46 = HIP
+  4872), a M1.5V G=8.67mag star, which I have in my notes as a M1.5V
+  tertiary standard.  Every classification since 1974 has had M5
+  subtype, although notably Keenan never included it as a
+  standard. Johnson53 classified it as "dM7" on their M system where
+  Barnard's star anchored the M5 subtype (however it is M4 on modern
+  scale).  Unfortunately VSX catalog lists it as a UV Ceti flare
+  variable with recorded maximum V = 12.50 and mininum
+  13.66. Interestingly the VSX catalog mentions a range of spectral
+  types, presumably reflecting the flare activity. Note that it's B-V
+  color is very blue compared to other M5s.  WDS lists it as WDS
+  J01033+6222 = CRC 3, with sep=10.6", mag1=7.8, mag2=10.2,
+  epoch=2011. V=13.660(Mermilliod91), V=13.66(vanAltena95),
+  V=13.670388(GaiaDR3/synth), B-V=1.680, B-V=1.68(vanAltena95),
+  U-B=0.790, U-B=0.79(vanAltena95), V-J=5.03 (Lepine05),
   J=8.611+-0.027(2MASS), H=8.014+-0.023(2MASS),
   Ks=7.718+-0.020(2MASS), V-J=5.049 (Mermilliod91 & 2MASS),
   (V-Ks)=5.942 (Mermilliod91 & 2MASS), V-K=5.96(Veeder74), plx =
@@ -738,7 +746,11 @@ GJ 51 = Wolf 47 = LHS 1183 = V388 Cas (J0103+6222)
   3218+-110K(Newton15), 3240K(Cesetti13) => median Teff=3094K.
   [M/H]=0.21+-0.12(Rojas-Ayala12). GaiaDR2: plx=101.6371+-0.0806,
   G=11.9238+-0.0033, E(BR/RP)=1.556, Bp-Rp=3.3036, Bp-G=1.9831,
-  G-Rp=1.3205. M_G=11.959+-0.004. 
+  G-Rp=1.3205. M_G=11.959+-0.004.  GaiaDR3:
+  plx=101.3724+-0.0480mas(GaiaDR3).
+  fbol=1.49e-12+-3.49e-14W/m2(Cushing05) =>
+  mbol=10.5695+-0.0254(Cushing05/IAU2015scale) => BCv =
+  10.5695+-0.0254 - 13.66 = -3.091+-0.03:.
 
 # Secondary Standard
 

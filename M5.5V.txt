@@ -293,7 +293,6 @@ Mv(M5.5V) =  15.12  ; pri. stan. GJ 1245AC
 Mv(M5.5V) =  14.80  ; ter. stan. GJ 905
 => adopt Mv(M5.5V)   = 15.30 mag [updated 12/10/2020] (M_Ks=8.8, V-Ks=6.5)
 => adopt M_G(M5.5V)  = 13.35 mag [updated 12/10/2020] (Mv=15.3, G-V=-1.95)
-=> adopt M_Ks(M5.5V) =  8.80 mag [updated 12/10/2020] (Mv=15.30, V-Ks=6.5)
 
 M_G(M5.5V) =   13.1092 ; G 208-44 (Gaia DR2)
 M_G(M5.5V) =  13.133  ; trend SIMBAD d<10pc sample (Gaia DR2)
@@ -309,18 +308,59 @@ M_G(M5.5V) =   13.439  ; L 143-23  (Gaia DR2)
 M_G(M5.5V) =   13.6357 ; LP 469-67 (Gaia DR2)                 
 M_G(M5.5V) =   13.6582 ; WT 460 (Gaia DR2)
 
-M_Ks(M5.5V) =   9.023 ; sec. stan. GJ 1002 
-M_Ks(M5.5V) =   8.99  ; Dieterich14 calibration for V-Ks=6.50
-M_Ks(M5.5V) =   8.96  ; JohnsonApps09 calibration for V-Ks=6.50
-M_Ks(M5.5V) =   8.903 ; ter. stan. GJ 1286
-M_Ks(M5.5V) =   8.89  ; Henry04 calibration for V-Ks=6.52
-M_Ks(M5.5V) =  8.816 ; sec. stan. GJ 551 = Proxima
-M_Ks(M5.5V) =  8.78  ; JohnsonApps09 calibration for V-Ks=6.50 [Fe/H]=0
-M_Ks(M5.5V) =   8.779 ; EEM calibration for V-Ks=6.50
-M_Ks(M5.5V) =   8.756 ; sec. stan. GJ 1061 
-M_Ks(M5.5V) =   8.71  ; Finch14 calibration for V-Ks=6.52
+
+M_J(M5.5V) =    9.21 ; PM_J22114+4059_ M5.5V plx=78.8762mas
+M_J(M5.5V) =    9.39 ; LP_795-15_ M5.5 plx=77.2783mas
+M_J(M5.5V) =    9.43 ; GJ_1245_C_ M5.5Ve plx=213.1329mas
+M_J(M5.5V) =    9.46 ; PM_J22403-4931A_ M5.5 plx=83.8577mas
+M_J(M5.5V) =    9.64 ; GJ_2045_ M5.5V plx=77.0838mas
+M_J(M5.5V) =   9.70 ; GJ_1061_ M5.5V plx=272.1615mas
+M_J(M5.5V) =   9.73 ; GJ_3512_ M5.5 plx=105.2935mas
+M_J(M5.5V) =   9.76 ; LP_415-302_ M5.5Ve plx=83.9948mas
+M_J(M5.5V) =   9.78 ; GJ_551_ M5.5Ve plx=768.0665mas
+M_J(M5.5V) =   9.80 ; LP_653-13_ M5.5V plx=76.6131mas
+M_J(M5.5V) =   9.84 ; GJ_3028_ M5.5V plx=81.5721mas
+M_J(M5.5V) =   9.89 ; LP_502-56_ M5.5V plx=116.0425mas
+M_J(M5.5V) =   9.89 ; PM_J18057-1422_ M5.5V plx=105.5229mas
+M_J(M5.5V) =   9.90 ; GJ_1002_ M5.5V plx=206.3500mas
+M_J(M5.5V) =   9.91 ; GJ_1187_ M5.5V plx=87.2032mas
+M_J(M5.5V) =   9.96 ; LEHPM_5031_ M5.5 plx=80.396mas
+M_J(M5.5V) =   9.99 ; LP_169-22_ M5.5 plx=95.5222mas
+M_J(M5.5V) =  10.00 ; LP_649-72_ M5.5V plx=80.0548mas
+M_J(M5.5V) =  10.01 ; GJ_3128_ M5.5V plx=108.2582mas
+M_J(M5.5V) =  10.07 ; GJ_3618_ M5.5V plx=206.9698mas
+
+M_Ks(M5.5V) =    8.27 ; PM_J22114+4059_ M5.5V plx=78.8762mas
+M_Ks(M5.5V) =    8.43 ; ter. stan. GJ 905
+M_Ks(M5.5V) =    8.44 ; LP_795-15_ M5.5 plx=77.2783mas
+M_Ks(M5.5V) =    8.50 ; GJ_1245_C_ M5.5Ve plx=213.1329mas
+M_Ks(M5.5V) =   8.62 ; PM_J22403-4931A_ M5.5 plx=83.8577mas
 M_Ks(M5.5V) =   8.66  ; Schlaufman10 calibration for V-KS=6.50 [Fe/H]=0
-M_Ks(M5.5V) =   8.434 ; ter. stan. GJ 905 
+M_Ks(M5.5V) =   8.71  ; Finch14 calibration for V-Ks=6.52 
+M_Ks(M5.5V) =   8.78 ; EEM calibration for V-Ks=6.50
+M_Ks(M5.5V) =  8.78 ; sec. stan. GJ_1061_ M5.5V plx=272.1615mas
+M_Ks(M5.5V) =   8.78 ; GJ_3512_ M5.5 plx=105.2935mas
+M_Ks(M5.5V) =  8.78  ; JohnsonApps09 calibration for V-Ks=6.50 [Fe/H]=0
+M_Ks(M5.5V) =   8.81 ; GJ_2045_ M5.5V plx=77.0838mas
+M_Ks(M5.5V) =  8.82 ; sec. stan. GJ 551 = Proxima M5.5Ve plx=768.0665mas
+M_Ks(M5.5V) =   8.82 ; LP_415-302_ M5.5Ve plx=83.9948mas
+M_Ks(M5.5V) =   8.88 ; LP_653-13_ M5.5V plx=76.6131mas
+M_Ks(M5.5V) =  8.89 ; Henry04 calibration for V-Ks=6.52
+M_Ks(M5.5V) =   8.89 ; GJ_3028_ M5.5V plx=81.5721mas
+M_Ks(M5.5V) =  8.90 ; ter. stan. GJ 1286
+M_Ks(M5.5V) =  8.96 ; JohnsonApps09 calibration for V-Ks=6.50
+M_Ks(M5.5V) =   8.97 ; GJ_1187_ M5.5V plx=87.2032mas
+M_Ks(M5.5V) =   8.98 ; LP_502-56_ M5.5V plx=116.0425mas
+M_Ks(M5.5V) =   8.98 ; PM_J18057-1422_ M5.5V plx=105.5229mas
+M_Ks(M5.5V) =  8.99 ; Dieterich14 calibration for V-Ks=6.50
+M_Ks(M5.5V) =   9.00 ; LP_649-72_ M5.5V plx=80.0548mas
+M_Ks(M5.5V) =  9.01 ; sec. stan. GJ_1002_ M5.5V plx=206.3500mas
+M_Ks(M5.5V) =   9.10 ; GJ_3128_ M5.5V plx=108.2582mas
+M_Ks(M5.5V) =   9.10 ; LP_169-22_ M5.5 plx=95.5222mas
+M_Ks(M5.5V) =   9.13 ; LEHPM_5031_ M5.5 plx=80.396mas
+M_Ks(M5.5V) =    9.31 ; GJ_3618_ M5.5V plx=206.9698mas
+=> adopt M_Ks(M5.5V) = 8.80 mag [updated 12/10/2020] (Mv=15.30, V-Ks=6.5)
+
 
 Teff(M5.5V) =  2800 K  ; Rajpurohit13(N=4)
 Teff(M5.5V) =  2875 K  ; Habets81
@@ -356,6 +396,7 @@ BCv(M5.5V) = -3.75  ; sec. stan. GJ 551 = Proxima Cen (calc. using Ribas17)
 BCv(M5.5V) = -3.752 ; sec. stan. GJ 551 = Proxima Cen (calc. using Rabus19)
 BCv(M5.5V) = -3.58  ; BC_K=2.92,V-Ks=6.50
 BCv(M5.5V) = -3.580 ; Mann15(V-J=5.583)
+BCv(M5.5V) =  -3.44 ; pri. stan. GJ 1245AC = G 208-44 (AB) (Kirkpatrick93) 
 => adopt BCv(M5.5V) = -3.58 [updated 7/17/2020; from BC_K=2.92,V-K=6.50]
 
 BC_K(M5.5V) = 2.977 ; sec. stan. GJ 551 = Prox Cen (calc. using Ribas17)
@@ -433,7 +474,8 @@ GJ 1245AC = G 208-44 = LHS 3494 = NLTT 48414
   224.6+-5.4mas(Newton14). Mv=15.12. [M/H]=-0.09+-0.12(Rojas-Ayala12),
   [Fe/H]=-0.14+-0.17(Rojas-Ayala12). R=0.1430+-0.0069 Rsun(Mann15),
   M=0.103+-0.010 Msun(Mann15), [Fe/H]=-0.05+-0.08(Mann15).
-  fbol=0.19860+-0.00320 (10pW/m2)(Mann15).
+  fbol=0.19860+-0.00320 (10pW/m2)(Mann15).  BCv = Mbol - Mv = 11.59 -
+  15.03 = -3.44(Kirkpatrick93).
   
 # Secondary Standards
 

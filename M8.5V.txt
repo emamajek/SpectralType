@@ -276,21 +276,53 @@ Mv(M8.5V)   = 19.20  ; V-Ks=8.9, M_Ks=10.3
 Mv(M8.5V)   = 19.14  ; EEM fit to Dieterich14 data V-K=8.92
 => adopt Mv(M8.5V) = 19.20 [updated 11/1/2019; M_Ks=10.3, V-Ks=8.9]
 
-M_Ks(M8.5V) =  10.582 ; exemplar LSR J1826+3014 
-M_Ks(M8.5V) = 10.581  ; pri. stan. TVLM 513-46546 
-M_Ks(M8.5V) = 10.497  ; sec. stan. SCR 1845-6357
-M_Ks(M8.5V) =  10.46  ; Dupuy12 mean 
-M_Ks(M8.5V) =  10.420 ; exemplar DENIS J1048-3956
-M_Ks(M8.5V) =  10.405 ; exemplar LSR J1835+3259
-M_Ks(M9V)   =   10.40 ; adopted for M9V
-M_Ks(M8.5V) =  10.38  ; EEM fit to Reid CNS3 data for V-Ks=8.90
-M_Ks(M8.5V) =   10.27 ; interp M8V-M9V V-Ks vs. M_Ks
-M_Ks(M8.5V) =  10.26  ; EEM fit to Dieterich14 data for V-Ks=8.90
-M_Ks(M8.5V) =  10.24  ; exemplar DENIS J235359.4-083331 
-M_Ks(M8.5V) =  10.22  ; exemplar CTI 012657.5+280202
-M_Ks(M8.5V) =  10.20  ; exemplar Ruiz 207-61
-M_Ks(M8V)   =   10.00 ; adopted for M8V 
+M_J(M8.5V) =   10.63 ; 2MASS_J16334976-6808488_ M8.5V plx=65.1963mas
+M_J(M8.5V) =   11.08 ; LSPM_J1551+6457_ M8.5e plx=43.5202mas
+M_J(M8.5V) =   11.09 ; LSPM_J0140+2701_ M8.5V plx=52.6026mas
+M_J(M8.5V) =   11.15 ; 2MASS_J14582453+2839580_ M8.5V plx=41.1379mas
+M_J(M8.5V) =   11.22 ; APMPM_J2354-3316C_ M8.5Ve plx=42.9911mas
+M_J(M8.5V) =   11.22 ; V*_DG_Phe_ M8.5e plx=62.789mas
+M_J(M8.5V) =   11.24 ; 2MASS_J10195684+7324087_ M8.5 plx=46.2396mas
+M_J(M8.5V) =   11.39 ; 2MUCD_10984_ M8.5V plx=54.3132mas
+M_J(M8.5V) =   11.43 ; LSR_J1826+3014_ M8.5V plx=90.0858mas
+M_J(M8.5V) =   11.49 ; 2MASS_J20103539+0634367_ M8.5V plx=61.849mas
+M_J(M8.5V) =   11.49 ; LSR_J1835+3259_ M8.5V plx=175.7930mas
+M_J(M8.5V) =   11.49 ; SIPS_J1021-2044_ M8.5V plx=45.7343mas
+M_J(M8.5V) =   11.50 ; DENIS_J104814.6-395606_ M8.5Ve: plx=247.2156mas
+M_J(M8.5V) =   11.53 ; SCR_J1845-6357_ M8.5V plx=249.6651mas
+M_J(M8.5V) =   11.65 ; 2MASS_J03202839-0446358_ M8.5+T5 plx=47.6021mas
+M_J(M8.5V) =   11.69 ; SSSPM_J2258-4639_ M8.5 plx=41.1418mas
+M_J(M8.5V) =   11.71 ; TVLM_513-46_ M8.5V plx=93.1655mas
+
+
+M_Ks(M8.5V) =    9.55 ; 2MASS_J16334976-6808488_ M8.5V plx=65.1963mas
+M_Ks(M8.5V) =    9.91 ; LSPM_J1551+6457_ M8.5e plx=43.5202mas
+M_Ks(M8.5V) =    9.92 ; 2MASS_J14582453+2839580_ M8.5V plx=41.1379mas
 M_Ks(M8.5V) =    9.94 ; Dupuy12 polynomial
+M_Ks(M8V)   =   10.00 ; adopted for M8V 
+M_Ks(M8.5V) =   10.04 ; LSPM_J0140+2701_ M8.5V plx=52.6026mas
+M_Ks(M8.5V) =   10.05 ; APMPM_J2354-3316C_ M8.5Ve plx=42.9911mas
+M_Ks(M8.5V) =   10.08 ; V*_DG_Phe_ M8.5e plx=62.789mas
+M_Ks(M8.5V) =   10.14 ; 2MASS_J10195684+7324087_ M8.5 plx=46.2396mas
+M_Ks(M8.5V) =  10.20  ; exemplar Ruiz 207-61
+M_Ks(M8.5V) =  10.22  ; exemplar CTI 012657.5+280202
+M_Ks(M8.5V) =   10.24 ; 2MUCD_10984_ M8.5V plx=54.3132mas
+M_Ks(M8.5V) =  10.24  ; exemplar DENIS J235359.4-083331 plx=45.7576mas
+M_Ks(M8.5V) =  10.26  ; EEM fit to Dieterich14 data for V-Ks=8.90
+M_Ks(M8.5V) =   10.27 ; interp M8V-M9V V-Ks vs. M_Ks
+M_Ks(M8.5V) =   10.37 ; SIPS_J1021-2044_ M8.5V plx=45.7343mas
+M_Ks(M8.5V) =   10.38 ; 2MASS_J20103539+0634367_ M8.5V plx=61.849mas
+M_Ks(M8.5V) =  10.38  ; EEM fit to Reid CNS3 data for V-Ks=8.90
+M_Ks(M9V)   =   10.40 ; adopted for M9V
+M_Ks(M8.5V) =  10.405 ; exemplar LSR J1835+3259 M8.5V plx=175.7930mas
+M_Ks(M8.5V) =  10.420 ; exemplar DENIS J1048-3956 M8.5Ve: plx=247.2156mas
+M_Ks(M8.5V) =  10.46  ; Dupuy12 mean 
+M_Ks(M8.5V) = 10.497  ; sec. stan. SCR 1845-6357 M8.5V plx=249.6651mas
+M_Ks(M8.5V) =   10.52 ; 2MASS_J03202839-0446358_ M8.5+T5 plx=47.6021mas
+M_Ks(M8.5V) =   10.58 ; LSR_J1826+3014_ M8.5V plx=90.0858mas
+M_Ks(M8.5V) = 10.581  ; pri. stan. TVLM 513-46546  M8.5V plx=93.1655mas
+M_Ks(M8.5V) =  10.582 ; exemplar LSR J1826+3014 
+M_Ks(M8.5V) =   10.67 ; SSSPM_J2258-4639_ M8.5 plx=41.1418mas
 => adopt M_Ks(M8.5V) = 10.30 [updated 11/1/2019; Mv=19.2, V-Ks=8.9]
 
 logL(M8.5V) = -3.45 +-0.02; exemplar Ruiz 207-61 = ESO 207-61 

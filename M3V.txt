@@ -172,14 +172,14 @@ as the M3.5V standard, and Gl 752B (=vB 10) as the M8V standard.
 (V-Ic)(M3V) =  2.649 ; deprecated stan. GJ 628 = Wolf 1061 (Landolt standard)
 => adopt (V-Ic)(M3V) = 2.46 [updated 9/1/2023; V-Rc=1.08, R-Ic=1.38]
 
-(V-Ij)(M3V) = 2.94  ; Johnson65,Johnson66
+(V-Ij)(M3V) = 2.94 ; Johnson65,Johnson66
 
-(V-Jj)(M3V) = 3.66  ; Johnson65,Johnson66
+(V-Jj)(M3V) = 3.66 ; Johnson65,Johnson66
 
 (V-J)(M3V) = 3.537 ; GJ 752A pri. stan.
 (V-J)(M3V) = 3.91 (+-0.28 stdev) ; Lepine12
 
-(V-Kj)(M3V)    =  4.57  ; Johnson65,Johnson66
+(V-Kj)(M3V) =  4.57 ; Johnson65,Johnson66
 
 (V-K)(M3V) = 4.60 ; Beuermann06/CIT
 (V-K)(M3V) = 4.60 ; Leggett92/CIT "young disk"
@@ -741,6 +741,7 @@ BCv(M3V) =     -2.30 mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(M3V) =   -2.033 mag ; exemplar GJ 581 = Wolf 562 
 BCv(M3V) =   -2.039 mag ; sec. stan. GJ 725A (see notes below)
 BCv(M3V) =   -2.108 mag ; ter. stan. GJ 109 (see notes below)
+BCv(M3V) =   -2.195 +-0.029 mag ; deprecated stan. GJ 388 = AD Leo (calc using Cushing05)
 BCv(M3V) =   -2.248 mag ; sec. stan. GJ 251 (see notes below)
 BCv(M3V) =    -2.509 mag ; deprecated stan. GJ 628 (see notes below)
 BCv(M3V) =     -2.672 mag ; Flower96(Teff=3400K)
@@ -1205,6 +1206,9 @@ GJ 388 = AD Leo = Gam Leo C = BD+20_2465 = StKM 2-626
   B-V=1.544+-0.009(Mermilliod91), U-B=1.075+-0.019(Mermilliod91),
   J=5.449+-0.027(2MASS), H=4.843+-0.020(2MASS,flag=E),
   Ks=4.593+-0.017(2MASS). V-Ks=4.828(Mermilliod91,2MASS).
+  fbol=3.24e-11+-7.11e-13W/m2(Cushing05) =>
+  mbol=7.2262+-0.0238mag(Cushing05/IAU2015scale) => BCv = mbol - Vmag
+  = 7.2262+-0.0238 - 9.421+-0.017 = -2.195+-0.029(Cushing05).
   
 # Exemplars
 

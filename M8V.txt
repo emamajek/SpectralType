@@ -17,6 +17,7 @@ Henry04 standard:                  GJ 752B (=VB 10) - M8.0V (primary standard)
 Kirkpatrick(GrayCorbally09) stan.: GJ 752B (=VB 10) - M8V (primary standard)
 Kirkpatrick10 standard:            GJ 752B (=VB 10) - M8V (pri. stan. (0.7-2.5um/SpeX))
 Kirkpatrick16 standard:	    	   LP 412-31 - M8V
+Brock21 standard:                  GJ 752B (=VB 10) - M8 (Spex standard) 
 
 Kirkpatrick12 lists only 1 M8V star within 8pc: GJ 752B (=VB10)
 
@@ -677,9 +678,12 @@ BC_G(M8V) = -2.192+-0.163 ; Cifuentes20
 BC_J(M8V) =  2.026 ; Sanghi24 M6V-T9V trend
 BC_J(M8V) =  2.082 +-0.049 ; Cifuentes20 
 
-BCv(M8V) =  -3.97 mag ; Schmidt-Kaler82(BCv=-4.1 + 0.13 offset)
-BCv(M8V) =  -4.2  mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84; uncertain)
+BCv(M8V) =  -3.97  mag ; Schmidt-Kaler82(BCv=-4.1 + 0.13 offset)
+BCv(M8V) =  -4.2   mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84; uncertain)
+BCv(M8V) =  -5.54  mag ; pri. stan. GJ 752B (Kirkpatrick93)
+BCv(M8V) =  -5.631 mag ; pri. stan. GJ 752B (calc using Cushing05) 
 BCv(M8V) = -5.65 mag ; BC_K=3.05, V-K=8.70
+BCv(M8V) =  -5.732 mag ; sec. stan. LHS 2397a (calc using Schmidt07)
 BCv(M8V) = -5.79 mag ; Mbol=13.09, Mv=18.88
 => adopt BCv(M8V) = -5.65 mag [updated 11/3/2019]
 
@@ -687,6 +691,7 @@ BC_Ks(M8V) = 2.879 ; pri. stan. GJ 752B (see below)
 BC_Ks(M8V) = 2.94  ; Mbol=13.09, M_Ks=10.15 (based on Dieterich14)
 BC_Ks(M8V) = 3.00  ; Schmidt14 (rms = 0.07)
 BC_Ks(M8V) = 3.001 ; sec. stan. LP 412-31 (see below)
+BC_Ks(M8V) = 3.004 ; sec. stan. LHS 2397a (calc using Schmidt07)
 BC_Ks(M8V) = 3.054 ; sec. stan. LHS 2397a (see below)
 BC_Ks(M8V) = 3.055 ; Filipazzo15 (field)
 BC_K(M8V)  =  3.077 ; Leggett01 polynomial for J-K=1.121
@@ -694,12 +699,14 @@ BC_Ks(M8V) = 3.089 ; Sanghi24
 BC_K(M8V)  =  3.097 ; Golimowski04(SpT function)
 BC_K(M8V)  =  3.114 ; Leggett01 polynomial for I-K=4.143
 BC_Ks(M8V) = 3.132 ; interp M6V-L1V for V-Ks=8.70
+BC_Ks(M8V) = 3.159 +-0.037 ; pri. stan. GJ 752B (calc using Cushing05)
 => adopt BC_K(M8V) = 3.05 [adopted 11/3/2019]
 
 logL(M8V) =  -3.625 ; ESO207-061 (Dieterich14)
 logL(M8V) =  -3.507 ; LP 771-21 (Dieterich14)
 logL(M8V) =  -3.399 ; LHS 2195 (Dieterich14)
-logL(M8V) =  -3.340 ; pri. stan. GJ 752B (Dieterich14)
+logL(M8V) =  -3.340 ; pri. stan. GJ 752B = VB 10 (Dieterich14)
+logL(M8V) =  -3.34 +-0.01 ; pri. stan. GJ 752B = VB 10 (Cushing05)
 logL(M8V) = -3.292 ; M_Ks=9.92, BC_K=3.05 => Mbol=12.970
 logl(M8V) =  -3.29 +-0.02 ; sec. stan. LP 412-31 = NLTT 10644 (Sanghi23)
 logL(M8V) =  -3.271 ; SIP1607-0442 (Dieterich14)
@@ -790,6 +797,12 @@ GJ 752B = VB 10 = V1298 Aql = LHS 474 = LTT 15646 = G 22-22B = Gaia DR3 42933157
   plx=170.26+-1.37(Gould04,HIP), plx=173.3+-4.0 mas(Harrington93),
   plx=170.1+-0.8mas(Newton14).  logL=-3.71+-0.17(Newton14),
   -3.34+-0.009(Dieterich14), Rad=0.115+-0.003(Dieterich14).
+  BCv(Kirkpatrick93) = Mbol - Mv = 13.03 - 18.57 =
+  -5.54(Kirkpatrick93).  fbol=4.28e-13+-1.19e-14W/m2(Cushing05) =>
+  mbol=11.9239+-0.0302mag(Cushing05/IAU2015scale) => BCv = mbol - V =
+  11.9239+-0.0302 - 17.554440 = -5.631(Cushing05,GaiaDR3/synth) =>
+  BC_Ks = mbol - Ks = 11.9239+-0.0302 - 8.765+-0.022 =
+  3.159+-0.037(Cushing05,2MASS).
 
   (Bp-Rp) = 4.9714 ; pri. stan. GJ 752B = VB 10 (GaiaDR3)
    (Bp-G) = 3.4429 ; pri. stan. GJ 752B = VB 10 (GaiaDR3)
@@ -838,24 +851,14 @@ LHS 2397a = LP 732-94 = GJ 3655 = NN 3655 = NSV 18756
   H=11.1762+-0.0008(Plavchan08/2MASS), H=11.233+-0.025(2MASS),
   H=11.329+-0.030(Dupuy12/MKO), Ks=10.6948+-0.0007(Plavchan08/2MASS),
   Ks=10.735+-0.023(2MASS), L'=10.201+-0.022(Dupuy12/MKO),
-  V-Ks=8.69(Hosey15).  Calculate colors from adopted values:
-  V-Rc = 19.43 - 17.286 = 2.14,
-  R-Ic = 17.286 - 14.851 = 2.435,
-  V-Ic = 19.43 - 14.851 = 4.58,
-  V-J = 19.43 - 11.8968 = 7.53,
-  J-H = 11.8968 - 11.1762 = 0.7206,
-  V-H = 19.43 - 11.1762 = 8.25,
-  H-Ks = 11.1762 - 10.6948 = 0.4814,
-  V-Ks = 19.43 - 10.6948 = 8.74,
-  I-Ks = 14.851 - 10.6948 = 4.156.
-  
-  WISE: W1=10.345+-0.028,
-  W2=10.087+-0.030,
-  W3=9.583+-0.039.
-  AllWISE: W1=10.349+-0.036,
-  W2=10.070+-0.038,
+  V-Ks=8.69(Hosey15).  Calculate colors from adopted values: V-Rc =
+  19.43 - 17.286 = 2.14, R-Ic = 17.286 - 14.851 = 2.435, V-Ic = 19.43
+  - 14.851 = 4.58, V-J = 19.43 - 11.8968 = 7.53, J-H = 11.8968 -
+  11.1762 = 0.7206, V-H = 19.43 - 11.1762 = 8.25, H-Ks = 11.1762 -
+  10.6948 = 0.4814, V-Ks = 19.43 - 10.6948 = 8.74, I-Ks = 14.851 -
+  10.6948 = 4.156.  WISE: W1=10.345+-0.028, W2=10.087+-0.030,
+  W3=9.583+-0.039.  AllWISE: W1=10.349+-0.036, W2=10.070+-0.038,
   W3=9.603+-0.055.  Ks-W1=0.390(WISE), Ks-W1=0.386(allWISE).
-
   Mv=18.795+-0.066(Monet92,Leggett92),
   M_Ks=9.920+-0.065(Plavchan08,Monet92). mbol=13.748+-0.066(JHK=>Pecaut13).
   BC_Ks=13.748-10.6948 = 3.054.  Teffs: 2300K(Irwin91),
@@ -864,7 +867,11 @@ LHS 2397a = LP 732-94 = GJ 3655 = NN 3655 = NSV 18756
   G=16.4168+-0.0022(GaiaDR2), Bp-Rp=4.7954(GaiaDR2),
   Bp-G=3.2028(GaiaDR2), G-Rp=1.5926(GaiaDR2).  G-V = 16.4168 - 19.43 =
   -3.0132(GaiaDR2). (G-Ks)=5.682, M_G=15.627, M_Ks=9.945,
-  Mv=18.64(Hosey15,GaiaDR2).
+  Mv=18.64(Hosey15,GaiaDR2). fbol=8.35e-11mW/m2(Schmidt07) =>
+  mbol=13.6983(Schmidt07/IAU2015scale) => BCv = mbol - V =
+  13.6983(Schmidt07) - 19.43(Hosey15) = -5.732(Schmidt07,Hosey15) =>
+  BC_Ks = mbol - Ks = 13.6983(Schmidt07) - 10.6948(Plavchan08) =
+  3.004(Schmidt07,Plavchan08).
 
         G = 16.3925+-0.0039 ; LHS_2397a (GaiaDR3)
   (Bp-Rp) =  4.6253 ; LHS_2397a (GaiaDR3)

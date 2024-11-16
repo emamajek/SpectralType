@@ -282,7 +282,6 @@ Mv(M0.5V) =  9.28 ; V-Ks=3.84 => JohnsonApps09 polynomial
 Mv(M0.5V) =  9.30 ; V-Ks=3.84 => BurgasserMamajek17 polynomial
 => adopt Mv(M0.5V)   = 9.20 mag [updated 11/3/2019] 
 => adopt M_G(M0.5V)  = 8.45 mag [updated 11/15/2022] (Mv=9.20, G-V=-0.75)
-=> adopt M_Ks(M0.5V) = 5.36 mag [updated 11/3/2019]  (Mv=9.20, V-Ks=3.84)
 
 M_G(M0.5V) =  7.42327 ; * alf Gem C                 
 M_G(M0.5V) =  7.44597 ; HD 28343                     
@@ -304,8 +303,49 @@ M_G(M0.5V) =  8.58211 ; HD 331161A
 M_G(M0.5V) =  8.66183 ; HD 115404B                   
 M_G(M0.5V) =  8.82648 ; BD+19 3268
 
-M_Ks(M0.5V) = 5.20 ; pri. stan. GJ 846 
-M_Ks(M0.5V) = 5.17 ; sec. stan. GJ 96
+M_J(M0.5V) =    5.42 ; GJ_169_ M0.5V plx=89.0546mas
+M_J(M0.5V) =    5.55 ; GJ_1278_ M0.5V plx=49.2046mas
+M_J(M0.5V) =   5.84 ; GJ_4_B_ M0.5V plx=86.8206mas
+M_J(M0.5V) =   5.85 ; GJ_2154_A_ M0.5Vk plx=47.4196mas
+M_J(M0.5V) =   5.89 ; GJ_172_ M0.5V plx=100.9161mas
+M_J(M0.5V) =   5.92 ; GJ_373_ M0.5V plx=95.0477mas
+M_J(M0.5V) =   5.92 ; GJ_720_A_ M0.5V plx=64.2358mas
+M_J(M0.5V) =   6.04 ; GJ_3942_ M0.5V plx=58.9971mas
+M_J(M0.5V) =   6.07 ; GJ_846_ M0.5V plx=94.5637mas
+M_J(M0.5V) =   6.09 ; GJ_730_ M0.5V plx=47.0769mas
+M_J(M0.5V) =   6.12 ; GJ_875_ M0.5V plx=68.9303mas
+M_J(M0.5V) =   6.16 ; GJ_767_A_ M0.5V plx=71.7155mas
+M_J(M0.5V) =   6.29 ; GJ_184_ M0.5V plx=72.1734mas
+M_J(M0.5V) =   6.33 ; GJ_505_B_ M0.5V plx=90.9475mas
+M_J(M0.5V) =   6.38 ; GJ_2043_A_ M0.5V plx=58.1993mas
+M_J(M0.5V) =   6.40 ; GJ_369_ M0.5 plx=76.1644mas
+M_J(M0.5V) =   6.41 ; GJ_4120_ M0.5V plx=47.5306mas
+M_J(M0.5V) =   6.43 ; GJ_3018_ M0.5 plx=53.2805mas
+M_J(M0.5V) =    6.80 ; PM_J08104-1109_ M0.5V plx=50.4511mas
+
+
+M_Ks(M0.5V) =    4.62 ; GJ_169_ M0.5V plx=89.0546mas
+M_Ks(M0.5V) =    4.73 ; GJ_1278_ M0.5V plx=49.2046mas
+M_Ks(M0.5V) =   4.98 ; GJ_4_B_ M0.5V plx=86.8206mas
+M_Ks(M0.5V) =   5.00 ; GJ_2154_A_ M0.5Vk plx=47.4196mas
+M_Ks(M0.5V) =   5.07 ; GJ_172_ M0.5V plx=100.9161mas
+M_Ks(M0.5V) =   5.09 ; GJ_373_ M0.5V plx=95.0477mas
+M_Ks(M0.5V) =   5.12 ; GJ_720_A_ M0.5V plx=64.2358mas
+M_Ks(M0.5V) =  5.17 ; sec. stan. GJ 96 
+M_Ks(M0.5V) =   5.19 ; GJ_3942_ M0.5V plx=58.9971mas
+M_Ks(M0.5V) =  5.20 ; pri. stan. GJ_846_ M0.5V plx=94.5637mas
+M_Ks(M0.5V) =   5.22 ; GJ_730_ M0.5V plx=47.0769mas
+M_Ks(M0.5V) =   5.30 ; GJ_875_ M0.5V plx=68.9303mas
+M_Ks(M0.5V) =   5.32 ; GJ_767_A_ M0.5V plx=71.7155mas
+M_Ks(M0.5V) =   5.46 ; GJ_184_ M0.5V plx=72.1734mas
+M_Ks(M0.5V) =   5.54 ; GJ_505_B_ M0.5V plx=90.9475mas
+M_Ks(M0.5V) =   5.56 ; GJ_369_ M0.5 plx=76.1644mas
+M_Ks(M0.5V) =   5.57 ; GJ_4120_ M0.5V plx=47.5306mas
+M_Ks(M0.5V) =   5.58 ; GJ_3018_ M0.5 plx=53.2805mas
+M_Ks(M0.5V) =   5.61 ; GJ_2043_A_ M0.5V plx=58.1993mas
+M_Ks(M0.5V) =    5.96 ; PM_J08104-1109_ M0.5V plx=50.4511mas
+=> adopt M_Ks(M0.5V) = 5.36 mag [updated 11/3/2019]  (Mv=9.20, V-Ks=3.84)
+
 
 BC_G(M0.5V) = -0.570+-0.067 ; Cifuentes20
 

@@ -1,9 +1,15 @@
 T9V
 
 Standards:
-Cushing11 standard : UGPS J072227.51−054031.2 (UGPS J0722-05) - T9 standard
-Kirkpatrick11 stan.: WISEP J174124.25+255319.5 (WISE J1741+2553) - T9 opt. stan. "T_o9"
-Theissen22 standard: UGPS J072227.51−054031.2 (J0722-0540) - T9 (pri. stan. (0.9-2.45um/NIRES))
+Cushing11 standard :   UGPS J072227.51−054031.2 (UGPS J0722-05) - T9 standard
+Kirkpatrick11 stan.:   WISEP J174124.25+255319.5 (WISE J1741+2553) - T9 opt. stan. "T_o9"
+Brock21 standard:      UGPS J072227.51−054031.2 (J0722-0540) - T9 (Spex spectral standard) 
+Theissen22 standard:   UGPS J072227.51−054031.2 (J0722-0540) - T9 (pri. stan. (0.9-2.45um/NIRES))
+Burgasser24 standards: UGPS J072227.51−054031.2 (J0722-0540) - dT9 (pri. dwarf near-IR standard)
+	    	       J0833+0052 - d/sdT9 (pri. mild subdwarf near-IR standard)
+
+Burgasser06 "unified near-infrared spectral classification scheme for
+T dwarfs" did not include standards later than T8.
 
 Teff(T9V) =  336 K ; Sanghi23 M6V-T9V field dwarf polynomial (discrepent due to end of polynomial?)
 Teff(T9V) =   345 +-45K (but 10 Gyr old) ; Dupuy15 WISE J014656.66+423410.0 A
@@ -161,7 +167,19 @@ M_W2(T9V) = 13.92 (+-0.24 rms) ; Tinney14(N=8)
 
 BC_YJH(T9V) = 1.6+-0.6 ; Dupuy15
 
+BC_J_MKO(T9V) = 2.59 +-0.23 ; Zhang21 (T8.5-T9 bin)
+BC_J_MKO(T9V) = 2.29 +-0.07 ; Zhang21 (T9-T9.5 bin)
+=> BC_J_MKO(T9V) = 2.44 [updated 11/15/2024]
+
+BC_J_MKO(T9V) = 2.16 +-0.20 ; Zhang21 (T8.5-T9 bin)
+BC_J_MKO(T9V) = 2.04 +-0.11 ; Zhang21 (T9-T9.5 bin)
+=> adopt BC_J_MKO(T9V) = 2.10 [updated 11/15/2024]
+
 BC_J(T9V) = 1.839 ; Sanghi23 M6V-T9V trend
+
+BC_K_MKO(T9V) = 2.17 +-0.20 ; Zhang21 (T8.5-T9 bin)
+BC_K_MKO(T9V) = 1.69 +-0.37 ; Zhang21 (T9-T9.5 bin)
+=> adopt BC_K_MKO(T9V) = 1.93: [updated 11/15/2024] 
 
 BC_Ks(T9V) = 1.674 mag ; Sanghi23 M6V-T9V field dwarf polynomial
 
@@ -187,7 +205,7 @@ logg(T9V) = 4.40-4.94 ; Dupuy13 mean (range: 1-5Gyr)
 # Standards
 
 UGPS J072227.51−054031.2 = UGPS 0722-05 = WISEP J072227.27-054029.9 = WISE J072227.27-054029.9
- *T9: Cushing11(stan),Kirkpatrick11,Bochanski11,,Schneider16,Kirkpatrick20(opt.&near-IR)
+ *T9: Cushing11(stan),Kirkpatrick11,Bochanski11,,Schneider16,Kirkpatrick20(opt.&near-IR),Burgasser24(dT9 near-IR stan)
   T10/Y0?: Lucas10
 
   Very nearby, bright late T dwarf (plx = 242.8+-2.4 mas;

@@ -691,6 +691,7 @@ BCv(M4V) =     -2.31 mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(M4V) =    -2.33 mag ; deprecated stan. Barnard's star (Leggett96)
 BCv(M4V) =   -2.338 mag ; deprecated stan. Barnard's star (GJ 699) (Pecaut13)
 BCv(M4V) =  -2.380 mag ; Casagrande18(Teff=3250K)
+BCv(M4V) =  -2.446 +-0.023 mag ; pri. stan. GJ 213 = Ross 47 (calc using Cushing05)
 BCv(M4V) =  -2.452 mag ; Mann15(V-J=4.363)
 BCv(M4V) =   -2.46 mag ; sec. stan. GJ 213 (Leggett96)
 BCv(M4V) = -2.475 mag ; pri. stan. GJ 402 (Mann15)
@@ -698,6 +699,7 @@ BCv(M4V) =  -2.50 mag ; tertiary stan. GJ 299 (Leggett96)
 BCv(M4V) = -2.51 mag ; BC_K=2.74, V-Ks=5.25
 BCv(M4V) = -2.540 mag ; pri. stan. GJ 213 (Mann15)
 BCv(M4V) =    -2.56 mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
+BCv(M4V) =    -2.57 mag ; sec. stan. GJ 213 (Kirkpatrick93) 
 BCv(M4V) =    -2.686 mag ; exemplar GJ 324B = 55 Cnc B ([Fe/H] ~ +0.33)
 BCv(M4V) =    -3.382 mag ; Flower96(Teff=3250K)
 BCv(M4V) =     -3.96 mag ; Habets81
@@ -854,18 +856,22 @@ GJ 213 = Ross 47 = V1352 Ori = LHS 31 = HIP 26857 (J0542+1229)
   V=11.56+-0.01 and plx = 171.55+-3.99 mas, I get Mv = 12.732+-0.051.
   M_Ks=7.561+-0.053(2MASS, vanLeeuwen07).  Leggett96 derives:
   flux=6.03e-12 W/m^2, logL=-2.18, mbol=9.07, Mbol=10.20, BCv=-2.46,
-  BC_K=2.70.  Teffs: 3167K(RojasAyala12), 3200K(Brett95),
-  3250+-150K(Leggett96), 3266+-90K(Hojjatpanah20),
-  3352+-72K(Casagrande08), 3375+-125K(Kirkpatrick93) => median Teff =
-  3250K.  GaiaDR2: plx = 172.7068 +- 0.0788mas, G=10.0991+-0.0015,
-  Bp-G = 2.8746, G-Rp = 1.6615, G-Rp=1.2131. V-G=11.56-10.0991 =
-  1.4609.  Mann15: fbol = (0.6002+-0.0090)e-8 erg/s/cm2 => mbol =
-  9.057+-0.016 (IAU2015 scale) => BCv = mbol - V = 9.057 - 11.597 =
-  -2.54 => BC_Ks = mbol - Ks = 9.057 - 6.389 = 2.668. Metallicities:
+  BC_K=2.70. fbol=5.97e-12+-1.24e-13W/m2(Cushing05) =>
+  mbol=9.0626+-0.0226mag(Cushing05,IAU2015) => BCv = mbol - Vmag =
+  9.0626+-0.0226 - 11.509+-0.0013 = -2.446+-0.023(Cushing05).  Teffs:
+  3167K(RojasAyala12), 3200K(Brett95), 3250+-150K(Leggett96),
+  3266+-90K(Hojjatpanah20), 3352+-72K(Casagrande08),
+  3375+-125K(Kirkpatrick93) => median Teff = 3250K.  GaiaDR2: plx =
+  172.7068 +- 0.0788mas, G=10.0991+-0.0015, Bp-G = 2.8746, G-Rp =
+  1.6615, G-Rp=1.2131. V-G=11.56-10.0991 = 1.4609.  Mann15: fbol =
+  (0.6002+-0.0090)e-8 erg/s/cm2 => mbol = 9.057+-0.016 (IAU2015 scale)
+  => BCv = mbol - V = 9.057 - 11.597 = -2.54 => BC_Ks = mbol - Ks =
+  9.057 - 6.389 = 2.668. Metallicities:
   [Fe/H]=0.01+-0.16(Schweitzer16), [Fe/H]=-0.11(Neves13#1),
   [Fe/H]=-0.16+-0.05(Hojjatpanah20), [M/H]=-0.17+-0.02(RoyasAyala12),
   [Fe/H]=-0.21(Neves13#2), [Fe/H]=-0.22+-0.08(Mann15),
   [Fe/H]=-0.25+-0.17(RoyasAyala12) => [Fe/H]~-0.2.
+  
 
 # Secondary Standards
 

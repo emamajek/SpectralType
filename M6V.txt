@@ -690,35 +690,39 @@ BCv(M6V) =   -2.32 mag  ; Bertone04[NextGen]
 BCv(M6V) =   -2.97 mag  ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(M6V) =   -3.08 mag  ; Schmidt-Kaler82(BCv=-3.21 + 0.13 offset)
 BCv(M6V) =   -3.115 mag ; Casagrande08 for Teff=2810K
-BCv(M6V) = -3.753 mag   ; sec. stan. GJ 1245B (calc using Mann15)
+BCv(M6V) =   -3.66 mag  ; sec. stan. GJ 1245B = G 208-45 (Kirkpatrick93) 
+BCv(M6V) = -3.753 mag   ; sec. stan. GJ 1245B = G 208-45 (using Mann15)
 BCv(M6V) = -4.13  mag   ; BC_K=2.97, V-K=7.30
 BCv(M6V) = -4.136 mag   ; consensus trend for Teff=2850K
 BCv(M6V) = -4.305 mag   ; Mann15(V-J=6.343)
-BCv(M6V) = -4.413 mag   ; pri. stan. GJ 406, using Mann15
+BCv(M6V) =   -4.41 mag  ; pri. stan. GJ 406 (Kirkpatrick93) 
+BCv(M6V) = -4.413 mag   ; pri. stan. GJ 406 (using Mann15)
 BCv(M6V) =   -4.43 mag  ; Bessell91("old disk"; BCv = (V-I)-BC_I)
 BCv(M6V) =   -4.438 mag ; pri. stan. GJ 406/LHS 36 (Golimowski04; using BC_Ks & calc. Mv)
-BCv(M6V) =   -4.487 mag ; pri. stan. GJ 406, using Pavlenko06 below
+BCv(M6V) =   -4.455 mag ; pri. stan. GJ 406 (using Cushing05) 
+BCv(M6V) =   -4.487 mag ; pri. stan. GJ 406 (using Pavlenko06) 
 => adopt BCv(M6V) = -4.13 mag [updated 11/3/2019; BC_Ks=2.97, V-Ks=7.10]
 
-BC_Ks(M6V) = 3.042 mag ; pri. stan. Wolf 359(calc. Rabus19)
+BC_Ks(M6V) = 3.042 mag ; pri. stan. Wolf 359(calc. using Rabus19)
 BC_K(M6V)  =  3.034 mag ; Golimowski04(SpT function)
-BC_K(M6V)  = 3.01  mag ; pri. stan. Wolf359/LHS 36 (Golimowski04)
-BC_K(M6V)  = 3.010 mag ; pri. stan. Wolf359 (calc. using Mann15)
-BC_Ks(M6V) = 3.001 mag ; Sanghi24 
-BC_K(M6V)  =  2.97  mag ; LHS 36 (Leggett01)
+BC_K(M6V)  = 3.01 mag ; pri. stan. Wolf 359 (calc. using Golimowski04)
+BC_K(M6V)  = 3.010 mag ; pri. stan. Wolf 359 (calc. using Mann15)
+BC_Ks(M6V) = 3.001 mag ; Sanghi24
+BC_Ks(M6V) = 2.991 +-0.031 mag ; pri. stan. Wolf 359 (calc. using Cushing05)
+BC_K(M6V)  =  2.97 mag ; LHS 36 (Leggett01)
 BC_K(M6V)  = 2.968 mag ; Mann15(V-J=6.154)
 BC_K(M6V)  =  2.946 mag ; Leggett01 polynomial for I-K=3.186
-BC_K(M6V)  = 2.936 mag ; pri. stan. Wolf359 (calc using Pavlenko06)
-BC_K(M6V)  = 2.870 mag ; sec. stan. GJ 1245B (calc using Mann15)
+BC_K(M6V)  = 2.936 mag ; pri. stan. Wolf359 (calc. using Pavlenko06)
+BC_K(M6V)  = 2.870 mag ; sec. stan. GJ 1245B (calc. using Mann15)
 BC_K(M6V)  =  2.855 mag ; Leggett01 polynomial for J-K=0.957
 => adopt BC_Ks(M6V) = 2.97 mag [last updated 11/3/2019]
 
-logL(M6V) =  -3.03+-0.00 ; pri. stan. Wolf 359 (Filipazzo15)
+logL(M6V) =  -3.03 +-0.00 dex ; pri. stan. Wolf 359 (Filipazzo15)
 logL(M6V) =  -3.003 dex ; Morrell19 trend for logL for M_Ks=9.32(slight extrap.)
 logL(M6V) = -2.980 dex ; M_Ks=9.22, BC_Ks=2.97 => Mbol = 12.190
-logL(M6V) =  -2.97+-0.02 dex ; non stan. LHS 36 (Golimowski04)
+logL(M6V) =  -2.97 +-0.02 dex ; non stan. LHS 36 (Golimowski04)
 logL(M6V) =  -2.97 dex ; LHS 36 (Leggett01)
-logL(M6V) =  -2.97+-0.02 ; pri. stan. Wolf 359 (Sanghi23)
+logL(M6V) =  -2.97 +-0.02 dex ; pri. stan. Wolf 359 (Sanghi23)
 logL(M6V) =  -2.82 dex ; sec. stan. GJ 1245B (see below)
 => adopt logL(M6V) = -2.980 dex [updated 11/15/2021]
 => adopt Mbol(M6V) = 12.190 mag [updated 11/15/2021]
@@ -831,28 +835,33 @@ GJ 406 = Wolf 359 = CN Leo = LHS 36 = StKM 2-681 (J1056+0700)
   Teff=3100K for [Fe/H]=0.0. mbol = 9.02(Pavlenko06; assumes MbolSun =
   4.75, Lsun=3.86e26), mbol = 9.07(Leggett00). The Pavlenko06 mbol is
   approximately consistent with BCv = mbol - V = 9.02 - 13.507 =
-  -4.487, BC_Ks = 9.02 - 6.084 = 2.936.  Mann15 estimates fbol =
-  (0.57980+-0.00690)e-11 W/m2, on IAU2015 scale mbol = 9.094+-0.013,
-  hence BC_Ks = 9.094 - 6.084 = 3.01, BCv = 9.094 - 13.507 = -4.413.
-  Rabus19 measures diameter and estimates Teff: 2657+-20K (notably
-  200K cooler than median of published values!), Rad=0.159+-0.006Rsun,
-  fbol=(0.563+-0.044)e-8 erg/s/cm (=>mbol=9.126+-0.085 on IAU2015
-  scale), tetLD=0.582+-0.020mas. BCv = mbol - V = 9.126 - 13.507 =
-  -4.381. BC_Ks = 9.126 - 6.084 = 3.042. Gaia EDR3: plx=415.1794
-  0.0684mas, G= 11.038391+-0.003138, E(BR/RP)=1.663, Bp-Rp=4.184836,
-  Bp-G=2.731895, G-Rp=1.452941 => M_G=14.13. Can't find GaiaDR2 entry.
-  Rotation: Newton16 reports Prot=353.200d with amplitude
-  0.0074+-0.0075mag (i.e. negligible), Reinhold20 reports
-  P=2.70+-0.24d, Lafarga21 reports Prot=2.704+-0.003d and cites
-  DiezAlonso19. How does a 2.7d rotation period get missed up until
-  few years ago? (should be high amplitude), and vsini=2.9+-0.8 km/s
-  (Fouque18), vsini is <3.0 km/s (Glebocki05,Jeffers18) or <2.0 km/s
-  (Reiners18) for which Reiners18 said Pvsini > 3.4d. Tuomi19 reported
-  planet candidates and innermost planet had period 2.68687d.  Radius:
-  R=0.127Rsun(Sestovic20) R=0.128Rsun(Newton17),
-  R=0.135+-0.004Rsun(TIC/Stassun19), R=0.1348+-0.0058Rsun(Mann15),
-  R=0.14+-0.02Rsun(Sebastian21).  Masses:
-  M=0.0997+-0.0100Msun(Mann15), M=0.100Msun(Sestovic20),
+  -4.487, BC_Ks = 9.02 - 6.084 = 2.936.
+  fbol=5.90e-12+-1.40e-13W/m2(Cushing05) =>
+  mbol=9.0754+-0.0258(Cushing05/IAU2015scale) => BCv = 9.0754+-0.0258
+  - 13.53 = -4.455+-0.03: => BC_Ks = 9.0754+-0.0258 -
+  6.084+-0.017(2MASS) = 2.991+-0.031(Cushing05/2MASS).  Mann15
+  estimates fbol = (0.57980+-0.00690)e-11 W/m2, on IAU2015 scale mbol
+  = 9.094+-0.013, hence BC_Ks = 9.094 - 6.084 = 3.01, BCv = 9.094 -
+  13.507 = -4.413.  Kirkpatrick93: BCv = Mbol - Mv = 12.27 - 16.68 =
+  -4.41(Kirkpatrick93).  Rabus19 measures diameter and estimates Teff:
+  2657+-20K (notably 200K cooler than median of published values!),
+  Rad=0.159+-0.006Rsun, fbol=(0.563+-0.044)e-8 erg/s/cm
+  (=>mbol=9.126+-0.085 on IAU2015 scale), tetLD=0.582+-0.020mas. BCv =
+  mbol - V = 9.126 - 13.507 = -4.381. BC_Ks = 9.126 - 6.084 =
+  3.042. Gaia EDR3: plx=415.1794 0.0684mas, G= 11.038391+-0.003138,
+  E(BR/RP)=1.663, Bp-Rp=4.184836, Bp-G=2.731895, G-Rp=1.452941 =>
+  M_G=14.13. Can't find GaiaDR2 entry.  Rotation: Newton16 reports
+  Prot=353.200d with amplitude 0.0074+-0.0075mag (i.e. negligible),
+  Reinhold20 reports P=2.70+-0.24d, Lafarga21 reports
+  Prot=2.704+-0.003d and cites DiezAlonso19. How does a 2.7d rotation
+  period get missed up until few years ago? (should be high
+  amplitude), and vsini=2.9+-0.8 km/s (Fouque18), vsini is <3.0 km/s
+  (Glebocki05,Jeffers18) or <2.0 km/s (Reiners18) for which Reiners18
+  said Pvsini > 3.4d. Tuomi19 reported planet candidates and innermost
+  planet had period 2.68687d.  Radius: R=0.127Rsun(Sestovic20)
+  R=0.128Rsun(Newton17), R=0.135+-0.004Rsun(TIC/Stassun19),
+  R=0.1348+-0.0058Rsun(Mann15), R=0.14+-0.02Rsun(Sebastian21).
+  Masses: M=0.0997+-0.0100Msun(Mann15), M=0.100Msun(Sestovic20),
   M=0.10Msun(Bonfils13), M=0.102Msun(Newton17),
   M=0.109+-0.020Msun(TIC/Stassun19), M=0.11Msun(Sebastian21),
   M=0.1253+-0.0097Msun(Cifuentes20), M=0.14Msun(Reiners20) => adopt
@@ -888,6 +897,7 @@ GJ 1245B = G 208-45 = LHS 3495 = NLTT 48415
   median Teff = 2881K. GaiaDR2: plx=214.5285+-0.0824,
   G=11.9190+-0.0006, E(BR/RP)=1.635, Bp-Rp=3.8419, Bp-G=2.4343,
   G-Rp=1.4076 => M_G=13.576+-0.001. G-V = 11.919 - 13.99 = -2.071.
+  BCv = Mbol - Mv = 11.98 - 15.61 = -3.63(Kirkpatrick93). 
 
         G = 11.9083+-0.0029 ; sec. stan. GJ 1245B (GaiaDR3)
   (Bp-Rp)(M6V) =  3.8225 ; sec. stan. GJ 1245B (GaiaDR3)

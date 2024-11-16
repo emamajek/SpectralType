@@ -389,7 +389,6 @@ Mv(M3.5V) =  12.62  ; ter. stan. GJ 634
 Mv(M3.5V) =  13.15  ; ter. stan. GJ 729 
 => adopt Mv(M3.5V)   = 12.10 [updated 11/15/2021] (M_Ks=7.10, V-Ks=5.0)
 => adopt M_G(M3.5V)  = 10.82 [updated 11/15/2021] (Mv=12.10, G-V=-1.28)
-=> adopt M_Ks(M3.5V) =  7.10 [updated 11/15/2021] (Mv=12.10, V-Ks=5.00]
 
 M_G(M3.5V) =    8.95265 ; HD 152751                     
 M_G(M3.5V) =   10.0547 ; BD+19 5116A                  
@@ -410,27 +409,69 @@ M_G(M3.5V) =   11.7585 ; Ross 154
 M_G(M3.5V) =   11.9189 ; V* GQ And
 
 
-M_Ks(M3.5V)  =  6.10 ; sec. stan. GJ 699A
-M_Ks(M3.5V)  =  6.75 ; EEM fit to Jao2016 (V-Ks=5.00)
-M_Ks(M3.5V)  =  6.83 ; EEM fit to Reid CNS3 data (V-Ks=5.00)
-M_Ks(M3.5V)  =  7.01 ; EEM fit to MS data(V-Ks=5.00)
-M_Ks(M3.5V)  =  7.05 ; Finch14(V-Ks=5.00)
-M_Ks(M3.5V)  =  7.08 ; EEM fit to Winters+2015(V-Ks=5.00)
-M_Ks(M3.5V)  = 7.10  ; Mv=12.10, V-Ks=5.00
-M_Ks(M3.5V)  =  7.19 ; Henry04(V-Ks=5.00)
-M_Ks(M3.5V)  =  7.20 ; Johnson09(V-Ks=5.00)
-M_Ks(M3.5V)  =  7.27 ; sec. stan. GJ 3378
-M_Ks(M3.5V)  =  7.31 ; pri. stan. GJ 725B
-M_Ks(M3.5V)  =  7.59 ; sec. stan. GJ 643
-M_Ks(M3.5V)  =  8.03 ; ter. stan. GJ 729
-[EEM: Note remarkable range of absolute magnitudes among *standards: 6.1 < M_Ks < 8.0!]
+M_J(M3.5V) =   6.78 ; GJ_849_ M3.5V plx=113.4447mas
+M_J(M3.5V) =   7.18 ; GJ_896_A_ M3.5Ve plx=159.6634mas
+M_J(M3.5V) =   7.59 ; GJ_876_A_ M3.5V plx=214.0380mas
+M_J(M3.5V) =   7.66 ; GJ_486_ M3.5V plx=123.7756mas
+M_J(M3.5V) =   7.72 ; GJ_1125_ M3.5V plx=100.9033mas
+M_J(M3.5V) =   7.82 ; GJ_273_ M3.5V plx=264.1269mas
+M_J(M3.5V) =   7.84 ; GJ_4247_ M3.5Ve plx=109.8548mas
+M_J(M3.5V) =   7.86 ; GJ_555_ M3.5V plx=159.9225mas
+M_J(M3.5V) =   7.99 ; GJ_725_B_ M3.5V plx=283.8378mas
+M_J(M3.5V) =   8.00 ; GJ_1105_ M3.5V plx=112.9927mas
+M_J(M3.5V) =   8.00 ; GJ_693_ M3.5V plx=169.8042mas
+M_J(M3.5V) =   8.04 ; GJ_105_B_ M3.5V plx=138.4371mas
+M_J(M3.5V) =   8.05 ; GJ_300_ M3.5V plx=123.2033mas
+M_J(M3.5V) =   8.05 ; GJ_682_ M3.5 plx=199.6944mas
+M_J(M3.5V) =   8.32 ; GJ_3379_ M3.5Ve plx=192.0135mas
+M_J(M3.5V) =   8.41 ; GJ_3817_ M3.5Ve plx=106.8404mas
+M_J(M3.5V) =   8.48 ; GJ_102_ M3.5Ve plx=100.1465mas
+M_J(M3.5V) =   8.49 ; GJ_643_ M3.5V plx=153.8754mas
+M_J(M3.5V) =   8.85 ; GJ_729_ M3.5Ve plx=336.0266mas
+M_J(M3.5V) =   9.03 ; GJ_15_B_ M3.5V plx=280.6947mas
+M_J(M3.5V) =   9.49 ; GJ_1068_ M3.5 plx=140.6961mas
 
+M_Ks(M3.5V) =   5.87 ; GJ_849_ M3.5V plx=113.4447mas
+M_Ks(M3.5V) =  6.10 ; sec. stan. GJ 699A
+M_Ks(M3.5V) =   6.34 ; GJ_896_A_ M3.5Ve plx=159.6634mas
+M_Ks(M3.5V) =   6.66 ; GJ_876_A_ M3.5V plx=214.0380mas
+M_Ks(M3.5V) =  6.75 ; EEM fit to Jao2016 (V-Ks=5.00)
+M_Ks(M3.5V) =   6.83 ; GJ_486_ M3.5V plx=123.7756mas
+M_Ks(M3.5V) =  6.83 ; EEM fit to Reid CNS3 data (V-Ks=5.00)
+M_Ks(M3.5V) =   6.89 ; GJ_1125_ M3.5V plx=100.9033mas
+M_Ks(M3.5V) =   6.96 ; GJ_555_ M3.5V plx=159.9225mas
+M_Ks(M3.5V) =   6.97 ; GJ_273_ M3.5V plx=264.1269mas
+M_Ks(M3.5V) =   6.98 ; GJ_4247_ M3.5Ve plx=109.8548mas
+M_Ks(M3.5V) =  7.01 ; EEM fit to MS data(V-Ks=5.00)
+M_Ks(M3.5V) =  7.05 ; Finch14(V-Ks=5.00)
+M_Ks(M3.5V) =  7.08 ; EEM fit to Winters+2015(V-Ks=5.00)
+M_Ks(M3.5V) = 7.10  ; Mv=12.10, V-Ks=5.00
+M_Ks(M3.5V) =   7.11 ; GJ_682_ M3.5 plx=199.6944mas
+M_Ks(M3.5V) =   7.14 ; GJ_1105_ M3.5V plx=112.9927mas
+M_Ks(M3.5V) =   7.16 ; GJ_300_ M3.5V plx=123.2033mas
+M_Ks(M3.5V) =   7.17 ; GJ_693_ M3.5V plx=169.8042mas
+M_Ks(M3.5V) =  7.19 ; Henry04(V-Ks=5.00)
+M_Ks(M3.5V) =  7.20 ; Johnson09(V-Ks=5.00)
+M_Ks(M3.5V) =  7.27 ; sec. stan. GJ 3378
+M_Ks(M3.5V) =  7.27 ; pri. stan. GJ_725_B_ M3.5V plx=283.8378mas
+M_Ks(M3.5V) =   7.28 ; GJ_105_B_ M3.5V plx=138.4371mas
+M_Ks(M3.5V) =   7.46 ; GJ_3379_ M3.5Ve plx=192.0135mas
+M_Ks(M3.5V) =   7.58 ; GJ_3817_ M3.5Ve plx=106.8404mas
+M_Ks(M3.5V) =   7.63 ; GJ_102_ M3.5Ve plx=100.1465mas
+M_Ks(M3.5V) =  7.66 ; sec. stan. GJ_643_ M3.5V plx=153.8754mas
+M_Ks(M3.5V) =   8.00 ; GJ_729_ M3.5Ve plx=336.0266mas
+M_Ks(M3.5V) =  8.03 ; ter. stan. GJ 729
+M_Ks(M3.5V) =   8.19 ; GJ_15_B_ M3.5V plx=280.6947mas
+M_Ks(M3.5V) =   8.64 ; GJ_1068_ M3.5 plx=140.6961mas
+=> adopt M_Ks(M3.5V) =  7.10 [updated 11/15/2021] (Mv=12.10, V-Ks=5.00]
+
+[EEM: Note remarkable range of absolute magnitudes among *standards: 6.1 < M_Ks < 8.0!]
 
 Teff(M3.5V) =   3391 K ; Passegger18 median Teff for CARMENES M3.5Vs(N=45)
 Teff(M3.5V) =   3378 K ; Boyajian12 calibration for V-Ks=5.00
 Teff(M3.5V) =   3320 +- 66 K ; Lepine12
 Teff(M3.5V) =  3319 K ; sec. stan. GJ 669A
-Teff(M3.5V) =   3317 K ; deprecated stan. GJ 273
+Teff(M3.5V) =  3317 K ; ter. stan. GJ 273 = BD+05 1668 = Luyten's star 
 Teff(M3.5V) =  3306 K ; Rajpurojit18 (mean for N=39 M3.5Vs)
 Teff(M3.5V) =  3300 K ; sec. stan. GJ 3378
 Teff(M3.5V) =  3300 K ; ter. stan. GJ 643
@@ -449,15 +490,16 @@ Teff(M3.5V) =   3200 K ; Rajpurohit13(N=8)
 Teff(M3.5V) =   3104 +- 28 K ; Boyajian12b (N=1)
 => adopt Teff(M3.5V) = 3270 K (logT = 3.515) [updated 7/17/2020]
 
-BC_G(M3.5V) = -0.985+-0.096 ; Cifuentes20
+BC_G(M3.5V) = -0.985 +-0.096 ; Cifuentes20
 
-BC_J(M3.5V) =  1.863+-0.043 ; Cifuentes20
+BC_J(M3.5V) =  1.863 +-0.043 ; Cifuentes20
 
-BCv(M3.5V) = -2.101 +- 0.014 ; standard GJ 725B (Pecaut13)
+BCv(M3.5V) = -2.101 +-0.014 ; standard GJ 725B (Pecaut13)
 BCv(M3.5V) = -2.225 ; Pecaut13(V-Ks=5.00)
-BCv(M3.5V) = -2.228 ; deprecated stan. GJ 273 (below)
+BCv(M3.5V) = -2.228 ; GJ 273 = BD+05 1668 = Luyten's star (below)
 BCv(M3.5V) = -2.28  ; BC_Ks=2.72, V-Ks=5.00
 BCv(M3.5V) = -2.283 ; Mann15(V-J=4.173)
+BCv(M3.5V) = -2.29  ; ter. stan. GJ 273 = BD+05 1668 = Luyten's star (Kirkpatrick93) 
 BCv(M3.5V) = -2.334 ; ter. stan. GJ 729 (calc. using Rabus19)
 BCv(M3.5V) = -2.375 ; exemplar GJ 876 (calc. using Rabus19)
 => adopt BCv(M3.5V) = -2.28 [updated 7/17/2020; BC_Ks=2.72, V-Ks=5.00]
@@ -468,7 +510,7 @@ BC_K(M3.5V)  = 2.775 ; Pecaut13(V-Ks=5.00)
 BC_K(M3.5V)  = 2.734 ; Mann15(V-J=4.173)
 BC_K(M3.5V)  = 2.72  ; LHS102A (Golimowski04)
 BC_Ks(M3.5V) = 2.715 ; Morrell19 trend for G-Ks=3.71
-BC_K(M3.5V)  =  2.587 +- 0.026 mag ; standard GJ 725B (Pecaut13) [mbol=7.587+-0.013, Ks=5.000+-0.023]
+BC_K(M3.5V)  =  2.587 +-0.026 mag ; standard GJ 725B (Pecaut13) [mbol=7.587+-0.013, Ks=5.000+-0.023]
 => adopt BC_Ks(M3.5V) = 2.72 [updated 7/17/2020]
 
 logL(M3.5V)  =  -1.715 ; Eclipsing binary HAT-TR-318 A (Hartman18; [Fe/H]=+0.3)
@@ -483,18 +525,18 @@ logL(M3.5V)  =  -2.076 ; Morrell19 trend for logL for M_Ks=7.20
 => adopt logL(M3.5V) = -2.032 [updated 11/15/2021]
 => adopt Mbol(M3.5V) =  9.820 [updated 11/15/2021]
 
-Rad(M3.5V)   =   0.205+-0.006 Rsun    ; ter. stan. GJ 729 (Rabus19)
+Rad(M3.5V)   =   0.205 +-0.006 Rsun    ; ter. stan. GJ 729 (Rabus19)
 Rad(M3.5V)   =  0.225 Rsun            ; Rabus19 trend for Teff=3280K [low trend]
 Rad(M3.5V)   = 0.2999 Rsun            ; Mann15 trend M_Ks=7.10, [Fe/H]=0.0
 Rad(M3.5V)   = 0.300 Rsun             ; Teff=3270K, logL=-2.032
-Rad(M3.5V)   = 0.310+-0.013 Rsun     ; ter. stan. GJ 555 = HIP 71253 (Yee17)
+Rad(M3.5V)   = 0.310 +-0.013 Rsun     ; ter. stan. GJ 555 = HIP 71253 (Yee17)
 Rad(M3.5V)   =  0.320 Rsun            ; Rabus19 trend for Teff=3280K [high trend]
-Rad(M3.5V)   =   0.320+-0.005 Rsun    ; deprecated stan. GJ 273 (Rabus19)
-Rad(M3.5V)   = 0.323+-0.006 Rsun    ; pri. stan. GJ 725B = LHS 59 (Yee17)
+Rad(M3.5V)   =   0.320 +-0.005 Rsun    ; deprecated stan. GJ 273 (Rabus19)
+Rad(M3.5V)   = 0.323 +-0.006 Rsun    ; pri. stan. GJ 725B = LHS 59 (Yee17)
 Rad(M3.5V)   =   0.3232+- 0.0061 Rsun ; Boyajian12b (N=1, presum. GJ 725B)
 Rad(M3.5V)   = 0.328 Rsun           ; pri. stan. GJ 725B (Newton14)
-Rad(M3.5V)   =   0.350+-0.086 Rsun    ; Cifuentes23
-Rad(M3.5V)   = 0.354+-0.005 Rsun    ; exemplar GJ 876 (Rabus19)
+Rad(M3.5V)   =   0.350 +-0.086 Rsun    ; Cifuentes23
+Rad(M3.5V)   = 0.354 +-0.005 Rsun    ; exemplar GJ 876 (Rabus19)
 Rad(M3.5V)   =   0.363 Rsun           ; Ecl. binary PTFEB132.707+19.810 A (Kraus17; Praesepe 0.7 Gyr)
 Rad(M3.5V)   = 0.373 Rsun           ; sec. stan. GJ 669A (Newton14)
 Rad(M3.5V)   =   0.3860 Rsun          ; Eclipsing binary LSPM_J1112+7626 A (Irwin11)
@@ -755,6 +797,44 @@ GJ 729 = Ross 154 = LHS 3414 = HIP 92403 = TYC 6859-1332-1 = V1216 Sgr = 2MASS J
   BCv = mbol - V = 8.161 - 10.495 = -2.334. BC_Ks = 8.161 - 5.370 =
   2.791.
 
+GJ 273 = BD+05 1668 = Luyten's star = HIP 36208 = LHS 33 = WDK 2A = WDS J07274+0514A = LHS 33 = G 112-17 = G 89-19 = NLTT 17881 = Gaia DR3 3139847906307949696
+  M3: Lee47,RojasAyala12(K-band)
+ *M3.5V: Bidelman85,Kirkpatrick91(pri,Kirkpatrick12),Kirkpatrick93,Kirkpatrick94,Henry94,Reid95,Henry02,Kirkpatrick12,Lepine13,Alonso-Floriano15
+  M3.8: Mann15
+  M4V: Joy74,Boeshaar76(stan),Newton14(near-IR),Gaidos14
+
+  Kirkpatrick91 moved the subtype 0.5 earlier than Boeshaar76, and
+  Boeshaar had kept it consistent with Joy (M4) and Kuiper (M4+).
+  There are 4 planet candidates b,c,d,e.  Teffs: 3093K(Jenkins09),
+  3200K(Martinez-Rodriguez19), 3200K(Cifuentes20),
+  3226K(Bello-Garcia23), 3253+-93K(Muirhead18),
+  3277+-92K(Hojjatpana19), 3279K(Birkby20), 3280K(Lepine13),
+  3282+-92K(Sousa24), 3292+-109K(Hardegree-Ullman23),
+  3293+-26K(RojasAyala12), 3293K(Suissa20), 3293K(Frasca15),
+  3315+-69K(Maldonado20), 3317+-60K(Mann15), 3317+-100K(Houdebine16),
+  3322+-78K(Newton15), 3355K(Sarmento21#2), 3358K(Mignon23),
+  3361K(Abdurro'uf22), 3365+-51K(Schweitzer19), 3380(Reiners22),
+  3380+-40K(Ribas23), 3380+-43K(Tabernero24), 3382(Yang23),
+  3400K(Johnsson20/APOGEE2/DR2,Sarmento21), 3402K(Mas-Buitrago24),
+  3420K(Cesetti13), 3427(Sarmento21#1), 3438+-26K(Mann15/model),
+  3461+-66K(Tsantaki22), 3467+-62K(Gaidos14), 3496K(Queiroz20) =>
+  adopt Teff=3317K.  V=9.832+-0.019(Mermilliod91),
+  V=9.867+-0.012(Koen02), V=9.872(Koen10),
+  B-V=1.554+-0.006(Mermilliod91), B-V=1.571(Koen10),
+  B-V=1.574+-0.007(Koen02), U-B=1.115(Koen02,Koen10),
+  V-Rc=1.162+-0.005(Koen02), V-Rc=1.173(Koen10),
+  V-Ic=2.700+-0.008(Koen02), V-Ic=2.711(Koen10).
+  Ks=4.857+-0.023(2MASS) => V-Ks = 9.832 - 4.857 = 4.975. Rabus19:
+  tetLD=0.783+-0.010, Fbol=(2.288+-0.118)e-8 erg/s/cm2 (=>mbol =
+  7.604+-0.056 IAU2015 scale), Rad=0.320+-0.005Rsun,
+  Teff=3253+-39K. BCv = 7.604 - 9.832 = -2.228. Kirkpatrick93 lists
+  Mv=11.98 & Mbol=9.69 => BCv = -2.29.
+  [Fe/H]=-0.17+-0.17(RojasAyala12), [Fe/H]=-0.11+-0.11(Tabernero24),
+  [Fe/H]=-0.09+0.02-0.03(Bello-Garcia23),
+  [Fe/H]=-0.062+-0.006(Fouque18),
+  [Fe/H]=+0.04(Mignon24). logg=4.665+-0.023(Abdurro'uf22).
+  Mass=0.2810+-0.0120Msun(Ribas23).
+
 # Exemplar
 
 GJ 876 = LHS 530 = BD-15 6290 = G 156-57 = IL Aqr 
@@ -906,21 +986,6 @@ GJ 896AC = BD+19 5116 AC = EQ Peg A = LFT 1799 = LHS 3965
   3630K(Zboril98) => median Teff = 3280K.  Mass: 0.378+-0.042
   Msun(Jenkins09). Plx=151.9+-3.7 mas.
 
-GJ 273 = BD+05_1668 = Luyten's star
-  M3: Lee47
- *M3.5V: Bidelman85,Kirkpatrick91(pri,Kirkpatrick12),Kirkpatrick93,Kirkpatrick94,Henry02,Lepine13,Alonso-Floriano15
-  M3.8: Mann15
-  M4V: Joy74,Boeshaar76(stan),Newton14(near-IR)
-
-  Kirkpatrick91 moved the subtype 0.5 earlier than Boeshaar76, and
-  Boeshaar had kept it consistent with Joy (M4) and Kuiper (M4+).
-  Teffs: 3280K(Lepine13), 3317+-60K(Mann15), 3322+-78K(Newton15) =>
-  median Teff = 3317K. V=9.832+-0.019(Mermilliod91),
-  B-V=1.554+-0.006(Mermilliod91), Ks=4.857+-0.023(2MASS) => V-Ks =
-  9.832 - 4.857 = 4.975. Rabus19: tetLD=0.783+-0.010,
-  Fbol=(2.288+-0.118)e-8 erg/s/cm2 (=>mbol = 7.604+-0.056 IAU2015
-  scale), Rad=0.320+-0.005Rsun, Teff=3253+-39K. BCv = 7.604 - 9.832 =
-  -2.228.
 
 GJ 3991 = G 203-47AB = HIP 83945 = NLTT 44290 = 2MASS J17093153+4340531
  *M3.5V: Henry94(J),Hawley97,Henry02(J)

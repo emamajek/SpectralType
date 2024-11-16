@@ -129,7 +129,20 @@ M_Ks(T8.5V)     = 19.04  ; WISE_1118+3125 calc using Kirkpatrick20 (plx=114.4867
 
 (K(MKO)-Ks)(T8.5V) = 0.08 +- 0.07 ; CFBDS_0059-0114 Kirkpatrick20
 
+BC_J_MKO(T8.5V) = 2.57 +-0.15 ; Zhang21 (T8-T8.5 bin)
+BC_J_MKO(T8.5V) = 2.59 +-0.23 ; Zhang21 (T8.5-T9 bin)
+=> adopt BC_J_MKO(T8.5V) = 2.58 [updated 11/15/2024]
+
 BC_J(T8.5V) = 2.051 ; Sanghi23 M6V-T9V trend
+BC_J(T8.5V) = 2.29  ; Zhang21 BC_J_MKO=2.58 & adopting (J(MKO)-J)(T8.5V) = -0.29 
+
+BC_H_MKO(T8.5V) = 2.20 +-0.03 ; Zhang21 (T8-T8.5 bin)
+BC_H_MKO(T8.5V) = 2.16 +-0.20 ; Zhang21 (T8.5-T9 bin)
+=> adopt BC_H_MKO(T8.5V) = 2.18 [updated 11/15/2024]
+
+BC_K_MKO(T8.5V) = 2.21 +-0.29 ; Zhang21 (T8-T8.5 bin)
+BC_K_MKO(T8.5V) = 2.17 +-0.20 ; Zhang21 (T8.5-T9 bin)
+=> adopt BC_K_MKO(T8.5V) = 2.19 [updated 11/15/2024] 
 
 BC_Ks(T8.5V) = 1.834 mag ; Sanghi23 M6V-T9V field dwarf polynomial 
 

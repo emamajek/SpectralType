@@ -313,7 +313,6 @@ Mv(M4.5V) =  14.15  ; ter. stan. LHS 3376
 Mv(M4.5V) =  14.24  ; ter. stan. GJ 54.1 
 => adopt Mv(M4.5V)   = 13.58 [updated 12/10/2020] 
 => adopt M_G(M4.5V)  = 12.04 [updated 12/10/2020] (Mv=13.58, G-V=-1.54)
-=> adopt M_Ks(M4.5V) =  7.93 [updated 12/10/2020] (V-K=5.65, Mv=13.58)
 [EEM 12/10/2020: Mv covers huge range ~12.5-14.2; note the gap among the standards
 between Mv = 13.37 and 14.05?]
 
@@ -334,14 +333,53 @@ M_G(M4.5V) =   12.8818 ; V* GL Vir
 Note: among d<10pc sample, M_G ranges from 9.55-9.6 (pre-MS stars AT Mic A, B & binary
 Ross 614) to 12.96 for G_184-19B
 
-M_Ks(M4.5V) =  7.657 ; deprecated stan. GJ 234A = Ross 614 A
-M_Ks(M4.5V) =  7.828 ; Finch14 calibration for (V-Ks)=5.65
-M_Ks(M4.5V) =  7.858 ; EEM fit to Reid CNS3 data for (V-Ks)=5.65
-M_Ks(M4.5V) = 7.924 ; EEM fit to Winters+2015 data for (V-Ks)=5.65
-M_Ks(M4.5V) = 7.940 ; EEM calibration for (V-Ks)=5.65
-M_Ks(M4.5V) =  8.011 ; Henry04 calibration for (V-Ks)=5.65
-M_Ks(M4.5V) =  8.094 ; Johnson09 calibration for (V-Ks)=5.65
+M_J(M4.5V) =   8.25 ; GJ_166_C_ M4.5V plx=199.4516mas
+M_J(M4.5V) =   8.30 ; GJ_234_A_ M4.5V plx=242.9659mas
+M_J(M4.5V) =   8.44 ; GJ_1123_ M4.5V plx=105.0336mas
+M_J(M4.5V) =   8.50 ; GJ_1289_ M4.5Ve plx=119.5794mas
+M_J(M4.5V) =   8.66 ; GJ_1103_A_ M4.5V plx=107.8488mas
+M_J(M4.5V) =   8.75 ; GJ_1256_ M4.5V plx=104.9190mas
+M_J(M4.5V) =   8.80 ; GJ_754_ M4.5 plx=169.2351mas
+M_J(M4.5V) =   8.86 ; GJ_791.2_B_ M4.5V plx=133.8113mas
+M_J(M4.5V) =   8.89 ; GJ_493.1_ M4.5Ve plx=117.0327mas
+M_J(M4.5V) =   8.92 ; GJ_1154_ M4.5Ve plx=123.6430mas
+M_J(M4.5V) =   8.94 ; GJ_4274_ M4.5Ve plx=138.2280mas
+M_J(M4.5V) =   8.96 ; GJ_1151_ M4.5V plx=124.3378mas
+M_J(M4.5V) =   9.10 ; GJ_1057_ M4.5V plx=116.2678mas
+M_J(M4.5V) =   9.17 ; SCR_J0740-4257_ M4.5 plx=125.3028mas
+M_J(M4.5V) =   9.26 ; GJ_9066_ M4.5V plx=223.7321mas
+M_J(M4.5V) =   9.27 ; GJ_299_ M4.5V plx=147.7218mas
+M_J(M4.5V) =   9.32 ; GJ_4053_ M4.5Ve plx=130.8531mas
+M_J(M4.5V) =   9.47 ; GJ_1156_ M4.5Ve plx=154.6999mas
+M_J(M4.5V) =   9.51 ; LP_991-84_ M4.5V plx=114.604mas
 
+M_Ks(M4.5V) =   7.41 ; GJ_234_A_ M4.5V plx=242.9659mas
+M_Ks(M4.5V) =   7.46 ; GJ_166_C_ M4.5V plx=199.4516mas
+M_Ks(M4.5V) =   7.55 ; GJ_1123_ M4.5V plx=105.0336mas
+M_Ks(M4.5V) =   7.61 ; GJ_1289_ M4.5Ve plx=119.5794mas
+M_Ks(M4.5V) =  7.66 ; deprecated stan. GJ 234A = Ross 614 A
+M_Ks(M4.5V) =   7.83 ; GJ_1103_A_ M4.5V plx=107.8488mas
+M_Ks(M4.5V) =  7.83 ; Finch14 calibration for (V-Ks)=5.65
+M_Ks(M4.5V) =   7.85 ; GJ_1256_ M4.5V plx=104.9190mas
+M_Ks(M4.5V) =  7.86 ; EEM fit to Reid CNS3 data for (V-Ks)=5.65
+M_Ks(M4.5V) =  7.92 ; EEM fit to Winters+2015 data for (V-Ks)=5.65
+M_Ks(M4.5V) =  7.94 ; EEM calibration for (V-Ks)=5.65
+M_Ks(M4.5V) =   7.94 ; GJ_791.2_B_ M4.5V plx=133.8113mas
+M_Ks(M4.5V) =   7.99 ; GJ_754_ M4.5 plx=169.2351mas
+M_Ks(M4.5V) =   8.00 ; GJ_1154_ M4.5Ve plx=123.6430mas
+M_Ks(M4.5V) =   8.00 ; GJ_493.1_ M4.5Ve plx=117.0327mas
+M_Ks(M4.5V) =  8.01 ; Henry04 calibration for (V-Ks)=5.65
+M_Ks(M4.5V) =   8.02 ; GJ_4274_ M4.5Ve plx=138.2280mas
+M_Ks(M4.5V) =  8.09 ; Johnson09 calibration for (V-Ks)=5.65
+M_Ks(M4.5V) =   8.11 ; GJ_1151_ M4.5V plx=124.3378mas
+M_Ks(M4.5V) =   8.16 ; GJ_1057_ M4.5V plx=116.2678mas
+M_Ks(M4.5V) =   8.26 ; SCR_J0740-4257_ M4.5 plx=125.3028mas
+M_Ks(M4.5V) =   8.40 ; GJ_9066_ M4.5V plx=223.7321mas
+M_Ks(M4.5V) =   8.51 ; GJ_299_ M4.5V plx=147.7218mas
+M_Ks(M4.5V) =   8.52 ; GJ_1156_ M4.5Ve plx=154.6999mas
+M_Ks(M4.5V) =   8.53 ; GJ_4053_ M4.5Ve plx=130.8531mas
+M_Ks(M4.5V) =   8.57 ; LP_991-84_ M4.5V plx=114.604mas
+=> adopt M_Ks(M4.5V) =  7.93 [updated 12/10/2020] (V-K=5.65, Mv=13.58)
 
 Teff(M4.5V) =   3000K ; Bessell79 (Blackbody Teffs from Veeder74)
 Teff(M4.5V) =  3070 K ; pri. stan. GJ 166C (median Teff)
@@ -382,7 +420,7 @@ BC_K(M4.5V) = 2.809 ; Morrell19 trend for G-Ks=4.10
 => adopt BC_Ks(M4.5V) = 2.81 [updated 11/3/2019]
 
 logL(M4.5V) = -2.00  ; sec. stan. GJ 268 AB (Leggett96)
-logL(M4.5V) =  -2.151 ; Ecl. binary HAT-TR-318 B (Hartman18; [Fe/H]=+0.3)[EEM: adopting M4.5 instead of M5.0+-0.7]
+logL(M4.5V) =  -2.151 ; ecl. bin HAT-TR-318 B (Hartman18;[Fe/H]=+0.3)[adopt M4.5 instead of M5.0+-0.7]
 logL(M4.5V) = -2.291 ; deprecated stan. GJ 234A = Ross 614A
 logL(M4.5V) =  -2.301 ; Ecl. binary PTFEB132.707+19.810 B (M4.3; Kraus17; Praesepe 0.7 Gyr)
 logL(M4.5V) = -2.395 ; Morrell19 trend for logL for M_Ks=7.93
@@ -428,7 +466,7 @@ Boeshaar85 does not list an M4.5V standard
 
 # Primary Standard
 
-GJ 166C = Omi^2 Eri C = LHS 25 = LFT 340 = LTT 1909 = HD 26976 ? 
+GJ 166C = omi^2 Eri C = LHS 25 = LFT 340 = LTT 1909 = HD 26976 ? 
  *M4.5Ve: Boeshaar76(non-stan),Kirkpatrick91(pri),Kirkpatrick94,Hawley97,GrayAtlas,Reid04,Alonso-Floriano15
   M4.7: Mann15
   M5e: Luyten59,

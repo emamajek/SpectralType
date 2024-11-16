@@ -590,10 +590,12 @@ BCv(M2V) =  -1.689 mag ; ter. stan. GJ 745B
 BCv(M2V) = -1.688 mag ; exemplar GJ 176 = HD 285968 (calc. using Mann15)
 BCv(M2V) = -1.674 mag ; Casagrande18(Teff=3570K,logg=4.5)
 BCv(M2V) = -1.67  mag ; BC_K=2.56, V-K=4.23
+BCv(M2V) = -1.67  mag ; pri. stan. GJ 411 (Kirkpatrick93) 
 BCv(M2V) = -1.662 mag ; exemplar GJ 9440 
 BCv(M2V) =  -1.625 +- 0.019 ; pri. stan. GJ 411 (Pecaut13)
 BCv(M2V) = -1.624 mag ; Mann15(V-J=3.406)
 BCv(M2V) =    -1.61  mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
+BCv(M2V) = -1.599 mag ; pri. stan. GJ 411 (calc. using Cushing05) 
 BCv(M2V) =    -1.547  mag ; Bessell98(ATLAS9,logg=4.5,Teff=3550K)
 BCv(M2V) =  -1.53  mag ; pri. stan. GJ 411 (Leggett96)
 BCv(M2V) =  -1.463 mag ; EEM fit to Casagrande08 for Teff=3500K
@@ -749,7 +751,7 @@ logg(M2V) = 4.793 ; M=0.45Msun, R=0.446Rsun
 
 # Primary Standards
 
-GJ 411 = HD 95735 = Lalande 21185 = LHS 37 (J1103+3558)
+GJ 411 = HD 95735 = Lalande 21185 = HIP 54035 = LHS 37 = G 147-17 = G 119-52 = NLTT 26105 =  	Gaia DR3 762815470562110464 = TIC 166646191 = TIC 353969903 (J1103+3558)
   M1.9: Mann15 
  *M2V: JM53,Abt68,Houk,Boeshaar76(stan),KeenanMcNeil76(stan; plate 19 & 21),Kirkpatrick91(pri),Kirkpatrick93,Kirkpatrick94,Henry94,Boeshaar94,Hawley97,Henry02,Reid04
   M2+V: Keenan80,Turnshek85(stan;dM2+),KeenanYorka85,Keenan88,Keenan89,Keenan99(stan),Pecaut13
@@ -761,11 +763,17 @@ GJ 411 = HD 95735 = Lalande 21185 = LHS 37 (J1103+3558)
   standard on their Plates 19 and 21, but a M2.5V standard in Table 3,
   then kept it M2+V throughout 80s/90s catalogs. Saturated in 2MASS
   (mags of ~0.3 mag precision quoted). [Fe/H] = -0.2 (Zboril98),
-  [Fe/H]=-0.41+-0.10(Yee17),
-  [Fe/H]=-0.38+-0.08(Mann15). V=7.47(GCPD/Cousins76/VRIc),
-  V=7.49(HIP), V=7.498+-0.013(Mermilliod91), B-V=1.502+-0.014(HIP),
-  B-V=1.508+-0.014(Mermilliod91), B-V=1.51(GCPD/Cousins76/VRIc),
+  [Fe/H]=-0.41+-0.10(Yee17), [Fe/H]=-0.38+-0.08(Mann15).
+  V=7.47(GCPD/Cousins76/VRIc), V=7.48(Argue66/N=4),
+  V=7.487+-0.009(ASCC-2.5), V=7.49(HIP), V=7.494(Pickles10/SEDfit),
+  V=7.498+-0.013(Mermilliod91), V=7.50(Ljunggren64/N=3),
+  V=7.51(Oja63/N=4), V=7.519(Oja85/N=3) => adopt
+  V=7.498+-0.013(Mermilliod91).  B-V=1.444(Oja75/N=3),
+  B-V=1.50(Argue66/N=4), B-V=1.50(Oja63/N=4), B-V=1.502+-0.014(HIP),
+  B-V=1.508+-0.014(Mermilliod91), B-V=1.51(Ljunggren64/N=3),
+  B-V=1.51(GCPD/Cousins76/VRIc), U-B=1.074(Oja85/N=3),
   U-B=1.124+-0.015(Mermilliod91), U-B=1.14(GCPD/Cousins76/VRIc),
+  U-B=1.14(Ljunggren64/N=3), U-B=1.18(Argue66/N=4),
   V-Rc=1.01(GCPD/Cousins76/VRIc),
   R-Ic=1.14(GCPD/Cousins76/VRIc;Delfosse98), V-Ic=2.07+-0.02(HIP),
   V-Ic=2.15(GCPD/Cousins76/VRIc), V-Ic=2.16(Platais03),
@@ -798,6 +806,9 @@ GJ 411 = HD 95735 = Lalande 21185 = LHS 37 (J1103+3558)
   392.64+-0.67 mas (van Leeuwen07), i.e. it is one of the nearest
   stars to the Sun.  Boyajian12 reports
   tetLD=1.432+-0.013mas. Boyajian12+GaiaDR2=> Rad=0.392 Rsun.
+  fbol=1.10e-10+-3.03e-12W/m2(Cushing05) =>
+  mbol=5.8990+-0.0299mag(Cushing05/IAU2015scale) => BCv = mbol - V =
+  5.8990+-0.0299 - 7.498+-0.013 = -1.599+-0.033.
 
 # Secondary Standards
 

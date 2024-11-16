@@ -328,7 +328,6 @@ Mv(M1.5V) =  10.02 ; Henry04 calibration for V-Ks=4.10
 Mv(M1.5V) =  11.05 ; deprecated stan. GJ 625
 => adopt Mv(M1.5V)   = 9.85 [updated 12/10/2020] (M_Ks=5.75, V-Ks=4.10)
 => adopt M_G(M1.5V)  = 9.00 [updated 11/15/2022] (Mv=9.85, G-V=-0.85)
-=> adopt M_Ks(M1.5V) = 5.75 [updated 12/10/2020] (Mv=9.85, V-Ks=4.10)
 
 M_G(M1.5V) =   8.31848 ; HD 131976                    
 M_G(M1.5V) =   8.31952 ; HD 36395                     
@@ -349,16 +348,58 @@ M_G(M1.5V) =  9.28757 ; G 125-30
 M_G(M1.5V) =   10.0797  ; HD 156384C                   
 M_G(M1.5V) =   10.0812  ; G 202-48
 
+
+M_J(M1.5V) =   6.01 ; GJ_134_ M1.5V plx=62.6417mas
+M_J(M1.5V) =   6.05 ; GJ_205_ M1.5Ve plx=175.3131mas
+M_J(M1.5V) =   6.18 ; GJ_880_ M1.5V plx=145.6234mas
+M_J(M1.5V) =   6.19 ; GJ_895_ M1.5V plx=75.5723mas
+M_J(M1.5V) =   6.26 ; GJ_49_ M1.5V plx=101.4238mas
+M_J(M1.5V) =   6.36 ; GJ_2130_C_ M1.5 plx=70.6792mas
+M_J(M1.5V) =   6.44 ; GJ_107_B_ M1.5V plx=89.3739mas
+M_J(M1.5V) =   6.44 ; GJ_366_ M1.5V plx=63.3251mas
+M_J(M1.5V) =   6.60 ; GJ_218_ M1.5 plx=68.9709mas
+M_J(M1.5V) =   6.68 ; GJ_654_ M1.5V plx=95.5597mas
+M_J(M1.5V) =   6.71 ; GJ_450_ M1.5V plx=114.0854mas
+M_J(M1.5V) =   6.74 ; GJ_680_ M1.5V plx=103.3081mas
+M_J(M1.5V) =   6.75 ; GJ_9103_A_ M1.5 plx=75.7208mas
+M_J(M1.5V) =   6.80 ; GJ_686_ M1.5V plx=122.5546mas
+M_J(M1.5V) =   6.83 ; GJ_3309_ M1.5V plx=60.8190mas
+M_J(M1.5V) =   6.88 ; GJ_4122_ M1.5V plx=72.7000mas
+M_J(M1.5V) =   6.89 ; LP_905-56_ M1.5V plx=65.2656mas
+M_J(M1.5V) =   7.28 ; GJ_289_ M1.5V plx=68.0334mas
+M_J(M1.5V) =   7.55 ; GJ_625_ M1.5V plx=154.3503mas
+M_J(M1.5V) =   7.55 ; GJ_667_C_ M1.5V plx=138.0663mas
+
+M_Ks(M1.5V) =   5.12 ; GJ_205_ M1.5Ve plx=175.3131mas
+M_Ks(M1.5V) =  5.15 ; exemplar GJ_134_ = HD 275122 = M1.5V plx=62.6417mas
+M_Ks(M1.5V) =   5.26 ; GJ_895_ M1.5V plx=75.5723mas
+M_Ks(M1.5V) =  5.34 ; sec. stan. GJ_880_ M1.5V plx=145.6234mas
+M_Ks(M1.5V) =   5.40 ; GJ_49_ M1.5V plx=101.4238mas
+M_Ks(M1.5V) =  5.40 ; ter. stan. GJ 49 = G 243-052 
+M_Ks(M1.5V) =   5.50 ; GJ_2130_C_ M1.5 plx=70.6792mas
+M_Ks(M1.5V) =   5.62 ; GJ_107_B_ M1.5V plx=89.3739mas
+M_Ks(M1.5V) =   5.64 ; GJ_366_ M1.5V plx=63.3251mas
+M_Ks(M1.5V) =  5.64 ; exemplar GJ 366 = Ross 434
+M_Ks(M1.5V) =  5.68 ; Jao16 calibration for V-Ks=4.10
+M_Ks(M1.5V) = 5.75 ; Mv=9.85, V-Ks=4.10
+M_Ks(M1.5V) =  5.79 ; Finch14 calibration for V-Ks=4.10
+M_Ks(M1.5V) =   5.81 ; GJ_218_ M1.5 plx=68.9709mas
+M_Ks(M1.5V) =  5.81 ; JohnsonApps09 calibration for V-Ks=4.10
 M_Ks(M1.5V) =  5.82 ; Dieterich14 calibration for V-Ks=4.12
 M_Ks(M1.5V) =  5.82 ; EEM calib for Winters15 data for V-Ks=4.12
-M_Ks(M1.5V) =  5.81 ; JohnsonApps09 calibration for V-Ks=4.10
-M_Ks(M1.5V) =  5.79 ; Finch14 calibration for V-Ks=4.10
-M_Ks(M1.5V) = 5.75 ; Mv=9.85, V-Ks=4.10
-M_Ks(M1.5V) =  5.68 ; Jao16 calibration for V-Ks=4.10
-M_Ks(M1.5V) =  5.64 ; exemplar GJ 366 = Ross 434
-M_Ks(M1.5V) = 5.40 ; ter. stan. GJ 49 = G 243-052 
-M_Ks(M1.5V) = 5.34 ; sec. stan. GJ 880 = HD 216899 
-M_Ks(M1.5V) =  5.15 ; exemplar GJ 134 = HD 275122 
+M_Ks(M1.5V) =   5.88 ; GJ_654_ M1.5V plx=95.5597mas
+M_Ks(M1.5V) =   5.89 ; GJ_450_ M1.5V plx=114.0854mas
+M_Ks(M1.5V) =   5.89 ; GJ_9103_A_ M1.5 plx=75.7208mas
+M_Ks(M1.5V) =   5.90 ; GJ_680_ M1.5V plx=103.3081mas
+M_Ks(M1.5V) =   6.01 ; GJ_686_ M1.5V plx=122.5546mas
+M_Ks(M1.5V) =   6.03 ; GJ_3309_ M1.5V plx=60.8190mas
+M_Ks(M1.5V) =   6.07 ; LP_905-56_ M1.5V plx=65.2656mas
+M_Ks(M1.5V) =   6.08 ; GJ_4122_ M1.5V plx=72.7000mas
+M_Ks(M1.5V) =   6.56 ; GJ_289_ M1.5V plx=68.0334mas
+M_Ks(M1.5V) =   6.74 ; GJ_667_C_ M1.5V plx=138.0663mas
+M_Ks(M1.5V) =   6.78 ; GJ_625_ M1.5V plx=154.3503mas
+=> adopt M_Ks(M1.5V) = 5.75 [updated 12/10/2020] (Mv=9.85, V-Ks=4.10)
+
 
 logL(M1.5V) = -1.473 ; Morrell19 trend for logL for M_Ks=5.82
 logL(M1.5V) = -1.444 ; M_Ks=5.75, BC_Ks=2.60, MBbol = 8.35

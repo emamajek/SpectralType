@@ -16,9 +16,9 @@ Henry04 standard:            GJ 644C (=VB 8)  - M7.0V - pri. stan.
 Kirkpatrick(GrayCorbally09): GJ 644C (=VB 8)  - M7V - pri. stan.
 Kirkpatrick10 standard:      GJ 644C (=VB 8)  - M7V (pri. stan. (0.7-2.5um/SpeX))
 Kirkpatrick16 standard:	     GJ 644C (=VB 8)  - M7V
+Brock21 standard:            GJ 644C (=VB 8)  - M7 (Spex standard) 
 
-RECONS list shows only VB 8 and LHS 3003 to be the only M7.0V stars in
-the nearest 100.
+RECONS list shows only VB 8 and LHS 3003 to be the only M7.0V stars in the nearest 100.
 
 Kirkpatrick12 lists only 3 M7V stars within 8 pc: VB 8, LHS 3003, and
 HR 753C (LFT217B). The first two are standards.
@@ -85,7 +85,8 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 (V-Ks)(M7V) =  7.555 ; non-stan. Teegarden's star
 (V-Ks)(M7V) = 7.64  ; exemplar LHS 2645 
 (V-Ks)(M7V) = 7.75  ; trend fit to Dahn17 for M7V
-(V-Ks)(M7V) =  7.804 ; non-stan. LHS 292 
+(V-Ks)(M7V) =  7.804 ; non-stan. LHS 292
+(V-Ks)(M7V) = 7.831 ; exemplar LHS 2645  
 (V-Ks)(M7V) = 7.97  ; interp M6.5V(V-Ks=7.60)-M8V(V-Ks=8.70)
 (V-Ks)(M7V) = 8.004 ; prim. stan. VB 8 
 (V-Ks)(M7V) = 8.122 ; sec. stan. LHS 3003 = GJ 3877 = LP 914-54 
@@ -172,6 +173,8 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 => adopt (J-Ks)(M7V) = 1.003 [updated 10/24/2024]
 
 (G-J)(M7V) = 3.739 (+-0.216 rms) ; Bentley19 (GaiaDR2)
+
+(G-J)(M7V) = 4.015 +-0.019 ; exemplar LHS 2645 (GaiaDR3) 
 
 (G-Ks)(M7V) = 4.705 (+-0.251 rms) ; Bentley18 (GaiaDR2)
 
@@ -497,29 +500,39 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR
 (Bp-Rp)(M7V) =   4.5632 ; GAT 1370   M7V (GaiaDR2) 
 (Bp-Rp)(M7V) =   4.6254 ; LP 655-48  M7Ve (GaiaDR2) 
 (Bp-Rp)(M7V) =  4.651   ; M5-M8.5V color trend (GaiaDR2) 
-(Bp-Rp)(M7V) = 4.728976 ; pri. stan. VB 8 = GJ 644C (GaiaDR3)
 (Bp-Rp)(M7V) =   4.7539 ; pri. stan. GJ 644C/VB8 (GaiaDR2) 
 (Bp-Rp)(M7V) =   4.8024 ; sec. stan. LHS 3003 (GaiaDR2) 
 => adopt (Bp-Rp)(M7V) = 4.65 [updated 11/18/2020] (GaiaDR2)
 
+(Bp-Rp)(M7V) =  4.4543  ; exemplar LHS 2645 (GaiaDR3) 
+(Bp-Rp)(M7V) = 4.728976 ; pri. stan. VB 8 = GJ 644C (GaiaDR3)
+
 (G-T)(M7V) = 1.513 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=4.65
 => (G-T)(M7V) = 1.513 [updated 10/8/2023] (GaiaDR2)
 
-(G-Rp)(M7V) =  1.47  ; Kiman19 (GaiaDR2)
-(G-Rp)(M7V) = 1.489096 ; pri. stan. VB 8 = GJ 644C (GaiaDR3) 
+(G-Rp)(M7V) =  1.47   ; Kiman19 (GaiaDR2)
 (G-Rp)(M7V) =  1.4902 ; GAT_1370 M7V (GaiaDR2) 
 (G-Rp)(M7V) =  1.5169 ; pri. stan. GJ_644C/VB8 (GaiaDR2) 
 (G-Rp)(M7V) =  1.5223 ; G_9-38B  M7V (GaiaDR2) 
 (G-Rp)(M7V) =  1.522  ; color trend M0V-M9V (GaiaDR2) 
 (G-Rp)(M7V) =  1.5314 ; LP_655-48 M7Ve (GaiaDR2) 
 (G-Rp)(M7V) =  1.5337 ; sec. stan. LHS_3003 (GaiaDR2) 
-=> adopt (G-Rp)(M7V) = 1.52 [updated 11/18/2020]
-=> adopt (Bp-G)(M7V) = 3.13 [updated 11/18/2020; Bp-Rp=4.65, G-Rp=1.52]
+=> adopt (G-Rp)(M7V) = 1.52 [updated 11/18/2020] (GaiaDR2) 
+=> adopt (Bp-G)(M7V) = 3.13 [updated 11/18/2020; Bp-Rp=4.65, G-Rp=1.52] (GaiaDR2) 
+
+(G-Rp)(M7V) =  1.4832  ; exemplar LHS 2645 (GaiaDR3)
+(G-Rp)(M7V) = 1.489096 ; pri. stan. VB 8 = GJ 644C (GaiaDR3)
+=> adopt (G-Rp)(M7V) = 1.49 [updated 11/4/2024] (GaiaDR2) 
+
 
 (Bp-G)(M7V) =   2.2   ; Kiman19 (GaiaDR2)
 (Bp-G)(M7V) =  3.2370 ; pri. stan. VB 8 = GJ 644C (GaiaDR2)
-(Bp-G)(M7V) = 3.239881 ; pri. stan. VB 8 = GJ 644C (GaiaDR3) 
 (Bp-G)(M7V) =  3.2687 ; LHS_3003 (GaiaDR2)
+=> adopt (Bp-G)(M7V) = 3.24 [updated 11/4/2024] (GaiaDR2) 
+
+(Bp-G)(M7V) =  2.9711  ; exemplar LHS 2645 (GaiaDR3)
+(Bp-G)(M7V) = 3.239881 ; pri. stan. VB 8 = GJ 644C (GaiaDR3)
+=> adopt (Bp-G)(M7V) = 3.24 [updated 11/4/2024] (Gaia DR3) 
 
 Note that for stars in SIMBAD with reported V and G magnitudes, there appears
 to be nice trend in G-V colors as f(SpT) through M6.5, but then things flatten out
@@ -535,48 +548,55 @@ M_H(M7V)    =  9.631 ; Reyle18 polynomial
 M_Ks(M7V)   =  9.271 ; Reyle18 polynomial
 (G-Rp)(M7V) =  1.561 ; Reyle18 polynomial
 
-(G-Ks)(M7V) = 4.34313 ; LSPM_J1912+3826_ plx=37.6444mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.43035 ; LSPM_J0330+5413_ plx=95.2169mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.52649 ; LP_583-21_ plx=40.0778mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.60112 ; LP_35-347_ plx=81.3731mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.60167 ; G_240-23_ plx=69.8207mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.67786 ; LP_245-10_ plx=96.7355mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.68711 ; LP_822-7_ plx=54.3954mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.68909 ; LSPM_J0357+4107_ plx=70.5077mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.72366 ; LP_12-440_ plx=50.5104mas M7Ve (GaiaDR3)
-(G-Ks)(M7V) = 4.83873 ; LSR_J0124+6819_ plx=48.0645mas M7.0V (GaiaDR3)
-(G-Ks)(M7V) = 4.84783 ; LP_222-65_ plx=56.6819mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.87026 ; LP_500-35_ plx=75.5877mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.87089 ; LP_258-51_ plx=46.6856mas M7Ve (GaiaDR3)
+(G-Ks)(M7V) =  4.343 ; LSPM_J1912+3826_ plx=37.6444mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.430 ; LSPM_J0330+5413_ plx=95.2169mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.526 ; LP_583-21_ plx=40.0778mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.601 ; LP_35-347_ plx=81.3731mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.601 ; G_240-23_ plx=69.8207mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.677 ; LP_245-10_ plx=96.7355mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.687 ; LP_822-7_ plx=54.3954mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.689 ; LSPM_J0357+4107_ plx=70.5077mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.723 ; LP_12-440_ plx=50.5104mas M7Ve (GaiaDR3)
+(G-Ks)(M7V) =  4.838 ; LSR_J0124+6819_ plx=48.0645mas M7.0V (GaiaDR3)
+(G-Ks)(M7V) =  4.847 ; LP_222-65_ plx=56.6819mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.870 ; LP_500-35_ plx=75.5877mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.870 ; LP_258-51_ plx=46.6856mas M7Ve (GaiaDR3)
+(G-Ks)(M7V) =  4.934 ; LP_169-6_ plx=46.1643mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  4.970 ; LSR_J0515+5911_ plx=63.3593mas M7.0V (GaiaDR3)
+(G-Ks)(M7V) = 4.997 ; pri. stan. VB 8 =  plx=153.9659mas M7Ve (GaiaDR3)
+(G-Ks)(M7V) = 5.037 ; exemplar LHS 2645 = LP 218-8_ plx=47.2893mas M7Ve (GaiaDR3)
+(G-Ks)(M7V) =  5.040 ; LSPM_J1440+1339_ plx=39.1300mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  5.067 ; SIPS_J1256-1257_ plx=47.2733mas M7.0 (GaiaDR3)
+(G-Ks)(M7V) = 5.126 ; exemplar LP 423-31 = NLTT 18549 plx=53.5855mas M7.0V (GaiaDR3)
+(G-Ks)(M7V) = 5.133 ; sec. stan LHS 3003 = LP 914-54_ plx=141.7891mas M7.0Ve (GaiaDR3)
+(G-Ks)(M7V) =  5.134 ; LP_441-34_ plx=53.5836mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  5.137 ; LSPM_J1845+0711_ plx=43.8099mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  5.150 ; 2MASS_J21511011-1141181_ plx=39.1442mas M7.0 (GaiaDR3)
+(G-Ks)(M7V) =  5.219 ; APMPM_J2331-2750_ plx=73.3785mas M7.0V (GaiaDR3)
+(G-Ks)(M7V) = 5.255 ; exemplar LP 775-31 plx=94.3054mas (GaiaDR3) 
+(G-Ks)(M7V) =  5.273 ; G_100-28_ plx=97.60mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  5.365 ; LSR_J0510+2713_ plx=97.3185mas M7V (GaiaDR3)
+=> adopt (G-Ks)(M7V) = 5.04 [updated 11/4/2024] (GaiaDR3) 
+
 (G-Ks)(M7V) =   4.927 ; exemplar LP 423-31 = NLTT 18549 (Gaia DR2)
-(G-Ks)(M7V) = 4.93497 ; LP_169-6_ plx=46.1643mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 4.97046 ; LSR_J0515+5911_ plx=63.3593mas M7.0V (GaiaDR3)
-(G-Ks)(M7V) = 4.99729 ; VB_8_ plx=153.9659mas M7Ve (GaiaDR3)
-(G-Ks)(M7V) =   5.022 ; pri stan. VB 8 (Gaia DR2)
-(G-Ks)(M7V) = 5.03768 ; LP_218-8_ plx=47.2893mas M7Ve (GaiaDR3)
-(G-Ks)(M7V) = 5.04048 ; LSPM_J1440+1339_ plx=39.1300mas M7V (GaiaDR3)
+(G-Ks)(M7V) =  5.022 ; pri stan. VB 8 (Gaia DR2)
 (G-Ks)(M7V) =   5.063 ; exemplar LHS 2645  (Gaia DR2)
-(G-Ks)(M7V) = 5.06743 ; SIPS_J1256-1257_ plx=47.2733mas M7.0 (GaiaDR3)
-(G-Ks)(M7V) = 5.12671 ; LP_423-14_ plx=53.5855mas M7.0V (GaiaDR3)
-(G-Ks)(M7V) = 5.13308 ; LP_914-54_ plx=141.7891mas M7.0Ve (GaiaDR3)
-(G-Ks)(M7V) = 5.13436 ; LP_441-34_ plx=53.5836mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 5.13718 ; LSPM_J1845+0711_ plx=43.8099mas M7V (GaiaDR3)
-(G-Ks)(M7V) = 5.15086 ; 2MASS_J21511011-1141181_ plx=39.1442mas M7.0 (GaiaDR3)
 (G-Ks)(M7V) =  5.155  ; sec. stan. LHS 3003 = LP 914-54 (Gaia DR2)
-(G-Ks)(M7V) = 5.21928 ; APMPM_J2331-2750_ plx=73.3785mas M7.0V (GaiaDR3)
-(G-Ks)(M7V) = 5.27392 ; G_100-28_ plx=97.60mas M7V (GaiaDR3)
 (G-Ks)(M7V) =   5.277 ; exemplar LP 775-31 (Gaia DR2)
-(G-Ks)(M7V) = 5.36567 ; LSR_J0510+2713_ plx=97.3185mas M7V (GaiaDR3)
 => adopt (G-Ks) = 5.06 [updated 12/27/2021] (GaiaDR2)
 
-(G-V)(M7V) =  -3.0116 ; GJ_644C
-(G-V)(M7V) =  -2.98   ; trinomial trend through late Ms
-(G-V)(M7V) = -2.94    ; (V-Ks)=8.00, (G-Ks)=5.06 (see below)
-(G-V)(M7V) =  -2.8667 ; LHS_3003
-(G-V)(M7V) =   -2.226  ; median M7V d<60pc (N=25)
-=> adopt (G-V)(M7V) = -2.94 [updated 12/27/2021]
+
+(G-V)(M7V) =  -3.0116 ; pri. stan. VB 8 = GJ 644C (GaiaDR2) 
+(G-V)(M7V) =  -2.98   ; trinomial trend through late Ms (GaiaDR2) 
+(G-V)(M7V) = -2.94    ; (V-Ks)=8.00, (G-Ks)=5.06 (see below) (GaiaDR2) 
+(G-V)(M7V) =  -2.8667 ; LHS_3003 (GaiaDR2) 
+(G-V)(M7V) =   -2.226  ; median M7V d<60pc (N=25) (GaiaDR2) 
+=> adopt (G-V)(M7V) = -2.94 [updated 12/27/2021] (GaiaDR2) 
+
+(G-V)(M7V) =  -2.793 +-0.003 ; exemplar LHS 2645 (GaiaDR3) 
 
 Mv(M7V) =    14.3  ; Schmidt-Kaler82
+Mv(M7V) =  17.37   ; exemplar LHS 2645  
 Mv(M7V) =  17.47   ; non-stan. LHS 292
 Mv(M7V) =  17.655  ; EEM fit to Reid CNS3 data (V=K=8.00)
 Mv(M7V) =  17.685  ; Dieterich14 calibration for V-Ks=8.00
@@ -594,21 +614,22 @@ Mv(M7V) =   18.08  ; Henry94
 => adopt M_i(M7V)  = 13.97 mag [updated 6/15/2024]  (M_J=10.70, i-J=3.27)
 => adopt M_r(M7V)  = 16.31 mag [updated 6/15/2024]  (M_i=13.97, r-i=2.34) 
 
-M_G(M7V) =   12.1683 ;  G 122-49                     
-M_G(M7V) =   12.7612 ;  G 100-28                     
-M_G(M7V) =   13.0542 ;  LP 35-347
-M_G(M7V) =   13.54   ;  Kiman19 
-M_G(M7V) =   13.6322 ;  2MASS J03304890+5413551      
-M_G(M7V) =   13.6456 ;  LP 245-10
-M_G(M7V) =  13.79   ; median nearest 10 M7s in SIMBAD 
-M_G(M7V) =   13.9431 ;  G 9-38B
-M_G(M7V) =    14.212 ; Reyle18 polynomial
-M_G(M7V) =  14.3583 ;  NAME Teegarden's Star
-M_G(M7V) = 14.72   ; Mv=17.70, G-V=-2.98
-M_G(M7V) =  14.767  ; trend SIMBAD d<10pc sample
-M_G(M7V) = 14.7729 ; pri. stan. VB 8                         
-M_G(M7V) = 14.8397 ; sec. stan. LP 914-54                    
-M_G(M7V) =    14.9078 ;  WISEA J051019.92+271355.3
+M_G(M7V) =   12.17 ;  G 122-49 (GaiaDR2)                   
+M_G(M7V) =   12.76 ;  G 100-28 (GaiaDR2)                       
+M_G(M7V) =   13.05 ;  LP 35-347 (GaiaDR2)   
+M_G(M7V) =   13.54 ;  Kiman19 (GaiaDR2)   
+M_G(M7V) =   13.63 ;  2MASS J03304890+5413551 (GaiaDR2)        
+M_G(M7V) =   13.65 ;  LP 245-10 (GaiaDR2)   
+M_G(M7V) =  13.79 ; median nearest 10 M7s in SIMBAD (GaiaDR2)   
+M_G(M7V) =   13.94 ;  G 9-38B (GaiaDR2)   
+M_G(M7V) =    14.21 ; Reyle18 polynomial (GaiaDR2)   
+M_G(M7V) =  14.36 ;  NAME Teegarden's Star (GaiaDR2)   
+M_G(M7V) =  14.57  ; exemplar LHS 2645 (GaiaDR2)   
+M_G(M7V) = 14.72   ; Mv=17.70, G-V=-2.98 (GaiaDR2)   
+M_G(M7V) =  14.77  ; trend SIMBAD d<10pc sample (GaiaDR2)   
+M_G(M7V) = 14.77 ; pri. stan. VB 8 (GaiaDR2)                   
+M_G(M7V) = 14.84 ; sec. stan. LP 914-54 (GaiaDR2)                  
+M_G(M7V) =    14.91 ;  WISEA J051019.92+271355.3 (GaiaDR2)   
 
 M_J(M7V) =     7.63 ; GJ_3923_ M7 plx=54.1053mas (obsolete Stephenson86 classification)
 M_J(M7V) =     7.63 ; StM_193_ M7 plx=54.1318mas (obsolete Stephenson86 classification)
@@ -627,9 +648,10 @@ M_J(M7V) =   10.14 ; LSPM_J0357+4107_ M7V plx=70.5077mas
 M_J(M7V) =   10.33 ; LSR_J0515+5911_ M7.0V plx=63.3593mas
 M_J(M7V) =   10.41 ; LP_500-35_ M7V plx=75.5877mas
 M_J(M7V) =   10.43 ; LP_822-7_ M7V plx=54.3954mas
+M_J(M7V) =  10.56 ; exemplar LHS 2645
 M_J(M7V) =   10.64 ; LSR_J0510+2713_ M7V plx=97.3185mas
-M_J(M7V) =  10.70 ; M_Ks=9.70, J-Ks=1.00 
-M_J(M7V) =   10.71 ; GJ_644_C_ M7Ve plx=153.9659mas
+M_J(M7V) = 10.70 ; M_Ks=9.70, J-Ks=1.00 
+M_J(M7V) =  10.71 ; pri. stan. VB 8 = GJ_644_C_ M7Ve plx=153.9659mas
 M_J(M7V) =   10.72 ; GJ_3877_ M7.0Ve plx=141.7891mas
 M_J(M7V) =   10.79 ; SIPS_J1540-2613_ M7.0 plx=67.2738mas
 M_J(M7V) =   10.90 ; CE_303_ M7e plx=66.6038mas
@@ -639,17 +661,39 @@ M_J(M7V) =    11.52 ; SIPS_J0004-2058_ M7.0 plx=66.4805mas
 => adopt M_J(M7V) = 10.70 mag [updated 10/20/2024]  (M_Ks=9.70, J-Ks=1.00)
 
 
-M_Ks(M7V) =  9.782 ; Finch14 calibration for V-K=8.00
-M_Ks(M7V) =  9.751  ; pri. stan. VB 8
-M_Ks(M7V) =  9.723  ; EEM fit to Dieterich+14 data V-K=8.00
-M_Ks(M7V) = 9.70   ; Mv=17.70, V-Ks=8.00
-M_Ks(M7V) =  9.685  ; sec. stan. LHS 3003
-M_Ks(M7V) =  9.685 ; Dieterich14 calibration for V-K=8.00
-M_Ks(M7V) =   9.655 ; EEM fit to Reid CNS3 data for V-K=8.00
-M_Ks(M7V) =   9.62  ; non-stan. LHS 292
-M_Ks(M7V) =   9.57  ; Dupuy12 polynomial
+M_Ks(M7V) =     7.99 ; GJ_1083_ M7V plx=97.60mas
+M_Ks(M7V) =     8.17 ; GJ_3971_ M7V plx=69.8207mas
+M_Ks(M7V) =     8.40 ; LP_623-40_ M7 plx=55.6935mas
+M_Ks(M7V) =   8.46 ; exemplar LP 423-31 = NLTT 18549 
+M_Ks(M7V) =     8.58 ; LP_222-65_ M7V plx=56.6819mas
+M_Ks(M7V) =     8.71 ; GJ_3497_ M7V plx=81.3731mas
+M_Ks(M7V) =    8.94 ; GJ_3147_ M7V plx=96.7355mas
+M_Ks(M7V) =    8.95 ; LP_357-56_ M7 plx=74.9887mas
+M_Ks(M7V) =    9.07 ; UPM_J1425+2540_ M7 plx=62.1261mas
+M_Ks(M7V) =    9.11 ; UPM_J1055-7356_ M7 plx=77.4987mas
+M_Ks(M7V) =    9.12 ; LSPM_J0219+5919_ M7 plx=55.2864mas
+M_Ks(M7V) =    9.18 ; LSPM_J0330+5413_ M7V plx=95.2169mas
+M_Ks(M7V) =    9.19 ; LSPM_J0357+4107_ M7V plx=70.5077mas
+M_Ks(M7V) =   9.22 ; exemplar LP 775-31 
+M_Ks(M7V) =    9.42 ; LP_500-35_ M7V plx=75.5877mas
 M_Ks(M7V) =   9.42  ; Dupuy12 mean
-M_Ks(M7V) =  9.9225 ; exemplar LP 775-31
+M_Ks(M7V) =    9.50 ; LSR_J0510+2713_ M7V plx=97.3185mas
+M_Ks(M7V) =    9.51 ; LP_822-7_ M7V plx=54.3954mas
+M_Ks(M7V) =   9.54  ; exemplar LHS 2645
+M_Ks(M7V) =   9.57  ; Dupuy12 polynomial
+M_Ks(M7V) =   9.62  ; non-stan. LHS 292
+M_Ks(M7V) =   9.66  ; EEM fit to Reid CNS3 data for V-K=8.00
+M_Ks(M7V) =   9.69  ; sec. stan. LHS 3003
+M_Ks(M7V) =   9.69 ; Dieterich14 calibration for V-K=8.00
+M_Ks(M7V) =  9.70  ; Mv=17.70, V-Ks=8.00
+M_Ks(M7V) =   9.72  ; EEM fit to Dieterich+14 data V-K=8.00
+M_Ks(M7V) =   9.75  ; pri. stan. VB 8 = GJ 644C M7Ve plx=153.9659mas
+M_Ks(M7V) =   9.78  ; Finch14 calibration for V-K=8.00
+M_Ks(M7V) =     9.79 ; CE_303_ M7e plx=66.6038mas
+M_Ks(M7V) =   9.92 ; exemplar LP 775-31
+M_Ks(M7V) =    10.10 ; LP_548-37_ M7Ve plx=59.9823mas
+
+[EEM 11/4/2024: VB 8 = GJ 644C seems faint compared to other M7Vs]
 
 Teff(M7V) =    2940 K ; Schmidt-Kaler82
 Teff(M7V) =  2900 K ; Rajpurohit18 (mean for N=3 M7Vs)
@@ -692,39 +736,41 @@ BCv(M7V) =   -3.33 mag ; Schmidt-Kaler82(BCv=-3.46 + 0.13 offset)
 BCv(M7V) =   -3.6  mag ; Johnson65 (assumed Tsun=5800K, Mbol,Sun=4.84)
 BCv(M7V) =   -4.27 mag ; EEM fit to Casagrande08 data(Teff=2500K)
 BCv(M7V) = -4.93  mag  ; Mbol=12.84, Mv=17.77
-BCv(M7V) = -4.985 mag  ; pri. stan. VB 8 (derived using Dahn02)
+BCv(M7V) = -4.985 mag  ; pri. stan. VB 8 (calc using Dahn02)
 BCv(M7V) = -4.99  mag  ; BC_K=3.01, V-Ks=8.00
+BCv(M7V) = -5.005 +-0.03: mag ; pri. stan. VB 8 (calc using Cushing05)  
 BCv(M7V) = -5.07  mag  ; sec. stan. LHS 3003 (Leggett01)
 BCv(M7V) =   -5.50 mag ; Bessell91("old disk"; BCv = (V-I)-BC_I)
-=> adopt BCv(M7V) = -4.99 mag [updated 11/3/2019]
+=> adopt BCv(M7V) = -5.00 mag [updated 11/4/2024] (V-Ks=8.00, BC_Ks=3.00) 
 
 BC_Ks(M7V) = 2.791 ; pri. stan. VB 8 (see below)
 BC_Ks(M7V) = 2.827 ; sec. stan. LHS 3003 (see below,Pecaut13)
 BC_Ks(M7V) = 2.91  ; Schmidt14 (rms = 0.08)
 BC_K(M7V)  = 2.920 ; Leggett01 polynomial for J-K=0.999
 BC_Ks(M7V) = 2.99  ; trend for mid/late M dwarfs
+BC_Ks(M7V) = 2.999 +-0.036 ; pri. stan. VB 8 (calc. using Cushing05) 
 BC_K(M7V)  = 3.009 ; pri. stan. VB 8 (Leggett01, IAU scale)
 BC_K(M7V)  = 3.012 ; Leggett01 polynomial for I-K=3.509
-BC_K(M7V)  = 3.014 ; pri. stan. VB 8 (derived using Dahn02)
+BC_K(M7V)  = 3.014 ; pri. stan. VB 8 (calc using using Dahn02)
 BC_K(M7V)  = 3.03  ; sec. stan. LHS 3003 (Leggett96,Leggett01)
 BC_Ks(M7V) = 3.042 ; Sanghi24 
 BC_K(M7V)  = 3.049 ; pri. stan. LHS 429/Dahn02/BC_J=2.05, assume J-Ks=0.999
 BC_K(M7V)  = 3.05  ; sec. stan. LHS 3003 (Golimowski04)
 BC_K(M7V)  = 3.056 ; Golimowski04(for SpT)
-=> adopt BC_K = 3.01 mag [updated 12/10/2020]
+=> adopt BC_K = 3.00 mag [updated 11/4/2024] (V-Ks=8.00, BCv=-5.00) 
 
-logL(M7V) =  -3.459 +-0.025 ; SIP 1632-0631 (Dieterich14)
-logL(M7V) =  -3.309 +-0.018 ; CE303 (Dieterich14)
-logL(M7V) =  -3.3033 +-0.012 ; LP 775-031 (Dieterich14)
-logL(M7V) =   -3.28  ; sec. stan. LHS 3003 (Leggett01)
-logL(M7V) =  -3.28 +-0.03 ; sec. stan. LHS 3003 (Golimowski04)
-logL(M7V) =   -3.274 ; sec. stan. LHS 3003 (Dahn02) Mbol = 12.94
-logL(M7V) =  -3.266 +-0.013 ; sec. stan. LHS 3003 (Dieterich14)
-logL(M7V) =  -3.218 +-0.056 ; LHS 2351 (Dieterich14)
-logL(M7V) =  -3.214 +-0.007 ; pri. stan. GJ644C/VB8 (Dieterich14)
-logL(M7V) =  -3.21 +-0.02 ; sec. stan. LHS 3003 = GJ 3877 
-logL(M7V) =  -3.206 ; pri. stan. LHS 429/vB8 (Dahn02) Mbol = 12.77
 logL(M7V) = -3.188 ; M_Ks=9.70, BC_K=3.01 => Mbol = 12.710
+logL(M7V) =  -3.206 ; pri. stan. LHS 429/vB8 (Dahn02) Mbol = 12.77
+logL(M7V) =  -3.21 +-0.02 ; sec. stan. LHS 3003 = GJ 3877 
+logL(M7V) =  -3.214 +-0.007 ; pri. stan. GJ644C/VB8 (Dieterich14)
+logL(M7V) =  -3.218 +-0.056 ; LHS 2351 (Dieterich14)
+logL(M7V) =  -3.266 +-0.013 ; sec. stan. LHS 3003 (Dieterich14)
+logL(M7V) =   -3.274 ; sec. stan. LHS 3003 (Dahn02) Mbol = 12.94
+logL(M7V) =  -3.28 +-0.03 ; sec. stan. LHS 3003 (Golimowski04)
+logL(M7V) =   -3.28  ; sec. stan. LHS 3003 (Leggett01)
+logL(M7V) =  -3.3033 +-0.012 ; LP 775-031 (Dieterich14)
+logL(M7V) =  -3.309 +-0.018 ; CE303 (Dieterich14)
+logL(M7V) =  -3.459 +-0.025 ; SIP 1632-0631 (Dieterich14)
 => adopt logL(M7V) = -3.188 dex [updated 12/10/2020; need to reevalute*]
 => adopt Mbol(M7V) = 12.710 mag [updated 12/10/2020]
 
@@ -799,8 +845,12 @@ VB 8 = GJ 644C = LHS 429 = SDSS J165534.95-082345.5 = WDS J16555-0820F = Gaia DR
   -4.98, BC_K = 11.83 - 8.816 = 3.014. Mv - Mbol = 17.755 - 12.77 =
   BCv = -4.985. mbol=11.607+-0.036(JHK=>Pecaut13),
   BC_Ks=11.607-8.816=2.791. Leggett01: fbol = 4.69e-13 W/m2 => mbol =
-  11.825 => BC_Ks = 11.825 - 8.816 = 3.009 (IAU2015 scale).  Teffs:
-  2300K(Leggett00*), 2400K(Casagrande08*), 2425K(Jenkins09*),
+  11.825 => BC_Ks = 11.825 - 8.816 = 3.009 (IAU2015 scale).
+  fbol=4.73e-13+-1.18e-14W/m2(Cushing05) =>
+  mbol=11.8154+-0.0271mag(Cushing05/IAU2015scale) => BCv = mbol - Vmag
+  = 11.8154+-0.0271 - 16.820(GaiaDR3/synth) = -5.005+-0.03: => BC_Ks =
+  mbol - Ksmag = 11.8154+-0.0271 - 8.816+-0.023(2MASS) = 2.999+-0.036.
+  Teffs: 2300K(Leggett00*), 2400K(Casagrande08*), 2425K(Jenkins09*),
   2500K(ReidHawley05*), 2611+-43K(Dieterich14), 2700K+-60K (Mann15),
   2700K(Rajpurohit13), 2707+-63K(Dahn02*), 2708K(Stelzer13),
   2727K(RojasAyala12*), 2850K(Lyubchik12*,average) => adopt Teff =
@@ -819,10 +869,8 @@ VB 8 = GJ 644C = LHS 429 = SDSS J165534.95-082345.5 = WDS J16555-0820F = Gaia DR
   have omitted the u and i-band data for VB8 from our zero-point
   averages." Note that Pickles10 reported "Sloan-vac" photometry from
   DR7 of u=19.287, g=17.714, r=16.027, i=16.095, z=11.767. Hence the
-  Pickles10 (z-J) = 11.767 - 9.776 = 1.991, and g-V = 17.714 - 14.60
-  = 
+  Pickles10 (z-J) = 11.767 - 9.776 = 1.991, and g-V = 17.714 - 14.60 =
   
-
 # Secondary Standard
 
 LHS 3003 = GJ 3877 = LP 914-54 = NLTT 38829 = 2MUCD 11264 = 2MASS J14563831-2809473 = Gaia DR3 6224387727748521344
@@ -884,7 +932,7 @@ LP 423-31 = NLTT 18549 = LSPM J0752+1612 = 2MASS J07522390+1612157
    J=10.879+-0.022(2MASS), H=10.197+-0.022(2MASS), Ks=9.846+-0.019(2MASS),
    V-Ks = 17.04 - 9.846 = 7.194. 
    (G-Ks) = 4.927, M_G=13.3915, M_Ks=8.46451, plx=52.93mas(SIMBAD),
-   G=14.773, Ks=9.846
+   G=14.773, Ks=9.846. Seems somewhat brighter than most other M7Vs. 
 
 LP 775-31 = 2MASS J04351612-1606574
    M6V: Cruz02(Cruz03 pointed out change)
@@ -903,10 +951,43 @@ LHS 2645 = NLTT 32206 = LSPM J1253+4034 = SDSS J125312.49+403400.6 = 2MASS J1253
   *M7Ve: Kirkpatrick93(M7),ReidGizis05(M7Ve),West08(M7e),Jenkins09(M7.0),West11(M7e)
    M7.5: Kirkpatrick95(M7.5V),Kirkpatrick10
 
-   V=18.43(Salim03), V=18.80(Jenkins09), V=18.90(Lepine05), 
-   J=12.185+-0.019(2MASS), H=11.545+-0.022(2MASS), Ks=11.162+-0.019(2MASS).
-   V-Ks ~ 18.80 - 11.162 = 7.638. plx=47.1353+-0.0953mas(GaiaDR2), G=16.2253+-0.0006(GaiaDR2).
-   G-Ks = 16.2253 - 11.162 = 5.063. 
+   V=18.43(Salim03), V=18.80(Jenkins09), V=18.90(Lepine05), V=18.993093(GaiaDR3/synth).
+   J=12.185+-0.019(2MASS), H=11.545+-0.022(2MASS),
+   Ks=11.162+-0.019(2MASS).  V-Ks ~ 18.80 - 11.162 = 7.638. Sloan mags
+   from West11: u=21.815+-0.217, g=19.951+-0.023, r=18.199+-0.022,
+   i=15.557+-0.015, z=14.156+-0.018(West11).
+   plx=47.1353+-0.0953mas(GaiaDR2), G=16.2253+-0.0006(GaiaDR2).  G-Ks
+   = 16.2253 - 11.162 = 5.063. plx=47.2893+-0.0633mas(GaiaDR3),
+   G=16.199684+-0.002818(GaiaDR3), Bp-Rp=4.454285(GaiaDR3),
+   Bp-G=2.971085(GaiaDR3), G-Rp=1.483200(GaiaDR3).
+
+        G = 16.1997+-0.0028 ; exemplar LHS 2645   
+  (Bp-Rp)(M7V) =  4.4543 ; exemplar LHS 2645   
+   (Bp-G)(M7V) =  2.9711 ; exemplar LHS 2645   
+   (G-Rp)(M7V) =  1.4832 ; exemplar LHS 2645   
+    (G-V)(M7V) =  -2.793 +-0.003 ; exemplar LHS 2645   
+    (G-J)(M7V) =   4.015 +-0.019 ; exemplar LHS 2645   
+       Mv(M7V) =  17.367 +-0.003 ; exemplar LHS 2645   
+      M_G(M7V) =  14.573 +-0.004 ; exemplar LHS 2645   
+      M_J(M7V) =  10.559 +-0.019 ; exemplar LHS 2645   
+     M_Ks(M7V) =   9.536 +-0.019 ; exemplar LHS 2645   
+   (V-Ks)(M7V) =   7.831 +-0.019 ; exemplar LHS 2645   
+   (G-Ks)(M7V) =   5.038 +-0.019 ; exemplar LHS 2645   
+    (V-J)(M7V) =   6.808 +-0.019 ; exemplar LHS 2645   
+    (V-H)(M7V) =   7.448 +-0.022 ; exemplar LHS 2645   
+    (J-H)(M7V) =   0.640 +-0.029 ; exemplar LHS 2645   
+   (H-Ks)(M7V) =   0.383 +-0.029 ; exemplar LHS 2645   
+  (Ks-W1)(M7V) =   0.227 +-0.031 ; exemplar LHS 2645   
+  (W1-W2)(M7V) =   0.194 +-0.033 ; exemplar LHS 2645   
+  (W1-W3)(M7V) =   0.431 +-0.068 ; exemplar LHS 2645   
+  (W1-W4)(M7V) =  10.935 +-0.024 ; exemplar LHS 2645   
+    (u-g)(M7V) =   1.864 +-0.218 ; exemplar LHS 2645 (DR7/West11)
+    (g-r)(M7V) =   1.752 +-0.032 ; exemplar LHS 2645 (DR7/West11)
+    (r-i)(M7V) =   2.642 +-0.027 ; exemplar LHS 2645 (DR7/West11)
+    (i-z)(M7V) =   1.401 +-0.023 ; exemplar LHS 2645 (DR7/West11)
+    (g-V)(M7V) =   0.958 +-0.023 ; exemplar LHS 2645   
+    (z-J)(M7V) =   1.971 +-0.026 ; exemplar LHS 2645   
+    (g-G)(M7V) =   3.751 +-0.023 ; exemplar LHS 2645 
 
 LHS 3002 = LP 441-34
 
