@@ -285,6 +285,7 @@ colors.]
 (Bp-Rp)(M6V) =  3.8419  ; sec. stan. GJ_1245B (GaiaDR2)
 (Bp-Rp)(M6V) =  3.9546  ; ter. stan. GJ_3146 (GaiaDR2)
 (Bp-Rp)(M6V) =  3.9546  ; ter. stan. GJ_65B (GaiaDR2)
+(Bp-Rp)(M6V) =  4.060 (+-0.269 rms) ; median N=46 M6s d<25pc Sebastian21/SPECULOOS
 (Bp-Rp)(M6V) = 4.16     ; M5-M8.5V trend for M6V (GaiaDR2)
 (Bp-Rp)(M6V) = 4.1848   ; pri. stan. GJ_406 = Wolf 359 (GaiaDR2)
 (Bp-Rp)(M6V) =  4.3006  ; exemplar LHS 2026 (GaiaDR2)
@@ -461,6 +462,7 @@ colors.]
 (i-z)(M6V) =  0.9+-0.5 ; pri. stan. GJ 406 = Wolf 359 (see below)
 (i-z)(M6V) =  0.94 ; Kesseli17 
 (i-z)(M6V) =   0.986 ; GJ_1159_B_ plx=39.9509mas M6V
+(i-z)(M6V) =  1.01 ; Dobbie02(synthetic/Pickles98)
 (i-z)(M6V) =   1.016 ; LP_268-12_ plx=27.9306mas M6V
 (i-z)(M6V) =   1.034 ; LP_438-88_ plx=26.7624mas M6V
 (i-z)(M6V) =  1.05 (+-0.07; rms) ; West11
@@ -662,13 +664,15 @@ Teff(M6V) =  2950 K ; ter. stan. GJ 65
 Teff(M6V) =  2920 K ; exemplar LSPM J0011+5908 
 Teff(M6V) =  2900 K ; ter. stan. GJ 3146
 Teff(M6V) =  2883 K ; RojasAyala12(mean N=13 M6V stars)
-Teff(M6V) =  2881 K ; sec. stan. GJ 1245B (median Teff) 
+Teff(M6V) =  2881 K ; sec. stan. GJ 1245B (median Teff)
+Teff(M6V) =  2878 (+-65 rms) K ; median N=46 M6s d<25pc Sebastian21/SPECULOOS
 Teff(M6V) =  2857 K ; pri. stan. GJ 406 (median Teff)
 Teff(M6V) =  2850+-131 K ; Cifuentes23
 Teff(M6V) =    2846 K ; Golimowski04
 Teff(M6V) =  2830 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(M6V) = 2818 K ; interp logL vs. Rad for logL=-2.980
 Teff(M6V) = 2810 K ; Mann15 calib for [Fe/H]=0.0 trend for R=0.132, M_Ks=9.3
+Teff(M6V) =  2808 K ; Stephens09
 Teff(M6V) =    2800 K ; Bessell91 "old disk"
 Teff(M6V) =    2800 K ; Habets81
 Teff(M6V) =  2800 K ; Rajpurohit13(N=2)
@@ -723,12 +727,14 @@ logL(M6V) = -2.980 dex ; M_Ks=9.22, BC_Ks=2.97 => Mbol = 12.190
 logL(M6V) =  -2.97 +-0.02 dex ; non stan. LHS 36 (Golimowski04)
 logL(M6V) =  -2.97 dex ; LHS 36 (Leggett01)
 logL(M6V) =  -2.97 +-0.02 dex ; pri. stan. Wolf 359 (Sanghi23)
+logL(M6V) =  -2.945 (+-0.016 sem,+-0.081 stdev) ; med N=46 M6s d<25pc Sebastian21/SPECULOOS
 logL(M6V) =  -2.82 dex ; sec. stan. GJ 1245B (see below)
 => adopt logL(M6V) = -2.980 dex [updated 11/15/2021]
 => adopt Mbol(M6V) = 12.190 mag [updated 11/15/2021]
 
 Rad(M6V) = 0.1349 Rsun ; Mann15 trend M_Ks=9.22, [Fe/H]=0.0
 Rad(M6V) = 0.1365 Rsun ; logL=-2.98, Teff=2810K
+Rad(M6V) = 0.137 (+-0.006 rms) Rsun ; mean N=46 M6s d<25pc Sebastian21/SPECULOOS
 Rad(M6V) = 0.1398 Rsun ; Rabus19 trend for Teff=2810K
 Rad(M6V) = 0.140+-0.022 Rsun ; Cifuentes23
 => adopt Rad(M6V) = 0.137 Rsun [updated 11/15/2021]
@@ -738,6 +744,7 @@ Mass(M6V) =  0.102  Msun ; Delfosse10 calibration for M_Ks=9.22
 Mass(M6V) = 0.1045 Msun ; Mann18 calib. for M_Ks=9.22
 Mass(M6V) = 0.105 Msun  ; pri. stan. GJ 406 = Wolf 359 (see below) 
 Mass(M6V) = 0.108  Msun ; Benedict16 calibration for M_Ks=9.22
+Mass(M6V) = 0.108 (+-0.006 rms) Msun ; med N=46 M6s d<25pc Sebastian21/SPECULOOS
 Mass(M6V) =  0.108  Msun ; sec. stan. GJ 1245B (Jenkins09)
 Mass(M6V) =  0.1195 Msun ; GJ 65B (dynamical)
 Mass(M6V) =  0.124+-0.023 Msun ; Cifuentes23

@@ -396,7 +396,7 @@ M_Ks(M1.5V) =   6.03 ; GJ_3309_ M1.5V plx=60.8190mas
 M_Ks(M1.5V) =   6.07 ; LP_905-56_ M1.5V plx=65.2656mas
 M_Ks(M1.5V) =   6.08 ; GJ_4122_ M1.5V plx=72.7000mas
 M_Ks(M1.5V) =   6.56 ; GJ_289_ M1.5V plx=68.0334mas
-M_Ks(M1.5V) =   6.74 ; GJ_667_C_ M1.5V plx=138.0663mas
+M_Ks(M1.5V) =   6.74 ; GJ_667_C_ M1.5V plx=138.0663mas ([Fe/H]~-0.4) 
 M_Ks(M1.5V) =   6.78 ; GJ_625_ M1.5V plx=154.3503mas
 => adopt M_Ks(M1.5V) = 5.75 [updated 12/10/2020] (Mv=9.85, V-Ks=4.10)
 
@@ -793,22 +793,7 @@ G 111-72 = 2MASS J08200425+3834415 = Gaia DR3 908364387441657472
   sdM2: Eggen65
   M2: Garces11
 
-LHS 2429 
 
-LHS 1828 
-
-
-BD+61 195
-
-GJ 3098
-
-GJ 87
-
-tet Per B
-
-2MASS J08175130+3107455
-
-2MASS J14562809+1648342
 
 
 GJ 433 = LHS 2429 = HIP 56528 = L 907-1 = NLTT 27914 = SAO 202602 = 2MASS J11352695-3232232
@@ -855,3 +840,99 @@ GJ 433 = LHS 2429 = HIP 56528 = L 907-1 = NLTT 27914 = SAO 202602 = 2MASS J11352
   [Fe/H]=-0.0756(GaiaDR3), [Fe/H]=-0.02+-0.05(Lindgren17).
   logg=4.81(Lindgren17).  SED fit 7/16/2022: Teff=3580K, BCv=-1.580,
   mbol=8.233, Mbol=8.443, logL=-1.475.
+
+GJ 667C = HD 156384C = LHS 443 = HJ 4935C = CNS5 4253 = NLTT 44534 = 2MASS J17185868-3459483 = Gaia DR3 5975663354131618304 = WDS J17190-3459C
+  M1V: Corbally84,Maldonado19(M1),Maldonado20(M1.0)
+  M1.5V: Reid95,Geballe02,Lurie14
+  M2V: Zakhozhaj79,Walker83
+ *sdM2.2: Houdebine19
+  M2.5: Bidelman85
+  M3.2+-0.6: Sebastian21(phot)
+  M3.5: Wunderlich19
+
+  Slightly metal-poor ([Fe/H]~-0.4)
+  host star to multiple exoplanets (w/hab zone small planet) and 
+  33" distant companion to HD 156384 AB (K3V+K4V).
+  U-B=1.17(Corbally84), 
+  B=11.882+-0.022(APASS/DR9),
+  B-V=1.57(Corbally84), 
+  B-V=1.596+-0.046(APASS/DR9),
+  V=10.16(Zkhozhaj79),
+  V=10.20(Santos13), 
+  V=10.22(Mermilliod86,Bidelman85,Tokovinin18),
+  V=10.26(Corbally84),
+  V=10.268+-0.040(Hartkopf13/APASS),
+  V=10.286+-0.040(APASS/DR9), 
+  V=10.32(CMC99), 
+  V=10.34(Hosey15),
+  V=10.427(Paunzen22),
+  V=10.54(Salim03)
+  => adopt V=10.286+-0.04. 
+  Rc=9.29(Hosey15),
+  Rc=8.09(Hosey15), 
+  Ic=8.14(Sebastian21),
+  R-Ic=1.218(Houdebine19).
+  V-Ks=4.30(Hosey15).
+  J=6.848+-0.021(2MASS), H=6.322+-0.044(2MASS), Ks=6.036+-0.020(2MASS) =>
+  V-Ks = 10.286+-0.04(APASS/DR9) - 6.036+-0.020(2M) = 4.250+-0.045. 
+  Teffs:
+  3351+-150K(Santos13),
+  3360+-105K(Sebastian21), 
+  3472+-73K(Gaidos14),
+  3567K(Kuznetsov19),
+  3570K(Hodebine19#1),
+  3585+-15K(Houdebine19), 
+  3634K(Rosenthal21),
+  3693K(Maldonado20),
+  3775K(Sreejith20) 
+  => adopt Teff=3567K.
+  Metallicities:
+  [Fe/H]=-0.55+-0.10(Maldonado19),
+  [Fe/H]=-0.55(Houdebine19), 
+  [Fe/H]=-0.53(Neves13,Santos13),
+  [Fe/H]=-0.48(Kuznetsov19),
+  [Fe/H]=-0.338(Rosenthal21),
+  [Fe/H]=-0.30+-0.08(Gaidos14),
+  [Fe/H]=+0.06(Maldonado21).
+  Radii:
+  Rad=0.35+-0.04Rsun(Sebastian21), 
+  Rad=0.37+-0.05Rsun(Gaidos14),
+  Rad=0.49(Zakjozhaj79), 
+  Luminosities:
+  logL=-1.288+-0.082(Maldonado20),
+  Lum=0.0183+-0.0057Lsun(Gaidos14).
+  Masses (remarkable spread in estimates):
+  0.30+-0.03Msun(Neves13),
+  0.324Msun(Mignon23), 
+  0.33+-0.01Msun(Sebastian21),
+  0.33+-0.02Msun(Maldonado19),
+  0.33+-0.20Msun(Winter20
+  0.37+-0.07Msun(Gaidos14),
+  0.43Msun(Zakhozhaj79), 
+  0.57+-0.05Msun(Maldonado20)
+  Gravity:
+  logg=4.70+-0.04(Maldonado20),
+  logg=4.951(Rosenthal21),
+  logg=4.96+-0.25(Santos13)
+  => adopt logg=4.95.
+  plx=138.066+-0.02833mas(GaiaDR3) => Mv=10.986+-0.040(APASSDR9/GaiaDR3),
+  M_J=7.548+-0.021(2MASS/GaiaDR3), M_Ks=6.736+-0.020(2MASS/GaiaDR3).
+  These would be very dim compared to typical M1.5Vs, perhaps unsurprising given the low metallicity.
+  
+
+LHS 2429 
+
+LHS 1828 
+
+
+BD+61 195
+
+GJ 3098
+
+GJ 87
+
+tet Per B
+
+2MASS J08175130+3107455
+
+2MASS J14562809+1648342

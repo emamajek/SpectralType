@@ -190,6 +190,7 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (Bp-Rp)(M5.5V) = 3.7117 ; pri. stan. GJ_1245AC  (GaiaDR2)
 (Bp-Rp)(M5.5V) = 3.715  ; d<10pc SIMBAD median (N=10) (GaiaDR2)
 (Bp-Rp)(M5.5V) =  3.7206 ; ter. stan. GJ_1286  (GaiaDR2)
+(Bp-Rp)(M5.5V) =  3.790 (+-0.148 rms) ; median N=62 M5.5s d<25pc Sebastian21/SPECULOOS
 (Bp-Rp)(M5.5V) =  3.7965 ; sec. stan. GJ_551  (GaiaDR2)
 (Bp-Rp)(M6V)   =  3.95  ; M6V mean (GaiaDR2)
 => adopt (Bp-Rp)(M5.5V) = 3.71 [updated 11/18/2020] (GaiaDR2)
@@ -373,6 +374,7 @@ Teff(M5.5V) = 2936 K  ; Teff for R=0.156Rsun w/Mann15 trend for [Fe/H]=0.0,M_Ks=
 Teff(M5.5V) = 2940 K  ; empirical L-R relation, for logL=-2.788
 Teff(M5.5V) = 2941+-94 K ; Cifuentes23
 Teff(M5.5V) =  2950 K ; Cifuentes20 <Teff> for CARMENES M5.5V(approx 2900-3000K)
+Teff(M5.5V) = 2960 (+-45 rms) K ; median N=62 M5.5s d<25pc Sebastian21/SPECULOOS
 Teff(M5.5V) = 2988 K  ; sec. stan. GJ 1061
 Teff(M5.5V) =  3000 K  ; ter. stan. GJ 473AB
 Teff(M5.5V) =  3000 K  ; ter. stan. GJ 65A
@@ -411,18 +413,20 @@ BC_K(M5.5V) = 2.841 ; GJ 551 = Proxima Cen (VOSA SED fit, see below; assume V-Ks
 logL(M5.5V) = -2.54  ; deprecated standard GJ 65AB (Leggett96,unresolved)
 logL(M5.5V) = -2.767 ; Morrell19 trend for logL for M_Ks=8.78
 logL(M5.5V) = -2.792 ; M_Ks=8.80, BC_Ks=2.92, Mbol=11.720
-logL(M5.5V) = -2.81  ; sec. stan. Proxima Centauri 
+logL(M5.5V) = -2.81  ; sec. stan. Proxima Centauri
+logL(M5.5V) = -2.850 (+-0.053 rms) ; median N=62 M5.5s d<25pc Sebastian21/SPECULOOS
 => adopt logL(M5.5V) = -2.792 [updated 11/15/2021]
 => adopt Mbol(M5.5V) = 11.720 [updated 11/15/2021]
 
-Rad(M5.5V)  = 0.1410 +- 0.0070 Rsun ; Boyajian12b (N=1)
-Rad(M5.5V)  = 0.147  Rsun ; sec. stan. GJ 551 = Proxima Centauri (Pineda21)
-Rad(M5.5V)  = 0.152  Rsun ; sec. stan. GJ 1061 (Pineda21)
-Rad(M5.5V)  = 0.1559 Rsun ; Mann15 trend M_Ks=8.80, [Fe/H]=0.0
-Rad(M5.5V)  = 0.1559 Rsun ; Teff=2930K, logL=-2.792
-Rad(M5.5V)  = 0.165 +- 0.006 Rsun ; BL Cet (GJ 65B) (Kervella16) [inflated/activity]
-Rad(M5.5V)  = 0.1656 Rsun ; Rabus19 trend for Teff=2940K
-Rad(M5.5V)  = 0.169 +- 0.032 Rsun ; Cifuentes23
+Rad(M5.5V) = 0.1410 +- 0.0070 Rsun ; Boyajian12b (N=1)
+Rad(M5.5V) = 0.142 (+-0.005 rms) Rsun ; median N=62 M5.5s d<25pc Sebastian21/SPECULOOS
+Rad(M5.5V) = 0.147  Rsun ; sec. stan. GJ 551 = Proxima Centauri (Pineda21)
+Rad(M5.5V) = 0.152  Rsun ; sec. stan. GJ 1061 (Pineda21)
+Rad(M5.5V) = 0.1559 Rsun ; Mann15 trend M_Ks=8.80, [Fe/H]=0.0
+Rad(M5.5V) = 0.1559 Rsun ; Teff=2930K, logL=-2.792
+Rad(M5.5V) = 0.165 +- 0.006 Rsun ; BL Cet (GJ 65B) (Kervella16) [inflated/activity]
+Rad(M5.5V) = 0.1656 Rsun ; Rabus19 trend for Teff=2940K
+Rad(M5.5V) = 0.169 +- 0.032 Rsun ; Cifuentes23
 => adopt Rad(M5.5V) = 0.156 Rsun [updated 11/15/2021]
 
 Mass(M5.5V) =  0.155+-0.034 Msun ; Cifuentes23
@@ -439,6 +443,7 @@ Mass(M5.5V) = 0.122 Msun   ; Benedict16 calibration for M_Ks=8.80
 Mass(M5.5V) =  0.121 Msun  ; Delfosse00 calibration for M_Ks=8.80
 Mass(M5.5V) =  0.120 Msun  ; sec. stan. GJ 551 = Proxima Centauri (Ribas17)
 Mass(M5.5V) = 0.119 Msun   ; Kirkpatrick24 calibration for M_G=0.119
+Mass(M5.5V) = 0.177 (+-0.003 sem,+-0.006 rms) ; median N=62 M5.5s d<25pc Sebastian21/SPECULOOS
 Mass(M5.5V) =  0.114 Msun  ; sec. stan. GJ 1002 (see below)
 Mass(M5.5V) =   0.0677 Msun ; Habets81
 => adopt Mass(M5.5V) = 0.122 Msun [updated 11/15/2023]
