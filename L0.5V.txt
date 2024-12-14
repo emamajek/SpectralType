@@ -4,127 +4,210 @@ Kirkpatrick99 listed only one L0.5V: 2MASSW J0147334]345311
 
 Kirkpatrick09(GrayCobrally): 2MASS J07464256+2000321 - L0.5V (primary optical standard)
 
-Teff(L0.5V) = 2257 K ; Dupuy17(Lyon model scale)
-Teff(L0.5V) = 2250 K ; Cifuentes20 <Teff> for CARMENES L0V(N=7)
-Teff(L0.5V) = 2218 K ; Dupuy17(SaumonMarley08 scale)
-Teff(L0.5V) = 2180 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(L0.5V) = 2175 K ; Filippazzo15 calibration (M6V-T9V)
-Teff(L0.5V) = 2166 K ; Kirkpatrick20 Table 13 polynomial
-=> adopt Teff(L0.5V) = 2220 K (logT = 3.346) [updated 1/15/2021]
+Teff(L0.5V) =  2257 K ; Dupuy17(Lyon model scale)
+Teff(L0.5V) =  2250 K ; Cifuentes20 <Teff> for CARMENES L0V(N=7)
+Teff(L0.5V) =  2248 (+-158 rms) ; median N=13 L0.5s d<25pc in Sebastian21/SPECULOOS 
+Teff(L0.5V) =  2218 K ; Dupuy17(SaumonMarley08 scale)
+Teff(L0.5V) =  2180 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(L0.5V) =  2175 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L0.5V) =  2166 K ; Kirkpatrick20 Table 13 polynomial
+Teff(L0.5V) =  2166 K ; Stephens09
+=> adopt Teff(L0.5V) = 2200 K (logT = 3.3424) [updated 12/1/2024]
 
 (V-Ks)(L0.5V) =  9.82 ; 2MA0451-3402 (Dieterich14)
 (V-Ks)(L0.5V) =  9.64 ; 2MA1705-0516AB (Dieterich14)
 (V-Ks)(L0.5V) =  9.57 ; EEM fit to Dieterich14 data
 (V-Ks)(L0.5V) =  9.56 ; trend fit to Dahn17 for L0.5V
 (V-Ks)(L0.5V) =  9.56 ; 2MA0428-2253 (Dieterich14)
-(V-Ks)(L0.5V) = 9.402 ; pri. stan. 2MASS J07464256+2000321
-(V-Ks)(L0.5V) =  9.11 ; 2MASS J17073334+4301304 L0.5 Dahn17
+(V-Ks)(L0.5V) = 9.432 +-0.026 ; deprecated stan. 2MASS J07464256+2000321 
+(V-Ks)(L0.5V) =  9.11 +-0.124 ; 2MASS J17073334+4301304 (Dahn17)
 => adopt (V-Ks)(L0.5V) = 9.55 [updated 8/17/2020]
 
-(G-Ks)(L0.5V) = 6.221 ; pri. stan. 2MASS J07464256+2000321
-(G-Ks)(L0.5V) = 6.275 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
+(G-Ks)(L0.5V) =  6.221 ; deprecated stan. 2MASS J07464256+2000321
+(G-Ks)(L0.5V) =  6.275 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
 => adopt (G-Ks)(L0.5V) = 6.25 [updated 12/26/2020]
 
-(V-Rc)(L0.5V) = 2.50 ; 2MASS 0428-2253 (RECONS)
-(V-Rc)(L0.5V) = 2.63 ; 2MASS 1705-0516 AB (RECONS)
-(V-Rc)(L0.5V) = 2.73 ; 2MASS 0451-3402 (RECONS)
+(G-Ks)(L0.5V) =  6.196 +-0.024 ; deprecated stan. 2MASS J07464256+2000321 (GaiaDR3)
+
+(V-Rc)(L0.5V) =  2.500 +-0.053 ; deprecated stan. 2MASS J07464256+2000321
+(V-Rc)(L0.5V) =  2.500 +-0.056 ; exemplar 2MASS J04285096-2253227 (Dieterich14)
+(V-Rc)(L0.5V) =   2.63 ; 2MASS 1705-0516 AB (RECONS)
+(V-Rc)(L0.5V) =   2.73 ; 2MASS 0451-3402 (RECONS)
 => adopt (V-Rc)(L0.5V) = 2.63 [updated 9/15/2023; V-Ic=5.05, R-Ic=2.40]
 
-(R-Ic)(L0.5V) = 2.191 ; 2MASS J1412+1633 (Liebert06)
-(R-Ic)(L0.5V) = 2.32  ; 2MASS 0428-2253 (RECONS)
-(R-Ic)(L0.5V) = 2.336 ; 2MASS J0746+2000 (Liebert06)
-(R-Ic)(L0.5V) = 2.37  ; 2MASS 1705-0516 AB (RECONS)
-(R-Ic)(L0.5V) = 2.43  ; 2MASS 0451-3402 (RECONS)
-(R-Ic)(L0.5V) = 2.524 ; 2MASS J2254-2840 (Liebert06)
+(R-Ic)(L0.5V) =  2.191 ; 2MASS J1412+1633 (Liebert06)
+(R-Ic)(L0.5V) = 2.366 +-0.037 ; deprecated stan. 2MASS J07464256+2000321
+(R-Ic)(L0.5V) =  2.37  ; 2MASS 1705-0516 AB (RECONS)
+(R-Ic)(L0.5V) = 2.390 +-0.030 ; exemplar 2MASS J04285096-2253227  
+(R-Ic)(L0.5V) =  2.43  ; 2MASS 0451-3402 (RECONS)
+(R-Ic)(L0.5V) =  2.524 ; 2MASS J2254-2840 (Liebert06)
 => adopt (R-Ic)(L0.5V) = 2.35 [updated 9/15/2023; V-Rc=2.65, V-Ic=5.05]
 
+(V-Ic)(L0.5V) =  4.43 ; 2MASS J17073334+4301304	(Dahn17)
 (V-Ic)(L0.5V) =  4.82 ; 2MASS 0428-2253 (RECONS)
 (V-Ic)(L0.5V) = 4.861 ; Dahn17 V-Ic trend (M6-L5) for L0.5V
-(V-Ic)(L0.5V) =  4.89 ; 2MASS 0428-2253 (Dieterich14)
+(V-Ic)(L0.5V) = 4.866 +-0.014 ; deprecated stan. 2MASS J07464256+2000321
+(V-Ic)(L0.5V) = 4.890 +-0.053 ; exemplar 2MASS J04285096-2253227
 (V-Ic)(L0.5V) =  5.00 ; 2MASS 1705-0516 AB (RECONS, Dieterich14)
 (V-Ic)(L0.5V) = 5.05 ; trend Dieterich14 SpT vs. V-I
 (V-Ic)(L0.5V) =  5.16 ; 2MASS 0451-3402 (RECONS)
 (V-Ic)(L0.5V) =  5.27 ; 2M0451-3402 (Dieterich14)
 => adopt (V-Ic)(L0.5V) = 5.05 [updated 9/15/2023; V-Rc=2.65, R-Ic=2.4]
 
+(Ic-J)(L0.5V) = 3.33 +-0.036 ; 2MASS J17073334+4301304 (Dahn17)	
+(Ic-J)(L0.5V) = 3.38 +-0.058 ; 2MASS J17054834-0516462 (Dahn17)
+
+(V-J)(L0.5V) =   7.76  +-0.124 ; 2MASS J17073334+4301304 (Dahn17)
+(V-J)(L0.5V) =   8.141 +-0.024 ; deprecated stan. 2MASS J07464256+2000321
+
+(V-H)(L0.5V) =   8.55  +-0.124 ; 2MASS J17073334+4301304 (Dahn17)
+(V-H)(L0.5V) =   8.893 +-0.026 ; deprecated stan. 2MASS J07464256+2000321
+
 (J-H)(L0.5V) =    0.702 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas
 (J-H)(L0.5V) =    0.715 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
 (J-H)(L0.5V) =    0.737 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas
+(J-H)(L0.5V) =  0.752 +-0.030 ; deprecated stan. 2MASS J07464256+2000321 (binary)
 (J-H)(L0.5V) =    0.759 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas
 (J-H)(L0.5V) =   0.780 (+-0.14 rms); SIMBAD d<30pc trend for Ldwarfs
 (J-H)(L0.5V) =  0.782 ; smoothed trend M9V-L9.5V (11/1/2024)
 (J-H)(L0.5V) =    0.788 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas
-(J-H)(L0.5V) =  0.80 ; J-Ks=1.34, H-Ks=0.54 
+(J-H)(L0.5V) =  0.79 ; J-Ks=1.33, H-Ks=0.54 
+(J-H)(L0.5V) =    0.79 (+-0.09 rms) ; Zhang09 
 (J-H)(L0.5V) =    0.809 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas
 (J-H)(L0.5V) =    0.814 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas
-=> adopt (J-H)(L0.5V) = 0.80 [updated 11/4/2024] (H-Ks=0.54, J-Ks=1.34)
+=> adopt (J-H)(L0.5V) = 0.79 [updated 11/20/2024] (H-Ks=0.54, J-Ks=1.33)
 
 (H-Ks)(L0.5V) =   0.430 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas
 (H-Ks)(L0.5V) =   0.457 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas
 (H-Ks)(L0.5V) =   0.499 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas
 (H-Ks)(L0.5V) =  0.524 ; trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L0.5V) =  0.53 (+-0.07 rms) ; Zhang09 
 (H-Ks)(L0.5V) =   0.532 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
+(H-Ks)(L0.5V) =  0.539 +-0.031 ; deprecated stan. 2MASS J07464256+2000321 (binary)
 (H-Ks)(L0.5V) =   0.540 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas
-(H-Ks)(L0.5V) = 0.54 ; J-H=0.78, J-Ks=1.34 (11/1/2024)
+(H-Ks)(L0.5V) = 0.54 ; J-H=0.79, J-Ks=1.33 (11/20/2024)
 (H-Ks)(L0.5V) =  0.541 ; smoothed trend M9V-L9.5V (rms=0.058mag) (11/4/2024)
 (H-Ks)(L0.5V) =   0.550 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas
 (H-Ks)(L0.5V) =   0.615 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas
-=> adopt (H-Ks)(L0.5V) = 0.54 [updated 11/4/2024] (J-H=0.80, J-Ks=1.34)
+=> adopt (H-Ks)(L0.5V) = 0.54 [updated 11/20/2024] (J-H=0.79, J-Ks=1.33)
 
 (J-Ks)(L0.5V) =   1.132 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas
 (J-Ks)(L0.5V) =   1.216 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas
 (J-Ks)(L0.5V) =   1.247 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
+(J-Ks)(L0.5V) =  1.265 (+-0.034 sem,+-0.105 stdev) ; BardalezGagliuffi19 median L0.5s (N=8, d<25pc)
 (J-Ks)(L0.5V) =  1.273 ; Sanghi24 M6V-T9V trend
 (J-Ks)(L0.5V) =   1.287 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas
+(J-Ks)(L0.5V) =  1.291 +-0.030 ; deprecated stan. 2MASS J07464256+2000321 (binary)
 (J-Ks)(L0.5V) =   1.308 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas
-(J-Ks)(L0.5V) = 1.34 ; J-H=0.78, H-Ks=0.56
+(J-Ks)(L0.5V) =  1.32 ; Zhang09 
+(J-Ks)(L0.5V) = 1.33 ; J-H=0.79, H-Ks=0.54
 (J-Ks)(L0.5V) = 1.35 ; interp L0V(J-Ks=1.30)-L1V(J-Ks=1.40) 
 (J-Ks)(L0.5V) =   1.354 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas
 (J-Ks)(L0.5V) = 1.357 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(L0.5V) =   1.403 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas
-=> adopt (J-Ks)(L0.5V) = 1.34 [updated 11/4/2024] (J-H=0.80, H-Ks=0.54) 
+=> adopt (J-Ks)(L0.5V) = 1.33 [updated 11/20/2024] (J-H=0.79, H-Ks=0.54)
 
-(Bp-Rp)(L0.5V) = 5.0518  ; pri. stan. 2MASS J07464256+2000321
+(Ks-W1)(L0.5V) =   0.343 +-0.031 ; deprecated stan. 2MASS J07464256+2000321
 
-(Bp-G)(L0.5V)  = 3.3703  ; pri. stan. 2MASS J07464256+2000321
+(W1-W2)(L0.5V) =   0.261 +-0.030 ; deprecated stan. 2MASS J07464256+2000321
 
-(G-Rp)(L0.5V)  = 1.6815  ; pri. stan. 2MASS J07464256+2000321
+(W1-W3)(L0.5V) =   0.677 +-0.046 ; deprecated stan. 2MASS J07464256+2000321 
 
-(G-V)(L0.5V)   = -3.2929 ; pri. stan. 2MASS J07464256+2000321
+(Bp-Rp)(L0.5V) =  4.3554 ; exemplar 2MASS J04285096-2253227 (GaiaDR3) 
+(Bp-Rp)(L0.5V) =  4.9525 ; deprecated stan. 2MASS J07464256+2000321 (GaiaDR3)
 
-(g-r)(L0.5V) =  1.791 ; 2MASS_J09331118-0212144_ plx=20.9638mas L0.5
-(g-r)(L0.5V) =  2.063 ; 2MASS_J09475068+0617139_ plx=24.5987mas L0.5
-(g-r)(L0.5V) =  2.301 ; 2MASS_J04584566+1212343_ plx=22.7279mas L0.5
-(g-r)(L0.5V) =  2.353 ; 2MASS_J17073334+4301304_ plx=38.4091mas L0.5
-(g-r)(L0.5V) =  2.364 ; SIPS_J2330-0347_ plx=29.4271mas L0.5V
-(g-r)(L0.5V) = 2.449 ; trend for SIMBAD L0-L9 dwarfs d<50pc [4/2024]
-(g-r)(L0.5V) =  2.465 ; 2MASSW_J1412244+163312_ plx=31.2784mas L0.5V
-(g-r)(L0.5V) =  2.528 ; 2MASS_J12212770+0257198_ plx=53.8119mas L0.5
-(g-r)(L0.5V) =  2.706 ; 2MASS_J06320617+8305014_ plx=43.8376mas L0.5
-(g-r)(L0.5V) =  2.905 ; 2MASS_J13271524+0759375_ plx=28.5831mas L0.5V
+(Bp-Rp)(L0.5V) = 5.0518  ; deprecated stan. 2MASS J07464256+2000321 (GaiaDR2) 
+
+(Bp-G)(L0.5V) =  2.4726 ; exemplar 2MASS J04285096-2253227 (GaiaDR3)
+(Bp-G)(L0.5V) =  3.2243 ; deprecated stan. 2MASS J07464256+2000321 (GaiaDR3) 
+
+(Bp-G)(L0.5V)  = 3.3703  ; deprecated stan. 2MASS J07464256+2000321 (GaiaDR2)
+
+(G-Rp)(L0.5V) =  1.7282 ; deprecated stan. 2MASS J07464256+2000321 (GaiaDR3)
+(G-Rp)(L0.5V) =  1.8829 ; exemplar 2MASS J04285096-2253227 (GaiaDR3)
+
+(G-Rp)(L0.5V)  = 1.6815  ; deprecated stan. 2MASS J07464256+2000321 (GaiaDR2)
+
+(G-V)(L0.5V)   = -3.2929 ; deprecated stan. 2MASS J07464256+2000321 (GaiaDR2)
+
+(G-V)(L0.5V) =  -2.987 +-0.050 ; exemplar 2MASS J04285096-2253227 (GaiaDR3)
+(G-V)(L0.5V) =  -3.236 +-0.017 ; deprecated stan. 2MASS J07464256+2000321 (GaiaDR3) 
+
+(u-g)(L0.5V) =   0.952 +-0.188 ; deprecated stan. 2MASS J07464256+2000321 (SDSSDR16)
+
+(g-r)(L0.5V) =    1.791 ; 2MASS_J09331118-0212144_ plx=20.9638mas L0.5
+(g-r)(L0.5V) =    2.063 ; 2MASS_J09475068+0617139_ plx=24.5987mas L0.5
+(g-r)(L0.5V) =   2.301 ; 2MASS_J04584566+1212343_ plx=22.7279mas L0.5
+(g-r)(L0.5V) =   2.353 ; 2MASS_J17073334+4301304_ plx=38.4091mas L0.5
+(g-r)(L0.5V) =   2.364 ; SIPS_J2330-0347_ plx=29.4271mas L0.5V
+(g-r)(L0.5V) =  2.449 ; trend for SIMBAD L0-L9 dwarfs d<50pc [4/2024]
+(g-r)(L0.5V) =   2.465 ; 2MASSW_J1412244+163312_ plx=31.2784mas L0.5V
+(g-r)(L0.5V) =  2.473 +-0.037 ; deprecated stan. 2MASS J07464256+2000321 (SDSSDR16)
+(g-r)(L0.5V) =   2.528 ; 2MASS_J12212770+0257198_ plx=53.8119mas L0.5
+(g-r)(L0.5V) =    2.706 ; 2MASS_J06320617+8305014_ plx=43.8376mas L0.5
+(g-r)(L0.5V) =    2.905 ; 2MASS_J13271524+0759375_ plx=28.5831mas L0.5V
 => adopt (g-r)(L0.5V) = 2.45 [updated 4/18/2024]
 
-(r-i)(L0.5V) =  2.269 ; 2MASS_J17073334+4301304_ plx=38.4091mas L0.5
-(r-i)(L0.5V) =  2.361 ; 2MASS_J04584566+1212343_ plx=22.7279mas L0.5
-(r-i)(L0.5V) = 2.38 (+-0.19 rms; N=10) ; Cifuentes20
-(r-i)(L0.5V) =  2.436 ; 2MASSW_J1412244+163312_ plx=31.2784mas L0.5V
-(r-i)(L0.5V) =  2.488 ; 2MASS_J12212770+0257198_ plx=53.8119mas L0.5
-(r-i)(L0.5V) =  2.531 ; 2MASS_J06320617+8305014_ plx=43.8376mas L0.5
-(r-i)(L0.5V) =  2.605 ; 2MASS_J09331118-0212144_ plx=20.9638mas L0.5
-(r-i)(L0.5V) =  2.632 ; 2MASS_J09475068+0617139_ plx=24.5987mas L0.5
-(r-i)(L0.5V) =  2.666 ; SIPS_J2330-0347_ plx=29.4271mas L0.5V
-(r-i)(L0.5V) =  2.677 ; 2MASS_J13271524+0759375_ plx=28.5831mas L0.5V
+(g-V)(L0.5V) =   1.232 +-0.038 ; deprecated stan. 2MASS J07464256+2000321
+
+(g-G)(L0.5V) =   4.468 +-0.036 ; deprecated stan. 2MASS J07464256+2000321
+
+
+(r-i)(L0.5V) =   2.269 ; 2MASS_J17073334+4301304_ plx=38.4091mas L0.5
+(r-i)(L0.5V) =   2.361 ; 2MASS_J04584566+1212343_ plx=22.7279mas L0.5
+(r-i)(L0.5V) =  2.38 (+-0.19 rms; N=10) ; Cifuentes20
+(r-i)(L0.5V) =   2.436 ; 2MASSW_J1412244+163312_ plx=31.2784mas L0.5V
+(r-i)(L0.5V) =   2.488 ; 2MASS_J12212770+0257198_ plx=53.8119mas L0.5
+(r-i)(L0.5V) =   2.531 ; 2MASS_J06320617+8305014_ plx=43.8376mas L0.5
+(r-i)(L0.5V) =  2.546 +-0.016 ; deprecated stan. 2MASS J07464256+2000321 (SDSSDR16)
+(r-i)(L0.5V) =  2.58 (+-0.35 rms) ; Zhang09 
+(r-i)(L0.5V) =   2.605 ; 2MASS_J09331118-0212144_ plx=20.9638mas L0.5
+(r-i)(L0.5V) =   2.632 ; 2MASS_J09475068+0617139_ plx=24.5987mas L0.5
+(r-i)(L0.5V) =   2.666 ; SIPS_J2330-0347_ plx=29.4271mas L0.5V
+(r-i)(L0.5V) =   2.677 ; 2MASS_J13271524+0759375_ plx=28.5831mas L0.5V
 => adopt (r-i)(L0.5V) = 2.5 [updated 4/18/2024]
 
-Mv(L0.5V) =  20.49 ; 2MA1705-0516AB (Dieterich14)
-Mv(L0.5V) =  20.37 ; 2MA0428-2253 (Dieterich14)
+(i-z)(L0.5V) =   1.810 +-0.016 ; deprecated stan. 2MASS J07464256+2000321 (SDSSDR16)
+
+(i-J)(L0.5V) =   4.32 (+-0.09 rms) ; Zhang09
+(i-J)(L0.5V) =   4.354 +-0.022 ; deprecated stan. 2MASS J07464256+2000321 
+
+(i-H)(L0.5V) =   5.07 (+-0.05 rms) ; Zhang09
+
+(i-Ks)(L0.5V) =  5.61 (+-0.10 rms) ; Zhang09
+
+(z-J)(L0.5V) =   2.45 (+-0.13 rms) ; Zhang09
+(z-J)(L0.5V) =   2.544 +-0.024 ; deprecated stan. 2MASS J07464256+2000321
+
+(z-H)(L0.5V) = 3.23 (+-0.09 rms) ; Zhang09
+
+(z-Ks)(L0.5V) = 3.74 (+-0.21 rms) ; Zhang09 
+
+(G-J)(L0.5V) =   4.905 +-0.022 ; deprecated stan. 2MASS J07464256+2000321
+(G-J)(L0.5V) =   5.186 +-0.023 ; exemplar 2MASS J04285096-2253227
+
+Mv(L0.5V) =  19.440 +-0.026 ; deprecated stan. 2MASS J07464256+2000321 (binary)
+Mv(L0.5V) =  19.61          ; 2MA0451-3402 (Dieterich14)
+Mv(L0.5V) =  19.657 +-0.053 ; exemplar 2MASS J04285096-2253227
 Mv(L0.5V) = 20.3  ; V-Ks=9.6, M_Ks=10.7
-Mv(L0.5V) =  19.61 ; 2MA0451-3402 (Dieterich14)
+Mv(L0.5V) =  20.49          ; 2MA1705-0516AB (Dieterich14)
 => adopt Mv(L0.5V) = 20.3 [last updated 4/27/2017; V-Ks=9.6,M_Ks=10.7]
 
-M_G(L0.5V) = 16.33 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
-M_G(L0.5V) = 16.65 ; trend for d<20pc late Ms/early Ls
+M_G(L0.5V) =  16.33 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
+M_G(L0.5V) =  16.65 ; trend for d<20pc late Ms/early Ls (GaiaDR2) 
 
+M_G(L0.5V) =  16.203 +-0.024 ; deprecated stan. 2MASS J07464256+2000321 (binary) 
+M_G(L0.5V) =   16.47 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas (GaiaDR3)
+M_G(L0.5V) =   16.52 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas (GaiaDR3)
+M_G(L0.5V) =   16.64 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas (GaiaDR3)
+M_G(L0.5V) =  16.671 +-0.018 ; exemplar 2MASS J04285096-2253227 (GaiaDR3) 
+M_G(L0.5V) =   16.70 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas (GaiaDR3)
+M_G(L0.5V) =   16.76 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas (GaiaDR3)
+M_G(L0.5V) =   16.93 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas (GaiaDR3)
+M_G(L0.5V) =   17.16 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas (GaiaDR3)
+
+M_J(L0.5V) =  11.299 +-0.029 ; deprecated stan. 2MASS J07464256+2000321 (binary)
+M_J(L0.5V) =  11.484 ; exemplar 2MASS J04285096-2253227 
 M_J(L0.5V) =   11.81 ; SIPS_J0050-1538_ L0.5V plx=40.3736mas
 M_J(L0.5V) =   11.82 ; 2MASS_J12212770+0257198_ L0.5 plx=53.8119mas
 M_J(L0.5V) =   11.85 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
@@ -134,9 +217,10 @@ M_J(L0.5V) =   11.96 ; 2MASS_J06320617+8305014_ L0.5 plx=43.8376mas
 M_J(L0.5V) =   12.01 ; 2MASS_J05004808+0442143_ L0.5pec plx=43.9382mas
 M_J(L0.5V) =   12.35 ; DENIS_J125310.8-570924_ L0.5 plx=60.0102mas
 
-
+M_Ks(L0.5V) =  10.008 +-0.031 ; deprecated stan. 2MASS J07464256+2000321 (binary)
 M_Ks(L0.5V) =   10.05 ; 2MA1705-0516AB (Dieterich14)
 M_Ks(L0.5V) =   10.06 ; exemplar 2MASSW J0147334+345311 = 2MASS J01473248+3453528
+M_Ks(L0.5V) =  10.095 +-0.032 ; exemplar 2MASS J04285096-2253227 
 M_Ks(L0.5V) =  10.60 ; trend to L/T dwarfs in notes (1/2021)
 M_Ks(L0.5V) =   10.60 ; 2MASS_J04510093-3402150_ L0.5 plx=45.9192mas
 M_Ks(L0.5V) =   10.61 ; 2MASS_J02284355-6325052_ L0.5 plx=47.0956mas
@@ -156,26 +240,161 @@ BC_G(L0.5V) = -2.746 +-0.128 ; Cifuentes20
 BC_J(L0.5V) =  1.941 ; Sanghi24 M6V-T9V trend
 BC_J(L0.5V) =  2.024 +-0.081 ; Cifuentes20
 
-BC_Ks(L0.5V) = 3.213 ; Sanghi24 
+BC_Ks(L0.5V) = 3.213 ; Sanghi24
 
-# Primary Standard
+logL(L0.5V) = -3.658 (+-0.199 rms) ; median N=13 L0.5s d<25pc in Sebastian21/SPECULOOS 
 
-2MASS J07464256+2000321 = 2M_0746+20 = LSPM J0746+2000 
-  *L0.5: Kirkpatrick09(pri.stan.)
+Mass(L0.5V) = 0.0769 (+-0.0075 rms) ; mean N=13 L0.5s d<25pc in Sebastian21/SPECULOOS 
+Mass(L0.5V) = 0.07823 Msun ; interp dyn masses for 2MASS J07464256+2000321A (L0) & B (L1.5) for L1 (Zhang20)
+=> adopt Mass(L0.5V) = 0.078 Msun [updated 11/25/2024]
 
-   V=19.87+-0.06(Dahn02), K=10.49+-0.03(Dahn02).  V-K=9.38, J-H=0.743,
-   H-Ks=0.512, J-Ks=1.255(Cruz03). GaiaDR2: No Gaia DR2 parallax, G =
+Rad(L0.5V) = 0.0954 (+-0.0113 rms) Rsun ; mean N=13 L0.5s d<25pc in Sebastian21/SPECULOOS 
+
+# Deprecated Standard
+
+2MASS J07464256+2000321 = CNS5 1916 = 2MUCD 10668 = LSPM J0746+2000 = RED 9 = Gaia DR3 672055699133504768
+   L0.0J: Dieterich14(Konopacky12)
+   L0.5: Reid00,Cruz03,Basri06,Allen07,Schmidt07(L0.5:),Kirkpatrick09(pri. stan.),Faherty09(opt),Kirkpatrick21(opt/NIR/adopted)
+   L0.5+L2: Reid06,Cruz07(L0.5:+L2:),Reid08(L0.5+L2:)
+  *L0+L1.5: Bouy04(L0+-0.5,L1.5+-0.5),Dupuy17
+   L1: Knapp04,Fahert09(NIR)
+
+   The first L dwarf binary to yield dynamical mass estimates (see
+   Zhang20, by and see updated table of component properties by
+   Dulaimi24). While unresolved it has served as a L0.5 standard, but
+   it is a 0.22" Binary (RED 9 = WDS J07467+2001AB) comprised of
+   L0+-0.5 and L1.5+-0.5 components, whose dynamical masses place them
+   a tad above the predicted H-burning limit. Chulkov22 reports ORB6
+   orbit: P=12.749+-0.031yr, a=0.23716+-0.00011" SIMBAD has note
+   "Possible planet NAME 2M 0746+20 b (30±25MJ) orbiting around ** RED
+   9A".  Zhang20 combines astrometric measurements of PA & Sep
+   (including new VLBI obs) to constrain the orbit and estimates the
+   dynamical masses to be: M(A)=0.07954+-0.00034Msun,
+   M(B)=0.07561+-0.00025Msun, M(ABtot)=0.1552+-0.0005Msun (with
+   plx=80.96+0.09-0.08mas, distance D=12.352+0.012-0.013Msun,
+   a=2.9300+0.0030-0.0032au, P=12.733+-0.004yr, a=237.21+0.08-0.09mas,
+   e=0.48480+-0.00029, i=138.36+-0.06).  The rotation periods for A
+   and B have been measured to be Prot(A)=3.32hr and Prot(B)=2.14hr by
+   Dulaimi24.  Winters19 reports HSTWPC photometry with del(mag)=0.62
+   in the 814nm filter, and estimates M(A)=0.076Msun, M(B)=0.075Msun.
+   Reid08 lists del(J)=0.45.  B-V=2.1+-0.2(Reid00),
+   V=19.87+-0.06(Reid00,Dahn02), V=19.90+-0.014(Dieterich14/CTIO),
+   V=19.95(Winters19), V=20.05+-0.038(Dieterich14/Bessel/SOAR) =>
+   adopt V=19.90.  Winters19 deblends the unresolved Vmag and
+   estimates V(A)=20.36 and V(B)=21.20.  Rc=17.400+-0.004(Liebert06),
+   Rc=17.40+-0.026(Dieterich14/CTIO), Rc=17.40(Koen13/Dahn02),
+   Rc=17.41(Winters19), Rs=17.42+-0.037(Dieterich14/Bessel/SOAR),
+   Rc=17.659170(GaiaDR3/synth), Rc=17.77(Koen13#3/fromSDSS), => adopt
+   Rc=17.40.  Is=14.90+-0.038(Dieterich14/Bessel/SOAR),
+   Ic=14.99(Dieterich14/converted), Ic=15.00(Koen13#3/fromSDSS),
+   Ic=15.034+-0.003(Liebert06), Ic=15.05(Winters19),
+   Ic=15.07+-0.021(Dieterich14/CTIO),
+   Ic=15.11+-0.02(Reid00/Dahn02/Koen13), => adopt Ic=15.034+-0.003.
+   J=11.759+-0.020(2MASS), H=11.007+-0.022(2MASS),
+   Ks=10.468+-0.022(2MASS), K=10.49+-0.03(Dahn02).  V-Ic = 19.90 -
+   15.034 = 4.836+-0.060(Dieterich14,Liebert06).  V-K=9.38, J-H=0.743,
+   H-Ks=0.512, J-Ks=1.255(Cruz03).  u=22.084+-0.185(SDSS/DR16),
+   g=21.132+-0.035(SDSS/DR16), r=18.659+-0.012(SDSS/DR16),
+   i=16.09+-0.01(Schmidt10), i=16.113+-0.010(SDSS/DR16),
+   z=14.24+-0.02(Schmidt10), z=14.303+-0.013(SDSS/DR16),
+   i-z=1.80(Knapp04), z-J=2.66(Knapp04), No Gaia parallaxes, but
+   ground-based ones: plx=81.84+-0.30mas(Dieterich14),
+   plx=80.9+-0.8mas(Dupuy17). GaiaDR2: No Gaia DR2 parallax, G =
    16.5771 0.0049, Bp = 19.9474 0.0748, Rp = 14.8955 0.0102, E(BR/RP)
    = 2.038, Bp-Rp=5.0518, Bp-G=3.3703, G-Rp=1.6815 (GaiaDR2). G-V =
-   16.5771 - 19.87 = -3.2929. Gaia EDR3: no Gaia EDR3 parallax,
-   G=16.689, E(Bp/Rp)=2.155, Bp-Rp=4.9525, Bp-G=3.1988, G-Rp=1.7537.
-   WISE: W1=10.125 0.022, W2= 9.864 0.021, W3=9.448 0.040, W4 upper
-   limit (8.813). AllWISE: W1=10.137 0.023, W2=9.870 0.020, W3=9.402
-   0.042, W4 upper limit (8.865). 2MASS: J=11.759+-0.020,
-   H=11.007+-0.022, Ks=10.468+-0.022 => (V-Ks) = 19.87 - 10.468 =
-   9.402.  (G-Ks) = 16.689 - 10.468 = 6.221.
+   16.5771 - 19.87 = -3.2929. Gaia EDR3: no Gaia EDR3 parallax (excess
+   noise epsi=10.447mas), G=16.689, E(Bp/Rp)=2.155, Bp-Rp=4.9525,
+   Bp-G=3.1988, G-Rp=1.7537.  WISE: W1=10.125 0.022, W2= 9.864 0.021,
+   W3=9.448 0.040, W4 upper limit (8.813). AllWISE: W1=10.137 0.023,
+   W2=9.870 0.020, W3=9.402 0.042, W4 upper limit (8.865). 2MASS:
+   J=11.759+-0.020, H=11.007+-0.022, Ks=10.468+-0.022 => (V-Ks) =
+   19.87 - 10.468 = 9.402.  (G-Ks) = 16.689 - 10.468 = 6.221.  Teffs:
+   2200K(Golimowski04), 2302K(Dahn02), 2310+-51K(Dieterich14),
+   2338K(Vrba04).  logL=-3.413+-0.009(Dieterich14).
+   Rad=0.122+-0.0055(Dieterich14).
 
-# Exemplar
+        G = 16.6635+-0.0099 ; deprecated stan. 2MASS J07464256+2000321    
+   (V-Rc)(L0.5V) =   2.500 +-0.053 ; deprecated stan. 2MASS J07464256+2000321    
+   (R-Ic)(L0.5V) =   2.366 +-0.037 ; deprecated stan. 2MASS J07464256+2000321    
+   (V-Ic)(L0.5V) =   4.866 +-0.014 ; deprecated stan. 2MASS J07464256+2000321    
+  (Bp-Rp)(L0.5V) =  4.9525 ; deprecated stan. 2MASS J07464256+2000321    
+   (Bp-G)(L0.5V) =  3.2243 ; deprecated stan. 2MASS J07464256+2000321    
+   (G-Rp)(L0.5V) =  1.7282 ; deprecated stan. 2MASS J07464256+2000321    
+    (G-V)(L0.5V) =  -3.236 +-0.017 ; deprecated stan. 2MASS J07464256+2000321    
+    (G-J)(L0.5V) =   4.905 +-0.022 ; deprecated stan. 2MASS J07464256+2000321    
+       Mv(L0.5V) =  19.440 +-0.026 ; deprecated stan. 2MASS J07464256+2000321    
+      M_G(L0.5V) =  16.203 +-0.024 ; deprecated stan. 2MASS J07464256+2000321    
+      M_J(L0.5V) =  11.299 +-0.029 ; deprecated stan. 2MASS J07464256+2000321    
+     M_Ks(L0.5V) =  10.008 +-0.031 ; deprecated stan. 2MASS J07464256+2000321    
+   (V-Ks)(L0.5V) =   9.432 +-0.026 ; deprecated stan. 2MASS J07464256+2000321    
+   (G-Ks)(L0.5V) =   6.196 +-0.024 ; deprecated stan. 2MASS J07464256+2000321    
+    (V-J)(L0.5V) =   8.141 +-0.024 ; deprecated stan. 2MASS J07464256+2000321    
+    (V-H)(L0.5V) =   8.893 +-0.026 ; deprecated stan. 2MASS J07464256+2000321    
+    (J-H)(L0.5V) =   0.752 +-0.030 ; deprecated stan. 2MASS J07464256+2000321    
+   (H-Ks)(L0.5V) =   0.539 +-0.031 ; deprecated stan. 2MASS J07464256+2000321    
+   (J-Ks)(L0.5V) =   1.291 +-0.030 ; deprecated stan. 2MASS J07464256+2000321    
+  (Ks-W1)(L0.5V) =   0.343 +-0.031 ; deprecated stan. 2MASS J07464256+2000321    
+  (W1-W2)(L0.5V) =   0.261 +-0.030 ; deprecated stan. 2MASS J07464256+2000321    
+  (W1-W3)(L0.5V) =   0.677 +-0.046 ; deprecated stan. 2MASS J07464256+2000321    
+    (u-g)(L0.5V) =   0.952 +-0.188 ; deprecated stan. 2MASS J07464256+2000321 (SDSSDR16)
+    (g-r)(L0.5V) =   2.473 +-0.037 ; deprecated stan. 2MASS J07464256+2000321 (SDSSDR16)
+    (r-i)(L0.5V) =   2.546 +-0.016 ; deprecated stan. 2MASS J07464256+2000321 (SDSSDR16)
+    (i-z)(L0.5V) =   1.810 +-0.016 ; deprecated stan. 2MASS J07464256+2000321 (SDSSDR16)
+    (g-V)(L0.5V) =   1.232 +-0.038 ; deprecated stan. 2MASS J07464256+2000321    
+    (z-J)(L0.5V) =   2.544 +-0.024 ; deprecated stan. 2MASS J07464256+2000321    
+    (g-G)(L0.5V) =   4.468 +-0.036 ; deprecated stan. 2MASS J07464256+2000321    
+    (i-J)(L0.5V) =   4.354 +-0.022 ; deprecated stan. 2MASS J07464256+2000321  
+
+# Exemplars
+
+2MASS J04285096-2253227 = GJ 10619 = CNS5 1110 = DENIS J042850.9-225322 = 2MUCD 10286 = 2MASSI J0428509-225322 = 2MASS J0428-2253 = Gaia DR2 4898159649876292096
+  M9.9: BardalezGagliuffi14(SpeX)
+ *L0.5: Kendall03(Cruz03,Kirkpatrick08,Dieterich14,Filippazo15),Faherty09,Best18(adopted)
+  L0.5e: Martin10
+  L1: Cruz07
+  L1.0_FLD-G: Bouy22
+
+  V=21.68+-0.050(Dieterich14;Bessel/SOAR),
+  R=19.18+-0.025(Dieterich14;Bessel/SOAR), Ic=16.80(Koen13),
+  I=16.79+-0.017(Dieterich14;Bessel/SOAR), J=13.507+-0.023(2MASS),
+  H=12.668+-0.027(2MASS), Ks=12.118+-0.026(2MASS).  V-Ks = 9.562 =
+  21.68 - 12.118, V-J = 21.68 - 13.507 = 8.173, V-Ic = 4.89 = 21.68 -
+  16.79, V-Rc = 21.68 - 19.18 = 2.50. R-Ic = 19.18 - 16.79 =
+  2.39+-0.03.
+  Teff=2212+-57K(Dieterich14). logL=-3.441+-0.042(Dieterich14),
+  Rad=0.129+-0.0092Rsun(Dieterich14), plx=39.3977+-0.3266mas(GaiaDR3).
+  G=18.693237(GaiaDR3), E(Bp/Rp)=2.459, Bp-Rp=4.355427(GaiaDR3),
+  Bp-G=2.472551(GaiaDR3), G-Rp=1.882875(GaiaDR3). Absolute magnitudes
+  are ~0.5 mag above main sequence suggesting it is either an
+  unresolved binary or very young. 
+
+       G = 18.6932+-0.0036 ; exemplar 2MASS J04285096-2253227   
+   (V-Rc)(L0.5V) =   2.500 +-0.056 ; exemplar 2MASS J04285096-2253227   
+   (R-Ic)(L0.5V) =   2.390 +-0.030 ; exemplar 2MASS J04285096-2253227   
+   (V-Ic)(L0.5V) =   4.890 +-0.053 ; exemplar 2MASS J04285096-2253227   
+  (Bp-Rp)(L0.5V) =  4.3554 ; exemplar 2MASS J04285096-2253227   
+   (Bp-G)(L0.5V) =  2.4726 ; exemplar 2MASS J04285096-2253227   
+   (G-Rp)(L0.5V) =  1.8829 ; exemplar 2MASS J04285096-2253227   
+    (G-V)(L0.5V) =  -2.987 +-0.050 ; exemplar 2MASS J04285096-2253227   
+    (G-J)(L0.5V) =   5.186 +-0.023 ; exemplar 2MASS J04285096-2253227   
+       Mv(L0.5V) =  19.657 +-0.053 ; exemplar 2MASS J04285096-2253227   
+      M_G(L0.5V) =  14.671 +-0.018 ; exemplar 2MASS J04285096-2253227   
+      M_J(L0.5V) =  11.484 +-0.029 ; exemplar 2MASS J04285096-2253227   
+     M_Ks(L0.5V) =  10.095 +-0.032 ; exemplar 2MASS J04285096-2253227   
+   (V-Ks)(L0.5V) =   9.562 +-0.056 ; exemplar 2MASS J04285096-2253227   
+   (G-Ks)(L0.5V) =   6.575 +-0.026 ; exemplar 2MASS J04285096-2253227   
+    (V-J)(L0.5V) =   8.173 +-0.055 ; exemplar 2MASS J04285096-2253227   
+    (V-H)(L0.5V) =   9.012 +-0.057 ; exemplar 2MASS J04285096-2253227   
+    (J-H)(L0.5V) =   0.839 +-0.035 ; exemplar 2MASS J04285096-2253227   
+   (H-Ks)(L0.5V) =   0.550 +-0.037 ; exemplar 2MASS J04285096-2253227   
+   (J-Ks)(L0.5V) =   1.389 +-0.035 ; exemplar 2MASS J04285096-2253227   
+  (Ks-W1)(L0.5V) =   0.411 +-0.035 ; exemplar 2MASS J04285096-2253227   
+  (W1-W2)(L0.5V) =   0.237 +-0.032 ; exemplar 2MASS J04285096-2253227   
+  (W1-W3)(L0.5V) =   0.650 +-0.102 ; exemplar 2MASS J04285096-2253227   
+
+
+
+# Others
 
 2MASSW J0147334+345311 = 2MASS J01473248+3453528 = WISEP J014733.46+345310.5
   L1.0: BardalezGagliuffi14(near-IR)
@@ -190,16 +409,6 @@ BC_Ks(L0.5V) = 3.213 ; Sanghi24
   M_Ks=10.058+-0.068.
 
   36" away from a M3.5V dwarf in Riaz06. 
-
-# Others 
-
-2MASS J0428-2253
-   L0.5: Dieterich14
-
-   V=21.68+-0.050, R=19.18+-0.025, I=16.79+-0.017(Dieterich14),
-   Teff=2212+-57K(Dieterich14).
-
-
 
 
 

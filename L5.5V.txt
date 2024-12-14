@@ -2,6 +2,13 @@ L5.5V
 
 Kirkpatrick09(GrayCorbally): 2MASS J15532142+2109071 - L5.5 (primary optical standard)
 
+Teff(L5.5V) =  1466 K ; Sanghi23 calibration (M6V-T9V) 
+Teff(L5.5V) =  1530 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L5.5V) =  1554 K ; Stephens09 (optical L types)
+Teff(L5.5V) =  1562 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L5.5V) =  1700 K ; Cifuentes20 <Teff> for CARMENES L5.5V(N=1)
+=> adopt Teff(L5.5.V) = 1550 K (logT = 3.1903) [updated 12/1/2024] 
+
 (J-H)(L5.5V) =   0.716 ; DENIS_J112639.9-500355_ L5.5 plx=61.8331mas
 (J-H)(L5.5V) =   0.883 ; 2MASS_J17502484-0016151_ L5.5 plx=108.5809mas
 (J-H)(L5.5V) =   1.031 ; SIPS_J1228-1547_ L5.5+L5.5 plx=49.55mas
@@ -9,13 +16,15 @@ Kirkpatrick09(GrayCorbally): 2MASS J15532142+2109071 - L5.5 (primary optical sta
 (J-H)(L5.5V) =   1.038 ; 2MASSI_J2002507-052152_ L5.5 plx=56.6964mas
 (J-H)(L5.5V) = 1.045 ; halfway L5V(J-H=1.03)-L6V(J-H=1.06)
 (J-H)(L5.5V) =   1.053 ; 2MASS_J13262981-0038314_ L5.5V plx=47.9mas
+(J-H)(L5.5V) =  1.09 ; Zhang09 (i-J=5.11, i-H=6.20) 
 (J-H)(L5.5V) =   1.123 ; 2MASS_J14482563+1031590_ L5.5 plx=69.6352mas
 => adopt (J-H)(L5.5V) = 1.04 [updated 11/1/2024] (J-Ks=1.75, H-Ks=0.71)
 
 (H-Ks)(L5.5V) =   0.455 ; DENIS_J112639.9-500355_ L5.5 plx=61.8331mas
 (H-Ks)(L5.5V) =   0.562 ; 2MASS_J17502484-0016151_ L5.5 plx=108.5809mas
 (H-Ks)(L5.5V) =   0.580 ; SIPS_J1228-1547_ L5.5+L5.5 plx=49.55mas
-(H-Ks)(L5.5V) =  0.653 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L5.5V) =  0.653 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs 
+(H-Ks)(L5.5V) =  0.66 ; Zhang09 (i-Ks=6.86, i-H=6.20) 
 (H-Ks)(L5.5V) = 0.705 ; halfway L5V(H-Ks=0.70)-L6V(H-Ks=0.71)
 (H-Ks)(L5.5V) =   0.750 ; 2MASS_J14482563+1031590_ L5.5 plx=69.6352mas
 (H-Ks)(L5.5V) =   0.842 ; 2MASS_J13262981-0038314_ L5.5V plx=47.9mas
@@ -24,6 +33,7 @@ Kirkpatrick09(GrayCorbally): 2MASS J15532142+2109071 - L5.5 (primary optical sta
 
 (J-Ks)(L5.5V) =   1.171 ; DENIS_J112639.9-500355_ L5.5 plx=61.8331mas
 (J-Ks)(L5.5V) =   1.445 ; 2MASS_J17502484-0016151_ L5.5 plx=108.5809mas
+(J-Ks)(L5.5V) =  1.600 (+-0.124 sem, +-0.163 stdev) ; BardalezGagliuffi19 median d<25pc L5.5s (N=6)
 (J-Ks)(L5.5V) =   1.611 ; SIPS_J1228-1547_ L5.5+L5.5 plx=49.55mas
 (J-Ks)(L5.5V) =  1.69  ; J-H=1.04, H-Ks=0.65
 (J-Ks)(L5.5V) = 1.75 ; halfway L5V(J-Ks=1.73)-L6V(J-Ks=1.77)
@@ -34,8 +44,48 @@ Kirkpatrick09(GrayCorbally): 2MASS J15532142+2109071 - L5.5 (primary optical sta
 (J-Ks)(L5.5V) =   1.899 ; 2MASSI_J2002507-052152_ L5.5 plx=56.6964mas
 => adopt (J-Ks)(L5.5V) = 1.75 [updated 11/1/2024] (H-Ks=0.71, J-H=1.04)
 
-(r-i)(L5.5V) = 2.13 (N=1) ; Cifuentes20
+(u-g)(L5.5V) =  -0.401 ; SDSS_J132629.81-003831.5 L5.5V plx=47.9mas
+(u-g)(L5.5V) =   0.178 ; SDSS_J163359.23-064056.5 L5.5 plx=35.67mas
+(u-g)(L5.5V) =   0.731 ; SDSS_J144825.69+103158.8 L5.5 plx=69.6352mas
+(u-g)(L5.5V) =   1.220 ; SDSS_J092012.17+351742.0 L5.5+L9 plx=34.40mas
+
+(g-r)(L5.5V) =   0.541 ; SDSS_J092012.17+351742.0 L5.5+L9 plx=34.40mas
+(g-r)(L5.5V) =   1.361 ; SDSS_J132629.81-003831.5 L5.5V plx=47.9mas
+(g-r)(L5.5V) =   1.715 ; SDSS_J163359.23-064056.5 L5.5 plx=35.67mas
+(g-r)(L5.5V) =   2.614 ; SDSS_J144825.69+103158.8 L5.5 plx=69.6352mas
+
+(g-G)(L5.5V) =   3.597 ; SDSS_J163359.23-064056.5 L5.5 plx=35.67mas
+(g-G)(L5.5V) =   4.628 ; SDSS_J144825.69+103158.8 L5.5 plx=69.6352mas
+
+(r-i)(L5.5V) =   0.83 ; SDSS_J132629.81-003831.5 L5.5V plx=47.9mas
+(r-i)(L5.5V) =   1.912 ; SDSS_J163359.23-064056.5 L5.5 plx=35.67mas
+(r-i)(L5.5V) =   1.936 ; SDSS_J092012.17+351742.0 L5.5+L9 plx=34.40mas
+(r-i)(L5.5V) =  2.13 (N=1) ; Cifuentes20
+(r-i)(L5.5V) =  2.22 (+-0.38 rms) ; Zhang09 
+(r-i)(L5.5V) =   2.597 ; SDSS_J144825.69+103158.8 L5.5 plx=69.6352mas
 => adopt (r-i)(L5.5V) = 2.13 [updated 9/15/2023]
+
+(i-z)(L5.5V) =   1.823 ; SDSS_J144825.69+103158.8 L5.5 plx=69.6352mas
+(i-z)(L5.5V) =  2.42 (+-0.07 rms) ; Zhang09 
+(i-z)(L5.5V) =   2.459 ; SDSS_J132629.81-003831.5 L5.5V plx=47.9mas
+(i-z)(L5.5V) =   2.589 ; SDSS_J163359.23-064056.5 L5.5 plx=35.67mas
+(i-z)(L5.5V) =   3.681 ; SDSS_J092012.17+351742.0 L5.5+L9 plx=34.40mas
+
+(i-J)(L5.5V) =   4.307 ; SDSS_J132629.81-003831.5 L5.5V plx=47.9mas
+(i-J)(L5.5V) =   4.704 ; SDSS_J144825.69+103158.8 L5.5 plx=69.6352mas
+(i-J)(L5.5V) =   5.106 ; SDSS_J163359.23-064056.5 L5.5 plx=35.67mas
+(i-J)(L5.5V) =  5.11 (+-0.27 rms) 
+(i-J)(L5.5V) =   6.409 ; SDSS_J092012.17+351742.0 L5.5+L9 plx=34.40mas
+
+(i-H)(L5.5V) = 6.20 (+-0.37 rms) ; Zhang09
+
+(i-Ks)(L5.5V) = 6.86 (+-0.45 rms) ; Zhang09 
+
+(z-J)(L5.5V) =   1.848 ; SDSS_J132629.81-003831.5 L5.5V plx=47.9mas
+(z-J)(L5.5V) =   2.517 ; SDSS_J163359.23-064056.5 L5.5 plx=35.67mas
+(z-J)(L5.5V) =  2.69 ; Zhang09 (i-J=5.11, i-z=2.42) 
+(z-J)(L5.5V) =   2.728 ; SDSS_J092012.17+351742.0 L5.5+L9 plx=34.40mas
+(z-J)(L5.5V) =   2.881 ; SDSS_J144825.69+103158.8 L5.5 plx=69.6352mas
 
 M_J(L5.5V) =   12.85 ; SIPS_J1228-1547_ L5.5+L5.5 plx=49.55mas
 M_J(L5.5V) =   12.96 ; DENIS_J112639.9-500355_ L5.5 plx=61.8331mas
@@ -55,16 +105,17 @@ M_Ks(L5.5V) =   12.18 ; 2MASSI_J2002507-052152_ L5.5 plx=56.6964mas
 M_Ks(L5.5V) =   12.61 ; 2MASS_J13262981-0038314_ L5.5V plx=47.9mas
 => adopt M_Ks(L5.5V) = 12.02 [updated 12/30/2020]
 
-Teff(L5.5V) = 1466 K ; Sanghi23 calibration (M6V-T9V) 
-Teff(L5.5V) = 1530 K ; Filippazzo15 calibration (M6V-T9V)
-Teff(L5.5V) = 1562 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(L5.5V) = 1700 K ; Cifuentes20 <Teff> for CARMENES L5.5V(N=1)
-
 BC_J(L5.5V) = 1.638 ; Sanghi23 M6V-T9V trend
 
 BC_Ks(L5.5V) = 3.309 mag ; Filippazzo15 calibration (M6V-T9V)
 BC_Ks(L5.5V) = 3.391 mag ; Sanghi23 calibration (M6V-T9V) 
-=> adopt BC_Ks(L5.5V) = 3.39 [updated 10/4/2024] 
+=> adopt BC_Ks(L5.5V) = 3.39 [updated 10/4/2024]
+
+logg(L5.5V) = -4.28 +-0.03 ; 2MASS J0920+3517A (Dupuy17) 
+
+Mass(L5.5V) = 0.0678 +-0.0048 Msun ; 2MASS J0920+3517A (Dupuy17; 71+-5Mjup; L5.5+-1.0)
+
+Rad(L5.5V) = 0.09 Rsun ; same values for N=2 L5.5s d<25pc in Sebastian21/SPECULOOS 
 
 # Primary Standard
 
@@ -96,3 +147,36 @@ BC_Ks(L5.5V) = 3.391 mag ; Sanghi23 calibration (M6V-T9V)
    logL=-4.2432+-0.0053(Cifuentes21).  Rad:
    0.0871+-0.0052(Cifuentes21).  Teffs: 1700K(Cifuentes21).  Mass:
    0.0679+-0.0095Msun(Cifuentes21).
+
+ 	
+2MASS J14482563+1031590 = SDSS J144825.69+103158.8 = 2MASSW J1448256+103159 = CNS5 3661 = 2MUCD 20587 = Gaia DR3 1175003649462887040 = [VV2010] J144825.7+103158 = ULAS2MASS J1448+1031 = ULAS J144825.75+103158.1 = TIC 366403341 = PS1 J222.1076+10.5326 	
+   L3.5: Wilson03(NIR),Faherty09,Burgasser10(NIR),Mace14(NIR),Gagne15
+   L4:: Reid08(opt),Burgasser10(optical),Filipazzo15(Cruz+,inprep)
+   L4.0: Faherty16(L4/opt),BardalezGagliuffi19(opt)
+   L4pec: Faherty16(NIR)
+   L4.7_FLD-G: Best18
+   L5: Reid06,Schmidt07,Kirkpatrick21(L5.0;opt/Reid06)
+   L5.5: Schneider14
+   L7.0: Burgasser10(Spex/Kirkpatrick21(NIR/adopt))
+   
+   Nearby L dwarf first reported by Wilson03, but with a bewilderingly
+   wide range of reported optical and NIR types (ranging L3.5-L7.0)
+   suggesting that it is unusual. It had the reddest J-Ks colors among
+   the 29 L dwarfs first reported by Wilson03.  Rare mid L dwarf with
+   published BV magnitudes (apparently due to being misclassified as a
+   QSO), plus Sloan photometry to boot. Proper motion 253 mas/yr
+   (GaiaDR3), so it moved 4.05" between J2000.0 and the GaiaDR3 epoch
+   2016.0. GaiaDR3: plx=69.6352+-0.5322mas(GaiaDR3),
+   G=19.818523+-0.006200(GaiaDR3), Bp-Rp=2.912098(GaiaDR3),
+   Bp-G=1.353041(GaiaDR3), G-Rp=1.559057(GaiaDR3).  SDSSDR16:
+   u=25.144+-0.651(SDSSDR16), g=24.483+-0.473(SDSSDR16),
+   r=22.229+-0.112(SDSSDR16), i=19.619+-0.023(SDSSDR16),
+   z=17.443+-0.015(SDSSDR16).  Teff=1600+-100K(Gagne15),
+   logg=4.5+-0.5(Gagne15).  Best18 flags it as Young=Y.  Veron-Cetty10
+   catalogs the objects as a QSO "SDSS J14484+1031" with z=5.864(!)
+   and Vmag=23.31, B-V=1.48, U-B=-1.09, reference V photometry from
+   Adelman-McCarthy08(SDSSDR6), which is odd as that reference only
+   contains SDSS photometry.  Kunmiski16 lists a galaxy within 0.7" of
+   the J2000 position for 2MASS J14482563+1031590, with negligible
+   redshift(!), but classifying it as a elliptical.
+   

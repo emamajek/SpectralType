@@ -1,7 +1,7 @@
 L6V
 
 Kirkpatrick99 standard:      2MASSs J0850359+105716 - L6V
-Hawley02 standard:           2MASS 0103+1935 - L6V
+Hawley02 standard:           2MASSI J0103320+193536 (2MASS J0103+1935) - L6V
 Kirkpatrick05 standard:      2MASSs J0850359+105716 - L6V ("optical anchor")
 Reid08 standard:             2MASS J08503593+1057156 - L6 (pri. stan.) 
 Kirkpatrick09(GrayCorbally): 2MASS J08503593+1057156 - L6 (primary optical standard)
@@ -9,20 +9,26 @@ Kirkpatrick10 standard:      2MASS J10101480−0406499 - L6V (pri. stan. (0.7-2.
 Brock21 standards:           2MASS J08503593+1057156 (2MASSs J0850+1057) - L6 (optical stan.)
 			     2MASS J10101480−0406499 (2MASSI J1010-0406) - L6 (Spex stan.) 
 Cruz18 standard:             2MASS J10101480−0406499 - L6 (pri. field gravity NIR standard)
+Bravo23 standard:            2MASSI J1010148−040649 - L6 (NIR standard)
 
-Theissen22 did not include a L6 NIRES/0.9-2.45um standard. 
+Theissen22 did not include a L6 NIRES/0.9-2.45um standard.
 
-Teff(L6V) = 1311 K ; 2MASS J02572581−3105523 (Kirkpatrick20)
-Teff(L6V) = 1360 K ; Kirkpatrick21 (median for L5 near-IR types; N=7)
-Teff(L6V) = 1417 K ; Sanghi23 M6V-T9V field dwarf polynomial 
-Teff(L6V) = 1483 K ; Filippazzo15 calibration (M6V-T9V)
-Teff(L6V) = 1509 K ; Kirkpatrick21 (median for L5 optical types; N=8)
-Teff(L6V) = 1513 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(L6V) = 1528 K ; Dupuy17(SaumonMarley08 model scale)
-Teff(L6V) = 1551 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-4.384
-Teff(L6V) = 1616 K ; Dupuy17(Lyon model scale)
-Teff(L6V) = 1750 K ; Cifuentes20 <Teff> for CARMENES L6V(N=1)
-=> adopt Teff(L6V) = 1550 K (logT = 3.190) [updated 4/17/2020]
+Kirkpatrick21 20pc sample study lists only one object with both optical and NIR L6.0 types: 2MASS J0103+1935 (2MASSI J0103320+193536). 
+
+Teff(L6V) =  1311 K ; 2MASS J02572581−3105523 (Kirkpatrick20)
+Teff(L6V) =  1360 K ; Kirkpatrick21 (median for L5 near-IR types; N=7)
+Teff(L6V) =  1417 K ; Sanghi23 M6V-T9V field dwarf polynomial 
+Teff(L6V) =  1483 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L6V) =  1483 (+-218 rms) K ; median N=6 L6s d<25pc in Sebsastian21/SPECULOOS
+Teff(L6V) =  1505 K ; Stephens09 (optical L types)
+Teff(L6V) =  1508 +-151 K ; pri. stan. 2MASS J10101480-0406499 
+Teff(L6V) =  1509 K ; Kirkpatrick21 (median for L5 optical types; N=8)
+Teff(L6V) =  1513 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L6V) =  1528 K ; Dupuy17(SaumonMarley08 model scale)
+Teff(L6V) =  1551 K ; Rad vs. logL for BT-Settl 3Gyr [M/H]=0 isochrone for LogL=-4.384
+Teff(L6V) =  1616 K ; Dupuy17(Lyon model scale)
+Teff(L6V) =  1750 K ; Cifuentes20 <Teff> for CARMENES L6V(N=1)
+=> adopt Teff(L6V) = 1510 K (logT = 3.1790) [updated 12/1/2024]
 
 (R-Ic)(L6V) = 2.117 ; star #32 (J0850+1057) in Liebert06
 (R-Ic)(L6V) = 2.579 ; star #177 (J2151-2441) in Liebert06
@@ -36,31 +42,37 @@ Teff(L6V) = 1750 K ; Cifuentes20 <Teff> for CARMENES L6V(N=1)
 (J-H)(L6V) =   0.970 ; 2MASS_J11181292-0856106_ plx=43.6501mas L6
 (J-H)(L6V) =   0.971 ; 2MASS_J19191519+3045536_ plx=46.3mas L6
 (J-H)(L6V) =   0.984 ; 2MASS_J13314894-0116500_ plx=47.1264mas L6V
+(J-H)(L6V) =  1.012 +-0.042 ; exemplar 2MASS J15150083+4847416 
 (J-H)(L6V) =   1.017 ; 2MASS_J09153413+0422045_ plx=59.9mas L6
-(J-H)(L6V) = 1.057 ; smoothed trend M9V-L9.5V (11/1/2024) 
+(J-H)(L6V) =  1.057 ; smoothed trend M9V-L9.5V (11/1/2024) 
 (J-H)(L6V) =  1.060 (+-0.13 rms) ; SIMBAD trend for d<30pc L dwarfs
 (J-H)(L6V) =   1.070 ; 2MASS_J19285196-4356256_ plx=34.977mas L6
 (J-H)(L6V) =   1.087 ; 2MASS_J12394920+3209056_ plx=27.2mas L6
+(J-H)(L6V) = 1.10 ; J-Ks=1.77, H-Ks=0.67 (11/20/2024) 
 (J-H)(L6V) =  1.11 (+-0.20 rms) ; Faherty16
+(J-H)(L6V) =  1.11 ; Zhang09 (i-J=5.21, i-H=6.32) 
 (J-H)(L6V) =   1.116 ; 2MASS_J00511078-1544169_ plx=29.8129mas L6
-(J-H)(L6V) =  1.123 ; pri. stan. 2MASS_J10101480-0406499_ plx=55.0mas L6
+(J-H)(L6V) =  1.123 +-0.070 ; pri. stan. 2MASS J10101480-0406499 (2MASS)
 (J-H)(L6V) =   1.139 ; 2MASS_J00282091+2249050_ plx=42.8879mas L6.0
 (J-H)(L6V) =   1.176 ; 2MASS_J10365305-3441380_ plx=67.9608mas L6
 (J-H)(L6V) =   1.253 ; 2MASS_J08095903+4434216_ plx=42.4mas L6.0
 (J-H)(L6V) =   1.330 ; 2MASS_J09510549+3558021_ plx=29.6mas L6V
 (J-H)(L6V) =   1.391 ; 2MASS_J01033203+1935361_ plx=46.9mas L6V
-=> adopt (J-H)(L6V) = 1.06 [updated 11/1/2024] (J-Ks=1.77, H-Ks=0.71) 
+=> adopt (J-H)(L6V) = 1.10 [updated 11/20/2024] (J-Ks=1.77, H-Ks=0.67) 
 
 (H-Ks)(L6V) =   0.402 ; 2MASS_J13314894-0116500_ plx=47.1264mas L6V
 (H-Ks)(L6V) =   0.520 ; 2MASS_J09153413+0422045_ plx=59.9mas L6
 (H-Ks)(L6V) =   0.520 ; 2MASS_J16584290+5103383_ plx=31.1236mas L6pec
 (H-Ks)(L6V) =   0.590 ; 2MASS_J11181292-0856106_ plx=43.6501mas L6
 (H-Ks)(L6V) =  0.59 (+-0.15 rms; N=8) ; Schmidt14
+(H-Ks)(L6V) =  0.599 +-0.039 ; exemplar 2MASS J15150083+4847416 
 (H-Ks)(L6V) =   0.614 ; 2MASS_J23440624-0733282_ plx=37.6417mas L6.0V
 (H-Ks)(L6V) =   0.644 ; 2MASS_J18361069+0315224_ plx=54.8798mas L6
 (H-Ks)(L6V) =   0.648 ; 2MASS_J10365305-3441380_ plx=67.9608mas L6
+(H-Ks)(L6V) =  0.65 ; Zhang09 (i-H=6.32, i-Ks=6.97) 
 (H-Ks)(L6V) =   0.653 ; 2MASS_J19191519+3045536_ plx=46.3mas L6
 (H-Ks)(L6V) =  0.654 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L6V) = 0.671 ; M9V-L9.5V trend (11/15/2024) 
 (H-Ks)(L6V) =   0.673 ; 2MASS_J01591078+3312313_ plx=43.3mas L6
 (H-Ks)(L6V) =   0.673 ; 2MASS_J19285196-4356256_ plx=34.977mas L6
 (H-Ks)(L6V) =   0.687 ; 2MASS_J00282091+2249050_ plx=42.8879mas L6.0
@@ -68,57 +80,101 @@ Teff(L6V) = 1750 K ; Cifuentes20 <Teff> for CARMENES L6V(N=1)
 (H-Ks)(L6V) =   0.717 ; 2MASS_J12394920+3209056_ plx=27.2mas L6
 (H-Ks)(L6V) =   0.748 ; 2MASS_J01033203+1935361_ plx=46.9mas L6V
 (H-Ks)(L6V) =   0.757 ; 2MASS_J09510549+3558021_ plx=29.6mas L6V
-(H-Ks)(L6V) =  0.76 (+-0.16 rms) ; Faherty16 
-(H-Ks)(L6V) =  0.766 ; pri. stan. 2MASS_J10101480-0406499_ plx=55.0mas L6
+(H-Ks)(L6V) =  0.76 (+-0.16 rms) ; Faherty16
+(H-Ks)(L6V) =  0.766 +-0.059 ; pri. stan. 2MASS J10101480-0406499 (2MASS)
 (H-Ks)(L6V) =   0.767 ; 2MASS_J08095903+4434216_ plx=42.4mas L6.0
-=> adopt (H-Ks)(L6V) = 0.71 [updated 11/1/2024] (J-Ks=1.77, J-H=1.06)
+=> adopt (H-Ks)(L6V) = 0.67 [updated 11/20/2024] (J-Ks=1.77, J-H=1.10)
 
-(J-Ks)(L6V) =   1.386 ; 2MASS_J13314894-0116500_ plx=47.1264mas L6V
-(J-Ks)(L6V) =   1.407 ; 2MASS_J16584290+5103383_ plx=31.1236mas L6pec
-(J-Ks)(L6V) =   1.537 ; 2MASS_J09153413+0422045_ plx=59.9mas L6
-(J-Ks)(L6V) =  1.54 (+-0.23 rms; N=8) ; Schmidt14
-(J-Ks)(L6V) =   1.560 ; 2MASS_J11181292-0856106_ plx=43.6501mas L6
-(J-Ks)(L6V) =   1.562 ; 2MASS_J18361069+0315224_ plx=54.8798mas L6
-(J-Ks)(L6V) =   1.570 ; 2MASS_J23440624-0733282_ plx=37.6417mas L6.0V
-(J-Ks)(L6V) =  1.578 ; Reyle18 polynomial
-(J-Ks)(L6V) =   1.624 ; 2MASS_J19191519+3045536_ plx=46.3mas L6
-(J-Ks)(L6V) =   1.639 ; 2MASS_J01591078+3312313_ plx=43.3mas L6
-(J-Ks)(L6V) = 1.71 ; J-H=1.06, H-Ks=0.65 
-(J-Ks)(L6V) =   1.743 ; 2MASS_J19285196-4356256_ plx=34.977mas L6
-(J-Ks)(L6V) =  1.75 ; Faherty09
-(J-Ks)(L6V) = 1.769 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
+(J-Ks)(L6V) =    1.386 ; 2MASS_J13314894-0116500_ plx=47.1264mas L6V
+(J-Ks)(L6V) =    1.407 ; 2MASS_J16584290+5103383_ plx=31.1236mas L6pec
+(J-Ks)(L6V) =    1.537 ; 2MASS_J09153413+0422045_ plx=59.9mas L6
+(J-Ks)(L6V) =   1.54 (+-0.23 rms; N=8) ; Schmidt14
+(J-Ks)(L6V) =    1.560 ; 2MASS_J11181292-0856106_ plx=43.6501mas L6
+(J-Ks)(L6V) =    1.562 ; 2MASS_J18361069+0315224_ plx=54.8798mas L6
+(J-Ks)(L6V) =    1.570 ; 2MASS_J23440624-0733282_ plx=37.6417mas L6.0V
+(J-Ks)(L6V) =   1.578 ; Reyle18 polynomial
+(J-Ks)(L6V) =   1.605 (+-0.182 sem,+-0.227 stdev) ; BardalezGagliuffi19 median d<25pc L6.0 (N=10)
+(J-Ks)(L6V) =   1.611 +-0.038 ; exemplar 2MASS J15150083+4847416 
+(J-Ks)(L6V) =    1.624 ; 2MASS_J19191519+3045536_ plx=46.3mas L6
+(J-Ks)(L6V) =    1.639 ; 2MASS_J01591078+3312313_ plx=43.3mas L6
+(J-Ks)(L6V) =    1.743 ; 2MASS_J19285196-4356256_ plx=34.977mas L6
+(J-Ks)(L6V) =   1.75 ; Faherty09
+(J-Ks)(L6V) =  1.769 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
+(J-Ks)(L6V) = 1.77 ; J-H=1.10, H-Ks=0.67 (11/20/2024) 
 (J-Ks)(L6V) =  1.771 ; Sanghi24 M6V-T9V trend
-(J-Ks)(L6V) =   1.804 ; 2MASS_J12394920+3209056_ plx=27.2mas L6
-(J-Ks)(L6V) =   1.814 ; 2MASS_J00511078-1544169_ plx=29.8129mas L6
-(J-Ks)(L6V) =  1.82 (+-0.07 sem,+-0.29 stdev) ; Schmidt10 N=20
-(J-Ks)(L6V) =   1.824 ; 2MASS_J10365305-3441380_ plx=67.9608mas L6
-(J-Ks)(L6V) =   1.826 ; 2MASS_J00282091+2249050_ plx=42.8879mas L6.0
-(J-Ks)(L6V) =  1.84 (+-0.28 rms) ; Faherty16 
-(J-Ks)(L6V) =  1.889 ; pri. stan. 2MASS_J10101480-0406499_ plx=55.0mas L6
-(J-Ks)(L6V) =   2.020 ; 2MASS_J08095903+4434216_ plx=42.4mas L6.0
-(J-Ks)(L6V) =   2.087 ; 2MASS_J09510549+3558021_ plx=29.6mas L6V
-(J-Ks)(L6V) =    2.139 ; 2MASS_J01033203+1935361_ plx=46.9mas L6V
-=> adopt (J-Ks)(L6V) = 1.77 [updated 11/1/2024] (J-H=1.06, H-Ks=0.71)
+(J-Ks)(L6V) =   1.777 (+-0.1:) ; Cruz18 median for N=8 field gravity L6s 
+(J-Ks)(L6V) =    1.804 ; 2MASS_J12394920+3209056_ plx=27.2mas L6
+(J-Ks)(L6V) =    1.814 ; 2MASS_J00511078-1544169_ plx=29.8129mas L6
+(J-Ks)(L6V) =   1.82 (+-0.07 sem,+-0.29 stdev) ; Schmidt10 N=20
+(J-Ks)(L6V) =    1.824 ; 2MASS_J10365305-3441380_ plx=67.9608mas L6
+(J-Ks)(L6V) =    1.826 ; 2MASS_J00282091+2249050_ plx=42.8879mas L6.0
+(J-Ks)(L6V) =   1.84 (+-0.28 rms) ; Faherty16 
+(J-Ks)(L6V) =   1.889 +-0.075 ; pri. stan. 2MASS J10101480-0406499 (2MASS)
+(J-Ks)(L6V) =    2.020 ; 2MASS_J08095903+4434216_ plx=42.4mas L6.0
+(J-Ks)(L6V) =    2.087 ; 2MASS_J09510549+3558021_ plx=29.6mas L6V
+(J-Ks)(L6V) =     2.139 ; 2MASS_J01033203+1935361_ plx=46.9mas L6V
+=> adopt (J-Ks)(L6V) = 1.77 [updated 11/20/2024] (J-H=1.10, H-Ks=0.67)
 
-(r-i)(L6V) = 2.07 (N=1) ; Cifuentes20
-(r-i)(L6V) = 2.200 ; 2MASS_J13314894-0116500_ plx=47.1264mas L6V
-(r-i)(L6V) = 2.368 ; LP_261-75_B_ plx=29.6mas L6V
-(r-i)(L6V) = 2.79 (+-0.69; rms) ; Hawley02 ("r*-i*")
-(r-i)(L6V) = 2.960 ; 2MASS_J08095903+4434216_ plx=42.4mas L6.0
-=> adopt (r-i)(L6V) = 2.4: [updated 4/15/2024]
+(u-g)(L6V) =   -1.780 ; SDSS_J133148.92-011651.4 L6V plx=47.1264mas
+(u-g)(L6V) =   -1.288 ; SDSS_J095105.44+355801.3 L6V plx=29.6mas
+(u-g)(L6V) =    1.894 +-0.543 ; exemplar 2MASS J15150083+4847416 (SDSSDR16)
 
-(i-z)(L6V) = 2.40 (+-0.19; rms) ; Hawley02 ("i*-z*")
-(i-z)(L6V) = 2.43 (+-0.11 sem,+-0.23 stdev) ; Schmidt10 N=4
-=> adopt (i-z)(L6V) = 2.42 [updated 4/15/2024]
+(g-r)(L6V) =   0.872 ; SDSS_J095105.44+355801.3 L6V plx=29.6mas
+(g-r)(L6V) =   1.914 +-0.222 ; exemplar 2MASS J15150083+4847416 (SDSSDR16)
+(g-r)(L6V) =   2.630 ; SDSS_J133148.92-011651.4 L6V plx=47.1264mas
 
-(i-J)(L6V) = 5.25 (+-0.14 sem,+-0.24 rms) ; Schmidt10 N=3
-(i-J)(L6V) = 5.27 (+-0.20; rms) ; Hawley02 ("i*-J")
-=> adopt (i-J)(L6V) = 5.25 [updated 4/15/2024]
+(g-G)(L6V) =   4.409 +-0.210 ; exemplar 2MASS J15150083+4847416 (SDSSDR16,GaiaDR3) 
+(g-G)(L6V) =   4.948 ; SDSS_J133148.92-011651.4 L6V plx=47.1264mas
 
-(z-J)(L6V) = 2.75 (+-0.04 sem, +-0.10 stdev) ; Schmidt10 (N=7)
-(z-J)(L6V) = 2.76 (+-0.07; rms; N=6) ; Schmidt14
-(z-J)(L6V) = 2.86 (+-0.15; rms) ; Hawley02 ("z*-J")
-=> adopt (z-J)(L6V) = 2.8 [updated 4/7/2024]
+
+(r-i)(L6V) =  2.07 (N=1) ; Cifuentes20
+(r-i)(L6V) =  2.17 (+-0.75 rms) ; Zhang09 
+(r-i)(L6V) =   2.200 ; SDSS_J133148.92-011651.4 L6V plx=47.1264mas
+(r-i)(L6V) =  2.364 +-0.076 ; exemplar 2MASS J15150083+4847416 (SDSSDR16)
+(r-i)(L6V) =  2.368 (+-0.23 sem, +-0.40 stdev) ; median for nearest 3 SIMBAD d<75pc L6s w/SDSS IDs
+(r-i)(L6V) =   2.368 ; LP_261-75_B = SDSS_J095105.44+355801.3 L6V plx=29.6mas
+(r-i)(L6V) =  2.79 (+-0.69; rms) ; Hawley02 ("r*-i*")
+(r-i)(L6V) =   2.960 ; SDSS_J080959.01+443422.2 L6.0 plx=42.4mas
+=> adopt (r-i)(L6V) = 2.4: [updated 11/25/2024] 
+
+(i-z)(L6V) =  2.335 ; Skrzypek15 (i-z_Vega=2.51;i_AB-i_Vega=0.366,z_AB-z_Vega=0.533(Hewett06))
+(i-z)(L6V) =   2.348 ; SDSS_J095105.44+355801.3 L6V plx=29.6mas
+(i-z)(L6V) =  2.40 (+-0.19; rms) ; Hawley02 ("i*-z*")
+(i-z)(L6V) =  2.43 (+-0.11 sem,+-0.23 stdev) ; Schmidt10 N=4
+(i-z)(L6V) =  2.52 (+-0.34 rms) ; Zhang09
+(i-z)(L6V) = 2.55 ; i-J=5.25, z-J=2.70 (11/20/2024) 
+(i-z)(L6V) =  2.57 (+-0.08 sem,+-0.14 stdev) ; med for nearest 3 SIMBAD d<75pc L6s w/SDSS IDs
+(i-z)(L6V) =   2.570 ; SDSS_J080959.01+443422.2 L6.0 plx=42.4mas
+(i-z)(L6V) =   2.593 ; SDSS_J133148.92-011651.4 L6V plx=47.1264mas
+(i-z)(L6V) =   2.645 +-0.026 ; exemplar 2MASS J15150083+4847416 (SDSSDR16)
+=> adopt (i-z)(L6V) = 2.55 [updated 11/20/2024] (i-J=5.25, z-J=2.70)
+
+(i-J)(L6V) =   5.081 ; SDSS_J095105.44+355801.3 L6V plx=29.6mas
+(i-J)(L6V) =  5.21 (+-0.35 rms) ; Zhang09 
+(i-J)(L6V) =   5.211 ; SDSS_J133148.92-011651.4 L6V plx=47.1264mas
+(i-J)(L6V) =  5.21 (+-0.10 sem,+-0.17 stdev) ; med for nearest 3 SIMBAD d<75pc L6s w/SDSS IDs
+(i-J)(L6V) = 5.25 ; i-z=2.55, z-J=2.70 (11/20/2024) 
+(i-J)(L6V) =  5.25 (+-0.14 sem,+-0.24 rms) ; Schmidt10 N=3
+(i-J)(L6V) =  5.262 +-0.036 ; exemplar 2MASS J15150083+4847416 (SDSSDR16,2MASS)
+(i-J)(L6V) =  5.27 (+-0.20; rms) ; Hawley02 ("i*-J")
+(i-J)(L6V) =   5.423 ; SDSS_J080959.01+443422.2 L6.0 plx=42.4mas
+=> adopt (i-J)(L6V) = 5.25 [updated 11/20/2024] (z-J=2.70, i-z=2.55)
+
+(i-H)(L6V) = 6.32 (+-0.51 rms) ; Zhang09
+
+(i-Ks)(L6V) = 6.97 (+-0.51 rms) ; Zhang09 
+
+(z-J)(L6V) =   2.617 +-0.033 ; exemplar 2MASS J15150083+4847416 (SDSSDR16,2MASS)
+(z-J)(L6V) =    2.618 ; SDSS_J133148.92-011651.4 L6V plx=47.1264mas
+(z-J)(L6V) =   2.69 ; Zhang09 (i-J=5.21, i-z=2.52)
+(z-J)(L6V) =  2.70 ; z-J=2.70, i-z=2.55 (11/20/2024) 
+(z-J)(L6V) =    2.733 ; SDSS_J095105.44+355801.3 L6V plx=29.6mas
+(z-J)(L6V) =   2.733 (+-0.07 sem,+-0.12 stdev) ; med for nearest 3 SIMBAD d<75pc L6s w/SDSS IDs
+(z-J)(L6V) =   2.75 (+-0.04 sem, +-0.10 stdev) ; Schmidt10 (N=7)
+(z-J)(L6V) =   2.76 (+-0.07; rms; N=6) ; Schmidt14
+(z-J)(L6V) =    2.853 ; SDSS_J080959.01+443422.2 L6.0 plx=42.4mas
+(z-J)(L6V) =   2.86 (+-0.15; rms) ; Hawley02 ("z*-J")
+=> adopt (z-J)(L6V) = 2.70 [updated 11/20/2024] (i-z=2.55, i-J=5.25) 
 
 (z-Ks)(L6V) = 4.24 (+-0.08 sem,+-0.24 stdev) ; Schmidt10 N=9
 
@@ -126,29 +182,61 @@ Teff(L6V) = 1750 K ; Cifuentes20 <Teff> for CARMENES L6V(N=1)
 
 (J-W2)(L6V) = 3.00 (+-0.52 rms) ; Faherty16
 
-(Ks-W1)(L6V)= 0.75 (+-0.14 rms; N=7) ; Schmidt14
-(Ks-W1)(L6V)= 0.76  ; Dupuy12 median N=4, d<50pc
-(Ks-W1)(L6V)= 0.794 ; Dupuy12 trend
-=> adopt (Ks-W1)(L6V) = 0.76 [updated 12/28/2019]
+(Ks-W1)(L6V) =  0.728 +-0.052 ; pri. stan. 2MASS J10101480-0406499 
+(Ks-W1)(L6V) =  0.75 (+-0.14 rms; N=7) ; Schmidt14
+(Ks-W1)(L6V) =  0.76  ; Dupuy12 median N=4, d<50pc
+(Ks-W1)(L6V) =  0.792 +-0.033 ; exemplar 2MASS J15150083+4847416
+(Ks-W1)(L6V) =  0.794 ; Dupuy12 trend
+=> adopt (Ks-W1)(L6V) = 0.76 [updated 11/20/2024]
 
-(W1-W2)(L6V)= 0.34 (+-0.05 rms; N=7) ; Schmidt14
+(W1-W2)(L6V) =  0.34 (+-0.05 rms; N=7) ; Schmidt14
+(W1-W2)(L6V) =  0.36 ; Skrzypek15
+(W1-W2)(L6V) =   0.374 +-0.038 ; pri. stan. 2MASS J10101480-0406499
+(W1-W2)(L6V) =   0.386 +-0.031 ; exemplar 2MASS J15150083+4847416
+=> adopt (W1-W2)(L6V) = 0.36 [updated 12/1/2024]
 
-(G-Rp)(L6V) =  1.822 ; Reyle18 polynomial (GaiaDR2)
+(W1-W3)(L6V) =   1.193 +-0.049 ; exemplar 2MASS J15150083+4847416
+
+(Bp-Rp)(L6V) =  2.4864 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3)
+(Bp-Rp)(L6V) =   3.7472 ; exemplar 2MASS J15150083+4847416 (GaiaDR3) 
+
+(Bp-G)(L6V) =  0.6133 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3)
+(Bp-G)(L6V) =   2.1098 ; exemplar 2MASS J15150083+4847416 (GaiaDR3)
 
 (G-Rp)(L6V) =  1.77  ; Kiman19 (N=1) (GaiaDR2)
+(G-Rp)(L6V) =  1.822 ; Reyle18 polynomial (GaiaDR2)
 
-(G-J)(L6V) =   5.093 ; 2MASS_J13314894-0116500_ plx=47.1264mas L6V (GaiaDR3)
-(G-J)(L6V) =   5.104 ; 2MASS_J18361069+0315224_ plx=54.8798mas L6 (GaiaDR3)
-(G-J)(L6V) =   5.121 ; 2MASS_J11181292-0856106_ plx=43.6501mas L6 (GaiaDR3)
-(G-J)(L6V) =   5.220 ; 2MASS_J00282091+2249050_ plx=42.8879mas L6.0 (GaiaDR3)
-(G-J)(L6V) =   5.228 ; 2MASS_J10365305-3441380_ plx=67.9608mas L6 (GaiaDR3)
+(G-Rp)(L6V) =   1.6374 ; exemplar 2MASS J15150083+4847416 (GaiaDR3)
+(G-Rp)(L6V) =  1.8731 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3) 
+
 (G-J)(L6V) =  5.331 ; Reyle18 polynomial (GaiaDR2)
-(G-J)(L6V) =  5.363 ; pri. stan. 2MASS_J10101480-0406499_ plx=55.0mas L6 (GaiaDR3)
+
+(G-J)(L6V) =   5.093 ; 2MASS_J13314894-0116500 L6V plx=47.1264mas; J-Ks=1.386 (GaiaDR3)
+(G-J)(L6V) =   5.104 ; 2MASS_J18361069+0315224 L6 plx=54.8798mas; J-Ks=1.562 (GaiaDR3)
+(G-J)(L6V) =   5.121 ; 2MASS_J11181292-0856106 L6 plx=43.6501mas; J-Ks=1.56 (GaiaDR3)
+(G-J)(L6V) =  5.131 +-0.029 ; exemplar 2MASS J15150083+4847416 (GaiaDR3)
+(G-J)(L6V) =   5.198 ; 2MASS_J23440624-0733282 L6.0V plx=37.6417mas; J-Ks=1.57 (GaiaDR3)
+(G-J)(L6V) =   5.220 ; 2MASS_J00282091+2249050 L6.0 plx=42.8879mas; J-Ks=1.826 (GaiaDR3)
+(G-J)(L6V) =   5.228 ; 2MASS_J10365305-3441380 L6 plx=67.9608mas; J-Ks=1.824 (GaiaDR3)
+(G-J)(L6V) =   5.256 ; 2MASS_J19285196-4356256 L6 plx=34.977mas; J-Ks=1.743 (GaiaDR3)
+(G-J)(L6V) =   5.287 ; 2MASS_J00511078-1544169 L6 plx=29.8129mas; J-Ks=1.811 (GaiaDR3)
+(G-J)(L6V) =  5.333 ; pri. stan. 2MASS_J10101480-0406499 L6 plx=55.0mas; J-Ks=1.889 (GaiaDR3)
 (G-J)(L6V) =      NA ; 2MASS_J01033203+1935361_ plx=46.9mas L6V (GaiaDR3)
 (G-J)(L6V) =      NA ; 2MASS_J01591078+3312313_ plx=43.3mas L6 (GaiaDR3)
 (G-J)(L6V) =      NA ; 2MASS_J19191519+3045536_ plx=46.3mas L6 (GaiaDR3)
 (G-J)(L6V) =      NA ; 2MASS_J09153413+0422045_ plx=59.9mas L6 (GaiaDR3)
-=> adopt (G-J)(L6V) = 5.36 [updated 5/24/2024] 
+=> adopt (G-J)(L6V) = 5.3 [updated 11/1/2024]
+
+(G-Ks)(L6V) =   6.479 ; 2MASS_J13314894-0116500 L6V plx=47.1264mas; J-Ks=1.386 (GaiaDR3)
+(G-Ks)(L6V) =   6.666 ; 2MASS_J18361069+0315224 L6 plx=54.8798mas; J-Ks=1.562 (GaiaDR3)
+(G-Ks)(L6V) =   6.681 ; 2MASS_J11181292-0856106 L6 plx=43.6501mas; J-Ks=1.56 (GaiaDR3)
+(G-Ks)(L6V) =  6.742 +-0.024 ; exemplar 2MASS J15150083+4847416
+(G-Ks)(L6V) =   6.768 ; 2MASS_J23440624-0733282 L6.0V plx=37.6417mas; J-Ks=1.57 (GaiaDR3)
+(G-Ks)(L6V) =   6.999 ; 2MASS_J19285196-4356256 L6 plx=34.977mas; J-Ks=1.743 (GaiaDR3)
+(G-Ks)(L6V) =   7.046 ; 2MASS_J00282091+2249050 L6.0 plx=42.8879mas; J-Ks=1.826 (GaiaDR3)
+(G-Ks)(L6V) =   7.052 ; 2MASS_J10365305-3441380 L6 plx=67.9608mas; J-Ks=1.824 (GaiaDR3)
+(G-Ks)(L6V) =   7.098 ; 2MASS_J00511078-1544169 L6 plx=29.8129mas; J-Ks=1.811 (GaiaDR3)
+(G-Ks)(L6V) =  7.222 +-0.051 ; pri. stan. 2MASS_J10101480-0406499 L6 plx=55.0mas; J-Ks=1.889 (GaiaDR3)
 
 M_G(L6V) =   18.594 ; 2MASS_J18361069+0315224_ plx=54.8798mas L6 (GaiaDR3)
 M_G(L6V) =   18.918 ; 2MASS_J13314894-0116500_ plx=47.1264mas L6V (GaiaDR3)
@@ -156,7 +244,8 @@ M_G(L6V) =    18.92  ; Kiman19 (rms=0.17; N=2)
 M_G(L6V) =    18.938 ; Reyle18 polynomial
 M_G(L6V) =   18.989 ; 2MASS_J00282091+2249050_ plx=42.8879mas L6.0 (GaiaDR3)
 M_G(L6V) =   19.061 ; 2MASS_J11181292-0856106_ plx=43.6501mas L6 (GaiaDR3)
-M_G(L6V) =  19.572 ; pri. stan. 2MASS_J10101480-0406499_ plx=55.0mas L6 (GaiaDR3)
+M_G(L6V) =  19.284 +-0.007 ; exemplar 2MASS J15150083+4847416 (GaiaDR3)
+M_G(L6V) =  19.647 +-0.137 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3) 
 M_G(L6V) =   20.011 ; 2MASS_J10365305-3441380_ plx=67.9608mas L6 (GaiaDR3)
 M_G(L6V) =    NA ; 2MASS_J01591078+3312313_ plx=43.3mas L6 (GaiaDR3)
 M_G(L6V) =    NA ; 2MASS_J19191519+3045536_ plx=46.3mas L6 (GaiaDR3)
@@ -174,7 +263,8 @@ M_J(L6V) =   13.90 ; 2MASS_J19191519+3045536_ L6 plx=46.3mas
 M_J(L6V) =   13.94 ; 2MASS_J11181292-0856106_ L6 plx=43.6501mas
 M_J(L6V) =   14.09 ; 2MASS_J21415505-5118506_ L6pec plx=63.6647mas
 M_J(L6V) =   14.14 ; HD_12051B_ L6 plx=43.3mas
-M_J(L6V) =  14.21 ; pri. stan. 2MASSI_J1010148-040649_ L6 plx=55.0mas
+M_J(L6V) =  14.15  +-0.03  ; exemplar 2MASS J15150083+4847416
+M_J(L6V) =  14.314 +-0.148 ; pri. stan. 2MASS J10101480-0406499   
 M_J(L6V) =   14.57 ; 2MASS_J08095903+4434216_ L6.0 plx=42.4mas
 M_J(L6V) =   14.78 ; 2MASSW_J1036530-344138_ L6 plx=67.9608mas
 => adopt M_J(L6V) = 13.89 [updated 12/30/2020]
@@ -188,16 +278,18 @@ M_Ks(L6V) =     12.133 ; Reyle18 polynomial
 M_Ks(L6V) =     12.19  ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
 M_Ks(L6V) =     12.22  ; trend to L/T dwarfs in notes (1/2021)
 M_Ks(L6V) =   12.27 ; 2MASS_J19191519+3045536_ L6 plx=46.3mas
-M_Ks(L6V) =  12.32 ; pri. stan. 2MASSI_J1010148-040649_ L6 plx=55.0mas
 M_Ks(L6V) =   12.38 ; 2MASS_J11181292-0856106_ L6 plx=43.6501mas
+M_Ks(L6V) =  12.425 +-0.143 ; pri. stan. 2MASS J10101480-0406499 
 M_Ks(L6V) =   12.44 ; 2MASS_J13314894-0116500_ L6V plx=47.1264mas
 M_Ks(L6V) =   12.50 ; HD_12051B_ L6 plx=43.3mas
+M_Ks(L6V) =  12.54 +-0.03 ; exemplar 2MASS J15150083+4847416 
 M_Ks(L6V) =   12.55 ; 2MASS_J08095903+4434216_ L6.0 plx=42.4mas
 M_Ks(L6V) =   12.68 ; 2MASS_J21415505-5118506_ L6pec plx=63.6647mas
 M_Ks(L6V) =    12.96 ; 2MASSW_J1036530-344138_ L6 plx=67.9608mas
 => adopt M_Ks(L6V) = 12.32 [adopted 5/24/2024]
 
 BC_J(L6V) = 1.625 ; Sanghi23 M6V-T9V trend
+BC_J(L6V) = 1.70  +-0.00 ; Schmidt14 (N=2)
 
 BC_Ks(L6V)  = 3.396 mag ; Sanghi23 calibration (M6V-T9V) 
 BC_K(L6V)   =  3.315 mag ; Golimowksi04
@@ -206,22 +298,78 @@ BC_Ks(L6V)  = 3.298 mag ; Filipazzo15 (field)
 BC_Ks(L6V)  = 3.26  mag ; Schmidt14 (rms = 0.07 mag)
 => adopt BC_Ks(L6V) = 3.32 mag [updated 10/24/2024]
 
-logL(L6V) = -4.343 ; Sanghi23 calibration (M6V-T9V)  
+logL(L6V) = -4.343 ; Sanghi23 calibration (M6V-T9V)
 logL(L6V) = -4.384 ; M_Ks=12.4, BC_Ks=3.30, Mbol=15.700
+logL(L6V) = -4.403 (+-0.269 rms) ; median N=6 L6s d<25pc in Sebsastian21/SPECULOOS
+logL(L6V) = -4.4439 +-0.0439 ; exemplar 2MASS J15150083+4847416 (GaiaDR3) 
 => adopt logL(L6V) = -4.384 [updated 4/17/2020]
 => adopt Mbol(L6V) = 15.700 [updated 4/17/2020]
 
 Rad(L6V) = 0.08912 Rsun ; logL=-4.384, Teff=1550K
+Rad(L6V) = 0.0925 (+-0.0063 sem,+-0.0126 stdev) ; mean N=4 L6s d<25pc in Sebsastian21/SPECULOOS
+Rad(L6V) = 0.0988 +-0.0178 Rsun ; exemplar 2MASS J15150083+4847416 (GaiaDR3) 
 Rad(L6V) = 0.1118  Rsun ; Sanghi23 calibration (M6V-T9V) 
 => adopt Rad(L6V) = 0.0891 Rsun [updated 4/17/2020]
 
+Mass(L6V) = 0.055 (+-0.010 stdev) ; mean N=4 L6s d<25pc in Sebsastian21/SPECULOOS
+
 # Primary Standard
 
-2MASS J10101480−0406499
-  L6V: Kirkpatrick10(stan,NIR),Cruz18(stan,NIR)
+2MASS J10101480-0406499 = GJ 11458 = CNS5 2498 = 2MUCD 10880 = 2MASSI J1010148-040649 = TIC 77552615 = WISE J101014.56-040649.9 = Gaia DR3 3828201661999094784
+  L5.0: Burgasser10(Spex),Kirkpatrick21(NIR,adopted)
+ *L6V: Cruz03(opt;Faherty09,Burasser10,Filipazzo15),Kirkpatrick10(stan,NIR),Hinkley13,Wilson14,Schneider14(opt+NIR),Martin17,Cruz18(stan,NIR),Best18/Best20/Best21(opt/NIR/adopted),Kirkpatrick21(opt),Bravo23(stan/NIR)
+  L6.0_INT-G: Bouy22
+  L7: Cruz07,Reid08
 
-  Primary near-IR L6 standard for Kirkpatrick10 and field gravity L6 for Cruz18.
-  (J-Ks)=1.889+-0.075(Cruz18/2MASS). 
+  Primary near-IR L6 standard for Kirkpatrick10 and field gravity L6
+  for Cruz18.  Vos20 reports J-band variability with amplitude
+  3.6+-0.4%. Not in Sloan survey. (J-Ks)=1.889+-0.075(Cruz18/2MASS).  Teffs:
+  1257K(Sanghi23), 1416+-123K(Kirkpatrick21), 1600K(Gagne15),
+  1767K(Hurt24) => adopt Teff ~ 1508+-151K.
+  plx=59.80+-8.10mas(Best18), plx=57.7000+-3.6000mas(Kirkpatrick21).
+  No GaiaDR3 parallax, but there is photometry:
+  G=20.841602+-0.022862(GaiaDR3), Bp-Rp=2.486374(GaiaDR3), Bp-G=0.613295(GaiaDR3), G-Rp=1.873079(GaiaDR3).
+
+        G = 20.8416+-0.0229 ; pri. stan. 2MASS J10101480-0406499   
+  (Bp-Rp)(L6V) =  2.4864 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3) 
+   (Bp-G)(L6V) =  0.6133 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3)    
+   (G-Rp)(L6V) =  1.8731 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3)    
+    (G-J)(L6V) =   5.334 +-0.063 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3,2MASS)  
+      M_G(L6V) =  19.647 +-0.137 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3)    
+      M_J(L6V) =  14.314 +-0.148 ; pri. stan. 2MASS J10101480-0406499   
+     M_Ks(L6V) =  12.425 +-0.143 ; pri. stan. 2MASS J10101480-0406499   
+   (G-Ks)(L6V) =   7.223 +-0.051 ; pri. stan. 2MASS J10101480-0406499 (GaiaDR3,2MASS)   
+    (J-H)(L6V) =   1.123 +-0.070 ; pri. stan. 2MASS J10101480-0406499 (2MASS)  
+   (H-Ks)(L6V) =   0.766 +-0.059 ; pri. stan. 2MASS J10101480-0406499 (2MASS)
+   (J-Ks)(L6V) =   1.889 +-0.075 ; pri. stan. 2MASS J10101480-0406499 (2MASS)
+  (Ks-W1)(L6V) =   0.728 +-0.052 ; pri. stan. 2MASS J10101480-0406499   
+  (W1-W2)(L6V) =   0.374 +-0.038 ; pri. stan. 2MASS J10101480-0406499
+
+# Secondary Standard
+
+2MASS J01033203+1935361 = CNS5 299 = GJ 10162 = 2MASSI J0103320+193536 = 2MASSW J0103320+193536 = WISE J010332.29+193536.4 
+  L5.4: Bardalez14(NIR)
+ *L6: Kirkpatrick00(opt),Cruz03(opt),Allen06(opt),Faherty09(opt),Burgasser10(Kirkpatrick00/opt;Cruz04/NIR),Kirkpatrick10(opt),Allers13,Bardalez14(opt),Schneider14(opt),Schmidt15(opt),Cruz18(field grav.),Kirkpatrick21(L6.0;opt/NIR/adopted)
+  L6{beta}: Faherty12(opt),Gagne14(opt),Gagne15,Fillipazzo15,Faherty16(opt,NIR),Best18(opt/adopted)
+  L6_INT-G: Best18(NIR),Best21(NIR)
+  L6.2: Gagne15(NIR)
+  L6pec: Gagne15(NIR)
+  L7: Kirkpatrick10(NIR),Martin17(NIR),Schneider14(NIR)
+  L7.0_INT-G: Bouy22
+
+  Discovered by Kirkpatrick00 (bright of three L6Vs in that survey),
+  and Gagne15 calls it an Argus member - suggesting it is very young
+  (and some references classify it beta gravity). And multiple
+  references flag it as intermediate/beta gravity.  However, Cruz18
+  includes it as one of nine L6s (based on optical type from
+  Kirkpatrick00 and Spex/NIR type from Cruz04) in their "field gravity
+  template sample", so based on their placement of the object within a
+  large grid of L dwarfs taking into account gravity, I retain it as a
+  L6 dwarf standard.  Metchev15 reports variability of 0.56% at 3.5um
+  and 0.87% at 4.5um with period 2.7 hr via time series Spitzer
+  observations.  Lacking Gaia ID. plx=35.9+-5.7mas(Kirkpatrick21).
+  Teffs: 1600+-100K(Gagne15).  Prot=2.7+-0.1hr(!;Metchev15),
+  Age=300+-200Myr(Metchev15), Rad=1.34+-0.13Rjup.
 
 # Deprecated Standard
 
@@ -252,25 +400,53 @@ Rad(L6V) = 0.1118  Rsun ; Sanghi23 calibration (M6V-T9V)
   Ic=20.349+-0.100(Liebert06), R-Ic=2.117.  Teffs: 1429K(Dahn02),
   1486K(Vrba04), 1770+1400K(Burgasser11).
 
-# Examples
+# Exemplars
 
-2MASSI J0103320+193536
-  Optical:
-  L6: Kirkpatrick00,Cruz03,Allen06,Faherty09,Burgasser10(Kirkpatrick00),Kirkpatrick10,Bardalez14,Schneider14,Schmidt15
-  L6.0{beta}: Faherty12,Gagne14,Faherty16,Best18
-  Near-IR:
-  L5.4: Bardalez14
-  L6.0: Burgasser10(Cruz04)
-  L6: Gagne14
-  L6{beta}: Faherty16
-  L6{beta} or L6:INT-G: Best18
-  L6.2: Gagne15
-  L6pec: Gagne15
-  L7: Kirkpatrick10,Martin17,Schneider14
+2MASS J15150083+4847416 = 2MASSW J1515008+484742 = SDSS J151500.62+484744.8 = CNS5 3763 = 2MUCD 11314 = Gaia DR3 1589250088362827776 = TIC 309848930
+  L5.5: Burgasser(Spex)
+ *L6: Wilson02PhD,Patten06(IR),Cruz07,Schmidt07,Reid08,Faherty09(opt/NIR),Schmidt10,Burgasser10(opt/NIR),Blake10,Carson11,McLean12,Schmidt15,Best20/Best21(opt/NIR),Tamburo22(opt/NIR)
+  L6.5: Cruz03
 
-  Unclear if optical or near-IR: L6{beta}: Gagne15,Fillipazzo15
+  Vtan=80.6+-0.5km/s(Dahn17), so must be old. Included as one of the
+  L6 dwarfs that Cruz18 included in their field gravity template
+  sample. J=14.111+-0.029(2MASS), H=13.099+-0.031(2MASS),
+  Ks=12.500+-0.024(2MASS).  GaiaDR3: plx=101.9645+-0.2567mas(GaiaDR3),
+  G=19.241777+-0.004279(GaiaDR3), Bp-Rp=3.747212(GaiaDR3),
+  Bp-G=2.109766(GaiaDR3), G-Rp=1.637445(GaiaDR3).  Teffs:
+  1483+-90K(Sebastian21), 1505+-74K(Kirkpatrick21), 1600K(Blake10),
+  1600+-100K(Gagne15) => adopt Teff=1553K.
+  Lum=3.5983960e-05+-3.6242232e-06Lsun(GaiaDR3) =>
+  logL=-4.4439+-0.0439(GaiaDR3),
+  Rad=0.098786820+-0.0177680140Rsun(GaiaDR3).
 
-  Gagne15 calls it an Argus member. 
+        G = 19.2418+-0.0043 ; exemplar 2MASS J15150083+4847416    
+   (Bp-Rp)(L6V) =  3.7472 ; exemplar 2MASS J15150083+4847416    
+    (Bp-G)(L6V) =  2.1098 ; exemplar 2MASS J15150083+4847416    
+    (G-Rp)(L6V) =  1.6374 ; exemplar 2MASS J15150083+4847416    
+     (G-J)(L6V) =   5.131 +-0.029 ; exemplar 2MASS J15150083+4847416    
+       M_G(L6V) =  19.284 +-0.007 ; exemplar 2MASS J15150083+4847416    
+       M_J(L6V) =  14.153 +-0.030 ; exemplar 2MASS J15150083+4847416    
+      M_Ks(L6V) =  12.542 +-0.025 ; exemplar 2MASS J15150083+4847416    
+    (G-Ks)(L6V) =   6.742 +-0.024 ; exemplar 2MASS J15150083+4847416    
+     (J-H)(L6V) =   1.012 +-0.042 ; exemplar 2MASS J15150083+4847416    
+    (H-Ks)(L6V) =   0.599 +-0.039 ; exemplar 2MASS J15150083+4847416    
+    (J-Ks)(L6V) =   1.611 +-0.038 ; exemplar 2MASS J15150083+4847416    
+   (Ks-W1)(L6V) =   0.792 +-0.033 ; exemplar 2MASS J15150083+4847416    
+   (W1-W2)(L6V) =   0.386 +-0.031 ; exemplar 2MASS J15150083+4847416    
+   (W1-W3)(L6V) =   1.193 +-0.049 ; exemplar 2MASS J15150083+4847416    
+     (u-g)(L6V) =   1.894 +-0.543 ; exemplar 2MASS J15150083+4847416 (SDSSDR16)
+     (g-r)(L6V) =   1.914 +-0.222 ; exemplar 2MASS J15150083+4847416 (SDSSDR16)
+     (r-i)(L6V) =   2.364 +-0.076 ; exemplar 2MASS J15150083+4847416 (SDSSDR16)
+     (i-z)(L6V) =   2.645 +-0.026 ; exemplar 2MASS J15150083+4847416 (SDSSDR16)
+     (z-J)(L6V) =   2.617 +-0.033 ; exemplar 2MASS J15150083+4847416 (SDSSDR16,2MASS) 
+     (g-G)(L6V) =   4.409 +-0.210 ; exemplar 2MASS J15150083+4847416 (SDSSDR16,GaiaDR3)  
+     (i-J)(L6V) =   5.262 +-0.036 ; exemplar 2MASS J15150083+4847416 (SDSSDR16,2MASS)
+
+# Other Objects
+
+
+
+# Other Objects
 
 2MASS J02572581−3105523
  *L6: Kirkpatrick20(near-IR)
@@ -278,3 +454,4 @@ Rad(L6V) = 0.1118  Rsun ; Sanghi23 calibration (M6V-T9V)
 
   Teffs: 1311+-88K(Kirkpatrick20), plx=102.3651+-0.6073mas. 
   
+

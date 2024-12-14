@@ -5,10 +5,11 @@ L8; there are no bjects yet identified with optical types of L8.5, L9,
 L9.5. Just beyond L8 there is an abrupt change in spectral morphology
 in the optical leading to the cooler dwarfs of type T."
 
-Teff(L8.5V) = 1244 K ; Sanghi23 M6V-T9V field dwarf polynomial 
-Teff(L8.5V) = 1297 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(L8.5V) = 1310 K ; Filippazzo15 calibration (M6V-T9V)
-=> adopt Teff(L8.5V) = 1300 K [updated 10/4/2024]
+Teff(L8.5V) =  1244 K ; Sanghi23 M6V-T9V field dwarf polynomial 
+Teff(L8.5V) =  1297 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L8.5V) =  1310 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L8.5V) =  1318 K ; Stephens09 (optical L types/NIR T types polynomial)
+=> adopt Teff(L8.5V) = 1310 K (logT = 3.1173) [updated 12/1/2024]
 
 (J-H)(L8.5V) =   0.891 ; GJ_337_D_ L8.5+L7.5 plx=48.83mas
 (J-H)(L8.5V) =   0.994 ; CFBDS_J213926+022023_ L8.5+T3.5 plx=101.5mas
@@ -19,6 +20,7 @@ Teff(L8.5V) = 1310 K ; Filippazzo15 calibration (M6V-T9V)
 (J-H)(L8.5V) =   1.240 ; 2MASSI_J1043075+222523_ L8.5 plx=52.4mas
 => adopt (J-H)(L8.5V) = 1.13 [updated 11/1/2024] (J-Ks=1.77, H-Ks=0.64)
 
+(H-Ks)(L8.5V) =   0.57 ; Zhang09 (no rms given, presumably N=1) 
 (H-Ks)(L8.5V) =   0.578 ; GJ_337_D_ L8.5+L7.5 plx=48.83mas
 (H-Ks)(L8.5V) =  0.609 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
 (H-Ks)(L8.5V) =   0.640 ; 2MASS_J02572581-3105523_ L8.5 plx=102.6993mas
@@ -37,6 +39,20 @@ Teff(L8.5V) = 1310 K ; Filippazzo15 calibration (M6V-T9V)
 (J-Ks)(L8.5V) =   1.974 ; 2MASSI_J1043075+222523_ L8.5 plx=52.4mas
 (J-Ks)(L8.5V) =   1.982 ; 2MASS_J16303054+4344032_ L8.5 plx=44.7mas
 => adopt (J-Ks)(L8.5V) = 1.77 [updated 11/1/2024] (J-H=1.13, H-Ks=0.64)
+
+(r-i)(L8.5V) = 1.91 ; Zhang09 (no rms given, presumably N=1) 
+
+(i-z)(L8.5V) = 3.04 ; Zhang09 (no rms given, presumably N=1) 
+
+(i-J)(L8.5V) = 5.84 ; Zhang09 (no rms given, presumably N=1) 
+
+(i-H)(L8.5V) = 6.89 ; Zhang09 (no rms given, presumably N=1) 
+
+(i-Ks)(L8.5V) = 7.48 ; Zhang09 (no rms given, presumably N=1) 
+
+(z-H)(L8.5V) = 3.87 ; Zhang09 (no rms given, presumably N=1) 
+
+(z-Ks)(L8.5V) = 4.55 ; Zhang09 (no rms given, presumably N=1) 
 
 M_J(L8.5V) =   13.96 ; GJ_337_D_ L8.5+L7.5 plx=48.83mas
 M_J(L8.5V) =   14.56 ; 2MASSI_J1043075+222523_ L8.5 plx=52.4mas
@@ -61,8 +77,17 @@ BC_J(L8.5V) = 1.663 ; Sanghi23 M6V-T9V trend
 
 BC_Ks(L8.5V) = 3.369 mag ; Sanghi23 calibration (M6V-T9V) 
 
+logL(L8.5V) = -4.50  ; 2MASS J2132+1341B (Dupuy17) 
 logL(L8.5V) = -4.560 ; Sanghi23 M6V-T9V field dwarf polynomial
 => adopt logL(L8.5V) = -4.56 [updated 10/4/2024]
 
 Rad(L8.5V) = 0.1131 Rsun ; Sanghi23 calibration (M6V-T9V)
 
+Mass(L8.5V) = 0.0573+-0.0038 Msun ; 2MASS J2132+1341B (Dupuy17; 60+-4Mjup; L8.5+-1.5) 
+
+# Objects
+
+2MASS J2132+1341B
+  L8.5+-1.5: Dupuy17
+
+  Dupuy17 lists dynamical mass estimate 60+-4Mjup and logL=-4.50+0.05-0.04. 

@@ -1,6 +1,14 @@
 L4.5V
 
-Kirkpatrick09(GrayCorbally): 2MASS J22244381-0158521 - L4.5 (primary optical standard)
+Kirkpatrick09(GrayCorbally): 2MASS J22244381-0158521 - L4.5 (primary optical standard) 
+
+Teff(L4.5V) =  1580 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(L4.5V) =  1636 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(L4.5V) =  1650 K ; Cifuentes20 <Teff> for CARMENES L4.5V(N=1)
+Teff(L4.5V) =  1660 K ; Stephens09 (optical L types)
+Teff(L4.5V) =  1667 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(L4.5V) =  1811 (+-153 rms) K ; median N=5 L4.5s d<25pc in Sebastian21/SPECULOOS 
+=> adopt Teff(L4.5V) = 1650 K (logT = 3.2175) [updated 12/1/2024]
 
 (V-Rc)(L4.5V) = 3.53 ; GJ1001BC (see below)
 (V-Rc)(L4.5V) = 3.56 ; 2MASS J1224 (see below)
@@ -18,6 +26,13 @@ Kirkpatrick09(GrayCorbally): 2MASS J22244381-0158521 - L4.5 (primary optical sta
 (V-Ic)(L4.5V) = 6.24  ; 2MASS J1126 (see below)
 => adopt (V-Ic)(L4.5V) = 6.06 [updated 9/15/2023]
 
+(V-Ks)(L4.5V) = 11.80 ; 2M2224 (see below)
+(V-Ks)(L4.5V) = 11.37 ; GJ1001BC (see below)
+(V-Ks)(L4.5V) = 10.92 ; 2M1126 (see below)
+(V-Ks)(L4.5V) = 10.75 ; smoothed trend to V-Ks vs. SpT Dieterich14 data
+(V-Ks)(L4.5V) =  9.73 ; 2MASS_J17502484-0016151 L4.5
+=> adopt (V-Ks)(L4.5V) = 10.9 [updated 8/17/2020]
+
 (J-H)(L4.5V) =   0.910 ; 2MASS_J18000116-1559235_ L4.5 plx=81.1462mas
 (J-H)(L4.5V) =   0.953 ; 2MASS_J22521073-1730134_ L4.5+T3.5 plx=60.5786mas
 (J-H)(L4.5V) =   0.999 ; 2MASS_J04390101-2353083_ L4.5 plx=80.7266mas
@@ -31,7 +46,8 @@ Kirkpatrick09(GrayCorbally): 2MASS J22244381-0158521 - L4.5 (primary optical sta
 (H-Ks)(L4.5V) =   0.540 ; 2MASS_J18000116-1559235_ L4.5 plx=81.1462mas
 (H-Ks)(L4.5V) =   0.593 ; 2MASS_J04390101-2353083_ L4.5 plx=80.7266mas
 (H-Ks)(L4.5V) =  0.641 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
-(H-Ks)(L4.5V) = 0.68 ; J-Ks=1.71, J-H=1.03 (11/1/2024) 
+(H-Ks)(L4.5V) = 0.68 ; J-Ks=1.71, J-H=1.03 (11/1/2024)
+(H-Ks)(L4.5V) =  0.68 (+-0.21 rms) ; Zhang09 
 (H-Ks)(L4.5V) =   0.778 ; GJ_417_C_ L4.5+L6 plx=42.2447mas
 (H-Ks)(L4.5V) =   0.796 ; 2MASSW_J2224438-015852_ L4.5V plx=86.1514mas
 => adopt (H-Ks)(L4.5V) = 0.68 [updated 11/1/2024] (J-Ks=1.71, J-H=1.03)
@@ -42,24 +58,45 @@ Kirkpatrick09(GrayCorbally): 2MASS J22244381-0158521 - L4.5 (primary optical sta
 (J-Ks)(L4.5V) =  1.65  ; J-H=1.01, H-Ks=0.64
 (J-Ks)(L4.5V) =  1.690 ; Sanghi24 M6V-T9V trend
 (J-Ks)(L4.5V) = 1.713 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
+(J-Ks)(L4.5V) =  1.800 (+-0.132 sem,+-0.305 stdev) ; BardalezGagliuffi19 median d<25pc L4.5 (N=8)
 (J-Ks)(L4.5V) =   1.863 ; GJ_417_C_ L4.5+L6 plx=42.2447mas
 (J-Ks)(L4.5V) =   2.051 ; 2MASSW_J2224438-015852_ L4.5V plx=86.1514mas
-=> adopt (J-Ks)(L4.5V) = 1.71 [updated 11/1/2024] (J-H=1.03, H-Ks=0.68) 
+=> adopt (J-Ks)(L4.5V) = 1.71 [updated 11/1/2024] (J-H=1.03, H-Ks=0.68)
 
-(g-r)(L4.5V) = 1.432 ; 2MASS_J14165987+5006258_ plx=22.15mas L4.5
+(u-g)(L4.5V) =   -0.083 ; SDSS_J141659.78+500626.4 L4.5 plx=22.15mas
+(u-g)(L4.5V) =    0.109 ; SDSS_J111225.55+354812.1 L4.5+L6 plx=42.2447mas
 
-(r-i)(L4.5V) = 1.574 ; 2MASS_J14165987+5006258_ plx=22.15mas L4.5
-(r-i)(L4.5V) = 2.06 (N=1) ; Cifuentes20
+(g-r)(L4.5V) =    1.432 ; SDSS_J141659.78+500626.4 L4.5 plx=22.15mas
+(g-r)(L4.5V) =    3.163 ; SDSS_J111225.55+354812.1 L4.5+L6 plx=42.2447mas
+
+(g-G)(L4.5V) =   4.995 ; SDSS_J111225.55+354812.1 L4.5+L6 plx=42.2447mas
+
+(r-i)(L4.5V) =   1.574 ; SDSS_J141659.78+500626.4 L4.5 plx=22.15mas
+(r-i)(L4.5V) =  2.06 (N=1) ; Cifuentes20
+(r-i)(L4.5V) =  2.31 (+-0.55 rms) ; Zhang09 
+(r-i)(L4.5V) =   2.502 ; SDSS_J111225.55+354812.1 L4.5+L6 plx=42.2447mas
 => adopt (r-i)(L4.5V) = 2.06 [updated 9/15/2023]
 
-(i-z)(L4.5V) = 2.229 ; 2MASS_J14165987+5006258_ plx=22.15mas L4.5
+(i-z)(L4.5V) =   2.049 ; SDSS_J111225.55+354812.1 L4.5+L6 plx=42.2447mas
+(i-z)(L4.5V) =   2.229 ; SDSS_J141659.78+500626.4 L4.5 plx=22.15mas
+(i-z)(L4.5V) =   2.24 (+-0.35 rms) ; Zhang09 
 
-(V-Ks)(L4.5V) = 11.80 ; 2M2224 (see below)
-(V-Ks)(L4.5V) = 11.37 ; GJ1001BC (see below)
-(V-Ks)(L4.5V) = 10.92 ; 2M1126 (see below)
-(V-Ks)(L4.5V) = 10.75 ; smoothed trend to V-Ks vs. SpT Dieterich14 data
-(V-Ks)(L4.5V) =  9.73 ; 2MASS_J17502484-0016151 L4.5
-=> adopt (V-Ks)(L4.5V) = 10.9 [updated 8/17/2020]
+(i-J)(L4.5V) =   4.728 ; SDSS_J111225.55+354812.1 L4.5+L6 plx=42.2447mas
+(i-J)(L4.5V) =   4.91 (+-0.37 rms) ; Zhang09 
+(i-J)(L4.5V) =   5.052 ; SDSS_J141659.78+500626.4 L4.5 plx=22.15mas
+
+(i-H)(L4.5V) =   5.98 (+-0.21 rms) ; Zhang09
+
+(i-Ks)(L4.5V) =  6.64 (+-0.30 rms) ; Zhang09 
+
+(z-J)(L4.5V) =   2.679 ; SDSS_J111225.55+354812.1 L4.5+L6 plx=42.2447mas
+(z-J)(L4.5V) =   2.823 ; SDSS_J141659.78+500626.4 L4.5 plx=22.15mas
+
+Mv(L4.5V) =  22.17 ; GJ1001BC (Dieterich14)
+Mv(L4.5V) = 22.62 ; 2MA1126-5003 (Dieterich14)
+Mv(L4.5V) = 22.90 ; V-Ks=11.2, M_Ks=11.7
+Mv(L4.5V) = 23.51 ; 2MA2224-0158 (Dieterich14)
+=> adopt Mv(L4.5V) = 22.9 [updated 10/4/2024] 
 
 M_J(L4.5V) =    12.71 ; GJ_417_C_ L4.5+L6 plx=42.2447mas
 M_J(L4.5V) =   12.98 ; 2MASS_J18000116-1559235_ L4.5 plx=81.1462mas
@@ -79,24 +116,19 @@ M_Ks(L4.5V) =   11.81 ; 2MASS_J22521073-1730134_ L4.5+T3.5 plx=60.5786mas
 M_Ks(L4.5V) =   12.35 ; 2MASS_J04390101-2353083_ L4.5 plx=80.7266mas
 => adopt M_Ks(L4.5V) = 11.70 [updated 12/30/2020]
 
-Mv(L4.5V) =  22.17 ; GJ1001BC (Dieterich14)
-Mv(L4.5V) = 22.62 ; 2MA1126-5003 (Dieterich14)
-Mv(L4.5V) = 22.90 ; V-Ks=11.2, M_Ks=11.7
-Mv(L4.5V) = 23.51 ; 2MA2224-0158 (Dieterich14)
-=> adopt Mv(L4.5V) = 22.9 [updated 10/4/2024] 
-
-Teff(L4.5V) = 1580 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(L4.5V) = 1636 K ; Filippazzo15 calibration (M6V-T9V)
-Teff(L4.5V) = 1650 K ; Cifuentes20 <Teff> for CARMENES L4.5V(N=1)
-Teff(L4.5V) = 1667 K ; Kirkpatrick20 (Table 13 polynomial)
-=> adopt Teff(L4.5V) = 1650 K (logT = 3.217) [updated 12/26/2020]
-
 BC_J(L4.5V) = 1.682 ; Sanghi24 M6V-T9V trend
 
 BC_Ks(L4.5V) = 3.371 mag ; Sanghi23
 
-logL(L4.5V) = -4.049+-0.048 ; GJ1001BC (Dieterich14)
+logL(L4.5V) = -4.049 +-0.048 ; GJ1001BC (Dieterich14)
+logL(L4.5V) =  -4.086 (+-0.144 stdev) ; median N=5 L4.5s d<25pc in Sebastian21/SPECULOOS
+logL(L4.5V) =  -4.22 +-0.05 ; 2MASS J2132+1341A (Dupuy17) 
 
+Mass(L4.5V) = 0.0649 +-0.0038 Msun ; 2MASS J2132+1341A (Dupuy17; L4.5+-1.5; 68+-4Mjup)
+Mass(L4.5V) = 0.0660 (+-0.0055 stdev) Msun ; mean N=5 L4.5s d<25pc in Sebastian21/SPECULOOS
+=> adopt Mass(L4.5V) ~ 0.065 Msun [updated 11/25/2024]
+
+Rad(L4.5V) = 0.0940 (+-0.0055 rms) Rsun ; mean N=5 L4.5s d<25pc in Sebastian21/SPECULOOS
 
 # Examples
 
@@ -135,3 +167,9 @@ GJ 1001 BC = 2MASS J00043484-4044058
   17.51+-0.005(Dieterich14), J=13.997+-0.032, H=13.284+-0.036, Ks =
   12.829+-0.029(2MASS). V-R = 3.64+-0.02, V-I = 6.24+-0.01, V-Ks =
   10.92+-0.03.
+
+2MASS J2132+1341A
+  L4.5+-1.5: Dupuy17
+
+  Dynamical mass estimate from Dupuy17 of 68+-4Mjup => 0.0649+-0.0038
+  Msun and logL=-4.22+-0.05dex.
