@@ -1,9 +1,10 @@
 Y0V
 
 Standards:
-Cushing11:           WISEP J173835.52+273258.9 - Y0 NIR standard
-Kirkpatrick11:       WISEP J173835.52+273258.9 - Y0 standard
-Theissen22 standard: WISE J2056+1459           - Y0 (pri. stan. (0.9-2.45um/NIRES))
+Cushing11 standard:   WISEP J173835.52+273258.9 - Y0 NIR standard
+Kirkpatrick11 stan.:  WISEP J173835.52+273258.9 - Y0 standard
+Schneider15 standard: WISE J173835.53+273259.0  - Y0 standard (from Cushing11)   
+Theissen22 standard:  WISE J2056+1459           - Y0 (pri. stan. (0.9-2.45um/NIRES))
 
 Cushing11 first classified 5 objects as Y0 (WISEP J0410+1502, WISEPC
 J1405+5534 [Y0(pec?)], WISEP J1541-2250, WISE J1738+2732, WISEPC
@@ -33,6 +34,7 @@ Teff(Y0V) =   425 K [400-450K] ; Schneider15/WISE2056+1459
 Teff(Y0V) =   425 K [400-450K] ; Schneider15/WISE2220-3628
 Teff(Y0V) =   425 K [410-440K] ; Dupuy13 (1-5Gyr)
 Teff(Y0V) = 425 +-25 K ; pri. stan.  WISE J1738+2732 (Leggett16)
+Teff(Y0V) = 425 K ; Kirkpatrick21 median (N=14)
 Teff(Y0V) = 435 K ; pri. stan. WISE J1738+2732 (Kirkpatrick19; plx=131.0+-2.4mas)
 Teff(Y0V) = 438 K ; pri. stan. WISE J173835.53+273259.0 
 Teff(Y0V) =  443 K ; WISE_J0359−54 (Beiler24; JWST) 
@@ -63,7 +65,7 @@ Teff(Y0V) = 481 K ; sec. stan. WISE J205628.91+145953.2 (Beiler24; JWST)
 Teff(Y0V) = 485 K ; sec. stan. WISE J205628.91+145953.2 = GJ 13033 (literature median)
 Teff(Y0V) = 500 K ; sec stan. WISE J205628.91+145953.2 (Miles20) 
 Teff(Y0V) =   525 K [500-550K] ; Schneider15/WISE2209+2711
-=> adopt Teff(Y0V) = 450 K (logT = 2.6532) [updated 10/4/2024]
+=> adopt Teff(Y0V) = 450 K (logT = 2.6532) [updated 12/1/2024]
 
 M_J(Y0V) >  19.00 ; WISE_0336-0143 20.0 calc using Kirkpatrick20 (plx=99.8mas)
 M_J(Y0V) >  19.25 ; WISE_2056+1459 20.0 calc using Kirkpatrick20 (plx=140.8mas)
@@ -85,7 +87,7 @@ M_J(MKO)(Y0V) = 20.13  ; pri. stan. WISE J173835.53+273259.0 calc using Kirkpatr
 M_J(MKO)(Y0V) = 20.17  ; WISE_0713-2917 20.0 calc using Kirkpatrick20 (plx=109.3mas)
 M_J(MKO)(Y0V) =  20.19  ; CWISE_0938+0634 20.0 calc using Kirkpatrick20 (plx=67.9mas)
 M_J(MKO)(Y0V) = 20.23  ; WISE_0410+1502 20.0 calc using Kirkpatrick20 (plx=151.3mas)
-M_J(MKO)(Y0V) = 20.32  ; Tinney14 (N=11) 
+M_J(MKO)(Y0V) = 20.32 (+-1.25 rms) ; Tinney14 (N=11) 
 M_J(MKO)(Y0V) =  20.35  ; WISE_2220-3628 20.0 calc using Kirkpatrick20 (plx=95.5mas)
 M_J(MKO)(Y0V) =  20.90  ; WISE_0359-5401 20.0 calc using Kirkpatrick20 (plx=73.6mas)
 M_J(MKO)(Y0V) = 22.34  ; WISE_1639-6847 20.0 calc using Kirkpatrick20 (plx=219.6mas)
@@ -93,6 +95,17 @@ M_J(MKO)(Y0V) = 23.90  ; WISE_2209+2711 20.0 calc using Kirkpatrick20 (plx=161.7
 => adopt M_J(MKO)(Y0V) = 20.2 [updated 2/2/2021]
 
 (J(MKO)-J)(Y0V) = -0.07 +- 0.23 ; WISE__0713-2917
+
+(J-H)_MKO(Y0V) =   +0.470 +-0.210 ; WISEA J220905.75+271143.6 (Schneider15/synthetic) Y0: 
+(J-H)_MKO(Y0V) =   -0.120 +-0.037 ; WISEA J163940.84–684739.4 (Schneider15/synthetic) Y0pec
+(J-H)_MKO(Y0V) =  -0.411 +-0.043 ; WISEA J222055.34–362817.5 (Schneider15/synthetic) 
+(J-H)_MKO(Y0V) =  -0.462 +-0.122 ; WISEA J035934.07–540154.8 (Schneider15/synthetic)
+(J-H)_MKO(Y0V) = -0.514 +-0.034 ; sec. stan. WISEA J205628.88+145953.6 (Schneider15/synthetic) 
+(J-H)_MKO(Y0V) =  -0.572 +-0.045 ; WISEA J041022.75+150247.9 (Schneider15/synthetic)
+(J-H)_MKO(Y0V) =  -0.589 +-0.069 ; WISEA J120604.25+840110.5 (Schneider15/synthetic)
+(J-H)_MKO(Y0V) = -0.700 +-0.039 ; pri. stan. WISEA J173835.52+273258.8 (Schneider15/synthetic)
+(J-H)_MKO(Y0V) =  -0.715 +-0.077 ; WISEA J073444.03–715743.8 (Schneider15/synthetic)
+=> adopt (J-H)_MKO(Y0V) = -0.55 [updated 12/1/2024] 
 
 M_K(MKO)(Y0V)   <  17.95 ; CWISE_0938+0634 calc using Kirkpatrick20 (upper limit)
 M_K(MKO)(Y0V)   =  20.32 ; WISE_0734-7157 calc using Kirkpatrick20
@@ -145,8 +158,7 @@ WISE J173835.53+273259.0 = GJ 12541 = CNS5 4359 = WISEP J1738+2732 = WISEA J1738
   J=19.48+-0.04(Martin24), J=19.58+-0.04(Leggett21),
   H=20.24+-0.08(Leggett17,Leggett21),
   K=20.58+-0.10(Leggett17,Leggett21), Y=19.74+-0.08(Leggett21),
-  W1-W2=3.620+-0.366(Cushing11).  Teffs:
-  350(350-400)K(Cushing11),
+  W1-W2=3.620+-0.366(Cushing11).  Teffs: 350(350-400)K(Cushing11),
   425+-25K(Leggett16), 450K(Leggett21), 450+-88K(Kirkpatrick21) =>
   adopt Teff=438K. J1738's Teff is near the middle of the distribution
   for the N=30 Teff estimates for Y0 objects in
@@ -174,7 +186,7 @@ WISE J205628.91+145953.2 = GJ 13033 = CNS5 5175 = WISEPC J2056+1459 =
  K=20.01+-0.06(Leggett17), z=23.09+-0.08(Lodieu13).
  logg=4.4-5.0(Miles20). plx=140.8+-2.0mas(Kirkpatrick21).
 
-# Examples
+# Other Objects
 
 WISEPA J041022.71+150248.5
   Y0: Cushing11,Kirkpatrick20
@@ -214,20 +226,20 @@ WISE J2209+27
   371+9-13K(Beiler24/uni) => adopt Teff=367K.
   fbol=(1.449+-0.025)e-16W/m2(Beiler24) => mbol=20.5998+-0.0187mag.
 
-
-
 # Other Y0 Objects
 
-Y0V objects:
+Y0 objects:
 WISE J014656.66+423410.0 B Y0  ; Cushing11(AB),Kirkpatrick12(AB),Dupuy15(B)
-WISE J035934.06−540154.6   Y0  ; Cushing11,Kirkpatrick12
-WISE J041022.71+150248.4   Y0  ; Cushing11,Kirkpatrick12,Kirkpatrick20
+WISE J035934.06−540154.6   Y0  ; Cushing11,Kirkpatrick12,Schneider15
+WISE J041022.71+150248.4   Y0  ; Cushing11,Kirkpatrick12,Schneider15,Kirkpatrick20
 WISE J071322.55-291751.9   Y0  ; Cushing11,Kirkpatrick12
-WISE J073444.02-715744.0   Y0  ; Cushing11,Kirkpatrick12
+WISE J073444.02-715744.0   Y0  ; Cushing11,Kirkpatrick12,Schneider15
 WISE J154151.65−225024.9   Y0  ; Kirkpatrick12(Y0,Cushing11)
 WISE J120604.38+840110.6   Y0  ; Schneider15
 WISEPC J140518.40+553421.5 Y0(pec?) ; Cushing11,Kirkpatrick12
 WISE J1541-2250            Y0  ; Cushing11
-WISEPA J173835.53+273258.9 Y0  ; Cushing11,Kirkpatrick12
-WISE J205628.91+145953.2   Y0  ; Cushing11,Kirkpatrick12
-WISE J222055.31-362817.4   Y0  ; Kirkpatrick12
+WISEPA J173835.53+273258.9 Y0  ; Cushing11,Kirkpatrick12,Schneider15
+WISE J205628.91+145953.2   Y0  ; Cushing11,Kirkpatrick12,Schneider15
+WISE J222055.31-362817.4   Y0  ; Kirkpatrick12,Schneider15
+WISEA J163940.84–684739.4  Y0pec ; Schneider15 
+WISEA J220905.75+271143.6  Y0: ; Schneider15

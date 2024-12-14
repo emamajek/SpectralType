@@ -1,6 +1,7 @@
 T3V
 
 Standards:
+Burgasser02 standard:  SDSS J102109.69-030420.1   - T3V (primary NIR standard) 
 Burgasser06 standards: 2MASS J12095613-1004008    - T3 (primary standard)
 	    	       SDSS J102109.69-030420.1AB - T3 (alternative standard)
 Kirkpatrick10 stan:    2MASS J12095613-1004008    - T3 (pri. stan. (0.7-2.5um/SpeX))
@@ -11,24 +12,48 @@ Burgasser24 standards: 2MASS J12095613-1004008    - dT3 (pri. dwarf near-IR stan
 	    	       J0623+0715 - sdT3 (pri. subdwarf near-IR standard)
 		       J1810-1010 - esdT3 (pri. extreme subdwarf near-IR standard)
 
-Teff(T3V) = 1128 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(T3V) = 1148 K ; Filipazzo15 M6V-T9V field calibration 
-Teff(T3V) = 1175 K ; Dupuy17(SaumonMarley08 model scale)
-Teff(T3V) = 1200 K ; Dupuy17(Lyon model scale)
-Teff(T3V) = 1200 K ; Kirkpatrick20 (Table 13 polynomial)
-=> adopt Teff(T3V) = 1200 K (logT = 3.079) [updated 12/26/2020]
+Teff(T3V) =  1043 +-23 K ; GJ 836.7B (Kirkpatrick21) 
+Teff(T3V) =  1128 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(T3V) =  1148 K ; Filipazzo15 M6V-T9V field calibration 
+Teff(T3V) =  1175 K ; Dupuy17(SaumonMarley08 model scale)
+Teff(T3V) =  1187 K ; Stephens09 (NIR T subtype polynomial)
+Teff(T3V) =  1200 K ; Dupuy17(Lyon model scale)
+Teff(T3V) =  1200 K ; Kirkpatrick20 (Table 13 polynomial)
+=> adopt Teff(T3V) = 1180 K (logT = 3.0719) [updated 12/1/2024]
 
-(r-i)(T3V) = 1.16 (+-0.33; rms) ; Hawley02 ("r*-i*")
+(J-H)(T3V) = 0.59 (+-0.25 rms) ; Zhang09
 
-(i-z)(T3V) = 3.48 (+-0.56; rms) ; Hawley02 ("i*-z*"))
+(H-Ks)(T3V) = 0.17 (+-0.16 rms) ; Zhang09
 
-(i-J)(T3V) = 6.75 (+-0.87; rms) ; Hawley02 ("i*-J")
-
-(z-J)(T3V) = 3.27 (+-0.31; rms) ; Hawley02 ("z*-J")
-
+(J-Ks)(T3V) = 0.76  ; Zhang09 (J-H=0.59, H-Ks=0.17) 
 (J-Ks)(T3V) = 0.848 ; Sanghi24 M6V-T9V trend
 
-I focus on WISE_0656+4205, which seems to have near-median colors
+(r-i)(T3V) = 1.16 (+-0.33 rms) ; Hawley02 ("r*-i*")
+(r-i)(T3V) = 1.34 (+-2.19 rms!) ; Zhang09
+
+(i-z)(T3V) =  3.48 (+-0.56 rms) ; Hawley02 ("i*-z*"))
+(i-z)(T3V) = 3.645 ; Skrzypek15 (i-z_Vega=3.82;i_AB-i_Vega=0.366,z_AB-z_Vega=0.533(Hewett06))
+(i-z)(T3V) =  4.16 (+-1.58 rms!) ; Zhang09
+=> adopt (i-z)(T3V) = 3.65 [updated 12/1/2024]
+
+(i-J)(T3V) = 6.75 (+-0.87 rms) ; Hawley02 ("i*-J")
+(i-J)(T3V) = 7.31 (+-1.51 rms) ; Zhang09
+
+(i-H)(T3V) = 7.91 (+-1.25 rms) ; Zhang09
+
+(i-Ks)(T3V) = 8.22 (+-1.19 rms) ; Zhang09
+
+(z-J)(T3V) = 3.11 (+-0.22 rms) ; Zhang09
+(z-J)(T3V) = 3.27 (+-0.31 rms) ; Hawley02 ("z*-J")
+=> adopt (z-J)(T3V) = 3.1 [updated 11/20/2024] 
+
+(z-H)(T3V) = 3.69 (+-0.36 rms) ; Zhang09
+
+(z-Ks)(T3V) = 3.96 (+-0.50 rms) ; Zhang09
+
+(W1-W2)(T3V) = 1.19 ; Skrzypek16
+=> adopt (W1-W2)(T3V) = 1.19 [updated 12/1/2024] 
+
 
 M_J(T3V) =  14.32 ; WISE_0333-5856 calc using Kirkpatrick20 (plx=46.2mas)
 M_J(T3V) =  14.34 ; WISE_2239+1617 calc using Kirkpatrick20 (plx=42.9mas)
@@ -106,4 +131,14 @@ J0623+0715
 J18710-1010
   esdT3: Burgasser24(nearIR)
 
+CWISE J041259.89+085049.6
+  T3pec(red): Schnedier24
+
+  New substellar Hyades member (~0.7Gyr; [Fe/H]=+0.16).
+  Teff=1202+-81K(Schneider24) and Mass=35+-3Mjup & 31+9-4Mjup(Schneider24).
+  
+GJ 836.7B
+  T3.0: Kirkpatrick21
+
+  Teff=1043+23K(Kirkpatrick21)
 

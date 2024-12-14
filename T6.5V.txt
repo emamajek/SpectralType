@@ -1,25 +1,20 @@
 T6.5V
 
-Teff(T6.5V) =  735 K ; WISE_1523+3125 (Kirkpatrick19; plx=61.4+-3.8mas)
-Teff(T6.5V) =  770 K ; WISE_1612-3420 (Kirkpatrick19; plx=78.3+-3.5mas)
-Teff(T6.5V) =  878 K ; 2MASS_1237+6526 (Kirkpatrick19; plx=96.1+-4.8mas)
-Teff(T6.5V) =  879 K ; WISE_1320+6034 (Kirkpatrick19; plx=60.6+-2.5mas)
 Teff(T6.5V) = 885 K ; Sanghi23 M6V-T9V field dwarf polynomial 
 Teff(T6.5V) = 887 K ; Filipazzo15 M6V-T9V field calibration 
-Teff(T6.5V) =  890 K ; 2MASS_1047+2124 (Kirkpatrick19; plx=94.7+-3.8mas)
 Teff(T6.5V) = 891 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(T6.5V) =  892 K ; 2MASS_1553+1532A (Kirkpatrick19; plx=75.1+-0.9mas)
-Teff(T6.5V) =  895 K ; WISE_0542-1628 (Kirkpatrick19; plx=61.5+-2.7mas)
 Teff(T6.5V) = 899 K ; exemplar 2MASS J00345157+0523050 (Kirkpatrick20)
-Teff(T6.5V) =  902 K ; WISE_2301+0216 (Kirkpatrick19; plx=53.0+-2.8mas)
-Teff(T6.5V) =  909 K ; SDSS_1758+4633 (Kirkpatrick19; plx=71.4+-0.3mas)
-Teff(T6.5V) =  910 K ; WISE_1221-3136 (Kirkpatrick19; plx=73.8+-3.3mas)
-Teff(T6.5V) =  917 K ; WISE_0513+0608 (Kirkpatrick19; plx=70.8+-1.5mas)
-Teff(T6.5V) =  961 K ; SDSS_1346-0031 (Kirkpatrick19; plx=69.2+-2.3mas)
+Teff(T6.5V) = 899 K ; Kirkpatrick21 median (N=5)
 Teff(T6.5V) = 976 K ; SDSSp J1346-00 (Beiler24; JWST) 
-=> adopt Teff(T6.5V) = 890 K (logT = 2.949) [updated 2/2/2021]
+=> adopt Teff(T6.5V) = 890 K (logT = 2.9494) [updated 12/1/2024]
 
 (J-Ks)(T6.5V) = -0.058 ; Sanghi24 M6V-T9V trend
+
+(r-i)(T6.5V) = 0.79 ; Zhang09 (no rms, so apparently for N=1)
+
+(z-H)(T6.5V) = 3.55 (+-0.20 rms) ; Zhang09
+
+(z-Ks)(T6.5V) = 3.50 (+-0.50 rms) ; Zhang09 
 
 M_z(T6.5V)      = 19.30 +-0.06 ; exemplar 2MASS J00345157+0523050 (plx=118.8+-2.7mas) (Leggett17),
 
@@ -54,7 +49,7 @@ M_J(MKO)(T6.5V) =   15.03 ; WISE_2301+0216 calc using Kirkpatrick20 (plx=54.1mas
 M_J(MKO)(T6.5V) =   15.19 ; GJ_4040B   calc using Kirkpatrick20 (plx=71.4754mas)
 M_J(MKO)(T6.5V) =   15.20 ; WISE_1250+2628 calc using Kirkpatrick20 (plx=57.5mas)
 M_J(MKO)(T6.5V) =   15.21 ; WISE_0542-1628 calc using Kirkpatrick20 (plx=61.3mas)
-M_J(MKO)(T6.5V) =   15.22 (+-0.31 rms) ; Tinney14(N=5)
+M_J(MKO)(T6.5V) =  15.22 (+-0.31 rms) ; Tinney14(N=5)
 M_J(MKO)(T6.5V) =   15.24 ; WISE_1221-3136 calc using Kirkpatrick20 (plx=76.8mas)
 M_J(MKO)(T6.5V) =  15.3   ; M_J=15.7, J(MKO)-J=-0.4 
 M_J(MKO)(T6.5V) =   15.34 ; 2MASS_1047+2124 calc using Kirkpatrick20 (plx=94.73mas)
@@ -130,29 +125,19 @@ Rad(T6.5V) = 0.10276 +-0.01028Rsun ; (=1+-0.1Rjup; assumed BD rad for one model 
    T7: Burgasser04,Skrzypek16(T7p,"photo-type")
 
    Teff=899+-82K(Kirkpatrick21). plx=118.8+-2.7mas(Kirkpatrick20).
-   i=24.47+-0.63(Leggett17),
-   z=18.93+-0.04(Leggett17),
-   Y=16.21+-0.02(Leggett21),
-   J_MKO=15.14+-0.02(Leggett21), 
-   J_MKO=15.11+-0.03(Leggett10), 
-   J=15.535+-0.045(2MASS),
-   H_MKO=15.58+-0.02(Leggett21), 
-   H_MKO=15.55+-0.03(Leggett17), 
-   H=15.443+-0.082(2MASS),
-   K_MKO=15.96+-0.03(Leggett10),
-   K_MKO=16.07+-0.03(Leggett21), 
-   Ks>16.243(2MASS,q=U),
+   i=24.47+-0.63(Leggett17), z=18.93+-0.04(Leggett17),
+   Y=16.21+-0.02(Leggett21), J_MKO=15.14+-0.02(Leggett21),
+   J_MKO=15.11+-0.03(Leggett10), J=15.535+-0.045(2MASS),
+   H_MKO=15.58+-0.02(Leggett21), H_MKO=15.55+-0.03(Leggett17),
+   H=15.443+-0.082(2MASS), K_MKO=15.96+-0.03(Leggett10),
+   K_MKO=16.07+-0.03(Leggett21), Ks>16.243(2MASS,q=U),
    L'=13.30+-0.04(Leggett10,Leggett21),
    M'=12.66+-0.10(Leggett10,Leggett21).
-   W1-W2=2.540+-0.05(Kirkpatrick12),
-   H-W2=2.92+-0.09(Kirkpatrick12).
+   W1-W2=2.540+-0.05(Kirkpatrick12), H-W2=2.92+-0.09(Kirkpatrick12).
    Absolute magnitudes (adopting plx=118.8+-2.7mas;Kirkpatrick20) =>
-   M_z=19.30+-0.06(Leggett17),
-   M_Y=16.58+-0.05(Leggett21),
-   M_J(MKO)=15.51+-0.05(Leggett21),
-   M_J=15.91+-0.07(2MASS),
-   M_H(MKO)=15.95+-0.05(Leggett21),
-   M_H=15.82+-0.10(2MASS),
+   M_z=19.30+-0.06(Leggett17), M_Y=16.58+-0.05(Leggett21),
+   M_J(MKO)=15.51+-0.05(Leggett21), M_J=15.91+-0.07(2MASS),
+   M_H(MKO)=15.95+-0.05(Leggett21), M_H=15.82+-0.10(2MASS),
    M_K(MKO)=16.44+-0.06(Leggett21).
 
 # Examples

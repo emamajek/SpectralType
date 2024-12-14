@@ -1,6 +1,7 @@
 T1V
 
 Standards:
+Burgasser02 standard:  SDSS J083717.21-000018.0 - T1V (primary NIR standard) 
 Burgasser06 standard:  SDSS J083717.21-000018.0 - T1 (primary standard)
 	               SDSS J015141.69+124429.6 - T1 (alternative standard)
 Kirkpatrick10 stan.:   SDSS J083717.21-000018.0 - T1 (pri. stan. (0.7-2.5um/SpeX))
@@ -10,22 +11,46 @@ Burgasser24 standards: SDSS J083717.21-000018.0 - dT1 (pri. dwarf near-IR standa
  	    	       J0301-2319 - d/sdT1 (pri. mild subdwarf near-IR standard)
 		       J2112-0529 - sdT1 (pri. subdwarf near-IR standard)
 		       
-Teff(T1V) = 1168 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(T1V) = 1215 K ; Filippazzo15 calibration (M6V-T9V)
-Teff(T1V) = 1216 K ; Dupuy17(SaumonMarley08 model scale)
-Teff(T1V) = 1237 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(T1V) = 1273 K ; Dupuy17(Lyon model scale)
-=> adopt Teff(T1V) = 1240 K (logT = 3.093) [updated 12/30/2020]
+Teff(T1V) =  1168 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(T1V) =  1215 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(T1V) =  1216 K ; Dupuy17(SaumonMarley08 model scale)
+Teff(T1V) =  1224 K ; Stephens09 (NIR T types polynomial) 
+Teff(T1V) =  1237 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(T1V) =  1273 K ; Dupuy17(Lyon model scale)
+=> adopt Teff(T1V) = 1220 K (logT = 3.0864) [updated 12/1/2024]
 
-(r-i)(T1V) = 1.47 (+-0.50; rms) ; Hawley02 ("r*-i*")
+(J-H)(T1V)  = 1.03 (+-0.09 rms) ; Zhang09
 
-(i-z)(T1V) = 3.39 (+-0.50; rms) ; Hawley02 ("i*-z*")
-
-(i-J)(T1V) = 6.59 (+-0.50; rms) ; Hawley02 ("i*-J")
-
-(z-J)(T1V) = 3.20 (+-0.50; rms) ; Hawley02 ("z*-J")
+(H-Ks)(T1V) = 0.35 (+-0.20 rms) ; Zhang09 
 
 (J-Ks)(T1V) = 1.336 ; Sanghi24 M6V-T9V trend
+(J-Ks)(T1V) = 1.38  ; Zhang09 (J-H=1.03, H-Ks=0.35) 
+
+(r-i)(T1V) = 1.47 (+-0.50; rms) ; Hawley02 ("r*-i*")
+(r-i)(T1V) = 1.61 (+-0.65 rms)  ; Zhang09 
+
+(i-z)(T1V) = 3.375 ; Skrzypek15 (i-z_Vega=3.55;i_AB-i_Vega=0.366,z_AB-z_Vega=0.533(Hewett06))
+(i-z)(T1V) =  3.39 (+-0.50; rms) ; Hawley02 ("i*-z*")
+(i-z)(T1V) =  3.63 (+-0.80 rms)  ; Zhang09
+=> adopt (i-z)(T1V) = 3.38 [updated 12/1/2024] 
+
+(i-J)(T1V) = 6.59 (+-0.50; rms) ; Hawley02 ("i*-J")
+(i-J)(T1V) = 6.60 (+-1.09 rms)  ; Zhang09
+=> adopt (i-J)(T1V) = 6.6: [updated 11/20/2024]
+
+(i-H)(T1V) = 7.45 (+-0.84 rms) ; Zhang09
+
+(i-Ks)(T1V) = 7.92 (+-0.71 rms) ; Zhang09 
+
+(z-J)(T1V) = 2.97 ; Zhang09 (i-J=6.60, i-z=3.63) 
+(z-J)(T1V) = 3.20 (+-0.50; rms) ; Hawley02 ("z*-J")
+
+(z-H)(T1V) = 3.77 (+-0.10 rms) ; Zhang09
+=> adopt (z-H)(T1V) = 3.8 [updated 11/20/2024]
+
+(z-Ks)(T1V) = 4.22 (+-0.08 rms) ; Zhang09
+=> adopt (z-Ks)(T1V) = 4.2 [updated 11/20/2024] 
+
 
 M_J(T1V) = 14.634 ; EEM fit to L/T dwarfs d<25pc
 => adopt M_J(T1V) = 14.63 [updated 12/30/2020]
@@ -47,6 +72,9 @@ BC_Ks(T1V) = 3.230 ; Sanghi23 M6V-T9V field dwarf polynomial
 (Ks-W1)(T1V) = 0.58  ; Dupuy12 trend
 (Ks-W1)(T1V) = 0.597 ; Dupuy12#2
 => adopt (Ks-W1)(T1V) = 0.58 [updated 12/28/2019]
+
+(W1-W2)(T1V) = 0.82 ; Skrzypek15
+=> adopt (W1-W2)(T1V) = 0.82 [updated 12/1/2024]
 
 logL(T1V) = -4.672 ; Sanghi23 M6V-T9V field dwarf polynomial
 => adopt logL(T1V) = -4.67 [updated 10/4/2024]

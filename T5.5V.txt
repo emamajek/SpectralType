@@ -6,15 +6,21 @@ Burgasser24 standards: GJ 576B - d/sdT5.5 (mild subdwarf near-IR standard)
 
 Note that Burgasser24 did not list a primary normal T5.5 dwarf standard. 
 
-
-Teff(T5.5V) =  991 K ; Filipazzo15 M6V-T9V field calibration
-Teff(T5.5V) =  997 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(T5.5V) = 1044 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(T5.5V) = 1060 K ; 2MASS_1225-2739A (Kirkpatrick19; plx=76.0+-2.5mas)
+Teff(T5.5V) = 1060 K ; Kirkpatrick21 median T5.5 (N=5) 
 Teff(T5.5V) = 1064 K ; 2MASS_1231+0847 (Kirkpatrick19; plx=75.8+-4.8mas)
-=> adopt Teff(T5.5V) = 1040 K (logT = 3.017) [updated 12/26/2020]
+Teff(T5.5V) = 1086 K ; Stephens09 (NIR T subtype polynomial)
+=> adopt Teff(T5.5V) = 1070 K (logT = 3.017) [updated 12/26/2020]
 
 (J-Ks)(T5.5V) =  0.164 ; Sanghi24 M6V-T9V trend
+
+(r-i)(T5.5V) = 0.96 (+-1.45 rms) ; Zhang09
+
+(z-J)(T5.5V) = 3.38 (+-0.04 rms) ; Zhang09
+=> adopt (z-J)(T5.5V) = 3.38 [updated 11/20/2024]
+
+(z-H)(T5.5V) = 3.59 (+-0.16 rms) ; Zhang09
+
+(z-Ks)(T5.5V) = 3.63 (+-0.73 rms) ; Zhang09
 
 M_J(T5.5V) =   14.20 ; 2MASS_J08304878+0128311_ T5.5 plx=42.7mas
 M_J(T5.5V) =   14.21 ; 2MASS_J03255322+0425406_ T5.5 plx=44.0mas
@@ -154,3 +160,27 @@ GJ 576B
 J1130-1158
    sdT5.5: Burgasser24(subdwarf near-IR standard)
 
+2MASS 1546-3325
+   T5.5: Kirkpatrick21
+
+   Teff=1002+-84K(Kirkpatrick21)
+
+2MASS 1007-4555
+   T5.5: Kirkpatrick21
+
+   Teff=1017+-97(Kirkpatrick21)
+
+2MASS 1828-4849
+   T5.5: Kirkpatrick21
+
+   Teff=1060+-103K(Kirkpatrick21)
+
+2MASS 1231+0847
+   T5.5: Kirkpatrick21
+
+   Teff=1070+-75K(Kirkpatrick21)
+
+2MASS J05160945-0445499
+   T5.5: Kirkpatrick21
+
+   Teff=1211+-137K(Kirkpatrick21)

@@ -9,26 +9,49 @@ Brock21 standard:     2MASSI J2254188+312349  - T4 (Spex standard)
 Theissen22 standard:  2MASS J22541892+3123498 - T4 (pri. stan. (0.9-2.45um/NIRES)
 Burgasser24 stans:    2MASS J22541892+3123498 - dT4 (pri. dwarf near-IR standard)
 	    	      J0021+1552 - d/sdT4 (pri. mild subdwarf near-IR standard)
-		      J1553+6933 - sdT4 (pri. subdwarf near-IR standard) 
+		      J1553+6933 - sdT4 (pri. subdwarf near-IR standard)
 
-Teff(T4V) = 1094 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(T4V) = 1100 K ; Filipazzo15 M6V-T9V field calibration 
-Teff(T4V) = 1172 K ; Dupuy17(SaumonMarley08 model scale)
-Teff(T4V) = 1178 K ; Dupuy17(Lyon model scale)
-Teff(T4V) = 1182 K ; Kirkpatrick20 (Table 13 polynomial)
+The original T dwarf grid from Burgasser02 did not include a T4V standard.
+
+Teff(T4V) =  1094 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(T4V) =  1100 K ; Filipazzo15 M6V-T9V field calibration
+Teff(T4V) =  1163 K ; Stephens09 (NIR T subtype polynomial)
+Teff(T4V) =  1172 K ; Dupuy17(SaumonMarley08 model scale)
+Teff(T4V) =  1178 K ; Dupuy17(Lyon model scale)
+Teff(T4V) =  1182 K ; Kirkpatrick20 (Table 13 polynomial)
 => adopt Teff(T4V) = 1180 K (logT = 3.072) [updated 12/26/2020]
 
-(r-i)(T4V) = 1.04 (+-0.52; rms) ; Hawley02 ("r*-i*")
+(J-H)(T4V) = 0.38 ; Zhang09 (no rms, so apparently N=1)
 
-(i-z)(T4V) = 3.82 (+-2.02!; rms) ; Hawley02 ("*i-z*")
+(H-Ks)(T4V) = 0.08 ; Zhang09 (no rms, so apparently N=1) 
 
-(i-J)(T4V) = 7.35 (+-2.09!; rms); Hawley02 ("*i-J")
-
-(z-J)(T4V) = 3.53 (+-0.06; rms) ; Hawley02 ("z*-J")
-
+(J-Ks)(T4V) = 0.48  ; Zhang09 (J-H=0.38, H-Ks=0.08, but for N=1) 
 (J-Ks)(T4V) = 0.569 ; Sanghi24 M6V-T9V trend
 
-I've focused on 2MASS_2254+3123, which has the median M_J
+(r-i)(T4V) = 1.04 (+-0.52; rms) ; Hawley02 ("r*-i*")
+(r-i)(T4V) = 1.19 ; Zhang09 (no rms, so apparently N=1) 
+
+(i-z)(T4V) = 3.725 ; Skrzypek15 (i-z_Vega=3.90;i_AB-i_Vega=0.366,z_AB-z_Vega=0.533(Hewett06))
+(i-z)(T4V) =  3.82 (+-2.02!; rms) ; Hawley02 ("*i-z*")
+(i-z)(T4V) =  4.44 ; Zhang09 (no rms, so apparently N=1)
+=> adopt (i-z)(T4V) = 3.73 [updated 12/1/2024] 
+
+(i-J)(T4V) = 7.35 (+-2.09!; rms); Hawley02 ("*i-J")
+(i-J)(T4V) = 7.70 ; Zhang09 (no rms, so apparently N=1)
+
+(i-H)(T4V) = 8.13 ; Zhang09 (no rms, so apparently N=1)
+
+(i-Ks)(T4V) = 8.35 ; Zhang09 (no rms, so apparently N=1)
+
+(z-J)(T4V) = 3.21 ; Zhang09 (no rms, so apparently N=1) 
+(z-J)(T4V) = 3.53 (+-0.06; rms) ; Hawley02 ("z*-J")
+
+(z-H)(T4V) = 3.65 ; Zhang09 (no rms, so apparently N=1)
+
+(z-Ks)(T4V) = 3.83 ; Zhang09 (no rms, so apparently N=1) 
+
+(W1-W2)(T4V) = 1.43 ; Skrzypek15
+=> adopt (W1-W2)(T4V) = 1.43 [updated 12/1/2024]
 
 M_J(T4V) =  14.26 ; WISE_0819-0335 calc using Kirkpatrick20 (plx=71.36mas)
 M_J(T4V) =  14.53 ; 2MASS_2151-4853 calc using Kirkpatrick20 (plx=57.46mas)
@@ -77,8 +100,11 @@ Rad(T4.0V) = 0.1048 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial
 
 # Standards
 
-2MASS J22541892+3123498
-  *T4: Burgasser04(pri),Kirkpatrick10(pri.;0.7-2.5um/SpEx),Theissen22(pri.;0.9-2.45um/NIRES),Burgasser24("dT4";pri.dwarf stan.)
+2MASS J22541892+3123498 = CNS5 5648 = 2MASSW J2254188+312349 = WISE J225418.96+312352.2
+  *T4: Burgasser04(pri/Spex/"T4.0"),Kirkpatrick10(pri.;0.7-2.5um/SpEx),Leggett10(T4+-0.5),Kirkpatrick11,Best18(adopted),Theissen22(pri.;0.9-2.45um/NIRES),Burgasser24("dT4";pri.dwarf stan.)
+  T5V: Burgasser02 
+
+  Teffs: 1131+-88K(Kirkpatrick21). plx=72+-3mas(Manjavacas13). 
 
 2MASS J08195820-0335266 = CNS5 2065 = WISEPA J081958.05-033529.0 = WISE J081958.05-033528.5 = TIC 178652411 = WISEP 0819–0335 
   *T4: Kirkpatrick11,Griffith12,Mace13,Pineda16(opt.stan.),Mace14,Best18(opt,near-IR),Best20(opt,near-IR),Kirkpatrick21(opt.near-IR),Hsu21

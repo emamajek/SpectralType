@@ -1,10 +1,41 @@
 T0.5V
 
-Teff(T0.5V) = 1178 K ; Sanghi23 M6V-T9V field dwarf polynomial 
-Teff(T0.5V) = 1231 K ; Filippazzo15 calibration (M6V-T9V)
-Teff(T0.5V) = 1246 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(T0.5V) =  1178 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(T0.5V) =  1188 K ; exemplar Luhman 16B (Biller24/Saumon08 models)
+Teff(T0.5V) =  1219 K ; exemplar Luhman 16B (Biller24/Sonora-Bobcat models)
+Teff(T0.5V) =  1231 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(T0.5V) =  1237 K ; Stephens09 (NIR T types polynomial)
+Teff(T0.5V) =  1246 K ; Kirkpatrick20 (Table 13 polynomial)
+=> adopt Teff(T0.5V) = 1230 K (logT = 3.0899) [updated 12/1/2024] 
+
+(J-H)(T0.5V) = 1.14 (+-0.37 rms) ; Zhang09
+
+(H-Ks)(T0.5V) = 0.39 (+-0.45 rms) ; Zhang09
 
 (J-Ks)(T0.5V) =  1.434 ; Sanghi24 M6V-T9V trend
+(J-Ks)(T0.5V) =  1.53  ; Zhang09 (J-H=1.14, H-Ks=0.39) 
+
+(r-i)(T0.5V) = 1.68 (+-0.65 rms) ; Zhang09
+
+(i-z)(T0.5V) = 3.51 (+-0.39 rms) ; Zhang09
+
+(i-J)(T0.5V) = 6.44 (+-0.57 rms) ; Zhang09
+
+(i-H)(T0.5V) = 7.34 (+-0.44 rms) ; Zhang09
+
+(i-Ks)(T0.5V) = 7.84 (+-0.53 rms) ; Zhang09
+
+(z-J)(T0.5V) = 2.84 (+-0.37 rms) ; Zhang09
+
+(z-H)(T0.5V) = 3.79 (+-0.25 rms) ; Zhang09
+
+(z-Ks)(T0.5V) = 4.28 (+-0.55 rms) ; Zhang09 
+
+(Bp-Rp)(T0.5V) = 6.6014 ; exemplar Luhman 16B (GaiaDR2) 
+
+(Bp-G)(T0.5V) = 4.0930 ; exemplar Luhman 16B (GaiaDR2) 
+
+(G-Rp)(T0.5V) = 2.5084 ; exemplar Luhman 16B (GaiaDR2) 
 
 M_J(T0.5V) = 14.734 ; EEM fit to L/T dwarfs d<25pc
 M_J(T0.5V) =  14.91 ; BRLT_38_ T0.5 plx=46.73mas
@@ -20,19 +51,30 @@ BC_J(T0.5V) = 1.834 ; Sanghi23 M6V-T9V trend
 BC_Ks(T0.5V) = 3.269 mag ; Sanghi23 calibration (M6V-T9V) 
 
 logL(T0.5V) = -4.653 ; Sanghi23 M6V-T9V field dwarf polynomial
+logL(T0.5V) = -4.685 +-0.025 ; exemplar Luhman 16B (Biller24/JWST).
 => adopt logL(T0.5V) = -4.65 [updated 10/4/2024]
 
-Rad(T0.5V) = 0.1131 Rsun ; Sanghi23 calibration (M6V-T9V) 
+Rad(T0.5V) = 0.1017 +-0.0021 Rsun ; exemplar Luhman16B (Biller24/Sonora-Bobcat models)
+Rad(T0.5V) = 0.1079 +-0.0021 Rsun ; exemplar Luhman16B (Biller24/Saumon08 models) 
+Rad(T0.5V) = 0.1131 Rsun ; Sanghi23 calibration (M6V-T9V)
+=> adopt Rad(T0.5V) = 0.11 Rsun [updated 11/20/2024]
 
-# Examples
+logg(T0.5V) = 4.78 +0.05-0.06 ; exemplar Luhman16B (Biller24/Saumon08 models)
+logg(T0.5V) = 4.89 +0.05-0.06 ; exemplar Luhman16B (Biller24/Sonora-Bobcat models)
 
-Luhman 16B = WISE J104915.57−531906.1B
+# Examplars
+
+Luhman 16B = WISE J104915.57−531906.1B = WDS J10493-5319B = Gaia DR2 5353626573562355584
    T0: Lodieu15(T0+-1) 
   *T0.5: Burgasser13(T0.5+-1; Burgasser14,Faherty14 cites as T0.5+-0.5)
 
    T dwarf companion to famous L/T binary at 2pc discovered by
    Luhman13(2013ApJ...767L...1L), and a flux-reversal binary which
-   switches which component is brighter between J and K band.
+   switches which component is brighter between J and K band.  Gagne23
+   finds the Luhman 16 pair to be part of new Oceanus group (0.5 Gyr).
+   The components have well-measured dynamical masses: Masses:
+   M(A)=33.5+-0.3Mjup(Lazorenko18/dynamical) => 0.0320+-0.0003Msun,
+   M(B)=28.6+-0.3Mjup(Lazorenko18/dynamical) => 0.0273+-0.0003Msun.
    Faherty14 estimates B to be only ~30K cooler (1310+-30K for A,
    1280+-75K for B). logL = -4.68+-0.13(Lodieu15).
    J=11.40+-0.05(Burgasser14,2MASS sys.),
@@ -41,3 +83,9 @@ Luhman 16B = WISE J104915.57−531906.1B
    plx=500.51+-0.11mas(Sahlmann15) => M_J=14.897+-0.050.
    M_Ks=13.207+-0.100. Teff(B): 1261+-55K(Kirkpatrick20),
    1280+-75K(Faherty14), 1320+185-135K(Lodieu15) => <Teff> = 1280K.
+   logL=-4.685+-0.025(Biller24/JWST).  Biller24 parameters fitting
+   Saumon08 models to JWST spectra: Mass=26.7+-2.1Mjup,
+   Teff=1188+15-16K, logg=4.78+0.05-0.06, Rad=1.05+-0.02Rjup =>
+   Rad=0.1079+-0.0021Rsun, and Biller24 fitting Sonora-Bobcat models
+   (Marley21): Mass=30.8+-2.7Mjup, Teff=1219+-17K,
+   logg=4.89+0.05-0.06, Rad=0.99+-0.02Rjup => Rad=0.1017+-0.0021Rsun.

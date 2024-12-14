@@ -1,20 +1,26 @@
 Y0.5V
 
-Although there don't seem to be any declared Y0.5V standards,
-WISE 1541-2250 is probably the de facto standard
+Although there don't seem to be any declared Y0.5V standards, WISE
+1541-2250 is probably the de facto standard (Kirkpatrick12; "We
+therefore propose WISE 0350−5658 to be the tentative Y1 spectral
+standard, despite its southerly declination, until other Y1 dwarfs are
+identified. This also means that WISE 1541−2250, which has a slightly
+broader J-band peak, should be re-typed from Y0 to Y0.5."
 
 Teff(Y0.5V) =  350 K ; Dupuy13 (WISEP J1541-2250)
-Teff(Y1V)   =   360 K ; adopted
-Teff(Y0.5V) =  364 K ; WISE_0825+2805 (Kirkpatrick19; plx=155.8+-2.4mas)
-Teff(Y0.5V) =  ~375 K [350-400K] ; Schneider15/WISE1405+5534
-Teff(Y0.5V) =  376 K ; WISE J082507.35+280548.5 (Kirkpatrick20)
-Teff(Y0.5V) =  387 K ; WISE J0825+28 (Beiler24; JWST)
-Teff(Y0.5V) =  392 K ; WISEPC J1406+55 (Beiler24; JWST) 
-Teff(Y0.5V) =  400 K ; Schneider15/WISE0825+2805
-Teff(Y0.5V) =  402 K ; WISE_1405+5534 (Kirkpatrick19; plx=157.9+-3.1mas)
+Teff(Y0.5V) =  363 +-75K ; exemplar WISE J082507.35+280548.5  (Kirkpatrick21)
+Teff(Y0.5V) =  364 K ; exemplar WISE J082507.35+280548.5  (Kirkpatrick19)
+Teff(Y0.5V) =  375 +-25K ; exemplar WISE J140518.32+553421.3 (Schneider15)
+Teff(Y0.5V) =  376 K ; exemplar WISE J082507.35+280548.5  (Kirkpatrick20)
+Teff(Y0.5V) = 382 K ; exemplar WISE J082507.35+280548.5 (adopted, see below)
+Teff(Y0.5V) =  385 +-75K ; exemplar WISE J140518.32+553421.3 (Kirkpatrick21)
+Teff(Y0.5V) =  387 K ; exemplar WISE J082507.35+280548.5 (Beiler24; JWST)
+Teff(Y0.5V) = 392 K ; exemplar WISE J140518.39+553421.3 (adopted, see below)
+Teff(Y0.5V) =  392 K ; exemplar WISE J140518.32+553421.3 (Beiler24; JWST) 
+Teff(Y0.5V) =  400 K ; exemplar WISE J082507.35+280548.5 (Schneider15)
+Teff(Y0.5V) =  402 K ; exemplar WISE J140518.32+553421.3 (Kirkpatrick19; plx=157.9+-3.1mas)
 Teff(Y0.5V) =  412 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(Y0V)   =   450 K ; adopted
-=> adopt Teff(Y0.5V) = 400 K (logT=2.602) [updated 2/2/2021]
+=> adopt Teff(Y0.5V) = 385 K (logT=2.5855) [updated 12/1/2024]
 
 M_J(Y0.5V) > 20.57 ; WISE_0825+2805 calc using Kirkpatrick20 (plx=152.6mas)
 
@@ -27,6 +33,10 @@ M_J(MKO)(Y0.5V) = 22.39  ; Tinney14 (N=1) [apparently WISE J014807.25-720258.7]
 M_J(MKO)(Y1V)   =   22.7  ; Y1V adopted
 M_J(MKO)(Y0.5V) =  23.32  ; WISE_0825+2805 calc using Kirkpatrick20 (plx=152.6mas)
 => adopt M_J(MKO)(Y0.5V) = 22.0 [updated 12/5/2020]
+
+(J-H)_MKO(Y0.5V) = -0.440 +-0.081 ; WISEA J140518.32+553421.3 (Schneider15/synthetic)
+(J-H)_MKO(Y0.5V) = -0.564 +-0.149 ; WISEA J082507.37+280548.2 (Schneider15/synthetic)
+=> adopt (J-H)_MKO(Y0.5V) = -0.5 [updated 12/1/2024] 
 
 M_Ks value is upper limit
 M_Ks(Y0.5V) > 19.11 ; WISE_0825+2805 calc using Kirkpatrick20(plx=152.6mas)
@@ -46,27 +56,22 @@ Rad(Y0.5V) = 0.10276 +-0.01028 Rsun ; =(1+-0.1)Rjup (assumed BD rad for one mode
 
 # Exemplars
 
-WISE J1541-2250 = WISEPA J154151.66−225025.2 = WISE J154151.65−225024.9
-  Y0.5: Kirkpatrick12
-
-  The only Y0.5 in the Kirkpatrick12 survey. (W1-W2)=2.49+-0.18, the
-  only Y dwarf in Kirkpatrick12 with measured W1-W2 (not lower limit),
-  and (H-W2) > 6.0.  W1=16.74+-0.17(Kirkpatrick12),
-  W2=14.25+-0.06(Kirkpatrick12). Kirkpatrick12: "This also means that
-  WISE 1541−2250, which has a slightly broader J-band peak [than Y1
-  standard WISE 0350-5658], should be re-typed from Y0 to Y0.5."
-
-WISE J082507.35+280548.5
+WISE J082507.35+280548.5 = WISE 0825+2805
   Y0.5: Schneider15,Kirkpatrick20
 
-  plx=152.6+-2.0mas(Kirkpatrick20). Teff=376+-88K(Kirkpatrick20).
-
-# Others
+  Nearest Y0.5 in Kirkpatrick21, with
+  plx=152.6+-2.0mas(Kirkpatrick20).  Teffs: 363+-75K(Kirkpatrick21),
+  376+-88K(Kirkpatrick20), 387K(Beiler24/JWST), 400K(Schneider15) =>
+  adopt Teff=382K. H=22.970+-0.14(Kirkpatrick21).
   
-WISE J140518.32+553421.3
+WISE J140518.39+553421.3 = WISEA J140518.32+553421.3 = WISEP J140518.40+553421.5 = WISEP J140518.40+553421.4 = CNS5 3482 = WISE 1405+5534
   Y0.5: Schneider15
   Y0.5(pec?): Kirkpatrick20
 
-  plx=158.2+-2.6mas(Kirkpatrick20), Teff=411+-88K(Kirkpatrick20).
+  plx=158.2+-2.6mas(Kirkpatrick20).  Teffs: 375+-25K(Schneider15),
+  385+-75K(Kirkpatrick21), 392K(Beiler24), 402K(Kirkpatrick19),
+  411+-88K(Kirkpatrick20) => adopt Teff=392K.
+  J_MKO=21.06+-0.06(Tinney14), H_MKO=21.41+-0.08(Leggett17),
+  H=21.50+-0.07(Kirkpatrick21), K_MKO=21.61+-0.12(Leggett17).
 
 

@@ -1,48 +1,78 @@
 Y1V
 
 Standards:
-Kirkpatrick12 stan.: WISE J0350-5658 - "tenative Y1 spectral standard"
+Kirkpatrick12 standard: WISE J0350-5658 - "tenative Y1 spectral standard"
+Schneider15 standard:   WISE J035000.32–565830.2 - Y1 (from Kirkpatrick12) 
 
-Teff(Y1V) =    325 K ; WISE J1828+2650 Dupuy13 #9
-Teff(Y1V) = 338 K ; stan. WISE J0350-5658 (literature median, see below)
-Teff(Y1V) = ~325 K ; stan. WISE J0350-5658 (Schneider15) 
-Teff(Y1V) =    350 K ; Leggett15
-Teff(Y1V) = 350+-25 K ; stan. WISE J0350-5658 (Leggett16)
-Teff(Y1V) =   ~350 K [300-400] K ; Schneider15/WISE2354
-Teff(Y1V) =  351 K ; CWISEP J1446-23 (Beiler24; JWST) 
-Teff(Y1V) = 355 K ; stan. WISE J0350-5658 (Kirkpatrick19; plx=174.6+-2.6mas)
-Teff(Y1V) =  368 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(Y1V) = 372 K ; Leggett21 (median for N=16 Y1 objects) 
-Teff(Y1V) =   374 K ; WISE_2354+0240 (Kirkpatrick19; plx=124.1+-4.9mas)
-Teff(Y1V) =   ~375 K [350-400] K ; Schneider15/WISE0647-6232
-Teff(Y1V) =   381 K ; WISE_0647-6232 (Kirkpatrick19; plx=100.3+-2.4mas)
-Teff(Y1V) = 388 K ; stan. WISE J035000.32-565830.2 (Kirkpatrick20) standard
-Teff(Y1V) =   395 K ; WISE_1541-2250 (Kirkpatrick19; plx=167.1+-2.3mas)
-Teff(Y1V) =  395 K ; CWISEP J1047+54 (Beiler24; JWST)
-Teff(Y1V) =   398 K ; WISE_0535-7500 (Kirkpatrick19; plx=66.4+-2.4mas)
+Kirkpatrick21 lists 4 Y1 objects within 15 pc, I'll focus on these for defining mean properties
+(WISE 0350-5658, WISE 1541-2250, WISE 2354+0240, WISE 0647-6232). 
+
+Teff(Y1V) =   325 K ; WISE J0350-5658 (Kirkpatrick21) 
+Teff(Y1V) =   325 K ; WISE J1828+2650 Dupuy13 #9
+Teff(Y1V) =   338 K ; standard WISE J0350-5658 (literature median, see below)
+Teff(Y1V) =   325 K ; standard WISE J0350-5658 (Schneider15)
+Teff(Y1V) =   346 K ; WD 0806-661B (Kirkpatrick21) 
+Teff(Y1V) =   350 K ; Leggett15
+Teff(Y1V) =   350 +-25 K ; standard WISE J0350-5658 (Leggett16)
+Teff(Y1V) =   350 +-50 K ; WISE J2354+0240 (Schneider15)
+Teff(Y1V) =   350 K ; WISE J2354+0240 (Kirkpatrick21) 
+Teff(Y1V) =   351 K ; CWISEP J1446-23 (Beiler24; JWST)
+Teff(Y1V) =  352 K ; Kirkpatrick21 
+Teff(Y1V) =   355 K ; standard WISE J0350-5658 (Kirkpatrick19; plx=174.6+-2.6mas)
+Teff(Y1V) =   355 K ; WISE J0647-6232 (Kirkpatrick21) 
+Teff(Y1V) =   368 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(Y1V) =   372 K ; Leggett21 (median for N=16 Y1 objects) 
+Teff(Y1V) =   374 K ; WISE J2354+0240 (Kirkpatrick19; plx=124.1+-4.9mas)
+Teff(Y1V) =   375 +-25 K ; Schneider15/WISE0647-6232
+Teff(Y1V) =   381 K ; WISE J0647-6232 (Kirkpatrick19; plx=100.3+-2.4mas)
+Teff(Y1V) =   388 K ; standard WISE J035000.32-565830.2 (Kirkpatrick20) standard
+Teff(Y1V) =   395 K ; WISE J1541-2250 (Kirkpatrick19; plx=167.1+-2.3mas)
+Teff(Y1V) =   395 K ; CWISEP J1047+54 (Beiler24; JWST)
+Teff(Y1V) =   398 K ; WISE J0535-7500 (Kirkpatrick19; plx=66.4+-2.4mas)
 Teff(Y1V) =   400 K ; Schneider15/WISE1541-2250
-Teff(Y1V) =  411 K ; WISEPA J1541-22 (Beiler24; JWST)
-Teff(Y1V) =  496 K ; WISE J0535-75 (Beiler24; JWST) 
+Teff(Y1V) =   411 K ; WISEPA J1541-22 (Beiler24; JWST)
+Teff(Y1V) =   421 K ; WISE J1541-2250 (Kirkpatrick21) 
+Teff(Y1V) =   475 K ; WISE J0535-7500 (Kirkpatrick21) 
+Teff(Y1V) =   496 K ; WISE J0535-7500 (Beiler24; JWST) 
 => adopt Teff(Y1V) = 360 K (logT = 2.5563) [updated 10/4/2024]
 
-M_J(MKO)(Y1V) >  19.93 ; WISE_1930-2059 calc using Kirkpatrick20 (plx=106.3mas)
-M_J(MKO)(Y1V) >  20.37 ; CWISE_0940+5233 calc using Kirkpatrick20 (plx=66.4mas)
-M_J(MKO)(Y1V) >  20.43 ; CWISE_2230+2549 calc using Kirkpatrick20 (plx=71.3mas)
-M_J(MKO)(Y1V) = 20.53  ; WISE_0503-5648 calc using Kirkpatrick20 (plx=98.3mas)
-M_J(MKO)(Y1V) >  20.67 ; CWISE_0402-2651 calc using Kirkpatrick20 (plx=116.4mas)
-M_J(MKO)(Y1V) >  20.90 ; CWISE_1935-1546 calc using Kirkpatrick20 (plx=69.3mas)
-M_J(MKO)(Y1V) >  21.13 ; CWISE_0238-1332 calc using Kirkpatrick20 (plx=85.8mas)
-M_J(MKO)(Y1V) = 21.31  ; WISE_0535-7500 calc using Kirkpatrick20 (plx=68.7mas)
-M_J(MKO)(Y1V) = 21.74  ; CWISE_2256+4002 calc using Kirkpatrick20 (plx=101.8mas)
-M_J(MKO)(Y1V) = 22.18 (+-0.76 rms) ; Tinney14 M_J(MKO) N=2
-M_J(MKO)(Y1V) >  22.26 ; CWISE_1446-2317 calc using Kirkpatrick20 (plx=95.6mas)
-M_J(MKO)(Y1V) = 22.74  ; WISE_1541-2250 calc using Kirkpatrick20 (plx=166.9mas)
-M_J(MKO)(Y1V) = 22.84  ; WISE_0647-6232 calc using Kirkpatrick20 (plx=99.5mas)
-M_J(Y1V)      ~ 23     ; Leggett15 Fig. 3 (eyeball trend)
-M_J(MKO)(Y1V) = 23.41  ; WISE_0350-5658 calc using Kirkpatrick20 (plx=176.4mas)
-M_J(MKO)(Y1V) = 23.65  ; WISE_2354+0240 calc using Kirkpatrick20 (plx=130.6mas)
-M_J(MKO)(Y1V) >  26.69 ; WISE_0830+2837 calc using Kirkpatrick20 (plx=90.6mas)
+M_Y_MKO(Y1V) = 22.852 +-0.123 ; pri. standard WISE J035000.32-565830.2
+
+M_J(MKO)(Y1V) >    19.93 ; WISE_1930-2059 calc using Kirkpatrick20 (plx=106.3mas)
+M_J(MKO)(Y1V) >    20.37 ; CWISE_0940+5233 calc using Kirkpatrick20 (plx=66.4mas)
+M_J(MKO)(Y1V) >    20.43 ; CWISE_2230+2549 calc using Kirkpatrick20 (plx=71.3mas)
+M_J(MKO)(Y1V) =   20.53  ; WISE_0503-5648 calc using Kirkpatrick20 (plx=98.3mas)
+M_J(MKO)(Y1V) >    20.67 ; CWISE_0402-2651 calc using Kirkpatrick20 (plx=116.4mas)
+M_J(MKO)(Y1V) >    20.90 ; CWISE_1935-1546 calc using Kirkpatrick20 (plx=69.3mas)
+M_J(MKO)(Y1V) >    21.13 ; CWISE_0238-1332 calc using Kirkpatrick20 (plx=85.8mas)
+M_J(MKO)(Y1V) =   21.31  ; WISE_0535-7500 calc using Kirkpatrick20 (plx=68.7mas)
+M_J(MKO)(Y1V) =   21.74  ; CWISE_2256+4002 calc using Kirkpatrick20 (plx=101.8mas)
+M_J(MKO)(Y1V) =   22.18 (+-0.76 rms) ; Tinney14(N=2)
+M_J(MKO)(Y1V) >    22.26 ; CWISE_1446-2317 calc using Kirkpatrick20 (plx=95.6mas)
+M_J(MKO)(Y1V) =   22.74  ; WISE_1541-2250 calc using Kirkpatrick20 (plx=166.9mas)
+M_J(MKO)(Y1V) =   22.84  ; WISE_0647-6232 calc using Kirkpatrick20 (plx=99.5mas)
+M_J(Y1V)      ~   23     ; Leggett15 Fig. 3 (eyeball trend)
+M_J(MKO)(Y1V) =  23.41  ; standard WISE J0350-5658 calc using Kirkpatrick20 (plx=176.4mas)
+M_J(MKO)(Y1V) =   23.65  ; WISE_2354+0240 calc using Kirkpatrick20 (plx=130.6mas)
+M_J(MKO)(Y1V) >    26.69 ; WISE_0830+2837 calc using Kirkpatrick20 (plx=90.6mas)
 => adopt M_J(MKO)(Y1V) = 22.7 [updated 12/5/2020]
+
+(J(MKO)-K(MKO) = 0.5 ; M_J(MKO)=22.7, M_K=22.2
+=> adopt (J(MKO)-J(MKO)) = 0.5 [updated 12/5/2020]
+
+(J-H)_MKO(Y1V) = -0.085 +-0.156 ; standard WISEA J035000.31–565830.5 (Schneider15/synthetic)
+(J-H)_MKO(Y1V) = -0.452 +-0.180 ; WISEA J064723.24–623235.4 (Schneider15/synthetic)
+(J-H)_MKO(Y1V) = -0.454 +-0.183 ; WISE J154151.65–225024.9 (Schneider15/synthetic)
+=> adopt (J-H)_MKO(Y1V) = -0.45 [updated 12/1/2024] 
+
+M_H(Y1V) =  22.53 +-0.35 ; WISE 0535-7500 (Kirkpatrick21) plx=68.7+-2.0mas
+M_H(Y1V) =  23.20 +-0.17 ; WISE 1541-2250 (Kirkpatrick21) plx=166.9+-2.0mas
+M_H(Y1V) =  23.30 +-0.17 ; WISE 0647-6232 (Kirkpatrick21) plx=99.5+-1.7mas
+M_H(Y1V) =  23.46 +-0.31 ; WISE 2354+0240 (Kirkpatrick21) plx=130.6+-3.3mas
+M_H(Y1V) = 23.49 +-0.14 ; standard WISE 0350-5658 (Kirkpatrick21) plx=176.4+-2.3mas
+M_H(Y1V) =  23.87 +-0.14 ; WD 0806-661B (Kirkpatrick21) plx=51.934+-0.020mas
+=> adopt M_H(Y1V) = 23.4 [updated 12/1/2024] 
+
 
 M_Ks values are all upper limits at this point
 M_Ks(Y1V) > 17.20 ; CWISE_1935-1546 calc using Kirkpatrick20 (plx=69.3mas)
@@ -53,12 +83,17 @@ M_Ks(Y1V) > 18.74 ; CWISE_0402-2651 calc using Kirkpatrick20(plx=116.4mas)
 M_K(Y1V)  = 22.24 ; interp Y0V-Y2V
 => adopt M_Ks(Y1V) = 22.2 [updated 12/5/2020]
 
-(J(MKO)-K(MKO) = 0.5 ; M_J(MKO)=22.7, M_K=22.2
-=> adopt (J(MKO)-J(MKO)) = 0.5 [updated 12/5/2020]
+M_[3.6](Y1V) = 19.429 +-0.116 ; standard WISE J0350-5658 plx=176.4+-2.3mas
+
+M_W2(Y1V) =  14.78 (+-0.77 rms) ; Tinney14(N=2)
+M_W2(Y1V) =  15.962 +-0.066 ; standard WISE J0350-5658 plx=176.4+-2.3mas
+
+M_[4.5](Y1V) = 15.919 +-0.029 ; standard WISE J0350-5658 plx=176.4+-2.3mas
+
+M_W3(Y1V) = 13.762 +-0.291 ; standard WISE J0350-5658 (Kirkpatrick21) plx=176.4+-2.3mas
 
 W1-W2(Y1V) = 4.14 ; Kirkpatrick19 polynomial
 
-M_W2(Y1V) = 14.78 (+-0.77; rms) ; Tinney14
 
 logL(Y1V) = -6.216 +-0.026 dex ; WISE J0535-75 (Beiler24; JWST)
 logL(Y1V) = -6.523 +-0.013 dex ; WISEPA J1541-22 (Beiler24; JWST)
@@ -68,38 +103,115 @@ logL(Y1V) = -6.779 +-0.043 dex ; CWISEP J1446-23 (Beiler24; JWST)
 Rad(Y1V) = 0.10276 +-0.01028 Rsun ; =(1+-0.1)Rjup (assumed BD rad for one model T6V-Y1V; Beiler24)
 
 
-# Standard
+#  Standard
 
-WISE J035000.32-565830.2 = WISE J0350-5658
- *Y1: Kirkpatrick12(stan,Leggett16),Schneider15(stan),Kirkpatrick20
-
+WISE J035000.32-565830.2 = WISE J0350-5658 = GJ 10528 = CNS5 965 	 
+ *Y1: Kirkpatrick12(stan,Leggett16),Schneider15(stan),Kirkpatrick20,Kirkpatrick21(IR/adopted)
+ 
   Kirkpatrick12: "The plot shown in Figure 6 suggests that the J-band
   peak of WISE 0350−5658 is sufficiently narrower than WISE 1738+2732
   that it should be typed a full subclass later. We therefore propose
-  WISE 0350−5658 tobe the tentative Y1 spectral standard, despite its
+  WISE 0350−5658 to be the tentative Y1 spectral standard, despite its
   southerly declination, until other Y1 dwarfs are identified."
-  Teffs: 325K(Schneider15), 325K(Leggett21), 350+-25K(Leggett16),
-  355K(Kirkpatrick19), 388+-88K(Kirkpatrick21) => adopt Teff=350K.
-  Note that J0350-5658 had the *lowest* Teff estimate among the 16 Y1
-  objects with Teff estimates in Leggett21 (which seems unusual for a
-  standard).  logg=4.00+-0.25(Leggett16),
-  plx=176.4+-2.3mas(Kirkpatrick20).  Mass=3-9Mjup(Leggett16),
-  Age=0.3-3Gyr(Leggett16).
+  Currently the nearest Y1 in SIMBAD (12/1/2024), with published
+  parallaxes: plx=174.6+-2.6mas(Kirkpatrick19),
+  plx=176.4+-2.3mas(Kirkpatrick21).  WISE (Cutri12) position RA,Dec =
+  057.501366 -56.975065 (ICRS).  Teffs: 325K(Schneider15),
+  325K(Leggett21), 350+-25K(Leggett16), 355K(Kirkpatrick19),
+  388+-88K(Kirkpatrick21) => adopt Teff=350K.  Note that J0350-5658
+  had the *lowest* Teff estimate among the 16 Y1 objects with Teff
+  estimates in Leggett21 (which seems unusual for a standard).
+  logg=4.00+-0.25(Leggett16), plx=176.4+-2.3mas(Kirkpatrick20).
+  Mass=3-9Mjup(Leggett16), Age=0.3-3Gyr(Leggett16).
+  Y_MKO=21.62+-0.12(Leggett17/Leggett21), J=22.47+-0.29(Tinney18),
+  J_MKO=22.09+-0.12(Leggett17/Leggett21),
+  J_MKO=22.178+-0.073(Martin18/Kirkpatrick21),
+  H_MKO=22.51+-0.20(Leggett17/Leggett21),
+  H_MKO=22.263+-0.135(Martin18/Kirkpatrick21),
+  [3.6]=18.197+-0.113(Griffith12), W2=14.73+-0.06(Kirkpatrick12),
+  [4.5]=14.687+-0.006(Griffith12), W3=12.53+-0.29(Kirkpatrick12),
+  W2-W3=2.20+-0.30(Kirkpatrick12). Metallicity [m/H]=+0.3(Leggett21).
+  Absolute magnitudes for plx=176.4+-2.3mas(Kirkpatrick21) =>
+  M_Y_MKO=22.852+-0.123(Leggett17/Kirkpatrick21),
+  M_J_MKO=23.410+-0.078(Martin18/Kirkpatrick21),
+  M_H_MKO=23.495+-0.138(Martin18/Kirkpatrick21),
+  M_[3.6]=19.429+-0.116(Griffit12/Kirkpatrick21),
+  M_W2=15.962+-0.066(Kirkpatrick12/Kirkpatrick21),
+  M_[4.5]=15.919+-0.029(Griffith12/Kirkpatrick21),
+  M_W3=13.762+-0.291(Kirkpatrick12/Kirkpatrick21).
 
-  
-# Examples of Y Dwarfs
+# Exemplars
 
-WISEA J2354+02
+WISE J154151.65−225024.9 = WISEPA J154151.66−225025.2 = GJ 12260 = CNS5 3866 = WISE J1541-2250
+  Y0: Cushing11(Dupuy12) 
+  Y0.5: Kirkpatrick12(Mace13)
+ *Y1: Schneider15(Martin18,Kirkpatrick19,Kirkpatrick21),Leggett17
+
+  This was the only Y0.5 in the Kirkpatrick12 survey. Kirkpatrick12:
+  "This also means that WISE 1541−2250, which has a slightly broader
+  J-band peak [than Y1 standard WISE 0350-5658], should be re-typed
+  from Y0 to Y0.5." But more recent compilations have adopted Y1 from
+  Schneider15.  2nd nearest Y1 in Kirkpatrick21 with
+  plx=166.9+-2.0mas. Teff=421+-75K(Kirkpatrick21),
+  H=22.09+-0.17(Kirkpatrick21).  Y_MKO=21.46+-0.13(Leggett17),
+  J_MKO=21.12+-0.06(Leggett17), J_MKO=21.631+-0.064(Martin18),
+  H_MKO=21.07+-0.07(Leggett17), H_MKO=22.085+-0.170(Martin18),
+  K_MKO=21.70+-0.20(Leggett17), W1=16.74+-0.17(Kirkpatrick12),
+  W2=14.25+-0.06(Kirkpatrick12), [3.6]=16.577+-0.035(Griffith12),
+  [4.5]=14.217+-0.006(Griffith12). (W1-W2)=2.49+-0.18, the only Y
+  dwarf in Kirkpatrick12 with measured W1-W2 (not lower limit).
+  (H-W2) > 6.0.  Teffs: 375K(Leggett21), 400K(Miles20). Metallicity
+  [m/H]=+0.3(Leggett21). logg=4.3-4.9(Miles20).
+
+WISEA J235402.79+024014.1 = WISEA J2354+02
   Y1: Beiler24
 
-  Teffs: 347+13-11K(Beiler24), 359K(Beiler24/Rjup),
-  362+10-12K(Beiler24/uni) => adopt Teff=359K.
+  3rd nearest Y1 in Kirkpatrick21 with plx=130.6+-3.3mas. 
+  Teffs:
+  347+13-11K(Beiler24),
+  350+-75K(Kirkpatrick21), 
+  359K(Beiler24/Rjup),
+  362+10-12K(Beiler24/uni) => adopt Teff=355K.
+  H=22.88+-0.30(Kirkpatrick21). 
 
-WISE J035000.32-565830.2   Y1     (Kirkpatrick12, standard in Schnedier15)
-WISE J053516.80-750024.9   >=Y1:  (Kirkpatrick12), Y1 (Leggett15)
-WISE J064723.23-623235.5   Y1     (Kirkpatrick13)
-WD 0806-66B                (Y?)   (Kirkpatrick13), Y1 (Leggett15)
-WISE J154151.65−225024.9   Y1     (Schneider15)
-WISE J235402.77+024015.0   Y1     (Schneider15)
-CWISEP J040235.55-265145.4 [>=Y1] (Kirkpatrick20)
-WISEPA J041022.71+150248.5 Y0     (Kirkpatrick20)
+WISE J064723.23-623235.5
+  Y1: Kirkpatrick13,Kirkpatrick21
+
+  4th nearest Y1 in Kirkpatrick with plx=99.5+-1.7mas.
+  Teff=355+-75K(Kirkpatrick21). H=23.31+-0.17(Kirkpatrick21). 
+
+
+# Other Objects
+
+WISE J053516.80-750024.9
+  >=Y1:: Kirkpatrick12
+ *Y1: Leggett15,Kirkpatrick21
+
+  5th nearest Y1 in
+  Kirkpatrick21. plx=68.7+-2.0mas(Kirkpatrick21). Teff=475+-75K(Kirkpatrick21). H=23.34+-0.34(Kirkpatrick21).
+
+WD 0806-661B = Ahra = L 97-3 B = LUH 5B = CNS5 2006 = WDS J08069-6618B
+  Y1: Leggett15,Kirkpatrick21
+
+  6th nearest Y1 in Kirkpatrick21, with plx=51.934+-0.020mas. Given
+  exoplanet name "Ahra" in NameExoWorlds campaign.
+  Teff=346+-75K(Kirkpatrick21). J=25.42+-0.23(Leggett17),
+  H=25.29+-0.14(Kirkpatrick21).
+
+CWISEP J1047+54
+  Y1: Beiler24(Fig.8)
+
+CWISEP J1446−23
+  Y1: Beiler24(Fig.8)
+
+WISE J235402.77+024015.0
+  Y1: Schneider15
+  
+CWISEP J040235.55-265145.4
+  >=Y1: Kirkpatrick20
+
+
+
+
+
+  

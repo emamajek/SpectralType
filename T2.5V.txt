@@ -3,12 +3,36 @@ T2.5V
 Standards:
 Burgasser24 standard: J2112+3030 - d/sdT2.5 (pri. subdwarf near-IR standard)
 
-Teff(T2.5V) = 1140 K ; Sanghi23 M6V-T9V field dwarf polynomial 
-Teff(T2.5V) = 1167 K ; Filipazzo15 M6V-T9V field calibration
-Teff(T2.5V) = 1169 K ; SDSS J075840.33+324723.4 (Kirkpatrick20)
-Teff(T2.5V) = 1209 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(T2.5V) =  1140 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(T2.5V) =  1167 K ; Filipazzo15 M6V-T9V field calibration
+Teff(T2.5V) =  1169 K ; SDSS J075840.33+324723.4 (Kirkpatrick20)
+Teff(T2.5V) =  1196 K ; Stephens09 (NIR T subtype polynomial)
+Teff(T2.5V) =  1209 K ; Kirkpatrick20 (Table 13 polynomial)
+=> adopt Teff(T2.5V) = 1170 K (logT = 3.0682) [updated 12/1/2024] 
 
+(J-H)(T2.5V) = 0.70 ; Zhang09 (no rms, so apparently N=1)
+
+(H-Ks)(T2.5V) = 0.21 ; Zhang09 (no rms, so apparently N=1)
+
+(J-Ks)(T2.5V) = 0.91  ; Zhang09 (J-H=0.70, H-Ks=0.21; apparently for single object) 
 (J-Ks)(T2.5V) = 0.982 ; Sanghi24 M6V-T9V trend
+
+(r-i)(T2.5V) = 1.41 (+-0.83 rms)  ; Zhang09
+
+(i-z)(T2.5V) = 4.03 (+-0.85 rms)  ; Zhang09
+
+(i-J)(T2.5V) = 7.13  ; Zhang09 (no rms, so apparently N=1)
+
+(i-H)(T2.5V) = 7.79  ; Zhang09 (no rms, so apparently N=1)
+
+(i-Ks)(T2.5V) = 8.15 ; Zhang09 (no rms, so apparently N=1)
+
+(z-J)(T2.5V) = 3.05 ; Zhang09 (no rms, so apparently N=1)
+
+(z-H)(T2.5V) = 3.71 ; Zhang09 (no rms, so apparently N=1)
+
+(z-Ks)(T2.5V) = 4.02 ; Zhang09 (no rms, so apparently N=1)
+
 
 M_J(T2.5V) =   13.72 ;  SIMP_J1619275+031350_ T2.5+T4.0 plx=44.9mas
 M_J(T2.5V) =   13.83 ; 2MASS_J22092183-2711329_ T2.5 plx=40.7mas

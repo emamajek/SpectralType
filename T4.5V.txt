@@ -1,13 +1,37 @@
 T4.5V
 
-(Ic-J)(T4.5V) = 5.44 ; 2MASS_0559-1404 (Koen04, I_Cousins, 2MASS)
-
 Teff(T4.5V) = 1069 K ; Filipazzo15 M6V-T9V field calibration
 Teff(T4.5V) = 1069 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(T4.5V) = 1144 K ; Stephens09 (NIR T subtype polynomial)
 Teff(T4.5V) = 1172 K ; Kirkpatrick20 (Table 13 polynomial)
-=> adopt Teff(T4.5V) = 1170 K (logT = 3.068) [updated 12/30/2020]
+Teff(T4.5V) = 1227 K ; Kirkpatrick21 median (N=3) 
+=> adopt Teff(T4.5V) = 1140 K (logT = 3.0569) [updated 12/1/2024]
 
+(J-H)(T4.5V) = 0.27 (+-0.20 rms) ; Zhang09
+
+(H-Ks)(T4.5V) = 0.04 (+-0.51 rms) ; Zhang09 
+
+(J-Ks)(T4.5V) = 0.31  ; Zhang09 (J-H=0.27, H-Ks=0.04) 
 (J-Ks)(T4.5V) = 0.429 ; Sanghi24 M6V-T9V trend
+
+(r-i)(T4.5V) = 1.11 (+-1.24 rms) ; Zhang09
+
+(i-z)(T4.5V) = 4.59 (+-0.85 rms) ; Zhang09
+
+(i-J)(T4.5V) = 7.90 (+-1.02 rms!) ; Zhang09
+
+(i-H)(T4.5V) = 8.25 (+-0.93 rms) ; Zhang09
+
+(i-Ks)(T4.5V) = 8.41 (+-1.11 rms!) ; Zhang09
+
+(z-J)(T4.5V) = 3.27 (+-0.11 rms) ; Zhang09
+=> adopt (z-J)(T4.5V) = 3.3 [updated 11/20/2024]
+
+(z-H)(T4.5V) = 3.63 (+-0.26 rms) ; Zhang09
+
+(z-Ks)(T4.5V) 3.76 (+-0.81 rms) ; Zhang09
+
+(Ic-J)(T4.5V) = 5.44 ; 2MASS_0559-1404 (Koen04, I_Cousins, 2MASS)
 
 M_J(MKO)(T4.5V) =   13.57 ; 2MASS_0559-1404 calc using Kirkpatrick20 (plx=97.28mas)
 M_J(MKO)(T4.5V) =  14.10 ; SDSS_0000+2554 calc using Kirkpatrick20 (plx=70.8mas)

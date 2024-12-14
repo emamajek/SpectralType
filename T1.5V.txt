@@ -2,24 +2,37 @@ T1.5V
 
 SIMBAD lists only one T1.5V within 10pc: WISE J203042.79+074934.7 	
 
-Teff(T1.5V) = 1159 K ; Sanghi23 M6V-T9V field dwarf polynomial 
-Teff(T1.5V) = 1200 K ; Filippazzo15 calibration (M6V-T9V)
-Teff(T1.5V) = 1227 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(T1.5V) =  1159 K ; Sanghi23 M6V-T9V field dwarf polynomial 
+Teff(T1.5V) =  1200 K ; Filippazzo15 calibration (M6V-T9V)
+Teff(T1.5V) =  1214 K ; Stephens09 (NIR T subtype polynomial)
+Teff(T1.5V) =  1227 K ; Kirkpatrick20 (Table 13 polynomial)
+=> adopt Teff(T1.5V) = 1210 K (logT = 3.0828) [updated 12/1/2024] 
+
+(J-H)(T1.5V) = 0.92 (+-0.13 rms) ; Zhang09
+
+(H-Ks)(T1.5V) = 0.30 (+-0.24 rms) ; Zhang09 
+
+(J-Ks)(T1.5V) = 1.22  ; Zhang09 
+(J-Ks)(T1.5V) = 1.227 ; Sanghi24 M6V-T9V trend
+=> adopt (J-Ks)(T1.5V) = 1.23 [updated 11/20/2024]
+
+(r-i)(T1.5V) = 1.55 (+-0.42 rms) ; Zhang09
+
+(i-z)(T1.5V) = 3.76 (+-0.85 rms) ; Zhang09 
+
+(i-J)(T1.5V) = 6.77 (+-0.92 rms) ; Zhang09 
+
+(i-H)(T1.5V) = 7.57 (+-0.88 rms) ; Zhang09 
+
+(i-Ks)(T1.5V) = 8.00 (+-0.72 rms) ; Zhang09 
+
+(z-J)(T1.5V) = 2.94 (+-0.31 rms) ; Zhang09
+
+(z-H)(T1.5V) = 3.75 (+-0.31 rms) ; Zhang09
+
+(z-Ks)(T1.5V) = 4.15 (+-0.66 rms)  ; Zhang09 
 
 (G-Ks)(T1.5V) = 6.842 ; exemplar WISE J203042.79+074934.7 
-
-(J-Ks)(T1.5V) = 1.227 ; Sanghi24 M6V-T9V trend
-
-M_J(T1.5V) =  14.11 ; PSO_1505-2853 calc using Kirkpatrick20 (plx=42.5mas)
-M_J(T1.5V) =  14.28 ; 2MASS_0949-1545 calc using Kirkpatrick20 (plx=42.22mas)
-M_J(T1.5V) =  14.29 ; exemplar 2MASS_J20304235+0749358_ T1.5 plx=102.7966mas
-M_J(T1.5V) = 14.517 ; EEM fit to L/T dwarfs d<25pc
-M_J(T1.5V) =  14.94 ; 2MASS_J01115467-5053387_ T1.5 plx=57.3mas
-M_J(T1.5V) =   15.06 ; 2MASS_J09090085+6525275_ = SDSS_0909+6525 T1.5+T2.5 plx=63.9mas
-M_J(T1.5V) =  15.06 ; PSO_J272.0887-04.9943_ T1.5pec plx=42.8mas
-
-M_J(T1.5V) =  15.29 ; 2MASS_2139+0220 calc using Kirkpatrick20 (plx=101.5mas)
-=> adopt M_J(T1.5V) = 14.52 [updated 12/30/2020]
 
 
 M_J(MKO)(T1.5V) = 14.13 ; WISE_2030+0749 calc using Kirkpatrick20 (plx=103.9664mas)
@@ -32,7 +45,19 @@ M_J(MKO)(T1.5V) = 14.68 ; 2MASS_2139+0220 calc using Kirkpatrick20 (plx=101.5mas
 (J(MKO)-J)(T1.5V) = -0.27 ; smoothed trend T1.5V-T9.5V (10/20/2024; rms=0.145mag)
 (J(MKO)-J)(T1.5V) =  -0.27 +- 0.08 ; PSO___1505-2853
 (J(MKO)-J)(T1.5V) =  -0.18 +- 0.03 ; WISE__2030+0749
-=> adopt (J(MKO)-J)(T1.5V) = -0.27 [updated 10/20/2024] 
+=> adopt (J(MKO)-J)(T1.5V) = -0.27 [updated 10/20/2024]
+
+M_J(T1.5V) =  14.11 ; PSO_1505-2853 calc using Kirkpatrick20 (plx=42.5mas)
+M_J(T1.5V) =  14.28 ; 2MASS_0949-1545 calc using Kirkpatrick20 (plx=42.22mas)
+M_J(T1.5V) =  14.29 ; exemplar 2MASS_J20304235+0749358_ T1.5 plx=102.7966mas
+M_J(T1.5V) = 14.517 ; EEM fit to L/T dwarfs d<25pc
+M_J(T1.5V) =  14.94 ; 2MASS_J01115467-5053387_ T1.5 plx=57.3mas
+M_J(T1.5V) =   15.06 ; 2MASS_J09090085+6525275_ = SDSS_0909+6525 T1.5+T2.5 plx=63.9mas
+M_J(T1.5V) =  15.06 ; PSO_J272.0887-04.9943_ T1.5pec plx=42.8mas
+
+M_J(T1.5V) =  15.29 ; 2MASS_2139+0220 calc using Kirkpatrick20 (plx=101.5mas)
+=> adopt M_J(T1.5V) = 14.52 [updated 12/30/2020]
+
 
 M_K(MKO)(T1.5V) = 13.20 ; PSO_1505-2853 calc using Kirkpatrick20 (plx=42.5mas)
 M_K(MKO)(T1.5V) = 13.33 ; 2MASS_0949-1545 calc using Kirkpatrick20 (plx=42.22mas)
@@ -52,7 +77,6 @@ M_Ks(T1.5V) =  14.20 ; SDSS_0909+6525 calc using Kirkpatrick20 (plx=63.9mas)
 => adopt (K(MKO)-Ks)(T1.5V) ~ 0.2 [updated 11/26/2020]
 
 M_G(T1.5V) = 20.22 ; exemplar WISE J203042.79+074934.7
-
 
 BC_J(T1.5V) = 1.959 ; Sanghi23 M6V-T9V trend
 

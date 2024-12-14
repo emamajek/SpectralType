@@ -1,6 +1,7 @@
 T6V
 
 Standards:
+Burgasser02 standard:  2MASS J02431371-2453298 (2MASS 0243-2453) - T6V (primary NIR standard)
 Burgasser03 standard:  SDSS J162414.37+002915.6 - T6 (primary opt/NIR standard)
 Burgasser04 standard:  2MASS J02431371-2453298 (2MASS 0243-2453) - T6 
 Burgasser06 standard:  SDSS J162414.37+002915.6 - T6 (primary standard)
@@ -12,55 +13,52 @@ Burgasser24 standards: SDSS J162414.37+002915.6 (J1624+0029) - dT6 (pri. dwarf n
 		       J0937+2931 - sdT6 (pri. subdwarf near-IR standard)
 		       J0414-5854 - esdT6 (pri. extreme subdwarf near-IR standard)
 
-Teff(T6V) =   827 K ; WISE_0645-0302 (Kirkpatrick19; plx=50.7+-4.2mas)
-Teff(T6V) =   828 K ; WISE_1735-8209 (Kirkpatrick19; plx=75.1+-4.6mas)
-Teff(T6V) =  836 K ; WISE J1501-40 (Beiler24; JWST)
-Teff(T6V) =  881 K ; exemplar 2MASSI J0937347+293142 (Kirkpatrick20)
-Teff(T6V) =   890 K ; WISE_1122+2550 (Kirkpatrick19; plx=66.3+-2.3mas)
-Teff(T6V) =   914 K ; Gl_576B (Kirkpatrick19; plx=52.7+-0.3mas)
-Teff(T6V) =   914 K ; VHS_1258-4412 (Kirkpatrick19; plx=63.8+-4.0mas)
-Teff(T6V) =  920 K ; 2MASS_0937+2931 (Kirkpatrick19; plx=162.8+-3.9mas)
-Teff(T6V) =  921 K ; exemplar WISEPC J150649.97+702736.0 (Kirkpatrick20)
-Teff(T6V) =  922 K ; SDSS J1624+00 (Beiler24; JWST)
-Teff(T6V) =   923 K ; WISE_1906+4508 (Kirkpatrick19; plx=64.1+-1.6mas)
-Teff(T6V) =   924 K ; SDSS_1624+0029 (Kirkpatrick19; plx=91.8+-1.2mas)
-Teff(T6V) =   929 K ; WISE_1501-4004 (Kirkpatrick19; plx=69.5+-4.0mas)
-Teff(T6V) =   930 K ; 2MASS_1615+1340 (Kirkpatrick19; plx=58.4+-2.5mas)
-Teff(T6V) =   939 K ; WISE_2357+1227 (Kirkpatrick19; plx=59.5+-4.1mas)
-Teff(T6V) =  943 K ; Filipazzo15 M6V-T9V field calibration
-Teff(T6V) =  947 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(T6V) =  949 K ; Gl_845C (Kirkpatrick19; plx=276.1+-0.3mas)
-Teff(T6V) =  952 K ; WISE_1506+7027 (Kirkpatrick19; plx=193.5+-0.6mas)
-Teff(T6V) =   954 K ; 2MASS_0243-2453 (Kirkpatrick19; plx=93.6+-3.6mas)
-Teff(T6V) = 956 K ; pri. stan. SDSS J1624+0029 (median, see below)
-Teff(T6V) =  967 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(T6V) =  968 K ; SCR_1845-6357B (Kirkpatrick19; plx=259.5+-1.1mas)
-Teff(T6V) =   974 K ; 2MASS_2228-4310 (Kirkpatrick19; plx=92.1+-2.6mas)
-Teff(T6V) =  977 K ; WISE_1928+2356 (Kirkpatrick19; plx=149.9+-2.4mas)
-Teff(T6V) =  979 K ; DENIS_0817-6155 (Kirkpatrick19; plx=203.0+-13.0mas)
-Teff(T6V) =   993 K ; WISE_2343-7418 (Kirkpatrick19; plx=58.8+-2.7mas)
-Teff(T6V) =   1004 K ; DENIS J081730.0−615520(Kirkpatrick20)
-Teff(T6V) =   1008 K ; WISE_0627-1114 (Kirkpatrick19; plx=74.8+-3.6mas)
-Teff(T6V) =   1014 K ; WISE_2237+7228 (Kirkpatrick19; plx=62.3+-2.5mas)
-=> adopt Teff(T6V) = 940 K (logT = 2.9731) [updated 10/4/2024]
-
-(r-i)(T6V) = 1.96 (+-0.96; rms) ; Hawley02 ("r*-i*")
-
-(i-z)(T6V) = 4.00 (+-0.33; rms) ; Hawley02 ("i*-z*")
-
-(i-J)(T6V) = 7.49 (+-0.33; rms) ; Hawley02 ("i*-J")
-
-(z-J)(T6V) = 3.49 (+-0.06; rms) ; Hawley02 ("z*-J")
-(z-J)(T6V) = 3.82 ; pri. stan. SDSS J1624+0029 (Knapp04)
-
-(Z-J)(T6V) = 2.12 ; pri. stan. SDSS J1624+0029 (Knapp04)
+Teff(T6V) =   836 K ; WISE J1501-40 (Beiler24; JWST)
+Teff(T6V) =   881 K ; exemplar 2MASSI J0937347+293142 (Kirkpatrick20)
+Teff(T6V) =   921 K ; exemplar WISEPC J150649.97+702736.0 (Kirkpatrick20)
+Teff(T6V) =   922 K ; SDSS J1624+00 (Beiler24; JWST)
+Teff(T6V) =   943 K ; Filipazzo15 M6V-T9V field calibration
+Teff(T6V) =   947 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(T6V) =   952 K ; Kirkpatrick21 median (N=7) 
+Teff(T6V) =   956 K ; pri. stan. SDSS J1624+0029 (median, see below)
+Teff(T6V) =   967 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(T6V) =  1043 K ; Stephens09 (NIR T subtype fit)
+=> adopt Teff(T6V) = 950 K (logT = 2.9777) [updated 12/1/2024]
 
 (J-Ks)(T6V) =  0.04 ; M_J=15.34, M_Ks=15.30 (see below)
 (J-Ks)(T6V) =   0.045 ; Sanghi24 M6V-T9V trend
 => adopt (J-Ks)(T6V) = 0.04 [updated 10/20/2024]
 
-W1-W2(T6V) = 2.01 ; Kirkpatrick19 polynomial
+(r-i)(T6V) = 0.87 (+-1.79 rms!) ; Zhang09 
+(r-i)(T6V) = 1.96 (+-0.96 rms)  ; Hawley02 ("r*-i*")
 
+(i-z)(T6V) = 3.805 ; Skrzypek15 (i-z_Vega=3.98;i_AB-i_Vega=0.366,z_AB-z_Vega=0.533(Hewett06))
+(i-z)(T6V) =  3.92 +-0.10 ; pri. stan. SDSS J162414.37+002915.6 (Leggett17)
+(i-z)(T6V) =  4.00 (+-0.33 rms) ; Hawley02 ("i*-z*")
+=> adopt (i-z)(T6V) = 3.81 [updated 12/1/2024] 
+
+(i-J)(T6V) = 7.49 (+-0.33 rms) ; Hawley02 ("i*-J")
+
+(i-J_MKO)(T6V) = 7.75 (+-0.10) ; pri. stan. SDSS J162414.37+002915.6 (Leggett17)
+
+(i-H_MKO)(T6V) = 7.47 (+-0.10) ; pri. stan. SDSS J162414.37+002915.6 (Leggett17)
+
+(i-K_MKO)(T6V) = 7.34 (+-0.10) ; pri. stan. SDSS J162414.37+002915.6 (Leggett17)
+
+(z-J)(T6V) = 3.43 (+-0.26 rms) ; Zhang09 
+(z-J)(T6V) = 3.49 (+-0.06 rms) ; Hawley02 ("z*-J")
+(z-J)(T6V) = 3.82 ; pri. stan. SDSS J1624+0029 (Knapp04)
+=> adopt (z-J)(T6V) = 3.9: [updated 11/20/2024] 
+
+(z-H)(T6V) = 3.57 (+-0.36 rms) ; Zhang09
+
+(z-Ks)(T6V) = 3.56 (+-0.83 rms) ; Zhang09 
+
+(Z-J)(T6V) = 2.12 ; pri. stan. SDSS J1624+0029 (Knapp04)
+
+(W1-W2)(T6V) = 2.01 ; Kirkpatrick19 polynomial
+(W1-W2)(T6V) = 2.02 ; Skrzypek15
+=> adopt (W1-W2)(T6V) = 2.01 [updated 12/1/2024]
 
 
 M_J(T6V) =  14.66 ; 2MASS_1225-2739 calc using Kirkpatrick20 (plx=76.0mas)
@@ -232,14 +230,23 @@ SDSS J162414.37+002915.6 = CNS5 4015 = 2MASS J16241436+0029158 = WISE J162414.09
  H=15.524+-0.100(2MASS,q=A), H=15.48+-0.05(Zhang21), upper limit for
  2MASS Ks (Ks>15.518), K=15.61+-0.05(Faherty12,Leggett17,Leggett21).
  Converting the Faherty12 Kmag to 2MASS => Ks=(K_MKO - 0.12) =>
- estimate Ks=15.49 on 2MASS system.  SDSS photometry has large errors
- for ugri, but i=22.880+-0.297(SDSS/DR7),
- i=22.818+-0.267(SDSS/DR9,SDSS/DR12), i=22.811+-0.256(SDSS/DR16),
- i=22.95+-0.09(Leggett17), z=19.03+-0.04(Leggett17),
- z=19.051+-0.040(SDSS/DR6), z=19.069+-0.040(SDSS/DR7),
- z=19.074+-0.040(SDSS/DR9,SDSS/DR12), z=19.027+-0.038(SDSS/DR16),
- Y=16.38+-0.10(Leggett10,Leggett21), Y=16.28+-0.05(Best21),
- L'=13.60+-0.04(Leggett10).  Strauss99 discovery paper reported two
+ estimate Ks=15.49 on 2MASS system.  Despite being nearby, the object is so
+ red that the SDSS photometry still has large errors
+ for ugri, but decent z. 
+ i=22.880+-0.297(SDSS/DR7),
+ i=22.818+-0.267(SDSS/DR9,SDSS/DR12),
+ i=22.811+-0.256(SDSS/DR16),
+ i=22.95+-0.09(Leggett17), 
+ z=19.03+-0.04(Leggett17),
+ z=19.051+-0.040(SDSS/DR6),
+ z=19.069+-0.040(SDSS/DR7),
+ z=19.074+-0.040(SDSS/DR9,SDSS/DR12),
+ z=19.027+-0.038(SDSS/DR16),
+ Y=16.38+-0.10(Leggett10,Leggett21),
+ Y=16.28+-0.05(Best21),
+ L'=13.60+-0.04(Leggett10).
+ Adopting the Leggett17 iz photometry => i-z = 22.95+-0.09 = 19.03+-0.04 = 3.92+-0.10. 
+ Strauss99 discovery paper reported two
  epochs of z*=19.02+-0.04 and z*=19.03+-0.04, with zero point
  uncertainty at 0.05mag level. i*-z*=3.77+-0.021(Stauss99).
  fbol=1.595±0.022×10−15W/m2(Beiler24;JWST) =>
@@ -258,7 +265,6 @@ SDSS J162414.37+002915.6 = CNS5 4015 = 2MASS J16241436+0029158 = WISE J162414.09
  T5.5: Pineda16(opt),Best18(opt),Kirkpatrick21(opt)
  T6: Burgasser02,Burgasser04(stan),Burgasser06,Burgasser10,Leggett10(T6+-0.5),Kirkpatrick11,Dupuy12,Kirkpatrick12,Best18(near-IR),Leggett21,Kirkpatrick21(near-IR,adopted)
  
-
  plx=93.62+-3.63mas(Faherty12). 
 
 

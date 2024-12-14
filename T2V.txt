@@ -1,6 +1,7 @@
 T2V
 
 Standards:
+Burgasser02 standard:  SDSS J125453.90-012247.4 - T2V (pri. NIR standard) 
 Burgasser03 standard:  SDSS J125453.90-012247.4 - T2 (primary opt/NIR standard)
 Burgasser04 stanard:   SDSS J125453.90-012247.4 (SDSS 1254-0122) - T2
 Burgasser06 standard:  SDSS J125453.90-012247.4 - T2 (primary standard)
@@ -10,30 +11,52 @@ Theissen22 standard:   SDSS J125453.90-012247.4 - T2 (pri. stan. (0.9-2.45um/NIR
 Burgasser24 standards: SDSS J125453.90-012247.4 - dT2 (pri. dwarf near-IR standard)
 	    	       J0004-1336 - d/sdT2 (pri. mild subdwarf near-IR standard)
 
-SIMBAD lists only one T2 within 10pc: SIMP J013656.5+093347.3 
+SIMBAD lists only one T2 within 10pc (SIMP J013656.5+093347.3)
 
-Teff(T2V) = 1150 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(T2V) = 1184 K ; Filipazzo15 M6V-T9V field calibration 
-Teff(T2V) = 1189 K ; Dupuy17(SaumonMarley08 model scale)
-Teff(T2V) = 1218 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(T2V) = 1232 K ; Dupuy17(Lyon model scale)
-=> adopt Teff(T2V) = 1200 K (logT = 3.079) [updated 12/30/2020]
+Teff(T2V) =  1150 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(T2V) =  1184 K ; Filipazzo15 M6V-T9V field calibration 
+Teff(T2V) =  1189 K ; Dupuy17(SaumonMarley08 model scale)
+Teff(T2V) =  1205 K ; Stephens09 (NIR T subtype polynomial) 
+Teff(T2V) =  1218 K ; Kirkpatrick20 (Table 13 polynomial)
+Teff(T2V) =  1232 K ; Dupuy17(Lyon model scale)
+Teff(T2V) =  1290 K ; pri. stan. SDSS J125453.90-012247.4 (median)
+=> adopt Teff(T2V) = 1210 K (logT = 3.0828) [updated 12/1/2024]
 
-SIMP_0136+0933 appears to be near middle of group for the J & K colors
+(J-H)(T2V) = 0.81 (+-0.17 rms) ; Zhang09
 
+(H-Ks)(T2V) = 0.26 (+-0.53 rms) ; Zhang09
+
+(J-Ks)(T2V) = 1.07  ; Zhang09 (J-H=0.81, H-Ks=0.26) 
+(J-Ks)(T2V) = 1.109 ; Sanghi24 M6V-T9V trend
+
+(r-i)(T2V) = 1.48 (+-1.02 rms!) ; Zhang09 
 (r-i)(T2V) = 1.80 (+-0.50; rms) ; Hawley02 ("r*-i*")
 
-(i-z)(T2V) = 4.25 (+-0.50; rms) ; Hawley02 ("i*-z*")
+(i-z)(T2V) = 3.525 ; Skrzypek15 (i-z_Vega=3.70;i_AB-i_Vega=0.366,z_AB-z_Vega=0.533(Hewett06))
+(i-z)(T2V) =  3.89 (+-0.64 rms)  ; Zhang09 
+(i-z)(T2V) =  4.25 (+-0.50; rms) ; Hawley02 ("i*-z*")
+=> adopt (i-z)(T2V) = 3.53 [updated 12/1/2024] 
 
+(i-J)(T2V) = 6.95 (+-0.68 rms)  ; Zhang09 
 (i-J)(T2V) = 7.38 (+-0.50; rms) ; Hawley02 ("i*-J")
 
-(z-J)(T2V) = 3.13 (+-0.50; rms) ; Hawley02 ("z*-J")
+(i-H)(T2V) = 7.68 (+-0.79 rms)  ; Zhang09
 
-(J-Ks)(T2V) = 1.109 ; Sanghi24 M6V-T9V trend
+(i-Ks)(T2V) = 8.07 (+-0.71 rms) ; Zhang09 
+
+(z-J)(T2V) = 3.00 (+-0.10 rms)  ; Zhang09 
+(z-J)(T2V) = 3.13 (+-0.50; rms) ; Hawley02 ("z*-J")
+=> adopt (z-J)(T2V) = 3.0 [updated 11/20/2024]
+
+(z-H)(T2V) = 3.73 (+-0.28 rms)  ; Zhang09
+
+(z-Ks)(T2V) = 4.09 (+-0.33 rms)  ; Zhang09 
 
 (Ks-W1)(T2V) = 0.532 ; Dupuy12 #1
 => adopt (Ks-W1)(T2V) = 0.53 [updated 12/28/2019]
 
+(W1-W2)(T2V) = 0.99 ; Skrzypek15
+=> adopt (W1-W2)(T2V) = 0.99 [updated 12/1/2024] 
 
 M_J(T2V) =  14.36 ; SDSS_1254-0122 calc using Kirkpatrick20 (plx=78.34mas)
 M_J(T2V) =  14.39 ; 2MASS_1122-3512 calc using Kirkpatrick20 (plx=74.8605mas)
@@ -71,6 +94,7 @@ M_K(MKO)(T2V) = 13.54  ; M_Ks=13.5, K(MKO)-Ks=0.04
 M_K(MKO)(T2V) = 13.64  ; exemplar SIMP_J0136+0933 calc using Kirkpatrick20 (plx=162.13mas)
 => adopt M_K(MKO)(T2V) = 13.49 [updated 12/5/2020] (M_Ks=13.60, K(MKO)-Ks=0.04)
 
+M_Ks(T2V) = 13.19 ; pri. stan. SDSS J125453.90-012247.4 
 M_Ks(T2V) =  13.31 ; SDSS_1254-0122 calc using Kirkpatrick20 (plx=78.34mas)
 M_Ks(T2V) =  13.33 ; WISE_1755+1803 calc using Kirkpatrick20 (plx=53.6mas)
 M_Ks(T2V) = 13.45 ; fit to Kirkpatrick20 L7-T3 dwarfs
@@ -82,17 +106,23 @@ M_Ks(T2V) =  13.71 ; WISE_2121-6239 calc using Kirkpatrick20 (plx=74.9mas)
 M_Ks(T2V) =  13.72 ; 2MASS_1122-3512 calc using Kirkpatrick20 (plx=74.8605mas)
 M_Ks(T2V) =  14.05 ; 2MASS_1324+6358 calc using Kirkpatrick20 (plx=99.7mas)
 => adopt M_Ks(T2V) = 13.5 [updated 12/30/2020] (M_K(MKO)=13.54, K(MKO)-Ks=0.04)
+[EEM 11/15/2024: primary standard J1254 appears to be somewhat abnormally bright]
 
 (K(MKO)-Ks)(T2V) = 0.03 +- 0.02 ; SIMP_0136+0933
 (K(MKO)-Ks)(T2V) = 0.05 +- 0.05 ; SDSS_1254-0122
 => adopt (K(MKO)-Ks)(T2V) = 0.04 [updated 12/5/2020]
 
+M_G(T2V) = 20.17 ; pri. stan. SDSS J125453.90-012247.4
 M_G(T2V) = 20.55 ; exemplar SIMP_J0136+0933
 => adopt M_G(T2V) = 20.55 [updated 1/15/2021]
 
+BC_G(T2V) = -4.021 +-0.076 ; pri. stan. SDSS J125453.90-012247.4 (calc using Cushing05,GaiaDR3)
+
+BC_J(T2V) = 1.904 +-0.082 ; pri. stan. SDSS J125453.90-012247.4 (calc using Cushing05)
 BC_J(T2V) = 2.028 ; Sanghi23 M6V-T9V trend
 
-BC_Ks(T2V) = 2.770 ; Looper08 
+BC_Ks(T2V) = 2.770 ; Looper08
+BC_Ks(T2V) = 2.958 +-0.092 ; pri. stan. SDSS J125453.90-012247.4 (calc using Cushing05)
 BC_Ks(T2V) = 2.991 ; Filipazzo15 (field) [denser trend through L/T]
 BC_Ks(T2V) = 3.137 ; Sanghi23 M6V-T9V field dwarf polynomial
 => adopt BC_Ks(T2V) = 2.99 [updated 11/1/2019]
@@ -104,8 +134,28 @@ Rad(T2V) = 0.1111 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial
 
 # Primary Standard
 
-SDSS J125453.90-012247.4
-  *T2: Burgasser03(pri.opt/NIR stan), Burgasser06(pri.), Kirkpatrick10(pri.07-2.5um/SpeX), Theissen22(pri.;0.9-2.45um/NIRES), Burgaser24(pri.dwarf,"dT2")
+SDSS J125453.90-012247.4 = 2MASS J12545393-0122474 = GJ 11867 = CNS5 3187 = Gaia DR3 368876661388665 = Gaia DR2 3688766613886655744
+  *T2: Hawley02,Burgasser02(T2V,stan),Geballe02,Burgasser03(pri.opt/NIR stan),Knapp04,Burgasser06(pri.),Burgasser10,Kirkpatrick10(pri.07-2.5um/SpeX),Kirkpatrick11,Kirkpatrick21(opt+NIR),Theissen22(pri.;0.9-2.45um/NIRES),Burgaser24(pri.dwarf,"dT2")
+
+  All published spectral types in SIMBAD are T2, and "SDSS 1254-0122"
+  was one of the original T dwarfs to define the sequence in
+  Burgasser02 as "T2V".  J=14.891+-0.035(2MASS),
+  H=14.090+-0.025(2MASS), Ks=13.837+-0.054(2MASS).
+  fbol=4.82e-15+-3.30e-16W/m2(Cushing05) =>
+  mbol=16.7949+-0.0745mag(Cushing05/IAU2015scale) =>
+  BC_Ks=2.958+-0.092mag(2MASS,Cushing05),
+  BC_J=1.904+-0.082(2MASS,Cushing05),
+  BC_G=-4.021+-0.076(GaiaDR3,Cushing05).
+  plx=74.1838+-2.3057mas(GaiaDR2), but no parallax in DR3 - best
+  parallax is actually from Dahn17: plx=74.34+-1.07mas(Dahn17) =>
+  M_G=20.172+-0.034, M_J=14.247+-0.047, M_H=13.446+-0.040,
+  M_Ks=13.193+-0.062.  G=20.815916+-0.013012(GaiaDR3),
+  Bp-Rp=2.687044(GaiaDR3), Bp-G=0.882675(GaiaDR3),
+  G-Rp=1.804369(GaiaDR3), but note E(Bp/Rp)=2.540.  Teffs:
+  1116K(Leuber22/median), 1200+-50K(Sestovic20),
+  1219+-94K(Kirkpatrick21), 1361K(Vrba04), 1420+-106K(Sebastian21),
+  1425K(Golimowski04) => adopt Teff=1290K (large scatter, ~+-10-15%).
+  logg=3.71-3.93(Leuber22/N=6),
 
 
 # Variant Standards
@@ -126,8 +176,18 @@ SIMP J013656.5+093347.3 = 2MASS J01365662+0933473 = WISEP J013657.45+093347.0
   M_J= 14.522+-0.031, M_Ks=13.629+-0.025, M_G=20.55.
   Teffs: 1051+-198K(Kirkpatrick20,"yng")
 
+# Other Objects
 
+CWISE J044116.07+143645.4 
+  T2: Schneider24
 
+  New substellar Hyades member (~0.7Gyr; [Fe/H]=+0.16) in Schneider24.
+  Teff=1220+-80K(Schneider24), Mass=35+-3Mjup &
+  32+10-4Mjup(Schneider24).
 
-
-
+CWISE J045800.69+100456.9
+  T2pec(red): Schneider24
+  
+  New substellar Hyades member (~0.7Gyr; [Fe/H]=+0.16) in Schneider24.
+  Teff=1220+-81K(Schneider24), Mass=35+-3Mjup &
+  32+10-4Mjup(Schneider24).
