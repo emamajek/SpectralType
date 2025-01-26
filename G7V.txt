@@ -146,10 +146,12 @@ Houk does not treat G7 as a full type.
 (g-r)(G7V) = 0.48  ; Kesseli17 
 (g-r)(G7V) = 0.519 ; Jordi06 (V-R)=>(g-r) for V-R=0.391
 (g-r)(G7V) = 0.529 ; Just08/Chonis08 B-V=>g-r for B-V=0.71
+(g-r)(G7V) = 0.534 ; exemplar HD 43834 = alf Men ([Fe/H]=+0.10) (Just08)
 (g-r)(G7V) = 0.543 ; Covey07 interp G5V-G8V
 (g-r)(G7V) = 0.546 ; Bilir05 (B-V)=>(g-r) for B-V=0.710
-=> adopt (g-r)(G7V) = 0.53 [updated 6/20/2024]
+=> adopt (g-r)(G7V) = 0.53 [updated 12/1/2024]
 
+(r-i)(G7V) = 0.107 ; exemplar HD 43834 = alf Men ([Fe/H]=+0.10) (Just08)
 (r-i)(G7V) = 0.164 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.39
 (r-i)(G7V) = 0.17  ; Kesseli17
 (r-i)(G7V) = 0.18  ; Covey07 interp G5V-G8V
@@ -176,8 +178,8 @@ Teff(G7V) = 5542 K ; Teff from smoothed SpT(Teff) trend
 Teff(G7V) = 5545 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for B-V=0.72
 Teff(G7V) = 5548 K ; Teff(B-V=0.71) interp G5V-G8V
 Teff(G7V) = 5561 K ; Casagrande10 Teff calibration for B-V=0.713
-Teff(G7V) = 5587 K ; exemplar HD 43834 = HR 2261 = alf Men ([Fe/H] ~ +0.1)
 Teff(G7V) = 5589 K ; Biazzo07 Teff calibration for B-V=0.713
+Teff(G7V) = 5594 K ; exemplar HD 43834 = alf Men ([Fe/H]=+0.10)
 Teff(G7V) = 5636 K ; exemplar HD 111395 (see  below)
 Teff(G7V) = 5663 K ; exemplar HD 24206 (see below)
 => adopt Teff(G7V) = 5550 K (logT = 3.744) [updated 8/29/2019]
@@ -246,6 +248,7 @@ Mass(G7V) = 0.937 Msun ; Fernandes21 calibration for logL=-0.134
 => adopt Mass(G7V) = 0.939 Msun [updated 9/24/2024]
 
 logg(G7V) = 4.446 ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5230K (see G0V.txt)
+logg(G7V) = 4.46  ; exemplar HD 43834 = alf Men ([Fe/H]=+0.10) 
 logg(G7V) = 4.48  ; M=0.95Msun, R=0.927Rsun
 => adopt logg(G7V) = 4.46 [updated 9/15/2023]
 
@@ -311,7 +314,7 @@ HD 131156 = xi Boo A = GJ 566 = HR 5544 (J1451+1906)
   (148.5195+-0.2436mas) and B(148.2131+-0.0464mas).  Mv(A)=5.58.
   Rad=0.8627+-0.0107Rsun(Boyajian13). 
 
-HD 43834 = HR 2261 = alf Men = GJ 231
+HD 43834 = HR 2261 = alf Men = Hoerikwaggo = GJ 231 = WDS J06102-7445A = EGN 5A	
   G5V: Evans57(Gliese91)
   G6V: Moore32(G6),Houk75,Hoffleit91
  *G7V: Gray06
@@ -319,16 +322,26 @@ HD 43834 = HR 2261 = alf Men = GJ 231
 
   Well studied nearby asteroseismology target (Chontos20:
   https://arxiv.org/abs/2012.10797), and binary with M dwarf companion
-  3" away (mag1=5.09, mag2=10.1).  Chontos20: M(A) = 0.964+-0.045
+  3" away (mag1=5.09, mag2=10.1), first reported by Eggenberger07 and
+  classified M3.5-M6.5 by Chontos21.  Chontos20: M(A) = 0.964+-0.045
   Msun, R(A)=0.960+-0.016Rsun, Teff=5569+-62K, age =
   6.2+-1.4(stat)+-0.6(syst) Gyr, Activity cycle period 13.1+-1.1 yr.
-  PASTEL: <Teff> = 5587K(N=17), <logg>=4.47(N=15), <[Fe/H]> =
-  +0.105(N=15).  V=5.08(HIP), V=5.08+-0.01(Mermilliod91),
+  PASTEL compendium Soubiran22 mean values: <Teff>=5594+-14K(N=17),
+  <logg>=4.46+-0.03(N=15), [Fe/H]=+0.10+-0.01(N=16).  V=5.08(HIP),
+  V=5.08+-0.01(Mermilliod91), V=5.09(Johnson66),
   B-V=0.714+-0.015(HIP), B-V=0.720+-0.000(Mermilliod91),
-  V-I=0.75+-0.02(HIP), U-B=0.324+-0.008(Mermilliod91). Gaia EDR3:
+  B-V=0.72(Johnson66), V-I=0.75+-0.02(HIP),
+  U-B=0.324+-0.008(Mermilliod91), U-B=0.33(Johnson66),
+  g-r=0.534(Just08), r-i=0.107(Just08).  Gaia EDR3:
   plx=97.9158+-0.0573mas.  G(cor)=4.900(Vizier).
-  Mv=5.034+-0.01(Mermilliod91,GaiaEDR3), M_G=4.854(GaiaEDR3,corr).
-  G - V = 4.900 - 5.08 = -0.18. 
+  Mv=5.034+-0.01(Mermilliod91,GaiaEDR3), M_G=4.854(GaiaEDR3,corr).  G
+  - V = 4.900 - 5.08 = -0.18.  Magnitude differences: del(G) =
+  G(A)-G(B) = 7.4652 = 12.365336 - 4.900140 (GaiaDR3), WDS lists
+  mag(1)=5.09, mag(2)=10.10 => del(mag) = 5.01 (apparently V?),
+  del(K)=4.97+-0.05(Eggenberger07).  The proper name Hoerikwaggo
+  (South African indigneous name for Table Mountain ("Huriǂoaxa";
+  Sea-Mountain) in Saan/Khoe language, transliterated to Africaans as
+  "Hoerikwaggo") was adopted for alf Men A by IAU WGSN in 2024.
 
 # Other Stars
 
