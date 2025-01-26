@@ -175,6 +175,7 @@ trend for GJ 820B, GJ 673, GJ 380, GJ 265A: (U-B)(K7V) = 1.237 + 0.1122*[Fe/H] (
 (V-Ic)(K7V) =  1.72  ; Reid CNS3 sample K7 median value (N=73)
 (V-Ic)(K7V) =  1.7   ; Hawley96
 (V-Ic)(K7V) =  1.677 ; exemplar GJ 1075 = zet Dor B (Koen10)
+(V-Ic)(K7V) = 1.65  ; Kirkpatrick94/Table8
 (V-Ic)(K7V) = 1.646 ; ter. stan. GJ 380 = HD 88230 = HIP 49908 ([Fe/H]=+0.21) (GaiaDR3 synth)
 (V-Ic)(K7V) =  1.64  ; exemplar GJ 1075 = zet Dor B 
 (V-Ic)(K7V) = 1.616 ; ter. stan. GJ 265 A (GaiaDR3 synth)
@@ -251,19 +252,102 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 
 (J-H)(K7V) = 0.66 ; Bessell88/Glass
 
-(J-H)(K7V) = 0.602 ; Bessell88(Glass->2MASS)
-(J-H)(K7V) = 0.620 ; dwarf color locus for V-Ks=3.37
+(J-H)(K7V) =   0.571 ; CNS5_4068_ K7 plx=59.8674mas
+(J-H)(K7V) =   0.590 ; CNS5_5004_ K7V plx=59.4184mas
+(J-H)(K7V) =   0.593 ; CNS5_4280_ K7V plx=129.6459mas
+(J-H)(K7V) =   0.597 ; HD_32450_ K7V plx=119.3399mas
+(J-H)(K7V) =  0.602 ; Bessell88(Glass->2MASS)
+(J-H)(K7V) =   0.609 ; CNS5_3596_ K7V plx=63.3625mas
+(J-H)(K7V) =   0.609 ; CNS5_5105_ K7V plx=81.0279mas
+(J-H)(K7V) =   0.620 ; CNS5_2571_ K7Ve plx=77.4072mas
+(J-H)(K7V) =   0.620 ; CNS5_5521_ K7Vk: plx=76.1595mas
+(J-H)(K7V) =  0.620 ; dwarf color locus for V-Ks=3.37
+(J-H)(K7V) =   0.621 ; CNS5_1028_ K7V plx=71.8221mas
+(J-H)(K7V) =   0.633 ; CNS5_2779_ K7V plx=72.8638mas
+(J-H)(K7V) =   0.634 ; CNS5_2724_ K7V plx=84.1766mas
+(J-H)(K7V) =   0.634 ; CNS5_4675_ K7 plx=59.7779mas
+(J-H)(K7V) =   0.635 ; CNS5_2579_ K7V plx=62.5202mas
+(J-H)(K7V) =   0.636 ; CNS5_3411_ K7V plx=68.582mas
+(J-H)(K7V) =  0.636 (+-0.002 sem,+-0.034 stdev) ; SIMBAD nearest K7Vs (N=26) (12/20/2024) 
+(J-H)(K7V) =   0.637 ; CNS5_86_ K7 plx=68.0846mas
+(J-H)(K7V) =   0.638 ; CNS5_5921_ K7V plx=58.4067mas
+(J-H)(K7V) =   0.639 ; CNS5_1281_ K7Vk plx=85.5301mas
+(J-H)(K7V) =   0.641 ; CNS5_3430_ K7V plx=70.1492mas
+(J-H)(K7V) =   0.644 ; CNS5_310_ K7V plx=66.3666mas
+(J-H)(K7V) =   0.648 ; CNS5_226_ K7Ve plx=63.5753mas
+(J-H)(K7V) =   0.659 ; CNS5_2263_ K7V plx=68.9762mas
+(J-H)(K7V) =   0.669 ; CNS5_652_ K7V plx=86.6124mas
+(J-H)(K7V) =   0.677 ; CNS5_1898_ K7V plx=70.9924mas
+(J-H)(K7V) =   0.690 ; CNS5_5218_ K7V plx=286.0054mas
+(J-H)(K7V) =   0.699 ; CNS5_1430_ K7V plx=74.1187mas
+(J-H)(K7V) =   0.903 ; CNS5_2293_ K7V plx=157.8879mas
 => adopt (J-H)(K7V) = 0.620 [updated 3/24/2024]
 
 (H-K)(K7V) = 0.13 ; Bessell88/Glass
 
-(H-Ks)(K7V) = 0.157 ; Bessell88(Glass->2MASS)
-(H-Ks)(K7V) = 0.165 ; dwarf color locus for V-Ks=3.37
+(H-Ks)(K7V) =   -0.003 ; CNS5_2293_ K7V plx=157.8879mas
+(H-Ks)(K7V) =   0.106 ; CNS5_226_ K7Ve plx=63.5753mas
+(H-Ks)(K7V) =   0.130 ; CNS5_3430_ K7V plx=70.1492mas
+(H-Ks)(K7V) =   0.132 ; CNS5_1898_ K7V plx=70.9924mas
+(H-Ks)(K7V) =   0.136 ; CNS5_310_ K7V plx=66.3666mas
+(H-Ks)(K7V) =   0.138 ; CNS5_2571_ K7Ve plx=77.4072mas
+(H-Ks)(K7V) =   0.145 ; CNS5_3411_ K7V plx=68.582mas
+(H-Ks)(K7V) =   0.151 ; CNS5_2724_ K7V plx=84.1766mas
+(H-Ks)(K7V) =   0.152 ; CNS5_5004_ K7V plx=59.4184mas
+(H-Ks)(K7V) =   0.154 ; CNS5_2579_ K7V plx=62.5202mas
+(H-Ks)(K7V) =   0.154 ; CNS5_4675_ K7 plx=59.7779mas
+(H-Ks)(K7V) =  0.157 ; Bessell88(Glass->2MASS)
+(H-Ks)(K7V) =   0.159 ; CNS5_1430_ K7V plx=74.1187mas
+(H-Ks)(K7V) =   0.162 ; CNS5_2779_ K7V plx=72.8638mas
+(H-Ks)(K7V) =  0.165 ; dwarf color locus for V-Ks=3.37
+(H-Ks)(K7V) =  0.171 (+-0.017 sem,+-0.052 stdev) ; SIMBAD nearest K7Vs (N=27) (12/20/2024) 
+(H-Ks)(K7V) =   0.171 ; CNS5_86_ K7 plx=68.0846mas
+(H-Ks)(K7V) =   0.179 ; CNS5_5521_ K7Vk: plx=76.1595mas
+(H-Ks)(K7V) =   0.190 ; CNS5_5921_ K7V plx=58.4067mas
+(H-Ks)(K7V) =   0.191 ; CNS5_1281_ K7Vk plx=85.5301mas
+(H-Ks)(K7V) =   0.191 ; CNS5_5105_ K7V plx=81.0279mas
+(H-Ks)(K7V) =   0.201 ; CNS5_4280_ K7V plx=129.6459mas
+(H-Ks)(K7V) =   0.214 ; CNS5_4068_ K7 plx=59.8674mas
+(H-Ks)(K7V) =   0.217 ; CNS5_1028_ K7V plx=71.8221mas
+(H-Ks)(K7V) =   0.225 ; CNS5_2263_ K7V plx=68.9762mas
+(H-Ks)(K7V) =   0.238 ; CNS5_3596_ K7V plx=63.3625mas
+(H-Ks)(K7V) =   0.241 ; CNS5_652_ K7V plx=86.6124mas
+(H-Ks)(K7V) =   0.253 ; HD_32450_ K7V plx=119.3399mas
+(H-Ks)(K7V) =   0.266 ; CNS5_238_ K7Ve plx=168.7186mas
+(H-Ks)(K7V) =    0.540 ; CNS5_5218_ K7V plx=286.0054mas
 => adopt (H-Ks)(K7V) = 0.165 [updated 3/24/2024]
 
 (J-K)(K7V) = 0.79 ; Bessell88/Glass
 
-(J-Ks)(K7V) = 0.757 ; Bessell88(Glass->2MASS)
+(J-Ks)(K7V) =   0.742 ; CNS5_5004_ K7V plx=59.4184mas
+(J-Ks)(K7V) =   0.754 ; CNS5_226_ K7Ve plx=63.5753mas
+(J-Ks)(K7V) =  0.757 ; Bessell88(Glass->2MASS)
+(J-Ks)(K7V) =   0.758 ; CNS5_2571_ K7Ve plx=77.4072mas
+(J-Ks)(K7V) =   0.771 ; CNS5_3430_ K7V plx=70.1492mas
+(J-Ks)(K7V) =   0.780 ; CNS5_310_ K7V plx=66.3666mas
+(J-Ks)(K7V) =   0.781 ; CNS5_3411_ K7V plx=68.582mas
+(J-Ks)(K7V) =   0.785 ; CNS5_2724_ K7V plx=84.1766mas
+(J-Ks)(K7V) =   0.785 ; CNS5_4068_ K7 plx=59.8674mas
+(J-Ks)(K7V) =   0.788 ; CNS5_4675_ K7 plx=59.7779mas
+(J-Ks)(K7V) =   0.789 ; CNS5_2579_ K7V plx=62.5202mas
+(J-Ks)(K7V) =   0.794 ; CNS5_4280_ K7V plx=129.6459mas
+(J-Ks)(K7V) =   0.795 ; CNS5_2779_ K7V plx=72.8638mas
+(J-Ks)(K7V) =   0.799 ; CNS5_5521_ K7Vk: plx=76.1595mas
+(J-Ks)(K7V) =  0.800 (+-0.008 sem,+-0.046 stdev) ; SIMBAD nearest K7Vs (N=26) (12/20/2024) 
+(J-Ks)(K7V) =   0.800 ; CNS5_5105_ K7V plx=81.0279mas
+(J-Ks)(K7V) =   0.808 ; CNS5_86_ K7 plx=68.0846mas
+(J-Ks)(K7V) =   0.809 ; CNS5_1898_ K7V plx=70.9924mas
+(J-Ks)(K7V) =   0.828 ; CNS5_5921_ K7V plx=58.4067mas
+(J-Ks)(K7V) =   0.830 ; CNS5_1281_ K7Vk plx=85.5301mas
+(J-Ks)(K7V) =   0.838 ; CNS5_1028_ K7V plx=71.8221mas
+(J-Ks)(K7V) =   0.847 ; CNS5_3596_ K7V plx=63.3625mas
+(J-Ks)(K7V) =   0.850 ; HD_32450_ K7V plx=119.3399mas
+(J-Ks)(K7V) =   0.858 ; CNS5_1430_ K7V plx=74.1187mas
+(J-Ks)(K7V) =   0.884 ; CNS5_2263_ K7V plx=68.9762mas
+(J-Ks)(K7V) =   0.900 ; CNS5_2293_ K7V plx=157.8879mas
+(J-Ks)(K7V) =   0.910 ; CNS5_652_ K7V plx=86.6124mas
+(J-Ks)(K7V) =    1.230 ; CNS5_5218_ K7V plx=286.0054mas
+
 
 (Ks-W1)(K7V) = 0.091 ; Bentley19
 (Ks-W1)(K7V) = 0.112 ; dwarf color locus for V-Ks=3.37
@@ -274,10 +358,6 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 
 (W1-W2)(K7V) = -0.029 (+-0.046 rms) ; Bentley19
 => adopt (W1-W2)(K7V) = -0.029 [updated 6/20/2024]
-
-
-(G-J)(K7V) = 1.890 ; Bentley18
-(G-J)(K7V) = 1.999 (+-0.302 rms) ; Bentley19 
 
 (G-V)(K7V) = -0.560  ; ter. stan. GJ 764.1B = HD 184860B ([Fe/H]=-0.04) (GaiaDR3)
 (G-V)(K7V) = -0.561  ; exemplar GJ 773 = HD 188807 (GaiaDR3) 
@@ -296,21 +376,55 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 (G-V)(K7V) = -0.745  ; ter. stan. GJ 34B = eta Cas B = HD 4614B ([Fe/H]=-0.28) (Gaia DR3)
 => adopt (G-V)(K7V) = -0.59 [updated 9/1/2023; V-Ks=3.37, G-Ks=2.78
 
+
+(G-J)(K7V) = 1.890 ; Bentley18 (GaiaDR2) 
+(G-J)(K7V) = 1.999 (+-0.302 rms) ; Bentley19 (GaiaDR2)
+
+(G-J)(K7V) =   1.900 ; CNS5_5218_ K7V plx=286.0054mas (GaiaDR3)
+(G-J)(K7V) =   1.904 ; CNS5_4675_ K7 plx=59.7779mas (GaiaDR3)
+(G-J)(K7V) =   1.908 ; CNS5_5004_ K7V plx=59.4184mas (GaiaDR3)
+(G-J)(K7V) =   1.938 ; CNS5_2579_ K7V plx=62.5202mas (GaiaDR3)
+(G-J)(K7V) =   1.947 ; CNS5_310_ K7V plx=66.3666mas (GaiaDR3)
+(G-J)(K7V) =   1.948 ; CNS5_5521_ K7Vk: plx=76.1595mas (GaiaDR3)
+(G-J)(K7V) =   1.957 ; CNS5_1898_ K7V plx=70.9924mas (GaiaDR3)
+(G-J)(K7V) =   1.965 ; CNS5_2571_ K7Ve plx=77.4072mas (GaiaDR3)
+(G-J)(K7V) =   1.966 ; CNS5_5105_ K7V plx=81.0279mas (GaiaDR3)
+(G-J)(K7V) =   1.971 ; CNS5_2724_ K7V plx=84.1766mas (GaiaDR3)
+(G-J)(K7V) =   1.975 ; CNS5_3430_ K7V plx=70.1492mas (GaiaDR3)
+(G-J)(K7V) =   1.981 ; CNS5_3411_ K7V plx=68.582mas (GaiaDR3)
+(G-J)(K7V) =   1.986 ; CNS5_86_ K7 plx=68.0846mas (GaiaDR3)
+(G-J)(K7V) =  1.994 (+-0.026 sem,+-0.142 stdev) ; SIMBAD nearest K7Vs (N=26) (12/20/2024) 
+(G-J)(K7V) =   2.000 ; CNS5_4280_ K7V plx=129.6459mas (GaiaDR3)
+(G-J)(K7V) =   2.013 ; CNS5_1281_ K7Vk plx=85.5301mas (GaiaDR3)
+(G-J)(K7V) =   2.028 ; CNS5_2779_ K7V plx=72.8638mas (GaiaDR3)
+(G-J)(K7V) =   2.030 ; CNS5_1430_ K7V plx=74.1187mas (GaiaDR3)
+(G-J)(K7V) =   2.086 ; CNS5_2293_ K7V plx=157.8879mas (GaiaDR3)
+(G-J)(K7V) =   2.104 ; CNS5_3596_ K7V plx=63.3625mas (GaiaDR3)
+(G-J)(K7V) =   2.146 ; CNS5_2263_ K7V plx=68.9762mas (GaiaDR3)
+(G-J)(K7V) =   2.161 ; CNS5_226_ K7Ve plx=63.5753mas (GaiaDR3)
+(G-J)(K7V) =   2.184 ; CNS5_5921_ K7V plx=58.4067mas (GaiaDR3)
+(G-J)(K7V) =   2.300 ; HD_32450_ K7V plx=119.3399mas (GaiaDR3)
+(G-J)(K7V) =   2.355 ; CNS5_1028_ K7V plx=71.8221mas (GaiaDR3)
+(G-J)(K7V) =   2.401 ; CNS5_652_ K7V plx=86.6124mas (GaiaDR3)
+(G-J)(K7V) =   2.596 ; CNS5_4068_ K7 plx=59.8674mas (GaiaDR3)
+
+(G-Ks)(K7V) =   2.737 ; Bentley18 (GaiaDR2)
+(G-Ks)(K7V) =   2.780 ; dwarf color locus for V-Ks=3.37 
+(G-Ks)(K7V) =   2.826 (+-0.309 rms) ; Bentley19 (GaiaDR2) 
+
+
 (G-Ks)(K7V) =  2.723 ; HD_237903_ plx=77.4072mas (K7Ve, Lepine13) (GaiaDR3)
 (G-Ks)(K7V) =  2.728 ; BD+63_137_ plx=66.3666mas (K7V, Gray03) (GaiaDR3)
-(G-Ks)(K7V) =   2.737 ; Bentley18 (GaiaDR2)
-(G-Ks)(K7V) =  2.747 ; exemplar GJ 532 = HD_234078_ plx=70.1492mas (K7V, Gray03) (GaiaDR3)
+(G-Ks)(K7V) =  2.747 ; exemplar GJ 532 = HD_234078_ plx=70.1492mas (K7V, Gray03) ([Fe/H]=+0.15) (GaiaDR3)
 (G-Ks)(K7V) =  2.747 ; HD_211970_ plx=76.1595mas (K7V(k), Gray06)(GaiaDR3)
-(G-Ks)(K7V) =  2.747 ; exemplar GJ 532 = HD 234078 ([Fe/H]=+0.15)
 (G-Ks)(K7V) =  2.756 ; HD_97101_ plx=84.1766mas (K7V, Gray03) (GaiaDR3)
 (G-Ks)(K7V) =  2.763 ; HD_120036B_ plx=68.582mas (K7-V, Gray06) (GaiaDR3)
 (G-Ks)(K7V) =  2.766 ; HD_196877_ plx=81.0279mas (K7V, Gray06) (GaiaDR3)
 (G-Ks)(K7V) =  2.766 ; GJ 282B = HD_61606B_ plx=70.9924mas (K7V, Gray03) (GaiaDR3)
-(G-Ks)(K7V) = 2.77  ; median for Kirkpatrick24 K7Vs d<20pc (N=33)
+(G-Ks)(K7V) = 2.77  ; median for Kirkpatrick24 K7Vs d<20pc (N=33) (GaiaDR3) 
 (G-Ks)(K7V) = 2.78  ; (V-Ks)=3.37, (G-V)=-0.59
-(G-Ks)(K7V) = 2.780 ; dwarf color locus for V-Ks=3.37
 (G-Ks)(K7V) =  2.794 ; sec. stan. GJ 673 = HD 157881 = HIP 85295 ([Fe/H]=+0.28) (GaiaDR3)
-(G-Ks)(K7V) = 2.826 (+-0.309 rms) ; Bentley19 
+(G-Ks)(K7V) = 2.823 (+-0.055 sem,+-0.204 stdev) ; SIMBAD nearest K7Vs (N=27) (12/20/2024) 
 (G-Ks)(K7V) =  2.843 ; CD-57_1079_ plx=85.5301mas (K7Vk, Gray06) (GaiaDR3)
 (G-Ks)(K7V) =  2.881 ; ter. stan. GJ 34B = eta Cas B = HD 4614B ([Fe/H]=-0.28) (GaiaDR3)
 (G-Ks)(K7V) =  2.889 ; BD+62_780_ plx=74.1187mas (K7V, Reid95) (GaiaDR3)
@@ -318,7 +432,7 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 (G-Ks)(K7V) =  3.030 ; BD-08_2582_ plx=68.9762mas (K7V, Reid95) (GaiaDR3)
 (G-Ks)(K7V) =  3.131 ; pri. stan. GJ 820B = 61 Cyg B = HD 201092 ([Fe/H]=-0.21) (GaiaDR3)
 (G-Ks)(K7V) =  3.151 ; GJ 185A = HD_32450_ plx=119.3399mas (K7V, Henry94) (GaiaDR3)
-=> adopt (G-Ks)(K7V) = 2.78 [updated 3/24/2024; V-Ks=3.37, G-V=-0.59]
+=> adopt (G-Ks)(K7V) = 2.78 [updated 3/24/2024] (V-Ks=3.37, G-V=-0.59)
 
 (Bp-Rp)(K7V)=  1.508 ; ter. stan. GJ 748.2 A (GaiaDR2)
 (Bp-Rp)(K7V)=  1.575 ; ter. stan. GJ 764.1B = HD 184860B ([Fe/H]=-0.04) (GaiaDR2)
@@ -423,6 +537,7 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 (g-r)(K7V) = 1.266 ; Bilir05 (B-V)=>(g-r) for B-V=1.35
 (g-r)(K7V) =  1.283 ; GJ_1144_ plx=54.79mas K7V
 (g-r)(K7V) =  1.294 ; GJ_162_ plx=71.82mas K7V
+(g-r)(K7V) = 1.32 ; Cifuentes20(Table7) 
 (g-r)(K7V) =  1.321 ; GJ_3008_ plx=45.9905mas K7V
 (g-r)(K7V) =  1.322 ; GJ_9117_ plx=47.5505mas K7
 (g-r)(K7V) =  1.325 ; GJ_334_ plx=68.98mas K7V
@@ -432,7 +547,7 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 (g-r)(K7V) =  1.386 ; GJ_9413_ plx=51.9268mas K7V
 (g-r)(K7V) =  1.406 ; GJ_215_ plx=74.12mas K7V
 (g-r)(K7V) =  1.42  ; GJ_342_ plx=47.8351mas K7V
-=> adopt (g-r)(K7V) = 1.22 [updated 6/20/2024]
+=> adopt (g-r)(K7V) = 1.23 [updated 12/20/2024]
 
 (r-i)(K7V) =  0.345 ; GJ_1144_ plx=54.79mas K7V
 (r-i)(K7V) = 0.356 ; pri. stan. GJ 820B = 61 Cyg B = HD 201092 ([Fe/H]=-0.21)
@@ -475,7 +590,8 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 => adopt (r-i)(K7V) = 0.51 [updated 6/20/2024]
 [EEM 4/7/2024: odd distribution, most standards and exemplars are ~0.36-0.53, but
 most nearby K7Vs in SIMBAD are ~0.8-1.3. I weight the standards more. Or might there
-be a systematic issue with the Just08 r-i colors?]
+be a systematic issue with the Just08 r-i colors? 12/20/2024: apparently due to differences
+between APASS ri and SDSS ri]
 
 (i-z)(K7V) = 0.28 ; Kesseli17 
 (i-z)(K7V) = 0.30 ; Covey07
@@ -506,24 +622,24 @@ be a systematic issue with the Just08 r-i colors?]
 => adopt (i-J)(K7V) = 1.63 [updated 4/7/2024]
 
 Teff(K7V) =  3860 K ; deprecated standard GJ 338B
-Teff(K7V) =  3887 +- 25 K ; Pecaut13 (GJ 338B)
-Teff(K7V) = 3961 +- 11 K ; Boyajian12b (N=3)
+Teff(K7V) =  3887 +-25 K ; Pecaut13 (GJ 338B)
+Teff(K7V) = 3961 +-11 K ; Boyajian12b (N=3)
 Teff(K7V) = 3964 K ; median Teff for 82 published Teffs for K7V stars
 Teff(K7V) =   4000 K ; Bessell79
 Teff(K7V) =   4000 K ; Bessell91 "old disk"
 Teff(K7V) = 4000 K ; ter. stan. GJ 380 = HD 88230 = HIP 49908 ([Fe/H]=+0.21)
 Teff(K7V) = 4044 K ; pri. stan. GJ 820B = 61 Cyg B = HD 201092 ([Fe/H]=-0.21)
 Teff(K7V) = 4056 K ; sec. stan. GJ 673 = HD 157881 = HIP 85295 ([Fe/H]=+0.28)
-Teff(K7V) = 4057 +- 100 K ; Cifuentes23
+Teff(K7V) = 4057 +-100 K ; Cifuentes23
 Teff(K7V) = 4057 K ; Morrell19 Teff for stars w/i +-0.1 mag of M_Ks=4.85
 Teff(K7V) =  4060 K ; Schmidt-Kaler82
-Teff(K7V) = 4073 +- 98 K ; Lepine12
+Teff(K7V) = 4073 +-98 K ; Lepine12
 Teff(K7V) = 4075 K ; mean photometric Teff for B-V=1.33
 Teff(K7V) = 4093 K ; trend for standards (Teff(K7V) = 4093K-73.25*[Fe/H]; rms=18K; see notes at bottom)
-Teff(K7V) =  4099 +- 48 K ; vanBelle09
+Teff(K7V) =  4099 +-48 K ; vanBelle09
 Teff(K7V) = 4100 K ; ter. stan. GJ 394 = HD 237903 = 36 UMa B ([Fe/H]=-0.12)
 Teff(K7V) = 4114 K ; smooth Teff(SpT) trend
-Teff(K7V) =  4117 +- 23 K ; Pecaut13 (pri. stan. 61 Cyg B = GJ 820B)
+Teff(K7V) =  4117 +-23 K ; Pecaut13 (pri. stan. 61 Cyg B = GJ 820B)
 Teff(K7V) =   4120 K ; Habets81
 Teff(K7V) = 4147 K ; ter. stan. GJ 265A = HIP 34222 ([Fe/H]~-0.1)
 Teff(K7V) = 4157 K ; exemplar GJ 532 = HD 234078 ([Fe/H]=+0.15)
@@ -533,28 +649,45 @@ Teff(K7V) = 4320 K ; ter. stan. GJ 764.1B = HD 184860B ([Fe/H]=-0.04)(see below)
 => adopt Teff(K7V) = 4090 K (logT = 3.612) [updated 8/3/2023]
 
 M_G(K7V) =   6.755 ; ter. stan. *_eta_Cas_B_ (GaiaDR2)
-M_G(K7V) = 7.187 ; ter. stan. GJ 786 = HD 193202 = HIP 99427 ([Fe/H]~0.0) (GaiaDR3)
-M_G(K7V) = 7.241 ; ter. stan. GJ 764.1B = HD 184860B ([Fe/H]=-0.04) (GaiaDR3)
-M_G(K7V) =  7.361 ; HD_97101_ plx=84.1766mas (K7V, Gray03) (GaiaDR3) ([Fe/H]=+0.65?!!)
-M_G(K7V) =  7.438 ; HD_98712A_ plx=72.8638mas (K7V in 4 refs, but K6V in Gray06) (GaiaDR3)
-M_G(K7V) = 7.485 ; exemplar GJ 532 = HD_234078_ plx=70.1492mas (K7V, Gray03) (GaiaDR3) ([Fe/H]=+0.15)
-M_G(K7V) = 7.498 ; sec. stan. HD_157881_ plx=129.6459mas K7V (GaiaDR3) ([Fe/H]=+0.28)
-M_G(K7V) =   7.506 ;  SIMBAD d<20pc trend for V-Ks=3.33 (GaiaDR2)
-M_G(K7V) = 7.523 ; ter. stan. GJ 380 = HD 88230 = HIP 49908 ([Fe/H]=+0.21) (GaiaDR3)
-M_G(K7V) =  7.526 ; BD+63_137_ plx=66.3666mas (K7V, Gray03) (GaiaDR3)
-M_G(K7V) = 7.528 ; ter. stan. HD_237903_ = 36 UMa B plx=77.4072mas K7Ve (GaiaDR3) ([Fe/H]=-0.12 for "A")
-M_G(K7V) =  7.591 ; HD_61606B_ plx=70.9924mas (K7V, Gray03) (GaiaDR3) ([Fe/H]=0.00 for "A")
 M_G(K7V) = 7.593 ; ter. stan. GJ 430 = HIP 56199 
-M_G(K7V) =  7.598 ; HD_120036B_ plx=68.582mas (K7-V, Gray06) (GaiaDR3) ([Fe/H]=-0.03 for "A")
-M_G(K7V) = 7.613  ; ter. stan. GJ 748.2A = GJ 9651A = HIP 94590A plx=37.2395mas K7V (GaiaDR3)
-M_G(K7V) = 7.733 ; pri. stan. HD_201092_ plx=286.0054mas K7V (GaiaDR3) ([Fe/H]=-0.21)
-M_G(K7V) =  7.734 ; BD+62_780_ plx=74.1187mas (K7V, Reid95) (GaiaDR3)
-M_G(K7V) = 7.784 ; exemplar HD_196877_ plx=81.0279mas (K7V, Gray06) (GaiaDR3)
-M_G(K7V) = 7.787 ; exemplar GJ 265A = HIP 34222 plx=43.8004mas (K7V) (GaiaDR3)
-M_G(K7V) =  7.819 ; HD_211970_ plx=76.1595mas (K7V(k), Gray06) (GaiaDR3)
-M_G(K7V) = 7.898 ; ter. stan. HD_4614B = eta Cas B plx=168.7186mas K7Ve (GaiaDR3) ([Fe/H]=-0.28 for "A")
-M_G(K7V) = 7.946 ; exemplar GJ 1075 = HIP 23708 plx=85.5301mas K7Vk (GaiaDR3) ([Fe/H]=-0.18)
-M_G(K7V) =  7.981 ; BD-08_2582_ plx=68.9762mas (K7V, Reid95) (GaiaDR3)
+
+M_G(K7V) =   7.18 ; CNS5_5004_ K7V plx=59.4184mas (GaiaDR3)
+M_G(K7V) =   7.27 ; CNS5_2579_ K7V plx=62.5202mas (GaiaDR3)
+M_G(K7V) =   7.36 ; CNS5_2724_ K7V plx=84.1766mas (GaiaDR3)
+M_G(K7V) =   7.43 ; CNS5_2779_ K7V plx=72.8638mas (GaiaDR3)
+M_G(K7V) =   7.44 ; CNS5_226_ K7Ve plx=63.5753mas (GaiaDR3)
+M_G(K7V) =   7.48 ; CNS5_3430_ K7V plx=70.1492mas (GaiaDR3)
+M_G(K7V) =   7.49 ; CNS5_4675_ K7 plx=59.7779mas (GaiaDR3)
+M_G(K7V) =   7.49 ; CNS5_4280_ K7V plx=129.6459mas (GaiaDR3)
+M_G(K7V) =   7.52 ; CNS5_310_ K7V plx=66.3666mas (GaiaDR3)
+M_G(K7V) =   7.52 ; CNS5_2571_ K7Ve plx=77.4072mas (GaiaDR3)
+M_G(K7V) =  7.52 ; ter. stan. GJ 380 = HD 88230 = HIP 49908 ([Fe/H]=+0.21) (GaiaDR3)
+M_G(K7V) =   7.53 ; BD+63_137_ plx=66.3666mas (K7V, Gray03) (GaiaDR3)
+M_G(K7V) =  7.53 ; ter. stan. HD_237903_ = 36 UMa B plx=77.4072mas K7Ve (GaiaDR3) ([Fe/H]=-0.12 for "A")
+M_G(K7V) =   7.53 ; CNS5_86_ K7 plx=68.0846mas (GaiaDR3)
+M_G(K7V) =   7.59 ; CNS5_1898_ K7V plx=70.9924mas (GaiaDR3)
+M_G(K7V) =   7.59 ; CNS5_3411_ K7V plx=68.582mas (GaiaDR3)
+M_G(K7V) =   7.59 ; HD_61606B_ plx=70.9924mas (K7V, Gray03) (GaiaDR3) ([Fe/H]=0.00 for "A")
+M_G(K7V) =   7.60 ; HD_120036B_ plx=68.582mas (K7-V, Gray06) (GaiaDR3) ([Fe/H]=-0.03 for "A")
+M_G(K7V) =  7.61  ; ter. stan. GJ 748.2A = GJ 9651A = HIP 94590A plx=37.2395mas K7V (GaiaDR3)
+M_G(K7V) =   7.67 ; CNS5_5921_ K7V plx=58.4067mas (GaiaDR3)
+M_G(K7V) =  7.730 (+-0.089 sem,+-0.334 stdev) ; SIMBAD nearest K7Vs (N=29) (12/20/2024) 
+M_G(K7V) =  7.73 ; pri. stan. HD_201092_ plx=286.0054mas K7V (GaiaDR3) ([Fe/H]=-0.21)
+M_G(K7V) =   7.73 ; CNS5_3596_ K7V plx=63.3625mas (GaiaDR3)
+M_G(K7V) =   7.73 ; CNS5_1430_ K7V plx=74.1187mas (GaiaDR3)
+M_G(K7V) =  7.78 ; exemplar HD_196877_ plx=81.0279mas (K7V, Gray06) (GaiaDR3)
+M_G(K7V) =  7.79 ; exemplar GJ 265A = HIP 34222 plx=43.8004mas (K7V) (GaiaDR3)
+M_G(K7V) =   7.82 ; HD_211970_ plx=76.1595mas (K7V(k), Gray06) (GaiaDR3)
+M_G(K7V) =   7.88 ; CNS5_652_ K7V plx=86.6124mas (GaiaDR3)
+M_G(K7V) =  7.90 ; ter. stan. HD_4614B = eta Cas B plx=168.7186mas K7Ve (GaiaDR3) ([Fe/H]=-0.28 for "A")
+M_G(K7V) =  7.95 ; exemplar GJ 1075 = HIP 23708 plx=85.5301mas K7Vk (GaiaDR3) ([Fe/H]=-0.18)
+M_G(K7V) =   7.96 ; CNS5_2293_ K7V plx=157.8879mas (GaiaDR3)
+M_G(K7V) =   7.98 ; CNS5_2263_ K7V plx=68.9762mas (GaiaDR3)
+M_G(K7V) =   8.13 ; HD_32450_ K7V plx=119.3399mas (GaiaDR3)
+M_G(K7V) =   8.18 ; CNS5_1264_ K7 plx=119.5737mas (GaiaDR3)
+M_G(K7V) =   8.59 ; CNS5_4715_ K7Ve plx=81.0205mas (GaiaDR3)
+M_G(K7V) =   8.65 ; CNS5_1028_ K7V plx=71.8221mas (GaiaDR3)
+M_G(K7V) =   9.97 ; CNS5_4068_ K7 plx=59.8674mas (GaiaDR3)
 => adopt M_G(K7V) = 7.59 [updated 8/16/2023]
 
 [EEM 8/14/2023: trend M_G(K7V) = 7.589 - 0.6779*[Fe/H] (rms=0.175mag)] 
@@ -586,7 +719,8 @@ Mv(K7V) = 8.20 mag ; trend for standards [Fe/H] vs. Mv (for [Fe/H]=0.0, rms=0.07
 Mv(K7V) = 8.21 mag ; V-Ks=3.35 =< JohnsonApps09 fit
 Mv(K7V) = 8.22 mag ; V-K=3.35 => EEM fit to Jao16 data
 Mv(K7V) =  8.26 mag ; exemplar GJ 710 
-Mv(K7V) =  8.33 mag ; pri. stan. GJ 820B = 61 Cyg B = HD 201092 ([Fe/H]=-0.21) 
+Mv(K7V) =  8.33 mag ; pri. stan. GJ 820B = 61 Cyg B = HD 201092 ([Fe/H]=-0.21)
+Mv(K7V) =  8.34 mag ; Kirkpatrick94/Table8
 Mv(K7V) =  8.37 mag ; exemplar GJ 798
 Mv(K7V) =  8.38 mag ; median d<25pc (N=57)
 Mv(K7V) =  8.39 mag ; exemplar GJ 1267
@@ -600,32 +734,52 @@ Mv(K7V) =  8.63 mag ; ter. stan. GJ 34B = eta Cas B = HD 4614B ([Fe/H]=-0.28)
 => adopt M_G(K7V)  = 7.59 mag [updated 8/13/2023] (Mv=8.21, G-V=-0.59)
 => adopt M_Ks(K7V) = 4.84 mag [updated 8/16/2023] (Mv=8.21, V-Ks=3.37, G-Ks=2.78, G-V=-0.59)
 
-M_Ks(K7V) = 4.51 ; ter. stan. GJ 764.1B = HD 184860B ([Fe/H]=-0.04)
+M_Ks(K7V) =  4.51 ; ter. stan. GJ 764.1B = HD 184860B ([Fe/H]=-0.04)
+M_Ks(K7V) =   4.53 ; CNS5_226_ K7Ve plx=63.5753mas
+M_Ks(K7V) =   4.53 ; CNS5_5004_ K7V plx=59.4184mas
+M_Ks(K7V) =   4.54 ; CNS5_2579_ K7V plx=62.5202mas
+M_Ks(K7V) =   4.57 ; CNS5_652_ K7V plx=86.6124mas
+M_Ks(K7V) =   4.60 ; CNS5_5218_ K7V plx=286.0054mas
 M_Ks(K7V) =  4.60 ; HD_97101_ plx=84.1766mas (K7V, Gray03) (GaiaDR3)
-M_Ks(K7V) = 4.66 ; SchlaufmanLaughlin10 calib for V-Ks=3.37 (surprised it is this bright?)
-M_Ks(K7V) = 4.70 ; sec. stan. GJ 673 = HD 157881 = HIP 85295 ([Fe/H]=+0.28)
-M_Ks(K7V) =  4.74 ; HD_234078_ plx=70.1492mas (K7V, Gray03) (GaiaDR3)
-M_Ks(K7V) = 4.77 ; exemplar GJ 773 = HD 188807
-M_Ks(K7V) = 4.79 ; JohnsonApps09 for V-Ks=3.37 and [Fe/H]=0.0
+M_Ks(K7V) =   4.61 ; CNS5_2779_ K7V plx=72.8638mas
+M_Ks(K7V) =   4.66 ; CNS5_5921_ K7V plx=58.4067mas
+M_Ks(K7V) =  4.66 ; SchlaufmanLaughlin10 calib for V-Ks=3.37 (surprised it is this bright?)
+M_Ks(K7V) =   4.70 ; CNS5_4280_ K7V plx=129.6459mas
+M_Ks(K7V) =  4.70 ; sec. stan. GJ 673 = HD 157881 = HIP 85295 ([Fe/H]=+0.28)
+M_Ks(K7V) =   4.74 ; CNS5_86_ K7 plx=68.0846mas
+M_Ks(K7V) =   4.74 ; CNS5_3430 = HD_234078_ plx=70.1492mas (K7V, Gray03) (GaiaDR3)
+M_Ks(K7V) =   4.77 ; CNS5_3596_ K7V plx=63.3625mas
+M_Ks(K7V) =  4.77 ; exemplar GJ 773 = HD 188807
+M_Ks(K7V) =   4.79 ; CNS5_310_ K7V plx=66.3666mas
+M_Ks(K7V) =  4.79 ; JohnsonApps09 for V-Ks=3.37 and [Fe/H]=0.0
+M_Ks(K7V) =   4.80 ; CNS5_4675_ K7 plx=59.7779mas
+M_Ks(K7V) =   4.80 ; CNS5_2571_ K7Ve plx=77.4072mas
 M_Ks(K7V) =  4.80 ; BD+63_137_ plx=66.3666mas (K7V, Gray03) (GaiaDR3)
-M_Ks(K7V) = 4.81 ; ter. stan. GJ 394 = HD 237903 = 36 UMa B ([Fe/H]=-0.12) (GaiaDR3)
+M_Ks(K7V) =  4.81 ; ter. stan. GJ 394 = HD 237903 = 36 UMa B ([Fe/H]=-0.12) (GaiaDR3)
 M_Ks(K7V) =  4.82 ; GJ 282 B = HD_61606B_ plx=70.9924mas (K7V, Gray03) (GaiaDR3)
-M_Ks(K7V) = 4.83 ; ter. stan. GJ 430 = HIP 56199
-M_Ks(K7V) = 4.83 ; EEM fit to MS data for V-Ks=3.37
+M_Ks(K7V) =   4.84 ; CNS5_1430_ K7V plx=74.1187mas
+M_Ks(K7V) =  4.83 ; ter. stan. GJ 430 = HIP 56199
+M_Ks(K7V) =  4.83 ; EEM fit to MS data for V-Ks=3.37
 M_Ks(K7V) =  4.84 ; HD_120036B_ plx=68.582mas (Gray06, K7-V) (GaiaDR3)
-M_Ks(K7V) = 4.84 ; EEM fit to Reid CNS3 data for V-Ks=3.37
-M_Ks(K7V) =  4.84 ; BD+62_780_ plx=74.1187mas (K7V, Reid95) (GaiaDR3)
-M_Ks(K7V) = 4.86 ; median d<25pc K7V (N=58)
-M_Ks(K7V) = 4.88 ; exemplar GJ 710 ([Fe/H]=-0.11)
-M_Ks(K7V) = 4.89 ; EEM fit to Jao16 for V-Ks=3.37 (rms=0.26mag)
-M_Ks(K7V) =  4.95 ; BD-08_2582_ plx=68.9762mas (K7V, Reid95) (GaiaDR3)
-M_Ks(K7V) = 4.96 ; pri. stan. GJ 820B = HD 201092 = 61 Cyg B ([Fe/H]=-0.21)
-M_Ks(K7V) = 4.98 ; deprecated stan. HD 32450 = GJ 185A plx=119.3399mas (K7V, Henry94) (GaiaDR3)
-M_Ks(K7V) = 4.99 ; ter. stan. GJ 265A = HIP 34222 ([Fe/H]~-0.1)
-M_Ks(K7V) = 5.02 ; ter. stan. GJ 34B = eta Cas B = HD 4614B ([Fe/H]=-0.28) (GaiaDR3)
-M_Ks(K7V) = 5.02 ; exemplar HD_196877_ plx=81.0279mas (K7V, Gray06) (GaiaDR3)
-M_Ks(K7V) = 5.07 ; exemplar GJ 1267 = HD_211970_ plx=76.1595mas (K7V(k), Gray06) (GaiaDR3)
-M_Ks(K7V) = 5.10 ; exemplar zet Dor B = CD-57_1079_ plx=85.5301mas K7Vk (GaiaDR3)
+M_Ks(K7V) =  4.84 ; EEM fit to Reid CNS3 data for V-Ks=3.37
+M_Ks(K7V) =  4.86 ; median d<25pc K7V (N=58)
+M_Ks(K7V) =  4.88 ; exemplar GJ 710 ([Fe/H]=-0.11)
+M_Ks(K7V) =  4.89 ; EEM fit to Jao16 for V-Ks=3.37 (rms=0.26mag)
+M_Ks(K7V) =   4.95 ; CNS5_2263_ K7V plx=68.9762mas
+M_Ks(K7V) =  4.96 ; pri. stan. GJ 820B = HD 201092 = 61 Cyg B ([Fe/H]=-0.21)
+M_Ks(K7V) =  4.98 ; deprecated stan. HD 32450 = GJ 185A plx=119.3399mas (K7V, Henry94) (GaiaDR3)
+M_Ks(K7V) =   4.98 ; CNS5_2293_ K7V plx=157.8879mas
+M_Ks(K7V) =   4.98 ; HD_32450_ K7V plx=119.3399mas
+M_Ks(K7V) =  4.99 ; ter. stan. GJ 265A = HIP 34222 ([Fe/H]~-0.1)
+M_Ks(K7V) =   5.01 ; CNS5_238_ K7Ve plx=168.7186mas
+M_Ks(K7V) =   5.01 ; CNS5_5105_ K7V plx=81.0279mas
+M_Ks(K7V) =  5.02 ; ter. stan. GJ 34B = eta Cas B = HD 4614B ([Fe/H]=-0.28) (GaiaDR3)
+M_Ks(K7V) =  5.02 ; exemplar HD_196877_ plx=81.0279mas (K7V, Gray06) (GaiaDR3)
+M_Ks(K7V) =  5.07 ; exemplar GJ 1267 = HD_211970_ plx=76.1595mas (K7V(k), Gray06) (GaiaDR3)
+M_Ks(K7V) =   5.07 ; CNS5_5521_ K7Vk: plx=76.1595mas
+M_Ks(K7V) =  5.10 ; exemplar zet Dor B = CNS5_1281_ K7Vk plx=85.5301mas
+M_Ks(K7V) =   5.45 ; CNS5_1028_ K7V plx=71.8221mas
+M_Ks(K7V) =   6.59 ; CNS5_4068_ K7 plx=59.8674mas
 
 
 BCv(K7V) =  -1.218 +- 0.034 ; GJ 338B 

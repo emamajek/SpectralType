@@ -8,6 +8,7 @@ Kirkpatrick95 standard:      TVLM 513-46546 - M8.5V
 Henry02 standard: 	     TVLM 513-46546 - M8.5V (cites Kirkpatrick95)
 Henry04 standard:            SCR 1845-6357 (primary standard)
 Kirkpatrick(GrayCorbally09): TVLM 513-46546 (primary standard)
+HenryJao24 standard:         SCR 1845-6357 ("RECONS system")
 
 RECONS list shows SCR 1845-6357A as the nearest M8.5V star, followed
 by DENIS J1048-3956. 
@@ -29,12 +30,15 @@ stars is 3.1 Gyr.
 (V-Ks)(M8.5V) =  8.895 ; halfway M8V(8.73) and M9V(9.06)
 (V-Ks)(M8.5V) = 8.92  ; exemplar DENIS J1048-3956 (nearest middle in M_Ks and M_G)
 (V-Ks)(M8.5V) = 8.924 ; pri. stan. TVLM 513-46546
+(V-Ks)(M8.5V) = 8.943 +-0.025 ; exemplar DENIS J104814.6-395606
 (V-Ks)(M8.5V) =  9.10  ; exemplar LSR J1835+3259 (Burgasser14)
 => adopt (V-Ks)(M8.5V) = 8.90 [updated 8/17/2020]
 
 => adopt (V-J)(M8.5V) = 7.745
 => adopt (V-H)(M8.5V) = 8.437
 => adopt (J-H)(M8.5V) = 0.693
+
+(G-J)(M8.5V) =   4.468 +-0.022 ; exemplar DENIS J104814.6-395606 (GaiaDR3)
 
 (G-Ks)(M8.5V) =   5.136 ; exemplar LSR J1826+3014 
 (G-Ks)(M8.5V) = 5.515 ; sec. stan. SCR J1845-6357
@@ -47,7 +51,9 @@ stars is 3.1 Gyr.
 (G-Ks)(M8.5V) =   5.698 ; exemplar LSR J1835+3259
 (G-Ks)(M8.5V) = 5.824 ; pri. stan. TVLM 513-46546
 (G-Ks)(M8.5V) =   5.828 ; exemplar CTI 012657.5+280202
-=> adopt (G-Ks)(M8.5V) = 5.67 [updated 12/27/2021; M_G=15.97, M_Ks=10.30]
+=> adopt (G-Ks)(M8.5V) = 5.67 [updated 12/27/2021; M_G=15.97, M_Ks=10.30] (GaiaDR2)
+
+(G-Ks)(M8.5V) =   5.559 +-0.023 ; exemplar DENIS J104814.6-395606 (GaiaDR3)
 
 (g-G)(M8.5V) = 4.265 ; 2MASS_J14582453+2839580 M8.5V
 (g-G)(M8.5V) = 4.373 ; pri. stan. TVLM_513-46
@@ -94,20 +100,29 @@ stars is 3.1 Gyr.
 (z-J)(M8.5V) = 2.445 ; pri. stan. TVLM 513-46546 = 2MASSI J1501081+225001 
 => adopt (z-J)(M8.5V) = 2.44 [updated 4/12/2024]
 
-(V-Ic)(M8.5V) = 4.61  ; pri. stan. TVLM 513-46546
-(V-Ic)(M8.5V) = 4.63  ; trend Dieterich14 SpT vs. V-Ic
-(V-Ic)(M8.5V) = 4.706 ; Dahn17 V-Ic trend (M6-L5) for M8.5V
-(V-Ic)(M8.5V) = 4.94  ; sec. stan. SCR 1845-6357
-=> adopt (V-Ic)(M8.5V) = 4.63 [updated 7/4/2020]
-
 (B-V)(M8.5V) = 2.16 ; linear fit to Leggett92 (B-V=0.8367+0.2852*V-I, V-I=4.63)
 => adopt (B-V)(M8.5V) = 2.16 [updated 7/5/2020]
 
+(V-Rc)(M8.5V) =   2.400 +-0.014 ; exemplar DENIS J104814.6-395606
+
+(R-Ic)(M8.5V) =   2.510 +-0.014 ; exemplar DENIS J104814.6-395606
+
+(V-Ic)(M8.5V) =  4.57  ; Kirkpatrick94/Table8
+(V-Ic)(M8.5V) =  4.61  ; pri. stan. TVLM 513-46546
+(V-Ic)(M8.5V) =  4.63  ; trend Dieterich14 SpT vs. V-Ic
+(V-Ic)(M8.5V) =  4.706 ; Dahn17 V-Ic trend (M6-L5) for M8.5V
+(V-Ic)(M8.5V) =  4.910 +-0.014 ; exemplar DENIS J104814.6-395606
+(V-Ic)(M8.5V) =  4.94  ; sec. stan. SCR 1845-6357
+=> adopt (V-Ic)(M8.5V) = 4.63 [updated 7/4/2020]
+
+(V-J)(M8.5V) =   7.852 +-0.024 ; exemplar DENIS J104814.6-395606
+
+(V-H)(M8.5V) =   8.485 +-0.045 ; exemplar DENIS J104814.6-395606
 
 (J-H)(M8.5V) =    0.484 ; LSR_J1826+3014_ M8.5V plx=90.0858mas
 (J-H)(M8.5V) =  0.577 ; sec. stan. SCR J1845-6357 = 2MASS J18450541-6357475 M8.5V plx=249.6651mas
 (J-H)(M8.5V) =    0.599 ; 2MASS_J16334976-6808488_ M8.5V plx=65.1963mas
-(J-H)(M8.5V) =    0.638 ; DENIS_J104814.6-395606_ M8.5Ve: plx=247.2156mas
+(J-H)(M8.5V) =  0.633 +-0.049 ; exemplar DENIS J104814.6-395606 M8.5Ve: plx=247.2156mas
 (J-H)(M8.5V) =    0.647 ; 2MASS_J20103539+0634367_ M8.5V plx=61.849mas
 (J-H)(M8.5V) =    0.653 ; LSR_J1835+3259_ M8.5V plx=175.7930mas
 (J-H)(M8.5V) =    0.667 ; LSPM_J0140+2701_ M8.5V plx=52.6026mas
@@ -136,7 +151,7 @@ stars is 3.1 Gyr.
 (H-Ks)(M8.5V) =   0.446 ; LSR_J1835+3259_ M8.5V plx=175.7930mas
 (H-Ks)(M8.5V) =   0.446 ; V*_DG_Phe_ M8.5e plx=62.789mas
 (H-Ks)(M8.5V) =   0.447 ; 2MUCD_10984_ M8.5V plx=54.3132mas
-(H-Ks)(M8.5V) =   0.453 ; DENIS_J104814.6-395606_ M8.5Ve: plx=247.2156mas
+(H-Ks)(M8.5V) =   0.458 +-0.050 ; exemplar DENIS J104814.6-395606 M8.5Ve: plx=247.2156mas
 (H-Ks)(M8.5V) =  0.459 ; sec. stan. SCR J1845-6357 = 2MASS J18450541-6357475 M8.5V plx=249.6651mas
 (H-Ks)(M8.5V) = 0.46 ; J-Ks=1.13, J-H=0.68 (12/1/2024) 
 (H-Ks)(M8.5V) =   0.460 ; 2MASS_J14582453+2839580_ M8.5V plx=41.1379mas
@@ -154,7 +169,7 @@ stars is 3.1 Gyr.
 (J-Ks)(M8.5V) =  1.036 ; sec. stan. SCR J1845-6357 = 2MASS J18450541-6357475 M8.5V plx=249.6651mas
 (J-Ks)(M8.5V) =   1.055 ; LSPM_J0140+2701_ M8.5V plx=52.6026mas
 (J-Ks)(M8.5V) =   1.080 ; 2MASS_J16334976-6808488_ M8.5V plx=65.1963mas
-(J-Ks)(M8.5V) =   1.091 ; DENIS_J104814.6-395606_ M8.5Ve: plx=247.2156mas
+(J-Ks)(M8.5V) =  1.091 ; exemplar DENIS J104814.6-395606_ M8.5Ve: plx=247.2156mas
 (J-Ks)(M8.5V) =  1.094 ; Sanghi24 M6V-T9V trend
 (J-Ks)(M8.5V) =   1.097 ; 2MASS_J10195684+7324087_ M8.5 plx=46.2396mas
 (J-Ks)(M8.5V) =   1.099 ; LSR_J1835+3259_ M8.5V plx=175.7930mas
@@ -176,26 +191,33 @@ stars is 3.1 Gyr.
 
 (Ks-L')(M8.5V) = 0.398 ; Dupuy12 polynomial
 
-(Ks-W1)(M8.5V) = 0.364 ; sec. stan. SCR 1845-6357/WISE
-(Ks-W1)(M8.5V) = 0.358 ; sec. stan. SCR 1845-6357/allWISE
-(Ks-W1)(M8.5V) = 0.354 ; pri. stan. TVLM 513-46546/WISE
-(Ks-W1)(M8.5V) = 0.349 ; Dupuy12 median (N=5; d<50pc)
-(Ks-W1)(M8.5V) = 0.347 ; pri. stan. TVLM 513-46546/allWISE
-(Ks-W1)(M8.5V) = 0.343 ; Avenhaus12 for V-Ks=8.90
-(Ks-W1)(M8.5V) = 0.317 ; fit to Winters15 data for V-Ks=8.90
-(Ks-W1)(M8.5V) = 0.304 ; Dupuy12 trend 
-=> adopt (Ks-W1)(M8.5V) = 0.31 [updated 12/28/2019]
+(Ks-W1)(M8.5V) =  0.364 ; sec. stan. SCR 1845-6357/WISE
+(Ks-W1)(M8.5V) =  0.358 ; sec. stan. SCR 1845-6357/allWISE
+(Ks-W1)(M8.5V) =  0.354 ; pri. stan. TVLM 513-46546/WISE
+(Ks-W1)(M8.5V) =  0.349 ; Dupuy12 median (N=5; d<50pc)
+(Ks-W1)(M8.5V) =  0.347 ; pri. stan. TVLM 513-46546/allWISE
+(Ks-W1)(M8.5V) =  0.344 ; exemplar DENIS J104814.6-395606
+(Ks-W1)(M8.5V) =  0.343 ; Avenhaus12 for V-Ks=8.90
+(Ks-W1)(M8.5V) =  0.317 ; fit to Winters15 data for V-Ks=8.90
+(Ks-W1)(M8.5V) =  0.304 ; Dupuy12 trend 
+=> adopt (Ks-W1)(M8.5V) = 0.35 [updated 12/1/2024]
+
+(W1-W2)(M8.5V) =   0.289 +-0.032 ; exemplar DENIS J104814.6-395606
+
+(W1-W3)(M8.5V) =   0.641 +-0.030 ; exemplar DENIS J104814.6-395606
+
+(W1-W4)(M8.5V) =   0.877 +-0.090 ; exemplar DENIS J104814.6-395606
 
 (Bp-Rp)(M8.5V) = 5.0312  ; TVLM_513-46546 pri. stan. (GaiaDR2)
 (Bp-Rp)(M8.5V) =  5.0633 ; Ruiz 207-61 = ESO 207-61 exemplar (GaiaDR2)
 (Bp-Rp)(M8.5V) = 5.105   ; M5-M8.5 color trend  (GaiaDR2)
-(Bp-Rp)(M8.5V) = 5.1423  ; SCR_J1845-6357 sec. stan.      (GaiaDR2)
+(Bp-Rp)(M8.5V) = 5.1423  ; SCR_J1845-6357 sec. stan. (GaiaDR2)
 (Bp-Rp)(M8.5V) =  5.1597 ; LSR J1835+3259 exemplar (2MASSI_J1835379+325954) (GaiaDR2)
 => adopt (Bp-Rp)(M8.5V) = 5.10 [updated 11/18/2020] (GaiaDR2)
 [EEM note that M8.5V appears to have the reddest Bp-Rp colors, they go bluer both hotter and cooler]
 
-(G-T)(M8.5V) = 1.575 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=5.10
-=> (G-T)(M8.5V) = 1.575 [updated 10/8/2023] (GaiaDR2)
+(Bp-Rp)(M8.5V) =  5.1537 ; exemplar DENIS J104814.6-395606 (GaiaDR3) 
+
 
 (G-Rp)(M8V)    = 1.57  ; M8V adopted (GaiaDR2)
 (G-Rp)(M8.5V) = 1.5727 ; SCR J1845-6357 sec. stan. (GaiaDR2)
@@ -207,13 +229,17 @@ stars is 3.1 Gyr.
 (G-Rp)(M8.5V) = 1.6027 ; TVLM_513-46546 pri. stan. (GaiaDR2)
 (G-Rp)(M8.5V) = 1.6197 ; Ruiz 207-61 = ESO 207-61 exemplar  (GaiaDR2)
 => adopt (G-Rp)(M8.5V) = 1.59 [updated 11/18/2020] (GaiaDR2)
+
+(G-Rp)(M8.5V) =  1.5425 ; exemplar DENIS J104814.6-395606 (GaiaDR3)
  
 (Bp-G)(M8.5V) =  3.4285 ; TVLM_513-46546 pri. stan. (GaiaDR2)
 (Bp-G)(M8.5V) =  3.4436 ; Ruiz 207-61 = ESO 207-61 exemplar (GaiaDR2)
 (Bp-G)(M8.5V) = 3.51   ; Bp-Rp=5.10, G-Rp=1.59  (GaiaDR2)
 (Bp-G)(M8.5V) =  3.5696 ; SCR J1845-6357 sec. stan. (GaiaDR2)
 (Bp-G)(M8.5V) =  3.5751 ; LSR J1835+3259 exemplar (GaiaDR2)
-=> adopt (Bp-G)(M8.5V) = 3.51 [updated 11/18/2020; Bp-Rp=5.10, G-Rp=1.59]
+=> adopt (Bp-G)(M8.5V) = 3.51 [updated 11/18/2020; Bp-Rp=5.10, G-Rp=1.59] (GaiaDR2)
+
+(Bp-G)(M8.5V) =  3.6111 ; exemplar DENIS J104814.6-395606
 
 (G-V)(M8.5V) =  -3.40  ; exemplar LSR J1835+3259  (GaiaDR2)
 (G-V)(M8.5V) =  -3.377 ; sec. stan. SCR J1845-6357 (GaiaDR2)
@@ -222,6 +248,11 @@ stars is 3.1 Gyr.
 (G-V)(M8.5V) =  -3.100 ; pri. stan. TVLM_513-46546 (GaiaDR2)
 (G-V)(M8.5V) =  -3.09  ; trinomial trend through late Ms (GaiaDR2)
 => adopt (G-V)(M8.5V) = -3.23 [updated 12/27/2021] (GaiaDR2)
+
+(G-V)(M8.5V) =  -3.384 +-0.010 ; exemplar DENIS J104814.6-395606 (GaiaDR3)
+
+(G-T)(M8.5V) = 1.575 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=5.10
+=> (G-T)(M8.5V) = 1.575 [updated 10/8/2023] (GaiaDR2)
 
 M_G(M8.5V) =  16.38 ; pri. stan. TVLM 513-46 (GaiaDR2) 
 M_G(M8.5V) =    16.10 ; 2MASS J20103539+0634367 = LSPMJ2010+0632B (single M8.5 classification) (GaiaDR2)
@@ -275,14 +306,16 @@ BC_Ks(M8.5V) = 3.074 ; Filipazzo15 (field)
 BCv(M8.5V) = -5.78 ; BC_K=3.12, V-K=8.90
 => adopt BCv(M8.5V) = -5.78 mag [updated 11/3/2019]
 
-Mv(M8.5V)   = 19.47  ; sec. stan. SCR 1845-6357
-Mv(M8.5V)   = 19.50  ; exemplar LSR J1835+3259 = 2MASS J18353790+3259545
-Mv(M8.5V)   = 19.505 ; pri. stan. TVLM 513-46546
-Mv(M8.5V)   = 19.20  ; V-Ks=8.9, M_Ks=10.3
-Mv(M8.5V)   = 19.14  ; EEM fit to Dieterich14 data V-K=8.92
+Mv(M8.5V) =  19.505 ; pri. stan. TVLM 513-46546
+Mv(M8.5V) =  19.50  ; exemplar LSR J1835+3259 = 2MASS J18353790+3259545
+Mv(M8.5V) =  19.47  ; sec. stan. SCR 1845-6357
+Mv(M8.5V) =  19.36 ; exemplar DENIS J104814.6-395606
+Mv(M8.5V) =  19.20  ; V-Ks=8.9, M_Ks=10.3
+Mv(M8.5V) =  19.14  ; EEM fit to Dieterich14 data V-K=8.92
+Mv(M8.5V) =   18.13 ; Kirkpatrick94/Table8
 => adopt Mv(M8.5V) = 19.20 [updated 11/1/2019; M_Ks=10.3, V-Ks=8.9]
 
-M_J(M8.5V) =   10.63 ; 2MASS_J16334976-6808488_ M8.5V plx=65.1963mas
+M_J(M8.5V) =    10.63 ; 2MASS_J16334976-6808488_ M8.5V plx=65.1963mas
 M_J(M8.5V) =   11.08 ; LSPM_J1551+6457_ M8.5e plx=43.5202mas
 M_J(M8.5V) =   11.09 ; LSPM_J0140+2701_ M8.5V plx=52.6026mas
 M_J(M8.5V) =   11.15 ; 2MASS_J14582453+2839580_ M8.5V plx=41.1379mas
@@ -294,12 +327,12 @@ M_J(M8.5V) =   11.43 ; LSR_J1826+3014_ M8.5V plx=90.0858mas
 M_J(M8.5V) =   11.49 ; 2MASS_J20103539+0634367_ M8.5V plx=61.849mas
 M_J(M8.5V) =   11.49 ; LSR_J1835+3259_ M8.5V plx=175.7930mas
 M_J(M8.5V) =   11.49 ; SIPS_J1021-2044_ M8.5V plx=45.7343mas
-M_J(M8.5V) =   11.50 ; DENIS_J104814.6-395606_ M8.5Ve: plx=247.2156mas
+M_J(M8.5V) =  11.50 ; exemplar DENIS J104814.6-395606 M8.5Ve: plx=247.2156mas 
 M_J(M8.5V) =   11.53 ; SCR_J1845-6357_ M8.5V plx=249.6651mas
 M_J(M8.5V) =   11.65 ; 2MASS_J03202839-0446358_ M8.5+T5 plx=47.6021mas
 M_J(M8.5V) =   11.69 ; SSSPM_J2258-4639_ M8.5 plx=41.1418mas
 M_J(M8.5V) =   11.71 ; TVLM_513-46_ M8.5V plx=93.1655mas
-
+=> adopt M_J(M8.5V) ~ 11.4 [updated 12/1/2024] 
 
 M_Ks(M8.5V) =    9.55 ; 2MASS_J16334976-6808488_ M8.5V plx=65.1963mas
 M_Ks(M8.5V) =    9.91 ; LSPM_J1551+6457_ M8.5e plx=43.5202mas
@@ -321,7 +354,7 @@ M_Ks(M8.5V) =   10.38 ; 2MASS_J20103539+0634367_ M8.5V plx=61.849mas
 M_Ks(M8.5V) =  10.38  ; EEM fit to Reid CNS3 data for V-Ks=8.90
 M_Ks(M9V)   =   10.40 ; adopted for M9V
 M_Ks(M8.5V) =  10.405 ; exemplar LSR J1835+3259 M8.5V plx=175.7930mas
-M_Ks(M8.5V) =  10.420 ; exemplar DENIS J1048-3956 M8.5Ve: plx=247.2156mas
+M_Ks(M8.5V) =  10.412 ; exemplar DENIS J104814.6-395606 M8.5Ve: plx=247.2156mas
 M_Ks(M8.5V) =  10.46  ; Dupuy12 mean 
 M_Ks(M8.5V) = 10.497  ; sec. stan. SCR 1845-6357 M8.5V plx=249.6651mas
 M_Ks(M8.5V) =   10.52 ; 2MASS_J03202839-0446358_ M8.5+T5 plx=47.6021mas
@@ -400,13 +433,14 @@ TVLM 513-46546 = 2MASSI J1501081+225001 = WISEP J150108.17+225001.4 = TVLM 513-4
 # Secondary Standard
 
 SCR J1845-6357 = 2MASS J18450541-6357475 = DENIS-P J184504.9-635747 
- *M8.5V: Henry04(pri. stan.),Winters11
+ *M8.5V: Henry04(pri. stan.),Winters11,HenryJao24(stan)
 
   Very high proper motion (pmRA, pmDec = 2584, +589 mas/yr ; GaiaDR2).
   Has T6 dwarf companion SCR 1845-6357B at separation 1.2" (discovered
   by Biller), so the photometry - especially IR - will be
-  contaminated.  RECONS list shows this to be the nearest M8.5V. V =
-  17.40 (Winters11), R = 14.99(Winters11), I = 12.46(Winters11), J =
+  contaminated.  RECONS list shows this to be the nearest M8.5V, and
+  HenryJao24 adopt it as the RECONS system M8.5V standard. V = 17.40
+  (Winters11), R = 14.99(Winters11), I = 12.46(Winters11), J =
   9.544+-0.023(2MASS), H = 8.967+-0.027(2MASS), Ks =
   8.508+-0.020(2MASS). V-Ic=17.40-12.46 = 4.94(Winters11), V-Ks =
   17.40 - 8.508 = 8.892.  WISE: AllWISE: plx = 259.45+-1.11 mas
@@ -419,23 +453,65 @@ SCR J1845-6357 = 2MASS J18450541-6357475 = DENIS-P J184504.9-635747
   W4=7.041+-0.084.  Ks-W1=0.364(WISE), Ks-W1=0.358(allWISE).  SCR
   J1845-6357 GaiaDR2: G=14.0228+-0.0005, E(BR/RP)=1.841, Bp-Rp=5.1423,
   Bp-G=3.5696, G-Rp=1.5727. (G-Ks)=5.515, M_G=16.012, M_Ks=10.497.
-  G-V = 14.0228 - 17.40 = -3.377. 
+  G-V = 14.0228 - 17.40 = -3.377.
 
 # Exemplars
 
-DENIS J104814.6-395606
-  M8V: Geballe02(M8Ve),Reid08,Lurie14,Burgasser15
- *M8.5Ve: Henry04(Kirkpatrick12)
-  M9V: Delfosse01,Schmidt07,Faherty09,Rajpurohit13
+DENIS J104814.6-395606 = 2MASS J10481463-3956062 = GJ 11547 = CNS5 2647 = 2MUCD 20385 = Gaia DR3 5393446658454453632 = NHR 2A = WDS J10482-3956A
+  M8V: Geballe02(M8Ve),Lurie14,Burgasser15
+ *M8.5Ve: Henry04(Kirkpatrick12),Henry18(Kirkpatrick24)
+  M9V: Delfosse01,Schmidt07,Reid08,Faherty09,Rajpurohit13,Bardalez19(opt),Hsu21
+  M9.2+-1.1: Sebastian21(photometric)
+  M9.5V: Martin10
   L0: Bouy03
 
   Majority of classifications are M8 or M9 or in between.  Has M_G and
-  M_Ks in middle of distribution among standards+exemplars.
-  V=17.37(Winters15), J=9.538+-0.022(2MASS), H=8.905+-0.044(2MASS),
-  Ks=8.447+-0.023(2MASS), V-Ks=8.92(Hosey15),
+  M_Ks in middle of distribution among standards+exemplars.  In Gaia
+  variability table with ~0.048 mag amplitude, and Fetherolf23 reports
+  TESS variability with Prot=0.253767d and amplitude 1560ppm
+  amplitude. In WDS, but NHR 2B is a background object.
+  V=17.37(Winters15/Hosey15), V=17.39(Henry18),
+  V=17.425951(GaiaDR3/synth), V=17.532+-0.057(Costa05) => adopt
+  V=17.39.  Rc=14.98(Winters15/Hosey15), Rc=14.99(Henry18),
+  Rc=14.995867(GaiaDR3/synth), Rc=15.051+-0.014(Costa05) => adopt
+  Rc=14.99.  Ic=12.47(Hosey15/Winters19), Ic=12.48(Henry18),
+  Ic=12.480715(GaiaDR3/synth), I=12.67(Bouy03) => adopt Ic=12.48.
+  V-Rc = 2.40(Henry18), R-Ic = 2.51(Henry18), V-Ic = 4.91(Henry18).
+  J=9.538+-0.022(2MASS), H=8.905+-0.044(2MASS),
+  Ks=8.447+-0.023(2MASS).  V-J = 7.852 = 17.39(Henry18) -
+  9.538(2MASS).  V-Ks = 8.943 = 17.39(Henry18) - 8.447(2MASS).
   plx=248.08+-0.61mas(Lurie14), M_Ks=10.420+-0.024(2MSS,Lurie14),
-  Mv=19.34. Teff=2500K(Rajpurohit13). (G-Ks)=5.573, M_G=15.985,
-  M_Ks=10.412.
+  Mv=19.34. Teffs: 2360+-106K(Sebastian21),
+  2500K(Rajpurohit13). (G-Ks)=5.573, M_G=15.985, M_Ks=10.412. GaiaDR3:
+  plx=247.2156+-0.0512mas(GaiaDR3), G=14.005882+-0.002824(GaiaDR3),
+  Bp-Rp=5.153656(GaiaDR3), Bp-G=3.611124(GaiaDR3),
+  G-Rp=1.542532(GaiaDR3).  Mass=0.08Msun(Sebastian21),
+  Rad=0.11+-0.01Rsun(Sebastian21).
+
+        G = 14.0059 +-0.0028 ; exemplar DENIS J104814.6-395606
+   (V-Rc)(M8.5V) =   2.400 +-0.014 ; exemplar DENIS J104814.6-395606
+   (R-Ic)(M8.5V) =   2.510 +-0.014 ; exemplar DENIS J104814.6-395606
+   (V-Ic)(M8.5V) =   4.910 +-0.014 ; exemplar DENIS J104814.6-395606
+  (Bp-Rp)(M8.5V) =  5.1537 ; exemplar DENIS J104814.6-395606
+   (Bp-G)(M8.5V) =  3.6111 ; exemplar DENIS J104814.6-395606
+   (G-Rp)(M8.5V) =  1.5425 ; exemplar DENIS J104814.6-395606
+    (G-V)(M8.5V) =  -3.384 +-0.010 ; exemplar DENIS J104814.6-395606
+    (G-J)(M8.5V) =   4.468 +-0.022 ; exemplar DENIS J104814.6-395606
+       Mv(M8.5V) =  19.355 +-0.010 ; exemplar DENIS J104814.6-395606
+      M_G(M8.5V) =  15.971 +-0.003 ; exemplar DENIS J104814.6-395606
+      M_J(M8.5V) =  11.503 +-0.022 ; exemplar DENIS J104814.6-395606
+     M_Ks(M8.5V) =  10.412 +-0.023 ; exemplar DENIS J104814.6-395606
+   (V-Ks)(M8.5V) =   8.943 +-0.025 ; exemplar DENIS J104814.6-395606
+   (G-Ks)(M8.5V) =   5.559 +-0.023 ; exemplar DENIS J104814.6-395606
+    (V-J)(M8.5V) =   7.852 +-0.024 ; exemplar DENIS J104814.6-395606
+    (V-H)(M8.5V) =   8.485 +-0.045 ; exemplar DENIS J104814.6-395606
+    (J-H)(M8.5V) =   0.633 +-0.049 ; exemplar DENIS J104814.6-395606
+   (H-Ks)(M8.5V) =   0.458 +-0.050 ; exemplar DENIS J104814.6-395606
+   (J-Ks)(M8.5V) =   1.091 +-0.032 ; exemplar DENIS J104814.6-395606
+  (Ks-W1)(M8.5V) =   0.344 +-0.033 ; exemplar DENIS J104814.6-395606
+  (W1-W2)(M8.5V) =   0.289 +-0.032 ; exemplar DENIS J104814.6-395606
+  (W1-W3)(M8.5V) =   0.641 +-0.030 ; exemplar DENIS J104814.6-395606
+  (W1-W4)(M8.5V) =   0.877 +-0.090 ; exemplar DENIS J104814.6-395606
 
 CTI 012657.5+280202 = 2MASS J01273917+2805536 = 2MASSI J0127391+280553
  *M8.5V: Kirkpatrick91(non-stan),Kirkpatrick92(PhD),Kirkpatrick94,Kirkpatrick95,Cruz03,Kirkpatrick11

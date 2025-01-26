@@ -29,22 +29,24 @@ Henry02 standards:              GJ 15A - M1.5V (from Henry94)
 				GJ 880 - M1.5V (from Henry94)
 GrayAtlas standard:             BD+43_44A - M1.5V
 GrayNstars standard:            GJ 570B (=HD 131976) - M1.5V
-Kirkpatrick(in GrayCorbally09): GJ 205 - M1.5V
+Cruz07 standard:                GJ 2025 - M1.5V (optical spec. stan.) 
+Kirkpatrick(in GrayCorbally09): GJ 205 - M1.5V (optical spec. stan. from Kirkpatrick91) 
 	       			GJ 570B - M1.5V
 Alonso-Floriano15 standards:    GJ 205 (=HD 36395) - M1.5V ("prototype")
 		  	        GJ 3014 (=G 242-48) - M1.5V ("reference")
 			        GJ 49 (=BD+61_195) - M1.5V ("reference")
 			        GJ 450 (=BD+36_2219) - M1.5V ("reference")
+HenryJao24 standard:            GJ 382 - M1.5V ("RECONS system"; see M2V file)
 
 Joy74 M1.5V stars appear to be approximately M1-V (~M0.75+-1 subtype) on the Kirkpatrick91 system.
 
 (B-V)(M1.5V) =  1.415 ; exemplar GJ 366 = Ross 434
-(B-V)(M1.5V) =  1.434 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
 (B-V)(M1.5V) =   1.448; deprecated stan. GJ 526
-(B-V)(M1.5V) =  1.464 ; exemplar GJ 908 = LHS 550 (metal poor) (Mermilliod91)
+(B-V)(M1.5V) = 1.46   ; exemplar GJ 908 = LHS 550 (metal poor) 
 (B-V)(M1.5V) = 1.474  ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
 (B-V)(M1V)   =   1.483 ; Reid CNS3 sample M1.5 median value (N=32)
 (B-V)(M1V)   = 1.485  ; adopted
+(B-V)(M1.5V) = 1.50   ; Bessel90(interpolated M1V-M2V) 
 (B-V)(M2V)   = 1.505  ; adopted
 (B-V)(M1.5V) = 1.505  ; Koen10 d<25pc median M1.5V
 (B-V)(M1.5V) = 1.512  ; sec. stan. GJ 880 (Mermilliod91)
@@ -57,21 +59,28 @@ Joy74 M1.5V stars appear to be approximately M1-V (~M0.75+-1 subtype) on the Kir
 (U-B)(M1.5V) = 1.21  ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
 => adopt (U-B)(M1.5V) = 1.15 [updated 12/20/2023]
 
-(V-Rc)(M1.5V) = 0.964 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
-(V-Rc)(M1.5V) = 0.972 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
-(V-Rc)(M1.5V) = 0.978 ; Reid CNS3 sample M1.5 median value (N=33)
+(V-Rc)(M1.5V) =  0.96  ; Bessel90(interpolated M1V-M2V) 
+(V-Rc)(M1.5V) =  0.964 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+(V-Rc)(M1.5V) =  0.972 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
+(V-Rc)(M1.5V) =  0.978 ; Reid CNS3 sample M1.5 median value (N=33)
+(V-Rc)(M1.5V) =  0.989 ; Koen10 median M1.5V (N=41) 
 => adopt (V-Rc)(M1.5V) = 0.978 [updated 12/20/2023; V-Ic=2.130, R-Ic=1.154]
 
-(R-Ic)(M1.5V) = 1.081 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
-(R-Ic)(M1.5V) = 1.093 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
-(R-Ic)(M1.5V) = 1.154 ; Reid CNS3 sample M1.5 median value (N=48)
+(R-Ic)(M1.5V) =  1.081 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+(R-Ic)(M1.5V) =  1.09  ; Bessel90(interpolated M1V-M2V) 
+(R-Ic)(M1.5V) =  1.093 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
+(R-Ic)(M1.5V) =  1.139 ; Koen10 median M1.5Vs (N=38) 
+(R-Ic)(M1.5V) =  1.154 ; Reid CNS3 sample M1.5 median value (N=48)
 => adopt (R-Ic)(M1.5V) = 1.154 [updated 12/20/2023; V-Ic=2.130, V-Rc=0.978]
 
-(V-Ic)(M1.5V) =  2.15  ; Hawley96
-(V-Ic)(M1.5V) = 2.130 ; Reid CNS3 sample M1.5 median value (N=33) 
-(V-Ic)(M1.5V) = 2.065 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
-(V-Ic)(M1.5V) = 2.047 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
-=> adopt (V-Ic)(M1.5V) = 2.130 [updated 12/20/2023; V-Rc=0.978, R-Ic=1.154]
+(V-Ic)(M1.5V) =   2.15  ; Hawley96
+(V-Ic)(M1.5V) =  2.128 ; Koen10 median M1.5Vs (N=38) 
+(V-Ic)(M1.5V) =  2.130 ; Reid CNS3 sample M1.5 median value (N=33)
+(V-Ic)(M1.5V) =   2.11 ; Kirkpatrick94/Table8
+(V-Ic)(M1.5V) =  2.065 ; pri. stan. GJ 205 = HD 36395 = HIP 25878 ([Fe/H]~+0.4)
+(V-Ic)(M1.5V) =  2.05  ; Bessel90(interpolated M1V-M2V) 
+(V-Ic)(M1.5V) =  2.047 ; exemplar GJ 908 = LHS 550 (metal poor) (Landolt standard)
+=> adopt (V-Ic)(M1.5V) = 2.13 [updated 12/20/2023] (V-Rc=0.978, R-Ic=1.154)
 
 (V-J)(M1.5V) = 3.36 (+-0.23 stdev) ; Lepine12
 
@@ -324,6 +333,7 @@ Mv(M1.5V) =  9.86 ; Koen10 d<25pc median for M1.5V
 Mv(M1.5V) =  9.89 ; Finch14 calibration for V-Ks=4.10
 Mv(M1.5V) =  9.91 ; JohnsonApps09 calibration for V-Ks=4.10
 Mv(M1.5V) =  9.94 ; Dieterich14 calibration for V-Ks=4.12
+Mv(M1.5V) =  10.00 ; Kirkpatrick94/Table8
 Mv(M1.5V) =  10.02 ; Henry04 calibration for V-Ks=4.10
 Mv(M1.5V) =  11.05 ; deprecated stan. GJ 625
 => adopt Mv(M1.5V)   = 9.85 [updated 12/10/2020] (M_Ks=5.75, V-Ks=4.10)
@@ -707,7 +717,7 @@ GJ 450 = HIP 57802 = NLTT 28756 = G 148-13 = MCC 135 = TIC 144400022
   Bp-G=1.113252(GaiaDR3), G-Rp=1.049184(GaiaDR3).  V-Ks = 9.751345 -
   5.606 = 4.145. 
 
-GJ 908 = LHS 550 = BR Psc = HIP 117473 = Lal 46650 = BD+01 4774
+GJ 908 = HIP 117473 = LHS 550 = BR Psc = Lal 46650 = BD+01 4774
   M0V: Newton14(near-IR)
   M1V: Stephenson86,Henry94,Hawley97,Henry02
   M1V Fe-1: Keenan89
@@ -722,12 +732,25 @@ GJ 908 = LHS 550 = BR Psc = HIP 117473 = Lal 46650 = BD+01 4774
   One of three M1.5s in Boeshaar76, although one were called out as
   standards.  Type has mostly oscillated between ~M1 and ~M2 over the
   years. Star is a Landolt09 UBVRI photometric standard star.
+  Apparently low metallicity: 
   [Fe/H]=-0.95+-0.19, as does Mann15 [Fe/H]=-0.45+-0.08.
   V=8.983+-0.012(Mermilliod91), V=8.993+-0.0012(Landolt09),
-  B-V=1.464+-0.028(Mermilliod91), B-V=1.434+-0.0016(Landolt09),
-  U-B=1.104+-0.025(Mermilliod91), U-B=1.105+-0.0020(Landolt09),
-  V-Rc=0.964+-0.0008(Landolt09), Rc-Ic=1.081+-0.0016(Landolt09),
-  V-Ic=2.047+-0.0016(Landolt09). J=5.827+-0.023(2MASS),
+  B-V=1.434+-0.0016(Landolt09),
+  B-V=1.464+-0.028(Mermilliod91),
+  B-V=1.47(Bessel90/STD), 
+  B-V=1.48(Bessel90/Cousins?) => adopt B-V=1.46. 
+  U-B=1.104+-0.025(Mermilliod91),
+  U-B=1.105+-0.0020(Landolt09),
+  V-Rc=0.945(Bessel90/Cousins?),
+  V-Rc=0.952(Bessel90/STD), 
+  V-Rc=0.964+-0.0008(Landolt09) => adopt V-Rc=0.95. 
+  R-Ic=1.075(Bessel90/Cousins?), 
+  R-Ic=1.081+-0.0016(Landolt09),
+  R-Ic=1.081(Bessel90/STD) => adopt R-Ic=1.08.
+  V-Ic=2.02(Bessel90/Cousins?), 
+  V-Ic=2.032(Bessel90/STD), 
+  V-Ic=2.047+-0.0016(Landolt09) => adopt V-Ic=2.03. 
+  J=5.827+-0.023(2MASS),
   H=5.282+-0.031(2MASS),
   Ks=5.043+-0.020(2MASS). V-Ks=3.940(Mermilliod91,2MASS). mbol =
   7.503+-0.025 (JHK => Casagrande08 calib.) => BCv = -1.48, BC_K =

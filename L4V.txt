@@ -8,6 +8,7 @@ Reid08 standard:             2MASS J11550087+2307058 - L4 (pri. stan.)
 Cruz09 standard:             2MASS J11550087+2307058 - L4 ("normal-gravity spectral standard")
 Kirkpatrick09(GrayCorbally): 2MASS J11550087+2307058 - L4 (primary optical standard)
 Kirkpatrick10 standard:      2MASS J21580457−1550098 - L4V (pri. stan. (0.7-2.5um/SpeX))
+Geissler11 standard:         2MASSI J1104012+195921  - L4 (optical spec. stan.) 
 Cruz18 standards:            2MASS J21580457-1550098 - L4 (field gravity NIR stan.)
                              2MASS J05012406−0010452 - L4gamma (low gravity NIR stan.)
 Brock21 standard:            2MASS J21580457-1550098 - L4 (Spex standard)  
@@ -15,6 +16,8 @@ Theissen22 standard:         2MASS J15065441+1321060 - L4 (pri. stan. (0.9-2.45u
 Bravo23 standard:            2MASS J21580457−1550098 - L4 (NIR standard)
 
 Dupuy17: "We therefore conclude that the end of the main sequence occurs within the range of spectral types L3–L5 and luminosities of 10^−4.3 to 10^−3.9 dex, independent of model assumptions."
+
+Kirkpatrick19 20pc census of L dwarfs has the nearest L4 objects as: 2MASS J05002100+0330501, SDSSp J120358.19+001550.3, 2MASS J17534518-6559559, 2MASSI J1721039+334415, WISEA J071552.38-114532.9, GJ 564B, GJ 564C, 2MASSW J1004392-333518. However the only one with L4 optical and NIR types was 2MASS J05002100+0330501 (L4 opt, L4.1 NIR). 
 
 In the Kirkpatrick21 20pc sample study, none of the objects had both optical and NIR L4.0 types - however strangely they have 11 objects whose optical & NIR types were classified L5.0!
 
@@ -36,7 +39,8 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (V-Rc)(L4V) = 3.24 ; 2MASS J0500+0330 (RECONS)
 => adopt (V-Rc)(L4V) = 3.24 [updated 9/15/2023]
 
-(R-Ic)(L4V) = 2.31 ; 2MASS J0500+0330 (RECONS)
+(R-Ic)(L4V) =  2.189 +-0.094 ; pri. stan. 2MASS J21580457-1550098 
+(R-Ic)(L4V) =  2.31 ; 2MASS J0500+0330 (RECONS)
 => adopt (R-Ic)(L4V) = 2.31 [updated 9/15/2023]
 
 (V-Ic)(L4V) = 5.55  ; 2MASS J0500+0330 (RECONS)
@@ -49,6 +53,7 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 => adopt (V-Ks)(L4V) = 10.5 [updated 8/17/2020]
 
 (J-H)(L4V) =   0.838 ; 2MASS_J08441409-2924121_ plx=35.3553mas L4.0
+(J-H)(L4V) =   0.84  ; dalPonte23 
 (J-H)(L4V) =   0.858 ; 2MASS_J19360187-5502322_ plx=43.1217mas L4
 (J-H)(L4V) =   0.904 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4
 (J-H)(L4V) =   0.906 ; 2MASS_J14243909+0917104_ plx=31.70mas L4V
@@ -56,6 +61,7 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (J-H)(L4V) =   0.960 ; 2MASS_J23192137+7645437_ plx=39.7402mas L4
 (J-H)(L4V) =   0.965 ; 2MASS_J00531899-3631102_ plx=40.199mas L4
 (J-H)(L4V) =   0.966 ; 2MASS_J10461875+4441149_ plx=28.9036mas L4
+(J-H)(L4V) =  0.985 (+-0.070sem,+-0.142 stdev) ; Best18 d<25pc sample L4V median (N=10)
 (J-H)(L4V) =    0.986 ; 2MASS_J05002100+0330501_ plx=75.6081mas L4pec
 (J-H)(L4V) =   0.987 ; 2MASS_J17534518-6559559_ plx=63.5836mas L4
 (J-H)(L4V) =  1.002 (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
@@ -69,8 +75,9 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (J-H)(L4V) =  1.07 (+-0.17 rms) ; Faherty16 
 (J-H)(L4V) =    1.078 ; 2MASS_J00332386-1521309_ plx=43.5089mas L4beta
 (J-H)(L4V) =   1.146 ; 2MASS_J12464678+4027150_ plx=44.7375mas L4V
+(J-H)(L4V) =  1.150 +-0.106 ; pri. stan. 2MASS J11550087+2307058   
 (J-H)(L4V) =   1.172 ; 2MASS_J14252798-3650229_ plx=84.4219mas L4
-(J-H)(L4V) =  1.173 ; pri. stan. 2MASS_J21580457-1550098_ plx=43.1094mas L4
+(J-H)(L4V) =  1.173 +-0.052 ; pri. stan. 2MASS J21580457-1550098 
 (J-H)(L4V) =    1.272 ; 2MASS_J05012406-0010452_ plx=47.7744mas L4gamma
 (J-H)(L4V) =    1.457 ; 2MASS_J16154255+4953211_ plx=32mas L4gamma
 => adopt (J-H)(L4V) = 1.02 [updated 11/15/2024] (H-Ks=0.66, J-Ks=1.68)
@@ -82,15 +89,18 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (H-Ks)(L4V) =    0.582 ; 2MASS_J19360187-5502322_ plx=43.1217mas L4
 (H-Ks)(L4V) =    0.612 ; 2MASS_J14243909+0917104_ plx=31.70mas L4V
 (H-Ks)(L4V) =     0.621 ; 2MASS_J05002100+0330501_ plx=75.6081mas L4pec
+(H-Ks)(L4V) =   0.622 +-0.080 ; pri. stan. 2MASS J11550087+2307058 
 (H-Ks)(L4V) =    0.624 ; 2MASS_J01550354+0950003_ plx=45.0422mas L4
 (H-Ks)(L4V) =   0.632 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L4V) =   0.635 (+-0.030sem,+-0.097stdev) ; Best18 d<25pc sample L4V median (N=10)
+(H-Ks)(L4V) =   0.64 ; dalPonte23 
 (H-Ks)(L4V) =   0.65 ; trend of Dieterich14 for V-Ks=10.9
 (H-Ks)(L4V) = 0.657 ; smoothed trend M9V-L9.5V (rms=0.058mag) (11/4/2024)
 (H-Ks)(L4V) = 0.66  ; J-H=1.02, J-Ks=1.68 (11/4/2024)
 (H-Ks)(L4V) =   0.66 (+-0.17 rms) ; Zhang09 
 (H-Ks)(L4V) =    0.661 ; 2MASS_J12464678+4027150_ plx=44.7375mas L4V
 (H-Ks)(L4V) =   0.67 (+-0.14 rms) ; Faherty16 
-(H-Ks)(L4V) =   0.682 ; pri. stan. 2MASS_J21580457-1550098_ plx=43.1094mas L4
+(H-Ks)(L4V) =   0.682 +-0.049 ; pri. stan. 2MASS J21580457-1550098   
 (H-Ks)(L4V) =    0.684 ; 2MASS_J17534518-6559559_ plx=63.5836mas L4
 (H-Ks)(L4V) =    0.728 ; 2MASS_J08441409-2924121_ plx=35.3553mas L4.0
 (H-Ks)(L4V) =    0.740 ; 2MASS_J23192137+7645437_ plx=39.7402mas L4
@@ -107,12 +117,15 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (J-Ks)(L4V) =   1.440 ; 2MASS_J19360187-5502322_ plx=43.1217mas L4
 (J-Ks)(L4V) =  1.451 ; Reyle18 polynomial
 (J-Ks)(L4V) =  1.47 (+-0.18 rms; N=3) ; Schmidt14
+(J-Ks)(L4V) =  1.48   ; dalPonte23 
 (J-Ks)(L4V) =   1.492 ; 2MASS_J10461875+4441149_ plx=28.9036mas L4
 (J-Ks)(L4V) =   1.508 ; 2MASS_J00531899-3631102_ plx=40.199mas L4
 (J-Ks)(L4V) =   1.518 ; 2MASS_J14243909+0917104_ plx=31.70mas L4V
+(J-Ks)(L4V) =  1.560 (+-0.073sem,+-0.186stdev) ; Best18 d<25pc sample L4V median (N=10)
 (J-Ks)(L4V) =   1.566 ; 2MASS_J08441409-2924121_ plx=35.3553mas L4.0
 (J-Ks)(L4V) =    1.607 ; 2MASS_J05002100+0330501_ plx=75.6081mas L4pec
 (J-Ks)(L4V) =  1.615 (+-0.081 sem, +-0.207 stdev) ; BardalezGagliuffi19 median d<25pc L4.0 (N=20)
+(J-Ks)(L4V) =  1.63 (+-0.38 stdev) ; Geissler11
 (J-Ks)(L4V) =  1.648 ; Sanghi24 M6V-T9V trend
 (J-Ks)(L4V) =   1.671 ; 2MASS_J17534518-6559559_ plx=63.5836mas L4
 (J-Ks)(L4V) = 1.68  ; J-H=1.68, H-Ks=0.66 (11/15/2024) 
@@ -123,11 +136,12 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (J-Ks)(L4V) =  1.73 ; Faherty09
 (J-Ks)(L4V) =  1.74 (+-0.25 rms) ; Faherty16 
 (J-Ks)(L4V) =  1.77 (+-0.05 sem,+-0.30 stdev) ; Schmidt10 N=36
+(J-Ks)(L4V) =  1.772 +-0.101 ; pri. stan. 2MASS J11550087+2307058 
 (J-Ks)(L4V) =    1.770 ; 2MASS_J23392527+3507165_ plx=36.2305mas L4pec
 (J-Ks)(L4V) =   1.780 ; 2MASS_J14075361+1241099_ plx=35.2021mas L4
 (J-Ks)(L4V) =   1.807 ; 2MASS_J12464678+4027150_ plx=44.7375mas L4V
 (J-Ks)(L4V) =   1.812 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4
-(J-Ks)(L4V) =  1.855 ; pri. stan. 2MASS_J21580457-1550098_ plx=43.1094mas L4
+(J-Ks)(L4V) =  1.855 +-0.054 ; pri. stan. 2MASS J21580457-1550098
 (J-Ks)(L4V) =    1.876 ; 2MASS_J00332386-1521309_ plx=43.5089mas L4beta
 (J-Ks)(L4V) =  1.897 (+-0.05: rms) ; Cruz18 field dwarf gravity L4s median N=6
 (J-Ks)(L4V) =   1.942 ; 2MASS_J14252798-3650229_ plx=84.4219mas L4
@@ -136,27 +150,34 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 => adopt (J-Ks)(L4V) = 1.68 [updated 11/15/2024] (H-Ks=0.66, J-H=1.02)
 
 (u-g)(L4V) =   -1.029 ; SDSS_J000112.17+153535.4 L4 plx=31.6293mas
+(u-g)(L4V) =   -0.963 +-0.744 ; pri. stan. 2MASS J11550087+2307058 (SDSS DR16)
 (u-g)(L4V) =   -0.441 ; SDSS_J124646.83+402714.6 L4V plx=44.7375mas
 (u-g)(L4V) =   -0.374 ; SDSS_J110401.29+195922.3 L4 plx=55.7046mas
 (u-g)(L4V) =   -0.334 ; SDSS_J140753.53+124110.1 L4 plx=35.2021mas
 
-(g-r)(L4V) =   1.721 ; SDSS_J000112.17+153535.4 L4 plx=31.6293mas
-(g-r)(L4V) =   2.375 ; SDSS_J140753.53+124110.1 L4 plx=35.2021mas
+(g-r)(L4V) =   1.419 +-0.583 ; pri. stan. 2MASS J11550087+2307058 (SDSS DR16)
+(g-r)(L4V) =    1.721 ; SDSS_J000112.17+153535.4 L4 plx=31.6293mas
+(g-r)(L4V) =    2.375 ; SDSS_J140753.53+124110.1 L4 plx=35.2021mas
 (g-r)(L4V) =  2.44 (+-0.33 sem,+-0.43 stdev) ; med for nearest N=4 SIMBAD L4s w/SDSS IDs
-(g-r)(L4V) =   2.500 ; SDSS_J110401.29+195922.3 L4 plx=55.7046mas
-(g-r)(L4V) =   2.725 ; SDSS_J124646.83+402714.6 L4V plx=44.7375mas
-=> adopt (g-r)(L4V) = 2.4: [updated 11/25/2024]
+(g-r)(L4V) =    2.500 ; SDSS_J110401.29+195922.3 L4 plx=55.7046mas
+(r-i)(L4V) =   2.517 +-0.286 ; pri. stan. 2MASS J11550087+2307058 (SDSS DR16)
+(g-r)(L4V) =    2.725 ; SDSS_J124646.83+402714.6 L4V plx=44.7375mas
+=> adopt (g-r)(L4V) = 2.4 [updated 1/10/2025]
+
+(g-G)(L4V) =   3.601 +-0.511 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3) 
 
 (r-i)(L4V) =  2.22 (+-0.13 rms; N=4) ; Cifuentes20
 (r-i)(L4V) =  2.35 (+-0.56 rms) ; Zhang09 
 (r-i)(L4V) =   2.364 ; SDSS_J110401.29+195922.3 L4 plx=55.7046mas
 (r-i)(L4V) =  2.38 (+-0.27 rms) ; Hawley02 ("r*-i*")
 (r-i)(L4V) =   2.456 ; SDSS_J124646.83+402714.6 L4V plx=44.7375mas
+(r-i)(L4V) =  2.517 +-0.286 ; pri. stan. 2MASS J11550087+2307058 (SDSS DR16)
 (r-i)(L4V) =  2.60 (+-0.20 sem; +-0.23 stdev) ; med for nearest N=4 SIMBAD L4s w/SDSS IDs
 (r-i)(L4V) =   2.749 ; SDSS_J000112.17+153535.4 L4 plx=31.6293mas
 (r-i)(L4V) =   2.842 ; SDSS_J140753.53+124110.1 L4 plx=35.2021mas
-=> adopt (r-i)(L4V) = 2.4: [updated 11/25/2024]
+=> adopt (r-i)(L4V) = 2.5 [updated 1/10/2025]
 
+(i-z)(L4V) =   1.980 +-0.063 ; pri. stan. 2MASS J11550087+2307058 (SDSS DR16)
 (i-z)(L4V) =    1.994 ; SDSS_J124646.83+402714.6 L4V plx=44.7375mas
 (i-z)(L4V) =   2.025 ; Skrzypek15 (i-z_Vega=2.20;i_AB-i_Vega=0.366,z_AB-z_Vega=0.533(Hewett06))
 (i-z)(L4V) =    2.128 ; SDSS_J110401.29+195922.3 L4 plx=55.7046mas
@@ -172,6 +193,7 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (i-J)(L4V) =   4.698 ; SDSS_J124646.83+402714.6 L4V plx=44.7375mas
 (i-J)(L4V) =   4.769 ; SDSS_J000112.17+153535.4 L4 plx=31.6293mas
 (i-J)(L4V) =  4.81 (+-0.33 rms) ; Zhang09
+(i-J)(L4V) =  4.828 +-0.101 ; pri. stan. 2MASS J11550087+2307058 
 (i-J)(L4V) =  4.87 (+-0.08 sem,+-0.16 stdev) ; med for nearest N=4 SIMBAD L4s w/SDSS IDs
 (i-J)(L4V) = 4.95 ; z-J=2.80, i-z=2.15 (11/25/2024) 
 (i-J)(L4V) =   4.967 ; SDSS_J110401.29+195922.3 L4 plx=55.7046mas
@@ -185,12 +207,14 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (i-Ks)(L4V) = 6.52 (+-0.55 rms) ; Zhang09 
 
 (z-J)(L4V) =   2.468 ; SDSS_J000112.17+153535.4 L4 plx=31.6293mas
+(z-J)(L4V) =  2.64 (+-0.43 stdev) ; Geissler11
 (z-J)(L4V) =   2.704 ; SDSS_J124646.83+402714.6 L4V plx=44.7375mas
 (z-J)(L4V) =  2.77 (+-0.09 sem, +-0.18 stdev) ; med for nearest N=4 SIMBAD L4s w/SDSS IDs
 (z-J)(L4V) =  2.80 (+-0.08; rms) ; Hawley02 ("z*-J")
 (z-J)(L4V) = 2.80 ; i-z=2.15, i-J=4.95 (11/25/2024)
 (z-J)(L4V) =  2.81 (+-0.04 sem,+-0.14 stdev) ; Schmidt10 N=12
 (z-J)(L4V) =   2.839 ; SDSS_J110401.29+195922.3 L4 plx=55.7046mas
+(z-J)(L4V) =   2.848 +-0.095 ; pri. stan. 2MASS J11550087+2307058   
 (z-J)(L4V) =   2.860 ; SDSS_J140753.53+124110.1 L4 plx=35.2021mas
 => adopt (z-J)(L4V) = 2.80 [updated 11/25/2024] (i-z=2.15, i-J=4.95)
 
@@ -205,27 +229,60 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 
 (J-W2)(L4V) = 2.74 (+-0.40 rms) ; Faherty16 
 
-(Ks-W1)(L4V) = 0.55 (+-0.14 rms; N=3) ; Schmidt14
-(Ks-W1)(L4V) = 0.598 ; Dupuy12 median N=6 d<50pc
-(Ks-W1)(L4V) = 0.635 ; Dupuy12 trend
-=> adopt (Ks-W1)(L4V) = 0.60 [updated 12/29/2019]
+(Ks-W1)(L4V) =  0.55 (+-0.14 rms; N=3) ; Schmidt14
+(Ks-W1)(L4V) =  0.598 ; Dupuy12 median N=6 d<50pc
+(Ks-W1)(L4V) =  0.600 (+-0.008sem,+-0.071stdev) ; Best18 d<25pc sample L4V median (N=10)
+(Ks-W1)(L4V) = 0.61 ; Ks-W2=0.92, W1-W2=0.31 (1/10/2025)
+(Ks-W1)(L4V) =  0.614 +-0.043 ; pri. stan. 2MASS J21580457-1550098
+(Ks-W1)(L4V) =  0.614 ; EEM fit to Kirkpatrick21 d<20pc L/T dwarfs (1/10/2025)
+(Ks-W1)(L4V) =  0.635 ; Dupuy12 trend
+(Ks-W1)(L4V) =  0.66  ; dalPonte23
+(Ks-W1)(L4V) =  0.694 +-0.057 ; pri. stan. 2MASS J11550087+2307058 
+=> adopt (Ks-W1)(L4V) = 0.61 [updated 1/10/2025] (Ks-W2=0.92, W1-W2=0.31) 
 
-(W1-W2)(L4V) = 0.28 (+-0.03 rms; N=3) ; Schmidt14
-(W1-W2)(L4V) = 0.30 ; Skrzypek15
-=> adopt (W1-W2)(L4V) = 0.29 [updated 12/1/2024] 
+(W1-W2)(L4V) =  0.270 (+-0.036sem,+-0.058stdev) ; Best18 d<25pc sample L4V median (N=10)
+(W1-W2)(L4V) =  0.28 (+-0.03 rms; N=3) ; Schmidt14
+(W1-W2)(L4V) =  0.30  ; Skrzypek15
+(W1-W2)(L4V) =  0.304 +-0.040 ; pri. stan. 2MASS J11550087+2307058
+(W1-W2)(L4V) = 0.31 ; Ks-W2=0.92, Ks-W1=0.61 (1/10/2025)
+(W1-W2)(L4V) =  0.312 ; EEM fit to Kirkpatrick21 d<20pc L/T dwarfs (1/10/2025)
+(W1-W2)(L4V) =  0.33  ; dalPonte23
+(W1-W2)(L4V) =  0.345 +-0.035 ; pri. stan. 2MASS J21580457-1550098 
+=> adopt (W1-W2)(L4V) = 0.31 [updated 1/10/2025] (Ks-W2=0.92, Ks-W1=0.61)
 
-(Bp-Rp)(L4V) = 3.530 (+-0.660 rms) ; median N=8 d<25pc L4s in Sebastian21/SPECULOOS (GaiaDR2)
+(Ks-W2)(L4V) =  0.865 (+-0.057sem,+-0.121stdev) ; Best18 d<25pc sample L4V median (N=10)
+(W1-W3)(L4V) =  0.915 +-0.228 ; pri. stan. 2MASS J21580457-1550098
+(Ks-W2)(L4V) = 0.92 ; Ks-W1=0.61, W1-W2=0.31 (1/10/2025)
+(Ks-W2)(L4V) =  0.938 ; EEM fit to Kirkpatrick21 d<20pc L/T dwarfs (1/10/2025)
+(Ks-W2)(L4V) =  0.99 ; dalPonte23
+(Ks-W2)(L4V) =  0.998 ; pri. stan. 2MASS J11550087+2307058   
+=> adopt (Ks-W2)(L4V) = 0.92 [updated 12/20/2024] (Ks-W1=0.61, W1-W2=0.31)
+
+(W1-W3)(L4V) =  0.610 +-0.524 ; pri. stan. 2MASS J11550087+2307058   
+
+(Bp-Rp)(L4V) =  3.530 (+-0.660 rms) ; median N=8 d<25pc L4s in Sebastian21/SPECULOOS (GaiaDR2)
+
+(Bp-Rp)(L4V) =  2.4391 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3)
+(Bp-Rp)(L4V) =  3.1862 ; pri. stan. 2MASS J21580457-1550098 (GaiaDR3) 
+
+(Bp-G)(L4V) =   1.0076 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3)
+(Bp-G)(L4V) =   1.5829 ; pri. stan. 2MASS J21580457-1550098 (GaiaDR3) 
 
 (G-Rp)(L4V) =  1.764 ; Reyle18 polynomial (GaiaDR2)
 (G-Rp)(L4V) =  1.71  ; Kiman19 (GaiaDR2)
+
+(G-Rp)(L4V) =  1.4314 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3)
+(G-Rp)(L4V) =  1.6033 ; pri. stan. 2MASS J21580457-1550098 (GaiaDR3) 
+
 
 (G-J)(L4V)  =  5.115 ; Reyle18 polynomial (GaiaDR2) 
 
 (G-J)(L4V) =    5.016 ; 2MASS_J00332386-1521309_ plx=43.5089mas L4beta (GaiaDR3)
 (G-J)(L4V) =    5.103 ; 2MASS_J23392527+3507165_ plx=36.2305mas L4pec (GaiaDR3)
 (G-J)(L4V) =   5.149 ; 2MASS_J10461875+4441149_ plx=28.9036mas L4 (GaiaDR3)
+(G-J)(L4V) =  5.152 +-0.041 ; pri. stan. 2MASS J21580457-1550098 (GaiaDR3) 
+(G-J)(L4V) =  5.163 +-0.089 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3) 
 (G-J)(L4V) =   5.177 ; 2MASS_J19360187-5502322_ plx=43.1217mas L4 (GaiaDR3)
-(G-J)(L4V) =  5.177 ; pri. stan. 2MASS_J21580457-1550098_ plx=43.1094mas L4 (GaiaDR3)
 (G-J)(L4V) =   5.181 ; 2MASS_J01550354+0950003_ plx=45.0422mas L4 (GaiaDR3)
 (G-J)(L4V) =   5.190 ; 2MASS_J12464678+4027150_ plx=44.7375mas L4V (GaiaDR3)
 (G-J)(L4V) =   5.199 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4 (GaiaDR3)
@@ -238,9 +295,8 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (G-J)(L4V) =   5.298 ; 2MASS_J00531899-3631102_ plx=40.199mas L4 (GaiaDR3)
 (G-J)(L4V) =   5.301 ; 2MASS_J23192137+7645437_ plx=39.7402mas L4 (GaiaDR3)
 (G-J)(L4V) =    5.409 ; 2MASS_J05012406-0010452_ plx=47.7744mas L4gamma (GaiaDR3)
-=> adopt (G-J)(L4V) = 5.20 [updated 5/24/2024] 
-
-
+=> adopt (G-J)(L4V) = 5.16 [updated 1/10/2025]
+(EEM: remarkably the two L4 standards have G-J colors within 0.015 mag of each other)
 
 (G-Ks)(L4V) =   6.617 ; 2MASS_J19360187-5502322_ plx=43.1217mas L4 (GaiaDR3)
 (G-Ks)(L4V) =   6.629 ; 2MASS_J11040127+1959217_ plx=55.7046mas L4 (GaiaDR3)
@@ -252,9 +308,10 @@ Teff(L4V) =  1644 K ; Sanghi23 M6V-T9V field dwarf polynomial
 (G-Ks)(L4V) =  6.874 ; 2MASS_J05002100+0330501_ plx=75.6081mas L4pec (GaiaDR3)
 (G-Ks)(L4V) =   6.892 ; 2MASS_J00332386-1521309_ plx=43.5089mas L4beta (GaiaDR3)
 (G-Ks)(L4V) =   6.918 ; 2MASS_J17534518-6559559_ plx=63.5836mas L4 (GaiaDR3)
+(G-Ks)(L4V) =  6.935 +-0.055 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3)  
 (G-Ks)(L4V) =   6.997 ; 2MASS_J12464678+4027150_ plx=44.7375mas L4V (GaiaDR3)
 (G-Ks)(L4V) =   7.001 ; 2MASS_J23192137+7645437_ plx=39.7402mas L4 (GaiaDR3)
-(G-Ks)(L4V) =  7.032 ; pri. stan. 2MASS_J21580457-1550098_ plx=43.1094mas L4 (GaiaDR3)
+(G-Ks)(L4V) =  7.007 +-0.037 ; pri. stan. 2MASS J21580457-1550098  (GaiaDR3)
 (G-Ks)(L4V) =   7.060 ; 2MASS_J00011217+1535355_ plx=31.6293mas L4 (GaiaDR3)
 (G-Ks)(L4V) =   7.064 ; 2MASS_J14075361+1241099_ plx=35.2021mas L4 (GaiaDR3)
 (G-Ks)(L4V) =    7.151 ; 2MASS_J14252798-3650229_ plx=84.4219mas L4 (GaiaDR3)
@@ -352,22 +409,87 @@ Liebert06 did not record any R-Ic colors for L4V stars.
 
 # Primary Standards
 
-2MASS J11550087+2307058
-  *L4: Kirkpatrick05(opt.anchor), Kirkpatrick09(pri.opt.stan.)
+2MASS J11550087+2307058 = 2MASSW J1155009+230706 = SDSS J115500.89+230705.7 = SDSS J115500.89+230705.6 = 2MUCD 50075 = TIC 156994123 = Gaia DR3 4000867486262635648 
+  *L4V: Kirkpatrick99(pri.stan),Kirkpatrick05(opt.anchor),Reid08(stan),Kirkpatrick08(stan),Kirkpatrick09(pri.opt.stan.)
+   L4_FLD-G: Martin17
 
-   Primary optical L4 standard following Kirkpatrick05 and Kirkpatrick09. 
+   Primary optical standard for L4V between Kirkpatrick99,
+   Kirkpatrick05, and Kirkpatrick99.  Also one of the first three L4Vs
+   classified by Kirkpatrick99 in defining the L dwarf sequence (along
+   with 2M J0129+3517 and GD165B). However, it is rather faint, its
+   photometric errors in catalogs like 2MASS, WISE, SDSS are somewhat
+   large, and it lacks a trigonometric parallax. Presumably its
+   faintness is one reason it does not appear among the near-IR/IRTF
+   surveys as a near-IR standard?  There is no default parallax in
+   SIMBAD, however there are some photometric distance estimates:
+   Faherty09 estimtates d=36+-4pc and Schmidt10
+   d=46.0+-8.8pc. I=19.50(Bouy03).  SDSSDR16 photometry for SDSS
+   J115500.89+230705.6: u=23.649+-0.541, g=24.612+-0.511,
+   r=23.193+-0.281, i=20.676+-0.051, z=18.696+-0.037. 2MASS:
+   J=15.848+-0.087(2MASS), H=14.698+-0.061(2MASS), Ks=14.076+-0.051(2MASS). 
 
-2MASS J21580457−1550098
- *L4: Kirkpatrick10(near-IR,"L4:" optical),Cruz18(stan,field gravity NIR),Bravo23(stan/NIR)
+        G = 21.0106+-0.0199 ; pri. stan. 2MASS J11550087+2307058   
+  (Bp-Rp)(L4V) =  2.4391 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3) 
+   (Bp-G)(L4V) =  1.0076 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3)   
+   (G-Rp)(L4V) =  1.4314 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3)    
+    (G-J)(L4V) =   5.163 +-0.089 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3)    
+   (G-Ks)(L4V) =   6.935 +-0.055 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3)    
+    (J-H)(L4V) =   1.150 +-0.106 ; pri. stan. 2MASS J11550087+2307058   
+   (H-Ks)(L4V) =   0.622 +-0.080 ; pri. stan. 2MASS J11550087+2307058   
+   (J-Ks)(L4V) =   1.772 +-0.101 ; pri. stan. 2MASS J11550087+2307058   
+  (Ks-W1)(L4V) =   0.694 +-0.057 ; pri. stan. 2MASS J11550087+2307058   
+  (W1-W2)(L4V) =   0.304 +-0.040 ; pri. stan. 2MASS J11550087+2307058   
+  (W1-W3)(L4V) =   0.610 +-0.524 ; pri. stan. 2MASS J11550087+2307058   
+   (u-g)(L4V) =  -0.963 +-0.744 ; pri. stan. 2MASS J11550087+2307058 (SDSS DR16)
+   (g-r)(L4V) =   1.419 +-0.583 ; pri. stan. 2MASS J11550087+2307058 (SDSS DR16)
+   (r-i)(L4V) =   2.517 +-0.286 ; pri. stan. 2MASS J11550087+2307058 (SDSS DR16)
+   (i-z)(L4V) =   1.980 +-0.063 ; pri. stan. 2MASS J11550087+2307058 (SDSS DR16)
+   (z-J)(L4V) =   2.848 +-0.095 ; pri. stan. 2MASS J11550087+2307058   
+   (g-G)(L4V) =   3.601 +-0.511 ; pri. stan. 2MASS J11550087+2307058 (GaiaDR3)    
+   (i-J)(L4V) =   4.828 +-0.101 ; pri. stan. 2MASS J11550087+2307058  
+
+2MASS J21580457-1550098 = GJ 13177 = CNS5 5429 = Gaia DR3 6838931126125203968	
+ *L4: Bouy03,Cruz07(L4:/opt),Kirkpatrick10(near-IR,L4:/optical),Schneider14(L4/NIR),Cruz18(stan,field gravity NIR),Best18(L4.0/adopted),BardalezGagliuffi19(L4.0/opt),Bravo23(stan/NIR)
+  L4_FLD-G: Martin17(NIR)
+  L4.0_INT-G: Bouy22(NIR)
+  L4.0+-1.0: Sebastian21(photometric)
+  L4.3:: BardalezGagliuffi14(NIR)
+  L5.0: Burgasser10(NIR),Best20(NIR)
 
   Primary L4 near-IR standard following Kirkpatrick10 and Cruz18.
-  (J-Ks)=1.855+-0.054(Cruz18/2MASS). plx=43.1094mas(GaiaDR3) =>
+  (J-Ks)=1.855+-0.054(Cruz18/2MASS).  Liebert06 lists two lines of
+  photometry for this star:
+  Rc=20.771+-0.086(Liebert06#1/Koen13/SIMBAD),
+  Rc=21.254+-0.193(Liebert06#2),
+  Ic=18.582+-0.037(Liebert06#1/Koen13/SIMBAD),
+  Ic=18.849+-0.067(Liebert06#2),
+  R-Ic=2.189+-0.094(Liebert06#1/err_calc), R-Ic=2.405(Liebert06#2)
+  I=18.559+-0.024(Gizis03), Ic=18.98(Sebastian21),
+  Z=16.263+-0.060(Gizis03), plx=43.1094+-0.9074mas(GaiaDR3) =>
   M_G=18.39, M_J=13.21, M_H=12.04, M_Ks=11.36.
-  Teff=1475+-65K(Sanghi23),
+  Teff=1475+-65K(Sanghi23), 1695+-120K(Sebastian21),
   1800K(Sanghi23/BT-Settl). logL=-4.08+-0.03(Sanghi23) =>
   Mbol=14.94(Sanghi23/IAU2015scale).  BC_Ks = Mbol - M_Ks =
   14.94(Sanghi23) - 11.36(2MASS,GaiaDR3) = 3.58.  BC_J = Mbol - M_J =
   14.94(Sanghi23) - 13.21(2MASS,GaiaDR3) = 1.73.
+  plx=44.69+-7.32mas(Smart18).
+
+        G = 20.1924+-0.0074 ; pri. stan. 2MASS J21580457-1550098   
+   (R-Ic)(L4V) =   2.189 +-0.094 ; pri. stan. 2MASS J21580457-1550098   
+  (Bp-Rp)(L4V) =  3.1862 ; pri. stan. 2MASS J21580457-1550098   
+   (Bp-G)(L4V) =  1.5829 ; pri. stan. 2MASS J21580457-1550098   
+   (G-Rp)(L4V) =  1.6033 ; pri. stan. 2MASS J21580457-1550098   
+    (G-J)(L4V) =   5.152 +-0.041 ; pri. stan. 2MASS J21580457-1550098   
+      M_G(L4V) =  18.365 +-0.046 ; pri. stan. 2MASS J21580457-1550098   
+      M_J(L4V) =  13.213 +-0.061 ; pri. stan. 2MASS J21580457-1550098   
+     M_Ks(L4V) =  11.358 +-0.058 ; pri. stan. 2MASS J21580457-1550098   
+   (G-Ks)(L4V) =   7.007 +-0.037 ; pri. stan. 2MASS J21580457-1550098   
+    (J-H)(L4V) =   1.173 +-0.052 ; pri. stan. 2MASS J21580457-1550098   
+   (H-Ks)(L4V) =   0.682 +-0.049 ; pri. stan. 2MASS J21580457-1550098   
+   (J-Ks)(L4V) =   1.855 +-0.054 ; pri. stan. 2MASS J21580457-1550098   
+  (Ks-W1)(L4V) =   0.614 +-0.043 ; pri. stan. 2MASS J21580457-1550098   
+  (W1-W2)(L4V) =   0.345 +-0.035 ; pri. stan. 2MASS J21580457-1550098   
+  (W1-W3)(L4V) =   0.915 +-0.228 ; pri. stan. 2MASS J21580457-1550098   
 
 # Variant Standard
 

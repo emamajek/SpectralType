@@ -28,6 +28,7 @@ Alonso-Floriano15 standards:    GJ 15A   - M1.0V ("prototype")
 		  	        GJ 3340 (=LHS 1747) - M1.0V ("reference")
 			        GJ 412A (=BD+44 2051A) - M1.0V ("reference")
 Kirkpatrick16 standard:  	GJ 229A (=HD 42581) - M1V
+HenryJao24 standard:            GJ 514   - M1.0V ("RECONS system")
 
 JohnsonMorgan53 listed no M1V standards and 3 M1V non-standards (GJ
 15A, GJ 424, and GJ 514). GJ15A is now considered M1.5V and GJ 514 is
@@ -84,16 +85,17 @@ both Henry and Hawley agree upon as M1V.
 (U-B)(M1V) = 1.08  ; ter. stan. GJ 424 = HIP 55360 ([Fe/H]~-0.5) 
 => adopt (U-B)(M1V) = 1.19 [updated 10/10/2023]
 
-(V-Rc)(M1V) = 0.875 ; MS color trend for V-Ks=3.92 (but seems suprisingly blue?)
-(V-Rc)(M1V) =  0.94 ; Bessell91 "old disk"
-(V-Rc)(M1V) = 0.93  ; ter. stan. GJ 424 = HIP 55360 ([Fe/H]~-0.5) 
-(V-Rc)(M1V) =  0.94  ; The84  
-(V-Rc)(M1V) = 0.959 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
-(V-Rc)(M1V) =  0.960 ; Reid CNS3 sample M1 median value (N=34)
-(V-Rc)(M1V) = 0.961 ; pri. stan. GJ 229A = HD 42581
-(V-Rc)(M1V) = 0.977 ; exemplar GJ 887 = Lacaille 9352 ([Fe/H]=-0.17)
-(V-Rc)(M1V) = 0.99  ; sec. stan. GJ 412A = HIP 54211 ([Fe/H]~-0.4)
-=> adopt (V-Rc)(M1V) = 0.96 [updated 10/10/2023; V-Ic=2.01, R-Ic=1.05]
+(V-Rc)(M1V) =  0.875 ; MS color trend for V-Ks=3.92 (but seems suprisingly blue?)
+(V-Rc)(M1V) =   0.94 ; Bessell91 "old disk"
+(V-Rc)(M1V) =  0.93  ; ter. stan. GJ 424 = HIP 55360 ([Fe/H]~-0.5) 
+(V-Rc)(M1V) =   0.94  ; The84  
+(V-Rc)(M1V) =  0.959 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
+(V-Rc)(M1V) =   0.960 ; Reid CNS3 sample M1 median value (N=34)
+(V-Rc)(M1V) =  0.961 ; pri. stan. GJ 229A = HD 42581
+(V-Rc)(M1V) =  0.970 ; median Koen10 M1Vs (N=41) 
+(V-Rc)(M1V) =  0.977 ; exemplar GJ 887 = Lacaille 9352 ([Fe/H]=-0.17)
+(V-Rc)(M1V) =  0.99  ; sec. stan. GJ 412A = HIP 54211 ([Fe/H]~-0.4)
+=> adopt (V-Rc)(M1V) = 0.96 [updated 10/10/2023] (V-Ic=2.01, R-Ic=1.05)
 
 (V-Rj)(M1V) =  1.40 ; Johnson65
 
@@ -120,6 +122,7 @@ both Henry and Hawley agree upon as M1V.
 (V-Ic)(M1V) =  2.053 ; Reid CNS3 sample M1 median value (N=35)
 (V-Ic)(M1V) = 2.06  ; sec. stan. GJ 412A = HIP 54211 ([Fe/H]~-0.4)
 (V-Ic)(M1V) =  2.08 ; Hawley96
+(V-Ic)(M1V) =  2.09 ; Kirkpatrick94/Table8
 => adopt (V-Ic)(M1V) = 2.01 [updated 10/10/2023; V-Rc=0.96, R-Ic=1.05]
 
 (V-Ij)(M1V) =  2.45 ; Johnson65
@@ -160,8 +163,10 @@ both Henry and Hawley agree upon as M1V.
 (J-H)(M1V) = 0.536 ; sec. stan. GJ 412A ([Fe/H]~-0.4)
 (J-H)(M1V) =  0.545 ; GJ 908 (M1V,Henry02)
 (J-H)(M1V) =  0.567 ; GJ 821 = Wolf 918 (M1V,Reid95,Geballe02,Gaidos14)
+(J-H)(M1V) = 0.57  ; dalPonte23 
 (J-H)(M1V) = 0.576 ; ter. stan. GJ 424 
 (J-H)(M1V) =  0.587 ; GJ 367 (M1V,Reid95)
+(J-H)(M1V) = 0.599 (+-0.013 sem,+-0.055 stdev) ; SIMBAD nearest M1Vs (N=28) (12/20/2024) 
 (J-H)(M1V) = 0.602 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
 (J-H)(M1V) = 0.603 ; Reid CNS3 sample M1 median value (N=32)
 (J-H)(M1V) =  0.605 ; GJ 803 (M1VeBa1,Keenan99; pre-MS)
@@ -179,7 +184,8 @@ both Henry and Hawley agree upon as M1V.
 
 (H-Ks)(M1V) = 0.150 ; exemplar GJ 887 
 (H-Ks)(M1V) =  0.19 (+-0.08 rms) ; West11 (again, systematically blue compared to nearby *s)
-(H-Ks)(M1V) = 0.196 ; ter. stan. GJ 424 
+(H-Ks)(M1V) = 0.196 ; ter. stan. GJ 424
+(H-Ks)(M1V) = 0.20  ; dalPonte23 
 (H-Ks)(M1V) = 0.204 ; exemplar GJ 212 ([Fe/H]=+0.08) 
 (H-Ks)(M1V) =  0.211 ; GJ 410 (M1V,Lepine13,Gaidos14)
 (H-Ks)(M1V) =  0.212 ; GJ 821 = Wolf 918 (M1V,Reid95,Geballe02,Gaidos14)
@@ -187,6 +193,7 @@ both Henry and Hawley agree upon as M1V.
 (H-Ks)(M1V) = 0.22  ; pri. stan. GJ 229A
 (H-Ks)(M1V) = 0.227 ; Bessell88(Glass->2MASS)
 (H-Ks)(M1V) = 0.230 ; Reid CNS3 sample M1 median value (N=32)
+(H-Ks)(M1V) = 0.232 (+-0.003 sem,+-0.031 stdev) ; SIMBAD nearest M1Vs (N=28) (12/20/2024) 
 (H-Ks)(M1V) = 0.233 ; sec. stan. GJ 412A  ([Fe/H]~-0.4)
 (H-Ks)(M1V) =  0.239 ; GJ 908 (M1V,Henry02)
 (H-Ks)(M1V) = 0.264 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
@@ -199,16 +206,25 @@ both Henry and Hawley agree upon as M1V.
 (J-K)(M1V) = 0.87 ; Bessell88/Glass
 
 (J-Ks)(M1V) =  0.769 ; sec. stan. GJ 412A ([Fe/H]~-0.4)
+(J-Ks)(M1V) =  0.77  ; dalPonte23 
 (J-Ks)(M1V) =  0.811 ; exemplar GJ 809 = HD 199305 ([Fe/H]=-0.04)
 (J-Ks)(M1V) =  0.827 ; exemplar GJ 212
+(J-Ks)(M1V) = 0.831 (+-0.011 sem,+-0.053 stdev) ; SIMBAD nearest M1Vs (N=28) (12/20/2024) 
 (J-Ks)(M1V) = 0.833 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(M1V) =  0.835 ; Bessell88(Glass->2MASS)
+(J-Ks)(M1V) =  0.840 (+-0.007sem,+-0.035 stdev) ; Hejazi22 dM1.0s d<25pc (N=21) 
 (J-Ks)(M1V) =  0.866 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
 (J-Ks)(M1V) =  0.907 ; GJ 803 (M1VeBa1,Keenan89,pre-MS)
 (J-Ks)(M1V) =  0.934 ; pri. stan. GJ 229
 => adopt (J-Ks)(M1V) = 0.833 [updated 10/24/2024] 
 
 (V-Lj)(M1V) = 4.15  ; Johnson65
+
+(G-J)(M1V) =  2.364 (+-0.28 rms) ; Bentley19
+
+(G-J)(M1V) = 2.245 (+-0.005 sem,+-0.060 stdev) ; Hejazi22 dM1.0s (N=92)
+(G-J)(M1V) = 2.250 (+-0.012 sem,+-0.067 stdev  ; Hejazi22 dM1.0s d<25pc (N=21) 
+(G-J)(M1V) = 2.333 (+-0.017 sem,+-0.086 stdev) ; SIMBAD nearest M1Vs (N=28) (12/20/2024)
 
 (G-Ks)(M1V) =  3.077 ; Bentley18 (GaiaDR2)
 
@@ -217,6 +233,7 @@ both Henry and Hawley agree upon as M1V.
 (G-Ks)(M1V) = 2.9936 ; ter. stan. GJ 424 = BD+66 717 = SZ UMa plx=110.2305mas 
 (G-Ks)(M1V) =  3.014 ; HD_33793 plx=254.1986mas M1VIp (GaiaDR3)
 (G-Ks)(M1V) =  3.027 ; HD_23453 plx=69.5143mas M1V (GaiaDR3)
+(G-Ks)(M1V) = 3.100 (+-0.012 sem,+-0.059 stdev) ; Hejazi22 dM1.0s d<25pc (N=21) (GaiaDR3)
 (G-Ks)(M1V) =  3.103 ; HD_176029 plx=90.0212mas M1.0V (GaiaDR3)
 (G-Ks)(M1V) =  3.108 ; G_226-66 plx=69.8921mas M1V (GaiaDR3)
 (G-Ks)(M1V) =  3.109 ; V*_BR_Psc plx=169.2163mas dM1 (GaiaDR3)
@@ -230,6 +247,7 @@ both Henry and Hawley agree upon as M1V.
 (G-Ks)(M1V) =  3.128 ; BD+02_348 plx=95.1606mas M1V (GaiaDR3)
 (G-Ks)(M1V) =  3.134 ; BD+35_2436 plx=72.9733mas M1V (GaiaDR3)
 (G-Ks)(M1V) = 3.138 ; exemplar GJ 809 = HD 199305 ([Fe/H]=-0.04) plx=142.0543mas M1.0V (GaiaDR3)
+(G-Ks)(M1V) = 3.139 (+-0.014 sem,+-0.081 stdev) ; SIMBAD nearest M1Vs (N=28) (12/20/2024) 
 (G-Ks)(M1V) = 3.14  ; (V-Ks)=3.95, (G-V)=-0.81 (Gaia DR3)
 (G-Ks)(M1V) = 3.14  ; median for Kirkpatrick24 M1Vs d<20pc (N=59)
 (G-Ks)(M1V) = 3.143 ; pri. stan. GJ 229A = HD_42581 plx=173.5740mas M1V (GaiaDR3) ([Fe/H]~solar)
@@ -246,151 +264,201 @@ both Henry and Hawley agree upon as M1V.
 (G-Ks)(M1V) =  3.317 ; BD-11_916 plx=89.1897mas M1V (GaiaDR3)
 (G-Ks)(M1V) =  3.368 ; V*_OT_Ser plx=87.3251mas M1.0V (GaiaDR3)
 (G-Ks)(M1V) =  3.378 ; CD-45_5378 plx=106.1727mas M1.0 (GaiaDR3)
-=> adopt (G-Ks)(M1V) = 3.14 [updated 11/4/2024; V-Ks=3.95, G-V=-0.81]
-
-(G-J)(M1V)   =  2.364 (+-0.28 rms) ; Bentley19
-
-(Ks-W2)(M1V) =  0.194 (+-0.089 rms) ; Bentley19
-
-(W1-W2)(M1V) =  0.061 (+-0.044 rms) ; Bentley19
+=> adopt (G-Ks)(M1V) = 3.14 [updated 11/4/2024] (V-Ks=3.95, G-V=-0.81)
 
 (Ks-W1)(M1V) =  0.137 ; fit to Winters15 data for V-Ks=4.02
 (Ks-W1)(M1V) =  0.133 ; Bentley19
+(Ks-W1)(M1V) =  0.12  ; dalPonte23 
 (Ks-W1)(M1V) =  0.105 ; Best18 
 (Ks-W1)(M1V) =  0.093 ; Avenhaus12 for V-Ks=4.02
-=> adopt (Ks-W1)(M1V) = 0.13 [updated 12/29/2019]
+=> adopt (Ks-W1)(M1V) = 0.12 [updated 12/20/2024]
 
-(g-G)(M1V) =  1.284 ; SDSS_J143900.62+560219.3 dM1 plx=14.2464mas
-(g-G)(M1V) = 1.597 (+-0.019 sem, +-0.100 stdev) ; SIMBAD M1 d<25pc (N=77)
-(g-G)(M1V) =  1.610 ; SDSS_J135925.52+094436.4 M1 plx=14.2346mas
-(g-G)(M1V) =  1.623 ; SDSS_J094820.23+012533.2 M1 plx=15.6425mas
-(g-G)(M1V) = 1.677 ; exemplar GJ 212
-(g-G)(M1V) = 1.723 (+-0.039 sem, +-0.232 stdev) ; SIMBAD M1 d<15pc (N=22)
-(g-G)(M1V) =  1.753 ; SDSS_J132058.20+341643.0_ M1V plx=60.0294mas
-(g-G)(M1V) = 2.129 ; sec. stan. GJ 412A ([Fe/H]~-0.4)
-(g-G)(M1V) =  2.451 ; SDSS_J075949.03+295352.2 M1 plx=13.4376mas
-(g-G)(M1V) = 2.490 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
-(g-G)(M1V) = 2.796 ; pri. stan. GJ 229
-(g-G)(M1V) =  3.270 ; SDSS_J155657.89+025414.6_ M1 plx=21.9572mas
-(g-G)(M1V) =  4.428 ; SDSS_J215053.67-055318.8 M1 plx=18.1829mas
-(g-G)(M1V) =  5.313 ; SDSS_J225556.95+054516.6_ M1V plx=40.3474mas
-=> adopt (g-G)(M1V) = 2.1: [updated 6/29/2023]
+(Ks-W2)(M1V) =  0.17 ; dalPonte23 
+(Ks-W2)(M1V) =  0.194 (+-0.089 rms) ; Bentley19
+=> adopt (Ks-W2)(M1V) = 0.18 [updated 12/20/2024]
 
+(W1-W2)(M1V) =  0.05  ; dalPonte23
+(W1-W2)(M2V) = 0.06 ; Ks-W1=0.12, Ks-W2=0.18 (12/20/2024)
+(W1-W2)(M1V) =  0.061 (+-0.044 rms) ; Bentley19
+=> adopt (W1-W2)(M1V) = 0.06 [updated 12/20/2024] 
+
+(g-G)(M1V) =    1.284 ; SDSS_J143900.62+560219.3 dM1 plx=14.2464mas
+(g-G)(M1V) =   1.610 ; SDSS_J135925.52+094436.4 M1 plx=14.2346mas
+(g-G)(M1V) =   1.623 ; SDSS_J094820.23+012533.2 M1 plx=15.6425mas
+(g-G)(M1V) =   1.661 ; SDSS_J045238.28-005944.7 M1e plx=16.9587mas
+(g-G)(M1V) =   1.673 ; SDSS_J141611.33+232328.4 M1.0V plx=36.5715mas
+(g-G)(M1V) =  1.677 ; exemplar GJ 212 (APASS)
+(g-G)(M1V) =   1.689 ; SDSS_J234937.69+082129.8 M1.0V plx=38.8755mas
+(g-G)(M1V) =   1.753 ; SDSS_J132058.20+341643.0 M1V plx=60.0294mas
+(g-G)(M1V) =   1.877 ; SDSS_J045730.50-035701.1 M1e plx=14.3188mas
+(g-G)(M1V) =  2.129 ; sec. stan. GJ 412A ([Fe/H]~-0.4) (APASS)
+(g-G)(M1V) =   2.145 ; SDSS_J044354.33+240616.7 M1e plx=15.1253mas
+(g-G)(M1V) =   2.451 ; SDSS_J075949.03+295352.2 M1 plx=13.4376mas
+(g-G)(M1V) =  2.490 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1) (APASS)
+(g-G)(M1V) =   2.777 ; SDSS_J105356.72-233236.7 M1e plx=13.9478mas
+(g-G)(M1V) =  2.796 ; pri. stan. GJ 229 (APASS)
+(g-G)(M1V) =   3.270 ; SDSS_J155657.89+025414.6 M1 plx=21.9572mas
+(g-G)(M1V) =   3.496 ; SDSS_J142405.43+383028.4 M1 plx=15.8034mas
+(g-G)(M1V) =    4.213 ; SDSS_J144939.65-011822.4 M1e plx=13.6456mas
+(g-G)(M1V) =    4.428 ; SDSS_J215053.67-055318.8 M1 plx=18.1829mas
+(g-G)(M1V) =    5.313 ; SDSS_J225556.95+054516.6 M1V plx=40.3474mas
+=> adopt (g-G)(M1V) = 2.1: [updated 12/20/2024] ** CHECK **
+
+(u-g)(M1V) =    -0.209 ; SDSS_J215053.67-055318.8 M1 plx=18.1829mas
+(u-g)(M1V) =    0.284 ; SDSS_J144939.65-011822.4 M1e plx=13.6456mas
+(u-g)(M1V) =    0.353 ; SDSS_J225556.95+054516.6 M1V plx=40.3474mas
+(u-g)(M1V) =    0.683 ; SDSS_J142405.43+383028.4 M1 plx=15.8034mas
+(u-g)(M1V) =    1.191 ; SDSS_J155657.89+025414.6 M1 plx=21.9572mas
+(u-g)(M1V) =    1.413 ; SDSS_J105356.72-233236.7 M1e plx=13.9478mas
 (u-g)(M1V) =  2.17 (+-0.51 rms) ; Bochanski07 M1V (active; N=4/279)
-(u-g)(M1V) = 2.49 ; Kesseli17 
-(u-g)(M1V) = 2.53 (+-0.64 rms) ; Bochanski07 M1V (inactive+active; N=279)
+(u-g)(M1V) =   2.263 ; SDSS_J045730.50-035701.1 M1e plx=14.3188mas
+(u-g)(M1V) =   2.403 ; SDSS_J075949.03+295352.2 M1 plx=13.4376mas
+(u-g)(M1V) =  2.49 ; Kesseli17 
+(u-g)(M1V) =   2.523 ; SDSS_J044354.33+240616.7 M1e plx=15.1253mas
+(u-g)(M1V) =  2.53 (+-0.64 rms) ; Bochanski07 M1V (inactive+active; N=279)
 (u-g)(M1V) =  2.54 (+-0.64 rms) ; Bochanski07 M1V (inactive; N=275/279)
-(u-g)(M1V) = 2.62 ; Covey07
-(u-g)(M1V) =  4.272 ; GJ_508.2_ plx=60.03mas M1V
-=> adopt (u-g)(M1V) = 2.53 [updated 6/20/2024] 
+(u-g)(M1V) =  2.62 ; Covey07
+(u-g)(M1V) =   2.849 ; SDSS_J141611.33+232328.4 M1.0V plx=36.5715mas
+(u-g)(M1V) =    3.499 ; SDSS_J234937.69+082129.8 M1.0V plx=38.8755mas
+(u-g)(M1V) =    4.272 ; SDSS_J132058.20+341643.0 M1V plx=60.0294mas
+=> adopt (u-g)(M1V) = 2.53 [updated 12/1/2024]
 
-(g-r)(M1V) =  0.825 ; GJ_678.1_A_ plx=98.84mas M1.0V
-(g-r)(M1V) =  0.908 ; GJ_740_ plx=90.02mas M1.0V
-(g-r)(M1V) =  0.943 ; GJ_803_ plx=102.94mas M1VeBa1
-(g-r)(M1V) =  1.065 ; GJ_908_ plx=169.22mas M1
-(g-r)(M1V) = 1.145 ; sec. stan. GJ 412A ([Fe/H]~-0.4) plx=203.89mas M1.0V
-(g-r)(M1V) =  1.145 ; GJ_87_ plx=95.16mas M1V
-(g-r)(M1V) = 1.206 ; ter. stan. GJ_212_ plx=81.46mas M1.0V
-(g-r)(M1V) =  1.265 ; GJ_9520_ plx=87.33mas M1.0V
-(g-r)(M1V) = 1.269 ; pri. stan. GJ_229_ plx=173.57mas M1V
-(g-r)(M1V) =  1.305 ; GJ_367_ plx=106.17mas M1.0
-(g-r)(M1V) = 1.33  ; Covey07
-(g-r)(M1V) = 1.330 ; smoothed trend SpT vs g-r for SIMBAD d<50pc M dwarfs (4/2024; see M0V.txt)
-(g-r)(M1V) = 1.36  ; Kesseli17 
-(g-r)(M1V) = 1.377 ; Just08/Chonis08 B-V=>g-r for B-V=1.485
-(g-r)(M1V) = 1.39 (+-0.16; rms) ; West11
-(g-r)(M1V) =  1.393 ; GJ_410_ plx=83.76mas M1.0Ve
-(g-r)(M1V) =  1.421 ; GJ_438_ plx=90.73mas M1
-(g-r)(M1V) =  1.423 ; GJ_821_ plx=84.44mas M1V
+(g-r)(M1V) =  1.145 ; sec. stan. GJ 412A ([Fe/H]~-0.4) plx=203.89mas M1.0V (APASS)
+(g-r)(M1V) =  1.206 ; ter. stan. GJ_212_ plx=81.46mas M1.0V (APASS) 
+(g-r)(M1V) =   1.249 ; SDSS_J215053.67-055318.8 M1 plx=18.1829mas
+(g-r)(M1V) =  1.269 ; pri. stan. GJ_229_ plx=173.57mas M1V (APASS) 
+(g-r)(M1V) =   1.288 ; SDSS_J155657.89+025414.6 M1 plx=21.9572mas
+(g-r)(M1V) =  1.33  ; Covey07
+(g-r)(M1V) =  1.330 ; smoothed trend SpT vs g-r for SIMBAD d<50pc M dwarfs (4/2024; see M0V.txt)
+(g-r)(M1V) =   1.338 ; SDSS_J094820.23+012533.2 M1 plx=15.6425mas
+(g-r)(M1V) =   1.357 ; SDSS_J045238.28-005944.7 M1e plx=16.9587mas
+(g-r)(M1V) =  1.36  ; Kesseli17 
+(g-r)(M1V) =   1.372 ; SDSS_J135925.52+094436.4 M1 plx=14.2346mas
+(g-r)(M1V) =  1.377 ; Just08/Chonis08 B-V=>g-r for B-V=1.485
+(g-r)(M1V) =  1.39 (+-0.16; rms) ; West11
 (g-r)(M1V) =  1.43 (+-0.19 rms) ; Bochanski07 M1V (active; N=4/279)
+(g-r)(M1V) =   1.439 ; SDSS_J234937.69+082129.8 M1.0V plx=38.8755mas
+(g-r)(M1V) =   1.466 ; SDSS_J132058.20+341643.0 M1V plx=60.0294mas
+(g-r)(M1V) =   1.467 ; SDSS_J141611.33+232328.4 M1.0V plx=36.5715mas
 (g-r)(M1V) =  1.47 (+-0.44 rms) ; Bochanski07 M1V (inactive; N=275/279)
-(g-r)(M1V) = 1.47 (+-0.44 rms) ; Bochanski07 M1V (inactive+active; N=279)
-(g-r)(M1V) =  1.509 ; CD-52_7989_ plx=78.26mas M1V
-(g-r)(M1V) = 1.637 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
-=> adopt (g-r)(M1V) = 1.33 [updated 6/20/2024]
+(g-r)(M1V) =  1.47 (+-0.44 rms) ; Bochanski07 M1V (inactive+active; N=279)
+(g-r)(M1V) =   1.486 ; SDSS_J044354.33+240616.7 M1e plx=15.1253mas
+(g-r)(M1V) =   1.536 ; SDSS_J075949.03+295352.2 M1 plx=13.4376mas
+(g-r)(M1V) =   1.541 ; SDSS_J142405.43+383028.4 M1 plx=15.8034mas
+(g-r)(M1V) =   1.597 ; SDSS_J045730.50-035701.1 M1e plx=14.3188mas
+(g-r)(M1V) =  1.637 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1) (APASS) 
+(g-r)(M1V) =    2.390 ; SDSS_J105356.72-233236.7 M1e plx=13.9478mas
+(g-r)(M1V) =    4.014 ; SDSS_J144939.65-011822.4 M1e plx=13.6456mas
+(g-r)(M1V) =    5.208 ; SDSS_J225556.95+054516.6 M1V plx=40.3474mas
+=> adopt (g-r)(M1V) = 1.38 [updated 12/20/2024]
 
-(r-i)(M1V) = 0.73 (+-0.10 rms) ; West11
-(r-i)(M1V) = 0.74  ; Kesseli17 
+(r-i)(M1V) =   -3.172 ; SDSS_J132058.20+341643.0 M1V plx=60.0294mas
+(r-i)(M1V) =   -2.422 ; SDSS_J234937.69+082129.8 M1.0V plx=38.8755mas
+(r-i)(M1V) =   -0.978 ; SDSS_J141611.33+232328.4 M1.0V plx=36.5715mas
+(r-i)(M1V) =  0.73 (+-0.10 rms) ; West11
+(r-i)(M1V) =  0.74  ; Kesseli17 
+(r-i)(M1V) =   0.745 ; SDSS_J144939.65-011822.4 M1e plx=13.6456mas
 (r-i)(M1V) =  0.77 (+-0.16 rms) ; Bochanski07 M1V (active; N=4/279)
-(r-i)(M1V) = 0.776 (+-0.05 rms) ; West05 fit for (V-Ic)=2.005
-(r-i)(M1V) = 0.78  ; Kowalski09
+(r-i)(M1V) =  0.776 (+-0.05 rms) ; West05 fit for (V-Ic)=2.005
+(r-i)(M1V) =   0.778 ; SDSS_J225556.95+054516.6 M1V plx=40.3474mas
+(r-i)(M1V) =  0.78  ; Kowalski09
 (r-i)(M1V) =  0.80 (+-0.11 rms) ; Bochanski07 M1V (inactive; N=275/279)
-(r-i)(M1V) = 0.80 (+-0.11 rms) ; Bochanski07 M1V (inactive+active; N=279)
-(r-i)(M1V) = 0.816 ; Jordi06 Pop I calibration for (R-Ic)=1.05
-(r-i)(M1V) = 0.82 (+-0.18; rms) ; West08
-(r-i)(M1V) = 0.868 ; smoothed trend SpT vs r-i for SIMBAD Mdwarfs d<50pc (4/2024)
-(r-i)(M1V) = 0.869 ; Bilir05 calibration for R-Ic=1.05
-(r-i)(M1V) = 0.87 (+-0.11; rms) ; Cifuentes20
-(r-i)(M1V) = 0.88 (+-0.15; rms) ; West05
-(r-i)(M1V) =   0.888 ; GJ_438_ plx=90.73mas M1
-(r-i)(M1V) =   0.889 ; GJ_821_ plx=84.44mas M1V
-(r-i)(M1V) =   0.898 ; GJ_410_ plx=83.76mas M1.0Ve
-(r-i)(M1V) =   0.932 ; GJ_87_ plx=95.16mas M1V
-(r-i)(M1V) =    0.99 (+-0.28; rms) ; Hawley02 ("r*-i*")
-(r-i)(M1V) =  1.004 ; exemplar GJ_212_ plx=81.46mas M1.0V
-(r-i)(M1V) =   1.111 ; GJ_9520_ plx=87.33mas M1.0V
-(r-i)(M1V) =  1.114 ; sec. stan. GJ_412_A_ plx=203.89mas M1.0V
-(r-i)(M1V) =   1.19 ; GJ_740_ plx=90.02mas M1.0V
-(r-i)(M1V) =   1.206 ; GJ_678.1_A_ plx=98.84mas M1.0V
-(r-i)(M1V) =   1.208 ; CD-52_7989_ plx=78.26mas M1V
-(r-i)(M1V) =   1.245 ; deprecated stan. GJ_908_ plx=169.22mas M1
-(r-i)(M1V) =  1.274 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
-(r-i)(M1V) =   1.281 ; GJ_367_ plx=106.17mas M1.0
-(r-i)(M1V) =   1.281 ; GJ_803_ plx=102.94mas M1VeBa1
-(r-i)(M1V) =  1.324 ; pri. stan. GJ_229_ plx=173.57mas M1V
-=> adopt (r-i)(M1V) = 0.82 [updated 6/20/2024]
-[EEM 4/18/2024: extremely odd distribution of values: standards tend to be ~1.0-1.3 but SDSS
-averages are ~0.7-0.9. Why? Smooth distribution of SpT vs r-i for d<50pc M0V-M8.5V stars
-points towards 0.87. Is SIMBAD preferentially listing SpTs for fast-moving metal-poor M dwarfs?
-(e.g. LHS/LP/LP/etc. stars)?  Further examination of color vs. absmag trends may provide answer.
-But for now, we are talking about a primary standard 0.5 mag redder than the average!]
+(r-i)(M1V) =  0.80 (+-0.11 rms) ; Bochanski07 M1V (inactive+active; N=279)
+(r-i)(M1V) =  0.816 ; Jordi06 Pop I calibration for (R-Ic)=1.05
+(r-i)(M1V) =  0.82 (+-0.18; rms) ; West08
+(r-i)(M1V) =   0.867 ; SDSS_J105356.72-233236.7 M1e plx=13.9478mas
+(r-i)(M1V) =  0.868 ; smoothed trend SpT vs r-i for SIMBAD Mdwarfs d<50pc (4/2024)
+(r-i)(M1V) =  0.869 ; Bilir05 calibration for R-Ic=1.05
+(r-i)(M1V) =  0.87 (+-0.11; rms) ; Cifuentes20
+(r-i)(M1V) =  0.88 (+-0.15; rms) ; West05
+(r-i)(M1V) =   0.892 ; SDSS_J045730.50-035701.1 M1e plx=14.3188mas
+(r-i)(M1V) =  0.920 (+-0.033 sem,+-1.835 stdev) ; nearest SIMBAD M1Vs w/SDSS IDs (N=15)
+(r-i)(M1V) =   0.92 ; SDSS_J135925.52+094436.4 M1 plx=14.2346mas
+(r-i)(M1V) =   0.924 ; SDSS_J045238.28-005944.7 M1e plx=16.9587mas
+(r-i)(M1V) =   0.934 ; SDSS_J094820.23+012533.2 M1 plx=15.6425mas
+(r-i)(M1V) =   0.965 ; SDSS_J044354.33+240616.7 M1e plx=15.1253mas
+(r-i)(M1V) =  0.99 (+-0.28; rms) ; Hawley02 ("r*-i*")
+(r-i)(M1V) =  1.004 ; exemplar GJ_212_ plx=81.46mas M1.0V (APASS)
+(r-i)(M1V) =  1.114 ; sec. stan. GJ_412_A_ plx=203.89mas M1.0V (APASS)
+(r-i)(M1V) =  1.245 ; deprecated stan. GJ_908_ plx=169.22mas M1 (APASS)
+(r-i)(M1V) =  1.274 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1) (APASS)
+(r-i)(M1V) =  1.324 ; pri. stan. GJ_229_ plx=173.57mas M1V (APASS)
+(r-i)(M1V) =   1.636 ; SDSS_J075949.03+295352.2 M1 plx=13.4376mas
+(r-i)(M1V) =    2.517 ; SDSS_J155657.89+025414.6 M1 plx=21.9572mas
+(r-i)(M1V) =    2.53 ; SDSS_J142405.43+383028.4 M1 plx=15.8034mas
+(r-i)(M1V) =    3.783 ; SDSS_J215053.67-055318.8 M1 plx=18.1829mas
+=> adopt (r-i)(M1V) = 0.87 [updated 12/20/2024]
+
 
 (g-V)(M1V) = 0.814 ; Jordi06 B-V=>g-V for B-V=1.485
 (g-V)(M1V) = 0.818 ; Just08/Chonis08 B-V=>g-V for B-V=1.485
 => adopt (g-V)(M1V) = 0.816 [updated 9/1/2023]
 
-(i-z)(M1V) = 0.38 ; Dobbie02(synthetic/Pickles98)
-(i-z)(M1V) = 0.41 (+-0.08; rms) ; West11
-(i-z)(M1V) = 0.43 ; Kowalski09
-(i-z)(M1V) = 0.43 ; Kesseli17
-(i-z)(M1V) = 0.46 ; Covey07
-(i-z)(M1V) = 0.46 (+-0.07; rms) ; West08
+(i-z)(M1V) =   -1.17 ; SDSS_J142405.43+383028.4 M1 plx=15.8034mas
+(i-z)(M1V) =   -0.672 ; SDSS_J225556.95+054516.6 M1V plx=40.3474mas
+(i-z)(M1V) =   -0.55 ; SDSS_J105356.72-233236.7 M1e plx=13.9478mas
+(i-z)(M1V) =   -0.197 ; SDSS_J144939.65-011822.4 M1e plx=13.6456mas
+(i-z)(M1V) =   0.018 ; SDSS_J215053.67-055318.8 M1 plx=18.1829mas
+(i-z)(M1V) =   0.041 ; SDSS_J045730.50-035701.1 M1e plx=14.3188mas
+(i-z)(M1V) =  0.38 ; Dobbie02(synthetic/Pickles98)
+(i-z)(M1V) =  0.41 (+-0.08; rms) ; West11
+(i-z)(M1V) =  0.43 ; Kowalski09
+(i-z)(M1V) =  0.43 ; Kesseli17
+(i-z)(M1V) =   0.442 ; SDSS_J155657.89+025414.6 M1 plx=21.9572mas
+(i-z)(M1V) =  0.46 ; Covey07
+(i-z)(M1V) =  0.46 (+-0.07; rms) ; West08
 (i-z)(M1V) =  0.47 (+-0.07; rms) ; Bochanski07 M1V (inactive; N=275/279)
-(i-z)(M1V) = 0.47 (+-0.07; rms) ; Bochanski07 M1V (inactive+active; N=279)
-(i-z)(M1V) = 0.48 (+-0.13; rms) ; West05
-(i-z)(M1V) = 0.50 (+-0.29; rms) ; Hawley02 ("i*-z*")
+(i-z)(M1V) =  0.47 (+-0.07; rms) ; Bochanski07 M1V (inactive+active; N=279)
+(i-z)(M1V) =  0.48 (+-0.13; rms) ; West05
+(i-z)(M1V) =  0.50 (+-0.29; rms) ; Hawley02 ("i*-z*")
 (i-z)(M1V) =  0.58 (+-0.16; rms) ; Bochanski07 M1V (active; N=4/279)
-(i-z)(M1V) =  1.209 ; GJ_508.2_ plx=60.03mas M1V
-=> adopt (i-z)(M1V) = 0.47 [updated 6/20/2024; i-J=1.81, z-J=1.34]
+(i-z)(M1V) =   0.898 ; SDSS_J075949.03+295352.2 M1 plx=13.4376mas
+(i-z)(M1V) =   1.147 ; SDSS_J044354.33+240616.7 M1e plx=15.1253mas
+(i-z)(M1V) =   1.209 ; SDSS_J132058.20+341643.0 M1V plx=60.0294mas
+(i-z)(M1V) =   1.579 ; SDSS_J141611.33+232328.4 M1.0V plx=36.5715mas
+(i-z)(M1V) =   3.045 ; SDSS_J234937.69+082129.8 M1.0V plx=38.8755mas
+=> adopt (i-z)(M1V) = 0.47 [updated 12/20/2024] (i-J=1.81, z-J=1.34)
 
-(i-J)(M1V) =  1.645 ; GJ_438_ plx=90.73mas M1
-(i-J)(M1V) =  1.654 ; GJ_410_ plx=83.76mas M1.0Ve
-(i-J)(M1V) =  1.670 ; GJ_821_ plx=84.44mas M1V
+(i-J)(M1V) =   1.613 ; SDSS_J225556.95+054516.6 M1V plx=40.3474mas
+(i-J)(M1V) =   1.622 ; SDSS_J144939.65-011822.4 M1e plx=13.6456mas
+(i-J)(M1V) =   1.693 ; SDSS_J135925.52+094436.4 M1 plx=14.2346mas
 (i-J)(M1V) =  1.78 (+-0.10; rms) ; Hawley02 ("i*-J")
-(i-J)(M1V) =  1.799 ; GJ_173_ plx=89.19mas M1V
-(i-J)(M1V) =  1.800 ; GJ_212_ plx=81.46mas M1.0V
-(i-J)(M1V) =  1.804 ; GJ_9520_ plx=87.33mas M1.0V
+(i-J)(M1V) =   1.792 ; SDSS_J094820.23+012533.2 M1 plx=15.6425mas
+(i-J)(M1V) =   1.798 ; SDSS_J105356.72-233236.7 M1e plx=13.9478mas
+(i-J)(M1V) =   1.807 ; SDSS_J045238.28-005944.7 M1e plx=16.9587mas
 (i-J)(M1V) = 1.81 ; i-z=0.47, z-J=1.34
-(i-J)(M1V) =  1.828 ; GJ_367_ plx=106.17mas M1.0
-(i-J)(M1V) =  1.862 ; GJ_740_ plx=90.02mas M1.0V
-(i-J)(M1V) =  1.865 ; GJ_87_ plx=95.16mas M1V
-(i-J)(M1V) =  1.872 ; GJ_678.1_A_ plx=98.84mas M1.0V
+(i-J)(M1V) =   1.848 ; SDSS_J045730.50-035701.1 M1e plx=14.3188mas
+(i-J)(M1V) =   1.863 ; SDSS_J142405.43+383028.4 M1 plx=15.8034mas
+(i-J)(M1V) =   1.866 ; SDSS_J215053.67-055318.8 M1 plx=18.1829mas
 (i-J)(M1V) =  1.882 ; sec. stan. GJ 514 = HIP 65859 ([Fe/H]~-0.1)
-(i-J)(M1V) =  1.919 ; GJ_803_ plx=102.94mas M1VeBa1
 (i-J)(M1V) =  2.10 (+-0.23; rms) ; West05
-(i-J)(M1V) =  2.109 ; GJ_908_ plx=169.22mas M1
-(i-J)(M1V) =  2.245 ; GJ_412_A_ plx=203.89mas M1.0V
-(i-J)(M1V) =  2.412 ; GJ_229_ plx=173.57mas M1V
-=> adopt (i-J)(M1V) = 1.81 [updated 6/15/2024; i-z=0.47, z-J=1.34]
+(i-J)(M1V) =   2.135 ; SDSS_J155657.89+025414.6 M1 plx=21.9572mas
+(i-J)(M1V) =   2.425 ; SDSS_J075949.03+295352.2 M1 plx=13.4376mas
+(i-J)(M1V) =   2.556 ; SDSS_J044354.33+240616.7 M1e plx=15.1253mas
+(i-J)(M1V) =    3.549 ; SDSS_J141611.33+232328.4 M1.0V plx=36.5715mas
+(i-J)(M1V) =    4.986 ; SDSS_J234937.69+082129.8 M1.0V plx=38.8755mas
+(i-J)(M1V) =    5.834 ; SDSS_J132058.20+341643.0 M1V plx=60.0294mas
+=> adopt (i-J)(M1V) = 1.81 [updated 12/20/2024] (i-z=0.47, z-J=1.34)
 
-(z-J)(M1V) = 1.20 ; Covey07
-(z-J)(M1V) = 1.25  (+-0.08 rms)  ; Hawley02 ("z*-J")
-(z-J)(M1V) = 1.27  (+-0.21 rms)  ; West08
-(z-J)(M1V) = 1.32  (+-0.41 rms)  ; West11
-(z-J)(M1V) = 1.34  (+-0.09 rms)  ; West05
-(z-J)(M1V) = 1.344 (+-0.028 rms) ; poly fit to d<100pc GCNS for G-Ks=3.18
-(z-J)(M1V) =  4.625 ; GJ_508.2_ plx=60.03mas M1V
-=> adopt (z-J)(M1V) = 1.34 [updated 6/15/2024; i-z=0.47, i-J=1.81]
+(z-J)(M1V) =  1.20 ; Covey07
+(z-J)(M1V) =  1.25 (+-0.08 rms)  ; Hawley02 ("z*-J")
+(z-J)(M1V) =  1.27 (+-0.21 rms)  ; West08
+(z-J)(M1V) =  1.32 (+-0.41 rms)  ; West11
+(z-J)(M1V) =  1.34 (+-0.09 rms)  ; West05
+(z-J)(M1V) =  1.344 (+-0.028 rms) ; poly fit to d<100pc GCNS for G-Ks=3.18
+(z-J)(M1V) =   1.409 ; SDSS_J044354.33+240616.7 M1e plx=15.1253mas
+(z-J)(M1V) =   1.527 ; SDSS_J075949.03+295352.2 M1 plx=13.4376mas
+(z-J)(M1V) =   1.693 ; SDSS_J155657.89+025414.6 M1 plx=21.9572mas
+(z-J)(M1V) =   1.807 ; SDSS_J045730.50-035701.1 M1e plx=14.3188mas
+(z-J)(M1V) =   1.819 ; SDSS_J144939.65-011822.4 M1e plx=13.6456mas
+(z-J)(M1V) =   1.848 ; SDSS_J215053.67-055318.8 M1 plx=18.1829mas
+(z-J)(M1V) =   1.941 ; SDSS_J234937.69+082129.8 M1.0V plx=38.8755mas
+(z-J)(M1V) =   1.970 ; SDSS_J141611.33+232328.4 M1.0V plx=36.5715mas
+(z-J)(M1V) =   2.285 ; SDSS_J225556.95+054516.6 M1V plx=40.3474mas
+(z-J)(M1V) =   2.348 ; SDSS_J105356.72-233236.7 M1e plx=13.9478mas
+(z-J)(M1V) =   3.033 ; SDSS_J142405.43+383028.4 M1 plx=15.8034mas
+(z-J)(M1V) =   4.625 ; SDSS_J132058.20+341643.0 M1V plx=60.0294mas
+=> adopt (z-J)(M1V) = 1.34 [updated 12/20/2024] (i-z=0.47, i-J=1.81)
 
 (NUV-V)(M1V) = 8.86 ; smoothed trend for d<20pc M0V-M7V dwarfs from Cifuentes20
 (NUV-V)(M1V) = 8.97 (+-0.74; 68%CL) ; Cifuentes20 nearest 10 M1Vs (plx>64.5mas)
@@ -480,7 +548,7 @@ Teff(M1V) =   3650 K ; Bessell91 "old disk"
 Teff(M1V) =  3652 K ; Boyajian12 calibration for V-K=4.099,[Fe/H]=0.0
 Teff(M1V) = 3660 K ; Rad=0.4996Rsun & Mann15 calib for M_Ks=5.64, [Fe/H]=0.0
 Teff(M1V) =  3664 K ; sec. stan. GJ 412A (median Teff)
-Teff(M1V) =  3670 K ; ter. stan. GJ 514 (median Teff) 
+Teff(M1V) =  3670 K ; sec. stan. GJ 514 (median Teff) 
 Teff(M1V) =  3677 K ; mean photometric Teff
 Teff(M1V) =   3680 K ; Johnson65 
 Teff(M1V) =  3690 K ; empirical L-R relation for logL=-1.404
@@ -497,6 +565,9 @@ Teff(M1V) =  3765 K ; Passegger18 median Teff for CARMENES M1Vs(N=26)
 Teff(M1V) =  3817 K ; exemplar GJ 809 = HD 199305 ([Fe/H]=-0.04)
 Teff(M1V) =   3860 K ; Bertone04(NextGen)
 Teff(M1V) =   3890 K ; Bertone04(ATLAS)
+Teff(M1V) =  3900 K ; Hejazi22 dM1.0s (N=92)
+Teff(M1V) =  3900 K ; Hejazi22 dM1.0s d<25pc (N=21)
+Teff(M1V) =   3906 K ; Hejazi22 subdwarfs sdM1.0s d<25pc (N=3) 
 => adopt Teff(M1V) = 3660 K (logT=3.563) [updated 4/9/2020]
 
 BCv(M1V) =    -1.697 mag ; Flower96(Teff=3700K) [but unreliable, see Torres10]
@@ -549,6 +620,7 @@ Mv(M1V) =  9.67 mag ; median Koen10 d<25pc M1V
 Mv(M1V) =   9.68 mag ; GJ 4303(A) = HIP 113201(A) (w/dynamical mass)
 Mv(M1V) =  9.77 mag ; exemplar GJ 887 = Lacaille 9352 
 Mv(M1V) =   9.8  mag ; Reid04
+Mv(M1V) =   9.91 mag ; Kirkpatrick94/Table8
 Mv(M1V) =  10.29 mag ; sec. stan. GJ 412A
 => adopt Mv(M1V)   = 9.45 mag [updated 6/18/2024] (V-K=3.95, M_Ks=5.50)
 => adopt M_G(M1V)  = 8.63 mag [updated 6/18/2024] (Mv=9.45, G-V=-0.82) 
@@ -575,11 +647,14 @@ M_G(M1V) =   9.655 ; Wolf 918  (GaiaDR2)
 M_G(M1V) =   10.088 ; HD 33793 (GaiaDR2)
 
 M_G(M1V) =   8.376 ; GJ 282C = HIP 36985 (Biller22 dyn. mass; Mv=9.11, M_Ks=5.17)
+M_G(M1V) =  8.43 (+-0.12sem,+-0.26stdev) ; Hejazi22 dM1.0s d<25pc (N=21)
+M_G(M1V) =  8.47 (+-0.15sem,+-0.17stdev) ; Hejazi22 subdwarfs sdM1.0s d<25pc (N=3) 
 M_G(M1V) =  8.474 ; exemplar GJ 212 (GaiaDR3)
 M_G(M1V) =  8.511 ; pri. stan. GJ 229 (GaiaDR3)
 M_G(M1V) =  8.519 ; exemplar GJ 809 (GaiaDR3)
 M_G(M1V) = 8.63 ; Mv=9.45, G-V=-0.82
 M_G(M1V) =  8.739 ; ter. stan. GJ 424 (GaiaDR3)
+M_G(M1V) = 8.746 (+-0.126 sem,+-0.469 stdev) ; SIMBAD nearest M1Vs (N=28) (12/20/2024) 
 M_G(M1V) =  8.793 ; sec. stan. GJ 514 (GaiaDR3)
 M_G(M1V) =   8.803 ; GJ 4303(A) = HIP 113201(A) (w/dynamical mass)
 M_G(M1V) =  8.937 ; exemplar GJ 887 (GaiaDR3)
@@ -589,15 +664,18 @@ M_J(M1V) =    5.50 ; GJ_803_ M1VeBa1 plx=102.9432mas (pre-MS, ~20 Myr)
 M_J(M1V) =   6.01 ; GJ_740_ M1.0V plx=90.0212mas
 M_J(M1V) =   6.05 ; GJ_825_ M1V plx=251.9124mas
 M_J(M1V) =   6.08 ; GJ_714_ M1V plx=69.5611mas
+M_J(M1V) =   6.09 (+-0.09sem,+-0.26stdev) ; Hejazi22 dM1.0s d<25pc (N=21) 
 M_J(M1V) =   6.11 ; GJ_685_ M1V plx=69.8921mas
 M_J(M1V) =   6.14 ; GJ_212_ M1.0V plx=81.4644mas
 M_J(M1V) =   6.14 ; GJ_410_ M1.0Ve plx=83.7642mas
 M_J(M1V) =   6.19 ; GJ_809_ M1.0V plx=142.0543mas
 M_J(M1V) =   6.21 ; GJ_9592_ M1.0V plx=98.8439mas
+M_J(M1V) =   6.23 (+-0.11sem,+-0.12stdev) ; Hejazi22 subdwarfs sdM1.0s d<25pc (N=3) 
 M_J(M1V) =   6.30 ; GJ_229_ M1V plx=173.5740mas
 M_J(M1V) =   6.32 ; GJ_9520_ M1.0V plx=87.3251mas
 M_J(M1V) =   6.33 ; CD-52_7989_ M1V plx=78.2621mas
-M_J(M1V) =  6.33 ; M_Ks=5.50, J-Ks=0.83 
+M_J(M1V) =  6.33 ; M_Ks=5.50, J-Ks=0.83
+M_J(M1V) =  6.347 (+-0.079 sem,+-0.442 stdev) ; SIMBAD nearest M1Vs (N=28) (12/20/2024) 
 M_J(M1V) =   6.36 ; GJ_390_ M1V plx=78.1746mas
 M_J(M1V) =   6.44 ; GJ_525_ M1V plx=77.4412mas
 M_J(M1V) =   6.46 ; GJ_353_ M1V plx=73.6956mas
@@ -621,14 +699,17 @@ M_Ks(M1V) =  5.10  ; pri. standard GJ 229A
 M_Ks(M1V) =   5.11 ; GJ_825_ M1V plx=251.9124mas
 M_Ks(M1V) =   5.17 ; GJ 282C = HIP 36985 (Biller22 dyn. mass; Mv=9.11, M_Ks=5.17)
 M_Ks(M1V) =   5.17 ; GJ_714_ M1V plx=69.5611mas
+M_Ks(M1V) =  5.20 (+-0.10sem,+-0.28stdev) ; Hejazi22 dM1.0s d<25pc (N=21) 
 M_Ks(M1V) =   5.29 ; GJ 685 (M1V,Lepine13,Gaidos14,Mann15) plx=69.8921mas
 M_Ks(M1V) =   5.29 ; GJ_378_ M1V plx=66.8448mas
 M_Ks(M1V) =   5.30 ; GJ 835 (M1V,Lepine13,Gaidos14)
 M_Ks(M1V) =  5.31  ; exemplar GJ 212 
 M_Ks(M1V) =   5.37 ; GJ_229_ M1V plx=173.5740mas
-M_Ks(M1V) =  5.38  ; exemplar GJ 809 
+M_Ks(M1V) =  5.38  ; exemplar GJ 809
+M_Ks(M1V) =   5.41 (+-0.16sem,+-0.18stdev) ; Hejazi22 subdwarfs sdM1.0s d<25pc (N=3) 
 M_Ks(M1V) =  5.42  ; V-Ks=3.95 => EEM fit to Reid CNS3 data
 M_Ks(M1V) =   5.49 ; CD-52 7989 (M1-V,Gray06;M1V,Gaidos14) plx=78.2621mas
+M_Ks(M1V) =  5.496 (+-0.124 sem,+-0.474 stdev) ; SIMBAD nearest M1Vs (N=28) (12/20/2024) 
 M_Ks(M1V) =   5.50 ; GJ_390_ (M1V,Reid95,Gaidos14) plx=78.1746mas
 M_Ks(M1V) =  5.50  ; V-Ks=3.95 => EEM fit to Jao16
 M_Ks(M1V) =  5.50  ; V-Ks=3.95 => JohnsonApps09 for [Fe/H]=0
@@ -700,6 +781,8 @@ Mass(M1V) =  0.62 Msun  ; EEM Mv vs. Mass fit for binaries (Mv=9.80)
 Mass(M1V) =  0.626 Msun ; Torres10 calibration for Mv=9.64
 => adopt Mass(M1V) = 0.51 Msun [updated 11/15/2023]
 
+logg(M1V) = 4.66 (+-0.005 sem,+-0.040 stdev) ; Hejazi22 dM1.0s (N=92)
+logg(M1V) = 4.69 (+-0.015 sem,+-0.026 stdev) ; Hejazi22 subdwarfs sdM1.0s d<25pc (N=3) 
 logg(M1V) = 4.737 ; M=0.50Msun, R=0.501Rsun
 => adopt logg(M1V) = 4.74 [updated 8/3/2023]
 
@@ -853,7 +936,7 @@ GJ 412A = HIP 54211 = Lal 21258 = G 176-11 = LHS 38 = LFT 757 = BD+44 2051
 GJ 514 = HIP 65859 = LHS 352 = G 063-034 = BD+11 2576 = LFT 1012 = 2MASS J13295979+1022376 (J1330+1022)
   M0V: Stephenson86
   M0.5V: Joy74,Reid95,Hawley97
- *M1V: JM53(non-stan),Boeshaar76(non-stan),Bidelman85(M1),Henry94(stan),Henry02(stan),Kirkpatrick12,Lepine13,Gaidos14
+ *M1V: JM53(non-stan),Boeshaar76(non-stan),Bidelman85(M1),Henry94(stan),Henry02(stan),Kirkpatrick12,Lepine13,Gaidos14,HenryJao24(stan)
   M1.1: Mann15
   M1.62: Terrien15
   M2V: Vyssotsky46,Lee47(M2)
@@ -861,9 +944,10 @@ GJ 514 = HIP 65859 = LHS 352 = G 063-034 = BD+11 2576 = LFT 1012 = 2MASS J132959
   One of three non-standard M1V stars in JohnsonMorgan53, later
   adopted by Henry02 as a M1V standard (and the only one that survives
   as a M1V standard that is single - GJ15A is now M1.5V, and GJ 414 is
-  a tight binary). An exoplanet GJ 514b was detected via RV
-  (Damasso22): msin=5.2Me, P=140.43d.  V=9.02(Mumford56),
-  V=9.029(Koen10), V=9.04(JohnsonMorgan53), V=9.043268(GaiaDR3/synth),
+  a tight binary). HenryJao24 retain it as the RECONS system M1.0V
+  standard.  An exoplanet GJ 514b was detected via RV (Damasso22):
+  msin=5.2Me, P=140.43d.  V=9.02(Mumford56), V=9.029(Koen10),
+  V=9.04(JohnsonMorgan53), V=9.043268(GaiaDR3/synth),
   V=9.048+-0.008(Mermilliod91), V=9.05(HIP), V=9.06(Nikonov57),
   V=9.06(Johnson65) => adopt V=9.048.  U-B=1.204(Koen10),
   U-B=1.22(Johnson65), U-B=1.228+-0.017(Mermilliod91),
