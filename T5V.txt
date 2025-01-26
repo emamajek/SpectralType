@@ -6,8 +6,10 @@ Burgasser03 standard:  2MASS J05591914-1404488 (J0559-1404) - T5 (primary opt/NI
 Burgasser06 standards: 2MASS J15031961+2525196 - T5 (primary standard)
 	    	       2MASS J07554795+2212169 - T5 (alternative standard)
 Kirkpatrick10 stan.:   2MASS J15031961+2525196 - T5 (pri. stan. (0.7-2.5um/SpeX))
+Geissler11 standard:   2MASS J15031961+2525196 - T5 (near-IR spec. stan.) 
 Brock21 standard:      2MASS J15031961+2525196 - T5 (Spex standard)
 Theissen22 standard:   2MASS J05591914-1404488 (J0559-1404) - T5 (pri. stan. (0.9-2.45um/NIRES))
+Bravo23 standard:      2MASS J15031961+2525196 - T5 (NIR standard)
 Burgasser24 standards: 2MASS J15031961+2525196 - dT5 (primary dwarf near-IR standard)
 
 Teff(T5V) =  958 K ; SDSS 0742+2055 (Kirkpatrick21)
@@ -23,14 +25,18 @@ Teff(T5V) = 1164 K ; Dupuy17(Lyon model scale)
 Teff(T5V) = 1126 K ; Kirkpatrick20 (Table 13 polynomial)
 => adopt Teff(T5V) = 1040 K (logT = 3.0170) [updated 12/1/2024]
 
-(J-H)(T5V) = 0.16 (+-0.19 rms) ; Zhang09
+(J-H)(T5V) =   0.16 (+-0.19 rms) ; Zhang09
+(J-H)(T5V) =  -0.09 ; dalPonte23
 
-(H-Ks)(T5V) = -0.01 (+-0.27 rms) ; Zhang09 (note: warmest T subtype to have negative mean H-Ks color)
+(H-Ks)(T5V) =  -0.01 (+-0.27 rms) ; Zhang09 (note: warmest T subtype to have negative mean H-Ks color)
+(H-Ks)(T5V) =    0.07 ; dalPonte23
 
+(J-Ks)(T5V) =  -0.02 ; dalPonte23
 (J-Ks)(T5V) = -0.02  ; M_J=14.88 - M_Ks=14.90
-(J-Ks)(T5V) =   0.15  ; Zhang09 (J-H=0.16, H-Ks=-0.01) 
+(J-Ks)(T5V) =   0.15  ; Zhang09 (J-H=0.16, H-Ks=-0.01)
+(J-Ks)(T5V) =   0.22 (+-0.43 stdev) ; Geisler11
 (J-Ks)(T5V) =   0.293 ; Sanghi24 M6V-T9V trend
-=> adopt (J-Ks)(T5V) = -0.02 [updated 12/5/2020]
+=> adopt (J-Ks)(T5V) = -0.02 [updated 12/20/2020]
 
 (r-i)(T5V) = 1.04 (+-0.83 rms) ; Zhang09
 
@@ -44,16 +50,20 @@ Teff(T5V) = 1126 K ; Kirkpatrick20 (Table 13 polynomial)
 
 (i-Ks)(T5V) = 8.47 (+-0.79 rms) ; Zhang09
 
-(z-J)(T5V) = 3.32 (+-0.21 rms) ; Zhang09
-=> adopt (z-J)(T5V) = 3.3 [updated 11/20/2024]
+(z-J)(T5V) =  3.32 (+-0.21 rms) ; Zhang09
+(z-J)(T5V) =  3.34 (+-0.18 stdev) ; Geissler11
+=> adopt (z-J)(T5V) = 3.33 [updated 1/10/2025]
 
 (z-H)(T5V) = 3.61 (+-0.10 rms) ; Zhang09
 => adopt (z-H)(T5V) = 3.6 [updated 11/20/2024]
 
 (z-Ks)(T5V) = 3.70 (+-0.40 rms) ; Zhang09
 
-(W1-W2)(T5V) = 1.70 ; Skrzypek15
-=> adopt (W1-W2)(T5V) = 1.70 [updated 12/1/2024] 
+(Ks-W1)(T5V) =  0.38 ; dalPonte23
+
+(W1-W2)(T5V) =  1.61 ; dalPonte23
+(W1-W2)(T5V) =  1.70 ; Skrzypek15
+=> adopt (W1-W2)(T5V) = 1.65 [updated 12/20/2024] 
 
 M_J(T5V) =   14.42 ; 2MASS_2331-4718 calc using Kirkpatrick20 (plx=56.5mas)
 M_J(T5V) =   14.65 ; CWISE_0613+4808 calc using Kirkpatrick20 (plx=49.7mas)
@@ -170,7 +180,7 @@ Rad(T5V) = 0.1009 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial
 # Primary Standard
 
 2MASS J15031961+2525196	= WISEP J150319.70+252525.4
- *T5: Kirkpatrick11,Burgasser06(pri.stan.),Kirkpatrick20(T5.0) 
+ *T5: Kirkpatrick11,Burgasser06(pri.stan.),Kirkpatrick20(T5.0),Bravo23(stan/NIR)
   T5.5: Burgasser10(SpeX,near-IR)
   T6: Burgasser03(opt.,Mace14,Kirkpatrick20)
 

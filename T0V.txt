@@ -50,7 +50,8 @@ Burgasser06 stan.:   SDSS J120747.17+024424.8   - T0 (primary standard)
 	    	     SDSS J042348.57-041403.5AB - T0 (alternative standard)
 Kirkpatrick10 stan:  SDSS J120747.17+024424.8   - T0 (pri. stan. (0.7-2.5um/SpeX))
 	      	     SDSS J083717.22-000018.3 (SDSS J0837-0000) - T0 opt. stan. (0.6-1.0um)
-Brock21 standard:    SDSS J120747.17+024424.8   - T0 (Spex standard) 
+Geissler11 standard: SDSS J120747.17+024424.8 - T0 (near-IR spec. stan.) 
+Brock21 standard:    SDSS J120747.17+024424.8 - T0 (Spex standard) 
 Theissen22 standard: SDSS J015141.69+124429.6 (J0151+1244) - T0 (pri. stan. (0.9-2.45um/NIRES)
 Bravo23 standard:    WISEPA J015010.86+382724.3 - T0 (NIR standard)
 Burgasser24 stans:   SDSS J120747.17+024424.8   - T0 (pri. near-IR dwarf stan)
@@ -66,14 +67,39 @@ Teff(T0V) =  1255 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(T0V) =  1323 K ; Dupuy17(Lyon model scale)
 => adopt Teff(T0V) = 1250 K (logT = 3.0969) [updated 12/1/2024]
 
-(J-H)(T0V) = 1.019 +-0.096 ; pri. stan. SDSS J120747.17+024424.8
-(J-H)(T0V) = 1.24 (+-0.23 rms) ; Zhang09 
+(J-H)(T0V) =   0.79 +-0.152 ; PSO_J133.8016-02.5658 (Best18; d=24.13pc)
+(J-H)(T0V) =    0.80 ; dalPonte23
+(J-H)(T0V) =   0.82 +-0.142 ; PSO_J258.2413+06.7612 (Best18; d=22.16pc)
+(J-H)(T0V) =   0.91 +-0.134 ; PSO_J180.1475-28.6160 (Best18; d=24.12pc)
+(J-H)(T0V) =   0.96 +-0.078 ; SDSS_J152039.82+354619.8 (Best18; d=17.64pc)
+(J-H)(T0V) =  1.019 +-0.096 ; pri. stan. SDSS J120747.17+024424.8
+(J-H)(T0V) =   1.02 +-0.078 ; PSO_J103.0927+41.4601 (Best18; d=14.17pc)
+(J-H)(T0V) =   1.09 +-0.106 ; WISEPA_J015010.86+382724.3 (Best18; d=18.64pc)
+(J-H)(T0V) =   1.24 (+-0.23 rms) ; Zhang09
+=> adopt (J-H)(T0V) = 0.99 [updated 1/1/2025] 
 
-(H-Ks)(T0V) = 0.43 (+-0.14 rms) ; Zhang09 
-(H-Ks)(T0V) = 0.575 +-0.088 ; pri. stan. SDSS J120747.17+024424.8
+(H-Ks)(T0V) =   0.35 +-0.183 ; PSO_J133.8016-02.5658 (Best18; d=24.13pc)
+(H-Ks)(T0V) =   0.39 +-0.141 ; PSO_J180.1475-28.6160 (Best18; d=24.12pc)
+(H-Ks)(T0V) =  0.43 (+-0.14 rms) ; Zhang09
+(H-Ks)(T0V) =    0.50 ; dalPonte23 
+(H-Ks)(T0V) =   0.54 +-0.098 ; WISEPA_J015010.86+382724.3 (Best18; d=18.64pc)
+(H-Ks)(T0V) =   0.56 +-0.155 ; PSO_J258.2413+06.7612 (Best18; d=22.16pc)
+(H-Ks)(T0V) =   0.57 +-0.070 ; PSO_J103.0927+41.4601 (Best18; d=14.17pc)
+(H-Ks)(T0V) =  0.575 +-0.088 ; pri. stan. SDSS J120747.17+024424.8
+(H-Ks)(T0V) =   0.58 +-0.070 ; SDSS_J152039.82+354619.8 (Best18; d=17.64pc)
+=> adopt (H-Ks)(T0V) = 0.55 [updated 1/1/2025] 
 
-(J-Ks)(T0V) = 1.521 ; Sanghi24 M6V-T9V trend
-(J-Ks)(T0V) = 1.67  ; Zhang09 (J-H=1.24, H-Ks=0.43) 
+(J-Ks)(T0V) =   1.14 +-0.152 ; PSO_J133.8016-02.5658 (Best18; d=24.13pc)
+(J-Ks)(T0V) =   1.30 +-0.134 ; PSO_J180.1475-28.6160 (Best18; d=24.12pc)
+(J-Ks)(T0V) =    1.30  ; dalPonte23 
+(J-Ks)(T0V) =   1.38 +-0.142 ; PSO_J258.2413+06.7612 (Best18; d=22.16pc)
+(J-Ks)(T0V) =  1.521 ; Sanghi24 M6V-T9V trend
+(J-Ks)(T0V) =   1.53 (+-0.33 stdev) ; Geissler11
+(J-Ks)(T0V) =   1.54 +-0.078 ; SDSS_J152039.82+354619.8 (Best18; d=17.64pc)
+(J-Ks)(T0V) =   1.59 +-0.078 ; PSO_J103.0927+41.4601 (Best18; d=14.17pc)
+(J-Ks)(T0V) =   1.63 +-0.106 ; WISEPA_J015010.86+382724.3 (Best18; d=18.64pc)
+(J-Ks)(T0V) =  1.67  ; Zhang09 (J-H=1.24, H-Ks=0.43)
+=> adopt (J-Ks)(T0V) = 1.52 [updated 1/1/2025] 
 
 (r-i)(T0V) = 1.74 (+-1.49 rms!) ; Zhang09
 (r-i)(T0V) = 2.43 (+-0.50; rms) ; Hawley02 ("r*-i*")
@@ -92,13 +118,32 @@ Teff(T0V) =  1323 K ; Dupuy17(Lyon model scale)
 (i-Ks)(T0V) = 7.75 (+-0.31 rms) ; Zhang09
 
 (z-J)(T0V) = 2.78 (+-0.29 rms) ; Zhang09
+(z-J)(T0V) = 2.81 (+-0.42 stdev) ; Geissler11
 (z-J)(T0V) = 2.812 +-0.079 ; pri. stan. SDSS J120747.17+024424.8 
 (z-J)(T0V) = 2.88 (+-0.50; rms) ; Hawley02 ("z*-J*")
 (z-J)(T0V) = 2.89 ; Zhang09 (i-z=3.39, i-J=6.28)
+=> adopt (z-J)(T0V) = 2.81 [updated 1/10/2025] 
 
 (z-H)(T0V) = 3.81 (+-0.22 rms) ; Zhang09
 
-(z-Ks)(T0V) = 4.35 (+-0.15 rms) ; Zhang09 
+(z-Ks)(T0V) = 4.35 (+-0.15 rms) ; Zhang09
+
+(Ks-W1)(T0V) =  0.556 ; Dupuy12 N=1
+(Ks-W1)(T0V) =  0.589 +-0.065 ; pri. stan. SDSS J120747.17+024424.8
+(Ks-W1)(T0V) =  0.696 ; Dupuy12 trend
+(Ks-W1)(T0V) =  0.78  ; dalPonte23
+=> adopt (Ks-W1)(T0V) = 0.64 [updated 12/20/2024] 
+
+(W1-W2)(T0V) =  0.613 +-0.040 ; pri. stan. SDSS J120747.17+024424.8
+(W1-W2)(T0V) =  0.68 ; Skrzypek15
+(W1-W2)(T0V) =  0.68 ; dalPonte23 
+=> adopt (W1-W2)(T0V) = 0.68 [updated 12/20/2024]
+
+(Ks-W2)(T0V) = 1.32 ; Ks-W1=0.64, W1-W2=0.68 (12/20/2024)
+(Ks-W2)(T0V) = 1.46 ; dalPonte23
+=> adopt (Ks-W2)(T0V) = 1.32 [updated 12/20/2024] 
+
+(W1-W3)(T0V) =   2.000 +-0.206 ; pri. stan. SDSS J120747.17+024424.8
 
 (G-J)(T0V) = 5.563 +-0.074 ; pri. stan. SDSS J120747.17+024424.8
 
@@ -138,15 +183,6 @@ BC_Ks(T0V) = 3.122 ; Filipazzo15 (field) [denser trend through L/T]
 BC_Ks(T0V) = 3.028 ; Looper08
 => adopt BC_Ks(T0V) = 3.12 [updated 11/1/2019]
 
-(Ks-W1)(T0V) = 0.556 ; Dupuy12 N=1
-(Ks-W1)(T0V) = 0.589 +-0.065 ; pri. stan. SDSS J120747.17+024424.8
-(Ks-W1)(T0V) = 0.696 ; Dupuy12 trend
-
-(W1-W2)(T0V) =  0.613 +-0.040 ; pri. stan. SDSS J120747.17+024424.8
-(W1-W2)(T0V) = 0.68 ; Skrzypek15
-=> adopt (W1-W2)(T0V) = 0.68 [updated 12/1/2024]
-
-(W1-W3)(T0V) =   2.000 +-0.206 ; pri. stan. SDSS J120747.17+024424.8
 
 
 BC_Ks(T0V) = 3.301 mag ; Sanghi23 calibration (M6V-T9V) 
@@ -157,7 +193,7 @@ logL(T0V) = -4.634 ; Sanghi23 M6V-T9V field dwarf polynomial
 Rad(T0V) = 0.1133 Rsun ; Sanghi23 calibration (M6V-T9V) 
 
 
-# Primary Standard
+# Standards
 
 SDSS J120747.17+024424.8 = 2MASS J12074717+0244249 = CNS5 2974 = Gaia DR3 3891943958833927424
    L8: Hawley02(optical;Mace14,Best20,Best21)
@@ -207,6 +243,17 @@ SDSS J120747.17+024424.8 = 2MASS J12074717+0244249 = CNS5 2974 = Gaia DR3 389194
     (z-J)(T0V) =   2.812 +-0.079 ; pri. stan. SDSS J120747.17+024424.8 
     (i-z)(T0V) =   3.050 +-0.119 ; pri. stan. SDSS J120747.17+024424.8
 
+WISEP J015010.86+382724.3 = GJ 10260 = CNS5 471	 
+  L9.0: Bouy22,Ashraf22(L9)
+ *T0: Kirkpatrick11(NIR/SpeX),Mace14,Best18/Best20(NIR/adopted),Kirkpatrick21(NIR/adopted),Hsu21,Bravo23(stan/NIR)
+
+  Bravo23: "This object [WISEP J015010.86+382724.3] replaces the T0
+  near-infrared standard (2MASS J12074717+0244249), which is a
+  suspected spectral binary (Burgasser et al. 2010)" 5th nearest T0
+  object in Kirkpatrick21 d<20pc sample (plx=44.6+-3.2mas).
+  Vtan=77.4+-0.9km/s(Kirkpatrick11), and UVW =
+  -94.6,-15.5,-5.2km/s(Hsu21), so "old".
+
 # Variant Standards
 
 J0645-6646 - d/sdT0 (Burgasser24; pri. mild subdwarf near-IR stan.)
@@ -229,13 +276,6 @@ SDSS J042348.57-041403.5AB = 2MASS J04234858-0414035 = CNS5 1089 = TIC 248614052
    z*=17.33+-0.03(Geballe02).
 
 # Other Objects
-
-WISEP J015010.86+382724.3 = GJ 10260 = CNS5 471	 
-  L9.0: Bouy22,Ashraf22(L9)
- *T0: Kirkpatrick11(NIR/SpeX),Mace14,Best18/Best20(NIR/adopted),Kirkpatrick21(NIR/adopted),Hsu21,Bravo23(stan/NIR)
-
-  5th nearest T0 object in Kirkpatrick21 d<20pc sample (plx=44.6+-3.2mas).
-  Vtan=77.4+-0.9km/s(Kirkpatrick11), and UVW = -94.6,-15.5,-5.2km/s(Hsu21), so "old". 
 
 
 WISE J0611-0410
