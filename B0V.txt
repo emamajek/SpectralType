@@ -80,11 +80,15 @@ so <(B-V)o> is likely to be bluer than that.
 
 (V-Rj)(B0V) = -0.13 ; Johnson65
 
-(V-Rc)(B0V) = -0.16 ; Winkler97 
+(V-Rc)(B0V) = -0.118 ; pri. stan. HD 149438 = tau Sco
+(V-Rc)(B0V) = -0.16  ; Winkler97 
+
+(R-Ic)(B0V) = -0.176 ; pri. stan. HD 149438 = tau Sco
 
 (V-Ij)(B0V) = -0.41 ; Johnson65
 
-(V-Ic)(B0V) = -0.34 ; Winkler97 
+(V-Ic)(B0V) = -0.294 ; pri. stan. HD 149438 = tau Sco
+(V-Ic)(B0V) = -0.34  ; Winkler97 
 
 (V-Jj)(B0V) = -0.70 ; Johnson65
 
@@ -94,21 +98,25 @@ so <(B-V)o> is likely to be bluer than that.
 
 (V-Kj)(B0V) = -0.93 ; Johnson65
 
-(V-K)(B0V)  = -0.89 ; Winkler97/SAAO
+(V-K)(B0V) = -0.870 ; Glass97(SAAO/Carter90_system)
+(V-K)(B0V) = -0.89  ; Winkler97/SAAO
 
 (V-Ks)(B0V) = -0.74  ; Wegner14 (2MASS) [note: how can these differ by ~0.2 mag between systems?!]
 (V-Ks)(B0V) = -0.958 ; PecautMamajek13 
 
 (V-Lj)(B0V) = -0.91 ; Johnson65
 
-(J-H)(B0V) = -0.11 ; Winkler97/SAAO
+(J-H)(B0V) = -0.11  ; Winkler97/SAAO
+(J-H)(B0V) = -0.124 ; Glass97(SAAO/Carter90_system)
 
-(J-H)(B0V) = -0.09  ; Deng20/2MASS
+(J-H)(B0V) =  -0.09  ; Deng20/2MASS
 (J-H)(B0V) = -0.133 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.301
+(J-H)(B0V) = -0.168 ; Koornneef83 (J-H=-0.12) converted to 2MASS via Carpenter01 (B0 stars)
 (J-H)(B0V) = -0.19 (+-0.010 rms) ; SteadHoare11/2MASS
-=> adopt (J-H)(B0V) = -0.133 [updated 4/30/2024]
+=> adopt (J-H)(B0V) = -0.17 [updated 2/1/2025]
 
-(H-K)(B0V)  = -0.08 ; Winkler97/SAAO
+(H-K)(B0V) = -0.08  ; Winkler97/SAAO
+(H-K)(B0V) = -0.094 ; Glass97(SAAO/Carter90_system) 
 
 (H-Ks)(B0V) = -0.04  ; Deng20/2MASS
 (H-Ks)(B0V) = -0.048 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.301
@@ -116,6 +124,8 @@ so <(B-V)o> is likely to be bluer than that.
 => adopt (H-Ks)(B0V) = -0.048 [updated 4/30/2024]
 
 (J-Ks)(B0V) = -0.13 ; Deng20/2MASS
+
+(K-L)(B0V) = -0.104 ; Glass97(SAAO/Carter90_system)
 
 (Ks-W1)(B0V) =  0.016 ; EEM trend for d<30pc for B-V=-0.307
 (Ks-W1)(B0V) = -0.04  ; Deng20 (J-W1=-0.17, J-Ks=-0.13)
@@ -135,6 +145,8 @@ so <(B-V)o> is likely to be bluer than that.
 (g-r)(B0V) = -0.45 ; Kesseli17
 (g-r)(B0V) = -0.59 ; Covey07
 => adopt (g-r)(B0V) = -0.45 [updated 6/20/2024]
+
+(g-V)(B0V) = 
 
 (r-i)(B0V) = -0.32 ; Deng20
 (r-i)(B0V) = -0.33 ; Kesseli17
@@ -257,59 +269,50 @@ GrayAtlas does not list a B0V standard
 
 # Primary Standard
 
-HD 149438 = tau Sco = HR 6165
+HD 149438 = tau Sco = Paikauhale = HR 6165 = 23 Sco = HIP 81266 = Gaia DR3 6044420729667868928 
  *B0V: Cannon(B0),MK43,Lesh68(stan),Jaschek78(JM53),Bertiau58,Jaschek64(all),Garrison67,Hiltner69(stan),MK73,Garrison77(stan),MK78,Garrison79(stan),Houk82,Keenan85,Garcia89,Garrison96,Sota11(stan),Negueruela24(stan)
   B0.2V: Walborn71,Walborn90
 
   Tau Sco was considered B0V by most until Walborn71 called it B0.2V,
-  but now it is considered B0V standard again by Sota11. The only B0V
-  in Garrison96's table "The Brightest Stars". Hauck97 ubvy photometry
-  => dereddened following Castelli91 => (b-y)o = -0.114, co = -0.094,
-  e(b-y) = 0.021, T(Balona94) = 31048K, T(Napiwotski93) = 32689 K.
-  Mermilliod91 photometry: V=2.825+-0.009, B-V=-0.252+-0.007,
-  U-B=-1.023+-0.013 => Q-method(1/2020) => (B-V)o=-0.296, (U-B)o=-1.055,
-  E(B-V)= 0.044, Av=0.143. VanLeeuwen07 lists plx = 6.88+-0.53 mas =>
-  145+-11 pc (comensurate with its membership to Upper Sco OB
-  association with d = 145 pc; de Zeeuw et al. 1999). Hence, Mv =
-  -3.13+-0.17 mag, logL = 4.31+-0.07 dex.
+  but now it is considered B0V standard again by Sota11 and
+  Neguerela24. The only B0V in Garrison96's table "The Brightest
+  Stars". Hauck97 ubvy photometry => dereddened following Castelli91
+  => (b-y)o = -0.114, co = -0.094, e(b-y) = 0.021, T(Balona94) =
+  31048K, T(Napiwotski93) = 32689 K.  Mermilliod91 photometry:
+  V=2.825+-0.009, B-V=-0.252+-0.007, U-B=-1.023+-0.013 =>
+  Q-method(1/2020) => (B-V)o=-0.296, (U-B)o=-1.055, E(B-V)=0.044,
+  Av=0.143. V=2.835(GCPD/VRIc_Cousins76),
+  V-Rc=-0.091(GCPD/VRIc_Cousins76), R-Ic=(GCPD/VRIc_Cousins76),
+  V-Ic=-0.238(GCPD/VRIc_Cousins76).  (V-Rc)o: Adopting
+  E(V-Rc)/E(B-V)=0.603(Winkler97) and E(B-V)=0.044 => (V-Rc)o = -0.118
+  = (V-Rc) - E(V-Rc) = (V-Rc) - 0.603*E(B-V) = -0.091 - 0.603*0.044.
+  (V-Ic)o: Adopting E(V-Ic)/E(B-V)=1.281(Winkler97) and E(B-V)=0.044
+  => (V-Ic)o = -0.294 = (V-Ic) - E(V-Ic) = (V-Ic) - 1.281*E(B-V) =
+  -0.238 - 1.281*0.044.  (R-Ic)o = (V-Ic) - (V-Rc) = -0.294 - -0.118 =
+  -0.176.  VanLeeuwen07 lists plx = 6.88+-0.53 mas => 145+-11 pc
+  (comensurate with its membership to Upper Sco OB association with d
+  = 145 pc; de Zeeuw et al. 1999). Hence, Mv = -3.13+-0.17 mag, logL =
+  4.31+-0.07 dex.
 
-  All Teff estimates: 
-  28060K(Sokolov95),
-  28590+-526K(Fremat05#2),
-  28959K(Fremat05#1),
-  29374K(U-Bo=>Bessell98),
-  29640K(Zorec09#2),
-  29860K(Braganca12),
-  29920K(Malagnini,from Zorec09)
-  30000K(Snow94),
-  30000K(Glagolevskij19),
-  30400K(Smith10),
-  31000+-1000K(Martins11), 
-  31048K(EEM via Balona94), 
-  31400K(Kilian94),
-  31440+-2150K(Zorec09#3), 
-  31500K(Hubrig08, cited in Lefever10),
-  31500K(Philip80), 
-  31500K(Rauw12),
-  31800K(Remie82),
-  31900K(Mokiem05, cited in Lefever10), 
-  32000K(Lefever10), 
-  32000+-300K(Przybilla08),
-  32000+-300K(Nieva12),
-  32359K(SimonDiaz17),
-  32689K(EEM via Napiwotski93),
-  32710+-1690K(Zorec16),
-  33000K(Schonberner88) 
-  => median Teff = 31400K.
-  Log(g) estimates: 4.05(Hubrig08, cited in Lefever10), 4.15(Mokiem05,
-  cited in Lefever10), 4.2(Lefever10), 4.24(Kilian94),
-  4.3(Przybilla08, cited in Lefever10), 4.3(Przybilla08, cited in
-  Lefever10).
-  LogN_HI = 20.43+-0.10 (Shull85), 20.49+-0.04 (Bohlin78), 20.05
-  (Hobbs78). Adopting logN_HI = 20.46, and the Savage & Mathis (1979)
-  logNH/E(B-V) = 4.8e21 atoms/cm^2/mag, then E(B-V) = 0.060. Then
-  (B-V)o = (B-V) - E(B-V) = -0.252 - 0.060 = -0.312, and (U-B)o =
-  (U-B) - 0.72*E(B-V) = -1.023 - 0.72*0.06 = -1.066.
+  All Teff estimates: 28060K(Sokolov95), 28590+-526K(Fremat05#2),
+  28959K(Fremat05#1), 29374K(U-Bo=>Bessell98), 29640K(Zorec09#2),
+  29860K(Braganca12), 29920K(Malagnini,from Zorec09) 30000K(Snow94),
+  30000K(Glagolevskij19), 30400K(Smith10), 31000+-1000K(Martins11),
+  31048K(EEM via Balona94), 31400K(Kilian94), 31440+-2150K(Zorec09#3),
+  31500K(Hubrig08, cited in Lefever10), 31500K(Philip80),
+  31500K(Rauw12), 31800K(Remie82), 31900K(Mokiem05, cited in
+  Lefever10), 32000K(Lefever10), 32000+-300K(Przybilla08),
+  32000+-300K(Nieva12), 32359K(SimonDiaz17), 32689K(EEM via
+  Napiwotski93), 32710+-1690K(Zorec16), 33000K(Schonberner88) =>
+  median Teff = 31400K.  Log(g) estimates: 4.05(Hubrig08, cited in
+  Lefever10), 4.15(Mokiem05, cited in Lefever10), 4.2(Lefever10),
+  4.24(Kilian94), 4.3(Przybilla08, cited in Lefever10),
+  4.3(Przybilla08, cited in Lefever10).  LogN_HI = 20.43+-0.10
+  (Shull85), 20.49+-0.04 (Bohlin78), 20.05 (Hobbs78). Adopting logN_HI
+  = 20.46, and the Savage & Mathis (1979) logNH/E(B-V) = 4.8e21
+  atoms/cm^2/mag, then E(B-V) = 0.060. Then (B-V)o = (B-V) - E(B-V) =
+  -0.252 - 0.060 = -0.312, and (U-B)o = (U-B) - 0.72*E(B-V) = -1.023 -
+  0.72*0.06 = -1.066.
 
 # Deprecated Standards
 

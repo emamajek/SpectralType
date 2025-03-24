@@ -120,12 +120,17 @@ Gray01/03/06 list 2 nearby A6V dwarfs: Median HIP colors:
 (V-K)(A6V)  =  0.65 ; exemplar HD 50241 = alf Pic = GJ 248 = HIP 32607 *
 => adopt (V-Ks)(A6V) = 0.465 [updated 5/10/2024]
 
-(J-H)(A6V) = 0.043 ; B-V vs J-H trend for B-V=0.185 (12/2023) 
-(J-H)(A6V) = 0.053 ; exemplar HD 39060 = bet Pic = GJ 219 = HIP 27321 = HR 2020
-=> adopt (J-H)(A6V) = 0.043 [updated 5/10/2024]
+(J-H)(A6V) =  -0.021 +-0.043 ; HD 154431 = HR 6351 = 2MASS J17035358+3447247 (A6V;Abt95) 
+(J-H)(A6V) =   0.016 +-0.040 ; HD 77190 = HR 3589 = 2MASS J09014885+2754095 (A6V;Abt95,Palmer68) 
+(J-H)(A6V) =   0.037 ; Koornneef83 (J-H=0.04) converted to 2MASS via Carpenter01 (A6V stars)
+(J-H)(A6V) =   0.043 ; B-V vs J-H trend for B-V=0.185 (12/2023) 
+(J-H)(A6V) =   0.053 ; exemplar HD 39060 = bet Pic = GJ 219 = HIP 27321 = HR 2020
+=> adopt (J-H)(A6V) = 0.04 [updated 2/1/2025]
 
-(H-Ks)(A6V) = 0.039 ; B-V vs J-H trend for B-V=0.185 (12/2023)
-(H-Ks)(A6V) = 0.042 ; exemplar HD 39060 = bet Pic = GJ 219 = HIP 27321 = HR 2020
+(H-Ks)(A6V) =  0.039 ; B-V vs J-H trend for B-V=0.185 (12/2023)
+(H-Ks)(A6V) =  0.042 ; exemplar HD 39060 = bet Pic = GJ 219 = HIP 27321 = HR 2020
+(H-Ks)(A6V) =  0.074 +-0.042 ; HD 154431 = HR 6351 = 2MASS J17035358+3447247 (A6V;Abt95) 
+(H-Ks)(A6V) =  0.086 +-0.041 ; HD 77190 = HR 3589 = 2MASS J09014885+2754095 (A6V;Abt95,Palmer68) 
 => adopt (H-Ks)(A6V) = 0.039 [updated 5/10/2024]
 
 (Bp-Rp)(A6V) =  0.0944  ; exemplar HD 195093 = HIP 101120 = HR 7829 (GaiaDR2) 
@@ -475,27 +480,41 @@ HD 28527 = HR 1427 = Cl* Melotte 25 Rg 244 = GJ 170.1 (Hyad)
    (but Hyades cluster usually quoted between [Fe/H] ~ +0.15 to
    +0.20).
 
-HD 2262 = kap Phe = HIP 2072 = HR 100
-   A3V: 1955MmMtS..12....1W
+HD 2262 = kap Phe = GJ 20 = HIP 2072 = HR 100 = 2MASS J00261219-4340475 = Gaia DR3 4992538055808271360
+   A3V: Cannon(A3),1955MmMtS..12....1W,Gliese57,Eggen60
    A5IVn: Gray06
    A5Vn: GrayGarrison89
   *A6Vn: Houk78(Garrison),Abt95
    A7V: Cucchiaro78
    A7Vn: Evans61,Levato72
 
-   V=3.93(HIP), V=3.94(Johnson66),
-   V=3.940(Cousins80,GCPD/Cousins76_VRIc), B-V=0.17(Johnson66),
-   B-V=0.175(HIP), U-B=0.10(Johnson66), V-Rj=0.14(Johnson66),
+   high vsini (225km/s;Glebock05). 
+   V=3.93(HIP),
+   V=3.94(Johnson66),
+   V=3.94(Bessell90), 
+   V=3.940(Cousins80,GCPD/Cousins76_VRIc),
+   B-V=0.17(Johnson66),
+   B-V=0.17(Bessell90), 
+   B-V=0.175(HIP),
+   U-B=0.10(Johnson66),
+   V-Rj=0.14(Johnson66),
    V-Rc=0.103(Cousins80,GCPD/Cousins76_VRIc#1),
-   V-Rc=0.105(GCPD/Cousins76_VRIc#2), R-Ij=0.08(Johnson66),
+   V-Rc=0.105(GCPD/Cousins76_VRIc#2,Bessell90) => adopt V-Rc=0.105. 
+   R-Ij=0.08(Johnson66),
    R-Ic=0.096(GCPD/Cousins76_VRIc#1),
-   R-Ic=0.095(GCPD/Cousins76_VRIc#2), V-Ij=0.22(Johnson66),
+   R-Ic=0.095(GCPD/Cousins76_VRIc#2,Bessell90) => adopt R-Ic=0.095.
+   V-Ij=0.22(Johnson66),
    V-Ic=0.199(Cousins80,GCPD/Cousins76_VRIc#1),
-   V-Ic=0.20(GCPD/Cousins76_VRIc#2).  plx=42.51+-0.69mas(HIP),
+   V-Ic=0.20(GCPD/Cousins76_VRIc#2,Bessell90) => adopt V-Ic=0.20. 
+   plx=42.51+-0.69mas(HIP),
    B-V=0.175+-0.008(HIP), del(Mv)=+0.14mag(HIP2). Mv=2.05(HIP2).
-   Teffs: 7670+-240K(Sokolov95), 7882+-63K(Blackwell98),
-   7906K(Erspamer03), 8017K(diBenedetto98) => <Teff> =
-   7894K(N=4). logg=4.17(Erspamer03), [Fe/H]=-0.04(Erspamer03).
+   Teffs:
+   7670+-240K(Sokolov95),
+   7882+-63K(Blackwell98),
+   7906K(Erspamer03),
+   7922K(Lepine13), 
+   8017K(diBenedetto98)
+   => adopt Teff=7906K. logg=3.97(Lepine13), logg=4.17(Erspamer03), [Fe/H]=-0.04(Erspamer03).
 
 HD 79439 = 18 UMa = HIP 45493 = HR 3662
    A5V: Lindblad34(A5),Wilson50,Slettebak55,Cowley69,Levato78
@@ -549,6 +568,11 @@ HD 77190 = 67 Cnc = HIP 44342 = HR 3589 = 2MASS J09014885+2754095 = WDS J09018+2
    A5V: 1925sdsl.book.....L
   *A6V: Palmer68,Abt95
    A8Vn: Cowley69
+
+   Rare example of A-type star within 75pc (negligible reddening) with
+   qflg=AAA 2MASS photometry.  (H-Ks) = 0.086+-0.041(2MASS), (J-H) =
+   0.016+-0.040(2MASS).
+
 
 HD 16432 = nu Ari = HIP 12332 = HR 773 = 32 Ari = 2MASS J02384899+2157411
   *A6V: Abt95,Paunzen01

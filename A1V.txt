@@ -45,8 +45,9 @@ Inconsistency between the MK43 and JM53 standards. Isn't there supposed to be so
 (B-V)(A1V) = 0.033 ; mean color for 3 standards (12/2023)
 (B-V)(A1V) = 0.033 ; smooth trend A0V-F0V (12/2023)
 (B-V)(A1V) = 0.035 ; pri. stan. HD 10939 = HIP 8241 = HR 520 
-(B-V)(A1V) = 0.04  ; median for nearest 13 A1Vs in SIMBAD (12/2023)
+(B-V)(A1V) = 0.039 ; HD 74956 = HIP 42913 (A1Va(n),Gray06) 
 (B-V)(A1V) =  0.04 ; HD_80081_ A1V plx=24.7087mas, Mv=0.8842
+(B-V)(A1V) = 0.04  ; median for nearest 13 A1Vs in SIMBAD (12/2023)
 (B-V)(A1V) = 0.041 ; ter. stan. HD 21447 = HIP 16292 = HR 1046 
 (B-V)(A1V) = 0.050 ; d<60 pc SIMBAD A1V N=15
 (B-V)(A1V) =  0.05 ; HD_161868_ A1VnkA0mA0 plx=33.6174mas, Mv=1.3828
@@ -54,12 +55,12 @@ Inconsistency between the MK43 and JM53 standards. Isn't there supposed to be so
 (B-V)(A1V) = 0.055 (+-0.013 sem, +-0.016 stdev) ; Gray01/03/06 (N=4)
 (B-V)(A1V) =  0.057 ; HD_224392_ A1V plx=20.4208mas, Mv=1.5393
 (B-V)(A1V) =  0.06 ; HD_192425_ A1Va plx=20.9054mas, Mv=1.5472
-(B-V)(A1V) =  0.06 ; HD_16754_ (A1Vb,Gray06) plx=22.5636mas, Mv=1.5170
-(B-V)(A1V) =  0.07 ; HD_210418_ A1Va plx=36.7678mas, Mv=1.3773
+(B-V)(A1V) = 0.061 ; HD 16754 = HIP 12413 (A1Vb,Gray06) plx=22.5636mas, Mv=1.5170
 (B-V)(A1V) = 0.073 (+-0.011 sem, +-0.033 stdev) ; HIP d<75pc S/N>8 (N=12)
 (B-V)(A1V) =   0.095 ; BakisEker22
+(B-V)(A1V) = 0.086 ; HD 210418 = HIP 109247 (A1Va,Gray06) plx=36.7678mas, Mv=1.3773
 (B-V)(A1V) =  0.101 ; HD_145570_ A1V plx=22.6379mas, Mv=1.7021
-=> adopt (B-V)(A1V) = 0.033 [updated 12/29/2023]
+=> adopt (B-V)(A1V) = 0.04 [updated 2/1/2025]
 
 (U-B)(A1V) =  0.00  ; Cowley70(N=104) 
 (U-B)(A1V) =  0.01  ; Fitzgerald70
@@ -69,60 +70,72 @@ Inconsistency between the MK43 and JM53 standards. Isn't there supposed to be so
 (U-B)(A1V) = 0.04  ; exemplar HD 2834 = lam01 Phe = HIP 2472
 (U-B)(A1V) =  0.05  ; JohnsonMorgan53
 (U-B)(A1V) = 0.059 ; pri. stan. HD 10939 = HIP 8241 = HR 520
+(U-B)(A1V) = 0.059 ; HD 16754 = HIP 12413 (A1Vb,Gray06) 
+(U-B)(A1V) = 0.064 ; HD 74956 = HIP 42913 (A1Va(n),Gray06) 
 (U-B)(A1V) = 0.071 ; sec. stan. HD 9132 = 48 Cet = HIP 6960 B
-=> adopt (U-B)(A1V) = 0.05 [updated 12/29/2023]
+(U-B)(A1V) = 0.084 ; HD 210418 = HIP 109427 (A1Va,Gray06) plx=36.7678mas, Mv=1.3773
+=> adopt (U-B)(A1V) = 0.06 [updated 2/1/2025] 
 
 (V-Rc)(A1V) =  -0.01  ; deprecated alf CMa = Sirius
 (V-Rc)(A1V) =   0.003 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A 
 (V-Rc)(A1V) =   0.008 ; exemplar HD 2834 = lam01 Phe = HIP 2472
-(V-Rc)(A1V) =  0.015 ; B-V vs V-Rc color trend for B-V=0.033
+(V-Rc)(A1V) =  0.018 ; B-V vs V-Rc color trend for B-V=0.04 (2/1/2025)
+(V-Rc)(A1V) = 0.02 ; V-Ic=0.045, R-Ic=0.025 (2/1/2025) 
 (V-Rc)(A1V) =  0.022 ; V-Ic vs V-Rc color trend for V-Ic=0.05
 (V-Rc)(A1V) =   0.038 ; HD 16754 (A1Vb,Gray06) plx=22.5636mas
 (V-Rc)(A1V) =   0.040 ; HD 210418 (A1Va,Gray06) 
-=> adopt (V-Rc)(A1V) = 0.02 [updated 12/29/2023; V-Ic=0.04, R-Ic=0.02]
+=> adopt (V-Rc)(A1V) = 0.02 [updated 2/1/2025] (V-Ic=0.045, R-Ic=0.025)
 
 (R-Ic)(A1V) =  -0.01  ; deprecated alf CMa = Sirius
 (R-Ic)(A1V) =  0.007 ; exemplar HD 2834 = lam01 Phe = HIP 2472
 (R-Ic)(A1V) =   0.008 ; Bessell79
-(R-Ic)(A1V) =  0.020 ; B-V vs R-Ic color trend for B-V=0.033
+(R-Ic)(A1V) =  0.023 ; B-V vs R-Ic color trend for B-V=0.04
 (R-Ic)(A1V) =  0.025 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A
 (R-Ic)(A1V) =   0.048 ; HD 210418 (A1Va,Gray06) 
 (R-Ic)(A1V) =   0.057 ; HD 16754 (A1Vb,Gray06) plx=22.5636mas
-=> adopt (R-Ic)(A1V) = 0.02 [updated 12/29/2023; V-Rc=0.02, V-Ic=0.04]
+=> adopt (R-Ic)(A1V) = 0.025 [updated 2/1/2025] (V-Rc=0.02, V-Ic=0.045)
 
 (V-Ic)(A1V) =  -0.016 ; deprecated alf CMa = Sirius
 (V-Ic)(A1V) =    0.015 ; Bessell79
-(V-Ic)(A1V) =   0.015 ; exemplar HD 2834 = lam01 Phe = HIP 2472
-(V-Ic)(A1V) =   0.028 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A 
+(V-Ic)(A1V) =  0.015 ; exemplar HD 2834 = lam01 Phe = HIP 2472
+(V-Ic)(A1V) =  0.028 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A 
 (V-Ic)(A1V) =    0.03  ; Bessell88 (interp A0V-A2V)
-(V-Ic)(A1V) =  0.035 ; B-V vs V-Ic trend for B-V=0.033
-(V-Ic)(A1V) =  0.04  ; sec. stan. HD 9132 = 48 Cet = HIP 6960 
+(V-Ic)(A1V) =  0.04  ; sec. stan. HD 9132 = 48 Cet = HIP 6960
+(V-Ic)(A1V) =  0.041 ; B-V vs V-Ic trend for B-V=0.04 (2/1/2025)
+(V-Ic)(A1V) = 0.045 ; V-Rc=0.02, R-Ic=0.025 (2/1/2025)
 (V-Ic)(A1V) =  0.05  ; pri. stan. HD 10939 = HIP 8241 = HR 520
 (V-Ic)(A1V) =  0.06  ; ter. stan. HD 21447 = HIP 16292 = HR 1046 
 (V-Ic)(A1V) =   0.071 (+-0.016 sem, +-0.023 stdev; N=4)
 (V-Ic)(A1V) =   0.081 (+-0.011 sem, +-0.033 stdev); HIP d<75pc S/N>8 (N=12)
-(V-Ic)(A1V) =   0.088 ; HD 210418 (A1Va,Gray06) 
-(V-Ic)(A1V) =   0.095 ; HD 16754 (A1Vb,Gray06) plx=22.5636mas
-=> adopt (V-Ic)(A1V) = 0.04 [updated 12/29/2023; V-Rc=0.02, R-Ic=0.02]
+(V-Ic)(A1V) =  0.088 ; HD 210418 (A1Va,Gray06) 
+(V-Ic)(A1V) =  0.095 ; HD 16754 (A1Vb,Gray06) plx=22.5636mas
+=> adopt (V-Ic)(A1V) = 0.045 [updated 2/1/2025] (V-Rc=0.02, R-Ic=0.025]
 
-(V-J)(A1V) = 0.083 ; B-V vs V-J for B-V=0.033
-=> adopt (V-J)(A1V) = 0.083 [updated 5/18/2024; V-Ks=0.087, H-Ks=0.030, J-H=-0.026]
+(V-J)(A1V) = 0.091 ; B-V vs V-J for B-V=0.04
+=> adopt (V-J)(A1V) = 0.091 [updated 2/1/2025] (V-Ks=0.087, H-Ks=0.030, J-H=-0.026]
 
 (V-H)(A1V) = 0.014 ; pri. stan. HD 10939 = HIP 8241 = HR 520
-(V-H)(A1V) = 0.057 ; B-V vs V-Ks trend for B-V=0.033
-=> adopt (V-H)(A1V) = 0.057 [updated 12/29/2023; V-Ks=0.087, H-Ks=0.030]
+(V-H)(A1V) = 0.067 ; B-V vs V-Ks trend for B-V=0.04
+=> adopt (V-H)(A1V) = 0.067 [updated 2/1/2025] (V-Ks=0.087, H-Ks=0.030)
 
-(V-Ks)(A1V) = 0.065 ; exemplar HD 2834 = lam01 Phe = HIP 2472
-(V-Ks)(A1V) = 0.076 ; pri. stan. HD 10939 = HIP 8241 = HR 520 
-(V-Ks)(A1V) = 0.087 ; B-V vs V-Ks trend for B-V=0.033
-=> adopt (V-Ks)(A1V) = 0.087 [updated 12/29/2023]
+(V-Ks)(A1V) =  0.065 ; exemplar HD 2834 = lam01 Phe = HIP 2472
+(V-Ks)(A1V) =  0.067 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A 
+(V-Ks)(A1V) =  0.076 ; pri. stan. HD 10939 = HIP 8241 = HR 520 
+(V-Ks)(A1V) =  0.097 ; B-V vs V-Ks trend for B-V=0.04
+(V-Ks)(A1V) =  0.100 ; ter. stan. HD 21447 = HIP 16292 = HR 1046 
+=> adopt (V-Ks)(A1V) = 0.08 [updated 2/1/2025]
 
-(J-H)(A1V) = -0.026 ; B-V vs J-H for B-V=0.033
-=> adopt (J-H)(A1V) = -0.026 [updated 5/18/2024; V-Ks=0.087, H-Ks=0.030, V-J=0.083]
+(J-H)(A1V) =  -0.024 ; B-V vs J-H for B-V=0.04
+(J-H)(A1V) =  -0.025 ; Koornneef83 (J-H=0.02) converted to 2MASS via Carpenter01 (A1V stars)
+(J-H)(A1V) =  -0.038 +-0.043 ; HD 193571 = kap01 Sgr = GJ 9694 = 2MASS J20222749-4202583 (A1V;GarrisonGray87)
+=> adopt (J-H)(A1V) = -0.025 [updated 2/1/2025] (** RECHECK AND FIX ** V-Ks=0.087, H-Ks=0.030, V-J=0.083)
 
-(H-Ks)(A1V) = 0.030 ; B-V vs V-Ks trend for B-V=0.033
+(H-Ks)(A1V) = 0.030 ; B-V vs V-Ks trend for B-V=0.04
+(H-Ks)(A1V) = 0.055 +- 0.043 ; HD 193571 = kap01 Sgr = GJ 9694 = 2MASS J20222749-4202583 (A1V;GarrisonGray87)
+(H-Ks)(A1V) = 0.058 +- 0.033 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A
 (H-Ks)(A1V) = 0.062 +- 0.038 ; pri. stan. HD 10939 = HIP 8241 = HR 520
-=> adopt (H-Ks)(A1V) = 0.030 [updated 12/29/2023; V-Ks=0.087, V-H=0.057]
+(H-Ks)(A1V) = 0.064 +- 0.040 ; ter. stan. HD 21447 = HIP 16292 = HR 1046 
+=> adopt (H-Ks)(A1V) = 0.03 [updated 2/1/2025] (V-Ks=0.087, V-H=0.057) (** RECHECK **)
 
 (Bp-Rp)(A1V) =  0.037 ; Evans18 trend for V-I=0.037 (GaiaDR2) 
 (Bp-Rp)(A1V) =  0.005 ; color trend for B-V=0.035 (GaiaDR2) 
@@ -233,23 +246,39 @@ BCv(A1V) =  -0.10 mag ; Schmidt-Kaler82 (BCv=-0.23 + 0.13 offset)
 BCv(A1V) = -0.105 mag ; Bertone04(ATLAS,Teff=9300K, set so BCv(5772K)=-0.085
 => adopt BCv(A1V) = -0.14 [updated 9/16/2019, adjusted so that BCv(5772K)=-0.085]
 
-Mv(A1V) =   2.06 mag ; Habets81
-Mv(A1V) =   1.6 mag  ; GrayCorbally09
-Mv(A1V) =  1.52 mag  ; exemplar HD 31647 = ome Aur (~40 Myr-old Columba member)
-Mv(A1V) =  1.38 mag  ; SIMBAD d<60pc trend for SpT=A1V
-Mv(A1V) =  1.31 mag  ; d<60 pc SIMBAD A1V N=12
+Mv(A1V) =   2.06 ; Habets81
+Mv(A1V) =   1.6  ; GrayCorbally09
+Mv(A1V) =  1.52  ; exemplar HD 31647 A = ome Aur A = HIP 23179 A (~40 Myr-old Columba member)
+Mv(A1V) =  1.38  ; SIMBAD d<60pc trend for SpT=A1V
+Mv(A1V) =  1.31  ; d<60 pc SIMBAD A1V N=12
 Mv(A1V) =  1.306 +-0.123(sem),+-0.518(st.dev.); EEM N=34 A1V HIP d<75pc
-Mv(A1V) =  1.31 mag  ; median Mv for A6V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
-Mv(A1V) =  1.30 mag  ; Wright05(B-V=0.035)
-Mv(A1V) =  1.26 mag  ; B/A/F dwarf sequence for B-V=0.035
-Mv(A1V) =  1.25 mag  ; EEM trend logT vs Rad for A1V
-Mv(A1V) =  1.21 mag  ; d<60pc Mv(B-V=0.04)
-Mv(A1V) = 1.16 mag ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.035)
-Mv(A1V) =   1.0  mag ; Schmidt-Kaler82
-Mv(A1V) =   0.84 mag ; Wegner07
-=> adopt Mv(A1V)   = 1.16 mag [updated 9/26/2020]
-=> adopt M_G(A1V)  = 1.16 mag [updated 12/10/2020] (Mv=1.16, G-V=0.00)
-=> adopt M_Ks(A1V) = 1.07 mag [updated 12/30/2020] (Mv=1.16, V-Ks=0.090)
+Mv(A1V) =  1.31  ; median Mv for A6V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
+Mv(A1V) =  1.30  ; Wright05(B-V=0.035)
+Mv(A1V) =  1.26  ; B/A/F dwarf sequence for B-V=0.035
+Mv(A1V) =  1.25  ; EEM trend logT vs Rad for A1V
+Mv(A1V) =  1.22 ; ter. stan. HD 21447 = HIP 16292 = HR 1046 
+Mv(A1V) =  1.21  ; d<60pc Mv(B-V=0.04)
+Mv(A1V) = 1.16 ; linear B-V vs. Mv fit to d<50pc Gray01/03/06 dwarfs for B-V=0.035)
+Mv(A1V) =  1.10 ; exemplar HD 2834 = lam01 Phe = HIP 2472  
+Mv(A1V) =  1.07 ; pri. stan. HD 10939 = HIP 8241 = HR 520 
+Mv(A1V) =   1.0  ; Schmidt-Kaler82
+Mv(A1V) =   0.84 ; Wegner07
+Mv(A1V) =  0.82  ; sec. stan. HD 9132 = 48 Cet = HIP 6960
+=> adopt Mv(A1V)   = 1.16 [updated 9/26/2020]
+=> adopt M_G(A1V)  = 1.16 [updated 12/10/2020] (Mv=1.16, G-V=0.00)
+=> adopt M_Ks(A1V) = 1.07 [updated 12/30/2020] (Mv=1.16, V-Ks=0.090)
+
+M_G(A1V) = 0.82 ; sec. stan. HD 9132 = 48 Cet = HIP 6960
+M_G(A1V) = 1.05 ; pri. stan. HD 10939 = HIP 8241 = HR 520
+M_G(A1V) = 1.09 ; exemplar HD 2834 = lam01 Phe = HIP 2472   
+M_G(A1V) = 1.21 ; ter. stan. HD 21447 = HIP 16292 = HR 1046
+M_G(A1V) = 1.52 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A (~40Myr-old Columba member)
+
+M_Ks(A1V) = 0.68 ; sec. stan. HD 9132 = 48 Cet = HIP 6960
+M_Ks(A1V) = 0.99 ; pri. stan. HD 10939 = HIP 8241 = HR 520
+M_Ks(A1V) = 1.03 ; exemplar HD 2834 = lam01 Phe = HIP 2472  
+M_Ks(A1V) = 1.12 ; ter. stan. HD 21447 = HIP 16292 = HR 1046
+M_Ks(A1V) = 1.45 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A
 
 logL(A1V) = 1.488 dex ; Mv=1.16 + BCv=-0.14 => Mbol = 1.020
 logL(A1V) =  1.497 dex ; logL/Teff trend for O7V-A2V dwarf EBs (Torres10; Teff=9300K)
@@ -297,12 +326,14 @@ HD 10939 = HIP 8241 = HR 520 = q02 Eri = Gaia DR3 4912947570170211840
   A2V: Cuchiaro78,Cucchiaro80
 
   The only modern classifications (Gray & Houk) both agree on A1
-  dwarf. vanLeeuwen07 parallax: 16.12+-0.17 mas, hence it is likely
+  dwarf. plx=16.12+-0.17mas(vanLeeuwen07), plx=16.0575+-0.0693mas(GaiaDR3),
+  hence it is likely
   within the Local Bubble and negligible reddened.
   V=5.037+-0.006(Mermilliod91), V=5.04(Johnson66,HIP),
   B-V=0.031+-0.003(HIP), B-V=0.035+-0.006(Mermilliod91),
   B-V=0.04(Johnson66) => adopt B-V=0.035.  U-B=0.059(Mermilliod91),
   V-Ic=0.05+-0.00(HIP). Not in GCPD/Cousins76_VRIc database.
+  J=4.988+-0.043(2MASS), 
   H=5.026+-0.027(2MASS), Ks=4.964+-0.027(2MASS) => V-H=0.014,
   V-Ks=0.076, H-Ks=0.062+-0.038.  Teffs:
   9000K(Verberne24,GaiaDR3/template), 9063K(B-V=>Bessell98),
@@ -311,6 +342,8 @@ HD 10939 = HIP 8241 = HR 520 = q02 Eri = Gaia DR3 4912947570170211840
   9332K(AllendePrieto99), 9478K(Ballering13,Chandler16),
   9568K(Anders19), 9599K(David15), 9692K(Philip80), 9750K(Chen14),
   9903K(Balona19), 10090K(Sokolov95) => <Teff>=9332K.
+  GaiaDR3: plx=16.0575+-0.0693mas(GaiaDR3), G=5.023110+-0.002855(GaiaDR3)
+  => M_G=1.05, Mv=1.07, M_Ks=0.99. 
 
 # Secondary Standard
 
@@ -320,14 +353,15 @@ HD 9132 = 48 Cet = HIP 6960 = HR 433 = WDS J01296-2138A = ADS 1184A = Gaia DR3 5
   A1V: Buscombe62,Bond71,Hoffleit91
   A1IV: Abt95
 
-  dMv=-0.42, so slightly above MS.  V=5.10(Westerlund63), V=5.11(HIP),
-  V=5.114(Gutierrez-Moreno66), V=5.117+-0.007(Mermilliod91),
-  V=5.12(Cousins63), V=5.13(Johnson66) => adopt V=5.117.
-  B-V=0.01(Westerlund63), B-V=0.02(Cousins63), B-V=0.02(Johnson66),
-  B-V=0.02(Westerlund63), B-V=0.023+-0.006(Mermilliod91),
-  B-V=0.028+-0.003(HIP), B-V=0.03(Gutierrez-Moreno66) => adopt
-  B-V=0.023.  U-B=0.071+-0.023(Mermilliod91),
-  U-B=0.08(Gutierrez-Moreno66) => adopt U-B=0.071.
+  dMv=-0.42, so slightly above MS.  V=5.10(Westerlund63/N=3),
+  V=5.11(HIP), V=5.114(Gutierrez-Moreno66/N=7),
+  V=5.117+-0.007(Mermilliod91), V=5.12(Cousins63/N=4),
+  V=5.13(Johnson66/N=3) => adopt V=5.117.  B-V=0.01(Westerlund63/N=3),
+  B-V=0.02(Cousins63/N=4), B-V=0.02(Johnson66/N=3),
+  B-V=0.023+-0.006(Mermilliod91), B-V=0.028+-0.003(HIP),
+  B-V=0.03(Gutierrez-Moreno66/N=7) => adopt B-V=0.023.
+  U-B=0.02(Westerlund63/N=3), U-B=0.071+-0.023(Mermilliod91),
+  U-B=0.081(Gutierrez-Moreno66/N=7) => adopt U-B=0.071.
   V-Ic=0.04+-0.00(HIP).  Not in GCPD/Cousins76_VRIc photometry
   database.  2MASS J photometry is poor. H=5.026+-0.026(2MASS),
   Ks=4.963+-0.020(2MASS) => V-Ks = 5.117-4.963 = 0.154.
@@ -338,8 +372,10 @@ HD 9132 = 48 Cet = HIP 6960 = HR 433 = WDS J01296-2138A = ADS 1184A = Gaia DR3 5
   9120K(AllendePrieto99), 9177K(GaiaDR2), 9200K(Grenier99),
   9296K(B-Vo=>Bessell98, for logg=4.1), 9333K(Zorec12,Stassun18),
   9386K(Chandler16), 9387K(McDonald12), 9552K(David15),
-  9793K(Balona19) => adopt Teff=9250K.
-
+  9793K(Balona19) => adopt Teff=9250K. GaiaDR3:
+  G=5.107683+-0.002860(GaiaDR3), plx=13.8965+-0.1320mas(GaiaDR3) =>
+  M_G=0.82+-0.02, Mv=0.83, M_Ks=0.68.
+  
 # Tertiary Standard
 
 HD 21447 = HIP 16292 = HR 1046 = STF 390A = ADS 2565A = WDS J03300+5527A = Gaia DR3 448233374109147264
@@ -359,16 +395,18 @@ HD 21447 = HIP 16292 = HR 1046 = STF 390A = ADS 2565A = WDS J03300+5527A = Gaia 
   B-V=0.05(Johnson57) => adopt B-V=0.041.  U-B=0.03(Johnson57),
   U-B=0.036+-0.003(Mermilliod91), U-B=0.042(Oja86),
   U-B=0.05(Johnson66#1), U-B=0.05(Johnson66#2) => adopt U-B=0.036.
-  V-Ic=0.06+-0.03(HIP).  Not in GCPD/Cousins76_VRIc database.  Teffs:
-  8715K(McDonald12), 8719K(Chandler16), 8836K(HardegreeUllman23)
-  9000K(GaiaDR3/RVtemp), 9011K(Cardiel21),
+  V-Ic=0.06+-0.03(HIP).  Not in GCPD/Cousins76_VRIc database.
+  H=5.060+-0.036(2MASS), Ks=4.996+-0.018(2MASS). V-Ks = 5.096 - 4.996
+  = 0.100.  Teffs: 8715K(McDonald12), 8719K(Chandler16),
+  8836K(HardegreeUllman23) 9000K(GaiaDR3/RVtemp), 9011K(Cardiel21),
   9078+-126K(Zorec12,Stassun18), 9080K(GaiaDR3/AENEAS),
   9232K(GaiaDR2), 9240+-300K(Zorec09), 9332K(AllendePrieto99),
   9335K(King03), 9341K(Anders19), 10049K(David15) => adopt Teff=9080K
   (however probably +-300K uncertainty).  Note the Mermilliod87
   compendium for UBV photometry lists two different sets of values,
   with slightly different U-B colors - but the references appear to be
-  identical?
+  identical? GaiaDR3: plx=16.7393+-0.0771mas(GaiaDR3),
+  G=5.087484+-0.002854(GaiaDR3) => M_G=1.21, Mv=1.22, M_Ks=1.12.
 
 # Deprecated Standards
 
@@ -412,7 +450,7 @@ HD 198001 = eps Aqr = 2 Aqr = HR 7950
 
   Garrison & Gray now consider this a giant. 
 
-HD 45320 = HR 2324
+HD 45320 = HR 2324 = HIP 30666 = Gaia DR3 3117581593254864896
   A0: Cannon
  *A1Vann: Gray87(stan)
   A1V: Houk99 
@@ -422,15 +460,15 @@ HD 45320 = HR 2324
   A7IIIp: Jaschek64(deVacouleur57)
 
   vsini~300 km/s. Abt95 comments MgII 4481A weak. Only Gray and Houk
-  have called it A1V, suprisingly little agreement among others. 
+  have called it A1V, suprisingly little agreement among others.
+  plx=13.5976+-0.0737mas(GaiaDR3). 
 
 HD 18331 = HR 875
   A1V: JM53,Abt95(A1Vn),Paunzen01
   A3Vn: Roman49(A3V),Cowley69,Levato78
   A3/4IVb: Barry70
 
-  Tough to take the A1V classification seriously when 4 other
-  classifers find A3 or A4ish.
+  Wide scatter in published types. 
 
 HD 95418 = bet UMa = HR 4925
   A0mA1IV-V: Gray89 
@@ -458,16 +496,17 @@ HD 170073 = 39 Dra = HR 6923 = b Dra
   4" binary: A0V+F6V (Edwards76), A1V+F5V (Lutz77). 
   Johnson-Morgan type differs from later Gray/Garrison/Abt/Cowley types. 
 
-HD 193702 = HR 7784
- *A1V: JM53,Slettebak61,Cowley69(stan),Christy69,Abt95,Paunzen01
+HD 193702 = HR 7784 = HIP 100268 = ADS 13728 ABC = STF 2668 = WDS J20203+3924AB,C
   A0IV: Barbier62,Abt81,Cannon(A0)  
   A0V: Levato78
+ *A1V: JM53,Slettebak61,Cowley69(stan),Christy69,Abt95,Paunzen01
   A3V: Barry70
   A2V: Osawa59
 
   Jaschek64 lists 4 different types in A0-A3 range from 6 references.
   Tight triple! CCDM lists *3* components within 3" of each other.
   A tight 0.3" binary with a 3.3" companion further out.
+  plx=5.54+-0.46mas(vanLeeuwen07). 
 
 # Exemplars
 
@@ -498,9 +537,9 @@ HD 31647 A = ome Aur A = HIP 23179 A = HR 1592 = 4 Aur = Gaia DR3 19877655395631
   V-Ic(A)=0.028(GaiaDR3/synth), V-Ic(AB)=0.06+-0.03(HIP), HIP/TYC:
   Bt(A)=5.014+-0.004, Vt(A)=4.991+-0.004 => converted via Mamajek06 =>
   V=4.989+-0.004, B-V=0.015+-0.005.
-  Mv(A)=1.520+-0.012(HIP/TYC,GaiaEDR3).  GaiaDR3:
-  plx=20.2399+-0.1077mas, G=4.980049+-0.002856, Bp-Rp=0.015381,
-  Bp-G=0.004782, G-Rp=0.010599. 
+  Mv(A)=1.520+-0.012(HIP/TYC,GaiaEDR3). V-Ks = 4.989 - 4.922 = 0.067.
+  GaiaDR3: plx=20.2399+-0.1077mas, G=4.980049+-0.002856,
+  Bp-Rp=0.015381, Bp-G=0.004782, G-Rp=0.010599 => M_G=1.51, M_Ks=1.45.
   
 
 HD 2834 = lam01 Phe = HIP 2472 = HR 125 = WDS J00314-4848A = Gaia DR3 4975414983274332800
@@ -509,32 +548,21 @@ HD 2834 = lam01 Phe = HIP 2472 = HR 125 = WDS J00314-4848A = Gaia DR3 4975414983
   A1V: Buscombe69,Abt95
   A2V: Cucchiaro78(S2/68). 
 
-  d=54pc(BailerJones21/GaiaDR3), and Kervella22 quotes E(B-V)=0.001 from STILISM reddening maps -
-  so, negligibly reddened.
-  V=4.75(Cousins62), 
-  V=4.76(HIP),
-  V=4.764+-0.008(Mermilliod91),
-  V=4.765050(GaiaDR3/synth), 
-  V=4.77(Johnson66),
-  V=4.77(Cousins63), 
-  V=4.770(Cousins80),
-  V=4.782+-0.019(Hauck97) => adopt V=4.765.
-  B-V=-0.016(GaiaDR3/synth), 
-  B-V=0.01(Cousins62),
-  B-V=0.01(Westerlund63), 
-  B-V=0.018+-0.004(HIP,Mermilliod91),
-  B-V=0.02(Johnson66),
-  B-V=0.02(Cousins63) => adopt B-V=0.018.
-  U-B=0.040+-0.000(Mermilliod91), 
-  U-B=0.04(Johnson66),
-  U-B=0.04(Cousins62),
-  U-B=0.04(Westerlund63) => adopt U-B=0.04. 
-  V-Rc=0.008(Cousins80). 
-  V-Ic=0.01+-0.02(HIP), 
-  V-Ic=0.015(Cousins80).
-  2MASS photometry flagged "EEA", Ks=4.700+-0.027(2MASS,q=A) =>
-  V-Ks = 4.765 - 4.700 = 0.065. 
-  GaiaDR3: G=4.755616+-0.002924, plx=18.4705+-0.1326mas(GaiaDR3)
+  d=54pc(BailerJones21/GaiaDR3), and Kervella22 quotes E(B-V)=0.001
+  from STILISM reddening maps - so, negligibly reddened.
+  V=4.75(Cousins62), V=4.76(HIP), V=4.764+-0.008(Mermilliod91),
+  V=4.765050(GaiaDR3/synth), V=4.77(Johnson66), V=4.77(Cousins63),
+  V=4.770(Cousins80), V=4.782+-0.019(Hauck97) => adopt V=4.765.
+  B-V=-0.016(GaiaDR3/synth), B-V=0.01(Cousins62),
+  B-V=0.01(Westerlund63), B-V=0.018+-0.004(HIP,Mermilliod91),
+  B-V=0.02(Johnson66), B-V=0.02(Cousins63) => adopt B-V=0.018.
+  U-B=0.040+-0.000(Mermilliod91), U-B=0.04(Johnson66),
+  U-B=0.04(Cousins62), U-B=0.04(Westerlund63) => adopt U-B=0.04.
+  V-Rc=0.008(Cousins80), R-Ic=0.007(Cousins80), V-Ic=0.01+-0.02(HIP),
+  V-Ic=0.015(Cousins80).  2MASS photometry flagged "EEA",
+  Ks=4.700+-0.027(2MASS,q=A) => V-Ks = 4.765 - 4.700 = 0.065.
+  GaiaDR3: G=4.755616+-0.002924, plx=18.4705+-0.1326mas(GaiaDR3) =>
+  M_G=1.09, Mv=1.10, M_Ks=1.03.
 
 # Other Stars
 
@@ -623,9 +651,11 @@ HD 156164 = del Her = HR 6410
   Only include here as Garrison96 had it as a bright A1Va star.  V=8
   companion 11" away (G-dwarf). Not great agreement on subtype.
 
-HD 111397 = HR 4865 = 29 Com (V=5.7)
+HD 111397 = 29 Com = HR 4865 = HIP 62541 = 36 Vir = Gaia DR3 3930809152255895936 (V=5.7)
  *A1V: Cowley69,Loden83,Abt95,Paunzen01
-  A2V: Osawa59,Levato78
+  A2V: Osawa59,Eggen60,Levato78
+
+  The post-MK78 grid of standards classifications are all A1V. 
 
 HD 9414 = HR 443 
   A1V: Houk78
@@ -633,7 +663,24 @@ HD 9414 = HR 443
   A2V: 1971RGOB..165..259H
   A3V: Cucchiaro78
 
-  plx=10.124+-0.0271mas, i.e. might be slight reddening. 
+  plx=10.124+-0.0271mas, i.e. might be slight reddening.
+
+HD 193571 = kap01 Sgr = GJ 9694 = GJ 788.3 = HIP 100469 = 2MASS J20222749-4202583 = WDS J20225-4203A = Gaia DR3 6680131105563170944
+  A0V: Evans61,Houk78
+ *A1Va: DeVaucoleurs57(A1V),GrayGarrison87
+  A1III: Cucchiaro78(S2/68)
+
+  Rare example of A-type star within 75pc (negligibly reddened) with
+  2MASS quality flags qflg='AAA'.  "ISPY - NaCo Imaging Survey for
+  Planets around Young stars. Discovery of an M dwarf in the gap
+  between HD 193571 and its debris ring. " (MussoBarcucci19
+  2019A&A...627A..77M; "...A0 debris disc hosting star at a distance
+  of 68pc with an age between ∼60 and 170Myr." "...Comparison between
+  the L' and H band magnitude and evolutionary tracks suggests a mass
+  of ∼0.31-0.39M☉. Conclusions. We discovered a previously unknown
+  M-dwarf companion around HD 193571, making it the third low-mass
+  stellar object discovered within a debris disc.).
+  plx=14.6303+-0.0865mas(GaiaDR3).
 
 # Notes on nearby Hipparcos stars with A1V types (mostly from Houk)
 

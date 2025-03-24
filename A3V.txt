@@ -64,10 +64,6 @@ Skiff08 flagged two stars as A3V standards: HD 216956 (MK73) & BD+48_944 (MK78)
 => adopt (B-V)(A3V)  = 0.092 [updated 12/29/2023]
 [EEM 12/29/2023: the colors for the 3 best standards are tightly clustered, tough to ignore that, and the median
 B-V for the standards+exemplars is the same as the B-V for bet Cir. I adopt B-V=0.092. 
-=> adopt (V-J)(A3V)  = 0.200 [updated 12/29/2023]
-=> adopt (V-H)(A3V)  = 0.198 [updated 12/29/2023]
-=> adopt (H-Ks)(A3V) = 0.035 [updated 12/29/2023]
-=> adopt (J-H)(A3V)  = -0.001 [updated 12/29/2023]
 
 (U-B)(A3V) = 0.100 ; anchor stan. alf PsA = HD 216956 = GJ 881
 (U-B)(A3V) =  0.09 ; Cowley70(N=74) 
@@ -108,10 +104,25 @@ B-V for the standards+exemplars is the same as the B-V for bet Cir. I adopt B-V=
 (V-Ic)(A3V) = 0.152 (+-0.017 sem, +-0.065 stdev); HIP d<75pc S/N>8 (N=21)
 => adopt (V-Ic)(A3V) = 0.09 [updated 12/29/2023; V-Rc=0.04, R-Ic=0.05]
 
+(V-J)(A3V) = 0.200 ; B-V vs V-J trend for B-V=0.092 (2/1/2025)
+=> adopt (V-J)(A3V) = 0.20 [updated 3/1/2025]
+
+(V-H)(A3V) = 0.198 ; B-V vs V-H trend for B-V=0.092 (2/1/2025)
+=> adopt (V-H)(A3V) = 0.20 [updated 3/1/2025]
+
 (V-Ks)(A3V) = 0.185 ; pri. stan. HD 102647 = bet Leo = GJ 448
 (V-Ks)(A3V) = 0.207 ; exemplar HD 188899 = 61 Sgr
 (V-Ks)(A3V) = 0.233 ; B-V vs V-Ks trend for B-V=0.092 (12/2023)
-=> adopt (V-Ks)(A3V) = 0.233 [updated 12/29/2023]
+=> adopt (V-Ks)(A3V) = 0.235 [updated 12/29/2023] 
+
+(J-H)(A3V) =  0.000 +-0.042 ; HD 220105 = HIP 115261 = HR 8884 = 2MASS J23204411+4406581 (A3Vn;Abt95)
+(J-H)(A3V) = -0.001 ; B-V vs J-H trend for B-V=-0.092 (2/1/2025)
+(J-H)(A3V) = -0.004 ; Koornneef83 (J-H=0.04) converted to 2MASS via Carpenter01 (A3V stars)
+=> adopt (J-H)(A3V) = 0.00 [updated 3/1/2025] (V-J=0.20, V-H=0.20)
+
+(H-Ks)(A3V) = 0.035 ; B-V vs H-Ks for B-V=0.092 (2/1/2025)
+(H-Ks)(A3V) = 0.041 +-0.042 ; HD 220105 = HIP 115261 = HR 8884 = 2MASS J23204411+4406581 (A3Vn;Abt95)
+=> adopt (H-Ks)(A3V) = 0.035 [updated 3/1/2025] (V-Ks=0.235, V-H=0.20) 
 
 (g-V)(A3V) = -0.064 ; Jordi06 B-V=>g-V for B-V=0.10
 => adopt (g-V)(A3V) = -0.064 [updated 9/1/2023]
@@ -236,7 +247,7 @@ Mv(A3V) =   1.63 mag ; interp BAF dwarf seq for B-V=0.10
 Mv(A3V) =  1.64 mag ; sec. stan. HD 135379 = Bet Cir
 Mv(A3V) =   1.65 +-0.07 sem, +-0.56 stdev ; EEM N=53 HIP A3V d<75pc
 Mv(A3V) =   1.70 mag ; B/A/F dwarf sequence for B-V=0.10 
-Mv(A3V) =  1.72 mag ; anchor stan. HD 216956 = Alf PsA
+Mv(A3V) =  1.72 mag ; pri./anchor stan. HD 216956 = alf PsA
 Mv(A3V) =  1.81 mag ; exemplar HD 51693 = HR 2606
 Mv(A3V) =  1.82 mag ; exemplar HD 52859A
 Mv(A3V) =  1.91 mag ; ter. stan. HD 23643 = Cl Melotte 22 1425 (Pleiad)
@@ -246,12 +257,12 @@ Mv(A3V) =   2.0   mag ; GrayCorbally09
 Mv(A3V) =  2.09 mag ; ter. stan. BD+48_944 = Cl Melotte 20 970 (alpha Per cluster)
 => adopt Mv(A3V)   = 1.70  mag [updated 9/24/2020]
 => adopt M_G(A3V)  = 1.69  mag [updated 12/10/2020] (Mv=1.70, G-V=-0.01)
-=> adopt M_Ks(A3V) = 1.447 mag [updated 12/30/2020] (Mv=1.70, V-Ks=0.253)
+=> adopt M_Ks(A3V) = 1.465 mag [updated 2/1/2025] (Mv=1.70, V-Ks=0.235)
 
 logL(A3V) =  1.602 dex ; Zorec12 median
 logL(A3V) =  1.258 dex ; sec. stan. HD 135379 = bet Cir 
 logL(A3V) = 1.232 dex ; Mv=1.70 + BCv=-0.04 => Mbol = 1.660
-logL(A3V) =  1.223 dex ; anchor stan. Fomalhaut (Mamajek12)
+logL(A3V) =  1.223 dex ; pri./anchor stan. Fomalhaut (Mamajek12)
 logL(A3V) =  1.149 dex ; ter. stan. HD 23643 = Cl Melotte 22 1425 (Pleiades member)
 logL(A3V) =  1.141 dex ; pri. stan. HD 102647 = bet Leo
 logL(A3V) =  1.077 dex ; ter. stan. BD+48_944 = Cl Melotte 20 970 (alpha Per cluster)
@@ -415,24 +426,29 @@ HD 23643 = Cl Melotte 22 1425 = HII 1425 (Pleiades member)
   plx=7.4730 => Mv=1.91, Mbol=1.87, logL=1.149 => w/Teff=8258K =>
   Rad=1.835Rsun.
 
-BD+48_944 = Cl Melotte 20 970 = HIP 16452 (alpha Per cluster)
+BD+48 944 = Cl Melotte 20 970 = HIP 16452 = 2MASS J03315579+4835017 = Gaia DR3 249267880252995968 (alpha Per cluster)
   A2: Heckmann58
  *A3V: MK78,Keenan85
-  A4V: Petrie69
+  A4V: Petrie69,Zuckerman12
   A5V?: Morgan71
 
   Fairly weak pedigree as a standard goes, but used in MK78 atlas.
-  V=8.19(Mermilliod91), V=8.212(Pickles10,fit), V=8.22(HIP),
-  (B-V)=0.185+-0.003(HIP), (B-V)=0.187(Mermilliod91),
-  U-B=0.130(Mermilliod91), V-I=0.20+-0.00(HIP).
+  "HL" IDs of alpha Per cluster in Morgan71 correspond to "Cl Melotte
+  20 #" in SIMBAD.  V=8.19(Mermilliod91), V=8.212(Pickles10,fit),
+  V=8.22(HIP), (B-V)=0.185+-0.003(HIP), (B-V)=0.187(Mermilliod91),
+  (U-B)=0.130(Mermilliod91), (V-Ic)=0.20+-0.00(HIP).
   plx=6.6782+-0.0504mas(GaiaDR2), plx=6.6904+-0.0293mas(GaiaEDR3).
-  E(B-V)=0.077(Kervella19,STILISM) => adopt (B-V)o=0.108,
-  Av=0.253. Stassun19 lists E(B-V)=0.0346+-0.0396.  Teffs:
-  7660+-200K(Kounkel19), 7974+-259K(Bai19), 8227+-378K(Stassun19),
-  8235K(GaiaDR2), 8286K(Queiroz20), 8461K(Anders19),
-  8799+-141K(David15), 9066K(Stassun18) => <Teff> = 8261K.
-  Luminosity: V=8.212, BCv=-0.04, Av=0.253, plx=6.6904mas => Mv=2.09,
-  Mbol=2.05, logL=1.077 => w/Teff=8261K => Rad=1.688Rsun.
+  Published reddening estimates show considerable scatter between
+  E(B-V)=0.00 and 0.171 (see Paunzen24), thought they adopt
+  E(B-V=0.036, similar to the E(B-V)=0.0346+-0.0396 from
+  TIC/Stassun19.  Adopting E(B-V)=0.077(Kervella19,STILISM), the
+  (B-V)o = (B-V) - E(B-V) = 0.185 - 0.077 = => adopt (B-V)o=0.108 and
+  Av=0.253. Teffs: 7660+-200K(Kounkel19), 7974+-259K(Bai19),
+  8227+-378K(Stassun19), 8235K(GaiaDR2), 8286K(Queiroz20),
+  8461K(Anders19), 8799+-141K(David15), 9066K(Stassun18) => <Teff> =
+  8261K.  Luminosity: V=8.212, BCv=-0.04, Av=0.253, plx=6.6904mas =>
+  Mv=2.09, Mbol=2.05, logL=1.077 => w/Teff=8261K => Rad=1.688Rsun.
+  plx=6.6904+-0.0293mas(GaiaDR3).
 
 # Deprecated Standards: 
 
@@ -582,7 +598,13 @@ HD 188899 = 61 Sgr = GJ 773.1 = GJ 9675 = HR 7614 = HIP 98258 = g Sgr
 
 # Other Stars
 
+HD 220105 = HIP 115261 = HR 8884 = STF 3004A = ADS 16685A = 2MASS J23204411+4406581 = WDS J23207+4407A = Gaia DR3 1937050149083210880
+  A2: 1952IzKry...9...82G
+  A3Vn: Abt95
+  A5Vn: Cowley69
 
+  Rare example of d<75pc (i.e. negligligibly reddened) A dwarf with 2MASS quality flags qflg='AAA'.
+  
 
 HD 27962 = 68 Tau
   A0V: 1961UppAn...4j...1L

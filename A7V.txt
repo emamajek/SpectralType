@@ -175,14 +175,17 @@ Gray01/03/06 lists 12 A7V nearby stars. They have median HIP colors of:
 
 (J-H)(A7V) = 0.09 ; Bessell88/Glass
 
-(J-H)(A7V) = 0.043 ; Bessell88(Glass->2MASS)
-(J-H)(A7V) = 0.056 ; B-V vs J-H for B-V=0.212
-=> adopt (J-H)(A7V) = 0.056 [updated 5/10/2024]
+(J-H)(A7V) =  0.029 +-0.029 ; HD 157728 = HR 6480 = 2MASS J17240658+2257371 (A7V;Abt95)
+(J-H)(A7V) =  0.043 ; Bessell88(Glass->2MASS)
+(J-H)(A7V) =  0.056 ; B-V vs J-H for B-V=0.212
+(J-H)(A7V) =  0.057 ; Koornneef83 (J-H=0.04) converted to 2MASS via Carpenter01 (A7V stars)
+=> adopt (J-H)(A7V) = 0.055 [updated 2/1/2025]
 
 (H-K)(A7V) = 0.025 ; Bessell88/Glass
 
-(H-Ks)(A7V) = 0.040 ; B-V vs H-Ks for B-V=0.212
-(H-Ks)(A7V) = 0.053 ; Bessell88(Glass->2MASS)
+(H-Ks)(A7V) =  0.035 +-0.029 ; HD 157728 = HR 6480 = 2MASS J17240658+2257371 (A7V;Abt95)
+(H-Ks)(A7V) =  0.040 ; B-V vs H-Ks for B-V=0.212
+(H-Ks)(A7V) =  0.053 ; Bessell88(Glass->2MASS)
 => adopt (H-Ks)(A7V) = 0.040 [updated 5/10/2024]
 
 (J-K)(A7V) = 0.11 ; Bessell88/Glass
@@ -690,6 +693,74 @@ HD 71297 = 2 Hya = HIP 41375 = HR 3321 = LM Hya = WDS J08265-0359
    logg=4.17(Catanzaro13).  logL=1.04+-0.02(Catanzaro13).
    Age=790+-90Myr(Catanzaro13).  Mass=1.77+0.12-0.19Msun(Catanzaro13).
 
+# Variant Standard
+
+HD 203280 = alf Cep = HIP 105199 = Alderamin = HR 8162 = GJ 826 = 5 Cep = Gaia DR3 2193192137376175488 = WDS J21186+6235A = 1RXS J211837.1+623513 = CNS5 5253 
+  A7V: MK43(stan),Palmer68,Cowley74(stan),Garrison96(A7Van)
+ *A7V-IV: Morgan53,JM53(non-stan),Cowley69(stan)
+  A7:Vn: Abt95
+  A8Vn: Gray03
+  A8IV: Barry70
+  A8III-IV: Baines23(SED template)
+  A5: Cannon
+  
+  0.73mag above the B-V vs Mv main sequence of Wright04. In GCVS as a
+  delta Scuti variable with mag range 2.41 < V < 2.47.  WDS only lists
+  it as part of WDS J21186+6235 = BU 1502 AB binary, but B appears to
+  be an unrelated interloper at 196.6" (mag=11.46) with miniscule
+  proper motion (i.e. likely background object). Vereschchagin15 has
+  it as part of the Castor stream, but it is unclear how helpful this
+  is for age-dating (likely dynamical, see Mamajek13). vsini estimates
+  range from 68 to 245 km/s, with Gebran16 reporting vsini=190km/s as
+  a good recent estimate (although notably Lucky17 reports
+  vsini=68.6km/s!). vanBelle06(2013A&A...555A.100D),
+  Zhao09(2009ApJ...701..209Z), and Delaa13(2013A&A...555A.100D)
+  present detailed interferometric studies, and recently Baines23
+  presented a new angular diameter estimate. vanBelle06's abstract
+  states: "The interferometric observations are modeled as arising
+  from an elongated rigid atmosphere, with apparent polar and
+  equatorial radii of rp=0.6753+0.0119-0.0135 and
+  re=0.8767+0.0293-0.0183 mas, respectively, for a difference of
+  201+/-32 μas, and with an axial ratio of re/rp=1.298+/-0.051. Using
+  the Hipparcos distance of 14.96+/-0.11 pc, these angular measures
+  translate to 2.18+/-0.05 and 2.82+/-0.10 Rsolar. The inclination of
+  Alderamin to the line of sight indicated by this modeling is
+  effectively edge-on (i=88.2+1.8-13.3 deg). The star has a true
+  rotational velocity of 283+/-10 km/s (~83% of breakup velocity) and
+  a polar temperature of roughly 8400 K. Significantly, a necessary
+  aspect of this modeling is a determination of the gravity-darkening
+  coefficient, which at a value of β=0.084+0.026-0.049 is consistent
+  with a convective photosphere, as expected for an A7IV-V star." Both
+  vanBelle06 and Zhao09 found large Teff differences between the pole
+  and equator: Tpole/Teq = 8440+430-700K/7600K(vanBelle06),
+  8588+-300K/6574+-200K(Zhao09). Delaa13 estimates the PA of the
+  rotational axis, but does not provide new Teff estimates.
+  U=2.78(Johnson66/Morel78), U=2.82(Moreno71),
+  B=2.67(Johnson66/Morel78), B=2.67(Moreno71),
+  V=2.45(Johnson66/Morel78), V=2.45(Moreno71), V=2.451(Hauck91),
+  V=2.453+-0.012(Mermilliod91), B-V=0.216+-0.006(Mermilliod91),
+  B-V=0.22(Johnson66), U-B=0.102+-0.012(Mermilliod91),
+  U-B=0.11(Johnson66), Rj=2.21(Moreno71), Rj=2.24(Johnson66/Morel78),
+  Ij=2.13(Johnson66/Morel78), Jj=2.11(Johnson66/Morel78),
+  Kj=1.96(Johnson66/Morel78), Lj=1.85(Johnson66/Morel78).  Baines23
+  report angular diameter tetUD=1.597+-0.001mas =>
+  tetLD=1.677+-0.007mas, Teff=7806K(SED?), logg=3.90,
+  Rad=2.71+-0.01Rsun, fbol=(2.45+-0.002)e-6erg/s/cm2 =>
+  mbol=2.5296+-0.0009(IAU2015scale), Teff=7151+-15K, Lum=17.3+-0.1Lsun
+  => logL=1.238+-0.003.  Combining Baines23 ang diam tetLD and revised
+  Hipparcos parallax (vanLeeuwen07) => Rad=2.7113+-0.0122Rsun (they
+  note that their diameter "likely corresponds more closely to the
+  equatorial diameter measurement, by chance", but they did not model
+  its oblateness nor Teff distribution). Zorec12 report
+  logT=3.883+-0.003, logL=1.3249+-0.0097, Mass=1.96+-0.01Msun,
+  Age=763+-15Myr, vsini=196km/s.  There is a strange discrepency
+  between the recent interferometric Teff estimate from Baines23 and
+  the previous Teff estimates (at the ~5% level).  Teffs:
+  7151K(Baines23), 7217K(Luck17), 7300K(Gebran16), 7460K(Sokolov95),
+  7631K(TIC), 7638K(Zorec12), 7773K(Gray03), 7851+-267K(David15).  In
+  GaiaDR3, but no parallax => adopt plx=66.50+-0.11mas(vanLeeuwen07).
+  Surface gravities logg: 3.69(Luck17), 3.95+-0.14(David15).
+  
 # Exemplars
 
 HD 222603 = lam Psc = HIP 116928 = HR 8984
@@ -763,18 +834,7 @@ HD 6961 = tet Cas = HIP 5542 = HR 343 = 33 Cas
    Probably could be considered "A7IV/V", but maybe not the best
    standard.
   
-HD 203280 = alf Cep = HIP 105199 = Alderamin
- *A7V: MK43,Palmer68,Cowley74(stan),Garrison96(A7Van)
-  A7V-IV: Cowley69(stan),Jaschek78
-  A7:Vn: Abt95
-  A8IV: Barry70
-  A8Vn: Gray03
-  A5: Cannon
-  
-  Jaschek64 lists mix of (A7V, V-IV, & IV-V)
-  B-V(HIP)=0.257, dMv=-0.73, d=15pc
-  Subtypes shifted a bit A7=>A8 and it appears to be slightly evolved
-  Probably best considered a "A8IV-V", and probably not the best standard
+
 
 Coma T60 
   A7V: Abt68(stan)

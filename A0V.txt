@@ -4,8 +4,8 @@ Garrison94 lists two A0V anchor standards (gam UMa (=HD 103287) & alf
 Lyr (= HD 172167 = Vega)), and MK73 lists the same two A0V stars as
 dagger standards (gam UMa & alf Lyr). JohnsonMorgan53 lists *9* A0V standards. 
 
-MK43 standard:         gam UMa, alf Lyr, alf CrB, 30 Mon(check this one?)
-JM53 standard:         gam Uma, alf Lyr, alf CrB, 4 Aur, HR 3314, 109 Vir, HR 5859, HR 6070, gam Oph
+MK43 standard:         gam UMa, alf Lyr, alf CrB, HR 3314 (=C Hya=30 Mon) - A0V 
+JM53 standard:         gam Uma, alf Lyr, alf CrB, 4 Aur, HR 3314, 109 Vir, HR 5859, HR 6070, gam Oph - A0V
 Morgan65 standard:     gam UMa - A0V
 Garrison67 standard:   alf CrB - A0V
 Abt68 standard:        gam UMa - A0V
@@ -76,7 +76,6 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 => adopt (V-H)(A0V) =  0.013 [updated 12/29/2023]
 => adopt (V-Ks)(A0V) =  0.041 [updated 12/29/2023]
 => adopt (H-Ks)(A0V) =  0.028 [updated 12/29/2023]
-=> adopt (J-H)(A0V) = -0.032 [updated 12/29/2023]
 [EEM Note 12/29/2023: Johnson53 defined B-V=0.00 based on colors of sample of A0V stars, and I adopt this (and it is consistent within ~0.01 mag of middle of distribution of B-V values above, and the median color of the three main standards is still B-V=0.000).]
 
 (U-B)(A0V) = +0.014 ; pri. stan. HD 103287 = gam UMa = HIP 58001 
@@ -154,29 +153,42 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (V-Kj)(A0V) =  0.07 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66) 
 
 (V-Ks)(A0V) =  0.05 ; Wegner14/2MASS
-(V-K)(A0V) =  0.00 ; Bessell88/Johnson-Glass
+
+(V-K)(A0V)  =  0.00  ; Bessell88/Johnson-Glass
+(V-K)(A0V)  =  0.024 ; Glass97(SAAO/Carter90_system
 
 (V-Lj)(A0V) =  0.00 ; Johnson66
 (V-Lj)(A0V) =  0.02 ; Johnson65
 (V-Lj)(A0V) =  0.05 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66)
 
-(J-H)(A0V) = 0.00 ; Bessell88/Glass
+(J-H)(A0V) = 0.00  ; Bessell88/Glass
+(J-H)(A0V) = 0.015 ; Glass97(SAAO/Carter90_system) 
 
-(J-H)(A0V) = -0.04 (+-0.004 rms) ; SteadHoare11 
-(J-H)(A0V) = -0.04  ; Deng20/2MASS
-(J-H)(A0V) = -0.045 ; Bessell88(Glass->2MASS)
-=> adopt (J-H)(A0V) = -0.04 [updated 4/18/2024]
+(J-H)(A0V) =  -0.025 +-0.033 ; HD 139493 = HR 5818 = 2MASS J15355704+5437500 (A0Vn;Gray95/A0V;Stocke91)
+(J-H)(A0V) =  -0.035 ; Koornneef83 (J-H=0.01) converted to 2MASS via Carpenter01 (A0V stars)
+(J-H)(A0V) =  -0.04 (+-0.004 rms) ; SteadHoare11 
+(J-H)(A0V) =  -0.04  ; Deng20/2MASS
+(J-H)(A0V) =  -0.045 ; Bessell88(Glass->2MASS)
+(J-H)(A0V) =  -0.049 ; pri. stan. HD 71155 = HR 3314 = 30 Mon (vanderBliek96 ESO => 2MASS via Carpenter01) 
+=> adopt (J-H)(A0V) = -0.04 [updated 3/1/2025] (J-Ks=-0.02, H-Ks=-0.02) 
 
-(H-Ks)(A0V) = 0.028 ; Bessell88(Glass->2MASS)
-(H-Ks)(A0V) = 0.02  ; Deng20/2MASS
-(H-Ks)(A0V) = 0.00 (+-0.003 rms) ; SteadHoare11 
-=> adopt (H-Ks)(A0V) = 0.02 [updated 4/18/2024]
+(H-K)(A0V) = -0.001 ; Glass97(SAAO/Carter90_system) 
+(H-K)(A0V) =  0.00  ; Bessell88/Glass
 
-(H-K)(A0V) = 0.00 ; Bessell88/Glass
+(H-Ks)(A0V) =  0.028 ; Bessell88(Glass->2MASS)
+(H-Ks)(A0V) =  0.023 ; pri. stan. HD 71155 = HR 3314 = 30 Mon (vanderBliek96 ESO => 2MASS via Carpenter01) 
+(H-Ks)(A0V) =  0.02  ; Deng20/2MASS
+(H-Ks)(A0V) =  0.011 +-0.029 ; HD 139493 = HR 5818 = 2MASS J15355704+5437500 (A0Vn;Gray95/A0V;Stocke91)
+(H-Ks)(A0V) =  0.00 (+-0.003 rms) ; SteadHoare11 
+=> adopt (H-Ks)(A0V) = 0.02 [updated 3/1/2025] (J-H=-0.04, J-Ks=-0.02)
+
 
 (J-K)(A0V) =   0.00 ; Bessell88/Glass
-(J-Ks)(A0V) = -0.011 ; Bessell88(Glass->2MASS)
-(J-Ks)(A0V) = -0.02  ; Deng20/2MASS
+
+(J-Ks)(A0V) =  -0.011 ; Bessell88(Glass->2MASS)
+(J-Ks)(A0V) =  -0.019 ; pri. stan. HD 71155 = HR 3314 = 30 Mon (vanderBliek96 ESO => 2MASS via Carpenter01) 
+(J-Ks)(A0V) =  -0.02  ; Deng20/2MASS
+=> adopt (J-Ks)(A0V) = -0.02 [updated 3/1/2025] (J-H=-0.04, H-Ks=0.02)
 
 (g-V)(A0V) = -0.127 ; Jordi06 B-V=>g-V for B-V=0.00
 => adopt (g-V)(A0V) = -0.127 [updated 9/1/2023]
@@ -509,26 +521,43 @@ HD 71155 = HR 3314 = 30 Mon = HIP 41307 = C Hya = Gaia DR3 3066513435671608064
   K-M=0.00. plx=26.66+-0.19mas(HIP2).  V=3.88(Cousins62),
   V=3.89(Bok72), V=3.895+-0.006(Mermilliod91), V=3.899(Cousins84),
   V=3.90(Johnson54,Arp58,Johnson66,Argue66), V=3.91(HIP) => adopt
-  V=3.895.  B-V=-0.02(Johnson54,Cousins62,Johnson66,Argue66),
+  V=3.895.  U-V=-0.05(Johnson66),
+  B-V=-0.02(Johnson54,Cousins62,Johnson66,Argue66),
   B-V=-0.017(Cousins84), B-V=-0.014+-0.008(Mermilliod91),
   B-V=-0.012+-0.003(HIP), B-V=-0.01(Arp58,Bok72) => adopt B-V=-0.014.
   U-B=0.00(Bok72), U-B=-0.01(Cousins62),
   U-B=-0.02(Johnson54,Johnson66), U-B=-0.020+-0.012(Mermilliod91),
-  U-B=-0.029(Cousins84), U-B=-0.03(Argue66) => adopt U-B=-0.020.
-  V-Rc=-0.007(GCPD/Cousins76_VRIc), R-Ic=-0.017(GCPD/Cousins76_VRIc),
-  V-Ic=-0.024(GCPD/Cousins76_VRIc), V-Ic=-0.02+-0.02(HIP).  Mv =
-  1.04(HIP,HIP2).  Hauck97 lists b-y=-0.007, m1=0.158, c1=1.026,
-  beta=2.896.  J=3.933(Bouchet91/ESO), J=3.932(vandeBliek96/ESO),
-  H=3.932(vandeBliek96/ESO), H=3.951(Bouchet91/ESO),
-  K=3.936(Bouchet91/ESO), K=3.944(vandeBliek96/ESO),
-  L=3.932(Bouchet91/ESO), L'=3.938(vandeBliek96/ESO),
-  M=3.984(Bouchet91/ESO), M=3.950(vandeBliek96/ESO).  HR 3314 is of
-  course saturated in 2MASS. Teffs: 7620K(Bermejo13), 9118K(GaiaDR2),
-  9556K(Gray03), 9585K(Prugniel07#2), 9663+-87K(Blackwell98),
-  9683K(Stassun18), 9718K(Ammler-vonEiff12), 9760K(Katz11),
-  9793K(Prugniel07#1), 9806K(diBenedetto98), 9910K(Sokolov95),
-  10000K(Mittal15,Chen14), 10060+-360K(Zorec09), 10281K(David15) =>
-  <Teff> = 9740K. logg=3.78(Katz11), 3.93(Prugniel07#1),
+  U-B=-0.029(Cousins84), U-B=-0.03(Argue66)
+  U-B=-0.03(Johnson66;U-V=-0.05,B-V=-0.02) => adopt U-B=-0.020.
+  V-Rj=0.03(Johnson66), V-Rc=-0.002(Johnson66=>Cousins),
+  V-Rc=-0.007(GCPD/Cousins76_VRIc),
+  R-Ij=-0.05(Johnson66/V-Ij=-0.02,V-Rj=+0.03),
+  R-Ic=-0.017(GCPD/Cousins76_VRIc), V-Ij=-0.02(Johnson66),
+  V-Ic=-0.012(Johnson66=>Cousins), V-Ic=-0.02+-0.02(HIP),
+  V-Ic=-0.024(GCPD/Cousins76_VRIc), Mv = 1.04(HIP,HIP2).  Hauck97
+  lists b-y=-0.007, m1=0.158, c1=1.026, beta=2.896.
+  J=3.933(Bouchet91/ESO), J=3.932(vanderBliek96/ESO),
+  H=3.951(Bouchet91/ESO), H=3.932(vanderBliek96/ESO),
+  K=3.936(Bouchet91/ESO), K=3.944(vanderBliek96/ESO),
+  L=3.932(Bouchet91/ESO), L'=3.938(vanderBliek96/ESO),
+  M=3.984(Bouchet91/ESO), M=3.950(vandeBliek96/ESO).  The bright star
+  HR 3314 is saturated in 2MASS, so converting vanderBliek96 ESO
+  photometry to 2MASS following Carpenter01 => (J-H)_ESO = 3.932 -
+  3.932 = 0.000, (H-K)_ESO = 3.932 - 3.944 = -0.012, (J-K)_ESO = 3.932
+  - 3.944 = -0.012; Ks_2MASS = K_ESO + 0.005*(J-K)_ESO - 0.045
+  (Carpenter01 conversion) => Ks = 3.899 = 3.944 + 0.005*-0.012 -
+  0.045; (J-H)_2MASS = 0.983*(J-H)_ESO - 0.049 (Carpenter01
+  conversion) => (J-H)_2MASS = -0.049 = 0.983*0.000 - 0.049;
+  (J-Ks)_2MASS = 0.956*(J-K)_ESO - 0.008 => (J-Ks)_2MASS = -0.019 =
+  -0.019*(-0.012) - 0.008; (H-Ks)_2MASS = 0.956*(H-K)_ESO + 0.034
+  (Carpenter01 conversion) => (H-Ks)_2MASS = 0.956*(-0.012) + 0.034 =
+  0.023; => 2MASS system (J-H)=-0.049, (H-Ks)=0.023, (J-Ks)=-0.019.
+  Teffs: 7620K(Bermejo13), 9118K(GaiaDR2), 9556K(Gray03),
+  9585K(Prugniel07#2), 9663+-87K(Blackwell98), 9683K(Stassun18),
+  9718K(Ammler-vonEiff12), 9760K(Katz11), 9793K(Prugniel07#1),
+  9806K(diBenedetto98), 9910K(Sokolov95), 10000K(Mittal15,Chen14),
+  10060+-360K(Zorec09), 10281K(David15) => <Teff> =
+  9740K. logg=3.78(Katz11), 3.93(Prugniel07#1),
   3.81(Prugniel07#2). [Fe/H]=-0.40(Prugniel07#1), -0.76(Katz11),
   -0.77(Prugniel07#2). tetLDD=0.474358+-0.045207mas(Bourges17) =>
   using GaiaDR3 plx => Rad=2.0124+-0.1925Rsun.  Ages: 100Myr(Rhee07),
@@ -538,7 +567,8 @@ HD 71155 = HR 3314 = 30 Mon = HIP 41307 = C Hya = Gaia DR3 3066513435671608064
 
 # Tertiary Standard
 
-HD 225047 = HIP 232 = Cl Blanco 1 13 (Blanco 1 member)
+HD 225047 = HIP 232 = NSV 15001 = ASASSN-V J000255.21-300858.4 = Cl Blanco 1 13 = Cl* Blanco 1 ZS 77 = Cl* Blanco 1 WGL 51 = SB 3 = Gaia DR3 2320791355125856128 (Blanco 1 member)
+  B9.5: Gillen20
  *A0Vb: GrayGarrison87(stan)
   A0V: Levato79,Houk82
   A1V: Bond71
@@ -550,11 +580,61 @@ HD 225047 = HIP 232 = Cl Blanco 1 13 (Blanco 1 member)
   well-studied star, for example I can find no vsini measurements in
   any Vizier catalogs. The "b" in "A0Vb" indicates "slightly more
   extensive wings than the A0 Va MK78 standard \alpha Lyra (Vega)"
-  (Gray & Garrison 1987). V=8.43(HIP), B-V=0.007+-0.004(HIP), but Plx
-  = 5.18+-1.11 mas (HIP), plx=4.1845+-0.0871mas(GaiaDR2) => D = 239+-5
-  pc. STILISM predicts E(B-V)=0.005+-0.014. Hence (B-V)o = 0.007 -
-  0.005 = 0.002, Av ~ 0.006. Mv = 1.53+-0.05. Despite being in southern hemisphere,
-  I could not find any published Cousins photometry. 
+  (Gray & Garrison 1987). ASAS-SN variable star with Ampg=0.30mag,
+  Per=536.80d?  Suspected variability, in GCVS, attributed to
+  F.Rufener, AsAp Suppl 45, No.2, 207, 1981.
+  Maybe an eclipsing binary? :Green23 reports Porb=0.786303d, Per=1.060+-0.2900d(Healy23).
+  Conflicting Vmagnitudes, may be due to catalog/position errors in old catalogs?
+  However, GaiaDR3(Part4.Variability) flags the star at 8" separation (Gaia DR3 2320791355126051328,
+  Gmag=19.515156) as the eclipsing binary and lists frequnece 3.4027... d^-1 or P=0.294d. 
+  V=8.43(HIP),
+  B-V=0.007+-0.004(HIP), but Plx = 5.18+-1.11 mas (HIP),
+  plx=4.1845+-0.0871mas(GaiaDR2) => D = 239+-5
+  pc. Reddening values:
+  E(b-y)=-0.001(Philip80), 
+  E(B-V)=0.005+-0.014(STILISM),
+  E(B-V)-0.0094+-0.0027(Stassun19/TICv8.1),
+  E(B-V)=0.045+-0.023(Paunzen24).
+  Hence (B-V)o = 0.007 - 0.005 = 0.002, Av ~ 0.006. Mv =
+  1.53+-0.05. Despite being in southern hemisphere, I could not find
+  any published Cousins photometry.
+  V=8.42(TYC),
+  V=8.421+-0.009(ASCC-2.5),
+  V=8.429(Pickles10/SEDfit), 
+  V=8.43(HIP),
+  V=8.43(Girard11),
+  V=8.435(Hauck90), 
+  V=8.45+-0.04(Platais98), 
+  V=10.57(Mermilliod91 & Hauck97; clearly discrepent - mis-ID?) => adopt V=8.43.
+  U-B=-0.01(Pickles10/SEDfit), 
+  B-V=-0.009(Pickles10/SEDfit), 
+  B-V=0.007+-0.004(HIP),
+  B-V=0.09(Platais98), 
+  B-V=1.14(Mermilliod91),
+  U-B=1.026(Mermilliod91),
+  V-Rc=-0.001(Pickles10/SEDfit),
+  R-Ic=-0.01(Pickles10/SEDfit),
+  V-Ic=-0.011(Pickles10/SEDfit), 
+  V-Ic=0.03+-0.00(HIP),
+  u-g=1.07(Pickles10/SEDfit),
+  g-r=-0.25(Pickles10/SEDfit),
+  r-i=-0.22(Pickles10/SEDfit),
+  i-z=-0.14(Pickles10/SEDfit), 
+  Has qflag=AAA 2MASS photometry:
+  J=8.377+-0.019(2MASS),
+  J=8.39(Pickles10/SEDfit), 
+  H=8.428+-0.021(2MASS),
+  H=8.43(Pickles10/SEDfit),
+  Ks=8.41(Pickles10/SEDfit), 
+  Ks=8.427+-0.025(2MASS).
+  plx=4.3628+-0.0331mas(GaiaDR3), G=8.425649+-0.002772(GaiaDR3),
+  Bp-Rp=0.010167(GaiaDR3), Bp-G=-0.006217(GaiaDR3), G-Rp=0.016384(GaiaDR3).
+  Teff=9707K(Stassun19/TICv8.1),
+  logg=4.3481+-0.0662(Stassun19/TICv8.1),
+  Rad=1.747+-0.056Rsun(Stassun19/TICv8.1),
+  Mass=2.0+-0.1Msun(Tetzlaff11), 
+  Mass=2.480+-0.343Msun(Stassun19/TICv8.1),
+  Lum=24.40191 	1.49693Lsun(Stassun19/TICv8.1) => logL=1.3874+-0.0267. 
   
 # Deprecated Standards
 
