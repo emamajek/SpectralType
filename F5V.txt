@@ -7,28 +7,29 @@ HD 27534, HD 134083, and HD 210027 are also excellent standards.
 
 To confuse matters, both HD 27524 and HD 27534 are F5V standards!
 
-MK43 standard:         iot Peg - F5V
-JM53 standards:        iot Peg - F5V 
-     		       45 Boo - F5V
-Abt68 standard:        45 Boo (= HD 134083) - F5V
-Garrison72 standards:  iot Peg - F5V
-MK73 standard:         HD 27524 - F5V (dagger standard)
-MorganAbt73 standards: HD 27524 (= vB 35) - F5V
-	    	       HD 27534 (= vB 36) - F5V
-Cowley74 standards:    iot Peg - F5V
-	 	       45 Boo - F5V 
-Houk75 standard:       45 Boo - F5V (primary standard)
-Cowley76 standards:    iot Peg - F5V 
-MK78 standard:         HD 27534 - F5V
-     		       alf CMi (Procyon) - F5IV-V 
-Keenan85_IAU standard: HD 27534 - F5V 
-Corbally86 standard:   HD 27524 (Cl Melotte 25 35 = vB 35) - F5V (from Morgan65)
-Gray89 standard:       HD 27524 - F5V (primary stan.)
-                       HD 32065 - F5V m-2 (primary metal-weak stan.)
-GrayAtlas standard:    HD 27524 - F5V
-GrayNstars standard:   HD 27524 - F5V
-	   	       45 Boo (=HR 5634) - F5V
-		       alf CMi (Procyon) - F5V-IV
+1923ApJ....57...65.:     alf CMi - dF5 ("example", not called standard)
+MK43 standard:           iot Peg - F5V
+JM53 standards:          iot Peg - F5V 
+     		         45 Boo - F5V
+Abt68 standard:          45 Boo (= HD 134083) - F5V
+Garrison72 standards:    iot Peg - F5V
+MK73 standard:           HD 27524 - F5V (dagger standard)
+MorganAbt73 standards:   HD 27524 (= vB 35) - F5V
+	    	         HD 27534 (= vB 36) - F5V
+Cowley74 standards:      iot Peg - F5V
+	 	         45 Boo - F5V 
+Houk75 standard:         45 Boo - F5V (primary standard)
+Cowley76 standards:      iot Peg - F5V 
+MK78 standard:           HD 27534 - F5V
+     		         alf CMi (Procyon) - F5IV-V 
+Keenan85_IAU standard:   HD 27534 - F5V 
+Corbally86 standard:     HD 27524 (Cl Melotte 25 35 = vB 35) - F5V (from Morgan65)
+Gray89 standard:         HD 27524 - F5V (primary stan.)
+                         HD 32065 - F5V m-2 (primary metal-weak stan.)
+GrayAtlas standard:      HD 27524 - F5V
+GrayNstars standard:     HD 27524 - F5V
+	   	         45 Boo (=HR 5634) - F5V
+		         alf CMi (Procyon) - F5V-IV
 
 Skiff08 flags two stars as F5V MK standards: HD 27524 (MK73) & HD 27534 (MK78)
 
@@ -86,8 +87,7 @@ standards themselves. I recommend considering Houk's "F5V" stars as
 => adopt (V-J)(F5V)  = 0.853
 => adopt (V-H)(F5V)  = 1.025
 => adopt (V-Ks)(F5V) = 1.079
-=> adopt (H-Ks)(F5V) = 0.054
-=> adopt (J-H)(F5V)  = 0.173
+
 
 (U-B)(F5V) =   0.00  ; JohnsonMorgan53,Johnson66,Johnson68
 (U-B)(F5V) =  0.000 ; sec stan. HD 27534 = HIP 20350 (Hyad; [Fe/H]~+0.16)
@@ -198,18 +198,25 @@ standards themselves. I recommend considering Houk's "F5V" stars as
 (J-H)(F5V) = 0.23 ; Bessell88/Glass
 
 (J-H)(F5V) = 0.150 ; sec stan. HD 27534 = HIP 20350 (Hyad; [Fe/H]~+0.16)
+(J-H)(F5V) = 0.160 ; Koornneef83 converted to 2MASS via Carpenter01 (F5Vs)
+(J-H)(F5V) = 0.166 ; B-V vs J-H trend for B-V=0.435 (2/1/2025)
 (J-H)(F5V) = 0.180 ; Bessell88(Glass->2MASS)
 (J-H)(F5V) = 0.184 ; pri. stan. HD 27524 = HIP 20349 = Cl Melotte 25 35 ([Fe/H]=+0.16)
+=> adopt (J-H)(F5V) = 0.165 [updated 2/1/2025] 
 
 (H-K)(F5V) = 0.04 ; Bessell88/Glass
 
 (H-Ks)(F5V) = 0.024 ; pri. stan. HD 27524 = HIP 20349 = Cl Melotte 25 35 ([Fe/H]=+0.16) 
 (H-Ks)(F5V) = 0.048 ; sec stan. HD 27534 = HIP 20350 (Hyad; [Fe/H]~+0.16)
+(H-Ks)(F5V) = 0.053 ; B-V vs H-Ks trend for B-V=0.435 (2/1/2025) 
 (H-Ks)(F5V) = 0.068 ; Bessell88(Glass->2MASS)
+=> adopt (H-Ks)(F5V) = 0.05 [updated 2/1/2025] 
 
 (J-K)(F5V)  = 0.27 ; Bessell88/Glass
 
+(J-Ks)(F5V) = 0.215 ; J-H=0.165, H-Ks=0.05 (2/1/2025)
 (J-Ks)(F5V) = 0.251 ; Bessell88(Glass->2MASS)
+=> adopt (J-Ks)(F5V) = 0.215 [updated 2/1/2025] 
 
 (Ks-W1)(F5V) = 0.014 +- 0.057 ; pri. stan. HD 27524 = HIP 20349 = Cl Melotte 25 35 ([Fe/H]=+0.16)
 (Ks-W1)(F5V) = 0.052 ; EEM trend for d<30pc for B-V=0.440
