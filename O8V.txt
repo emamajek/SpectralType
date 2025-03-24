@@ -5,7 +5,7 @@ standard listed by MK73. HD 48279 was probably the best available
 standard (from Walborn90), but more recent works put it at O8.5V.  HD
 46149 was the O8V standard in MK78 and used by Keenan and Gray, but
 the O-star community (Walborn, Sota+) use it consistently as the O8.5V
-standard.  At this point, none of the O8V standands from the 20th
+standard.  At this point, none of the O8V standards from the 20th
 century seem to have survived as being consistently used in the 21st
 century.
 
@@ -13,9 +13,13 @@ MK43 listed Lam Ori as the "O8" standard (from Plaskett 1922). Lam Ori
 arguably has the best pedigree for the "O8" temperature type, but it
 is now considered "O8III((f))" by Walborn and Conti.
 
+Morgan53(1953ApJ...118..318M) appears to be the first publication that assigned luminosity class V
+to any O8 stars - they assigned O8V to HD 168137. 
+
 HD 48279 and 46966 are among the best (Morgan/Walborn continuity as O8),
 whereas HD 46149 is split (O8V by Morgan, O8.5V by Walborn).
 
+Plaskett24 standards:       lam Ori & A Cyg (unable to trace more useful alias) - O8
 MK43 standard:              lam Ori  - O8 (now considered O8III((f))) by most)
 Lesh68 primary standard:    lam Ori  - O8
 Lesh68 secondary standard:  HD 53975 - O8
@@ -80,15 +84,24 @@ Holgado20 classified 9 stars as O8V or variants: HD 101413, HD 165246, HD 41161,
 
 (V-Kj)(O8V) = -0.94 ; Johnson65 (for O8-9)
 
+(V-K)(O8V)  = -0.838 ; Glass97(SAAO/Carter90_system)
+
 (V-Ks)(O8V) = -0.86 ; Wegner14 (2MASS) 
 
 (V-Lj)(O8V) = -0.92 ; Johnson65 (for O8-9)
 
-(J-H)(O8V)  = -0.21 (+-0.019 rms) ; SteadHoare11/2MASS
-=> adopt (J-H)(O8V) = -0.21 [updated 4/18/2024]
+(J-H)(O8V) = -0.075 ; Glass97(SAAO/Carter90_system)
+
+(J-H)(O8V) = -0.209 ; Koornneef83 (J-H=-0.16) converted to 2MASS via Carpenter01 (O6-8 stars)
+(J-H)(O8V) = -0.21 (+-0.019 rms) ; SteadHoare11/2MASS
+=> adopt (J-H)(O8V) = -0.21 [updated 2/1/2025]
+
+(H-K)(O8V)  = -0.115 ; Glass97(SAAO/Carter90_system)
 
 (H-Ks)(O8V) = -0.10 (+-0.017 rms) ; SteadHoare11/2MASS
 => adopt (J-H)(O8V) = -0.10 [updated 4/18/2024]
+
+(K-L)(O8V) = -0.007 ; Glass97(SAAO/Carter90_system)
 
 (u-g)(O8V)   = -0.338 ; Covey07/synthetic_from_Pickles98_templates interp O5V-O9V
 (u'-g')(O8V) = -0.370 ; Smith02 u'-g' calibration for (U-B)=-1.12
@@ -99,6 +112,10 @@ Holgado20 classified 9 stars as O8V or variants: HD 101413, HD 165246, HD 41161,
 (g-r)(O8V) = -0.52 ; Kesseli17 
 (g-r)(O8V) = -0.62 ; Covey07 interp O5V -0.62 to O9V -0.62
 => adopt (g-r)(O8V) = -0.57 [updated 6/20/2024]
+
+(g-V)(O8V) = -0.308 ; Bilir05 calibration for B-V=-0.315
+(g-V)(O8V) = -0.322 ; Jordi06 calibration for B-V=-0.315
+=> adopt (g-V)(O8V) = -0.315 [updated 2/1/2025] 
 
 (r-i)(O8V) = -0.36 ; Kesseli17
 => adopt (r-i)(O8V) = -0.36 [updated 6/20/2024]
@@ -139,6 +156,7 @@ Teff(O8V) =  37334 K ; deprecated stan. HD 48279 (median Teff)
 (G-V)(O8V) =   0.225 ; HIP_56196 O8V(n)z+B0V(n) V=8.398 G=8.5517 E(B-V)=0.499
 => adopt (G-V)(O8V) = 0.00 [updated 2/20/2023]
 
+Mv(O8V) =  -5.0  mag ; Walborn72 
 Mv(O8V) =  -4.95 mag ; HIP_56196 O8V(n)z+B0V(n) plx=0.437 mas, Vmag=8.398,E(B-V)=0.499
 Mv(O8V) =  -4.9  mag ; Schmidt-Kaler82 
 Mv(O8V) =  -4.8  mag ; Wegner07
@@ -163,6 +181,7 @@ Mv(O8V) = -3.9  mag ; Conti71(ZAMS)
 Mv(O8V) =  -3.81 mag ; HIP_32137 O8V+F2V plx=0.804 mas, Vmag=7.958,E(B-V)=0.417
 Mv(O8V) =  -3.64 mag ; HIP_13468 O8V plx=0.533 mas, Vmag=9.759,E(B-V)=0.657
 => adopt Mv(O8V) = -4.5 mag [updated 2/8/2020]
+=> adopt Mg(O8V) = -4.815 mag [updated 2/1/2025] (Mv=-4.5, g-V=-0.315)
 
 BCv(O8V) =  -3.479 mag ; Flower96(Teff=35100K),set so BCv(5772K)=-0.085
 BCv(O8V) =  -3.41  mag ; Schmidt-Kaler82(BCv=-3.54 + 0.13 offset)
@@ -214,7 +233,7 @@ JM53, Hiltner69, MK73, Garrison77, and Garrison94 do not list an O8V standard
 
 # Exemplar
 
-HD 46056
+HD 46056 = NGC 2244 84 = Cl* NGC 2244 JOHN 7 = ALS 8977 = BD+4 1291 = MWC 808 = WDS J06313+0450A = Gaia DR3 3131327653265432704
   O8Vn: Walborn71,2009A&A...502..937M,Sota11,Holgado20,2021ApJS..253...54L
   O8V: Conti71,1982A&A...107..252B
   O8V(e): 1974ApJ...193..113C
@@ -304,6 +323,23 @@ HD 36861 = lam Ori A
   Could the Morgan55 type be for the B-type companion?
   Excellent pedigree on "O8" temperature type, but adopt it as "O8III((f))
 
+# Exemplar 
+
+HD 168137 = HIP 89750 = NGC 6611 401 = MCW 659 = HDS 2590A = SNA 91 = ALS 9507 = ALS 4915 = BD-13 4932 = 2MASS J18185619-1348310 = WDS J18189-1348Aa,Ab = Gaia DR3 4146599682284818176
+  O7V+O8V: Sana09 
+ *O7.5Vz+O8.5V: MaizAppellaniz19(arXiv:1904.11385)
+  O8V: Morgan53(1953ApJ...118..318M),Morgan55,Meadows61,Buscombe62,Hiltner69
+ *O8Vz: MaizAppellaniz16
+  O8.5V: Hillenbrand93,Bosch99,Evans05
+  B3Ib: Houk88
+  B0III: Kharadze61
+
+  First star that I can find in the literature that was classified O8V
+  (not just "O8").  V=8.949+-0.009(Mermilliod91),
+  B-V=0.405+-0.012(Mermilliod91), U-B=-0.658+-0.046(Mermilliod91) =>
+  using Q-method, I get (B-V)o=-0.331, (U-B)o=-1.182, E(B-V)=0.736,
+  Av=2.383, Teff=39786K.
+  
 # Other Stars
 
 HD 101413

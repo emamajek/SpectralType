@@ -16,16 +16,26 @@ Walborn02 also lists Sk-71_51, P1163, P1311, & ST_5-52 as examples of O3V((f*))
 
 Skiff08 does not flag any stars as O3V standards.
 
-B-V(O3V)  = -0.28  ; Martins06
-B-V(O3V)  = -0.330 ; pri. stan. HD 64568 (Q-method)
-B-V(O3V)  = -0.331 ; U-B=-1.18 from trend/Q-method
+(B-V)(O3V)  = -0.28  ; Martins06
+(B-V)(O3V)  = -0.330 ; pri. stan. HD 64568 (Q-method)
+(B-V)(O3V)  = -0.331 ; U-B=-1.18 from trend/Q-method
 => adopt (B-V)(O3V) = -0.33 [updated 2/7/2020]
 
-U-B(O3V)  = -1.16 ; Martins06
-U-B(O3V)  = -1.178 ; pri. stan. HD 64568 (Q-method)
-U-B(O3V)  = -1.22 ; Bessell98
-U-B(O3V)  = -1.22 ; Schmidt-Kaler82
+(U-B)(O3V)  = -1.16 ; Martins06
+(U-B)(O3V)  = -1.178 ; pri. stan. HD 64568 (Q-method)
+(U-B)(O3V)  = -1.22 ; Bessell98
+(U-B)(O3V)  = -1.22 ; Schmidt-Kaler82
 => adopt (U-B)(O3V) = -1.175 [updated 2/7/2020]
+
+(g-V)(O3V) = -0.317 ; Bilir05 calibration for B-V=-0.33
+(g-V)(O3V) = -0.332 ; Jordi06 calibration for B-V=-0.33
+=> adopt (g-V)(O3V) = -0.325 [updated 2/1/2025]
+
+(J-H)(O3V) = -0.135 ; Glass97(SAAO/Carter90_system)
+
+(H-K)(O3V) = -0.206 ; Glass97(SAAO/Carter90_system)
+
+(V-K)(O3V) = -0.855 ; Glass97(SAAO/Carter90_system)
 
 Teff(O3V) =   52500 K  ; Schmidt-Kaler82
 Teff(O3V) =   50000 K  ; Bessell98
@@ -39,19 +49,21 @@ Teff(O3V) =  44616 K   ; Martins05(Theoretical scale)
 Teff(O3V) =  44520 K   ; Holgado18(extrapolation past O4V)
 => adopt Teff(O3V) = 45900 K (logTeff = 4.662) [updated 11/15/2022]
 
-Mv(O3V)   =  -6.14 mag ; non-stan. HD 93250 (Repolust04)
-Mv(O3V)   =  -6.0  mag ; Schmidt-Kaler82
-Mv(O3V)   = -5.86 mag ; Martins06/obs.scale
-Mv(O3V)   = -5.85 mag ; Martins06/theor.scale
-Mv(O3V)   = -5.80 mag ; Bowen08
-Mv(O3V)   = -5.79 mag ; Martins05 (stdev=0.4 mag)
-Mv(O3V)   = -5.767 mag ; EEM trend for O dwarfs
-Mv(O3V)   = -5.7 +-0.2 mag ; Walborn02 (n=7 O2-O3V((f*)) stars
-Mv(O3V)   = -5.688 mag ; EEM trend for O dwarfs logL=5.784, BCv=-4.03
-Mv(O3V)   = -5.65 mag ; Russeil03
-Mv(O3V)   = -5.6  mag ; GrayCorbally09
-Mv(O3V)   = -5.26+-0.17 mag ; pri. stan. HD 64568 (seems significantly fainter than trend?)
+Mv(O3V) =  -6.14 mag ; non-stan. HD 93250 (Repolust04)
+Mv(O3V) =  -6.0  mag ; Schmidt-Kaler82
+Mv(O3V) = -5.86 mag ; Martins06/obs.scale
+Mv(O3V) = -5.85 mag ; Martins06/theor.scale
+Mv(O3V) = -5.80 mag ; Bowen08
+Mv(O3V) = -5.79 mag ; Martins05 (stdev=0.4 mag)
+Mv(O3V) = -5.767 mag ; EEM trend for O dwarfs
+Mv(O3V) = -5.7 +-0.2 mag ; Walborn02 (n=7 O2-O3V((f*)) stars
+Mv(O3V) = -5.688 mag ; EEM trend for O dwarfs logL=5.784, BCv=-4.03
+Mv(O3V) = -5.65 mag ; Russeil03
+Mv(O3V) = -5.6  mag ; GrayCorbally09
+Mv(O3V) =  -5.5 mag ; Walborn72 
+Mv(O3V) = -5.26 +-0.17 mag ; pri. stan. HD 64568 (seems significantly fainter than trend?)
 => adopt Mv(O3V) = -5.8 mag [updated 2/7/2020]
+=> adopt Mg(O3V) = -6.125 mag [updated 2/1/2025] (Mv=-5.8, g-V=-0.325) 
 
 BCv(O3V)  =  -4.62  mag ; Schmidt-Kaler82(BCv=-4.75 + 0.13 offset)
 BCv(O3V)  =  -4.290 mag ; Flower96(Teff=44900K,set so BCv(5772K)=-0.085)

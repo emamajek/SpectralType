@@ -15,7 +15,8 @@ JM53 standard:        sig Ori  - O9.5V
      		      zet Oph  - O9.5V 
 		      HD 34078 - O9.5V
 Lesh68 standard:      sig Ori  - O9.5V 
-Walborn71 standard:   AE Aur   - O9.5V 
+Walborn71 standard:   AE Aur   - O9.5V
+Walborn72 standard:   HD 93027 - O9.5V ("southern OB-classification standards") 
 MK73 dagger standard: sig Ori  - O9.5V
 Houk75 standard:      sig Ori  - O9.5V (primary standard) 
 Walborn90 standard:   HD 93027 - O9.5V
@@ -35,7 +36,7 @@ calibration (10/8/2011).
 (B-V)(O9.5V) = -0.305  ; EEM dereddened sec. stan. HD 93207 (Q-method)
 (B-V)(O9.5V) = -0.305  ; EEM dereddened pri. stan. AE Aur (Q-method)
 (B-V)(O9.5V) =  -0.30   ; Johnson63,Johnson65,Johnson66,Fitzgerald70,Morgan71
-(B-V)(O9.5V) = -0.295  ; EEM dereddened O9.5V mu Col (see below)
+(B-V)(O9.5V) = -0.293  ; EEM dereddened exemplar O9.5V mu Col (see below)
 (B-V)(O9.5V) =  -0.27   ; Wegner14 
 (B-V)(O9.5V) =  -0.26   ; Martins06
 => adopt (B-V)(O9.5V) = -0.307 [updated 2/7/2020]
@@ -46,7 +47,7 @@ calibration (10/8/2011).
 (U-B)(O9.5V) = -1.094 ; EEM dereddened pri. stan. zet Oph (Q-method)*
 (U-B)(O9.5V) =  -1.10 ; Johnson63,Johnson65,Johnson66,Fitzgerald70
 (U-B)(O9.5V) =  -1.11 ; Bessell98
-=> adopt (U-B)(O9.5V) = -1.09 *** [updated 2/7/2020]
+=> adopt (U-B)(O9.5V) = -1.09 [updated 2/7/2020]
 
 => adopt   Q(O9.5V) = -0.862 (=(U-B)-0.72*(B-V) = -1.087 - 0.72*-0.312)
 => adopt (V-K)(O9.5V) = -0.977
@@ -68,8 +69,19 @@ calibration (10/8/2011).
 
 (V-Kj)(O9.5V) = -0.94 ; Johnson65
 
+(V-K)(O9.5V)  = -0.885 ; Glass97(SAAO/Carter90_system)
+
 (V-Ks)(O9.5V) = -0.78  ; Wegner14 (2MASS)
-(V-Ks)(O9.5V) = -0.977 ; PecautMamajek13 
+(V-Ks)(O9.5V) = -0.977 ; PecautMamajek13
+
+(J-H)(O9.5V) = -0.073 ; Glass97(SAAO/Carter90_system)
+
+(J-H)(O9.5V) = -0.178 ; Koornneef83 (J-H=-0.13) converted to 2MASS via Carpenter01 (O9.5 stars)
+=> adopt (J-H)(O9.5V) = -0.18 [updated 2/1/2025] 
+
+(H-K)(O9.5V) = -0.106 ; Glass97(SAAO/Carter90_system)
+
+(K-L)(O9.5V) = -0.071 ; Glass97(SAAO/Carter90_system)
 
 (V-Lj)(O9.5V) = -0.92 ; Johnson65
 
@@ -79,6 +91,10 @@ calibration (10/8/2011).
 => adopt (u-g)(O9.5V) = -0.33 [updated 4/18/2024]
 
 (g-r)(O9.5V) = -0.605 ; Covey07 interp O9V -0.62 to B0V -0.59
+
+(g-V)(O9.5V) = -0.303 ; Bilir05 calibration for B-V=-0.307
+(g-V)(O9.5V) = -0.317 ; Jordi06 calibration for B-V=-0.307
+=> adopt (g-V)(O9.5V) = -0.310 [updated 2/1/2025] 
 
 (Bp-Rp)(O9.5V) = -0.501 ; Evans18 trend for V-I=-0.361
 
@@ -109,6 +125,7 @@ Teff(O9.5V) =   32830 K ; Theodossiou90
 Teff(O9.5V) = 32955 K ; Q=-0.862 => Nieva13 calibration
 Teff(O9.5V) = 33922 K ; Simon-Diaz14 linear fit for O9.5V
 Teff(O9.5V) = 33990 K ; Holgado18
+Teff(O9.5V) = 34350 K ; Holgado24 median O9.7V (N=4)
 Teff(O9.5V) = 34763 K ; pri. stan. AE Aur (median Teff)*
 => adopt Teff(O9.5V) = 31900 K (logT = 4.504) [updated 1/20/2020]
 
@@ -122,6 +139,7 @@ Mv(O9.5V) = -4.15 mag ; Bowen08
 Mv(O9.5V) = -4.1  mag ; GrayCorbally09
 Mv(O9.5V) = -4.04 mag ; EEM trend for O9.5V
 Mv(O9.5V) =  -4.01 mag ; Habets81
+Mv(O9.5V) =  -4.0 mag ; Walborn72 
 Mv(O9.5V) =  -3.99 mag ; HIP_113753 O9.5V plx=0.301 mas, Vmag=10.203,E(B-V)=0.512
 Mv(O9.5V) = -3.98 mag ; Martins06/obs.scale
 Mv(O9.5V) = -3.94 mag ; logL/Teff trend for OB dwarfs for Teff=32000K,BCv=-3.03
@@ -135,7 +153,8 @@ Mv(O9.5V) =  -3.6  mag ; Conti71(ZAMS)
 Mv(O9.5V) =  -3.49 mag ; HIP_111257 O9.5V plx=0.979 mas, Vmag=8.519,E(B-V)=0.632
 Mv(O9.5V) =  -2.30 mag ; HIP_24575 O9.5V plx=2.616 mas, Vmag=6.005,E(B-V)=0.126
 Mv(O9.5V) =  -1.99 mag ; HIP_77994 O9.5V plx=0.443 mas, Vmag=11.369,E(B-V)=0.514
-=> adopt Mv(O9.5V)   = -4.05  mag [updated 2/8/2020]
+=> adopt Mv(O9.5V) = -4.05  mag [updated 2/8/2020]
+=> adopt Mg(O9.5V) = -4.360 mag [updated 2/1/2025] (Mv=-4.05, g-V=-0.310)  
 => adopt M_Ks(O9.5V) = -3.073 mag = -4.05 - -0.977 [updated 12/30/2020]
 
 BCv(O9.5V) = -2.83  mag ; Martins06(theor.scale)
@@ -163,6 +182,7 @@ logL(O9.5V) = 4.86  dex ; pri. stan. zet Oph (Marcolino09)
 => adopt logL(O9.5V) =  4.720 dex [updated 2/8/2020]
 => adopt Mbol(O9.5V) = -7.060 mag [updated 2/8/2020]
 
+logg(O9.5V) = 3.99 ; Holgado24 median O9.7V (N=4) logg corrected for rotational effects
 logg(O9.5V) = 3.915+-0.15 ; Martins05
 logg(O9.5V) = 3.88 dex ; Holgado18
 logg(O9.5V) = 3.6 +- 0.2 dex ; zet Oph (Marcolino09)
@@ -304,6 +324,54 @@ HD 37468 = sig Ori = HR 1931
   29939K(U-Bo=>Bessell98), 31270+-2130K(Zorec09) => median Teff =
   30605K.
 
+# Exemplar
+
+mu Col = HD 38666 = HIP 27204 = HR 1996 = ALS 14794 = 2MASS J05455989-3218232 = Gaia DR3 2901155648586891648
+  O8/9V: Zorec09(BCD type)
+  O9V: Conti71,Conti74,Bisiacchi82
+ *O9.5V: Bidelman48,Morgan55,Buscombe69,Walborn73,Sota14
+  O9.5IV: Hiltner69
+  B0V: Blaauw54
+  B1IV/V: Houk82
+
+  This star is of some significance as it has the bluest B-V in
+  Johnson 1966's compilation of UBV photometry, and the bluest B-V
+  colors for an O dwarf in SIMBAD< and so it may be instructive for
+  estimating the intrinsic B-V colors of late O stars.
+  V=5.155(Menzies90), V=5.16(Cousins62), V=5.169+-0.004(Mermilliod91),
+  V=5.17(Mendoza70/N=20,Morel78), V=5.17(Johnson66,Hoffleit91/BSC),
+  V=5.174001(GaiaDR3/synth), V=5.18(HIP) => adopt V=5.169.
+  B-V=-0.261(Menzies90), B-V=-0.274+-0.013(HIP),
+  B-V=-0.28(Johnson66,Hoffleit91/BSC), B-V=-0.280(Mendoza70/N=20),
+  B-V=-0.281+-0.006(Mermilliod91), B-V=-0.29(Cousins62) => adopt
+  B-V=-0.281.  U-B=-1.06(Przybylski65/N=4,Hoffleit91/BSC),
+  U-B=-1.072(Menzies90), U-B=-1.077+-0.064(Mermilliod91) => adopt
+  U-B=-1.077.  V-Ic=-0.30+-0.03(HIP), Rj=5.28(Mendoza70/Morel78),
+  Rc=5.289566(GaiaDR3/synth), Ij=5.55(Mendoza70/Morel78),
+  Ic=5.423096(GaiaDR3/synth), R-Ij=-0.27(Hoffleit91/BSC),
+  u=4.483016(GaiaDR3/synth), g=4.840665(GaiaDR3/synth),
+  r=5.367655(GaiaDR3/synth), i=5.697057(GaiaDR3/synth),
+  z=6.009907(GaiaDR3/synth).  Johnson66 does not list a U-B magnitude.
+  There are three spectroscopic estimates of the hydrogen column
+  density towards mu Col from Lyman alpha absorption: logN_HI[cm^-2] =
+  19.84+-0.08(Fan17), 19.845(Haris16), 19.85+-0.09(Bohlin75),
+  19.90+-0.10(York76), 20.04+-0.07(Shull85), . If we adopt
+  N_HI=19.84+-0.08cm^-2 from Fan17, and the conversion from
+  N_(HI+H2)/E(B-V) from Savage & Mathis 1979 (5.8e21 atoms/cm^2; and
+  assuming negligble H2), I estimate E(B-V)=0.012 mag. This would
+  suggest that mu Col's intrinsic color is (B-V)o = (B-V)obs - E(B-V)
+  = -0.281 - 0.012 = -0.293. Other reddening estimates:
+  E(B-V)=0.00(Heiles00), E(B-V)=0.010+-0.010(Haris16),
+  E(B-V)=0.013(Kervella22/STILISM), E(B-V)=0.02(Savage85),
+  E(B-V)=0.02(Friedemann92), E(B-V)=0.02+-0.01(Fan17),
+  E(B-V)=0.022+-0.012(Paunzen24), E(B-V)=0.0229+-0.0006(TIC),
+  E(B-V)=0.03(Berghoefer96) => so my estimate is nearly identical to
+  the Kervella22/STILISM estimate.  Combining Mermilliod91 averaged
+  colors with the updated Q-method calibration (10/8/2011), I estimate
+  (B-V)o = -0.310, (U-B)o = -1.102, E(B-V)=0.036, Av=0.116.
+  J=5.735+-0.023(2MASS), H=5.889+-0.026(2MASS),
+  Ks=5.989+-0.021(2MASS).
+
 # Other Stars
 
 Lesh68 classified four stars as O9.5V or variant: HD 34078, 37041,
@@ -311,27 +379,53 @@ Lesh68 classified four stars as O9.5V or variant: HD 34078, 37041,
 
 Walborn72 classified two stars as O9.5V: HD 34078 & HD 93027.
 
-Mu Col = HD 38666 
-  O9.5V: Bidelman48, Morgan55, Buscombe69, Walborn73
-  O9.5IV: Hiltner69
-  O9V: Conti71, Conti74, Bisiacchi82
-  O8.5V: Bisiacchi76
-  B1IV/V: Houk
 
-  This star is of some significance as it has the bluest B-V in
-  Johnson 1966's compilation of UBV photometry, so it may be
-  instructive for estimating the intrinsic B-V colors of late O
-  stars. B-V = -0.281+-0.006 (Mermilliod91), B-V=-0.28 (Johnson66),
-  B-V = -0.274+-0.013 (HIP), U-B=-1.077+-0.064 (Mermilliod91), V =
-  5.169+-0.004 (Mermilliod91), V=5.18 (HIP), V-I = -0.30+-0.03
-  (HIP). Johnson66 does not list a U-B magnitude.  There are three
-  spectroscopic estimates of the hydrogen column density towards mu
-  Col from Lyman alpha absorption: logN_HI[cm^-2] = 19.90+-0.10
-  (York76), 20.04+-0.07 (Shull85), 19.85+-0.09 (Bohlin75). If we take
-  the median value (N_HI = 19.9 cm^-2), and the conversion from
-  N_(HI+H2)/E(B-V) from Savage & Mathis 1979 (5.8e21 atoms/cm^2; and
-  assuming negligble H2), I estimate E(B-V) = 0.0137 mag. This would
-  suggest that mu Col's intrinsic color is (B-V)o = (B-V)obs - E(B-V)
-  = -0.281 - 0.0137 = -0.295.  Combining Mermilliod91 averaged colors
-  with the updated Q-method calibration (10/8/2011), I estimate (B-V)o
-  = -0.310, (U-B)o = -1.102, E(B-V)=0.036, Av=0.116.
+
+HD 344782 = NGC 6823 1 = N6823-S44 = ADS 12828 A = ALS 10442 = LS II +23 24 = Cl* NGC 6823 HOAG 104 = Cl* NGC 6823 ERI 72 = Gaia DR3 2020089356034971904  
+  O7V((f)): Turner79
+ *O9.5V: Sota11
+  O9.5III: Shi99
+  O9.5Ia: Massey95
+  OBe: Stock60
+  B0: 1962SoSht.118...65G
+  B1: Walker68
+  K0: Nesterov95(HDE)
+
+  Rare strongly reddened O dwarf that is also a photometric
+  calibration standard (Stetson, see Pancino22): Appears to be main
+  star in NGC 6823. Pretty good agreement on O9.5 subtype in most
+  recent studies, but only Sota most recently called it a dwarf.
+  U=10.192+-0.0050, B=10.981+-0.0062, V=10.410+-0.0028,
+  Rc=10.046+-0.0098, Ic=9.674+-0.0196 => U-B=-0.789, B-V=0.571,
+  V-Rc=0.364, R-Ic=0.372, V-Ic=0.736. But the star appears to be
+  unusually blue in U-band in a B-V vs U-B diagram of colors
+  for O dwarfs within 3 kpc (which for B-V=0.57, one would expect
+  roughly U-B=-0.42 on the reddening vector).. so its UBV color
+  isn't typical for O dwarfs at the ~0.35 mag level). 
+  Pancino22 estimates
+  E(B-V)=1.40576+-0.20868 plus bunch of other useless digits.
+
+# Notes
+
+# UBV photometry of O dwarfs
+
+A query of SIMBAD for O stars of luminosity class of type V, and removing unusual types (mixes with other spectral types, "OB" stars, etc.) generated a sample of 256 with default UBV photometry. Removing outliers, their locus in B-V vs U-B space was:
+
+(U-B) = -8.9563110118619327e-1 + 9.5675899951083831e-1*(B-V) - 9.1071026805221902e-2*(B-V)^2 (rms=0.107mag) [-0.28 < B-V < 2.30] 
+
+The lowest reddening O dwarfs (B-V < -0.1) were:
+
+SIMBAD  SIMBAD ID             SIMBAD    MERMILLIOD91
+B-V     U-B    ID             SpT       B-V     eB-V    U-B    eU-B  Note
+-0.28  -1.06  HD_38666_       O9.5V     -0.281  0.006  -1.077  0.064 mu_Col
+-0.27  -1.06  HD_36512_       O9.7V     -0.264  0.007  -1.068  0.008 ups_Ori 
+-0.21  -1.02  HD_214680_      O9V       -0.201  0.008  -1.036  0.010 10_Lac 
+-0.20  -1.12  HD_60848_       O8:V:pe   -0.210 99.999  -1.130 99.999
+-0.18  -1.24  HD_152590_      O7.5Vz
+-0.178 -1.282 [O96]_D010b-12_ O7.5Vz
+-0.13  -1.05  AzV_435_        O3V((f*))
+-0.106 -0.998 HD_41161_       O8Vn
+-0.10  -1.02  HD_53975_       O7.5Vz
+
+
+

@@ -9,7 +9,7 @@ standard.
 
 Morgan65 standard:  HD 46149 - O8.5V (but later O8V in MK78?)
 Abt68 standard:     HD 46149 - O8.5  (no luminosity standard)
-Walborn71 standard: HD 46149 - O8.5V 
+Walborn71 standard: HD 46149 - O8.5V (Plate II)
 Walborn90 standard: HD 46149 - O8.5V
 Sota11 standard:    HD 46149 - O8.5V
        		    HD 57236 - O8.5V
@@ -30,9 +30,14 @@ Walborn72 did not classify any O stars as O8.5V.
 => adopt (U-B)(O8.5V) = -1.115 [updated 2/7/2020]
 => adopt Q(O8.5V)     = -0.891 [updated 2/7/2020]
 
-(u'-g')(O8.5V) = -0.363 ; Smith02 u'-g' calibration for (U-B)=-1.115
-(u'-g')(O8.5V) = -0.399 ; Fukugita96 u'-g' calibration for (U-B)=-1.115
-=> adopt (u-g)(O8.5V) = -0.38 [updated 4/18/2024]
+(u'-g')(O8.5V) =  -0.363 ; Smith02 u'-g' calibration for (U-B)=-1.115
+(u-g)(O8.5V)   = -0.39 ; interp O8V(-0.39) and O9V(-0.39) (2/1/2025)
+(u'-g')(O8.5V) =  -0.399 ; Fukugita96 u'-g' calibration for (U-B)=-1.115
+=> adopt (u-g)(O8.5V) = -0.39 [updated 2/1/2025]
+
+(g-V)(O8.5V) = -0.307 ; Bilir05 calibration for B-V=-0.314
+(g-V)(O8.5V) = -0.322 ; Jordi06 calibration for B-V=-0.322
+=> adopt (g-V)(O8.5V) = -0.314 [updated 2/1/2025] 
 
 Teff(O8.5V) =  32522 K ; Martins05(theo. scale)
 Teff(O8.5V) =  32750 K ; Massey05(Milky Way)
@@ -66,6 +71,7 @@ Mv(O8.5V) = -4.193 mag ; logL/Teff trend for O dwarfs (Teff=34000K,BCv=-3.18)
 Mv(O8.5V) = -4.19 mag ; Martins05
 Mv(O8.5V) = -3.8  mag ; Conti71(ZAMS)
 => adopt Mv(O8.5V) = -4.35 mag [updated 2/8/2020]
+=> adopt Mg(O8.5V) = -4.664 mag [updated 2/1/2025] (Mv=-4.35, g-V=-0.314) 
 
 BCv(O8.5V) =   -3.404 mag ; Flower96 (Teff=34300K, set so BCv(5772K)=-0.085)
 BCv(O8.5V) =  -3.22  mag ; Martins05(obs. scale)
@@ -130,8 +136,11 @@ HD 46149 (= "HD 46149-1" ; Martins11)
   appears to be a binary as Martins11 lists HD 46149-1 and 46149-2,
   with classifications "O8Vn" and "O8.5-9V".  Mahy11 lists the
   components as "O8V" and "B0-1".  Fruscione94 lists logN_HI = 21.30
-  (from Shull85).  Teffs: 36900+-500K(Holgado20),
-  37000+-2000K(Mahy11), 37000K(Martins11).  => median Teff =
+  (from Shull85).  Teffs:
+  21360K(21224,21500;GaiaDR3/GSP_Phot/AENEAS;discrepent!),
+  36900+-500K(Holgado20),
+  37000+-2000K(Mahy11),
+  37000K(Martins11).  => median Teff =
   37000K. logg=4.23+-0.08(Holgado20).
 
 # Deprecated Standard

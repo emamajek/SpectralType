@@ -3,7 +3,8 @@ T9V
 Standards:
 Cushing11 standard :   UGPS J072227.51−054031.2 (UGPS J0722-05) - T9 standard
 Kirkpatrick11 stan.:   WISEP J174124.25+255319.5 (WISE J1741+2553) - T9 opt. stan. "T_o9"
-Schneider15 standard:  UGPS J072227.51–054031.2 - T9 standard (from Cushing11) 
+Schneider15 standard:  UGPS J072227.51–054031.2 - T9 (from Cushing11)
+Tinney18 standard:     UGPS J072227.51−054031.2 - T9 (near-IR spec. standard)
 Brock21 standard:      UGPS J072227.51−054031.2 (J0722-0540) - T9 (Spex spectral standard) 
 Theissen22 standard:   UGPS J072227.51−054031.2 (J0722-0540) - T9 (pri. stan. (0.9-2.45um/NIRES))
 Burgasser24 standards: UGPS J072227.51−054031.2 (J0722-0540) - dT9 (pri. dwarf near-IR standard)
@@ -22,7 +23,8 @@ Teff(T9V) =  549 K ; WISE J2102-44 (Beiler24; JWST)
 Teff(T9V) =  555 K ; WISE J000517.48+373720.5 (Kirkpatrick20)
 Teff(T9V) =  566 K ; WISEPC J121756.91+162640.2A (Kirkpatrick20)
 Teff(T9V) =  567 K ; Kirkpatrick20 (Table 13 polynomial)
-Teff(T9V) =  573 K ; Kirkpatrick21 median (N=8) 
+Teff(T9V) =  573 K ; Kirkpatrick21 median (N=8)
+Teff(T9V) =   674 K ; WISE PAJ1741 Zalesky22 
 => adopt Teff(T9V) = 540 K (logT = 2.7324) [updated 12/1/2024]
 
 (J-H)(T9V) = -0.30 ; dalPonte23
@@ -31,6 +33,7 @@ Teff(T9V) =  573 K ; Kirkpatrick21 median (N=8)
 
 (J-Ks)(T9V) = -0.15  ; dalPonte23 
 (J-Ks)(T9V) = -0.164 ; Sanghi24 M6V-T9V trend
+(J-Ks)(T9V) = -0.38  ; smooth trend SIMBAD T0-T9 d<50pc objects
 => adopt (J-Ks)(T9V) = -0.16 [updated 12/20/2024]
 
 (Ks-W1)(T9V) = 1.10 ; dalPonte23 
@@ -136,15 +139,18 @@ M_J(MKO)(T9V) = 20.42 ; WISE_1112-3857 calc using Kirkpatrick20 (plx=102.6mas)
 (J(MKO)-J)(T9V) =   0.06 +- 0.13 ; UGPS_0722-0540
 => adopt (J(MKO)-J)(T9V) = -0.27 [updated 10/20/2024]
 
-mixing MKO and 2MASS here, WISE_1741+2553 data suggests consistent to ~0.1 mag
-M_Ks(T9V)     >   16.80 ; WISE_1217+1626 calc using Kirkpatrick20 (plx=107.4mas)
-M_Ks(T9V)     >   16.80 ; WISE_0005+3737 calc using Kirkpatrick20 (plx=126.9mas)
-M_Ks(T9V)     >   18.20 ; WISE_0335+4310 calc using Kirkpatrick20 (plx=84.8mas)
-M_Ks(T9V)     =  18.43  ; WISE_2102-4429 calc using Kirkpatrick20 (plx=92.9mas)
-M_Ks(T9V)     = 18.55  ; WISE_1741+2553 calc using Kirkpatrick20 (plx=214.3mas)
-M_K(MKO)(T9V) = 18.68  ; WISE_1741+2553 calc using Kirkpatrick20 (plx=214.3mas)
-M_K(MKO)(T9V) =  19.01  ; UGPS_0722-0540 calc using Kirkpatrick20 (plx=242.8mas) (standard)
-M_K(MKO)(T9V) =  20.50  ; WISE_0335+4310 calc using Kirkpatrick20 (plx=84.8mas)
+Cooler than T8, objects start become undetected or very faint in K-band sky surveys (one of the reasons
+the T dwarf originally ended at T8). 
+Mixing MKO and 2MASS and even UKIDSS here, WISE_1741+2553 data suggests consistent to ~0.1 mag
+M_Ks(T9V)        >   16.80 ; WISE_1217+1626 calc using Kirkpatrick20 (plx=107.4mas)
+M_Ks(T9V)        >   16.80 ; WISE_0005+3737 calc using Kirkpatrick20 (plx=126.9mas)
+M_Ks(T9V)        >   18.20 ; WISE_0335+4310 calc using Kirkpatrick20 (plx=84.8mas)
+M_Ks(T9V)        =  18.43  ; WISE_2102-4429 calc using Kirkpatrick20 (plx=92.9mas)
+M_Ks(T9V)        = 18.55  ; WISE_1741+2553 calc using Kirkpatrick20 (plx=214.3mas)
+M_K(UKIDSS)(T9V) =  18.57 ; CFBDS J005910-011401 = WISE J005911.08-011400.9 T9.0 plx=108.20mas
+M_K(MKO)(T9V)    = 18.68  ; WISE_1741+2553 calc using Kirkpatrick20 (plx=214.3mas)
+M_K(MKO)(T9V)    =  19.01  ; UGPS_0722-0540 calc using Kirkpatrick20 (plx=242.8mas) (standard)
+M_K(MKO)(T9V)    =  20.50  ; WISE_0335+4310 calc using Kirkpatrick20 (plx=84.8mas)
 => adopt M_Ks(T9V) = 18.6 [updated 12/5/2020]
 
 (K(MKO)-Ks)(T9V) = 0.13 +-0.28 ; WISE_1741+2553

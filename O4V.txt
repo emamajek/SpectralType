@@ -6,9 +6,9 @@ standard. MK73 lists HD 46223 as the "O4" dagger standard, and indeed
 all subsequent published types (mostly by Walborn and MK78) consider
 the star to be O4V (or variant).
 
-Abt68 standard:      HD 46223 - O4 (no luminosity class)
-Walborn71 standard:  HD 46223 - O4V((f)) 
-MK73 standard:       HD 46223 - O4 (no luminosity class)
+Abt68 standard:      HD 46223 - O4       (no luminosity class)
+Walborn71 standard:  HD 46223 - O4V((f)) (Table 2; earliest dwarf standard)
+MK73 standard:       HD 46223 - O4       (earliest "dagger" standard, but no luminosity class assigned)
 Garrison77 standard: HD 46223 - O4V
 MK78 standard:       HD 46223 - O4V 
 Keenan85_IAU stan.:  HD 46223 - O4V
@@ -26,23 +26,27 @@ Walborn72 classified three stars as O4V or variant: HD 45223 (O4V((f))), HD 4623
 
 Holgado20 lists 5 O4V variants: HD 5005A, HD 164794, HD 229232, HD 46223, HD 96715.
 
-B-V(O4V)  =  -0.28   ; Martins06
-B-V(O4)   =  -0.291  ; EEM dereddened zet Pup O4I (just for comparison)
-B-V(O4V)  =  -0.32   ; Bohm-Vitense81
-B-V(O4V)  = -0.324  ; exemplar HD 96715 Q-method
-B-V(O4V)  = -0.325  ; exemplar HD 164794 = 9 Sgr Q-method
-B-V(O4V)  = -0.326  ; pri. stan. HD 46223 Q-method
-B-V(O4V)  = -0.326  ; U-B=-1.16 using Q-method
+(B-V)(O4V)  =  -0.28   ; Martins06
+(B-V)(O4)   =  -0.291  ; EEM dereddened zet Pup O4I (just for comparison)
+(B-V)(O4V)  =  -0.32   ; Bohm-Vitense81
+(B-V)(O4V)  = -0.324  ; exemplar HD 96715 Q-method
+(B-V)(O4V)  = -0.325  ; exemplar HD 164794 = 9 Sgr Q-method
+(B-V)(O4V)  = -0.326  ; pri. stan. HD 46223 Q-method
+(B-V)(O4V)  = -0.326  ; U-B=-1.16 using Q-method
 => adopt (B-V)(O4V) = -0.326 [updated 2/7/2020]
 
-U-B(O4)   =  -1.125  ; EEM dereddened zet Pup O4I (just for comparison)
-U-B(O4V)  = -1.15   ; Martins06
-U-B(O4V)  = -1.153  ; exemplar HD 96715 (Q method)
-U-B(O4V)  = -1.156  ; exemplar HD 164794 = 9 Sgr (Q method)
-U-B(O4V)  = -1.161  ; pri. stan. HD 46223 (Q method)
-U-B(O4V)  =  -1.20   ; Bessell98
-U-B(O4V)  =  -1.20   ; Schmidt-Kaler82
+(U-B)(O4)   =  -1.125  ; EEM dereddened zet Pup O4I (just for comparison)
+(U-B)(O4V)  = -1.15   ; Martins06
+(U-B)(O4V)  = -1.153  ; exemplar HD 96715 (Q method)
+(U-B)(O4V)  = -1.156  ; exemplar HD 164794 = 9 Sgr (Q method)
+(U-B)(O4V)  = -1.161  ; pri. stan. HD 46223 (Q method)
+(U-B)(O4V)  =  -1.20   ; Bessell98
+(U-B)(O4V)  =  -1.20   ; Schmidt-Kaler82
 => adopt (U-B)(O4V) = -1.16 [updated 2/7/2020]
+
+(g-V)(O4V) = -0.315 ; Bilir05 calibration for B-V=-0.326
+(g-V)(O4V) = -0.329 ; Jordi06 calibration for B-V=-0.326
+=> adopt (g-V)(O4V) = -0.322 [updated 2/1/2025] 
 
 Teff(O4V) =  41000 K ; weak stan. HD 303308 (Repolust04; O4 V ((f+)))
 Teff(O4V) =  41500 K ; non-stan. NGC 345 MPG 324 (Heap06) & Heap06 adopted for O4V((f))
@@ -65,6 +69,7 @@ Mv(O4V) =  -5.29 mag  ; weak stan. HD 303308 ; Repolust04
 Mv(O4V) =  -5.44 mag  ; pri. stan. HD 46223 (Q-method,NGC2244 dist)
 Mv(O4I) =   -5.49 mag ; O4I(n)f zet Pup *supergiant*
 Mv(O4V) =  -5.5  mag  ; GrayCorbally09
+Mv(O4V) =   -5.5 mag  ; Walborn72 
 Mv(O4V) =  -5.50 mag  ; Martins05 (stdev=0.4 mag)
 Mv(O4V) =  -5.52 mag  ; Russeil03
 Mv(O4V) =  -5.525 mag ; logL/Teff trend for O dwarfs: logL=5.652,BCv=-3.92
@@ -76,6 +81,7 @@ Mv(O4V) =  -5.76 mag  ; exemplar HD 164794 = 9 Sgr
 Mv(O4V) =   -5.9  mag  ; Schmidt-Kaler82
 Mv(O4V) =   -6.1  mag  ; Conti71(ZAMS)
 => adopt Mv(O4V) = -5.5 mag [updated 2/9/2020]
+=> adopt Mg(O4V) = -5.822 mag [updated 2/1/2025] (Mv=-5.5, g-V=-0.322) 
 
 BCv(O4V) =  -3.588 mag ; Balona94(Teff=42900K, set so BCv(5772K)=-0.085)
 BCv(O4V) = -3.85  mag ; Martins06(obs.scale)
@@ -131,6 +137,8 @@ HD 46223 = NGC 2244 Johnson 3
   E(B-V)=0.470(Zejda12), E(B-V)=0.481(Kervella19,STILISM),
   E(B-V)=0.51(Slyk08).  Bohannon90 gives Teff=46000+-1000,
   (B-V)o=-0.31, (U-B)o=-1.10.  Teffs:
+  7750K(7611,7769;GaiaDR3/GSP-Spec/MatisseGaugin; so comically
+  discrepent, I can't believe I'm including it here),
   42200+-500K(Holgado18,Holgado20), 43000K(Martins11),
   46000+-1000K(Bohannon90) => median Teff = 43000K.  logg =
   3.73+-0.04(Holgado18,Holgado20). plx = 0.2777+-0.0321 mas(GaiaDR2)

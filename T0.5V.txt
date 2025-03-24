@@ -8,12 +8,22 @@ Teff(T0.5V) =  1237 K ; Stephens09 (NIR T types polynomial)
 Teff(T0.5V) =  1246 K ; Kirkpatrick20 (Table 13 polynomial)
 => adopt Teff(T0.5V) = 1230 K (logT = 3.0899) [updated 12/1/2024] 
 
-(J-H)(T0.5V) = 1.14 (+-0.37 rms) ; Zhang09
+(J-H)(T0.5V) =  0.91 ; smooth fit to T subtypes to SIMBAD J-H data (3/1/2025)
+(J-H)(T0.5V) = 0.95 ; J-Ks=1.40, H-Ks=0.45 (3/1/2025)
+(J-H)(T0.5V) =  1.14 (+-0.37 rms) ; Zhang09
+=> adopt (J-H)(T0.5V) = 0.95 [updated 3/1/2025] (J-Ks=1.40, H-Ks=0.45)
 
-(H-Ks)(T0.5V) = 0.39 (+-0.45 rms) ; Zhang09
+(H-Ks)(T0.5V) =  0.39 (+-0.45 rms) ; Zhang09
+(H-Ks)(T0.5V) = 0.45 ; J-Ks=1.40, J-H=0.95 (3/1/2025)
+(H-Ks)(T0.5V) =  0.45 ; halfway T0V-T1V 
+(H-Ks)(T0.5V) =  0.450 ; smooth trend L8-T5 (3/1/2025)
+=> adopt (H-Ks)(T0.5V) = 0.45 [updated 3/1/2025] (J-Ks=1.36, J-H=0.95)
 
+(J-Ks)(T0.5V) =  1.35  ; smoothed trend to d<50pc T0-T9s in SIMBAD (mix of 2MASS, MKO)
+(J-Ks)(T0.5V) = 1.40 ; J-H=0.95, H-Ks=0.45 (3/1/2025)
 (J-Ks)(T0.5V) =  1.434 ; Sanghi24 M6V-T9V trend
-(J-Ks)(T0.5V) =  1.53  ; Zhang09 (J-H=1.14, H-Ks=0.39) 
+(J-Ks)(T0.5V) =  1.53  ; Zhang09 (J-H=1.14, H-Ks=0.39)
+=> adopt (J-Ks)(T0.5V) = 1.40 [updated 3/1/2025] (J-H=0.95, H-Ks=0.45)
 
 (r-i)(T0.5V) = 1.68 (+-0.65 rms) ; Zhang09
 

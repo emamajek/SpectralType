@@ -17,11 +17,12 @@ The original T dwarf grid from Burgasser02 did not include a T4V standard.
 
 Teff(T4V) =  1094 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(T4V) =  1100 K ; Filipazzo15 M6V-T9V field calibration
+Teff(T4V) = 1125 K ; pri. stan. 2MASS J22541892+3123498 
 Teff(T4V) =  1163 K ; Stephens09 (NIR T subtype polynomial)
 Teff(T4V) =  1172 K ; Dupuy17(SaumonMarley08 model scale)
 Teff(T4V) =  1178 K ; Dupuy17(Lyon model scale)
 Teff(T4V) =  1182 K ; Kirkpatrick20 (Table 13 polynomial)
-=> adopt Teff(T4V) = 1180 K (logT = 3.072) [updated 12/26/2020]
+=> adopt Teff(T4V) = 1160 K (logT = 3.0645) [updated 3/1/2025]
 
 (J-H)(T4V) = 0.09 ; dalPonte23
 (J-H)(T4V) = 0.38 ; Zhang09 (no rms, so apparently N=1)
@@ -30,10 +31,11 @@ Teff(T4V) =  1182 K ; Kirkpatrick20 (Table 13 polynomial)
 (H-Ks)(T4V) = 0.15 ; dalPonte23
 
 (J-Ks)(T4V) =   0.24  ; dalPonte23
+(J-Ks)(T4V) =  0.40  ; smoothed trend to d<50pc T0-T9s in SIMBAD (mix of 2MASS, MKO)
 (J-Ks)(T4V) =  0.48  ; Zhang09 (J-H=0.38, H-Ks=0.08, but for N=1) 
 (J-Ks)(T4V) =  0.569 ; Sanghi24 M6V-T9V trend
 (J-Ks)(T4V) =  0.60 (+-0.23 stdev) ; Geisler11
-=> adopt (J-Ks)(T4V) = 0.57 [updated 1/10/2025] 
+=> adopt (J-Ks)(T4V) = 0.5 [updated 3/1/2025] 
 
 (r-i)(T4V) = 1.04 (+-0.52; rms) ; Hawley02 ("r*-i*")
 (r-i)(T4V) = 1.19 ; Zhang09 (no rms, so apparently N=1) 
@@ -114,11 +116,15 @@ Rad(T4.0V) = 0.1048 Rsun ; Sanghi23 M6V-T9V field dwarf polynomial
 
 # Standards
 
-2MASS J22541892+3123498 = CNS5 5648 = 2MASSW J2254188+312349 = WISE J225418.96+312352.2
+2MASS J22541892+3123498 = CNS5 5648 = 2MASSW J2254188+312349 = WISE J225418.96+312352.2 = TIC 188908855 
   *T4: Burgasser04(pri/Spex/"T4.0"),Kirkpatrick10(pri.;0.7-2.5um/SpEx),Leggett10(T4+-0.5),Kirkpatrick11,Best18(adopted),Theissen22(pri.;0.9-2.45um/NIRES),Bravo23(stan/NIR),Burgasser24("dT4";pri.dwarf stan.)
   T5V: Burgasser02 
 
-  Teffs: 1131+-88K(Kirkpatrick21). plx=72+-3mas(Manjavacas13). 
+  The Burgasser02 type could be considered obsolete - pre-dates the
+  2006 'unification' of T dwarf sequence.  Teffs:
+  1131+-88K(Kirkpatrick21), 1120K(1116-1124K;Lueber22) => adopt
+  Teff=1125K. plx=72+-3mas(Manjavacas13).
+  
 
 2MASS J08195820-0335266 = CNS5 2065 = WISEPA J081958.05-033529.0 = WISE J081958.05-033528.5 = TIC 178652411 = WISEP 0819–0335 
   *T4: Kirkpatrick11,Griffith12,Mace13,Pineda16(opt.stan.),Mace14,Best18(opt,near-IR),Best20(opt,near-IR),Kirkpatrick21(opt.near-IR),Hsu21

@@ -1,26 +1,11 @@
 Y0.5V
 
-Although there don't seem to be any declared Y0.5V standards, WISE
-1541-2250 is probably the de facto standard (Kirkpatrick12; "We
-therefore propose WISE 0350−5658 to be the tentative Y1 spectral
-standard, despite its southerly declination, until other Y1 dwarfs are
-identified. This also means that WISE 1541−2250, which has a slightly
-broader J-band peak, should be re-typed from Y0 to Y0.5."
+Tinney18 standard: WISEPA J154151.66−225025.2 - Y0.5 (near-IR spec. standard)
 
-Teff(Y0.5V) =  350 K ; Dupuy13 (WISEP J1541-2250)
-Teff(Y0.5V) =  363 +-75K ; exemplar WISE J082507.35+280548.5  (Kirkpatrick21)
-Teff(Y0.5V) =  364 K ; exemplar WISE J082507.35+280548.5  (Kirkpatrick19)
-Teff(Y0.5V) =  375 +-25K ; exemplar WISE J140518.32+553421.3 (Schneider15)
-Teff(Y0.5V) =  376 K ; exemplar WISE J082507.35+280548.5  (Kirkpatrick20)
-Teff(Y0.5V) = 382 K ; exemplar WISE J082507.35+280548.5 (adopted, see below)
-Teff(Y0.5V) =  385 +-75K ; exemplar WISE J140518.32+553421.3 (Kirkpatrick21)
-Teff(Y0.5V) =  387 K ; exemplar WISE J082507.35+280548.5 (Beiler24; JWST)
-Teff(Y0.5V) = 392 K ; exemplar WISE J140518.39+553421.3 (adopted, see below)
-Teff(Y0.5V) =  392 K ; exemplar WISE J140518.32+553421.3 (Beiler24; JWST) 
-Teff(Y0.5V) =  400 K ; exemplar WISE J082507.35+280548.5 (Schneider15)
-Teff(Y0.5V) =  402 K ; exemplar WISE J140518.32+553421.3 (Kirkpatrick19; plx=157.9+-3.1mas)
+Teff(Y0.5V) =  392 K ; exemplar WISE J140518.39+553421.3 (adopted)
+Teff(Y0.5V) =  400 K ; standard WISE J154151.65−225024.9 (adopted)
 Teff(Y0.5V) =  412 K ; Kirkpatrick20 (Table 13 polynomial)
-=> adopt Teff(Y0.5V) = 385 K (logT=2.5855) [updated 12/1/2024]
+=> adopt Teff(Y0.5V) = 400 K (logT=2.6021) [updated 3/1/2025]
 
 M_J(Y0.5V) > 20.57 ; WISE_0825+2805 calc using Kirkpatrick20 (plx=152.6mas)
 
@@ -53,6 +38,42 @@ logL(Y0.5V) = -6.621 +-0.014 dex ; WISE J0825+28 (Beiler24; JWST)
 
 Rad(Y0.5V) = 0.10276 +-0.01028 Rsun ; =(1+-0.1)Rjup (assumed BD rad for one model T6V-Y1V; Beiler24)
 
+# Standard
+
+WISE J154151.65−225024.9 = WISEPA J154151.66−225025.2 = GJ 12260 = CNS5 3866 = WISE J1541-2250
+  Y0: Cushing11(Dupuy12) 
+ *Y0.5: Kirkpatrick12(Mace13,Dupuy15),Tinney18(NIR stan.)
+  Y1: Schneider15(Leggett17,Martin18,Kirkpatrick19,Leggett21,Kirkpatrick21,Beiler24),Cushing21
+
+  For now, I'm retaining this object as Y0.5 standard (following
+  Tinney18), and based off the detailed discussion in Kirkpatrick12,
+  and the median Teff that does appear to be about halfway between Y0
+  and Y1, but recently Cushing21 and Kirkpatrick21 appear to be
+  adopting Y1.  J1541 was the only Y0.5 mentioned in the Kirkpatrick12
+  survey. Kirkpatrick12: "This also means that WISE 1541−2250, which
+  has a slightly broader J-band peak [than Y1 standard WISE
+  0350-5658], should be re-typed from Y0 to Y0.5." But more recent
+  compilations have adopted Y1 from Schneider15, most notably
+  Cushing21 and Kirkpatrick21.  2nd nearest Y1 in
+  Kirkpatrick21. Parallaxes: plx=166.9+-2.0mas(Kirkpatrick21),
+  plx=172.28+-1.55mas(Fontanive24).  H=22.09+-0.17(Kirkpatrick21).
+  Y_MKO=21.46+-0.13(Leggett17), J_MKO=21.12+-0.06(Leggett17),
+  J_MKO=21.631+-0.064(Martin18), H_MKO=21.07+-0.07(Leggett17),
+  H_MKO=22.085+-0.170(Martin18), K_MKO=21.70+-0.20(Leggett17),
+  W1=16.74+-0.17(Kirkpatrick12), W2=14.25+-0.06(Kirkpatrick12),
+  [3.6]=16.577+-0.035(Griffith12),
+  [4.5]=14.217+-0.006(Griffith12). (W1-W2)=2.49+-0.18, the only Y
+  dwarf in Kirkpatrick12 with measured W1-W2 (not lower limit).
+  (H-W2) > 6.0.  Teffs: 350K(Dupuy13), 375K(Leggett21), 395K(Tu24#1),
+  395+-88K(Kirkpatrick24), 400K(Miles20), 407K(Tu24#2),
+  411+18-17K(Beiler24/"B24"), 421+-75K(Kirkpatrick21),
+  432+11-18K(Beiler24/"uni") => adopt Teff=400. Note that this median
+  published Teff is indeed about halfway between the Y0V median (450K)
+  and Y1V median (360K).  Metallicity
+  [m/H]=+0.3(Leggett21). logg=3.25,3.69(Tu24/2estimates),
+  logg=4.3-4.9(Miles20).  fbol=(2.671+-0.045)e-16W/m2(Beiler24) =>
+  mbol=19.9358+-0.0183mag(IAU2015 scale).
+  Lbol=(1.147+-0.033)e20W(Beiler24), logL=-6.523+-0.013(Beiler24).
 
 # Exemplars
 
@@ -60,18 +81,31 @@ WISE J082507.35+280548.5 = WISE 0825+2805
   Y0.5: Schneider15,Kirkpatrick20
 
   Nearest Y0.5 in Kirkpatrick21, with
-  plx=152.6+-2.0mas(Kirkpatrick20).  Teffs: 363+-75K(Kirkpatrick21),
+  plx=152.6+-2.0mas(Kirkpatrick20). One of only two Y0.5s in Beiler24
+  JWST spectroscopy study. Teffs: 363+-75K(Kirkpatrick21),
   376+-88K(Kirkpatrick20), 387K(Beiler24/JWST), 400K(Schneider15) =>
   adopt Teff=382K. H=22.970+-0.14(Kirkpatrick21).
   
 WISE J140518.39+553421.3 = WISEA J140518.32+553421.3 = WISEP J140518.40+553421.5 = WISEP J140518.40+553421.4 = CNS5 3482 = WISE 1405+5534
-  Y0.5: Schneider15
-  Y0.5(pec?): Kirkpatrick20
+  Y0.5: Schneider15,Zalesky19
+ *Y0.5(pec?): Kirkpatrick20
 
+  One of only two Y0.5s in Beiler24 JWST spectroscopy study.
   plx=158.2+-2.6mas(Kirkpatrick20).  Teffs: 375+-25K(Schneider15),
   385+-75K(Kirkpatrick21), 392K(Beiler24), 402K(Kirkpatrick19),
   411+-88K(Kirkpatrick20) => adopt Teff=392K.
   J_MKO=21.06+-0.06(Tinney14), H_MKO=21.41+-0.08(Leggett17),
   H=21.50+-0.07(Kirkpatrick21), K_MKO=21.61+-0.12(Leggett17).
 
+# Other Objects
 
+CWISEP J1047+54
+  Y1: Beiler24
+
+CWISEP J1446−23
+  Y1: Beiler24
+
+CWISE J032109.83+693203.8 = CWISEP J032109.59+693204.5 = CNS5 850
+  [Y0.5]: Meisner20(phototype)
+  
+  plx=68.5+-4.0mas(Kirkpatrick21). Dist=16.3+3.8-3.2pc(Meisner20). Teff=421+94-92K(Meisner20). 

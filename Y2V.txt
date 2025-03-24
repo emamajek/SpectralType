@@ -2,13 +2,13 @@ Y2V
 
 Thus far WISE J1828+2650 appears to be the only object classified Y2
 so far (Kirkpatrick20), but it appears to be somewhat pathological
-compared to other Ys. Kirkpatrick20 assigns Y2 to WISE 1828+2650 and
-Y4 to WISE 0855−0714.
+compared to other Ys, and Cushing21 considers it >=Y2. Kirkpatrick20
+assigns Y2 to WISE 1828+2650 and Y4 to WISE 0855−0714.
 
 Teff(Y2V) =   250 K ; Leggett15 (although this was w/WISE J0855 at Y2)
 Teff(Y2V) =  288 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(Y2V) =  323 K ; interp Y1V(360K)-Y4V(250K)
-Teff(Y2V) =  325 K ; WISE J1828+2650 (Cushing21)
+Teff(Y2V) =  325 K ; WISE J1828+2650 (Cushing21) (see note below)
 Teff(Y2V) =  375 K ; WISE J1828+2650 (Leggett21) 
 Teff(Y2V) =  406 K ; WISE J1828+2650 (Kirkpatrick20)
 Teff(Y2V) =  412 K ; WISE J1828+2650 (Kirkpatrick19; plx=100.7+-2.3mas)
@@ -41,14 +41,22 @@ BC_K = -2.49 ; WISE J1828+2650 (Mbol - M_K = 21.00 - 23.49 = -2.49)
 
 # Others
 
-WISE J1828+2650 = WISE J182831.08+265037.7 = WISEPA J182831.08+265037.8 = EQ J1828+2650 
-  >=Y2: Kirkpatrick12,Kirkpatrick19,Kirkpatrick20,Cushing21
+WISE J1828+2650 = WISE J182831.08+265037.7 = WISEPA J182831.08+265037.8 = WISEP J182831.08+265037.8 = EQ J1828+2650 
+ *>=Y2: Kirkpatrick12,Kirkpatrick19,Kirkpatrick20,Cushing21
   Y1.5: Leggett17
 
-  Only Y2 in Kirkpatrick20 but
-  ">=Y2". plx=100.3+-2.0mas(Kirkpatrick20).  Teffs:
-  378+13-18K(Barrado23), 406+-88K(Kirkpatrick20),
-  425K(Lew24/Elf-Owl/JWST), 534+8-25K(Lew24/CHIMERA/JWST) => adopt
+  Only Y2 in Kirkpatrick20 but ">=Y2". Cushing21: "Since the spectrum
+  of WISE 1828+2650 smoothly extends the Y dwarf spectral sequence
+  beyond Y1, its spectral type should remain >=Y2 until the
+  near-infrared spectra of cooler objects like WISE 0855−0714 are
+  obtained."  plx=100.3+-2.0mas(Kirkpatrick20).  Teffs:
+  325K(Cushing21),
+  375K(Leggett21), 
+  378+13-18K(Barrado23),
+  406+-88K(Kirkpatrick20),
+  425K(Lew24/Elf-Owl/JWST),
+  534+8-25K(Lew24/CHIMERA/JWST)
+  => adopt
   Teff=416K.  J=23.57+-0.35(Kirkpatrick11,Beichman13),
   J=23.61(Leggett17), H=22.45+-0.08(Beichman13),
   W2=14.39+-0.06(Beichman13) => using Kirkpatrick20 plx => M_J=23.62,
@@ -81,7 +89,7 @@ WISE J1828+2650 = WISE J182831.08+265037.7 = WISEPA J182831.08+265037.8 = EQ J18
   spectrum of WISE 1828+2650 smoothly extends the Y dwarf spec-tral
   sequence beyond Y1, its spectral type should remain ≥Y2 until the
   near-infrared spectra of cooler objects like WISE 0855−0714 are
-  obtained." Cushin: "the ebst overall match to the observed
+  obtained." Cushing21: "the best overall match to the observed
   properties of WISE 1828+2650 is a ~1 Gyr old binary composed of two
   Teff~325K ~5 Mjup brown dwarfs withs subsolar [C/O] ratios."
   Radius: 1.23Rjup(Lew24/CHIMERA), 1.030+-0.003(Lew24/JWST/Elf-Owl).

@@ -26,12 +26,8 @@ Teff(Y1V) =   374 K ; WISE J2354+0240 (Kirkpatrick19; plx=124.1+-4.9mas)
 Teff(Y1V) =   375 +-25 K ; Schneider15/WISE0647-6232
 Teff(Y1V) =   381 K ; WISE J0647-6232 (Kirkpatrick19; plx=100.3+-2.4mas)
 Teff(Y1V) =   388 K ; standard WISE J035000.32-565830.2 (Kirkpatrick20) standard
-Teff(Y1V) =   395 K ; WISE J1541-2250 (Kirkpatrick19; plx=167.1+-2.3mas)
 Teff(Y1V) =   395 K ; CWISEP J1047+54 (Beiler24; JWST)
 Teff(Y1V) =   398 K ; WISE J0535-7500 (Kirkpatrick19; plx=66.4+-2.4mas)
-Teff(Y1V) =   400 K ; Schneider15/WISE1541-2250
-Teff(Y1V) =   411 K ; WISEPA J1541-22 (Beiler24; JWST)
-Teff(Y1V) =   421 K ; WISE J1541-2250 (Kirkpatrick21) 
 Teff(Y1V) =   475 K ; WISE J0535-7500 (Kirkpatrick21) 
 Teff(Y1V) =   496 K ; WISE J0535-7500 (Beiler24; JWST) 
 => adopt Teff(Y1V) = 360 K (logT = 2.5563) [updated 10/4/2024]
@@ -103,10 +99,10 @@ logL(Y1V) = -6.779 +-0.043 dex ; CWISEP J1446-23 (Beiler24; JWST)
 Rad(Y1V) = 0.10276 +-0.01028 Rsun ; =(1+-0.1)Rjup (assumed BD rad for one model T6V-Y1V; Beiler24)
 
 
-#  Standard
+# Primary Standard
 
 WISE J035000.32-565830.2 = WISE J0350-5658 = GJ 10528 = CNS5 965 	 
- *Y1: Kirkpatrick12(stan,Leggett16),Schneider15(stan),Kirkpatrick20,Kirkpatrick21(IR/adopted)
+ *Y1: Kirkpatrick12(stan,Leggett16),Schneider15(stan),Tinney18(NIR stan.),Kirkpatrick20,Kirkpatrick21(IR/adopted)
  
   Kirkpatrick12: "The plot shown in Figure 6 suggests that the J-band
   peak of WISE 0350−5658 is sufficiently narrower than WISE 1738+2732
@@ -142,40 +138,16 @@ WISE J035000.32-565830.2 = WISE J0350-5658 = GJ 10528 = CNS5 965
 
 # Exemplars
 
-WISE J154151.65−225024.9 = WISEPA J154151.66−225025.2 = GJ 12260 = CNS5 3866 = WISE J1541-2250
-  Y0: Cushing11(Dupuy12) 
-  Y0.5: Kirkpatrick12(Mace13)
- *Y1: Schneider15(Martin18,Kirkpatrick19,Kirkpatrick21),Leggett17
-
-  This was the only Y0.5 in the Kirkpatrick12 survey. Kirkpatrick12:
-  "This also means that WISE 1541−2250, which has a slightly broader
-  J-band peak [than Y1 standard WISE 0350-5658], should be re-typed
-  from Y0 to Y0.5." But more recent compilations have adopted Y1 from
-  Schneider15.  2nd nearest Y1 in Kirkpatrick21 with
-  plx=166.9+-2.0mas. Teff=421+-75K(Kirkpatrick21),
-  H=22.09+-0.17(Kirkpatrick21).  Y_MKO=21.46+-0.13(Leggett17),
-  J_MKO=21.12+-0.06(Leggett17), J_MKO=21.631+-0.064(Martin18),
-  H_MKO=21.07+-0.07(Leggett17), H_MKO=22.085+-0.170(Martin18),
-  K_MKO=21.70+-0.20(Leggett17), W1=16.74+-0.17(Kirkpatrick12),
-  W2=14.25+-0.06(Kirkpatrick12), [3.6]=16.577+-0.035(Griffith12),
-  [4.5]=14.217+-0.006(Griffith12). (W1-W2)=2.49+-0.18, the only Y
-  dwarf in Kirkpatrick12 with measured W1-W2 (not lower limit).
-  (H-W2) > 6.0.  Teffs: 375K(Leggett21), 400K(Miles20). Metallicity
-  [m/H]=+0.3(Leggett21). logg=4.3-4.9(Miles20).
-
 WISEA J235402.79+024014.1 = WISEA J2354+02
-  Y1: Beiler24
+  Y1: Schneider15,Beiler24
 
-  3rd nearest Y1 in Kirkpatrick21 with plx=130.6+-3.3mas. 
-  Teffs:
-  347+13-11K(Beiler24),
-  350+-75K(Kirkpatrick21), 
-  359K(Beiler24/Rjup),
+  3rd nearest Y1 in Kirkpatrick21 with plx=130.6+-3.3mas.  Teffs:
+  347+13-11K(Beiler24), 350+-75K(Kirkpatrick21), 359K(Beiler24/Rjup),
   362+10-12K(Beiler24/uni) => adopt Teff=355K.
-  H=22.88+-0.30(Kirkpatrick21). 
+  H=22.88+-0.30(Kirkpatrick21).
 
 WISE J064723.23-623235.5
-  Y1: Kirkpatrick13,Kirkpatrick21
+  Y1: Kirkpatrick12,Kirkpatrick13,Kirkpatrick21
 
   4th nearest Y1 in Kirkpatrick with plx=99.5+-1.7mas.
   Teff=355+-75K(Kirkpatrick21). H=23.31+-0.17(Kirkpatrick21). 

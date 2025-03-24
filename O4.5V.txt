@@ -14,12 +14,16 @@ HDE 303308AB has the median Teff and logg of the three.
 (U-B)(O4.5V) = -1.155 ; interp
 => adopt (U-B)(O4.5V) = -1.155 [updated 2/7/2020]
 
-Teff(O4.5V) = 41485 K ; Simon-Diaz14 linear fit for O4.5V
-Teff(O4.5V) = 41800 K ; Holgado20 median N=3 O4.5V (HD 155913, HD 15629, HDE 303308AB)
-Teff(O4.5V) = 41861 K ; Martins05
-Teff(O4.5V) = 42090 K ; Holgado18
-Teff(O4.5V) = 42400 K ; EEM trend for O dwarfs 1/20/2020 **
-Teff(O4.5V) = 42658 K ; Simon-Diaz17 median for O4V (N=1; HD15629)
+(g-V)(O4.5V) = -0.314 ; Bilir05 calibration for B-V=-0.325
+(g-V)(O4.5V) = -0.329 ; Jordi06 calibration for B-V=-0.329
+=> adopt (g-V)(O4.5V) = -0.321 [updated 2/1/2025] 
+
+Teff(O4.5V) =  41485 K ; Simon-Diaz14 linear fit for O4.5V
+Teff(O4.5V) =  41800 K ; Holgado20 median N=3 O4.5V (HD 155913, HD 15629, HDE 303308AB)
+Teff(O4.5V) =  41861 K ; Martins05
+Teff(O4.5V) =  42090 K ; Holgado18
+Teff(O4.5V) =  42400 K ; EEM trend for O dwarfs 1/20/2020 **
+Teff(O4.5V) =  42658 K ; Simon-Diaz17 median for O4V (N=1; HD15629)
 => adopt Teff(O4.5V) = 42200 K (logTeff=4.625) [updated 1/20/2020]
 
 logg(O4.5V) =  3.78 dex ; Holgado18
@@ -45,7 +49,8 @@ Mv(O4.5V) = -5.457 mag ; EEM trend for O4.5V
 Mv(O4.5V) = -5.420 mag ; Martins06/obs.scale(interp)
 Mv(O4.5V) = -5.415 mag ; Martins06/theor.scale(interp)
 Mv(O4.5V) = -5.357 mag ; Martins05 
-=> adopt Mv(O4.5V) = -5.45 mag [updated 2/8/2020]
+=> adopt Mv(O4.5V) = -5.45  mag [updated 2/8/2020]
+=> adopt Mg(O4.5V) = -5.771 mag [updated 2/1/2025] (Mv=-5.45, g-V=-0.321) 
 
 Rad(O4.5V) = 11.700 Rsun ; Martins05 (Teff=41861K,logL=5.578)
 Rad(O4.5V) = 11.8584 Rsun ; logL=5.604, Teff=42200K

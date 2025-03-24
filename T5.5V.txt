@@ -11,7 +11,10 @@ Teff(T5.5V) = 1064 K ; 2MASS_1231+0847 (Kirkpatrick19; plx=75.8+-4.8mas)
 Teff(T5.5V) = 1086 K ; Stephens09 (NIR T subtype polynomial)
 => adopt Teff(T5.5V) = 1070 K (logT = 3.017) [updated 12/26/2020]
 
+
+(J-Ks)(T5.5V) =  0.04  ; smoothed trend T0-T9 SIMBAD T0-T9 d<50pc objects (3/1/2025)
 (J-Ks)(T5.5V) =  0.164 ; Sanghi24 M6V-T9V trend
+=> adopt (J-Ks)(T5.5V) = 0.1 [updated 3/15/2025] 
 
 (r-i)(T5.5V) = 0.96 (+-1.45 rms) ; Zhang09
 
@@ -55,7 +58,7 @@ M_J(T5.5V) =  15.48 ; WISE_J212321.92-261405.1_ T5.5 plx=40.5mas
 M_J(T5.5V) =  15.58 ; WISE_2123-2614 calc using Kirkpatrick20 (plx=40.5mas)
 M_J(T5.5V) =   15.76 ; ULAS_J101243.53+102101.6_ T5.5 plx=59.7mas
 M_J(T5.5V) =   15.85 ; WISE_2359-7335 = 2MASS_J23594034-7335055_ T5.5 plx=86.7mas
-=> adopt M_J(T5.5V) = 15.07 [updated 10/20/2024] (M_J(MKO)=14.80, J(MKO)-J=-0.27)
+=> adopt M_J(T5.5V) = 15.1 [updated 3/1/2025] (J-Ks=0.1, M_Ks=15.0, M_J(MKO)=14.80, J(MKO)-J=-0.27)
 
 M_J(MKO)(T5.5V) =   13.99 ; 2MASS_1534-2952 calc using Kirkpatrick20 (plx=74.5mas)
 M_J(MKO)(T5.5V) =  14.38  ; 2MASS_1231+0847 calc using Kirkpatrick20 (plx=70.2mas)
@@ -131,7 +134,7 @@ M_Ks(T5.5V)      =  15.60 ; WISE_2123-2614 calc using Kirkpatrick20 (plx=40.5mas
 M_Ks(T5.5V)      =  15.60 ; LHS_2803B       calc using Kirkpatrick20 (plx=54.9973mas)
 M_K(MKO)(T5.5V)  =  15.60 ; SDSS_0741+2351 calc using Kirkpatrick20 (plx=73.2mas)
 M_K(MKO)(T5.5V)  =  16.33 ; ULAS_1012+1021 calc using Kirkpatrick20 (plx=59.7mas)
-=> adopt M_Ks(T5.5V) = 15.1 [updated 12/30/2020]
+=> adopt M_Ks(T5.5V) = 15.0 [updated 3/1/2025] (J-Ks=0.1, M_J=15.1) 
 
 (K(MKO)-Ks)(T5.5V) = -0.02 +- 0.23 ; 2MASS_1007-4555
 (K(MKO)-Ks)(T5.5V) = -0.01 +- 0.23 ; 2MASS_1754+1649

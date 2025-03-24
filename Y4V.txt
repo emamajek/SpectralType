@@ -8,7 +8,8 @@ Teff(Y4V) = 225-250K  ; WISE J0855-0714 (ZapateroOsorio16)
 Teff(Y4V) = 250 +-50K ; WISE J0855-0714 (Kirkpatrick20)
 Teff(Y4V) = 250 +-10K ; WISE J0855-0714 (Leggett17)
 Teff(Y4V) = 250 K     ; WISE J0855-0714 (Leggett15)
-Teff(Y4V) = 260 K     ; WISE J0855-0714 (Leggett21) 
+Teff(Y4V) = 260 K     ; WISE J0855-0714 (Leggett21)
+Teff(Y4V) = 285 K     ; WISE J0855-0714 (Luhman24) 
 => adopt Teff(Y4V) = 250 K (logT = 2.398) [updated 10/4/2024]
 
 H-W2(Y4V) = 10.13+-0.24 ; WISE J0855-0714 Kirkpatrick19
@@ -39,18 +40,20 @@ Mbol(Y4V) = 22.97 ; WISE J0855-0714 ; Kuhnle24/JWST/MIRI on IAU2015 scale)
 
 # Exemplars
 
-WISE J0855-0714 = WISE J085510.83-071442.5
+WISE J0855-0714 = WISE J085510.83-071442.5 = CNS5 2194 
   [Y4]: Kirkpatrick20(IR)
   >=Y4: Kirkpatrick19
   >Y2: Leggett15 
 
   plx=439.0+-2.4mas(Kirkpatrick20) => Dist = 2.278+-0.012 pc.  WISE
   J0855 discovered by Luhman14 (2014ApJ...786L..18L) "Discovery of a
-  ∼250 K brown dwarf at 2 pc from the Sun."  Leggett15: "There is no
-  spectrum of W0855, and it has been assigned a type >Y2 in the
-  literature based on the type assigned to W1828 (e.g., Tinney et
-  al. 2014). Here we assign a nominal spectral type of Y2 to W0855 for
-  plotting purposes". Leggett17: "Neither cloudy nor cloud-free models
+  ∼250 K brown dwarf at 2 pc from the Sun." See recent JWST/NISPec
+  analysis by Luhman24 for recent update and IR spectrum of this
+  coolest known brown dwarf.  Leggett15: "There is no spectrum of
+  W0855, and it has been assigned a type >Y2 in the literature based
+  on the type assigned to W1828 (e.g., Tinney et al. 2014). Here we
+  assign a nominal spectral type of Y2 to W0855 for plotting
+  purposes". Leggett17: "Neither cloudy nor cloud-free models
   reproduce the near-infrared photometry for the Teff= 250K Y dwarf
   W0855" and "We find that W0855 likely has a mass of 1.5-8 Jupiter
   masses and age age of 0.3-6 Gyr".  Kirkpatrick19 assigned "[>=Y4]"
@@ -77,10 +80,12 @@ WISE J0855-0714 = WISE J085510.83-071442.5
   logg=5.0(!), logL=-8.57+-0.06 (=> Mbol = 26.165 on IAU2015 scale),
   2-10Mjup for age 1-12 Gyr. Radii for the logL measured by
   Zapatero-Osorio: Rad(225K) = 0.03414 Rsun = 0.3322 Rjup ; Rad(250K)
-  = 0.02765 Rsun = 0.269 Rjup.  EEM: note that for solar composition,
-  the Sonora 2018 tracks predict logL = -8.6 => 0.5-2.5 MJup between
-  ages of 0.97-10.29 Gyr, with Teff=126K(!), logg=3.11-3.80,
-  R=0.1033-0.1046 Rsun. However there is considerable uncertainty in the
-  bolometric flux and hence the luminosity. Luhman did not quote luminosity
-  after SED analysis. logL=-7.291+-0.008(Kuhnle24/JWST/MIRI) =>
-  Mbol=22.97(IAU2015 scale).
+  = 0.02765 Rsun = 0.269 Rjup.
+  EEM: note that for solar composition, the Sonora 2018 tracks predict
+  logL = -8.6 => 0.5-2.5 MJup between ages of 0.97-10.29 Gyr, with
+  Teff=126K(!), logg=3.11-3.80, R=0.1033-0.1046 Rsun. However there is
+  considerable uncertainty in the bolometric flux and hence the
+  luminosity. Luhman did not quote luminosity after SED
+  analysis. logL=-7.291+-0.008(Kuhnle24/JWST/MIRI) =>
+  Mbol=22.97(IAU2015 scale). Teff=285K(Luhman24/JWST/NIRSpec),
+  logL=-7.305+-0.020(Luhman24/JWST).

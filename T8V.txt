@@ -7,7 +7,8 @@ Burgasser04 standard:  2MASS J04151954-0935066 - T8
 Burgasser06 standard:  2MASS J04151954-0935066 - T8 (primary standard)
 Kirkpatrick10 stan.:   2MASS J04151954-0935066 - T8 (pri. stan. (0.7-2.5um/SpeX))
 Geissler11 standard:   2MASSI J0415195−093506  - T8 (near-IR spec. stan.) 
-Schneider15 standard:  2MASSI J0415195–093506  - T8 standard (from Burgasser06) 
+Schneider15 standard:  2MASSI J0415195–093506  - T8 standard (from Burgasser06)
+Tinney18 standard:     2MASS J04151954−0935066 - T8 (near-IR spec. stan.) 
 Brock21 standard:      2MASS J04151954-0935066 (J0415-0935) - T8 (Spex spectral standard)
 Theissen22 standard:   2MASS J04151954-0935066 (J0415-0935) - T8 (pri. stan. (0.9-2.45um/NIRES))
 Bravo23 standard:      2MASSI J0415195−093506 - T8 (NIR standard) 
@@ -27,6 +28,7 @@ Teff(T8V) =  700 K ; pri. stan. 2MASSI J0415195−093506 (Miles20)
 Teff(T8V) =  705 +-30K ; Dupuy13 mean
 Teff(T8V) =  705 K ; ULAS J1029+09 (Beiler24; JWST)
 Teff(T8V) =  715 +-30K ; Dupuy15 (1-5 Gyr)
+Teff(T8V) =  723 K (+-59K rms) ; Zalesky22 T8 median N=16
 Teff(T8V) =  750 K ; WISEPA J1959-33 (Beiler24; JWST) 
 => adopt Teff(T8V) = 690 K (logT = 2.8388) [updated 12/1/2024]
 
@@ -38,8 +40,9 @@ Teff(T8V) =  750 K ; WISEPA J1959-33 (Beiler24; JWST)
 (J-Ks)(T8V) =  0.61 ; M_J=17.31, M_Ks=16.7 
 (J-Ks)(T8V) =  -0.1 (+-0.51 stdev) ; Geissler11 
 (J-Ks)(T8V) =  -0.227 ; Sanghi24 M6V-T9V trend
+(J-Ks)(T8V) =  -0.34  ; smooth trend SIMBAD T0-T9 d<50pc objects (3/1/2025) 
 (J-Ks)(T8V) =  -0.35  ; dalPonte23
-=> adopt (J-Ks)(T8V) = -0.2 [updated 1/10/2025] 
+=> adopt (J-Ks)(T8V) = -0.3 [updated 3/1/2025] 
 
 (i-z)(T8V) = 3.905 ; Skrzypek15 (i-z_Vega=4.08;i_AB-i_Vega=0.366,z_AB-z_Vega=0.533(Hewett06))
 => adopt (i-z)(T8V) = 3.91 [updated 12/1/2024]
@@ -266,21 +269,24 @@ logg(T8V) = 4.65-5.16 ; Dupuy13 mean (range: 1-5Gyr)
 
 # Primary Standard
 
-2MASSI J0415195−093506 = 2MASS J04151954-0935066 = CNS5 1054 = GJ 10582 = TIC 67773411 
+2MASS J04151954-0935066 = CNS5 1054 = GJ 10582 = TIC 67773411 
   *T8: Burgasser02,Burgasser03,Burgasser06(near-IR stan),Kirkpatrick08(stan),Burgasser10(opt & near-IR stan),Leggett10(T8+-0.5),Kirkpatrick11,Kirkpatrick12,Schneider16,Best18(opt,near-IR),Kirkpatrick20(opt.&near-IR),Kirkpatrick21(opt,near-IR),Bravo23(stan/NIR),Burgasser24(pri.dwarf near-IR stan)
    T9: Knapp04
 
    This was the latest defined T-type near-IR standard in the
    "unified" spectral classification grid of T dwarfs of Burgasser06,
    although Knapp04 had originally classified it as T9 and considered
-   it "the latest and coolest dwarf found to date".  Teffs:
-   677+-56K(Kirkpatrick20), 700(649,734)K(Miles20) => adopt Teff=689K.
+   it "the latest and coolest dwarf found to date".  3rd nearest T8
+   dwarf in SIMBAD. Teffs: 677+-56K(Kirkpatrick20),
+   700(649,734)K(Miles20) => adopt Teff=689K.
    plx=174.34+-2.76mas(Faherty12),
    plx=175.20+-1.70mas(Dupuy12,Kirkpatrick20).
    i=23.45+-0.09(Leggett17), z=19.40+-0.09(Leggett17),
    Y=16.38+-0.10(Leggett17), J_MKO=15.32+-0.03(Leggett10,Leggett17),
-   H_MKO=15.70+-0.03(Leggett17),
+   J=15.695+-0.058(2MASS,qflg=A), H_MKO=15.70+-0.03(Leggett17),
+   H=15.537+-0.113(2MASS,qflg=B),
    K_MKO=15.83+-0.03(Leggett10,Leggett17),
+   Ks=15.429+-0.201(2MASS,qflg=C),
    L'_MKO=13.28+-0.05(Leggett10,Leggett17), M'=12.47+-0.08(Leggett17),
    M'=12.82+-0.16(Leggett10).  i'-z'=3.17(Reyle10),
    z'-J=4.51(Reyle10).
@@ -293,7 +299,7 @@ logg(T8V) = 4.65-5.16 ; Dupuy13 mean (range: 1-5Gyr)
   T8: Burgasser00
 
   Primary "mild subdwarf" near-IR standard in
-  Burgasser24. plx=196.0+-10.4mas(Faherty12), plx=187+-5mas(Tinney14).
+  Burgasser24, and nearest T8 dwarf in SIMBAD. plx=196.0+-10.4mas(Faherty12), plx=187+-5mas(Tinney14).
   2MASS JH detection, but not Ks!
 
       M_J(T8V) =  17.339 +-0.121 ; variant stan. 2MASS J09393548-2448279 (d/sdT8)   
@@ -303,10 +309,13 @@ logg(T8V) = 4.65-5.16 ; Dupuy13 mean (range: 1-5Gyr)
 
 # Others
 
-WISEPA J025409.45+022359.1
-   T8: Kirkpatrick20
+WISE J025409.51+022358.6 = 2MASS J02540788+0223563 = SDSS J025409.24+022358.2 = CNS5 730 = PSO J043.5395+02.3995 = WISEP J025409.45+022359.1 = WISEA J025409.55+022358.5 
+   T8: Griffith12,Kirkpatrick20
 
-   Teff=621+-73K(Kirkpatrick20), plx=146.1+-1.5mas(Kirkpatrick20).
+   2nd nearest T8 dwarf in SIMBAD. Appears to have been first reported
+   by multiple groups within months of each other in 2011. Detected in
+   multiple surveys (SDSS, PSO, ULAS, 2MASS, WISE).
+   Teff=621+-73K(Kirkpatrick20), plx=146.1+-1.5mas(Kirkpatrick19).
 
 2MASS J07290002−3954043
    T8pec: Kirkpatrick20(near-IR)
@@ -315,8 +324,11 @@ WISEPA J025409.45+022359.1
    Kirkpatrick20 as 'sd'.  Teff=752+-69K(Kirkpatrick20),
    plx=126.3+-8.3mas(Kirkpatrick20).
 
+2MASS J20005017 3629465
+
+   5th nearest T8 in SIMBAD.
+
 WISEP J115013.88+630240.7
    T8: Kirkpatrick20
 
    plx=121.4+-2.7mas(Kirkpatrick20). Teff=686+-79K(Kirkpatrick20).
-
