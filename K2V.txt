@@ -138,7 +138,7 @@ dwarfs, which factors in trend as function of B-V]
 (V-Rc)(K2V) = 0.518 ; ter. stan. HD 166620 ([Fe/H]=-0.18)
 (V-Rc)(K2V) =  0.519 ; exemplar HD 130930 = HIP 72742 ([Fe/H]=+0.02) (Menzies89)
 (V-Rc)(K2V) = 0.522 ; HD 189733 = HIP 98505 (Koen10) ~solar
-=> adopt (V-Rc)(K2V) = 0.50 [updated 10/10/2023; V-Ic=0.94, R-Ic=0.44]
+=> adopt (V-Rc)(K2V) = 0.50 [updated 10/10/2023] (V-Ic=0.94, R-Ic=0.44)
 [EEM 9/1/2023: fit for standards+exemplars (V-Rc)(K2V) = 0.5007 - 0.02426*[Fe/H] (rms=0.013mag)]
 
 (R-Ij)(K2V) = 0.47 ; pri. stan. eps Eri ([Fe/H]=-0.08) (Johnson66)
@@ -346,11 +346,12 @@ dwarfs, which factors in trend as function of B-V]
 (r-i)(K2V) = 0.206 ; exemplar HD 170657 = GJ 716 ([Fe/H]=-0.17)
 (r-i)(K2V) = 0.21  ; Kesseli17 
 (r-i)(K2V) = 0.214 ; Jordi06 Pop I calibration for R-Ic=0.44
+(r-i)(K2V) = 0.215 ; Chonis08 SDSS5-Landolt92 calib for R-Ic=0.44
 (r-i)(K2V) = 0.216 ; ter. stan. HD 4628 = HR 222 ([Fe/H]=-0.26) 
 (r-i)(K2V) = 0.225 ; ter. stan. HD 166620 ([Fe/H]=-0.18)
 (r-i)(K2V) = 0.234 ; Bilir05 calibration for R-Ic=0.44
 (r-i)(K2V) = 0.24  ; Covey07
-=> adopt (r-i)(K2V) = 0.21 [updated 6/20/2024]
+=> adopt (r-i)(K2V) = 0.215 [updated 3/1/2025]
 
 (i-z)(K2V) = 0.10 ; Kesseli17 
 (i-z)(K2V) = 0.11 ; Covey07
@@ -363,7 +364,7 @@ dwarfs, which factors in trend as function of B-V]
 (g-V)(K2V) = 0.433 ; Just08/Chonis08 B-V=>g-V for B-V=0.885
 => adopt (g-V)(K2V) = 0.433 [updated 9/1/2023]
 
-(G-V)(K2V) = -0.239 ; V-Ic vs G-V trend Pancinco22 for V-Ic=0.944 (GaiaDR3)
+(G-V)(K2V) = -0.237 ; V-Ic vs G-V trend Pancino22 for V-Ic=0.94 (GaiaDR3)
 (G-V)(K2V) = -0.240 ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03) (GaiaDR3)
 (G-V)(K2V) = -0.241 ; exemplar HD 23484 = GJ 152 = HIP 17439 ([Fe/H]=+0.09) (GaiaDR3)  
 (G-V)(K2V) = -0.247 ; exemplar HD 170657 = GJ 716 ([Fe/H]=-0.17) (GaiaDR3)
@@ -491,7 +492,7 @@ Teff(K2V) = 5028 K ; ter. stan. HD 166620 = GJ 706 = HIP 88972 ([Fe/H]=-0.18)
 Teff(K2V) =  5035 K ; mean photometric Teff
 Teff(K2V) =  5043 K ; EEM N=269 Teffs
 Teff(K2V) =  5060 K ; CATSUP d<30pc median (Hinkel17; N=32)
-Teff(K2V) = 5078 K ; exemplar HD 13808 = HIP 1031 ([Fe/H]=-0.17)
+Teff(K2V) = 5078 K ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.17)
 Teff(K2V) = 5084 K ; exemplar HD 82516 = HIP 46677 ([Fe/H]=+0.03)
 Teff(K2V) = 5098 K ; pri. stan. eps Eri = HD 22049 ([Fe/H]=-0.08)
 Teff(K2V) = 5100 K ; exemplar HD 170657 = GJ 716 ([Fe/H]=-0.17)
@@ -608,7 +609,7 @@ M_Ks(K2V) =   3.93 ; HD_67199 plx=57.8659mas (K2V(k),Gray06) ([Fe/H]=+0.04)
 M_Ks(K2V) =  3.97 ; trend for [Fe/H]=0.00 among stars listed here (see below)
 M_Ks(K2V) =   3.98 ; HD_30501 plx=49.1798mas (K2V,Gray06) ([Fe/H]=+0.08)
 M_Ks(K2V) =  3.99 ; exemplar HD 68475 = HIP 40051 ([Fe/H]=-0.04)
-M_Ks(K2V) =  4.00 ; exemplar HD 13808 = HIP 1031 ([Fe/H]=-0.17)
+M_Ks(K2V) =  4.00 ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.17)
 M_Ks(K2V) =  4.01 ; sec. stan. HD 166620 plx=90.1234mas K2V ([Fe/H]=-0.18) 
 M_Ks(K2V) =  4.03 ; exemplar HD 3222 = HIP 2743 ([Fe/H]=-0.41)
 M_Ks(K2V) =   4.06 ; HD_189733A plx=50.5668mas (K2V,Gray03) ([Fe/H]=-0.02) 
@@ -814,17 +815,19 @@ HD 4628 = GJ 33 = HIP 3765 = HR 222 = BD+04 123 = LHS 121
   agreement on K2V type over the years. I leave it as a tertiary
   standard as it did not seem to be used in later standard star
   compilations by Morgan and Keenan. According to Skiff's compilation,
-  "S 222" in MK43 is actually "HR 222". Wilson62 comment "Balmer & CN
-  weak". Houk says "HR 222; UNDETECTED VISUAL DOUBLE p=353°d=2.7arcsec
-  MAG 5.8; LHS 121; µ=1.367". V=5.74(HIP), V=5.740(Cousins80/bright),
-  V=5.742+-0.013(Mermilliod91), V=5.76(Johnson57),
-  V=5.72:(Cousins80/nearby), B-V=0.890+-0.008(HIP,Mermilliod91),
-  B-V=0.88(Johnson57), U-B=0.58(Johnson57),
-  U-B=0.591+-0.010(Mermilliod91), V-Rc=0.51(Cousins80/nearby),
-  V-Rc=0.517(Cousins80/bright), R-Ic=0.45(Cousins80/nearby),
-  R-Ic=0.451(Cousins80/bright), V-Ic=0.96(Cousins80),
-  V-Ic=0.968(Cousins80/bright), g-r=0.719(Just08), r-i=0.216(Just08),
-  V-Rc=0.508(Just08), Rc-Ic=0.441(Just08), V-Ic=0.949(Just08),
+  "S 222" in MK43 is actually "HR 222" (and which reasonably matches
+  the 1900 coordinates and magnitude in MK43). Wilson62 comment
+  "Balmer & CN weak". Houk says "HR 222; UNDETECTED VISUAL DOUBLE
+  p=353°d=2.7arcsec MAG 5.8; LHS 121; µ=1.367". V=5.74(HIP),
+  V=5.740(Cousins80/bright), V=5.742+-0.013(Mermilliod91),
+  V=5.76(Johnson57), V=5.72:(Cousins80/nearby),
+  B-V=0.890+-0.008(HIP,Mermilliod91), B-V=0.88(Johnson57),
+  U-B=0.58(Johnson57), U-B=0.591+-0.010(Mermilliod91),
+  V-Rc=0.51(Cousins80/nearby), V-Rc=0.517(Cousins80/bright),
+  R-Ic=0.45(Cousins80/nearby), R-Ic=0.451(Cousins80/bright),
+  V-Ic=0.96(Cousins80), V-Ic=0.968(Cousins80/bright),
+  g-r=0.719(Just08), r-i=0.216(Just08), V-Rc=0.508(Just08),
+  Rc-Ic=0.441(Just08), V-Ic=0.949(Just08),
   V-Ic=0.968(Cousins96). 2MASS photometry is flagged 'DDD', poor
   quality. Morel78 reports Johnson IR photometry: J=4.24, K=3.61,
   L=3.48 from Johnson68 => tranforming via Rieke22 => Ks=3.584 =>

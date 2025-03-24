@@ -53,6 +53,19 @@ For Hipparcos stars within 75pc with parallax S/N > 8 (N=6):
 (B-V)(K1IV) = 1.020(+-0.032 sem,+-0.074 stdev) ; SIMBAD median K0IV d<75pc, V<6.5(N=10)
 => adopt (B-V)(K1IV) = 1.00 [updated 2/3/2022]
 
+(V-Rc)(K1IV) = 0.527 ; exemplar HD 34642 = omi Col = HIP 24649 
+(V-Rc)(K1IV) = 0.535 ; sec. stan. 57 Vir = HD 115202 = HR 5001 = HIP 64725 ([Fe/H]=-0.03)
+=> adopt (V-Rc)(K1IV) = 0.53 [updated 3/1/2025] 
+
+(R-Ic)(K1IV) = 0.475 ; exemplar HD 34642 = omi Col = HIP 24649 
+(R-Ic)(K1IV) = 0.48  ; sec. stan. 57 Vir = HD 115202 = HR 5001 = HIP 64725 ([Fe/H]=-0.03)
+=> adopt (R-Ic)(K1IV) = 0.48 [updated 3/1/2025] 
+
+(V-Ic)(K1IV) =  0.924 (+-0.036 sem, +-0.079 stdev) ; Gray03/Gray06 d<40pc HIP (N=7)
+(V-Ic)(K1IV) = 1.01 ; V-Rc=0.53, R-Ic=0.48 (3/1/2025) 
+(V-Ic)(K1IV) =  1.015 ; sec. stan. 57 Vir = HD 115202 = HR 5001 = HIP 64725 ([Fe/H]=-0.03)
+=> adopt (R-Ic)(K1IV) = 1.01 [updated 3/1/2025] 
+
 Teff(K1IV) =  4791 K ; sec. stan. 57 Vir [Fe/H]=-0.03
 Teff(K1IV) = 4825 K ; interpolation linear fit to Teff vs. [Fe/H] for 4 standards for [Fe/H]=0
 Teff(K1IV) =  4832 K ; pri. stan. gam Cep [Fe/H]=0.09 
@@ -117,8 +130,10 @@ kap CrB = HD 142091 = HIP 77655 (J1551+3541)
   K1III: Houk88,Gray06
 
   One of the original 90 Mt. Wilson subgiants (Sandage16).  Excellent
-  agreement on subtype.  V=5.21(HIP), B-V=1.011+-0.033(HIP),
-  V-I=1.02+-0.02(HIP) plx=26.6876+-0.1078mas(GaiaEDR3) => Mv=2.34.
+  agreement on subtype.  V=5.21(HIP), V=5.23(GCPD_Cousins76/VRIc),
+  B-V=1.011+-0.033(HIP), V-Rc=0.535(GCPD_Cousins76/VRIc),
+  R-Ic=0.48(GCPD_Cousins76/VRIc), V-Ic=1.015(GCPD_Cousins76/VRIc),
+  V-Ic=1.02+-0.02(HIP), plx=26.6876+-0.1078mas(GaiaEDR3) => Mv=2.34.
   Soubiran22/PASTEL mean: Teff=4791+-49K, logg=2.96+-0.20,
   [Fe/H]=-0.03+-0.04.
 
@@ -150,7 +165,13 @@ HD 34642 = omi Col = HIP 24649
   K0/1III/IV: Houk82
   K1IIIb: 1937AnHar.105...45H
 
-  V=4.81(HIP), B-V=0.987+-0.033(HIP), V-I=1.00+-0.02(HIP).
+  V=4.81(HIP),
+  V=4.825(GCPD/Cousins76_VRIc),
+  B-V=0.987+-0.033(HIP),
+  V-Rc=0.527(GCPD/Cousins76_VRIc),
+  R-Ic=0.475(GCPD/Cousins76_VRIc),
+  V-Ic=1.00+-0.02(HIP),
+  V-Ic=1.002(GCPD/Cousins76_VRIc),
   plx=30.7880+-0.0975mas(GaiaEDR3) => Mv=2.25. 
 
 HD 159809 = HIP 86368 

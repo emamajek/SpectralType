@@ -3,7 +3,7 @@ K9V
 JM53, Houk75, KeenanMcNeil76, Keenan85, Keenan85, Kirkpatrick91,
 Henry02 do not list any K9V standards. 
 
-Pecaut13 standard: HIP 3261 [K9V following Gray06]
+Pecaut13 standard: HIP 3261 [K9V following Gray06, but see notes below]
 
 Keenan84 does not list K9 as a full subtype like K5 and M0, and "other
 possible subdivisions are utilized only for interpolation whenever we
@@ -19,7 +19,7 @@ the better defined K7V and M0V subtypes). Note that *none* of the
 exemplars yet identified truly has a V-Ks color intermediate between the
 adopted colors for K8V (3.50) and M0V (3.65).
 
-(B-V)(K9V) = 1.362 ; exemplar GJ 496.1 = HD 113538 
+(B-V)(K9V) = 1.362 ; exemplar GJ 496.1 = HD 113538 ([Fe/H]=-0.17) 
 (B-V)(K9V) =  1.37  ; Fitzgerald70
 (B-V)(K9V) =  1.38  ; 1 ARICNS K8V star
 (B-V)(K9V) = 1.386 ; exemplar GJ 3138
@@ -32,7 +32,7 @@ adopted colors for K8V (3.50) and M0V (3.65).
 (B-V)(K9V) = 1.455 ; exemplar GJ 88 = LHS 1357 
 => adopt (B-V)(K9V) = 1.40 [updated 8/13/2020] 
 
-(V-Ks)(K9V) = 3.432 ; exemplar GJ 9425 = HD 113538 = GJ 496.1 
+(V-Ks)(K9V) = 3.432 ; exemplar GJ 9425 = HD 113538 = GJ 496.1 ([Fe/H]=-0.17)  
 (V-Ks)(K8V) =  3.48  ; K8V adopted
 (V-Ks)(K9V) = 3.55  ; trend for K/M standards+exemplars
 (V-Ks)(K9V) = 3.591 ; exemplar HIP 14589 = LP 831-72
@@ -98,7 +98,7 @@ adopted colors for K8V (3.50) and M0V (3.65).
 => adopt (Ks-W1)(K9V) = 0.117 [updated 12/29/2019]
 
 (G-V)(K9V) =  -0.562 ; exemplar HIP 14589 = LP 831-72 (GaiaDR2)
-(G-V)(K9V) =  -0.610 ; exemplar GJ 496.1 = HD 113538 (GaiaDR2)
+(G-V)(K9V) =  -0.610 ; exemplar GJ 496.1 = HD 113538 ([Fe/H]=-0.17) (GaiaDR2)
 (G-V)(K9V) = -0.690 ; deprecated stan. GJ 1016 = HIP 3261 (GaiaDR2)
 (G-V)(K9V) = -0.693 ; exemplar GJ 3138 = HIP 10037 (GaiaDR2)
 (G-V)(K9V) =  -0.722 ; exemplar GJ 88 = LHS 1357 (GaiaDR2)
@@ -129,7 +129,7 @@ adopted colors for K8V (3.50) and M0V (3.65).
 
 (G-Rp)(K7V) =  0.87   ; K7V adopted
 (G-Rp)(K8V) =  0.89   ; K8V adopted
-(G-Rp)(K9V) = 0.8982 ; exemplar GJ 9425 = HD 113538 
+(G-Rp)(K9V) = 0.8982 ; exemplar GJ 496.1 = GJ 9425 = HD 113538 ([Fe/H]=-0.17) 
 (G-Rp)(K9V) = 0.9024 ; interp K8V(0.89),M0V(0.92)
 (G-Rp)(M0V) =  0.92   ; M0V adopted
 (G-Rp)(K9V) =  0.9265 ; exemplar GJ 3138 = HIP 10037 (GaiaDR2)
@@ -225,6 +225,10 @@ Mv(K9V)  = 9.23 mag ; exemplar GJ 88 = LHS 1357
 => adopt Mv(K9V)   = 8.56 mag [updated 3/2/2021] (M_Ks=5.01, V-Ks=3.55)
 => adopt M_G(K9V)  = 7.90 mag [updated 11/15/2022] (Mv=8.56, G-V=-0.66) (CHECK)
 => adopt M_Ks(K9V) = 5.01 mag [updated 3/2/2021] (Mv=8.56, V-Ks=3.55)
+
+M_G(K9V) =   7.38 ; HD_113538_ plx= 61.3202 mas (Kirkpatrick24 d<20pc)
+M_G(K9V) =   7.97 ; HD_11507_ plx= 90.4171 mas (Kirkpatrick24 d<20pc)
+M_G(K9V) =   8.37 ; CD-34_239_ plx= 50.9245 mas (Kirkpatrick24 d<20pc)
 
 M_J(K9V) =   5.37 ; CNS5_3222_ K9Vk: plx=61.3202mas
 M_J(K9V) =   5.92 ; LP_811-17_ K9Vk: plx=41.98mas
@@ -348,7 +352,7 @@ GJ 9425 = HD 113538 = GJ 496.1 = LHS 344 = HIP 63833 = Gaia DR3 6080301367488384
   B-V=1.362+-0.009(HIP), B-V=1.368+-0.022(Mermilliod91),
   B-V=1.40(Bessell90,Corben72), U-B=1.270+-0.080(Mermilliod91),
   U-B=1.280(Corben72), U-B=1.255(Mermilliod86,Eggen),
-  V-Rc=0.842(Bessell90), R-Ic=0.783(Bessell90), V-Ic=1.625(Bessell90).
+  V-Rc=0.842(Bessell90), R-Ic=0.783(Bessell90,Houdebin19), V-Ic=1.625(Bessell90).
   Ks=5.637+-0.024(2MASS). (V-Ks) = 9.069 - 5.637 = 3.432.  GaiaDR2:
   G=8.4428+-0.0005, E(BR/RP)=1.292, Bp-Rp=1.7437, Bp-G=0.8612,
   G-Rp=0.8825.  G-V = 8.4428 - 9.053 = -0.610.  GaiaDR3:
@@ -361,6 +365,16 @@ GJ 9425 = HD 113538 = GJ 496.1 = LHS 344 = HIP 63833 = Gaia DR3 6080301367488384
   4040+-20K(Houdebine17#2), 4060+-15K(Houdebine19),
   4075+-113K(Gaidos14), 4139K(GaiaDR2#2), 4462+-145K(Moutou15),
   4685K(Moutou11), 4685+-155K(Santos13) => <Teff> = 4070K.
+  Metallicities: [Fe/H]=-0.25(Houdebine16), [Fe/H]=-0.24(Gouda19),
+  [Fe/H]=-0.24+-0.06(Moutou15), [Fe/H]=-0.17(Moutou11),
+  [Fe/H]=-0.17+-0.07(Santos13), [Fe/H]=-0.158+-1.598(Matsuno24; I
+  don't know how +-1.6dex is even possible?],
+  [M/H]=-0.11(Houdebine19), 
+  [Fe/H]=-0.1+-0.7(Kuznetsov19; I don't know how +-0.7dex is even
+  possible?], [Fe/H]=0.00(Mignon24), [Fe/H]=0.00+-0.10(Gaspar16),
+  [Fe/H]=+0.54+-0.09(Kuznetsov19#2) => adopt
+  [Fe/H]=-0.17+-0.07(Santos13, as it appears to capture most of the
+  range of values).
   
 GJ 3138 = HIP 10037 = LHS 1346 = BD-17 400 = StKM 2-192 = LTT 1117 = 2MASS J02091086-1620229
   K7V: Bidelman85(K7),Stephenson86

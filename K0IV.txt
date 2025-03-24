@@ -65,6 +65,22 @@ Teff(K0IV) = 5108 K ; exemplar HD 22713 = 21 Eri (see below)
 (B-V)(K0IV) = 0.946(+-0.021 sem,+-0.060 stdev) ; SIMBAD median K0IV d<75pc, V<6.5(N=10)
 => adopt (B-V)(K0IV) = 0.92 [updated 2/32/2022]
 
+(V-Rc)(K0IV) = 0.504 ; variant standard HD 168723 = eta Ser = HR 6869 (K0III-IV)
+(V-Rc)(K0IV) = 0.505 ; variant stan. HD 23249 = del Eri = Rana = GJ 150 ([Fe/H]=+0.13)
+(V-Rc)(K0IV) = 0.51  ; exemplar HD 171627 = HIP 91273 
+=> adopt (V-Rc)(K0IV) = 0.505 [udpated 3/1/2025]
+
+(R-Ic)(K0IV) = 0.435 ; variant stan. HD 23249 = del Eri = Rana = GJ 150 ([Fe/H]=+0.13)
+(R-Ic)(K0IV) = 0.46  ; variant standard HD 168723 = eta Ser = HR 6869 (K0III-IV)
+(R-Ic)(K0IV) = 0.465 ; exemplar HD 171627 = HIP 91273
+=> adopt (R-Ic)(K0IV) = 0.46 [updated 3/1/2025] 
+
+(V-Ic)(K0IV) =  0.94  ; variant stan. HD 23249 = del Eri = Rana = GJ 150 ([Fe/H]=+0.13)
+(V-Ic)(K0IV) =  0.964 ; variant standard HD 168723 = eta Ser = HR 6869 (K0III-IV)
+(V-Ic)(K0IV) = 0.965 ; V-Rc=0.505, R-Ic=0.46 (3/1/2025) 
+(V-Ic)(K0IV) =  0.975 ; exemplar HD 171627 = HIP 91273
+=> adopt (V-Ic)(K0IV) = 0.965 [updated 3/1/2025] 
+
 Mv(K0IV) =  3.74 ; K0+IV variant stan. del Eri = HD 23249 
 Mv(K0IV) =  3.27 ; exemplar HD 22713 = 21 Eri
 Mv(K0IV) = 3.2   ; GrayCorbally09 
@@ -106,7 +122,7 @@ HD 198149 = eta Cep = HR 7957 = GJ 807 = HIP 102422 = LHS 3578 (J2045+6150)
 
 # Variant Standard
 
-HD 23249 = del Eri = 23 Eri = HR 1136 = GJ 150 = Rana (J0343-0945, V=3.5)
+HD 23249 = del Eri = Rana = GJ 150 = HR 1136 = 23 Eri (J0343-0945, V=3.5)
   G9: Bidelman85
   K0IV: Adams35,MK43,Moore50
  *K0+IV: Keenan80,Keenan89
@@ -121,7 +137,13 @@ HD 23249 = del Eri = 23 Eri = HR 1136 = GJ 150 = Rana (J0343-0945, V=3.5)
   status for del Eri. vsini<2 km/s apparently, from Glebocki+00
   catalog. B-V=0.915 (negligibly redder than primary standard eta
   Cep), revised HIP data => Mv=3.74, 2.50 mag above MS. PASTEL: <Teff>
-  = 5051 K (N=22), <[Fe/H]> = 0.13.
+  = 5051 K (N=22), <[Fe/H]>=+0.13.
+  V=3.525(GCPD/Cousins_VRIc#1,#2),
+  V-Rc=0.505(GCPD/Cousins_VRIc#1,#2) => adopt V-Rc=0.505. 
+  R-Ic=0.434(GCPD/Cousins_VRIc#1),
+  R-Ic=0.435(GCPD/Cousins_VRIc#2) => adopt R-Ic=0.435. 
+  V-Ic=0.939(GCPD/Cousins_VRIc#1),
+  V-Ic=0.94(GCPD/Cousins_VRIc#2) => adopt V-Ic=0.94. 
 
 HD 168723 = eta Ser = HR 6869 (V=3.26)
   G8: Bidleman85
@@ -135,6 +157,11 @@ HD 168723 = eta Ser = HR 6869 (V=3.26)
   V=3.23(HIP), B-V=0.941+-0.006(HIP),
   V-I=0.96+-0.02(HIP). plx=53.93+-0.18mas(HIP2) => Mv=1.89.  PASTEL:
   <Teff>=4930K(N=27), <[Fe/H]>=-0.19(N=23), <logg>=3.08(N=23).
+  V=3.26(GCPD/Cousins76_VRIc#1,$2), V-Rc=0.503(GCPD/Cousins76_VRIc#1),
+  V-Rc=0.505(GCPD/Cousins76_VRIc#2) => adopt (V-Rc)=0.505.
+  R-Ic=0.46(GCPD/Cousins76_VRIc#1,#2) => adopt (R-Ic)=0.46.
+  V-Ic=0.963(GCPD/Cousins76_VRIc#1), V-Ic=0.965(GCPD/Cousins76_VRIc#2)
+  => adopt V-Ic=0.965.
 
 HD 28 = 33 Psc 
   K0IV: Adams35
@@ -185,6 +212,9 @@ HD 22713 = 21 Eri = HR 1111 = HIP 17027
 HD 171627 = HIP 91273
  *K0IV: 1943HarCi.449....1H,McCuskey64,Houk82
   K1V: Evans57
+
+  V=6.785(GCPD/Cousins76_VRIc), V-Rc=0.51(GCPD/Cousins76_VRIc),
+  R-Ic=0.465(GCPD/Cousins76_VRIc), V-Ic=0.975(GCPD/Cousins76_VRIc).
 
 # Other Stars
 

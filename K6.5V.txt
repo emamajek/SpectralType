@@ -52,6 +52,15 @@ Teff(K6V)   =  4230K ; K6V adopted
 => adopt (g-V)(K6.5V) = 0.705 [updated 9/1/2023]
 
 Mv(K6.5V) = 7.92 ; exemplar GJ 146/HD 22496
+Mv(K6.5V) = 8.01 ; exemplar GJ 1177A = HD 120036A ([Fe/H]=-0.03) 
+
+M_G(K6.5V) =   7.35 ; exemplar GJ 146 = HD 22496 plx=73.5199 mas (Kirkpatrick24 d<20pc)
+M_G(K6.5V) =   7.44 ; exemplar GJ 1177A = HD 120036A ([Fe/H]=-0.03)  (Kirkpatrick24 d<20pc)
+M_G(K6.5V) =   7.51 ; HD_203040_ plx= 63.3864 mas (Kirkpatrick24 d<20pc)
+
+M_J(K6.5V) = 5.52 ; exemplar GJ 1177A = HD 120036A ([Fe/H]=-0.03)
+
+M_Ks(K6.5V) = 4.74 ; exemplar GJ 1177A = HD 120036A ([Fe/H]=-0.03) 
 
 I've just interpolated properties here based on the properties of the
 better populated K6V and K7V types, adjusting for the mean B-V from
@@ -84,7 +93,7 @@ GJ 146 = HD 22496 = LHS 1563 = HIP 16711 (J0335-4825; V=8.6)
    variability of 0.7 mag? B-V and V-Ks is close to mean for K6.5V.
    plx = 73.5244+-0.0387mas(GaiaDR2). Mv =
    7.92+-0.03(Mermilliod91,GaiaDR2), within 0.1 mag of mean for
-   K6.5Vs.
+   K6.5Vs. M_G=7.353(GaiaDR3). 
     
 GJ 9646 = Gl 747.3 = HD 178445 = HIP 94225
    K5/M0V: Houk78
@@ -114,7 +123,7 @@ GJ 826.1 = HD 203040 = LHS 3657 = StKM 2-1513 = UGP 520
    Ks=5.721+-0.018(2MASS), V-Ks = 9.12 - 5.721 = 3.399.  Teffs:
    4030+-242K(Yee17), 4089K(Hinkel17), 4090+-100K(Houdebine16#1,#3),
    4243+-111K(Houdebine16#2) => <Teff> = 4090K.  [Fe/H] =
-   -0.28(Houdebine16), [Fe/H]=-0.05+-0.10(Yee17).
+   -0.28(Houdebine16), [Fe/H]=-0.05+-0.10(Yee17). M_G=7.508(GaiaDR3). 
    
 GJ 45 = HD 5633 (J0057-6214)
    K5: Luyten79
@@ -130,3 +139,38 @@ GJ 45 = HD 5633 (J0057-6214)
    4210+-100K(Houdebine16#1), 4250K(Morales08),
    4252+-62K(Houdebine16#2), 4340K(Houdebine16#3) =>
    4230K. [Fe/H]=-0.25(Houdebine16).
+
+GJ 1177A = HD 120036A = COO 159A = WDS J13477-3226A = CNS5 3410 = 2MASS J13474215-3225480 = Gaia DR3 6171492074455952128
+   K5V: Upgren72 
+   K5:V: Houk82
+   "PMS K5.6": Houdebine16
+   K6V: Torres06
+  *K6.5V(k): Gray06
+   M1V: Stock72
+
+   Primary A of COO 159 binary in WDS (where secondary is K7V):
+   sep=9.3" (epoch 2021), mag1=8.99, mag2=9.20.  Both components are
+   cleanly separately in 2MASS.  V(AB)=8.13(HIP),
+   V(A)=8.76(Tokovinin18), V(A)=8.81(TYC),
+   V(A)=8.829981(GaiaDR3/synth), V(A)=8.836+-0.018(ASCC-2.5),
+   V(A)=8.94(Torres06,Mermilliod91,Hauck90) => adopt V(A)=8.83.
+   V(B)=8.98(TYC), V(B)=9.017+-0.019(ASCC-2.5),
+   V(B)=9.021715(GaiaDR3/synth), V(B)=9.12(Torres06,Hauck90),
+   V(B)=9.25(Tokovinin18).  B-V(A)=1.315(Mermilliod91),
+   B-V(AB)=1.322+-0.002(HIP), B-V(A)=1.32(Torres06),
+   B-V(B)=1.36(Torres06), V-Rc(AB)=0.866(Just08),
+   U-B(A)=1.225(Mermilliod91), R-Ic(AB)=0.730(Just08),
+   V-Ic(AB)=1.38+-0.14(HIP), g-r(AB)=1.204(Just08),
+   r-i(AB)=0.487(Just08), J(A)=6.333+-0.021(2MASS),
+   H(A)=5.725+-0.021(2MASS), Ks(A)=5.557+-0.017(2MASS).
+   del(Hp)=0.20+-0.02(HIP), del(Hp)=0.196+-0.016(TYC),
+   del(V)=0.191734(GaiaDR3/synth), del(Vt)=0.212+-0.025(Tycho-2),
+   del(Ks)=0.097+-0.032(2MASS).  Houdebine says "PMS", however
+   Torres06 reports zero Li absorption, and the activity is well below
+   saturated (logLx/Lbol=-4.263;Houdebine17), so unlikely to be very
+   young. GaiaDR3: plx=68.6052+-0.0270mas(GaiaDR3),
+   G=8.262672+-0.002774(GaiaDR3) => M_G=7.444+-0.003,
+   Mv=8.012(GaiaDR3/synth), M_J=5.515+-0.021(2MASS,GaiaDR3),
+   M_Ks=4.739+-0.017(2MASS,GaiaDR3). Soubiran22 PASTEL entry (unclear
+   if it is for primary for unresolved pair): Teff=4324+-35K,
+   logg=4.83+-0.10, [Fe/H]=-0.03+-0.14.

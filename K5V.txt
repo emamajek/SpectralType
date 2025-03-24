@@ -410,9 +410,9 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (H-Ks)(K5V) =   0.214 ; CNS5_3374_ K5V plx=66.2010mas
 (H-Ks)(K5V) =  0.216 ; ter. stan. GJ 653 = HD 154363 = HIP 83591 ([Fe/H]=-0.55) 
 (H-Ks)(K5V) =   0.217 ; CNS5_4_ K5.0 plx=65.8083mas
-(H-Ks)(K5V) =   0.225 ; HD_175224_ K5Ve+K7Ve plx=81.40mas
+(H-Ks)(K5V) =    0.225 ; HD_175224_ K5Ve+K7Ve plx=81.40mas
 (H-Ks)(K5V) =   0.231 ; CNS5_1361_ K5V plx=77.3499mas
-(H-Ks)(K5V) =   0.307 ; CNS5_2243_ K5 plx=55.7622mas
+(H-Ks)(K5V) =    0.307 ; CNS5_2243_ K5 plx=55.7622mas
 => adopt (H-Ks)(K5V) = 0.133 [updated 3/24/2024]
 
 (J-K)(K5V) = 0.72 ; Bessell88/Glass
@@ -446,6 +446,7 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 (J-Ks)(K5V) =   0.848 ; HD_175224_ K5Ve+K7Ve plx=81.40mas
 (J-Ks)(K5V) =   0.858 ; CNS5_2243_ K5 plx=55.7622mas
 (J-Ks)(K5V) =   0.863 ; CNS5_3374_ K5V plx=66.2010mas
+=> adopt (J-Ks)(K5V) = 0.77 [updated 2/1/2025] 
 
 
 (G-V)(K5V) =  -0.383 ; HD_30523 (K5Vk,Gray06) plx=37.7753mas [Fe/H]=-0.16 (GaiaDR3)
@@ -582,14 +583,15 @@ HIP 25623 (GJ 204 = HD 36003; V=7.7).
 => adopt (g-r)(K5V) = 1.02 [updated 12/20/2024]
 
 (r-i)(K5V) =  -3.627 +-0.005 ; exemplar GJ 718A = HD 171314 ([Fe/H]=+0.13) (SDSS DR7) (discrepent)
+(r-i)(K5V) = 0.337 ; Chonis08 trnsfm SDSS5-Landolt92 for R-Ic=0.57
 (r-i)(K5V) = 0.342 ; Jordi06 Pop I calibration for R-Ic=0.57
 (r-i)(K5V) = 0.356 ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A = HIP 104214 ([Fe/H]=-0.13)
 (r-i)(K5V) = 0.36  ; Kesseli17 
 (r-i)(K5V) = 0.369 ; Bilir05 calibration for R-Ic=0.57
 (r-i)(K5V) = 0.40  ; Covey07
 (r-i)(K5V) = 0.41 (+-0.07 rms) ; Cifuentes20
-(r-i)(K5V) = 0.456 ; exemplar GJ 726 = HD 173818 = HIP 92200 ([Fe/H]=-0.04)
-=> adopt (r-i)(K5V) = 0.37 [updated 6/20/2024]
+(r-i)(K5V) =  0.456 ; exemplar GJ 726 = HD 173818 = HIP 92200 ([Fe/H]=-0.04)
+=> adopt (r-i)(K5V) = 0.35 [updated 3/1/2025]
 
 (i-z)(K5V) = 0.18 ; Kesseli17
 (i-z)(K5V) = 0.20 ; Covey07
@@ -882,8 +884,9 @@ logg(K5V) =  4.70 ; exemplar HD 332518 = HIP 97223 ([Fe/H]=+0.03) (Soubiran22)
 
 GJ 820A = 61 Cyg A = HD 201091 = HIP 104214 = HR 8085 = V1803 Cyg
  *K5V: Lindblad22,Morgan38,MK43,JM53,Morgan53,Keenan53,Morgan65,Abt68,MK73,KeenanMcNeil76(stan),Boeshaar76,Keenan80,Abt81,Keenan85,Corbally86(stan,JM53),Keenan88,Keenan89,Kirkpatrick91(pri),Henry94,Garrison94,GrayAtlas,Henry02
-  K6: Lutyen79
   K5/M0III: Maury1879
+  K6: Lutyen79
+  K8: Morgan37
 
   There seems to be agreement that the star is metal-poor, but the
   degree is somewhat uncertain. The star is somewhat active
@@ -892,7 +895,9 @@ GJ 820A = 61 Cyg A = HD 201091 = HIP 104214 = HR 8085 = V1803 Cyg
   V=5.19 and V=5.27 - indeed this scatter is reflected in the
   Mermilliod compilation of reported Vmags (and here):
   V=5.19(Johnson53;N=4), V=5.19(JohnsonMorgan53;N=4), V=5.20(HIP),
-  V=5.20(Lutz71;N=2), V=5.22(Johnson66/N=9,Johnson68),
+  V=5.20(Lutz71;N=2),
+  V=5.210(Alonso94), 
+  V=5.22(Johnson66/N=9,Johnson68),
   V=5.22(Tolbert65;N=3), V=5.22(Cowley67;N=3), V=5.23(Johnson65;N=1),
   V=5.23(Johnson64;N=1), V=5.234228(GaiaDR3/synth),
   V=5.235(Jennens75;N=1), V=5.230+-0.022(Mermilliod91),
@@ -905,24 +910,34 @@ GJ 820A = 61 Cyg A = HD 201091 = HIP 104214 = HR 8085 = V1803 Cyg
   B-V=1.16(Argue66;N=2), B-V=1.16(Johnson65;N=1),
   B-V=1.16(Johnson64;N=1), B-V=1.164+-0.019(Mermilliod91),
   B-V=1.168(Just08), B-V=1.169(Neckel74;N=1), B-V=1.17(Johnson66;N=9),
-  B-V=1.17(Argue63;N=2), B-V=1.18(Cowley67;N=3), B-V=1.18(Lutz71;N=2),
+  B-V=1.17(Argue63;N=2), B-V=1.18(Alonso94), B-V=1.18(Cowley67;N=3), B-V=1.18(Lutz71;N=2),
   B-V=1.182(Jennens75;N=1), B-V=1.19(Johnson53/N=4,Morgan53),
   B-V=1.19(JohnsonMorgan53;N=4), B-V=1.21(Tolbert65;N=3) => adopt
   (B-V)=1.164+-0.019(Mermilliod91).  U-B=1.09(Argue66;N=2),
   U-B=1.10(Johnson53/N=4,Morgan53), U-B=1.10(JohnsonMorgan53;N=4),
   U-B=1.10(Cowley67;N=3), U-B=1.10(Argue63;N=3), U-B=1.10(Lutz71;N=2),
   U-B=1.109(Jennens75;N=1), U-B=1.11(Johnson66;N=9),
-  U-B=1.11(Johnson64;N=1), U-B=1.11(Johnson65;N=1),
+  U-B=1.11(Johnson64;N=1), U-B=1.11 (Alonso94), U-B=1.11(Johnson65;N=1),
   U-B=1.11(Marlborough64;N=1), U-B=1.113+-0.016(Mermilliod91),
   U-B=1.13(Moreno71;N=9), U-B=1.14(Tolbert65;N=3),
   U-B=1.155(Blanco79;N=16) => adopt U-B=1.11.  V-Rc=0.725(Just08),
-  R-Ic=0.590(Just08), V-Ic=1.315(Just08), V-Ic=1.13+-0.02(HIP),
+  R-Ic=0.590(Just08),
+  V-Ic=1.315(Just08),
+  V-Ic=1.13+-0.02(HIP),
   V-Rj=0.99(Moreno71).  g-r=1.030(Just08), r-i=0.356(Just08). 2MASS is
-  saturated. Alonso96 reports J=3.042+-0.022, H=2.435+-0.017,
-  K=2.320+-0.014. J=3.15(Johnson66), J=3.16(Johnson68),
-  K=2.37(Veeder74), K=2.39(Johnson66), K=2.40(Johnson68). Converting
-  Johnson JK photometry to 2MASS system: Ks=2.377(Johnson68->2MASS via
-  Rieke22).  V-K = 5.234228(GaiaDR3) - 2.377(estimated) = 2.857.
+  saturated. 
+  J=3.042+-0.022(Alonso94), 
+  J=3.15(Johnson66),
+  J=3.16(Johnson68),
+  H=2.435+-0.017(Alonso94),
+  K=2.320+-0.014(Alonso94),
+  K=2.37(Veeder74),
+  K=2.39(Johnson66),
+  K=2.40(Johnson68).
+  Converting
+  Johnson JK photometry to 2MASS system:
+  Ks=2.377(Johnson68->2MASS via
+  Rieke22).  V-Ks = 5.234228(GaiaDR3) - 2.377(estimated) = 2.857.
   Mv=7.49 (using HIP2 plx). PASTEL compendium: <Teff> = 4383K(N=22),
   <logg>=4.50(N=9), <[Fe/H]>=-0.25(N=8). Soubiran22/PASTEL mean
   values: Teff=4441+-37K, logg=4.51+-0.04, [Fe/H]=-0.13+-0.03, however
@@ -996,12 +1011,12 @@ GJ 204 = HD 36003 = HIP 25623 = Wolf 1449 = Lalande 10299 = LHS 1763 = BD-03 111
 GJ 653 = HD 154363 = HIP 83591 = LHS 431 = LHS 431 = LDS 585A = G 19-13 = MCC 787 = PLX 3878 = UGP 424 = Wolf 635 
   K4/5V: Stephenson86,Houk99
  *K5V: Lindblad22,JM53(non-stan),Morgan53,Jaschek64(all),Cowley67,Upgren72,Bidelman85(K5),Houk(standard)
-  K6V: Wilson62
+  K6V: Wilson62(only one in survey classified as such)
   K7V: Walker83
   M0V: Adams26,Vyssotsky56(M0Vp)
 
-  Very metal poor star [Fe/H]=-0.55+-0.05(Soubiran22) which Houk
-  adopted as K5V standard in Michigan spectral survey (the only dwarf
+  Very metal poor ([Fe/H]=-0.55+-0.05;Soubiran22) which Houk adopted
+  as K5V standard in Michigan spectral survey (oddly, the only dwarf
   standard between K2V and M2V) - however their actual survey catalog
   surprisingly lists K4/5V. Notably did not make Keenan's standards
   lists, so I leave it as a tertiary standard - and a pathological one
@@ -1043,7 +1058,12 @@ GJ 653 = HD 154363 = HIP 83591 = LHS 431 = LHS 431 = LDS 585A = G 19-13 = MCC 78
   7.586+-0.027.  PASTEL compendium median values: <Teff> = 4340K(N=9),
   logg=4.3(N=2, large uncertainties), [Fe/H]=-0.62+-0.12(Tasantaki13),
   [Fe/H]=-0.62+-0.04(Sousa08). Soubiran22/PASTEL means:
-  Teff=4369+-26K, logg=4.62+-0.04, [Fe/H]=-0.55+-0.05.  GaiaDR3:
+  Teff=4369+-26K, logg=4.62+-0.04, [Fe/H]=-0.55+-0.05.  Star is
+  somewhat alpha-rich: [a/Fe]=+0.18(Santos-Peral23),
+  [a/Fe]=+0.42(Casagrande11).  Strangely, GaiaDR3 gets [Fe/H]=+0.1498
+  from GSP-Phot/AENEAS, but [Fe/H]=-0.73 and [a/Fe]=+0.34 from
+  GSP-PHOT/MatisseGaugin. Adibekyan12 lists as either thin disk or
+  "transition" (thick/thin).  GaiaDR3:
   plx=95.5670+-0.0241mas(GaiaDR3), G=7.264702+-0.002759(GaiaDR3),
   Bp-Rp=1.463962, Bp-G=0.669800, G-Rp=0.794162.  Bolometric fluxes:
   fbol=(3.87e-10)e-5W/m2(Alonson96) => IAU2015 mbol=7.0332mag;
@@ -1107,19 +1127,32 @@ GJ 69 = HD 10436 = HIP 8070 = LHS 1291 = NLTT 5703 = G 244-33
   V-I=1.34+-0.03(HIP). plx=73.65+-0.98mas(vanLeeuwen07), Mv =
   7.76+-0.03. PASTEL median: <Teff> = 4325K(N=2).
 
-GJ 795 = HD 196795 = HIP 101955 = OQ Del = BD+04 4510 = G 24-23 = Lalande 39866 = LHS 3568 = MCC 821 = NLTT 49643 = WDS J20396+0458AB
- *K4V+K8V: Edwards76
+GJ 795 = HD 196795 = HIP 101955 = Lalande 39866 = OQ Del = BD+04 4510 = G 24-23 = LHS 3568 = MCC 821 = NLTT 49643 = WDS J20396+0458AB
+  K4V+K8V: Edwards76
+ *(K5+K9)+K8: Malogolovets07
   K5V: Cannon(K5),Roman55,Jaschek64(all),Christy69,Keenan83(K5Va),KeenanYorka85(K5Va),Keenan88,Keenan89,Gray03
   K6V: Stephenson86
   K7: Lepine13
   K8: Vyssotsky
+  M0: 1925IAUT....2..117A(stan)
   M0/1V: Houk99
 
-  Houk99 comments that it is an unresolved binary. As this is a ~0.8"
-  ~K4+K8 binary, I demoted this as a K5V standard (or in Henry's
-  parlance, perhaps this should be a "K5VJ" standard?). Remarkably
-  there is K5 continuity from Cannon through Gray (4th brightest K5V
-  star classifed among all Gray survey papers).
+  This star is actually a tight triple -- see
+  Malogolovets07/2007AstBu..62..111M, who presents a detailed study of
+  the system.  Strangely, it appears that this star (Lal 39866/GJ 795)
+  was listed as a M0 standard in the 1925 2nd IAU GA transactions
+  (Adams+ committee on spectral classification), according to Skiff's
+  MK compendium (I haven't seen the article yet as it isn't available
+  online due to copyright issues). The two M0 standards were this
+  dwarf star and bet And (giant). Perhaps one reason the M0 standard
+  situation was a mess from the beginning? Houk99 comments that it is
+  an unresolved binary. As this is a ~0.8" ~K4+K8 binary, I demoted
+  this as a K5V standard (or in Henry's parlance, perhaps this should
+  be a "K5VJ" standard?). Remarkably there is K5 continuity from
+  Cannon through Gray (4th brightest K5V star classifed among all Gray
+  survey papers), however the 1925 IAU work includes "Lalande 39866" -
+  unclear if it is meant to be the unresolved light or just the cool
+  companion that Edwards76 classifies as K8V.
 
 GJ 775 = HD 190007 = HIP 98698 = V1654 Aql = BD+02_4076 
   K2: Cannon

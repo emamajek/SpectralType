@@ -252,7 +252,7 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 
 (J-H)(K7V) = 0.66 ; Bessell88/Glass
 
-(J-H)(K7V) =   0.571 ; CNS5_4068_ K7 plx=59.8674mas
+(J-H)(K7V) =    0.571 ; CNS5_4068_ K7 plx=59.8674mas
 (J-H)(K7V) =   0.590 ; CNS5_5004_ K7V plx=59.4184mas
 (J-H)(K7V) =   0.593 ; CNS5_4280_ K7V plx=129.6459mas
 (J-H)(K7V) =   0.597 ; HD_32450_ K7V plx=119.3399mas
@@ -280,8 +280,8 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 (J-H)(K7V) =   0.677 ; CNS5_1898_ K7V plx=70.9924mas
 (J-H)(K7V) =   0.690 ; CNS5_5218_ K7V plx=286.0054mas
 (J-H)(K7V) =   0.699 ; CNS5_1430_ K7V plx=74.1187mas
-(J-H)(K7V) =   0.903 ; CNS5_2293_ K7V plx=157.8879mas
-=> adopt (J-H)(K7V) = 0.620 [updated 3/24/2024]
+(J-H)(K7V) =    0.903 ; CNS5_2293_ K7V plx=157.8879mas
+=> adopt (J-H)(K7V) = 0.63 [updated 2/1/2025] (J-Ks=0.80, H-Ks=0.17)
 
 (H-K)(K7V) = 0.13 ; Bessell88/Glass
 
@@ -315,7 +315,7 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 (H-Ks)(K7V) =   0.253 ; HD_32450_ K7V plx=119.3399mas
 (H-Ks)(K7V) =   0.266 ; CNS5_238_ K7Ve plx=168.7186mas
 (H-Ks)(K7V) =    0.540 ; CNS5_5218_ K7V plx=286.0054mas
-=> adopt (H-Ks)(K7V) = 0.165 [updated 3/24/2024]
+=> adopt (H-Ks)(K7V) = 0.17 [updated 2/1/2025] (J-Ks=0.80, J-H=0.63) 
 
 (J-K)(K7V) = 0.79 ; Bessell88/Glass
 
@@ -347,6 +347,7 @@ trend for 4 stans + Gray field assuming [Fe/H]=-0.04: (V-Ic)(K7V) = 1.570 + 0.04
 (J-Ks)(K7V) =   0.900 ; CNS5_2293_ K7V plx=157.8879mas
 (J-Ks)(K7V) =   0.910 ; CNS5_652_ K7V plx=86.6124mas
 (J-Ks)(K7V) =    1.230 ; CNS5_5218_ K7V plx=286.0054mas
+=> adopt (J-Ks)(K7V) = 0.80 [updated 2/1/2025] (J-H=0.63, H-Ks=0.17) 
 
 
 (Ks-W1)(K7V) = 0.091 ; Bentley19
@@ -554,6 +555,7 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 (r-i)(K7V) = 0.459 ; sec. stan. GJ 673 = HD 157881 ([Fe/H]=+0.28) (Just08) SDSS
 (r-i)(K7V) = 0.47  ; Kesseli17 
 (r-i)(K7V) = 0.476 ; exemplar GJ 773 = HD 188807 (Just08)
+(r-i)(K7V) = 0.497 ; Chonis08 trnsfm SDSS5-Landolt92 for R-Ic=0.74
 (r-i)(K7V) = 0.500 ; exemplar GJ 532 = HD 234078 (Just08) ([Fe/H]=+0.15)
 (r-i)(K7V) = 0.500 ; ter. stan GJ 265A = HIP 34222 (Just08) ([Fe/H]~-0.1)
 (r-i)(K7V) = 0.510 ; Jordi06 Pop I calib for R-Ic=0.74
@@ -587,10 +589,10 @@ Note: 61 Cyg B appears to have colors close to the median for the standards
 (r-i)(K7V) =  1.043 ; GJ_414_A_ plx=84.18mas K7V
 (r-i)(K7V) =  1.232 ; GJ_185_ plx=119.34mas K7V
 (r-i)(K7V) =  1.286 ; GJ_673_ plx=129.65mas K7V
-=> adopt (r-i)(K7V) = 0.51 [updated 6/20/2024]
+=> adopt (r-i)(K7V) = 0.50 [updated 3/1/2025]
 [EEM 4/7/2024: odd distribution, most standards and exemplars are ~0.36-0.53, but
 most nearby K7Vs in SIMBAD are ~0.8-1.3. I weight the standards more. Or might there
-be a systematic issue with the Just08 r-i colors? 12/20/2024: apparently due to differences
+be a systematic issue with the Just08 r-i colors? 12/20/2024: issue is apparently due to differences
 between APASS ri and SDSS ri]
 
 (i-z)(K7V) = 0.28 ; Kesseli17 
@@ -669,6 +671,7 @@ M_G(K7V) =   7.59 ; CNS5_1898_ K7V plx=70.9924mas (GaiaDR3)
 M_G(K7V) =   7.59 ; CNS5_3411_ K7V plx=68.582mas (GaiaDR3)
 M_G(K7V) =   7.59 ; HD_61606B_ plx=70.9924mas (K7V, Gray03) (GaiaDR3) ([Fe/H]=0.00 for "A")
 M_G(K7V) =   7.60 ; HD_120036B_ plx=68.582mas (K7-V, Gray06) (GaiaDR3) ([Fe/H]=-0.03 for "A")
+M_G(K7V) =  7.60 (+-0.10sem,+-0.26stdev) ; Kirkpatrick24 median d<20pc K7 optical types (N=35) 
 M_G(K7V) =  7.61  ; ter. stan. GJ 748.2A = GJ 9651A = HIP 94590A plx=37.2395mas K7V (GaiaDR3)
 M_G(K7V) =   7.67 ; CNS5_5921_ K7V plx=58.4067mas (GaiaDR3)
 M_G(K7V) =  7.730 (+-0.089 sem,+-0.334 stdev) ; SIMBAD nearest K7Vs (N=29) (12/20/2024) 
@@ -868,6 +871,7 @@ GJ 820B = 61 Cyg B = HD 201092 = HR 8086 = LHS 63 = HIP 104217 = Gaia DR3 187204
  *K7V: JM53(stan),Morgan53,1967PDAO...13...47Y,Abt68,MK73,Boeshaar76,KeenanMcNeil76(stan),Keenan80,Abt81,KeenanYorka85(stan),Corbally86(stan,JM53),Keenan88,Keenan89,Kirkpatrick91(pri),Henry94,GrayAtlas,Henry02,Gray03,Reid04
   K7.3: Mann15
   K8V: Lindblad34
+  K9: Morgan37
   M0V: Adams26,Joy74
   M0.5:V: Alonso-Floriano15
   M1/3V: Lindblad22
@@ -880,43 +884,72 @@ GJ 820B = 61 Cyg B = HD 201092 = HR 8086 = LHS 63 = HIP 104217 = Gaia DR3 187204
   (tetLD(B)=1.581+-0.022mas => Rad(B)=0.595+-0.008Rsun) and models
   them with evolutionary age 6 Gyr. Unclear why Hawley97 considered
   this K7V standard star a K5V?  plx=286.0054+-0.0289mas(GaiaDR3).
-  V=6.02(Johnson53,Cowley67), V=6.03(Johnson66,N=9;Hoffleit91/BSC),
-  V=6.03(Lutz71), V=6.04(Tolbert65), V=6.05(HIP),
-  V=6.05(Haeggkvist70), V=6.055+-0.024(Mermillod91),
-  V=6.060606(GaiaDR3,synth), V=6.07(Moreno71,N=9), V=6.07(Argue63),
-  V=6.088(Moffet79,N=12), V=6.091(Blanco79,N=12) => adopt
-  V=6.055(Mermilliod91).  B-V=1.168(Just08), B-V=1.309+-0.012(HIP),
+  V=6.02(Johnson53,Cowley67),
+  V=6.03(Johnson66,N=9;Hoffleit91/BSC),
+  V=6.03(Lutz71),
+  V=6.03(Alonso94), 
+  V=6.04(Tolbert65),
+  V=6.05(HIP),
+  V=6.05(Haeggkvist70),
+  V=6.055+-0.024(Mermillod91),
+  V=6.060606(GaiaDR3,synth),
+  V=6.07(Moreno71,N=9),
+  V=6.07(Argue63),
+  V=6.088(Moffet79,N=12),
+  V=6.091(Blanco79,N=12) => adopt V=6.055(Mermilliod91).
+  B-V=1.168(Just08), B-V=1.309+-0.012(HIP),
   B-V=1.319(Moffet79,N=12), B-V=1.320(Blanco79,N=12),
   B-V=1.32(Moreno71,N=9), B-V=1.35(Argue63),
   B-V=1.354+-0.024(Mermilliod91), B-V=1.363(Haeggkvist70),
-  B-V=1.37(Johnson66,N=9;BSC/Hoffleit91), B-V=1.37(Lutz71),
+  B-V=1.37(Johnson66,N=9;BSC/Hoffleit91),
+  B-V=1.37(Alonso94), B-V=1.37(Lutz71),
   B-V=1.38(Johnson53,Cowley67), B-V=1.38(Tolbert65) => adopt
   B-V=1.354(Mermilliod91).  U-B=1.21(Lutz71),
   U-B=1.23(Johnson53,Cowley67),
-  U-B=1.23(Johnson66,N=9;Hoffleit91/BSC), U-B=1.23(Argue63),
-  U-B=1.23(Haeggkvist70), U-B=1.23(Moreno71,N=9),
+  U-B=1.23(Johnson66,N=9;Hoffleit91/BSC),
+  U-B=1.23(Argue63),
+  U-B=1.23(Haeggkvist70),
+  U-B=1.23(Alonso94), 
+  U-B=1.23(Moreno71,N=9),
   U-B=1.231+-0.006(Mermilliod91), U-B=1.24(Tolbert65),
   U-B=1.242(Blanco79,N=12) => adopt U-B=1.231(Mermilliod91).
-  Rj=4.86(Johnson66), Rc=5.201(Johnson66=>Cousins via Fernie83),
+  Rj=4.86(Johnson66),
+  Rc=5.201(Johnson66=>Cousins via Fernie83),
+  R=5.27(GCPD,Kron system).
   V-Rj=1.17(Johnson66), V-Rc=0.725(Just08),
   V-Rc=0.829(Johnson66=>Cousins vai Fernie83), R-Ic=0.590(Just08),
-  R-Ij=0.83(BSC/Hoffleit91), R-Ic=0.73(Johnson66=>Cousins via
-  Fernie83), Ij=4.03(Johnson66), Ic=4.471(Johnson66=>Cousins via
-  Fernie83), V-Ij=2.00(Johnson66), V-Ic=1.27+-0.01(HIP),
-  V-Ic=1.315(Just08), V-Ic=1.559(Johnson66=>Cousins via Fernie83),
-  Ic=4.427777(GaiaDR3,synth), V-Ic=1.633 (note large discrepency
-  between V-I values?).  g-r=1.030(Just08), r-i=0.356(Just08). Mv=8.33
-  (calc with HIP2 plx).  I=4.67(GCPD,Kron system), R=5.27(GCPD,Kron
-  system).  Johnson(V=6.05,R=4.88,V-R=1.17) => converted to Cousins
+  R-Ij=0.83(BSC/Hoffleit91),
+  R-Ic=0.73(Johnson66=>Cousins via
+  Fernie83),
+  Ij=4.03(Johnson66),
+  Ic=4.471(Johnson66=>Cousins via Fernie83),
+  Ic=4.427777(GaiaDR3,synth),
+  I=4.67(GCPD,Kron system),
+  V-Ij=2.00(Johnson66),
+  V-Ic=1.27+-0.01(HIP),
+  V-Ic=1.315(Just08),
+  V-Ic=1.559(Johnson66=>Cousins via Fernie83),
+  V-Ic=1.633 (note large discrepency between V-I values?).
+  g-r=1.030(Just08),
+  r-i=0.356(Just08).
+  Too bright
+  for 2MASS (+-0.3 mag errors).  
+  J=3.470+-0.020(Alonso94), 
+  H=2.837+-0.015(Alonso94), ,
+  K=2.680+-0.017(Alonso94), .
+  
+  
+  Johnson(V=6.05,R=4.88,V-R=1.17) => converted to Cousins
   via Fernie83 => (V-Rc)=0.829, Rc=5.221.
   Johnson(V=6.055,I=4.055,V-I=2.00) => converted to Cousins via
   Fernie83 => (V-Ic)=1.957, Ic=4.593.  V-Jj=2.48(Johnson66),
   Jj=3.55(Johnson66), V-Kj=2.30(Johnson66), Kj=2.73(Johnson66),
   V-Lj=3.39(Johnson66).  Converting JK Johnson mags to 2MASS following
-  Rieke22 => Ks=2.709 => (V-Ks) = 6.055 - 2.709 = 3.346.  Too bright
-  for 2MASS (+-0.3 mag errors).  Alonso96 reports near-IR photometry:
-  J=3.470+-0.020, H=2.837+-0.015, K=2.68+-0.017. V-K = 6.055 - 2.68 =
-  3.375.  SIMBAD reports from vanBelle09 K=2.32+-0.05, but this leads
+  Rieke22 => Ks=2.709 => (V-Ks) = 6.055 - 2.709 = 3.346.
+  Mv=8.33 (calc with HIP2 plx).
+  
+
+  SIMBAD reports from vanBelle09 K=2.32+-0.05, but this leads
   to V-K=3.735, way too red for K7V. The V-I color is 0.3 mags bluer
   than the median color for the 30 Gray01/03/06 K7V stars.  Mass: 0.64
   Msun(Wright11). Radius: 0.55 Rsun(Wright11).  Teffs:

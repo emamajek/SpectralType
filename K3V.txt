@@ -4,7 +4,7 @@ Garrison94 does not list a K3V anchor standard, nor does MK73 list a
 K3V dagger standard. Pecaut16 shows that Michigan/Houk K3Vs map well
 to the K3Vs from the NStars surveys by Gray03/06.
 
-MK43 standards:         HD 219134 (=GJ 892 = HR 8832) - K3V
+MK43 standards:         HD 219134 (=GJ 892 = HR 8832 = "S 7259") - K3V
 JM53 standards:         HD 219134 (=GJ 892) - K3V
                         HD 110463 (=GJ 3743) - K3V
                         HD 128165 (=GJ 556) - K3V
@@ -402,15 +402,16 @@ trend for standards:           (G-V)(K3V) = -0.312 + 0.0948*[Fe/H] (rms=0.029)]
 (g-r)(K3V) = 0.861 ; Bilir05 (B-V)=>(g-r) for B-V=0.990
 => adopt (g-r)(K3V) = 0.84 [updated 9/24/2024]
 
-(r-i)(K3V) = 0.22  ; Kesseli17 
+(r-i)(K3V) =  0.22  ; Kesseli17 
 (r-i)(K3V) = 0.223 ; sec. stan. HD 110463 ([Fe/H]=0.00)
 (r-i)(K3V) = 0.249 ; pri. stan. HD_219134 plx=152.8640 ([Fe/H]=+0.06)
 (r-i)(K3V) = 0.253 ; Jordi06 Pop I calibration for R-Ic=0.480
+(r-i)(K3V) = 0.253 ; Chonis08 SDSS5-Landolt92 calib for R-Ic=0.48
 (r-i)(K3V) = 0.260 ; exemplar HD 82106 = GJ 349 ([Fe/H]=+0.01) (Just08)
 (r-i)(K3V) = 0.272 (+-0.003 sem,+-0.027 stdev) ; Pickles10 fitted r-i for N=60 Gray03/06 K3Vs
 (r-i)(K3V) = 0.276 ; Bilir05 calibration for R-Ic=0.480
-(r-i)(K3V) = 0.32  ; Covey07
-=> adopt (r-i)(K3V)= 0.25 [updated 6/20/2024]
+(r-i)(K3V) =  0.32  ; Covey07
+=> adopt (r-i)(K3V)= 0.253 [updated 3/1/2025]
 
 (i-z)(K3V) = 0.10  ; Kesseli17
 (i-z)(K3V) = 0.124 (+-0.001 sem, +-0.014 stdev); Pickles10 fitted i-z for N=60 Gray03/06 K3Vs
@@ -946,16 +947,18 @@ HD 16160 = GJ 105A = HR 753 = HIP 12114
   5.40-5.45), and their low estimate appears to result in a lower
   luminosity and unusually lower derived Teff (4583+-76K). BCv = mbol
   - V = 5.5089+-0.0664(Soubiran24) - 5.823+-0.010(Mermilliod91) =
-  -0.314+-0.067(Soubiran24+Mermilliod91).  Soubiran22/PASTEL means: Teff=4870+-24K,
-  logg=4.57+-0.03, [Fe/H]=-0.13+-0.02.  plx = 139.27+-0.45mas(HIP2),
-  plx=138.3400+-0.3177mas(GaiaDR3), plx=138.2084+-0.1436mas(GaiaDR2)
-  => D=7.23393+-0.00751pc(w/plx offset from Lindegren18).  There are
-  at least three published diameters for GJ105A, but somewhat
-  discrepent (although first two have large uncertainties):
-  tetLD=0.914+-0.07mas(7.7% err; Lane01), tetLD=0.838+-0.069mas(8.2%
-  err; vanBelle09, but their analysis assumes unrealistic
-  Av=0.065+-0.014), tetLD=1.030+-0.007mas(0.007% err;
-  Boyajian12). Combining the most recent interferometric diameter
+  -0.314+-0.067(Soubiran24+Mermilliod91).  Soubiran22/PASTEL means:
+  Teff=4870+-24K, logg=4.57+-0.03, [Fe/H]=-0.13+-0.02. A recent
+  analysis of H-band spectra by Olander25 gets a much cooler Teff:
+  Teff=4607+-93K, logg=4.960+-0.150, [Fe/H]=+0.02+-0.06.
+  plx=139.27+-0.45mas(HIP2), plx=138.3400+-0.3177mas(GaiaDR3),
+  plx=138.2084+-0.1436mas(GaiaDR2) => D=7.23393+-0.00751pc(w/plx
+  offset from Lindegren18).  There are at least three published
+  diameters for GJ105A, but somewhat discrepent (although first two
+  have large uncertainties): tetLD=0.914+-0.07mas(7.7% err; Lane01),
+  tetLD=0.838+-0.069mas(8.2% err; vanBelle09, but their analysis
+  assumes unrealistic Av=0.065+-0.014), tetLD=1.030+-0.007mas(0.007%
+  err; Boyajian12). Combining the most recent interferometric diameter
   result (and with smallest errors) and most recent Gaia parallax:
   tetLD=1.030+-0.007mas(Boyajian12) & plx(GaiaDR3) =>
   R=0.8005+-0.0057Rsun.  Calculating luminosity from measured radius
