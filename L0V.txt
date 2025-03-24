@@ -67,6 +67,7 @@ Teff(L0V) =  2244 K ; exemplar 2MASSI J0239424-173547 (see below)
 Teff(L0V) =  2238 K ; Kirkpatrick20 Table 13 polynomial
 Teff(L0V) =  2234 K ; Stephens09
 Teff(L0V) =  2212 K ; exemplar 2MASS J23312938+1552228 (see below)
+Teff(L0V) =  2190 (+-30sem,+-135stdev) K ; Kirkpatrick24 median d<20pc L0 opt types (N=7)
 Teff(L0V) =  2134 K ; sec. stan. 2MASS J17312974+2721233 (see below)
 Teff(L0V) =  2195 +-172K ; Cifuentes23
 Teff(L0V) =  2170 K ; Kirkpatrick21 (median for L0 optical types; N=4)
@@ -131,9 +132,9 @@ Teff(L0V) =  2170 K ; Kirkpatrick21 (median for L0 optical types; N=4)
 (J-H)(L0V) =  0.760 (+-0.039sem,+-0.051 stdev) ; Best18 d<25pc sample L0V median (N=9)
 (J-H)(L0V) =   0.766 ; 2MASS_J00100009-2031122_ plx=35.6578mas L0
 (J-H)(L0V) =  0.766 +-0.047 ; exemplar 2MASSI J0239424-173547  
-(J-H)(L0V) = 0.77 ; J-Ks=1.29, H-Ks=0.52 (12/20/2024) 
 (J-H)(L0V) =  0.77 (+-0.06 rms) ; West08
 (J-H)(L0V) =   0.775 ; 2MASS_J06142970+3833415_ plx=39.6015mas L0V
+(J-H)(L0V) = 0.78 ; J-Ks=1.29, H-Ks=0.51 (3/1/2025) 
 (J-H)(L0V) =  0.786 +-0.040 ; pri. stan. 2MASS_J03454316+2540233_ plx=37.8948mas L0V
 (J-H)(L0V) =   0.791 ; 2MASS_J15485834-1636018_ plx=37.5348mas L0
 (J-H)(L0V) =  0.798 +-0.045 ; exemplar 2MASS J23101846-1759090
@@ -143,7 +144,7 @@ Teff(L0V) =  2170 K ; Kirkpatrick21 (median for L0 optical types; N=4)
 (J-H)(L0V) =   0.843 (+-0.033 sem,+-0.046 stdev) ; N=2 L0V Cruz03
 (J-H)(L0V) =  0.861 +-0.055 ; exemplar 2MASS J23312938+1552228 plx=24.9108mas
 (J-H)(L0V) =   0.872 ; 2MASS_J15525906+2948485_ plx=48.9042mas L0e
-=> adopt (J-H)(L0V) = 0.77 [updated 12/20/2024] (J-Ks=1.29, H-Ks=0.52) 
+=> adopt (J-H)(L0V) = 0.78 [updated 3/1/2025] (J-Ks=1.29, H-Ks=0.51) 
 
 (H-Ks)(L0V) =  0.196 +-0.077 ; exemplar 2MASS J23312938+1552228 plx=24.9108mas (why so blue?; note Qflg=AAA)
 (H-Ks)(L0V) =   0.457 ; 2MASS_J09111297+7401081_ plx=40.2322mas L0
@@ -162,11 +163,11 @@ Teff(L0V) =  2170 K ; Kirkpatrick21 (median for L0 optical types; N=4)
 (H-Ks)(L0V) =   0.504 ; 2MASS_J06521977-2534505_ plx=62.2553mas L0.0
 (H-Ks)(L0V) =  0.505 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
 (H-Ks)(L0V) =   0.509 ; 2MASS_J07193188-5051410_ plx=36.1689mas L0
-(H-Ks)(L0V) =  0.51  (+-0.10 rms) ; Zhang09 
+(H-Ks)(L0V) =  0.51  (+-0.10 rms) ; Zhang09
+(H-Ks)(L0V) = 0.51 ; J-Ks=1.29, J-H=0.78 (3/1/2025)
+(H-Ks)(L0V) =  0.514 ; smoothed trend M9V-L9.5V 3/1/2025
 (H-Ks)(L0V) =   0.519 ; 2MASS_J17565620-4805096_ plx=47.3127mas L0.0
 (H-Ks)(L0V) =  0.519 ; trend of Dieterich14 for V-Ks=9.45
-(H-Ks)(L0V) = 0.52 ; J-Ks=1.29, J-H=0.77 (12/20/2024)
-(H-Ks)(L0V) =  0.521 ; smoothed trend M9V-L9.5V (rms=0.058mag; 11/4/2024)
 (H-Ks)(L0V) =  0.539 +-0.038 ; pri. stan. 2MASS_J03454316+2540233_ plx=37.8948mas L0V
 (H-Ks)(L0V) =  0.539 (+-0.001 sem,+-0.004 stdev) ; N=2 L0V Cruz03
 (H-Ks)(L0V) =   0.553 ; 2MASS_J22431696-5932206_ plx=36.9075mas L0::
@@ -175,7 +176,7 @@ Teff(L0V) =  2170 K ; Kirkpatrick21 (median for L0 optical types; N=4)
 (H-Ks)(L0V) =   0.584 ; 2MASS_J15525906+2948485_ plx=48.9042mas L0e
 (H-Ks)(L0V) =  0.585 +-0.042 ; exemplar 2MASS J03140344+1603056 (UMa? [Fe/H]~0.0, 0.5Gyr?)
 (H-Ks)(L0V) =  0.609 +-0.041 ; exemplar 2MASS J23101846-1759090  
-=> adopt (H-Ks)(L0V) = 0.52 [updated 12/20/2024] (J-Ks=1.29, J-H=0.77)
+=> adopt (H-Ks)(L0V) = 0.51 [updated 3/1/2025] (J-Ks=1.29, J-H=0.78)
 
 (J-Ks)(L0V) =   1.057 +-0.079 ; exemplar 2MASS J23312938+1552228 plx=24.9108mas
 (J-Ks)(L0V) =   1.12 ; dalPonte23 
@@ -198,7 +199,7 @@ Teff(L0V) =  2170 K ; Kirkpatrick21 (median for L0 optical types; N=4)
 (J-Ks)(L0V) =   1.285 ; Cruz18 median J-Ks for N=12 field gravity L0s
 (J-Ks)(L0V) =   1.288 +-0.032 ; exemplar 2MASS J03140344+1603056 (UMa? [Fe/H]~0.0, 0.5Gyr?)
 (J-Ks)(L0V) =  1.290 (+-0.033 sem,+-0.095 stdev) ; BardalezGagliuffi19 median L0.0s (N=19, d<25pc)
-(J-Ks)(L0V) = 1.29 ; H-Ks=0.52, J-H=0.77 (12/20/2024) 
+(J-Ks)(L0V) = 1.29 ; H-Ks=0.51, J-H=0.78 (3/1/2025) 
 (J-Ks)(L0V) =  1.290 (+-0.037 sem,+-0.085 stdev) ; Best18 d<25pc sample L0V median (N=9)
 (J-Ks)(L0V) =    1.303 ; 2MASS_J12043036+3212595_ plx=41.2279mas L0e
 (J-Ks)(L0V) =  1.302 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
@@ -211,7 +212,7 @@ Teff(L0V) =  2170 K ; Kirkpatrick21 (median for L0 optical types; N=4)
 (J-Ks)(L0V) =   1.382 (+-0.032 sem,+-0.045 stdev) ; N=2 L0V Cruz03
 (J-Ks)(L0V) =   1.407 +-0.041 ; exemplar 2MASS J23101846-1759090 
 (J-Ks)(L0V) =    1.456 ; 2MASS_J15525906+2948485_ plx=48.9042mas L0e
-=> adopt (J-Ks)(L0V) = 1.29 [updated 12/20/2024] (H-Ks=0.52, J-H=0.77)
+=> adopt (J-Ks)(L0V) = 1.29 [updated 3/1/2025] (H-Ks=0.51, J-H=0.78)
 
 [EEM: an illustrative plot of the trends in J-Ks color versus gravity
 types for L dwarfs is shown in Fig. 4 of Cruz18/2018AJ....155...34C]
@@ -1160,6 +1161,14 @@ G 239-25B = GJ 9492B = GKI 4B = WDS J14424+6603B = Gaia DR3 1669449084967072000
   (6.491+-0.024), I get Ks(A)=6.527+-0.024, Ks(B)=10.217+-0.068.
   Adopting del(K)=3.839+-0.074 from Forvielle04, I get
   Ks(A)=6.522+-0.024, Ks(B)=10.361+-0.078.
+
+2MASS J04300360+4118362 = GJ 10621 = CNS5 1114 = WISEA J043003.54+411835.0 = Gaia DR3 180116295441149824 	 
+  L0: Kirkpatrick24
+
+  Low proper motion (pm=129mas/yr) nearby (d=19.8pc) L dwarf, with
+  spectral type first reported in Kirkpatrick24. GaiaDR3:
+  plx=50.5539+-0.1927mas(GaiaDR3). Mass=0.0780+-0.0020Msun(Kirkpatrick24/M_Ks)
+
   
 # General Notes on L Dwarfs 
 
@@ -1332,3 +1341,11 @@ Fit for 509 L dwarfs within 50pc in SIMBAD (12/1/2024; linear trends fits very w
 Fit for 455 L dwarfs within 50pc in SIMBAD - removing "pec"/"bet"/"gam" types
 (12/1/2024; linear trend fits very well)
 (G-J) = 4.0836614536103806e0 + 6.0322358184468905e-1*(J-Ks) (rms=0.168mag) (0.98<J-Ks<2.38)
+
+# SpT vs (H-Ks)(2MASS)
+
+The H-Ks color data for L dwarfs is well fit by a trinomial (M9V-L9.5V), where SpT = L-subtype
+(M9=-1, L0=0, L9.5=9.5):
+
+(H-Ks) = 5.1402617633747283e-1 + 4.2484647081383393e-2*SpT - 1.0748001941294025e-3*SpT^2 - 2.4921673891225080e-4*SpT^3 (rms = 0.068mag)
+

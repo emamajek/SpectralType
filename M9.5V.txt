@@ -6,6 +6,13 @@ Kirkpatrick99 study defining the L dwarf types assigned M9.5V to BRI 0021-0214 (
 
 ReinersBasri09 finds that the mean kinematic age of nearby M7-M9.5 stars is 3.1 Gyr. 
 
+(V-Ks)(M9.5V) =  9.31 ; LEHPM1-0494B (Dieterich14)
+(V-Ks)(M9.5V) =  9.29 ; smoothed fit to Dieterich SpT vs V-Ks
+(V-Ks)(M9.5V) =  9.29 ; trend fit to Dahn17 for M9.5V
+(V-Ks)(M9.5V) =  9.27 ; pri. stan. BRI 0021-0214 (Dieterich14)
+=> adopt (V-Ks)(M9.5V) = 9.30 [updated 8/17/2020]
+
+
 (V-Rc)(M9.5V) =  2.098 ; LP 647-013 (RECONS)
 (V-Rc)(M9.5V) =  2.42  ; NLTT 01261 (RECONS, Leggett01)
 (V-Rc)(M9.5V) =  2.51  ; pri. stan. BRI 0021-0214 (see below)
@@ -43,17 +50,13 @@ ReinersBasri09 finds that the mean kinematic age of nearby M7-M9.5 stars is 3.1 
 (G-V)(M9.5V) = -3.10   ; trinomial trend through late Ms
 => adopt (G-V)(M9.5V) = -3.10 [updated 12/10/2018]
 
-(V-Ks)(M9.5V) = 9.31 ; LEHPM1-0494B (Dieterich14)
-(V-Ks)(M9.5V) = 9.29 ; smoothed fit to Dieterich SpT vs V-Ks
-(V-Ks)(M9.5V) = 9.29 ; trend fit to Dahn17 for M9.5V
-(V-Ks)(M9.5V) = 9.27 ; pri. stan. BRI 0021-0214 (Dieterich14)
-=> adopt (V-Ks)(M9.5V) = 9.30 [updated 8/17/2020]
 
 (G-Ks)(M9.5V) =  5.796 ; exemplar G 216-7B = 2MASS J22373255+3922398
 (G-Ks)(M9.5V) =  5.845 ; exemplar WISE J072003.20-084651.2 = Scholz's Star
 (G-Ks)(M9.5V) =  5.915 ; exemplar 2MASSW J0109216+294925
 (G-Ks)(M9.5V) = 5.96   ; M_G=16.44, M_Ks=10.48
-(G-Ks)(M9.5V) =  6.008 ; exemplar 2MASS J22341394+2359559 
+(G-Ks)(M9.5V) =  6.008 ; exemplar 2MASS J22341394+2359559
+(G-Ks)(M9.5V) =  6.008 +-0.115 ; exemplar PC 0025+0447 = 2MASS J00274197+0503417
 (G-Ks)(M9.5V) =  6.01  ; interp M9V(5.90)-L0V(6.12)
 (G-Ks)(M9.5V) =  6.057 ; pri. stan. BRI 0021-0214
 => adopt (G-Ks)(M9.5V) = 5.96 [updated 12/27/2021]
@@ -108,7 +111,7 @@ ReinersBasri09 finds that the mean kinematic age of nearby M7-M9.5 stars is 3.1 
 (H-Ks)(M9.5V) =   0.469 ; LP_944-20_ M9.5Ve plx=155.5982mas
 (H-Ks)(M9.5V) =   0.477 ; 2MASSW_J0109216+294925_ M9.5 plx=63.0080mas
 (H-Ks)(M9.5V) =  0.487 ; trend SIMBAD d<30pc M9-L dwarfs
-(H-Ks)(M9.5V) = 0.500 ; smoothed trend M9V-L9.5V 11/1/2024
+(H-Ks)(M9.5V) = 0.493 ; smoothed trend M9V-L9.5V 3/1/2025
 (H-Ks)(M9.5V) = 0.50  ; J-Ks=1.25, J-H=0.75 (11/1/2024) 
 (H-Ks)(M9.5V) =   0.503 ; 2MASS_J04291099-6649434_ M9.5 plx=30.5796mas
 (H-Ks)(M9.5V) =   0.505 ; trend of Dieterich14 data for V-Ks=9.3
@@ -166,19 +169,21 @@ Mv(M9.5V) =  19.83 ; Dieterich14 calib V-Ks=9.30
 => adopt M_G(M9.5V)  = 16.44 [updated 12/27/2021; M_Ks=10.48, G-Ks=5.96]
 => adopt M_Ks(M9.5V) = 10.48 [updated 12/27/2021; V-Ks=9.3, Mv=19.78]
 
-M_G(M9.5V) =  16.11 ; pri. stan. BRI 0021-0214 = V* DY Psc
-M_G(M9.5V) =  16.12 ; exemplar PC 0025+0447 (large uncertainty +-0.17)
-M_G(M9.5V) = 16.13 ; trend for d<20pc late Ms/early Ls
-M_G(M9.5V) =  16.16 ; exemplar WISE J072003.20-084651.2 = Scholz's Star      
-M_G(M9.5V) =  16.36 ; exemplar G 216-7B = 2MASS J22373255+3922398
-M_G(M9.5V) = 16.42 ; trend SIMBAD d<10pc sample
-M_G(M9.5V) = 16.44 ; (G-Ks)=5.96, M_Ks=10.48
-M_G(M9.5V) = 16.44 ; median for the d<20pc M9.5Vs in SIMBAD
-M_G(M9.5V) =  16.51 ; 2MASS J22341394+2359559       
-M_G(M9.5V) =  16.59 ; 2MASSW J0109216+294925
+M_G(M9.5V) =  16.11 ; pri. stan. BRI 0021-0214 = V* DY Psc (GaiaDR2) 
+M_G(M9.5V) =  16.12 ; exemplar PC 0025+0447 (large uncertainty +-0.17) (GaiaDR2) 
+M_G(M9.5V) = 16.13 ; trend for d<20pc late Ms/early Ls (GaiaDR2) 
+M_G(M9.5V) =  16.16 ; exemplar WISE J072003.20-084651.2 = Scholz's Star  (GaiaDR2)      
+M_G(M9.5V) =  16.36 ; exemplar G 216-7B = 2MASS J22373255+3922398 (GaiaDR2) 
+M_G(M9.5V) = 16.42 ; trend SIMBAD d<10pc sample (GaiaDR2) 
+M_G(M9.5V) = 16.44 ; (G-Ks)=5.96, M_Ks=10.48 (GaiaDR2) 
+M_G(M9.5V) = 16.44 ; median for the d<20pc M9.5Vs in SIMBAD (GaiaDR2) 
+M_G(M9.5V) =  16.51 ; 2MASS J22341394+2359559  (GaiaDR2)       
+M_G(M9.5V) =  16.59 ; 2MASSW J0109216+294925 (GaiaDR2) 
 
 Note that the standard & exemplars have trend:
-M_G = 9.0557 + 0.70024*M_Ks (rms = 0.098 mag)
+M_G = 9.0557 + 0.70024*M_Ks (rms = 0.098 mag)   (GaiaDR2)
+
+M_G(M9.5V) = 16.47 (+-0.15sem,+-0.26stdev) ; Kirkpatrick24 median d<20pc M9.5 optical types (N=6) (GaiaDR3) 
 
 M_J(M9.5V) =   11.050 ; 2MASS_J11592585-3634495_ M9.5 plx=50.0997mas
 M_J(M9.5V) =   11.491 ; NAME_Scholz's_star_ M9.5+T5 plx=148.8mas
@@ -252,8 +257,9 @@ Rad(M9.5V) = 0.0987 Rsun ; Teff=2350K, logL=-3.572
 Rad(M9.5V) = 0.1031 (+-0.0048 stdev) ; median N=13 M9.5s d<25pc in Sebastian21/SPECULOOS 
 => adopt Rad(M9.5V) = 0.099 Rsun [updated 11/3/2019]
 
-Mass(M9.5V) =  0.0773+-0.0048 Msun ; LHS1070B (81+-5Mjup; Kohler12)
+Mass(M9.5V) =  0.0773 +-0.0048 Msun ; LHS1070B (81+-5Mjup; Kohler12)
 Mass(M9.5V) = 0.0777 Msun ; Mann18 calib. for M_Ks=10.50
+Mass(M9.5V) = 0.0790 (+-0.002sem,+-0.0052stdev) ; Kirkpatrick24 median d<20pc M9.5 opt types (N=7)
 Mass(M9.5V) =  0.08 Msun ; same value for all N=13 M9.5s d<25pc in Sebastian21/SPECULOOS 
 => adopt Mass(M9.5V) = 0.078 Msun [updated 11/15/2021]
 
@@ -320,11 +326,13 @@ BRI 0021-0214 = DY Psc = 2MASS J00242463-0158201 = NLTT 1261 = LP 585-86 = WDS J
 
 # Exemplars
 
-PC 0025+0447 = 2MASS J00274197+0503417  
- *M9.5V: Kirkpatrick92(M9.5pecV),Kirkpatrick93(M9.5e),Kirkpatrick95("tenative classification"),Kirkpatrick99(M9.5V(pec),footnote#8),Gagne14(optical)
+PC 0025+0447 = 2MASS J00274197+0503417 = TIC 257203355 = Gaia DR3 2555109373337132032
+  M8beta: Faherty16
   M9:: Graham92
   M9{gamma}: Gagne15("low-gravity")
+ *M9.5V: Kirkpatrick92(M9.5pecV),Kirkpatrick93(M9.5e),Kirkpatrick95("tenative classification"),Kirkpatrick99(M9.5V(pec),footnote#8),Gagne14(optical)
   L0: Gagne15(IR),Martin17
+  L1.0: Bouy22
 
   Kirkpatrick97 considered PC 0025+0447 a M9.5V star in their
   discussion. Kirkpatrick99 consider PC0025+0447 a M9.5V(peculiar) in
@@ -338,9 +346,10 @@ PC 0025+0447 = 2MASS J00274197+0503417
   or EDR3. J=16.189+-0.093(2MASS), H=15.288+-0.099(2MASS),
   Ks=14.964+-0.115(2MASS), K=14.94+-0.01(Skrzypek16,UKIDSS) =>
   M_K=10.03+-0.17(Skrzypek16,Liu16).  Gaia EDR3: G=21.0307+-0.0182,
-  but no colors. M_G=16.12+-0.17(GaiaEDR3,Liu16).
+  but no colors. M_G=16.12+-0.17(GaiaEDR3,Liu16). GaiaDR3:
+  G= 20.972336+-0.017048 => G-K =  20.972336 - 14.964+-0.115 = 
 
-G 216-7B = 2MASS J22373255+3922398 = KIR 5B = WDS J22375+3923C
+G 216-7B = 2MASS J22373255+3922398 = CNS5 5581 = KIR 5B = WDS J22375+3923C
  *M9.5V: Kirkpatrick01,Cruz03,BardalezGagliuffi14(NIR)
 
   This is a third component with two M3.5 stars situated 33" away.
@@ -350,6 +359,7 @@ G 216-7B = 2MASS J22373255+3922398 = KIR 5B = WDS J22375+3923C
   limit".  Gaia EDR3: 47.6442+-0.1372mas, G=17.945925+-0.003048,
   E(BP/RP)=1.777, Bp-Rp=4.503721, Bp-G=2.969297, G-Rp=1.534424.
   (G-Ks)=5.796, M_G=16.363, M_Ks=10.567.
+  
 
 WISE J072003.20-084651.2 = Scholz's Star = 2MASS J07200325-0846499 
   M8.5-M9: Ivanov15(optical)

@@ -12,6 +12,7 @@ Teff(L2.5V) =  1859 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(L2.5V) =  1889 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(L2.5V) =  1900 K ; Kirkpatrick20 (Table 13 polynomial)
 Teff(L2.5V) =  1902 K ; Stephens09 (optical L types)
+Teff(L2.5V) =  1913 (+-59sem,+-73stdev) K ; Kirkpatrick24 median d<20pc L2.5 opt types (N=4)
 => adopt Teff(L2.5V) = 1880 K (logT = 3.2742) [updated 12/1/2024] 
 
 (V-Rc)(L2.5V) = 2.34 ; 2MASS J0523-1403 (RECONS)
@@ -41,22 +42,23 @@ Teff(L2.5V) =  1902 K ; Stephens09 (optical L types)
 (J-H)(L2.5V) =   0.864 ; 2MASS_J05233822-1403022_ L2.5 plx=78.5273mas
 (J-H)(L2.5V) =   0.910 ; 2MASSW_J1338261+414034_ L2.5V plx=47.6301mas
 (J-H)(L2.5V) =  0.93 (+-0.14 rms) ; Zhang09
+(J-H)(L2.5V) = 0.93 ; J-Ks=1.54, H-Ks=0.61 (3/1/2025)
 (J-H)(L2.5V) =  0.934 ; (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
-(J-H)(L2.5V) = 0.94 ; J-Ks=1.56, H-Ks=0.62 
 (J-H)(L2.5V) =   0.943 ; 2MASS_J00145575-4844171_ L2.5 plx=50.7764mas
 (J-H)(L2.5V) =   0.963 ; 2MASSI_J1029216+162652_ L2.5 plx=53.2581mas
 (J-H)(L2.5V) = 0.965 ; smoothed trend M9V-L9.5V (11/1/2024)
-=> adopt (J-H)(L2.5V) = 0.94 [updated 11/4/2024] (J-Ks=1.56, H-Ks=0.62)
+=> adopt (J-H)(L2.5V) = 0.93 [updated 3/1/2025] (J-Ks=1.54, H-Ks=0.61)
 
 (H-Ks)(L2.5V) =   0.387 ; 2MASS_J00145575-4844171_ L2.5 plx=50.7764mas
 (H-Ks)(L2.5V) =   0.443 ; DENIS_J061549.3-010041_ L2.5 plx=44.9661mas
 (H-Ks)(L2.5V) =   0.540 ; 2MASSW_J1338261+414034_ L2.5V plx=47.6301mas
 (H-Ks)(L2.5V) =   0.582 ; 2MASS_J05233822-1403022_ L2.5 plx=78.5273mas
 (H-Ks)(L2.5V) =  0.592 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L2.5V) = 0.61 ; J-H=0.93, J-Ks=1.54 (3/1/2025)
+(H-Ks)(L2.5V) = 0.610 ; smoothed trend M9V-L9.5V (rms=0.058mag) (11/4/2024)
 (H-Ks)(L2.5V) =  0.61 (+-0.13 rms) ; Zhang09
-(H-Ks)(L2.5V) = 0.624 ; smoothed trend M9V-L9.5V (rms=0.058mag) (11/4/2024)
 (H-Ks)(L2.5V) =   0.708 ; 2MASSI_J1029216+162652_ L2.5 plx=53.2581mas
-=> adopt (H-Ks)(L2.5V) = 0.62 [updated 11/4/2024] (J-Ks=1.56, J-H=0.94)
+=> adopt (H-Ks)(L2.5V) = 0.61 [updated 3/1/2025] (J-Ks=1.54, J-H=0.93)
 
 (J-Ks)(L2.5V) =   1.213 ; DENIS_J061549.3-010041_ L2.5 plx=44.9661mas
 (J-Ks)(L2.5V) =   1.330 ; 2MASS_J00145575-4844171_ L2.5 plx=50.7764mas
@@ -64,10 +66,11 @@ Teff(L2.5V) =  1902 K ; Stephens09 (optical L types)
 (J-Ks)(L2.5V) =   1.446 ; 2MASS_J05233822-1403022_ L2.5 plx=78.5273mas
 (J-Ks)(L2.5V) =   1.450 ; 2MASSW_J1338261+414034_ L2.5V plx=47.6301mas
 (J-Ks)(L2.5V) =  1.495 ; Sanghi24 M6V-T9V trend
+(J-Ks)(L2.5V) = 1.54 ; J-H=0.93, H-Ks=0.61 (3/1/2025)
 (J-Ks)(L2.5V) =  1.54  ; Zhang09 (H-Ks=0.61, J-H=0.93) 
 (J-Ks)(L2.5V) =  1.563 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(L2.5V) =   1.671 ; 2MASSI_J1029216+162652_ L2.5 plx=53.2581mas
-=> adopt (J-Ks)(L2.5V) = 1.56 [updated 11/4/2024] (J-H=0.94, H-Ks=0.62) 
+=> adopt (J-Ks)(L2.5V) = 1.54 [updated 11/4/2024] (J-H=0.93, H-Ks=0.61) 
 
 (V-Ks)(L2.5V) = 9.42 ; 2MASS J0523−1403 (Dieterich14)
 (V-Ks)(L2.5V) = 9.79 ; 2MASS J05233822-1403022 (Dahn17)

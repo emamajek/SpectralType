@@ -6,9 +6,10 @@ Kirkpatrick09(GrayCorbally): 2MASS J00361617+1821104 - L3.5 (primary optical sta
 
 Highlighting how rare L3.5Vs are, in SIMBAD there don't appear to be any objects with default classification L3.5* with SDSS IDs.
 
-Kirkpatrick19 20pc census of L dwarfs has the nearest L3.5 objects as: 	2MASSW J0036159+182110, DENIS-P J1454078-660447, WDS J07006+3157AB, 2MASSW J1506544+132106, 2MASSI J0523382-140302, DENIS J153941.9-052042. However none have both a L3.5 optical and NIR type. 
+The early Kirkpatrick papers only had a few L3.5s: 2MASS J03261367+2950152 (L3.5Ve;Kirkpatrick99), 2MASSW J0036159+182110(L3.5V;Kirkpatrick00), 2MASSW J0051107-154417(L3.5V;Kirkpatrick00).  Kirkpatrick19 20pc census of L dwarfs has the nearest L3.5 objects as: 2MASSW J0036159+182110, DENIS-P J1454078-660447, WDS J07006+3157AB, 2MASSW J1506544+132106, 2MASSI J0523382-140302, DENIS J153941.9-052042. However none have both a L3.5 optical and NIR type. Kirkpatrick24 20pc census only lists 1 L3.5 object: DENIS-P J153941.96-052042.4.
 
 Teff(L3.5V) =  1712 K ; Sanghi23 M6V-T9V field dwarf polynomial
+Teff(L3.5V) =  1753 K ; DENIS-P_J153941.96-052042.4 (Kirkpatrick24) 
 Teff(L3.5V) =  1757 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(L3.5V) =  1777 K ; Stephens09 (optical L types)
 Teff(L3.5V) =  1775 K ; Cifuentes20 <Teff> for CARMENES L3.5V(N=2)
@@ -25,7 +26,7 @@ Teff(L3.5V) =  1835 +-100 K ; DENIS J1539-0520 (Dieterich14)
 
 (R-Ic)(L3.5V) =  2.37 ; pri. stan. (opt) 2MASS J00361617+1821104
 (R-Ic)(L3.5V) =  2.33 ; DENIS J1454-6604 
-(R-Ic)(L3.5V) =  2.17 ; DENIS J1539-0520
+(R-Ic)(L3.5V) =  2.170 +-0.058 ; exemplar DENIS J153941.8-052042
 => adopt (R-Ic)(L3.5V) = 2.40 [updated 10/15/2023; V-Ic=5.47, V-Rc=3.17]
 
 (V-Ic)(L3.5V) = 5.23 +-0.064 ; pri. stan. (opt) 2MASS J00361617+1821104 (Dahn17)
@@ -36,11 +37,16 @@ Teff(L3.5V) =  1835 +-100 K ; DENIS J1539-0520 (Dieterich14)
 (V-J)(L3.5V) = 8.964 +-0.036 ; pri. stan. (opt) 2MASS J00361617+1821104
 => adopt (V-J)(L3.5V) = 8.96 [updated 5/24/2024]
 
-(Ic-J)(L3.5V) = 3.51 +-0.066 ; 2MASS J20282035+0052265 (Dahn17)
-(Ic-J)(L3.5V) = 3.57 +-0.056 ; 2MASS J17210390+3344160 (Dahn17) 
-(Ic-J)(L3.5V) = 3.57 +-0.070 ; 2MASS J07171626+5705430 (Dahn17)
-(Ic-J)(L3.5V) = 3.64 +-0.066 ; 2MASS J10584787-1548172 (Dahn17) 
-(Ic-J)(L3.5V) = 3.79 +-0.060 ; 2MASS J20360316+1051295 (Dahn17) 
+(Ic-J)(L3.5V) =  3.51 +-0.066 ; 2MASS J20282035+0052265 (Dahn17)
+(Ic-J)(L3.5V) =  3.57 +-0.056 ; 2MASS J17210390+3344160 (Dahn17) 
+(Ic-J)(L3.5V) =  3.57 +-0.070 ; 2MASS J07171626+5705430 (Dahn17)
+(Ic-J)(L3.5V) = 3.598 ; exemplar DENIS J153941.8-052042 (Dieterich/2MASS)
+(Ic-J)(L3.5V) = 3.614 ; pri. stan. (opt) 2MASS J00361617+1821104      
+(Ic-J)(L3.5V) =  3.64 +-0.066 ; 2MASS J10584787-1548172 (Dahn17) 
+(Ic-J)(L3.5V) =  3.79 +-0.060 ; 2MASS J20360316+1051295 (Dahn17)
+=> adopt (Ic-J)(L3.5V) = 3.61 [updated 2/1/2025]
+
+(V-J)(L3.5V) =   8.964 +-0.036 ; pri. stan. (opt) 2MASS J00361617+1821104 
 
 (V-H)(L3.5V) = 9.842 +-0.038 ; pri. stan. (opt) 2MASS J00361617+1821104
 => adopt (V-H)(L3.5V) = 9.84 [updated 5/24/2024]
@@ -49,41 +55,49 @@ Teff(L3.5V) =  1835 +-100 K ; DENIS J1539-0520 (Dieterich14)
 (V-Ks)(L3.5V) = 10.372 +-0.032 ; pri. stan. 2MASS J00361617+1821104
 => adopt (V-Ks)(L3.5V) = 10.37 [updated 9/15/2023]
 
+(J-H)(L3.5V) =  0.862 +-0.039 ; exemplar DENIS J153941.8-052042
 (J-H)(L3.5V) =  0.878 +-0.040 ; pri. stan. (opt) 2MASS J00361617+1821104 L3.5 plx=114.4735mas
 (J-H)(L3.5V) =    0.891 ; DENIS_J145407.8-660447_ L3.5 plx=93.9418mas
 (J-H)(L3.5V) =   0.989 ; (+-0.13 rms); SIMBAD d<30pc trend for Ldwarfs
 (J-H)(L3.5V) =  0.99 (+-0.23 rms) ; Zhang09 
-(J-H)(L3.5V) = 1.00  ; H-Ks=0.65, J-Ks=1.65
+(J-H)(L3.5V) = 1.00  ; H-Ks=0.64, J-Ks=1.64 (3/1/2025)
 (J-H)(L3.5V) =  1.005 ; halfway L3V(J-H=0.99)-L4V(J-H=1.02) (11/1/2024)
 (J-H)(L3.5V) =  1.026 ; smoothed trend M9V-L9.5V (11/1/2024) 
 (J-H)(L3.5V) =    1.127 ; 2MASS_J06523073+4710348_ L3.5+L6.5 plx=109.7651mas
-=> adopt (J-H)(L3.5V) = 1.00 [updated 11/20/2024] (H-Ks=0.65, J-Ks=1.65) 
+=> adopt (J-H)(L3.5V) = 1.00 [updated 3/1/2025] (H-Ks=0.64, J-Ks=1.64) 
 
+(H-Ks)(L3.5V) =  0.485 +-0.039 ; exemplar DENIS J153941.8-052042
 (H-Ks)(L3.5V) =   0.447 ; DENIS_J145407.8-660447_ L3.5 plx=93.9418mas
 (H-Ks)(L3.5V) =  0.530 +-0.037 ; pri. stan. (opt) 2MASS J00361617+1821104 L3.5 plx=114.4735mas
-(H-Ks)(L3.5V) = 0.65 ; J-H=1.00, J-Ks=1.65 (11/20/2024) 
 (H-Ks)(L3.5V) =  0.620 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L3.5V) = 0.639 ; smoothed trend M9V-L9.5V (rms=0.066mag) (3/1/2025)
+(H-Ks)(L3.5V) = 0.64 ; J-H=1.00, J-Ks=1.64 (3/1/2025) 
 (H-Ks)(L3.5V) =  0.64 (+-0.24 rms) ; Zhang09 
-(H-Ks)(L3.5V) = 0.649 ; smoothed trend M9V-L9.5V (rms=0.058mag) (11/4/2024)
 (H-Ks)(L3.5V) =   0.690 ; 2MASS_J06523073+4710348_ L3.5+L6.5 plx=109.7651mas
-=> adopt (H-Ks)(L3.5V) = 0.65 [updated 11/20/2024] (J-H=1.00, J-Ks=1.65)
+=> adopt (H-Ks)(L3.5V) = 0.64 [updated 3/1/2025] (J-H=1.00, J-Ks=1.64)
 
 (J-Ks)(L3.5V) =   1.338 ; DENIS_J145407.8-660447_ L3.5 plx=93.9418mas
+(J-Ks)(L3.5V) =  1.347 +-0.041 ; exemplar DENIS J153941.8-052042
 (J-Ks)(L3.5V) =  1.408 ; pri. stan. (opt) 2MASS J00361617+1821104 L3.5 plx=114.4735mas
 (J-Ks)(L3.5V) =  1.510 (+-0.136 sem, +-0.238 stdev) ; BardalezGagliuffi19 median d<25pc L3.5s (N=5)
 (J-Ks)(L3.5V) =  1.601 ; Sanghi24 M6V-T9V trend
-(J-Ks)(L3.5V) =  1.63  ; Zhang09 (J-H=0.99, H-Ks=0.64) 
+(J-Ks)(L3.5V) =  1.63  ; Zhang09 (J-H=0.99, H-Ks=0.64)
+(J-Ks)(L3.5V) = 1.64  ; J-H=1.00, H-Ks=0.64 (3/1/2025)
 (J-Ks)(L3.5V) =  1.645 ; halfway L3V(J-Ks=1.61)-L4V(J-Ks=1.68) (11/1/2024) 
 (J-Ks)(L3.5V) =  1.647 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
-(J-Ks)(L3.5V) = 1.65  ; J-H=1.00, H-Ks=0.65 (11/15/2024)
 (J-Ks)(L3.5V) =   1.817 ; 2MASS_J06523073+4710348_ L3.5+L6.5 plx=109.7651mas
-=> adopt (J-Ks)(L3.5V) = 1.65 [updated 11/20/2024] (J-H=1.00, H-Ks=0.65) 
+=> adopt (J-Ks)(L3.5V) = 1.64 [updated 3/1/2025] (J-H=1.00, H-Ks=0.64) 
 
-(Ks-W1)(L3.5V) = 0.542 +-0.032 ; pri. stan. (opt) 2MASS J00361617+1821104    
+(Ks-W1)(L3.5V) =  0.542 +-0.032 ; pri. stan. (opt) 2MASS J00361617+1821104    
+(Ks-W1)(L3.5V) =  0.571 +-0.037 ; exemplar DENIS J153941.8-052042
+=> adopt (Ks-W1)(L3.5V) = 0.55 [updated 2/1/2025] 
 
-(W1-W2)(L3.5V) = 0.279 +-0.031 ; pri. stan. (opt) 2MASS J00361617+1821104    
+(W1-W2)(L3.5V) =  0.260 +-0.032 ; exemplar DENIS J153941.8-052042
+(W1-W2)(L3.5V) =  0.279 +-0.031 ; pri. stan. (opt) 2MASS J00361617+1821104
+=> adopt (W1-W2)(L3.5V) = 0.27 [updated 2/1/2025] 
 
-(W1-W3)(L3.5V) = 0.585 +-0.058 ; pri. stan. (opt) 2MASS J00361617+1821104
+(W1-W3)(L3.5V) =   0.349 +-0.231 ; exemplar DENIS J153941.8-052042
+(W1-W3)(L3.5V) =  0.585 +-0.058 ; pri. stan. (opt) 2MASS J00361617+1821104
 
 (u-g)(L3.5V) =   2.478 +-1.262 ; pri. stan. (opt) 2MASS J00361617+1821104 (SDSS DR16)
 
@@ -113,21 +127,30 @@ Teff(L3.5V) =  1835 +-100 K ; DENIS J1539-0520 (Dieterich14)
 
 (z-Ks)(L3.5V) = 4.44 (+-0.48 rms) ; Zhang09 
 
-(Bp-Rp)(L3.5V) = 4.5339 ; pri. stan. (opt) 2MASS J00361617+1821104    
+(Bp-Rp)(L3.5V) =  3.6488 ; exemplar DENIS J153941.8-052042 (GaiaDR3) 
+(Bp-Rp)(L3.5V) = 4.5339 ; pri. stan. (opt) 2MASS J00361617+1821104 (GaiaDR3) 
 
-(Bp-G)(L3.5V) =  2.9473 ; pri. stan. (opt) 2MASS J00361617+1821104    
+(Bp-G)(L3.5V) =   2.0895 ; exemplar DENIS J153941.8-052042 (GaiaDR3) 
+(Bp-G)(L3.5V) =  2.9473 ; pri. stan. (opt) 2MASS J00361617+1821104 (GaiaDR3)     
 
-(G-Rp)(L3.5V) =  1.5866 ; pri. stan. (opt) 2MASS J00361617+1821104    
+(G-Rp)(L3.5V) =  1.5593 ; exemplar DENIS J153941.8-052042 (GaiaDR3) 
+(G-Rp)(L3.5V) =  1.5866 ; pri. stan. (opt) 2MASS J00361617+1821104 (GaiaDR3)     
 
 (G-V)(L3.5V) =  -3.934 +-0.024 ; pri. stan. (opt) 2MASS J00361617+1821104    
 
 (G-J)(L3.5V) =   5.030 +-0.027 ; pri. stan. (opt) 2MASS J00361617+1821104    
+(G-J)(L3.5V) =   5.037 +-0.029 ; exemplar DENIS J153941.8-052042
+=> adopt (G-J)(L3.5V) = 5.03 [updated 2/1/2025]
+
+(G-Ks)(L3.5V) =   6.384 +-0.029 ; exemplar DENIS J153941.8-05204
 
 Mv(L3.5V) =  21.724 +-0.024 ; pri. stan. (opt) 2MASS J00361617+1821104    
 
 M_G(L3.5V) =  17.789 +-0.004 ; pri. stan. (opt) 2MASS J00361617+1821104    
+M_G(L3.5V) =  17.823 +-0.013 ; exemplar DENIS J153941.8-052042 
 
 M_J(L3.5V) =  12.760 +-0.027 ; pri. stan. (opt) L3.5 2MASS J00361617+1821104 plx=114.4735mas
+M_J(L3.5V) =  12.786 +-0.031 ; exemplar DENIS J153941.8-052042
 M_J(L3.5V) =   12.92  ; DENIS_J145407.8-660447_ L3.5 plx=93.9418mas
 M_J(L3.5V) =   12.927 ; EEM fit to L/T dwarfs d<25pc
 M_J(L3.5V) =    13.71 ; 2MASS_J06523073+4710348_ L3.5+L6.5 plx=109.7651mas
@@ -135,6 +158,7 @@ M_J(L3.5V) =    13.71 ; 2MASS_J06523073+4710348_ L3.5+L6.5 plx=109.7651mas
 M_Ks(L3.5V) =   11.35 +-0.02 ; pri. stan. (opt) 2MASS J00361617+1821104 plx=114.4735mas
 M_Ks(L3.5V) =  11.40 ; fit to SIMBAD L0-T7.5 dwarfs d<25pc (12/2020)
 M_Ks(L3.5V) =  11.43 ; trend to L/T dwarfs in notes (1/2021)
+M_Ks(L3.5V) =  11.439 +-0.031 ; exemplar DENIS J153941.8-052042
 M_Ks(L3.5V) =   11.59 ; DENIS_J145407.8-660447_ L3.5 plx=93.9418mas
 M_Ks(L3.5V) =    11.90 ; 2MASS_J06523073+4710348_ L3.5+L6.5 plx=109.7651mas
 
@@ -188,21 +212,25 @@ Mass(L3.5V) = 0.0680 (+-0.045 rms) ; mean N=5 L3.5s d<25pc in Sebastian21/SPECUL
    V-H=9.84+-0.04, V-Ks=10.282+-0.067.
    Y_MKO=13.77+-0.10(Leggett10/Hewett06),
    J_MKO=12.30+-0.03(Leggett10), H_MKO=11.64(Leggett10),
-   K_MKO=11.04+-0.03(Leggett10), L'=10.08+-0.05(Leggett10).  Patton06
-   lists 4-band IRAC photometry, including [3.6]=10.19+-0.03.
-   GaiaDR3: G=17.495636+-0.003235(GaiaDR3), Bp-Rp=4.533857,
-   Bp-G=2.947273, G-Rp=1.586584.  PanStarrs photometry from Best18:
+   K_MKO=11.04+-0.03(Leggett10), L'=10.08+-0.05(Leggett10).  Ic-J =
+   16.08 - 12.466 = 3.614.  Patton06 lists 4-band IRAC photometry,
+   including [3.6]=10.19+-0.03.  GaiaDR3:
+   G=17.495636+-0.003235(GaiaDR3), Bp-Rp=4.533857, Bp-G=2.947273,
+   G-Rp=1.586584.  PanStarrs photometry from Best18:
    g_PS1=22.21+-0.01, r_PS1=19.51+-0.03, i_PS1=17.19+-0.01,
    z=15.58+-0.01, y_PS1=14.54+-0.01.
    plx=114.20+-0.80(Dieterich14). Vtan=37.6 km/s(Deiterich14).
    GaiaDR3: plx=114.4735+-0.1381mas(GaiaDR3).  Teffs:
    1796+-33K(Dieterich14), 1800K(Cifuentes20), 1900+-100K(Gagne15),
    1900K(Golimowksi04), 1923K(Vrba04), 1993K(Dahn02), 2000K(Blake10)
-   => adopt Teff=1900K.  logL=-3.95+-0.011(Deiterich14),
-   Rad=0.109+-0.0042Rsun(Dieterich14).  Although not cross-IDed in
-   SIMBAD, its Sloan counterpart (DR16) appears to be SDSS
-   J003616.67+182111.4, with two entries in DR16 with same SDSS ID.  I
-   chose the one closest to the J2000.0 position.
+   => adopt Teff=1900K. Kirkpatrick24 lists Teff estimates for both
+   components: Teff(A)=1869+-64K and Teff(B)=1125+-79K (suggestive
+   that the companion would be a mid-T dwarf?).
+   logL=-3.95+-0.011(Deiterich14), Rad=0.109+-0.0042Rsun(Dieterich14).
+   Although not cross-IDed in SIMBAD, its Sloan counterpart (DR16)
+   appears to be SDSS J003616.67+182111.4, with two entries in DR16
+   with same SDSS ID.  I chose the one closest to the J2000.0
+   position.
 
         G = 17.4956+-0.0032 ; pri. stan. (opt) 2MASS J00361617+1821104    
   (Bp-Rp)(L3.5V) =  4.5339 ; pri. stan. (opt) 2MASS J00361617+1821104    
@@ -234,7 +262,121 @@ Mass(L3.5V) = 0.0680 (+-0.045 rms) ; mean N=5 L3.5s d<25pc in Sebastian21/SPECUL
     (z-J)(L3.5V) =   2.751 +-0.032 ; pri. stan. (opt) 2MASS J00361617+1821104 (SDSS DR16)   
     (g-G)(L3.5V) =   5.120 +-0.144 ; pri. stan. (opt) 2MASS J00361617+1821104 (SDSS DR16, GaiaDR3)
 
+# Exemplar
+
+DENIS J153941.8-052042 = 2MASS J15394189-0520428 = CNS5 3856 = 
+  L2: Kendall04,Mace14(NIR),Burgasser(unpublished,NIR,SpexLibrary)
+ *L3.5: Reid06,Reid08,Kirkpatrick24(optical/adopted)
+  L4:: Kirkpatrick08(opt;Burgasser10),
+  L4.0: Burgasser10(SPEX/NIR),Kirkpatrick21(adopted),Best18(adopted)
+  L4.2: Bardalez14(SPEX/NIR)
+
+  Nearby L dwarf discovered in DENIS by
+  Kendall04(2004A&A...416L..17K). Its colors and absolute magnitudes
+  are nearly identical to the primary optical standard 2MASS
+  J00361617+1821104.  The only object with an adopted L3.5 optical
+  type in the Kirkpatrick24 d<20pc sample, highlighting how rare these
+  objects are (the L3.5 standard 2MASS J00361617+1821104 was resolved
+  into two sources and adopted types not assigned).  Parallaxes:
+  plx=61.25+-1.26mas(Dieterich14), plx=59.2655+-0.3274mas(GaiaDR3).
+  Rc=19.69+-0.035(Dieterich14), Ic=17.47(Koen13),
+  Ic=17.52+-0.046(Dieterich14) => R-Ic=2.170+-0.058(Dieterich14).
+  J=13.922+-0.029(2MASS), H=13.060+-0.026(2MASS),
+  Ks=12.575+-0.029(2MASS).  Ic-J = 3.598(Dieterich14/2MASS).  GaiaDR3:
+  G=18.958626+-0.005237(GaiaDR3), Bp-Rp=3.648754(GaiaDR3),
+  Bp-G=2.089479(GaiaDR3), G-Rp=1.559275(GaiaDR3).  Teffs:
+  1700K(Cifuentes20), 1753+-85K(Kirkpatrick21/24), 1800K(Blake10),
+  1835+-100K(Dieterich14), 1929+-105K(Sebastian21) => adopt
+  Teff=1800K.  Lum=1.075345350e-04+-2.564895300e-06Lsun(Cifuentes20)
+  => logL=-3.9685+-0.0104(Cifuentes20).
+  logL=-4.006+-0.019(Dieterich14).
+  Rad=0.098+-0.0109Rsun(Dieterich14).
+
+       G = 18.9586+-0.0052 ; exemplar DENIS J153941.8-052042
+   (R-Ic)(L3.5V) =   2.170 +-0.058 ; exemplar DENIS J153941.8-052042
+  (Bp-Rp)(L3.5V) =  3.6488 ; exemplar DENIS J153941.8-052042
+   (Bp-G)(L3.5V) =  2.0895 ; exemplar DENIS J153941.8-052042
+   (G-Rp)(L3.5V) =  1.5593 ; exemplar DENIS J153941.8-052042
+    (G-J)(L3.5V) =   5.037 +-0.029 ; exemplar DENIS J153941.8-052042
+      M_G(L3.5V) =  17.823 +-0.013 ; exemplar DENIS J153941.8-052042
+      M_J(L3.5V) =  12.786 +-0.031 ; exemplar DENIS J153941.8-052042
+     M_Ks(L3.5V) =  11.439 +-0.031 ; exemplar DENIS J153941.8-052042
+   (G-Ks)(L3.5V) =   6.384 +-0.029 ; exemplar DENIS J153941.8-052042
+    (J-H)(L3.5V) =   0.862 +-0.039 ; exemplar DENIS J153941.8-052042
+   (H-Ks)(L3.5V) =   0.485 +-0.039 ; exemplar DENIS J153941.8-052042
+   (J-Ks)(L3.5V) =   1.347 +-0.041 ; exemplar DENIS J153941.8-052042
+  (Ks-W1)(L3.5V) =   0.571 +-0.037 ; exemplar DENIS J153941.8-052042
+  (W1-W2)(L3.5V) =   0.260 +-0.032 ; exemplar DENIS J153941.8-052042
+  (W1-W3)(L3.5V) =   0.349 +-0.231 ; exemplar DENIS J153941.8-052042
+
 # Other Objects
+
+2MASSW J0326137+295015 = 2MASS J03261367+2950152 = Gaia DR3 120793859256662144 = WDS J03262+2950A
+  L3.0_FLD-G: Bouy22(SPEX)
+  L3.5Ve: Kirkpatrick00(opt),Kirkpatrick05(L3.5/opt)
+ *L3.5+L7: Harris15
+  L4.6: BardalezGagliuffi14(NIR)
+
+  The only object classified as L3.5V in the original study of the
+  first 25 L dwarfs (defining the spectral sequence) by Kirkpatrick00.
+  Kirkpatrick99 notes: "2MASSW J0326137]295015 (L3.5V). This object,
+  located in projection against more distant molecular cloud complexes
+  in Perseus, has the strongest H\alpha emission line seen in any L
+  dwarf (EW=9.1A)." However, no Li was detected (EW(Li6707)<1.0A.
+  plx=24.9676+-1.2363mas(GaiaDR3).  2MASSW J0326137+295015 (Gaia DR3
+  120793859256662144) has a reported optical companion and is itself
+  an astrometric binary. Note that the current (2/2025) entry in WDS
+  lists the separation/PA/mag parameters for the resolved wide binary,
+  but the spectral type (L3.5+L7) and orbit in ORB6 corresponds to the
+  astrometric binary (which is unresolved in star catalogs). Resolved
+  companion: WDS (B/wds/wds) lists the object as binary WDS
+  J03262+2950 = ALP 10, first reported by
+  Allen+2007(2007AJ....133..971A). They list the companion at
+  del(RA)=-24.9", del(Dec)=-1.5", with only an inferred *absolute*
+  magnitude M_J(sec)=15.1 and color J-K=1.3 - but no other
+  information. Malkov+2016(J/BaltA/25/49/ilb_new) IDs the "companion"
+  as entry BSBD J032613.67+295015.1:c2 and WDS J03262+2950B.  The
+  companion appears to correspond to WISE J032611.75+295015.3, which
+  in the 1st WISE catalog (Cutri+2012,2012wise.rept....1C) appears
+  relative to 2MASS J03261367+2950152 at separation=24.81+-0.77",
+  PA=268.49deg (which agrees well with Allen+). The source currently
+  lacks a SIMBAD entry, but could be IDed as WDS J03262+2950B = ** ALP
+  10A = WISE J032611.75+295015.3 = AllWISE J032611.73+295015.1 = UGPS
+  J032611.71+295014.6. The distant companion is detected in UKIDSS-DR6
+  with J=17.820+-0.023, H=17.089+-0.022, K=16.498+-0.036, which if it
+  was codistant with 2MASSW J0326137+295015 would be M_J=14.8,
+  M_Ks=13.5, which would be consistent with ~T5.5 and ~T2, but the
+  colors (J-H=0.73, H-Ks=0.59, J-K=1.32) are like ~T2.5, ~T0, ~T1 (but
+  correspond to hotter objects as well). The K-W1 color (0.28+-0.10)
+  is fairly blue for a T dwarf (typically ~0.6), but more similar to a
+  late M.  CatWISE2020 lists the proper motion of the distant
+  companion as pmRA,pmDec= -4.37+-33.3, -73.77+-34.9mas/yr, which is
+  not a great match for 2MASSW J0326137+295015 (pmRA,pmDec=-18,+67 in
+  GaiaDR3).  At this point, the Allen07 companion could be a wide cool
+  (T?) companion but this would require further observations and
+  analysis to confirm.  2MASSW J0326137+295015 itself appears to be an
+  astrometric binary as well: Harris, H.C., Dahn, C.C. & Dupuy,
+  T.J. 2015 (2015csss...18..413H) reported 2MASSW J0326137+295015 as
+  an astrometric binary with P=7.53yr, a=13.8mas, e=0.11, i=37deg, and
+  they list the components with absolute magnitudes M_J(A)=12.99,
+  M_J(B)=14.5, hence del(J)=1.51 (secondary is responsible for ~25% of
+  J-band flux), masses M(A)=0.061+-0.010Msun,
+  M(B)=0.044+-0.008Msun. They estimate the spectral type of the pair
+  to be L3.5 and L7.  Ic=19.13+-0.04(Dahn02), z*=18.30+-0.03(Dahn02).
+  Dahn02 reports: M_J=12.90, BC_J=1.58, Mbol=14.48, Rad=0.0914Rsun,
+  Teff=2031+-82K.
+  
+
+2MASSW J0051107-154417
+  L3.5V: Kirkpatrick00(opt)
+  L6: Schneider14(NIR)
+
+2MASS J00531899-3631102
+  L2.5: Martin10(PCA type)
+  L3.5: Kirkpatrick08(opt)
+  L4: Schneider14(NIR)
+
+
 
 2MASSI J0652307+471034 = 2MASS J06523073+4710348AB
   L4.5V: Cruz03,Burgasser10(opt),Bardalez19('combined'),Kirkpatrick20(opt.),Kirkpatrick21(opt.)
@@ -251,3 +393,7 @@ Mass(L3.5V) = 0.0680 (+-0.045 rms) ; mean N=5 L3.5s d<25pc in Sebastian21/SPECUL
   Teff=1597+-88K(Kirkpatrick20), 1682+-104K(Sebastian21).
 
 
+
+
+  
+  

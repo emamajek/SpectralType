@@ -29,6 +29,7 @@ Teff(L1V) =  2100 K ; Stephens09
 Teff(L1V) =  2098 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(L1V) =  2097 K ; Kirkpatrick20 Table 13 polynomial
 Teff(L1V) =  2085 K ; Kirkpatrick21 (median for L1 optical types; N=8)
+Teff(L1V) =  2078 (+-52sem,+-126stdev) K ; Kirkpatrick24 median d<20pc L1 opt types (N=11)
 Teff(L1V) =  2078 K ; Kirkpatrick21 (median for L1 near-IR types; N=8)
 Teff(L1V) =  2076 +-203 K ; Cifuentes23
 => adopt Teff(L1V) = 2100 K (logT = 3.3222) [updated 12/1/2024]
@@ -74,64 +75,68 @@ Teff(L1V) =  2076 +-203 K ; Cifuentes23
 
 
 (J-H)(L1V) =    0.627 ; 2MASS_J09211410-2104446_ plx=79.5729mas L1
-(J-H)(L1V) =  0.63  ; dalPonte23 
-(J-H)(L1V) =  0.718 ; pri. stan. 2MASS_J14392836+1929149_ plx=70.5551mas L1V
+(J-H)(L1V) =   0.63  ; dalPonte23 
+(J-H)(L1V) =   0.718 ; pri. stan. 2MASS_J14392836+1929149_ plx=70.5551mas L1V
 (J-H)(L1V) =    0.723 ; 2MASS_J17334227-1654500_ plx=54.9353mas L1.0
 (J-H)(L1V) =    0.757 ; 2MASS_J17054834-0516462_ plx=53.122mas L1
 (J-H)(L1V) =    0.784 ; 2MASS_J10484281+0111580_ plx=66.5894mas L1
-(J-H)(L1V) =  0.80 (+-0.14 rms) ; Schmidt14
+(J-H)(L1V) =   0.80 (+-0.14 rms) ; Schmidt14
+(J-H)(L1V) =   0.803 +-0.045 ; sec. stan. 2MASS J21304464-0845205   
 (J-H)(L1V) =    0.807 ; 2MASS_J18071593+5015316_ plx=68.4657mas L1
 (J-H)(L1V) =    0.808 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
-(J-H)(L1V) =  0.81 (+-0.14 rms) ; Faherty16 
+(J-H)(L1V) =   0.81 (+-0.14 rms) ; Faherty16 
 (J-H)(L1V) =    0.812 ; 2MASS_J20450238-6332066_ plx=44.2416mas L1
-(J-H)(L1V) =  0.815 (+-0.019sem,+-0.124) ; Best18 d<25pc sample L1V median (N=14)
-(J-H)(L1V) =  0.817 (+-0.14 rms) ; SIMBAD d<30pc trend for Ldwarfs
+(J-H)(L1V) =   0.815 (+-0.019sem,+-0.124) ; Best18 d<25pc sample L1V median (N=14)
+(J-H)(L1V) =   0.817 (+-0.14 rms) ; SIMBAD d<30pc trend for Ldwarfs
 (J-H)(L1V) =    0.818 ; 2MASS_J16580380+7027015_ plx=54.1347mas L1(e)
 (J-H)(L1V) =    0.818 ; 2MASS_J19064801+4011089_ plx=59.6710mas L1
-(J-H)(L1V) =  0.819 (+-0.066 sem,+-0.125 stdev) ; N=5 Cruz03
-(J-H)(L1V) = 0.82 ; J-Ks=1.38, H-Ks=0.56 (12/20/2024)
-(J-H)(L1V) =  0.82 (+-0.14 rms) ; Zhang09 
-(J-H)(L1V) =  0.822 ; smoothed trend M9V-L9.5V (11/1/2024) 
+(J-H)(L1V) =   0.819 (+-0.066 sem,+-0.125 stdev) ; N=5 Cruz03
+(J-H)(L1V) = 0.82 ; J-Ks=1.37, H-Ks=0.55 (3/1/2025)
+(J-H)(L1V) =   0.82 (+-0.14 rms) ; Zhang09 
+(J-H)(L1V) =   0.822 ; smoothed trend M9V-L9.5V (11/1/2024) 
 (J-H)(L1V) =    0.849 ; 2MASS_J06023045+3910592_ plx=85.7574mas L1V
 (J-H)(L1V) =    0.853 ; 2MASS_J20575409-0252302_ plx=64.7102mas L1
 (J-H)(L1V) =    0.859 ; 2MASS_J01282664-5545343_ plx=53.8699mas L1
+(J-H)(L1V) =   0.871 +-0.049 ; exemplar 2MASS J20343769+0827009   
 (J-H)(L1V) =    0.876 ; 2MASS_J21501592-7520367_ plx=41.2828mas L1:
 (J-H)(L1V) =    0.880 ; 2MASS_J11083081+6830169_ plx=61.8067mas L1e
 (J-H)(L1V) =    0.882 ; 2MASS_J02081833+2542533_ plx=43.0992mas L1V
 (J-H)(L1V) =     0.977 ; 2MASS_J19090821-1937479_ plx=45.8238mas L1.0
 (J-H)(L1V) =     0.988 ; 2MASS_J00154476+3516026_ plx=58.7497mas L1.0V
-=> adopt (J-H)(L1V) = 0.82 [updated 12/20/2024] (J-Ks=1.38, H-Ks=0.56)
+=> adopt (J-H)(L1V) = 0.82 [updated 3/1/2025] (J-Ks=1.37, H-Ks=0.55)
 
 (H-Ks)(L1V) =    0.455 ; 2MASS_J17334227-1654500_ plx=54.9353mas L1.0
 (H-Ks)(L1V) =    0.462 ; 2MASS_J09211410-2104446_ plx=79.5729mas L1
 (H-Ks)(L1V) =    0.489 ; 2MASS_J19064801+4011089_ plx=59.6710mas L1
-(H-Ks)(L1V) =   0.495 ; pri. stan. 2MASS_J14392836+1929149_ plx=70.5551mas L1V
 (H-Ks)(L1V) =    0.507 ; 2MASS_J21501592-7520367_ plx=41.2828mas L1:
+(H-Ks)(L1V) =   0.513 +-0.047 ; exemplar 2MASS J20343769+0827009 
 (H-Ks)(L1V) =    0.517 ; 2MASS_J10484281+0111580_ plx=66.5894mas L1
 (H-Ks)(L1V) =    0.519 ; 2MASS_J02081833+2542533_ plx=43.0992mas L1V
-(H-Ks)(L1V) =  0.52 (+-0.16 rms) ; Schmidt14
-(H-Ks)(L1V) =  0.52 ; dalPonte23
-(H-Ks)(L1V) =  0.520 (+-0.020sem,+-0.033stdev) ; Best18 d<25pc sample L1V median (N=14)
+(H-Ks)(L1V) =   0.519 +-0.046 ; pri. stan. 2MASS J14392836+1929149
+(H-Ks)(L1V) =   0.519 +-0.046 ; sec. stan. 2MASS J21304464-0845205  
+(H-Ks)(L1V) =   0.52 (+-0.16 rms) ; Schmidt14
+(H-Ks)(L1V) =   0.52 ; dalPonte23
+(H-Ks)(L1V) =   0.520 (+-0.020sem,+-0.033stdev) ; Best18 d<25pc sample L1V median (N=14)
 (H-Ks)(L1V) =    0.520 ; 2MASS_J17054834-0516462_ plx=53.122mas L1
 (H-Ks)(L1V) =    0.525 ; 2MASS_J18071593+5015316_ plx=68.4657mas L1
-(H-Ks)(L1V) =  0.54 (+-0.13 rms) ; Faherty16 
-(H-Ks)(L1V) =  0.541 ; trend of Dieterich14 for V-Ks=9.7
-(H-Ks)(L1V) =  0.541 ; trend SIMBAD d<30pc L dwarfs
+(H-Ks)(L1V) =   0.54 (+-0.13 rms) ; Faherty16 
+(H-Ks)(L1V) =   0.541 ; trend of Dieterich14 for V-Ks=9.7
+(H-Ks)(L1V) =   0.541 ; trend SIMBAD d<30pc L dwarfs
 (H-Ks)(L1V) =    0.544 ; 2MASS_J20575409-0252302_ plx=64.7102mas L1
-(H-Ks)(L1V) =  0.55 (+-0.12 rms) ; Zhang09 
+(H-Ks)(L1V) = 0.55 ; J-Ks=1.37, J-H=0.82 (3/1/2025) 
+(H-Ks)(L1V) =   0.55 (+-0.12 rms) ; Zhang09 
 (H-Ks)(L1V) =    0.555 ; 2MASS_J16580380+7027015_ plx=54.1347mas L1(e)
-(H-Ks)(L1V) = 0.56 ; J-Ks=1.38, J-H=0.82 (11/15/2024) 
-(H-Ks)(L1V) = 0.563 ; smoothed trend M9V-L9.5V (rms=0.057mag) (11/15/2024)
+(H-Ks)(L1V) =   0.555 ; smoothed trend M9V-L9.5V (rms=0.066mag) (3/1/2025)
 (H-Ks)(L1V) =    0.572 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
 (H-Ks)(L1V) =    0.580 ; 2MASS_J01282664-5545343_ plx=53.8699mas L1
-(H-Ks)(L1V) =  0.585 (+-0.042 sem,+-0.080 stdev) ; N=5 Cruz03
+(H-Ks)(L1V) =   0.585 (+-0.042 sem,+-0.080 stdev) ; N=5 Cruz03
 (H-Ks)(L1V) =    0.586 ; 2MASS_J06023045+3910592_ plx=85.7574mas L1V
-(H-Ks)(L1V) =  0.589 ; J-Ks=1.411, J-H=0.822 (from smoothed trends 11/1/2024)
+(H-Ks)(L1V) =   0.589 ; J-Ks=1.411, J-H=0.822 (from smoothed trends 11/1/2024)
 (H-Ks)(L1V) =    0.600 ; 2MASS_J20450238-6332066_ plx=44.2416mas L1
 (H-Ks)(L1V) =    0.628 ; 2MASS_J00154476+3516026_ plx=58.7497mas L1.0V
 (H-Ks)(L1V) =    0.628 ; 2MASS_J19090821-1937479_ plx=45.8238mas L1.0
 (H-Ks)(L1V) =    0.657 ; 2MASS_J11083081+6830169_ plx=61.8067mas L1e
-=> adopt (H-Ks)(L1V) = 0.56 [updated 11/4/2024] (J-Ks=1.38, J-H=0.82) check ***
+=> adopt (H-Ks)(L1V) = 0.55 [updated 3/1/2025] (J-Ks=1.37, J-H=0.82) 
 
 (J-Ks)(L1V) =    1.089 ; 2MASS_J09211410-2104446_ plx=79.5729mas L1 (Hsu21: thin/thick)
 (J-Ks)(L1V) =  1.15 ; dalPonte23 
@@ -149,9 +154,9 @@ Teff(L1V) =  2076 +-203 K ; Cifuentes23
 (J-Ks)(L1V) =  1.34 (+-0.02 sem,+-0.19 stdev) ; Schmidt10 N=135
 (J-Ks)(L1V) =  1.34 (+-0.24 stdev) ; Geissler11 
 (J-Ks)(L1V) =  1.35 (+-0.19 rms) ; Faherty16
+(J-Ks)(L1V) = 1.37 ; J-H=0.82, H-Ks=0.55 (3/1/2025)
 (J-Ks)(L1V) =  1.37 ; Zhang09 
 (J-Ks)(L1V) =   1.373 ; 2MASS_J16580380+7027015_ plx=54.1347mas L1(e)
-(J-Ks)(L1V) = 1.38 ; J-H=0.82, H-Ks=0.56 (11/15/2024)
 (J-Ks)(L1V) = 1.38 ; Cruz18 median J-Ks for N=13 field gravity L1s
 (J-Ks)(L1V) =   1.380 ; 2MASS_J10452400-0149576_ plx=58.8040mas L1
 (J-Ks)(L1V) =   1.383 ; 2MASS_J21501592-7520367_ plx=41.2828mas L1:
@@ -166,7 +171,7 @@ Teff(L1V) =  2076 +-203 K ; Cifuentes23
 (J-Ks)(L1V) =    1.537 ; 2MASS_J11083081+6830169_ plx=61.8067mas L1e
 (J-Ks)(L1V) =    1.605 ; 2MASS_J19090821-1937479_ plx=45.8238mas L1.0
 (J-Ks)(L1V) =    1.616 ; 2MASS_J00154476+3516026_ plx=58.7497mas L1.0V
-=> adopt (J-Ks)(L1V) = 1.38 [updated 11/15/2024] (H-Ks=0.56, J-H=0.82) ** check**
+=> adopt (J-Ks)(L1V) = 1.37 [updated 3/1/2025] (H-Ks=0.55, J-H=0.82)
 
 (u-g)(L1V) =  -2.239 ; 2MASS_J08361142+4503195_ plx=21.9244mas L1
 (u-g)(L1V) =  -1.657 ; 2MASS_J09435026+1519095_ plx=20.6001mas L1

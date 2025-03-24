@@ -26,21 +26,23 @@ LHS 292 (J1048-1120).
 (B-V)(M6.5V) = 2.10  ; sec. stan. LHS 292
 => adopt (B-V)(M6.5V) = 2.07 [updated 11/15/2023]
 
-(V-Rc)(M6.5V) =  2.002 ; pri. stan. GJ 1111 (Bessel83)
-(V-Rc)(M6.5V) =  2.01  ; sec. stan. GJ 4281 = LHS 523 = LP 760-3
-(V-Rc)(M6.5V) = 2.01 ; V-Ic=4.32, R-Ic=2.31 (1/10/2025) 
+(V-Rc)(M6.5V) = 2.00 ; V-Ic=4.32, R-Ic=2.31 (1/10/2025) 
+(V-Rc)(M6.5V) =  2.002 ; Winters21 trend V-Ks vs V-Rc for V-Ks=7.61 (2/20/2025) 
+(V-Rc)(M6.5V) = 2.002 ; pri. stan. GJ 1111 (Bessel83)
+(V-Rc)(M6.5V) = 2.01  ; sec. stan. GJ 4281 = LHS 523 = LP 760-3
 (V-Rc)(M6.5V) =   2.05 ; Bessel90 interp M6V-M7V "old disk M dwarfs" 
 (V-Rc)(M6.5V) =  2.11  ; sec. stan. GJ 3622 = LHS 292 = LP 731-58
 (V-Rc)(M6.5V) =   2.12 ; Bessell91 "old disk"
-=> adopt (V-Rc)(M6.5V) = 2.01 [updated 1/10/2025] 
+=> adopt (V-Rc)(M6.5V) = 2.00 [updated 2/20/2025] (V-Ic=4.26, R-Ic=2.26)
 
 (R-Ic)(M6.5V) =  2.259 ; pri. stan. GJ 1111 (Bessel83)
+(R-Ic)(M6.5V) = 2.26 ; V-Rc=2.00, V-Ic=4.26 (2/10/2025)
+(R-Ic)(M6.5V) =  2.261 ; Winters21 trend V-Ks vs R-Ic for V-Ks=7.60 (2/20/2025) 
 (R-Ic)(M6.5V) =  2.31  ; sec. stan. GJ 4281 = LHS 523 = LP 760-3
-(R-Ic)(M6.5V) = 2.31 ; V-Rc=2.01, V-Ic=4.32 (1/10/2025)
 (R-Ic)(M6.5V) =   2.35 ; Bessel90 interp M6V-M7V "old disk M dwarfs"  
 (R-Ic)(M6.5V) =  2.37  ; sec. stan. GJ 3622 = LHS 292 = LP 731-58
 (R-Ic)(M6.5V) =   2.38 ; Bessell91 "old disk"
-=> adopt (R-Ic)(M6.5V) = 2.31 [updated 1/10/2025] (V-Rc=2.01, V-Ic=4.32)
+=> adopt (R-Ic)(M6.5V) = 2.26 [updated 2/10/2025] (V-Rc=2.00, V-Ic=4.26)
 
 (V-Ic)(M6.5V) =   4.60 ; exemplar LHS 2930 (Probst83)
 (V-Ic)(M6.5V) =    4.50 ; Bessell91 "old disk"
@@ -48,16 +50,17 @@ LHS 292 (J1048-1120).
 (V-Ic)(M6.5V) =  4.41 ; trend Dieterich SpT vs. V-I
 (V-Ic)(M6.5V) =   4.4  ; Bessel90 interp M6V-M7V "old disk M dwarfs" 
 (V-Ic)(M6.5V) =  4.37 ; sec. stan. GJ 3289 = LHS 191
-(V-Ic)(M6.5V) = 4.32 ; V-Rc=2.01, R-Ic=2.31 (1/10/2025) 
 (V-Ic)(M6.5V) =  4.32 ; sec. stan. GJ 4281 = LHS 523 = LP 760-3
 (V-Ic)(M6.5V) =  4.313 ; Dahn17 V-Ic trend (M6-L5) for M6.5V
 (V-Ic)(M6.5V) =    4.30 ; Hawley96
 (V-Ic)(M6.5V) =   4.27 ; exemplar LHS 2090
-(V-Ic)(M6.5V) =  4.263 ; V-Ks vs V-Ic trend for V-Ks=7.60 
+(V-Ic)(M6.5V) =  4.263 ; Winters21 trend V-Ks vs V-Ic for V-Ks=7.61 
+(V-Ic)(M6.5V) =  4.263 ; V-Ks vs V-Ic trend for V-Ks=7.60
+(V-Ic)(M6.5V) = 4.26 ; V-Rc=2.00, R-Ic=2.26 (2/10/2025) 
 (V-Ic)(M6.5V) =  4.26 ; pri. stan. GJ 1111
 (V-Ic)(M6.5V) =  4.26 ; sec. stan. GJ 4281
 (V-Ic)(M6.5V) =   3.96 ; Kirkpatrick94/Table8
-=> adopt (V-Ic)(M6.5V) = 4.32 [updated 1/10/2025] (V-Rc=2.01, R-Ic=2.31) 
+=> adopt (V-Ic)(M6.5V) = 4.26 [updated 2/10/2025] (V-Rc=2.00, R-Ic=2.26) 
 
 (G-J)(M6.5V)   = 3.357 ; Bentley18/interp
 (G-Ks)(M6.5V)  = 4.269 ; Bentley18/interp
@@ -66,22 +69,15 @@ LHS 292 (J1048-1120).
 
 (V-K)(M6.5V)  = 7.7  ; Hawley96
 
-(V-Ks)(M6.5V) =   7.33  ; trend fit to Dahn17 for M6.5V
-(V-Ks)(M6.5V) = 7.395 ; sec. stan. GJ 4281 = LHS 523 = LP 760-3
-(V-Ks)(M6.5V) = 7.564 ; pri. stan. GJ 1111
-(V-Ks)(M6.5V) = 7.610 ; mean for 4 standards 
-(V-Ks)(M6.5V) = 7.627 ; sec. stan. GJ 3289
-(V-Ks)(M6.5V) =  7.673 ; exemplar LHS 2090
-(V-Ks)(M6.5V) = 7.854 ; sec. stan. GJ 3622
+(V-Ks)(M6.5V) =    7.33  ; trend fit to Dahn17 for M6.5V
+(V-Ks)(M6.5V) =  7.395 ; sec. stan. GJ 4281 = LHS 523 = LP 760-3
+(V-Ks)(M6.5V) =  7.608 ; pri. stan. GJ 1111
+(V-Ks)(M6.5V) =  7.621 ; mean for 4 standards 
+(V-Ks)(M6.5V) =  7.627 ; sec. stan. GJ 3289
+(V-Ks)(M6.5V) =   7.673 ; exemplar LHS 2090
+(V-Ks)(M6.5V) =  7.854 ; sec. stan. GJ 3622
 (V-Ks)(M6.5V) =   8.092 ; exemplar LHS 2930
-=> adopt (V-Ks)(M6.5V) = 7.60 [updated 4/25/2024]
-
-=> adopt (V-J)(M6.5V) = 6.627 [updated 1/15/2021] 
-=> adopt (V-H)(M6.5V) = 7.236 [updated 1/15/2021]
-=> adopt (B-V)(M6.5V) = 2.065 [updated 1/15/2021]
-=> adopt (V-Ic)(M6.5V) = 4.263 [updated 1/15/2021]
-=> adopt (V-Rc)(M6.5V) = 1.988 [updated 1/15/2021]
-=> adopt (R-Ic)(M6.5V) = 2.275 [updated 1/15/2021]
+=> adopt (V-Ks)(M6.5V) = 7.61 [updated 2/10/2025]
 
 (J-H)(M6.5V) =   0.505 ; SCR_J0702-6102_ M6.5Ve plx=57.0239mas
 (J-H)(M6.5V) =   0.527 ; GJ_283_B_ M6.5Ve plx=109.2545mas
@@ -369,38 +365,40 @@ Mv(M6.5V) =  17.89 ; exemplar LHS 2930
 => adopt Mv(M6.5V)   = 17.10 [updated 12/10/2020] (V-Ks=7.6, M_Ks=9.5)
 => adopt M_G(M6.5V)  = 14.40 [adopted 12/10/2020] (Mv=17.1, G-V=-2.70)
 
-
-M_G(M6.5V) =  12.8855  ; SCR_J0702-6102 plx=57.0239mas (M6.5Ve, Henry04) (GaiaDR3)
-M_G(M6.5V) =  13.1704  ; LP_943-74 = LHS 1531 plx=30.5068mas (M6.5V, Reid05) (GaiaDR3)
-M_G(M6.5V) =  13.1927  ; LP_213-67 plx=40.4318mas (M6.5Ve, Gizis00) (GaiaDR3)
-M_G(M6.5V) =  13.3529  ; LP_800-58 plx=43.1787mas (M6.5Ve, Reid03) (GaiaDR3)
-M_G(M6.5V) =  13.3684  ; LP_194-39 = LHS 1218 plx=35.1723mas (M6.5V, Reid05) (GaiaDR3)
-M_G(M6.5V) =  13.5862  ; LP_644-1 = LHS 1042 plx=42.6266mas (M6.5V, Ried05) (GaiaDR3)
-M_G(M6.5V) =  13.6229  ; G_181-42B = LP 227-47 plx=27.6517mas (M6.5V, Reid05) (GaiaDR3)
-M_G(M6.5V) =  13.6422  ; LP_702-58 plx=34.0996mas (M6.5V, Cruz03) (GaiaDR3)
-M_G(M6.5V) =  13.6756  ; LP_610-5 plx=31.4652mas (M6.5V, Cruz03) (GaiaDR3)
-M_G(M6.5V) =  13.8413  ; LP_373-29 = LHS 2330 plx=33.8986mas M6.5V, Reid05) (GaiaDR3)
-M_G(M6.5V) =  13.8974  ; LP_430-46 plx=58.0605mas (M6.5Ve, Reid03) (GaiaDR3)
-M_G(M6.5V) =  14.0361  ; LP_908-5 plx=41.9157mas (M6.5Ve, Reid03) (GaiaDR3)
-M_G(M6.5V) =  14.0878  ; LP_278-44 plx=34.3925mas (M6.5Ve, Reid03) (GaiaDR3)
-M_G(M6.5V) =  14.1596  ; LP_908-68 = LHS 325a plx=47.5472mas (M6.5V, Reid05) (GaiaDR3)
 M_G(M6.5V) =   14.264  ; trend SIMBAD d<10pc sample (GaiaDR2)
-M_G(M6.5V) =  14.2620  ; LP_675-7 plx=52.2862mas (M6.5Ve, Reid03) (GaiaDR3)
-M_G(M6.5V) =  14.3564  ; LP_522-33 = LHS 3933 plx=37.4123mas (M6.5Ve, Ried05) (GaiaDR3)
-M_G(M6.5V) = 14.3584  ; sec. stan. GJ 4281 = LHS 523 plx=91.8382mas (M6.5V,Kirkpatrick91) (GaiaDR3)
-M_G(M6.5V) =  14.3667  ; LP_718-5 plx=52.2355mas (M6.5Ve,Reid04) (GaiaDR3)
-M_G(M6.5V) = 14.3963  ; exemplar LHS 2090 = LP 368-128_ plx=157.2686mas (M6.5Ve,Ried02) (GaiaDR3)
-M_G(M6.5V) = 14.3974  ; pri. stan. GJ 1111 = G 51-15_ plx=279.2496mas (M6.5V, Kirkpatrick97) (GaiaDR3)
 M_G(M6.5V) =  14.4    ; Mv=17.1, G-V=-2.7 (GaiaDR2)
 M_G(M6.5V) =    14.4082 ; exemplar LHS_2090 = LP 368-128 (GaiaDR2) 
 M_G(M6.5V) =   14.41   ; median nearest 10 M6.5s in SIMBAD (GaiaDR2) 
 M_G(M6.5V) =   14.4163 ; pri. stan. GJ1111 = G 51-15 (GaiaDR2) 
-M_G(M6.5V) =  14.4425  ; 2MASSI_J0354200-143738 plx=56.2053mas (M6.5V,Reid03) (GaiaDR3)
-M_G(M6.5V) =  14.4463  ; LP_314-44 plx=50.7845mas (M6.5Ve,Reid03) (GaiaDR3)
-M_G(M6.5V) = 14.5278  ; sec. stan. GJ 3289 = LHS 191 plx=62.5052mas (M6.5V,Kirkpatrick91) (GaiaDR3)
-M_G(M6.5V) = 14.5429  ; sec. stan. GJ 3622 = LP 731-58 plx=219.3302mas (M6.5V,Henry94) (GaiaDR3)
-M_G(M6.5V) =  14.6529  ; LP_335-12 plx=82.356mas (M6.5Ve, Reid03) (GaiaDR3)
-M_G(M6.5V) = 14.8505  ; exemplar GJ 3855 = LHS 2930 = LP 98-79_ plx=100.3110mas (M6.5V,Kirkpatrick92) (GaiaDR3)
+
+
+M_G(M6.5V) =  12.89  ; SCR_J0702-6102 plx=57.0239mas (M6.5Ve, Henry04) (GaiaDR3)
+M_G(M6.5V) =  13.17  ; LP_943-74 = LHS 1531 plx=30.5068mas (M6.5V, Reid05) (GaiaDR3)
+M_G(M6.5V) =  13.19  ; LP_213-67 plx=40.4318mas (M6.5Ve, Gizis00) (GaiaDR3)
+M_G(M6.5V) =  13.35  ; LP_800-58 plx=43.1787mas (M6.5Ve, Reid03) (GaiaDR3)
+M_G(M6.5V) =  13.37  ; LP_194-39 = LHS 1218 plx=35.1723mas (M6.5V, Reid05) (GaiaDR3)
+M_G(M6.5V) =  13.59  ; LP_644-1 = LHS 1042 plx=42.6266mas (M6.5V, Ried05) (GaiaDR3)
+M_G(M6.5V) =  13.62  ; G_181-42B = LP 227-47 plx=27.6517mas (M6.5V, Reid05) (GaiaDR3)
+M_G(M6.5V) =  13.64  ; LP_702-58 plx=34.0996mas (M6.5V, Cruz03) (GaiaDR3)
+M_G(M6.5V) =  13.68  ; LP_610-5 plx=31.4652mas (M6.5V, Cruz03) (GaiaDR3)
+M_G(M6.5V) =  13.84  ; LP_373-29 = LHS 2330 plx=33.8986mas M6.5V, Reid05) (GaiaDR3)
+M_G(M6.5V) =  13.90  ; LP_430-46 plx=58.0605mas (M6.5Ve, Reid03) (GaiaDR3)
+M_G(M6.5V) =  14.04  ; LP_908-5 plx=41.9157mas (M6.5Ve, Reid03) (GaiaDR3)
+M_G(M6.5V) =  14.09  ; LP_278-44 plx=34.3925mas (M6.5Ve, Reid03) (GaiaDR3)
+M_G(M6.5V) =  14.16  ; LP_908-68 = LHS 325a plx=47.5472mas (M6.5V, Reid05) (GaiaDR3)
+M_G(M6.5V) =  14.26  ; LP_675-7 plx=52.2862mas (M6.5Ve, Reid03) (GaiaDR3)
+M_G(M6.5V) = 14.31 (+-0.07sem,+-0.25 stdev) ; Kirkpatrick24 median M6.5Vs d<20pc (N=22) 
+M_G(M6.5V) =  14.36  ; LP_522-33 = LHS 3933 plx=37.4123mas (M6.5Ve, Ried05) (GaiaDR3)
+M_G(M6.5V) = 14.36  ; sec. stan. GJ 4281 = LHS 523 plx=91.8382mas (M6.5V,Kirkpatrick91) (GaiaDR3)
+M_G(M6.5V) =  14.37  ; LP_718-5 plx=52.2355mas (M6.5Ve,Reid04) (GaiaDR3)
+M_G(M6.5V) = 14.40  ; exemplar LHS 2090 = LP 368-128_ plx=157.2686mas (M6.5Ve,Ried02) (GaiaDR3)
+M_G(M6.5V) = 14.40  ; pri. stan. GJ 1111 = G 51-15_ plx=279.2496mas (M6.5V, Kirkpatrick97) (GaiaDR3)
+M_G(M6.5V) =  14.44  ; 2MASSI_J0354200-143738 plx=56.2053mas (M6.5V,Reid03) (GaiaDR3)
+M_G(M6.5V) =  14.45  ; LP_314-44 plx=50.7845mas (M6.5Ve,Reid03) (GaiaDR3)
+M_G(M6.5V) = 14.53  ; sec. stan. GJ 3289 = LHS 191 plx=62.5052mas (M6.5V,Kirkpatrick91) (GaiaDR3)
+M_G(M6.5V) = 14.54  ; sec. stan. GJ 3622 = LP 731-58 plx=219.3302mas (M6.5V,Henry94) (GaiaDR3)
+M_G(M6.5V) =  14.65  ; LP_335-12 plx=82.356mas (M6.5Ve, Reid03) (GaiaDR3)
+M_G(M6.5V) = 14.85  ; exemplar GJ 3855 = LHS 2930 = LP 98-79_ plx=100.3110mas (M6.5V,Kirkpatrick92) (GaiaDR3)
 => adopt M_G(M6.5V) = 14.40 [updated 8/20/2023]
 
 M_J(M6.5V) =    9.14 ; SCR_J0702-6102_ M6.5Ve plx=57.0239mas
@@ -478,8 +476,9 @@ Mass(M6.5V) = 0.096 Msun ; Mann18 calib. for M_Ks=9.50
 Mass(M6.5V) = 0.096 Msun ; interp M6V(0.102Msun)-M7V(0.090Msun)
 Mass(M6.5V) = 0.099 (+-0.005 stdev) ; median N=44 M6.5s d<25pc Sebastian21/SPECULOOS
 Mass(M6.5V) = 0.100 Msun ; Benedict16 calibration for M_Ks=9.50
+Mass(M6.5V) = 0.101 (+-0.002sem,+-0.005stdev) ; Kirkpatrick24 median d<20pc M6.5 opt types (N=22)
 Mass(M6.5V) = 0.104 Msun ; EEM calibration to Dupuy10 systems for M_Ks=9.57
-Mass(M6.5V) = 0.110+-0.020 Msun ; Cifuentes23
+Mass(M6.5V) = 0.110 +-0.020 Msun ; Cifuentes23
 => adopt Mass(M6.5V) = 0.096 Msun [updated 11/15/2021] ** NEED TO UPDATE **
 
 logg(M6.5V) = 5.220 ; M=0.096Msun, R=0.126Rsun
@@ -497,15 +496,33 @@ GJ 1111 = LHS 248 = G 51-15 = DX Cnc
   M6.7: Mann15
 
   The only M6.5V in Boeshaar76's thesis, but not as a standard.
-  V=14.8(Bessell91), V=14.824+-0.023(Mermilliod91),
-  V=14.90(Bessell83), B-V=2.05(Bessell83),
-  B-V=2.066+-0.009(Mermilliod91), U-B=2.110(Mermilliod91),
-  V-Rc=2.00(Bessell91), V-Rc=2.002(Bessell83), Rc=12.8(Bessell91),
-  Ic=10.54(Bessell91), R-Ic=2.259(Bessell83), V-Ic=4.26(Bessell91),
-  V-Ic=4.261(Bessell83), J=8.235+-0.021(2MASS),
-  J-H=0.64(Bessell91/Glass), J-H=0.582(Bessell91/Glass->2MASS),
-  H=7.617+-0.018(2MASS), H-K=0.37(Bessell91/Glass),
-  H-Ks=0.397(Bessell91/Glass->2MASS), Ks=7.260+-0.024(2MASS),
+  V=14.8(Bessell91),
+  V=14.81(Dann76/N=4), 
+  V=14.824+-0.023(Mermilliod91),
+  V=14.86(Weistrop81/N=1),
+  V=14.867498(GaiaDR3/synth), 
+  V=14.90(Bessell83),
+  B-V=2.05(Bessell83),
+  B-V=2.06(Dahn76/N=4), 
+  B-V=2.066+-0.009(Mermilliod91),
+  B-V=2.08(Weistrop81/N=1),
+  U-B=2.11(Weistrop81/N=1), 
+  U-B=2.110(Mermilliod91),
+  V-Rc=2.00(Bessell91),
+  V-Rc=2.002(Bessell83),
+  Rc=12.8(Bessell91),
+  Rc=12.876446(GaiaDR3/synth), 
+  Ic=10.54(Bessell91),
+  Ic=10.570894(GaiaDR3/synth),
+  R-Ic=2.259(Bessell83), V-Ic=4.26(Bessell91),
+  V-Ic=4.261(Bessell83),
+  J=8.235+-0.021(2MASS),
+  J-H=0.64(Bessell91/Glass),
+  J-H=0.582(Bessell91/Glass->2MASS),
+  H=7.617+-0.018(2MASS),
+  H-K=0.37(Bessell91/Glass),
+  H-Ks=0.397(Bessell91/Glass->2MASS),
+  Ks=7.260+-0.024(2MASS),
   K=7.26(Bessell91/Glass), Ic-K=3.28(Bessell91),
   J-Ks=0.971(Bessell91/Glass=>2MASS).  V-Ks=7.564(Mermilliod,2MASS),
   V-Ks=7.584(Bessell91/Glass=>2MASS).  WISE: W1=7.030+-0.031,
@@ -527,7 +544,9 @@ GJ 1111 = LHS 248 = G 51-15 = DX Cnc
   ~2800K. post-1990 median Teff = 2769K. GaiaDR2: 279.2901+-0.1345mas,
   G=12.1857+-0.0004, E(BR/RP)=1.718, Bp-Rp=4.4148, Bp-G=2.9326,
   G-Rp=1.4822.  Mv=17.054+-0.023, M_Ks=9.490+-0.024,
-  M_G=14.416+-0.001.
+  M_G=14.416+-0.001. GaiaDR3: plx=279.2496+-0.0637mas(GaiaDR3),
+  G=12.167455+-0.002888(GaiaDR3), Bp-Rp=4.397595(GaiaDR3),
+  Bp-G=2.935595(GaiaDR3), G-Rp=1.461999(GaiaDR3).
 
 # Secondary Standards
 
@@ -541,6 +560,7 @@ GJ 4281 = LHS 523 = LP 760-3 = 2MASS J22285440-1325178
   B-V=2.03(Reid02), B-V=2.16(vanAltena95) => adopt B-V=2.10.
   Rc=14.90(Bessell91,Winters15), Rc=15.227858(GaiaDR3/synth),
   V-Rc=2.00(Bessell91), V-Rc=2.010(GaiaDR3/synth) => adopt V-Rc=2.01.
+  R-Ic=2.34(Bessel90), 
   Ic=12.56(Bessell91,Winters15), Ic=12.919325(GaiaDR3/synth),
   V-Ic=4.26(Reid02), V-Ic=4.319(GaiaDR3/synth), V-Ic=4.34(Bessell91)
   => adopt V-Ic=4.32.  J=10.768+-0.023(2MASS),

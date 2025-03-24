@@ -37,19 +37,21 @@ According to RECONS list, Prox Cen (GJ 551; J1429-6240) is the closest
 M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (J00006-0732).
 
+(B-V)(M5.5V) =   2.04  ; deprecated stan. GJ 412B = LHS 39 = WX UMa
 (B-V)(M5.5V) =  1.99  ; ter. stan. GJ 412B
 (B-V)(M5.5V) =  1.978 ; sec. stan. GJ 1002
 (B-V)(M5.5V) =  1.95  ; ter. stan. GJ 1286
 (B-V)(M5.5V) =  1.948 ; trend for V-Ks=6.5
-(B-V)(M5.5V) =  1.94  ; Bessell91 "old disk"
+(B-V)(M5.5V) =   1.94  ; Bessell91 "old disk"
 (B-V)(M5.5V) =  1.915 ; ter. stan. GJ 905
-(B-V)(M5.5V) =  1.91  ; Bessel90 "old disk M dwarfs" (interp M5V-M6V) 
+(B-V)(M5.5V) =   1.91  ; Bessel90 "old disk M dwarfs" (interp M5V-M6V) 
 (B-V)(M5.5V) =  1.900 ; pri. stan. GJ 1245AC (G208-44)
-(B-V)(M5.5V) =  1.900 ; sec. stan. GJ 1061
+(B-V)(M5.5V) =  1.900 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)
 (B-V)(M5.5V) =  1.886 ; sec. stan. GJ 551 (Proxima Centauri)
-(B-V)(M5.5V) =  1.846 ; G12-43 (Landolt92)
+(B-V)(M5.5V) =   1.846 ; G12-43 (Landolt92)
 (B-V)(M5.5V) =  1.843 ; ter. stan. GJ 473AB
-=> adopt (B-V)(M5.5V) = 1.91 [updated 1/10/2025] 
+(B-V)(M5.5V) =   1.79  ; GJ 618B = LHS 416 (M5.5V,Hawley96)
+=> adopt (B-V)(M5.5V) = 1.91 [updated 2/10/2025] 
 
 (V-K)(M5.5V)  =   6.71 ; Bessell91 "old disk"
 (V-Ks)(M5.5V) =  6.724 ; sec. stan. GJ 551 (Proxima Centauri)
@@ -57,51 +59,75 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (V-Ks)(M5.5V) =  6.556 ; pri. stan. G 208-44
 (V-Ks)(M5.5V) =  6.525 ; halfway between M5V(5.95) and M6V(7.10)
 (V-Ks)(M5.5V) =  6.517 ; ter. stan. GJ 1286
-(V-Ks)(M5.5V) =  6.480 ; sec. stan. GJ 1061
+(V-Ks)(M5.5V) =  6.460 +-0.037 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)  
 (V-Ks)(M5.5V) =  6.42  ; trend fit to Dahn17 for M5.5V
 (V-Ks)(M5.5V) =  6.413 ; ter. stan. GJ 473AB
 (V-K)(M5.5V)  =   6.4  ; Hawley96
 (V-Ks)(M5.5V) =  6.365 ; ter. stan. GJ 905
 (V-Ks)(M5.5V) =  6.320 ; sec. stan. GJ 1002
 => adopt (V-Ks)(M5.5V) = 6.50 *** [updated 7/17/2020]
-=> adopt (B-V)(M5.5V) = 1.948 
+ 
 => adopt (V-I)(M5.5V) = 3.612 
 => adopt (V-R)(M5.5V) = 1.611 
 => adopt (R-I)(M5.5V) = 2.001
 => adopt (V-J)(M5.5V) = 5.583
 => adopt (V-H)(M5.5V) = 6.171
 
-(U-B)(M5.5V) = 1.752+-0.128 ; sec. stan. GJ1002
-(U-B)(M5.5V) = 1.52         ; sec. stan. GJ1061
-(U-B)(M5.5V) = 1.48         ; ter. stan. GJ905
-(U-B)(M5.5V) = 1.270+-0.045 ; ter. stan. GJ473AB
-(U-B)(M5.5V) = 1.253 ; U-B vs. B-V trend for Landolt09 stans for B-V=1.91 (few objects)
-(U-B)(M5.5V) = 1.18         ; ter. stan. GJ 412B
-(U-B)(M5.5V) = 1.085        ; G12-43 (Landolt92)
-=> adopt (U-B)(M5.5V) = 1.3
+(U-B)(M5.5V) =  1.752 +-0.128 ; sec. stan. GJ1002
+(U-B)(M5.5V) =  1.52          ; sec. stan. GJ1061
+(U-B)(M5.5V) =  1.48          ; ter. stan. GJ905
+(U-B)(M5.5V) =  1.270 +-0.045 ; ter. stan. GJ473AB
+(U-B)(M5.5V) =  1.253 ; U-B vs. B-V trend for Landolt09 stans for B-V=1.91 (few objects)
+(U-B)(M5.5V) =  1.18          ; ter. stan. GJ 412B
+(U-B)(M5.5V) =   1.18          ; deprecated stan. GJ 412B = LHS 39 = WX UMa
+(U-B)(M5.5V) =   1.085         ; G12-43 (Landolt92)
+=> adopt (U-B)(M5.5V) = 1.25 [updated 2/20/2025] 
 
-(V-Rc)(M5.5V) =  1.555 ; ter. stan. GJ 473AB = Wolf 424 (unresolved binary)
-(V-Rc)(M5.5V) =  1.62  ; sec. stan. GJ 551 = Prox Cen
-(V-Rc)(M5.5V) =  1.69  ; Bessell91 "old disk"
-(V-Rc)(M5.5V) =  1.75  ; Bessel90 "old disk M dwarfs" (interp M5V-M6V) 
+(V-Rc)(M5.5V) =   1.412 ; GJ 618B = LHS 416 (M5.5V,Hawley96)
+(V-Rc)(M5.5V) =   1.555 ; ter. stan. GJ 473AB = Wolf 424 (unresolved binary)
+(V-Rc)(M5.5V) =   1.608 ; Winters21 trend V-Ic vs V-Rc for V-Ic=3.61 (2/1/2025)
+(V-Rc)(M5.5V) =   1.62  ; sec. stan. GJ 551 = Prox Cen
+(V-Rc)(M5.5V) =  1.62 ; V-Ic=3.61, R-Ic=1.99 (1/10/2025) 
+(V-Rc)(M5.5V) =   1.620 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)
+(V-Rc)(M5.5V) =   1.672 ; deprecated stan. GJ 412B = LHS 39 = WX UMa
+(V-Rc)(M5.5V) =   1.69  ; Bessell91 "old disk"
+(V-Rc)(M5.5V) =   1.71  ; GJ 3128 = LHS 1326 = LP 469-67 (Kirkpatrick11,Alonso-Floriano15) 
+(V-Rc)(M5.5V) =   1.75  ; Bessel90 "old disk M dwarfs" (interp M5V-M6V)
+=> adopt (V-Rc)(M5.5V) = 1.62 [updated 2/10/2025] (V-Ic=3.61, R-Ic=1.99)
 
-(R-Ic)(M5.5V) =  2.1   ; Bessel90 "old disk M dwarfs" (interp M5V-M6V) 
-(R-Ic)(M5.5V) =  2.06  ; Bessell91 "old disk"
-(R-Ic)(M5.5V) =  2.00  ; sec. stan. GJ 551 = Prox Cen
-(R-Ic)(M5.5V) =  1.96  ; ter. stan. GJ 473AB = Wolf 424 (unresolved binary)
-(R-Ic)(M5.5V) =  1.944 ; G12-43 (Landolt92)
+(R-Ic)(M5.5V) =   2.1   ; Bessel90 "old disk M dwarfs" (interp M5V-M6V)
+(R-Ic)(M5.5V) =   2.086 ; deprecated stan. GJ 412B = LHS 39 = WX UMa
+(R-Ic)(M5.5V) =   2.08  ; GJ 3128 = LHS 1326 = LP 469-67 (Kirkpatrick11,Alonso-Floriano15)
+(R-Ic)(M5.5V) =   2.06  ; Bessell91 "old disk"
+(R-Ic)(M5.5V) =   2.002 ; Winters21 trend V-Ic vs R-Ic for V-Ic=3.61 (2/1/2025)
+(R-Ic)(M5.5V) =   2.00  ; sec. stan. GJ 551 = Prox Cen
+(R-Ic)(M5.5V) =  1.99  ; V-Ic=3.61, V-Rc=1.62 (1/10/2025) 
+(R-Ic)(M5.5V) =   1.990 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)
+(R-Ic)(M5.5V) =   1.96  ; ter. stan. GJ 473AB = Wolf 424 (unresolved binary)
+(R-Ic)(M5.5V) =   1.944 ; G12-43 (Landolt92)
+(R-Ic)(M5.5V) =   1.820 ; GJ 618B = LHS 416 (M5.5V,Hawley96)
+=> adopt (R-Ic)(M5.5V) = 1.99 [updated 2/10/2025] (V-Rc=1.62, V-Ic=3.61)
 
-(V-Ic)(M5.5V) =  3.85  ; Bessel90 "old disk M dwarfs" (interp M5V-M6V) 
-(V-Ic)(M5.5V) =  3.75  ; Bessell91 "old disk"
-(V-Ic)(M5.5V) =  3.65  ; Hawley96
-(V-Ic)(M5.5V) =  3.62  ; sec. stan. GJ 551 = Prox Cen
-(V-Ic)(M5.5V) =  3.52  ; ter. stan. GJ 473AB = Wolf 424 (unresolved binary)
-(V-Ic)(M5.5V) =  3.51  ; Kirkpatrick94/Table8
-(V-Ic)(M5.5V) =  3.479 ; G12-43 (Landolt92)
+(V-Ic)(M5.5V) =   3.85  ; Bessel90 "old disk M dwarfs" (interp M5V-M6V)
+(V-Ic)(M5.5V) =   3.79  ; GJ 3128 = LHS 1326 = LP 469-67 (Kirkpatrick11,Alonso-Floriano15)
+(V-Ic)(M5.5V) =   3.758 ; deprecated stan. GJ 412B = LHS 39 = WX UMa
+(V-Ic)(M5.5V) =   3.75  ; Bessell91 "old disk"
+(V-Ic)(M5.5V) =   3.65  ; Hawley96
+(V-Ic)(M5.5V) =   3.62  ; sec. stan. GJ 551 = Prox Cen
+(V-Ic)(M5.5V) =  3.61 ; V-Rc=1.62, R-Ic=1.99 (1/10/2025)  
+(V-Ic)(M5.5V) =   3.61  ; sec. stan. GJ 1061 ([Fe/H]=-0.08)   
+(V-Ic)(M5.5V) =   3.52  ; ter. stan. GJ 473AB = Wolf 424 (unresolved binary)
+(V-Ic)(M5.5V) =   3.51  ; Kirkpatrick94/Table8
+(V-Ic)(M5.5V) =   3.479 ; G12-43 (Landolt92)
+(V-Ic)(M5.5V) =   3.233 ; GJ 618B = LHS 416 (M5.5V,Hawley96)
+=> adopt (V-Ic)(M5.5V) = 3.61 [updated 2/10/2025] (V-Rc=1.62, R-Ic=1.99)
 
+(V-J)(M5.5V) =   5.547 +-0.036 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)
+
+(V-H)(M5.5V) =   6.055 +-0.053 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) 
 
 (J-H)(M5.5V) =   0.442 ; GJ_3618_ M5.5V plx=206.9698mas
-(J-H)(M5.5V) =   0.508 ; GJ_1061_ M5.5V plx=272.1615mas
+(J-H)(M5.5V) =  0.508 +-0.048 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
 (J-H)(M5.5V) =   0.512 ; GJ_2045_ M5.5V plx=77.0838mas
 (J-H)(M5.5V) =   0.522 ; GJ_551_ M5.5Ve plx=768.0665mas
 (J-H)(M5.5V) =   0.531 ; GJ_1002_ M5.5V plx=206.3500mas
@@ -146,7 +172,7 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (H-Ks)(M5.5V) =   0.366 ; GJ_1187_ M5.5V plx=87.2032mas
 (H-Ks)(M5.5V) =   0.373 ; LP_649-72_ M5.5V plx=80.0548mas
 (H-Ks)(M5.5V) =  0.377 ; sec. stan. GJ 551 = Prox Cen (Bessell91/Glass->2MASS)
-(H-Ks)(M5.5V) =   0.405 ; GJ_1061_ M5.5V plx=272.1615mas
+(H-Ks)(M5.5V) =  0.405 +-0.049 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) 
 => adopt (H-Ks)(M5.5V) = 0.34 [updated 10/24/2024] (J-Ks=0.92, J-H=0.58)
 
 (J-Ks)(M5.5V) =   0.764 ; GJ_3618_ M5.5V plx=206.9698mas
@@ -157,7 +183,7 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (J-Ks)(M5.5V) =   0.888 ; LP_169-22_ M5.5 plx=95.5222mas
 (J-Ks)(M5.5V) =  0.904 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(M5.5V) =   0.908 ; LP_502-56_ M5.5V plx=116.0425mas
-(J-Ks)(M5.5V) =   0.913 ; GJ_1061_ M5.5V plx=272.1615mas
+(J-Ks)(M5.5V) =  0.913 +-0.029 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)   
 (J-Ks)(M5.5V) =   0.914 ; GJ_3128_ M5.5V plx=108.2582mas
 (J-Ks)(M5.5V) =   0.916 ; PM_J18057-1422_ M5.5V plx=105.5229mas
 (J-Ks)(M5.5V) =  0.918 ; median N=20 nearest M5.5Vs in SIMBAD (10/24/2024)
@@ -173,17 +199,30 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (J-Ks)(M5.5V) =   0.996 ; LP_649-72_ M5.5V plx=80.0548mas
 => adopt (J-Ks)(M5.5V) = 0.904 [updated 10/24/2024]
  
-(G-J)(M5.5V)   = 3.108 ; Bentley18/interp
-(G-Ks)(M5.5V)  = 3.996 ; Bentley18/interp
-(Ks-W2)(M5.5V) = 0.380 ; Bentley18/interp
-(W1-W2)(M5.5V) = 0.195 ; Bentley18/interp
+(G-J)(M5.5V) = 3.108 ; Bentley18/interp (GaiaDR2)
 
-(Ks-W1)(M5.5V) = 0.185 ; Bentley18/interp
-(Ks-W1)(M5.5V) = 0.190 ; Best18
-(Ks-W1)(M5.5V) = 0.216 ; fit to Dupuy12 data
-(Ks-W1)(M5.5V) = 0.223 ; Avenhaus12 for V-Ks=6.50
-(Ks-W1)(M5.5V) = 0.226 ; fit to Winters15 data for V-Ks=6.50
-=> adopt (Ks-W1)(M5.5V) = 0.22 [updated 12/29/2019]
+(G-J)(M5.5V) =   3.472 +-0.020 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) (GaiaDR3) 
+
+(G-Ks)(M5.5V) = 3.996 ; Bentley18/interp (GaiaDR2) 
+
+(G-Ks)(M5.5V) =   4.385 +-0.021 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)
+
+(Ks-W1)(M5.5V) =   0.185 ; Bentley18/interp
+(Ks-W1)(M5.5V) =   0.190 ; Best18
+(Ks-W1)(M5.5V) =   0.216 ; fit to Dupuy12 data
+(Ks-W1)(M5.5V) =   0.223 ; Avenhaus12 for V-Ks=6.50
+(Ks-W1)(M5.5V) =   0.226 ; fit to Winters15 data for V-Ks=6.50
+(Ks-W1)(M5.5V) =   0.237 +-0.051 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)
+=> adopt (Ks-W1)(M5.5V) = 0.22 [updated 1/10/2025]
+
+(Ks-W2)(M5.5V) = 0.380 ; Bentley18/interp
+
+(W1-W2)(M5.5V) = 0.195 ; Bentley18/interp
+(W1-W2)(M5.5V) =   0.246 +-0.052 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)
+
+(W1-W3)(M5.5V) =   0.366 +-0.049 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) 
+
+(W1-W4)(M5.5V) =   0.501 +-0.057 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)  
 
 (NUV-V)(M5.5V) = 5.01 ; LP 69-457 (5th nearest M5.5V in Cifuentes20; plx=69.3mas)
 (NUV-V)(M5.5V) = 5.90 ; NLTT 40406 (nearest M5.5V in Cifuentes20; plx=115.8mas)
@@ -205,39 +244,47 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (Bp-Rp)(M6V)   =  3.95  ; M6V mean (GaiaDR2)
 => adopt (Bp-Rp)(M5.5V) = 3.71 [updated 11/18/2020] (GaiaDR2)
 
+(Bp-Rp)(M5.5V) =  3.6654 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) (GaiaDR3) 
+
 (G-T)(M5.5V) = 1.359 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=3.71
 => (G-T)(M5.5V) = 1.359 [updated 10/8/2023] (GaiaDR2)
 
-(G-Rp)(M5.5V) =  1.3371 ; GJ_905    ter. stan. 
-(G-Rp)(M5.5V) = 1.3670  ; GJ_1061   sec. stan.
-(G-Rp)(M5.5V) = 1.3672  ; GJ_551    sec. stan.
-(G-Rp)(M5.5V) = 1.3758  ; GJ_1002   sec. stan.
-(G-Rp)(M5.5V) = 1.383   ; color trend M0V-M9V
-(G-Rp)(M5.5V) = 1.387   ; d<10pc SIMBAD median (N=10)
-(G-Rp)(M5.5V) =  1.3871 ; GJ_1286   ter. stan. 
-(G-Rp)(M5.5V) = 1.4311  ; GJ_1245AC pri. stan.
-=> adopt (G-Rp)(M5.5V) = 1.38 [updated 11/18/2020]
+(G-Rp)(M5.5V) =  1.3371 ; GJ_905    ter. stan.  (GaiaDR2) 
+(G-Rp)(M5.5V) = 1.3670  ; GJ_1061   sec. stan. (GaiaDR2) 
+(G-Rp)(M5.5V) = 1.3672  ; GJ_551    sec. stan. (GaiaDR2) 
+(G-Rp)(M5.5V) = 1.3758  ; GJ_1002   sec. stan. (GaiaDR2) 
+(G-Rp)(M5.5V) = 1.383   ; color trend M0V-M9V (GaiaDR2) 
+(G-Rp)(M5.5V) = 1.387   ; d<10pc SIMBAD median (N=10) (GaiaDR2) 
+(G-Rp)(M5.5V) =  1.3871 ; GJ_1286   ter. stan.  (GaiaDR2) 
+(G-Rp)(M5.5V) = 1.4311  ; GJ_1245AC pri. stan. (GaiaDR2) 
+=> adopt (G-Rp)(M5.5V) = 1.38 [updated 11/18/2020] (GaiaDR2) 
 
-(Bp-G)(M5.5V) = 2.1940 ; GJ_905      ter. stan. 
-(Bp-G)(M5.5V) = 2.2806 ; GJ_1245AC   pri. stan.
-(Bp-G)(M5.5V) = 2.3145 ; GJ_1061     sec. stan.
-(Bp-G)(M5.5V) = 2.3157 ; GJ_1002     sec. stan.
-(Bp-G)(M5.5V) = 2.328  ; d<10pc SIMBAD median (N=10)
-(Bp-G)(M5.5V) = 2.33   ; Bp-Rp=3.71, G-Rp=1.38
-(Bp-G)(M5.5V) = 2.3335 ; GJ_1286     ter. stan.
-(Bp-G)(M5.5V) = 2.4293 ; GJ_551      sec. stan.
-=> adopt (Bp-G)(M5.5V) = 2.33 [updated 11/18/2020; Bp-Rp=3.71, G-Rp=1.38]
+(G-Rp)(M5.5V) =  1.3797 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) (GaiaDR3) 
 
-(G-V)(M5.5V) =  -2.1574 ; GJ_551    
-(G-V)(M5.5V) =  -2.0598 ; GJ_1286   
-(G-V)(M5.5V) =  -2.0411 ; GJ_1061   
-(G-V)(M5.5V) =  -1.9786 ; GJ_1002
-(G-V)(M5.5V) = -1.95   ; M_G=13.35, Mv=15.30 
-(G-V)(M5.5V) =  -1.9437 ; GJ_1245AC
-(G-V)(M5.5V) =  -1.9285 ; GJ_905
-(G-V)(M5.5V) = -1.920  ; polynomial fit to SIMBAD d<25pc M dwarfs
-=> adopt (G-V)(M5.5V)  = -1.95 [updated 11/1/2020]
-=> adopt (G-Ks)(M5.5V) = 4.56 = 6.50 + -1.94 [updated 11/1/2020]
+(Bp-G)(M5.5V) = 2.1940 ; GJ_905      ter. stan. (GaiaDR2)  
+(Bp-G)(M5.5V) = 2.2806 ; GJ_1245AC   pri. stan. (GaiaDR2) 
+(Bp-G)(M5.5V) = 2.3145 ; GJ_1061     sec. stan. (GaiaDR2) 
+(Bp-G)(M5.5V) = 2.3157 ; GJ_1002     sec. stan. (GaiaDR2) 
+(Bp-G)(M5.5V) = 2.328  ; d<10pc SIMBAD median (N=10) (GaiaDR2) 
+(Bp-G)(M5.5V) = 2.33   ; Bp-Rp=3.71, G-Rp=1.38 (GaiaDR2) 
+(Bp-G)(M5.5V) = 2.3335 ; GJ_1286     ter. stan. (GaiaDR2) 
+(Bp-G)(M5.5V) = 2.4293 ; GJ_551      sec. stan. (GaiaDR2) 
+=> adopt (Bp-G)(M5.5V) = 2.33 [updated 11/18/2020; Bp-Rp=3.71, G-Rp=1.38] (GaiaDR2) 
+
+(Bp-G)(M5.5V) =  2.2856 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) (GaiaDR3)
+
+(G-V)(M5.5V) =  -2.1574 ; GJ_551  (GaiaDR2)    
+(G-V)(M5.5V) =  -2.0598 ; GJ_1286  (GaiaDR2)   
+(G-V)(M5.5V) =  -2.0411 ; GJ_1061   (GaiaDR2)  
+(G-V)(M5.5V) =  -1.9786 ; GJ_1002 (GaiaDR2) 
+(G-V)(M5.5V) = -1.95   ; M_G=13.35, Mv=15.30  (GaiaDR2) 
+(G-V)(M5.5V) =  -1.9437 ; GJ_1245AC (GaiaDR2) 
+(G-V)(M5.5V) =  -1.9285 ; GJ_905 (GaiaDR2) 
+(G-V)(M5.5V) = -1.920  ; polynomial fit to SIMBAD d<25pc M dwarfs (GaiaDR2) 
+=> adopt (G-V)(M5.5V)  = -1.95 [updated 11/1/2020] (GaiaDR2) 
+=> adopt (G-Ks)(M5.5V) = 4.56 = 6.50 + -1.94 [updated 11/1/2020] (GaiaDR2)
+
+(G-V)(M5.5V) =  -2.075 +-0.030 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) (GaiaDR3)
 
 (g-G)(M5.5V) = 2.461 ; pri. stan. GJ 1245A
 (g-G)(M5.5V) = 2.680 (+-0.095 sem, +-0.389 stdev) ; SIMBAD M5.5 d<25pc (N=10)
@@ -295,6 +342,7 @@ Mv(M5.5V) =   15.58 ; Habets81
 Mv(M5.5V) =  15.543 ; sec. stan. Proxima Centauri
 Mv(M5.5V) =   15.51 ; Dieterich14 calibration for V-Ks=6.52
 Mv(M5.5V) =   15.50 ; JohnsonApps09 calibration for V-Ks=6.50
+Mv(M5.5V) =  15.24  ; sec. stan. GJ 1061 ([Fe/H]=-0.08) 
 Mv(M5.5V) =  15.42  ; ter. stan. GJ 1286
 Mv(M5.5V) =   15.37 ; Henry04 calibration for V-Ks=6.50
 Mv(M5.5V) = 15.30  ; M_Ks=8.80, V-Ks=6.50 
@@ -321,13 +369,15 @@ M_G(M5.5V) =   13.439  ; L 143-23  (Gaia DR2)
 M_G(M5.5V) =   13.6357 ; LP 469-67 (Gaia DR2)                 
 M_G(M5.5V) =   13.6582 ; WT 460 (Gaia DR2)
 
+M_G(M5.5V) =  13.170 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) (GaiaDR3)
+M_G(M5.5V) =  13.34 (+-0.06sem,+-0.40stdev) ; Kirkpatrick24 M5.5Vs d<20pc (N=69) (GaiaDR3)
 
-M_J(M5.5V) =    9.21 ; PM_J22114+4059_ M5.5V plx=78.8762mas
-M_J(M5.5V) =    9.39 ; LP_795-15_ M5.5 plx=77.2783mas
-M_J(M5.5V) =    9.43 ; GJ_1245_C_ M5.5Ve plx=213.1329mas
-M_J(M5.5V) =    9.46 ; PM_J22403-4931A_ M5.5 plx=83.8577mas
-M_J(M5.5V) =    9.64 ; GJ_2045_ M5.5V plx=77.0838mas
-M_J(M5.5V) =   9.70 ; GJ_1061_ M5.5V plx=272.1615mas
+M_J(M5.5V) =   9.21 ; PM_J22114+4059_ M5.5V plx=78.8762mas
+M_J(M5.5V) =   9.39 ; LP_795-15_ M5.5 plx=77.2783mas
+M_J(M5.5V) =   9.43 ; GJ_1245_C_ M5.5Ve plx=213.1329mas
+M_J(M5.5V) =   9.46 ; PM_J22403-4931A_ M5.5 plx=83.8577mas
+M_J(M5.5V) =   9.64 ; GJ_2045_ M5.5V plx=77.0838mas
+M_J(M5.5V) =  9.70 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) 
 M_J(M5.5V) =   9.73 ; GJ_3512_ M5.5 plx=105.2935mas
 M_J(M5.5V) =   9.76 ; LP_415-302_ M5.5Ve plx=83.9948mas
 M_J(M5.5V) =   9.78 ; GJ_551_ M5.5Ve plx=768.0665mas
@@ -351,7 +401,7 @@ M_Ks(M5.5V) =   8.62 ; PM_J22403-4931A_ M5.5 plx=83.8577mas
 M_Ks(M5.5V) =   8.66  ; Schlaufman10 calibration for V-KS=6.50 [Fe/H]=0
 M_Ks(M5.5V) =   8.71  ; Finch14 calibration for V-Ks=6.52 
 M_Ks(M5.5V) =   8.78 ; EEM calibration for V-Ks=6.50
-M_Ks(M5.5V) =  8.78 ; sec. stan. GJ_1061_ M5.5V plx=272.1615mas
+M_Ks(M5.5V) =  8.78 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
 M_Ks(M5.5V) =   8.78 ; GJ_3512_ M5.5 plx=105.2935mas
 M_Ks(M5.5V) =  8.78  ; JohnsonApps09 calibration for V-Ks=6.50 [Fe/H]=0
 M_Ks(M5.5V) =   8.81 ; GJ_2045_ M5.5V plx=77.0838mas
@@ -441,7 +491,7 @@ Rad(M5.5V) = 0.1656 Rsun ; Rabus19 trend for Teff=2940K
 Rad(M5.5V) = 0.169 +- 0.032 Rsun ; Cifuentes23
 => adopt Rad(M5.5V) = 0.156 Rsun [updated 11/15/2021]
 
-Mass(M5.5V) =  0.155+-0.034 Msun ; Cifuentes23
+Mass(M5.5V) =  0.155 +-0.034 Msun ; Cifuentes23
 Mass(M5.5V) =  0.143 Msun  ; Wolf 424A (Torres99)
 Mass(M5.5V) =  0.131 Msun  ; Wolf 424B (Torres99)
 Mass(M5.5V) =  0.126 Msun  ; sec. stan. GJ 1061 (see below)
@@ -451,14 +501,15 @@ Mass(M5.5V) = 0.123 Msun   ; Chavalier23 calib. for M_G=13.35
 Mass(M5.5V) =  0.123 Msun  ; sec. stan. GJ 551 = Proxima Centauri (Pineda21)
 Mass(M5.5V) =  0.1225 Msun ; Kervella16 BL Ceti (GJ 65A)
 Mass(M5.5V) =  0.1221 Msun ; sec. stan. GJ 551 = Proxima Centauri (Kervella17)
+Mass(M5.5V) = 0.122 (+-0.002sem,+-0.015stdev) ; Kirkpatrick24 median d<20pc M5.5 opt types (N=72)
 Mass(M5.5V) = 0.122 Msun   ; Benedict16 calibration for M_Ks=8.80
 Mass(M5.5V) =  0.121 Msun  ; Delfosse00 calibration for M_Ks=8.80
 Mass(M5.5V) =  0.120 Msun  ; sec. stan. GJ 551 = Proxima Centauri (Ribas17)
-Mass(M5.5V) = 0.119 Msun   ; Kirkpatrick24 calibration for M_G=0.119
+Mass(M5.5V) = 0.119 Msun   ; Kirkpatrick24 calibration for M_G=13.35
 Mass(M5.5V) = 0.177 (+-0.003 sem,+-0.006 rms) ; median N=62 M5.5s d<25pc Sebastian21/SPECULOOS
 Mass(M5.5V) =  0.114 Msun  ; sec. stan. GJ 1002 (see below)
 Mass(M5.5V) =   0.0677 Msun ; Habets81
-=> adopt Mass(M5.5V) = 0.122 Msun [updated 11/15/2023]
+=> adopt Mass(M5.5V) = 0.122 Msun [updated 2/1/2025] 
 
 logg(M5.5V) = 5.142 ; M=0.123Msun, R=0.156Rsun
 => adopt logg(M5.5V) = 5.14 [updated 8/3/2023]  (note: this ~5.0X that of the Sun with logg=4.44!)
@@ -521,82 +572,170 @@ GJ 1002 = LHS 2 = G 158-27 = NLTT 248
 
 GJ 1061 = LHS 1565 = NLTT 11388 = LP 995-46 = L 372-58 = LTT 1702 = CNS5 919 = 2MASS J03355969-4430453 = Gaia DR3 4848140361962951552
   M4.5: Bidelman85, 
-  M5V: Bidelman85(M5),Henry06(M5.0V),Dieterich12
+  M5V: Bidelman85(M5),Henry06(M5.0V),Dieterich12,Jao14
+  dM5.4: Houdebine19
  *M5.5V: Henry97,Reid95,Henry02(stan)
   M6V: Zakhozhaj79,Kirkpatrick12(Henry06)
 
-  Henry97 reports: M5.5V with V=13.03 at d=3.7 pc, 20th closest star
-  at the time. Three-planet system reported by Dreizler20
-  (2020MNRAS.493..536D).
-  plx=268.66+-0.59(Weinberger16). V=13.030(Mermilliod91),
-  V=13.09(Henry06), R=11.45(Henry06), I=9.46(Henry06),
-  B-V=1.900(Mermilliod91), U-B=1.52(Mermilliod91), J=7.523+-0.020,
-  H=7.015+-0.044(2MASS),
+  Henry97 first noted the close proximity of this and first
+  characterized it as a M5.5V at d=3.7 pc, 20th closest star at the
+  time (plx=272.1615+-0.0316mas;GaiaDR3). A three-planet system was
+  reported by Dreizler20 (2020MNRAS.493..536D).
+  plx=268.66+-0.59(Weinberger16).  U=16.22(Jao14),
+  B=14.868083(GaiaDR3/synth), B=14.892+-0.046(APASS/DR9),
+  B=14.98(Jao14),
+  V=13.030(Bidelman85/Mermilliod87/Mermilliod91/Gliese91),
+  V=13.034304(GaiaDR3/synth), V=13.037+-0.074(APASS/DR9),
+  V=13.07(Jao14), V=13.09(Henry06/Hosey15/Winters15/Henry18/Winters19)
+  => adopt V=13.07.  B-V=1.854+-0.087(APASS/DR9),
+  B-V=1.900(Mermilliod91/Gliese91), B-V=1.91(Jao14) => adopt B-V=1.90.
+  U-B=1.24(Jao14), U-B=1.52(Mermilliod91/Gliese91),
+  Rc=11.423522(GaiaDR3/synth),
+  Rc=11.45(Henry06/Jao14/Hosey15/Winters15/Henry18/Winters19) => adopt
+  Rc=11.45, V-Rc=1.62.  Ic=9.426876(GaiaDR3/synth),
+  Ic=9.46(Henry06/Hosey15), Ic=9.47(Jao14/Winters15/Henry18/Winters19)
+  => adopt Ic=9.46, R-Ic=1.99, V-Ic=3.61.  R-Ic=1.970(Houdebine19).
+  R-Ij=1.60(Gliese91).  J=7.523+-0.020, H=7.015+-0.044(2MASS),
   Ks=6.610+-0.021(2MASS). V-Ks=6.48(Henry06,2MASS),
   V-Ks=6.426(Astudillo-Defru17). Mv=15.18+-0.01,
   M_Ks=8.76+-0.02. Teffs: 2934K(Hojjatpanah20), 2977+69-72K(Pineda21),
   2999+-41K(Gaidos14) => Teff = 2977K.  R=0.19Rsun(Gaidos14), M =
   0.14Msun(Gaidos14), M = 0.12Msun(Astudillo-Defru17),
-  0.125Msun(Pineda21). [Fe/H]=-0.08(Neves13).  Using Mann18
+  0.125Msun(Pineda21).
+  [Fe/H]=-0.08(Neves13),
+  [Fe/H]=-0.08(Mignon24),
+  [Fe/H]=-0.08+-0.08(Dreizler19), 
+  [Fe/H]=-0.080+-0.050(Hojjatpanah20) => adopt ([Fe/H]=-0.08). 
+  Using Mann18
   calibration, adopting [Fe/H] = -0.08+-0.1, zero extinction,
   Weinberger16 parallax, I estimate mass Msun = 0.126+-0.005 Msun.
 
-GJ 551 = Proxima Centauri = LHS 49 = alf Cen C
+        G = 10.9955+-0.0028 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+    (B-V)(M5.5V) =   1.900 +-0.030 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+   (V-Rc)(M5.5V) =   1.620 +-0.030 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+   (R-Ic)(M5.5V) =   1.990 +-0.030 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+   (V-Ic)(M5.5V) =   3.610 +-0.030 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+  (Bp-Rp)(M5.5V) =  3.6654 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+   (Bp-G)(M5.5V) =  2.2856 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+   (G-Rp)(M5.5V) =  1.3797 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+    (G-V)(M5.5V) =  -2.075 +-0.030 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+    (G-J)(M5.5V) =   3.472 +-0.020 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+       Mv(M5.5V) =  15.244 +-0.030 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+      M_G(M5.5V) =  13.170 +-0.003 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+      M_J(M5.5V) =   9.697 +-0.020 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+     M_Ks(M5.5V) =   8.784 +-0.021 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+   (V-Ks)(M5.5V) =   6.460 +-0.037 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+   (G-Ks)(M5.5V) =   4.385 +-0.021 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+    (V-J)(M5.5V) =   5.547 +-0.036 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+    (V-H)(M5.5V) =   6.055 +-0.053 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+    (J-H)(M5.5V) =   0.508 +-0.048 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+   (H-Ks)(M5.5V) =   0.405 +-0.049 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+   (J-Ks)(M5.5V) =   0.913 +-0.029 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+  (Ks-W1)(M5.5V) =   0.237 +-0.051 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+  (W1-W2)(M5.5V) =   0.246 +-0.052 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+  (W1-W3)(M5.5V) =   0.366 +-0.049 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
+  (W1-W4)(M5.5V) =   0.501 +-0.057 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)   
+
+GJ 551 = Proxima Centauri = alf Cen C = HIP 70890 = LHS 49 = 2MASS J14294291-6240465 = WDS J14396-6050C = Gaia DR3 5853498713190525696
+  M4.5: Maldonado19
   M5V: Lurie14
+  M5.0+-0.9: Sebastian21(phot)
  *M5.5V: Boeshaar76(non-stan,"M5.5e"),Bessell91,Henry97,Hawley97,Henry02(stan),Kirkpatrick(unpub.,DwarfArchive)
+  dM5.8(Houdebine19)
   M6Ve: Torres06
   M7: Gaidos14
 
-  The famous Proxima Centauri - the closest star, the nearest
+  The famous Proxima Centauri - the closest star, the nearest,
   brightest M5.5V star, one of the best studied M dwarfs in the sky.
-  Buscombe95 mentions it as M5.3Ve, but doesn't cite the primary
-  source. Segransan03 VLTI study reports: M=0.123+-0.006Msun,
-  R=0.145+-0.011Rsun, Teff=3042+-117 K, logg=5.20+-0.23 dex. From
-  Mann18 calibration, adopting [Fe/H]=0.22+-0.01 for alf Cen A, I
-  estimate mass = 0.1201+-0.0049 Msun (4.1% error). Rabus19 reports:
-  tetLD=1.103+-0.007mas, fbol=(2.866+-0.210)e-8 erg/s/cm2 (=>mbol =
-  7.359+-0.080mag IAU2015 scale), Rad=0.154+-0.001 Rsun,
-  Teff=2901+-68K, BCv = mbol - V = 7.359 - 11.111 = -3.752.  Teffs:
-  2425K(Leger15,clearly erroneous) 2727+-12K(Pecaut13),
-  2883+-60K(Gaidos14), 2900K(Pavlenko17), 2900K(Rajpurohit13),
-  2901+-68K(Rabus19), 2920K(Morales08), 2979K(Wright11),
-  2980+-80K(Ribas17), 2992+49-47K(Pineda21), 3042+-117K(Segranson03),
-  3054+-79K(Boyajian13) => <Teff> = 2920K.  J=5.357+-0.023(2MASS),
+  Ribas17 ("The full spectral radiative properties of Proxima
+  Centauri" 2017A&A...603A..58R) gives through review of UBVRI
+  photometry for Proxima. Note that it is flare star that can exhibit
+  multi-mag flares witnessed in U-band, and lower heights as one goes
+  to redder bands (e.g. Benedict93), plus rotational modulation
+  showing differential rotation (Prot~77-90d;Wargelin17), plus
+  long-term activity cycle of ~7yr (Wargelin17).  Long-term monitoring
+  with ASAS shows correlated variability in V and I band between
+  (V~11.29,V-Ic~3.83) and (V~11.16,V-Ic~3.67) (note that these are
+  ASAS photometry - unclear how well these are calibrated to Johnson
+  at such red colors?).  U=14.56(Frogel72,Ribas17/adopted),
+  B=12.988(Reid82,Ribas17/adopted), V=11.02+-0.08(Benedict93),
+  V=11.05(Cincuniequi04,Frogel72;N=2), V=11.09(Bessell83),
+  V=11.09(Winters21), V=11.11(Reid82;N=24;Ribas17/adopted),
+  V=11.110(Houdebine19), V=11.111+-0.022(Mermilliod91),
+  V=11.13(Hosey15,Henry18,Kar24), V=11.144525(GaiaDR3/synth),
+  V=11.18(Torres06), V~11.22(Wargelin17/Fig2) => adopt
+  V=11.111+-0.022.  B=13.010916(GaiaDR3/synth), B-V=1.807+-0.020(HIP),
+  B-V=1.86(Bessell83), B-V=1.878(Reid82;N=24), B-V=1.88(Torres06),
+  B-V=1.886+-0.019(Mermilliod91), B-V=1.94+-0.08(Benedict93),
+  B-V=1.97(Cincunegi04,Frogel72/N=2) => adopt B-V=1.886+-0.019.
+  U-B=1.43(Cincunegi04), U-B=1.485+-0.055(Mermilliod91),
+  Rc=9.42(Winters19), Rc=9.429(Reid82,Ribas17/adopted),
+  Rc=9.43(Bessell91), Rc=9.449097(GaiaDR3/synth),
+  Rc=9.45(Hosey15,Henry18,Kar24) => Rc=9.44+-0.01.
+  V-Rc=1.62(Bessell91), V-Rc=1.649(Bessell83), Ic=7.37(Winters19),
+  Ic=7.391306(GaiaDR3/synth), Ic=7.41(Hosey15,Henry18,Kar24),
+  Ic=7.43(Bessell91), Ic=7.442(Reid82,Ribas17/adopted) => adopt
+  Ic=7.41+-0.02.  R-Ic=2.00(Bessell91), R-Ic=2.024(Bessell83),
+  R-Ic=2.030(Houdebine19) => adopt R-Ic=2.024.  V-I=3.16(Platais03),
+  V-Ic=3.62(Bessell91), V-Ic=3.62+-0.03(HIP), V-Ic=3.673(Bessell83),
+  V-Ic=3.70(Torres06), V-Ic~3.75(Wargelin17/Fig2) => adopt V-Ic =
+  (11.111+-0.022)-(7.41+-0.02) = 3.701+-0.030.  J=5.357+-0.023(2MASS),
   H=4.835+-0.057(2MASS), Ks=4.384+-0.033(2MASS, grade 'E'; but seems
-  consistent with other K values, see Ribas17 Table 4).  Ribas17 gives
-  through review of UBVRI photometry.  B-V=1.886+-0.019(Mermilliod91),
-  B-V=1.86(Bessell83), U-B=1.485+-0.055(Mermilliod91),
-  V=11.111+-0.022(Mermilliod91), V=11.09(Bessell83),
-  Rc=9.43(Bessell91), V-Rc=1.62(Bessell91), V-Rc=1.649(Bessell83),
-  Ic=7.43(Bessell91), R-Ic=2.00(Bessell91), R-Ic=2.024(Bessell83),
-  V-Ic=3.62(Bessell91), V-Ic=3.673(Bessell83), V-J=5.754+-0.032,
-  J-H=0.63(Bessell91/Glass), H-K=0.35(Bessell91/Glass),
-  I-K=3.06(Bessell91/Cousins/Glass), K=4.36(Bessell91/Glass).
-  V-K=6.68(Bessell91/Glass).  Converting the Bessell91/Glass
-  photometry to 2MASS system via Carpenter01:
+  consistent with other K values, see Ribas17 Table
+  4). V-J=5.754+-0.032, J-H=0.63(Bessell91/Glass),
+  H-K=0.35(Bessell91/Glass), I-K=3.06(Bessell91/Cousins/Glass),
+  K=4.36(Bessell91/Glass).  V-K=6.68(Bessell91/Glass).  Converting the
+  Bessell91/Glass photometry to 2MASS system via Carpenter01:
   (V-Ks)=6.724(Bessell91/Glass->2MASS),
   (J-H)=0.572(Bessell91/Glass->2MASS),
   (H-Ks)=0.377(Bessell91/Glass->2MASS),
   (J-Ks)=0.942(Bessell91/Glass->2MASS).  Using Mermilliod91 and 2MASS:
-  V-Ks = 6.727+-0.040 (note that this is indeed roughly halfway
-  between M5V median [5.942] and M6V median [7.300], and is roughly
-  what one would predict for a typical star based on the V-J color --
-  the predicted V-K color would be 6.68.). plx =
-  771.64+-2.60(vanLeeuwen07), plx = 769.91+-0.54mas(Benedict99), Mv =
-  15.543+-0.022(V=11.111,plx=769.91), M_Ks= 8.816+-0.033. mbol =
+  V-Ks=6.727+-0.040, which matches the converted Bessell91/Glass value
+  to <0.01 mag, so despite the q=E flag, it appears consistent with
+  other ground-based estimates (and note that this is indeed roughly
+  halfway between M5V median [5.942] and M6V median [7.300], and is
+  roughly what one would predict for a typical star based on the V-J
+  color -- the predicted V-K color would be
+  6.68.). plx=771.64+-2.60(vanLeeuwen07),
+  plx=769.91+-0.54mas(Benedict99), plx=768.0665+-0.0499mas(GaiaDR3) =>
+  abs mags Mv=15.538+-0.022(Mermilliod91/GaiaDR3),
+  M_J=9.784+-0.023(2MASS/GaiaDR3), M_Ks=8.811+-0.032.  mbol =
   7.331+-0.017 (see SED fit below), Mbol = 11.763+-0.017, logL =
   -2.809+-0.007.
-
-  Best fit synthetic model using VOSA to published optical/near-IR
-  photometry: BT-Settl 2900K logg=6 [M/H]=-0.5, alpha=0.2,
-  chi^2=1.985e2: Fbol = 2.984e-8 4.675e-10 erg/s/cm^2:
-  mbol = 7.33078 +- 0.017012 mag
-  BCv = mbol - V = (7.331 +- 0.017) - (11.111+-0.022) = -3.780 +- 0.028 
-  BCj = mbol - J = (7.331 +- 0.017) - (5.357+-0.023)  = +1.974 +- 0.029.
-  Ribas17 reports fbol = (2.86+-0.14)e-8 erg/s/cm2, which
-  on IAU2015 system is mbol = 7.361+-0.053 mag. Hence
-  the Ribas17 fbol is consistent with BCv = 7.361 - 11.111 = -3.75,
-  BC_Ks = 7.361 - 4.384 = 2.977. 
+  Lbol=1.442256300e-03+-4.737831000e-05Lsun(Cifuentes20) =>
+  logL=-2.840958+-0.014272(Cifuentes20). Segransan03 VLTI study
+  reports: M=0.123+-0.006Msun, R=0.145+-0.011Rsun, Teff=3042+-117 K,
+  logg=5.20+-0.23 dex.  Teffs: 2425K(Leger15,discrepant),
+  2727+-12K(Pecaut13), 2756+-112K(Sousa24), 2810K(Kuznetsov19),
+  2840+-88K(Muirhead18), 2879+-50K(Seli22),
+  2883+-60K(Gaidos14,Mignon23,Mignon24), 2900K(Pavlenko17),
+  2900K(Cifuentes20), 2900K(Rajpurohit13), 2901+-68K(Rabus19),
+  2912K(Queiroz23), 2920K(Morales08), 2940+-13K(Houdebine19),
+  2941+-67K(Ayres23), 2979K(Wright11), 2980+-80K(Ribas17),
+  2992+49-47K(Pineda21), 2995+-106K(Sebastian21),
+  3042+-117K(Segranson03), 3050K(Yang23,IbanezBustos23),
+  3050+-100K(Carrion-Gonzales23), 3054+-79K(Boyajian13),
+  3296K(Sreejith20,discrepant), 3306K(Maldonado20,discrepant) =>
+  median <Teff>=2916K.  Best fit synthetic model using VOSA to
+  published optical/near-IR photometry: BT-Settl 2900K logg=6
+  [M/H]=-0.5, alpha=0.2 (not the best match to previously reported
+  spectral properties, but best grid point using this SED-fitting
+  tool!), chi^2=1.985e2: Fbol=2.984e-8+-4.675e-10 erg/s/cm^2: mbol =
+  7.33078+-0.017012 mag BCv = mbol - V = (7.331 +- 0.017) -
+  (11.111+-0.022) = -3.780 +- 0.028 BCj = mbol - J = (7.331 +- 0.017)
+  - (5.357+-0.023) = +1.974 +- 0.029.  Ribas17 reports fbol =
+  (2.86+-0.14)e-8 erg/s/cm2, which on IAU2015 system is
+  mbol=7.36160+-0.05319 mag (to extra digits for subsequent
+  calculations...), and adopting the GaiaDR3 parallax => Mbol =
+  11.789+-0.053, logL=-2.81944+-0.02128.  The Ribas17 fbol is
+  consistent with BCv = 7.361 - 11.111 = -3.75, BC_Ks = 7.361 - 4.384
+  = 2.977. Rad=0.1504+-0.0057Rsun(Cifuentes2),
+  Mass=0.1347+-0.0100Msun(Cifuentes20). From Mann18 calibration,
+  adopting [Fe/H]=+0.22+-0.01 for alf Cen A, I estimate mass =
+  0.1201+-0.0049 Msun (4.1% error). Rabus19 reports:
+  tetLD=1.103+-0.007mas, fbol=(2.866+-0.210)e-8 erg/s/cm2 (=>mbol =
+  7.359+-0.080mag IAU2015 scale), Rad=0.154+-0.001 Rsun,
+  Teff=2901+-68K, BCv = mbol - V = 7.359 - 11.111 = -3.752.
 
 # Tertiary Standard
 
@@ -670,14 +809,16 @@ GJ 412B = LHS 39 = WX UMa = G 176-12 = LFT 758 = LTT 12977 = 2MASS J11053133+433
   (Newton14,Gaidos14,Mann15) systematically classify it at a cooler
   type.  AB separation = 31.6" (WDS). AC separation 7.3" (not clear if
   C physical?).  GCVS lists variability of 14.2 to 16.53 mag for WX
-  UMa!  V=14.40(Mermilliod91), V=14.44(Bessell91),
-  B-V=1.99(Mermilliod91), U-B=1.18(Mermilliod91),
-  V-Rc=1.67(Bessell91), Rc=12.77(Bessell91), V-Ic=3.76(Bessell91),
-  Ic=10.68(Bessell91), J-H=0.57(Bessell91/Glass),
-  H-K=0.27(Bessell91/Glass), I-K=2.83(Bessell91/Cousins/Glass),
-  J=8.742+-0.026(2M), H=8.177+-0.024(2M), Ks=7.839+-0.026(2M),
-  K=7.85(Bessell91/Glass), V-Ks=14.40-7.839=6.561(Mermilliod91,2MASS).
-  Teffs: 2700K(Casagrande08), 2800K(Leggett00), 2831+-60K(Gaidos14),
+  UMa!  V=14.40(Mermilliod91), V=14.44(Bessell90,Bessell91),
+  B-V=1.99(Mermilliod91), B-V=2.09(Bessell90) => adopt B-V=2.04.
+  U-B=1.18(Mermilliod91), V-Rc=1.67(Bessell91), V-Rc=1.672(Bessell90),
+  R-Ic=2.086(Bessell90), Rc=12.77(Bessell91), V-Ic=3.758(Bessell90),
+  V-Ic=3.76(Bessell91), Ic=10.68(Bessell91),
+  J-H=0.57(Bessell91/Glass), H-K=0.27(Bessell91/Glass),
+  I-K=2.83(Bessell91/Cousins/Glass), J=8.742+-0.026(2M),
+  H=8.177+-0.024(2M), Ks=7.839+-0.026(2M), K=7.85(Bessell91/Glass),
+  V-Ks=14.40-7.839=6.561(Mermilliod91,2MASS).  Teffs:
+  2700K(Casagrande08), 2800K(Leggett00), 2831+-60K(Gaidos14),
   2863+-60K(Mann15), 2915+-18K(RojasAyala12) => <Teff> = 2815K. Only
   made tertiary rather than secondary standard as it does not appear
   in the Kirkpatrick or Boeshaar papers as a standard, so it has
@@ -807,3 +948,42 @@ GJ 354.1 B = HD 82443 B = LP 314-20 = DX Leo B
    Luminosity estimate: M_Ks=8.185, BC_K(M5.5V) = 2.92 => Mbol =
    11.105 => logL = -2.546.
 
+GJ 618B = LHS 416 = CD-37 10765B = LDS 6312B = L 482-31 = NLTT 42494 = 2MASS J16200321-3731485 = WDS J16202-3734B = Gaia DR3 6021430250773733632
+  M5:: Bidelman85
+ *M5.5V: Hawley96
+
+  V=14.15(Bessell90), B-V=1.79(Bessell90), V-Rc=1.412(Bessell90),
+  R-Ic=1.820(Bessell90), V-Ic=3.233(Bessell90).
+
+GJ 3128 = LHS 1326 = LP 469-67 = 2MASS J02021620+1020136 = WISEP J020215.77+102011.1
+ *M5.5V: Kirkpatrick11,Dieterich12,AlonsoFloriano15
+  M6V: Reid95,Jenkins09(M6.0),Newton14(NIR)
+  M6.5: Terrien15
+
+  In SDSS DR16.  AlonsoFloriano15: 6 spectral indiciators and fits
+  gave M5.5 and 1 gave M6.0.
+  V=15.61(Rajpurohit13),
+  V=15.70(Winters19),
+  V-Rc=1.71(Winters19), 
+  Rc=13.99(Winters19),
+  R=14.49(Rajpurohit13),
+  R-Ic=2.08(Winters19),
+  V-Ic=3.79(Winters19), 
+  Ic=11.91(Winters19),
+  J=9.842+-0.023(2MASS),
+  H=9.254+-0.025(2MASS),
+  Ks=8.928+-0.025(2MASS).  V-Ks = 15.70 - 8.928 = 6.772.  Teffs:
+  2662K(Jenkins09), 2800K(Rajpurohit13), 2860K(Stelzer13),
+  2875+-63K(Muirhead18), 2900K(Cifuentes20),
+  2928+-80K(HardegreeUllman23) => adopt Teff=2875K.
+  Mass=0.110+-0.002Msun(Muirhead18),
+  Mass=0.111+-0.004Msun(HardegreeUllman23),
+  Mass=0.112+-0.014Msun(Winters21),
+  Mass=0.1193+-0.0093Msun(Cifuente20),
+  Rad=0.1359+-0.0047Rsun(Cifuentes20),
+  Rad=0.136+-0.005Rsun(Muirhead18),
+  Rad=0.139+-0.004Rsun(HardegreeUllman23).  Lbol=1.05e-03
+  3.11e-05Lsun(HardegreeUllman23) => logL=-2.9788+-0.0129.
+  Lbol=1.17626e-03+-6.41680e-06Lsun(Cifuentes20) => logL =
+  -2.9295+-0.0024.  [Fe/H]=+0.20+-0.12(Newton14).
+  

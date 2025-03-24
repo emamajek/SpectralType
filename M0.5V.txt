@@ -292,11 +292,14 @@ however most sources have it somewhat cooler.
 [EEM 4/18/2024: using smooth trend for SIMBAD g-r data for d<50pc M dwarfs]
 
 (r-i)(M0.5V) =  0.633 (+-0.05 rms) ; West05 fit for (V-Ic)=1.886
-(r-i)(M0.5V) =  0.729 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.962
-(r-i)(M0.5V) = 0.80 (+-0.13 rms) ; Cifuentes20
-(r-i)(M0.5V) = 0.810 ; smoothed trend SpT vs r-i for SIMBAD Mdwarfs d<50pc (4/2024)
+(r-i)(M0.5V) =  0.727 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.96
+(r-i)(M0.5V) =  0.775 ; Bilir05 transform R-Ic vs r-i for R-Ic=0.96 
+(r-i)(M0.5V) =  0.80 (+-0.13 rms) ; Cifuentes20
+(r-i)(M0.5V) =   0.810 ; smoothed trend SpT vs r-i for SIMBAD Mdwarfs d<50pc (4/2024)
 (r-i)(M0.5V) =  0.928 +-0.001 ; sec. stan. GJ 96 ([Fe/H]=+0.05) (SDSS DR16)
-=> adopt (r-i)(M0.5V) = 0.81 [updated 4/18/2024]
+=> adopt (r-i)(M0.5V) = 0.78 [updated 3/1/2025]
+
+(i-Ic)(M0.5V) = 0.566 ; Jordi06 transform R-Ic vs i-Ic for R-Ic=0.96 
 
 (i-z)(M0.5V) =   1.579 +-0.001 ; sec. stan. GJ 96 ([Fe/H]=+0.05) (SDSS DR16)
 
@@ -346,14 +349,16 @@ Mv(M0.5V) =   8.79 ; deprecated stan. GJ 2155 = LHS 3947
 Mv(M0.5V) =   8.88 ; deprecated stan. GJ 720 A
 Mv(M0.5V) =    8.89 ; Kirkpatrick94
 Mv(M0.5V) =  9.01 +-0.01 ; sec. stan. GJ 96 ([Fe/H]=+0.05)  
-Mv(M0.5V) =  9.05 +-0.01 ; pri. stan. GJ 846 ([Fe/H]~0.0)  
+Mv(M0.5V) =  9.05 +-0.01 ; pri. stan. GJ 846 ([Fe/H]~0.0)
+Mv(M0.5V) = 9.06 ; G-V=-0.76, M_G=8.30 (3/1/2025) 
 Mv(M0.5V) =   9.14 ; V-Ks=3.84 => fit to Reid CNS3 data
 Mv(M0.5V) =  9.20  ; M_G=8.44, G-V=-0.76
 Mv(M0.5V) =   9.22 ; V-Ks=3.84 => fit to Jao16
 Mv(M0.5V) =   9.28 ; V-Ks=3.84 => JohnsonApps09 polynomial
 Mv(M0.5V) =   9.30 ; V-Ks=3.84 => BurgasserMamajek17 polynomial
-=> adopt Mv(M0.5V)   = 9.20 mag [updated 11/3/2019] 
-=> adopt M_G(M0.5V)  = 8.45 mag [updated 11/15/2022] (Mv=9.20, G-V=-0.75)
+=> adopt Mv(M0.5V)  = 9.20 mag [updated 11/3/2019] 
+=> adopt M_G(M0.5V) = 8.45 mag [updated 11/15/2022] (Mv=9.20, G-V=-0.75)
+[EEM: what is source of discrepency with the V-Ks vs Mv fits vs standard Mvs?]
 
 M_G(M0.5V) =  7.423 ; * alf Gem C (GaiaDR2)                
 M_G(M0.5V) =  7.445 ; HD 28343 (GaiaDR2)                          
@@ -373,10 +378,36 @@ M_G(M0.5V) =  8.505 ; BD+52 911 (GaiaDR2)
 M_G(M0.5V) = 8.529  ; trend d<10pc SIMBAD (GaiaDR2)     
 M_G(M0.5V) =  8.582 ; HD 331161A    (GaiaDR2)                     
 M_G(M0.5V) =  8.661 ; HD 115404B (GaiaDR2)                        
-M_G(M0.5V) =  8.826 ; BD+19 3268 (GaiaDR2)     
+M_G(M0.5V) =  8.826 ; BD+19 3268 (GaiaDR2)
 
-M_G(M0.5V) =   8.249 +-0.003 ; sec. stan. GJ 96 ([Fe/H]=+0.05) (GaiaDR3) 
-M_G(M0.5V) =   8.282 +-0.003 ; pri. stan. GJ 846 ([Fe/H]~0.0) (GaiaDR3) 
+M_G(M0.5V) =    7.452 ; GJ_169_ plx=89.0546mas M0.5V (GaiaDR3)
+M_G(M0.5V) =    7.666 ; GJ_1278_ plx=49.2046mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   7.849 ; GJ_520_A_ plx=47.2091mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   7.893 ; BD+33_1814A_ plx=46.8075mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   7.972 ; GJ_172_ plx=100.9161mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   7.993 ; GJ_4_B_ plx=86.8206mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.062 ; GJ_834_A_ plx=48.1082mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.113 ; GJ_2154_A_ plx=47.4196mas M0.5Vk (GaiaDR3)
+M_G(M0.5V) =   8.120 ; GJ_373_ plx=95.0477mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.146 ; GJ_720_A_ plx=64.2358mas M0.5V (GaiaDR3)
+M_G(M0.5V) =  8.249 +-0.003 ; sec. stan. GJ 96 ([Fe/H]=+0.05) (GaiaDR3) 
+M_G(M0.5V) =   8.266 ; GJ_3942_ plx=58.9971mas M0.5V (GaiaDR3)
+M_G(M0.5V) =  8.282 +-0.003 ; pri. stan. GJ 846 ([Fe/H]~0.0) (GaiaDR3)
+M_G(M0.5V) =   8.295 ; GJ_9118_B_ plx=46.2401mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.321 ; GJ_730_ plx=47.0769mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.324 ; GJ_875_ plx=68.9303mas M0.5V (GaiaDR3)
+M_G(M0.5V) =  8.33 (+-0.17sem,+-0.38stdev) ; Kirkpatrick24 median d<20pc M0.5 optical types (N=23)
+M_G(M0.5V) =   8.453 ; BD-07_1110_ plx=45.5246mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.510 ; GJ_184_ plx=72.1734mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.580 ; GJ_4120_ plx=47.5306mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.586 ; GJ_767_A_ plx=71.7155mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.648 ; GJ_2043_A_ plx=58.1993mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.650 ; GJ_369_ plx=76.1644mas dM0.5 (GaiaDR3)
+M_G(M0.5V) =   8.663 ; GJ_505_B_ plx=90.9475mas M0.5V (GaiaDR3)
+M_G(M0.5V) =   8.745 ; GJ_3018_ plx=53.2805mas M0.5V (GaiaDR3)
+M_G(M0.5V) =    9.315 ; PM_J08104-1109_ plx=50.4511mas M0.5V (GaiaDR3)
+M_G(M0.5V) =    9.456 ; GJ_637_ plx=63.4273mas M0.5V (GaiaDR3)
+=> adopt M_G(M0.5V) = 8.30 [updated 3/1/2025] 
 
 M_J(M0.5V) =    5.42 ; GJ_169_ M0.5V plx=89.0546mas
 M_J(M0.5V) =    5.55 ; GJ_1278_ M0.5V plx=49.2046mas
@@ -454,9 +485,10 @@ Mass(M0.5V) =   0.650 Msun ; Torres10 binary calibration for Mv=9.20
 Mass(M0.5V) =  0.599 Msun ; Benedict16 calibration for M_Ks=5.36
 Mass(M0.5V) =  0.585 Msun ; pri. stan. GJ 846 (median below)
 Mass(M0.5V) =  0.581 Msun ; Delfosse00 calibration for M_Ks=5.36
-Mass(M0.5V) =  0.571+-0.084 Msun ; Cifuentes23
+Mass(M0.5V) =  0.571 +-0.084 Msun ; Cifuentes23
 Mass(M0.5V) =  0.57  Msun ; sec. stan. GJ 96 ([Fe/H]=+0.05) 
 Mass(M0.5V) =  0.569 Msun ; Benedict16 calibration for Mv=9.20
+Mass(M0.5V) =  0.555 (+-0.016sem,+-0.047stdev) ; Kirkpatrick24 median d<20pc M0.5 opt types (N=44)
 Mass(M0.5V) =  0.554 Msun ; Eker15 calibration for logL=-1.266
 Mass(M0.5V) =  0.551 Msun ; Chavalier23 calib for M_G=8.45
 Mass(M0.5V) =  0.545 Msun ; Kirkpatrick24 calib for M_G=8.45
@@ -688,14 +720,20 @@ GJ 172 = HD 232979 = BD+52_857
   K7: Cannon27,Abt72(#2),Bidelman85,Reid95
   K7.5: Mann15
   K8V(e): Cowley67
- *M0V: 1956PMcCO..13a...0B,Keenan80,Keenan85,Gray03,Gaidos14(M0)
+  K8-9V: Alvarez-Hernandez23
+ *M0V: 1956PMcCO..13a...0B,Keenan80,Keenan85,Gray03,Gaidos14(M0),Fouque18(M0.0),Bowler19,Schweitzer19(M0.0)
   M0.5V: Keenan89(stan),Keenan99(stan)
-  M1V: 1925IAUT....2..117A(M1),Adams35,Joy74
+  M1V: 1925IAUT....2..117A(M1/stan!),Adams35,Joy74
   M2V: Adams26,Vyssotsky56(M2Vp)
 
-  Probably not good for a standard given that Keenan moved it from M0V
-  to M0.5V, and poor agreement among other authors. Although bright
-  for a M dwarf, it is not listed as a Henry02 standard.
+  It was the M1 standard in the 2nd IAU GA report on spectral
+  classification (complimenting the M1 giant nu Vir), and while it
+  stayed M1 on the Mt Wilson surveys (Adams, Joy), elsewhere it was
+  shifted to M0 or M0.5 and some have it even earlier as late K
+  star. So probably not a great choice of spectral standard given the
+  bewildering array of classifications between K6 and M2 by the
+  experts.  Although bright for a M dwarf, it is not listed as a
+  Henry02 standard.
 
 GJ 720A = BD+45 2743 = StKM 2-1384 = LHS 3394 = NLTT 46716 
   K7/M0V: Stephenson86

@@ -50,25 +50,30 @@ HenryJao24 standard:         L 591-042 - M2.5V ("RECONS system")
 (V-Rc)(M2.5V) =  1.04  ; Bessel90(interpolated "old disk M dwarfs" M2V-M3V) 
 (V-Rc)(M2.5V) =  1.046 ; Reid CNS3 sample M2.5 median value (N=24)
 (V-Rc)(M2.5V) =  1.048 ; pri. stan. GJ 381 = HIP 49969 ([Fe/H]~-0.1)
-(V-Rc)(M2.5V) = 1.05 ; V-Ic=2.35, R-Ic=1.30 (1/1/2025) 
+(V-Rc)(M2.5V) =  1.048 ; Koen10 M2.5V median (N=48)
+(V-Rc)(M2.5V) = 1.05 ; V-Ic=2.35, R-Ic=1.30 (1/1/2025)
+(V-Rc)(M2.5V) =  1.064 ; Winters21 trend V-Ic vs V-Rcs for V-Ic=2.35 (2/1/2025)
 (V-Rc)(M2.5V) =  1.07  ; exemplar GJ 674 = HIP 85523 
-=> adopt (V-Rc)(M2.5V) = 1.05 [updated 1/10/2025] 
+=> adopt (V-Rc)(M2.5V) = 1.05 [updated 1/10/2025] (R-Ic=1.30, V-Ic=2.35)  
 
 (R-Ic)(M2.5V) =  1.265 ; Bessel90(interpolated "old disk M dwarfs" M2V-M3V)
 (R-Ic)(M2.5V) =  1.278 ; pri. stan. GJ 381 = HIP 49969 ([Fe/H]~-0.1)
+(R-Ic)(M2.5V) =  1.286 ; Winters21 trend V-Ic vs R-Ic for V-Ic=2.35 (2/1/2025) 
+(R-Ic)(M2.5V) =  1.297 ; Koen10 M2.5V median (N=48) 
 (R-Ic)(M2.5V) = 1.30 ; V-Ic=2.35, V-Rc=1.05 (1/1/2025) 
 (R-Ic)(M2.5V) =  1.310 ; Reid CNS3 sample M2.5 median value (N=24)
 (R-Ic)(M2.5V) =  1.33  ; exemplar GJ 674 = HIP 85523
-=> adopt (R-Ic)(M2.5V) = 1.30 [updated 1/10/2025] 
+=> adopt (R-Ic)(M2.5V) = 1.30 [updated 1/10/2025] (V-Rc=1.05, V-Ic=2.35)
 
 (V-Ic)(M2.5V) =  2.305 ; Bessel90(interpolated "old disk M dwarfs" M2V-M3V)
 (V-Ic)(M2.5V) =  2.326 ; pri. stan. GJ 381 = HIP 49969 ([Fe/H]~-0.1)
+(V-Ic)(M2.5V) =  2.345 ; Koen10 M2.5V median (N=48)
 (V-Ic)(M2.5V) =  2.35  ; Kirkpatrick94/Table8
-(V-Ic)(M2.5V) =  2.35  ; Hawley96
 (V-Ic)(M2.5V) = 2.35 ; V-Rc=1.05, R-Ic=1.30 (1/1/2025) 
+(V-Ic)(M2.5V) =  2.35  ; Hawley96
 (V-Ic)(M2.5V) =  2.356 ; Reid CNS3 sample M2.5 median value (N=24)
 (V-Ic)(M2.5V) =  2.40  ; exemplar GJ 674 = HIP 85523 
-=> adopt (V-Ic)(M2.5V) = 2.35 [updated 1/1/2025]  
+=> adopt (V-Ic)(M2.5V) = 2.35 [updated 1/10/2025] (V-Rc=1.05, R-Ic=1.30)
 
 (V-J) = 3.69 (+-0.28 stdev) ; Lepine12
 
@@ -286,8 +291,8 @@ but then as we go to M3.5V, M4V, one starts getting a lot of active NUV-V~5-9 st
 
 (r-i)(M2.5V) =  0.965 ; Kesseli17 interp M2V-M3V
 (r-i)(M2.5V) =  1.01  ; Covey07
-(r-i)(M2.5V) =  1.029 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.265
 (r-i)(M2.5V) =   1.043 ; SDSS_J093513.17+611437.0 M2.5V plx=50.3878mas
+(r-i)(M2.5V) =  1.063 ; Jordi06 Pop I R-Ic=>(r-i) for R-Ic=1.30
 (r-i)(M2.5V) =  1.102 (+-0.05 rms) ; West05 fit for (V-Ic)=2.306
 (r-i)(M2.5V) =   1.128 ; SDSS_J164607.79+414205.9 M2.5 plx=20.0644mas
 (r-i)(M2.5V) =   1.136 ; SDSS_J075249.98+824143.5 M2.5 plx=15.8799mas
@@ -300,7 +305,9 @@ but then as we go to M3.5V, M4V, one starts getting a lot of active NUV-V~5-9 st
 (r-i)(M2.5V) =   1.378 ; SDSS_J113223.05+181622.6 M2.5V plx=48.6378mas
 (r-i)(M2.5V) =    2.087 ; SDSS_J165947.64+365753.6 M2.5 plx=19.1067mas
 (r-i)(M2.5V) =    3.987 ; SDSS_J145232.17+001008.1 M2.5V plx=29.0509mas
-=> adopt (r-i)(M2.5V) = 1.15 [updated 12/20/2024]
+=> adopt (r-i)(M2.5V) = 1.08 [updated 3/1/2025]
+
+(i-Ic)(M2.5V) = 0.651 ; Jordi06 transform R-Ic vs i-Ic for R-Ic=1.30
 
 (g-V)(M2.5V) = 0.843 ; Jordi06 B-V=>g-V for B-V=1.53
 (g-V)(M2.5V) = 0.847 ; Just08/Chonis08 B-V=>g-V for B-V=1.53
@@ -355,7 +362,38 @@ M_G(M2.5V) =  9.757 ; trend d<10pc SIMBAD (GaiaDR2)
 M_G(M2.5V) =   9.969 ; L 127-97  (GaiaDR2)                     
 M_G(M2.5V) =   10.004 ; L 678-39 (GaiaDR2)                       
 M_G(M2.5V) =   10.186 ; CD-45 1184 (GaiaDR2)                    
-M_G(M2.5V) =   10.785 ; CD-17 588B (GaiaDR2) 
+M_G(M2.5V) =   10.785 ; CD-17 588B (GaiaDR2)
+
+
+M_G(M2.5V) =    8.69  ; GJ_195_A_ plx=74.9521mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    8.92  ; GJ_537_B_ plx=89.5327mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.05  ; LP_837-53_ plx=71.2607mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.12  ; GJ_176_ plx=105.4275mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.13  ; GJ_361_ plx=86.6196mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.20  ; GJ_360_ plx=84.3281mas M2.5Ve (GaiaDR3)
+M_G(M2.5V) =   9.30  ; pri. stan. GJ 381B
+M_G(M2.5V) =    9.41  ; GJ_767_B_ plx=71.6836mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.41  ; GJ_588_ plx=168.9965mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.53  ; GJ_2130_B_ plx=70.7335mas M2.5 (GaiaDR3)
+M_G(M2.5V) =    9.54  ; GJ_26_ plx=78.8965mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.56  ; GJ_3126_ plx=84.0554mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.59  ; GJ_425_B_ plx=76.1918mas M2.5Ve (GaiaDR3)
+M_G(M2.5V) =    9.59  ; GJ_226_ plx=105.6903mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.79  ; GJ_3452_ plx=78.1626mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.84  ; GJ_4040_ plx=71.4952mas M2.5V (GaiaDR3)
+M_G(M2.5V) =    9.98  ; GJ_118_ plx=85.1168mas M2.5V (GaiaDR3)
+M_G(M2.5V) =   10.01  ; GJ_357_ plx=105.9789mas M2.5V (GaiaDR3)
+M_G(M2.5V) =   10.18  ; GJ_145_ plx=91.1477mas M2.5V (GaiaDR3)
+M_G(M2.5V) =   10.24  ; GJ_4154_ plx=93.7431mas M2.5V (GaiaDR3)
+M_G(M2.5V) =   10.29  ; GJ_63_ plx=75.8856mas M2.5V (GaiaDR3)
+M_G(M2.5V) =   10.40  ; PM_J07199+8404_ plx=80.0241mas M2.5V (GaiaDR3)
+M_G(M2.5V) =   10.50  ; GJ_1050_ plx=92.0028mas M2.5V (GaiaDR3)
+M_G(M2.5V) =   10.51  ; GJ_1248_ plx=75.2548mas M2.5V (GaiaDR3)
+M_G(M2.5V) =   10.64  ; PM_J09218-0219_ plx=83.6782mas M2.5V (GaiaDR3)
+M_G(M2.5V) =   10.88  ; GJ_3709_ plx=78.4576mas M2.5V (GaiaDR3)
+
+
+M_G(M2.5V) =  9.75 (+-0.08sem,+-0.55stdev) ; Kirkpatrick24 median d<20pc M2.5 optical types (N=76)
 
 
 Mv(M2.5V) =   10.85 ; Kirkpatrick94/Table8
@@ -477,13 +515,14 @@ Rad(M2.5V) =  0.299+-0.010   Rsun ; non-standard GJ 581 (vonBraun11)
 
 *** note that <Radius> for their M3V stars with N=3 is 0.4097+-0.0075 Rsun 
 
-Mass(M2.5V) = 0.3995 Msun ; Mann18 calib. for M_Ks=6.26
-Mass(M2.5V) =  0.403 Msun  ; Delfosse00 calib. for M_Ks=6.26
-Mass(M2.5V) = 0.409 Msun  : Kirkpatrick24 calib. for M_G=9.59
-Mass(M2.5V) = 0.417 Msun  ; Chavalier23 calib. for M_G=9.59
-Mass(M2.5V) = 0.431 +-0.092 Msun ; Cifuentes23
-Mass(M2.5V) =  0.432 Msun  ; pri. of GJ54AB, unresolved SpT=M2.5V (Benedict16)
-Mass(M2.5V) = 0.445 Msun  ; Benedict16 calibration for M_Ks=6.26
+Mass(M2.5V) =  0.391 (+-0.010sem,+-0.097stdev) Msun ; Kirkpatrick24 median d<20pc M2.5 opt types (N=76)
+Mass(M2.5V) =  0.3995 Msun ; Mann18 calib. for M_Ks=6.26
+Mass(M2.5V) =   0.403 Msun  ; Delfosse00 calib. for M_Ks=6.26
+Mass(M2.5V) =  0.409 Msun  : Kirkpatrick24 calib. for M_G=9.59
+Mass(M2.5V) =  0.417 Msun  ; Chavalier23 calib. for M_G=9.59
+Mass(M2.5V) =  0.431 +-0.092 Msun ; Cifuentes23
+Mass(M2.5V) =   0.432 Msun  ; pri. of GJ54AB, unresolved SpT=M2.5V (Benedict16)
+Mass(M2.5V) =  0.445 Msun  ; Benedict16 calibration for M_Ks=6.26
 => adopt Mass(M2.5V) = 0.42 Msun [updated 11/15/2023]
 
 logg(M2.5V) = 4.813 ; M=0.42Msun, R=0.421Rsun
@@ -501,19 +540,78 @@ GJ 381 = HIP 49969 = LHS 2230 = NLTT 23666 = G 53-28 = G 162-24 = G 55-2 = L 968
  *M2.5V: Walker83,Kirkpatrick91(pri),Reid95,Henry02,Reid04,Kirkpatrick(GrayCorbally09)(pri),Alonso-Floriano15("reference" stan.)
   M3V: Boeshaar76(non-stan),Bidelman85
 
-  V=10.64(HIP,TYC1), V=10.640+-0.010(Mermilliod91), V=10.638(Hauck90),
-  V=10.629(Koen10), B-V=1.566+-0.012(HIP),
-  B-V=1.573+-0.007(Mermilliod91), B-V=1.576(Koen10) => adopt
-  B-V=1.573.  U-B=1.201+-0.04(Mermilliod91), V-Rc=1.048(Koen10) =>
-  adopt V-Rc=1.048.  V-Ic=2.32+-0.01(HIP), V-Ic=2.326(Koen10) => adopt
-  V-Ic=2.326, R-Ic=1.278. J=7.021+-0.023(2MASS),
-  H=6.471+-0.049(2MASS), Ks=6.193+-0.026(2MASS).
-  V-Ks=10.640-6.193=4.447(HIP,2MASS).  Teff = 3459K(Kuznetskov19),
+  SIMBAD has GJ 381 and GJ 381 B included in same entry as it is a tight binary WDS J10121-0241AB = ** DEL 3. WDS lists DEL 3 binary with epoch 2023 separation 0.2", with mag1=9.9, mag2=10.9. 
+  Binary has entry in GaiaDR2 (Gaia DR2 3828751074215823872) with high chi2 fit,
+  and GaiaDR3 does not have parallax but does have photometry. 
+  V=10.64(HIP,TYC1),
+  V=10.64(Bessell90), 
+  V=10.640+-0.010(Mermilliod91),
+  V=10.638(Hauck90),
+  V=10.629(Koen10),
+  B-V=1.566+-0.012(HIP),
+  B-V=1.573+-0.007(Mermilliod91),
+  B-V=1.576(Koen10),
+  B-V=1.587(Bessell90),
+  => adopt B-V=1.573.
+  U-B=1.201+-0.04(Mermilliod91).
+  V-Rc=1.048(Koen10),
+  V-Rc=1.051(Bessell90)
+  => adopt V-Rc=1.05.
+  R-Ic=1.274(Bessell90),
+  R-Ic=1.278(Koen10) =>
+  adopt R-Ic=1.276. 
+  V-Ic=2.32+-0.01(HIP),
+  V-Ic=2.326(Koen10),
+  V-Ic=2.33(Bessell90)
+  => adopt V-Ic=2.326. 
+  
+  J=7.021+-0.023(2MASS),
+  H=6.471+-0.049(2MASS),
+  Ks=6.193+-0.026(2MASS).
+  V-Ks=10.640-6.193=4.447(HIP,2MASS).
+  Teff = 3459K(Kuznetskov19),
   3460K(Morales08), 3538+-80K(Gaidos14) => <Teff> = 3460K.
   [Fe/H]=-0.07(Gaidos14), [Fe/H]=-0.11(Kuznetsov19) => [Fe/H]~-0.1.
   GaiaDR2: plx= 86.6489+-0.7014mas, G=9.6081 0.0008, Bp-Rp=2.3866,
   Bp-G=1.2888, G-Rp=1.0978.  Mv = 10.33+-0.02, M_Ks=5.88+-0.02,
-  M_G=9.30.
+  M_G=9.30. The default parallax in SIMBAD is from GaiaDR2.
+  GaiaDR3: G=9.689157+-0.007532, Bp-Rp=2.383390(GaiaDR3), Bp-G=1.173904(GaiaDR3),
+  G-Rp=1.209486(GaiaDR3).
+
+        G =  9.6892+-0.0075 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+    (B-V)(M2.5V) =   1.573 +-0.007 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+    (U-B)(M2.5V) =   1.201 +-0.040 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (V-Rc)(M2.5V) =   1.050 +-0.010 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (R-Ic)(M2.5V) =   1.276 +-0.010 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (V-Ic)(M2.5V) =   2.326 +-0.010 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+  (Bp-Rp)(M2.5V) =  2.3834 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (Bp-G)(M2.5V) =  1.1739 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (G-Rp)(M2.5V) =  1.2095 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+    (G-V)(M2.5V) =  -0.951 +-0.013 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+    (G-J)(M2.5V) =   2.668 +-0.024 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+       Mv(M2.5V) =  10.329 +-0.020 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+      M_G(M2.5V) =   9.378 +-0.019 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+      M_J(M2.5V) =   6.710 +-0.029 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+     M_Ks(M2.5V) =   5.882 +-0.031 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (V-Ks)(M2.5V) =   4.447 +-0.028 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (G-Ks)(M2.5V) =   3.496 +-0.027 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+    (V-J)(M2.5V) =   3.619 +-0.025 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+    (V-H)(M2.5V) =   4.169 +-0.050 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+    (J-H)(M2.5V) =   0.550 +-0.054 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (H-Ks)(M2.5V) =   0.278 +-0.055 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (J-Ks)(M2.5V) =   0.828 +-0.035 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+  (Ks-W1)(M2.5V) =   0.145 +-0.058 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+  (W1-W2)(M2.5V) =   0.197 +-0.057 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+  (W1-W3)(M2.5V) =   0.205 +-0.054 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+  (W1-W4)(M2.5V) =   0.355 +-0.066 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas     
+   (u-g)(M2.5V) =   0.353 +-0.041 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas (DR16)
+   (g-r)(M2.5V) =   3.835 +-0.015 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas (DR16)
+   (r-i)(M2.5V) =   1.032 +-0.001 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas (DR16)
+   (i-z)(M2.5V) =   0.373 +-0.001 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas (DR16)
+   (g-V)(M2.5V) =   3.239 +-0.018 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas (DR16)     
+   (z-J)(M2.5V) =   1.618 +-0.023 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas (DR16)     
+   (g-G)(M2.5V) =   4.190 +-0.017 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas (DR16)    
+   (i-J)(M2.5V) =   1.991 +-0.023 ; pri. stan. GJ 381 = HIP 49969 M2.5V plx=86.6489mas (DR16) 
 
 # Secondary Standard
 
@@ -569,7 +667,7 @@ GJ 226 = HIP 29277 = LHS 215 = GCTP 1358 = G 222-11 = 2MASS J06101978+8206256
 
 # Exemplar
 
-GJ 674 = HIP 85523 = LHS 449 = LTT 6942 = CD-46 11540 = 2MASS J17283991-4653424
+GJ 674 = HIP 85523 = LHS 449 = LTT 6942 = CD-46 11540 = [CS62] E7 64 = 2MASS J17283991-4653424
   K5: 1939cfsc.book.....S 
   M2V(e): Riaz06
   M2+V: Gray06
@@ -579,23 +677,47 @@ GJ 674 = HIP 85523 = LHS 449 = LTT 6942 = CD-46 11540 = 2MASS J17283991-4653424
 
   Include here as it is a well-characterized exoplanet host with
   interferometrically measured diameter, and whose modern types
-  bracket M2V-M3V, and with PMSU type M2.5V. Exoplanet (Bonfils07
-  2007A&A...474..293B) is 11 Me in 4.7 day orbit.  Vereshchagin15
-  includes in Castor stream.  plx = 219.8012+-0.0487mas(GaiaDR2).
-  V=9.37(Bessel90/Cousins), V=9.407(Koen10),
-  B-V=1.53(Bessel90/Cousins), B-V=1.566(Koen10), U-B=1.204(Koen10),
-  V-Rc=1.070(Koen10), V-Rc=1.071(Bessel90/Cousins) => adopt V-Rc=1.07.
+  bracket M2V-M3V, and with PMSU type M2.5V. The star is also a
+  Cousins photometric system standard star ([CS62] E7 64 or "E764" in
+  Menzies89).  Exoplanet (Bonfils07 2007A&A...474..293B) is 11 Me in
+  4.7 day orbit.  Vereshchagin15 includes in Castor stream. Fairly
+  active, but not X-ray saturated: Prot=33.29d and
+  logLx/Lbol=-4.21(Wright11) plx = 219.8012+-0.0487mas(GaiaDR2).
+  V=9.36(Cousins62), V=9.364+-0.005(Mermilliod91),
+  V=9.37(Bessel90/Cousins), V=9.390(Menzies89/stan), V=9.407(Koen10),
+  V=9.411+-0.004(Graham82) => adopt V=9.39.  B-V=1.53(Cousins62),
+  B-V=1.53(Bessel90/Cousins), B-V=1.534+-0.005(Mermilliod91),
+  B-V=1.549+-0.009(Graham82), B-V=1.557(Menzies89/stan),
+  B-V=1.566(Koen10) => adopt B-V=1.56.  U-B=1.204(Koen10),
+  U-B=1.210(Mermilliod91), U-B=1.23(Menzies89/stan),
+  V-Rc=1.070(Koen10), V-Rc=1.071(Bessel90/Cousins),
+  V-Rc=1.080(Menzies89/stan), V-Rc=1.120+-0.009(Graham82), => adopt
+  V-Rc=1.07.  R-Ic=1.320(Menzies89/stan), R-Ic=1.321+-0.004(Graham82),
   R-Ic=1.330(Bessel90/Cousins) => adopt R-Ic=1.33.
-  V-Ic=2.401(Koen10), V-Ic=2.401(Bessel90/Cousins) => adopt V-Ic=2.40.
+  V-Ic=2.400(Menzies89/stan), V-Ic=2.401(Koen10),
+  V-Ic=2.401(Bessel90/Cousins) => adopt V-Ic=2.40.
+  J=5.711+-0.019(2MASS), H=5.154+-0.033(2MASS),
   Ks=4.855+-0.018(2MASS).  V-Ks = 9.407 - 4.855 = 4.552.  Mv=11.12,
-  M_Ks=6.57+-0.02.  Teffs: 3409+-25K(Rabus19), 3451+-157K(Stassun19),
-  3453+-75K(Gaidos14), 3456+-92K(Hojjatpanah19), 3460K(Morales08),
-  3478+-100K(Houdebine16), 3570K(Wright11) => <Teff> ~ 3450K.
-  Rad=0.35+-0.05Rsun(Gaidos14),
+  M_Ks=6.57+-0.02.  Teffs: 3370K(Kuznetsov19), 3409+-25K(Rabus19),
+  3451+-157K(Stassun19), 3453+-75K(Gaidos14),
+  3456+-92K(Hojjatpanah19), 3460K(Morales08), 3478+-100K(Houdebine16),
+  3570K(Wright11) => <Teff> ~ 3450K.  Rad=0.35+-0.05Rsun(Gaidos14),
   Mass=0.36+-0.07Msun(Gaidos14). Rabus19: tetLD=0.737+-0.037mas, fbol
   = (2.443+-0.232)e-8 erg/s/cm2 (mbol = 7.533+-0.103 IAU2015 scale),
   Rad = 0.360+-0.018 Rsun, Teff= 3409+-25K.  G=8.3306 0.0012,
-  Bp-Rp=2.4657, Bp-G=1.3507, G-Rp=1.1150.
+  Bp-Rp=2.4657, Bp-G=1.3507, G-Rp=1.1150. logg=4.81(Kuznetsov19),
+  logg=4.92+-0.21(Santos13). Metallicities:
+  [Fe/H]=-0.26+-0.11(Antoniadis-Karnavas24/Sousa24),
+  [Fe/H]=-0.257+-0.080(Hojjatpanah19), [Fe/H]=-0.25(Neves13),
+  [Fe/H]=-0.25+-0.10(Santos13), [Fe/H]=-0.25(Mignon24),
+  [Fe/H]=-0.24(Santos17), [Fe/H]=-0.20+-0.09(Maldonado19),
+  [Fe/H]=-0.16+-0.09(Maldonado20), [M/H]=-0.143(Houdebine17),
+  [Fe/H]=0.00+-0.04(Ayres23), [Fe/H]=+0.03(Kuznetsov19).  Given the
+  VKs photometry and distance, the various photometric metallicity
+  calibrations yield: [Fe/H]=-0.28(Bonfils05/calib),
+  [Fe/H]=-0.22(Schlaufman10/calib), [Fe/H]=-0.21(Neves12/calib),
+  [Fe/H]=-0.11(JohnsonApps09/calib). So the star appears to be
+  somewhat below the MS and somewhat metal-poor - adopt [Fe/H]=-0.2.
 
 # Deprecated Standards
 

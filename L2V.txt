@@ -29,7 +29,8 @@ Teff(L2V) =  1961 +-193 K ; Cifuentes23
 Teff(L2V) =  1959 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(L2V) =  1951 (+-115 rms) K ; median N=10 d<25pc L2s in Sebastian21/SPECULOOS
 Teff(L2V) =  1937 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(L2V) =  1922 K ; pri. stan. 2MASS J08472872-1532372 (Dieterich14) 
+Teff(L2V) =  1922 K ; pri. stan. 2MASS J08472872-1532372 (Dieterich14)
+Teff(L2V) =  1898 (+-64sem,+-104stdev) ; Kirkpatrick24 median d<20pc L2 opt types (N=11)
 Teff(L2V) =  1874 K ; Kirkpatrick21 (median for L2 optical types; N=10)
 Teff(L2V) =  1850 K ; Cifuentes20 <Teff> for CARMENES L2V(N=15)
 => adopt Teff(L2V) = 1960 K (logT = 3.2923) [updated 12/1/2024]
@@ -260,8 +261,8 @@ Teff(L2V) =  1850 K ; Cifuentes20 <Teff> for CARMENES L2V(N=15)
 (J-H)(L2V) =  0.890 (+-0.14 rms); SIMBAD d<30pc trend for Ldwarfs
 (J-H)(L2V) =   0.891 ; 2MASS_J03303511-0025346_ plx=35.5032mas L2
 (J-H)(L2V) =  0.91 (+-0.14 rms) ; Faherty16
-(J-H)(L2V) = 0.91  ; J-Ks=1.51, H-Ks=0.60 (11/20/2024) 
-(J-H)(L2V) = 0.919 ; smoothed trend M9V-L9.5V (11/1/2024) 
+(J-H)(L2V) = 0.919 ; smoothed trend M9V-L9.5V (11/1/2024)
+(J-H)(L2V) = 0.92  ; J-Ks=1.51, H-Ks=0.59 (3/1/2025) 
 (J-H)(L2V) =   0.923 ; 2MASS_J13482456-4227441_ plx=40.7999mas L2
 (J-H)(L2V) =   0.926 ; 2MASS_J08234818+2428577_ plx=40.1088mas L2
 (J-H)(L2V) =   0.932 ; 2MASS_J20360316+1051295_ plx=41.0458mas L2
@@ -275,10 +276,10 @@ Teff(L2V) =  1850 K ; Cifuentes20 <Teff> for CARMENES L2V(N=15)
 (J-H)(L2V) =   1.060 ; 2MASS_J05342451+1652559_ plx=34.7517mas L2(pec)
 (J-H)(L2V) =   1.105 ; 2MASS_J22064498-4217208_ plx=34.0827mas L2V
 (J-H)(L2V) =   1.155 ; 2MASS_J17392515+2454421_ plx=41.8667mas L2
-=> adopt (J-H)(L2V) = 0.91 [updated 11/20/2024] (J-Ks=1.51, H-Ks=0.60)
+=> adopt (J-H)(L2V) = 0.92 [updated 3/1/2025] (J-Ks=1.51, H-Ks=0.59)
 [EEM 1/1/2025: note Best18 distribution of nearby L2Vs is a bit odd: 6 have J-H=0.77-0.88
 and 5 have J-H=0.95-1.05, with a gap of 0.07. Both primary standards have J-H~0.88.
-Does this have to do with substellar boundary?]
+Does this have to do with substellar boundary? or mix of old MS vs. very young/contracting/low-g objects?]
  
 (H-Ks)(L2V) =   0.429 ; 2MASS_J02192807-1938416_ plx=36.5009mas L2
 (H-Ks)(L2V) =   0.493 ; 2MASS_J04124640-0734097_ plx=59.9904mas L2pec
@@ -294,10 +295,10 @@ Does this have to do with substellar boundary?]
 (H-Ks)(L2V) =  0.576 (+-0.09 rms); trend SIMBAD d<30pc L dwarfs
 (H-Ks)(L2V) =   0.578 ; 2MASS_J11553952-3727350_ plx=84.7296mas L2e
 (H-Ks)(L2V) =   0.583 ; 2MASS_J03303511-0025346_ plx=35.5032mas L2
+(H-Ks)(L2V) = 0.59 ; J-Ks=1.51, J-H=0.92 (3/1/2025)
 (H-Ks)(L2V) =  0.59 (+-0.11 rms) ; Faherty16
-(H-Ks)(L2V) =  0.59 (+-0.14 rms) ; Zhang09 
-(H-Ks)(L2V) = 0.60 ; J-Ks=1.51, J-H=0.91 (11/20/2024)
-(H-Ks)(L2V) = 0.604 ; smoothed trend M9V-L9.5V (rms=0.058mag) (11/15/2024) 
+(H-Ks)(L2V) =  0.59 (+-0.14 rms) ; Zhang09
+(H-Ks)(L2V) = 0.593 ; smoothed trend M9V-L9.5V (rms=0.066mag) (3/1/2025) 
 (H-Ks)(L2V) =   0.604 ; 2MASS_J09221952-8010399_ plx=34.0366mas L2::
 (H-Ks)(L2V) =   0.605 ; 2MASS_J04455387-3048204_ plx=61.9364mas L2
 (H-Ks)(L2V) =   0.606 ; 2MASS_J21041491-1037369_ plx=58.0183mas L2
@@ -311,7 +312,7 @@ Does this have to do with substellar boundary?]
 (H-Ks)(L2V) =   0.710 ; 2MASS_J21351193+7312351_ plx=41.2337mas L2:
 (H-Ks)(L2V) =    0.813 ; 2MASS_J05342451+1652559_ plx=34.7517mas L2(pec)
 (H-Ks)(L2V) =    0.841 ; 2MASS_J22064498-4217208_ plx=34.0827mas L2V
-=> adopt (H-Ks)(L2V) = 0.60 [updated 11/20/2024] (J-Ks=1.51, J-H=0.91)
+=> adopt (H-Ks)(L2V) = 0.59 [updated 3/1/2025] (J-Ks=1.51, J-H=0.92)
 [EEM 1/1/2025: note that the standards are near H-Ks~0.54]
 
 (J-Ks)(L2V) =   1.200 ; 2MASS_J02192807-1938416_ plx=36.5009mas L2
@@ -333,7 +334,7 @@ Does this have to do with substellar boundary?]
 (J-Ks)(L2V) =   1.503 ; 2MASS_J08283419-1309198_ plx=85.6014mas L2
 (J-Ks)(L2V) =   1.503 ; 2MASS_J20360316+1051295_ plx=41.0458mas L2
 (J-Ks)(L2V) =  1.51 (+-0.21 rms) ; Faherty16
-(J-Ks)(L2V) = 1.51  ; J-H=0.91, H-Ks=0.60 (11/20/2024)
+(J-Ks)(L2V) = 1.51  ; J-H=0.92, H-Ks=0.59 (3/1/2025)
 (J-Ks)(L2V) = 1.515 ; smoothed trend M0V-L9V 10/24/2024 (rms=0.077mag)
 (J-Ks)(L2V) =  1.52  ; Faherty09
 (J-Ks)(L2V) =   1.582 ; 2MASS_J13482456-4227441_ plx=40.7999mas L2
@@ -347,7 +348,7 @@ Does this have to do with substellar boundary?]
 (J-Ks)(L2V) =   1.856 ; 2MASS_J17392515+2454421_ plx=41.8667mas L2
 (J-Ks)(L2V) =   1.873 ; 2MASS_J05342451+1652559_ plx=34.7517mas L2(pec)
 (J-Ks)(L2V) =   1.946 ; 2MASS_J22064498-4217208_ plx=34.0827mas L2V
-=> adopt (J-Ks)(L2V) = 1.51 [updated 11/20/2024] (J-H=0.91, H-Ks=0.60)
+=> adopt (J-Ks)(L2V) = 1.51 [updated 3/1/2025] (J-H=0.92, H-Ks=0.59)
 [EEM 1/1/2025; perhaps we should plot J-Ks vs M_J or M_G to see if we are seeing H-burning limit HRD structure?]
 
 (J-W1)(L2V) = 1.98 (+-0.28 rms) ; Faherty16
