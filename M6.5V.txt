@@ -62,10 +62,8 @@ LHS 292 (J1048-1120).
 (V-Ic)(M6.5V) =   3.96 ; Kirkpatrick94/Table8
 => adopt (V-Ic)(M6.5V) = 4.26 [updated 2/10/2025] (V-Rc=2.00, R-Ic=2.26) 
 
-(G-J)(M6.5V)   = 3.357 ; Bentley18/interp
-(G-Ks)(M6.5V)  = 4.269 ; Bentley18/interp
-
-
+(G-J)(M6.5V)   = 3.357 ; Bentley18/interp (GaiaDR2) 
+(G-Ks)(M6.5V)  = 4.269 ; Bentley18/interp (GaiaDR2) 
 
 (V-K)(M6.5V)  = 7.7  ; Hawley96
 
@@ -194,41 +192,122 @@ LHS 292 (J1048-1120).
 
 (NUV-V)(M6.5V) = 6.32 (+-0.45) ; LP 731-58 (Cifuentes21; plx=219.1mas)
 
-(Bp-Rp)(M6V)   =   3.95   ; M6V mean
-(Bp-Rp)(M6.5V) =   4.2404 ; WISEA_J154045.67-510139.3_  M6.5
-(Bp-Rp)(M6.5V) =  4.3833  ; GJ_4281 sec. stan.
-(Bp-Rp)(M6.5V) =   4.3916 ; LP_783-2_                   M6.5Ve
-(Bp-Rp)(M6.5V) =  4.4148  ; GJ_1111 pri. stan.
-(Bp-Rp)(M6.5V) =  4.4215  ; LHS_2090 = LP_368-128_ exemplar
-(Bp-Rp)(M6.5V) = 4.500    ; M5-M8.5V color trend 
-(Bp-Rp)(M6.5V) =  4.5529  ; GJ_3289 sec. stan.
-(Bp-Rp)(M6.5V) =  4.6018  ; GJ_3622 sec. stan. 
-(Bp-Rp)(M7V)   =   4.75   ; M7V mean 
-(Bp-Rp)(M6.5V) =  4.8267  ; exemplar LHS=2930 = GJ_3855 
+(Bp-Rp)(M6V)   =   3.95   ; M6V mean (GaiaDR2) 
+(Bp-Rp)(M6.5V) =   4.2404 ; WISEA_J154045.67-510139.3_ M6.5 (GaiaDR2) 
+(Bp-Rp)(M6.5V) =  4.3833  ; GJ_4281 sec. stan. (GaiaDR2) 
+(Bp-Rp)(M6.5V) =   4.3916 ; LP_783-2_ M6.5Ve (GaiaDR2) 
+(Bp-Rp)(M6.5V) =  4.4148  ; GJ_1111 pri. stan. (GaiaDR2) 
+(Bp-Rp)(M6.5V) =  4.4215  ; LHS_2090 = LP_368-128_ exemplar (GaiaDR2) 
+(Bp-Rp)(M6.5V) = 4.500    ; M5-M8.5V color trend  (GaiaDR2) 
+(Bp-Rp)(M6.5V) =  4.5529  ; GJ_3289 sec. stan. (GaiaDR2) 
+(Bp-Rp)(M6.5V) =  4.6018  ; GJ_3622 sec. stan. (GaiaDR2)  
+(Bp-Rp)(M7V)   =   4.75   ; M7V mean (GaiaDR2)  
+(Bp-Rp)(M6.5V) =  4.8267  ; exemplar LHS=2930 = GJ_3855 (GaiaDR2)  
 => adopt (Bp-Rp)(M6.5V) = 4.50 [updated 11/18/2020] (GaiaDR2)
+
+(Bp-Rp)(M6.5V) =   4.0160 ; 2MASS_J18242359-0536488_ M6.5 plx=75.6708mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.0884 ; 2MASS_J01581572+1807128_ M6.5 plx=50.7475mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.0915 ; LP_430-46_ M6.5Ve plx=58.0605mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.1205 ; LP_695-372_ M6.5 plx=59.9682mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.2134 ; 2MASS_J17364180-3425459_ M6.5 plx=53.0301mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.2690 ; SCR_J0702-6102_ M6.5Ve plx=57.0239mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.2906 ; LP_675-7_ M6.5Ve plx=52.2862mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.2999 ; LP_788-1_ M6.5 plx=63.7594mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.3112 ; LP_119-26_ M6.5 plx=68.9335mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.3525 ; 2MASSI_J1424187-351432_ M6.5 plx=51.7386mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.3617 ; LP_908-68_ M6.5V plx=47.5472mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =  4.3712 ; sec. stan. GJ 4281 = LHS 523 M6.5V plx=91.8382mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.3793 ; GJ_283_B_ M6.5Ve plx=109.2545mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.3915 ; LSPM_J0449+5138_ M6.5 plx=54.3739mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =  4.3975 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.3995 ; LP_368-128_ M6.5Ve plx=157.2686mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.4227 ; APMPM_J0452-5819_ M6.5V plx=57.3620mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.4271 ; LP_718-5_ M6.5Ve plx=52.2355mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.5762 ; LP_314-44_ M6.5Ve plx=50.7845mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =  4.5808 ; GJ 3622 = LHS 292 M6.5V plx=219.3302mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =  4.5879 ; GJ 3289 = LHS 191 M6.5V plx=62.5052mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.6131 ; [MFL2000]_J210104.18+030705.1_ M6.5 plx=53.2853mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.6834 ; LP_335-12_ M6.5Ve plx=82.356mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.7156 ; LP_584-4_ M6.5e plx=48.2765mas (GaiaDR3)
+(Bp-Rp)(M6.5V) =   4.7969 ; GJ_3855_ M6.5V plx=100.3110mas (GaiaDR3)
+=> adopt (Bp-Rp)(M6.5V) = 4.40 [updated 4/8/2025] (Bp-G=2.94, G-Rp=1.46) (GaiaDR3) 
 
 (G-T)(M6.5V) = 1.491 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=4.50
 => (G-T)(M6.5V) = 1.491 [updated 10/8/2023] (GaiaDR2)
 
-(G-Rp)(M6.5V) =  1.4587 ; WISEA_J154045.67-510139.3_  M6.5
-(G-Rp)(M6.5V) =  1.4724 ; LP_783-2   M6.5V
-(G-Rp)(M6.5V) = 1.4771 ; GJ_4281 sec. stan.
-(G-Rp)(M6.5V) = 1.479  ; color trend M0V-M9V
-(G-Rp)(M6.5V) = 1.4822 ; GJ_1111 pri. stan.
-(G-Rp)(M6.5V) =  1.4850 ; LHS_2090 = LP_368-128_ exemplar
-(G-Rp)(M6.5V) = 1.4911 ; GJ_3622 sec. stan. 
-(G-Rp)(M6.5V) =  1.5077 ; GJ_3289 exemplar
-(G-Rp)(M6.5V) =  1.5345 ; LHS_2930 = GJ_3855 exemplar
-=> adopt (G-Rp)(M6.5V) = 1.48 [updated 11/18/2020]
+(G-Rp)(M6.5V) =  1.4587 ; WISEA_J154045.67-510139.3_  M6.5 (GaiaDR2) 
+(G-Rp)(M6.5V) =  1.4724 ; LP_783-2   M6.5V (GaiaDR2) 
+(G-Rp)(M6.5V) = 1.4771 ; GJ_4281 sec. stan. (GaiaDR2) 
+(G-Rp)(M6.5V) = 1.479  ; color trend M0V-M9V (GaiaDR2) 
+(G-Rp)(M6.5V) = 1.4822 ; GJ_1111 pri. stan. (GaiaDR2) 
+(G-Rp)(M6.5V) =  1.4850 ; LHS_2090 = LP_368-128_ exemplar (GaiaDR2) 
+(G-Rp)(M6.5V) = 1.4911 ; GJ_3622 sec. stan. (GaiaDR2)  
+(G-Rp)(M6.5V) =  1.5077 ; GJ_3289 exemplar (GaiaDR2) 
+(G-Rp)(M6.5V) =  1.5345 ; LHS_2930 = GJ_3855 exemplar (GaiaDR2) 
+=> adopt (G-Rp)(M6.5V) = 1.48 [updated 11/18/2020] (GaiaDR2) 
 
-(Bp-G)(M6.5V)  =  2.9062 ; GJ_4281  sec. stan.
-(Bp-G)(M6.5V)  =  2.9326 ; GJ_1111  pri. stan.
-(Bp-G)(M6.5V)  =  2.9365 ; LHS_2090 exemplar
-(Bp-G)(M6.5V)  = 3.02    ; Bp-Rp=4.50, G-Rp=1.48
-(Bp-G)(M6.5V)  =  3.0451 ; GJ_3289  exemplar
-(Bp-G)(M6.5V)  =  3.1108 ; GJ_3622  sec. stan. 
-(Bp-G)(M6.5V)  =  3.2921 ; LHS_2930 = GJ_3855  exemplar
-=> adopt (Bp-G)(M6.5V) = 3.02 [updated 11/18/2020]
+(G-Rp)(M6.5V) =   1.4224 ; 2MASS_J18242359-0536488_ M6.5 plx=75.6708mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4273 ; LP_430-46_ M6.5Ve plx=58.0605mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4283 ; LP_695-372_ M6.5 plx=59.9682mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4290 ; 2MASS_J01581572+1807128_ M6.5 plx=50.7475mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4445 ; LP_675-7_ M6.5Ve plx=52.2862mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4472 ; 2MASS_J17364180-3425459_ M6.5 plx=53.0301mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4503 ; LP_908-68_ M6.5V plx=47.5472mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4508 ; GJ_283_B_ M6.5Ve plx=109.2545mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4512 ; LP_119-26_ M6.5 plx=68.9335mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4518 ; LP_788-1_ M6.5 plx=63.7594mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4522 ; 2MASSI_J1424187-351432_ M6.5 plx=51.7386mas (GaiaDR3)
+(G-Rp)(M6.5V) =  1.4529 ; sec. stan. GJ 4281 = LHS 523 (GaiaDR3)  
+(G-Rp)(M6.5V) =   1.4614 ; LP_368-128_ M6.5Ve plx=157.2686mas (GaiaDR3)
+(G-Rp)(M6.5V) =  1.4619 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4664 ; SCR_J0702-6102_ M6.5Ve plx=57.0239mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4669 ; LP_718-5_ M6.5Ve plx=52.2355mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4725 ; APMPM_J0452-5819_ M6.5V plx=57.3620mas (GaiaDR3)
+(G-Rp)(M6.5V) =  1.4775 ; sec. stan. GJ 3622 = LHS 292 (GaiaDR3)
+(G-Rp)(M6.5V) =  1.4787 ; sec. stan. GJ 3289 = LHS 191 (GaiaDR3)  
+(G-Rp)(M6.5V) =   1.4837 ; LSPM_J0449+5138_ M6.5 plx=54.3739mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4844 ; LP_314-44_ M6.5Ve plx=50.7845mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4862 ; LP_335-12_ M6.5Ve plx=82.356mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.4926 ; GJ_3855_ M6.5V plx=100.3110mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.5022 ; LP_584-4_ M6.5e plx=48.2765mas (GaiaDR3)
+(G-Rp)(M6.5V) =   1.5220 ; [MFL2000]_J210104.18+030705.1_ M6.5 plx=53.2853mas (GaiaDR3)
+=> adopt (G-Rp)(M6.5V) = 1.46 [updated 4/8/2025] (Bp-Rp=4.40, Bp-G=2.94) (GaiaDR3) 
+
+(Bp-G)(M6.5V)  =  2.9062 ; GJ_4281  sec. stan. (GaiaDR2) 
+(Bp-G)(M6.5V)  =  2.9326 ; GJ_1111  pri. stan. (GaiaDR2) 
+(Bp-G)(M6.5V)  =  2.9365 ; LHS_2090 exemplar (GaiaDR2) 
+(Bp-G)(M6.5V)  = 3.02    ; Bp-Rp=4.50, G-Rp=1.48 (GaiaDR2) 
+(Bp-G)(M6.5V)  =  3.0451 ; GJ_3289  exemplar (GaiaDR2) 
+(Bp-G)(M6.5V)  =  3.1108 ; GJ_3622  sec. stan.  (GaiaDR2) 
+(Bp-G)(M6.5V)  =  3.2921 ; LHS_2930 = GJ_3855  exemplar (GaiaDR2) 
+=> adopt (Bp-G)(M6.5V) = 3.02 [updated 11/18/2020] (GaiaDR2)
+
+(Bp-G)(M6.5V) =   2.5935 ; 2MASS_J18242359-0536488_ M6.5 plx=75.6708mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.6593 ; 2MASS_J01581572+1807128_ M6.5 plx=50.7475mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.6641 ; LP_430-46_ M6.5Ve plx=58.0605mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.6922 ; LP_695-372_ M6.5 plx=59.9682mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.7661 ; 2MASS_J17364180-3425459_ M6.5 plx=53.0301mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.8025 ; SCR_J0702-6102_ M6.5Ve plx=57.0239mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.8461 ; LP_675-7_ M6.5Ve plx=52.2862mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.8480 ; LP_788-1_ M6.5 plx=63.7594mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.8600 ; LP_119-26_ M6.5 plx=68.9335mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.9002 ; 2MASSI_J1424187-351432_ M6.5 plx=51.7386mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.9078 ; LSPM_J0449+5138_ M6.5 plx=54.3739mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.9113 ; LP_908-68_ M6.5V plx=47.5472mas (GaiaDR3)
+(Bp-G)(M6.5V) =  2.9183 ; sec. stan. GJ 4281 = LHS 523 (GaiaDR3)
+(Bp-G)(M6.5V) =   2.9284 ; GJ_283_B_ M6.5Ve plx=109.2545mas (GaiaDR3)
+(Bp-G)(M6.5V) =  2.9355 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)
+(Bp-G)(M6.5V) =   2.9380 ; LP_368-128_ M6.5Ve plx=157.2686mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.9501 ; APMPM_J0452-5819_ M6.5V plx=57.3620mas (GaiaDR3)
+(Bp-G)(M6.5V) =   2.9602 ; LP_718-5_ M6.5Ve plx=52.2355mas (GaiaDR3)
+(Bp-G)(M6.5V) =   3.0910 ; [MFL2000]_J210104.18+030705.1_ M6.5 plx=53.2853mas (GaiaDR3)
+(Bp-G)(M6.5V) =   3.0918 ; LP_314-44_ M6.5Ve plx=50.7845mas (GaiaDR3)
+(Bp-G)(M6.5V) =  3.1032 ; sec. stan. GJ 3622 = LHS 292 (GaiaDR3)
+(Bp-G)(M6.5V) =  3.1092 ; sec. stan. GJ 3289 = LHS 191 (GaiaDR3)
+(Bp-G)(M6.5V) =   3.1972 ; LP_335-12_ M6.5Ve plx=82.356mas (GaiaDR3)
+(Bp-G)(M6.5V) =   3.2134 ; LP_584-4_ M6.5e plx=48.2765mas (GaiaDR3)
+(Bp-G)(M6.5V) =   3.3042 ; GJ_3855_ M6.5V plx=100.3110mas (GaiaDR3)
+=> adopt (Bp-G)(M6.5V) = 2.94 [updated 4/8/2025] (Bp-Rp=4.40, G-Rp=1.46) (GaiaDR3) 
 
 (G-V)(M6.5V) =  -3.013  ; GJ_3855  exemplar
 (G-V)(M6.5V) =  -2.9307 ; GJ_3622  sec. stan.
@@ -241,6 +320,9 @@ LHS 292 (J1048-1120).
 (G-V)(M6.5V) =  -2.337  ; GJ_4281  sec. stan.
 => adopt (G-V)(M6.5V)  = -2.70 [updated 11/1/2020]
 => adopt (G-Ks)(M6.5V) = 4.90 = 7.60 + -2.70 [updated 12/26/2021]
+
+(G-V)(M6.5V) = -2.506 ; smoothed fit to SIMBAD d<25pc M0V-M9.5V stars (4/13/2025) (GaiaDR3)
+=> adopt (G-V)(M6.5V) = -2.51 [updated 4/13/2025] (GaiaDR3) 
 
 (u-g)(M6.5V) =   1.610 ; SDSS_J095147.73+423350.1 M6.5V plx=19.0112mas
 (u-g)(M6.5V) =   1.906 ; SDSS_J212545.82-001834.1 M6.5 plx=26.5289mas
@@ -490,7 +572,7 @@ Boeshaar85 does not list an M6.5V standard
 
 # Primary Standard
 
-GJ 1111 = LHS 248 = G 51-15 = DX Cnc
+GJ 1111 = LHS 248 = G 51-15 = DX Cnc = Gaia DR3 703790044252850688 
   M6V: Bessell91,Hawley97
  *M6.5V: Boeshaar76(non-stan,"M6.5e"),Boeshaar85(in text),Turnshek85(stan),Henry94,Kirkpatrick94,Kirkpatrick97(stan),Henry02,Henry04,Kirkpatrick(GrayCorbally09)
   M6.7: Mann15
@@ -501,21 +583,22 @@ GJ 1111 = LHS 248 = G 51-15 = DX Cnc
   V=14.824+-0.023(Mermilliod91),
   V=14.86(Weistrop81/N=1),
   V=14.867498(GaiaDR3/synth), 
-  V=14.90(Bessell83),
+  V=14.90(Bessell83) => adopt V=14.824+-0.023.  
   B-V=2.05(Bessell83),
   B-V=2.06(Dahn76/N=4), 
   B-V=2.066+-0.009(Mermilliod91),
-  B-V=2.08(Weistrop81/N=1),
+  B-V=2.08(Weistrop81/N=1) => adopt B-V=2.066+-0.009.
   U-B=2.11(Weistrop81/N=1), 
-  U-B=2.110(Mermilliod91),
+  U-B=2.110(Mermilliod91) => adopt U-B=2.11. 
   V-Rc=2.00(Bessell91),
-  V-Rc=2.002(Bessell83),
+  V-Rc=2.002(Bessell83) => adopt V-Rc=2.002. 
   Rc=12.8(Bessell91),
   Rc=12.876446(GaiaDR3/synth), 
   Ic=10.54(Bessell91),
   Ic=10.570894(GaiaDR3/synth),
-  R-Ic=2.259(Bessell83), V-Ic=4.26(Bessell91),
-  V-Ic=4.261(Bessell83),
+  R-Ic=2.259(Bessell83) => adopt R-Ic=2.259. 
+  V-Ic=4.26(Bessell91),
+  V-Ic=4.261(Bessell83) => adopt V-Ic=4.261. 
   J=8.235+-0.021(2MASS),
   J-H=0.64(Bessell91/Glass),
   J-H=0.582(Bessell91/Glass->2MASS),
@@ -548,9 +631,33 @@ GJ 1111 = LHS 248 = G 51-15 = DX Cnc
   G=12.167455+-0.002888(GaiaDR3), Bp-Rp=4.397595(GaiaDR3),
   Bp-G=2.935595(GaiaDR3), G-Rp=1.461999(GaiaDR3).
 
+        G = 12.1675+-0.0029 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)      
+    (B-V)(M6.5V) =   2.066 +-0.009 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+    (U-B)(M6.5V) =   2.110 +-0.010 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+   (V-Rc)(M6.5V) =   2.002 +-0.010 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+   (R-Ic)(M6.5V) =   2.259 +-0.010 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+   (V-Ic)(M6.5V) =   4.261 +-0.010 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+  (Bp-Rp)(M6.5V) =  4.3976 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)      
+   (Bp-G)(M6.5V) =  2.9356 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)      
+   (G-Rp)(M6.5V) =  1.4620 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)      
+    (G-V)(M6.5V) =  -2.657 +-0.023 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)      
+    (G-J)(M6.5V) =   3.932 +-0.021 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)      
+       Mv(M6.5V) =  17.054 +-0.023 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+      M_G(M6.5V) =  14.397 +-0.003 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)      
+      M_J(M6.5V) =  10.465 +-0.021 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+     M_Ks(M6.5V) =   9.490 +-0.024 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+   (V-Ks)(M6.5V) =   7.564 +-0.033 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+   (G-Ks)(M6.5V) =   4.907 +-0.024 ; pri. stan. GJ 1111 = LHS 248 = G 51-15 (GaiaDR3)      
+    (V-J)(M6.5V) =   6.589 +-0.031 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+    (V-H)(M6.5V) =   7.207 +-0.029 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+    (J-H)(M6.5V) =   0.618 +-0.028 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+   (H-Ks)(M6.5V) =   0.357 +-0.030 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+   (J-Ks)(M6.5V) =   0.975 +-0.032 ; pri. stan. GJ 1111 = LHS 248 = G 51-15     
+
+
 # Secondary Standards
 
-GJ 4281 = LHS 523 = LP 760-3 = 2MASS J22285440-1325178 
+GJ 4281 = LHS 523 = LP 760-3 = 2MASS J22285440-1325178 = Gaia DR3 2601148128510120576	
  *M6.5V: Giampapa86,Kirkpatrick91(pri),Geballe02,Cruz02
   M6Ve: Bessell91
 
@@ -580,8 +687,14 @@ GJ 4281 = LHS 523 = LP 760-3 = 2MASS J22285440-1325178
   Teff=2617K. plx=91.82+-0.67mas(Weinberger16),
   plx=91.8949+-0.0948mas(GaiaDR2), plx=91.8382+-0.0539mas(GaiaDR3),
   Mv=16.72(Winters15,GaiaDR2), M_Ks=9.659+-0.021(2MASS,GaiaDR2).
+  GaiaDR3: 
+  G=14.543300+-0.002924(GaiaDR3), Bp-Rp=4.371292, Bp-G=2.918344, G-Rp=1.452949.
+
+  (Bp-Rp)(M6.5V) = 4.3712 ; sec. stan. GJ 4281 = LHS 523 (GaiaDR3)  
+  (Bp-G)(M6.5V)  = 2.9183 ; sec. stan. GJ 4281 = LHS 523 (GaiaDR3)  
+  (G-Rp)(M6.5V)  = 1.4529 ; sec. stan. GJ 4281 = LHS 523 (GaiaDR3)  
   
-GJ 3289 = LHS 191 = LP 535-12 = NLTT 13261 
+GJ 3289 = LHS 191 = LP 535-12 = NLTT 13261 = Gaia DR3 3280675417175220224 
  *M6.5V: Bessell91,Kirkpatrick91(sec)
 
   Dahn02 lists: plx=58.4+-1.8 mas (=> m-M=1.17+-0.07), V=18.32+-0.03,
@@ -597,10 +710,15 @@ GJ 3289 = LHS 191 = LP 535-12 = NLTT 13261
   (Ks-W1)=0.236(allWISE).  V-Ks = 7.627
   (Dahn02,2MASS). plx=65.24+-1.51mas(Weinberger16), plx=62.3387
   0.1654mas(GaiaDR2). Mv=17.294+-0.031, M_Ks=9.667+-0.024.
+  GaiaDR3: plx=62.5052+-0.0680mas(GaiaDR3), Bp-Rp=4.587960, Bp-G=3.109210, G-Rp=1.478750.
 
-GJ 3622 = LHS 292 = LP 731-58 = 2MASS J10481258-1120082
+  (Bp-Rp)(M6.5V) = 4.5879 ; sec. stan. GJ 3289 = LHS 191 (GaiaDR3) 
+  (Bp-G)(M6.5V)  = 3.1092 ; sec. stan. GJ 3289 = LHS 191 (GaiaDR3) 
+  (G-Rp)(M6.5V)  = 1.4788 ; sec. stan. GJ 3289 = LHS 191 (GaiaDR3)  	
+
+GJ 3622 = LHS 292 = LP 731-58 = 2MASS J10481258-1120082 = Gaia DR3 3757613049856225792	
   M6.0: Dieterich14
- *M6.5V: Henry94,Kirkpatrick91(non-stan),Kirkpatrick94,Hawley97,Henry02,Alonso-Floriano15,HenryJao24(stan)
+ *M6.5V: Kirkpatrick91(non-stan),Kirkpatrick94,Henry94,Hawley97,Henry02,Alonso-Floriano15,HenryJao24(stan)
   M6.5-7V: Dahn86
   M7: Gaidos14
 
@@ -635,7 +753,12 @@ GJ 3622 = LHS 292 = LP 731-58 = 2MASS J10481258-1120082
   R=0.129+-0.0041Rsun(Dieterich14).  [M/H]=-0.28+-0.12(RojasAyala12).
   plx = 217.1+-5.0mas(Dahn86), plx = 219.1159 0.1567mas(GaiaDR2) =>
   Mv= 17.487+-0.028(APASS,DR2), M_Ks=9.629+-0.033(2MASS,DR2).
-  (g-G)=3.688.
+  (g-G)=3.688. GaiaDR3: plx=219.3302+-0.0602mas(GaiaDR3), G=12.837447+-0.002955(GaiaDR3),
+  Bp-Rp=4.580874, Bp-G=3.103286, G-Rp=1.477589.
+
+  (Bp-Rp)(M6.5V) = 4.5808 ; sec. stan. GJ 3622 = LHS 292 (GaiaDR3)  
+  (Bp-G)(M6.5V)  = 3.1032 ; sec. stan. GJ 3622 = LHS 292 (GaiaDR3)  
+  (G-Rp)(M6.5V)  = 1.4775 ; sec. stan. GJ 3622 = LHS 292 (GaiaDR3) 	
 
 # Exemplar
 
