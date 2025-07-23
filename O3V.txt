@@ -27,9 +27,14 @@ Skiff08 does not flag any stars as O3V standards.
 (U-B)(O3V)  = -1.22 ; Schmidt-Kaler82
 => adopt (U-B)(O3V) = -1.175 [updated 2/7/2020]
 
+(V-Ic)(O3V) = -0.362 ; B-V=-0.278 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
+
 (g-V)(O3V) = -0.317 ; Bilir05 calibration for B-V=-0.33
 (g-V)(O3V) = -0.332 ; Jordi06 calibration for B-V=-0.33
 => adopt (g-V)(O3V) = -0.325 [updated 2/1/2025]
+
+(g-r)(O3V) = -0.623 ; Bilir05 transformation B-V=-0.33 => g-r
+=> adopt (g-r)(O3V) = -0.62 [updated 5/1/2025] 
 
 (J-H)(O3V) = -0.135 ; Glass97(SAAO/Carter90_system)
 
@@ -38,6 +43,7 @@ Skiff08 does not flag any stars as O3V standards.
 (V-K)(O3V) = -0.855 ; Glass97(SAAO/Carter90_system)
 
 Teff(O3V) =   52500 K  ; Schmidt-Kaler82
+Teff(O3V) =   50004 K  ; deJager
 Teff(O3V) =   50000 K  ; Bessell98
 Teff(O3V) =   50000 K  ; Crowther97/Fig.3
 Teff(O3V) =  46500 K   ; Massey05(Milky Way)
@@ -137,7 +143,7 @@ HD 64568 = NGC 2467 77 = HD 64568a
   It appears that (b-y)0 doesn't vary much between ~O3V and ~O7.5V,
   and is not useful for Teff estimates in this regime.
   MaizAppelaniz18 estimates Av=1.388+-0.018 and monochromatic
-  reddneing E(4405-5495) = 0.373+-0.007 and which traces E(B-V) very
+  reddening E(4405-5495) = 0.373+-0.007 and which traces E(B-V) very
   well in this regime for hot stars (Fig.5 of MaizAppelaniz18).
   Reddening estimates: E(B-V)=0.32+-0.02(Bowen08),
   E(B-V)=0.355(Hauck97 ubvy\beta dered using Castelli91,

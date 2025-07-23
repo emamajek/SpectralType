@@ -44,9 +44,14 @@ Holgado20 lists 5 O4V variants: HD 5005A, HD 164794, HD 229232, HD 46223, HD 967
 (U-B)(O4V)  =  -1.20   ; Schmidt-Kaler82
 => adopt (U-B)(O4V) = -1.16 [updated 2/7/2020]
 
+(V-Ic)(O4V) = -0.357 ; B-V=-0.326 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
+
 (g-V)(O4V) = -0.315 ; Bilir05 calibration for B-V=-0.326
-(g-V)(O4V) = -0.329 ; Jordi06 calibration for B-V=-0.326
-=> adopt (g-V)(O4V) = -0.322 [updated 2/1/2025] 
+(g-V)(O4V) = -0.334 ; Jordi06 calibration for B-V=-0.326
+=> adopt (g-V)(O4V) = -0.32 [updated 5/1/2025]
+
+(g-r)(O4V) = -0.618 ; Bilir05 transformation B-V=-0.326 => g-r
+=> adopt (g-r)(O4V) = -0.62 [updated 5/1/2025] 
 
 Teff(O4V) =  41000 K ; weak stan. HD 303308 (Repolust04; O4 V ((f+)))
 Teff(O4V) =  41500 K ; non-stan. NGC 345 MPG 324 (Heap06) & Heap06 adopted for O4V((f))
@@ -60,7 +65,8 @@ Teff(O4V) = 43419 K ; Martins05(Obs. scale)
 Teff(O4V) = 43652 K ; Simon-Diaz17 median for O4V (N=3)
 Teff(O4V) = 44000 K ; Massey05(Milky Way)
 Teff(O4V) =  44000 K ; Bessell98
-Teff(O4V) =  44000 K ; Crowther97/Fig.3 
+Teff(O4V) =  44000 K ; Crowther97/Fig.3
+Teff(O4V) =  45290 K ; deJagerNieuwenhuijzen87 (logTeff=4.656) 
 Teff(O4V) =  48000 K ; Schmidt-Kaler82
 => adopt Teff(O4V) = 42900 K (logTeff = 4.632) [updated 1/20/2020]
 

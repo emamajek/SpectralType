@@ -25,20 +25,20 @@ Walborn72 classifies three stars as O5V or variant: HD 15629 (O5V((f))), HD 1922
 
 Holgado20 classifies three stars as O5V or variant: HDE 319699, HD 46150, HD 256725A.
 
-(B-V)(O5V) = -0.33   ; SchmidtKaler82
-(B-V)(O5V) = -0.323  ; U-B=-1.15 trend/Q-method
-(B-V)(O5V) = -0.325  ; pri. stan. HD 46150 
-(B-V)(O5V) = -0.32   ; Johnson58,Johnson63,Johnson65,Johnson66,Fitzgerald70,Morgan71
-(B-V)(O5V) = -0.28   ; Martins06
-=> adopt (B-V)(O5V) = -0.323 [updated 2/7/2020]
+(B-V)(O5V) =  -0.33  ; SchmidtKaler82
+(B-V)(O5V) =  -0.325 ; pri. stan. HD 46150
+(B-V)(O5V) = -0.323 ; U-B=-1.15 trend/Q-method
+(B-V)(O5V) =  -0.32  ; Johnson58,Johnson63,Johnson65,Johnson66,Fitzgerald70,Morgan71
+(B-V)(O5V) =  -0.28  ; Martins06
+=> adopt (B-V)(O5V) = -0.323 [updated 5/1/2025]
 
-(U-B)(O5V) = -1.14   ; Martins06
-(U-B)(O5V) = -1.14   ; Johnson65,Johnson66
-(U-B)(O5V) = -1.15   ; Johnson58,Johnson63
-(U-B)(O5V) = -1.157  ; pri. stan. HD 46150 (Q-method)
-(U-B)(O5V) = -1.19   ; Bessell98
-(U-B)(O5V) = -1.19   ; Fitzgerald70
-(U-B)(O5V) = -1.19   ; Schmidt-Kaler82
+(U-B)(O5V) =  -1.14  ; Martins06
+(U-B)(O5V) =  -1.14  ; Johnson65,Johnson66
+(U-B)(O5V) =  -1.15  ; Johnson58,Johnson63
+(U-B)(O5V) =  -1.157 ; pri. stan. HD 46150 (Q-method)
+(U-B)(O5V) =  -1.19  ; Bessell98
+(U-B)(O5V) =  -1.19  ; Fitzgerald70
+(U-B)(O5V) =  -1.19  ; Schmidt-Kaler82
 => adopt (U-B)(O5V) = -1.15  [updated 2/7/2020]
 => adopt Q(O5V)     = -0.921 [updated 2/7/2020]
 
@@ -46,15 +46,20 @@ Holgado20 classifies three stars as O5V or variant: HDE 319699, HD 46150, HD 256
 
 (V-Ij)(O5V) = -0.43 ; Johnson65 (for O5-7)
 
+(V-Ic)(O5V) = -0.307 ; V-Ij=-0.43 => V-Ic via Hipparcos Vol. 1 Field H42
+(V-Ic)(O5V) = -0.353 ; B-V=-0.323 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
+
 (V-Jj)(O5V) = -0.73 ; Johnson65 (for O5-7)
 
 (V-Kj)(O5V) = -0.94 ; Johnson65 (for O5-7)
 
 (V-Lj)(O5V) = -0.92 ; Johnson65 (for O5-7)
 
+(J-H)(O5V) = -0.17 ; Straizys09 
 (J-H)(O5V) = -0.23 ; Covey07/synthetic_from_Pickles98_templates
-=> adopt (J-H)(O5V) = -0.23 [updated 4/18/2024]
+=> adopt (J-H)(O5V) = -0.20 [updated 5/1/2025]
 
+(H-Ks)(O5V) = -0.06 ; Straizys09 
 (H-Ks)(O5V) = -0.13 ; Covey07/synthetic_from_Pickles98_templates
 => adopt (H-Ks)(O5V) = -0.13 [updated 4/18/2024]
 
@@ -64,9 +69,10 @@ Holgado20 classifies three stars as O5V or variant: HDE 319699, HD 46150, HD 256
 (u'-g')(O5V) = -0.447 ; Fukugita96 u'-g' calibration for (U-B)=-1.15
 => adopt (u-g)(O5V) = -0.40 [updated 6/20/2024]
 
-(g-r)(O5V) = -0.51 ; Kesseli17 
-(g-r)(O5V) = -0.62 ; Covey07 interp O5V -0.62 to O9V -0.62
-=> adopt (g-r)(O5V) = -0.56 [updated 6/20/2024]
+(g-r)(O5V) = -0.51  ; Kesseli17
+(g-r)(O5V) = -0.615 ; Bilir05 transformation B-V=-0.323 => g-r 
+(g-r)(O5V) = -0.62  ; Covey07 interp O5V -0.62 to O9V -0.62
+=> adopt (g-r)(O5V) = -0.615 [updated 5/1/2025] 
 
 (g-V)(O5V) = -0.313 ; Bilir05 calibration for B-V=-0.323
 (g-V)(O5V) = -0.327 ; Jordi06 calibration for B-V=-0.323
@@ -98,6 +104,7 @@ Teff(O5V) = 41280 K ; Holgado18
 Teff(O5V) = 41400 K ; EEM trend for O dwarfs 1/2020 **
 Teff(O5V) = 41540 K ; Martins05(Theoretical scale)
 Teff(O5V) = 41550 K ; pri. stan. HD 46150 (median Teff)
+Teff(O5V) =  41976 K ; deJagerNieuwenhuijzen87 (logTeff=4.623) 
 Teff(O5V) =  43000 K ; Bessell98
 Teff(O5V) =  43000 K ; Crowther97/Fig.3 
 Teff(O5V) =  44500 K ; Schmidt-Kaler82
