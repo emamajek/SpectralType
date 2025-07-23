@@ -2,7 +2,7 @@ B0V
 
 Garrison94 lists the B0V anchor as Ups Ori (= HD 36512).  However
 Sota11 considers Tau Sco as the B0V standard, and Ups Ori as an O9.7V
-star. So Tau Sco appears to have survived from MK43 to the present day
+star. So Tau Sco appears to have mostly survived from MK43 to the present day
 (Sota11, Galactic O-star Spectroscopic Survey) as the main B0V
 standard.
 
@@ -79,6 +79,7 @@ so <(B-V)o> is likely to be bluer than that.
 => adopt Q(B0V)     = -0.854 [updated 2/7/2020]
 
 (V-Rj)(B0V) = -0.13 ; Johnson65
+(V-Rj)(B0V) = -0.18 ; JohnsonBorgman63
 
 (V-Rc)(B0V) = -0.118 ; pri. stan. HD 149438 = tau Sco
 (V-Rc)(B0V) = -0.16  ; Winkler97 
@@ -86,8 +87,11 @@ so <(B-V)o> is likely to be bluer than that.
 (R-Ic)(B0V) = -0.176 ; pri. stan. HD 149438 = tau Sco
 
 (V-Ij)(B0V) = -0.41 ; Johnson65
+(V-Ij)(B0V) = -0.45 ; JohnsonBorgman63
 
+(V-Ic)(B0V) = -0.292 ; V-Ij=-0.41 => V-Ic via Hipparcos Vol. 1 Field H42
 (V-Ic)(B0V) = -0.294 ; pri. stan. HD 149438 = tau Sco
+(V-Ic)(B0V) = -0.328 ; B-V=-0.301 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
 (V-Ic)(B0V) = -0.34  ; Winkler97 
 
 (V-Jj)(B0V) = -0.70 ; Johnson65
@@ -109,19 +113,21 @@ so <(B-V)o> is likely to be bluer than that.
 (J-H)(B0V) = -0.11  ; Winkler97/SAAO
 (J-H)(B0V) = -0.124 ; Glass97(SAAO/Carter90_system)
 
-(J-H)(B0V) =  -0.09  ; Deng20/2MASS
+(J-H)(B0V) = -0.09  ; Deng20/2MASS
 (J-H)(B0V) = -0.133 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.301
+(J-H)(B0V) = -0.15  ; Straizys09 
 (J-H)(B0V) = -0.168 ; Koornneef83 (J-H=-0.12) converted to 2MASS via Carpenter01 (B0 stars)
 (J-H)(B0V) = -0.19 (+-0.010 rms) ; SteadHoare11/2MASS
-=> adopt (J-H)(B0V) = -0.17 [updated 2/1/2025]
+=> adopt (J-H)(B0V) = -0.15 [updated 5/1/2025] 
 
 (H-K)(B0V) = -0.08  ; Winkler97/SAAO
 (H-K)(B0V) = -0.094 ; Glass97(SAAO/Carter90_system) 
 
 (H-Ks)(B0V) = -0.04  ; Deng20/2MASS
 (H-Ks)(B0V) = -0.048 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.301
+(H-Ks)(B0V) = -0.05  ; Straizys09 
 (H-Ks)(B0V) = -0.09 (+-0.008 rms) ; SteadHoare11/2MASS
-=> adopt (H-Ks)(B0V) = -0.048 [updated 4/30/2024]
+=> adopt (H-Ks)(B0V) = -0.05 [updated 5/1/2025] 
 
 (J-Ks)(B0V) = -0.13 ; Deng20/2MASS
 
@@ -141,12 +147,15 @@ so <(B-V)o> is likely to be bluer than that.
 (u'-g')(B0V) =  -0.42 ; Deng20 (blue-edge method)
 => adopt (u-g)(B0V) = -0.27 [updated 6/20/2024]
 
-(g-r)(B0V) = -0.38 ; Deng20
-(g-r)(B0V) = -0.45 ; Kesseli17
-(g-r)(B0V) = -0.59 ; Covey07
-=> adopt (g-r)(B0V) = -0.45 [updated 6/20/2024]
+(g-r)(B0V) = -0.38  ; Deng20
+(g-r)(B0V) = -0.45  ; Kesseli17
+(g-r)(B0V) = -0.59  ; Covey07
+(g-r)(B0V) = -0.590 ; Bilir05 transformation B-V=-0.301 => g-r
+=> adopt (g-r)(B0V) = -0.59 [updated 5/1/2025] 
 
-(g-V)(B0V) = 
+(g-V)(B0V) = -0.299 ; Bilir05 conversion B-V=-0.301 => g-V
+(g-V)(B0V) = -0.318 ; Jordi06 conversion B-V=-0.301 => g-V
+=> adopt (g-V)(B0V) = -0.31 [updated 5/1/2025] 
 
 (r-i)(B0V) = -0.32 ; Deng20
 (r-i)(B0V) = -0.33 ; Kesseli17
@@ -180,23 +189,24 @@ so <(B-V)o> is likely to be bluer than that.
 Teff(B0V) =   29000 K ; GrayCorbally09
 Teff(B0V) =   29230 K ; Theodossiou90 
 Teff(B0V) =   29500 K ; Bohm-Vitense81
-Teff(B0V) = 29800 K ; Bessell98
+Teff(B0V) =  29800 K ; Bessell98
 Teff(B0V) =   29800 K ; Blackwell80
 Teff(B0V) =   29900 K ; Habets81
-Teff(B0V) = 30000 K ; Crowther97/Fig.3
-Teff(B0V) = 30000 K ; Massey05(Milky Way)
+Teff(B0V) =   29992 K ; deJagerNieuwenhuijzen87 (logTeff=4.477)
+Teff(B0V) =  30000 K ; Crowther97/Fig.3
+Teff(B0V) =  30000 K ; Massey05(Milky Way)
 Teff(B0V) =   30000 K ; Schmidt-Kaler82
-Teff(B0V) = 30300 K ; Chavez95 (+800-300K)
-Teff(B0V) = 30333 K ; U-B=-1.07 => Teff(Bessell98)
-Teff(B0V) = 30430 K ; Bertone04[ATLAS models]
-Teff(B0V) = 30705 K ; deprecated stan. HD 46106 (median Teff)*
-Teff(B0V) = 31125 K ; deprecated stan. HD 207538 (median Teff)
-Teff(B0V) = 31400 K ; pri. stan. tau Sco (median Teff)
-Teff(B0V) = 31480 K ; EEM N=33 Teffs*
-Teff(B0V) = 31783 K ; Q=-0.845 => Nieva13 calibration 
-Teff(B0V) = 32000 K ; deprecated standard Ups Ori (median Teff) [now O9.7V]*
-Teff(B0V) = 32125 K ; deprecated standard HD 207538 (single Teff)*
-Teff(B0V) = 32359 K ; Simon-Diaz17 for B0V (N=1; HD 149438)
+Teff(B0V) =  30300 K ; Chavez95 (+800-300K)
+Teff(B0V) =  30333 K ; U-B=-1.07 => Teff(Bessell98)
+Teff(B0V) =  30430 K ; Bertone04[ATLAS models]
+Teff(B0V) =  30705 K ; deprecated stan. HD 46106 (median Teff)*
+Teff(B0V) =  31125 K ; deprecated stan. HD 207538 (median Teff)
+Teff(B0V) =  31400 K ; pri. stan. tau Sco (median Teff)
+Teff(B0V) =  31480 K ; EEM N=33 Teffs*
+Teff(B0V) =  31783 K ; Q=-0.845 => Nieva13 calibration 
+Teff(B0V) =  32000 K ; deprecated standard Ups Ori (median Teff) [now O9.7V]*
+Teff(B0V) =  32125 K ; deprecated standard HD 207538 (single Teff)*
+Teff(B0V) =  32359 K ; Simon-Diaz17 for B0V (N=1; HD 149438)
 Teff(B0V) =   33340 K ; Vacca96
 Teff(B0V) =   33400 K ; deprecated standard HD 36512 (Nieva14)
 => adopt Teff(B0V) = 31400 K (logT = 4.497) [updated 1/20/2020]

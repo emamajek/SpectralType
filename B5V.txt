@@ -82,9 +82,11 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 
 (V-Ij)(B5V) = -0.22 ; Johnson65
 
+(V-Ic)(B5V) = -0.157 ; V-Ij=-0.22 => V-Ic via Hipparcos Vol. 1 Field H42
+(V-Ic)(B5V) = -0.157 ; B-V=-0.156 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
 (V-Ic)(B5V) = -0.165 ; color trend U-B vs V-Ic for U-B=-0.581
 (V-Ic)(B5V) =  -0.18 ; Winkler97
-=> adopt (V-Ic)(B5V) = -0.165 [updated 5/31/2024]
+=> adopt (V-Ic)(B5V) = -0.16 [updated 6/15/2025]
 
 (V-Jj)(B5V) = -0.36 ; Johnson65
 
@@ -98,7 +100,8 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 
 (V-Kj)(B5V) = -0.47 ; Johnson65
 
-(V-K)(B5V)  = -0.50 ; Winkler97/SAAO
+(V-K)(B5V) = -0.469 ; Glass97(SAAO/Carter90_system)
+(V-K)(B5V) = -0.50  ; Winkler97/SAAO
 
 (V-Ks)(B5V) =  -0.229 ; HIP_25025_ B5V d= 198.177pc, (B-V)=0.021 (dereddened from Kervella19)
 (V-Ks)(B5V) =  -0.267 ; HIP_37915_ B5V d= 198.255pc, (B-V)=0.008 (dereddened from Kervella19)
@@ -120,14 +123,18 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 (V-Ks)(B5V) =  -0.448 ; HIP_75647_ B5V d= 141.503pc, (B-V)=0.014 (dereddened from Kervella19)
 => adopt (V-Ks)(B5V) = -0.38 [updated 5/31/2024]
 
-(J-H)(B5V) = -0.06 ; Winkler97/SAAO
+(J-H)(B5V) = -0.053 ; Glass97(SAAO/Carter90_system)
+(J-H)(B5V) = -0.06  ; Winkler97/SAAO
 
 (J-H)(B5V) = -0.082 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.156
-(J-H)(B5V) = -0.09 ; Deng20/2MASS
+(J-H)(B5V) = -0.09  ; Deng20/2MASS
+(J-H)(B5V) = -0.09  ; Straizys09 
+(J-H)(B5V) = -0.106 ; Koornneef83 (J-H=-0.06) converted to 2MASS via Carpenter01 (B5 stars)
 (J-H)(B5V) = -0.11 (+-0.004 rms) ; SteadHoare11
-=> adopt (J-H)(B5V) = -0.082 [updated 5/1/2024]
+=> adopt (J-H)(B5V) = -0.09 [updated 5/1/2025]
 
-(H-K)(B5V)  = -0.06 ; Winkler97/SAAO
+(H-K)(B5V) = -0.054 ; Glass97(SAAO/Carter90_system)
+(H-K)(B5V) = -0.06  ; Winkler97/SAAO
 
 (H-Ks)(B5V) = -0.007 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.156
 (H-Ks)(B5V) = -0.02 ; Deng20/2MASS
@@ -138,26 +145,36 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 
 (V-Lj)(B5V) = -0.45 ; Johnson65
 
+(K-L)(B5V) = -0.058 ; Glass97(SAAO/Carter90_system)
+
 (Ks-W1)(B5V) =  0.029 ; EEM trend for d<30pc for B-V=-0.156
 (Ks-W1)(B5V) =  -0.03  ; Deng20
 => adopt (Ks-W1)(B5V) = 0.029 [updated 12/29/2019]
 
-(u-g)(B5V)   = 0.21  ; Kesseli17
-(u'-g')(B5V) =  0.23 ; Deng20 (blue-edge method)
-(u-g)(B5V)   = 0.262 ; Fukugita11 interp B2V-B7V
-(u'-g')(B5V) = 0.338 ; Fukugita96 u'-g' calibration for (U-B)=-0.581
-(u'-g')(B5V) = 0.347 ; Smith02 u'-g' calibration for (U-B)=-0.581
-(u-g)(B5V)   = 0.40  ; Covey07/synthetic_from_Pickles98_templates interp B3V-B5/7V
-=> adopt (u-g)(B5V) = 0.30 [updated 6/18/2024]
+(u-g)(B5V)   =  0.21  ; Kesseli17
+(u'-g')(B5V) =  0.23  ; Deng20 (blue-edge method)
+(u-g)(B5V)   =  0.262 ; Fukugita11 interp B2V-B7V
+(u'-g')(B5V) =  0.338 ; Fukugita96 u'-g' calibration for (U-B)=-0.581
+(u'-g')(B5V) =  0.347 ; Smith02 u'-g' calibration for (U-B)=-0.581
+(u-g)(B5V)   =  0.40  ; Covey07/synthetic_from_Pickles98_templates interp B3V-B5/7V
+=> adopt (u-g)(B5V) = 0.30 [updated 2/1/2025]
 
-(g-r)(B5V) = -0.23  ; Deng20
+(g-V)(B5V) = -0.207 ; Bilir05 transformation B-V=-0.156 => g-V
+(g-V)(B5V) = -0.209 ; Pancino22 transformation B-V=-0.156 => g-V
+(g-V)(B5V) = -0.226 ; Jordi06 transformation B-V=-0.156 => g-V
+=> adopt (g-V)(B5V) = -0.21 [updated 5/1/2025] 
+
+(g-r)(B5V) =  -0.23  ; Deng20
 (g-r)(B5V) = -0.35  ; Kesseli17
 (g-r)(B5V) = -0.413 ; Covey07 interp B3V -0.46 to B5/7 -0.39
-=> adopt (g-r)(B5V) = -0.35 [updated 6/18/2024]
+(g-r)(B5V) = -0.427 ; Bilir05 transformation B-V=-0.156 => g-r
+=> adopt (g-r)(B5V) = -0.41 [updated 5/1/2025] 
 
-(r-i)(B5V) = -0.25 ; Deng20
-(r-i)(B5V) = -0.31 ; Kesseli17
-=> adopt (r-i)(B5V) = -0.28 [updated 6/18/2024]
+(r-i)(B5V) = -0.25  ; Deng20
+(r-i)(B5V) = -0.31  ; Kesseli17
+(r-i)(B5V) = -0.315 ; Jordi06 transformation R-Ic=-0.095
+(r-i)(B5V) = -0.322 ; Bilir05 transformation R-Ic=-0.095
+=> adopt (r-i)(B5V) = -0.31 [updated 5/1/2025] 
 
 (i-z)(B5V) = -0.19 ; Deng20
 (i-z)(B5V) = -0.21 ; Kesseli17
@@ -197,6 +214,7 @@ Teff(B5V) =  15400 K ; Bohm-Vitense81
 Teff(B5V) = 15346 K ; Bessell98
 Teff(B5V) = 15341 K ; ter. stan. HD 21278 (single Teff based on U-B)
 Teff(B5V) =  15310 K ; Theodossiou90
+Teff(B5V) = 15205 K ; deJagerNieuwenhuijzen87 (logTeff=4.182)
 Teff(B5V) = 15042 K ; U-B=-0.581 => Teff(Bessell98)
 Teff(B5V) =  15000 K ; Crowther97/Fig.3 
 Teff(B5V) =  15000 K ; GrayCorbally09

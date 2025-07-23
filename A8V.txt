@@ -4,8 +4,9 @@ There appear to be no "classic" A8V standard stars, based on the
 survey of spectral standards reflected in this file, Pecaut12 adopts
 HD 158352 as an A8V standard.
 
-Standards: 
-Pecaut12:  HD 158352 - A8V 
+Standards:
+Krug80 standard:    HD 142897 - A8V           
+Pecaut12 standard:  HD 158352 - A8V 
 
 Looking at the xHIP catalog (Hipparcos-based compilation by Anderson &
 Francis 2012 with other ancillary data), one finds that among the A/F
@@ -50,7 +51,8 @@ The brightest are HIP 105199 (V=2.5), HIP 32607 (V=3.3), and HIP 75695 (V=3.7).
 (B-V)(A8V) =  0.25  ; Cowley70(N=10) 
 (B-V)(A8V) =  0.25 ; HD_28910_ A8V plx=21.6354mas, Mv=1.3258
 (B-V)(A8V) =  0.248 ; HD_46304_ A8VAm: plx=22.6861mas, Mv=2.3768
-(B-V)(A8V) = 0.248 ; smoothed trend SpT vs (B-V)o A0V-F0V 
+(B-V)(A8V) = 0.248 ; smoothed trend SpT vs (B-V)o A0V-F0V
+(B-V)(A8V) = 0.248 ; exemplar HD 28910 = rho Tau 
 (B-V)(A8V) =  0.235 ; HD_90132_ A8V plx=24.2034mas, Mv=2.2483
 (B-V)(A8V) = 0.230 ; Gray01/03/06 nearby A8V stars (N=5)
 (B-V)(A8V) =  0.23  ; Mendoza56,Morgan71,KenyonHartmann95
@@ -64,27 +66,32 @@ The brightest are HIP 105199 (V=2.5), HIP 32607 (V=3.3), and HIP 75695 (V=3.7).
 (U-B)(A8V) =  0.12 ; Cowley70(N=10)
 (U-B)(A8V) = 0.094 ; standard HD 158352 = HIP 85537 = HR 6507  
 (U-B)(A8V) =  0.09 ; Fitzgerald70
+(U-B)(A8V) = 0.083 ; exemplar HD 28910 = rho Tau 
 (U-B)(A8V) = 0.083 ; B-V vs U-B trend for B-V=0.248
+(U-B)(A8V) = 0.078 ; SpT vs U-B trend for A/F/G dwarfs (5/1/2025) 
 (U-B)(A8V) = 0.077 ; HIP d<75pc S/N>8 A8V N=10 (Mermilliod91 photometry)
-=> adopt (U-B)(A8V) = 0.083 [updated 12/29/2023]
+=> adopt (U-B)(A8V) = 0.08 [updated 5/1/2025]
 
 (V-Rc)(A8V) =  0.117 ; HD 44769 = HIP 30419 (A8V(n),Gray03) 
 (V-Rc)(A8V) =  0.127 ; HD 70060 = HIP 40706 (A8V,Gray06) 
-(V-Rc)(A8V) = 0.139 ; B-V vs V-Rc locus for B-V=0.248
+(V-Rc)(A8V) =  0.139 ; B-V vs V-Rc locus for B-V=0.248
 (V-Rc)(A8V) =  0.145 ; HD 50241 = HIP 32607 (A8Vn_kA6,Gray06)
-=> adopt (V-Rc)(A8V) = 0.139 [updated 12/29/2023]
+=> adopt (V-Rc)(A8V) = 0.14 [updated 5/1/2025] (V-Ic=0.28, R-Ic=0.14)
 
 (R-Ic)(A8V) =  0.126 ; HD 70060 = HIP 40706 (A8V,Gray06) 
 (R-Ic)(A8V) =  0.131 ; HD 44769 = HIP 30419 (A8V(n),Gray03)
 (R-Ic)(A8V) =  0.136 ; HD 50241 = HIP 32607 (A8Vn_kA6,Gray06)
-(R-Ic)(A8V) = 0.147 ; B-V vs R-Ic locus for B-V=0.248 
-=> adopt (R-Ic)(A8V) = 0.147 [updated 12/29/2023]
+(R-Ic)(A8V) =  0.147 ; B-V vs R-Ic locus for B-V=0.248 
+=> adopt (R-Ic)(A8V) = 0.14 [updated 5/1/2025] (V-Ic=0.28, V-Rc=0.14)
+
+(V-Ij)(A8V) = 0.343 ; Johnson66 interp A7V-F0V 
 
 (V-Ic)(A8V) =  0.248 ; HD 44769 = HIP 30419 (A8V(n),Gray03)
-(V-Ic)(A8V) =  0.253 ; HD 70060 = HIP 40706 (A8V,Gray06) 
+(V-Ic)(A8V) =  0.253 ; HD 70060 = HIP 40706 (A8V,Gray06)
+(V-Ic)(A8V) = 0.28 ; (V-Rc)=0.14, (R-Ic)=0.14 (5/1/2025) 
 (V-Ic)(A8V) =  0.281 ; HD 50241 = HIP 32607 (A8Vn_kA6,Gray06)
-(V-Ic)(A8V) = 0.286 ; B-V vs V-Ic locus for B-V=0.248 
-=> adopt (V-Ic)(A8V) = 0.286 [updated 12/29/2023]
+(V-Ic)(A8V) =  0.286 ; B-V vs V-Ic locus for B-V=0.248 
+=> adopt (V-Ic)(A8V) = 0.28 [updated 5/1/2025] (V-Rc=0.14, R-Ic=0.14) 
 
 (V-J)(A8V) = 0.504 ; B-V vs V-J for B-V=0.248
 => adopt (V-J)(A8V) = 0.504 [updated 5/10/2024]
@@ -294,7 +301,7 @@ HD 158352 = HR 6507 (3 refs; V=5.4; Teff from Masana06)
 GrayGarrison89 classified A3-A7, but listed some A8 stars. The only two
 non-standard dwarfs were HD 96113 (A8V+) and HD 205924 (A8Vn). 
 
-# Standard
+# Standards
 
 HD 158352 = HIP 85537 = HR 6507 
  *A8V: Cowley69,Abt95,Mora01(A8Vp),Pecaut12(stan)
@@ -308,19 +315,55 @@ HD 158352 = HIP 85537 = HR 6507
   confirmed that the spectrum of HD 158352 is intermediate between A7V
   and F0V MK standards, and slightly hotter than the adopted A9V
   standard HD 73450 (BS Cnc). WDS lists a nonphysical companion
-  (mag2=9.75) at sep=46.8". VSX liists it as a variable with amplitude
+  (mag2=9.75) at sep=46.8". VSX lists it as a variable with amplitude
   0.01 mag and period 0.0756d - presumably delta Scuti? No evidence of
   unresolved binarity, but star is ~0.7 mag above MS (so I'm wondering
-  if might be an ~equal mass binary?).  V=5.41(Haeggkvist66),
-  V=5.418+-0.013(Mermilliod91), V=5.42(Hauck97), V=5.44(HIP),
-  V=5.44(Cousins65) => adopt V=5.418.  B-V=0.215(Haeggkvist66),
-  B-V=0.227+-0.006(Mermilliod91), B-V=0.23(Cousins65), B-V=0.237(HIP)
-  => adopt B-V=0.227.  U-B=0.09(Cousins65).
-  U-B=0.094+-0.074(Mermilliod91) => adopt U-B=0.094.  plx=15.86+-0.69
-  mas (HIP), plx = 15.7570+-0.1611mas(GaiaDR2).  Teffs:
+  if might be an ~equal mass binary?).
+  V=5.41(Haeggkvist66),
+  V=5.41(Mermilliod86/Eggen), 
+  V=5.418+-0.013(Mermilliod91),
+  V=5.42(Hauck97),
+  V=5.44(HIP),
+  V=5.44(Cousins65,Cousins71) => adopt V=5.418.
+  B-V=0.215(Haeggkvist66),
+  B-V=0.225(Cousins71), 
+  B-V=0.227+-0.006(Mermilliod91),
+  B-V=0.23(Cousins65),
+  B-V=0.23(Mermilliod86/Eggen),
+  B-V=0.237(HIP)
+  => adopt B-V=0.227.
+  U-B=0.09(Cousins65).
+  U-B=0.094+-0.074(Mermilliod91),
+  U-B=0.10(Mermilliod86/Eggen),
+  U-B=0.11(Cousins71,vanAltena95) 
+  => adopt U-B=0.094.
+  plx=15.86+-0.69mas(HIP), plx=15.7570+-0.1611mas(GaiaDR2),
+  plx=15.6711+-0.0793mas(GaiaDR3).  Teffs:
   7430+-77K(Masana06), 7482+-52K(Zorec12), 7624+-259K(David15) =>
   <Teff> = 7624K. logg=3.82+-0.14(David15). Mv=1.405+-0.026.  David15
   estimates age of ~1.02 Gyr and mass 1.77 Msun.
+
+# Deprecated Standard
+
+HD 142897 = CD-73 1162 = CPD-73 1685 = Gaia DR3 5782190195734735744
+  A2: Cannon
+ *A8V: Houk75,Krug80(stan,Houk75)
+
+  Did not find this star in the literature until 2025 - in an obscure
+  paper that mentions faint spectral standards. The star only has 5
+  SIMBAD references as of 2025, i.e. it is remarkably poorly studied
+  for a HD star - and has barely been mentioned besides its one
+  appearance as a A8V standard in Krug80.  4" binary in GaiaDR3, the
+  parameters in the TIC suggest that it is likely to be a G/K dwarf.
+  plx=2.9572+-0.0153mas(GaiaDR3) => d=338pc.
+  E(B-V)=0.0500+-0.0105(TIC/Stassun19), which is ~half the total
+  Galactic dust column in this direction from the SFD map. GaiaDR3
+  assigns are reddening which seems to high of
+  A0=0.4659(0.4632,0.4688)mag - tiny errors, and of course, completely
+  wrong (note that it gets a much more respectable A0=0.1757 for the
+  G/K dwarf companion, consistent with TIC and reasonable compared to
+  SFD total column). V=9.91(TYC), V=9.956862(GaiaDR3/synth),
+  B-V=0.241+-0.034(TYC). 
 
 # Exemplar
 
@@ -335,10 +378,12 @@ HD 28910 = rho Tau = Cl* Melotte 25 Rg 353 = HR 1444 (Hyad)
 
    One of two Hyads classified A8V by Morgan65 (along with ups Tau =
    HD 28024), but both classified A9V by GrayGarrison89.
-   plx=22.6703+-0.8800mas(GaiaDR2),
-   plx=20.61+-0.57mas(HIP2). V=4.65(HIP), B-V=0.255+-0.007(HIP).
-   Mv=1.22(V from HIP, plx from HIP2). PASTEL: <Teff> = 7640K(N=3),
-   logg=4.02+-0.20(Gebran10), [Fe/H]=0.12+-0.30(Gebran10).
+   plx=22.6703+-0.8800mas(GaiaDR2), plx=20.61+-0.57mas(HIP2).
+   V=4.65(HIP), V=4.652+-0.006(Mermilliod91),
+   B-V=0.248+-0.005(Mermilliod91), B-V=0.255+-0.007(HIP),
+   U-B=0.083+-0.004(Mermilliod91).  Mv=1.22(V from HIP, plx from
+   HIP2). PASTEL: <Teff> = 7640K(N=3), logg=4.02+-0.20(Gebran10),
+   [Fe/H]=0.12+-0.30(Gebran10).
 
 # Others
 

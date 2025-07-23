@@ -87,18 +87,18 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (U-B)(A0V) =  -0.02  ; Fitzgerald70
 (U-B)(A0V) =  -0.05  ; Cowley70(N=102) 
 (U-B)(A0V) =  -0.061 ; HD 188228 (A0Va, Gray06)
-=> adopt (U-B) = -0.006 [updated 12/29/2023]
+=> adopt (U-B)(A0V) = -0.006 [updated 12/29/2023]
 [EEM note: Johnson53 defined U-B = 0 color based on sample of A0V stars, but on average the nearby A0Vs and Vega have a slightly negative U-B. I adopt the median for the three main standards, which happens to correspond to the U-B for Vega.]
 
 (V-Rc)(A0V) =  -0.017 ; HD 188228 (A0Va, Gray06) 
 (V-Rc)(A0V) =  -0.011 ; HD 146624 = d Sco 
 (V-Rc)(A0V) = -0.009 ; anchor stan. HD 172167 = alf Lyr = Vega = GJ 721 (Bessel90)
 (V-Rc)(A0V) = -0.007 ; pri. stan. HD 71155 = HR 3314 
-(V-Rc)(A0V) =  0.001 ; B-V vs V-Rc trend for B-V=0.00 (12/2023)
+(V-Rc)(A0V) =  0.001 ; B-V vs V-Rc trend for B-V=0.00 (5/1/2025]
 (V-Rc)(A0V) =   0.002 ; HD 130109 = 109 Vir 
 (V-Rc)(A0V) =  0.012 ; exemplar HD 13709 = mu For = GJ 89
 (V-Rc)(A0V) =   0.017 ; deprecated stan. HD 161868 = gam Oph 
-=> adopt (V-Rc)(A0V) = 0.001 [updated 10/8/2023; V-Ic=0.004, R-Ic=0.003]
+=> adopt (V-Rc)(A0V) = 0.00 [updated 6/15/2025] (V-Ic=0.00, R-Ic=0.00)
 
 (V-Rj)(A0V) = -0.04 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66)
 (V-Rj)(A0V) =  0.00 ; Johnson65
@@ -111,14 +111,16 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (R-Ic)(A0V) = -0.007 ; GJ 788.3 = GJ 9694 = HD 193571 (Cousins80) plx=14.6303mas (A0V,Houk78)
 (R-Ic)(A0V) = -0.002 ; GJ 89 = HD 13709 = mu For (Cousins80) plx=10.2162 (A0V,Houk82)
 (R-Ic)(A0V) =   0.001 ; HD 146624 = d Sco
-(R-Ic)(A0V) =  0.003 ; B-V vs R-Ic trend for B-V=0.00 (12/2023)
+(R-Ic)(A0V) =  0.003 ; B-V vs R-Ic trend for B-V=0.00 (5/1/2025)
 (R-Ic)(A0V) =  0.004 ; prim. stan. Vega = GJ 721 (Bessel90)
 (R-Ic)(A0V) =   0.013 ; HD 130109 = 109 Vir 
 (R-Ic)(A0V) =   0.037 ; deprecated stan. HD 161868 = gam Oph 
-=> adopt (R-Ic)(A0V) = 0.00 [updated 10/8/2023; V-Ic=0.004, V-Rc=0.001]
+=> adopt (R-Ic)(A0V) = 0.00 [updated 6/15/2025] (V-Ic=0.00, V-Rc=0.00)
 
 (R-Ij)(A0V) = -0.03 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66)
 
+(V-Ij)(A0V) =  0.00 ; Johnson66
+(V-Ij)(A0V) = -0.02 ; Johnson65 
 (V-Ij)(A0V) = -0.03 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66)
 (V-Ij)(A0V) = -0.07 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66)
 
@@ -130,32 +132,41 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (V-Ic)(A0V) =  -0.01 ; HD 146624 = d Sco 
 (V-Ic)(A0V) = -0.005 ; pri. stan. Vega = GJ 721 (Bessel90) 
 (V-Ic)(A0V) =   0.00  ; Bessell88
-(V-Ic)(A0V) =  0.004 ; B-V vs V-Ic trend for B-V=0.00 (12/2023)
+(V-Ic)(A0V) =  0.000 ; V-Ij=0.00 => V-Ic via Hipparcos Vol. 1 Field H42
+(V-Ic)(A0V) =  0.004 ; B-V vs V-Ic trend for B-V=0.00 (6/15/2025]
 (V-Ic)(A0V) =  0.01  ; GJ 89 = HD 13709 = mu For (Cousins80) plx=10.2162mas (A0V,Houk82)
-(V-Ic)(A0V) =   0.015 ; HD 130109 = 109 Vir 
+(V-Ic)(A0V) =   0.015 ; HD 130109 = 109 Vir
+(V-Ic)(A0V) =  0.022 ; B-V=0.00 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
 (V-Ic)(A0V) =  0.026 (+-0.010 sem, +-0.036 stdev) ; HIP d<75 S/N>8 N=15)
 (V-Ic)(A0V) =   0.054 ; deprecated stan. HD 161868 = gam Oph 
 (V-Ic)(A0V) =  0.06  ; pri. stan. HD 103287 = gam UMa (HIP)
-=> adopt (V-Ic)(A0V) = 0.004 [updated 10/8/2023; V-Rc=0.001, R-Ic=0.003]
+=> adopt (V-Ic)(A0V) = 0.00 [updated 6/15/2025] (V-Rc=0.00, R-Ic=0.00)
 
 (V-Jj)(A0V) = -0.01 ; Johnson66
 (V-Jj)(A0V) = -0.02 ; Johnson65
 (V-Jj)(A0V) =  0.01 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66)
 (V-Jj)(A0V) =  0.04 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66)
 
-(V-J)(A0V)   = 0.04  ; Wegner14/2MASS
+(V-J)(A0V) = 0.04  ; Wegner14/2MASS
+(V-J)(A0V) = 0.046 ; B-V vs V-J trend for B-V=0.00 (5/1/2025)
+=> adopt (V-J)(A0V) = 0.046 [updated 5/1/2025] 
 
-(V-H)(A0V)   = 0.02  ; Wegner14/2MASS 
+(V-H)(A0V) = 0.013 ; B-V vs V-H trend for B-V=0.00 (5/1/2025)
+(V-H)(A0V) = 0.02  ; Wegner14/2MASS
+=> adopt (V-H)(A0V) = 0.013 [updated 5/1/2025] 
 
 (V-Kj)(A0V) = -0.03 ; Johnson66 (surprising jump given A0V star colors define system!)
 (V-Kj)(A0V) =  0.00 ; Johnson65
 (V-Kj)(A0V) =  0.01 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66) 
 (V-Kj)(A0V) =  0.07 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66) 
 
-(V-Ks)(A0V) =  0.05 ; Wegner14/2MASS
+(V-K)(A0V) =  0.00  ; Bessell88/Johnson-Glass
+(V-K)(A0V) =  0.024 ; Glass97(SAAO/Carter90_system
 
-(V-K)(A0V)  =  0.00  ; Bessell88/Johnson-Glass
-(V-K)(A0V)  =  0.024 ; Glass97(SAAO/Carter90_system
+(V-Ks)(A0V) = 0.041 ; B-V vs V-Ks trend for B-V=0.00 (5/1/2025)
+(V-Ks)(A0V) = 0.05 ; Wegner14/2MASS
+=> adopt (V-Ks)(A0V) = 0.041 [updated 5/1/2025] 
+
 
 (V-Lj)(A0V) =  0.00 ; Johnson66
 (V-Lj)(A0V) =  0.02 ; Johnson65
@@ -165,30 +176,36 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (J-H)(A0V) = 0.015 ; Glass97(SAAO/Carter90_system) 
 
 (J-H)(A0V) =  -0.025 +-0.033 ; HD 139493 = HR 5818 = 2MASS J15355704+5437500 (A0Vn;Gray95/A0V;Stocke91)
+(J-H)(A0V) =  -0.032 ; B-V vs J-H trend for B-V=0.00 (5/1/2025) 
 (J-H)(A0V) =  -0.035 ; Koornneef83 (J-H=0.01) converted to 2MASS via Carpenter01 (A0V stars)
 (J-H)(A0V) =  -0.04 (+-0.004 rms) ; SteadHoare11 
 (J-H)(A0V) =  -0.04  ; Deng20/2MASS
+(J-H)(A0V) =  -0.04  ; Straizys09 
 (J-H)(A0V) =  -0.045 ; Bessell88(Glass->2MASS)
 (J-H)(A0V) =  -0.049 ; pri. stan. HD 71155 = HR 3314 = 30 Mon (vanderBliek96 ESO => 2MASS via Carpenter01) 
-=> adopt (J-H)(A0V) = -0.04 [updated 3/1/2025] (J-Ks=-0.02, H-Ks=-0.02) 
+=> adopt (J-H)(A0V) = -0.04 [updated 5/1/2025] (J-Ks=-0.02, H-Ks=0.02)
+[EEM 5/1/2025: note that all authors are consistently getting non-zero 2MASS J-H color for A0V, all consistent
+with J-H ~ -0.04]
 
 (H-K)(A0V) = -0.001 ; Glass97(SAAO/Carter90_system) 
 (H-K)(A0V) =  0.00  ; Bessell88/Glass
 
 (H-Ks)(A0V) =  0.028 ; Bessell88(Glass->2MASS)
+(H-Ks)(A0V) =  0.028 ; B-V vs H-Ks trend for B-V=0.00 (5/1/2025) 
 (H-Ks)(A0V) =  0.023 ; pri. stan. HD 71155 = HR 3314 = 30 Mon (vanderBliek96 ESO => 2MASS via Carpenter01) 
 (H-Ks)(A0V) =  0.02  ; Deng20/2MASS
 (H-Ks)(A0V) =  0.011 +-0.029 ; HD 139493 = HR 5818 = 2MASS J15355704+5437500 (A0Vn;Gray95/A0V;Stocke91)
+(H-Ks)(A0V) =  0.01  ; Straizys09 
 (H-Ks)(A0V) =  0.00 (+-0.003 rms) ; SteadHoare11 
-=> adopt (H-Ks)(A0V) = 0.02 [updated 3/1/2025] (J-H=-0.04, J-Ks=-0.02)
-
+=> adopt (H-Ks)(A0V) = 0.02 [updated 5/1/2025] (J-H=-0.04, J-Ks=-0.02)
 
 (J-K)(A0V) =   0.00 ; Bessell88/Glass
 
+(J-Ks)(A0V) =  -0.004 ; B-V vs J-Ks trend for B-V=0.00
 (J-Ks)(A0V) =  -0.011 ; Bessell88(Glass->2MASS)
 (J-Ks)(A0V) =  -0.019 ; pri. stan. HD 71155 = HR 3314 = 30 Mon (vanderBliek96 ESO => 2MASS via Carpenter01) 
 (J-Ks)(A0V) =  -0.02  ; Deng20/2MASS
-=> adopt (J-Ks)(A0V) = -0.02 [updated 3/1/2025] (J-H=-0.04, H-Ks=0.02)
+=> adopt (J-Ks)(A0V) = -0.02 [updated 5/1/2025] (J-H=-0.02, H-Ks=0.02)
 
 (g-V)(A0V) = -0.127 ; Jordi06 B-V=>g-V for B-V=0.00
 => adopt (g-V)(A0V) = -0.127 [updated 9/1/2023]
@@ -296,28 +313,30 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (G-V)(A0V) =   0.0459 ; HD_11502_ A0Vnp_lB plx=18.8809 mas (GaiaDR3)
 => adopt (G-V)(A0V) = -0.008 [updated 5/16/2024] (GaiaDR3) 
 
+Teff(A0V) =  10114 K ; Paunzen06 median Teff for A0V (N=60)
 Teff(A0V) =  10040 K ; GrayCorbally94
 Teff(A0V) =  10000 K ; Crowther97/Fig.3 
 Teff(A0V) =  10000 K ; Bessell79
 Teff(A0V) =   9886 K ; Bessell98
 Teff(A0V) =   9800 K ; GrayCorbally09
 Teff(A0V) =   9800 K ; Blackwell80
+Teff(A0V) =   9795 K ; deJagerNieuwenhuijzen87 (logTeff=3.991)
 Teff(A0V) =   9784 K ; B-V=0.00 => Teff(Bessell98,logg=4.3)
 Teff(A0V) =   9780 K ; Bertone04[ATLAS]
-Teff(A0V) = 9750 K ; Zorec12 median
-Teff(A0V) = 9740 K ; prim. stan. HR 3314 median Teff
+Teff(A0V) =  9750 K ; Zorec12 median
+Teff(A0V) =  9740 K ; prim. stan. HR 3314 median Teff
 Teff(A0V) =   9730 K ; Bertone04[NextGen]
-Teff(A0V) = 9707 K ; EEM N=265 Teffs
-Teff(A0V) = 9706 K ; median for N=72 Gerbaldi99 A0V stars, Kunzli97 calibration
+Teff(A0V) =  9707 K ; EEM N=265 Teffs
+Teff(A0V) =  9706 K ; median for N=72 Gerbaldi99 A0V stars, Kunzli97 calibration
 Teff(A0V) =   9700 K ; Habets81
-Teff(A0V) = 9660 K ; anchor stan alf Lyr (Monnier13, apparent Teff)
+Teff(A0V) =  9660 K ; anchor stan alf Lyr (Monnier13, apparent Teff)
 Teff(A0V) =   9560 K ; Chavez95 (+60-80K)
 Teff(A0V) =   9530 K ; Theodossiou90
 Teff(A0V) =   9520 K ; Schmidt-Kaler82
 Teff(A0V) =   9500 K ; mean photometric Teff
 Teff(A0V) =   9394 K ; Boyajian12 
 Teff(A0V) =   9377 K ; B-V=0.00 => Teff(Napiwotski93)
-Teff(A0V) = 9355 K ; prim. stan. gam UMa (see below)
+Teff(A0V) =  9355 K ; prim. stan. gam UMa (see below)
 => adopt Teff(A0V) = 9700 K (logT = 3.987) [updated 9/16/2019]
 
 BCv(A0V) =  -0.68 mag ; Habets81
@@ -421,20 +440,34 @@ HD 172167 = alf Lyr = Vega = GJ 721 = HIP 91262 = HR 7001
  *A0Va: Gray87(stan),Garrison96
 
   Gray87 uses it as the primary low vsini A0Va standard (from MK78).
-  V=0.01(Oja63), V=0.026+-0.008(Bohlin04),
-  V=0.03(JohnsonMorgan53,Johnson66,Bessell90,HIP,GCPD/Cousins76_VRIc,Megessier95,Bessell98,Bohlin14
-  "standard Johnson value") V=0.033(Mermilliod91, adopted by Rieke23),
-  V=0.035(Colina94), V=0.04(Johnson54) => adopt Vmag=0.03.
+  V=0.01(Oja63),
+  V=0.026+-0.008(Bohlin04),
+  V=0.03(JohnsonMorgan53,Johnson66,Bessell90,HIP,GCPD/Cousins76_VRIc,Johnson80,Megessier95,Bessell98,Bohlin14
+  "standard Johnson value"),
+  V=0.033(Mermilliod91, adopted by Rieke23),
+  V=0.035(Colina94),
+  V=0.04(Johnson54)
+  => adopt Vmag=0.03.
   B-V=-0.01(Bessell90,GCPD/Cousins76_VRIc), B-V=-0.001+-0.005(HIP),
-  B-V=0.00(Oja63), B-V=0.00(Johnson66), B-V=0.00(Johnson54) => adopt
+  B-V=0.00(Oja63),
+  B-V=0.00(Johnson66),
+  B-V=0.00(Johnson54) => adopt
   B-V=0.00.  U-B=0.00(Johnson66), U-B=-0.006+-0.006(Mermilliod91),
   U-B=-0.01(JohnsonMorgan53), U-B=-0.01(Johnson54) => adopt
-  U-B=-0.006.  V-Rj=-0.04(Johnson66),
+  U-B=-0.006.
+  V-Rj=-0.04(Johnson66),
   V-Rc=-0.009(Bessell90,GCPD/Cousins76_VRIc),
-  R-Ic=0.004(Bessell90,GCPD/Cousins76_VRIc), V-Ij=-0.07(Johnson66),
-  V-Ic=-0.01+-0.02(HIP), V-Ic=-0.005(Bessell90,GCPD/Cousins76_VRIc).
-  V-J=0.01(Johnson66), V-K=0.01(Johnson66), V-L=0.05(Johnson66).
-  J=0.02(Johnson66), K=-0.02(Gehrz74, Gehrz76, Grasdalen83),
+  V-Rc=-0.053(Johnson66=>Cousins using Fernie83),
+  R-Ic=0.004(Bessell90,GCPD/Cousins76_VRIc),
+  V-Ij=-0.07(Johnson66),
+  V-Ic=-0.051(Johnson66=>Cousins using Fernie83), 
+  V-Ic=-0.01+-0.02(HIP),
+  V-Ic=-0.005(Bessell90,GCPD/Cousins76_VRIc).
+  V-J=0.01(Johnson66),
+  V-K=0.01(Johnson66),
+  V-L=0.05(Johnson66).
+  J=0.02(Johnson66),
+  K=-0.02(Gehrz74, Gehrz76, Grasdalen83),
   K=0.02(Johnson66), Ks=-0.036+-0.010(Reike08,indirectly).  f_bol:
   (2983+-120)e-8 erg/cm^2/s (Alonso94; erroneously cited as
   "(2983+-120)e-8 erg/cm^2/s" in Ciardi01), 2.983e-5 erg/cm^2/s

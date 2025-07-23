@@ -1,9 +1,74 @@
 B8.5V
 
+There do not appear to be any B8.5V standards published before
+Negueruela24 (see their Appendix B.2).
+
 Negueruela24 standards: HD 21279 - B8.5V (vsini=198km/s)
                         HD 23923 - B8.5V (vsini=308km/s)
 
-GarrisonGray94 does not list a B8.5V standard.
+(B-V)(B8.5V) = -0.069 ; pri. stan. HD 23923 = HR 1183 = Cl Melotte 22 2425
+(B-V)(B8.5V) = -0.081 ; pri. stan. HD 21279 = Cl Melotte 20 775
+=> adopt (B-V)(B8.5V) = -0.075 [updated 5/10/2025] 
+
+(U-B)(B8.5V) = -0.204 ; pri. stan. HD 23923 = HR 1183 = Cl Melotte 22 2425
+(U-B)(B8.5V) = -0.253 ; pri. stan. HD 21279 = Cl Melotte 20 775
+=> adopt (U-B)(B8.5V) = -0.23 [updated 5/10/2025]
+
+(V-Ij)(B8.5V) = -0.095 ; Johnson65 interp B8V-B9V 
+
+(V-Ic)(B8.5V) = -0.054 ; B-V=-0.075 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
+(V-Ic)(B8.5V) = -0.068 ; V-Ij=-0.095 => V-Ic via Hipparcos Vol. 1 Field H42
+=> adopt (V-Ic)(B8.5V) = -0.06 [updated 6/15/2025] 
+
+(V-J)(B8.5V) = -0.107 ; U-B vs V-J trend for U-B=-0.23 [5/1/2025]
+=> adopt (V-J)(B8.5V) = -0.107 [updated 5/1/2025]
+
+(V-H)(B8.5V) = -0.161 ; U-B vs V-H trend for U-B=-0.23 [5/1/2025]
+=> adopt (V-H)(B8.5V) = -0.161 [updated 5/1/2025] 
+
+(V-K)(B8.5V) = -0.183 ; Glass97(SAAO/Carter90_system) (B8/9)
+
+(V-Ks)(B8.5V) = -0.147 ; U-B vs V-Ks trend for U-B=-0.23 [5/1/2025]
+=> adopt (V-Ks)(B8.5V) = -0.147 [updated 5/1/2025] 
+
+(J-H)(B8.5V) = -0.025 ; Glass97(SAAO/Carter90_system) (B8/9)
+
+(J-H)(B8.5V) = -0.054 ; U-B vs J-H trend for U-B=-0.23 [5/1/2025] 
+(J-H)(B8.5V) = -0.055 ; Straizys09 (interp B8V-A0V)
+=> adopt (J-H)(B8.5V) = -0.054 [updated 5/1/2025] 
+
+(H-K)(B8.5V) = -0.022 ; Glass97(SAAO/Carter90_system) (B8/9)
+
+(H-Ks)(B8.5V) = 0.014 ; U-B vs H-Ks trend for U-B=-0.23 [5/1/2025]
+=> adopt (H-Ks)(B8.5V) = 0.014 [updated 5/1/2025] 
+
+# Primary Standards
+
+HD 21279 = Cl Melotte 20 775 (in Alpha Persei cluster)
+  B8V: Abt78,Grenier99
+ *B8.5V: Morgan71,Negueruela24(stan;vsini=198km/s)
+  B9: Heckmann58,Kyritsis22
+  A0V: Heckmann56(A0),Petrie69
+
+  Negueruela24 adopted HD 21279 as B8.5V standard, and noted that it
+  was classified originally as B8.5V by Morgan, and they were able to
+  compare it to other B-type members of Melotte 20/alpha Persei
+  cluster. V=7.260(Mermilliod91), B-V=0.047(Mermilliod91),
+  U-B=-0.160(Mermilliod91) => dereddened via Q-method =>
+  (B-V)o=-0.081, (U-B)o=-0.253, E(B-V)=0.128, Av=0.419.
+
+HD 23923 = HR 1183 = Cl Melotte 22 2425
+  B8V: Osawa59
+  B8.5Vn: Abt78
+ *B8.5V: Negueruela24(stan;vsini=308km/s)
+  B9V: JM53,Mendoza56,Cowley72,Grenier99,Zorec09
+  B9Vann: Garrison94
+  B9: Binnendijk46,Eggen50,Kyritsis22
+
+  V=6.168+-0.004(Mermilliod91), B-V=-0.050+-0.001(Mermilliod91),
+  U-B=-0.190+-0.000(Mermilliod91) => using Q-method to deredden =>
+  (B-V)o=-0.069, (U-B)o=-0.204, E(B-V)=0.019, Av=0.061.  Its
+  dereddened UBV colors are almost identical to the mean for B9Vs.
 
 # Non-standard stars
 

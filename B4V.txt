@@ -4,7 +4,8 @@ Garrison94 does not list a B4V anchor standard, nor does MK73 list a
 B4V dagger standard. Unfortunately "B4V" is in this no-man's land
 between the very hot dwarfs (O-B3 stars) covered by e.g. Walborn and
 others, and the late Bs (B7-A0 stars) covered in more detail by Gray
-and collaborators.
+and collaborators. Negueruela24 Appendix B.1 discusses the B4 subtype
+in detail and issues with previously published standards. 
 
 Lesh68 standard:        90 Leo   - B4V
 Rountree90 standard:    HD 20809 - B4V (UV)
@@ -22,25 +23,27 @@ Skiff08 did not flag any stars as B4V standards.
 All Q-method dereddening calculations in this file have been updated
 with the revised calibration (10/9/2011).
 
-(B-V)(B4V) = -0.18  ; Morgan53,Johnson63(B3V-B5V),Johnson65(B3V-B5V),Fitzgerald70,Morgan71(B3V-B5V)
-(B0V)(B4V) =  -0.179 ; Gutierrez-Moreno79(interp(B3V-B5V)
-(B-V)(B4V) = -0.175 ; dereddened weak standard 90 Leo
+(B-V)(B4V) =  -0.18  ; Morgan53,Johnson63(B3V-B5V),Johnson65(B3V-B5V),Fitzgerald70,Morgan71(B3V-B5V)
+(B-V)(B4V) =  -0.179 ; Gutierrez-Moreno79(interp(B3V-B5V)
+(B-V)(B4V) =  -0.175 ; dereddened deprecated standard 90 Leo
 (B-V)(B4V) = -0.17  ; halfway between B3V (-0.18) and B5V (-0.16)
 (B-V)(B4V) = -0.166 ; EEM dereddened 35 HIP B4V stars (Q-method, E(B-V)<0.1)
-(B-V)(B4V) =  -0.16 ; KenyonHartmann95 
+(B-V)(B4V) =  -0.16 ; KenyonHartmann95
+(B-V)(B4V) = -0.154 ; pri. stan. HD 26739 = HR 1312 = HIP 19725
 (B-V)(B4V) = -0.150 ; EEM dereddened nearest B4V star HD 103079
 (B-V)(B4V) =  -0.15 ; Deng20
 => adopt (B-V)(B4V) = -0.166 [updated 5/31/2024]
 
 The bluest B4V star that I can find is HIP 30788 (B-V = -0.169+-0.007), so <(B-V)o> is probably near this value.
 
-(U-B)(B4V) = -0.558  ; EEM dereddened nearest B4V star HD 103079
-(U-B)(B4V) = -0.619  ; EEM dereddened 35 HIP B4V stars (Q-method, E(B-V)<0.1)
-(U-B)(B4V) =  -0.63   ; Fitzgerald70
-(U-B)(B4V) =  -0.635  ; Johnson65 (halfway B3V-B5V)
-(U-B)(B4V) =  -0.645  ; Schmidt-Kaler82 (halfway B3V-B5V) 
-(U-B)(B4V) = -0.651  ; EEM dereddened weak standard 90 Leo
-(U-B)(B4V) =  -0.66   ; Bessell98
+(U-B)(B4V) = -0.558 ; EEM dereddened nearest B4V star HD 103079
+(U-B)(B4V) = -0.572 ; pri. stan. HD 26739 = HR 1312 = HIP 19725
+(U-B)(B4V) = -0.619 ; EEM dereddened 35 HIP B4V stars (Q-method, E(B-V)<0.1)
+(U-B)(B4V) =  -0.63 ; Fitzgerald70
+(U-B)(B4V) =  -0.635 ; Johnson65 (halfway B3V-B5V)
+(U-B)(B4V) =  -0.645 ; Schmidt-Kaler82 (halfway B3V-B5V) 
+(U-B)(B4V) =  -0.651 ; EEM dereddened weak standard 90 Leo
+(U-B)(B4V) =  -0.66 ; Bessell98
 => adopt (U-B)(B4V) = -0.619 [updated 5/31/2024]
 => adopt     Q(B4V) = -0.500 (=(U-B)-0.72*(B-V) = -0.619 - 0.72*-0.165)
 
@@ -55,9 +58,11 @@ The bluest B4V star that I can find is HIP 30788 (B-V = -0.169+-0.007), so <(B-V
 
 (V-Ij)(B4V) = -0.245 ; Johnson65 (halfway B3V-B5V)
 
+(V-Ic)(B4V) = -0.170 ; B-V=-0.166 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
 (V-Ic)(B4V) = -0.175 ; color trend U-B vs V-Ic for U-B=-0.619
+(V-Ic)(B4V) = -0.175 ; V-Ij=-0.245 => V-Ic via Hipparcos Vol. 1 Field H42
 (V-Ic)(B4V) =  -0.20  ; Winkler97(interp B3V-B5V)
-=> adopt (V-Ic)(B4V) = -0.175 [updated 5/31/2024]
+=> adopt (V-Ic)(B4V) = -0.175 [updated 6/15/2025]
 
 (V-Jj)(B4V) = -0.40 ; Johnson65 (halfway B3V-B5V)
 
@@ -71,7 +76,8 @@ The bluest B4V star that I can find is HIP 30788 (B-V = -0.169+-0.007), so <(B-V
 
 (V-Kj)(B4V) = -0.53 ; Johnson65 (halfway B3V-B5V)
 
-(V-K)(B4V)  = -0.545 ; Winkler97/SAAO(interp B3V-B5V)
+(V-K)(B4V) = -0.444 ; Glass97(SAAO/Carter90_system) (B3/5)
+(V-K)(B4V) = -0.545 ; Winkler97/SAAO(interp B3V-B5V)
 
 (V-Ks)(B4V) =  -0.354 ; HIP_60000_ B4V d=93.2575pc, (B-V)=0.007 (dereddened from Kervella19)
 (V-Ks)(B4V) =  -0.398 ; HIP_63945_ B4V d=122.175pc, (B-V)=0.013 (dereddened from Kervella19)
@@ -88,14 +94,18 @@ The bluest B4V star that I can find is HIP 30788 (B-V = -0.169+-0.007), so <(B-V
 => adopt (V-J)(B4V)  = -0.338 [updated 4/8/2022]
 => adopt (V-H)(B4V)  = -0.431 [updated 4/8/2022]
 
-(J-H)(B4V) = -0.07 ; Winkler97/SAAO(interp B3V-B5V)
+(J-H)(B4V) = -0.062 ; Glass97(SAAO/Carter90_system) (B3/5) 
+(J-H)(B4V) = -0.07  ; Winkler97/SAAO(interp B3V-B5V)
 
 (J-H)(B4V) = -0.085 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.165
-(J-H)(B4V) = -0.09 ; Deng20/2MASS
+(J-H)(B4V) = -0.09  ; Deng20/2MASS
+(J-H)(B4V) = -0.103 ; Straizys09 (interp B2V-B5V) 
 (J-H)(B4V) = -0.11 (+-0.008 rms) ; SteadHoare11
-=> adopt (J-H)(B4V) = -0.085 [updated 5/1/2024]
+(J-H)(B4V) = -0.117 ; Koornneef83 (J-H=-0.07) converted to 2MASS via Carpenter01 (B4 stars)
+=> adopt (J-H)(B4V) = -0.10 [updated 5/1/2025]
 
-(H-K)(B4V)  = -0.06 ; Winkler97/SAAO(interp B3V-B5V)
+(H-K)(B4V) = -0.048 ; Glass97(SAAO/Carter90_system) (B3/5)
+(H-K)(B4V) = -0.06  ; Winkler97/SAAO(interp B3V-B5V)
 
 (H-Ks)(B4V) = -0.009 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.165
 (H-Ks)(B4V) = -0.03 ; Deng20/2MASS
@@ -104,7 +114,9 @@ The bluest B4V star that I can find is HIP 30788 (B-V = -0.169+-0.007), so <(B-V
 
 (J-Ks)(B4V) = -0.12 ; Deng20/2MASS
 
-(V-Lj)(B4V) = -0.51 ; Johnson65 (halfway B3V-B5V) 
+(V-Lj)(B4V) = -0.51 ; Johnson65 (halfway B3V-B5V)
+
+(K-L)(B4V) = -0.015 ; Glass97(SAAO/Carter90_system) (B3/5) 
 
 (Ks-W1)(B4V) =  0.028 ; EEM trend for d<30pc for B-V=-0.165
 (Ks-W1)(B4V) = -0.03  ; Deng20 (J-W1=-0.15, J-Ks=-0.12)
@@ -113,22 +125,31 @@ The bluest B4V star that I can find is HIP 30788 (B-V = -0.169+-0.007), so <(B-V
 (Bp-Rp)(B4V) = -0.245 ; Evans18 trend for V-I=-0.175
 (Bp-Rp)(B4V) = -0.25  ; Deng20
 
-(u-g)(B4V)   = 0.01  ; Kesseli17 
+(u-g)(B4V)   =  0.01  ; Kesseli17 
 (u'-g')(B4V) =  0.10  ; Deng20 (blue-edge method)
-(u-g)(B4V)   = 0.148 ; Fukugita11 interp B2V-B7V
-(u'-g')(B4V) = 0.286 ; Fukugita96 u'-g' calibration for (U-B)=-0.619
-(u-g)(B4V)   = 0.29  ; Covey07/synthetic_from_Pickles98_templates interp B3V-B5/7V
-(u'-g')(B4V) = 0.297 ; Smith02 u'-g' calibration for (U-B)=-0.619
-=> adopt (u-g)(B4V) = 0.29: [updated 6/18/2024] (large uncertainty)
+(u-g)(B4V)   =  0.148 ; Fukugita11 interp B2V-B7V
+(u-g)(B4V)   = 0.24 ; interp adopted B3V (0.18) and B5V (0.30) (2/1/2025)
+(u'-g')(B4V) =  0.286 ; Fukugita96 u'-g' calibration for (U-B)=-0.619
+(u-g)(B4V)   =  0.29  ; Covey07/synthetic_from_Pickles98_templates interp B3V-B5/7V
+(u'-g')(B4V) =  0.297 ; Smith02 u'-g' calibration for (U-B)=-0.619
+=> adopt (u-g)(B4V) = 0.24 [updated 6/18/2024]
 
-(g-r)(B4V) = -0.26  ; Deng20
+(g-V)(B4V) = -0.213 ; Bilir05 transformation B-V=-0.166 => g-r
+(g-V)(B4V) = -0.215 ; Pancino22 transformation B-V=-0.166 => g-r
+(g-V)(B4V) = -0.232 ; Jordi06 transformation B-V=-0.166 => g-r
+=> adopt (g-V)(B4V) = -0.22 [updated 5/1/2025] 
+
+(g-r)(B4V) =  -0.26  ; Deng20
 (g-r)(B4V) = -0.40  ; Kesseli17
 (g-r)(B4V) = -0.437 ; Covey07 interp B3V -0.46 to B5/7V -0.39
-=> adopt (g-r)(B4V) = -0.40 [updated 6/18/2024]
+(g-r)(B4V) = -0.439 ; Bilir05 transformation B-V=-0.166 => g-r
+=> adopt (g-r)(B4V) = -0.43 [updated 5/1/2025]
 
-(r-i)(B4V) = -0.27 ; Deng20
-(r-i)(B4V) = -0.30 ; Kesseli17
-=> adopt (r-i)(B4V) = -0.29 [updated 6/18/2024]
+(r-i)(B4V) = -0.27  ; Deng20
+(r-i)(B4V) = -0.30  ; Kesseli17
+(r-i)(B4V) = -0.321 ; Jordi06 transformation R-Ic=-0.101 => r-i
+(r-i)(B4V) = -0.329 ; Bilir05 transformation R-Ic=-0.101 => r-i
+=> adopt (r-i)(B4V) = -0.31 [updated 5/1/2025] 
 
 (i-z)(B4V) = -0.20 ; Deng20
 (i-z)(B4V) = -0.27 ; Kesseli17
@@ -154,25 +175,26 @@ The bluest B4V star that I can find is HIP 30788 (B-V = -0.169+-0.007), so <(B-V
 (G-V)(B4V) =  0.035 ; HIP_40600 B4V V=6.858 G=6.8884 E(B-V)=0.032 (calc from Kervella22)
 => adopt (G-V)(B4V) = 0.015 [updated 2/20/2023]
 
-Teff(B4V)  = 17111 K  ; deprecated standards 90 Leo (median Teff)
-Teff(B4V)  =  17100 K ; Theodossiou90
-Teff(B4V)  =  17050 K ; Schmidt-Kaler82 halfway B3V-B5V
-Teff(B4V)  =  17000 K ; Bohm-Vitense81
-Teff(B4V)  =  17000 K ; Habets81
-Teff(B4V)  =  16866 K ; Bessell98
-Teff(B4V)  =  16813 K ; B-V=-0.166 => Teff(Bessell98,logg=4.3)
-Teff(B4V)  = 16780 K  ; median for Braganca12 B4V stars (N=41)
-Teff(B4V)  = 16737 K  ; EEM N=66 Teffs
-Teff(B4V)  =  16700 K ; Chavez95 (+-100K)
-Teff(B4V)  =  16490 K ; Bertone04[ATLAS]
-Teff(B4V)  = 16400 K ; interp B-V vs. Teff B3V-B4V for B-V=-0.165
-Teff(B4V)  =  16000 K ; Crowther97/Fig.3 
-Teff(B4V)  =  15750 K ; interp. (B3V-B5V) GrayCorbally09
-Teff(B4V)  =  15727 K ; U-B=-0.619 => Teff(Bessell98)
-Teff(B4V)  = 15488 K ; Simon-Diaz17 for B4V (N=1; HD 21278)
-Teff(B4V)  =  15421 K ; B-V=-0.166 => Teff(Napiwotzki93)
-Teff(B4V)  =  14787 K ; Flower96 Teff for B-V = -0.17 
-Teff(B4V)  =  14654 K ; non-standard HD 103079 (photometric Teff)
+Teff(B4V) = 17111 K  ; deprecated standards 90 Leo (median Teff)
+Teff(B4V) =  17100 K ; Theodossiou90
+Teff(B4V) =  17050 K ; Schmidt-Kaler82 halfway B3V-B5V
+Teff(B4V) =  17000 K ; Bohm-Vitense81
+Teff(B4V) =  17000 K ; Habets81
+Teff(B4V) =  16904 K ; deJagerNieuwenhuijzen87 (logTeff=4.228)
+Teff(B4V) =  16866 K ; Bessell98
+Teff(B4V) =  16813 K ; B-V=-0.166 => Teff(Bessell98,logg=4.3)
+Teff(B4V) = 16780 K  ; median for Braganca12 B4V stars (N=41)
+Teff(B4V) = 16737 K  ; EEM N=66 Teffs
+Teff(B4V) =  16700 K ; Chavez95 (+-100K)
+Teff(B4V) =  16490 K ; Bertone04[ATLAS]
+Teff(B4V) = 16400 K ; interp B-V vs. Teff B3V-B4V for B-V=-0.165
+Teff(B4V) =  16000 K ; Crowther97/Fig.3 
+Teff(B4V) =  15750 K ; interp. (B3V-B5V) GrayCorbally09
+Teff(B4V) =  15727 K ; U-B=-0.619 => Teff(Bessell98)
+Teff(B4V) = 15488 K ; Simon-Diaz17 for B4V (N=1; HD 21278)
+Teff(B4V) =  15421 K ; B-V=-0.166 => Teff(Napiwotzki93)
+Teff(B4V) =  14787 K ; Flower96 Teff for B-V = -0.17 
+Teff(B4V) =  14654 K ; non-standard HD 103079 (photometric Teff)
 => adopt Teff(B4V) = 16400 K (logT = 4.215) [updated 4/4/2020]
 
 Mv(B4V) =  -0.32 mag ; HIP_82254 B4V plx=4.257 mas, Vmag=6.799,E(B-V)=0.086
@@ -222,12 +244,21 @@ Mass(B4V) = 4.969+-0.090 Msun ; Eclipsing binary V760 Sco A (Torres10)
 Mass(B4V) = 4.94 Msun ; David15 B4 MS (rms=0.59 Msun; N=4)
 Mass(B4V) = 4.73 Msun ; Evans23 Teff vs. Mass fit for Teff=16400K
 Mass(B4V) = 4.62 Msun ; Chulkov22 fit for M_G=-2.6 (assuming G-V=0)
-Mass(B4V) = 4.609+-0.073 Msun ; Eclipsing binary V760 Sco B (Torres10)
+Mass(B4V) = 4.609 +-0.073 Msun ; Eclipsing binary V760 Sco B (Torres10)
 Mass(B4V) = 4.47 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-1.0)
 => adopt Mass(B4V) = 5.1 Msun [updated 4/16/2022]
 
 Rad(B4V) = 3.459 Rsun ; Teff=16400K, logL=2.892
 => adopt Rad(B4V) = 3.459 Rsun [updated 4/4/2020]
+
+# Primary Standard
+
+HD 26739 = HR 1312 = HIP 19725 = GY Eri = ALS 17280 = 2MASS J04133815-0108590 = Gaia DR3 3254227867561772800 
+  B4V: Negueruela24("slowly rotating standard")
+
+  V=6.429+-0.016(Mermilliod91), B-V=-0.125+-0.012(Mermilliod91),
+  U-B=-0.553+-0.008(Mermilliod91) => dereddened via Q-method =>
+  (B-V)o=-0.154, (U-B)o=-0.572, E(B-V)=0.029, Av=0.095.
 
 # Deprecated Standard
 
@@ -239,22 +270,20 @@ Rad(B4V) = 3.459 Rsun ; Teff=16400K, logL=2.892
   B6.6(IV): Kopylov58
 
   Only listed as a B4V standard by Lesh68, but it appears to be nearly
-  as hot and as blue as typical B3V standards. For this reason (and
-  since only Lesh68 considered it a B4V standard), I listed it as a
-  deprecated standard rather than a primary standard (even though it
-  is the only B4V standard in the literature!).  VanLeeuwen07 plx =
-  1.72+-1.15 mas, i.e. not well-constrained.  Jaschek64 lists two B3Vs
-  and a B5V. Weak pedigree. 3.5" sep par. A is ~B4V (V=6.3) and B is
-  ~B8 (V=7.3). Mermilliod91: V=5.945, B-V=-0.155+-0.007,
-  U-B=-0.638+-0.011 => updated Q-method (10/9/2011) => (B-V)o=-0.175,
-  (U-B)o=-0.651, E(B-V)= 0.020, Av=0.064. Hauck97 photometry
-  dereddened using Castelli91: (b-y)0=-0.110, c0=0.314, E(b-y)=0.042,
-  Av=0.185.  Teffs: 16347K(U-Bo=>Bessell98), 16628K(EEM, Hauck97
-  phot.=>Napiwotzki93 calibration), 16800K(Philip80), 17111K(EEM,
-  Hauck97 phot.=>Balona94 calibration), 17115K(EEM, Hauck97
-  phot.=>BalonaShobbrook84 beta calibration),
-  18230K(Zorec09#2,Soubiran10), 18280K(Zorec09#1) => median Teff =
-  17111K.
+  as hot and as blue as typical B3V standards (Negueruela24 "90 Leo
+  (HD 100600) is almost identical to the B3V standard eta Aur, and
+  certainly not later.").  VanLeeuwen07 plx = 1.72+-1.15 mas, i.e. not
+  well-constrained.  Jaschek64 lists two B3Vs and a B5V. Weak
+  pedigree. 3.5" sep par. A is ~B4V (V=6.3) and B is ~B8
+  (V=7.3). Mermilliod91: V=5.945, B-V=-0.155+-0.007, U-B=-0.638+-0.011
+  => updated Q-method (10/9/2011) => (B-V)o=-0.175, (U-B)o=-0.651,
+  E(B-V)= 0.020, Av=0.064. Hauck97 photometry dereddened using
+  Castelli91: (b-y)0=-0.110, c0=0.314, E(b-y)=0.042, Av=0.185.  Teffs:
+  16347K(U-Bo=>Bessell98), 16628K(EEM, Hauck97 phot.=>Napiwotzki93
+  calibration), 16800K(Philip80), 17111K(EEM, Hauck97 phot.=>Balona94
+  calibration), 17115K(EEM, Hauck97 phot.=>BalonaShobbrook84 beta
+  calibration), 18230K(Zorec09#2,Soubiran10), 18280K(Zorec09#1) =>
+  median Teff = 17111K.
 
 # Other Stars
 

@@ -33,10 +33,12 @@ using the new calibration (10/10/2011).
 (U-B)(B6V) =  -0.50  ; Bessell98,Schmidt-Kaler82
 (U-B)(B6V) = -0.504  ; pri. stan. bet Sex (EEM dereddened via Q-method)
 (U-B)(B6V) = -0.521  ; EEM dereddened N=34 HIP B6V stars (Q-method,E(B-V)<0.1)
-=> adopt  (U-B)(B6V) = -0.504 [update 5/31/2024]
-=> adopt      Q(B6V) = -0.403 (=(U-B)-0.72*(B-V) = -0.504 - 0.72*-0.140)
+=> adopt (U-B)(B6V) = -0.504 [update 5/31/2024]
+=> adopt     Q(B6V) = -0.403 (=(U-B)-0.72*(B-V) = -0.504 - 0.72*-0.140)
 
+(V-Rj)(B6V) = -0.04 ; exemplar alf Gru = Alnair = HD 209952 = GJ 848.2 
 (V-Rj)(B6V) = -0.06 ; Johnson65
+=> adopt (V-Rj)(B6V) = -0.05 [updated 6/15/2025] 
 
 (V-Rc)(B6V) =  -0.046 ; exemplar alf Gru = Alnair = HD 209952 = GJ 848.2
 (V-Rc)(B6V) = -0.062 ; B-V vs V-Rc locus for B-V=-0.140 and U-B=-0.504
@@ -48,24 +50,32 @@ using the new calibration (10/10/2011).
 (R-Ic)(B6V) = -0.083 ; B-V vs R-Ic locus for B-V=-0.140
 => adopt (R-Ic)(B6V) = -0.082 [updated 5/31/2024]
 
+(V-Ij)(B6V) = -0.12 ; exemplar alf Gru = Alnair = HD 209952 = GJ 848.2 
 (V-Ij)(B6V) = -0.19 ; Johnson65
 
-(V-Ic)(B6V) =  -0.121 ; exemplar alf Gru = ALnair = HD 209952 = GJ 848.2
+(V-Ic)(B6V) =  -0.121 ; exemplar alf Gru = Alnair = HD 209952 = GJ 848.2
+(V-Ic)(B6V) = -0.134 ; B-V=-0.140 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
+(V-Ic)(B6V) = -0.135 ; V-Ij=-0.19 => V-Ic via Hipparcos Vol. 1 Field H42
 (V-Ic)(B6V) = -0.144 ; color trend U-B vs V-Ic for U-B=-0.504
 (V-Ic)(B6V) = -0.145 ; B-V vs V-Ic locus for B-V=-0.140 
 (V-Ic)(B6V) =  -0.16  ; Winkler97
-=> adopt (V-Ic)(B6V) = -0.145 [updated 5/31/2024]
+=> adopt (V-Ic)(B6V) = -0.14 [updated 6/15/2025] 
 
+(V-Jj)(B6V) = -0.30 ; exemplar alf Gru = Alnair = HD 209952 = GJ 848.2 
 (V-Jj)(B6V) = -0.31 ; Johnson65
 
 (V-J)(B6V) = -0.270 ; color trend U-B vs V-J for U-B=-0.504
 (V-J)(B6V) =  -0.30 ; Wegner14/2MASS
 => adopt (V-J)(B6V) = -0.270 [updated 5/31/2024]
 
+(V-Hj)(B6V) = -0.35 ; exemplar alf Gru = Alnair = HD 209952 = GJ 848.2
+=> adopt (V-Hj)(B6V) = -0.35 [updated 6/15/2025]
+
 (V-H)(B6V) =  -0.35 ; Wegner14/2MASS
 (V-H)(B6V) = -0.351 ; color trend U-B vs V-H for U-B=-0.504
-=> adopt (V-H)(B6V) = -0.351 [updated 
+=> adopt (V-H)(B6V) = -0.35 [updated 6/15/2025]
 
+(V-Kj)(B6V) = -0.38 ; exemplar alf Gru = Alnair = HD 209952 = GJ 848.2 
 (V-Kj)(B6V) = -0.41 ; Johnson65
 
 (V-K)(B6V)  = -0.42 ; Winkler97/SAAO
@@ -85,9 +95,11 @@ using the new calibration (10/10/2011).
 (J-H)(B6V) = -0.05 ; Winkler97/SAAO
 
 (J-H)(B6V) = -0.077 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.140
-(J-H)(B6V) = -0.09 ; Deng20/2MASS
+(J-H)(B6V) = -0.08  ; Straizys09 (interp B5V-B8V) 
+(J-H)(B6V) = -0.09  ; Deng20/2MASS
+(J-H)(B6V) = -0.096 ; Koornneef83 (J-H=-0.05) converted to 2MASS via Carpenter01 (B6 stars)
 (J-H)(B6V) = -0.10 (+-0.006 rms) ; SteadHoare11
-=> adopt (J-H)(B6V) = -0.077 [updated 5/1/2024]
+=> adopt (J-H)(B6V) = -0.08 [updated 5/1/2025]
 
 (H-K)(B6V)  = -0.05 ; Winkler97/SAAO
 
@@ -112,15 +124,23 @@ using the new calibration (10/10/2011).
 (u-g)(B6V)   = 0.51  ; Covey07/synthetic_from_Pickles98_templates interp B3V-B5/7V
 => adopt (u-g)(B6V) = 0.44 [updated 6/18/2024]
 
-(g-r)(B6V) = -0.22 ; Deng20
-(g-r)(B6V) = -0.32 ; Kesseli17
-(g-r)(B6V) = -0.39 ; Covey07 (listed for "B5/7V")
-=> adopt (g-r)(B6V) = -0.32 [updated 6/18/2024]
+(g-V)(B6V) = -0.197 ; Bilir05 transformation B-V=-0.140 => g-V
+(g-V)(B6V) = -0.198 ; Pancino22 transformation B-V=-0.140 => g-V
+(g-V)(B6V) = -0.216 ; Jordi05 transformation B-V=-0.140 => g-V
+=> adopt (g-V)(B6V) = -0.20 [updated 5/1/2025] 
 
-(r-i)(B6V) = -0.23 ; Covey07
-(r-i)(B6V) = -0.24 ; Deng20
-(r-i)(B6V) = -0.26 ; Kesseli17
-=> adopt (r-i)(B6V) = -0.24 [updated 6/18/2024]
+(g-r)(B6V) =  -0.22 ; Deng20
+(g-r)(B6V) = -0.32  ; Kesseli17
+(g-r)(B6V) = -0.39  ; Covey07 (listed for "B5/7V")
+(g-r)(B6V) = -0.409 ; Bilir05 transformation B-V=-0.140 => g-V
+=> adopt (g-r)(B6V) = -0.39 [updated 5/1/2025] 
+
+(r-i)(B6V) = -0.23  ; Covey07
+(r-i)(B6V) = -0.24  ; Deng20
+(r-i)(B6V) = -0.26  ; Kesseli17
+(r-i)(B6V) = -0.302 ; Jordi06 transformation R-Ic=-0.082 => r-i
+(r-i)(B6V) = -0.309 ; Bilir05 transformation R-Ic=-0.082 => r-i
+=> adopt (r-i)(B6V) = -0.26 [updated 5/1/2025] 
 
 (i-z)(B6V) = -0.17 ; Kesseli17
 (i-z)(B6V) = -0.18 ; Deng20
@@ -156,6 +176,7 @@ using the new calibration (10/10/2011).
 Teff(B6V) =  13090 K ; Bertone04[ATLAS]
 Teff(B6V) =  13197 K ; Flower96 Teff for B-V = -0.14
 Teff(B6V) = 13677 K ; Zorec12 median
+Teff(B6V) =  13740 K ; deJagerNieuwenhuijzen87 (logTeff=4.138)
 Teff(B6V) =  13777 K ; B-V=-0.14 => Teff(Napiwotzki93)
 Teff(B6V) = 13804 K ; Simon-Diaz17 for B6V (N=3)
 Teff(B6V) = 13827 K ; U-B=-0.504 => Teff(Bessell98)
@@ -304,18 +325,32 @@ alf Gru = Alnair = HD 209952 = GJ 848.2 = GJ 9767 = HIP 109268 = HR 8425 = Gaia 
    B7IVn: Garrison94
    B7V: Cuchiaro77(UV)
 
+   V=1.71(Ducati02), 
    V=1.73(Cousins62), V=1.734+-0.012(Mermilliod91),
    V=1.740+-0.011(Cousins71,Bessell90), V=1.741(GCPD/Cousins76_VRIc)
    => adopt V=1.74.  B-V=-0.13(Cousins62,Bessell90),
    B-V=-0.134+-0.005(Mermilliod91), B-V=-0.140+-0.006(Cousins71),
-   B-V=-0.140(GCPD/Cousins76_VRIc) => adopt B-V=-0.134.
-   U-B=-0.462(GCPD/Cousins76_VRIc), U-B=-0.464+-0.004(Mermilliod91),
-   U-B=-0.48(Cousins71) => adopt U-B=-0.464.  V-Rc=-0.045(Bessel90),
+   B-V=-0.140(GCPD/Cousins76_VRIc)
+   => adopt B-V=-0.134.
+   U-B=-0.462(GCPD/Cousins76_VRIc),
+   U-B=-0.464+-0.004(Mermilliod91),
+   U-B=-0.47(Ducati02),
+   U-B=-0.48(Cousins71) => adopt U-B=-0.464.
+   V-Rj=-0.04(Ducati02),
+   V-Rc=-0.045(Bessel90),
    V-Rc=-0.046(GCPD/Cousins76_VRIc#3),
-   V-Rc=-0.047(GCPD/Cousins76_VRIc#1#2) => adopt V-Rc=-0.046.
-   R-Ic=-0.075(Bessel90), R-Ic=-0.075(GCPD/Cousins76_VRIc#1#2) =>
-   adopt R-Ic=-0.075.  V-Ic=-0.120(Bessel90),
-   V-Ic=-0.122(GCPD/Cousins76_VRIc#1#2#3) => adopt V-Ic=-0.121.
+   V-Rc=-0.047(GCPD/Cousins76_VRIc#1#2)
+   => adopt V-Rc=-0.046.
+   R-Ic=-0.075(Bessel90),
+   R-Ic=-0.075(GCPD/Cousins76_VRIc#1#2) =>
+   adopt R-Ic=-0.075.
+   V-Ij=-0.12(Ducati02),
+   V-Ic=-0.120(Bessel90),
+   V-Ic=-0.122(GCPD/Cousins76_VRIc#1#2#3)
+   => adopt V-Ic=-0.121.
+   V-Jj=-0.30(Ducati02),
+   V-Hj=-0.35(Ducati02),
+   V-Kj=-0.38(Ducati02). 
    Dereddening through Q-method results (unsurprisingly) in
    E(B-V)=0.00. The U-B color is consistent with being intermediate
    between B6V and B7V.  vanderBliek96 ESO JHKL'M photometric
@@ -341,4 +376,46 @@ HD 142165 = HR 5906
 
    Upper Sco member. All published subtypes are "B6" either "V" or "IVn".
 
+HD 188293 = 57 Aql A = HR 7593 = HIP 97966 = STF 2594 A = WDS J19546-0814A = ADS 13087A = 2MASS J19543765-0813382 = Gaia DR3 4195366939990617728
+   B5Vn: Abt83
+  *B6Vn: Slettebak63,Levato75(B6V),Cuchiarro77(B6V;S2/68)
+   B7Vn: Lesh68,Abt02
 
+   Primary of binary discovered in 1780 (STF 2594), separation has
+   varied from 29.5" to 36.3" between 1780 and 2019. WDS reports that
+   both components are spectroscopic binaries. Both components were
+   JohnsonMorgan53 photometric standards.
+   V=5.70(Johnson53,Johnson66), V=5.708+-0.005(Mermilliod91),
+   V=5.708+-0.006(Cousins84), V=5.71(Cousins71) => adopt
+   V=5.708+-0.005(Mermilliod91).  B-V=-0.079+-0.008(Mermilliod91),
+   B-V=-0.08(Johnson53,Johnson66), B-V=-0.08(Cousins71),
+   B-V=-0.091+-0.010(Cousins84) => adopt
+   B-V=-0.079+-0.008(Mermilliod91).  U-B=-0.471+-0.007(Cousins84),
+   U-B=-0.479+-0.011(Mermilliod91), U-B=-0.48(Cousins71),
+   U-B=-0.49(Johnson53,Johnson66) => adopt
+   U-B=-0.479+-0.011(Mermilliod91).
+   G=5.682008+-0.002823(GaiaDR3). J=5.858+-0.019(2MASS),
+   H=5.884+-0.042(2MASS), Ks=5.918+-0.023(2MASS).  Reddening
+   estimates: E(B-V) = 0.0388+-0.0411(TIC/Stassun19),
+   E(B-V)=0.0398+-0.030(Borison23), E(B-V)=0.04(Jamar76),
+   E(B-V)=0.05(Savage85,Friedemann92), E(B-V)=0.059+-0.014(Paunzen24),
+   E(B-V)=0.072(Kervella22/STILISM), E(B-V)=0.10(Heiles00). Using
+   Q-method with Mermilliod91 UBV photometry, I estimate:
+   (B-V)o=-0.142, (U-B)o=-0.523, E(B-V)=0.063 [consistent with recent
+   Paunzen24 estimate], Av=0.205, Teff=14745K, BCv=-1.207, so the
+   intrinsic colors are indeed consistent with ~B6V.  Teff:
+   13552+-94K(Zorec12), 14823K(Philip80). vsini(A)=190km/s(Abt02).
+   GaiaDR3: plx=7.2445+-0.0935mas(GaiaDR3) => using this parallax and
+   my Q-method estimates of extinction, I estimate logL=2.46,
+   Mv=-0.20. Compared to other B6V stars, this places it fainter than
+   the primary standard bet Sex, above the Upper Sco and ZAMS Mv
+   values (roughly Mv~-0.02, -0.04, respectively), and ~0.35 mag
+   fainter than typical B6V Mv value (suggests it is young). Using
+   Bertelli09 tracks for protosolar mix (Z=0.017, Y=0.27) I get
+   logg=4.21, Mass=4.11Msun, log(age/yr)=7.58 => 38Myr.  Other age
+   estimates: 24+45-16Myr(Gullikson16), 527+-77Myr(Zorec12).
+   CottenSong16 list the star has having an IR excess at wavelengths
+   beyond 22um with tau=0.22e-4 and Temp=220K.  Kounkel19 included it
+   in the Theia 53 "string" (as did Hunt24), Kerr21 included in TLC-7,
+   and Qin23 includes it as the brightest member of the OCSN 8 group
+   -- with some overlap in memberships amongst the groups.

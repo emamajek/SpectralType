@@ -85,6 +85,7 @@ newest calibration (10/9/2011).
 => adopt Q(B2V) = -0.636 [updated 6/1/2024]
 
 (V-Rj)(B2V) = -0.10 ; Johnson65
+(V-Rj)(B2V) = -0.15 ; JohnsonBorgman63
 
 (V-Rc)(B2V) = -0.094 ; color trend U-B vs V-Rc for U-B=-0.790 
 (V-Rc)(B2V) =  -0.12 ; Winkler97/SAAO
@@ -94,10 +95,13 @@ newest calibration (10/9/2011).
 => adopt (R-Ic)(B2V) = -0.135 [updated 6/1/2024]
 
 (V-Ij)(B2V) = -0.32 ; Johnson65
+(V-Ij)(B2V) = -0.38 ; JohnsonBorgman63
 
+(V-Ic)(B2V) = -0.228 ; V-Ij=-0.32 => V-Ic via Hipparcos Vol. 1 Field H42
 (V-Ic)(B2V) = -0.229 ; color trend U-B vs V-Ic for U-B=-0.790
+(V-Ic)(B2V) = -0.230 ; B-V=-0.215 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
 (V-Ic)(B2V) =  -0.26 ; Winkler97/SAAO
-=> adopt (V-Ic)(B2V) = -0.229 [updated 6/1/2024]
+=> adopt (V-Ic)(B2V) = -0.23 [updated 6/15/2025]
 
 (V-Jj)(B2V) = -0.53 ; Johnson65
 
@@ -111,21 +115,26 @@ newest calibration (10/9/2011).
 
 (V-Kj)(B2V) = -0.71 ; Johnson65
 
-(V-K)(B2V)  = -0.69 ; Winkler97/SAAO
+(V-K)(B2V) = -0.632 ; Glass97(SAAO/Carter90_system)
+(V-K)(B2V) = -0.69  ; Winkler97/SAAO
 
 (V-Ks)(B2V) =  -0.58 ; Wegner14 (2MASS)
 (V-Ks)(B2V) = -0.602 ; PecautMamajek13
 (V-Ks)(B2V) = -0.602 ; color trend U-B vs V-Ks for U-B=-0.790
 => adopt (V-Ks)(B2V) = -0.602 [updated 6/1/2024]
 
-(J-H)(B2V) = -0.09 ; Winkler97/SAAO
+(J-H)(B2V) = -0.09  ; Winkler97/SAAO
+(J-H)(B2V) = -0.093 ; Glass97(SAAO/Carter90_system)
 
-(J-H)(B2V) = -0.09 ; Deng20/2MASS
+(J-H)(B2V) = -0.09  ; Deng20/2MASS
 (J-H)(B2V) = -0.103 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.215
+(J-H)(B2V) = -0.13  ; Straizys09 
+(J-H)(B2V) = -0.137 ; Koornneef83 (J-H=-0.09) converted to 2MASS via Carpenter01 (B2 stars)
 (J-H)(B2V) = -0.15 (+-0.005 rms) ; SteadHoare11
-=> adopt (J-H)(B2V) = -0.103 [updated 5/1/2024]
+=> adopt (J-H)(B2V) = -0.13 [updated 5/1/2025]
 
-(H-K)(B2V)  = -0.07 ; Winkler97/SAAO
+(H-K)(B2V) = -0.063 ; Glass97(SAAO/Carter90_system)
+(H-K)(B2V) = -0.07  ; Winkler97/SAAO
 
 (H-Ks)(B2V) = -0.024 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.215
 (H-Ks)(B2V) = -0.04 ; Deng20/2MASS
@@ -165,17 +174,25 @@ newest calibration (10/9/2011).
 (u'-g')(B2V) =  0.069 ; Smith02 u'-g' calibration for (U-B)=-0.79
 => adopt (u-g)(B2V) = -0.03 [updated 6/18/2024]
 
-(g-r)(B2V) = -0.31  ; Deng20
+(g-V)(B2V) = -0.244 ; Bilir05 conversion B-V=-0.215 => g-V
+(g-V)(B2V) = -0.248 ; Pancino22 conversion B-V=-0.215 => g-V 
+(g-V)(B2V) = -0.263 ; Jordi06 conversion B-V=-0.215 => g-V
+=> adopt (g-V)(B2V) = -0.25 [updated 5/1/2025] 
+
+(g-r)(B2V) =  -0.31  ; Deng20
 (g-r)(B2V) = -0.41  ; Kesseli17
 (g-r)(B2V) = -0.475 ; Covey07 (interp B1V-B3V)
+(g-r)(B2V) = -0.494 ; Bilir05 conversion B-V=-0.215 => g-r
 (g-r)(B2V) = -0.50  ; Fukugita11
-=> adopt (g-r)(B2V) = -0.44 [updated 6/18/2024] 
+=> adopt (g-r)(B2V) = -0.48 [updated 5/1/2025] 
 
 (r-i)(B2V) = -0.295 ; Covey07 (interp B1V-B3V)
 (r-i)(B2V) = -0.30  ; Deng20
 (r-i)(B2V) = -0.30  ; Kesseli17
+(r-i)(B2V) = -0.354 ; Jordi06 transformation R-Ic=-0.135 => r-i
+(r-i)(B2V) = -0.364 ; Bilir05 transformation R-Ic=-0.135 => r-i
 (r-i)(B2V) = -0.37  ; Fukugita11
-=> adopt (r-i)(B2V) = -0.30 [updated 6/18/2024]
+=> adopt (r-i)(B2V) = -0.35 [updated 5/1/2025]
 
 (i-z)(B2V) = -0.23 ; Deng20
 (i-z)(B2V) = -0.26 ; Covey07
@@ -216,19 +233,20 @@ Teff(B2V) =   21618 K ; B-V=-0.216 => Teff(Bessell98,logg=4.3)
 Teff(B2V) =   21500 K ; Bohm-Vitense81
 Teff(B2V) =   21400 K ; Chavez95 (+400-200K)
 Teff(B2V) =   21380 K ; Bessell98
+Teff(B2V) =   20893 K ; deJagerNieuwenhuijzen87 (logTeff=4.320)
 Teff(B2V) =   20800 K ; non-standard HD 122980 (Nieva14)
 Teff(B2V) =   20700 K ; non-standard HD 35708 (Nieva14)
-Teff(B2V) = 20693 K ; sec. stan. 13 Sco ; EEM median 3 Teffs
-Teff(B2V) = 20600 K ; median for Braganca12 B2V stars (N=48)
-Teff(B2V) = 20592 K ; prim. stan. beta2 Sco (median Teff)
-Teff(B2V) = 20500 K ; deprecated stan. HD 42401 (Teff from Williams09)
-Teff(B2V) = 20324 K ; Q=-0.639 => Nieva13 calibration
+Teff(B2V) =  20693 K ; sec. stan. 13 Sco ; EEM median 3 Teffs
+Teff(B2V) =  20600 K ; median for Braganca12 B2V stars (N=48)
+Teff(B2V) =  20592 K ; prim. stan. beta2 Sco (median Teff)
+Teff(B2V) =  20500 K ; deprecated stan. HD 42401 (Teff from Williams09)
+Teff(B2V) =  20324 K ; Q=-0.639 => Nieva13 calibration
 Teff(B2V) =   20010 K ; B-V=-0.216 => Teff(Napiwotzki93)
-Teff(B2V) = 19679 K ; EEM N=180 Teffs
+Teff(B2V) =  19679 K ; EEM N=180 Teffs
 Teff(B2V) =   19500 K ; GrayCorbally09
 Teff(B2V) =   19500 K ; GrayCorbally94
 Teff(B2V) =   19490 K ; U-B=-0.79 => Bessell98(Teff)
-Teff(B2V) = 19055 K ; Simon-Diaz17 for B2V (N=15)
+Teff(B2V) =  19055 K ; Simon-Diaz17 for B2V (N=15)
 Teff(B2V) =   19000 K ; Eclipsing binary V1388 Ori (Southworth22) 
 Teff(B2V) =   18858 K ; Flower96 Teff for B-V = -0.22 
 => adopt Teff(B2V) = 20600 K (logT = 4.314) [updated 9/16/2019]

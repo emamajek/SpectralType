@@ -63,14 +63,11 @@ The bluest B-V I can find for a B1V star is HIP 39540 = HD 66665
 (U-B)(B1V) = -0.995 ; EEM dereddened sec. stan. HD 7252 (via Q-method)
 (U-B)(B1V) = -0.998 ; EEM dereddened ter. stan. 42 Ori (via Q-method)
 (U-B)(B1V) = -1.00  ; JohnsonMorgan53
-=> adopt (U-B)(B1V)  = -0.995 *** [updated 9/26/2019]
-=> adopt     Q(B1V)  = -0.794 [updated 9/26/2019]
-=> adopt (V-I)(B1V)  = -0.325
-=> adopt (V-J)(B1V)  = -0.660
-=> adopt (V-H)(B1V)  = -0.815
-=> adopt (V-Ks)(B1V) = -0.874
+=> adopt (U-B)(B1V)  = -0.995 [updated 5/1/2025] 
+=> adopt     Q(B1V)  = -0.794 [updated 5/1/2025]
 
 (V-Rj)(B1V) = -0.11 ; Johnson65
+(V-Rj)(B1V) = -0.17 ; JohnsonBorgman63
 
 (V-Rc)(B1V) = -0.101 ; non-standard HD 116658 = alf Vir = Spica
 (V-Rc)(B1V) = -0.14  ; Winkler97/SAAO
@@ -78,9 +75,14 @@ The bluest B-V I can find for a B1V star is HIP 39540 = HD 66665
 (R-Ic)(B1V) = -0.147 ; non-standard HD 116658 = alf Vir = Spica 
 
 (V-Ij)(B1V) = -0.36 ; Johnson65
+(V-Ij)(B1V) = -0.41 ; JohnsonBorgman63
 
 (V-Ic)(B1V) = -0.248 ; non-standard HD 116658 = alf Vir = Spica
+(V-Ic)(B1V) = -0.257 ; V-Ij=-0.36 => V-Ic via Hipparcos Vol. 1 Field H42
 (V-Ic)(B1V) = -0.30  ; Winkler97/SAAO
+(V-Ic)(B1V) = -0.301 ; B-V=-0.278 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
+(V-Ic)(B1V) = -0.325 ; U-B vs V-Ic sequence for U-B=-0.995
+=> adopt (V-Ic)(B1V) = -0.325 [updated 5/1/2025] 
 
 (V-Jj)(B1V) = -0.62 ; Johnson65
 
@@ -101,9 +103,10 @@ The bluest B-V I can find for a B1V star is HIP 39540 = HD 66665
 
 (J-H)(B1V) =  -0.09  ; Deng20/2MASS
 (J-H)(B1V) = -0.125 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.278
+(J-H)(B1V) = -0.140 ; Straizys09 (interp B0V-B2V) 
 (J-H)(B1V) = -0.147 ; Koornneef83 (J-H=-0.10) converted to 2MASS via Carpenter01 (B1 stars)
 (J-H)(B1V) = -0.17 (+-0.008 rms) ; SteadHoare11/2MASS
-=> adopt (J-H)(B1V) = -0.15 [updated 2/1/2025]
+=> adopt (J-H)(B1V) = -0.14 [updated 5/1/2025]
 
 (H-K)(B1V) = -0.070 ; Glass97(SAAO/Carter90_system)
 (H-K)(B1V) = -0.08  ; Winkler97/SAAO
@@ -133,10 +136,16 @@ The bluest B-V I can find for a B1V star is HIP 39540 = HD 66665
 (u'-g')(B1V) =  -0.29 ; Deng20 (blue-edge method)
 => adopt (u-g)(B1V) = -0.22 [updated 6/18/2024]
 
-(g-r)(B1V) = -0.34 ; Deng20
-(g-r)(B1V) = -0.46 ; Kesseli17
-(g-r)(B1V) = -0.49 ; Covey07
-=> adopt (g-r)(B1V) = -0.46 [updated 6/18/2024]
+(g-V)(B1V) = -0.284 ; Bilir05 conversion B-V=-0.278 => g-V
+(g-V)(B1V) = -0.290 ; Pancino22 conversion B-V=-0.278 => g-V
+(g-V)(B1V) = -0.303 ; Jordi06 conversion B-V=-0.278 => g-V
+=> adopt (g-V)(B1V) = -0.29 [updated 5/1/2025] 
+
+(g-r)(B1V) = -0.34  ; Deng20
+(g-r)(B1V) = -0.46  ; Kesseli17
+(g-r)(B1V) = -0.49  ; Covey07
+(g-r)(B1V) = -0.564 ; Bilir05 transformation B-V=-0.278 => g-r
+=> adopt (g-r)(B1V) = -0.48 [updated 5/1/2025] 
 
 (r-i)(B1V) = -0.31 ; Deng20
 (r-i)(B1V) = -0.33 ; Kesseli17
@@ -170,29 +179,30 @@ The bluest B-V I can find for a B1V star is HIP 39540 = HD 66665
 
 Teff(B1V) =   31714 K ; B-V=-0.278 => Teff(Napiwotzki93)
 Teff(B1V) =   31072 K ; B-V=-0.278 => Teff(Bessell98,logg=4.3)
-Teff(B1V) = 28372 K ; Q=-0.7948 => Nieva13 calibration
+Teff(B1V) =  28372 K ; Q=-0.7948 => Nieva13 calibration
 Teff(B1V) =   27000 K ; non-standard HD 36591 (Nieva14)
 Teff(B1V) =   26600 K ; Bessell98
-Teff(B1V) = 26530 K  ; median for Braganca12 B1V stars (N=13) 
-Teff(B1V) = 26358 K  ; ter. stan. 42 Ori (only Teff from U-Bo)
+Teff(B1V) =  26530 K  ; median for Braganca12 B1V stars (N=13) 
+Teff(B1V) =  26358 K  ; ter. stan. 42 Ori (only Teff from U-Bo)
 Teff(B1V) =   26300 K ; non-standard HD 61068 (Nieva14)
 Teff(B1V) =   26222 K ; U-B=-0.995 => Teff(Bessell98)
-Teff(B1V) = 26222 K  ; pri. stan. ome^01 Sco (median Teff)
+Teff(B1V) =  26222 K  ; pri. stan. ome^01 Sco (median Teff)
 Teff(B1V) =   26000 K ; Crowther97/Fig.3
 Teff(B1V) =   26000 K ; Habets81
 Teff(B1V) =   25830 K ; Bertone04[ATLAS]
-Teff(B1V) = 25820K  ; ter. stan. HD 24131 
+Teff(B1V) =  25820K  ; ter. stan. HD 24131 
 Teff(B1V) =   25636 K ; mean photometric Teff
-Teff(B1V) =   25570 K ; Theodossiou90  
+Teff(B1V) =   25570 K ; Theodossiou90
+Teff(B1V) =   25410 K ; deJagerNieuwenhuijzen87 (logTeff=4.405)
 Teff(B1V) =   25400 K ; Schmidt-Kaler82
 Teff(B1V) =   25400 K ; Chavez95 (+300-200K)
-Teff(B1V) = 25274 K ; EEM N=83 Teffs
+Teff(B1V) =  25274 K ; EEM N=83 Teffs
 Teff(B1V) =   25000 K ; Bohm-Vitense81
-Teff(B1V) = 24834 K ; sec. stan. HD 7252 (median Teff)
+Teff(B1V) =  24834 K ; sec. stan. HD 7252 (median Teff)
 Teff(B1V) =   24724 K ; non-standard Spica (median Teff)
 Teff(B1V) =   24620 K ; GrayCorbally94
 Teff(B1V) =   24500 K ; GrayCorbally09
-Teff(B1V) = 22909 K ; Simon-Diaz17 median for B1V (N=10)
+Teff(B1V) =  22909 K ; Simon-Diaz17 median for B1V (N=10)
 => adopt Teff(B1V) = 26000 K (logT = 4.415) [updated 9/16/2019]
 
 Mv(B1V) = -3.80 mag ; Upper Sco main sequence (B-V=-0.278, rms +-0.39 mag)

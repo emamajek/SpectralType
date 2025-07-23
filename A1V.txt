@@ -64,9 +64,10 @@ Inconsistency between the MK43 and JM53 standards. Isn't there supposed to be so
 
 (U-B)(A1V) =  0.00  ; Cowley70(N=104) 
 (U-B)(A1V) =  0.01  ; Fitzgerald70
-(U-B)(A1V) = 0.022 ; B-V vs U-B trend for B-V=0.033
+(U-B)(A1V) = 0.029 ; B-V vs U-B trend for B-V=0.033
 (U-B)(A1V) =  0.030 ; HIP d<75pc S/N>8 A1V N=34 (Mermilliod91 photometry)
 (U-B)(A1V) = 0.036 ; ter. stan. HD 21447 = HIP 16292 = HR 1046
+(U-B)(A1V) = 0.039 ; smoothed SpT vs U-B trend for A/F/G stars (5/1/2025)
 (U-B)(A1V) = 0.04  ; exemplar HD 2834 = lam01 Phe = HIP 2472
 (U-B)(A1V) =  0.05  ; JohnsonMorgan53
 (U-B)(A1V) = 0.059 ; pri. stan. HD 10939 = HIP 8241 = HR 520
@@ -74,35 +75,40 @@ Inconsistency between the MK43 and JM53 standards. Isn't there supposed to be so
 (U-B)(A1V) = 0.064 ; HD 74956 = HIP 42913 (A1Va(n),Gray06) 
 (U-B)(A1V) = 0.071 ; sec. stan. HD 9132 = 48 Cet = HIP 6960 B
 (U-B)(A1V) = 0.084 ; HD 210418 = HIP 109427 (A1Va,Gray06) plx=36.7678mas, Mv=1.3773
-=> adopt (U-B)(A1V) = 0.06 [updated 2/1/2025] 
+=> adopt (U-B)(A1V) = 0.04 [updated 5/1/2025] 
 
 (V-Rc)(A1V) =  -0.01  ; deprecated alf CMa = Sirius
 (V-Rc)(A1V) =   0.003 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A 
 (V-Rc)(A1V) =   0.008 ; exemplar HD 2834 = lam01 Phe = HIP 2472
 (V-Rc)(A1V) =  0.018 ; B-V vs V-Rc color trend for B-V=0.04 (2/1/2025)
-(V-Rc)(A1V) = 0.02 ; V-Ic=0.045, R-Ic=0.025 (2/1/2025) 
+(V-Rc)(A1V) = 0.02 ; V-Ic=0.045, R-Ic=0.025 (6/15/2025) 
 (V-Rc)(A1V) =  0.022 ; V-Ic vs V-Rc color trend for V-Ic=0.05
 (V-Rc)(A1V) =   0.038 ; HD 16754 (A1Vb,Gray06) plx=22.5636mas
 (V-Rc)(A1V) =   0.040 ; HD 210418 (A1Va,Gray06) 
-=> adopt (V-Rc)(A1V) = 0.02 [updated 2/1/2025] (V-Ic=0.045, R-Ic=0.025)
+=> adopt (V-Rc)(A1V) = 0.02 [updated 6/15/2025] (V-Ic=0.045, R-Ic=0.025)
 
 (R-Ic)(A1V) =  -0.01  ; deprecated alf CMa = Sirius
 (R-Ic)(A1V) =  0.007 ; exemplar HD 2834 = lam01 Phe = HIP 2472
 (R-Ic)(A1V) =   0.008 ; Bessell79
 (R-Ic)(A1V) =  0.023 ; B-V vs R-Ic color trend for B-V=0.04
+(R-Ic)(A1V) = 0.025 ; V-Rc=0.02, V-Ic=0.045 (6/15/2025) 
 (R-Ic)(A1V) =  0.025 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A
 (R-Ic)(A1V) =   0.048 ; HD 210418 (A1Va,Gray06) 
 (R-Ic)(A1V) =   0.057 ; HD 16754 (A1Vb,Gray06) plx=22.5636mas
-=> adopt (R-Ic)(A1V) = 0.025 [updated 2/1/2025] (V-Rc=0.02, V-Ic=0.045)
+=> adopt (R-Ic)(A1V) = 0.025 [updated 6/15/2025] (V-Rc=0.02, V-Ic=0.045)
+
+(V-Ij)(A1V) = 0.045 ; Johnson66 interp A0V-A2V
+=> adopt (V-Ij)(A1V) = 0.045 [updated 6/15/2025] 
 
 (V-Ic)(A1V) =  -0.016 ; deprecated alf CMa = Sirius
 (V-Ic)(A1V) =    0.015 ; Bessell79
 (V-Ic)(A1V) =  0.015 ; exemplar HD 2834 = lam01 Phe = HIP 2472
 (V-Ic)(A1V) =  0.028 ; exemplar HD 31647 A = ome Aur A = HIP 23179 A 
 (V-Ic)(A1V) =    0.03  ; Bessell88 (interp A0V-A2V)
+(V-Ic)(A1V) =  0.035 ; (V-Ij)=0.045 => (V-Ic) via Hipparcos Vol. 1 Field H42
 (V-Ic)(A1V) =  0.04  ; sec. stan. HD 9132 = 48 Cet = HIP 6960
 (V-Ic)(A1V) =  0.041 ; B-V vs V-Ic trend for B-V=0.04 (2/1/2025)
-(V-Ic)(A1V) = 0.045 ; V-Rc=0.02, R-Ic=0.025 (2/1/2025)
+(V-Ic)(A1V) = 0.045 ; V-Rc=0.02, R-Ic=0.025 (6/15/2025)
 (V-Ic)(A1V) =  0.05  ; pri. stan. HD 10939 = HIP 8241 = HR 520
 (V-Ic)(A1V) =  0.06  ; ter. stan. HD 21447 = HIP 16292 = HR 1046 
 (V-Ic)(A1V) =   0.071 (+-0.016 sem, +-0.023 stdev; N=4)
@@ -225,6 +231,7 @@ Inconsistency between the MK43 and JM53 standards. Isn't there supposed to be so
 Teff(A1V) =   9500 K ; Bessell79
 Teff(A1V) =   9500 K ; GrayCorbally09
 Teff(A1V) =   9480 K ; GrayCorbally94
+Teff(A1V) = 9438 K ; Paunzen06 median Teff for A1V (N=26)
 Teff(A1V) = 9397 K ; Zorec12 median
 Teff(A1V) = 9332 K ; pri. stan. HD 10939 = HIP 8241 = HR 520
 Teff(A1V) = 9250 K ; sec. stan. HD 9132 = 48 Cet
@@ -326,14 +333,15 @@ HD 10939 = HIP 8241 = HR 520 = q02 Eri = Gaia DR3 4912947570170211840
   A2V: Cuchiaro78,Cucchiaro80
 
   The only modern classifications (Gray & Houk) both agree on A1
-  dwarf. plx=16.12+-0.17mas(vanLeeuwen07), plx=16.0575+-0.0693mas(GaiaDR3),
-  hence it is likely
-  within the Local Bubble and negligible reddened.
-  V=5.037+-0.006(Mermilliod91), V=5.04(Johnson66,HIP),
-  B-V=0.031+-0.003(HIP), B-V=0.035+-0.006(Mermilliod91),
-  B-V=0.04(Johnson66) => adopt B-V=0.035.  U-B=0.059(Mermilliod91),
-  V-Ic=0.05+-0.00(HIP). Not in GCPD/Cousins76_VRIc database.
-  J=4.988+-0.043(2MASS), 
+  dwarf. plx=16.0575+-0.0693mas(GaiaDR3),
+  plx=16.0575+-0.0693mas(GaiaDR3), hence it is likely within the Local
+  Bubble and negligible reddened (indeed GaiaDR3 lists negligible
+  extinction A0=0.0012+-0.0002mag), however Paunzen24 estimates
+  E(B-V)=0.017+-0.002.  V=5.037+-0.006(Mermilliod91),
+  V=5.04(Johnson66,HIP), B-V=0.031+-0.003(HIP),
+  B-V=0.035+-0.006(Mermilliod91), B-V=0.04(Johnson66) => adopt
+  B-V=0.035.  U-B=0.059(Mermilliod91), V-Ic=0.05+-0.00(HIP). Not in
+  GCPD/Cousins76_VRIc database.  J=4.988+-0.043(2MASS),
   H=5.026+-0.027(2MASS), Ks=4.964+-0.027(2MASS) => V-H=0.014,
   V-Ks=0.076, H-Ks=0.062+-0.038.  Teffs:
   9000K(Verberne24,GaiaDR3/template), 9063K(B-V=>Bessell98),
@@ -341,9 +349,9 @@ HD 10939 = HIP 8241 = HR 520 = q02 Eri = Gaia DR3 4912947570170211840
   9191K(Doyle24), 9200K(Esposito20), 9222K(GaiaDR2),
   9332K(AllendePrieto99), 9478K(Ballering13,Chandler16),
   9568K(Anders19), 9599K(David15), 9692K(Philip80), 9750K(Chen14),
-  9903K(Balona19), 10090K(Sokolov95) => <Teff>=9332K.
-  GaiaDR3: plx=16.0575+-0.0693mas(GaiaDR3), G=5.023110+-0.002855(GaiaDR3)
-  => M_G=1.05, Mv=1.07, M_Ks=0.99. 
+  9903K(Balona19), 10090K(Sokolov95) => <Teff>=9332K.  GaiaDR3:
+  plx=16.0575+-0.0693mas(GaiaDR3), G=5.023110+-0.002855(GaiaDR3) =>
+  M_G=1.05, Mv=1.07, M_Ks=0.99.
 
 # Secondary Standard
 

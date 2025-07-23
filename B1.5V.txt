@@ -28,27 +28,45 @@ recent calibration (10/9/2011).
 (U-B)(B1.5V) = -0.954  ; EEM dereddened pri. stan. HD 154445 (via Q-method) 
 (U-B)(B1.5V) = -0.941  ; EEM dereddened sec. stan. HD 36959 (via Q-method)
 (U-B)(B1.5V) =  -0.91   ; Bessell98, JohnsonBorgman63
+(U-B)(B1.5V) = -0.91  ; calculated Q-method using B-V=-0.252 [5/1/2025] 
 (U-B)(B1.5V) = -0.872  ; EEM dereddened 17 HIP B1.5V stars (via Q-method)
 (U-B)(B1.5V) =  -0.895  ; Johnson63 (interp. between B1V-B2V)
 (U-B)(B1.5V) =  -0.88   ; Fitzgerald70
-=> adopt (U-B)(B1.5V)  = -0.91  *** [updated 2/7/2020]
+=> adopt (U-B)(B1.5V)  = -0.91 [updated 2/7/2020]
 => adopt     Q(B1.5V)  = -0.728 (=(U-B)-0.72*(B-V)) [updated 2/7/2020]
-=> adopt (V-I)(B1.5V)  = -0.281
-=> adopt (V-R)(B1.5V)  = -0.115
-=> adopt (R-I)(B1.5V)  = -0.168 
-=> adopt (V-J)(B1.5V)  = -0.572
-=> adopt (V-H)(B1.5V)  = -0.703
-=> adopt (V-Ks)(B1.5V) = -0.752
 
-(V-J)(B1.5V)  = -0.49 ; Wegner14 (2MASS)
+(V-Rj)(B1.5V) = -0.16 ; JohnsonBorgman63
 
-(V-H)(B1.5V)  = -0.55 ; Wegner14 (2MASS)
+(V-Rc)(B1.5V) = -0.115 ; U-B vs V-Rc sequence for U-B=-0.91
+=> adopt (R-Ic)(B1.5V) = -0.115 [updated 5/1/2025]
+
+(R-Ic)(B1.5V) = -0.167 ; U-B vs. R-Ic sequence for U-B=-0.91
+=> adopt (R-Ic)(B1.5V) = -0.167 [updated 5/1/2025]
+
+(V-Ij)(B1.5V) = -0.34 ; interp B1V-B2V Johnson65
+(V-Ij)(B1.5V) = -0.39 ; JohnsonBorgman63
+
+(V-Ic)(B1.5V) = -0.242 ; V-Ij=-0.34 => V-Ic via Hipparcos Vol. 1 Field H42
+(V-Ic)(B1.5V) = -0.272 ; B-V=-0.252 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
+(V-Ic)(B1.5V) = -0.282 ; U-B vs V-Ic sequence for U-B=-0.91
+=> adopt (V-Ic)(B1.5V) = -0.282 [updated 5/1/2025] 
+
+(V-J)(B1.5V) = -0.49  ; Wegner14 (2MASS)
+(V-J)(B1.5V) = -0.573 ; U-B vs. V-J sequence for U-B=-0.91
+=> adopt (V-J)(B1.5V) = -0.573 [updated 5/1/2025] 
+
+(V-H)(B1.5V) = -0.55  ; Wegner14 (2MASS)
+(V-H)(B1.5V) = -0.705 ; U-B vs V-H sequence for U-B=-0.91
+=> adopt (V-H)(B1.5V) = -0.705 [updated 5/1/2025] 
 
 (V-Ks)(B1.5V) = -0.62  ; Wegner14 (2MASS)
-(V-Ks)(B1.5V) = -0.752 ; PecautMamajek13 
+(V-Ks)(B1.5V) = -0.752 ; PecautMamajek13
+(V-Ks)(B1.5V) = -0.752 ; U-B vs V-Ks sequence for U-B=-0.91
+=> adopt (V-Ks)(B1.5V) = -0.752 [updated 5/1/2025] 
 
 (J-H)(B1.5V) = -0.116 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.252)
-=> adopt (J-H)(B1.5V) = -0.116 [updated 5/1/2024]
+(J-H)(B1.5V) = -0.135 ; Straizys09 (interp B0V-B2V) 
+=> adopt (J-H)(B1.5V) = -0.12 [updated 5/1/2024]
 
 (H-Ks)(B1.5V) = -0.034 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.252
 => adopt (H-Ks)(B1.5V) = -0.034 [updated 5/1/2024]
@@ -60,31 +78,39 @@ recent calibration (10/9/2011).
 (u'-g')(B1.5V) = -0.116 ; Fukugita96 u'-g' calibration for (U-B)=-0.91
 => adopt (U-B)(B1.5V) = -0.09 [updated 4/18/2024]
 
+(g-V)(B1.5V) = -0.268 ; Bilir05 conversion B-V=-0.252 => g-V
+(g-V)(B1.5V) = -0.273 ; Pancino22 conversion B-V=-0.252 => g-V 
+(g-V)(B1.5V) = -0.287 ; Jordi06 conversion B-V=-0.252 => g-V
+=> adopt (g-V)(B1.5V) = -0.27 [updated 5/1/2025] 
+
 (g-r)(B1.5V) = -0.483 ; Covey07 interp B1V -0.49 to B3V -0.46
+(g-r)(B1.5V) = -0.535 ; Bilir05 conversion B-V=-0.252 => g-r
+=> adopt(g-r)(B1.5V) = -0.51 [updated 5/1/2025] 
 
 (G-V)(B1.5V) = -0.021 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.752
 => adopt (G-V)(B1.5V) = -0.021 [updated 4/8/2022]
 
-Teff(B1.5V) = 20184 K ; Simon-Diaz17 for B1.5V (N=8; gap between logT=4.34-4.37, 4.25-4.27)
-Teff(B1.5V) = 21584 K ; N=9 B1.5V from Brown94 
-Teff(B1.5V) = 21630 K ; EEM N=51 Teffs
+Teff(B1.5V) =  20184 K ; Simon-Diaz17 for B1.5V (N=8; gap between logT=4.34-4.37, 4.25-4.27)
+Teff(B1.5V) =  21584 K ; N=9 B1.5V from Brown94 
+Teff(B1.5V) =  21630 K ; EEM N=51 Teffs
 Teff(B1.5V) =   21787 K ; N=21 B1.5V from Philip80 (Jaschek78 SpTs)
 Teff(B1.5V) =   22948 K ; U-B=-0.91 => Teff(Bessell98)
 Teff(B1.5V) =   23000 K ; Bohm-Vitense81
+Teff(B1.5V) =   23121 K ; deJagerNieuwenhuijzen87 (logTeff=4.364)
 Teff(B1.5V) =   23400 K ; Chavez95 (+700-400K)
 Teff(B1.5V) =   23516 K ; interp. B1V and B2V Teffs as f(B-V) for B-V=-0.25
-Teff(B1.5V) = 24000 K ; non-standard HD 37744 (Nieva14)
+Teff(B1.5V) =  24000 K ; non-standard HD 37744 (Nieva14)
 Teff(B1.5V) =   24100 K ; Habets81
 Teff(B1.5V) =   24400 K ; Bessell98
-Teff(B1.5V) = 24575 K ; Q=-0.730 => Nieva13 calibration 
-Teff(B1.5V) = 24627 K ; sec. stan. HD 36959 (median Teff)
-Teff(B1.5V) = 24845 K ; median for Braganca12 B1.5V stars (N=2)
-Teff(B1.5V) = 24918 K ; pri. stan. HD 154445 (median Teff)
+Teff(B1.5V) =  24575 K ; Q=-0.730 => Nieva13 calibration 
+Teff(B1.5V) =  24627 K ; sec. stan. HD 36959 (median Teff)
+Teff(B1.5V) =  24845 K ; median for Braganca12 B1.5V stars (N=2)
+Teff(B1.5V) =  24918 K ; pri. stan. HD 154445 (median Teff)
 Teff(B1.5V) =   25000 K ; Crowther97/Fig.3 
 Teff(B1.5V) =   25087 K ; B-V=-0.25 => Teff(Napiwotzki93)
 Teff(B1.5V) =   25340 K ; Theodossiou90 
 Teff(B1.5V) =   25881 K ; B-V=-0.25 => Teff(Bessell98,logg=4.3)
-Teff(B1.5V) = 26100 K ; non-standard HD 36969 (Nieva14)
+Teff(B1.5V) =  26100 K ; non-standard HD 36969 (Nieva14)
 => adopt Teff(B1.5V) = 24500 K (logT = 4.389) [updated 9/20/2019]
 
 BCv(B1.5V) = -2.408 ; Bertone04 (ATLAS, Teff=24500K, set so BCv(5772K)=-0.085)

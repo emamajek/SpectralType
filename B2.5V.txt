@@ -27,38 +27,48 @@ All Q-method calculations in this file have been updated using revised calibrati
 (B-V)(B2.5V) = -0.221 ; EEM dereddened weak standard sig Sgr via Q-method
 (B-V)(B2.5V) =  -0.22 ;  Fitzgerald70
 (B-V)(B2.5V) = -0.198 ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
-=> adopt (U-B)(B2.5V)  = -0.732 [updated 9/26/2019]
+=> adopt (B-V)(B2.5V)  = -0.198 [updated 9/26/2019]
 
+(U-B)(B2V)   =  -0.673 ; adopted for B2V
 (U-B)(B2.5V) =  -0.72  ; Fitzgerald70
 (U-B)(B2.5V) = -0.732 ; EEM dereddened N=19 HIP B2.5V via Q-method (E(B-V)<0.1)
+(U-B)(B2V)   =  -0.79  ; adopted for B3V
 (U-B)(B2.5V) = -0.812 ; EEM dereddened weak stan. sig Sgr via Q-method
-=> adopt (B-V)(B2.5V)  = -0.198 [updated 9/26/2019]
+=> adopt (U-B)(B2.5V)  = -0.732 [updated 5/1/2025]
 => adopt     Q(B2.5V)  = -0.589 (=(U-B)-0.72*(B-V) = -0.732 - 0.72*-0.198)
-=> adopt (V-Ic)(B2.5V) = -0.210
-=> adopt (V-Rc)(B2.5V) = -0.087
-=> adopt (R-Ic)(B2.5V) = -0.111 
-=> adopt (V-J)(B2.5V)  = -0.413
-=> adopt (V-H)(B2.5V)  = -0.518
-=> adopt (V-Ks)(B2.5V) = -0.544
-=> adopt (H-Ks)(B2.5V) = -0.026
-=> adopt (J-H)(B2.5V)  = -0.105
-=> adopt (K-W1)(B2.5V) =  0.036
 
 (V-Rc)(B2.5V) = -0.086 ; sec. stan. HD 175191 = sig Sgr = HIP 92855
+(V-Rc)(B2.5V) = -0.087 ; U-B vs V-Rc sequence for U-B=-0.732 [5/1/2025]
+=> adopt (V-Rc)(B2.5V) = -0.087 [updated 5/1/2025] 
 
+(R-Ic)(B2.5V) = -0.122 ; U-B vs V-Rc sequence for U-B=-0.732 [5/1/2025] 
 (R-Ic)(B2.5V) = -0.123 ; sec. stan. HD 175191 = sig Sgr = HIP 92855
+=> adopt (R-Ic)(B2.5V) = -0.122 [updated 5/1/2025]
 
+(V-Ij)(B2.5V) = -0.295 ; Johnson65 interp B2V-B3V
+
+(V-Ic)(B2.5V) = -0.209 ; B-V=-0.198 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
+(V-Ic)(B2.5V) = -0.209 ; U-B vs. V-Rc sequence for U-B=-0.732 [5/1/2025]
 (V-Ic)(B2.5V) = -0.209 ; sec. stan. HD 175191 = sig Sgr = HIP 92855
+(V-Ic)(B2.5V) = -0.210 ; V-Ij=-0.295 => V-Ic via Hipparcos Vol. 1 Field H42
+=> adopt (V-Ic)(B2.5V) = -0.21 [updated 6/15/2025] 
 
-(V-J)(B2.5V)  = -0.43  ; Wegner14/2MASS
+(V-J)(B2.5V) = -0.413 ; U-B vs V-J sequence for U-B=-0.732 [5/1/2025] 
+(V-J)(B2.5V) = -0.43  ; Wegner14/2MASS
+=> adopt (V-J)(B2.5V) = -0.413 [updated 5/1/2025] 
 
-(V-H)(B2.5V)  = -0.48  ; Wegner14/2MASS
+(V-H)(B2.5V) = -0.48  ; Wegner14/2MASS
+(V-H)(B2.5V) = -0.518 ; U-B vs V-H seqeunce for U-B=-0.732 [5/1/2025]
+=> adopt (V-H)(B2.5V) = -0.518 [updated 5/1/2025] 
 
 (V-Ks)(B2.5V) = -0.54  ; Wegner14/2MASS
-(V-Ks)(B2.5V) = -0.544 ; PecautMamajek13 
+(V-Ks)(B2.5V) = -0.544 ; PecautMamajek13
+(V-Ks)(B2.5V) = -0.544 ; U-B vs V-H sequence for U-B=-0.732 [5/1/2025]
+=> adopt (V-Ks)(B2.5V) = -0.544 [updated 5/1/2025] 
 
 (J-H)(B2.5V) = -0.097 ; EEM dereddened B-V vs J-H trend (see B0V notes at end) for B-V=-0.198
-=> adopt (J-H)(B2.5V) = -0.097 [updated 5/1/2024]
+(J-H)(B2.5V) = -0.123 ; Straizys09 (interp B2V-B2V) 
+=> adopt (J-H)(B2.5V) = -0.11 [updated 5/1/2024]
 
 (H-Ks)(B2.5V) = -0.019 ; EEM dereddened B-V vs H-Ks trend (see B0V notes at end) for B-V=-0.198
 => adopt (H-Ks)(B2.5V) = -0.019 [updated 5/1/2024]
@@ -70,7 +80,18 @@ All Q-method calculations in this file have been updated using revised calibrati
 (u'-g')(B2.5V) = 0.146 ; Smith02 u'-g' calibration for (U-B)=-0.732
 => adopt (u-g)(B2.5V) = 0.13 [updated 4/18/2024]
 
-(g-r)(B2.5) = -0.468 ; Covey07 interp B1V -0.49 to B3V -0.46
+(g-V)(B2.5V) = -0.234 ; Bilir05 conversion B-V=-0.198 => g-V
+(g-V)(B2.5V) = -0.236 ; Pancino22 conversion B-V=-0.198 => g-V 
+(g-V)(B2.5V) = -0.253 ; Jordi06 conversion B-V=-0.198 => g-V
+=> adopt (g-V)(B2.5V) = -0.24 [updated 5/1/2025]
+
+(g-r)(B2.5V) = -0.468 ; Covey07 interp B1V -0.49 to B3V -0.46
+(g-r)(B2.5V) = -0.474 ; Bilir05 conversion B-V=-0.198 => g-r
+=> adopt (g-r)(B2.5V) = -0.47 [updated 5/1/2025]
+
+(r-i)(B2.5V) = -0.342 ; Jordi06 transformation R-Ic=-0.122 => r-i
+(r-i)(B2.5V) = -0.351 ; Bilir05 transformation R-Ic=-0.122 => r-i
+=> adopt (r-i)(B2.5V) = -0.345 [updated 5/1/2025] 
 
 (G-V)(B2.5V) = -0.003 ; fit for B dwarfs from Kervella19 corrected for E(B-V), eval for (V-Ks)=-0.544
 => adopt (G-V)(B2.5V) = -0.003 [updated 4/8/2022]
@@ -79,6 +100,7 @@ All Q-method calculations in this file have been updated using revised calibrati
 Teff(B2.5V) =  21108 K ; deprecated standard HD 36779 (median Teff)
 Teff(B2.5V) =  20500 K ; Habets81
 Teff(B2.5V) =  20200 K ; Bohm-Vitense81
+Teff(B2.5V) =  19815 K ; deJagerNieuwenhuijzen87 (logTeff=4.297)
 Teff(B2.5V) =  19748 K ; B-V=-0.198 => Teff(Bessell98,logg=4.3)
 Teff(B2.5V) = 19150 K ; sec. stan. sig Sgr (median Teff)
 Teff(B2.5V) =  19095 K ; deprecated standard HD 214432 (median Teff)
