@@ -75,12 +75,13 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 => adopt (U-B)(G5V) = 0.20 [updated 8/1/2024]
 [EEM 8/1/2024: fit to 2 standards, 1 exemplar, field trend: U-B = 0.204 + 0.1227*[Fe/H] (rms=0.020mag)]
 
-(V-Rj)(G5V) = 0.54 ; Johnson68
+(V-Rj)(G5V) = 0.54 ; Johnson66,Johnson68
+=> adopt (V-Rj)(G5V) = 0.54 [updated 6/15/2025]
 
 (V-Rc)(G5V) =  0.360 ; HIP 42333 (Koen10)
 (V-Rc)(G5V) =  0.367 ; HIP 64690 (Koen10)
 (V-Rc)(G5V) = 0.368 ; trend B-V vs V-Rc for B-V=0.680
-(V-Rc)(G5V) =  0.370 ; Johnson68 V-Rj=0.54 transformed to V-Rc via Fernie83
+(V-Rc)(G5V) = 0.370 ; Johnson66/Johnson68 V-Rj=0.54 transformed to V-Rc via Fernie83
 (V-Rc)(G5V) = 0.372 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40; thick disk)
 (V-Rc)(G5V) = 0.380 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 (Hyad; [Fe/H]=+0.17)
 (V-Rc)(G5V) = 0.380 ; exemplar HD 63433 = TOI-1726 ([Fe/H]=-0.01; UMa) 
@@ -88,7 +89,7 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 (V-Rc)(G5V) =  0.384 ; HIP 71855 (Koen10)
 (V-Rc)(G5V) =  0.386 ; HIP 50921 (Koen10)
 (V-Rc)(G5V) =  0.393 ; deprecated stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
-=> adopt (V-Rc)(G5V) = 0.379 [updated 8/1/2024; V-Ic=0.733, R-Ic=0.354]
+=> adopt (V-Rc)(G5V) = 0.379 [updated 8/1/2024] (V-Ic=0.733, R-Ic=0.354)
 [EEM 8/1/2024: fit to 2 standards, 2 exemplars: V-Rc = 0.3793 + 0.0165*[Fe/H] (rms=0.0022mag!)]
 
 (R-Ic)(G5V) =  0.340 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04) (Just08)
@@ -98,12 +99,14 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 (R-Ic)(G5V) =  0.360 ; exemplar HD 63433 = TOI-1726 ([Fe/H]=-0.01; UMa)
 (R-Ic)(G5V) =  0.368 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40; thick disk)
 (R-Ic)(G5V) =   0.382 ; deprecated stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
-=> adopt (R-Ic)(G5V) = 0.354 [updated 8/1/2024; V-Ic=0.733, V-Rc=0.379]
+=> adopt (R-Ic)(G5V) = 0.354 [updated 8/1/2024] (V-Ic=0.733, V-Rc=0.379)
 
-(V-Ij)(G5V) = 0.89 ; Johnson68 
+(V-Ij)(G5V) = 0.89 ; Johnson66,Johnson68
+=> adopt (V-Ij)(G5V) = 0.89 [updated 6/15/2025] 
 
+(V-Ic)(G5V) = 0.692 ; (V-Ij)=0.89 => (V-Ic) via Hipparcos Vol 1 Field H42
 (V-Ic)(G5V) =  0.696 ; HIP 42333 (Koen10)
-(V-Ic)(G5V) = 0.717 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] w/i +-0.1dex of solar for B-V=0.68 
+(V-Ic)(G5V) = 0.717 ; fit to GCPD/Cousins BVIc for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] w/i +-0.1dex of solar for B-V=0.68 
 (V-Ic)(G5V) = 0.722 ; trend B-V vs V-Rc for B-V=0.680
 (V-Ic)(G5V) = 0.722 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
 (V-Ic)(G5V) = 0.728 ; Gray01/03/06 N=55 G5Vs (+-0.004 sem, +-0.030 stdev)
@@ -114,7 +117,7 @@ Skiff08 flags three stars as G5V standards, all from Keenan89: HD 20630 (G5V), H
 (V-Ic)(G5V) = 0.740 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40; thick disk)
 (V-Ic)(G5V) =  0.750 ; HIP 71855 (Koen10)
 (V-Ic)(G5V) =  0.775 ; deprecated stan. HD 120690 = GJ 530 = HIP 67620 ([Fe/H]=-0.02)
-=> adopt (V-Ic)(G5V) = 0.733 [updated 8/1/2024; V-Rc=0.379, R-Ic=0.354]
+=> adopt (V-Ic)(G5V) = 0.733 [updated 8/1/2024] (V-Rc=0.379, R-Ic=0.354)
 [EEM 8/1/2024: 2 standards + 2 exemplars + Gray field G5Vs (assume <[Fe/H]>=-0.04)
 fit: (V-Ic) = 0.733 - 0.01292*[Fe/H] (rms=0.009mag)]
 

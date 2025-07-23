@@ -98,13 +98,14 @@ trend for standards & exemplars:     (B-V)(G8V) = 0.7453 + 0.0590*[Fe/H] (rms=0.
 [EEM 10/8/2023: trend for standards: (U-B)(G8V) = 0.3204 + 0.2597*[Fe/H] (rms=0.050mag)
 for standards & exemplars:           (U-B)(G8V) = 0.2992 + 0.3277*[Fe/H] + 0.245*[Fe/H]^2 (rms=0.029mag]
 
-(V-Rj)(G8V) = 0.58 ; Johnson68
+(V-Rj)(G8V) = 0.58 ; Johnson66,Johnson68
 (V-Rj)(G8V) = 0.62 ; ter. stan. HD 82885 = 11 LMi = GJ 356A ([Fe/H]=+0.34)
+=> adopt (V-Rj)(G8V) = 0.58 [updated 6/15/2025] 
 
 (V-Rc)(G8V) = 0.367 ; exemplar HD 14412 = GJ 95 = HIP 10798 ([Fe/H]=-0.49)
 (V-Rc)(G8V) =  0.396 ; HIP 96183 (Koen10)
 (V-Rc)(G8V) = 0.399 ; trend B-V vs V-Rc for B-V=0.743
-(V-Rc)(G8V) = 0.399 ; Johnson68 V-Rj=0.58 transformed to V-Rc via Fernie83
+(V-Rc)(G8V) = 0.399 ; Johnson66/Johnson68 V-Rj=0.58 transformed to V-Rc via Fernie83
 (V-Rc)(G8V) = 0.403 ; HIP 71743 = KU Lib (Koen10) ~solar
 (V-Rc)(G8V) = 0.405 ; HD 124292 = HIP 69414 (Koen10) G8+V ~solar
 (V-Rc)(G8V) = 0.405 ; ter. stan. HD 20794 = 82 Eri (thick disk,[Fe/H]=-0.39,[a/Fe]=+0.27) 
@@ -114,7 +115,7 @@ for standards & exemplars:           (U-B)(G8V) = 0.2992 + 0.3277*[Fe/H] + 0.245
 (V-Rc)(G8V) = 0.421 ; exemplar HD 69830 = GJ 302 = HIP 40693 ([Fe/H]=-0.03)
 (V-Rc)(G8V) = 0.429 ; ter. stan. HD 82885 = 11 LMi = GJ 356A ([Fe/H]=+0.34) 
 (V-Rc)(G8V) = 0.431 ; sec. stan. HD 10700 = tau Cet = GJ 71 ([Fe/H]=-0.51)
-=> adopt (V-Rc)(G8V) = 0.415 [updated 10/8/2023; V-Ic=0.78, R-Ic=0.365]
+=> adopt (V-Rc)(G8V) = 0.415 [updated 6/15/2025] (V-Ic=0.78, R-Ic=0.365)
 [EEM 10/8/2023: trend for standards: (V-Rc)(G8V) = 0.4195 + 0.0080*[Fe/H] (rms=0.017mag),
 trend for 3 standards minus tau Cet: (V-Rc)(G8V) = 0.4152 + 0.0359*[Fe/H] (rms=0.004mag),
 trend for standards & exemplars:     (V-Rc)(G8V) = 0.4146 + 0.0305*[Fe/H] (rms=0.021mag)]
@@ -130,10 +131,12 @@ trend for standards & exemplars:     (V-Rc)(G8V) = 0.4146 + 0.0305*[Fe/H] (rms=0
 [EEM 10/8/2023: trend for standards: (R-Ic)(G8V) = 0.3651 - 0.0402*[Fe/H] (rms=0.002mag!),
 trend for exemplars & standards:     (R-Ic)(G8V) = 0.3717 - 0.0199*[Fe/H] (rms=0.012mag)]
 
-(V-Ij)(G8V) = 0.96 ; Johnson68
+(V-Ij)(G8V) = 0.96 ; Johnson66,Johnson68
 (V-Ij)(G8V) = 0.99 ; ter. stan. HD 82885 = 11 LMi = GJ 356A ([Fe/H]=+0.34)
+=> adopt (V-Ij)(G8V) = 0.96 [updated 6/15/2025] 
 
 (V-Ic)(G8V) = 0.739 ; exemplar HD 14412 = GJ 95 = HIP 10798 ([Fe/H]=-0.49)
+(V-Ic)(G8V) = 0.747 ; (V-Ij)=0.96 => (V-Ic) via Hipparcos Vol 1 Field H42 
 (V-Ic)(G8V) =  0.756 ; Johnson68 V-Ij=0.96 transformed to V-Ic via Fernie83
 (V-Ic)(G8V) = 0.765 ; trend V-Ks vs V-Ic for V-Ks=1.75
 (V-Ic)(G8V) =  0.766 ; HIP 96183 (Koen10)
@@ -150,7 +153,7 @@ trend for exemplars & standards:     (R-Ic)(G8V) = 0.3717 - 0.0199*[Fe/H] (rms=0
 (V-Ic)(G8V) = 0.796 ; exemplar HD 69830 = GJ 302 = HIP 40693 ([Fe/H]=-0.03)
 (V-Ic)(G8V) = 0.80  ; exemplar HD 166 = GJ 5 = HIP 544 ([Fe/H]=+0.11, young)
 (V-Ic)(G8V) = 0.816 ; sec. stan. HD 10700 = tau Cet = GJ 71 ([Fe/H]=-0.51)
-=> adopt (V-Ic)(G8V) = 0.778 [updated 10/6/2023; V-Rc=0.415, R-Ic=0.365]
+=> adopt (V-Ic)(G8V) = 0.778 [updated 10/6/2023] (V-Rc=0.415, R-Ic=0.365)
 [EEM 10/8/2023: fit to standards minus tau Cet: (V-Ic)(G8V) = 0.7732 - 0.0637*[Fe/H] (rms=0.018mag),
 [fit to standards & exemplars & Gray sample:    (V-Ic)(G8V) = 0.7848 + 0.0059*[Fe/H] (rms=0.022mag)]
 
@@ -637,19 +640,21 @@ HD 10700 = tau Cet = GJ 71 = HIP 8102 = HR 509 = LHS 146 = 52 Cet = NLTT 5787 = 
   plx=273.8097+-0.1701mas(GaiaDR3) =>
   Mv=5.682+-0.010(Mermilliod91,GaiaDR3), M_G=5.488+-0.003(GaiaDR3),
   M_Ks=3.838(Johnson68=>2MASS,GaiaDR3). G-V = 3.300400(GaiaDR3) -
-  3.495(Cousins71) = -0.195.  diFolco07 reported interferometric
-  diameter tet_LD=2.015+-0.011mas.  Rain20 reports interferometry
-  analysis: tet_LD=2.054+-0.011, Rad=0.796+-0.004Rsun,
-  fbol=(115.0+-1.2)e-8 erg/s/cm2 (=> mbol = 3.351+-0.011 IAU2015
-  scale), Teff=5347+-18K, Lbol=0.47+-0.01 (=> logL = -0.328+-0.009).
-  BCv = mbol - V = -0.144. Recent diameter study by Korolik23 gets:
-  tetLD=2.019+-0.012mas and Rad=0.793+-0.004Rsun.  Mass estimates:
-  0.69+-0.09Msun(Korolik23), 0.70+-0.10Msun(Ghezzi10_#2),
-  0.70+-0.34Msun(Ghezzi10_#1), 0.76+-0.01Msun(Ramirez12),
-  0.76+-0.04Msun(Yee17), 0.764+-0.023Msun(Ramirez13),
-  0.780+-0.012Msun(Korolik23/asteroseismic/large freq sep),
-  0.78+-0.01Msun(Maldonado19), 0.78+-0.025Msun(*Brewer16),
-  0.780+-0.005Msun(Tang10/asteroseismo), 0.799+-0.0135Msun(Takeda07),
+  3.495(Cousins71) = -0.195. Angular diameters:
+  tet_LD=2.015+-0.011mas(diFolco07), tet_LD=2.054+-0.011mas(Rain20),
+  tet_LD=2.019+-0.012mas(Krolik23).  Besides the angular diameter,
+  Rain20 reports interferometry analysis:
+  Rad=0.796+-0.004Rsun(Rain20), fbol=(115.0+-1.2)e-8 erg/s/cm2 (=>
+  mbol = 3.351+-0.011 IAU2015 scale), Teff=5347+-18K, Lbol=0.47+-0.01
+  (=> logL = -0.328+-0.009).  BCv = mbol - V = -0.144.  Recent
+  diameter study by Korolik23 gets: tetLD=2.019+-0.012mas and
+  Rad=0.793+-0.004Rsun.  Mass estimates: 0.69+-0.09Msun(Korolik23),
+  0.70+-0.10Msun(Ghezzi10_#2), 0.70+-0.34Msun(Ghezzi10_#1),
+  0.76+-0.01Msun(Ramirez12), 0.76+-0.04Msun(Yee17),
+  0.764+-0.023Msun(Ramirez13), 0.780+-0.012Msun(Korolik23/
+  asteroseismic/large freq sep), 0.78+-0.01Msun(Maldonado19),
+  0.78+-0.025Msun(*Brewer16), 0.780+-0.005Msun(Tang10/asteroseismo),
+  0.799+-0.0135Msun(Takeda07),
   0.800+-0.008Msun(Korolik23/asteroseismic/maxpower),
   0.80+-0.02Msun(Luck17), 0.84+-0.03Msun(Casagrande11_BASTI),
   0.84+-0.035Msun(Casagrande11_Padova), 0.8475+-0.0516Msun(Anders19),

@@ -73,16 +73,24 @@ Gray01/03/06 list 16 nearby G4V stars. Median HIP colors:
 (U-B)(G4V) = 0.185 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.67
 => adopt (U-B)(G4V) = 0.185 [updated 12/1/2023]
 
+(V-Rj)(G4V) = 0.537 ; Johnson66 interp G2V-G5V
+=> adopt (V-Rj)(G4V) = 0.537 [updated 6/15/2025] 
+
 (V-Rc)(G4V) = 0.363 ; trend B-V vs V-Rc for B-V=0.67
-=> adopt (V-Rc)(G4V) = 0.365 [updated 12/1/2023; V-Ic=0.715, R-Ic=0.35]
+(V-Rc)(G4V) = 0.368 ; Johnson66 (V-Ij)=0.537 => (V-Ic) via Fernie83
+=> adopt (V-Rc)(G4V) = 0.365 [updated 6/15/2025] (V-Ic=0.715, R-Ic=0.35)
 
 (R-Ic)(G4V) = 0.350 ; trend B-V vs R-Ic for B-V=0.67 
-=> adopt (R-Ic)(G4V) = 0.35 [updated 12/1/2023; V-Ic=0.715, V-Rc=0.365]
+=> adopt (R-Ic)(G4V) = 0.35 [updated 12/1/2023] (V-Ic=0.715, V-Rc=0.365)
 
+(V-Ij)(G4V) = 0.88  ; Johnson66 interp G2V-G5V
+=> adopt (V-Ij)(G4V) = 0.88 [updated 6/15/2025] 
+
+(V-Ic)(G4V) = 0.685 ; (V-Ij)=0.88 => (V-Ic) via Hipparcos Vol 1 Field H42 
 (V-Ic)(G4V) = 0.708 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] w/i +-0.1dex of solar for B-V=0.67 
 (V-Ic)(G4V) = 0.713 ; fit to Koen10 d<25pc B-V vs. V-Ic for -0.1<[Fe/H]<0.1 dwarfs in Soubiran22 for B-V=0.670
 (V-Ic)(G4V) = 0.740 ; Gray01/03/06 16 G4Vs (+-0.005 sem, +-0.018 stdev)
-=> adopt (V-Ic)(G4V) = 0.715 [updated 12/1/2023; V-Rc=0.365, R-Ic=0.35]
+=> adopt (V-Ic)(G4V) = 0.715 [updated 12/1/2023] (V-Rc=0.365, R-Ic=0.35)
 
 (V-K)(G4V) = 1.53 ; Bessell88/Glass 
 

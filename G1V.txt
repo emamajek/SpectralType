@@ -117,9 +117,16 @@ the mean for the G1Vs classified by Gray are more like B-V~0.62-0.63.]
 => adopt (R-Ic)(G1V) = 0.327 [updated 4/1/2024; V-Ic=0.674, V-Rc=0.347]
 [EEM 4/1/2024: interp two standards: (R-Ic)(G1V) = 0.325 - 0.0205*[Fe/H])
 
+(V-Ij)(G1V) = 0.83  ; sec. stan. HD 20807 = zet^2 Ret = GJ 138 = HIP 15371 ([Fe/H]=-0.23)
+(V-Ij)(G1V) = 0.835 ; Johnson66 interp
+(V-Ij)(G1V) = 0.85  ; pri. stan. HD 115043 = GJ 9434 = HIP 64532 ([Fe/H]=-0.04; UMa)
+=> adopt (V-Ij)(G1V) = 0.84 [updated 6/15/2025] 
+
+(V-Ic)(G1V) = 0.650 ; (V-Ij)=0.835 => (V-Ic) via Hipparcos Vol 1 Field H42
+(V-Ic)(G1V) = 0.658 ; (V-Ij)=0.835 => (V-Ic) via Fernie83 
 (V-Ic)(G1V) =  0.668 ; HD 217813 = HIP 113829 (Koen10) ~solar
 (V-Ic)(G1V) =  0.669 ; HIP 117081 (Koen10)
-(V-Ic)(G1V) = 0.669 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.622
+(V-Ic)(G1V) = 0.669 ; fit to GCPD/Cousins BVIc for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] w/i +-0.1dex of solar for B-V=0.622
 (V-Ic)(G1V) =  0.67 ; Bessell88 (interp G0V-G2V)
 (V-Ic)(G1V) = 0.67  ; sec. stan. HD 20807 = zet^2 Ret = GJ 138 = HIP 15371 ([Fe/H]=-0.23)
 (V-Ic)(G1V) = 0.67  ; pri. stan. HD 115043 = GJ 9434 = HIP 64532 ([Fe/H]=-0.04; UMa)
@@ -129,7 +136,7 @@ the mean for the G1Vs classified by Gray are more like B-V~0.62-0.63.]
 (V-Ic)(G1V) = 0.70  ; ter. stan. HD 27836 = HIP 20553 = vB 50 = V895 Tau ([Fe/H]=+0.16)
 (V-Ic)(G1V) =  0.71 ; HD 168009 = HIP 89474 = HR 6847 (G1V,Gray03)
 (V-Ic)(G1V) = 0.714 ; exemplar HD 11131 = chi Cet B = EZ Cet = HIP 8486 ([Fe/H]=-0.06) (Koen10)
-=> adopt (V-Ic)(G1V) = 0.674 [updated 4/1/2024; V-Rc=0.347, R-Ic=0.327]
+=> adopt (V-Ic)(G1V) = 0.674 [updated 4/1/2024] (V-Rc=0.347, R-Ic=0.327)
 [EEM 2/18/2024: trend for standards+exemplars: (V-Ic)(G1V) = 0.692 + 0.06946*[Fe/H] (rms=0.019mag),
 in agreement with trends for ~solar field dwarfs as function of B-V, so adopt B-V=0.69.]
 
@@ -558,8 +565,16 @@ HD 95128 = 47 UMa = GJ 407 = HIP 53721 = HR 4277 = Chalawan
   G1V: Gray01
  *G1-V Fe-0.5: KeenanYorka85,Keenan89,Keenan99
 
-  Was G0V standard in 1943 MKK atlas, but then Keenan changed mind
-  in 1980s to make it a bit later.
+  Was G0V standard in 1943 MKK atlas, but then Keenan changed mind in
+  1980s to make it a bit later. Soubiran22/PASTEL compendium mean
+  values: Teff=5880+-10K(N=10), logg=4.30+-0.02(N=36),
+  [Fe/H]=0.02+-0.01(N=36). So it is ~solar metallicity, but slightly
+  lower logg. logR'HK=-4.973(Isaacson10), logR'HK=-5.02(Wright04),
+  logR'HK=-5.05+-0.01(Marsden14), logLx/Lbol=-8.3(Eiroa13),
+  logLx/Lbol=-6.66(Zhu25), so chromospherically
+  dead. Prot=24.8+-0.8d(Hempelmann16/CruzAguierre23).  Ages:
+  5.90+-0.29Gyr(Sharma24), 6.98Gyr(Vican12/chromospheric),
+  7.54(4.57,10.70)Gyr(Heras25).
 
 HD 142267 = 39 Ser = GJ 3924 = HIP 77801 = HR 5911 = LHS 3131 = SPOCS 675
   F9V: Adams35
@@ -667,11 +682,21 @@ HD 147513 = HR 6094 = HIP 80337
   ever been reported for this object."
 
 HD 168009 = HIP 89474 = HR 6847 
-  G1V: Gray03
+ *G1V: Gray03
   G2V: Cowley79,Harlan81,BSC/Hoffleit91
 
   Solar metallicity in PASTEL/Soubiran22: Teff=5791+-11K,
-  logg=4.27+-0.03, [Fe/H]=0.01+-0.02.  V=6.289(Haggkvist70),
+  logg=4.27+-0.03, [Fe/H]=0.01+-0.02. There is a strange discrepency
+  between the very low-activity, consistent with the low surface
+  gravity (presumably old age) -- Radick18 presents 1997-2016
+  observations of S-indices consistent with long-term average
+  <logR'HK>=-4.99, age=8.56Gyr(5.37,11.4Gyr;1sig;StanfordMoore20), but
+  there are published short rotation periods, none in great agreement:
+  P=5.985d(Hempelmann16), Pvar=6.726490+-0.642d(Fetherolf23),
+  Per=9.66d(Tu22). The logR'HK for a star so similar in color and
+  metallicity to the Sun would suggest the rotation should be slower
+  than the Sun's (i.e. P~>26d).
+  V=6.289(Haggkvist70),
   V=6.295+-0.006(Mermilliod91), V=6.30(HIP,TYC) => adopt V=6.295.
   B-V=0.620(Haggkvist70), B-V=0.635+-0.015(Mermilliod91),
   B-V=0.638+-0.005(TYC), B-V=0.641+-0.005(HIP) => adopt B-V=0.638.
@@ -679,6 +704,7 @@ HD 168009 = HIP 89474 = HR 6847
   V-Ic=0.71+-0.00(HIP). (R-Ic) = (V-Ic) - (V-Rc) = 0.71 - 0.351 =
   0.359.  g-r=0.453(Just08).  FUV=18.7670(Bilir20),
   NUV=13.4761(Bilir20).
+  
 
 HD 222834 = HIP 117081 
   G1V: Gray06

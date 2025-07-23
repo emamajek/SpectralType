@@ -112,6 +112,9 @@ Skiff08 flags two stars as K3V MK standards, both from Keenan89: HD 16160 and HD
 => adopt (U-B)(K3V) = 0.803 [updated 9/1/2023]
 [EEM 9/1/2023: note that the primary standard HD 219134 = GJ 892 appears to be much redder than other standards/exemplars, which likely swayed JohnsonMorgan53 value that was often cited. Trend among standards & exemplars has large scatter: (U-B)(K3V) = 0.8181 + 0.2182*[Fe/H] (rms=0.046mag). Dropping the primary standard HD 219134 = GJ 892 changes the fit to (U-B)(K3V) = 0.8054 + 0.1520*[Fe/H] (rms=0.039), with the solar U-B value perfectly consistent with the Soubiran22 "solar" (-0.1 < [Fe/H] < 0.1) trend in B-V vs. U-B for B-V=0.99.]
 
+(V-Rj)(K3V) = 0.823 ; Johnson66 interp K2V-K5V
+(V-Rj)(K3V) = 0.83  ; pri. stan. HD 219134 = GJ 892 = HR 8832 ([Fe/H]=+0.06)
+=> adopt (V-Rj)(K3V) = 0.83 [updated 7/1/2025] 
 
 (V-Rc)(K3V) =  0.523 ; HD 116858 = GJ 511A = HIP 65574 (K3V,Houk88,Upgren72) (Cousins80)
 (V-Rc)(K3V) = 0.531 ; sec. stan. HD 110463 = GJ 3743 = NP UMa ([Fe/H]=0.00) 
@@ -122,33 +125,38 @@ Skiff08 flags two stars as K3V MK standards, both from Keenan89: HD 16160 and HD
 (V-Rc)(K3V) = 0.560 (+-0.004 sem,+-0.039 stdev) ; Pickles10 fitted V-Rc for N=60 Gray03/06 K3Vs
 (V-Rc)(K3V) = 0.561 ; exemplar HD 207144 = GJ 9754 = HIP 107625 ([Fe/H]~-0.3)
 (V-Rc)(K3V) = 0.563 ; sec. stan. HD 16160 ([Fe/H]=-0.13)
-(V-Rc)(K3V) = 0.571 ; exemplar HD 82106 = GJ 349 = HIP 46580 (Koen10) ([Fe/H]=+0.01)
+(V-Rc)(K3V) = 0.571 ; exemplar HD 82106 = GJ 349 = HIP 46580 (Koen10) ([Fe/H]=+0.01)\
+(V-Rc)(K3V) = 0.575 ; (V-Ij)=0.82 => (V-Ic) via Fernie83 
 (V-Rc)(K3V) = 0.582 ; pri. stan. HD_219134 plx=152.8640 ([Fe/H]=+0.06)
 (V-Rc)(K3V) =  0.583 ; deprecated stan. HD 34673 = GJ 200A = HIP 24819
 (V-Rc)(K3V) =  0.587 ; HD 202751 = HIP 105152 (Koen10) ~solar
 (V-Rc)(K3V) =  0.595 ; Koen10 median K3Vs d<25pc (N=12)
 (V-Rc)(K3V) =  0.602 ; HD 202575 = HIP 105038 (Koen10) ~solar
-=> adopt (V-Rc)(K3V) = 0.555 [updated 12/5/2023; V-Ic=1.035, R-Ic=0.480]
+=> adopt (V-Rc)(K3V) = 0.555 [updated 12/5/2023; V-Ic=1.035, R-Ic=0.48]
 [EEM 12/5/2023: trend for standards+exemplars (V-Rc)(K3V) = 0.556 - 0.0306*[Fe/H] (rms=0.022mag)]
 
-(R-Ic)(K3V) = 0.448 ; sec. stan. HD 110463 ([Fe/H]=0.00)
-(R-Ic)(K3V) = 0.458 ; ter. stan. HD 285690 ([Fe/H]=+0.14)
-(R-Ic)(K3V) = 0.460 (+-0.003 sem,+-0.023 stdev); Pickles10 fitted R-Ic for N=60 Gray03/06 K3Vs
-(R-Ic)(K3V) =  0.465 ; HD 116858 = GJ 511A = HIP 65574 (K3V,Houk88,Upgren72) (Cousins80)
-(R-Ic)(K3V) =  0.48  ; HD 147776 = GJ 621 = HIP 80366 (K3-V(k), Gray06)
-(R-Ic)(K3V) = 0.480 ; V-Ic=1.035, V-Rc=0.555
-(R-Ic)(K3V) = 0.485 ; dwarf trend V-Ks vs R-Ic for V-Ks=2.36 
-(R-Ic)(K3V) = 0.485 ; sec. stan. HD 16160 ([Fe/H]=-0.13)
-(R-Ic)(K3V) = 0.487 ; pri. stan. HD_219134 plx=152.8640 ([Fe/H]=+0.06)
-(R-Ic)(K3V) = 0.487 ; B-V vs R-Ic trend for B-V=0.99 
-(R-Ic)(K3V) =  0.493 ; exemplar HD 207144 = GJ 9754 = HIP 107625 ([Fe/H]~-0.3)
-(R-Ic)(K3V) = 0.494 ; HD 202751 = HIP 105152 (Koen10) ~solar
-(R-Ic)(K3V) = 0.496 ; exemplar HD 82106 = GJ 349 = HIP 46580 (Koen10) ([Fe/H]=+0.01)
-(R-Ic)(K3V) = 0.497 ; Koen10 median K3Vs d<25pc (N=12)
-(R-Ic)(K3V) = 0.502 ; HD 202575 = HIP 105038 (Koen10) ~solar
+(R-Ic)(K3V) =  0.448 ; sec. stan. HD 110463 ([Fe/H]=0.00)
+(R-Ic)(K3V) =  0.458 ; ter. stan. HD 285690 ([Fe/H]=+0.14)
+(R-Ic)(K3V) =  0.460 (+-0.003 sem,+-0.023 stdev); Pickles10 fitted R-Ic for N=60 Gray03/06 K3Vs
+(R-Ic)(K3V) =   0.465 ; HD 116858 = GJ 511A = HIP 65574 (K3V,Houk88,Upgren72) (Cousins80)
+(R-Ic)(K3V) =   0.48  ; HD 147776 = GJ 621 = HIP 80366 (K3-V(k), Gray06)
+(R-Ic)(K3V) = 0.480 ; V-Ic=1.035, V-Rc=0.555 (6/15/2025)
+(R-Ic)(K3V) =  0.485 ; dwarf trend V-Ks vs R-Ic for V-Ks=2.36 
+(R-Ic)(K3V) =  0.485 ; sec. stan. HD 16160 ([Fe/H]=-0.13)
+(R-Ic)(K3V) =  0.487 ; pri. stan. HD_219134 plx=152.8640 ([Fe/H]=+0.06)
+(R-Ic)(K3V) =  0.487 ; B-V vs R-Ic trend for B-V=0.99 
+(R-Ic)(K3V) =   0.493 ; exemplar HD 207144 = GJ 9754 = HIP 107625 ([Fe/H]~-0.3)
+(R-Ic)(K3V) =  0.494 ; HD 202751 = HIP 105152 (Koen10) ~solar
+(R-Ic)(K3V) =  0.496 ; exemplar HD 82106 = GJ 349 = HIP 46580 (Koen10) ([Fe/H]=+0.01)
+(R-Ic)(K3V) =  0.497 ; Koen10 median K3Vs d<25pc (N=12)
+(R-Ic)(K3V) =  0.502 ; HD 202575 = HIP 105038 (Koen10) ~solar
 (R-Ic)(K3V) =  0.583 ; deprecated stan. HD 34673 = GJ 200A = HIP 24819
-=> adopt (R-Ic)(K3V) = 0.480 [updated 12/5/2023; V-Ic=1.035, V-Rc=0.555]
+=> adopt (R-Ic)(K3V) = 0.48 [updated 12/5/2023; V-Ic=1.035, V-Rc=0.555]
 [EEM 12/5/2023: standards+exemplars trend: (R-Ic)(K3V) = 0.476 - 0.0616*[Fe/H] (rms=0.019mag)]
+
+(V-Ij)(K3V) = 1.34  ; pri. stan. HD 219134 = GJ 892 = HR 8832 ([Fe/H]=+0.06)
+(V-Ij)(K3V) = 1.353 ; Johnson66 interp K2V-K5V
+=> adopt (V-Ij)(K3V) = 1.34 [updated 7/1/2025]
 
 (V-Ic)(K3V) = 0.991 ; ter. stan. HD 285690 ([Fe/H]=+0.14)
 (V-Ic)(K3V) =  0.988 ; HD 116858 = GJ 511A = HIP 65574 (K3V,Houk88,Upgren72) (Cousins80)
@@ -164,6 +172,7 @@ Skiff08 flags two stars as K3V MK standards, both from Keenan89: HD 16160 and HD
 (V-Ic)(K3V) =  1.04  ; HD 147776 = GJ 621 = HIP 80366 (K3-V(k), Gray06)
 (V-Ic)(K3V) = 1.040 ; B-V vs V-Ic trend for B-V=0.99 
 (V-Ic)(K3V) = 1.04  ; ter. stan. HD 128165 = GJ 556 ([Fe/H]=0.00)
+(V-Ic)(K3V) = 1.053 ; (V-Ij)=1.353 => (V-Ic) via Hipparcos Vol 1 Field H42 
 (V-Ic)(K3V) = 1.053 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.99
 (V-Ic)(K3V) =  1.054 ; exemplar HD 207144 = GJ 9754 = HIP 107625 ([Fe/H]~-0.3) (Koen10)
 (V-Ic)(K3V) = 1.06  ; sec. stan. HD 16160 (HIP) ([Fe/H]=-0.13)
@@ -173,11 +182,13 @@ Skiff08 flags two stars as K3V MK standards, both from Keenan89: HD 16160 and HD
 (V-Ic)(K3V) =  1.092 ; Koen10 median N=12 K3Vs d<25pc
 (V-Ic)(K3V) =  1.104 ; HD 202575 = HIP 105038 (Koen10) ~solar 
 (V-Ic)(K3V) =  1.211 ; deprecated stan. HD 34673 = GJ 200A = HIP 24819
-=> adopt (V-Ic)(K3V) = 1.035 [updated 12/5/2023; V-Rc=0.555, R-Ic=0.480]
+=> adopt (V-Ic)(K3V) = 1.035 [updated 12/5/2023] (V-Rc=0.555, R-Ic=0.480]
 [EEM 12/5/2023: trend for standards+exemplars: (V-Ic)(K3V) = 1.030 - 0.0820*[Fe/H] (rms=0.029),
                           trend for standards: (V-Ic)(K3V) = 1.035 - 0.1830*[Fe/H] (rms=0.035),
 Difference between median Koen V-Ic for K3V and HIP V-Ic values at ~0.05 mag level?]
 
+(V-Jj)(K3V) = 1.71 ; pri. stan. HD 219134 = GJ 892 = HR 8832 ([Fe/H]=+0.06)
+=> adopt (V-Jj)(K3V) = 1.71 [updated 7/1/2025] 
 
 (V-J)(K3V) =  1.701 ; HD 110463 (HIP,2MASS)
 (V-J)(K3V) = 1.774 ; dwarf trend V-Ks vs V-J for V-Ks=2.36 
@@ -189,6 +200,9 @@ Difference between median Koen V-Ic for K3V and HIP V-Ic values at ~0.05 mag lev
 (V-H)(K3V) =  2.301 (+-0.009 sem, +-0.036 stdev) ; Pickles10 fitted V-H for N=60 Gray03/06 K3Vs
 (V-H)(K3V) =  2.368 ; HD 128165 (HIP,2MASS)
 => adopt (V-H)(K3V) = 2.252 [updated 9/24/2024]
+
+(V-Jj)(K3V) = 2.29 ; pri. stan. HD 219134 = GJ 892 = HR 8832 ([Fe/H]=+0.06)
+=> adopt (V-Jj)(K3V) = 2.29 [updated 7/1/2025]
 
 (V-Ks)(K3V) =  2.259 ; ter. stan. HD 285690 ([Fe/H]=+0.14)
 (V-Ks)(K3V) =  2.267 ; sec. stan. HD 110463 ([Fe/H]=0.00)
@@ -586,6 +600,7 @@ Trend for standards+exemplars: Teff = 4859K + 132*[Fe/H] (rms=45K).]
 
 BCv(K3V) =  -0.417 +- 0.018 mag ; pri. stan. GJ 105A (Pecaut13)
 BCv(K3V) = -0.397 mag ; EEM fit to Casagrande06/08/10 (Teff=4870K)
+BCv(K3V) = -0.380 +-0.035 ; sec. stan. HD 16160 = GJ 105A ([Fe/H]=-0.13) (calc. Dedrick25+Mermilliod91)
 BCv(K3V) =  -0.376 +- 0.018 mag ; pri. stan. GJ 892 (Pecaut13)
 BCv(K3V) =  -0.376 +- 0.012 mag ; pri. stan. GJ 105A (see below)
 BCv(K3V) =  -0.370 mag ; Schmidt-Kaler82(BCv=-0.50 + 0.13 offset)
@@ -594,8 +609,8 @@ BCv(K3V) = -0.365 mag ; Flower96(Teff=4870K)
 BCv(K3V) = -0.355 mag ; Bessell98(ATLAS9,logg=4.5,Teff=4870K)
 BCv(K3V) = -0.344 mag ; Casagrande18(Teff=4870K,logg=4.5)
 BCv(K3V) = -0.344 mag ; halfway between values for pri. standards GJ892 and GJ105A
-BCv(K3V) = -0.314 +-0.067 mag ; sec. stan. HD 16160 = GJ 105A ([Fe/H]=-0.13) (calc. Soubiran24+Mermilliod91)
-BCv(K3V) = -0.312 +-0.011 mag ; pri. stan. GJ 892 (see below)
+BCv(K3V) = -0.314 +-0.067 ; sec. stan. HD 16160 = GJ 105A ([Fe/H]=-0.13) (calc. Soubiran24+Mermilliod91)
+BCv(K3V) = -0.312 +-0.011 ; pri. stan. GJ 892 (see below)
 BCv(K3V) = -0.297 mag ; Bertone04(ATLAS,Teff=4870K)
 => adopt BCv(K3V) = -0.365 mag [last updated 8/3/2023, scaled to BCv(5772K)=-0.085]
 
@@ -787,6 +802,7 @@ Rad(K3V) =   0.690 +-0.030   Rsun ; exemplar HD 144872 (Yee17)
 Mass(K3V) =  0.81+-0.013 Msun ; Ecl binary CG Cyg B (Popper94) 
 Mass(K3V) =  0.809 Msun ; EEM Mv vs. Mass fit for binaries (Mv=6.6)
 Mass(K3V) = 0.797 Msun ; Eker18 calibration for logL=-0.574
+Mass(K3V) = 0.782 +-0.019 Msun ; sec. stan. HD 16160 (Dedrick25) ([Fe/H]=-0.13) 
 Mass(K3V) =  0.777 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.574)
 Mass(K3V) =  0.771 Msun ; Eker15 calibration for logL=-0.574
 Mass(K3V) = 0.766 Msun ; (M/Msun)=(L/Lsun)^0.2033 (G2V-K5V fit 9/24/2024) for logL=-0.57
@@ -832,51 +848,60 @@ HD 219134 = GJ 892 = HR 8832 = HIP 114622 = LHS 71 = LTT 16826 = STT 599A = WDS 
   listing HR 8832 as a K3V, and it is very similar to the coordinates
   and magnitude for "S 7259", so I consider the match solid. One of
   three K3V standards in JohnsonMorgan53. Has 6 (maybe 7?)  exoplanet
-  candidates. Star has unusually red U-B color compared to other
-  standards/exemplars.  V=5.559(Appenzeller66), V=5.56(Mendoza78),
-  V=5.56(Moreno71), V=5.56(Argue66), V=5.562(Oja84),
-  V=5.564186(GaiaDR3/synth), V=5.567+-0.010(Mermillliod91),
-  V=5.567(Moffet79), V=5.568(Oja83), V=5.57(HIP), V=5.57(TYC),
-  V=5.57(Johnson66), V=5.570+-0.009(Oja93), V=5.573(Oja85),
-  V=5.574(Oja86), V=5.59(Mendoza74), V=5.61(Nikonov57) => adopt
-  V=5.567(Mermilliod91).  B-V=0.983(Oja86), B-V=0.986(Oja83),
+  candidates. WDS lists 6 imaged "companions" but all appear to be
+  interlopers unrelated to this nearby K dwarf.  Star has unusually
+  red U-B color compared to other standards/exemplars.
+  V=5.559(Appenzeller66), V=5.56(Mendoza78), V=5.56(Moreno71),
+  V=5.56(Argue66), V=5.562(Oja84), V=5.564186(GaiaDR3/synth),
+  V=5.567+-0.010(Mermillliod91), V=5.567(Moffet79), V=5.568(Oja83),
+  V=5.57(HIP), V=5.57(TYC), V=5.57(Johnson65), V=5.57(Johnson66),
+  V=5.570+-0.009(Oja93), V=5.573(Oja85), V=5.574(Oja86),
+  V=5.59(Mendoza74), V=5.61(Nikonov57) => adopt
+  V=5.567+-0.010(Mermilliod91).  B-V=0.983(Oja86), B-V=0.986(Oja83),
   B-V=0.987(Oja85), B-V=0.99(Mendoza78), B-V=0.99(Moreno71),
   B-V=0.99(Mendoza74), B-V=0.99(Argue66), B-V=0.99(Nikonon57),
   B-V=0.992(Oja84), B-V=0.994+-0.009(Mermilliod91),
   B-V=0.994(Moffett79), B-V=1.000+-0.000(HIP), B-V=1.00(Johnson66),
-  B-V=1.007(Appenzeller66) => adopt B-V=0.99.  U-B=0.87(Argue66),
-  U-B=0.87(Mendoza74), U-B=0.88(Johnson66#1), U-B=0.89(Johnson66#2),
-  U-B=0.89(Moreno71), U-B=0.894+-0.010(Mermilliod91),
-  U-B=0.897(Appenzeller66), U-B=0.90(Mendoza78),
-  U-B=0.900(Oja84,Oja93), U-B=0.902(Oja86), U-B=0.907(Oja85),
-  U-B=0.913(Oja83), U-B=0.914(Oja84) => adopt U-B=0.894(Mermilliod91).
-  Rj=4.74(Johnson66), Rc=4.988(Johnson66=>Cousins via Fernie83),
-  Rc=5.001(Mendoza74=>Cousins via Fernie83), V-Rj=0.83(Johnson66),
-  V-Rj=0.84(Mendoza74), V-Rc=0.570(Just08),
+  B-V=1.007(Appenzeller66), B-V=1.01(Johnson65) => adopt B-V=0.99.
+  U-B=0.87(Argue66), U-B=0.87(Mendoza74), U-B=0.88(Johnson66#1),
+  U-B=0.89(Johnson66#2), U-B=0.89(Johnson65), U-B=0.89(Moreno71),
+  U-B=0.894+-0.010(Mermilliod91), U-B=0.897(Appenzeller66),
+  U-B=0.90(Mendoza78), U-B=0.900(Oja84,Oja93), U-B=0.902(Oja86),
+  U-B=0.907(Oja85), U-B=0.913(Oja83), U-B=0.914(Oja84) => adopt
+  U-B=0.894+-0.010(Mermilliod91).  Rj=4.74(Johnson66),
+  Rc=4.988(Johnson66=>Cousins via Fernie83),
+  Rc=5.001(Mendoza74=>Cousins via Fernie83), V-Rj=0.83(Johnson65),
+  V-Rj=0.83(Johnson66), V-Rj=0.84(Mendoza74), V-Rc=0.570(Just08),
   V-Rc=0.582(Johnson66=>Cousins via Fernie83),
-  V-Rc=0.589(Mendoza74=>Cousins via Fernie83) => adopt (V-Rc)=0.582.
-  Rc-Ic=0.476(Just08), Ij=4.21(Johnson66), Ij=4.22(Mendoza74),
-  Ic=4.513(Mendoza74=>Cousins via Fernie83), V-Ij=1.36(Johnson66),
-  V-Ij=1.37(Mendoza74), V-Ic=1.04(HIP), V-Ic=1.069(Johnson66=>Cousins
-  via Fernie83), V-Ic=1.077(Mendoza74=>Cousins via Fernie83) => adopt
-  (V-Ic)=1.069.  g-r=0.841(Just08), r-i=0.249(Just08).  Saturated in
-  2MASS. Morel78 lists some Johnson near-IR photometry:
-  J=3.86(Johnson68), K=3.23(Johnson68) => transforming to 2MASS system
-  via Reike22 => Ks=3.204(Johnson68,2MASS system) => (V-Ks) =
-  5.567(Mermilliod91) - 3.204 = 2.363.  GaiaDR3:
-  G=5.231896+-0.002825(GaiaDR3), Bp-Rp=1.216341(GaiaDR3),
-  Bp-G=0.534679(GaiaDR3), G-Rp=0.681662 => (G-V) = 5.231896(GaiaDR3) -
-  5.564186(GaiaDR3/synth) = -0.332.  plx=152.8640+-0.0494mas(GaiaDR3)
-  => Mv=6.49(GaiaDR3/synth,GaiaDR3), M_G=6.153(GaiaDR3),
-  M_Ks=4.126(Johnson68 transformed to 2MASS,GaiaDR3).
-  NUV=13.845+-0.032(Beitia-Antero16;IAU data on GALEX system) => NUV-V
-  = 13.845 - 5.567 = 8.278. PASTEL compendium: <Teff> = 4830K(N=25),
-  <logg>=4.56(N=17), <[Fe/H]>=+0.05(N=18).  Among the 18 post-2000
-  estimates: median Teff=4886K.  Soubiran22/PASTEL means:
-  Teff=4874+-28K, logg=4.56+-0.03, [Fe/H]=+0.06+-0.02. Boyajian12
-  reports Teff=4699+-16K, R=0.7784+-0.0053 Rsun, fbol =
-  (19.850+-0.086)e-8 erg/cm/s => IAU2015 mbol = 5.2581 +- 0.0047. BCv
-  = mbol - V = 5.2581+-0.0047 - 5.57+-0.01 = -0.312 +-
+  V-Rc=0.589(Mendoza74=>Cousins via Fernie83) => adopt
+  (V-Rc)=0.58+-0.01: R-Ic=0.476(Just08), Ij=4.21(Johnson66),
+  Ij=4.22(Mendoza74), Ic=4.513(Mendoza74=>Cousins via Fernie83),
+  V-Ij=1.34(Johnson65), V-Ij=1.36(Johnson66), V-Ij=1.37(Mendoza74),
+  V-Ic=1.04(HIP), V-Ic=1.069(Johnson66=>Cousins via Fernie83),
+  V-Ic=1.077(Mendoza74=>Cousins via Fernie83) => adopt (V-Ic)=1.07.
+  V-Jj=1.71(Johnson65), V-Kj=2.29(Johnson65), g-r=0.841(Just08),
+  r-i=0.249(Just08).  Saturated in 2MASS. Morel78 lists some Johnson
+  near-IR photometry: J=3.86(Johnson68), K=3.23(Johnson68) =>
+  transforming to 2MASS system via Reike22 => Ks=3.204(Johnson68,2MASS
+  system) => (V-Ks) = 5.567(Mermilliod91) - 3.204 = 2.363.
+  W1=3.346+-0.098(WISE), W2=2.584+-0.054(WISE),
+  W2=2.934+-0.379(allWISE), W3=3.137+-0.011(WISE),
+  W3=3.188+-0.013(allWISE), W4=3.097+-0.018(WISE),
+  W4=3.142+-0.020(allWISE), GaiaDR3: G=5.231896+-0.002825(GaiaDR3),
+  Bp-Rp=1.216341(GaiaDR3), Bp-G=0.534679(GaiaDR3), G-Rp=0.681662 =>
+  (G-V) = 5.231896(GaiaDR3) - 5.564186(GaiaDR3/synth) = -0.332.
+  plx=152.8640+-0.0494mas(GaiaDR3) => Mv=6.49(GaiaDR3/synth,GaiaDR3),
+  M_G=6.153(GaiaDR3), M_Ks=4.126(Johnson68 transformed to
+  2MASS,GaiaDR3).  NUV=13.845+-0.032(Beitia-Antero16;IAU data on GALEX
+  system) => NUV-V = 13.845 - 5.567 = 8.278. PASTEL compendium: <Teff>
+  = 4830K(N=25), <logg>=4.56(N=17), <[Fe/H]>=+0.05(N=18).  Among the
+  18 post-2000 estimates: median Teff=4886K.  Soubiran22/PASTEL means:
+  Teff=4874+-28K, logg=4.56+-0.03, [Fe/H]=+0.06+-0.02. All the
+  post-2000 metallicities are between solar and slightly supersolar
+  (0.00 < [Fe/H] < +0.13), but apparently slightly less metal-rich
+  than the Hyads.  Boyajian12 reports Teff=4699+-16K, R=0.7784+-0.0053
+  Rsun, fbol = (19.850+-0.086)e-8 erg/cm/s => IAU2015 mbol = 5.2581 +-
+  0.0047. BCv = mbol - V = 5.2581+-0.0047 - 5.57+-0.01 = -0.312 +-
   0.011. fbol=2.039e-7mW/m2(Gonzalez-Hernandez09),
   fbol=2.04e-14W/m2(Alonso96), fbol=22.640(1e5W/m2)(Swihart17),
   tetLD=1.106+-0.007mas(Boyajian12,Adams18cites), plx=
@@ -887,7 +912,22 @@ HD 219134 = GJ 892 = HR 8832 = HIP 114622 = LHS 71 = LTT 16826 = STT 599A = WDS 
   between interometric Teff estimate (4699+-16K;Boyajian12) and most
   recent spectroscopic consensus estimate (4874+-28K;Soubiran22),
   differing by 3.6%. However Alonso96 got an IR-method fit
-  Teff=4785K(Alonso96) similar to the spectroscopic Teff.
+  Teff=4785K(Alonso96) similar to the spectroscopic Teff.  X-ray:
+  extremely soft X-ray source (HR1=-0.96+-0.17) in ROSAT All-Sky
+  Survey Faint Source Catalog (~0.2-2keV) (Voges00), count-rate
+  fx=(2.31e-2+-8.76e-3), converting using Fleming/Schmitt95 =>
+  fx=7.44282e-14erg/s/cm2 => using GaiaDR3 plx => logLx=26.58 => using
+  logL=-0.51192 => logLx/Lbol=-6.49 (extremely low).
+  logLx=26.85(Schmitt04). Note that this is about as inactive as you
+  can get...  nearby FGK stars show a minimum in X-ray surface flux of
+  ~1e-4erg/s/cm2 (Schmitt97,SchmidtLiefke04), corresponding to what is
+  observed in the Sun's coronal holes. For a star with the radius of
+  HD219134, a star covered with coronal holes would have logLx=26.57,
+  nearly identical to what was observed with ROSAT All-Sky Survey!
+  That this star is extremely low activity, see the low chromospheric
+  Ca HK values: logR'HK=-4.939(Murgas13), logR'HK=-5.089(Gray03),
+  BoroSaikia18 reports two Mt Wilson S-index values converted to
+  logR'HK (but without citations) of logR'HK=-4.856 and -4.989.
 
 # Secondary Standards
 
@@ -947,25 +987,30 @@ HD 16160 = GJ 105A = HR 753 = HIP 12114
   5.40-5.45), and their low estimate appears to result in a lower
   luminosity and unusually lower derived Teff (4583+-76K). BCv = mbol
   - V = 5.5089+-0.0664(Soubiran24) - 5.823+-0.010(Mermilliod91) =
-  -0.314+-0.067(Soubiran24+Mermilliod91).  Soubiran22/PASTEL means:
-  Teff=4870+-24K, logg=4.57+-0.03, [Fe/H]=-0.13+-0.02. A recent
-  analysis of H-band spectra by Olander25 gets a much cooler Teff:
-  Teff=4607+-93K, logg=4.960+-0.150, [Fe/H]=+0.02+-0.06.
-  plx=139.27+-0.45mas(HIP2), plx=138.3400+-0.3177mas(GaiaDR3),
-  plx=138.2084+-0.1436mas(GaiaDR2) => D=7.23393+-0.00751pc(w/plx
-  offset from Lindegren18).  There are at least three published
-  diameters for GJ105A, but somewhat discrepent (although first two
-  have large uncertainties): tetLD=0.914+-0.07mas(7.7% err; Lane01),
-  tetLD=0.838+-0.069mas(8.2% err; vanBelle09, but their analysis
-  assumes unrealistic Av=0.065+-0.014), tetLD=1.030+-0.007mas(0.007%
-  err; Boyajian12). Combining the most recent interferometric diameter
+  -0.314+-0.067(Soubiran24+Mermilliod91). Dedrick25:
+  fbol=(1.674+0.053-0.052)e-7erg/s/cm2 =>
+  mbol=5.443+-0.034(IAU2015scale). BCv = mbol - V = 5.443+-0.034 -
+  5.823+-0.010(Mermilliod91) = -0.380+-0.035(Mermilliod9+Dedrick24).
+  Soubiran22/PASTEL means: Teff=4870+-24K, logg=4.57+-0.03,
+  [Fe/H]=-0.13+-0.02. A recent analysis of H-band spectra by Olander25
+  gets a much cooler Teff: Teff=4607+-93K, logg=4.960+-0.150,
+  [Fe/H]=+0.02+-0.06.  plx=139.27+-0.45mas(HIP2),
+  plx=138.3400+-0.3177mas(GaiaDR3), plx=138.2084+-0.1436mas(GaiaDR2)
+  => D=7.23393+-0.00751pc(w/plx offset from Lindegren18).  There are
+  at least three published diameters for GJ105A, but somewhat
+  discrepent (although first two have large uncertainties):
+  tetLD=0.914+-0.07mas(7.7% err; Lane01), tetLD=0.838+-0.069mas(8.2%
+  err; vanBelle09, but their analysis assumes unrealistic
+  Av=0.065+-0.014), tetLD=1.030+-0.007mas(0.007% err;
+  Boyajian12). Combining the most recent interferometric diameter
   result (and with smallest errors) and most recent Gaia parallax:
   tetLD=1.030+-0.007mas(Boyajian12) & plx(GaiaDR3) =>
   R=0.8005+-0.0057Rsun.  Calculating luminosity from measured radius
   and spectroscopic Teff => R=0.8013+-0.0055Rsun & Teff=4870+-24K =>
   L=0.32548+-0.00780Lsun => logL=-0.48748+-0.01041 => Mbol=5.959.
   Mv=6.526+-0.010, M_Ks=4.184. Age=5.1+-1.1Gyr(Ramirez12),
-  Age=6.10Gyr(Gaspar13).
+  Age=6.10Gyr(Gaspar13). Dedrick25 combines astrometry and RV to
+  derived dynamical mass of M(A)=0.782+0.019-0.018Msun.
   
 HD 110463 = GJ 3743 = NP UMa = HIP 61946 = SPOCS 2843 = WDS J12417+5543A = Gaia DR3 1571411233756646656
  *K3V: Roman49(K3Ve),JM53(stan),Morgan53,Wilson62,Jaschek64(all),Levato78

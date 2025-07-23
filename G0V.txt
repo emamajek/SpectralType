@@ -204,6 +204,7 @@ but mean color trends pull to V-Rc~0.33-0.34. Adopt V-Rc=0.34]
 => adopt (R-Ic)(G0V) = 0.32 [updated 2/18/2024; V-Ic=0.66, V-Rc=0.34]
 [EEM 12/1/2023: standards+exemplars trend (R-Ic)(G0V) = 0.306 - 0.1254*[Fe/H] (rms=0.0139)
 
+(V-Ij)(G0V) = 0.81 ; Johnson66 
 (V-Ij)(G0V) = 0.82 ; sec. stan. HD 19373 = iot Per = GJ 124 ([Fe/H]=+0.09)
 (V-Ij)(G0V) = 0.82 ; ter. stan. HD 39587 = chi01 Ori = GJ 222 ([Fe/H]=-0.03)
 (V-Ij)(G0V) = 0.85 ; pri. stan. HD 109358 = bet CVn = GJ 475 ([Fe/H]=-0.20)
@@ -225,16 +226,17 @@ but mean color trends pull to V-Rc~0.33-0.34. Adopt V-Rc=0.34]
 (V-Ic)(G0V) =  0.658 (+-0.001 sem, +-0.025 stdev; HIP d<75pc S/N>8 N=233)
 (V-Ic)(G0V) = 0.650 ; exemplar HD 165499 = iot Pav = GJ 9616 = GJ 705.1 ([Fe/H]=-0.07)
 (V-Ic)(G0V) = 0.650 ; exemplar HD 206860 = HN Peg = HIP 107350 ([Fe/H]=-0.06, logg=4.45)
-(V-Ic)(G0V) = 0.648 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.594
+(V-Ic)(G0V) = 0.648 ; fit to GCPD/Cousins BVIc for SIMBAD dwarfs d<50pc Soubiran22[Fe/H] w/i +-0.1dex of solar for B-V=0.594
 (V-Ic)(G0V) = 0.646 ; sec. stan. HD 19373 = iot Per = GJ 124 ([Fe/H]=+0.09)
 (V-Ic)(G0V) = 0.645 ; ter. stan. HD 39587 = chi01 Ori = GJ 222 ([Fe/H]=-0.03)
-(V-Ic)(G0V) = 0.638 ; Johnson68 (V-Ij=0.81) transformed to V-Ic via Fernie83
+(V-Ic)(G0V) = 0.638 ; Johnson68 (V-Ij=0.81) => (V-Ic) via Fernie83
+(V-Ic)(G0V) = 0.630 ; Johnson66 (V-Ij)=0.81 => (V-Ic) via Hipparcos Vol 1 Field H42 
 (V-Ic)(G0V) =  0.625 ; Bessell79
 (V-Ic)(G0V) =  0.610 ; HD 184588 (G0V,Cousins80) 
-=> adopt (V-Ic)(G0V) = 0.66 [updated 4/1/2024; V-Rc=0.34, R-Ic=0.32]
-[EEM 10/15/2023: standards+exemplars+field/Gray
-<[Fe/H]>=-0.04: (V-Ic)(G0V)=0.663-0.06976*[Fe/H] (rms=0.013mag),
-mean color trends bracket (V-Ic) ~ 0.648-0.677, adopt V-Ic=0.663]
+=> adopt (V-Ic)(G0V) = 0.66 [updated 4/1/2024] (V-Rc=0.34, R-Ic=0.32)
+[EEM 10/15/2023: standards+exemplars+field/Gray <[Fe/H]>=-0.04:
+(V-Ic)(G0V)=0.663-0.06976*[Fe/H] (rms=0.013mag),
+mean color trends bracket (V-Ic) ~ 0.648-0.677]
 
 (V-Jj)(G0V) = 1.02 ; Johnson68
 (V-Jj)(G0V) = 1.03 ; Johnson66
@@ -891,27 +893,9 @@ HD 95128 = 47 UMa = HR 4277
   Was G0V standard in 1943 MKK atlas, but then Keenan changed mind
   in 1980s to make it a bit later.
 
-HD 141004 = lam Ser = GJ 598 = HIP 77257 = HR 5868 
-  G0V: Adams35,Moore50,MK73
-  G0-V: Keenan80,Keenan85,Keenan88,Keenan89
- *G0IV-V: Gray03
-  G0.5V: Stebbins57
-  G1: Bidelman50
-  G2V: MK43
 
-  Keenan changed type at least three times for this star. Star does
-  appear to be near leaving the main sequence given the high radius
-  and low gravity (logg=4.18;Soubiran22). B-V=0.604+-0.008(HIP). From
-  Metcalfe23 asteroseismic study: fbol=(4.481+-0.052)e-7 erg/s/cm2 (=>
-  IAU2015 bol scale mbol=4.3741+-0.0126mag), Lbol=1.984+-0.023Lsun =>
-  logL=0.2975+-0.0050(Metcalfe23), Rad=1.363+-0.031Rsun(Metacalfe23),
-  logg=4.22+-0.08(Brewer16), age=5.4+-0.7Gyr(Metcalfe23),
-  mass=1.09+-0.04(Metcalfe23), logR'HK=-5.004(Baliunas96,Metcalfe23),
-  Prot=24.3+3.7-4.9day(Metcalfe23). Soubiran22/PASTEL mean values:
-  Teff=5898+-10K(N=32), logg=4.18+-0.02(N=23),
-  [Fe/H]=-0.01+-0.01(N=26).
 
-rho CrB = HD 143761 = HIP 78459 = HR 5968 
+rho CrB = HD 143761 = GJ 9537 = GJ 606.2 = HIP 78459 = HR 5968 = LHS 3145 = S 676A = 2MASS J16010264+3318124 = Gaia DR3 1323427759184545536 = WDS J16010+3318A
   F8V: 1957ArA.....2...55O
   G0+Va Fe-1: KeenanYorka85(stan),Keenan89(stan)
  *G0V: 1927MeUpp..28....1L,Adams35,Hagan67,Gray01,Gray03

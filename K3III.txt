@@ -37,6 +37,7 @@ Keenan89 standards:		 chi Oct (=HD 164461) - K3III
 				 HD 154733 - K3III
 				 HD 178208 - K3III
 				 HD 221246 - K3III
+				 alf Aps (=HD 129078) - K3III_CN0.5
 GrayNstars standard:		 39 Cyg - K3III
 
 (J-H)(K3III) = 0.602 ; smoothed relation from giants in Skiff compendium w/i 15 deg of NGP, 2MASS photometry AAA flags
@@ -123,7 +124,16 @@ chi Oct = HR 6721 = HD 164461 (J1854-8736; V=5.4)
     Teff = 4475+-84 K (Stevens17). One wildly wrong Teff in PASTEL
     compendium from Adelman93. 
 
-# Weak standards? (need to check further)
+# Deprecated standards? (need to check further)
+
+HD 3627 = del And = HR 165 (J0039+3051; V=3.3)
+    K3III: Roman52,JM53,Houk(stan),Deutsch69(stan),MK73(dagger),Gray03
+    K3III-IV: MK43
+   *K3III-IIIb_CN0.5: Keenan89
+    K4III: Adams35
+
+    Looks like ubiquitously K3 for nearly a century, but minor differences
+    in luminosity class and CN class. 
 
 39 Cyg = HD 194317 = HR 7806 = HIP 100587 (V=4.4)
     K2.5IIII_Fe-0.5: Keenan89
@@ -158,7 +168,52 @@ mu Psc = HD 9138
 gam And 
     K3III: Deutsch69(stan)
     
-# Variants
+# Variant Standards
+
+HD 129078 = alf Aps = HR 5470 = HIP 72370 = 2MASS J14475174-7902409 = Gaia DR3 5773473920382493440
+    K2.5III: Keenan80(stan),Keenan83(stan),KeenanYorka85(stan)
+   *K3III_CN0.5: Keenan87,KeenanYorka85(stan),Keenan89(stan)
+    K3III: Houk75
+    K5III: 1937AnHar.105...45H,1962MtSOM...4....1B
+
+    Keenan87 scales the CN indices to the Hyades giants being
+    "marginal CN stars" and assigning CN index 0.5, and CN = 0
+    representing a "normal star". Charbonnel20 finds the star to be
+    moderately metal-poor with detectable lithium, and estimates mass
+    to be ~2.97Msun (see other mass estimates below).  VSX reports
+    variability at the 0.007mag level from TESS, but no author.
+    Kerr21 assigns membership to group TLC21, EOM-1, a structure to
+    which they assign 1694 GaiaDR2 members. alf Aps is the brightest
+    of the 1694 stars, whereas tet02 Cru is the hottest - although
+    Kerr21 calls it "Chamaeleon", the stars do not seem to correspond
+    to the modern day Cha clouds or neighboring groups, or the Sco-Cen
+    complex for that matter. Hunt24 ascribes to cluster HSC 2597 with
+    91 members, and alf Aps is again the brightest member, with nearby
+    eps Aps (V=5.05, B3Ve) being next brightest.  alf Aps has
+    detectable vsini (~4 km/s), and is an eROSITA X-ray source (1eRASS
+    J144752.1-790241), consistent with idea that it was a
+    fast-rotating, massive star.  V=3.81(TYC),
+    V=3.185(Pickles10/SEDfit), V=3.820(Cousins71), V=3.83(HIP),
+    V=3.83(Johnson66), V=3.830+-0.017(Mermilliod91),
+    V=3.877021(GaiaDR3/synth) - strange that the Gaia synthetic
+    photometry is off, event at the 0.04mag for such a bright star.
+    B-V=1.43(Johnson66), B-V=1.432+-0.004(Mermilliod91),
+    B-V=1.432+-0.003(TYC), B-V=1.433+-0.003(HIP),
+    B-V=1.440:(Cousins71), U-B=1.66(Cousins71),
+    U-B=1.679+-0.004(Mermilliod91), U-B=1.68(Johnson66),
+    V-Ic=1.42+-0.01(HIP).  2MASS photometry is flagged qflg=DDD.
+    [Fe/H]=-0.30(Charbonnel20),
+    [Fe/H]=+0.1913(0.1761,0.2107;GaiaDR3/GSP-Phot/AENEAS).
+    ALi=0.40(Charbonnel20). Mass: 2.624225+-1.62157Msun(Khalatyan24),
+    2.97+1.97-1.16Msun(Charbonnel20), 4.92+-0.25Msun(Kervella22#1),
+    5.194(4.794,5.402)Msun(GaiaDR3/FLAME), 5.37Msun(Kervella22#2),
+    plx=6.5509+-0.1133mas(GaiaDR3), G=3.362282+-0.002935(GaiaDR3).
+    Gravities: logg=1.6803(1.6079,1.7665;GaiaDR3/GSP-Phot/AENEAS),
+    logg=2.036945+-0.386874(Khalatyan24).  Extinction/Reddening:
+    A0=0.3954(0.3723,0.4149;GaiaDR3),
+    Av=0.492776+-0.187383(Khalatyan24).
+    
+    
 
 
 alf Hya = HD 81797 = Alphard (J0927-0839; V=2.0)
@@ -173,7 +228,7 @@ alf Hya = HD 81797 = Alphard (J0927-0839; V=2.0)
     as "K3" giant throughout MK43-Keenan89. Adopt "K3IIIa" from Keenan89.
 
 51 And (J0137+4837; V=3.6)
-    K3-III CN0.5: Keenan89 
+   *K3-III_CN0.5: Keenan89 
     K3III: Roman52,JM53
     K3: Hossack54
     K2III: Adams35
@@ -186,12 +241,11 @@ alf Hya = HD 81797 = Alphard (J0927-0839; V=2.0)
     SB. plx=13.05+-0.20mas(HIP2).  Soubiran22/PASTEL mean:
     Teff=4280+-40K, logg=2.04+-0.25, [Fe/H]=-0.04+-0.04.
 
-del And = HR 165 = HD 3627 (J0039+3051; V=3.3)
-    K3III: Roman52,JM53,Houk(stan),Deutsch69(stan),MK73(dagger),Gray03
-    K3III-IV: MK43
-    K3III-IIIb CN0.5: Keenan89
-    K4III: Adams35
-    Weak standard?
+
 
 HD 130705 (V=6.7)
-    K3IIIb CN 2: MK73(dagger)
+    K3IIIb_CN2: MK73(dagger)
+
+# Other Stars
+
+

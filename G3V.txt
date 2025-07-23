@@ -1,4 +1,4 @@
-GG3V
+G3V
 
 Garrison94 does not list a G3V anchor standard, and MK73 does not list
 a MK73 dagger standard.
@@ -111,12 +111,16 @@ of [Fe/H]=-0.04 for the Gray03/06 nearby G3V sample, the color trend is:
 (U-B)(G3V) = 0.286 ; exemplar HD 1461 = GJ 9009 = HIP 1499 ([Fe/H]=+0.19) (why so red compared to Hyad G3V HD 26736?)
 => adopt (U-B)(G3V) = 0.170 [updated 12/1/2023]
 
+(V-Rj)(G3V) = 0.533 ; Johnson66 interp G2V-G5V
+=> adopt (V-Rj)(G3V) = 0.533 [updated 6/15/2025] 
+
 (V-Rc)(G3V) = 0.356 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
 (V-Rc)(G3V) = 0.359 ; var. stan. 20 LMi = HD 86728 ([Fe/H]=+0.20, logg=4.30)
 (V-Rc)(G3V) = 0.361 ; HD 42618 = HIP 29432 (Koen10) ~solar
+(V-Rc)(G3V) = 0.365 ; Johnson66 (V-Ij)=0.533 => (V-Ic) via Fernie83
 (V-Rc)(G3V) = 0.365 ; trend B-V vs V-Rc for B-V=0.66
 (V-Rc)(G3V) = 0.371 ; exemplar HD 1461 = GJ 9009 = HIP 1499 ([Fe/H]=+0.19)
-=> adopt (V-Rc)(G3V) = 0.36 [updated 5/8/2024; V-Ic=0.70, R-Ic=0.34]
+=> adopt (V-Rc)(G3V) = 0.365 [updated 6/15/2025] (V-Ic=0.70, R-Ic=0.34)
 
 (R-Ic)(G3V) = 0.335 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
 (R-Ic)(G3V) = 0.335 ; exemplar HD 1461 = GJ 9009 = HIP 1499 ([Fe/H]=+0.19)
@@ -124,6 +128,10 @@ of [Fe/H]=-0.04 for the Gray03/06 nearby G3V sample, the color trend is:
 (R-Ic)(G3V) = 0.347 ; B-V vs R-Ic trend for B-V=0.66
 => adopt (R-Ic)(G3V) = 0.34 [updated 5/8/2024; V-Rc=0.36, V-Ic=0.70]
 
+(V-Ij)(G3V) = 0.87 ; Johnson66 interp G2V-G5V
+=> adopt (V-Ij)(G3V) = 0.87 [updated 6/15/2025] 
+
+(V-Ic)(G3V) = 0.677 ; (V-Ij)=0.87 => (V-Ic) via Hipparcos Vol 1 Field H42 
 (V-Ic)(G3V) = 0.696 ; HD 42618 = HIP 29432 (Koen10) ~solar
 (V-Ic)(G3V) = 0.691 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
 (V-Ic)(G3V) = 0.695 ; var. stan. 20 LMi = HD 86728 ([Fe/H]=+0.20, logg=4.30)
@@ -131,7 +139,7 @@ of [Fe/H]=-0.04 for the Gray03/06 nearby G3V sample, the color trend is:
 (V-Ic)(G3V) = 0.705 ; fit to Koen10 d<25pc B-V vs. V-Ic for -0.1<[Fe/H]<0.1 dwarfs in Soubiran22 for B-V=0.660
 (V-Ic)(G3V) = 0.706 ; exemplar HD 1461 = GJ 9009 = HIP 1499 ([Fe/H]=+0.19)
 (V-Ic)(G3V) = 0.724 ; Gray01/03/06 17 G3Vs (+-0.007 sem, +-0.020 stdev)
-=> adopt (V-Ic)(G3V) = 0.70 [updated 5/8/2024; V-Rc=0.36, R-Ic=0.34]
+=> adopt (V-Ic)(G3V) = 0.70 [updated 5/8/2024] (V-Rc=0.36, R-Ic=0.34)
 
 (V-J)(G3V) = 1.125 +-0.019 ; exemplar HD 1461 ([Fe/H]=+0.19) (J has flg=E, Ks has flg=A)
 (V-J)(G3V) = 1.178 +-0.033 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
@@ -603,11 +611,51 @@ HD 76151 = HR 3538
 
 # Other Stars
 
+HR 4523 = HD 102365 = HIP 57443 = GJ 442A = LHS 311 
+  G2V: Gray06
+  G2.5III: Keenan00
+ *G3V: Keenan89(non-stan)
+  G3/5V: Houk82
+  G4V: Adams35
+  G5V: Evans57
+  G6: Bidelman85
+
+  Remarkably poor agreement on spectral type, perhaps due to being
+  somewhat metal poor ([Fe/H] ~ -0.3). Gray06 classifies it as G2V,
+  but it appears to be ~150K cooler than Sun. Strangely, Keenan89
+  lists it as non-standard star of G3V, but then the 'final' version
+  of Keenan's table posted after his passing
+  (http://www.astronomy.ohio-state.edu/MKCool/mkcat.html) lists it as
+  "G2.5III" (which it had to be obvious that this high pm star at 9pc
+  was not a giant?). Reported to have an exoplanet HD102365b
+  (Tinney11). Has M4V companion 23" away (Henry02).  V=4.88(Ducati02),
+  V=4.890+-0.011(Mermilliod91), B-V=0.665+-0.005(Mermilliod91),
+  B-V=0.67(Ducati02), U-B=0.100+-0.000(Mermilliod91).
+  U-B=0.10(Ducati02), V-Rj=0.53(Ducati02), V-Ij=0.91(Ducati02),
+  V-J=1.14(Ducati02), V-Kj=1.57(Ducati02).  plx = 107.6210+-0.1636
+  mas(GaiaDR2) => Mv = 5.049+-0.011 mag, so clearly on the main
+  sequence and not a giant as classified by Keenan89.  The color and
+  absolute magnitude suggest that the star is just a tad cooler and
+  dimmer than the Sun. PASTEL published values: <Teff>=5623K(N=18),
+  <[Fe/H]>=-0.29(N=13), <logg>=4.46(N=13).
+
 HD 157347 = HIP 85042
   G3V: Gray03
 
   Solar metallicity in PASTEL/Soubiran22: Teff=5689+-11K,
   logg=4.42+-0.02, [Fe/H]=0.03+-0.01.
+
+mu Ara = HD 160691 = GJ 691 = GJ 691.0 = HR 6585 = HIP 86796 = Cervantes = CNS5 4390 = 2MASS J17440870-5150027 = Gaia DR3 5945941905576552064
+ *G3IV-V: Gray06
+  G3IV/V: Houk78
+  G5V: Evans57,Buscombe64
+  G5: Cannon
+
+  Famous exoplanet host star with 4 planets. Rare agreement of Houk
+  and Gray temperature types for an early G.  Soubiran22/PASTEL
+  compendiun: Teff=5761+-11K(N=30), logg=4.25+-0.02(N=29),
+  [Fe/H]=+0.29+-0.01(N=29).  So somewhat low logg (IV-V seems
+  reasonable), and star is fairly metal-rich.
 
 # Notes on nearby Hipparcos stars with G3V types (mostly from Houk)
 

@@ -89,15 +89,89 @@ HD 20619 = GJ 136 = HIP 15442 = BD-03 534 = NLTT 10564 = SPOCS 160 = Gaia DR3 32
   Soubiran22/PASTEL mean values: Teff=5728+-14K(N=15),
   logg=4.47+-0.04(N=12), [Fe/H]=-0.22+-0.02(N=13).
 
-HD 53705 = HIP 34065 = GJ 9223A = GJ 264.1A = HR 2667 = CD-43 2906 = WDS J07040-4337A = Gaia DR3 5559265690666326016
+HD 53705 = HIP 34065 = GJ 9223A = GJ 264.1A = HR 2667 = DUN 38A = CD-43 2906 = WDS J07040-4337A = Gaia DR3 5559265690666326016 = G60 Pup (Gould ID)
   G0V: Gray06
  *G1.5V: Keenan88(stan),Keenan89(stan),Keenan99(stan)
   G3V: Evans59,Houk78
   G4: Bidelman85
 
-  In 21" pair with HD 53706. Surprisingly wide range of published
-  types.  Soubiran22 mean values: Teff=5790+-15K(N=13),
-  logg=4.33+-0.04(N=9), [Fe/H]=-0.22+-0.03(N=10).
+  Primary of one of the nearest quadruple systems, with the most
+  massive A & B components comprising a well-separated (21") binary
+  (DUN 38). The companion B is the K0.5V star HD 53706, and there is a
+  more distant (185") pair Ca+Cb.  WDS notes says A is a SB.  The AB
+  pair has barely moved over two centuries since discovery: In 1826,
+  PA=119deg, sep=21.5", in 2024, PA=125deg, sep=21.3".  I'll leave the
+  photometry for the companion in the file K0.5V.txt.
+  V(A)=5.54(Waymann61/Nobs=5,BSC/Hoffleit91),
+  V(A)=5.559+-0.003(Paunzen15), V(A)=5.56(Tokovinin14),
+  V(A)=5.563362(GaiaDR3/synth),
+  V(A)=5.587+-0.039(Mermilliod91/Nobs=8),
+  V(A)=5.62(Mermilliod86/Eggen/Nobs=3) => adopt
+  5.559+-0.003(Paunzen15).  G(A)=5.391417+-0.002893(GaiaDR3),
+  B-V(A)=0.61(Mermilliod86/Eggen/Nobs=3),
+  B-V(A)=0.622+-0.015(Mermilliod91/Nobs=8),
+  B-V(A)=0.624+-0.009(Henry96), B-V(A)=0.626(Just08),
+  B-V(A)=0.64(Waymann61/Nobs=5,BSC/Hoffleit91,Gliese91),
+  U-B(A)=0.04(Mermilliod86/Eggen/Nobs=3),
+  U-B(A)=0.048+-0.010(Mermilliod91/Nobs=8), U-B(A)=0.05(Gliese91),
+  U-B(A)=0.06(Waymann61/Nobs=5) => adopt U-B=0.048+-0.010.
+  V-Rc(A)=0.373(Just08), R-Ij(A)=0.34(BSC/Hoffleit91),
+  R-Ic(A)=0.351+-0.003(Taylor03), R-Ic(A)=0.355(Just08),
+  Ic(A)=4.83(Tokovinin14), g-r(A)=0.437(Just08), r-i(A)=0.135(Just08),
+  J_ESO=4.470+-0.005(vanderBliek96/Nobs=5),
+  H_ESO=4.137+-0.006(vanderBliek96/Nobs=5),
+  K_ESO=4.094+-0.011(vanderBliek96/Nobs=5).  The 2MASS magnitudes for
+  A are poor, flagged Qflg=DCE, although AAA for component B.  There
+  are published JHKLM magnitudes, see Gezari99 and Ducati02.  The WISE
+  W3 and W4 magnitudes in WISE and AllWISE have surprisingly small
+  error bars (<0.03mag) for those bands.  Bp-Rp(A)=0.805729(GaiaDR3),
+  Bp-G(A)=0.320181(GaiaDR3), G-Rp(A)=0.485548(GaiaDR3), Morel78
+  reports unresolved(!) photometry for AB on Johnson system:
+  B(AB)=5.94(Morel78), V(AB)=5.28(Morel78), Rj(AB)=5.05(Morel78),
+  Ij(AB)=4.71(Morel78).  The stars have similar chromospheric activity
+  levels as the Sun in Henry96: logR'HK(A)=-4.93 and logR'HK(B)=-5.01
+  (GomesdaSilva21 report a modern estimate of
+  logR'HK(median,A)=-4.9744.  The stars appear to be very quite
+  coronally as well: Zhu25 estimates upper limit to fractional X-ray
+  flux logLx/Lbol < -6.94.  Prot=27.1518d(Oelkers18), but I'm a bit
+  skeptical as it is so close to a month, and one commonly runs into
+  to entries in this catalog that seem to be frightening close to the
+  lunation.  Soubiran22 mean values: Teff(A)=5790+-15K(N=13),
+  logg(A)=4.33+-0.04(N=9), [Fe/H](A)=-0.22+-0.03(N=10).  Martos23
+  reports very precise parameters of Teff(A)=5826+-8K,
+  [Fe/H](A)=-0.230+-0.006, logg=4.29+-0.02 (all consistent with the
+  Soubiran22 means).  Ages:
+  5.2+-2.0Gyr(MamajekHillenbrand08/activity->gyro), 6.1Gyr(Gaspar16,
+  multiple estimates), 6.34(3.72,9.55)Gyr(StanfordMoore20/Heras25),
+  8.8+-1.9Gyr(LlorentedeAndres21), 9.20+0.25-0.26Gyr(Martos23),
+  9.5+-0.80Gyr(Casali20), 9.60+1.71-1.81Gyr(Ramirez12/isochronal),
+  10.21+0.72-1.53Gyr(Aguilera-Gomez18).  The Martos23 value is the
+  most precise - benefitting from GaiaDR3 astrometry and extremely
+  precise stellar parameters, so it is probably the best age estimate
+  available: 9.20+0.25-0.26Gyr (and broadly consistent with the other
+  isochronal estimates). Note that for R'HK ages, it is common that
+  the activity ages for metal-poor stars appear to be systematically
+  younger than their isochronal ages (when estimated precisely).
+  Kinematically, the star is consistent with being old --- (U,V,W) =
+  -54.869, -74.280, -20.908 km/s(GCNS/GaiaDR3).  Using the galactic
+  kinematic populations (velocity ellipsoids, # normalizations) from
+  Bensby14, this would lead to the following Galactic kinematic
+  memberships: P(think)=23.6%, P(thick)=8.5%, P(halo)=0.0046%,
+  P(Hercules)=67.9% - so it appears to be a very old thin disk star
+  (~9.2 Gyr is pushing the upper age limit for thin disk) that appears
+  among the Hercules dynmical features in UV velocity space (its
+  perigalactic is at only 3.8kpc[Mackreth18].  The star appears to be
+  somewhat alpha-rich, unsurprising given the isochronal age:
+  [Mg/Fe]=+0.13+-0.01(Shejeelammal24), [Mg/Fe]=+0.148+-0.014(Palla22).
+  Angular diameter estimate: tet=692.095+-11.821uas(Stevens17).
+  Luminosities: logL=0.1731+-0.0115(Stassun19/Harada24).  There is not
+  great agreement on the bolometric fluxes in the literature, which is
+  somewhat suprising for a star so similar to the Sun:
+  fbol=6.7286e-08W/m2(Casagrande11), fbol=1.66e-10W/m2(Blackwell98),
+  fbol=(1.91867e-7+-4.05509e-9)mW/m2(Stevens17),
+  Mass(A)=0.99+0.02-0.01Msun(Martos23). Tokovinin has several papers
+  were he quotes speckle imaging detection limits for the AB
+  components of this system.
 
 # Variant Standard
 
