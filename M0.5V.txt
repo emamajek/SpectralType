@@ -25,14 +25,10 @@ Alonso-Floriano15 standards:       GJ 720A - M0.5V ("prototype")
 HenryJao24 standard:               GJ 678.1 - M0.5V ("RECONS system") [note: M0V-M2V elsewhere]
 
 Skiff08 flags one stars as M0.5V MK standard: HD 232979 = GJ 172 (Keenan89).
-
 JohnsonMorgan53 did not list a M0.5V standard but did classify HD 111631 (GJ 488) as M0.5V. 
+Joy74 M0.5V stars appear to be approximately M0V on the Kirkpatrick91 system.
 
-Joy74 M0.5V stars appear to be approximately M0V on the Kirkpatrick91
-system.
-
-Kirkpatrick12 lists only 1 M0.5V stars within 8 pc: Lacaille 9352 = GJ 887,
-however most sources have it somewhat cooler. 
+Kirkpatrick12 lists only 1 M0.5V stars within 8 pc: Lacaille 9352 = GJ 887, however most sources have it somewhat cooler. 
 
 (B-V)(M0.5V) =  1.379 ; ter. stan. GJ 4B
 (B-V)(M0V)   =   1.42 ; adopted for M0V
@@ -433,7 +429,7 @@ Mv(M0.5V) =   9.22 ; V-Ks=3.84 => fit to Jao16
 Mv(M0.5V) =   9.28 ; V-Ks=3.84 => JohnsonApps09 polynomial
 Mv(M0.5V) =   9.30 ; V-Ks=3.84 => BurgasserMamajek17 polynomial
 => adopt Mv(M0.5V)  = 9.20 mag [updated 11/3/2019] 
-=> adopt M_G(M0.5V) = 8.45 mag [updated 11/15/2022] (Mv=9.20, G-V=-0.75)
+=> adopt M_G(M0.5V) = 8.45 mag [updated 11/15/2022] (Mv=9.20, G-V=-0.75) (GaiaDR2)
 [EEM: what is source of discrepency with the V-Ks vs Mv fits vs standard Mvs?]
 
 M_G(M0.5V) =  7.423 ; * alf Gem C (GaiaDR2)                
@@ -474,6 +470,7 @@ M_G(M0.5V) =   8.321 ; GJ_730_ plx=47.0769mas M0.5V (GaiaDR3)
 M_G(M0.5V) =   8.324 ; GJ_875_ plx=68.9303mas M0.5V (GaiaDR3)
 M_G(M0.5V) =  8.33 (+-0.17sem,+-0.38stdev) ; Kirkpatrick24 median d<20pc M0.5 optical types (N=23)
 M_G(M0.5V) =   8.453 ; BD-07_1110_ plx=45.5246mas M0.5V (GaiaDR3)
+M_G(M0.5V) =  8.492 ; G-Ks vs M_G sequence for d<25pc stars for G-Ks=3.08 
 M_G(M0.5V) =   8.510 ; GJ_184_ plx=72.1734mas M0.5V (GaiaDR3)
 M_G(M0.5V) =   8.580 ; GJ_4120_ plx=47.5306mas M0.5V (GaiaDR3)
 M_G(M0.5V) =   8.586 ; GJ_767_A_ plx=71.7155mas M0.5V (GaiaDR3)
@@ -483,7 +480,7 @@ M_G(M0.5V) =   8.663 ; GJ_505_B_ plx=90.9475mas M0.5V (GaiaDR3)
 M_G(M0.5V) =   8.745 ; GJ_3018_ plx=53.2805mas M0.5V (GaiaDR3)
 M_G(M0.5V) =    9.315 ; PM_J08104-1109_ plx=50.4511mas M0.5V (GaiaDR3)
 M_G(M0.5V) =    9.456 ; GJ_637_ plx=63.4273mas M0.5V (GaiaDR3)
-=> adopt M_G(M0.5V) = 8.30 [updated 3/1/2025] 
+=> adopt M_G(M0.5V) = 8.30 [updated 3/1/2025] (GaiaDR3)
 
 M_J(M0.5V) =    5.42 ; GJ_169_ M0.5V plx=89.0546mas
 M_J(M0.5V) =    5.55 ; GJ_1278_ M0.5V plx=49.2046mas
@@ -533,24 +530,28 @@ M_Ks(M0.5V) =   5.61 ; GJ_2043_A_ M0.5V plx=58.1993mas
 M_Ks(M0.5V) =    5.96 ; PM_J08104-1109_ M0.5V plx=50.4511mas
 => adopt M_Ks(M0.5V) = 5.36 mag [updated 11/3/2019]  (Mv=9.20, V-Ks=3.84)
 
-BCv(M0.5V) = -1.309 +-0.018 ; pri. stan. GJ 846 ([Fe/H]=+0.01) (calc. using Mann15)
-BCv(M0.5V) = -1.343 +-0.020 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (calc. using Mann15) 
+BCv(M0.5V) =  -1.297 ; Mann15 calibration for V-J=3.005
+BCv(M0.5V) = -1.30 ; BC_Ks=2.54, V-Ks=3.84 (7/15/2025) 
+BCv(M0.5V) =  -1.309 +-0.018 ; pri. stan. GJ 846 ([Fe/H]=+0.01) (calc. using Mann15)
+BCv(M0.5V) =  -1.343 +-0.020 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (calc. using Mann15)
+=> adopt BCv(M0.5V) = -1.30 [updated 7/20/2025] (V-Ks=3.84, BC_Ks=2.54)
 
 BC_G(M0.5V) = -0.570 +-0.067 ; Cifuentes20
 
 BC_J(M0.5V) =  1.663 +-0.019 ; pri. stan. GJ 846 ([Fe/H]=+0.01) (calc. using Mann15)
 BC_J(M0.5V) =  1.678 +-0.021 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (calc. using Mann15) 
 BC_J(M0.5V) =  1.690 +-0.038 ; Cifuentes20
-=> adopt BC_J(M0.5V) = 1.68 [updated 7/20/2025] 
+BC_J(M0.5V) = 1.705 ; BC_Ks=2.54, J-Ks=0.835 (7/15/2025)
+BC_J(M0.5V) =  1.708 ; Mann15 calibration for V-J=3.005
+=> adopt BC_J(M0.5V) = 1.705 [updated 7/20/2025] (BC_Ks=2.54, J-Ks=0.835)
 
-BC_Ks(M0.5V) = 2.551 ; Morrell19 trend for G-Ks=3.1
-BC_Ks(M0.5V) = 2.549 ; Mann15 trend for V-J=3.012
-BC_K(M0.5V)  = 2.545 ; smoothed trend over M0V-M9V for M0.5V
-BC_K(M0.5V)  = 2.544 ; interp M0V (3870K,BC_Ks=2.52) and M1V (3700K,BC_Ks=2.58) for T=3800K
+BC_Ks(M0.5V) = 2.547 ; Mann15 calibration for V-J=3.005
+BC_Ks(M0.5V) = 2.545 ; smoothed trend over M0V-M9V for M0.5V
+BC_Ks(M0.5V) = 2.544 ; Morrell19 trend for G-Ks=3.08
+BC_Ks(M0.5V) = 2.544 ; interp M0V (3870K,BC_Ks=2.52) and M1V (3700K,BC_Ks=2.58) for T=3800K
 BC_Ks(M0.5V) = 2.523 +-0.022 ; pri. stan. GJ 846 ([Fe/H]=+0.01) (calc. using Mann15)
 BC_Ks(M0.5V) = 2.507 +-0.023 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (calc. using Mann15) 
-=> adopt BC_Ks(M0.5V)=  2.55 [updated 11/3/2019]
-=> adopt BCv(M0.5V)  = -1.29 [updated 11/3/2019; BC_Ks=2.55, V-Ks=3.84]
+=> adopt BC_Ks(M0.5V) = 2.54 [updated 7/20/2025] (V-Ks=3.84, BCv=-1.30) 
 
 logL(M0.5V) =  -1.2085 ; pri. stan. GJ 846 (Cifuentes20) 
 logL(M0.5V) =  -1.272 ; Morrell19 trend for logL for M_Ks=5.36

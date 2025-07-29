@@ -74,7 +74,7 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (V-Ks)(M5.5V) =  6.561 ; deprecated stan. GJ 412B = LHS 39 = WX UMa
 (V-Ks)(M5.5V) =   6.661 ; LP_169-22_ M5.5 plx=95.5222mas
 (V-K)(M5.5V)  =   6.71 ; Bessell91 "old disk"
-(V-Ks)(M5.5V) =  6.746 ; sec. stan. GJ_551_ M5.5Ve plx=768.0665mas ([Fe/H]=+0.22)
+(V-Ks)(M5.5V) =  6.746 ; sec. stan. GJ 551  M5.5Ve plx=768.0665mas ([Fe/H]=+0.22)
 => adopt (V-Ks)(M5.5V) = 6.50 [updated 4/20/2025] 
 
 (U-B)(M5.5V) =  1.752 +-0.128 ; sec. stan. GJ 1002
@@ -139,8 +139,12 @@ M5.5V, followed by GJ 65A (J0139-1757), GJ 473B (J1233+0901), GJ 1002
 (V-Jj)(M5.5V) = 5.56 ; deprecated stan. GJ 412B = LHS 39 = WX UMa
 
 (V-J)(M5.5V) =   5.547 +-0.036 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)
+(V-J)(M5.5V) =  5.58 ; V-Ks=6.50, J-Ks=0.92 (7/15/2025)
+=> adopt (V-J)(M5.5V) = 5.58 [updated 7/15/2025] 
 
-(V-H)(M5.5V) =   6.055 +-0.053 ; sec. stan. GJ 1061 ([Fe/H]=-0.08) 
+(V-H)(M5.5V) =   6.055 +-0.053 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)
+(V-H)(M5.5V) =  6.16 ; V-Ks=6.50, H-Ks=0.34 (7/15/2025)
+=> adopt (V-H)(M5.5V) = 6.16 [updated 7/15/2025] 
 
 (J-H)(M5.5V) =   0.442 ; GJ_3618_ M5.5V plx=206.9698mas
 (J-H)(M5.5V) =  0.508 +-0.048 ; sec. stan. GJ 1061 ([Fe/H]=-0.08)    
@@ -743,7 +747,7 @@ GJ 1002 = LHS 2 = G 158-27 = NLTT 248 = Gaia DR3 2441630500517079808
 
 GJ 1061 = LHS 1565 = NLTT 11388 = LP 995-46 = L 372-58 = LTT 1702 = CNS5 919 = 2MASS J03355969-4430453 = Gaia DR3 4848140361962951552
   M4.5: Bidelman85, 
-  M5V: Bidelman85(M5),Henry06(M5.0V),Dieterich12,Jao14
+  M5V: Bidelman85(M5),Henry06(M5.0V),Dieterich12,Jao14(stan)
   dM5.4: Houdebine19
  *M5.5V: Henry97,Reid95,Henry02(stan)
   M6V: Zakhozhaj79,Kirkpatrick12(Henry06)
@@ -811,7 +815,8 @@ GJ 551 = Proxima Centauri = alf Cen C = HIP 70890 = LHS 49 = 2MASS J14294291-624
   M4.5: Maldonado19
   M5V: Lurie14
   M5.0+-0.9: Sebastian21(phot)
- *M5.5V: Boeshaar76(non-stan,"M5.5e"),Bessell91,Henry97,Hawley97,Henry02(stan),Kirkpatrick(unpub.,DwarfArchive)
+  M5.3Ve: Buscombe95
+ *M5.5V: Boeshaar76(non-stan,"M5.5e"),Bessell91,Henry97,Hawley96(Jao05),Henry02(stan;Kirkpatrick12),Kirkpatrick(unpub.,DwarfArchive),Kuznetsov19
   dM5.8(Houdebine19)
   M6Ve: Torres06
   M7: Gaidos14
@@ -828,39 +833,87 @@ GJ 551 = Proxima Centauri = alf Cen C = HIP 70890 = LHS 49 = 2MASS J14294291-624
   with ASAS shows correlated variability in V and I band between
   (V~11.29,V-Ic~3.83) and (V~11.16,V-Ic~3.67) (note that these are
   ASAS photometry - unclear how well these are calibrated to Johnson
-  at such red colors?).  U=14.56(Frogel72,Ribas17/adopted),
-  B=12.988(Reid82,Ribas17/adopted), V=11.02+-0.08(Benedict93),
-  V=11.05(Cincuniequi04,Frogel72;N=2), V=11.09(Bessell83),
-  V=11.09(Winters21), V=11.11(Reid82;N=24;Ribas17/adopted),
-  V=11.110(Houdebine19), V=11.111+-0.022(Mermilliod91),
-  V=11.13(Hosey15,Henry18,Kar24), V=11.144525(GaiaDR3/synth),
-  V=11.18(Torres06), V~11.22(Wargelin17/Fig2) => adopt
-  V=11.111+-0.022.  B=13.010916(GaiaDR3/synth), B-V=1.807+-0.020(HIP),
-  B-V=1.86(Bessell83), B-V=1.878(Reid82;N=24), B-V=1.88(Torres06),
-  B-V=1.886+-0.019(Mermilliod91), B-V=1.94+-0.08(Benedict93),
-  B-V=1.97(Cincunegi04,Frogel72/N=2) => adopt B-V=1.886+-0.019.
-  U-B=1.43(Cincunegi04), U-B=1.485+-0.055(Mermilliod91),
-  Rc=9.42(Winters19), Rc=9.429(Reid82,Ribas17/adopted),
-  Rc=9.43(Bessell91), Rc=9.449097(GaiaDR3/synth),
-  Rc=9.45(Hosey15,Henry18,Kar24) => Rc=9.44+-0.01.
-  V-Rc=1.62(Bessell91), V-Rc=1.649(Bessell83), Ic=7.37(Winters19),
-  Ic=7.391306(GaiaDR3/synth), Ic=7.41(Hosey15,Henry18,Kar24),
-  Ic=7.43(Bessell91), Ic=7.442(Reid82,Ribas17/adopted) => adopt
-  Ic=7.41+-0.02.  R-Ic=2.00(Bessell91), R-Ic=2.024(Bessell83),
-  R-Ic=2.030(Houdebine19) => adopt R-Ic=2.024.  V-I=3.16(Platais03),
-  V-Ic=3.62(Bessell91), V-Ic=3.62+-0.03(HIP), V-Ic=3.673(Bessell83),
-  V-Ic=3.70(Torres06), V-Ic~3.75(Wargelin17/Fig2) => adopt V-Ic =
-  (11.111+-0.022)-(7.41+-0.02) = 3.701+-0.030.  J=5.357+-0.023(2MASS),
-  H=4.835+-0.057(2MASS), Ks=4.384+-0.033(2MASS, grade 'E'; but seems
+  at such red colors?).
+  U=14.21(Jao14), 
+  U=14.56+-0.05(Frogel72;Morel78,Ribas17/adopted),
+  U-B=1.43(Buscombe95,Cincunegi04),
+  U-B=1.485+-0.055(Mermilliod91),
+  B=12.95(Jao14), 
+  B=12.988(Reid82,Ribas17/adopted),
+  B=13.02+-0.01(Frogel72;Morel78), 
+  V=11.02+-0.08(Benedict93),
+  V=11.05+-0.03(Frogel72;Morel78,Buscombe95,Cincuniequi04),
+  V=11.09(Bessell83),
+  V=11.09(Winters21),
+  V=11.11(Reid82;N=24;Ribas17/adopted),
+  V=11.110(Houdebine19),
+  V=11.111+-0.022(Mermilliod91),
+  V=11.13(Jao14,Hosey15,Henry18,Kar24),
+  V=11.144525(GaiaDR3/synth),
+  V=11.18(Torres06),
+  V~11.22(Wargelin17/Fig2)
+  => adopt
+  V=11.111+-0.022.
+  B=13.010916(GaiaDR3/synth),
+  B-V=1.807+-0.020(HIP),
+  B-V=1.86(Bessell83),
+  B-V=1.878(Reid82;N=24),
+  B-V=1.88(Torres06),
+  B-V=1.886+-0.019(Mermilliod91),
+  B-V=1.94+-0.08(Benedict93),
+  B-V=1.97(Cincunegi04,Frogel72/N=2)
+  => adopt B-V=1.886+-0.019.
+  R_unknown=8.68+-0.03(Frogel72/possibly Johnson or Kron?;Morel78),
+  Rc=9.42(Winters19),
+  Rc=9.429(Reid82,Ribas17/adopted),
+  Rc=9.43(Bessell91),
+  Rc=9.449097(GaiaDR3/synth),
+  Rc=9.45(Jao14,Hosey15,Henry18,Kar24)
+  => Rc=9.44+-0.01.
+  V-Rc=1.62(Bessell91),
+  V-Rc=1.649(Bessell83), I
+  c=7.37(Winters19),
+  I_unknown=6.42+-0.03(Frogel72/possibly Johnson or Kron?;Morel78),
+  Ic=7.391306(GaiaDR3/synth),
+  Ic=7.41(Jao14,Hosey15,Henry18,Kar24),
+  Ic=7.43(Bessell91),
+  Ic=7.442(Reid82,Ribas17/adopted) => adopt
+  Ic=7.41+-0.02.
+  R-Ic=2.00(Bessell91),
+  R-Ic=2.024(Bessell83),
+  R-Ic=2.030(Houdebine19)
+  => adopt R-Ic=2.024.
+  V-I=3.16(Platais03),
+  V-Ic=3.62(Bessell91),
+  V-Ic=3.62+-0.03(HIP),
+  V-Ic=3.673(Bessell83),
+  V-Ic=3.70(Torres06),
+  V-Ic~3.75(Wargelin17/Fig2)
+  => adopt V-Ic =
+  (11.111+-0.022)-(7.41+-0.02) = 3.701+-0.030.
+  J=5.357+-0.023(2MASS),
+  H_unknown=4.73+-0.05(Frogel72/Johnson?/SAO/HCO36"), 
+  H=4.835+-0.057(2MASS),
+  K=4.36(Bessell91/Glass),
+  Ks=4.384+-0.033(2MASS, grade 'E'; but seems
   consistent with other K values, see Ribas17 Table
-  4). V-J=5.754+-0.032, J-H=0.63(Bessell91/Glass),
-  H-K=0.35(Bessell91/Glass), I-K=3.06(Bessell91/Cousins/Glass),
-  K=4.36(Bessell91/Glass).  V-K=6.68(Bessell91/Glass).  Converting the
+  4),
+  K_unknown=4.40+-0.05(Frogel72/Johnson?/SAO/HCO36"),
+  K_unknown=4.6+-0.1(Frogel72/Johnson?/Minnesota60"),
+  L_unknown=4.1+-0.1(Frogel72/Johnson?/Minnesota60"), 
+  L_unknown=4.17+-0.10(Frogel72/Johnson?/SAO/HCO36"),
+  M_unknown_4.0+-0.2(Frogel72/Johnson?/Minnesota60").
+  V-J=5.754+-0.032(2MASS). 
+  J-H=0.63(Bessell91/Glass),
+  H-K=0.35(Bessell91/Glass),
+  Ic-K=3.06(Bessell91/Cousins/Glass),
+  V-K=6.68(Bessell91/Glass).  Converting the
   Bessell91/Glass photometry to 2MASS system via Carpenter01:
   (V-Ks)=6.724(Bessell91/Glass->2MASS),
   (J-H)=0.572(Bessell91/Glass->2MASS),
   (H-Ks)=0.377(Bessell91/Glass->2MASS),
-  (J-Ks)=0.942(Bessell91/Glass->2MASS).  Using Mermilliod91 and 2MASS:
+  (J-Ks)=0.942(Bessell91/Glass->2MASS).
+  Using Mermilliod91 and 2MASS:
   V-Ks=6.727+-0.040, which matches the converted Bessell91/Glass value
   to <0.01 mag, so despite the q=E flag, it appears consistent with
   other ground-based estimates (and note that this is indeed roughly
@@ -877,7 +930,9 @@ GJ 551 = Proxima Centauri = alf Cen C = HIP 70890 = LHS 49 = 2MASS J14294291-624
   logL=-2.840958+-0.014272(Cifuentes20). Segransan03 VLTI study
   reports: M=0.123+-0.006Msun, R=0.145+-0.011Rsun, Teff=3042+-117 K,
   logg=5.20+-0.23 dex.  Teffs: 2425K(Leger15,discrepant),
-  2727+-12K(Pecaut13), 2756+-112K(Sousa24), 2810K(Kuznetsov19),
+  2700+200-150K(Frogel72!),
+  2727+-12K(Pecaut13), 2756+-112K(Sousa24),
+  2810K(Kuznetsov19),
   2840+-88K(Muirhead18), 2879+-50K(Seli22),
   2883+-60K(Gaidos14,Mignon23,Mignon24), 2900K(Pavlenko17),
   2900K(Cifuentes20), 2900K(Rajpurohit13), 2901+-68K(Rabus19),

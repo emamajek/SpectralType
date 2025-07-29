@@ -13,14 +13,14 @@ Walborn90 standard:   HD 148605 - B2.5V (but B2V elsewhere)
 Rountree90 standard:  sig Sgr - B2.5V (UV) 
 GrayAtlas standard:   HD 37016 (=HR 1891) - B2.5V (and HR 1851 - B2Vh)
 GrayNstars standard:  HD 37016 (=HR 1891) - B2.5V
-Negueruela24 stans:   22 Sco (=HD 148604) - B2.5V (vsini=167km/s)
-                      sig Sgr (=HD 175191) - B2.5V (vsini=122km/s)
-
+Negueruela24 stans:   sig Sgr (=HD 175191) - B2.5V (vsini=122km/s) (primary stan.)
+                      22 Sco (=HD 148604) - B2.5V (vsini=167km/s) ("main" stan.)
+                      
 "h" after luminosity class indicates "He-rich"
 
 Skiff08 lists one B2.5V standard: HD 37016 (B2.5V; MK78)
 
-None of the B2.5V standards has an excellent pedigree.
+Negueruela24 discusses the B2.5 standards of various luminosity classes on p.21 of 2024A&A...690A.176N.
 
 All Q-method calculations in this file have been updated using revised calibration (10/9/2011).
 
@@ -102,7 +102,7 @@ Teff(B2.5V) =  20500 K ; Habets81
 Teff(B2.5V) =  20200 K ; Bohm-Vitense81
 Teff(B2.5V) =  19815 K ; deJagerNieuwenhuijzen87 (logTeff=4.297)
 Teff(B2.5V) =  19748 K ; B-V=-0.198 => Teff(Bessell98,logg=4.3)
-Teff(B2.5V) = 19150 K ; sec. stan. sig Sgr (median Teff)
+Teff(B2.5V) = 19171 K ; sec. stan. sig Sgr (median Teff)
 Teff(B2.5V) =  19095 K ; deprecated standard HD 214432 (median Teff)
 Teff(B2.5V) =  19000 K ; Crowther97/Fig.3
 Teff(B2.5V) = 18372 K ; Q=-0.589 => Nieva13 calibration  
@@ -123,16 +123,21 @@ BCv(B2.5V) =  -1.812 mag ; Flower96(Teff=18500K, set BCv(5772K)=-0.085)
 BCv(B2.5V) =  -1.867 mag ; Code76(Teff=18500K, set BCv(5772K)=-0.085)
 => adopt BCv(B2.5V) = -1.77 [updated 9/20/2019, adjusted so that BCv(5772K)=-0.085]
 
-Mv(B2.5V) = -1.29 mag ; Upper Sco main sequence (B-V=-0.198, rms +-0.39 mag)
-Mv(B2.5V) = -1.36 mag ; ONC main sequence (B-V=-0.198, rms +-0.48 mag)
-Mv(B2.5V) = -1.36 mag ; median Mv for B2V calc using Kervella19 HIP & Gaia DR2
-Mv(B2.5V) = -1.5  mag ; between B2V (Mv=-1.8) and B3V (Mv=-1.2), interp by Teff
-Mv(B2.5V) = -1.90 mag ; Bowen08
-Mv(B2.5V) = -1.96 mag ; pri. stan. HD 37016 (+-0.7 mag error)
-Mv(B2.5V) = -2.14 mag ; sec. stan. sig Sgr
-Mv(B2.5V) =  -2.34 mag ; Wegner07
+Mv(B2.5V) =  -1.29 mag ; Upper Sco main sequence (B-V=-0.198, rms +-0.39 mag)
+Mv(B2.5V) =  -1.32 mag ; pri. stan. sig Sgr B = Nunki B
+Mv(B2.5V) =  -1.36 mag ; ONC main sequence (B-V=-0.198, rms +-0.48 mag)
+Mv(B2.5V) =  -1.36 mag ; median Mv for B2V calc using Kervella19 HIP & Gaia DR2
+Mv(B2.5V) =  -1.46 mag ; pri. stan. sig Sgr A = Nunki A
+Mv(B2.5V) =  -1.5  mag ; between B2V (Mv=-1.8) and B3V (Mv=-1.2), interp by Teff
+Mv(B2.5V) =  -1.90 mag ; Bowen08
+Mv(B2.5V) =  -1.96 mag ; pri. stan. HD 37016 (+-0.7 mag error)
+Mv(B2.5V) =   -2.14 mag ; sec. stan. sig Sgr = Nunki AB (unresolved pair)
+Mv(B2.5V) =   -2.34 mag ; Wegner07
 => adopt Mv(B2.5V)   = -1.50  mag [updated 4/17/2020]
 => adopt M_Ks(B2.5V) = -0.956 mag = Mv - (V-Ks) = -1.50 - -0.544 [updated 12/30/2020]
+[EEM 7/28/2025: with sig Sgr = Nunki now appearing to be a nearly identical pair, its bright
+Mv now makes sense, and the Mvs for the components are more in line with expectations between
+B2V and B3V stars]. 
 
 logL(B2.5V) = 3.204 dex ; Mv=-1.5, BCv=-1.77 => Mbol = -3.270
 logL(B2.5V) = 3.096 dex ; logL/Teff trend for OB dwarf EBs (Torres10; Teff=18500K)
@@ -185,37 +190,100 @@ HD 37016 = HR 1891 = HIP 26234
   18478K(EEM,Hauck97phot=>BalonaShobbrook84 calibration),
   18508K(EEM,Hauck97 phot. => Balona94), 20350K(Hohle10) => median
   Teff = 18068K. plx = 2.45+-0.81 mas (vanLeeuwen07) => Mv =
-  -1.96+-0.7.
-
-  If it is at 420 pc (typical 
-  Ori OB1 distance), then Mv = -2.02. 
+  -1.96+-0.7.  If it is at 420 pc (typical Ori OB1 distance), then Mv
+  = -2.02.
 
 # Secondary Standard
 
-HD 175191 = sig Sgr = HIP 92855 = HR 7121
- *B2.5V: MK73,Garrison79(stan),Houk82
+HD 175191 = sig Sgr = Nunki = HIP 92855 = HR 7121 = BED 1 = SMY 4A = ALS 15063 = 2MASS J18551592-2617481 = TIC 91093307 = WDS J18553-2618Aa,Ab 
   B2V: Cowley72(stan)
+ *B2.5V: MK73(dagger stan.),Houk75(stan),Cuchchiaro76(UV),Garrison79(stan),Houk82,Rountree90(stan),Zorec09,Simon-Diaz17,Negueruela24(pri.stan)
   B3IV: Hiltner69
   B3: Cannon
-  B4IV: Buscombe60,Morris61,Buscombe69
+  B4V: Woolley54,Hoffleit56
+  B4IV: Buscombe60,Morris61,Eggen61,Buscombe69
 
-  Jaschek64 shows B3IV-V,B3V,B4IV,B4V, however most classifications
-  predate MK73 (and post-MK73 consider it B2.5V). Having 3 "B4IV"
-  classifications scares me a bit regarding considering this an
-  authoritative B2.5V standard. Parallax = 14.32+-0.29 mas (van
-  Leeuwen07), hence it can be considered most likely
-  unreddened. Q-method (10/9/2011): M91: V=2.078+-0.034,
+  Ubiquitiously B2.5V following appearance as a B2.5V dagger standard
+  in the Morgan & Keenan (1973) ARA&A review, including up until the
+  modern Negueruela24 standard grid. Too bright for any of the Gaia
+  catalogs, so its best parallax is the revised Hipparcos value
+  plx=14.32+-0.29mas(vanLeeuwen07). Zacharias22 reports an updated
+  USNO Bright Star Catalog (UBSC) parallax plx=14.19+-0.74mas, but
+  still not as accurate as the Hipparcos value. Binarity... WDS lists
+  it as tight binary BED 1 Aa,Ab with "Measure of 1991.566 [at PA=202]
+  made by MAPPIT [Bedding94]". HanburyBrown74 lists it among several
+  candidate bright binary stars detected interferometrically, noting
+  "\sigma Sgr has not been reported previously as a multiple star but
+  the value of C_N (0.54+-0.07) is consistent with a binary star with
+  components of roughly equal brightness (delta(m)~=0.6mag)."
+  Bedding94 mentions "This star was found to be double by Hanbury
+  Brown et al. (1974) using the Narrabri intensity
+  interferometer. They reported the star to be a binary with
+  components of roughly equal brightness (delta(mag)=0.6+-0.5),
+  although their instrument gave no information about the geometry of
+  the components".  Bedding94: "We find the star \sigma Sgr to be a
+  close binary star; the system is only partially resolved, with a
+  separation of 11.5+-2 milliarcsec (assuming the components to have
+  equal magnitudes)", and they estimate the PA to be 22+-10deg,
+  however their "best fit to an unequal double was for delta(mag)=0.2
+  and position angle 202 deg (i.e. with the fainter compnent to the
+  south)".  Waisberg25(2025RNAAS...9...71W) recently reported the star
+  to be a (6.5+-0.2Msun)+(6.3+-0.2Msun), 0.60au binary based on
+  VLTI/GRAVITY observations, and provide the most detailed recent
+  summary about Nunki and previous observations regarding its possible
+  binarity: "Here we report on a VLTI/GRAVITY observation which
+  revealed that σ Sgr does indeed have a close companion with a K band
+  flux ratio of 87.72% at a projected separation ρ = 8.644 mas ↔ 0.60
+  au. We estimate isochrone masses MAa ≃ 6.5M⊙ and MAb ≃ 6.3M⊙ and a
+  system age of 30 Myr. The stars will most likely merge in about 20
+  Myr, so that Nunki is not only the most massive system within 70 pc
+  but also the closest core-collapse supernova progenitor at the
+  moment, edging Spica by at least a few parsec." "...and an age of
+  30+-5Myr.  The corresponding radii are RAa = 4.1 ± 0.5R⊙ and RAb =
+  3.9 ± 0.5R⊙.  The secondary is cooler than the primary by only about
+  300 K. The predicted contrast in the visual band is essentially the
+  same as in the K band (ΔV = 0.14)." The Waisberg25 delta(RA,Dec)
+  position is consistent with sep=8.6439+-0.0023mas, PA=119.98deg.
+  Other isochronal ages, apparently all treating it as a single star:
+  29Myr(median; 23-38Myr 68%CL;David15),
+  30.2Myr(Glagolevskij19;log(t/yr)=7.48), 31.4+-0.4Myr(Tetzlaff11),
+  29+6-12Myr(Gullikson16).  SOAR observations by Mason23
+  (epoch=2022.7737, PA=145.1+-0.2, sep=23.2+-0.2mas, delta(y)=0.0mag),
+  and Tokovinin24 (epoch=2023.3245, PA=57.6+-0.3, sep=17.0+-0.3mas,
+  delta(y)=0.2:mag) claim to have resolved it as well.  Given the
+  proximity, the star is likely to be negligible reddened, indeed
+  Kervella22 quote E(B-V)=0.003 based on the STILISM reddening map,
+  and Paunzen24 estimates E(B-V)=0.010+-0.011.  V=2.03(Johnson66),
+  V=2.05(HIP), V=2.050+-0.071(Paunzen15), V=2.07(Iriartet65),
+  V=2.078+-0.034(Mermilliod91,N>46), V=2.090+-0.008(Cousins71),
+  V=2.10(Guiterrez-Moreno68) => adopt V=2.078+-0.034(Mermilliod91).
+  B-V=-0.134+-0.006(HIP), B-V=-0.138+-0.006(Tycho),
+  B-V=-0.20(Guiterrez-Moreno68), B-V=-0.200+-0.010(Cousins71),
+  B-V=-0.213+-0.017(Mermilliod91,N>46), B-V=-0.22(Johnson66),
+  B-V=-0.22(Iriartet65) => adopt B-V=-0.213+-0.017(Mermilliod91).
+  U-B=-0.73(Iriartet65), U-B=-0.749+-0.011(Mermilliod91,N>42),
+  U-B=-0.75(Cousins71), U-B=-0.75(Johnson66),
+  U-B=-0.76(Guiterrez-Moreno68) => adopt
+  U-B=-0.749+-0.011(Mermilliod91).  Using the updated Q-method
+  calibration and photometry from Mermilliod91, I get: V=2.078+-0.034,
   (B-V)=-0.213+-0.017, (U-B)=-0.749+-0.011 => (B-V)o = -0.221, (U-B)o
   = -0.812, E(B-V)=0.000. V=2.09(GCPD/Cousins76_VRIc),
   V-Rc=-0.086(GCPD/Cousins76_VRIc), R-Ic=-0.123(GCPD/Cousins76_VRIc),
-  V-Ic=-0.209(GCPD/Cousins76_VRIc).  Hauck97 photometry dereddened
-  following Castelli91 => (b-y)o=-0.110, c0=0.217, E(b-y)=0.019,
-  Av=0.082.  Teffs: 18606K(EEM, Hauck97 phot.=>Napiwotzki93
-  calibration), 18890+-1150K(Zorec09), 19125K(EEM, Hauck97
-  phot.=>Balona94 calibration), 19171K(EEM, Hauck97
-  phot.=>BalonaShobbrook84 beta calibration), 20061K(U-Bo=>Bessell98),
-  20400K(Snow94) => median Teff = 19150K. For V=2.078, plx=14.32,
-  Av=0, then Mv = -2.14.
+  V-Ic=-0.13+-0.01(HIP), V-Ic=-0.209(GCPD/Cousins76_VRIc).  Hauck97
+  photometry dereddened following Castelli91 => (b-y)o=-0.110,
+  c0=0.217, E(b-y)=0.019, Av=0.082.  Teffs: 18400K(Glagolevskij19),
+  18606K(EEM, Hauck97 phot.=>Napiwotzki93 calib.),
+  18890+-1150K(Zorec09), 19125K(EEM, Hauck97 phot.=>Balona94 calib.),
+  19171K(EEM, Hauck97 phot.=>BalonaShobbrook84 beta calib.),
+  19192+-653K(David15).  20061K(U-Bo=>Bessell98), 20400K(Snow94),
+  21680K(Sokolov95) => median Teff = 19171K (logTeff ~ 4.283). For
+  unresolved V=2.078, plx=14.32, Av=0, then Mv = -2.14, and for
+  del(V)=0.14 (assuming del(V)=del(K)), then V(A)=2.763, V(B)=2.903 =>
+  Mv(A)=-1.46, Mv(B)=-1.32 => adopting BCv=-1.77 for both, then
+  logL(A)=3.19, logL(B)=3.13. Using Bertelli09 tracks for Z=0.017,
+  Y=0.27, and assuming identical Teffs (assuming 19171K), I get
+  combinations of M(A)=6.47Msun, age(A)=19.3Myr, M(B)=6.32Msun,
+  age(B)=14.5Myr.
 
 # Deprecated Standards
 
@@ -233,16 +301,20 @@ HD 214432
 
 HD 148605 = 22 Sco = HR 6141
  *B2V: Jaschek64(all),Thacheray67(B2Vn),Lesh68(stan),Slettebak68,Hiltner69(stan),MK73,Houk,Garrison77(stan),Jaschek78(Garrison67),Garrison79(stan),Kennedy83(all),GrayAtlas
-  B2.5V: Walborn90
+  B2.5V: Walborn90,Negueruela24(stan)
   B3V: Houk88
   B3: Cannon
 
-  Long, rich history as B2V standard, but Walborn90 calls it
-  B2.5V. I've decided to deprecate this star as a standard due to this
-  one outlier expert classification. Mermilliod91: V=4.782+-0.007,
-  B-V=-0.125+-0.020, U-B=-0.728+-0.026 => updated Q-method calibration
-  (10/9/2011) => (B-V)o=-0.216, (U-B)o=-0.793, E(B-V)= 0.091,
-  Av=0.294.
+  Long, rich history as B2V standard, but "more recently" Walborn90
+  and Negueruela24 both classify B2.5V... indeed Negueruela24 notes:
+  "An even faster rotator is 22 Sco (HD 148605), which was given as
+  B2V in MK73, but is essentially indistinguishable from σ Sgr.  In
+  any event, the differences between B2V and B2.5V stars, once we have
+  taken into account rotation effects, are minimal." I've omitted the
+  star as a standard given the lack of agreement.  Mermilliod91:
+  V=4.782+-0.007, B-V=-0.125+-0.020, U-B=-0.728+-0.026 => updated
+  Q-method calibration (10/9/2011) => (B-V)o=-0.216, (U-B)o=-0.793,
+  E(B-V)= 0.091, Av=0.294.
 
 HD 36779 = HR 1873
  *B2.5V: Lesh68(stan),Schild71

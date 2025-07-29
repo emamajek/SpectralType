@@ -450,6 +450,69 @@ Liebert06 did not list any R-Ic colors for L7V stars.
 
 # Exemplar
 
+2MASS J07555430-3259589 = GJ 11144 = CNS5 1957 
+  *L7_VL-G: Robbins23
+   L7+-1(low-gravity): Lodieu19
+   L9.0: Kirkpatrick21(adopted)
+
+   Recently discovered late L dwarf with extremely red near-IR colors,
+   first reported by Scholz & Bell 2018, Lodieu19(2019RNAAS...3...30L)
+   and Robbins23(2023RNAAS...7..144R).  One of the objects with the
+   extremely red JHKs colors with qflg=AAA in 2MASS within 50pc:
+   J-Ks=2.715, H-Ks=1.128, J-H=1.587.  Potentially a member of
+   Carina-Near Association (~200Myr) (Robbins23), but radial velocity
+   measurement would firm up the membership.
+   W1=12.469+-0.013(Kirkpatrick21/CATWISE2020),
+   W2=11.877+-0.009(Kirkpatrick21/CATWISE2020).
+   plx=40.5+-3.5mas(Kirkpatrick21). Lodieu19 (before parallax
+   measured): "Its redness lies between the reddest spectra of
+   Schneider et al. (2017) and VHS1256b (Gauza et al. 2015). The
+   potassium lines in the J band are very weak, and the H-band shows a
+   triangular shape, features characteristic of low gravity young
+   brown dwarfs. From its spectroscopic distance of 16 pc, infrared
+   photometry and bolometric corrections of mid-L dwarfs, we infer a
+   luminosity of log(L/L⊙) = −4.4 dex, a mass of 0.025 ± 0.005 M⊙, and
+   a temperature of ∼1300 K. This is the first spectral type
+   determination and youth confirmation for 2M0755−3259, indicating
+   that it might indeed be a member of the Carina Young Moving Group
+   (200 ± Myr; Zuckerman et al. 2006) close to the deuterium-burning
+   limit Scholz & Bell (2018)."  Robbins23: "Using the J-band
+   classification method referenced in Kirkpatrick et al. (2010),
+   W0755-3259 visually best matched the spectrum of the L5 dwarf
+   standard 2MASS J08350622+1953050 discovered in Chiu et al. (2006)
+   and recommended by Kirkpatrick et al. (2010) (see Figure
+   1). However, it is important to note that despite being the closest
+   match among the standards, W0755−3259 remains unusually red
+   compared to any dwarf standard. The J-band exhibits noticeable
+   differences, suggesting that this object would be classified as L5
+   (pec) if based on the standards alone." Robbins23: "When comparing
+   to INT-G and VL-G dwarf spectra in the SPLAT library (Burgasser &
+   the SPLAT Development Team 2017), a close visual correlation was
+   found between the J- band and H-band of W0755−3259 and the L7 VL-G
+   dwarf WISEA J114724.10-204021.3 (Schneider et al. 2016) (see Figure
+   1), so we assign a classification of L7 VL-G even though the K-band
+   of W0755−3259 is still redder." Robbins23: "Using the parallax and
+   proper motion determined in Kirkpatrick et al. (2021), we find a
+   98.6% probability of membership in the Carina-Near Association
+   (Zuckerman et al. 2006) according to the BANYAN Σ classification
+   algorithm (Gagné et al. 2018). A radial velocity measurement for
+   this source would help to firmly determine moving group
+   membership." There appears to be a background G=20mag star Gaia DR3
+   5594344337837215744 within 2" (PA=354deg, sep=2.012") of the J2000
+   position. The first epoch of the Kirkpatrick21 astrometry for J0755
+   was within 1.14" of the background Gaia star. Trying to fit the SED
+   in VOSA with the 2MASS+WISE photometry is unable to get decent
+   solution for various atmosphere models, but a surprisingly good fit
+   can be found for a 1550K blackbody with logL=-4.040+-0.080,
+   suggestive of a radius of ~0.1324Rsun. Using a BT-SETTL 3Gyr
+   isochone, one would predict for logL=-4.04 a radius of 0.0875Rsun
+   and Teff=1907K.  So the object's radius appears to be inflated by
+   ~50% compared to an older ~3Gyr-old field late L. From the Sonoma
+   tracks, the closest track is a ~60Myr-old ~0.016Msun with logg~4.4.
+   For 200Myr, one would expect a hotter (~1720K), smaller
+   (~0.112Rsun) object.  So perhaps it is much younger (~60Myr?) or an
+   unresolved multiple (contributing to the very red colors?)?
+   
 WISE J192512.78+070038.8 = GJ 12824 = CNS5 4819 = 2MASS J19251275+0700362 = TIC 133125017 = Gaia DR3 4295524821431807232
    L5-6V: Lodieu19
    L6.8+-2.1: Sebastian21(phot)
@@ -618,6 +681,14 @@ SDSS J141624.08+134826.7 = 2MASS J14162408+1348263 = SOZ 3A = WDS J14164+1348A =
   standards, but noted 2MASS J09083803+5032088 as a "potential" L7
   standard that would require higher S/N observations to warrant use
   as such.  i=20.06+-0.03(Knapp04), z=17.22+-0.02(Knapp04).
+
+2MASS_J17410280-4642218 = WISE J174102.78-464225.5
+  L7+-2(pec): Schneider14
+
+  One of the reddest objects (in near-IR) within 50pc in SIMBAD with
+  high quality 2MASS photometry (qflg=AAA), J-Ks=2.348, H-Ks=1.096,
+  J-H=1.252, and odd enough a separate paper for its discovery by
+  Schneider14.
    
 2MASS J08575849+5708514 = SDSS J0857+5708 = WISEP J085757.95+570847.5
 

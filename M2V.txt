@@ -1386,19 +1386,38 @@ GJ 745B = HD 349726 = Ross 731 = HIP 93899 = LHS 3433 = NLTT 47430 = LDS 1017A =
    (i-J)(M2V) =   1.835 +-0.021 ; ter. stan. GJ 745B = Ross 731 ([Fe/H]=-0.35) (Smith02, errors are approx)  
    (z-J)(M2V) =   1.345 +-0.021 ; ter. stan. GJ 745B = Ross 731 ([Fe/H]=-0.35) (Smith02, errors are approx)
 
-GJ 220 = LHS 1794 = NLTT 15743 = 2MASS J05531404+2415329 = Ross 59
+GJ 220 = LHS 1794 = Ross 59 = NLTT 15743 = 2MASS J05531404+2415329 = Ross 59 = Ci 20 356 = CNS5 1454 = G 104-3 = G100-44 = LSPM J0553+2415 = 2MASS J05531404+2415329 = SBC9 3808 = PLX 1348 = Gaia DR3 3427930123268526720
   M1: Luyten79
-  M1.5V: Bidelman85,Gliese91,vanAltena95,Hawley97,Reid04
- *M2V: Kirkpatrick91(sec.stan),Kirkpatrick94,Hawley02(stan),Lepine13,Gaidos14
+  M1.5V: Bidelman85,Gliese91,vanAltena95,Reid95,Reid04
+ *M2V: Kirkpatrick91(sec.stan),Kirkpatrick94,Hawley02(stan),Lepine13(M2.0V),Gaidos14
 
-  Flagged "SB*" in SIMBAD.  V=10.84(Reid04), B-V=1.50(Reid04),
-  V-Rc=0.98(Reid04), R-Ic=1.14(Reid04), V-Ic=2.12(Reid04),
-  J=7.485+-0.021(2MASS), H=6.829+-0.017(2MASS),
-  Ks=6.633+-0.021(2MASS). V-Ks=4.207(Reid04,2MASS). Teffs:
-  3570K(Lepine13), 3832+-85K(Gaidos14) =>
-  3791K. [Fe/H]=-0.07+-0.12(Gaidos14). plx =
+  Spectroscopic binary in SB9 catalog; Baroch18 reports CARMENES observations for SB orbit (listed as Ross 59 in Table 3): Porb=421.4d, e=0.5089, K1=2.911km/s, Ks=8.75km/s, M2/M1=0.3327+0.0066-0.0067(Baroch18). Based on various empirical mass/luminosity/radius relationships, Baroch18 estimates: M1=0.602+-0.032Msun,
+  M2=0.200+-0.022Msun, R1=0.591+-0.032Msun, R2=0.216+-0.022Rsun, M_Ks1=5.31+-0.21mag, M_Ks2=7.748+-0.084mag
+  (predicts del(Ks)~2.44+-0.23mag). Star appears in GaiaDR3 part 3 Non-single stars (I/357/tbootsc) with orbital solution: plx=52.8908539817164467+-0.0585462940mas, astrometrically determined period Porb=724.0518852199048752+-1.123310d(!!!), ecc=0.4714849295501356563+-0.0063178553, Gaia DR3 Part 6 Performance Verification I/360/binmass reports mass estimates but they have huge error estimates, so someone should combine the published RV data with Gaia astrometry. Kirkpatrick24 estimates the individual masses to be M(A)=0.457+-0.0460Msun, M(B)=0.2300+-0.0750Msun.
+  V=10.789(Hauck97/Hauck90#1), 
+  V=10.81(vanAltena95), 
+  V=10.84(Reid04),
+  V=10.844(Hauck90#2), 
+  B-V=1.48(vanAltena95), 
+  B-V=1.50(Reid04),
+  U-B=1.22(vanAltena95), 
+  V-Rc=0.98(Reid04),
+  R-Ic=1.14(Reid04),
+  V-Ic=2.12(Reid04),
+  J=7.485+-0.021(2MASS),
+  H=6.829+-0.017(2MASS),
+  Ks=6.633+-0.021(2MASS).
+  V-Ks=4.207(Reid04,2MASS).
+  Teffs:
+  3570K(Lepine13),
+  3687+-67K(Muirhead18), 
+  3755K(Passegger18),
+  3832+-85K(Gaidos14)
+  => 3755K (only 3 Teffs in SIMBAD). Metallicities:
+  [Fe/H]=-0.07+-0.12(Gaidos14), [Fe/H]=+0.11(Passegger18) => [Fe/H]~0.0. plx =
   51.5+-4.6mas(vanAltena95).  Mv = 9.40, M_Ks=5.19.
-  G=9.932464(GaiaDR3).
+  GaiaDR3: plx=47.7313+-0.5115mas,   
+  G=9.932464(GaiaDR3). 
 
   (G-V)(M2V) = -0.908 ; ter. stan. GJ 220 = LHS 1794
 
