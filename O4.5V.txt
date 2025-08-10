@@ -24,14 +24,16 @@ Teff(O4.5V) =  41485 K ; Simon-Diaz14 linear fit for O4.5V
 Teff(O4.5V) =  41800 K ; Holgado20 median N=3 O4.5V (HD 155913, HD 15629, HDE 303308AB)
 Teff(O4.5V) =  41861 K ; Martins05
 Teff(O4.5V) =  42090 K ; Holgado18
+Teff(O4.5V) =  42135 K ; Holgado25 trend (O4V-O9.7V) 
 Teff(O4.5V) =  42400 K ; EEM trend for O dwarfs 1/20/2020 **
 Teff(O4.5V) =  42658 K ; Simon-Diaz17 median for O4V (N=1; HD15629)
 Teff(O4.5V) =  43451 K ; deJagerNieuwenhuijzen87 (logTeff=4.638)
 => adopt Teff(O4.5V) = 42200 K (logTeff=4.625) [updated 1/20/2020]
 
 logg(O4.5V) =  3.78 dex ; Holgado18
-logg(O4.5V) = 3.90 dex ; Holgado20 median N=3 O4.5Vs
-=> adopt logg(O4.5V) = 3.9 dex [updated 11/15/2022]
+logg(O4.5V) =  3.864 dex ; Holgado25 trend (O4V-O9.7V) 
+logg(O4.5V) =  3.90 dex ; Holgado20 median N=3 O4.5Vs
+=> adopt logg(O4.5V) = 3.86 dex [updated 8/9/2025]
 
 BCv(O4.5V) =   -3.559 mag ; Balona94 for Teff=42200K for BCv(Sun)=-0.085
 BCv(O4.5V) =  -3.78  mag ; Martins05(obs.scale)
@@ -39,34 +41,40 @@ BCv(O4.5V) =  -3.818 mag ; LanzHubeny03/07 for Teff=42200K for BCv(Sun)=-0.085
 BCv(O4.5V) =  -3.825 mag ; Martins06/theor.scale
 BCv(O4.5V) = -3.825 mag ; EEM interp O4V(-3.89),O5V(-3.76)
 BCv(O4.5V) =  -3.848 mag ; Martins05
+BCv(O4.5V) =  -3.870 mag ; Holgado25 trend (O4V-O9.7V) 
 BCv(O4.5V) =   -4.090 mag ; Flower96 for Teff=42200K for BCv(Sun)=-0.085
 => adopt BCv(O4.5V) = -3.82 [updated 1/31/2020]
 
-logL(O4.5V) = 5.604 dex ; Mv=5.45, BCv=-3.82 => Mbol=-9.270
-logL(O4.5V) = 5.602 dex ; EEM trend for O dwarfs
-logL(O4.5V) = 5.578 dex ; Martins05
+logL(O4.5V) =  5.604 dex ; Mv=5.45, BCv=-3.82 => Mbol=-9.270
+logL(O4.5V) =   5.602 dex ; EEM trend for O dwarfs
+logL(O4.5V) =   5.578 dex ; Martins05
+logL(O4.5V) =   5.505 dex ; Holgado25 trend (O4V-O9.7V) 
 => adopt logL(O4.5V) =  5.604 dex [updated 2/8/2020]
 => adopt Mbol(O4.5V) = -9.270 mag [updated 2/8/2020]
 
-Mv(O4.5V) = -5.457 mag ; EEM trend for O4.5V
-Mv(O4.5V) = -5.420 mag ; Martins06/obs.scale(interp)
-Mv(O4.5V) = -5.415 mag ; Martins06/theor.scale(interp)
-Mv(O4.5V) = -5.357 mag ; Martins05 
+Mv(O4.5V) =  -5.457 mag ; EEM trend for O4.5V
+Mv(O4.5V) =  -5.420 mag ; Martins06/obs.scale(interp)
+Mv(O4.5V) =  -5.415 mag ; Martins06/theor.scale(interp)
+Mv(O4.5V) =  -5.357 mag ; Martins05
+Mv(O4.5V) =  -5.122 mag ; Holgado25 trend (O4V-O9.7V) 
 => adopt Mv(O4.5V) = -5.45  mag [updated 2/8/2020]
 => adopt Mg(O4.5V) = -5.771 mag [updated 2/1/2025] (Mv=-5.45, g-V=-0.321) 
 
-Rad(O4.5V) = 11.700 Rsun ; Martins05 (Teff=41861K,logL=5.578)
+Rad(O4.5V) =  10.415 Rsun ; Holgado25 trend (O4V-O9.7V) 
+Rad(O4.5V) =  11.700 Rsun ; Martins05 (Teff=41861K,logL=5.578)
 Rad(O4.5V) = 11.8584 Rsun ; logL=5.604, Teff=42200K
 => adopt Rad(O4.5V) = 11.858 Rsun [updated 2/8/2020]
 
+Mass(O4.5V) =  33.18 Msun ; Holgado25 trend (O4V-O9.7V) 
 Mass(O4.5V) = 46.0 Msun   ; MIST/Choi16 solar tracks for logT=4.625,logL=5.604
-Mass(O4.5V) =  49+-6 Msun ; Weidner10
+Mass(O4.5V) =  49 +-6 Msun ; Weidner10
 => adopt Mass(O4.5V) = 46 Msun [updated 4/16/2022]
 
-logg(O4.5V) = 3.79+-0.05 ; HD 15629 Holgado20
-logg(O4.5V) = 3.90+-0.08 ; HDE 303308AB Holgado20
-logg(O4.5V) = 4.02+-0.11 ; HD 155913 Holgado20
-=> adopt logg(O4.5V) = 3.9 dex [updated 11/15/2022]
+logg(O4.5V) =  3.79+-0.05 ; HD 15629 Holgado20
+logg(O4.5V) = 3.864 ; Holgado25 trend (O4V-O9.7V) 
+logg(O4.5V) =  3.90+-0.08 ; HDE 303308AB Holgado20
+logg(O4.5V) =  4.02+-0.11 ; HD 155913 Holgado20
+=> adopt logg(O4.5V) = 3.86 dex [updated 8/9/2025] 
 
 # Stars
 

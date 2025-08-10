@@ -51,7 +51,8 @@ Teff(O8.5V) =  33000 K ; Crowther97/Fig.3
 Teff(O8.5V) =  33879 K ; Martins05(obs. scale),GrayCorbally09
 Teff(O8.5V) = 34000 K ; Marcolino09 HD 216898
 Teff(O8.5V) =  34600 K ; Bohm-Vitense81
-Teff(O8.5V) =  35075 K ; deJagerNieuwenhuijzen87 (logTeff=4.545) 
+Teff(O8.5V) =  35075 K ; deJagerNieuwenhuijzen87 (logTeff=4.545)
+Teff(O8.5V) = 35135 K ; Holgado25 trend (O4V-O9.7V) 
 Teff(O8.5V) =  35280 K ; Theodossiou90
 Teff(O8.5V) = 35435 K ; Simon-Diaz14 linear fit for O8.5V
 Teff(O8.5V) =  35500 K ; Habets81
@@ -75,11 +76,13 @@ Mv(O8.5V) = -4.25 mag ; Martins06/obs.scale
 Mv(O8.5V) = -4.2  mag ; halfway between O8V(Mv=-4.4) and O9V(Mv=-4.0)
 Mv(O8.5V) = -4.193 mag ; logL/Teff trend for O dwarfs (Teff=34000K,BCv=-3.18)
 Mv(O8.5V) = -4.19 mag ; Martins05
+Mv(O8.5V) = -4.16 mag ; Holgado25 trend (O4V-O9.7V) 
 Mv(O8.5V) = -3.8  mag ; Conti71(ZAMS)
 => adopt Mv(O8.5V) = -4.35 mag [updated 2/8/2020]
 => adopt Mg(O8.5V) = -4.664 mag [updated 2/1/2025] (Mv=-4.35, g-V=-0.314) 
 
 BCv(O8.5V) =   -3.404 mag ; Flower96 (Teff=34300K, set so BCv(5772K)=-0.085)
+BCv(O8.5V) =  -3.310 mag ; Holgado25 trend (O4V-O9.7V) 
 BCv(O8.5V) =  -3.22  mag ; Martins05(obs. scale)
 BCv(O8.5V) =   -3.202 mag ; Bessell98 (Teff=34300K, set so BCv(5772K)=-0.085)
 BCv(O8.5V) =  -3.185 mag ; LanzHubeny03/07 (Teff=34300K)
@@ -92,21 +95,24 @@ BCv(O8.5V) =  -3.03  mag ; Martins06(theor.scale)
 => adopt BCv(O8.5V) = -3.18 [updated 1/31/2020]
 
 logL(O8.5V) = 4.908 dex ; Mv=-4.35, BCv=-3.18 => Mbol=-7.530
-logL(O8.5V) = 4.87  dex ; Martins05(obs. scale)
-logL(O8.5V) = 4.85  dex ; logL/Teff trend for O dwarfs (Teff=34000K)
-logL(O8.5V) = 4.82  dex ; Martins05(theo. scale)
-logL(O8.5V) = 4.79  dex ; Marcolino09/HD216532
-logL(O8.5V) = 4.73  dex ; Marcolino09/HD216898
+logL(O8.5V) =  4.905 dex ; Holgado25 trend (O4V-O9.7V) 
+logL(O8.5V) =  4.87  dex ; Martins05(obs. scale)
+logL(O8.5V) =  4.85  dex ; logL/Teff trend for O dwarfs (Teff=34000K)
+logL(O8.5V) =  4.82  dex ; Martins05(theo. scale)
+logL(O8.5V) =  4.79  dex ; Marcolino09/HD216532
+logL(O8.5V) =  4.73  dex ; Marcolino09/HD216898
 => adopt logL(O8.5V) =  4.908 dex [updated 2/8/2020]
 => adopt Mbol(O8.5V) = -7.530 mag [updated 2/8/2020]
 
 logg(O8.5V) = 4.0 +- 0.1 dex ; Marcolino09 HD 216898
-logg(O8.5V) = 3.95 dex ; Holgado20 N=8 O8.5V variants
-logg(O8.5V) = 3.86 dex ; Holgado18
+logg(O8.5V) = 3.95  dex ; Holgado20 N=8 O8.5V variants
+logg(O8.5V) = 3.912 dex ; Holgado25 trend (O4V-O9.7V) 
+logg(O8.5V) = 3.86  dex ; Holgado18
 logg(O8.5V) = 3.7 +- 0.2 dex ; Marcolino09 HD 216532
-=> adopt logg(O8.5V) = 3.9 dex [updated 11/15/2022]
+=> adopt logg(O8.5V) = 3.91 dex [updated 8/9/2025] 
 
-Mass(O8.5V) =  21+5-6 Msun ; Weidner10
+Mass(O8.5V) =  17.98 Msun ; Holgado25 trend (O4V-O9.7V) 
+Mass(O8.5V) =  21 +5-6 Msun ; Weidner10
 Mass(O8.5V) =  21.159 Msun ; EEM logL/Mass relation logL=4.908
 Mass(O8.5V) =  21.252 Msun ; Eker18 ML calibration logL=4.908
 Mass(O8.5V) = 21.9 Msun   ; MIST/Choi16 solar tracks for logT=4.535,logL=4.908
@@ -115,8 +121,9 @@ Mass(O8.5V) =   23 Msun ; Habets81
 => adopt Mass(O8.5V) = 21.9 Msun [updated 4/16/2022]
 
 Rad(O8.5V) = 8.0550 Rsun ; Teff=34300K, logL=4.908
-Rad(O8.5V) = 7.838  Rsun ; Martins05 (Teff=33881K,logL=4.863)
-Rad(O8.5V) = 6.7+2.3-1.7 Rsun ; Marcolino09 HD 216898
+Rad(O8.5V) =  7.838  Rsun ; Martins05 (Teff=33881K,logL=4.863)
+Rad(O8.5V) =  7.655  Rsun ; Holgado25 trend (O4V-O9.7V) 
+Rad(O8.5V) =  6.7 +2.3-1.7 Rsun ; Marcolino09 HD 216898
 => adopt Rad(O8.5V) = 8.055 Rsun [updated 2/8/2020]
 
 # No Standards

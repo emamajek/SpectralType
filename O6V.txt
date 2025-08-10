@@ -79,6 +79,7 @@ Teff(O6V) =  39000 K  ; Bohm-Vitense81
 Teff(O6V) = 39216 K  ; Simon-Diaz14 linear fit for O6V
 Teff(O6V) =  39446 K ; deJagerNieuwenhuijzen87 (logTeff=4.596)
 Teff(O6V) =  39500 K  ; EEM trend for O dwarfs 1/20/2020
+Teff(O6V) = 39510 K  ; Holgado25 trend (O4V-O9.7V) 
 Teff(O6V) = 39660 K  ; Holgado18
 Teff(O6V) = 39800 K  ; Holgado20 median N=5 O6Vs 
 Teff(O6V) = 39811 K  ; Simon-Diaz17 for O6V (N=1; HD42088)
@@ -108,6 +109,7 @@ Mv(O6V) = -4.92 mag ; Martins05
 Mv(O6V) = -4.90 mag ; Wegner07
 Mv(O6V) =  -4.9 mag ; Conti71(ZAMS)
 Mv(O6V) =  -4.87 mag ; Garmany92 (O6V,IV)
+Mv(O6V) =  -4.76 mag ; Holgado25 trend (O4V-O9.7V) 
 Mv(O6V) =  -4.63 mag ; HIP_29216 O6V((f))z plx=0.615 mas, Vmag=7.552,E(B-V)=0.362
 Mv(O6V) =  -4.41 mag ; HIP_27941 O6V:[n]pevar plx=0.479 mas, Vmag=7.891,E(B-V)=0.228
 Mv(O6V) =  -3.41 mag ; HIP_69628 O6V(n)((f)) plx=0.632 mas, Vmag=8.650,E(B-V)=0.344
@@ -116,6 +118,7 @@ Mv(O6V) =  -3.41 mag ; HIP_69628 O6V(n)((f)) plx=0.632 mas, Vmag=8.650,E(B-V)=0.
 
 BCv(O6V) =  -3.870 mag ; Flower96(Teff=39500K, set so BCv(5772K)=-0.085)
 BCv(O6V) = -3.745 mag ; Chen19 PARSEC Teff=39500K,solar,logg=3.75
+BCv(O6V) = -3.660 mag ; Holgado25 trend (O4V-O9.7V) 
 BCv(O6V) = -3.63  mag ; Martins05(Obs. scale)
 BCv(O6V) = -3.611 mag ; LanzHubeny03(Teff=39500K,Z/Zsun=1)
 BCv(O6V) = -3.57  mag ; Martins05(theo.scale)
@@ -129,14 +132,17 @@ logL(O6V) = 5.364 dex ; Mv=-5.1, BCv=-3.57 => Mbol = -8.670
 logL(O6V) = 5.337 dex ; logL/Teff trend for O dwarfs for Teff=39700K
 logL(O6V) = 5.32  dex ; Martins05(obs. scale)
 logL(O6V) = 5.30  dex ; Martins05(theo. scale)
+logL(O6V) = 5.280 dex ; Holgado25 trend (O4V-O9.7V) 
 => adopt logL(O6V) =  5.364 dex [updated 2/8/2020]
 => adopt Mbol(O6V) = -8.670 dex [updated 2/8/2020]
 
-logg(O6V) = 3.81 dex ; Holgado18
-logg(O6V) = 3.88 dex ; Holgado20 median for N=5 O6Vs
-logg(O6V) = 3.918 +-0.15 (stdev) ; Martins05
-=> adopt logg(O6V) = 3.9 dex [updated 11/15/2022]
+logg(O6V) = 3.81  dex ; Holgado18
+logg(O6V) = 3.88  dex ; Holgado20 median for N=5 O6Vs
+logg(O6V) = 3.882 dex ; Holgado25 trend (O4V-O9.7V) 
+logg(O6V) = 3.918 +-0.15(stdev) ; Martins05
+=> adopt logg(O6V) = 3.88 dex [updated 8/9/2025]
 
+Mass(O6V) = 25.79  Msun ; Holgado25 trend (O4V-O9.7V) 
 Mass(O6V) =  26.56 Msun ; EEM Teff vs. Mass fit for binaries (Teff=38250K)
 Mass(O6V) = 29.00  Msun ; Chulkov22 fit for M_G=-5.1 (assuming G-V=0)
 Mass(O6V) = 30.98  Msun ; Martins05/obs. Teff scale
@@ -149,7 +155,8 @@ Mass(06V) = 35.8 +-7.2 Msun ; tet Ori C1 Weidner10
 => adopt Mass(O6V) = 35 Msun [updated 4/16/2022]
 
 Rad(O6V) = 10.2674 Rsun ; Teff=39500K, logL=5.364
-Rad(O6V) = 10.035  Rsun ; Martins05 (Teff=38868K,logL=5.316)
+Rad(O6V) =  10.035  Rsun ; Martins05 (Teff=38868K,logL=5.316)
+Rad(O6V) =   9.380 Rsun ; Holgado25 trend (O4V-O9.7V) 
 => adopt Rad(O6V) = 10.267 Rsun [updated 2/8/2020]
 
 # No standard

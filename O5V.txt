@@ -100,6 +100,7 @@ Teff(O5V) = 40738 K ; Simon-Diaz17 median for O5V (N=1; HD46150)
 Teff(O5V) = 40862 K ; Martins05(Obs. scale), GrayCorbally09
 Teff(O5V) = 41000 K ; Massey05(Milky Way)
 Teff(O5V) = 41200 K ; Holgado20 (N=3 O5Vs, all 41100K or 41200K)
+Teff(O5V) = 41260 K ; Holgado25 trend (O4V-O9.7V) 
 Teff(O5V) = 41280 K ; Holgado18
 Teff(O5V) = 41400 K ; EEM trend for O dwarfs 1/2020 **
 Teff(O5V) = 41540 K ; Martins05(Theoretical scale)
@@ -112,21 +113,22 @@ Teff(O5V) =  47034 K ; EEM N=6 Teffs
 => adopt Teff(O5V) = 41200 K (logTeff = 4.615) [updated 11/15/2022]
 
 Mv(O5V) =  -5.7  mag ; Schmidt-Kaler82
-Mv(O5V) = -5.67 mas ; pri. stan. HD 46150 (see below)
-Mv(O5V) = -5.6  mag ; Conti71(ZAMS)
+Mv(O5V) =  -5.67 mas ; pri. stan. HD 46150 (see below)
+Mv(O5V) =  -5.6  mag ; Conti71(ZAMS)
 Mv(O5V) =  -5.51 mag ; HIP_31130 O5V((f))z plx=0.678 mas, Vmag=6.784,E(B-V)=0.468 (GaiaDR3)
-Mv(O5V) = -5.5  mag ; GrayCorbally09
-Mv(O5V) = -5.50 mag ; non-stan. HD 15629 (Repolust04)
-Mv(O5V) = -5.50 mag ; Bowen08
-Mv(O5V) =  -5.5 mag ; Walborn72 
-Mv(O5V) = -5.48 mag ; pri. stan. HD 46150 (Martins11)
-Mv(O5V) = -5.41 mag ; Russeil03
-Mv(O5V) = -5.34 mag ; EEM trend for O dwarfs
-Mv(O5V) = -5.300 mag ; EEM logL/Teff trend for O dwarfs
-Mv(O5V) = -5.27 mag ; Martins06/obs.scale
-Mv(O5V) = -5.27 mag ; Martins06/theor.scale
-Mv(O5V) = -5.21 mag ; Martins05
+Mv(O5V) =  -5.5  mag ; GrayCorbally09
+Mv(O5V) =  -5.50 mag ; non-stan. HD 15629 (Repolust04)
+Mv(O5V) =  -5.50 mag ; Bowen08
+Mv(O5V) =  -5.5  mag ; Walborn72 
+Mv(O5V) =  -5.48 mag ; pri. stan. HD 46150 (Martins11)
+Mv(O5V) =  -5.41 mag ; Russeil03
+Mv(O5V) =  -5.34 mag ; EEM trend for O dwarfs
+Mv(O5V) =  -5.30 mag ; EEM logL/Teff trend for O dwarfs
+Mv(O5V) =  -5.27 mag ; Martins06/obs.scale
+Mv(O5V) =  -5.27 mag ; Martins06/theor.scale
+Mv(O5V) =  -5.21 mag ; Martins05
 Mv(O5V) =  -5.10 mag ; Wegner07
+Mv(O5V) =  -5.00 mag ; Holgado25 trend (O4V-O9.7V) 
 Mv(O5V) =  -4.75 mag ; HIP_32067 O5V((f))z+O9:V plx=0.800 mas, Vmag=6.348,E(B-V)=0.198 (GaiaDR3)
 => adopt Mv(O5V) = -5.35 mag [updated 2/8/2020]
 => adopt Mg(O5V) = -5.67 mag [updated 2/1/2025] (Mv=-5.35, g-V=-0.320)
@@ -135,6 +137,7 @@ BCv(O5V) =  -4.27  mag ; Schmidt-Kaler82(BCv=-4.40 + 0.13 offset)
 BCv(O5V) =  -4.011 mag ; Flower96(Teff=42400K, set so BCv(5772K)=-0.085)
 BCv(O5V) = -3.894 mag ; Chen19 PARSEC Teff=41400K,solar,logg=3.75
 BCv(O5V) = -3.82  mag ; Martins05(theor.scale)
+BCv(O5V) = -3.800 mag ; Holgado25 trend (O4V-O9.7V) 
 BCv(O5V) = -3.76  mag ; Martins06(theor.scale)
 BCv(O5V) = -3.78  mag ; Martins05(obs.scale)
 BCv(O5V) = -3.743 mag ; LanzHubeny03(Teff=41200K,Z/Zsun=1)
@@ -142,6 +145,7 @@ BCv(O5V) = -3.71  mag ; Martins06(obs.scale)
 BCv(O5V) =  -3.518 mag ; Balona94(Teff=41400K, set so BCv(5772K)=-0.085)
 => adopt BCv(O5V) = -3.76 [updated 1/31/2020]
 
+logL(O5V) = 5.430 ; Holgado25 trend (O4V-O9.7V) 
 logL(O5V) = 5.50  ; Martins05(Obs. scale)
 logL(O5V) = 5.51  ; Martins05(Theoretical scale)
 logL(O5V) = 5.521 ; logL/Teff trend for O dwarfs for Teff=41300K
@@ -150,26 +154,29 @@ logL(O5V) = 5.60  ; non-stan. HD 15629 (Repolust04)
 => adopt logL(O5V) =  5.540 dex [updated 2/8/2020]
 => adopt Mbol(O5V) = -9.110 mag [updated 2/8/2020]
 
-Mass(O5V) =  30.4 Msun  ; non-stan. HD 15629 (Repolust04)
-Mass(O5V) = 31.8  Msun  ; Chulkov22 fit for M_G=-5.35 (assuming G-V=0)
-Mass(O5V) = 31.98 Msun  ; EEM Teff vs. Mass fit for binaries (Teff=41000K)
-Mass(O5V) = 37.28 Msun  ; Martins05/theo. Teff scale
-Mass(O5V) = 38.08 Msun  ; Martins05/obs. Teff scale 
-Mass(O5V) = 42.96 Msun  ; MIST/Choi16 solar tracks for logT=4.617,logL=5.540
-Mass(O5V) = 44+7-6 Msun ; Weidner10
+Mass(O5V) =   30.4 Msun  ; non-stan. HD 15629 (Repolust04)
+Mass(O5V) =  30.49 Msun  ; Holgado25 trend (O4V-O9.7V) 
+Mass(O5V) =  31.8  Msun  ; Chulkov22 fit for M_G=-5.35 (assuming G-V=0)
+Mass(O5V) =  31.98 Msun  ; EEM Teff vs. Mass fit for binaries (Teff=41000K)
+Mass(O5V) =  37.28 Msun  ; Martins05/theo. Teff scale
+Mass(O5V) =  38.08 Msun  ; Martins05/obs. Teff scale 
+Mass(O5V) =  42.96 Msun  ; MIST/Choi16 solar tracks for logT=4.617,logL=5.540
+Mass(O5V) =  44 +7-6 Msun ; Weidner10
 => adopt Mass(O5V) = 43 Msun [updated 4/16/2022]
 
-logg(O5V) =  3.70 dex   ; non-stan. HD 15629 (Repolust04)
-logg(O5V) = 3.79 dex   ; Holgado18
-logg(O5V) = 3.81+-0.04 ; pri. stan. HD 46150 Holgado20
-logg(O5V) =  3.91+-0.07 ; HDE 319699 Holgado20
-logg(O5V) = 3.919+-0.15 (stdev) ; Martins05
-logg(O5V) =  3.94+-0.11 ; HD256725A Holgado20
-=> adopt logg(O5V) = 3.85 dex [updated 11/15/2022]
+logg(O5V) =  3.70 ; non-stan. HD 15629 (Repolust04)
+logg(O5V) = 3.79  ; Holgado18
+logg(O5V) = 3.81 +-0.04 ; pri. stan. HD 46150 Holgado20
+logg(O5V) = 3.870 ; Holgado25 trend (O4V-O9.7V) 
+logg(O5V) =  3.91 +-0.07 ; HDE 319699 Holgado20
+logg(O5V) = 3.919 +-0.15 (stdev) ; Martins05
+logg(O5V) =  3.94 +-0.11 ; HD256725A Holgado20
+=> adopt logg(O5V) = 3.87 dex [updated 8/9/2025] 
 
-Rad(O5V) = 12.8    Rsun ; HD15629/Repolust04
+Rad(O5V) =  12.8    Rsun ; HD15629/Repolust04
 Rad(O5V) = 11.4460 Rsun ; logL=5.540, Teff= 41400K
-Rad(O5V) = 11.112  Rsun ; Martins05 (Teff=40863K,logL=5.492)
+Rad(O5V) =  11.112  Rsun ; Martins05 (Teff=40863K,logL=5.492)
+Rad(O5V) =  10.070  Rsun ; Holgado25 trend (O4V-O9.7V) 
 => adopt Rad(O5V) = 11.446 Rsun [updated 2/8/2020]
 
 # No Standards

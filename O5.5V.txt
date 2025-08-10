@@ -27,6 +27,7 @@ Teff(O5.5V) =  39865 K ; Martins05(Obs. scale), GrayCorbally09
 Teff(O5.5V) = 39972 K ; Simon-Diaz14 linear fit for O5.5V
 Teff(O5.5V) = 40000 K ; exemplar HD 93204
 Teff(O5.5V) =  40062 K ; Martins05(Theo. scale)
+Teff(O5.5V) = 40385 K ; Holgado25 trend (O4V-O9.7V) 
 Teff(O5.5V) = 40400 K ; Holgado20 median Teff N=5 O5.5Vs
 Teff(O5.5V) = 40470 K ; Holgado18
 Teff(O5.5V) = 40500 K ; EEM trend for O dwarfs 1/2020
@@ -35,18 +36,19 @@ Teff(O5.5V) =  44000 K ; HD 48099-1 (Martins11)
 => adopt Teff(O5.5V) = 40500K (logTeff = 4.607) [updated 1/20/2020]
 => adopt Teff(O5.5V) = 40400K (logTeff = 4.606) [updated 11/15/2020]
 
-Mv(O5.5V) = -5.4  mag ; interp. from GrayCorbally09
-Mv(O5.5V) = -5.39 mag ; HD 48099-1 (Mon OB2 member; Martins11)
-Mv(O5.5V) = -5.35 mag ; Bowen08
-Mv(O5.5V) = -5.22 mag ; EEM trend for O dwarfs
-Mv(O5.5V) = -5.2  mag ; Conti71(ZAMS)
-Mv(O5.5V) = -5.2  mag ; roughly interpolating O5V (-5.4) and O6V (-5.1)as f(Teff)
-Mv(O5.5V) = -5.14 mag ; Martins06/obs.scale
-Mv(O5.5V) = -5.12 mag ; Martins06/theor.scale
-Mv(O5.5V) = -5.07 mag ; Martins05(both Theo. & Obs. scale)
-Mv(O5.5V) = -5.0  mag ; Wegner07(halfway between O5V and O6V)
-Mv(O5.5V) = -5.0  mag ; Walborn72 
-Mv(O5.5V) = -4.91 mag ; exemplar HD 93204
+Mv(O5.5V) = -5.4  ; interp. from GrayCorbally09
+Mv(O5.5V) = -5.39 ; HD 48099-1 (Mon OB2 member; Martins11)
+Mv(O5.5V) = -5.35 ; Bowen08
+Mv(O5.5V) = -5.22 ; EEM trend for O dwarfs
+Mv(O5.5V) = -5.2  ; Conti71(ZAMS)
+Mv(O5.5V) = -5.2  ; roughly interpolating O5V (-5.4) and O6V (-5.1)as f(Teff)
+Mv(O5.5V) = -5.14 ; Martins06/obs.scale
+Mv(O5.5V) = -5.12 ; Martins06/theor.scale
+Mv(O5.5V) = -5.07 ; Martins05(both Theo. & Obs. scale)
+Mv(O5.5V) = -5.0  ; Wegner07(halfway between O5V and O6V)
+Mv(O5.5V) = -5.0  ; Walborn72 
+Mv(O5.5V) = -4.91 ; exemplar HD 93204
+Mv(O5.5V) = -4.88 ; Holgado25 trend (O4V-O9.7V) 
 => adopt Mv(O5.5V) = -5.2 mag [updated 2/8/2020]
 => adopt Mg(O5.5V) = -5.52 mag [updated 2/1/2025] (Mv=-5.2, g-V=-0.320) 
 
@@ -57,28 +59,33 @@ BCv(O5.5V) = -3.665 mag ; EEM interp O5V(-3.76),O6V(-3.57)
 BCv(O5.5V) =  -3.689 mag ; LanzHubeny03/07(Teff=40500K)
 BCv(O5.5V) =  -3.70  mag ; Martins05(obs.scale)
 BCv(O5.5V) =  -3.71  mag ; Martins05(theor.scale)
+BCv(O5.5V) =  -3.730 mag ; Holgado25 trend (O4V-O9.7V) 
 BCv(O5.5V) =   -3.954 mag ; Flower96(Teff=40500K),set so BCv(5772K)=-0.085
 => adopt BCv(O5.5V) = -3.67 [updated 1/31/2020]
 
-logL(O5.5V) = 5.41  dex ; Martins05(Obs. & Theo. scale)
-logL(O5.5V) = 5.432 dex ; EEM trend for O dwarfs O5.5V
+logL(O5.5V) =  5.355 dex ; Holgado25 trend (O4V-O9.7V) 
+logL(O5.5V) =  5.41  dex ; Martins05(Obs. & Theo. scale)
+logL(O5.5V) =  5.432 dex ; EEM trend for O dwarfs O5.5V
 logL(O5.5V) = 5.444 dex ; Mv=-5.2, BCv=-3.67 => Mbol = -8.870
-logL(O5.5V) = 5.65  dex ; HD 48099-1 (Martins11)
+logL(O5.5V) =  5.65  dex ; HD 48099-1 (Martins11)
 => adopt logL(O5.5V) =  5.444 dex [updated 2/8/2020]
 => adopt Mbol(O5.5V) = -8.870 mag [updated 2/8/2020]
 
-logg(O5.5V) =  3.80 dex ; Holgado18
-logg(O5.5V) = 3.92 dex ; Holgado20 median N=4 values
-=> adopt logg(O5.5V) = 3.9 dex [updated 11/15/2022]
+logg(O5.5V) =  3.80 dex  ; Holgado18
+logg(O5.5V) =  3.876 dex ; Holgado25 trend (O4V-O9.7V) 
+logg(O5.5V) =  3.92 dex  ; Holgado20 median N=4 values
+=> adopt logg(O5.5V) = 3.88 dex [updated 8/9/2025] 
 
+Rad(O5.5V) =  9.725 Rsun  ; Holgado25 trend (O4V-O9.7V) 
 Rad(O5.5V) = 10.7088 Rsun ; Teff=40500K, logL=5.444
-Rad(O5.5V) = 10.558 Rsun ; Martins05 (Teff=39866K,logL=5.404)
+Rad(O5.5V) =  10.558 Rsun ; Martins05 (Teff=39866K,logL=5.404)
 => adopt Rad(O5.5V) =  10.709 Rsun [updated 2/8/2020]
 
-Mass(O5.5V) = 21.67 Msun     ; exemplar HD 93204 (Albacete-Colombo18).
-Mass(O5.5V) = 30.0+-1.0 Msun ; FO15A Weidner10
-Mass(O5.5V) = 37.8 Msun      ; MIST/Choi16 solar tracks for logT=4.607,logL=5.44
-Mass(O5.5V) = 39+7-6 Msun    ; Weidner10
+Mass(O5.5V) =  21.67 Msun     ; exemplar HD 93204 (Albacete-Colombo18)
+Mass(O5.5V) =  28.03 Msun     ; Holgado25 trend (O4V-O9.7V) 
+Mass(O5.5V) =  30.0 +-1.0 Msun ; FO15A Weidner10
+Mass(O5.5V) =  37.8 Msun      ; MIST/Choi16 solar tracks for logT=4.607,logL=5.44
+Mass(O5.5V) =  39 +7-6 Msun    ; Weidner10
 => adopt Mass(O5.5V) = 38 Msun [updated 4/16/2022]
 
 # Exemplar

@@ -131,6 +131,7 @@ Teff(O7V) = 37154 K ; Simon-Diaz17 median for O7V (N=5)
 Teff(O7V) =   37497 K ; deJagerNieuwenhuijzen87 (logTeff=4.574) 
 Teff(O7V) =   37500 K ; Bohm-Vitense81
 Teff(O7V) = 37703 K  ; Simon-Diaz14 linear fit for O7V
+Teff(O7V) = 37760 K  ; Holgado25 trend (O4V-O9.7V) 
 Teff(O7V) =   38000 K ; Schmidt-Kaler82
 Teff(O7V) = 37900 K  ; Holgado20 median N=25 O7V variants
 Teff(O7V) = 38010 K  ; prim. stan. 15 Mon (median Teff)
@@ -151,7 +152,6 @@ Teff(O7V) =  40300 K ; Habets81
 (G-V)(O7V) =  -0.023 ; HIP_26272 O7V(n)((f))z V=7.585 G=7.5090 E(B-V)=0.367
 (G-V)(O7V) =   0.023 ; HIP_51773 O7V((f))z V=8.151 G=8.1327 E(B-V)=0.288
 
-
 Mv(O7V) = -5.2  mag ; Schmidt-Kaler82
 Mv(O7V) = -5.0  mag ; Walborn72 
 Mv(O7V) = -4.99 mag ; Garmany92 (O7V,IV)
@@ -169,6 +169,7 @@ Mv(O7V) = -4.70 mag ; Martins06/obs.scale
 Mv(O7V) = -4.688 mag ; logL/Teff trend for O dwarfs (logL=5.140,BCv=-3.42)
 Mv(O7V) = -4.63 mag ; Martins05
 Mv(O7V) = -4.57 mag ; HD 46485 (NGC 2244 member; Martins11)
+Mv(O7V) = -4.52 mag ; Holgado25 trend (O4V-O9.7V) 
 Mv(O7V) = -4.50 mag ; non-stan. HD 217086 (Repolust04)
 Mv(O7V) =  -4.32 mag ; HIP_31348 O7V((f))z plx=0.759 mas, Vmag=7.960,E(B-V)=0.541
 Mv(O7V) = -4.2  mag ; Conti71(ZAMS)
@@ -182,22 +183,24 @@ Mv(O7V) =  -0.07 mag ; HIP_89750 O7V+O8V plx=0.566 mas, Vmag=14.058,E(B-V)=0.933
 => adopt Mv(O7V) = -4.8 mag [updated 2/8/2020]
 => adopt Mg(O7V) = -5.117 mag [updated 2/1/2025] (Mv=-4.8, G-V=-0.317) 
 
-BCv(O7V) =  -3.661 mag ; Flower96(Teff=37100K,BCv(5772K)=-0.085)
-BCv(O7V) = -3.557  mag ; Chen19 PARSEC Teff=37100K,solar,logg=3.83
-BCv(O7V) =  -3.55  mag ; Schmidt-Kaler82(BCv=-3.68 + 0.13 offset)
-BCv(O7V) = -3.47   mag ; Martins05(obs.scale)
-BCv(O7V) = -3.426  mag ; Bessell98(ATLAS,logg=4.0,Teff=37100K, set so BCv(5772K)=-0.085)
-BCv(O7V) = -3.417  mag ; LanzHubeny03(Teff=37100K,Z/Zsun=1)
-BCv(O7V) = -3.40   mag ; Martins06(obs.scale)
-BCv(O7V) = -3.36   mag ; Martins05(theo.scale)
-BCv(O7V) =  -3.327 mag ; Balona94(Teff=37100K,BCv(5772K)=-0.085)
-BCv(O7V) = -3.29   mag ; Martins06(theor.scale)
+BCv(O7V) =  -3.661 ; Flower96(Teff=37100K,BCv(5772K)=-0.085)
+BCv(O7V) = -3.557  ; Chen19 PARSEC Teff=37100K,solar,logg=3.83
+BCv(O7V) =  -3.55  ; Schmidt-Kaler82(BCv=-3.68 + 0.13 offset)
+BCv(O7V) = -3.52   ; Holgado25 trend (O4V-O9.7V) 
+BCv(O7V) = -3.47   ; Martins05(obs.scale)
+BCv(O7V) = -3.426  ; Bessell98(ATLAS,logg=4.0,Teff=37100K, set so BCv(5772K)=-0.085)
+BCv(O7V) = -3.417  ; LanzHubeny03(Teff=37100K,Z/Zsun=1)
+BCv(O7V) = -3.40   ; Martins06(obs.scale)
+BCv(O7V) = -3.36   ; Martins05(theo.scale)
+BCv(O7V) =  -3.327 ; Balona94(Teff=37100K,BCv(5772K)=-0.085)
+BCv(O7V) = -3.29   ; Martins06(theor.scale)
 => adopt BCv(O7V) = -3.41 [last updated 1/31/2020]
 
 logL(O7V) = 5.180 dex ; Mv = -4.8, BCv=-3.41 => Mbol = -8.210
 logL(O7V) = 5.175 dex ; LogL/Teff trend for O dwarfs for Teff=37000K
 logL(O7V) = 5.14  dex ; Martins05(obs. scale)
 logL(O7V) = 5.140 dex ; EEM trend for O7V
+logL(O7V) = 5.130 dex ; Holgado25 trend (O4V-O9.7V) 
 logL(O7V) = 5.10  dex ; Martins05(theo. scale)
 logL(O7V) = 5.05  dex ; HD 46485 (Martins11)
 logL(O7V) = 5.05  dex ; non-stan. HD 217086 (Repolust04)
@@ -215,21 +218,24 @@ Mass(O7V) =  26.52 Msun ; Martins05/theo. Teff scale
 Mass(O7V) = 25.86 Msun ; Chulkov22 fit for M_G=-4.8  (assuming G-V=0)
 Mass(O7V) =  25.29 Msun ; Martins05/obs. Teff scale 
 Mass(O7V) =  22.7 +-4.0 Msun ; CPD-59_2603A (Weidner10)
+Mass(O7V) =  21.99 Msun ; Holgado25 trend (O4V-O9.7V) 
 Mass(O7V) =  17.52 +-9.33 Msun ; Hohle10
 Mass(O7V) =  14.2 Msun  ; non-stan. HD 217086 (Repolust04; in error? is it really 24.2 Msun?)
 => adopt Mass(O7V) = 28 Msun [updated 4/16/2022]
 
-logg(O7V) = 3.50 dex ; non-stan. HD 217086 (Repolust04)
-logg(O7V) = 3.83 dex ; Holgado18
-logg(O7V) = 3.88 dex ; Holgado20 N=25 O7V variants
+logg(O7V) = 3.50 dex  ; non-stan. HD 217086 (Repolust04)
+logg(O7V) = 3.83 dex  ; Holgado18
+logg(O7V) = 3.88 dex  ; Holgado20 N=25 O7V variants
+logg(O7V) = 3.894 dex ; Holgado25 trend (O4V-O9.7V) 
 logg(O7V) = 3.917 +-0.15 (stdev) ; Martins05
 logg(O7V) = 4.058 dex ; Eclipsing binary V3903 Sgr A (Vaz97)
-=> adopt logg(O7V) = 3.9 dex [updated 11/15/2022]
+=> adopt logg(O7V) = 3.89 dex [updated 8/9/2025] 
 
 Rad(O7V) = 9.4168 Rsun ; Teff=37100K, logL=5.180
-Rad(O7V) = 9.077  Rsun ; Martins05 (Teff=36873K,logL=5.137)
-Rad(O7V) = 8.6    Rsun ; HD217086/Repolust04
-Rad(O7V) = 8.088  Rsun ; Eclipsing binary V3903 Sgr A (Vaz97)
+Rad(O7V) =  9.077  Rsun ; Martins05 (Teff=36873K,logL=5.137)
+Rad(O7V) =  8.690  Rsun ; Holgado25 trend (O4V-O9.7V) 
+Rad(O7V) =  8.6    Rsun ; HD217086/Repolust04
+Rad(O7V) =  8.088  Rsun ; Eclipsing binary V3903 Sgr A (Vaz97)
 => adopt Rad(O7V)  = 9.417 Rsun [updated 2/8/2020]
 
 

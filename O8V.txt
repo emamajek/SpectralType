@@ -145,6 +145,7 @@ Teff(O8V) = 35700 K ; Holgado20 median N=9
 Teff(O8V) =   35800 K ; Schmidt-Kaler82
 Teff(O8) =  35810 K ; deJagerNieuwenhuijzen87 (logTeff=4.554)
 Teff(O8V) = 36000 K ; Mahy11 median Teff for 3 O8V stars (HD 46056, HD 46149-A, and HD 46485)
+Teff(O8V) = 36010 K ; Holgado25 trend (O4V-O9.7V) 
 Teff(O8V) = 36191 K ; Simon-Diaz14 linear fit for O8V
 Teff(O8V) = 36420 K ; Holgado18 
 Teff(O8V) =  37000 K ; deprecated stan. HD 46149 (median Teff)
@@ -179,6 +180,7 @@ Mv(O8V) =  -4.39 mag ; HIP_54902 O8V plx=0.384 mas, Vmag=8.643,E(B-V)=0.309
 Mv(O8V) = -4.365 mag ; logL/Teff trend for O dwarfs (Teff=35000K,BCv=-3.25)
 Mv(O8V) = -4.34 mag ; Martins05
 Mv(O8V) =  -4.34 mag ; HIP_8725 O8V plx=0.356 mas, Vmag=9.401,E(B-V)=0.482
+Mv(O8V) = -4.28 mag ; Holgado25 trend (O4V-O9.7V) 
 Mv(O8V) =  -4.26 mag ; HIP_56890 O8V plx=0.515 mas, Vmag=8.320,E(B-V)=0.368
 Mv(O8V) = -4.20 mag ; HD 46056 (in NGC 2244; Martins11)
 Mv(O8V) = -4.13 mag ; HD 46149-1 (in NGC 2244; Martins11)
@@ -192,6 +194,7 @@ Mv(O8V) =  -3.64 mag ; HIP_13468 O8V plx=0.533 mas, Vmag=9.759,E(B-V)=0.657
 BCv(O8V) =  -3.479 mag ; Flower96(Teff=35100K),set so BCv(5772K)=-0.085
 BCv(O8V) =  -3.41  mag ; Schmidt-Kaler82(BCv=-3.54 + 0.13 offset)
 BCv(O8V) = -3.400  mag ; Chen19 PARSEC Teff=37100K,solar,logg=3.83
+BCv(O8V) = -3.380  mag ; Holgado25 trend (O4V-O9.7V) 
 BCv(O8V) = -3.31   mag ; Martins05(obs. scale)
 BCv(O8V) =  -3.266 mag ; Bessell98(ATLAS,logg=4.0,Teff=35100K),set so BCv(5772K)=-0.085
 BCv(O8V) = -3.249  mag ; LanzHubeny03(Teff=35100K,Z/Zsun=1)
@@ -202,35 +205,39 @@ BCv(O8V) = -3.10   mag ; Martins06(theor.scale)
 => adopt BCv(O8V) = -3.24 [updated 1/31/2020]
 
 logL(O8V) = 4.992 dex ; Mv=-4.5, BCv=-3.24 => Mbol=-7.740
-logL(O8V) = 4.96  dex ; Martins05(obs. scale)
-logL(O8V) = 4.943 dex ; logL/Teff trend for O dwarfs (Teff=35000K)
-logL(O8V) = 4.90  dex ; Martins05(theo. scale)
-logL(O8V) = 4.90  dex ; HD 46149-1 (Martins11)
-logL(O8V) = 4.85  dex ; HD 46056 (Martins11)
+logL(O8V) =  4.980 dex ; Holgado25 trend (O4V-O9.7V) 
+logL(O8V) =  4.96  dex ; Martins05(obs. scale)
+logL(O8V) =  4.943 dex ; logL/Teff trend for O dwarfs (Teff=35000K)
+logL(O8V) =  4.90  dex ; Martins05(theo. scale)
+logL(O8V) =  4.90  dex ; HD 46149-1 (Martins11)
+logL(O8V) =  4.85  dex ; HD 46056 (Martins11)
 => adopt logL(O8V) =  4.992 dex [updated 2/8/2020]
 => adopt Mbol(O8V) = -7.740 mag [updated 2/8/2020]
 
 logg(O8V) = 3.81 dex ; Holgado20 median N=9 O8V & variants
 logg(O8V) = 3.85 dex ; Holgado18
+logg(O8V) = 3.906 dex ; Holgado25 trend (O4V-O9.7V) 
 logg(O8V) = 3.916+-0.15 (stdev) ; Martins05
-=> adopt logg(O8V) = 3.85 dex [updated 11/15/2022]
+=> adopt logg(O8V) = 3.91 dex [updated 8/9/2025] 
 
+Mass(O8V) =  19.09 Msun ; Holgado25 trend (O4V-O9.7V) 
 Mass(O8V) =  20.86 Msun ; Martins05/obs. Teff scale 
-Mass(O8V) =  21.38+-0.33 Msun ; Eclipsing binary EM Car B (Torres10)
+Mass(O8V) =  21.38 +-0.33 Msun ; Eclipsing binary EM Car B (Torres10)
 Mass(O8V) =  21.95 Msun ; Martins05/theo. Teff scale 
-Mass(O8V) =  22+6-5 Msun ; Weidner10
+Mass(O8V) =  22 +6-5 Msun ; Weidner10
 Mass(O8V) = 22.72 Msun ; Chulkov22 fit for M_G=-4.5 (assuming G-V=0)
 Mass(O8V) =  22.74 Msun ; Ekers18 ML calibration for logL=4.992
-Mass(O8V) =  22.83+-0.32 Msun ; Eclipsing binary EM Car A (Torres10)
+Mass(O8V) =  22.83 +-0.32 Msun ; Eclipsing binary EM Car A (Torres10)
 Mass(O8V) =  22.99 Msun ; EEM logL vs. Mass fit for binaries (logL=4.992)
 Mass(O8V) = 23.6  Msun ; MIST/Choi16 solar tracks for logT=4.545,logL=4.992
 Mass(O8V) =  23.85 Msun ; Ekers15 ML calibration for logL=4.992
 Mass(O8V) =  24.00 Msun ; EEM Mv vs. Mass fit for binaries (Mv=-4.5)
-Mass(O8V) =  31.0+-0.6 Msun ; V1182 Aql A (Weidner10)
+Mass(O8V) =  31.0 +-0.6 Msun ; V1182 Aql A (Weidner10)
 => adopt Mass(O8V) = 23.6 Msun [updated 4/17/2022]
 
 Rad(O8V) = 8.4730 Rsun ; Teff=35100K, logL=4.992
-Rad(O8V) = 8.227  Rsun ; Martins05 (Teff=34878K,logL=4.955)
+Rad(O8V) =  8.227  Rsun ; Martins05 (Teff=34878K,logL=4.955)
+Rad(O8V) =  8.000  Rsun ; Holgado25 trend (O4V-O9.7V) 
 => adopt Rad(O8V) = 8.473 Rsun [updated 2/8/2019]
 
 # No Standard

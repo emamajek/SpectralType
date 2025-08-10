@@ -131,6 +131,7 @@ Teff(O9.5V) =   32211 K ; deJagerNieuwenhuijzen87 (logTeff=4.508)
 Teff(O9.5V) =   32750 K ; halfway between O9V(34000K) and B0V(31500K). 
 Teff(O9.5V) =   32830 K ; Theodossiou90 
 Teff(O9.5V) =  32955 K ; Q=-0.862 => Nieva13 calibration
+Teff(O9.5V) =  33385 K ; Holgado25 trend (O4V-O9.7V) 
 Teff(O9.5V) =  33922 K ; Simon-Diaz14 linear fit for O9.5V
 Teff(O9.5V) =  33990 K ; Holgado18
 Teff(O9.5V) =  34350 K ; Holgado24 median O9.7V (N=4)
@@ -152,15 +153,16 @@ Mv(O9.5V) =  -3.99 mag ; HIP_113753 O9.5V plx=0.301 mas, Vmag=10.203,E(B-V)=0.51
 Mv(O9.5V) = -3.98 mag ; Martins06/obs.scale
 Mv(O9.5V) = -3.94 mag ; logL/Teff trend for OB dwarfs for Teff=32000K,BCv=-3.03
 Mv(O9.5V) = -3.93 mag ; pri. stan. HD 93027 (see below)
+Mv(O9.5V) = -3.92 mag ; Holgado25 trend (O4V-O9.7V) 
 Mv(O9.5V) = -3.9  mag ; halfway between O9V (-4.0) and B0V (-3.8)
 Mv(O9.5V) = -3.90 mag ; Martins05
 Mv(O9.5V) =  -3.75 mag ; HIP_139 O9.5V plx=1.010 mas, Vmag=10.100,E(B-V)=1.248
 Mv(O9.5V) = -3.73 mag ; pri. stan. zet Oph (see below)
 Mv(O9.5V) =  -3.60 mag ; HIP_11807 O9.5V plx=0.511 mas, Vmag=10.322,E(B-V)=0.796
 Mv(O9.5V) =  -3.6  mag ; Conti71(ZAMS)
-Mv(O9.5V) =  -3.49 mag ; HIP_111257 O9.5V plx=0.979 mas, Vmag=8.519,E(B-V)=0.632
-Mv(O9.5V) =  -2.30 mag ; HIP_24575 O9.5V plx=2.616 mas, Vmag=6.005,E(B-V)=0.126
-Mv(O9.5V) =  -1.99 mag ; HIP_77994 O9.5V plx=0.443 mas, Vmag=11.369,E(B-V)=0.514
+Mv(O9.5V) =  -3.5 mag ; HIP_111257 O9.5V plx=0.979 mas, Vmag=8.519,E(B-V)=0.632
+Mv(O9.5V) =  -.23 mag ; HIP_24575 O9.5V plx=2.616 mas, Vmag=6.005,E(B-V)=0.126
+Mv(O9.5V) =  -.20 mag ; HIP_77994 O9.5V plx=0.443 mas, Vmag=11.369,E(B-V)=0.514
 => adopt Mv(O9.5V) = -4.05  mag [updated 2/8/2020]
 => adopt Mg(O9.5V) = -4.360 mag [updated 2/1/2025] (Mv=-4.05, g-V=-0.310)  
 => adopt M_Ks(O9.5V) = -3.073 mag = -4.05 - -0.977 [updated 12/30/2020]
@@ -176,35 +178,32 @@ BCv(O9.5V) = -3.04  mag ; Martins05(obs. scale)
 BCv(O9.5V) = -3.050 mag ; Nieva13(Teff=31900K)
 BCv(O9.5V) =  -3.063 mag ; Code76(Teff=31900K, set so BCv(5772K)=-0.08)
 BCv(O9.5V) = -3.162 mag ; Chen19 PARSEC Teff=31900K,solar,logg=3.88
+BCv(O9.5V) =  -3.170 mag ; Holgado25 trend (O4V-O9.7V) 
 BCv(O9.5V) =  -3.177 mag ; Flower96(Teff=31900K, set so BCv(5772K)=-0.08)
 => adopt BCv(O9.5V) = -3.01 [updated 1/31/2020, adjusted so that BCv(5772K)=-0.085]
 
-logL(O9.5V) = 4.58  dex ; pri. stan. zet Oph (see below)
-logL(O9.5V) = 4.62  dex ; Martins05(theo. scale)
-logL(O9.5V) = 4.66  dex ; pri. stan. HD 93027 (see below)
-logL(O9.5V) = 4.68  dex ; Martins05(obs. scale)
-logL(O9.5V) = 4.685 dex ; logL/Teff trend for OB dwarfs (Teff=32000K)
+logL(O9.5V) =  4.58  dex ; pri. stan. zet Oph (see below)
+logL(O9.5V) =  4.62  dex ; Martins05(theo. scale)
+logL(O9.5V) =  4.66  dex ; pri. stan. HD 93027 (see below)
+logL(O9.5V) =  4.68  dex ; Martins05(obs. scale)
+logL(O9.5V) =  4.685 dex ; logL/Teff trend for OB dwarfs (Teff=32000K)
 logL(O9.5V) = 4.720 dex ; Mv=-4.05, BCv=-3.01 => Mbol = -7.060
-logL(O9.5V) = 4.85  dex ; HD 46202 (Martins11)
-logL(O9.5V) = 4.86  dex ; pri. stan. zet Oph (Marcolino09)
+logL(O9.5V) =  4.755 dex ; Holgado25 trend (O4V-O9.7V) 
+logL(O9.5V) =  4.85  dex ; HD 46202 (Martins11)
+logL(O9.5V) =  4.86  dex ; pri. stan. zet Oph (Marcolino09)
 => adopt logL(O9.5V) =  4.720 dex [updated 2/8/2020]
 => adopt Mbol(O9.5V) = -7.060 mag [updated 2/8/2020]
 
-logg(O9.5V) = 3.99 ; Holgado24 median O9.7V (N=4) logg corrected for rotational effects
-logg(O9.5V) = 3.915+-0.15 ; Martins05
-logg(O9.5V) = 3.88 dex ; Holgado18
-logg(O9.5V) = 3.6 +- 0.2 dex ; zet Oph (Marcolino09)
-=> adopt logg(O9.5V) = 3.88 dex [updated 1/31/2020]
-
-Mass(O9.5V) =  14.5+-4.0 Msun ; CPD-59_2603B (Weidner10)
+Mass(O9.5V) =  14.5 +-4.0 Msun ; CPD-59_2603B (Weidner10)
 Mass(O9.5V) =  15.55 Msun ; Martins05/obs. Teff scale 
-Mass(O9.5V) =  16.0+-1.0 Msun ; FO15B (Weidner10)
-Mass(O9.5V) =  16.27+-0.33 Msun ; Eclipsing binary V478 Cyg B (Torres10)
-Mass(O9.5V) =  16.46 Msun  ; Martins05/theo. Teff scale 
-Mass(O9.5V) =  16.62+-0.33 Msun ; Eclipsing binary V478 Cyg A (Torres10)
+Mass(O9.5V) =  16.0 +-1.0 Msun ; FO15B (Weidner10)
+Mass(O9.5V) =  16.27 +-0.33 Msun ; Eclipsing binary V478 Cyg B (Torres10)
+Mass(O9.5V) =  16.43 Msun ; Holgado25 trend (O4V-O9.7V) 
+Mass(O9.5V) =  16.46 Msun ; Martins05/theo. Teff scale 
+Mass(O9.5V) =  16.62 +-0.33 Msun ; Eclipsing binary V478 Cyg A (Torres10)
 Mass(O9.5V) =  17.16 Msun  ; EEM Teff vs. Mass fit for binaries (Teff=32000K)
 Mass(O9.5V) =  17.8 Msun ; Habets81
-Mass(O9.5V) =  18+4-5 Msun ; Weidner10
+Mass(O9.5V) =  18 +4-5 Msun ; Weidner10
 Mass(O9.5V) = 18.13 Msun ; Chulkov22 fit for M_G=-4.05 (assuming G-V=0)
 Mass(O9.5V) =  18.53 Msun  ; EEM logL vs. Mass fit for binaries (logL=4.76)
 Mass(O9.5V) = 18.7  Msun  ; MIST/Choi16 solar tracks for logT=4.504,logL=4.720
@@ -214,8 +213,16 @@ Mass(O9.5V) =  20.0  Msun  ; mean HRD position, Bertelli09 tracks
 => adopt Mass(O9.5V) = 18.7 Msun [updated 4/16/2022]
 
 Rad(O9.5V) = 7.5002 Rsun ; Teff=31900K, logL=4.720
-Rad(O9.5V) = 7.126  Rsun ; Martins05 (Teff=31886K,logL=4.675)
+Rad(O9.5V) =  7.126  Rsun ; Martins05 (Teff=31886K,logL=4.675)
+Rad(O9.5V) =  6.965  Rsun ; Holgado25 trend (O4V-O9.7V) 
 => adopt Rad(O9.5V) = 7.500 Rsun [updated 2/8/2020]
+
+logg(O9.5V) = 3.99 ; Holgado24 median O9.7V (N=4) logg corrected for rotational effects
+logg(O9.5V) = 3.924 ; Holgado25 trend (O4V-O9.7V) 
+logg(O9.5V) = 3.915 +-0.15 ; Martins05
+logg(O9.5V) = 3.88 dex ; Holgado18
+logg(O9.5V) = 3.6 +- 0.2 dex ; zet Oph (Marcolino09)
+=> adopt logg(O9.5V) = 3.92 dex [updated 8/9/2025] 
 
 # No standard
 
