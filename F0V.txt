@@ -73,6 +73,7 @@ granulation velocities."
 (B-V)(F0V) = 0.312 ; Morgan65 F0V Hyad HD 29375
 (B-V)(F0V) =  0.31  ; Johnson66,Johnson68,KenyonHartmann95
 (B-V)(F0V) =  0.307 ; HD_152598_ F0V plx=33.6014mas, Mv=2.9647
+(B-V)(F0V) = 0.307 +-0.020 ; exemplar HD 73161 (likely Praesepid)
 (B-V)(F0V) =  0.307 ; Mendoza56(interp A9V-F2V) 
 (B-V)(F0V) = 0.305 ; smoothed trend SpT vs (B-V)o A0V-F9V 12/2023
 (B-V)(F0V) =  0.303 ; BakisEker22 
@@ -80,7 +81,7 @@ granulation velocities."
 (B-V)(F0V) = 0.295 ; Gray01/03/06 F0V stars (+-0.002 sem, +-0.003 stdev; N=2)
 (B-V)(F0V) =  0.29  ; Garrison67
 (B-V)(F0V) = 0.29  ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)
-(B-V)(F0V) = 0.287 ; exemplar HD 199124 = HR 8006 
+(B-V)(F0V) = 0.286 +-0.010 ; exemplar HD 199124 = HR 8006
 (B-V)(F0V) = 0.283 ; Morgan65 F0V Hyad HD 27397
 (B-V)(F0V) =  0.275 ; Crawford76
 (B-V)(F0V) =  0.275 ; Bessell79
@@ -89,93 +90,111 @@ granulation velocities."
 (B-V)(F0V) = 0.263 ; Morgan65 F0V Hyad HD 28556
 (B-V)(F0V) = 0.263 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below)
 (B-V)(F0V) =  0.221 ; HD_83287_ F0V plx=25.9788mas, Mv=2.3491
-=> adopt (B-V)(F0V) = 0.305 [updated 12/29/2023]
+=> adopt (B-V)(F0V) = 0.30 [updated 7/30/2025]
 
-(U-B)(F0V) = 0.018 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)
-(U-B)(F0V) =  0.02  ; JohnsonMorgan53
-(U-B)(F0V) =  0.03  ; Fitzgerald70
-(U-B)(F0V) = 0.037: ; exemplar HD 195627 = HIP 101612 = HR 7848 (plx=35.6214mas, Mv=2.50)
-(U-B)(F0V) = 0.045 ; B-V vs U-B trend for B-V=0.305
-(U-B)(F0V) = 0.046 ; HIP d<75pc S/N>8 F0V N=61 (Mermilliod91 photometry)
-(U-B)(F0V) = 0.056 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below)
-(U-B)(F0V) =  0.06  ; Johnson66,Johnson68
-(U-B)(F0V) =  0.09 ; Cowley70(N=19) 
-=> adopt (U-B)(F0V) = 0.045 [updated 12/29/2023]
+(U-B)(F0V) =  0.018 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)
+(U-B)(F0V) =   0.02  ; JohnsonMorgan53
+(U-B)(F0V) =   0.03  ; Fitzgerald70
+(U-B)(F0V) =  0.037: ; exemplar HD 195627 = HIP 101612 = HR 7848 (plx=35.6214mas, Mv=2.50)
+(U-B)(F0V) =  0.046 ; HIP d<75pc S/N>8 F0V N=61 (Mermilliod91 photometry)
+(U-B)(F0V) = 0.049 ; B-V vs U-B trend for B-V=0.30
+(U-B)(F0V) =  0.056 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below)
+(U-B)(F0V) =   0.06  ; Johnson66,Johnson68
+(U-B)(F0V) =  0.065 +-0.014 ; exemplar HD 199124 = HR 8006
+(U-B)(F0V) =  0.077 +-0.020 ; exemplar HD 73161 (likely Praesepid)
+(U-B)(F0V) =   0.09 ; Cowley70(N=19) 
+=> adopt (U-B)(F0V) = 0.05 [updated 7/20/2025] 
 
 (V-Rj)(F0V) = 0.30 ; Johnson68
 
-(V-Rc)(F0V) = 0.172 ; B-V vs V-Rc trend for B-V=0.305
-(V-Rc)(F0V) = 0.181 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)
-(V-Rc)(F0V) = 0.182 ; B-V vs V-Rc trend A8V-G0V for B-V=0.305 (2/24/2024) 
-(V-Rc)(F0V) =  0.195 ; Johnson68 transformed to V-Rc via Fernie83
-(V-Rc)(F0V) =  0.195 ; HD 40136 = HR 2085 (F0V,Cousins80)
-(V-Rc)(F0V) =  0.198 ; HD 147449 = HR 6093 (F0V,Cousins80) 
-(V-Rc)(F0V) =  0.202 ; HD 55892 = HR 2740 (F0V,Cousions80)
-(V-Rc)(F0V) =  0.214 ; HD 110379/80 = HR 4825/4826 (F0V+F0V,Cousins80) 
-=> adopt (V-Rc)(F0V) = 0.18 [updated 2/24/2024; V-Ic=0.35, R-Ic=0.18]
+(V-Rc)(F0V) =  0.129 +-0.014 ; exemplar HD 73161 (likely Praesepid)
+(V-Rc)(F0V) =  0.168 +-0.014 ; exemplar HD 199124 = HR 8006
+(V-Rc)(F0V) =  0.170 ; B-V vs V-Rc trend for B-V=0.30
+(V-Rc)(F0V) = 0.17 ; V-Ic=0.35, R-Ic=0.18 (7/20/2025) 
+(V-Rc)(F0V) =  0.181 +-0.011 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) 
+(V-Rc)(F0V) =  0.182 ; B-V vs V-Rc trend A8V-G0V for B-V=0.305 (2/24/2024)
+(V-Rc)(F0V) =   0.195 ; Johnson68 transformed to V-Rc via Fernie83
+(V-Rc)(F0V) =   0.195 ; HD 40136 = HR 2085 (F0V,Cousins80)
+(V-Rc)(F0V) =   0.198 ; HD 147449 = HR 6093 (F0V,Cousins80) 
+(V-Rc)(F0V) =   0.202 ; HD 55892 = HR 2740 (F0V,Cousions80)
+(V-Rc)(F0V) =   0.214 ; HD 110379/80 = HR 4825/4826 (F0V+F0V,Cousins80) 
+=> adopt (V-Rc)(F0V) = 0.17 [updated 7/20/2025] (V-Ic=0.35, R-Ic=0.18)
 
 (R-Ij)(F0V) = 0.17 ; Johnson68
 
-(R-Ic)(F0V) = 0.155 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)
-(R-Ic)(F0V) =  0.168 ; Bessell79
-(R-Ic)(F0V) = 0.179 ; B-V vs R-Ic trend for B-V=0.305
-(R-Ic)(F0V) =  0.191 ; HD 147449 = HR 6093 (F0V,Cousins80) 
-(R-Ic)(F0V) =  0.197 ; HD 40136 = HR 2085 (F0V,Cousins80)
-(R-Ic)(F0V) =  0.202 ; HD 55892 = HR 2740 (F0V,Cousions80)
-(R-Ic)(F0V) =  0.214 ; HD 110379/80 = HR 4825/4826 (F0V+F0V,Cousins80) 
-=> adopt (R-Ic)(F0V) = 0.18 [updated 2/24/2024; V-Ic=0.35, V-Rc=0.18]
+(R-Ic)(F0V) =  0.155 +-0.014 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)
+(R-Ic)(F0V) =   0.168 ; Bessell79
+(R-Ic)(F0V) =  0.177 ; B-V vs R-Ic trend for B-V=0.30
+(R-Ic)(F0V) = 0.18 ; V-Ic=0.35, V-Rc=0.17 (7/20/2025) 
+(R-Ic)(F0V) =  0.180 +-0.014 ; exemplar HD 73161 (likely Praesepid)
+(R-Ic)(F0V) =  0.189 +-0.014 ; exemplar HD 199124 = HR 8006
+(R-Ic)(F0V) =   0.191 ; HD 147449 = HR 6093 (F0V,Cousins80) 
+(R-Ic)(F0V) =   0.197 ; HD 40136 = HR 2085 (F0V,Cousins80)
+(R-Ic)(F0V) =   0.202 ; HD 55892 = HR 2740 (F0V,Cousions80)
+(R-Ic)(F0V) =   0.214 ; HD 110379/80 = HR 4825/4826 (F0V+F0V,Cousins80) 
+=> adopt (R-Ic)(F0V) = 0.18 [updated 7/20/2025] (V-Ic=0.35, V-Rc=0.17)
 
-(V-Ic)(F0V) =  0.330 ; Bessell79,Bessell88
-(V-Ic)(F0V) = 0.336 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)
-(V-Ic)(F0V) = 0.345 ; Gray01/03/06 F0V stars (+-0.002 sem, +-0.004 stdev; N=2)
-(V-Ic)(F0V) = 0.351 ; B-V vs. V-Ic trend for B-V=0.305
-(V-Ic)(F0V) = 0.372 ; Johnson68 transformed to V-Ic via Fernie83
-(V-Ic)(F0V) =  0.389 ; HD 147449 = HR 6093 (F0V,Cousins80) 
-(V-Ic)(F0V) =  0.392 ; HD 40136 = HR 2085 (F0V,Cousins80)
-(V-Ic)(F0V) =  0.404 ; HD 55892 = HR 2740 (F0V,Cousions80)
-(V-Ic)(F0V) =  0.428 ; HD 110379/80 = HR 4825/4826 (F0V+F0V,Cousins80) 
-=> adopt (V-Ic)(F0V) = 0.36 [updated 2/24/2024; V-Rc=0.18, R-Ic=0.18]
+(V-Ij)(F0V) = 0.47 ; Johnson66
+=> adopt (V-Ij)(F0V) = 0.47 [updated 6/15/2025] 
+
+(V-Ic)(F0V) =  0.309 +-0.014 ; exemplar HD 73161 (likely Praesepid)  
+(V-Ic)(F0V) =   0.330 ; Bessell79,Bessell88
+(V-Ic)(F0V) =  0.336 +-0.011 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) 
+(V-Ic)(F0V) =  0.345 ; Gray01/03/06 F0V stars (+-0.002 sem, +-0.004 stdev; N=2)
+(V-Ic)(F0V) =  0.348 ; B-V vs. V-Ic trend for B-V=0.30
+(V-Ic)(F0V) = 0.35 ; V-Rc=0.17, R-Ic=0.18 (7/20/2025) 
+(V-Ic)(F0V) =  0.357 +-0.014 ; exemplar HD 199124 = HR 8006
+(V-Ic)(F0V) =  0.366 ; (V-Ij)=0.47 => (V-Ic) via Hipparcos Vol 1 Field H42 
+(V-Ic)(F0V) =  0.372 ; Johnson68 transformed to V-Ic via Fernie83
+(V-Ic)(F0V) =   0.389 ; HD 147449 = HR 6093 (F0V,Cousins80) 
+(V-Ic)(F0V) =   0.392 ; HD 40136 = HR 2085 (F0V,Cousins80)
+(V-Ic)(F0V) =   0.404 ; HD 55892 = HR 2740 (F0V,Cousions80)
+(V-Ic)(F0V) =   0.428 ; HD 110379/80 = HR 4825/4826 (F0V+F0V,Cousins80) 
+=> adopt (V-Ic)(F0V) = 0.35 [updated 7/20/2025] (V-Rc=0.17, R-Ic=0.18)
 
 (V-Jj)(F0V) = 0.55 ; Johnson68
 (V-Jj)(F0V) = 0.58 ; Johnson66
 
-(V-J)(F0V) = 0.609 ; B-V vs V-J for B-V=0.305
-=> adopt (V-J)(F0V) = 0.609 [updated 5/10/2024]
+(V-J)(F0V) =  0.602 ; B-V vs V-J for B-V=0.30 (7/20/2025)
+(V-J)(F0V) = 0.605 ; V-Ks=0.75, J-Ks=0.145 (7/20/2025) 
+=> adopt (V-J)(F0V) = 0.605 [updated 7/20/2025] (V-Ks=0.75, J-Ks=0.145)
 
 (V-Hj)(F0V) = 0.73 ; Johnson68
 
-(V-H)(F0V) = 0.712 ; B-V vs V-H for B-V=0.305
-=> adopt (V-H)(F0V) = 0.712 [updated 5/10/2024]
+(V-H)(F0V) =  0.705 ; V-Ks=0.75, H-Ks=0.045 (7/20/2025) 
+(V-H)(F0V) =  0.705 ; B-V vs V-H for B-V=0.30 (7/20/2025)
+=> adopt (V-H)(F0V) = 0.705 [updated 7/20/2025] (V-Ks=0.75, H-Ks=0.045)
 
 (V-Kj)(F0V) = 0.74 ; Johnson68 
 (V-Kj)(F0V) = 0.79 ; Johnson66
 
 (V-K)(F0V) = 0.70 ; Bessell88/Glass
 
-(V-Ks)(F0V) = 0.646 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below)
-(V-Ks)(F0V) =  0.744 ; Bessell88(Glass->2MASS)
-(V-Ks)(F0V) = 0.758 ; B-V vs. V-Ks trend for B-V=0.305
-(V-Ks)(F0V) = 0.982 ; HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)
-=> adopt (V-Ks)(F0V) = 0.758 [updated 12/29/2023]
+(V-Ks)(F0V) =  0.646 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below)
+(V-Ks)(F0V) =   0.744 ; Bessell88(Glass->2MASS)
+(V-Ks)(F0V) = 0.75 ; V-H=0.705, H-Ks=0.045 (7/20/2025) 
+(V-Ks)(F0V) =  0.750 ; B-V vs. V-Ks trend for B-V=0.30
+(V-Ks)(F0V) =  0.982 ; HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)
+=> adopt (V-Ks)(F0V) = 0.75 [updated 7/20/2025] (V-H=0.705, H-Ks=0.045)
 
 (J-H)(F0V) = 0.13 ; Bessell88/Glass
 
 (J-H)(F0V) =  0.082 ; Bessell88(Glass->2MASS)
-(J-H)(F0V) =  0.104 ; B-V vs. J-H trend for B-V=0.305
+(J-H)(F0V) =  0.102 ; B-V vs. J-H trend for B-V=0.30 
 (J-H)(F0V) =  0.119 ; Koornneef83 (J-H=0.04) converted to 2MASS via Carpenter01 (A9V stars)
-=> adopt (J-H)(F0V) = 0.10 [updated 2/1/2025]
+=> adopt (J-H)(F0V) = 0.10 [updated 7/20/2025] (J-Ks=0.145, H-Ks=0.045)
 
 (H-K)(F0V) = 0.03 ; Bessell88/Glass
 
-(H-Ks)(F0V) = 0.046 ; B-V vs H-Ks trend for B-V=0.305
+(H-Ks)(F0V) = 0.045 ; B-V vs H-Ks trend for B-V=0.30
 (H-Ks)(F0V) =  0.058 ; Bessell88(Glass->2MASS)
-=> adopt (H-Ks)(F0V) = 0.046 [updated 12/29/2023]
+=> adopt (H-Ks)(F0V) = 0.045 [updated 7/20/2025] (J-Ks=0.145, J-H=0.10) 
 
 (J-K)(F0V) = 0.16 ; Bessell88/Glass
 
 (J-Ks)(F0V) = 0.145 ; Bessell88(Glass->2MASS)
-(J-Ks)(F0V) = 0.150 ; B-V vs J-H and B-V vs H-Ks for B-V=0.305 (J-H=0.104, H-Ks=0.046)
-=> adopt (J-Ks)(F0V) = 0.150 [updated 5/10/2024]
+(J-Ks)(F0V) = 0.147 ; B-V vs J-H and B-V vs H-Ks for B-V=0.30 (7/20/2025) 
+=> adopt (J-Ks)(F0V) = 0.145 [updated 7/20/2025] (J-H=0.10, H-Ks=0.045) 
 
 (G-V)(F0V) =  -0.095 ; * 47 Ari PM* F0V(e) (GaiaDR2) 
 (G-V)(F0V) =  -0.094 ; HD 204153 PM* F0V (GaiaDR2) 
@@ -196,8 +215,8 @@ granulation velocities."
 (G-V)(F0V) =  -0.034 ; * 42 Lyn * F0V (GaiaDR2) 
 => adopt (G-V)(F0V) = -0.06 [updated 10/30/2020] (GaiaDR2)
 
-(G-V)(F0V) =  -0.118 +-0.029 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)
-(G-V)(F0V) =   -0.111 ; HD_11171_ F0V plx=42.5848 mas (GaiaDR3)
+(G-V)(F0V) = -0.118 +-0.029 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)
+(G-V)(F0V) =  -0.111 ; HD_11171_ F0V plx=42.5848 mas (GaiaDR3)
 (G-V)(F0V) =  -0.096 ; HD_12230_ F0V plx=30.16 mas (GaiaDR3)
 (G-V)(F0V) =  -0.093 ; HD_9919_ F0V plx=30.3493 mas (GaiaDR3)
 (G-V)(F0V) =  -0.087 ; HD_81937_ F0V plx=42.0904 mas (GaiaDR3)
@@ -207,13 +226,16 @@ granulation velocities."
 (G-V)(F0V) =  -0.080 ; HD_212132_ F0V plx=25.2139 mas (GaiaDR3)
 (G-V)(F0V) =  -0.077 ; HD_204153_ F0V plx=29.3328 mas (GaiaDR3)
 (G-V)(F0V) =  -0.077 ; HD_152598_ F0V plx=33.6014 mas (GaiaDR3)
+(G-V)(F0V) = -0.076 ; interp A7V-F2V SpT vs G-V 
 (G-V)(F0V) =  -0.076 ; HD_195627_ F0V plx=35.6214 mas (GaiaDR3)
 (G-V)(F0V) =  -0.074 ; HD_11257_ F0Vs plx=24.0374 mas (GaiaDR3)
 (G-V)(F0V) =  -0.069 ; HD_195069_ F0V: plx=25.6035 mas (GaiaDR3)
+(G-V)(F0V) = -0.068 +-0.010 ; exemplar HD 73161 (likely Praesepid)
+(G-V)(F0V) = -0.063 +-0.010 ; exemplar HD 199124 = HR 8006 
 (G-V)(F0V) =  -0.062 ; HD_11973_ F0V plx=24.7748 mas (GaiaDR3)
-(G-V)(F0V) =   -0.050 ; HD_49434_ F0V+ plx=24.9902 mas (GaiaDR3)
-(G-V)(F0V) =   -0.038 ; HD_83287_ F0V plx=25.9788 mas (GaiaDR3)
-=> adopt (G-V)(F0V) = -0.08 [updated 8/25/2024] (GaiaDR3) 
+(G-V)(F0V) =  -0.050 ; HD_49434_ F0V+ plx=24.9902 mas (GaiaDR3)
+(G-V)(F0V) =  -0.038 ; HD_83287_ F0V plx=25.9788 mas (GaiaDR3)
+=> adopt (G-V)(F0V) = -0.08 [updated 7/15/2025] (GaiaDR3) 
 
 (Bp-Rp)(F0V) = 0.384    ; color trend for B-V=0.295 (GaiaDR2)
 (Bp-Rp)(F0V) =  0.3995  ; HD_195627 (GaiaDR2)
@@ -222,8 +244,11 @@ granulation velocities."
 => adopt (Bp-Rp)(F0V)= 0.384 [updated 11/18/2020] (GaiaDR2)
 
 (Bp-Rp)(F0V) = 0.366 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below) (GaiaDR3)
-(Bp-Rp)(F0V) = 0.416 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) (GaiaDR3)
-(Bp-Rp)(F0V) = 0.515 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4) (GaiaDR3) 
+(Bp-Rp)(F0V) =  0.3931 ; exemplar HD 199124 = HR 8006   
+(Bp-Rp)(F0V) =  0.4098 ; exemplar HD 73161 (likely Praesepid)   
+(Bp-Rp)(F0V) =  0.4157 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)  
+(Bp-Rp)(F0V) =  0.5148 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4) 
+=> adopt (Bp-Rp)(F0V) = 0.40 [updated 7/20/2025] (Bp-G=0.14, G-Rp=0.26)
 
 (G-T)(F0V) = 0.198 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.435
 => (G-T)(F0V) = 0.198 [updated 10/8/2023] (GaiaDR2)
@@ -234,17 +259,24 @@ granulation velocities."
 => adopt (Bp-G)(F0V) = 0.156 [updated 11/18/2020]
 
 (Bp-G)(F0V) = 0.118 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below) (GaiaDR3)
-(Bp-G)(F0V) = 0.156 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) (GaiaDR3)
-(Bp-G)(F0V) = 0.193 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4) (GaiaDR3)
- 
+(Bp-G)(F0V) =  0.1351 ; exemplar HD 199124 = HR 8006   
+(Bp-G)(F0V) =  0.1418 ; exemplar HD 73161 (likely Praesepid)   
+(Bp-G)(F0V) =  0.1563 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)  
+(Bp-G)(F0V) =  0.1931 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)  
+=> adopt (Bp-G)(F0V) = 0.14 [updated 7/20/2025] (Bp-Rp=0.40, G-Rp=0.26)
+
 (G-Rp)(F0V) =  0.2038 ; HD_195627 (GaiaDR2)
 (G-Rp)(F0V) = 0.230   ; color trend for B-V=0.295 (GaiaDR2)
 (G-Rp)(F0V) =  0.2691 ; pi_Psc (GaiaDR2)
 => adopt (G-Rp)(F0V) = 0.230 [updated 11/18/2020]
 
-(G-Rp)(F0V) = 0.248 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below) (GaiaDR3)
-(G-Rp)(F0V) = 0.259 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) (GaiaDR3)
-(G-Rp)(F0V) = 0.322 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4) (GaiaDR3) 
+(G-Rp)(F0V) =  0.248 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below) (GaiaDR3)
+(G-Rp)(F0V) =  0.2580 ; exemplar HD 199124 = HR 8006   
+(G-Rp)(F0V) =  0.2594 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)
+(G-Rp)(F0V) = 0.26 ; Bp-Rp=0.40, Bp-G=0.14 (7/20/2025) 
+(G-Rp)(F0V) =  0.2680 ; exemplar HD 73161 (likely Praesepid)   
+(G-Rp)(F0V) =  0.3217 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)  
+=> adopt (G-Rp)(F0V) = 0.26 [updated 7/20/2025] (Bp-Rp=0.40, Bp-G=0.14) 
 
 (Ks-W1)(F0V) = 0.049 ; EEM trend for d<30pc for B-V=0.29
 => adopt (Ks-W1)(F0V) = 0.049 [updated 12/29/2019]
@@ -279,6 +311,7 @@ granulation velocities."
 
 Teff(F0V) = 6850 K ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)
 Teff(F0V) =   6903 K ; Boyajian12
+Teff(F0V) = 6969 K ; Paunzen06 median Teff for F0V (N=12)
 Teff(F0V) =   7100 K ; Blackwell80
 Teff(F0V) = 7109 K ; EEM N=310 Teffs
 Teff(F0V) =  7178 K ; non-stan. Hyad HD 29375 (Morgan65 type, 2012A&A...537A.120Z Teff)
@@ -406,8 +439,9 @@ HD 23585 = Cl Melotte 22 1284 = HII 1284 = V1210 Tau = GJ 9131 = Gaia DR3 652121
   E(B-V)=0.041(Kervella22/STILISM), 6)
   E(B-V)=0.044+-0.017(STILISM). Based on these values I adopt
   E(B-V)=0.034+-0.011(Taylor08).  Following the reddening/extinction
-  formula from Olson75, this translates to Av=0.113+-0.037.
-  V=8.36(Mendoza67,Iriarte69,Straizys89,Stauffer07),
+  formula from Olson75, this translates to Av=0.113+-0.037.  Recently,
+  Paunzen24 quoted an average reddening of E(B-V)=0.032+-0.007 based
+  on 4 estimates.  V=8.36(Mendoza67,Iriarte69,Straizys89,Stauffer07),
   V=8.369+-0.007(Mermilliod91/N=11), V=8.37(Johnson58,Hesser71),
   V=8.38(Johnson53,Gliese91), V=8.383(Pickles10/SEDfit),
   V=8.384+-0.007(Hauck97), V=8.388+-0.011(Paunzen15),
@@ -510,10 +544,12 @@ HD 195627 = phi01 Pav = HIP 101612 = HR 7848 = 2MASS J20353488-6034542 = Gaia DR
   (W1-W3)(F0V) =  -0.036 +-0.084 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)  
   (W1-W4)(F0V) =   0.146 +-0.086 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) 
 
-HD 73161 = Cl* NGC 2632 Rg 190 = Cl* NGC 2632 S 19 = Cl* NGC 2632 KW 38 = Gaia DR3 664314759317023360  
-  *F0V: Ramberg41(F0),Wilson50,Bidelman56(F0Vn),Rebeirot66
+HD 73161 = Cl* NGC 2632 Rg 190 = Cl* NGC 2632 S 19 = Cl* NGC 2632 KW 38 = Gaia DR3 664314759317023360
    A9IVn: Abt86
-
+  *F0: CannonPickering(Ramberg41,Wilson50,Larink55,SAO,Rebeirot66,Heckman75)
+   F0Vn: Bidelman56(vanAltena95)
+   F0.2: Kraus07
+   
    Indexed as a Praesepe member, but confusing membership status.
    GaiaDR2 parallax placed it 2x as far as Praesepe, but proper motion
    is good match (-38.00, -11.15 mas/yr for HD 73161 vs. cluster
@@ -522,14 +558,37 @@ HD 73161 = Cl* NGC 2632 Rg 190 = Cl* NGC 2632 S 19 = Cl* NGC 2632 KW 38 = Gaia D
    it squarely on the MS. Mystery apparently solved as GaiaDR3
    provided a much higher parallax (plx=5.2162+-0.1479mas) plus
    astrometric solution for it as a binary (I/357/tbooc):
-   P=867.7+-50.0d, e=0.554+-0.034.  Cluster has
+   P=867.7+-50.0d, e=0.554+-0.034. VanSaders13 reports vsini=160km/s,
+   Prot=0.532d, Mass=1.635Msun, Rad=1.681Rsun.  Cluster has
    E(B-V)=0.027+-0.004(Taylor06), but individual estimate E(B-V) =
-   0.0197+-0.0034(Stassun19) => Av=0.066.  B-V=0.302+-0.028(HIP),
-   B-V=0.307(Cummings17), B-V=0.32(Mendoza67) => (B-V)o=0.302-0.027 =
-   0.275.  U-B=0.077(Dickens68,N=6), U-B=0.09(Mendoza67).
-   V=8.661+-0.020(Droege07), V=8.67(Morel78), V=8.684+-0.009(Hauck97).
-   V=8.698(Dickens68,N=6), V=8.712(Hauck97), V=8.76(Mendoza67).
-   Rj=8.49(Morel78), Ij=8.31(Morel78), Ic=8.290+-0.036(Droege07),
+   0.0197+-0.0034(Stassun19) => Av=0.066, and Paunzen24 has
+   E(B-V)=0.001+-0.000, consistent with zero reddening in Bayestar and
+   GaiaDR3.
+   V=8.611+-0.009(Taylor08), 
+   V=8.661+-0.020(Droege07), V=8.67(Morel78),
+   V=8.684+-0.009(Hauck97).  V=8.698(Dickens68,N=6),
+   V=8.70(vanAltena95), V=8.71(TYC), V=8.712(Hauck97),
+   V=8.699612(GaiaDR3/synth), 
+   V=8.76(Mendoza67,N=1/Morel78) => adopt V=8.70.
+   B-V=0.2758(GaiaDR3/synth), 
+   B-V=0.299(Dickens68,N=6),
+   B-V=0.302+-0.028(HIP),
+   B-V=0.307(Cummings17),
+   B-V=0.309(vanSaders13),
+   B-V=0.32(Mendoza67,N=1),
+   B-V=0.33(vanAltena95) => adopt B-V=0.307. 
+   U-B=0.077(Dickens68,N=6), U-B=0.09(Mendoza67,N=1).
+   Rj=8.49(Morel78) =>
+   Rc=8.571(Morel78/Johnson=>Fernie83=>Cousins),
+   V-Rj=0.21(vanAltena95/Morel78) =>
+   V-Rc=0.129(vanAltena95/Morel78=>Cousins),
+   Rc=8.515721(GaiaDR3/synth), 
+   Ij=8.31(Morel78) =>
+   V-Ij=0.390(vanAltena95/Morel78) =>
+   V-Ic=0.309(vanAltena95/Morel78=>Cousins),
+   Ic=8.391(Morel78/Johnson=>Fernie83=>Cousins),
+   Ic=8.290+-0.036(Droege07),
+   Ic=8.329252(GaiaDR3/synth), 
    J=8.100+-0.026(2MASS), H=7.996+-0.046(2MASS),
    Ks=7.946+-0.033(2MASS).  Not in Soubiran22 PASTEL compendium.
    Teffs: 6745K(Querioz23), 6876+-226K(Tsantaki22#1),
@@ -543,9 +602,46 @@ HD 73161 = Cl* NGC 2632 Rg 190 = Cl* NGC 2632 S 19 = Cl* NGC 2632 KW 38 = Gaia D
    <Teff>=7234K.  plx = 2.7527+-0.1729mas(GaiaDR2) => 359.4+-22.4pc.
    Teff = 7254+-127K(Stassun19), logg=3.49+-0.10(Stassun19),
    [M/H]=0.201+-0.014(Stassun19). Not in Soubiran22 PASTEL compendium
-   catalog. GaiaDR3 (photometry reddened!):
+   catalog. GaiaDR3:
    plx=5.2162+-0.1479mas(GaiaDR3), G=8.632391+-0.002764(GaiaDR3),
-   Bp-Rp=0.409786(GaiaDR3), Bp-G=0.141816(GaiaDR3), 0.267970(G-Rp).
+   Bp-Rp=0.409786(GaiaDR3), Bp-G=0.141816(GaiaDR3), G-Rp=0.267970(GaiaDR3).
+   Based on Paunzen24, I assume these are the intrinsic colors.
+   
+        G =  8.6324+-0.0028 ; exemplar HD 73161 (likely Praesepid)   
+   (V-Rc)(F0V) =   0.129 +-0.014 ; exemplar HD 73161 (likely Praesepid)   
+   (R-Ic)(F0V) =   0.180 +-0.014 ; exemplar HD 73161 (likely Praesepid)   
+   (V-Ic)(F0V) =   0.309 +-0.014 ; exemplar HD 73161 (likely Praesepid)   
+  (Bp-Rp)(F0V) =  0.4098 ; exemplar HD 73161 (likely Praesepid)   
+   (Bp-G)(F0V) =  0.1418 ; exemplar HD 73161 (likely Praesepid)   
+   (G-Rp)(F0V) =  0.2680 ; exemplar HD 73161 (likely Praesepid)   
+    (G-V)(F0V) =  -0.068 +-0.010 ; exemplar HD 73161 (likely Praesepid)   
+    (G-J)(F0V) =   0.532 +-0.026 ; exemplar HD 73161 (likely Praesepid)   
+       Mv(F0V) =   2.287 +-0.062 ; exemplar HD 73161 (likely Praesepid)   
+      M_G(F0V) =   2.219 +-0.062 ; exemplar HD 73161 (likely Praesepid)   
+      M_J(F0V) =   1.687 +-0.067 ; exemplar HD 73161 (likely Praesepid)   
+     M_Ks(F0V) =   1.533 +-0.070 ; exemplar HD 73161 (likely Praesepid)   
+   (V-Ks)(F0V) =   0.754 +-0.034 ; exemplar HD 73161 (likely Praesepid)   
+   (G-Ks)(F0V) =   0.686 +-0.033 ; exemplar HD 73161 (likely Praesepid)   
+    (V-J)(F0V) =   0.600 +-0.028 ; exemplar HD 73161 (likely Praesepid)   
+    (V-H)(F0V) =   0.704 +-0.047 ; exemplar HD 73161 (likely Praesepid)   
+    (J-H)(F0V) =   0.104 +-0.053 ; exemplar HD 73161 (likely Praesepid)   
+   (H-Ks)(F0V) =   0.050 +-0.057 ; exemplar HD 73161 (likely Praesepid)   
+   (J-Ks)(F0V) =   0.154 +-0.042 ; exemplar HD 73161 (likely Praesepid)   
+  (Ks-W1)(F0V) =   0.049 +-0.041 ; exemplar HD 73161 (likely Praesepid)   
+  (Ks-W2)(F0V) =   0.026 +-0.038 ; exemplar HD 73161 (likely Praesepid)   
+  (W1-W2)(F0V) =  -0.023 +-0.031 ; exemplar HD 73161 (likely Praesepid)   
+  (W1-W3)(F0V) =  -0.049 +-0.041 ; exemplar HD 73161 (likely Praesepid)   
+  (W1-W4)(F0V) =   0.260 +-0.231 ; exemplar HD 73161 (likely Praesepid)   
+    (B-V)(F0V) =   0.307 +-0.020 ; exemplar HD 73161 (likely Praesepid)   
+    (U-B)(F0V) =   0.077 +-0.020 ; exemplar HD 73161 (likely Praesepid)   
+   (u-g)(F0V) =   1.423 +-0.001 ; exemplar HD 73161 (likely Praesepid) (DR16)
+   (g-r)(F0V) =   0.251 +-0.001 ; exemplar HD 73161 (likely Praesepid) (DR16)
+   (r-i)(F0V) =  -0.082 +-0.001 ; exemplar HD 73161 (likely Praesepid) (DR16)
+   (i-z)(F0V) =  -0.207 +-0.001 ; exemplar HD 73161 (likely Praesepid) (DR16)
+   (g-V)(F0V) =   0.289 +-0.010 ; exemplar HD 73161 (likely Praesepid)   
+   (g-G)(F0V) =   0.357 +-0.003 ; exemplar HD 73161 (likely Praesepid)   
+   (i-J)(F0V) =   0.720 +-0.026 ; exemplar HD 73161 (likely Praesepid)   
+   (z-J)(F0V) =   0.927 +-0.026 ; exemplar HD 73161 (likely Praesepid)   
 
 HD 9919 = pi Psc = HIP 7535 = HR 463 = 102 Psc = Gaia DR3 2585868490297270144
    A5V: Adams35
@@ -631,16 +727,58 @@ HD 199124 = HR 8006 = HIP 103261 = EM Aqr
    A9V: Cowley74(A9Vn),Abt95
    A9IV-V: Cowley76
 
-   Delta Scuti variable - amplitude 0.03mag, P=0.10247d.  V=6.55(HIP),
-   V=6.53(TYC), V=6.559+-0.003(Hauck97), V=6.547+-0.005(Mermilliod91),
-   B-V=0.283+-0.010(Mermilliod91), B-V=0.286+-0.010(HIP),
-   B-V=0.292+-0.008(TYC), U-B=0.065+-0.014(Mermilliod91),
-   V-I=0.33+-0.02(HIP).  Not in Soubiran22 PASTEL compendium. PASTEL:
-   Teffs = 7261+-50K(Zorec12), 7450+-253K(David15), 8403K(Rainer16) =>
-   Teff = 7261K.  logg=3.96+-0.14(David15), logg=3.72(Rainer16),
+   Delta Scuti variable - amplitude 0.03mag, P=0.10247d.  V=6.53(TYC),
+   V=6.537(DeanCousins77/N=1), V=6.54(Cousins64/N=4),
+   V=6.547+-0.005(Mermilliod91) V=6.55(Cousins73/N=4),
+   V=6.55(Cousins71), V=6.55(HIP), V=6.55(Breger68/N=3),
+   V=6.55(Johnson66/N=3), V=6.558423(GaiaDR3/synth),
+   V=6.559+-0.003(Hauck97), => adopt V=6.55+-0.01.
+   B-V=0.2446(GaiaDR3/synth), B-V=0.27(Cousins73/N=4),
+   B-V=0.276(DeanCousins77/N=1), B-V=0.283+-0.010(Mermilliod91),
+   B-V=0.285(Cousins71), B-V=0.286+-0.010(HIP),
+   B-V=0.287(Breger68/N=3), B-V=0.29(Johnson66/N=3),
+   B-V=0.292+-0.008(TYC), B-V=0.30(Cousins64/N=4) => adopt
+   B-V=0.286+-0.010.  U-B=0.02(Cousins64/N=4),
+   U-B=0.05(Johnson66/N=3), U-B=0.06:(Cousins71),
+   U-B=0.065+-0.014(Mermilliod91), U-B=0.07(Cousins73/N=4),
+   U-B=0.070(DeanCousins77/N=1), U-B=0.075(Breger68/N=3) => adopt
+   U-B=0.065+-0.014.  Rc=6.381834(GaiaDR3/synth),
+   Ic=6.192515(GaiaDR3/synth), V-I=0.33+-0.02(HIP).  Not in Soubiran22
+   PASTEL compendium. PASTEL: Teffs = 7261+-50K(Zorec12),
+   7450+-253K(David15), 8403K(Rainer16) => Teff = 7261K.
+   logg=3.96+-0.14(David15), logg=3.72(Rainer16),
    [Fe/H]=0.32(Rainer16). E(B-V)=0.005(Kervella19,STILISM) =>
    Av=0.017.  (B-V)o = 0.292 - 0.005 = 0.287. plx = 11.5440
-   0.0456mas(GaiaDR2).  Mv = 1.85.
+   0.0456mas(GaiaDR2).  Mv = 1.85. There is Sloan photometry but shows
+   wide scatter and none flagged clean.
+
+        G =  6.4868+-0.0028 ; exemplar HD 199124 = HR 8006   
+   (V-Rc)(F0V) =   0.168 +-0.014 ; exemplar HD 199124 = HR 8006   
+   (R-Ic)(F0V) =   0.189 +-0.014 ; exemplar HD 199124 = HR 8006   
+   (V-Ic)(F0V) =   0.357 +-0.014 ; exemplar HD 199124 = HR 8006   
+  (Bp-Rp)(F0V) =  0.3931 ; exemplar HD 199124 = HR 8006   
+   (Bp-G)(F0V) =  0.1351 ; exemplar HD 199124 = HR 8006   
+   (G-Rp)(F0V) =  0.2580 ; exemplar HD 199124 = HR 8006   
+    (G-V)(F0V) =  -0.063 +-0.010 ; exemplar HD 199124 = HR 8006   
+    (G-J)(F0V) =   0.502 +-0.020 ; exemplar HD 199124 = HR 8006   
+       Mv(F0V) =   1.863 +-0.012 ; exemplar HD 199124 = HR 8006   
+      M_G(F0V) =   1.800 +-0.007 ; exemplar HD 199124 = HR 8006   
+      M_J(F0V) =   1.298 +-0.021 ; exemplar HD 199124 = HR 8006   
+     M_Ks(F0V) =   1.137 +-0.017 ; exemplar HD 199124 = HR 8006   
+   (V-Ks)(F0V) =   0.726 +-0.019 ; exemplar HD 199124 = HR 8006   
+   (G-Ks)(F0V) =   0.663 +-0.016 ; exemplar HD 199124 = HR 8006   
+    (V-J)(F0V) =   0.565 +-0.022 ; exemplar HD 199124 = HR 8006   
+    (V-H)(F0V) =   0.647 +-0.031 ; exemplar HD 199124 = HR 8006   
+    (J-H)(F0V) =   0.082 +-0.035 ; exemplar HD 199124 = HR 8006   
+   (H-Ks)(F0V) =   0.079 +-0.033 ; exemplar HD 199124 = HR 8006   
+   (J-Ks)(F0V) =   0.161 +-0.026 ; exemplar HD 199124 = HR 8006   
+  (Ks-W1)(F0V) =   0.022 +-0.057 ; exemplar HD 199124 = HR 8006   
+  (Ks-W2)(F0V) =   0.147 +-0.031 ; exemplar HD 199124 = HR 8006   
+  (W1-W2)(F0V) =   0.125 +-0.061 ; exemplar HD 199124 = HR 8006   
+  (W1-W3)(F0V) =  -0.034 +-0.057 ; exemplar HD 199124 = HR 8006   
+  (W1-W4)(F0V) =   0.075 +-0.066 ; exemplar HD 199124 = HR 8006   
+    (B-V)(F0V) =   0.286 +-0.010 ; exemplar HD 199124 = HR 8006   
+    (U-B)(F0V) =   0.065 +-0.014 ; exemplar HD 199124 = HR 8006   
 
 # Deprecated Standards
 

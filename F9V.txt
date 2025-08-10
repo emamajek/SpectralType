@@ -147,9 +147,12 @@ Trend: B-V(F9V) = 0.552 + 0.0164*[Fe/H] (rms=0.0172mag)]
 [EEM 1/10/2024: fit to standards+exemplars: (R-Ic)(F9V) = 0.309 - 0.0289*[Fe/H] (rms=0.016),
  fit to standards+exemplars minus HD 84117: (R-Ic)(F9V) = 0.317 - 0.0835*[Fe/H] (rms=0.005)!]
 
+(V-Ij)(F9V) = 0.785 ; Johnson66 interp F8V-F9V 
 (V-Ij)(F9V) = 0.789 ; ter. stan. HD 84117 = GJ 364 = HIP 47592 = HR 3862 ([Fe/H]=-0.06)
+=> adopt (V-Ij)(F9V) = 0.785 [updated 6/15/2025] 
 
 (V-Ic)(F9V) = 0.58  ; ter. stan. HD 84117 = GJ 364 = HIP 47592 = HR 3862 ([Fe/H]=-0.06)
+(V-Ic)(F9V) = 0.611 ; (V-Ij)=0.785 => (V-Ic) via Hipparcos Vol 1 Field H42 
 (V-Ic)(F9V) =  0.617 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.55
 (V-Ic)(F9V) =  0.618 ; B-V vs V-Ic trend for B-V=0.55
 (V-Ic)(F9V) = 0.622 ; exemplar HD 17051 = iot Hor = HIP 12653 ([Fe/H]=+0.15)
@@ -161,9 +164,9 @@ Trend: B-V(F9V) = 0.552 + 0.0164*[Fe/H] (rms=0.0172mag)]
 (V-Ic)(F9V) = 0.640 ; exemplar HD 108954 = HIP 61053 = HR 4767 ([Fe/H]=-0.09)
 (V-Ic)(F9V) =  0.647 ; HD 148816 (F9V,Cousins80)
 (V-Ic)(F9V) =  0.651 ; HIP 17147 (Koen10)
-=> adopt (V-Ic)(F9V) = 0.630 [updated 2/24/2024; V-Rc=0.32, R-Ic=0.31]
+=> adopt (V-Ic)(F9V) = 0.630 [updated 2/24/2024] (V-Rc=0.32, R-Ic=0.31)
 [EEM 1/10/2024: fit standards+exemplars+field: (V-Ic)(F9V) = 0.621 + 0.0392*[Fe/H] (rms=0.021),
-                fit standards+exemplars+field minus HD84117: (V-Ic)(F9V) = 0.630 - 0.0222*[Fe/H] (rms=0.008)]
+  fit standards+exemplars+field minus HD84117: (V-Ic)(F9V) = 0.630 - 0.0222*[Fe/H] (rms=0.008)]
 
 (V-J)(F9V) = 0.999 ; ter. stan. HD 84117 = GJ 364 = HIP 47592 = HR 3862 ([Fe/H]=-0.06)
 (V-J)(F9V) = 1.034 ; exemplar HD 17051 = iot Hor = HIP 12653 ([Fe/H]=+0.15) 
@@ -449,34 +452,42 @@ M_Ks(F9V) = 2.77 ; ter. stan. HD 84117 = GJ 364 = HIP 47592 = HR 3862 ([Fe/H]=-0
 M_Ks(F9V) = 2.99 ; exemplar HD 28635 = Cl Melotte 25 88 = HIP 21112 (Hyad; [Fe/H]~+0.15)
 M_Ks(F9V) = 3.08 ; exemplar HD 108954 = HIP 61053 = HR 4767 ([Fe/H]=-0.09) 
 
+logL(F9V) =  0.259 ; EP Dra A ecl. bin. (Southworth25) (Mbol=4.09)
 logL(F9V) = 0.216 dex ; Mv=4.25, BCv=-0.05 => Mbol = 4.200
+logL(F9V) =  0.170 ; EP Dra B ecl. bin. (Southworth25) (Mbol=4.32) 
 => adopt logL(F9V) = 0.216 dex [updated 10/30/2020]
 => adopt Mbol(F9V) = 4.200 mag [updated 10/30/2020]
 
+Rad(F9V) =  1.2474 Rsun ; EP Dra A ecl. bin. (Southworth25) 
 Rad(F9V) =  1.226 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=6060K)
 Rad(F9V) =  1.226 Rsun ; Gray03/06 F9Vs median from TIC9/Stassun19 (N=25)
 Rad(F9V) =  1.177 Rsun ; Challouf14 calibration for Mv=4.25, M_Ks=2.915
 Rad(F9V) = 1.167 Rsun ; Teff=6050K, logL=0.216
+Rad(F9V) =  1.1498 Rsun ; EP Dra B ecl. bin. (Southworth25) 
 => adopt Rad(F9V) = 1.167 Rsun [updated 10/30/2020]
 
 Mass(F9V) =  1.222 Msun ; EEM Teff vs. Mass fit for binaries (Teff=6060K)
 Mass(F9V) =  1.180 Msun ; HenryMcCarthy93 calibration for Mv=4.2
+Mass(F9V) =  1.1354 Msun ; EP Dra B ecl. bin. (Southworth25) 
 Mass(F9V) =  1.122 Msun ; EEM logL vs. Mass fit for binaries (logL=0.216)
 Mass(F9V) = 1.122  Msun ; (M/Msun)=(L/Lsun)^0.232253 A0V-G2V fit 9/27/2024) for logL=0.216
 Mass(F9V) =  1.116 Msun ; Ekers18 ML calibration for logL=0.216
 Mass(F9V) =  1.116 Msun ; EEM Mv vs. Mass fit for binaries (Mv=4.2)
 Mass(F9V) =  1.11  Msun ; pri. stan. HD 10647 = q01 Eri = GJ 3109 ([Fe/H]=-0.04) (see below)
 Mass(F9V) =  1.110 Msun ; Fernandes21 ML calibration for logL=0.216
+Mass(F9V) =  1.0984 Msun ; EP Dra B ecl. bin. (Southworth25) 
 Mass(F9V) =  1.080 Msun ; Bertelli09 solar tracks Teff=6060K,logL=0.216
 => adopt Mass(F9V) = 1.122 Msun [updated 9/24/2024]
 
 logg(F9V) =  4.10  ; variant standard (F9IV-V) HD 22484 = 10 Tau = HIP 16852 ([Fe/H]=-0.08)
+logg(F9V) = 4.3012 ; EP Dra A ecl. bin. (Southworth25) 
 logg(F9V) = 4.33  ; exemplar HD 28635 = Cl Melotte 25 88 = vB 88 = HIP 21112 ([Fe/H]=+0.11; Hyad)
 logg(F9V) = 4.33  ; exemplar HD 108954 = HIP 61053 = HR 4767 ([Fe/H]=-0.09)
 logg(F9V) = 4.34  ; ter. stan. HD 84117 = GJ 364 = HIP 47592 = HR 3862 ([Fe/H]=-0.06)
 logg(F9V) = 4.34  ; exemplar HD 7570 = nu Phe = HR 370 ([Fe/H]=+0.16) 
 logg(F9V) = 4.343 (rms=0.112) ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=6050K (see G0V.txt)
 logg(F9V) = 4.351 ; M=1.12, Rad=1.167Rsun
+logg(F9V) = 4.3576 ; EP Dra B ecl. bin. (Southworth25) 
 logg(F9V) = 4.43  ; exemplar HD 17051 = iot Hor = HIP 12653 ([Fe/H]=+0.15)
 => adopt logg(F9V) = 4.34 [updated 9/15/2023]
 
@@ -896,6 +907,11 @@ HD 142373 = chi Her = GJ 602 = HIP 77760 = HR 5914 = 1 Her = LHS 3127 = SPOCS 67
   plx=62.9028+-0.0807mas(GaiaDR3).
 
 # Other Stars
+
+HD 175900 = HP Dra = HIP 92835 = TYC 3552-394-1 = GaiaDR3 2144465183642116864 
+  F9V+F9V: Southworth25
+
+  Pair of eclipsing F9V stars, see Southworth25 for parameters (https://arxiv.org/pdf/2508.04218).
 
 HD 133295 = HIP 73754
   F9V CH-0.4: Gray06
