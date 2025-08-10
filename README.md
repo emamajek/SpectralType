@@ -2,8 +2,8 @@
 Mean properties and standard stars for MK system spectral types. 
 Eric Mamajek (Jet Propulsion Laboratory & University of Rochester)
 
-Data is also stored locally on in a University of Rochester website:
-http://www.pas.rochester.edu/~emamajek/spt/
+Data was previously stored at a University of Rochester website (http://www.pas.rochester.edu/~emamajek/spt/), 
+however those files are no longer being updated:
 
 These files represent notes on estimating the mean stellar properties of stars
 of a given spectral type. Notes are most complete for O3-M9 luminosity class V (dwarf, main sequence) stars,
