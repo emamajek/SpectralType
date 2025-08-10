@@ -36,7 +36,8 @@ standards. Still a good standard, but notably missing from a few key compilation
 
 "Tertiary": OK spectral standards, but not the best available. Perhaps with multiple differences
 in classifications amongst expert classifiers, or perhaps the star has some other issue
-(e.g. multiplicity). 
+(e.g. multiplicity, however known unresolved multiples are often deprecated when plenty of other standards
+are available). 
 
 "Variant": standard star which may have a flag due to some spectral characteristic (usually
 related to metallicity). 
@@ -44,7 +45,8 @@ related to metallicity).
 "Deprecated" standards are "standard" stars in name only. THESE SHOULD PROBABLY BE AVOID AS STANDARD 
 STAR as there are likely not only differences in the classifications amongst expert classifiers, but
 the expert classifiers *themselves* may have readjusted the classifications over the years (sometimes
-multiple times!). 
+multiple times!). Some known unresolved binaries are also put in the deprecated category, especially
+when there are plenty of other standard stars that do not seem to have any unresolved multiplicity. 
 
 "Exemplars" are stars that have not been previously considered spectral standards (that we are aware of),
 but which appear to have decent agreement in spectral classification among multiple investigators. 
@@ -54,7 +56,10 @@ The UR group took spectra of a few such "exemplars" with the SMARTS 1.5-m around
 subtypes that have few if any standards, and adopted them as standards in Pecaut et al. (2012) and 
 Pecaut & Mamajek (2013): Examples are: HD 158352 (A8V), HD 73450 (A9V), HIP 111288 (K8V k), and HIP 3261 
 (K9V). Other "candidate" standard stars are listed that we do not taken spectra of, but
-which have good agreement amongst published classifications. 
+which have good agreement amongst published classifications. Note that it is possible for a
+star that was considered to be a spectral standard in an older publication, but to be listed here 
+as an exemplar *for a different type - if there has been numerous classifications for the latter 
+spectral type in recent decades. 
 
 There are examples of stars whose disagreements in classifications over the years by expert
 classifiers (and themselves!) would seem to disqualify them from being listed as a 
