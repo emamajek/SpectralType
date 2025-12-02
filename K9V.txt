@@ -19,7 +19,7 @@ the better defined K7V and M0V subtypes). Note that *none* of the
 exemplars yet identified truly has a V-Ks color intermediate between the
 adopted colors for K8V (3.50) and M0V (3.65).
 
-(B-V)(K9V) = 1.362 ; exemplar GJ 496.1 = HD 113538 ([Fe/H]=-0.17) 
+(B-V)(K9V) = 1.362 ; exemplar GJ 9425 = GJ 496.1 = HD 113538 ([Fe/H]=-0.17)
 (B-V)(K9V) =  1.37  ; Fitzgerald70
 (B-V)(K9V) =  1.38  ; 1 ARICNS K8V star
 (B-V)(K9V) = 1.386 ; exemplar GJ 3138
@@ -32,7 +32,7 @@ adopted colors for K8V (3.50) and M0V (3.65).
 (B-V)(K9V) = 1.455 ; exemplar GJ 88 = LHS 1357 
 => adopt (B-V)(K9V) = 1.40 [updated 8/13/2020] 
 
-(V-Ks)(K9V) = 3.432 ; exemplar GJ 9425 = HD 113538 = GJ 496.1 ([Fe/H]=-0.17)  
+(V-Ks)(K9V) = 3.432 ; exemplar GJ 9425 = GJ 496.1 = HD 113538 ([Fe/H]=-0.17)  
 (V-Ks)(K8V) =  3.48  ; K8V adopted
 (V-Ks)(K9V) = 3.55  ; trend for K/M standards+exemplars
 (V-Ks)(K9V) = 3.591 ; exemplar HIP 14589 = LP 831-72
@@ -71,21 +71,20 @@ adopted colors for K8V (3.50) and M0V (3.65).
 
 (G-J)(K9V) =   2.002 ; Bentley18/interp (GaiaDR2)
 
-(G-J)(K9V) =   2.007 ; CNS5_3222_ K9Vk: plx=61.3202mas (GaiaDR3)
-(G-J)(K9V) =   2.131 ; CNS5_202_ K9V plx=50.9245mas (GaiaDR3)
-(G-J)(K9V) =   2.173 ; CNS5_560_ K9Vk plx=42.4640mas (GaiaDR3)
+(G-J)(K9V) =   2.008 ; GJ_496.1_ K9Vk: plx=61.3202mas (GaiaDR3)
+(G-J)(K9V) =   2.131 ; GJ_1016_ K9V plx=50.9245mas (GaiaDR3)
+(G-J)(K9V) =   2.173 ; GJ_88_ K9Vk plx=42.4640mas (GaiaDR3)
 
 (G-Ks)(K9V) = 2.850 ; Bentley18/interp (Gaia DR2)
 (G-Ks)(K9V) = 2.87  ; (V-Ks)=3.55, (G-V)=-0.68
-=> adopt (G-Ks)(K9V) = 2.92 [updated 12/23/2023] check
+=> adopt (G-Ks)(K9V) = *** (GaiaDR2)
 
-(G-Ks)(K9V) =   2.808 ; CNS5_3222_ K9Vk: plx=61.3202mas (GaiaDR3)
+(G-Ks)(K9V) =   2.809 ; GJ_496.1_ K9Vk: plx=61.3202mas (GaiaDR3)
 (G-Ks)(K9V) =  2.915 ; interp value for Kirkpatrick24 K9Vs d<20pc (K8V-M0V)
-(G-Ks)(K9V) =   2.955 ; CNS5_202_ K9V plx=50.9245mas (GaiaDR3)
+(G-Ks)(K9V) =   2.955 ; GJ_1016_ K9V plx=50.9245mas (GaiaDR3)
 (G-Ks)(K9V) =  2.96  ; median for Kirkpatrick24 K9Vs d<20pc (N=3)
-(G-Ks)(K9V) =   3.026 ; CNS5_560_ K9Vk plx=42.4640mas (GaiaDR3)
-=> adopt (G-Ks)(K9V) = 3.55 + -0.66 = 2.89 [updated 11/15/2022]
-
+(G-Ks)(K9V) =   3.026 ; GJ_88_ K9Vk plx=42.4640mas (GaiaDR3)
+=> adopt (G-Ks)(K9V) = *** (GaiaDR3) 
 
 (Ks-W2)(K9V) =  0.104 ; Bentley18/interp
 
@@ -98,7 +97,7 @@ adopted colors for K8V (3.50) and M0V (3.65).
 => adopt (Ks-W1)(K9V) = 0.117 [updated 12/29/2019]
 
 (G-V)(K9V) =  -0.562 ; exemplar HIP 14589 = LP 831-72 (GaiaDR2)
-(G-V)(K9V) =  -0.610 ; exemplar GJ 496.1 = HD 113538 ([Fe/H]=-0.17) (GaiaDR2)
+(G-V)(K9V) =  -0.610 ; exemplar GJ 9425 = GJ 496.1 = HD 113538 ([Fe/H]=-0.17) (GaiaDR2)
 (G-V)(K9V) = -0.690 ; deprecated stan. GJ 1016 = HIP 3261 (GaiaDR2)
 (G-V)(K9V) = -0.693 ; exemplar GJ 3138 = HIP 10037 (GaiaDR2)
 (G-V)(K9V) =  -0.722 ; exemplar GJ 88 = LHS 1357 (GaiaDR2)
@@ -112,33 +111,44 @@ adopted colors for K8V (3.50) and M0V (3.65).
 => adopt (G-V)(K9V) = -0.68 [updated 12/20/2023] (GaiaDR3)
 
 
-(Bp-Rp)(K7V) =  1.71   ; K7V adopted
-(Bp-Rp)(K9V) = 1.7367 ; exemplar GJ 9425 = HD 113538 
-(Bp-Rp)(K8V) =  1.78   ; K8V adopted
-(Bp-Rp)(K9V) = 1.8047 ; interp K8V(1.78),M0V(1.84)
-(Bp-Rp)(K9V) = 1.8280 ; exemplar HIP 14589 = LP 831-72 (GaiaDR3)
-(Bp-Rp)(M0V) =  1.84   ; M0V adopted
-(Bp-Rp)(K9V) = 1.8628  ; exemplar GJ 3138 = HIP 10037 (GaiaDR3)
+(Bp-Rp)(K7V) =  1.71   ; K7V adopted (GaiaDR2)
+(Bp-Rp)(K9V) = 1.7367 ; exemplar GJ 9425 = GJ 496.1 = HD 113538 ([Fe/H]=-0.17) (GaiaDR2)
+(Bp-Rp)(K8V) =  1.78   ; K8V adopted (GaiaDR2)
+(Bp-Rp)(K9V) = 1.8047 ; interp K8V(1.78),M0V(1.84) (GaiaDR2)
+(Bp-Rp)(M0V) =  1.84   ; M0V adopted (GaiaDR2)
 (Bp-Rp)(K9V) =  1.8685 ; exemplar GJ 3138 = HIP 10037 (GaiaDR2)
+=> adopt (Bp-Rp)(K9V) = 1.805 [updated 12/23/2020] (GaiaDR2)
+
+(Bp-Rp)(K9V) =  1.8280 ; exemplar HIP 14589 = LP 831-72 (GaiaDR3)
+(Bp-Rp)(K9V) =  1.8628  ; exemplar GJ 3138 = HIP 10037 (GaiaDR3)
 (Bp-Rp)(K9V) =  1.8685 ; deprecated stan. GJ 1016 = HIP 3261 (GaiaDR3)
-(Bp-Rp)(K9V) = 1.9312  ; exemplar GJ 88 = LHS 1357 (GaiaDR3)
-=> adopt (Bp-Rp)(K9V) = 1.805 [updated 12/23/2020] (GaiaDR2) 
+(Bp-Rp)(K9V) = 1.87 ; Bp-G=0.92, G-Rp=0.95 (11/22/2025) 
+(Bp-Rp)(K9V) =  1.9312  ; exemplar GJ 88 = LHS 1357 (GaiaDR3)
+=> adopt (Bp-Rp)(K9V) = 1.87 [updated 11/22/2025] (Bp-G=0.92, G-Rp=0.95) (GaiaDR3) 
 
 (G-T)(K9V) = 0.852 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=1.805
-=> (G-T)(K9V) = 0.852 [updated 10/8/2023] (GaiaDR2)
+=> adopt (G-T)(K9V) = 0.852 [updated 10/8/2023] (GaiaDR2)
 
-(G-Rp)(K7V) =  0.87   ; K7V adopted
-(G-Rp)(K8V) =  0.89   ; K8V adopted
-(G-Rp)(K9V) = 0.8982 ; exemplar GJ 496.1 = GJ 9425 = HD 113538 ([Fe/H]=-0.17) 
-(G-Rp)(K9V) = 0.9024 ; interp K8V(0.89),M0V(0.92)
-(G-Rp)(M0V) =  0.92   ; M0V adopted
+(Bp-G)(K9V) =  0.838 ; HD_113538_GJ_496.1_ plx=61.3202mas (GaiaDR3)
+(Bp-G)(K9V) =  0.923 ; CD-34_239_GJ_1016_ plx=50.9245mas (GaiaDR3)
+(Bp-G)(K9V) =  0.933 ; HD_11507_GJ_79_ plx=90.4171mas (GaiaDR3)
+=> adopt (Bp-G)(K9V) = 0.92 [updated 11/22/2025] (Bp-Rp=1.87, G-Rp=0.95) (GaiaDR3) 
+
+(G-Rp)(K7V) =  0.87   ; K7V adopted (GaiaDR2) 
+(G-Rp)(K8V) =  0.89   ; K8V adopted (GaiaDR2) 
+(G-Rp)(K9V) = 0.8982 ; exemplar GJ 9425 = GJ 496.1 = HD 113538 ([Fe/H]=-0.17) (GaiaDR2)  
+(G-Rp)(K9V) = 0.9024 ; interp K8V(0.89),M0V(0.92) (GaiaDR2) 
+(G-Rp)(M0V) =  0.92   ; M0V adopted (GaiaDR2) 
 (G-Rp)(K9V) =  0.9265 ; exemplar GJ 3138 = HIP 10037 (GaiaDR2)
-(G-Rp)(K9V) = 0.9332 ; exemplar HIP 14589 = LP 831-72
-(G-Rp)(K9V) = 0.9465 ; deprecated stan GJ 1016 = HIP 3261 (GaiaDR3)
-(G-Rp)(K9V) = 0.9476 ; exemplar GJ 3138 = HIP 10037 (GaiaDR3)
-(G-Rp)(K9V) = 0.9692 ; exemplar GJ 88 = LHS 1357 (GaiaDR3)
-=> adopt (G-Rp)(K9V) = 0.90 [updated 12/23/2020]
-=> adopt (Bp-G)(K9V) = 0.905 [updated 12/23/2020; Bp-Rp=1.805, G-Rp=0.90]
+(G-Rp)(K9V) = 0.9332 ; exemplar HIP 14589 = LP 831-72 (GaiaDR2) 
+=> adopt (G-Rp)(K9V) = 0.90 [updated 12/23/2020] (GaiaDR2) 
+=> adopt (Bp-G)(K9V) = 0.905 [updated 12/23/2020; Bp-Rp=1.805, G-Rp=0.90] (GaiaDR2)
+
+(G-Rp)(K9V) =  0.9465 ; deprecated stan GJ 1016 = HIP 3261 (GaiaDR3)
+(G-Rp)(K9V) =  0.9476 ; exemplar GJ 3138 = HIP 10037 (GaiaDR3)
+(G-Rp)(K9V) = 0.95 ; Bp-Rp=1.87, Bp-G=0.92 (11/22/2025) 
+(G-Rp)(K9V) =  0.9692 ; exemplar GJ 88 = LHS 1357 (GaiaDR3)
+=> adopt (G-Rp)(K9V) = 0.95 [updated 11/22/2025] (Bp-Rp=1.87, Bp-G=0.92) (GaiaDR3) 
 
 (u-g)(K9V) = 2.45  ; Kesseli17 interp K7V-M0V 
 (u-g)(K9V) = 2.620 ; Covey07 interp K7V-M0V
@@ -187,7 +197,7 @@ Teff(K9V) =  3943 K ; Ramirez05 Teff calibration for B-V=1.42
 Teff(K9V) =  4246 K ; Biazzo07 Teff calibration for B-V=1.42
 => adopt Teff(K9V) = 3930 K (logT = 3.594) [updated 12/23/2020]
 
-M_G(K9V) = 7.38 ; exemplar GJ 9425 = HD 113538 (Gaia DR2)
+M_G(K9V) = 7.38 ; exemplar GJ 9425 = GJ 496.1 = HD 113538 ([Fe/H]=-0.17) (Gaia DR2)
 M_G(K9V) = 7.87 ; SIMBAD d<20pc trend for V-Ks=3.54 (Gaia DR2) 
 M_G(K9V) = 7.92 ; exemplar GJ 3138 = HIP 10037 (Gaia DR2)
 M_G(K9V) = 8.01 ; exemplar HIP 14589 = LP 831-72 (Gaia DR2)
@@ -196,7 +206,7 @@ M_G(K9V) = 8.37 ; deprecated stan. GJ 1016 = HIP 3261  (Gaia DR2)
 M_G(K9V) = 8.51 ; exemplar GJ 88 = LHS 1357 (K9Vk, Gray06) (Gaia DR2)
 => adopt M_G(K9V) = 8.03 [updated 8/13/2023] (GaiaDR2)
 
-M_G(K9V) = 7.38 ; exemplar GJ 9425 = HD 113538 plx=61.3202mas (K9Vk, Gray06) (GaiaDR3)
+M_G(K9V) = 7.38 ; exemplar GJ 9425 = GJ 496.1 = HD 113538 ([Fe/H]=-0.17) (GaiaDR3)
 M_G(K9V) = 7.90 ; G_162-33 = LP 729-68 plx=26.5132mas (K9Vk, Gray06) (GaiaDR3)
 M_G(K9V) = 7.92 ; exemplar GJ 3138 = HIP 10037 plx=35.1119mas (K9Vk:, Gray06) (GaiaDR3)
 M_G(K9V) = 8.02 ; exemplar HIP 14589 = LP 831-72 plx=34.9478mas (K9Vk:, Gray06) (GaiaDR3)
@@ -208,7 +218,7 @@ M_G(K9V) = 8.51 ; exemplar GJ 88 = LHS 1357 plx=42.4640mas (K9Vk, Gray06) (GaiaD
 M_G(K9V) = 8.61 ; HIP 43969 = LP_786-22 plx=36.1834mas K9Vk:  (GaiaDR3)
 => adopt M_G(K9V) = 8.05 [updated 1/17/2024] (GaiaDR3) (CHECK)
 
-Mv(K9V)  = 8.01 mag ; exemplar GJ 9425 = HD 113538
+Mv(K9V)  = 8.01 mag ; exemplar GJ 9425 = GJ 496.1 = HD 113538 ([Fe/H]=-0.17)
 Mv(K9V)  =  8.53 mag ; V-K=3.55 => SchlaufmanLaughlin10 calib
 Mv(K9V)  =  8.55 mag ; V-K=3.55 => EEM fit to Reid CNS3 data
 Mv(K9V)  =  8.56 mag ; V-K=3.55 => EEM fit to MS data
@@ -226,16 +236,17 @@ Mv(K9V)  = 9.23 mag ; exemplar GJ 88 = LHS 1357
 => adopt M_G(K9V)  = 7.90 mag [updated 11/15/2022] (Mv=8.56, G-V=-0.66) (CHECK)
 => adopt M_Ks(K9V) = 5.01 mag [updated 3/2/2021] (Mv=8.56, V-Ks=3.55)
 
-M_G(K9V) =   7.38 ; HD_113538_ plx= 61.3202 mas (Kirkpatrick24 d<20pc)
-M_G(K9V) =   7.97 ; HD_11507_ plx= 90.4171 mas (Kirkpatrick24 d<20pc)
-M_G(K9V) =   8.37 ; CD-34_239_ plx= 50.9245 mas (Kirkpatrick24 d<20pc)
+M_G(K9V) =    7.38 ; GJ 496.1 = HD 113538 K9Vk: plx=61.3202mas (GaiaDR3)
+M_G(K9V) =    7.97 ; HD 11507 plx= 90.4171 mas (Kirkpatrick24 d<20pc)
+M_G(K9V) =    8.37 ; GJ 1016 = CD-34 239 K9V plx=50.9245mas (GaiaDR3)
+M_G(K9V) =    8.51 ; GJ 88 K9Vk plx=42.4640mas (GaiaDR3)
 
-M_J(K9V) =   5.37 ; CNS5_3222_ K9Vk: plx=61.3202mas
+M_J(K9V) =    5.38 ; GJ_496.1_ K9Vk: plx=61.3202mas
 M_J(K9V) =   5.92 ; LP_811-17_ K9Vk: plx=41.98mas
-M_J(K9V) =   6.24 ; CNS5_202_ K9V plx=50.9245mas
-M_J(K9V) =   6.33 ; CNS5_560_ K9Vk plx=42.4640mas
+M_J(K9V) =    6.24 ; GJ_1016_ K9V plx=50.9245mas
+M_J(K9V) =    6.34 ; GJ_88_ K9Vk plx=42.4640mas
 
-M_Ks(K9V) = 4.58 ; exemplar GJ 9425 = HD 113538
+M_Ks(K9V) = 4.58 ; exemplar GJ 9425 = GJ 496.1 = HD 113538 ([Fe/H]=-0.17)
 M_Ks(K9V) =  4.93 ; G_162-33_ plx=26.5132mas (K9Vk, Gray06)  (GaiaDR3)
 M_Ks(K9V) = 4.97 ; exemplar GJ 3138 = HIP 10037
 M_Ks(K9V) =  4.98 ; SIMBAD d<20pc K dwarf trend for V-ks=3.60
@@ -252,7 +263,7 @@ M_Ks(K9V) =  5.12 ; LP_834-52_ plx=26.9668mas (K9Vk:,Gray06) (GaiaDR3)
 M_Ks(K9V) =   5.19 ; V-Ks=3.55 => Henry04
 M_Ks(K9V) = 5.42 ; deprecated standard GJ 1016 = HIP 3261
 M_Ks(K9V) = 5.48 ; exemplar GJ 88 = LHS 1357
-M_Ks(K9V) =  5.65  ; LP_786-22_ plx=36.1834mas K9Vk:  (GaiaDR3)
+M_Ks(K9V) =  5.65  ; LP_786-22_ plx=36.1834mas K9Vk: (GaiaDR3)
 
 BCv(K9V) =  -1.288 mag ; Flower96(Teff=3900K, set so BCv(5772K)=-0.085)
 BCv(K9V) =  -1.176 mag ; Casagrande18(Teff=3900K,logg=4.5, set so BCv(5772K)=-0.085)
@@ -335,7 +346,7 @@ GJ 1016 = HIP 3261 = CD-34_239 = LTT_377 = G269-17 = TYC 6998-1640-1 = 2MASS J00
   
 # Exemplars
 
-GJ 9425 = HD 113538 = GJ 496.1 = LHS 344 = HIP 63833 = Gaia DR3 6080301367488384896
+GJ 9425 = GJ 496.1 = HD 113538 = LHS 344 = HIP 63833 = Gaia DR3 6080301367488384896
   K5/M0V: Houk78
   dK7.1: Houdebine16
   dK7.2: Houdebine19
