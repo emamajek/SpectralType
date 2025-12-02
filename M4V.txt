@@ -51,7 +51,8 @@ HenryJao24 standard:            LP 876-010 - M4.0V ("RECONS system")
 (B-V)(M4V) = 1.586 ; exemplar GJ 398 (Landolt standard)
 (B-V)(M4V) =   1.60  ; KenyonHartmann95
 (B-V)(M4V) = 1.600 ; ter. stan. GJ 285 = YZ CMi = LHS 1943
-(B-V)(M4V) =   1.60  ; Bessell91 "old disk"
+(B-V)(M4V) =   1.60 ; Bessell91 "old disk"
+(B-V)(M4V) =   1.60 ; Bessell90 "old disk" 
 (B-V)(M4V) = 1.603 ; Reid CNS3 sample M4 median value (N=9)
 (B-V)(M4V) = 1.621 ; pri. stan. GJ 213 (Landolt standard)
 (B-V)(M4V) = 1.63  ; exemplar GJ 609 
@@ -87,14 +88,15 @@ HenryJao24 standard:            LP 876-010 - M4.0V ("RECONS system")
 (V-Rj)(M4V) =  1.70  ; Johnson65,Johnson66
 (V-Rj)(M4V) =  1.83  ; deprecated stan. GJ 699 = Barnard's Star ([Fe/H]=-0.35) 
 
-(V-Rc)(M4V) =  1.12  ; The84 
+(V-Rc)(M4V) =   1.12  ; The84 
 (V-Rc)(M4V) =  1.185 ; exemplar GJ 398 (Landolt standard)
 (V-Rc)(M4V) =  1.202 ; Koen10 median M4Vs (N=12) 
 (V-Rc)(M4V) =  1.211 ; pri. stan. GJ 213 = Ross 47 (Landolt standard)
 (V-Rc)(M4V) =  1.216 ; pri. stan. GJ 402 = Wolf 358 (Landolt standard)
 (V-Rc)(M4V) =  1.225 ; Winters21 trend V-Ic vs V-Rc for V-Ic=2.80 (2/1/2025)
 (V-Rc)(M4V) =  1.226 ; deprecated stan. GJ 699 = Barnard's Star
-(V-Rc)(M4V) =  1.23  ; Bessell91 "old disk"
+(V-Rc)(M4V) =   1.23  ; Bessell91 "old disk"
+(V-Rc)(M4V) =   1.23  ; Bessell90 "old disk" 
 (V-Rc)(M4V) =  1.232 ; Reid CNS3 sample M4 median value (N=9)
 (V-Rc)(M4V) =  1.27  ; ter. stan. GJ 285 = YZ CMi = LHS 1943
 (V-Rc)(M4V) =  1.294 ; sec. stan. GJ 447 = Ross 128 (Landolt standard)
@@ -103,6 +105,7 @@ HenryJao24 standard:            LP 876-010 - M4.0V ("RECONS system")
 (R-Ic)(M4V) =  1.68  ; ter. stan. GJ 285 = YZ CMi = LHS 1943
 (R-Ic)(M4V) =  1.673 ; sec. stan. GJ 447 = Ross 128 (Landolt standard)
 (R-Ic)(M4V) =  1.63  ; Bessell91 "old disk"
+(R-Ic)(M4V) =  1.63  ; Bessell90 "old disk" 
 (R-Ic)(M4V) =  1.606 ; (R-Ic) trend from V-Ks=5.25
 (R-Ic)(M4V) = 1.590 ; pri. stan. GJ 213 = Ross 47 (Landolt standard)
 (R-Ic)(M4V) =  1.587 ; Reid CNS3 sample M4 median value (N=9) 
@@ -124,6 +127,7 @@ HenryJao24 standard:            LP 876-010 - M4.0V ("RECONS system")
 (V-Ic)(M4V) =   2.80  ; Leggett92 "young disk"
 (V-Ic)(M4V) =   2.85  ; Hawley96
 (V-Ic)(M4V) =   2.86  ; Bessell88
+(V-Ic)(M4V) =   2.86  ; Bessell90 "old disk" 
 (V-Ic)(M4V) =   2.86  ; Bessell91 "old disk"
 (V-Ic)(M4V) =  2.95  ; ter. stan. GJ 285 = YZ CMi = LHS 1943
 (V-Ic)(M4V) =  2.969 ; sec. stan. GJ 447 = Ross 128 (Landolt standard)
@@ -141,7 +145,10 @@ HenryJao24 standard:            LP 876-010 - M4.0V ("RECONS system")
 (V-J)(M4V) = 4.40 ; V-Ks=5.25, J-Ks=0.85 
 (V-J)(M4V) =  4.438 +-0.049 (sem) (stdev =0.121; 7 standards)
 (V-J)(M4V) =   4.45 (+-0.41 stdev) ; Lepine12
-=> adopt (V-J)(M4V) = 4.40 [updated 7/15/2025]
+=> adopt (V-J)(M4V) = 4.40 [updated 7/15/2025] (V-Ks=5.25, J-Ks=0.85)
+
+(V-H)(M4V) = 4.96  ; V-Ks=5.25, H-Ks=0.29 (10/10/2025)
+=> adopt (V-H)(M4V) = 4.96 [updated 10/10/2025] (V-Ks=5.25, H-Ks=0.29) 
 
 (V-Kj)(M4V) = 4.87 ; Johnson65,Johnson66
 (V-Kj)(M4V) = 5.01 ; deprecated stan. GJ 699 = Barnard's Star ([Fe/H]=-0.35) 
@@ -820,6 +827,8 @@ M_G(M4V) =   12.585 ; CNS5_334_ M4.0Ve plx=269.0573mas (GaiaDR3)
 Note: M4V M_G values range from 8.2 to 12.38 among d<10pc SIMBAD stars,
 rms scatter is 1.2 mag!]
 
+M_Ic(M4V) = 10.0 ; Bessell90 "old disk" 
+
 M_J(M4V) =    7.17 ; GJ_408_ M4V plx=148.1986mas
 M_J(M4V) =   7.59 ; GJ_873_ M4.0Ve plx=197.9573mas
 M_J(M4V) =  7.69 ; ter. stan. GJ_285_ M4.0Ve plx=166.9769mas
@@ -1469,8 +1478,8 @@ LP 876-10 = alf PsA C = Fomalhaut C = NLTT 54872 = WDS J22577-2937C
 
   Distant M dwarf companion to Fomalhaut (see Mamajek13). WDS lists
   components Ca,Cb however, no subsequent observations are consistent
-  with binarity (Mamajek13). Now a rare example of M dwarf with not only a debris disk, but
-  a resolved one. 
+  with binarity (Mamajek13). Now a rare example of M dwarf with not
+  only a debris disk, but a resolved one.
 
 GJ 398 = LHS 2285 = RY Sex = G 44-27 = PM J10360+0507 = LP 550-177 = G 55-33
  *M4Ve: Joy74(M4Ve), M4(Bidelman85), M4e(Lepine13), Newton14(near-IR), Gaidos14(M4e)
@@ -1554,6 +1563,38 @@ GJ 324B = 55 Cnc B = rho01 Cnc B = HD 75732B = LHS 2063 = LTT 12311 = NLTT 20418
   mbol = 10.4621+-0.0132 mag(IAU2015 scale).  median PASTEL [Fe/H] for
   55 Cnc A is [Fe/H] = +0.33. BCv = mbol - V = 10.4621 - 13.148 =
   -2.6859.  BC_Ks = 10.4621 - 7.666 = 2.7961.
+
+GJ 3287 = NLTT 13249 = G 175-32 = 2MASS J04274130+5935167 = LSPM J0427+5935 = 1RXS J042743.3+593535 = Gaia DR3 471082286587088640 = BWL 16 = WDS J04277+5935
+  M3.8: Shkolnik09
+  M3.8+-0.7: Sebastian21(photometric)
+  M3.999: Terrien15("Newton14 PMSU spectral type")
+  M4V: Reid95
+  M4.21: Terrien15("Newton14 spectral subtype")
+  dM4.5: Hejazi22(metal class MC=2).
+  M4.6: Fouque18(from TiO5 index)
+
+  Nearby, lightly studied mid-M dwarf, that happens to be very active,
+  and sharing a UVW velocity vector within a couple km/s of Altair.
+  While Reid95 appears to have first characterized it and assigned
+  spectral type, it looks like Shkolnik09 studied it as an active
+  star.  WDS lists it as binary BWL 16 with a single observation in
+  2013 of a companion at PA=184, 4.2" separation, mag1=9.15,
+  mag2=18.40. Bowler15 lists the companion as being del(Ks)=9.29
+  compared to the primary, at sep=4.239+-0.003", PA=184.13+-0.20deg.
+  Prot=6.91d(Colman24), Prot=6.73385+-0.16434d(Lin24). Klutsch14 puts
+  it in IC2391 supercluster, Shkonlik12 puts it in Argus.  Photometry
+  in Weis84, Weis88.  V=14.45(Hauck90), V=14.462775(GaiaDR3/synth),
+  Rc=13.188804(GaiaDR3/synth), Ic=11.551077(GaiaDR3/synth),
+  J=9.975+-0.021(2MASS), H=9.431+-0.021(2MASS),
+  Ks=9.147+-0.020(2MASS).  GaiaDR3: plx=43.8379+-0.0173mas(GaiaDR3),
+  G=13.016730(GaiaDR3) => M_G=11.226+-0.003, M_J=8.184+-0.021,
+  M_Ks=7.356+-0.020.  Star does not seem to be "too" young as its
+  color-mag position is right on the MS for a ~M4 dwarf.
+  Rad=0.268+-0.014Rsun(Muirhead18),
+  Rad=0.271+-0.008Rsun(HardegreeUllman23),
+  Mass=0.243+-0.008Msun(HardegreeUllman23),
+  Mass=0.247+-0.016Msun(Muirhead18),
+  Lum=6.61e-03+-2.21e-04Lsun(HardegreeUllman23) => logL=-2.180+-0.015.
 
 # Other Stars
 

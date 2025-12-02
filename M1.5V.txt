@@ -441,26 +441,36 @@ than most other M1.5Vs.
 (g-G)(M1.5V) =  1.934 ; SDSS_J100657.76+124052.0_ M1.5V plx=40.1527mas
 => adopt (g-G)(M1.5V) = 1.66 [updated 6/20/2024] (GaiaDR3) 
 
-(u-g)(M1.5V) = 2.655 ; Covey07 interp M1V-M2V
-=> adopt (u-g)(M1.5V) = 2.66 [updated 4/20/2024]
+(u'-g')(M1.5V) = 2.624 +-0.010 ; exemplar GJ 87 = LHS 14 (Smith02 standard)
+(u-g)(M1.5V)   = 2.655 ; Covey07 interp M1V-M2V
+=> adopt (u-g)(M1.5V) = 2.65 [updated 10/5/2025]
 
-(g-r)(M1.5V) = 1.335 ; smoothed trend SpT vs g-r for SIMBAD d<50pc M dwarfs (4/2024; see M0V.txt)
-(g-r)(M1.5V) = 1.388 ; Just08/Chonis08 B-V=>g-r for B-V=1.495
+(g'-r')(M1.5V) = 1.275 ; Smith02 transform B-V=1.495 => g'-r' 
+(g'-r')(M1.5V) = 1.282 ; exemplar GJ 87 = LHS 14 (Smith02 standard)
+(g-r)(M1.5V)   = 1.387 ; Just08/Chonis08 B-V=>g-r for B-V=1.495
 => adopt (g-r)(M1.5V) = 1.335 [updated 4/18/2024]
 [EEM 4/18/2024: using smooth trend for SIMBAD g-r data for d<50pc M dwarfs]
 
-(r-i)(M1.5V) =  0.856 (+-0.05 rms) ; West05 fit for (V-Ic)=2.075
-(r-i)(M1.5V) =  0.876 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.11
-(r-i)(M1.5V) =  0.931 ; Bilir05 transform R-Ic=>(r-i) for (R-Ic)=1.11 
-(r-i)(M1.5V) =  0.945 ; smoothed trend SpT vs r-i for SIMBAD d<50pc M0V-M8.5V (4/2024; see M0V.txt)
-(r-i)(M1.5V) =  0.96  (+-0.14 rms) ; Cifuentes20
-=> adopt (r-i)(M1.5V) = 0.93 [updated 3/1/2025]
+(r-i)(M1.5V)   =  0.856 (+-0.05 rms) ; West05 fit for (V-Ic)=2.075
+(r-i)(M1.5V)   =  0.876 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=1.11
+(r'-i')(M1.5V) = 0.900 ; Smith02 transform R-Ic=1.11 => r'-i'
+(r-i)(M1.5V)   =  0.931 ; Bilir05 transform R-Ic=>(r-i) for (R-Ic)=1.11
+(r'-i')(M1.5V) = 0.934 +-0.004 ; exemplar GJ 87 = LHS 14 (Smith02 standard)
+(r-i)(M1.5V)   =  0.945 ; smoothed trend SpT vs r-i for SIMBAD d<50pc M0V-M8.5V (4/2024; see M0V.txt)
+(r-i)(M1.5V)   =  0.96  (+-0.14 rms) ; Cifuentes20
+=> adopt (r-i)(M1.5V) = 0.93 [updated 11/29/2025] 
+
+(r'-z')(M1.5V) = 1.452 ; Smith02 transform R-Ic=1.11 => r'-z'
 
 (i-Ic)(M1.5V) = 0.604 ; Jordi06 Pop I (R-Ic)=>(i-Ic) for R-Ic=1.11
 
 (g-V)(M1.5V) = 0.821 ; Jordi06 B-V=>g-V for B-V=1.495
 (g-V)(M1.5V) = 0.825 ; Just08/Chonis08 B-V=>g-V for B-V=1.495
 => adopt (g-V)(M1.5V) = 0.823 [updated 9/1/2023]
+
+(i'-z')(M1.5V) =   0.443 +-0.004 ; exemplar GJ 87 = LHS 14 (Smith02 standard)
+(i'-z')(M1.5V) =  0.552 ; Smith02 transform R-Ic=1.11 => i'-z'
+=> adopt (i-z)(M1.5V) = 0.55 [updated 11/29/2025] 
 
 (z-J)(M1.5V) = 1.361 (+-0.028 rms) ; poly fit to d<100pc GCNS for G-Ks=3.23
 
@@ -1201,7 +1211,7 @@ GJ 3014 = G 242-48 = HIP 1092 = NLTT 632 = MCC 354 = TIC 407574350 = WDS J00137+
   J=7.756+-0.034(2MASS), H=7.131+-0.047(2MASS), Ks=6.904+-0.020(2MASS).
 
 
-GJ 87 = LHS 14 = HIP 10279 = Wolf 124 = BD+02 348 = PIN 3A = CNS5 554 = G 73-35 = G 159-45 = 2MASS J02122090+0334310 =  	Gaia DR3 2515037264041041536 = WDS J02123+0335A = StKM 2-195 
+GJ 87 = LHS 14 = HIP 10279 = Wolf 124 = BD+02 348 = PIN 3A = CNS5 554 = G 73-35 = G 159-45 = 2MASS J02122090+0334310 = Gaia DR3 2515037264041041536 = WDS J02123+0335A = StKM 2-195 
   M0V: Lee47(M0),Vyssotsky46
   M1V: Stephenson86,Gaidos14(M1)
  *M1.5V: Boeshaar76(non-stan),Reid95,Lepine13,Rajpurohit13,Schweitzer19(dM1.5)
@@ -1211,23 +1221,27 @@ GJ 87 = LHS 14 = HIP 10279 = Wolf 124 = BD+02 348 = PIN 3A = CNS5 554 = G 73-35 
   M3:V: Robertson84
 
   Wide scatter in published types, but at least continuity between
-  Boeshaar, Reid, Lepine, Schweitzer/CARMENES.
-  V=10.02(Cousins62/N=4), V=10.02(Pfleiderer66/N=2),
-  V=10.03(Johnson54/N=3), V=10.035+-0.021(Mermilliod91/N=21),
-  V=10.04(Bessell90), V=10.04(HIP), V=10.06(Weistrop77/N=3),
-  V=10.072(Neckel80/N=5) => adopt V=10.035.  B-V=1.41(Weistrop77/N=3),
-  B-V=1.42(Cousins62/N=4), B-V=1.42(Pfleiderer66/N=2),
-  B-V=1.431+-0.016(HIP), B-V=1.432+-0.011(Mermilliod91/N=21),
-  B-V=1.437(Neckel80/N=5), B-V=1.44(Johnson54/N=3),
-  B-V=1.465(Bessell90) => adopt B-V=1.432.
+  Boeshaar, Reid, Lepine, Schweitzer/CARMENES. A Smith02 u'g'r'i'z'
+  photometric standard star.  V=10.02(Cousins62/N=4),
+  V=10.02(Pfleiderer66/N=2), V=10.03(Johnson54/N=3),
+  V=10.035+-0.021(Mermilliod91/N=21), V=10.04(Bessell90),
+  V=10.04(HIP), V=10.06(Weistrop77/N=3), V=10.072(Neckel80/N=5) =>
+  adopt V=10.035.  B-V=1.41(Weistrop77/N=3), B-V=1.42(Cousins62/N=4),
+  B-V=1.42(Pfleiderer66/N=2), B-V=1.431+-0.016(HIP),
+  B-V=1.432+-0.011(Mermilliod91/N=21), B-V=1.437(Neckel80/N=5),
+  B-V=1.44(Johnson54/N=3), B-V=1.465(Bessell90) => adopt B-V=1.432.
   U-B=1.04(Pfleiderer66/N=2), U-B=1.08(Johnson54/N=3),
   U-B=1.090+-0.020(Mermilliod91/N=21), U-B=1.127(Neckel80/N=5) =>
   adopt U-B=1.090.  V-Rc=0.943(Bessell90), R-Ic=1.108(Bessell90),
   V-Ic=2.053(Bessell90), V-Ic=2.05+-0.00(HIP).  J=6.830+-0.019(2MASS),
   H=6.321+-0.034(2MASS), Ks=6.077+-0.020(2MASS) => V-Ks = 10.035 -
   6.077 = 3.958.
-
-
+  r'=9.481+-0.003,	
+  u'-g'=2.624+-0.010,	
+  g'-r'=1.282+-0.004,	
+  r'-i'=0.934+-0.004,	
+  i'-z'=0.443+-0.004.
+  
 # Other Stars
 
 RECONS list shows GJ 887 (J2305-3551) as the nearest M1.5V star,

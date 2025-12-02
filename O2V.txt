@@ -1,6 +1,8 @@
 O2V
 
-The primary O2V standard is BI 253.
+The primary O2V standard is BI 253. Note that Drilling13 has defined BD+28 4211 as the standard
+for spectral class "sdO2" (i.e. a high gravity hot subdwarf), for which he tries to keep the system consistent with Walborn02's definition of
+O2 ("shows weak lines of NV, OIV and CIV, but no trace of HeI"). 
 
 Walborn02 defined the O2V class with BI 253.
 
@@ -24,6 +26,41 @@ BI 253
 P871
   O2V((f*)): Walborn02
 
+BD+28 4211 = WD 2148+286 = HIP 107864 = JP11 97 = NC 55 = Renson 57770 = TD1 30949 = 2MASS J21511102+2851504 = Gaia DR3 1897151272994229120
+  sdO2VIII:He5: Drilling13(stan)
+
+  I've added this remarkable star here as it has O2 subtype, and
+  Drilling13 anchors his O-type subdwarf classification with this star
+  at the hot end, and it appears to be among the hottest stars that are
+  used as photometric standards (e.g. Johnson UBV).
+  Among the Landolt07 standards it is the 2nd bluest, just a tad redder
+  than the central star of the Helix Nebula (NGC 7293) which is 120000K.
+  Drilling13 estimates Teff=82000K(!) and logg=6.2,
+  the hottest star in his study.
+  V=10.509+-0.0027(Landolt07/stan),
+  V=10.51(Ljunggren64/N=4),
+  V=10.525+-0.007(Mermilliod91,N>17),
+  V=10.53(Johnson53/N=4),
+  B-V=-0.339+-0.007(Mermilliod91,N>17),
+  B-V=-0.341+-0.0018(Landolt07/stan),
+  B-V=-0.35(Johnson53),
+  B-V=-0.35(Ljunggren64/N=4),
+  U-B=-1.246+-0.0039(Landolt07/stan),
+  U-B=-1.255+-0.012(Mermilliod91,N>13),
+  U-B=-1.26(Johnson53),
+  V-Rc=-0.147+-0.0011(Landolt07/stan),
+  R-Ic=-0.176+-0.0012(Landolt07/stan),
+  V-Ic=-0.322+-0.0018(Landolt07/stan),
+  E(B-V)=0.0078+-0.0025(TIC),
+  E(B-V)=0.025(Kervella19/STILISM),
+  E(B-V)=0.056+-0.000(Paunzen24),
+  E(B-V)=0.0804+-0.0006(Geier17),
+  E(B-V)=0.094(Otte06,Gudennavar12).
+  While most of the reddenings are non-negligible, I don't see how the reddening could
+  be the as big as E(B-V)~0.09 as this would imply (B-V)=-0.44, and I'm unaware
+  of any stellar models that can produce stars that blue (the bluest Bessell98 model Teff=50000K, logg=5.0
+  produces B-V=-0.322, U-B=-1.138). 
+  
 # Notes
 
 Hoglado20 made an interesting observation regarding the HRD positions for early O-type stars: "The most striking feature in both diagrams is the almost complete absence of stars in the mass range between ∼30 and 70 M⊙ to the left the 2 Myr isochrone (or below, in the Kiel diagram). There is a clear offset, which increases with mass, between the theoretical ZAMS and the location of the O-type stars in these diagrams. This trend disappears for stars with ∼85 M⊙, where stars much closer to the ZAMS are found."

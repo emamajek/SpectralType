@@ -354,28 +354,37 @@ Kirkpatrick12 lists only 1 M0.5V stars within 8 pc: Lacaille 9352 = GJ 887, howe
 => adopt (g-G)(M0.5V) = 1.52 [updated 6/29/2023]
 
 (u-g)(M0.5V) =   2.685 ; Covey07 interp M0V-M1V
+(u-g)(M0.5V) =   3.037 ; SDSS_J161559.42+385209.8 M0.5Ve plx=16.2759mas
 (u-g)(M0.5V) =    6.018 +-0.185 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16)
 => adopt (u-g)(M0.5V) = 2.69 [updated 4/20/2024]
 
-(g-r)(M0.5V) =  -0.553 +-0.001 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16)
-(g-r)(M0.5V) =  1.325 ; smoothed trend SpT vs g-r for SIMBAD d<50pc M dwarfs (4/2024; see M0V.txt)
-(g-r)(M0.5V) =  1.360 ; Just08/Chonis08 B-V=>g-r for B-V=1.47
-=> adopt (g-r)(M0.5V) = 1.325 [updated 4/18/2024]
-[EEM 4/18/2024: using smooth trend for SIMBAD g-r data for d<50pc M dwarfs]
+(g-r)(M0.5V)   =  -0.553 +-0.001 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16)
+(g'-r')(M0.5V) =  1.251 ; Smith02 transform B-V=1.47 => g'-r'
+(g-r)(M0.5V)   =  1.360 ; Just08/Chonis08 B-V=>g-r for B-V=1.47
+(g-r)(M0.5V)   =  1.401 ; Bilir05 transform B-V=1.47 => g-r
+(g-r)(M0.5V)   =   1.542 ; SDSS_J161559.42+385209.8 M0.5Ve plx=16.2759mas
+=> adopt (g-r)(M0.5V) = 1.36 [updated 11/25/2025]
 
-(r-i)(M0.5V) =  0.633 (+-0.05 rms) ; West05 fit for (V-Ic)=1.886
-(r-i)(M0.5V) =  0.727 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.96
-(r-i)(M0.5V) =  0.775 ; Bilir05 transform R-Ic vs r-i for R-Ic=0.96 
-(r-i)(M0.5V) =  0.80 (+-0.13 rms) ; Cifuentes20
-(r-i)(M0.5V) =   0.810 ; smoothed trend SpT vs r-i for SIMBAD Mdwarfs d<50pc (4/2024)
-(r-i)(M0.5V) =  0.928 +-0.001 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16)
-=> adopt (r-i)(M0.5V) = 0.78 [updated 3/1/2025]
+(r-i)(M0.5V)   =  0.633 (+-0.05 rms) ; West05 fit for (V-Ic)=1.886
+(r-i)(M0.5V)   =  0.727 ; Jordi06 Pop I (Rc-Ic)=>(r-i) for (Rc-Ic)=0.96
+(r'-i')(M0.5V) =  0.750 ; Smith02 transformation (R-Ic)=0.96 => r'-i' 
+(r-i)(M0.5V)   =  0.775 ; Bilir05 transform R-Ic vs r-i for R-Ic=0.96 
+(r-i)(M0.5V)   =  0.80 (+-0.13 rms) ; Cifuentes20
+(r-i)(M0.5V)   =   0.810 ; smoothed trend SpT vs r-i for SIMBAD Mdwarfs d<50pc (4/2024)
+(r-i)(M0.5V)   =  0.928 +-0.001 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16)
+=> adopt (r-i)(M0.5V) = 0.75 [updated 11/29/2025]
+
+(r'-z')(M0.5V) = 1.204 ; Smith02 transformation (R-Ic)=0.96 => r'-z'
 
 (i-Ic)(M0.5V) = 0.566 ; Jordi06 transform R-Ic vs i-Ic for R-Ic=0.96 
 
-(i-z)(M0.5V) =   1.579 +-0.001 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16)
+(i'-z')(M0.5V) = 0.454 ; Smith02 transformation (R-Ic)=0.96 => i'-z'
+(i-z)(M0.5V)   =  1.579 +-0.001 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16)
+(i-z)(M0.5V)   =   2.70 ; SDSS_J161559.42+385209.8 M0.5Ve plx=16.2759mas
+=> adopt (i-z)(M0.5V) = 0.45 [updated 11/29/2025] 
 
 (i-J)(M0.5V) =   3.100 +-0.019 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16)
+(i-J)(M0.5V) =   4.502 ; SDSS_J161559.42+385209.8 M0.5Ve plx=16.2759mas
 
 (g-V)(M0.5V) =   0.452 +-0.010 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16) 
 (g-V)(M0.5V) =  0.805 ; Jordi06 B-V=>g-V for B-V=1.47
@@ -384,6 +393,7 @@ Kirkpatrick12 lists only 1 M0.5V stars within 8 pc: Lacaille 9352 = GJ 887, howe
 
 (z-J)(M0.5V) =   1.312 ; poly fit to d<100pc GCNS for G-Ks=3.08 (rms=0.028)
 (z-J)(M0.5V) =    1.521 +-0.019 ; sec. stan. GJ 96 ([Fe/H]=+0.10) (SDSS DR16)
+(z-J)(M0.5V) =    1.802 ; SDSS_J161559.42+385209.8 M0.5Ve plx=16.2759mas
 
 (FUV-NUV)(M0.5V) = 2.40 (+-0.42 rms; N=14) ; Cifuentes20
 (NUV-u)(M0.5V)   = 4.01 (+-0.96 rms; N=22) ; Cifuentes20
