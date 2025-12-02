@@ -71,23 +71,27 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 => adopt (U-B)(B5V) = -0.581 [updated 5/31/2024]
 => adopt     Q(B5V) = -0.469 (=(U-B)-0.72*(B-V) = -0.581 - 0.72*-0.156)
 
-(V-Rj)(B5V) = -0.06 ; Johnson65
+(V-Rj)(B5V) = -0.06 ; Johnson65,Johnson66
+=> adopt (V-Rj)(B5V) = -0.06 [updated 10/1/2025] 
 
 (V-Rc)(B5V) = -0.070 ; color trend U-B vs V-Rc for U-B=-0.581
 (V-Rc)(B5V) =  -0.09 ; Winkler97
 => adopt (V-Rc)(B5V) = -0.070 [updated 5/31/2024]
 
+(R-Ij)(B5V) = -0.16 ; Johnson66
+
 (R-Ic)(B5V) = -0.095 ; color trend U-B vs V-Rc for U-B=-0.581
 => adopt (R-Ic)(B5V) = -0.095 [updated 5/31/2024]
 
-(V-Ij)(B5V) = -0.22 ; Johnson65
-
+(V-Ij)(B5V) = -0.22 ; Johnson66
+(V-Ij)(B5V) = -0.22 ; Joh
 (V-Ic)(B5V) = -0.157 ; V-Ij=-0.22 => V-Ic via Hipparcos Vol. 1 Field H42
 (V-Ic)(B5V) = -0.157 ; B-V=-0.156 => V-Ic via Hipparcos Vol. 1 Table 1.3.7
 (V-Ic)(B5V) = -0.165 ; color trend U-B vs V-Ic for U-B=-0.581
 (V-Ic)(B5V) =  -0.18 ; Winkler97
 => adopt (V-Ic)(B5V) = -0.16 [updated 6/15/2025]
 
+(V-Jj)(B5V) = -0.35 ; Johnson66
 (V-Jj)(B5V) = -0.36 ; Johnson65
 
 (V-J)(B5V) = -0.315 ; color trend U-B vs V-J for U-B=-0.581
@@ -98,7 +102,8 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 (V-H)(B5V) = -0.404 ; color trend U-B vs V-H for U-B=-0.581
 => adopt (V-H)(B5V) = -0.404 [updated 5/31/2024]
 
-(V-Kj)(B5V) = -0.47 ; Johnson65
+(V-Kj)(B5V) = -0.47 ; Johnson65,Johnson66
+=> adopt (V-Kj)(B5V) = -0.47 [updated 10/1/2025] 
 
 (V-K)(B5V) = -0.469 ; Glass97(SAAO/Carter90_system)
 (V-K)(B5V) = -0.50  ; Winkler97/SAAO
@@ -144,6 +149,7 @@ The bluest B5V star that I can find is HIP 39906 (B-V = -0.160+-0.004), so <(B-V
 (J-Ks)(B5V) = -0.11 ; Deng20/2MASS
 
 (V-Lj)(B5V) = -0.45 ; Johnson65
+(V-Lj)(B5V) = -0.48 ; Johnson66
 
 (K-L)(B5V) = -0.058 ; Glass97(SAAO/Carter90_system)
 
@@ -374,9 +380,13 @@ nu And = HD 4727 = HIP 3881 = HR 226 = BD+40_171
   estimate, but if both are typical MS stars then del(V) ~ 4.9, hence
   only ~1% of the V-band light is probably contamination from the F8
   companion, and hence the UV/vis/near-IR colors/mags are probably
-  barely affected by "B". M91: V=4.530+-0.010, B-V=-0.149+-0.007,
-  U-B=-0.577+-0.005 => Updated Q-method (10/10/2011) => (B-V)o=-0.156,
-  (U-B)o=-0.581, E(B-V)=0.007,
+  barely affected by "B". JohnsonHarris54 UBV standard.
+  V=4.53(JohnsonHarris54/N=5), V=4.530+-0.010(Mermilliod91) => adopt
+  V=4.53.  B-V=-0.149+-0.007(Mermilliod91),
+  B-V=-0.15(JohnsonHarris54/N=5) => adopt B-V=-0.149.
+  U-B=-0.58(JohnsonHarris54/N=5), U-B=-0.577+-0.005(Mermilliod91) =>
+  adopt U-B=-0.577.  Using Mermilliod91 photometry => Updated Q-method
+  (10/10/2011) => (B-V)o=-0.156, (U-B)o=-0.581, E(B-V)=0.007,
   Av=0.024. E(B-V)=0.014(Kervella19,STILISM). Hauck97 ubvy and
   Castelli91 dereddening, I get (b-y)o = -0.109, e(b-y)=0.037. logN_HI
   = 19.61 (Hobbs78), using Mathis & Savage 1979 H_HI/E(B-V) relation,

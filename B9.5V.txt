@@ -25,7 +25,7 @@ Skiff08 lists only two B9.5V standards: HD 19805 and HD 23873.
 All dereddenings calculated via the Q-method have been updated using
 the new calibration (10/11/2011).
 
-(B-V)(B9.5V) =  -0.03 ; Morgan53,Mendoza56,Johnson63
+(B-V)(B9.5V) =  -0.03 ; Morgan53,Mendoza56,Johnson63,Johnson66(interp)
 (B-V)(B9.5V) =  -0.035 ; Gutierrez-Moreno79 (interp B9V-A0V) 
 (B-V)(B9.5V) =  -0.04 ; Fitzgerald70, Morgan71
 (B-V)(B9.5V) =  -0.04 ; Cowley70(N=40) 
@@ -42,13 +42,18 @@ the new calibration (10/11/2011).
 (U-B)(B9.5V) = -0.124 ; prim. stan. ome^2 Aqr (EEM dereddened via Q-method)
 (U-B)(B9.5V) = -0.102 ; HIP d<75pc S/N>8 A0V N=4 (Mermilliod91 photometry)
 (U-B)(B9.5V) =  -0.10  ; Fitzgerald70
+(U-B)(B9.5V) =  -0.095 ; Johnson66(interp B9V-A0V) 
 => adopt (U-B)(B9.5V) = -0.13 [updated 5/31/2024]
-=> adopt     Q(B9.5V) = -0.094 (=(U-B)-0.72*(B-V) = -0.130 - 0.72*-0.050) 
+=> adopt     Q(B9.5V) = -0.094 (=(U-B)-0.72*(B-V) = -0.130 - 0.72*-0.050)
+
+(V-Rj)(B9.5V) =  0.01 ; Johnson66(interp B9V-A0V) 
 
 (V-Rc)(B9.5V) = -0.003 ; exemplar HD 24072 = HR 1190A
 (V-Rc)(B9.5V) = -0.016 ; pri. stan. HD 222661 = ome^2 Aqr = GJ 9836A
 (V-Rc)(B9.5V) = -0.028 ; color trend B-V vs V-Rc for B-V=-0.070
 => adopt (V-Rc)(B9.5V) = -0.025 [updated 5/31/2024] (V-Ic=-0.050, R-Ic=-0.025)
+
+(R-Ij)(B9.5V) = -0.04 ; Johnson66(interp B9V-A0V) 
 
 (R-Ic)(B9.5V) = -0.017 ; exemplar HD 24072 = HR 1190A
 (R-Ic)(B9.5V) = -0.023 ; pri. stan. HD 222661 = ome^2 Aqr = GJ 9836A
@@ -65,9 +70,13 @@ the new calibration (10/11/2011).
 (V-Ic)(B9.5V) =  -0.061 ; color trend B-V vs V-Ic for B-V=-0.070
 => adopt (V-Ic)(B9.5V) = -0.050 [updated 5/31/2024] (V-Rc=-0.024, R-Ic=-0.025)
 
+(V-Jj)(B9.5V) = -0.05  ; Johnson66(interp B9V-A0V) 
+
 (V-J)(B9.5V)  = -0.09  ; Wegner14/2MASS
 
 (V-H)(B9.5V)  = -0.09  ; Wegner14/2MASS
+
+(V-Jj)(B9.5V) = -0.085 ; Johnson66(interp B9V-A0V) 
 
 (V-Ks)(B9.5V) = -0.11  ; Wegner14/2MASS
 

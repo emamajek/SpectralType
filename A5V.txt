@@ -60,7 +60,7 @@ Skiff08 flags only HD 23886 (MK78) as a A5V MK standard.
 (U-B)(A5V) = 0.147 ; sec. stan. HD 29488 = sig2 Tau = HIP 65477 = HR 1479 (Hyad) ([Fe/H]~+0.2)
 => adopt (U-B)(A5V) = 0.10 [updated 5/1/2025]
 
-(V-Rj)(A5V) = 0.16 ; Johnson68
+(V-Rj)(A5V) = 0.16 ; Johnson66,Johnson68
 (V-Rj)(A5V) = 0.17 ; ter. stan. HD 116842 = 80 UMa = Alcor
 
 (V-Rc)(A5V) =   0.065 ; HD 165777 = HR 6771 = 72 Oph (A5V,Gray03)
@@ -73,6 +73,7 @@ Skiff08 flags only HD 23886 (MK78) as a A5V MK standard.
 (V-Rc)(A5V) =   0.133 ; HD 186219 = HR 7498 (A5V,Cousins80) 
 => adopt (V-Rc)(A5V) = 0.09 [updated 5/1/2025] (V-Ic=0.19, R-Ic=0.10)
 
+(R-Ij)(A5V) = 0.06 ; Johnson66
 (R-Ij)(A5V) = 0.07 ; ter. stan. HD 116842 = 80 UMa = Alcor
 
 (R-Ic)(A5V) =   0.066 ; HD 165777 = HR 6771 = 72 Oph (A5V,Gray03)
@@ -154,31 +155,38 @@ Skiff08 flags only HD 23886 (MK78) as a A5V MK standard.
 (g-V)(A5V) = -0.026 ; Jordi06 B-V=>g-V for B-V=0.16
 => adopt (g-V)(A5V) = -0.026 [updated 9/1/2023]
 
-(u'-g')(A5V) = 1.08  ; Deng20 (blue-edge method)
+(u'-g')(A5V) =  1.08  ; Deng20 (blue-edge method)
 (u-g)(A5V)   = 1.08  ; Fukugita11
 (u-g)(A5V)   = 1.13  ; Kesseli17 interp A3V-A6V
 (u-g)(A5V)   = 1.20  ; Covey07
 (u'-g')(A5V) = 1.253 ; Smith02 u'-g' calibration for U-B=0.10
 (u'-g')(A5V) = 1.278 ; Fukugita96 u'-g' calibration for U-B=0.10
-=> adopt (u-g)(A5V) = 1.17 [updated 6/18/2024]
+=> adopt (u-g)(A5V) = 1.20 [updated 11/29/2025] 
 
-(g-r)(A5V) =  0.036 ; Jordi06 (V-R)=>(g-r) for V-R=0.089
-(g-r)(A5V) = -0.037 ; Kesseli17  
-(g-r)(A5V) = -0.04  ; Fukugita11 
-(g-r)(A5V) = -0.072 ; Bilir05 (B-V)=>(g-r) for B-V=0.16
-(g-r)(A5V) = -0.08  ; Deng20 
-(g-r)(A5V) = -0.10  ; Covey07
-=> adopt (g-r)(A5V) = -0.06 [updated 6/20/2024]
+(g-r)(A5V)   =  0.038 ; Jordi06 Pop I transform V-Rc=0.09 => g-r=
+(g'-r')(A5V) = -0.030 ; Smith02 transform B-V=0.163 => g'-r'
+(g'-r')(A5V) = -0.034 ; Smith02 transform V-Rc=0.09 => g'-r'
+(g-r)(A5V)   = -0.037 ; Kesseli17  
+(g-r)(A5V)   = -0.04  ; Fukugita11 
+(g-r)(A5V)   = -0.069 ; Bilir05 (B-V)=>(g-r) for B-V=0.163
+(g-r)(A5V)   = -0.08  ; Deng20 
+(g-r)(A5V)   = -0.10  ; Covey07
+=> adopt (g-r)(A5V) = -0.04 [updated 11/29/2025] 
 
-(r-i)(A5V) = -0.087 ; Kesseli17
-(r-i)(A5V) = -0.09  ; Fukugita11
-(r-i)(A5V) = -0.11  ; Covey07
-(r-i)(A5V) = -0.120 ; Bilir05 calibration for (R-Ic)=0.10
-(r-i)(A5V) = -0.122 ; Jordi06 popI calibration for (R-Ic)=0.10
-(r-i)(A5V) = -0.13  ; Deng20
-=> adopt (r-i)(A5V) = -0.11 [updated 6/18/2024]
+(r-i)(A5V)   = -0.087 ; Kesseli17
+(r-i)(A5V)   = -0.09  ; Fukugita11
+(r-i)(A5V)   = -0.11  ; Covey07
+(r'-i')(A5V) = -0.110 ; Smith02 transform R-Ic=0.10 => r'-i'
+(r-i)(A5V)   = -0.120 ; Bilir05 calibration for (R-Ic)=0.10
+(r-i)(A5V)   = -0.122 ; Jordi06 popI calibration for (R-Ic)=0.10
+(r-i)(A5V)   = -0.13  ; Deng20
+=> adopt (r-i)(A5V) = -0.11 [updated 11/29/2025] 
 
-(i-z)(A5V) = -0.10 ; Deng20
+(r'-z')(A5V) = -0.215 ; Smith02 transform R-Ic=0.10 => r'-z'
+
+(i-z)(A5V)   = -0.10 ; Deng20
+(i'-z')(A5V) = -0.105 ; Smith02 transform R-Ic=0.10 => i'-z'
+=> adopt (i-z)(A5V) = -0.10 [updated 11/29/2025] 
 
 (z-y)(A5V) = -0.01 ; Deng20 
 

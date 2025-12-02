@@ -79,7 +79,7 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 [EEM Note 12/29/2023: Johnson53 defined B-V=0.00 based on colors of sample of A0V stars, and I adopt this (and it is consistent within ~0.01 mag of middle of distribution of B-V values above, and the median color of the three main standards is still B-V=0.000).]
 
 (U-B)(A0V) = +0.014 ; pri. stan. HD 103287 = gam UMa = HIP 58001 
-(U-B)(A0V) =   0.00  ; JohnsonMorgan53(def),Johnson63,Johnson65
+(U-B)(A0V) =   0.00  ; JohnsonMorgan53(def),Johnson63,Johnson65,Johnson66
 (U-B)(A0V) = -0.005 ; HIP d<75pc S/N>8 A0V N=35 (Mermilliod91 photometry)
 (U-B)(A0V) = -0.006 ; anchor stan. HD 172167 = alf Lyr = Vega = GJ 721
 (U-B)(A0V) = -0.012 ; B-V vs U-B trend for B-V=0.00 (12/2023)
@@ -89,6 +89,12 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (U-B)(A0V) =  -0.061 ; HD 188228 (A0Va, Gray06)
 => adopt (U-B)(A0V) = -0.006 [updated 12/29/2023]
 [EEM note: Johnson53 defined U-B = 0 color based on sample of A0V stars, but on average the nearby A0Vs and Vega have a slightly negative U-B. I adopt the median for the three main standards, which happens to correspond to the U-B for Vega.]
+
+(V-Rj)(A0V) = -0.04 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66)
+(V-Rj)(A0V) =  0.00 ; Johnson65
+(V-Rj)(A0V) =  0.00 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66)
+(V-Rj)(A0V) =  0.02 ; Johnson66
+=> adopt (V-Rj)(A0V) = 0.00 [updated 10/1/2025]
 
 (V-Rc)(A0V) =  -0.017 ; HD 188228 (A0Va, Gray06) 
 (V-Rc)(A0V) =  -0.011 ; HD 146624 = d Sco 
@@ -100,10 +106,8 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (V-Rc)(A0V) =   0.017 ; deprecated stan. HD 161868 = gam Oph 
 => adopt (V-Rc)(A0V) = 0.00 [updated 6/15/2025] (V-Ic=0.00, R-Ic=0.00)
 
-(V-Rj)(A0V) = -0.04 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66)
-(V-Rj)(A0V) =  0.00 ; Johnson65
-(V-Rj)(A0V) =  0.00 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66)
-=> adopt (V-Rj)(A0V) = 0.00 [updated 10/8/2023]
+(R-Ij)(A0V) = -0.02 ; Johnson66
+(R-Ij)(A0V) = -0.03 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66)
 
 (R-Ic)(A0V) =  -0.027 ; HD 188228 (A0Va, Gray06) 
 (R-Ic)(A0V) = -0.017 ; pri. stan. HD 71155 = HR 3314 
@@ -117,12 +121,10 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (R-Ic)(A0V) =   0.037 ; deprecated stan. HD 161868 = gam Oph 
 => adopt (R-Ic)(A0V) = 0.00 [updated 6/15/2025] (V-Ic=0.00, V-Rc=0.00)
 
-(R-Ij)(A0V) = -0.03 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66)
-
-(V-Ij)(A0V) =  0.00 ; Johnson66
-(V-Ij)(A0V) = -0.02 ; Johnson65 
-(V-Ij)(A0V) = -0.03 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66)
-(V-Ij)(A0V) = -0.07 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66)
+(V-Ij)(A0V) =   0.00 ; Johnson66
+(V-Ij)(A0V) =  -0.02 ; Johnson65 
+(V-Ij)(A0V) =  -0.03 ; pri. stan. HD 103287 = gam UMa = HR 4554 (Johnson66)
+(V-Ij)(A0V) =  -0.07 ; anchor stan. HD 172167 = alf Lyr = HR 7001 (Johnson66)
 
 (V-Ic)(A0V) =  -0.044 ; HD 188228 (A0Va, Gray06)
 (V-Ic)(A0V) = -0.024 ; pri. stan. HD 71155 = HR 3314 
@@ -166,7 +168,6 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (V-Ks)(A0V) = 0.041 ; B-V vs V-Ks trend for B-V=0.00 (5/1/2025)
 (V-Ks)(A0V) = 0.05 ; Wegner14/2MASS
 => adopt (V-Ks)(A0V) = 0.041 [updated 5/1/2025] 
-
 
 (V-Lj)(A0V) =  0.00 ; Johnson66
 (V-Lj)(A0V) =  0.02 ; Johnson65
