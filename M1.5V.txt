@@ -718,16 +718,12 @@ GJ 205 = HD 36395 = HIP 25878 = LHS 30 = Wolf 1453 = BD-03 1123 = NLTT 15215 = G
   B-V=1.474+-0.009(Mermilliod91), B-V=1.474(Landolt83,N=28),
   B-V=1.475+-0.010(Koen02), B-V=1.475(Koen10), B-V=1.484(Cousins84) =>
   adopt B-V=1.474.  U-B=1.179(Cousins84,"L"),
-  U-B=1.183+-0.007(Koen02,Koen10),
-  U-B=1.197(Cousins84,"I"),
-  U-B=1.21(Johnson54,Lindoff68),
-  U-B=1.213+-0.024(Mermilliod91),
-  U-B=1.215+-0.007(Kilkenny98),
-  U-B=1.231(Landolt83,N=28),
-  U-B=1.25(Argue66)
-  => adopt U-B=1.213.  V-Rc=0.965+-0.004(Kilkenny98),
-  V-Rc=0.972+-0.005(Koen02,Koen10), V-Rc=0.98(Bessell90),
-  V-Rc=0.985(Landolt83) => adopt V-Rc=0.976.
+  U-B=1.183+-0.007(Koen02,Koen10), U-B=1.197(Cousins84,"I"),
+  U-B=1.21(Johnson54,Lindoff68), U-B=1.213+-0.024(Mermilliod91),
+  U-B=1.215+-0.007(Kilkenny98), U-B=1.231(Landolt83,N=28),
+  U-B=1.25(Argue66) => adopt U-B=1.213.
+  V-Rc=0.965+-0.004(Kilkenny98), V-Rc=0.972+-0.005(Koen02,Koen10),
+  V-Rc=0.98(Bessell90), V-Rc=0.985(Landolt83) => adopt V-Rc=0.976.
   R-Ic=1.083(Koen02,Koen10), R-Ic=1.093(adopting
   V-Rc=0.972,V-Ic=2.065), R-Ic=1.095(Landolt83),
   R-Ic=1.095(Bessell90), R-Ic=1.100(Kilkenny98) => adopt R-Ic=1.095.
@@ -749,11 +745,13 @@ GJ 205 = HD 36395 = HIP 25878 = LHS 30 = Wolf 1453 = BD-03 1123 = NLTT 15215 = G
   3708K(Prugniel07#2), 3719K(Prugniel07#1), 3732+-56K(Ramirez05),
   3737K(Alonso96), 3760K(Wolff05), 3801+-60K(Mann15),
   3835+-69K(Rabus19), 3850+-22K(Newton15#1), 3872K(Newton15#2),
-  4012+-106K(Rojas-Ayala12), SIMBAD has 56 Teffs with <Teff> = 3810K(+-11K sem, +-113K stdev).
-  => adopt Teff=3810K. SIMBAD lists 47 metallicities with <[Fe/H]> = +0.20(+-0.01 sem, +-0.23 stdev). 
-  SIMBAD has 41 surface gravities with <logg> = 4.700(+-0.003 sem,+-0.075 stdev). 
-  R=0.5735+-0.044Rsun(Newton14), R=0.581+-0.019Rsun(Mann15),
-  logL=-1.1905+-0.0094(Newton14), M=0.633+-0.063Msun(Mann15),
+  4012+-106K(Rojas-Ayala12), SIMBAD has 56 Teffs with <Teff> =
+  3810K(+-11K sem, +-113K stdev).  => adopt Teff=3810K. SIMBAD lists
+  47 metallicities with <[Fe/H]> = +0.20(+-0.01 sem, +-0.23 stdev).
+  SIMBAD has 41 surface gravities with <logg> = 4.700(+-0.003
+  sem,+-0.075 stdev).  R=0.5735+-0.044Rsun(Newton14),
+  R=0.581+-0.019Rsun(Mann15), logL=-1.1905+-0.0094(Newton14),
+  M=0.633+-0.063Msun(Mann15),
   [Fe/H]=0.49+-0.08(Mann15). plx=175.4287+-0.0672mas(GaiaDR2).
   Mv=9.19+-0.01(Mermilliod91,GaiaDR2). Boyajian12 reports
   tetLD=0.943+-0.004mas. Boyajian12+GaiaDR2 => Rad = 0.578Rsun.
@@ -1245,7 +1243,17 @@ GJ 87 = LHS 14 = HIP 10279 = Wolf 124 = BD+02 348 = PIN 3A = CNS5 554 = G 73-35 
 # Other Stars
 
 RECONS list shows GJ 887 (J2305-3551) as the nearest M1.5V star,
-followed by GJ 15A (J0018+4401), & GJ 191 (J0511-4501). 
+followed by GJ 15A (J0018+4401), & GJ 191 (J0511-4501).
+
+GJ 654 = HD 154363B = HIP 83599 = Wolf 636 = LHS 432 = NLTT 44131 = BD-04 4226 = G 19-14 = UGP 425 = "NC 42" = StKM 2-1292 = WDS J17050-0504B = 2MASS J17051383-0505385 = Gaia DR3 4364480521350598144
+  M1.5V: Bidelman85(M1.5),AlonsoFloriano15,Schwietzer19(dM1.5),Fuhrmeister22(M1.5)
+  M2V: Reid95,Gaidos14(M2)
+  dM2.5: Hejazi20,Hejazi22
+  M3: Newton14
+  M3+V: Stephenson86
+  M3.5V: Bouigue59,Cowley82(stan)
+
+  Quite the range in published types, with median Prot=50.2d(DiezAlonso19).
 
 G 111-72 = 2MASS J08200425+3834415 = Gaia DR3 908364387441657472 
   M1V: Cowley82
