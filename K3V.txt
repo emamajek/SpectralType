@@ -1190,8 +1190,8 @@ HD 219134 = GJ 892 = HR 8832 = HIP 114622 = LHS 71 = LTT 16826 = STT 599A = WDS 
   J=3.78(Pickles10/SEDfit=>2MASS),
   J=3.781(Leggett88/CIT=>2MASS=>H,J-H),
   J=3.802(Johnson68=>Carpenter01/Koornneef83=>2MASS),
-  J=3.811(Johnson66=>Carpenter01/Koornneef83=>2MASS) => adopt J=3.777
-  (H=3.287,J-H=0.49).  V-Jj=1.71(Johnson65,Johnson68),
+  J=3.811(Johnson66=>Carpenter01/Koornneef83=>2MASS) => adopt
+  J=3.777+-0.02: (H=3.287,J-H=0.49).  V-Jj=1.71(Johnson65,Johnson68),
   V-Jj=1.70(Johnson66),
   V-J=1.759(Johnson66=>Carpenter01/Koornneef83=>2MASS),
   V-J=1.765(Mermilliod91,Johnson68=>Carpenter01/Koornneef83=>2MASS),
@@ -1209,7 +1209,7 @@ HD 219134 = GJ 892 = HR 8832 = HIP 114622 = LHS 71 = LTT 16826 = STT 599A = WDS 
   Hj=3.40(Johnson68/Morel78), H=3.27(Glass75/Tenerife?),
   H=3.28(Pickles10/SEDfit), H=3.281(Leggett88/CTIO/CIT),
   H=3.287(Glass75=>Leggett92=>CIT/Carpenter01=>2MASS),
-  H=3.287(Leggett88/CIT=>Carpenter01=>2MASS), => adopt H=3.287.
+  H=3.287(Leggett88/CIT=>Carpenter01=>2MASS) => adopt H=3.287.
   H-K=0.09(Glass75), H-K_CIT=0.091(Leggett86/CTIO/CIT),
   H-K_CIT=0.091(Glass75=>Leggett92=>CIT) => adopt H-K_CIT=0.09.
   H-Kj=0.17(Johnson68), H-Ks=0.118(Glass75=>Bessell88=>2MASS),
@@ -1252,38 +1252,66 @@ HD 219134 = GJ 892 = HR 8832 = HIP 114622 = LHS 71 = LTT 16826 = STT 599A = WDS 
   system) => NUV-V = 13.845 - 5.567 = 8.278. PASTEL compendium: <Teff>
   = 4830K(N=25), <logg>=4.56(N=17), <[Fe/H]>=+0.05(N=18).  Among the
   18 post-2000 estimates: median Teff=4886K.  Soubiran22/PASTEL means:
-  Teff=4874+-28K, logg=4.56+-0.03, [Fe/H]=+0.06+-0.02. Soubiran24 Gaia
-  FGK gold stars has Teff=4800+-34K, [Fe/H]=+0.06+-0.02,
-  logg=4.55+-0.01, Lum=0.289+-0.007Lsun, Rad=0.778+-0.005Rsun,
-  Mass(BASTI)=0.777+-0.004Msun, Mass(STAREVOL)=0.779+-0.008Msun,
+  Teff=4874+-28K, logg=4.56+-0.03, [Fe/H]=+0.06+-0.02.  All the
+  post-2000 metallicities are between solar and slightly supersolar
+  (0.00 < [Fe/H] < +0.13), but apparently slightly less metal-rich
+  than the Hyads.  Soubiran24 Gaia FGK gold stars has Teff=4800+-34K,
+  [Fe/H]=+0.06+-0.02, logg=4.55+-0.01, Lum=0.289+-0.007Lsun,
+  Rad=0.778+-0.005Rsun, Mass(BASTI)=0.777+-0.004Msun,
+  Mass(STAREVOL)=0.779+-0.008Msun,
   fbol(Av0)=(21.751+-0.585)e-11W/m2(Soubiran24),
   fbol=(21.612+-0.551)e-11W/m2(Soubiran24) =>
   mbol=5.1658+-0.0277mag(IAU2015scale) => BCv = mbol - V =
   (5.1658+-0.0277)-(5.567+-0.010) =
-  -0.401+-0.029(Soubiran24,Mermilliod91).  All the post-2000
-  metallicities are between solar and slightly supersolar (0.00 <
-  [Fe/H] < +0.13), but apparently slightly less metal-rich than the
-  Hyads.  Boyajian12 reports Teff=4699+-16K, R=0.7784+-0.0053 Rsun,
-  fbol = (19.850+-0.086)e-8 erg/cm/s => IAU2015 mbol = 5.2581 +-
-  0.0047. BCv = mbol - V = 5.2581+-0.0047 - 5.57+-0.01 = -0.312 +-
-  0.011. fbol=2.039e-7mW/m2(Gonzalez-Hernandez09),
-  fbol=2.04e-14W/m2(Alonso96), fbol=22.640(1e5W/m2)(Swihart17),
+  -0.401+-0.029(Soubiran24,Mermilliod91).  Boyajian12 reports
+  Teff=4699+-16K, R=0.7784+-0.0053 Rsun, BCv = mbol - V =
+  5.2581+-0.0047 - 5.57+-0.01 = -0.312 +- 0.011.
   tetLD=1.106+-0.007mas(Boyajian12,Adams18cites), plx=
   153.0808+-0.0895mas(GaiaDR2), plx=152.8640+-0.0494mas(GaiaDR3) =>
-  0.7779+-0.0049Rsun. Mv=6.489+-0.010, M_Ks=4.152. Combining
-  Teff(Soubiran22) with updated radius(Boyajian12,GaiaDR3) =>
-  Lum=0.307669Lsun => logL=-0.51192 (Mbol=6.020). Note discrepency
-  between interometric Teff estimate (4699+-16K;Boyajian12) and most
-  recent spectroscopic consensus estimate (4874+-28K;Soubiran22),
-  differing by 3.6%. However Alonso96 got an IR-method fit
-  Teff=4785K(Alonso96) similar to the spectroscopic Teff.  X-ray:
-  extremely soft X-ray source (HR1=-0.96+-0.17) in ROSAT All-Sky
-  Survey Faint Source Catalog (~0.2-2keV) (Voges00), count-rate
-  fx=(2.31e-2+-8.76e-3), converting using Fleming/Schmitt95 =>
-  fx=7.44282e-14erg/s/cm2 => using GaiaDR3 plx => logLx=26.58 => using
-  logL=-0.51192 => logLx/Lbol=-6.49 (extremely low).
-  logLx=26.85(Schmitt04). Note that this is about as inactive as you
-  can get...  nearby FGK stars show a minimum in X-ray surface flux of
+  0.7779+-0.0049Rsun.  Mv=6.489+-0.010, M_Ks=4.152.  Compilation of
+  bolometric fluxes and magnitudes:
+  fbol=1.981(+-0.072)e-7erg/s/cm2(Li25) =>
+  mbol=5.260+-0.039mag(Li25/IAUscale),
+  fbol=(19.850+-0.086)e-8erg/cm/s(Boyajian12) =>
+  mbol=5.258+-0.005(Boyajian12/IAU2015),
+  fbol=2.039e-7mW/m2(Gonzalez-Hernandez09) =>
+  mbol=5.229(Gonzalez-Hernandez09/IAU2015),
+  fbol=2.04e-14W/m2(Alonso96/units off) =>
+  mbol=5.228(Alonso96/IAU2015),
+  fbol=(21.751+-0.585)e-11W/m2("Av0",Soubiran24) =>
+  mbol=5.159+-0.029(Soubiran24/IAU2015),
+  fbol=(21.612+-0.551)e-11W/m2(Soubiran24) =>
+  mbol=5.166+-0.028(Soubiran24/IAU2015), fbol=2.2e-7mW/m2(Ayres23) =>
+  mbol=5.146(Ayres23/IAU2015),
+  fbol=(22.640+-0.501)(1e5W/m2)(Swihart17/units off) =>
+  mbol=5.115+-0.024(Swihart17/IAU2015).  The *range* of mbol values is
+  incredible: 0.145mag!  I ran VOSA SED analyzer, on 19 photometric
+  data points, and got solution of: BT-Settl(CIFIST2011), Teff=4800K,
+  logg=5, [M/H]=0, fbol=2.4419e-7+-1.4176e-10erg/s/cm2 =>
+  mbol=5.033197+-0.000630(IAU2015scale), Lbol=3.266e-1+-4.003e-4Lsun
+  => logL=-0.48598+-0.00053. Excluding Hp point with tiny errors,
+  Lbol=0.28610+-0.00094Lsun => logL=-0.54348+-0.00143. Further
+  excluding the Stromgren u and b points: Lbol=2.915e-1+-1.642e-3Lsun
+  => logL=-0.53536+-0.00245.  This is in good agreement with the
+  GaiaDR3 luminosity: Lbol=0.2910+-0.0050Lsun =>
+  logL=-0.5361+-0.0075(GaiaDR3) => fbol=2.17526e-10W/m2 (matches
+  Soubiran24/Av0 value).  Combining Teff(Soubiran22) with updated
+  radius(Boyajian12,GaiaDR3) => Lum=0.307669Lsun => logL=-0.51192
+  (Mbol=6.020). Note discrepency between interometric Teff estimate
+  (4699+-16K;Boyajian12) and most recent spectroscopic consensus
+  estimate (4874+-28K;Soubiran22), differing by 3.6%. However Alonso96
+  got an IR-method fit Teff=4785K(Alonso96) similar to the
+  spectroscopic Teff.  Rotation and activity: Prot=41.3+-2.8d(Li25),
+  Prot=42d(Li25 citing Motalebi15,Folsom18).  Extremely soft X-ray
+  source (HR1=-0.96+-0.17) in ROSAT All-Sky Survey Faint Source
+  Catalog (~0.2-2keV) (Voges00), count-rate fx=(2.31e-2+-8.76e-3),
+  converting using Fleming/Schmitt95 => fx=7.44282e-14erg/s/cm2 =>
+  using GaiaDR3 plx => logLx=26.58 => using logL=-0.51192 =>
+  logLx/Lbol=-6.49 (extremely low).  logLx=26.07(Zhu25/final),
+  logLx=26.85(Schmitt04,Zhu25/ROSAT), logLx/Lbol=-6.97(Zhu25/final).
+  Note that this is about as inactive as you can get... it is the 3rd
+  lowest logLx/Lbol K dwarf in Zhu25 (not including 2 K subgiants),
+  nearby FGK stars show a minimum in X-ray surface flux of
   ~1e-4erg/s/cm2 (Schmitt97,SchmidtLiefke04), corresponding to what is
   observed in the Sun's coronal holes. For a star with the radius of
   HD219134, a star covered with coronal holes would have logLx=26.57,
@@ -1298,7 +1326,18 @@ HD 219134 = GJ 892 = HR 8832 = HIP 114622 = LHS 71 = LTT 16826 = STT 599A = WDS 
   https://cdsarc.cds.unistra.fr//vizier/vizgraph.gml?-s=J/ApJS/274/35&-i=.graph_sql&Name=HD
   219134). I didn't see a period cycle reported, but by-eye it looks
   like Pcyc~12yr. So it is possible the RASS X-ray detection (~1990)
-  was during the star's cycle minimum.
+  was during the star's cycle minimum. Li25 presents asteroseismic
+  study using 4 nights of KPF data:
+  Mass=0.763+-0.020(stat)+-0.007(sys)Msun,
+  Rad=0.748+-0.007(stat)+-0.002(sys)Rsun,
+  age=10.151+-1.520(stat)+-0.810(sys)Gyr. The asteroseismic radius was
+  derived by 5 teams, all very consistent with each other, and their
+  mean asteroseismic value is 4sigma (4%) smaller than the
+  interferometric radius (0.783+-0.005Rsun), however they compare to 2
+  interferometric radii: Rsun=0.728+-0.015Rsun based off Ligi19, and
+  Rsun=0.783+-0.005Rsun based off of Elliott (in prep), and they
+  differ by 3.5sigma (arg).
+  
 
              G =  5.2319 +-0.0028 ; pri. stan. HD 219134 = GJ 892 = HR 8832 ([Fe/H]=+0.06)     
    (V-Rc)(K3V) =   0.584 +-0.010 ; pri. stan. HD 219134 = GJ 892 = HR 8832 ([Fe/H]=+0.06)     
@@ -1454,9 +1493,12 @@ HD 16160 = GJ 105A = HR 753 = HIP 12114
   Rad=0.8013+-0.0055Rsun.  Calculating luminosity from measured radius
   and spectroscopic Teff => R=0.8013+-0.0055Rsun & Teff=4870+-24K =>
   L=0.32548+-0.00780Lsun => logL=-0.48748+-0.01041 => Mbol=5.959.
-  Mv=6.526+-0.010, M_Ks=4.184. Age=5.1+-1.1Gyr(Ramirez12),
-  Age=6.10Gyr(Gaspar13). Dedrick25 combines astrometry and RV to
+  Mv=6.526+-0.010, M_Ks=4.184. Dedrick25 combines astrometry and RV to
   derived dynamical mass of M(A)=0.782+0.019-0.018Msun.
+  Age=5.1+-1.1Gyr(Ramirez12),
+  Age=6.10Gyr(Gaspar13). Prot=48.0d(Donahue96;Pmin=42.2d,Pmax=51.5d),
+  logLx=27.24(Wright11), logLx/Lbol=-5.77.
+  
 
         G =  5.4983+-0.0029 ; sec. stan. HD 16160 = GJ 105A ([Fe/H]=-0.13)    
    (V-Rc)(K3V) =   0.575 +-0.010 ; sec. stan. HD 16160 = GJ 105A ([Fe/H]=-0.13)    
@@ -2478,13 +2520,25 @@ HD 35854 = HIP 25421
   R-Ic=0.484(Koen10). Soubiran22/PASTEL mean values: Teff=4906+-18K,
   logg=4.55+-0.04, [Fe/H]=-0.09+-0.02.
 
-HD 128311 = HIP 71395
-  K3-V: Gray03
+HD 128311 = GJ 3860 = HN Boo = HIP 71395 = G 66-11 = G 135-72 = HZE 1A = WDS J14360+0945A = 2MASS J14360055+0944474 = Gaia DR3 1176209886733406592
+  K0: HD
+ *K3-V: Gray03
 
-  Nearly solar metallicity.  V=7.446(Koen10), B-V=0.995(Koen10),
-  U-B=0.791(Koen10), V-Rc=0.551(Koen10), V-Ic=1.021(Koen10),
-  R-Ic=0.470(Koen10).  Soubiran22/PASTEL mean values: Teff=4966+-26K,
-  logg=4.56+-0.05, [Fe/H]=+0.08+-0.02.
+  Nearby active, ~solar metallicity, star with two planets
+  (Butler02/Vogt05) and debris disk. Companion in WDS (from Henize10)
+  is a background object.  SIMBAD cross-lists it with Ursa Major
+  Moving Group (in Richey-Yowell19, Tabernero17, Chupina06, King03).
+  Prot=11.54d(Strassmeier00).  McArthur14 did detailed astrometric
+  study, solved for inclination of planet c.  V=7.446(Koen10),
+  B-V=0.995(Koen10), U-B=0.791(Koen10), V-Rc=0.551(Koen10),
+  V-Ic=1.021(Koen10), R-Ic=0.470(Koen10).  Soubiran22/PASTEL mean
+  values: Teff=4966+-26K, logg=4.56+-0.05,
+  [Fe/H]=+0.08+-0.02. plx=61.2792+-0.0426mas(GaiaDR3).  Chen14 lists
+  disk properties for 2-disk model: T(1)=371K, r=1.3au,
+  L_IR/Lbol=4.7e-5, and T(2)=30K, r=1211au, L_IR/Lbol=1.0e-5.
+  Activity: logLx=28.44(Foster22/ROSAT), logLx=28.52(Wright11),
+  logLx/Lbol=-4.54(Kasova11), logR'HK=-4.42(Kasova11).
+  Ages:0.96Gyr(Winter20).
 
 HD 202751 = HIP 105152 (Koen10) ~solar
   K3V: Gray03

@@ -39,7 +39,7 @@ Skiff08 flags one star as K1V MK standard: HD 10476 (K1V; Keenan89).
 (B-V)(K1V) =  0.854 ; exemplar HD 68788 = HIP 40848 ([Fe/H]=-0.04)
 (B-V)(K1V) =   0.857 ; HD_125455_ K1V plx=48.9015mas, Mv=6.0156
 (B-V)(K1V) =  0.857 ; Koen10 d<25pc median K1V (N=13)
-(B-V)(K1V) =  0.857 ; xHIP K1V trend for d<50pc interp [Fe/H]=0.00 for -0.3 < [Fe/H] < +0.3
+(B-V)(K1V) =  0.857 ; xHIP K1V trend for d<50pc interp [Fe/H]=0.00 for -0.3<[Fe/H]<+0.3
 (B-V)(K1V) =    0.86 ; Fitzgerald70
 (B-V)(K1V) =    0.86 ; JohnsonMorgan53
 (B-V)(K1V) =    0.86 ; SchmidtKaler82
@@ -849,13 +849,8 @@ HD 10476 = 107 Psc = GJ 68 = HIP 7981 = HR 493 = 2 Ari = BD+19 279 = CNS5 438 = 
   5198K, and 17 [Fe/H]s with median [Fe/H] = -0.04, median
   logg=4.50. Notably, Ramirez12 derives [Fe/H]=-0.02+-0.04.
   Soubiran22/PASTEL mean values: Teff=5204+-11K, logg=4.49+-0.03,
-  [Fe/H]=-0.04+-0.01.  Activity: logR'HK=-4.912. Ages: 5.0, 6.3
-  Gyr(Mamajek08), 5.24Gyr(Isaacson10), 4.1+-0.9Gyr(Ramirez12),
-  4.27(2.92-10.34)Gyr(Ramirez12), 4.99Gyr(Ballering13),
-  5.3Gyr(Boyajian13). Vidotto14 reports Prot=16.0d and
-  logL/Lbol=-6.07, i.e both its X-ray and CaHK are similar to the Sun.
-  Yee17: Teff=5242+-12K, R=0.810+-0.004Rsun, logg=4.57+-0.02,
-  [Fe/H]=-0.02+-0.10, Mass=0.88+-0.04Msun,
+  [Fe/H]=-0.04+-0.01.  Yee17: Teff=5242+-12K, R=0.810+-0.004Rsun,
+  logg=4.57+-0.02, [Fe/H]=-0.02+-0.10, Mass=0.88+-0.04Msun,
   log(age/yr)=9.51+-0.42. Boyajian13: R=0.8108+-0.0045Rsun,
   fbol=(25.1400+-0.1100)e-8 erg/s/cm2, L=0.4443+-0.0039Lsun => logL =
   -0.3523+-0.0038 dex, Teff=5242+-12K, age=5.3Gyr, Mass=0.862Msun.
@@ -877,7 +872,17 @@ HD 10476 = 107 Psc = GJ 68 = HIP 7981 = HR 493 = 2 Ari = BD+19 279 = CNS5 438 = 
   0.88+-0.04Msun(Yee17), 0.880+-0.113Msun(Stassun19),
   0.89+-0.01Msun(Maldonado19), 0.89+-0.03Msun(Luck17),
   0.90+-0.10Msun(Ghezzi10_#2) => Mass=0.853Msun (+-0.009 sem,
-  +-0.037(4.3%) stdev).
+  +-0.037(4.3%) stdev). Ages: 5.0,6.3Gyr(Mamajek08),
+  5.24Gyr(Isaacson10), 4.1+-0.9Gyr(Ramirez12),
+  4.27(2.92-10.34)Gyr(Ramirez12), 4.99Gyr(Ballering13),
+  5.3Gyr(Boyajian13). Rotation/Activity: Prot=16.0d(Vidotto14),
+  Prot=35.2d(Donahue96), logR'HK=-4.912.  logLx<26.29(Binder24),
+  logLx=26.79(Wright11), logLx=27.03(Schmitt04/ROSAT/PSPC),
+  logLx=27.14(Schmitt04/ROSAT/HRI),
+  logLx=27.16(Zhu25/ROSAT,Zhu25/"final"), logLx/Lbol=-6.07(Vidotto14),
+  logLx/Lbol=-6.08(Zhu25), logLx/Lbol=-6.44(Wright11,extremely low for
+  K dwarf),
+  
 
         G =  4.9997+-0.0030 ; pri. stan. HD 10476 = 107 Psc ([Fe/H]=-0.04)   
    (V-Rc)(K1V) =   0.471 +-0.010 ; pri. stan. HD 10476 = 107 Psc ([Fe/H]=-0.04)   
@@ -941,7 +946,11 @@ alf Cen B = HD 128621 = GJ 559B = HIP 71681 = HR 5460 = Toliman
   fbol=(886.949+-3.123)e11W/m2(Soubiran24).  Luminosities:
   L=0.488+-0.002Lsun(Soubiran24), L=0.4981+-0.0007Lsun(Akeson21) =>
   logL=-0.30268+-0.00061(Akeson21).  Rotation:
-  P=36.66+0.28-0.30d(Dumusque14).
+  P=36.66+0.28-0.30d(Dumusque14), logLx=27.06+-0.36(Booth17),
+  logLx/Lbol=-6.22(Booth17/Xray,Akeson21/Lbol).
+  Ayres23 summarizes 33 X-ray observations for alf Cen A and B between 2005
+  and 2023, for which I calculate fx(median)=1.32e-11erg/s/cm2 => logLx=27.45
+  => logLx/Lbol=-5.83. 
 
   (B-V)(K1V)  =  0.87  ; exemplar alf Cen B = HD 128621 ([Fe/H]=+0.24)
   (U-B)(K1V)  =  0.63  ; exemplar alf Cen B = HD 128621 ([Fe/H]=+0.24)
@@ -1421,7 +1430,7 @@ Hanson03). Median (B-V) = 0.863.
 RECONS list shows Alf Cen B is the nearest K1V star, followed by GJ
 166A (omi^2 Eri; J0415-0739).
 
-36 Oph A = HD 155886 = GJ 663A = HR 6402 = SHJ 243A = ADS 10417A = WDS J17153-2636A = Gaia DR3 4109030160308320128
+36 Oph A = HD 155886 = GJ 663A = HR 6402 = LHS 437 = CD-26 12026A = NLTT 44415 = SHJ 243A = ADS 10417A = WDS J17153-2636A = Gaia DR3 4109030160308320128
    K0V: 1923LicOB..10..169L(K0),Evans57(K0Ve),Abt81,Corbally84,Hoffleit91(BSC)
   *K1V: Adams35,Torres06
    K1.5V(k): Gray06(probably unresolved)
@@ -1429,43 +1438,29 @@ RECONS list shows Alf Cen B is the nearest K1V star, followed by GJ
    K2:III:: Houk82
 
    Median type is ~K1V, same as for 36 Oph B.  BSC: V=5.07, B-V=0.85,
-   U-B=0.53. plx=167.8221+-0.1556mas(GaiaDR2).  Mv =
-   6.19. Essentially an equal brightness binary:
-   delta(Hp)=0.011+-0.010(HIP), Hp(A)=5.223+-0.007(HIP/CCDM),
-   Hp(B)=5.212+-0.007(HIP/CCDM), the Worley01 photometric difference
-   catalog has several delta(mag) estimates, all between 0.00 and
-   0.05. GaiaDR3 has G(A)=4.831335+-0.002893,
-   G(B)=4.828591+-0.002851(B), del(G)=0.002744, Synthetic magnitudes
-   V(A)=5.100069, V(B)=5.091859, del(V)=0.00821. 
-   So one would not expect much of a different in spectral type
-   and other parameters (Teff, logg).
-   R-Ic(A)=0.440+-0.003(Taylor05),
-   R-Ic(B)=0.440+-0.003(Taylor05), 
-   Taking delta(Hp)=delta(V), then then the Mermilliod91
-   unresolved Vmag (4.323+-0.015) translates to
+   U-B=0.53. plx=167.8221+-0.1556mas(GaiaDR2).  Mv = 6.19. Essentially
+   an equal brightness binary: delta(Hp)=0.011+-0.010(HIP),
+   Hp(A)=5.223+-0.007(HIP/CCDM), Hp(B)=5.212+-0.007(HIP/CCDM), the
+   Worley01 photometric difference catalog has several delta(mag)
+   estimates, all between 0.00 and 0.05. GaiaDR3 has
+   G(A)=4.831335+-0.002893, G(B)=4.828591+-0.002851(B),
+   del(G)=0.002744, Synthetic magnitudes V(A)=5.100069, V(B)=5.091859,
+   del(V)=0.00821.  So one would not expect much of a different in
+   spectral type and other parameters (Teff, logg).
+   R-Ic(A)=0.440+-0.003(Taylor05), R-Ic(B)=0.440+-0.003(Taylor05),
+   Taking delta(Hp)=delta(V), then then the Mermilliod91 unresolved
+   Vmag (4.323+-0.015) translates to
    V(A)=5.070+-0.016(Mermilliod91/w/del(V)=4.323),
-   V(B)=5.081+-0.019(Mermilliod91/w/del(V)=4.323)
-   Unresolved photometry:
-   V(AB)=4.32(Johnson66), 
-   V(AB)=4.325(Cousins80),
-   V(AB)=4.33(HIP), 
-   V(AB)=4.340(Cousins71), 
-   B-V(AB)=0.855(Cousins71),
-   B-V(AB)=0.855+-0.010(HIP), 
-   B-V(AB)=0.859+-0.007(Mermilliod91),
-   B-V(AB)=0.86(Johnson66),
-   U-B(AB)=0.49(Johnson66), 
-   U-B(AB)=0.494+-0.017(Mermilliod91),
-   U-B(AB)=0.53(Cousins71),
-   Rj=3.62(Morel78),
-   Ij=3.18(Morel78), 
-   R-Ic(AB)=0.44(Cousins80),
-   V-Ic(AB)=0.92+-0.02(HIP), 
-   V-Ic(AB)=0.925(Cousins80)
-   -> assuming
+   V(B)=5.081+-0.019(Mermilliod91/w/del(V)=4.323) Unresolved
+   photometry: V(AB)=4.32(Johnson66), V(AB)=4.325(Cousins80),
+   V(AB)=4.33(HIP), V(AB)=4.340(Cousins71), B-V(AB)=0.855(Cousins71),
+   B-V(AB)=0.855+-0.010(HIP), B-V(AB)=0.859+-0.007(Mermilliod91),
+   B-V(AB)=0.86(Johnson66), U-B(AB)=0.49(Johnson66),
+   U-B(AB)=0.494+-0.017(Mermilliod91), U-B(AB)=0.53(Cousins71),
+   Rj=3.62(Morel78), Ij=3.18(Morel78), R-Ic(AB)=0.44(Cousins80),
+   V-Ic(AB)=0.92+-0.02(HIP), V-Ic(AB)=0.925(Cousins80) -> assuming
    delta(mag) is negligible, then these should reflect the colors of
-   the individual stars.
-   plx(A)=167.8221+-0.1556mas(GaiaDR2),
+   the individual stars.  plx(A)=167.8221+-0.1556mas(GaiaDR2),
    plx(B)=167.7764+-0.2210mas(GaiaDR2) => wt mean
    plx(AB)=167.8070+-0.1272mas.  Mass: 0.75+-0.04Msun(Irwin96),
    0.75+-0.06Msun(Luck17), 0.794Msun(Anders19), 0.824Msun(Eker18
@@ -1478,11 +1473,17 @@ RECONS list shows Alf Cen B is the nearest K1V star, followed by GJ
    Heiter03: Teff=5100+-50K, logg=4.30+-0.05, [Fe/H]=-0.30+-0.07,
    though others get logg=4.6. Luck17: Teff=5103K, logg=4.64,
    [Fe/H]=-0.23. Soubiran22 lists [Fe/H]=-0.22+-0.06 for A, and
-   [Fe/H]=-0.22+-0.03 for B, so adopt [Fe/H]=-0.22. 
-   Rad = 0.729Rsun (for logL=-0.490+-0.006,
-   Teff=5100+-50K).
+   [Fe/H]=-0.22+-0.03 for B, so adopt [Fe/H]=-0.22.  Rad = 0.729Rsun
+   (for logL=-0.490+-0.006, Teff=5100+-50K). Rotation/Activity:
+   Prot=20.69d(range:18.07-22.47d;Donahue96), Prot=21d(Baliunas96/same
+   as B), Mt Wilson <S>=0.375(Donahue96;N=7seasons),
+   logR'HK=-4.559(Baliunas96), logLx=27.97(Zhu25/final),
+   logLx/Lbol=-5.13(Lx/Zhu25,Lum/Stassun19), logLx/Lbol=-5.13(Zhu25).
+   Calculating gyrochronology age using gyrointerp (Bouma23):
+   Prot=20.69+-1d, Teff=5132+-26K => age(A)=2.329+0.245-0.201Gyr.
+   Combining with B, adopt age(36OphAB)=2.36+-0.2Gyr.
 
-36 Oph B = HD 155885 = GJ 663B = HR 6401 
+36 Oph B = HD 155885 = GJ 663B = HR 6401 = LHS 438 = NLTT 44416 = SHJ 243B = ADS 10417B = CCDM J17155-2635B = CD-26 12026B = WDS J17153-2636B = Gaia DR3 4109030160308317312
    G8V:: 1943HarCi.449....1H
    K0V: 1923LicOB..10..169L(K0),Abt84,Corbally84
    K1Ve: Evans59
@@ -1515,6 +1516,14 @@ RECONS list shows Alf Cen B is the nearest K1V star, followed by GJ
    logg=4.58+-0.02, [Fe/H]=-0.25+-0.04. Luminosity(EEM):
    logL=-0.494+-0.009. For Teff=5087+-44K, then Rad=0.729+-0.015Rsun.
    Hence the components seem to be identical radius as well.
+   Rotation/Activity: Prot=21d(Baliunas96/same as A),
+   Prot=21.11d(range:19.46-22.91d;Donahue96;Nseasons=5), Mt. Wilson
+   <S>=0.384(N=5seasons;Donahue96), logR'HK=-4.570(Baliunas96),
+   logLx=27.82(Zhu25/final), logLx/Lbol=-5.28(Lx/Zhu25,Lum/Stassun19),
+   logLx/Lbol=-5.29(Zhu25). Calculating gyrochronology age using
+   gyrointerp (Bouma23): Prot=21.11+-1d, Teff=5144+-31K =>
+   age(B)=2.393+0.256-0.210Gyr. Combining with A, adopt
+   age(36OphAB)=2.36+-0.2Gyr.
 
 HD 42286 = GJ 9202 = HIP 28898 = LHS 1818 = L 181-28 = NLTT 16099 = 2MASS J06060351-5932353 = Gaia DR3 5494452847462040192 
    K0V: Evans61
@@ -1544,7 +1553,7 @@ HD 220182 = BD+43 4445
   *G9V: Bidelman85(G9),Gray03
    K1V: Adams35,1952IzKry...9...82G,Cowley67
 
-HD 103095 = Groombridge 1830 = CF UMa = HR 4550 = LHS 44 = HIP 57939 
+HD 103095 = Groombridge 1830 = GJ 451 = CF UMa(?) = HR 4550 = LHS 44 = HIP 57939 = Gaia DR3 4034171629042489088
    G5V: Upgren62
    sdG5: Adams35
    G7V+: Keenan53
@@ -1556,44 +1565,54 @@ HD 103095 = Groombridge 1830 = CF UMa = HR 4550 = LHS 44 = HIP 57939
    G9VgG2mG7: Abt86
   *K1V Fe-1.5: Gray03
 
-   I believe "S 3582" (11:47+38:26 V=6.5mag) in MK43 is actually HD
-   103095 as the B1900 coordinates roughly line up and it is also
-   V=6.5 (but the odd designation "S" does not appear to match any ID
-   in SIMBAD), and the position and magnitude perfectly match
-   "Groom. 1830" in entry #220 in the catalog of Adams & Joy 1917
-   (1917ApJ....46..313A).  Remarkably low metallicity ([Fe/H] ~ -1.3)
-   star at d=9pc, only included here because it is a very nearby,
-   bright G/K dwarf with an unusual history (controversial companion
-   that may not exist).  SIMBAD has comment "CF UMa was a suspected
-   flaring companion; it is not clear that it actually exists (see
-   Heintz, 1984PASP...96..557H)."  Noteworthy that it is *not* in SB9
-   or WDS and Kervella22 reports a negligible tangential velocity
-   anomaly (1.13+-1.17m/s).  Beardsley74 reports some detail and a
-   preliminary orbital solution of Tperiastron = 1920, a=13au,
-   M1+M2=0.6Msun.: "Van de Kamp (1969) has repported the existence of
-   a companion 5 or 6 mag fainter with a separation of 1.7" which
-   flared on 1968 Feb 27." "The velocities from the late 1930s to date
-   show a steady slow increase towards more positive values." "A
-   change in velocity is evidence around 1920, suggesting that
-   periastron passage ocurred near that time."  "HD 103095 was
-   included in the original IAU list of standard velocity stars
-   (Plaskett 1935)." However observations of the star by Griffin84
-   during 1974-1984 found no evidence of RV variations and no sign of
-   a predicted periastron passage. Similarly,
-   Heintz84(1984PASP...96..557H) found no evidence for a companion
-   after reexaming archival data from 1960s and 1970s. Latham02
-   reports N=327 observations with chi2=319.38 and chi2 probability of
-   0.593 (internal mean error 0.47 km/s, external mean error 0.46
-   km/s) but left the field blank for binarity - apparently the RV
-   signal was not indicative of a binary, and certainly not one where
-   an orbit could be derived. VSX reports magnitude ranging from 6.6
-   to 7.2. V=6.45 (2002yCat.2237....0D),
+   Remarkably metal poor and inactive nearby K dwarf.  I believe "S
+   3582" (11:47+38:26 V=6.5mag) in MK43 is actually HD 103095 as the
+   B1900 coordinates roughly line up and it is also V=6.5 (but the odd
+   designation "S" does not appear to match any ID in SIMBAD), and the
+   position and magnitude perfectly match "Groom. 1830" in entry #220
+   in the catalog of Adams & Joy 1917 (1917ApJ....46..313A).
+   Remarkably low metallicity ([Fe/H] ~ -1.3) star at d=9pc, only
+   included here because it is a very nearby, bright G/K dwarf with an
+   unusual history (controversial companion that may not exist).
+   SIMBAD has comment "CF UMa was a suspected flaring companion; it is
+   not clear that it actually exists (see Heintz,
+   1984PASP...96..557H)."  Noteworthy that it is *not* in SB9 or WDS
+   and Kervella22 reports a negligible tangential velocity anomaly
+   (1.13+-1.17m/s).  Beardsley74 reports some detail and a preliminary
+   orbital solution of Tperiastron = 1920, a=13au, M1+M2=0.6Msun.:
+   "Van de Kamp (1969) has repported the existence of a companion 5 or
+   6 mag fainter with a separation of 1.7" which flared on 1968 Feb
+   27." "The velocities from the late 1930s to date show a steady slow
+   increase towards more positive values." "A change in velocity is
+   evidence around 1920, suggesting that periastron passage ocurred
+   near that time."  "HD 103095 was included in the original IAU list
+   of standard velocity stars (Plaskett 1935)." However observations
+   of the star by Griffin84 during 1974-1984 found no evidence of RV
+   variations and no sign of a predicted periastron
+   passage. Similarly, Heintz84(1984PASP...96..557H) found no evidence
+   for a companion after reexaming archival data from 1960s and
+   1970s. Latham02 reports N=327 observations with chi2=319.38 and
+   chi2 probability of 0.593 (internal mean error 0.47 km/s, external
+   mean error 0.46 km/s) but left the field blank for binarity -
+   apparently the RV signal was not indicative of a binary, and
+   certainly not one where an orbit could be derived. VSX reports
+   magnitude ranging from 6.6 to 7.2. V=6.45 (2002yCat.2237....0D),
    Ks=4.373+-0.027(2MASS). plx=109.0296+-0.0197mas(GaiaDR3).  PASTEL
    compendium averages from Soubiran22: <Teff> = 5057+-18K(N=54),
    logg=4.64+-0.04(N=43), [Fe/H]=-1.33+-0.02(N=44).  So a putative
    flaring companion "CF UMa" appears to be spurious (Heintz84), and
    it does not appear that any modern references consider this a
-   multiple system.
+   multiple system.  Prot=31d(Baliunas96), logR'HK=-4.896(Baliunas96),
+   logLx=26.52(Schmitt04/ROSAT).  Zhu25 identifies it as one of the 4
+   most coronally (X-ray) inactive (logLx/Lbol < -6.5) nearby K stars
+   (with GJ 451 and GJ 615 as K dwarfs, and GJ 807 and GJ 150 as K
+   subgiants).  Binder24 mentions the Chandra pointing but says it was
+   not detected and only quote upper limit fX<4.9e-4ct/s. GaiaDR3:
+   plx=109.0296+-0.0197mas(GaiaDR3), G=6.198502+-0.002767(GaiaDR3),
+   Bp-Rp=1.001649, Bp-G=0.408920, G-Rp=0.592729.  Star's radial
+   velocity is -98.05+-0.12km/s(GaiaDR3)!
+   
+   
 
 HD 6569 = UGP 16
    K1V: Houk88,Torres06

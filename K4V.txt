@@ -827,6 +827,7 @@ M_J(K4V) =   5.83 ; GJ_906_ K4V plx=50.3962mas
 => adopt M_J(K4V) = 5.12 [updated 10/5/2025]
 [EEM 10/1/2025 trend for 3 standards: M_J(K4V) = 5.058 - 1.4615*[Fe/H] (rms=0.125mag)
    trend for 3 standards+2 exemplars: M_J(K4V) = 5.024 - 0.4076*[Fe/H] (rms=0.092mag)]
+=> adopt M_i(K4V) = 6.40 [updated 12/1/2025] (M_J=5.12, i-J=1.28)
 
 M_Ks(K4V) =   3.75 ; GJ_719_ K4Ve+K7.5Ve plx=60.3814mas
 M_Ks(K4V) =   4.11 ; GJ_715_ K4V plx=53.1586mas
@@ -1171,10 +1172,12 @@ GJ 570A = HD 131977 = HR 5568 = HIP 73184 = KX Lib = LHS 387 = StKM 2-1093 = CNS
   PASTEL (N=17), mean properties Teff=4616+-34K, [Fe/H]=+0.02+-0.04,
   logg=4.31+-0.14. Soubiran22/PASTEL mean values:
   Teff=4632+-15K(N=21), logg=4.49+-0.08(N=12),
-  [Fe/H]=+0.02+-0.04(N=12).  Rains20: tetLD=1.130+-0.014mas,
-  Rad=0.715+-0.009Rsun, fbol = (17.6+-1.1)e-8 erg/s/cm2 (=>
-  mbol=5.389+-0.068 IAU2015 scale), Teff=4505+-76K, L=0.19+-0.01Lsun
-  (=> logL = -0.72+-0.02). BCv = mbol - V = 5.389+-0.068 - 5.72 =
+  [Fe/H]=+0.02+-0.04(N=12). Soubiran24(see erratum, includes this star
+  since it was in Rains20): Teff=4657+-70K, logg=4.60+-0.02,
+  [Fe/H]=+0.02.  Rains20: tetLD=1.130+-0.014mas, Rad=0.715+-0.009Rsun,
+  fbol = (17.6+-1.1)e-8 erg/s/cm2 (=> mbol=5.389+-0.068 IAU2015
+  scale), Teff=4505+-76K, L=0.19+-0.01Lsun (=> logL =
+  -0.72+-0.02). BCv = mbol - V = 5.389+-0.068 - 5.72 =
   -0.331+-0.07. Although there is a measured diameter, I'll mention
   the predicted diameter inferred from photometry and
   surface-brightness relations from Bourges17:
@@ -1213,7 +1216,7 @@ GJ 570A = HD 131977 = HR 5568 = HIP 73184 = KX Lib = LHS 387 = StKM 2-1093 = CNS
 
 # Deprecated Standards
 
-GJ 719 = HD 234677 = BY Dra 
+GJ 719 = HD 234677 = BY Dra = HIP 91009 = ZUC 16A = CABS 156 = SBC9 1069 = SBC7 695 = WDS J18339+5144A = Gaia DR3 2145277550935525760 
  *K4Ve+K7.5Ve : Keenan80(K4V+K7.V),Keenan89(SB!)
   K4Vke : Gray03
   K5: Bidelman85(K5)
@@ -1226,7 +1229,9 @@ GJ 719 = HD 234677 = BY Dra
   the composite spectrum "shortward of about 4300A the type is K4V,
   while from the blue-green to the red a type of about K7.5 fits".
   Conclusion: poor choice of standard. Keenan80 estimates the
-  individual magnitudes to be V(A)=8.66, V(B)=9.62.
+  individual magnitudes to be V(A)=8.66, V(B)=9.62.  Unresolved X-ray
+  luminosity: logLx=29.808(Houdebine17),
+  logLx=29.92(Hinkel17,Leitzinger20), logLx/Lbol=-3.11(Hinkel17).
 
 # Exemplars
 
@@ -1289,7 +1294,9 @@ GJ 845 = eps Ind = HD 209100 = HIP 108870 = HR 8387 = LHS 67 = PLX 5314 = SOZ 1A
    (Ramirez13). Blackwell98 IRFM gets
    Teff=4577K(+-0.8%). Soubiran22/PASTEL mean values: Teff=4641+-21K,
    logg=4.29+-0.22, [Fe/H]=-0.13+-0.03. Soubiran24/Gaia FGK benchmark
-   values: Teff=4754+-35K, Lum=0.217+-0.006Lsun, Rad=0.688+-0.005Rsun,
+   values (but see erratum which includes this star; they apparently
+   accidently adopted tetUD instead of tetLD from Rains20) - updated
+   values: Teff=4676+-35K, Lum=0.217+-0.006Lsun,
    Mass(BASTI)=0.719+-0.012, Mass(STAREVOL)=0.730+-0.016Msun,
    logg=4.62+-0.01, [Fe/H]=-0.13+-0.03.  Binary T dwarf companions
    402" away, and Feng18 claims Jupiter-like planet orbiting A.
@@ -1582,9 +1589,16 @@ GJ 702B = 70 Oph B = HD 165341 B = HR 6752B = LHS 459 = STF 2272B = ADS 11046B =
    (V-Hp)(K0V)=-0.144, (V-Hp)(K4V)=-0.129, V(K0V)-V(K4V) +
    Hp(K4V)-Hp(K0V) = -0.144 - -0.129 = -0.015 => del(Hp) - del(V) =
    -0.015 => del(V)=del(Hp)+0.015=1.855+-0.04.
-   [Fe/H]=0.04+-0.05(Eggenberger08). Teff=4393+-149K(Boyajian12),
-   4390+-200K(Eggenberger08) => adopt Teff=4390K, although this seems
-   ~-200K from other K4Vs of similar
+   [Fe/H]=0.04+-0.05(Eggenberger08).  G=5.539218(GaiaDR3) => G-V =
+   5.539218 - 6.061 = -0.522 (seems discrepent compared to other
+   K4Vs). Mv(B)=7.52+-0.02(V_Eggenberger08,plx_GaiaDR3),
+   M_G=6.999+-0.004(GaiaDR3).  Temperatures: Teff=4228K(Brown22),
+   Teff=4234+-70K(Houdebine12), Teff=4321+-144K(Hardegree-Ullman23),
+   Teff=4348+-70K(Tuchow24), Teff=4360+-102K(Newton15#2),
+   Teff=4390+-200K(Eggenberger08), Teff=4393+-149K(Boyajian12),
+   Teff=4400+-100K(Seli22), Teff=4465+-10K(Houdebine19),
+   Teff=4475+-33K(Newton15#1), => adopt Teff=4390K, although this
+   seems ~-200K from other K4Vs of similar
    metallicity. M=0.73+-0.01Msun(Eggenberger08). plx=195.8563+-0.2535mas(GaiaDR3),
    plx=195.2166+-0.1012 mas(GaiaDR2).  Boyajian12 reports angular
    diameter measurement (limb-darkened estimate) of
@@ -1597,22 +1611,24 @@ GJ 702B = 70 Oph B = HD 165341 B = HR 6752B = LHS 459 = STF 2272B = ADS 11046B =
    metallicity [Fe/H]=+0.01+-0.03, i.e. roughly solar. Neither entry
    has a Teff representative of 70 Oph B, however. So the mass and
    radius of the ~solar metallicity 70 Oph B differ by ~9% from solar
-   values.  Notes on ages of the 70 Oph system: The system seems to
-   give young rotation/activity-based ages, but old isochronal
-   ages. 70 Oph A is fairly active and Eiroa13 estimates X-ray age of
-   1.01 Gyr and CaHK age of 1.05 Gyr (for logLx/Lbol=-5.2 and
-   logR'HK=-4.586), other estimates are 1.3Gyr(Seli22), 1.1 &
-   1.9Gyr(Mamajek08,R'HK), 1.3+-0.3Gyr(Ramirz12,rotation) However
+   values. logL=-0.7843+-0.0238(Stassun19).  Ages/Activity:
+   Prot=34d(Baliunas96), logLx=27.70(Ayres25;del(logLx,AB)=0.64),
+   logLx=27.97(Wood18;del(logLx,AB)=0.12),
+   logLx=28.09(Wood06;del(logLx,AB)=0.18).  Ayres25(2020.1-2025.2):
+   Lx/Lbol=(80+-10)e-7(Ayres25) => logLx/Lbol=-5.097+-0.055(Ayres25),
+   Lx=(5.0+-0.9)e27erg/s(Ayres25), logLx=27.70(Ayres25).  The system
+   seems to give young rotation/activity-based ages, but old
+   isochronal ages. 70 Oph A is fairly active and Eiroa13 estimates
+   X-ray age of 1.01 Gyr and CaHK age of 1.05 Gyr (for logLx/Lbol=-5.2
+   and logR'HK=-4.586), other estimates are 1.3Gyr(Seli22), 1.1 &
+   1.9Gyr(Mamajek08,R'HK), 1.3+-0.3Gyr(Ramirez12,rotation) However
    using evolutionary tracks authors get: 8.66+-3.31Gyr(Luck17),
    3.45(2.06-8.33;1sigma;Ramirez13).  Note the star has very low space
    velocity (U,V,W = +4, -21, -20) more consistent with being
    young. Ramrirez12 measures Li abundance A(Li)=0.58+-0.07 for the
    primary, which for Teff~5300K, which suggests it is younger than
    typical early K dwarfs, supporting the younger age estimates.
-   G=5.539218(GaiaDR3) => G-V = 5.539218 - 6.061 = -0.522 (seems
-   discrepent compared to other
-   K4Vs). Mv(B)=7.52+-0.02(V_Eggenberger08,plx_GaiaDR3),
-   M_G=6.999+-0.004(GaiaDR3).
+   
 
         G =  5.5392+-0.0028 ; exemplar GJ 702B = 70 Oph B ([Fe/H]=-0.02)     
   (Bp-Rp)(K4V) =  1.4857 ; exemplar GJ 702B = 70 Oph B ([Fe/H]=-0.02)    

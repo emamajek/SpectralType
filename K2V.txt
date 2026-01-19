@@ -420,6 +420,9 @@ dwarfs, which factors in trend as function of B-V]
 (i-z)(K2V) = 0.11 ; Covey07
 => adopt (i-z)(K2V) = 0.10 [updated 6/20/2024]
 
+(i-J)(K2V) = 1.10 ; Covey07(i-z=0.11, z-J=0.99)
+=> adopt (i-J)(K2V) = 1.10 [updated 12/1/2025] 
+
 (z-J)(K2V) = 0.99 ; Covey07
 => adopt (z-J)(K2V) = 0.99 [updated 6/20/2024]
 
@@ -701,6 +704,7 @@ M_J(K2V) =    4.87 ; BD+82_733_ K2 plx=50.5133mas
 M_J(K2V) =     5.61 ; GJ_153_A_ K2V plx=55.8254mas
 => adopt M_J(K2V) = 4.515 [updated 11/15/2025] (M_Ks=3.985, J-Ks=0.53) 
 [however, note the clump in M_J values between 4.7 < M_G < 4.65]
+=> adopt M_i(K2V) = 5.615 [updated 12/1/2025] (M_J=4.515, i-J=1.10) 
 
 M_Ks(K2V) =    3.18 ; deprecated stan. HD_184467 plx=55.2767mas (K2V,Keenan89) 
 M_Ks(K2V) =    3.45 ; GJ_233_ K2Ve plx=68.4142mas
@@ -889,9 +893,11 @@ HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=
   V-Ks=2.078+-0.012(all transformed 2MASS system).  Teffs: 5097+-19K
   (Pecaut13), 5077+-35K(Boyajian12).  Soubiran22/PASTEL means:
   Teff=5098+-10K(N=44; logTeff=3.7074+-0.0009), logg=4.55+-0.02(N=37),
-  [Fe/H]=-0.08+-0.01(N=36).  Gaia DR2 photometry, G and Rp need
-  corrected via Evans18: G(corr)= 3.477, Bp(corr)=4.003, Rp(corr)=
-  2.806, (Bp-Rp)(corr)= 1.196, (Bp-G)(corr)= 0.525, (G-Rp)(corr)=
+  [Fe/H]=-0.08+-0.01(N=36). Soubiran24 (see erratum, includes this
+  star since it was in Rains20): Teff=5062+-29K, logg=4.60+-0.01,
+  [Fe/H]=-0.08.  Gaia DR2 photometry, G and Rp need corrected via
+  Evans18: G(corr)= 3.477, Bp(corr)=4.003, Rp(corr)= 2.806,
+  (Bp-Rp)(corr)= 1.196, (Bp-G)(corr)= 0.525, (G-Rp)(corr)=
   0.671. G-V=-0.249+-0.011(corr). G=3.465752+-0.003075(GaiaDR3),
   GaiaDR3: plx=310.5773+-0.1355mas(GaiaDR3),
   G=3.465752+-0.003075(GaiaDR3), E(Bp/Rp)=1.198(GaiaDR3),
@@ -945,6 +951,16 @@ HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=
   mbol=3.525(IAU2015scale), fbol=8.942e-10W/m2(Sreejith20/discrepent)
   => mbol=3.624(IAU2015scale).  => adopt mbol=3.490+-0.01 => BCv =
   -0.236+-0.014 = mbol - V = 3.490+-0.01 - 3.726+-0.01.
+  logLx/Lbol=-4.80(Coffaro20) => from fit to logLx/Lbol to log(age/yr)
+  for age-dated nearby K dwarfs and Praesepe+Hyades (between -6.43 <
+  logLx/Lbol < -4.45): log(age/yr) = 7.5932535568358972e-1 -
+  2.7024129578649640e0*logLx/Lbol - 1.9943363338582593e-1*(logLx/Lbol)
+  ^2 (rms=0.062dex) => log(age/yr)=9.136 => age(x-ray) = 1.368Gyr.
+  This is rough agreement with updated gyrochronological age
+  (1.119+0.096-0.130 Gyr) based on Bouma23 gyrointerp using
+  Teff=5062+-29K and Prot=11.60+-0.16d.  Both the rotation and X-ray
+  data are now suggesting an age slightly older than 1 Gyr, older than
+  majority of previous age estimates.
 
   BCv(K2V)    = -0.236 +-0.014 ; pri. stan. HD 22049 = eps Eri ([Fe/H]=-0.08)
   (J-H)(K2V)  = 0.424 +-0.009 ; pri. stan. HD 22049 = eps Eri ([Fe/H]=-0.08)
@@ -1859,6 +1875,20 @@ HD 221575
   
   31" away from companion. G-V=-0.234(GaiaDR3). Soubiran22/PASTEL
   catalog: Teff=5106+-35K, logg=4.63+-0.12, [Fe/H]=+0.04+-0.08.
+
+HD 208313 = GJ 840 = V402 Peg = HIP 108156 = NLTT 52419 = SPOCS 945 = BD+31 4574 = 2MASS J21544502+3219428 
+  K1: Bidelman85
+
+  plx=49.0785+-0.0230(GaiaDR3). Conflicting rotation periods:
+  Prot=4.51d(Strassmeier00,"P uncertain" based on only 14 data points,
+  then adopted by VSX).  Prot=30.422899(Oelkers18).  Activity:
+  logR'HK=-4.774(Isaacson24),
+  logR'HK=-4.807,-4.816,-4.858(BoroSaikia18),
+  logLx=27.81(Lopez-Santiago09), logLx(ROSAT)=27.74(Hinkel17),
+  logLx/Lbol(ROSAT)=-5.39(Hinkel17).  ROSAT: 2RXS(Boller16)
+  fx=0.0277+-0.0089ct/s, HR1=-0.780 => EEM calc fX=1.157e-13erg/s/cm2,
+  logLx=27.76, using Lum=0.3447Lsun(GaiaDR3/FLAME) => logL=-0.4626 =>
+  logLx/Lbol=-5.36 (roughly recovering the estimates from Hinkel17).
 
 # Notes on nearby Hipparcos stars with K2V types (mostly from Houk)
 

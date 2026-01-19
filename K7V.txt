@@ -898,7 +898,8 @@ M_J(K7V) =     6.05 ; Zhong15 sdK7 (subdwarf)
 M_J(K7V) =     7.38 ; GJ_3961_ K7V plx=59.8674mas (disrepent)
 M_J(K7V) =     7.40 ; Zhong15 esdK7 (extreme subdwarf)
 M_J(K7V) =     8.55 ; Zhong15 usdK7 (ultrasubdwarf)
-=> adopt M_J(K7V) = 5.625 [updated 10/21/2025] (M_Ks=4.83, J-Ks=0.795) 
+=> adopt M_J(K7V) = 5.625 [updated 10/21/2025] (M_Ks=4.83, J-Ks=0.795)
+=> adopt M_i(K7V) = 7.255 [updated 12/1/2025] (M_J=5.625, i-J=1.63)
 
 M_Ks(K7V) =   4.51 ; ter. stan. GJ 764.1B = HD 184860B ([Fe/H]=-0.04)
 M_Ks(K7V) =    4.53 ; GJ_32_B_ K7Ve plx=63.5753mas
@@ -1032,99 +1033,60 @@ GJ 820B = 61 Cyg B = HD 201092 = HR 8086 = LHS 63 = HIP 104217 = Gaia DR3 187204
   M1/3V: Lindblad22
 
   Nearest (3.5 pc) K7V star and longest history of consistent use as
-  standard. d=3.49623+-0.00035pc(plx=286.0054+-0.0289mas;GaiaDR3 plx, corrected using
-  Lindegren20).  PASTEL/Soubiran22 has it as only slightly metal poor
-  ([Fe/H]=-0.21). Note that star has moved ~83" since 2000!
-  Kervella08 measures angular radii for both 61 Cyg components
-  (tetLD(B)=1.581+-0.022mas => Rad(B)=0.595+-0.008Rsun) and models
-  them with evolutionary age 6 Gyr. Unclear why Hawley97 considered
-  this K7V standard star a K5V?  plx=286.0054+-0.0289mas(GaiaDR3).
-  V=6.02(Johnson53,Cowley67),
-  V=6.03(Johnson66,N=9;Hoffleit91/BSC),
-  V=6.03(Lutz71),
-  V=6.03(Alonso94),
-  V=6.04(Tolbert65),
-  V=6.05(HIP),
-  V=6.05(Haeggkvist70),
-  V=6.055+-0.024(Mermillod91),
-  V=6.06(Eggen71), 
-  V=6.060606(GaiaDR3,synth),
-  V=6.07(Moreno71,N=9),
-  V=6.07(Argue63),
-  V=6.088(Moffet79,N=12),
-  V=6.091(Blanco79,N=12)
-  => adopt V=6.055(Mermilliod91).
-  B-V=1.309+-0.012(HIP),
-  B-V=1.319+-0.011(Moffet79,N=12),
-  B-V=1.320(Blanco79,N=12),
-  B-V=1.32(Moreno71,N=9),
-  B-V=1.35(Argue63),
-  B-V=1.354+-0.024(Mermilliod91),
-  B-V=1.363(Haeggkvist70),
-  B-V=1.37(Johnson66,N=9;Eggen71,BSC/Hoffleit91),
-  B-V=1.37(Alonso94),
-  B-V=1.37(Lutz71),
-  B-V=1.38(Johnson53,Cowley67),
-  B-V=1.38(Tolbert65)
-  => adopt B-V=1.354(Mermilliod91).
-  U-B=1.21(Lutz71),
-  U-B=1.23(Eggen71/std), 
-  U-B=1.23(Johnson53,Cowley67),
-  U-B=1.23(Johnson66,N=9;Hoffleit91/BSC),
-  U-B=1.23(Argue63),
-  U-B=1.23(Haeggkvist70),
-  U-B=1.23(Alonso94),
-  U-B=1.23(Moreno71,N=9),
-  U-B=1.231+-0.006(Mermilliod91),
-  U-B=1.24(Tolbert65),
+  standard. d=3.49623+-0.00035pc(plx=286.0054+-0.0289mas;GaiaDR3 plx,
+  corrected using Lindegren20).  PASTEL/Soubiran22 has it as only
+  slightly metal poor ([Fe/H]=-0.21). Note that star has moved ~83"
+  since 2000!  Kervella08 measures angular radii for both 61 Cyg
+  components (tetLD(B)=1.581+-0.022mas => Rad(B)=0.595+-0.008Rsun) and
+  models them with evolutionary age 6 Gyr. Unclear why Hawley97
+  considered this K7V standard star a K5V?
+  plx=286.0054+-0.0289mas(GaiaDR3).  V=6.02(Johnson53,Cowley67),
+  V=6.03(Johnson66,N=9;Hoffleit91/BSC), V=6.03(Lutz71),
+  V=6.03(Alonso94), V=6.04(Tolbert65), V=6.05(HIP),
+  V=6.05(Haeggkvist70), V=6.055+-0.024(Mermillod91), V=6.06(Eggen71),
+  V=6.060606(GaiaDR3,synth), V=6.07(Moreno71,N=9), V=6.07(Argue63),
+  V=6.088(Moffet79,N=12), V=6.091(Blanco79,N=12) => adopt
+  V=6.055(Mermilliod91).  B-V=1.309+-0.012(HIP),
+  B-V=1.319+-0.011(Moffet79,N=12), B-V=1.320(Blanco79,N=12),
+  B-V=1.32(Moreno71,N=9), B-V=1.35(Argue63),
+  B-V=1.354+-0.024(Mermilliod91), B-V=1.363(Haeggkvist70),
+  B-V=1.37(Johnson66,N=9;Eggen71,BSC/Hoffleit91), B-V=1.37(Alonso94),
+  B-V=1.37(Lutz71), B-V=1.38(Johnson53,Cowley67), B-V=1.38(Tolbert65)
+  => adopt B-V=1.354(Mermilliod91).  U-B=1.21(Lutz71),
+  U-B=1.23(Eggen71/std), U-B=1.23(Johnson53,Cowley67),
+  U-B=1.23(Johnson66,N=9;Hoffleit91/BSC), U-B=1.23(Argue63),
+  U-B=1.23(Haeggkvist70), U-B=1.23(Alonso94), U-B=1.23(Moreno71,N=9),
+  U-B=1.231+-0.006(Mermilliod91), U-B=1.24(Tolbert65),
   U-B=1.242(Blanco79,N=12) => adopt U-B=1.231(Mermilliod91).
   Johnson(V=6.05,R=4.88,V-R=1.17) => converted to Cousins via Fernie83
   => (V-Rc)=0.829, Rc=5.221.  Johnson(V=6.055,I=4.055,V-I=2.00) =>
   converted to Cousins via Fernie83 => (V-Ic)=1.957, Ic=4.593.
-  Rj=4.86(Johnson66),
-  Rk=5.26(Eggen71), 
-  Rk=5.27+-0.02(Kron57), 
-  Rc=5.201894(GaiaDR3/synth), 
-  Rc=5.201(Johnson66=>Cousins via Fernie83),
-  R=5.27(GCPD,Kron system).
-  V-Rj=1.17(Johnson66,Mallama18),
-  V-Rj=1.231+-0.013(Moffet79,N=12),
-  V-Rk=0.785(Kron57+Mermilliod91),
-  V-Rk=0.800(Eggen71), 
-  V-Rc=0.783(Kron57/Mermilliod91=>Cousins), 
-  V-Rc=0.82(Mallama18), 
+  Rj=4.86(Johnson66), Rk=5.26(Eggen71), Rk=5.27+-0.02(Kron57),
+  Rc=5.201894(GaiaDR3/synth), Rc=5.201(Johnson66=>Cousins via
+  Fernie83), R=5.27(GCPD,Kron system).
+  V-Rj=1.17(Johnson66,Mallama18), V-Rj=1.231+-0.013(Moffet79,N=12),
+  V-Rk=0.785(Kron57+Mermilliod91), V-Rk=0.800(Eggen71),
+  V-Rc=0.783(Kron57/Mermilliod91=>Cousins), V-Rc=0.82(Mallama18),
   V-Rc=0.829(Johnson66=>Cousins via Fernie83),
-  V-Rc=0.854+-0.008(Taylor86),
-  V-Rc=0.859(GaiaDR3/synth) => adopt V-Rc=0.83. 
-  R-Ij=0.83(BSC/Hoffleit91,Mallama18),
-  R-Ij=0.838+-0.016(Moffet79,N=12) => adopt R-Ij=0.838. 
-  R-Ik=0.60+-0.03(Kron57), 
-  R-Ic=0.73(Johnson66=>Cousins via Fernie83),
-  R-Ic=0.745+-0.005(Taylor86),
-  R-Ic=0.768(Kron57=>Cousins),
-  R-Ic=0.774(GaiaDR3/synth),
-  R-Ic=0.794(Eggen71=>Cousins), 
-  R-Ic=0.80(Mallama18)
-   => adopt R-Ic=0.745. 
-  Ij=4.03(Johnson66),
+  V-Rc=0.854+-0.008(Taylor86), V-Rc=0.859(GaiaDR3/synth) => adopt
+  V-Rc=0.83.  R-Ij=0.83(BSC/Hoffleit91,Mallama18),
+  R-Ij=0.838+-0.016(Moffet79,N=12) => adopt R-Ij=0.838.
+  R-Ik=0.60+-0.03(Kron57), R-Ic=0.73(Johnson66=>Cousins via Fernie83),
+  R-Ic=0.745+-0.005(Taylor86), R-Ic=0.768(Kron57=>Cousins),
+  R-Ic=0.774(GaiaDR3/synth), R-Ic=0.794(Eggen71=>Cousins),
+  R-Ic=0.80(Mallama18) => adopt R-Ic=0.745.  Ij=4.03(Johnson66),
   Ic=4.471(Johnson66=>Cousins via Fernie83),
-  Ic=4.427777(GaiaDR3,synth),
-  Ik=4.665(Eggen71), 
-  Ik=4.67(GCPD,Kron57),
-  V-Ij=2.00(Johnson66),
-  V-Ij=2.069(Moffet79,N=12) => V-Ij=2.035+-0.035:. 
-  V-Ik=1.385(Kron57/Mermilliod91),
-  V-Ik=1.395(Eggen71), 
-  V-Ic=1.27+-0.01(HIP;discrepent),
+  Ic=4.427777(GaiaDR3,synth), Ik=4.665(Eggen71), Ik=4.67(GCPD,Kron57),
+  V-Ij=2.00(Johnson66), V-Ij=2.069(Moffet79,N=12) =>
+  V-Ij=2.035+-0.035:.  V-Ik=1.385(Kron57/Mermilliod91),
+  V-Ik=1.395(Eggen71), V-Ic=1.27+-0.01(HIP;discrepent),
   V-Ic=1.559(Johnson66=>Cousins via Fernie83),
   V-Ic=1.563(Kron57/Mermilliod91=>Cousins),
-  V-Ic=1.572(Eggen71/Kron=>Cousins), 
-  V-Ic=1.599(Taylor86), 
-  V-Ic=1.633(GaiaDR3/synth) => adopt V-Ic=1.563. 
-  Too bright for 2MASS (+-0.3 mag errors).
-  J=3.470+-0.020(Alonso94), H=2.837+-0.015(Alonso94), ,
-  K=2.680+-0.017(Alonso94). Converting the Alonso94 photometry to CIT,
-  then to 2MASS via Carpenter01:
+  V-Ic=1.572(Eggen71/Kron=>Cousins), V-Ic=1.599(Taylor86),
+  V-Ic=1.633(GaiaDR3/synth) => adopt V-Ic=1.563.  Too bright for 2MASS
+  (+-0.3 mag errors).  J=3.470+-0.020(Alonso94),
+  H=2.837+-0.015(Alonso94), , K=2.680+-0.017(Alonso94). Converting the
+  Alonso94 photometry to CIT, then to 2MASS via Carpenter01:
   (J-H)=0.659+-0.044(Alonso94/TCS=>CIT=>2MASS),
   (H-Ks)=0.152+-0.037(Alonso94/TCS=>CIT=>2MASS),
   (J-Ks)=0.804+-0.043(Alonso94/TCS=>CIT=>2MASS),
@@ -1182,6 +1144,7 @@ GJ 820B = 61 Cyg B = HD 201092 = HR 8086 = LHS 63 = HIP 104217 = Gaia DR3 187204
   mbol=5.232+-0.006(IAU2015 scale),
   fbol=(19.8923+-0.1111)e-11W/m2(VOSA SED fit, but only to ~10 points)
   => mbol=5.256+-0.006(IAU 2015 scale).
+  Lum=0.097+-0.003Lsun(Soubiran24),
   Lum=0.09445(0.08944,0.09946)Lsun(GaiaDR3).  While I adopt the Mann15
   value, which is in good agreement with Alonso96, I note that there
   are some discrepencies in the fbol and hence the Lbol at the ~26%
@@ -1212,13 +1175,16 @@ GJ 820B = 61 Cyg B = HD 201092 = HR 8086 = LHS 63 = HIP 104217 = Gaia DR3 187204
   it is challenging to query all the catalogs given the high proper
   motion - using limited UBV photometry + poor 2MASS photometry, I get
   Lbol=0.07600+-0.0004395Lsun for a Teff=4000K, logg=4.5, [Fe/H]=0
-  model.  Stranegely, vanBelle09 adopts Av=0.232+-0.012mag for 61 Cyg
-  B but Av=0.000+-0.011mas for 61 Cyg A, so presumably their fbol
+  model.  Strangely, vanBelle09 adopts Av=0.232+-0.012mag for 61 Cyg B
+  but Av=0.000+-0.011mas for 61 Cyg A, so presumably their fbol
   estimate (25.55+-0.47)e-8 erg/s/cm2 is similarly inflated.
   Soubiran24 Gaia FGK benchmark: Teff=4174+-47K, Lum=0.097+-0.003Lsun
   Rad=0.594+-0.008Rad, Mass=0.613+-0.011Msun(BASTI),
   Mass=0.617+-0.009Msun(STAREvol), logg=4.68+-0.02,
-  [Fe/H]=-0.21+-0.07.
+  [Fe/H]=-0.21+-0.07. logLx=26.88+-0.10(Booth17),
+  logLx=26.88(Zhu25/Chandra), logLx=26.93(Zhu25/final),
+  logLx=26.93(Zhu25/ROSAT/HRI), logLx/Lbol=-5.63(Zhu25). adopt
+  logLx=26.93(Zhu25), Lum=0.097Lsun(Soubiran24) => logLx/Lbol=-5.64.
 
   (B-V)(K7V)  = 1.354 ; pri. stan. GJ 820B = 61 Cyg B = HD 201092 ([Fe/H]=-0.33)
   (U-B)(K7V)  = 1.231 ; pri. stan. GJ 820B = 61 Cyg B = HD 201092 ([Fe/H]=-0.33)
