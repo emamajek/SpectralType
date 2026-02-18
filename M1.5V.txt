@@ -10,16 +10,16 @@ than average for the type. I attempt to derive properties as average for field
 stars with ~solar metallicity. 
 
 KeenanMcNeil76 standard:        GJ 49 - M1.5V
-Keenan80 standard:              GJ 205 (=HD 36395) - M1.5V
-Keenan83 standard:              GJ 205 (=HD 36395) - M1.5V
+Keenan80 standard:              GJ 205  (=HD 36395) - M1.5V
+Keenan83 standard:              GJ 205  (=HD 36395) - M1.5V
 	                        GJ 570B (=HD 131976) - M1.5V
-Turnshek85 standard:            GJ 205 (=HD 36395) - dM1.5
-KeenanYorka85 standard:         GJ 205 (=HD 36395) - M1.5V
+Turnshek85 standard:            GJ 205  (=HD 36395) - dM1.5
+KeenanYorka85 standard:         GJ 205  (=HD 36395) - M1.5V
 	      			GJ 570B (=HD 131976) - M1.5V 
-Corbally86 standard:            GJ 205 (=HD 36395) - M1.5V 
-Keenan88 standard:              GJ 205 (= HD36395) - M1.5V
-                                GJ 570B - M1.5V
-Keenan89 standard:              GJ 205 (= HD 36395) - M1.5V
+Corbally86 standard:            GJ 205  (=HD 36395) - M1.5V 
+Keenan88 standard:              GJ 205  (=HD36395) - M1.5V
+                                GJ 570B (=HD 131976) - M1.5V
+Keenan89 standard:              GJ 205  (=HD 36395) - M1.5V
                                 GJ 570B (=HD 131976) - M1.5V
 Kirkpatrick91 standard:         GJ 205 (=HD 36395) - M1.5V
 Keenan99 standard:              GJ 205 (=HD 36395) - M1.5Ve ("M1.5e V")
@@ -32,8 +32,8 @@ GrayAtlas standard:             GJ 15A (=BD+43 44A) - M1.5V
 GrayNstars standard:            GJ 570B (=HD 131976) - M1.5V
 Cruz07 standard:                GJ 2025 - M1.5V (optical spec. stan.) 
 Kirkpatrick(in GrayCorbally09): GJ 205 - M1.5V (optical spec. stan. from Kirkpatrick91) 
-	       			GJ 570B - M1.5V
-Alonso-Floriano15 standards:    GJ 205 (=HD 36395) - M1.5V ("prototype")
+	       			GJ 570B (=HD 131976) - M1.5V
+Alonso-Floriano15 standards:    GJ 205  (=HD 36395) - M1.5V ("prototype")
 		  	        GJ 3014 (=G 242-48) - M1.5V ("reference")
 			        GJ 49 (=BD+61 195) - M1.5V ("reference")
 			        GJ 450 (=BD+36 2219) - M1.5V ("reference")
@@ -1055,30 +1055,47 @@ GJ 570BC = LHS 386 = HD 131976 = BD-20 4123 = Lalande 27173BC
 GJ 625 = G 202-48 = HIP 80459 = 2MASS J16252459+5418148 = NLTT 42804 = Gaia DR2 1428427236986209024
   M0: Lee47
   M1.5V: Henry94,Reid95,Henry02(stan),Alonso-Floriano15
- *M2V: Vyssotsky56,Stephenson86,Lepine13(M2.0),Gaidos14(M2),Mann15(M2.1)
+ *M2V: Vyssotsky56,Stephenson86,Lepine13(M2.0),Gaidos14(M2),Mann15(M2.1),SuarezMascareno17
   sdM2.3e: Houdebine19
+  M2.5+-0.4: Koo26
   M3: RojasAyala12(K-band)
   
   Only listed as standard in one reference (Henry02), and references
   over past decades go back and forth M1.5 and M2, and RojasAyala12
-  lists even cooler type (M3) in near-IR, so probably not the best
-  choice of standard (and seems consistently red and faint compared to
-  other M1.5V standards).  Exoplanet host star
-  (SuarezMascreno17). SIMBAD lists as Ursa Major group member, WDS
-  lists it as WDS J16254+5418A = BWL 43A, but B appears to be 22nd
-  magnitude star 5.4" away and no comment on common proper motion
-  (single 2011 epoch) - but I've seen no other evidence it might be
-  binary.  V=10.12(vanAltena95), V=10.111+-0.018(Mermilliod91),
-  B-V=1.58(vanAltena965), B-V=1.603+-0.005(Mermilliod91),
-  U-B=1.280(Mermilliod91), J=6.608+-0.020(2MASS),
-  H=6.063+-0.018(2MASS), Ks=5.833+-0.024(2MASS),
-  G=9.139769+-0.002794(GaiaEDR3), V-Ks = 10.111 - 5.833 =
-  4.278. plx=154.3503+-0.0161mas(GaiaEDR3) => Mv = 11.054+-0.018, M_Ks
-  = 6.776+-0.024, M_G=10.082.  Published metallicities come up
-  consistently metal-poor: [Fe/H]=-0.26+-0.16(Schweitzer19),
-  -0.28+-0.13(Newton14), -0.35+-0.08(Mann15,Yee17),
-  -0.40+-0.09(Maldonado20), -0.41(Neves13#2), -0.42(Neves13#1),
-  -0.44+-0.20(Gaspar16=Jenkins09,Ammons06),
+  lists even cooler type (M3) in near-IR, so it is probably not the
+  best choice of standard (and seems consistently red and faint
+  compared to other M1.5V standards).  SuarezMascareno17 reported an
+  exoplanet b Porb=14.628d, a=0.078361au, Msini=2.82+-0.51Me,
+  e=0.13+0.12-0.09 SIMBAD lists as Ursa Major group member, but the
+  very low reported metallicities ([Fe/H]~-0.4) and slow rotation
+  (Prot = 74-85d;SuarezMascareno17) are completely inconsistent with
+  youth or association with the ~0.5Gyr-old Ursa Major cluster. Oddly,
+  while most sources cite Prot ~ 80d, Fetherolf23 found a
+  P=2.477570+-0.104d signal of amplitude 90ppm in the TESS Sector 25
+  light curve for GJ 625.  SuarezMascareno17 adopts stellar parameters
+  with unusually large uncertainties: logL=-1.894+-0.170(Maldonado17),
+  Mass=0.30+-0.07Msun(Maldonado17), Rad=0.31+-0.06Rsun(Maldonado17)
+  and conclude "GJ 625 b might potentially host liquid water depending
+  on its atmospheric conditions". Koo26(Sec.4) updates the orbit and
+  reduces the orbital period error by a factor of 3
+  (Porb=14.6288+-0.0027d, e=0.087+-0.079, K=1.76+-0.22m/s), but oddly
+  do not both update the mass for the planet.  WDS lists it as WDS
+  J16254+5418A = BWL 43A, but B appears to be 22nd magnitude star 5.4"
+  away and no comment on common proper motion (single 2011 epoch) -
+  but I've seen no other evidence it might be binary.
+  V=10.10(Reid02), V=10.12(vanAltena95),
+  V=10.111+-0.018(Mermilliod91), B-V=1.58(vanAltena965),
+  B-V=1.60(Reid02), B-V=1.603+-0.005(Mermilliod91),
+  U-B=1.280(Mermilliod91), V-Rc=1.01(Reid02), R-Ic=1.21(Reid02),
+  V-Ic=2.22(Reid02), J=6.608+-0.020(2MASS), H=6.063+-0.018(2MASS),
+  Ks=5.833+-0.024(2MASS), G=9.139769+-0.002794(GaiaEDR3), V-Ks =
+  10.111 - 5.833 = 4.278. plx=154.3503+-0.0161mas(GaiaEDR3) => Mv =
+  11.054+-0.018, M_Ks = 6.776+-0.024, M_G=10.082.  Published
+  metallicities come up consistently metal-poor:
+  [Fe/H]=-0.26+-0.16(Schweitzer19), -0.28+-0.13(Newton14),
+  -0.35+-0.08(Mann15,Yee17), -0.40+-0.09(Maldonado20),
+  -0.41(Neves13#2), -0.42(Neves13#1),
+  -0.44+-0.20(Gaspar16=Jenkins09,Ammons06), -0.49(Koo26),
   -1.054+-0.018(Xiang19). Photometric metallicity estimates using
   calibration of JohnsonApps09 yields [Fe/H]=-0.44, and
   SchlaufmanLaughlin10 yields [Fe/H]=-0.73.  So there seems to be
@@ -1088,6 +1105,7 @@ GJ 625 = G 202-48 = HIP 80459 = 2MASS J16252459+5418148 = NLTT 42804 = Gaia DR2 
   3490+-62K(Gaidos14#2), 3494+-73K(Gaidos14#1), 3499K(Stassun18),
   3500K(MartinezRodriguez19), 3500K(Rajpurohit18),
   3512+-68K(Maldonado20), 3513+-79K(Muirhead18), 3516K(Passeger18),
+  3516+-117K(HardegreeUllman23),
   3525+-51K(Schweitzer19,Fuhrmeister19), 3540+-34K(Mann15#2),
   3549+-157K(Stassun19), 3557+-9K(Fouque18), 3570K(Morales08),
   3575K(Stelzer13), 3576+-27K(Houdebine19), 3600K(Cifuentes20),
@@ -1097,12 +1115,27 @@ GJ 625 = G 202-48 = HIP 80459 = 2MASS J16252459+5418148 = NLTT 42804 = Gaia DR2 
   Lum=0.01397+-0.00007765 Lsun => logL = -1.8548+-0.0024.
   Luminosities: L=0.0200+-0.0059Lsun=>logL=-1.699+-0.132(Gaidos14),
   L=0.01628+-0.00388Lsun=>logL=-1.7883+-0.1055(Stassun19,TICv8),
-  L=0.014810+-0.000210Lsun=>logL=-1.8294+-0.0062(Martinez-Rodriguez19),
   L=0.01482+-0.000220Lsun=>logL=-1.8292+-0.0064(Schwietzer19),
-  L=1.410491600e-02+-2.481219400e-04Lsun=>logL=-1.8506+-0.0076(Cifuentes20),
-  logL=-1.8648+-0.0024(EEM,VOSA), logL=-1.86+-0.03(Magaudda20),
-  logL=-1.883+-0.164(Maldonado20) => adopt Cifuentes20
-  logL=-1.8506+-0.0076.
+  L=0.014810+-0.000210Lsun=>logL=-1.8294+-0.0062(Martinez-Rodriguez19),
+  L=0.0148+-0.000377Lsun=>logL=-1.82974+-0.01107(HardegreeUllman23),
+  L=1.410491600e-02+-2.481219400e-04Lsun(Cifuentes20)
+  =>logL=-1.8506+-0.0076(Cifuentes20), logL=-1.86+-0.03(Magaudda20),
+  logL=-1.8648+-0.0024(EEM,VOSA), logL=-1.883+-0.164(Maldonado20),
+  logL=-1.894+-0.170(Maldonado17/SuarezMascareno17), => adopt
+  Cifuentes20 value logL=-1.8506+-0.0076.  Radii:
+  Rad=0.3310+-0.0120Rsun(Mann15), Rad=0.320+-0.020Rsun(Stassun19/TIC),
+  Rad=0.324+-0.023Rsun(Yu23), Rad=0.336+-0.010Rsun(HardegreeUllman23),
+  Rad=0.338+-0.010Rsun(Stassun19/TIC,Koo26).  Masses:
+  Mass=0.3150+-0.0320Msun(Mann15),
+  Mass=0.320+-0.010Msun(Kirkpatrick24/from M_Ks),
+  Mass=0.321+-0.010Msun(HardegreeUllman23).
+  logg=4.8863+-0.0013(Stassun19/TIC).  For the planet b, combining the
+  updated orbital period from Koo26 (Porb(b)=14.6288d), luminosity
+  logL=-1.86+-0.03(Magaudda20), Mass=0.320Msun(Kirkpatrick24), I
+  estimate the planet's irradiance flux to be 2.22So, much hotter than
+  the Kopparapu13 optimistic hab zone (0.247-0.932So), and higher than
+  modern Venus (1.93So). So the planet may be a "hot" Venus analog,
+  but not "temperate".
 
 # Exemplars
 
