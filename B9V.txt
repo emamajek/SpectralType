@@ -468,21 +468,46 @@ HD 36998 = BD-04_1180 = TYC 4774-939-1 = Cl* NGC 1981 AR 96 = Parenago 1795 (J05
 
 # Deprecated Standards
 
-HD 196867 = alf Del = 9 Del = HR 7906 = HIP 101958
-  B9V: Chalong52,JM53,Osawa59,Jaschek64(most),Garrison67(stan),Cowley69(stan),Jaschek78(JM53)
+HD 196867 = alf Del = 9 Del = HR 7906 = HIP 101958 = Sualocin
+  B9V: Chalong52,JM53,Osawa59,Jaschek64(most),Garrison67(stan),Cowley69(stan)
   B9IV-V: Cowley72(stan)
- *B9IV: MK73,Garcia89,GarrisonGray94(stan)
+ *B9IV: MK73,GarrisonGray94(stan),Negueruela24(stan)
   B8: Cannon
 
-  It appears that this is now a B9IV according to MK73,
-  GarrisonGray94. The good news is that there is strong consensus on
-  the B9 type, so the colors are probably somewhat relevant for help
-  define mean B9 colors. dMv=-1.4 mag -- i.e. more evolved than
-  MS. ZAMS distance is 36+-7 pc, but vanLeeuwen07 plx = 12.85+-0.44
-  mas => D = 78+-3 pc, and Mv = -0.69.  M91: V=3.771+-0.004,
-  B-V=-0.057+-0.005, U-B=-0.204+-0.013 => updated Q-method
-  (10/11/2011) => (B-V)o=-0.071, (U-B)o=-0.215, E(B-V)=0.014,
-  Av=0.047.
+  Continuity in "B9" subtype since 1950s, and as B9IV standard since
+  MK73.  Multiplicity is complicated: WDS lists WCK 2 Aa+Ab (sep=0.2,
+  mag1=3.86, mag2=6.43) and CIA 23 Ab1,2 with same magnitudes
+  reported. WDS notes: "Spectroscopic binary now resolved by
+  interferometry. Uniform disk diameter 0.407 ± 0.022 mas, Limb
+  darkened diameter 0.420 ± 0.022 mas, Teff = 13300 ± 1300 K based on
+  LDD. Radius is 3.02 ± 0.19 \rsun.  WCK 2 Aa,Ab: Malkov et al. (2012)
+  derive dynamical, photometric, and spectroscopic masses 6.43 ± 3.52,
+  4.55, and 2.82 Msun, respectively."  GaiaDR3:
+  plx=13.7298+-0.3502mas(GaiaDR3), G=3.735891+-0.003487(GaiaDR3).
+  M91: V=3.771+-0.004(Mermilliod91), B-V=-0.057+-0.005(Mermilliod91),
+  U-B=-0.204+-0.013(Mermilliod91).  V-Rj=0.00(Ducati02),
+  V-Ij=-0.04(Ducati02), V-Jj=-0.08(Ducati02), V-Kj=-0.11(Ducati02).
+  Teffs: 10715+-49K(Zorec12), 11021K(Prugniel07#2),
+  11100+-100K(Gordon19/CHARA), 11110+-400K(Sokolov95,Prugniel07#1),
+  11220+-450K(Zorec09), 11643+-396K(David15) => adopt Teff=11066K.
+  logg=3.96+-0.25(Gordon19), logg=3.93+-0.14(David15).
+  Age=73(39-183;1sig)Myr(David15).
+  Mass=2.73Myr(David15). [Fe/H]=-0.03+-0.10(Gaspar16).
+  vsini=141km/s(Gordon19).  Reddening: The range in reddening values
+  in the literature, especially for such a nearby star, is somewhat
+  surprising.  E(B-V)=0.004(Kervella22/STILISM),
+  E(B-V)=0.023+-0.005(Paunzen24), E(B-V)=0.08(Gontcharv18/way too high
+  as usual), Gordon19 derived a very high E(B-V)=0.107mag, and derived
+  correspondingly hotter Teff=13300+-1300K(Gordon19) - wondering if
+  the unresolved multiplicity pulled it to redder reddenings.  The
+  full column of reddening at its position is only
+  E(B-V)=0.0797+-0.0024(Onken24/Planck maps), so it is hard to imagine
+  a star so nearby having E(B-V) near this.
+  Rad=3.02+-0.19Rsun(Gordon19).  EEM Q-method (2/8/2026) =>
+  (B-V)o=-0.071, (U-B)o=-0.215, E(B-V)=0.014, Av=0.047 (note this was
+  calibrated on dwarfs). I adopt the STILISM value from Kervella22:
+  E(B-V)=0.004. tetLD=0.420+-0.022mas(Gordon19) => w/GaiaDR3 plx =>
+  Rad=3.2890+-0.1916Rsun.
 
 HD 108767 = del CrV = HR 4757
   B9V: MK43,Jaschek64(all),Murphy69

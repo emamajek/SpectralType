@@ -7,19 +7,20 @@ GarrisonGray94 standard: 134 Tau - B9IV [low vsini standard]
 			 alf Del - B9IVn [high vsini standard]
 WiegertGarrison98 stan:  alf Del - B9IV 
 GrayNstars standard:     alf Del - B9IV
+Negueruela24 standard:   alf Del - B9IV [vsini=108km/s,Mv=-0.7]
 
 (B-V)(B9IV)  =  -0.095 ; nearby B9IVp lam Aql = HIP 93805 = HD 177756 (Gray03)
 (B-V)(B9IV)  =  -0.086 ; nearby B9IVn xi Tau = HIP 16083 = HD 21364 (GarrisonGray94)
 (B-V)(B9IV)  =  -0.071 ; nearby B9IVn kap And = HIP 116805 = HD 222439 (GarrisonGray94)
 (B-V)(B9IV)  =  -0.070 ; nearby B9IV  HIP 47391 = HD 83944 (GarrisonGray94)
-(B-V)(B9IV)  = -0.068  ; pri. stan. 134 Tau (see below)
+(B-V)(B9IV)  = -0.068  ; sec. stan. 134 Tau 
 (B-V)(B9IV)  =  -0.064 ; nearby B9IV  bet01 Tuc = HIP 2484 = HD 2884 (GrayGarrison87)
-(B-V)(B9IV)  = -0.057  ; pri. stan. alf Del (see below)
+(B-V)(B9IV)  = -0.057  ; pri. stan. HD 196867 = alf Del 
 => adopt B-V(B9IV) = -0.07 [updated 10/10/2023]
 
 (U-B)(B9IV)  =  -0.160 ; nearby B9IV  bet01 Tuc = HIP 2484 = HD 2884 (GrayGarrison87)
 (U-B)(B9IV)  = -0.164 ; pri. stan. 134 Tau (see below)
-(U-B)(B9IV)  = -0.204 ; pri. stan. alf Del (see below)
+(U-B)(B9IV)  = -0.204 ; pri. stan. HD 196867 = alf Del 
 (U-B)(B9IV)  =  -0.205 ; nearby B9IV  HIP 47391 = HD 83944 (GarrisonGray94)
 (U-B)(B9IV)  =  -0.229 ; nearby B9IVn kap And = HIP 116805 = HD 222439 (GarrisonGray94)
 (U-B)(B9IV)  =  -0.265 ; nearby B9IVp lam Aql = HIP 93805 = HD 177756 (Gray03)
@@ -40,75 +41,89 @@ GrayNstars standard:     alf Del - B9IV
 
 (V-Ks)(B9IV) = -0.086 ; pri. stan. 134 Tau (see below)
 
-Mv(B9IV) = -0.5 ; GrayCorbally09
+Mv(B9IV) = -0.5 ; GrayCorbally09 [updated 2/8/2026]
+Mv(B9IV) = -0.7 ; for sole Negueruela24 B9IV standard alf Del
 
 Teff(B9IV) =  12730K ; nearby B9IVn xi Tau = HIP 16083 = HD 21364 (GarrisonGray94) [med. PASTEL Teff]
 Teff(B9IV) =  11550K ; nearby B9IV  HIP 47391 = HD 83944 (GarrisonGray94) [median PASTEL Teff]
 Teff(B9IV) =  11435K ; nearby B9IVn kap And = HIP 116805 = HD 222439 (GarrisonGray94) [med. PASTEL Teff]
-Teff(B9IV) = 11060K ; pri. stan. alf Del (see below)
+Teff(B9IV) = 11100K ; pri. stan. HD 196867 = alf Del 
 Teff(B9IV) =  10765K ; nearby B9IVp lam Aql = HIP 93805 = HD 177756 (Gray03) [median PASTEL Teff]
 Teff(B9IV) =  10770K ; nearby B9IV  bet01 Tuc = HIP 2484 = HD 2884 (GrayGarrison87) [med. PASTEL Teff]
-Teff(B9IV) = 10825K ; pri. stan. 134 Tau (see below)
-=> adopt Teff(B9IV) = 11000K
+Teff(B9IV) = 10825K ; sec. stan. 134 Tau (see below)
+=> adopt Teff(B9IV) = 11100K (logTeff=4.0453) [updated 2/8/2026]
 
-logg(B9IV) =  3.94  ; pri. stan. 134 Tau (see below)
-logg(B9IV) =  3.98  ; pri. stan. alf Del (see below)
-=> adopt logg(B9IV) = 3.96 
+logg(B9IV) =  3.94  ; sec. stan. 134 Tau (see below)
+logg(B9IV) =  3.96  ; pri. stan. HD 196867 = alf Del 
+=> adopt logg(B9IV) = 3.95 [updated 2/8/2026]
 
 # Primary Standards
 
-HD 38899 = HR 2010 = 134 Tau 
+HD 196867 = alf Del = 9 Del = HR 7906 = HIP 101958 = Sualocin = Gaia DR3 1810711143451975296
+  B9V: Chalong52,JM53,Osawa59,Jaschek64(most),Garrison67(stan),Cowley69(stan)
+  B9IV-V: Cowley72(stan)
+ *B9IV: MK73,GarrisonGray94(stan),Negueruela24(stan)
+  B8: Cannon
+
+  Continuity in "B9" subtype since 1950s.  JohnsonMorgan53 originally
+  classified it B9V, but MK73 changed it to B9IVn, and all subsequent
+  studies have considered it the B9IVn standard (most notably
+  GarrisonGray94 and Negueruela24).  Multiplicity is complicated: WDS
+  lists WCK 2 Aa+Ab (sep=0.2, mag1=3.86, mag2=6.43) and CIA 23 Ab1,2
+  with same magnitudes reported. WDS notes: "Spectroscopic binary now
+  resolved by interferometry. Uniform disk diameter 0.407 ± 0.022 mas,
+  Limb darkened diameter 0.420 ± 0.022 mas, Teff = 13300 ± 1300 K
+  based on LDD. Radius is 3.02 ± 0.19 \rsun.  WCK 2 Aa,Ab: Malkov et
+  al. (2012) derive dynamical, photometric, and spectroscopic masses
+  6.43 ± 3.52, 4.55, and 2.82 Msun, respectively."  GaiaDR3:
+  plx=13.7298+-0.3502mas(GaiaDR3), G=3.735891+-0.003487(GaiaDR3).
+  M91: V=3.771+-0.004(Mermilliod91), B-V=-0.057+-0.005(Mermilliod91),
+  U-B=-0.204+-0.013(Mermilliod91).  V-Rj=0.00(Ducati02),
+  V-Ij=-0.04(Ducati02), V-Jj=-0.08(Ducati02), V-Kj=-0.11(Ducati02).
+  Teffs: 10000K(AllendePrieto99), 10705+-173K(Wu11),
+  10715+-49K(Zorec12), 11021K(Prugniel07#2),
+  11100+-100K(Gordon19/CHARA), 11110+-400K(Sokolov95,Prugniel07#1),
+  11220+-450K(Zorec09), 11643+-396K(David15), 11721K(Philip80) =>
+  adopt Teff=11100K.  logg=3.93+-0.14(David15),
+  logg=3.96+-0.25(Gordon19), logg=3.96(Prugniel07#1),
+  logg=3.97(Prugniel07#2), logg=4.00(Katz11), logg=4.05+-0.06(Wu11) =>
+  adopt logg=3.96.  Age=73(39-183;1sig)Myr(David15).
+  Mass=2.73Myr(David15). [Fe/H]=-0.03+-0.10(Gaspar16).
+  vsini=141km/s(Gordon19).  Reddening: The range in reddening values
+  in the literature, especially for such a nearby star, is somewhat
+  surprising.  E(B-V)=0.004(Kervella22/STILISM),
+  E(B-V)=0.023+-0.005(Paunzen24), E(B-V)=0.08(Gontcharv18/way too high
+  as usual), Gordon19 derived a very high E(B-V)=0.107mag, and derived
+  correspondingly hotter Teff=13300+-1300K(Gordon19) - wondering if
+  the unresolved multiplicity pulled it to redder reddenings.  The
+  full column of reddening at its position is only
+  E(B-V)=0.0797+-0.0024(Onken24/Planck maps), so it is hard to imagine
+  a star so nearby having E(B-V) near this.
+  Rad=3.02+-0.19Rsun(Gordon19).  EEM Q-method (2/8/2026) =>
+  (B-V)o=-0.071, (U-B)o=-0.215, E(B-V)=0.014, Av=0.047 (note this was
+  calibrated on dwarfs). I adopt the STILISM value from Kervella22:
+  E(B-V)=0.004. tetLD=0.420+-0.022mas(Gordon19) => w/GaiaDR3 plx =>
+  Rad=3.2890+-0.1916Rsun. vsini = 138km/s(Zorec12).  Zorec12
+  estimates: logL=2.3915+-0.0331, Mass=3.46+-0.006, Age = 920+-16 Myr.
+
+# Secondary Standards
+
+HD 38899 = 134 Tau = HR 2010 
+  B7III: Cucchiaro80
  *B9IV: JM53(non-standard),Houk88,GarrisonGray94(low-vsini stan.),Grenier99,Abt02
   B9V: Osawa59,Palmer68,Davis77
   B9.5V: Cowley69
-  B7III: Cucchiaro80
  
   plx = 13.11+-0.33 mag (vanLeeuwen07), hence most likely negligibly
   reddened. V=4.89(HIP), V=4.897+-0.016(Mermilliod91),
   B-V=-0.068+-0.004(Mermilliod91), B-V=-0.068+-0.004(HIP),
   V-Ic=-0.05+-0.01(HIP), U-B=-0.164+-0.022(Mermilliod91).  2MASS J and
   H are low grade. Ks=4.983+-0.016(2MASS, grade=A).  V-Ks = 4.897 -
-  4.983 = -0.086. 
-  logg=4.10(Smith93), 3.97(Schiavon07), 3.90(Adelman84), 3.89+-0.05(Wu11) 
-  => adopt log(g) = 3.94.  Teffs: 
-  10385+-138K(Wu11), 
-  10715K(AllendePrieto99;logT=4.03),
-  10752K(Schiavon07), 
-  10825K(Ryabchikova05),
-  10850K(Smith93), 
-  10957K(Adelman84) 
-  => adopt Teff=10825K.
-
-HR 7906 = alf Del 
- *B9IVn: MK73,GarrisonGray94(high-vsini stan.),Zorec09
-  B9V: JM53,deVaucouleurs57,Osawa59,Palmer68
-  
-  Johnson & Morgan (1953) originally called it B9V, but Morgan &
-  Keenan (1973) changed it to B9IVn, and all subsequent studies have
-  considered it the B9IVn standard. Star is in Washington Double Star
-  catalog as "WCK 2" with 0.2" separation - quoted magnitudes of 3.86
-  and 6.43. plx = 12.85+-0.44 mas (vanLeeuwen07), hence it is probably
-  negligibly reddened.  V=3.771+-0.004(Mermilliod91),
-  V=3.77(Johnson66), B-V=-0.057+-0.005(Mermilliod91),
-  B-V=-0.06(Johnson66), U-B=-0.204+-0.013(Mermilliod91),
-  U-B=-0.21(Johnson66).  2MASS JHK photometry is flagged grade "DDE",
-  so I won't adopt it. vsini = 138km/s(Zorec12).
-  loggs: 
-  3.96(Prugniel07#1), 
-  3.97(Prugniel07#2), 
-  4.00(Katz11), 
-  4.05+-0.06(Wu11) => adopt logg=3.98. 
-  Teffs: 
-  10000K(AllendePrieto99), 
-  10705+-173K(Wu11), 
-  10715+-50K(Zorec12), 
-  11021K(Prugniel07#2), 
-  11110K(Sokolov95), 
-  11110K(Prugniel07#1,Katz11), 
-  11220+-450K(Zorec09),
-  11721K(Philip80) =>
-  adopt Teff = 11060K. 
-  Zorec12 estimates: logL=2.3915+-0.0331, Mass=3.46+-0.006, Age = 920+-16 Myr. 
+  4.983 = -0.086.  logg=4.10(Smith93), 3.97(Schiavon07),
+  3.90(Adelman84), 3.89+-0.05(Wu11) => adopt log(g) = 3.94.  Teffs:
+  10385+-138K(Wu11), 10715K(AllendePrieto99;logT=4.03),
+  10752K(Schiavon07), 10825K(Ryabchikova05), 10850K(Smith93),
+  10957K(Adelman84) => adopt Teff=10825K.
 
 # Other Stars
 
