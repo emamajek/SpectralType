@@ -339,7 +339,10 @@ only those w/i 0.1dex of solar: (V-Rc)(G2V) = 0.3647 + 0.0311*[Fe/H] (rms=0.009;
 (V-Ks)(G2V) =   1.581 +-0.026 ; solar twin HD 78660 = HIP 44997 ([Fe/H]=+0.01,logg=4.46)
 (V-Ks)(G2V) =   1.589 +-0.022 ; solar twin HD 98618 = HIP 55459 ([Fe/H]=+0.04, logg=4.38) 
 => adopt (V-Ks)(G2V) = 1.54 [updated 12/1/2025] (G-Ks=1.385, G-V=-0.155) 
-[EEM 12/1/2025: fit to standards+solar twins => V-Ks(G2V) = 1.536 + 0.164*[Fe/H] (rms=0.029mag;N=12)]
+[EEM 12/1/2025: fit to standards+solar twins => (V-Ks)(G2V) = 1.536 + 0.164*[Fe/H] (rms=0.029mag;N=12),
+[EEM 12/9/2025: fit to XHIP d<75pc Vs 0.55<B-V<0.75:
+(V-Ks)(G2V)=1.542+2.2149*(B-V - 0.65) (rms=0.050mag;N=677) ,
+so good agreement on V-Ks=1.54 and agreement with B-V=0.65]
 
 (G-Ks)(G2V) =   1.339 +-0.020 ; sec. stan. HD 146233 = 18 Sco ([Fe/H]=+0.03)
 (G-Ks)(G2V) =    1.35 ; median for Kirkpatrick24 G2Vs d<20pc (N=7) [includes poor 2MASS photometry?]
@@ -373,7 +376,8 @@ only those w/i 0.1dex of solar: (V-Rc)(G2V) = 0.3647 + 0.0311*[Fe/H] (rms=0.009;
 (J-H)(G2V) =   0.300 +-0.025 ; solar twin HD 166435 = HIP 88945 ([Fe/H]=-0.01)  
 (J-H)(G2V) =   0.306 +-0.054 ; solar twin HD 98618 = HIP 55459 ([Fe/H]=+0.04, logg=4.38)   
 (J-H)(G2V) =    0.344 +-0.086 ; ter. stan. HD 76151 = GJ 327 ([Fe/H]=+0.10)   
-=> adopt (J-H)(G2V) = 0.27 [updated 12/1/2025] 
+=> adopt (J-H)(G2V) = 0.27 [updated 12/1/2025] ** CHECK ***
+[EEM 12/9/2025: fit to XHIP d<50pc Vs 0.55<B-V<0.75: (J-H)(G2V) = 0.2856+0.5150*(B-V - 0.65) (rms=0.029;N=254)
 
 (H-K)(G2V) = 0.052 ; Bessell88/Glass
 
@@ -1122,7 +1126,7 @@ HD 146233 = 18 Sco = GJ 616 = HR 6060 = HIP 79672 = LHS 3171 = NLTT 42344 = SPOC
 
 ### Tertiary Standards
 
-HD 76151 = GJ 327 = HR 3538 = HIP 43726 = SPOCS 410 = Gaia DR3 5760701787150565888 
+HD 76151 = GJ 327 = HR 3538 = HIP 43726 = SPOCS 410 = 2MASS J08541798-0526040 = Gaia DR3 5760701787150565888 
  *G2V: KeenanYorka85,Keenan88,Keenan99,Gray01,GrayNstars(stan)
   G3V: Popper43,Joy47,Keenan80(stan),Keenan83(stan)
   G3/5V: Houk99(q=2)
@@ -1130,65 +1134,33 @@ HD 76151 = GJ 327 = HR 3538 = HIP 43726 = SPOCS 410 = Gaia DR3 57607017871505658
 
   At least Keenan & Gray agree, although Keenan switched it from G3V
   standard (1983) to G2V (1985), then retained it as G2V in later
-  works.
-  V=5.98(Marlborough64),
-  V=5.99(Cousins63),
-  V=5.998+-0.003(ASCC-2.5), 
-  V=5.999+-0.010(Mermilliod91),
-  V=5.999(Hauck90),
-  V=6.00(Johnson66,Ducati02),
-  V=6.00(Cousins63*,Cousins80,Bessell90),
-  V=6.00(TYC),
-  V=6.007(Cousins87/standard),
-  V=6.008+-0.005(Hauck97),
-  V=6.009(Cousins84),
-  V=6.01(HIP),
-  V=6.013363(GaiaDR3/synth)
-  => adopt V=5.999+-0.010(Mermilliod91). 
-  B-V=0.63(Marlborough64),
-  B-V=0.661+-0.012(HIP),
-  B-V=0.663(Just08),
-  B-V=0.666+-0.013(Mermilliod91),
-  B-V=0.667(Cousins84),
-  B-V=0.67(Johnson66,Ducati02),
-  B-V=0.67(Cousins63*),
-  B-V=0.67(Bessell90),
-  B-V=0.68(Cousins63)
-  => adopt B-V=0.666+-0.013(Mermilliod91).
-  U=6.807226(GaiaDR3/synth),
-  B=6.646123(GaiaDR3/synth),
-  U-B=0.191(Cousins84),
-  U-B=0.21(Cousins63*),
-  U-B=0.212+-0.014(Mermilliod91),
-  U-B=0.22(Johnson66,Ducati02),
-  U-B=0.24(Marlborough64
-  => adopt U-B=0.212+-0.014(Mermillliod91).
-  Rc=5.638979(GaiaDR3/synth),
-  V-Rc=0.36(Bessell90/GCPD,median),
-  V-Rc=0.360(Just08),
-  V-Rc=0.363(Cousins80), 
-  => adopt V-Rc=0.36.
-  Ic=5.286717(GaiaDR3/synth),
-  R-Ic=0.326(Just08),
-  R-Ic=0.333(Cousins80), 
-  R-Ic=0.335(Bessell90/GCPD,median)
-  => adopt R-Ic=0.333.
-  V-Ic=0.686(Just08),
-  V-Ic=0.695(Bessell90/GCPD,median),
-  V-Ic=0.696(Cousins80), 
-  => adopt V-Ic=0.693.
-  V-Jj=1.12(Ducati02),
-  V-Hj=1.47(Ducati02),
-  V-Kj=1.50(Ducati02).
-  u=7.607922(GaiaDR3/synth),
-  g=6.250946(GaiaDR3/synth),
-  r=5.821677(GaiaDR3/synth),
-  i=5.683020(GaiaDR3/synth),
-  g-r=0.477(Just08),
-  r-i=0.108(Just08),
-  z=5.647420(GaiaDR3/synth),
-  y=5.673860(GaiaDR3/synth).
-  Note that all of the G2V stars in this
+  works.  V=5.98(Marlborough64), V=5.99(Cousins63),
+  V=5.998+-0.003(ASCC-2.5), V=5.999+-0.010(Mermilliod91),
+  V=5.999(Hauck90), V=6.00(Johnson66,Ducati02),
+  V=6.00(Cousins63*,Cousins80,Bessell90), V=6.00(TYC),
+  V=6.007(Cousins87/standard), V=6.008+-0.005(Hauck97),
+  V=6.009(Cousins84), V=6.01(HIP), V=6.013363(GaiaDR3/synth) => adopt
+  V=5.999+-0.010(Mermilliod91).  B-V=0.63(Marlborough64),
+  B-V=0.661+-0.012(HIP), B-V=0.663(Just08),
+  B-V=0.666+-0.013(Mermilliod91), B-V=0.667(Cousins84),
+  B-V=0.67(Johnson66,Ducati02), B-V=0.67(Cousins63*),
+  B-V=0.67(Bessell90), B-V=0.68(Cousins63) => adopt
+  B-V=0.666+-0.013(Mermilliod91).  U=6.807226(GaiaDR3/synth),
+  B=6.646123(GaiaDR3/synth), U-B=0.191(Cousins84),
+  U-B=0.21(Cousins63*), U-B=0.212+-0.014(Mermilliod91),
+  U-B=0.22(Johnson66,Ducati02), U-B=0.24(Marlborough64 => adopt
+  U-B=0.212+-0.014(Mermillliod91).  Rc=5.638979(GaiaDR3/synth),
+  V-Rc=0.36(Bessell90/GCPD,median), V-Rc=0.360(Just08),
+  V-Rc=0.363(Cousins80), => adopt V-Rc=0.36.
+  Ic=5.286717(GaiaDR3/synth), R-Ic=0.326(Just08),
+  R-Ic=0.333(Cousins80), R-Ic=0.335(Bessell90/GCPD,median) => adopt
+  R-Ic=0.333.  V-Ic=0.686(Just08), V-Ic=0.695(Bessell90/GCPD,median),
+  V-Ic=0.696(Cousins80), => adopt V-Ic=0.693.  V-Jj=1.12(Ducati02),
+  V-Hj=1.47(Ducati02), V-Kj=1.50(Ducati02).
+  u=7.607922(GaiaDR3/synth), g=6.250946(GaiaDR3/synth),
+  r=5.821677(GaiaDR3/synth), i=5.683020(GaiaDR3/synth),
+  g-r=0.477(Just08), r-i=0.108(Just08), z=5.647420(GaiaDR3/synth),
+  y=5.673860(GaiaDR3/synth).  Note that all of the G2V stars in this
   file with HD IDs, *all* have flag=0 for the synthetic UBVRcIcugrizy
   photometry from GaiaDR3, "should be considered as an extrapolation
   of the adopted standardisation" (Montegriffo23).  Very well-studied
@@ -1198,28 +1170,37 @@ HD 76151 = GJ 327 = HR 3538 = HIP 43726 = SPOCS 410 = Gaia DR3 57607017871505658
   [Fe/H]=+0.10+-0.01(N=28), so Teff is statistically indistinguishable
   from Sun (5772), and the star is just slightly more higher surface
   gravity (+0.05 dex) and metal-rich (+0.10 dex).  2MASS JHK flags are
-  EDA. 
-  J=4.88+-0.02(Arribas89/TCS),
+  EDA.  J=4.88+-0.02(Arribas89/TCS),
   J=4.888+-0.062(Arribas89/TCS=>CIT=>2MASS),
-  J=4.871+-0.037(flag=E,2MASS), 
-  H=4.53+-0.02(Arribas89/TCS),
+  J=4.871+-0.037(flag=E,2MASS), H=4.53+-0.02(Arribas89/TCS),
   H=4.544+-0.059(Arribas89/TCS=>CIT=>2MASS),
-  H=4.625+-0.276(flag=D,2MASS),
-  K=4.50+-0.03(Arribas89/TCS),
+  H=4.625+-0.276(flag=D,2MASS), K=4.50+-0.03(Arribas89/TCS),
   Ks=4.502+-0.036(Arribas89/TCS=>CIT=>2MASS),
-  Ks=4.456+-0.023(flag=A,2MASS).
-  L=4.41+-0.04(Arribas89).
+  Ks=4.456+-0.023(flag=A,2MASS).  L=4.41+-0.04(Arribas89).
   (J-H)=0.348+-0.046(Arribas89/TCS=>CIT=>2MASS),
   (H-Ks)=0.042+-0.047(Arribas89/TCS=>CIT=>2MASS),
-  (J-Ks)=0.386+-0.051(Arribas89/TCS=>CIT=>2MASS),,
-  GaiaDR2:
+  (J-Ks)=0.386+-0.051(Arribas89/TCS=>CIT=>2MASS),, GaiaDR2:
   plx=59.3469+-0.0447mas, G=5.8315+-0.0007, E(BR/RP)=1.179,
   Bp-Rp=0.8293, Bp-G=0.3637, G-Rp=0.4656 => corrected via Evans18 =>
   G(corr)= 5.844, Bp(corr)=6.195, Rp(corr)=5.366, (Bp-Rp)(corr)=0.829,
   (Bp-G)(corr)=0.351, (G-Rp)(corr)=0.478. G-V = 5.844 - 6.008 =
   -0.164. plx=59.3595+-0.0408mas(GaiaDR3), G=5.846635(GaiaDR3),
   Bp-Rp=0.825106(GaiaDR3), Bp-G=0.329237(GaiaDR3),
-  G-Rp=0.495869(GaiaDR3), G-V = 5.846635 - 5.999 = -0.1524.
+  G-Rp=0.495869(GaiaDR3), G-V = 5.846635 - 5.999 = -0.1524.  Wide
+  range of reported rotation periods ~14-20.5d, see Sec6.4 of
+  Bellotti25: Prot=14.4+-0.19d(Olspert18), Prot=15d(Baliunas96),
+  Prot=16.70+0.18-0.16d(Bellotti25/B_l)
+  Prot=17.47+-0.81d(Bellotti25/average), Prot=18.6+-0.4d(Marsden14),
+  Prot=20.5+-0.3d(Petit08,Vidotto14,Kochukhov20,Reiners22) --
+  Bellotti25 says that if the range is translated as
+  Prot(equator)=14.4d and Prot(pole)=20.5d, then the differential
+  rotation rate would be 0.13rad/d or twice that of the Sun.
+  Activity: logLx=28.33(Andretta17), logLx=28.40(Zhu15/final),
+  logLx/Lbol=-5.3(Eiroa13), logLx/Lbol=-5.16(Zhu25),
+  logLx/Lbol=-5.12(Reiners22).  Bellotti25 also note a wide range of
+  reported activity levels: logR'HK ~ -4.82 to -4.50:
+  logR'HK=-4.6840(Isaacson10), logR'HK=-4.659(Baliunas96)
+  
 
         G =  5.8466+-0.0028 ; ter. stan. HD 76151 = GJ 327 ([Fe/H]=+0.10)   
    (V-Rc)(G2V) =   0.360 +-0.010 ; ter. stan. HD 76151 = GJ 327 ([Fe/H]=+0.10)   

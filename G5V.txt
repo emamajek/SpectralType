@@ -172,10 +172,12 @@ fit: (V-Ic) = 0.733 - 0.01292*[Fe/H] (rms=0.009mag)]
 (H-Ks)(G5V) =  0.097 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40; thick disk)
 (H-Ks)(G5V) =  0.101 ; exemplar HD 63433 = TOI-1726 ([Fe/H]=-0.01; UMa)
 (H-Ks)(G5V) = 0.110 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
-=> adopt (H-Ks)(G5V) = 0.096 [updated 8/1/2024]
+=> adopt (H-Ks)(G5V) = 0.095 [updated 12/1/2025] 
 [EEM 8/1/2024: fit to 2 standards + 3 exemplars: (H-Ks)(G5V) = 0.096 + 0.050*[Fe/H] (rms=0.022mag)]
 
 (J-Ks)(G5V) = 0.366 ; pri. stan. HD 20630 = kap Cet = GJ 137 ([Fe/H]=+0.04)
+(J-Ks)(G5V) = 0.395 ; J-H=0.30,H-Ks=0.095 (12/1/2025)
+=> adopt (J-K)(G5V) = 0.395 [updated 12/1/2025] 
 
 (G-J)(G5V) =  1.098 +-0.021 ; exemplar HD 110619 = HIP 62107 ([Fe/H]=-0.41)
 (G-J)(G5V) =  1.113 +-0.043 ; exemplar HD 63433 = TOI-1726 ([Fe/H]=-0.01; UMa) (GaiaDR3) 
@@ -347,6 +349,9 @@ fit: (V-Ic) = 0.733 - 0.01292*[Fe/H] (rms=0.009mag)]
 (i-z)(G5V) = -1.197 +-0.001 ; ter. stan. HD 26756 = Cl Melotte 25 17 ([Fe/H]=+0.17) (SDSS DR9) (discrepant)
 => adopt (i-z)(G5V) = 0.06 [updated 6/20/2024]
 
+(i-J)(G5V) = 0.84 ; Covey07(i-z=0.06,z-J=0.78)
+=> adopt (i-J)(G5V) = 0.84 [updated 12/1/2025]
+
 (z-J)(G5V) = 0.78 ; Covey07
 => adopt (z-J)(G5V) = 0.78 [updated 6/20/2024]
 
@@ -435,9 +440,12 @@ Mv(G5V) =   4.53 mag ; Wegner07
 => adopt M_G(G5V)  = 4.801 mag [updated 12/10/2020] (Mv=4.98, G-V=-0.179)
 => adopt M_Ks(G5V) = 3.345 mag [updated 12/30/2020] (Mv=4.98, V-Ks=1.635)
 
+M_J(G5V) = 3.74 ; M_Ks=3.345, J-Ks=0.395 (12/1/2025) 
 M_J(G5V) =  3.88 ; exemplar HD 63433 = TOI-1726 ([Fe/H]=-0.01; UMa) 
 M_J(G5V) =  3.95 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40; thick disk)
 M_J(G5V) =  4.05 ; exemplar HD 110619 = HIP 62107 ([Fe/H]=-0.41)
+=> adopt M_J(G5V) = 3.74 [updated 12/1/2025] 
+=> adopt M_i(G5V) = 4.58 [updated 12/1/2025] (M_J=3.74, i-J=0.84)
 
 M_Ks(G5V) = 3.37 ; ter. stan. HD 26756 = Cl Melotte 25 17 = HIP 19781 ([Fe/H]=+0.17)
 M_Ks(G5V) = 3.51 ; exemplar HD 121849 = HIP 68273 ([Fe/H]=-0.40; thick disk)
@@ -975,6 +983,26 @@ HD 30712 = HIP 22505 = Cl Melotte 25 120 = vB 120 = Gaia DR3 3404812685132622592
   observations and including Griffin12. Torres23 adoptes Hyades values
   of [Fe/H]=+0.18(Dutra-Ferriera16) and 750Myr (BrandtHuang15) in
   their analysis.
+
+HD 148577
+ *G5V: Houk88,Eduardo-Oliveira26
+
+  WDS has as a 13.8" binary, mag(1)=7.96, mag(2)=14.48.
+  Eduardo-Oliveira26: "The star HD 148577, on the other hand, is an
+  excellent candidate to represent the Sun at the end of the Main
+  Sequence. Its isochronal age suggests that this star is close to the
+  values expected for the turn-off point, in addition to having
+  already undergone a considerable increase in its radius and
+  luminosity values. From an astrobiological perspective, this
+  candidate presents a unique opportunity for studying and monitoring
+  environmental conditions as a possible host of old, evolved
+  exoplanets." Eduardo-Oliveira26: Teff=5725+-29K(Eduardo-Oliveira26),
+  logg=4.22+-0.09(Eduardo-Oliveira26),
+  [Fe/H]=-0.03+-0.02(Eduardo-Oliveira26),
+  xi=1.08+-0.05km/s(Eduardo-Oliveira26).  Soubiran22/PASTEL mean
+  values: Teff=5698+-46K(N=2), logg=4.29+-0.10(N=1),
+  [Fe/H]=-0.09+-0.05(N=1). Space velocity: U,V,W = -85.143, -22.943,
+  -23.580km/s(Eduardo-Oliveira26).
 
 # Notes on nearby Hipparcos stars with G5V types (mostly from Houk)
 

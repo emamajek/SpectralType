@@ -201,19 +201,19 @@ Keenan80 standard: HD 158614 (=HR 6516) - G9-IV-V Hdel1
 (Bp-Rp)(G9V) =   0.976 ; HD_72673_GJ_309_ plx=82.2080mas (GaiaDR3)
 (Bp-Rp)(G9V) =   0.984 ; --HD_116442_GJ_3781_ plx=60.2817mas (GaiaDR3)
 (Bp-Rp)(G9V) =   0.984 ; V1386_Ori_GJ_227_ plx=63.4065mas (GaiaDR3)
-=> adopt (Bp-Rp)(K9V) ~ 0.96 [updated 12/1/2025] (GaiaDR3) 
+=> adopt (Bp-Rp)(K9V) = 0.96 [updated 12/1/2025] (Bp-G=0.40, G-Rp=0.56) (GaiaDR3) 
 
 (G-T)(G9V) = 0.494 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.95
 => (G-T)(G9V) = 0.494 [updated 10/8/2023] (GaiaDR2)
 
-(Bp-G)(G9V) =  0.4017  ; HD_145958_A (GaiaDR2) 
-(Bp-G)(G9V) =  0.404   ; color trend for B-V=0.775 (GaiaDR2) 
-(Bp-G)(G9V) =  0.4165  ; HD_135204 (GaiaDR2) 
-(Bp-G)(G9V) = 0.42    ; Bp-Rp=0.95, G-Rp=0.53 (GaiaDR2) 
-(Bp-G)(G9V) =  0.4205  ; HD_4747 (GaiaDR2) 
-(Bp-G)(G9V) =  0.4406  ; HD_82443 (GaiaDR2) 
-(Bp-G)(G9V) =  0.4527  ; HD_156274 (GaiaDR2) 
-=> adopt (Bp-G)(G9V) = 0.42 [updated 11/15/2020] (GaiaDR3)
+(Bp-G)(G9V) =  0.4017 ; HD_145958_A (GaiaDR2) 
+(Bp-G)(G9V) =  0.404  ; color trend for B-V=0.775 (GaiaDR2) 
+(Bp-G)(G9V) =  0.4165 ; HD_135204 (GaiaDR2) 
+(Bp-G)(G9V) = 0.42 ; Bp-Rp=0.95, G-Rp=0.53 (GaiaDR2) 
+(Bp-G)(G9V) =  0.4205 ; HD_4747 (GaiaDR2) 
+(Bp-G)(G9V) =  0.4406 ; HD_82443 (GaiaDR2) 
+(Bp-G)(G9V) =  0.4527 ; HD_156274 (GaiaDR2) 
+=> adopt (Bp-G)(G9V) = 0.42 [updated 11/15/2020] (GaiaDR2)
 
 (Bp-G)(G9V) =   0.358 ; HD_62613_GJ_290_ plx=58.2919mas (GaiaDR3)
 (Bp-G)(G9V) =   0.380 ; HD_135204_GJ_580_ plx=57.9205mas (GaiaDR3)
@@ -226,7 +226,7 @@ Keenan80 standard: HD 158614 (=HR 6516) - G9-IV-V Hdel1
 (Bp-G)(G9V) =   0.404 ; --HD_116442_GJ_3781_ plx=60.2817mas (GaiaDR3)
 (Bp-G)(G9V) =   0.408 ; --41_Ara_A_GJ_666_A plx=113.7513mas (GaiaDR3)
 (Bp-G)(G9V) =   0.410 ; sigma_Dra_GJ_764_ plx=173.4939mas (GaiaDR3)
-=> adopt (Bp-G)(G9V) ~ 0.40 [updated 12/1/2025] (GaiaDR3) 
+=> adopt (Bp-G)(G9V) = 0.40 [updated 12/1/2025] (Bp-Rp=0.96, G-Rp=0.56) (GaiaDR3) 
 
 (G-Rp)(G9V) =  0.5016  ; HD_156274 (GaiaDR2) 
 (G-Rp)(G9V) =  0.5227  ; HD_145958_A (GaiaDR2) 
@@ -247,7 +247,7 @@ Keenan80 standard: HD 158614 (=HR 6516) - G9-IV-V Hdel1
 (G-Rp)(G9V) =   0.577 ; HD_72673_GJ_309_ plx=82.2080mas (GaiaDR3)
 (G-Rp)(G9V) =   0.580 ; --HD_116442_GJ_3781_ plx=60.2817mas (GaiaDR3)
 (G-Rp)(G9V) =   0.581 ; V1386_Ori_GJ_227_ plx=63.4065mas (GaiaDR3)
-=> adopt (G-Rp)(G9V) ~ 0.56 [updated 12/1/2025] (GaiaDR3)
+=> adopt (G-Rp)(G9V) = 0.56 [updated 12/1/2025] (Bp-Rp=0.96, Bp-G=0.40) (GaiaDR3)
 
 (u-g)(G9V)   = 1.50  ; Kesseli17 
 (u'-g')(G9V) = 1.603 ; Smith02 u'-g' calibration for U-B= 0.363
@@ -388,6 +388,44 @@ not flag any stars as G9V MK standards.
 
 # Deprecated Standards
 
+HD 158614 = HR 6516
+HD 158614A = STF 2173A = ADS 10598A = GJ 678A = WDS J17304-0104A = Gaia DR2 4373199682919087616
+HD 158614B = STF 2173B = ADS 10598B = GJ 678B = WDS J17304-0104B = Gaia DR2 4373199678620639744
+  G5V: Abt81
+  G6V: Adams35,Houk99
+  G6: Bidelman85
+  G7IV/V: Stephenson69
+  G8V: Wilson62
+  G8IV: 1966ArA.....3..501L
+  G8IV-V: Roman52
+  G8IV-V+G8IV-V: Pourbaix04/SB9
+  G8IV/V: Harlan74
+  G9-IV-V_Hdel1: Keenan80(stan),Keenan89(non-stan)
+
+  In WDS as 0.3" binary, discovered in 1829, components have similar
+  magnitudes. WDS components C and D are unassociated. Wide spread in
+  published types, which is surprising given the solar metallicity
+  ([Fe/H]=-0.02+-0.03;Soubiran22). In some lists as member of zeta Her
+  MG.  plx=61.19+-0.68mas(vanLeeuwen07/HIP2),
+  plx(A)=60.7132+-1.2056mas(GaiaDR3),
+  plx(B)=58.5010+-0.7561mas(GaiaDR3). Pourbaix00 calculated most
+  recent orbit in SB9: Porb=16924.4+-7.6701d, e=0.1678+-0.0025,
+  K1=4.94+-0.44km/s, K2=5.32+-0.57km/s, RVgamma/sys=-77.18km/s.
+  Groenewegen23 reports updated elements: Porb=46.43+-0.03yr,
+  a=0.957+-0.006", i=98.7+-0.1deg, e=0.173+-0.002, K1=4.84+-0.90km/s,
+  K2=5.52+-0.07km/s.  Andrade19 reports dynamical masses:
+  M(A)=0.963+-0.005Msun, M(B)=0.951+-0.005Msun.  V(AB)=5.31(HIP),
+  Hp(A)=6.167+-0.004(HIP/CCDM), Hp(B)=6.241+-0.004(HIP/CCDM),
+  B-V(AB)=0.715+-0.013(HIP),
+  V-Ic=0.74+-0.02(HIP). logLx(AB)<27.71(Zhu25/non-det),
+  logLx/Lbol(AB)<-6.16(Zhu25/non-det), and Binder24 reports no X-ray
+  detections.  Prot=34d(Baliunas96/unresolved),
+  logR'HK=-5.028(Baliunas96/unresolved),
+  logR'HK=-4.997,-4.943,-4.996(BoroSaikia18/all unresolved).
+  Soubiran22/PASTEL mean values - unresolved?: Teff=5604+-21K(N=6),
+  logg=4.13+-0.08(N=3), [Fe/H]=-0.02+-0.03(N=3).
+  
+
 HD 18907: 
   G9:V: Keenan89,Keenan99
  *K2V Fe-1.3CH-0.8: Gray06
@@ -435,7 +473,7 @@ HD 82443 = DX Leo = GJ 354.1 A = GJ 9301 A = HIP 46843 = WDS J09327+2659A
 HD 4747 = GJ 36 = HIP 3850 = LHS 1154 = NLTT 2748 = G 268-53 = SPOCS 42 = WDS J00494-2313A = Gaia DR3 2348830516542653824
   G7V: Adams35
   G8/K0V: Houk88
- *G9V: Gray06,Bidelman85(G9),Yoss79
+ *G9V: Bidelman85(G9),Yoss79,Gray06
   K0V: Wilson62
 
   Good agreement between Gray06, Bidelman85, Houk88, Yoss79.

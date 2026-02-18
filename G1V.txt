@@ -1,22 +1,19 @@
 G1V
 
-Garrison94 does not list a G1V anchor standard, but MK73 lists
-HD 27836 as the G1V dagger standard.
+Garrison94 does not list a G1V anchor standard, but MK73 lists HD 27836 as the G1V dagger standard.
 
-Keenan84 does not list G1 as a "full subtype" like G0 and G2, and that
-"The other possible subdivisions are utilized only for interpolation
-whenever we think we can classifier accurately enough to justify their
-use."
+Keenan84 does not list G1 as a "full subtype" like G0 and G2, and that "The other possible subdivisions are utilized only for interpolation whenever we think we can classifier accurately enough to justify their use."
 
 JM53 standard:         HD 115043 - G1V
 Wilson62 standard:     HD 115043 - G1V (from JM53)
-MK73 dagger standard:  HD 27836 - G1V
-MorganAbt73 standard:  HD 27836 (= vB 50) & Bet CVn - G1V
+MK73 dagger standard:  HD 27836 (= vB 50) - G1V
+MorganAbt73 standard:  HD 27836 (= vB 50) - G1V
+                       HD 109358 (=bet CVn = HR 4785) - G1V
 Houk75 standard:       HD 27836 - G1V (primary standard)
 Keenan80 standard:     HD 115043 - G1Va
                        HD 89010 (=35 Leo = HR 4030) - G1IV-V
 Keenan83 standard:     HD 115043 - G1Va [Ursa Major member]
-                       HD 89010 (=35 Leo) - G1IV-V
+                       HD 89010 (=35 Leo = HR 4030) - G1IV-V
 		       47 UMa (=HD 95128) - G1-V Fe-0.5
 KeenanYorka85 stan:    zet^2 Ret (=HD 20807) - G1V
 		       47 UMa (=HD 95128) - G1-V Fe-0.5
@@ -354,14 +351,15 @@ Mass(G1V) =  1.038 Msun ; Fernandes21 calibration for logL=0.077
 Mass(G1V) =  1.034 Msun ; Ekers18 ML calibration for logL=0.077
 => adopt Mass(G1V) = 1.042 Msun [updated 9/27/2024]
 
-logg(G1V) = 4.3+-0.2 ; ter. stan. HD 27836 = HIP 20553 = vB 50 = V895 Tau ([Fe/H]=+0.16)
-logg(G1V) = 4.387  ; Soubiran22/PASTEL logg fit -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5680K (see G0V.txt)
-logg(G1V) = 4.402  ; M=1.04, logL=0.077, logTeff=3.768
-logg(G1V) = 4.41   ; exemplar HD 146362 = sig CrB B = GJ 9550B ([Fe/H]=-0.08) 
-logg(G1V) = 4.4388 ; Eclipsing binary KX Cnc B (Southworth20; 1.0-1.5 Gyr/supersolar)
-logg(G1V) = 4.46   ; sec. stan. HD 20807 = zet^2 Ret = GJ 138 = HIP 15371 ([Fe/H]=-0.23)
-logg(G1V) = 4.47   ; pri. stan. HD 115043 = GJ 503.2 = HIP 64532 ([Fe/H]=-0.04)
-logg(G1V) = 4.48   ; exemplar HD 11131 = chi Cet B = EZ Cet = HIP 8486 ([Fe/H]=-0.06)
+logg(G1V) =  4.30   ; exemplar HD 95128 = 47 UMa ([Fe/H]=+0.02)
+logg(G1V) =  4.3+-0.2 ; ter. stan. HD 27836 = HIP 20553 = vB 50 = V895 Tau ([Fe/H]=+0.16)
+logg(G1V) =  4.387  ; Soubiran22/PASTEL logg fit -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5680K (see G0V.txt)
+logg(G1V) =  4.402  ; M=1.04, logL=0.077, logTeff=3.768
+logg(G1V) =  4.41   ; exemplar HD 146362 = sig CrB B = GJ 9550B ([Fe/H]=-0.08) 
+logg(G1V) =  4.4388 ; Eclipsing binary KX Cnc B (Southworth20; 1.0-1.5 Gyr/supersolar)
+logg(G1V) =  4.46   ; sec. stan. HD 20807 = zet^2 Ret = GJ 138 = HIP 15371 ([Fe/H]=-0.23)
+logg(G1V) =  4.47   ; pri. stan. HD 115043 = GJ 503.2 = HIP 64532 ([Fe/H]=-0.04)
+logg(G1V) =  4.48   ; exemplar HD 11131 = chi Cet B = EZ Cet = HIP 8486 ([Fe/H]=-0.06)
 => adopt logg(G1V) = 4.39 [updated 9/15/2023]
 
 # No standard
@@ -534,6 +532,49 @@ HD 10307 = GJ 67AB = HIP 7918 = HR 483 = WDS J01418+4237AB
 
 # Exemplars
 
+HD 95128 = 47 UMa = GJ 407 = HIP 53721 = HR 4277 = Chalawan = NLTT 25907 = SPOCS 472 = 2MASS J10592802+4025485 = Gaia DR3 777254360337133312
+  G0V: HD(G0),Adams35,MK43,Roman50,Keenan80(stan),Bidelman85,Keenan88(stan)
+ *G1V: Gray01
+  G1-V Fe-0.5: Keenan83(stan),KeenanYorka85(stan),Keenan89(stan),Keenan99(stan)
+
+  Was G0V standard in 1943 MKK atlas, but then Keenan changed mind
+  back and forth in 1980s to make it a bit later. Soubiran22/PASTEL
+  compendium mean values: Teff=5880+-10K(N=10), logg=4.30+-0.02(N=36),
+  [Fe/H]=0.02+-0.01(N=36). So it is ~solar metallicity, but slightly
+  lower logg... no sign of metal poorness noted by Keenan, unless he
+  was comparing to more metal-ricch standards (Hyades?)? so I adopt
+  Gray01 type. logR'HK=-4.973(Isaacson10), logR'HK=-5.02(Wright04),
+  logR'HK=-5.05+-0.01(Marsden14), logLx/Lbol=-8.3(Eiroa13),
+  logLx/Lbol=-6.66(Zhu25), so chromospherically
+  dead. Prot=24.8+-0.8d(Hempelmann16/CruzAguierre23).  Ages:
+  5.90+-0.29Gyr(Sharma24), 6.98Gyr(Vican12/chromospheric),
+  7.54(4.57,10.70)Gyr(Heras25).
+  V=5.010(Haeggkvist66/N=2), 
+  V=5.03(HIP,TYC),
+  V=5.04(Johnson57/N=3), 
+  V=5.049+-0.015(Mermilliod91/N>25),
+  V=5.05(Johnson66/N=5),
+  V=5.05(Bouigue61/N=2),
+  V=5.06(Naur57/N=2), 
+  V=5.08(Nikonov57/N=8),
+  B-V=0.59(Nikonov57/N=8),
+  B-V=0.60(Naur57/N=2), 
+  B-V=0.606+-0.010(Mermilliod91/N>25),
+  B-V=0.61(Johnson66/N=5),
+  B-V=0.61(Johnson57/N=3),
+  B-V=0.611(Just08), 
+  B-V=0.617(Haeggkvist66/N=2), 
+  B-V=0.620+-0.003(TYC), 
+  B-V=0.624+-0.003(HIP),
+  B-V=0.63(Bouigue61/N=2),
+  U-B=0.12(Naur57/N=2), 
+  U-B=0.124+-0.007(Mermilliod91/N>25),
+  U-B=0.13(Johnson66/N=5),
+  U-B=0.13(Johnson57/N=3),
+  V-Rc=0.344(Just08),
+  V-Ic=0.69+-0.00(HIP),
+  g-r=0.420(Just08)
+
 HD 146362 = sig CrB B = GJ 9550B = HR 6064 = ADS 9979 B = GJ 615.2 B = SPOCS 696 = Gaia DR3 1328866562170960384
    G0: 1923LicOB..10..169L
   *G1V: Adams35,Slettebak63,Abt81,Bidelman85(G1),Gray03
@@ -561,22 +602,6 @@ HD 11131 = chi Cet B = EZ Cet = GJ 9061B = HIP 8486 ([Fe/H]=-0.06)
    logg=4.48+-0.04(N=9), [Fe/H]=-0.06+-0.02(N=11).
 
 # Variants
-
-HD 95128 = 47 UMa = GJ 407 = HIP 53721 = HR 4277 = Chalawan 
-  G0V: HD(G0),Adams35,MK43,Roman50,Keenan80,Bidelman85,Keenan88
-  G1V: Gray01
- *G1-V Fe-0.5: KeenanYorka85,Keenan89,Keenan99
-
-  Was G0V standard in 1943 MKK atlas, but then Keenan changed mind in
-  1980s to make it a bit later. Soubiran22/PASTEL compendium mean
-  values: Teff=5880+-10K(N=10), logg=4.30+-0.02(N=36),
-  [Fe/H]=0.02+-0.01(N=36). So it is ~solar metallicity, but slightly
-  lower logg. logR'HK=-4.973(Isaacson10), logR'HK=-5.02(Wright04),
-  logR'HK=-5.05+-0.01(Marsden14), logLx/Lbol=-8.3(Eiroa13),
-  logLx/Lbol=-6.66(Zhu25), so chromospherically
-  dead. Prot=24.8+-0.8d(Hempelmann16/CruzAguierre23).  Ages:
-  5.90+-0.29Gyr(Sharma24), 6.98Gyr(Vican12/chromospheric),
-  7.54(4.57,10.70)Gyr(Heras25).
 
 HD 142267 = 39 Ser = GJ 3924 = HIP 77801 = HR 5911 = LHS 3131 = SPOCS 675
   F9V: Adams35
@@ -682,6 +707,22 @@ HD 147513 = HR 6094 = HIP 80337
   object is, or is close to, the white dwarf WD 1620-391, which
   appears slightly extended in the ROSAT image. No periodicity has
   ever been reported for this object."
+
+HD 25680 = 39 Tau = GJ 160 = HIP 19076 = HR 1262 = SPOCS 199 = BD+21 587 = NLTT 12493 = CHR 158 = STT 559A = 2MASS J04052023+2200321 = WDS J04053+2201Aa,Ab = Gaia DR3 53112944270520832
+  G1V: Adams35,Cowley79,Gray03
+  G1wl: Bidelman85
+  G5V: Harlan69
+
+  Strange dichotomy of types G1s and G5s, nothing intermediate.  In
+  some lists as member of Hyades Moving Group (Tabernero12,Pompeia11),
+  however the UVW seems off (U,V,W = -25.48, -13.31, -6.53
+  km/s;Tabernero12), and it isn't as metal-rich as Hyads.  Soubiran22
+  PASTEL means: Teff=5859+-15K(N=12), logg=4.51+-0.03(N=11),
+  [Fe/H]=+0.06+-0.02(N=11).
+  Prot=10.40+-0.63d(Reinhold20). logR'HK=-4.53(Hall07),
+  logLx=28.99(Lopez-Santiago09), logLx=29.01(Zhu25),
+  logLx=29.04(Leitzinger20), logLx/Lbol=-4.59(Zhu25).
+  logA(Li)=2.43(Mishenina12).
 
 HD 168009 = HIP 89474 = HR 6847 
  *G1V: Gray03

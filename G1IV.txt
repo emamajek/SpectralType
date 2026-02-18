@@ -37,6 +37,8 @@ Teff(G1IV) = 5824 K ; exemplar mu Cnc = HD 67228
 Teff(G1IV) = 5848 K ; exemplar bet Hyi 
 => adopt Teff(G1IV) = 5790 K [last updated 7/15/2017]
 
+BCv(G1IV) = -0.097+-0.005 ; exemplar bet Hyi (calc. Soubiran24+Mermilliod91)
+
 logg(G1IV) = 3.78 ; deprecated standard zet Her 
 
 # Deprecated Standard
@@ -87,14 +89,61 @@ bet Hyi = HD 2151 = HR 98 = HIP 2021
   G2IV: Evans57
 
   Appears to be slightly metal poor, definitely evolved with most
-  authors publishing logg ~ 4.0. B-V=2.82(HIP), B-V=0.618+-0.008(HIP),
-  V-I=0.68+-0.02(HIP). plx=134.07+-0.11(HIP2) => Mv=3.457 (1.13 mag
-  above MS).  PASTEL compendium: <Teff> = 5848K(N=26),
-  <logg>=3.997(N=21), [Fe/H]=-0.125(N=22).  Best: Jofre14:
-  Teff=5873+-45K, logg=3.98+-0.02, [Fe/H]=-0.04+-0.01.  Ramirez13:
-  Teff=5819+-54K, logg=3.95+-0.02, [Fe/H]=-0.13+-0.05.  VOSA v7.0 SED
-  fitting with Av=0 and logg=4.0: BT-Settl-AGSS2009 model Teff=5900K,
-  Lum=3.473+-0.052Lsun, logL=+0.5407+-0.0065, [M/H]=+0.5.
+  authors publishing logg ~ 4.0. Very well-studied bright nearby
+  subgiant, a Gaia benchmark star (Soubiran24), asteroseimology target
+  (Metcalfe24), conflicting estimates of rotation period
+  (Laliotis23,Metcalfe24), and X-ray measurements (Zhu25). Star is
+  discussed at length in Metcalfe24 and Sec 6.2 of Laliotis23.
+  V=2.792+-0.008(ASCC-2.5), V=2.797+-0.005(Mermilliod91/N>21),
+  V=2.80(Johnson66/N=3), V=2.80(GCPD/Cousins76_VRIc/N=4),
+  V=2.800+-0.006(Cousins71), V=2.82(HIP,TYC), B-V=2.82(HIP),
+  B-V=0.617+-0.005(Mermilliod91/N>21), B-V=0.618+-0.008(HIP),
+  B-V=0.62(Johnson66/N=3), B-V=0.625+-0.005(Cousins71),
+  U-B=0.10(Cousins71), U-B=0.105+-0.006(Mermilliod91/N>13),
+  U-B=0.11(Johnson66/N=3), V-Rc=0.355(GCPD/Cousins76_VRIc/N=4/#1),
+  V-Rc=0.355(GCPD/Cousins76_VRIc/N=4/#2),
+  R-Ic=0.329(GCPD/Cousins76_VRIc/N=4/#1),
+  R-Ic=0.33(GCPD/Cousins76_VRIc/N=4/#2), V-Ic=0.68+-0.02(HIP),
+  V-Ic=0.684(GCPD/Cousins76_VRIc/N=4#1),
+  V-Ic=0.685(GCPD/Cousins76_VRIc/N=4#2), J=1.72(Glass74),
+  H=1.40(Glass74), K=1.32(Glass74), L=1.30(Glass74),
+  plx=134.07+-0.11(HIP2) => Mv=3.457 (1.13 mag above MS).  PASTEL
+  compendium: <Teff> = 5848K(N=26), <logg>=3.997(N=21),
+  [Fe/H]=-0.125(N=22).  Soubiran24: Teff=5917+-25K, logg=3.97+-0.04,
+  [Fe/H]=-0.12+-0.02.  Best: Jofre14: Teff=5873+-45K, logg=3.98+-0.02,
+  [Fe/H]=-0.04+-0.01.  Ramirez13: Teff=5819+-54K, logg=3.95+-0.02,
+  [Fe/H]=-0.13+-0.05.  VOSA v7.0 SED fitting with Av=0 and logg=4.0:
+  BT-Settl-AGSS2009 model Teff=5900K, Lum=3.473+-0.052Lsun,
+  logL=+0.5407+-0.0065, [M/H]=+0.5. Activity:
+  logR'HK=-4.996(Metcalfe24), logLx=27.39(Zhu25),
+  logLx/Lbol=-6.75(Zhu25).  Metcalfe24: "Although the rotation period
+  has never been measured directly, it was estimated to be near 27
+  days."  "Starting with the GWPS, the main periodicity corresponds to
+  ∼23 days. Unfortunately, this value falls within the exclusion cone
+  of the wavelet analysis, indicated by the hashed region in the top
+  left panel of Figure 3. Reliable results typically require a light
+  curve longer than 3 times the rotation period. The ACF shows a
+  signal around 24.7 days, which is further enhanced in the CS (24.4
+  days). Given the star’s brightness, we believe that the modulation
+  is likely of stellar origin. Based on the current TESS data
+  analysis, we conclude that the rotation period is Prot = 23.0±2.8
+  days. However, additional observations may be required to confirm
+  this estimate."  Laliotis23: "we note that the RV residuals
+  periodogram contains a well-de ned peak at 73.3 days, which may
+  correspond to rotation, as this is a slightly evolved star."
+  Metcalfe23 notes that an IUE UV activity-rotation relations based on
+  Olmedo13 would predict Prot=27.1+-1.7d).  Ages:
+  6.26+-0.57Gyr(Metcalfe23/asteroseismo/MESA), 6.28Gyr(Ibukiyama02),
+  6.40+-0.56Gyr(Brandao11/asteroseismo).
+  6.46+-0.13Gyr(Metcalfe23/asteroseismo/YPEC),
+  Mass=1.08+-0.03Msun(Brandao11). fbol=(1.979+-0.059)e-6erg/s/cm2(Metcalfe23)
+  => mbol=2.7614+-0.0324(IAU2015 scale) => BCv = mbol - Vmag =
+  (2.7614+-0.0324) - (2.797+-0.005) = -0.036+-0.033.
+  Lbol=3.45+-0.10Lsun(Metcalfe23) => logL=0.5378+-0.0126dex.
+  fbol=(209.473+-0.391)e-11W/m2(Soubiran24) =>
+  mbol=2.6997+-0.0020(IAU2015 scale) => BCv = mbol - V =
+  (2.6997+-0.0020) - 2.797+-0.005 = -0.097+-0.005 (adopted; calculated
+  using Soubiran24/Mermilliod91).
 
 mu Cnc = HD 67228 = mu02 Cnc = HR 3176 = HIP 39780 = 10 Cnc 
  *G1IVb: Keenan80,Keenan89
@@ -113,5 +162,7 @@ HD 166435 = HIP 88945
 
   Solar metallicity in PASTEL/Soubiran22, but its astrophysical
   parameters are all within 1sigma of being a solar twin!: 5793+-19K,
-  logg=4.43+-0.04(dwarfish!), [Fe/H]=-0.01+-0.02. Planet reported, then ruled out.
-  plx=40.9645+-0.0167mas(GaiaDR3). Appears in several X-ray catalogs (1RXS, RX, RE, 2RE). 
+  logg=4.43+-0.04(dwarfish!), [Fe/H]=-0.01+-0.02. Planet reported,
+  then ruled out.  plx=40.9645+-0.0167mas(GaiaDR3). Appears in several
+  X-ray catalogs (1RXS, RX, RE, 2RE).
+

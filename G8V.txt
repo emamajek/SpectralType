@@ -707,7 +707,9 @@ HD 10700 = tau Cet = GJ 71 = HIP 8102 = HR 509 = LHS 146 = 52 Cet = NLTT 5787 = 
   appear to be very different than other G8Vs, perhaps due to its
   brightness/nonlinearity as a bright star in Gaia. Chemical
   composition: Soubiran22/PASTEL mean values: Teff=5356+-11K,
-  [Fe/H]=-0.51+-0.01, logg=4.53+-0.03.  Star is clearly alpha-rich:
+  [Fe/H]=-0.51+-0.01, logg=4.53+-0.03. Soubiran24(see erratum since it
+  was part of Rains20 sample): Teff=5397+-15K, logg=4.50+-0.01,
+  [Fe/H]=-0.51.  Star is clearly alpha-rich:
   [a/Fe]=+0.16(Casagrande11), [a/Fe]=+0.16+-0.01(GarciaPerez21),
   [a/Fe]=+0.194+-0.014(Buder21), [a/Fe]=+0.20(Brewer16),
   [a/Fe]=+0.21(Kunder17), [a/Fe]=+0.217(Gazzano10),
@@ -1056,6 +1058,65 @@ HD 172513 = HIP 91700
   G8V: Gray06
 
   Solar metallicity in PASTEL/Soubiran22: Teff=5557+-22K, logg=4.47+-0.04, [Fe/H]=0.03+-0.02.
+
+HD 152391 = GJ 641 = V2292 Oph = HIP 82588 = LHS 426 = BD+00 3593 = NLTT 43724 = G 19-4 = SPOCS 729 = 2MASS J16525877-0001356 = 1RXS J165259.3-000123 = Gaia DR3 4381250547575102208	
+  G5: Bidelman85
+  G6V: Roman55
+  G8V: Stebbins56,Wilson62,Cowley67
+  G8IV: Harlan74
+ *G8+V: Gray03
+  G8.5V(k): Gray06
+  G9V: Adams35
+
+  A very unusual late G dwarf that is both very active
+  (logR'HK~logRx~-4.4) and ~solar metallicity, *but* very high
+  velocity (U,V,W=+85.5,-112.8,+9.5km/s;Hinkel17)... flagged by
+  Rocha-Pinto04 as what they dub "chromospherically young,
+  kinematically old stars ("CYKOS"). However even among this subset of
+  ~few dozen CYKOs in the solar vicinity, only a handful had space
+  velocities higher than that of HD 152391.  Mishenina, in multiple
+  studies (2011, 2015, 2019, 2022) classifies the star as thick disk
+  (presumably due to the kinematics), however the star's abundances
+  are ~solar across the board (e.g. [a/Fe]=-0.02(Casagrande11)). This
+  highlighted by Shejeelammal24, who estimates [Fe/H]=0.000+-0.010,
+  [Mg/Fe]=-0.04+-0.02, and [Y/Fe]=+0.11+-0.03, [Y/Mg]=+0.15+-0.04,
+  where the [Mg/Fe] and [Y/Mg] suggests thin disk, possibly young (but
+  not old thick disk)..  their age vs. [Y/Mg] trend would predict an
+  age of 0.5 Gyr(!), with 1sigma upper limit of 2.1Gyr (i.e. the
+  Y-richness suggests much younger than the Sun). The Bensby14
+  Galactic population kinematics model and the Hinkel17 UVW, I get
+  probabilities P(thin)=0.12%, P(thick)=99.34%, P(halo)=0.54%,
+  P(Hercules)=1e-9%, P(thick)/P(thin)=847! So *kinematically* this
+  screams "old thick disk star", but the chemical abundances,
+  activity, rotation scream "young thin disk star".  Nidever02
+  considers it a RV stable star (rms<100m/s over 2588d), so it seems
+  unlikely that it is an old star that is faster rotator due to being
+  tidally locked to a close stellar companion (e.g. CAB).
+  B-V=0.739(Just08), V-Rc=0.427(Just08), R-Ic=0.361(Just08),
+  R-Ic=0.375+-0.003(Taylor05), V-Ic=0.788(Just08), g-r=0.560(Just08),
+  r-i=0.141(Just08).  Soubiran22/PASTEL means: Teff=5458+-13K(N=18),
+  logg=4.50+-0.03(N=15), [Fe/H]=-0.02+-0.01(N=15).  Rotation:
+  Prot=11d(Baliunas96), Prot=11.43d(Donahue96).  Activity:
+  logR'HK=-4.388(Henry96), logR'HK=-4.436(Brown22),
+  logR'HK=-4.44(Wright04), logR'HK=-4.448(Baliunas96),
+  logR'HK=-4.45(Radick18), logR'HK=-4.493(Isaacson24),
+  logR'HK=-4.450(Kasova11), logLx=28.94(Wright11),
+  logLx=28.98(Leitzinger20), logLx/Lbol=-4.380(Kasova11),
+  logLx/Lbol=-4.40(Wright11). GaiaDR3:
+  plx=59.4805+-0.0232mas(GaiaDR3).  Age:
+  875(391-2630)Myr(StanfordMoore20).  When I combine Teff(Soubiran22)
+  with Prot=11.43d(adopting as a rough estimate of uncertainty
+  +-0.88d, from (Pmax-Pmin)/sqrt(N-1) = (12.97-10.20)/sqrt(11-1)),
+  using Bouma23 gyro_interp gyrochronology code, I get: age =
+  1.05+0.16-0.15Myr, which is somewhat older than the R'HK age
+  estimate I get (logR'HK=-4.448(Baliunas96) => using
+  MamajekHillenbrand08 calibration) => age = 0.43Gyr.  Regardless,
+  both the rotation and activity seem 'young' (~<1Gyr), consistent
+  with what the [Y/Mg] is telling us.  So these seems to be a
+  legitimately young ~1 Gyr-old star that somehow inherited a ~140km/s
+  space velocity.
+
+
 
 # Notes on nearby Hipparcos stars with G8V stars (mostly from Houk)
 
