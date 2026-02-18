@@ -9,6 +9,7 @@ basically take the median of their properties as typical for K3.5V.
 
 (B-V)(K3V)   =  0.99 ; K3V adopted (12/5/2023)
 (B-V)(K3.5V) = 0.985 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
+(B-V)(K3.5V) = 1.022 ; exemplar HD 137010 = HIP 75398 ([Fe/H]=-0.22)
 (B-V)(K3.5V) = 1.048 ; Gray03/06 N=44 K3.5V stars d<75 pc (+-0.004 sem, +-0.027 stdev)
 (B-V)(K3.5V) = 1.06  ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
 (B-V)(K3.5V) = 1.063 ; Koen10 d<25pc median K3.5V
@@ -101,6 +102,7 @@ basically take the median of their properties as typical for K3.5V.
 => adopt (g-V)(K3.5V) = 0.552 [updated 9/1/2023]
 
 Teff(K3V)   =  4870 K ; adopted (8/20/2023)
+Teff(K3.5V) = 4794 K ; exemplar HD 137010 = HIP 75398 ([Fe/H]=-0.22)
 Teff(K3.5V) = 4767 K ; exemplar HD 50281 = GJ 250A = HIP 32984 ([Fe/H]=+0.02)
 Teff(K3.5V) = 4723 K ; trend for 3 examplars for [Fe/H]=0 
 Teff(K3.5V) = 4701 K ; N=89 published Teffs from PASTEL compendium for Gray03/06 K3.5V stars (+-15K sem, +-113K stdev)
@@ -140,9 +142,10 @@ logL(K3.5V) = -0.680 ; Mv=6.85, BCv=-0.46, Mbol = 6.390
 => adopt Mbol(K3.5V) =  6.390 [updated 10/4/2024]
 
 Mass(K3.5V) = 0.70  Msun ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
+Mass(K3.5V) = 0.71  Msun ; exemplar HD 137010 = HIP 75398 ([Fe/H]=-0.22)
 Mass(K3.5V) = 0.721 Msun ; Mann18 calib for M_Ks=4.208
-Mass(K3.5V) = 0.735 Msun ; 0.75 Msun for K3V, 0.72 Msun for K4V
-Mass(K3.5V) = 0.743 Msun ; exemplar HD 31560 = GJ 2037 = HIP 22907 
+Mass(K3.5V) = 0.743 Msun ; exemplar HD 31560 = GJ 2037 = HIP 22907
+Mass(K3.5V) = 0.745 Msun ; adopted 0.766 Msun for K3V, 0.723 Msun for K4V
 Mass(K3.5V) = 0.750 Msun ; exemplar HD 50281 = GJ 250A = HIP 32984 
 => adopt Mass(K3.5V) = 0.73 Msun [updated 8/2/2018]
 
@@ -152,7 +155,9 @@ Rad(K3.5V) = 0.7054 Rsun ; logL=-0.660, Teff=4700K
 logg(K3.5V) = 4.536 (rms=0.112) ; fit Soubiran22/PASTEL logg -0.1<[Fe/H]<+0.1 d<50pc dwarfs Teff=4730K (see G0V.txt)
 logg(K3.5V) = 4.58 ; exemplar HD 82342 = GJ 1126 = HIP 46626 ([Fe/H]=-0.50)
 logg(K3.5V) = 4.60 ; exemplar HD 31560 = GJ 2037 = HIP 22907 ([Fe/H]=+0.04)
+logg(K3.5V) = 4.60 ; exemplar HD 137010 = HIP 75398 ([Fe/H]=-0.22)
 => adopt logg(K3.5V) = 4.54 [updated 9/15/2023]
+
 
 # Exemplars
 
@@ -249,6 +254,101 @@ HD 82342 = GJ 1126 = HIP 46626 = UGP 209 = CD-31 7352
   M=0.70(DelgadoMena15), M=0.707(Anders22),
   M=0.710+-0.089(TIC/Stassun19), M=0.713+-0.022Msun(GomesdaSilva21),
   M=0.720(Anders19), M=0.724(GaiaDR3/Flame) => adopt M=0.70Msun.
+
+HD 137010 = HIP 75398 = NLTT 40117 = BD-19 4097 = CPD-19 5813 = LTT 6155 = SAO 159232 = TIC 428919267 = 2MASS J15242123-1944215 = Gaia DR3 6254679341809369088
+  K0: Cannon/HD
+  K3: GomezdaSilva21
+  K3/4V: Houk88
+ *K3.5V: Gray06
+  K4V: Pickles10(SEDfit)
+
+  Exoplanet host star with *candidate* (single-transit-detection)
+  ~Earth-sized planet on ~1-year orbit (Venner26).  Both Houk and Gray
+  present subtypes intermediate between K3V and K4V.  Tuchow25 has it
+  has a Tier 3 HWO target.  Boettner24 lists Galactic kinematic
+  population stats P(TD/D)=2.315, P(TD/H)=5976, and assigns population
+  "thick disk candidate". Star does appear to be alpha-rich.  However
+  SuarezAndrez and Adibekyan12 consider it thin disk.  Galactic
+  velocity from GCNS: U,V,W = 58.899, -11.498, -47.985 km/s.
+  Kervella22 HIP/Gaia analysis appears to be unperturbed
+  (dVt=7.48+-17.50m/s).  Perdelwitz24 lists 8 HARPS RVs.  Venner26
+  finds single transit K2 planet candidate HD 137010b:
+  Rad=1.06+0.06-0.05Rsun, Porb=355+200-59d (a=0.88+-0.32-0.10au),
+  flux=0.29+0.11-0.13So), transit depth 250+-10ppm, "This is the first
+  planet candidate with Earth-like radius and orbital properties
+  transiting a Sun-like star bright enough for substantial follow-up
+  observations", i.e. they claim it is on/near outer edge of
+  Kopparapu13 HZ, and estimate projected semimajor axis of 20+7-2mas
+  ("However, this may still be too small of a separation to facilitate
+  direct detection"). Note that for 1micron, lam/D for 6m ~ 34mas, and
+  for the projected separation to reach lam/D (already a stretch for a
+  realistic coronagraph), one would need ~10.3m, which is currently
+  larger than studied HWO architectures.  V=10.041(Paunzen24),
+  V=10.05(HIP), V=10.145(Pickles10/SEDfit), V=10.16(TYC),
+  B-V=0.899+-0.112(TYC), B-V=1.022+-0.004(HIP), V-Ic=1.07+-0.01(HIP),
+  Teffs: 4616+-67K(Stevens17/spectroscopic), 4645+-23K(Stevens17),
+  4702+-88K(Bai19), 4704+-216K(Montalto21),
+  4712+-157K(HardegreeUllman23), 4750+-100K(AguileraGomez18),
+  4753+-22K(Huson25), 4770+-90K(Venner26), 4781+-11K(Das25),
+  4794K(SuarezAndres17), 4797K(Adibekyan12/Carretta13/DelgadoMena15),
+  4797+121-106K(Sousa11), 4797+-123K(Stassun19/TIC),
+  4797+-121K(GomesdaSilva21/Soubiran22/N=1), 4841+-73K(Queiroz23),
+  4850+-80K(Tsantaki22/Turchi25), 4916K(Ye25), 4933+-50K(Perdelwitz24)
+  => adopt Teff=4794K.  Gravity: logg=4.41+-0.22(Soubiran22/N=1),
+  logg=4.41+0.22-0.20(Sousa11),
+  logg=4.41(Adibekyan12/Carretta13/DelgadoMena15/SuarezAndres17),
+  logg=4.556(Ye25), logg=4.58+-0.02(Huson25),
+  logg=4.599+0.019-0.008(Queiroz23), logg=4.60+-0.03(Venner26),
+  logg=4.601+-0.015(Tsantaki22/Turchi25),
+  logg=4.64+-0.22(GomesdaSilva21), logg=4.6441+-0.0928(Stassun19/TIC),
+  logg=4.6481+-0.0124(Das25), logg=4.68+-0.02(AguileraGomez18),
+  logg=4.90+-0.01(Perdelwitz24) => adopt logg=4.60.  Metallicities:
+  [Fe/H]=-0.29(Carretta13), [Fe/H]=-0.28+-0.10(Perdelwitz24),
+  [Fe/H]=-0.25+-0.10(AguileraGomez18),
+  [Fe/H]=-0.22+-0.08(GomesdaSilva21/Soubiran22/N=1),
+  [Fe/H]=-0.22+0.08-0.06(Sousa11), [Fe/H]=-0.22+-0.08(Gaspar16),
+  [Fe/H]=-0.22(Adibekyan12/Mortier13/DelgadoMena15/SuarezAndres17),
+  [M/H]=-0.22+-0.08(Stassun19/TIC), [Fe/H]=-0.202+-0.011(Das25),
+  [Fe/H]=-0.18+0.15-0.09(Querioz23), [Fe/H]=-0.170+-0.08(Palla22),
+  [Fe/H]=-0.07+-0.02(Huson25), [Fe/H]=-0.0259+-0.126(Tsantaki22),
+  [Fe/H]=+0.271(Ye25).  Other elemental abundances seems somewhat
+  alpha-rich: [Ca/Fe]=+0.104+-0.006(Das25),
+  [Ti/Fe]=+0.258+-0.007(Das25), [Si/Fe]=+0.156+-0.011(Das25),
+  [Mg/Fe]=+0.1006+-0.0300(Palla22),
+  [C/H]=-0.36+-0.15(SuarezAndres17/"thin" disk), (for more see
+  Adibekyan12, Mikolaitis17).  Masses:
+  0.67+0.03-0.02Msun(AguileraGomez18),
+  0.676+-0.056Msun(Pinheiro14/#4/Padova),
+  0.688+-0.054Msun(HardegreeUllman23),
+  0.705+-0.044Msun(Pinheiro14/median),
+  0.709+-0.021Msun(GomesdaSilva21), 0.709+-0.013Msun(Sousa11/Padova),
+  0.71Msun((Mortier13), 0.71Msun(DelgadoMena15),
+  0.726+-0.017Msun(Venner26),
+  0.734+-0.057Msun(Pinheiro14/#3/Henry/McCarthy),
+  0.7355+0.0146-0.0126Msun(Queiroz23),
+  0.753+-0.050Msun(Pinheiro14/#1/direct),
+  0.770+-0.097Msun(Stassun19/TIC) => adopt Mass=0.71Msun.
+  Luminosities: logL=-0.64107189533297(Tuchow25),
+  Lum=0.232+0.023-0.021Lsun(Venner26) => logL=-0.6345(Venner26);
+  Lum=0.228+-0.00633(HardegreeUllman23) =>
+  logL=-0.6421+-0.0121(HardegreeUllman23),
+  logL=-0.8181+-0.0769(Sousa11), Radius:
+  Rad=0.663+-0.015Rsun(GomesdaSilva21), 0.707+-0.023Rsun(Venner26).
+  Activity: logR'HK=-4.993(BoroSaikia18/Gondoin20),
+  logR'HK=-4.955(Gray06), logR'HK=-4.8424(GomesdaSilva21),
+  logR'HK=-4.6965+-0.0175(Perdelwitz24/HARPS).
+  Age=4.892+-4.676Gyr(GomesdaSilva21),
+  Age=6.43+6.30-3.18Gyr(AguileraGomez18), Age=4.8-10Gyr(Venner26),
+  9.3+3.0-3.2Gyr(Venner26/kinematic#1),
+  10.4+2.2-2.4Gyr(Venner26/kinematic#2).  GaiaDR3:
+  plx=22.2922+-0.0174mas(GaiaDR3) => d=44.825pc,
+  G=9.705999+-0.002761(GaiaDR3), Bp-Rp=1.256157(GaiaDR3),,
+  Bp-G=0.553691(GaiaDR3), (G-Rp)=0.702466(GaiaDR3).
+
+  Mass(K3.5V)  = 0.71 Msun ; exemplar HD 137010 = HIP 75398 ([Fe/H]=-0.22)
+  logg(K3.5V)  = 4.60 ; exemplar HD 137010 = HIP 75398 ([Fe/H]=-0.22)
+  Teff(K3.5V)  = 4794 K ; exemplar HD 137010 = HIP 75398 ([Fe/H]=-0.22)
+  (B-V)(K3.5V) = 1.022 +-0.004 ; exemplar HD 137010 = HIP 75398 ([Fe/H]=-0.22)
 
 # Other Stars
 

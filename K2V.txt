@@ -9,7 +9,8 @@ estimating typical properties for solar composition stars.  The two
 standards with the longest history of usage (eps Eri/HD 22049 and HD
 109011) are both very young (~0.5 Gyr) active stars.
 
-MK43 standards:       eps Eri (=HD 22049) & S222 (HR 222? => presumably HD 4628) - K2V
+MK43 standards:       eps Eri (=HD 22049) - K2V
+                      "S222" (HR 222? => presumably HD 4628) - K2V
 JM53 standards:       eps Eri (=HD 22049) - K2V 
                       HD 109011 - K2V
 Wilson62 standards:   eps Eri (=HD 22049) - K2V [from JM53]
@@ -591,7 +592,7 @@ BCv(K2V) =  -0.272 ; Flower96(Teff=5090K)
 BCv(K2V) =  -0.263 ; Masana06(Teff=5090K)
 BCv(K2V) =  -0.255 ; Bessell98(ATLAS9,logg=4.5,Teff=5090K)
 BCv(K2V) =  -0.248 ; Casagrande18(Teff=5090K,logg=4.5)
-BCv(K2V) =  -0.236 ; pri. stan. HD 22049 = eps Eri ([Fe/H]=-0.08)
+BCv(K2V) =  -0.236 +-0.014 ; pri. stan. HD 22049 = eps Eri (literature med., based on Soubiran24) ([Fe/H]=-0.08) 
 BCv(K2V) =  -0.220 ; Bertone04(ATLAS,Teff=5090K)
 => adopt BCv(K2V) = -0.26 [updated 11/15/2025; adjusted so that BCv(5772K)=-0.085]
 
@@ -935,11 +936,11 @@ HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=
   fbol=(102.539+-1.76%=>+-1.80469)e-8erg/s/cm2(Rains20/Vt)=>
   mbol=3.475+-0.019(IAU2015scale),
   fbol=1.024e-6mW/m2(Alonso95/Ramirez05) => mbol=3.477(IAU2015scale),
-  fbol=1.01e6fW/m2(Freund22) => mbol=3.492(IAU2015scale),
-  fbol=(101.158+-2.218)e-11W/m2(Soubiran24/"FbolAv0") =>
-  mbol=3.490+-0.024(IAU2015scale),
   fbol=(101.793+-1.36%=>+-1.38438)e-8erg/s/cm2(Rains20/Hp) =>
   mbol=3.483+-0.015(IAU2015scale),
+  fbol=(101.158+-2.218)e-11W/m2(Soubiran24/"FbolAv0") =>
+  mbol=3.490+-0.024(IAU2015scale), fbol=1.01e6fW/m2(Freund22) =>
+  mbol=3.492(IAU2015scale),
   fbol=(100.473+-2.060)e-11W/m2(Soubiran24/"Fbol") =>
   mbol=3.497+-0.022(IAU2015scale), fbol=1.00e-11W/m2(Alonso96) =>
   mbol=3.503(IAU2015scale),
@@ -949,17 +950,25 @@ HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=
   mbol=3.519+-0.037(IAU2015scale),
   fbol=9.791e-07mW/m2(Gonzalez-Hernandez09) =>
   mbol=3.525(IAU2015scale), fbol=8.942e-10W/m2(Sreejith20/discrepent)
-  => mbol=3.624(IAU2015scale).  => adopt mbol=3.490+-0.01 => BCv =
-  -0.236+-0.014 = mbol - V = 3.490+-0.01 - 3.726+-0.01.
-  logLx/Lbol=-4.80(Coffaro20) => from fit to logLx/Lbol to log(age/yr)
-  for age-dated nearby K dwarfs and Praesepe+Hyades (between -6.43 <
-  logLx/Lbol < -4.45): log(age/yr) = 7.5932535568358972e-1 -
-  2.7024129578649640e0*logLx/Lbol - 1.9943363338582593e-1*(logLx/Lbol)
-  ^2 (rms=0.062dex) => log(age/yr)=9.136 => age(x-ray) = 1.368Gyr.
-  This is rough agreement with updated gyrochronological age
-  (1.119+0.096-0.130 Gyr) based on Bouma23 gyrointerp using
-  Teff=5062+-29K and Prot=11.60+-0.16d.  Both the rotation and X-ray
-  data are now suggesting an age slightly older than 1 Gyr, older than
+  => mbol=3.624(IAU2015scale) => true median value for 14 estimates:
+  <mbol> = 3.491+-0.010(s.e.med.; 68% scatter +0.03-0.07),
+  i.e. identical to recent Soubiran24/"FbolAv0" values, I adopt adopt
+  mbol=3.491+-0.01 (although ~1% is probably pushing irradiance
+  calibration limits) => BCv = -0.235+-0.014 = mbol - V = 3.491+-0.01
+  - 3.726+-0.01.  Calculating luminosity mbol(app)=3.491+-0.01 +
+  plx(GaiaDR3) => Mbol=5.952+-0.01, logL=-0.485+-0.004,
+  Lum=0.3275+-0.0030Lsun.  logLx/Lbol=-4.80(Coffaro20) => from fit to
+  logLx/Lbol to log(age/yr) for age-dated nearby K dwarfs and
+  Praesepe+Hyades (between -6.43 < logLx/Lbol < -4.45): log(age/yr) =
+  7.5932535568358972e-1 - 2.7024129578649640e0*logLx/Lbol -
+  1.9943363338582593e-1*(logLx/Lbol) ^2 (rms=0.062dex) =>
+  log(age/yr)=9.136 => age(x-ray) = 1.368Gyr.  This is rough agreement
+  with updated gyrochronological age (1.119+0.096-0.130 Gyr) based on
+  Bouma23 gyrointerp using Teff=5062+-29K and
+  Prot=11.60+-0.16d(Sanghi26).  Metcalfe25 also report updated gyro
+  age estimates of 1.3+0.23-0.20Gyr and 1.46+0.25-0.22Gyr, using two
+  different gyro calibration models. Both the rotation and X-ray data
+  are now suggesting an age slightly older than 1 Gyr, older than
   majority of previous age estimates.
 
   BCv(K2V)    = -0.236 +-0.014 ; pri. stan. HD 22049 = eps Eri ([Fe/H]=-0.08)
@@ -994,40 +1003,39 @@ HD 166620 = GJ 706 = HIP 88972 = HR 6806 = LHS 3363 = SPOCS 784 = LUH 13A = Gaia
  *K2V: 1927MeUpp..28....1L,Adams35,Keenan41,JM53(non-stan),Morgan53,Wilson62,Cowley67,Hoffleit82(BSC),Houk(stan? see below),Bidelman85(K2),Gray03
 
   Identified as a Maunder Minimum candidate star by
-  Baum22(2022AJ....163..183B), and HWO target star
-  (MamajekStapelfeldt24).  Baliunas95 has classified it as cycling
-  with period 16yr, but Baum22(Fig.4) finds that since somewhere in
-  the data-gap years between 1995 and 2004 that "the star now appears
-  to have entered a phase of low, flat activity."  Not officially
-  considered a standard in the Morgan/Keenan works (in
-  JohnsonMorgan53, but not as a standard), but 8 references consider
-  it a K2 dwarf. There appears to be a typo in Houk75 list of primary
-  standards. Houk75 lists primary standards of alf Ser as "K2V"
-  followed by HD 166620 (MK73 dagger) as "K2 III CN 1.5" (from
-  JM53). However these stars and their types appear to be switched.  I
-  think Houk75 meant to list HD 166620 (K2V) (from JM53) and alf Ser
-  (K2 III CN 1.5) (from MK73 dagger). So this star was likely used as
-  a "K2V" standard by Houk75 in the Michigan Surveys. WDS mentions a
-  T7 companion at 769" separation reported by Luhman.  Star is
-  relatively inactive (logR'HK=-4.955; Baliunas96), with inferred
-  chromospheric ages of ~5.8-7.1 Gyr(Mamajek08).  Despite being so
-  inactive, the star has been detected in X-rays via a pointed ROSAT
-  HRI observation (1RXH J180937.7+382729; fX=0.002579+-0.000815ct/s;
-  Schmitt04) and Schmidtt04 estimates Lx=10^26.96erg/s and
-  logLx/Lbol=-6.18(Wright11,Zhu25), the latter value is nearly
-  identical to the solar value inferred from the solar X-ray fluxes
-  from Judge03(logLx/Lbol=-6.24+0.18-0.30).  The ROSAT HRI imaging was
-  done in 1990 while the star was in its penultimate activity minimum
-  before its activity cyling ceased. Stelzer has two long XMM Newton
-  observations of the star (40.8ks and 41.1ks) during 2024 and 2025.
-  Luhman reported WISE J180901.07+383805.4 (CNS5 4493 = LUH 13B) as a
-  T7 candidate companion 769.2" away in 2010 (WDS J18096+3827 = LUH
-  13), however WDS notes that it is likely not a physical companion.
-  WISE J180901.07+383805.4 has a large proper motion in somewhat
-  similar direction, but its parallax (52.4mas) places it 72% further
-  away. Prot=42.4d(Donahue96) => MamajekHillenbrand08 gyro calibration
-  => age_gyro=6.4Gyr (MamajekHillenbrand listed activity ages of 5.8 &
-  7.1 Gyr).  V=6.377+-0.003(Hauck97), V=6.38(HIP),
+  Baum22(2022AJ....163..183B), and Bennedik26 calls HD 166620 the
+  "only known unambiguous star in a Maunder minimum-like chromospheric
+  activity state" (see plot of its S_HK and logLx/Lbol over time in
+  Fig.1 of that paper).  Correspondingly, it is extremely inactive
+  star in X-rays, essentially defining the lower envelope for X-ray
+  surface flux for K dwarfs (Bennedik26). Also a HWO target star
+  (MamajekStapelfeldt24). Not officially considered a standard in the
+  Morgan/Keenan works (in JohnsonMorgan53, but not as a standard), but
+  8 references consider it a K2 dwarf, including classifications by
+  experts Keenan, Morgan, Cowley, Houk, and Gray, and its consistent
+  history of repeated K2V classifications is somewhat better than that
+  of the tertiary standard HD 4628 (below).  There appears to be a
+  typo in Houk75 list of primary standards. Houk75 lists primary
+  standards of alf Ser as "K2V" followed by HD 166620 (MK73 dagger) as
+  "K2 III CN 1.5" (from JM53). However these stars and their types
+  appear to be switched.  I think Houk75 meant to list HD 166620 (K2V)
+  (from JM53) and alf Ser (K2 III CN 1.5) (from MK73 dagger). HD
+  166620 is notably absent from the list of MK73 dagger standards.  So
+  this star was likely used as a "K2V" standard by Houk75 in the
+  Michigan Surveys. Baliunas95 has classified it as cycling with
+  period 16yr, but Baum22(Fig.4) finds that since somewhere in the
+  data-gap years between 1995 and 2004 that "the star now appears to
+  have entered a phase of low, flat activity." The sustained
+  inactivity of the star has drawn several followup studies focusing
+  mainly on HD 166620: Baum22, Luhn22, Savanov23, AnnaJohn23(planet
+  survey), AnnaJohn25, Bennedik26(X-rays), Wood26.  More on the star's
+  activity at the end.  WDS mentions a T7 companion at 769" separation
+  reported by Luhman.  Luhman reported WISE J180901.07+383805.4 (CNS5
+  4493 = LUH 13B) as a T7 candidate companion 769.2" away in 2010 (WDS
+  J18096+3827 = LUH 13), however WDS notes that it is likely not a
+  physical companion.  WISE J180901.07+383805.4 has a large proper
+  motion in somewhat similar direction, but its parallax (52.4mas)
+  places it 72% further away.  V=6.377+-0.003(Hauck97), V=6.38(HIP),
   V=6.39(Nikonov57/N=7), V=6.39(TYC), V=6.392055(GaiaDR3/synth),
   V=6.398+-0.012(Mermilliod91), V=6.40(Johnson66/N=4),
   V=6.41(Argue63/N=8), V=6.41(Haeggkvist70) => adopt V=6.398.
@@ -1039,16 +1047,14 @@ HD 166620 = GJ 706 = HIP 88972 = HR 6806 = LHS 3363 = SPOCS 784 = LUH 13A = Gaia
   U-B=0.59(Haeggkvist70), U-B=0.59(Argue63/N=8),
   U-B=0.591+-0.008(Mermilliod91) => adopt U-B=0.591.
   Rj=5.63(Johnson66/Morel78/N=4), Rk=5.96(Kron57),
-  Rc=5.877525(GaiaDR3/synth), V-Rj=0.77(Johnson66), 
-  Ij=5.14(Johnson66/Morel78/N=4),
-  Ik=5.62(Kron57), Ic=5.418217(GaiaDR3/synth),
-  V-Rj=0.77(Mallama18),
+  Rc=5.877525(GaiaDR3/synth), V-Rj=0.77(Johnson66),
+  Ij=5.14(Johnson66/Morel78/N=4), Ik=5.62(Kron57),
+  Ic=5.418217(GaiaDR3/synth), V-Rj=0.77(Mallama18),
   V-Rk=0.44(Johnson66+Kron57), V-Rc=0.518(Just08),
   V-Rc=0.523(Johnson66+Kron57=>Cousins), V-Rc=0.54(Mallama18) => adopt
   V-Rc=0.523.  R-Ij=0.49(Hoffleit91/BSC,Mallama18), R-Ik=0.34(Kron57),
   R-Ic=0.450(Just08), R-Ic=0.456(Kron57=>Cousins),
-  R-Ic=0.47(Mallama18) => adopt R-Ic=0.456.
-  V-Ij=1.26(Johnson66), 
+  R-Ic=0.47(Mallama18) => adopt R-Ic=0.456.  V-Ij=1.26(Johnson66),
   V-Ik=0.78(Johnson66+Kron57), V-Ic=0.968(Just08),
   V-Ic=0.978(Johnson66+Kron57=>Cousins), V-Ic=1.00+-0.01(HIP),
   V-Ic=1.01(Mallama18) => adopt V-Ic=0.978.  g-r=0.706(Just08),
@@ -1097,7 +1103,48 @@ HD 166620 = GJ 706 = HIP 88972 = HR 6806 = LHS 3363 = SPOCS 784 = LUH 13A = Gaia
   mbol=6.1156(IAU2015 scale), fbol=9.11e-11W/m2(Blackwell98) =>
   mbol=6.104(IAU2015 scale), fbol=(9.39+-0.05)e-11W/m2(vanBelle08) =>
   mbol=6.071+-0.006(IAU2015 scale) => adopt mbol=6.116+-0.01 => BCv =
-  -0.282+-0.016 = mbol - Vmag = 6.116+-0.01 - 6.398+-0.012.
+  -0.282+-0.016 = mbol - Vmag = 6.116+-0.01 - 6.398+-0.012.  More on
+  the activity: Despite being so inactive, the star has been detected
+  multiple times in X-rays via a pointed ROSAT HRI observation (1RXH
+  J180937.7+382729; fX=0.002579+-0.000815ct/s; Schmitt04) and
+  Schmitt04 estimates Lx=10^26.96erg/s and
+  logLx/Lbol=-6.18(Wright11,Zhu25), the latter value is nearly
+  identical to the solar value inferred from the solar X-ray fluxes
+  from Judge03(logLx/Lbol=-6.24+0.18-0.30).  The ROSAT HRI imaging was
+  done in 1990 while the star was in its penultimate activity minimum
+  before its activity cyling ceased. Stelzer has two long XMM Newton
+  observations of the star (40.8ks and 41.1ks) during 2024 and 2025.
+  Bennedik26 report a deep XMM-Newton observations and estimate
+  logLx=26.56+0.10-0.12, logLx/Lbol=-6.58+0.10-0.120, X-ray surface
+  flux logfx=3.97+-0.10-0.12(erg/cm2/s), and a low coronal temperature
+  kT=0.109keV(!) [=1.26 mK]... hence less active than the previously
+  reported ROSAT HRI observation. Bennedik26 report: "With respect to
+  the earlier ROSAT observation, the X-ray brightness of HD 166620 has
+  decreased by a factor of 2.5 during its Maunder minimum-like
+  state. To place its X-ray properties into context, we constructed an
+  X-ray sample of late-type stars within 10 pc of the Sun. The
+  activity of HD 166620 is below the levels of all other K dwarfs in
+  the 10 pc sample. The corona of HD 166620 during its grand minimum
+  emits at the level of the solar background corona, which implies
+  that it has no large active magnetic structures."  The star is also
+  chromospherically inactive (logR'HK=-4.955; Baliunas96), with
+  inferred chromospheric ages of ~5.8-7.1 Gyr(Mamajek08).  Ages:
+  4.35+-2.48["range"]Gyr(Luck17), 4.39Gyr(Ibukiyama02),
+  4.8+-4.2Gyr(LlorentedeAndres21), 5.25+-0.42Gyr(Mikolaitis19),
+  5.4+-1.2Gyr(Ramirez12), 5.589Gyr(Marsden14/activity),
+  5.62Gyr(Isaacson24), 5.79Gyr(Eiroa13,Heras25), 6.76+-4.64(Pace13),
+  9.16+1.47-1.40Gyr(Metcalfe25/Sec.3.1),
+  9.5+2.15-1.65Gyr(Metcalfe25/Sec.3.2), 10.95+1.33-5.87Gyr(Harada24),
+  12.4(9-14.3)Gyr(Brewer16,Baum22),
+  13.15(+0.53-7.93)Gyr(AguileraGomez18).  logR'HK=-4.955(Baliunas96),
+  Prot=42.4d(Donahue96) => MamajekHillenbrand08 gyro calibration =>
+  age_gyro=6.4Gyr (MamajekHillenbrand listed activity ages of 5.8 &
+  7.1 Gyr).  Rotation periods: Prot=42.4d(Donahue96),
+  Prot=43d(Baliunas96), Prot=43+-0.5d(Metcalfe25/based on Baliunas96 &
+  Folsom18), Prot=45d(Luhn22), Prot=45.3+0.0-0.4d(Marsden14).  Liu20
+  reports very low barium, [Ba/Fe]=-0.20 to -0.25, lower than that
+  reported by Mishenina13 ([Ba/Fe]=-0.09).
+  
 
       BCv(K2V) =  -0.282 ; sec. stan. HD 166620 = GJ 706 ([Fe/H]=-0.18) 
              G =   6.1298+-0.0028 ; sec. stan. HD 166620 = GJ 706 ([Fe/H]=-0.18)  
@@ -1168,8 +1215,9 @@ HD 4628 = GJ 33 = HIP 3765 = HR 222 = Wolf 25 = Lalande 1299 = BD+04 123 = LHS 1
   V-Rc=0.51(Cousins80/nearby), V-Rc=0.517(Cousins80/bright) => adopt
   V-Rc=0.51.  Ic=4.756312(GaiaDR3/synth), R-Ik=0.33+-0.01(Kron57),
   R-Ic=0.441(Just08), R-Ic=0.445(Kron57=>Cousins),
-  R-Ic=0.45(Cousins80/nearby), R-Ic=0.451(Cousins80/bright) => adopt
-  R-Ic=0.445.  V-Ik=0.75(Kron57/HIP), V-Ic=0.949(Just08),
+  R-Ic=0.45(Cousins80/nearby), R-Ic=0.451(Cousins80/bright),
+  R-Ic=0.451+-0.003(Taylor05) => adopt R-Ic=0.445.
+  V-Ik=0.75(Kron57/HIP), V-Ic=0.949(Just08),
   V-Ic=0.949(Kron57/HIP=>Cousins), V-Ic=0.96(Cousins80),
   V-Ic=0.968(Cousins80/bright) => adopt V-Ic=0.955.
   g-r=0.719(Just08), r-i=0.216(Just08), Jj=4.24(Johnson68/N=1),
@@ -1210,7 +1258,31 @@ HD 4628 = GJ 33 = HIP 3765 = HR 222 = Wolf 25 = Lalande 1299 = BD+04 123 = LHS 1
   fbol=(17.12+-0.29)e-11W/m2(vanBelle09) =>
   mbol=5.419+-0.018(IAU2015scale) => adopt mbol =
   5.428+-0.024(Soubiran24) => BCv = mbol - V = -0.314+-0.027 =
-  5.428+-0.024 - 5.742+-0.013
+  5.428+-0.024 - 5.742+-0.013. Only paper I could find specifically on
+  this star was Mathioudakis94, which presense EUVE data which
+  identifies HD 4628 as among the "slowest rotators" with "a cool
+  corona with a characteristic temperature of less than 1e6 K" -- in
+  the test mentioned as 6.5e5K or 5.6e5K (using two different models).
+  logLx=27.234(Zhu25/ROSAT), logLx/Lbol=-5.827(Zhu25/ROSAT).
+  logR'HK=-4.95+0.02-0.01(Marsden14), logR'HK=-4.95(RochaPinto98),
+  logR'HK=-4.96(Brewer16), logR'HK=-4.972(StanfordMoore20),
+  logR'HK=-5.25(Henry96).  Ages: 4.0Gyr(Mamajek08/R'HK),
+  4.3+-0.9Gyr(Ramirez12/thindisk),
+  4.334+0.162-0.308Gyr(Marsden14/activity), 5.2Gyr(Gaspar16),
+  5.4Gyr(Mamajek08/R'HK=>Prot=>gyro), 6.22Gyr(Isaacson10/R'HK),
+  7+-7Gyr(Ghezzi10;0-14Gyr!), 7.23+4.98-3.70Gyr(AguileraGomez18),
+  8.1Gyr(5.5-11.0;Bryden06), 8.374+-5.185Gyr(GomezdaSilva21),
+  8.51Gyr(5.33-11.40;1sig;StanfordMoore20,Heras25),
+  10.27Gyr(Kospal09), 11.4(5.8-14.6Gyr;Valenti05),
+  12.39(4.37-12.75;1sig;Ramirez13),
+  Prot=42.8+0.4-0.9d(Marsden14/activity).  Brewer16 reports
+  [Mg/H]=-0.18 and [Y/H]=-0.43, which would suggest
+  [Y/Mg]=-0.25. Meshinina13 reports [Ba/Fe]=-0.04, [Y/Fe]=+0.08, and
+  shows a strong alpha enhancement [O/Fe]=+0.36, [Mg/Fe]=+0.21,
+  [Si/Fe]=+0.18.  Soubiran20 has the Galactic kinematic probabilities
+  as P(thin)=0.50, P(thick)=0.12, P(Hercules)=0.38. Boettner24 lists
+  it as thin disk .
+  
 
       BCv(K2V) = -0.314 +-0.027 ; ter. stan. HD 4628 = GJ 33 ([Fe/H]=-0.26)
              G =  5.4677 +-0.0028 ; ter. stan. HD 4628 = GJ 33 ([Fe/H]=-0.26)    
@@ -1409,35 +1481,24 @@ HD 68475 = HIP 40051 = NLTT 19093 = UGP 177 = 2MASS J08105258-4248407 = Gaia DR2
 HD 13808 = HIP 10301 = UPG 29 = CD-54 471 = CPD-54 432 = 2MASS J02124292-5344380 = Gaia DR3 4743692151804240896 
   *K2V: Upgren72,Houk75,Gray06
 
-   All three published MK types are K2V. Two substellar companions b and
-   c.
-   V=8.354(Hauck97),
-   V=8.357(Pickles10/SEDfit),
-   V=8.36(HIP),
-   V=8.360+-0.014(Bourges17), 
-   V=8.373125(GaiaDR3/synth),
-   V=8.378+-0.014(ASCC-2.5), 
-   V=8.38(TYC),
-   V=8.44(Mermilliod91) => adopt V=8.373(GaiaDR3/synth),
-   B-V=0.850+-0.019(TYC),
+   All three published MK types are K2V. Two substellar companions b
+   and c.  V=8.354(Hauck97), V=8.357(Pickles10/SEDfit), V=8.36(HIP),
+   V=8.360+-0.014(Bourges17), V=8.373125(GaiaDR3/synth),
+   V=8.378+-0.014(ASCC-2.5), V=8.38(TYC), V=8.44(Mermilliod91) =>
+   adopt V=8.373(GaiaDR3/synth), B-V=0.850+-0.019(TYC),
    B-V=0.870+-0.000(G,HIP,Mermilliod91) => adopt B-V=0.86+-0.01:.
-   U-B=0.533(GaiaDR3/synth),
-   U-B=0.535(Mermilliod91) => adopt U-B=0.535.
-   Rc=7.86(Pickles10/SEDfit),
-   V-Rc=0.497(Pickles10/SEDfit),
-   V-Rc=0.500(GaiaDR3/synth) => adopt V-Rc=0.50.
-   Ic=7.43(Pickles10/SEDfit),
-   R-Ic=0.43(Pickles10/SEDfit),
+   U-B=0.533(GaiaDR3/synth), U-B=0.535(Mermilliod91) => adopt
+   U-B=0.535.  Rc=7.86(Pickles10/SEDfit),
+   V-Rc=0.497(Pickles10/SEDfit), V-Rc=0.500(GaiaDR3/synth) => adopt
+   V-Rc=0.50.  Ic=7.43(Pickles10/SEDfit), R-Ic=0.43(Pickles10/SEDfit),
    R-Ic=0.448(GaiaDR3/synth) => adopt R-Ic=0.44.
-   V-Ic=0.91+-0.00(HIP),
-   V-Ic=0.927(Pickles10/SEDfit),
-   V-Ic=0.948(GaiaDR3/synth) => adopt V-Ic=0.94. 
-   J=6.776+-0.021(2MASS),
-   H=6.383+-0.033(2MASS),
-   Ks=6.250+-0.024(2MASS) => (V-Ks) =
-   8.373125(GaiaDR3/synth) - 6.250(2MASS) = 2.123.  PASTEL compendium:
-   <Teff> = 5078K(N=4), logg=4.38(N=2), [Fe/H]=-0.21(N=2).
-   Soubiran22/PASTEL mean values: Teff=5108+-32K, logg=4.45+-0.06,
+   V-Ic=0.91+-0.00(HIP), V-Ic=0.927(Pickles10/SEDfit),
+   V-Ic=0.948(GaiaDR3/synth) => adopt V-Ic=0.94.
+   J=6.776+-0.021(2MASS), H=6.383+-0.033(2MASS),
+   Ks=6.250+-0.024(2MASS) => (V-Ks) = 8.373125(GaiaDR3/synth) -
+   6.250(2MASS) = 2.123.  PASTEL compendium: <Teff> = 5078K(N=4),
+   logg=4.38(N=2), [Fe/H]=-0.21(N=2).  Soubiran22/PASTEL mean values:
+   Teff=5108+-32K, logg=4.45+-0.06,
    [Fe/H]=-0.17+-0.03. plx=35.5279+-0.0185mas(GaiaDR3) =>
    Mv=6.126(GaiaDR3/synth,GaiaDR3), M_G=5.873+-0.003(GaiaDR3),
    M_Ks=4.003+-0.024(2MASS,GaiaDR3).  GaiaDR3:
@@ -1445,6 +1506,20 @@ HD 13808 = HIP 10301 = UPG 29 = CD-54 471 = CPD-54 432 = 2MASS J02124292-5344380
    E(Bp/Rp)=1.221(GaiaDR3), Bp-Rp=1.059424(GaiaDR3),
    Bp-G=0.446209(GaiaDR3), G-Rp=0.613215(GaiaDR3) => M_G=5.87 =>
    (G-Ks) = 8.119903(GaiaDR3) - 6.250(2MASS) = 1.870.
+   logR'HK=-4.83(Arriaga11), logR'HK=-4.854+-0.010(Meunier17),
+   logR'HK=-4.87(Meunier22/N=230, span=4437d),
+   logR'HK=-4.872+-0.010(Meunier17b),
+   logR'HK=-4.908+-0.074(GomesdaSilva14),
+   logR'HK=-4.971405(Gondoin20).  Unfortunately I can't find any X-ray
+   detections of this star to combine with the chromospheric activity
+   and rotation measurements.  Rotation: Prot=37d(Arriagada11, unclear
+   if this is measured or estimated from activity?), Prot=38.0d(Yu24),
+   Prot=40.2d(Liebing21). Age>4Gyr(EEM/gyro),
+   Age=5.877+-4.433Gyr(Tsantaki13),
+   Age=7.208+-4.759Gyr(DelgadoMena19/Ahrer21(adopted)),
+   Age=7.22+-4.70Gyr(Pace13),
+   Age=13.475+-1.190Gyr(GaiaDR3/FLAME,discrepent) => not
+   well-constrained, but probably ~7 Gyr.
 
         G =  8.1199+-0.0028 ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.21)   
    (V-Rc)(K2V) =   0.500 +-0.010 ; exemplar HD 13808 = HIP 10301 ([Fe/H]=-0.21)   
@@ -1889,6 +1964,21 @@ HD 208313 = GJ 840 = V402 Peg = HIP 108156 = NLTT 52419 = SPOCS 945 = BD+31 4574
   fx=0.0277+-0.0089ct/s, HR1=-0.780 => EEM calc fX=1.157e-13erg/s/cm2,
   logLx=27.76, using Lum=0.3447Lsun(GaiaDR3/FLAME) => logL=-0.4626 =>
   logLx/Lbol=-5.36 (roughly recovering the estimates from Hinkel17).
+
+HD 219834B = 94 Aqr B = GJ 894.2B = HIP 115125 = NLTT 56465 = SPOCS 1015 = STF 2998B = 2MASS J23190655-1327189 = WDS J23191-1328B
+ *K2V: Stephenson60,Evans66,Bidelman85(K2)
+  K2?V?: Gray06 "type ssignificantly uncertainty"
+  K3V: Adams35
+
+  See notes on its primary 94 Aqr Aa (G8.5IV), which nicely constrains
+  the system age using TESS asteroseismology of the subgiant primary
+  (6.2+-0.2Gyr;Metcalfe20). So B is a K2V with measured age, rotation,
+  coronal and chromospheric activity. Its parallax is much better
+  constrain than that for the primary, which itself is a 0.15" binary:
+  plx(B)=44.5698+-0.0293mas(GaiaDR3).  logL=-0.3315(TICv8).
+  Prot=43d(Baliunas96), Prot=34.78d(Olspert18), vsini=3.9km/s(Luck17).
+  logLx=27.70(Wright11), logLx/Lbol=-6.43(Wright11).  Combining
+  Wright11 Lx with TIC luminosity => logLx/Lbol=-5.55.
 
 # Notes on nearby Hipparcos stars with K2V types (mostly from Houk)
 
