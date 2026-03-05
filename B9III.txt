@@ -4,45 +4,48 @@ MK43 standard:		 gam Lyr - B9III
 JM53 standard:	         gam Lyr - B9III
 Garrison67 standard:     gam Lyr - B9III
 Cowley69 standard:       gam Lyr - B9III
+Cowley72 standard:	 gam Lyr - B9III 
 Houk standard:	         gam Lyr - B9III [from JM53]
 MK78 standard:           mu Lep  - B9III (Mn II) 
-GarrisonGray94 standard: HR 4712 - B9III  [low vsini standard]
+GarrisonGray94 standard: HR 4712 (HD 107832) - B9III  [low vsini standard]
 			 eps Tuc - B9IIIn [high vsini standard]
 WiegertGarrison98 stan:  gam Lyr - B9III 
 GrayAtlas standard:	 pi^1 Boo - B9III- Hg Mn
 Negueruela24 standards:  32 Peg (HD 212097) - B9III [vsini=70km/s, Mv=-2.1]
-                         12 Cas (HD 2011) - B9III [vsini=125km/s, Mv=-1.9]
-			 40 Gem (HD 51688) - B9III [vsini=32km/s, Mv=-0.8]
-			 33 Gem (HD 49606) - B9III [vsini=20km/s, Mv=-0.5]
+                         12 Cas (HD 2011)   - B9III [vsini=125km/s, Mv=-1.9]
+			 40 Gem (HD 51688)  - B9III [vsini=32km/s, Mv=-0.8]
+			 33 Gem (HD 49606)  - B9III [vsini=20km/s, Mv=-0.5]
                          HD 21661 - B9II-III [vsini=5km/s, Mv=-2.4]
                          HD 57608 - B9II-III [vsini=10km/s, Mv=-2.6]
 
-Teff(B9III) =   9500K ; non-standard 13 And (see below)
-Teff(B9III) =  10100K ; standard gam Lyr (see below)
-Teff(B9III) =  10500K ; primary stan. HR 4712 (see below)
-Teff(B9III) =  11700K ; non-standard variant phi Her (see below)
-Teff(B9III) =  12000K ; primary stan. eps Tuc (see below)
-Teff(B9III) =  12600K ; deprecated standard (or variant?) mu Lep
-Teff(B9III) =  12900K ; variant standard pi^1 Boo
-=> adopt Teff(B9III) ~ 11700 (+-1000K)
+Teff(B9III) =   9500 K ; non-standard 13 And (see below)
+Teff(B9III) =  10100 K ; standard gam Lyr (see below)
+Teff(B9III) =  10500 K ; primary stan. HR 4712 (see below)
+Teff(B9III) =  11700 K ; non-standard variant phi Her (see below)
+Teff(B9III) =  12000 K ; primary stan. eps Tuc (see below)
+Teff(B9III) =  12600 K ; deprecated standard (or variant?) mu Lep
+Teff(B9III) =  12900 K ; variant standard pi^1 Boo
+=> adopt Teff(B9III) ~ 11700 K (+-1000K) 
 
-Mv(B9III) =  -0.5 ; standard HD 49606 = 33 Gem (Negueruela24 stan.) 
-Mv(B9III) =  -0.8 ; standard HD 51688 = 40 Gem (Negueruela24 stan.)
-Mv(B9III) = -1.35 ; median for 4 B9III standards in Negueruela24
-Mv(B9III) =  -1.9 ; standard HD 2011 = 12 Cas (Negueruela24 stan.) 
-Mv(B9III) =  -2.1 ; standard HD 212097 = 32 Peg (Negueruela24 stan.)
+Mv(B9III) =  -0.5  ; standard HD 49606 = 33 Gem (Negueruela24 stan.) 
+Mv(B9III) =  -0.8  ; standard HD 51688 = 40 Gem (Negueruela24 stan.)
+Mv(B9III) = -1.35  ; median for 4 B9III standards in Negueruela24
+Mv(B9III) =  -1.9  ; standard HD 2011 = 12 Cas (Negueruela24 stan.)
+Mv(B9III) =  -2.04 ; standard eps Tuc = HR 9076 = HD 224686
+Mv(B9III) =  -2.1  ; standard HD 212097 = 32 Peg (Negueruela24 stan.)
 => adopt Mv(B9III) = -1.35 [updated 2/8/2026] 
 
 # Standards
 
-HR 4712 = HD 107832 (J1223-3524; V=5.3)
+HD 107832 = HR 4712 = x01 Cen = HIP 60449 = CD-34 8117 = CPD-34 5154 = 2MASS J12233542-3524455 = Gaia DR3 6157932866997543296 (J1223-3524; V=5.3)
     B8/9V: Houk82
    *B9III: DeVaucouleurs57,GarrisonGray94(low vsini)
-    B9: Houk82
+    B9: HD,Houk82
 
-    vsini = 75 km/s. plx=7.34+-0.26 mas(vanLeeuwen07). Teffs:
+    vsini=75km/s. plx=7.34+-0.26 mas(vanLeeuwen07). Teffs:
     10464K(McDonald12) => adopt Teff=10500K. Sco-Cen member
-    (Slawson92)? not in deZeeuw99.  E(B-V)=0.00 (Heiles00).
+    (Slawson92)? not in deZeeuw99.  E(B-V)=0.00(Heiles00), E(B-V)=0.009+-0.009(Paunzen24),
+    E(B-V)=0.013(Kervella22/STILISM), E(B-V)=0.0245+-0.0102(Stassun19/TIC) => adopt E(B-V)=0.009. 
 
 eps Tuc = HR 9076 = HD 224686 = HIP 118322 (J2359-6534; V=4.5)
     B7V: DeVaucouleurs57
@@ -53,10 +56,21 @@ eps Tuc = HR 9076 = HD 224686 = HIP 118322 (J2359-6534; V=4.5)
  
     Jaschek64 types are mixed, and all dwarf (B7V,B8V,B8.5V). From
     revised Hipparcos parallax (8.74+-0.18), I estimate Mv ~ -0.8,
-    which is ~1.3 mag above the main sequence.  Teffs:
-    11200K(McDonald12), 11286K(Fremat05#1), 12800+-218K(Fremat05#2),
+    which is ~1.3 mag above the main sequence, and consistent with
+    other giants. GaiaDR3: plx=9.1852+-0.1114mas(GaiaDR3).
+    V=4.487+-0.010(Mermilliod91), B-V=-0.085+-0.005(Mermilliod91),
+    U-B=-0.270+-0.014(Mermillid91).  Teffs: 11200K(McDonald12),
+    11286K(Fremat05#1), 12800+-218K(Fremat05#2),
     13000+-500K(Levenhagen06) => adopt Teff = 12000K.
-    logg=3.671(Fremat05#1), 3.9+-0.1(Levenhagen06), 3.948(Fremat05#2).
+    logg=3.671(Fremat05#1), 3.9+-0.1(Levenhagen06),
+    3.948(Fremat05#2). E(B-V)=0.00(Heiles00),
+    E(B-V)=0.003(Kervella22/STILISM),
+    E(B-V)=0.0106+-0.0104(Stassun19/TIC),
+    E(B-V)=0.013+-0.014(Paunzen24), and note that the full dust column
+    through the Galactic dust at this star's location is E(B-V)=0.0224
+    from Shlegel98 maps => adopt E(B-V)=0.003 from Kervella22 =>
+    Av~0.009. Absolute magnitude calculation: V from Mermilliod91, Av
+    from Kervella22, plx from GaiaDR3 => Mv=-2.04+-0.10.
 
 HD 212097 = 32 Peg = HIP 110371 = HR 8522 = ADS 15863 AF = 2MASS J22211933+2819499 = WDS J22213+2820Aa,Ab = Gaia DR3 1893925997369932928
     B8: HD 
@@ -70,13 +84,18 @@ HD 212097 = 32 Peg = HIP 110371 = HR 8522 = ADS 15863 AF = 2MASS J22211933+28194
 HD 2011 = 12 Cas
     B9III: Negueruela24(vsini=125km/s)
 
+    plx=3.8102+-0.0612mas(GaiaDR3).
+
 HD 51688 = 40 Gem
     B9III: Negueruela24(vsini=32km/s)
 
+    plx=3.3391+-0.1198mas(GaiaDR3).
+
 HD 49606 = 33 Gem
     B9III: Negueruela24(vsini=20km/s).
-    
 
+    plx=4.8578+-0.0796mas(GaiaDR3).
+    
 # Deprecated Standard
 
 gam Lyr = 14 Lyr = HR 7178 = HD 176437 = Sulafat (J1858+3241; V=3.2)
@@ -84,16 +103,26 @@ gam Lyr = 14 Lyr = HR 7178 = HD 176437 = Sulafat (J1858+3241; V=3.2)
     B9III: JM53,Garrison67(stan),Cowley69(stan),Houk(stan)
     B9.5II-III: Negueruela24(stan/vsini=74km/s)
 
-    Changed from "B9III" by JM53 to "B9II" by GarrisonGray94 (after being
-    "the" B9III standard for 4 decades before that), and now Negueruela24
-    has it as B9.5II-III standard. 
-    Unclear
-    whether to deprecate this standard or not given its heavy use, and
-    lack of alternative standards of similar subtype and luminosity
-    class before GarrisonGray94. Teffs: 10000+-350K(Zorec09),
-    10080K(Balachandran86,LeBorgne03), 11110K(Prugniel07#2) => adopt
-    Teff = 10100K. logg=3.50(LeBorgne03),
-    [Fe/H]=0.11(LeBorgne03). Av=0.50(LeBornge03).
+    Changed from "B9III" by JM53 to "B9II" by GarrisonGray94 (after
+    being "the" B9III standard for 4 decades before that), and now
+    Negueruela24 has it as B9.5II-III standard.  Unclear whether to
+    deprecate this standard or not given its heavy use, and lack of
+    alternative standards of similar subtype and luminosity class
+    before GarrisonGray94. Baines23/25 lists it as an interferometry
+    calibrator star with estimated angular diameter 0.74+-0.04mas.
+    V=3.248+-0.009(Mermilliod91/N>101),
+    B-V=-0.048+-0.005(Mermilliod91/N>117),
+    U-B=-0.098+-0.022(Mermilliod91/N>107).  Teffs:
+    10000+-350K(Zorec09), 10080K(Balachandran86,LeBorgne03),
+    10282K(Sanchez-Blazquez06,Cenarro07), 11110K(Prugniel07#2) =>
+    adopt Teff = 10180K. logg=3.50(LeBorgne03),
+    [Fe/H]=0.11(LeBorgne03). Av=0.50(LeBornge03). E(B-V)=0.030(Kervella22/STILISM),
+    E(B-V)=0.037+-0.025(Paunzen24) => adopt E(B-V)=0.030 => Av=0.093.
+    GaiaDR3 plx=4.9656+-0.2366mas(GaiaDR3) => combined with
+    Mermilliod91 Vmag and Kervella22 E(B-V) and Rv=3.1 =>
+    Mv=-3.37+-0.10, i.e. couple magnitudes brighter than typical
+    giants, suggesting the II or II-III classification is probably
+    more appropriate.
 
 mu Lep = HD 33904 (J0512-1612; V=3.4)
    *kB9 hB8 HeB9 IV HgMn (C II) ((metallic lines)): Garrison94
@@ -133,11 +162,13 @@ HD 145389 = phi Her = HIP 79101 (J2000: 16 08 46.177  +44 56 05.67):
   *B9III(MnHg:): Garrison94
    B9VspHgMn: Abt95
    B9IV: Palmer68
-   (more older classifications in Skiff, mostly B8-A0 III/IV/V)
-
-   V = 4.216+-0.025(Mermilliod91), V=4.23(HIP), plx=15.99+-0.45(HIP2),
-   B-V=-0.045+-0.003(HIP2), B-V=-0.070+-0.005(Mermilliod91),
-   U-B=-0.248+-0.009(Mermilliod91),
+   
+   (more older classifications in Skiff, mostly B8-A0 III/IV/V).
+   Companion star resolved with NPOI is ~A8V
+   (Zavala07/2007ApJ...655.1046Z).  Primary has vsini=8km/s, while
+   secondary has ~50km/s (Zavala07).  V=4.216+-0.025(Mermilliod91),
+   V=4.23(HIP), B-V=-0.045+-0.003(HIP2),
+   B-V=-0.070+-0.005(Mermilliod91), U-B=-0.248+-0.009(Mermilliod91),
    plx=15.99+-0.45mas(vanLeeuwen07). => Mv = 0.25+-0.06.  Teffs:
    10774K(Prugniel07#2), 11650K(Smith93), 11700K(Zorec09),
    11721K(Guthrie84), 11840K(Prugniel07#1) => adopt Teff = 11700K.
@@ -162,11 +193,12 @@ HD 15318 = ksi02 Cet = HR 718
    I would adopt the GrayGarrison87 type, and exclude it as a B9III. 
 
 HD 192907 = kap Cep 
-  *B9IV+: Garrison94
-   B9III: Slettebak54, Palmer68, Murphy69, Cucchiaro80
+  *B9IV+: GarrisonGray94
+   B9III: Slettebak54,Palmer68,Murphy69,Cucchiaro80
+   B9.0: 1985AISAO..20...16K
    A0V: Zorec09
 
-   I would adopt the GrayGarrison87 type, and excluded it as a B9III.
+   I would adopt the modern GrayGarrison87 type, and excluded it as a B9III.
    Has A7V companion 7" away.
 
 HD 16978 = eps Hyi = HR 806

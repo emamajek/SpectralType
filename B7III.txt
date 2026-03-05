@@ -1,13 +1,13 @@
 B7III
 
-eta Tau is the best southernly accessible standard (J0347+2406)
-
 JM53 standard:          eta Tau (=HR 1165) - B7III
 			bet Tau - B7III
 Garrison67 standard:    eta Tau (=HR 1165) - B7III
 Lesh68 standard:        eta Tau - B7III
 Abt68 standard:		bet Tau - B7III
 Cowley69 standard:	eta Tau - B7III
+Cowley72 standard:	eta Tau - B7III
+ 	 		bet Tau - B7III 
 MK73 dagger standard:   eta Tau (=HR 1165) - B7III
 Houk standard:		HR 3898 (=HD 85355) - B7III [adopted from Hiltner69]
 MK78 standard:          bet Tau (=HD 35497) - B7III 
@@ -15,6 +15,30 @@ MK78 standard:          bet Tau (=HD 35497) - B7III
 			20 Tau (=HD 23408) - B7III (FeII)
 WiegertGarrison98 stan: HR 6460 - B7III 
 GrayCorbally10:		eta Tau - B7III [from MK73]
+Negueruela24 standards: bet Tau - B7III (vsini=60km/s,Mv=-1.4)
+                        20 Tau (=HD 23408) - B7III (vsini=32km/s, Mv=-1.9)
+			HD 1279 - B7III (vsini=29km/s,Mv=-2.0)
+
+(B-V)(B7III) = -0.129 ; pri. stan. eta Tau = HD 23630 = Alcyone
+(B-V)(B7III) = -0.13  ; pri. stan. bet Tau = HD 35497 = Elnath
+=> adopt (B-V)(B7III) = -0.13 [updated 2/22/2026] 
+
+(U-B)(B7III) = -0.371 ; pri. stan. eta Tau = HD 23630 = Alcyone
+(U-B)(B7III) = -0.489 ; pri. stan. bet Tau = HD 35497 = Elnath
+=> adopt (U-B)(B7III) = -0.43: [updated 2/22/2026] 
+
+Teff(B7III) = 12570: K ; pri. stan. eta Tau = HD 23630 = Alcyone (wide scatter)
+Teff(B7III) = 13960 K  ; pri. stan. bet Tau = HD 35497 = Elnath
+
+logg(B7III) = 3.8 ; pri. stan. bet Tau = HD 35497 = Elnath
+
+Mv(B7III) =  -1.42 ; pri. stan. bet Tau = HD 35497 
+Mv(B7III) =  -1.9  ; standard 20 Tau = HD 23408
+Mv(B7III) =  -2.0  ; standard HD 1279
+Mv(B7III) =  -2.72 ; pri. stan. eta Tau = HD 23603 = Alcyone 
+=> adopt Mv(B7III) = -1.9 [updated 2/22/2026]
+
+Rad(B7III) = 4.82 Rsun ; pri. stan. bet Tau = HD 35497 = Elnath 
 
 # No standard
 
@@ -22,32 +46,85 @@ MK43, Hiltner69, Garrison77, and Houk does not list a B7III standard.
 
 # Primary Standard
 
-eta Tau = Alcyone = HR 1165 = HD 23630 = Cl* Melotte 22 1432 (J0347+2406; V=2.9)
-  B7III: JM53,Lesh68(stan),MK73(dagger),GarrisonGray94,GrayNstars
+eta Tau = HD 23630 = Alcyone = HR 1165 = HIP 17702 = Cl* Melotte 22 1432 = STFA 8A = ALS 15094 = WDS J03475+2406A = Gaia DR3 66714384142368256
+ *B7III: JM53(stan),Lesh68(stan),MK73(dagger),GarrisonGray94,SimonDiaz17, \GrayNstars
   B7IIIe: Slettebak82,Jaschek92
   B8III:: MK43,Herman58
   B6.1(III): Kopylov58
 
-  Famous bright (V=2.9) Pleiad. Originally "B8III" in MK43, but
-  "B7III" in JM53 and after. Discussed at length on p. 20 of Maury &
-  Pickering (1897) as a prototypical stellar type. 
+  Famous brightest Pleiad (V=2.9), Be giant, illuminates VDB 23 reflection
+  nebula. Originally "B8III" in MK43, but "B7III" in JM53 and
+  after. Discussed at length on p. 20 of Maury & Pickering (1897) as a
+  prototypical stellar type.  V=2.868+-0.006(Mermilliod91/N>62),
+  B-V=-0.089+-0.006(Mermilliod91/N>64),
+  U-B=-0.342+-0.011(Mermilliod91/N>61).
+  E(B-V)=0.038(Kervella22/STILISM22), E(B-V)=0.04(Friedemann92),
+  E(B-V)=0.042+-0.014(Paunzen24), E(B-V)=0.05(Jenkin19),
+  E(B-V)=0.050+-0.027(Zorec16),
+  logNH2=19.54+-0.18(cm^-2) => adopt E(B-V)=0.04.  Dereddening
+  B-V=-0.089, E(B-V)=0.04 => (B-V)o=-0.129; U-B=-0.342 ,
+  E(U-B)=0.72*E(B-V)=0.72*0.04 = 0.029 => (U-B)o = -0.371.
+  plx=8.09+-0.42mas(HIP2), no GaiaDR3
+  parallax. G=2.896132+-0.004462(GaiaDR3). Absolute magnitude: for
+  plx=8.09+-0.42mas, V=2.868, Av=3.1*0.04=0.124 => Mv=-2.72+-0.11.
+  G-V = -0.028(not accounting for extinction, but differences in A_G
+  and A_V for this small A_V should be minor).
+  Teffs:
+  11559+-110K(Cardiel21), 
+  11900+-260K(Zorec16), 
+  12258K(Touhami13),
+  12885+-505K(Fremat05),
+  13182K(SimonDiaz17),
+  13490K(Chauville01) => adopt Teff=12570:K.  
+  Gravity: logg=3.00+-0.55(Zorec16),
+  logg=3.047(Touhami13), logg=3.095+-0.076(Fremat05),
+  logg=4.0(Chauville01).  logL=2.87(SimonDiaz17), logL=3.309+-0.025(Zorec16),
+  vini=140+-14km/s(Zorec16). 
+
+bet Tau = HD 35497 = Elnath = HR 1791 = HIP 25428 = 112 Tau = 23 Aur (obsolete) = gam Aur (obsolete) =  	WDS J05263+2836A
+  B5.5IV: Zorec09
+ *B7III: JM53(stan),Osawa59,Palmer68,Abt68(stan),Cowley72(stan),Cuchiaro77(S2/68),MK78(stan),GarrisonGray94,Negueruela24(stan;V=60km/s;Mv=-1.4)
+  B7.5III: Williams36
+  B8: HD
+  B8III: MK43,Sharma20
+  B8IV: Miczaika51
+
+  Chemically peculiar mercury-manganese star (possibly the brightest).
+  Not in either GaiaDR2 or DR3, and most accurate parallax so far is
+  the revised Hipparcos value
+  plx=24.36+-0.34mas(vanLeeuwen07). vsini=64+-5km/s(Royer02).
+  V=1.650+-0.008(Mermilliod91/N>29),
+  B-V=-0.130+-0.002(Mermilliod91/N>43),
+  U-B=-0.489+-0.004(Mermilliod91/N>41). Q-method for this giant (which
+  might be a stretch as it is calibrated on dwarfs): (B-V)o=-0.134,
+  (U-B)o=-0.491, E(B-V)=0.004, Av=0.014.  E(B-V)=-0.009(Snow77),
+  E(B-V)=0.000(Kervella22/STILISM), E(B-V)=0.005+-0.006(Paunzen24/N=5)
+  => all suggesting E(B-V)~0, consistent with proximity
+  (d=41.05+-0.57pc;plx=24.36+-0.34mas;vanLeeuwen07), inside the Local
+  Bubble. Note that Gordon19 gives an SED best fit E(B-V)=0.043, but
+  this seems too high given the star's proximity, and could explain
+  why their Teff estimates are systematically higher than other
+  estimates.  WDS lists it as occulation binary OCC 115 Aa,Ab
+  (epoch=1930), but there are no subsequent detections - as Gordon19
+  comments "However, this lunar occultation result was never
+  subsequently confirmed. Consequently, we have not included a
+  companion in our analysis for βTau. However, Adelman et al. (2006)
+  find that β Tau is a single lined spectroscopic binary, which
+  implies that the companion is significantly fainter than the primary
+  and should not signifi- cantly affect our results."  Teffs:
+  13410K(Sokolov95), 13600+-100K(Gordon19), 13622K(Heacox79),
+  13960K(Zorec09), 14000+-1000K(Gordon19/SED),
+  14000+-1100K(Gordon19/estimated) => adopt Teff=13960K.
+  logg=3.8(Heacox79),
+  logg=3.80+-0.25(Gordon19). tetLD=1.090+-0.076mas(Gordon19).
+  Rad=4.82+-0.34Rsun(Gordon19). Absolute magnitude: adopting
+  plx=24.36+-0.34mas(HIP2), V=1.650+-0.008(Mermilliod91), Av=0 =>
+  Mv=-1.42+-0.03.
 
 # Secondary Standard
 
-HR 3898 = HD 85355 (J0949-4543; V=5.1)
-    B7III: Hiltner69,Houk78(sec. stan. from Hiltner69)
-    B8: Cannon
-    Houk reports vsini=130 km/s. 
-
-bet Tau = HR 1791 = HD 35497 (J0526+2836; V=1.7)
-    B7III: JM53,Osawa59,Palmer68,Abt68(stan),Cowley72,MK78,GarrisonGray94
-    B7.5III: Williams36
-    B8III: MK43
-    B8IV: Miczaika51
-    B5.5IV: Zorec09
-
 20 Tau = Maia = HD 23408 = HR 1149 = Cl Melotte 22 785 (J0345+2422; V=3.8)
-  B7III: Miczaika51,JM53,Mendoza56,Jaschek64(most),Molnar72,GarrisonGray94
+ *B7III: Miczaika51,JM53,Mendoza56,Jaschek64(most),Molnar72,GarrisonGray94,Negueruela24(stan)
   B7III(FeII): MK78
   B7IIIsn: Abt78
   B7: Binendijk46
@@ -56,8 +133,26 @@ bet Tau = HR 1791 = HD 35497 (J0526+2836; V=1.7)
   B5III: Chalonge52
   B6.5III: Zorec09
   B8.5V: Palmer68
-  Frequently considered B7III through GarrisonGray94. Cannon noted
-  Si II,Mg II strong, and MK78 noted "(FeII)" 
+  
+  Frequently considered B7III through GarrisonGray94 and Negueruela24. Cannon noted
+  Si II,Mg II strong, and MK78 noted "(FeII)"
+
+# Tertiary Standard
+
+HD 85355 = HR 3898 (J0949-4543; V=5.1)
+  B7III: Hiltner69,Houk78(sec. stan. from Hiltner69)
+  B8: Cannon
+  
+  Houk reports vsini=130 km/s.
+
+HD 1279 = HR 62 
+  B5/7: Kyritsis22
+  B6V: Cuchiaro77(S2/68)
+  B7: 1927MNRAS..86..364E
+  B7II+: GarrisonGray94
+ *B7III: Palmer68,Cowley69,Negueruela24(stan)
+
+
 
 # Variant Standard
 
@@ -68,4 +163,9 @@ alf Scl = HD 5737 (J0058-2921; V = 4.3)
   B8III: Wood55,deVaucouleurs57
   Bp CII: Bond71
   B5: Sanduleak68
+
+# Other Stars
+
+HD 169978 = HIP 90797
+  B7III: GarrisonGray94
 
