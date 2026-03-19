@@ -1,30 +1,107 @@
 B9.5IV
 
-Garrison77 (nor anyone else) lists any B9.5IV standards.
+Garrison77 (nor anyone else) lists any B9.5IV standards.  Negueruela24
+adopted two stars as B9.5IV standards that were previously treated as
+B9.5III and B9V standards, so there are probably no B9.5IV standards that
+have stood the test of time. 
 
 Negueruela24 standards: del Cyg (HD 186882) - B9.5IV (vsini=158km/s, Mv=-0.7)
 	     		ome For (HD 16046) - B9.5IV (vsini=44km/s, Mv=-0.8)
 
+Mv(B9.5IV) = -0.48 ; pri. stan. del Cyg = HD 186882 
 Mv(B9.5IV) = -0.75 ; median for 2 B9.5IV standards in Negueruela24 (del Cyg,ome For)
+Mv(B9.5IV) = 
 
-# Standards
+# Primary Standards
 
 del Cyg = HD 186882 = HIP 97165 = HR 7528 = Fawaris = 18 Cyg = STF 2579A = 2MASS J19445845+4507507 = Gaia DR3 2079784488001577600 = WDS J19450+4508A
-  B9.5III: JM53(stan),Slettebak54(SB),Garrison67(stan),Cowley69(stan)
-  B9.5IV: Negueruela24(stan)
-  A0III: MK43(stan),Keenan50,Pecker53
+   B9: Kyritsis22
+   B9III: Paulmer68
+   B9.5III: JM53(stan),Slettebak54(SB),Garrison67(stan),Cowley69(stan)
+  *B9.5IV: Abt81,Abt95,Negueruela24(stan)
+   A0III: MK43(stan),Keenan50,Pecker53
+   A0IV: Zorec09
+   A0V: Cuchiaro80(S2/68),Bouw81(A0V:)
 
-  Einstein X-ray source. plx=21.1474+-0.5223mas(GaiaDR3).
-  Teff=10150K(Zorec09). 
+   Note that among the 'recent' publications, Abt and Neguruela have
+   it at B9.5IV, but previously it was a long-time B9.5III standard
+   back to JM53.  The primary star is slightly above the main sequence
+   (Mv=-0.48, see below), among the other Negueruela24 B9.5IIIs,
+   compared to typical B9.5Vs (Mv ~ 0.6). 2.8" binary in WDS (STF 2579
+   AB): mag1=2.89, mag2=6.27, del(V)=3.38(Gordon19). 3 spectra in
+   Mercator/MELCHIORS stellar spectroscopy library (Royer24).
+   plx=21.1474+-0.5223mas(GaiaDR3).  Teffs: 9820+-320K(Sokolov95),
+   10150+-360K(Zorec09), 10400+-400K(Gordon19#1), 10966K(Philip80),
+   12000+-1400K(Gordon19; too hot, see below) => adopt Teff=10300K.
+   Rad=4.81+-0.36Rsun(Gordon19).
+   logg=3.40+-0.25(Gordon19). vsini=142km/s(Gordon19). tetLD=0.884+-0.062mas(Gordon19).
+   Gordon19 gets "best fit" E(B-V)=0.190, however this seems unusually
+   reddened for such a nearby star (~50pc), so this enhancment in
+   their inferred fbol likely explains why their Teffs (12000+-1400K,
+   12000+-1000K) are systematically hotter than previous estimates.
+   E(B-V)=0.000(Kervella22), E(B-V)=0.010+-0.011(Paunzen22). I just
+   adopt E(B-V)=0. plx=21.1474+-0.5223mas(GaiaDR3),
+   plx=19.77+-0.48mas(HIP2).  magnitude differences:
+   del(V)=3.336+-0.009(ASCC-2.5), del(V)=3.49(Rakos82),
+   del(V)=3.48(Worley69), del(Vt)=3.37+-0.014(Fabricius02),
+   del(Hp)=3.73+-0.07(HIP).  V(A)=2.894+-0.004(ASCC-2.5),
+   V(B)=6.230+-0.008(ASCC-2.5). 2MASS photometry poor: flags qflg=DCD
+   for JHKs band. For component GaiaDR3 plx=21.1474 => Mv(A)=-0.48,
+   Mv(B)=2.86.
 
-HD 16046 = ome For A = HR 749 = ADS 1954A
- *B9V: Murphy69,Houk82,Corbally84,GrayGarrison(B9Va;stan)
+# Secondary Standard 
+
+HD 16046 = ome For A = HR 749 = ADS 1954A = Gaia DR3 5069213731825915648
+  B9V: Murphy69,Houk82,Corbally84,GrayGarrison(B9Va;stan)
   B9: Cannon
   B9.5V: Jaschek78(Levato75)
-  B9.5IV: Abt85,Negueruela24(stan)
+ *B9.5IV: Abt85,Negueruela24(stan)
   A0III: Lutz77
 
-# Non-standard stars
+  Negueruela24: "Garrison & Gray (1994) proposed ω For (HD 16046) as a
+  slowly rotating B9V standard, but the width of its lines implies
+  that it is almost as luminous as α Del, and so it should be of
+  luminosity class IV (see Fig. E.7). It is also later than α Del, and
+  can be classified as B9.5IV if the interpolated type is used".  Note
+  that its intrinsic colors are a bit redder than the other B9V
+  standards, corroborating Negueurela's comparison of the star with
+  the primary B9IV standard alpha Del.  Companion B is A-star at 11"
+  separation (varies from A3V-A8V; V=7.79). Not a particularly strong
+  pedigree. Both Q-method and GaiaDR3 are consistent with very small
+  reddening. Spectra in Stony Brook/SMARTS spectral standards library
+  (https://www.astro.sunysb.edu/fwalter/SMARTS/spstds.html).  parallax
+  = 6.74+-0.71 mas (van
+  Leeuwen07). V=4.967+-0.007(Hauck97). Mermilliod91: V=4.970,
+  B-V=-0.050, U-B=-0.150. => updated Q-method calibration => (B-V)o =
+  -0.055, (U-B)o=-0.154, E(B-V) = 0.005,
+  Av=0.017. E(B-V)=0.0137+-0.0032(Stassun19/TIC),
+  E(B-V)=0.002(Kervella22,STILISM) => adopt E(B-V)=0.005, Av=0.017
+  from Q-method.  H=5.080+-0.024(2MASS), Ks=5.056+-0.017(2MASS).
+  Predicted photometric distance (using Upper Sco ZAMS) = 60+-12 pc,
+  so the star seems somewhat luminous for a dwarf (Mv=-0.90,
+  delta(Mv,MS) = -1.67!). Hauck97 photometry dereddened following
+  Castelli91: Teffs: 9799K(Hauck97 phot.=>Balona84 beta calib.),
+  10034K(Hauck97 phot.=>Balona94 calib.),
+  10257K(Zorec12,TIC/Stassun19), 10458K(Hauck97 phot.=>Napiwotzki93
+  calib.), 10638K(U-Bo=>Bessell98), 10910+-420K(Zorec09) => median
+  Teff = 10358K.  logg=3.4866+-0.0630(Stassun19/TIC).
+  logL=2.372+-0.027dex(Stassun19/TIC). Mass=2.638+-0.338Msun(Stassun19/TIC).
+  (V-Ks)o = (4.967 - 3.1*0.005) - (5.056 - 0.382*0.005) = -0.103.
+  GaiaDR3: plx=6.7146+-0.1578mas(GaiaDR3) [note that its A-type
+  companion 11" away has plx=7.5225+-0.0252mas]. GaiaDR3:
+  G=4.925496+-0.002961(GaiaDR3), Bp-Rp=-0.060199(GaiaDR3),
+  Bp-G=-0.002800(GaiaDR3), G-Rp=-0.057399(GaiaDR3).
+  Teff=10196(10179,10212)K(GaiaDR3/GSPphot/AENEAS),
+  logg=3.4991(3.4926,3.5043)(GaiaDR3/GSPphot/AENEAS),
+  A0=0.00111(0.0003-0.0025)(GaiaDR3/GSPphot/AENEAS),
+  A_G=0.0010(0.0003-0.0024)(GaiaDR3/GSPphot/AENEAS),
+  E(Bp-Rp=0.0006(0.0001-0.00013),
+  Rad=5.5724(5.5280-5.6313)Rsun(GaiaDR3/GSPphot/AENEAS),
+  M_G=-1.1974(-1.2212;-1.1793)(GaiaDR3/GSPphot/AENEAS),
+  EW(Halpha)=0.27955+-0.01964nm(GaiaDR3).
+
+
+# Other stars
 
 HD 108767 = del CrV = HR 4757
   B9V: MK43,Jaschek64(all),Murphy69

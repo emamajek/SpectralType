@@ -21,7 +21,8 @@ Negueruela24 standards:  32 Peg (HD 212097) - B9III [vsini=70km/s, Mv=-2.1]
 Teff(B9III) =   9500 K ; non-standard 13 And (see below)
 Teff(B9III) =  10100 K ; standard gam Lyr (see below)
 Teff(B9III) =  10500 K ; primary stan. HR 4712 (see below)
-Teff(B9III) =  11700 K ; non-standard variant phi Her (see below)
+Teff(B9III) =  11403 K ; standard HD 212097 = 32 Peg
+Teff(B9III) =   11700 K ; non-standard variant phi Her (see below)
 Teff(B9III) =  12000 K ; primary stan. eps Tuc (see below)
 Teff(B9III) =  12600 K ; deprecated standard (or variant?) mu Lep
 Teff(B9III) =  12900 K ; variant standard pi^1 Boo
@@ -32,20 +33,39 @@ Mv(B9III) =  -0.8  ; standard HD 51688 = 40 Gem (Negueruela24 stan.)
 Mv(B9III) = -1.35  ; median for 4 B9III standards in Negueruela24
 Mv(B9III) =  -1.9  ; standard HD 2011 = 12 Cas (Negueruela24 stan.)
 Mv(B9III) =  -2.04 ; standard eps Tuc = HR 9076 = HD 224686
-Mv(B9III) =  -2.1  ; standard HD 212097 = 32 Peg (Negueruela24 stan.)
+Mv(B9III) =  -2.15 ; standard HD 212097 = 32 Peg (Negueruela24 stan.)
 => adopt Mv(B9III) = -1.35 [updated 2/8/2026] 
 
 # Standards
 
-HD 107832 = HR 4712 = x01 Cen = HIP 60449 = CD-34 8117 = CPD-34 5154 = 2MASS J12233542-3524455 = Gaia DR3 6157932866997543296 (J1223-3524; V=5.3)
+HD 107832 = HR 4712 = x01 Cen = HIP 60449 = CD-34 8117 = CPD-34 5154 = 2MASS J12233542-3524455 = Gaia DR3 6157932866997543296
     B8/9V: Houk82
    *B9III: DeVaucouleurs57,GarrisonGray94(low vsini)
     B9: HD,Houk82
 
-    vsini=75km/s. plx=7.34+-0.26 mas(vanLeeuwen07). Teffs:
-    10464K(McDonald12) => adopt Teff=10500K. Sco-Cen member
-    (Slawson92)? not in deZeeuw99.  E(B-V)=0.00(Heiles00), E(B-V)=0.009+-0.009(Paunzen24),
-    E(B-V)=0.013(Kervella22/STILISM), E(B-V)=0.0245+-0.0102(Stassun19/TIC) => adopt E(B-V)=0.009. 
+    vsini=75km/s. plx=7.34+-0.26 mas(vanLeeuwen07). Appears in some
+    Sco-Cen literature (e.g. Slawson92), but it does not appear as a
+    member in later work (e.g. deZeeuw99).  In Gaia era, Kounkel22
+    assigned it to new group Theia 430 with age log(t/yr)=8.25+-0.14
+    => age=178+78-49Myr.  V=5.31(Lake63),
+    V=5.313+-0.005(Mermilliod91/N>7), V=5.32(Johnson66), V=5.32(HIP),
+    V=5.334169(GaiaDR3/synth), B-V=-0.066+-0.002(HIP),
+    B-V=-0.069+-0.002(TYC), B-V=-0.08(Johnson66),
+    B-V=-0.080+-0.000(Mermilliod91/Nobs>7), B-V=-0.08(Lake63),
+    B-V=-0.099(GaiaDR3/synth0) => adopt B-V=-0.08.
+    V-Ic=-0.04+-0.00(HIP), J=5.414+-0.019(2MASS),
+    H=5.461+-0.023(2MASS), Ks=5.428+-0.018(2MASS), Reddening:
+    E(B-V)=0.00(Heiles00), E(b-y)=0.006(Philip80) =>
+    E(B-V)=0.008(Philip80=>E(B-V)), E(B-V)=0.009+-0.009(Paunzen24),
+    E(B-V)=0.013(Kervella22/STILISM),
+    E(B-V)=0.0245+-0.0102(Stassun19/TIC), => adopt E(B-V)=0.009.
+    GaiaDR3: plx=7.3671+-0.0953mas, Bp-Rp=-0.073792, Bp-G=-0.034026,
+    G-Rp=-0.039766, G=5.302303+-0.002813,
+    EW(Halpha)=0.19705+-0.01957nm, A0=0.099916(0.099069-0.100498),
+    Vbroad=70.9429+-3.6384km/s, Teffs: 10464K(McDonald12),
+    10715+714-506K(Quintana25), 11000K(GaiaDR3/RVtemp),
+    11864+-260K(Stassun19/TIC), => adopt Teff=10500K.
+    logg=3.9215+-0.0673(Stassun19/TIC)
 
 eps Tuc = HR 9076 = HD 224686 = HIP 118322 (J2359-6534; V=4.5)
     B7V: DeVaucouleurs57
@@ -70,7 +90,9 @@ eps Tuc = HR 9076 = HD 224686 = HIP 118322 (J2359-6534; V=4.5)
     through the Galactic dust at this star's location is E(B-V)=0.0224
     from Shlegel98 maps => adopt E(B-V)=0.003 from Kervella22 =>
     Av~0.009. Absolute magnitude calculation: V from Mermilliod91, Av
-    from Kervella22, plx from GaiaDR3 => Mv=-2.04+-0.10.
+    from Kervella22, plx from GaiaDR3 => Mv=-2.04+-0.10.  ESO IR
+    calibration star (vanderBliek96): J=4.616+-0.007, H=4.623+-0.006,
+    K=4.642+-0.005, L'=4.636+-0.005, M=4.660+-0.043.
 
 HD 212097 = 32 Peg = HIP 110371 = HR 8522 = ADS 15863 AF = 2MASS J22211933+2819499 = WDS J22213+2820Aa,Ab = Gaia DR3 1893925997369932928
     B8: HD 
@@ -78,8 +100,26 @@ HD 212097 = 32 Peg = HIP 110371 = HR 8522 = ADS 15863 AF = 2MASS J22211933+28194
     B8V: Slettebak54,Belyakina59
    *B9III: Cowley72,Negueruela24(stan)
 
-    plx=4.5201+-0.1781mas(GaiaDR3). Teff=11403K(Paunzen05).
-    vsini=73km/s(Simon-Diaz17)
+    In Mercator/MELCHIOR spectral library
+    (https://set-p-stweb.bm.icts.kuleuven.be/quicklook/478282_B9III_32Peg.png)
+    plx=4.5201+-0.1781mas(GaiaDR3). V=4.805+-0.010(Mermilliod91/Nobs>16),
+    B-V=-0.010+-0.014(Mermilliod91/Nobs>26),
+    U-B=-0.205+-0.013(Mermilliod91/Nobs>17).  Teffs:
+    10800K(Verberne24/GaiaDR3), 11403+-108K(Paunzen05/Stassun19) =>
+    adopt Teff=11403K. logg=3.0(Verberne24).
+    vsini=73km/s(Simon-Diaz17). E(B-V)=0.036(Kervella22/STILISM),
+    E(B-V)=0.080+-0.017(Paunzen24), E(b-y)=0.053(Philip80)[=>
+    E(B-V)=0.072]. This maybe a bit of stretch for Q-method as it is
+    lum class III, but Q-method with Mermilliod91 UBV gives
+    (B-V)=-0.082, (U-B)o=-0.258, E(B-V)=0.072, Av=0.235, Teff=11400K.
+    The Q-method reddening compares well with the ubvy dereddening,
+    and the values are nicely bracketed by the Kervella/STILISM and
+    Paunzen values, so I just adopt E(B-V)=0.072. GaiaDR3 plx,
+    Mermilliod91 Vmag, Av=0.235 => absolute magnitude Mv=-2.15.
+
+    (B-V)(B9III) = -0.082 ; standard HD 212097 = 32 Peg 
+    (U-B)(B9III) = -0.258 ; standard HD 212097 = 32 Peg
+    Mv(B9III) = -2.15 ; standard HD 212097 = 32 Peg
 
 HD 2011 = 12 Cas
     B9III: Negueruela24(vsini=125km/s)
@@ -122,7 +162,8 @@ gam Lyr = 14 Lyr = HR 7178 = HD 176437 = Sulafat (J1858+3241; V=3.2)
     Mermilliod91 Vmag and Kervella22 E(B-V) and Rv=3.1 =>
     Mv=-3.37+-0.10, i.e. couple magnitudes brighter than typical
     giants, suggesting the II or II-III classification is probably
-    more appropriate.
+    more appropriate. In MILES library of empirical spectra
+    (Sanchez-Blazquez06): Teff=10282K, logg=3.50, [Fe/H]=+0.20.
 
 mu Lep = HD 33904 (J0512-1612; V=3.4)
    *kB9 hB8 HeB9 IV HgMn (C II) ((metallic lines)): Garrison94
@@ -135,6 +176,22 @@ mu Lep = HD 33904 (J0512-1612; V=3.4)
     Search not exhaustive (more in Skiff compendium).  Teffs:
     12390K(Zorec09), 12600K(Adelman87), 12600K(Guthrie84),
     12800K(Smith93) => adopt Teff=12600K.
+
+# Other Stars
+
+HD 175640
+  B9III: Cowley69 
+ *B9IIIpHgMnEu: Abt95(Ca,Mg weak)
+
+  In MILES library of empirical spectra (Sanchez-Blazquez06):
+  E(B-V)=0.044, Teff=12050K, logg=3.90, [Fe/H]=-0.43.
+
+HD 256294 = HIP 30362 = WDS J06232+0854A
+  B9III: Gray06
+
+  Appears to be in Gray06 nearby stars survey due to low S/N HIP plx
+  (48.08+-13.63mas).  Gaia DR3 plx consistent with being quite distant
+  (plx=1.1330+-0.0287mas;GaiaDR3).
 
 # B9III stars within 100 pc
 
@@ -156,7 +213,9 @@ HD 129174 = pi1 Boo = HR 5475 (J2000: 14 40 43.6 +16 25 06)
    U-B=-0.410(Mermilliod91), plx = 10.67+-1.35mas(HIP2),
    B-V=-0.002+-0.010(HIP2). Hipparcos B-V is for unresolved pair, so
    adopt Mermilliod91 photometry. Companion B is 5.5" away, A6V,
-   V=5.88. => Mv(A) = 0.14+-0.28 mag. Teff = 12923K(Guthrie84). 
+   V=5.88. => Mv(A) = 0.14+-0.28 mag. Teff = 12923K(Guthrie84).  In
+   MILES library of empirical spectra (Sanchez-Blazquez06):
+   Teff=12416K, logg=3.76, [Fe/H]=-0.28.
 
 HD 145389 = phi Her = HIP 79101 (J2000: 16 08 46.177  +44 56 05.67):
   *B9III(MnHg:): Garrison94
@@ -192,14 +251,15 @@ HD 15318 = ksi02 Cet = HR 718
 
    I would adopt the GrayGarrison87 type, and exclude it as a B9III. 
 
-HD 192907 = kap Cep 
+HD 192907 = kap Cep = HR 7750 = HIP 99255 = 1 Cep = STF 2675A = WDS J20089+7743A = ADS 13524 A = Gaia DR3 2290599311287582464
   *B9IV+: GarrisonGray94
    B9III: Slettebak54,Palmer68,Murphy69,Cucchiaro80
    B9.0: 1985AISAO..20...16K
    A0V: Zorec09
 
-   I would adopt the modern GrayGarrison87 type, and excluded it as a B9III.
-   Has A7V companion 7" away.
+   Has A7V companion 7" away. plx=10.1788+-0.0958mas.  In MILES
+   library of empirical spectra (Sanchez-Blazquez06): Teff=10675K,
+   logg=3.65, [Fe/H]=-0.05.
 
 HD 16978 = eps Hyi = HR 806
    B9III: Devaucouleurs57, Cucchiaro77

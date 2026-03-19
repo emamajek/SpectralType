@@ -57,6 +57,7 @@ recent calibration (Oct 2011).
 (B-V)(B8V) =  -0.09  ; variant stan. HD 58715 = bet CMi (B8Ve)
 (B-V)(B8V) = -0.099  ; EEM 9 d<75pc B8V Hipparcos stars
 (B-V)(B8V) =  -0.10  ; Bessell79
+(B-V)(B8V) = -0.101  ; exemplar HD 23753 = HR 1172 (Pleiad)
 (B-V)(B8V) = -0.104  ; sec. stan. HR 9050 (EEM dereddened via Q-method)
 (B-V)(B8V) = -0.106  ; EEM dereddened N=99 HIP B8V stars (Q-method,E(B-V)<0.1)
 (B-V)(B8V) = -0.109  ; ter. stan. bet Lib (unreddened)
@@ -70,6 +71,7 @@ recent calibration (Oct 2011).
 (U-B)(B8V) =  -0.30  ; Bessell98,Johnson63,Johnson65,Johnson66
 (U-B)(B8V) =  -0.31  ; Cowley70(N=20*s)
 (U-B)(B8V) =  -0.34  ; Schmidt-Kaler82
+(U-B)(B8V) = -0.343 ; exemplar HD 23753 = HR 1172 (Pleiad)
 (U-B)(B8V) = -0.354  ; sec. stan. HR 9050 (EEM dereddened via Q-method)
 (U-B)(B8V) =  -0.36  ; Fitzgerald70
 (U-B)(B8V) = -0.364  ; EEM dereddened N=99 B8V HIP stars (Q-method,E(B-V)<0.1)
@@ -265,9 +267,10 @@ Mv(B8V) =   0.31 mag ; HIP_38863 B8V plx=6.945 mas, Vmag=6.117,E(B-V)=0.005
 Mv(B8V) =  0.22 mag ; median Mv for B8V calc using Kervella19 HIP & Gaia DR2
 Mv(B8V) =   0.08 mag ; HIP_97376 B8Vn plx=7.383 mas, Vmag=5.818,E(B-V)=0.025
 Mv(B8V) =  0.0  mag ; GrayCorbally09
-Mv(B8V) =  0.00 mag ; sec. stan. 21 Tau (see below)
-Mv(B8V) = -0.05 mag ; ter. stan. HD 224112 = HR 9050 (see below)
-Mv(B8V) = -0.10 mag ; pri. stan. 18 Tau (see below)
+Mv(B8V) =  0.00 mag ; sec. stan. 21 Tau (Pleiad)
+Mv(B8V) = -0.05 mag ; ter. stan. HD 224112 = HR 9050 
+Mv(B8V) = -0.06 mag ; exemplar HD 23753 = HR 1172 (Pleiad)
+Mv(B8V) = -0.10 mag ; pri. stan. 18 Tau (Pleiad)
 Mv(B8V) =  -0.2  mag ; Schmidt-Kaler82
 Mv(B8V) =  -0.49 mag ; Wegner07
 Mv(B8V) = -1.16 mag ; ter. stan. bet Lib (see below)
@@ -318,7 +321,7 @@ MK78, Keenan85_IAU, Garrison94 do not list B8V standards.
 
 HD 23324 = 18 Tau = HIP 17527 = HR 1144 = WDS J03452+2450A = BD+24 546 = Cl Melotte 22 541 = Gaia DR3 69812945346809600
   B7V: Eggen50(B7),Miczaika51,Zorec09(BCD)
-  B8V: JM53,Mendoza56,Osawa59,Garrison67(stan),Lesh68(stan),Cowley69(stan),Hiltner69(stan),Cowley72(stan),MK73(dagger/stan),Garrison77(stan),Cucchiaro77(S2/68),Rountree91(IUE),Houk,Negueruela24(stan)
+  B8V: JM53(stan),Mendoza56,Osawa59,Garrison67(stan),Lesh68(stan),Cowley69(stan),Hiltner69(stan),Cowley72(stan),MK73(dagger/stan),Garrison77(stan),Cucchiaro77(S2/68),Rountree91(IUE),Houk,Negueruela24(stan)
  *B8Vn: GarrisonGray94(stan)
   B8:IV/V:: Maury1897
   B8: Binnendijk46
@@ -344,7 +347,7 @@ HD 23324 = 18 Tau = HIP 17527 = HR 1144 = WDS J03452+2450A = BD+24 546 = Cl Melo
 # Secondary Standards
 
 HD 23432 = 21 Tau = HR 1151 = Asterope = Cl Melotte 22 817
-  B8V: JM53,Mendoza56,Osawa59,Palmer68,Cowley69,Cowley72(stan),Abt78,Cannon(B8),Neguereula24(stan)
+  B8V: JM53(stan),Mendoza56,Osawa59,Palmer68,Cowley69,Cowley72(stan),Abt78,Cannon(B8),Neguereula24(stan)
  *B8Vn: GarrisonGray94
 
   *All* Skiff types from JM53 to present are B8V or variant for this
@@ -528,8 +531,8 @@ HD 87901 = alf Leo = Regulus = 32 Leo = HR 3982 = GJ 9316A
   14231+-314K(vanBelle09) => median Teff = 12357K.  logg=3.56(Gray03),
   4.05+-0.09(Wu11). [M/H]=0.00(Gray03), [Fe/H]=0.21+-0.09(Wu11).
 
-HD 222173 = iot And 
-  B8V: JM53,Cowley72(stan),Jaschek64(all),Cannon(B8)
+HD 222173 = iot And = HR 8965 = HR 8965 = Rasalnaqa 
+  B8V: JM53(stan),Crawford58, Cowley72(stan),Cannon(B8)
   B8IIIs: GarrisonGray94
 
   GarrisonGray94 switched it to giant, but previouly dwarf since JM53.
@@ -537,12 +540,15 @@ HD 222173 = iot And
   much brighter than the other B8 dwarfs.
 
 HD 214923 = zet Peg = 42 Peg = HR 8634
-  B8V: JM53,Osawa59,Palmer68,Cowley72(stan),Cannon(B8)
+  B8V: JM53(stan),Osawa59,Palmer68,Cowley72(stan),Cannon(B8)
   B8.5III: GarrisonGray94
-  B8.5V: Jaschek64(both)
+ *B8.5IV: Negueruela24
+  B8.5V: Gascoigne50
+  B9III: Sharma20
 
-  GarrisonGray94 switched it to giant, but previous dwarf since
-  JM53. So no longer a good dwarf standard. Jaschek98 lists Mv=-0.6. 
+  d=70pc, so negligibly reddened. Most recent types are all later than
+  B8.  GarrisonGray94 switched it to giant, but previous dwarf since
+  JM53. So no longer a good dwarf standard. Mv=-0.6.
 
 HD 36865 = Parenago 1491 (J0534-0429)
   B8V: Abt68,Bernacca68,Schild71,Houk99
@@ -574,6 +580,30 @@ HD 209819 = iot Aqr
   Nearby, within Local Bubble. V=4.28(GCPD/Cousins76_VRIc),
   V-Rc=-0.025(GCPD/Cousins76_VRIc), R-Ic=-0.034(GCPD/Cousins76_VRIc),
   V-Ic=-0.059(GCPD/Cousins76_VRIc).
+
+HD 23753 = HR 1172 = HIP 17776 = Cl Melotte 22 1823 = Gaia DR3 64940906245415808 = WDS J03483+2325Aa,Ab
+   B7IV: Zorec09(BCD type)
+   B8IV/V: Maury1897,1925sdsl.book.....L
+   B8n: Stebbins45
+   B8: Binnendijk46,Eggen50,Miczaika51
+  *B8V: JM53(non-stan),Mendoza56,Osawa59,Cuchiaro77(S2/68),Grenier99
+   B8Vn: Abt78
+   B9Vn: Cowley72
+
+   Pleiad. Occulation binary (OCC 299), WDS reports mag(1)=5.7,
+   mag(2)=7.7 (del(mag)=2.0). plx=7.6909+-0.0985mas(GaiaDR3),
+   G=5.428299+-0.002874(GaiaDR3). Some of the smallest uncertainties
+   and most observations report that one will find in Mermilliod UBV
+   compendium: V=5.446+-0.005(Mermilliod91/Nobs>42),
+   B-V=-0.070+-0.001(Mermilliod91/Nobs>43),
+   U-B=-0.320+-0.000(Mermilliod91/Nobs>36) => EEM Q-method dereddening
+   Mermilliod91 UBV photometry => (B-V)o=-0.101, (U-B)o=-0.343,
+   E(B-V)=0.031, Av=0.102. Splitting magnitude assuming del(V)=2.0 from WDS =>
+   V(Aa)=5.61, V(Ab)=7.61 => with Av=0.102 and GaiaDR3 plx => Mv(Aa)=-0.06, Mv(Ab)=1.94.
+
+   (B-V)(B8V) = -0.101 ; exemplar HD 23753 = HR 1172 (Pleiad)
+   (U-B)(B8V) = -0.343 ; exemplar HD 23753 = HR 1172 (Pleiad)
+   Mv(B8V) = -0.06 ; exemplar HD 23753 = HR 1172 (Pleiad)
 
 # Other Stars
 

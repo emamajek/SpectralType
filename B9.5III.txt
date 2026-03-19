@@ -1,5 +1,9 @@
 B9.5III
 
+del Cyg was "the" B9.5III standard used for decades, but the recent refinement
+of the late B standards by Negueruela24 has assigned it B9.5IV in order to fit amid
+their "primary" standard grid. 
+
 JM53 standard:	        del Cyg - B9.5III
 Garrison67 standard:    del Cyg - B9.5III
 Cowley69 standard:      del Cyg - B9.5III
@@ -8,31 +12,73 @@ Negueruela24 standards: HD 144206 - B9.5III
 	     		HD 181440 - B9.5III
 			gam Lyr (=HD 176437) - B9.5II-III
 
+Teff(B9.5III) =  9994 K ; exemplar HD 149212 = 15 Dra 
+Teff(B9.5III) =  10300 K ; deprecated standard HD 186882 = del Cyg
+Teff(B9.5III) = 11000 K ; pri. standard HD 181440 = 27 Aql
+
+Mv(B9.5III) =  -0.48 ; deprecated standard HD 186882 = del Cyg 
 Mv(B9.5III) = -0.48 ; standard HD 144206 (Negueruela24)
-Mv(B9.5III) = -0.55 ; standard HD 181440 = 27 Aql (Negueruela24)
+Mv(B9.5III) = -0.55 ; pri. stan. HD 181440 = 27 Aql (Negueruela24)
+Mv(B9.5III) = -0.90 ; exemplar HD 149212 = 15 Dra 
 => adopt Mv(B9.5III) = -0.5 [updated 3/1/2026] 
 
-# Standards
+logg(B9.5III) = 3.82 ; pri. standard HD 181440 = 27 Aql
+
+# Primary Standard
+
+HD 181440 = 27 Aql = HIP 95073 = HR 7336 = d Aql = ALS 16452 = 2MASS J19203567-0053317 = Gaia DR3 4262926260180886656 
+   B9: HD,1930MNRAS..90..523E,Kyritsis22
+   B9III: Cowley69,Cuchiaro77(S2/68)
+   B9IV/V: Houk99
+  *B9.5III: Negueruela24(stan)
+
+   In ELODIE spectra library (Prugniel07):
+   https://cdsarc.cds.unistra.fr/viz-bin/vizExec/Vgraph?III/251/./ll/01779.fits. No
+   Gaia DR3 Bp/Rp spectrum.  vsini=55km/s(Negueruela24),
+   Mv=-0.4(Negueruela24).  V=5.480(Cousins71),
+   V=5.480+-0.008(Mermilliod91), V=5.49(Johnson66),
+   B-V=-0.04(Johnson66), B-V=-0.040(Cousins71),
+   B-V=-0.046+-0.006(Mermilliod91), U-B=-0.22(Cousins71/typo=0.22),
+   U-B=-0.223+-0.005(Mermilliod91), U-B=-0.23(Johnson66),
+   E(B-V)=0.0117+-0.0050(Stassun19/TIC), E(B-V)=0.02(Niemczura09),
+   E(B-V)=0.04(Friedemann92), E(B-V)=0.048+-0.011(Paunzen24),
+   E(B-V)=0.057(Kervella19), E(B-V)=0.061(Kervella22/STILISM) => adopt
+   E(B-V)=0.048 => Av~0.149mag.  plx=6.6587+-0.0799mas(GaiaDR3) =>
+   Mv=-0.55.Teffs: 10346+-253K(Stassun19/TIC),
+   10447+799-470K(Quintana25), 10913K(Prugniel07),
+   11000K(GaiaDR3/RVtempTeff), 11142K(Katz11), 11200K(Niemczura09),
+   12000K(Philip80) => adopt Teff=11000K (I exclude several which
+   appear to ignore the reddening and derive Teff<10000K).  Gravity:
+   logg=3.7016+-0.0690(Stassun19/TIC), logg=3.82(Prugniel07),
+   logg=4.14(Katz11), logg=4.5(GaiaDR3/RVtemplogg) => logg ~ 3.82.
+
+# Deprecated Standard
 
 del Cyg = HD 186882 = HIP 97165 = HR 7528 = Fawaris = 18 Cyg = STF 2579A = 2MASS J19445845+4507507 = Gaia DR3 2079784488001577600 = WDS J19450+4508A
    B9: Kyritsis22
    B9III: Paulmer68
-  *B9.5III: JM53(stan),Slettebak54(SB),Garrison67(stan),Cowley69(stan)
-   B9.5IV: Abt81,Abt95,Negueruela24(stan)
+   B9.5III: JM53(stan),Slettebak54(SB),Garrison67(stan),Cowley69(stan)
+  *B9.5IV: Abt81,Abt95,Negueruela24(stan)
    A0III: MK43(stan),Keenan50,Pecker53
    A0IV: Zorec09
    A0V: Cuchiaro80(S2/68),Bouw81(A0V:)
 
-   2.8" binary in WDS (STF 2579 AB): mag1=2.89, mag2=6.27,
-   del(V)=3.38(Gordon19). plx=21.1474+-0.5223mas(GaiaDR3).
-   Teff=10150K(Zorec09), 10400+-400K(Gordon19#1),
-   12000+-1400K(Gordon19). Rad=4.81+-0.36Rsun(Gordon19).
+   Note that among the 'recent' publications, Abt and Neguruela have
+   it at B9.5IV.  The primary star is slightly above the main sequence
+   (Mv=-0.48, see below), among the other Negueruela24 B9.5IIIs,
+   compared to typical B9.5Vs (Mv ~ 0.6) 2.8" binary in WDS (STF 2579
+   AB): mag1=2.89, mag2=6.27, del(V)=3.38(Gordon19). 3 spectra in
+   Mercator/MELCHIORS stellar spectroscopy library (Royer24).
+   plx=21.1474+-0.5223mas(GaiaDR3).  Teffs: 9820+-320K(Sokolov95),
+   10150+-360K(Zorec09), 10400+-400K(Gordon19#1), 10966K(Philip80),
+   12000+-1400K(Gordon19; too hot, see below) => adopt Teff=10300K.
+   Rad=4.81+-0.36Rsun(Gordon19).
    logg=3.40+-0.25(Gordon19). vsini=142km/s(Gordon19). tetLD=0.884+-0.062mas(Gordon19).
    Gordon19 gets "best fit" E(B-V)=0.190, however this seems unusually
-   reddened for such a nearby star (~50pc), so this ehancment in their
-   inferred fbol likely explains why their Teffs (12000+-1400K,
+   reddened for such a nearby star (~50pc), so this enhancment in
+   their inferred fbol likely explains why their Teffs (12000+-1400K,
    12000+-1000K) are systematically hotter than previous estimates.
-   E(B-V)=0.000(Kervella22), E(B-V)=0.010+-0.011(Paunze22). I just
+   E(B-V)=0.000(Kervella22), E(B-V)=0.010+-0.011(Paunzen22). I just
    adopt E(B-V)=0. plx=21.1474+-0.5223mas(GaiaDR3),
    plx=19.77+-0.48mas(HIP2).  magnitude differences:
    del(V)=3.336+-0.009(ASCC-2.5), del(V)=3.49(Rakos82),
@@ -42,25 +88,6 @@ del Cyg = HD 186882 = HIP 97165 = HR 7528 = Fawaris = 18 Cyg = STF 2579A = 2MASS
    for JHKs band. For component GaiaDR3 plx=21.1474 => Mv(A)=-0.48,
    Mv(B)=2.86.
 
-HD 181440 = 27 Aql = HIP 95073 = HR 7336 = d Aql = ALS 16452 = 2MASS J19203567-0053317 = Gaia DR3 4262926260180886656 
-   B9: HD,1930MNRAS..90..523E,Kyritsis22
-   B9III: Cowley69,Cuchiaro77(S2/68),
-   B9IV/V: Houk99
-  *B9.5III: Negueruela24(stan)
-
-   vsini=55km/s(Negueruela24), Mv=-0.4(Negueruela24).
-   V=5.480(Cousins71), V=5.480+-0.008(Mermilliod91),
-   V=5.49(Johnson66), B-V=-0.04(Johnson66), B-V=-0.040(Cousins71),
-   B-V=-0.046+-0.006(Mermilliod91), U-B=-0.22(Cousins71/typo=0.22),
-   U-B=-0.223+-0.005(Mermilliod91), U-B=-0.23(Johnson66),
-   E(B-V)=0.0117+-0.0050(Stassun19/TIC), E(B-V)=0.02(Niemczura09),
-   E(B-V)=0.04(Friedemann92), E(B-V)=0.048+-0.011(Paunzen24),
-   E(B-V)=0.057(Kervella19), E(B-V)=0.061(Kervella22/STILISM) => adopt
-   E(B-V)=0.048 => Av~0.149mag.  plx=6.6587+-0.0799mas(GaiaDR3) =>
-   Mv=-0.55. No Gaia DR3 Bp/Rp spectrum.
-
-# Deprecated Standard
-
 HD 144206 = ups Her = HIP 78592 = HR 5982 = 6 Her = ALS 16442 = BD+46 2142 = 2MASS J16024789+4602121 = Gaia DR3 1398436236272992256 
    B8IIIp: Jaschek78(uv gallium strong)
    kB8hB8HeB9.5IVHgMn: GarrisonGray94
@@ -68,16 +95,19 @@ HD 144206 = ups Her = HIP 78592 = HR 5982 = 6 Her = ALS 16442 = BD+46 2142 = 2MA
    B9III: Jaschek80
    B9III?Mn?: Cowley69
    B9IVpHgMn: Abt95(Ca,Mg weak)
-   B9.5III: Negueruela24(stan)
+  *B9.5III: Negueruela24(stan)
    Bpec: Cuchiarro77(S2/68)
    1965AnTok...9..123O
 
-   Negueruela24 adopts as standard, but multiple authors note peculiarities about spectrum.
-   vsini=10km/s(Negueruela24), Mv=-0.4(Negueruela24).
+   Negueruela24 adopts as the slow rotator standard (vsini=10km/s;
+   paired with HD 181440), but multiple authors (e.g. Abt, Garrison)
+   note peculiarities about spectrum. I retain it as a tertiary
+   standard for now, but may so atypical to not be
+   useful. Mv=-0.4(Negueruela24).
 
 # Variant Standard
 
-gam Lyr = 14 Lyr = HR 7178 = HD 176437 = Sulafat (J1858+3241; V=3.2)
+HD 176437 = gam Lyr = Sulafat = HR 7178 = 14 Lyr (J1858+3241; V=3.2)
    *B9II: GarrisonGray94
     B9III: JM53,Garrison67(stan),Cowley69(stan),Houk(stan)
     B9.5II-III: Negueruela24(stan/vsini=74km/s)
@@ -94,6 +124,7 @@ HD 149212 = 15 Dra = HIP 80650 = HR 6161 = ALS 16521 = BD+69 850 = 2MASS J162759
   B9.5IV: Abt95
   A0III: Cowley72
 
+  6th brightest star classified B9.5III or variant in GarrisonGray87 survey.
   Fetherolf23 reports Per=0.893d variability in TESS with amplitude
   50.6ppm.  vsini=154km/s(Royer02).  plx=6.7911+-0.0748mas(GaiaDR3),
   G=4.926309+-0.002917(GaiaDR3).  V=4.94(HIP),
@@ -115,7 +146,95 @@ HD 149212 = 15 Dra = HIP 80650 = HR 6161 = ALS 16521 = BD+69 850 = 2MASS J162759
   Rad=5.8523(5.7869-5.9179)Rsun(GaiaDR3). Absolute magnitude:
   Mermilliod91 Vmag, Av=0.02, plx(GaiaDR3) => Mv=-0.90+-0.03.
 
+HD 188260 A = 13 Vul A = HR 7592 = HIP 97886 = DJU 4A = ALS 16457 = WDS J19535+2405A = Gaia DR3 1828386961117254272
+  B9: 2022A&A...657A..62K
+  B9III: Cuchiaro70(S2/68)
+ *B9.5III: Osawa59,Cowley69,Abt95,GarrisonGray87(B9.5III+)
+
+   Excellent agreement on subtype and luminosity class among most
+   classifiers, however a 1.18" binary in Hipparcos with
+   del(Hp)=2.90+-0.03mag.  5th brighest star classified B9.5III or
+   variant in GarrisonGray87 survey.  Chulkov22 lists orbit
+   Porb=615.2500+-104.1200yr, a=1.555+-0.241".
+   plx=9.6342+-0.0902mas(GaiaDR3), G=4.629588+-0.002851(GaiaDR3).
+
 # Other Stars
+
+HD 27855 = HIP 20772
+ *B9.5III: Abt95
+  A0: HD 
+  A0III: Appenzeller67,Cowley69
+
+HD 34968 = HR 1762
+  B9III: Abt95
+  B9.5III(var): GarrisonGray87
+  A0V: 1955MmMtS..12....1W,Cuchiaro78(S2/68)
+
+  5th brightest star classified B9.5III or variant in GarrisonGray87 survey.
+  Eastern of 4" pair (Skiff). 
+
+HD 119921
+  B9.5III-n: GarrisonGray87
+  A0: HD 
+
+HD 115735 = 21 CVn = HR 5023
+  B9.5III(Si): GarrisonGray87
+ *B9IV(Si): GarrisonGray94
+  B9.5V: Abt95
+  B9.5: 1984BAICz..35..294Z	
+  A0VSi:: Cowley69
+
+HD 130274
+  B9V: deVaucouleurs57
+ *B9.5III: GarrisonGray87
+  B9.5V: Houk82
+
+HD 141556 = chi Lup
+  B9III: Abt95
+ *B9.5III(metallic lines): GarrisonGray87
+  B9.5III-IV: Houk82(Garrison)
+  Bpec: Cuchiaro77(S2/68)
+  A0V: Cuchiaro78(S2/68)
+  A0Si?: Brandi73
+  A0III-IV: deVaocouleurs57
+ 
+  3rd brightest star classified B9.5III or variant in GarrisonGray87.
+
+HD 143807 = iot CrB = HR 5971
+  B8IIIpec: Cuchiaro80(S2/68)
+  B9.5III(HgMn): GarrisonGray87
+  A0IIIspHgMnEu: Abt95
+  A0p?Hg?: Cowley69
+  A4III: Bouw81
+
+  7th brightest star classified B9.5III or variant in GarrisonGray87.
+  There are additional 1950s era classifications I've omitted, they
+  are a zoo of pathologies.
+
+HD 149121 = HR 6158
+ *B9.5III: Grenier99,Cowley72
+  A0V: Cuchiaro80(S2/68)
+
+  In MILES library of empirical spectra (Sanchez-Blazquez06): E(B-V)=0.007,
+  Teff=11100K, logg=3.78, [Fe/H]=+0.12. 
+
+HD 169022 = eps Sgr = Kaus Australis = HR 6879 = HIP 90185 = 20 Sgr = ALS 15808 = GOL 2A = SEE 351A = WDS J18242-3423A
+  B9IVp lam Boo?: Slettebak75(composite?)
+  B9.5III: Houk82(Garrison)
+  A0II-(n)(shell): GarrisonGray87
+  A0III: Paunzen01,Zorec09(BCD)
+  A0V: Evans64,Levato72,Cuchiaro80(S2/68) 
+
+  Golimowski93 "Detection of an apparent star 2.1 arcsec from the
+  circumstellar disk candidate epsilon Sagittarii - companion mags
+  V=7.7, R=7.7, I=7.0 (Hubrig01 later reports K=6.5 and concludes the
+  companion is 0.95Msun and Teff=5808K). Infrared excess
+  (Cote87,Rhee07,Chen14) - excess at 13um, 31um, 60um. Bailey24 "ϵ
+  Sagittarii: An Extreme Rapid Rotator with a Decretion Disk" -
+  angular rotation rate Omega/Omega_crit > 0.995(!), "the highest yet
+  measured for a star in our Galaxy" and "most likely a product of
+  binary interaction", shaped like a walnut (see their Figure 7).
+  
 
 HD 191692 = tet Aql = HIP 99473 = HR 7710 = Antinous = WDS J20113-0049A = Gaia DR3 4224225924761329792
    A0: Maury1897(!)
@@ -124,19 +243,20 @@ HD 191692 = tet Aql = HIP 99473 = HR 7710 = Antinous = WDS J20113-0049A = Gaia D
    B9III+B9III: Pourbaix04(SB9)
    B9.5III: Cowley69
   *B9.5III+: GrayGarrison87
- 
-  tet Aql is spectroscopic binary, first measured by Cesco1946, later
-  studied by Hummel95, Pourbaix00, and Lester22(2022AJ....164..228L)
-  has posted the most recent accurate orbit:
-  Porb=17.124281+-0.000038d, e=0.6040+-0.0009, K1=48.78+-0.09km/s,
-  K2=63.48+-0.11km/s, alpha=3.148+-0.002mas(astrometric amplitude),
-  i=144.10+-0.18deg, M1=3.654+-0.049Msun, M2=2.739+-0.037Msun,
-  Rad1=4.76+-0.14Rsun, Rad2=2.34+-0.07Rsun, Teff1=10300+-200K,
-  Teff2=10230+-220K, logg1=3.64+-0.02, logg2=4.14+-0.02,
-  Lum1=229.8+-22.5Lsun, Lum2=54.0+-5.8Lsun, dist=76.3+-0.3pc (note
-  that Gaia DR3 gets 70.1+-2.3pc), E(B-V)=0.00+-0.01, age=215Myr. It
-  apparently illuminates a reflection nebula VdB 129, which is a bit
-  surprising given the proximity and lack of foreground reddening
+
+  Brightest star classified B9.5III in GrayGarrison87 survey.  tet Aql
+  is spectroscopic binary, first measured by Cesco1946, later studied
+  by Hummel95, Pourbaix00, and Lester22(2022AJ....164..228L) has
+  posted the most recent accurate orbit: Porb=17.124281+-0.000038d,
+  e=0.6040+-0.0009, K1=48.78+-0.09km/s, K2=63.48+-0.11km/s,
+  alpha=3.148+-0.002mas(astrometric amplitude), i=144.10+-0.18deg,
+  M1=3.654+-0.049Msun, M2=2.739+-0.037Msun, Rad1=4.76+-0.14Rsun,
+  Rad2=2.34+-0.07Rsun, Teff1=10300+-200K, Teff2=10230+-220K,
+  logg1=3.64+-0.02, logg2=4.14+-0.02, Lum1=229.8+-22.5Lsun,
+  Lum2=54.0+-5.8Lsun, dist=76.3+-0.3pc (note that Gaia DR3 gets
+  70.1+-2.3pc), E(B-V)=0.00+-0.01, age=215Myr. It apparently
+  illuminates a reflection nebula VdB 129, which is a bit surprising
+  given the proximity and lack of foreground reddening
   (vandenBerg66). Lester22 estimates flux ratio f2/f1=0.25+-0.06 at
   6500A and f2/f1=0.238+-0.004 at H-band, and their Teff estimates for
   the components agree within 0.7%, suggesting they should be the same
@@ -150,20 +270,8 @@ HD 191692 = tet Aql = HIP 99473 = HR 7710 = Antinous = WDS J20113-0049A = Gaia D
   V(B)=5.005+-0.053. The name "Antinous" adopted by IAU WGSN in 2024
   for the primary, given component "Aa" in WDS (MKT 10 Aa = WDS
   J20113-0049Aa).
-  
 
-  
+HD 212061
+  B9.5III-IV: GarrisonGray94
 
-HD 27855 = HIP 20772
- *B9.5III: Abt95
-  A0: HD 
-  A0III: Appenzeller67,Cowley69
-
-HD 141556
-  B9.5III-IV: Houk82(Garrison)
-
-HD 1692022
-  B9.5III: Houk82(Garrison)
-
-
-
+  2nd brightest star (V=3.9) classified B9.5III or variant in GarrisonGray87. 

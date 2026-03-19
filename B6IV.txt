@@ -1,9 +1,12 @@
 B6IV
 
-Cowley69 standard:    19 Tau (=HR 1145) - B6IV
-Cowley72 standard:    19 Tau (=HR 1145) - B6IV 
-MK73 dagger standard: 19 Tau (=HR 1145) - B6IV
-Negueruela standard:  19 Tau (=HR 1145) - B6IV (vsini=111km/s)
+The Pleiades cluster has 3 stars near the MS turnoff that essentially
+define the B6IV type, dominated by 19 Tau.  
+
+Cowley69 standard:     19 Tau (=HR 1145) - B6IV
+Cowley72 standard:     19 Tau (=HR 1145) - B6IV 
+MK73 dagger standard:  19 Tau (=HR 1145) - B6IV
+Negueruela24 standard: 19 Tau (=HR 1145) - B6IV (vsini=111km/s, Mv=-0.9)
 
 (B-V)(B6IV) = -0.130 ; pri. stan. 19 Tau = HR 1145 (see below)
 => adopt (B-V)(B6IV) = -0.13 [updated 2/22/2026]
@@ -12,10 +15,11 @@ Negueruela standard:  19 Tau (=HR 1145) - B6IV (vsini=111km/s)
 => adopt (U-B)(B6IV) = -0.47 [updated 2/22/2026] 
 
 Teff(B6IV) = 13092 K ; pri. stan. 19 Tau = HD 23338 (see below)
-=> adopt Teff(B6IV) = 13100K [updated 2/22/2026] 
+=> adopt Teff(B6IV) = 13100K [updated 3/16/2026] 
 
-Mv(B6IV) = -0.9 ; pri. stan. 19 Tau = HR 1145 
-Mv(B6IV) = -1.3 ; GrayCorbally09
+Mv(B6IV) = -1.20 ; pri. stan. 19 Tau = HR 1145 (see below)
+Mv(B6IV) =  -1.3 ; GrayCorbally09
+=> adopt Mv(B6V) = -1.2 [updated 3/16/2026] 
 
 
 # No standards
@@ -26,30 +30,69 @@ non-standard HD 23480 (Cl Melotte 22 980) as a B6IVnn.
 # Primary Standard
 
 19 Tau = HD 23338 = Taygeta = HR 1145 = HIP 17531 = Cl* Melotte 22 HII 563 = Cl Melotte 22 563 = Gaia DR3 65296907494549120 = WDS J03452+2428A (Pleiad)
- *B6IV: Lesh68,MK73(stan),Abt02,SimonDiaz17,Negueruela24
-  B6V: JM53,Mendoza56,Cowley69(stan),Jaschek78(Herbig55)
   B5: Cannon
+ *B6IV: Lesh68,MK73(stan),Abt02,SimonDiaz17,Negueruela24(stan)
+  B6V: JM53,Herbig55,Mendoza56,Cowley69(stan)
 
   Skiff09 comments that Cannon18 uses Taygeta as B5 standard for HD
-  types!  Skiff09 lists no published types after MK73. (B-V)o=-0.15,
-  V=4.30 => Mv=-1.3. From my eye the Pleiades "turnoff" is at V=3.8.
+  types, but the star has been ubiquitously B6V or B6IV since.  The
+  star is important for defining IV luminosity class among mid-Bs,
+  Negueruela24 has 19 Tau as the only luminosity class standard
+  between B4 and B8.  Pleiades "turnoff" appears to be around V=3.8.
   Taygeta is the bluest MS B-star, just fainter than the terminal MS
-  (but still "MS") But best considered "B6IV" due to MK73?  WDS lists
-  it as an occultation binary (OCC 235 Aa,Ab), with detections in at
-  least 1969 and 1989, and mag1=4.6, mag2=6.1 (delta(mag)=1.5).  A low
-  delta(mag) binary: Malkov12 lists Porb=2.02yr, a=0.055", e=0.4560.
-  V=4.298+-0.013(Mermillliod91), B-V=-0.110+-0.006(Mermilliod91),
-  U-B=-0.459+-0.011(Mermilliod91) => Q-method => (B-V)o=-0.130,
-  (U-B)o=-0.473, E(B-V)=0.020, Av=0.065.  If the WDS delta(mag) is
-  assumed to be del(V), then V(Aa)=4.541, V(Ab)=6.041 => Vo(Aa)=4.476,
-  Vo(Ab)=5.976.  E(B-V)=0.015(Kervella22/STILISM),
-  E(B-V)=0.020(EEM/Q-method), E(B-V)=0.03(Savage85),
-  E(B-V)=0.033+-0.010(Paunzen22).  U=3.73(Morel78), V=4.30(Morel78),
-  Rj=4.31(Morel78), Ij=4.40(Morel78), Jj=4.45(Morel78),
-  Kj=4.51(Morel78), Lj=4.57(Morel78).  Parallax has high uncertainty,
-  and seems unusually close for a Pleiad:
-  plx=9.5444+-0.4030mas(GaiaDR3). Teffs: 12160(Royer24/GaiaDR3),
-  12682+-121K(Cardiel21), 12883K(SimonDiaz17),
-  13092+-91K(Zorec12/Stassun19), 13696+-222K(David15),
-  14180+-740K(Zorec09) => adopt Teff=13092K.
+  (but still "MS"). Torres21: "RVs and a tentative 8.7 yr
+  spectroscopic orbit for this object were reported by Torres (2020),
+  who presented enw velociteis that are inconsistent with an earlier
+  orbit (Abt et al. 1965). An astrometric companion is known from
+  lunar occultations. The spectroscopic and astrometric companions may
+  be the same." Torres21 reports Torres20 SB1 orbit:
+  Portb=3172.4+-9.9d, RVgam=5.66+-0.34km.s, K1=7.64+-0.88km/s,
+  e=0.391+-0.079. Although the HIP2 parallax for Taygeta seems
+  reasonable for a Pleiad (plx=7.97+-0.33mas), the binarity of the
+  system is affecting its Gaia DR3 parallax more
+  (plx=9.5444+-0.4030mas, epsi=1.921mas, amax=0.563383mas, RUWE=2.315;
+  GaiaDR3) WDS lists it as an occultation binary (OCC 235 Aa,Ab), with
+  detections in at least 1969 and 1989, and mag1=4.6, mag2=6.1
+  (delta(mag)=1.5).  A low delta(mag) binary: Malkov12 lists
+  Porb=2.02yr, a=0.055", e=0.4560.  V=4.298+-0.013(Mermillliod91),
+  B-V=-0.110+-0.006(Mermilliod91), U-B=-0.459+-0.011(Mermilliod91) =>
+  Q-method => (B-V)o=-0.130, (U-B)o=-0.473, E(B-V)=0.020, Av=0.065.
+  If the WDS delta(mag) is assumed to be del(V), then V(Aa)=4.541,
+  V(Ab)=6.041 => Vo(Aa)=4.476, Vo(Ab)=5.976.  E(B-V)=0.009(GaiaDR3
+  E(Bp-Rp)=0.0114 => E(B-V)=E(Bp-Rp)/1.32),
+  E(B-V)=0.015(Kervella22/STILISM), E(B-V)=0.020(EEM/Q-method),
+  E(B-V)=0.026(Kervella19/STILISM), E(B-V)=0.03(Savage85),
+  E(B-V)=0.033+-0.010(Paunzen22), E(B-V)=0.04(Friedemann92) => adopt
+  E(B-V)=0.026 => Av=0.081 => (B-V)o=-0.136, (U-B)o=-0.478.
+  U=3.73(Morel78), V=4.30(Morel78), Rj=4.31(Morel78),
+  Ij=4.40(Morel78), Jj=4.45(Morel78), Kj=4.51(Morel78),
+  Lj=4.57(Morel78).  Parallax has high uncertainty, and seems
+  unusually close for a Pleiad: plx=9.5444+-0.4030mas(GaiaDR3).
+  Teffs:
+  12160(Royer24/GaiaDR3),
+  12682+-121K(Cardiel21),
+  12883K(SimonDiaz17),
+  13092+-91K(Zorec12/Stassun19),
+  13696+-222K(David15),
+  14180+-740K(Zorec09)
+  => adopt Teff=13092K.
+  logg=3.4462(3.4369-3.4555;GaiaDR3/AENEAS). Absolute magnitude:
+  adopting mean Pleiades distance 135.74pc(GaiaDR3), Av=0.081,
+  V(Aa)=4.541 => Mv=-1.20.
   
+  (B-V)(B6IV) = -0.136 ; pri. stan. 19 Tau = HD 23338 = Taygeta 
+  (U-B)(B6IV) = -0.478 ; pri. stan. 19 Tau = HD 23338 = Taygeta 
+  Mv(B6IV) = -1.20 ; pri. stan. 19 Tau = HD 23338 = Taygeta 
+
+# Other Stars
+
+HD 23480 = 23 Tau = HR 1156 = HIP 17608 = Cl Melotte 22 980 = V971 Tau = Cl* Melotte 22 HII 980 =  2MASS J03461958+2356541 = LH 15A = ALS 15828 = MWC 73 = Gaia DR3 65205373152172032 = WDS J03463+2357Aa,Ab 
+  B5: HD
+  B5ne: Merril25
+  B6IV: Stebbins56,Bonsack57,Lesh68
+ *B6IVnn: JM53(non-stan),Herbig55,Mendoza56,Racine68
+  B6IV(e): Slettebak82
+  B7III:: Maury1897,Ahmed52
+  B7III-IVn: GarrisonGray94
+  
+  Was fairly consistently B6IV until it wasn't. Illuminates reflection nebula VDB 22.
