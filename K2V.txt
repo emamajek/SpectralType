@@ -817,7 +817,7 @@ Corbally86 does not list a K2V standard.
 
 # Primary Standards
 
-HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=3.72)
+HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran = Gaia DR3 5164707970261890560
  *K2V: MK43,JM53,Wilson62(stan,JM53),Jaschek64(all),Morgan65,Cowley67,KeenanMcNeil76(stan),Keenan80,Keenan83(stan),Keenan85_IAU,KeenanYorka85,Keenan89,Garrison94,Keenan99,Gray03(K2V(k))
   K0: Cannon
 
@@ -997,7 +997,7 @@ HD 22049 = eps Eri = GJ 144 = HIP 16537 = HR 1084 = 18 Eri = Ran (J0332-0927; V=
     
 # Secondary Standard
 
-HD 166620 = GJ 706 = HIP 88972 = HR 6806 = LHS 3363 = SPOCS 784 = LUH 13A = Gaia DR3 4610177733290768896 = Gaia DR3 4610177733290768896 
+HD 166620 = GJ 706 = HIP 88972 = HR 6806 = LHS 3363 = SPOCS 784 = LUH 13A = Gaia DR3 4610177733290768896 
   K0: Cannon
   K1V: 1972AbaOB..43..109W
  *K2V: 1927MeUpp..28....1L,Adams35,Keenan41,JM53(non-stan),Morgan53,Wilson62,Cowley67,Hoffleit82(BSC),Houk(stan? see below),Bidelman85(K2),Gray03
@@ -1908,14 +1908,37 @@ HD 67199
   Sobiran22/PASTEL mean values: Teff=5142+-22K, logg=4.53+-0.08,
   [Fe/H]=+0.04+-0.04.
 
-HD 30501
+HD 30501 = GJ 176.3 = GJ 9167 = HIP 22122 = LHS 1701 = NLTT 13937 = SBC 3881 = 2MASS J04453859-5004270 = 1RXS J044538.1-500422 = Gaia DR3 4784805056230587392
+  G5: HD
   K0V: Evans61
   K1V: Houk78
  *K2V: Gray06
 
-  Within 2sigma of solar metallicity ([Fe/H]=+0.08).
-  Soubiran22/PASTEL catalog values: Teff=5146+-24K, logg=4.54+-0.10,
-  [Fe/H]=+0.08+-0.05.
+  Added here as the star 1) has metallicity within 2sigma of solar
+  ([Fe/H]=+0.08), 2) has ROSAT X-ray detection, 3) has multiple
+  reported inconsistent rotation periods, 4) SB1 spectroscopic binary,
+  5) nearby (plx= 49.1798+-0.0255mas;GaiaDR3).  Soubiran22/PASTEL
+  catalog values: Teff=5146+-24K, logg=4.54+-0.10,
+  [Fe/H]=+0.08+-0.05. Star has reported rotation period and coronal
+  X-ray activity that seem inconsistent with trend for other early Ks:
+  logLx=27.78(calculated using 2RXS),
+  Per=7.71d(Colman24). Prot=0.516887d(Oelkers18),
+  Prot=11.719933d(Gao25). Colman24 reports multiple periods:
+  Prot=7.71d, a 2nd rotation period at 14.09d, and an autocorrelation
+  function period of 6.08d... so perhaps the unresolved binary is
+  simply yielding multiple photometric periods.  Spectroscopic binary
+  in Pourbaix SB9: Porb=2073.6+-3.0d, e=0.741, e=0.0040,
+  K1=1.70km/s. Kervella22 detects the tangential velocity anomaly
+  between Hipparcos and Gaia: dVt=463.63+-4.66m/s. The combination of
+  rotation and X-ray emission seems inconsistent with trend of other
+  K2 dwarfs. Using the Colman24 Prot, I get a gyro age of
+  393+164-170Myr (for assumed 10% period error), however kinematically
+  this seems like a much older star (UVW = 36.8, -1.1, -46.8km/s). I'm
+  wondering if the lower mass companion has the short rotation and is
+  responsible for much of the variability?
+  logR'HK=-4.688+-0.029(Herrero12), logR'HK=-4.68(Jenkins11),
+  logR'HK=-4.78355(BoroSaikia18).  R-Ic=0.425+-0.003(Taylor03).
+  
 
 HD 192310 = GJ 785 = HR 7722
   K0V: Evans57
@@ -1980,6 +2003,49 @@ HD 219834B = 94 Aqr B = GJ 894.2B = HIP 115125 = NLTT 56465 = SPOCS 1015 = STF 2
   logLx=27.70(Wright11), logLx/Lbol=-6.43(Wright11).  Combining
   Wright11 Lx with TIC luminosity => logLx/Lbol=-5.55.
 
+HD 13579 = GJ 90 = V989 Cas = HIP 10531 = LHS 1371 = G 244-56 = ENG 10A = 2MASS J02154252+6740205 = WDS J02157+6740A = Gaia DR3 520377795206114688
+  G5III: Pickles10(SEDfit/Tycho-2)
+  K1IV: Pickles10(SEDfit/SDSS-PT)
+ *K2V: Cowley67,Bidelman85(K2)
+  K4V: Adams35
+
+  I include this star here as it has reported coronal X-ray data,
+  chromospheric logR'HK, and multiple inconsistent reported rotation
+  periods.  I'm seeing conflicting signals on rotation and activity,
+  and the star is clearly an outlier on the rotation vs coronal
+  activity trend for early K dwarfs if one adopts the default
+  Strassmeier00 rotation period. Strassmeier00 reports a photometric
+  period 6.7900d with amplitude 0.030mag for N=26 epochs. Using TESS
+  sector 18 photometry, Fetherolf23 reports a much shorter period
+  (0.66d) with smaller amplitude (66ppm).
+  logLx=27.86(Hinkel17). Supporting a young, active star:
+  Pvar=0.659608+-0.00747d(amp=66.1ppm;Fetherolf23;!),
+  Prot=6.79d(Strassmeier00), vsini=6.5+-3.0km/s and
+  3.1+-3.0km/s(Strassmeier00),
+  logLx/Lbol=-5.27(Wright11). logLx/Lbol=-5.40(Hinkel17),
+  logR'HK=-4.70(Brewer16), logR'HK=4.713+-0.042(Herrero12).
+  Supporting an old inactive star: ROSAT hardness ratio HR1 is very
+  soft (HR1=-1.000+-0.097), [Fe/H]=+0.34+-0.02(Soubiran22; don't see
+  <1 Gyr-old stars this metal-rich in solar neighborhood that I'm
+  aware of), Prot=32.372898d(Oelkers18),
+  vsini=0.0+-0.0km/s(Tokovinin92/Latham02/Freckelton25).  So there are
+  three different rotation periods and none agree even closely, and
+  the X-rays suggest a middle-aged MS star. Ages:
+  6.46Gyr(range=6.30Gyr;Luck17), 7.9(3.8-11.7)Gyr(Brewer18),
+  8.980+-3.107Gyr(7.286-13.500;GaiaDR3/FLAME).  Galactic barycentric
+  velocity: UVW = -31.5, -42.6, -12.1 km/s.
+  plx=53.8413+-0.0167mas(GaiaDR3). Squarely a dwarf: Mv=5.85.
+
+HD 180263 = V1688 Aql = HIP 94650 = NLTT 47594 = TIC 210208396 = 2MASS J19153503+1133170 = Gaia DR3 4312905248400130688
+  K2IV-V: Gray03
+
+  Per=0.164090d(Fetherolf26/peak2), Prot=1.029450d(Oelkers18), Per=3.376832d(Fetherolf26/peak1), Per=14.16d(Strassmeier00). There are
+  issues with both - the Oelkers and Fetherolf periods seem way too fast given the
+  star's activity, while the Strassmeier period is
+  based on only 14 data points ("P uncertain"). 
+  vsini=2.836+-0.354km/s(Perdelwitz24). 
+  Boettner24 calls it a thick disk candidate. 
+ 
 # Notes on nearby Hipparcos stars with K2V types (mostly from Houk)
 
 <V-J>(K2V)   = 1.669 (+-0.009 sem, +-0.108 stdev; HIP d<75pc S/N>8 N=174)

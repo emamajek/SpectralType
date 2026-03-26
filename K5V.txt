@@ -942,7 +942,7 @@ Mass(K5V) = 0.713 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.780)
 Mass(K5V) = 0.711 Msun ; Eker18 calibration for logL=-0.780
 Mass(K5V) =  0.699 Msun ; Eker15 calibration for logL=-0.780
 Mass(K5V) = 0.696 Msun ; Chevalier23 calib for M_G=6.85
-Mass(K5V) = 0.695 Msun ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A (Soubiran24/BASTI)
+Mass(K5V) =  0.695 Msun ; pri. stan. GJ 820A = HD 201091 = 61 Cyg A (Soubiran24/BASTI)
 Mass(K5V) = 0.694 Msun ; Mann18 calib for M_Ks=4.397
 Mass(K5V) = 0.690 Msun ; Fernandes21 ML calib for logL=-0.780
 Mass(K5V) = 0.6771 +-0.0052 Msun ; anchor stan. 61 Cyg A (Giovinazzi25)
@@ -974,7 +974,9 @@ GJ 820A = 61 Cyg A = HD 201091 = HIP 104214 = HR 8085 = V1803 Cyg
 
   There seems to be agreement that the star is metal-poor, but the
   degree is somewhat uncertain. The star is somewhat active
-  (logR'HK=-4.61;Radick18; logLx/Lbol=-5.39;Wright11). It is in the
+  (logR'HK=-4.61;Radick18; logLx/Lbol=-5.39;Wright11).
+  Giovinazzi25 reports updated orbit (P=707.1+4.5-4.4yr) and dynamical mass (Mass=0.6771+-0.0052-0.0051Msun).
+  It is in the
   GCVS as variable star V1803 Cyg, with reported Vmag max/min mags
   V=5.19 and V=5.27 - indeed this scatter is reflected in the
   Mermilliod compilation of reported Vmags and colors (and here):
@@ -1915,7 +1917,40 @@ xi Boo B = HD 131156B = GJ 566B
  *K5V: Adams35,Struve55,Levato78(K5Ve),Abt81,Bidelman85
 
   5.6" separation from xi Boo A (G7V), P=151.6yr, e=0.51
-  (Rodriguez+2015).
+  (Rodriguez+2015). Photometry for both unresolved pair, primary A
+  (see file G7V.txt), and this K5V star "B":
+  V(AB)=4.54(Johnson66/Nobs=6,Ducati02,HIP), V(AB)=4.55(Fischer14),
+  V(AB)=4.560+-0.025(Mermilliod91/Nobs>44),
+  V(AB)=4.593+-0.017(Rakos82/Nobs=3), V(A)=4.663+-0.004(ASCC-2.5),
+  V(A)=4.67(TYC), V(A)=4.675(Lehtinen20),
+  V(A)=4.720+-0.000(Mermilliod91/Nobs=4), V(A)=4.74(Worley83) => adopt
+  V(A)=4.67(TYC), V(B)=6.813+-0.014(ASCC-2.5), V(B)=6.816(Lehtinen20),
+  V(B)=6.82(TYC), V(B)=6.90(Worley83),
+  V(B)=6.947+-0.029(Mermilliod91/Nobs=3) => adopt V(B)=6.82(TYC),
+  B-V(AB)=0.767+-0.011(Mermilliod91/Nobs=44),
+  B-V(AB)=0.77(Johnson66/Nobs=6),
+  B-V(AB)=0.777+-0.013(Rakos82/Nobs=3),
+  B-V(A)=0.720+-0.000(Mermilliod91/Nobs=4), B-V(A)=0.725+-0.005(TYC),
+  B-V(A)=0.728(Just08), B-V(A)=0.760(Fischer14),
+  B-V(B)=1.104+-0.083(Mermilliod91/Nobs=3), B-V(B)=1.128(Just08),
+  B-V(B)=1.156+-0.021(TYC), B-V(B)=1.170(Fischer14),
+  U-B(AB)=0.248+-0.010(Rakos82/Nobs=3),
+  U-B(AB)=0.281+-0.018(Mermilliod91/Nobs=26),
+  U-B(AB)=0.29(Johnson66/Nobs=6),
+  U-B(A)=0.237+-0.005(Mermilliod91/Nobs=4),
+  U-B(B)=1.15(Mermilliod91/Nobs=2), V-Rc(A)=0.442(Just08),
+  R-Ic(A)=0.393(Just08), R-Ic(B)=0.564(Just08), g-r(A)=0.548(Just08),
+  g-r(B)=0.986(Just08), r-i(A)=0.171(Just08), r-i(B)=0.332(Just08),
+  del(G)=1.9496+-0.0041(GaiaDR3/calc),
+  del(Bp)=2.2635+-0.0049(GaiaDR3/calc), del(Bt)=2.745+-0.023(TYC),
+  del(g)=2.487(Just08), del(Hp)=2.27+-0.03(HIP),
+  del(Vt)=2.199+-0.016(TYC), del(V)=2.15+-0.015(ASCC-2.5/calc),
+  del(V)=2.15(TYC), del(V)=2.17(Rakos82#1),
+  del(V)=2.19(Worley69/Nobs=3), del(V)=2.20(Strand69/Nobs=6),
+  del(V)=2.23(Just08), del(V)=2.28(Rakos82#2) => adopt
+  del(V)=2.15(TYC) (V(A)=4.67,V(B)=6.82).  GaiaDR3 lists parallaxes
+  plx(A)=148.0695+-0.1317mas(GaiaDR3),
+  plx(B)=148.1793+-0.0546mas(GaiaDR3) => Mv(A)=5.52, Mv(B)=7.67.
 
 HD 98800 = TWA 4
   K5V: Upgren72,Fekel93(K5V(e)),Suarez06(K5),Torres06
