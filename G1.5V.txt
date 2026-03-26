@@ -55,23 +55,35 @@ logg(G1.5V) = 4.393 ; Soubiran22/PASTEL logg fit for -0.1<[Fe/H]<+0.1 d<50pc dwa
 
 # Primary Standard
 
-HD 186408 = 16 Cyg A = HR 7503 = "16 Cyg prec."
+HD 186408 = 16 Cyg A = GJ 765.1A = HR 7503 = HIP 96895 = "16 Cyg prec." = SPOCS 854 = STF 4046A = TRN 4A = WDS J19418+5032Aa = Gaia DR3 2135550755683405952
+  G0: HD
+  G0V: Sharma22
  *G1.5Vb: KeenanYorka85(stan),Keenan89
   G1.5V: Keenan83,Keenan88,GrayNstars,Gray01,Gray03
-  G2V: JM53
+  G2V: JM53(stan),Wilson57,Bouigue59,Frasca09
   G2Vab: Barry70
   G2.5V: Stebbins57
   G3V: Adams35,Opolski57,Keenan80
 
-  Has M4.5V companion C or Ab 3.2" away (TRN4; 7 mag fainter), and of
-  course 16 Cyg B 40" away. Gray95 estimates 16 Cyg A to be 5+-12K
-  hotter than the Sun.  PASTEL: <Teff> = 5793K(N=40).
-  <logg>=4.28(N=29), <[Fe/H]>=0.09(N=30). Brewer16 numbers are near
-  middle of published values here: 5778K, logg=4.28, [Fe/H]=0.09.  Age
-  = 7.0+-0.3 Gyr(Judge17). Metalfe23 lists: Rad=1.220+-0.011Rsun,
-  M=1.06+-0.03Msun, L=1.40+-0.11Lsun, Age=7.43+-0.54Gyr.  Mass
-  estimates: 1.06+-0.03Msun(Metcalfe23), 1.08+-0.02Msun(Chaplin13) =>
-  adopt 1.06Msun.
+  Has M4.5V companion C or Ab 3.2" away (TRN4; 7 mag fainter;
+  G(A)=5.82, G(C)=13.85), and of course 16 Cyg B 40" away. Gray95
+  estimates 16 Cyg A to be 5+-12K hotter than the Sun.  PASTEL: <Teff>
+  = 5793K(N=40).  <logg>=4.28(N=29), <[Fe/H]>=0.09(N=30). Brewer16
+  numbers are near middle of published values here: 5778K, logg=4.28,
+  [Fe/H]=0.09.  Age = 7.0+-0.3 Gyr(Judge17). Metalfe23 lists:
+  Rad=1.220+-0.011Rsun, M=1.06+-0.03Msun, L=1.40+-0.11Lsun,
+  Age=7.43+-0.54Gyr.  Mass estimates: 1.06+-0.03Msun(Metcalfe23),
+  1.08+-0.02Msun(Chaplin13) => adopt 1.06Msun. GaiaDR3:
+  G=5.818073+-0.002795(GaiaDR3), plx=47.3239+-0.0197mas(GaiaDR3),
+  Bp-Rp=0.813247(GaiaDR3), Bp-G=0.322832(GaiaDR3),
+  G-Rp=0.490415(GaiaDR3).  V=5.95(Johnson66/Nobs=4),
+  V=5.950+-0.005(ASCC-2.5), V=5.96(TYC), V=5.96(Argue66/Nobs=6),
+  V=5.961+-0.009(Mermilliod91/N>34), V=5.97(Moffet79/Nobs=12),
+  V=5.982321(GaiaDR3/synth), V=5.99(HIP) [surprisingly wide range of
+  Vmags] => adopt V=5.961.  B-V=0.64(Johnson66/Nobs=4),
+  B-V=0.640(Argue66/Nobs=6), B-V=0.642(Moffet79/Nobs=12),
+  B-V=0.643+-0.006(Mermilliod91/N>34,HIP), U-B=0.18(Argue66/Nobs=6),
+  U-B=0.192+-0.009(Mermilliod91/N>32), U-B=0.20(Johnson66/Nobs=4).
 
 # Secondary Standards
 
