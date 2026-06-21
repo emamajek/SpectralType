@@ -186,7 +186,7 @@ Skiff20 lists only three A0V standards: HD 103287 (gam UMa; MK73),
 (J-H)(A0V) =  -0.045 ; Bessell88(Glass->2MASS)
 (J-H)(A0V) =  -0.049 ; pri. stan. HD 71155 = HR 3314 = 30 Mon (vanderBliek96 ESO => 2MASS via Carpenter01) 
 => adopt (J-H)(A0V) = -0.04 [updated 5/1/2025] (J-Ks=-0.02, H-Ks=0.02)
-[EEM 5/1/2025: note that all authors are consistently getting non-zero 2MASS J-H color for A0V, all consistent
+[EEM 5/1/2025: note that all authors are consistently getting non-zero 2MASS J-H color for A0V, consistent
 with J-H ~ -0.04]
 
 (H-K)(A0V) = -0.001 ; Glass97(SAAO/Carter90_system) 
@@ -199,7 +199,7 @@ with J-H ~ -0.04]
 (H-Ks)(A0V) =  0.011 +-0.029 ; HD 139493 = HR 5818 = 2MASS J15355704+5437500 (A0Vn;Gray95/A0V;Stocke91)
 (H-Ks)(A0V) =  0.01  ; Straizys09 
 (H-Ks)(A0V) =  0.00 (+-0.003 rms) ; SteadHoare11 
-=> adopt (H-Ks)(A0V) = 0.02 [updated 5/1/2025] (J-H=-0.04, J-Ks=-0.02)
+=> adopt (H-Ks)(A0V) = +0.02 [updated 5/1/2025] (J-H=-0.04, J-Ks=-0.02)
 
 (J-K)(A0V) =   0.00 ; Bessell88/Glass
 
@@ -207,7 +207,7 @@ with J-H ~ -0.04]
 (J-Ks)(A0V) =  -0.011 ; Bessell88(Glass->2MASS)
 (J-Ks)(A0V) =  -0.019 ; pri. stan. HD 71155 = HR 3314 = 30 Mon (vanderBliek96 ESO => 2MASS via Carpenter01) 
 (J-Ks)(A0V) =  -0.02  ; Deng20/2MASS
-=> adopt (J-Ks)(A0V) = -0.02 [updated 5/1/2025] (J-H=-0.02, H-Ks=0.02)
+=> adopt (J-Ks)(A0V) = -0.02 [updated 5/1/2025] (J-H=-0.04, H-Ks=0.02)
 
 (g-V)(A0V) = -0.127 ; Jordi06 B-V=>g-V for B-V=0.00
 => adopt (g-V)(A0V) = -0.127 [updated 9/1/2023]
@@ -441,38 +441,27 @@ so "middle-age" would be ~480 Myr.]
 # Anchor Standard
 
 HD 172167 = alf Lyr = Vega = GJ 721 = HIP 91262 = HR 7001
-  A0V: MK43,JM53(stan),MK73,MK78,Keenan85,Garrison94(anchor),GrayAtlas
+  A0V: MK43(stan),JM53(stan),MK73(stan),MK78(stan),Keenan85(stan),Garrison94(anchor),GrayAtlas(stan)
  *A0Va: Gray87(stan),Garrison96
 
-  Gray87 uses it as the primary low vsini A0Va standard (from MK78).
-  V=0.01(Oja63),
+  Gray87 uses it as the primary low vsini A0Va standard (from MK78),
+  vsini=20.8+-0.2km/s(Hill10).  V=0.01(Oja63),
   V=0.026+-0.008(Bohlin04),
   V=0.03(JohnsonMorgan53,Johnson66,Bessell90,HIP,GCPD/Cousins76_VRIc,Johnson80,Megessier95,Bessell98,Bohlin14
-  "standard Johnson value"),
-  V=0.033(Mermilliod91, adopted by Rieke23),
-  V=0.035(Colina94),
-  V=0.04(Johnson54)
-  => adopt Vmag=0.03.
+  "standard Johnson value"), V=0.033(Mermilliod91, adopted by
+  Rieke23), V=0.035(Colina94), V=0.04(Johnson54) => adopt Vmag=0.03.
   B-V=-0.01(Bessell90,GCPD/Cousins76_VRIc), B-V=-0.001+-0.005(HIP),
-  B-V=0.00(Oja63),
-  B-V=0.00(Johnson66),
-  B-V=0.00(Johnson54) => adopt
+  B-V=0.00(Oja63), B-V=0.00(Johnson66), B-V=0.00(Johnson54) => adopt
   B-V=0.00.  U-B=0.00(Johnson66), U-B=-0.006+-0.006(Mermilliod91),
   U-B=-0.01(JohnsonMorgan53), U-B=-0.01(Johnson54) => adopt
-  U-B=-0.006.
-  V-Rj=-0.04(Johnson66),
+  U-B=-0.006.  V-Rj=-0.04(Johnson66),
   V-Rc=-0.009(Bessell90,GCPD/Cousins76_VRIc),
   V-Rc=-0.053(Johnson66=>Cousins using Fernie83),
-  R-Ic=0.004(Bessell90,GCPD/Cousins76_VRIc),
-  V-Ij=-0.07(Johnson66),
-  V-Ic=-0.051(Johnson66=>Cousins using Fernie83), 
-  V-Ic=-0.01+-0.02(HIP),
-  V-Ic=-0.005(Bessell90,GCPD/Cousins76_VRIc).
-  V-J=0.01(Johnson66),
-  V-K=0.01(Johnson66),
-  V-L=0.05(Johnson66).
-  J=0.02(Johnson66),
-  K=-0.02(Gehrz74, Gehrz76, Grasdalen83),
+  R-Ic=0.004(Bessell90,GCPD/Cousins76_VRIc), V-Ij=-0.07(Johnson66),
+  V-Ic=-0.051(Johnson66=>Cousins using Fernie83),
+  V-Ic=-0.01+-0.02(HIP), V-Ic=-0.005(Bessell90,GCPD/Cousins76_VRIc).
+  V-J=0.01(Johnson66), V-K=0.01(Johnson66), V-L=0.05(Johnson66).
+  J=0.02(Johnson66), K=-0.02(Gehrz74, Gehrz76, Grasdalen83),
   K=0.02(Johnson66), Ks=-0.036+-0.010(Reike08,indirectly).  f_bol:
   (2983+-120)e-8 erg/cm^2/s (Alonso94; erroneously cited as
   "(2983+-120)e-8 erg/cm^2/s" in Ciardi01), 2.983e-5 erg/cm^2/s
