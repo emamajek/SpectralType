@@ -19,26 +19,38 @@ Negueruela24 standards:  32 Peg (HD 212097) - B9III [vsini=70km/s, Mv=-2.1]
                          HD 57608 - B9II-III [vsini=10km/s, Mv=-2.6]
 
 Teff(B9III) =   9500 K ; non-standard 13 And (see below)
-Teff(B9III) =  10100 K ; standard gam Lyr (see below)
-Teff(B9III) =  10500 K ; primary stan. HR 4712 (see below)
-Teff(B9III) =  11403 K ; standard HD 212097 = 32 Peg
+Teff(B9III) =   10100 K ; deprecated stan. gam Lyr (see below)
+Teff(B9III) =  10728 K ; sec. stan. HD 2011 = 12 Cas = HR 93 
+Teff(B9III) =  11000 K ; pri. stan. HD 107832 = x01 Cen = HR 4712
+Teff(B9III) =  11403 K ; sec. stan. HD 212097 = 32 Peg = HR 8522
 Teff(B9III) =   11700 K ; non-standard variant phi Her (see below)
-Teff(B9III) =  12000 K ; primary stan. eps Tuc (see below)
-Teff(B9III) =  12600 K ; deprecated standard (or variant?) mu Lep
-Teff(B9III) =  12900 K ; variant standard pi^1 Boo
-=> adopt Teff(B9III) ~ 11700 K (+-1000K) 
+Teff(B9III) =   12600 K ; deprecated standard (or variant?) mu Lep
+Teff(B9III) =  12800 K ; pri. stan. HD 224686 = eps Tuc = HR 9076
+Teff(B9III) =   12900 K ; variant standard pi^1 Boo
+Teff(B9III) =   14360K ; deprecated stan. HD 49606 = 33 Gem = HR 2519
+=> adopt Teff(B9III) ~ 11700 K (+-1000K) [updated 5/27/2026]
 
-Mv(B9III) =  -0.5  ; standard HD 49606 = 33 Gem (Negueruela24 stan.) 
+(G-V)(B9III) = -0.018 ; pri. stan. HD 107832 = x01 Cen = HR 4712
+(G-V)(B9III) =  -0.019 ; deprecated standard HD 51688 = 40 Gem = HR 2605 
+(G-V)(B9III) = -0.028 ; standard HD 224686 = eps Tuc = HR 9076 
+(G-V)(B9III) = -0.036 ; sec. stan. HD 212097 = 32 Peg
+(G-V)(B9III) = -0.038 ; sec. stan. HD 2011 = 12 Cas
+(G-V)(B9III) =  -0.044 ; deprecated stan. HD 49606 = 33 Gem = HR 2519
+=> adopt (G-V) = -0.032 [updated 5/27/2026] 
+
+Mv(B9III) =  -0.37 ; pri. stan. HD 107832 = x01 Cen = HR 4712
+Mv(B9III) =  -0.5  ; standard HD 49606 = 33 Gem (Negueruela24 stan.)
+Mv(B9III) =  -0.70 ; pri. stan. HD 224686 = eps Tuc = HR 9076
 Mv(B9III) =  -0.8  ; standard HD 51688 = 40 Gem (Negueruela24 stan.)
 Mv(B9III) = -1.35  ; median for 4 B9III standards in Negueruela24
-Mv(B9III) =  -1.9  ; standard HD 2011 = 12 Cas (Negueruela24 stan.)
+Mv(B9III) =  -1.90 ; sec. stan. HD 2011 = 12 Cas = HR 93 (Negueuruela24 stan.)
 Mv(B9III) =  -2.04 ; standard eps Tuc = HR 9076 = HD 224686
-Mv(B9III) =  -2.15 ; standard HD 212097 = 32 Peg (Negueruela24 stan.)
+Mv(B9III) =  -2.15 ; sec. stan. HD 212097 = 32 Peg (Negueruela24 stan.)
 => adopt Mv(B9III) = -1.35 [updated 2/8/2026] 
 
-# Standards
+# Primary Standards
 
-HD 107832 = HR 4712 = x01 Cen = HIP 60449 = CD-34 8117 = CPD-34 5154 = 2MASS J12233542-3524455 = Gaia DR3 6157932866997543296
+HD 107832 = x01 Cen = HR 4712 = HIP 60449 = CD-34 8117 = CPD-34 5154 = 2MASS J12233542-3524455 = Gaia DR3 6157932866997543296
     B8/9V: Houk82
    *B9III: DeVaucouleurs57,GarrisonGray94(low vsini)
     B9: HD,Houk82
@@ -49,7 +61,7 @@ HD 107832 = HR 4712 = x01 Cen = HIP 60449 = CD-34 8117 = CPD-34 5154 = 2MASS J12
     assigned it to new group Theia 430 with age log(t/yr)=8.25+-0.14
     => age=178+78-49Myr.  V=5.31(Lake63),
     V=5.313+-0.005(Mermilliod91/N>7), V=5.32(Johnson66), V=5.32(HIP),
-    V=5.334169(GaiaDR3/synth), B-V=-0.066+-0.002(HIP),
+    V=5.334169(GaiaDR3/synth) => adopt V=5.32. B-V=-0.066+-0.002(HIP),
     B-V=-0.069+-0.002(TYC), B-V=-0.08(Johnson66),
     B-V=-0.080+-0.000(Mermilliod91/Nobs>7), B-V=-0.08(Lake63),
     B-V=-0.099(GaiaDR3/synth0) => adopt B-V=-0.08.
@@ -58,16 +70,21 @@ HD 107832 = HR 4712 = x01 Cen = HIP 60449 = CD-34 8117 = CPD-34 5154 = 2MASS J12
     E(B-V)=0.00(Heiles00), E(b-y)=0.006(Philip80) =>
     E(B-V)=0.008(Philip80=>E(B-V)), E(B-V)=0.009+-0.009(Paunzen24),
     E(B-V)=0.013(Kervella22/STILISM),
-    E(B-V)=0.0245+-0.0102(Stassun19/TIC), => adopt E(B-V)=0.009.
+    E(B-V)=0.0245+-0.0102(Stassun19/TIC) => adopt E(B-V)=0.009 => Av=0.028. 
     GaiaDR3: plx=7.3671+-0.0953mas, Bp-Rp=-0.073792, Bp-G=-0.034026,
     G-Rp=-0.039766, G=5.302303+-0.002813,
     EW(Halpha)=0.19705+-0.01957nm, A0=0.099916(0.099069-0.100498),
-    Vbroad=70.9429+-3.6384km/s, Teffs: 10464K(McDonald12),
+    Vbroad=70.9429+-3.6384km/s, Teffs: 
     10715+714-506K(Quintana25), 11000K(GaiaDR3/RVtemp),
-    11864+-260K(Stassun19/TIC), => adopt Teff=10500K.
-    logg=3.9215+-0.0673(Stassun19/TIC)
+    11864+-260K(Stassun19/TIC) => adopt Teff=11000K.
+    logg=3.9215+-0.0673(Stassun19/TIC). G-V = 5.302303 - 5.32 = -0.018.
+    Absolute magnitude (Johnson66/HIP, GaiaDR3, Av=0.028) => Mv=-0.37. 
 
-eps Tuc = HR 9076 = HD 224686 = HIP 118322 (J2359-6534; V=4.5)
+    (G-V)(B9III) =  -0.018 ; pri. stan. HD 107832 = x01 Cen = HR 4712
+    Teff(B9III)  = 11000 K ; pri. stan. HD 107832 = x01 Cen = HR 4712
+    Mv(B9III)    = -0.37   ; pri. stan. HD 107832 = x01 Cen = HR 4712
+
+HD 224686 = eps Tuc = HR 9076 = HIP 118322 (J2359-6534; V=4.5)
     B7V: DeVaucouleurs57
     B8/9V: Houk75
     B8V: Slettebak82,Levenhagen06
@@ -78,10 +95,15 @@ eps Tuc = HR 9076 = HD 224686 = HIP 118322 (J2359-6534; V=4.5)
     revised Hipparcos parallax (8.74+-0.18), I estimate Mv ~ -0.8,
     which is ~1.3 mag above the main sequence, and consistent with
     other giants. GaiaDR3: plx=9.1852+-0.1114mas(GaiaDR3).
-    V=4.487+-0.010(Mermilliod91), B-V=-0.085+-0.005(Mermilliod91),
-    U-B=-0.270+-0.014(Mermillid91).  Teffs: 11200K(McDonald12),
+    V=4.487+-0.010(Mermilliod91), V=4.49(HIP), V=4.49(Cousins62/N=4),
+    V=4.49(Cousins77/N=10), V=4.50(Johnson66/N=3) => adopt V=4.49. 
+    B-V=-0.09(Cousins62/N=4), B-V=-0.085+-0.005(Mermilliod91),
+    B-V=-0.08(Johnson66/N=3), B-V=-0.08(Cousins77/N=10),
+    B-V=-0.075+-0.011(HIP), U-B=-0.28(Johnson66/N=3),
+    U-B=-0.27(Cousins62/N=4), U-B=-0.270+-0.014(Mermillid91),
+    V-Ic=-0.04+-0.02(HIP).  Teffs: 
     11286K(Fremat05#1), 12800+-218K(Fremat05#2),
-    13000+-500K(Levenhagen06) => adopt Teff = 12000K.
+    13000+-500K(Levenhagen06) => adopt Teff = 12800K.
     logg=3.671(Fremat05#1), 3.9+-0.1(Levenhagen06),
     3.948(Fremat05#2). E(B-V)=0.00(Heiles00),
     E(B-V)=0.003(Kervella22/STILISM),
@@ -93,8 +115,17 @@ eps Tuc = HR 9076 = HD 224686 = HIP 118322 (J2359-6534; V=4.5)
     from Kervella22, plx from GaiaDR3 => Mv=-2.04+-0.10.  ESO IR
     calibration star (vanderBliek96): J=4.616+-0.007, H=4.623+-0.006,
     K=4.642+-0.005, L'=4.636+-0.005, M=4.660+-0.043.
+    G=4.459122+-0.003013(GaiaDR3), Bp-Rp=-0.061504(GaiaDR3),
+    Bp-G=-0.023379(GaiaDR3), G-Rp=-0.038125(GaiaDR3). G-V = 4.459122 - 4.487 = -0.028.
+    Absolute magnitude (V=4.49, GaiaDR3 plx, Av=0.009) => Mv=-0.70. 
 
-HD 212097 = 32 Peg = HIP 110371 = HR 8522 = ADS 15863 AF = 2MASS J22211933+2819499 = WDS J22213+2820Aa,Ab = Gaia DR3 1893925997369932928
+    (G-V)(B9III) =  -0.028 ; pri. stan. HD 224686 = eps Tuc = HR 9076
+    Teff(B9III)  = 12800 K ; pri. stan. HD 224686 = eps Tuc = HR 9076
+    Mv(B9III)    =  -0.70  ; pri. stan. HD 224686 = eps Tuc = HR 9076
+
+# Secondary Standards 
+
+HD 212097 = 32 Peg = HR 8522 = HIP 110371 = ADS 15863 AF = 2MASS J22211933+2819499 = WDS J22213+2820Aa,Ab = Gaia DR3 1893925997369932928
     B8: HD 
     B8III: Osawa59
     B8V: Slettebak54,Belyakina59
@@ -116,29 +147,45 @@ HD 212097 = 32 Peg = HIP 110371 = HR 8522 = ADS 15863 AF = 2MASS J22211933+28194
     and the values are nicely bracketed by the Kervella/STILISM and
     Paunzen values, so I just adopt E(B-V)=0.072. GaiaDR3 plx,
     Mermilliod91 Vmag, Av=0.235 => absolute magnitude Mv=-2.15.
+    G=4.769057+-0.003263(GaiaDR3), Bp-Rp=0.032236(GaiaDR3),
+    Bp-G=-0.000666(GaiaDR3), G-Rp=0.032901(GaiaDR3).
+    G-V = 4.769057 - 4.805 = -0.036. 
 
-    (B-V)(B9III) = -0.082 ; standard HD 212097 = 32 Peg 
-    (U-B)(B9III) = -0.258 ; standard HD 212097 = 32 Peg
-    Mv(B9III) = -2.15 ; standard HD 212097 = 32 Peg
+    (B-V)(B9III) = -0.082 ; sec. stan. HD 212097 = 32 Peg 
+    (U-B)(B9III) = -0.258 ; sec. stan. HD 212097 = 32 Peg
+    (G-V)(B9III) = -0.036 ; sec. stan. HD 212097 = 32 Peg
+    Mv(B9III)    =  -2.15 ; sec. stan. HD 212097 = 32 Peg
+    Teff(B9III)  = 11403 K ; sec. stan. HD 212097 = 32 Peg = HR 8522
 
-HD 2011 = 12 Cas
-    B9III: Negueruela24(vsini=125km/s)
+HD 2011 = 12 Cas = HR 93 = HIP 1960 = Gaia DR3 430405961303214464
+    B8V: Palmer68
+    B8/9: 1966UppAn...5d...1O
+   *B9III: Cowley69,Negueruela24(stan;vsini=125km/s)
 
-    plx=3.8102+-0.0612mas(GaiaDR3).
+    plx=3.8102+-0.0612mas(GaiaDR3). V=5.38(HIP),
+    V=5.389350(GaiaDR3/synth),
+    V=5.40(Ljunggren64/N=2;Mermilliod91/N=2) => adopt V=5.389.
+    B-V=-0.01(Ljunggren64/N=2), B-V=-0.002+-0.010(Mermilliod91/N=2),
+    B-V=0.008+-0.003(HIP), B-V=0.010(Crawford63/N=1),
+    U-B=-0.170(Crawford63/N=1;Mermilliod91/N=1), V-Ic=0.03+-0.00(HIP).
+    G=5.351421+-0.002832(GaiaDR3), Bp-Rp=0.069223(GaiaDR3),
+    Bp-G=0.011700(GaiaDR3), G-Rp=0.057524(GaiaDR3).  Reddening:
+    E(B-V)=0.062(Kervella22/STILISM), E(B-V)=0.098+-0.016(Paunzen24)
+    => adopt E(B-V)=0.062 => Av=0.192.  G-V = 5.351421 - 5.389 =
+    -0.038 (GaiaDR3). Teffs: 10715+-49K(Zorec12),
+    10728+-44K(Stassun19/TIC), 10781+-100K(Huang10),
+    13062K(Huson25/but with oddly low metallicity: [Fe/H]=-0.74) =>
+    adopt Teff=10728K. Absolute magnitude (V=5.389, Gaia DR3 plx,
+    Av=-0.192) => Mv=-1.90.
 
-HD 51688 = 40 Gem
-    B9III: Negueruela24(vsini=32km/s)
+    (G-V)(B9III) =  -0.038 ; sec. stan. HD 2011 = 12 Cas = HR 93
+    Teff(B9III)  = 10728 K ; sec. stan. HD 2011 = 12 Cas = HR 93
+    Mv(B9III)    =  -1.90  ; sec. stan. HD 2011 = 12 Cas = HR 93
 
-    plx=3.3391+-0.1198mas(GaiaDR3).
-
-HD 49606 = 33 Gem
-    B9III: Negueruela24(vsini=20km/s).
-
-    plx=4.8578+-0.0796mas(GaiaDR3).
     
 # Deprecated Standard
 
-gam Lyr = 14 Lyr = HR 7178 = HD 176437 = Sulafat (J1858+3241; V=3.2)
+HD 176437 = gam Lyr = HR 7178 = 14 Lyr = Sulafat (J1858+3241; V=3.2)
    *B9II: GarrisonGray94
     B9III: JM53,Garrison67(stan),Cowley69(stan),Houk(stan)
     B9.5II-III: Negueruela24(stan/vsini=74km/s)
@@ -176,6 +223,60 @@ mu Lep = HD 33904 (J0512-1612; V=3.4)
     Search not exhaustive (more in Skiff compendium).  Teffs:
     12390K(Zorec09), 12600K(Adelman87), 12600K(Guthrie84),
     12800K(Smith93) => adopt Teff=12600K.
+
+HD 51688 = 40 Gem = HR 2605 = HIP 33650 = Gaia DR3 3381838527110322560
+    B8V: Cucchairo77(S2/68), Palmer68(B8VpSi)
+    B8IV: Molnar72(He weak)
+    B8III: Osawa59,Cowley69
+    B8II/III: Clausen79
+    B9III: Negueruela24(vsini=32km/s)
+
+    Ubiquitiously classified as B8 subtypes, then Negueruela24 adopts
+    it as B9III standard.  V=6.393(Hauck90), V=6.393+-0.004(ASCC-2.5),
+    V=6.40(HIP,TYC) => adopt V=6.393.
+    B-V=-0.117+-0.029(Mermilliod91/N=3), B-V=-0.111+-0.005(HIP),
+    U-B=-0.467+-0.034(Mermilliod91/N=3), V-Ic=-0.10+-0.01(HIP)
+    plx=3.3391+-0.1198mas(GaiaDR3). G=6.374429 0.002830(GaiaDR3),
+    Bp-Rp=-0.141903(GaiaDR3), Bp-G=-0.061892(GaiaDR3),
+    G-Rp=-0.080011(GaiaDR3). G-V = 6.374429(GaiaDR3) -
+    6.393(ASCC-2.5/Hauck90) = -0.019.
+
+    (G-V)(B9III) = -0.019 ; deprecated standard HD 51688 = 40 Gem = HR 2605 
+
+HD 49606 = 33 Gem = HR 2519 = HIP 32753 = OV Gem = ALS 16564 = BD+16 1298 = 2MASS J06494984+1612105 = WDS J06498+1612A = Gaia DR3 3358075916172059136
+    B7III: Cowley72
+    B7III(He-weak): Cucchiaro79("abnormal")
+    kB8hB7HeB9.5IV-V: GarrisonGray94("((CII))(MnHg:))"
+    B8: HD,1930MNRAS..90..523E,Kyritsis22
+    B8III: Osawa59,Cucchiaro77(S2/68),Jaschek80
+    B9III: Molnar72(He weak),Negueruela24(vsini=20km/s).
+
+    Somewhat poor agreement on type among classifiers, apparently due
+    to it having some spectral irregularies (Garrison type), and
+    multiple authors note that the star appears to be He weak both in
+    UV and visible (note the 'HeB9.5IV-V' from GarrisonGray94).
+    Jaschek80 notes that the stars Q (from UBV photometry) corresponds
+    to B5(!), so its spectra and photometry are abnormal.
+    Negueruela24 B9III standard, but previous studies tended to put it
+    1-2 subtypes hotter, with the GarrisonGray94 classification
+    suggesting that the mix of lines Previous studies tend
+    V=5.870(Mermilliod91/N=2), V=5.87(HIP),
+    B-V=-0.136+-0.008(Mermilliod91/N=6),
+    U-B=-0.507+-0.017(Mermilliod91/N=6).
+    plx=4.8578+-0.0796mas(GaiaDR3).  Teffs: 14400K(Smith93),
+    14824(Vilhu76).  logg=3.85(Smith93), 4.2(Vilhu76).
+    plx=4.8578+-0.0796mas(GaiaDR3), 5.826434+-0.002861(GaiaDR3),
+    Bp-Rp=-0.157154(GaiaDR3), Bp-G=-0.068529(GaiaDR3),
+    G-Rp=-0.088625(GaiaDR3).  G-V = 5.826434 - 5.87 = -0.044.  Teffs:
+    10191K(Abdurro'uf22#1) 14188K(Abdurro'uf22/ASPCAP#2),
+    14360+-292K(Stassun19/TIC), 14400K(Smith93),
+    14470K(Abdurro'uf22#3) => adopt Teff=14360K (note Teff is
+    discrepent compared to other B9III standards).
+
+    (B-V)(B9III) = -0.136 ; deprecated stan. HD 49606 = 33 Gem = HR 2519
+    (U-B)(B9III) = -0.507 ; deprecated stan. HD 49606 = 33 Gem = HR 2519
+    (G-V)(B9III) = -0.044 ; deprecated stan. HD 49606 = 33 Gem = HR 2519
+    Teff(B9III)  = 14360K ; deprecated stan. HD 49606 = 33 Gem = HR 2519
 
 # Other Stars
 

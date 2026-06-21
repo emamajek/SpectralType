@@ -19,24 +19,27 @@ Negueruela24 standards: bet Tau - B7III (vsini=60km/s,Mv=-1.4)
                         20 Tau (=HD 23408) - B7III (vsini=32km/s, Mv=-1.9)
 			HD 1279 - B7III (vsini=29km/s,Mv=-2.0)
 
-(B-V)(B7III) =  -0.129 ; deprecated stan. eta Tau = HD 23630 = Alcyone
-(B-V)(B7III) = -0.13  ; pri. stan. bet Tau = HD 35497 = Elnath
-=> adopt (B-V)(B7III) = -0.13 [updated 2/22/2026] 
+(B-V)(B7III) =  -0.115 ; sec. stan. 20 Tau = HD 23408 = HR 1149 (Pleiad)
+(B-V)(B7III) =   -0.129 ; deprecated stan. eta Tau = HD 23630 = Alcyone
+(B-V)(B7III) =  -0.130 ; pri. stan. bet Tau = HD 35497 = Elnath
+=> adopt (B-V)(B7III) = -0.13 [updated 5/26/2026] 
 
-(U-B)(B7III) =  -0.371 ; deprecated stan. eta Tau = HD 23630 = Alcyone
-(U-B)(B7III) = -0.489 ; pri. stan. bet Tau = HD 35497 = Elnath
-=> adopt (U-B)(B7III) = -0.43: [updated 2/22/2026] 
+(U-B)(B7III) =   -0.371 ; deprecated stan. eta Tau = HD 23630 = Alcyone
+(U-B)(B7III) =  -0.432 ; sec. stan. 20 Tau = HD 23408 = HR 1149 (Pleiad)
+(U-B)(B7III) =  -0.489 ; pri. stan. bet Tau = HD 35497 = Elnath
+=> adopt (U-B)(B7III) = -0.49 [updated 5/26/2026] 
 
 Teff(B7III) =  12570: K ; deprecated stan. eta Tau = HD 23630 = Alcyone (wide scatter)
-Teff(B7III) = 13960 K  ; pri. stan. bet Tau = HD 35497 = Elnath
+Teff(B7III) = 13960 K ; pri. stan. bet Tau = HD 35497 = Elnath
+=> adopt Teff(B7III) = 13960 K [updated 5/26/2026]
 
 logg(B7III) = 3.8 ; pri. stan. bet Tau = HD 35497 = Elnath
 
-Mv(B7III) =  -1.42 ; pri. stan. bet Tau = HD 35497 
-Mv(B7III) =  -1.9  ; standard 20 Tau = HD 23408
+Mv(B7III) =  -1.42 ; pri. stan. bet Tau = HD 35497 = HR 1791
+Mv(B7III) =  -1.85 ; sec. stan. 20 Tau = HD 23408 = HR 1149 (Pleiad)
 Mv(B7III) =  -2.0  ; standard HD 1279
 Mv(B7III) =   -2.72 ; deprecated stan. eta Tau = HD 23603 = Alcyone (Negueruela24 calls B7II-III)
-=> adopt Mv(B7III) = -1.9 [updated 2/22/2026]
+=> adopt Mv(B7III) = -1.65 [updated 5/26/2026]
 
 Rad(B7III) = 4.82 Rsun ; pri. stan. bet Tau = HD 35497 = Elnath 
 
@@ -46,7 +49,7 @@ MK43, Hiltner69, Garrison77, and Houk does not list a B7III standard.
 
 # Primary Standard
 
-bet Tau = HD 35497 = Elnath = HR 1791 = HIP 25428 = 112 Tau = 23 Aur (obsolete) = gam Aur (obsolete) =  	WDS J05263+2836A
+bet Tau = HD 35497 = HR 1791 = HIP 25428 = Elnath = 112 Tau = 23 Aur (obsolete) = gam Aur (obsolete) = WDS J05263+2836A
   B5.5IV: Zorec09
  *B7III: JM53(stan),Osawa59,Palmer68,Abt68(stan),Cowley72(stan),Cuchiaro77(S2/68),MK78(stan),GarrisonGray94,Negueruela24(stan;V=60km/s;Mv=-1.4)
   B7.5III: Williams36
@@ -56,17 +59,18 @@ bet Tau = HD 35497 = Elnath = HR 1791 = HIP 25428 = 112 Tau = 23 Aur (obsolete) 
 
   Chemically peculiar mercury-manganese star (possibly the brightest).
   Not in either GaiaDR2 or DR3, and most accurate parallax so far is
-  the revised Hipparcos value
-  plx=24.36+-0.34mas(vanLeeuwen07). vsini=64+-5km/s(Royer02).
-  V=1.650+-0.008(Mermilliod91/N>29),
-  B-V=-0.130+-0.002(Mermilliod91/N>43),
-  U-B=-0.489+-0.004(Mermilliod91/N>41). Q-method for this giant (which
-  might be a stretch as it is calibrated on dwarfs): (B-V)o=-0.134,
+  the revised Hipparcos value plx=24.36+-0.34mas(vanLeeuwen07), which
+  places it (d=41.05+-0.57pc) inside the Local Bubble with negligible
+  extinction in the visible and near-IR anyway.
+  . vsini=64+-5km/s(Royer02).  V=1.650+-0.008(Mermilliod91/N>29),
+  V=1.65(HIP), B-V=-0.130+-0.002(Mermilliod91/N>43,HIP),
+  U-B=-0.489+-0.004(Mermilliod91/N>41),
+  V-Ic=-0.09+-0.03(HIP). Q-method for this giant (which might be a
+  stretch as it is calibrated on dwarfs): (B-V)o=-0.134,
   (U-B)o=-0.491, E(B-V)=0.004, Av=0.014.  E(B-V)=-0.009(Snow77),
   E(B-V)=0.000(Kervella22/STILISM), E(B-V)=0.005+-0.006(Paunzen24/N=5)
-  => all suggesting E(B-V)~0, consistent with proximity
-  (d=41.05+-0.57pc;plx=24.36+-0.34mas;vanLeeuwen07), inside the Local
-  Bubble. Note that Gordon19 gives an SED best fit E(B-V)=0.043, but
+  => all suggesting E(B-V)~0, consistent with proximity within Local
+  Bubble.  Note that Gordon19 gives an SED best fit E(B-V)=0.043, but
   this seems too high given the star's proximity, and could explain
   why their Teff estimates are systematically higher than other
   estimates.  WDS lists it as occulation binary OCC 115 Aa,Ab
@@ -76,7 +80,7 @@ bet Tau = HD 35497 = Elnath = HR 1791 = HIP 25428 = 112 Tau = 23 Aur (obsolete) 
   companion in our analysis for βTau. However, Adelman et al. (2006)
   find that β Tau is a single lined spectroscopic binary, which
   implies that the companion is significantly fainter than the primary
-  and should not signifi- cantly affect our results."  Teffs:
+  and should not significantly affect our results."  Teffs:
   13410K(Sokolov95), 13600+-100K(Gordon19), 13622K(Heacox79),
   13960K(Zorec09), 14000+-1000K(Gordon19/SED),
   14000+-1100K(Gordon19/estimated) => adopt Teff=13960K.
@@ -86,9 +90,14 @@ bet Tau = HD 35497 = Elnath = HR 1791 = HIP 25428 = 112 Tau = 23 Aur (obsolete) 
   plx=24.36+-0.34mas(HIP2), V=1.650+-0.008(Mermilliod91), Av=0 =>
   Mv=-1.42+-0.03.
 
+  (B-V)(B7III) = -0.130 ; pri. stan. bet Tau = HD 35497 = HR 1791
+  (U-B)(B7III) = -0.489 ; pri. stan. bet Tau = HD 35497 = HR 1791
+  Mv(B7III)    = -1.42  ; pri. stan. bet Tau = HD 35497 = HR 1791
+  Teff(B7III)  = 13960 K ; pri. stan. bet Tau = HD 35497 = HR 1791 
+
 # Secondary Standard
 
-20 Tau = Maia = HD 23408 = HR 1149 = HIP 17573 = Cl Melotte 22 785 = 2MASS J03454960+2422037 = WDS J03458+2422A = Gaia DR3 65283232316451328
+20 Tau = HD 23408 = HR 1149 = HIP 17573 = Maia = Cl Melotte 22 785 = 2MASS J03454960+2422037 = WDS J03458+2422A = Gaia DR3 65283232316451328
   B5: Cannon
   B5III: Chalonge52
   B6.5III: Zorec09
@@ -102,8 +111,35 @@ bet Tau = HD 35497 = Elnath = HR 1791 = HIP 25428 = 112 Tau = 23 Aur (obsolete) 
   Frequently considered B7III through GarrisonGray94 and Negueruela24,
   it is the one B7III in the Pleiades among the Negueruela24
   standards, and the 4th brightest (after Alcyone (B7III), Atlas
-  (B8III), and Electra (B6IIIe)).  Cannon noted Si II,Mg II strong, and
-  MK78 noted "(FeII)".
+  (B8III), and Electra (B6IIIe)).  Cannon noted Si II,Mg II strong,
+  and MK78 noted "(FeII)". V=3.870+-0.009(Mermilliod91/N>27),
+  B-V=-0.070+-0.002(Mermilliod91/N>31),
+  U-B=-0.400+-0.007(Mermilliod91/N>29).  Teffs: 12250K(Torres21),
+  13108+-122K(Stassun19/TIC), 13263K(Heacox79), 13622(Vilhu76),
+  14310+-750K(Zorec09) => adopt Teff=13263K.  logg=3.5(Heacox79). Note
+  that both of the Teff estimates from 1970s reported unusually high
+  metallicities: [Fe/H]=+1.1(Heacox79), [Fe/H]=+0.5(Vilhu76), but I've
+  not seen modern corroboration (note that the bulk Pleiades
+  metallicity is ~solar).  Reddening: Using Q-method, calibrated to
+  dwarfs (but trying it here on a III), on the Mermilliod91 UBV
+  photometry, I get: (B-V)o=-0.122, (U-B)o=-0.437, E(B-V)=0.052,
+  Av=0.170.  Previously published values:
+  E(B-V)=0.036(Kervella22/STILISM), E(B-V)=0.04(Friedemann92),
+  E(B-V)=0.045+-0.016(Paunzen24),
+  E(B-V)=0.0913+-0.0314(Stassun19/TIC), E(B-V)=0.10(Heiles00) => adopt
+  Paunzen24 mean, which is similar to Pleiades mean (E(B-V)=0.04):
+  E(B-V)=0.045+-0.016 => Av=0.140+-0.050 (and fairly consistent with
+  my Q-method estimate). GaiaDR3: plx=7.6713+-0.3104mas(GaiaDR3),
+  G=3.863349+-0.004021(GaiaDR3), Bp-Rp=-0.013768(GaiaDR3),
+  Bp-G=-0.026477(GaiaDR3), G-Rp=0.012709(GaiaDR3).  Absolute
+  magnitude: Mermilliod91 V, Gaia DR3 plx, Av=0.140+-0.050 =>
+  Mv=-1.85+-0.10. G-V = 3.863349 - 3.87 = -0.007.
+
+  (B-V)(B7III) = -0.115 ; sec. stan. 20 Tau = HD 23408 = HR 1149 (Pleiad)
+  (U-B)(B7III) = -0.432 ; sec. stan. 20 Tau = HD 23408 = HR 1149 (Pleiad)
+  (G-V)(B7III) = -0.007 ; sec. stan. 20 Tau = HD 23408 = HR 1149 (Pleiad)
+  Mv(B7III)    = -1.85  ; sec. stan. 20 Tau = HD 23408 = HR 1149 (Pleiad)
+  Teff(B7III)  = 13263 K  ; sec. stan. 20 Tau = HD 23408 = HR 1149 (Pleiad)
 
 # Tertiary Standard
 

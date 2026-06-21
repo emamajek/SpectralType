@@ -18,18 +18,24 @@ GrayNstars standard:     27 Tau (= HR 1178) - B8III
 Negueruela24 standards:  27 Tau (= HD 23850 = HR 1178) - B8III (vsini=230km/s,Mv=-1.9) 
                          zet Dra (= HD 155763) - B8III (vsini=43km/s,Mv=-2.3)
 			 21 Aql (= HD 17961) - B8III (vsini=15km/s,Mv=-1.5)
-			 tau And (= HD 10205) - B8III (vsini=89km/s,Mv=-1.7)
+			 tau And (= HD 10205) - B8III (vsini=89km/s,Mv=-1.7) "main standard star"
 
-Mv(B8III) =  -1.5 ; standard 21 Aql
-Mv(B8III) =  -1.7 ; standard tau And 
-Mv(B8III) =  -1.9 ; standard 27 Tau
-Mv(B8III) =  -2.3 ; standard zet Dra
-=> adopt Mv(B8III) = -1.8 [updated 2/23/2026] 
+(B-V)(B8III) = -0.116 ; sec. stan. tau And = HD 10205 = HR 477
+
+(U-B)(B8III) = -0.410 ; sec. stan. tau And = HD 10205 = HR 477
+
+Mv(B8III) =   -1.5 ; standard 21 Aql
+Mv(B8III) = -1.74 ; sec. stan. tau And = HD 10205 = HR 477
+Mv(B8III) =  -1.9 ; pri. stan. 27 Tau
+Mv(B8III) =   -2.3 ; standard zet Dra
+=> adopt Mv(B8III) = -1.8 [updated 5/23/2026] 
 
 Teff(B8III) = 12500 K ; pri. stan. HD 23850 = 27 Tau = Atlas (adopted)
-=> adopt Teff(B8III) = 12500K [updated 3/16/2025] 
+Teff(B8III) = 12800 K ; sec. stan. tau And = HD 10205 = HR 477
+=> adopt Teff(B8III) = 12650K (logTeff=4.1021) [updated 5/26/2026] 
 
-logg(B8III) = 3.4 ; pri. stan. HD 23850 = 27 Tau = Atlas
+logg(B8II)  =  3.36 ; sec. stan. tau And = HD 10205 = HR 477 (Huang10).
+logg(B8III) =  3.4  ; pri. stan. HD 23850 = 27 Tau = Atlas
 => adopt logg(B8III) = 3.4 [updated 3/16/2026]
 
 # No standard
@@ -58,9 +64,112 @@ HD 23850 = 27 Tau = Atlas = HR 1178 = Cl Melotte 22 2168 = STF 453A = 2MASS J034
   13020K(Zorec09), 13446+-218K(David15) => Teff ~ 12500K.  Gravity:
   logg=2.9(Gebran16), logg=3.38+-0.07(Torres25/primary),
   logg=3.4094(Royer24), logg=3.483+-0.113(David15) => adopt logg=3.4.
+
+  Teff(B8III) = 12500K ; pri. stan. HD 23850 = 27 Tau = Atlas
+  logg(B8III) = 3.4    ; pri. stan. HD 23850 = 27 Tau = Atlas
+
+# Secondary Standard
+
+tau And = HD 10205 = HR 477 = HIP 7818 = 53 And = ALS 16537 = ADS 1311A = WDS J01406+4035A = 2MASS J01403481+4034373 = Gaia DR3 347218835681961344
+  B6III: Cucchiaro77(S2/68)
+  B8: HD,1927MNRAS..86..364E 
+ *B8III: Molnar72,Cowley72,Negueruela24(stan;vsini=89km/s,Mv=-1.7;"main standard star")
+  B8III-IV: Garrison94
+  B8IV: Slettebak54(SB)
+
+  Remarkably good agreement on B8 subtype over the years.
+  Negueruela24 mentions that tau And was classified B8V in
+  JohnsonMorgan53, but I found no sign of it at all in JM53 (either as
+  standard or otherwise), and am wondering if he confused it with iota
+  And, which is one of four of JM53's B8V standards (see entry on iota
+  And below).  V=4.949+-0.009(Mermilliod91/N=10),
+  B-V=-0.093+-0.007(Mermilliod91/N=11),
+  U-B=-0.393+-0.015(Mermillioid91/N=9).  Dereddening via Q-method =>
+  (B-V)o=-0.116, (U-B)o=-0.409, E(B-V)=0.023, Av=0.074.
+  Reddenings: E(B-V)=0.00(Heiles00),
+  E(B-V)=0.02(Friedemann92),
+  E(B-V)=0.0222+-0.0094(Stassun19/TIC),
+  E(B-V)=0.023(EEM/Q-method),
+  E(B-V)=0.023(Kervella22/STILISM), 
+  E(B-V)=0.027+-0.012(Paunze24=>hence Av~0.084mag) => adopt
+  STILISM value (identical to what I get): E(B-V)=0.023. Note the Schlegel98 max E(B-V)
+  in this direction is E(B-V)max=0.0678(Martin24), which puts an upper limit. 
+  Adopting E(B-V)=0.027 => (B-V)=-0.093 => (B-V)o=-0.116,
+  (U-B)=-0.393, E(U-B)/E(B-V)=0.72 => E(U-B)=0.017 =>
+  (U-B)o=-0.410. plx=4.7804+-0.1304mas(GaiaDR3),
+  G=4.926168+-0.002946(GaiaDR3), Bp-Rp=-0.084569(GaiaDR3),
+  Bp-G=-0.035625(GaiaDR3), G-Rp=-0.048944(GaiaDR3).  Mv=-1.74.  Teffs:
+  12680+-100K(Huang10), 12800+-81K(Stassun19), 13026+-137(Paunzen05)
+  => adopt Teff=12800K.  logg=3.357+-0.020(Huang10).
+
+  (B-V)(B8III) = -0.116 ; sec. stan. tau And = HD 10205 = HR 477
+  (U-B)(B8III) = -0.410 ; sec. stan. tau And = HD 10205 = HR 477
+  Mv(B8III)    = -1.74  ; sec. stan. tau And = HD 10205 = HR 477
+  Teff(B8III)  = 12800K ; sec. stan. tau And = HD 10205 = HR 477
   
 
+# Deprecated Standard
+
+zet Dra = HD 155763 = HR 6396 = HIP 83895 = Aldhibah = 22 Dra = BD+65 1170 = STA 1AB = ALS 16385 = 2MASS J17084719+6542528 = WDS J17088+6543AB = Gaia DR3 1632499034644723968
+  B5IV: Chalonge52(BCDtype)
+  B5/7: Kyritsis24
+  B6III: Slettebak63,Lesh68,Underhill77,Rountree91(IUE)
+  B6IV: Zorec09(BCD)
+  B7III: Maury1897(:, lum class from Skiff),Palmer68,Molnar72,Cucchiaro77(S2/68), 
+  B8pec: MK43 
+  B8III: Negeuruela24(stan)
+
+  Negeuruela24 adopts it as B8III standard, but literally none of the
+  previous ~10 classifications since MK43 even had it in B8 subtype
+  (notably expert classifiers who did numerous B stars, like Lesh68,
+  Cuchiarro77(UV). Although it was recently considered a standard
+  (Negeuruela24), I omit it as one given its peculiarities, and the
+  fact that several classifiers for the past 80 years had it as B6III
+  or B7III.  The star is peculiar enough that it warranted its own
+  section in the MK43 atlas: "From the lines of He I, Mg II, and Si II
+  the spectral type would be judged to be B8. The Balmer lines are
+  very peculiar; they are weak but do not have the sharp–edged
+  appearance associated with high luminosity. A superficial
+  examination might indicate that the star belongs in luminosity class
+  II at B8. A comparison with the A0 Ib star η Leo shows, however,
+  that the shape of the Balmer lines–in particular Hδand Hϵis not
+  similar to a high–luminosity star; the contours of the H lines are
+  more nearly like those in an early B–type dwarf. The trigonometric
+  parallax of ζ Dra is 0".039 ± 7 (two modern determinations). The
+  absolute magnitude is probably fainter than zero, and it is likely
+  that the star lies somewhat below the main sequence."
+  plx=7.8274+-0.5476mas(GaiaDR3)
+
 # Other Stars
+
+21 Aql = HD 179761 = V1288 Aql = HR 7287 = HIP 94477 = ADS 12182A = BD+02 3824 = 2MASS J19134270+0217372 = WDS J19137+0218A = Gaia DR3 4267953429183603200
+  B5/7: Kyritsis22
+  B7: Sargent62
+  B7III: Palmer68
+  B7V: 1965AnTok...9..123O(Osawa?)
+  B8: Bertaud67
+  B8II/III(Hg?): Cowley72
+  B8II/III: Grenier99
+ *B8III: 1955MmMtS..12....1W,Cucchiaro77(S2/68),Negeuruela24(stan,vsini=15km/s,Mv=-1.5,main low vsini stan)
+  B8IV/V: Zorec09(BCDtype)
+  BpSiHeFe CII: Babcock58(Mn absent)
+  ApSiTiCr(III): 1990BAICz..41..345Z("He strong, Balmer to H18" in Skiff)
+
+  Negeurueal24 adopted 21 Aql as the "main standard" with low projected rotational velocity (with tau And as the other, high vsini standard). 
+  plx=4.7730+-0.1052mas(GaiaDR3)
+
+HD 222173 = iot And = HR 8965 = HR 8965 = Rasalnaqa 
+  B8V: JM53(stan),Crawford58,Cowley72(stan),Cannon(B8)
+  B8IIIs: GarrisonGray94
+
+  GarrisonGray94 switched it to giant, but previouly dwarf since JM53.
+  So no longer a good dwarf standard. SB. Jaschek98 lists Mv=-1.5, so
+  much brighter than the other B8 dwarfs. Negueruela24 has a passage
+  onstensibly about tau And, but it seems likely to be about iot And
+  since tau And is not a JM53 standard (but iot And was): "Finally,
+  the Johnson & Morgan (1953) B8 V standard τ And (HD 10205) is also a
+  giant with moderate rotational velocity that can be used instead of
+  27 Tau." Coincidently, bot iot And and tau And have B8 subtypes.
 
 HD 173300 = phi Sgr = HR 7039 = HIP 92041
   B7V: Cucchiaro80(S2/68)
