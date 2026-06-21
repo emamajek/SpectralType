@@ -197,17 +197,21 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 (G-V)(G6V) =  -0.180 ; HD_172051_ G6V plx=76.7405 mas (GaiaDR3)
 (G-V)(G6V) =  -0.179 ; HD_177565_ G6V plx=58.9860 mas (GaiaDR3)
 (G-V)(G6V) =  -0.175 ; HD_102438_ G6V plx=56.3626 mas (GaiaDR3)
+(G-V)(G6V) = -0.175 ; exemplar HD 28255B = GJ 9155B ([Fe/H]=+0.09) (GaiaDR3)
 (G-V)(G6V) =  -0.172 ; HD_128400_ G6V plx=49.3686 mas (GaiaDR3)
 (G-V)(G6V) =  -0.172 ; HD_70642_ G6VCN+0.5 plx=34.1478 mas (GaiaDR3)
 (G-V)(G6V) =  -0.168 ; HD_197214_ G6V plx=46.0511 mas (GaiaDR3)
-(G-V)(G6V) = -0.167 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5600K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(G6V) = -0.165 ; exemplar HD 171067 = HIP 90864 ([Fe/H]=-0.03)(GaiaDR3)
+(G-V)(G6V) = -0.164 ; trend for SIMBAD FGK Vs d<50pc w/Soubiran22 Teffs for Teff=5620K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(G6V) = -0.164 ; exemplar HD 54371 = HIP 54371 ([Fe/H]=+0.07) (GaiaDR3)
+(G-V)(G6V) = -0.163 ; exemplar HD 18803 = 51 Ari ([Fe/H]=+0.14) (GaiaDR3)
 (G-V)(G6V) =  -0.163 ; HD_4308_ G6VFe-0.9 plx=45.3559 mas (GaiaDR3)
 (G-V)(G6V) =  -0.160 ; HD_122742_ G6V plx=66.1469 mas (GaiaDR3)
+(G-V)(G6V) = -0.158 ; exemplar HD 216777 = HIP 113231 ([Fe/H]=-0.39)(GaiaDR3)
 (G-V)(G6V) =  -0.151 ; HD_87359_ G6V plx=31.9473 mas (GaiaDR3)
 (G-V)(G6V) =  -0.146 ; HD_134330_ G6V plx=31.8293 mas (GaiaDR3)
-(G-V)(G6V) = -0.142 ; exemplar HD_54371_ G6V plx=39.3515 mas (GaiaDR3)
 (G-V)(G6V) =  -0.138 ; HD_201989_ G6V plx=33.5137 mas (GaiaDR3)
-=> adopt (G-V)(G6V) = -0.167 [updated 5/16/2024] (GaiaDR3) 
+=> adopt (G-V)(G6V) = -0.165 [updated 3/28/2026] (GaiaDR3) 
 
 (Bp-Rp)(G6V) = 0.8386  ; HD_216777
 (Bp-Rp)(G6V) = 0.8552  ; HD_28255_B
@@ -245,93 +249,101 @@ Strassmeier90 stan: 61 Vir (HR 5019)  - G6V
 (G-Rp)(G6V) =  0.511   ; color trend for B-V=0.70
 => adopt (G-Rp)(G6V) = 0.48 [updated 11/15/2020]
 
-Teff(G6V) =  5434 K ; deprecated stan. 82 Eri
-Teff(G6V) =  5476 K ; Boyajian12
-Teff(G6V) =  5477 K ; GrayCorbally94 interp. (G5V-G8V)
-Teff(G6V) =  5500 K ; Bessell79
-Teff(G6V) =  5510 K ; Habets81
-Teff(G6V) =  5530 K ; GrayCorbally09 interp. (G5V-G8V) 
-Teff(G6V) = 5550 K ; mean photometric Teff
-Teff(G6V) = 5582 K ; interp for B-V=0.70 from G5V-G8V trend
-Teff(G6V) = 5586 K ; Teff from smoothed SpT(Teff) trend
-Teff(G6V) = 5599 K ; Casagrande10 calib for B-V=0.70,[Fe/H]=0,logg=4.4
-Teff(G6V) = 5605 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for B-V=0.70
-Teff(G6V) = 5625 K ; median among 339 published Teffs for G6V stars
-Teff(G6V) = 5627 K ; exemplar HD 216777
-Teff(G6V) = 5643 K ; exemplar HD 171067 (solar metallicity)
-Teff(G6V) = 5646 K ; exemplar HD 54371
-Teff(G6V) = 5656 K ; exemplar HD 18803
-Teff(G6V) = 5658 K ; exemplar HD 28255B 
-=> adopt Teff(G6V) = 5600 K (logT = 3.748) [last updated 8/29/2019]
+Teff(G6V) =   5434 K ; deprecated stan. 82 Eri
+Teff(G6V) =   5476 K ; Boyajian12
+Teff(G6V) =   5477 K ; GrayCorbally94 interp. (G5V-G8V)
+Teff(G6V) =   5500 K ; Bessell79
+Teff(G6V) =   5510 K ; Habets81
+Teff(G6V) =   5530 K ; GrayCorbally09 interp. (G5V-G8V) 
+Teff(G6V) = 5608 K ; Casagrande10 calib for B-V=0.697,[Fe/H]=0,logg=4.4
+Teff(G6V) = 5611 K ; interp for B-V=0.697 from G5V-G8V trend
+Teff(G6V) =  5613 K ; exemplar HD 54371 = HIP 54371 ([Fe/H]=+0.07)
+Teff(G6V) = 5615 K ; Teff for d<30pc [Fe/H]=+-0.1 dex dwarfs from Hinkel17 for B-V=0.697
+Teff(G6V) = 5622 K ; trend for Gray03/06 G6Vs w/Soubiran [Fe/H] vs Teff for [Fe/H] 
+Teff(G6V) =  5625 K ; median among 339 published Teffs for G6V stars
+Teff(G6V) =  5624 K ; exemplar HD 171067 = HIP 90864 ([Fe/H]=-0.03)
+Teff(G6V) =  5642 K ; exemplar HD 216777 = HIP 113231 ([Fe/H]=-0.39)
+Teff(G6V) =  5644 K ; exemplar HD 18803 = 51 Ari ([Fe/H]=+0.14) 
+Teff(G6V) =  5658 K ; exemplar HD 28255B = GJ 9155B ([Fe/H]=+0.09)
+=> adopt Teff(G6V) = 5620 K (logT = 3.7497) [updated 3/30/2026]
+[EEM 3/30/2026:  trend among G6V exemplars: Teff(G6V) = 5636K - 2.6K*[Fe/H] (rms=20K;N=5)
+trend among Gray03/06 G6Vs(Soubiran Teffs): Teff(G6V) = 5622K + 45K*[Fe/H] (rms=48K;N=20)
 
-BCv(G6V) =  -0.50 mag ; Habets81
-BCv(G6V) = -0.124 mag ; Bertone04(ATLAS,Teff=5600K)
-BCv(G6V) = -0.120 mag ; EEM fit to Casagrande06/08/10 (Teff=5600K)
-BCv(G6V) = -0.119 mag ; Flower96(Teff=5600K)
-BCv(G6V) = -0.116 mag ; Masana06(Teff=5600K)
-BCv(G3V) = -0.112 mag ; Casagrande18(Teff=5600K,logg=4.5)
-BCv(G6V) = -0.112 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5600K)
-=> adopt BCv(G6V) = -0.115 mag [last updated 8/29/2019, on scale where BCv(5772K)=-0.085]
+BCv(G6V) =   -0.50 mag ; Habets81
+BCv(G6V) =  -0.128 mag ; Balona94(Teff=5620K)
+BCv(G6V) =  -0.119 mag ; Bertone04(ATLAS,Teff=5620K)
+BCv(G6V) =  -0.115 mag ; Flower96(Teff=5620K)
+BCv(G3V) =  -0.115 mag ; Casagrande18(Teff=5620K,logg=4.5)
+BCv(G6V) =  -0.112 mag ; Masana06(Teff=5620K)
+BCv(G6V) =  -0.109 mag ; EEM fit to Casagrande06/08/10(Teff=5620K)
+BCv(G6V) =  -0.109 mag ; Bessell98(ATLAS9,logg=4.5,Teff=5620K)
+=> adopt BCv(G6V) = -0.115 mag [updated 3/28/2026; on scale where BCv(5772K)=-0.085]
 
-M_G(G6V) = 4.57413  ; HD_61994_ plx=34.3507mas G6V  (GaiaDR3)
-M_G(G6V) = 4.67122  ; HD_4308_ plx=45.3559mas G6VFe-0.9  (GaiaDR3)
-M_G(G6V) = 4.6744   ; HD_70642_ plx=34.1478mas G6VCN+0.5  (GaiaDR3)
-M_G(G6V) = 4.72843  ; HD_117043_ plx=47.8881mas G6V  (GaiaDR3)
-M_G(G6V) = 4.83454  ; HD_177565_ plx=58.9860mas G6V  (GaiaDR3)
-M_G(G6V) = 4.83734  ; HD_201989_ plx=33.5137mas G6V  (GaiaDR3)
-M_G(G6V) = 4.8502   ; HD_87359_ plx=31.9473mas G6V  (GaiaDR3)
-M_G(G6V) = 4.89383  ; exemplar HD_54371_ plx=39.3515mas G6V  (GaiaDR3)
-M_G(G6V) = 4.95339  ; exemplar HD_171067_ plx=38.3448mas G6V  (GaiaDR3)
-M_G(G6V) = 5.05962  ; HD_102438_ plx=56.3626mas G6V  (GaiaDR3)
-M_G(G6V) = 5.05969  ; HD_128400_ plx=49.3686mas G6V  (GaiaDR3)
-M_G(G6V) = 5.10441  ; HD_172051_ plx=76.7405mas G6V  (GaiaDR3)
-M_G(G6V) = 5.10778  ; HD_197214_ plx=46.0511mas G6V  (GaiaDR3)
-M_G(G6V) = 5.11374  ; HD_224156_ plx=32.7061mas G6V  (GaiaDR3)
-M_G(G6V) = 5.15822  ; HD_20794_ plx=165.5242mas G6V  (GaiaDR3)
-M_G(G6V) = 5.19043  ; HD_169822_ plx=32.1804mas G6V  (GaiaDR3)
-M_G(G6V) = 5.20991  ; HD_122742_ plx=66.1469mas G6V  (GaiaDR3)
-M_G(G6V) = 5.23753  ; HD_157830_ plx=32.1179mas G6V  (GaiaDR3)
-M_G(G6V) =  5.35738  ; HD_178450_ plx=36.9593mas G6V  (GaiaDR3)
-[EEM 8/12/2023: support for M_G(G6V) ~ 5.00]
+M_G(G6V) =   4.57 ; HD_61994_ plx=34.3507mas G6V  (GaiaDR3)
+M_G(G6V) =   4.67 ; HD_4308_ plx=45.3559mas G6VFe-0.9  (GaiaDR3)
+M_G(G6V) =   4.67 ; HD_70642_ plx=34.1478mas G6VCN+0.5  (GaiaDR3)
+M_G(G6V) =   4.73 ; HD_117043_ plx=47.8881mas G6V  (GaiaDR3)
+M_G(G6V) =   4.83 ; HD_177565_ plx=58.9860mas G6V  (GaiaDR3)
+M_G(G6V) =  4.825 ; exemplar HD 18803 = 51 Ari ([Fe/H]=+0.14) (GaiaDR3)
+M_G(G6V) =   4.84 ; HD_201989_ plx=33.5137mas G6V  (GaiaDR3)
+M_G(G6V) =   4.85 ; HD_87359_ plx=31.9473mas G6V  (GaiaDR3)
+M_G(G6V) =  4.889 ; exemplar HD 28255B = GJ 9155B ([Fe/H]=+0.09) (GaiaDR3)
+M_G(G6V) =  4.894 ; exemplar HD 54371 = HIP 54371 ([Fe/H]=+0.07) (GaiaDR3)
+M_G(G6V) = 4.915 ; Mv=5.08, G-V=-0.165 (3/28/2026) 
+M_G(G6V) =  4.953 ; exemplar HD 171067 = HIP 90864 ([Fe/H]=-0.03)(GaiaDR3)
+M_G(G6V) =   5.06 ; HD_102438_ plx=56.3626mas G6V  (GaiaDR3)
+M_G(G6V) =   5.06 ; HD_128400_ plx=49.3686mas G6V  (GaiaDR3)
+M_G(G6V) =  5.069 ; exemplar HD 216777 = HIP 113231 ([Fe/H]=-0.39)(GaiaDR3)
+M_G(G6V) =   5.10 ; HD_172051_ plx=76.7405mas G6V  (GaiaDR3)
+M_G(G6V) =   5.10 ; HD_197214_ plx=46.0511mas G6V  (GaiaDR3)
+M_G(G6V) =   5.11 ; HD_224156_ plx=32.7061mas G6V  (GaiaDR3)
+M_G(G6V) =   5.16 ; HD_20794_ plx=165.5242mas G6V  (GaiaDR3)
+M_G(G6V) =   5.19 ; HD_169822_ plx=32.1804mas G6V  (GaiaDR3)
+M_G(G6V) =   5.21 ; HD_122742_ plx=66.1469mas G6V  (GaiaDR3)
+M_G(G6V) =   5.24 ; HD_157830_ plx=32.1179mas G6V  (GaiaDR3)
+M_G(G6V) =   5.36 ; HD_178450_ plx=36.9593mas G6V  (GaiaDR3)
+=> adopt M_G(G6V) = 4.915 [updated 3/30/2026] (Mv=5.08, G-V=-0.165) (GaiaDR3) 
+[EEM 3/28/2026: trend for exemplars: M_G(G6V) = 4.916 - 0.4175*[Fe/H] (rms=0.025mag;N=5)]
 
-Mv(G6V)  =   5.49 mag ; Habets81
-Mv(G6V)  =  5.35 mag ; deprecated stan. 82 Eri
-Mv(G6V)  =   5.3  mag ; GrayCorbally09
-Mv(G6V)  =  5.23 mag ; median XHIP G6V d<20pc 
-Mv(G6V)  =  5.20 mag ; median SIMBAD G6V d<25pc (N=7)
-Mv(G6V)  =  5.18 mag ; exemplar HD 216777
-Mv(G6V)  =  5.14 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=0.700
-Mv(G6V)  =  5.12 mag ; exemplar HD 171067
-Mv(G6V)  =  5.11 mag ; B-V=0.700 => EEM fit to SIMBAD dwarfs d<25pc 
-Mv(G6V)  =  5.10 mag ; B-V=0.700 => Mv(Wright05)
-Mv(G6V)  = 5.09 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.70
-Mv(G6V)  =  5.09 mag ; exemplar HD 54371
-Mv(G6V)  =  5.05 mag ; exemplar HD 18803
-Mv(G6V)  =   4.68 mag ; Wegner07
-=> adopt Mv(G6V)   = 5.10  mag [updated 9/26/2019]
-=> adopt M_G(G6V)  = 4.914 mag [updated 12/10/2020] (Mv=5.10, G-V=-0.186)
-=> adopt M_Ks(G6V) = 3.409 mag [updated 12/30/2020] (Mv=5.10, V-Ks=1.691)
+Mv(G6V) =    5.49 mag ; Habets81
+Mv(G6V) =    5.35 mag ; deprecated stan. 82 Eri
+Mv(G6V) =    5.3  mag ; GrayCorbally09
+Mv(G6V) =    5.23 mag ; median XHIP G6V d<20pc
+Mv(G6V) =   5.23 mag ; exemplar HD 216777 = HIP 113231 ([Fe/H]=-0.39)(GaiaDR3)
+Mv(G6V) =   5.20 mag ; median SIMBAD G6V d<25pc (N=7)
+Mv(G6V) =   5.14 mag ; CATSUP -0.1<[Fe/H]<0.1 d<30pc for B-V=0.700
+Mv(G6V) =   5.12 mag ; exemplar HD 171067 = HIP 90864 ([Fe/H]=-0.03)(GaiaDR3)
+Mv(G6V) =    5.10 mag ; B-V=0.697 => EEM fit to SIMBAD dwarfs d<25pc 
+Mv(G6V) =    5.08 mag ; B-V=0.697 => Mv(Wright05)
+Mv(G6V) =  5.08 mag ; M_G=4.915, G-V=-0.165 (3/28/2026) 
+Mv(G6V) =   5.06 mag ; exemplar HD 28255B = GJ 9155B ([Fe/H]=+0.09) (GaiaDR3)
+Mv(G6V) =   5.06 mag ; exemplar HD 54371 = HIP 54371 ([Fe/H]=+0.07) (GaiaDR3)
+Mv(G6V) =   5.05 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.697
+Mv(G6V) =   4.99 mag ; exemplar HD 18803 = 51 Ari ([Fe/H]=+0.14) (GaiaDR3)
+Mv(G6V) =    4.68 mag ; Wegner07
+=> adopt Mv(G6V) = 5.08 mag [updated 3/28/2026] (G-V=-0.165, M_G=4.915) 
+[EEM 3/28/2026: trend for exemplars: Mv(G6V) = 5.082 - 0.405*[Fe/H] (rms=0.027mag;N=5)]
 
-logL(G6V) = -0.098 dex ; Mv=5.1, BCv=-0.115 => Mbol = 4.985
-=> adopt logL(G6V) = -0.098 dex [last updated 9/26/2019]
-=> adopt Mbol(G6V) =  4.985 mag [last updated 9/26/2019]
+logL(G6V) = -0.090 dex ; Mv=5.08, BCv=-0.115 => Mbol = 4.965
+=> adopt logL(G6V) = -0.090 dex [updated 3/28/2026]
+=> adopt Mbol(G6V) =  4.965 mag [updated 3/28/2026] 
 
-Rad(G6V) = 0.993 Rsun ; Challouf14 calibration for Mv=5.10, M_Ks=3.409 
-Rad(G6V) = 0.949 Rsun ; Teff=5600K, logL=-0.098
-=> adopt Rad(G6V) = 0.949 Rsun [updated 9/26/2019]
+Rad(G6V) =  0.993 Rsun ; Challouf14 calibration for Mv=5.10, M_Ks=3.409 
+Rad(G6V) = 0.951 Rsun ; Teff=5620K, logL=-0.090
+=> adopt Rad(G6V) = 0.951 Rsun [updated 3/28/2026]
 
-Mass(G6V) =  0.969 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.1)
-Mass(G6V) =  0.966 Msun ; Eker15 ML calibration for logL=-0.098
-Mass(G6V) = 0.964 Msun ; Eker18 ML calibration for logL=-0.098
-Mass(G6V) = 0.963 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.098)
-Mass(G6V) = 0.955 Msun ; (M/Msun)=(L/Lsun)^0.2033 (G2V-K5V fit 9/24/2024) for logL=-0.098
-Mass(G6V) = 0.954 Msun ; Fernandes21 calibration for logL=-0.098
+Mass(G6V) =  0.971 Msun ; EEM Mv vs. Mass fit for binaries (Mv=5.08)
+Mass(G6V) =  0.970 Msun ; Eker15 ML calibration for logL=-0.090
+Mass(G6V) = 0.967 Msun ; Eker18 ML calibration for logL=-0.090
+Mass(G6V) = 0.966 Msun ; EEM logL vs. Mass fit for binaries (logL=-0.090)
+Mass(G6V) = 0.959 Msun ; (M/Msun)=(L/Lsun)^0.2033 (G2V-K5V fit 9/24/2024) for logL=-0.090
+Mass(G6V) = 0.957 Msun ; Fernandes21 calibration for logL=-0.090
 Mass(G6V) =  0.879 Msun ; Habets81
-=> adopt Mass(G6V) = 0.955 Msun [updated 9/24/2024]
+=> adopt Mass(G6V) = 0.959 Msun [updated 3/28/2026] 
 
-logg(G6V) = 4.437 ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5600K (see G0V.txt)
-logg(G6V) = 4.47  ; M=0.97Msun, R=0.949Rsun
-=> adopt logg(G6V) = 4.45 [updated 9/15/2023]
+logg(G6V) =   4.434 ; fit Soubiran22/PASTEL logg for -0.1<[Fe/H]<+0.1 d<50pc dwarfs for Teff=5620K (see G0V.txt)
+logg(G6V) =  4.463 ; M=0.959Msun, R=0.949Rsun
+=> adopt logg(G6V) = 4.46 [updated 3/28/2026]
 
 # NO standards
 
@@ -371,10 +383,11 @@ HD 171067 = GJ 1229 = HIP 90864 = BD+13 3677 = SPOCS 805 = 2MASS J18321046+13441
   GaiaDR3: plx=38.3448+-0.0178mas(GaiaDR3),
   G=7.034855+-0.002761(GaiaDR3), Bp-Rp=0.849056(GaiaDR3),
   Bp-Rp=0.339420(GaiaDR3), G-Rp=0.509636(GaiaDR3).  Green23 reports
-  Porb=1.6098dd, which seems unusually short as logR'HK=-4.92
+  Porb=1.6098d, which seems unusually short as logR'HK=-4.92
   (inferring rotation period similar to Sun of ~28d), however no
   planets previously reported.
 
+   Teff(G6V) = 5624 K ; exemplar HD 171067 = HIP 90864 ([Fe/H]=-0.03)
        G =  7.0349+-0.0028 ; exemplar HD 171067 = HIP 90864 ([Fe/H]=-0.03) (GaiaDR3)
   (V-Ic)(G6V) =   0.750 +- 0.010 ; exemplar HD 171067 = HIP 90864 ([Fe/H]=-0.03)
  (Bp-Rp)(G6V) =  0.8491 ; exemplar HD 171067 = HIP 90864 ([Fe/H]=-0.03) (GaiaDR3)
@@ -437,6 +450,7 @@ HD 28255B = GJ 9155B = HR 1405B = CPD-57 6598 = SPOCS 210 = 2MASS J04241158-5704
   del(V)=0.533+-0.011(ASCC-2.5), GaiaDR3:
   plx(B)=36.3349+-0.0168mas(GaiaDR3), G(B)=7.087165 0.002767(GaiaDR3).
 
+   Teff(G6V) = 5658 K ; exemplar HD 28255B = GJ 9155B ([Fe/H]=+0.09)
        G =  7.0872+-0.0028 ; exemplar HD 28255B = GJ 9155B ([Fe/H]=+0.09) (GaiaDR3)
  (Bp-Rp)(G6V) =  0.8566 ; exemplar HD 28255B = GJ 9155B ([Fe/H]=+0.09) (GaiaDR3)
   (Bp-G)(G6V) =  0.3400 ; exemplar HD 28255B = GJ 9155B ([Fe/H]=+0.09) (GaiaDR3)
@@ -477,6 +491,7 @@ HD 216777 = HIP 113231 = GJ 878.1A = GJ 9803A = LHS 3874 = L 934-49 = NLTT 55287
   Mv=5.18. Soubiran22/PASTEL mean parameters: Teff=5642+-15K(N=15),
   [Fe/H]=-0.39+-0.03(N=9), logg=4.26+-0.16(N=9).
 
+   Teff(G6V) = 5642 K ; exemplar HD 216777 = HIP 113231 ([Fe/H]=-0.39) (GaiaDR3)
        G =  7.8517+-0.0028 ; exemplar HD 216777 = HIP 113231 ([Fe/H]=-0.39) (GaiaDR3)
   (V-Rc)(G6V) =   0.350 +- 0.010 ; exemplar HD 216777 = HIP 113231 ([Fe/H]=-0.39)
   (R-Ic)(G6V) =   0.355 +- 0.010 ; exemplar HD 216777 = HIP 113231 ([Fe/H]=-0.39)
@@ -526,6 +541,7 @@ HD 54371 = HIP 54371 = NLTT 17464 = BD+25 1594 = SAO 79121 = HO 519A = STT 4083A
   [Fe/H]=+0.07+-0.03. Mv=5.09. GaiaDR3:
   plx=39.3515+-0.1367mas(GaiaDR3),
 
+  Teff(G6V) = 5613 K ; exemplar HD 54371 = HIP 54371 ([Fe/H]=+0.07)
        G =  6.9190+-0.0028 ; exemplar HD 54371 = HIP 54371 ([Fe/H]=+0.07)  (GaiaDR3)
   (V-Rc)(G6V) =   0.391 +- 0.010 ; exemplar HD 54371 = HIP 54371 ([Fe/H]=+0.07) 
   (R-Ic)(G6V) =   0.369 +- 0.010 ; exemplar HD 54371 = HIP 54371 ([Fe/H]=+0.07) 
@@ -573,6 +589,7 @@ HD 18803 = 51 Ari = GJ 120.2 = HIP 14150 = NLTT 9664 = SPOCS 148 = 2MASS J030225
   Teff=5644+-15K(N=12), [Fe/H]=+0.14+-0.02(N=8),
   logg=4.46+-0.04(N=8). plx=47.181+-0.0219mas(GaiaDR3).
 
+    Teff(G6V) = 5644 K ; exemplar HD 18803 = 51 Ari ([Fe/H]=+0.14) 
        G =  6.4558+-0.0028 ; exemplar HD 18803 = 51 Ari ([Fe/H]=+0.14) (GaiaDR3)
   (V-Rc)(G6V) =   0.380 +- 0.010 ; exemplar HD 18803 = 51 Ari ([Fe/H]=+0.14)   
   (R-Ic)(G6V) =   0.370 +- 0.010 ; exemplar HD 18803 = 51 Ari ([Fe/H]=+0.14)   
@@ -634,7 +651,7 @@ Skiff08 HD & HR stars with multiple G6V classifications: HD 18803,
 54371, 101501, 216777. None have very strong G6V pedigrees to warrant
 being a candidate standard.
 
-Morgan65 classified two Hyads as G6V: HD 27989 & 28099.
+Morgan65 classified two Hyads as G6V: HD 27989 & 28099. Neither is useful as a standard.
 
 HD 27989 = BD+18 636 = V1233 Tau 
    G4V: Wilson53,Christy69
@@ -694,5 +711,29 @@ HD 26913 = V891 Tau (BY Dra system)
 <V-Vt>(G6V)  =-0.077 (+-0.002 sem, +-0.018 stdev; HIP d<75pc S/N>8 N=141) 
 <B-K>(G6V)   = 2.423 (+-0.010 sem, +-0.098 stdev; HIP d<75pc S/N>8 N=141)
 
+# Nearby Gray03/06 stars classified G6V w/Soubiran22 mean Teff, logg, [Fe/H] values
 
+ID           Teff  logg  [Fe/H] 
+HIP_31540_   5664  4.35  0.23
+HIP_46324_   5685  4.46  0.19
+HIP_40952_   5672  4.41  0.18
+HIP_14150_   5644  4.46  0.14
+HIP_74271_   5616  4.47  0.09
+HIP_93858_   5633  4.38  0.08
+HIP_89844_   5571  4.10  0.07
+HIP_34567_   5613  4.35  0.07
+HIP_20552_   5885  4.45  0.05
+HIP_59315_   5589  4.53  0.00
+HIP_68682_   5511  4.41  -0.01
+HIP_97358_   5623  4.50  -0.03
+HIP_90864_   5624  4.48  -0.03
+HIP_19855_   5636  4.51  -0.03
+HIP_90355_   5559  4.48  -0.14
+HIP_3979_    5684  4.53  -0.21
+HIP_85425_   5563  4.51  -0.23
+HIP_102264_  5602  4.44  -0.23
+HIP_91438_   5630  4.50  -0.25
+HIP_57507_   5593  4.48  -0.26
+HIP_3497_    5694  4.40  -0.33
 
+trend Teff(G6V) = 5622K + 45K*[Fe/H] (rms=48K;N=20)
