@@ -1,0 +1,516 @@
+# Table of published reddening and extinction relations for stellar photometry
+# Eric Mamajek - last updated 8/8/2026
+
+(B-V)         = (1.331+-0.011)(b-y) - (0.093+-0.009) ; He95 ? (need to check)
+(B-V)o        = 0.277*Q - 0.045 ; Heintze73
+(B-V)o        = 0.308*Q ; Crawford76 ("for stars with spectral types earlier than A0V"
+(B-V)o        = 0.332*Q ; Johnson58
+(U-B)         = (0.658+-0.006)(u-b) - (0.925+-0.008) ; He95 ? (need to check)
+A_[3.6]       = (0.037+-0.003)*Av  ; WangChen19 (Spitzer [3.6])
+A_[4.5]       = (0.026+-0.003)*Av  ; WangChen19 (Spitzer [4.5])
+A_[5.8]       = (0.019+-0.003)*Av  ; WangChen19 (Spitzer [5.8])
+A_[8.0]       = (0.025+-0.003)*Av  ; WangChen19 (Spitzer [8.0])
+A_15          = (0.15+-0.07)*A_Ks ; Flaherty07 (Jiang et al. 2006)
+A_24          = (0.44+-0.02)*A_Ks ; Flaherty07 (Serpens)
+A_24          = (0.52+-0.03)*A_Ks ; Flaherty07 (NGC2068/71)
+A_3.6         = (0.50+-0.01)*A_Ks ; Nishiyama09 Galactic Cen. (Spitzer)
+A_3.6         = (0.632+-0.005)*A_Ks ; Flaherty07 median for 5 clouds
+A_4.5         = (0.39+-0.01)*A_Ks ; Nishiyama09 Galactic Cen. (Spitzer)
+A_4.5         = (0.53+-0.01)*A_Ks ; Flaherty07 median for 5 clouds 
+A_5.8         = (0.36+-0.01)*A_Ks ; Nishiyama09 Galactic Cen. (Spitzer)
+A_5.8         = (0.49+-0.01)*A_Ks ; Flaherty07 median for 5 clouds 
+A_8.0         = (0.43+-0.01)*A_Ks ; Nishiyama09 Galactic Cen. (Spitzer)
+A_8.0         = (0.49+-0.01)*A_Ks ; Flaherty07 median for 5 clouds
+A_B           = (1.179+-0.014)*Av ; Yu26/Table1 (APASS B, lam_eff  =4299.2A)
+A_B           = (1.303+-0.004)*Av ; Yu26/Table1
+A_B           = (1.317+-0.016)*Av ; WangChen19
+A_B           = (3.804+-0.045)*E(B-V) ; Yu26/Table1 (APASS B, lam_eff=4299.2A)
+A_B           = (4.149+-0.004)*E(B-V) ; Yu26/Table1
+A_B           = 4.053*E(B-V)  ; McCall04 [Bessell "BX"]
+A_B           = 4.070*E(B-V)  ; McCall04 [Bessell "B"]
+A_B           = 4.1447*E(B-V) ; Challouf14 (Fitzpatrick99, Cardelli89)
+A_b_Stromgren = (1.291+-0.004)*Av ; Yu26/Table1 (Stromgren b, lam_eff=4693.8A)
+A_b_Stromgren = (4.076+-0.006)*E(B-V) ; Yu26/Table1 (Stromgren b, lam_eff=4693.8A)
+A_Bp          = (0.958+-0.003)*Av     ; Yu26/Table1
+A_Bp          = (1.694+-0.004)*A_Rp ; Yu26 (from red clump stars)
+A_Bp          = (3.110+-0.008)*E(B-V) ; Yu26/Table1
+A_Bp          = 1.06794*Av   ; Malhan18 (Gaia DR2) 
+A_Bp          = 2.998*E(B-V) ; ZhangYuan23 (single-valued extinction coeffs Table 3) 
+A_Bp          = A_(G_BP) = 1.039*A_G  ; Kounkel+2018 (interpretation of text; Gaia DR2)
+A_Bp          = A_Gbp = (1.002+-0.007)*Av ; WangChen19 (Gaia G_BP band)
+A_Bp          = Av*(1.1425 + 8 higher order terms) ; LuhmanEsplin20 (see Table 8)
+A_FUV         = (8.01+-0.07)*E(B-V) ; Wall19 2019MNRAS.489.5046W [GALEX]
+A_FUV         = 6.973*E(B-V) ; ZhangYuan23 (single-valued extinction coeffs Table 3)
+A_G            = (0.789+-0.005)*Av ; WangChen19 (Gaia G)
+A_g            = (1.118+-0.008)*Av ; Yu26/Table1 (APASS g, lam_eff   =4639.3A)
+A_g            = (1.143+-0.003)*Av ; Yu26/Table1 (PS1 g)
+A_g            = (1.155+-0.009)*Av ; WangChen19 (PS1 g)
+A_g            = (1.205+-0.002)*Av ; Yu26/Table1 (SDSS g)
+A_g            = (1.205+-0.010)*Av ; WangChen19 (SDSS g)
+A_g            = (3.574+-0.014)*E(B-V) ; Yu26/Table1 (APASS g, lam_eff   =4639.3A)
+A_g            = (3.642+-0.004)*E(B-V) ; Yu26/Table1 (PS1 g) 
+A_g            = (3.812+-0.004)*E(B-V) ; Yu26/Table1 (SDSS g)
+A_G            = 0.85926*Av ; Malhan18 (Gaia DR2) 
+A_g            = 3.248*E(B-V)      ; ZhangYuan23 (PS1 g) (single-valued extinction coeffs Table 3)
+A_g            = 3.452*E(B-V)      ; ZhangYuan23 (SDSS g) (single-valued extinction coeffs Table 3)
+A_g            = 3.518*E(B-V)      ; Green19 (PS1 g)
+A_G            = Av*(0.9536 + 8 higher order terms) (see Table 8) ; LuhmanEsplin20
+A_G           = (0.773+-0.012)*Av     ; Yu26/Table1
+A_G           = (1.918+-0.060 - 0.106*E(Bp-Rp))*E(Bp-Rp) = 1.918*E(Bp-Rp) - 0.106*E(Bp-Rp)^2 ; Wang26 
+A_G           = (2.352+-0.027)*E(B-V) ; Yu26/Table1
+A_G           = 0.796*Av              ; Halal24 2024ApJ...973...54H
+A_G           = 1.890*(E(G_BP-G_RP))  ; KimLepine21 from WangChen19
+A_G           = 1.890*E(Bp-Rp)        ; KimLepine21 from WangChen19
+A_G           = 2.283*E(G_BP - G_RP)  ; Kounkel18 (Gaia DR2) 
+A_G           = 2.364*E(B-V)          ; ZhangYuan23 (single-valued extinction coeffs Table 3) 
+A_G           = 2.74*E(B-V)           ; Qin23 (references CasagrandeVandenBerg18, Zhong19)
+A_G           ~ 2*E(Bp-Rp) ; Andrae18 (demo-ed to A_G<3.5), but steeper for very red, est. using ATLAS9 libs, instru. passbands, Cardelli89 ext. (Gaia DR2)
+A_G - A_G_RP  = A_G - A_Rp = 0.461*E(G_Bp-G_Rp) ; KimLepine21 from WangChen19
+A_g'           = 1.161*Av ; Schlegel98
+A_g'           = 1.199*Av ; Fan99
+A_Gp          = A_(G_RP) = 0.601*A_G  ; Kounkel+2018 (interpretation of text; Gaia DR2)
+A_H            = (0.131+-0.006)*Av ; WangChen19 (2MASS H)
+A_H            = (0.153+-0.003)*Av ; Yu26/Table1
+A_H            = (0.478+-0.009)*E(B-V) ; Yu26/Table1 
+A_H            = (0.52-0.55)*E(B-V) ; Fitzpatrick99 (from RiekeLebofsky85, Whittet88)
+A_H            = (1.55+-0.08)*A_Ks ; Flaherty07 (adopted from Indebetouw05) [H_2M / 2MASS]
+A_H            = (1.60+-0.04*A_Ks ; Nishiyama09 Galactic Cen. (both 2MASS)
+A_H            = (1.62+-0.04)*A_Ks ; Nishiyama09 Galactic Cen. (w/r IRSF/SIRIUS)
+A_H            = (1.70+-0.11)*A_Ks ; JiangLiChen25 CrA molecular cloud (2MASS)
+A_H            = (1.73+-0.03)*A_Ks ; Nishiyama09 Galactic Cen. (IRSF/SIRIUS~MKO)
+A_H            = 0.176*Av          ; Bonatto02 https://arxiv.org/pdf/0801.4539 from Dutra02 (for Rv   =3.1) 
+A_H            = 0.453*E(B-V)  ; ZhangYuan23 (single-valued extinction coeffs Table 3)
+A_H            = 0.4690*E(B-V) ; Green19 2MASS
+A_H            = 0.519*E(B-V)  ; McCall04 [2MASS H or H_2M]
+A_H            = 0.524*E(B-V)  ; McCall04 [Bessell & Brett 1988 "H"]
+A_H            = 0.53*E(B-V)   ; Fitzpatrick99 "model curve value"
+A_H            = 0.565*E(B-V)  ; Bilir08 [2MASS]
+A_H            = 1.60*A_Ks ; HensleyDraine23 (2MASS) (in JiangLiChen25 Table 1) 
+A_H            = 1.71*A_Ks ; Li24 (2MASS) (in JiangLiChen25 Table 1) 
+A_H            = 1.81*A_Ks ; MaizeApellaniz20 (2MASS) (in JiangLiChen25 Table 1)
+A_H            = 1.88*A_Ks ; Nogueras-Lara19 (2MASS) (in JiangLiChen25 Table 1)
+A_H            = 1.90*A_Ks ; SteadHoare09 (2MASS) (in JiangLiChen25 Table 1) 
+A_H            = 1.95*A_Ks ; Alonso-Garcia17 (2MASS) (in JiangLiChen25 Table 1)
+A_i            = (0.618+-0.001)*Av ; Yu26/Table1 (APASS i, lam_eff   =7438.9A)
+A_i            = (0.628+-0.004)*Av ; WangChen19 (PS1 i)
+A_i            = (0.630+-0.004)*Av ; WangChen19 (SDSS i)
+A_i            = (0.646+-0.001)*Av ; Yu26/Table1 (SDSS i)
+A_i            = (1.945+-0.006)*E(B-V) ; Yu26/Table1 (APASS i, lam_eff   =7438.9A)
+A_i            = (2.005+-0.003)*E(B-V) ; Yu26/Table1 (SDSS i)
+A_I            = 1.50*E(B-V) ; Fitzpatrick99 (from SchultzWiemer75)
+A_I            = 1.57*E(B-V)           ; Fitzpatrick99 "model curve value"
+A_i            = 1.791*E(B-V)      ; ZhangYuan23 (PS1 i) (single-valued extinction coeffs Table 3) 
+A_i            = 1.799*E(B-V)      ; ZhangYuan23 (SDSS i) (single-valued extinction coeffs Table 3)
+A_i            = 1.971*E(B-V)      ; Green19 (PS1 i)
+A_i'           = 0.639*Av          ; Fan99
+A_i'           = 0.639*Av          ; Schlegel98
+A_Ic           = (0.585+-0.002)*Av     ; Yu26/Table1 
+A_Ic           = (1.811+-0.003)*E(B-V) ; Yu26/Table1 
+A_Ic           = 1.714*E(B-V)          ; McCall04 [Bessell "I (Cousins)"]
+A_Ij           = 1.50*E(B-V)  ; Savage & mathis 1979, Fitzpatrick99 Table 2, for Rv   =3.1)
+A_J            = (0.243+-0.003)*Av ; WangChen19 (2MASS J)
+A_J            = (0.258+-0.002)*Av ; Yu26/Table1
+A_J            = (0.810+-0.007)*E(B-V) ; Yu26/Table1
+A_J            = (0.85-0.91)*E(B-V) ; Fitzpatrick99 (from RiekeLebofsky85, Whittet88,Schultz75)
+A_J            = (1.73+-0.07)*A_H  ; JiangLiChen25 CrA molecular cloud (2MASS)
+A_J            = (2.86+-0.08)*A_Ks ; Nishiyama09 Galactic Cen. (both 2MASS)
+A_J            = (2.89+-0.08)*A_Ks ; Nishiyama09 Galactic Cen. (w/r IRSF/SIRIUS)
+A_J            = (3.02+-0.04)*A_Ks ; Nishiyama09 Galactic Cen. (IRSF/SIRIUS~MKO)
+A_J            = (3.02+-0.22)*A_Ks ; JiangLiChen25 CrA molecular cloud (2MASS)
+A_J            = (3.12+-0.03)*A_Ks ; LiChen23, Ophiuchus, https://arxiv.org/pdf/2308.00488
+A_J            = 0.276*Av          ; Bonatto02 arXiv:0801.4539 from Dutra02 (for Rv   =3.1) 
+A_J            = 0.282*Av          ; Dobashi11
+A_J            = 0.748*E(B-V)      ; ZhangYuan23 (single-valued extinction coeffs Table 3)
+A_J            = 0.7927*E(B-V)     ; Green19 2MASS
+A_J            = 0.819*E(B-V)      ; McCall04 [2MASS J or J_2M]
+A_J            = 0.829*E(B-V)      ; McCall04 [Bessell & Brett 1988 "J"]
+A_J            = 0.86*E(B-V)       ; Fitzpatrick99 "model curve value"
+A_J            = 0.887*E(B-V)      ; Bilir08 [2MASS]
+A_J            = 1.61*A_H          ; Indebetouw05 (2MASS) (see JiangLiChen25 Table 1) 
+A_J            = 1.71*A_H          ; HensleyDraine23 (2MASS) (see JiangLiChen25 Table 1)
+A_J            = 1.73*A_H          ; Li24 (2MASS) (see JiangLiChen25 Table 1)
+A_J            = 1.84*A_H          ; MaizApellaniz20 (2MASS) (see JiangLiChen25 Table 1)
+A_J            = 1.95*A_H          ; Alonso-Garcia17 (2MASS) (see JiangLiChen25 Table 1)
+A_J            = 1.96*A_H          ; MaizApellaniz20 (2MASS) (see JiangLiChen25 Table 1)
+A_J            = 2.74*A_Ks         ; HensleyDraine23 (see JiangLiChen25 Table 1) 
+A_J            = 2.76*E(J-H)       ; Bonatto02 https://arxiv.org/pdf/0801.4539 from Dutra02 (for Rv   =3.1)
+A_J            = 2.96*A_Ks         ; Li24 (2MASS) (see JiangLiChen25 Table 1) 
+A_J            = 3.37*A_Ks         ; SteadHoare09 (see JiangLiChen25 Table 1) 
+A_J            = 3.46*A_Ks         ; NoguerasLara19 (see JiangLiChen25 Table 1) 
+A_J            = 3.55*A_Ks         ; MaizeApellaniz20 (see JiangLiChen25 Table 1) 
+A_J            = 3.80*A_Ks         ; Alonso-Garcia17 (see JiangLiChen25 Table 1) 
+A_K            = (0.33-0.38)*E(B-V) ; Fitzpatrick99 (from Whittet88,Schultz75,Savage79)
+A_K            = 0.34*E(B-V) ; BessellBrett88
+A_K            = 0.34*E(B-V) ; BessellBrett88
+A_K            = 0.343*E(B-V) ; McCall04 [Bessell & Brett 1988 "K"]
+A_K            = 0.36*E(B-V) ; Fitzpatrick99 "model curve value"
+A_K            = Av*(0.0916 + 0.0036*Av + 0.0000089*Av^2) ; LuhmanEsplin20 (for Av   =0-20)
+A_K'           = 0.358*E(B-V) ; McCall04 [Bessell & Brett 1988 "K'"]
+A_Ks           = (0.078+-0.004)*Av ; WangChen19 (2MASS Ks)
+A_Ks           = (0.100+-0.004)*Av ; Yu26/Table1 
+A_Ks           = (0.304+-0.009)*E(B-V) ; Yu26/Table1 
+A_Ks           = (0.528+-0.015)*E(Ks-J) ; Nishiyama09 Galactic Cen. (both 2MASS)
+A_Ks           = (1.61+-0.04)*E(Ks-H)   ; Nishiyama09 Galactic Cen. (both 2MASS)
+A_Ks           = 0.112*Av ; Dutra02 2002A&A...381..219D (for Rv   =3.1)
+A_Ks           = 0.118*Av ; Dutra02 2002A&A...381..219D (for Rv   =3.1)
+A_Ks           = 0.3026*E(B-V) ; Green19 2MASS
+A_Ks           = 0.306*E(B-V)  ; ZhangYuan23 (single-valued extinction coeffs Table 3)
+A_Ks           = 0.350*E(B-V)  ; McCall04 [2MASS Ks]
+A_Ks           = 0.382*E(B-V)  ; Bilir08 [2MASS]
+A_Ks           = 0.670*E(J-Ks) ; Dutra02 2002A&A...381..219D  & Dutra03 
+A_L            = (0.09-0.20)*E(B-V) ; Fitzpatrick99 (from RiekeLebofsky85, Whittet88,Schultz75,Savage79)
+A_L            = 0.186*E(B-V) ; McCall04 [Bessell & Brett 1988 "L"]
+A_L            = 0.19*E(B-V)  ; Fitzpatrick99 "model curve value"
+A_L'           = 0.164*E(B-V) ; McCall04 [Bessell & Brett 1988 "L"]
+A_M            = (0.08-0.12)*E(B-V) ; Fitzpatrick99 (from RiekeLebofsky85, Whittet88)
+A_M            = 0.12*E(B-V)  ; Fitzpatrick99 "model curve value"
+A_M            = 0.122*E(B-V) ; McCall04 [Bessell & Brett 1988 "M"]
+A_NUV          = (6.72+-0.04)*E(B-V) ; Wall19 2019MNRAS.489.5046W [GALEX]
+A_NUV          = 7.293*E(B-V) ; ZhangYuan23 (single-valued extinction coeffs Table 3) 
+A_r            = (0.810+-0.005)*Av ; Yu26/Table1 (APASS r, lam_eff   =6122.0A)
+A_r            = (0.843+-0.006)*Av     ; WangChen19 (PS1 r)
+A_r            = (0.848+-0.006)*Av     ; WangChen19 (SDSS r)
+A_r            = (0.854+-0.001)*Av     ; Yu26/Table1 (PS1 r)
+A_r            = (0.870+-0.001)*Av     ; Yu26/Table1 (SDSS r)
+A_r            = (2.514+-0.016)*E(B-V) ; Yu26/Table1 (APASS r, lam_eff   =6122.0A)
+A_r            = (2.680+-0.003)*E(B-V) ; Yu26/Table1 (PS1 r)
+A_r            = (2.712+-0.003)*E(B-V) ; Yu26/Table1 (SDSS r)
+A_R            = 2.32*E(B-V)  ; Fitzpatrick99 "model curve value"
+A_R            = 2.32*E(B-V) ; Fitzpatrick99 (from SchultzWiemer75)
+A_r            = 2.363*E(B-V)          ; ZhangYuan23 (PS1 r) (single-valued extinction coeffs Table 3)
+A_r            = 2.400*E(B-V)          ; ZhangYuan23 (SDSS r) (single-valued extinction coeffs Table 3) 
+A_r            = 2.617*E(B-V)          ; Green19 (PS1 r)
+A_r'           = 0.843*Av ; Schlegel98
+A_r'           = 0.858*Av ; Fan99
+A_Rc           = (0.767+-0.002)*Av     ; Yu26/Table1
+A_Rc           = (2.464+-0.004)*E(B-V) ; Yu26/Table1 
+A_Rc           = 2.440*E(B-V)          ; McCall04 [Bessell "R (Cousins)"]
+A_Rj           = 2.32*E(B-V)           ; Savage & Mathis 1979, Fitzpatrick99 Table 2, for Rv   =3.1)
+A_Rp           = (0.566+-0.002)*Av     ; Yu26/Table1
+A_Rp           = (1.836+-0.004)*E(B-V) ; Yu26/Table1 
+A_Rp           = 0.65199*Av     ; Malhan18 (Gaia DR2)
+A_Rp           = 1.429*E(Bp-Rp) ; KimLepine21 from WangChen19
+A_Rp           = 1.737*E(B-V)   ; ZhangYuan23 (single-valued extinction coeffs Table 3) 
+A_Rp           = A_Bp/(1.694+-0.004) ; Yu26 (from red-clump stars)
+A_Rp           = A_Grp    = (0.589+-0.004)*Av ; WangChen19 (Gaia G_RP band)
+A_Rp           = Av*(0.6309 + 8 higher order terms) ; LuhmanEsplin20 (see Table 8)
+A_u            = (0.481+-0.003)*Av ; Yu26/Table1 (SDSS u)
+A_u            = (1.476+-0.005)*E(B-V) ; Yu26/Table1 (SDSS u) 
+A_u            = (1.584+-0.017)*Av ; WangChen19 (SDSS u)
+A_U            = (1.604+-0.012)*Av     ; Yu26/Table1 
+A_U            = (5.172+-0.017)*E(B-V) ; Yu26/Table1 
+A_u            = 4.500*E(B-V) ; ZhangYuan23 (SDSS u) (single-valued extinction coeffs Table 3) 
+A_U            = 4.744*E(B-V) ; McCall04 [Bessell "UX"]
+A_u'           = 1.579*Av ; Schlegel98
+A_u'           = 1.593*Av ; Fan99
+A_V            = 3.10*E(B-V) ; Fitzpatrick99
+A_W1           = (0.032+-0.001)*Av ; Yu26/Table1
+A_W1           = (0.039+-0.004)*Av ; WangChen19 (WISE W1)
+A_W1           = 0.194*E(B-V) ; ZhangYuan23 (single-valued extinction coeffs Table 3) 
+A_W2           = (0.026+-0.004)*Av ; WangChen19 (WISE W2)
+A_W2           = (0.126+-0.008)*E(B-V) ; Yu26/Table1
+A_W2           = 0.138*E(B-V)      ; ZhangYuan23 (single-valued extinction coeffs Table 3) 
+A_W3           = (0.040+-0.009)*Av ; WangChen19 (WISE W3)
+A_W3           = 0.183*E(B-V)      ; ZhangYuan23 (single-valued extinction coeffs Table 3) 
+A_W4           = 0.084*E(B-V)      ; ZhangYuan23 (single-valued extinction coeffs Table 3)
+A_Y            = (0.38+-0.03)*Av       ; Hillenbrand02 y-band 1.035um
+A_y            = (0.395+-0.003)*Av     ; WangChen19 (PS1 y) 
+A_y            = (0.423+-0.004)*Av     ; Yu26/Table1 (PS1 y) 
+A_y            = (1.289+-0.008)*E(B-V) ; Yu26/Table1 (PS1 y) 
+A_y            = 1.146*E(B-V) ; ZhangYuan23 (PS1 y) (single-valued extinction coeffs Table 3) 
+A_y            = 1.263*E(B-V)          ; Green19 (PS1 y)
+A_y_Stromgren  = (1.050+-0.004)*Av ; Yu26/Table1 (Stromgren y, lam_eff=5500.9A)
+A_y_Stromgren  = (3.249+-0.007)*E(B-V) ; Yu26/Table1 (Stromgren y, lam_eff=5500.9A) 
+A_z            = (0.458+-0.003)*Av     ; WangChen19 (SDSS z)
+A_z            = (0.481+-0.003)*Av     ; Yu26/Table1 (SDSS z)
+A_z            = (0.487+-0.003)*Av     ; WangChen19 (PS1 z)
+A_z            = (0.514+-0.003)*Av     ; Yu26/Table1 (PS1 z)
+A_z            = (1.476+-0.005)*E(B-V) ; Yu26/Table1 (SDSS z) 
+A_z            = (1.568+-0.005)*E(B-V) ; Yu26/Table1 (PS1 z) 
+A_z            = 0.453*Av              ; Schlegel98 
+A_z            = 1.299*E(B-V)          ; ZhangYuan23 (SDSS z) (single-valued extinction coeffs Table 3)
+A_z            = 1.398*E(B-V)          ; ZhangYuan23 (PS1 z) (single-valued extinction coeffs Table 3) 
+A_z            = 1.549*E(B-V)          ; Green19 (PS1 z)
+A_z'           = 0.453*Av              ; Schlegel98
+A0             = 3.1*E(B-V) [~ Av] ; Lallement18 assumes 550nm A0 is 3.1*E(B-V)
+Av             = (2.49+-0.02)*E(V-I) ; Stanek96 towards Baade's window
+Av             = (3.146+-0.003)*E(B-V) ; Yu26/Table1 
+Av             = 0.0 mag     (case for d<75pc "Local Bubble") ; Blackwell90
+Av             = 0.6 mag/kpc (case for d>75pc; beyond "Local Bubble") ; Blackwell90
+Av             = 0.8 mag/kpc    => Av    = D_pc * 0.0008mag/pc ; Blackwell90 (for flat estimate, but see cases)
+Av             = 0.8/plx(mas)   ; Challouf14 (see Blackwell90, DiBenedetto98,05)
+Av             = 0.8/plx[mas] ; Challouf14 (for d<75 pc; unc.   =0.010 from Blackwell90,DiBenedetto98,05)
+Av             = 0.9145*A_G   ; Kounkel+2018 (interpretation of text; Gaia DR2)
+Av             = 1.05*E(V-K)   ; Bendict02 using Savage & Mathis 1977
+Av             = 1.1*E(V-K) ; He95
+Av             = 1.10*E(V-K) ; EEM for F0V stars in Hipparcos/2MASS
+Av             = 1.20*E(V-H) ; EEM for F0V stars in Hipparcos/2MASS
+Av             = 1.42*E(V-J) ; EEM for F0V stars in Hipparcos/2MASS
+Av             = 1.95465*E(Bp-Rp) ~ 2*E(Bp-Rp) ; calc using LuhmanEsplin20 for low reddening
+Av             = 10.9*E(J-H) ; Dobashi11 Table5
+Av             = 13.2*E(H-K) ; Dobashi11 Table5
+Av             = 2.26*E(V-I) ; Benedict02 using Savage & Mathis 1977 
+Av             = 2.394*(Bp-Rp)        ; KimLepine21 from WangChen19
+Av             = 2.394*E(G_BP - G_RP) ; KimLepine21 from WangChen19
+Av             = 3.070*E(B-V) ; McCall04 [Bessell "V"]
+Av             = 3.1*E(B-V)     ; Laney & Stobie93 
+Av             = 3.1*E(B-V) ; from Laney & Stobie 1993 "for distant stars"
+Av             = 3.10*E(B-V) ; Fitzpatrick99 "model curve value" (adopted R   =3.1)
+Av             = 3.12*E(B-V) ; BessellBrett88 ;  but higher in some dark cloud regions
+Av             = 3.126*E(B-V) + 0.022*E(B-V)^2 ; Fiorucci & Munari (2003) [for Bessell] 
+Av             = 3.16*E(B-V)          ; KimLepine21 from WangChen19
+Av             = 4.28*E(b-y) ; Crawford76 (average O-M dwarfs)
+Av             = 4.83*E(V-R)   ; Benedict02 using Savage & Mathis 1977
+Av             = 5.80*E(J-K) ; Benedict02 using Savage & Mathis 1977
+Av             = r*E(J-K) where r    = 1.87/(0.65 - 1/Rv) ; He95 ? (need to check)
+Av_APASS       = (0.891+-0.013)*Av ; Yu26/Table1 (APASS V, lam_eff   =5393.9A)
+Av_APASS       = (2.869+-0.045)*E(B-V) ; Yu26/Table1 (APASS V, lam_eff   =5393.9A) 
+Av_Stromgren   = (1.430+-0.004)*Av ; Yu26/Table1 (Stromgren v, lam_eff=4105.3A)
+Av_Stromgren   = (4.433+-0.013)*E(B-V) ; Yu26/Table1 (Stromgren v, lam_eff=4105.3A)
+Av/d           = 1.9 mag/kpc ; Savage & Mathis 1979, Spitzer value assuming R   =Av/E(B-V)   =3.1
+Av/E(B-V)      =  3.126  + 0.022*E(B-V) ; Fiorucci & Munari (2003) [for Bessell] 
+Av/E(B-V)      = 2.97 +-0.03 ; He+1995 (for mean beyond 2kpc)
+Av/E(B-V)      = 3.05 + 0.16666666*(B-V)o ; EEM fit to McCall04 (based on figure, -0.3 < B-V < 1.5)
+Av/E(B-V)      = 3.08 +-0.05 (range 2.5-4.7) ; He+1995
+Av/E(B-V)      = 3.08 +-0.15 ; Sneden et al. 1978
+Av/E(B-V)      = 3.1  +-0.1  ; EEM F0V stars in Hipparcos/2MASS using Fitzpatrick99 reln
+Av/E(B-V)      = 3.10        ; Fitzpatrick19 "Milky Way mean value R(V)"
+Av/E(B-V)      = 3.10 +-0.10 ; Wegner94 
+Av/E(B-V)      = 3.12 +-0.15 ; Whittet & van Breda 80 (close to gal plane)
+Av/E(B-V)      = 3.126 +0.022*E(B-V) ; Fiorucci03(Bessell vers. of Johnson BV)
+Av/E(B-V)      = 3.13 for early-type stars ; Fiorucci & Munari (2003) [for Bessell] 
+Av/E(B-V)      = 3.14 +-0.10 ; Schultz & Wiemer 1975
+Av/E(B-V)      = 3.28        ; Buser78 cited by Taylor08
+Av/E(B-V)      = 3.31 for Sun-like stars ; Fiorucci & Munari (2003) [for Bessell] 
+Av/E(B-V)      = 3.69 for M stars ; Fiorucci & Munari (2003) [for Bessell] 
+Av/E(B-V)      = 3.9  +-0.1  ; Sco-Oph ; Whittet & van Breda 80
+Av/E(B-V)      = 4.0  +-0.5  ; Orion ; Whitte & van Breda 80
+Av/E(B-V)      =~ 3.1 (variable); Savage & Mathis 1979
+Av/E(b-y)      = 4.27         ; Crawford & Mandwewala76 cited by Taylor08
+Av/E(b-y)      = 4.3          ; Glaspey71
+
+
+k_J  ~ A_J/A0 ~ A_J/Av ~ 0.24 ; flat approx to Fig.3 of Danielski18
+k_Ks ~ A_Ks/A0 ~ A_Ks/Av ~ 0.086 ; flat approx to Fig.3 of Danielski18
+
+R  = -0.26 + 1.19*E(V-Ks)/E(B-V) ; Fitzpatrick & Massa 2007 (Johnson/2MASS(IR); Fig.15, eqn.8)
+R  = 3.25 + 0.25*(B-V)o + 0.05*E(B-V) ; Olson75 ("is valid for normal stars with (B-V)o < 1.4 and E(B-V) < 1.5 to within an error of 0.05 in R.")
+R  = A(V)/E(B-V) = A(V)/[A(B)-A(V)]
+R  = Av/E(B-V) = (0.96 + 0.58  E(V-Ij)/E(B-V))(E(V-Ij)/E(B-V)) ; JohnsonBergman63
+R  = Av/E(B-V) = (1.04 + 0.021 E(V-Kj)/E(B-V))(E(V-Kj)/E(B-V)) ; JohnsonBergman63
+Rv = 1.1*E(V-K)/E(B-V) ; He95? (need to check)
+Rv = 3.136 +-0.026 ; Winkler97 "average value of the total-to-selective extinction ratio"
+Rv = Av/(A_B - Av) = Av/E(B-V) = 3.16+-0.15 ; WangChen19 (covering all field surveyed by APOGEE)
+Rv = Av/E(B-V) = 2.97+-0.03 ; He95 (mean beyond 2kpc)
+Rv = Av/E(B-V) = 2.97+-0.03 (mean beyond 2kpc) ; Fiorucci & Munari (2003)
+Rv = Av/E(B-V) = 3.08+-0.05 ; He95 highly obscured OB *s in southern MW (range 2.5-4.7)
+Rv = Av/E(B-V) = 3.08+-0.05 (range 2.5-4.7kpc) ; Fiorucci & Munari (2003)
+Rv = Rv00+0.28*(B-V)o+0.04*E(B-V) ; McCall04 cites from Schmidt-Kaler82
+Kj - K_CIT ~ 0.05 - 0.015(V-K) [+-0.04mag] ; Bessell88
+E(U-B)/E(B-V) = (0.70+0.05*E(B-V)) ; Fitzpatrick99 (from Fitzgerald70)
+E(b-y)/E(B-V) = 0.74 ; Fitzpatrick99 (from Crawford75)
+E(m1)/E(b-y) = -0.32 ; Fitzpatrick99 (from Crawford75)
+E(c1)/E(b-y) = 0.20  ; Fitzpatrick99 (from Crawford75)
+E(u-b)/E(b-y) = 1.5 ; Fitzpatrick99 (from Crawford75)
+A_Ic/Av = A(Ic)/A(V) = 0.554 ; Draine03 [Cousins Ic]
+
+#### YUAN 13 NOTES ################
+
+
+E(FUV-NUV)/E(B-V) = -2.35+-0.58, -2.69+-0.50 ; Yuan13 [see note Y13]
+E(NUV-u)/E(B-V) = 2.85+-0.070, 2.71+-0.22 ; Yuan13 [see note Y13]
+E(u-g)/E(B-V)   = 1.08+-0.010, 1.04+-0.018 ; Yuan13 [see note Y13]
+E(g-r)/E(B-V)   = 0.99+-0.015, 0.99+-0.015 ; Yuan13 [see note Y13]
+E(r-i)/E(B-V)   = 0.60+-0.010, 0.60+-0.011 ; Yuan13 [see note Y13]
+E(i-z)/E(B-V)   = 0.43+-0.004, 0.43+-0.005 ; Yuan13 [see note Y13]
+E(z-J)/E(B-V)   = 0.56+-0.011, 0.56+-0.013 ; Yuan13 [see note Y13]
+E(J-H)/E(B-V)   = 0.26+-0.005, 0.26+-0.011 ; Yuan13 [see note Y13]
+E(H-Ks)/E(B-V)  = 0.16+-0.006, 0.16+-0.005 ; Yuan13 [see note Y13]
+E(Ks-W1)/E(B-V) = 0.12+-0.008, 0.12+-0.010 ; Yuan13 [see note Y13]
+E(W1-W2)/E(B-V) = 0.026+-0.004, 0.036+-0.007 ; Yuan13 [see note Y13]
+# Y13: Yuan13 notes: 1st values are derived by fitting E(a-b) vs. E(g-r) assuming R(g-r)=0.99.
+# Y13: 2nd values are derived by fitting E(a-b) vs. E(B-V) from Shlegel98 (but they say E(B-V) is 14% too high). 
+A_FUV/E(B-V) = 4.89+-0.60, 4.37+-0.54 ; Yuan13 [see note Y13]
+A_NUV/E(B-V) = 7.24+-0.08, 7.06+-0.22 ; Yuan13 [see note Y13]
+A_u/E(B-V) = 4.39+-0.04, 4.35+-0.04 ; Yuan13 [see note Y13]
+A_g/E(B-V) = 3.30+-0.03, 3.31+-0.03 ; Yuan13 [see note Y13]
+A_r/E(B-V) = 2.31+-0.03, 2.32+-0.03 ; Yuan13 [see note Y13]
+A_i/E(B-V) = 1.71+-0.02, 1.72+-0.02 ; Yuan13 [see note Y13]
+A_z/E(B-V) = 1.29+-0.02, 1.28+-0.02 ; Yuan13 [first unc. "40.02", but certainly a typo?]
+A_J/E(B-V) = 0.72+-0.01, 0.72+-0.01 ; Yuan13 [see note Y13b]
+A_H/E(B-V) = 0.46+-0.01, 0.46+-0.01 ; Yuan13 [see note Y13b]
+A_Ks/E(B-V) = 0.306 ; Yuan13 
+A_W1/E(B-V) = 0.18+-0.01, 0.19+-0.01 ; Yuan13 [see note Y13b]
+A_W2/E(B-V) = 0.16+-0.01, 0.15+-0.01 ; Yuan13 [see note Y13b] 
+# Y13b: 1st values are derived by fitting E(a-b) vs. E(g-r) assuming R(g-r)=0.99, adopting R(Ks)=0.306.
+# Y13b: 2nd values are derived by fitting E(a-b) vs. E(B-V) from Shlegel98 (but they say E(B-V) is 14% too high) and adopting R(Ks)=0.306.
+
+### Classic A_LAMBDA/A_V values by band #####################
+
+#band lam(um) 1/lam  Alam/Av  unc.  ref        Notes
+R_C    0.641 1.560   0.820  0.030 Cohen82    Cous sys. lam_eff from Bessell98
+R_C    0.641 1.560   0.820  NA    Bessell98  Cous sys. 
+R_J    0.700 1.429   0.750  0.020 Cohen82    John sys. lam_eff from Bessell79
+R_J    0.700 1.429   0.751  NA    Cardelli89 John sys. lam_eff from Bessell79
+I_C    0.798 1.253   0.590  NA    Bessell98  Cous sys.
+I_C    0.798 1.253   0.610  0.020 Cohen82    Cous sys. lam_eff from Bessell98
+I_J    0.900 1.111   0.479  NA    Cardelli89 John sys. lam_eff from Bessell79
+I_J    0.900 1.111   0.490  0.020 Cohen82    John sys. lam_eff from Bessell79
+J_BB   1.22  0.8196  0.29   NA    Bessell98
+J_2M   1.2?  ...     0.282  NA    Dobashi11  (A_J/A_V = 1/3.55) [from Cardelli?]
+J_anon 1.250 0.8000  0.282  NA    Cardelli89 unknown system
+J      1.221 0.8190  0.282  NA    Reike85    Johns sys. lam_iso from Bessell88
+J_CIT  1.246 0.8026  0.265  0.020 Cohen82    CIT sys. lam_iso from Bessell88
+H_2M   1.5?  ?       0.190  NA    Dobashi11  (A_J/A_V = 1/5.26) [from Cardelli?]
+H_anon 1.587 0.6300  0.190  NA    Cardelli89 unknown system
+H_CIT  1.623 0.6161  0.155  0.010 Cohen82    CIT sys. lam_iso from Bessell88
+H      1.629 0.6138  0.175  NA    Reike85    Johns sys. lam_iso from Bessell88
+H_BB   1.63  0.6134  0.23   NA    Bessell98
+K_anon 2.174 0.4600  0.114  NA    Cardelli89 unknown system
+K_2M   2.2?  ...     0.114  NA    Dobashi11  (A_K/A_V = 1/8.77) [from Cardelli?]
+K      2.188 0.4570  0.112  NA    Reike85    Johns sys. lam_iso from Bessell88
+K_BB   2.19  0.4566  0.11   NA    Bessell98 
+K_CIT  2.205 0.4535  0.090  0.010 Cohen82    CIT sys. lam_iso from Bessell88
+3.4    3.4   0.2941  0.0513 NA    Mathis90
+L_anon 3.448 0.2900  0.056  NA    Cardelli89 unknown system
+L_BB   3.45  0.2898  0.05   NA    Bessell98
+L_CIT  3.49  0.2865  0.050  0.010 Cohen82    CIT sys. lam_mean from Elias82
+L      3.54  0.2824  0.058  NA    Reike85    Johns sys. lam_eff from Campins85
+M      4.80  0.2083  0.023  NA    Reike85    Johns sys. lam_eff from Campins85
+5      5.0   0.2000  0.0268 NA    Mathis90
+7      7.0   0.1429  0.0197 NA    Mathis90
+8.0    8.0   0.1250  0.020  0.003 Reike85
+8.5    8.5   0.1176  0.043  0.006 Reike85
+9.0    9.0   0.1111  0.0442 NA    Mathis90
+9.0    9.0   0.1111  0.074  0.011 Reike85
+9.5    9.5   0.1052  0.087  0.013 Reike85
+9.7    9.7   0.1031  0.0586 NA    Mathis90
+10.0  10.0   0.1000  0.083  0.012 Reike85
+10    10.0   0.1000  0.0541 NA    Mathis90
+N     10.471 0.0955  0.052  NA    Reike85 IRTF  sys. lam_iso from Hammersley98
+10.5  10.5   0.0952  0.074  0.011 Reike85
+11.0  11.0   0.0909  0.060  0.009 Reike85
+11.5  11.5   0.0869  0.047  0.007 Reike85
+12.0  12.0   0.0833  0.037  0.006 Reike85
+12    12.0   0.0833  0.0276 NA    Mathis90
+12.5  12.5   0.0800  0.030  0.005 Reike85
+13.0  13.0   0.0769  0.027  0.004 Reike85
+15    15.0   0.0667  0.0149 NA    Mathis90
+18    18.0   0.0556  0.0234 NA    Mathis90
+20    20.0   0.0500  0.0211 NA    Mathis90
+25    25.0   0.0400  0.0135 NA    Mathis90
+35    35.0   0.0286  0.0037 NA    Mathis90
+60    60.0   0.0167  0.0020 NA    Mathis90
+100  100.0   0.0100  0.0012 NA    Mathis90
+250  250.0   0.0040  0.0004 NA    Mathis90
+
+
+##### GAIA DR2 DOCUMENTATION ##########
+
+Gaia Collaboration et al.
+"Gaia Data Release 2: Observational Hertzsprung-Russell diagrams"
+(equation 1)
+
+kX = AX/A0
+kX = c1+c2(GBP−GRP)0 + c3(GBP−GRP)0^2 + c4(GBP−GRP)0^3 + c5*A0 + c6*A0^2 + c7(GBP−GRP)0*A0
+adopting A0 = 3.1*E(B-V)
+
+k   c1      c2      c3      c4      c5     c6      c7
+kG  0.9761 -0.1704  0.0086  0.0011 -0.0438 0.0013  0.0099
+kBP 1.1517 -0.0871 -0.0333  0.0173 -0.0230 0.0006  0.0043
+kRP 0.6104 -0.0170 -0.0026 -0.0017 -0.0078 0.00005 0.0006
+
+
+### REDDENING MAPS ############################# 
+
+Lallement et al, A&A, 561, A91 (2014)
+Capitanio et al, A&A, 606, A65 (2017),
+Lallement et al, submitted (2018).
+http://stilism.obspm.fr/
+
+The Ammons et al. (2006) reddening values should not be used (they
+employ a statistical model taking into account Galactic position and
+maximum reddening through the Schlegel et al. 1998 maps). They are
+better than nothing, but don't take into account real ISM features.
+
+In the limit of low reddening A_G/A_V $\simeq$ 1.0 for
+blue stars (Table 8 of Jordi et al. 2010) decreases to $\sim$0.6 for
+the latest M stars (Jordi et al. 2010), hence A_G varies from roughly
+0.03 to 0.02 from the hottest to coolest members).
+
+
+### N_H vs Reddening curves ##############################
+
+A_G/N_H      = 4e-22 cm^2 mag ; Bialy21, Zucker21 quoted by Halal24 2024ApJ...973...54H
+N(HI)/E(B-V) = 5.1e21  atoms/cm^2/mag ; Knapp & Kerr 1974
+N(HI)/E(B-V) = 5.0e21  atoms/cm^2/mag ; Burstein & Heiles 1978
+N(HI)/E(B-V) = 4.6e21  H/cm2/mag ; Mirabel & Gregely 1979
+N(HI)/E(B-V) = 4.8e21  atoms/cm^2/mag ; Bohlin,Savage,Drake 1989 ; Savage & Mathis 1979 (Fig. 2; see 1978)
+N(HI)/E(B-V) = (4.93+-0.28)e21 atoms/cm^2/mag ; DiplasSavage94 1994ApJ...427..274D
+N(HI)/E(B-V) = 8.3e21 atoms/cm^2/mag ; Liszt 2014 for |b|>~20deg, E(B-V) ~< 0.1mag
+N(HI)/E(B-V) = 6.45e21 atoms/cm^2/mag ; Zhu17 (N(H)/Av=(2.08+-0.02)e21 assuming Rv=3.1; in Hensley & Draine 2021
+N(HI)/E(B-V) = 8.8e21 atoms/cm^2/mag ; Lenz et al. 2017 (+-10% system unc.) "over diffuse, high-latitude sky" [Hensley & Drane 2021 adopts]
+N(HI)/E(B-V) = (9.4+-1.6;95%CL)e21 atoms/cm^2/mag ; Nguyen et al. 2018 
+N(H)/E(B-V) = 5.8e21 atoms/cm^2/mag = [N(HI)+2N(H2)]/E(B-V) = N(HI+H2)/E(B-V) ; Bohlin,Savage,Drake 1978(Table 2); Savage,Mathis 1979(p.75)
+N(H)/E(B-V) = (5.94+-0.37)e21 H/cm2/mag ; Rachford+2009 (FUSE, for translucents clouds Av ~>0.5).
+N(H)(cm^-2) = (2.21+-0.09)e21*Av [mag] ; Guver09
+
+
+### DIB Diffuse Interstellar Bands #########################
+
+see Table 3 of Gaia Collaboration+2023 "Gaia Data Release 3. Exploring and mapping the diffuse interstellar band at 862 nm" https://arxiv.org/pdf/2206.05536 for historical summary and new results
+"We present an extensive sample of 476 117 individual DIB measurements obtained in a homogeneous way covering the entire sky. We compare spatial distributions of the DIB carrier with interstellar reddening and find evidence that DIB carriers are present in a local bubble around the Sun which contains nearly no dust. We characterised the DIB equivalent width with a local density of 0.19 ± 0.04 Å/kpc and a scale height of 98.60+11.10−8.46 pc."
+
+E(B-V)/EW862 = 2.03 +-0.15, "with an offset of 0.22) ; Krelowski19 - see Gaia paper "Gaia Data Release 3. Exploring and mapping the diffuse interstellar band at 862 nm"
+E(B-V)/EW862 = 2.85 +-0.11 (Sanner78, calculated by Kos13 - see Gaia paper on DIBs https://arxiv.org/pdf/2206.05536)
+E(B-V)/EW862 = 2.63 ; Munari99
+E(B-V)/EW862 = 2.69 +-0.03 ; Munari00
+E(B-V)/EW862 = 2.72 +-0.03 ; Munari08 using RAVE
+E(B-V)/EW862 = 4.12  0.062 ; Planck Collaboratoiun 2016 (see https://arxiv.org/pdf/2206.05536)
+E(B-V)/EW862 = 2.198 0.066 ; Green19 see https://arxiv.org/pdf/2206.05536
+
+
+### POLARIZATION TRENDS #############################
+
+p_max(%)/E(B-V) = 9.0 ; Serkowski75 1975ApJ...196..261S E(B-V) versus p_max(%) (maximum interstellar polarizaton) - this is their upper limit trend
+p/Av = 0.065 ; Schmidt58 1958ZA.....46..145S
+p0/d(pc) = 0.0004%/pc (w/i d<25pc) ; Piirola77 1977A&AS...30..213P 
+
+Piirola77 1977A&AS...30..213P: "For near zero polarization stars the most probably observed value p is connected with the true value p_0 by the relation (Serkowski 1958a):
+p = (p_0^2 + (1/2) pi epsilon^2)^(1/2) , (p_0 ~~ 0) , where epsilon is the standard error of each of the parameters p_x and p_y."
+
+Av >= P_m/0.065 ; Hiltern56, Schmidt58 (cited by Piirola77, 1977A&AS...30..213P)
+
+Angarita23 "Interstellar Polarization Survey III: Relation Between Optical Polarization and Reddening in the General Interstellar Medium"
+https://arxiv.org/pdf/2306.07016
+contraints slope [Pv/E(B-V)]_max = 15.8+1.3-0.9% mag^-1
+however their Figure 3 shows that E(B-V) vs. Cumulative Pv[%] has a wide scatter - there are stars with
+E(B-V)~2 with Pv~2% (suggesting slope ~1) and stars with E(B-V)~0.5, Pv~9% (suggesting slope ~18!).
+This would seem to suggest that Pv is unlikely to be able to predict reddening to better than a factor of 20?
+
+Planck Collaboration XII et al. (2020) estimated polarization efficiency in diffuse ISM at high latitudes to be:
+Pv/E(B-V) = 13% mag^-1.
+
+
+### EEM calcuations for E(U-B)/E(B-V) #####################
+
+cross-referenced all HIP B0-B5 stars with Mermilliod91 UBV catalog. Plotted
+B-V vs. U-B for subtypes B0V, B1V, B2V, B3V, B4V, B5V. Independently measured
+slopes and zero-intercepts for all. Here are the fits:
+
+E(U-B)/E(B-V) slope best fits
+(U-B) = m*(B-V) + Q
+(B-V)EEM is Q=>(B-V)o using my fit
+SpT  Q     uQ    m     um    N   (B-V)EEM Q(Johnson53)
+O8  -0.923 0.017 0.895 0.071 6   -0.294   -0.93
+O9  -0.882 0.004 0.754 0.012 24  -0.282   -0.90
+B0  -0.856 0.014 0.766 0.035 23  -0.274   -0.90
+B1  -0.781 0.006 0.727 0.029 108 -0.253   -0.78
+B2  -0.670 0.006 0.577 0.034 200 -0.220   -0.70
+B3  -0.582 0.006 0.610 0.039 200 -0.194   -0.57
+B4  -0.497 0.015 0.775 0.113 72  -0.169    NA
+B5  -0.492 0.009 0.597 0.076 192 -0.168   -0.44
+weighted mean slope: <m> = E(U-B)/E(B-V) = 0.729+-0.010 (+-1.3%)
+JohnsonMorgan53 lists E(U-B)/E(B-V) = Eu/Ey = 0.72+-0.03(p.e.)
+
+
