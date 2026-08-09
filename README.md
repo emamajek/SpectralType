@@ -1,81 +1,48 @@
-# SpectralType
-Mean properties and standard stars for MK system spectral types. 
-Eric Mamajek (Jet Propulsion Laboratory & University of Rochester)
+Notes on stars by spectral type: standard stars and mean properties
+Eric Mamajek 
+updated 1 June 2026
 
-Data was previously stored at a University of Rochester website (http://www.pas.rochester.edu/~emamajek/spt/), 
-however those files are no longer being updated:
+Data for this compendium was previously stored at a University of Rochester website (http://www.pas.rochester.edu/~emamajek/spt/), however those files are no longer being updated. 
 
-These files represent notes on estimating the mean stellar properties of stars
-of a given spectral type. Notes are most complete for O3-M9 luminosity class V (dwarf, main sequence) stars,
-with less coverage for cooler/later types, and for types of higher (VI) or lower
-(IV, III, II, I) luminosity classes. I have attempted to investigate the "pedigree"
-of all spectral standard stars through listing their spectral classifications over
-the years. I have graded the spectral standard stars accordingly based on the
-continuity of their use by expert classifiers. Standards are graded as: 
+A Long Time Ago
 
-"anchor" standards are the best available, rare, bright standard stars showing 
-continuity in classification since the 1940s; as classified by Garrison (1994; 
-http://adsabs.harvard.edu/abs/1994ASPC...60....3G). E.g. Fomalhaut is a A3V anchor standard 
-that basically defines the subtype, and regularly appeared in the literature as a A3V standard 
-since the 1940s. Basically, everyone agrees with the "anchor" spectral types or they are
-not really classifying on the modern MK system. 
-
-"Primary" standards are usually the best standards available, usually with continuity in 
-classifications by expert classifiers going back more than a couple decades (with exceptions),
-but their continuity in classification may not necessarily go back to the 1940s-1970s. 
-Good example: HD 27808 (F8V), which has only been consistently used as a F8V standard
-since Morgan & Keenan (1973), especially by e.g. Keenan (1980s) and in the surveys
-by Gray and collaborators since the 1980s. 
-
-"Secondary": OK spectral standards, although there may be some minor/negligible differences
-in classifications amongst expert classifiers. Example: 36 UMa - another F8V standard, one
-that was in common use in the 1940s and 1950s - rarely mentioned in the 70s and 80s, but
-a modern survey (e.g. Gray et al. 2003) classified it F8V when comparing to other neighboring
-standards. Still a good standard, but notably missing from a few key compilations 
-(e.g. Morgan & Keenan 1973, Morgan, Abt, Tapscott (1978), etc.). 
-
-"Tertiary": OK spectral standards, but not the best available. Perhaps with multiple differences
-in classifications amongst expert classifiers, or perhaps the star has some other issue
-(e.g. multiplicity, however known unresolved multiples are often deprecated when plenty of other standards
-are available). 
-
-"Variant": standard star which may have a flag due to some spectral characteristic (usually
-related to metallicity). 
-
-"Deprecated" standards are "standard" stars in name only. THESE SHOULD PROBABLY BE AVOID AS STANDARD 
-STAR as there are likely not only differences in the classifications amongst expert classifiers, but
-the expert classifiers *themselves* may have readjusted the classifications over the years (sometimes
-multiple times!). Some known unresolved binaries are also put in the deprecated category, especially
-when there are plenty of other standard stars that do not seem to have any unresolved multiplicity. 
-
-"Exemplars" are stars that have not been previously considered spectral standards (that we are aware of),
-but which appear to have decent agreement in spectral classification among multiple investigators. 
-I list these as they provide a useful check on the typical stellar colors and parameters in comparison to
-the spectral standards (and some spectral classes have very few, if any, spectral standards). 
-The UR group took spectra of a few such "exemplars" with the SMARTS 1.5-m around ~2010 for some of the
-subtypes that have few if any standards, and adopted them as standards in Pecaut et al. (2012) and 
-Pecaut & Mamajek (2013): Examples are: HD 158352 (A8V), HD 73450 (A9V), HIP 111288 (K8V k), and HIP 3261 
-(K9V). Other "candidate" standard stars are listed that we do not taken spectra of, but
-which have good agreement amongst published classifications. Note that it is possible for a
-star that was considered to be a spectral standard in an older publication, but to be listed here 
-as an exemplar *for a different type - if there has been numerous classifications for the latter 
-spectral type in recent decades. 
-
-There are examples of stars whose disagreements in classifications over the years by expert
-classifiers (and themselves!) would seem to disqualify them from being listed as a 
-primary/secondary/tertiary standard, but which have been graded as such (and not deprecated). 
-This is usually out of desperation, since spectral standards with better pedigrees (historical 
-continuity in classifications over the decades) may not be available. An excellent example of such 
-a star is 16 Cygni B, which is likely to be the best available "G3V" standard star (as it appears in 
-Keenan's 1985, 1988, and 1989 compilations), however Keenan himself classified it previously as G5V 
-(Keenan & McNeil 1976), G4V (Keenan & Pitts 1980), and G2.5V (Keenan 1983). Unfortunately,
-*this* star has the best credentials to represent the G3V subtype among stars classified by 
-Keenan over his lifetime. 
+Upon starting to do stellar astronomy research as a student, and assessing the astrophysical parameters for stars based on their observational data (photometry, spectroscopy), I was surprised to find the state of spectral classification for stars to be surprisingly imperfect, incomplete, and evolving, with systematic differences between experts with respect to spectral standard stars and adopted mean properties of stars for a given spectral type. And sometimes systematic differences between experts and themselves, and then themselves again. Perhaps this was to be expected as no two stars are identical, and at the end of the day, spectral classification is trying to encode basic information about the temperature, luminosity class, and sometimes other factors (e.g., elemental peculiarities, rotation). While modern analyses of spectra use data pipelines that attempt to estimate stellar parameters at an industrial scale -- with mixed success -- the grouping of stars into bins (spectral types) through trends in the appearance and shape of their spectra due to effective temperature, gravity, etc., remains a useful tool. The use of widely adopted spectral standard stars remains vital to this binning and intercomparison of the properties of stars. Two astronomers in different countries working on different projects can both classify a star as "G8V", and those few bits of information quickly convey basic (correlated) properties for the star -- at admittedly limited accuracy that may be useful for some purposes (e.g., binary star modeling, testing for pathological stellar properties). The typical properties for stars of the same spectral type can be found in the literature (or here) and peculiarities of the star's properties can be assessed through comparison to "like." Researchers eager to change the subtypes assigned to spectral standards which have stood for decades, for whatever reasons, are committing the equivalent of making minor shifts to the sequences of dots and dashes in a Morse Code chart, or arbitrarily shifting tick marks on rulers dispensed to students for laboratory work. The new table or instrument is claimed to be an improvement -- meanwhile all it has done is generate unnecessary confusion. The point of the classifications is conveying information, so arbitrary changes to encoding should be avoided unless really necessary. This is not to dismiss the usefulness at times of interpolation, and sometimes extrapolation, or the possibilities of spectral variability (which plagues classifications of cool supergiant stars), or differences in inferred type between wavelength regions. I've found cases of spectral standard stars whose spectra or properties seemed out of line, either compared to other stars sharing that spectral type, or comparison to hotter and cooler standards. Or they may have had some property which made them less than desirable for comparison to other stars (e.g., binarity).
 
 
+These files in this Github directory represent notes that I first started in the 2000s tracking spectral standard stars, and my estimates of representative parameter values for stars by spectral type (e.g., intrinsic colors, effective temperatures, luminosities, masses, etc.). My first research projects that required spectral classification were Mamajek, Feigelson, Lawson (1999, ApJ, 516, L77; doi:10.1086/312005) and Mamajek, Meyer, Leibert (2002, AJ, 124, 1670; doi:10.1086/341952), and in the course of spectrally classifying ~100 pre-main sequence stars in the nearest OB association, I was already encountering issues among "standard stars", and started tracking the various compilations of spectral standards (e.g., MK43, JM53, MK73, MK78, various Keenan compilations from 1980s). As I was studying pre-main sequence stars, many of which had some degree of interstellar reddening, I needed some estimates of what their intrinsic (unreddened) colors were in order to put them on an HR diagram so I could estimate their ages and masses through comparison to theoretical stellar evolutionary tracks. This was not as straightforward as I expected. The stars were approaching the main sequence in terms of luminosity and gravity, but not quite (generally bluer in the blue due to chromospheric veiling, and redder in the red due to enhanced limb-darkening due to lower gravity). Generally the pre-MS stars were about a subtype bluer in the blue than in the red optical (and sometimes found to be subtypes cooler yet in the near-IR). And their intrinsic colors as a function of spectral type seemed to also be slightly different. To complicate matters, the best available photometry was often on the (then new) Tycho BtVt optical and 2MASS near-IR photometric bands, while decades of previous literature were on the Johnson-Cousins optical bands, and myriad near-IR bands (e.g. Johnson, Glass, CIT, etc.). The notes represent a modern snapshot of nearly two and half decades of assembling information for stars by spectral type in the course of innumerable projects studying stars (and for a while, teaching stellar astrophysics). A distillation of the notes was used for the table of adopted parameters for dwarf luminosity class stars in the Pecaut & Mamajek (2013, "Intrinsic Colors, Temperatures, and Bolometric Corrections of Pre-main-sequence Stars", ApJS, 208, 9, doi:10.1088/0067-0049/208/1/9), while Mark Pecaut's analysis of spectra and spectral energy distributions provided the sequence representative for ~5-30 Myr-old pre-main sequence stars. The main sequence (dwarf luminosity class) stellar parameter table from Pecaut & Mamajek (2013) was expanded upon over the years, and updates through 2022 were posted at a UR site which is no longer maintained: https://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt. The latest updates will continue to be updated in this Github directory at: https://github.com/emamajek/SpectralType/blob/master/EEM_dwarf_UBVIJHK_colors_Teff.txt.
 
 
+Spectral Type Notes
 
+The files are organized by spectral subtype, with the format e.g. A3V.txt. Regarding notes on spectral type stars and mean properites, the files are most complete for O3-M9 luminosity class V (dwarf, main sequence) stars, with less coverage for cooler/later types (i.e., L/T/Y), and for types of higher (VI, rarely used) or lower surface gravity (IV, III, II, I) luminosity classes. As some stars have had multiple classifications in the past, I usually "grep" the text files by ID (often HD or GJ #).  
+
+In the course of trying to find and use spectroscopy/photometry for stars most representative of a given spectral subtype, over the years I attempted to assess the "pedigrees" of their spectral types through literature searches (usually querying Vizier https://vizier.cds.unistra.fr/, and especially Brian Skiff's MK type compendium https://cdsarc.cds.unistra.fr/viz-bin/cat/B/mk). This may sound like a strange use of "pedigree", but I'm not sure what else to call it. I rank the "pedigrees" of the spectral type standard stars, with the best being those that have the longest continuity in usage, by the most authors, and preferably with few if any disagreements on spectral classification. Stars that have only been mentioned as standards recently, and ones that may have a wide range of previously published types, are ranked lower. 
+
+The book "Stellar Spectral Classification" by Gray & Corbally (2009) presents a detailed examination of spectral classification.  Maíz Apellániz, Negueruela & Caballero (2026) present a fantatistic recent review chapter on the topic for the Encyclopedia of Astrophysics, with references and examples for more recent efforts to enhance classifications since the Gray & Corbally 2009 book. More recent work is especially important at the hot (OB) and cool (MLTY) ends of the spectral sequence.
+
+I have graded the spectral standard stars accordingly, and qualitatively, based on the continuity of their use by expert classifiers. To be clear, I've *not* classified all these stars myself, however I have looked at some cases in detail over the years (especially with SMARTS spectra used for Pecaut et al. 2012, Pecaut & Mamajek 2013, and more recently I've been comparing Gaia spectra for host stars of exoplanets and transiting disks). 
+
+"Anchor" standards are the best available -- defined by Garrison (1994; http://adsabs.harvard.edu/abs/1994ASPC...60....3G) who those that strongest continuity in their classifications between Morgan, Keenan, Kellerman (1943) and the 1990s. Classic examples would be Vega (A0V), Phecda (A0V) and Fomalhaut (A3V), which basically anchor the A-type dwarf standards since the 1940s. Unfortunately, most spectral subtypes do not have anchor standards, so the "anchors" basically provide a coarse, but immovable, grid for the MK spectral classification system. Changing classifications for these stars means one is trying to update Morse code or big ticks on rulers. 
+
+"Primary" standards are usually the best standards available, usually with continuity in classifications by expert classifiers going back more than a couple decades (with exceptions), but their continuity in classification may not necessarily go back to the 1940s-1970s. A good example: the Hyad HD 27808, which has been ubiquitously as a F8V standard since Morgan & Keenan (1973), up through more the recent surveys by Gray, Corbally and collaborators.
+
+"Secondary": OK spectral standards, although there may be some minor/negligible differences in classifications amongst expert classifiers. Example: 36 UMa A - another F8V standard, one that was in common use in the 1940s and 1950s - rarely mentioned in the 70s and 80s, but then a more modern survey (e.g. Gray et al. 2003) classified it F8V when comparing to other standards. A few ancient pre-1950 references had it as either F6V or F5, so its continuity is not on par with other standards that pre-date MK43. Notably it is also missing from a few key compilations of standards (e.g. Morgan & Keenan 1973, Morgan, Abt, Tapscott 1978, both of whom preferred HD 27808). Otherwise it seems to be OK as a standard, but not quite as strong a publication record for that subtype.  
+
+"Tertiary": OK spectral standards, but not the best available. Perhaps with multiple differences in classifications amongst expert classifiers, or perhaps the star has some other issue (e.g. multiplicity, however known unresolved multiples are often deprecated when plenty of other standards are available). A good example is upsilon Andromedae (HD 9826), which was a F8V standard according to Johnson & Morgan (1953), some 1970s surveys, and more recently Gray et al. (2001). However it was also considered F8IV in the MK43 atlas, and more recently F9V in a survey by Abt+2009. 
+
+"Variant": standard star which may have a flag due to some spectral characteristic (usually related to metallicity). 
+
+"Deprecated" standards are "standard" stars in name only. THESE SHOULD PROBABLY BE AVOID AS STANDARD STARS as there are likely not only differences in the classifications amongst expert classifiers, but the expert classifiers *themselves* may have readjusted the classifications over the years (sometimes multiple times!). Some known unresolved binaries are also put in the deprecated category, especially when there are plenty of other standard stars that do not seem to have any unresolved multiplicity. A good example is beta Virginis (Zavijava), which was considered F8V throughout much of the early-to-mid 20th century (from F8 in HD catalog, mentioned as an F8 standard in 1922 Report of IAU Committee on Stellar Classification, then mentioned as F8V standard in MK43 atlas), but then was considered an F9V standard in the Morgan & Keenan (1973) review article and Houk Michigan Spectral Survey. However, a more recent survey taking advantage of higher S/N spectra on CCDs (Gray et al. 2001) classified it F8.5IV-V upon comparison to other standards. The latter type may be considered "the best" given the quality of data and being able to take advantage contemporary grids of standard star spdctra, but it would obviously no longer be a good choice of F8V or F9V standard as several studies suggested. This is obviously a subjective call, but for cases like this, I simply call them "deprecated" and focus on using the higher ranked standards. 
+
+"Exemplars" are stars that have generally *not* been previously considered spectral standards, but which appear to have decent agreement in spectral classification among multiple investigators. I list these as they provide a useful check on the typical stellar colors and parameters in comparison to the spectral standards (and some spectral classes have very few, if any, spectral standards). The UR group took spectra of a few such "exemplars" with the SMARTS 1.5-m around ~2010 for some of the subtypes that have few if any standards, and adopted them as standards in Pecaut et al. (2012) and 
+Pecaut & Mamajek (2013): Examples are: HD 158352 (A8V), HD 73450 (A9V), HIP 111288 (K8Vk), and HIP 3261 (K9V). Other "candidate" standard stars are listed that we do not taken spectra of, but which have good agreement amongst published classifications. Note that it is possible for a star that was considered to be a spectral standard in an older publication, but to be listed here as an exemplar *for a different subtype* - if there has been numerous classifications for the latter spectral type in recent decades. 
+
+There are examples of stars whose disagreements in classifications over the years by expert classifiers (and themselves!) would seem to disqualify them from being listed as a primary/secondary/tertiary standard, but which I have included as primary or secondary standard stars. This is usually out of desperation, since spectral standards with better pedigrees (historical continuity in classifications over the decades) may not be available. An excellent example of such a star is 16 Cygni B, which is likely to be the best available "G3V" standard star (as it appears in Keenan's 1985, 1988, and 1989 compilations), however Keenan himself classified it previously as G5V (Keenan & McNeil 1976), G4V (Keenan & Pitts 1980), and G2.5V (Keenan 1983). Unfortunately, *this* star has the best credentials to represent the G3V subtype among stars classified by Keenan over his lifetime. As you'll see in the literature, there are surprising differences in classifications for stars so similar in temperature to the Sun.
+
+In the interests of keeping the summaries of notes for spectral types and their representative stars concise - the notes generally do not contain complete bibliographic information, as it would make the summaries even more cluttered and unreadable. Astronomers should be familiar with the NASA Astrophysics Data System (ADS) https://ui.adsabs.harvard.edu/classic-form. Generally, the last name of the first author and a two-digit year is provided, which generally is enough to be able to quickly find in a NASA ADS query (In the Author field, write the first authors name with a ^ (i.e. "^Lastname"), enter the year, and as a way to improve the chances of the paper near the top of the query output, I usually Sort by Citation Count. The vast majority of papers referenced are in the era between publication of the Morgan-Keenan (MK) "Yerkes" spectral classification system in 1943 and the present (currently 2026), so the majority of papers are either from the mid-to-late 20th century or early 21st century, and the two digit year should be interpreted accordingly. Occasionally there are some pre-MK43 references from the early 20th century and late 19th century from stars, often stars classified on the Harvard system (e.g. by Cannon, Maury) on at Mt Wilson (e.g. Adams). 19th century references will always have full four-digit years (e.g. "Maury1897"), and are included for historical completeness as one can see which parts of the modern spectral classification grid have survived intact since the pioneering days of Harvard classification.
+
+Eric Mamajek
+1 June 2026
 
 
 
