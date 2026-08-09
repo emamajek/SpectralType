@@ -45,8 +45,8 @@ Keenan83 did not list a F9.5V standard.
 => adopt (V-Rc)(F9.5V) = 0.326 [updated 2/1/2025] (V-Ic=0.643, R-Ic=0.317)
 [EEM 2/1/2025: fit to standard+exemplars: (V-Rc)(F9.5V) = 0.326 - 0.034*[Fe/H] (rms=0.007mag)]
 
+(R-Ic)(F9.5V) =  0.307  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06) (Taylor05)
 (R-Ic)(F9V)   =   0.31 ; adopted for F9V
-(R-Ic)(F9.5V) =  0.31  ; pri. stan. HD 114710 = bet Com ([Fe/H]=+0.06)
 (R-Ic)(F9.5V) =  0.315 ; exemplar zet Tuc = HD 1581 = GJ 17 ([Fe/H]=-0.21)
 (R-Ic)(F9.5V) = 0.317 ; V-Ic=0.643, V-Rc=0.326 (2/1/2025) 
 (R-Ic)(G0V)   =   0.32 ; adopted for G0V
@@ -323,17 +323,61 @@ HD 114710 = bet Com = GJ 502 = HIP 64394 = HR 4983 = LHS 348 = 43 Com = SPOCS 55
   B-V=0.58(Johnson66), U-B=0.068+-0.011(Mermilliod91),
   U-B=0.070(Johnson54), U-B=0.08(Johnson66),
   V-Rc=0.33(Malama06/estimate), R-Ic=0.31(Malama06/estimate),
-  V-Ic=0.64(Malama06/estimate0, V-Ic=0.67+-0.04(HIP),
-  V-Ij=0.79(Ducati02), V-Rj=0.49(Ducati02).  2MASS photometry is
-  cooked - flages "DCD". J=3.22(Johnson68), K=2.90(Veeder74),
-  K=2.90(Johnson66), K=2.89(Johnson68), K=2.87(Glass75).  Converting
-  the Johnson68 JK photometry via Rieke22 to the 2MASS system:
-  Ks=2.857(Johnson68->Rieke22->2MASS) => (V-Ks) = 4.257(Mermilliod91)
-  - 2.857(Johnson68->2MASS) = 1.400.  PASTEL averages (Soubiran22):
-  Teff=5996+-17K(N=40), logg=4.42+-0.02(N=24),
+  R-Ic=0.307+-0.003(Taylor05), V-Ic=0.64(Malama06/estimate0,
+  V-Ic=0.67+-0.04(HIP), V-Ij=0.79(Ducati02), V-Rj=0.49(Ducati02).
+  2MASS photometry is cooked - flages "DCD".
+  J=3.22(Johnson68),
+  K=2.87(Glass75).
+  K=2.89(Johnson68),
+  K=2.90(Veeder74),
+  K=2.90(Johnson66),
+  Converting the Johnson68 JK photometry via Rieke22
+  to the 2MASS system: Ks=2.857(Johnson68->Rieke22->2MASS) => (V-Ks) =
+  4.257(Mermilliod91) - 2.857(Johnson68->2MASS) = 1.400.  PASTEL
+  averages (Soubiran22): Teff=5996+-17K(N=40), logg=4.42+-0.02(N=24),
   [Fe/H]=+0.06+-0.01(N=30). plx = 108.8951+-0.3487 mas (GaiaDR2), plx
   = 109.54+-0.17mas(vanLeeuwen07). Mv = 4.43.
-  fbol=5.26e-10W/m2(Blackwell98).
+  plx=108.7250+-0.1645mas(GaiaDR3)
+  fbol=5.26e-10W/m2(Blackwell98). Calculated new gyro age using
+  Bouma23 calibration, Soubiran24 Teff, Prot from Olspert18:
+  age=2.041+0.389-0.320Gyr.
+  Prot=12.35d(Wright11/VSX). vsini=4.10+-0.06km/s(GrayBaliunas97),
+  Prot=12.9d,11.6d("likely periods comprising this blend to be 12.8
+  and 12.1d";GrayBaliunas97), they also list individual Prot values
+  among seasons between 1981 and 1994, often quoting two similar
+  periods in each season - shorter ones between 10.6 and 12.1d, and
+  longer ones between 12.0 and 13.1d, and decreasing over this period
+  - perhaps showing activity cycle, they end up quoting <P>=12d with
+  deltaP=2.5d measured over 20 years.  Ages:
+  0.5-3.0Gyr(MillanGabet11),
+  0.89(0.89,3.27)Gyr(Ramirez13),
+  1.3+-1.2Gyr(LlorentedeAndres21),
+  1.5Gyr(Mamajek08/activity->rotation->age),
+  1.60+-0.40Gyr(Ramirez12/rotation),
+  1.7Gyr(Kospal09),
+  1.7+3.0-0.5Gyr(Valenti05),
+  1.7+-0.4Gyr(AguileraGomez18/rotation),
+  1.78Gyr(Isaacson10),
+  1.80Gyr(Ballering13),
+  1.83Gyr(MoroMartin2015), 
+  1.9Gyr(upper limit 4.8Gyr)(Holmberg09),
+  2.04+0.39-0.32Gyr(EEM/new gyro age, see below),
+  2.3Gyr(min1.8,max9.6)(Bryden06/~Lawler09),
+  2.5Gyr(Mamajek08/activity),
+  3.87(1.11,7.77)Gyr(Casagrande11/Padova),
+  4.0Gyr(Gaspar13/lit.mean),
+  4.13+2.60-1.37Gyr(Harada24), 
+  4.20(1.24,8.22)Gyr(Casagrande11/BASTI),
+  4.6+-0.9Gyr(Boyajian12),
+  4.68+-3.49Gyr(Pace13),
+  6.349(5.431,7.266)Gyr(GaiaDR3).  Calculated
+  new gyro age using Bouma23 calibration, Soubiran24 Teff, Prot from
+  Olspert18: age=2.041+0.389-0.320Gyr.  Galactic velocity UVW = -50,
+  11, 7 km/s.  logR'HK=-4.6790(Isaacson10). Asteroseismology:
+  Corsaro24 reports numax=2730+-108uHz, delnu=130.99+-4.80uHz =>
+  combined with Teff(Soubiran24) => calculate
+  Mass=0.771+0.161-0.133Msun(obviously too low),
+  Rad=0.935+0.083-0.074Msun, logg=4.383+-0.017
 
 # Deprecated Standard
 

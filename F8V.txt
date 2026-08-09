@@ -550,7 +550,7 @@ logL(F8V) = 0.292 dex ; Mv=4.05, BCv=-0.04 => Mbol = 4.01
 => adopt Mbol(F8V) = 4.010 mag [updated 9/26/2020]
 
 Rad(F8V) =  1.7580+-0.0206 Rsun ; exemplar HD 5015 = GJ 41 (slightly evolved logg=4.11)
-Rad(F8V) =  1.631 Rsun ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (Baines08)
+Rad(F8V) =  1.696 +-0.015 Rad ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)
 Rad(F8V) =  1.288 Rsun ; Stassun/TICv8 Rads for smoothed trend for Gray03/06 FVs (Teff=6170K)
 Rad(F8V) =  1.282 Rsun ; Gray03/06 F8Vs median from TIC9/Stassun19 (N=26)
 Rad(F8V) =  1.258 Rsun ; Challouf14 calibration for Mv=4.05, M_Ks=2.76
@@ -711,7 +711,7 @@ HD 90839 = 36 UMa A = GJ 395 = HIP 51459 = HR 4112 (J1030+5558; V=4.82)
 
 # Tertiary Standard
 
-HD 9826 = ups And = GJ 61 = HIP 7513 = HR 458 = 50 And
+HD 9826 = ups And = GJ 61 = HIP 7513 = HR 458 = Titawin = 50 And
  *F8V: JM53(stan),Morgan53,Ljunggren61,Garrison72(stan),Cowley74(stan),Bidelman85(F8),Hoffleit91,Gray01
   F8IV: MK43(stan)
   F9V: Barry70(F9Va),Abt09
@@ -720,8 +720,23 @@ HD 9826 = ups And = GJ 61 = HIP 7513 = HR 458 = 50 And
   Famous exoplanet host star and naked eye star.  Reasonable
   continuity from JohnsonMorgan53 to Gray01, although a couple F9V
   classifications, and it appears to be slightly metal-rich
-  ([Fe/H]=+0.08) and evolved (logg=4.17;Soubiran22).  M4.5V common
-  proper motion companion 55" away (Lowrance22).  V=4.07(Nikonov57),
+  ([Fe/H]=+0.08) and nearing the end of its main sequence phase.  ups
+  And has a M4.5V common proper motion companion 55" away
+  (Lowrance22).  Most published isochronal ages are ~3 Gyr, and with
+  updated HRD position (Soubiran22 Teff, Gaia DR3 Lum), and
+  MIST/Choi16 evolutionary tracks ([Fe/H]=+0.08), ups And appears to
+  be 1.27 Msun and 3.5 Gyr. Using gyro_interp code (Bouma23), and
+  Prot=9.3d (see discussion below on rotation), one gets gyro
+  age=2.45+0.56-0.76 Gyr.  The 1.27 Msun MIST evolutionary tracks that
+  fits ups And well at age 3.5 Gyr, shows that the star spent much of
+  its earlier MS life (~0.04-2Gyr) between Teff~6400-6440K
+  (~F5.5V-F6V), fairly close to the Kraft break (Beyer24). By age ~4.0
+  Gyr (~0.5 Gyr in future), ups And's will deplete H in its small
+  convective core around Teff~6040K, its core will contract while it
+  grows more luminous, and enter its shell-burning subgiant phase. For
+  detailed discussions on the star (moreso than planetary system) see
+  discussions in: Ford99(sec 3.3/table of vsini estimates),
+  Simpson10(Sec 3.2.2/rotation), Poppenhaeger11.  V=4.07(Nikonov57),
   V=4.08(JohnsonMorgan53), V=4.08(Argue66),
   V=4.091+-0.010(Mermilliod91), V=4.093(Hauck97),
   V=4.099907(GaiaDR3/synth), V=4.10(HIP,TYC), V=4.10(Johnson66) =>
@@ -744,11 +759,25 @@ HD 9826 = ups And = GJ 61 = HIP 7513 = HR 458 = 50 And
   via Rieke22) = 1.274.  L=2.79(Johnson66). Soubiran22/PASTEL mean
   values: Teff=6154+-10K(N=42), logg=4.17+-0.02(N=31),
   [Fe/H]=+0.08+-0.01(N=32).  plx=74.12+-0.19mas(HIP2),
-  plx=74.5711+-0.3491mas(GaiaDR2), plx=74.1940 0.2083mas(GaiaDR3).
-  dMv=-0.59. Rad=1.631+-0.014Rsun(Baines08). Bolometric fluxes -
-  published estimates center on ~6e-10W/m2:
-  fbol=(682.0+-23.1)pW/m2(Ligi16=> IAU2015 => mbol=3.918+-0.037;
-  incorrectly included non-negligible extinction?),
+  plx=74.5711+-0.3491mas(GaiaDR2), plx=74.1940+-0.2083mas(GaiaDR3).
+  dMv=-0.59. Radii/diameters: tetLD=1.17+-0.01mas(Ligi12/VEGA+CLIMB)
+  => tetLD(Ligi12) + plx(GaiaDR3) => Rad=1.696+-0.015Rad.
+  Rad=1.631+-0.014Rsun(Baines08),
+  Rad=1.70+-0.02Rsun(Ligi12/VEGA+CLIMB).  Masses:
+  Mass=1.12+-0.25Msun(Ligi12), Mass=1.150+-0.155Msun(TIC/Stassun19),
+  Mass=1.228(1.204,1.288)Msun(Ramirez13),
+  Mass=1.25+-0.13Msun(asteroseismo estimate/see below),
+  Mass=1.257+-0.040Msun(GaiaDR3/FLAME), Mass=1.26+-0.15Msun(Goda19),
+  Mass=1.27Msun(EEM/MIST tracks/[Fe/H]=+0.08),
+  Mass=1.28Msun(Reiners20), Mass=1.28+-0.03Msun(Casagrande11/BASTI),
+  Mass=1.30+-0.02Msun(daSilva15),
+  Mass=1.30(1.25,1.31)Msun(Casagrande11/Padova),
+  Mass=1.30+0.05-0.15Msun(Harada24),
+  Mass=1.31+0.01-0.07Msun(Ramirez12),
+  Mass=1.321+-0.132Msun(Khalatyan24), Mass=1.34+0.07-0.12Msun(Ford99)
+  => adopt Mass=1.27Msun.  Bolometric fluxes - published estimates
+  center on ~6e-10W/m2: fbol=(682.0+-23.1)pW/m2(Ligi16=> IAU2015 =>
+  mbol=3.918+-0.037; incorrectly included non-negligible extinction?),
   fbol=(606.8+-0.91)e-11W/m2(vanBelle09=> mbol(IAU2015)=4.045+-0.016),
   fbol=6.023e-7mW/m2(Gonzalez-Hernandez09 => mbol(IAU2015)=4.053),
   fbol=6.03e-7mW/m2(Alonso96 => mbol(IAU2015)=4.052; typo in units in
@@ -757,45 +786,71 @@ HD 9826 = ups And = GJ 61 = HIP 7513 = HR 458 = 50 And
   fbol=(5.8690+-0.1009)e-10W/m2(Swihart17 =>
   mbol(IAU2015)=4.081+-0.019) => adopt mbol=4.057+-0.016(probit) =>
   BCv = mbol - V = 4.057+-0.016 - 4.091+-0.010 = -0.034+-0.019.  Ages:
-  2.3-3.0Gyr(MillanGabet09), 2.4+-0.3Gyr(Gonzalez10#2),
-  2.5+0.5-0.2Gyr(Valenti05), 2.8Gyr(Lambert04),
-  2.9+-0.6Gyr(Adibekyan21), 3.0+-0.6Gyr(Soubiran05),
+  <2.3Gyr(Saffe05), 2.65+-0.35Gyr(MillanGabet09),
+  2.4+-0.3Gyr(Gonzalez10#2), 2.5+0.5-0.2Gyr(Valenti05),
+  2.6+2.1-1.0Gyr(Ford99), 2.8Gyr(Lambert04),
+  2.9+-0.6Gyr(Lachaume99,Adibekyan21),
+  2.932+0.711-1.403Gyr(Mamajek/priv.comm./gyro),
+  3.0+-0.6Gyr(Soubiran05),
   3.00(2.89,3.01(med),3.18)Gyr(Casagrande11/BASTI),
   3.1(+0.2,-0.4)Gyr(Holmberg09), 3.1+-0.5Gyr(Gonzalez10#1),
   3.12Gyr(Kospal09), 3.12+0.20-0.24Gyr(Marsden14),
-  3.12(2.88,3.32)Gyr(Takeda07), 3.20Gyr(Gonzalez15),
+  3.12+0.20-0.24Gyr(Takeda07), 3.20Gyr(Gonzalez15),
   3.20+1.17-0.13Gyr(Ramirez12), 3.3Gyr(Chen01),
+  3.3+0.2-1.7Gyr(Nordstrom04), 3.3+-0.3Gyr(daSilva15),
   3.31+2.32-0.59Gyr(Harada24),
-  3.4(2.87,3.19(med),3.43)Gyr(Casagrande11/Padova),
-  3.76Gyr(Marsakov95), 3.8+-1.0Gyr(Schlagenhauf24, but extremely poor
-  Teff estimate >+-700K and non-negligible extinction),
+  3.4(2.87,3.19(med),3.43)Gyr(Casagrande11/Padova), 3.5Gyr(EEM/MIST
+  tracks/[Fe/H]=+0.08), 3.76Gyr(Marsakov95), 3.8+-1Gyr(Fuhrmann98),
+  3.8+-1.0Gyr(Schlagenhauf24, but extremely poor Teff estimate >+-700K
+  and non-negligible extinction),
   3.905(3.401,4.409)Gyr(GaiaDR3/FLAME), 4.00Gyr(Gaspar13),
-  4.00Gyr(Ballering13), 4.50(3.47,4.78)Gyr(Ramirez13),
-  5.37Gyr(Isaacson24), 6.23Gyr(Isaacson10), 6.3Gyr(Bryden06),
-  6.7Gyr(Bryden09), 7.26Gyr(MoroMartin15) => median ~3.2 Gyr.
-  Rotation periods: Prot=7.30+-0.04d(Simpson10/"weak"),
-  Prot=7.4d(Rutten87/vsini), Prot=9.262763d(Gao25),
-  Prot=9.347+-1.510d(Fetherolf23; 2nd per=2.777540+-0.1235d),
+  4.00Gyr(Ballering13), 4.022+1.123-0.394Gyr(Baines24),
+  4.50(3.47,4.78)Gyr(Ramirez13), 5.37Gyr(Isaacson24),
+  6.23Gyr(Isaacson10), 6.3Gyr(Bryden06), 6.7Gyr(Bryden09),
+  7.26Gyr(MoroMartin15) => median 3.3+1.7-0.4(68%CL) Gyr,
+  i.e. consistent with what I get with MIST/Choi16 tracks
+  ([Fe/H]=+0.08,[a/Fe]=0): 3.5Gyr.  Rotation periods:
+  Prot=7.30+-0.04d(Simpson10/"weak"), Prot=7.4d(Rutten87/vsini),
+  Prot=9.262763d(Gao25), Prot=9.347+-1.510d(Fetherolf23; 2nd
+  per=2.777540+-0.1235d), Prot=9.5d(Poppenhaeger10/CaHKmodulation),
   Prot=11.9+0.0-0.1d(Marsden14), Prot=12d(Isaacson10, estimated via
-  R'HK), Prot=14+-5d(Henry00).
+  R'HK), Prot=14+-5d(range:11-19d;"weak";Henry00).  Note that Ford99
+  argued that given the multiple vsini estimates consistent with
+  ~9km/s, then Prot should be ~<6 days (but based on radius calculated
+  pre-Hipparcos), see calculation below.  vsini values, see Table 8 of
+  Ford99: vsini=9.0+-0.4km/s(Gray86/Henry00),
+  vsini=9.0+-0.5km/s(Gonzalez97/Gonzalez98/Ford99),
+  vsini=9.3+-0.4km/s(Benz86), vsini=9.5+-0.4km/s(Gonazalez10),
+  vsini=9.5+-0.8km/s(Fuhrmann98),
+  vsini=9.62+-0.50km/s(Butler06). Adopting the Gonzalez10 vsini, and
+  Rad=1.696Rsun, then Prot < 9.0+-0.4 days... similar to the two
+  recent periods measured with TESS. I adopt Prot=9.347+-1.510d from
+  Fetherolf23 (consistent with Gao25 & Poppenhaeger10 CaHK modulation)
+  => combined with Teff(Soubiran22) => gyro_interp(Bouma23) =>
+  age(gyro) = 2449+561-764 Myr. Lithium EW(LiI/6707A):
+  26.1mA(Takeda05), 30mA(Lambert91), 31.0+-3.1mA(Maldonado10),
+  33.9mA(Chen01), 43mA(Takeda05). Lund25 reports asteroseismic data
+  from TESS: numax=1528.0+-50.6uHz, dnu=76.2+-0.6uHz => from these I
+  infer Mass=1.25+-0.13Msun, Rad=1.576+-0.058Rsun, logg=4.139+-0.014.
 
+  Rad(F8V) = 1.696 +-0.015 Rad ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)
         G =  3.9661+-0.0034 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
-  (Bp-Rp) =  0.7229 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
-   (Bp-G) =  0.2725 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
-   (G-Rp) =  0.4504 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
-    (G-V) = -0.1249+-0.0106 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
-       Mv =   3.443+-0.012 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
-      M_G =  3.3180+-0.0070 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
-     M_Ks =   2.169+-0.021 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)    
-   (V-Ks) =   1.274+-0.022 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)    
-   (G-Ks) =   1.149+-0.020 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3,2MASS)
-   (V-Rc) =   0.303+-0.014 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
-   (R-Ic) =   0.279+-0.014 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
-   (V-Ic) =   0.582+-0.014 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
-  (Ks-W1) =  -0.087+-0.200 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
-  (W1-W2) =   0.728+-0.233 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
-  (W1-W3) =   0.025+-0.200 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
-  (W1-W4) =   0.062+-0.200 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)  
+  (Bp-Rp)(F8V) =  0.7229 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
+   (Bp-G)(F8V) =  0.2725 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
+   (G-Rp)(F8V) =  0.4504 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
+    (G-V)(F8V) = -0.1249+-0.0106 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
+       Mv(F8V) =   3.443+-0.012 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
+      M_G(F8V) =  3.3180+-0.0070 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3)
+     M_Ks(F8V) =   2.169+-0.021 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)    
+   (V-Ks)(F8V) =   1.274+-0.022 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)    
+   (G-Ks)(F8V) =   1.149+-0.020 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08) (GaiaDR3,2MASS)
+   (V-Rc)(F8V) =   0.303+-0.014 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
+   (R-Ic)(F8V) =   0.279+-0.014 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
+   (V-Ic)(F8V) =   0.582+-0.014 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
+  (Ks-W1)(F8V) =  -0.087+-0.200 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
+  (W1-W2)(F8V) =   0.728+-0.233 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
+  (W1-W3)(F8V) =   0.025+-0.200 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)   
+  (W1-W4)(F8V) =   0.062+-0.200 ; ter. stan. HD 9826 = ups And = GJ 61 ([Fe/H]=+0.08)  
 
 # Deprecated Standards
 

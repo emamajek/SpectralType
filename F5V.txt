@@ -632,6 +632,7 @@ Rad(F5V) =   1.2637 Rsun ; Eclipsing binary V505 Per B (Southworth21)
 Rad(F5V) =   1.046 Rsun ; HD 298986 = HIP 50382 (Soubiran24 Gaia bm) F5V 1964RGOB...85..207E [Fe/H]=-1.33
 => adopt Rad(F5V) = 1.457 Rsun [updated 6/6/2026] (logL=0.544, Teff=6540) 
 
+Mass(F5V) =   1.48  Msun ; var. standard (F5IV-V) HD 61421 = alf CMi = Procyon ([Fe/H]=-0.02, logg=3.98)
 Mass(F5V) =  1.42   Msun ; pri. stan. HD 27524 (Hyad; Goldman13)
 Mass(F5V) =  1.38   Msun ; EEM Teff vs. Mass fit for binaries (Teff=6570K)
 Mass(F5V) =  1.364  Msun ; HenryMcCarthy93 calibration for Mv=3.40
@@ -831,15 +832,14 @@ HD 134083 = 45 Boo = GJ 578 = HR 5634 = HIP 73996 = c Boo
 
   One of two F5V standards in JohnsonMorgan53, with iot Peg.  Very
   well characterized, with ~solar metallicity, and closest to solar
-  among the F5V standards. Considered part of Ursa Major Group
-  (e.g. Marsden02). Vigan17 estimates age=1.0+0.7-0.6Gyr.
-  Prot=1.524130d(Fetherolf23/TESS), with amplitude 114ppm;
-  vsini=44.4+-2.2km/s(Feiners03). Activity: logR'HK=-4.434(Murgas13),
-  BoroSaikia18 lists 3 logR'HK values between -4.402 and -4.567.
-  logR'HK=-4.85(Eiroa13), logLx/Lbol=-5.4(Eiroa13).  Kervella22 shows
-  negligible tangential velocity anomaly (11.70+-10.49m/s), so no
-  signs of perturbation.  CIT near-IR photometric standard in Frogel78
-  Table 10.  U=5.34(Morel78), U-V=0.41(Johnson66), B=5.36(Morel78),
+  among the F5V standards.  Prot=1.524130d(Fetherolf23/TESS), with
+  amplitude 114ppm; vsini=44.4+-2.2km/s(Feiners03). Activity:
+  logR'HK=-4.434(Murgas13), BoroSaikia18 lists 3 logR'HK values
+  between -4.402 and -4.567.  logR'HK=-4.85(Eiroa13),
+  logLx/Lbol=-5.4(Eiroa13).  Kervella22 shows negligible tangential
+  velocity anomaly (11.70+-10.49m/s), so no signs of perturbation.
+  CIT near-IR photometric standard in Frogel78 Table 10.
+  U=5.34(Morel78), U-V=0.41(Johnson66), B=5.36(Morel78),
   V=4.92(Johnson57/Nobs=3), V=4.92(Frogel78),
   V=4.92(Mermilliod86/Eggen/Nobs=5), V=4.922(Piirola76/Nobs=3),
   V=4.93(HIP/TYC), V=4.93(Johnson66/Nobs=9),
@@ -920,15 +920,21 @@ HD 134083 = 45 Boo = GJ 578 = HR 5634 = HIP 73996 = c Boo
   [Fe/H]=0.06(LeBorgne03), [Fe/H]=0.10(Boesgaard90),
   [Fe/H]=0.18(Luck17) => adopt <[Fe/H]>=0.00 (roughly +-0.05).
   M_G=3.348(GaiaDR3). Bolometric fluxes and derived mbols:
-  fbol=(29.03+-0.16)e-11W/m2(vanBelle08/inexplicably adopts Av=0.17+-0.02 for this d~20pc star?)
-  => mbol=4.8454(IAU2015 scale/discrepent),
-  fbol=(2.8630+-0.0443)e-10W/m2(Swihart17) => mbol=4.8605+-0.0168(IAU2015 scale);  
-  fbol=2.76e-10W/m2(Alonso96) => mbol=4.9002(IAU2015 scale); 
-  fbol=2.7478e-7mW/m2(Casagrande11) => mbol=4.9051(IAU 2015 scale);
-  fbol=2.736e-07mW/m2(Gonzalez-Hernandez09) => mbol=4.9097(IAU2015 scale);
-  fbol=2.73e-15fW/m2(Freund18) => mbol=4.9121(IAU 2015 scale);
-  fbol=2.70e-10W/m2(Blackwell98) => mbol=4.9241(IAU 2015 scale)
-  => adopt mbol=4.91+-0.01, so BCv = mbol - V = (4.91+-0.01) - (4.930+-0.007) = -0.020+-0.012. 
+  fbol=(29.03+-0.16)e-11W/m2(vanBelle08/inexplicably adopts
+  Av=0.17+-0.02 for this d~20pc star?)  => mbol=4.8454(IAU2015
+  scale/discrepent), fbol=(2.8630+-0.0443)e-10W/m2(Swihart17) =>
+  mbol=4.8605+-0.0168(IAU2015 scale); fbol=2.76e-10W/m2(Alonso96) =>
+  mbol=4.9002(IAU2015 scale); fbol=2.7478e-7mW/m2(Casagrande11) =>
+  mbol=4.9051(IAU 2015 scale);
+  fbol=2.736e-07mW/m2(Gonzalez-Hernandez09) => mbol=4.9097(IAU2015
+  scale); fbol=2.73e-15fW/m2(Freund18) => mbol=4.9121(IAU 2015 scale);
+  fbol=2.70e-10W/m2(Blackwell98) => mbol=4.9241(IAU 2015 scale) =>
+  adopt mbol=4.91+-0.01, so BCv = mbol - V = (4.91+-0.01) -
+  (4.930+-0.007) = -0.020+-0.012.  Considered part of Ursa Major Group
+  (e.g. Marsden02). Ages:
+  1.0+0.7-0.6Gyr(Vigan17),
+  1.2(0.3,1.8)Gyr(Holmberg09),
+  2.555(2.083,3.028)Gyr(GaiaDR3). 
 
    Teff(F5V) = 6572 K ; sec. stan. HD 134083 = 45 Boo ([Fe/H]=0.00)
    logg(F5V) = 4.28   ; sec. stan. HD 134083 = 45 Boo ([Fe/H]=0.00)   
@@ -1001,8 +1007,11 @@ HD 61421 = alf CMi = Procyon = HIP 37279 = HR 2943 (J0739+0514)
   <Teff>=6583K(N=43). <[Fe/H]>=-0.02(+-0.01sem,+-0.06stdev;N=28),
   <logg>=4.01(+-0.01sem,+-0.06stdev;N=32). Soubiran24 Gaia benchmark
   data: Teff=6582+-5K, logg=3.98+-0.02, [Fe/H]=-0.02+-0.02,
-  Rad=2.043+-0.009Rsun, Mass=1.491+-0.008Msun(Soubiran24/BASTI),
-  Mass=1.439+-0.050Msun(Soubiran24/STAREVOL), logL=0.8481+-0.0039
+  Rad=2.043+-0.009Rsun, Mass=1.439+-0.050Msun(Soubiran24/STAREVOL),
+  Mass=1.478+-0.012Msun(Bond15/dynamical*),
+  Mass=1.487+-0.095Msun(Khan25),
+  Mass=1.491+-0.008Msun(Soubiran24/BASTI) => adopt
+  Mass=1.478+-0.012Msun(Bond15).  logL=0.8481+-0.0039
   (Lum=7.049+-0.064Lsun).  SIMBAD lists *123* Teff estimates (median
   Teff=6593K; 68%CL +-88K), *99* [Fe/H] estimates (median
   [Fe/H]=-0.029; 68%CL +-0.094), and *98* logg estimates (median
@@ -1011,8 +1020,16 @@ HD 61421 = alf CMi = Procyon = HIP 37279 = HR 2943 (J0739+0514)
   B-V=0.421+-0.008(Mermilliod91), U-B=0.021+-0.017(Mermilliod91). fbol
   = (17.86+-0.89)e-6 erg/cm2/s (Aufdenberg05) =>
   mbol=0.373+-0.054(IAU2015 scale). BCv = mbol - V = 0.373+-0.054 -
-  0.365+-0.009 = 0.008+-0.054.
+  0.365+-0.009 = 0.008+-0.054. Ages: 1.48(0.73,3.45)Gyr(David15),
+  1.72+-0.3Gyr(Eggenberger05), 1.83Gyr(Dogan10),
+  1.83+-0.24Gyr(Quirion10), 1.85+-0.08Gyr(Guenther14),
+  1.87+-0.13Gyr(Liebert13), 2.0+-0.5Gyr(Sahlholdt19/Ayres21)
+  2.23+-0.90Gyr(Kahn26), 2.44(1.91,2.97)Gyr(Schonrich14),
+  2.47+-0.13Gyr(Guenther14), ~2.7Gyr(Bond15/models span
+  1.673-2.703Gyr), 2.8+-0.7(Lundkvist14), 3.04+-2.0Gyr(Yildiz19) =>
+  adopt age=2.0+-0.5Gyr(Sahlholdt19).
 
+  Mass(F5V) = 1.48 Msun ; var. standard (F5IV-V) HD 61421 = alf CMi = Procyon ([Fe/H]=-0.02, logg=3.98)
   Teff(F5V) = 6582 K ; var. standard (F5IV-V) HD 61421 = alf CMi = Procyon ([Fe/H]=-0.02, logg=3.98)
   logg(F5V) = 3.98 ; var. standard (F5IV-V) HD 61421 = alf CMi = Procyon ([Fe/H]=-0.02)
   BCv(F5V)  = 0.008 +-0.054 ; var. standard (F5IV-V) HD 61421 = alf CMi = Procyon ([Fe/H]=-0.02, logg=3.98)

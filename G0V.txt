@@ -505,10 +505,11 @@ Mv(G0V) = 4.46 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "s
 Mv(G0V) =  4.44 mag ; B-V=0.596 => Mv(Wright05)
 Mv(G0V) =   4.4  mag ; Schmidt-Kaler82
 Mv(G0V) =   4.4  mag ; GrayCorbally09
-Mv(G0V) =  4.34 mag ; exemplar HD 39091 = pi Men ([Fe/H] = +0.09)
+Mv(G0V) =  4.34 mag ; exemplar HD 39091 = pi Men ([Fe/H]=+0.09)
 Mv(G0V) =  4.35 mag ; median SIMBAD G0V d<25pc (N=25)
-Mv(G0V) =  4.24 mag ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07) 
-Mv(G0V) =  3.94 mag ; sec. stan. iot Per = HD 19373 ([Fe/H]=0.09)
+Mv(G0V) =  4.24 mag ; exemplar HD 165499 = iot Pav ([Fe/H]=-0.07)
+Mv(G0V) =  4.19 mag ; exemplar rho CrB = HD 143761 = HIP 78459 ([Fe/H]=-0.22) 
+Mv(G0V) =  3.94 mag ; sec. stan. iot Per = HD 19373 ([Fe/H]=+0.09)
 Mv(G0V) =   3.76 mag ; Wegner07
 Mv(G0V) =  3.41 mag ; ter. stan. HD 14802 = kap For ([Fe/H]=-0.07, but logg=4.03) 
 => adopt Mv(G0V)   = 4.48 mag  [updated 10/31/2020]
@@ -890,16 +891,13 @@ HD 27406 = Cl Melotte 25 31 = V986 Tau = HIP 20237
   One of the two G0V Hyads classified by Morgan65, and adopted as a
   G0V standard by Corbally86, however Gray01 calls it F9V+.
 
-HD 95128 = 47 UMa = HR 4277
-  G0V: HD(G0),Adams35,MK43,Roman50,Keenan80,Bidelman85,Keenan88
-  G1V: Gray01
- *G1-V Fe-0.5: KeenanYorka85,Keenan89,Keenan99
+HD 95128 = 47 UMa = GJ 407 = HIP 53721 = HR 4277 = Chalawan = NLTT 25907 = SPOCS 472 = 2MASS J10592802+4025485 = Gaia DR3 777254360337133312
+  G0V: HD(G0),Adams35,MK43,Roman50,Keenan80(stan),Bidelman85,Keenan88(stan)
+ *G1V: Gray01
+  G1-V Fe-0.5: Keenan83(stan),KeenanYorka85(stan),Keenan89(stan),Keenan99(stan)
 
-  Was G0V standard in 1943 MKK atlas, but then Keenan changed mind
-  in 1980s to make it a bit later.
-
-
-
+  See further discussion in G1V.txt file.
+  
 rho CrB = HD 143761 = GJ 9537 = GJ 606.2 = HIP 78459 = HR 5968 = LHS 3145 = S 676A = 2MASS J16010264+3318124 = Gaia DR3 1323427759184545536 = WDS J16010+3318A
   F8V: 1957ArA.....2...55O
   G0+Va Fe-1: KeenanYorka85(stan),Keenan89(stan)
@@ -908,11 +906,26 @@ rho CrB = HD 143761 = GJ 9537 = GJ 606.2 = HIP 78459 = HR 5968 = LHS 3145 = S 67
   G1: Bidelman85
   G2V: Roman52(lines weak),Roman55,Harlan81
 
-  Exoplanet host star (4 planets; Brewer23).  V=5.39(HIP),
+  Fuhrmann98: "ρ Coronae Borealis – a slightly metal-poor turnoff star
+  – around which a 51 Peg-type planet has been found by Noyes et
+  al. (1997)."  Weird star behaving badly, with lots of exoplanets
+  (hosting one of the first hot Jupiters, discovered April 1997), see
+  recent detailed studies of the star by Metcalfe21, Kane23, Brewer23.
+  Multiple recent isochronal and asteroseismic age estimates seem to
+  be converging around ~9-10 Gyr, with the most precise being
+  9.53+-0.18Gyr(Sharma24).  Brewer23: "ρ CrB is only a mildly
+  metal-poor star at its current apparent metallicity of [Fe/H] =
+  −0.20. Over its 10 Gyr lifespan, atomic diffusion has reduced the
+  surface abundances from an initial [Fe/H] = −0.1. In either case, it
+  sits on the low end of the giant planet metallicity correlation
+  (Fischer & Valenti 2005).  As host to a hot Jupiter, this has made ρ
+  CrB a bit of an outlier from the start. With at least four
+  companions, this star remains an outlier with its random assortment
+  of planetary masses."  V=5.39(HIP), V=5.397+-0.002(ASCC-2.5),
   V=5.40(TYC), V=5.40(Johnson66), V=5.403181(GaiaDR3/synth),
-  V=5.417+-0.018(Mermilliod91), B-V=0.60(Johnson66),
-  B-V=0.601+-0.010(Mermilliod91), B-V=0.602(Just08),
-  B-V=0.608+-0.003(TYC), B-V=0.612+-0.003(HIP),
+  V=5.417+-0.018(Mermilliod91) => adopt V=5.403+-0.01:.
+  B-V=0.60(Johnson66), B-V=0.601+-0.010(Mermilliod91),
+  B-V=0.602(Just08), B-V=0.608+-0.003(TYC), B-V=0.612+-0.003(HIP),
   U-B=0.085+-0.008(Mermilliod91), U-B=0.09(Johnson66),
   V-Rc=0.344(Just08), g-r=0.411(Just08).  2MASS data is flagged "DEE":
   J=4.088+-0.240(flag=E), H=3.989+-0.036(flag=E),
@@ -920,9 +933,42 @@ rho CrB = HD 143761 = GJ 9537 = GJ 606.2 = HIP 78459 = HR 5968 = LHS 3145 = S 67
   Ks=3.882(Rieke22/2MASS sys/transformed from ground).  V-Ks =
   5.403(GaiaDR3/synth) - 3.882(Rieke22) = 1.521. Soubiran22/PASTEL
   mean values: Teff=5812+-11K, logg=4.25+-0.03, [Fe/H]=-0.22+-0.01.
-  The star is fairly low magnetic activity, which is a bit surprising
-  given its rotation (Prot=17d;Baliunas96), with CaHK activity
-  logR'HK=-5.039(Baliunas96), and Miller15 reports logLx=26.07.
+  GaiaDR3: G=5.232800+-0.002798(GaiaDR3), Bp-Rp=0.798955(GaiaDR3),
+  Bp-G=0.320817(GaiaDR3), G-Rp=0.478138(GaiaDR3).
+  plx=57.1076+-0.0508mas(GaiaDR3) => w/GaiaDR3 synthetic V =>
+  Mv=4.19+-0.01.  Mass: 0.889+-0.030Msun(Fulton16),
+  0.92+0.05-0.04Msun(Harada24), 0.94+0.00-0.01Msun(Chen20),
+  0.96+0.02-0.01Msun(Ramirez12), 0.96+-0.02(Metcalfe21),
+  0.96+-0.06Msun(Yee17), 0.97+-0.05Msun(Fuhrmann98),
+  0.99+-0.04Msun(GaiaDR3/FLAME), 1.00+-0.04Msun(Brewer16/iso),
+  1.02(0.97,1.09)Msun(Casagrande11/BASTI),
+  1.03+-0.06Msun(Casagrande11/Padova), 1.19+-0.16Msun(Brewer16) =>
+  adopt M=0.96Msun.  Ages: 2.5+-0.4Gyr(Ramirez12),
+  7.82(4.20,11.10)Gyr(Casagrande11/Padova),
+  8.10(4.25,11.35)Gyr(Casagrande11/BASTI), 8.4(6.7,10.4)Gyr(Brewer16),
+  9.12+-~2.11(Yee17;log(age/yr)=9.96+-0.10),
+  9.28+0.30-0.32Gyr(Chen20), 9.53+-0.18Gyr(Sharma24),
+  9.8+0.7-0.5Gyr(Metcalfe21/asteroseismo), 10.2+-1.7Gyr(Furhmann98),
+  10.793(9.762,11.824)Gyr(GaiaDR3/FLAME), 11.05+-1.89Gyr(Harada24) =>
+  notable that the 3 most precise recent estimates are all giving
+  ~9-10 Gyr.  Alpha enhancement: [a/Fe]=+0.11(Brewer16),
+  [a/Fe]=+0.12(Casagrande11), [a/Fe]=+0.12(Venn04),
+  [a/Fe]=+0.128+-0.015(Lee11#2), [a/Fe]=+0.13+-0.04(Lee11#1),
+  Boettner24 lists P(Thick)/P(Thin)=0.17665 and lists it as thick disk
+  candidate, Venn04 gave P(thick)=0.6, Sharma24 gave
+  P(Thick)/P(thin)=0.096, regardless, the star is somewhat alpha-rich.
+  Rotation: the situation is confusing - see extensive discussion by
+  Brewer23. A wide range of rotation rates have been quoted, mostly
+  between 14.8 and 20.3 days using CaHK and photometry, but there are
+  a couple seasons of Mt Wilson where Schmitt20 measured periods of
+  over 40 days, and an extensive analysis by Brewer23 found a CCF
+  periodicity of 28.9 d, but was unable to recover any
+  activity/CaHK/photometric periods in the range where most have
+  reported them (i.e. ~15-10d). For the off-cited Mt. Wilson Prot=17d
+  from Baliunas96, Noyes97 noted that the "evidence is marginal"
+  (Soon, priv.comm.) - Baliunas96 did not show the periodicity
+  analysis / seasonal data / etc.  Note that the star is extremely
+  inactive: logR'HK=-5.051(Isaacson24), log(Lx/Lbol)=-6.88.
 
 HD 160269 = 26 Dra = HIP 86036 = HR 6573 = LHS 3305 = WDS J17350+6153AB 
  *F9V+K3V: Edwards76
