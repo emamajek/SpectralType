@@ -921,24 +921,26 @@ alf Cen B = HD 128621 = GJ 559B = HIP 71681 = HR 5460 = Toliman
   metal-rich [Fe/H] ~ +0.2.  I don't understand the meaning of the
   Gray06 type.  plx=743.0+-1.3mas(Pourbaix16),
   plx=750.81+-0.38mas(Akeson21).
-  V(B)=1.335(Bessell83,GCPD/Cousins76/VRIc),
+  V(B)=1.335(Bessell83,GCPD/Cousins76/VRIc), V(B)=1.34(Bessell90),
   V(B)=1.348+-0.012(ASCC/Kharchenko09), V(B)=1.35(HIP),
   V(B)=1.35(Mermilliod87) => adopt V(B)=1.35.
-  B-V=0.840(Bessell83,GCPD/Cousins76/VRIc,Bessell90),
-  B-V=0.868(Just08), B-V=0.87(Kamper78), B-V=0.88(Cousins67,BSC91),
+  B-V=0.840(Cousins76,Bessell83,Bessell90), B-V=0.868(Just08),
+  B-V=0.87(Kamper78), B-V=0.88(Cousins67,BSC91),
   B-V=0.900+-0.020(HIP), B-V=0.900(Mermilliod87) => adopt B-V=0.87.
-  U-B=0.630(Mermilliod87), V-Rc=0.474(Bessell83,GCPD/Cousins76/VRIc),
-  V-Rc=0.475(Bessell81), R-Ic=0.404(Bessell83,GCPD/Cousins76/VRIc),
-  R-Ic=0.405(Bessell81), V-Ic=0.878(Bessell83,GCPD/Cousins76/VRIc),
-  V-Ic=0.880(Bessell81), V-Ic=0.88+-0.02(HIP).  g-r=0.702(Just08),
-  r-i=0.172(Just08).  Jj=-0.01(Boyajian13), Hj=-0.49(Boyajian13),
-  Kj=-0.60(Boyajian13), K=-0.61(Huang15, what system?). If the
-  Boyajian13 is on Johnson system, convert via Rieke22 => Ks=-0.627 =>
-  M_Ks=3.75.  (V-Ks) = 1.335 - -0.627 = 1.962.  Mv=5.86.  Akeson21:
-  Mass_B=0.9092+-0.0025Rsun, Rad_B=0.8591+-0.0036Rsun.  Mass:
-  0.907+-0.006Msun(Thevenin02), 0.9092+-0.0025Msun(Akeson21),
-  0.934+-0.006Msun(Pourbaix02), 0.9373+-0.0033Msun(Kervella17),
-  0.972+-0.0045Msun(Pourbaix16).  Radii: 0.8591+-0.0036Rsun(Akeson21).
+  U-B=0.630(Mermilliod87), V-Rc=0.474(Cousins76,Bessell83,Bessell90),
+  V-Rc=0.475(Bessell81) => adopt V-Rc=0.474.
+  R-Ic=0.404(Cousins76,Bessell83,Bessell90), R-Ic=0.405(Bessell81) =>
+  adopt R-Ic=0.404.  V-Ic=0.878(Cousins76,Bessell83,Bessell90),
+  V-Ic=0.880(Bessell81) => adopt V-Ic=0.878.  V-Ic=0.88+-0.02(HIP).
+  g-r=0.702(Just08), r-i=0.172(Just08).  Jj=-0.01(Boyajian13),
+  Hj=-0.49(Boyajian13), Kj=-0.60(Boyajian13), K=-0.61(Huang15, what
+  system?). If the Boyajian13 is on Johnson system, convert via
+  Rieke22 => Ks=-0.627 => M_Ks=3.75.  (V-Ks) = 1.335 - -0.627 = 1.962.
+  Mv=5.86.  Akeson21: Mass_B=0.9092+-0.0025Rsun,
+  Rad_B=0.8591+-0.0036Rsun.  Mass: 0.907+-0.006Msun(Thevenin02),
+  0.9092+-0.0025Msun(Akeson21), 0.934+-0.006Msun(Pourbaix02),
+  0.9373+-0.0033Msun(Kervella17), 0.972+-0.0045Msun(Pourbaix16).
+  Radii: 0.8591+-0.0036Rsun(Akeson21).
   0.8632+-0.0037Rsun(Kervella17).  Teffs: 5207+-12K(Soubiran24),
   5231+-21K(Kervella17) Surface gravity: logg=4.54+-0.03(Soubiran22).
   Metallicities: [Fe/H]=+0.24+-0.01(Soubiran22),
@@ -947,10 +949,10 @@ alf Cen B = HD 128621 = GJ 559B = HIP 71681 = HR 5460 = Toliman
   L=0.488+-0.002Lsun(Soubiran24), L=0.4981+-0.0007Lsun(Akeson21) =>
   logL=-0.30268+-0.00061(Akeson21).  Rotation:
   P=36.66+0.28-0.30d(Dumusque14), logLx=27.06+-0.36(Booth17),
-  logLx/Lbol=-6.22(Booth17/Xray,Akeson21/Lbol).
-  Ayres23 summarizes 33 X-ray observations for alf Cen A and B between 2005
-  and 2023, for which I calculate fx(median)=1.32e-11erg/s/cm2 => logLx=27.45
-  => logLx/Lbol=-5.83. 
+  logLx/Lbol=-6.22(Booth17/Xray,Akeson21/Lbol).  Ayres23 summarizes 33
+  X-ray observations for alf Cen A and B between 2005 and 2023, for
+  which I calculate fx(median)=1.32e-11erg/s/cm2 => logLx=27.45 =>
+  logLx/Lbol=-5.83.
 
   (B-V)(K1V)  =  0.87  ; exemplar alf Cen B = HD 128621 ([Fe/H]=+0.24)
   (U-B)(K1V)  =  0.63  ; exemplar alf Cen B = HD 128621 ([Fe/H]=+0.24)
@@ -1435,7 +1437,7 @@ RECONS list shows Alf Cen B is the nearest K1V star, followed by GJ
   *K1V: Adams35,Torres06
    K1.5V(k): Gray06(probably unresolved)
    K2V: Joy49,Bidelman85(K2),Luck17
-   K2:III:: Houk82
+   K(2)(III): Houk82
 
    Median type is ~K1V, same as for 36 Oph B.  BSC: V=5.07, B-V=0.85,
    U-B=0.53. plx=167.8221+-0.1556mas(GaiaDR2).  Mv = 6.19. Essentially
@@ -1451,24 +1453,17 @@ RECONS list shows Alf Cen B is the nearest K1V star, followed by GJ
    Taking delta(Hp)=delta(V), then then the Mermilliod91 unresolved
    Vmag (4.323+-0.015) translates to
    V(A)=5.070+-0.016(Mermilliod91/w/V=4.323),
-   V(B)=5.081+-0.019(Mermilliod91/w/V=4.323). Unresolved
-   photometry:
-   V(AB)=4.32(Johnson66),
-   V(AB)=4.323+-0.015(Mermilliod91/Nobs>27), 
-   V(AB)=4.325(Cousins80),
-   V(AB)=4.33(HIP),
-   V(AB)=4.340(Cousins71),
-   B-V(AB)=0.855(Cousins71),
-   B-V(AB)=0.855+-0.010(HIP),
-   B-V(AB)=0.859+-0.007(Mermilliod91),
-   B-V(AB)=0.86(Johnson66),
-   U-B(AB)=0.49(Johnson66),
-   U-B(AB)=0.494+-0.017(Mermilliod91),
-   U-B(AB)=0.53(Cousins71),
-   Rj=3.62(Morel78), Ij=3.18(Morel78), R-Ic(AB)=0.44(Cousins80),
-   V-Ic(AB)=0.92+-0.02(HIP), V-Ic(AB)=0.925(Cousins80) -> assuming
-   delta(mag) is negligible, then these should reflect the colors of
-   the individual stars.  plx(A)=167.8221+-0.1556mas(GaiaDR2),
+   V(B)=5.081+-0.019(Mermilliod91/w/V=4.323). Unresolved photometry:
+   V(AB)=4.32(Johnson66), V(AB)=4.323+-0.015(Mermilliod91/Nobs>27),
+   V(AB)=4.325(Cousins80), V(AB)=4.33(HIP), V(AB)=4.340(Cousins71),
+   B-V(AB)=0.855(Cousins71), B-V(AB)=0.855+-0.010(HIP),
+   B-V(AB)=0.859+-0.007(Mermilliod91), B-V(AB)=0.86(Johnson66),
+   U-B(AB)=0.49(Johnson66), U-B(AB)=0.494+-0.017(Mermilliod91),
+   U-B(AB)=0.53(Cousins71), Rj=3.62(Morel78), Ij=3.18(Morel78),
+   R-Ic(AB)=0.44(Cousins80), V-Ic(AB)=0.92+-0.02(HIP),
+   V-Ic(AB)=0.925(Cousins80) -> assuming delta(mag) is negligible,
+   then these should reflect the colors of the individual stars.
+   plx(A)=167.8221+-0.1556mas(GaiaDR2),
    plx(B)=167.7764+-0.2210mas(GaiaDR2) => wt mean
    plx(AB)=167.8070+-0.1272mas.  Mass: 0.75+-0.04Msun(Irwin96),
    0.75+-0.06Msun(Luck17), 0.794Msun(Anders19), 0.824Msun(Eker18
@@ -1483,13 +1478,14 @@ RECONS list shows Alf Cen B is the nearest K1V star, followed by GJ
    [Fe/H]=-0.23. Soubiran22 lists [Fe/H]=-0.22+-0.06 for A, and
    [Fe/H]=-0.22+-0.03 for B, so adopt [Fe/H]=-0.22.  Rad = 0.729Rsun
    (for logL=-0.490+-0.006, Teff=5100+-50K). Rotation/Activity:
-   Prot=20.69d(range:18.07-22.47d;Donahue96), Prot=21d(Baliunas96/same
-   as B), Mt Wilson <S>=0.375(Donahue96;N=7seasons),
+   Prot=20.69d(range:18.07-22.47d;Donahue96),
+   Prot=20.58+-0.50d(Olspert18/28.0yr), Prot=21d(Baliunas96/same as
+   B), Mt Wilson <S>=0.375(Donahue96;N=7seasons),
    logR'HK=-4.559(Baliunas96), logLx=27.97(Zhu25/final),
    logLx/Lbol=-5.13(Lx/Zhu25,Lum/Stassun19), logLx/Lbol=-5.13(Zhu25).
-   Calculating gyrochronology age using gyrointerp (Bouma23):
-   Prot=20.69+-1d, Teff=5132+-26K => age(A)=2.329+0.245-0.201Gyr.
-   Combining with B, adopt age(36OphAB)=2.36+-0.2Gyr.
+   Calculating gyrochronology age using gyrointerp (Bouma23),
+   Prot=20.58+-0.50(Olspert18), Soubiran22 Teff =>
+   age(A)=2.146+0.174-0.140Gyr.
 
 36 Oph B = HD 155885 = GJ 663B = HR 6401 = LHS 438 = NLTT 44416 = SHJ 243B = ADS 10417B = CCDM J17155-2635B = CD-26 12026B = WDS J17153-2636B = Gaia DR3 4109030160308317312
    G8V:: 1943HarCi.449....1H
@@ -1524,14 +1520,21 @@ RECONS list shows Alf Cen B is the nearest K1V star, followed by GJ
    logg=4.58+-0.02, [Fe/H]=-0.25+-0.04. Luminosity(EEM):
    logL=-0.494+-0.009. For Teff=5087+-44K, then Rad=0.729+-0.015Rsun.
    Hence the components seem to be identical radius as well.
-   Rotation/Activity: Prot=21d(Baliunas96/same as A),
-   Prot=21.11d(range:19.46-22.91d;Donahue96;Nseasons=5), Mt. Wilson
+   Rotation/Activity: Prot=18.87+-0.42d(Olspert18/delta(T)=28.0yr!),
+   Prot=21d(Baliunas96/same as A),
+   Prot=21.11d(range:19.46-22.91d;Donahue96;Nseasons=5), Donahue93PhD
+   lists individual season Prot values: 22.905+-0.270d(season
+   1980.60/Nobs=192), 32.009+-0.420d(season 1981.45/Nobs=194),
+   21.068+-0.216d(season 1982.45/Nobs=227), 19.460+-0.397d(season
+   1984.40/Nobs=72), 20.245+-0.215d(season 1986.50/Nobs=114),
+   21.850+-0.243d(season 1987.45/Nobs=87), of these he retains the 5
+   for Donahue96. So it seems slightly odd that the Donahue values are
+   all systematically longer than the Olspert18 average.  Mt. Wilson
    <S>=0.384(N=5seasons;Donahue96), logR'HK=-4.570(Baliunas96),
    logLx=27.82(Zhu25/final), logLx/Lbol=-5.28(Lx/Zhu25,Lum/Stassun19),
-   logLx/Lbol=-5.29(Zhu25). Calculating gyrochronology age using
-   gyrointerp (Bouma23): Prot=21.11+-1d, Teff=5144+-31K =>
-   age(B)=2.393+0.256-0.210Gyr. Combining with A, adopt
-   age(36OphAB)=2.36+-0.2Gyr.
+   logLx/Lbol=-5.29(Zhu25).  Calculating gyrochronology age using
+   gyrointerp (Bouma23): Prot=18.87+-0.42d(Olspert18),
+   Teff=5144+-31K(Soubiran22) => age(B)=2.310+0.205-0.166Gyr.
 
 HD 42286 = GJ 9202 = HIP 28898 = LHS 1818 = L 181-28 = NLTT 16099 = 2MASS J06060351-5932353 = Gaia DR3 5494452847462040192 
    K0V: Evans61

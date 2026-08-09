@@ -965,8 +965,9 @@ GJ 689 = HD 160964 = HIP 86141 = 2MASS J17361334+7152426 = CNS5 4342 = TIC 23319
   4464K(GaiaDR3/golden), 4499+-8K(Mishenina08,Mishenina12),
   4500K(GaiaDR2), 4518K(Houdebine19), 4529+-30K(Soubiran22/PASTEL),
   4530+-57K(Bai19), 4540+-123K(TIC/Stassun19),
-  4541(4481,4634)K(GaiaDR2), 4565+-152K(HardegreeUllman23), 4569+-170K(Montalto21),
-  4589+-46K(Luck17), 4663(4526,4850)K(Anders19), 4688K(Reiners20),
+  4541(4481,4634)K(GaiaDR2), 4565+-152K(HardegreeUllman23),
+  4569+-170K(Montalto21), 4589+-46K(Luck17),
+  4663(4526,4850)K(Anders19), 4688K(Reiners20),
   4689(4671,4804)K(Anders22), 4898K(Huson25/discrepent) => adopt
   Teff=4540K.  Metallicities: [Fe/H]=-0.07+-0.05(Mishenina12),
   [Fe/H]=-0.03+-0.04(Soubiran22/PASTEL), [Fe/H]=+0.04(Luck17),
@@ -985,24 +986,22 @@ GJ 689 = HD 160964 = HIP 86141 = 2MASS J17361334+7152426 = CNS5 4342 = TIC 23319
   8.565 = -0.394(GaiaDR3). No direct angular diameter measurements
   that I can find, but here is predicted value:
   tetLDD=0.351786+-0.007689mas(Bourges17) => using GaiaDR3 parallax =>
-  Rad=0.7205+-0.0158Rsun.
-  Radius:
-  Rad=0.668+-0.050Rsun(HardegreeUllman23), 
+  Rad=0.7205+-0.0158Rsun.  Radius:
+  Rad=0.668+-0.050Rsun(HardegreeUllman23),
   Rad=0.696+-0.054Rsun(Stassun19/TIC),
-  Rad=0.713(0.6999,0.7346)Rsun(GaiaDR3/FLAME/teff_gspphot), 
-  Rad=0.7205+-0.0158Rsun(Bourges17+GaiaDR3)
-  Luminosities:
-  L=0.1764(0.1714,0.1814)Lsun(GaiaDR3/FLAME) => logL=-0.7535+-0.0123(GaiaDR3/FLAME),
-  L=1.79e-01+-5.45e-03Lsun(HardegreeUllman23) => logL=-0.7471+-0.0132(HardegreeUllman23),
-  L=0.18530+-0.00878Lsun(Stassun19/TIC) => logL=-0.7321+-0.0206(Stassun19/TIC)
-  => adopt logL=-0.7471. 
-  Masses:
-  0.650+-0.051Msun(HardegreeUllman23), 
-  0.676+-0.026Msun(M_Ks=>Mann18 calib), 
-  0.703(0.663,0.743)Msun(GaiaDR3/FLAME),
+  Rad=0.713(0.6999,0.7346)Rsun(GaiaDR3/FLAME/teff_gspphot),
+  Rad=0.7205+-0.0158Rsun(Bourges17+GaiaDR3) Luminosities:
+  L=0.1764(0.1714,0.1814)Lsun(GaiaDR3/FLAME) =>
+  logL=-0.7535+-0.0123(GaiaDR3/FLAME),
+  L=1.79e-01+-5.45e-03Lsun(HardegreeUllman23) =>
+  logL=-0.7471+-0.0132(HardegreeUllman23),
+  L=0.18530+-0.00878Lsun(Stassun19/TIC) =>
+  logL=-0.7321+-0.0206(Stassun19/TIC) => adopt logL=-0.7471.  Masses:
+  0.650+-0.051Msun(HardegreeUllman23), 0.676+-0.026Msun(M_Ks=>Mann18
+  calib), 0.703(0.663,0.743)Msun(GaiaDR3/FLAME),
   0.720+-0.086Msun(Stassun19/TIC),
-  0.742(0.702,0.782)Msun(GaiaDR3/FLAME), 
-  0.75Msun(Luck17) => adopt Mass=0.712Msun. 
+  0.742(0.702,0.782)Msun(GaiaDR3/FLAME), 0.75Msun(Luck17) => adopt
+  Mass=0.712Msun.
 
         G =  8.1705+-0.0028 ; pri. stan. GJ 689 = HD 160964 ([Fe/H]=-0.03)     
    (V-Rc)(K4V) =   0.669 +-0.010 ; pri. stan. GJ 689 = HD 160964 ([Fe/H]=-0.03)     
@@ -1360,7 +1359,12 @@ GJ 845 = eps Ind = HD 209100 = HIP 108870 = HR 8387 = LHS 67 = PLX 5314 = SOZ 1A
    -0.68+-0.04. BCv = mbol - V = 4.223+-0.078 - 4.688+-0.012 =
    -0.465+-0.079.  plx=274.8048+=0.2494mas(GaiaDR2),
    276.06+-0.28mas(HIP2), plx=274.8431+-0.0956mas(GaiaDR3).  Mv =
-   6.893+-0.012.
+   6.893+-0.012. Rotation: situation is confusing with discrepent
+   estimates: Prot=11.287+-0.855d(Lin24/TESS),
+   Prot=22.00d(Cincunegui07), Prot=24.9d(SuarezMascareno17),
+   Prot=32.87+-0.067d(Laliotis23), Prot=35d(Feng19),
+   Prot=37.6+-6.2d(Lovis11/indirect based on R'HK). Adopting the
+   Laliotis23 value, the gyro age (Bouma23 calibration) is >4Gyr.
 
         G =  4.3229+-0.0029 ; exemplar GJ 845 = eps Ind ([Fe/H]=-0.13)     
    (V-Rc)(K4V) =   0.620 +-0.010 ; exemplar GJ 845 = eps Ind ([Fe/H]=-0.13)     

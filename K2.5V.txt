@@ -198,23 +198,59 @@ HD 283750 = BD+26_730 = V833 Tau
 
 # Exemplars
 
-HR 1982 = HD 38392 = gam Lep B = AK Lep
+HD 38392 = AK Lep = HR 1982 = gam Lep B = TIC 93279196 = Gaia DR3 2964001014514075520
   K2V: Roman49,Levato78
- *K2.5V(i): Gray06
+ *K2.5V(k): Gray06
   K3V: Munch44,Bidelman85(K3),Abt08
   K6V: Adams35
 
   Surprisingly bright nearby star missing from Hipparcos, but in
-  Tycho.  Ursa Major stream member, unclear if associated with
-  cluster.  V=6.16(TYC), V=6.160+-0.012(Mermilliod91),
-  B-V=0.954+-0.009(TYC), B-V=0.949+-0.007(Mermilliod91),
-  U-B=0.740+-0.000(Mermilliod91), 2MASS photometry is flagged CCD so
+  Tycho.  Ursa Major stream member, unclear if associated with cluster
+  (Soderblom93 has as "probable
+  non-member"). plx=112.4661+-0.0225mas(GaiaDR3).  V=6.16(TYC),
+  V=6.160+-0.012(Mermilliod91), V=6.171(Stepien95/Nobs=23),
+  B-V=0.941(Stepien95/Nobs=23), B-V=0.949+-0.007(Mermilliod91),
+  B-V=0.954+-0.009(TYC), U-B=0.740+-0.000(Mermilliod91),
+  U-B=0.775(Stepien95/Nobs=23), V-Rc=0.552(Stepien95/Nobs=23),
+  V-Ic=1.017(Stepien95/Nobs=23).  2MASS photometry is flagged CCD so
   poor all around.
   plx=112.4005+-0.0302mas(GaiaDR2). Mv=6.414+-0.012(M91,GaiaDR2).
-  PASTEL: <Teff>=4967K(N=5), <logg>=4.50(N=4), <[Fe/H]>=-0.01(N=4).
-  Soubiran22/PASTEL catalog means: Teff=5027+-67K, logg=4.51+-0.06,
-  [Fe/H]=-0.06+-0.04.
-  
+  Radius: 0.78+-0.02Rsun(Harada24),
+  Rad=0.7926(0.7921,0.7933)Rsun(GaiaDR3).  PASTEL: <Teff>=4967K(N=5),
+  <logg>=4.50(N=4), <[Fe/H]>=-0.01(N=4).  Soubiran22/PASTEL catalog
+  means: Teff=5027+-67K, logg=4.51+-0.06,
+  [Fe/H]=-0.06+-0.04. Rotation: Prot=10.48564d(Schmitt26/TESS),
+  Prot=12.8d(Soderblom91, est. from MgII h&k trend),
+  Prot=17.3d(Saar97), Prot=21.4d(Nitschelm00), LecavelierdesEtangs05:
+  "periodogram shows various periods for different epochs of
+  observations. In the 1999–2000 data, the brightness variations have
+  a period of about 18.9 days, while in the 2000–2001 data the period
+  is about 21.4 days, linked with another period of 10.5 days...".
+  The logLx/Lbol value (-5.13;Zhu25) is consistent with Prot~22.3d
+  logLx=27.93(Zhu25/ROSAT+eROSITA),
+  logLx/Lbol=-5.13(Zhu25). logR'HK=-4.495+-0.005(Henry96/Nobs=3),
+  logR'HK=-4.638(Isaacson24/Nobs=25). vsini=4.3km/s(Luck17).
+  vsini=3.5+-0.4km/s(Herrero12) => given Rad=0.7926Rsun(GaiaDR3) =>
+  then this suggests Prot needs to be <11.5d.  So several pieces of
+  evidence suggests Prot~10.5d might be reasonable: (1) matches
+  Schmitt26 TESS estimate, (2) consistent with vsini constraint
+  (Prot<11.5d), (3) consistent with MgII data (Soderblom91), (4)
+  consistent with LecavelierdesEtangs05 "another period" 10.5d, (5)
+  consistent with 0.5xNitschelm00 period (10.7d). However, this is
+  shorter than the Prot predicted from R'HK (for the Isaacson24 and
+  Henry96 R'HK values, I'd predict Prot=26.1d & 16.5d), and from
+  logLx/Lbol (for Zhu25 value, I estimate Prot~22.d). Lithium:
+  EW(Li)<3mA(Soderblom93;logNLi<-0.1)=, but EWLi=68.8+-2.9mA(Reidel17
+  cites Maldonado10, but I can't find it in the paper; i'm wondering
+  if that is referring to gam Lep itself? Note that Soderblom93
+  measured EWLI=54mA for the F6V star HD 39393 = gam Lep A, which
+  would support this). Gyro age estimates, both adopting Soubiran22
+  Teff: adopting Prot=21.4d(assume +-10%) from Nitschelm00 =>
+  age(gyro)=2421+378-312 Myr, adopting Prot=10.48564d(assume +-10%)
+  from Schmitt26 => age(gyro)=866+236-246 Myr.  From
+  logLx/Lbol=-5.13(Zhu25) and relations from Mamajek08, I'm getting
+  X-ray age of ~1.1Gyr, more consistent with the younger age.
+    
 HD 191408 = GJ 783A = HR 7703 = HJ 5173 A
   K2V: Wilson62,Houk82,Bidelman85(K2)
  *K2.5V: Gray06
