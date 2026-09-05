@@ -138,23 +138,26 @@ bet Hyi = HD 2151 = GJ 19 = HR 98 = HIP 2021 = LHS 6 = CD-77 15 = SPOCS 20 = 2MA
   G2IV: Evans57
 
   Appears to be slightly metal poor ([Fe/H]=-0.12+-0.02;Soubiran24),
-  definitely evolved with most authors publishing logg ~ 4.0 (e.g.,
-  logg=3.97+-0.04;Soubiran24). The star is clearly somewhat evolved,
-  and its properties are clearly intermediate between the G0IV and
-  G2IV standards, so I adopt the Houk/Garrison type G1IV.  Very
-  well-studied bright nearby subgiant, a Gaia benchmark star
-  (Soubiran24), asteroseimology target (Metcalfe24), conflicting
-  estimates of rotation period (Laliotis23,Metcalfe24), and X-ray
-  measurements (Zhu25). Star is discussed at length in Metcalfe24 and
-  Sec 6.2 of Laliotis23, and was the target of intense studies of
-  activity and asteroseismology in recent decades as a prototype older
-  Sun-like star (e.g. Dravins93[three
-  papers],Bedding01,Bedding07,Brandao17).  V=2.79(Cousins62/Nobs=4),
-  V=2.79(Mendoza69/Nobs=2), V=2.792+-0.008(ASCC-2.5),
-  V=2.797+-0.005(Mermilliod91/N>21), V=2.80(Johnson66/N=3),
-  V=2.80(GCPD/Cousins76_VRIc/N=4), V=2.80(Cousins77/Nobs=4),
-  V=2.800+-0.006(Cousins71), V=2.18(Hoag58/Nobs=1), V=2.82(HIP,TYC) =>
-  adopt V=2.797+-0.005(Mermilliod91).  B-V=2.82(HIP),
+  somewhat evolved with most authors publishing logg ~ 4.0 (e.g.,
+  logg=3.97+-0.04;Soubiran24). Star appears to have a fairly
+  well-constrained of ~6.5 Gyr (see below) and mass (~1.10-1.11 Msun),
+  and placing its HRD position on [Fe/H]-appropriate MIST evolutionary
+  tracks places it right the interface between MS and post-MS phases,
+  i.e. a "turn-off" star.  The parameters are intermediate between the
+  G0IV and G2IV standards, so I adopt the Houk/Garrison type G1IV. It
+  is a very well-studied Gaia benchmark star (Soubiran24),
+  asteroseimology target (Metcalfe24), with conflicting estimates of
+  rotation period (Laliotis23,Metcalfe24), and X-ray measurements
+  (Zhu25). Star is discussed at length in Metcalfe24 and Sec 6.2 of
+  Laliotis23, and was the target of intense studies of activity and
+  asteroseismology in recent decades as a prototype older Sun-like
+  star (e.g. Dravins93[three papers],Bedding01,Bedding07,Brandao17).
+  V=2.79(Cousins62/Nobs=4), V=2.79(Mendoza69/Nobs=2),
+  V=2.792+-0.008(ASCC-2.5), V=2.797+-0.005(Mermilliod91/N>21),
+  V=2.80(Johnson66/N=3), V=2.80(GCPD/Cousins76_VRIc/N=4),
+  V=2.80(Cousins77/Nobs=4), V=2.800+-0.006(Cousins71),
+  V=2.18(Hoag58/Nobs=1), V=2.82(HIP,TYC) => adopt
+  V=2.797+-0.005(Mermilliod91).  B-V=2.82(HIP),
   B-V=0.61(Cousins77/Nobs=4), B-V=0.61(Mendoza69/Nobs=2),
   B-V=0.617+-0.005(Mermilliod91/N>21), B-V=0.618+-0.008(HIP),
   B-V=0.62(Cousins62/N=4), B-V=0.62(Johnson66/N=3),
@@ -199,29 +202,44 @@ bet Hyi = HD 2151 = GJ 19 = HR 98 = HIP 2021 = LHS 6 = CD-77 15 = SPOCS 20 = 2MA
   fitting with Av=0 and logg=4.0: BT-Settl-AGSS2009 model Teff=5900K,
   Lum=3.473+-0.052Lsun, logL=+0.5407+-0.0065, [M/H]=+0.5.  Metcalfe24:
   "Although the rotation period has never been measured directly, it
-  was estimated to be near 27 days."  "Starting with the GWPS, the
-  main periodicity corresponds to ∼23 days. Unfortunately, this value
-  falls within the exclusion cone of the wavelet analysis, indicated
-  by the hashed region in the top left panel of Figure 3. Reliable
-  results typically require a light curve longer than 3 times the
-  rotation period. The ACF shows a signal around 24.7 days, which is
-  further enhanced in the CS (24.4 days). Given the star’s brightness,
-  we believe that the modulation is likely of stellar origin. Based on
-  the current TESS data analysis, we conclude that the rotation period
-  is Prot = 23.0±2.8 days. However, additional observations may be
-  required to confirm this estimate."  Laliotis23: "we note that the
-  RV residuals periodogram contains a well-defined peak at 73.3 days,
-  which may correspond to rotation, as this is a slightly evolved
-  star."  Metcalfe24 notes that an IUE UV activity-rotation relations
-  based on Olmedo13 would predict Prot=27.1+-1.7d).  Radius:
-  1.831+-0.009Rsun(Metcalfe24/YREC),
-  1.840+-0.032Rsun(Metcalfe24/MESA), Ages: 5.3+-1.0Gyr(Bensby18),
+  was estimated to be near 27 days." [false, multiple Prot values were
+  quoted before this] "Starting with the GWPS, the main periodicity
+  corresponds to ∼23 days. Unfortunately, this value falls within the
+  exclusion cone of the wavelet analysis, indicated by the hashed
+  region in the top left panel of Figure 3. Reliable results typically
+  require a light curve longer than 3 times the rotation period. The
+  ACF shows a signal around 24.7 days, which is further enhanced in
+  the CS (24.4 days). Given the star’s brightness, we believe that the
+  modulation is likely of stellar origin. Based on the current TESS
+  data analysis, we conclude that the rotation period is Prot =
+  23.0±2.8 days. However, additional observations may be required to
+  confirm this estimate." Metcalfe24 notes that an IUE UV
+  activity-rotation relations based on Olmedo13 would predict
+  Prot=27.1+-1.7d). Laliotis23: "we note that the RV residuals
+  periodogram contains a well-defined peak at 73.3 days, which may
+  correspond to rotation, as this is a slightly evolved star."
+  Karoff07 analysis of WIRE photometry: "a lower limit on the rotation
+  period of 65 days...". Reiners03 estimated vsini=3.3+-0.3km/s, from
+  which Ammler-vonEiff12 estimated P/sini=28.1d (i.e. upper limit to
+  rotation period), however Perdelwitz24 has vsini=4.759+-0.188km/s.
+  Radius: 1.831+-0.009Rsun(Metcalfe24/YREC),
+  1.840+-0.032Rsun(Metcalfe24/MESA).  Combining Metcalfe24/YREC Rad
+  and Reiners03 vsini => P/sini>28.1d, identical to Ammler-vonEiff12
+  limit.  Ages: 5.3+-1.0Gyr(Bensby18),
   6.07+0.12-0.21Gyr(Auilera-Gomez18), 6.15+0.10-0.22Gyr(Ramirez12),
   6.26+-0.57Gyr(Metcalfe24/asteroseismo/MESA), 6.28Gyr(Ibukiyama02),
   6.40+-0.56Gyr(Brandao11/asteroseismo).
-  6.46+-0.13Gyr(Metcalfe24/asteroseismo/YPEC),
-  6.64+0.85-1.37Gyr(Harada24), 7.099+-0.088Gyr(Borisov23) => age ~ 6.3
-  Gyr.  Mass: 1.0572+-0.00360Msun(Borisov23),
+  6.46+-0.13Gyr(Metcalfe24/asteroseismo/YPEC), ~6.5Gyr(EEM MIST
+  [Fe/H]=-0.1 tracks, Soubiran24 HRD point),
+  6.64+0.85-1.37Gyr(Harada24), 7.099+-0.088Gyr(Borisov23) => age ~ 6.4
+  Gyr. Placing star's Soubiran24 HRD point on MIST tracks for
+  [Fe/H]=-0.10, [a/Fe]=0, I get a good fit at age ~6.5 Gyr and
+  ~1.105Msun, and right at the threshold between MIST's estimate of
+  the MS and post-MS phases...  these parameters are fairly consistent
+  with the Metcalfe24 results. If one follows the MIST evolutionary
+  track, beta Hyi was at its bluest/hottest at Teff~6250K, age~3.3Gyr,
+  i.e. it would've been ~F7-7.5V during its MS phase.  Mass:
+  1.0572+-0.00360Msun(Borisov23),
   1.08+-0.03Msun(Brandao11/Kirkpatrick24),
   1.086+-0.036Msun(Soubiran24/seismic), 1.10Msun(Zechmeister13),
   1.107+-0.009Msun(Metcalfe24/YREC),
@@ -232,7 +250,7 @@ bet Hyi = HD 2151 = GJ 19 = HR 98 = HIP 2021 = LHS 6 = CD-77 15 = SPOCS 20 = 2MA
   1.141(1.134,1.159)Msun(Ramirez13), 1.15+-0.01Msun(Aguilera-Gomez18),
   1.151+-0.111Msun(Soubiran24/STAREVOL0,
   1.16(1.15-1.18)Msun(Casagrande11/BASTI), 1.17Msun(Reiners20),
-  1.17+0.26-0.21Msun(Harada24) ,
+  1.17+0.26-0.21Msun(Harada24),
   1.19(1.16-1.29)Msun(Casagrande11/Padova),
   1.192+-0.088Msun(Pinheiro14/median), 1.21+-0.07(Bensby18),
   1.224+-0.120Msun(Pinheiro14/spec) => adopt Mass=1.107.  Bolometric
