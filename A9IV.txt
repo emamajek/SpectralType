@@ -17,15 +17,51 @@ For Hipparcos stars within 75pc with parallax S/N > 8 (N=6):
 <J-H>(A9IV) = 0.110 (+-0.014 sem, +-0.029 stdev)
 <H-K>(A9IV) = 0.063 (+-0.012 sem, +-0.024 stdev)
 
+(B-V)(A9IV) = 0.224 +-0.008 ; exemplar rho01 Sgr = HD 181577
 (B-V)(A9IV) = 0.272(+-0.011 sem,+-0.033 stdev) ; SIMBAD median A9IV d<75pc,V<6.5(N=9)
 (B-V)(A9IV) = 0.284 ; (B-V)(A9IV)=0.255 plus trend seen for other IV stars
 => adopt (B-V)(A9IV) = 0.27 [updated 2/3/2022]
 
-Mv(A9IV) = 1.6 ; GrayCorbally09
-Mv(A9IV) = 2.27(+-0.32 sem,+-0.84 stdev) ; SIMBAD median A9IV d<75pc,V<6.5(N=9)
+Mv(A9IV) =  0.92 ; exemplar rho01 Sgr = HD 181577
+Mv(A9IV) = 1.6  ; GrayCorbally09
+Mv(A9IV) =  2.27 (+-0.32 sem,+-0.84 stdev) ; SIMBAD median A9IV d<75pc,V<6.5(N=9)
+
+# Exemplars
+
+rho01 Sgr = HD 181577 = HR 7340 = HIP 95168
+ *A9IV: Gray06,Abt95
+  F0III-IV: GrayGarrison89
+  F0IV-V: Cowley69
+  F1III: Malaroda75
+
+  Not great agreement on types, but at least the last two
+  classifications by Gray06 and Abt95 are both "A9IV". In GCVS as
+  delta Scuti variable with variability ~0.04 mag.  V=3.92(HIP),
+  V=3.929+-0.007(Mermilliod91/Nobs>45), V=3.93(TYC) => adopt
+  V=3.929+-0.007.  B-V=0.224+-0.008(Mermilliod91/Nobs>45),
+  B-V=0.228+-0.007(HIP), U-B=0.156+-0.039(Mermilliod91/Nobs>39),
+  V-Ic=0.25+-0.02(HIP). 2MASS photometry is qflg=DDD, but there is a
+  bunch of near-IR photometry (J through M band) in Gezari99.
+  Teff=7511K(TICv8.2), 7804+-265K(David15), 8230+-390K(Sokolov95) =>
+  adopt Teff=7804K.
+  logg=3.89+-0.14(David15). Age=906(783,1079;median,-1sig,+1sig)Myr(David15).
+  plx=25.0011+-0.2449mas(GaiaDR3) => Mv=0.92+-0.02mag (w/Mermilliod91
+  Vmag). G=3.888252+-0.003999(GaiaDR3), Bp-Rp=0.360807(GaiaDR3),
+  Bp-G=0.114127(GaiaDR3), G-Rp=0.246680(GaiaDR3) =>
+  M_G=0.878+-0.022mag(w/plx GaiaDR3, assuming A_G=0).
 
 
-# Non-standard stars
+HD 197157 = HR 7920 = eta Ind (J2044-5155)
+  A6-A9: Malaroda73
+  A7III/IV: Houk78
+ *A9IV: Abt95, GrayGarrison89
+  A9III-IV: Levato72
+  F0: Cannon
+  
+  Good agreement on A9. Malaroda says its a spectroscopic variable,
+  however.
+
+# Stars
 
 58 Tau = HD 27459 = HR 1356 = BD+14_682 (J0420+1505; V=5.3)
    A7V: Adams35
@@ -48,40 +84,20 @@ Mv(A9IV) = 2.27(+-0.32 sem,+-0.84 stdev) ; SIMBAD median A9IV d<75pc,V<6.5(N=9)
    <B-V>(A7V) ~ 0.19 (range 0.15-0.25). A consensus estimate might be
    "A9IV"?
 
-HD 181577 = HR 7340 = HIP 95168 = rho01 Sgr
-  A9IV: Gray06,Abt95
-  F0III-IV: GrayGarrison89
-  F1III: Malaroda75
-  F0IV-V: Cowley69
-
-  Quoted types are A9-F1, and III through IV-V. Probably not a good
-  candidate standard.
-
-HD 197157 = HR 7920 = eta Ind (J2044-5155)
-  A9IV: Abt95, GrayGarrison89
-  A7III/IV: Houk78
-  A6-A9: Malaroda73
-  A9III-IV: Levato72
-  F0: Cannon
-  
-  Good agreement on A9. Malaroda says its a spectroscopic variable,
-  however.
-
-HD 211336 
-
-HD 2628
-
 HD 109238
   A9IV: GarrisonGray87
+  
   A9-F2 in the literature
 
-HR 1706 = HD 33959 = 14 Aur 
-  A9IV: MorganAbt72(non-stan)
-  kA9hA9mF2: Abt95
+HR 1706 = HD 33959 = 14 Aur
   A9V: Abt84
+  A9IV: MorganAbt72(non-stan)
+ *kA9hA9mF2: Abt95
   F0IVp?: Abt69 
 
   Abt alone coauthored 4 different papers with 4 different
   classifications for this star! No modern classifications by Gray.
 
+HD 211336 
 
+HD 2628

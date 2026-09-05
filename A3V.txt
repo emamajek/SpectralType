@@ -246,6 +246,38 @@ BCv(A3V) = -0.030 mag ; Bessell98(ATLAS9,logg=4.5,Teff=8600K, set BCv(5772K)=-0.
 BCv(A3V) = -0.008 mag ; Bertone04(Teff=8600K,ATLAS, set BCv(5772K)=-0.085))
 => adopt BCv(A3V) = -0.04 [updated 9/16/2019; set so BCv(5772K)=-0.085)
 
+M_G(A3V) =   0.09 ; HD_216627_ plx=23.1451mas A3Vp (GaiaDR3)
+M_G(A3V) =   0.38 ; HD_95370_ plx=16.2011mas A3V (GaiaDR3)
+M_G(A3V) =   0.49 ; HD_196180_ plx=14.9441mas A3Va (GaiaDR3)
+M_G(A3V) =   0.90 ; HD_205835_ plx=15.2874mas A3Vn (GaiaDR3)
+M_G(A3V) =   0.96 ; HD_142629_ plx=15.0230mas A3V (GaiaDR3)
+M_G(A3V) =   1.00 ; HD_106661_ plx=15.3309mas A3V (GaiaDR3)
+M_G(A3V) =   1.15 ; HD_143894_ plx=18.6950mas A3V (GaiaDR3)
+M_G(A3V) =   1.52 ; HD_115892_ plx=56.0571mas kA1.5hA3mA3Va (GaiaDR3)
+M_G(A3V) =   1.53 ; HD_95608_ plx=26.5651mas kA1VmA3V (GaiaDR3)
+M_G(A3V) =   1.54 ; HD_20677_ plx=20.9522mas A3V (GaiaDR3)
+M_G(A3V) =  1.57 ; trend SpT vs M_G for standards,exemplars,nearest *s for SpT in SIMBAD w/i 75pc (8/1/2026)
+M_G(A3V) =   1.58 ; HD_173582_ plx=20.6911mas A3V (GaiaDR3)
+M_G(A3V) =   1.67 ; HD_93397_ plx=17.7995mas A3V (GaiaDR3)
+M_G(A3V) =   1.71 ; HD_135379_ plx=33.8205mas A3Va (GaiaDR3)
+M_G(A3V) =  1.71 ; anchor stan. HD 216956 = alf PsA (estimated, see below) (~440Myr)
+M_G(A3V) =  1.71 ; sec. stan. HD 135379 = bet Cir
+M_G(A3V) =   1.72 ; HD_154494_ plx=23.6844mas A3V (GaiaDR3)
+M_G(A3V) =   1.82 ; HD_166046_ plx=15.6586mas A3V (GaiaDR3)
+M_G(A3V) =   1.88 ; HD_90470_ plx=14.9737mas A3V (GaiaDR3)
+M_G(A3V) =  1.91 ; pri. stan. HD 102647 = bet Leo
+M_G(A3V) =  1.95 ; ter. stan. HD 23643 = Cl Melotte 22 1425 (Pleiad, ~125Myr)
+M_G(A3V) =   1.95 ; HD_70313_ plx=19.4989mas A3Va (GaiaDR3)
+M_G(A3V) =   2.12 ; HD_78209_ plx=34.9307mas kA3VmF5IIISr (GaiaDR3)
+M_G(A3V) =   2.12 ; HD_20888_ plx=16.6526mas A3V (GaiaDR3)
+M_G(A3V) =  2.15 ; ter. stan. BD+48_944 = Cl Melotte 20 970 (alpha Per cluster)
+M_G(A3V) =   2.21 ; HD_50445_ plx=18.1435mas A3V (GaiaDR3)
+M_G(A3V) =   2.23 ; HD_145689_ plx=18.1859mas A3V (GaiaDR3)
+M_G(A3V) =   2.53 ; HD_19545_ plx=18.8494mas A3V (GaiaDR3)
+M_G(A3V) =   2.54 ; HD_38189_ plx=16.0082mas A3V (GaiaDR3)
+M_G(A3V) =   3.83 ; HD_175749_ plx=14.7847mas A3V (GaiaDR3)
+M_G(A3V) =    5.53 ; HD_88480_ plx=17.2521mas A3V (GaiaDR3) [discrepent]
+
 Mv(A3V) = -0.85 mag ; exemplar HD 151431 = 19 Oph 
 Mv(A3V) =  0.56 mag ; exemplar HD 23848 = HR 1177
 Mv(A3V) =  0.94 mag ; exemplar HD 31283 = HR 1569
@@ -258,9 +290,9 @@ Mv(A3V) =  1.545 mag ; Wright05(B-V=0.09)
 Mv(A3V) =  1.6  mag ; EEM logT vs Rad trend for A3V
 Mv(A3V) =  1.60 mag ; median Mv for A3V calc using Kervella19 HIP & Gaia DR2 (d<100pc)
 Mv(A3V) =   1.63 mag ; interp BAF dwarf seq for B-V=0.10
-Mv(A3V) =  1.64 mag ; sec. stan. HD 135379 = Bet Cir
 Mv(A3V) =   1.65 +-0.07 sem, +-0.56 stdev ; EEM N=53 HIP A3V d<75pc
-Mv(A3V) =   1.70 mag ; B/A/F dwarf sequence for B-V=0.10 
+Mv(A3V) =   1.70 mag ; B/A/F dwarf sequence for B-V=0.10
+Mv(A3V) =  1.71 mag ; sec. stan. HD 135379 = bet Cir
 Mv(A3V) =  1.72 mag ; pri./anchor stan. HD 216956 = alf PsA
 Mv(A3V) =  1.81 mag ; exemplar HD 51693 = HR 2606
 Mv(A3V) =  1.82 mag ; exemplar HD 52859A
@@ -299,7 +331,7 @@ Mass(A3V) =  1.73 Msun ; Evans23 Teff vs. Mass fit for Teff=8600K
 => adopt Mass(A3V) = 1.933 Msun [updated 9/27/2024]
 
 Rad(A3V) =  1.672 Rsun ; pri. stan. HD 102647 = bet Leo
-Rad(A3V) =  1.688 Rsun ; ter. stan. BD+48_944 = Cl Melotte 20 970 (alpha Per cluster)
+Rad(A3V) =  1.683 Rsun ; ter. stan. BD+48_944 = Cl Melotte 20 970 (alpha Per cluster)
 Rad(A3V) =  1.835 Rsun ; ter. stan. HD 23643 = Cl Melotte 22 1425 (Pleiades member)
 Rad(A3V) =  1.842 Rsun ; anchor stan. Fomalhaut (Mamajek12 & updated)
 Rad(A3V) = 1.861 Rsun ; logL=1.232, Teff=8600K
@@ -321,8 +353,8 @@ HD 216956 = alf PsA = Fomalhaut = GJ 881 = HR 8728 = HIP 70742
 
   GrayGarrison89 list it as one of two low-vsini A3Va standards (with
   bet Leo). I dismiss the A4V type by Gray06 which has unfortunately
-  started to pervade the literature as Fomalhaut is an anchor standard
-  for A3V (A3 going back to Cannon) - unless somehow Fomalhaut is
+  started to pervade the literature since Fomalhaut has long since
+  anchored A3V (A3 going back to Cannon) - unless somehow Fomalhaut is
   spectrally variable (which I've not seen reported).  Common proper
   motion companion with K4V standard TW PsA (Fomalhaut B) and
   Mamajek13 reports tertiary Fomalhaut C (M4V). No astrometry in Gaia
@@ -342,9 +374,10 @@ HD 216956 = alf PsA = Fomalhaut = GJ 881 = HR 8728 = HIP 70742
   8399K(Gray06), 8459K(Boyajian12), 8500K(Dunkin97),
   8590+-73K(Mamajek12), 8610K(Zorec12), 8622K(Blackwell98),
   8689K(Erspamer03), 8715K(Ammler-von Eiff12), 8900K(Sokolov95),
-  9143K(David15) => <Teff> = 8610K.  Luminosity: V=1.155, plx=129.81,
-  BCv=-0.04, Av=0.00 => Mv=1.72, Mbol=1.68, logL=1.223 => w/Teff=8610K
-  => Rad = 1.838 Rsun.
+  9143K(David15) => <Teff> = 8610K. Luminosity: V=1.155, plx=129.81,
+  BCv=-0.04, Av=0.00 => Mv=1.722+-0.009, Mbol=1.68, logL=1.223 => w/Teff=8610K
+  => Rad = 1.838 Rsun. A3Vs typically have G-V=-0.017 (DR3), so the predicted
+  Gaia G absolute magnitude would be M_G ~ 1.71. 
 
 # Primary Standard
 
@@ -373,8 +406,11 @@ HD 102647 = bet Leo = GJ 448 = HIP 57632 = Denebola = HR 4534
   8720K(Sokolov95), 8750K(Chen14), 8759+-158K(vanBelle09),
   9186K(David15) => <Teff> = 8608K.
   logg=4.22(Gray03),4.26(Erspamer03). vsini=124km/s(Erspamer03). [M/H]=0.00(Gray03).
-  Luminosity: V=2.135, plx=90.91, Av=0.00, BCv=-0.04 => Mv=1.93,
-  Mbol=1.89, logL=1.141 => w/Teff=8608K => Rad=1.672Rsun.
+  Luminosity: V=2.135, plx=90.91, Av=0.00, BCv=-0.04 =>
+  Mv=1.928+-0.017, Mbol=1.89, logL=1.141 => w/Teff=8608K =>
+  Rad=1.672Rsun.  Although not in Gaia DR3, we can adopt G-V=-0.017 as
+  typical for A3V stars, and estimate absolute magnitude in Gaia DR3 G
+  band of M_G ~ 1.91.
 
 # Secondary Standards:
 
@@ -407,11 +443,14 @@ HD 135379 = bet Cir = GJ 580.1 = HIP 74824 = HR 5670
   Mv=1.64. Age=166Myr(Mittal15), 465Myr(David15,avg),
   536Myr(Nielsen19).  Mass=1.93Msun(Nielsen19). Luminosity: V=4.061,
   plx=32.73mas, Av=0.00, BCv=-0.04 => Mv=1.64, Mbol=1.60, logL=1.258
-  => w/Teff=8656K => Rad=1.892Rsun.
-  
+  => w/Teff=8656K => Rad=1.892Rsun. plx=33.8205+-0.2515mas(GaiaDR3),
+  G=4.060981+-0.002972(GaiaDR3) => M_G=1.707+-0.016,
+  Mv=1.707+-0.020(adopting Mermilliod91 Vmag).  G-V = 0.000+-0.011
+  (Johnson V from Mermilliod91, G from GaiaDR3).
+    
 # Tertiary Standards:
 
-HD 23643 = Cl Melotte 22 1425 = HII 1425 (Pleiades member)
+HD 23643 = Cl Melotte 22 1425 = HII 1425 = V650 Tau (Pleiades member)
   A1: Binnedijk46
  *A3Van: GrayGarrison89(high vsini stan.)
   A3V: Adams35
@@ -419,11 +458,11 @@ HD 23643 = Cl Melotte 22 1425 = HII 1425 (Pleiades member)
   A5V: Atanasijevic58
 
   GrayGarrison89 list it as their high-vsini A3Va standard, but not
-  considered a standard previously. Position and proper motion are
-  both consistent with Pleiades membership: Tycho-2 proper motion:
-  pmRA, pmDec = 21.7+-1.3, -43.0+-1.2 mas/yr (Pleiades mean is +19.6,
-  -45.0 mas/yr), and Gaia parallaxes confirm it is in the cluster:
-  plx=7.6049+-0.0602mas(GaiaDR2),
+  considered a standard previously. Delta Scuti variable. Position and
+  proper motion are both consistent with Pleiades membership: Tycho-2
+  proper motion: pmRA, pmDec = 21.7+-1.3, -43.0+-1.2 mas/yr (Pleiades
+  mean is +19.6, -45.0 mas/yr), and Gaia parallaxes confirm it is in
+  the cluster: plx=7.6049+-0.0602mas(GaiaDR2),
   plx=7.4730+-0.0316mas(GaiaEDR3). Pleiades mean E(B-V)=0.04.
   Soderblom09 mean [Fe/H] for Pleiades is +0.042+-0.021.
   V=7.768+-0.012(Mermilliod91), V=7.79(TYC),
@@ -438,7 +477,9 @@ HD 23643 = Cl Melotte 22 1425 = HII 1425 (Pleiades member)
   8704+-262K(Stassun19), 9615+-427K(Johnsson20), 10076K(Queiroz20) =>
   <Teff> = 8258K.  Luminosity: V=7.768, BCv=-0.04, Av=0.229,
   plx=7.4730 => Mv=1.91, Mbol=1.87, logL=1.149 => w/Teff=8258K =>
-  Rad=1.835Rsun.
+  Rad=1.835Rsun. GaiaDR3: G=7.746769+-0.002806(GaiaDR3),
+  plx=7.4730+-0.0316mas(GaiaDR3).  Adopting A_G=2.352*E(B-V) from Yu26
+  => adopting E(B-V)=0.07 => A_G = 0.16 => M_G = 1.95.
 
 BD+48 944 = Cl Melotte 20 970 = HIP 16452 = 2MASS J03315579+4835017 = Gaia DR3 249267880252995968 (alpha Per cluster)
   A2: Heckmann58
@@ -448,21 +489,28 @@ BD+48 944 = Cl Melotte 20 970 = HIP 16452 = 2MASS J03315579+4835017 = Gaia DR3 2
 
   Fairly weak pedigree as a standard goes, but used in MK78 atlas.
   "HL" IDs of alpha Per cluster in Morgan71 correspond to "Cl Melotte
-  20 #" in SIMBAD.  V=8.19(Mermilliod91), V=8.212(Pickles10,fit),
-  V=8.22(HIP), (B-V)=0.185+-0.003(HIP), (B-V)=0.187(Mermilliod91),
-  (U-B)=0.130(Mermilliod91), (V-Ic)=0.20+-0.00(HIP).
+  20 #" in SIMBAD.
+  V=8.19(Mermilliod91),
+  V=8.212(Pickles10,fit),
+  V=8.218+-0.014(ASCC-2.5), 
+  V=8.22(HIP), V=8.228265(GaiaDR3) => adopt
+  V=8.218+-0.014(ASCC-2.5).  
+  B-V=0.185+-0.003(HIP), B-V=0.187(Mermilliod91),
+  U-B=0.130(Mermilliod91), V-Ic=0.20+-0.00(HIP).
   plx=6.6782+-0.0504mas(GaiaDR2), plx=6.6904+-0.0293mas(GaiaEDR3).
   Published reddening estimates show considerable scatter between
-  E(B-V)=0.00 and 0.171 (see Paunzen24), thought they adopt
-  E(B-V=0.036, similar to the E(B-V)=0.0346+-0.0396 from
+  E(B-V)=0.00 and 0.171 (see Paunzen24), though they adopt
+  E(B-V)=0.036, similar to the E(B-V)=0.0346+-0.0396 from
   TIC/Stassun19.  Adopting E(B-V)=0.077(Kervella19,STILISM), the
-  (B-V)o = (B-V) - E(B-V) = 0.185 - 0.077 = => adopt (B-V)o=0.108 and
-  Av=0.253. Teffs: 7660+-200K(Kounkel19), 7974+-259K(Bai19),
+  (B-V)o = (B-V) - E(B-V) = 0.185 - 0.077 => adopt (B-V)o=0.108 and
+  Av=0.253, and using relation from Yu26 (A_G=2.352*E(B-V)) => A_G = 0.181mag.
+  Teffs: 7660+-200K(Kounkel19), 7974+-259K(Bai19),
   8227+-378K(Stassun19), 8235K(GaiaDR2), 8286K(Queiroz20),
   8461K(Anders19), 8799+-141K(David15), 9066K(Stassun18) => <Teff> =
-  8261K.  Luminosity: V=8.212, BCv=-0.04, Av=0.253, plx=6.6904mas =>
-  Mv=2.09, Mbol=2.05, logL=1.077 => w/Teff=8261K => Rad=1.688Rsun.
-  plx=6.6904+-0.0293mas(GaiaDR3).
+  8261K.  Luminosity: V=8.218, BCv=-0.04, Av=0.253, plx=6.6904mas =>
+  Mv=2.09, Mbol=2.05, logL=1.075 => w/Teff=8261K => Rad=1.683Rsun.
+  plx=6.6904+-0.0293mas(GaiaDR3), G=8.200522+-0.002780(GaiaDR3) =>
+  (adopting A_G=0.181) => M_G=2.15. 
 
 # Deprecated Standards: 
 

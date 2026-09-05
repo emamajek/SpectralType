@@ -351,16 +351,36 @@ BCv(A0V) =  -0.170 mag ; Schmidt-Kaler82(BCv=-0.30 + 0.13 offset)
 BCv(A0V) = -0.164 mag ; Bertone04[ATLAS,Teff=9700K, set BCv(5772K)=-0.085
 => adopt BCv(A0V) = -0.21 [updated 9/27/2024, adjusted so that BCv(5772K)=-0.085]
 
-M_G(A0V) = 0.403 mag ; *_gam_UMa_ plx=39.21mas A0Ve+K2V
-M_G(A0V) = 0.447 mag ; *_eps_Her_ plx=21.04mas A0V
-M_G(A0V) = 0.478 mag ; *_alf02_CVn_ plx=32.7227mas A0VpSiEu
-M_G(A0V) = 0.695 mag ; *_lam_Oph_A_ plx=20.3338mas A0V
-M_G(A0V) = 0.911 mag ; *_gam_Aqr_ plx=25.8551mas A0V
-M_G(A0V) = 0.943 mag ; *_30_Mon_ plx=26.66mas A0Va
-M_G(A0V) = 1.423 mag ; *_eps_Pav_ plx=31.04mas A0Va
-M_G(A0V) = 1.581 mag ; *_eta_Tel_ plx=20.6028mas A0V
-M_G(A0V) = 1.735 mag ; *_bet03_Tuc_ plx=21.6794mas A0V
-
+M_G(A0V) =   0.40 ; gam UMa = HD_103287_ plx=39.21mas A0V (GaiaDR3)
+M_G(A0V) =   0.48 ; alf02 CVn = HD_112413_ plx=32.7227mas A0VpSiEu (GaiaDR3)
+M_G(A0V) =   0.61 ; anchor stan. HD 172167 = alf Lyr = Vega [estimated, assuming G-V=0.00]
+M_G(A0V) =   0.67 ; xi01 Cen = HD_113314_ plx=14.8276mas A0V (GaiaDR3)
+M_G(A0V) =   0.70 ; *_lam_Oph_A_ plx=20.3338mas A0V (GaiaDR3)
+M_G(A0V) =   0.80 ; eps Boo B = HD_129988_ plx=14.8826mas A0V (GaiaDR3)
+M_G(A0V) =   0.82 ; k Lup = HD_137058_ plx=17.8315mas A0V (GaiaDR3)
+M_G(A0V) =   0.91 ; gam Aqr = HD_212061_ plx=25.8551mas A0V (GaiaDR3)
+M_G(A0V) =   0.92 ; 30 Mon = HD_71155_ plx=25.3438mas A0Va (GaiaDR3)
+M_G(A0V) =   1.02 ; gam01 Ari = HD_11502_ plx=18.8809mas A0Vnp_lB (GaiaDR3)
+M_G(A0V) =   1.07 ; HD_42818_ plx=18.3472mas A0Vn (GaiaDR3)
+M_G(A0V) =   1.09 ; tet Lep = HD_41695_ plx=19.4991mas A0V (GaiaDR3)
+M_G(A0V) =   1.11 ; 29 Vul = HD_196724_ plx=18.2449mas A0Va(_sh) (GaiaDR3)
+M_G(A0V) =   1.12 ; eps Mic = HD_202627_ plx=19.2981mas A0V (GaiaDR3)
+M_G(A0V) =  1.18 ; trend SpT vs M_G for standards,exemplars,nearest *s for SpT in SIMBAD w/i 75pc (8/1/2026)
+                    [0.22 mag gap?! why is this here?] 
+M_G(A0V) =   1.34 ; del Scl = HD_223352_ plx=22.7296mas A0VankB9((_lB)) (GaiaDR3)
+M_G(A0V) =   1.43 ; chi Cap = HD_201184_ plx=16.7451mas A0Van (GaiaDR3)
+M_G(A0V) =   1.44 ; eps Pav = HD_188228_ plx=31.2593mas A0Va (GaiaDR3)
+M_G(A0V) =   1.50 ; HD_101615_ plx=15.6117mas A0V (GaiaDR3)
+M_G(A0V) =   1.56 ; 33 Boo = HD_129002_ plx=17.1844mas A0V (GaiaDR3)
+M_G(A0V) =   1.58 ; eta Tel = HD_181296_ plx=20.6028mas A0V (GaiaDR3) [ZAMS, beta Pic MG]
+M_G(A0V) =   1.58 ; HD_208108_ plx=15.1464mas A0Vs (GaiaDR3)
+M_G(A0V) =   1.59 ; phi Oct = HD_167468_ plx=16.8258mas A0V (GaiaDR3)
+M_G(A0V) =   1.73 ; HD_116160_ plx=16.2262mas A0V (GaiaDR3)
+M_G(A0V) =    1.73 ; lam Boo = HD_125162_ plx=32.5885mas A0Va_lB (GaiaDR3) "lb" = "lam Boo"
+M_G(A0V) =    1.79 ; pi01 Ori = HD_31295_ plx=27.0067mas A0Va_lB (GaiaDR3) "lb" = "lam Boo" [Fe/H] ~ -1)
+M_G(A0V) =    1.90 ; rho Vir = HD_110411_ plx=25.6921mas A0Va_lB (GaiaDR3) "lb" = "lam Boo"
+[EEM 8/1/2026: note that after removing lam Boos, the median M_G ~ 1.10, ~0.1 mag fainter than
+I previously adopted] 
 
 Mv(A0V) =  2.96 mag ; HIP_92794 A0V plx=12.938 mas, Vmag=7.408,E(B-V)=0.003
 Mv(A0V) =  1.99 mag ; HIP_30760 A0V plx=11.947 mas, Vmag=6.609,E(B-V)=0.001
@@ -902,4 +922,11 @@ Mv    =   1.19  + 4.2906*(B-V)                         [rms=0.28mag]
 (B-V) ~= 0.0122 + 0.0266*(A# subtype) [rms=0.026mag] (very irregular)
 
 note that (U-B) varies little between A1V and A7V (U-B ~ 0.082, rms = 0.024mag)
+
+For B9V-F0V, covering A dwarfs, for standards, exemplars, and field stars (within 75pc),
+the approximate trend for absolute magnitudes is
+
+M_G(SpT) = 1.183 + 0.12865*SpT (rms=0.334mag) where SpT=0 for A0V, SpT=10 for F0V
+
+however this trend appears right in the middle of a gap among the A0Vs and A9Vs.
 
