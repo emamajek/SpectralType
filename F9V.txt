@@ -438,7 +438,6 @@ M_G(F9V) =  4.26 ; HD_203608_ plx=108.0102mas F9VFe-1.4CH-0.7 (GaiaDR3)
 M_G(F9V) = 4.33 ; exemplar HD 108954 = HIP 61053 = HR 4767 ([Fe/H]=-0.09) (GaiaDR3)
 
 
-
 Mv(F9V) = 4.47 mag ; exemplar HD 108954 = HIP 61053 = HR 4767 ([Fe/H]=-0.09) (GaiaDR3)
 Mv(F9V) = 4.33 mag ; pri. stan. HD 10647 = q01 Eri = GJ 3109 = HIP 7978 = HR 506 ([Fe/H]=-0.04)
 Mv(F9V) = 4.31 mag ; exemplar HD 28635 = Cl Melotte 25 88 = HIP 21112 (Hyad; [Fe/H]~+0.15) (GaiaDR3)
@@ -710,7 +709,45 @@ HD 84117 = GJ 364 = HIP 47592 = HR 3862
   G-Rp=0.419005(GaiaDR3).  => (G-V) = 4.772147(GaiaDR3) -
   4.919(Mermilliod91) = -0.147.  Mv=4.046+-0.012, M_G=3.899+-0.005,
   M_Ks=2.768 (note, for its B-V(0.534), one would predict
-  Mv(MS)=4.10).
+  Mv(MS)=4.10). Story on rotation and activity is confusing: multiple
+  inconsistent fast periods, with a star that is fairly inactive.
+  Radius: Rad=1.154+-0.017Rsun(GomesdaSilva21),
+  Rad=1.22+-0.09Rsun(Ghezzi10), Rad=1.245+-0.022Rsun(Tuchow24),
+  Rad=1.248+-0.066Rsun(TICv8.1), Rad=1.25+-0.02Rsun(Harada24),
+  Rad=1.3109(1.2845,1.3372)Rsun(GaiaDR3).
+  Lum=2.048(2.040,2.057)Lsun(GaiaDR3).  Rotation periods are all
+  different: Per=0.045d(Rimoldini12/HIP data),
+  Pvar=0.738750d(Martin24), Pvar=0.752642+-0.00761d(Fetherolf23/TESS),
+  5.970+-0.025d(Hempelmann16/1season, "low significance (between 1 and 2sigma"?!),
+  Prot=16.963d(Fuhrmeister22/from
+  R+HK), Prot=27.152d(Oelkers18; lunar?).  vsini=4.3km/s(Brewer16;
+  Vbroad=7.3km/s, Vmac=5.6km/s), vsini=5.0+-0.8km/s(Soderblom89),
+  vsini=5.2km/s(Schroeder09), vsini=5.6+-1.0km/s(deMedeiros99),
+  vsini=5.7km/s(Valenti05), vsini=6.0km/s(Nordstrom04),
+  vsini=6.2+-0.8km/s(Fekel97), vsini=6.252+-0.267km/s(Perdelwitz24),
+  vsini=7.08km/s(Martinez-Arnaiz10) => adopt vsini ~
+  5.6+-1.0km/s(deMedieros99) => w/Rad=1.25Rsun => Prot<11.3d (rules
+  out Fuhrmeister22 & Oelkers18 periods).  big scatter in
+  chromospheric activity: logR'HK=-4.640(Standford-Moore20),
+  logR'HK=-4.770291(Gondoin20), logR'HK=-4.7949(Brown22),
+  logR'HK=-5.016(Isaacson24), logR'HK=-5.0230(Isaacson10),
+  logR'HK=-5.03(Brewer16). X-ray: logLx/Lbol=-6.34(EEM calc using
+  ROSAT/HRI; logLx=27.53), logLx/Lbol=-6.6(Eiroa13).  Age:
+  1.497+-0.790Gyr(GomesdaSilva21),
+  2.16+-0.81Gyr(Luck17),
+  2.18(1.39,2.95)Gyr(Casagrande11/BASTI), 
+  2.28(1.16,5.09)Gyr(Heras25),
+  2.32(1.30,3.30)Gyr(Casagrande11/Padova), 
+  2.6(2.0,3.1)Gyr(Brewer16), 
+  3.0+-1.0Gyr(Ghezzi10),
+  3.1(2.2,3.4)Gyr(Valenti05), 
+  3.2(1.7,4.6)Gyr(Holmberg09),
+  3.78+1.13-0.43Gyr(Ramirez12),
+  4.00(3.20,4.68)Gyr(Takeda07),
+  4.29Gyr(EEM MIST [Fe/H]=-0.06 track), 
+  4.42+2.12-1.41Gyr(Harada24),
+  5.218(4.492,5.944)Gyr(GaiaDR3/FLAME). Using MIST tracks for [Fe/H]=-0.06, [a/Fe]=0,
+  the HRD point (Soubiran22 Teff, Gaia DR3 lum) is well fit by ~1.10 Msun, ~4.28 Gyr. 
 
        G =  4.7721+-0.0030 ; exemplar HD 84117 = GJ 364 ([Fe/H]=-0.06) (GaiaDR3)
   (V-Rc)(F9V) =   0.295 ; exemplar HD 84117 = GJ 364 ([Fe/H]=-0.06)
@@ -1073,14 +1110,18 @@ HD 4614A = eta Cas A = GJ 34A = HIP 3821 = HR 219A
   in their entire catalog).  B-V(HIP)=0.587, Vmag=3.46, Mv=4.59,
   dMv=+0.20, par=168.0+-0.4 mas.  Spectroscopic binary; not in Houk.
 
-HD 176051 = HR 7162
+HD 176051 = HR 7162 = BU 648 = ADS 11871 = (primary GJ 738A = HD 176051A = WDS J18570+3254A = Gaia DR3 2043885295914531072)
+  F9V+K1V: Edwards76
  *F9V: Keenan85_IAU(stan),Keenan89(non-stan),Gray01
   F9.5V: Keenan80
-  G0V: Adams35,Roman52(weak lines),Harlan74,Abt81,Bidelman85(G0),Cannon(G0)
+  G0V: Cannon(G0),Adams35,Roman52(weak lines),Harlan74,Abt81,Bidelman85(G0)
 
-  It's a 1" binary, and the SpT floats in the literature.  Not a great
-  standard. Keenan85 listed it as "the" F9V standard, but just a few
-  years after classifying it as F9.5V.
+  It's a 1" binary, and the old types are probably based on blend of
+  A&B. Notable that last three published types were all F9V:
+  Keenan85->Keenan89->Gray01, with Keenan85 listing it as "the" F9V
+  standard (but just a few years after classifying it as F9.5V). Also
+  a planet "HD 176051b". plx=67.24+-0.37mas(HIP2). V(A)=5.277,
+  V(B)=7.84.
 
 HD 142373 = chi Her = GJ 602 = HIP 77760 = HR 5914 = 1 Her = LHS 3127 = SPOCS 674 = TIC 157364190 
   F8V Fe-2 Hdel-1: Keenan89

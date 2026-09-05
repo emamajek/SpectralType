@@ -194,15 +194,22 @@ Mv(B9.5V) =   1.91 ;  HD 145631 (B9.5Va;GrayGarrison87) plx=7.2782mas
 => adopt M_G(B9.5V)  = 0.615 mag [updated 12/10/2020] (Mv=0.6, G-V=0.015)
 => adopt M_Ks(B9.5V) = 0.648 mag [updated 12/30/2020] (Mv=0.6, V-Ks=-0.048)
 
-M_G(B9.5V) =  0.18 ; HD 193432 = HIP 100310 (B9.5Va+;GrayGarrison87) plx=12.1737mas
-M_G(B9.5V) =  0.33 ; HD 72573 = HIP 41863 (B9.5Va;GrayGarrison97) plx=3.9606mas
-M_G(B9.5V) = 0.81 ; pri. stan. HD 23873 = Cl Melotte 22 2263 (Pleiad)
-M_G(B9.5V) =  0.84 ; HD 73495 = HIP 42334 (B9.5Van;GrayGarrison87) plx=13.2198mas
-M_G(B9.5V) =  1.01 ; HD 176638 (B9.5Vann;GrayGarrison87) plx=18.2019mas 
-M_G(B9.5V) = 1.04 ; sec. stan. HD 23568 = HIP 17664 (Pleiad)
-M_G(B9.5V) = 1.07 ; pri. stan. HD 222661 = ome^2 Aqr 
-M_G(B9.5V) = 1.44 ; exemplar HD 145631 = HIP 79439 (Upper Sco; ~10 Myr)
-M_G(B9.5V) =  1.85 ; HD 145631 (B9.5Va;GrayGarrison87) plx=7.2782mas
+M_G(B9.5V) =   -0.60 ; HD_198001_ plx=13.3619mas B9.5V (GaiaDR3)
+M_G(B9.5V) =   -0.28 ; HD_98664_ plx=13.5551mas B9.5Vs (GaiaDR3)
+M_G(B9.5V) =    0.33 ; HD 72573 = HIP 41863 (B9.5Va;GrayGarrison97) plx=3.9606mas
+M_G(B9.5V) =    0.10 ; HD_134481_ plx=17.5888mas B9.5Vne (GaiaDR3)
+M_G(B9.5V) =    0.18 ; HD 193432 = HIP 100310 (B9.5Va+;GrayGarrison87) plx=12.1737mas
+M_G(B9.5V) =   0.79 ; pri. stan. HD 23873 = Cl Melotte 22 2263 (Pleiad) (~120 Myr)
+M_G(B9.5V) =    0.84 ; HD 73495 = HIP 42334 (B9.5Van;GrayGarrison87) plx=13.2198mas
+M_G(B9.5V) =    1.01 ; HD_176638_ plx=18.2019mas (B9.5Vann;GrayGarrison87) (GaiaDR3)
+M_G(B9.5V) =   1.04 ; sec. stan. HD 23568 = HIP 17664 (Pleiad)
+M_G(B9.5V) =   1.07 ; pri. stan. HD 222661 = omi02 Aqr plx=20.8948mas B9.5V (GaiaDR3)
+M_G(B9.5V) =    1.12 ; HD_24072_ plx=18.8093mas B9.5Van (GaiaDR3) (Tuc-Hor Assn ~40 Myr)
+M_G(B9.5V) =   1.44 ; exemplar HD 145631 = HIP 79439 (Upper Sco; ~10 Myr)
+M_G(B9.5V) =    1.85 ; HD 145631 (B9.5Va;GrayGarrison87) plx=7.2782mas
+
+
+
 
 logL(B9.5V) = 1.800 dex ; Mv=0.6, BCv=-0.36 => Mbol = 0.240
 logL(B9.5V) = 1.742 dex ; logL/Teff trend for O7V-A2V EBs (Torres10; Teff=10400K)
@@ -232,7 +239,7 @@ MK43, MK73, Garrison67, Garrison79 did not list a B9.5V standard.
 
 # Primary Standards
 
-HD 222661 = ome^2 Aqr = GJ 9836A = HR 8988 = HIP 116971 = 105 Aqr
+HD 222661 = ome02 Aqr = 105 Aqr = GJ 9836A = HR 8988 = HIP 116971 = 105 Aqr = WDS J23427-1433A = Gaia DR3 2419885149815948416
   B9V: deVaucouleur57,Cucchiaro80,
  *B9.5V: JM53,Cowley69(stan),Cowley72(stan),Houk88,Abt02,Zorec09,Neugueruela24(stan)
   B9.5IV: Abt95,Gray87
@@ -258,7 +265,7 @@ HD 222661 = ome^2 Aqr = GJ 9836A = HR 8988 = HIP 116971 = 105 Aqr
   11108+-378K(David15), => median Teff = 10390K.
   Mv=1.08, M_G=1.07. 
 
-HD 23873 = Cl Melotte 22 2263 = HIP 17862 (Pleiades member)
+HD 23873 = Cl Melotte 22 2263 = HIP 17862 = Gaia DR3 66745617143891968 (Pleiades member)
   B9: Binnendijk46,Eggen50
  *B9.5V: Mendoza56,MK78(stan/presumably Va standard as the other star was the Vb standard),GrayGarrison87(B9.5Va),Grenier99
   B9.5IVsn: Abt78
@@ -279,11 +286,15 @@ HD 23873 = Cl Melotte 22 2263 = HIP 17862 (Pleiades member)
   should be near d ~ 133 pc (and typical Pleiad has E(B-V) =
   0.04). Seems to be an OK B9.5V standard. MK78 and Gray agree on
   B9.5V type. Hauck97 photometry dereddened following Castelli91
-  yields: (b-y)0=-0.110, c0=0.891, E(b-y)=0.100, Av=0.436.  Teffs:
-  10231K(Hauck97 phot.=>BalonaShobbrook84 calib.), 10245K(Hauck97
-  phot.=>Balona94 calib.), 10500K(U-Bo=>Bessell98), 10575K(Hauck97
-  phot.=>Napiwotzki93 calib.), 11455K(Philip80) => median Teff =
-  10500K. Mv=0.74, M_G=0.81. 
+  yields: (b-y)0=-0.110, c0=0.891, E(b-y)=0.100, Av=0.436 (which seems
+  high).  Teffs: 10231K(Hauck97 phot.=>BalonaShobbrook84 calib.),
+  10245K(Hauck97 phot.=>Balona94 calib.), 10500K(U-Bo=>Bessell98),
+  10575K(Hauck97 phot.=>Napiwotzki93 calib.), 10632K(GaiaDR3),
+  11455K(Philip80) => median Teff = 10500K. Mv=0.74,
+  M_G=0.81. logg=4.0267(4.0192,4.0449)(GaiaDR3), however Gaia DR3 gets
+  oddly extremely low metallicity
+  ([Fe/H]=-1.41). A_G=0.0624(0.0584,0.0661)(GaiaDR3/GSP-Phot/AENEAS),
+  M_G=0.7914(0.7774,0.8076)(GaiaDR3/GSP-PhotAeneas).
 
 # Secondary Standard
 
@@ -378,7 +389,7 @@ HD 108767 = del CrV = HR 4757
 # Exemplars
 
 16 Dra A = HD 150100 = HR 6184 = HIP 81290 = STF 4030C = ADS 10129 C 
-  B9.5V: Slettebak63,Abt95
+ *B9.5V: Slettebak63,Abt95
   B9.5Vn: Cowley69
   B9.5Vs: Abt85
 
