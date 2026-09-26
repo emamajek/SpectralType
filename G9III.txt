@@ -61,8 +61,19 @@ GrayCorbally10 standard: del Phe - G9III
 (B-V)(G9IIIb) =  1.024 ; HIP 36046 G9IIIb 1989ApJS...71..245K
 (B-V)(G9IIIb) =  1.033 ; HIP 37504 G9IIIb 1989ApJS...71..245K
 (B-V)(G9III)  = 1.083 ; HIP 42911 G9III 2008ApJS..176..216A
+(B-V)(G9III) =  1.107 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1)
 => adopt (B-V)(G9III)  = 0.95 [updated 10/30/2020]
 => adopt (B-V)(G9IIIb) = 1.02 [updated 10/30/2020]
+
+(Bp-Rp)(G9III) =  1.2091 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+
+(Bp-G)(G9III) =  0.5288 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+
+(G-Rp)(G9III) =  0.6803 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+
+(G-V)(G9III) =  -0.305 +-0.012 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+
+M_G(G9III) =  0.56 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
 
 Mv(G9III) = -0.21 ; KeenanBarnbaum99 Hipparcos average for G9III 
 Mv(G9III) =  0.39  ; HIP 37740 G9III 2008ApJS..176..216A
@@ -76,7 +87,8 @@ Mv(G9III) =   0.70 ; HIP 61935 G9III
 Mv(G9III) =   0.71 ; HIP 7294 G9IIIb 
 Mv(G9III) =   0.75 ; HIP 37504 G9IIIb 1989ApJS...71..245K
 Mv(G9III) =  0.83  ; HIP 51233 G9III 1989ApJS...71..245K
-Mv(G9III) =   0.84 ; HIP 90135 G9IIIb 
+Mv(G9III) =   0.84 ; HIP 90135 G9IIIb
+Mv(G9III) =  0.86  ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
 Mv(G9III) =  0.90  ; HIP 94779 G9III 1989ApJS...71..245K
 Mv(G9III) =  0.93  ; HIP 42911 G9III 2008ApJS..176..216A
 Mv(G9III) =   0.94 ; HIP 36046 G9IIIb 1989ApJS...71..245K
@@ -192,8 +204,41 @@ HR 3428 = HD 73710
    G9III: Keenan89(stan)
   *G9III-IIIb: Keenan99(stan)
 
-bet Lac = HR 8538 = HD 212496
+bet Lac = HR 8538 = HD 212496 = HIP 110538 = WDS J22236+5214AB = CHR 108
   *G9IIIb Ca1: Keenan89(stan)
+
+   V=4.436+-0.012(Mermilliod91/Nobs>18),
+   B-V=1.107+-0.004(Mermilliod91/Nobs>18),
+   U-B=0.772+-0.008(Mermilliod91/Nobs>18). plx=19.3014+-0.1169mas(GaiaDR3),
+   G=4.130943+-0.002909(GaiaDR3), Bp-Rp=1.209122(GaiaDR3),
+   Bp-G=0.528787(GaiaDR3), G-Rp=0.680335(GaiaDR3).  Gaia DR3 &
+   Mermilliod91 Vmag => Mv=0.86, M_G=0.56.  2MASS photometry is
+   Qflg=DCD. WDS lists it as a double star, but only a single epoch
+   observation from 1984 with sep=0.2". At this point, this should
+   probably be considered an unconfirmed or suspect companion.  The
+   single detection appears to be from McAlister1987
+   (1987AJ.....93..688M, as #108 in their list, with separation
+   0.219", PA=167.4, epoch 1984.7041 - and no magnitude is
+   listed. However, previous (Hartkopf84) and subsequent
+   (Horch02,Hartkopf09,Roberts11) high contrast observations did not
+   detect a companion. The Roberts11 AO survey with AEOS 3.6-m should
+   have detected it if it were at the same separation reported by
+   McAlister1987. There are no reports of the star being a SB, and
+   reported radial velocities do not suggest variability
+   (e.g. DeMedeiros99). Kervella22 reports that the difference in
+   tangential motion between Hipparcos (1991.25) and Gaia DR3 (2016)
+   is negligible (dVt=24.07+-37.91m/s), i.e. no sign of perturbation
+   on timescale of ~25 years.
+
+       G =  4.1309+-0.0029 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+ (Bp-Rp)(G9III) =  1.2091 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+  (Bp-G)(G9III) =  0.5288 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+  (G-Rp)(G9III) =  0.6803 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+   (G-V)(G9III) =  -0.305 +-0.012 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)   
+      Mv(G9III) =   0.864 +-0.018 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+     M_G(G9III) =   0.559 +-0.013 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1) (GaiaDR3)
+   (B-V)(G9III) =  1.107 +-0.004 ; var. stan. bet Lac = HR 8538 (G9IIIb Ca1)
+   (U-B)(G9III) =   0.772 +-0.008 ; betLc   
 
 gam Psc = HR 8852 = HD 219615
   *G9III: Fe-2: Keenan89(stan)

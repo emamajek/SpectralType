@@ -124,7 +124,7 @@ HD 217014 = 51 Peg = HR 8729.
   
 # Other Stars
 
-HR 8531 Aa = HD 212330 = GJ 857 = HIP 110649
+HD 212330 = HR 8531 Aa = GJ 857 = HIP 110649 = WDS J22249-5748Aa
   F9V: Malaroda75
   G0: 1932PLicO..18....1M
  *G2IV-V: Gray06
@@ -132,16 +132,52 @@ HR 8531 Aa = HD 212330 = GJ 857 = HIP 110649
   G8V: 1966ArA.....3..501L
 
   Only listed here as it is one of the oldest thin disk stars in the
-  solar neighborhood, as pointed out by Fuhrmann17.
-  plx=48.8901+-0.1153 mas. PASTEL: <Teff>=5653K(N=11),
-  <logg>=4.14(N=8), <[Fe/H]>=-0.02(N=8).  Age=7.9Gyr(Bryden06),
-  8.08Gyr(Kospal09), 7.90Gyr(Gaspar13), 7.0(6.2-8.0)Gyr(Valenti05),
-  8.08(7.72-8.48)Gyr(Takeda07), 7.90(5.3-8.59)Gyr(Casagrande11),
-  7.90(6.48-8.75)Gyr(Casagrande11#2), 7.91Gyr(Vican12),
-  8.4(7.8-9.0)Gyr(Holmberg09). Fuhrmann17: "70 Vir– along with HR 7845A
-  and HR8531Aa – is one of the three Population I subgiants of the
-  survey, which provide the solid 8 Gyr formation time-scale of this
-  population."
+  solar neighborhood, as pointed out by Fuhrmann17. Also a HWO Tier 1
+  target star. Star has ~solar metallicity and its published ages are
+  tightly clustered between 7.9 and 8.7 Gyr (~8.3+-0.4Gyr).  Appears
+  to be a triple - WDS has WDS J22249-5748Aa (G2IV-V primary), Ab (M6,
+  sep=0.9", mag=13.6), B (sep=23.6", mag=13.0). The M6 type for Ab is
+  a speckle/photometric estimate from Kane19, but poor match for high
+  Msini (see below).  plx(A)=48.8901+-0.1153mas(GaiaDR3),
+  plx(B)=49.1593+-0.0279mas(GaiaDR3). Soubiran22/PASTEL mean values:
+  Teff=5660+-18K(N=11), logg=4.13+-0.07(N=8), [Fe/H]=-0.03+-0.03(N=8).
+  Age=7.9Gyr(Bryden06), 8.08Gyr(Kospal09), 7.90Gyr(Gaspar13),
+  7.0(6.2-8.0)Gyr(Valenti05), 8.08(7.72-8.48)Gyr(Takeda07),
+  7.90(5.3-8.59)Gyr(Casagrande11), 7.90(6.48-8.75)Gyr(Casagrande11#2),
+  7.91Gyr(Vican12), 8.4(7.8-9.0)Gyr(Holmberg09),
+  8.666(7.842,9.492)Gyr(GaiaDR3/FLAME).  Fuhrmann17: "70 Vir– along
+  with HR 7845A and HR8531Aa – is one of the three Population I
+  subgiants of the survey, which provide the solid 8 Gyr formation
+  time-scale of this population."
+  Lbol=2.725(2.712,2.737)Lsun(GaiaDR3),
+  Lbol=2.72633+-0.07192Rsun(TIC/Stassun19).
+  Rad=1.7444(1.7093,1.7796)Rsun(GaiaDR3),
+  Rad=1.7497(1.7441,1.7572)Rsun(GaiaDR3/GSP-Phot/AENEAS).  HZs:
+  conservative hab zone (Kopparapu14): So=1.09126-0.348625 =>
+  rHZin=1.58au, rHZout=2.80au.  Aa+Ab binary: Kane19 reported RV trend
+  of -0.0338+-0.0008m/s/day, and saved for RV orbit:
+  Porb=45.67+1.20-1.12yr, e=0.212+-0.008, K=3400+28-27m/s,
+  Msini=673+-33Mjup (which would seem to suggest M > 0.64Msun), and
+  Kane19 reports speckle observations at 692nm (PA=62.2, sep=0.7655",
+  del(692nm)=6.65) and 880nm (PA=61.7, sep=0.7653", del(880nm)=5.50),
+  and claim the companion is consistent with del(V)=8.33 and spectral
+  type M6, however this does not jive with the Msini, which suggests
+  it is too massive to be a M6 (K dwarf might be more likely).
+  Tokovinin23 reports epoch=2022.4418, PA=244.6, sep=0.8796",
+  delI=5.0. Someone needs to combine the Kane19 astrometry with more
+  recent PA/sep imaging results to refine the orbit and get the
+  companion mass.  What is the size of the s-type stability zone
+  around Aa?  Adopting fiducial masses of M(Aa)=1.066Msun(GaiaDR3),
+  M(Ab)=0.64Msun(Kane19/Msini), a=15.27au(calc using
+  Porb=45.67yr/Kane19, Mtot=1.706Msun), Quarles20 stability region
+  a_crit(Aa)=3.83au, a_crit(Ab)=2.66au.  So the Kopparapu14
+  conservative hab zone would be in orbital stability region around
+  both stars. Outer/wider system AB: using GaiaDR3,
+  sep=23.5966+-0.0001", PA=248.17941+-0.00024deg,
+  del(Vtan(AB))=1.970+-0.013km/s, projected separation 480au (~31x
+  predicted semi-major axis of Aa+Ab). Companion B at 23" has
+  Bp-Rp(B)=2.785995 and M_G(B)=10.90(GaiaDR3), both of which are
+  perfectly consistent with typical M3.5V star.  M_G(A)=3.60(GaiaDR3).
 
 HD 74811
   G2IV: Heard56,Harlan69
