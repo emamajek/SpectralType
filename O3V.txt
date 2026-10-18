@@ -2,8 +2,8 @@ O3V
 
 There are no O3V anchor (Garrison94) or dagger (MK73) standards.
 
-Walborn90 standard:  HDE 303308 O3V((f))
-Walborn02 standards: HD 64568 O3V((f*)), LH 10-3058 O3V((f*))
+Walborn90 standard:  HDE 303308 - O3V((f))
+Walborn02 standards: HD 64568 - O3V((f*)), LH 10-3058 O3V((f*))
 Sota11 standard:     HD 64568 
 
 HD 64568 is the only O3V dwarf in the Sota14 GOSSS (Galactic O-Star Spectroscopic Survey ; Vizier /III/274/main), the only O3V star and earliest dwarf subtype in Holgado20.
@@ -43,17 +43,19 @@ Skiff08 does not flag any stars as O3V standards.
 (V-K)(O3V) = -0.855 ; Glass97(SAAO/Carter90_system)
 
 Teff(O3V) =   52500 K  ; Schmidt-Kaler82
+Teff(O3V) =  50900 K  ; Bestenlehner25 
 Teff(O3V) =   50004 K  ; deJager
 Teff(O3V) =   50000 K  ; Bessell98
 Teff(O3V) =   50000 K  ; Crowther97/Fig.3
+Teff(O3V) =  48400 K  ; Roman-Lopes24 (mean for N=2 Galactic O3Vs)
 Teff(O3V) =  46500 K   ; Massey05(Milky Way)
 Teff(O3V) =   46500 K  ; non-stan. HD 93128 (Repolust04)
 Teff(O3V) =   46000 K  ; non-stan. HD 93250 (Repolust04)
-Teff(O3V) = 45900 K   ; pri. stan. HD 64568 (large scatter)
+Teff(O3V) =  45900 K   ; pri. stan. HD 64568 (large scatter)
 Teff(O3V) =  44852 K   ; Martins05(Obs. scale), adopted by GrayCorbally09
 Teff(O3V) =  44616 K   ; Martins05(Theoretical scale)
 Teff(O3V) =  44520 K   ; Holgado18(extrapolation past O4V)
-=> adopt Teff(O3V) = 45900 K (logTeff = 4.662) [updated 11/15/2022]
+=> adopt Teff(O3V) = 46000 K (logTeff = 4.6628) [updated 9/13/2026]
 
 Mv(O3V) =  -6.14 mag ; non-stan. HD 93250 (Repolust04)
 Mv(O3V) =  -6.0  mag ; Schmidt-Kaler82
@@ -117,7 +119,7 @@ MK78 and Keenan85 does not list an O3V standard (or earlier; only O4V and later)
 
 # Primary Standards
 
-HD 64568 = NGC 2467 77 = HD 64568a
+HD 64568 = NGC 2467 77 = HD 64568a = HIP 38548 = NGC 2467 77 = Gaia DR3 5602033390154015744 
   O3V(f*): Walborn82
   O3V((f*)): Walborn02,Markova11
  *O3V((f*))z: Soto14,Holgado20("weak He I lines")
@@ -159,18 +161,27 @@ HD 64568 = NGC 2467 77 = HD 64568a
   plx=0.236+-0.011mas(MaizAppelaniz18).  Adopt plx=0.2241+-0.0177mas
   from GaiaEDR3, consistent with Haffner_18 group parallax from
   MaizApellaniz18 => Mv=-5.26+-0.17 [previously I had used
-  Mv=-6.22+-0.61!]  Teffs: 41000+-2000K(Garcia04),
-  44900+-1700K(Williams11), 46900+-1000K(Holgado20),
-  48000+-15000K(Markova18) => <Teff> = 45900K(large scatter).  loggs:
-  3.9+-0.2(Garcia04), 3.91+-0.08(William11), 3.93+-0.06(Holgado20),
-  4.00+-0.10(Markova18) => <logg> = 3.92.  Rad=11.5Rsun(Markova18).
-  logL=5.80(Markova18).  plx=0.2241+-0.0177(GaiaEDR3).  V=9.397,
-  plx=0.2241mas, Av=1.294 => Mv=-5.15+-0.17.
+  Mv=-6.22+-0.61!]  Teffs:
+  41000+-2000K(Garcia04),
+  44900+-1700K(Williams11),
+  46900+-1000K(Holgado20/Holgado22/Shen24),
+  48000+-15000K(Markova18)
+  => <Teff> = 45900K(large scatter).  loggs:
+  3.9+-0.2(Garcia04), 3.91+-0.08(William11),
+  3.93+-0.06(Holgado20/Holgado22/Shen24), 4.00+-0.10(Markova18) => <logg> =
+  3.92.  Rad=11.5Rsun(Markova18), Rad=15.71+0.31-1.67Rsun(Shen24).
+  Luminosities: logL=4.14+-0.07(Shen24), logL=5.80(Markova18).
+  plx=0.2241+-0.0177(GaiaEDR3).  V=9.397, plx=0.2241mas, Av=1.294 =>
+  Mv=-5.15+-0.17.
   
 # Secondary Standard
 
-LH 10-3058 
-  O3V((f*)): Walborn02
+LH 10-3058 = PGMW 3058 = [ELS2006] N11 060 = 2MASS J04564214-6624546 = Gaia DR3 4662155839859943680
+ *O3V((f*)): Parker92,Walborn02(stan),Evans06,Bestenlehner25
+
+  O star in LMC N11B, hence low metallicity. Note on nomenclature from
+  SIMBAD: "stars in LH 10 are PGMW, other stars in LH are [L72]",
+  hence LH 10-3058 = PGMW 3058.
 
 # Deprecated Standard
 
