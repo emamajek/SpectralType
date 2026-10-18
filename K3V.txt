@@ -1386,15 +1386,18 @@ HD 16160 = GJ 105A = HR 753 = HIP 12114
   recently (2020) was at 1.0". Rudy96 lists delta(magnitudes) in the
   near-IR of del(J)=5.99, del(H)=5.73, del(K)=5.39), with their
   magnitudes tied to the Elias82/CIT standards.  Dedrick25 provides a
-  recent updated to the orbit of GJ105AC, deriving dynamical masses
-  M(A)=0.78+-0.02Msun, M(C)=0.098+-0.002Msun.  GJ 105B is a distant
-  (165" = 2.8') V=11.66 M4V companion star.  Note that there is no "Gl
-  105" or "GJ 105" in SIMBAD, it is "105A". GJ 105C is a V=16.77 M7V
-  star at separation 3.3" from A (Nidever02 reports that 105A is a
-  stable RV star to within <0.1 km/s).  Dedrick25 estimates isochronal
-  age of 11.0+1.6-2.4Gyr, but notes that it is an old thin disk star,
-  so age of ~9 Gyr seems more likely. Note that the GaiaDR2 parallax
-  is more accurate that the DR3 value, and adopted:
+  recent updated to the orbit of GJ105AC: Porb(AC)=76.0+-1.3yr,
+  a=2.380+-0.019", i=46.0+-1.3deg, Omega=126.7+-0.3, T0=58221+-4d,
+  e=0.647+-0.003, omega=315.3+-0.3, K1=706.1+-1.0m/s,
+  M(A)=0.78+-0.02Msun, M(C)=0.098+-0.002Msun.  I discuss the HZ and
+  dynamical stability limits at the end.  GJ 105B is a distant (165" =
+  2.8') V=11.66 M4V companion star.  Note that there is no "Gl 105" or
+  "GJ 105" in SIMBAD, it is "105A". GJ 105C is a V=16.77 M7V star at
+  separation 3.3" from A (Nidever02 reports that 105A is a stable RV
+  star to within <0.1 km/s).  Dedrick25 estimates isochronal age of
+  11.0+1.6-2.4Gyr, but notes that it is an old thin disk star, so age
+  of ~9 Gyr seems more likely. Note that the GaiaDR2 parallax is more
+  accurate that the DR3 value, and adopted:
   plx=138.2084+-0.1436mas(GaiaDR2).  V=5.79(HIP,TYC),
   V=5.81(Cousins80,Leggett88,Bessell90), V=5.82(Johnson66),
   V=5.82(GCPD/Cousins76/VRIc), V=5.820+-0.016(Cousins72),
@@ -1497,8 +1500,21 @@ HD 16160 = GJ 105A = HR 753 = HIP 12114
   derived dynamical mass of M(A)=0.782+0.019-0.018Msun.
   Age=5.1+-1.1Gyr(Ramirez12),
   Age=6.10Gyr(Gaspar13). Prot=48.0d(Donahue96;Pmin=42.2d,Pmax=51.5d),
-  logLx=27.24(Wright11), logLx/Lbol=-5.77.
-  
+  logLx=27.24(Wright11), logLx/Lbol=-5.77.  For
+  plx=138.3400+-0.3177mas(GaiaDR3) (=>d=7.229pc), the semi-major axis
+  translates to a=17.203+-0.143au. Using the Quarles20 formulae, the
+  stability zones around each star have outer radii of
+  a_crit(A)=2.09au(P_crit(A)=3.41yr),
+  a_crit(C)=0.74au(P_crit(C)=2.05yr). Adopting the luminosities from
+  Dedrick25 (L(A)=0.2734Lsun, L(C)=0.000758Lsun), fiducial Teffs of
+  4870K(A) and 2680K(C), the outer optimistic HZ radii from
+  Kopparapu14 are S_HZ,out(A)=0.2726(early Mars),
+  S_HZ,out(A)=0.202(early Mars, for Teff=2680K), which translate to
+  outer HZ radii of r_HZ,out(A)=1.00au, r_HZ,out(C)=0.061au, which are
+  well within the dynamical stability outer radius for S-type orbits.
+  In angular units, those HZ outer limits translate to 138mas and
+  8.4mas, respective -- which makes the primary of interest to
+  exoEarth survey with HWO (i.e. 138mas > typical HWO IWA values).
 
         G =  5.4983+-0.0029 ; sec. stan. HD 16160 = GJ 105A ([Fe/H]=-0.13)    
    (V-Rc)(K3V) =   0.575 +-0.010 ; sec. stan. HD 16160 = GJ 105A ([Fe/H]=-0.13)    
@@ -2370,7 +2386,7 @@ HD 116858 = GJ 511A = HIP 65574 = UGP 317 = WDS J13267-2418B
   R-Ic=0.465(Cousins80), V-Ic=0.988(Cousins80), V-Rc=0.523(Cousins80).
 
   
-HR 6426 = GJ 667 AB = LHS 443 = HD 156384
+HR 6426 = GJ 667 AB = LHS 443 = HD 156384 = HJ 4935AB = MLO 4 = WDS J17190-3459AB = Gaia DR3 5975663422846187008
   K3V: Wilson62,Upgren72
  *K3V+K4V: Corbally84(K3.5V unresolved)
   K3+K4: Bidelman85
@@ -2378,9 +2394,69 @@ HR 6426 = GJ 667 AB = LHS 443 = HD 156384
   K4V: Houk72,Bidelman85(K4)
   K5V: Adams35
 
-  2" binary with ternary M1.5V companion 33" away (GJ 667C).
+  1.4" binary with ternary M1.5V companion 33" away (GJ 667C).
   Corbally84 and Bidelman85/Kuiper independently agree on subtypes of
-  components.
+  components. The components were not resolved in any astrometric
+  catalogs, so there is a single SIMBAD entry with single Gaia DR3
+  entry, with the best available parallax being rather poor
+  (plx=146.29+-9.03mas;vanLeeuwen07/HIP2 => d=6.83+-0.42pc).  Mason23
+  provides the most recent orbit shown in ORB6: Porb=42.152+-0.039yr,
+  a=1.8260+-0.0017", i=127.662+-0.034deg, Omega=133.574+-0.063deg,
+  To=1933.752+-0.079, e=0.57374+-0.00029, omega=68.451+-0.056deg, and
+  estimate M(A)=0.65+-0.12Msun, M(B)=0.448+-0.085Msun.  Combining the
+  HIP2 plx and Mason23 a" results in physical semi-major axis of a =
+  12.48+0.82-0.72au, and combined with the orbital period yields total
+  dynamical mass Mtot(AB)=1.09+0.23-0.18Msun. Typical K3V and K4V
+  stars have ~0.77 and ~0.72Msun, so one would predict Mtot ~ 1.49
+  Msun.  Tokovinin08 estimates M(A)=0.73Msun and M(B)=0.69Msun based
+  on SpT.  V(AB)=5.907+-0.010(Mermilliod91/Nobs>25),
+  V(AB)=5.91(HIP,TYC), V(A)=6.27(Corbally84), V(B)=7.29(Corbally84),
+  del(V,AB)=1.02(Corbally84), B-V(AB)=1.034(Just08),
+  B-V(AB)=1.038+-0.009(Mermilliod91/Nobs>25), B-V(A)=0.99(Corbally84),
+  B-V(B)=1.19(Corbally84), U-B(AB)=0.826+-0.105(Mermilliod91/Nobs=17),
+  U-B(A)=0.75(Corbally84), U-B(B)=1.08(Corbally84),
+  V-Rc(AB)=0.662(Just08), R-Ic(AB)=0.533(Just08),
+  V-Ic(AB)=1.195(Just08), g-r(AB)=0.883(Just08),
+  r-i(AB)=0.302(Just08).  The unresolved Ic magnitude from the
+  Mermilliod91 V(AB) and Just08 V-Ic(AB) is Ic(AB)=4.712.  2MASS
+  photometry is qflg="DCD", i.e. poor. The values in the Worley01
+  magnitude difference catalog seem widely discrepent:
+  1.02mag(Hurley83), 1.26(Wallenquist1948), 4.34(Pickering1912).
+  Tokovinin10, Tokovinin16, Tokovinin18, Tokovinin19, Tokovinin22
+  report several epochs of delta(mag) in y-band, in chronological
+  order: 1.8, 1.0, 1.0, 1.2, 1.2, 1.1, 1.2, 1.1, 1.1, 1.2, 1.3 (median
+  del(y)=1.2).  Tokovinin19, Tokovinin20, Tokovinin22, Mason23 also
+  report delta(mags) in I-band of 0.8, 0.8, 0.7, 1.1, 0.7, 0.8, 0.8,
+  0.7, 0.7, 0.7, 0.8, 0.8, 0.7 (median del(I)=0.8).  Adopting
+  Ic(AB)=4.712(Just08+Mermilliod91) and del(I)=0.8 from the
+  Tokovinin/Mason papers => Ic(A)=5.14, Ic(B)=5.94.  Adopting spectral
+  types K3V and K4V, and BCv(K3V)=-0.37 for A, BCv(K4V)=-0.51 for B,
+  the Corbally84 Vmags, the HIP2/vanLeeuwen07 parallax, I estimate
+  bolometric luminosities of logL(A)=-0.794+-0.054,
+  logL(B)=-1.146+-0.054, where the uncertainties include only Vmag and
+  plx uncertainty, but don't include BCv uncertainty (and hence are
+  lower limit). These luminosity estimates are very rough, and seem
+  off as if the stars were typical dwarfs, the luminosities would be
+  suggestive of ~K5V and ~M0V.  The Earth-equivalent insolate
+  distances (EEID) around both stars would then be a_EEID(A)=0.40au,
+  a_EEID(B)=0.27au. Using the dynamical stability equations of
+  Quarles20, and adopting M(A)~0.77Msun, M(B)~0.72Msun, a=12.48au,
+  e=0.57374, then the stability zone outer limits are
+  a_crit(A)=1.31au(P_crit(A)=1.71yr), and
+  a_crit(B)=1.26au(P_crit(B)=1.66yr). Adopting fiducial Teffs based on
+  SpT of Teff(A)~4870K & Teff(B)~4600K, the optimistic HZ outer limits
+  (early Mars case) are at irradiances Sout(HZ,outer,A)=0.273 and
+  Sout(HZ,outer,B)=0.260, which correspond to outer HZ radii of
+  a_HZ,out(A)=0.77au and a_HZ,out(B)=0.52au.  So it appears that the
+  hab zones for both stars are well within their dynamical stability
+  zones for S-type orbits.  At their distance (6.83pc), their outer HZ
+  limits would be at angular separations 113mas and 76mas, which makes
+  them individually potential HWO targets for exoEarth survey.  Some
+  explanation for the low luminosities for their spectral types may
+  come from the metallicities: [Fe/H]=-0.43+-0.12(Santos05),
+  [Fe/H]=-0.59(Perrin88), and Gaidos14 finds that the M-dwarf
+  component C has [Fe/H]=-0.30+-0.08, so multiple pieces of evidence
+  suggest this is a fairly metal-poor system.
 
 HD 222237V: Evans57
   K3V: Sahade53(K3),Evans57

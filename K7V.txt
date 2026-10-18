@@ -1719,14 +1719,74 @@ GJ 338B = HD 79211 = LHS 261
   -0.15+-0.10(Yee17), -0.06+-0.08(Gaidos14), -0.07+-0.09(Gaspar16),
   +0.34(Luck17) => adopt [Fe/H]=-0.15.
 
-GJ 185AB = HD 32450 AB
+GJ 185AB = HD 32450 AB = HIP 23452 = NLTT 14415 = GJ 185 = DON 91 = WDS J05025-2115AB = Gaia DR2 2974726131970829952 (unresolved) = Gaia DR3 2974726131970829952 [A] + Gaia DR3 2974726136265625088 [B] 
    K7: Bidelman85
-  *K7VJ: Henry94,Henry02("joint"),Reid95("Gl 185A"),GrayNstars(stan)
+   K7VJ: Henry94,Reid95/Reid97(K7/"Gl 185A"),Henry02("joint"),GrayNstars(stan)
+   K8:V+M3:V: EEM(photometric estimate below)
    M0V: Upgren72,Houk88,Gaidos14(M0)
+   M0.0V+M3.0V: Cirfuentes25
    M1V: Joy74
    M2V: Vyssotsky46
 
-   Reid04 calls GJ 185B M2.0, so apparently a very close (0.9") K7V+M2V pair. 
+   Note that it was the joint light of this tight binary that was
+   considered by Henry02 to be a spectral standard.  Reid04 calls GJ
+   185B M2.0, so apparently a very close K7V+M2V pair.  Unresolved in
+   GaiaDR2, but GaiaDR3 split just barely -- secondary only had
+   ~quarter of the number of observations of the primary. It was
+   cleanly split in Hipparcos/CCDM.  Orbit in ORB6 is from
+   Tokovinin24: P=43.54+-0.16yr, a=1.413+-0.034", e=0.811+-0.008,
+   T1=1996.04+-0.22.  plx(AB)=119.3399+-0.1539mas(GaiaDR2),
+   plx(A)=119.5737+-0.0420mas(GaiaDR3),
+   plx=118.8250+-0.0795mas(GaiaDR3),
+   plx(B)=118.8250+-0.0795mas(GaiaDR3).  Adopting the Tokovinin24 a
+   and Gaia DR2 joint parallax-inferred distance (8.379pc), the
+   semi-major axis translates to
+   11.84au. V(AB)=8.309+-0.019(Mermilliod91/Nobs>26), V(AB)=8.31(HIP),
+   V(A)=8.433662(GaiaDR3/synth), B-V(AB)=1.430+-0.011(HIP),
+   B-V(AB)=1.442+-0.018(Mermilliod91/Nobs>26),
+   U-B(AB)=1.169+-0.111(Mermilliod91/Nobs>6), V-Ic=1.81+-0.02(HIP),
+   Hp(A)=8.545+-0.006(HIP), Hp(B)=10.606+-0.039(HIP),
+   Vt(A)=8.68+-0.01(Fabricius00), Vt(B)=10.88+-0.05(Fabricius00),
+   Rc(A)=7.458857(GaiaDR3/synth), Ic(A)=6.565116(GaiaDR3/synth),
+   J(AB)=5.450+-0.021(2MASS), H(AB)=4.853+-0.017(2MASS),
+   Ks(AB)=4.600+-0.018(2MASS), V-Ks(AB)=3.71(HIP,2MASS).  The
+   unresolved B-V and V-Ks colors are consistent with ~M0V.  Magnitude
+   differences: del(Bt)=1.68+-0.095(Fabricius00),
+   del(G)=1.844(GaiaDR3), del(Hp)=2.061(HIP), del(V)=2.24(Reid97),
+   del(Vt)=2.20+-0.05, del(K)=1.07. Splitting unresolved
+   Ks(AB)=4.600+-0.018(2MASS) using del(K)=1.07 from Reid97 =>
+   Ks(A)=4.944, Ks(B)=6.014.  Splitting unresolved
+   V(AB)=8.309+-0.019(Mermilliod91) with
+   del(Vt)=2.20+-0.05(Fabricius00) => V(A)=8.443, V(B)=10.643.  Hence
+   the resolved V-Ks estimate for the components would then be:
+   V-Ks(A)=3.50, V-Ks(B)=4.63, consistent photometrically with
+   spectral types ~K8V & ~M3V.  Note that Gaia DR3 has
+   delta(mag,G)=1.844 but nearly identical Bp and Rp mags for the
+   components, and the secondary has a big E(Bp/Rp) valu (8.361) so
+   the Gaia DR3 photometry is very poor.  Masses:
+   Mass(A)=0.56(Reid97), Mass(A)=0.574+-0.029Msun(Kirkpatrick24),
+   Mass(A)=0.6114+-0.0272Msun(Cifuentes25), Mass(B)=0.35(Reid97),
+   Mass(B)=0.360+-0.016Msun(Kirkpatrick24),
+   Mass(B)=0.3691+-0.0146Msun(Cifuentes25).  Tokovinin24 orbit,
+   GaiaDR2 plx, and Cifuentes25 masses, and the orbital stability
+   criteria for S-type orbits from Quarles20, I estimate:
+   a_crit(A)=0.52au(P_crit(A)=0.47yr),
+   a_crit(B)=0.39au(P_crit=0.41yr).  Teff(AB)=3833+-64K(Gaidos14,
+   treated as single). There are no reliable published individual
+   luminosities for the components, so far as I can see.  Attempting
+   to calculate luminosities assuming spectral types of K8 and M3 for
+   the components, adopting BC_Ks(K8V)=2.47, BC_Ks(M3V)=2.66,
+   Ks(A)=4.944, Ks(B)=6.014 (see previous calculation) and adopting
+   Gaia DR3 plxs => logL(A)=-1.225, Mbol(A)=7.80, logL(B)=-1.723,
+   Mbol(B)=9.05. The optimistic hab zones around both (ignoring
+   influence of other component) are roughly r_in(A)= 0.20au,
+   r_out(A)=0.50au (r_EEID(A)=0.244au), r_in(B)=0.11, r_out(B)=0.29au
+   (r_EEID(B)=0.138au). So the Kopparapu14 optimistic hab zones for
+   each fit snuggly inside of the S-type critical stability radii
+   predicted using Quarles20. Unfortunately a planet on S-type orbit
+   around the edge of the optimistic HZ around both stars would have
+   maximum separation ~62mas and ~35mas, which would be a stretch for
+   HWO.
   
 GJ 638 = HD 151288 = Cin 18 2238
   K5: Cannon,Bidelman85,Hawley97
@@ -1795,47 +1855,32 @@ GJ 9052B = GJ 56.3B = HD 7895B = LHS 1229 = NLTT 4361 = G 70-50 = G 271-31 = LPM
    M0: Bidelman85
    M0.18: Terrien15
 
-   Secondary of 27" binary companion (HD 7895, LHS 1230; K1V), where primary has V(A)=8.00(HIP).
-   In VSX with variability, apparently rotational modulation detected with Gaia (G=10.048-10.086), but
-   no Prot given. 
-   V=10.675+-0.033(Mermilliod91),
-   V=10.68(TYC),
-   V=10.68+-0.05(He19), 
-   V=10.689(Casagrande08), 
-   V=10.698+-0.038(APASS/DR9),
-   V=10.70(Egret92),
-   V=10.715(Houdebine19),
-   V=10.724277(GaiaDR3/synth) => adopt V=10.69. 
-   B-V=0.874+-0.158(TYC),
-   B-V=1.349+-0.056(APASS/DR9),
-   B-V=1.395(Casagrande08), 
-   B-V=1.401+-0.044(Mermilliod91) => adopt B-V=1.395.
-   U-B=1.222+-0.076(Mermilliod91),
-   V-Rc=0.868(Casagrande08),
-   V-Rc=0.895(GaiaDR3/synth) => adopt V-Rc~=0.88.
-   R-Ic=0.811(Casagrande08),
-   R-Ic=0.826(GaiaDR3/synth), 
-   R-Ic=0.858(Houdebine19) => adopt R-Ic~=0.82. 
-   V-Ic=1.679(Casagrande08),
-   V-Ic=1.721(GaiaDR3/synth) => adopt V-Ic~=1.70.  
-   J=8.012+-0.021(2MASS),
-   H=7.369+-0.029(2MASS),
+   Secondary of 27" binary companion (HD 7895, LHS 1230; K1V), where
+   primary has V(A)=8.00(HIP).  In VSX with variability, apparently
+   rotational modulation detected with Gaia (G=10.048-10.086), but no
+   Prot given.  V=10.675+-0.033(Mermilliod91), V=10.68(TYC),
+   V=10.68+-0.05(He19), V=10.689(Casagrande08),
+   V=10.698+-0.038(APASS/DR9), V=10.70(Egret92),
+   V=10.715(Houdebine19), V=10.724277(GaiaDR3/synth) => adopt V=10.69.
+   B-V=0.874+-0.158(TYC), B-V=1.349+-0.056(APASS/DR9),
+   B-V=1.395(Casagrande08), B-V=1.401+-0.044(Mermilliod91) => adopt
+   B-V=1.395.  U-B=1.222+-0.076(Mermilliod91),
+   V-Rc=0.868(Casagrande08), V-Rc=0.895(GaiaDR3/synth) => adopt
+   V-Rc~=0.88.  R-Ic=0.811(Casagrande08), R-Ic=0.826(GaiaDR3/synth),
+   R-Ic=0.858(Houdebine19) => adopt R-Ic~=0.82.
+   V-Ic=1.679(Casagrande08), V-Ic=1.721(GaiaDR3/synth) => adopt
+   V-Ic~=1.70.  J=8.012+-0.021(2MASS), H=7.369+-0.029(2MASS),
    Ks=7.190+-0.020(2MASS). V-Ks = 10.676 - 7.190 = 3.485.  GaiaDR3:
    plx=36.3428+-0.0315mas(GaiaDR3), G=10.065551+-0.002791(GaiaDR3),
    Bp-Rp=1.779647(GaiaDR3), Bp-G=0.868492(GaiaDR3),
-   G-Rp=0.911155(GaiaDR3).
-   Metallicities:
-   [M/H]=+0.01+-0.06(Mann13),
-   [Fe/H]=-0.01+-0.06(Mann13), 
-   [Fe/H]=-0.02+-0.06(Gaspar16),
-   [Fe/H]=-0.09(Terrien15#1),
-   [Fe/H]=-0.10(Terrien15#2), 
-   [Fe/H]=-0.133(Sprague22),
-   [Fe/H]=-0.14(Gaidos14),
-   [Fe/H]=-0.17(Terrien15#1), 
-   [Fe/H]=-0.1702(Abdurro'uf22), and it is not in
-   Soubiran22/PASTEL catalog, but the primary HD 7895 is in the
-   catalog with metallicity [Fe/H]=-0.10+-0.05 => so adopt [Fe/H]=-0.10
+   G-Rp=0.911155(GaiaDR3).  Metallicities: [M/H]=+0.01+-0.06(Mann13),
+   [Fe/H]=-0.01+-0.06(Mann13), [Fe/H]=-0.02+-0.06(Gaspar16),
+   [Fe/H]=-0.09(Terrien15#1), [Fe/H]=-0.10(Terrien15#2),
+   [Fe/H]=-0.133(Sprague22), [Fe/H]=-0.14(Gaidos14),
+   [Fe/H]=-0.17(Terrien15#1), [Fe/H]=-0.1702(Abdurro'uf22), and it is
+   not in Soubiran22/PASTEL catalog, but the primary HD 7895 is in the
+   catalog with metallicity [Fe/H]=-0.10+-0.05 => so adopt
+   [Fe/H]=-0.10
 
    (G-V)(K7V) = -0.609 ; exemplar GJ 56.3B = HD 7895B ([Fe/H]=-0.10) 
 

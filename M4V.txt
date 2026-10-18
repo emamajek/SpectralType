@@ -1020,11 +1020,14 @@ Note that the two primary standards have very different JHKs colors,
 apparently due to metallicity (GJ 402 being metal-rich, GJ 213 being
 metal-poor).
 
-GJ 402 = Wolf 358 = EE Leo = LHS 294 = HIP 53020 (J1050+0648)
-  M3: RojasAyala12(K-band)
+GJ 402 = Wolf 358 = EE Leo = LHS 294 = HIP 53020 = NLTT 25500 = G 45-8 = G 44-40 = 2MASS J10505201+0648292 = Gaia DR3 3864615459886222464 
+  M3V: RojasAyala12(K-band;M3),Davison15(M3.0V)
+  M3.5: Maldonado20
+  M3.6: Birky20
   M3.76: Terrien15(near-IR)
   M3.9: Mann15
- *M4V: Boeshaar76(non-stan),Kirkpatrick91(pri),Hawley97,Henry02,Kirkpatrick(GrayCorbally09)(pri),Lepine13,Gaidos14(M4),Alonso-Floriano15
+ *M4V: Boeshaar76(non-stan),Bidelman85(M4),Kirkpatrick91(pri),Reid95,Henry02,Kirkpatrick(GrayCorbally09)(pri),Lepine13,Gaidos14(M4),Alonso-Floriano15,Kesseli17(dM4),Schweitzer19(dM4.0),Furhmeister22(dM4.0)
+  M4.5: Fouque18
 
   Landolt09 UBVRI photometric standard. Appears to be just slightly
   metal-rich [Fe/H] ~ +0.1 (see below). U=14.532+-0.006(Landolt09),
@@ -1048,18 +1051,18 @@ GJ 402 = Wolf 358 = EE Leo = LHS 294 = HIP 53020 (J1050+0648)
   sequence. Schlaufman10 calibration predicts for [Fe/H] = 0 => M_Ks =
   7.37, hence star is 0.15 mag above MS. LopezSantiago06 considers it
   a member of the Her-Lyr association (200 Myr), *but* star is
-  slow-rotating: (vsini < 2.5 km/s ; Stelzer13), and despite being 8
-  pc away, it does not appear in any X-ray catalog! Lepine13 lists
-  EWHa=0.11A.  Teffs: 3038K(Jenkins09), 3100K(Lepine13),
-  3110+-50K(Houdebine12), 3165K(Stelzer13), 3200K(Rajpurohit18),
-  3232+-92K(Hojjatpanah19), 3238+-60K(Mann15), 3238+-81K(Gaidos14)
-  3273+-90K(Muirhead18), 3274+-100K(Houdebine16), 3281K(Terrien15#1),
-  3293+-32K(Mann15#2), 3314K(Terrien15#3), 3334+-23K(RojasAyala12),
-  3335K(Passegger18), 3400+-63K(Gaidos14), 3414K(Terrien15#2) =>
-  <Teff> = 3273K. fbol = (0.5261+-0.0055)e-8 erg/s/cm2 (Mann15) =>
-  mbol = 9.200+-0.011 (IAU2015 scale) => BCv = mbol - V = 9.200 -
-  11.675 = -2.475. BC_Ks = mbol - Ks = 9.200 - 6.371 = 2.829.
-  Metallicities: [Fe/H]=-0.07+-0.09(Maldonado20),
+  slow-rotating: (vsini < 2.5 km/s;Stelzer13;Prot=64day;DiezAlonso19),
+  and despite being 8 pc away, it does not appear in any X-ray
+  catalog! Lepine13 lists EWHa=0.11A.  Teffs: 3038K(Jenkins09),
+  3100K(Lepine13), 3110+-50K(Houdebine12), 3165K(Stelzer13),
+  3200K(Rajpurohit18), 3232+-92K(Hojjatpanah19), 3238+-60K(Mann15),
+  3238+-81K(Gaidos14) 3273+-90K(Muirhead18), 3274+-100K(Houdebine16),
+  3281K(Terrien15#1), 3293+-32K(Mann15#2), 3314K(Terrien15#3),
+  3334+-23K(RojasAyala12), 3335K(Passegger18), 3400+-63K(Gaidos14),
+  3414K(Terrien15#2) => <Teff> = 3273K. fbol = (0.5261+-0.0055)e-8
+  erg/s/cm2 (Mann15) => mbol = 9.200+-0.011 (IAU2015 scale) => BCv =
+  mbol - V = 9.200 - 11.675 = -2.475. BC_Ks = mbol - Ks = 9.200 -
+  6.371 = 2.829.  Metallicities: [Fe/H]=-0.07+-0.09(Maldonado20),
   [Fe/H]=-0.06(Jenksins09), [Fe/H]=-0.02(Neves13#2),
   [Fe/H]=+0.01+-0.16(Schweitzer19), [Fe/H]=+0.03(Ward-Duong15),
   [Fe/H]=+0.06(Neves13#1), [Fe/H]=+0.08+-0.04(Hojjatpanah19),
@@ -1067,7 +1070,7 @@ GJ 402 = Wolf 358 = EE Leo = LHS 294 = HIP 53020 (J1050+0648)
   [M/H]=+0.15+-0.12(Rojas-Ayala12#1), [Fe/H]=+0.16+-0.08(Mann15),
   [Fe/H]=+0.20+-0.17(Rojas-Ayala12), [Fe/H]=+0.20+-0.08(Gaidos14),
   [Fe/H]=+0.26+-0.12(Newton14) => [Fe/H]~+0.1. G=10.290781(GaiaDR3).
-  G-V = 10.290781 - 11.675 = -1.384. 
+  G-V = 10.290781 - 11.675 = -1.384.
 
   (Bp-Rp)(M4V) = 2.869300 ; pri. stan. GJ 402 = Wolf 358 ([Fe/H]~+0.1) (GaiaDR3)  
   (Bp-G)(M4V)  = 1.628688 ; pri. stan. GJ 402 = Wolf 358 ([Fe/H]~+0.1) (GaiaDR3)  
@@ -1601,6 +1604,65 @@ GJ 3287 = NLTT 13249 = G 175-32 = 2MASS J04274130+5935167 = LSPM J0427+5935 = 1R
 
 RECONS shows Barnard's Star (GJ 699; J1757+0441) as the nearest M4V
 star, followed by GJ 447 (J2305-3551).
+
+GJ 682 = HIP 86214 = LHS 451 = NLTT 45107 = WDK 3A = 2MASS J17370367-4419088 = WDS J17371-4419A = Gaia DR3 5955305209191546112
+  M3.5V: Bidelman85(M3.5),Reid95
+ *M4.0V: Henry18
+  dM4.2: Houdebine19
+  M4.5V: Walker83
+  M5: Gaidos14
+  M7: Hojjatpanah19(error?)
+
+  Ghost planets, ghost stellar companion? Claimed exoplanet host star
+  and claimed stellar binary (in WDS), but may very well be
+  neither. Claims of planets from RV signals (Tuomi14), but then not
+  recovered (Feng20), but still listed as confirmed planets in NASA
+  Exoplanet Archive as of 8/2026. WDS reports it as tight (0.2")
+  binary WDS J17371-4419 = WDK3 with mag1=6.3, mag2=7.3 from
+  Ward-Duong15. The actual Ward-Duong15 paper reports sep=0.17+-0.05",
+  projected sep 0.9+-0.3 au, del(H)=1.01, which they claim correspond
+  to two stars of masses 0.23 and 0.14 Msun. However, neither the RV
+  data from Tuomi14 from Feng20 mention any evidence of a stellar
+  companion in spectra or RV signals (which should have stuck out like
+  a sore thumb). GaiaDR3 RUWE is remarkably low (RUWE=1.104). The
+  "secondary" has appeared in some catalogs as GJ 682B (Winters21) or
+  2MASS J17370367-4419088B (Ment23), but it isn't clear that a
+  physical stellar companion to GJ 682 exists.  Tuomi14 RV signals
+  claimed to be planets have amplitudes (b) 2.99+1.58-1.85 m/s and (c)
+  3.98+1.62-2.16 m/s. Feng20: "GJ 682 b and c. They are probably due
+  to activity... we did not find these two signals with periods of
+  17.48 and 57.32 days in the BFPs nor in the MCMC posterior
+  samples... moreover we find the 17.48 day to be significant in the
+  BFP for the BIS of HARPS, indicating an activity origin. In the BFP
+  for the FWHM of HARPS, we find another signal around 6.87 days to be
+  significant. There is also a strong power around this period in the
+  BFP for R_HK of HARPS. Thus this signal [6.87d] might be caused by
+  the differential rotation of the star."  The star is fairly
+  inactive, which makes the bewildering values for Prot all the
+  stranger. logR'HK=-5.438+-0.073(Astudillo-Defru17), logLx/Lbol=-5.29
+  (I estimate using Schmitt04 logLx=26.16 and luminosity from
+  HardegreeUllman23)).  Rotation period estimates are all over the
+  map: Jayasinghe18(ASAS-SN) find 0.16mag amplitude with Per=0.99609d
+  (which seems wholy inconsistent with the coronal and chromospheric
+  inactivity), Prot/sini<4.80+1.83-1.22d (based on vsini=3km/s;
+  Houdebine16), Prot=6.87d(Feng20), Prot=74.2d(Mignon24;estimated from
+  logR'HK=-5.371), Prot=82d(Astudillo-Defru17).
+  plx=199.6944+-0.0312mas(GaiaDR3). vsini=3.42+-0.79km/s(Hojjatpanah19).
+  Combining the Hojjatpanah19 vsini with radius from HardegreeUllman23
+  would be consistent with Prot~<4.44d, similar to Houdebine16
+  estimate.  The star is in pretty crowded Galactic field, which may
+  be adding to the fun (was the Ward-Duong15 companion a background
+  object? Kar24 comments that the TESS photometry has "major
+  blending". There is another star of nearly identical (V=11.6)
+  magnitude background star 27" away (TYC 7896-1499-1).  V=10.94(HIP),
+  V=10.96(Mermilliod91), V=10.99(Henry18), B-V=1.65(Mermilliod91),
+  U-B=1.20(Mermilliiod91), Rc=9.74(Henry18), Ic=8.15(Henry18).  Teffs:
+  2992+-92K(Hojjatpanah19), 3028K(Tuomi14),
+  3237+-108K(HardegreeUllman23), 3261+-86K(Muirhead18).  Masses:
+  M=0.27Msun(Tuomi14), M=0.274+-0.009Msun(HardegreeUllman23),
+  M=0.295+-0.005Msun(Muirhead18). Rad=0.300+-0.009Rsun(HardegreeUllman23).
+  logL=-2.0555+-0.1136(Paegert21). Lum=7.32e-03+-2.66e-04Lsun(HardegreeUllman23)
+  => logL=-2.1355+-0.0158.  plx=199.6944+-0.0312mas(GaiaDR3).
 
 GJ 1148 = Ross 1003 = LHS 2443 = G 122-40 = 2MASS J11414471+4245072 = LTT 13210
   M3: RojasAyala12(K-band)

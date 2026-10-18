@@ -156,6 +156,7 @@ for LHS 2397a seem to be typical for the subtype, supporting V-Ks=8.7]
 (J-Ks)(M8V) =   0.824 ; LP_316-400_ M8V plx=49.8430mas
 (J-Ks)(M8V) =   0.91 ; dalPonte23
 (J-Ks)(M8V) =   0.994 ; GJ_3693_ M8V plx=67.1389mas
+(J-Ks)(M8V) =  1.006 ; Reyle18 polynomial [discrepent] 
 (J-Ks)(M8V) =  1.03 (+-0.17 rms) ; Schmidt14
 (J-Ks)(M8V) =  1.032 ; exemplar LP_315-53_ M8V plx=49.6242mas
 (J-Ks)(M8V) =   1.044 ; LP_523-55_ M8.0V plx=44.4429mas
@@ -246,7 +247,7 @@ for LHS 2397a seem to be typical for the subtype, supporting V-Ks=8.7]
 (G-V)(M8V) = -3.251 ; pri. stan. GJ 752B = VB 10 (GaiaDR3)
 (G-V)(M8V) = -3.096 ; smoothed fit to SIMBAD d<25pc M0V-M9.5V stars (4/13/2025) (GaiaDR3)
 (G-V)(M8V) = -3.038 +-0.011 ; sec. stan. LHS 2397a = LP 732-94 = GJ 3655 (GaiaDR3)
-=> adopt (G-V)(M8V) = -3.1 [updated 4/13/2025] (GaiaDR3) 
+=> adopt (G-V)(M8V) = -3.10 [updated 4/13/2025] (GaiaDR3) 
 
 (Bp-Rp)(M8V) =  4.18  ; Kiman19 (GaiaDR2)
 (Bp-Rp)(M8V) =  4.636 ; sec. stan. LP_412-31 (GaiaDR2)
@@ -372,7 +373,6 @@ for LHS 2397a seem to be typical for the subtype, supporting V-Ks=8.7]
 
 (G-J)(M8V) =  4.359 ; Reyle18 polynomial (GaiaDR2)
 
-(J-Ks)(M8V) =  1.006 ; Reyle18 polynomial
 
 (g-G)(M8V) =  3.550 ; SDSS_J125222.63+025205.7_ M8V plx=34.3513mas
 (g-G)(M8V) = 3.597 ; SDSS_J111946.52+082035.0_ M8V plx=35.6359mas
@@ -652,9 +652,8 @@ Mv(M8V) =  18.75  ; Dieterich14 calibration for V-K=8.65
 Mv(M8V) =   18.76 ; Kirkpatrick94
 Mv(M8V) =   19.0   ; Reid04
 Mv(M8V) =  19.52  ; exemplar RG 0050-2722 = 2MASS J00525468-2705597
-=> adopt Mv(M8V)   = 18.62 mag [updated 12/23/2020] (M_G=15.45, G-V=-3.17, V-Ks=8.70, M_Ks=9.92)
-=> adopt M_G(M8V)  = 15.45 mag [updated 12/23/2020] (M_Ks=9.92, G-Ks=5.53, Mv=18.62, G-V=-3.17)
-=> adopt M_Ks(M8V) =  9.92 mag [updated 12/23/2020] (M_G=15.45, G-Ks=5.53)
+=> adopt Mv(M8V)   = 18.62 mag [updated 3/3/2026] (V-Ks=8.70, M_Ks=9.92)
+=> adopt M_Ks(M8V) =  9.92 mag [updated 3/3/2026] (M_G=15.45, G-Ks=5.53)
 => adopt M_i(M8V)  = 14.67 mag [updated 6/15/2024]  (M_J=11.04, i-J=3.63)
 => adopt M_r(M8V)  = 17.44 mag [updated 6/15/2024]  (M_i=14.67, r-i=2.77)
 
@@ -784,6 +783,7 @@ M_Ks(M8V) =    10.17 ; BR_B1222-1221_ M8e plx=57.9715mas
 M_Ks(M8V) =    10.19 ; 2MASS_J18142928-2025279_ M8 plx=47.5955mas
 M_Ks(M8V) =    10.30 ; SIPS_J1054-8505_ M8 plx=53.6972mas
 M_Ks(M8V) =   10.56  ; exemplar RG 0050-2722
+=> adopt M_Ks(M8V) = 9.92 [updated 3/3/2026] (V-Ks=8.70, Mv=18.62) 
 
 Teff(M8V) =   2806 K ; sec. stan. LP 412-31 (Rice10)
 Teff(M8V) =    2750 K ; Johnson66
@@ -799,7 +799,6 @@ Teff(M8V) =  2600 K ; Rajpurohit13(N=5)
 Teff(M8V) =  2593 K ; RojasAyala12(mean N=3 M8V stars)
 Teff(M8V) =    2580 K ; Habets81
 Teff(M8V) =  2570 K ; empirical L-R relation, for logL=-3.292
-Teff(M8V) =  2562 K ; EEM N=21 Teffs
 Teff(M8V) =  2560 K ; Sanghi23 M6V-T9V field dwarf polynomial
 Teff(M8V) =  2550 K ; pri. stan. GJ 752B (VB 10) (see below)
 Teff(M8V) =  2539 K ; Filippazzo15 calibration (M6V-T9V)
@@ -814,9 +813,9 @@ Teff(M8V) =  2481 K ; LHS2195 (Dieterich14)
 Teff(M8V) =  2466 K ; SIP1607-0442 (Dieterich14)
 Teff(M8V) =   2439 K ; mean photometric Teff
 Teff(M8V) =  2403 K ; ESO207-061 (Dieterich14)
-=> adopt Teff(M8V) = 2570 K (logT = 3.410) [adopted 11/3/2019]
+=> adopt Teff(M8V) = 2560 K (logT = 3.408) [adopted 3/3/2026]
 
-BC_G(M8V) = -2.192+-0.163 ; Cifuentes20
+BC_G(M8V) = -2.192 +-0.163 ; Cifuentes20
 
 BC_J(M8V) =  1.96  +-0.05  ; Schmidt14 
 BC_J(M8V) =  2.026         ; Sanghi24 M6V-T9V trend
@@ -829,7 +828,7 @@ BCv(M8V) =  -5.631 mag ; pri. stan. GJ 752B (calc using Cushing05)
 BCv(M8V) = -5.65 mag ; BC_K=3.05, V-K=8.70
 BCv(M8V) =  -5.732 mag ; sec. stan. LHS 2397a (calc using Schmidt07)
 BCv(M8V) = -5.79 mag ; Mbol=13.09, Mv=18.88
-=> adopt BCv(M8V) = -5.65 mag [updated 11/3/2019]
+=> adopt BCv(M8V) = -5.65 mag [updated 3/3/2026] (V-Ks=8.70, BC_Ks=3.05) 
 
 BC_Ks(M8V) = 2.879 ; pri. stan. GJ 752B (see below)
 BC_Ks(M8V) = 2.94  ; Mbol=13.09, M_Ks=10.15 (based on Dieterich14)
@@ -844,27 +843,27 @@ BC_K(M8V)  =  3.097 ; Golimowski04(SpT function)
 BC_K(M8V)  =  3.114 ; Leggett01 polynomial for I-K=4.143
 BC_Ks(M8V) = 3.132 ; interp M6V-L1V for V-Ks=8.70
 BC_Ks(M8V) = 3.159 +-0.037 ; pri. stan. GJ 752B (calc using Cushing05)
-=> adopt BC_K(M8V) = 3.05 [adopted 11/3/2019]
+=> adopt BC_K(M8V) = 3.05 [adopted 3/3/2026] 
 
 logL(M8V) =  -3.625 ; ESO207-061 (Dieterich14)
 logL(M8V) =  -3.507 ; LP 771-21 (Dieterich14)
 logL(M8V) =  -3.399 ; LHS 2195 (Dieterich14)
 logL(M8V) =  -3.340 ; pri. stan. GJ 752B = VB 10 (Dieterich14)
 logL(M8V) =  -3.34 +-0.01 ; pri. stan. GJ 752B = VB 10 (Cushing05)
-logL(M8V) = -3.292 ; M_Ks=9.92, BC_K=3.05 => Mbol=12.970
+logL(M8V) = -3.292 ; M_Ks=9.92, BC_K=3.05 => Mbol=12.970 (3/3/2026)
 logl(M8V) =  -3.29 +-0.02 ; sec. stan. LP 412-31 = NLTT 10644 (Sanghi23)
 logL(M8V) =  -3.271 ; SIP1607-0442 (Dieterich14)
 logL(M8V) =  -3.228 (+-0.02 sem, +-0.14 rms) ; median N=40 d<25pc M8s in Sebastian21/SPECULOOS
 logL(M8V) =  -3.194 ; LHS 0132 (Dieterich14)
 logL(M8V) =  -3.163 ; 2MASS 1440+1339 (Dieterich14)
-=> adopt logL(M8V) = -3.292 dex [updated 11/15/2021]
-=> adopt Mbol(M8V) = 12.970 mag [updated 11/15/2021]
+=> adopt logL(M8V) = -3.292 dex [updated 3/3/2026]
+=> adopt Mbol(M8V) = 12.970 mag [updated 3/3/2026] 
 
-Rad(M8V) = 0.1140 Rsun ; logL=-3.292, Teff=2570K
+Rad(M8V) = 0.1149 Rsun ; logL=-3.292, Teff=2560K
 Rad(M8V) = 0.115 (+-0.003 sem,+-0.006 rms) ; mean N=40 d<25pc M8s in Sebastian21/SPECULOOS
 Rad(M8V) = 0.120  Rsun ; median of 6 M8V radii from Dieterich14
-Rad(M8V) = 0.122+-0.007 Rsun ; Cifuentes23
-=> adopt Rad(M8V) = 0.114 Rsun [updated 11/15/2021]
+Rad(M8V) = 0.122 +-0.007 Rsun ; Cifuentes23
+=> adopt Rad(M8V) = 0.115 Rsun [updated 3/3/2026] 
 
 Mass(M8V) = 0.082 Msun ; Benedict16 calib. for M_Ks=9.92
 Mass(M8V) = 0.086 Msun ; Mann18 calib. for M_Ks=9.92
@@ -872,10 +871,10 @@ Mass(M8V) = 0.088 Msun ; M_Ks=9.92 => EEM fit to M_Ks vs. Msun for Dupuy10 data
 Mass(M8V) = 0.091 (+-0.001sem,+-0.0047stdev) ; Kirkpatrick24 median d<20pc M8 opt types (N=24)
 Mass(M8V) = 0.091 (+-0.006 stdev) ; mean N=40 d<25pc M8s in Sebastian21/SPECULOOS
 Mass(M8V) = 0.105 (+-0.088) Msun ; Cifuentes23
-=> adopt Mass(M8V) = 0.090 Msun [updated 5/1/2025]
+=> adopt Mass(M8V) = 0.091 Msun [updated 3/3/2026]
 
-logg(M8V) = 5.259 ; M=0.086Msun, Rad=0.114Rsun
-=> adopt logg(M8V) = 5.26 [updated 8/3/2023]
+logg(M8V) = 5.276 ; M=0.091Msun, Rad=0.115Rsun [3/3/2026] 
+=> adopt logg(M8V) = 5.28 [updated 3/3/2026]
 
 # No Standard
 

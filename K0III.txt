@@ -123,15 +123,10 @@ GrayCorbally10 standard: eta Cyg - K0III
 			 19 Pup - K0III
 			 del Cnc - K0III
 
-(J-H)(K0III) = 0.526 (+-0.003 sem, +-0.051 stdev) ; N=565 K0III from Skiff compendium w/i 15deg of NGP, 2MASS photometry AAA flags
-=> adopt (J-H)(K0III)  = 0.526 [updated 10/30/2020]
-
-(H-Ks)(K0III) = 0.119 (+-0.002 sem, +-0.027 stdev) ; N=565 K0III from Skiff compendium w/i 15deg of NGP, 2MASS photometry AAA flags
-=> adopt (H-Ks)(K0III) = 0.12 [updated 10/30/2020]
-
 Teff(K0III) = 4719 K ; ter. stan. tet Cet = HR 402 = HD 8512
 Teff(K0III) =  4733 K ; HIP 53229/HD94264 Ramirez13
 Teff(K0III) = 4755 K ; sec. stan. eps Cyg = HR 7949 = HD 197989
+Teff(K0III) = 4794 K ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
 Teff(K0III) =  4800 K ; HIP 68933/HD123139 Engelke06
 Teff(K0III) = 4815 K ; pri. stan. eta Cyg = HR 7615 = HD 188947
 Teff(K0III) = 4815 K ; ter. stan. Q Pup = HD 63744 = HR 3046
@@ -151,6 +146,7 @@ Teff(K0III) =  4966 K ; HIP 89962/HD168723 Jofre15
 (B-V)(K0III) = 1.007 ; HIP 49841 K0III_CN+1 2006AJ....132..161G
 (B-V)(K0III) =  1.010 ; HIP 28358 K0IIIb 1989ApJS...71..245K
 (B-V)(K0III) = 1.011 ; HIP 68933 K0III 2006AJ....132..161G
+(B-V)(K0III) = 1.012 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
 (B-V)(K0III) = 1.019 ; HIP 98110 K0III 1989ApJS...71..245K
 (B-V)(K0III) = 1.019 ; pri. stan. eta Cyg = HR 7615 = HD 188947 
 (B-V)(K0III) =  1.02  ; Davidson87
@@ -170,41 +166,105 @@ Teff(K0III) =  4966 K ; HIP 89962/HD168723 Jofre15
 (U-B)(K0III) =  0.885 ; pri. stan. eta Cyg = HR 7615 = HD 188947
 (U-B)(K0III) =  0.865 ; sec. stan. eps Cyg = HR 7949 = HD 197989
 (U-B)(K0III) =  0.854 ; anchor stan. bet Gem = Pollux = HR 2990
-=> adopt (U-B)(K0III) = 0.87 [updated 6/6/2026]
+(U-B)(K0III) =   0.843 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+=> adopt (U-B)(K0III) = 0.87 [updated 10/2/2026]
 
-(V-Ic)(K0III) =  0.97 ; anchor stan. bet Gem = Pollux = HR 2990
-(V-Ic)(K0III) =  0.98 ; pri. stan. eta Cyg = HR 7615 = HD 188947
-(V-Ic)(K0III) =  1.00 ; sec. stan. eps Cyg = HR 7949 = HD 197989
-(V-Ic)(K0III) =  1.01 ; median for 65 K0III d<75pc in xHIP
-(V-Ic)(K0III) =  1.03 ; ter. stan. Q Pup = HD 63744 = HR 3046 
-(V-Ic)(K0III) =  1.05 ; ter. stan. tet Cet = HR 402 = HD 8512
-=> adopt (V-I)(K0III) = 1.00 [updated 6/6/2026]
+(V-Rc)(K0III) = 0.538 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+(V-Rc)(K0III) = 0.541 ; ter. stan. Q Pup = HD 63744 = HR 3046
+(V-Rc)(K0III) = 0.553 ; ter. stan. tet Cet = HR 402 = HD 8512
+=> adopt (V-Rc)(K0III) = 0.54 [updated 10/2/2026] (V-Ic=1.00, R-Ic=0.46) 
+
+(R-Ic)(K0III) = 0.460 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+(R-Ic)(K0III) = 0.487 ; ter. stan. Q Pup = HD 63744 = HR 3046
+(R-Ic)(K0III) = 0.493 ; ter. stan. tet Cet = HR 402 = HD 8512
+=> adopt (R-Ic)(K0III) = 0.46 [updated 10/2/2026] (V-Ic=1.00, V-Rc=0.54)
+
+(V-Ic)(K0III) =  0.97  ; anchor stan. bet Gem = Pollux = HR 2990
+(V-Ic)(K0III) =  0.98  ; pri. stan. eta Cyg = HR 7615 = HD 188947
+(V-Ic)(K0III) =  0.998 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+(V-Ic)(K0III) =  1.00  ; sec. stan. eps Cyg = HR 7949 = HD 197989
+(V-Ic)(K0III) =  1.01  ; median for 65 K0III d<75pc in xHIP
+(V-Ic)(K0III) =  1.028 ; ter. stan. Q Pup = HD 63744 = HR 3046
+(V-Ic)(K0III) =  1.046 ; ter. stan. tet Cet = HR 402 = HD 8512
+=> adopt (V-I)(K0III) = 1.00 [updated 10/2/2026] (V-Rc=0.54, R-Ic=0.46) 
 
 (V-Ks)(K0III) = 2.33 ; SIMBAD K0III (N=349) d<200pc, E(B-V)<=0.01 mag (rms=0.14mag)
 => adopt (V-Ks)(K0III) = 2.33 [updated 11/3/2022]
 
-Mv(K0III) = -0.31 ; HIP 69673 K0III_CH-1_CN-0.5 2003AJ....126.2048G
-Mv(K0III) = -0.24 ; KeenanBarnbaum99 Hipparcos average for K0III (interp between G9III and K0.5III)
-Mv(K0III) = 0.43  ; ter. stan. Q Pup = HD 63744 = HR 3046 
-Mv(K0III) =  0.56 ; HIP 28358 K0IIIb 1989ApJS...71..245K
-Mv(K0III) =  0.64 ; HIP 53740 K0IIIb 1989ApJS...71..245K
-Mv(K0III) =  0.65 ; exemplar eps Phe = HIP 765
-Mv(K0III) = 0.66   ; sec. stan. eps Cyg = HR 7949 = HD 197989
-Mv(K0III) =   0.7 ; Cox00
-Mv(K0III) = 0.72   ; sec. stan. eps Cyg = HR 7949 = HD 197989
-Mv(K0III) =  0.78 ; HIP 68933 K0III 2006AJ....132..161G
-Mv(K0III) =  0.79 ; HIP 12486 K0IIIb 1989ApJS...71..245K
+(J-H)(K0III) = 0.526 (+-0.003 sem, +-0.051 stdev) ; N=565 K0III from Skiff compendium w/i 15deg of NGP, 2MASS photometry AAA flags
+=> adopt (J-H)(K0III)  = 0.526 [updated 10/30/2020]
+
+(H-Ks)(K0III) = 0.119 (+-0.002 sem, +-0.027 stdev) ; N=565 K0III from Skiff compendium w/i 15deg of NGP, 2MASS photometry AAA flags
+=> adopt (H-Ks)(K0III) = 0.12 [updated 10/30/2020]
+
+(Bp-Rp)(K0III) =  1.127958 ; sec. stan. eps Cyg = HR 7949 = HD 197989 (GaiaDR3)
+(Bp-Rp)(K0III) = 1.212633 ; ter. stan. Q Pup = HD 63744 = HR 3046 (GaiaDR3)
+(Bp-Rp)(K0III) = 1.217066 ; pri. stan. eta Cyg = HR 7615 = HD 188947 (GaiaDR3)
+(Bp-Rp)(K0III) = 1.235764 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb) (GaiaDR3)
+(Bp-Rp)(K0III) = 1.305700 ; ter. stan. tet Cet = HR 402 = HD 8512 (GaiaDR3)
+=> adopt (Bp-Rp)(K0III) = 1.22 [updated 10/2/2026] (Bp-G=0.57, G-Rp=0.65) (GaiaDR3) 
+
+(Bp-G)(K0III) = 0.526462 ; ter. stan. Q Pup = HD 63744 = HR 3046 (GaiaDR3)
+(Bp-G)(K0III) = 0.556283 ; pri. stan. eta Cyg = HR 7615 = HD 188947 (GaiaDR3)
+(Bp-G)(K0III) = 0.586125 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb) (GaiaDR3)
+(Bp-G)(K0III) = 0.673434 ; ter. stan. tet Cet = HR 402 = HD 8512 (GaiaDR3)
+(Bp-G)(K0III) =  1.004500 ; sec. stan. eps Cyg = HR 7949 = HD 197989 (GaiaDR3)
+=> adopt (Bp-G)(K0III) = 0.57 [updated 10/2/2026] (Bp-Rp=1.22, G-Rp=0.65) (GaiaDR3) 
+
+(G-Rp)(K0III) =  0.123458 ; sec. stan. eps Cyg = HR 7949 = HD 197989 (GaiaDR3) 
+(G-Rp)(K0III) = 0.632266 ; ter. stan. tet Cet = HR 402 = HD 8512 (GaiaDR3)
+(G-Rp)(K0III) = 0.649639 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb) (GaiaDR3)
+(G-Rp)(K0III) = 0.660783 ; pri. stan. eta Cyg = HR 7615 = HD 188947 (GaiaDR3)
+(G-Rp)(K0III) = 0.686171 ; ter. stan. Q Pup = HD 63744 = HR 3046 (GaiaDR3)
+=> adopt (G-Rp)(K0III) = 0.65 [updated 10/2/2026] (Bp-Rp=1.22, Bp-G=0.57) (GaiaDR3) 
+
+(G-V)(K0III) = -0.302 ; ter. stan. Q Pup = HD 63744 = HR 3046 (GaiaDR3)
+(G-V)(K0III) = -0.284 ; ter. stan. tet Cet = HR 402 = HD 8512 (GaiaDR3)
+(G-V)(K0III) = -0.264 ; pri. stan. eta Cyg = HR 7615 = HD 188947 (GaiaDR3)
+(G-V)(K0III) = -0.252 ; sec. stan. eps Cyg = HR 7949 = HD 197989 (GaiaDR3)
+=> adopt (G-V)(K0III) = -0.26 [updated 10/2/2026] 
+
+M_G(K0III) =  0.25 ; ter. stan. Q Pup = HD 63744 = HR 3046
+M_G(K0III) =  0.27 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+M_G(K0III) =   0.37 ; HD_496_ K0III PM* plx=22.6081mas
+M_G(K0III) =   0.39 ; HD_197989_ K0III ** plx=43.1769mas
+M_G(K0III) =   0.44 ; HD_55865_ K0III PM* plx=24.4775mas
+M_G(K0III) =  0.47 ; sec. stan. eps Cyg = HR 7949 = HD 197989
+M_G(K0III) =   0.48 ; HD_188947_ K0III * plx=23.5482mas
+M_G(K0III) = 0.54 ; pri. stan. eta Cyg = HR 7615 = HD 188947 (GaiaDR3) 
+M_G(K0III) =   0.56 ; HD_16815_ K0IIIb PM* plx=22.2853mas
+M_G(K0III) =   0.58 ; HD_146686_ K0III PM* plx=23.5698mas
+M_G(K0III) =  0.61 ; ter. stan. tet Cet = HR 402 = HD 8512
+M_G(K0III) =   0.63 ; HD_8512_ K0IIIb HB* plx=29.0339mas
+M_G(K0III) =   0.74 ; HD_39364_ K0IIIbFe-1.5CH0.5 PM* plx=28.4234mas
+M_G(K0III) =   0.74 ; HD_88284_ K0III_CN+1 (Gray06) SB* plx=30.0232mas
+M_G(K0III) =  0.81 ; anchor stan. bet Gem = Pollux = HR 2990 (estimated as G not measured)
+M_G(K0III) =    1.49 ; HD_110829_ K0III PM* plx=26.1753mas
+=> adopt M_G(K0III) = 0.54 [updated 10/2/2026] (Mv=0.80, G-V=-0.26) (GaiaDR3) 
+
+Mv(K0III) =  -0.31 ; HIP 69673 K0III_CH-1_CN-0.5 2003AJ....126.2048G
+Mv(K0III) =  -0.24 ; KeenanBarnbaum99 Hipparcos average for K0III (interp between G9III and K0.5III)
+Mv(K0III) =  0.43  ; ter. stan. Q Pup = HD 63744 = HR 3046
+Mv(K0III) =  0.53  ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+Mv(K0III) =   0.56 ; HIP 28358 K0IIIb 1989ApJS...71..245K
+Mv(K0III) =   0.64 ; HIP 53740 K0IIIb 1989ApJS...71..245K
+Mv(K0III) =   0.65 ; exemplar eps Phe = HIP 765
+Mv(K0III) =  0.66   ; sec. stan. eps Cyg = HR 7949 = HD 197989
+Mv(K0III) =    0.7 ; Cox00
+Mv(K0III) =  0.72   ; sec. stan. eps Cyg = HR 7949 = HD 197989
+Mv(K0III) =   0.78 ; HIP 68933 K0III 2006AJ....132..161G
+Mv(K0III) =   0.79 ; HIP 12486 K0IIIb 1989ApJS...71..245K
 Mv(K0III) = 0.80 ; pri. stan. eta Cyg = HR 7615 = HD 188947
-Mv(K0III) =  0.81 ; HIP 98110 K0III 1989ApJS...71..245K
-Mv(K0III) = 0.84  ; median for red clump K0III in xHIP (N=65)
-Mv(K0III) = 0.88  ; median Luck07 K0III d<75pc (N=27)
-Mv(K0III) = 0.89   ; ter. stan. tet Cet = HR 402 = HD 8512
-Mv(K0III) = 0.9   ; median for N=4 K0III stars w/i 40pc (Gray03/06)
-Mv(K0III) =  0.92 ; HIP 49841 K0III_CN+1 2006AJ....132..161G
-Mv(K0III) = 0.93  ; KeenanBarnbaum99 Hipparcos average for K0+IIIb
-Mv(K0III) = 0.998 +-0.067 (rms = 0.758) ; 118 HIP K0III *s
-Mv(K0III) = 1.07   ; anchor stan. bet Gem = Pollux = HR 2990
-=> adopt Mv(K0III) = 0.85 [updated 6/6/2026] (V-Ic=1.00, M_I=-0.15)
+Mv(K0III) =   0.81 ; HIP 98110 K0III 1989ApJS...71..245K
+Mv(K0III) =  0.84  ; median for red clump K0III in xHIP (N=65)
+Mv(K0III) =  0.88  ; median Luck07 K0III d<75pc (N=27)
+Mv(K0III) =  0.89   ; ter. stan. tet Cet = HR 402 = HD 8512
+Mv(K0III) =  0.9   ; median for N=4 K0III stars w/i 40pc (Gray03/06)
+Mv(K0III) =   0.92 ; HIP 49841 K0III_CN+1 2006AJ....132..161G
+Mv(K0III) =  0.93  ; KeenanBarnbaum99 Hipparcos average for K0+IIIb
+Mv(K0III) =  0.998 +-0.067 (rms = 0.758) ; 118 HIP K0III *s
+Mv(K0III) =  1.07   ; anchor stan. bet Gem = Pollux = HR 2990
+=> adopt Mv(K0III) = 0.80 [updated 6/6/2026] (V-Ic=1.00, M_I=-0.15)
 [EEM 12/1/2023: KeenanBarnbaum99 lists K0.5III Mv=-0.26 and K0+IIIb Mv=0.93]
 
 M_I(K0III) =  0.10 ; anchor stan. bet Gem = Pollux 
@@ -212,16 +272,16 @@ M_I(K0III) = -0.05 ; median for red clump K0III d<75pc xHIP (N=65; rms=0.37mag)
 M_I(K0III) = -0.16 ; ter. stan. tet Cet = HR 402 
 M_I(K0III) = -0.18 ; pri. stan. eta Cyg = HR 7615
 M_I(K0III) = -0.60 ; ter. stan. Q Pup = HD 63744 = HR 3046 
-=> adopt M_I(K0III) = -0.15 [updated 10/30/2020; V-I=1.0, Mv=0.85]
+=> adopt M_I(K0III) = -0.15 [updated 10/30/2020] (V-Ic=1.0, Mv=0.85]
 
-
-logg(K0III) =  2.57 ; sec. stan. eps Cyg = HR 7949 = HD 197989 (K0III) 
+logg(K0III) =  2.57 ; sec. stan. eps Cyg = HR 7949 = HD 197989 (K0III)
+logg(K0III) =  2.58 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
 logg(K0III) =  2.64 ; pri. stan. eta Cyg = HR 7615 = HD 188947 (K0III) 
 logg(K0III) =  2.64 ; ter. stan. tet Cet = HR 402 = HD 8512 (K0IIIb) 
 logg(K0III) =  2.66 ; ter. stan. Q Pup = HD 63744 = HR 3046 (K0IIIb) 
 logg(K0III) =  2.86 ; median Luck07 K0III d<75pc (N=27)
 logg(K0III) =  2.89 ; anchor stan. bet Gem = Pollux = HR 2990 (K0IIIb) 
-=> adopt logg(K0III) = 2.7 [updated 6/6/2026] 
+=> adopt logg(K0III) = 2.65 [updated 10/2/2026]
 
 # Anchor Standards
 
@@ -235,7 +295,10 @@ bet Gem = Pollux = HR 2990 = HD 62509 (V=1.14)
     (U-B)=0.854+-0.008(Mermilliod91, Nobs>36). Plx = 96.54+-0.27 mas
     => 10.358+-0.029 pc. Within Local Bubble, unreddened. Mv =
     1.067+-0.010. M_I = 0.097. Soubiran22/PASTEL mean values:
-    Teff=4860+-20K, logg=2.89+-0.04, [Fe/H]=+0.02+-0.03.
+    Teff=4860+-20K, logg=2.89+-0.04, [Fe/H]=+0.02+-0.03.  Gaia Gmag
+    not measured, adopt typical K0III value G-V ~ -0.26, so Mv=1.067
+    corresponds to M_G ~ 0.81. Note that the absolute magnitude of Pollux
+    is on the low side compared to most K0IIIs. 
 
     Teff(K0III)   = 4860 K ; anchor stan. bet Gem = Pollux = HR 2990
     logg(K0III)   = 2.89   ; anchor stan. bet Gem = Pollux = HR 2990
@@ -243,6 +306,7 @@ bet Gem = Pollux = HR 2990 = HD 62509 (V=1.14)
     (U-B)(K0III)  = 0.854  ; anchor stan. bet Gem = Pollux = HR 2990
     (V-Ic)(K0III) = 0.97   ; anchor stan. bet Gem = Pollux = HR 2990
     Mv(K0III)     = 1.07   ; anchor stan. bet Gem = Pollux = HR 2990
+    M_G(K0III)    = 0.81   ; anchor stan. bet Gem = Pollux = HR 2990 (estimated as G not measured)
 
 # Primary Standard
 
@@ -250,8 +314,9 @@ eta Cyg = HR 7615 = HD 188947 = HIP 98110 (J1956+3505; V=3.89)
    *K0III: MK43,MK73(dagger),Keenan89(stan),Keenan94,GrayNstars,GrayCorbally10
 
     Note mentioned as JM53 standard, but eps Cyg was. eta Cyg was the
-    only "pure" K0III dagger standard in MK73. Companion at 8" (G=11.57). 
-    V=3.89(HIP),
+    only "pure" K0III dagger standard in MK73, and note that its
+    absolute magnitude is right in the middle of the distribution
+    among nearby K0 giants.  Companion at 8" (G=11.57).  V=3.89(HIP),
     V=3.887+-0.008(Mermilliod91,Nobs>239), B-V=1.019+-0.004(HIP),
     B-V=1.026+-0.007(Mermilliod91, Nobs>239!), V-I=0.98+-0.03(HIP),
     U-B=0.885+-0.007(Mermilliod91, Nobs>117!).  plx = 24.17+-0.15 mas
@@ -259,12 +324,14 @@ eta Cyg = HR 7615 = HD 188947 = HIP 98110 (J1956+3505; V=3.89)
     safe to assume unreddened.  Mv = 0.803+-0.016. M_I = -0.18.
     PASTEL Soubiran22 mean values: Teff=4815+-17K, logg=2.64+-0.08,
     [Fe/H]=+0.02+-0.03. GaiaDR3: G=3.623402+-0.002964(GaiaDR3),
-    Bp-Rp=1.217066(GaiaDR3), Bp-G=0.556283(GaiaDR3), G-Rp=0.660783(GaiaDR3)
+    Bp-Rp=1.217066(GaiaDR3), Bp-G=0.556283(GaiaDR3),
+    G-Rp=0.660783(GaiaDR3) => w/HIP2 plx => M_G=0.54.
 
     (B-V)(K0III) = 1.019 ; pri. stan. eta Cyg = HR 7615 = HD 188947 
     (U-B)(K0III) = 0.885 ; pri. stan. eta Cyg = HR 7615 = HD 188947 
     (V-Ic)(K0III) = 0.98 ; pri. stan. eta Cyg = HR 7615 = HD 188947
     Mv(K0III)     = 0.80 ; pri. stan. eta Cyg = HR 7615 = HD 188947
+    M_G(K0III)    = 0.54 ; pri. stan. eta Cyg = HR 7615 = HD 188947 (GaiaDR3) 
     M_I(K0III)    = -0.18 ; pri. stan. eta Cyg = HR 7615 = HD 188947
     Teff(K0III)   = 4815 K ; pri. stan. eta Cyg = HR 7615 = HD 188947
     logg(K0III)   = 2.64   ; pri. stan. eta Cyg = HR 7615 = HD 188947 
@@ -320,13 +387,15 @@ Q Pup = HD 63744 = HR 3046 = HIP 38089 (J0748-4705; V=4.71)
     K0III: Evans57,Houk78
     K0: Cannon
     
-    All published temperature types are "K0".
-    V=4.708+-0.006(Mermilliod91/Nobs>21), V=4.69(HIP),
+    All published temperature types are "K0".  V=4.69(HIP),
+    V=4.705(GCPD/Cousins), V=4.708+-0.006(Mermilliod91/Nobs>21),
     B-V=1.039+-0.048(HIP), B-V=1.059+-0.003(Mermilliod91/Nobs>21),
-    V-I=1.03+-0.02(HIP), U-B=0.920+-0.007(Mermilliod91/Nobs>17).
-    plx=14.04+-0.16mas(vanLeeuwen07), plx=14.7735+-0.0746mas(GaiaDR3)
-    => adopt GaiaDR3 => probably near the edge of the Local Bubble and
-    OK to assume negligibly reddened => Mv=0.555+-0.012, M_I=-0.475,
+    U-B=0.920+-0.007(Mermilliod91/Nobs>17), V-Rc=0.541(GCPD/Cousins),
+    R-Ic=0.487(GCPD/Cousins), V-Ic=1.03+-0.02(HIP),
+    V-Ic=1.028(GCPD/Cousins), plx=14.04+-0.16mas(vanLeeuwen07),
+    plx=14.7735+-0.0746mas(GaiaDR3) => adopt GaiaDR3 => probably near
+    the edge of the Local Bubble and OK to assume negligibly reddened
+    => Mv=0.555+-0.012, M_I=-0.475,
     M_G=0.254+-0.011. E(B-V)=0.001(Kervella22/STILISM), assuming
     negligible.  GaiaDR3: G=4.406257+-0.002866(GaiaDR3),
     Bp-Rp=1.212633(GaiaDR3), Bp-G=0.526462(GaiaDR3),
@@ -335,7 +404,9 @@ Q Pup = HD 63744 = HR 3046 = HIP 38089 (J0748-4705; V=4.71)
 
     (B-V)(K0III)  = 1.059 ; ter. stan. Q Pup = HD 63744 = HR 3046 
     (U-B)(K0III)  = 0.920 ; ter. stan. Q Pup = HD 63744 = HR 3046 
-    (V-Ic)(K0III) = 1.03  ; ter. stan. Q Pup = HD 63744 = HR 3046 
+    (V-Rc)(K0III) = 0.541 ; ter. stan. Q Pup = HD 63744 = HR 3046
+    (R-Ic)(K0III) = 0.487 ; ter. stan. Q Pup = HD 63744 = HR 3046
+    (V-Ic)(K0III) = 1.028 ; ter. stan. Q Pup = HD 63744 = HR 3046
     Mv(K0III)     = 0.43  ; ter. stan. Q Pup = HD 63744 = HR 3046 
     M_I(K0III)    = -0.60 ; ter. stan. Q Pup = HD 63744 = HR 3046 
     M_G(K0III)    = 0.25  ; ter. stan. Q Pup = HD 63744 = HR 3046
@@ -355,8 +426,10 @@ tet Cet = HR 402 = HD 8512 (J0124-0810; V=3.6)
     K0IV: Adams35
     
     Adopt "K0IIIb" from Keenan89. vsini < 15 km/s (Houk99).
-    V=3.60(HIP), V=3.603+-0.013(Mermilliod91), B-V=1.065+-0.004(HIP),
-    B-V=1.065+-0.004(Mermilliod91), V-I=1.05+-0.02(HIP),
+    V=3.60(HIP), V=3.603+-0.013(Mermilliod91), V=3.61(GCPD/Cousins),
+    B-V=1.065+-0.004(HIP), B-V=1.065+-0.004(Mermilliod91),
+    V-Rc=0.553(GCPD/Cousins), R-Ic=0.493(GCPD/Cousins),
+    V-Ic=1.046(GCPD/Cousins), V-Ic=1.05+-0.02(HIP),
     U-B=0.931+-0.010(Mermilliod91). plx=28.66+-0.19mas(vanLeeuwen07),
     plx=29.0339+-0.2198mas(GaiaDR3) => adopt vanLeeuwen07 =>
     (vanLeeuwen07) => D = 34.89+-0.23 pc, well within Local Bubble and
@@ -368,7 +441,9 @@ tet Cet = HR 402 = HD 8512 (J0124-0810; V=3.6)
 
     (B-V)(K0III)  = 1.065  ; ter. stan. tet Cet = HR 402 = HD 8512
     (U-B)(K0III)  = 0.931  ; ter. stan. tet Cet = HR 402 = HD 8512
-    (V-Ic)(K0III) = 1.05   ; ter. stan. tet Cet = HR 402 = HD 8512
+    (V-Rc)(K0III) = 0.553  ; ter. stan. tet Cet = HR 402 = HD 8512
+    (R-Ic)(K0III) = 0.493  ; ter. stan. tet Cet = HR 402 = HD 8512
+    (V-Ic)(K0III) = 1.046  ; ter. stan. tet Cet = HR 402 = HD 8512
     Mv(K0III)     = 0.89   ; ter. stan. tet Cet = HR 402 = HD 8512
     M_I(K0III)    = -0.16  ; ter. stan. tet Cet = HR 402 = HD 8512
     M_G(K0III)    =  0.61  ; ter. stan. tet Cet = HR 402 = HD 8512
@@ -378,7 +453,53 @@ tet Cet = HR 402 = HD 8512 (J0124-0810; V=3.6)
     (Bp-Rp)(K0III) = 1.305700 ; ter. stan. tet Cet = HR 402 = HD 8512 (GaiaDR3)
     (Bp-G)(K0III)  = 0.673434 ; ter. stan. tet Cet = HR 402 = HD 8512 (GaiaDR3)
     (G-Rp)(K0III)  = 0.632266 ; ter. stan. tet Cet = HR 402 = HD 8512 (GaiaDR3)
-    
+
+del Aur = HR 2077 = HD 40035 = HIP 28358 = Bagu = 33 Aur = 2MASS J05593160+5417047 = SBC9 3103 = WDS J05595+5417A = Gaia DR3 216172202295911808
+    G6III: Adams35
+    G7III: Morgan38,Keenan41
+    G8/K0III: Maury1897
+    G9III: Sharma20
+    K0: Cannon
+    K0III/IV: 1972AbaOB..43..109W
+    K0III: MK43(stan),JM53(stan),Roman52(lines weak),Ljunggren61,1966ArA.....3..501L
+   *K0IIIb: Keenan99(stan)
+    K0-III: Keenan80(stan),Keenan83(stan),KeenanYorka85(stan),Keenan88(stan),Keenan89(stan)
+
+    Note that SIMBAD and Skiff quote the Keenan type as K0IIIb which
+    comes from the final 1999 Keenan catalog before he passed away,
+    but in the 1989 paper it is K0-III (as it is in the other Keenan
+    1980s catalogs). I retain it as a tertiary standard.  SB1 in SBC9,
+    with orbit from Griffin09(2009Obs...129...54G): Per=1283.4+-0.7d
+    (3.51376yr), e=0.2310+-0.0170, K1=2.28km/s.  WGSN adopted proper
+    name Bagu in November 2025.  V=3.72(Johnson66/N=5),
+    V=3.720+-0.006(Mermilliod91), B-V=0.99(Johnson66/N=5),
+    B-V=1.012+-0.007(Mermilliod91), U-B=0.843+-0.013(Mermilliod91),
+    U-B=0.91(Johnson66/N=5), Rj=2.95(Johnson66/Morel78/N=5),
+    Ij=2.45(Johnson66/Morel78/N=5), Jj=2.09(Johnson66/Morel78/N=5),
+    Kj=1.46(Johnson66/Morel78/N=5),
+    Ks=1.434(Johnson66=>Rieke22=>2MASS). Converting Johnson RjIj
+    photometry, (V-Rj)=0.77, (V-Ij)=1.27, to Cousins => Rc=3.182,
+    Ic=2.722, V-Rc=0.538, R-Ic=0.460, V-Ic=0.998.  2MASS photometry is
+    unsurprisingly blasted: qflg="DCD".  GaiaDR3:
+    plx=23.0557+-0.4512mas(GaiaDR3), G=3.451844+-0.003057(GaiaDR3) =>
+    G-V = 3.452 - 3.720 =
+    -0.268. Mv=0.534+-0.043mag(Mermilliod91+GaiaDR3).  Soubiran22
+    PASTEL means: Teff=4794+-25K(Soubiran22),
+    logg=2.58+-0.26(Soubiran22), [Fe/H]=-0.13+-0.05(Soubiran22).
+
+    (G-V)(K0III) = -0.268 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    (B-V)(K0III) =  1.012 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    (U-B)(K0III) =  0.843 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    (V-Rc)(K0III) = 0.538 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    (R-Ic)(K0III) = 0.460 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    (V-Ic)(K0III) = 0.998 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    Mv(K0III) = 0.53 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    M_G(K0III) = 0.27 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    logg(K0III) = 2.58 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    Teff(K0III) = 4794 K ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb)
+    (Bp-Rp)(K0III) = 1.235764 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb) (GaiaDR3)
+    (Bp-G)(K0III)  = 0.586125 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb) (GaiaDR3)
+    (G-Rp)(K0III)  = 0.649639 ; ter. stan. del Aur = HR 2077 = HD 40035 (K0IIIb) (GaiaDR3)
     
 # Deprecated standards
 
@@ -422,36 +543,6 @@ alf Crt = HD 95272 = HR 4287 = HIP 53740 = Alkes = 7 Crt = Gaia DR3 355313628832
     G=3.777938+-0.003096(GaiaDR3).
 
 # Variant Standards
-
-del Aur = HR 2077 = HD 40035 = HIP 28358 = Bagu = 33 Aur = 2MASS J05593160+5417047 = SBC9 3103 = WDS J05595+5417A = Gaia DR3 216172202295911808
-    G6III: Adams35
-    G7III: Morgan38,Keenan41
-    G8/K0III: Maury1897
-    G9III: Sharma20
-    K0: Cannon
-    K0III/IV: 1972AbaOB..43..109W
-    K0III: MK43(stan),JM53(stan),Roman52(lines weak),Ljunggren61,1966ArA.....3..501L
-   *K0IIIb: Keenan99(stan)
-    K0-III: Keenan80(stan),Keenan83(stan),KeenanYorka85(stan),Keenan88(stan),Keenan89(stan)
-
-    Note that SIMBAD and Skiff quote the Keenan type as K0IIIb which
-    comes from the final 1999 Keenan catalog before he passed away,
-    but in the 1989 paper it is K0-III (as it is in the other Keenan
-    1980s catalogs). SB1 in SBC9, with orbit from
-    Griffin09(2009Obs...129...54G): Per=1283.4+-0.7d (3.51376yr),
-    e=0.2310+-0.0170, K1=2.28km/s.  WGSN adopted proper name Bagu in
-    November 2025.  V=3.72(Johnson66/N=5),
-    V=3.720+-0.006(Mermilliod91), B-V=0.99(Johnson66/N=5),
-    B-V=1.012+-0.007(Mermilliod91), U-B=0.843+-0.013(Mermilliod91),
-    U-B=0.91(Johnson66/N=5), Rj=2.95(Johnson66/Morel78/N=5),
-    Ij=2.45(Johnson66/Morel78/N=5), Jj=2.09(Johnson66/Morel78/N=5),
-    Kj=1.46(Johnson66/Morel78/N=5),
-    Ks=1.434(Johnson66=>Rieke22=>2MASS).  2MASS photometry is
-    unsurprisingly blasted: qflg="DCD".  GaiaDR3:
-    plx=23.0557+-0.4512mas(GaiaDR3),
-    G=3.451844+-0.003057(GaiaDR3). Mv=0.534+-0.043mag(Mermilliod91+GaiaDR3).
-    Soubiran22 PASTEL means: Teff=4794+-25K(Soubiran22),
-    logg=2.58+-0.26(Soubiran22), [Fe/H]=-0.13+-0.05(Soubiran22).
 
 iot Cep = HR 8694 = HD 216228 (J2249+6612; V=3.5)
    *K0-III: Keenan80,Keenan89(stan)
@@ -590,7 +681,6 @@ gam Leo A = Algieba = gam01 Leo = 41 Leo A = STF 1424A = HD 89484 = HR 4057 = AD
   age=1.75+-0.43Gyr, Rad=26.08+-0.79Rsun, logg=1.80+-0.04(tracks),
   logg=1.89+-0.10(spec), log(L/Lsun)=2.40.
   vsini=2.6+-0.5km/s(Gray82).
-
 
 HD 94510 = u Car = HR 4257 = GJ 9339 = HIP 53253 
   K0III/IV: 1961RGOB...48..389E	

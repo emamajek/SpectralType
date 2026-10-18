@@ -28,8 +28,8 @@ stars is 3.1 Gyr.
 (V-Ks)(M8.5V) =  8.81  ; trend fit to Dahn17 for M8.5V
 (V-Ks)(M8.5V) =  8.85  ; smoothed fit to Dieterich SpT vs V-Ks
 (V-Ks)(M8.5V) = 8.892 ; sec. stan. SCR 1845-6357 plx=249.6651mas
-(V-Ks)(M8.5V) =  8.895 ; halfway M8V(8.73) and M9V(9.06)
 (V-Ks)(M8.5V) = 8.924 ; pri. stan. TVLM 513-46546
+(V-Ks)(M8.5V) =  8.925 ; halfway M8V(8.70) and M9V(9.00)
 (V-Ks)(M8.5V) = 8.943 ; exemplar DENIS J104814.6-395606
 (V-Ks)(M8.5V) = 8.985 +-0.044 ; exemplar Ruiz 207-61 = 2MASS J07075327-4900503 plx=41.6863mas
 (V-Ks)(M8.5V) = 8.989 +-0.018 ; exemplar LSR J1835+3259 plx=175.7930mas 
@@ -412,11 +412,12 @@ Need to re-run with only SDSS stars
 => (G-T)(M8.5V) = 1.575 [updated 10/8/2023] (GaiaDR2)
 
 
+Teff(M8V)   =   2560 K ; adopted, see M8V.txt
 Teff(M8.5V) =  2559 K ; Dupuy17(SaumonMarley08 scale)
 Teff(M8.5V) =  2559 K ; Dupuy17(Lyon model scale)
 Teff(M8.5V) =   2500 K ; non. stan. DENIS J1048-3956
 Teff(M8.5V) =  2492 K ; Sanghi23 M6V-T9V field dwarf polynomial
-Teff(M8.5V) =  2475 K ; halfway between M8V(2550K) and M9V(2400K)
+Teff(M8.5V) =  2480 K ; halfway between M8V and M9V 
 Teff(M8.5V) =  2467 K ; Filippazzo15 calibration (M6V-T9V)
 Teff(M8.5V) =  2444 K ; interp. M8V(V-K=8.73,T=2550K) and M9V(V-K=9.00,T=2400K)
 Teff(M8.5V) =  2444 K ; exemplar DENIS J235359.4-083331
@@ -427,6 +428,7 @@ Teff(M8.5V) =  2403 K ; exemplar Ruiz 207-61 = ESO 207-61 (Dieterich14)
 Teff(M8.5V) =   2400 K ; non. stan. SDSS J2255-0034 (single Teff from Golimowki04)
 Teff(M8.5V) =  2400 K ; Rajpurohit18 N=2 M8.5Vs
 Teff(M8.5V) =  2400 K ; Cifuentes20 <Teff> for CARMENES M8.5V(N=4)
+Teff(M9V)   =   2400 K ; adopted, see M9V.txt 
 Teff(M8.5V) =  2398 K ; pri. stan. TVLM 513-46546 (Dieterich14)
 Teff(M8.5V) = 2395 K ; empirical L-R relation, for logL=-3.496 (4/13/2025)
 Teff(M8.5V) =  2395 (+-132 rms) ; median N=31 M8.5s d<25pc in Sebastian21/SPECULOOS
@@ -436,19 +438,20 @@ Teff(M8.5V) =   2300 K ; pri. stan. TVLM 513-46546 (single Teff from Golimowski0
 
 BC_G(M8.5V) = -2.342 +-0.169 ; Cifuentes20
 
-BC_J(M8.5V) = 1.99  ; BC_Ks=3.12, J-Ks=1.13 (4/13/2025) 
+BC_J(M8.5V) = 1.99 ; BC_Ks=3.12, J-Ks=1.13 (4/13/2025) 
 BC_J(M8.5V) =  2.019 ; Sanghi24 M6V-T9V trend
 BC_J(M8.5V) =  2.119 +-0.052 ; Cifuentes20
-=> adopt BC_J(M8.5V) = 1.99 [updated 4/13/2025] 
+=> adopt BC_J(M8.5V) = 1.98 [updated 3/3/2026] 
 
-BC_K(M8.5V)  =  3.18 +-0.07 ; non. stan. SDSS J2255-0034 (Golimowski04)
-BC_K(M8.5V)  =  3.16 +-0.07 ; pri. stan. TVLM 513-46546 (Golimowski04)
-BC_K(M8.5V)  = 3.122 ; Golimowski04
-BC_Ks(M8.5V) = 3.12  ; interp M6V-L1V for V-Ks=8.90
-BC_K(M8.5V)  = 3.119 ; TVLM 513-46546 (Leggett01, IAU scale, see below)
-BC_Ks(M8.5V) = 3.113 ; Sanghi24 
-BC_Ks(M8.5V) = 3.074 ; Filipazzo15 (field)
-=> adopt BC_K(M8.5V) = 3.12 mag [updated 11/3/2019]
+BC_K(M8.5V)  =   3.18 +-0.07 ; non. stan. SDSS J2255-0034 (Golimowski04)
+BC_K(M8.5V)  =   3.16 +-0.07 ; pri. stan. TVLM 513-46546 (Golimowski04)
+BC_K(M8.5V)  =  3.122 ; Golimowski04
+BC_Ks(M8.5V) =  3.12  ; interp M6V-L1V for V-Ks=8.90
+BC_K(M8.5V)  =  3.119 ; TVLM 513-46546 (Leggett01, IAU scale, see below)
+BC_Ks(M8.5V) =  3.113 ; Sanghi24
+BC_Ks(M8.5V) =  3.095 ; halfway M8V-M9V (3/3/2026) 
+BC_Ks(M8.5V) =  3.074 ; Filipazzo15 (field)
+=> adopt BC_K(M8.5V) = 3.12 mag [updated 3/3/2026] 
 
 BCv(M8.5V) = -5.80 ; BC_K=3.12, V-K=8.92 (4/13/2025)
 => adopt BCv(M8.5V) = -5.80 mag [updated 4/13/2025]
@@ -551,6 +554,7 @@ M_Ks(M8.5V) =     9.94 ; Dupuy12 polynomial
 M_Ks(M8.5V) =   10.04 ; LSPM_J0140+2701_ M8.5V plx=52.6026mas
 M_Ks(M8.5V) =   10.05 ; APMPM_J2354-3316C_ M8.5Ve plx=42.9911mas
 M_Ks(M8.5V) =   10.08 ; V*_DG_Phe_ M8.5e plx=62.789mas
+M_Ks(M8.5V) = 10.14 ; halfway between M8V and M9V
 M_Ks(M8.5V) =   10.14 ; 2MASS_J10195684+7324087_ M8.5 plx=46.2396mas
 M_Ks(M8.5V) =  10.21  ; exemplar Ruiz 207-61 = 2MASS J07075327-4900503 plx=41.6863mas
 M_Ks(M8.5V) =  10.21  ; exemplar CTI 012657.5+280202 plx=29.5673mas
@@ -583,8 +587,11 @@ logL(M8.5V) =  -3.65  ; pri. stan. TVLM 513-46546 (Leggett01)
 => adopt logL(M8.5V) = -3.496 dex [updated 4/13/2025]
 => adopt Mbol(M8.5V) = 13.480 mag [updated 4/13/2025] 
 
+Rad(M9V)   =  0.103 Rsun ; adopted (see M9V.txt) 
 Rad(M8.5V) = 0.10448 Rsun ; logL=-3.472, Teff=2420K
-Rad(M8.5V) = 0.1077 (+-0.0056 stdev) ; median N=31 M8.5s d<25pc in Sebastian21/SPECULOOS 
+Rad(M8.5V) = 0.1077 (+-0.0056 stdev) ; median N=31 M8.5s d<25pc in Sebastian21/SPECULOOS
+Rad(M8.5V) = 0.109 Rsun ; halfway M8V-M9V
+Rad(M8V)   =  0.115 Rsun ; adopted (see M8V.txt) 
 => adopt Rad(M8.5V) = 0.104 Rsun [updated 11/3/2019]
 
 Mass(M8.5V) = 0.079 +-0.020 Msun ; GJ 2005B (Benedict16)

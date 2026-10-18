@@ -1646,15 +1646,18 @@ LHS 3406 = GJ 4073 = 2MASS J18432213+4040209 = V492 Lyr	= LP 229-30
 
     Appear to be big offset between optical vs. near-IR type. 
 
-GJ 354.1 B = HD 82443 B = LP 314-20 = DX Leo B
+GJ 354.1B = GJ 9301B = HD 82443B = LP 314-20 = DX Leo B = LDS 3903B = NLTT 22015 = 2MASS J09324827+2659443 = Gaia DR3 646255246469567232 = WDS J09327+2659B
    M4.2+-0.8: Sebastian21
-  *M5.5V: Reid95, Alonso-Floriano15. 
+   dM5: Li24
+  *M5.5V: Reid95, Alonso-Floriano15(all 6 spectral type indicators give identical M5.5) 
 
-   Wide companion 65" to nearby chromospherically active star HD
-   82443.  WDS lists a mag=16.5 companion at 9.5", however the notes
-   state that Henize10 find it to be a background object.  The star
-   appears to be very young, and pre-MS (delta(M_Ks) ~ 0.6 mag above
-   MS).  plx= 55.2924+-0.0713mas(GaiaEDR3), V=14.70(Reid02),
+   Very nearby, extremely active (logLx/Lbol~-3.2, Prot=0.47d),
+   apparently pre-MS (delta(M_Ks) ~ 0.6 mag above MS) M-type, wide
+   (65") companion to famous active G9 star DX Leo.  WDS lists a
+   mag=16.5 companion at 9.5", however the notes state that Henize10
+   find it to be a background object.  The star appears to be very
+   young, and pre-MS (delta(M_Ks) ~ 0.6 mag above MS).
+   plx=55.2924+-0.0713mas(GaiaDR3), V=14.70(Reid02),
    V=15.75(APASS/DR9), Ks=9.472+-0.018(2MASS), M_Ks=8.185+-0.018 (note
    that this is ~0.615 mag above MS: M_Ks(M5.5V)=8.8).  Teffs:
    2772K(Anders19), 2923K(Stassun19), 2921+-64K(Muirhead18),
@@ -1662,11 +1665,33 @@ GJ 354.1 B = HD 82443 B = LP 314-20 = DX Leo B
    3144+-104K(Sebastian21) => adopt <Teff> = 2930K.  Published radius
    estimates are all higher than our mean adopted value for M5.5V
    stars (0.156 Rsun): Rad=0.179Rsun(Newton17),
-   Rad=0.187+-0.009Rsun(Muirhead18), Rad=0.190+-0.009Rsun(Dittmann18),
-   Rad=0.1939+-0.0067Rsun(Cifuentes20). logL =
-   -2.562+-0.008(Cifuentes20), logL = -2.593+-0.105(Stassun19).
-   Luminosity estimate: M_Ks=8.185, BC_K(M5.5V) = 2.92 => Mbol =
-   11.105 => logL = -2.546.
+   Rad=0.187+-0.009Rsun(Muirhead18), Rad=0.19+-0.02Rsun(Sebastian21),
+   Rad=0.190+-0.009Rsun(Dittmann18),
+   Rad=0.1939+-0.0067Rsun(Cifuentes20) => adopt Rad=0.19Rsun.  Masses:
+   Mass=0.148+-0.008Msun(Kirkpatrick24/M_G),
+   Mass=0.151Msun(Dittman14), Mass=0.156Msun(Newton17),
+   Mass=0.165+-0.005Msun(Kirkpatrick24/M_Ks),
+   Mass=0.165+-0.020Msun(Stassun19), Mass=0.17+-0.01Msun(Sebastian21),
+   Mass=0.1806+-0.0109Msun(Cifuentes20) => adopt
+   Mass~0.156Msun. Luminosities: logL = -2.562+-0.008(Cifuentes20),
+   logL = -2.593+-0.105(Stassun19).  Luminosity estimate: M_Ks=8.185,
+   BC_K(M5.5V) = 2.92 => Mbol = 11.105 => logL = -2.546. Converting
+   2nd ROSAT PSPC catalog X-ray count-rate (2.607e-2ct/s) and hardness
+   ratio (HR1=-0.41) to energy flux, I get fX=1.60e-13erg/s/cm2, and
+   with GaiaDR3 parallax (55.2924mas) => logLx=27.797 => adopting
+   Cifuentes20 luminosity => logLx/Lbol = -3.224 (i.e.,
+   saturated)... this is unsurprising given the star's extremely rapid
+   rotation: Prot=0.470d(Newton16). Rotation discussion: Strangely,
+   GaiaDR3 part 4 (variability) lists a frequency of 40.040803 day^1
+   => P=0.0249745d, and this is the period listed in VSX. Estimated
+   critical rotational velocity calculation: Note for Mass=0.156Msun,
+   Rad=0.19Rsun => critical rotational velocity = 396km/s, Pcrit =
+   0.02487d = 0.5829hr = 40.209 day^-1. There is a strange coincidence
+   that the Gaia DR3 frequency (40.04 d^-1) is damn close to the
+   frequency of the critical velocity (~40.2d^-1), but this would
+   predict the star would be rotating near ~396km/s(!), and that seems
+   hard to reconcile with quoted projected rotational velocities
+   (vsini=30.4+1.0-1.3km/s(Hsu24), vsini=21km/s(Lopez-Valdivia19)).
 
 GJ 618B = LHS 416 = CD-37 10765B = LDS 6312B = L 482-31 = NLTT 42494 = 2MASS J16200321-3731485 = WDS J16202-3734B = Gaia DR3 6021430250773733632
   M5:: Bidelman85
