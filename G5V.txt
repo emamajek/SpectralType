@@ -974,33 +974,64 @@ HD 117176 = 70 Vir = HR 5072
 
 # Variants
 
-HD 6582 = mu Cas A = GJ 53A = HR 321 (J0108+5455)
+HD 6582 = mu Cas A = GJ 53A = HR 321 = 30 Cas = WCK 1 = LHS 8 = SBC9 57 = Gaia DR3 411413822074322432 = WDS J01083+5455Aa,Ab 
   G5V: MK43,Keenan55(G5V+),Roman55(sdG5),Bidelman85(G5),KeenanYorka85(G5Vb),Keenan88,Keenan89(G5Vb),Sato90,Keenan99,Gray01
  *G5VI: Drummond95
   K1V_Fe-2: Gray03
   G4V: Adam35
 
-  Very metal poor star, and not a good choice as normal (~solar) G5V
-  standard (see Gray03 estimate), but it might be useful as a G5VI
-  (subdwarf) standard - but Gray gave it a very different type (K1V
-  Fe-2)? Jao16 calls it (along with CF UMa and Kapteyn's star) the
-  "only three confirmed subdwarf systems within 10pc."  Ramirez12
-  calls it a halo star. Also tight binary (WDS splits as Aa+Ab),
-  discussed at length in Drummond95
-  (https://ui.adsabs.harvard.edu/abs/1995ApJ...450..380D).  WDS
-  companions B, C, E, and F are not physically related to mu
-  Cas. Comments as high velocity star, metal-poor, and below main
-  sequence over the years (see Skiff compendium). B-V=0.704
+  Remarkable nearby very metal poor star, and astrometric binary that
+  was eventually resolved. See detailed studies by
+  Drummond95(1995ApJ...450..380D) and Bond20(2020ApJ...904..112B), the
+  latter bringing nearly 20 years of HST images to bear on the binary
+  orbit. Bond20 summarizes the astrophysical importance of mu Cas:
+  "μCas [is] possibly the oldest star in the sky visible to the naked
+  eye" and "D65 [Dennis65] argued that, because of its binary nature,
+  μCas offers the possibility of determining the helium content in an
+  old, metal-poor star through an alternative approach. By measuring
+  its dynamical mass, and thus the position of μCas in the
+  mass–luminosity plane, one can infer its interior helium content
+  using theoretical stellar models." mu Cas was first detected as an
+  astrometric binary at Allegheny Observatory in Pittsburgh by
+  Wagman61, tracked extensively during late 20th century. Binary was
+  eventually resolved -- in WDS as components Aa & Ab, and SIMBAD IDs
+  them as GJ 53A and GJ 53B.  As a very metal poor star, it isn't a
+  great choice of standard star for most normal (~solar) late G dwarfs
+  (see Gray03 estimate), but it might be useful as a G5VI (subdwarf)
+  standard - but Gray gave it a very different type (K1V Fe-2)? Jao16
+  calls it (along with CF UMa and Kapteyn's star) the "only three
+  confirmed subdwarf systems within 10pc."  Ramirez12 calls it a halo
+  star.  WDS companions B, C, E, and F are not physically related to
+  mu Cas. Bond20 estimated weighted mean parallax of
+  plx=132.66+-0.69mas, although GaiaDR3 provides somewhat smaller
+  uncertainties: plx=130.2881+-0.4348mas(GaiaDR3). B-V=0.704
   (HIP). PASTEL mean parameters: Teff=5316K(N=39!),
   [Fe/H]=-0.85+-0.02, logg=4.51+-0.04. The Mamajek08 chromospheric age
   estimate (5.9 & 5.3 Gyr) is likely vastly underestimated due to the
-  very low metallicity. Drummond95 estimates dynamical masses of
-  0.742+-0.059 Msun and 0.173+-0.011 Msun. Kirkpatrick12 estimates the
-  companion to be "M3.5:V", but just based on the delta(magnitude) not
-  an actual spectrum. Drummond95 also estimates ~M3.5V. Agati15 lists
-  orbital period 7816.35d (21.4 yr).  Bach & Kang(2015) estimate age
-  ~10 Gyr and Bach15 estimates 11 Gyr. Using velocity ellipsoids from
-  Bensby03, I estimate P(thin)=1e-5%, P(thick)=71.6%, P(halo)=28.4%.
+  very low metallicity.  Teff(Aa)=5306+-31K(Bond20),
+  Rad(Aa)=0.789+-0.008Rsun(Bond20, based on Boyajian08),
+  Lum(Aa)=0.445+-0.005Lsun(Bond20), logg(Aa)=4.515+-0.011(Bond20),
+  [Fe/H](Aa)=-0.81+-0.03(Bond20, from Jofre14/18).  Drummond95
+  estimates dynamical masses of 0.742+-0.059 Msun and 0.173+-0.011
+  Msun. Bond20 estimates dynamical masses M(Aa)=0.7440+-0.0122Msun,
+  M(Ab)=0.1728+-0.0035Msun.  Bond20 visual orbit:
+  Porb=21.568+-0.015yr, e=0.5885+-0.0011, a=0.9985+-0.0013" (using the
+  Bond20 parallax => a=7.527au). Using the orbital stability trends
+  from Quarles20, and the masses and orbital elements from Bond20, I
+  estimate a_crit(Aa)=1.03au(P_crit(Ab)=1.22yr) and
+  a_c(Ab)=0.45au(P_crit(Ab)=0.73yr).  The Kopparapu14 optimistic HZ
+  limits are r_in(HZ,Aa)=0.51au, r_out(HZ,Aa)=1.23au, hence about ~72%
+  of the HZ for A is within the dynamical stability range.  For the
+  companion Ab, Drummond95 estimates spectral type ~M3.5V, and
+  Kirkpatrick12 estimates the companion to be "M3.5:V", but these
+  appear to be based on the delta(magnitude) not an actual
+  spectra. Agati15 lists orbital period 7816.35d (21.4 yr).  Bach &
+  Kang(2015) estimate age ~10 Gyr and Bach15 estimates 11 Gyr. Bond20
+  estimates age 12.7+-2.7Gyr and helium Y=0.255+-0.014, and note that
+  its HRD diagram suggests that it is likely slightly older and/or
+  lower He abundance than the globular clouster 47 Tuc. Using velocity
+  ellipsoids from Bensby03, I estimate P(thin)=1e-5%, P(thick)=71.6%,
+  P(halo)=28.4%.
 
 HD 224930 = 85 Peg = HR 9088 
  *G5Vb Fe-2: KeenanYorka85,Keenan88

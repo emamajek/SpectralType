@@ -714,37 +714,31 @@ HD 16765 = 84 Cet = HIP 12530 A = HR 790
    F8V: Harlan74
    F9V: 1953AnHar.119....1H
    
-   WDS lists it as a 4.0" binary (delV=3.86; del(Hp)=3.804 in HIP/CCDM; delV=3.917 in ASCC/Kharchenko09)
-   so secondary is ~3% as bright as primary (likely little effect on
-   unresolved colors). Most
+   WDS lists it as a 4.0" binary (delV=3.86; del(Hp)=3.804 in
+   HIP/CCDM; delV=3.917 in ASCC/Kharchenko09) so secondary is ~3% as
+   bright as primary (likely little effect on unresolved colors). Most
    photometry is blended. Tycho-2 photometry for primary:
    BT=6.344+-0.015, VT=5.823+-0.010 => converts to V=5.767+-0.010,
-   B-V=0.499+-0.016.
-   V(AB)=5.71(Cousins71),
-   V(AB)=5.71(Johnson66),
-   V(AB)=5.715+-0.021(Mermilliod91), 
-   V(AB)=5.72(HIP) => adopt V(AB)=5.715, and adopting del(V)=3.917(ASCC) => V(A)=5.744, V(B)=9.661.
-   V(A)=5.76(TYC),
-   B-V(A)=0.496+-0.004(TYC), 
-   B-V(AB)=0.510(Cousins71), 
-   B-V(AB)=0.511+-0.007(HIP),
-   B-V(AB)=0.516+-0.008(Mermilliod91), 
-   B-V(AB)=0.52(Johnson66) => adopt B-V(A)=0.496, B-V(AB)=0.511. 
-   V-Ic(AB)=0.58+-0.01(HIP),
-   U-B(AB)=-0.02(Johnson66), 
-   U-B(AB)=-0.03(Cousins71),
-   U-B(AB)=-0.032+-0.012(Mermilliod91) => adopt U-B(AB)=-0.03. 
-   2MASS photometry is flagged "DEA", so only Ks mag is OK:
-   Ks=4.506+-0.020(2MASS) => unblended V-Ks(AB) = 5.715 - 4.506 = 1.209. 
-   Soubiran22 PASTEL averages: Teff=6285+-28K,
+   B-V=0.499+-0.016.  V(AB)=5.71(Cousins71), V(AB)=5.71(Johnson66),
+   V(AB)=5.715+-0.021(Mermilliod91), V(AB)=5.72(HIP) => adopt
+   V(AB)=5.715, and adopting del(V)=3.917(ASCC) => V(A)=5.744,
+   V(B)=9.661.  V(A)=5.76(TYC), B-V(A)=0.496+-0.004(TYC),
+   B-V(AB)=0.510(Cousins71), B-V(AB)=0.511+-0.007(HIP),
+   B-V(AB)=0.516+-0.008(Mermilliod91), B-V(AB)=0.52(Johnson66) =>
+   adopt B-V(A)=0.496, B-V(AB)=0.511.  V-Ic(AB)=0.58+-0.01(HIP),
+   U-B(AB)=-0.02(Johnson66), U-B(AB)=-0.03(Cousins71),
+   U-B(AB)=-0.032+-0.012(Mermilliod91) => adopt U-B(AB)=-0.03.  2MASS
+   photometry is flagged "DEA", so only Ks mag is OK:
+   Ks=4.506+-0.020(2MASS) => unblended V-Ks(AB) = 5.715 - 4.506 =
+   1.209.  Soubiran22 PASTEL averages: Teff=6285+-28K,
    logg=4.30+-0.07, [Fe/H]=-0.02+-0.05.  V=5.82(WDS),
    plx=45.2337+-0.0616mas(GaiaDR3) => Mv=4.10. Salsi20 lists
    limbdarkened daimeter tetLD = 0.4970+-0.0070 mas from Boyajian13.
 
 # Deprecated Standards
 
-HD 170153 = chi Dra = 44 Dra = HIP 89937 = HR 6927 = GJ 713
-  F7V: JM53(stan),Cowley76,Cowley67
+HD 170153 = chi Dra = 44 Dra = HIP 89937 = HR 6927 = GJ 713 = SBC9 1058 = Gaia DR3 2266693630693936512 = LAB 5 = BUP 182A = WDS J18211+7244Aa,Ab = WDS J18211+7244A 
+  F7V: JM53(stan),Cowley67,Cowley76
  *F7V metal-weak: Gray01
   F7V+K1V: WDS
   hF8gF6mF6: Jaschek89
@@ -753,22 +747,44 @@ HD 170153 = chi Dra = 44 Dra = HIP 89937 = HR 6927 = GJ 713
 
   This star appears to be inappropriate for use as a standard given
   the comments by Gray01, Jaschek89, and Roman50. Star is metal poor
-  and a delta(V) ~ 2 spectroscopic binary. Original HIP data yielded:
-  B-V(HIP)=0.489, Vmag=3.55, Mv=4.02, dMv=0.28(compared to Wright04
-  MS), par=124.1+-0.5 mas. plx=124.11+-0.87mas(HIP2). PASTEL medians:
-  <Teff> = 6123K(N=10), [Fe/H]=-0.64(N=9), logg=4.28. Ramirez12 lists
-  the star as a thin disk star with age 7.71+1.06-0.57 Gyr, and
-  Ramirez13 lists 6.93 (5.85-7.94;1sigma) Gyr. The star has relatively
-  low velocity and Soubiran05 estimates P(thin)=93%, P(thick)=7%.
-  A has mass 1.0290+-0.0260 Msun(Torres10).
-  Binary: Tomkin87 estimates delta(V)=1.99, which when combined with
-  the Mermilliod91 Vmag (3.571+-0.009) yields V(A)=3.732,
-  V(B)=5.722. With HIP2 parallax => Mv(A)=4.20, Mv(B)=6.19. If on the
-  MS, the Mv for B would suggest type ~K2V, and the mass of 0.75+-0.02
-  Msun suggests ~K3/K3.5V, although Torres10 lists K0V. Tomkin87
-  (1987AJ.....93.1236T) estimates K0V, and likely intermediate between
-  G8V and K2V. B-V(AB)=0.489+-0.005(Mermilliod91),
-  U-B(AB)=-0.058+-0.005(Mermilliod91).
+  and a delta(V) ~ 2 spectroscopic binary, so the F7V is the primary
+  chi Dra A (two GJ designations GJ 713A and GJ 713B). Farrington10
+  (Sec 7.2.1) summarize the system and list the orbit that is still
+  listed in ORB6.  Original HIP data yielded: B-V(HIP)=0.489,
+  Vmag=3.55(HIP), Mv=4.02, dMv=0.28(compared to Wright04 MS),
+  par=124.1+-0.5mas(HIP). B-V(AB)=0.489+-0.005(Mermilliod91),
+  U-B(AB)=-0.058+-0.005(Mermilliod91). plx=124.11+-0.87mas(HIP2),
+  still the best available (no Gaia DR3 plx). PASTEL medians: <Teff> =
+  6123K(N=10), [Fe/H]=-0.64(N=9), logg=4.28. Ramirez12 lists the star
+  as a thin disk star with age 7.71+1.06-0.57 Gyr, and Ramirez13 lists
+  6.93 (5.85-7.94;1sigma) Gyr. The star has relatively low velocity
+  and Soubiran05 estimates P(thin)=93%, P(thick)=7%.  A has mass
+  1.0290+-0.0260 Msun(Torres10).  Binary: Tomkin87 estimates
+  delta(V)=1.99, which when combined with the Mermilliod91 Vmag
+  (3.571+-0.009) yields V(A)=3.732, V(B)=5.722. With HIP2 parallax =>
+  Mv(A)=4.20, Mv(B)=6.19. If on the MS, the Mv for B would suggest
+  type ~K2V, and the mass of 0.75+-0.02 Msun suggests ~K3/K3.5V,
+  although Torres10 lists K0V. Tomkin87 (1987AJ.....93.1236T)
+  estimates K0V, and likely intermediate between G8V and K2V.
+  Farrington10 orbit: Porb=280.528+-0.02228d(0.7680599+-0.000061yr),
+  a=0.1244+-0.0011", e=0.428+-0.012, M(A)=0.96+-0.03Msun,
+  M(B)=0.75+-0.03Msun, when combined with HIP2 parallax =>
+  a=1.00234au.  Using the Quarles20 orbital stability trends, the
+  stable orbits zones are very tiny around each component:
+  a_crit(A)=0.158au(P_crit(A)=0.0639yr),
+  a_crit(B)=0.134au(P_crit(B)=0.0564yr). Using HolmanWeigert99
+  formulae, we find the inner orbit for stable circubinary (P-type)
+  orbits is a_crit(P-type,AB)=3.57au(P_crit(P-type,AB)=5.17yr).
+  Estimates of individual luminosities using HIP2 plx: for A:
+  V(A)=3.732, BCv(F7V)=-0.036 => logL(A)=+0.230(1.70Lsun); for B:
+  V(B)=5.722, BCv(K0V)=-0.19 => logL(B)=-0.504(0.313Lsun).  With EEIDs
+  of ~1.3au and ~0.56au, respectively, it is clear that the stable
+  S-type orbits are way too hot, and the closest stable P-type orbits
+  are way too cold.  Rudrasingam26 presents asteroseismic and
+  interferometric analysis of chi Dra A: Teff=6277+-30K,
+  [Fe/H]=-0.51+-0.03, [a/Fe]=+0.08+-0.03, dynamical masses
+  M_A=1.028+-0.004Msun, M_B=0.735+-0.003Msun(chi Dra B),
+  Rad(A)=1.159+0.029-0.028Rsun.
 
 HD 82543 = HR 3794
   F6IV-V: Cowley76(stan)

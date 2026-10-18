@@ -212,27 +212,29 @@ granulation velocities."
 (G-V)(F0V) =  -0.034 ; * 42 Lyn * F0V (GaiaDR2) 
 => adopt (G-V)(F0V) = -0.06 [updated 10/30/2020] (GaiaDR2)
 
-(G-V)(F0V) = -0.118 +-0.029 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)
+(G-V)(F0V) = -0.118 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)
 (G-V)(F0V) =  -0.111 ; HD_11171_ F0V plx=42.5848 mas (GaiaDR3)
 (G-V)(F0V) =  -0.096 ; HD_12230_ F0V plx=30.16 mas (GaiaDR3)
 (G-V)(F0V) =  -0.093 ; HD_9919_ F0V plx=30.3493 mas (GaiaDR3)
 (G-V)(F0V) =  -0.087 ; HD_81937_ F0V plx=42.0904 mas (GaiaDR3)
-(G-V)(F0V) = -0.087 +-0.006 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) 
+(G-V)(F0V) = -0.087 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) 
 (G-V)(F0V) =  -0.085 ; HD_213135_ F0V plx=25.0139 mas (GaiaDR3)
 (G-V)(F0V) =  -0.085 ; HD_129926A_ F0VSr plx=32.6457 mas (GaiaDR3)
 (G-V)(F0V) =  -0.080 ; HD_212132_ F0V plx=25.2139 mas (GaiaDR3)
 (G-V)(F0V) =  -0.077 ; HD_204153_ F0V plx=29.3328 mas (GaiaDR3)
 (G-V)(F0V) =  -0.077 ; HD_152598_ F0V plx=33.6014 mas (GaiaDR3)
-(G-V)(F0V) = -0.076 ; interp A7V-F2V SpT vs G-V 
 (G-V)(F0V) =  -0.076 ; HD_195627_ F0V plx=35.6214 mas (GaiaDR3)
 (G-V)(F0V) =  -0.074 ; HD_11257_ F0Vs plx=24.0374 mas (GaiaDR3)
 (G-V)(F0V) =  -0.069 ; HD_195069_ F0V: plx=25.6035 mas (GaiaDR3)
-(G-V)(F0V) = -0.068 +-0.010 ; exemplar HD 73161 (likely Praesepid)
-(G-V)(F0V) = -0.063 +-0.010 ; exemplar HD 199124 = HR 8006 
+(G-V)(F0V) = -0.068 ; G-V trend interp A7V-F5V (GaiaDR3) 
+(G-V)(F0V) = -0.068 ; exemplar HD 73161 (likely Praesepid)
+(G-V)(F0V) = -0.063 ; exemplar HD 199124 = HR 8006 
 (G-V)(F0V) =  -0.062 ; HD_11973_ F0V plx=24.7748 mas (GaiaDR3)
 (G-V)(F0V) =  -0.050 ; HD_49434_ F0V+ plx=24.9902 mas (GaiaDR3)
 (G-V)(F0V) =  -0.038 ; HD_83287_ F0V plx=25.9788 mas (GaiaDR3)
-=> adopt (G-V)(F0V) = -0.08 [updated 7/15/2025] (GaiaDR3) 
+=> adopt (G-V)(F0V) = -0.07 [updated 10/10/2026] (GaiaDR3)
+[EEM 10/10/2026: trend A7V-F5V (G-V)(SpT) = 0.0303 - 0.00982*SpT
+(where SpT=7 for A7V, SpT=15 for F5V)]
 
 (Bp-Rp)(F0V) = 0.384    ; color trend for B-V=0.295 (GaiaDR2)
 (Bp-Rp)(F0V) =  0.3995  ; HD_195627 (GaiaDR2)
@@ -241,11 +243,11 @@ granulation velocities."
 => adopt (Bp-Rp)(F0V)= 0.384 [updated 11/18/2020] (GaiaDR2)
 
 (Bp-Rp)(F0V) = 0.366 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below) (GaiaDR3)
-(Bp-Rp)(F0V) =  0.3931 ; exemplar HD 199124 = HR 8006   
-(Bp-Rp)(F0V) =  0.4098 ; exemplar HD 73161 (likely Praesepid)   
-(Bp-Rp)(F0V) =  0.4157 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)  
-(Bp-Rp)(F0V) =  0.5148 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4) 
-=> adopt (Bp-Rp)(F0V) = 0.40 [updated 7/20/2025] (Bp-G=0.14, G-Rp=0.26)
+(Bp-Rp)(F0V) =  0.3931 ; exemplar HD 199124 = HR 8006 (GaiaDR3)
+(Bp-Rp)(F0V) =  0.4098 ; exemplar HD 73161 (likely Praesepid) (GaiaDR3)   
+(Bp-Rp)(F0V) =  0.4157 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) (GaiaDR3)  
+(Bp-Rp)(F0V) =  0.5148 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4) (GaiaDR3)
+=> adopt (Bp-Rp)(F0V) = 0.40 [updated 7/20/2025] (Bp-G=0.14, G-Rp=0.26) (GaiaDR3) 
 
 (G-T)(F0V) = 0.198 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.435
 => (G-T)(F0V) = 0.198 [updated 10/8/2023] (GaiaDR2)
@@ -256,11 +258,11 @@ granulation velocities."
 => adopt (Bp-G)(F0V) = 0.156 [updated 11/18/2020]
 
 (Bp-G)(F0V) = 0.118 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below) (GaiaDR3)
-(Bp-G)(F0V) =  0.1351 ; exemplar HD 199124 = HR 8006   
-(Bp-G)(F0V) =  0.1418 ; exemplar HD 73161 (likely Praesepid)   
-(Bp-G)(F0V) =  0.1563 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)  
-(Bp-G)(F0V) =  0.1931 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)  
-=> adopt (Bp-G)(F0V) = 0.14 [updated 7/20/2025] (Bp-Rp=0.40, G-Rp=0.26)
+(Bp-G)(F0V) =  0.1351 ; exemplar HD 199124 = HR 8006 (GaiaDR3)   
+(Bp-G)(F0V) =  0.1418 ; exemplar HD 73161 (likely Praesepid) (GaiaDR3)   
+(Bp-G)(F0V) =  0.1563 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) (GaiaDR3)  
+(Bp-G)(F0V) =  0.1931 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4) (GaiaDR3)  
+=> adopt (Bp-G)(F0V) = 0.14 [updated 7/20/2025] (Bp-Rp=0.40, G-Rp=0.26) (GaiaDR3)
 
 (G-Rp)(F0V) =  0.2038 ; HD_195627 (GaiaDR2)
 (G-Rp)(F0V) = 0.230   ; color trend for B-V=0.295 (GaiaDR2)
@@ -268,12 +270,12 @@ granulation velocities."
 => adopt (G-Rp)(F0V) = 0.230 [updated 11/18/2020]
 
 (G-Rp)(F0V) =  0.248 ; prim. stan. HD 23585 (assuming E(B-V)=0.034, see below) (GaiaDR3)
-(G-Rp)(F0V) =  0.2580 ; exemplar HD 199124 = HR 8006   
-(G-Rp)(F0V) =  0.2594 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12)
-(G-Rp)(F0V) = 0.26 ; Bp-Rp=0.40, Bp-G=0.14 (7/20/2025) 
-(G-Rp)(F0V) =  0.2680 ; exemplar HD 73161 (likely Praesepid)   
-(G-Rp)(F0V) =  0.3217 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)  
-=> adopt (G-Rp)(F0V) = 0.26 [updated 7/20/2025] (Bp-Rp=0.40, Bp-G=0.14) 
+(G-Rp)(F0V) =  0.2580 ; exemplar HD 199124 = HR 8006 (GaiaDR3)   
+(G-Rp)(F0V) =  0.2594 ; exemplar HD 195627 = phi01 Pav = HIP 101612 ([Fe/H]=-0.12) (GaiaDR3)
+(G-Rp)(F0V) = 0.26 ; Bp-Rp=0.40, Bp-G=0.14 (7/20/2025) (GaiaDR3)
+(G-Rp)(F0V) =  0.2680 ; exemplar HD 73161 (likely Praesepid) (GaiaDR3)   
+(G-Rp)(F0V) =  0.3217 ; exemplar HD 9919 = pi Psc = HIP 7535 ([Fe/H]=-0.4)  (GaiaDR3) 
+=> adopt (G-Rp)(F0V) = 0.26 [updated 7/20/2025] (Bp-Rp=0.40, Bp-G=0.14) (GaiaDR3) 
 
 (Ks-W1)(F0V) = 0.049 ; EEM trend for d<30pc for B-V=0.29
 => adopt (Ks-W1)(F0V) = 0.049 [updated 12/29/2019]
@@ -282,26 +284,40 @@ granulation velocities."
 => adopt (W1-W3)(F0V)= -0.050 [updated 12/29/2023]
 => adopt (W1-W4)(F0V)= 0.003 [updated 12/29/2023]
 
-(g-V)(F0V) = 0.060 ; Jordi06 B-V=>g-V for B-V=0.295
-=> adopt (g-V)(F0V) = 0.060 [updated 9/1/2023]
+(g-V)(F0V) = 0.092 ; Smith02 calibration for B-V=0.30 => g-V 
+(g-V)(F0V) = 0.082 ; Bilir05 calibration for B-V=0.30 => g-V
+(g-V)(F0V) = 0.073 ; Pancino22 calibration for B-V=0.30 => g-V
+(g-V)(F0V) = 0.065 ; Jordi06 calibration for B-V=0.30 => g-V ("global")
+(g-V)(F0V) = 0.063 ; Jordi06 calibration for B-V=0.30 => g-V ("pop I") 
+=> adopt (g-V)(F0V) = 0.07 [updated 10/10/2026] 
 
+(u-g)(F0V)   = 0.988 ; Jordi06 calibration for B-V=0.30,U-B=0.05 ("global") 
+(u-g)(F0V)   = 1.066 ; Karaalai05 calibration for B-V=0.30,U-B=0.05 
 (u-g)(F0V)   = 1.16  ; Covey07
-(u'-g')(F0V) = 1.180 ; Smith02 u'-g' calibration for U-B=0.045
-(u'-g')(F0V) = 1.202 ; Fukugita96 u'-g' calibration for U-B=0.045
-=> adopt (u-g)(F0V) = 1.18 [updated 4/18/2024]
+(u'-g')(F0V) = 1.187 ; Smith02 u'-g' calibration for U-B=0.05
+(u'-g')(F0V) = 1.209 ; Fukugita96 u'-g' calibration for U-B=0.05
+=> adopt (u-g)(F0V) = 1.16 [updated 10/10/2026] 
 
-(g-r)(F0V) = 0.161 ; Jordi06 (V-R)=>(g-r) for V-R=0.167
-(g-r)(F0V) = 0.10  ; Covey07
-(g-r)(F0V) = 0.080 ; Bilir05 (B-V)=>(g-r) for B-V=0.295
-=> adopt (g-r)(F0V) = 0.10 [updated 6/20/2024]
+(g-r)(F0V)   = 0.166 ; Jordi06 calibration for V-Rc=0.17 ("pop I")
+(g-r)(F0V)   = 0.141 ; Jordi06 calibration for V-Rc=0.17 ("global")
+(g-r)(F0V)   = 0.121 ; Karaalai05 calibration for B-V=0.30,U-B=0.05 
+(g'-r')(F0V) = 0.104 ; Smith02 calibration for B-V=0.30
+(g'-r')(F0V) = 0.102 ; Smith02 calibration for V-Rc=0.17
+(g-r)(F0V)   = 0.10  ; Covey07
+(g-r)(F0V)   = 0.085 ; Bilir05 (B-V)=>(g-r) for B-V=0.30
+=> adopt (g-r)(F0V) = 0.105 [updated 10/10/2026] 
 
-(r-i)(F0V) = -0.01  ; Covey07 
-(r-i)(F0V) = -0.036 ; Bilir05 calibration for R-Ic=0.18)
-(r-i)(F0V) = -0.043 ; Jordi06 pop I calibration for (R-Ic)=0.18
-=> adopt (r-i)(F0V) = -0.04 [updated 6/20/2024]
+(r-i)(F0V)   = -0.01  ; Covey07
+(r'-i')(F0V) = -0.030 ; Smith02 calibration for R-Ic=0.18
+(r-i)(F0V)   = -0.036 ; Bilir05 calibration for R-Ic=0.18
+(r-i)(F0V)   = -0.043 ; Jordi06 pop I calibration for R-Ic=0.18
+=> adopt (r-i)(F0V) = -0.03 [updated 10/10/2026]
 
-(i-z)(F0V) = -0.09 ; Covey07
-=> adopt (i-z)(F0V) = -0.09 [updated 6/20/2024]
+(r'-z')(F0V) = -0.083 ; Smith02 calibration for R-Ic=0.18
+
+(i'-z')(F0V) = -0.053 ; Smith02 calibration for R-Ic=0.18
+(i-z)(F0V)   = -0.09  ; Covey07
+=> adopt (i-z)(F0V) = -0.07 [updated 10/10/2026]
 
 (z-J)(F0V) = 0.59 ; Covey07
 => adopt (z-J)(F0V) = 0.59 [updated 6/20/2024]
