@@ -174,7 +174,7 @@ HD 124752 = HIP 69400 = BD+67_771 (J1412+6735)
 
 # Secondary Standard
 
-HD 26965 = omi^2 Eri = 40 Eri A = Keid = GJ 166A = HR 1325 = LHS 23 = HIP 19849 (J0415-0739)
+HD 26965 = 40 Eri A = omi02 Eri = Keid = GJ 166A = HR 1325 = LHS 23 = HIP 19849 = WDS J04153-0739A = Gaia DR3 3195919528989223040
   G9V: Abt85
   K0V: 1923LicOB..10..169L,Adams35,Wilson62,Morgan65,Keenan99
  *K0.5V: Keenan88,Keenan89,GrayNstars(stan),Gray06
@@ -187,15 +187,32 @@ HD 26965 = omi^2 Eri = 40 Eri A = Keid = GJ 166A = HR 1325 = LHS 23 = HIP 19849 
   (1983,1985) to K0.5V (1988) to K0V (1999). I retain it as K0.5V
   standard here as it is clearly intermediate. Star has controversial
   cases of claimed planets and rebuttal (see Burrows24;
-  2024AJ....167..243B).  Host star to fictional planet Vulcan in Star
-  Trek universe.  PASTEL medians: <Teff> = 5153 K (N=25), <[Fe/H]> =
-  -0.28 (N=18).  Soubiran24 Gaia benchmark values:
-  Teff=5181+-21K(Soubiran24), logg=4.51+-0.01(Soubiran24),
-  [Fe/H]=-0.29+-0.01(Soubiran24).  V=4.424+-0.012(Mermilliod91),
-  V=4.425(Cousins80), B-V=0.816+-0.005(Mermilliod91),
-  U-B=0.446+-0.009(Mermilliod91), V-Rc=0.465(Cousins80),
-  R-Ic=0.42(Cousins80), V-Ic=0.885(Cousins80).  Mv=5.94. Rain20
-  reports: tetLD=1.486+-0.012, Rad=0.804+-0.006Rsun,
+  2024AJ....167..243B).  Host star to fictional planets Vulcan in Star
+  Trek universe and Erid in Project Hail Mary.  40 Eri A is primary in
+  triple system with pair BC comprised of a DA2.9 white dwarf and
+  M4.5Ve dwarf. Despite mentions in scifi - the astrophysical star of
+  the system is the white dwarf 40 Eri B (which has had separate
+  papers written on it). I discuss the BC pair in some detail to
+  provide some context for the system, and estimate the mass of the BC
+  pair that is orbiting 40 Eri A.  The BC pair data and orbit was
+  studied in detail by Mason17, who reported Porb(BC)=230.29+-0.68yr,
+  M(B)=0.573+-0.018Msun, M(C)=0.2036+-0.0064Msun -- Mason21
+  subsequently updated the dynamical masses to M(B)=0.558+-0.012Msun,
+  M(C)=0.1980+-0.0042Msun => M(BC)=0.756).  Mason17 orbit for BC:
+  Porb(BC)=230.30+-0.68yr, a=6.930+-0.050", e=0.4294+-0.0027.  WDS
+  reportst that as of 2024, B is 83.2" (PA=102deg) away from A, and C
+  is 77.9" (PA=98deg) from A.  The position angle for A-B has only
+  changed by ~6 degrees between the time of Herschel (1783) and 2024,
+  and at the distance of A (5.01pc), the A-B projected separation
+  (83.2") translates to ~417au.  Interestingly, the mass of BC
+  (0.76Msun) is nearly identical to that of A (~0.8Msun).  PASTEL
+  medians: <Teff> = 5153 K (N=25), <[Fe/H]> = -0.28 (N=18).
+  Soubiran24 Gaia benchmark values: Teff=5181+-21K(Soubiran24),
+  logg=4.51+-0.01(Soubiran24), [Fe/H]=-0.29+-0.01(Soubiran24).
+  V=4.424+-0.012(Mermilliod91), V=4.425(Cousins80),
+  B-V=0.816+-0.005(Mermilliod91), U-B=0.446+-0.009(Mermilliod91),
+  V-Rc=0.465(Cousins80), R-Ic=0.42(Cousins80), V-Ic=0.885(Cousins80).
+  Mv=5.94. Rain20 reports: tetLD=1.486+-0.012, Rad=0.804+-0.006Rsun,
   fbol=(50.8+-0.9)e-8 erg/s/cm2 (=> mbol = 4.238+-0.019 IAU2015
   scale), Teff=5126+-30K, Lum=0.40+-0.01 Lsun (=> logL = -0.40+-0.01).
   BCv = V - mbol = 4.238 - 4.424 =
@@ -208,13 +225,17 @@ HD 26965 = omi^2 Eri = 40 Eri A = Keid = GJ 166A = HR 1325 = LHS 23 = HIP 19849 
   Prot=43d(Baliunas96/CaHK), Prot=40d(Isaacson10/predicted_logR'HK).
   Running Bouma23's gyrointerp gyro age code, adopting the Soubiran24
   Teff and P=42+-1d => runs up against the 4Gyr max age (M67) =>
-  3977+17-37Myr, i.e. >4 Gyr.  logR'HK=-4.872(Baliuna96),
-  logR'HK=-4.9280(Isaacson10), logR'HK=-4.99(Jenkins11/Burrows24),
-  logLx(A)=26.81(Booth17/Chandra), logLx(A)=26.82(Zhu25/Chandra/ACIS),
-  logLx(A)=26.894(Zhu25/final), logLx(A)=27.07(Foster22),
-  logLx(A)=27.17(Schmitt04/ROSAT/HRI), logLx(A)=27.12(Zhu25/eROSITA),
-  logLx(A)=27.51(Zhu25/ROSAT), logLx(A)=27.52(Schmitt04/ROSAT/RASS) =>
-  adopt logLx(A)=26.894(Zhu25/final), logLx/Lbol=-5.6(Eiroa13),
+  3977+17-37Myr, i.e. >4 Gyr. Mass:
+  0.769+-0.002Msun(Soubiran24/BASTI),
+  0.769+-0.012Msun(Soubiran24/STAREVOL), 0.79+-0.02Msun(Brewer16),
+  0.835+-0.084Msun(Kirkpatrick24), 0.88+-0.02Msun(Luck17).
+  logR'HK=-4.872(Baliuna96), logR'HK=-4.9280(Isaacson10),
+  logR'HK=-4.99(Jenkins11/Burrows24), logLx(A)=26.81(Booth17/Chandra),
+  logLx(A)=26.82(Zhu25/Chandra/ACIS), logLx(A)=26.894(Zhu25/final),
+  logLx(A)=27.07(Foster22), logLx(A)=27.17(Schmitt04/ROSAT/HRI),
+  logLx(A)=27.12(Zhu25/eROSITA), logLx(A)=27.51(Zhu25/ROSAT),
+  logLx(A)=27.52(Schmitt04/ROSAT/RASS) => adopt
+  logLx(A)=26.894(Zhu25/final), logLx/Lbol=-5.6(Eiroa13),
   logLx/Lbol=-6.31(Zhu25),
   logLx/Lbol=-6.318(Lx(Zhu25/final),Lbol(Soubiran24)).  This is
   surprisingly similar to that for the Sun: logLx/Lbol~-6.24 (using
@@ -232,7 +253,27 @@ HD 26965 = omi^2 Eri = 40 Eri A = Keid = GJ 166A = HR 1325 = LHS 23 = HIP 19849 
   [Si/Fe]=+0.20(Swastik22), [Ti/Fe]=+0.33(Swastik22). Nothing about
   the K0.5V primary in the 40 Eri system seems to suggest <2 Gyr, so
   the white dwarf age seems anomalous.  Q: is it possible the
-  progenitor to the WD 40 Eri B was unusual - e.g. blue straggler?
+  progenitor to the WD 40 Eri B was unusual - e.g. blue straggler?  Is
+  40 Eri's HZ dynamically stable? We don't have an accuate orbit for
+  A-BC, so for a provisional orbit I adopt the projected separation
+  (417au) and adopt the BC eccentricity (0.4294) as a likely predicted
+  eccentricity for the A-BC orbit. With these fiducial values, and the
+  dynamical stability equations from Quarles for coplanar prograde
+  orbits, the dynamically stable orbits for A would reach out to
+  a_crit ~ 61au. The Kopparapu14 HZ calculations for Teff=5180K
+  predict S(recent Venus)=1.659, S(runaway greenhouse)=1.034, S(max
+  greenhouse)=0.320, S(early Mars)=0.288, which for the Soubiran24
+  luminosity (0.426Lsun) translate to orbital radii of 0.33au, 0.42au,
+  0.75au, 0.79au, i.e. all well within a reasonable estimate of the
+  S-type stability region (~60au).
+
+  (B-V)(K0.5V)  = 0.816 ; sec. stan. HD 26965 = 40 Eri A = omi02 Eri ([Fe/H]=-0.29)
+  (U-B)(K0.5V)  = 0.446 ; sec. stan. HD 26965 = 40 Eri A = omi02 Eri ([Fe/H]=-0.29)
+  (V-Rc)(K0.5V) = 0.457 ; sec. stan. HD 26965 = 40 Eri A = omi02 Eri ([Fe/H]=-0.29)
+  (R-Ic)(K0.5V) = 0.415 ; sec. stan. HD 26965 = 40 Eri A = omi02 Eri ([Fe/H]=-0.29)
+  (V-Ic)(K0.5V) = 0.872 ; sec. stan. HD 26965 = 40 Eri A = omi02 Eri ([Fe/H]=-0.29)
+  Teff(K0.5V)   = 5181 K ; sec. stan. HD 26965 = 40 Eri A = omi02 Eri ([Fe/H]=-0.29)
+  logg(K0.5V)   = 4.51 ; sec. stan. HD 26965 = 40 Eri A = omi02 Eri ([Fe/H]=-0.29)
 
 # Deprecated Standards
 
