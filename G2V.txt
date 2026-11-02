@@ -229,7 +229,7 @@ only those w/i 0.1dex of solar: (V-Rc)(G2V) = 0.3647 + 0.0311*[Fe/H] (rms=0.009;
 (V-Ic)(G2V) =   0.688 +-0.014 ; Holmberg06 (Sun; Johnson-Cousins)
 (V-Ic)(G2V) =  0.688 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03)
 (V-Ic)(G2V) =  0.690 ; solar twin HD 59967 = GJ 3446 = HIP 36515 (Teff=5815K, logg=4.53, [Fe/H]=-0.04)
-(V-Ic)(G2V) =  0.692 ; fit to GCPD/Cousins BVIc colors for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.65
+(V-Ic)(G2V) =  0.692 ; fit to GCPD/Cousins BVIc colors for SIMBAD Vs d<50pc Soubiran22 [Fe/H] +-0.1dex of solar for B-V=0.65
 (V-Ic)(G2V) =  0.693 ; ter. stan. HD 76151 = GJ 327 ([Fe/H]=+0.10)   
 (V-Ic)(G2V) =  0.693 ; exemplar HD 128620 = alf Cen A = GJ 559A ([Fe/H]=+0.22) 
 (V-Ic)(G2V) =   0.696 ; HIP 15442 (Koen10)
@@ -559,7 +559,7 @@ so good agreement on V-Ks=1.54 and agreement with B-V=0.65]
 (G-V)(G2V) =   -0.130 ; *_ksi_UMa_B G2V plx=114.4867 mas (GaiaDR3)
 (G-V)(G2V) =  -0.139 +-0.010 ; solar twin HD 98618 = HIP 55459 ([Fe/H]=+0.04, logg=4.38)   
 (G-V)(G2V) =  -0.151 +-0.010 ; solar twin HD 216008 = HIP 112730 ([Fe/H]=-0.04, logg=4.38)  
-(G-V)(G2V) =  -0.151 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for T=5772K (GaiaDR3 Gmags,SIMBAD Vmags)
+(G-V)(G2V) =  -0.151 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for T=5772K (GaiaDR3 Gmags,SIMBAD Vs)
 (G-V)(G2V) =  -0.152 +-0.010 ; ter. stan. HD 76151 = GJ 327 ([Fe/H]=+0.10)   
 (G-V)(G2V) =  -0.153 +-0.010 ; solar twin HD 138573 = HIP 76114 ([Fe/H]=-0.01, logg=4.43)  
 (G-V)(G2V) =   -0.153 ; HD_199288 G2VFe-1.0 plx=46.5855 mas (GaiaDR3)
@@ -577,7 +577,7 @@ so good agreement on V-Ks=1.54 and agreement with B-V=0.65]
 (G-V)(G2V) =  -0.172 +-0.010 ; sec. stan. HD 146233 = 18 Sco ([Fe/H]=+0.03)     
 (G-V)(G2V) =   -0.178 ; HD_102365 G2V plx=107.3024 mas (GaiaDR3)
 (G-V)(G2V) =   -0.208 ; HD_76932 G2VFe-1.8CH-1 plx=46.6872 mas (GaiaDR3)
-=> adopt (G-V)(G2V) = -0.155 [updated 12/1/2025] (GaiaDR3)
+=> adopt (G-V)(G2V) = -0.155 [updated 10/29/2026] (GaiaDR3)
 
 (Bp-Rp)(G2V) = 0.836 ; solar twin HD 124523 = HIP 69645 (GaiaDR2) ([Fe/H]=-0.03, logg=4.45)
 (Bp-Rp)(G2V) = 0.829 ; ter. stan. HD 76151 (corrected GaiaDR2)
@@ -592,16 +592,36 @@ so good agreement on V-Ks=1.54 and agreement with B-V=0.65]
 (Bp-Rp)(G2V) =  0.867 ; Evans18 trend for V-Ic=0.710 (GaiaDR2)
 => adopt (Bp-Rp)(G2V) = 0.815 [updated 11/22/2020] (GaiaDR2)
 
-(Bp-Rp)(G2V) =  0.821 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
-(Bp-Rp)(G2V) =  0.826 ; solar twin HD 124523 = HIP 69645 (GaiaDR3) ([Fe/H]=-0.03, logg=4.45)
-(Bp-Rp)(G2V) =  0.825 ; ter. stan. HD 76151 (GaiaDR3) 
-(Bp-Rp)(G2V) =  0.817 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03) (GaiaDR3)
-(Bp-Rp)(G2V) = 0.815 ; Bp-G=0.325, G-Rp=0.490 (9/29/2026) 
-(Bp-Rp)(G2V) =  0.815 +-0.018 ; Sun (Casagrande21) 
-(Bp-Rp)(G2V) =  0.813 ; Sun synthetic GaiaDR3 (Gaia Collaboration+Creevey+22)
-(Bp-Rp)(G2V) =  0.808 ; solar twin HD 101364 = HIP 56948 (GaiaDR3) ([Fe/H]=+0.02, logg=4.45)
-(Bp-Rp)(G2V) =  0.807 ; solar twin HD 88072 = HIP 49756 (GaiaDR3) ([Fe/H]=+0.03) 
-=> adopt (Bp-Rp)(G2V) = 0.815 [updated 10/10/2026] (Bp-G=0.325, G-Rp=0.495) (GaiaDR3)
+(Bp-Rp)(G2V) =    0.743 ; HD 76932 = Gaia DR3 5730371484020807808  G2VFe-1.8CH-1 plx=46.6872mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.778 ; HD 207129 = Gaia DR3 6564091190988411520  G2V plx=64.2717mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.779 ; HD 199288 = Gaia DR3 6484716209628726912  G2VFe-1.0 plx=46.5855mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.787 ; HD 165401 = Gaia DR3 4471087175915086080  G2V plx=41.4741mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.792 ; HD 45184 = Gaia DR3 2898239468873596800  G2Va plx=45.6782mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.793 ; HD 107146 = Gaia DR3 3946438125929224320  G2V plx=36.4038mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.797 ; HD 8262 = Gaia DR3 2786115533677290240  G2V plx=38.3495mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.803 ; HD 44594 = Gaia DR3 5553647083168192512  G2Va plx=38.3524mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.804 ; HD 9986 = Gaia DR3 2585856120791459584  G2V plx=39.3118mas (GaiaDR3)
+(Bp-Rp)(G2V) =   0.807 ; solar twin HD 88072 = HIP 49756 (GaiaDR3) ([Fe/H]=+0.03) 
+(Bp-Rp)(G2V) =   0.808 ; solar twin HD 101364 = HIP 56948 (GaiaDR3) ([Fe/H]=+0.02, logg=4.45)
+(Bp-Rp)(G2V) =   0.813 ; Sun synthetic GaiaDR3 (Gaia Collaboration+Creevey+22)
+(Bp-Rp)(G2V) =    0.815 ; HD 179958 = Gaia DR3 2132788541955849984  G2V plx=39.5809mas (GaiaDR3)
+(Bp-Rp)(G2V) =   0.815 +-0.018 ; Sun (Casagrande21) 
+(Bp-Rp)(G2V) =  0.815 ; Bp-G=0.325, G-Rp=0.490 (9/29/2026) (GaiaDR3)
+(Bp-Rp)(G2V) =    0.816 ; HD 38858 = Gaia DR3 3023711269067191296  G2V plx=65.7446mas (GaiaDR3)
+(Bp-Rp)(G2V) =   0.817 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03) (GaiaDR3)
+(Bp-Rp)(G2V) =    0.818 ; HD 210918 = Gaia DR3 6569895822110445440  G2V plx=45.9146mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.819 ; HD 190771 = Gaia DR3 2061876742143320064  G2V plx=52.5334mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.820 ; HD 29587 = Gaia DR3 204358907633155840  G2V plx=36.6470mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.821 ; HD 39881 = Gaia DR3 3346787986201584896  G2V plx=36.4474mas (GaiaDR3)
+(Bp-Rp)(G2V) =   0.821 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44) (GaiaDR3)
+(Bp-Rp)(G2V) =    0.821 ; HD 189567 = Gaia DR3 6427244702486210816  G2V plx=55.7654mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.823 ; HD 12846 = Gaia DR3 104453918172129792  G2V plx=42.1141mas (GaiaDR3)
+(Bp-Rp)(G2V) =   0.825 ; ter. stan. HD 76151 = Gaia DR3 5760701787150565888  G2V plx=59.3595mas (GaiaDR3) 
+(Bp-Rp)(G2V) =    0.826 ; HD 108309 = Gaia DR3 6128366415218881536  G2V plx=37.2211mas (GaiaDR3)
+(Bp-Rp)(G2V) =   0.826 ; solar twin HD 124523 = HIP 69645 (GaiaDR3) ([Fe/H]=-0.03, logg=4.45)
+(Bp-Rp)(G2V) =    0.829 ; HD 25874 = Gaia DR3 4679878730311238656  G2V plx=38.4266mas (GaiaDR3)
+(Bp-Rp)(G2V) =    0.856 ; HD 102365 = Gaia DR3 5381537023379295232  G2V plx=107.3024mas (GaiaDR3)
+=> adopt (Bp-Rp)(G2V) = 0.815 [updated 10/10/2026] (Bp-G=0.325, G-Rp=0.490) (GaiaDR3)
 
 (G-T)(G2V) = 0.428 ; calculated G_GaiaDR2 - T_TESS following Stassun19 for (Bp-Rp)=0.815
 => (G-T)(G2V) = 0.428 [updated 10/8/2023] (GaiaDR2)
@@ -613,22 +633,43 @@ so good agreement on V-Ks=1.54 and agreement with B-V=0.65]
 (Bp-G)(G2V) = 0.349 ; Bp-Rp=0.815, G-Rp=0.466
 (Bp-G)(G2V) =  0.351 ; solar twin HD 88072 = HIP 49756 (GaiaDR2) ([Fe/H]=+0.03) 
 (Bp-G)(G2V) =  0.355 ; HD_124523 (GaiaDR2) ([Fe/H]=-0.03, logg=4.45)
+(Bp-G)(G2V) =  0.356 ; converting B-V=0.648 to Bp-G via Pancino22 (GaiaDR3)
 (Bp-G)(G2V) =  0.357 ; HD_138573 (GaiaDR2) ([Fe/H]=-0.01)
 (Bp-G)(G2V) =  0.364 ; HD_76151 (GaiaDR2)
 (Bp-G)(G2V) =  0.365 ; color trend for B-V=0.65
 (Bp-G)(G2V) =  0.372 ; 18_Sco (GaiaDR2)
 => adopt (Bp-G)(G2V) = 0.349 [updated 11/22/2020] (GaiaDR2)
 
-(Bp-G)(G2V) =  0.319 ; solar twin HD 88072 = HIP 49756 (GaiaDR3) ([Fe/H]=+0.03) 
-(Bp-G)(G2V) =  0.318 ; solar twin HD 101364 = HIP 56948 (GaiaDR3) ([Fe/H]=+0.02, logg=4.45)
-(Bp-G)(G2V) =  0.322 +-0.011 ; Sun (Casagrande21) 
-(Bp-G)(G2V) =  0.324 ; Sun synthetic GaiaDR3 (Gaia Collaboration+Creevey+22)
-(Bp-G)(G2V) = 0.325 ; Bp-Rp=0.815, G-Rp=0.490 (10/10/2026) 
-(Bp-G)(G2V) =  0.326 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
-(Bp-G)(G2V) =  0.327 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03) (GaiaDR3)
-(Bp-G)(G2V) =  0.329 ; solar twin HD 124523 = HIP 69645 (GaiaDR3) ([Fe/H]=-0.03, logg=4.45)
-(Bp-G)(G2V) =  0.329 ; ter. stan. HD 76151 = HR 3538 (GaiaDR3)
-=> adopt (Bp-G)(G2V) = 0.325 [updated 10/10/2026] (Bp-Rp=0.815, G-Rp=0.495) (GaiaDR3) 
+(Bp-G)(G2V) =    0.285 ; HD 76932 = Gaia DR3 5730371484020807808  G2VFe-1.8CH-1 plx=46.6872mas (GaiaDR3)
+(Bp-G)(G2V) =    0.300 ; HD 199288 = Gaia DR3 6484716209628726912  G2VFe-1.0 plx=46.5855mas (GaiaDR3)
+(Bp-G)(G2V) =    0.304 ; HD 165401 = Gaia DR3 4471087175915086080  G2V plx=41.4741mas (GaiaDR3)
+(Bp-G)(G2V) =    0.306 ; HD 207129 = Gaia DR3 6564091190988411520  G2V plx=64.2717mas (GaiaDR3)
+(Bp-G)(G2V) =    0.308 ; HD 107146 = Gaia DR3 3946438125929224320  G2V plx=36.4038mas (GaiaDR3)
+(Bp-G)(G2V) =    0.310 ; HD 45184 = Gaia DR3 2898239468873596800  G2Va plx=45.6782mas (GaiaDR3)
+(Bp-G)(G2V) =    0.311 ; HD 8262 = Gaia DR3 2786115533677290240  G2V plx=38.3495mas (GaiaDR3)
+(Bp-G)(G2V) =    0.316 ; HD 44594 = Gaia DR3 5553647083168192512  G2Va plx=38.3524mas (GaiaDR3)
+(Bp-G)(G2V) =    0.317 ; HD 9986 = Gaia DR3 2585856120791459584  G2V plx=39.3118mas (GaiaDR3)
+(Bp-G)(G2V) =   0.318 ; solar twin HD 101364 = HIP 56948 (GaiaDR3) ([Fe/H]=+0.02, logg=4.45)
+(Bp-G)(G2V) =   0.319 ; solar twin HD 88072 = HIP 49756 (GaiaDR3) ([Fe/H]=+0.03)
+(Bp-G)(G2V) =    0.320 ; HD 179958 = Gaia DR3 2132788541955849984  G2V plx=39.5809mas (GaiaDR3)
+(Bp-G)(G2V) =    0.320 ; HD 29587 = Gaia DR3 204358907633155840  G2V plx=36.6470mas (GaiaDR3)
+(Bp-G)(G2V) =    0.320 ; HD 210918 = Gaia DR3 6569895822110445440  G2V plx=45.9146mas (GaiaDR3)
+(Bp-G)(G2V) =   0.322 +-0.011 ; Sun (Casagrande21) 
+(Bp-G)(G2V) =    0.323 ; HD 39881 = Gaia DR3 3346787986201584896  G2V plx=36.4474mas (GaiaDR3)
+(Bp-G)(G2V) =    0.324 ; HD 38858 = Gaia DR3 3023711269067191296  G2V plx=65.7446mas (GaiaDR3)
+(Bp-G)(G2V) =   0.324 ; Sun synthetic GaiaDR3 (Gaia Collaboration+Creevey+22) 
+(Bp-G)(G2V) =    0.324 ; HD 189567 = Gaia DR3 6427244702486210816  G2V plx=55.7654mas (GaiaDR3)
+(Bp-G)(G2V) =    0.324 ; HD 12846 = Gaia DR3 104453918172129792  G2V plx=42.1141mas (GaiaDR3)
+(Bp-G)(G2V) =    0.324 ; HD 190771 = Gaia DR3 2061876742143320064  G2V plx=52.5334mas (GaiaDR3)
+(Bp-G)(G2V) =  0.325 ; Bp-Rp=0.815, G-Rp=0.490 (10/10/2026) (GaiaDR3)
+(Bp-G)(G2V) =   0.326 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44) (GaiaDR3)
+(Bp-G)(G2V) =   0.327 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03) (GaiaDR3)
+(Bp-G)(G2V) =    0.327 ; HD 108309 = Gaia DR3 6128366415218881536  G2V plx=37.2211mas (GaiaDR3)
+(Bp-G)(G2V) =    0.328 ; HD 25874 = Gaia DR3 4679878730311238656  G2V plx=38.4266mas (GaiaDR3)
+(Bp-G)(G2V) =   0.329 ; ter. stan. HD 76151 = HR 3538 (GaiaDR3)
+(Bp-G)(G2V) =   0.329 ; solar twin HD 124523 = HIP 69645 (GaiaDR3) ([Fe/H]=-0.03, logg=4.45)
+(Bp-G)(G2V) =    0.350 ; HD 102365 = Gaia DR3 5381537023379295232  G2V plx=107.3024mas (GaiaDR3)
+=> adopt (Bp-G)(G2V) = 0.325 [updated 10/10/2026] (Bp-Rp=0.815, G-Rp=0.490) (GaiaDR3) 
 
 (G-Rp)(G2V) = 0.436 ; sec. stan. HD 146233 = 18 Sco = GJ 616 = HR 6060 ([Fe/H]=+0.03) (GaiaDR2)
 (G-Rp)(G2V) = 0.462 ; solar twin HD 88072 = HIP 49756 (GaiaDR2) ([Fe/H]=+0.03)
@@ -642,16 +683,38 @@ so good agreement on V-Ks=1.54 and agreement with B-V=0.65]
 (G-Rp)(G2V) = 0.488 ; color trend for B-V=0.65 (GaiaDR2)
 => adopt (G-Rp)(G2V) = 0.466 [updated 11/22/2020] (GaiaDR2)
 
-(G-Rp)(G2V) =  0.488 ; solar twin HD 88072 = HIP 49756 (GaiaDR3) ([Fe/H]=+0.03)
-(G-Rp)(G2V) =  0.489 +-0.009 ; Sun (Casagrande21) 
-(G-Rp)(G2V) =  0.490 ; sec. stan. 18 Sco = HD 146233 (GaiaDR3)
-(G-Rp)(G2V) =  0.490 ; solar twin HD 101364 = HIP 56948 (GaiaDR3) ([Fe/H]=+0.02, logg=4.45)
-(G-Rp)(G2V) = 0.490 ; Bp-Rp=0.815, Bp-G=0.325 (10/10/2026) (Gaia DR3) 
-(G-Rp)(G2V) =  0.490 ; Sun synthetic GaiaDR3 (Gaia Collaboration+Creevey+22)
-(G-Rp)(G2V) =  0.495 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44) 
-(G-Rp)(G2V) =  0.496 ; ter. stan. HD 76151 = HR 3538 (GaiaDR3)
-(G-Rp)(G2V) =  0.498 ; solar twin HD 124523 = HIP 69645 (GaiaDR3) ([Fe/H]=-0.03, logg=4.45)
-=> adopt (G-Rp)(G2V) = 0.490 [updated 10/10/2026] (Bp-Rp=0.815, Bp-G=0.325) (GaiaDR3)
+(G-Rp)(G2V) =    0.458 ; HD 76932 = Gaia DR3 5730371484020807808  G2VFe-1.8CH-1 plx=46.6872mas (GaiaDR3)
+(G-Rp)(G2V) =    0.472 ; HD 207129 = Gaia DR3 6564091190988411520  G2V plx=64.2717mas (GaiaDR3)
+(G-Rp)(G2V) =    0.479 ; HD 199288 = Gaia DR3 6484716209628726912  G2VFe-1.0 plx=46.5855mas (GaiaDR3)
+(G-Rp)(G2V) =    0.482 ; HD 45184 = Gaia DR3 2898239468873596800  G2Va plx=45.6782mas (GaiaDR3)
+(G-Rp)(G2V) =    0.483 ; HD 165401 = Gaia DR3 4471087175915086080  G2V plx=41.4741mas (GaiaDR3)
+(G-Rp)(G2V) =    0.485 ; HD 107146 = Gaia DR3 3946438125929224320  G2V plx=36.4038mas (GaiaDR3)
+(G-Rp)(G2V) =    0.486 ; HD 8262 = Gaia DR3 2786115533677290240  G2V plx=38.3495mas (GaiaDR3)
+(G-Rp)(G2V) =    0.487 ; HD 9986 = Gaia DR3 2585856120791459584  G2V plx=39.3118mas (GaiaDR3)
+(G-Rp)(G2V) =    0.487 ; HD 44594 = Gaia DR3 5553647083168192512  G2Va plx=38.3524mas (GaiaDR3)
+(G-Rp)(G2V) =   0.488 ; solar twin HD 88072 = HIP 49756 (GaiaDR3) ([Fe/H]=+0.03)
+(G-Rp)(G2V) =   0.489 +-0.009 ; Sun (Casagrande21)
+(G-Rp)(G2V) =   0.490 ; sec. stan. 18 Sco = HD 146233 (GaiaDR3)
+(G-Rp)(G2V) =  0.490 ; Bp-Rp=0.815, Bp-G=0.325 (10/29/2026) (Gaia DR3) 
+(G-Rp)(G2V) =   0.490 ; solar twin HD 101364 = HIP 56948 (GaiaDR3) ([Fe/H]=+0.02, logg=4.45)
+(G-Rp)(G2V) =   0.490 ; Sun synthetic GaiaDR3 (Gaia Collaboration+Creevey+22)
+(G-Rp)(G2V) =    0.492 ; HD 38858 = Gaia DR3 3023711269067191296  G2V plx=65.7446mas (GaiaDR3)
+(G-Rp)(G2V) =   0.493 ; trend for nearest Gray03/06 F9V-K0V *s (rms=0.012mag) (10/29/2026) (GaiaDR3)
+(G-Rp)(G2V) =    0.495 ; HD 179958 = Gaia DR3 2132788541955849984  G2V plx=39.5809mas (GaiaDR3)
+(G-Rp)(G2V) =    0.495 ; HD 190771 = Gaia DR3 2061876742143320064  G2V plx=52.5334mas (GaiaDR3)
+(G-Rp)(G2V) =   0.495 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44) 
+(G-Rp)(G2V) =   0.496 ; ter. stan. HD 76151 = GJ 327 ([Fe/H]=+0.10) (GaiaDR3)
+(G-Rp)(G2V) =    0.497 ; HD 189567 = Gaia DR3 6427244702486210816  G2V plx=55.7654mas (GaiaDR3)
+(G-Rp)(G2V) =    0.497 ; HD 210918 = Gaia DR3 6569895822110445440  G2V plx=45.9146mas (GaiaDR3)
+(G-Rp)(G2V) =    0.498 ; HD 39881 = Gaia DR3 3346787986201584896  G2V plx=36.4474mas (GaiaDR3)
+(G-Rp)(G2V) =   0.498 ; solar twin HD 124523 = HIP 69645 (GaiaDR3) ([Fe/H]=-0.03, logg=4.45)
+(G-Rp)(G2V) =    0.499 ; HD 108309 = Gaia DR3 6128366415218881536  G2V plx=37.2211mas (GaiaDR3)
+(G-Rp)(G2V) =    0.499 ; HD 12846 = Gaia DR3 104453918172129792  G2V plx=42.1141mas (GaiaDR3)
+(G-Rp)(G2V) =    0.500 ; HD 29587 = Gaia DR3 204358907633155840  G2V plx=36.6470mas (GaiaDR3)
+(G-Rp)(G2V) =    0.501 ; HD 25874 = Gaia DR3 4679878730311238656  G2V plx=38.4266mas (GaiaDR3)
+(G-Rp)(G2V) =    0.506 ; HD 102365 = Gaia DR3 5381537023379295232  G2V plx=107.3024mas (GaiaDR3)
+(G-Rp)(G2V) =   0.530 ; converting B-V=0.648 to G-Rp via Pancino22 (GaiaDR3) (discrepent)
+=> adopt (G-Rp)(G2V) = 0.490 [updated 10/29/2026] (Bp-Rp=0.815, Bp-G=0.325) (GaiaDR3)
 
 Teff(G2V) =    5710 K ; GrayCorbally94
 Teff(G2V) =  5748 K ; 23 Teffs for "G2 V" stars in Gray06
@@ -714,68 +777,69 @@ Torres10/2010AJ....140.1158T (V_sun = -26.76+-0.03, Mv_sun =
 recommend adopting the Bakis & Eker (2022) BCs at this time as they
 seem to have a large systematic (~0.15-0.16 mag) for Sun-like stars.
 
-M_G(G2V) =   4.00 (discrepent) ; HD_76932 plx=46.6872mas G2VFe-1.8CH-1 ([Fe/H]=-0.88, logg=4.11) (GaiaDR3)
-M_G(G2V) =   4.25 (discrepent, SB2) ; HD_137107J plx=55.98mas G2V+G2V (GaiaDR3)
-M_G(G2V) =  4.37 ; HD_179958 plx=39.5809mas G2V ([Fe/H]=+0.04, logg=4.36) (GaiaDR3)
-M_G(G2V) =  4.37 ; HD_210918 plx=45.9146mas G2V ([Fe/H]=-0.10, logg=4.34) (GaiaDR3)
-M_G(G2V) = 4.46 ; solar twin HD 167060 = HIP 89650 ([Fe/H]=-0.015) 
-M_G(G2V) =  4.46 ; HD_207129 plx=64.2717mas G2V ([Fe/H]=-0.03, logg=4.41) (GaiaDR3)
-M_G(G2V) =  4.50 ; HD_25874 plx=38.4266mas G2V ([Fe/H]=+0.01, logg=4.37) (GaiaDR3)
-M_G(G2V) =  4.52 ; HD_45184 plx=45.6782mas G2Va ([Fe/H]=+0.06, logg=4.43) (GaiaDR3)
-M_G(G2V) = 4.58 ; sec. stan. HD 146233 = 18 Sco = GJ 616 ([Fe/H]=+0.03, logg=4.43) plx=70.7371mas (GaiaDR3)
-M_G(G2V) = 4.59 ; solar twin HD_9986 plx=39.3118mas G2V ([Fe/H]=+0.09, logg=4.45) (GaiaDR3)
-M_G(G2V) =  4.62 ; HD_190771 plx=52.5334mas G2V ([Fe/H]=+0.14, logg=4.44) (GaiaDR3)
-M_G(G2V) =  4.65 ; HD_189567 plx=55.7654mas G2V ([Fe/H]=-0.19, logg=4.42) (GaiaDR3)
-M_G(G2V) =  4.65 ; HD_164595_ plx=35.402mas G2V ([Fe/H]=-0.08, logg=4.41) (GaiaDR3)
-M_G(G2V) = 4.66  ; Sun adopted by Creevey22/GaiaDR3/FLAME
-M_G(G2V) = 4.665 ; Sun (Casagrande21) 
-M_G(G2V) =  4.71 ; HD_199288 plx=46.5855mas G2VFe-1.0 ([Fe/H]=-0.65, logg=4.40) (GaiaDR3)
-M_G(G2V) = 4.71 ; ter. stan. HD_76151 plx=59.3595mas G2V ([Fe/H]=+0.10, logg=4.49) (GaiaDR3)
-M_G(G2V) =  4.74 ; HD_165401 plx=41.4741mas G2V ([Fe/H]=-0.40, logg=4.44) (GaiaDR3)
-M_G(G2V) = 4.77 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
-M_G(G2V) =   4.77 (discrepent, SB?) ; *_53_Aqr plx=51.5079mas G2V+G3V ([Fe/H]=-0.09, logg=4.44) (GaiaDR3) 
-M_G(G2V) =  4.83 ; HD_181321 plx=50.2864mas G2V ([Fe/H]=0.00, logg=4.48) (GaiaDR3) (candidate solar twin?)
-M_G(G2V) =  4.85 ; HD_102365 plx=107.3024mas G2V ([Fe/H]=-0.31, logg=4.44) (GaiaDR3)
-M_G(G2V) =  4.86 ; HD_12846 plx=42.1141mas G2V ([Fe/H]=-0.25, logg=4.40) (GaiaDR3)
-M_G(G2V) =  4.90 ; HD_38858 plx=65.7446mas G2V ([Fe/H]=-0.22, logg=4.47) (GaiaDR3)
-M_G(G2V) =  4.93 (discrepent) ; HD_98230 = plx=114.4867mas G2V (xi UMa B; in 1" multiple) (GaiaDR3)
-[EEM 8/13/2023: support for M_G(G2V) ~ 4.65. Median M_G ~ 4.63. 
-trends among stans+exemplars+nearest 20 G2Vs:
+M_G(G2V) =    3.94 ; HD 108309 = Gaia DR3 6128366415218881536  G2V plx=37.2211mas (GaiaDR3)
+M_G(G2V) =    4.00 ; HD 76932 = Gaia DR3 5730371484020807808 G2VFe-1.8CH-1 ([Fe/H]=-0.88, logg=4.11) (GaiaDR3)
+M_G(G2V) =    4.27 ; HD 39881 = Gaia DR3 3346787986201584896  G2V plx=36.4474mas (GaiaDR3)
+M_G(G2V) =    4.37 ; HD 179958 = Gaia DR3 2132788541955849984 G2V ([Fe/H]=+0.04, logg=4.36) (GaiaDR3)
+M_G(G2V) =    4.37 ; HD 210918 = Gaia DR3 6569895822110445440  G2V ([Fe/H]=-0.10, logg=4.34) (GaiaDR3)
+M_G(G2V) =    4.38 ; HD 44594 = Gaia DR3 5553647083168192512  G2Va plx=38.3524mas (GaiaDR3)
+M_G(G2V) =    4.46 ; HD 207129 = Gaia DR3 6564091190988411520  G2V ([Fe/H]=-0.03, logg=4.41) (GaiaDR3)
+M_G(G2V) =   4.46 ; solar twin HD 167060 = HIP 89650 ([Fe/H]=-0.015) (GaiaDR3)
+M_G(G2V) =    4.50 ; HD 25874 = Gaia DR3 4679878730311238656  G2V ([Fe/H]=+0.01, logg=4.37) (GaiaDR3)
+M_G(G2V) =    4.52 ; HD 45184 = Gaia DR3 2898239468873596800  G2Va ([Fe/H]=+0.06, logg=4.43) (GaiaDR3)
+M_G(G2V) =   4.58 ; sec. stan. HD 146233 = 18 Sco = GJ 616 ([Fe/H]=+0.03, logg=4.43) plx=70.7371mas (GaiaDR3)
+M_G(G2V) =   4.59 ; solar twin HD 9986 plx=39.3118mas G2V ([Fe/H]=+0.09, logg=4.45) (GaiaDR3)
+M_G(G2V) =    4.62 ; HD 190771 = Gaia DR3 2061876742143320064  G2V ([Fe/H]=+0.14, logg=4.44) (GaiaDR3)
+M_G(G2V) = 4.645 ; Mv=4.80, G-V=-0.155 (GaiaDR3) 
+M_G(G2V) =    4.65 ; HD 189567 = Gaia DR3 6427244702486210816  G2V  ([Fe/H]=-0.19, logg=4.42) (GaiaDR3)
+M_G(G2V) =  4.66  ; Sun adopted by Creevey22/GaiaDR3/FLAME
+M_G(G2V) =  4.665 ; Sun (Casagrande21) 
+M_G(G2V) =    4.71 ; HD 199288 = Gaia DR3 6484716209628726912  G2VFe-1.0 ([Fe/H]=-0.65, logg=4.40) (GaiaDR3)
+M_G(G2V) =    4.71 ; HD 107146 = Gaia DR3 3946438125929224320  G2V plx=36.4038mas (GaiaDR3)
+M_G(G2V) =   4.71 ; ter. stan. HD_76151 plx=59.3595mas G2V ([Fe/H]=+0.10, logg=4.49) (GaiaDR3)
+M_G(G2V) =    4.73 ; HD 8262 = Gaia DR3 2786115533677290240  G2V plx=38.3495mas (GaiaDR3)
+M_G(G2V) =   4.74 ; HD 165401 = Gaia DR3 4471087175915086080  G2V ([Fe/H]=-0.40, logg=4.44) (GaiaDR3)
+M_G(G2V) =   4.77 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
+M_G(G2V) =    4.85 ; HD 102365 = Gaia DR3 5381537023379295232  G2V ([Fe/H]=-0.31, logg=4.44) (GaiaDR3)
+M_G(G2V) =    4.86 ; HD 12846 = Gaia DR3 104453918172129792  G2V ([Fe/H]=-0.25, logg=4.40) (GaiaDR3)
+M_G(G2V) =    4.90 ; HD 38858 = Gaia DR3 3023711269067191296  G2V ([Fe/H]=-0.22, logg=4.47) (GaiaDR3)
+M_G(G2V) =    4.93 ; HD 29587 = Gaia DR3 204358907633155840  G2V plx=36.6470mas (GaiaDR3)
+=> adopt M_G(G2V) = 4.645 mag [updated 5/22/2026] (Mv=4.80, G-V=-0.155) (GaiaDR3) 
+[EEM 10/10/2026: trends among stans+exemplars+nearest 20 G2Vs:
 M_G(G2V) = 4.60 - 0.347*[Fe/H] (rms=0.15mag; Creevey22 solar M_G within 0.4sigma of predicted!
 M_G(G2V) = 4.69 + 2.712*(logg-4.44) (rms=0.13mag; Creevey22 solar M_G within 0.23sigma of predicted!]
 
 
-Mv(G2V) =   4.07 mag ; Wegner07 [highly discrepent]
-Mv(G2V) =  4.61 mag ; solar twin HD 167060 = HIP 89650
-Mv(G2V) =  4.61 mag ; solar twin HD 98618 = HIP 55459 ([Fe/H]=+0.05)
-Mv(G2V) =  4.64 mag ; solar twin HD 216008 = HIP 112730 ([Fe/H]=-0.03)
-Mv(G2V) =   4.7  mag ; Schmidt-Kaler82
-Mv(G2V) =   4.7  mag ; GrayCorbally09
-Mv(G2V) =  4.75 mag ; solar twin HD 9986 = HIP 7585 (Gray03) ([Fe/H]=+0.09)
-Mv(G2V) =  4.77 mag ; solar twin HD 88072 = HIP 49756 ([Fe/H]=+0.03)
-Mv(G2V) =  4.78 mag ; median SIMBAD G2V d<25pc (N=21)
-Mv(G2V) =  4.79 mag ; B-V=0.650 => Mv(Wright05)
-Mv(G2V) =  4.79 mag ; median XHIP G2V d<20pc
-Mv(G2V) =  4.80 mag ; solar twin HD 101364 = HIP 56948 ([Fe/H]=+0.02) 
-Mv(G2V) =  4.80 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.65
-Mv(G2V) =  4.81 mag ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.653
-Mv(G2V) =  4.825 mag ; Sun for Mbol=4.74(IAU2015), BCv=-0.085. 
-Mv(G2V) =  4.83 mag ; B-V=0.650 => EEM fit to SIMBAD dwarfs d<25pc
-Mv(G2V) =  4.83 mag ; solar twin HD 138573 = HIP 76114 ([Fe/H]=-0.024)
-Mv(G2V) =  4.84 mag ; solar twin HD 195034 = HIP 100963 ([Fe/H]=-0.003)
-Mv(G2V) =  4.85 mag ; CATSUP -0.1 < [Fe/H] < 0.1 d<30pc for B-V=0.650
-Mv(G2V) =   4.87 mag ; Habets81
-Mv(G2V) =  4.88 mag ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
-Mv(G2V) =  4.89 mag ; solar twin HD 124523 = HIP 69645 ([Fe/H]=-0.022)
-Mv(G2V) =  4.90 mag ; V-Ks=1.56 for EEM poly fit to SIMBAD d<25pc (1/2022) (M_Ks=3.34)
+Mv(G2V) =   4.07 ; Wegner07 [highly discrepent]
+Mv(G2V) =  4.61 ; solar twin HD 167060 = HIP 89650
+Mv(G2V) =  4.61 ; solar twin HD 98618 = HIP 55459 ([Fe/H]=+0.05)
+Mv(G2V) =  4.64 ; solar twin HD 216008 = HIP 112730 ([Fe/H]=-0.03)
+Mv(G2V) =   4.7  ; Schmidt-Kaler82
+Mv(G2V) =   4.7  ; GrayCorbally09
+Mv(G2V) =  4.75 ; solar twin HD 9986 = HIP 7585 (Gray03) ([Fe/H]=+0.09)
+Mv(G2V) =  4.77 ; solar twin HD 88072 = HIP 49756 ([Fe/H]=+0.03)
+Mv(G2V) =  4.78 ; median SIMBAD G2V d<25pc (N=21)
+Mv(G2V) =  4.79 ; B-V=0.650 => Mv(Wright05)
+Mv(G2V) =  4.79 ; median XHIP G2V d<20pc
+Mv(G2V) =  4.80 ; solar twin HD 101364 = HIP 56948 ([Fe/H]=+0.02) 
+Mv(G2V) =  4.80 ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.65
+Mv(G2V) =  4.81 ; Gray01/03/06 dwarfs, xHIP B-V/Mv, Gaspar16 |[Fe/H]|<0.05 "solar": fit for B-V=0.653
+Mv(G2V) =  4.825 ; Sun for Mbol=4.74(IAU2015), for adopted BCv=-0.085 for G2Vs
+Mv(G2V) =  4.83 ; B-V=0.650 => EEM fit to SIMBAD dwarfs d<25pc
+Mv(G2V) =  4.83 ; solar twin HD 138573 = HIP 76114 ([Fe/H]=-0.024)
+Mv(G2V) =  4.84 ; solar twin HD 195034 = HIP 100963 ([Fe/H]=-0.003)
+Mv(G2V) =  4.85 ; CATSUP -0.1 < [Fe/H] < 0.1 d<30pc for B-V=0.650
+Mv(G2V) =   4.87 ; Habets81
+Mv(G2V) =  4.88 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
+Mv(G2V) =  4.89 ; solar twin HD 124523 = HIP 69645 ([Fe/H]=-0.022)
+Mv(G2V) =  4.90 ; V-Ks=1.56 for EEM poly fit to SIMBAD d<25pc (1/2022) (M_Ks=3.34)
 => adopt Mv(G2V)   = 4.80  mag [updated 9/26/2020]
-=> adopt M_G(G2V)  = 4.645 mag [updated 5/22/2026] (Mv=4.80, G-V=-0.155) (GaiaDR3) 
 => adopt M_J(G2V)  = 3.615 mag [updated 5/22/2026] (Mv=4.80, V-Ks=1.54, J-Ks=0.355)
 => adopt M_Ks(G2V) = 3.26  mag [updated 5/22/2026] (Mv=4.80, V-Ks=1.54)
 
-M_J(G2V) =  3.69 mag ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
+M_J(G2V) =  3.69 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
 
-M_Ks(G2V) = 3.37 mag ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
+M_Ks(G2V) = 3.37 ; solar twin HD 139777 = pi01 UMi A ([Fe/H]=+0.01,logg=4.44)
 
 
 logL(G2V) = 0.010 dex ; Mv=4.80, BCv=-0.085 => Mbol = 4.715

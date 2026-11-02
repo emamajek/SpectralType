@@ -96,20 +96,14 @@ Skiff08 flags two stars as G3V standards, all from Keenan89: HD 186427
 [EEM 4/1/2024: trend for 2 standard+3 exemplars+Gray03/06 sample median
 (assuming mean field [Fe/H]=-0.04:  (B-V)(G3V) = 0.661 - 0.0467*[Fe/H] (rms=0.0099mag)]
 
-=> adopt (V-J)(G3V)  = 1.216
-=> adopt (V-H)(G3V)  = 1.514
-=> adopt (V-Ks)(G3V) = 1.588
-=> adopt (H-Ks)(G3V) = 0.074
-=> adopt (J-H)(G3V)  = 0.299
-
 (U-B)(G3V) =   0.114 ; HIP d<75pc S/N>8 G3V N=60 (Mermilliod91 photometry)
-(U-B)(G3V) =  0.136 ; HD 42618 = HIP 29432 (Koen10) ~solar
+(U-B)(G3V) =   0.136 ; HD 42618 = HIP 29432 (Koen10) ~solar
 (U-B)(G3V) =  0.170 ; B-V vs. U-B trend for (-0.1<[Fe/H]<0.1; Soubiran22) d<50pc dwarfs for B-V=0.66
-(U-B)(G3V) =  0.203 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07)
-(U-B)(G3V) =  0.210 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-(U-B)(G3V) =  0.264 ; var. stan. 20 LMi = HD 86728 ([Fe/H]=+0.20, logg=4.30)
-(U-B)(G3V) =  0.286 ; exemplar HD 1461 = GJ 9009 = HIP 1499 ([Fe/H]=+0.19) (red compared to Hyad G3V HD 26736?)
-=> adopt (U-B)(G3V) = 0.170 [updated 12/1/2023]
+(U-B)(G3V) =   0.203 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07)
+(U-B)(G3V) =   0.210 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+(U-B)(G3V) =   0.264 ; var. stan. 20 LMi = HD 86728 ([Fe/H]=+0.20, logg=4.30)
+(U-B)(G3V) =   0.286 ; exemplar HD 1461 = GJ 9009 = HIP 1499 ([Fe/H]=+0.19) (red compared to Hyad G3V HD 26736?)
+=> adopt (U-B)(G3V) = 0.17 [updated 12/1/2023]
 
 (V-Rj)(G3V) = 0.533 ; Johnson66 interp G2V-G5V
 => adopt (V-Rj)(G3V) = 0.533 [updated 6/15/2025] 
@@ -118,8 +112,9 @@ Skiff08 flags two stars as G3V standards, all from Keenan89: HD 186427
 (V-Rc)(G3V) =  0.359 ; var. stan. 20 LMi = HD 86728 ([Fe/H]=+0.20, logg=4.30)
 (V-Rc)(G3V) =  0.361 ; HD 42618 = HIP 29432 (Koen10) ~solar
 (V-Rc)(G3V) =  0.365 ; Johnson66 (V-Ij)=0.533 => (V-Ic) via Fernie83
+(V-Rc)(G3V) = 0.365 ; trend B-V vs V-Rc for B-V=0.66
 (V-Rc)(G3V) =  0.366 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07)
-(V-Rc)(G3V) =  0.365 ; trend B-V vs V-Rc for B-V=0.66
+(V-Rc)(G3V) =  0.367 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08)  
 (V-Rc)(G3V) =  0.371 ; exemplar HD 1461 = GJ 9009 = HIP 1499 ([Fe/H]=+0.19)
 => adopt (V-Rc)(G3V) = 0.365 [updated 3/22/2026] (V-Ic=0.70, R-Ic=0.34)
 
@@ -128,7 +123,8 @@ Skiff08 flags two stars as G3V standards, all from Keenan89: HD 186427
 (R-Ic)(G3V) =  0.335 ; exemplar HD 1461 = GJ 9009 = HIP 1499 ([Fe/H]=+0.19)
 (R-Ic)(G3V) =  0.336 ; var. stan. 20 LMi = HD 86728 ([Fe/H]=+0.20, logg=4.30)
 (R-Ic)(G3V) =  0.347 ; B-V vs R-Ic trend for B-V=0.66
-=> adopt (R-Ic)(G3V) = 0.34 [updated 5/8/2024; V-Rc=0.36, V-Ic=0.70]
+(R-Ic)(G3V) =  0.367 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08)
+=> adopt (R-Ic)(G3V) = 0.34 [updated 5/8/2024] (V-Rc=0.36, V-Ic=0.70)
 
 (V-Ij)(G3V) = 0.87 ; Johnson66 interp G2V-G5V
 => adopt (V-Ij)(G3V) = 0.87 [updated 6/15/2025] 
@@ -138,7 +134,7 @@ Skiff08 flags two stars as G3V standards, all from Keenan89: HD 186427
 (V-Ic)(G3V) =  0.696 ; HD 42618 = HIP 29432 (Koen10) ~solar
 (V-Ic)(G3V) =  0.691 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
 (V-Ic)(G3V) =  0.695 ; var. stan. 20 LMi = HD 86728 ([Fe/H]=+0.20, logg=4.30)
-(V-Ic)(G3V) =  0.700 ; fit to GCPD/Cousins BVIc for SIMBAD dwarfs d<50pc Soubiran22 [Fe/H] within +-0.1dex of solar for B-V=0.66
+(V-Ic)(G3V) =  0.700 ; fit GCPD/Cousins BVIc for SIMBAD Vs d<50pc Soubiran22 [Fe/H] w/i +-0.1dex of solar for B-V=0.66
 (V-Ic)(G3V) =  0.705 ; fit to Koen10 d<25pc B-V vs. V-Ic for -0.1<[Fe/H]<0.1 dwarfs in Soubiran22 for B-V=0.660
 (V-Ic)(G3V) =  0.706 ; exemplar HD 1461 = GJ 9009 = HIP 1499 ([Fe/H]=+0.19)
 (V-Ic)(G3V) =  0.724 ; Gray01/03/06 17 G3Vs (+-0.007 sem, +-0.020 stdev)
@@ -202,10 +198,31 @@ Skiff08 flags two stars as G3V standards, all from Keenan89: HD 186427
 (Bp-Rp)(G3V) = 0.879  ; Evans18 trend for V-I=0.721 (Gaia DR2)
 => adopt (Bp-Rp)(G3V) = 0.83 [updated 11/15/2020] (GaiaDR2)
 
-(Bp-Rp)(G3V) =  0.8129 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-(Bp-Rp)(G3V) =  0.8262 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07) (GaiaDR3)
-(Bp-Rp)(G3V) =  0.8332 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-=> adopt (Bp-Rp)(G3V) = 0.826 [updated 3/22/2026] (Bp-G=0.326, G-Rp=0.500)(GaiaDR3)
+(Bp-Rp)(G3V) =    0.771 ; HD 193664 = Gaia DR3 2246581329639103872  G3V plx=57.2041mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.785 ; HD 62850 = Gaia DR3 5292834403845151488  G3V plx=30.4356mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.802 ; HD 155114 = Gaia DR3 5951458533405131264  G3V plx=30.8289mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.806 ; HD 183658 = Gaia DR3 4208110932591708672  G3V plx=29.9599mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.807 ; HD 59967 = Gaia DR3 5586381090520538880  G3V plx=45.9738mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.808 ; HD 11131 = Gaia DR3 2461045711199481472  G3V plx=41.8mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.809 ; HD 4391 = Gaia DR3 4975284381908412672  G3V plx=66.4509mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.811 ; HD 145825 = Gaia DR3 6035927380304634240  G3V plx=44.7674mas (GaiaDR3)
+(Bp-Rp)(G3V) =   0.813 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+(Bp-Rp)(G3V) =    0.821 ; HD 202108 = Gaia DR3 1852732141404704512  G3V plx=36.816mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.822 ; HD 19467 = Gaia DR3 5155981730587168384  G3V plx=31.2191mas (GaiaDR3)
+(Bp-Rp)(G3V) =   0.826 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07) (GaiaDR3)
+(Bp-Rp)(G3V) =    0.827 ; HD 150248 = Gaia DR3 5943191236735787520  G3V+? plx=35.958mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.828 ; HD 179957 = Gaia DR3 2132788541955849216  G3V plx=39.5784mas (GaiaDR3)
+(Bp-Rp)(G3V) =   0.833 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
+(Bp-Rp)(G3V) =    0.834 ; HD 30003A = Gaia DR3 4774152506544171136  G3V plx=32.4156mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.839 ; HD 149813 = Gaia DR3 5931156532274485376  G3V plx=31.8364mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.840 ; HD 30003B = Gaia DR3 4774152506544281216  G3V plx=32.4332mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.841 ; HD 86728 = Gaia DR3 746545172372256384  G3VaHdel1 plx=66.9958mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.842 ; HD 134066B = Gaia DR3 1167718049194619136  G3V plx=30.4069mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.845 ; HD 157347 = Gaia DR3 4367026303085396352  G3V plx=50.9694mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.853 ; HD 64184 = Gaia DR3 5294105439288288256  G3V plx=29.9406mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.869 ; HD 10697 = Gaia DR3 95652018353917056  G3Va plx=30.1535mas (GaiaDR3)
+(Bp-Rp)(G3V) =    0.871 ; HD 114613 = Gaia DR3 6141742283401003264  G3V plx=48.8691mas (GaiaDR3)
+=> adopt (Bp-Rp)(G3V) = 0.826 [updated 3/22/2026] (Bp-G=0.326, G-Rp=0.500) (GaiaDR3)
 
 (G-T)(G3V) = 0.435 ; calculated (G_GaiaDR2 - T_TESS) via Stassun19 for (Bp-Rp)=0.83
 => (G-T)(G3V) = 0.435 [updated 10/8/2023] (GaiaDR2) 
@@ -217,9 +234,31 @@ Skiff08 flags two stars as G3V standards, all from Keenan89: HD 186427
 (Bp-G)(G3V) = 0.369  ; color trend for B-V=0.66 (GaiaDR2)
 => adopt (Bp-G)(G3V) = 0.36 [updated 11/15/2020] (GaiaDR2)
 
-(Bp-G)(G3V) =  0.3210 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-(Bp-G)(G3V) =  0.3273 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07) (GaiaDR3)
-(Bp-G)(G3V) =  0.3306 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
+(Bp-G)(G3V) =    0.298 ; HD 193664 = Gaia DR3 2246581329639103872  G3V plx=57.2041mas (GaiaDR3)
+(Bp-G)(G3V) =    0.309 ; HD 62850 = Gaia DR3 5292834403845151488  G3V plx=30.4356mas (GaiaDR3)
+(Bp-G)(G3V) =    0.311 ; HD 4391 = Gaia DR3 4975284381908412672  G3V plx=66.4509mas (GaiaDR3)
+(Bp-G)(G3V) =    0.314 ; HD 155114 = Gaia DR3 5951458533405131264  G3V plx=30.8289mas (GaiaDR3)
+(Bp-G)(G3V) =    0.316 ; HD 11131 = Gaia DR3 2461045711199481472  G3V plx=41.8mas (GaiaDR3)
+(Bp-G)(G3V) =    0.316 ; HD 59967 = Gaia DR3 5586381090520538880  G3V plx=45.9738mas (GaiaDR3)
+(Bp-G)(G3V) =    0.317 ; HD 183658 = Gaia DR3 4208110932591708672  G3V plx=29.9599mas (GaiaDR3)
+(Bp-G)(G3V) =    0.317 ; HD 145825 = Gaia DR3 6035927380304634240  G3V plx=44.7674mas (GaiaDR3)
+(Bp-G)(G3V) =   0.321 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+(Bp-G)(G3V) =    0.322 ; HD 202108 = Gaia DR3 1852732141404704512  G3V plx=36.816mas (GaiaDR3)
+(Bp-G)(G3V) =    0.326 ; HD 19467 = Gaia DR3 5155981730587168384  G3V plx=31.2191mas (GaiaDR3)
+(Bp-G)(G3V) =    0.326 ; HD 150248 = Gaia DR3 5943191236735787520  G3V+? plx=35.958mas (GaiaDR3)
+(Bp-G)(G3V) =    0.327 ; HD 179957 = Gaia DR3 2132788541955849216  G3V plx=39.5784mas (GaiaDR3)
+(Bp-G)(G3V) =   0.327 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07) (GaiaDR3)
+(Bp-G)(G3V) =    0.328 ; HD 30003B = Gaia DR3 4774152506544281216  G3V plx=32.4332mas (GaiaDR3)
+(Bp-G)(G3V) =    0.328 ; HD 30003A = Gaia DR3 4774152506544171136  G3V plx=32.4156mas (GaiaDR3)
+(Bp-G)(G3V) =    0.331 ; HD 1461 = Gaia DR3 2430102808294101760  G3VFe0.5 plx=42.7308mas (GaiaDR3)
+(Bp-G)(G3V) =   0.331 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
+(Bp-G)(G3V) =    0.331 ; HD 134066B = Gaia DR3 1167718049194619136  G3V plx=30.4069mas (GaiaDR3)
+(Bp-G)(G3V) =    0.332 ; HD 149813 = Gaia DR3 5931156532274485376  G3V plx=31.8364mas (GaiaDR3)
+(Bp-G)(G3V) =    0.334 ; HD 157347 = Gaia DR3 4367026303085396352  G3V plx=50.9694mas (GaiaDR3)
+(Bp-G)(G3V) =    0.339 ; HD 64184 = Gaia DR3 5294105439288288256  G3V plx=29.9406mas (GaiaDR3)
+(Bp-G)(G3V) =    0.340 ; HD 86728 = Gaia DR3 746545172372256384  G3VaHdel1 plx=66.9958mas (GaiaDR3)
+(Bp-G)(G3V) =    0.348 ; HD 10697 = Gaia DR3 95652018353917056  G3Va plx=30.1535mas (GaiaDR3)
+(Bp-G)(G3V) =    0.362 ; HD 114613 = Gaia DR3 6141742283401003264  G3V plx=48.8691mas (GaiaDR3)
 => adopt (Bp-G)(G3V) = 0.326 [updated 3/22/2026] (Bp-Rp=0.826, G-Rp=0.500) (GaiaDR3)
 
 (G-Rp)(G3V) =  0.464 ; color rend for B-V=0.66 (GaiaDR2)
@@ -229,10 +268,32 @@ Skiff08 flags two stars as G3V standards, all from Keenan89: HD 186427
 (G-Rp)(G3V) = 0.4753 ; HD_150248 (GaiaDR2)
 => adopt (G-Rp)(G3V) = 0.47 [updated 11/15/2020] (GaiaDR2)
 
-(G-Rp)(G3V) =  0.4919 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-(G-Rp)(G3V) =  0.4989 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07) (GaiaDR3)
-(G-Rp)(G3V) =  0.5205 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-=> adopt (G-Rp)(G3V) = 0.50 [updated 3/22/2026] (Bp-G=0.326, Bp-Rp=0.826) (GaiaDR3)
+(G-Rp)(G3V) =    0.474 ; HD 193664 = Gaia DR3 2246581329639103872  G3V plx=57.2041mas (GaiaDR3)
+(G-Rp)(G3V) =    0.476 ; HD 62850 = Gaia DR3 5292834403845151488  G3V plx=30.4356mas (GaiaDR3)
+(G-Rp)(G3V) =    0.488 ; HD 155114 = Gaia DR3 5951458533405131264  G3V plx=30.8289mas (GaiaDR3)
+(G-Rp)(G3V) =    0.489 ; HD 183658 = Gaia DR3 4208110932591708672  G3V plx=29.9599mas (GaiaDR3)
+(G-Rp)(G3V) =    0.490 ; HD 59967 = Gaia DR3 5586381090520538880  G3V plx=45.9738mas (GaiaDR3)
+(G-Rp)(G3V) =   0.492 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+(G-Rp)(G3V) =    0.493 ; HD 11131 = Gaia DR3 2461045711199481472  G3V plx=41.8mas (GaiaDR3)
+(G-Rp)(G3V) =    0.494 ; HD 145825 = Gaia DR3 6035927380304634240  G3V plx=44.7674mas (GaiaDR3)
+(G-Rp)(G3V) =    0.496 ; HD 19467 = Gaia DR3 5155981730587168384  G3V plx=31.2191mas (GaiaDR3)
+(G-Rp)(G3V) =    0.497 ; HD 4391 = Gaia DR3 4975284381908412672  G3V plx=66.4509mas (GaiaDR3)
+(G-Rp)(G3V) =    0.499 ; HD 202108 = Gaia DR3 1852732141404704512  G3V plx=36.816mas (GaiaDR3)
+(G-Rp)(G3V) =   0.499 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07) (GaiaDR3)
+(G-Rp)(G3V) =    0.501 ; HD 150248 = Gaia DR3 5943191236735787520  G3V+? plx=35.958mas (GaiaDR3)
+(G-Rp)(G3V) =    0.501 ; HD 86728 = Gaia DR3 746545172372256384  G3VaHdel1 plx=66.9958mas (GaiaDR3)
+(G-Rp)(G3V) =   0.501 ; trend for nearest Gray03/06 F9V-K0V *s (rms=0.012mag) (10/29/2026) (GaiaDR3)
+(G-Rp)(G3V) =    0.502 ; HD 179957 = Gaia DR3 2132788541955849216  G3V plx=39.5784mas (GaiaDR3)
+(G-Rp)(G3V) =   0.503 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
+(G-Rp)(G3V) =    0.505 ; HD 30003A = Gaia DR3 4774152506544171136  G3V plx=32.4156mas (GaiaDR3)
+(G-Rp)(G3V) =    0.507 ; HD 149813 = Gaia DR3 5931156532274485376  G3V plx=31.8364mas (GaiaDR3)
+(G-Rp)(G3V) =    0.510 ; HD 114613 = Gaia DR3 6141742283401003264  G3V plx=48.8691mas (GaiaDR3)
+(G-Rp)(G3V) =    0.511 ; HD 134066B = Gaia DR3 1167718049194619136  G3V plx=30.4069mas (GaiaDR3)
+(G-Rp)(G3V) =    0.511 ; HD 157347 = Gaia DR3 4367026303085396352  G3V plx=50.9694mas (GaiaDR3)
+(G-Rp)(G3V) =    0.512 ; HD 30003B = Gaia DR3 4774152506544281216  G3V plx=32.4332mas (GaiaDR3)
+(G-Rp)(G3V) =    0.514 ; HD 64184 = Gaia DR3 5294105439288288256  G3V plx=29.9406mas (GaiaDR3)
+(G-Rp)(G3V) =    0.521 ; HD 10697 = Gaia DR3 95652018353917056  G3Va plx=30.1535mas (GaiaDR3)
+=> adopt (G-Rp)(G3V) = 0.50 [updated 10/29/2026] (Bp-G=, Bp-Rp=) (GaiaDR3)
 
 (G-V)(G3V) =  -0.188 ; HD 114613 PM* G3V (GaiaDR2)
 (G-V)(G2V) = -0.167  ; adopted for G2V based on solar twins (GaiaDR2)
@@ -253,7 +314,7 @@ Skiff08 flags two stars as G3V standards, all from Keenan89: HD 186427
 (G-V)(G3V) =  -0.160 ; HD_202108_ G3V plx=36.816 mas (GaiaDR3)
 (G-V)(G3V) = -0.1581 +-0.0202 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
 (G-V)(G3V) =  -0.156 ; HD_157347_ G3V plx=50.9694 mas (GaiaDR3)
-(G-V)(G3V) = -0.155 ; trend for SIMBAD FGK dwarfs d<50pc w/Soubiran22 Teffs for Teff=5720K (GaiaDR3 Gmags,SIMBAD Vmags) (GaiaDR2)
+(G-V)(G3V) = -0.155 ; trend for SIMBAD FGK Vs d<50pc w/Soubiran22 Teffs for 5720K (GaiaDR3 Gmags,SIMBAD Vmags)
 (G-V)(G3V) =  -0.152 ; HD_1461_ G3VFe0.5 plx=42.7308 mas (GaiaDR3)
 (G-V)(G3V) =  -0.148 ; HD_4391_ G3V plx=66.4509 mas (GaiaDR3)
 (G-V)(G3V) = -0.1467 +-0.0075 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
@@ -329,26 +390,31 @@ BCv(G3V) = -0.097 mag ; Bertone04(Teff=5720K)
 BCv(G3V) = -0.099 mag ; Balona94(Teff=5720K)
 => adopt BCv(G3V) = -0.095 [last updated 9/20/2019, on scale where BCv(5772K)=-0.085]
 
-M_G(G3V) =    3.11 ; HD_114613_ plx=48.8691mas G3V  (GaiaDR3)
-M_G(G3V) =   4.34 ; HD_86728_ plx=66.9958mas G3VaHdel1  (GaiaDR3)
-M_G(G3V) =  4.45 ; pri. stan. HD_186427_ plx=47.3302mas G3V  (GaiaDR3)
-M_G(G3V) =  4.46 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-M_G(G3V) =   4.53 ; HD_179957_ plx=39.5784mas G3V  (GaiaDR3)
-M_G(G3V) =   4.56 ; HD_193664_ plx=57.2041mas G3V  (GaiaDR3)
-M_G(G3V) =   4.58 ; HD_30003A_ plx=32.4156mas G3V  (GaiaDR3)
-M_G(G3V) =  4.61 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-M_G(G3V) =   4.63 ; HD_123A_ plx=48.1027mas G3V  (GaiaDR3)
-M_G(G3V) =  4.65 ; exemplar HD_150248_ plx=35.958mas G3V+?  (GaiaDR3)
-M_G(G3V) =   4.65 ; HD_145825_ plx=44.7674mas G3V  (GaiaDR3)
-M_G(G3V) =   4.66 ; HD_157347_ plx=50.9694mas G3V  (GaiaDR3)
-M_G(G3V) =   4.70 ; HD_11131_ plx=41.8mas G3V  (GaiaDR3)
-M_G(G3V) =   4.73 ; HD_24409_ plx=46.0070mas G3V  (GaiaDR3)
-M_G(G3V) =   4.76 ; HD_4391_ plx=66.4509mas G3V  (GaiaDR3)
-M_G(G3V) =   4.79 ; HD_30003B_ plx=32.4332mas G3V  (GaiaDR3)
-M_G(G3V) =   4.82 ; HD_59967_ plx=45.9738mas G3V  (GaiaDR3)
-M_G(G3V) =   4.95 ; HD_68017_ plx=46.3415mas G3V  (GaiaDR3)
-M_G(G3V) =   4.98 ; HD_149813_ plx=31.8364mas G3V  (GaiaDR3)
-M_G(G3V) =   5.00 ; HD_202108_ plx=36.816mas G3V  (GaiaDR3)
+M_G(G3V) =    3.11 ; HD 114613 = Gaia DR3 6141742283401003264  G3V plx=48.8691mas (GaiaDR3)
+M_G(G3V) =    3.51 ; HD 10697 = Gaia DR3 95652018353917056  G3Va plx=30.1535mas (GaiaDR3)
+M_G(G3V) =    4.29 ; HD 19467 = Gaia DR3 5155981730587168384  G3V plx=31.2191mas (GaiaDR3)
+M_G(G3V) =    4.34 ; HD 86728 = Gaia DR3 746545172372256384  G3VaHdel1 plx=66.9958mas (GaiaDR3)
+M_G(G3V) =   4.45 ; pri. stan. HD 186427 plx=47.3302mas G3V ([Fe/H]=+0.07) (GaiaDR3)
+M_G(G3V) =    4.46 ; HD 62850 = Gaia DR3 5292834403845151488  G3V plx=30.4356mas (GaiaDR3)
+M_G(G3V) =   4.46 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
+M_G(G3V) =    4.50 ; HD 183658 = Gaia DR3 4208110932591708672  G3V plx=29.9599mas (GaiaDR3)
+M_G(G3V) =    4.53 ; HD 179957 = Gaia DR3 2132788541955849216  G3V plx=39.5784mas (GaiaDR3)
+M_G(G3V) =    4.56 ; HD 193664 = Gaia DR3 2246581329639103872  G3V plx=57.2041mas (GaiaDR3)
+M_G(G3V) =    4.58 ; HD 30003A = Gaia DR3 4774152506544171136  G3V plx=32.4156mas (GaiaDR3)
+M_G(G3V) =   4.61 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+M_G(G3V) =   4.65 ; exemplar HD 150248 plx=35.958mas G3V+? ([Fe/H]=-0.08) (GaiaDR3)
+M_G(G3V) =    4.65 ; HD 145825 = Gaia DR3 6035927380304634240  G3V plx=44.7674mas (GaiaDR3)
+M_G(G3V) =    4.66 ; HD 157347 = Gaia DR3 4367026303085396352  G3V plx=50.9694mas (GaiaDR3)
+M_G(G3V) =    4.70 ; HD 11131 = Gaia DR3 2461045711199481472  G3V plx=41.8mas (GaiaDR3)
+M_G(G3V) =    4.71 ; HD 64184 = Gaia DR3 5294105439288288256  G3V plx=29.9406mas (GaiaDR3)
+M_G(G3V) =    4.76 ; HD 4391 = Gaia DR3 4975284381908412672  G3V plx=66.4509mas (GaiaDR3)
+M_G(G3V) =    4.79 ; HD 30003B = Gaia DR3 4774152506544281216  G3V plx=32.4332mas (GaiaDR3)
+M_G(G3V) =    4.79 ; HD 134066B = Gaia DR3 1167718049194619136  G3V plx=30.4069mas (GaiaDR3)
+M_G(G3V) =    4.82 ; HD 59967 = Gaia DR3 5586381090520538880  G3V plx=45.9738mas (GaiaDR3)
+M_G(G3V) =    4.82 ; HD 155114 = Gaia DR3 5951458533405131264  G3V plx=30.8289mas (GaiaDR3)
+M_G(G3V) =    4.98 ; HD 149813 = Gaia DR3 5931156532274485376  G3V plx=31.8364mas (GaiaDR3)
+M_G(G3V) =    5.00 ; HD 202108 = Gaia DR3 1852732141404704512  G3V plx=36.816mas (GaiaDR3)
+=> adopt M_G(G3V) = 4.703 mag [updated 12/10/2020] (Mv=4.87, G-V=-0.167)
 
 Mv(G3V) =  4.98 mag ; V-Ks=1.59 for EEM poly fit to SIMBAD d<25pc (1/2022) (M_Ks=3.39)
 Mv(G3V) =   4.9 mag ; GrayCorbally09
@@ -365,7 +431,6 @@ Mv(G3V) =  4.61 mag ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07) (GaiaDR3)
 Mv(G3V) =  4.61 mag ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
 Mv(G3V) =   4.22 mag ; Wegner07
 => adopt Mv(G3V)   = 4.87  mag [updated 9/26/2020]
-=> adopt M_G(G3V)  = 4.703 mag [updated 12/10/2020] (Mv=4.87, G-V=-0.167)
 => adopt M_Ks(G3V) = 3.282 mag [updated 12/30/2020] (Mv=4.87, V-Ks=1.588)
 
 M_J(G3V) =  3.416 +-0.038 ; pri. stan. HD 186427 = 16 Cyg B ([Fe/H]=+0.07)
@@ -527,27 +592,27 @@ HD 26736 = Cl Melotte 25 15 = HIP 19793 = V1310 Tau
   slightly metal-rich version of Sun (i.e. statistically similar Teff,
   log(g).
 
-        G =  7.8969+-0.0028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-  (Bp-Rp) =  0.8129 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-   (Bp-G) =  0.3210 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-   (G-Rp) =  0.4919 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-    (G-V) = -0.1581+-0.0202 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-       Mv =   4.767+-0.020 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-      M_G =  4.6084+-0.0036 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
-     M_Ks =   3.228+-0.020 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) 
-   (V-Ks) =   1.539+-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) 
-   (G-Ks) =   1.381+-0.020 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3,2MASS)
-    (V-J) =   1.178+-0.033 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-    (V-H) =   1.456+-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-    (J-H) =   0.278+-0.033 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-   (H-Ks) =   0.083+-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-   (V-Rc) =   0.364+-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-   (R-Ic) =   0.335+-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-   (V-Ic) =   0.699+-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-  (Ks-W1) =   0.006+-0.044 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-  (W1-W2) =  -0.007+-0.044 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-  (W1-W3) =  -0.022+-0.042 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
-  (W1-W4) =   0.331+-0.063 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+        G =  7.8969 +-0.0028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+  (Bp-Rp)(G3V) =  0.8129 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+   (Bp-G)(G3V) =  0.3210 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+   (G-Rp)(G3V) =  0.4919 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+    (G-V)(G3V) = -0.1581 +-0.0202 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+       Mv(G3V) =   4.767 +-0.020 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+      M_G(G3V) =  4.6084 +-0.0036 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3)
+     M_Ks(G3V) =   3.228 +-0.020 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) 
+   (V-Ks)(G3V) =   1.539 +-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) 
+   (G-Ks)(G3V) =   1.381 +-0.020 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17) (GaiaDR3,2MASS)
+    (V-J)(G3V) =   1.178 +-0.033 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+    (V-H)(G3V) =   1.456 +-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+    (J-H)(G3V) =   0.278 +-0.033 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+   (H-Ks)(G3V) =   0.083 +-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+   (V-Rc)(G3V) =   0.364 +-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+   (R-Ic)(G3V) =   0.335 +-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+   (V-Ic)(G3V) =   0.699 +-0.028 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+  (Ks-W1)(G3V) =   0.006 +-0.044 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+  (W1-W2)(G3V) =  -0.007 +-0.044 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+  (W1-W3)(G3V) =  -0.022 +-0.042 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
+  (W1-W4)(G3V) =   0.331 +-0.063 ; ter. stan. HD 26736 (Hyad; [Fe/H]=+0.17)
 
 # Variant Standards
 
@@ -621,26 +686,57 @@ HD 86728 = 20 LMi = GJ 376A = GJ 376 = HIP 49081 = HR 3951 = 2MASS J10010072+315
 
 # Exemplars
 
-HD 150248 = HIP 81746
+HD 150248 = HIP 81746 = 2MASS J16414979-4522075	= Gaia DR3 5943191236735787520
  *G3V: Eggen57, Houk78, Gray06
 
   All three classifications in Skiff MK compendium are G3V.
-  V=7.03(HIP), B-V=0.653+-0.000(HIP), V-Ic=0.72+-0.00(HIP),
-  J=5.853+-0.020(2MASS), H=5.532+-0.021(2MASS),
-  Ks=5.445+-0.016(2MASS), V-Ks = 1.585(HIP,2MASS),
-  Mv=4.90. Soubiran22/PASTEL mean parameters: Teff=5722+-19K(N=8),
-  logg=4.41+-0.04(N=6), [Fe/H]=-0.08+-0.02(N=6).
+  V=7.027+-0.005(Mermilliod91/Nobs>8), V=7.03(HIP/TYC),
+  B-V=0.653+-0.000(HIP), B-V=0.653+-0.019(Mermlliod91/Nobs>8),
+  B-V=0.661+-0.010(TYC), U-B=0.170(Mermilliod91/Nobs=4),
+  Rc=6.659930(GaiaDR3/synth), Ic=6.292946(GaiaDR3/synth),
+  V-Ic=0.72+-0.00(HIP), J=5.853+-0.020(2MASS), H=5.532+-0.021(2MASS),
+  Ks=5.445+-0.016(2MASS), V-Ks = 1.585(HIP,2MASS), Mv=4.90.
+  Soubiran22/PASTEL mean parameters: Teff=5722+-19K(N=8),
+  logg=4.41+-0.04(N=6),
+  [Fe/H]=-0.08+-0.02(N=6). [Fe/H]=-0.09+-0.03(Gaspar16/5refs).
+  GaiaDR3: plx=35.9580+-0.0501mas(GaiaDR3),
+  G=6.867769+-0.002761(GaiaDR3), Bp-Rp=0.826816(GaiaDR3),
+  Bp-G=0.326208(GaiaDR3), G-Rp=0.500608(GaiaDR3).
 
-   (B-V)(G3V) = 0.653 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
-  (V-Ic)(G3V) = 0.72  ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08)
-      Mv(G3V) = 4.90 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
+       G =  6.8678+-0.0028 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (GaiaDR3)
+  (V-Rc)(G3V) =   0.367 +- 0.011 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08)  
+  (R-Ic)(G3V) =   0.367 +- 0.014 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08)  
+  (V-Ic)(G3V) =   0.734 +- 0.011 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08)  
+ (Bp-Rp)(G3V) =  0.8268 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (GaiaDR3)
+  (Bp-G)(G3V) =  0.3262 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (GaiaDR3)
+  (G-Rp)(G3V) =  0.5006 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (GaiaDR3)
+   (G-V)(G3V) =  -0.159 +- 0.006 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (GaiaDR3)
+   (G-J)(G3V) =   1.015 +- 0.020 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (DR3,2M)
+  (V-Ks)(G3V) =   1.582 +- 0.017 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
+  (G-Ks)(G3V) =   1.423 +- 0.016 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (DR3,2M)
+   (V-J)(G3V) =   1.174 +- 0.021 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
+   (V-H)(G3V) =   1.495 +- 0.022 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
+   (J-H)(G3V) =   0.321 +- 0.029 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
+  (H-Ks)(G3V) =   0.087 +- 0.026 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
+  (J-Ks)(G3V) =   0.408 +- 0.026 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
+      Mv(G3V) =   4.806 +- 0.006 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (GaiaDR3)
+     M_G(G3V) =   4.647 +- 0.004 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (GaiaDR3)
+     M_J(G3V) =   3.632 +- 0.020 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
+    M_Ks(G3V) =   3.224 +- 0.016 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) 
+ (Ks-W1)(G3V) =   0.029 +- 0.054 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (2M-WISE)
+ (Ks-W2)(G3V) =   0.238 +- 0.035 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (2M-WISE)
+ (W1-W2)(G3V) =   0.209 +- 0.061 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (WISE)
+ (W1-W3)(G3V) =   0.038 +- 0.055 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (WISE)
+ (W1-W4)(G3V) =   0.374 +- 0.088 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08) (WISE)
+    (B-V)(G3V) =   0.653 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08)  
+    (U-B)(G3V) =   0.170 ; exemplar HD 150248 = HIP 81746 ([Fe/H]=-0.08)  
   
 
 HD 1461 = GJ 9009 = GJ 16.1 = HIP 1499 = HR 72 = BD-08_38 = SAO 128690 = 2MASS J00184182-0803105
   G0V: Malaroda75,Hoffleit91/BSC
   G2IV: Harlan81
- *G3V Fe 0.5: Keenan89(non-stan),Keenan99(non-stan)
   G3V: Cowley79,Gray03
+ *G3V Fe 0.5: Keenan89(non-stan),Keenan99(non-stan)
   G4: Bidelman85
   G5IV/V: Evans66
 
@@ -672,29 +768,29 @@ HD 1461 = GJ 9009 = GJ 16.1 = HIP 1499 = HR 72 = BD-08_38 = SAO 128690 = 2MASS J
   plx=42.7308+-0.0299mas(GaiaDR3), G=6.307263+-0.002767(GaiaDR3),
   Bp-Rp=0.833177, Bp-G=0.330634, G-Rp=0.502543(GaiaDR3).
 
-        G =  6.3073 +-0.0028 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-  (Bp-Rp)(G3V) =  0.8332 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-   (Bp-G)(G3V) =  0.3306 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-   (G-Rp)(G3V) =  0.5205 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-    (G-V)(G3V) = -0.1467 +-0.0075 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-       Mv(G3V) =  4.608 +-0.007 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-      M_G(G3V) =  4.4610 +-0.0032 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3)
-     M_Ks(G3V) =  3.051 +-0.023 ; exemplar HD 1461 ([Fe/H]=+0.19) 
-   (V-Ks)(G3V) =  1.557 +-0.024 ; exemplar HD 1461 ([Fe/H]=+0.19) 
-   (G-Ks)(G3V) =  1.410 +-0.023 ; exemplar HD 1461 ([Fe/H]=+0.19) (GaiaDR3,2MASS)
-    (V-J)(G3V) =  1.125 +-0.019 ; exemplar HD 1461 ([Fe/H]=+0.19)
-    (V-H)(G3V) =  1.413 +-0.048 ; exemplar HD 1461 ([Fe/H]=+0.19)
-    (J-H)(G3V) =  0.288 +-0.050 ; exemplar HD 1461 ([Fe/H]=+0.19)
-   (H-Ks)(G3V) =  0.144 +-0.052 ; exemplar HD 1461 ([Fe/H]=+0.19)
-   (V-Rc)(G3V) =  0.371 +-0.012 ; exemplar HD 1461 ([Fe/H]=+0.19)
-   (R-Ic)(G3V) =  0.335 +-0.014 ; exemplar HD 1461 ([Fe/H]=+0.19)
-   (V-Ic)(G3V) =  0.706 +-0.012 ; exemplar HD 1461 ([Fe/H]=+0.19)
-  (Ks-W1)(G3V) =  0.043 +-0.078 ; exemplar HD 1461 ([Fe/H]=+0.19)
-  (W1-W2)(G3V) =  0.320 +-0.085 ; exemplar HD 1461 ([Fe/H]=+0.19)
-  (W1-W3)(G3V) = -0.067 +-0.076 ; exemplar HD 1461 ([Fe/H]=+0.19)
-  (W1-W4)(G3V) =  0.017 +-0.080 ; exemplar HD 1461 ([Fe/H]=+0.19)
-   (B-V)(G3V) = 0.680 ; exemplar HD 1461 ([Fe/H]=+0.19)
-   (U-B)(G3V) = 0.286 ; exemplar HD 1461 ([Fe/H]=+0.19)
+        G =  6.3073 +-0.0028 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) (GaiaDR3)
+  (Bp-Rp)(G3V) =  0.8332 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) (GaiaDR3)
+   (Bp-G)(G3V) =  0.3306 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) (GaiaDR3)
+   (G-Rp)(G3V) =  0.5205 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) (GaiaDR3)
+    (G-V)(G3V) = -0.1467 +-0.0075 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) (GaiaDR3)
+       Mv(G3V) =  4.608 +-0.007 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) (GaiaDR3)
+      M_G(G3V) =  4.4610 +-0.0032 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) (GaiaDR3)
+     M_Ks(G3V) =  3.051 +-0.023 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) 
+   (V-Ks)(G3V) =  1.557 +-0.024 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) 
+   (G-Ks)(G3V) =  1.410 +-0.023 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19) (GaiaDR3,2MASS)
+    (V-J)(G3V) =  1.125 +-0.019 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+    (V-H)(G3V) =  1.413 +-0.048 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+    (J-H)(G3V) =  0.288 +-0.050 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+   (H-Ks)(G3V) =  0.144 +-0.052 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+   (V-Rc)(G3V) =  0.371 +-0.012 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+   (R-Ic)(G3V) =  0.335 +-0.014 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+   (V-Ic)(G3V) =  0.706 +-0.012 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+  (Ks-W1)(G3V) =  0.043 +-0.078 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+  (W1-W2)(G3V) =  0.320 +-0.085 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+  (W1-W3)(G3V) = -0.067 +-0.076 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+  (W1-W4)(G3V) =  0.017 +-0.080 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+   (B-V)(G3V) = 0.680 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
+   (U-B)(G3V) = 0.286 ; exemplar HD 1461 = HIP 1499 ([Fe/H]=+0.19)
 
 # Deprecated Standards
 
