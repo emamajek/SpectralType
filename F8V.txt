@@ -785,25 +785,14 @@ HD 9826 = ups And = GJ 61 = HIP 7513 = HR 458 = Titawin = 50 And
   G0V: Adams35
 
   Famous exoplanet host star and naked eye star.  Reasonable
-  continuity from JohnsonMorgan53 to Gray01, although a couple F9V
-  classifications, and it appears to be slightly metal-rich
-  ([Fe/H]=+0.08) and nearing the end of its main sequence phase.  ups
-  And has a M4.5V common proper motion companion 55" away
-  (Lowrance22).  Most published isochronal ages are ~3 Gyr, and with
-  updated HRD position (Soubiran22 Teff, Gaia DR3 Lum), and
-  MIST/Choi16 evolutionary tracks ([Fe/H]=+0.08), ups And appears to
-  be 1.27 Msun and 3.5 Gyr. Using gyro_interp code (Bouma23), and
-  Prot=9.3d (see discussion below on rotation), one gets gyro
-  age=2.45+0.56-0.76 Gyr.  The 1.27 Msun MIST evolutionary tracks that
-  fits ups And well at age 3.5 Gyr, shows that the star spent much of
-  its earlier MS life (~0.04-2Gyr) between Teff~6400-6440K
-  (~F5.5V-F6V), fairly close to the Kraft break (Beyer24). By age ~4.0
-  Gyr (~0.5 Gyr in future), ups And's will deplete H in its small
-  convective core around Teff~6040K, its core will contract while it
-  grows more luminous, and enter its shell-burning subgiant phase. For
-  detailed discussions on the star (moreso than planetary system) see
-  discussions in: Ford99(sec 3.3/table of vsini estimates),
-  Simpson10(Sec 3.2.2/rotation), Poppenhaeger11.  V=4.07(Nikonov57),
+  continuity on type from JohnsonMorgan53 to Gray01, although a couple
+  F9V classifications, and it appears to be slightly metal-rich
+  ([Fe/H]=+0.08) and evolved (logg=4.17;Soubiran22), and with gyro age
+  and most isochronal ages converging on ~3 Gyr.  M4.5V common proper
+  motion companion 55" away (Lowrance22). For detailed discussions on
+  the star (moreso than planetary system) see discussions in:
+  Ford99(sec 3.3/table of vsini estimates), Simpson10(Sec
+  3.2.2/rotation), Poppenhaeger11.  V=4.07(Nikonov57),
   V=4.08(JohnsonMorgan53), V=4.08(Argue66),
   V=4.091+-0.010(Mermilliod91), V=4.093(Hauck97),
   V=4.099907(GaiaDR3/synth), V=4.10(HIP,TYC), V=4.10(Johnson66) =>
@@ -835,16 +824,15 @@ HD 9826 = ups And = GJ 61 = HIP 7513 = HR 458 = Titawin = 50 And
   Mass=1.228(1.204,1.288)Msun(Ramirez13),
   Mass=1.25+-0.13Msun(asteroseismo estimate/see below),
   Mass=1.257+-0.040Msun(GaiaDR3/FLAME), Mass=1.26+-0.15Msun(Goda19),
-  Mass=1.27Msun(EEM/MIST tracks/[Fe/H]=+0.08),
   Mass=1.28Msun(Reiners20), Mass=1.28+-0.03Msun(Casagrande11/BASTI),
   Mass=1.30+-0.02Msun(daSilva15),
   Mass=1.30(1.25,1.31)Msun(Casagrande11/Padova),
   Mass=1.30+0.05-0.15Msun(Harada24),
   Mass=1.31+0.01-0.07Msun(Ramirez12),
-  Mass=1.321+-0.132Msun(Khalatyan24), Mass=1.34+0.07-0.12Msun(Ford99)
-  => adopt Mass=1.27Msun.  Bolometric fluxes - published estimates
-  center on ~6e-10W/m2: fbol=(682.0+-23.1)pW/m2(Ligi16=> IAU2015 =>
-  mbol=3.918+-0.037; incorrectly included non-negligible extinction?),
+  Mass=1.321+-0.132Msun(Khalatyan24), Mass=1.34+0.07-0.12Msun(Ford99).
+  Bolometric fluxes - published estimates center on ~6e-10W/m2:
+  fbol=(682.0+-23.1)pW/m2(Ligi16=> IAU2015 => mbol=3.918+-0.037;
+  incorrectly included non-negligible extinction?),
   fbol=(606.8+-0.91)e-11W/m2(vanBelle09=> mbol(IAU2015)=4.045+-0.016),
   fbol=6.023e-7mW/m2(Gonzalez-Hernandez09 => mbol(IAU2015)=4.053),
   fbol=6.03e-7mW/m2(Alonso96 => mbol(IAU2015)=4.052; typo in units in
@@ -852,35 +840,40 @@ HD 9826 = ups And = GJ 61 = HIP 7513 = HR 458 = Titawin = 50 And
   fbol=5.9308e-7mW/m2(Casagrande11 => mbol(IAU2015)=4.070),
   fbol=(5.8690+-0.1009)e-10W/m2(Swihart17 =>
   mbol(IAU2015)=4.081+-0.019) => adopt mbol=4.057+-0.016(probit) =>
-  BCv = mbol - V = 4.057+-0.016 - 4.091+-0.010 = -0.034+-0.019.  Ages:
-  <2.3Gyr(Saffe05), 2.65+-0.35Gyr(MillanGabet09),
-  2.4+-0.3Gyr(Gonzalez10#2),
-  2.449+0.561-0.764Gyr(Mamajek/priv.comm./gyro, for Fetherholf23 Prot),
-  2.5+0.5-0.2Gyr(Valenti05),
-  2.6+2.1-1.0Gyr(Ford99), 2.8Gyr(Lambert04),
-  2.9+-0.6Gyr(Lachaume99,Adibekyan21),
+  BCv = mbol - V = 4.057+-0.016 - 4.091+-0.010 = -0.034+-0.019.
+  Lum=3.35283+-0.11818Lsun(TIC/Stassun19), Lum=3.363Lsun(Eiroa13),
+  Lum=3.373+-0.039Lsun(daSilva15, from logL=0.528+-0.005),
+  Lum=3.3893+0.0182-0.0163Lsun(GaiaDR3/FLAME),
+  Lum=3.409(3.390,3.428)Lsun(GaiaDR3, =>logL=0.53263+-0.00242).
+  Lum=3.43+0.19-0.17Lsun(Harada24).  Ages: <2.3Gyr(Saffe05),
+  2.4+-0.3Gyr(Gonzalez10#2), 2.5+0.5-0.2Gyr(Valenti05),
+  2.6+2.1-1.0Gyr(Ford99), 2.606+0.471-0.700Gyr(Mamajek/priv/gyro,
+  using gyrointerp, adopting Teff=6154+-10K[Soubiran22],
+  Prot=9.347+-1.510d[Fetherolf23]),
+  2.65+-0.35Gyr(MillanGabet09,"2.3-3.0", cites Valenti05),
+  2.8Gyr(Lambert04), 2.9+-0.6Gyr(Lachaume99,Adibekyan21),
+  2.932+0.711-1.403Gyr(Mamajek/priv.comm./gyro),
   3.0+-0.6Gyr(Soubiran05),
   3.00(2.89,3.01(med),3.18)Gyr(Casagrande11/BASTI),
   3.1(+0.2,-0.4)Gyr(Holmberg09), 3.1+-0.5Gyr(Gonzalez10#1),
-  3.12Gyr(Kospal09), 3.12+0.20-0.24Gyr(Marsden14),
-  3.12+0.20-0.24Gyr(Takeda07), 3.20Gyr(Gonzalez15),
+  3.12Gyr(Kospal09), 3.12+0.20-0.24Gyr(Marsden14, is this just from
+  Takeda07?), 3.12+0.20-0.24Gyr(Takeda07), 3.20Gyr(Gonzalez15),
   3.20+1.17-0.13Gyr(Ramirez12), 3.3Gyr(Chen01),
   3.3+0.2-1.7Gyr(Nordstrom04), 3.3+-0.3Gyr(daSilva15),
   3.31+2.32-0.59Gyr(Harada24),
-  3.4(2.87,3.19(med),3.43)Gyr(Casagrande11/Padova), 3.5Gyr(EEM/MIST
-  tracks/[Fe/H]=+0.08), 3.76Gyr(Marsakov95), 3.8+-1Gyr(Fuhrmann98),
+  3.4(2.87,3.19(med),3.43)Gyr(Casagrande11/Padova),
+  3.76Gyr(Marsakov95), 3.8+-1Gyr(Fuhrmann98),
   3.8+-1.0Gyr(Schlagenhauf24, but extremely poor Teff estimate >+-700K
   and non-negligible extinction),
   3.905(3.401,4.409)Gyr(GaiaDR3/FLAME), 4.00Gyr(Gaspar13),
   4.00Gyr(Ballering13), 4.022+1.123-0.394Gyr(Baines24),
   4.50(3.47,4.78)Gyr(Ramirez13), 5.37Gyr(Isaacson24),
   6.23Gyr(Isaacson10), 6.3Gyr(Bryden06), 6.7Gyr(Bryden09),
-  7.26Gyr(MoroMartin15) => median 3.3+1.7-0.4(68%CL) Gyr,
-  i.e. consistent with what I get with MIST/Choi16 tracks
-  ([Fe/H]=+0.08,[a/Fe]=0): 3.5Gyr.  Rotation periods:
-  Prot=7.30+-0.04d(Simpson10/"weak"), Prot=7.4d(Rutten87/vsini),
-  Prot=9.262763d(Gao25), Prot=9.347+-1.510d(Fetherolf23; 2nd
-  per=2.777540+-0.1235d), Prot=9.5d(Poppenhaeger10/CaHKmodulation),
+  7.26Gyr(MoroMartin15) => median 3.3+1.7-0.4(68%CL) Gyr.  Rotation
+  periods: Prot=7.30+-0.04d(Simpson10/"weak"),
+  Prot=7.4d(Rutten87/vsini), Prot=9.262763d(Gao25),
+  Prot=9.347+-1.510d(Fetherolf23; 2nd per=2.777540+-0.1235d),
+  Prot=9.5d(Poppenhaeger10/CaHKmodulation),
   Prot=11.9+0.0-0.1d(Marsden14), Prot=12d(Isaacson10, estimated via
   R'HK), Prot=14+-5d(range:11-19d;"weak";Henry00).  Note that Ford99
   argued that given the multiple vsini estimates consistent with
@@ -892,10 +885,7 @@ HD 9826 = ups And = GJ 61 = HIP 7513 = HR 458 = Titawin = 50 And
   vsini=9.5+-0.8km/s(Fuhrmann98),
   vsini=9.62+-0.50km/s(Butler06). Adopting the Gonzalez10 vsini, and
   Rad=1.696Rsun, then Prot < 9.0+-0.4 days... similar to the two
-  recent periods measured with TESS. I adopt Prot=9.347+-1.510d from
-  Fetherolf23 (consistent with Gao25 & Poppenhaeger10 CaHK modulation)
-  => combined with Teff(Soubiran22) => gyro_interp(Bouma23) =>
-  age(gyro) = 2449+561-764 Myr. Lithium EW(LiI/6707A):
+  recent periods measured with TESS. Lithium EW(LiI/6707A):
   26.1mA(Takeda05), 30mA(Lambert91), 31.0+-3.1mA(Maldonado10),
   33.9mA(Chen01), 43mA(Takeda05). Lund25 reports asteroseismic data
   from TESS: numax=1528.0+-50.6uHz, dnu=76.2+-0.6uHz => from these I
