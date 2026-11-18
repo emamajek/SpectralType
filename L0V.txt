@@ -316,6 +316,7 @@ types for L dwarfs is shown in Fig. 4 of Cruz18/2018AJ....155...34C]
 (r-i)(L0V) =   2.500 ; SDSS_J163600.79-003452.6 L0e plx=25.84mas
 (r-i)(L0V) =  2.514 (+-0.034 sem, +-0.144 stdev) ; mean nearest N=21 L0s w/SDSS IDs
 (r-i)(L0V) =   2.526 ; SDSS_J171113.51+232633.2 L0e plx=30.8667mas
+(r-i)(L0V) = 2.53 ; polynomial fit to L0-L9 r-i data (11/1/2029) 
 (r-i)(L0V) =  2.54 (+-0.08 rms) ; Bochanski07 L0V (N=4; all active, none inactive)
 (r-i)(L0V) =  2.553 +-0.053 ; exemplar 2MASSI J0230155+270406 (Hyad; [Fe/H]=+0.16; ~0.7Gyr) (SDSSDR16)
 (r-i)(L0V) =   2.574 ; SDSS_J120249.99+420452.1 L0 plx=31.7724mas
@@ -329,7 +330,7 @@ types for L dwarfs is shown in Fig. 4 of Cruz18/2018AJ....155...34C]
 (r-i)(L0V) =   2.759 ; SDSS_J145255.58+272324.4 L0 plx=24.2018mas
 (r-i)(L0V) =   2.995 ; SDSS_J004648.45+071517.4 L0 plx=26.4742mas
 (r-i)(L0V) =   3.056 ; SDSS_J155526.15+001720.6 L0 plx=22.5715mas
-=> adopt (r-i)(L0V) = 2.51 [updated 11/25/2024]
+=> adopt (r-i)(L0V) = 2.53 [updated 11/1/2026] 
 
 (i-z)(L0V) =   1.719 ; SDSS_J004648.45+071517.4 L0 plx=26.4742mas
 (i-z)(L0V) =   1.765 ; SDSS_J120430.37+321259.4 L0e plx=41.2279mas
@@ -1325,6 +1326,14 @@ a1 =  2.3623102957265024d-1
 a2 = -7.6644848196684143d-2
 a3 =  4.0006682049178672d-3
 (rms=0.53mag)
+[deprecated for now as it is dominated APASS gr]
+
+# (r-i) trend among L dwarfs L0-L9
+r-i = a0 + a1*SpT + a2*SpT^2 where SpT=0 for L0
+a0 =  2.5305370836924186e+000
+a1 = -3.2072521089159700e-002
+a2 = -2.4944110835193587e-003
+(rms=0.21 mag) 
 
 # For standards, exemplars, and nearby SIMBAD objects with L-type classifications (values listed in these files):
 
