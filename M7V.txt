@@ -41,7 +41,7 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR 753C ("M7:V";
 (B-V)(M7V) =  1.84 ; Johnson65,Johnson66
 (B-V)(M7V) = 2.05: ; pri. stan. VB 8 = GJ 644C ([Fe/H]~-0.2) 
 (B-V)(M7V) = 2.10 ; Leggett92 "young disk"
-(B-V)(M7V) = 2.12 ; linear fit to Leggett92 (B-V=0.8367+0.2852*V-I, V-Ic=4.5)
+(B-V)(M7V) = 2.12 ; linear fit to Leggett92 (B-V=0.8367+0.2852*V-Ic, V-Ic=4.5)
 => adopt (B-V)(M7V) = 2.12 [updated 7/5/2020]
 
 (U-B)(M7V)  = 1.40 ; Johnson65,Johnson66
@@ -352,49 +352,51 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR 753C ("M7:V";
 (u-g)(M7V) =   3.556 ; SDSS_J225740.50-010646.3 M7 plx=30.2569mas
 => adopt (u-g)(M7V) = 2.18 [updated 12/20/2024]
 
-(g-r)(M7V) =   1.490 ; SDSS_J145020.57+511228.5 M7V plx=26.7126mas
-(g-r)(M7V) =   1.498 ; SDSS_J083557.35+431831.1 M7 plx=31.2292mas
-(g-r)(M7V) =   1.515 ; SDSS_J110153.86+341017.1 M7V plx=26.1450mas
-(g-r)(M7V) =  1.539 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs
-(g-r)(M7V) =  1.55 (+-0.15 rms) ; Bochanski07 M7V (inactive; N=150/550) 
-(g-r)(M7V) =   1.566 ; SDSS_J094257.09+235118.4 M7V plx=27.8593mas
-(g-r)(M7V) =  1.58 (+-0.16; rms) ; West11
-(g-r)(M7V) =  1.61 ; Kesseli17 
-(g-r)(M7V) =  1.61 (+-0.17; rms) ; Bochanski07 M7V (inactive+active; N=550) 
-(g-r)(M7V) =   1.614 ; SDSS_J155038.15+304104.3 M7V plx=26.8335mas
-(g-r)(M7V) =  1.619 ; smooth trend for SIMBAD g-r data for d<50pc M dwarfs
-(g-r)(M7V) =   1.623 ; SDSS_J074653.21+394509.9 M7 plx=32.3049mas
-(g-r)(M7V) =   1.629 ; SDSS_J091130.53+224810.7 M7V plx=28.00mas
-(g-r)(M7V) =  1.63 (+-0.17 rms) ; Bochanski07 M7V (active; N=400/550) 
-(g-r)(M7V) =   1.634 ; SDSS_J084816.67+330908.7 M7V plx=34.6466mas
-(g-r)(M7V) =   1.638 ; SDSS_J123323.39+311631.2 M7V plx=26.7331mas
-(g-r)(M7V) =   1.639 ; SDSS_J125855.13+052034.7 M7 plx=27.7857mas
-(g-r)(M7V) =   1.640 ; SDSS_J120807.80+352027.7 M7V plx=32.1874mas
-(g-r)(M7V) =   1.646 ; SDSS_J150026.34-003927.9 M7V plx=29.2848mas
-(g-r)(M7V) =   1.648 ; SDSS_J150048.89-013142.6 M7V plx=29.7664mas
-(g-r)(M7V) =   1.650 ; SDSS_J023549.58-071121.4 M7V plx=30.1539mas
-(g-r)(M7V) =   1.651 ; SDSS_J015143.65+004618.8 M7 plx=26.3215mas
-(g-r)(M7V) =   1.659 ; SDSS_J132616.32+564044.7 M7V plx=35.00mas
-(g-r)(M7V) =  1.661 (+-0.007sem,+-0.061stdev) ; SIMBAD nearest M7Vs w/SDSS IDs (N=35)
-(g-r)(M7V) =   1.661 ; SDSS_J092545.56+611233.9 M7V plx=28.6314mas
-(g-r)(M7V) =   1.663 ; SDSS_J013719.35+003612.3 M7V plx=26.481mas
-(g-r)(M7V) =   1.663 ; SDSS_J031225.12+002158.3 M7V plx=32.0658mas
-(g-r)(M7V) =   1.665 ; SDSS_J120133.54+404645.6 M7V plx=36.1198mas
-(g-r)(M7V) =   1.665 ; SDSS_J125041.13+402134.7 M7V plx=29.9758mas
-(g-r)(M7V) =   1.669 ; SDSS_J225740.50-010646.3 M7 plx=30.2569mas
-(g-r)(M7V) =   1.675 ; SDSS_J125223.51+252845.9 M7V plx=26.789mas
-(g-r)(M7V) =  1.696 ; pri. stan. VB 8 = SDSS_J165534.95-082345.5 M7Ve plx=153.9659mas
-(g-r)(M7V) =   1.700 ; SDSS_J012431.25-002756.3 M7V plx=29.1723mas
-(g-r)(M7V) =   1.704 ; SDSS_J100319.15-010508.0 M7e plx=50.1372mas
-(g-r)(M7V) =   1.706 ; SDSS_J162718.20+353835.7 M7 plx=36.5689mas
-(g-r)(M7V) =   1.715 ; SDSS_J140140.65+421107.5 M7V plx=28.8265mas
-(g-r)(M7V) =   1.738 ; SDSS_J112329.35+015404.0 M7 plx=33.3781mas
-(g-r)(M7V) =   1.769 ; SDSS_J094720.05-002010.3 M7 plx=37.286mas
-(g-r)(M7V) =   1.788 ; SDSS_J093126.00+363821.6 M7V plx=30.2894mas
-(g-r)(M7V) =   1.788 ; SDSS_J125312.49+403400.6 M7Ve plx=47.2893mas
-(g-r)(M7V) =   1.821 ; SDSS_J144022.86+133920.8 M7V plx=39.1300mas
-(g-r)(M7V) =   2.179 ; SDSS_J145205.22+264751.6 M7V plx=29.421mas
-=> adopt (g-r)(M7V) = 1.66 [updated 12/20/2024] 
+(g-r)(M7V)   =   1.490 ; SDSS_J145020.57+511228.5 M7V plx=26.7126mas
+(g-r)(M7V)   =   1.498 ; SDSS_J083557.35+431831.1 M7 plx=31.2292mas
+(g-r)(M7V)   =   1.515 ; SDSS_J110153.86+341017.1 M7V plx=26.1450mas
+(g-r)(M7V)   =  1.55 (+-0.15 rms) ; Bochanski07 M7V (inactive; N=150/550) 
+(g-r)(M7V)   =   1.566 ; SDSS_J094257.09+235118.4 M7V plx=27.8593mas
+(g-r)(M7V)   =  1.58 (+-0.16; rms) ; West11
+(g-r)(M7V)   =  1.61 ; Kesseli17 
+(g-r)(M7V)   =  1.61 (+-0.17; rms) ; Bochanski07 M7V (inactive+active; N=550) 
+(g-r)(M7V)   =   1.614 ; SDSS_J155038.15+304104.3 M7V plx=26.8335mas
+(g-r)(M7V)   =   1.623 ; SDSS_J074653.21+394509.9 M7 plx=32.3049mas
+(g-r)(M7V)   =   1.629 ; SDSS_J091130.53+224810.7 M7V plx=28.00mas
+(g-r)(M7V)   =  1.63 (+-0.17 rms) ; Bochanski07 M7V (active; N=400/550) 
+(g-r)(M7V)   =   1.634 ; SDSS_J084816.67+330908.7 M7V plx=34.6466mas
+(g-r)(M7V)   =   1.638 ; SDSS_J123323.39+311631.2 M7V plx=26.7331mas
+(g-r)(M7V)   =   1.639 ; SDSS_J125855.13+052034.7 M7 plx=27.7857mas
+(g-r)(M7V)   =   1.640 ; SDSS_J120807.80+352027.7 M7V plx=32.1874mas
+(g-r)(M7V)   =   1.646 ; SDSS_J150026.34-003927.9 M7V plx=29.2848mas
+(g-r)(M7V)   =   1.648 ; SDSS_J150048.89-013142.6 M7V plx=29.7664mas
+(g-r)(M7V)   =   1.650 ; SDSS_J023549.58-071121.4 M7V plx=30.1539mas
+(g-r)(M7V)   =   1.651 ; SDSS_J015143.65+004618.8 M7 plx=26.3215mas
+(g-r)(M7V)   =   1.659 ; SDSS_J132616.32+564044.7 M7V plx=35.00mas
+(g-r)(M7V)   =  1.661 (+-0.007sem,+-0.061stdev) ; SIMBAD nearest M7Vs w/SDSS IDs (N=35)
+(g-r)(M7V)   =   1.661 ; SDSS_J092545.56+611233.9 M7V plx=28.6314mas
+(g-r)(M7V)   =   1.663 ; SDSS_J013719.35+003612.3 M7V plx=26.481mas
+(g-r)(M7V)   =   1.663 ; SDSS_J031225.12+002158.3 M7V plx=32.0658mas
+(g-r)(M7V)   =   1.665 ; SDSS_J120133.54+404645.6 M7V plx=36.1198mas
+(g-r)(M7V)   =   1.665 ; SDSS_J125041.13+402134.7 M7V plx=29.9758mas
+(g-r)(M7V)   =   1.669 ; SDSS_J225740.50-010646.3 M7 plx=30.2569mas
+(g-r)(M7V)   =   1.675 ; SDSS_J125223.51+252845.9 M7V plx=26.789mas
+(g-r)(M7V)   =  1.696 ; pri. stan. VB 8 = SDSS_J165534.95-082345.5 M7Ve plx=153.9659mas
+(g-r)(M7V)   =   1.700 ; SDSS_J012431.25-002756.3 M7V plx=29.1723mas
+(g-r)(M7V)   =   1.704 ; SDSS_J100319.15-010508.0 M7e plx=50.1372mas
+(g-r)(M7V)   =   1.706 ; SDSS_J162718.20+353835.7 M7 plx=36.5689mas
+(g-r)(M7V)   =   1.715 ; SDSS_J140140.65+421107.5 M7V plx=28.8265mas
+(g-r)(M7V)   =   1.738 ; SDSS_J112329.35+015404.0 M7 plx=33.3781mas
+(g-r)(M7V)   =   1.769 ; SDSS_J094720.05-002010.3 M7 plx=37.286mas
+(g-r)(M7V)   =   1.788 ; SDSS_J093126.00+363821.6 M7V plx=30.2894mas
+(g-r)(M7V)   =   1.788 ; SDSS_J125312.49+403400.6 M7Ve plx=47.2893mas
+(g-r)(M7V)   =   1.821 ; SDSS_J144022.86+133920.8 M7V plx=39.1300mas
+(g'-r')(M7V) =  1.888 ; Smith02 transformation for B-V=2.12
+(g-r)(M7V)   =  2.132 ; Bilir05 transformation for B-V=2.12 
+(g-r)(M7V)   =   2.179 ; SDSS_J145205.22+264751.6 M7V plx=29.421mas
+(g-r)(M7V)   =  3.348 ; Jordi06 transformation (pop I) for V-Rc=2.16 (outside applicability?)
+(g'-r')(M7V) =  3.475 ; Smith02 transformation for V-Rc=2.16 (outside applicability?)
+=> adopt (g-r)(M7V) = 1.66 [updated 11/1/2026] 
 
 (g-V)(M7V) = 3.114 ; pri. stan. VB 8 = GJ 644C (Pickles10; SDSS DR7)
 
@@ -423,10 +425,10 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR 753C ("M7:V";
 (r-i)(M7V) =   2.318 ; SDSS_J150048.89-013142.6 M7V plx=29.7664mas
 (r-i)(M7V) =  2.33 (+-0.19 rms) ; Bochanski07 M7V (active; N=400/550) 
 (r-i)(M7V) =   2.336 ; SDSS_J094720.05-002010.3 M7 plx=37.286mas
-(r-i)(M7V) = 2.34 (+-0.19 rms) ; Bochanski07 M7V (inactive+active; N=550) 
+(r-i)(M7V) =  2.34 (+-0.19 rms) ; Bochanski07 M7V (inactive+active; N=550) 
 (r-i)(M7V) =   2.345 ; SDSS_J123323.39+311631.2 M7V plx=26.7331mas
 (r-i)(M7V) =  2.35 (+-0.18 rms) ; Bochanski07 M7V (inactive; N=150/550)
-(r-i)(M7V) =  2.378 ; smooth trend for SIMBAD r-i data for d<50pc M0V-M8.5V
+(r-i)(M7V) =  2.36 ; polynomial fit SpT vs r-i (11/1/2026) (see M0V.txt)
 (r-i)(M7V) =   2.381 ; SDSS_J023549.58-071121.4 M7V plx=30.1539mas
 (r-i)(M7V) =   2.388 ; SDSS_J125223.51+252845.9 M7V plx=26.789mas
 (r-i)(M7V) =   2.411 ; SDSS_J155038.15+304104.3 M7V plx=26.8335mas
@@ -446,7 +448,7 @@ Kirkpatrick12 lists only 3 M7Vs within 8 pc: vB8, LHS 3003, and HR 753C ("M7:V";
 (r-i)(M7V) =   2.748 ; SDSS_J093126.00+363821.6 M7V plx=30.2894mas
 (r-i)(M7V) =   2.764 ; SDSS_J100319.15-010508.0 M7e plx=50.1372mas
 (r-i)(M7V) =  2.790 +-0.018 ; pri. stan. VB 8 = GJ 644C ([Fe/H]~-0.2) (DR16)
-=> adopt (r-i)(M7V) = 2.34 [updated 12/20/2024]
+=> adopt (r-i)(M7V) = 2.35 [updated 11/1/2026] 
 
 (i-z)(M7V) =   1.071 ; SDSS_J092545.56+611233.9 M7V plx=28.6314mas
 (i-z)(M7V) =  1.08 ; Kesseli17
