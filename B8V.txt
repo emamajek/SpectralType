@@ -49,7 +49,8 @@ All Q-method dereddenings in this file have been updated with the most
 recent calibration (Oct 2011).
 
 (B-V)(B8V) =  -0.05  ; Cowley70(N=20*s)
-(B-V)(B8V) =  -0.06  ; Deng20 
+(B-V)(B8V) =  -0.06  ; Deng20
+(B-V)(B8V) = -0.075  ; exemplar HD 209819 = iot Aqr (bin)
 (B-V)(B8V) =  -0.083 ; Crawford76
 (B-V)(B8V) = -0.083  ; sec. stan. 21 Tau (EEM dereddened via Q-method)
 (B-V)(B8V) =  -0.089 ; Gutierrez-Moreno79
@@ -215,14 +216,17 @@ recent calibration (Oct 2011).
 (Bp-Rp)(B8V) = -0.10  ; Deng20 (GaiaDR2)
 (Bp-Rp)(B8V) = -0.155 ; Evans18 trend for V-I=-0.108 (GaiaDR2)
 
-(Bp-Rp)(B8V) = -0.100 ; converting B-V=-0.109 to Bp-Rp via Pancino22 (GaiaDR3)
-=> adopt (Bp-Rp)(B8V) = -0.100 [updated 10/10/2026] (GaiaDR3) 
+(Bp-Rp)(B8V) =  -0.073 ; HD 209819 = Gaia DR3 2612171866450404992  B8V plx=15.4940mas (GaiaDR3)
+(Bp-Rp)(B8V) =  -0.100 ; converting B-V=-0.109 to Bp-Rp via Pancino22 (GaiaDR3)
+=> adopt (Bp-Rp)(B8V) = -0.09: [updated 11/7/2026] (GaiaDR3) 
 
+(Bp-G)(B8V) = -0.026 ; HD 209819 = Gaia DR3 2612171866450404992  B8V plx=15.4940mas (GaiaDR3)
 (Bp-G)(B8V) = -0.031 ; converting B-V=-0.109 to Bp-G via Pancino22 (GaiaDR3)
-=> adopt (Bp-G)(B8V) = -0.031 [updated 10/10/2026] (GaiaDR3) 
+=> adopt (Bp-G)(B8V) = -0.03 [updated 11/7/2026] (GaiaDR3) 
 
-(G-Rp)(B8V) = -0.069 ; converting B-V=-0.109 to G-Rp via Pancino22 (GaiaDR3)
-=> adopt (G-Rp)(B8V) = -0.069 [updated 10/10/2026] (GaiaDR3) 
+(G-Rp)(B8V) =  -0.047 ; HD 209819 = Gaia DR3 2612171866450404992  B8V plx=15.4940mas (GaiaDR3)
+(G-Rp)(B8V) =  -0.069 ; converting B-V=-0.109 to G-Rp via Pancino22 (GaiaDR3)
+=> adopt (G-Rp)(B8V) = -0.06: [updated 11/7/2026] (GaiaDR3) 
 
 (G-V)(B8V) = -0.062 ; HIP_26621 B8V V=8.040 G=7.9778 E(B-V)=0.001 (calc from Kervella22)
 (G-V)(B8V) = -0.030 ; HIP_79739 B8V V=7.926 G=7.8673 E(B-V)=0.194 (calc from Kervella22)
@@ -263,6 +267,8 @@ Teff(B8V) = 12565 K ; B-V=-0.106 => Teff(Bessell98,logg=4.2)
 Teff(B8V) = 12800 ; prim. stan. 18 Tau (see below)
 Teff(B8V) = 12923 K ; EEM median of 268 published Teffs for B8V *s
 => adopt Teff(B8V) = 12300 K (logT = 4.090) [updated 9/16/2019]
+
+M_G(B8V) =   0.20 ; HD 209819 = iot Aqr = Gaia DR3 2612171866450404992 B8V plx=15.4940mas (GaiaDR3)
 
 Mv(B8V) =   0.92 mag ; HIP_61796 B8V plx=8.822 mas, Vmag=6.247,E(B-V)=0.017
 Mv(B8V) =  0.61 mag ; ter. stan. HD 142315 = HIP 77911 (Upper Sco)
@@ -541,7 +547,7 @@ HD 87901 = alf Leo = Regulus = 32 Leo = HR 3982 = GJ 9316A
   4.05+-0.09(Wu11). [M/H]=0.00(Gray03), [Fe/H]=0.21+-0.09(Wu11).
 
 HD 222173 = iot And = HR 8965 = HR 8965 = Rasalnaqa 
-  B8V: JM53(stan),Crawford58, Cowley72(stan),Cannon(B8)
+  B8V: Cannon(B8),JM53(stan),Crawford58, Cowley72(stan),
   B8IIIs: GarrisonGray94
 
   GarrisonGray94 switched it to giant, but previouly dwarf since JM53.
@@ -571,6 +577,61 @@ HD 36865 = Parenago 1491 (J0534-0429)
 
 # Exemplars
 
+HD 209819 = iot Aqr = HR 8418 = 33 Aqr = ALS 16857 = Gaia DR3 2612171866450404992 
+ *B8V: Slettebak54,Cucchiaro78(S2/68),Houk88,GarrisonGray94,Zorec09
+  B9IV-V: Cowley72
+
+  Nearby (Local Bubble), and the only B8V star within 75pc (plx>13.33)
+  with 'good' Gaia DR3 photometry. Binarity:
+  Waisberg26(DOI:10.3847/2515-5172/ae468c) presents history of
+  evidence for multiplicity of iot Aqr, along with new VLTI/GRAVITY
+  results.  Gullikson16 reports spectral detection of companion with
+  Teff=5710+-112K (estimated M=1.0+-0.03Msun).  Waisberg26 reports
+  K-band detection f_B/f_A=15.60+-0.1% (del(K)=2.017),
+  sep=7.086+-0.024mas (0.38au), with angular diamaters tet(A)=0.36mas,
+  tet(B)=0.19mas. Waisberg26 reports M(A)=2.9Msun, Teff(A)=11700K,
+  Rad(A)=2.1Rsun, M(B)=1.2Msun, Teff(B)=6350K, Rad(B)=1.1Rsun,
+  age=70Myr. If the system is at 65pc, then M(A)=3.0Msun,
+  M(B)=1.3Msun, age=130Myr.  Despite its youth, BANYAN Sigma
+  (Gagne18/26) strongly prefers calling it a 'field' star, not
+  belonging to any of the known nearby young associations. The
+  Waisberg26 companion appears to be the same as the one spectrally
+  detected by Gullikson16.  Waisberg26 estimates del(G)=3.3mag,
+  del(Vt)=3.5, and they note that there could be another lower-mass
+  companion further out to be responsible for the photocentric motion
+  between Gaia and Hipparcos.  X-ray source (1RXS J220626.2-135214),
+  perhaps due to the young G-type companion.
+  V=4.266+-0.009(Mermilliod91/Nobs>22), V=4.28(GCPD/Cousins76_VRIc),
+  B-V=-0.075+-0.006(Mermilliod91/Nobs>28),
+  U-B=-0.284+-0.012(Mermilliod91/Nobs>24),
+  V-Rc=-0.025(GCPD/Cousins76_VRIc), R-Ic=-0.034(GCPD/Cousins76_VRIc),
+  V-Ic=-0.059(GCPD/Cousins76_VRIc).
+  plx=15.4940+-0.2103mas(GaiaDR3),
+  G=4.250913+-0.002938(GaiaDR3), Bp-Rp=-0.072571(GaiaDR3),
+  Bp-G=-0.025899(GaiaDR3), G-Rp=-0.046672(GaiaDR3).  G-V =
+  -0.015+-0.009 = 4.250913+-0.002938(GaiaDR3) -
+  4.266+-0.009(Mermilliod91). Although it is so nearby, the Q-method
+  for dereddened UBV photometry yields (B-V)o=-0.091, (U-B)o=-0.296,
+  E(B-V)=0.016, Av=0.051. 
+  Adopting del(G)=3.3 from Waisberg26,
+  the Gaia DR3 photometry would split into G(A)=4.30, G(B)=7.60, with
+  with the GaiaDR3 plx translates to M_G(A)=0.25,
+  M_B(B)=3.55. Assuming del(G)=del(V), then the Mermilliod91 Vmag
+  splits to V(A)=4.32, V(B)=7.62 => Gaia DR3 plx => Mv(A)=0.27,
+  Mv(B)=3.57.
+  
+   (B-V)(B8V) = -0.075 ; exemplar HD 209819 = iot Aqr (bin) 
+   (U-B)(B8V) = -0.284 ; exemplar HD 209819 = iot Aqr (bin)
+  (V-Rc)(B8V) = -0.025 ; exemplar HD 209819 = iot Aqr (bin)
+  (R-Ic)(B8V) = -0.034 ; exemplar HD 209819 = iot Aqr (bin)
+  (V-Ic)(B8V) = -0.059 ; exemplar HD 209819 = iot Aqr (bin)
+     M_G(B8V) = 0.25 ; exemplar HD 209819 = iot Aqr (GaiaDR3) 
+      Mv(B8V) = 0.27 ; exemplar HD 209819 = iot Aqr 
+   (G-V)(B8V) = -0.015 +-0.009 ; exemplar HD 209819 = iot Aqr (bin) (GaiaDR3) 
+  (Bp-Rp)(B8V) = -0.073 ; exemplar HD 209819 = iot Aqr (bin) (GaiaDR3) 
+   (Bp-G)(B8V) = -0.026 ; exemplar HD 209819 = iot Aqr (bin) (GaiaDR3) 
+   (G-Rp)(B8V) = -0.047 ; exemplar HD 209819 = iot Aqr (bin) (GaiaDR3) 
+
 HD 181869 = alf Sgr
   B7V: Cucchiaro77(S2/68)
   B8IV/V: 1930MmMtS...2....1R
@@ -582,13 +643,6 @@ HD 181869 = alf Sgr
   V-Rc=-0.044(GCPD/Cousins76_VRIc), R-Ic=-0.058(GCPD/Cousins76_VRIc),
   V-Ic=-0.102(GCPD/Cousins76_VRIc).
 
-HD 209819 = iot Aqr
- *B8V: Slettebak54,Cucchiaro78(S2/68)GarrisonGray94,Zorec09
-  B9IV-V: Cowley72
-
-  Nearby, within Local Bubble. V=4.28(GCPD/Cousins76_VRIc),
-  V-Rc=-0.025(GCPD/Cousins76_VRIc), R-Ic=-0.034(GCPD/Cousins76_VRIc),
-  V-Ic=-0.059(GCPD/Cousins76_VRIc).
 
 HD 23753 = HR 1172 = HIP 17776 = Cl Melotte 22 1823 = Gaia DR3 64940906245415808 = WDS J03483+2325Aa,Ab
    B7IV: Zorec09(BCD type)

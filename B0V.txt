@@ -59,14 +59,14 @@ Q-method calibration (10/9/2011).
 (B-V)(B0V)   =  -0.300 ; EEM dereddened N=5 B0V HIP stars (Q-method, E(B-V)<0.3)
 (B-V)(B0.2V) =  -0.300 ; EEM dereddened B0.2V standard HD 2083 via Q-method
 (B-V)(B0.2V) =  -0.297 ; EEM dereddened B0.2V non-standard tet Car via Q-method
-(B-V)(B0V)   =  -0.296 ; EEM dereddened primary standard Tau Sco*
+(B-V)(B0V)   =  -0.296 ; EEM dereddened pri. stan. HD 149438 = tau Sco
 (B-V)(B0V)   =   -0.26  ; Wegner14
 => adopt (B-V)(B0V) = -0.301 [updated 2/7/2020]
 
 The bluest B-V I can find for a B0V star is HIP 25923 (B-V = -0.261),
 so <(B-V)o> is likely to be bluer than that.
 
-(U-B)(B0V)   = -1.055 ; EEM dereddened primary standard tau Sco (using Q-method)*
+(U-B)(B0V)   = -1.055 ; EEM dereddened pri. stan. HD 149438 = tau Sco (using Q-method)*
 (U-B)(B0.2V) =  -1.057 ; EEM dereddened B0.2V non-standard tet Car via Q-method
 (U-B)(B0V)   = -1.066 ; EEM dereddened primary stan. tau Sco (using logN_HI)*
 (U-B)(B0V)   = -1.067 ; EEM dereddened N=5 B0V HIP stars (Q-method, E(B-V)<0.3)*
@@ -287,7 +287,7 @@ GrayAtlas does not list a B0V standard
 
 # Primary Standard
 
-HD 149438 = tau Sco = Paikauhale = HR 6165 = 23 Sco = HIP 81266 = Gaia DR3 6044420729667868928 
+HD 149438 = tau Sco = Paikauhale = HR 6165 = 23 Sco = HIP 81266 = 2MASS J16355295-2812576 = Gaia DR3 6044420729667868928 
  *B0V: Cannon(B0),MK43,Lesh68(stan),Jaschek78(JM53),Bertiau58,Jaschek64(all),Garrison67,Hiltner69(stan),MK73,Garrison77(stan),MK78,Garrison79(stan),Houk82,Keenan85,Garcia89,Garrison96,Sota11(stan),Negueruela24(stan)
   B0.2V: Walborn71,Walborn90
 
@@ -299,20 +299,19 @@ HD 149438 = tau Sco = Paikauhale = HR 6165 = 23 Sco = HIP 81266 = Gaia DR3 60444
   31048K, T(Napiwotski93) = 32689 K.  Mermilliod91 photometry:
   V=2.825+-0.009, B-V=-0.252+-0.007, U-B=-1.023+-0.013 =>
   Q-method(1/2020) => (B-V)o=-0.296, (U-B)o=-1.055, E(B-V)=0.044,
-  Av=0.143. V=2.835(GCPD/VRIc_Cousins76),
-  V-Rc=-0.091(GCPD/VRIc_Cousins76), R-Ic=(GCPD/VRIc_Cousins76),
-  V-Ic=-0.238(GCPD/VRIc_Cousins76).  (V-Rc)o: Adopting
-  E(V-Rc)/E(B-V)=0.603(Winkler97) and E(B-V)=0.044 => (V-Rc)o = -0.118
-  = (V-Rc) - E(V-Rc) = (V-Rc) - 0.603*E(B-V) = -0.091 - 0.603*0.044.
-  (V-Ic)o: Adopting E(V-Ic)/E(B-V)=1.281(Winkler97) and E(B-V)=0.044
-  => (V-Ic)o = -0.294 = (V-Ic) - E(V-Ic) = (V-Ic) - 1.281*E(B-V) =
-  -0.238 - 1.281*0.044.  (R-Ic)o = (V-Ic) - (V-Rc) = -0.294 - -0.118 =
-  -0.176.  VanLeeuwen07 lists plx = 6.88+-0.53 mas => 145+-11 pc
-  (comensurate with its membership to Upper Sco OB association with d
-  = 145 pc; de Zeeuw et al. 1999). Hence, Mv = -3.13+-0.17 mag, logL =
-  4.31+-0.07 dex.
-
-  All Teff estimates: 28060K(Sokolov95), 28590+-526K(Fremat05#2),
+  Av=0.143. E(B-V)=0.049+-0.027(Paunzen24/Nobs=8).
+  V=2.835(GCPD/VRIc_Cousins76), V-Rc=-0.091(GCPD/VRIc_Cousins76),
+  R-Ic=(GCPD/VRIc_Cousins76), V-Ic=-0.238(GCPD/VRIc_Cousins76).
+  (V-Rc)o: Adopting E(V-Rc)/E(B-V)=0.603(Winkler97) and E(B-V)=0.044
+  => (V-Rc)o = -0.118 = (V-Rc) - E(V-Rc) = (V-Rc) - 0.603*E(B-V) =
+  -0.091 - 0.603*0.044.  (V-Ic)o: Adopting
+  E(V-Ic)/E(B-V)=1.281(Winkler97) and E(B-V)=0.044 => (V-Ic)o = -0.294
+  = (V-Ic) - E(V-Ic) = (V-Ic) - 1.281*E(B-V) = -0.238 - 1.281*0.044.
+  (R-Ic)o = (V-Ic) - (V-Rc) = -0.294 - -0.118 = -0.176.  VanLeeuwen07
+  lists plx = 6.88+-0.53 mas => 145+-11 pc (comensurate with its
+  membership to Upper Sco OB association with d = 145 pc; de Zeeuw et
+  al. 1999). Hence, Mv = -3.13+-0.17 mag, logL = 4.31+-0.07 dex.  All
+  Teff estimates: 28060K(Sokolov95), 28590+-526K(Fremat05#2),
   28959K(Fremat05#1), 29374K(U-Bo=>Bessell98), 29640K(Zorec09#2),
   29860K(Braganca12), 29920K(Malagnini,from Zorec09) 30000K(Snow94),
   30000K(Glagolevskij19), 30400K(Smith10), 31000+-1000K(Martins11),
@@ -334,22 +333,7 @@ HD 149438 = tau Sco = Paikauhale = HR 6165 = 23 Sco = HIP 81266 = Gaia DR3 60444
 
 # Deprecated Standards
 
-Cl Trumpler 37 1588 = ALS 12008
- *O9.7IV: Sota11
-  O9.7V: Mathys89
-  O9.5V: Conti71,Conti73,Conti74,Garrison76
-  O9III: Bisiachhi82,
-  B0V: Morgan53,JM53,Morgan55,Hiltner56,Jaschek64(all),Simonson68,Garcia89
-  B3: Cannon
-
-  Similar to HD 206183 -- Morgan called B0V, but others later moved to
-  O9.5 or O9.7. OB2. M91: V=7.305+-0.014, B-V=0.324+-0.008,
-  U-B=-0.640+-0.000 => updated Q-method (10/9/2011) => (B-V)o=-0.308,
-  (U-B)o=-1.094, E(B-V)= 0.632, Av=2.047.  Teffs:
-  32059K(U-Bo=>Bessell98), 32190K(Daflon03,Daflon07) => median Teff =
-  32125K. logg=4.32(Daflon07). vsini=39+-2 km/s (Daflon07).
-
-HD 36512 = ups Ori = HR 1855
+HD 36512 = ups Ori = HR 1855 = HIP 25923 = 36 Ori = 2MASS J05315586-0718055 = Gaia DR3 3016424530632449280
  *O9.7V: Sota11(standard)
   B0V: Jaschek78(JM53),Jaschek64(all but one),Lesh68(stan),Walborn71,Walborn72,MK73,Abt77(B0Vs),Garcia89,Walborn90,Garrison94,Houk99(Garrison),Russeil07
   B0.5V: Lesh68(stan)
@@ -362,41 +346,36 @@ HD 36512 = ups Ori = HR 1855
   31560K(Cunha94), 31622K(Brown94), 31812K(Paunzen05),
   32200K(LeBorgne03), 32340+-2200K(Zorec09), 32533K(U-Bo=>Bessell98),
   32900K(Sokolov95) => median Teff ~ 32000K. logg=4.13(LeBorgne03),
-  [Fe/H]=0.25(LeBorgne03).
-
-  Ups Ori has the third bluest B-V in Johnson66's compilation of UBV
-  photometry, and the 2nd bluest U-B, so it could be useful for
-  defining the sequence of intrinsic UBV colors of hot stars. M91:
-  V=4.618+-0.013, B-V=-0.264+-0.007, U-B=-1.068+-0.008.  V=4.62
-  (Johnson66), V=4.618+-0.013 (Mermilliod91), B-V=-0.26 (Johnson66),
-  B-V=-0.264+-0.007 (Mermilliod91), U-B=-1.07 (Johnson66),
-  U-B=-1.068+-0.008 (Mermilliod91). logN_HI[cm^-2] = 20.35+-0.10
-  (Shull85; from Lyman alpha absorption). Adopting the Savage & Mathis
-  (1979) logNH/E(B-V) = 4.8e21 atoms/cm^2/mag, the Shull85 logN_HI
-  value translates to E(B-V) = 0.047. So (B-V)o = (B-V)obs - E(B-V) =
-  -0.264 - 0.047 = -0.311. Then E(U-B) = 0.72*E(B-V) = 0.72*0.047 =
-  0.034 mag. So (U-B)o = (U-B)obs - E(U-B) = -1.068 - 0.034 = -1.102
-  mag.
-  
+  [Fe/H]=0.25(LeBorgne03).  Ups Ori has the third bluest B-V in
+  Johnson66's compilation of UBV photometry, and the 2nd bluest U-B,
+  so it could be useful for defining the sequence of intrinsic UBV
+  colors of hot stars. M91: V=4.618+-0.013, B-V=-0.264+-0.007,
+  U-B=-1.068+-0.008.  V=4.62 (Johnson66), V=4.618+-0.013
+  (Mermilliod91), B-V=-0.26 (Johnson66), B-V=-0.264+-0.007
+  (Mermilliod91), U-B=-1.07 (Johnson66), U-B=-1.068+-0.008
+  (Mermilliod91). logN_HI[cm^-2] = 20.35+-0.10 (Shull85; from Lyman
+  alpha absorption). Adopting the Savage & Mathis (1979) logNH/E(B-V)
+  = 4.8e21 atoms/cm^2/mag, the Shull85 logN_HI value translates to
+  E(B-V) = 0.047. So (B-V)o = (B-V)obs - E(B-V) = -0.264 - 0.047 =
+  -0.311. Then E(U-B) = 0.72*E(B-V) = 0.72*0.047 = 0.034 mag. So
+  (U-B)o = (U-B)obs - E(U-B) = -1.068 - 0.034 = -1.102 mag.
   10/8/2011: Using revised Q-method calibration on Mermilliod91 colors
   (B-V=-0.264+-0.007, U-B=-1.068+-0.008) => (B-V)o = -0.310, (U-B)o =
-  -1.100, E(B-V) = 0.046, Av=0.146 mag. 
+  -1.100, E(B-V) = 0.046, Av=0.146 mag.  Vanleeuwen07 plx = 1.14+-0.25
+  mas => 877+-202 pc. I adopt D = 400 pc as typical distance to Ori
+  OB1.  The star is out of the plane and not particularly fast moving,
+  so it is doubtful that it is much beyond Ori OB1, and is likely
+  ~300-500 pc. Star seems to be associated with Ori OB1, but it is not
+  among the belt or sword stars - it is a couple degrees SW of the
+  Orion Nebula Cluster (ONC), but it does not share the motion of the
+  hot stars near it. It could be a "slow" runaway star from the belt
+  or sword region of Ori OB1. Its U and W motion are discrepent
+  compared to the ONC (deltaU ~ +13 km/s, deltaW ~ -4 km/s). More work
+  would be needed to test this idea.  Adopting d=400 pc, then Mv ~
+  -3.54, logL ~ 4.47 dex. GaiaDR3: plx=2.4567+-0.1403mas(GaiaDR3),
+  G=4.546215+-0.003022(GaiaDR3).
 
-  Vanleeuwen07 plx = 1.14+-0.25 mas => 877+-202 pc. I adopt D = 400 pc
-  as typical distance to Ori OB1.  The star is out of the plane and
-  not particularly fast moving, so it is doubtful that it is much
-  beyond Ori OB1, and is likely ~300-500 pc. Star seems to be
-  associated with Ori OB1, but it is not among the belt or sword stars
-  - it is a couple degrees SW of the Orion Nebula Cluster (ONC), but
-  it does not share the motion of the hot stars near it. It could be a
-  "slow" runaway star from the belt or sword region of Ori OB1. Its U
-  and W motion are discrepent compared to the ONC (deltaU ~ +13 km/s,
-  deltaW ~ -4 km/s). More work would be needed to test this idea.
-
-  Adopting d=400 pc, then Mv ~ -3.54, logL ~ 4.47 dex. 
-
-
-HD 46106 = HIP 31106 = Cl* NGC 2244 JOHN 5 (J0631+0501)
+HD 46106 = HIP 31106 = Cl* NGC 2244 JOHN 5 = 2MASS J06313839+0501363 = 	Gaia DR3 3131384484272514688	
   O9.4(III): 1990AISAO..32..106P
   O9.7III(n): Sota14
   O9.7II-III: Sota11
@@ -419,19 +398,10 @@ HD 46106 = HIP 31106 = Cl* NGC 2244 JOHN 5 (J0631+0501)
   Rosette nebula. Dias01 catalog lists D=1660 pc to this cluster.
   Hence, Mv ~ -4.62, logL ~ 4.91 dex.  Teffs: 29150K(Daflon07),
   30705+-539K(Fitzpatrick07), 30811K(U-Bo=>Bessell98) => median Teff =
-  30705K. logg=3.77+-0.16(Fitzpatrick07).
+  30705K. logg=3.77+-0.16(Fitzpatrick07). GaiaDR3: plx=0.6468+-0.0388mas(GaiaDR3),
+  G=7.897022+-0.002793(GaiaDR3).
 
-HD 206183 = Cl Trumpler 37 171 = ALS 11933
- *O9.5V: Cruz-Gonazalez74,Garrison76,Garmany82
-  B0V: JM53,Morgan55,Hiltner56,Simonson68,Garcia89
-  B9: Cannon (wow?!)
-
-  It is not in the Maiz-Appelaniz O-star catalog. Post-1970 refs all
-  agree on O9.5V. M91: V=7.419+-0.011, B-V=0.126+-0.012,
-  U-B=-0.787+-0.005 => updated Q-method (10/9/2011) => (B-V)o=-0.309,
-  (U-B)o=-1.100, E(B-V)= 0.435, Av=1.407.
-
-HD 143275 = del Sco = HR 5953
+HD 143275 = del Sco = HR 5953 = HIP 78401 = Dschubba = 7 Sco = LAB 3 = ALS 14815 = 2MASS J16002000-2237180 = WDS J16003-2237AB
  *B0.3IV: MK73,Houk88,Garcia89
   B0V: JM53,Jaschek64(most),Slettebak68,Thackeray66(B0Vnk),Morris61,Bertiau58
   B0: Cannon
@@ -439,15 +409,62 @@ HD 143275 = del Sco = HR 5953
   B1V: Wilson50
   B0IV: MK43.
 
-  Originally B0V, but has been B0.3-0.5 since ~1970
-  I'm assuming the most authoritative classification is B0.3IV (MK73).
-  Teff = 29760 K (Blackwell80). 
+  Originally B0V, but has been B0.3-0.5 since ~1970 I'm assuming the
+  most authoritative classification is B0.3IV (MK73).  Teff = 29760 K
+  (Blackwell80). Not in Gaia DR2 or DR3?
 
+HD 206183 = Cl Trumpler 37 171 = HIP 106843 = ALS 11933 = 2MASS J21382628+5658253 = Gaia DR3 2178158583618706560 = WDS J21384+5658A
+ *O9.5V: Cruz-Gonazalez74,Garrison76,Garmany82
+  B0V: JM53,Morgan55,Hiltner56,Simonson68,Garcia89
+  B9: Cannon (wow?!)
+
+  It is not in the Maiz-Appelaniz O-star catalog. Post-1970 refs all
+  agree on O9.5V. M91: V=7.419+-0.011, B-V=0.126+-0.012,
+  U-B=-0.787+-0.005 => updated Q-method (10/9/2011) => (B-V)o=-0.309,
+  (U-B)o=-1.100, E(B-V)=0.435, Av=1.407. GaiaDR3:
+  plx=1.0862+-0.0188mas(GaiaDR3), G=7.398346+-0.002776(GaiaDR3).
+
+HD 207538 = Cl Trumpler 37 1588 = HIP 107598 = ALS 12008 = 2MASS J21473980+5942014 = Gaia DR3 2203434019472097664
+ *O9.7IV: Sota11
+  O9.7V: Mathys89
+  O9.5V: Conti71,Conti73,Conti74,Garrison76
+  O9III: Bisiachhi82,
+  B0V: Morgan53,JM53,Morgan55,Hiltner56,Jaschek64(all),Simonson68,Garcia89
+  B3: Cannon
+
+  Similar to HD 206183 -- Morgan called B0V, but others later moved to
+  O9.5 or O9.7. OB2. M91: V=7.305+-0.014, B-V=0.324+-0.008,
+  U-B=-0.640+-0.000 => updated Q-method (10/9/2011) => (B-V)o=-0.308,
+  (U-B)o=-1.094, E(B-V)= 0.632,
+  Av=2.047. E(B-V)=0.610+-0.027(Paunzen24/N=7).  Teffs:
+  32059K(U-Bo=>Bessell98), 32190K(Daflon03,Daflon07) => median Teff =
+  32125K. logg=4.32(Daflon07). vsini=39+-2 km/s (Daflon07). GaiaDR3:
+  plx=1.1773+-0.017mas(GaiaDR3), G=7.215161+-0.002778(GaiaDR3).
+  
 
 # Other Stars
 
-Lesh68 classified two stars as B0V: HD 202214 & HD 36512. 
+Lesh68 classified two stars as B0V: HD 202214 & HD 36512.
 
+HD 75759
+
+HD 93030
+
+HD 164816
+
+HD 191495
+
+BD+37 3862
+
+HD 202214
+
+AG+57 1463
+
+AG+57 1465
+
+HD 239729
+
+HD 219634 
 
 # H-Ks vs J-H color trend for B-type dwarfs
 
@@ -477,8 +494,19 @@ where once again the rms scatters are consistent with the 2MASS photometric erro
 Hence for B0V stars with (B-V)o=-0.301, we estimate:
 (J-H)o = -0.133, (H-Ks)o = -0.048.
 
-# INTRINSIC (U-B) vs (B-V) COLOR SEQUENCE FOR B-TYPE DWARFS FROM Gutierrez-Moreno (1979)
+# Intrinsic (U-B) vs (B-V) color sequence for B-type dwarfs from Gutierrez-Moreno (1979)
 
 Gutierrez-Moreno (1979) estimates correlation between colors for B0 to B9 dwarf-type stars to be:
 (U-B)o = (3.71+-0.01)*(B-V)o + (0.031+-0.001)
 "with a maximum error in (U-B)o equal to -0.01 for B7 stars". 
+
+# Intrinsic Gaia DR3 color sequence for hot stars (Bp-Rp,Bp-G,G-Rp)
+
+For a sample of d<75pc stars with HD designations and spectral classifications with GaiaDR3 colors that pass quality flags ('good'), including some subdwarf B stars (which appear to be on the same color seqeunce):
+
+For -0.32<(Bp-Rp)<+0.10:
+
+(G-Rp)  =  0.0062 + 0.67594*(Bp-Rp) (rms=0.0075mag) [-0.32<(Bp-Rp)<+0.10]
+(Bp-G)  = -0.0062 + 0.32406*(Bp-Rp) (rms=0.0075mag) [-0.32<(Bp-Rp)<+0.10]
+(Bp-Rp) = -0.00817 + 1.46153*(G-Rp) (rms=0.010mag)  [-0.32<(Bp-Rp)<+0.10]
+(Bp-Rp) =  0.02825 + 3.14547*(Bp-G) (rms=0.023mag)  [Bp-G<+0.01, only linear blueward of this]
